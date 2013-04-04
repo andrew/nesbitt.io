@@ -15,6 +15,7 @@ h1, h2{
 h1{
   font-size: 60px;
   margin:0;
+  font-weight:normal;
 }
 
 h2{
@@ -67,4 +68,14 @@ section li{
 
 section h3, section p{
   margin:5px 0;
+}
+
+footer{
+  font-size:12px;
+  color:#bbb;
+  margin:40px 0;
+}
+
+footer a{
+  color:#999;
 }
