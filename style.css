@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+
+body{
+  margin:0;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size:15px;
+  border-top:2px solid #006ab2;
+}
+
+h1, h2{
+  font-family: 'Oswald', sans-serif;
+  text-transform:uppercase;
+}
+
+h1{
+  font-size: 60px;
+  margin:0;
+}
+
+h2{
+  font-size:40px;
+  margin:0;
+}
+
+a{
+  color:#006ab2;
+}
+
+#container{
+  max-width:800px;
+  padding:10px;
+  margin:0 auto;
+}
+
+.face {
+  float: left;
+  margin-right: 13px;
+  margin-top:10px;
+  border-radius: 70px;
+  width: 70px;
+  height: 70px;
+  background-size: 100%;
+  background-image: url('andrew.jpg');
+}
+
+section{
+  padding-top:10px;
+  margin-bottom:10px;
+  border-top:1px solid #eee;
+}
+
+section ul{
+  margin:10px 0;
+  padding:0;
+}
+
+section li{
+  list-style:none;
+  padding:0;
+  margin:0 0 15px;
+}
+
+section h3, section p{
+  margin:5px 0;
+}
