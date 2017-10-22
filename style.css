@@ -25,7 +25,7 @@ h2{
 }
 
 a{
-  color:#006ab2;
+  color:#006ab2 !important;
 }
 
 #container{
@@ -43,13 +43,9 @@ a{
   clear:both;
 }
 
-@media only screen and (max-width: 900px) {
-  .hire-me{
-    display:none;
-  }
-}
 
-@media only screen and (max-width: 760px) {
+
+/*@media only screen and (max-width: 760px) {
   .social, h1{
     margin-top:0;
     float:none;
@@ -66,18 +62,18 @@ a{
   h2{
     font-size:30px;
   }
-}
+}*/
 
 
 .face {
   float: left;
   margin-right: 13px;
-  margin-top:10px;
-  border-radius: 70px;
-  width: 70px;
-  height: 70px;
+  margin-top:0px;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
   background-size: 100%;
-  background-image: url('andrew.jpg');
+  background-image: url('face.jpg');
 }
 
 section{
@@ -87,26 +83,21 @@ section{
 }
 
 section ul{
-  margin:10px 0;
+  margin:15px 0;
   padding:0;
 }
 
 section li{
   list-style:none;
   padding:0;
-  margin:0 0 15px;
+  margin:0 0 20px;
 }
 
 section h3, section p{
   margin:5px 0;
 }
 
-footer{
-  font-size:12px;
-  color:#bbb;
-  margin:40px 0;
-}
-
-footer a{
-  color:#999;
+.media{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
