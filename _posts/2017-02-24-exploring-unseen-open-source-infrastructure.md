@@ -37,4 +37,4 @@ Another area that needs exploring is system level package managers like apt and 
 
 If you’d like to get involved, the whole project is [open source](https://github.com/librariesio/libraries.io) and we’d love to help you get started contributing, or if you’d like to build tools on top of all this data, check out the [Libraries.io REST API](http://libraries.io/api)
 
-As always, follow us on Twitter at [@teabass](https://twitter.com/teabass), [@benjam](https://twitter.com/benjam) and [@librariesio](https://twitter.com/librariesio) for more updates.
+As always, follow us on Twitter at [@teabass](https://twitter.com/teabass) and [@benjam](https://twitter.com/benjam) for more updates.
