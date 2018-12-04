@@ -7,7 +7,6 @@ body{
 
 h1, h2{
   font-family: 'Oswald', sans-serif;
-  text-transform:uppercase;
 }
 
 h1{
@@ -26,7 +25,7 @@ a{
 }
 
 .container{
-  max-width:1000px !important;
+  max-width:900px !important;
   padding:10px;
   margin:0 auto;
 }
@@ -42,6 +41,10 @@ a{
 
 img{
   max-width: 100%;
+}
+
+.post-content{
+  font-size: 20px;
 }
 
 /*@media only screen and (max-width: 760px) {
