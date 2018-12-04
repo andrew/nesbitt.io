@@ -1,0 +1,257 @@
+---
+layout: default
+---
+
+
+<div class="row">
+  <div class="col-12">
+    Andrew is a software developer, based in Somerset, UK. He spends most of his days programming in Ruby, contributing to open source projects and organising local developer user groups.
+  </div>
+</div>
+<hr>
+<h3>Projects</h3>
+<div class="row">
+  <div class="media col-lg-4">
+    <a href="https://octobox.io"><img class="mr-3" src="https://github.com/octobox.png" width="60px"></a>
+    <div class="media-body">
+      <h5 class="mt-0"><a href="https://octobox.io">Octobox</a></h5>
+      Take back control of your GitHub notifications.
+    </div>
+  </div>
+  <div class="media col-lg-4">
+    <a href="https://24pullrequests.com"><img class="mr-3" src="https://github.com/24pullrequests.png" width="60px"></a>
+    <div class="media-body">
+      <h5 class="mt-0"><a href="https://24pullrequests.com">24 Pull Requests</a></h5>
+      Giving back to open source for the holidays.
+    </div>
+  </div>
+  <div class="media col-lg-4">
+    <a href="https://manifest.fm"><img class="mr-3" src="https://github.com/themanifest.png" width="60px"></a>
+    <div class="media-body">
+      <h5 class="mt-0"><a href="https://manifest.fm">Manifest Podcast</a></h5>
+      A podcast all about package management.
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="media col-lg-4">
+    <a href="https://github.com/splitrb/split"><img class="mr-3" src="https://github.com/splitrb.png" width="60px"></a>
+    <div class="media-body">
+      <h5 class="mt-0"><a href="https://github.com/splitrb/split">Split</a></h5>
+      The Rack Based AB testing framework
+    </div>
+  </div>
+  <div class="media col-lg-4">
+    <a href="https://libraries.io"><img class="mr-3" src="https://github.com/librariesio.png" width="60px"></a>
+    <div class="media-body">
+      <h5 class="mt-0"><a href="https://libraries.io">Libraries.io</a></h5>
+      The Open source Discovery Service.
+    </div>
+  </div>
+  <div class="media col-lg-4">
+    <img class="mr-3" src="https://github.com/dependencyci.png" width="60px">
+    <div class="media-body">
+      <h5 class="mt-0">Dependency CI</h5>
+      Automatic compliance testing for all of you dependencies.
+    </div>
+  </div>
+</div>
+
+<section class="posts">
+  {%- if site.posts.size > 0 -%}
+    <h3>{{ page.list_title | default: "Recent Posts" }}</h3>
+    <ul>
+      {%- for post in site.posts -%}
+      <li>
+        <h4>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h4>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <p class="post-meta">{{ post.date | date: date_format }}</p>
+      </li>
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</section>
+
+
+<section id='code'>
+  <h3>More Projects</h3>
+  <ul>
+    <li>
+      <h4><a href='https://github.com/sass/node-sass'>node-sass</a></h4>
+      <p>Node.js bindings to libsass</p>
+    </li>
+    <li>
+      <h4><a href='https://github.com/andrew/contribulator'>Contribulator</a></h4>
+      <p>Find open source project that are friendly and welcoming</p>
+    </li>
+    <li>
+      <h4><a href='https://github.com/andrew/first-pr'>First Pull Request</a></h4>
+      <p>What was your first pull request?</p>
+    </li>
+    <li>
+      <h4><a href='https://github.com/Homebrew/homebrew-bundle'>Homebrew Bundle</a></h4>
+      <p>Bundler for non-ruby dependencies from homebrew</p>
+    </li>
+    <li>
+      <h4><a href='https://github.com/andrew/node-xbox-controller'>Xbox Controller</a></h4>
+      <p>Interface for Xbox 360 game controller into Node.js</p>
+    </li>
+    <li>
+      <h4><a href='https://twitter.com/JustOpenSourced'>Just Open Sourced</a></h4>
+      <p>A twitter bot that tweets whenever a repo is open sourced on GitHub.</p>
+    </li>
+  </ul>
+</section>
+<section id='events'>
+  <h3>Events</h3>
+  <ul>
+    <li>
+      <h4><a href='http://2016.bathruby.uk/'>Bath Ruby Conference 2016</a></h4>
+      <p>The biggest Ruby confernce in the UK</p>
+    </li>
+    <li>
+      <h4><a href='http://2015.bathruby.org/'>Bath Ruby Conference 2015</a></h4>
+      <p>The biggest Ruby confernce in the UK</p>
+    </li>
+    <li>
+      <h4><a href='http://www.meetup.com/bathruby/'>Bath Ruby User Group</a></h4>
+      <p>Informal monthly meetups for Rubyists in and around Bath</p>
+    </li>
+    <li>
+      <h4><a href='http://greatbritishnodeconf.co.uk/'>The Great British Node Conference</a></h4>
+      <p>A single day, community focused, Node.js conference in London</p>
+    </li>
+    <li>
+      <h4><a href='http://lnug.org/'>LNUG</a></h4>
+      <p>The London Node.js User Group</p>
+    </li>
+    <li>
+      <h4><a href='http://nodecopter.com/'>Nodecopter</a></h4>
+      <p>Bringing flying robot hackdays to the UK</p>
+    </li>
+    <li>
+      <h4><a href='http://railsgirls.com/'>RailsGirls</a></h4>
+      <p>Helping teach women programming and rails around the UK</p>
+    </li>
+  </ul>
+</section>
+<section id='presentations'>
+  <h3>Presentations</h3>
+  <ul>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/can-my-friends-come-too'>Can my friends come too?</a></h4>
+      <p>Presented at Brighton Ruby in 2017</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/elasticsearch-on-rails'>Elasticsearch on Rails</a></h4>
+      <p>Presented at South-West Elastic Community Meetup in 2015</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/robotics-101'>Robotics 101</a></h4>
+      <p>Presented at Hackference in 2014</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/learning-how-to-tinker'>Learning how to Tinker</a></h4>
+      <p>Presented at HybridConf in 2014</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/hardware-hacking-with-javascript'>The Rise of JavaScript Hardware Hacking</a></h4>
+      <p>Presented at jQuery UK in 2014</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/javascript-in-the-real-world'>JavaScript in the Real World</a></h4>
+      <p>Presented at Full Frontal in 2013</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/the-future-of-nodecopter'>The Future of Nodecopter</a></h4>
+      <p>Presented at LXJS in 2013</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/webshaped'>Turbo Charging your workflow with Node.js</a></h4>
+      <p>Presented at Webshaped in 2013</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/the-meetup-organisers-field-guide'>The Meetup Organisers Field Guide</a></h4>
+      <p>Presented at Bristol IT Mega Meet in 2013</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/nodecopter-cheltenham-geek-nights'>Node.js + Quadcopters, what could go wrong?</a></h4>
+      <p>Presented at Cheltenham Geek Nights in 2013</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/an-introduction-to-rubymotion'>An introduction to RubyMotion</a></h4>
+      <p>Presented at the London, Bristol and Cardiff Ruby User Groups about Rubymotion in 2013</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/integrating-node-dot-js'>Integrating Node.js into an existing stack</a></h4>
+      <p>Presented at the Italian Node.js Conference in 2012</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/em-vs-node'>Event Machine vs Node.js</a></h4>
+      <p>Presented at Ruby Manor in 2011</p>
+    </li>
+    <li>
+      <h4><a href='https://speakerdeck.com/andrew/b-testing-everything-with-split'>A/B Testing everything with Split</a></h4>
+      <p>Presented at Arrrrcamp in 2011</p>
+    </li>
+  </ul>
+</section>
+<section id='videos'>
+  <h3>Videos</h3>
+  <ul>
+    <li>
+      <h4><a href='https://brightonruby.com/2017/can-my-friends-come-too-andrew-nesbitt/'>Can my friends come too?</a></h4>
+      <p>Presented at Brighton Ruby in 2017</p>
+    </li>
+    <li>
+      <h4><a href='http://vimeo.com/album/2912171/video/97724406'>The Rise of JavaScript Hardware Hacking</a></h4>
+      <p>Presented at jQuery UK in 2014</p>
+    </li>
+    <li>
+      <h4><a href='http://www.youtube.com/watch?v=C7wWakRMAUY'>JavaScript in the Real World</a></h4>
+      <p>Recorded at Full Frontal in 2013</p>
+    </li>
+    <li>
+      <h4><a href='http://www.youtube.com/watch?v=1qq4c6J8lVU'>The Future of Nodecopter</a></h4>
+      <p>Recorded at LXJS in 2013</p>
+    </li>
+    <li>
+      <h4><a href='http://www.youtube.com/watch?v=bcQAdVO3N_c'>Nodecopter</a></h4>
+      <p>Recorded at Over the Air in 2013</p>
+    </li>
+    <li>
+      <h4><a href='http://vimeo.com/76642005'>Turbo Charging your workflow with Node.js</a></h4>
+      <p>Recorded at Webshaped in 2013</p>
+    </li>
+    <li>
+      <h4><a href='http://skillsmatter.com/podcast/ajax-ria/an-introduction-to-rubymotion-writing-ios-apps-with-ruby'>An introduction to Rubymotion: Writing iOS apps with Ruby</a></h4>
+      <p>Recorded at London Ruby User Group in 2012</p>
+    </li>
+    <li>
+      <h4><a href='http://vimeo.com/52547197'>Integrating Node.js into your existing technology stack.</a></h4>
+      <p>Recorded at London Node User Group in 2012</p>
+    </li>
+    <li>
+      <h4><a href='http://vimeo.com/41141012'>Using Node.js and Ruby on Rails for uber productivity</a></h4>
+      <p>Recorded at London Node User Group in 2012</p>
+    </li>
+    <li>
+      <h4><a href='http://vimeo.com/32617520'>Form Analytics With inForm</a></h4>
+      <p>Recorded at HN London in 2011</p>
+    </li>
+    <li>
+      <h4><a href='http://www.youtube.com/watch?v=U7dbQ4cIe34'>Event Machine vs Node.js</a></h4>
+      <p>Recorded at Ruby Manor in 2011</p>
+    </li>
+    <li>
+      <h4><a href='http://vimeo.com/30586648'>A/B Testing everything with Split</a></h4>
+      <p>Recorded at Arrrrcamp in 2011</p>
+    </li>
+  </ul>
+</section>

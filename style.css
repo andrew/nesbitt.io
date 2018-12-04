@@ -11,7 +11,6 @@ h1, h2{
 }
 
 h1{
-  float:left;
   font-size: 60px;
   margin:0;
   font-weight:normal;
@@ -26,8 +25,8 @@ a{
   color:#006ab2 !important;
 }
 
-#container{
-  max-width:800px;
+.container{
+  max-width:1000px !important;
   padding:10px;
   margin:0 auto;
 }
@@ -41,7 +40,9 @@ a{
   clear:both;
 }
 
-
+img{
+  max-width: 100%;
+}
 
 /*@media only screen and (max-width: 760px) {
   .social, h1{
