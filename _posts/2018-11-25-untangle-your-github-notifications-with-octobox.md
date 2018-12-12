@@ -32,7 +32,7 @@ Octobox started life as a side project in December 2016, since then it’s grown
 
 Last month [Ben and I announced](https://medium.com/octobox/goodbye-tidelift-hello-octobox-60c4eafc4507) that we’re going to start working full time to make Octobox a truly sustainable open source project that can financially support itself and the community.
 
-Today we’re expanding the scope of Octobox and [**launching on the GitHub Marketplace](https://github.com/marketplace/octobox)**, offering new, paid enhancements for private repositories on [Octobox.io](https://octobox.io) with a two week free trial period.
+Today we’re expanding the scope of Octobox and **[launching on the GitHub Marketplace](https://github.com/marketplace/octobox)**, offering new, paid enhancements for private repositories on [Octobox.io](https://octobox.io) with a two week free trial period.
 
 You can also get the same enhancements for private repositories by [donating or becoming a sponsor on Open Collectiv](https://opencollective.com/octobox#)e, same price but the support goes directly to the community.
 
