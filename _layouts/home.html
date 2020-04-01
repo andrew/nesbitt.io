@@ -64,7 +64,7 @@ layout: default
       {%- for post in site.posts -%}
       <li>
         <h4>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+          <a class="post-link" href="/{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h4>
