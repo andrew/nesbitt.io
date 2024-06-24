@@ -266,7 +266,7 @@ PVP was proposed to the Haskell community by [Bulat Ziganshin](https://github.co
 
 <hr>
 
-If you know of any other versioning schemes that should be on this list? Let me know on [mastodon](https://mastodon.social/@andrewnez) or submit a pull request to [GitHub](https://github.com/andrew/nesbitt.io).
+If you know of any other versioning schemes that should be on this list? Let me know on [mastodon](https://mastodon.social/@andrewnez) or submit a pull request to [GitHub](https://github.com/andrew/nesbitt.io/blob/master/_posts/2024-06-24-from-zerover-to-semver-a-comprehensive-list-of-versioning-schemes-in-open-source.md).
 
 Some other versioning related links:
 
