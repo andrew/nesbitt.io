@@ -25,13 +25,16 @@ Originally proposed by [Tom Preston-Werner](https://tom.preston-werner.com/) in 
 
 ### [CalVer](https://calver.org/)
 
-Calendar Versioning (CalVer) is a versioning scheme that uses a date-based version number, typically in the format `YYYY.MM.DD`. This scheme is based on the idea that version numbers should be human-readable and easy to understand, providing a clear indication of when a release was made.
+**Calendar Versioning (CalVer)** is a versioning scheme that uses a date-based version number, typically in the format `YYYY.MM.DD`. This scheme is based on the idea that version numbers should be human-readable and easy to understand, providing a clear indication of when a release was made.
 
-- **MAJOR** - The first number in the version. 2 and 3 are Python's famous major versions. The major segment is the most common calendar-based component.
-- **MINOR** - The second number in the version. 7 is the most popular minor version of Python.
-- **MICRO** - The third and usually final number in the version. Sometimes referred to as the "patch" segment.
+CalVer offers multiple calendar-based formats to suit different project needs:
 
-CalVer is often used in projects where the release schedule is more important than the specific features or changes included in a release. It is particularly popular in projects that follow a regular release cycle, such as monthly or quarterly releases.
+- **YYYY.MM.DD**: Full date (e.g., 2021.03.22) indicating the exact release day.
+- **YYYY.MM**: Year and month (e.g., 2021.03) for monthly releases.
+- **YYYY.0M.DD**: Zero-padded month and day (e.g., 2021.03.05) for consistency in sorting.
+- **YY.0M.DD**: Short year, zero-padded month, and day (e.g., 21.03.05) for compactness.
+- **YYYY.WW**: Year and week number (e.g., 2021.12) for weekly releases.
+- **YY.0W**: Short year and zero-padded week (e.g., 21.05) for a simpler weekly format.
 
 CalVer was proposed by [Mahmoud Hashemi](https://sedimental.org/) in March 2016.
 
