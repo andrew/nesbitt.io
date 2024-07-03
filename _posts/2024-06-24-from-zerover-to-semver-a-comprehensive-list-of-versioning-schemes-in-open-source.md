@@ -269,6 +269,28 @@ PVP was proposed to the Haskell community by [Bulat Ziganshin](https://github.co
 
 <hr>
 
+### [FloatVer](https://alexshroyer.com/posts/2024-07-01-FloatVer.html)
+
+**FloatVer** is a versioning scheme that uses non-negative IEEE754 32-bit floating point numbers in base-10 format. FloatVer is natively supported by the majority of programming languages, CPUs, and GPUs. Some example FloatVer version numbers are `0.7` and `290.10008`.
+
+**Version Number Format**: `breaking.nonbreaking`
+- **breaking**: incremented by 1 for backward-incompatible changes
+- **nonbreaking**: incremented for backward-compatible changes
+- Purely `nonbreaking` changes MUST NOT increment the `breaking` part of the number.
+- Breaking changes MAY change the `nonbreaking` part of the number to any value.
+- Leading and trailing zeros are ignored, except in the case of `0.0`.
+- `0.0` is the minimum version and starting point for all FloatVer projects.
+- `340282346638528859811704183484516925440.0000000000000000` is the largest possible version supported by FloatVer.
+
+In the context of FloatVer, "backward-compatible" means:
+- no semantic changes to existing functionality
+- an updated existing feature uses no more memory, time, or cores than its previous version
+- the software takes up no more than 1.5 times the space of the previous version
+
+These rules ensure that nonbreaking versions permit safe automatic upgrades. FloatVer was proposed by [Alex Shroyer](https://github.com/hoosierEE/) in July 2024.
+
+<hr>
+
 If you know of any other versioning schemes that should be on this list? Let me know on [mastodon](https://mastodon.social/@andrewnez) or submit a pull request to [GitHub](https://github.com/andrew/nesbitt.io/blob/master/_posts/2024-06-24-from-zerover-to-semver-a-comprehensive-list-of-versioning-schemes-in-open-source.md).
 
 Some other versioning related links:
