@@ -291,6 +291,24 @@ These rules ensure that nonbreaking versions permit safe automatic upgrades. Flo
 
 <hr>
 
+### AsymptoVer
+
+**AsymptoVer** – yes, I’ve just made up that name – is a peculiar, maybe even esoteric, versioning scheme.
+It was popularized by [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) (see also [**Errata** on the book series **Computers & Typesetting**](https://www-cs-faculty.stanford.edu/~knuth/abcde.html#bugs)).
+Version numbers are decimal numbers that asymptotically approach a number with an infinite decimal expansion (usually an irrational number).
+
+Examples:
+- Version numbers of [TeX](https://en.wikipedia.org/wiki/TeX)
+  approach [Archimedes’ constant](https://en.wikipedia.org/wiki/Archimedes_constant).
+  The scheme was adopted at version number `3`, followed by version `3.1`, then `3.14`, then `3.141`, and so on (see [entry A000796 in the OEIS](https://oeis.org/A000796)).
+- Version numbers of [Metafont](https://en.wikipedia.org/wiki/Metafont)
+  approach [Euler’s number](https://en.wikipedia.org/wiki/Euler%27s_number),
+  starting at `2`, followed by `2.7`, then `2.71`, and so on (see [entry A001113 in the OEIS](https://oeis.org/A001113)).
+
+If you feel like joking: There are plenty irrational [algebraic numbers](https://en.wikipedia.org/wiki/Algebraic_number) and [transcendental numbers](https://en.wikipedia.org/wiki/Transcendental_number) available.
+
+<hr>
+
 If you know of any other versioning schemes that should be on this list? Let me know on [mastodon](https://mastodon.social/@andrewnez) or submit a pull request to [GitHub](https://github.com/andrew/nesbitt.io/blob/master/_posts/2024-06-24-from-zerover-to-semver-a-comprehensive-list-of-versioning-schemes-in-open-source.md).
 
 Some other versioning related links:
