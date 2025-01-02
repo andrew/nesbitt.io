@@ -311,11 +311,10 @@ If you feel like joking: There are plenty irrational [algebraic numbers](https:/
 
 ### [TrunkVer](https://trunkver.org/)
 
-**TrunkVer** is a versioning scheme designed for trunk-based development and continuous delivery pipelines. It automates version generation, embedding meaningful metadata about the build, such as timestamps and commit hashes. TrunkVer aligns with Semantic Versioning (SemVer) principles while enhancing traceability and auditing for every build.
+**TrunkVer** is a versioning scheme designed for trunk-based development and continuous delivery pipelines. It automates version generation, embedding meaningful metadata about the build, such as timestamps and commit hashes. TrunkVer is structurally compatible with SemVer.
 
-Version Number Format: `YYYYMMDDHHMMSS.MAJOR.MINOR-gCOMMIT_HASH-BUILD_REF`
+Version Number Format: `YYYYMMDDHHMMSS.0.0-gCOMMIT_HASH-BUILD_REF`
 - Timestamp: `YYYYMMDDHHMMSS` represents the build date and time in UTC.
-- Major and Minor: Default to `0.0` for initial builds, incremented for significant and minor changes.
 - Commit Hash: `gCOMMIT_HASH` is the short Git commit hash of the build.
 - Build Ref: `BUILD_REF` is a CI/CD reference (e.g., pipeline ID or local for manual builds).
 
@@ -323,9 +322,9 @@ Key Features:
 - Automates versioning in trunk-based workflows, eliminating manual version debates.
 - Ensures each build is uniquely identifiable.
 - Supports traceability and auditing for compliance and debugging.
-- Compatible with existing SemVer practices for a seamless transition.
+- Compatible with existing SemVer tooling for a seamless transition.
 
-TrunkVer was proposed as a practical solution for modern continuous integration and deployment environments. TrunkVer was proposed by [Raimo Radczewski](https://github.com/rradczewski) in May 2024.
+TrunkVer was proposed as a practical solution for modern continuous integration and deployment environments. TrunkVer was proposed by [Chris Klyk](https://github.com/c089) and [Raimo Radczewski](https://github.com/rradczewski) of [crafted. tech collective GmbH](https://www.crftd.tech) in May 2024.
 
 <hr>
 
