@@ -328,6 +328,19 @@ TrunkVer was proposed as a practical solution for modern continuous integration 
 
 <hr>
 
+### [Epoch SemVer](https://antfu.me/posts/epoch-semver)
+
+**Epoch SemVer** extends Semantic Versioning by introducing an additional numeric prefix called an *epoch*. This prefix is intended to handle situations where a project undergoes fundamental changes—like a full rewrite or rebrand—that traditional SemVer can't clearly express.
+
+**Format**: `EPOCH:MAJOR.MINOR.PATCH`
+- **EPOCH**: Increments when a project resets or diverges in a way that breaks continuity with previous versions.
+- **MAJOR.MINOR.PATCH**: Follows standard [SemVer](https://semver.org/) rules.
+
+The epoch helps clarify incompatible timelines and avoids confusion when version numbers otherwise might overlap or reset.
+
+Epoch SemVer was proposed by [Anthony Fu](https://antfu.me/) in Jan 2025.
+
+<hr>
 
 If you know of any other versioning schemes that should be on this list? Let me know on [mastodon](https://mastodon.social/@andrewnez) or submit a pull request to [GitHub](https://github.com/andrew/nesbitt.io/blob/master/_posts/2024-06-24-from-zerover-to-semver-a-comprehensive-list-of-versioning-schemes-in-open-source.md).
 
