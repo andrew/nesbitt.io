@@ -1,11 +1,18 @@
 ---
 layout: post
-title: 'From ZeroVer to SemVer: A Comprehensive List of Versioning Schemes in Open
-  Source'
+title: "From ZeroVer to SemVer: A Comprehensive List of Versioning Schemes in Open Source"
 date: 2024-06-24 16:52 +0100
+description: "A curated catalogue of versioning schemes used in open source software—from the conventional to the creative."
+tags:
+  - versioning
+  - open source
+  - software development
+  - SemVer
 ---
 
-You might think that semantic versioning (SemVer) is the only versioning scheme in open source software, but there’s actually an array of alternatives out there. In this post, I’ve compiled a comprehensive list of the various versioning schemes floating around in the internet, from ZeroVer to SemVer, and everything in between.
+You might assume Semantic Versioning (SemVer) is the only real game in town but versioning in open source is far messier and more diverse than that. Across different ecosystems, maintainers have proposed and adopted a wide range of alternative schemes, from the satirical to the pragmatic. This post is a catalogue of the many versioning approaches that exist in the wild today—from ZeroVer to SemVer and beyond.
+
+If you know of a versioning scheme that’s missing from this list, I’d love to hear about it. You can reach me on [Mastodon](https://mastodon.social/@andrewnez) or open a pull request on [GitHub](https://github.com/andrew/nesbitt.io/blob/master/_posts/2024-06-24-from-zerover-to-semver-a-comprehensive-list-of-versioning-schemes-in-open-source.md).
 
 <hr>
 
