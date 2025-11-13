@@ -2,7 +2,7 @@
 layout: post
 title: "Package Management Papers"
 date: 2025-11-13 12:00 +0000
-description: "A comprehensive collection of academic research papers on package management systems, dependency resolution, supply chain security, and software ecosystems."
+description: "A collection of academic research papers on package management systems, dependency resolution, supply chain security, and software ecosystems."
 tags:
   - package management
   - research
@@ -133,7 +133,7 @@ Proposed comparative framework for assessing security features of package manage
 *Piergiorgio Ladisa, Henrik Plate, Matias Martinez, Olivier Barais*
 IEEE Symposium on Security and Privacy (S&P)
 
-Systematized knowledge about attacks on open-source software supply chains, proposing comprehensive taxonomy independent of specific languages or ecosystems. Identified 12 distinct attack categories and analyzed their prevalence.
+Systematized knowledge about attacks on open-source software supply chains, proposing taxonomy independent of specific languages or ecosystems. Identified 12 distinct attack categories and analyzed their prevalence.
 
 **[SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties](https://dl.acm.org/doi/10.1145/3560835.3564556)** (2022)
 *Chinenye Okafor, James Davis, et al.*
@@ -175,13 +175,13 @@ Large-scale empirical studies of package ecosystems and their structural propert
 *Erik Wittern, Philippe Suter, Shriram Rajagopalan*
 International Conference on Mining Software Repositories (MSR)
 
-First comprehensive analysis of npm ecosystem examining package descriptions, dependencies, download metrics, and historical evolution. Analyzed 230,000+ packages over 6 years.
+First analysis of npm ecosystem examining package descriptions, dependencies, download metrics, and historical evolution. Analyzed 230,000+ packages over 6 years.
 
 **[npm-follower: A Complete Dataset Tracking the NPM Ecosystem](https://dl.acm.org/doi/10.1145/3611643.3613867)** (2023)
 *Donald Pinckney, Federico Cassano, Arjun Guha, Jonathan Bell*
 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE)
 
-Introduced comprehensive dataset architecture that archives metadata and code of all npm packages as published, including deleted versions (330,000+ versions deleted between July 2022-May 2023).
+Introduced dataset architecture that archives metadata and code of all npm packages as published, including deleted versions (330,000+ versions deleted between July 2022-May 2023).
 
 **[An Empirical Analysis of Technical Lag in npm Package Dependencies](https://link.springer.com/chapter/10.1007/978-3-319-90421-4_6)** (2018)
 *Ahmed Zerouali, Eleni Constantinou, Tom Mens, Gregorio Robles, Jesús M. González-Barahona*
@@ -193,7 +193,7 @@ Introduced technical lag metric to assess how outdated packages are compared to 
 *Ethan Bommarito, Michael J. Bommarito II*
 arXiv preprint
 
-Comprehensive empirical summary covering 178,592 packages, 1,745,744 releases, 76,997 contributors, and 156.8M+ import statements. Found 47% CAGR for active packages, 39% for new authors.
+Empirical summary covering 178,592 packages, 1,745,744 releases, 76,997 contributors, and 156.8M+ import statements. Found 47% CAGR for active packages, 39% for new authors.
 
 **[Analyzing the Accessibility of GitHub Repositories for PyPI and NPM Libraries](https://arxiv.org/abs/2403.03923)** (2024)
 *Alexandros Tsakpinis, Alexander Pretschner*
@@ -201,7 +201,7 @@ arXiv preprint
 
 Analyzed accessibility of GitHub repositories for libraries using page rank algorithm, finding up to 80.1% of PyPI and 81.1% of npm libraries have repository URLs within dependency chains.
 
-**[A Comprehensive Study of Bloated Dependencies in the Maven Ecosystem](https://link.springer.com/article/10.1007/s10664-020-09914-8)** (2021)
+**[A Study of Bloated Dependencies in the Maven Ecosystem](https://link.springer.com/article/10.1007/s10664-020-09914-8)** (2021)
 *César Soto-Valero, Nicolas Harrand, Martin Monperrus, Benoit Baudry*
 Empirical Software Engineering
 
@@ -223,7 +223,7 @@ Most recent large-scale Maven vulnerability study analyzing 4 million releases. 
 *Multiple authors*
 MSR 2025 Mining Challenge
 
-Comprehensive vulnerability analysis of 77,393 vulnerable releases with 226 unique CWEs. Found 25 CWEs account for nearly 70% of all vulnerabilities. Vulnerabilities take approximately 5 years to document and 4.4 years to resolve on average. Input validation and access control issues dominate.
+Vulnerability analysis of 77,393 vulnerable releases with 226 unique CWEs. Found 25 CWEs account for nearly 70% of all vulnerabilities. Vulnerabilities take approximately 5 years to document and 4.4 years to resolve on average. Input validation and access control issues dominate.
 
 **[Tracing Vulnerabilities in Maven: A Study of CVE lifecycles](https://arxiv.org/abs/2502.04621)** (2025)
 *Corey Yang-Smith et al.*
@@ -241,7 +241,7 @@ Largest static analysis of PyPI at time of publication, analyzing 197,000+ packa
 *Ethan Bommarito, Michael J. Bommarito II*
 arXiv preprint
 
-Comprehensive analysis of 25,000+ packages, 150,000 releases across CRAN, Bioconductor, and GitHub over two decades. Found top 5 packages imported by 25% of all packages, top 10 maintainers support packages imported by 50%+ of ecosystem.
+Analysis of 25,000+ packages, 150,000 releases across CRAN, Bioconductor, and GitHub over two decades. Found top 5 packages imported by 25% of all packages, top 10 maintainers support packages imported by 50%+ of ecosystem.
 
 **[A Complex Network Analysis of the Comprehensive R Archive Network (CRAN) Package Ecosystem](https://www.sciencedirect.com/science/article/pii/S0164121220301527)** (2020)
 *Multiple authors*
@@ -265,7 +265,7 @@ Quantitative analysis of seven packaging ecosystems (Cargo, CPAN, CRAN, npm, NuG
 *Multiple authors*
 ACM Transactions on Software Engineering and Methodology (TOSEM)
 
-First comprehensive security investigation of Rust ecosystem. Analyzed dataset of 433 vulnerabilities across 300 vulnerable code repositories. Found vulnerable code is localized at file level and contains significantly more unsafe functions/blocks. More popular packages have more vulnerabilities, while less popular packages remain vulnerable for more versions.
+First security investigation of Rust ecosystem. Analyzed dataset of 433 vulnerabilities across 300 vulnerable code repositories. Found vulnerable code is localized at file level and contains significantly more unsafe functions/blocks. More popular packages have more vulnerabilities, while less popular packages remain vulnerable for more versions.
 
 **[Why do software packages conflict?](https://ieeexplore.ieee.org/document/6224287)** (2012)
 *Cyrille Artho, Roberto Di Cosmo, Kuniyasu Suzaki, Stefano Zacchiroli*
@@ -553,7 +553,7 @@ Studies typosquatting and combosquatting attacks on PyPI. Combosquatting exploit
 *Multiple authors*
 arXiv preprint
 
-First scalable deployment of a typosquatting detection system that addresses key limitations by leveraging comprehensive package metadata. Improved neighbor search speeds by 73-91% and reduced false positives by 70.4% compared to prior work. Being used in production, contributing to removal of 3,658 typosquatting threats in one month.
+First scalable deployment of a typosquatting detection system that addresses key limitations by leveraging package metadata. Improved neighbor search speeds by 73-91% and reduced false positives by 70.4% compared to prior work. Being used in production, contributing to removal of 3,658 typosquatting threats in one month.
 
 **[Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies](https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610)** (2021)
 *Alex Birsan*
@@ -801,11 +801,11 @@ Mining approach for finding installability problems.
 
 Recent research on how large language models hallucinate non-existent packages, creating new supply chain attack vectors.
 
-**[We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs](https://arxiv.org/abs/2406.10279)** (2024)
+**[We Have a Package for You! An Analysis of Package Hallucinations by Code Generating LLMs](https://arxiv.org/abs/2406.10279)** (2024)
 *Multiple authors from University of Texas at San Antonio, Virginia Tech, University of Oklahoma*
 arXiv preprint | [GitHub](https://github.com/Spracks/PackageHallucination)
 
-Comprehensive analysis using 16 popular LLMs and 2 prompt datasets for Python and JavaScript code generation, producing 576,000 code samples. Found 440,445 (19.7%) were hallucinations, including 205,474 unique non-existent packages. Average hallucination rate of 5.2% for commercial models and 21.7% for open-source models. Demonstrates how attackers can exploit LLM hallucinations by registering fake packages.
+Analysis using 16 popular LLMs and 2 prompt datasets for Python and JavaScript code generation, producing 576,000 code samples. Found 440,445 (19.7%) were hallucinations, including 205,474 unique non-existent packages. Average hallucination rate of 5.2% for commercial models and 21.7% for open-source models. Demonstrates how attackers can exploit LLM hallucinations by registering fake packages.
 
 **[Importing Phantoms: Measuring LLM Package Hallucination Vulnerabilities](https://arxiv.org/abs/2501.19012)** (2025)
 *Arjun Krishna, Erick Galinkin, Leon Derczynski, Jeffrey Martin*
