@@ -93,7 +93,7 @@ Journal of Systems and Software (JSS)
 
 Argued for modular package manager architecture where dependency solving separates from other concerns. Reviewed state-of-the-art package managers and proposed generic external solvers (SAT, PBO, MILP) rather than ad-hoc heuristics.
 
-**[Modelling and Resolving Software Dependencies](https://algebraicthunk.net/~dburrows/papers/thesis.pdf)** (2005)
+**[Modelling and Resolving Software Dependencies](https://www.researchgate.net/publication/229012671_Modelling_and_resolving_software_dependencies)** (2005)
 *Daniel Burrows*
 Technical Report
 
