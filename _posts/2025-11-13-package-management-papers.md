@@ -27,12 +27,6 @@ ACM Conference on Computer and Communications Security (CCS)
 
 Seminal paper analyzing ten popular package managers (APT, YUM, YaST, Portage) discovering vulnerabilities in all systems exploitable by man-in-the-middle attackers or malicious mirrors. Demonstrated attackers controlling mirrors could compromise hundreds to thousands of clients weekly. Identified replay attacks, freeze attacks, extraneous dependencies attacks, and endless data attacks while proposing a layered security approach.
 
-**[Package Management Security](https://ssl.engineering.nyu.edu/papers/cappos_tr08-02_mirror.pdf)** (2008)
-*Justin Cappos, Justin Samuel, Scott Baker, John H. Hartman*
-University of Arizona Technical Report TR-08-02
-
-Extended technical report presenting nine feasible attacks on APT and YUM, establishing three fundamental rules: don't trust the repository, the trusted entity with most information should sign, and don't install untrusted packages. Described the design of Stork, a secure package manager following these principles.
-
 **[Package Managers Still Vulnerable](https://www.usenix.org/publications/login/february-2009-volume-34-number-1/package-managers-still-vulnerable)** (2009)
 *Justin Samuel, Justin Cappos*
 ;login: The USENIX Magazine
@@ -74,12 +68,6 @@ Analysis of 550 vulnerability reports affecting 252 Python packages in PyPI ecos
 ## Dependency Resolution Algorithms and Challenges
 
 Research establishing the theoretical complexity of dependency resolution and practical solutions.
-
-**[EDOS deliverable WP2-D2.1: Report on Formal Management of Software Dependencies](https://www.mancoosi.org/edos/deliverables/D2-1.pdf)** (2006)
-*Roberto Di Cosmo, Fabio Mancinelli, Jaap Boender, Jerome Vouillon, Berke Durak, Xavier Leroy, et al.*
-EDOS Project Technical Report
-
-Foundational work that proved package dependency resolution for Debian and RedHat systems is NP-complete by reducing 3-SAT to the package installation problem. Established theoretical complexity bounds and laid groundwork for using SAT solvers in package management.
 
 **[OPIUM: Optimal Package Install/Uninstall Manager](https://cseweb.ucsd.edu/~lerner/papers/opium.pdf)** (2007)
 *Chris Tucker, David Shuffelton, Ranjit Jhala, Sorin Lerner*
@@ -201,12 +189,6 @@ International Conference on Software Reuse (ICSR)
 
 Introduced technical lag metric to assess how outdated packages are compared to latest releases, finding strong presence caused by dependency constraints indicating reluctance to update.
 
-**[An Empirical Study of Dependency Downgrades in the npm Ecosystem](https://link.springer.com/article/10.1007/s10664-023-10387-y)** (Year TBD)
-*Rodrigo Souza, Cleidson R. B. de Souza, Marcelo de Almeida Maia*
-Empirical Software Engineering Journal
-
-First systematic study of dependency downgrades in npm, identifying reactive downgrades (due to defects, unexpected changes, incompatibilities) and preventive downgrades. Found 49% of downgrades replace version ranges with specific old versions.
-
 **[An Empirical Analysis of the Python Package Index (PyPI)](https://arxiv.org/abs/1907.11073)** (2019)
 *Ethan Bommarito, Michael J. Bommarito II*
 arXiv preprint
@@ -224,12 +206,6 @@ Analyzed accessibility of GitHub repositories for libraries using page rank algo
 Empirical Software Engineering
 
 Analyzed 9,639 Java artifacts with 723,444 dependency relationships using DepClean tool, finding that bloated dependencies significantly increase binary size and maintenance effort.
-
-**[VulNet: Towards Improving Vulnerability Management in the Maven Ecosystem](https://link.springer.com/article/10.1007/s10664-024-10485-6)** (2024)
-*Zezun Ma, Shouvick Mondal, Tse-Hsun Chen, et al.*
-Empirical Software Engineering
-
-Empirical study of how Maven Repository and Open Source Insights platforms present vulnerability information, finding platforms may overestimate or underestimate vulnerabilities.
 
 **[Goblin: A Framework for Enriching and Querying the Maven Central Dependency Graph](https://dl.acm.org/doi/10.1145/3643991.3644914)** (2024)
 *Damien Jaime, Joyce El Haddad, Pascal Poizat*
@@ -338,12 +314,6 @@ Research on versioning practices, semantic versioning adoption, and breaking cha
 International Conference on Mining Software Repositories (MSR)
 
 Large-scale empirical study of versioning practices across 17 package managers, analyzing over 70 million dependencies, complemented by survey of 170 developers. Found many package managers support flexible versioning but developers struggle to balance predictability and agility.
-
-**[Breaking Bad? Semantic Versioning and Impact of Breaking Changes in Maven Central](https://link.springer.com/article/10.1007/s10664-022-10213-w)** (2022)
-*Lina Ochoa, Thomas Degueule, Jean-Rémy Falleri, Jurgen Vinju*
-Empirical Software Engineering (EMSE)
-
-External replication study analyzing 119,879 library upgrades and 293,817 clients in Maven Central using Maracas tool. Found 83.4% of upgrades comply with semantic versioning, contrasting with earlier findings.
 
 **[What do package dependencies tell us about semantic versioning?](https://ieeexplore.ieee.org/document/9240691)** (2021)
 *Alexandre Decan, Tom Mens*
@@ -620,18 +590,6 @@ Research on library usage, updates, and composition analysis tools.
 IEEE/ACM International Conference on Automated Software Engineering (ASE)
 
 First large-scale C/C++ dependency study addressing lack of unified package manager. Analyzed 24K repositories revealing 71.5% dependencies handled in Install phase.
-
-**[Characterizing Usages, Updates and Risks of Third-Party Libraries in Java Projects](https://link.springer.com/article/10.1007/s10664-022-10244-3)** (2022)
-*Kaifeng Huang, Bihuan Chen, Congying Xu, Ying Wang, Bowen Shi, Xin Peng, Yijian Wu, Yang Liu*
-Empirical Software Engineering
-
-Holistic quantitative study of Java library usages, updates, and security risks. Proposed LibSecurify system for security bug-driven alerts.
-
-**[On The Lag of Library Vulnerability Updates: An Investigation into the Repackage and Delivery of Security Fixes Within The npm JavaScript Ecosystem](https://link.springer.com/article/10.1007/s10664-021-10005-9)** (2021)
-*Bodin Chinthanet, Raula Gaikovina Kula, Takashi Ishio, Akinori Ihara, Kenichi Matsumoto*
-Empirical Software Engineering
-
-Identified two types of lags: repackage lag (83.33% of commits in fixing release unrelated to fix) and adoption lag. Studied 188 fixes across 800,000+ npm releases.
 
 **[A Machine Learning Approach for Vulnerability Curation](https://dl.acm.org/doi/10.1145/3379597.3387470)** (2020)
 *Chen Yang, Andrew Santosa, Ang Ming Yi, Abhishek Sharma, Asankhaya Sharma, David Lo*
