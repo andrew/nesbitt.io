@@ -25,7 +25,9 @@ Research on security vulnerabilities, attack vectors, and defense mechanisms in 
 *Justin Cappos, Justin Samuel, Scott Baker, John H. Hartman*
 ACM Conference on Computer and Communications Security (CCS)
 
-Seminal paper analyzing ten popular package managers (APT, YUM, YaST, Portage) discovering vulnerabilities in all systems exploitable by man-in-the-middle attackers or malicious mirrors. Demonstrated attackers controlling mirrors could compromise hundreds to thousands of clients weekly. Identified replay attacks, freeze attacks, extraneous dependencies attacks, and endless data attacks while proposing a layered security approach.
+Seminal paper analyzing ten popular package managers (APT, YUM, YaST, Portage) discovering vulnerabilities in all systems exploitable by man-in-the-middle attackers or malicious mirrors. Demonstrated attackers controlling mirrors could compromise hundreds to thousands of clients weekly. Identified replay attacks, freeze attacks, extraneous dependencies attacks, and endless data attacks while proposing a layered security approach.  
+
+A broader, more "textbook" analysis of these attacks is also available in [a technical report](https://www2.cs.arizona.edu/people/jsamuel/papers/TR08-02.pdf) by the authors.  This further fleshes out a host of related attacks that rely on manipulation of dependency information by mirrors to cause package resolution to behave in ways that harm security or stability.  
 
 **[Package Managers Still Vulnerable](https://www.usenix.org/publications/login/february-2009-volume-34-number-1/package-managers-still-vulnerable)** (2009)
 *Justin Samuel, Justin Cappos*
@@ -37,13 +39,19 @@ Follow-up analysis examining how package managers responded to disclosed vulnera
 *Anthony Bellissimo, John Burgess, Kevin Fu*
 USENIX Workshop on Hot Topics in Security (HotSec)
 
-Early analysis of popular software update mechanisms demonstrating that despite research progress, deployed systems relied on trusted networks and were susceptible to man-in-the-middle attacks. Examining McAfee VirusScan, Mozilla Firefox, and Windows Update, the study found none properly authenticated connections.
+Early analysis of popular software update mechanisms demonstrating that despite research progress, deployed systems relied on trusted networks and were susceptible to man-in-the-middle attacks. Examining McAfee VirusScan, Mozilla Firefox, and Windows Update, the study found none properly authenticated connections.  While technically not package manager research, this work demonstrated that security was lacking in the general space of software update systems.
 
 **[Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against Community Repositories](https://www.usenix.org/conference/atc17/technical-sessions/presentation/kuppusamy)** (2017)
 *Trishank Kuppusamy, Vladimir Diaz, Justin Cappos*
 USENIX Annual Technical Conference (USENIX ATC)
 
-Presented bandwidth-efficient techniques for preventing rollback attacks on package repositories, reducing metadata overhead by 95% compared to standard TUF while maintaining security properties. Using delta compression, Mercury achieves about 3.5% of average package size per month for PyPI users.
+Presented bandwidth-efficient techniques for preventing rollback attacks on package repositories in a way that scales to very large software repositories, such as PyPI.  The techniques described here reduce metadata overhead by 95% compared to standard TUF while maintaining security properties. Using delta compression, Mercury achieves about 3.5% of average package size per month for PyPI users.
+
+**[Artemis: Defanging Software Supply Chain Attacks in Multi-repository Update Systems](https://ssl.engineering.nyu.edu/papers/moore_artemis_2023.pdf)** (2023)
+*Marina Moore, Trishank Kuppusamy, Justin Cappos*
+Annual Computer Security Applications Conference (ACSAC)
+
+Discusses ways to securely use multiple repositories with a package manager.  This includes a mechanism to 1) blocking or pinning a repository name to a specific repository, 2) a means for multiple parties to have different package namespaces on the same repository, and 3) a means to require a threshold of approvers for all of these operations. This paper presents lessons learned both from deployments of [Uptane](https://ssl.engineering.nyu.edu/papers/kuppusamy_escar_16.pdf) (the automotive variant of TUF which is widely used in automotive) and other TUF deployments across millions of devices.
 
 **[Small World with High Risks: A Study of Security Threats in the npm Ecosystem](https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman)** (2019)
 *Markus Zimmermann, Cristian-Alexandru Staicu, Cam Tenny, Michael Pradel*
@@ -104,6 +112,12 @@ Addressed fundamental challenge of determining which software components can be 
 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)
 
 Studied strong dependency relationships where packages are tightly coupled, analyzing patterns of mandatory co-installation and implications for system evolution.
+
+**[Stork: Secure Package Management For VM Environments](https://www.cs.arizona.edu/sites/default/files/TR08-04.pdf)** (2008)
+*Justin Cappos*
+Dissertation (University of Arizona) -- Chapter 3.8
+
+The earliest known work to describe backtracking dependency resolution.  In contrast to more mathematically advanced techniques, this tries the best match greedily for each package and then rewinds state if there is a conflict.  Through practical use in Stork, this was found to work well for adopters, despite its simplcity.  
 
 <hr>
 
