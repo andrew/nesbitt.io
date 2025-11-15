@@ -10,9 +10,9 @@ tags:
   - software ecosystems
 ---
 
-Package managers have transformed how we build, distribute, and consume software. This timeline documents the evolution of package management systems across both system-level and language-specific ecosystems, from early archive networks to modern dependency managers.
+Package managers have had a significant impact on how we build, distribute, and consume software. This timeline documents the evolution of package management systems across both system-level and language-specific ecosystems, from early archive networks to modern dependency managers.
 
-Each entry includes a verifiable reference—release notes, announcements, or contemporary news coverage. This is a living document—if you know of events that should be included, please reach out on [Mastodon](https://mastodon.social/@andrewnez) or open a pull request on [GitHub](https://github.com/andrew/nesbitt.io/blob/master/_posts/2025-11-15-package-manager-timeline.md).
+This is a living document—if you know of events that should be included, please reach out on [Mastodon](https://mastodon.social/@andrewnez) or open a pull request on [GitHub](https://github.com/andrew/nesbitt.io/blob/master/_posts/2025-11-15-package-manager-timeline.md).
 
 <style>
 .timeline-event {
@@ -499,6 +499,12 @@ h2 {
 </div>
 
 <div class="timeline-event">
+<span class="event-type type-incident">Incident</span>
+<strong><a href="https://www.theregister.com/2018/07/12/npm_eslint/">eslint-scope compromised</a></strong>
+<br>July 12, 2018: Attacker gained access to an npm maintainer account and published malicious eslint-scope 3.7.2 that harvested npm credentials from ~4,500 accounts.
+</div>
+
+<div class="timeline-event">
 <span class="event-type type-release">Major Release</span>
 <strong><a href="https://github.com/pypa/pip/issues/5516">pip 18.0 released</a></strong>
 <br>July 22, 2018: pip 18.0 was released, adopting Calendar Versioning (CalVer) with a 3-month release cadence.
@@ -508,6 +514,12 @@ h2 {
 <span class="event-type type-creation">Creation</span>
 <strong><a href="https://go.dev/wiki/Modules">Go modules introduced</a></strong>
 <br>August 24, 2018: Go 1.11 introduced modules with go.mod files, though not enabled by default until Go 1.14.
+</div>
+
+<div class="timeline-event">
+<span class="event-type type-incident">Incident</span>
+<strong><a href="https://www.theregister.com/2018/11/26/npm_repo_bitcoin_stealer/">event-stream backdoor</a></strong>
+<br>November 26, 2018: The popular event-stream npm package was compromised with Bitcoin-stealing code via the flatmap-stream dependency, targeting Copay wallets.
 </div>
 
 <div class="timeline-event">
@@ -524,6 +536,12 @@ h2 {
 <span class="event-type type-release">Major Release</span>
 <strong><a href="https://podman.io/release/2019/01/16/podman-release-v1.0.0">Podman 1.0 released</a></strong>
 <br>January 16, 2019: Podman 1.0.0 was released as a daemonless container engine and Docker alternative.
+</div>
+
+<div class="timeline-event">
+<span class="event-type type-incident">Incident</span>
+<strong><a href="https://www.theregister.com/2019/08/20/ruby_gem_hacked/">rest-client RubyGem compromised</a></strong>
+<br>August 19, 2019: RubyGems.org account was compromised via credential stuffing, leading to malicious rest-client v1.6.13 being published to steal credentials.
 </div>
 
 <div class="timeline-event">
@@ -579,6 +597,12 @@ h2 {
 </div>
 
 <div class="timeline-event">
+<span class="event-type type-incident">Incident</span>
+<strong><a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a">SolarWinds supply chain attack</a></strong>
+<br>December 2020: Discovery of the SolarWinds Orion platform compromise, where attackers injected malicious code into software updates beginning March 2020, affecting ~18,000 customers.
+</div>
+
+<div class="timeline-event">
 <span class="event-type type-creation">Creation</span>
 <strong><a href="https://en.wikipedia.org/wiki/Windows_Package_Manager">Windows Package Manager preview</a></strong>
 <br>May 19, 2020: Microsoft released Windows Package Manager (winget) in preview at Build developer conference.
@@ -592,6 +616,24 @@ h2 {
 <span class="event-type type-release">Major Release</span>
 <strong><a href="https://brew.sh/2021/02/05/homebrew-3.0.0/">Homebrew 3.0 released</a></strong>
 <br>February 5, 2021: Homebrew 3.0.0 was released with official Apple Silicon support and a new bottle format.
+</div>
+
+<div class="timeline-event">
+<span class="event-type type-incident">Incident</span>
+<strong><a href="https://www.cisa.gov/news-events/alerts/2021/04/30/codecov-releases-new-detections-supply-chain-compromise">Codecov Bash Uploader compromise</a></strong>
+<br>April 15, 2021: Codecov disclosed that attackers modified their Bash Uploader script from January 31 to April 1, exfiltrating environment variables from ~23,000 customers' CI environments.
+</div>
+
+<div class="timeline-event">
+<span class="event-type type-incident">Incident</span>
+<strong><a href="https://www.theregister.com/2021/10/25/in_brief_security/">ua-parser-js hijacked</a></strong>
+<br>October 22, 2021: The ua-parser-js npm package (8M weekly downloads) was hijacked via account takeover, with malicious versions published containing cryptocurrency miners and password stealers.
+</div>
+
+<div class="timeline-event">
+<span class="event-type type-incident">Incident</span>
+<strong><a href="https://www.theregister.com/2021/12/10/log4j_remote_code_execution_vuln_patch_issued/">Log4Shell vulnerability disclosed</a></strong>
+<br>December 9, 2021: Critical remote code execution vulnerability CVE-2021-44228 disclosed in Apache Log4j (distributed via Maven Central), affecting millions of Java applications worldwide.
 </div>
 
 <div class="timeline-event">
@@ -611,9 +653,21 @@ h2 {
 ## 2022
 
 <div class="timeline-event">
+<span class="event-type type-incident">Incident</span>
+<strong><a href="https://www.theregister.com/2022/01/10/npm_fakerjs_colorsjs/">colors and faker sabotaged</a></strong>
+<br>January 9, 2022: Developer Marak Squires intentionally sabotaged his own widely-used npm packages colors.js (23M weekly downloads) and faker.js (2.4M weekly downloads) in protest over lack of compensation.
+</div>
+
+<div class="timeline-event">
 <span class="event-type type-release">Major Release</span>
 <strong><a href="https://discuss.python.org/t/hatch-1-0-0-is-available/15359">Hatch 1.0 released</a></strong>
 <br>April 2022: Ofek Lev released Hatch 1.0.0, completing a multi-year rewrite of the Python project manager.
+</div>
+
+<div class="timeline-event">
+<span class="event-type type-incident">Incident</span>
+<strong><a href="https://www.theregister.com/2022/05/24/pypi_ctx_package_compromised/">PyPI ctx package compromised</a></strong>
+<br>May 24, 2022: The ctx package on PyPI was hijacked after an expired domain was re-registered, allowing attackers to upload malicious code that exfiltrated environment variables to ~27,000 downloads.
 </div>
 
 <div class="timeline-event">
@@ -713,14 +767,5 @@ h2 {
 </div>
 
 <hr>
-
-## Contributing
-
-This timeline focuses on verifiable events with reliable sources. If you'd like to contribute:
-
-- Each event must have a publicly accessible reference (official announcement, release notes, contemporary news article, or academic paper)
-- Include exact dates where available
-- Focus on factual events: releases, announcements, policy changes, or documented incidents
-- Avoid subjective descriptions like "gained popularity" or "became widely adopted"
 
 To suggest additions or corrections, please reach out on [Mastodon](https://mastodon.social/@andrewnez) or [open a pull request](https://github.com/andrew/nesbitt.io/blob/master/_posts/2025-11-15-package-manager-timeline.md).
