@@ -114,6 +114,12 @@ h2 {
 <br>October 3, 1997: NetBSD developers Alistair Crooks and Hubert Feyrer created pkgsrc, based on FreeBSD ports.
 </div>
 
+<div class="timeline-event">
+<span class="event-type type-creation">Creation</span>
+<strong><a href="https://en.wikipedia.org/wiki/R_package#Comprehensive_R_Archive_Network_(CRAN)">CRAN established</a></strong>
+<br>The Comprehensive R Archive Network (CRAN) was founded in 1997 by Kurt Hornik and Friedrich Leisch to host R's source code, executable files, documentation, and user-created packages.
+</div>
+
 <hr>
 
 ## 1998
