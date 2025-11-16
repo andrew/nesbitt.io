@@ -165,12 +165,18 @@ h2 {
 <div class="timeline-event">
 <span class="event-type type-creation">Creation</span>
 <strong><a href="https://www.sonatype.com/blog/the-history-of-maven-central-and-sonatype-a-journey-from-past-to-present">Maven created</a></strong>
-<br>Jason van Zyl created Maven as a sub-project of Apache Turbine. Maven Central began serving components this year.
+<br>Jason van Zyl created Maven as a sub-project of Apache Turbine.
 </div>
 
 <hr>
 
 ## 2003
+
+<div class="timeline-event">
+<span class="event-type type-milestone">Milestone</span>
+<strong><a href="https://maven.apache.org/docs/history.html">Maven accepted as Apache top-level project</a></strong>
+<br>Maven was accepted as a top level Apache Software Foundation project.
+</div>
 
 <div class="timeline-event">
 <span class="event-type type-creation">Creation</span>
@@ -197,7 +203,7 @@ h2 {
 <div class="timeline-event">
 <span class="event-type type-release">Major Release</span>
 <strong><a href="https://maven.apache.org/docs/history.html">Maven 1.0 released</a></strong>
-<br>July 2004: Maven reached its first critical milestone with version 1.0.
+<br>July 13, 2004: Maven 1.0 was released as the first critical milestone.
 </div>
 
 <hr>
@@ -208,6 +214,12 @@ h2 {
 <span class="event-type type-creation">Creation</span>
 <strong><a href="https://en.wikipedia.org/wiki/Cabal_(software)">Cabal specification designed</a></strong>
 <br>The Haskell Cabal specification was presented at the Haskell Workshop 2005, defining a common architecture for building applications and libraries.
+</div>
+
+<div class="timeline-event">
+<span class="event-type type-release">Major Release</span>
+<strong><a href="https://maven.apache.org/docs/history.html">Maven 2.0 released</a></strong>
+<br>October 2005: Maven 2.0 was released after six months in beta cycles.
 </div>
 
 <hr>
@@ -292,6 +304,12 @@ h2 {
 <span class="event-type type-release">Major Release</span>
 <strong><a href="https://andre.arko.net/2017/11/16/a-history-of-bundles-2010-to-2017/">Bundler 1.0 released</a></strong>
 <br>August 2010: Bundler 1.0 was released, becoming the de facto dependency manager for Ruby projects.
+</div>
+
+<div class="timeline-event">
+<span class="event-type type-release">Major Release</span>
+<strong><a href="https://maven.apache.org/docs/history.html">Maven 3.0 released</a></strong>
+<br>October 8, 2010: Maven 3.0 was released with re-worked core, support for parallel builds, and backwards compatibility with Maven 2.
 </div>
 
 <div class="timeline-event">
