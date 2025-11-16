@@ -158,6 +158,12 @@ h2 {
 
 <div class="timeline-event">
 <span class="event-type type-creation">Creation</span>
+<strong><a href="https://lists.baseurl.org/pipermail/yum/2002-June/011067.html">YUM created</a></strong>
+<br>June 7, 2002: Seth Vidal and Michael Stenner at Duke University created YUM (Yellowdog Updater Modified) for RPM-based Linux distributions.
+</div>
+
+<div class="timeline-event">
+<span class="event-type type-creation">Creation</span>
 <strong><a href="https://www.sonatype.com/blog/the-history-of-maven-central-and-sonatype-a-journey-from-past-to-present">Maven created</a></strong>
 <br>Jason van Zyl created Maven as a sub-project of Apache Turbine. Maven Central began serving components this year.
 </div>
