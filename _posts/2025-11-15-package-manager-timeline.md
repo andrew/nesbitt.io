@@ -346,20 +346,26 @@ h2 {
 
 <div class="timeline-event">
 <span class="event-type type-creation">Creation</span>
-<strong><a href="https://guix.gnu.org/en/blog/2012/introducing-guix-a-package-manager-and-distro-for-gnu/">Guix announced</a></strong>
-<br>November 2012: GNU announced the first alpha release of GNU Guix, a package manager based on Nix.
-</div>
-
-<div class="timeline-event">
-<span class="event-type type-creation">Creation</span>
 <strong><a href="https://en.wikipedia.org/wiki/Composer_(software)">Composer released</a></strong>
 <br>March 1, 2012: Nils Adermann and Jordi Boggiano released Composer, a dependency manager for PHP inspired by npm and Bundler.
 </div>
 
 <div class="timeline-event">
 <span class="event-type type-creation">Creation</span>
+<strong><a href="https://news.dartlang.org/2012/10/dart-m1-release.html">pub released with Dart M1</a></strong>
+<br>October 16, 2012: pub package manager was included in the Dart M1 SDK release, one year after Dart's initial announcement.
+</div>
+
+<div class="timeline-event">
+<span class="event-type type-creation">Creation</span>
 <strong><a href="http://ilan.schnell-web.net/prog/anaconda-history/">Conda released</a></strong>
 <br>October 2012: Anaconda 1.1 included the first release of conda, a cross-platform package and environment manager originally developed for Python data science.
+</div>
+
+<div class="timeline-event">
+<span class="event-type type-creation">Creation</span>
+<strong><a href="https://guix.gnu.org/en/blog/2012/introducing-guix-a-package-manager-and-distro-for-gnu/">Guix announced</a></strong>
+<br>November 2012: GNU announced the first alpha release of GNU Guix, a package manager based on Nix.
 </div>
 
 <hr>
