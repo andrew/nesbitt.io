@@ -523,6 +523,12 @@ h2 {
 </div>
 
 <div class="timeline-event">
+<span class="event-type type-milestone">Milestone</span>
+<strong><a href="https://nex3.medium.com/pubgrub-2fb6470504f">pub adopts PubGrub algorithm</a></strong>
+<br>April 2, 2018: Natalie Weizenbaum introduced PubGrub, a next-generation version solving algorithm, to Dart's pub package manager.
+</div>
+
+<div class="timeline-event">
 <span class="event-type type-incident">Incident</span>
 <strong><a href="https://www.theregister.com/2018/07/12/npm_eslint/">eslint-scope compromised</a></strong>
 <br>July 12, 2018: Attacker gained access to an npm maintainer account and published malicious eslint-scope 3.7.2 that harvested npm credentials from ~4,500 accounts.
