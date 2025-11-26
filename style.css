@@ -289,4 +289,21 @@ section li p{
   .post-content h2{
     font-size: 1.3em;
   }
+  .media .media-body{
+    display: none;
+  }
+  .media{
+    display: inline-block !important;
+    width: auto !important;
+    flex: none !important;
+    margin: 5px 12px;
+  }
+  .media img{
+    width: 55px;
+  }
+  .row:has(.media){
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+  }
 }
