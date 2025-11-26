@@ -1,18 +1,21 @@
 body{
   margin:0;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size:15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+  font-size:16px;
+  line-height: 1.5;
+  color: #1f2328;
   border-top:2px solid #006ab2;
 }
 
 h1, h2{
-  font-family: 'Oswald', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
 }
 
-h1{
-  font-size: 60px;
-  margin:0;
-  font-weight:normal;
+h1,
+h1.post-title{
+  font-size: 42px !important;
+  margin: 0;
+  font-weight: 600;
 }
 
 h2{
@@ -22,6 +25,11 @@ h2{
 
 a{
   color:#006ab2 !important;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 .container{
@@ -43,8 +51,153 @@ img{
   max-width: 100%;
 }
 
+/* Post content styles */
 .post-content{
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.post-content p{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.post-content h2,
+.post-content h3,
+.post-content h4{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.post-content h2{
+  font-size: 1.5em;
+  padding-bottom: .3em;
+  border-bottom: 1px solid #d1d9e0;
+}
+
+.post-content h3{
+  font-size: 1.25em;
+}
+
+.post-content h4{
+  font-size: 1em;
+}
+
+/* Inline code */
+.post-content code{
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  white-space: break-spaces;
+  background-color: rgba(175, 184, 193, 0.2);
+  border-radius: 6px;
+}
+
+/* Code blocks */
+.post-content pre{
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  color: #1f2328;
+  background-color: #f6f8fa;
+  border: 1px solid #d1d9e0;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.post-content pre code{
+  display: inline;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+  font-size: 100%;
+  white-space: pre;
+}
+
+/* Blockquotes */
+.post-content blockquote{
+  margin: 0 0 16px 0;
+  padding: 0 1em;
+  color: #59636e;
+  border-left: .25em solid #d1d9e0;
+}
+
+.post-content blockquote p:last-child{
+  margin-bottom: 0;
+}
+
+/* Lists */
+.post-content ul,
+.post-content ol{
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-left: 2em;
+}
+
+.post-content li{
+  list-style: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.post-content li + li{
+  margin-top: .25em;
+}
+
+.post-content li > p{
+  margin-top: 16px;
+}
+
+/* Horizontal rules */
+.post-content hr{
+  height: .25em;
+  padding: 0;
+  margin: 40px 0;
+  background-color: #d1d9e0;
+  border: 0;
+}
+
+/* Tables */
+.post-content table{
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+  margin-bottom: 16px;
+}
+
+.post-content table th{
+  font-weight: 600;
+}
+
+.post-content table th,
+.post-content table td{
+  padding: 6px 13px;
+  border: 1px solid #d1d9e0;
+}
+
+.post-content table tr{
+  background-color: #ffffff;
+  border-top: 1px solid #d1d9e0;
+}
+
+.post-content table tr:nth-child(2n){
+  background-color: #f6f8fa;
+}
+
+/* Strong and emphasis */
+.post-content strong{
+  font-weight: 600;
 }
 
 /*@media only screen and (max-width: 760px) {
