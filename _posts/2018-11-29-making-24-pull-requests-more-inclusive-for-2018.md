@@ -14,7 +14,9 @@ One problem that compounds the diversity issue is that tools and metrics that me
 
 The GitHub contribution graph is a prime example, which only recognises a handful of kinds of contribution. This can make it difficult for people to get the recognition they deserve, potentially hampering their motivation and even [hurting their job prospects](https://blog.kickresume.com/2017/09/11/github-vs-resume/).
 
-![GitHub profiles don’t show the full picture of open source contribution](https://cdn-images-1.medium.com/max/2480/1*MlJS8xWYCz0lUIu7m63ZtA.png)*GitHub profiles don’t show the full picture of open source contribution*
+![GitHub profiles don't show the full picture of open source contribution](https://cdn-images-1.medium.com/max/2480/1*MlJS8xWYCz0lUIu7m63ZtA.png)*GitHub profiles don't show the full picture of open source contribution*
+
+## The Problem with Pull Requests Only
 
 It took me 6 years to realise that **24 Pull Requests has been part of that problem too**. In previous years, you could only participate if your contributions could be presented in the form of a pull request. This is particularly difficult for people are contributing by:
 
@@ -38,9 +40,11 @@ It took me 6 years to realise that **24 Pull Requests has been part of that prob
 
 Those kinds of tasks are often under taken by women, people of colour and other underrepresented groups, only making things worse as their contributions become invisible to many people.
 
-So this year we’re making the biggest change to 24 Pull Requests since the start of the project: **you’ll be able to record every kind of contribution you make to open source, not just pull requests.**
+## All Contributions Welcome
 
-There’s a new form on the site that allows you to record the contributions you’ve made each day that wouldn’t usually make sense as a pull request:
+So this year we're making the biggest change to 24 Pull Requests since the start of the project: **you'll be able to record every kind of contribution you make to open source, not just pull requests.**
+
+There's a new form on the site that allows you to record the contributions you've made each day that wouldn't usually make sense as a pull request:
 
 ![The new 24 Pull Requests contribution form](https://cdn-images-1.medium.com/max/4808/1*G_MySDK3bZQI4zbPVCalZg.png)*The new 24 Pull Requests contribution form*
 
@@ -48,9 +52,11 @@ Those non-pullrequest contributions are treated exactly the same as pull request
 
 ![User profile page showing a mix of pull requests and non-pull request contributions](https://cdn-images-1.medium.com/max/3996/1*JHWNODRoJ5ow3hUb5nPAPQ.png)*User profile page showing a mix of pull requests and non-pull request contributions*
 
-With this change, we hope to use 24 Pull Requests to encourage all kinds of contributions to open source projects, it also opens up the ability to track contributions to open source projects that aren’t hosted on GitHub.com.
+With this change, we hope to use 24 Pull Requests to encourage all kinds of contributions to open source projects, it also opens up the ability to track contributions to open source projects that aren't hosted on GitHub.com.
 
-**In summary, here’s how to track your contributions this year:**
+## How to Participate
+
+**In summary, here's how to track your contributions this year:**
 
 For contributions that are pull requests, everything will work the same as previous years, just login and sync your pull requests from the [dashboard](https://24pullrequests.com/dashboard).
 

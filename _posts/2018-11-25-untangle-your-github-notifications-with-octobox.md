@@ -14,6 +14,8 @@ Most open source maintainers and even some GitHub staff end up using a complex c
 
 ![](https://cdn-images-1.medium.com/max/2800/1*J2VYzaXsvfrGPzjcZVxB0w.png)
 
+## How Octobox Helps
+
 [Octobox](https://octobox.io) is designed with exactly that problem in mind. Firstly it adds an extra “archived” state to each notification so you can mark it as “done”. If new activity happens on the thread/issue/pr, the relevant notification will pop back into your inbox. You can also star notifications that are special to you.
 
 This puts the control of when to clear notifications back in your hands, you can work through your inbox at your own pace. It also means you can always find old notifications, which, on GitHub, disappear a few days after you’ve read them.
@@ -28,15 +30,19 @@ The other problem that GitHub power users struggle with is the sheer number of n
 
 * Keyboard shortcuts: Quickly navigate, triage and manage your notifications like a pro using Gmail-inspired keyboard shortcuts for every function, no mouse required.
 
-Octobox started life as a side project in December 2016, since then it’s grown to help over 10,000 people manage over 4 million notifications and the project has been downloaded almost half a million times by developers hosting their own versions. It’s now one of the most popular open source tools on GitHub.
+## Launching on the GitHub Marketplace
 
-Last month [Ben and I announced](https://medium.com/octobox/goodbye-tidelift-hello-octobox-60c4eafc4507) that we’re going to start working full time to make Octobox a truly sustainable open source project that can financially support itself and the community.
+Octobox started life as a side project in December 2016, since then it's grown to help over 10,000 people manage over 4 million notifications and the project has been downloaded almost half a million times by developers hosting their own versions. It's now one of the most popular open source tools on GitHub.
 
-Today we’re expanding the scope of Octobox and **[launching on the GitHub Marketplace](https://github.com/marketplace/octobox)**, offering new, paid enhancements for private repositories on [Octobox.io](https://octobox.io) with a two week free trial period.
+Last month [Ben and I announced](https://medium.com/octobox/goodbye-tidelift-hello-octobox-60c4eafc4507) that we're going to start working full time to make Octobox a truly sustainable open source project that can financially support itself and the community.
+
+Today we're expanding the scope of Octobox and **[launching on the GitHub Marketplace](https://github.com/marketplace/octobox)**, offering new, paid enhancements for private repositories on [Octobox.io](https://octobox.io) with a two week free trial period.
 
 You can also get the same enhancements for private repositories by [donating or becoming a sponsor on Open Collectiv](https://opencollective.com/octobox#)e, same price but the support goes directly to the community.
 
-We’ve also got a whole host of new features planned for the coming months, including:
+## What's Next
+
+We've also got a whole host of new features planned for the coming months, including:
 
 * Snoozing notifications until later
 
