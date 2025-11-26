@@ -264,8 +264,6 @@ In the context of FloatVer, "backward-compatible" means:
 
 These rules ensure that nonbreaking versions permit safe automatic upgrades. FloatVer was proposed by [Alex Shroyer](https://github.com/hoosierEE/) in July 2024.
 
-<hr>
-
 ## AsymptoVer
 
 **AsymptoVer** – yes, I’ve just made up that name – is a peculiar, maybe even esoteric, versioning scheme.

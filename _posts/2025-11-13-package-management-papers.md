@@ -15,8 +15,6 @@ There's been all kinds of interesting academic research on package management sy
 
 The papers are organized by topic and include brief descriptions along with author names and publication years. This is a living document—if you know of papers that should be included, please reach out on [Mastodon](https://mastodon.social/@andrewnez) or open a pull request on [GitHub](https://github.com/andrew/nesbitt.io/blob/master/_posts/2025-11-13-package-management-papers.md).
 
-<hr>
-
 ## Package Management Security
 
 Research on security vulnerabilities, attack vectors, and defense mechanisms in package management systems.
@@ -71,8 +69,6 @@ IEEE conference proceedings
 
 Analysis of 550 vulnerability reports affecting 252 Python packages in PyPI ecosystem, providing empirical evidence about vulnerability patterns in Python packages.
 
-<hr>
-
 ## Dependency Resolution Algorithms and Challenges
 
 Research establishing the theoretical complexity of dependency resolution and practical solutions.
@@ -118,8 +114,6 @@ Studied strong dependency relationships where packages are tightly coupled, anal
 Dissertation (University of Arizona) -- Chapter 3.8
 
 The earliest known work to describe backtracking dependency resolution.  In contrast to more mathematically advanced techniques, this tries the best match greedily for each package and then rewinds state if there is a conflict.  Through practical use in Stork, this was found to work well for adopters, despite its simplcity.  
-
-<hr>
 
 ## Software Supply Chain Security
 
@@ -178,8 +172,6 @@ Earlier work exploring use of source code repository analysis for detecting supp
 International Conference on Mining Software Repositories (MSR)
 
 Investigated effects of adopting OWASP Dependency-Check (SCA tool) in Apache Software Foundation Java Maven projects. Found adoption causes significant reduction in vulnerabilities including high-severity CVEs.
-
-<hr>
 
 ## Package Repository Analysis and Ecosystems
 
@@ -317,8 +309,6 @@ IEEE conference proceedings
 
 Analysis of dependency problems arising from packages split between GitHub and CRAN.
 
-<hr>
-
 ## Version Constraints and Semantic Versioning
 
 Research on versioning practices, semantic versioning adoption, and breaking changes.
@@ -358,8 +348,6 @@ Analyzed 100,000+ JAR files from Maven Central over 7 years covering 22,000+ lib
 arXiv preprint
 
 Proposal for improving version handling in the R ecosystem.
-
-<hr>
 
 ## Package Manager Design and Architecture
 
@@ -473,8 +461,6 @@ Academic publication
 
 System for binary transparency in software distribution.
 
-<hr>
-
 ## Software Distribution Systems
 
 Research on secure software update systems and distribution frameworks.
@@ -520,8 +506,6 @@ Introduced software distribution system architecture with generic core component
 Communications of the ACM
 
 Classic paper on trust in software compilation and distribution.
-
-<hr>
 
 ## Malicious Packages and Typosquatting
 
@@ -575,8 +559,6 @@ Medium blog post / Security research
 
 Revealed dependency confusion attack that exploits package managers pulling higher-versioned packages from public repositories when private packages exist with the same name. Successfully compromised over 35 major companies including Microsoft, Apple, PayPal, Shopify, Netflix, and Tesla. Awarded over $130,000 in bug bounties.
 
-<hr>
-
 ## Package Metadata and Trust Models
 
 Research on metadata systems, signing, and trust frameworks.
@@ -592,8 +574,6 @@ Analyzed when registry hardening renders signing redundant versus when signing i
 USENIX Security Symposium
 
 Qualitative study interviewing 18 experienced security practitioners across 13 organizations to understand software signing practices and challenges. Shows that experts disagree on signing importance.
-
-<hr>
 
 ## Software Composition Analysis
 
@@ -646,8 +626,6 @@ Longitudinal study examining bloated dependencies in Java projects over time. An
 Empirical Software Engineering
 
 Recent longitudinal analysis of software dependencies examining long-term patterns and evolution of dependency management practices in large-scale systems.
-
-<hr>
 
 ## Ecosystem Evolution and Developer Behavior
 
@@ -809,8 +787,6 @@ MSR
 
 Mining approach for finding installability problems.
 
-<hr>
-
 ## LLMs and Package Hallucinations (Slopsquatting)
 
 Recent research on how large language models hallucinate non-existent packages, creating new supply chain attack vectors.
@@ -856,7 +832,5 @@ Security evaluation of LLM-generated web application code finding over 40% of AI
 arXiv preprint
 
 Systematic literature review examining LLMs in code security, covering vulnerabilities to remediation approaches. Analyzes common security vulnerabilities in AI-generated code across multiple languages and models.
-
-<hr>
 
 If you're aware of research that should be included in this collection, please reach out on [Mastodon](https://mastodon.social/@andrewnez) or submit a pull request on [GitHub](https://github.com/andrew/nesbitt.io/blob/master/_posts/2025-11-13-package-management-papers.md).
