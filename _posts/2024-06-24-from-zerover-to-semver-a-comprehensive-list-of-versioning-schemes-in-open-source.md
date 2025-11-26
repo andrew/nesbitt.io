@@ -14,9 +14,7 @@ You might assume Semantic Versioning (SemVer) is the only real game in town but 
 
 If you know of a versioning scheme that's missing from this list, I'd love to hear about it. You can reach me on [Mastodon](https://mastodon.social/@andrewnez) or open a pull request on [GitHub](https://github.com/andrew/nesbitt.io/blob/master/_posts/2024-06-24-from-zerover-to-semver-a-comprehensive-list-of-versioning-schemes-in-open-source.md).
 
-<hr>
-
-### [SemVer](https://semver.org/)
+## [SemVer](https://semver.org/)
 
 Semantic Versioning (SemVer) is probably the most widely used and often assumed default versioning scheme in open source software. It follows the format `MAJOR.MINOR.PATCH`, where:
 
@@ -28,9 +26,7 @@ This scheme provides a clear and predictable way to manage and communicate chang
 
 Originally proposed by [Tom Preston-Werner](https://tom.preston-werner.com/) in 2010, SemVer has since become the de facto standard for versioning in the open source community, used by many package managers and repositories, including npm, RubyGems, and Cargo.
 
-<hr/>
-
-### [CalVer](https://calver.org/)
+## [CalVer](https://calver.org/)
 
 **Calendar Versioning (CalVer)** is a versioning scheme that uses a date-based version number, typically in the format `YYYY.MM.DD`. This scheme is based on the idea that version numbers should be human-readable and easy to understand, providing a clear indication of when a release was made.
 
@@ -45,9 +41,7 @@ CalVer offers multiple calendar-based formats to suit different project needs:
 
 CalVer was proposed by [Mahmoud Hashemi](https://sedimental.org/) in March 2016.
 
-<hr>
-
-### [ZeroVer](https://0ver.org/)
+## [ZeroVer](https://0ver.org/)
 
 ZeroVer is a satirical versioning scheme where the version number always starts with 0. This convention humorously suggests that software is perpetually in its initial development stages, indicating that it is not yet stable and that APIs are subject to change. Versions might look like 0.1.0, 0.2.0, and so on. 
 
@@ -55,9 +49,7 @@ While it’s meant as a joke, many projects unintentionally fall into ZeroVer co
 
 Version 0.0.1 of ZeroVer was published by [Mahmoud Hashemi](https://github.com/mahmoud/) on 2018-04-01.
 
-<hr>
-
-### [EffVer](https://jacobtomlinson.dev/effver/)
+## [EffVer](https://jacobtomlinson.dev/effver/)
 
 Intended Effort Versioning (EffVer) is a versioning scheme that, instead of quantifying the orthogonality of a change, tries to quantify the intended work required to adopt the change. EffVer doesn’t make a distinction between bug fixes, enhancements, and features, as releases often include all of these elements. 
 
@@ -65,9 +57,7 @@ Instead, it focuses solely on the effort required for existing users to adopt ne
 
 EffVer was proposed by [Jacob Tomlinson](https://jacobtomlinson.dev/) in January 2024 as an alternative to SemVer and CalVer, aiming to provide a more user-centric approach to versioning.
 
-<hr>
-
-### [RomVer](https://github.com/romversioning/romver)
+## [RomVer](https://github.com/romversioning/romver)
 
 Romantic Versioning (RomVer) is a versioning scheme based on Semantic Versioning (SemVer) but attempts to extract the “versioning spec” from real-world usage of software versions, such as those in Node, Rails, PHP, jQuery, NPM, and the Linux Kernel. RomVer follows the format HUMAN.MAJOR.MINOR, where:
 
@@ -81,9 +71,7 @@ RomVer was proposed by [Daniel V from the Legacy Blog crew](https://web.archive.
 
 The term as also used by Jeremy Ashkenas in 2012 in the context of [Backbone.js](https://github.com/jashkenas/backbone/issues/2888#issuecomment-29076249).
 
-<hr>
-
-### [Sentimental Versioning](https://github.com/dominictarr/sentimental-versioning)
+## [Sentimental Versioning](https://github.com/dominictarr/sentimental-versioning)
 
 Sentimental Versioning takes a whimsical and highly personal approach to versioning. Unlike SemVer, which has a formal specification, Sentimental Versioning provides a guide with some playful suggestions. Key aspects include:
 
@@ -95,9 +83,7 @@ Sentimental Versioning encourages a deeply personal and creative expression thro
 
 Sentimental Versioning was proposed by [Dominic Tarr](https://dominictarr.com/) in August 2014.
 
-<hr>
-
-### [HashVer](https://miniscruff.github.io/hashver/)
+## [HashVer](https://miniscruff.github.io/hashver/)
 
 Hash Versioning (HashVer) is perfect if you are publishing very frequently. The HashVer format consists of 3 or 4 values separated by a period:
 
@@ -117,9 +103,7 @@ Because commit hashes are random, additional granularity like days or a CI build
 
 HashVer was proposed by [miniscruff](https://github.com/miniscruff) in 2020.
 
-<hr>
-
-### [GitDate](https://taylorbrazelton.com/2022/06/06/2022-06-06-bye-bye-semantic-versioning-say-hello-to-gitdate/)
+## [GitDate](https://taylorbrazelton.com/2022/06/06/2022-06-06-bye-bye-semantic-versioning-say-hello-to-gitdate/)
 
 **GitDate Versioning** is similar to HashVer, addressing issues with Semantic Versioning by using the commit date from a Git repository. This provides clear and precise tracking of changes.
 
@@ -135,9 +119,7 @@ However, multiple builds on the same day may require git repository access to de
 
 GitDate was proposed by [Taylor Brazelton](https://taylorbrazelton.com/) in June 2022.
 
-<hr>
-
-### [PragVer](https://github.com/seveibar/pragmaticversioning)
+## [PragVer](https://github.com/seveibar/pragmaticversioning)
 
 **Pragmatic Versioning** optimizes for communicating changes to package consumers while retaining simple semantics for package maintainers. The format is `BIGRELEASE.ANNOUNCE.INCREMENT`, where:
 - **BIGRELEASE** indicates major updates or significant milestones controlled by the package author.
@@ -148,9 +130,7 @@ Pragmatic Versioning addresses the challenges faced by package authors, enabling
 
 Pragmatic Versioning was proposed by [Severin Ibarluzea](https://seve.blog/) in December 2023.
 
-<hr>
-
-### [WendtVer](https://wendtver.org/)
+## [WendtVer](https://wendtver.org/)
 
 **WendtVer** is a tongue-in-cheek versioning system designed to minimize the thought required for version increments. Starting at `0.0.0`, every commit increments the version number following these rules:
 - **PATCH** version increments on every commit.
@@ -163,9 +143,7 @@ This system, while creating chaotic and meaningless version numbers, makes it ea
 
 WendtVer was proposed by [Brian Wendt](https://brianwendt.com/) in August 2018
 
-<hr>
-
-### [SoloVer](https://beza1e1.tuxen.de/SoloVer)
+## [SoloVer](https://beza1e1.tuxen.de/SoloVer)
 
 **SoloVer** is a simple and expressive versioning specification that uses a single number with an optional postfix.
 
@@ -187,9 +165,7 @@ SoloVer does not communicate "backward compatibility" and focuses on simplicity 
 
 SoloVer was proposed by [beza1e1](https://beza1e1.tuxen.de/) in March 2024.
 
-<hr>
-
-### [BreakVer](https://www.taoensso.com/break-versioning)
+## [BreakVer](https://www.taoensso.com/break-versioning)
 
 **Break Versioning (BreakVer)** aims to fix several issues identified with Semantic Versioning (SemVer). BreakVer addresses the complexity of SemVer's lengthy specification and its lack of distinction between major and minor breakages. 
 
@@ -210,9 +186,7 @@ BreakVer aims to be easy to follow strictly, making it more reliable in practice
 
 BreakVer was proposed by [Peter Taoussanis](https://www.taoensso.com/) in August 2015 as part of the [encore](https://github.com/taoensso/encore) clojure library.
 
-<hr>
-
-### [Explicit Versioning](https://github.com/exadra37-versioning/explicit-versioning)
+## [Explicit Versioning](https://github.com/exadra37-versioning/explicit-versioning)
 
 Explicit Versioning: 
 
@@ -231,9 +205,7 @@ This approach ensures that any significant, intentional changes are clearly comm
 
 Explicit Versioning was proposed by [Paulo Renato](https://exadra37.com/) in February 2017, more details can be found in the [Announcement Post](https://medium.com/sapioit/why-having-3-numbers-in-the-version-name-is-bad-92fc1f6bc73c).
 
-<hr>
-
-### [ZenVer](https://github.com/NotAShelf/ZenVer/)
+## [ZenVer](https://github.com/NotAShelf/ZenVer/)
 
 **Zen Versioning (ZenVer)** is a revolutionary, simple, and straightforward versioning specification. Unlike Semantic Versioning, ZenVer demands nothing from the developer and less from the end-user. The idea is clear: number go up, software go new.
 
@@ -250,9 +222,7 @@ No additional labels, titles, or subtitles for pre-release and build metadata sh
 
 ZenVer was proposed by [NotAShelf](https://github.com/NotAShelf) in May 2024.
 
-<hr>
-
-### [PVP](https://pvp.haskell.org/)
+## [PVP](https://pvp.haskell.org/)
 
 **Package Versioning Policy (PVP)** is a versioning scheme designed specifically for the Haskell ecosystem to manage package dependencies and ensure compatibility. It provides a formal specification for version numbers to help developers and users maintain and use Haskell packages effectively.
 
@@ -274,9 +244,7 @@ PVP is specifically tailored to the Haskell ecosystem, differing from Semantic V
 
 PVP was proposed to the Haskell community by [Bulat Ziganshin](https://github.com/Bulat-Ziganshin) in 2006, three years before SemVer, on the [Haskell mailing list](https://mail.haskell.org/pipermail/haskell/2006-November/018762.html).
 
-<hr>
-
-### [FloatVer](https://alexshroyer.com/posts/2024-07-01-FloatVer.html)
+## [FloatVer](https://alexshroyer.com/posts/2024-07-01-FloatVer.html)
 
 **FloatVer** is a versioning scheme that uses non-negative IEEE754 32-bit floating point numbers in base-10 format. FloatVer is natively supported by the majority of programming languages, CPUs, and GPUs. Some example FloatVer version numbers are `0.7` and `290.10008`.
 
@@ -298,7 +266,7 @@ These rules ensure that nonbreaking versions permit safe automatic upgrades. Flo
 
 <hr>
 
-### AsymptoVer
+## AsymptoVer
 
 **AsymptoVer** – yes, I’ve just made up that name – is a peculiar, maybe even esoteric, versioning scheme.
 It was popularized by [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) (see also [**Errata** on the book series **Computers & Typesetting**](https://www-cs-faculty.stanford.edu/~knuth/abcde.html#bugs)).
@@ -314,9 +282,7 @@ Examples:
 
 If you feel like joking: There are plenty irrational [algebraic numbers](https://en.wikipedia.org/wiki/Algebraic_number) and [transcendental numbers](https://en.wikipedia.org/wiki/Transcendental_number) available.
 
-<hr>
-
-### [TrunkVer](https://trunkver.org/)
+## [TrunkVer](https://trunkver.org/)
 
 **TrunkVer** is a versioning scheme designed for trunk-based development and continuous delivery pipelines. It automates version generation, embedding meaningful metadata about the build, such as timestamps and commit hashes. TrunkVer is structurally compatible with SemVer.
 
@@ -333,9 +299,7 @@ Key Features:
 
 TrunkVer was proposed as a practical solution for modern continuous integration and deployment environments. TrunkVer was proposed by [Chris Klyk](https://github.com/c089) and [Raimo Radczewski](https://github.com/rradczewski) of [crafted. tech collective GmbH](https://www.crftd.tech) in May 2024.
 
-<hr>
-
-### [Epoch SemVer](https://antfu.me/posts/epoch-semver)
+## [Epoch SemVer](https://antfu.me/posts/epoch-semver)
 
 **Epoch SemVer** extends Semantic Versioning by introducing an additional numeric prefix called an *epoch*. This prefix is intended to handle situations where a project undergoes fundamental changes—like a full rewrite or rebrand—that traditional SemVer can't clearly express.
 
