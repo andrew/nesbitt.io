@@ -117,6 +117,9 @@ layout: default
         </h4>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <p class="post-meta">{{ post.date | date: date_format }}</p>
+        {%- if post.description -%}
+        <p class="post-description">{{ post.description }}</p>
+        {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
