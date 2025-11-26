@@ -39,4 +39,4 @@ The conversation highlighted how different package managers have evolved indepen
 
 ---
 
-There's also a [blog on ecosyste.ms](https://blog.ecosyste.ms) that I've been contributing to if you want to keep up with the latest updates, or follow me on [Mastodon](https://mastodon.social/@andrewnez).
+If you'd like to invite me on your podcast to discuss open source, package management, or software sustainability, reach out on [Mastodon](https://mastodon.social/@andrewnez) or [email me](mailto:andrew@ecosyste.ms).
