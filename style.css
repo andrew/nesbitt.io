@@ -275,3 +275,18 @@ section li p{
   color: #656d76;
   margin: 5px 0 0 0;
 }
+
+@media only screen and (max-width: 600px) {
+  h1,
+  h1.post-title{
+    font-size: 24px !important;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  h2{
+    font-size: 24px;
+  }
+  .post-content h2{
+    font-size: 1.3em;
+  }
+}
