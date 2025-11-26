@@ -106,7 +106,6 @@ layout: default
 
 <section class="posts">
   {%- if site.posts.size > 0 -%}
-    <h3>{{ page.list_title | default: "Recent Posts" }}</h3>
     <ul>
       {%- for post in site.posts -%}
       <li>
