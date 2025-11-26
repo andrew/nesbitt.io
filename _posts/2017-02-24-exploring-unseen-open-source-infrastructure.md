@@ -2,7 +2,7 @@
 layout: post
 title: Exploring Unseen Open Source Infrastructure
 published: true
-description: Whilst working on Libraries.io, I often stumble across libraries that appear to be used by an incredible amount of open source projects but
+description: Highly used open source libraries that have almost no stars or attention on GitHub.
 cover_image:
 tags: opensource, infrastructure, dependencies, github
 ---

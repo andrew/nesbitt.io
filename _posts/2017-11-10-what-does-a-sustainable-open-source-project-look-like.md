@@ -2,7 +2,7 @@
 layout: post
 title: What does a sustainable open source project look like?
 published: true
-description: I wanted to articulate what a successful, sustainable open source project looks like, including what kinds of work do people do on it, and what kind of community of users and contributors it has. Then with that as an end point, we can work backwards to figure out how to bring that world to life.
+description: What a successful, sustainable open source project looks like, the work people do on it, and the community it needs.
 ---
 
 Over the past couple years, thanks in part to Nadia Eghbal’s [Roads and Bridges](https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/) report, the world is starting to see the need for long-term sustainability in key open source projects that are the foundation of the ecosystems that our society relies on.
