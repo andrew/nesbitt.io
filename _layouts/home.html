@@ -107,7 +107,7 @@ layout: default
 <section class="posts">
   {%- if site.posts.size > 0 -%}
     <ul>
-      {%- for post in site.posts -%}
+      {%- for post in site.posts limit:10 -%}
       <li>
         <h4>
           <a class="post-link" href="{{ post.url | relative_url }}">
@@ -122,7 +122,9 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
+    {%- if site.posts.size > 10 -%}
+    <p><a href="/posts/">View all posts</a></p>
+    {%- endif -%}
   {%- endif -%}
 
 </section>

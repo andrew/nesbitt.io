@@ -248,8 +248,32 @@ section li{
   margin:0 0 20px;
 }
 
+section .post-item{
+  margin-bottom: 20px;
+}
+
+section .post-item h4{
+  margin: 20px 0 0 0;
+}
+
+section .post-item:first-child h4{
+  margin-top: 0;
+}
+
 section h3{
-  margin:5px 0;
+  margin: 40px 0 5px 0;
+}
+
+h3 + section.posts{
+  margin-top: 10px;
+}
+
+section.posts + h3{
+  margin-top: 40px;
+}
+
+h3:first-of-type{
+  margin-top: 20px;
 }
 
 section li p{
