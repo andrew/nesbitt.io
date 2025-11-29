@@ -71,6 +71,6 @@ A shared vocabulary enables a few useful things:
 
 All of these get stronger if more people use and contribute to the taxonomy. The network effect matters: a shared vocabulary is only useful if it's actually shared.
 
-How do projects get classified? I'll infer classifications from existing metadata in ecosyste.ms when it's reliable: READMEs, topics, dependency patterns. Maintainers can add namespaced keywords to their codemeta.json files for manual correction. Both feed back into improving the taxonomy.
+How do projects get classified? I'm still thinking about how to integrate this into [ecosyste.ms](https://ecosyste.ms). Topic and keyword data is the easiest source, but READMEs are probably the richest. There are also interesting technology connections to be made from a project's dependencies. Maintainers could add namespaced keywords to their codemeta.json files for manual correction, and both approaches feed back into improving the taxonomy.
 
-I'm planning to use this in [ecosyste.ms](https://ecosyste.ms). The taxonomy is CC0 licensed. If you maintain open source, try classifying one of your projects and open a PR if something's missing. The repo is at [github.com/ecosyste-ms/oss-taxonomy](https://github.com/ecosyste-ms/oss-taxonomy).
+The taxonomy is CC0 licensed and I'm looking for people to get involved. Try classifying a project you maintain, suggest new terms, or help refine existing ones: [github.com/ecosyste-ms/oss-taxonomy](https://github.com/ecosyste-ms/oss-taxonomy).
