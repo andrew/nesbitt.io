@@ -351,3 +351,23 @@ footer a{
 footer a:hover{
   color: #006ab2 !important;
 }
+
+/* Footnotes */
+.post-content .footnotes{
+  font-size: 13px;
+  color: #656d76;
+  margin-top: 40px;
+}
+
+.post-content .footnotes a{
+  color: #656d76 !important;
+}
+
+.post-content .footnotes a:hover{
+  color: #006ab2 !important;
+}
+
+.post-content sup a.footnote{
+  font-size: 12px;
+  color: #656d76 !important;
+}
