@@ -3,6 +3,8 @@ name: Deploy Jekyll site to Pages
 on:
   push:
     branches: ["master"]
+  schedule:
+    - cron: '0 9 * * *'  # 9am UTC daily
   workflow_dispatch:
 
 permissions:
