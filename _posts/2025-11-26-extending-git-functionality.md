@@ -9,7 +9,7 @@ tags:
   - development
 ---
 
-I've been researching how to extend git for a project I'm working on. There are six distinct patterns that I've seen people use to add functionality to git without modifying git itself:
+I've been researching how to extend git for a project I'm working on. There are seven distinct patterns that I've seen people use to add functionality to git without modifying git itself:
 
 - **Subcommands** for adding new commands
 - **Clean/smudge filters** for transforming file content
@@ -17,6 +17,7 @@ I've been researching how to extend git for a project I'm working on. There are 
 - **Merge/diff drivers** for custom merging of specific file types
 - **Remote helpers** for non-git backends
 - **Credential helpers** for custom auth
+- **Custom ref namespaces** for storing metadata that syncs with the repo
 
 ## Subcommands
 
@@ -161,6 +162,45 @@ Git ships with helpers for OS keychains. The protocol is straightforward: git se
 
 You'd write a custom helper to integrate with a secrets manager (Vault, 1Password) or custom authentication system. The [gitcredentials docs](https://git-scm.com/docs/gitcredentials) cover the protocol and available helpers.
 
+## Custom Ref Namespaces
+
+Git refs are just pointers to commits, but they're also a distributed key-value store. Create a ref, push it, and every clone gets a copy. Forges and tools exploit this by carving out their own namespaces under `refs/`.
+
+GitHub stores pull requests at `refs/pull/<id>/head` (the PR branch tip) and `refs/pull/<id>/merge` (the test merge result). These are read-only synthetic refs that persist even after PRs close. GitLab does similar with `refs/merge-requests/<id>/head`, plus `refs/keep-around/<sha>` to prevent garbage collection of commits that have CI pipelines or comments attached.
+
+Gerrit takes this furthest with [NoteDb](https://gerrit-review.googlesource.com/Documentation/note-db.html). Change metadata lives at `refs/changes/YZ/XYZ/meta` as a commit graph where each commit records a modification to the code review. Project configuration sits at `refs/meta/config`. User preferences at `refs/users/nn/accountid`. The entire code review workflow is stored in git, with the SQL database eliminated entirely since Gerrit 3.0.
+
+[gittuf](https://github.com/gittuf/gittuf) stores security metadata the same way. The Reference State Log at `refs/gittuf/reference-state-log` is a hash chain of signed entries recording every repository state change. Policy rules live at `refs/gittuf/policy`. Because it's just refs, gittuf works with any git server without modification.
+
+[Jujutsu](https://github.com/jj-vcs/jj) stores refs at `refs/jj/keep/` to prevent garbage collection of commits tracked in its operation log.
+
+Git itself uses this pattern internally: `refs/notes/` for annotations attached to commits without modifying them, `refs/stash` for stashed changes, and `refs/bisect/` for bisect state. The git project uses notes to [link each commit to its mailing list discussion](https://github.com/git/git).
+
+[git-appraise](https://github.com/google/git-appraise) from Google built code review entirely on notes, but the project is now abandoned. [git-bug](https://github.com/git-bug/git-bug) uses the same approach for issue tracking. The pattern works, but without forge support, these tools live or die by their maintainers.
+
+[Radicle](https://radicle.xyz) builds a peer-to-peer forge on custom refs. Repository identity lives at `refs/rad/id`, signed refs at `refs/rad/sigrefs`, and collaborative objects like issues and patches under `refs/cobs/`. Each peer's data is namespaced by their node ID, sharing a single object database.
+
+[Graphite](https://graphite.dev) stores branch metadata as JSON blobs under `refs/branch-metadata/`. [DVC](https://dvc.org) tracks ML experiments at `refs/exps/`, keeping thousands of experiment commits local until explicitly shared.
+
+```bash
+# Fetch GitHub PR refs
+git fetch origin '+refs/pull/*:refs/pull/*'
+
+# Fetch Gerrit change metadata
+git fetch origin refs/changes/70/98070/meta
+git log -p FETCH_HEAD
+
+# Fetch git notes
+git fetch origin 'refs/notes/*:refs/notes/*'
+```
+
+Custom refs are good for:
+- Metadata that should travel with clones (security policies, review state)
+- Data that benefits from git's deduplication and history
+- Avoiding external databases while keeping data distributed
+
+The constraints: refs are public to anyone who can fetch, and the [gitnamespaces docs](https://git-scm.com/docs/gitnamespaces) note that namespaces don't provide access control. If you need private metadata, store it elsewhere. Forges will store and sync custom refs, but they won't display them in the web UI. GitHub [added notes display in 2010](https://github.blog/2010-08-25-git-notes-display/) then quietly dropped it in 2014 without explanation. Your users need tooling installed locally to see or interact with ref-based data.
+
 ## What Language?
 
 Git doesn't care. Here's what existing projects use:
@@ -209,6 +249,8 @@ This file should be committed, it's how the repo tells git which extensions to i
 **[hub](https://github.com/mislav/hub)/[gh](https://github.com/cli/cli)**: Pure subcommand pattern. Wraps git commands and adds GitHub-specific features. Shows how far you can get with just new commands.
 
 **[overcommit](https://github.com/sds/overcommit)**: Hook manager in Ruby. Lets you configure hooks via YAML and provides a library of built-in checks for linting, security, and commit message formatting.
+
+**[gittuf](https://github.com/gittuf/gittuf)**: Uses custom refs to store a cryptographically signed log of all repository state changes. Subcommands for policy management. The ref-based approach means it works with any git server without modification.
 
 ## Installation Required
 
