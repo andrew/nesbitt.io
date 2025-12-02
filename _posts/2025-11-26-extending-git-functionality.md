@@ -176,7 +176,7 @@ Gerrit takes this furthest with [NoteDb](https://gerrit-review.googlesource.com/
 
 Git itself uses this pattern internally: `refs/notes/` for annotations attached to commits without modifying them, `refs/stash` for stashed changes, and `refs/bisect/` for bisect state. The git project uses notes to [link each commit to its mailing list discussion](https://github.com/git/git).
 
-[git-appraise](https://github.com/google/git-appraise) from Google built code review entirely on notes, but the project is now abandoned. [git-bug](https://github.com/git-bug/git-bug) uses the same approach for issue tracking. The pattern works, but without forge support, these tools live or die by their maintainers.
+[git-appraise](https://github.com/google/git-appraise) from Google built code review entirely on notes, but the project is now abandoned.
 
 [Radicle](https://radicle.xyz) builds a peer-to-peer forge on custom refs. Repository identity lives at `refs/rad/id`, signed refs at `refs/rad/sigrefs`, and collaborative objects like issues and patches under `refs/cobs/`. Each peer's data is namespaced by their node ID, sharing a single object database.
 
