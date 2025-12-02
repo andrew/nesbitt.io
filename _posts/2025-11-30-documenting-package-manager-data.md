@@ -15,7 +15,7 @@ Package managers are the quiet workhorses of computing. They make installing sof
 
 ecosyste.ms is in something of a unique position: having aggregated and normalized package data from over 70 sources we know something about how package managers work, and how they differ from one another.
 
-Working alongside the [CHAOSS Package Metadata Working Group](https://github.com/chaoss/wg-package-metadata) and [Alpha-Omega](https://alpha-omega.dev) we've documented the similarities and differences across package registries and clients, publishing six repositories of information about how package managers work today. In doing so we hope to identify common problems and work toward better practices:
+Working alongside the [CHAOSS Package Metadata Working Group](https://github.com/chaoss/wg-package-metadata) and [Alpha-Omega](https://alpha-omega.dev) we've documented the similarities and differences across package registries and clients, publishing eight repositories of information about how package managers work today. In doing so we hope to identify common problems and work toward better practices:
 
 ## [Package Manager Commands](https://github.com/ecosyste-ms/package-manager-commands)
 
@@ -53,8 +53,20 @@ A reference documenting lifecycle hooks across package manager ecosystems, categ
 
 Covers hooks across npm, Yarn, pnpm, Cargo, pip, Composer, RubyGems, Maven, Gradle, and many others. For each ecosystem, it documents when hooks execute, their implementation mechanisms, and security implications.
 
+## [Package Manager Archives](https://github.com/ecosyste-ms/package-manager-archives)
+
+Documentation of archive formats used by package managers, covering both language-specific ecosystems (gems, wheels, npm tarballs, crates) and system-level formats (deb, rpm, apk).
+
+Each entry documents internal archive structure, compression methods, metadata file locations, implementation quirks, and edge cases that commonly cause problems. Ruby gems use nested gzip compression within tar archives; Python wheels are actually ZIP files with specific metadata requirements; npm packages employ pax extended headers for long filenames.
+
+## [Package Manager Resolvers](https://github.com/ecosyste-ms/package-manager-resolvers)
+
+A reference documenting dependency resolution algorithms across package managers. Covers nine algorithm families: SAT solving (Composer, DNF, Conda), PubGrub (Dart pub, Poetry, uv), backtracking (pip, Cargo), minimal version selection (Go modules), deduplication with nesting (npm, Yarn, pnpm), version mediation (Maven, Gradle, NuGet), Molinillo (Bundler, RubyGems), and others.
+
+Each section explains how the algorithm works, its trade-offs, and why certain package managers chose their approach to solving dependency hell.
+
 ## Contributing
 
 These repositories collect what we've learned while researching the space. If you're building parsers, SBOM generators, or tools that work across package ecosystems, these might be useful references.
 
-All six repositories are released under CC0 1.0 Universal and accept contributions if you have corrections or additions.
+All eight repositories are released under CC0 1.0 Universal and accept contributions if you have corrections or additions.
