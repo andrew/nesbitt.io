@@ -2,7 +2,7 @@
 layout: post
 title: "What is a Package Manager?"
 date: 2025-12-02 10:00 +0000
-description: "A breakdown of everything modern package managers do, from installing packages to running security teams."
+description: "What is a package manager? Perhaps quite a few more components than you might think"
 tags:
   - package-managers
 ---
