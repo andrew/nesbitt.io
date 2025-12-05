@@ -105,12 +105,6 @@ Debian stable freezes a set of packages tested together. Arch updates packages c
 
 Frozen releases give stability, you know that every package in Debian 12 works with every other package in Debian 12 because someone tested those combinations. But software is often years out of date. Rolling releases give freshness and quick security updates but packages might not work together at any given moment, an update to one package might break another before the fix propagates.
 
-**Distro version schemes vs upstream versions**
-
-rpm adds epoch and release numbers to upstream versions. Version `1:2.3.4-5.el9` means epoch 1, upstream version 2.3.4, release 5 for RHEL 9. npm uses upstream versions directly.
-
-Distro versioning lets maintainers handle upstream mistakes. If upstream goes from 2.0 to 1.9, the epoch lets the distro version sort correctly. Release numbers track distro-specific patches without pretending upstream changed. But it creates translation headaches. "Do I have the fix for CVE-2024-1234?" requires knowing which release backported it. Upstream versioning is simpler but leaves maintainers stuck when upstream versions don't sort properly.
-
 **Registry-managed signing vs author-controlled signing**
 
 npm signs packages at the registry level. Debian requires GPG signatures from maintainers. PyPI supports Sigstore, tying signatures to identity providers rather than long-lived keys.
