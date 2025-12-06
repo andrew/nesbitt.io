@@ -2,15 +2,13 @@
 layout: post
 title: "GitHub Actions Has a Package Manager, and It Might Be the Worst"
 date: 2025-12-06 10:00 +0000
-description: "GitHub Actions is a package manager that ignores decades of supply chain security best practices: no lockfile, no integrity verification, no transitive pinning"
+description: "GitHub Actions has a package manager that ignores decades of supply chain security best practices: no lockfile, no integrity verification, no transitive pinning"
 tags:
   - package-managers
   - github
 ---
 
-GitHub Actions is a package manager.
-
-When you write `uses: actions/checkout@v4` in a workflow file, you're declaring a dependency. GitHub resolves it, downloads it, and executes it. That's a package manager. It just doesn't look like one because there's no `install` command and no `node_modules` folder.
+After putting together [ecosyste-ms/package-manager-resolvers](https://github.com/ecosyste-ms/package-manager-resolvers), I started wondering what dependency resolution algorithm GitHub Actions uses. When you write `uses: actions/checkout@v4` in a workflow file, you're declaring a dependency. GitHub resolves it, downloads it, and executes it. That's package management. So I went spelunking into the runner codebase to see how it works. What I found was concerning.
 
 Package managers are a critical part of software supply chain security. The industry has spent years hardening them after incidents like left-pad, event-stream, and countless others. Lockfiles, integrity hashes, and dependency visibility aren't optional extras. They're the baseline. GitHub Actions ignores all of it.
 
