@@ -130,7 +130,3 @@ We can also start to see which attributes different stakeholders in the project 
 It shouldn’t be too surprising that almost all of those attributes are also attributes of a successful software business. Every sustainable open source project ends up being run like a business in some ways, even if there aren’t any stakeholders that want to profit from it directly. Infact every successful open source project *is* a business. It’s just there are no paying customers.
 
 Let’s change that!
-
-If you’d like to add something to the list, I’ve put it up on GitHub, pull requests are very welcome: [https://github.com/librariesio/sustainable-oss-attributes](https://github.com/librariesio/sustainable-oss-attributes)
-
-As always, follow me on Twitter at [@teabass](https://twitter.com/teabass) for more updates.

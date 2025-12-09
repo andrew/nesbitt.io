@@ -36,5 +36,3 @@ Something that [Ben](https://medium.com/@benjam) and I are planning to do a lot 
 Another area that needs exploring is system level package managers like apt and yum, which contain even more important and often overlooked libraries that often aren’t hosted on a social platform like GitHub but are still critical to world of software.
 
 If you’d like to get involved, the whole project is [open source](https://github.com/librariesio/libraries.io) and we’d love to help you get started contributing, or if you’d like to build tools on top of all this data, check out the [Libraries.io REST API](http://libraries.io/api)
-
-As always, follow us on Twitter at [@teabass](https://twitter.com/teabass) and [@benjam](https://twitter.com/benjam) for more updates.
