@@ -8,7 +8,7 @@ tags:
   - package-managers
 ---
 
-Supply chain attacks on package managers keep getting more creative. Two attack vectors in particular have drawn attention: dependency confusion, which exploits how package managers resolve private versus public packages, and slopsquatting, which exploits LLM hallucinations. Each is dangerous on its own. Combined, they could be worse.
+Dependency confusion exploits how package managers resolve private versus public packages. Slopsquatting exploits LLM hallucinations of package names. Both are well-documented supply chain attack vectors. I think they combine into something worse, and I haven't seen anyone else connect the dots yet.
 
 ### Dependency confusion
 
