@@ -2,6 +2,10 @@
 layout: post
 title: "Slopsquatting meets Dependency Confusion"
 date: 2025-12-10
+description: "LLMs can leak internal package names, making dependency confusion attacks easier to scale."
+tags:
+  - security
+  - package-managers
 ---
 
 Supply chain attacks on package managers keep getting more creative. Two attack vectors in particular have drawn attention: dependency confusion, which exploits how package managers resolve private versus public packages, and slopsquatting, which exploits LLM hallucinations. Each is dangerous on its own. Combined, they could be worse.
