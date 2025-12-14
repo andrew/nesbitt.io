@@ -2,7 +2,7 @@
 layout: post
 title: "Supply Chain Security Tools for Ruby"
 date: 2025-12-14
-description: "Ruby implementations of PURL, vers, SBOM, and SWHID specs."
+description: "Ruby implementations of PURL, VERS, SBOM, and SWHID specs."
 tags:
   - ruby
   - security
@@ -13,8 +13,6 @@ tags:
 I've published four Ruby gems that work together to help people build supply chain security tools: [purl](https://github.com/andrew/purl), [vers](https://github.com/andrew/vers), [sbom](https://github.com/andrew/sbom), and [swhid](https://github.com/andrew/swhid). They handle the specs that security tooling depends on.
 
 I built these for [Ecosyste.ms](https://ecosyste.ms), which tracks dependencies across package registries. We deal with a lot of cross-ecosystem data: vulnerability reports that reference packages by PURL, version ranges from security advisories, SBOMs from various sources. If you're building security scanners, registry tooling, or compliance pipelines in Ruby, these might be useful.
-
-Most tooling in this space is written in Java, Python, or Go. Ruby has [cyclonedx-ruby-gem](https://github.com/CycloneDX/cyclonedx-ruby-gem) for generating SBOMs and [packageurl-ruby](https://github.com/package-url/packageurl-ruby) for PURL parsing.
 
 ### [purl](https://github.com/andrew/purl)
 
@@ -47,7 +45,7 @@ It also generates registry URLs for most package ecosystems.
 
 ### [vers](https://github.com/andrew/vers)
 
-Vers is the version range specification that accompanies PURL. Vulnerability databases need to express "this CVE affects versions 1.0 through 1.4.2, and also 2.0.0-beta." Different ecosystems have incompatible range syntaxes: npm uses `>=1.0.0 <1.4.3`, Ruby uses `>= 1.0, < 1.4.3`, Python uses `>=1.0,<1.4.3`. If you're building cross-ecosystem tooling, you need one syntax to normalize everything to. Vers provides that:
+[VERS](https://github.com/package-url/vers-spec) is the version range specification that accompanies PURL. Vulnerability databases need to express "this CVE affects versions 1.0 through 1.4.2, and also 2.0.0-beta." Different ecosystems have incompatible range syntaxes: npm uses `>=1.0.0 <1.4.3`, Ruby uses `>= 1.0, < 1.4.3`, Python uses `>=1.0,<1.4.3`. If you're building cross-ecosystem tooling, you need one syntax to normalize everything to. VERS provides that:
 
 - `vers:gem/>=2.0.0|<2.7.2` (Ruby versions 2.0.0 up to but not including 2.7.2)
 - `vers:npm/>=1.0.0|<1.4.3|>=2.0.0|<2.1.0` (two separate ranges)
