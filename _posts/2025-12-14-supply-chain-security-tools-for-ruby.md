@@ -2,7 +2,7 @@
 layout: post
 title: "Supply Chain Security Tools for Ruby"
 date: 2025-12-14
-description: "Ruby implementations of PURL, vers, and SBOM specs."
+description: "Ruby implementations of PURL, vers, SBOM, and SWHID specs."
 tags:
   - ruby
   - security
@@ -10,7 +10,7 @@ tags:
   - package-managers
 ---
 
-I've published three Ruby gems that work together to help people build supply chain security tools: [purl](https://github.com/andrew/purl), [vers](https://github.com/andrew/vers), and [sbom](https://github.com/andrew/sbom). They handle the specs that security tooling depends on.
+I've published four Ruby gems that work together to help people build supply chain security tools: [purl](https://github.com/andrew/purl), [vers](https://github.com/andrew/vers), [sbom](https://github.com/andrew/sbom), and [swhid](https://github.com/andrew/swhid). They handle the specs that security tooling depends on.
 
 I built these for [Ecosyste.ms](https://ecosyste.ms), which tracks dependencies across package registries. We deal with a lot of cross-ecosystem data: vulnerability reports that reference packages by PURL, version ranges from security advisories, SBOMs from various sources. If you're building security scanners, registry tooling, or compliance pipelines in Ruby, these might be useful.
 
@@ -26,7 +26,7 @@ Package URL is a standardized format for identifying software packages across ec
 - `pkg:gem/rails@7.1.0` (RubyGems)
 - `pkg:github/rails/rails@v7.1.0` (GitHub repo at a tag)
 
-It's used in SPDX, CycloneDX, and most security tooling.
+It's used in SPDX, CycloneDX, and most security tooling. PURL recently became [ECMA-427](https://ecma-international.org/publications-and-standards/standards/ecma-427/).
 
 The gem parses and generates these identifiers, with type-specific validation for ecosystems like conan, cran, and swift. Use it as a library:
 
@@ -85,8 +85,27 @@ $ sbom enrich example.cdx.json
 
 The enrich command pulls metadata from Ecosyste.ms: descriptions, homepages, licenses, repository URLs, and security advisories.
 
+### [swhid](https://github.com/andrew/swhid)
+
+SoftWare Hash IDentifiers are content-based hashes for software artifacts: files, directories, commits, releases, and snapshots. They originated from [Software Heritage](https://www.softwareheritage.org/), the archive that's preserving all publicly available source code. They're intrinsic identifiers, meaning the same content always produces the same SWHID regardless of where it lives. The spec is now ISO/IEC 18670:2025.
+
+```ruby
+swhid = Swhid.parse("swh:1:cnt:94a9ed024d3859793618152ea559a168bbcbb5e2")
+swhid.object_type # => "cnt"
+
+Swhid.from_content(File.read("file.txt"))
+```
+
+The CLI generates SWHIDs from files, directories, or git objects:
+
+```
+$ swhid content < file.txt
+$ swhid directory /path/to/project
+$ swhid revision /path/to/repo HEAD
+```
+
 ---
 
-These gems provide Ruby implementations of a few specs that show up repeatedly in supply chain security work: package identifiers, version ranges, and SBOM formats. They're designed to be used as libraries or CLI tools, and to behave predictably across ecosystems.
+These gems provide Ruby implementations of specs that show up repeatedly in supply chain security work: package identifiers, version ranges, SBOM formats, and content hashes. They're designed to be used as libraries or CLI tools, and to behave predictably across ecosystems.
 
 They were built to support Ecosyste.ms and are used there in production. If you're working with dependency metadata in Ruby, they handle the spec compliance so you don't have to. With the CRA coming into full effect in 2027, you'll probably hear more about SBOMs and supply chain security in the coming years.
