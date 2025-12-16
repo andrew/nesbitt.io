@@ -93,7 +93,7 @@ Other CI systems have done better. GitLab CI added an `integrity` keyword in ver
 
 GitHub's design choices don't just affect GitHub users. Forgejo Actions maintains compatibility with GitHub Actions, which means projects migrating to Codeberg for ethical reasons inherit the same broken CI architecture. The Forgejo maintainers [openly acknowledge the problems](https://codeberg.org/forgejo/discussions/issues/214), with contributors calling GitHub Actions' ecosystem "terribly designed and executed." But they're stuck maintaining compatibility with it. Codeberg mirrors common actions to reduce GitHub dependency, but the fundamental issues are baked into the model itself. GitHub's design flaws are spreading to the alternatives.
 
-[GitHub issue #2195](https://github.com/actions/runner/issues/2195) requested lockfile support. It was closed as "not planned" in 2022. Palo Alto's ["Unpinnable Actions" research](https://unit42.paloaltonetworks.com/github-actions-supply-chain-vulnerabilities/) documented how even SHA-pinned actions can have unpinnable transitive dependencies.
+[GitHub issue #2195](https://github.com/actions/runner/issues/2195) requested lockfile support. It was closed as "not planned" in 2022. Palo Alto's ["Unpinnable Actions" research](https://www.paloaltonetworks.com/blog/cloud-security/unpinnable-actions-github-security/) documented how even SHA-pinned actions can have unpinnable transitive dependencies.
 
 Dependabot can update action versions, which helps. Some teams vendor actions into their own repos. [zizmor](https://zizmor.sh/) is excellent at scanning workflows and finding security issues. But these are workarounds for a system that lacks the basics.
 
