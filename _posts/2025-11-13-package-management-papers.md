@@ -155,6 +155,24 @@ arXiv preprint
 
 Systematic literature review analyzing common software supply chain attacks and providing latest trends. Identified security risks for open-source and third-party software supply chains.
 
+**[Challenges of Producing Software Bill Of Materials for Java](https://arxiv.org/abs/2303.11102)** (2023)
+*Musard Balliu, Benoit Baudry, Sofia Bobadilla, Mathias Ekstedt, Martin Monperrus, Javier Ron, Aman Sharma, Gabriel Skoglund, César Soto-Valero, Martin Wittlinger*
+arXiv preprint
+
+Evaluated six SBOM generation tools on complex open-source Java projects, identifying hard challenges for accurate SBOM production and usage in software supply chain security contexts.
+
+**[SBOM.EXE: Countering Dynamic Code Injection based on Software Bill of Materials in Java](https://arxiv.org/abs/2407.00246)** (2024)
+*Aman Sharma, Martin Wittlinger, Benoit Baudry, Martin Monperrus*
+arXiv preprint
+
+Proposes a runtime defense mechanism for Java applications that constructs an allowlist of legitimate classes using complete software supply chain information, then enforces this list during execution to block unauthorized classes. Tested against critical vulnerabilities including Log4Shell-style threats with minimal performance impact.
+
+**[Dirty-Waters: Detecting Software Supply Chain Smells](https://arxiv.org/abs/2410.16049)** (2024)
+*Raphina Liu, Sofia Bobadilla, Benoit Baudry, Martin Monperrus*
+arXiv preprint
+
+Introduces "software supply chain smell" as a novel concept for identifying problematic dependency patterns. Presents Dirty-Waters tool for detecting these smells in JavaScript projects, finding many patterns that reveal potential supply chain risks.
+
 **[LastPyMile: Identifying the Discrepancy Between Sources and Packages](https://dl.acm.org/doi/10.1145/3468264.3468588)** (2021)
 *Duc-Ly Vu, Fabio Massacci, Ivan Pashchenko, Henrik Plate, Antonino Sabetta*
 ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)
@@ -267,6 +285,12 @@ Empirical Software Engineering
 
 Quantitative analysis of seven packaging ecosystems (Cargo, CPAN, CRAN, npm, NuGet, Packagist, RubyGems) using libraries.io dataset. Demonstrated important structural differences that complicate cross-ecosystem generalization.
 
+**[The Multibillion Dollar Software Supply Chain of Ethereum](https://arxiv.org/abs/2202.07029)** (2022)
+*César Soto-Valero, Martin Monperrus, Benoit Baudry*
+arXiv preprint
+
+Examines how Java Ethereum nodes depend on third-party software maintained by various organizations, analyzing the supply chain supporting blockchain infrastructure and highlighting reliability and security challenges from diverse external dependencies.
+
 **[A Closer Look at the Security Risks in the Rust Ecosystem](https://dl.acm.org/doi/10.1145/3624738)** (2024)
 *Multiple authors*
 ACM Transactions on Software Engineering and Methodology (TOSEM)
@@ -336,6 +360,12 @@ Studied technical lag (outdatedness of dependencies) in npm ecosystem, examining
 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)
 
 Empirical study finding 11.58% of dependency updates contain breaking changes that impact clients. Almost half of detected breaking changes violate semantic versioning by appearing in non-major releases.
+
+**[Breaking-Good: Explaining Breaking Dependency Updates with Build Analysis](https://arxiv.org/abs/2407.03880)** (2024)
+*Frank Reyes, Benoit Baudry, Martin Monperrus*
+arXiv preprint
+
+Automated tool that generates explanations for compilation errors caused by incompatible dependency version changes. Analyzes logs and dependency trees to identify root causes across direct/indirect dependencies, Java version conflicts, and configuration issues. Successfully identified causes for 70% of 243 real breaking updates.
 
 **[Semantic Versioning versus Breaking Changes: A Study of the Maven Repository](https://www.sciencedirect.com/science/article/pii/S0164121217300018)** (2014, 2017)
 *Steven Raemaekers, Arie van Deursen, Joost Visser*
