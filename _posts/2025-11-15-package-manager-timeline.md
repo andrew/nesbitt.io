@@ -308,7 +308,7 @@ h2 {
 
 <div class="timeline-event">
 <span class="event-type type-release">Major Release</span>
-<strong><a href="https://andre.arko.net/2017/11/16/a-history-of-bundles-2010-to-2017/">Bundler 1.0 released</a></strong>
+<strong><a href="https://andre.arko.net/2017/11/16/a-history-of-bundles/">Bundler 1.0 released</a></strong>
 <br>August 2010: Bundler 1.0 was released, becoming the de facto dependency manager for Ruby projects.
 </div>
 
