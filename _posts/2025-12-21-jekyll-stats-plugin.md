@@ -6,6 +6,7 @@ description: A Jekyll plugin that adds a stats command to show word counts, read
 tags:
   - open source
   - ruby
+  - jekyll
 ---
 
 Jekyll doesn't have a built-in way to see how many words you've written, so I made [jekyll-stats](https://github.com/andrew/jekyll-stats).
