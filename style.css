@@ -333,6 +333,11 @@ section li p{
     margin-bottom: 15px;
     text-align: center;
   }
+  .site-footer{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
 }
 
 .site-footer{
