@@ -1,0 +1,46 @@
+---
+layout: default
+title: Stats
+---
+
+<div class="post-content">
+  <h1>Site Statistics</h1>
+
+  <p>{{ site.data.stats.total_posts }} posts, {{ site.data.stats.total_words }} words, ~{{ site.data.stats.reading_minutes }} minutes reading time.</p>
+
+  <p>Average {{ site.data.stats.average_words }} words per post. Longest: <a href="{{ site.data.stats.longest_post.url }}">{{ site.data.stats.longest_post.title }}</a> ({{ site.data.stats.longest_post.words }} words).</p>
+
+  <p>First post: {{ site.data.stats.first_post.date }} | Last post: {{ site.data.stats.last_post.date }} | {{ site.data.stats.years_active }} years active.</p>
+
+  <h2>Posts by Year</h2>
+
+  <table>
+    <tr>
+      <th>Year</th>
+      <th>Posts</th>
+    </tr>
+    {% for year in site.data.stats.posts_by_year %}
+    <tr>
+      <td>{{ year.year }}</td>
+      <td>{{ year.count }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <h2>Top Tags</h2>
+
+  <table>
+    <tr>
+      <th>Tag</th>
+      <th>Posts</th>
+    </tr>
+    {% for tag in site.data.stats.tags limit:10 %}
+    <tr>
+      <td>{{ tag.name }}</td>
+      <td>{{ tag.count }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <p class="post-meta">Generated {{ site.data.stats.generated_at | date: "%b %-d, %Y" }}</p>
+</div>
