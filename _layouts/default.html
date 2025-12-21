@@ -40,10 +40,17 @@
         {{ content }}
       </main>
 
-      <footer>
-        <a rel="me" href="https://mastodon.social/@andrewnez">Mastodon</a> ·
-        <a href="https://github.com/andrew">GitHub</a> ·
-        <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+      <footer class="site-footer">
+        <span class="footer-nav">
+          <a rel="me" href="https://mastodon.social/@andrewnez">Mastodon</a> ·
+          <a href="https://github.com/andrew">GitHub</a> ·
+          <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+        </span>
+        {% if page.layout == "post" %}
+        <span class="footer-source">
+          <a href="https://github.com/andrew/nesbitt.io/blob/master/{{ page.path }}">View source</a>
+        </span>
+        {% endif %}
       </footer>
     </div>
   </body>

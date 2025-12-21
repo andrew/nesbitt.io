@@ -335,21 +335,31 @@ section li p{
   }
 }
 
-footer{
+.site-footer{
   margin-top: 40px;
   padding: 20px 0;
   border-top: 1px solid #eee;
-  text-align: center;
   font-size: 14px;
   color: #656d76;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-footer a{
+.site-footer a{
   color: #656d76 !important;
 }
 
-footer a:hover{
+.site-footer a:hover{
   color: #006ab2 !important;
+}
+
+.footer-source a{
+  color: #b0b0b0 !important;
+}
+
+.footer-source a:hover{
+  color: #656d76 !important;
 }
 
 /* Footnotes */
@@ -371,3 +381,4 @@ footer a:hover{
   font-size: 12px;
   color: #656d76 !important;
 }
+
