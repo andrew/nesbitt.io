@@ -3,7 +3,11 @@ layout: post
 title: Untangle your GitHub Notifications with Octobox
 published: true
 description: Octobox helps you manage your GitHub notifications in the same way Gmail helps you with email, it's now available on the GitHub Marketplace.
-tags: ruby, github, opensource, productivity
+tags:
+  - ruby
+  - github
+  - open source
+  - productivity
 ---
 
 As an active contributor and maintainer of many open source projects on GitHub, I struggle to keep up with the various in-progress issues and pull requests across multiple repositories and find it hard to see an overview of everything I’m involved in. If you manage or contribute to any number projects on GitHub, I’m betting you probably have the same issue.

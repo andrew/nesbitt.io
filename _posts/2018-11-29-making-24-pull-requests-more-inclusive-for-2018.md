@@ -3,7 +3,10 @@ layout: post
 title: Making 24 Pull Requests more inclusive for 2018
 published: true
 description: 24 Pull Requests is back for it's 6th year and this time we're making it more inclusive to all kinds of contributions.
-tags: opensource, challenge, christmas
+tags:
+  - open source
+  - challenge
+  - christmas
 ---
 
 For the past 6 years, [24 Pull Requests](https://24pullrequests.com) has been encouraging developers to give back to the open source projects they use. The idea was simple: “Send 24 pull requests between December 1st and December 24th”, giving little gifts of code throughout December.
