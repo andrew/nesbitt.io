@@ -39,6 +39,16 @@ The CocoaPods blog captured it well: ["Git was invented at a time when 'slow net
 
 CocoaPods 1.8 [gave up on git entirely](https://blog.cocoapods.org/CocoaPods-1.8.0-beta/) for most users. A CDN became the default, serving podspec files directly over HTTP. The migration saved users about a gigabyte of disk space and made `pod install` nearly instant for new setups.
 
+It’s timely — happened three weeks ago. And it shows the pattern is ongoing, not just historical.
+
+**Nixpkgs**
+
+Nixpkgs is currently stress-testing GitHub’s infrastructure. In November 2025, GitHub contacted the NixOS team about [periodic maintenance jobs failing](https://discourse.nixos.org/t/nixpkgs-core-team-update-2025-11-30-github-scaling-issues/72709) and causing “issues achieving consensus between replicas.” If unresolved, the repository could have become read-only.
+
+The repository totals 83GB with half a million tree objects and 20,000 forks. A local clone is only 2.5GB — the rest is GitHub’s fork network storing every pull request branch and merge commit. The CI queries mergeability daily, creating new merge commits each time.
+
+Unlike CocoaPods, Nixpkgs can’t easily move to a CDN. The Nix expressions *are* the package definitions, not metadata pointing elsewhere. Binary caches already serve built packages over HTTP, but nixpkgs itself remains a git repository — and it’s still growing.
+
 ## Go modules
 
 [Grab's engineering team](https://engineering.grab.com/go-module-proxy) went from 18 minutes for `go get` to 12 seconds after deploying a module proxy. That's not a typo. Eighteen minutes down to twelve seconds.
