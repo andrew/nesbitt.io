@@ -17,7 +17,7 @@ The crates.io index started as a git repository. Every Cargo client cloned it. T
 
 The problem was worst in CI. Stateless environments would download the full index, use a tiny fraction of it, and throw it away. Every build, every time.
 
-[RFC 2789](https://rust-lang.github.io/rfcs/2789-sparse-index.html) introduced a sparse HTTP protocol. Instead of cloning the whole index, Cargo now fetches files directly over HTTPS, downloading only the metadata for dependencies your project actually uses. By April 2025, 99% of crates.io requests came from Cargo versions where sparse is the default. The git index still exists, still growing by thousands of commits per day, but most users never touch it.
+[RFC 2789](https://rust-lang.github.io/rfcs/2789-sparse-index.html) introduced a sparse HTTP protocol. Instead of cloning the whole index, Cargo now fetches files directly over HTTPS, downloading only the metadata for dependencies your project actually uses. (This is the "[full index replication vs on-demand queries](/2025/12/05/package-manager-tradeoffs.html)" tradeoff in action.) By April 2025, 99% of crates.io requests came from Cargo versions where sparse is the default. The git index still exists, still growing by thousands of commits per day, but most users never touch it.
 
 ## Homebrew
 
@@ -47,7 +47,7 @@ The problem was that `go get` needed to fetch each dependency's source code just
 
 Go had security concerns too. The original design wanted to remove version control tools entirely because ["these fragment the ecosystem: packages developed using Bazaar or Fossil, for example, are effectively unavailable to users who cannot or choose not to install these tools."](https://arslan.io/2019/08/02/why-you-should-use-a-go-module-proxy/) Beyond fragmentation, the Go team worried about security bugs in version control systems becoming security bugs in `go get`. You're not just importing code; you're importing the attack surface of every VCS tool on the developer's machine.
 
-GOPROXY became the default in Go 1.13. The proxy serves source archives and go.mod files independently over HTTP. Go also introduced a checksum database (sumdb) that records cryptographic hashes of module contents. This protects against force pushes silently changing tagged releases, and ensures modules remain available even if the original repository is deleted.
+GOPROXY became the default in Go 1.13. The proxy serves source archives and go.mod files independently over HTTP. Go also introduced a [checksum database (sumdb)](/2025/12/21/federated-package-management.html#gos-experiment-with-dns) that records cryptographic hashes of module contents. This protects against force pushes silently changing tagged releases, and ensures modules remain available even if the original repository is deleted.
 
 ## Beyond package managers
 
