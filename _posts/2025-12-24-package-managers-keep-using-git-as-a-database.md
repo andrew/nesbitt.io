@@ -49,6 +49,20 @@ The repository totals 83GB with half a million tree objects and 20,000 forks. A 
 
 Unlike CocoaPods, Nixpkgs can’t easily move to a CDN. The Nix expressions *are* the package definitions, not metadata pointing elsewhere. Binary caches already serve built packages over HTTP, but nixpkgs itself remains a git repository — and it’s still growing.
 
+## vcpkg
+
+vcpkg is Microsoft's C++ package manager. It uses git tree hashes to version its ports, with the curated registry at [github.com/Microsoft/vcpkg](https://github.com/Microsoft/vcpkg) containing over 2,000 libraries.
+
+The problem is that vcpkg needs to retrieve specific versions of ports by their git tree hash. When you specify a `builtin-baseline` in your vcpkg.json (functioning like a lockfile for reproducible builds), vcpkg looks up historical commits to find the exact port versions you need. This only works if you have the full commit history.
+
+Shallow clones break everything. GitHub Actions uses shallow clones by default. DevContainers [shallow-clone vcpkg](https://github.com/devcontainers/images/issues/398) to save space. CI systems optimize for fast checkouts. All of these result in the same error: "vcpkg was cloned as a shallow repository... Try again with a full vcpkg clone."
+
+The workarounds are ugly. One [proposed solution](https://github.com/devcontainers/images/issues/398) involves parsing vcpkg.json to extract the baseline hash, deriving the commit date, then fetching with `--shallow-since=<date>`. Another suggests including twelve months of history, hoping projects upgrade before their baseline falls off the cliff. For GitHub Actions, you need `fetch-depth: 0` in your checkout step, [downloading the entire repository history](https://github.com/microsoft/vcpkg/issues/25349) just to resolve dependencies.
+
+A vcpkg team member [explained the fundamental constraint](https://github.com/microsoft/vcpkg/issues/25349): "Port versions don't use commit hashes, we use the git tree hash of the port directory. As far as I know, there is no way to deduce the commit that added a specific tree hash." An in-product fix is infeasible. The architecture baked in git deeply enough that there's no escape hatch.
+
+Unlike Cargo, Homebrew, and CocoaPods, vcpkg hasn't announced plans to move away from git registries. Custom registries must still be git repositories. The documentation describes filesystem registries as an alternative, but these require local or mounted paths rather than HTTP access. There's no CDN, no sparse protocol, no HTTP-based solution on the horizon.
+
 ## Go modules
 
 [Grab's engineering team](https://engineering.grab.com/go-module-proxy) went from 18 minutes for `go get` to 12 seconds after deploying a module proxy. That's not a typo. Eighteen minutes down to twelve seconds.
@@ -85,4 +99,4 @@ The progression is predictable. Start with a flat directory of files. Hit filesy
 
 None of this means git is bad. Git excels at what it was designed for: distributed collaboration on source code, with branching, merging, and offline work. The problem is using it for something else entirely. Package registries need fast point queries for metadata. Git gives you a full-document sync protocol when you need a key-value lookup.
 
-If you're building a package manager and git-as-index seems appealing, look at Cargo, Homebrew, CocoaPods, Go. They all had to build workarounds as they grew, causing pain for users and maintainers. The pull request workflow is nice. The version history is nice. You will hit the same walls they did.
+If you're building a package manager and git-as-index seems appealing, look at Cargo, Homebrew, CocoaPods, vcpkg, Go. They all had to build workarounds as they grew, causing pain for users and maintainers. The pull request workflow is nice. The version history is nice. You will hit the same walls they did.
