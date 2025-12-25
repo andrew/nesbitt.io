@@ -39,8 +39,6 @@ The CocoaPods blog captured it well: ["Git was invented at a time when 'slow net
 
 CocoaPods 1.8 [gave up on git entirely](https://blog.cocoapods.org/CocoaPods-1.8.0-beta/) for most users. A CDN became the default, serving podspec files directly over HTTP. The migration saved users about a gigabyte of disk space and made `pod install` nearly instant for new setups.
 
-It’s timely — happened three weeks ago. And it shows the pattern is ongoing, not just historical.
-
 ## Nixpkgs
 
 Nixpkgs is currently stress-testing GitHub’s infrastructure. In November 2025, GitHub contacted the NixOS team about [periodic maintenance jobs failing](https://discourse.nixos.org/t/nixpkgs-core-team-update-2025-11-30-github-scaling-issues/72709) and causing “issues achieving consensus between replicas.” If unresolved, the repository could have become read-only.
