@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/andrew/jekyll-llmstxt.git
+  revision: ed2ba3f8efd58200b1b0afc84c84766dd1b29300
+  specs:
+    jekyll-llmstxt (0.1.1)
+      jekyll (>= 3.7, < 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -102,6 +109,7 @@ DEPENDENCIES
   jekyll
   jekyll-compose
   jekyll-feed
+  jekyll-llmstxt!
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-stats

@@ -13,4 +13,5 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll-stats'
+  gem 'jekyll-llmstxt', github: 'andrew/jekyll-llmstxt'
 end
