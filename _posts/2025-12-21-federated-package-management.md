@@ -2,7 +2,7 @@
 layout: post
 title: "Federated Package Management and the Zooko Triangle"
 date: 2025-12-21 10:00 +0000
-description: "The trade-offs that make truly decentralized package management impractical"
+description: "The trade-offs that make decentralized package management impractical"
 tags:
   - package-managers
 ---

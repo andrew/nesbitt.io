@@ -145,7 +145,7 @@ This is where the question shifts from formats to trust. [SBOMit](https://sbomit
 
 Package managers could do the same thing. During `bundle install` or `npm install`, the resolver already knows exactly which packages it fetched, from where, with what checksums. It could emit attestations as it goes. Combined with [Sigstore](https://www.sigstore.dev/) for artifact signing and [trusted publishing](https://repos.openssf.org/trusted-publishers-for-all-package-repositories.html) for verifying upload provenance, the lockfile becomes not just a list of versions, but a cryptographically verifiable record of the entire dependency graph.
 
-## The actual point
+## What the mapping reveals
 
 The exercise of mapping lockfiles to CycloneDX reveals something interesting: these formats are more similar than they look. Strip away the syntax differences and you have packages, versions, checksums, sources, and dependencies. The variations are mostly in metadata and edge cases. The conversion tools exist because we built two systems for the same purpose.
 

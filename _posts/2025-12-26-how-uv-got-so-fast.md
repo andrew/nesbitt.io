@@ -58,13 +58,13 @@ Some of uv's speed comes from Rust. But not as much as you'd think. Several key 
 
 **HTTP range requests for metadata.** [Wheel files](https://packaging.python.org/en/latest/specifications/binary-distribution-format/) are zip archives, and zip archives put their file listing at the end. uv tries PEP 658 metadata first, falls back to HTTP range requests for the zip central directory, then full wheel download, then building from source. Each step is slower and riskier. The design makes the fast path cover 99% of cases. None of this requires Rust.
 
-**Parallel downloads.** pip downloads packages one at a time. uv downloads many at once. This is concurrency, not language magic.
+**Parallel downloads.** pip downloads packages one at a time. uv downloads many at once. Any language can do this.
 
-**Global cache with hardlinks.** pip copies packages into each virtual environment. uv keeps one copy globally and uses [hardlinks](https://en.wikipedia.org/wiki/Hard_link) (or copy-on-write on filesystems that support it). Installing the same package into ten venvs takes the same disk space as one. This is filesystem ops, not language-dependent.
+**Global cache with hardlinks.** pip copies packages into each virtual environment. uv keeps one copy globally and uses [hardlinks](https://en.wikipedia.org/wiki/Hard_link) (or copy-on-write on filesystems that support it). Installing the same package into ten venvs takes the same disk space as one. Any language with filesystem access can do this.
 
 **Python-free resolution.** pip needs Python running to do anything, and invokes build backends as subprocesses to get metadata from legacy packages. uv parses TOML and wheel metadata natively, only spawning Python when it hits a setup.py-only package that has no other option.
 
-**PubGrub resolver.** uv uses the [PubGrub algorithm](https://github.com/dart-lang/pub/blob/master/doc/solver.md), originally from Dart's pub package manager. pip uses a backtracking resolver. PubGrub is faster at finding solutions and better at explaining failures. It's an algorithm choice, not a language choice.
+**PubGrub resolver.** uv uses the [PubGrub algorithm](https://github.com/dart-lang/pub/blob/master/doc/solver.md), originally from Dart's pub package manager. pip uses a backtracking resolver. PubGrub is faster at finding solutions and better at explaining failures. pip could adopt PubGrub without rewriting in Rust.
 
 ## Where Rust actually matters
 
