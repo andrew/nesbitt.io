@@ -41,11 +41,11 @@ CocoaPods 1.8 [gave up on git entirely](https://blog.cocoapods.org/CocoaPods-1.8
 
 ## Nixpkgs
 
-Nixpkgs is currently stress-testing GitHub’s infrastructure. In November 2025, GitHub contacted the NixOS team about [periodic maintenance jobs failing](https://discourse.nixos.org/t/nixpkgs-core-team-update-2025-11-30-github-scaling-issues/72709) and causing “issues achieving consensus between replicas.” If unresolved, the repository could have become read-only.
+Nix already solved the client-side problem. The package manager fetches expressions as [tarballs via channels](https://releases.nixos.org/nix/nix-2.13.6/manual/package-management/channels.html), served from S3 and CDN, not git clones. Binary caches serve built packages over HTTP. End users never touch the git repository.
 
-The repository totals 83GB with half a million tree objects and 20,000 forks. A local clone is only 2.5GB — the rest is GitHub’s fork network storing every pull request branch and merge commit. The CI queries mergeability daily, creating new merge commits each time.
+But the repository itself is stress-testing GitHub's infrastructure. In November 2025, GitHub contacted the NixOS team about [periodic maintenance jobs failing](https://discourse.nixos.org/t/nixpkgs-core-team-update-2025-11-30-github-scaling-issues/72709) and causing "issues achieving consensus between replicas." If unresolved, the repository could have become read-only.
 
-Unlike CocoaPods, Nixpkgs can’t easily move to a CDN. The Nix expressions *are* the package definitions, not metadata pointing elsewhere. Binary caches already serve built packages over HTTP, but nixpkgs itself remains a git repository — and it’s still growing.
+The repository totals 83GB with half a million tree objects and 20,000 forks. A local clone is only 2.5GB. The rest is GitHub's fork network storing every pull request branch and merge commit. The CI queries mergeability daily, creating new merge commits each time.
 
 ## vcpkg
 
