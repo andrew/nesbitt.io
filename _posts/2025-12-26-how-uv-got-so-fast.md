@@ -9,7 +9,7 @@ tags:
 
 uv installs packages faster than pip by an order of magnitude. The usual explanation is "it's written in Rust." That's true, but it doesn't explain much. Plenty of tools are written in Rust without being notably fast. The interesting question is what design decisions made the difference.
 
-Charlie Marsh's [Jane Street talk](https://www.janestreet.com/tech-talks/uv-an-extremely-fast-python-package-manager/) and a [Xebia engineering deep-dive](https://xebia.com/blog/uv-the-engineering-secrets-behind-pythons-speed-king/) do an excellent job at covering the technical details. Let's dig into the design decisions that led to it: standards that enable fast paths, things uv drops that pip supports, and optimizations that don't require Rust at all.
+Charlie Marsh's [Jane Street talk](https://www.janestreet.com/tech-talks/uv-an-extremely-fast-python-package-manager/) and a [Xebia engineering deep-dive](https://xebia.com/blog/uv-the-engineering-secrets-behind-pythons-speed-king/) cover the technical details well. The interesting parts are the design decisions: standards that enable fast paths, things uv drops that pip supports, and optimizations that don't require Rust at all.
 
 ## The standards that made uv possible
 
@@ -26,7 +26,7 @@ The fix came in stages:
 - [PEP 621](https://peps.python.org/pep-0621/) (2020) standardized the `[project]` table, so dependencies could be read by parsing TOML rather than running Python.
 - [PEP 658](https://peps.python.org/pep-0658/) (2022) put package metadata directly in the Simple Repository API, so resolvers could fetch dependency information without downloading wheels at all.
 
-PEP 658 went live on PyPI in May 2023. uv launched in February 2024. The timing isn't coincidental. uv could be fast because the ecosystem finally had the infrastructure to support it. A tool like uv couldn't have shipped in 2020. The standards weren't there yet.
+PEP 658 went live on PyPI in May 2023. uv launched in February 2024. uv could be fast because the ecosystem finally had the infrastructure to support it. A tool like uv couldn't have shipped in 2020. The standards weren't there yet.
 
 Other ecosystems figured this out earlier. Cargo has had static metadata from the start. npm's package.json is declarative. Python's packaging standards finally bring it to parity.
 
@@ -56,7 +56,7 @@ Each of these is a code path pip has to execute and uv doesn't.
 
 Some of uv's speed comes from Rust. But not as much as you'd think. Several key optimizations could be implemented in pip today:
 
-**HTTP range requests for metadata.** [Wheel files](https://packaging.python.org/en/latest/specifications/binary-distribution-format/) are zip archives, and zip archives put their file listing at the end. uv tries PEP 658 metadata first, falls back to HTTP range requests for the zip central directory, then full wheel download, then building from source. Each step is slower and riskier. The design makes the fast path cover 99% of cases. This is HTTP protocol work, not Rust.
+**HTTP range requests for metadata.** [Wheel files](https://packaging.python.org/en/latest/specifications/binary-distribution-format/) are zip archives, and zip archives put their file listing at the end. uv tries PEP 658 metadata first, falls back to HTTP range requests for the zip central directory, then full wheel download, then building from source. Each step is slower and riskier. The design makes the fast path cover 99% of cases. None of this requires Rust.
 
 **Parallel downloads.** pip downloads packages one at a time. uv downloads many at once. This is concurrency, not language magic.
 
@@ -80,10 +80,10 @@ Some optimizations do require Rust:
 
 These are real advantages. But they're smaller than the architectural wins from dropping legacy support and exploiting modern standards.
 
-## The actual lesson
+## Design over language
 
 uv is fast because of what it doesn't do, not because of what language it's written in. The standards work of PEP 518, 517, 621, and 658 made fast package management possible. Dropping eggs, pip.conf, and permissive parsing made it achievable. Rust makes it a bit faster still.
 
 pip could implement parallel downloads, global caching, and metadata-only resolution tomorrow. It doesn't, largely because backwards compatibility with fifteen years of edge cases takes precedence. But it means pip will always be slower than a tool that starts fresh with modern assumptions.
 
-The takeaway for other package managers: the things that make uv fast are static metadata, no code execution to discover dependencies, and the ability to resolve everything upfront before downloading. Cargo and npm have operated this way for years. If your ecosystem requires running arbitrary code to find out what a package needs, you've already lost.
+Other package managers could learn from this: static metadata, no code execution to discover dependencies, and the ability to resolve everything upfront before downloading. Cargo and npm have operated this way for years. If your ecosystem requires running arbitrary code to find out what a package needs, you've already lost.
