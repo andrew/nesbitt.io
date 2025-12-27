@@ -64,15 +64,15 @@ Some of uv's speed comes from Rust. But not as much as you'd think. Several key 
 
 **Python-free resolution.** pip needs Python running to do anything, and invokes build backends as subprocesses to get metadata from legacy packages. uv parses TOML and wheel metadata natively, only spawning Python when it hits a setup.py-only package that has no other option.
 
-**PubGrub resolver.** uv uses the [PubGrub algorithm](https://github.com/dart-lang/pub/blob/master/doc/solver.md), originally from Dart's pub package manager. pip uses a backtracking resolver. PubGrub is faster at finding solutions and better at explaining failures. pip could adopt PubGrub without rewriting in Rust.
+**PubGrub resolver.** uv uses the [PubGrub algorithm](https://github.com/dart-lang/pub/blob/master/doc/solver.md), originally from Dart's pub package manager. Both pip and PubGrub use backtracking, but PubGrub applies conflict-driven clause learning from SAT solvers: when it hits a dead end, it analyzes why and skips similar dead ends later. This makes it faster on complex dependency graphs and better at explaining failures. pip could adopt PubGrub without rewriting in Rust.
 
 ## Where Rust actually matters
 
 Some optimizations do require Rust:
 
-**Zero-copy deserialization.** uv uses [rkyv](https://rkyv.org/) to deserialize cached data without copying it. The data format is the in-memory format. This is a Rust-specific technique.
+**Zero-copy deserialization.** uv uses [rkyv](https://rkyv.org/) to deserialize cached data without copying it. The data format is the in-memory format. Libraries like FlatBuffers achieve this in other languages, but rkyv integrates tightly with Rust's type system.[^1]
 
-**Lock-free concurrent data structures.** Rust's ownership model makes concurrent access safe without locks. Python's GIL makes this difficult.
+**Thread-level parallelism.** Python's GIL forces parallel work into separate processes, with IPC overhead and data copying. Rust can parallelize across threads natively, sharing memory without serialization boundaries. This matters most for resolution, where the solver explores many version combinations.[^1]
 
 **No interpreter startup.** Every time pip spawns a subprocess, it pays Python's startup cost. uv is a single static binary with no runtime to initialize.
 
@@ -87,3 +87,5 @@ uv is fast because of what it doesn't do, not because of what language it's writ
 pip could implement parallel downloads, global caching, and metadata-only resolution tomorrow. It doesn't, largely because backwards compatibility with fifteen years of edge cases takes precedence. But it means pip will always be slower than a tool that starts fresh with modern assumptions.
 
 Other package managers could learn from this: static metadata, no code execution to discover dependencies, and the ability to resolve everything upfront before downloading. Cargo and npm have operated this way for years. If your ecosystem requires running arbitrary code to find out what a package needs, you've already lost.
+
+[^1]: An earlier version of this post overstated how Rust-specific these techniques are. Thanks to [tef](https://tef.computer/) for the correction.
