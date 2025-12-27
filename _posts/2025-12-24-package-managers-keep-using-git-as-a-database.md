@@ -5,6 +5,9 @@ date: 2025-12-24 10:00 +0000
 description: "Git repositories seem like an elegant solution for package registry data. Pull requests for governance, version history for free, distributed by design. But as registries grow, the cracks appear."
 tags:
   - package-managers
+  - git
+  - rust
+  - go
 ---
 
 Using git as a database is a seductive idea. You get version history for free. Pull requests give you a review workflow. It's distributed by design. GitHub will host it for free. Everyone already knows how to use it.
