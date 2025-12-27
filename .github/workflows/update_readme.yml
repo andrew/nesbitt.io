@@ -16,7 +16,7 @@ jobs:
           ruby-version: '3.4'
 
       - name: Update README
-        run: ruby scripts/update_readme.rb
+        run: rake readme
 
       - name: Commit changes
         run: |

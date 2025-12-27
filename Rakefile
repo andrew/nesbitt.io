@@ -1,3 +1,33 @@
+desc "Update README with recent posts from RSS feed"
+task :readme do
+  require 'net/http'
+  require 'rexml/document'
+
+  response = Net::HTTP.get_response(URI('https://nesbitt.io/feed.xml'))
+  abort "Failed to fetch feed: #{response.code}" unless response.is_a?(Net::HTTPSuccess)
+
+  posts = []
+  REXML::Document.new(response.body).elements.each('feed/entry') do |entry|
+    break if posts.length >= 10
+    title = entry.elements['title']&.text
+    link = entry.elements['link']&.attributes['href']
+    posts << "- [#{title}](#{link})" if title && link
+  end
+
+  content = File.read('README.md')
+  updated = content.gsub(
+    /<!-- POSTS:START -->.*<!-- POSTS:END -->/m,
+    "<!-- POSTS:START -->\n#{posts.join("\n")}\n<!-- POSTS:END -->"
+  )
+
+  if updated == content
+    puts "No changes to README"
+  else
+    File.write('README.md', updated)
+    puts "Updated README with #{posts.length} posts"
+  end
+end
+
 desc "List posts and their tags"
 task :tags do
   posts = Dir.glob("_posts/*.md").select do |post|
