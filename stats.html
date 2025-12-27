@@ -6,9 +6,9 @@ title: Stats
 <div class="post-content">
   <h2>Site Statistics</h2>
 
-  <p>{{ site.data.stats.total_posts }} posts, {{ site.data.stats.total_words }} words, ~{{ site.data.stats.reading_minutes }} minutes reading time.</p>
+  <p>{{ site.data.stats.total_posts }} posts, {{ site.data.stats.total_words | number_with_commas }} words, ~{{ site.data.stats.reading_minutes }} minutes reading time.</p>
 
-  <p>Average {{ site.data.stats.average_words }} words per post. Longest: <a href="{{ site.data.stats.longest_post.url }}">{{ site.data.stats.longest_post.title }}</a> ({{ site.data.stats.longest_post.words }} words).</p>
+  <p>Average {{ site.data.stats.average_words | number_with_commas }} words per post. Longest: <a href="{{ site.data.stats.longest_post.url }}">{{ site.data.stats.longest_post.title }}</a> ({{ site.data.stats.longest_post.words | number_with_commas }} words).</p>
 
   <p>First post: {{ site.data.stats.first_post.date }} | Last post: {{ site.data.stats.last_post.date }} | {{ site.data.stats.years_active }} years active.</p>
 
