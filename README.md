@@ -6,13 +6,15 @@ I write about package management, software supply chain security, and open sourc
 
 ## Recent posts
 
-- [Federated Package Management and the Zooko Triangle](https://nesbitt.io/2025/12/21/federated-package-management)
-- [Package Managers Devroom at FOSDEM 2026: Schedule Announced](https://nesbitt.io/2025/12/20/fosdem-2026-package-managers-devroom-schedule)
-- [Why JavaScript Needed Docker](https://nesbitt.io/2025/12/19/why-javascript-needed-docker)
-- [Docker is the Lockfile for System Packages](https://nesbitt.io/2025/12/18/docker-is-the-lockfile-for-system-packages)
-- [Typosquatting in Package Managers](https://nesbitt.io/2025/12/17/typosquatting-in-package-managers)
-- [How I Assess Open Source Libraries](https://nesbitt.io/2025/12/15/how-i-assess-open-source-libraries)
-- [Supply Chain Security Tools for Ruby](https://nesbitt.io/2025/12/14/supply-chain-security-tools-for-ruby)
-- [Building Ecosyste.ms Polite API Rate Limits](https://nesbitt.io/2025/12/11/building-ecosytems-polite-api-rate-limits)
-- [Slopsquatting meets Dependency Confusion](https://nesbitt.io/2025/12/10/slopsquatting-meets-dependency-confusion)
-- [Why I'm Fascinated by Package Management](https://nesbitt.io/2025/12/09/why-im-fascinated-by-package-management)
+<!-- POSTS:START -->
+- [How to Ruin All of Package Management](https://nesbitt.io/2025/12/27/how-to-ruin-all-of-package-management.html)
+- [How uv got so fast](https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html)
+- [Cursed Bundler: Using go get to install Ruby Gems](https://nesbitt.io/2025/12/25/cursed-bundler-using-go-get-to-install-ruby-gems.html)
+- [Package managers keep using git as a database, it never works out](https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html)
+- [Could lockfiles just be SBOMs?](https://nesbitt.io/2025/12/23/could-lockfiles-just-be-sboms.html)
+- [Package Registries Are Governance Providers](https://nesbitt.io/2025/12/22/package-registries-are-governance-as-a-service.html)
+- [Jekyll Stats Plugin](https://nesbitt.io/2025/12/21/jekyll-stats-plugin.html)
+- [Federated Package Management and the Zooko Triangle](https://nesbitt.io/2025/12/21/federated-package-management.html)
+- [Package Managers Devroom at FOSDEM 2026: Schedule Announced](https://nesbitt.io/2025/12/20/fosdem-2026-package-managers-devroom-schedule.html)
+- [Why JavaScript Needed Docker](https://nesbitt.io/2025/12/19/why-javascript-needed-docker.html)
+<!-- POSTS:END -->
