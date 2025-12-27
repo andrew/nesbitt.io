@@ -6,7 +6,6 @@ description: "Tiered rate limiting that rewards good citizenship: API keys, poli
 tags:
   - ecosystems
   - apisix
-  - package-managers
 ---
 
 [ecosyste.ms](https://ecosyste.ms) serves about 1.3 billion API requests per month from researchers, security tools, and package managers. Rate limiting is necessary, but I wanted something fairer than just throttling by IP.

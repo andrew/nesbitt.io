@@ -7,7 +7,6 @@ tags:
   - podcasts
   - ecosyste.ms
   - open source
-  - package-managers
   - sustainability
 ---
 
