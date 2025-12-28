@@ -1,6 +1,6 @@
 FROM ruby:3.4.8-alpine
 
-RUN apk add --no-cache build-base
+RUN apk add --no-cache build-base git libffi-dev
 
 WORKDIR /site
 
