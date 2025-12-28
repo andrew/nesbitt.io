@@ -156,7 +156,7 @@ There's no technical reason npm, PyPI, NuGet, or Packagist couldn't adopt someth
 
 This got me thinking: do you actually need to index everything?
 
-[Ecosyste.ms tracks](https://packages.ecosyste.ms/critical) which packages account for 80% of all downloads in each ecosystem. For npm, that's around 2,300 packages out of 5.3 million. For RubyGems, it's 974 out of 200,000. The long tail is very, very long.
+[Ecosyste.ms tracks](https://packages.ecosyste.ms/critical) which packages account for 80% of all downloads in each ecosystem. For npm, that's around 2,300 packages out of 5.3 million. For RubyGems, it's 974 out of 200,000. The [long tail](https://en.wikipedia.org/wiki/Long_tail) is very, very long.
 
 Most packages on any registry are never depended upon by anything else. A package with zero dependents and ten downloads doesn't need to be in the dependency resolution index. It only matters when someone explicitly adds it to their project, and at that point you can fetch its metadata directly.
 
