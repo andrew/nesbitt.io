@@ -1,4 +1,4 @@
-FROM ruby:3.4.8-alpine
+FROM ruby:4.0.0-alpine
 
 RUN apk add --no-cache build-base git libffi-dev
 
