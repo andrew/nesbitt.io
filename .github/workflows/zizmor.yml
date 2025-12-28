@@ -29,6 +29,4 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: woodruffw/zizmor-action@cd50a61a3ca50b4ed1c2286a3b06f2f7e62ed2a9 # v1.4.0
-        with:
-          upload-sarif: true
+      - uses: zizmorcore/zizmor-action@e639db99335bc9038abc0e066dfcd72e23d26fb4 # v0.3.0
