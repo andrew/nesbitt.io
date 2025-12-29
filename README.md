@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [The Compact Index: How Bundler Scales Dependency Resolution](https://nesbitt.io/2025/12/28/the-compact-index.html)
 - [How to Ruin All of Package Management](https://nesbitt.io/2025/12/27/how-to-ruin-all-of-package-management.html)
 - [How uv got so fast](https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html)
 - [Cursed Bundler: Using go get to install Ruby Gems](https://nesbitt.io/2025/12/25/cursed-bundler-using-go-get-to-install-ruby-gems.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Jekyll Stats Plugin](https://nesbitt.io/2025/12/21/jekyll-stats-plugin.html)
 - [Federated Package Management and the Zooko Triangle](https://nesbitt.io/2025/12/21/federated-package-management.html)
 - [Package Managers Devroom at FOSDEM 2026: Schedule Announced](https://nesbitt.io/2025/12/20/fosdem-2026-package-managers-devroom-schedule.html)
-- [Why JavaScript Needed Docker](https://nesbitt.io/2025/12/19/why-javascript-needed-docker.html)
 <!-- POSTS:END -->
