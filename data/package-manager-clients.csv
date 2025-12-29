@@ -19,7 +19,7 @@ NuGet,lowest applicable version,generates lockfiles,,XML
 pub,SAT solving (PubGrub),generates lockfiles,,YAML
 Hex,SAT solving (PubGrub),generates lockfiles,,host language
 Cabal,modular solver with backjumping,generates lockfiles,,custom format
-opam,SAT solving (external CUDF),,custom format
+opam,SAT solving (external CUDF),,,custom format
 CocoaPods,Molinillo,generates lockfiles,allowed,host language
 Swift Package Manager,SAT solving (PubGrub),generates lockfiles,no hooks,host language
 apt,scoring with immediate resolution,no native lockfile,allowed,
