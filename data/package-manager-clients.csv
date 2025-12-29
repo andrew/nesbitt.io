@@ -1,0 +1,43 @@
+client,resolution_algorithm,lockfile_strategy,build_hooks,manifest_format
+npm,deduplication with nesting,generates lockfiles,allowed,JSON
+Yarn,deduplication with nesting,generates lockfiles,allowed,JSON
+pnpm,deduplication with nesting,generates lockfiles,restricted,YAML
+Bun,deduplication with nesting,generates lockfiles,,JSON
+pip,backtracking,no native lockfile,allowed (sdist only),custom format
+Poetry,SAT solving (PubGrub),generates lockfiles,,TOML
+uv,SAT solving (PubGrub),generates lockfiles,,TOML
+pdm,SAT solving (PubGrub),generates lockfiles,,TOML
+Conda,SAT solving (libsolv),no native lockfile,,YAML
+Bundler,Molinillo,generates lockfiles,,host language
+RubyGems,Molinillo,,allowed,host language
+Cargo,backtracking,generates lockfiles,allowed,TOML
+Go,minimal version selection,deterministic resolution,no hooks,custom format
+Maven,nearest definition wins,no native lockfile,allowed,XML
+Gradle,highest version wins,no native lockfile,allowed,host language
+Composer,SAT solving,generates lockfiles,allowed,JSON
+NuGet,lowest applicable version,generates lockfiles,,XML
+pub,SAT solving (PubGrub),generates lockfiles,,YAML
+Hex,SAT solving (PubGrub),generates lockfiles,,host language
+Cabal,modular solver with backjumping,generates lockfiles,,custom format
+opam,SAT solving (external CUDF),,custom format
+CocoaPods,Molinillo,generates lockfiles,allowed,host language
+Swift Package Manager,SAT solving (PubGrub),generates lockfiles,no hooks,host language
+apt,scoring with immediate resolution,no native lockfile,allowed,
+DNF,SAT solving (libsolv),no native lockfile,allowed,
+pacman,,no native lockfile,allowed,
+apk,,no native lockfile,allowed,
+Homebrew,single version topological sort,generates lockfiles,allowed,YAML
+Nix,explicit dependencies,content-addressed,allowed (sandboxed),host language
+Guix,explicit dependencies,content-addressed,,host language
+Spack,ASP solving (Clingo),generates lockfiles,,custom format
+CPAN,depth-first traversal,no native lockfile,,custom format
+CRAN,,no native lockfile,,custom format
+Hackage,,no native lockfile,,custom format
+Elm,,generates lockfiles,no hooks,JSON
+Stack,,generates lockfiles,,YAML
+Julia,,generates lockfiles,,TOML
+LuaRocks,,generates lockfiles,,host language
+Helm,,generates lockfiles,,YAML
+dub,,generates lockfiles,,JSON
+vcpkg,minimal version selection,,,JSON
+Conan,,generates lockfiles,,custom format

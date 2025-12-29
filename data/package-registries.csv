@@ -1,0 +1,53 @@
+registry,architecture,review_model,namespacing,distribution_model,governance,ecosystem_scope,version_retention,size,mirroring
+npmjs.com,database-backed,unreviewed,scoped,source,for-profit,language-specific,time-limited deletion,millions,supported
+pypi.org,database-backed,unreviewed,flat,mixed,non-profit,language-specific,time-limited deletion,millions,supported
+rubygems.org,database-backed,unreviewed,flat,mixed,non-profit,language-specific,yanking,hundreds of thousands,supported
+nuget.org,database-backed,unreviewed,flat,binary,for-profit,language-specific,time-limited deletion,hundreds of thousands,supported
+crates.io,database-backed,unreviewed,flat,source,non-profit,language-specific,yanking,hundreds of thousands,supported
+packagist.org,database-backed,unreviewed,scoped,source,non-profit,language-specific,time-limited deletion,hundreds of thousands,supported
+hex.pm,database-backed,unreviewed,flat,source,non-profit,language-specific,yanking,tens of thousands,supported
+pub.dev,database-backed,unreviewed,flat,source,for-profit,language-specific,time-limited deletion,tens of thousands,
+clojars.org,database-backed,unreviewed,hierarchical,source,non-profit,language-specific,time-limited deletion,tens of thousands,supported
+forge.puppet.com,database-backed,unreviewed,scoped,source,for-profit,domain-specific,,
+anaconda.org,database-backed,unreviewed,scoped,mixed,for-profit,domain-specific,,,
+luarocks.org,database-backed,unreviewed,flat,source,community,language-specific,,thousands,supported
+community.chocolatey.org,database-backed,moderated,flat,binary,for-profit,system-level,,tens of thousands,
+open-vsx.org,database-backed,unreviewed,scoped,source,non-profit,domain-specific,,,
+galaxy.ansible.com,database-backed,unreviewed,scoped,source,for-profit,domain-specific,,,
+jsr.io,database-backed,unreviewed,scoped,source,for-profit,language-specific,,,
+homebrew-core,git-based,reviewed,distro-managed,mixed,non-profit,system-level,latest only,thousands,
+cocoapods.org,git-based,unreviewed,flat,mixed,community,language-specific,,hundreds of thousands,
+vcpkg,git-based,reviewed,flat,source,for-profit,language-specific,,,
+conan.io,git-based,reviewed,scoped,source,community,language-specific,,,
+swiftpackageindex.com,git-based,unreviewed,url-based,source,community,language-specific,,,
+juliahub.com,git-based,unreviewed,flat,source,for-profit,language-specific,,,
+winget-pkgs,git-based,reviewed,scoped,binary,for-profit,system-level,,,
+spack,git-based,reviewed,distro-managed,mixed,distribution,domain-specific,,,
+apt/dpkg,filesystem-based,reviewed,distro-managed,binary,distribution,system-level,latest only,,trivial
+yum/dnf,filesystem-based,reviewed,distro-managed,binary,distribution,system-level,latest only,,trivial
+pacman,filesystem-based,reviewed,distro-managed,binary,distribution,system-level,latest only,,trivial
+apk,filesystem-based,reviewed,distro-managed,binary,distribution,system-level,latest only,,trivial
+zypper,filesystem-based,reviewed,distro-managed,binary,distribution,system-level,latest only,,trivial
+Portage,filesystem-based,reviewed,distro-managed,source,distribution,system-level,latest only,,trivial
+cran.r-project.org,filesystem-based,reviewed,flat,source,non-profit,language-specific,,tens of thousands,trivial
+bioconductor.org,filesystem-based,reviewed,flat,source,non-profit,domain-specific,,,
+metacpan.org,filesystem-based,unreviewed,hierarchical,source,non-profit,language-specific,time-limited deletion,,trivial
+hackage.haskell.org,filesystem-based,unreviewed,flat,source,non-profit,language-specific,time-limited deletion,tens of thousands,
+pkgs.racket-lang.org,filesystem-based,unreviewed,flat,source,community,language-specific,,,
+FreeBSD ports,filesystem-based,reviewed,distro-managed,mixed,distribution,system-level,,tens of thousands,trivial
+pkgsrc,filesystem-based,reviewed,distro-managed,mixed,distribution,system-level,,,trivial
+postmarketOS,filesystem-based,reviewed,distro-managed,binary,distribution,system-level,latest only,,
+Debian,filesystem-based,reviewed,distro-managed,binary,distribution,system-level,latest only,hundreds of thousands,trivial
+Fedora,filesystem-based,reviewed,distro-managed,binary,distribution,system-level,latest only,hundreds of thousands,trivial
+Ubuntu,filesystem-based,reviewed,distro-managed,binary,distribution,system-level,latest only,hundreds of thousands,trivial
+Alpine,filesystem-based,reviewed,distro-managed,binary,distribution,system-level,latest only,tens of thousands,trivial
+Arch,filesystem-based,reviewed,distro-managed,binary,distribution,system-level,latest only,tens of thousands,trivial
+nixpkgs,filesystem-based,reviewed,distro-managed,mixed,community,system-level,,hundreds of thousands,
+proxy.golang.org,source-host,unreviewed,url-based,source,for-profit,language-specific,keeps all,millions,trivial
+deno.land,source-host,unreviewed,url-based,source,for-profit,language-specific,,,
+Carthage,source-host,unreviewed,url-based,source,community,language-specific,,,
+Nix,content-addressed,reviewed,distro-managed,mixed,community,system-level,,,
+Guix,content-addressed,reviewed,distro-managed,mixed,community,system-level,,,
+central.sonatype.com,database-backed,reviewed,hierarchical,binary,non-profit,language-specific,keeps all,hundreds of thousands,supported
+package.elm-lang.org,database-backed,moderated,flat,source,community,language-specific,,thousands,
+artifacthub.io,database-backed,unreviewed,scoped,source,non-profit,domain-specific,,,
