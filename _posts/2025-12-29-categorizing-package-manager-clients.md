@@ -28,6 +28,7 @@ How does the package manager decide which versions to install? The [ecosyste.ms 
 - pdm[^pubgrub]
 - Swift Package Manager[^pubgrub]
 - Hex[^pubgrub]
+- Bundler[^pubgrub]
 
 [^libsolv]: Via [libsolv](https://github.com/openSUSE/libsolv).
 [^opam-cudf]: Uses external CUDF solvers.
@@ -73,7 +74,6 @@ How does the package manager decide which versions to install? The [ecosyste.ms 
 
 [**Molinillo**](https://github.com/CocoaPods/Molinillo) is a backtracking solver with heuristics tuned for Ruby's ecosystem.
 
-- Bundler
 - RubyGems
 - CocoaPods
 
