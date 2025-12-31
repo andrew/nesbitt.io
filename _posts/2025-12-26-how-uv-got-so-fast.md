@@ -27,7 +27,7 @@ The fix came in stages:
 - [PEP 621](https://peps.python.org/pep-0621/) (2020) standardized the `[project]` table, so dependencies could be read by parsing TOML rather than running Python.
 - [PEP 658](https://peps.python.org/pep-0658/) (2022) put package metadata directly in the Simple Repository API, so resolvers could fetch dependency information without downloading wheels at all.
 
-PEP 658 went live on PyPI in May 2023. uv launched in February 2024. uv could be fast because the ecosystem finally had the infrastructure to support it. A tool like uv couldn't have shipped in 2020. The standards weren't there yet.
+PEP 658 went live on PyPI in [May 2023](https://discuss.python.org/t/pep-658-714-are-now-live-on-pypi/26693). uv launched in [February 2024](https://astral.sh/blog/uv). uv could be fast because the ecosystem finally had the infrastructure to support it. A tool like uv couldn't have shipped in 2020. The standards weren't there yet.
 
 Other ecosystems figured this out earlier. Cargo has had static metadata from the start. npm's package.json is declarative. Python's packaging standards finally bring it to parity.
 
