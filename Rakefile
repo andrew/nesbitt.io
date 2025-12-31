@@ -44,11 +44,13 @@ task :tags do
   end
 end
 
-desc "Show word counts for recent posts (2024+), optionally filtered by tag"
-task :wordcount, [:tag] do |t, args|
+desc "Show word counts for posts, optionally filtered by year and/or tag"
+task :wordcount, [:year, :tag] do |t, args|
+  min_year = args[:year]&.to_i || 2024
   posts = Dir.glob("_posts/*.md").select do |post|
     year = File.basename(post)[0, 4].to_i
-    next false if year < 2024
+    next false if year < min_year
+    next false if args[:year] && year != min_year
 
     if args[:tag]
       content = File.read(post)
