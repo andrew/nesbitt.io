@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Community Tools Bring Lockfile Support to GitHub Actions](https://nesbitt.io/2025/12/30/community-tools-bring-lockfile-support-to-github-actions.html)
 - [Categorizing Package Manager Clients](https://nesbitt.io/2025/12/29/categorizing-package-manager-clients.html)
 - [Categorizing Package Registries](https://nesbitt.io/2025/12/29/categorizing-package-registries.html)
 - [The Compact Index: How Bundler Scales Dependency Resolution](https://nesbitt.io/2025/12/28/the-compact-index.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Package managers keep using git as a database, it never works out](https://nesbitt.io/2025/12/24/package-managers-keep-using-git-as-a-database.html)
 - [Could lockfiles just be SBOMs?](https://nesbitt.io/2025/12/23/could-lockfiles-just-be-sboms.html)
 - [Package Registries Are Governance Providers](https://nesbitt.io/2025/12/22/package-registries-are-governance-as-a-service.html)
-- [Jekyll Stats Plugin](https://nesbitt.io/2025/12/21/jekyll-stats-plugin.html)
 <!-- POSTS:END -->
