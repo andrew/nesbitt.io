@@ -459,11 +459,11 @@ How hard is it to run your own registry or mirror?
 [^spack-binaries]: Spack supports binary caches but defaults to building from source.
 [^nuget-rids]: Runtime Identifiers (RIDs) specify platform-specific assets.
 [^pypi-psf]: [Python Software Foundation](https://www.python.org/psf-landing/)
-[^crates-rust]: [Rust Foundation](https://foundation.rust-lang.org/)
+[^crates-rust]: [Rust Foundation](https://rustfoundation.org/)
 [^rubygems-central]: [Ruby Central](https://rubycentral.org/)
 [^maven-lf]: Originally [Sonatype](https://www.sonatype.com/), now [Linux Foundation](https://www.linuxfoundation.org/)
 [^packagist-funding]: Funded by [Private Packagist](https://packagist.com/)
-[^cpan-perl]: [Perl Foundation](https://www.perlfoundation.org/)
+[^cpan-perl]: [Perl Foundation](https://perlfoundation.org/)
 [^hex-funding]: Six Colors AB, community-funded
 [^clojars-funding]: [Clojurists Together](https://www.clojuriststogether.org/)
 [^hackage-org]: [Haskell.org](https://www.haskell.org/)
@@ -485,8 +485,8 @@ How hard is it to run your own registry or mirror?
 [^npm-unpublish]: [72-hour window](https://docs.npmjs.com/policies/unpublish/) for unpublishing, with exceptions for security issues.
 [^pypi-deletion]: Can delete files and releases; [PEP 763](https://peps.python.org/pep-0763/) proposes limiting this to 72 hours.
 [^go-cache-permanent]: Once cached by [proxy.golang.org](https://proxy.golang.org/), modules remain available indefinitely.
-[^npm-verdaccio]: [Verdaccio](https://verdaccio.org/) is the most popular private npm registry.
-[^pypi-devpi]: [devpi](https://devpi.net/) and [Artifactory](https://jfrog.com/artifactory/) provide PyPI-compatible private registries.
+[^npm-verdaccio]: [Verdaccio](https://www.verdaccio.org/) is the most popular private npm registry.
+[^pypi-devpi]: [devpi](https://github.com/devpi/devpi) and [Artifactory](https://jfrog.com/artifactory/) provide PyPI-compatible private registries.
 [^maven-nexus]: [Nexus](https://www.sonatype.com/products/sonatype-nexus-repository) and [Artifactory](https://jfrog.com/artifactory/) are widely used for hosting private Maven repositories.
 [^juliahub-git]: JuliaHub has a database-backed front end but the underlying Julia General registry is a git repository.
 [^racket-filesystem]: pkgs.racket-lang.org stores packages as files, generates a JSON index, and serves via S3. It polls git sources for updates but doesn't use git as its storage layer.

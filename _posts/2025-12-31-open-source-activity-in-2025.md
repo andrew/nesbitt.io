@@ -22,7 +22,6 @@ I co-founded the [Package Metadata Working Group](https://github.com/chaoss/wg-p
 - [mcp](https://github.com/ecosyste-ms/mcp) - Model Context Protocol server for querying package metadata
 - [octorule](https://github.com/ecosyste-ms/octorule) - enforce GitHub repository settings across your organization
 - [nexus](https://github.com/ecosyste-ms/nexus) - Maven repository indexer service
-- [governance](https://github.com/ecosyste-ms/governance) - covering all aspects of governance of the ecosyste.ms project
 - [conditional-rate-limit.lua](https://github.com/ecosyste-ms/conditional-rate-limit.lua) - Apache APISIX plugin for three-tier rate limiting
 - [docs](https://github.com/ecosyste-ms/docs) - documentation website for Ecosyste.ms APIs
 

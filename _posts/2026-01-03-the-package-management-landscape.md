@@ -17,7 +17,7 @@ Each programming language ecosystem has at least one package manager, often seve
 
 **JavaScript/TypeScript:** [npm](https://www.npmjs.com), [Yarn](https://yarnpkg.com), [pnpm](https://pnpm.io), [Bun](https://bun.sh), [Deno](https://deno.land), [jsr.io](https://jsr.io), [Corepack](https://github.com/nodejs/corepack), [jspm](https://github.com/jspm/jspm)
 
-**Python:** [pip](https://pip.pypa.io), [Poetry](https://python-poetry.org), [uv](https://github.com/astral-sh/uv), [pdm](https://pdm-project.org), [pipenv](https://pipenv.pypa.io), [Hatch](https://github.com/pypa/hatch), [Conda](https://docs.conda.io), [Mamba](https://mamba.readthedocs.io), [Pixi](https://prefix.dev/docs/pixi/)
+**Python:** [pip](https://pip.pypa.io), [Poetry](https://python-poetry.org), [uv](https://github.com/astral-sh/uv), [pdm](https://pdm-project.org), [pipenv](https://pipenv.pypa.io), [Hatch](https://github.com/pypa/hatch), [Conda](https://docs.conda.io), [Mamba](https://mamba.readthedocs.io), [Pixi](https://pixi.sh)
 
 **Ruby:** [RubyGems](https://rubygems.org), [Bundler](https://bundler.io)
 
@@ -113,8 +113,6 @@ Operating system package managers handle system-level software: libraries, appli
 
 **Solus:** [eopkg](https://help.getsol.us/docs/packaging)
 
-**Clear Linux:** [swupd](https://docs.01.org/clearlinux/latest/guides/clear/swupd.html)
-
 **Android:** [APK](https://developer.android.com/studio/command-line/apkanalyzer)
 
 **Termux:** [pkg](https://wiki.termux.com/wiki/Package_Management)
@@ -129,7 +127,7 @@ Abstraction layers and graphical interfaces for system package managers.
 
 **Package converters:** [Alien](https://sourceforge.net/projects/alien-pkg-convert/), [debtap](https://github.com/helixarch/debtap)
 
-**Local build integration:** [CheckInstall](https://checkinstall.izto.org)
+**Local build integration:** [CheckInstall](https://en.wikipedia.org/wiki/CheckInstall)
 
 ## Universal and cross-language tools
 
@@ -195,7 +193,7 @@ Self-hosted registries for private packages or local mirrors.
 
 **npm-compatible:** [Verdaccio](https://verdaccio.org)
 
-**PyPI-compatible:** [devpi](https://devpi.net), [Warehouse](https://github.com/pypi/warehouse)
+**PyPI-compatible:** [devpi](https://github.com/devpi/devpi), [Warehouse](https://github.com/pypi/warehouse)
 
 **Maven-compatible:** [Archiva](https://archiva.apache.org)
 
@@ -205,13 +203,11 @@ Self-hosted registries for private packages or local mirrors.
 
 **Gem-compatible:** [Gemstash](https://github.com/rubygems/gemstash), [geminabox](https://github.com/geminabox/geminabox)
 
-**Go module proxy:** [Athens](https://gomods.io), [goproxy](https://github.com/goproxy/goproxy)
+**Go module proxy:** [Athens](https://github.com/gomods/athens), [goproxy](https://github.com/goproxy/goproxy)
 
 **Cargo-compatible:** [Kellnr](https://kellnr.io), [Alexandrie](https://github.com/Hirevo/alexandrie)
 
 **Helm-compatible:** [ChartMuseum](https://chartmuseum.com), [Harbor](https://goharbor.io)
-
-**Registry libraries:** [libnpmaccess](https://github.com/npm/cli/tree/latest/workspaces/libnpmaccess), [libnpmpublish](https://github.com/npm/cli/tree/latest/workspaces/libnpmpublish), [libnpmregistry](https://github.com/npm/cli/tree/latest/workspaces/libnpmregistry)
 
 ## Enterprise tools
 
@@ -231,19 +227,19 @@ Tools for scanning dependencies, detecting vulnerabilities, and keeping packages
 
 **Vulnerability scanning:** [Snyk](https://snyk.io), [Socket](https://socket.dev), [Grype](https://github.com/anchore/grype), [Trivy](https://trivy.dev), [npm audit](https://docs.npmjs.com/cli/commands/npm-audit), [pip-audit](https://github.com/pypa/pip-audit), [bundler-audit](https://github.com/rubysec/bundler-audit), [cargo-audit](https://github.com/rustsec/rustsec), [safety](https://github.com/pyupio/safety), [OSV-Scanner](https://google.github.io/osv-scanner/), [Dependency-Check](https://owasp.org/www-project-dependency-check/)
 
-**Dependency updates:** [Dependabot](https://github.com/dependabot), [Renovate](https://www.mend.io/renovate/), [Snyk](https://snyk.io), [Depfu](https://depfu.com), [pyup](https://pyup.io), [pip-tools](https://github.com/jazzband/pip-tools), [OpenRewrite](https://github.com/openrewrite/rewrite)
+**Dependency updates:** [Dependabot](https://github.com/dependabot), [Renovate](https://www.mend.io/renovate/), [Snyk](https://snyk.io), [Depfu](https://depfu.com), [pip-tools](https://github.com/jazzband/pip-tools), [OpenRewrite](https://github.com/openrewrite/rewrite)
 
-**Malware detection:** [Socket](https://socket.dev), [Phylum](https://www.phylum.io), [Stacklok](https://stacklok.com), [GuardDog](https://github.com/DataDog/guarddog)
+**Malware detection:** [Socket](https://socket.dev), [Stacklok](https://stacklok.com), [GuardDog](https://github.com/DataDog/guarddog)
 
 **License compliance:** [FOSSA](https://fossa.com), [Snyk](https://snyk.io), [Mend](https://www.mend.io), [Black Duck](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html), [FOSSology](https://www.fossology.org), [licensee](https://github.com/licensee/licensee), [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit), [ScanCode.io](https://github.com/aboutcode-org/scancode.io), [DejaCode](https://github.com/aboutcode-org/dejacode), [cargo-deny](https://github.com/EmbarkStudios/cargo-deny), [pip-licenses](https://github.com/raimon49/pip-licenses), [license_finder](https://github.com/pivotal/LicenseFinder)
 
-**Software composition analysis:** [Snyk](https://snyk.io), [Sonatype](https://www.sonatype.com), [Black Duck](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html), [Veracode SCA](https://www.veracode.com/products/software-composition-analysis), [Checkmarx SCA](https://checkmarx.com/product/opensource-security/), [FOSSA](https://fossa.com)
+**Software composition analysis:** [Snyk](https://snyk.io), [Sonatype](https://www.sonatype.com), [Black Duck](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html), [Veracode SCA](https://www.veracode.com/products/software-composition-analysis), [FOSSA](https://fossa.com)
 
 **CI security:** [Zizmor](https://woodruffw.github.io/zizmor/), [StepSecurity](https://www.stepsecurity.io), [Harden-Runner](https://github.com/step-security/harden-runner), [OpenSSF Allstar](https://github.com/ossf/allstar)
 
 **Fuzzing:** [OSS-Fuzz](https://github.com/google/oss-fuzz)
 
-**GitHub Actions lockfiles:** [actions-lock](https://github.com/sethvargo/actions-lock), [ghasum](https://github.com/ericcornelissen/ghasum), [gh-actions-lockfile](https://github.com/theoludwig/gh-actions-lockfile)
+**GitHub Actions lockfiles:** [ghasum](https://github.com/chains-project/ghasum), [gh-actions-lockfile](https://github.com/gjtorikian/gh-actions-lockfile)
 
 ## Metadata and discovery platforms
 
@@ -329,7 +325,7 @@ A longer list of academic work is in [Package Management Papers](/2025/11/13/pac
 
 **Dependency analysis:** [FASTEN](https://github.com/fasten-project), [Software Heritage](https://www.softwareheritage.org), [Mancoosi](https://www.mancoosi.org)
 
-**Datasets:** [Libraries.io data](https://libraries.io/data), [GH Archive](https://www.gharchive.org), [World of Code](https://worldofcode.org), [npm-follower](https://github.com/donald-pinckney/npm-follower), [Code Commons](https://codecommons.org/)
+**Datasets:** [GH Archive](https://www.gharchive.org), [World of Code](https://worldofcode.org), [npm-follower](https://github.com/donald-pinckney/npm-follower), [Code Commons](https://codecommons.org/)
 
 **Bloat detection:** [DepClean](https://github.com/castor-software/depclean), [deptry](https://github.com/fpgmaas/deptry)
 

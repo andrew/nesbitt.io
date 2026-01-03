@@ -112,7 +112,7 @@ In the meantime, Go's module system sits there, accidentally universal, logging 
 
 Nobody should actually do this. I couldn't resist anyway: [go-bundler](https://github.com/andrew/go-bundler) is a proof of concept. But it reveals something interesting about package management design.
 
-This thought experiment is part of a larger question I've been exploring: [what are the fundamental components of a package manager](/2025/12/02/what-is-a-package-manager/), and which ones could be shared across ecosystems? Most people think of package managers as monolithic, but they're really several systems bolted together:
+This thought experiment is part of a larger question I've been exploring: [what are the fundamental components of a package manager](/2025/12/02/what-is-a-package-manager), and which ones could be shared across ecosystems? Most people think of package managers as monolithic, but they're really several systems bolted together:
 
 - **Naming** - how you refer to packages
 - **Discovery** - finding what exists
