@@ -44,6 +44,37 @@ task :tags do
   end
 end
 
+desc "Check links in posts"
+task :links, [:year] do |t, args|
+  unless system("which lychee > /dev/null 2>&1")
+    abort "lychee not found. Install with: brew install lychee"
+  end
+
+  min_year = args[:year]&.to_i || 2024
+  posts = Dir.glob("_posts/*.md").select do |post|
+    year = File.basename(post)[0, 4].to_i
+    next false if year < min_year
+    next false if args[:year] && year != min_year
+    true
+  end
+
+  if posts.empty?
+    puts "No posts found"
+    next
+  end
+
+  puts "Checking #{posts.size} posts..."
+  system("lychee",
+    "--no-progress",
+    "--base-url", "https://nesbitt.io",
+    "--accept", "200..=299,402,403,429",
+    "--suggest",
+    "--format", "detailed",
+    "--insecure",
+    "--exclude", "repology.org",
+    *posts)
+end
+
 desc "Show word counts for posts, optionally filtered by tag and/or year"
 task :wordcount, [:tag, :year] do |t, args|
   min_year = args[:year]&.to_i || 2024
