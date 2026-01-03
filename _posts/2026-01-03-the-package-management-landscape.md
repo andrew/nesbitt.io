@@ -9,7 +9,7 @@ tags:
 
 A directory of tools, libraries, registries, and standards across package management. I put this together partly as a reference, partly to track which areas I've covered in other posts.
 
-**Contents:** [Language package managers](#language-package-managers) · [System package managers](#system-package-managers) · [Frontends](#package-manager-frontends) · [Universal tools](#universal-and-cross-language-tools) · [Resolution libraries](#dependency-resolution-libraries) · [Manifest parsing](#manifest-and-lockfile-parsing) · [Registry software](#registry-software) · [Enterprise tools](#enterprise-tools) · [Security tools](#security-and-analysis-tools) · [Metadata platforms](#metadata-and-discovery-platforms) · [SBOM tools](#sbom-and-supply-chain-tools) · [Trusted publishing](#trusted-publishing) · [Monorepo tools](#monorepo-and-workspace-tools) · [Build tools](#build-tools-with-dependency-management) · [Research](#research) · [Standards](#standards-and-specifications)
+**Contents:** [Language package managers](#language-package-managers) · [System package managers](#system-package-managers) · [Frontends](#package-manager-frontends) · [Editor plugins](#editor-and-ide-plugin-managers) · [Universal tools](#universal-and-cross-language-tools) · [Resolution libraries](#dependency-resolution-libraries) · [Manifest parsing](#manifest-and-lockfile-parsing) · [Registry software](#registry-software) · [Enterprise tools](#enterprise-tools) · [Security tools](#security-and-analysis-tools) · [Metadata platforms](#metadata-and-discovery-platforms) · [SBOM tools](#sbom-and-supply-chain-tools) · [Trusted publishing](#trusted-publishing) · [Monorepo tools](#monorepo-and-workspace-tools) · [Build tools](#build-tools-with-dependency-management) · [Research](#research) · [Standards](#standards-and-specifications)
 
 ## Language package managers
 
@@ -65,6 +65,16 @@ Each programming language ecosystem has at least one package manager, often seve
 
 **Crystal:** [Shards](https://crystal-lang.org/reference/the_shards_command/)
 
+**Ada:** [Alire](https://alire.ada.dev)
+
+**D:** [DUB](https://code.dlang.org)
+
+**Common Lisp:** [Quicklisp](https://www.quicklisp.org), [qlot](https://github.com/fukamachi/qlot)
+
+**Scheme:** [AKKU](https://akkuscm.org)
+
+**Janet:** [jpm](https://github.com/janet-lang/jpm)
+
 **V:** [VPM](https://vpm.vlang.io)
 
 **Raku:** [zef](https://github.com/ugexe/zef)
@@ -99,7 +109,7 @@ Operating system package managers handle system-level software: libraries, appli
 
 **Void:** [xbps](https://docs.voidlinux.org/xbps/index.html)
 
-**macOS:** [Homebrew](https://brew.sh), [MacPorts](https://www.macports.org)
+**macOS:** [Homebrew](https://brew.sh), [MacPorts](https://www.macports.org), [Fink](https://www.finkproject.org)
 
 **Windows:** [winget](https://learn.microsoft.com/en-us/windows/package-manager/), [Chocolatey](https://chocolatey.org), [Scoop](https://scoop.sh)
 
@@ -108,6 +118,8 @@ Operating system package managers handle system-level software: libraries, appli
 **OpenBSD:** [pkg_add](https://man.openbsd.org/pkg_add)
 
 **NetBSD:** [pkgsrc](https://www.pkgsrc.org)
+
+**DragonFly BSD:** [pkg](https://www.dragonflybsd.org/docs/handbook/pkgsrc/)
 
 **NixOS:** [nix](https://nixos.org)
 
@@ -129,6 +141,20 @@ Abstraction layers and graphical interfaces for system package managers.
 
 **Local build integration:** [CheckInstall](https://en.wikipedia.org/wiki/CheckInstall)
 
+## Editor and IDE plugin managers
+
+Editors and IDEs have their own package ecosystems for extensions and plugins.
+
+**Emacs:** [MELPA](https://melpa.org), [GNU ELPA](https://elpa.gnu.org), [package.el](https://www.gnu.org/software/emacs/manual/html_node/emacs/Packages.html)
+
+**Vim/Neovim:** [vim-plug](https://github.com/junegunn/vim-plug), [lazy.nvim](https://github.com/folke/lazy.nvim), [Packer](https://github.com/wbthomason/packer.nvim)
+
+**VSCode:** [Extensions Marketplace](https://marketplace.visualstudio.com/vscode), [Open VSX](https://open-vsx.org)
+
+**Sublime Text:** [Package Control](https://packagecontrol.io)
+
+**JetBrains:** [Plugin Marketplace](https://plugins.jetbrains.com)
+
 ## Universal and cross-language tools
 
 These tools work across language boundaries, managing runtimes, environments, or entire system configurations.
@@ -144,6 +170,12 @@ These tools work across language boundaries, managing runtimes, environments, or
 **Infrastructure packages:** [Terraform Registry](https://registry.terraform.io), [Ansible Galaxy](https://galaxy.ansible.com), [Puppet Forge](https://forge.puppet.com), [Chef Supermarket](https://supermarket.chef.io)
 
 **Scientific computing:** [Conda](https://docs.conda.io), [Mamba](https://mamba.readthedocs.io), [Spack](https://spack.io), [EasyBuild](https://easybuild.io), [modules](https://modules.readthedocs.io)
+
+**Embedded/IoT:** [PlatformIO](https://platformio.org)
+
+**Package format converters:** [fpm](https://github.com/jordansissel/fpm)
+
+**Meta package managers:** [meta-package-manager](https://github.com/kdeldycke/meta-package-manager)
 
 ## Dependency resolution libraries
 
