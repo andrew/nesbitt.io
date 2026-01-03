@@ -9,7 +9,7 @@ tags:
 
 A directory of tools, libraries, registries, and standards across package management. I put this together partly as a reference, partly to track which areas I've covered in other posts.
 
-**Contents:** [Language package managers](#language-package-managers) · [System package managers](#system-package-managers) · [Frontends](#package-manager-frontends) · [Universal tools](#universal-and-cross-language-tools) · [Resolution libraries](#dependency-resolution-libraries) · [Manifest parsing](#manifest-and-lockfile-parsing) · [Registry software](#registry-software) · [Enterprise tools](#enterprise-tools) · [Security tools](#security-and-analysis-tools) · [Metadata platforms](#metadata-and-discovery-platforms) · [SBOM tools](#sbom-and-supply-chain-tools) · [Trusted publishing](#trusted-publishing) · [Monorepo tools](#monorepo-and-workspace-tools) · [Build tools](#build-tools-with-dependency-management) · [Standards](#standards-and-specifications)
+**Contents:** [Language package managers](#language-package-managers) · [System package managers](#system-package-managers) · [Frontends](#package-manager-frontends) · [Universal tools](#universal-and-cross-language-tools) · [Resolution libraries](#dependency-resolution-libraries) · [Manifest parsing](#manifest-and-lockfile-parsing) · [Registry software](#registry-software) · [Enterprise tools](#enterprise-tools) · [Security tools](#security-and-analysis-tools) · [Metadata platforms](#metadata-and-discovery-platforms) · [SBOM tools](#sbom-and-supply-chain-tools) · [Trusted publishing](#trusted-publishing) · [Monorepo tools](#monorepo-and-workspace-tools) · [Build tools](#build-tools-with-dependency-management) · [Research](#research) · [Standards](#standards-and-specifications)
 
 ## Language package managers
 
@@ -177,8 +177,6 @@ Libraries that read dependency files across ecosystems, used by security scanner
 
 **[osv-scalibr](https://github.com/google/osv-scalibr):** Google's extraction library for inventory discovery, vulnerability detection, and SBOM generation. Powers OSV-Scanner.
 
-**[deptry](https://github.com/fpgmaas/deptry):** Python tool for finding unused and missing dependencies.
-
 **[pipdeptree](https://github.com/tox-dev/pipdeptree):** Visualizes Python dependency trees.
 
 **[npm-packlist](https://github.com/npm/npm-packlist):** Determines which files npm will include in a package.
@@ -188,6 +186,8 @@ Libraries that read dependency files across ecosystems, used by security scanner
 **[packageurl](https://github.com/package-url):** Libraries for parsing Package URLs in [Python](https://github.com/package-url/packageurl-python), [Go](https://github.com/package-url/packageurl-go), [JavaScript](https://github.com/package-url/packageurl-js), and other languages.
 
 **[oras](https://github.com/oras-project/oras):** OCI Registry As Storage, for pushing and pulling arbitrary content to OCI registries.
+
+**Version constraint parsers:** [node-semver](https://github.com/npm/node-semver), [packaging](https://github.com/pypa/packaging) (Python), [Gem::Version](https://github.com/rubygems/rubygems) (Ruby), [semver](https://github.com/Masterminds/semver) (Go), [semver](https://github.com/dtolnay/semver) (Rust)
 
 ## Registry software
 
@@ -211,6 +211,8 @@ Self-hosted registries for private packages or local mirrors.
 
 **Helm-compatible:** [ChartMuseum](https://chartmuseum.com), [Harbor](https://goharbor.io)
 
+**Registry libraries:** [libnpmaccess](https://github.com/npm/cli/tree/latest/workspaces/libnpmaccess), [libnpmpublish](https://github.com/npm/cli/tree/latest/workspaces/libnpmpublish), [libnpmregistry](https://github.com/npm/cli/tree/latest/workspaces/libnpmregistry)
+
 ## Enterprise tools
 
 Artifact repositories, fleet management, and package distribution for organizations.
@@ -229,7 +231,7 @@ Tools for scanning dependencies, detecting vulnerabilities, and keeping packages
 
 **Vulnerability scanning:** [Snyk](https://snyk.io), [Socket](https://socket.dev), [Grype](https://github.com/anchore/grype), [Trivy](https://trivy.dev), [npm audit](https://docs.npmjs.com/cli/commands/npm-audit), [pip-audit](https://github.com/pypa/pip-audit), [bundler-audit](https://github.com/rubysec/bundler-audit), [cargo-audit](https://github.com/rustsec/rustsec), [safety](https://github.com/pyupio/safety), [OSV-Scanner](https://google.github.io/osv-scanner/), [Dependency-Check](https://owasp.org/www-project-dependency-check/)
 
-**Dependency updates:** [Dependabot](https://github.com/dependabot), [Renovate](https://www.mend.io/renovate/), [Snyk](https://snyk.io), [Depfu](https://depfu.com), [pyup](https://pyup.io), [pip-tools](https://github.com/jazzband/pip-tools)
+**Dependency updates:** [Dependabot](https://github.com/dependabot), [Renovate](https://www.mend.io/renovate/), [Snyk](https://snyk.io), [Depfu](https://depfu.com), [pyup](https://pyup.io), [pip-tools](https://github.com/jazzband/pip-tools), [OpenRewrite](https://github.com/openrewrite/rewrite)
 
 **Malware detection:** [Socket](https://socket.dev), [Phylum](https://www.phylum.io), [Stacklok](https://stacklok.com), [GuardDog](https://github.com/DataDog/guarddog)
 
@@ -251,7 +253,7 @@ Services that aggregate package data across ecosystems.
 
 **Ecosystem-specific:** [npms.io](https://npms.io), [bundlephobia](https://bundlephobia.com), [pkg-size](https://pkg-size.dev), [PyPI Stats](https://pypistats.org), [deps.rs](https://deps.rs)
 
-**Cross-distro:** [Repology](https://repology.org)
+**Cross-distro:** [Repology](https://repology.org), [pkgs.org](https://pkgs.org)
 
 **Dependency graphs:** [deps.dev](https://deps.dev), [GitHub Dependency Graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph), [GitLab Dependency List](https://docs.gitlab.com/ee/user/application_security/dependency_list/), [Sourcegraph](https://sourcegraph.com)
 
@@ -270,6 +272,8 @@ Tools for generating and consuming Software Bills of Materials, and for supply c
 **SBOM libraries:** [Protobom](https://github.com/protobom/protobom)
 
 **SBOM formats:** [CycloneDX](https://cyclonedx.org), [SPDX](https://spdx.dev), [SWID](https://csrc.nist.gov/projects/Software-Identification-SWID)
+
+**SBOM quality:** [sbom-scorecard](https://github.com/eBay/sbom-scorecard), [sbomqs](https://github.com/interlynk-io/sbomqs), [ntia-conformance-checker](https://github.com/spdx/ntia-conformance-checker)
 
 **Provenance:** [SLSA](https://slsa.dev), [slsa-verifier](https://github.com/slsa-framework/slsa-verifier), [GitHub Artifact Attestations](https://docs.github.com/en/actions/security-for-github-actions/using-artifact-attestations), [Witness](https://github.com/in-toto/witness), [Notary](https://notaryproject.dev)
 
@@ -318,6 +322,16 @@ Build systems that include package management features.
 **Meson:** [wraps](https://mesonbuild.com/Wrap-dependency-system-manual.html)
 
 **Container builds:** [Earthly](https://github.com/earthly/earthly), [Cloud Native Buildpacks](https://buildpacks.io)
+
+## Research
+
+A longer list of academic work is in [Package Management Papers](/2025/11/13/package-management-papers.html).
+
+**Dependency analysis:** [FASTEN](https://github.com/fasten-project), [Software Heritage](https://www.softwareheritage.org), [Mancoosi](https://www.mancoosi.org)
+
+**Datasets:** [Libraries.io data](https://libraries.io/data), [GH Archive](https://www.gharchive.org), [World of Code](https://worldofcode.org), [npm-follower](https://github.com/donald-pinckney/npm-follower), [Code Commons](https://codecommons.org/)
+
+**Bloat detection:** [DepClean](https://github.com/castor-software/depclean), [deptry](https://github.com/fpgmaas/deptry)
 
 ## Standards and specifications
 
