@@ -85,7 +85,7 @@ Each programming language ecosystem has at least one package manager, often seve
 
 **Kotlin:** [Gradle](https://gradle.org)
 
-**Mojo:** [Magic](https://docs.modular.com/magic/)
+**Mojo:** [Pixi](https://pixi.sh)
 
 ## System package managers
 
