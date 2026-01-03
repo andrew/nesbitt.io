@@ -44,8 +44,8 @@ task :tags do
   end
 end
 
-desc "Show word counts for posts, optionally filtered by year and/or tag"
-task :wordcount, [:year, :tag] do |t, args|
+desc "Show word counts for posts, optionally filtered by tag and/or year"
+task :wordcount, [:tag, :year] do |t, args|
   min_year = args[:year]&.to_i || 2024
   posts = Dir.glob("_posts/*.md").select do |post|
     year = File.basename(post)[0, 4].to_i
