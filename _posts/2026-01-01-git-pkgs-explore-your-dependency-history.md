@@ -8,6 +8,7 @@ tags:
   - package-managers
   - git
   - tools
+  - git-pkgs
 ---
 
 Your dependency graph has a history, but it's buried in lockfile diffs that no one reads. GitHub even hides them by default in pull requests. You can `git log` any source file and trace who changed it, when, and why, but try that on a lockfile and you get thousands of lines of noise per commit.
