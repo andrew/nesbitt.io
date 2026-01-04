@@ -11,7 +11,7 @@ tags:
   - git-pkgs
 ---
 
-Since releasing [git-pkgs](/2026/01/01/git-pkgs-explore-your-dependency-history/) I've been focused on one thing: making it feel like you're using git, not some tool that happens to work with git.
+Since releasing [git-pkgs](/2026/01/01/git-pkgs-explore-your-dependency-history) I've been focused on one thing: making it feel like you're using git, not some tool that happens to work with git.
 
 Git has strong conventions for colors, pagers, environment variables, and configuration that users expect without thinking about them. I wrote about [extending git](/2025/11/26/extending-git-functionality.html) a while back, covering the extension points git provides. But knowing the patterns exist is different from implementing them well. If your subcommand ignores these conventions, it feels foreign. Getting them right is fiddly, but people notice when you skip them.
 
