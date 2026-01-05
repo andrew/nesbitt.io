@@ -58,6 +58,7 @@ How does the package manager decide which versions to install? The [ecosyste.ms 
 - npm
 - Yarn
 - pnpm
+- Cargo[^cargo-semver-compat]
 
 **Version mediation** lets build systems pick winners using different strategies.
 
@@ -68,6 +69,7 @@ How does the package manager decide which versions to install? The [ecosyste.ms 
 - Clojars[^clojars-maven]
 - Ivy
 
+[^cargo-semver-compat]: Limited to one version per semver-compatible range (one per major version, or one per minor if pre-1.0).
 [^maven-nearest]: Nearest definition wins.
 [^gradle-highest]: Highest version wins.
 [^nuget-lowest]: Lowest applicable version.

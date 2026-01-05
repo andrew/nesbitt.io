@@ -369,6 +369,7 @@ Does the registry keep old versions available? What happens when a published ver
 
 - npmjs.com[^npm-unpublish]
 - pypi.org[^pypi-deletion]
+- crates.io[^crates-deletion]
 - nuget.org
 - packagist.org
 - clojars.org
@@ -484,6 +485,7 @@ How hard is it to run your own registry or mirror?
 [^maven-permanent]: Maven Central [does not allow deletion](https://central.sonatype.org/faq/can-i-change-a-component/) or modification of published artifacts.
 [^npm-unpublish]: [72-hour window](https://docs.npmjs.com/policies/unpublish/) for unpublishing, with exceptions for security issues.
 [^pypi-deletion]: Can delete files and releases; [PEP 763](https://peps.python.org/pep-0763/) proposes limiting this to 72 hours.
+[^crates-deletion]: Versions can be yanked indefinitely; entire crates can be deleted within 72 hours of first publish.
 [^go-cache-permanent]: Once cached by [proxy.golang.org](https://proxy.golang.org/), modules remain available indefinitely.
 [^npm-verdaccio]: [Verdaccio](https://www.verdaccio.org/) is the most popular private npm registry.
 [^pypi-devpi]: [devpi](https://github.com/devpi/devpi) and [Artifactory](https://jfrog.com/artifactory/) provide PyPI-compatible private registries.
