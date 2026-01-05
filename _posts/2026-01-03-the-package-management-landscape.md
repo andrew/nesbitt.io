@@ -197,6 +197,28 @@ Reusable libraries that solve the version constraint satisfaction problem. Packa
 
 **[resolvo](https://github.com/mamba-org/resolvo):** SAT solver for package management from the Mamba team.
 
+## Binary dependency tools
+
+**Cross-language:**
+
+* Dynamic loading on Linux: libc
+([dlopen](https://www.man7.org/linux/man-pages/man3/dlopen.3.html),
+[dlsym](https://www.man7.org/linux/man-pages/man3/dlsym.3.html))
+* Complex binding codegen: [SWIG](https://swig.org/)
+
+**Python:**
+
+* Compile-time call generation: [Python/C API](https://docs.python.org/3/extending/extending.html) (Python.h),
+[HPy](https://hpyproject.org/)
+* Runtime call generation: [ctypes](https://docs.python.org/3/library/ctypes.html)
+(wrapping [libffi](https://github.com/libffi/libffi))
+* Host-side binding codegen: [cffi](https://pypi.org/project/cffi/)
+* Guest-side binding codegen: [nanobind](https://github.com/wjakob/nanobind),
+[pybind11](https://github.com/pybind/pybind11),
+[Boost.Python](https://www.boost.org/doc/libs/latest/libs/python/doc/html/index.html)
+* Complex binding codegen: [Cython](https://cython.org/),
+[Numba](https://numba.pydata.org/)
+
 ## Manifest and lockfile parsing
 
 Libraries that read dependency files across ecosystems, used by security scanners, dependency update tools, and metadata platforms.
