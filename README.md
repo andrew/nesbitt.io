@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Making git-pkgs feel like Git](https://nesbitt.io/2026/01/04/making-git-pkgs-feel-like-git.html)
 - [The Package Management Landscape](https://nesbitt.io/2026/01/03/the-package-management-landscape.html)
 - [How Dependabot Actually Works](https://nesbitt.io/2026/01/02/how-dependabot-actually-works.html)
 - [git-pkgs: explore your dependency history](https://nesbitt.io/2026/01/01/git-pkgs-explore-your-dependency-history.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Categorizing Package Registries](https://nesbitt.io/2025/12/29/categorizing-package-registries.html)
 - [The Compact Index: How Bundler Scales Dependency Resolution](https://nesbitt.io/2025/12/28/the-compact-index.html)
 - [How to Ruin All of Package Management](https://nesbitt.io/2025/12/27/how-to-ruin-all-of-package-management.html)
-- [How uv got so fast](https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html)
 <!-- POSTS:END -->
