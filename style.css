@@ -388,3 +388,48 @@ section li p{
   color: #656d76 !important;
 }
 
+/* Search */
+#search-input{
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #d1d9e0;
+  border-radius: 6px;
+  font-family: inherit;
+  margin-bottom: 20px;
+}
+
+#search-input:focus{
+  outline: none;
+  border-color: #006ab2;
+}
+
+#search-tags{
+  margin-bottom: 20px;
+}
+
+.search-tag{
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 0 6px 6px 0;
+  font-size: 14px;
+  color: #656d76 !important;
+  background: #f6f8fa;
+  border-radius: 4px;
+}
+
+.search-tag:hover{
+  color: #006ab2 !important;
+  text-decoration: none;
+}
+
+#search-results .post-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#search-results .post-list li{
+  margin-bottom: 8px;
+}
+
