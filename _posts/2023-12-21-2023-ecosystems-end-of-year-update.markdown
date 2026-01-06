@@ -2,7 +2,10 @@
 title:  "Ecosyste.ms 2023 End of Year Update"
 published: true
 description: Wrapping up what we've been up to over the past year on https://ecosyste.ms
-tags: oss,software,github 
+tags:
+  - open source
+  - ecosyste.ms
+  - github
 published_at: 2023-12-23 17:24 +0000
 layout: post
 ---

@@ -7,7 +7,7 @@ tags:
   - versioning
   - open source
   - software development
-  - SemVer
+  - semver
   - package-managers
 ---
 

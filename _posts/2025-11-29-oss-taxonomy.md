@@ -7,7 +7,7 @@ tags:
   - open source
   - metadata
   - taxonomy
-  - ecosystems
+  - ecosyste.ms
 ---
 
 There are millions of open source projects across dozens of package registries, but no standard way to classify them. Existing metadata doesn't help: topic and keyword data is inconsistent, unstructured, or missing entirely, even from popular projects. I found some taxonomies for research software ([FAIRsoft](https://academic.oup.com/bioinformatics/article/40/8/btae464/7717992), the [RSE taxonomy](https://github.com/rseng/rseng)), but nothing for open source software more broadly.

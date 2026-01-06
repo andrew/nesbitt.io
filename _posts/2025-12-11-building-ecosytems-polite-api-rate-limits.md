@@ -4,7 +4,7 @@ title: "Building Ecosyste.ms Polite API Rate Limits"
 date: 2025-12-11
 description: "Tiered rate limiting that rewards good citizenship: API keys, polite users, and everyone else."
 tags:
-  - ecosystems
+  - ecosyste.ms
   - apisix
 ---
 

@@ -6,7 +6,7 @@ description: "Six repositories documenting how package managers work: commands, 
 tags:
   - open source
   - package-managers
-  - ecosystems
+  - ecosyste.ms
 ---
 
 *Originally posted on [blog.ecosyste.ms](https://blog.ecosyste.ms/2025/11/17/documenting-package-manager-data.html) on November 17, 2025.*
