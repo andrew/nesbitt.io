@@ -191,7 +191,7 @@ Reusable libraries that solve the version constraint satisfaction problem. Packa
 
 **[Clingo](https://potassco.org/clingo/):** Answer set programming solver. Used by Spack.
 
-**[pip-resolver](https://pip.pypa.io/en/stable/topics/dependency-resolution/):** pip's backtracking resolver, built-in since pip 20.3.
+**[Resolvelib](https://pypi.org/project/resolvelib/):** pip's backtracking resolver, built-in since pip 20.3 ([pip details](https://pip.pypa.io/en/stable/topics/dependency-resolution/)).
 
 **[CUDF](https://www.mancoosi.org/cudf/):** Common Upgradeability Description Format. Used by opam with external solvers.
 
