@@ -102,8 +102,55 @@ $ swhid directory /path/to/project
 $ swhid revision /path/to/repo HEAD
 ```
 
+### [changelog-parser](https://github.com/andrew/changelog-parser)
+
+Changelogs are one of the most useful pieces of metadata a package can have, but they come in dozens of formats. Some projects use CHANGELOG.md, others use HISTORY.txt or NEWS. Some follow Keep a Changelog, others use their own conventions.
+
+This gem parses changelogs and extracts structured release notes:
+
+```ruby
+result = Changelog::Parser.parse_file("CHANGELOG.md")
+# => { "1.0.0" => { date: #<Date: 2024-01-15>, content: "### Added\n- Initial release" } }
+
+parser = Changelog::Parser.new(changelog)
+parser.versions        # => ["Unreleased", "1.0.0"]
+parser["1.0.0"]        # => { date: #<Date>, content: "..." }
+parser.between("1.0.0", "2.0.0")  # content between versions, like Dependabot uses
+```
+
+The CLI handles parsing, listing versions, and extracting content between versions:
+
+```
+$ changelog-parser parse CHANGELOG.md
+$ changelog-parser list CHANGELOG.md
+$ changelog-parser between 1.0.0 2.0.0 CHANGELOG.md
+```
+
+### [diffoscope](https://github.com/andrew/diffoscope)
+
+When a new version of a package is released, what actually changed? The version number and changelog tell you what the maintainer thinks changed, but sometimes you want to verify. This is particularly useful when investigating supply chain attacks or checking for unexpected modifications.
+
+This gem provides Ruby bindings for [diffoscope](https://diffoscope.org/), a tool for in-depth comparison of files, archives, and directories:
+
+```ruby
+result = Diffoscope.compare("old.tar.gz", "new.tar.gz")
+result.identical?        # => true/false
+result.to_unified_diff   # => git-style diff string
+result.sha256_1          # => SHA256 of first file
+
+# Compare package URLs directly
+result = Diffoscope.compare("pkg:gem/rails@7.0.0", "pkg:gem/rails@7.1.0")
+```
+
+The CLI wraps diffoscope with PURL support:
+
+```
+$ diffoscope old.tar.gz new.tar.gz
+$ diffoscope pkg:gem/rails@7.0.0 pkg:gem/rails@7.1.0
+```
+
 ---
 
-These gems provide Ruby implementations of specs that show up repeatedly in supply chain security work: package identifiers, version ranges, SBOM formats, and content hashes. They're designed to be used as libraries or CLI tools, and to behave predictably across ecosystems.
+These gems provide Ruby implementations of specs that show up repeatedly in supply chain security work: package identifiers, version ranges, SBOM formats, content hashes, changelogs, and package diffs. They're designed to be used as libraries or CLI tools, and to behave predictably across ecosystems.
 
 They were built to support Ecosyste.ms and are used there in production. If you're working with dependency metadata in Ruby, they handle the spec compliance so you don't have to. With the CRA coming into full effect in 2027, you'll probably hear more about SBOMs and supply chain security in the coming years.
