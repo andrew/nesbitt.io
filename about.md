@@ -20,7 +20,7 @@ I co-hosted [The Manifest](https://manifest.fm), a podcast where we interviewed 
 
 I co-organize the [Package Management devroom](https://fosdem.org/2026/schedule/track/package-management/) at FOSDEM, where package manager maintainers from across ecosystems present their work and compare notes. I'm also part of the [CHAOSS Package Metadata Working Group](https://github.com/chaoss/wg-package-metadata), where we're [documenting how package managers work](/2025/11/30/documenting-package-manager-data): commands, manifest formats, APIs, and the metadata they expose.
 
-Some other projects along the way:
+Some of my other notable open source projects:
 
 - [node-sass](https://www.npmjs.com/package/node-sass) - Node.js bindings to libsass, now deprecated. Over 1.3 billion downloads.
 - [Split](https://github.com/splitrb/split) - A/B testing framework for Ruby. Nearly 9 million gem downloads.
