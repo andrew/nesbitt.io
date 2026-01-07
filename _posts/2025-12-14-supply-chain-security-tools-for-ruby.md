@@ -2,7 +2,7 @@
 layout: post
 title: "Supply Chain Security Tools for Ruby"
 date: 2025-12-14
-description: "Ruby implementations of PURL, VERS, SBOM, and SWHID specs."
+description: "Ruby implementations of PURL, VERS, SBOM, SWHID, and SARIF specs."
 tags:
   - ruby
   - security
@@ -10,7 +10,7 @@ tags:
   - package-managers
 ---
 
-I've published four Ruby gems that work together to help people build supply chain security tools: [purl](https://github.com/andrew/purl), [vers](https://github.com/andrew/vers), [sbom](https://github.com/andrew/sbom), and [swhid](https://github.com/andrew/swhid). They handle the specs that security tooling depends on.
+I've published several Ruby gems that work together to help people build supply chain security tools: [purl](https://github.com/andrew/purl), [vers](https://github.com/andrew/vers), [sbom](https://github.com/andrew/sbom), [swhid](https://github.com/andrew/swhid), and [sarif](https://github.com/andrew/sarif). They handle the specs that security tooling depends on.
 
 I built these for [Ecosyste.ms](https://ecosyste.ms), which tracks dependencies across package registries. We deal with a lot of cross-ecosystem data: vulnerability reports that reference packages by PURL, version ranges from security advisories, SBOMs from various sources. If you're building security scanners, registry tooling, or compliance pipelines in Ruby, these might be useful.
 
@@ -149,8 +149,44 @@ $ diffoscope old.tar.gz new.tar.gz
 $ diffoscope pkg:gem/rails@7.0.0 pkg:gem/rails@7.1.0
 ```
 
+### [sarif](https://github.com/andrew/sarif)
+
+Static analysis tools produce findings: "line 42 has a SQL injection vulnerability." SARIF (Static Analysis Results Interchange Format) is the OASIS standard for representing these results. GitHub code scanning uses it. Most security scanners can output it.
+
+The gem provides Ruby classes for the complete SARIF 2.1.0 specification:
+
+```ruby
+log = Sarif::Log.new(
+  runs: [
+    Sarif::Run.new(
+      tool: Sarif::Tool.new(driver: Sarif::ToolComponent.new(name: "my-scanner")),
+      results: [
+        Sarif::Result.new(
+          rule_id: "SQL001",
+          level: "error",
+          message: Sarif::Message.new(text: "SQL injection vulnerability")
+        )
+      ]
+    )
+  ]
+)
+
+Sarif.dump("output.sarif", log)
+```
+
+Reading existing SARIF files:
+
+```ruby
+log = Sarif.load("scanner-output.sarif")
+log.runs.each do |run|
+  run.results.each do |result|
+    puts "#{result.rule_id}: #{result.message.text}"
+  end
+end
+```
+
 ---
 
-These gems provide Ruby implementations of specs that show up repeatedly in supply chain security work: package identifiers, version ranges, SBOM formats, content hashes, changelogs, and package diffs. They're designed to be used as libraries or CLI tools, and to behave predictably across ecosystems.
+These gems provide Ruby implementations of specs that show up repeatedly in supply chain security work: package identifiers, version ranges, SBOM formats, content hashes, changelogs, package diffs, and static analysis results. They're designed to be used as libraries or CLI tools, and to behave predictably across ecosystems.
 
 They were built to support Ecosyste.ms and are used there in production. If you're working with dependency metadata in Ruby, they handle the spec compliance so you don't have to. With the CRA coming into full effect in 2027, you'll probably hear more about SBOMs and supply chain security in the coming years.
