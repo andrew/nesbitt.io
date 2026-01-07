@@ -62,11 +62,51 @@ International Conference on Mining Software Repositories (MSR)
 
 Analyzed propagation of security vulnerabilities through npm dependency network, studying how vulnerabilities affect downstream packages and the time required for ecosystem-wide fixes.
 
+**[Demystifying the vulnerability propagation and its evolution via dependency trees in the npm ecosystem](https://dl.acm.org/doi/10.1145/3510003.3510142)** (2022)
+*Chengwei Liu, Sen Chen, Lingling Fan, Bihuan Chen, Yang Liu, Xin Peng*
+IEEE/ACM International Conference on Software Engineering (ICSE)
+
+Analyzes vulnerability propagation within dependency trees by applying npm-specific dependency resolution rules, recommending lockfiles for managing dependencies.
+
 **[Empirical Analysis of Security Vulnerabilities in Python Packages](https://ieeexplore.ieee.org/document/9678615)** (2021)
 *Various authors*
 IEEE conference proceedings
 
 Analysis of 550 vulnerability reports affecting 252 Python packages in PyPI ecosystem, providing empirical evidence about vulnerability patterns in Python packages.
+
+**[Surviving Software Dependencies](https://dl.acm.org/doi/10.1145/3329781.3344149)** (2019)
+*Russ Cox*
+ACM Queue
+
+Influential essay on managing software dependencies at scale. Discusses version selection, minimum version selection (used in Go), and the tradeoffs between different dependency management approaches. Required reading for anyone working on package managers.
+
+## Lockfiles
+
+Research on lockfile design, usage, and their role in dependency management.
+
+**[The Design Space of Lockfiles Across Package Managers](https://arxiv.org/pdf/2505.04834)** (2025)
+*Yogya Gamage, Deepika Tiwari, Martin Monperrus, Benoit Baudry*
+arXiv preprint
+
+First study of lockfiles across seven package managers (npm, pnpm, Cargo, Poetry, Pipenv, Gradle, Go). Analyzes lockfile content and lifecycle differences, finding Go has near 100% lockfile commit rate while Gradle is close to zero. Interviews with 15 developers reveal benefits (build determinism, integrity verification, transparency) and challenges (readability, delayed updates, library locking). Recommends generating lockfiles by default and committing them for all projects.
+
+**[Reproducible builds: Increasing the integrity of software supply chains](https://ieeexplore.ieee.org/document/9648644)** (2022)
+*Chris Lamb, Stefano Zacchiroli*
+IEEE Software
+
+Overview of the reproducible builds movement and its importance for software supply chain security. Discusses how bit-for-bit reproducibility enables independent verification of build artifacts.
+
+**[Investigating the reproducibility of npm packages](https://ieeexplore.ieee.org/document/9240691)** (2020)
+*Pronnoy Goswami, Saksham Gupta, Zhiyuan Li, Na Meng, Daphne Yao*
+IEEE International Conference on Software Maintenance and Evolution (ICSME)
+
+Empirical study of npm package reproducibility, analyzing factors that affect whether packages can be rebuilt identically from source.
+
+**[Pinning is futile: You need more than local dependency versioning to defend against supply chain attacks](https://arxiv.org/abs/2502.06662)** (2025)
+*Hao He, Bogdan Vasilescu, Christian Kästner*
+arXiv preprint
+
+Study finding that local pinning leads to more security vulnerabilities due to bloated and outdated dependencies. Suggests risk of malicious package updates can be reduced when core dependencies pin their versions and keep them updated regularly.
 
 ## Dependency Resolution Algorithms and Challenges
 
@@ -108,6 +148,30 @@ ACM/IEEE International Symposium on Empirical Software Engineering and Measureme
 
 Studied strong dependency relationships where packages are tightly coupled, analyzing patterns of mandatory co-installation and implications for system evolution.
 
+**[Watchman: Monitoring dependency conflicts for python library ecosystem](https://dl.acm.org/doi/10.1145/3377811.3380426)** (2020)
+*Ying Wang, Ming Wen, Yepang Liu, Yibo Wang, Zhenming Li, Chao Wang, Hai Yu, Shing-Chi Cheung, Chang Xu, Zhiliang Zhu*
+IEEE/ACM International Conference on Software Engineering (ICSE)
+
+Identifies factors leading to dependency conflicts in Python ecosystem and proposes monitoring approach for detecting conflicts.
+
+**[smartpip: A smart approach to resolving python dependency conflict issues](https://dl.acm.org/doi/10.1145/3551349.3560437)** (2023)
+*Chenyang Wang, Rongxin Wu, Haoran Song, Junjie Shu, Guozhu Li*
+IEEE/ACM International Conference on Automated Software Engineering (ASE)
+
+Highlights issues related to inefficiency and excessive resource usage by dependency resolution strategies in Python, proposing improved resolution approach.
+
+**[ConflictJS: Finding and understanding conflicts between javascript libraries](https://dl.acm.org/doi/10.1145/3180155.3180184)** (2018)
+*Jibesh Patra, Pooja N. Dixit, Michael Pradel*
+IEEE/ACM International Conference on Software Engineering (ICSE)
+
+Analyzes dependency conflicts in JavaScript arising from namespace collisions, proposing detection and understanding mechanisms.
+
+**[Hero: On the chaos when path meets modules](https://dl.acm.org/doi/10.1109/ICSE43902.2021.00022)** (2021)
+*Ying Wang, Liang Qiao, Chang Xu, Yepang Liu, Shing-Chi Cheung, Na Meng, Hai Yu, Zhiliang Zhu*
+IEEE/ACM International Conference on Software Engineering (ICSE)
+
+Studies conflicts in Go ecosystem caused by coexistence of two library referencing modes: GOPATH and Go modules.
+
 **[Stork: Secure Package Management For VM Environments](https://www.cs.arizona.edu/sites/default/files/TR08-04.pdf)** (2008)
 *Justin Cappos*
 Dissertation (University of Arizona) -- Chapter 3.8
@@ -148,6 +212,12 @@ ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses 
 
 Systematized knowledge about secure software supply chain patterns, identifying four stages of supply chain attacks and proposing three security properties: transparency, validity, and separation.
 
+**[Research directions in software supply chain security](https://dl.acm.org/doi/10.1145/3709359)** (2025)
+*Laurie Williams, Grace Benedetti, Samuel Hamer, Ranindya Paramitha, Imranur Rahman, Mahzabin Tamanna, Gabriel Tystahl, Nusrat Zahan, Patrick Morrison, Yasemin Acar, Michel Cukier, Christian Kästner, Alexandros Kapravelos, Dominik Wermke, William Enck*
+ACM Transactions on Software Engineering and Methodology (TOSEM)
+
+Survey identifying key research directions in software supply chain security including dependency management, vulnerability detection, and trust models across package ecosystems.
+
 **[Software Supply Chain: Review of Attacks, Risk Assessment Strategies and Security Controls](https://arxiv.org/abs/2308.07920)** (2023)
 *Betul Gokkaya, et al.*
 arXiv preprint
@@ -159,6 +229,18 @@ Systematic literature review analyzing common software supply chain attacks and 
 arXiv preprint
 
 Evaluated six SBOM generation tools on complex open-source Java projects, identifying hard challenges for accurate SBOM production and usage in software supply chain security contexts.
+
+**[On the way to sboms: Investigating design issues and solutions in practice](https://dl.acm.org/doi/10.1145/3660773)** (2024)
+*Tingting Bi, Boming Xia, Zhenchang Xing, Qinghua Lu, Liming Zhu*
+ACM Transactions on Software Engineering and Methodology (TOSEM)
+
+Investigates SBOM design issues and solutions, noting lockfiles as related to SBOM generation.
+
+**[On the correctness of metadata-based sbom generation: A differential analysis approach](https://ieeexplore.ieee.org/document/10646632)** (2024)
+*Songqiang Yu, Wei Song, Xiaolong Hu, Heng Yin*
+IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)
+
+Differential analysis evaluating correctness of SBOM generation from metadata, using lockfiles as source of truth for comparison.
 
 **[SBOM.EXE: Countering Dynamic Code Injection based on Software Bill of Materials in Java](https://arxiv.org/abs/2407.00246)** (2024)
 *Aman Sharma, Martin Wittlinger, Benoit Baudry, Martin Monperrus*
@@ -205,6 +287,18 @@ First analysis of npm ecosystem examining package descriptions, dependencies, do
 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE)
 
 Introduced dataset architecture that archives metadata and code of all npm packages as published, including deleted versions (330,000+ versions deleted between July 2022-May 2023).
+
+**[On the accuracy of github's dependency graph](https://dl.acm.org/doi/10.1145/3661167.3661175)** (2024)
+*Daniele Bifolco, Sara Nocera, Simone Romano, Massimiliano Di Penta, Rita Francese, Giuseppe Scanniello*
+International Conference on Evaluation and Assessment in Software Engineering (EASE)
+
+Assesses accuracy of GitHub dependency graph in Java and Python projects, using lockfiles as source of truth for comparison.
+
+**[Understanding and Detecting Peer Dependency Resolving Loop in npm Ecosystem](https://dl.acm.org/doi/10.1109/ICSE55347.2025.00054)** (2025)
+*Xiaohui Wang, Mingyu Wang, Weijian Shen, Rui Chang*
+IEEE/ACM International Conference on Software Engineering (ICSE)
+
+In-depth study of conflicts between peer dependencies in npm, examining how circular peer dependencies create resolution loops.
 
 **[An Empirical Analysis of Technical Lag in npm Package Dependencies](https://link.springer.com/chapter/10.1007/978-3-319-90421-4_6)** (2018)
 *Ahmed Zerouali, Eleni Constantinou, Tom Mens, Gregorio Robles, Jesús M. González-Barahona*
@@ -296,6 +390,18 @@ ACM Transactions on Software Engineering and Methodology (TOSEM)
 
 First security investigation of Rust ecosystem. Analyzed dataset of 433 vulnerabilities across 300 vulnerable code repositories. Found vulnerable code is localized at file level and contains significantly more unsafe functions/blocks. More popular packages have more vulnerabilities, while less popular packages remain vulnerable for more versions.
 
+**[An empirical study of yanked releases in the rust package registry](https://ieeexplore.ieee.org/document/9732248)** (2023)
+*Hao Li, Filipe Cogo, Cor-Paul Bezemer*
+IEEE Transactions on Software Engineering
+
+Reveals that 46% of Rust packages adopted yanked releases and the proportion keeps increasing. In Cargo, yanked releases can only be resolved if a lockfile is present.
+
+**[Evolving collaboration, dependencies, and use in the rust open source software ecosystem](https://www.nature.com/articles/s41597-022-01819-z)** (2022)
+*William Schueller, Johannes Wachs, Vito D.P. Servedio, Stefan Thurner, Vittorio Loreto*
+Scientific Data
+
+Dataset curating Rust ecosystem data over eight years, capturing developer activity, library dependencies, and usage trends.
+
 **[Why do software packages conflict?](https://ieeexplore.ieee.org/document/6224287)** (2012)
 *Cyrille Artho, Roberto Di Cosmo, Kuniyasu Suzaki, Stefano Zacchiroli*
 IEEE Working Conference on Mining Software Repositories (MSR)
@@ -365,6 +471,18 @@ Empirical study finding 11.58% of dependency updates contain breaking changes th
 arXiv preprint
 
 Automated tool that generates explanations for compilation errors caused by incompatible dependency version changes. Analyzes logs and dependency trees to identify root causes across direct/indirect dependencies, Java version conflicts, and configuration issues. Successfully identified causes for 70% of 243 real breaking updates.
+
+**[Bump: A benchmark of reproducible breaking dependency updates](https://ieeexplore.ieee.org/document/10589731)** (2024)
+*Frank Reyes, Yogya Gamage, Gabriel Skoglund, Benoit Baudry, Martin Monperrus*
+IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
+
+Benchmark dataset of reproducible breaking dependency updates for evaluating tools that detect or explain breaking changes in dependency updates.
+
+**[I depended on you and you broke me: An empirical study of manifesting breaking changes in client packages](https://dl.acm.org/doi/10.1145/3583565)** (2023)
+*Daniel Venturini, Filipe Cogo, Igor Polato, Marco Gerosa, Igor Wiese*
+ACM Transactions on Software Engineering and Methodology (TOSEM)
+
+Quantitative evaluation of the impact of breaking updates on dependent packages in npm, examining how breaking changes manifest and propagate through the ecosystem.
 
 **[Semantic Versioning versus Breaking Changes: A Study of the Maven Repository](https://www.sciencedirect.com/science/article/pii/S0164121217300018)** (2014, 2017)
 *Steven Raemaekers, Arie van Deursen, Joost Visser*
@@ -471,6 +589,12 @@ Detailed architecture for modular package managers.
 Academic publication
 
 Approaches for optimizing package management operations.
+
+**[Flexible and optimal dependency management via max-smt](https://dl.acm.org/doi/10.1109/ICSE48619.2023.00124)** (2023)
+*Donald Pinckney, Federico Cassano, Arjun Guha, Jonathan Bell, Massimiliano Culpo, Todd Gamblin*
+IEEE/ACM International Conference on Software Engineering (ICSE)
+
+Introduced unified framework built on Max-SMT solvers to resolve dependencies more systematically, moving beyond ad-hoc algorithms. Demonstrates practical solvers can handle real-world dependency resolution with formal guarantees.
 
 **[Automatic Software Dependency Management using Blockchain](https://norma.ncirl.ie/3300/)** (2018)
 *Gavin D'Mello*
@@ -603,6 +727,40 @@ Analyzed when registry hardening renders signing redundant versus when signing i
 USENIX Security Symposium
 
 Qualitative study interviewing 18 experienced security practitioners across 13 organizations to understand software signing practices and challenges. Shows that experts disagree on signing importance.
+
+**[Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors](https://ieeexplore.ieee.org/document/10646685)** (2024)
+*Taylor R. Schorlemmer, Kelechi G. Kalu, Luke Chigges, Kyung Myung Ko, Elizabeth A. Ishgair, Saurabh Bagchi, Santiago Torres-Arias, James C. Davis*
+IEEE Symposium on Security and Privacy (S&P)
+
+Study of software signing adoption in Maven, PyPI, DockerHub and Huggingface, finding strict signature rules increase the quantity of signatures and registry policies impact developer decisions.
+
+## Dependency Management Bots
+
+Research on automated dependency management tools like Dependabot and Renovate.
+
+**[On the use of dependabot security pull requests](https://ieeexplore.ieee.org/document/9463091)** (2021)
+*Mahmoud Alfadel, Diego Elias Costa, Emad Shihab, Moiz Mkhallalati*
+IEEE/ACM International Conference on Mining Software Repositories (MSR)
+
+Evaluates how developers respond to security updates suggested by Dependabot, finding varying acceptance rates across ecosystems.
+
+**[Investigating the resolution of vulnerable dependencies with dependabot security updates](https://ieeexplore.ieee.org/document/10172658)** (2023)
+*Hadi Mohayeji, Ani Agaronian, Eleni Constantinou, Nicola Zannone, Alexander Serebrenik*
+IEEE/ACM International Conference on Mining Software Repositories (MSR)
+
+Investigates how Dependabot helps mitigate vulnerabilities, noting it uses lockfiles to create dependency graphs.
+
+**[Securing dependencies: A comprehensive study of dependabot's impact on vulnerability mitigation](https://link.springer.com/article/10.1007/s10664-025-10638-w)** (2025)
+*Hadi Mohayeji, Ani Agaronian, Eleni Constantinou, Nicola Zannone, Alexander Serebrenik*
+Empirical Software Engineering
+
+Follow-up study on Dependabot's effectiveness for vulnerability mitigation across projects.
+
+**[There's no such thing as a free lunch: Lessons learned from exploring the overhead introduced by the greenkeeper dependency bot in npm](https://dl.acm.org/doi/10.1145/3583029)** (2023)
+*Benjamin Rombaut, Filipe Cogo, Bram Adams, Ahmed E. Hassan*
+ACM Transactions on Software Engineering and Methodology (TOSEM)
+
+Studies whether Greenkeeper reduces developer effort or introduces unnecessary workload. Mentions lockfiles as a way to overcome in-range breaking changes.
 
 ## Software Composition Analysis
 
