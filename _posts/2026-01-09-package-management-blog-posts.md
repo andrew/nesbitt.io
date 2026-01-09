@@ -82,7 +82,7 @@ I've been collecting posts about package management for a while. Not academic pa
 
 ## Incident postmortems
 
-**[I've Just Liberated My Modules](https://kodfabrik.com/journal/i-ve-just-liberated-my-modules)** (Azer Koçulu, 2016). The left-pad author explaining why he unpublished his packages from npm. An 11-line string padding function disappeared and broke builds across the JavaScript ecosystem. Forced npm to change its unpublish policy.
+**[I've Just Liberated My Modules](https://azerkoculu.com/posts/i-ve-just-liberated-my-modules)** (Azer Koçulu, 2016). The left-pad author explaining why he unpublished his packages from npm. An 11-line string padding function disappeared and broke builds across the JavaScript ecosystem. Forced npm to change its unpublish policy.
 
 **[kik, left-pad, and npm](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)** (npm, 2016). The institutional response to left-pad. npm restricts unpublishing after 24 hours, adds placeholder packages for abandoned names, and acknowledges they "dropped the ball." Pairs with Azer's post as the other side of the story.
 
