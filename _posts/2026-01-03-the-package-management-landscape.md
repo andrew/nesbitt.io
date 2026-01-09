@@ -9,7 +9,7 @@ tags:
 
 A directory of tools, libraries, registries, and standards across package management. I put this together partly as a reference, partly to track which areas I've covered in other posts.
 
-**Contents:** [Language package managers](#language-package-managers) · [System package managers](#system-package-managers) · [Frontends](#package-manager-frontends) · [Editor plugins](#editor-and-ide-plugin-managers) · [Universal tools](#universal-and-cross-language-tools) · [Resolution libraries](#dependency-resolution-libraries) · [Manifest parsing](#manifest-and-lockfile-parsing) · [Registry software](#registry-software) · [Enterprise tools](#enterprise-tools) · [Security tools](#security-and-analysis-tools) · [Metadata platforms](#metadata-and-discovery-platforms) · [SBOM tools](#sbom-and-supply-chain-tools) · [Trusted publishing](#trusted-publishing) · [Monorepo tools](#monorepo-and-workspace-tools) · [Build tools](#build-tools-with-dependency-management) · [Research](#research) · [Standards](#standards-and-specifications)
+**Contents:** [Language package managers](#language-package-managers) · [System package managers](#system-package-managers) · [Frontends](#package-manager-frontends) · [Editor plugins](#editor-and-ide-plugin-managers) · [Universal tools](#universal-and-cross-language-tools) · [Resolution libraries](#dependency-resolution-libraries) · [Manifest parsing](#manifest-and-lockfile-parsing) · [Registry software](#registry-software) · [Enterprise tools](#enterprise-tools) · [Security tools](#security-and-analysis-tools) · [Metadata platforms](#metadata-and-discovery-platforms) · [SBOM tools](#sbom-and-supply-chain-tools) · [Trusted publishing](#trusted-publishing) · [Monorepo tools](#monorepo-and-workspace-tools) · [Build tools](#build-tools-with-dependency-management) · [Research](#research) · [Governance](#governance-and-best-practices) · [Standards](#standards-and-specifications)
 
 ## Language package managers
 
@@ -360,6 +360,22 @@ A longer list of academic work is in [Package Management Papers](/2025/11/13/pac
 **Datasets:** [GH Archive](https://www.gharchive.org), [World of Code](https://worldofcode.org), [npm-follower](https://github.com/donald-pinckney/npm-follower), [Code Commons](https://codecommons.org/)
 
 **Bloat detection:** [DepClean](https://github.com/castor-software/depclean), [deptry](https://github.com/fpgmaas/deptry)
+
+## Governance and best practices
+
+Registries don't just host files, they [make political choices](/2025/12/22/package-registries-are-governance-as-a-service.html) about naming, ownership, and removal. These resources cover how ecosystems govern themselves.
+
+**Working groups:** [OpenSSF Securing Software Repos WG](https://repos.openssf.org/), [Python Packaging Authority](https://www.pypa.io/), [Node.js Package Maintenance WG](https://github.com/nodejs/package-maintenance), [CPAN Security Group](https://security.metacpan.org/)
+
+**Maturity models:** [OpenSSF Principles for Package Repository Security](https://repos.openssf.org/principles-for-package-repository-security.html), [OpenSSF Best Practices Badge](https://best.openssf.org/)
+
+**RFC processes:** [npm RFCs](https://github.com/npm/rfcs), [Rust RFCs](https://rust-lang.github.io/rfcs/), [Python PEPs](https://peps.python.org/)
+
+**Registry policies:** [npm disputes](https://docs.npmjs.com/policies/disputes), [npm unpublish](https://docs.npmjs.com/policies/unpublish), [PyPI security](https://pypi.org/security/), [crates.io policies](https://crates.io/policies), [RubyGems.org security](https://guides.rubygems.org/security/)
+
+**Compliance frameworks:** [OWASP SCVS](https://owasp.org/www-project-software-component-verification-standard/), [OpenChain](https://www.openchainproject.org/)
+
+**Institutional guidance:** [NIST SSDF](https://csrc.nist.gov/projects/ssdf), [CISA Software Supply Chain](https://www.cisa.gov/resources-tools/resources/securing-software-supply-chain-recommended-practices-developers), [CNCF Supply Chain Best Practices](https://tag-security.cncf.io/community/working-groups/supply-chain-security/)
 
 ## Standards and specifications
 
