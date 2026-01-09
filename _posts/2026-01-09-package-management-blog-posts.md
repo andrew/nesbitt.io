@@ -48,6 +48,8 @@ I've been collecting posts about package management for a while. Not academic pa
 
 **[go.sum is not a lockfile](https://words.filippo.io/gosum/)** (Filippo Valsorda, 2026). Stop parsing go.sum to analyze dependencies—it's a cache for the checksum database, not a lockfile. In Go, go.mod serves as both manifest and lockfile, which confuses people applying mental models from other ecosystems.
 
+**[How we made Python's packaging library 3x faster](https://iscinumpy.dev/post/packaging-faster/)** (Henry Schreiner, 2026). The `packaging` library underpins pip's version resolution. Schreiner and pip maintainer Damian Shaw cut version parsing time in half and specifier checking by 3x through profiling with Python 3.15's statistical profiler, removing intermediate string conversions, and tuning the core regex with possessive quantifiers.
+
 ## Design rationales
 
 **[CocoaPods](https://nshipster.com/cocoapods/)** (NSHipster, 2014). How CocoaPods brought dependency management to Objective-C. Inspired by Bundler and RubyGems, it resolved dependencies and configured Xcode projects automatically. Transformed iOS development from "every developer for themselves" into a collaborative ecosystem.
