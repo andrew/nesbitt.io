@@ -8,6 +8,7 @@ tags:
   - research
   - security
   - dependencies
+  - history
 ---
 
 There's been all kinds of interesting academic research on package management systems, dependency resolution algorithms, software supply chain security, and package ecosystem analysis over the years. Below is a curated list of papers I've found interesting, it's not exhaustive but covers a good chunk of the literature.
