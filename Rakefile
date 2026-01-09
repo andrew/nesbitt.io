@@ -1,6 +1,9 @@
-desc "Build the site"
+task default: :test
+
+desc "Build the site and check workflows"
 task :test do
   sh "bundle exec jekyll build"
+  sh "zizmor .github/workflows/"
 end
 
 desc "Update README with recent posts from RSS feed"
