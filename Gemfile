@@ -4,9 +4,6 @@ ruby '4.0.0'
 
 gem "jekyll"
 
-gem "minima"
-gem 'logger'
-
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-compose'
