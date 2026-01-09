@@ -1,3 +1,8 @@
+desc "Build the site"
+task :test do
+  sh "bundle exec jekyll build"
+end
+
 desc "Update README with recent posts from RSS feed"
 task :readme do
   require 'net/http'
