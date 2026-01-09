@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: Andrew Nesbitt is a package management and open source metadata expert, building Ecosyste.ms and tools for understanding software supply chains.
 ---
 
 I'm Andrew Nesbitt. I've spent the last decade thinking about package management.

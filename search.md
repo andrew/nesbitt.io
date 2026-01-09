@@ -2,6 +2,7 @@
 layout: page
 title: Search
 permalink: /search/
+description: Search articles about package management, software supply chain security, and open source infrastructure.
 ---
 
 <input type="text" id="search-input" placeholder="Search posts...">
