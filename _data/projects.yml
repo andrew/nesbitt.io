@@ -1,0 +1,175 @@
+---
+- name: ultimate-awesome
+  url: https://github.com/andrew/ultimate-awesome
+  description: Every awesome list on every topic, including awesome lists of awesome
+    lists, updated daily.
+  stars: 132
+  language:
+  pushed_at: '2026-01-09T00:36:39Z'
+- name: git-pkgs
+  url: https://github.com/andrew/git-pkgs
+  description: A git subcommand for analyzing package/dependency usage in git repositories
+    over time
+  stars: 34
+  language: Ruby
+  pushed_at: '2026-01-08T16:46:27Z'
+- name: gitballs
+  url: https://github.com/andrew/gitballs
+  description: Storing multiple tarballs in git to save space
+  stars: 21
+  language: Ruby
+  pushed_at: '2025-12-01T16:57:51Z'
+- name: nesbitt.io
+  url: https://github.com/andrew/nesbitt.io
+  description: 'Personal blog built with Jekyll and hosted on GitHub Pages. I write
+    about package management, software supply chain security, and open source infrastructure. '
+  stars: 11
+  language: HTML
+  pushed_at: '2026-01-09T08:32:42Z'
+- name: vers
+  url: https://github.com/andrew/vers
+  description: A Ruby gem for parsing, comparing and sorting versions according to
+    the VERS spec.
+  stars: 11
+  language: Ruby
+  pushed_at: '2025-08-20T09:23:36Z'
+- name: swhid
+  url: https://github.com/andrew/swhid
+  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
+  stars: 11
+  language: Ruby
+  pushed_at: '2025-12-27T14:45:38Z'
+- name: purl
+  url: https://github.com/andrew/purl
+  description: A Ruby library for parsing, validating, and generating Package URLs
+    (PURLs) as defined by the PURL specification
+  stars: 10
+  language: Ruby
+  pushed_at: '2026-01-06T10:26:32Z'
+- name: state-of-oss-funding
+  url: https://github.com/andrew/state-of-oss-funding
+  description: 'The State of OSS Funding data: Insights from ecosyste.ms - talk at
+    CHAOSScon North America 2025'
+  stars: 10
+  language: HTML
+  pushed_at: '2025-10-22T13:42:10Z'
+- name: go-bundler
+  url: https://github.com/andrew/go-bundler
+  description: Go-style imports for Ruby
+  stars: 10
+  language: Ruby
+  pushed_at: '2025-12-25T12:38:33Z'
+- name: hanami-sprockets
+  url: https://github.com/andrew/hanami-sprockets
+  description: An alternative to hanami-assets that doesn't rely on npm
+  stars: 9
+  language: Ruby
+  pushed_at: '2025-10-12T21:04:54Z'
+- name: sidekiq-mcp
+  url: https://github.com/andrew/sidekiq-mcp
+  description: A Sidekiq plugin that provides an MCP (Model Context Protocol) server
+    for LLMs to interact with Sidekiq queues, stats, and failed jobs
+  stars: 9
+  language: Ruby
+  pushed_at: '2025-10-12T21:04:58Z'
+- name: json-schema-diff
+  url: https://github.com/andrew/json-schema-diff
+  description: Semantic diff for JSON files using JSON Schema metadata
+  stars: 9
+  language: Ruby
+  pushed_at: '2025-10-15T09:49:49Z'
+- name: ruby-upgrade-action
+  url: https://github.com/andrew/ruby-upgrade-action
+  description: GitHub action to upgrade version of Ruby in various places to the latest
+  stars: 9
+  language:
+  pushed_at: '2025-12-29T11:47:16Z'
+- name: PBOM
+  url: https://github.com/andrew/PBOM
+  description: Paper Bill of Materials (PBOM) - Generate a paper bill of materials
+    from the software of a paper
+  stars: 8
+  language: Ruby
+  pushed_at: '2026-01-02T13:47:27Z'
+- name: zizmor-research
+  url: https://github.com/andrew/zizmor-research
+  description: zizmor analysis of 31,916 github actions using alpha of ecosyste.ms
+    platform
+  stars: 6
+  language:
+  pushed_at: '2025-06-13T20:39:41Z'
+- name: changelog-parser
+  url: https://github.com/andrew/changelog-parser
+  description: Parse changelog files into structured data
+  stars: 6
+  language: Ruby
+  pushed_at: '2025-12-23T21:08:21Z'
+- name: typosquatting
+  url: https://github.com/andrew/typosquatting
+  description: Detect potential typosquatting packages across package ecosystems
+  stars: 3
+  language: Ruby
+  pushed_at: '2026-01-06T10:21:58Z'
+- name: brew-vulns
+  url: https://github.com/andrew/brew-vulns
+  description: A Homebrew subcommand that checks installed packages for vulnerabilities
+  stars: 3
+  language: Ruby
+  pushed_at: '2026-01-08T16:42:02Z'
+- name: oss-community-benchmarks
+  url: https://github.com/andrew/oss-community-benchmarks
+  description: A benchmark framework where maintainers define what good AI-generated
+    code looks like for their ecosystem.
+  stars: 2
+  language:
+  pushed_at: '2025-11-26T18:50:44Z'
+- name: diffoscope
+  url: https://github.com/andrew/diffoscope
+  description: Ruby bindings for diffoscope - Compare packages, tarballs, files, URLs,
+    or package URLs
+  stars: 2
+  language: Ruby
+  pushed_at: '2026-01-02T20:13:25Z'
+- name: dirhash
+  url: https://github.com/andrew/dirhash
+  description: Generate Go module zip digests compatible with sum.golang.org
+  stars: 1
+  language: Ruby
+  pushed_at: '2025-12-29T17:54:16Z'
+- name: grass-ruby
+  url: https://github.com/andrew/grass-ruby
+  description: A fast Sass compiler for Ruby, powered by grass (Rust)
+  stars: 1
+  language: Ruby
+  pushed_at: '2025-12-30T10:31:32Z'
+- name: semgrep-codeql
+  url: https://github.com/andrew/semgrep-codeql
+  description: Converted security rules fromcodeql to semgrep format.
+  stars: 1
+  language:
+  pushed_at: '2025-12-21T20:26:20Z'
+- name: gitlab-faraday
+  url: https://github.com/andrew/gitlab-faraday
+  description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
+    updated to use Faraday
+  stars: 1
+  language: Ruby
+  pushed_at: '2025-12-30T13:15:07Z'
+- name: jekyll-stats
+  url: https://github.com/andrew/jekyll-stats
+  description: Jekyll plugin that generates site statistics
+  stars: 1
+  language: Ruby
+  pushed_at: '2026-01-03T10:06:03Z'
+- name: sarif
+  url: https://github.com/andrew/sarif
+  description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
+  stars: 1
+  language: Ruby
+  pushed_at: '2026-01-07T16:15:11Z'
+- name: sbom
+  url: https://github.com/andrew/sbom
+  description: Parse, generate, and validate Software Bill of Materials (SBOM)
+  stars: 1
+  language: Ruby
+  pushed_at: '2026-01-08T11:15:04Z'

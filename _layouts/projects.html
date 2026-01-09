@@ -1,0 +1,87 @@
+---
+layout: default
+---
+
+<h1>Projects</h1>
+
+<p>Open source projects I've created or maintain.</p>
+
+<ul class="featured-list">
+  <li class="media">
+    <a href="https://ecosyste.ms"><img class="mr-3" src="/images/projects/ecosyste-ms.png" width="40px"></a>
+    <div class="media-body">
+      <h4><a href="https://ecosyste.ms">Ecosyste.ms</a></h4>
+      <p>Tools and open datasets to support OSS.</p>
+    </div>
+  </li>
+  <li class="media">
+    <a href="https://octobox.io"><img class="mr-3" src="/images/projects/octobox.png" width="40px"></a>
+    <div class="media-body">
+      <h4><a href="https://octobox.io">Octobox</a></h4>
+      <p>Take back control of your GitHub notifications.</p>
+    </div>
+  </li>
+  <li class="media">
+    <a href="https://24pullrequests.com"><img class="mr-3" src="/images/projects/24pullrequests.png" width="40px"></a>
+    <div class="media-body">
+      <h4><a href="https://24pullrequests.com">24 Pull Requests</a></h4>
+      <p>Giving back to open source for the holidays.</p>
+    </div>
+  </li>
+  <li class="media">
+    <a href="https://manifest.fm"><img class="mr-3" src="/images/projects/themanifest.png" width="40px"></a>
+    <div class="media-body">
+      <h4><a href="https://manifest.fm">Manifest Podcast</a></h4>
+      <p>A podcast all about package management.</p>
+    </div>
+  </li>
+  <li class="media">
+    <a href="https://github.com/splitrb/split"><img class="mr-3" src="/images/projects/splitrb.png" width="40px"></a>
+    <div class="media-body">
+      <h4><a href="https://github.com/splitrb/split">Split</a></h4>
+      <p>The Rack Based AB testing framework.</p>
+    </div>
+  </li>
+  <li class="media">
+    <a href="https://libraries.io"><img class="mr-3" src="/images/projects/librariesio.png" width="40px"></a>
+    <div class="media-body">
+      <h4><a href="https://libraries.io">Libraries.io</a></h4>
+      <p>The Open Source Discovery Service.</p>
+    </div>
+  </li>
+  <li class="media">
+    <a href="https://github.com/andrew/first-pr"><img class="mr-3" src="/images/projects/firstpr.png" width="40px"></a>
+    <div class="media-body">
+      <h4><a href="https://github.com/andrew/first-pr">First Pull Request</a></h4>
+      <p>What was your first pull request?</p>
+    </div>
+  </li>
+  <li class="media">
+    <a href="https://github.com/sass/node-sass"><img class="mr-3" src="/images/projects/sass.png" width="40px"></a>
+    <div class="media-body">
+      <h4><a href="https://github.com/sass/node-sass">node-sass</a></h4>
+      <p>Node.js bindings to libsass.</p>
+    </div>
+  </li>
+  <li class="media">
+    <a href="https://github.com/Homebrew/homebrew-bundle"><img class="mr-3" src="/images/projects/homebrew.png" width="40px"></a>
+    <div class="media-body">
+      <h4><a href="https://github.com/Homebrew/homebrew-bundle">Homebrew Bundle</a></h4>
+      <p>Bundler for non-ruby dependencies from Homebrew.</p>
+    </div>
+  </li>
+</ul>
+
+<section>
+  <ul class="project-list">
+    {% for project in site.data.projects %}
+    <li>
+      <h4><a href="{{ project.url }}">{{ project.name }}</a></h4>
+      <p>{{ project.description }}</p>
+      <p class="project-meta">
+        {% if project.language %}{{ project.language }} &middot; {% endif %}{{ project.stars }} star{% if project.stars != 1 %}s{% endif %}
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

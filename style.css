@@ -433,3 +433,52 @@ section li p{
   margin-bottom: 8px;
 }
 
+/* Projects page */
+.featured-list{
+  margin: 15px 0;
+  padding: 0;
+}
+
+.featured-list li{
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.featured-list h4{
+  margin: 0;
+}
+
+.featured-list p{
+  font-size: 14px;
+  color: #656d76;
+  margin: 5px 0 0 0;
+}
+
+.project-list{
+  margin: 15px 0;
+  padding: 0;
+}
+
+.project-list li{
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.project-list h4{
+  margin: 0;
+}
+
+.project-list p{
+  font-size: 14px;
+  color: #656d76;
+  margin: 5px 0 0 0;
+}
+
+.project-meta{
+  font-size: 13px;
+  color: #9a9a9a;
+}
+

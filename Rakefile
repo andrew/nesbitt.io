@@ -75,6 +75,72 @@ task :links, [:year] do |t, args|
     *posts)
 end
 
+desc "Fetch GitHub projects and write to _data/projects.yml"
+task :projects do
+  require 'net/http'
+  require 'json'
+  require 'yaml'
+  require 'time'
+
+  username = 'andrew'
+
+  # Repos shown in featured section or not relevant
+  exclude = %w[
+    first-pr
+    hell-is-other-peoples-code
+    package-managers
+    open-source-metrics
+    dotfiles
+    andrew
+  ]
+
+  repos = []
+  page = 1
+
+  loop do
+    uri = URI("https://api.github.com/users/#{username}/repos?per_page=100&page=#{page}&sort=pushed")
+    request = Net::HTTP::Get.new(uri)
+    request['Accept'] = 'application/vnd.github.v3+json'
+    request['User-Agent'] = 'nesbitt.io-project-fetcher'
+    request['Authorization'] = "token #{ENV['GITHUB_TOKEN']}" if ENV['GITHUB_TOKEN']
+
+    response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) { |http| http.request(request) }
+    batch = JSON.parse(response.body)
+    break if batch.empty? || batch.is_a?(Hash)
+    repos.concat(batch)
+    break if batch.length < 100
+    page += 1
+  end
+
+  cutoff = Time.now - (2 * 365 * 24 * 60 * 60)
+
+  filtered = repos.select do |repo|
+    next false if repo['fork']
+    next false if repo['archived']
+    next false if repo['description'].nil? || repo['description'].empty?
+    next false if exclude.include?(repo['name'])
+    pushed_recently = Time.parse(repo['pushed_at']) > cutoff
+    has_stars = repo['stargazers_count'] >= 10
+    pushed_recently || has_stars
+  end
+
+  filtered.sort_by! { |r| -r['stargazers_count'] }
+
+  projects = filtered.map do |repo|
+    {
+      'name' => repo['name'],
+      'url' => repo['html_url'],
+      'description' => repo['description'],
+      'stars' => repo['stargazers_count'],
+      'language' => repo['language'],
+      'pushed_at' => repo['pushed_at']
+    }
+  end
+
+  File.write('_data/projects.yml', projects.to_yaml)
+  puts "Wrote #{projects.length} projects to _data/projects.yml"
+end
+
 desc "Show word counts for posts, optionally filtered by tag and/or year"
 task :wordcount, [:tag, :year] do |t, args|
   min_year = args[:year]&.to_i || 2024
