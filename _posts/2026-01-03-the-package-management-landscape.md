@@ -261,7 +261,7 @@ Tools for scanning dependencies, detecting vulnerabilities, and keeping packages
 
 **Dependency updates:** [Dependabot](https://github.com/dependabot), [Socket](https://socket.dev), [Renovate](https://www.mend.io/renovate/), [Snyk](https://snyk.io), [Depfu](https://depfu.com), [pip-tools](https://github.com/jazzband/pip-tools), [OpenRewrite](https://github.com/openrewrite/rewrite)
 
-**Malware detection:** [Socket](https://socket.dev), [Stacklok](https://stacklok.com), [GuardDog](https://github.com/DataDog/guarddog)
+**Malware detection:** [Socket](https://socket.dev), [GuardDog](https://github.com/DataDog/guarddog)
 
 **License compliance:** [FOSSA](https://fossa.com), [Socket](https://socket.dev), [Snyk](https://snyk.io), [Mend](https://www.mend.io), [Black Duck](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html), [FOSSology](https://www.fossology.org), [licensee](https://github.com/licensee/licensee), [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit), [ScanCode.io](https://github.com/aboutcode-org/scancode.io), [DejaCode](https://github.com/aboutcode-org/dejacode), [cargo-deny](https://github.com/EmbarkStudios/cargo-deny), [pip-licenses](https://github.com/raimon49/pip-licenses), [license_finder](https://github.com/pivotal/LicenseFinder)
 
