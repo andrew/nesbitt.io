@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Package Management Blog Posts](https://nesbitt.io/2026/01/09/package-management-blog-posts.html)
 - [brew-vulns: CVE scanning for Homebrew](https://nesbitt.io/2026/01/08/brew-vulns-cve-scanning-for-homebrew.html)
 - [The Nine Levels of JavaScript Dependency Hell](https://nesbitt.io/2026/01/05/the-nine-levels-of-javascript-dependency-hell.html)
 - [Making git-pkgs feel like Git](https://nesbitt.io/2026/01/04/making-git-pkgs-feel-like-git.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Open Source Activity in 2025](https://nesbitt.io/2025/12/31/open-source-activity-in-2025.html)
 - [Community Tools Bring Lockfile Support to GitHub Actions](https://nesbitt.io/2025/12/30/community-tools-bring-lockfile-support-to-github-actions.html)
 - [Categorizing Package Manager Clients](https://nesbitt.io/2025/12/29/categorizing-package-manager-clients.html)
-- [Categorizing Package Registries](https://nesbitt.io/2025/12/29/categorizing-package-registries.html)
 <!-- POSTS:END -->
