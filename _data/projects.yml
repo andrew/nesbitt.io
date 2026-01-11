@@ -5,14 +5,14 @@
     lists, updated daily.
   stars: 132
   language:
-  pushed_at: '2026-01-09T00:36:39Z'
+  pushed_at: '2026-01-11T00:41:19Z'
 - name: git-pkgs
   url: https://github.com/andrew/git-pkgs
   description: A git subcommand for analyzing package/dependency usage in git repositories
     over time
   stars: 34
   language: Ruby
-  pushed_at: '2026-01-08T16:46:27Z'
+  pushed_at: '2026-01-10T10:18:25Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
@@ -23,16 +23,16 @@
   url: https://github.com/andrew/nesbitt.io
   description: 'Personal blog built with Jekyll and hosted on GitHub Pages. I write
     about package management, software supply chain security, and open source infrastructure. '
-  stars: 11
+  stars: 14
   language: HTML
-  pushed_at: '2026-01-09T08:32:42Z'
+  pushed_at: '2026-01-11T06:08:07Z'
 - name: vers
   url: https://github.com/andrew/vers
   description: A Ruby gem for parsing, comparing and sorting versions according to
     the VERS spec.
   stars: 11
   language: Ruby
-  pushed_at: '2025-08-20T09:23:36Z'
+  pushed_at: '2026-01-09T21:09:50Z'
 - name: swhid
   url: https://github.com/andrew/swhid
   description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
@@ -107,7 +107,7 @@
 - name: typosquatting
   url: https://github.com/andrew/typosquatting
   description: Detect potential typosquatting packages across package ecosystems
-  stars: 3
+  stars: 4
   language: Ruby
   pushed_at: '2026-01-06T10:21:58Z'
 - name: brew-vulns
@@ -116,13 +116,6 @@
   stars: 3
   language: Ruby
   pushed_at: '2026-01-08T16:42:02Z'
-- name: oss-community-benchmarks
-  url: https://github.com/andrew/oss-community-benchmarks
-  description: A benchmark framework where maintainers define what good AI-generated
-    code looks like for their ecosystem.
-  stars: 2
-  language:
-  pushed_at: '2025-11-26T18:50:44Z'
 - name: diffoscope
   url: https://github.com/andrew/diffoscope
   description: Ruby bindings for diffoscope - Compare packages, tarballs, files, URLs,
@@ -130,6 +123,13 @@
   stars: 2
   language: Ruby
   pushed_at: '2026-01-02T20:13:25Z'
+- name: oss-community-benchmarks
+  url: https://github.com/andrew/oss-community-benchmarks
+  description: A benchmark framework where maintainers define what good AI-generated
+    code looks like for their ecosystem.
+  stars: 2
+  language:
+  pushed_at: '2025-11-26T18:50:44Z'
 - name: dirhash
   url: https://github.com/andrew/dirhash
   description: Generate Go module zip digests compatible with sum.golang.org
@@ -148,13 +148,6 @@
   stars: 1
   language:
   pushed_at: '2025-12-21T20:26:20Z'
-- name: gitlab-faraday
-  url: https://github.com/andrew/gitlab-faraday
-  description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
-    updated to use Faraday
-  stars: 1
-  language: Ruby
-  pushed_at: '2025-12-30T13:15:07Z'
 - name: jekyll-stats
   url: https://github.com/andrew/jekyll-stats
   description: Jekyll plugin that generates site statistics
@@ -173,3 +166,10 @@
   stars: 1
   language: Ruby
   pushed_at: '2026-01-08T11:15:04Z'
+- name: gitlab-faraday
+  url: https://github.com/andrew/gitlab-faraday
+  description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
+    updated to use Faraday
+  stars: 1
+  language: Ruby
+  pushed_at: '2026-01-09T11:10:44Z'
