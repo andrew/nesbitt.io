@@ -213,7 +213,6 @@ How are dependencies declared?
 
 - Conda
 - pub
-- Homebrew
 - GitHub Actions
 - Helm
 - pnpm
@@ -223,11 +222,13 @@ How are dependencies declared?
 - Bundler (Ruby)
 - CocoaPods (Ruby)
 - Gradle (Groovy/Kotlin)
-- sbt (Scala)
-- Mix (Elixir)
-- Swift Package Manager (Swift)
+- Homebrew (Ruby)
 - Leiningen (Clojure)
-- Nix
+- Mix (Elixir)
+- Nix (nix)
+- Spack (Python)
+- Swift Package Manager (Swift)
+- sbt (Scala)
 
 **XML**
 
