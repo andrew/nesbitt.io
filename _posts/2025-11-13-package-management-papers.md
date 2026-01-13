@@ -23,9 +23,9 @@ Research on security vulnerabilities, attack vectors, and defense mechanisms in 
 *Justin Cappos, Justin Samuel, Scott Baker, John H. Hartman*
 ACM Conference on Computer and Communications Security (CCS)
 
-Seminal paper analyzing ten popular package managers (APT, YUM, YaST, Portage) discovering vulnerabilities in all systems exploitable by man-in-the-middle attackers or malicious mirrors. Demonstrated attackers controlling mirrors could compromise hundreds to thousands of clients weekly. Identified replay attacks, freeze attacks, extraneous dependencies attacks, and endless data attacks while proposing a layered security approach.  
+Seminal paper analyzing ten popular package managers (APT, YUM, YaST, Portage) discovering vulnerabilities in all systems exploitable by man-in-the-middle attackers or malicious mirrors. Demonstrated attackers controlling mirrors could compromise hundreds to thousands of clients weekly. Identified replay attacks, freeze attacks, extraneous dependencies attacks, and endless data attacks while proposing a layered security approach.
 
-A broader, more "textbook" analysis of these attacks is also available in [a technical report](https://www2.cs.arizona.edu/people/jsamuel/papers/TR08-02.pdf) by the authors.  This further fleshes out a host of related attacks that rely on manipulation of dependency information by mirrors to cause package resolution to behave in ways that harm security or stability.  
+A broader, more "textbook" analysis of these attacks is also available in [a technical report](https://www2.cs.arizona.edu/people/jsamuel/papers/TR08-02.pdf) by the authors.  This further fleshes out a host of related attacks that rely on manipulation of dependency information by mirrors to cause package resolution to behave in ways that harm security or stability.
 
 **[Package Managers Still Vulnerable](https://www.usenix.org/publications/login/february-2009-volume-34-number-1/package-managers-still-vulnerable)** (2009)
 *Justin Samuel, Justin Cappos*
@@ -113,6 +113,14 @@ Study finding that local pinning leads to more security vulnerabilities due to b
 
 Research establishing the theoretical complexity of dependency resolution and practical solutions.
 
+**[EDOS deliverable WP2-D2.1: Report on Formal Management of Software Dependencies](https://www.researchgate.net/publication/278629134_EDOS_deliverable_WP2-D21_Report_on_Formal_Management_of_Software_Dependencies)** (2005)
+*Roberto Di Cosmo*
+INRIA Technical Report
+
+First document to show that the package installation problem is NP-complete. First to
+show a 3SAT encoding for Debian and RPM solves. Compares package constraint languages
+and proposes improvements for metadata.
+
 **[OPIUM: Optimal Package Install/Uninstall Manager](https://cseweb.ucsd.edu/~lerner/papers/opium.pdf)** (2007)
 *Chris Tucker, David Shuffelton, Ranjit Jhala, Sorin Lerner*
 International Conference on Software Engineering (ICSE)
@@ -177,7 +185,28 @@ Studies conflicts in Go ecosystem caused by coexistence of two library referenci
 *Justin Cappos*
 Dissertation (University of Arizona) -- Chapter 3.8
 
-The earliest known work to describe backtracking dependency resolution.  In contrast to more mathematically advanced techniques, this tries the best match greedily for each package and then rewinds state if there is a conflict.  Through practical use in Stork, this was found to work well for adopters, despite its simplcity.  
+Describes backtracking dependency resolution.  In contrast to more mathematically advanced techniques, this tries the best match greedily for each package and then rewinds state if there is a conflict.  Through practical use in Stork, this was found to work well for adopters, despite its simplcity.
+
+**[Using Answer Set Programming for HPC Dependency Solving](https://dl.acm.org/doi/abs/10.5555/3571885.3571931)** (2022)
+*Todd Gamblin, Massimiliano Culpo, Gregory Becker, Sergei Shudler*
+Supercomputing
+
+Describes the ASP encoding used for Spack's dependency solver: how to model versions, variants, and dependencies. Also describes how to structure optimization criteria to mix source and binary builds by reusing existing installations/build caches (if they're compatible).
+
+**[Using Answer Set Programming for HPC Dependency Solving](https://dl.acm.org/doi/abs/10.5555/3571885.3571931)** (2022)
+*Todd Gamblin, Massimiliano Culpo, Gregory Becker, Sergei Shudler*
+Supercomputing
+
+Describes the ASP encoding used for Spack's dependency solver: how to model versions, variants, and dependencies. Also describes how to structure optimization criteria to mix source and binary builds by reusing existing installations/build caches.
+
+**[Bridging the Gap Between Binary and Source Based Package Management in Spack](https://dl.acm.org/doi/10.1145/3712285.3759791)** (2025)
+*John Gouwar, Greg Becker, Tamara Dahlgren, Nathan Hanford, Arjun Guha, and Todd Gamblin*
+Supercomputing
+
+Discusses some differences beteween source and binary package solving. Describes how to
+avoid the rigid ABI requirements of Spack's (and Nix's and Guix's) hashing model and not
+rebuild the world when an ABI-stable package like zlib changes, while preserving
+reproducibility for mixed (or "impure" in nix-speak) installations.
 
 ## Software Supply Chain Security
 
@@ -550,7 +579,7 @@ ICSME Tool Demo
 Tool for CRAN package maintainers.
 
 **[The Spack Package Manager: Bringing Order to HPC Software Chaos](https://dl.acm.org/doi/10.1145/2807591.2807623)** (2015)
-*Multiple authors*
+*Todd Gamblin, Matthew LeGendre, Michael R. Collette, Gregory L. Lee, Adam Moody, Bronis R. de Supinski, Scott Futral*
 Supercomputing
 
 Package manager designed for HPC environments.
