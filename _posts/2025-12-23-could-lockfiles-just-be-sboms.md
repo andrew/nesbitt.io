@@ -6,7 +6,6 @@ description: "Lockfiles and SBOMs record the same information in different forma
 tags:
   - package-managers
   - sbom
-  - security
   - deep-dive
 ---
 

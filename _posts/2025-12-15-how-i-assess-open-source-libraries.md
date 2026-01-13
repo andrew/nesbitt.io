@@ -5,7 +5,6 @@ date: 2025-12-15
 description: "What I actually look at when deciding whether to adopt a dependency."
 tags:
   - open source
-  - security
   - package-managers
   - dependencies
 ---

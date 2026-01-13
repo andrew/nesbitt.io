@@ -7,6 +7,7 @@ tags:
   - package-managers
   - go
   - ruby
+  - deep-dive
 ---
 
 Here's a thought experiment. What if Ruby had `require "github.com/rails/rails"` and you used `go get` to fetch it? Set GOPATH to a Ruby load path, and Go's module fetcher becomes your transport layer. The Go team did not intend this. But it works. Consider this a gift from the Ghost of Package Managers Yet to Come.

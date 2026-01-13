@@ -5,7 +5,6 @@ date: 2025-12-14
 description: "Ruby implementations of PURL, VERS, SBOM, SWHID, and SARIF specs."
 tags:
   - ruby
-  - security
   - sbom
   - package-managers
   - tools

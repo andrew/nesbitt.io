@@ -7,6 +7,7 @@ tags:
   - package-managers
   - javascript
   - npm
+  - satire
 ---
 
 I have walked the circles of JavaScript dependency hell. I watched the developers solve each problem, only to create the next. Come, I will show you what I have seen.

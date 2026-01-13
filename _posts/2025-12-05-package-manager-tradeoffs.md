@@ -6,7 +6,7 @@ description: "Design tradeoffs in package managers"
 tags:
   - package-managers
   - rust
-  - deep-dive
+  - reference
 ---
 
 Package managers make dozens of design decisions with no right answer. Each choice has real costs and benefits, and choosing one side often forecloses other options. This is a survey of those tradeoffs.

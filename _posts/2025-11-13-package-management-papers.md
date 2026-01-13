@@ -6,7 +6,6 @@ description: "A collection of academic research papers on package management sys
 tags:
   - package-managers
   - research
-  - security
   - dependencies
   - history
   - reference

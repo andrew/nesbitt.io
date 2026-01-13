@@ -6,9 +6,9 @@ description: "A semver-compatible versioning scheme for the age of LLMs."
 tags:
   - versioning
   - ai
-  - security
   - semver
   - package-managers
+  - satire
 ---
 
 I'm pleased to announce PromptVer[^1], a new versioning scheme designed for the age of large language models. PromptVer is fully compatible with [Semantic Versioning](https://semver.org/) and builds on SemVer's pre-release identifier to embed additional metadata about your software.

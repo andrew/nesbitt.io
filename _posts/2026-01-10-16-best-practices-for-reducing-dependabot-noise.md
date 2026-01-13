@@ -6,6 +6,7 @@ description: "A practical guide to ignoring security updates responsibly"
 tags:
   - package-managers
   - dependencies
+  - satire
 ---
 
 Enterprise teams cannot afford to treat every patch like an emergency. Dependabot's default settings assume you have infinite review capacity and zero release risk. You do not. After optimizing dependency workflows for hundreds of clients, I have developed 16 strategies for managing Dependabot at scale without sacrificing velocity. Each strategy can be documented in your Risk Acceptance Register for audit purposes.
