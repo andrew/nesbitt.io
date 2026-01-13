@@ -6,6 +6,7 @@ description: "Blog posts, talks, and essays that changed how people think about 
 tags:
   - package-managers
   - history
+  - reference
 ---
 
 I've been collecting posts about package management for a while. Not academic papers (those are in a [separate list](/2025/11/13/package-management-papers.html)) and not the historical events themselves (that's the [timeline](/2025/11/15/package-manager-timeline.html)), but the blog posts, talks, and essays where practitioners worked through ideas, explained incidents, or just vented.

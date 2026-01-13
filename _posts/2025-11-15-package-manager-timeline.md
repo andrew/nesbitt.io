@@ -7,6 +7,7 @@ tags:
   - package-managers
   - history
   - dependencies
+  - reference
 ---
 
 Package managers have had a significant impact on how we build, distribute, and consume software. This timeline documents the evolution of package management systems across both system-level and language-specific ecosystems, from early archive networks to modern dependency managers.

@@ -5,6 +5,7 @@ date: 2025-12-29 10:00 +0000
 description: "Sorting package registries by architecture, review model, namespacing, governance, and other structural differences."
 tags:
   - package-managers
+  - reference
 ---
 
 Package registries differ in dozens of ways, but most of those differences cluster into a few structural categories. Looking at them through the lens of [design tradeoffs](/2025/12/05/package-manager-tradeoffs.html) helps explain why they ended up where they did. The [ecosyste.ms documentation repositories](/2025/11/30/documenting-package-manager-data.html) contain detailed data on over 70 registries; here I'm trying to draw out the shapes.

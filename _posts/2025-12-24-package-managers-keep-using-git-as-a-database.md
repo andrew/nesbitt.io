@@ -8,6 +8,7 @@ tags:
   - git
   - rust
   - go
+  - deep-dive
 ---
 
 Using git as a database is a seductive idea. You get version history for free. Pull requests give you a review workflow. It's distributed by design. GitHub will host it for free. Everyone already knows how to use it.

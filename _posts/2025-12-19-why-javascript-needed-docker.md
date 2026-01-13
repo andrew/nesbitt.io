@@ -7,6 +7,7 @@ tags:
   - package-managers
   - npm
   - docker
+  - deep-dive
 ---
 
 At a Node.js conference years ago, I heard a speaker claim that npm had finally "solved" dependency hell. The ecosystem wasn't solving dependency conflicts so much as deferring them to production.

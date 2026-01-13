@@ -6,6 +6,7 @@ description: "Why Docker filled the reproducibility gap that system package mana
 tags:
   - package-managers
   - docker
+  - deep-dive
 ---
 
 Back when I worked in a large office in London, I remember a team pulling their hair out as they moved to the cloud. They were trying to autoscale, spinning up new machines and installing packages on boot. Each instance resolved dependencies against whatever apt's mirrors had at launch time, so they'd debug a problem on one server only to find other servers had slightly different package versions. A security patch landed between instance launches, or a minor release appeared, and suddenly their servers diverged.

@@ -6,6 +6,7 @@ description: "uv's speed comes from engineering decisions, not just Rust. Static
 tags:
   - package-managers
   - python
+  - deep-dive
 ---
 
 uv installs packages faster than pip by an order of magnitude. The usual explanation is "it's written in Rust." That's true, but it doesn't explain much. Plenty of tools are written in Rust without being notably fast. The interesting question is what design decisions made the difference.

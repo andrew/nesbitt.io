@@ -7,6 +7,7 @@ tags:
   - package-managers
   - sbom
   - security
+  - deep-dive
 ---
 
 Every package manager has its own lockfile format. Gemfile.lock, package-lock.json, yarn.lock, Cargo.lock, poetry.lock, composer.lock, go.sum. They all record roughly the same information: which packages were installed, at what versions, with what checksums, from where.

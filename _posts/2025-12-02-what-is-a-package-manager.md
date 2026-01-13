@@ -5,6 +5,7 @@ date: 2025-12-02 10:00 +0000
 description: "What is a package manager? Perhaps quite a few more components than you might think"
 tags:
   - package-managers
+  - deep-dive
 ---
 
 When people think of package managers they usually picture installing a library but these days package managers and their associated registries handle dozens of distinct functions.

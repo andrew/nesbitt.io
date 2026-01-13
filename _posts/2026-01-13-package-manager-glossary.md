@@ -5,6 +5,7 @@ date: 2026-01-13
 description: "A cross-ecosystem glossary of package management terms."
 tags:
   - package-managers
+  - reference
 ---
 
 These are the definitions I use when writing about package management and in my work on [ecosyste.ms](https://ecosyste.ms), [Libraries.io](https://libraries.io), and [git-pkgs](https://github.com/andrew/git-pkgs). The same word often means different things in npm, pip, Cargo, and Bundler, so I've noted where ecosystems diverge. This is a living document; [contributions welcome](https://github.com/andrew/nesbitt.io).

@@ -7,6 +7,7 @@ tags:
   - package-managers
   - github
   - dependencies
+  - deep-dive
 ---
 
 GitHub, GitLab, and Gitea all have dependency tracking and automated updates, but in each case the interesting parts are premium or closed source. I wanted to understand how these features could be built openly into something like [Forgejo](https://forgejo.org/). Dependabot is a key piece of GitHub's dependency tooling, [dependabot-core](https://github.com/dependabot/dependabot-core) is MIT licensed, and it's written in Ruby, so it seemed like a good place to start.

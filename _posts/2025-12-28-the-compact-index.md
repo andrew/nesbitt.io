@@ -7,6 +7,7 @@ tags:
   - package-managers
   - ruby
   - rust
+  - deep-dive
 ---
 
 In October 2012, Bundler's success was killing RubyGems.org. Dependency resolution requires knowing what each version of each gem depends on, and dependencies form a graph, not a tree. You can't resolve one package without potentially needing metadata about hundreds of others. Unlike curated distribution repositories, language registries rarely remove packages or old versions, so the index only ever grows. Fetching that information one gem at a time over HTTP is painfully slow, so Bundler had a dependency API that returned everything in bulk. It made `bundle install` fast, but it was consuming so many server resources that the site faced periodic outages and emergency throttling. 

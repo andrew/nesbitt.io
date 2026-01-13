@@ -5,6 +5,7 @@ date: 2026-01-03 10:00 +0000
 description: "A directory of tools, systems, and services that relate to package management."
 tags:
   - package-managers
+  - reference
 ---
 
 A directory of tools, libraries, registries, and standards across package management. I put this together partly as a reference, partly to track which areas I've covered in other posts.

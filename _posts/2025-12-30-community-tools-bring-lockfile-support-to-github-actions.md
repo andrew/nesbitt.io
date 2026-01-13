@@ -6,6 +6,7 @@ description: "Community projects gh-actions-lockfile and ghasum address GitHub's
 tags:
   - package-managers
   - github
+  - tools
 ---
 
 Earlier this month I wrote about [GitHub Actions' missing lockfile](/2025/12/06/github-actions-package-manager.html). After the post was featured on [Hacker News](https://news.ycombinator.com/item?id=46189692) and [Lobste.rs](https://lobste.rs/s/zbqvyu/github_actions_has_package_manager_it), the authors of two projects reached out to share their work solving the problem from different angles.

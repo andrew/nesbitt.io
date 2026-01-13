@@ -8,6 +8,7 @@ tags:
   - security
   - sbom
   - package-managers
+  - tools
 ---
 
 I've published several Ruby gems that work together to help people build supply chain security tools: [purl](https://github.com/andrew/purl), [vers](https://github.com/andrew/vers), [sbom](https://github.com/andrew/sbom), [swhid](https://github.com/andrew/swhid), and [sarif](https://github.com/andrew/sarif). They handle the specs that security tooling depends on.
