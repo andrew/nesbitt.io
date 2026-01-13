@@ -41,7 +41,7 @@ The confusion: "module" sometimes means the same thing as "package" and sometime
 
 Often shortened to "lib." Code intended to be used by other code rather than run directly. The alternative is an application or CLI tool, which is run directly by users. Both get distributed as packages, and many packages contain both (a library and an executable that uses it).
 
-**Ecosystem variations:** Rust distinguishes library crates from binary crates. npm packages can declare a `main` entry point (library) and `bin` entry points (executables) in the same package. The terminology is mostly consistent across ecosystems, though some people use "library" only for compiled languages.
+**Ecosystem variations:** Rust distinguishes library crates from binary crates. npm packages can declare a `main` entry point (library) and `bin` entry points (executables) in the same package. Julia formalizes this as "application vs library" in its package system. The terminology is mostly consistent across ecosystems, though some people use "library" only for compiled languages.
 
 ## Dependency
 
@@ -147,7 +147,7 @@ Three different ways to discourage or prevent use of a package version, often co
 
 Packages can be distributed as source code or as pre-compiled binaries. Source packages are portable across platforms but require build tools and can be slow to install. Binary packages are fast to install but must be built separately for each platform and architecture.
 
-**Ecosystem variations:** Python distinguishes sdist (source) from wheels (binary), and PyPI serves both. npm and Go are source-only. Debian, RPM, and Homebrew are binary-only. Rust's crates.io is source-only, though [cargo-binstall](https://github.com/cargo-bins/cargo-binstall) can fetch pre-built binaries from elsewhere. The choice affects install speed, portability, and whether users need compilers.
+**Ecosystem variations:** Python distinguishes sdist (source) from wheels (binary), and PyPI serves both. npm and Go are source-only. Debian, RPM, and Homebrew are binary-only. Rust's crates.io is source-only, though [cargo-binstall](https://github.com/cargo-bins/cargo-binstall) can fetch pre-built binaries from elsewhere. Binary packages often have **variants** for different platforms, architectures, or build configurations. A Python wheel might have variants for macOS ARM, Linux x86, and Windows. Homebrew bottles are pre-built for specific macOS versions. The choice affects install speed, portability, and whether users need compilers.
 
 ## Artifact
 
@@ -172,6 +172,8 @@ Also called version range, version specifier, or version requirement depending o
 Common constraint syntaxes: `>=1.0.0` (at least), `^1.0.0` (compatible with), `~1.0.0` (approximately), `1.0.0` (exactly). The caret and tilde mean different things in different ecosystems, which is a constant source of confusion.
 
 **Ecosystem variations:** npm's `^` means "compatible changes" (minor and patch updates for 1.x, patch only for 0.x), and Cargo follows the same semantics. Bundler's `~>` is the pessimistic constraint operator, and the number of version segments matters: `~> 1.0` allows any 1.x, but `~> 1.0.0` only allows 1.0.x. pip uses `>=`, `==`, and `~=` with different meanings than the npm-style operators. Poetry and uv adopted npm's caret convention. The symbols look similar across ecosystems but the semantics diverge in ways that cause real bugs.
+
+Some ecosystems support **platforms** or **BOMs** (Bill of Materials): curated sets of dependency versions known to work together. Instead of specifying constraints for each dependency, you import a platform that provides tested-compatible versions for a whole stack. Gradle and Maven use this pattern heavily for Spring and other frameworks.
 
 ## Resolution
 
@@ -210,20 +212,25 @@ Workspaces are commonly used in **monorepos** (also spelled mono-repo): reposito
 These companion posts cover specific aspects of package management in more detail:
 
 - [What is a Package Manager?](/2025/12/02/what-is-a-package-manager.html) breaks down the many responsibilities modern package managers have accumulated
+- [The Package Management Landscape](/2026/01/03/the-package-management-landscape.html) surveys the full ecosystem of package managers and registries
+- [Package Manager Tradeoffs](/2025/12/05/package-manager-tradeoffs.html) explores the design decisions that shape each ecosystem
+- [Documenting Package Manager Data](/2025/11/30/documenting-package-manager-data.html) covers what metadata registries expose and how to access it
+- [Package Manager Timeline](/2025/11/15/package-manager-timeline.html) traces the history of package management
+- [Package Management Papers](/2025/11/13/package-management-papers.html) collects academic research on dependency management
 - [Categorizing Package Manager Clients](/2025/12/29/categorizing-package-manager-clients.html) covers resolution algorithms, lockfile strategies, build hooks, and manifest formats across ecosystems
 - [Categorizing Package Registries](/2025/12/29/categorizing-package-registries.html) covers architecture, review models, namespacing, and governance
 
 Other glossaries worth reading:
 
 - [Cargo Glossary](https://doc.rust-lang.org/cargo/appendix/glossary.html) is rigorous about package/crate/module distinctions that confuse even Rust developers
-- [Python Packaging Glossary](https://packaging.python.org/en/latest/glossary/) covers sdist, wheel, distribution, project, release in detail
-- [CPAN Security Group Glossary](https://security.metacpan.org/docs/glossary) goes deep on dependency subtypes and SBOM terminology
 - [Chainguard Security Glossary](https://edu.chainguard.dev/software-security/glossary) covers SBOM, SLSA, and supply chain terms
+- [CPAN Security Group Glossary](https://security.metacpan.org/docs/glossary) goes deep on dependency subtypes and SBOM terminology
 - [ecosyste.ms Glossary](https://docs.ecosyste.ms/docs/guides/glossary/) covers terms used across the ecosyste.ms APIs
-- [Nix Glossary](https://nix.dev/manual/nix/stable/glossary) covers derivations, stores, and other Nix-specific concepts
+- [Gradle Glossary](https://docs.gradle.org/current/userguide/glossary.html) covers build system and dependency management terminology
 - [Homebrew Terminology](https://docs.brew.sh/Formula-Cookbook#terminology) defines formulae, casks, kegs, bottles, and taps
 - [Julia Pkg Glossary](https://pkgdocs.julialang.org/v1/glossary/) covers projects, environments, depots, and registries
-- [Gradle Glossary](https://docs.gradle.org/current/userguide/glossary.html) covers build system and dependency management terminology
+- [Nix Glossary](https://nix.dev/manual/nix/stable/glossary) covers derivations, stores, and other Nix-specific concepts
+- [Python Packaging Glossary](https://packaging.python.org/en/latest/glossary/) covers sdist, wheel, distribution, project, release in detail
 
 ---
 
