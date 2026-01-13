@@ -18,7 +18,7 @@ Each programming language ecosystem has at least one package manager, often seve
 
 **JavaScript/TypeScript:** [npm](https://www.npmjs.com), [Yarn](https://yarnpkg.com), [pnpm](https://pnpm.io), [Bun](https://bun.sh), [Deno](https://deno.land), [jsr.io](https://jsr.io), [Corepack](https://github.com/nodejs/corepack), [jspm](https://github.com/jspm/jspm)
 
-**Python:** [pip](https://pip.pypa.io), [Poetry](https://python-poetry.org), [uv](https://github.com/astral-sh/uv), [pdm](https://pdm-project.org), [pipenv](https://pipenv.pypa.io), [Hatch](https://github.com/pypa/hatch), [Conda](https://docs.conda.io), [Mamba](https://mamba.readthedocs.io), [Pixi](https://pixi.sh)
+**Python:** [pip](https://pip.pypa.io), [Poetry](https://python-poetry.org), [uv](https://github.com/astral-sh/uv), [pdm](https://pdm-project.org), [pipenv](https://pipenv.pypa.io), [Hatch](https://github.com/pypa/hatch)
 
 **Ruby:** [RubyGems](https://rubygems.org), [Bundler](https://bundler.io)
 

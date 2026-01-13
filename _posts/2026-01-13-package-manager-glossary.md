@@ -14,7 +14,7 @@ These are the definitions I use when writing about package management and in my 
 
 A package management system defined by its manifest and archive format. npm, PyPI, Cargo, Maven are ecosystems. Each has its own registry, tooling, conventions, and community.
 
-Ecosystems are defined by their package format more than their language. Python has PyPI and Conda as separate ecosystems with different manifest formats and archives. JavaScript has npm and Deno/JSR diverging. Some ecosystems span languages (Maven serves Java, Kotlin, Scala, Clojure).
+Ecosystems are defined by their package format more than their language. Some ecosystems span languages (Maven serves Java, Kotlin, Scala, Clojure). Some languages have multiple ecosystems (JavaScript has npm and Deno/JSR diverging).
 
 ## Package
 
