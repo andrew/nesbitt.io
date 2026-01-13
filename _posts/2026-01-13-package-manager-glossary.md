@@ -7,7 +7,7 @@ tags:
   - package-managers
 ---
 
-These are the definitions I use when writing about package management and in my work on [ecosyste.ms](https://ecosyste.ms), [Libraries.io](https://libraries.io), and [git-pkgs](https://git-pkgs.github.io/). The same word often means different things in npm, pip, Cargo, and Bundler, so I've noted where ecosystems diverge. This is a living document; [contributions welcome](https://github.com/andrew/nesbitt.io).
+These are the definitions I use when writing about package management and in my work on [ecosyste.ms](https://ecosyste.ms), [Libraries.io](https://libraries.io), and [git-pkgs](https://github.com/andrew/git-pkgs). The same word often means different things in npm, pip, Cargo, and Bundler, so I've noted where ecosystems diverge. This is a living document; [contributions welcome](https://github.com/andrew/nesbitt.io).
 
 ## Ecosystem
 
@@ -71,7 +71,7 @@ Also called a package index. A server that hosts packages and provides an API fo
 
 Some ecosystems call these "repositories" (apt, Maven), but I use "registry" for package hosting and "repository" for git repos to avoid confusion. Forges like GitHub and GitLab host source repositories, and [some registries use git repositories as their index](/2025/12/24/package-managers-keep-using-git-as-a-database.html).
 
-Most ecosystems have a single canonical public registry, but many also support private or alternative registries. Artifactory and Nexus can proxy multiple upstream registries. [Verdaccio](https://verdaccio.org) gives you a private npm registry. Organizations run internal PyPI mirrors.
+Most ecosystems have a single canonical public registry, but many also support private or alternative registries. Artifactory and Nexus can proxy multiple upstream registries. [Verdaccio](https://www.verdaccio.org/) gives you a private npm registry. Organizations run internal PyPI mirrors.
 
 **Ecosystem variations:** npm, PyPI, RubyGems, crates.io, Maven Central are registries. Homebrew's registry is a git repository (homebrew-core) containing formulae. Go uses the source host directly via proxy.golang.org. Linux distributions (distros) like Debian and Ubuntu maintain their own registries per major version, served via apt from filesystem-based repositories that get mirrored worldwide.
 
@@ -81,7 +81,7 @@ A copy of a registry, maintained for speed, reliability, or policy reasons. Mirr
 
 Organizations run internal mirrors to reduce external network traffic, ensure availability if the upstream goes down, or comply with air-gapped security requirements. Geographic mirrors reduce latency for users far from the primary registry. Some mirrors are official (run by the registry operators), others are third-party.
 
-**Ecosystem variations:** PyPI has an official CDN and many organizations run internal mirrors with tools like devpi or Artifactory. apt and yum ecosystems rely heavily on geographic mirrors. Go's proxy.golang.org acts as both a cache and a transparency log. npm doesn't have official mirrors but [Verdaccio](https://verdaccio.org) and Artifactory can proxy it.
+**Ecosystem variations:** PyPI has an official CDN and many organizations run internal mirrors with tools like devpi or Artifactory. apt and yum ecosystems rely heavily on geographic mirrors. Go's proxy.golang.org acts as both a cache and a transparency log. npm doesn't have official mirrors but [Verdaccio](https://www.verdaccio.org/) and Artifactory can proxy it.
 
 ## Forge
 
@@ -121,7 +121,7 @@ A cryptographic hash of a package's contents, used to verify that what you downl
 
 Lock files typically include integrity hashes for every resolved dependency. This means you can verify that the exact bytes you're installing are the same bytes everyone else installed, even if you're downloading from a mirror or cache.
 
-**Ecosystem variations:** npm uses SHA-512 hashes in package-lock.json. Go's go.sum records SHA-256 hashes and uses a transparency log (sum.golang.org) to detect tampering. Cargo.lock includes checksums. pip can verify hashes if you specify them, but doesn't require them by default. [Subresource Integrity (SRI)](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) uses the same concept for browser scripts.
+**Ecosystem variations:** npm uses SHA-512 hashes in package-lock.json. Go's go.sum records SHA-256 hashes and uses a transparency log (sum.golang.org) to detect tampering. Cargo.lock includes checksums. pip can verify hashes if you specify them, but doesn't require them by default. [Subresource Integrity (SRI)](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Subresource_Integrity) uses the same concept for browser scripts.
 
 ## Release
 
@@ -203,7 +203,7 @@ A package manager feature that lets multiple packages share a single dependency 
 
 Workspaces are commonly used in **monorepos** (also spelled mono-repo): repositories containing multiple projects or packages. But the terms aren't interchangeable. Monorepo describes a repository structure; workspace is a package manager feature. You can have a monorepo without workspaces (just multiple unrelated projects in subdirectories) or workspaces without a monorepo. [Google famously keeps nearly everything in one massive repository](https://research.google/pubs/why-google-stores-billions-of-lines-of-code-in-a-single-repository/). Smaller monorepos might have a frontend and backend together, or a library alongside its documentation.
 
-**Ecosystem variations:** npm, Yarn, and pnpm all have workspaces, and Cargo has had them for years. Go added multi-module workspaces more recently. [Lerna](https://lerna.js.org/) was the original JavaScript monorepo tool, predating native package manager support and still used for publishing workflows. Python's tooling has historically lacked workspace support, though this is changing (as of 2025). Tools like [Nx](https://nx.dev/), [Turborepo](https://turbo.build/), [Bazel](https://bazel.build/), and [Buck](https://buck.build/) add task orchestration and caching on top.
+**Ecosystem variations:** npm, Yarn, and pnpm all have workspaces, and Cargo has had them for years. Go added multi-module workspaces more recently. [Lerna](https://lerna.js.org/) was the original JavaScript monorepo tool, predating native package manager support and still used for publishing workflows. Python's tooling has historically lacked workspace support, though this is changing (as of 2025). Tools like [Nx](https://nx.dev/), [Turborepo](https://turborepo.dev/), [Bazel](https://bazel.build/), and [Buck](https://buck.build/) add task orchestration and caching on top.
 
 ## References
 
@@ -216,10 +216,14 @@ These companion posts cover specific aspects of package management in more detai
 Other glossaries worth reading:
 
 - [Cargo Glossary](https://doc.rust-lang.org/cargo/appendix/glossary.html) is rigorous about package/crate/module distinctions that confuse even Rust developers
-- [Python Packaging Glossary](https://packaging.python.org/glossary) covers sdist, wheel, distribution, project, release in detail
+- [Python Packaging Glossary](https://packaging.python.org/en/latest/glossary/) covers sdist, wheel, distribution, project, release in detail
 - [CPAN Security Group Glossary](https://security.metacpan.org/docs/glossary) goes deep on dependency subtypes and SBOM terminology
 - [Chainguard Security Glossary](https://edu.chainguard.dev/software-security/glossary) covers SBOM, SLSA, and supply chain terms
 - [ecosyste.ms Glossary](https://docs.ecosyste.ms/docs/guides/glossary/) covers terms used across the ecosyste.ms APIs
+- [Nix Glossary](https://nix.dev/manual/nix/stable/glossary) covers derivations, stores, and other Nix-specific concepts
+- [Homebrew Terminology](https://docs.brew.sh/Formula-Cookbook#terminology) defines formulae, casks, kegs, bottles, and taps
+- [Julia Pkg Glossary](https://pkgdocs.julialang.org/v1/glossary/) covers projects, environments, depots, and registries
+- [Gradle Glossary](https://docs.gradle.org/current/userguide/glossary.html) covers build system and dependency management terminology
 
 ---
 
