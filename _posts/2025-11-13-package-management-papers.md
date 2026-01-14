@@ -127,6 +127,24 @@ International Conference on Software Engineering (ICSE)
 
 Introduced complete dependency solver using SAT, pseudo-boolean optimization, and Integer Linear Programming. OPIUM guarantees completeness and optimizes user-defined objectives. Demonstrated 23.3% of Debian users encounter apt-get's incompleteness failures.
 
+**[Automated dependency resolution for open source software](https://ieeexplore.ieee.org/document/5463346)** (2010)
+*Joel Ossher, Sushil Bajracharya, Cristina Lopes*
+IEEE Working Conference on Mining Software Repositories (MSR)
+
+Proposed techniques for automatically resolving dependencies in open source projects by mining and analyzing source code repositories, addressing challenges when dependency metadata is incomplete or unavailable.
+
+**[Handling software upgradeability problems with MILP solvers](https://doi.org/10.4204/EPTCS.29.1)** (2010)
+*Claude Michel, Michel Rueher*
+International Workshop on Logics for Component Configuration (LoCoCo)
+
+Demonstrated how Mixed Integer Linear Programming solvers can handle package upgradeability problems, offering an alternative to SAT-based approaches with different performance characteristics.
+
+**[Solving Linux Upgradeability Problems Using Boolean Optimization](https://doi.org/10.4204/EPTCS.29.2)** (2010)
+*Josep Argelich, Daniel Le Berre, Inês Lynce, João P. Marques Silva, Pascal Rapicault*
+International Workshop on Logics for Component Configuration (LoCoCo)
+
+Applied pseudo-boolean optimization techniques to Linux package upgradeability, showing how boolean optimization can find optimal solutions while respecting user preferences.
+
 **[Dependency solving: A separate concern in component evolution management](https://www.sciencedirect.com/science/article/pii/S0164121212000532)** (2012)
 *Pietro Abate, Roberto Di Cosmo, Ralf Treinen, Stefano Zacchiroli*
 Journal of Systems and Software (JSS)
@@ -144,6 +162,12 @@ Presented abstract model of dependency relationships and restartable best-first-
 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
 
 Retrospective analysis conducting census of dependency solving capabilities in state-of-the-art package managers, showing SAT-based approaches are gaining adoption. Demonstrated that despite NP-completeness, practical solvers perform well on real-world instances.
+
+**[aspcud: A Linux Package Configuration Tool Based on Answer Set Programming](https://doi.org/10.4204/EPTCS.65.2)** (2011)
+*Martin Gebser, Roland Kaminski, Torsten Schaub*
+Electronic Proceedings in Theoretical Computer Science
+
+Introduced aspcud, a dependency solver using Answer Set Programming rather than SAT or MILP. Demonstrates ASP as a viable alternative for package configuration, with declarative specification of optimization criteria and competitive performance on Debian package problems.
 
 **[On software component co-installability](https://dl.acm.org/doi/10.1145/2025113.2025149)** (2011)
 *Roberto Di Cosmo, Jérôme Vouillon*
@@ -174,6 +198,12 @@ Highlights issues related to inefficiency and excessive resource usage by depend
 IEEE/ACM International Conference on Software Engineering (ICSE)
 
 Analyzes dependency conflicts in JavaScript arising from namespace collisions, proposing detection and understanding mechanisms.
+
+**[Could I Have a Stack Trace to Examine the Dependency Conflict Issue?](https://doi.org/10.1109/ICSE.2019.00068)** (2019)
+*Ying Wang, Ming Wen, Rongxin Wu, Zhenwei Liu, Shin Hwei Tan, Zhiliang Zhu, Hai Yu, Shing-Chi Cheung*
+IEEE/ACM International Conference on Software Engineering (ICSE)
+
+Proposes approach to help developers diagnose dependency conflicts in Java/Maven by generating stack traces that reveal how conflicts manifest at runtime, making abstract version incompatibilities concrete and actionable.
 
 **[Hero: On the chaos when path meets modules](https://dl.acm.org/doi/10.1109/ICSE43902.2021.00022)** (2021)
 *Ying Wang, Liang Qiao, Chang Xu, Yepang Liu, Shing-Chi Cheung, Na Meng, Hai Yu, Zhiliang Zhu*
@@ -795,6 +825,18 @@ Studies whether Greenkeeper reduces developer effort or introduces unnecessary w
 ## Software Composition Analysis
 
 Research on library usage, updates, and composition analysis tools.
+
+**[Software ecosystem call graph for dependency management](https://doi.org/10.1145/3183399.3183417)** (2018)
+*Joseph Hejderup, Arie van Deursen, Georgios Gousios*
+IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)
+
+Proposes moving beyond package-level dependency analysis to call-graph level, enabling finer-grained understanding of which functions are actually used from dependencies.
+
+**[Präzi: From Package-based to Call-based Dependency Networks](https://arxiv.org/abs/2101.09563)** (2021)
+*Joseph Hejderup, Moritz Beller, Konstantinos Triantafyllou, Georgios Gousios*
+arXiv preprint
+
+Extends call-graph dependency analysis with Präzi, constructing fine-grained dependency networks at the function level rather than package level. Enables more precise vulnerability impact analysis and identifies unused transitive dependencies.
 
 **[Towards Understanding Third-Party Library Dependency in C/C++ Ecosystem](https://dl.acm.org/doi/10.1145/3551349.3556898)** (2022)
 *Wei Tang, Zhengzi Xu, Chengwei Liu, Jiahui Wu, Shouguo Yang, Yi Li, Ping Luo, Yang Liu*
