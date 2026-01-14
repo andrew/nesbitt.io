@@ -217,6 +217,8 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **William Woodruff** - sigstore-python, PEP 740 (PyPI attestations), zizmor.
 
+**Ricardo Wurmus** - Former GNU Guix co-maintainer. Guix-HPC.
+
 ## Researchers
 
 **Pietro Abate** - Dependency solving algorithms, OPAM.
@@ -270,6 +272,8 @@ People who built, maintain, or research package managers. Tool creators, registr
 **Ying Wang** - Dependency conflict detection (Watchman, Hero).
 
 **Stefano Zacchiroli** - Télécom Paris, former Debian Project Leader. Reproducible builds, Software Heritage.
+
+**Théo Zimmermann** - Télécom Paris. Rocq core team, Rocq-community. Research on package maintenance organizations.
 
 ---
 
