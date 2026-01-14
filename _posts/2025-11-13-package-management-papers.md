@@ -856,11 +856,17 @@ SANER
 
 Study of library aging patterns through client usage monitoring.
 
-**[Do developers update their library dependencies?](https://link.springer.com/article/10.1007/s10664-017-9521-5)** (2018)
-*Multiple authors*
-Academic publication
+**[Do Developers Update Their Library Dependencies?](https://link.springer.com/article/10.1007/s10664-017-9521-5)** (2018)
+*Raula Gaikovina Kula, Daniel M. German, Ali Ouni, Takashi Ishio, Katsuro Inoue*
+Empirical Software Engineering
 
-Investigation of library update practices among developers.
+Empirical study on library migration covering 4,600+ GitHub projects and 2,700 library dependencies. Found 81.5% of systems keep outdated dependencies, and developers rarely respond to security advisories. Introduced the Library Migration Plot (LMP) visualization.
+
+**[Modeling Library Dependencies and Updates in Large Software Repository Universes](https://arxiv.org/abs/1709.04626)** (2017)
+*Raula Gaikovina Kula, Coen De Roover, Daniel M. German, Takashi Ishio, Katsuro Inoue*
+arXiv preprint
+
+Proposes the Software Universe Graph (SUG) to model library dependency and update information mined from Maven. Leverages "wisdom of the crowd" to recommend library updates based on what other projects have adopted.
 
 **[The emergence of software diversity in maven central](https://arxiv.org/abs/1903.05394)** (2019)
 *Multiple authors*
@@ -873,6 +879,12 @@ Analysis of software diversity patterns in Maven Central.
 SAC
 
 Study of package manager adoption in C++ open source.
+
+**[Beyond Dependencies: The Role of Copy-Based Reuse in Open Source Software Development](https://dl.acm.org/doi/10.1145/3712057)** (2025)
+*Mahmoud Jahanshahi, David Reid, Audris Mockus*
+ACM Transactions on Software Engineering and Methodology
+
+Studies how code copying (not just dependency declaration) affects software reuse patterns, examining the relationship between formal dependencies and actual code reuse in open source.
 
 **[A Longitudinal Analysis of Bloated Java Dependencies](https://www.researchgate.net/publication/351978531_A_Longitudinal_Analysis_of_Bloated_Java_Dependencies)** (2021)
 *Multiple authors*
@@ -890,17 +902,35 @@ Recent longitudinal analysis of software dependencies examining long-term patter
 
 Research on how ecosystems and developer practices evolve over time.
 
+**[An Empirical Study of API Stability and Adoption in the Android Ecosystem](https://ieeexplore.ieee.org/document/6624028)** (2013)
+*Tyler McDonnell, Baishakhi Ray, Miryung Kim*
+IEEE International Conference on Software Maintenance (ICSM) - Most Influential Paper Award 2023
+
+Found Android API evolves at 115 updates per month on average, but client adoption doesn't keep pace. Established API stability and adoption as a vital research area, inspiring subsequent work on automating API migration and change impact analysis.
+
+**[Understanding the Response to Open-Source Dependency Abandonment in the npm Ecosystem](https://www.cs.cmu.edu/~ckaestne/pdf/icse25_abandonment.pdf)** (2025)
+*Courtney Miller, Mahmoud Jahanshahi, Audris Mockus, Bogdan Vasilescu, Christian Kästner*
+IEEE/ACM International Conference on Software Engineering (ICSE)
+
+Studies how developers respond when their dependencies are abandoned, analyzing response patterns and mitigation strategies in the npm ecosystem.
+
 **[The Evolution of Project Inter-dependencies in a Software Ecosystem: The Case of Apache](https://ieeexplore.ieee.org/document/6676899/)** (2013)
-*Multiple authors*
-Academic publication
+*Gabriele Bavota, Gerardo Canfora, Massimiliano Di Penta, Rocco Oliveto*
+IEEE International Conference on Software Maintenance (ICSM)
 
-Analysis of how project dependencies evolve in the Apache ecosystem.
+Exploratory study of 147 Apache Java projects over 14 years (1,964 releases), examining how dependency relationships evolve and when projects decide to upgrade dependencies.
 
-**[How the Apache community upgrades dependencies: an evolutionary study](https://link.springer.com/article/10.1007/s10664-014-9325-9)** (2015)
-*Multiple authors*
-Academic publication
+**[How the Apache Community Upgrades Dependencies: An Evolutionary Study](https://link.springer.com/article/10.1007/s10664-014-9325-9)** (2015)
+*Gabriele Bavota, Gerardo Canfora, Massimiliano Di Penta, Rocco Oliveto, Sebastiano Panichella*
+Empirical Software Engineering
 
-Study of dependency upgrade patterns in Apache projects.
+Follow-up study examining when and why Apache projects upgrade their dependencies, identifying patterns in upgrade decisions.
+
+**[A Graph-Based Approach to API Usage Adaptation](https://dl.acm.org/doi/10.1145/1869459.1869486)** (2010)
+*Hoan Anh Nguyen, Tung Thanh Nguyen, Gary Wilson Jr., Anh Tuan Nguyen, Miryung Kim, Tien Nguyen*
+ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)
+
+Introduces LIBSYNC, which learns complex API usage adaptation patterns from other clients that already migrated to a new library version, guiding developers through API migrations.
 
 **[Influences on developer participation in the Debian software ecosystem](https://www.sciencedirect.com/science/article/abs/pii/S0167624508000346)** (2011)
 *Multiple authors*
@@ -931,6 +961,12 @@ Study of library migration patterns for vulnerability fixes.
 arXiv preprint
 
 Analysis of different popularity metrics in npm ecosystem.
+
+**[Are Software Dependency Supply Chain Metrics Useful in Predicting Change of Popularity of npm Packages?](https://dl.acm.org/doi/10.1145/3273934.3273942)** (2018)
+*Tapajit Dey, Audris Mockus*
+International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE)
+
+Investigates whether supply chain metrics (dependency relationships, update patterns) can predict changes in npm package popularity.
 
 **[Ecosystem-Level Determinants of Sustained Activity in Open-Source Projects: A Case Study of the PyPI Ecosystem](https://dl.acm.org/doi/abs/10.1145/3236024.3236062)** (2018)
 *Multiple authors*
