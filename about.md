@@ -9,6 +9,8 @@ I'm Andrew Nesbitt. I've spent the last decade thinking about package management
 
 Package managers are the invisible plumbing of modern software. Millions of developers share code through these systems, trusting that dependencies will resolve, versions will be compatible, and the packages they install are what they claim to be. Most of the time it works. When it doesn't, things break in ways that ripple across the entire ecosystem. I find this [coordination problem endlessly interesting](/2025/12/09/why-im-fascinated-by-package-management).
 
+I've been putting together a collection of [reference materials and deep dives on package managers](/package-managers/), covering how dependency resolution works, the tradeoffs different ecosystems make, and the people who build these systems.
+
 My main project is [Ecosyste.ms](https://ecosyste.ms), a set of open APIs and datasets tracking over 11 million packages, 260 million repositories, and 22 billion dependencies. I built it because understanding software supply chains requires data that didn't exist in one place. Now researchers use it to study ecosystem health, funders use it to find critical projects that need support, and security teams use it to understand blast radius when vulnerabilities appear.
 
 I'm also developing [git-pkgs](https://github.com/andrew/git-pkgs), a git subcommand that makes your [dependency history searchable](/2026/01/01/git-pkgs-explore-your-dependency-history). It traces who added each package and when, across 30+ ecosystems.
