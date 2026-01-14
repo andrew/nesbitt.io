@@ -273,4 +273,4 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 ---
 
-Who's missing? [Open a PR](https://github.com/andrew/nesbitt.io) or [let me know](https://mastodon.social/@andrewnez).
+Who's missing? [Open a PR](https://github.com/andrew/nesbitt.io) or [let me know](https://mastodon.social/@andrewnez). If you'd like your entry updated, corrected, or removed, reach out the same way.
