@@ -148,7 +148,40 @@ Three different ways to discourage or prevent use of a package version, often co
 
 Packages can be distributed as source code or as pre-compiled binaries. Source packages are portable across platforms but require build tools and can be slow to install. Binary packages are fast to install but must be built separately for each platform and architecture.
 
-**Ecosystem variations:** Python distinguishes sdist (source) from wheels (binary), and PyPI serves both. npm and Go are source-only. Debian, RPM, and Homebrew are binary-only. Rust's crates.io is source-only, though [cargo-binstall](https://github.com/cargo-bins/cargo-binstall) can fetch pre-built binaries from elsewhere. Binary packages often have **variants** for different platforms, architectures, or build configurations. A Python wheel might have variants for macOS ARM, Linux x86, and Windows. Homebrew bottles are pre-built for specific macOS versions. The choice affects install speed, portability, and whether users need compilers.
+### Language package managers
+
+**Both source and binary** — some package managers support publishing both source releases and binary releases:
+
+* Python's pip
+(binaries are distributed as
+[_wheels_](https://packaging.python.org/en/latest/specifications/binary-distribution-format/))
+* Ruby's RubyGems
+(for example,
+[nokogiri](https://rubygems.org/gems/nokogiri/versions) —
+see more [details](https://github.com/flavorjones/ruby-c-extensions-explained/tree/main/precompiled)
+and an upcoming [RFC](https://github.com/rubygems/rfcs/pull/60))
+
+**Source only; out-of-band binary** — other package managers only allow source releases, but there are third-party
+methods to distribute binaies out-of-band in a manner that is compatible with the package manager:
+
+* Node's npm (via [node-pre-gyp](https://www.npmjs.com/package/@mapbox/node-pre-gyp))
+* Rust's Cargo (via [cargo-binstall](https://github.com/cargo-bins/cargo-binstall))
+
+**Source only** — some package managers are source-only and there is no easy way to compatibly package binaries:
+
+* Go modules
+
+### System package managers
+
+**Binary** — almost all system package managers primarily distribute binaries.
+
+**Hybrid** — some system package managers allow source releases alongside binary releases:
+
+* Gentoo's Portage
+* Homebrew (binary releases are called [_bottles_](https://docs.brew.sh/Bottles))
+* Arch's AUR
+* Nix
+* OpenBSD and FreeBSD's Ports
 
 ## Artifact
 
