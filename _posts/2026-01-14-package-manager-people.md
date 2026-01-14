@@ -229,6 +229,8 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Eleni Constantinou** - Eindhoven. Software ecosystem health, dependency network fragility.
 
+**Alexandre Decan** - University of Mons. Technical lag, ecosystem evolution, dependency networks.
+
 **Roberto Di Cosmo** - INRIA. Led EDOS project. Papers on dependency resolution NP-completeness, co-installability, modular solver architecture.
 
 **Jens Dietrich** - Victoria University of Wellington. Dependency bloat, JVM ecosystem analysis.
@@ -238,6 +240,8 @@ People who built, maintain, or research package managers. Tool creators, registr
 **Georgios Gousios** - Delft, then Facebook. Präzi call-graph dependency analysis.
 
 **Ahmed E. Hassan** - Queen's University. Mining software repositories, package evolution.
+
+**Joseph Hejderup** - Präzi, call-graph dependency analysis.
 
 **Raula Gaikovina Kula** - NAIST. Library migration, developer update behavior.
 
@@ -255,11 +259,15 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Henrik Plate** - SAP Security Research. Supply chain attack taxonomies.
 
+**Donald Pinckney** - npm-follower dataset, Max-SMT dependency solving.
+
 **Santiago Torres-Arias** - Purdue. Created in-toto.
 
 **Ralf Treinen** - EDOS project, co-installability formalization.
 
 **Bogdan Vasilescu** - CMU. Dependency networks, ecosystem health.
+
+**Ying Wang** - Dependency conflict detection (Watchman, Hero).
 
 **Stefano Zacchiroli** - Télécom Paris, former Debian Project Leader. Reproducible builds, Software Heritage.
 
