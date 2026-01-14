@@ -109,6 +109,18 @@ arXiv preprint
 
 Study finding that local pinning leads to more security vulnerabilities due to bloated and outdated dependencies. Suggests risk of malicious package updates can be reduced when core dependencies pin their versions and keep them updated regularly.
 
+**[Does Functional Package Management Enable Reproducible Builds at Scale? Yes.](https://arxiv.org/abs/2501.15919)** (2025)
+*Julien Malka, Stefano Zacchiroli, Théo Zimmermann*
+International Conference on Mining Software Repositories (MSR) - Distinguished Paper Award
+
+First large-scale study of bitwise reproducibility in Nix, rebuilding 709,816 packages from historical snapshots of nixpkgs sampled between 2017 and 2023. Achieved reproducibility rates between 69% and 91% with an upward trend, and rebuildability rates over 99%. Found about 15% of unreproducibility failures are due to embedded build dates. Released a dataset with build statuses, logs, and recursive diffs showing where unreproducible artifacts differ.
+
+**[Improving Reproducibility of Scientific Software Using Nix/NixOS: A Case Study on the preCICE Ecosystem](https://eceasst.org/index.php/eceasst/article/view/2613)** (2025)
+*Max Hausch, Simon Hauser, Benjamin Uekermann*
+Electronic Communications of the EASST
+
+Case study applying Nix to scientific software reproducibility in the preCICE coupling library ecosystem. Demonstrates how functional package management provides guarantees that packages and their dependencies can be built reproducibly, addressing challenges in computational science where results must be independently verifiable.
+
 ## Dependency Resolution Algorithms and Challenges
 
 Research establishing the theoretical complexity of dependency resolution and practical solutions.
@@ -573,10 +585,16 @@ TUGboat
 Description of CTAN, one of the earliest package repositories.
 
 **[Nix: A Safe and Policy-Free System for Software Deployment](https://edolstra.github.io/pubs/nspfssd-lisa2004-final.pdf)** (2004)
-*Multiple authors*
+*Eelco Dolstra, Merijn de Jonge, Eelco Visser*
 USENIX LISA
 
-Introduced Nix, a purely functional package manager with unique approach to dependency management.
+Introduced Nix, a purely functional package manager with unique approach to dependency management. Packages are stored in isolation from each other using cryptographic hashes, preventing dependency conflicts and enabling atomic upgrades and rollbacks.
+
+**[The Purely Functional Software Deployment Model](https://edolstra.github.io/pubs/phd-thesis.pdf)** (2006)
+*Eelco Dolstra*
+PhD Thesis, Utrecht University
+
+The comprehensive treatment of functional package management that the LISA paper summarizes. Develops the theoretical foundations for treating software deployment as a pure function from inputs to outputs, where the cryptographic hash of all build inputs determines the output path. Covers the Nix expression language, the store model, and techniques for achieving reproducible builds.
 
 **[An adaptive package management system for Scheme](https://dblp.org/rec/conf/dls/SerranoG07.html)** (2007)
 *Erick Gallesio et al.*
@@ -585,10 +603,22 @@ Academic publication
 Adaptive package management approach for Scheme programming language.
 
 **[NixOS: a purely functional Linux distribution](https://dl.acm.org/doi/10.1145/1411204.1411255)** (2008)
-*Multiple authors*
-Academic publication
+*Eelco Dolstra, Andres Löh*
+ACM SIGPLAN International Conference on Functional Programming (ICFP)
 
-Description of NixOS, a Linux distribution built on Nix package manager.
+Description of NixOS, a Linux distribution built on Nix package manager. Extends functional package management to system configuration, treating the entire operating system as a function from a declarative specification to a running system.
+
+**[Functional Package Management with Guix](https://arxiv.org/abs/1305.4584)** (2013)
+*Ludovic Courtès*
+European Lisp Symposium
+
+Introduces GNU Guix, a purely functional package manager building on Nix's deployment model but using Scheme as its implementation and extension language. Demonstrates how an embedded domain-specific language for package definitions allows users to benefit from a general-purpose programming language while maintaining the reproducibility guarantees of functional package management.
+
+**[Reproducible and User-Controlled Software Environments in HPC with Guix](https://link.springer.com/chapter/10.1007/978-3-319-27308-2_47)** (2015)
+*Ludovic Courtès, Ricardo Wurmus*
+International Conference on High Performance Computing (ISC)
+
+Addresses how HPC support teams struggle to balance conservative system administration with user demands for up-to-date tools. Presents GNU Guix as a solution allowing unprivileged users to install and manage their own software environments while maintaining reproducibility, without requiring root access or containers.
 
 **[The Comprehensive R Archive Network](https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wics.1212)** (2012)
 *Multiple authors*
