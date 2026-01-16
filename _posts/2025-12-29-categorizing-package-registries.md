@@ -49,7 +49,9 @@ How does the registry store and serve package metadata?
 - Julia General registry
 - juliahub.com[^juliahub-git]
 - winget-pkgs
-- spack
+- spack[^nix-guix-spack-hashing]
+- nix[^nix-guix-spack-hashing]
+- guix[^nix-guix-spack-hashing]
 
 **Filesystem-based repositories** serve generated index files statically from HTTP mirrors. The server does work only when the repository is updated, not when clients fetch. This is the pattern that [the compact index](/2025/12/28/the-compact-index.html) brought to RubyGems.
 
@@ -78,8 +80,9 @@ How does the registry store and serve package metadata?
 
 **Content-addressed stores** identify packages by hash of inputs. Binary caches provide pre-built artifacts.
 
-- Nix
-- Guix
+- Nix[^nix-guix-spack-hashing]
+- Guix[^nix-guix-spack-hashing]
+- spack[^spack-content-addressing][^nix-guix-spack-hashing]
 
 ## Reviewed / Unreviewed
 
@@ -166,6 +169,7 @@ How are packages named?
 - central.sonatype.com
 - metacpan.org
 - clojars.org
+- spack[^spack-namespaces]
 
 **URL-based** identifiers like `github.com/user/repo` use domain ownership as the claim. No registration step.
 
@@ -240,6 +244,7 @@ What gets distributed?
 - cache.nixos.org
 - nuget.org[^nuget-rids]
 - homebrew-core
+- spack[^spack-binaries]
 
 ## Registry governance
 
@@ -359,6 +364,7 @@ Does the registry keep old versions available? What happens when a published ver
 
 - central.sonatype.com[^maven-permanent]
 - proxy.golang.org[^go-cache-permanent]
+- spack[^spack-versions]
 
 **Yanking** marks a version as unavailable for new installs but keeps it accessible for existing lockfiles.
 
@@ -458,7 +464,11 @@ How hard is it to run your own registry or mirror?
 [^clojars-bytecode]: Publishes JVM bytecode in JAR files, but these are built from source during the publish process.
 [^homebrew-bottles]: Bottles are prebuilt binaries for common macOS versions.
 [^nix-substitutes]: Binary substitutes from [cache.nixos.org](https://cache.nixos.org/) avoid rebuilding from source.
-[^spack-binaries]: Spack supports binary caches but defaults to building from source.
+[^spack-binaries]: Spack supports binary caches but defaults to building from source. Spack publishes multiple builds of each package on each release.
+[^spack-content-addressing]: Spack binary caches are content-addressed by hashes of inputs but also provide an index so that the solver can consider binaries.
+[^spack-versions]: Spack packages can specify many versions, all of which stay in the registry until deleted by a maintainer. Old versions *can* be removed, but it depends on the package how frequently this is done. Users can go back to old versions of the repo to install removed versions.
+[^spack-namespaces]: Every spack package repository has a namespace; the [default one](https://github.com/spack/spack-packages) is called `builtin`. Custom and/or private repositories have their own namespace but can layer on top of `builtin`.
+[^nix-guix-spack-hashing]: Nix, Guix, and Spack use git repositories as registries of build recipes and package metadata, but they also use content-addressed stores for binary packages and for their installation layout. In Spack's case, there is also an index in every install tree and in every binary cache, so that the solve can attempt to use as many prebuilt packages as possible.
 [^nuget-rids]: Runtime Identifiers (RIDs) specify platform-specific assets.
 [^pypi-psf]: [Python Software Foundation](https://www.python.org/psf-landing/)
 [^crates-rust]: [Rust Foundation](https://rustfoundation.org/)
