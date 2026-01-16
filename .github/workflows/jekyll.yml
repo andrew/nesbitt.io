@@ -23,18 +23,18 @@ jobs:
       id-token: write # pages auth
     steps:
       - name: Checkout
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8
         with:
           persist-credentials: false
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@ae195bbe749a7cef685ac729197124a48305c1cb # v1
+        uses: ruby/setup-ruby@ae195bbe749a7cef685ac729197124a48305c1cb
         with:
           bundler-cache: true
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "$BASE_PATH"
@@ -43,7 +43,7 @@ jobs:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b
 
   deploy:
     name: Deploy
