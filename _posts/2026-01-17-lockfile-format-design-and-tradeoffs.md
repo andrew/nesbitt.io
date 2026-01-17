@@ -58,11 +58,11 @@ Early lockfile formats prioritized getting resolution right over optimizing for 
 
 6. **Generate by default.** Go's lockfile gets committed in nearly every project because `go mod tidy` creates it automatically. Gradle's barely gets used because it requires explicit opt-in and configuration. Cargo and npm also generate lockfiles automatically. The single biggest predictor of lockfile adoption is whether the tool creates one without being asked.[^kth]
 
-[^kth]: [The Design Space of Lockfiles Across Package Managers](https://arxiv.org/pdf/2505.04834) studies this across seven ecosystems.
-
 7. **Design for the common case.** Most lockfile operations are adding or removing dependencies. Optimize the format for clean diffs on those operations.
 
 8. **Make it self-contained for fetching.** Package names, versions, source URLs, and checksums. Everything needed to download without re-resolving.
+
+[^kth]: [The Design Space of Lockfiles Across Package Managers](https://arxiv.org/pdf/2505.04834) studies this across seven ecosystems.
 
 ## Existing formats
 
