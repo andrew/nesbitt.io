@@ -52,18 +52,25 @@ task :tags do
   end
 end
 
-desc "Check links in posts"
-task :links, [:year] do |t, args|
+desc "Check links in posts (pass year like 2026, or single post path)"
+task :links, [:arg] do |t, args|
   unless system("which lychee > /dev/null 2>&1")
     abort "lychee not found. Install with: brew install lychee"
   end
 
-  min_year = args[:year]&.to_i || 2024
-  posts = Dir.glob("_posts/*.md").select do |post|
-    year = File.basename(post)[0, 4].to_i
-    next false if year < min_year
-    next false if args[:year] && year != min_year
-    true
+  arg = args[:arg]
+
+  if arg && (arg.include?("/") || arg.end_with?(".md"))
+    posts = [arg].select { |p| File.exist?(p) }
+    abort "File not found: #{arg}" if posts.empty?
+  else
+    min_year = arg&.to_i || 2024
+    posts = Dir.glob("_posts/*.md").select do |post|
+      year = File.basename(post)[0, 4].to_i
+      next false if year < min_year
+      next false if arg && year != min_year
+      true
+    end
   end
 
   if posts.empty?
@@ -71,7 +78,7 @@ task :links, [:year] do |t, args|
     next
   end
 
-  puts "Checking #{posts.size} posts..."
+  puts "Checking #{posts.size} post#{'s' unless posts.size == 1}..."
   system("lychee",
     "--no-progress",
     "--base-url", "https://nesbitt.io",
