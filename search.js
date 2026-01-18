@@ -5,7 +5,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
   fetch('/search.json')
     .then(function(response) { return response.json(); })
-    .then(function(data) { posts = data; });
+    .then(function(data) {
+      posts = data;
+      if (window.location.hash) {
+        input.value = decodeURIComponent(window.location.hash.slice(1));
+        search();
+      }
+    });
 
   function search() {
     var query = input.value.toLowerCase().trim();

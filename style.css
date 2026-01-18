@@ -429,6 +429,25 @@ section li p{
   text-decoration: none;
 }
 
+.post-tag{
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 0 6px 6px 0;
+  font-size: 14px;
+  color: #656d76 !important;
+  background: #f6f8fa;
+  border-radius: 4px;
+}
+
+.post-tag:hover{
+  color: #006ab2 !important;
+  text-decoration: none;
+}
+
+.post-tags{
+  margin: 8px 0 4px 0;
+}
+
 /* Projects page */
 .featured-list{
   margin: 15px 0;
