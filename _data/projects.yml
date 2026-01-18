@@ -3,16 +3,16 @@
   url: https://github.com/andrew/ultimate-awesome
   description: Every awesome list on every topic, including awesome lists of awesome
     lists, updated daily.
-  stars: 132
+  stars: 135
   language:
-  pushed_at: '2026-01-11T00:41:19Z'
+  pushed_at: '2026-01-18T00:40:44Z'
 - name: git-pkgs
   url: https://github.com/andrew/git-pkgs
   description: A git subcommand for analyzing package/dependency usage in git repositories
     over time
-  stars: 34
+  stars: 40
   language: Ruby
-  pushed_at: '2026-01-10T10:18:25Z'
+  pushed_at: '2026-01-15T07:20:27Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
@@ -23,9 +23,15 @@
   url: https://github.com/andrew/nesbitt.io
   description: 'Personal blog built with Jekyll and hosted on GitHub Pages. I write
     about package management, software supply chain security, and open source infrastructure. '
-  stars: 14
+  stars: 15
   language: HTML
-  pushed_at: '2026-01-11T06:08:07Z'
+  pushed_at: '2026-01-18T06:08:06Z'
+- name: swhid
+  url: https://github.com/andrew/swhid
+  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
+  stars: 11
+  language: Ruby
+  pushed_at: '2026-01-14T12:35:01Z'
 - name: vers
   url: https://github.com/andrew/vers
   description: A Ruby gem for parsing, comparing and sorting versions according to
@@ -33,32 +39,32 @@
   stars: 11
   language: Ruby
   pushed_at: '2026-01-09T21:09:50Z'
-- name: swhid
-  url: https://github.com/andrew/swhid
-  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
+- name: state-of-oss-funding
+  url: https://github.com/andrew/state-of-oss-funding
+  description: 'The State of OSS Funding data: Insights from ecosyste.ms - talk at
+    CHAOSScon North America 2025'
   stars: 11
-  language: Ruby
-  pushed_at: '2025-12-27T14:45:38Z'
+  language: HTML
+  pushed_at: '2025-10-22T13:42:10Z'
 - name: purl
   url: https://github.com/andrew/purl
   description: A Ruby library for parsing, validating, and generating Package URLs
     (PURLs) as defined by the PURL specification
   stars: 10
   language: Ruby
-  pushed_at: '2026-01-06T10:26:32Z'
-- name: state-of-oss-funding
-  url: https://github.com/andrew/state-of-oss-funding
-  description: 'The State of OSS Funding data: Insights from ecosyste.ms - talk at
-    CHAOSScon North America 2025'
-  stars: 10
-  language: HTML
-  pushed_at: '2025-10-22T13:42:10Z'
+  pushed_at: '2026-01-14T16:40:56Z'
 - name: go-bundler
   url: https://github.com/andrew/go-bundler
   description: Go-style imports for Ruby
   stars: 10
   language: Ruby
   pushed_at: '2025-12-25T12:38:33Z'
+- name: ruby-upgrade-action
+  url: https://github.com/andrew/ruby-upgrade-action
+  description: GitHub action to upgrade version of Ruby in various places to the latest
+  stars: 9
+  language:
+  pushed_at: '2026-01-18T00:04:10Z'
 - name: hanami-sprockets
   url: https://github.com/andrew/hanami-sprockets
   description: An alternative to hanami-assets that doesn't rely on npm
@@ -78,12 +84,6 @@
   stars: 9
   language: Ruby
   pushed_at: '2025-10-15T09:49:49Z'
-- name: ruby-upgrade-action
-  url: https://github.com/andrew/ruby-upgrade-action
-  description: GitHub action to upgrade version of Ruby in various places to the latest
-  stars: 9
-  language:
-  pushed_at: '2025-12-29T11:47:16Z'
 - name: PBOM
   url: https://github.com/andrew/PBOM
   description: Paper Bill of Materials (PBOM) - Generate a paper bill of materials
@@ -107,13 +107,13 @@
 - name: typosquatting
   url: https://github.com/andrew/typosquatting
   description: Detect potential typosquatting packages across package ecosystems
-  stars: 4
+  stars: 5
   language: Ruby
   pushed_at: '2026-01-06T10:21:58Z'
 - name: brew-vulns
   url: https://github.com/andrew/brew-vulns
   description: A Homebrew subcommand that checks installed packages for vulnerabilities
-  stars: 3
+  stars: 4
   language: Ruby
   pushed_at: '2026-01-08T16:42:02Z'
 - name: diffoscope
@@ -160,12 +160,6 @@
   stars: 1
   language: Ruby
   pushed_at: '2026-01-07T16:15:11Z'
-- name: sbom
-  url: https://github.com/andrew/sbom
-  description: Parse, generate, and validate Software Bill of Materials (SBOM)
-  stars: 1
-  language: Ruby
-  pushed_at: '2026-01-08T11:15:04Z'
 - name: gitlab-faraday
   url: https://github.com/andrew/gitlab-faraday
   description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
@@ -173,3 +167,9 @@
   stars: 1
   language: Ruby
   pushed_at: '2026-01-09T11:10:44Z'
+- name: sbom
+  url: https://github.com/andrew/sbom
+  description: Parse, generate, and validate Software Bill of Materials (SBOM)
+  stars: 1
+  language: Ruby
+  pushed_at: '2026-01-14T17:24:13Z'
