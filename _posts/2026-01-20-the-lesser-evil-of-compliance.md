@@ -109,7 +109,7 @@ Compliance is ultimately about relationships. Invest in maintainer engagement be
 
 Reference the maintainer's employer in outreach emails. Most employers have open source policies. A gentle reminder that their side project reflects on their professional reputation can accelerate response times.
 
-If a maintainer has GitHub Sponsors or Open Collective, toss a coin to your maintainer. Even a small donation creates a receipt. Receipts create relationships. Relationships create expectations.
+If a maintainer has GitHub Sponsors or Open Collective, [toss a coin to your maintainer](https://gist.github.com/andrew/fac5d804a0bddee3c4bd6bdfb30cf388). Even a small donation creates a receipt. Receipts create relationships. Relationships create expectations.
 
 Invite maintainers to speak at your compliance summit. The exposure benefits their project, and the speaker agreement includes standard IP assignment for materials presented. Most don't read it.
 
