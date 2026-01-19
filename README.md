@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Workspaces and Monorepos in Package Managers](https://nesbitt.io/2026/01/18/workspaces-and-monorepos-in-package-managers.html)
 - [Lockfile Format Design and Tradeoffs](https://nesbitt.io/2026/01/17/lockfile-format-design-and-tradeoffs.html)
 - [Package Manager People](https://nesbitt.io/2026/01/14/package-manager-people.html)
 - [Package Manager Glossary](https://nesbitt.io/2026/01/13/package-manager-glossary.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [The Nine Levels of JavaScript Dependency Hell](https://nesbitt.io/2026/01/05/the-nine-levels-of-javascript-dependency-hell.html)
 - [Making git-pkgs feel like Git](https://nesbitt.io/2026/01/04/making-git-pkgs-feel-like-git.html)
 - [The Package Management Landscape](https://nesbitt.io/2026/01/03/the-package-management-landscape.html)
-- [How Dependabot Actually Works](https://nesbitt.io/2026/01/02/how-dependabot-actually-works.html)
 <!-- POSTS:END -->
