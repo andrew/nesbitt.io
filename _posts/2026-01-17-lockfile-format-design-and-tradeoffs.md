@@ -231,6 +231,68 @@ wheels = [
 
 Leaner TOML than Poetry. Skips descriptions and optional flags. Stores URLs, hashes, and file sizes for both sdists and wheels. uv prioritizes [speed throughout its design](/2025/12/26/how-uv-got-so-fast), and the lockfile reflects that. Python has multiple competing lockfile formats (Poetry, PDM, pip-tools, uv); [PEP 751](https://peps.python.org/pep-0751/) proposes a standard but adoption is uncertain.
 
+### conda-lock.yml ([example](https://github.com/01-ai/Yi/blob/main/conda-lock.yml))
+
+```yaml
+version: 1
+
+metadata:
+  content_hash:
+    linux-64: dc3b8acd2e43b67d9f0f4e899e2cf5c9236c5f8ba0d3f13afd0664baaa029b81
+  channels:
+    - url: conda-forge
+  platforms:
+    - linux-64
+
+package:
+  - name: python
+    version: "3.11.0"
+    manager: conda
+    platform: linux-64
+    dependencies:
+      bzip2: ">=1.0.8,<2.0a0"
+      libffi: ">=3.4,<4.0a0"
+    url: https://conda.anaconda.org/conda-forge/linux-64/python-3.11.0-ha86cf86_0_cpython.conda
+    hash:
+      md5: d7c89558ba9fa0495403155b64376d81
+      sha256: fe51de6107f9edc7aa4f786a70f4a883943bc9d39b3bb7307c04c41410990726
+    category: main
+```
+
+[conda-lock](https://github.com/conda/conda-lock) generates lockfiles for conda environments. YAML with a metadata section (content hash, channels, platforms, source files) and a flat list of packages. Each package entry includes its target platform, so one file can lock multiple platforms. Both MD5 and SHA256 hashes. The `manager` field distinguishes conda packages from pip packages, allowing mixed environments. Performs a full solve for each platform.
+
+### pixi.lock ([example](https://github.com/prefix-dev/pixi/blob/main/pixi.lock))
+
+```yaml
+version: 6
+
+environments:
+  default:
+    channels:
+      - url: https://conda.anaconda.org/conda-forge/
+    packages:
+      linux-64:
+        - conda: https://conda.anaconda.org/conda-forge/linux-64/python-3.12.2-hab00c5b_0_cpython.conda
+
+packages:
+  - kind: conda
+    name: python
+    version: 3.12.2
+    build: h9f0c242_0_cpython
+    subdir: osx-64
+    url: https://conda.anaconda.org/conda-forge/osx-64/python-3.12.2-h9f0c242_0_cpython.conda
+    sha256: 7647ac06c3798a182a4bcb1ff58864f1ef81eb3acea6971295304c23e43252fb
+    md5: 0179b8007ba008cf5bec11f3b3853902
+    depends:
+      - bzip2 >=1.0.8,<2.0a0
+      - libffi >=3.4,<4.0a0
+    license: Python-2.0
+    size: 14596811
+    timestamp: 1708118065292
+```
+
+[Pixi](https://pixi.sh/) is a cross-platform package manager from [prefix.dev](https://prefix.dev/) that uses the conda ecosystem. YAML with two sections: `environments` lists channels and package references per platform (linux-64, osx-arm64, etc.), while `packages` contains deduplicated metadata for all referenced packages. Each package entry includes both SHA-256 and MD5 hashes, full dependency constraints, license, size, and build timestamp. The format evolved from conda-lock but diverged enough that pixi [maintains its own specification](https://pixi.sh/latest/workspace/lockfile/). Schema version at top (currently v6). The multi-platform design captures resolution for all target platforms in one file.
+
 ## Format comparison
 
 | Format | File format | Integrity | Source URLs | Merge-friendly |
@@ -241,6 +303,8 @@ Leaner TOML than Poetry. Skips descriptions and optional flags. Stores URLs, has
 | pnpm-lock.yaml | YAML | SHA-512 | Registry | Okay |
 | poetry.lock | TOML | SHA-256 | Yes | Okay |
 | uv.lock | TOML | SHA-256 | Yes | Okay |
+| conda-lock.yml | YAML | SHA-256 + MD5 | Yes | Okay |
+| pixi.lock | YAML | SHA-256 + MD5 | Yes | Okay |
 | yarn.lock (v1) | Custom | None/SHA-1 | Yes | Okay |
 | yarn.lock (Berry) | YAML | SHA-512 (incompatible) | Yes | Okay |
 | package-lock.json | JSON | SHA-512 | Yes | Poor |
