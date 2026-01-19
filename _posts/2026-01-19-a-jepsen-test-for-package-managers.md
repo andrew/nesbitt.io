@@ -5,7 +5,7 @@ date: 2026-01-19 10:00 +0000
 description: "Applying Jepsen-style adversarial testing to package managers."
 tags:
   - package-managers
-  - deep-dive
+  - idea
 draft: true
 ---
 

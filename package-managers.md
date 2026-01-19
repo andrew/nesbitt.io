@@ -51,6 +51,20 @@ description: Posts about package management, dependency resolution, and software
 {%- endfor -%}
 </section>
 
+<h3>Ideas</h3>
+
+{%- assign idea_posts = pm_posts | where_exp: "post", "post.tags contains 'idea'" | sort: "title" -%}
+<section class="posts">
+{%- for post in idea_posts -%}
+<div class="post-item">
+  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+  {%- if post.description -%}
+  <span class="post-description"> — {{ post.description }}</span>
+  {%- endif -%}
+</div>
+{%- endfor -%}
+</section>
+
 <h3>Security</h3>
 
 {%- assign security_posts = pm_posts | where_exp: "post", "post.tags contains 'security'" | sort: "title" -%}
@@ -81,7 +95,7 @@ description: Posts about package management, dependency resolution, and software
 
 <h3>Everything else</h3>
 
-{%- assign categorized_posts = reference_posts | concat: deepdive_posts | concat: tools_posts | concat: security_posts | concat: satire_posts | map: "url" -%}
+{%- assign categorized_posts = reference_posts | concat: deepdive_posts | concat: tools_posts | concat: security_posts | concat: satire_posts | concat: idea_posts | map: "url" -%}
 {%- assign other_posts = pm_posts | sort: "title" -%}
 <section class="posts">
 {%- for post in other_posts -%}

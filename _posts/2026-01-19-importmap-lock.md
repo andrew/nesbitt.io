@@ -7,6 +7,7 @@ tags:
   - package-managers
   - javascript
   - importmap
+  - idea
 ---
 
 The web is the only major software platform without a native dependency manifest. The web runs on URLs and runtime resolution; npm runs on filesystems and build steps. Bundlers have been papering over that mismatch for a decade. Lea Verou's [recent post on web dependencies](https://lea.verou.me/blog/2026/web-deps/) nerd sniped me.
