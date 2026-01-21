@@ -43,3 +43,5 @@ Or copy SKILL.md into your skills directory manually. Once installed, it activat
 I've been using and tweaking this myself for a few days, and without the skill I've seen Claude confidently suggest gems that don't exist, or pin to versions that were current two years ago when the training data was cut. With it, the agent checks RubyGems before recommending anything and tells me when it can't verify a package. That alone has saved me from a few "gem not found" errors and, more importantly, from potentially installing something malicious that an attacker registered under a hallucinated name.
 
 The [repository](https://github.com/andrew/managing-dependencies) is public domain under CC0 if you want to fork it or adapt it for your own use.
+
+None of this makes the agent trustworthy. I've taught the parrot some new phrases about supply chain security, but it's still a parrot. It will hallucinate with total confidence, ignore instructions when it feels like it, and apologize only when caught. Review what it suggests, run it in a sandbox, and don't give it access to production. The parrot does not know what a dependency is.
