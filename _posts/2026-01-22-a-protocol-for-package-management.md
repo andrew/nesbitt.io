@@ -2,7 +2,7 @@
 layout: post
 title: "A Protocol for Package Management"
 date: 2026-01-22 10:00 +0000
-description: "Thinking about package managers as distributed systems with shared semantics."
+description: "A shared vocabulary for resolution, publishing, and governance across ecosystems."
 tags:
   - package-managers
   - idea
