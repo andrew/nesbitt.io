@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [An AI Skill for Skeptical Dependency Management](https://nesbitt.io/2026/01/21/an-ai-skill-for-skeptical-dependency-management.html)
 - [The Lesser Evil of Compliance: Enterprise SBOM Strategy for CRA Readiness](https://nesbitt.io/2026/01/20/the-lesser-evil-of-compliance.html)
 - [importmap.lock: a lockfile for the web](https://nesbitt.io/2026/01/19/importmap-lock.html)
 - [Workspaces and Monorepos in Package Managers](https://nesbitt.io/2026/01/18/workspaces-and-monorepos-in-package-managers.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [16 Best Practices for Reducing Dependabot Noise](https://nesbitt.io/2026/01/10/16-best-practices-for-reducing-dependabot-noise.html)
 - [Package Management Blog Posts](https://nesbitt.io/2026/01/09/package-management-blog-posts.html)
 - [brew-vulns: CVE scanning for Homebrew](https://nesbitt.io/2026/01/08/brew-vulns-cve-scanning-for-homebrew.html)
-- [The Nine Levels of JavaScript Dependency Hell](https://nesbitt.io/2026/01/05/the-nine-levels-of-javascript-dependency-hell.html)
 <!-- POSTS:END -->
