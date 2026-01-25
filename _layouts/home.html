@@ -2,6 +2,25 @@
 layout: default
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Andrew Nesbitt",
+    "url": "{{ site.url }}",
+    "image": "{{ site.url }}/images/boxes.png",
+    "jobTitle": "Software Engineer",
+    "description": "{{ site.description }}",
+    "knowsAbout": ["Package Management", "Open Source", "Software Supply Chain", "Ruby"],
+    "sameAs": [
+      "https://github.com/andrew",
+      "https://mastodon.social/@andrewnez"
+    ]
+  }
+}
+</script>
 
 <div class="row">
   <div class="col-12">

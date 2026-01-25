@@ -5,6 +5,28 @@ permalink: /about/
 description: Andrew Nesbitt is a package management and open source metadata expert, building Ecosyste.ms and tools for understanding software supply chains.
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Andrew Nesbitt",
+    "url": "{{ site.url }}",
+    "image": "{{ site.url }}/images/boxes.png",
+    "jobTitle": "Software Engineer",
+    "description": "{{ page.description }}",
+    "knowsAbout": ["Package Management", "Open Source", "Software Supply Chain", "Ruby"],
+    "sameAs": [
+      "https://github.com/andrew",
+      "https://mastodon.social/@andrewnez",
+      "https://bsky.app/profile/andrewnez.bsky.social",
+      "https://twitter.com/teabass"
+    ]
+  }
+}
+</script>
+
 I'm Andrew Nesbitt. I've spent the last decade thinking about package management.
 
 Package managers are the invisible plumbing of modern software. Millions of developers share code through these systems, trusting that dependencies will resolve, versions will be compatible, and the packages they install are what they claim to be. Most of the time it works. When it doesn't, things break in ways that ripple across the entire ecosystem. I find this [coordination problem endlessly interesting](/2025/12/09/why-im-fascinated-by-package-management).

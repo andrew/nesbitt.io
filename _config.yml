@@ -17,6 +17,16 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
 
 llmstxt:
   full: true

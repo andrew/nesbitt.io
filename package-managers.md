@@ -5,6 +5,35 @@ permalink: /package-managers/
 description: Posts about package management, dependency resolution, and software supply chain.
 ---
 
+{%- assign pm_posts_all = site.posts | where_exp: "post", "post.tags contains 'package-managers'" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ page.title }}",
+  "description": "{{ page.description }}",
+  "url": "{{ page.url | absolute_url }}",
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ pm_posts_all.size }},
+    "itemListElement": [
+      {%- for post in pm_posts_all -%}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": "{{ post.url | absolute_url }}"
+      }{%- unless forloop.last -%},{%- endunless -%}
+      {%- endfor -%}
+    ]
+  }
+}
+</script>
+
 <p>Everything I've written about package managers, organized by type.</p>
 
 {%- assign pm_posts = site.posts | where_exp: "post", "post.tags contains 'package-managers'" -%}
