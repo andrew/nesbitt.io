@@ -13,7 +13,7 @@ description: Andrew Nesbitt is a package management and open source metadata exp
     "@type": "Person",
     "name": "Andrew Nesbitt",
     "url": "{{ site.url }}",
-    "image": "{{ site.url }}/images/boxes.png",
+    "image": "{{ site.url }}/face.jpg",
     "jobTitle": "Software Engineer",
     "description": "{{ page.description }}",
     "knowsAbout": ["Package Management", "Open Source", "Software Supply Chain", "Ruby"],
