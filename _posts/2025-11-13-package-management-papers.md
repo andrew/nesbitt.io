@@ -229,6 +229,12 @@ Dissertation (University of Arizona) -- Chapter 3.8
 
 Describes backtracking dependency resolution.  In contrast to more mathematically advanced techniques, this tries the best match greedily for each package and then rewinds state if there is a conflict.  Through practical use in Stork, this was found to work well for adopters, despite its simplcity.
 
+**[Solving Package Management via Hypergraph Dependency Resolution](https://arxiv.org/abs/2506.10803)** (2025)
+*Ryan Gibb, Patrick Ferris, David Allsopp, Michael Winston Dales, Mark Elvers, Thomas Gazagnaire, Sadiq Jaffer, Thomas Leonard, Jon Ludlam, Anil Madhavapeddy*
+arXiv preprint
+
+Introduces HyperRes, a formal framework modeling dependencies as hypergraphs to address fragmentation across package managers. Demonstrates translation of metadata between different package managers and solving dependency constraints across ecosystems without forcing users to abandon their preferred tools.
+
 **[Using Answer Set Programming for HPC Dependency Solving](https://dl.acm.org/doi/abs/10.5555/3571885.3571931)** (2022)
 *Todd Gamblin, Massimiliano Culpo, Gregory Becker, Sergei Shudler*
 Supercomputing
@@ -289,6 +295,12 @@ Systematized knowledge about secure software supply chain patterns, identifying 
 ACM Transactions on Software Engineering and Methodology (TOSEM)
 
 Survey identifying key research directions in software supply chain security including dependency management, vulnerability detection, and trust models across package ecosystems.
+
+**[Modeling Interconnected Social and Technical Risks in Open Source Software Ecosystems](https://arxiv.org/abs/2205.04268)** (2022)
+*William Schueller, Johannes Wachs*
+arXiv preprint
+
+Examines how social and technical factors interact to create systemic risks in open source ecosystems. Developers often maintain multiple interdependent libraries, meaning individual departures can cascade failures across projects. Develops a framework measuring risk based on both dependency networks and developer involvement, applied to the Rust ecosystem.
 
 **[Software Supply Chain: Review of Attacks, Risk Assessment Strategies and Security Controls](https://arxiv.org/abs/2308.07920)** (2023)
 *Betul Gokkaya, et al.*
@@ -824,6 +836,12 @@ IEEE Symposium on Security and Privacy (S&P)
 
 Study of software signing adoption in Maven, PyPI, DockerHub and Huggingface, finding strict signature rules increase the quantity of signatures and registry policies impact developer decisions.
 
+**[A systematic literature review on trust in the software ecosystem](https://link.springer.com/article/10.1007/s10664-022-10238-y)** (2022)
+*Multiple authors*
+Empirical Software Engineering
+
+Systematic literature review examining trust in software ecosystems, including relationships between end-users and software products, package managers, software producing organizations, and software engineers. Addresses how trust is frequently violated by bad actors and vulnerabilities in the software supply chain.
+
 ## Dependency Management Bots
 
 Research on automated dependency management tools like Dependabot and Renovate.
@@ -1111,6 +1129,24 @@ Method for identifying missing requirements through path analysis.
 MSR
 
 Mining approach for finding installability problems.
+
+**[Software Ecosystems Governance - A Systematic Literature Review and Research Agenda](https://www.scitepress.org/Papers/2017/62694/)** (2017)
+*Carina Alves, Joyce Oliveira, Slinger Jansen*
+ICEIS
+
+Systematic literature review examining how software ecosystems should be managed and controlled. Analyzed 63 studies and classified governance mechanisms into value creation, coordination of players, and organizational openness and control.
+
+**[Giving Back: Contributions Congruent to Library Dependency Changes in a Software Ecosystem](https://arxiv.org/abs/2205.13231)** (2022)
+*Supatsara Wattanakriengkrai, Dong Wang, Raula Gaikovina Kula, Christoph Treude, Patanamon Thongtanunam, Takashi Ishio, Kenichi Matsumoto*
+arXiv preprint
+
+Empirical study of how developers contribute to open-source libraries in relation to dependency changes within npm. Analyzed over 5.3 million commits across 107,242 packages to measure dependency-contribution congruence. Found a statistically significant relationship between such contributions and whether packages become dormant.
+
+**[An empirical study of software ecosystem related tweets by npm maintainers](https://peerj.com/articles/cs-1669/)** (2023)
+*Syful Islam, Yusuf Sulistyo Nugroho, et al.*
+PeerJ Computer Science
+
+Analyzed approximately 1,176 tweets from npm package maintainers to categorize discussion topics, communication styles, and emotional tone. Found package management issues dominate discussions and maintainers express predominantly neutral sentiment about technical matters.
 
 ## LLMs and Package Hallucinations (Slopsquatting)
 
