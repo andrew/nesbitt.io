@@ -13,6 +13,12 @@ tags:
 
 There's been all kinds of interesting academic research on package management systems, dependency resolution algorithms, software supply chain security, and package ecosystem analysis over the years. Below is a curated list of papers I've found interesting, it's not exhaustive but covers a good chunk of the literature.
 
+**[An Overview and Catalogue of Dependency Challenges in Open Source Software Package Registries](https://arxiv.org/abs/2409.18884)** (2024)
+*Tom Mens, Alexandre Decan*
+arXiv preprint
+
+Comprehensive literature review and survey of package dependency management research. Catalogues dependency-related challenges including dependency hell, technical lag, security vulnerabilities, and supply chain attacks. Covers SCA tools, SBOMs, and SLSA security levels. Good starting point for researchers and practitioners new to the field.
+
 The papers are organized by topic and include brief descriptions along with author names and publication years. This is a living document—if you know of papers that should be included, please reach out on [Mastodon](https://mastodon.social/@andrewnez) or open a pull request on [GitHub](https://github.com/andrew/nesbitt.io/blob/master/_posts/2025-11-13-package-management-papers.md).
 
 ## Package Management Security
@@ -87,6 +93,12 @@ ACM Joint European Software Engineering Conference and Symposium on the Foundati
 
 Ecosystem-scale study of ReDoS vulnerabilities in npm and PyPI. Found thousands of super-linear regexes affecting over 10,000 modules. 93% of vulnerable regexes are polynomial rather than exponential, missed by common detection tools.
 
+**[Thou Shalt Not Depend on Me: Analysing the Use of Outdated JavaScript Libraries on the Web](https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_02B-1_Lauinger_paper.pdf)** (2017)
+*Tobias Lauinger, Abdelberi Chaabane, Sajjad Arshad, William Robertson, Christo Wilson, Engin Kirda*
+Network and Distributed System Security Symposium (NDSS)
+
+First comprehensive study of client-side JavaScript library usage across 133K websites. Found 37% include at least one library with a known vulnerability. Median site uses library versions released 1,177 days before newest available release.
+
 ## Lockfiles
 
 Research on lockfile design, usage, and their role in dependency management.
@@ -102,6 +114,12 @@ First study of lockfiles across seven package managers (npm, pnpm, Cargo, Poetry
 IEEE Software
 
 Overview of the reproducible builds movement and its importance for software supply chain security. Discusses how bit-for-bit reproducibility enables independent verification of build artifacts.
+
+**[It's Like Flossing Your Teeth: On the Importance and Challenges of Reproducible Builds for Software Supply Chain Security](https://ieeexplore.ieee.org/document/10179304)** (2023)
+*Marcel Fourné, Dominik Wermke, William Enck, Sascha Fahl, Yasemin Acar*
+IEEE Symposium on Security and Privacy (S&P)
+
+24 semi-structured interviews with Reproducible-Builds.org participants. Found self-effective work by highly motivated developers and collaborative communication with upstream projects are key to achieving reproducible builds. Identifies path for R-Bs to become commonplace.
 
 **[Investigating the reproducibility of npm packages](https://ieeexplore.ieee.org/document/9240691)** (2020)
 *Pronnoy Goswami, Saksham Gupta, Zhiyuan Li, Na Meng, Daphne Yao*
@@ -313,6 +331,12 @@ Survey identifying key research directions in software supply chain security inc
 arXiv preprint
 
 Examines how social and technical factors interact to create systemic risks in open source ecosystems. Developers often maintain multiple interdependent libraries, meaning individual departures can cascade failures across projects. Develops a framework measuring risk based on both dependency networks and developer involvement, applied to the Rust ecosystem.
+
+**[Out of Sight, Out of Mind? How Vulnerable Dependencies Affect Open-Source Projects](https://link.springer.com/article/10.1007/s10664-021-09959-3)** (2021)
+*Gede Artha Azriadi Prana, Abhishek Sharma, Lwin Khin Shar, Darius Foo, Andrew Santosa, Asankhaya Sharma, David Lo*
+Empirical Software Engineering
+
+Analyzed vulnerabilities in 450 Java, Python, and Ruby projects using industrial SCA tool. Found vulnerabilities persist 3-5 months after fixes become available. Highlights importance of managing dependency count and performing timely updates.
 
 **[Software Supply Chain: Review of Attacks, Risk Assessment Strategies and Security Controls](https://arxiv.org/abs/2308.07920)** (2023)
 *Betul Gokkaya, et al.*
@@ -639,6 +663,12 @@ Four-month field study with developers of 400 popular Java libraries. Found brea
 IEEE/ACM International Conference on Automated Software Engineering (ASE) - Distinguished Paper Award
 
 Addresses semantic breaking where APIs have identical signatures but inconsistent semantics. Proposes Sembid tool achieving 90.26% recall. Empirical study on 1.6M APIs found 2-4x more semantic breaking than signature-based issues.
+
+**[When and How to Make Breaking Changes: Policies and Practices in 18 Open Source Software Ecosystems](https://dl.acm.org/doi/10.1145/3447245)** (2021)
+*Chris Bogart, Christian Kästner, James Herbsleb, Ferdian Thung*
+ACM Transactions on Software Engineering and Methodology (TOSEM)
+
+Comparative study of breaking change policies across 18 ecosystems combining repository mining, document analysis, and large-scale survey. Found practices and values are cohesive within ecosystems but diverse across them. Eclipse's "prime directive" never permits breaking changes; other ecosystems balance differently.
 
 **[Possible directions for improving dependency versioning in R](https://arxiv.org/abs/1303.2140)** (2013)
 *Multiple authors*
@@ -988,6 +1018,12 @@ Empirical Software Engineering
 
 Empirical study on library migration covering 4,600+ GitHub projects and 2,700 library dependencies. Found 81.5% of systems keep outdated dependencies, and developers rarely respond to security advisories. Introduced the Library Migration Plot (LMP) visualization.
 
+**[A Large-Scale Empirical Study on Java Library Migrations: Prevalence, Trends, and Rationales](https://dl.acm.org/doi/10.1145/3468264.3468571)** (2021)
+*Hao He, Runzhi He, Haiqiao Gu, Minghui Zhou*
+ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)
+
+Commit-level analysis of 19,652 Java projects extracting 1,194 migration rules and 3,163 migration commits. Found migrations dominated by logging, JSON, testing, and web service domains. Identified 14 migration reasons, 7 not discussed in prior work.
+
 **[Modeling Library Dependencies and Updates in Large Software Repository Universes](https://arxiv.org/abs/1709.04626)** (2017)
 *Raula Gaikovina Kula, Coen De Roover, Daniel M. German, Takashi Ishio, Katsuro Inoue*
 arXiv preprint
@@ -1040,6 +1076,18 @@ IEEE/ACM International Conference on Software Engineering (ICSE)
 
 Studies how developers respond when their dependencies are abandoned, analyzing response patterns and mitigation strategies in the npm ecosystem.
 
+**[Underproduction: An Approach for Measuring Risk in Open Source Software](https://ieeexplore.ieee.org/document/9426043/)** (2021)
+*Kaylea Champion, Benjamin Mako Hill*
+IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
+
+Introduces framework for identifying underproduction where software engineering labor supply is misaligned with demand. Applied to 21,902 Debian packages and 461,656 bugs, finding at least 4,327 packages are underproduced. Desktop environments particularly at risk.
+
+**[Deprecation of Packages and Releases in Software Ecosystems: A Case Study on npm](https://ieeexplore.ieee.org/document/9351569/)** (2022)
+*Filipe Cogo, Gustavo Oliva, Ahmed E. Hassan*
+IEEE Transactions on Software Engineering
+
+Examines npm's deprecation mechanism. Found 3.7% of packages have at least one deprecated release, and 66% of those have deprecated all releases, preventing migration to replacements. Transitive adoption of deprecated releases is challenging to track.
+
 **[The Evolution of Project Inter-dependencies in a Software Ecosystem: The Case of Apache](https://ieeexplore.ieee.org/document/6676899/)** (2013)
 *Gabriele Bavota, Gerardo Canfora, Massimiliano Di Penta, Rocco Oliveto*
 IEEE International Conference on Software Maintenance (ICSM)
@@ -1075,6 +1123,12 @@ Historical perspective on package incompatibilities in Debian.
 Academic publication
 
 Investigation of why developers depend on trivial packages.
+
+**[On the Impact of Using Trivial Packages: An Empirical Case Study on npm and PyPI](https://link.springer.com/article/10.1007/s10664-019-09792-9)** (2020)
+*Rabe Abdalkareem, Vinicius Oda, Suhaib Mujahid, Emad Shihab*
+Empirical Software Engineering
+
+Follow-up study finding 16% of npm and 10.5% of PyPI packages are trivial. Survey of 125 developers found they believe trivial packages are well-tested, but only 28% of npm and 49% of PyPI trivial packages actually have tests. 18.4% of npm trivial packages have more than 20 dependencies.
 
 **[Towards Smoother Library Migrations: A Look at Vulnerable Dependency Migrations at Function Level for npm JavaScript Packages](https://ieeexplore.ieee.org/document/8530065/)** (2018)
 *Multiple authors*
