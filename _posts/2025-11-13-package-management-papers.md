@@ -81,6 +81,12 @@ ACM Queue
 
 Influential essay on managing software dependencies at scale. Discusses version selection, minimum version selection (used in Go), and the tradeoffs between different dependency management approaches. Required reading for anyone working on package managers.
 
+**[The Impact of Regular Expression Denial of Service (ReDoS) in Practice](https://dl.acm.org/doi/10.1145/3236024.3236027)** (2018)
+*James Davis, Christy Coghlan, Francisco Servant, Dongyoon Lee*
+ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) - Distinguished Paper Award
+
+Ecosystem-scale study of ReDoS vulnerabilities in npm and PyPI. Found thousands of super-linear regexes affecting over 10,000 modules. 93% of vulnerable regexes are polynomial rather than exponential, missed by common detection tools.
+
 ## Lockfiles
 
 Research on lockfile design, usage, and their role in dependency management.
@@ -108,6 +114,12 @@ Empirical study of npm package reproducibility, analyzing factors that affect wh
 arXiv preprint
 
 Study finding that local pinning leads to more security vulnerabilities due to bloated and outdated dependencies. Suggests risk of malicious package updates can be reduced when core dependencies pin their versions and keep them updated regularly.
+
+**[Maven-Lockfile: High Integrity Rebuild of Past Java Releases](https://arxiv.org/abs/2510.00730)** (2025)
+*Larissa Schmid, et al.*
+arXiv preprint
+
+Addresses Maven's lack of native lockfile support. Presents Maven-Lockfile to generate and update lockfiles capturing all direct and transitive dependencies with checksums. Enables high integrity builds and can detect tampered artifacts.
 
 **[Does Functional Package Management Enable Reproducible Builds at Scale? Yes.](https://arxiv.org/abs/2501.15919)** (2025)
 *Julien Malka, Stefano Zacchiroli, Théo Zimmermann*
@@ -372,6 +384,12 @@ ACM Joint European Software Engineering Conference and Symposium on the Foundati
 
 Introduced dataset architecture that archives metadata and code of all npm packages as published, including deleted versions (330,000+ versions deleted between July 2022-May 2023).
 
+**[npm-miner: An Infrastructure for Measuring the Quality of the npm Registry](https://dl.acm.org/doi/10.1145/3196398.3196465)** (2018)
+*Kyriakos Chatzidimitriou, Michail Papamichail, Themistoklis Diamantopoulos, Michail Tsapanos, Andreas Symeonidis*
+International Conference on Mining Software Repositories (MSR)
+
+Infrastructure that crawls npm and analyzes packages using static analysis to extract quality metrics including maintainability and security. Identified ecosystem issues like packages with broken GitHub URLs and copied-pasted projects with only package names changed.
+
 **[On the accuracy of github's dependency graph](https://dl.acm.org/doi/10.1145/3661167.3661175)** (2024)
 *Daniele Bifolco, Sara Nocera, Simone Romano, Massimiliano Di Penta, Rita Francese, Giuseppe Scanniello*
 International Conference on Evaluation and Assessment in Software Engineering (EASE)
@@ -419,6 +437,18 @@ Introduced customizable framework comprising dependency graph metamodel with tem
 arXiv preprint
 
 Most recent large-scale Maven vulnerability study analyzing 4 million releases. Found only 1% of releases have direct vulnerabilities, but 46.8% are affected by transitive vulnerabilities. Patch time often spans several years even for critical vulnerabilities. Demonstrates more central artifacts are not necessarily less vulnerable.
+
+**[Out of Sight, Still at Risk: The Lifecycle of Transitive Vulnerabilities in Maven](https://arxiv.org/abs/2504.04803)** (2025)
+*Piotr Przymus, Mikołaj Fejzer, Jakub Narębski, Krzysztof Rykaczewski, Krzysztof Stencel*
+IEEE/ACM International Conference on Mining Software Repositories (MSR)
+
+Uses survival analysis to measure how long projects remain exposed after CVE introduction. Shows vulnerabilities at deeper dependency levels persist longer due to compounded resolution delays. Mean time to fix rises from 215 days at level 0 to 2,075 days at level 10.
+
+**[How Deep Does Your Dependency Tree Go? An Empirical Study of Dependency Amplification Across 10 Package Ecosystems](https://arxiv.org/abs/2512.14739)** (2025)
+*Jahidul Arafat*
+arXiv preprint
+
+Studies dependency amplification (ratio of transitive to direct dependencies) across 500 projects in 10 ecosystems. Maven exhibits highest mean amplification at 24.7x compared to 4.3x for npm. Challenges prevailing assumptions that npm's preference for small packages leads to highest amplification.
 
 **[Understanding Software Vulnerabilities in the Maven Ecosystem](https://arxiv.org/abs/2503.22391)** (2025)
 *Multiple authors*
@@ -538,6 +568,18 @@ IEEE Transactions on Software Engineering
 
 Analyzed relationship between dependency declarations and semantic versioning across multiple package ecosystems, revealing disconnect between versioning theory and developer practices.
 
+**[Technical Lag in Software Compilations: Measuring How Outdated a Software Deployment Is](https://link.springer.com/chapter/10.1007/978-3-319-57735-7_17)** (2017)
+*Jesús M. González-Barahona, Paul Sherwood, Gregorio Robles, Daniel Izquierdo*
+IFIP International Conference on Open Source Systems (OSS)
+
+Introduces the concept of technical lag for measuring how outdated a deployed system is. Proposes theoretical model to assist decisions about upgrading in production, balancing being up-to-date against keeping working versions.
+
+**[A Formal Framework for Measuring Technical Lag in Component Repositories](https://onlinelibrary.wiley.com/doi/10.1002/smr.2157)** (2019)
+*Ahmed Zerouali, Tom Mens, Jesús González-Barahona, Alexandre Decan, Eleni Constantinou, Gregorio Robles*
+Journal of Software: Evolution and Process
+
+Formalizes a generic model of technical lag quantifying how outdated a deployed collection of components is. Operationalizes the model for npm and analyzes 500K+ packages over seven years, considering direct and transitive dependencies.
+
 **[On the Evolution of Technical Lag in the npm Package Dependency Network](https://ieeexplore.ieee.org/document/8530047)** (2018)
 *Alexandre Decan, Tom Mens, Eleni Constantinou*
 IEEE International Conference on Software Maintenance and Evolution (ICSME)
@@ -573,6 +615,30 @@ Quantitative evaluation of the impact of breaking updates on dependent packages 
 IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM) / Journal of Systems and Software
 
 Analyzed 100,000+ JAR files from Maven Central over 7 years covering 22,000+ libraries. Found approximately one-third of all releases introduce breaking changes, often violating semantic versioning conventions.
+
+**[Breaking Bad? Semantic Versioning and Impact of Breaking Changes in Maven Central](https://link.springer.com/article/10.1007/s10664-021-10052-y)** (2021)
+*Lina Ochoa, Thomas Degueule, Jean-Rémy Falleri, Jurgen Vinju*
+Empirical Software Engineering
+
+External replication of Raemaekers et al. with different findings: 83.4% of upgrades comply with semver regarding backwards compatibility. Found most breaking changes affect code not used by any client, and only 7.9% of clients are affected by breaking changes.
+
+**[How Java APIs Break – An Empirical Study](https://www.sciencedirect.com/science/article/abs/pii/S0950584915000506)** (2015)
+*Kamil Jezek, Jens Dietrich, Premek Brada*
+Information and Software Technology
+
+Study of 109 Java open-source programs and 564 versions showing APIs are commonly unstable. Analyzes patterns of API breaking changes and their impact on dependent systems.
+
+**[Why and How Java Developers Break APIs](https://ieeexplore.ieee.org/document/8330214/)** (2018)
+*Aline Brito, Laerte Xavier, André Hora, Marco Tulio Valente*
+IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
+
+Four-month field study with developers of 400 popular Java libraries. Found breaking changes are mostly motivated by implementing new features, simplifying APIs, and improving maintainability. Developers rarely deprecate elements before changes due to maintenance overhead.
+
+**[Has My Release Disobeyed Semantic Versioning? Static Detection Based on Semantic Differencing](https://dl.acm.org/doi/10.1145/3551349.3556956)** (2022)
+*Lyuye Zhang, Chengwei Liu, Zhengzi Xu, Sen Chen, Lingling Fan, Bihuan Chen, Yang Liu*
+IEEE/ACM International Conference on Automated Software Engineering (ASE) - Distinguished Paper Award
+
+Addresses semantic breaking where APIs have identical signatures but inconsistent semantics. Proposes Sembid tool achieving 90.26% recall. Empirical study on 1.6M APIs found 2-4x more semantic breaking than signature-based issues.
 
 **[Possible directions for improving dependency versioning in R](https://arxiv.org/abs/1303.2140)** (2013)
 *Multiple authors*
@@ -802,6 +868,12 @@ IEEE European Symposium on Security and Privacy Workshops (Euro S&P)
 
 Studies typosquatting and combosquatting attacks on PyPI. Combosquatting exploits mistakes in the order of package names consisting of multiple nouns (e.g., "python-nmap" typed as "nmap-python"). Proposes automated approach to identify combosquatting and typosquatting package names.
 
+**[Practical Automated Detection of Malicious npm Packages](https://dl.acm.org/doi/10.1145/3510003.3510104)** (2022)
+*Adriana Sejfia, Max Schäfer*
+IEEE/ACM International Conference on Software Engineering (ICSE)
+
+Presents Amalfi, combining ML classifiers, a reproducer for identifying packages rebuildable from source, and a clone detector for known malicious packages. Identified 95 previously unknown malicious packages over seven days. Found malicious packages more likely to contain minified code or binaries.
+
 **[TypoSmart: A Low False-Positive System for Detecting Malicious and Stealthy Typosquatting Threats in Package Registries](https://arxiv.org/abs/2502.20528)** (2025)
 *Multiple authors*
 arXiv preprint
@@ -841,6 +913,12 @@ Study of software signing adoption in Maven, PyPI, DockerHub and Huggingface, fi
 Empirical Software Engineering
 
 Systematic literature review examining trust in software ecosystems, including relationships between end-users and software products, package managers, software producing organizations, and software engineers. Addresses how trust is frequently violated by bad actors and vulnerabilities in the software supply chain.
+
+**[Sigstore: Software Signing for Everybody](https://dl.acm.org/doi/10.1145/3548606.3560596)** (2022)
+*Zachary Newman, John Speed Meyers, Santiago Torres-Arias*
+ACM Conference on Computer and Communications Security (CCS)
+
+Academic analysis of Sigstore's keyless signing infrastructure. Describes formal attacker model and possible attack avenues. Sigstore uses identity-based signing (OAuth/OIDC) rather than traditional key management, now adopted by npm, PyPI, and major Linux distributions.
 
 ## Dependency Management Bots
 
@@ -1129,6 +1207,12 @@ Method for identifying missing requirements through path analysis.
 MSR
 
 Mining approach for finding installability problems.
+
+**[Measuring the Health of Open Source Software Ecosystems: Beyond the Scope of Project Health](https://www.sciencedirect.com/science/article/abs/pii/S0950584914000871)** (2014)
+*Slinger Jansen*
+Information and Software Technology
+
+First model for measuring open source ecosystem health, evaluating productivity, robustness, and niche creation. Distinguishes ecosystem health from project health, recognizing that ecosystem health involves multiple interrelated projects, contributors, and end-users.
 
 **[Software Ecosystems Governance - A Systematic Literature Review and Research Agenda](https://www.scitepress.org/Papers/2017/62694/)** (2017)
 *Carina Alves, Joyce Oliveira, Slinger Jansen*
