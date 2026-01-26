@@ -99,11 +99,11 @@ task :archive_papers, [:mode] do |t, args|
     updated_content = content.dup
     results[:archived].each do |paper|
       next if paper[:url] == paper[:archive]  # Skip if already an archive link
-      next if updated_content.include?("([archive]")  # Skip if already has archive link
 
       old_link = "**[#{paper[:title]}](#{paper[:url]})**"
-      new_link = "**[#{paper[:title]}](#{paper[:url]})** ([archive](#{paper[:archive]}))"
+      next if updated_content.include?("#{old_link} ([archive]")  # Skip if this paper already has archive link
 
+      new_link = "**[#{paper[:title]}](#{paper[:url]})** ([archive](#{paper[:archive]}))"
       updated_content.gsub!(old_link, new_link)
     end
 
