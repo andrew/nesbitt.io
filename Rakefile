@@ -1,5 +1,126 @@
 task default: :test
 
+desc "Add archive.org links to papers post"
+task :archive_papers, [:mode] do |t, args|
+  require 'net/http'
+  require 'json'
+  require 'uri'
+
+  papers_file = "_posts/2025-11-13-package-management-papers.md"
+  content = File.read(papers_file)
+  mode = args[:mode] || "report"  # report, save, or update
+
+  # Extract paper URLs (markdown links starting with **)
+  paper_links = content.scan(/\*\*\[([^\]]+)\]\(([^)]+)\)\*\*/)
+
+  puts "Found #{paper_links.size} papers\n\n"
+
+  results = { archived: [], missing: [], errors: [] }
+
+  paper_links.each_with_index do |(title, url), i|
+    print "\r[#{i + 1}/#{paper_links.size}] Checking..."
+    $stdout.flush
+
+    begin
+      # Skip archive.org URLs themselves
+      if url.include?("archive.org")
+        results[:archived] << { title: title, url: url, archive: url }
+        next
+      end
+
+      # Check Wayback Machine availability
+      check_uri = URI("https://archive.org/wayback/available?url=#{URI.encode_www_form_component(url)}")
+      response = Net::HTTP.get_response(check_uri)
+      data = JSON.parse(response.body)
+
+      if data.dig("archived_snapshots", "closest", "available")
+        archive_url = data.dig("archived_snapshots", "closest", "url")
+        results[:archived] << { title: title, url: url, archive: archive_url }
+      else
+        results[:missing] << { title: title, url: url }
+
+        # Save to Wayback Machine if requested
+        if mode == "save"
+          print "\r[#{i + 1}/#{paper_links.size}] Saving #{url[0, 50]}..."
+          $stdout.flush
+          save_uri = URI("https://web.archive.org/save/#{url}")
+          begin
+            save_response = Net::HTTP.get_response(save_uri)
+            if save_response.is_a?(Net::HTTPSuccess) || save_response.is_a?(Net::HTTPRedirection)
+              puts "\n  Saved: #{url}"
+            end
+          rescue => e
+            puts "\n  Failed to save: #{e.message}"
+          end
+          sleep 5  # Rate limit for save requests
+        end
+      end
+
+      sleep 0.5  # Rate limit for API
+    rescue => e
+      results[:errors] << { title: title, url: url, error: e.message }
+    end
+  end
+
+  puts "\r" + " " * 60 + "\r"  # Clear progress line
+
+  # Report
+  puts "=" * 60
+  puts "ARCHIVE STATUS REPORT"
+  puts "=" * 60
+  puts "\nArchived: #{results[:archived].size}"
+  puts "Missing:  #{results[:missing].size}"
+  puts "Errors:   #{results[:errors].size}"
+
+  if results[:missing].any?
+    puts "\n" + "-" * 60
+    puts "MISSING FROM ARCHIVE:"
+    puts "-" * 60
+    results[:missing].each do |paper|
+      puts "  #{paper[:title][0, 50]}..."
+      puts "  #{paper[:url]}"
+      puts
+    end
+  end
+
+  if results[:errors].any?
+    puts "\n" + "-" * 60
+    puts "ERRORS:"
+    puts "-" * 60
+    results[:errors].each do |paper|
+      puts "  #{paper[:title][0, 50]}: #{paper[:error]}"
+    end
+  end
+
+  # Update file if requested
+  if mode == "update" && results[:archived].any?
+    puts "\nUpdating #{papers_file}..."
+
+    updated_content = content.dup
+    results[:archived].each do |paper|
+      next if paper[:url] == paper[:archive]  # Skip if already an archive link
+      next if updated_content.include?("([archive]")  # Skip if already has archive link
+
+      old_link = "**[#{paper[:title]}](#{paper[:url]})**"
+      new_link = "**[#{paper[:title]}](#{paper[:url]})** ([archive](#{paper[:archive]}))"
+
+      updated_content.gsub!(old_link, new_link)
+    end
+
+    if updated_content != content
+      File.write(papers_file, updated_content)
+      puts "Updated file with archive links"
+    else
+      puts "No changes made"
+    end
+  end
+
+  puts "\nUsage:"
+  puts "  rake archive_papers           # Report only"
+  puts "  rake archive_papers[save]     # Save missing to archive.org"
+  puts "  rake archive_papers[update]   # Add archive links to file"
+end
+
 desc "Build the site and check workflows"
 task :test do
   sh "bundle exec jekyll build"
