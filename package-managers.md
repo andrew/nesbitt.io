@@ -52,6 +52,20 @@ description: Posts about package management, dependency resolution, and software
 {%- endfor -%}
 </section>
 
+<h3>Ideas</h3>
+
+{%- assign idea_posts = pm_posts | where_exp: "post", "post.tags contains 'idea'" | sort: "title" -%}
+<section class="posts">
+{%- for post in idea_posts -%}
+<div class="post-item">
+  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+  {%- if post.description -%}
+  <span class="post-description"> — {{ post.description }}</span>
+  {%- endif -%}
+</div>
+{%- endfor -%}
+</section>
+
 <h3>Deep dives</h3>
 
 {%- assign deepdive_posts = pm_posts | where_exp: "post", "post.tags contains 'deep-dive'" | sort: "title" -%}
@@ -71,20 +85,6 @@ description: Posts about package management, dependency resolution, and software
 {%- assign tools_posts = pm_posts | where_exp: "post", "post.tags contains 'tools'" | sort: "title" -%}
 <section class="posts">
 {%- for post in tools_posts -%}
-<div class="post-item">
-  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-  {%- if post.description -%}
-  <span class="post-description"> — {{ post.description }}</span>
-  {%- endif -%}
-</div>
-{%- endfor -%}
-</section>
-
-<h3>Ideas</h3>
-
-{%- assign idea_posts = pm_posts | where_exp: "post", "post.tags contains 'idea'" | sort: "title" -%}
-<section class="posts">
-{%- for post in idea_posts -%}
 <div class="post-item">
   <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
   {%- if post.description -%}
