@@ -2,7 +2,7 @@
 layout: post
 title: "Workspaces and Monorepos in Package Managers"
 date: 2026-01-18 10:00 +0000
-description: "A deep dive into how various package managers implement workspaces and their relationship with monorepos."
+description: "How various package managers implement workspaces and their relationship with monorepos."
 tags:
   - package-managers
   - monorepo
@@ -40,9 +40,9 @@ Workspaces solve "these packages are developed together." Monorepos solve "all o
 
 Running `npm install` creates symlinks from `node_modules` to each workspace package. If package-b lists package-a as a dependency, npm links to the local copy instead of fetching from the registry. Dependencies get hoisted to the root `node_modules` where possible, which can cause phantom dependency issues (more on that below). npm has no special publish support for workspaces. The escape hatch for manual linking is `npm link`.
 
-**[Yarn](https://yarnpkg.com/features/workspaces)** works similarly but had workspaces from the start. [Yarn 1 popularized the pattern](https://classic.yarnpkg.com/blog/2017/08/02/introducing-workspaces/). Yarn Berry (v2+) changed the internals but kept the same configuration. Like npm, Yarn hoists dependencies and has no workspace-aware publishing.
+**[Yarn](https://yarnpkg.com/features/workspaces)** works similarly but had workspaces from the start. [Yarn 1 popularized the pattern](https://classic.yarnpkg.com/blog/2017/08/02/introducing-workspaces/). Yarn Berry (v2+) changed the internals but kept the same configuration. Yarn 1 hoists like npm, but Yarn Berry's [PnP mode](https://yarnpkg.com/features/pnp) eliminates `node_modules` entirely and enforces strict dependency resolution, preventing phantom dependencies. Yarn also supports the [`workspace:` protocol](https://yarnpkg.com/features/workspaces#workspace-ranges-workspace) like pnpm.
 
-**[pnpm](https://pnpm.io/workspaces)** differs in two ways. First, it doesn't hoist dependencies to the root. Each package gets its own `node_modules` with symlinks into pnpm's content-addressable store. This means packages can only import what they explicitly declare. Second, pnpm has the [`workspace:` protocol](https://pnpm.io/workspaces#workspace-protocol-workspace):
+**[pnpm](https://pnpm.io/workspaces)** doesn't hoist dependencies to the root. Each package gets its own `node_modules` with symlinks into pnpm's content-addressable store. This means packages can only import what they explicitly declare. pnpm and Yarn Berry both support the [`workspace:` protocol](https://pnpm.io/workspaces#workspace-protocol-workspace):
 
 ```json
 {
@@ -52,7 +52,7 @@ Running `npm install` creates symlinks from `node_modules` to each workspace pac
 }
 ```
 
-This tells pnpm to always resolve from the workspace, never the registry. When you publish, pnpm replaces `workspace:*` with the actual version number. npm and Yarn don't have this, so it's easier to accidentally publish a package that references a local path. The strict isolation catches dependency bugs earlier, at the cost of some migration pain from npm or Yarn.
+This tells pnpm to always resolve from the workspace, never the registry. When you publish, pnpm replaces `workspace:*` with the actual version number. Yarn Berry supports this protocol too. npm doesn't, so with npm it's easier to accidentally publish a package that references a local path.
 
 **[Bun](https://bun.sh/docs/install/workspaces)** supports workspaces with the same configuration as npm and Yarn. It uses the `workspaces` field in package.json and creates symlinks like the others. Bun's speed advantage applies to workspace installs too.
 
@@ -156,7 +156,7 @@ For centralized dependency management, NuGet supports `Directory.Packages.props`
 
 ### Common problems
 
-**Phantom dependencies.** npm and Yarn hoist dependencies to the root `node_modules`. A package can import something it doesn't declare, as long as a sibling declared it and it got hoisted. This works in the workspace but breaks when you publish the package and a consumer installs it standalone. pnpm avoids this by not hoisting.[^1]
+**Phantom dependencies.** npm and Yarn 1 hoist dependencies to the root `node_modules`. A package can import something it doesn't declare, as long as a sibling declared it and it got hoisted. This works in the workspace but breaks when you publish the package and a consumer installs it standalone. pnpm avoids this by not hoisting.[^1] Yarn Berry's PnP mode also prevents this by enforcing strict dependency resolution.
 
 **Version mismatches.** In a workspace, `"sibling": "^1.0.0"` resolves to whatever version is on disk, even if the local package.json says version 2.0.0. The version constraint is ignored during development. You only find out there's a mismatch after publishing.
 
