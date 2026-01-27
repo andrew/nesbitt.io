@@ -127,7 +127,7 @@ IEEE International Conference on Software Maintenance and Evolution (ICSME)
 
 Empirical study of npm package reproducibility, analyzing factors that affect whether packages can be rebuilt identically from source.
 
-**[Pinning is futile: You need more than local dependency versioning to defend against supply chain attacks](https://arxiv.org/abs/2502.06662)** (2025)
+**[Pinning is futile: You need more than local dependency versioning to defend against supply chain attacks](https://arxiv.org/abs/2502.06662)** ([archive](http://web.archive.org/web/20260127103135/https://arxiv.org/abs/2502.06662)) (2025)
 *Hao He, Bogdan Vasilescu, Christian Kästner*
 arXiv preprint
 
@@ -199,7 +199,7 @@ Technical Report
 
 Presented abstract model of dependency relationships and restartable best-first-search technique for dependency resolution. Documents theoretical approach behind aptitude's problem resolver.
 
-**[Dependency Solving Is Still Hard, but We Are Getting Better at It](https://arxiv.org/abs/2011.07851)** (2020)
+**[Dependency Solving Is Still Hard, but We Are Getting Better at It](https://arxiv.org/abs/2011.07851)** ([archive](http://web.archive.org/web/20251208110940/https://arxiv.org/abs/2011.07851)) (2020)
 *Pietro Abate, Roberto Di Cosmo, Georgios Gousios, Stefano Zacchiroli*
 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
 
@@ -290,7 +290,7 @@ reproducibility for mixed (or "impure" in nix-speak) installations.
 
 Research on supply chain attacks, detection methods, and prevention frameworks.
 
-**[in-toto: Providing Farm-to-Table Guarantees for Bits and Bytes](https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias)** (2019)
+**[in-toto: Providing Farm-to-Table Guarantees for Bits and Bytes](https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias)** ([archive](http://web.archive.org/web/20251230045420/https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias)) (2019)
 *Santiago Torres-Arias, Hammad Afzali, Trishank Kuppusamy, Reza Curtmola, Justin Cappos*
 USENIX Security Symposium
 
@@ -314,7 +314,7 @@ IEEE Symposium on Security and Privacy (S&P)
 
 Systematized knowledge about attacks on open-source software supply chains, proposing taxonomy independent of specific languages or ecosystems. Identified 12 distinct attack categories and analyzed their prevalence.
 
-**[SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties](https://dl.acm.org/doi/10.1145/3560835.3564556)** (2022)
+**[SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties](https://dl.acm.org/doi/10.1145/3560835.3564556)** ([archive](http://web.archive.org/web/20250626110144/https://dl.acm.org/doi/10.1145/3560835.3564556)) (2022)
 *Chinenye Okafor, James Davis, et al.*
 ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)
 
@@ -326,7 +326,7 @@ ACM Transactions on Software Engineering and Methodology (TOSEM)
 
 Survey identifying key research directions in software supply chain security including dependency management, vulnerability detection, and trust models across package ecosystems.
 
-**[Modeling Interconnected Social and Technical Risks in Open Source Software Ecosystems](https://arxiv.org/abs/2205.04268)** (2022)
+**[Modeling Interconnected Social and Technical Risks in Open Source Software Ecosystems](https://arxiv.org/abs/2205.04268)** ([archive](http://web.archive.org/web/20250604175554/https://arxiv.org/abs/2205.04268)) (2022)
 *William Schueller, Johannes Wachs*
 arXiv preprint
 
@@ -380,7 +380,7 @@ ACM Joint Meeting on European Software Engineering Conference and Symposium on t
 
 Proposed methodology for identifying discrepancies between source code repositories (GitHub) and distributed packages (PyPI). Analyzed 2,438 popular PyPI packages, finding on average 5.8% of artifacts and 2.6% of files have changes.
 
-**[Towards Using Source Code Repositories to Identify Software Supply Chain Attacks](https://dl.acm.org/doi/10.1145/3411508.3421375)** (2020)
+**[Towards Using Source Code Repositories to Identify Software Supply Chain Attacks](https://dl.acm.org/doi/10.1145/3411508.3421375)** ([archive](http://web.archive.org/web/20250303120246/https://dl.acm.org/doi/10.1145/3411508.3421375)) (2020)
 *Duc-Ly Vu, Ivan Pashchenko, Fabio Massacci, Henrik Plate, Antonino Sabetta*
 ACM Conference on Computer and Communications Security (CCS)
 
@@ -426,13 +426,13 @@ IEEE/ACM International Conference on Software Engineering (ICSE)
 
 In-depth study of conflicts between peer dependencies in npm, examining how circular peer dependencies create resolution loops.
 
-**[An Empirical Analysis of Technical Lag in npm Package Dependencies](https://link.springer.com/chapter/10.1007/978-3-319-90421-4_6)** (2018)
+**[An Empirical Analysis of Technical Lag in npm Package Dependencies](https://link.springer.com/chapter/10.1007/978-3-319-90421-4_6)** ([archive](http://web.archive.org/web/20260127104258/https://link.springer.com/chapter/10.1007/978-3-319-90421-4_6?)) (2018)
 *Ahmed Zerouali, Eleni Constantinou, Tom Mens, Gregorio Robles, Jesús M. González-Barahona*
 International Conference on Software Reuse (ICSR)
 
 Introduced technical lag metric to assess how outdated packages are compared to latest releases, finding strong presence caused by dependency constraints indicating reluctance to update.
 
-**[An Empirical Analysis of the Python Package Index (PyPI)](https://arxiv.org/abs/1907.11073)** (2019)
+**[An Empirical Analysis of the Python Package Index (PyPI)](https://arxiv.org/abs/1907.11073)** ([archive](http://web.archive.org/web/20260127104326/https://arxiv.org/abs/1907.11073)) (2019)
 *Ethan Bommarito, Michael J. Bommarito II*
 arXiv preprint
 
@@ -486,7 +486,7 @@ arXiv preprint
 
 Brand new lifecycle and response time analysis of 3,362 CVEs in Maven. Documents "Publish-Before-Patch" scenarios. Response time reduced 48.3% for critical vs low severity vulnerabilities (78 vs 151 days). Contributor absence and issue activity correlate with CVE occurrences.
 
-**[A Large-Scale Security-Oriented Static Analysis of Python Packages in PyPI](https://arxiv.org/abs/2107.12699)** (2021)
+**[A Large-Scale Security-Oriented Static Analysis of Python Packages in PyPI](https://arxiv.org/abs/2107.12699)** ([archive](http://web.archive.org/web/20260127104508/https://arxiv.org/abs/2107.12699)) (2021)
 *Multiple authors*
 arXiv preprint
 
@@ -616,7 +616,7 @@ ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)
 
 Empirical study finding 11.58% of dependency updates contain breaking changes that impact clients. Almost half of detected breaking changes violate semantic versioning by appearing in non-major releases.
 
-**[Breaking-Good: Explaining Breaking Dependency Updates with Build Analysis](https://arxiv.org/abs/2407.03880)** (2024)
+**[Breaking-Good: Explaining Breaking Dependency Updates with Build Analysis](https://arxiv.org/abs/2407.03880)** ([archive](http://web.archive.org/web/20260126215730/https://arxiv.org/abs/2407.03880)) (2024)
 *Frank Reyes, Benoit Baudry, Martin Monperrus*
 arXiv preprint
 
@@ -628,7 +628,7 @@ IEEE International Conference on Software Analysis, Evolution and Reengineering 
 
 Benchmark dataset of reproducible breaking dependency updates for evaluating tools that detect or explain breaking changes in dependency updates.
 
-**[I depended on you and you broke me: An empirical study of manifesting breaking changes in client packages](https://dl.acm.org/doi/10.1145/3583565)** (2023)
+**[I depended on you and you broke me: An empirical study of manifesting breaking changes in client packages](https://dl.acm.org/doi/10.1145/3583565)** ([archive](http://web.archive.org/web/20250217132158/https://dl.acm.org/doi/10.1145/3583565)) (2023)
 *Daniel Venturini, Filipe Cogo, Igor Polato, Marco Gerosa, Igor Wiese*
 ACM Transactions on Software Engineering and Methodology (TOSEM)
 
