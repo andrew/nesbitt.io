@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Introducing Package Chaos Monkey](https://nesbitt.io/2026/01/26/introducing-package-chaos-monkey.html)
 - [PkgFed: ActivityPub for Package Releases](https://nesbitt.io/2026/01/25/pkgfed-activitypub-for-package-releases.html)
 - [Rewriting git-pkgs in Go](https://nesbitt.io/2026/01/24/rewriting-git-pkgs-in-go.html)
 - [Package Management is a Wicked Problem](https://nesbitt.io/2026/01/23/package-management-is-a-wicked-problem.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [importmap.lock: a lockfile for the web](https://nesbitt.io/2026/01/19/importmap-lock.html)
 - [Workspaces and Monorepos in Package Managers](https://nesbitt.io/2026/01/18/workspaces-and-monorepos-in-package-managers.html)
 - [Lockfile Format Design and Tradeoffs](https://nesbitt.io/2026/01/17/lockfile-format-design-and-tradeoffs.html)
-- [Package Manager People](https://nesbitt.io/2026/01/14/package-manager-people.html)
 <!-- POSTS:END -->
