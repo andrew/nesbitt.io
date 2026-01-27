@@ -11,6 +11,8 @@ tags:
   - git-pkgs
 ---
 
+**Update:** git-pkgs has been [rewritten in Go](/2026/01/24/rewriting-git-pkgs-in-go) and now lives at [github.com/git-pkgs/git-pkgs](https://github.com/git-pkgs/git-pkgs).
+
 Your dependency graph has a history, but it's buried in lockfile diffs that no one reads. GitHub even hides them by default in pull requests. You can `git log` any source file and trace who changed it, when, and why, but try that on a lockfile and you get thousands of lines of noise per commit.
 
 With [97% of applications](https://venturebeat.com/programming-development/github-releases-open-source-report-octoverse-2022-says-97-of-apps-use-oss) depending on open source, most of your codebase is stuff you didn't write, and someone on your team decided to trust each piece of it. I wanted a way to trace those decisions: who added this package and why? So I built [git-pkgs](https://github.com/andrew/git-pkgs), a git subcommand that makes your dependency history searchable.
