@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Dependency Layer in Digital Sovereignty"
-date: 2026-01-28 12:00 +0000
+date: 2026-01-28 10:00 +0000
 description: "Where package management fits in the digital sovereignty discussion."
 tags:
   - package-managers
