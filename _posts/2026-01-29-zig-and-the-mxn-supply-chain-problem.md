@@ -38,7 +38,7 @@ Other integrations require buy-in from companies who may not care about Zig yet.
 
 **Dependency update tools.** [Dependabot](https://github.com/dependabot) supports a fixed set of ecosystems. Adding a new one requires GitHub engineering time. [Renovate](https://www.mend.io/renovate/) is more extensible but still needs a [manager plugin](https://github.com/renovatebot/renovate/tree/main/lib/modules/manager). Neither supports Zig today. There's a [Dependabot issue](https://github.com/dependabot/dependabot-core/issues/8166) and a [Renovate discussion](https://github.com/renovatebot/renovate/discussions/24309), both from 2023, both stalled.
 
-**Vulnerability databases.** The [GitHub Advisory Database](https://github.com/advisories) and [OSV](https://osv.dev) need advisories filed against Zig packages using Zig's identifier scheme. That requires agreeing on how to identify Zig packages, but there's no PURL type for Zig yet.
+**Vulnerability databases.** The [GitHub Advisory Database](https://github.com/advisories), [OSV](https://osv.dev), [CVE.org](https://www.cve.org/) (MITRE), and the [NVD](https://nvd.nist.gov/) all need to recognize Zig packages and file advisories against them using Zig's identifier scheme. That requires agreeing on how to identify Zig packages, but there's no PURL type for Zig yet.
 
 **SCA tools.** [Snyk](https://snyk.io), [Socket](https://socket.dev), [Sonatype](https://www.sonatype.com), and others would need to add Zig support. Each vendor makes independent decisions about what's worth supporting.
 
