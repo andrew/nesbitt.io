@@ -33,7 +33,7 @@ These systems operate under partial failure constantly. The network between you 
 
 ### What to test
 
-What invariants should a package manager guarantee? I'd start with these:
+What invariants should a package manager guarantee?
 
 - **Resolution determinism.** Given the same manifest and the same registry state, the resolver should produce the same dependency graph.
 - **Lockfile integrity.** A fresh install from a committed [lockfile](/2026/01/17/lockfile-format-design-and-tradeoffs) should produce identical results on any machine at any time, assuming the referenced artifacts still exist.
@@ -43,7 +43,7 @@ What invariants should a package manager guarantee? I'd start with these:
 
 If you wanted to know what consistency guarantees a registry provides, where would you look? How long does it take for a publish to propagate to all CDN edges? What happens if you install during that window? What if the index updates before the file storage syncs? These questions are hard to answer from the documentation. Users assume these systems are reliable in ways that aren't written down anywhere.
 
-Adversarial testing would expose these undocumented semantics. Some scenarios worth exploring:
+Adversarial testing would expose these undocumented semantics:
 
 - **Partial metadata writes:** the tarball uploads successfully but the index update fails, or vice versa. What do clients see? For how long?
 - **Concurrent publishes:** two versions of the same package race each other. What order do clients observe them in? Is that order consistent across CDN edges?
@@ -75,5 +75,5 @@ But even articulating what the tests would check has value. The first step is na
 
 GitHub Actions would fail spectacularly under this kind of testing. I've [written before](/2025/12/06/github-actions-package-manager) about how Actions is a package manager that ignores decades of supply chain security lessons: no lockfile, no integrity verification, no transitive pinning, no dependency visibility. Every run re-resolves from mutable tags. The semantics are undocumented. It's a case study in what happens when you build a dependency system without thinking about the guarantees it should provide. Adversarial testing would surface these problems immediately, which is probably why nobody's done it.
 
-Package managers haven't had that moment yet. Most don't make explicit consistency claims, which means there's nothing to verify. But the implicit expectations are there: users assume deterministic resolution, atomic publishes, reliable mirrors. A testing methodology could make those expectations explicit. Registry maintainers could publish what their systems actually guarantee. Someone could build the test suite that checks whether they're right. Call it the left-pad tests.
+Package managers haven't had that moment yet. Most don't make explicit consistency claims, which means there's nothing to verify. But the implicit expectations are there: users assume deterministic resolution, atomic publishes, reliable mirrors. A testing methodology could make those expectations explicit. Registry maintainers could publish what their systems actually guarantee, and someone could build the test suite that checks whether they're right.
 

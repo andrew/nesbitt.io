@@ -14,15 +14,13 @@ Individual package managers have specifications. Cargo documents its resolver. n
 
 I've written about package manager [components](/2025/12/02/what-is-a-package-manager.html), [tradeoffs](/2025/12/05/package-manager-tradeoffs.html), [terminology](/2026/01/13/package-manager-glossary.html), and [categorization](/2025/12/29/categorizing-package-manager-clients.html). This post tries to go one level higher: what would a reference model for package management look like? Something that names the layers, actors, operations, and properties that all package managers share, even when their implementations differ.
 
-If this existed, it might look like: a document that defines "resolution determinism" precisely enough that you could compare npm and Cargo on the same terms. A taxonomy of failure modes that tool builders could implement against. A vocabulary for governance operations that lets researchers compare how different registries handle disputes. Not a standard that forces convergence, but a shared frame that makes the similarities and differences legible.
+If this existed, it might look like: a document that defines "resolution determinism" precisely enough that you could compare npm and Cargo on the same terms. A taxonomy of failure modes that tool builders could implement against. A vocabulary for governance operations that lets researchers compare how different registries handle disputes. A shared frame that makes the similarities and differences legible, without forcing convergence.
 
-I should say upfront that I have no experience writing or defining protocols or reference models. I don't know what's actually involved in that work, or what the right process would be. What follows is more a sketch of what such a model might need to cover, not a proposal for how to build one. I'm throwing out ideas to see if they resonate with people who do know this stuff. This is a conversation starter, not a spec draft.
+I should say upfront that I have no experience writing or defining protocols or reference models. I don't know what's actually involved in that work, or what the right process would be. What follows is more a sketch of what such a model might need to cover, not a proposal for how to build one. I'm throwing out ideas to see if they resonate with people who do know this stuff, more conversation starter than spec draft.
 
 Most of what follows focuses on language package managers (npm, pip, Cargo, Bundler) rather than system package managers (apt, dnf, pacman, Homebrew). The two categories overlap but have different concerns. System package managers deal with file conflicts, coordinated releases, maintainer curation, and post-install scripts running as root. Language package managers deal with per-project isolation, transitive dependency graphs, and lockfile reproducibility. A complete reference model would need to cover both, but I know the language side better.
 
 ### The layers
-
-A protocol for package management would need to cover several distinct layers, each with its own concerns.
 
 **User commands.** What developers type at the terminal. `install`, `add`, `remove`, `update`, `audit`, `publish`. These are the interface layer, and despite different names across ecosystems (`npm install` vs `pip install` vs `cargo add`), they map to a small set of underlying operations. A protocol could define what each command is expected to do without specifying the CLI syntax.
 
@@ -41,8 +39,6 @@ A protocol for package management would need to cover several distinct layers, e
 **Security model.** What guarantees the system provides and what threats it addresses. Client-side concerns (verifying checksums, validating signatures, detecting tampering) differ from registry-side concerns (authenticating publishers, scanning for malware, enforcing policies). The [landscape](/2026/01/03/the-package-management-landscape.html) shows how many tools exist around these concerns.
 
 ### The actors
-
-These layers involve several distinct roles:
 
 **Publishers** create packages and make them available. They have identities (accounts, keys, or domain ownership) and permissions to write to certain namespaces.
 
@@ -132,8 +128,6 @@ The edge cases are where things get interesting. "Same registry state" sounds si
 
 ### Missing concepts
 
-A few things that a reference model would need to address more explicitly than I have here:
-
 **Time.** I've talked about staleness and caching, but there's no explicit notion of time in the model. Distributed systems specs usually need concepts like epochs, snapshots, or logical clocks. When did a publish become visible? What's the maximum propagation delay? Can a lockfile reference a point-in-time view of the registry? Package managers don't typically expose these concepts, but they're operating under temporal assumptions that users don't see.
 
 **Authority.** Who is authoritative for what? The registry is authoritative for package metadata, but what about a proxy that's been caching for six months? The lockfile is authoritative for what versions to install, but what if the registry says one of those versions is now malware? Clients trust registries, registries trust publishers, publishers trust CI systems. A reference model would need to map these trust boundaries and say what happens when authorities disagree.
@@ -141,8 +135,6 @@ A few things that a reference model would need to address more explicitly than I
 **Observability.** What can you see when things go wrong? Logs, error messages, introspection APIs. If resolution fails, what information is available to debug it? If a publish doesn't propagate, how do you know? Tool builders and researchers need to observe what package managers are doing, but observability isn't typically part of the specification. It's an implementation detail that varies widely and matters a lot.
 
 ### Data flow patterns
-
-How does metadata move around the system?
 
 **Full replication**: the client downloads the complete index and resolves locally. apt does this. Resolution is fast once synced, works offline, but initial sync is expensive and data goes stale.
 
@@ -184,7 +176,7 @@ These failure modes matter because they're where the user experience diverges mo
 
 Yes, I've seen [the xkcd](https://xkcd.com/927/). This isn't a proposal to standardize package managers. Existing ecosystems have differences that matter. Some take advantage of runtime features that can't be replicated everywhere: Bundler's Gemfile is a Ruby DSL, Mix is deeply integrated with OTP. A protocol has to sit above these language-specific capabilities, which means it can't capture everything.
 
-It's also not something existing package managers would easily adopt. npm's registry isn't going to change its API to match a theoretical spec. The value is shared vocabulary for reasoning about these systems, not forcing convergence.
+It's also not something existing package managers would easily adopt. npm's registry isn't going to change its API to match a theoretical spec. The value is shared vocabulary for reasoning about these systems.
 
 [PURL](https://github.com/package-url/purl-spec) already does this for identifiers. It has problems with edge cases and ecosystems that don't fit its model, but it's proven useful enough that tools adopted it anyway. A protocol for the rest of package management would have similar imperfections and similar utility.
 

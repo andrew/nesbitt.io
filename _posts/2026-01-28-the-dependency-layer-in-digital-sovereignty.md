@@ -86,7 +86,7 @@ Other areas don't, which keeps switching costs high. Dependency graph APIs vary 
 
 Most standards work in this space focuses on compliance artifacts: SBOMs for the Cyber Resilience Act, attestations for procurement requirements. Less attention goes to the underlying tools developers actually use. The dependency graph that feeds the SBOM generator, the metadata lookup that powers vulnerability scanning, the notification when a new version ships.
 
-The gap between these columns is where standardization would reduce switching costs. Not building a European deps.dev, but defining a common dependency graph API. Not building a European Dependabot, but standardizing how dependency updates get proposed. [A protocol for package management](/2026/01/22/a-protocol-for-package-management.html) could let different implementations compete on the same interfaces.
+The gap between these columns is where standardization would reduce switching costs. A common dependency graph API would matter more than a European deps.dev. Standardizing how dependency updates get proposed would matter more than a European Dependabot. [A protocol for package management](/2026/01/22/a-protocol-for-package-management.html) could let different implementations compete on the same interfaces.
 
 GitHub and GitLab bundle dependency features into their platforms: dependency graphs, vulnerability alerts, automated updates. A self-hosted Forgejo or Gitea instance doesn't have equivalent tooling. But if those features were built on open standards and open data sources, switching forges wouldn't mean losing supply chain visibility. The dependency intelligence could come from any provider that implements the same interfaces, rather than being locked to the forge vendor.
 
@@ -94,7 +94,7 @@ Some gaps need new standards rather than adoption of existing ones. There's no g
 
 ### What governments and funders could do
 
-The strategy is to [unbundle the parts of a package manager](/2025/12/02/what-is-a-package-manager.html) and standardize them individually. Registry APIs, dependency graphs, vulnerability feeds, update notifications. Each piece can be commodified without replacing entire systems. Eat the elephant one bite at a time.
+The strategy is to [unbundle the parts of a package manager](/2025/12/02/what-is-a-package-manager.html) and standardize them individually. Registry APIs, dependency graphs, vulnerability feeds, update notifications. Each piece can be commodified without replacing entire systems.
 
 Treat dependency intelligence as infrastructure worth funding directly. The Sovereign Tech Fund model applies: direct funding to open source projects that serve as foundations. Ecosyste.ms, VulnerableCode, OSV, PURL implementations, CycloneDX/SPDX tooling, Forgejo's dependency features all fit this category.
 
@@ -102,4 +102,4 @@ Procurement requirements could include open supply chain tooling. If an agency r
 
 Supporting Forgejo with work on dependency features would help too. The goal would be feature parity with GitHub and GitLab so self-hosted forges work with the same security tooling.
 
-[Package management is a wicked problem](/2026/01/23/package-management-is-a-wicked-problem.html), but the dependency intelligence layer is more tractable. Standards exist (PURL, OSV, CycloneDX), open implementations exist (ecosyste.ms, VulnerableCode). What's missing is the investment.
+[Package management is a wicked problem](/2026/01/23/package-management-is-a-wicked-problem.html), but the dependency intelligence layer is more tractable. Standards exist (PURL, OSV, CycloneDX) and open implementations exist (ecosyste.ms, VulnerableCode), so the gap is investment rather than invention.

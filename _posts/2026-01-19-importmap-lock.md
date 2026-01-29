@@ -46,7 +46,7 @@ But integrity tells you *what* you got, not *why* you got it. What's still missi
 
 ## Borrowing from other ecosystems
 
-Cargo.lock, Gemfile.lock, go.sum, poetry.lock all capture resolved versions, checksums, and dependency relationships - to make resolution inspectable and repeatable. The web could add the same. Something like:
+Cargo.lock, Gemfile.lock, go.sum, poetry.lock all capture resolved versions, checksums, and dependency relationships to make resolution inspectable and repeatable. The web could add the same:
 
 ```json
 {
@@ -102,9 +102,9 @@ DevTools could show a dependencies tab listing every package the page loaded, wi
 
 Extensions like Retire.js and [Vojtěch Randýsek's thesis work](https://www.vut.cz/www_base/zav_prace_soubor_verejne.php?file_id=217116) already try vulnerability detection by fingerprinting known libraries. But they're heuristic-based and miss what they don't recognize. With actual package metadata in the import map, detection becomes reliable rather than best-effort.
 
-Take it further: browsers already ship with certificate transparency and safe browsing checks. They could query [OSV.dev](https://osv.dev/) against the packages in the import map and surface advisories in DevTools. A "Security" panel showing which dependencies have known vulnerabilities, linked to the CVEs.
+Browsers already ship with certificate transparency and safe browsing checks. They could query [OSV.dev](https://osv.dev/) against the packages in the import map and surface advisories in DevTools. A "Security" panel showing which dependencies have known vulnerabilities, linked to the CVEs.
 
-The stretch version: browsers warning end users about severely vulnerable dependencies, the way they warn about expired certificates or known-bad sites. "This page uses a JavaScript library with a critical security vulnerability." Most users would ignore it, but the pressure on site operators would be real. Certificate warnings drove HTTPS adoption faster than any amount of developer evangelism.
+Browsers could even warn end users about severely vulnerable dependencies, the way they warn about expired certificates or known-bad sites. "This page uses a JavaScript library with a critical security vulnerability." Most users would ignore it, but the pressure on site operators would be real. Certificate warnings drove HTTPS adoption faster than any amount of developer evangelism.
 
 ## Prior art
 

@@ -8,11 +8,11 @@ tags:
   - idea
 ---
 
-In 1973, Horst Rittel and Melvin Webber published ["Dilemmas in a General Theory of Planning"](https://urbanpolicy.net/wp-content/uploads/2015/06/Rittel-Webber_1973_DilemmasInAGeneralTheoryOfPlanning.pdf), introducing the concept of "wicked problems" in urban planning. These aren't just hard problems. They're problems where the act of trying to solve them changes what the problem is. Problems where you can't test solutions in advance. Problems where every stakeholder has a different definition of success.
+In 1973, Horst Rittel and Melvin Webber published ["Dilemmas in a General Theory of Planning"](https://urbanpolicy.net/wp-content/uploads/2015/06/Rittel-Webber_1973_DilemmasInAGeneralTheoryOfPlanning.pdf), introducing the concept of "wicked problems" in urban planning. Wicked problems are problems where the act of trying to solve them changes what the problem is. Problems where you can't test solutions in advance. Problems where every stakeholder has a different definition of success.
 
 Package management fits the definition. I've spent years working on [package manager data and tooling](/2025/12/09/why-im-fascinated-by-package-management.html), and the more I learn, the more the wicked problem framework explains why progress feels so difficult. Tens of millions of packages, hundreds of millions of versions, trillions of downloads. Small improvements at this layer affect every project built on top.
 
-Rittel and Webber [identified ten characteristics](https://www.leanessays.com/2002/01/wicked-problems.html) that distinguish wicked problems from tame ones. Here's how each one applies to the work of managing software dependencies.
+Rittel and Webber [identified ten characteristics](https://www.leanessays.com/2002/01/wicked-problems.html) that distinguish wicked problems from tame ones.
 
 ### 1. No definitive formulation
 
@@ -30,7 +30,7 @@ When npm added lockfiles, it wasn't solving a pre-existing problem everyone agre
 
 When is a package manager done? Bundler has been around since 2010 and is still adding features. npm is on its tenth major version. UV just rewrote Python packaging from scratch, and people are already filing issues for the next iteration.
 
-Work stops when you run out of time or money, when maintainers burn out, or when something newer arrives. Not because the problem got solved. Even apparent stability might just mean the energy moved elsewhere.
+Work stops when you run out of time or money, when maintainers burn out, or when something newer arrives, but rarely because the problem got solved. Even apparent stability might just mean the energy moved elsewhere.
 
 ### 3. Good-or-bad rather than true-or-false
 

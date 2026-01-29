@@ -38,7 +38,7 @@ Workspaces solve "these packages are developed together." Monorepos solve "all o
 }
 ```
 
-Running `npm install` creates symlinks from `node_modules` to each workspace package. If package-b lists package-a as a dependency, npm links to the local copy instead of fetching from the registry. Dependencies get hoisted to the root `node_modules` where possible, which can cause phantom dependency issues (more on that below). npm has no special publish support for workspaces. The escape hatch for manual linking is `npm link`.
+Running `npm install` creates symlinks from `node_modules` to each workspace package. If package-b lists package-a as a dependency, npm links to the local copy instead of fetching from the registry. Dependencies get hoisted to the root `node_modules` where possible, which can cause phantom dependency issues. npm has no special publish support for workspaces. The escape hatch for manual linking is `npm link`.
 
 **[Yarn](https://yarnpkg.com/features/workspaces)** works similarly but had workspaces from the start. [Yarn 1 popularized the pattern](https://classic.yarnpkg.com/blog/2017/08/02/introducing-workspaces/). Yarn Berry (v2+) changed the internals but kept the same configuration. Yarn 1 hoists like npm, but Yarn Berry's [PnP mode](https://yarnpkg.com/features/pnp) eliminates `node_modules` entirely and enforces strict dependency resolution, preventing phantom dependencies. Yarn also supports the [`workspace:` protocol](https://yarnpkg.com/features/workspaces#workspace-ranges-workspace) like pnpm.
 
@@ -164,7 +164,7 @@ For centralized dependency management, NuGet supports `Directory.Packages.props`
 
 **CI divergence.** The workspace graph during local development can differ from what CI or consumers see. A dependency that got hoisted locally might resolve differently in a fresh install.
 
-**Build orchestration.** Workspaces solve where code lives, not how it gets built. If package A is TypeScript and package B imports it, you need to compile A before B can see the types. Workspaces handle linking but not build order. This is why tools like [Turborepo](https://turbo.build/) and [Nx](https://nx.dev/) exist on top of workspaces: they understand the dependency graph and run builds, tests, and lints in the right order, with caching.
+**Build orchestration.** Workspaces solve where code lives, not how it gets built. If package A is TypeScript and package B imports it, you need to compile A before B can see the types. Workspaces handle linking; build order is a separate problem. This is why tools like [Turborepo](https://turbo.build/) and [Nx](https://nx.dev/) exist on top of workspaces: they understand the dependency graph and run builds, tests, and lints in the right order, with caching.
 
 **Publishing coordination.** Workspaces wire up development, but publishing is a separate problem. If you update two packages together, you probably want to release them together with matching versions. Workspaces have no opinion on this. Tools like [Changesets](https://github.com/changesets/changesets) (JavaScript-only) track changes across workspace packages and coordinate version bumps. [Lerna's](https://lerna.js.org/) `lerna publish` does something similar. Cargo's `cargo publish` can publish workspace members in dependency order, but you still manage versioning manually. npm has scoped packages (`@babel/core`, `@myorg/utils`) but scopes are just namespacing for ownership. The registry has no concept of "these packages form a coherent unit." You publish each package individually and hope consumers update them in sync.
 
@@ -172,6 +172,6 @@ For centralized dependency management, NuGet supports `Directory.Packages.props`
 
 Looking at all this, my sense is that ecosystems made package creation cheap but left coordination expensive. People created lots of small packages, then needed workspaces to manage the friction that created.
 
-As I said at the start, I've never needed workspaces myself. If you use them regularly, I'd be curious to hear what pushed you there and whether they've been worth the complexity. What's worked? What's bitten you? [Let me know on Mastodon](https://mastodon.social/@andrewnez).
+I've never needed workspaces myself. If you use them regularly, I'd be curious to hear what pushed you there and whether they've been worth the complexity. What's worked? What's bitten you? [Let me know on Mastodon](https://mastodon.social/@andrewnez).
 
 [^1]: [pnpm's motivation](https://pnpm.io/motivation) explains their non-flat `node_modules` structure and why it prevents phantom dependencies.
