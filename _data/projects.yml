@@ -3,9 +3,9 @@
   url: https://github.com/andrew/ultimate-awesome
   description: Every awesome list on every topic, including awesome lists of awesome
     lists, updated daily.
-  stars: 137
+  stars: 136
   language:
-  pushed_at: '2026-01-25T00:41:34Z'
+  pushed_at: '2026-02-01T00:51:35Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
@@ -18,7 +18,7 @@
     about package management, software supply chain security, and open source infrastructure. '
   stars: 15
   language: HTML
-  pushed_at: '2026-01-25T06:08:12Z'
+  pushed_at: '2026-01-31T06:12:44Z'
 - name: swhid
   url: https://github.com/andrew/swhid
   description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
@@ -45,26 +45,26 @@
     (PURLs) as defined by the PURL specification
   stars: 10
   language: Ruby
-  pushed_at: '2026-01-20T10:51:52Z'
+  pushed_at: '2026-01-27T10:54:52Z'
+- name: managing-dependencies
+  url: https://github.com/andrew/managing-dependencies
+  description: Claude Code skill for evaluating packages and managing dependencies
+    securely
+  stars: 10
+  language:
+  pushed_at: '2026-01-21T12:55:49Z'
+- name: ruby-upgrade-action
+  url: https://github.com/andrew/ruby-upgrade-action
+  description: GitHub action to upgrade version of Ruby in various places to the latest
+  stars: 10
+  language:
+  pushed_at: '2026-01-20T17:06:29Z'
 - name: go-bundler
   url: https://github.com/andrew/go-bundler
   description: Go-style imports for Ruby
   stars: 10
   language: Ruby
   pushed_at: '2025-12-25T12:38:33Z'
-- name: managing-dependencies
-  url: https://github.com/andrew/managing-dependencies
-  description: Claude Code skill for evaluating packages and managing dependencies
-    securely
-  stars: 9
-  language:
-  pushed_at: '2026-01-21T12:55:49Z'
-- name: ruby-upgrade-action
-  url: https://github.com/andrew/ruby-upgrade-action
-  description: GitHub action to upgrade version of Ruby in various places to the latest
-  stars: 9
-  language:
-  pushed_at: '2026-01-20T17:06:29Z'
 - name: hanami-sprockets
   url: https://github.com/andrew/hanami-sprockets
   description: An alternative to hanami-assets that doesn't rely on npm
@@ -115,7 +115,7 @@
   description: A Homebrew subcommand that checks installed packages for vulnerabilities
   stars: 4
   language: Ruby
-  pushed_at: '2026-01-08T16:42:02Z'
+  pushed_at: '2026-01-25T12:21:20Z'
 - name: diffoscope
   url: https://github.com/andrew/diffoscope
   description: Ruby bindings for diffoscope - Compare packages, tarballs, files, URLs,
@@ -167,15 +167,15 @@
   stars: 1
   language: Ruby
   pushed_at: '2026-01-09T11:10:44Z'
-- name: sbom
-  url: https://github.com/andrew/sbom
-  description: Parse, generate, and validate Software Bill of Materials (SBOM)
-  stars: 1
-  language: Ruby
-  pushed_at: '2026-01-14T17:24:13Z'
 - name: swhid-go
   url: https://github.com/andrew/swhid-go
   description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
   stars: 1
   language: Go
   pushed_at: '2026-01-18T22:09:13Z'
+- name: sbom
+  url: https://github.com/andrew/sbom
+  description: Parse, generate, and validate Software Bill of Materials (SBOM)
+  stars: 1
+  language: Ruby
+  pushed_at: '2026-01-25T20:40:30Z'
