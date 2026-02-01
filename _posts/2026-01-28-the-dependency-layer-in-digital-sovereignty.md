@@ -21,6 +21,8 @@ Most git forges are US-based:
 | Gitea | Gitea Ltd | US |
 | HuggingFace | Hugging Face Inc | US |
 
+Codeberg runs [Forgejo](https://codeberg.org/forgejo/forgejo), which doesn't have dependency graph features yet, so it's outside the scope here.
+
 The dependency intelligence layer built on top of these forges is almost entirely US-based:
 
 | Service | Owner | Country |
