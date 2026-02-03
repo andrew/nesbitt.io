@@ -29,6 +29,8 @@ description: Andrew Nesbitt is a package management and open source metadata exp
 
 I'm Andrew Nesbitt. I've spent the last decade thinking about package management.
 
+**I'm available for consulting** on package management, software supply chain security, and open source infrastructure. I've worked at GitHub and Tidelift, and contributed to working groups at Alpha-Omega, OpenSSF, CycloneDX, and CHAOSS. [More about consulting services](/consulting/).
+
 Package managers are the invisible plumbing of modern software. Millions of developers share code through these systems, trusting that dependencies will resolve, versions will be compatible, and the packages they install are what they claim to be. Most of the time it works. When it doesn't, things break in ways that ripple across the entire ecosystem. I find this [coordination problem endlessly interesting](/2025/12/09/why-im-fascinated-by-package-management).
 
 I've been putting together a collection of [reference materials and deep dives on package managers](/package-managers/), covering how dependency resolution works, the tradeoffs different ecosystems make, and the people who build these systems.
