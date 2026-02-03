@@ -2,6 +2,7 @@
 layout: page
 title: Package Management Consulting
 permalink: /consulting/
+description: Consulting services for package management, software supply chain security, and open source infrastructure.
 ---
 
 I've written integrations for dozens of package managers, tracked billions of dependency relationships, and watched the same design mistakes repeat across ecosystems for a decade. That pattern recognition is what I bring to consulting engagements. I help you avoid the mistakes that cost other registries years of technical debt.

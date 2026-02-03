@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Package Managers
 permalink: /package-managers/
 description: Posts about package management, dependency resolution, and software supply chain.
