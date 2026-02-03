@@ -4,7 +4,7 @@ title: Package Management Consulting
 permalink: /consulting/
 ---
 
-I've written integrations for dozens of package managers, tracked billions of dependency relationships, and watched the same design mistakes repeat across ecosystems for a decade. That pattern recognition is what I bring to consulting engagements.
+I've written integrations for dozens of package managers, tracked billions of dependency relationships, and watched the same design mistakes repeat across ecosystems for a decade. That pattern recognition is what I bring to consulting engagements. I help you avoid the mistakes that cost other registries years of technical debt.
 
 **Available for consulting on package management, software supply chain security, and open source infrastructure.** Email [andrew@nesbitt.io](mailto:andrew@nesbitt.io) or find me on [Mastodon](https://mastodon.social/@andrewnez).
 
@@ -18,11 +18,11 @@ Over fifteen years I've built [Libraries.io](https://libraries.io), [Ecosyste.ms
 
 **Package management governance.** Registries aren't just technical systems. They make political choices about naming, ownership, deletion, and dispute resolution. I contribute to [Alpha-Omega](https://openssf.org/community/alpha-omega/), [OpenSSF](https://openssf.org/), [CycloneDX](https://cyclonedx.org/), and [CHAOSS](https://chaoss.community/) working groups. Whether you're a registry operator designing policies, a foundation setting ecosystem standards, or a company navigating the governance landscape of your dependencies, I can help.
 
-**Open source ecosystem intelligence.** Ecosyste.ms tracks 13+ million packages across 50+ registries, 290 million repositories, and 24 billion dependency edges. I can help you understand your dependency landscape, identify critical infrastructure in your supply chain, or build tooling on top of this data.
+**Open source ecosystem intelligence.** Ecosyste.ms tracks 13+ million packages across 50+ registries, 290 million repositories, and 24 billion dependencies, the largest public dependency graph available. I can help you understand your dependency landscape, identify critical infrastructure in your supply chain, or build tooling on top of this data.
 
-**Dependency management strategy.** Audit your dependency practices, evaluate package manager choices, design internal registry architecture, or build a supply chain security programme from scratch.
+**Internal dependency strategy.** For enterprise teams: audit your dependency practices, evaluate package manager choices, design internal registry architecture, set procurement policies, or build a supply chain security programme from scratch.
 
-**Open source software development.** I've been [building and maintaining](https://github.com/andrew) open source for over fifteen years. I created [octobox](https://octobox.io), [node-sass](https://github.com/sass/node-sass), [24 Pull Requests](https://24pullrequests.com), and [Split](https://github.com/splitrb/split), and contributed to [Homebrew](https://brew.sh). I can help with open source strategy—launching projects, building contributor communities, managing releases, handling the maintainer burnout problem, and making sustainability decisions before they become urgent. If you're a company open-sourcing a project or trying to build a healthy ecosystem around one, I've seen what works and what doesn't.
+**Open source strategy.** I've [built and maintained](https://github.com/andrew) open source for over fifteen years: [octobox](https://octobox.io), [node-sass](https://github.com/sass/node-sass), [24 Pull Requests](https://24pullrequests.com), [Split](https://github.com/splitrb/split), and contributions to [Homebrew](https://brew.sh). I've designed web applications that scale to millions of users. If you're launching projects, building contributor communities, or making sustainability decisions, I've seen what works and what doesn't.
 
 **Research & analysis.** Guest lectures, technical reports, ecosystem comparisons, landscape surveys. I've presented at [FOSDEM](https://fosdem.org) and [NYU Secure Systems Lab](https://ssl.engineering.nyu.edu/), spoken at the [Software Mentions in OpenAlex workshop](https://nesbitt.io/posts/), and contributed to research with [Software Heritage](https://www.softwareheritage.org/), [CHAOSS](https://chaoss.community/), and [OpenSSF](https://openssf.org/).
 
