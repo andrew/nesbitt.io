@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-02-04T16:05:19Z",
-  "total_posts": 69,
-  "total_words": 93881,
-  "reading_minutes": 470,
-  "average_words": 1361,
+  "generated_at": "2026-02-04T18:26:37Z",
+  "total_posts": 67,
+  "total_words": 88999,
+  "reading_minutes": 445,
+  "average_words": 1328,
   "longest_post": {
     "title": "Package Management Papers",
     "url": "/2025/11/13/package-management-papers.html",
@@ -20,8 +20,8 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "What if a language package manager worked like a system one?",
-    "url": "/2026/02/04/what-if-a-language-package-manager-worked-like-a-system-one.html",
+    "title": "Package Management at FOSDEM 2026",
+    "url": "/2026/02/04/package-management-at-fosdem-2026.html",
     "date": "2026-02-04"
   },
   "years_active": 8.9,
@@ -29,7 +29,7 @@
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 29
+      "count": 27
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-02",
-      "count": 4
+      "count": 2
     },
     {
       "month": "2026-01",
@@ -94,7 +94,7 @@
     "sunday": 9,
     "monday": 11,
     "tuesday": 8,
-    "wednesday": 11,
+    "wednesday": 9,
     "thursday": 11,
     "friday": 10,
     "saturday": 9
@@ -102,7 +102,7 @@
   "tags": [
     {
       "name": "package-managers",
-      "count": 57
+      "count": 55
     },
     {
       "name": "open source",
@@ -133,11 +133,11 @@
       "count": 7
     },
     {
-      "name": "satire",
+      "name": "git",
       "count": 6
     },
     {
-      "name": "git",
+      "name": "satire",
       "count": 6
     },
     {
@@ -161,6 +161,14 @@
       "count": 3
     },
     {
+      "name": "rust",
+      "count": 3
+    },
+    {
+      "name": "ai",
+      "count": 3
+    },
+    {
       "name": "sbom",
       "count": 3
     },
@@ -169,35 +177,7 @@
       "count": 3
     },
     {
-      "name": "ai",
-      "count": 3
-    },
-    {
-      "name": "rust",
-      "count": 3
-    },
-    {
-      "name": "conferences",
-      "count": 2
-    },
-    {
-      "name": "fosdem",
-      "count": 2
-    },
-    {
-      "name": "npm",
-      "count": 2
-    },
-    {
-      "name": "docker",
-      "count": 2
-    },
-    {
       "name": "javascript",
-      "count": 2
-    },
-    {
-      "name": "thought-experiment",
       "count": 2
     },
     {
@@ -209,27 +189,27 @@
       "count": 2
     },
     {
+      "name": "conferences",
+      "count": 2
+    },
+    {
+      "name": "fosdem",
+      "count": 2
+    },
+    {
       "name": "versioning",
       "count": 2
     },
     {
-      "name": "infrastructure",
-      "count": 1
+      "name": "npm",
+      "count": 2
     },
     {
-      "name": "supply-chain",
-      "count": 1
+      "name": "docker",
+      "count": 2
     },
     {
-      "name": "the-path",
-      "count": 1
-    },
-    {
-      "name": "importmap",
-      "count": 1
-    },
-    {
-      "name": "monorepo",
+      "name": "python",
       "count": 1
     },
     {
@@ -237,55 +217,27 @@
       "count": 1
     },
     {
-      "name": "productivity",
-      "count": 1
-    },
-    {
-      "name": "challenge",
-      "count": 1
-    },
-    {
-      "name": "python",
-      "count": 1
-    },
-    {
-      "name": "christmas",
-      "count": 1
-    },
-    {
       "name": "jekyll",
       "count": 1
     },
     {
-      "name": "software development",
+      "name": "monorepo",
       "count": 1
     },
     {
-      "name": "podcasts",
+      "name": "importmap",
       "count": 1
     },
     {
-      "name": "sustainability",
+      "name": "the-path",
+      "count": 1
+    },
+    {
+      "name": "supply-chain",
       "count": 1
     },
     {
       "name": "apisix",
-      "count": 1
-    },
-    {
-      "name": "development",
-      "count": 1
-    },
-    {
-      "name": "benchmarks",
-      "count": 1
-    },
-    {
-      "name": "maintainers",
-      "count": 1
-    },
-    {
-      "name": "software heritage",
       "count": 1
     },
     {
@@ -294,6 +246,50 @@
     },
     {
       "name": "metadata",
+      "count": 1
+    },
+    {
+      "name": "software heritage",
+      "count": 1
+    },
+    {
+      "name": "maintainers",
+      "count": 1
+    },
+    {
+      "name": "benchmarks",
+      "count": 1
+    },
+    {
+      "name": "development",
+      "count": 1
+    },
+    {
+      "name": "sustainability",
+      "count": 1
+    },
+    {
+      "name": "podcasts",
+      "count": 1
+    },
+    {
+      "name": "software development",
+      "count": 1
+    },
+    {
+      "name": "christmas",
+      "count": 1
+    },
+    {
+      "name": "challenge",
+      "count": 1
+    },
+    {
+      "name": "productivity",
+      "count": 1
+    },
+    {
+      "name": "infrastructure",
       "count": 1
     }
   ],

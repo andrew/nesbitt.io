@@ -57,6 +57,8 @@ Robin Candau discussed [Relying on more transparent & trustworthy sources for Ar
 
 Fabio Valentini presented [Distributing Rust in RPMs for fun (relatively speaking) and profit](https://fosdem.org/2026/schedule/event/HZFHZV-distributing-rust-in-rpms-for-fun-and-profit/), covering his work as the main maintainer of Rust packages in Fedora and primary developer of the tooling for packaging Rust crates as RPMs.
 
+Till Wegmüller discussed [(Re)Building a next gen system package Manager and Image management tool](https://fosdem.org/2026/schedule/event/3M7TRM-illumos-ips-a-different-system-package-manager/) about IPS (Image Packaging System), a component from OpenSolaris used extensively in OpenIndiana. Wegmüller covered IPS history, current capabilities, core concepts including repositories, packages, FMRI, facets, variants, and manifests, plus plans to [port IPS to Rust](https://www.phoronix.com/news/OpenIndiana-Next-Gen-IPS).
+
 ## Nix and NixOS Devroom
 
 The Nix devroom on Saturday packed in 19 talks about the functional package manager and operating system.
