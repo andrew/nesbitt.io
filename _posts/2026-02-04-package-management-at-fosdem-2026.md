@@ -24,7 +24,10 @@ Mike McQuaid gave [What happened to RubyGems and what can we learn?](https://fos
 
 The Package Management devroom, which I organized with Wolf Vollprecht, ran on Saturday with nine talks covering security, standards, and practical implementation challenges.
 
-Adam Harvey opened with [A phishy case study](https://fosdem.org/2026/schedule/event/GFA3RJ-a_phishy_case_study/) about the September 2024 phishing attack on crates.io. The attack targeted popular crate owners as part of a wider campaign across language ecosystems. Harvey detailed how the Rust Project, Rust Foundation, and Alpha-Omega collaborated to mitigate it rapidly.
+Adam Harvey opened with [A phishy case study](https://fosdem.org/2026/schedule/event/GFA3RJ-a_phishy_case_study/) about the September 2024 phishing attack on crates.io. The attack targeted popular crate owners as part of a wider campaign across language ecosystems. Harvey detailed how the Rust Project, Rust Foundation, and Alpha-Omega collaborated to mitigate it rapidly. Mike Fiedler
+[posted a follow-up on Mastodon](https://hachyderm.io/@miketheman/116008792409955286) describing how attackers were able to circumvent 2FA.
+In short, TOTP 2FA does not include phishing resistance (compared to WebAuthn or Passkeys), so the TOTP codes can be collected and forwarded
+to the target service the same way that passwords are.
 
 Zach Steindler presented [Current state of attestations in programming language ecosystems](https://fosdem.org/2026/schedule/event/BCFZP7-current-state-programming-language-attestations/), comparing how npm, PyPI, RubyGems, and Maven Central have implemented attestations over the past few years. These attestations provide build provenance by linking packages to exact source code and build instructions, distributed as Sigstore bundles. Steindler covered the APIs for accessing attestations in each ecosystem and discussed implementation tradeoffs.
 
