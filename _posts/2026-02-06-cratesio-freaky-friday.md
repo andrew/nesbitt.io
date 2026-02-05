@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Crates.io's Freaky Friday"
-date: 2026-02-07
+date: 2026-02-06
 description: "What happens when Rust's package registry wakes up with Debian's design choices?"
 tags:
   - package-managers
