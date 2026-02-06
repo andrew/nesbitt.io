@@ -10,9 +10,7 @@ tags:
   - deep-dive
 ---
 
-The maintainers of [crates.io](https://crates.io/) wake up Friday morning to find their registry has swapped design philosophies with Debian. They still serve the Rust ecosystem, Debian still serves Linux distributions, but the tradeoffs they've chosen have reversed.
-
-Like Tess and Anna in [Freaky Friday](https://www.imdb.com/title/tt0322330/), they're stuck in each other's bodies, forced to navigate constraints they've spent years criticizing from the outside.
+The maintainers of [crates.io](https://crates.io/) wake up Friday morning to find their registry has swapped design philosophies with Debian. They still serve the Rust ecosystem, Debian still serves Linux distributions, but the tradeoffs they've chosen have reversed. Like Tess and Anna in [Freaky Friday](https://www.imdb.com/title/tt0322330/), they're stuck in each other's bodies, forced to navigate constraints they've spent years criticizing from the outside.
 
 The crates.io team reaches for their coffee and tries to ship a hotfix, only to discover they can't publish without a signed GPG key from a designated sponsor and a three-day waiting period for linting and policy review. Meanwhile, Debian maintainers watch in horror as packages flow into their repository without coordination, breaking stable in ways that won't surface until someone's server fails to boot.
 
