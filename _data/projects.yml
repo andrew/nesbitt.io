@@ -3,9 +3,9 @@
   url: https://github.com/andrew/ultimate-awesome
   description: Every awesome list on every topic, including awesome lists of awesome
     lists, updated daily.
-  stars: 136
+  stars: 137
   language:
-  pushed_at: '2026-02-01T00:51:35Z'
+  pushed_at: '2026-02-08T00:56:02Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
@@ -16,22 +16,22 @@
   url: https://github.com/andrew/nesbitt.io
   description: 'Personal blog built with Jekyll and hosted on GitHub Pages. I write
     about package management, software supply chain security, and open source infrastructure. '
-  stars: 15
+  stars: 17
   language: HTML
-  pushed_at: '2026-01-31T06:12:44Z'
-- name: swhid
-  url: https://github.com/andrew/swhid
-  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
+  pushed_at: '2026-02-08T06:20:37Z'
+- name: managing-dependencies
+  url: https://github.com/andrew/managing-dependencies
+  description: Claude Code skill for evaluating packages and managing dependencies
+    securely
+  stars: 12
+  language:
+  pushed_at: '2026-01-21T12:55:49Z'
+- name: go-bundler
+  url: https://github.com/andrew/go-bundler
+  description: Go-style imports for Ruby
   stars: 11
   language: Ruby
-  pushed_at: '2026-01-14T12:35:01Z'
-- name: vers
-  url: https://github.com/andrew/vers
-  description: A Ruby gem for parsing, comparing and sorting versions according to
-    the VERS spec.
-  stars: 11
-  language: Ruby
-  pushed_at: '2026-01-09T21:09:50Z'
+  pushed_at: '2025-12-25T12:38:33Z'
 - name: state-of-oss-funding
   url: https://github.com/andrew/state-of-oss-funding
   description: 'The State of OSS Funding data: Insights from ecosyste.ms - talk at
@@ -39,32 +39,32 @@
   stars: 11
   language: HTML
   pushed_at: '2025-10-22T13:42:10Z'
-- name: purl
-  url: https://github.com/andrew/purl
-  description: A Ruby library for parsing, validating, and generating Package URLs
-    (PURLs) as defined by the PURL specification
-  stars: 10
+- name: vers
+  url: https://github.com/andrew/vers
+  description: A Ruby gem for parsing, comparing and sorting versions according to
+    the VERS spec.
+  stars: 11
   language: Ruby
-  pushed_at: '2026-01-27T10:54:52Z'
-- name: managing-dependencies
-  url: https://github.com/andrew/managing-dependencies
-  description: Claude Code skill for evaluating packages and managing dependencies
-    securely
-  stars: 10
-  language:
-  pushed_at: '2026-01-21T12:55:49Z'
+  pushed_at: '2026-01-09T21:09:50Z'
+- name: swhid
+  url: https://github.com/andrew/swhid
+  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
+  stars: 11
+  language: Ruby
+  pushed_at: '2026-01-14T12:35:01Z'
 - name: ruby-upgrade-action
   url: https://github.com/andrew/ruby-upgrade-action
   description: GitHub action to upgrade version of Ruby in various places to the latest
   stars: 10
   language:
   pushed_at: '2026-01-20T17:06:29Z'
-- name: go-bundler
-  url: https://github.com/andrew/go-bundler
-  description: Go-style imports for Ruby
+- name: purl
+  url: https://github.com/andrew/purl
+  description: A Ruby library for parsing, validating, and generating Package URLs
+    (PURLs) as defined by the PURL specification
   stars: 10
   language: Ruby
-  pushed_at: '2025-12-25T12:38:33Z'
+  pushed_at: '2026-02-03T11:14:52Z'
 - name: hanami-sprockets
   url: https://github.com/andrew/hanami-sprockets
   description: An alternative to hanami-assets that doesn't rely on npm
@@ -91,6 +91,18 @@
   stars: 8
   language: Ruby
   pushed_at: '2026-01-02T13:47:27Z'
+- name: typosquatting
+  url: https://github.com/andrew/typosquatting
+  description: Detect potential typosquatting packages across package ecosystems
+  stars: 7
+  language: Ruby
+  pushed_at: '2026-01-06T10:21:58Z'
+- name: changelog-parser
+  url: https://github.com/andrew/changelog-parser
+  description: Parse changelog files into structured data
+  stars: 6
+  language: Ruby
+  pushed_at: '2025-12-23T21:08:21Z'
 - name: zizmor-research
   url: https://github.com/andrew/zizmor-research
   description: zizmor analysis of 31,916 github actions using alpha of ecosyste.ms
@@ -98,24 +110,6 @@
   stars: 6
   language:
   pushed_at: '2025-06-13T20:39:41Z'
-- name: changelog-parser
-  url: https://github.com/andrew/changelog-parser
-  description: Parse changelog files into structured data
-  stars: 6
-  language: Ruby
-  pushed_at: '2025-12-23T21:08:21Z'
-- name: typosquatting
-  url: https://github.com/andrew/typosquatting
-  description: Detect potential typosquatting packages across package ecosystems
-  stars: 5
-  language: Ruby
-  pushed_at: '2026-01-06T10:21:58Z'
-- name: brew-vulns
-  url: https://github.com/andrew/brew-vulns
-  description: A Homebrew subcommand that checks installed packages for vulnerabilities
-  stars: 4
-  language: Ruby
-  pushed_at: '2026-01-25T12:21:20Z'
 - name: diffoscope
   url: https://github.com/andrew/diffoscope
   description: Ruby bindings for diffoscope - Compare packages, tarballs, files, URLs,
@@ -130,30 +124,30 @@
   stars: 2
   language:
   pushed_at: '2025-11-26T18:50:44Z'
-- name: grass-ruby
-  url: https://github.com/andrew/grass-ruby
-  description: A fast Sass compiler for Ruby, powered by grass (Rust)
-  stars: 1
-  language: Ruby
-  pushed_at: '2025-12-30T10:31:32Z'
 - name: dirhash
   url: https://github.com/andrew/dirhash
   description: Generate Go module zip digests compatible with sum.golang.org
   stars: 1
   language: Ruby
   pushed_at: '2025-12-29T17:54:16Z'
-- name: jekyll-stats
-  url: https://github.com/andrew/jekyll-stats
-  description: Jekyll plugin that generates site statistics
+- name: grass-ruby
+  url: https://github.com/andrew/grass-ruby
+  description: A fast Sass compiler for Ruby, powered by grass (Rust)
   stars: 1
   language: Ruby
-  pushed_at: '2026-01-03T10:06:03Z'
+  pushed_at: '2025-12-30T10:31:32Z'
 - name: semgrep-codeql
   url: https://github.com/andrew/semgrep-codeql
   description: Converted security rules fromcodeql to semgrep format.
   stars: 1
   language:
   pushed_at: '2025-12-21T20:26:20Z'
+- name: jekyll-stats
+  url: https://github.com/andrew/jekyll-stats
+  description: Jekyll plugin that generates site statistics
+  stars: 1
+  language: Ruby
+  pushed_at: '2026-01-03T10:06:03Z'
 - name: sarif
   url: https://github.com/andrew/sarif
   description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
@@ -178,4 +172,4 @@
   description: Parse, generate, and validate Software Bill of Materials (SBOM)
   stars: 1
   language: Ruby
-  pushed_at: '2026-01-25T20:40:30Z'
+  pushed_at: '2026-02-03T11:15:29Z'
