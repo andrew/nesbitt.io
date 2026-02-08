@@ -207,6 +207,7 @@ task :links, [:arg] do |t, args|
     "--suggest",
     "--format", "detailed",
     "--insecure",
+    "-v",
     "--exclude", "repology.org",
     *posts)
 end
