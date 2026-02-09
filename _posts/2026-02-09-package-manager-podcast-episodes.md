@@ -229,6 +229,10 @@ The Manifest ([manifest.fm](https://manifest.fm)) is a podcast dedicated entirel
 
 **[The Manifest #11: Spack](https://manifest.fm/11)** (Todd Gamblin). The package manager for supercomputers and the unique challenges of HPC packaging.
 
+**[Talk Python To Me #94: Guaranteed Packages via Conda and Conda-Forge](https://talkpython.fm/episodes/show/94/guarenteed-packages-via-conda-and-conda-forge)** (Phil Elson, Kale Franz, and Michael Sarahan, 2017). How conda distributes pre-compiled binaries across platforms, conda-forge's community packaging model, and what distinguishes conda from pip.
+
+**[Talk Python To Me #198: Catching Up with the Anaconda Distribution](https://talkpython.fm/episodes/show/198/catching-up-with-the-anaconda-distribution)** (Peter Wang, 2019). Anaconda's co-founder on conda as a cross-platform package manager, enterprise adoption, and the sustainability challenges of open source infrastructure that millions depend on.
+
 **[The Manifest #16: Conda Forge, Mamba, and Packaging Con](https://manifest.fm/16)** (Wolf Vollprecht, 2021). Conda-forge, the Mamba solver, and the first Packaging-Con.
 
 **[RCE 103: EasyBuild](https://www.rce-cast.com/Podcast/rce-103-easybuild.html)** (2016). EasyBuild's approach to managing scientific software builds on HPC systems.
