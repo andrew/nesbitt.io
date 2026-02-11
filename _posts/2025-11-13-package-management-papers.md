@@ -133,6 +133,12 @@ arXiv preprint
 
 Study finding that local pinning leads to more security vulnerabilities due to bloated and outdated dependencies. Suggests risk of malicious package updates can be reduced when core dependencies pin their versions and keep them updated regularly.
 
+**[Causes and Canonicalization of Unreproducible Builds in Java](https://arxiv.org/abs/2504.21679)** ([archive](https://web.archive.org/web/20260109164548/https://arxiv.org/abs/2504.21679)) (2025)
+*Aman Sharma, Benoit Baudry, Martin Monperrus*
+IEEE Transactions on Software Engineering
+
+Develops a taxonomy of six root causes of build unreproducibility in Java and presents Chains-Rebuild, a canonicalization tool that raises reproducibility success from 9.48% to 26.89% on 12,283 unreproducible artifacts. Studies mitigations including artifact and bytecode canonicalization.
+
 **[Maven-Lockfile: High Integrity Rebuild of Past Java Releases](https://arxiv.org/abs/2510.00730)** ([archive](http://web.archive.org/web/20260126214427/https://arxiv.org/abs/2510.00730)) (2025)
 *Larissa Schmid, et al.*
 arXiv preprint
@@ -367,6 +373,24 @@ Differential analysis evaluating correctness of SBOM generation from metadata, u
 arXiv preprint
 
 Proposes a runtime defense mechanism for Java applications that constructs an allowlist of legitimate classes using complete software supply chain information, then enforces this list during execution to block unauthorized classes. Tested against critical vulnerabilities including Log4Shell-style threats with minimal performance impact.
+
+**[Maven-Hijack: Software Supply Chain Attack Exploiting Packaging Order](https://arxiv.org/abs/2407.18760)** ([archive](https://web.archive.org/web/20251216155450/http://arxiv.org/abs/2407.18760)) (2025)
+*Frank Reyes, Federico Bono, Aman Sharma, Benoit Baudry, Martin Monperrus*
+ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)
+
+Demonstrates a supply chain attack exploiting how Maven packages dependencies and how the JVM resolves classes at runtime. By injecting a malicious class with the same fully qualified name into a dependency packaged earlier, an attacker can silently override application behavior. Demonstrated on the Corona-Warn-App.
+
+**[GoSurf: Identifying Software Supply Chain Attack Vectors in Go](https://arxiv.org/abs/2407.04442)** ([archive](https://web.archive.org/web/20251117190748/https://arxiv.org/abs/2407.04442)) (2024)
+*Carmine Cesarano, Vivi Andersson, Roberto Natella, Martin Monperrus*
+ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)
+
+Proposes a taxonomy of 12 attack vectors specific to Go's package lifecycle, identifying language features that can be misused to propagate malicious code through supply chains. Introduces GoSurf, a static analysis tool that measures the attack surface of Go packages according to this taxonomy, evaluated on the top 500 most imported Go modules.
+
+**[Software Bills of Materials in Maven Central](https://arxiv.org/abs/2501.13832)** ([archive](https://web.archive.org/web/20251118030348/https://arxiv.org/abs/2501.13832)) (2025)
+*Yogya Gamage, Nadia Gonzalez Fernandez, Martin Monperrus, Benoit Baudry*
+International Conference on Mining Software Repositories (MSR) Mining Challenge
+
+Mines SBOMs from Maven Central to assess how often developers publish them alongside artifacts. Collected 14,071 SBOMs from 7,290 package releases and found the 2021 White House Executive Order significantly accelerated SBOM adoption. CycloneDX and SPDX plugins for Gradle and Maven are the most commonly used generators.
 
 **[Dirty-Waters: Detecting Software Supply Chain Smells](https://arxiv.org/abs/2410.16049)** ([archive](http://web.archive.org/web/20260126215029/https://arxiv.org/abs/2410.16049)) (2024)
 *Raphina Liu, Sofia Bobadilla, Benoit Baudry, Martin Monperrus*
