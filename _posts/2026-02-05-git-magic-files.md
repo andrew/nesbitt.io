@@ -6,7 +6,7 @@ description: "Magic files and where to find them: .gitignore, .gitattributes, .m
 tags:
   - git
   - tools
-  - development
+  - reference
 ---
 
 A follow-up to my post on [extending git functionality](/2025/11/26/extending-git-functionality.html). Git looks for several special files in your repository that control its behavior. These aren't configuration files in `.git/`, they're committed files that travel with your code and affect how git treats your files.

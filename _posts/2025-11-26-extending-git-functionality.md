@@ -6,7 +6,7 @@ description: "A practical guide to the different ways you can extend git: subcom
 tags:
   - git
   - tools
-  - development
+  - reference
 ---
 
 I've been researching how to extend git for a project I'm working on. There are seven distinct patterns that I've seen people use to add functionality to git without modifying git itself:

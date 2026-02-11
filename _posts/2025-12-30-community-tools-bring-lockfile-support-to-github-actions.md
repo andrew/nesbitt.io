@@ -6,6 +6,7 @@ description: "Community projects gh-actions-lockfile and ghasum address GitHub's
 tags:
   - package-managers
   - github
+  - git
   - tools
 ---
 
