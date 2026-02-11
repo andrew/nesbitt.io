@@ -33,7 +33,7 @@ Bundler shipped Gemfile.lock in 2010, one of the first lockfiles to pin exact de
 
 [Yarn launched](https://engineering.fb.com/2016/10/11/web/yarn-a-new-package-manager-for-javascript/) in October 2016 with yarn.lock and content hashes from day one. npm followed with [package-lock.json in npm 5.0](https://blog.npmjs.org/post/161081169345/v500) in May 2017. Once lockfiles recorded exact versions and integrity hashes (I covered the design choices in [lockfile format design and tradeoffs](/2026/01/17/lockfile-format-design-and-tradeoffs/)), you got reproducible builds without storing the code. The lockfile records what to fetch, the registry serves it, and the hash proves nothing changed in transit.
 
-Lockfiles spread to every major ecosystem. The [package manager timeline](/2025/11/15/package-manager-timeline) shows them arriving in waves: Bundler in 2010, Cargo.lock with Rust in 2015, Yarn and npm in 2016-2017, Poetry and uv bringing proper lockfiles to Python. Each one made vendoring less necessary for that community.
+Lockfiles spread to every major ecosystem. The [package manager timeline](/2025/11/15/package-manager-timeline) shows them arriving in waves: Bundler in 2010, Cargo.lock with Rust in 2015, Yarn and npm in 2016-2017, pipenv and Poetry bringing lockfiles to Python.
 
 ### left-pad
 
