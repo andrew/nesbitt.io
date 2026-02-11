@@ -167,6 +167,8 @@ The Manifest ([manifest.fm](https://manifest.fm)) is a podcast dedicated entirel
 
 **[Swift by Sundell #75: The Swift Package Ecosystem](https://www.swiftbysundell.com/podcast/75/)** (Dave Verwer and Sven A. Schmidt, 2020). The Swift Package Index launch and the state of the Swift package ecosystem.
 
+**[Swift Package Indexing #62: Transitioning CocoaPods into Maintenance Mode](https://swiftpackageindexing.transistor.fm/episodes/62-whats-the-plan-for-transitioning-cocoapods-into-maintenance-mode)** (Orta Therox, 2025). CocoaPods' transition to maintenance mode as Swift Package Manager takes over.
+
 ## .NET
 
 **[Hanselminutes #238: NuGet Package Management with Phil Haack](https://www.hanselminutes.com/238/aspnet-mvc-3-rc-and-nuget-package-management-with-phil-haack)** (Phil Haack, 2010). Recorded during PDC week, this is essentially the launch episode for .NET's package manager, back when it was still called NuPack.
