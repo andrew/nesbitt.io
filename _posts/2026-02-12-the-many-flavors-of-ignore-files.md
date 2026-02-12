@@ -82,7 +82,7 @@ Docker's is probably the most consequential ignore file after git's, because it 
 
 npm's is interesting because of its inverted relationship with `package.json`. You can use a `files` array in `package.json` to allowlist instead of blocklist, and if you do, `.npmignore` is ignored. If there's no `.npmignore` at all, npm falls back to `.gitignore`, which catches people out when they publish packages and find that their `dist/` directory was excluded because gitignore told npm to skip it. Running `npm pack --dry-run` before publishing shows you exactly which files would be included, which would have saved me hours the first time I hit this.
 
-Mercurial's `.hgignore` is genuinely more powerful than gitignore. It lets you choose your syntax per section with `syntax: glob` or `syntax: regexp`, and you can combine both in the same file, switching between them as needed. Glob patterns for the simple stuff, a regex for that one weird build artifact naming scheme, all in one file. It's the only ignore file I know of that gives you regex, and the ability to mix syntaxes is something git never adopted.
+Mercurial's `.hgignore` is more powerful than gitignore. It lets you choose your syntax per section with `syntax: glob` or `syntax: regexp`, and you can combine both in the same file, switching between them as needed. Glob patterns for the simple stuff, a regex for that one weird build artifact naming scheme, all in one file. It's the only ignore file I know of that gives you regex, and the ability to mix syntaxes is something git never adopted.
 
 ### "Uses gitignore syntax"
 
@@ -92,7 +92,7 @@ Some don't support negation at all, some don't support comments, and some treat 
 
 The underlying cause is implementation diversity. Tools using Go's `filepath.Match` get different behavior from tools using the `ignore` npm package, which get different behavior from tools using Python's `pathspec` library, which get different behavior from tools calling out to git's own matching code. Each reimplementation makes slightly different choices about edge cases, and the gitignore spec is informal enough that these choices are all defensible. This is exactly what I ran into with go-git: it's a mature, widely-used library, and its gitignore implementation still doesn't handle unanchored patterns correctly in nested directories.
 
-A proper compatibility matrix across all these tools (supports negation? comments? doublestar? directory-only matching? cascading?) would be genuinely useful reference material. I haven't found one, and writing it would mean empirically testing each tool rather than trusting their docs. Create a test fixture directory with files designed to probe each feature, write the ignore file, run the operation, and see what actually gets included. The tricky part is that each tool's operation is different: `npm pack --dry-run`, `docker build`, `git status`, `eslint .`. You'd need per-tool test harnesses.
+A proper compatibility matrix across all these tools (supports negation? comments? doublestar? directory-only matching? cascading?) would be useful reference material. I haven't found one, and writing it would mean empirically testing each tool rather than trusting their docs. Create a test fixture directory with files designed to probe each feature, write the ignore file, run the operation, and see what actually gets included. The tricky part is that each tool's operation is different: `npm pack --dry-run`, `docker build`, `git status`, `eslint .`. You'd need per-tool test harnesses.
 
 ### CommonIgnore
 

@@ -83,19 +83,7 @@ SwiftPM doesn't have any of this yet. Every `swift package resolve` clones direc
 
 A [2022 Checkmarx study](https://checkmarx.com/blog/chainjacking-the-new-supply-chain-attack/) found thousands of packages across Go and Swift vulnerable to repo-jacking, where an attacker registers an abandoned GitHub username and recreates a repo that existing packages still point to. Go's proxy mitigates this because cached modules don't re-fetch from the source, but SwiftPM has no such layer.
 
-The pieces to fix this are partly in place. Apple defined a [registry protocol](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0292-package-registry-service.md) (SE-0292, shipped in Swift 5.7) and built client support for it in SwiftPM, including package signing. JFrog and AWS CodeArtifact already implement the protocol for enterprise use. Rick Ballard mentioned wanting "a real index for Swift packages" with "a standardized namespace" at WWDC 2018.
-
-The client tooling is ready, the protocol is specified, and the ecosystem is still small enough that introducing a namespace layer wouldn't require the kind of painful migration that npm or PyPI face. The [Swift Package Index](https://swiftpackageindex.com), community-run and Apple-sponsored, already tracks around 12,000 packages. What's missing is the public registry service itself and the integrity infrastructure around it, and the window for adding these before the ecosystem's size makes it much harder is not open forever.
-
-### Distro-managed namespaces
-
-Debian, Fedora, Arch, Alpine, Homebrew, Nixpkgs, Conda-forge, and FreeBSD ports all use names controlled by distribution maintainers rather than upstream authors. The upstream project might call itself `imagemagick`, but the Debian package is `libmagickwand-dev`. Homebrew calls it `imagemagick`. Nixpkgs calls it `imagemagick`. Each distribution has its own naming conventions and its own maintainers making naming decisions.
-
-This model works because distro packages are curated rather than self-published. A human reviews the package, decides what it should be called, and takes responsibility for integration. The naming authority is the distribution maintainer rather than the software author, and the naming optimizes for system integration rather than upstream branding. Debian doesn't care what the project calls itself if `libmagickwand-dev` better describes where the package fits in the system.
-
-The disconnect between upstream names and distribution names can be disorienting, though. Python's `requests` library is `python3-requests` in Debian and `python-requests` in Arch. Ruby's `nokogiri` is `ruby-nokogiri` in Debian. These translations are learnable but add friction, especially when following tutorials written for a different platform.
-
-Distro-managed namespaces operate at a different scale than language registries. Debian has around 60,000 source packages. npm has millions. The curation model wasn't designed for that kind of velocity, and doesn't try to be.
+The pieces to fix this are partly in place. Apple defined a [registry protocol](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0292-package-registry-service.md) (SE-0292, shipped in Swift 5.7) and built client support for it in SwiftPM, including package signing. The client tooling is ready, the protocol is specified, and the ecosystem is still small enough that introducing a namespace layer wouldn't require the kind of painful migration that npm or PyPI face. The [Swift Package Index](https://swiftpackageindex.com), community-run and Apple-sponsored, already tracks around 12,000 packages. What's missing is the public registry service itself and the integrity infrastructure around it, and the window for adding these before the ecosystem's size makes it much harder is not open forever.
 
 ### The migration problem
 
