@@ -162,7 +162,10 @@ permalink: /oss-is-going-just-great/
 - [CHAOSS AI Alignment WG](https://github.com/chaoss/wg-ai-alignment/blob/main/moderation/README.md) — project AI policies, spam examples, blog posts
 - [Sonatype SSC Attack Timeline](https://www.sonatype.com/resources/vulnerability-timeline) — curated timeline of supply chain attacks
 - [daniel.haxx.se AI tag](https://daniel.haxx.se/blog/tag/ai/) — Stenberg's full archive of AI-related curl posts
-- [blog.pypi.org](https://blog.pypi.org/) — PyPI incident reports and security updates
+- [Pivot to AI](https://pivot-to-ai.com/) — David Gerard's AI hype and harm tracker
+- [Simon Willison's blog](https://simonwillison.net/) — prolific coverage of AI tools and their real-world impact
 - [Seth Larson's blog](https://sethmlarson.dev/) — Python PSF security developer-in-residence
+
+Missing something? [Contributions welcome](https://github.com/andrew/nesbitt.io/blob/master/oss-is-going-just-great.md).
 
 Hat tip to [Web3 Is Going Just Great](https://web3isgoinggreat.com/) for the format inspiration.
