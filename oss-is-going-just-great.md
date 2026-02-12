@@ -1,6 +1,7 @@
 ---
 layout: page
 title: OSS Is Going Just Great
+description: A timeline of generative AI's impact on open source maintainers and software supply chain security.
 permalink: /oss-is-going-just-great/
 ---
 
@@ -153,9 +154,9 @@ permalink: /oss-is-going-just-great/
 - RedMonk publishes ["AI Slopageddon and the OSS Maintainers"](https://redmonk.com/kholterhoff/2026/02/03/ai-slopageddon-and-the-oss-maintainers/)
 - InfoWorld: ["Is AI killing open source?"](https://www.infoworld.com/article/4129056/is-ai-killing-open-source.html)
 - continue.dev: ["We're Losing Open Contribution"](https://blog.continue.dev/were-losing-open-contribution/)
-- [An AI Agent Published a Hit Piece on Me](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
 - Mitchell Hashimoto releases [Vouch](https://github.com/mitchellh/vouch), a community trust management system based on explicit vouches to participate
 - [1Password launches SCAM benchmark](https://1password.com/blog/ai-agent-security-benchmark) — tests whether AI agents fall for phishing and social engineering during realistic workflows; every model tested committed critical failures
+- [An AI Agent Published a Hit Piece on Me](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
 
 ## Resources
 
