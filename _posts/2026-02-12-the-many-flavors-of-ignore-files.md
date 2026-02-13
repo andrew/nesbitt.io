@@ -55,7 +55,7 @@ This ignores everything except `foo/bar`. You have to re-include `foo/`, then re
 
 ### Everything else
 
-[`.gitignore`](https://git-scm.com/docs/gitignore) is the original. Then the copies, roughly in order of how likely you are to encounter them:
+[`.gitignore`](https://git-scm.com/docs/gitignore) gets treated as the original, though CVS had [`.cvsignore`](https://www.gnu.org/software/trans-coord/manual/cvs/html_node/cvsignore.html) in the early 1990s and version control systems like [BitKeeper](https://www.bitkeeper.org/man/ignore.html) and [Perforce](https://www.perforce.com/manuals/cmdref/Content/CmdRef/P4IGNORE.html) had their own versions well before git existed. Most modern tools take their syntax from git, roughly in order of how likely you are to encounter them:
 
 - [`.dockerignore`](https://docs.docker.com/build/concepts/context/) for Docker build context
 - [`.npmignore`](https://docs.npmjs.com/cli/v11/using-npm/developers/) for npm package publishing
@@ -73,7 +73,6 @@ This ignores everything except `foo/bar`. You have to re-include `foo/`, then re
 - [`.vscodeignore`](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) for VS Code extension packaging
 - [`.chefignore`](https://docs.chef.io/chef_repo/) for Chef
 - [`.bzrignore`](https://web.archive.org/web/20220811170451/http://doc.bazaar.canonical.com/latest/en/user-guide/controlling_registration.html) for Bazaar
-- [`.cvsignore`](https://www.gnu.org/software/trans-coord/manual/cvs/html_node/cvsignore.html) for CVS
 - `.ignore`, `.rgignore`, `.agignore` for [ripgrep](https://github.com/BurntSushi/ripgrep) and [the silver searcher](https://github.com/ggreer/the_silver_searcher)
 
 ### How others differ
