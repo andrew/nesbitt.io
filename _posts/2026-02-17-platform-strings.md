@@ -163,6 +163,8 @@ Every token except `Chrome` is a compatibility claim. It's not Mozilla, not Safa
 
 Platform strings aren't adversarial in the same way, but they share the path-dependency. Every tool that works across ecosystems maintains its own mapping between formats. [esbuild](https://github.com/evanw/esbuild/blob/main/lib/npm/node-platform.ts) maps Node's `process.platform`/`process.arch` to package names, [cibuildwheel](https://cibuildwheel.pypa.io/) maps Python platform tags to CI matrix entries, and [rake-compiler-dock](https://github.com/rake-compiler/rake-compiler) maps RubyGems platforms to GCC cross-compilation targets. These mappings are maintained independently, and discrepancies between them surface as bugs in specific platform combinations.
 
+I've started building [git-pkgs/platforms](https://github.com/git-pkgs/platforms) as an attempt at a shared translation layer, with JSON mapping tables that convert between all fourteen ecosystems covered in this post. Writing the mapping data has been a good way to discover just how many special cases exist: RubyGems using `arm64` on macOS but `aarch64` on Linux, Rust calling RISC-V `riscv64gc` while everyone else uses `riscv64`, Debian spelling little-endian MIPS as `mipsel` while Go uses `mipsle`.
+
 ### Alignment
 
 The same platform identification problem keeps getting solved because the answers don't seem to travel well. Python's manylinux and Ruby's binary gems RFC converge on the same dimensions but use different names, Zig's ABI research seems directly relevant to Rust's target specification work but lives in a different issue tracker, and archspec's microarchitecture DAG could probably inform platform matching beyond Spack but as far as I can tell nobody else uses it.
