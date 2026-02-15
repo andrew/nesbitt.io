@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Package Management Namespaces](https://nesbitt.io/2026/02/14/package-management-namespaces.html)
 - [Respectful Open Source](https://nesbitt.io/2026/02/13/respectful-open-source.html)
 - [The Many Flavors of Ignore Files](https://nesbitt.io/2026/02/12/the-many-flavors-of-ignore-files.html)
 - [Package Management Consulting](https://nesbitt.io/2026/02/11/package-management-consulting.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Dependency Resolution Methods](https://nesbitt.io/2026/02/06/dependency-resolution-methods.html)
 - [Crates.io’s Freaky Friday](https://nesbitt.io/2026/02/06/cratesio-freaky-friday.html)
 - [Git’s Magic Files](https://nesbitt.io/2026/02/05/git-magic-files.html)
-- [Package Management at FOSDEM 2026](https://nesbitt.io/2026/02/04/package-management-at-fosdem-2026.html)
 <!-- POSTS:END -->
