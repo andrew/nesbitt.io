@@ -5,7 +5,7 @@
     lists, updated daily.
   stars: 137
   language:
-  pushed_at: '2026-02-08T00:56:02Z'
+  pushed_at: '2026-02-14T00:43:40Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
@@ -16,14 +16,14 @@
   url: https://github.com/andrew/nesbitt.io
   description: 'Personal blog built with Jekyll and hosted on GitHub Pages. I write
     about package management, software supply chain security, and open source infrastructure. '
-  stars: 17
+  stars: 18
   language: HTML
-  pushed_at: '2026-02-08T06:20:37Z'
+  pushed_at: '2026-02-15T06:20:29Z'
 - name: managing-dependencies
   url: https://github.com/andrew/managing-dependencies
   description: Claude Code skill for evaluating packages and managing dependencies
     securely
-  stars: 12
+  stars: 13
   language:
   pushed_at: '2026-01-21T12:55:49Z'
 - name: go-bundler
@@ -64,13 +64,7 @@
     (PURLs) as defined by the PURL specification
   stars: 10
   language: Ruby
-  pushed_at: '2026-02-03T11:14:52Z'
-- name: hanami-sprockets
-  url: https://github.com/andrew/hanami-sprockets
-  description: An alternative to hanami-assets that doesn't rely on npm
-  stars: 9
-  language: Ruby
-  pushed_at: '2025-10-12T21:04:54Z'
+  pushed_at: '2026-02-10T16:15:03Z'
 - name: sidekiq-mcp
   url: https://github.com/andrew/sidekiq-mcp
   description: A Sidekiq plugin that provides an MCP (Model Context Protocol) server
@@ -78,6 +72,12 @@
   stars: 9
   language: Ruby
   pushed_at: '2025-10-12T21:04:58Z'
+- name: hanami-sprockets
+  url: https://github.com/andrew/hanami-sprockets
+  description: An alternative to hanami-assets that doesn't rely on npm
+  stars: 9
+  language: Ruby
+  pushed_at: '2025-10-12T21:04:54Z'
 - name: json-schema-diff
   url: https://github.com/andrew/json-schema-diff
   description: Semantic diff for JSON files using JSON Schema metadata
@@ -90,19 +90,13 @@
     from the software of a paper
   stars: 8
   language: Ruby
-  pushed_at: '2026-01-02T13:47:27Z'
+  pushed_at: '2026-02-10T16:59:19Z'
 - name: typosquatting
   url: https://github.com/andrew/typosquatting
   description: Detect potential typosquatting packages across package ecosystems
   stars: 7
   language: Ruby
   pushed_at: '2026-01-06T10:21:58Z'
-- name: changelog-parser
-  url: https://github.com/andrew/changelog-parser
-  description: Parse changelog files into structured data
-  stars: 6
-  language: Ruby
-  pushed_at: '2025-12-23T21:08:21Z'
 - name: zizmor-research
   url: https://github.com/andrew/zizmor-research
   description: zizmor analysis of 31,916 github actions using alpha of ecosyste.ms
@@ -110,6 +104,12 @@
   stars: 6
   language:
   pushed_at: '2025-06-13T20:39:41Z'
+- name: changelog-parser
+  url: https://github.com/andrew/changelog-parser
+  description: Parse changelog files into structured data
+  stars: 6
+  language: Ruby
+  pushed_at: '2025-12-23T21:08:21Z'
 - name: diffoscope
   url: https://github.com/andrew/diffoscope
   description: Ruby bindings for diffoscope - Compare packages, tarballs, files, URLs,
@@ -154,22 +154,22 @@
   stars: 1
   language: Ruby
   pushed_at: '2026-01-07T16:15:11Z'
-- name: gitlab-faraday
-  url: https://github.com/andrew/gitlab-faraday
-  description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
-    updated to use Faraday
-  stars: 1
-  language: Ruby
-  pushed_at: '2026-01-09T11:10:44Z'
-- name: swhid-go
-  url: https://github.com/andrew/swhid-go
-  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
-  stars: 1
-  language: Go
-  pushed_at: '2026-01-18T22:09:13Z'
 - name: sbom
   url: https://github.com/andrew/sbom
   description: Parse, generate, and validate Software Bill of Materials (SBOM)
   stars: 1
   language: Ruby
   pushed_at: '2026-02-03T11:15:29Z'
+- name: swhid-go
+  url: https://github.com/andrew/swhid-go
+  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
+  stars: 1
+  language: Go
+  pushed_at: '2026-02-10T16:08:53Z'
+- name: gitlab-faraday
+  url: https://github.com/andrew/gitlab-faraday
+  description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
+    updated to use Faraday
+  stars: 1
+  language: Ruby
+  pushed_at: '2026-02-10T16:59:11Z'
