@@ -68,18 +68,18 @@ The dummy `src/main.rs` is needed because `cargo fetch` requires a valid project
 
 Almost nobody uses `cargo fetch` in Dockerfiles. The Rust community skipped straight to caching compilation with [cargo-chef](https://github.com/LukeMathWalker/cargo-chef), because compiling hundreds of crates is where builds spend most of their wall-clock time and downloads feel cheap by comparison. But every `cargo build` without a prior `cargo fetch` is still hitting crates.io for every crate whenever the layer rebuilds, and Fastly is absorbing that traffic whether it takes three seconds or thirty.
 
-### pip download
+### pip wheel
 
-[`pip download`](https://pip.pypa.io/en/stable/cli/pip_download/) fetches distributions into a directory, and `pip install --no-index --find-links` installs from that directory offline:
+[`pip wheel`](https://pip.pypa.io/en/stable/cli/pip_wheel/) builds wheels for all dependencies into a directory, and `pip install --no-index --find-links` installs from that directory offline:
 
 ```dockerfile
 COPY requirements.txt .
-RUN pip download -r requirements.txt -d /tmp/pkgs
+RUN pip wheel -r requirements.txt -w /tmp/wheels
 COPY . .
-RUN pip install --no-index --find-links /tmp/pkgs -r requirements.txt
+RUN pip install --no-index --find-links /tmp/wheels -r requirements.txt
 ```
 
-There's a [known bug](https://github.com/pypa/pip/issues/7863) where build dependencies like setuptools aren't included in the download, so packages that ship only as source distributions can fail during the offline install, though most Python projects in 2026 ship as prebuilt wheels unless you're doing something unusual with C extensions.
+`pip download` also exists but has a [known bug](https://github.com/pypa/pip/issues/7863) where build dependencies like setuptools aren't included, so packages that ship as source distributions can fail during the offline install. `pip wheel` avoids this by compiling everything into wheels up front, so the install step never needs a build backend.
 
 Neither Poetry nor uv have download-only commands. Poetry has had an [open issue](https://github.com/python-poetry/poetry/issues/2184) since 2020, and uv has [one](https://github.com/astral-sh/uv/issues/3163) with over a hundred upvotes. Both suggest exporting to `requirements.txt` and falling back to pip.
 
@@ -127,7 +127,7 @@ Cache mounts solve the problem from the wrong end. The package manager has the l
 | Go module proxy | Google | `go mod download` | implicit | Yes, canonical |
 | npm registry | Microsoft | `pnpm fetch` (pnpm only; npm and yarn have nothing) | `--offline` | pnpm yes, others no |
 | crates.io | Fastly (donated) | `cargo fetch` | `--frozen` | Rarely |
-| PyPI | Fastly (donated) | `pip download` (pip only; Poetry and uv have nothing) | `--no-index --find-links` | Rarely |
+| PyPI | Fastly (donated) | `pip wheel` (pip only) | `--no-index --find-links` | Rarely |
 | rubygems.org | Fastly (donated) | `bundle cache --no-install` | `--local` | Rarely |
 
 Most package managers were designed around a persistent local cache on a developer's laptop, `~/.cache` or `~/.gem` or `~/.npm`, that warms up over time and stays warm. Ephemeral build environments start clean every time, and Docker layers are the only caching mechanism available, which means the network-dependent part of a build needs to be isolated from the rest for caching to work.
