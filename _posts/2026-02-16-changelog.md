@@ -53,9 +53,6 @@ All notable changes to this project will be documented in this file. The format 
 ### Security
 - **CVE-2025-41547**: Expression parser was using `eval()`. What we were told was a recursive descent parser turned out to be a `Function()` constructor wrapping user input. A customer entered `require('child_process').exec('rm -rf /')` as a pricing formula. WAF caught it. Parser replaced.
 
-### Fixed
-- The actual parser does not handle operator precedence. `2 + 3 * 4` returns `20`. Enterprise customers have been receiving wrong bulk pricing.
-
 - Module: 531 lines across 1 file. 0 tests. 0 dependencies.
 
 ---
@@ -71,6 +68,7 @@ All notable changes to this project will be documented in this file. The format 
 - Arbitrary precision decimals for currency. Previous implementation used IEEE 754 floating point for monetary values.
 
 ### Fixed
+- Expression parser does not handle operator precedence. `2 + 3 * 4` returns `20`. Enterprise customers have been receiving wrong bulk pricing since October.
 - Currency amounts now stored as integers (cents) in the database. Retroactive correction tracked in JIRA-4521 through JIRA-4523.
 - Matrix multiplication dimensions were backwards. Dashboard was multiplying a 3x2 by a 2x3 and getting a 2x2 result instead of 3x3.
 - Input validation checked `result === NaN` to catch bad calculations. This never catches anything, because `NaN === NaN` is `false` in JavaScript. Invalid calculations were silently passing through to invoices as `NaN`. The PDF renderer prints this as "NaN" in the total field. (Fixes #209 "What does NaN mean and why do I owe it")
@@ -112,7 +110,6 @@ All notable changes to this project will be documented in this file. The format 
 - Plugin system for extensibility.
 
 ### Removed
-- Plugin system. Zero adoption. No usage documentation exists.
 - Vendored copy of mathjs that was committed in an earlier session. No commit message references its addition.
 
 - Module: 2,814 lines across 11 files. 340 tests. 0 dependencies.
@@ -120,6 +117,9 @@ All notable changes to this project will be documented in this file. The format 
 ---
 
 ## [3.0.1] - 2026-01-23
+
+### Removed
+- Plugin system. Zero adoption. No usage documentation exists.
 
 ### Added
 - mathjs test suite added to the repository as a reference for expected behavior. Added `test/vendor/` to `.npmignore` so it doesn't ship with the package.
