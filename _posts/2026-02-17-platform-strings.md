@@ -2,7 +2,7 @@
 layout: post
 title: "Platform Strings"
 date: 2026-02-17 10:00 +0000
-description: "Every package manager names the same platforms differently, and every divergence made sense at the time."
+description: "An M1 Mac is aarch64-apple-darwin, arm64-darwin, darwin/arm64, or macosx_11_0_arm64 depending on which tool you ask."
 tags:
   - package-managers
   - deep-dive
