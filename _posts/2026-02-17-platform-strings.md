@@ -102,7 +102,7 @@ C and C++ have [no canonical package registry](/2026/01/27/the-c-shaped-hole-in-
 
 Java doesn't have a standard platform string format because most Java code doesn't need one. When it does, the [os-maven-plugin](https://github.com/trustin/os-maven-plugin) normalizes platform detection into a classifier string like `linux-x86_64` or `osx-aarch_64`, adding an underscore to `aarch_64` that no other ecosystem uses.
 
-[Homebrew](https://docs.brew.sh/Bottles) names its bottle builds using macOS marketing names: `arm64_sonoma`, `arm64_ventura`, `ventura` (Intel implied). On Linux it's `x86_64_linux`. This makes Homebrew the only package manager that encodes the OS release name rather than a version number, and bottles break whenever Apple ships a new macOS version until Homebrew adds it.
+[Homebrew](https://docs.brew.sh/Bottles) names its bottle builds using macOS marketing names: `arm64_sonoma`, `arm64_ventura`, `ventura` (Intel implied). On Linux it's `x86_64_linux`. This makes Homebrew the only package manager that encodes the OS release name rather than a version number, though bottles built for older versions work fine on newer macOS releases.
 
 [Nix](https://nixos.org/) uses simple `arch-os` pairs like `x86_64-linux` and `aarch64-darwin`, clean and minimal but unable to distinguish between glibc and musl Linux in the system string.
 
