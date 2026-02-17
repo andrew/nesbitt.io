@@ -157,6 +157,7 @@ permalink: /oss-is-going-just-great/
 - Mitchell Hashimoto releases [Vouch](https://github.com/mitchellh/vouch), a community trust management system based on explicit vouches to participate
 - [1Password launches SCAM benchmark](https://1password.com/blog/ai-agent-security-benchmark) — tests whether AI agents fall for phishing and social engineering during realistic workflows; every model tested committed critical failures
 - [An AI Agent Published a Hit Piece on Me](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
+- [Gentoo launches official Codeberg mirror](https://www.gentoo.org/news/2026/02/16/codeberg.html) as an alternative to GitHub for contributions
 
 ## Resources
 
