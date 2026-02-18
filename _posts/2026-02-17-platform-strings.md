@@ -44,7 +44,7 @@ The Node scheme has no way to express libc version, OS version, or ABI, which is
 
 Python's [wheel platform tags](https://peps.python.org/pep-0425/) encode the most information of any ecosystem. A wheel filename like `numpy-1.26.0-cp312-cp312-manylinux_2_17_x86_64.whl` contains the Python version (`cp312`), the ABI tag (`cp312`), and the platform tag (`manylinux_2_17_x86_64`).
 
-The platform tag comes from [`distutils.util.get_platform()`](https://docs.python.org/3/distutils/apiref.html#distutils.util.get_platform) with hyphens and periods replaced by underscores. On macOS it encodes the minimum OS version: `macosx_11_0_arm64` means "macOS 11 or later on arm64." On Windows it's `win_amd64`. On Linux it encodes the glibc version.
+The platform tag comes from [`distutils.util.get_platform()`](https://peps.python.org/pep-0425/) (removed in Python 3.12 along with the rest of `distutils`) with hyphens and periods replaced by underscores. On macOS it encodes the minimum OS version: `macosx_11_0_arm64` means "macOS 11 or later on arm64." On Windows it's `win_amd64`. On Linux it encodes the glibc version.
 
 The manylinux story is its own saga. [PEP 513](https://peps.python.org/pep-0513/) introduced `manylinux1` (glibc 2.5) so that compiled wheels could run on most Linux distributions. Then came [PEP 571](https://peps.python.org/pep-0571/) for `manylinux2010` (glibc 2.12), then [PEP 599](https://peps.python.org/pep-0599/) for `manylinux2014` (glibc 2.17). Each required a new PEP. [PEP 600](https://peps.python.org/pep-0600/) finally created a pattern, `manylinux_${GLIBCMAJOR}_${GLIBCMINOR}_${ARCH}`, so future glibc versions don't need new PEPs. The old names became aliases: `manylinux1_x86_64` is `manylinux_2_5_x86_64`.
 
@@ -126,13 +126,13 @@ The same four platforms, named by each ecosystem:
 | vcpkg | x64-linux | arm64-osx | x64-windows | arm64-linux |
 | .NET | linux-x64 | osx-arm64 | win-x64 | linux-arm64 |
 | Nix | x86_64-linux | aarch64-darwin | (N/A) | aarch64-linux |
-| Homebrew | x86_64_linux | arm64_sonoma | (N/A) | (N/A) |
+| Homebrew | x86_64_linux | arm64_sequoia | (N/A) | (N/A) |
 
 The same four platforms yield three names for 64-bit x86 (`x86_64`, `amd64`, `x64`), four for ARM64 (`aarch64`, `arm64`, `armv8`, and Maven's `aarch_64`), three for macOS (`darwin`, `macos`/`osx`, `macosx`, plus Homebrew's version-specific names), and two for Windows (`win32`, `windows`/`win`). RubyGems is interesting here because it uses both ARM64 names: `arm64-darwin` on macOS (following Apple's convention) but `aarch64-linux` on Linux (following the kernel's convention). Two different names for the same architecture within a single ecosystem, while Conan sidesteps the entire format question by not using strings at all.
 
 ### Why everything diverges
 
-The architecture naming splits trace back to who each ecosystem inherited from. Go took `amd64` from Plan 9 and Debian, both of which used AMD's name since AMD designed the 64-bit extension to x86. Node got `x64` from V8, which followed the Windows SDK convention. Python's `x86_64` comes straight from `uname -m` on Linux via `sysconfig.get_platform()`. Debian itself uses `amd64` as the architecture name but `x86_64-linux-gnu` as the multiarch tuple, because the two serve different purposes.
+The architecture naming splits trace back to who each ecosystem inherited from. Go took `amd64` from Plan 9 and Debian, both of which used AMD's name since AMD designed the 64-bit extension to x86. Node got `x64` from V8, which followed the Windows SDK convention. Python's `x86_64` comes straight from `uname -m` on Linux via `distutils.util.get_platform()`. Debian itself uses `amd64` as the architecture name but `x86_64-linux-gnu` as the multiarch tuple, because the two serve different purposes.
 
 The structural differences run deeper and trace to what each ecosystem actually ships. Go statically links by default, so it never needed a vendor or ABI field, while Python wheels contain compiled C extensions that link against system libraries and ended up encoding the glibc version out of necessity. Most npm packages are pure JavaScript, which is why Node's platform strings never grew libc or OS version fields. Rust curates its triple list with a tier system because it wants to guarantee that specific targets work with specific levels of CI coverage. Conan gave up on strings entirely in favor of structured key-value settings, avoiding the parsing and separator problems but making it harder to use where a single identifier is expected, like a filename or URL path. .NET's RIDs put OS first (`linux-x64` rather than `x64-linux`) because the runtime's fallback graph cares more about OS compatibility than architecture when selecting assets.
 
