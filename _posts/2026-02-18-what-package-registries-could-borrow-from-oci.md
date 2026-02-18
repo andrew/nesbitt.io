@@ -131,7 +131,7 @@ The security ecosystem around OCI registries (cosign, notation, Kyverno, OPA Gat
 
 Shared content between unrelated source packages is rare, so this matters more for binary packages where the same shared libraries get bundled into Homebrew bottles for different formulas, the same runtime components appear in multiple Conda packages, and Debian's archive carries the same `.so` files across dozens of packages and versions.
 
-The community-funded registries are where this adds up. rubygems.org, crates.io, PyPI, and hex.pm run on bandwidth donated by CDN providers, primarily Fastly, and packagist.org is funded through Private Packagist subscription revenue. These registries serve terabytes of package data to millions of developers on infrastructure that someone is volunteering to cover.
+The community-funded registries are where this adds up. rubygems.org, crates.io, PyPI, and hex.pm run on bandwidth donated by CDN providers, primarily Fastly. These registries serve terabytes of package data to millions of developers on infrastructure that someone is volunteering to cover.
 
 Content-addressable storage won't eliminate those costs, but a registry that's been running for ten years has accumulated a lot of identical blobs that a content-addressable backend would collapse into single copies, and the savings compound as the registry grows.
 
@@ -173,7 +173,7 @@ The reason every package manager invented its own archive format is not because 
 
 **Who pays.** GHCR storage and bandwidth are [currently free](https://docs.github.com/en/billing/concepts/product-billing/github-packages) for public images, with a promise of at least one month's notice before that changes. At standard GitHub Packages rates ($0.25/GB/month for storage, $0.50/GB for bandwidth), Homebrew's bottle archive would cost substantially more than zero. GitHub absorbs that as an in-kind subsidy, and the Homebrew 3.1.0 release notes explicitly thank them for it.
 
-If rubygems.org or PyPI moved all their package storage to GHCR tomorrow, someone would need to have a similar conversation with GitHub, or AWS, or Google. The current model of Fastly donating CDN bandwidth and Packagist funding itself through Private Packagist subscriptions is fragile, but it exists and it's understood.
+If rubygems.org or PyPI moved all their package storage to GHCR tomorrow, someone would need to have a similar conversation with GitHub, or AWS, or Google. The current model of Fastly donating CDN bandwidth is fragile, but it exists and it's understood.
 
 Adopting OCI for distribution is partly a technical decision about storage and protocols, but it's also a decision about who funds the infrastructure that the ecosystem depends on and what leverage that creates. Shifting from Fastly-donated CDN to GitHub-donated OCI storage changes the answer to that question without necessarily improving it.
 
