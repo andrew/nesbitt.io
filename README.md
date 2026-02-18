@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Platform Strings](https://nesbitt.io/2026/02/17/platform-strings.html)
 - [CHANGELOG.md](https://nesbitt.io/2026/02/16/changelog.html)
 - [Separating Download from Install in Docker Builds](https://nesbitt.io/2026/02/15/separating-download-from-install-in-docker-builds.html)
 - [Package Management Namespaces](https://nesbitt.io/2026/02/14/package-management-namespaces.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Lockfiles Killed Vendoring](https://nesbitt.io/2026/02/10/lockfiles-killed-vendoring.html)
 - [Package Manager Podcast Episodes](https://nesbitt.io/2026/02/09/package-manager-podcast-episodes.html)
 - [Sandwich Bill of Materials](https://nesbitt.io/2026/02/08/sandwich-bill-of-materials.html)
-- [Dependency Resolution Methods](https://nesbitt.io/2026/02/06/dependency-resolution-methods.html)
 <!-- POSTS:END -->
