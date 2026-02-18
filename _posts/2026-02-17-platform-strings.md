@@ -78,6 +78,8 @@ Tier 1 targets are "guaranteed to work" with automated testing on every commit. 
 
 ### Zig
 
+Zig's default Windows target is `x86_64-windows-gnu`, which looks like a contradiction. Here `gnu` means MinGW-w64, not Linux. Zig ships MinGW-w64 headers so it can compile C code on Windows without requiring Visual Studio, and MinGW-w64 is binary-compatible with MSVC at the ABI level. Ballmer called Linux a cancer in 2001. Twenty-four years later, the practical way to cross-compile Windows binaries from Linux is a compiler that defaults to `gnu` as the ABI. MinGW exists because for years the only way to target Windows without paying for Visual Studio was to build your own GCC cross-compiler.
+
 Zig inherited LLVM's target triples but is actively redesigning them. An [accepted proposal](https://github.com/ziglang/zig/issues/20690) by Alex Ronne Petersen would turn triples into quadruples, splitting the C library choice (API) from the ABI into separate components: `<arch>-<os>-<api>-<abi>`.
 
 The proposal includes what it calls "a fairly exhaustive survey of the ISA and ABI landscape," and the scale of the problem becomes clear quickly. RISC-V alone defines eight distinct ABIs (ilp32, ilp32f, ilp32d, ilp32e, lp64, lp64f, lp64d, lp64q). PowerPC has multiple ABIs (SVR4, EABI, Apple, ELFv1, ELFv2, AIX) plus variations in `long double` representation. LoongArch is "the only architecture I'm aware of to have done the sane thing" and put the ABI information into the ABI component from the start; the current triple format can't express most of these combinations cleanly.
