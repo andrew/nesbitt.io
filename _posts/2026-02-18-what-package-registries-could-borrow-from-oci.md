@@ -75,13 +75,15 @@ No individual choice here is wrong, but seventeen different answers to the same 
 | Go | `.zip` | Source under `module@version/` path prefix |
 | Hex | Outer tar of inner files | `VERSION` + `metadata.config` + `contents.tar.gz` + `CHECKSUM` |
 | Debian | `.deb` (ar archive) | `debian-binary` + `control.tar.*` + `data.tar.*` |
-| RPM | Custom binary format | Header sections + cpio payload (v4) or custom format (v6) |
+| RPM | Custom binary format | Header sections + cpio payload (v4) or custom format (v6)[^rpm5] |
 | Alpine | Concatenated gzip streams | Signature + control tar + data tar |
 | Conda | `.conda` (zip of zstd tars) or `.tar.bz2` | `info/` metadata + package content |
 | Dart/pub | `.tar.gz` | Source + `pubspec.yaml` |
 | Swift PM | `.zip` | Source archive |
 | CPAN | `.tar.gz` | `.pm` files + `Makefile.PL` + `META.yml` + `MANIFEST` |
 | CocoaPods | No archive format | `.podspec` points to source URLs |
+
+[^rpm5]: v5 was a fork by Jeff Johnson, RPM's long-time maintainer, after he split from Red Hat around 2007. No major distribution adopted it. The mainline project skipped to v6 to avoid confusion.
 
 ### The weird ones
 
