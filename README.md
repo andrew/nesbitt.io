@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Go Modules for Package Management Tooling](https://nesbitt.io/2026/02/19/go-modules-for-package-management-tooling.html)
 - [What Package Registries Could Borrow from OCI](https://nesbitt.io/2026/02/18/what-package-registries-could-borrow-from-oci.html)
 - [Platform Strings](https://nesbitt.io/2026/02/17/platform-strings.html)
 - [CHANGELOG.md](https://nesbitt.io/2026/02/16/changelog.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [The Many Flavors of Ignore Files](https://nesbitt.io/2026/02/12/the-many-flavors-of-ignore-files.html)
 - [Package Management Consulting](https://nesbitt.io/2026/02/11/package-management-consulting.html)
 - [Lockfiles Killed Vendoring](https://nesbitt.io/2026/02/10/lockfiles-killed-vendoring.html)
-- [Package Manager Podcast Episodes](https://nesbitt.io/2026/02/09/package-manager-podcast-episodes.html)
 <!-- POSTS:END -->
