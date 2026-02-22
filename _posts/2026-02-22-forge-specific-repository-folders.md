@@ -20,7 +20,7 @@ GitHub's folder holds:
 - **CODEOWNERS** — required reviewers for paths
 - **FUNDING.yml** — sponsor button configuration
 
-GitHub also reads some files from the repo root or from `.github/`: **SECURITY.md**, **CONTRIBUTING.md**, **CODE_OF_CONDUCT.md**. **LICENSE** is different: GitHub's license detection only works when the file is in the repo root.
+GitHub also reads some files from the repo root or from `.github/`: **SECURITY.md**, **CONTRIBUTING.md**, **CODE_OF_CONDUCT.md**. **LICENSE** must be in the repo root for GitHub's license detection to pick it up.
 
 The `.github/workflows/` directory contains YAML files defining Actions workflows. Each file is a separate workflow that runs on events like push, pull request, or schedule.
 
