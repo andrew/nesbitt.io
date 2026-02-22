@@ -28,7 +28,7 @@ Git checks multiple ignore files in order: `.gitignore` in each directory, `.git
 
 The pattern matching supports wildcards (`*.log`), directory markers (`dist/`), negation (`!important.log`), and character ranges. The `**` pattern matches nested directories.
 
-GitHub, GitLab, and Gitea all respect `.gitignore` and won't show ignored files in the web UI. Package managers often ship with their own ignore patterns (`node_modules/`, `vendor/`, `target/`) that you're expected to add to your ignore file.
+GitHub, GitLab, and Gitea all respect `.gitignore` when browsing the repository. Files that were tracked before being added to `.gitignore` will still show up though, since git only ignores untracked files. You need to `git rm --cached` a file to stop tracking it. GitHub and Forgejo's web editors don't enforce ignore rules either: you can create a file matching an ignored pattern through the web UI and it'll be committed without any warning. Package managers often ship with their own ignore patterns (`node_modules/`, `vendor/`, `target/`) that you're expected to add to your ignore file.
 
 See the [gitignore docs](https://git-scm.com/docs/gitignore) for the full pattern syntax. GitHub maintains [a collection of .gitignore templates](https://github.com/github/gitignore) for different languages and frameworks.
 
@@ -142,7 +142,7 @@ a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0
 b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1
 ```
 
-Configure git to use it with `git config blame.ignoreRevsFile .git-blame-ignore-revs`. GitHub, GitLab (15.4+), and Gitea all read this file automatically without configuration.
+Configure git to use it with `git config blame.ignoreRevsFile .git-blame-ignore-revs`. GitHub, GitLab (15.4+), and Gitea all read this file automatically without configuration. One gotcha: if you set this in your global git config, `git blame` will fail in any repository that doesn't have the file. You can work around this with `git config --global blame.markIgnoredLines true` and `git config --global blame.markUnblamableLines true`, but the missing file error needs a per-repo config or the file itself to exist.
 
 This solves the problem where running a formatter on the entire codebase makes `git blame` useless. With this file, blame skips those commits and shows the actual author of the logic.
 
