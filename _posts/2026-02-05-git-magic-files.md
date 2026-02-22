@@ -28,7 +28,7 @@ Git checks multiple ignore files in order: `.gitignore` in each directory, `.git
 
 The pattern matching supports wildcards (`*.log`), directory markers (`dist/`), negation (`!important.log`), and character ranges. The `**` pattern matches nested directories.
 
-GitHub, GitLab, and Gitea all respect `.gitignore` when browsing the repository. Files that were tracked before being added to `.gitignore` will still show up though, since git only ignores untracked files. You need to `git rm --cached` a file to stop tracking it. GitHub and Forgejo's web editors don't enforce ignore rules either: you can create a file matching an ignored pattern through the web UI and it'll be committed without any warning. Package managers often ship with their own ignore patterns (`node_modules/`, `vendor/`, `target/`) that you're expected to add to your ignore file.
+GitHub, GitLab, and Gitea all respect `.gitignore` when browsing the repository, though files that were already tracked before being added to `.gitignore` will still show up since git only ignores untracked files (`git rm --cached` removes them from tracking). GitHub and Forgejo's web editors will also let you create a file matching an ignored pattern and commit it without any warning. Package managers often ship with their own ignore patterns (`node_modules/`, `vendor/`, `target/`) that you're expected to add to your ignore file.
 
 See the [gitignore docs](https://git-scm.com/docs/gitignore) for the full pattern syntax. GitHub maintains [a collection of .gitignore templates](https://github.com/github/gitignore) for different languages and frameworks.
 
@@ -123,7 +123,7 @@ Jane Developer <jane@company.com> J Developer <janed@personal.com>
 
 The format is `Proper Name <proper@email.com> Commit Name <commit@email.com>`. Git looks for entries matching the commit author and rewrites the output.
 
-This matters for contributor statistics. `git shortlog -sn` uses it to count commits per author, and `git log` and `git blame` use it too. GitHub's contributor graphs [do not use mailmap](https://github.com/orgs/community/discussions/22518), so you'll still see duplicate entries there.
+`git shortlog -sn`, `git log`, and `git blame` all use mailmap to aggregate commits under canonical identities. GitHub's contributor graphs [do not](https://github.com/orgs/community/discussions/22518), which means duplicate entries persist on the web even when your mailmap is correct.
 
 Without mailmap, contributors who changed email addresses or fixed typos in their names show up as multiple people. With it, all their commits aggregate under one identity.
 
@@ -142,7 +142,7 @@ a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0
 b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1
 ```
 
-Configure git to use it with `git config blame.ignoreRevsFile .git-blame-ignore-revs`. GitHub, GitLab (15.4+), and Gitea all read this file automatically without configuration. One gotcha: if you set this in your global git config, `git blame` will fail in any repository that doesn't have the file. You can work around this with `git config --global blame.markIgnoredLines true` and `git config --global blame.markUnblamableLines true`, but the missing file error needs a per-repo config or the file itself to exist.
+Configure git to use it with `git config blame.ignoreRevsFile .git-blame-ignore-revs`. GitHub, GitLab (15.4+), and Gitea all read this file automatically without configuration. If you set this in your global git config, `git blame` will fail in any repository that doesn't have the file, so you either need per-repo config or an empty `.git-blame-ignore-revs` in every repo you work in.
 
 This solves the problem where running a formatter on the entire codebase makes `git blame` useless. With this file, blame skips those commits and shows the actual author of the logic.
 
