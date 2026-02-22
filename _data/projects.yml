@@ -3,9 +3,9 @@
   url: https://github.com/andrew/ultimate-awesome
   description: Every awesome list on every topic, including awesome lists of awesome
     lists, updated daily.
-  stars: 137
+  stars: 139
   language:
-  pushed_at: '2026-02-14T00:43:40Z'
+  pushed_at: '2026-02-22T00:45:51Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
@@ -18,7 +18,7 @@
     about package management, software supply chain security, and open source infrastructure. '
   stars: 18
   language: HTML
-  pushed_at: '2026-02-15T06:20:29Z'
+  pushed_at: '2026-02-22T06:18:04Z'
 - name: managing-dependencies
   url: https://github.com/andrew/managing-dependencies
   description: Claude Code skill for evaluating packages and managing dependencies
@@ -32,6 +32,12 @@
   stars: 11
   language: Ruby
   pushed_at: '2025-12-25T12:38:33Z'
+- name: swhid
+  url: https://github.com/andrew/swhid
+  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
+  stars: 11
+  language: Ruby
+  pushed_at: '2026-01-14T12:35:01Z'
 - name: state-of-oss-funding
   url: https://github.com/andrew/state-of-oss-funding
   description: 'The State of OSS Funding data: Insights from ecosyste.ms - talk at
@@ -45,45 +51,39 @@
     the VERS spec.
   stars: 11
   language: Ruby
-  pushed_at: '2026-01-09T21:09:50Z'
-- name: swhid
-  url: https://github.com/andrew/swhid
-  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
-  stars: 11
-  language: Ruby
-  pushed_at: '2026-01-14T12:35:01Z'
+  pushed_at: '2026-02-19T14:05:00Z'
 - name: ruby-upgrade-action
   url: https://github.com/andrew/ruby-upgrade-action
   description: GitHub action to upgrade version of Ruby in various places to the latest
   stars: 10
   language:
-  pushed_at: '2026-01-20T17:06:29Z'
+  pushed_at: '2026-02-16T18:18:06Z'
 - name: purl
   url: https://github.com/andrew/purl
   description: A Ruby library for parsing, validating, and generating Package URLs
     (PURLs) as defined by the PURL specification
   stars: 10
   language: Ruby
-  pushed_at: '2026-02-10T16:15:03Z'
-- name: sidekiq-mcp
-  url: https://github.com/andrew/sidekiq-mcp
-  description: A Sidekiq plugin that provides an MCP (Model Context Protocol) server
-    for LLMs to interact with Sidekiq queues, stats, and failed jobs
-  stars: 9
-  language: Ruby
-  pushed_at: '2025-10-12T21:04:58Z'
-- name: hanami-sprockets
-  url: https://github.com/andrew/hanami-sprockets
-  description: An alternative to hanami-assets that doesn't rely on npm
-  stars: 9
-  language: Ruby
-  pushed_at: '2025-10-12T21:04:54Z'
+  pushed_at: '2026-02-17T09:37:29Z'
 - name: json-schema-diff
   url: https://github.com/andrew/json-schema-diff
   description: Semantic diff for JSON files using JSON Schema metadata
   stars: 9
   language: Ruby
   pushed_at: '2025-10-15T09:49:49Z'
+- name: sidekiq-mcp
+  url: https://github.com/andrew/sidekiq-mcp
+  description: A Sidekiq plugin that provides an MCP (Model Context Protocol) server
+    for LLMs to interact with Sidekiq queues, stats, and failed jobs
+  stars: 9
+  language: Ruby
+  pushed_at: '2026-02-17T17:17:18Z'
+- name: hanami-sprockets
+  url: https://github.com/andrew/hanami-sprockets
+  description: An alternative to hanami-assets that doesn't rely on npm
+  stars: 9
+  language: Ruby
+  pushed_at: '2026-02-17T18:23:25Z'
 - name: PBOM
   url: https://github.com/andrew/PBOM
   description: Paper Bill of Materials (PBOM) - Generate a paper bill of materials
@@ -124,42 +124,36 @@
   stars: 2
   language:
   pushed_at: '2025-11-26T18:50:44Z'
-- name: dirhash
-  url: https://github.com/andrew/dirhash
-  description: Generate Go module zip digests compatible with sum.golang.org
-  stars: 1
-  language: Ruby
-  pushed_at: '2025-12-29T17:54:16Z'
 - name: grass-ruby
   url: https://github.com/andrew/grass-ruby
   description: A fast Sass compiler for Ruby, powered by grass (Rust)
   stars: 1
   language: Ruby
   pushed_at: '2025-12-30T10:31:32Z'
-- name: semgrep-codeql
-  url: https://github.com/andrew/semgrep-codeql
-  description: Converted security rules fromcodeql to semgrep format.
+- name: dirhash
+  url: https://github.com/andrew/dirhash
+  description: Generate Go module zip digests compatible with sum.golang.org
   stars: 1
-  language:
-  pushed_at: '2025-12-21T20:26:20Z'
+  language: Ruby
+  pushed_at: '2025-12-29T17:54:16Z'
 - name: jekyll-stats
   url: https://github.com/andrew/jekyll-stats
   description: Jekyll plugin that generates site statistics
   stars: 1
   language: Ruby
   pushed_at: '2026-01-03T10:06:03Z'
+- name: semgrep-codeql
+  url: https://github.com/andrew/semgrep-codeql
+  description: Converted security rules fromcodeql to semgrep format.
+  stars: 1
+  language:
+  pushed_at: '2025-12-21T20:26:20Z'
 - name: sarif
   url: https://github.com/andrew/sarif
   description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
   stars: 1
   language: Ruby
   pushed_at: '2026-01-07T16:15:11Z'
-- name: sbom
-  url: https://github.com/andrew/sbom
-  description: Parse, generate, and validate Software Bill of Materials (SBOM)
-  stars: 1
-  language: Ruby
-  pushed_at: '2026-02-03T11:15:29Z'
 - name: swhid-go
   url: https://github.com/andrew/swhid-go
   description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
@@ -173,3 +167,9 @@
   stars: 1
   language: Ruby
   pushed_at: '2026-02-10T16:59:11Z'
+- name: sbom
+  url: https://github.com/andrew/sbom
+  description: Parse, generate, and validate Software Bill of Materials (SBOM)
+  stars: 1
+  language: Ruby
+  pushed_at: '2026-02-15T21:30:37Z'
