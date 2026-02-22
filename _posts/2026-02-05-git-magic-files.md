@@ -123,7 +123,7 @@ Jane Developer <jane@company.com> J Developer <janed@personal.com>
 
 The format is `Proper Name <proper@email.com> Commit Name <commit@email.com>`. Git looks for entries matching the commit author and rewrites the output.
 
-This matters for contributor statistics. GitHub's contributor graphs use mailmap. `git shortlog -sn` uses it to count commits per author. Tools analyzing commit history use it.
+This matters for contributor statistics. `git shortlog -sn` uses it to count commits per author, and `git log` and `git blame` use it too. GitHub's contributor graphs [do not use mailmap](https://github.com/orgs/community/discussions/22518), so you'll still see duplicate entries there.
 
 Without mailmap, contributors who changed email addresses or fixed typos in their names show up as multiple people. With it, all their commits aggregate under one identity.
 
