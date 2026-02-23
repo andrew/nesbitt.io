@@ -28,7 +28,7 @@ Git checks multiple ignore files in order: `.gitignore` in each directory, `.git
 
 The pattern matching supports wildcards (`*.log`), directory markers (`dist/`), negation (`!important.log`), and character ranges. The `**` pattern matches nested directories.
 
-GitHub, GitLab, and Gitea all respect `.gitignore` when browsing the repository, though files that were already tracked before being added to `.gitignore` will still show up since git only ignores untracked files (`git rm --cached` removes them from tracking). GitHub and Forgejo's web editors will also let you create a file matching an ignored pattern and commit it without any warning. Package managers often ship with their own ignore patterns (`node_modules/`, `vendor/`, `target/`) that you're expected to add to your ignore file.
+GitLab and Gitea all respect `.gitignore` when browsing the repository, though files that were already tracked before being added to `.gitignore` will still show up since git only ignores untracked files (`git rm --cached` removes them from tracking). GitHub and Forgejo's web editors will also let you create a file matching an ignored pattern and commit it without any warning. Package managers often ship with their own ignore patterns (`node_modules/`, `vendor/`, `target/`) that you're expected to add to your ignore file.
 
 See the [gitignore docs](https://git-scm.com/docs/gitignore) for the full pattern syntax. GitHub maintains [a collection of .gitignore templates](https://github.com/github/gitignore) for different languages and frameworks.
 
