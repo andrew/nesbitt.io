@@ -5,7 +5,7 @@ date: 2025-11-27 12:00 +0000
 description: "AI coding benchmarks are heavily skewed toward Python and JavaScript. Framework maintainers could change that by defining what good code looks like in their ecosystems."
 tags:
   - ai
-  - open source
+  - open-source
   - benchmarks
   - maintainers
 ---

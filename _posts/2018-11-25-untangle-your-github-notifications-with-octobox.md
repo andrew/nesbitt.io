@@ -6,7 +6,7 @@ description: Octobox helps you manage your GitHub notifications in the same way 
 tags:
   - ruby
   - github
-  - open source
+  - open-source
   - productivity
 ---
 

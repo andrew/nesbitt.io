@@ -4,7 +4,7 @@ title: "Open Source Activity in 2025"
 date: 2025-12-31 10:00 +0000
 description: "A look back at my open source work in 2025: ecosyste.ms, supply chain security tooling, and Ruby gems"
 tags:
-  - open source
+  - open-source
   - github
 ---
 
@@ -59,7 +59,7 @@ I gave a talk at CHAOSScon North America on the state of open source funding, us
 
 I also appeared on a few podcasts:
 
-- [The Changelog #665](https://changelog.com/podcast/665) - open source metadata and the "15,000 people who run the world"
+- [The Changelog #665](https://changelog.com/podcast/665) - open-source metadata and the "15,000 people who run the world"
 - [Open Source Security](https://opensourcesecurity.io/2025/2025-06-ecosystems_andrew_nesbitt/) - cataloging open source and identifying critical packages
 - [Sustain #270](https://podcast.sustainoss.org/270) - ecosyste.ms and Open Source Collective collaboration on funding allocation
 - [CHAOSScast #121](https://podcast.chaoss.community/121) - the Package Metadata Working Group

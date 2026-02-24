@@ -4,7 +4,7 @@ title: Making 24 Pull Requests more inclusive for 2018
 published: true
 description: 24 Pull Requests is back for it's 6th year and this time we're making it more inclusive to all kinds of contributions.
 tags:
-  - open source
+  - open-source
   - challenge
   - christmas
 ---

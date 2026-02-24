@@ -6,7 +6,7 @@ description: "A collection of podcast interviews discussing ecosyste.ms, open so
 tags:
   - podcasts
   - ecosyste.ms
-  - open source
+  - open-source
   - sustainability
 ---
 

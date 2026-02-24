@@ -4,7 +4,7 @@ title: Jekyll Stats Plugin
 date: 2025-12-21 10:37 +0000
 description: A Jekyll plugin that adds a stats command to show word counts, reading time, posting frequency, and tag distributions.
 tags:
-  - open source
+  - open-source
   - ruby
   - jekyll
 ---

@@ -5,7 +5,7 @@ date: 2024-06-24 16:52 +0100
 description: "A curated catalogue of versioning schemes used in open source software—from the conventional to the creative."
 tags:
   - versioning
-  - open source
+  - open-source
   - software development
   - semver
   - package-managers

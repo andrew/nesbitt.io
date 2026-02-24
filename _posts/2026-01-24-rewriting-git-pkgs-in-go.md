@@ -4,7 +4,7 @@ title: "Rewriting git-pkgs in Go"
 date: 2026-01-24 08:00 +0000
 description: The dependency history tool is now a single Go binary.
 tags:
-  - open source
+  - open-source
   - package-managers
   - git
   - tools

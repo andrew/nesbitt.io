@@ -5,7 +5,7 @@ published: true
 description: Highly used open source libraries that have almost no stars or attention on GitHub.
 cover_image:
 tags:
-  - open source
+  - open-source
   - infrastructure
   - dependencies
   - github

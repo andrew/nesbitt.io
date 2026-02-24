@@ -4,7 +4,7 @@ title: "Revisiting Gitballs"
 date: 2025-11-28 01:00 +0000
 description: "Nine years ago I experimented with storing package tarballs as git objects. A visit to Software Heritage got me thinking about it again."
 tags:
-  - open source
+  - open-source
   - package-managers
   - git
   - software heritage
