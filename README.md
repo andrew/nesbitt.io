@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Where Do Specifications Fit in the Dependency Tree?](https://nesbitt.io/2026/02/23/where-do-specifications-fit-in-the-dependency-tree.html)
 - [Forge-Specific Repository Folders](https://nesbitt.io/2026/02/22/forge-specific-repository-folders.html)
 - [Whale Fall](https://nesbitt.io/2026/02/21/whale-fall.html)
 - [ActivityPub](https://nesbitt.io/2026/02/20/activitypub.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [CHANGELOG.md](https://nesbitt.io/2026/02/16/changelog.html)
 - [Separating Download from Install in Docker Builds](https://nesbitt.io/2026/02/15/separating-download-from-install-in-docker-builds.html)
 - [Package Management Namespaces](https://nesbitt.io/2026/02/14/package-management-namespaces.html)
-- [Respectful Open Source](https://nesbitt.io/2026/02/13/respectful-open-source.html)
 <!-- POSTS:END -->
