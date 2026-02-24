@@ -39,6 +39,12 @@
     return Math.floor(randRange(min, max + 1));
   }
 
+  // URL hash overrides: #sqlite, #is-odd, #column, #monolith, #nebraska, #konami
+  function getForceMode() {
+    var hash = location.hash.replace('#', '').toLowerCase();
+    return hash || null;
+  }
+
   // ── Randomized tower builder ──
   //
   // Builds bottom-up. Each row:
@@ -51,9 +57,10 @@
   function buildTowerDefs() {
     var defs = [];
     var y = 0; // distance above ground top, increases upward
+    var force = getForceMode();
 
-    // Easter egg: single massive block
-    if (rand() < 0.001) {
+    // Easter egg: single massive block (0.1%)
+    if (force === 'sqlite' || rand() < 0.001) {
       var w = isMobile ? randRange(100, 180) : randRange(200, 300);
       var h = isMobile ? randRange(200, 400) : randRange(300, 500);
       defs.push({
@@ -66,8 +73,47 @@
       return defs;
     }
 
-    // Small chance of a "monolith" tower -- few huge blocks
-    var monolith = rand() < 0.1;
+    // Easter egg: is-odd / is-even (1%)
+    if (force === 'is-odd' || force === 'is-even' || rand() < 0.01) {
+      var bw = 40, bh = 20;
+      defs.push({
+        x: cx,
+        y: GROUND_TOP - bh / 2,
+        w: bw,
+        h: bh,
+        forceLabel: 'is-even'
+      });
+      defs.push({
+        x: cx,
+        y: GROUND_TOP - bh - bh / 2,
+        w: bw,
+        h: bh,
+        forceLabel: 'is-odd'
+      });
+      return defs;
+    }
+
+    // Easter egg: single column tower (3%)
+    if (force === 'column' || rand() < 0.03) {
+      var colY = 0;
+      var numBlocks = randInt(25, 35);
+      for (var ci = 0; ci < numBlocks; ci++) {
+        var colW = Math.round(randRange(20, 35));
+        var colH = Math.round(randRange(12, 24));
+        var wobble = randRange(-3, 3);
+        defs.push({
+          x: cx + wobble,
+          y: GROUND_TOP - colY - colH / 2,
+          w: colW,
+          h: colH
+        });
+        colY += colH;
+      }
+      return defs;
+    }
+
+    // Small chance of a "monolith" tower -- few huge blocks (10%)
+    var monolith = force === 'monolith' || rand() < 0.1;
 
     // Tower parameters
     var baseWidth = monolith ? randRange(200, 260) : randRange(280, 340);
@@ -261,7 +307,17 @@
     '-transform', '-polyfill', '-shim', '-compat'
   ];
 
+  var infamousNames = [
+    'left-pad', 'event-stream', 'log4j', 'openssl', 'colors.js',
+    'core-js', 'node-ipc', 'ua-parser-js', 'faker', 'polyfill.io'
+  ];
+
   function generateProjectName(settleMs) {
+    // 20% chance of a real infamous project name
+    if (rand() < 0.2) {
+      return infamousNames[randInt(0, infamousNames.length - 1)];
+    }
+
     // Longer settle time = more likely to be a JS project
     var jsChance = Math.min(0.9, settleMs / 4000);
 
@@ -286,9 +342,14 @@
     return name;
   }
 
+  var nebraskaNames = [
+    'curl', 'core-js', 'node-ipc', 'colors', 'imagemagick', 'gpg',
+    'openssl', 'sqlite', 'busybox', 'ntpd', 'expat', 'zlib'
+  ];
+
   // ── Game state ──
 
-  var engine, world, mouseConstraint;
+  var engine, world, mouseConstraint, ceiling;
   var blocks = [];
   var animFrameId = null;
   var settled = false;
@@ -318,9 +379,29 @@
     var ground = Bodies.rectangle(WIDTH / 2, HEIGHT - 10, WIDTH + 100, 20, {
       isStatic: true, friction: 1.0
     });
+    ceiling = Bodies.rectangle(WIDTH / 2, -10, WIDTH + 100, 20, {
+      isStatic: true, friction: 1.0
+    });
     World.add(world, ground);
 
     var defs = buildTowerDefs();
+
+    // Nebraska block: ~15% chance, pick a small block in the bottom 3 rows
+    var hasNebraska = false;
+    var force = getForceMode();
+    if (defs.length > 2 && (force === 'nebraska' || rand() < 0.15)) {
+      // Sort by Y descending (highest Y = closest to ground) and pick from the bottom blocks
+      var bottomDefs = defs.filter(function (d) {
+        return d.y > GROUND_TOP - 100 && d.w < 80 && d.h < 40;
+      });
+      if (bottomDefs.length > 0) {
+        var pick = bottomDefs[randInt(0, bottomDefs.length - 1)];
+        pick.isNebraska = true;
+        pick.forceLabel = nebraskaNames[randInt(0, nebraskaNames.length - 1)];
+        hasNebraska = true;
+      }
+    }
+
     blocks = [];
     defs.forEach(function (def) {
       var body = Bodies.rectangle(def.x, def.y, def.w, def.h, {
@@ -332,8 +413,19 @@
       });
       World.add(world, body);
       var shade = Math.floor(randRange(210, 255));
-      var fill = 'rgb(' + shade + ',' + shade + ',' + shade + ')';
-      blocks.push({ body: body, w: def.w, h: def.h, seed: body.id, fill: fill, forceLabel: def.forceLabel || null });
+      var fill = def.isNebraska ? '#fffde0' : 'rgb(' + shade + ',' + shade + ',' + shade + ')';
+      var block = {
+        body: body, w: def.w, h: def.h, seed: body.id, fill: fill,
+        forceLabel: def.forceLabel || null, isNebraska: def.isNebraska || false
+      };
+      if (def.isNebraska) {
+        block.nebraskaWobbleX = randRange(-8, 8);
+        block.nebraskaWobbleY = randRange(-5, 5);
+        // Fixed anchor point for the annotation (doesn't follow physics)
+        block.nebraskaOriginX = def.x;
+        block.nebraskaOriginY = def.y;
+      }
+      blocks.push(block);
     });
 
     mouseConstraint = MouseConstraint.create(engine, {
@@ -394,10 +486,68 @@
         fill: b.fill,
         fillStyle: 'solid',
         stroke: '#333',
-        strokeWidth: 1.5,
+        strokeWidth: b.isNebraska ? 3 : 1.5,
         roughness: 1.2,
         seed: b.seed
       });
+      ctx.restore();
+    });
+
+    // Nebraska arrow annotation
+    blocks.forEach(function (b) {
+      if (!b.isNebraska) return;
+      var bx = b.nebraskaOriginX;
+      var by = b.nebraskaOriginY;
+      var FONT = "'xkcd-script', 'Comic Sans MS', 'Bradley Hand', 'Comic Neue', cursive";
+      var fontSize = isMobile ? 9 : 13;
+      var side = bx < cx ? -1 : 1;
+      var textX = bx + side * (isMobile ? 80 : 140);
+      // Clamp text so it stays on canvas
+      textX = Math.max(isMobile ? 70 : 100, Math.min(WIDTH - (isMobile ? 70 : 100), textX));
+      var textY = by - 80;
+      var maxW = isMobile ? 110 : 170;
+
+      // Wobbly arrow line
+      ctx.save();
+      ctx.strokeStyle = '#333';
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(textX, textY + 10);
+      var midX = (textX + bx) / 2 + b.nebraskaWobbleX;
+      var midY = (textY + 10 + by) / 2 + b.nebraskaWobbleY;
+      ctx.quadraticCurveTo(midX, midY, bx, by);
+      ctx.stroke();
+      // Arrowhead
+      ctx.beginPath();
+      ctx.moveTo(bx - 4, by - 6);
+      ctx.lineTo(bx, by);
+      ctx.lineTo(bx + 4, by - 6);
+      ctx.stroke();
+      ctx.restore();
+
+      // Wrapped text
+      ctx.save();
+      ctx.font = fontSize + 'px ' + FONT;
+      ctx.fillStyle = '#333';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'bottom';
+      var text = 'A project some random person in Nebraska has been mass maintaining since 2003';
+      var words = text.split(' ');
+      var lines = [];
+      var line = '';
+      for (var wi = 0; wi < words.length; wi++) {
+        var test = line ? line + ' ' + words[wi] : words[wi];
+        if (ctx.measureText(test).width > maxW && line) {
+          lines.push(line);
+          line = words[wi];
+        } else {
+          line = test;
+        }
+      }
+      if (line) lines.push(line);
+      for (var li = 0; li < lines.length; li++) {
+        ctx.fillText(lines[li], textX, textY - (lines.length - 1 - li) * (fontSize + 2));
+      }
       ctx.restore();
     });
 
@@ -439,5 +589,36 @@
     }
   });
 
+  function flipGravity() {
+    engine.gravity.y = -1;
+    World.add(world, ceiling);
+    blocks.forEach(function (b) { Sleeping.set(b.body, false); });
+    setTimeout(function () {
+      engine.gravity.y = 1;
+      World.remove(world, ceiling);
+      blocks.forEach(function (b) { Sleeping.set(b.body, false); });
+    }, 3000);
+  }
+
+  // Konami code: up up down down left right left right b a
+  var konamiSeq = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+  var konamiPos = 0;
+  document.addEventListener('keydown', function (e) {
+    if (e.keyCode === konamiSeq[konamiPos]) {
+      konamiPos++;
+      if (konamiPos === konamiSeq.length) {
+        konamiPos = 0;
+        flipGravity();
+      }
+    } else {
+      konamiPos = e.keyCode === konamiSeq[0] ? 1 : 0;
+    }
+  });
+
   init();
+
+  // Auto-trigger konami gravity flip from URL hash
+  if (getForceMode() === 'konami') {
+    setTimeout(flipGravity, 2000);
+  }
 })();
