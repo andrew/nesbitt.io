@@ -39,7 +39,7 @@ body {
   #game-container {
     width: 100vw;
     height: calc(100vw * 700 / 400);
-    padding-bottom: 20px;
+    padding-bottom: 8px;
   }
 }
 
@@ -59,11 +59,11 @@ body {
   top: 8px;
   right: 8px;
   z-index: 10;
-  width: 32px;
-  height: 32px;
+  width: 44px;
+  height: 44px;
   border: none;
   background: none;
-  font-size: 18px;
+  font-size: 24px;
   color: #666;
   cursor: pointer;
   line-height: 1;
@@ -79,11 +79,11 @@ body {
   top: 8px;
   left: 8px;
   z-index: 10;
-  width: 32px;
-  height: 32px;
+  width: 44px;
+  height: 44px;
   border: none;
   background: none;
-  font-size: 16px;
+  font-size: 22px;
   font-style: italic;
   color: #666;
   cursor: pointer;
