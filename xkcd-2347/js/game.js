@@ -20,112 +20,233 @@
   var GROUND_TOP = HEIGHT - 20;
   var cx = WIDTH / 2;
 
-  // ── Hand-crafted tower matching the comic shape ──
-  // Each block: [x_center, y_bottom_offset_from_ground_top, w, h, flags]
-  // We place blocks bottom-up. y is measured as distance above ground top.
-  // This way we can stack precisely: next row's y = previous row's y + previous row's h.
+  // Seeded PRNG so each reload gives a different tower
+  var seed = Math.floor(Math.random() * 2147483646) + 1;
+  function rand() {
+    seed = (seed * 16807) % 2147483647;
+    return (seed - 1) / 2147483646;
+  }
+  function randRange(min, max) {
+    return min + rand() * (max - min);
+  }
+  function randInt(min, max) {
+    return Math.floor(randRange(min, max + 1));
+  }
+
+  // ── Randomized tower builder ──
+  //
+  // Builds bottom-up. Each row:
+  //  - Has a defined width (starts wide, narrows toward top)
+  //  - Gets filled left-to-right with random-width blocks, edge-to-edge
+  //  - Row height is random within a range
+  //  - Small gaps between some blocks
+  //  - Block widths shrink as we go up
 
   function buildTowerDefs() {
     var defs = [];
+    var y = 0; // distance above ground top, increases upward
 
-    function add(x, yAboveGround, w, h, flags) {
-      defs.push({
-        x: cx + x,
-        y: GROUND_TOP - yAboveGround - h / 2,
-        w: w, h: h,
-        isNebraska: false
-      });
+    // Tower parameters
+    var baseWidth = randRange(280, 340);
+    var numRows = randInt(16, 22);
+    // Track tall blocks that span multiple rows so we don't overlap them
+    var tallBlocks = []; // { left, right, topY } -- topY is how high they extend
+
+    for (var r = 0; r < numRows; r++) {
+      // Columnar taper: stays wide for bottom 60%, narrows faster near top
+      var t = r / numRows;
+      var shrink;
+      if (t < 0.6) {
+        shrink = t * 0.25;
+      } else {
+        shrink = 0.15 + (t - 0.6) * 1.7;
+      }
+      // Add random jitter to row width so it's not a smooth curve
+      var rowWidth = baseWidth * (1 - shrink) + randRange(-15, 15);
+      if (rowWidth < 30) break;
+
+      // Vary row heights
+      var rowH;
+      if (r < 3) {
+        rowH = randRange(16, 30);
+      } else if (rand() < 0.2) {
+        rowH = randRange(8, 14);
+      } else {
+        rowH = randRange(14, 28);
+      }
+
+      var maxBlockW = Math.min(rowWidth, randRange(50, 180));
+      if (r > numRows * 0.6) maxBlockW = Math.min(rowWidth, randRange(25, 80));
+      var minBlockW = Math.min(18, rowWidth);
+
+      // Big massive blocks
+      if (r > 1 && r < numRows - 4 && rand() < 0.2) {
+        var bigW = Math.round(rowWidth * randRange(0.5, 0.85));
+        var bigH = Math.round(randRange(60, 120));
+        var maxOffset = (rowWidth - bigW) / 4; // keep big blocks near center
+        var bigX = randRange(-maxOffset, maxOffset);
+        defs.push({
+          x: cx + bigX,
+          y: GROUND_TOP - y - bigH / 2,
+          w: bigW,
+          h: bigH
+        });
+        tallBlocks.push({ left: -bigW / 2 + bigX, right: bigW / 2 + bigX, topY: y + bigH });
+        y += bigH;
+        continue;
+      }
+
+      var rowLeft = -rowWidth / 2;
+      var rowRight = rowWidth / 2;
+      var x = rowLeft;
+
+      // Remove expired tall blocks (ones that don't reach this row)
+      tallBlocks = tallBlocks.filter(function (tb) { return tb.topY > y; });
+
+      // Sometimes skip a chunk at the start (indent from left)
+      if (r > 4 && rand() < 0.15) {
+        x += randRange(5, 15);
+      }
+
+      while (x < rowRight - 5) {
+        var remaining = rowRight - x;
+
+        // Check if a tall block from a previous row occupies this x range
+        var blocked = false;
+        for (var t = 0; t < tallBlocks.length; t++) {
+          var tb = tallBlocks[t];
+          if (x + minBlockW > tb.left && x < tb.right) {
+            // Skip past this tall block
+            x = tb.right;
+            blocked = true;
+            break;
+          }
+        }
+        if (blocked) continue;
+
+        // Gaps between blocks
+        if (x > rowLeft && rand() < 0.25) {
+          var gap = randRange(2, 8);
+          x += gap;
+          remaining = rowRight - x;
+          if (remaining < minBlockW) break;
+        }
+
+        // Sometimes skip the rest of the row (leave right side empty)
+        if (x > rowLeft + 60 && rand() < 0.08) break;
+
+        remaining = rowRight - x;
+
+        // Pick block width
+        var w;
+        if (remaining <= maxBlockW) {
+          w = remaining;
+        } else {
+          w = randRange(minBlockW, Math.min(maxBlockW, remaining));
+          if (rowRight - (x + w) < minBlockW) w = remaining;
+        }
+        w = Math.round(w);
+        if (w < 8) break;
+
+        // Decide block height -- sometimes make a tall block spanning 2-3 rows
+        var h = rowH;
+        if (r > 1 && r < numRows - 3 && w < 40 && rand() < 0.2) {
+          // Tall block: 1.5-3x the row height
+          h = Math.round(rowH * randRange(1.5, 3));
+          tallBlocks.push({ left: x, right: x + w, topY: y + h });
+        }
+
+        defs.push({
+          x: cx + x + w / 2,
+          y: GROUND_TOP - y - h / 2,
+          w: w,
+          h: h
+        });
+
+        x += w;
+      }
+
+      // Cantilever: long thin block that sticks out one side
+      if (r > 5 && rand() < 0.12) {
+        var cantW = Math.round(randRange(50, 90));
+        var cantH = Math.round(randRange(8, 14));
+        var side = rand() < 0.5 ? -1 : 1;
+        // ~15% hangs off the edge, 85% supported
+        var cantX = side * (rowWidth / 2 - cantW * 0.35);
+        defs.push({
+          x: cx + cantX,
+          y: GROUND_TOP - y - cantH / 2,
+          w: cantW,
+          h: cantH
+        });
+      }
+
+      y += rowH;
     }
-
-    // === PEDESTAL (wide base) ===
-
-    // Layer 0: big wide slab
-    add(0, 0, 300, 20);
-
-    // Layer 1: two wide slabs
-    add(-75, 20, 150, 18);
-    add(75, 20, 150, 18);
-
-    // Layer 2: big block + two smaller
-    add(-50, 38, 180, 26);
-    add(60, 38, 60, 26);
-
-    // Row 3: three blocks
-    add(-56, 64, 88, 26);
-    add(0, 64, 24, 26);
-    add(56, 64, 88, 26);
-
-    // === MAIN COLUMN ===
-
-    // Row 4: massive wide block
-    add(0, 90, 200, 22);
-
-    // Row 5: three blocks
-    add(-60, 112, 80, 28);     // -100 to -20
-    add(20, 112, 60, 20);      // -10 to 50 (overlaps slightly, friction holds)
-    add(70, 112, 50, 20);      // 45 to 95
-
-    // Row 6: one big wide block
-    add(0, 140, 180, 24);
-
-    // Row 7: varied
-    add(-55, 164, 40, 34);     // tall narrow: -75 to -35
-    add(-5, 164, 60, 22);      // -35 to 25
-    add(50, 164, 50, 22);      // 25 to 75
-
-    // Row 8: wide block
-    add(0, 198, 160, 18);
-
-    // Row 9: four blocks
-    add(-55, 216, 50, 24);     // -80 to -30
-    add(-10, 216, 40, 24);     // -30 to 10
-    add(30, 216, 40, 20);      // 10 to 50
-    add(65, 216, 30, 18);      // 50 to 80
-
-    // Row 10: big wide block
-    add(0, 240, 140, 18);
-
-    // Row 11: two blocks
-    add(-35, 258, 70, 22);     // -70 to 0
-    add(35, 258, 70, 22);      // 0 to 70
-
-    // Row 12: wide
-    add(0, 280, 120, 18);
-
-    // Row 13: narrowing
-    add(-20, 298, 60, 16);
-    add(30, 298, 40, 16);
-
-    // === TOP SPIRES ===
-
-    // Left spire
-    add(-25, 314, 35, 24);
-    add(-25, 338, 22, 20);
-    add(-25, 358, 14, 30);
-
-    // Center spire
-    add(10, 314, 30, 20);
-    add(10, 334, 24, 24);
-    add(10, 358, 16, 20);
-    add(10, 378, 10, 16);
-
-    // Right spire
-    add(40, 314, 26, 28);
-    add(40, 342, 18, 22);
-
-    // Tiny top bits
-    add(-25, 388, 10, 14);
-    add(10, 394, 8, 12);
-    add(40, 364, 12, 14);
 
     return defs;
   }
 
-  var BLOCK_DEFS = buildTowerDefs();
+  // ── Fake project name generator ──
+
+  var prefixes = [
+    'lib', 'node-', 'py', 'go-', 'rust-', 'open', 'fast', 'micro', 'nano',
+    'super-', 'hyper-', 'ultra-', 'mini-', 'core-', 'base-', 'net-', 're-',
+    'un', 'de-', 'multi-', 'omni-', 'proto-', 'meta-'
+  ];
+
+  var roots = [
+    'sock', 'parse', 'flux', 'sync', 'cache', 'queue', 'crypt', 'hash',
+    'buf', 'stream', 'pipe', 'mux', 'codec', 'glob', 'fetch', 'lint',
+    'bind', 'wrap', 'shim', 'hook', 'yaml', 'json', 'csv', 'xml',
+    'http', 'smtp', 'dns', 'tcp', 'ssh', 'tls', 'auth', 'oauth',
+    'log', 'config', 'env', 'path', 'time', 'date', 'math', 'rand',
+    'zip', 'tar', 'gzip', 'snappy', 'lz4', 'zstd',
+    'pixel', 'font', 'color', 'image', 'chart', 'table',
+    'daemon', 'worker', 'sched', 'pool', 'spawn', 'fork'
+  ];
+
+  var suffixes = [
+    '.js', '.py', '-rs', '-go', '-core', '-utils', '-lite', '-ng',
+    '-x', '-2', '2', '3', '-plus', '-pro', '-next', '-dev',
+    'ify', 'er', 'ly', 'io', 'kit', 'lab', 'hub', 'box',
+    '-compat', '-extra', '-mini', '-fast', ''
+  ];
+
+  var usernames = [
+    'xXDarkCoderXx', 'jeff42', 'the_real_dev', 'codemonkey99',
+    'sysadmin_karen', 'linuxfan1987', 'gregtech', 'dev-null',
+    'random_contrib', '0xDEADBEEF', 'patches_welcome', 'bus-factor-1',
+    'unmaintained', 'mass_master', 'gary_nebraska', 'lone_mass'
+  ];
+
+  var domains = [
+    'github.com', 'gitlab.com', 'codeberg.org', 'sourceforge.net'
+  ];
+
+  function generateProjectName() {
+    var name = '';
+    if (rand() < 0.6) name += prefixes[randInt(0, prefixes.length - 1)];
+    name += roots[randInt(0, roots.length - 1)];
+    if (rand() < 0.7) name += suffixes[randInt(0, suffixes.length - 1)];
+
+    if (rand() < 0.35) {
+      var domain = domains[randInt(0, domains.length - 1)];
+      var user = usernames[randInt(0, usernames.length - 1)];
+      return domain + '/' + user + '/' + name;
+    }
+
+    return name;
+  }
+
+  // ── Game state ──
 
   var engine, world, mouseConstraint;
   var blocks = [];
   var animFrameId = null;
+  var settled = false;
+  var projectName = '';
+  var initTime = 0;
 
   function init() {
     engine = Engine.create({ enableSleeping: true });
@@ -137,23 +258,35 @@
     });
     World.add(world, ground);
 
+    var defs = buildTowerDefs();
     blocks = [];
-    BLOCK_DEFS.forEach(function (def) {
+    defs.forEach(function (def) {
       var body = Bodies.rectangle(def.x, def.y, def.w, def.h, {
-        friction: 0.9,
-        frictionStatic: 2.0,
+        friction: 1.0,
+        frictionStatic: 3.0,
         restitution: 0.0,
-        density: 0.004,
+        density: 0.001,
         sleepThreshold: 20
       });
       World.add(world, body);
-      blocks.push({
-        body: body, w: def.w, h: def.h,
-        isNebraska: def.isNebraska, seed: body.id
-      });
+      var shade = Math.floor(randRange(210, 255));
+      var fill = 'rgb(' + shade + ',' + shade + ',' + shade + ')';
+      blocks.push({ body: body, w: def.w, h: def.h, seed: body.id, fill: fill });
     });
 
     var mouse = Mouse.create(canvas);
+
+    // Fix mouse coordinates when canvas CSS size differs from internal resolution
+    function updateMouseScale() {
+      var rect = canvas.getBoundingClientRect();
+      Mouse.setScale(mouse, {
+        x: WIDTH / rect.width,
+        y: HEIGHT / rect.height
+      });
+    }
+    updateMouseScale();
+    window.addEventListener('resize', updateMouseScale);
+
     mouseConstraint = MouseConstraint.create(engine, {
       mouse: mouse,
       constraint: { stiffness: 0.6, damping: 0.1, render: { visible: false } }
@@ -162,12 +295,15 @@
     mouse.element.removeEventListener('DOMMouseScroll', mouse.mousewheel);
     World.add(world, mouseConstraint);
 
-    // Wake all blocks when dragging starts so they react to removed support
     Matter.Events.on(mouseConstraint, 'startdrag', function () {
       blocks.forEach(function (b) {
         Sleeping.set(b.body, false);
       });
     });
+
+    settled = false;
+    projectName = '';
+    initTime = Date.now();
 
     if (animFrameId) cancelAnimationFrame(animFrameId);
     animFrameId = requestAnimationFrame(gameLoop);
@@ -175,6 +311,16 @@
 
   function gameLoop() {
     Engine.update(engine, 1000 / 60);
+
+    if (!settled) {
+      var allSleeping = blocks.every(function (b) { return b.body.isSleeping; });
+      var timedOut = Date.now() - initTime > 3000;
+      if (allSleeping || timedOut) {
+        settled = true;
+        projectName = generateProjectName();
+      }
+    }
+
     draw();
     animFrameId = requestAnimationFrame(gameLoop);
   }
@@ -194,15 +340,25 @@
       ctx.translate(b.body.position.x, b.body.position.y);
       ctx.rotate(b.body.angle);
       rc.rectangle(-b.w / 2, -b.h / 2, b.w, b.h, {
-        fill: b.isNebraska ? '#fffde0' : '#fff',
+        fill: b.fill,
         fillStyle: 'solid',
         stroke: '#333',
-        strokeWidth: b.isNebraska ? 2.5 : 1.5,
+        strokeWidth: 1.5,
         roughness: 1.2,
         seed: b.seed
       });
       ctx.restore();
     });
+
+    // Show project name once settled
+    if (settled && projectName) {
+      var FONT = "'xkcd-script', 'Comic Sans MS', 'Comic Neue', cursive";
+      ctx.font = '32px ' + FONT;
+      ctx.fillStyle = '#333';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'top';
+      ctx.fillText(projectName, cx, 10);
+    }
   }
 
   init();
