@@ -14,15 +14,12 @@
 
   var isMobile, WIDTH, HEIGHT, GROUND_TOP, cx;
 
-  var dpr = window.devicePixelRatio || 1;
-
   function updateDimensions() {
     isMobile = window.innerWidth < 600;
     WIDTH = isMobile ? 400 : 800;
     HEIGHT = 700;
-    canvas.width = WIDTH * dpr;
-    canvas.height = HEIGHT * dpr;
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    canvas.width = WIDTH;
+    canvas.height = HEIGHT;
     GROUND_TOP = HEIGHT - 20;
     cx = WIDTH / 2;
     rc = rough.canvas(canvas);
@@ -298,6 +295,21 @@
   var projectName = '';
   var initTime = 0;
 
+  // Create mouse once, reuse across restarts
+  var mouse = Mouse.create(canvas);
+  mouse.element.removeEventListener('mousewheel', mouse.mousewheel);
+  mouse.element.removeEventListener('DOMMouseScroll', mouse.mousewheel);
+
+  function updateMouseScale() {
+    var rect = canvas.getBoundingClientRect();
+    Mouse.setScale(mouse, {
+      x: WIDTH / rect.width,
+      y: HEIGHT / rect.height
+    });
+  }
+  updateMouseScale();
+  window.addEventListener('resize', updateMouseScale);
+
   function init() {
     engine = Engine.create({ enableSleeping: true });
     world = engine.world;
@@ -324,26 +336,10 @@
       blocks.push({ body: body, w: def.w, h: def.h, seed: body.id, fill: fill, forceLabel: def.forceLabel || null });
     });
 
-    var mouse = Mouse.create(canvas);
-
-    // Force pixelRatio to 1 so we control the scaling entirely
-    mouse.pixelRatio = 1;
-    function updateMouseScale() {
-      var rect = canvas.getBoundingClientRect();
-      Mouse.setScale(mouse, {
-        x: WIDTH / rect.width,
-        y: HEIGHT / rect.height
-      });
-    }
-    updateMouseScale();
-    window.addEventListener('resize', updateMouseScale);
-
     mouseConstraint = MouseConstraint.create(engine, {
       mouse: mouse,
       constraint: { stiffness: 0.6, damping: 0.1, render: { visible: false } }
     });
-    mouse.element.removeEventListener('mousewheel', mouse.mousewheel);
-    mouse.element.removeEventListener('DOMMouseScroll', mouse.mousewheel);
     World.add(world, mouseConstraint);
 
     Matter.Events.on(mouseConstraint, 'startdrag', function () {
@@ -351,6 +347,8 @@
         Sleeping.set(b.body, false);
       });
     });
+
+    updateMouseScale();
 
     settled = false;
     projectName = '';
@@ -379,7 +377,6 @@
   }
 
   function draw() {
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, WIDTH, HEIGHT);
 
     // Ground
