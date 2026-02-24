@@ -12,13 +12,22 @@
   var ctx = canvas.getContext('2d');
   var rc = rough.canvas(canvas);
 
-  var WIDTH = 800;
-  var HEIGHT = 700;
-  canvas.width = WIDTH;
-  canvas.height = HEIGHT;
+  var isMobile, WIDTH, HEIGHT, GROUND_TOP, cx;
 
-  var GROUND_TOP = HEIGHT - 20;
-  var cx = WIDTH / 2;
+  var dpr = window.devicePixelRatio || 1;
+
+  function updateDimensions() {
+    isMobile = window.innerWidth < 600;
+    WIDTH = isMobile ? 400 : 800;
+    HEIGHT = 700;
+    canvas.width = WIDTH * dpr;
+    canvas.height = HEIGHT * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    GROUND_TOP = HEIGHT - 20;
+    cx = WIDTH / 2;
+    rc = rough.canvas(canvas);
+  }
+  updateDimensions();
 
   // Seeded PRNG so each reload gives a different tower
   var seed = Math.floor(Math.random() * 2147483646) + 1;
@@ -46,9 +55,27 @@
     var defs = [];
     var y = 0; // distance above ground top, increases upward
 
+    // Easter egg: single massive block
+    if (rand() < 0.001) {
+      var w = isMobile ? randRange(100, 180) : randRange(200, 300);
+      var h = isMobile ? randRange(200, 400) : randRange(300, 500);
+      defs.push({
+        x: cx,
+        y: GROUND_TOP - h / 2,
+        w: w,
+        h: h,
+        forceLabel: 'sqlite'
+      });
+      return defs;
+    }
+
+    // Small chance of a "monolith" tower -- few huge blocks
+    var monolith = rand() < 0.1;
+
     // Tower parameters
-    var baseWidth = randRange(280, 340);
-    var numRows = randInt(16, 22);
+    var baseWidth = monolith ? randRange(200, 260) : randRange(280, 340);
+    if (isMobile) baseWidth *= 0.4;
+    var numRows = monolith ? randInt(4, 7) : randInt(16, 22);
     // Track tall blocks that span multiple rows so we don't overlap them
     var tallBlocks = []; // { left, right, topY } -- topY is how high they extend
 
@@ -67,7 +94,9 @@
 
       // Vary row heights
       var rowH;
-      if (r < 3) {
+      if (monolith) {
+        rowH = randRange(50, 120);
+      } else if (r < 3) {
         rowH = randRange(16, 30);
       } else if (rand() < 0.2) {
         rowH = randRange(8, 14);
@@ -76,8 +105,9 @@
       }
 
       var maxBlockW = Math.min(rowWidth, randRange(50, 180));
+      if (monolith) maxBlockW = rowWidth;
       if (r > numRows * 0.6) maxBlockW = Math.min(rowWidth, randRange(25, 80));
-      var minBlockW = Math.min(18, rowWidth);
+      var minBlockW = monolith ? Math.min(60, rowWidth) : Math.min(18, rowWidth);
 
       // Big massive blocks
       if (r > 1 && r < numRows - 4 && rand() < 0.2) {
@@ -224,11 +254,31 @@
     'github.com', 'gitlab.com', 'codeberg.org', 'sourceforge.net'
   ];
 
-  function generateProjectName() {
+  var jsPrefixes = [
+    'node-', 'next-', 'express-', 'react-', 'vue-', 'webpack-',
+    'babel-', 'eslint-', 'npm-', 'yarn-', '@left-pad/', '@is-odd/'
+  ];
+
+  var jsSuffixes = [
+    '.js', '.js', '.js', '.mjs', '-webpack-plugin', '-loader',
+    '-transform', '-polyfill', '-shim', '-compat'
+  ];
+
+  function generateProjectName(settleMs) {
+    // Longer settle time = more likely to be a JS project
+    var jsChance = Math.min(0.9, settleMs / 4000);
+
     var name = '';
-    if (rand() < 0.6) name += prefixes[randInt(0, prefixes.length - 1)];
-    name += roots[randInt(0, roots.length - 1)];
-    if (rand() < 0.7) name += suffixes[randInt(0, suffixes.length - 1)];
+    if (rand() < jsChance) {
+      // JS-flavored name
+      if (rand() < 0.5) name += jsPrefixes[randInt(0, jsPrefixes.length - 1)];
+      name += roots[randInt(0, roots.length - 1)];
+      name += jsSuffixes[randInt(0, jsSuffixes.length - 1)];
+    } else {
+      if (rand() < 0.6) name += prefixes[randInt(0, prefixes.length - 1)];
+      name += roots[randInt(0, roots.length - 1)];
+      if (rand() < 0.7) name += suffixes[randInt(0, suffixes.length - 1)];
+    }
 
     if (rand() < 0.35) {
       var domain = domains[randInt(0, domains.length - 1)];
@@ -271,7 +321,7 @@
       World.add(world, body);
       var shade = Math.floor(randRange(210, 255));
       var fill = 'rgb(' + shade + ',' + shade + ',' + shade + ')';
-      blocks.push({ body: body, w: def.w, h: def.h, seed: body.id, fill: fill });
+      blocks.push({ body: body, w: def.w, h: def.h, seed: body.id, fill: fill, forceLabel: def.forceLabel || null });
     });
 
     var mouse = Mouse.create(canvas);
@@ -317,7 +367,9 @@
       var timedOut = Date.now() - initTime > 3000;
       if (allSleeping || timedOut) {
         settled = true;
-        projectName = generateProjectName();
+        var forcedLabel = null;
+        blocks.forEach(function (b) { if (b.forceLabel) forcedLabel = b.forceLabel; });
+        projectName = forcedLabel || generateProjectName(Date.now() - initTime);
       }
     }
 
@@ -353,13 +405,36 @@
     // Show project name once settled
     if (settled && projectName) {
       var FONT = "'xkcd-script', 'Comic Sans MS', 'Comic Neue', cursive";
-      ctx.font = '32px ' + FONT;
+      ctx.font = (isMobile ? '15px ' : '32px ') + FONT;
       ctx.fillStyle = '#333';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
-      ctx.fillText(projectName, cx, 10);
+      ctx.fillText(projectName, cx, 20);
     }
   }
+
+  function restart() {
+    if (animFrameId) cancelAnimationFrame(animFrameId);
+    if (engine) {
+      World.clear(world);
+      Matter.Engine.clear(engine);
+    }
+    seed = Math.floor(Math.random() * 2147483646) + 1;
+    updateDimensions();
+    init();
+  }
+
+  document.getElementById('refresh-btn').addEventListener('click', restart);
+
+  var resizeTimer;
+  window.addEventListener('resize', function () {
+    var wasMobile = isMobile;
+    var nowMobile = window.innerWidth < 600;
+    if (wasMobile !== nowMobile) {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(restart, 200);
+    }
+  });
 
   init();
 })();
