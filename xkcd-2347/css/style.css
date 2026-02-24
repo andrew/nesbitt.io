@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'xkcd-script';
-  src: url('../fonts/xkcd-script.woff') format('woff'),
+  src: url('../fonts/xkcd-script.woff2') format('woff2'),
+       url('../fonts/xkcd-script.woff') format('woff'),
        url('../fonts/xkcd-script.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
