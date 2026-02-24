@@ -531,7 +531,7 @@
       ctx.fillStyle = '#333';
       ctx.textAlign = 'center';
       ctx.textBaseline = 'bottom';
-      var text = 'A project some random person in Nebraska has been mass maintaining since 2003';
+      var text = 'A project some random person in Nebraska has been thanklessly maintaining since 2003';
       var words = text.split(' ');
       var lines = [];
       var line = '';
