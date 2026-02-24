@@ -1,9 +1,10 @@
 @font-face {
   font-family: 'xkcd-script';
-  src: url('../fonts/xkcd-script.woff2') format('woff2'),
-       url('../fonts/xkcd-script.woff') format('woff');
+  src: url('../fonts/xkcd-script.woff') format('woff'),
+       url('../fonts/xkcd-script.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -18,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-family: 'xkcd-script', 'Comic Sans MS', 'Comic Neue', cursive;
+  font-family: 'xkcd-script', 'Comic Sans MS', 'Bradley Hand', 'Comic Neue', cursive;
 }
 
 #game-container {
@@ -57,6 +58,7 @@ body {
   position: absolute;
   top: 8px;
   right: 8px;
+  z-index: 10;
   width: 32px;
   height: 32px;
   border: none;
@@ -76,6 +78,7 @@ body {
   position: absolute;
   top: 8px;
   left: 8px;
+  z-index: 10;
   width: 32px;
   height: 32px;
   border: none;
@@ -97,6 +100,7 @@ body {
   position: absolute;
   top: 40px;
   left: 8px;
+  z-index: 10;
   background: #fff;
   border: 1px solid #ccc;
   border-radius: 3px;

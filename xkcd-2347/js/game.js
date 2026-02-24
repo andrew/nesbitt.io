@@ -403,7 +403,7 @@
 
     // Show project name once settled
     if (settled && projectName) {
-      var FONT = "'xkcd-script', 'Comic Sans MS', 'Comic Neue', cursive";
+      var FONT = "'xkcd-script', 'Comic Sans MS', 'Bradley Hand', 'Comic Neue', cursive";
       ctx.font = (isMobile ? '15px ' : '32px ') + FONT;
       ctx.fillStyle = '#333';
       ctx.textAlign = 'center';
