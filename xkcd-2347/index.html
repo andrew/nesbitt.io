@@ -9,7 +9,13 @@
 <body>
   <div id="game-container">
     <canvas id="game-canvas"></canvas>
+    <button id="info-btn" title="Info">i</button>
     <button id="refresh-btn" title="New tower">&#x21bb;</button>
+    <div id="info-panel" class="hidden">
+      <p>Inspired by <a href="https://xkcd.com/2347/" target="_blank">xkcd 2347</a></p>
+      <p>Drag blocks to remove them.</p>
+      <p>Built by <a href="https://nesbitt.io" target="_blank">Andrew Nesbitt</a></p>
+    </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.20.0/matter.min.js"></script>

@@ -326,7 +326,8 @@
 
     var mouse = Mouse.create(canvas);
 
-    // Fix mouse coordinates when canvas CSS size differs from internal resolution
+    // Force pixelRatio to 1 so we control the scaling entirely
+    mouse.pixelRatio = 1;
     function updateMouseScale() {
       var rect = canvas.getBoundingClientRect();
       Mouse.setScale(mouse, {
@@ -378,6 +379,7 @@
   }
 
   function draw() {
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, WIDTH, HEIGHT);
 
     // Ground
@@ -425,6 +427,10 @@
   }
 
   document.getElementById('refresh-btn').addEventListener('click', restart);
+
+  document.getElementById('info-btn').addEventListener('click', function () {
+    document.getElementById('info-panel').classList.toggle('hidden');
+  });
 
   var resizeTimer;
   window.addEventListener('resize', function () {
