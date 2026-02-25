@@ -370,6 +370,20 @@
       return domain + '/' + user + '/' + name;
     }
 
+    // Sometimes append a version number
+    if (rand() < 0.3) {
+      var major = randInt(0, 12);
+      var minor = randInt(0, 30);
+      var patch = randInt(0, 20);
+      if (rand() < 0.4) {
+        name += ' v' + major + '.' + minor + '.' + patch;
+      } else if (rand() < 0.5) {
+        name += ' ' + major + '.' + minor;
+      } else {
+        name += '@' + major + '.' + minor + '.' + patch;
+      }
+    }
+
     return name;
   }
 
