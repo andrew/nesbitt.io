@@ -27,7 +27,13 @@
   updateDimensions();
 
   // Seeded PRNG so each reload gives a different tower
-  var seed = Math.floor(Math.random() * 2147483646) + 1;
+  function seedFromURL() {
+    var match = location.search.match(/[?&]seed=(\d+)/);
+    if (match) return parseInt(match[1], 10) % 2147483646 || 1;
+    return Math.floor(Math.random() * 2147483646) + 1;
+  }
+  var seed = seedFromURL();
+  var initialSeed = seed;
   function rand() {
     seed = (seed * 16807) % 2147483647;
     return (seed - 1) / 2147483646;
@@ -39,7 +45,7 @@
     return Math.floor(randRange(min, max + 1));
   }
 
-  // URL hash overrides: #sqlite, #is-odd, #column, #monolith, #nebraska, #konami
+  // URL hash overrides: #sqlite, #is-odd, #column, #monolith, #konami
   function getForceMode() {
     var hash = location.hash.replace('#', '').toLowerCase();
     return hash || null;
@@ -116,23 +122,48 @@
     var monolith = force === 'monolith' || rand() < 0.1;
 
     // Tower parameters
-    var baseWidth = monolith ? randRange(200, 260) : randRange(280, 340);
+    var baseWidth = monolith ? randRange(200, 260) : randRange(220, 380);
     if (isMobile) baseWidth *= 0.4;
-    var numRows = monolith ? randInt(4, 7) : randInt(16, 22);
+    var numRows = monolith ? randInt(4, 7) : randInt(12, 26);
     // Track tall blocks that span multiple rows so we don't overlap them
     var tallBlocks = []; // { left, right, topY } -- topY is how high they extend
 
+    // Taper profile: pick a random shape for the tower silhouette
+    var taperStyle = rand();
+    // Horizontal drift: tower leans slightly left or right as it goes up
+    var drift = randRange(-1.5, 1.5);
+    // Bulge point: where the tower is widest (0 = bottom, 1 = top)
+    var bulgeAt = randRange(0, 0.4);
+    var bulgeAmount = randRange(0, 0.3);
+
     for (var r = 0; r < numRows; r++) {
-      // Columnar taper: stays wide for bottom 60%, narrows faster near top
       var t = r / numRows;
       var shrink;
-      if (t < 0.6) {
-        shrink = t * 0.25;
+      if (taperStyle < 0.35) {
+        // Classic: wide bottom 60%, narrows faster near top
+        if (t < 0.6) {
+          shrink = t * 0.25;
+        } else {
+          shrink = 0.15 + (t - 0.6) * 1.7;
+        }
+      } else if (taperStyle < 0.55) {
+        // Linear taper: steady narrowing
+        shrink = t * 0.8;
+      } else if (taperStyle < 0.75) {
+        // Steep taper: narrow quickly then plateau
+        shrink = Math.min(0.7, t * t * 2.5);
+      } else if (taperStyle < 0.9) {
+        // Bulge: widens then narrows
+        var dist = Math.abs(t - bulgeAt);
+        shrink = dist * 1.4 - bulgeAmount;
       } else {
-        shrink = 0.15 + (t - 0.6) * 1.7;
+        // Top-heavy: barely tapers, slight widening toward middle
+        shrink = Math.abs(t - 0.5) * 0.4;
       }
       // Add random jitter to row width so it's not a smooth curve
       var rowWidth = baseWidth * (1 - shrink) + randRange(-15, 15);
+      // Apply horizontal drift
+      var rowDrift = drift * r;
       if (rowWidth < 30) break;
 
       // Vary row heights
@@ -159,7 +190,7 @@
         var maxOffset = (rowWidth - bigW) / 4; // keep big blocks near center
         var bigX = randRange(-maxOffset, maxOffset);
         defs.push({
-          x: cx + bigX,
+          x: cx + rowDrift + bigX,
           y: GROUND_TOP - y - bigH / 2,
           w: bigW,
           h: bigH
@@ -230,7 +261,7 @@
         }
 
         defs.push({
-          x: cx + x + w / 2,
+          x: cx + rowDrift + x + w / 2,
           y: GROUND_TOP - y - h / 2,
           w: w,
           h: h
@@ -247,7 +278,7 @@
         // ~15% hangs off the edge, 85% supported
         var cantX = side * (rowWidth / 2 - cantW * 0.35);
         defs.push({
-          x: cx + cantX,
+          x: cx + rowDrift + cantX,
           y: GROUND_TOP - y - cantH / 2,
           w: cantW,
           h: cantH
@@ -342,11 +373,6 @@
     return name;
   }
 
-  var nebraskaNames = [
-    'curl', 'core-js', 'node-ipc', 'colors', 'imagemagick', 'gpg',
-    'openssl', 'sqlite', 'busybox', 'ntpd', 'expat', 'zlib'
-  ];
-
   // ── Game state ──
 
   var engine, world, mouseConstraint, ceiling;
@@ -385,23 +411,6 @@
     World.add(world, ground);
 
     var defs = buildTowerDefs();
-
-    // Nebraska block: ~15% chance, pick a small block in the bottom 3 rows
-    var hasNebraska = false;
-    var force = getForceMode();
-    if (defs.length > 2 && (force === 'nebraska' || rand() < 0.15)) {
-      // Sort by Y descending (highest Y = closest to ground) and pick from the bottom blocks
-      var bottomDefs = defs.filter(function (d) {
-        return d.y > GROUND_TOP - 100 && d.w < 80 && d.h < 40;
-      });
-      if (bottomDefs.length > 0) {
-        var pick = bottomDefs[randInt(0, bottomDefs.length - 1)];
-        pick.isNebraska = true;
-        pick.forceLabel = nebraskaNames[randInt(0, nebraskaNames.length - 1)];
-        hasNebraska = true;
-      }
-    }
-
     blocks = [];
     defs.forEach(function (def) {
       var body = Bodies.rectangle(def.x, def.y, def.w, def.h, {
@@ -413,19 +422,8 @@
       });
       World.add(world, body);
       var shade = Math.floor(randRange(210, 255));
-      var fill = def.isNebraska ? '#fffde0' : 'rgb(' + shade + ',' + shade + ',' + shade + ')';
-      var block = {
-        body: body, w: def.w, h: def.h, seed: body.id, fill: fill,
-        forceLabel: def.forceLabel || null, isNebraska: def.isNebraska || false
-      };
-      if (def.isNebraska) {
-        block.nebraskaWobbleX = randRange(-8, 8);
-        block.nebraskaWobbleY = randRange(-5, 5);
-        // Fixed anchor point for the annotation (doesn't follow physics)
-        block.nebraskaOriginX = def.x;
-        block.nebraskaOriginY = def.y;
-      }
-      blocks.push(block);
+      var fill = 'rgb(' + shade + ',' + shade + ',' + shade + ')';
+      blocks.push({ body: body, w: def.w, h: def.h, seed: body.id, fill: fill, forceLabel: def.forceLabel || null });
     });
 
     mouseConstraint = MouseConstraint.create(engine, {
@@ -486,68 +484,10 @@
         fill: b.fill,
         fillStyle: 'solid',
         stroke: '#333',
-        strokeWidth: b.isNebraska ? 3 : 1.5,
+        strokeWidth: 1.5,
         roughness: 1.2,
         seed: b.seed
       });
-      ctx.restore();
-    });
-
-    // Nebraska arrow annotation
-    blocks.forEach(function (b) {
-      if (!b.isNebraska) return;
-      var bx = b.nebraskaOriginX;
-      var by = b.nebraskaOriginY;
-      var FONT = "'xkcd-script', 'Comic Sans MS', 'Bradley Hand', 'Comic Neue', cursive";
-      var fontSize = isMobile ? 9 : 13;
-      var side = bx < cx ? -1 : 1;
-      var textX = bx + side * (isMobile ? 80 : 140);
-      // Clamp text so it stays on canvas
-      textX = Math.max(isMobile ? 70 : 100, Math.min(WIDTH - (isMobile ? 70 : 100), textX));
-      var textY = by - 80;
-      var maxW = isMobile ? 110 : 170;
-
-      // Wobbly arrow line
-      ctx.save();
-      ctx.strokeStyle = '#333';
-      ctx.lineWidth = 1.5;
-      ctx.beginPath();
-      ctx.moveTo(textX, textY + 10);
-      var midX = (textX + bx) / 2 + b.nebraskaWobbleX;
-      var midY = (textY + 10 + by) / 2 + b.nebraskaWobbleY;
-      ctx.quadraticCurveTo(midX, midY, bx, by);
-      ctx.stroke();
-      // Arrowhead
-      ctx.beginPath();
-      ctx.moveTo(bx - 4, by - 6);
-      ctx.lineTo(bx, by);
-      ctx.lineTo(bx + 4, by - 6);
-      ctx.stroke();
-      ctx.restore();
-
-      // Wrapped text
-      ctx.save();
-      ctx.font = fontSize + 'px ' + FONT;
-      ctx.fillStyle = '#333';
-      ctx.textAlign = 'center';
-      ctx.textBaseline = 'bottom';
-      var text = 'A project some random person in Nebraska has been thanklessly maintaining since 2003';
-      var words = text.split(' ');
-      var lines = [];
-      var line = '';
-      for (var wi = 0; wi < words.length; wi++) {
-        var test = line ? line + ' ' + words[wi] : words[wi];
-        if (ctx.measureText(test).width > maxW && line) {
-          lines.push(line);
-          line = words[wi];
-        } else {
-          line = test;
-        }
-      }
-      if (line) lines.push(line);
-      for (var li = 0; li < lines.length; li++) {
-        ctx.fillText(lines[li], textX, textY - (lines.length - 1 - li) * (fontSize + 2));
-      }
       ctx.restore();
     });
 
@@ -562,6 +502,13 @@
     }
   }
 
+  function updateSeedDisplay() {
+    var el = document.getElementById('seed-display');
+    if (!el) return;
+    el.textContent = initialSeed;
+    el.href = '?seed=' + initialSeed + location.hash;
+  }
+
   function restart() {
     if (animFrameId) cancelAnimationFrame(animFrameId);
     if (engine) {
@@ -569,6 +516,8 @@
       Matter.Engine.clear(engine);
     }
     seed = Math.floor(Math.random() * 2147483646) + 1;
+    initialSeed = seed;
+    updateSeedDisplay();
     updateDimensions();
     init();
   }
@@ -615,6 +564,7 @@
     }
   });
 
+  updateSeedDisplay();
   init();
 
   // Auto-trigger konami gravity flip from URL hash
