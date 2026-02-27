@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Git in Postgres](https://nesbitt.io/2026/02/26/git-in-postgres.html)
 - [Two Kinds of Attestation](https://nesbitt.io/2026/02/25/two-kinds-of-attestation.html)
 - [Reproducible Builds in Language Package Managers](https://nesbitt.io/2026/02/24/reproducible-builds-in-language-package-managers.html)
 - [Where Do Specifications Fit in the Dependency Tree?](https://nesbitt.io/2026/02/23/where-do-specifications-fit-in-the-dependency-tree.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Go Modules for Package Management Tooling](https://nesbitt.io/2026/02/19/go-modules-for-package-management-tooling.html)
 - [What Package Registries Could Borrow from OCI](https://nesbitt.io/2026/02/18/what-package-registries-could-borrow-from-oci.html)
 - [Platform Strings](https://nesbitt.io/2026/02/17/platform-strings.html)
-- [CHANGELOG.md](https://nesbitt.io/2026/02/16/changelog.html)
 <!-- POSTS:END -->
