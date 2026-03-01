@@ -3,22 +3,29 @@
   url: https://github.com/andrew/ultimate-awesome
   description: Every awesome list on every topic, including awesome lists of awesome
     lists, updated daily.
-  stars: 139
+  stars: 142
   language:
-  pushed_at: '2026-02-22T00:45:51Z'
+  pushed_at: '2026-03-01T00:50:50Z'
+- name: gitgres
+  url: https://github.com/andrew/gitgres
+  description: Store git objects and refs in PostgreSQL tables. Standard git push/clone
+    work against the database through a libgit2-based backend.
+  stars: 37
+  language: C
+  pushed_at: '2026-02-24T08:06:07Z'
+- name: nesbitt.io
+  url: https://github.com/andrew/nesbitt.io
+  description: 'Personal blog built with Jekyll and hosted on GitHub Pages. I write
+    about package management, software supply chain security, and open source infrastructure. '
+  stars: 21
+  language: HTML
+  pushed_at: '2026-03-01T06:17:33Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
   stars: 21
   language: Ruby
   pushed_at: '2025-12-01T16:57:51Z'
-- name: nesbitt.io
-  url: https://github.com/andrew/nesbitt.io
-  description: 'Personal blog built with Jekyll and hosted on GitHub Pages. I write
-    about package management, software supply chain security, and open source infrastructure. '
-  stars: 18
-  language: HTML
-  pushed_at: '2026-02-22T06:18:04Z'
 - name: managing-dependencies
   url: https://github.com/andrew/managing-dependencies
   description: Claude Code skill for evaluating packages and managing dependencies
@@ -51,7 +58,13 @@
     the VERS spec.
   stars: 11
   language: Ruby
-  pushed_at: '2026-02-19T14:05:00Z'
+  pushed_at: '2026-02-24T16:58:33Z'
+- name: json-schema-diff
+  url: https://github.com/andrew/json-schema-diff
+  description: Semantic diff for JSON files using JSON Schema metadata
+  stars: 10
+  language: Ruby
+  pushed_at: '2025-10-15T09:49:49Z'
 - name: ruby-upgrade-action
   url: https://github.com/andrew/ruby-upgrade-action
   description: GitHub action to upgrade version of Ruby in various places to the latest
@@ -64,26 +77,20 @@
     (PURLs) as defined by the PURL specification
   stars: 10
   language: Ruby
-  pushed_at: '2026-02-17T09:37:29Z'
-- name: json-schema-diff
-  url: https://github.com/andrew/json-schema-diff
-  description: Semantic diff for JSON files using JSON Schema metadata
+  pushed_at: '2026-02-24T09:19:05Z'
+- name: hanami-sprockets
+  url: https://github.com/andrew/hanami-sprockets
+  description: An alternative to hanami-assets that doesn't rely on npm
   stars: 9
   language: Ruby
-  pushed_at: '2025-10-15T09:49:49Z'
+  pushed_at: '2026-02-24T18:09:33Z'
 - name: sidekiq-mcp
   url: https://github.com/andrew/sidekiq-mcp
   description: A Sidekiq plugin that provides an MCP (Model Context Protocol) server
     for LLMs to interact with Sidekiq queues, stats, and failed jobs
   stars: 9
   language: Ruby
-  pushed_at: '2026-02-17T17:17:18Z'
-- name: hanami-sprockets
-  url: https://github.com/andrew/hanami-sprockets
-  description: An alternative to hanami-assets that doesn't rely on npm
-  stars: 9
-  language: Ruby
-  pushed_at: '2026-02-17T18:23:25Z'
+  pushed_at: '2026-02-24T18:09:36Z'
 - name: PBOM
   url: https://github.com/andrew/PBOM
   description: Paper Bill of Materials (PBOM) - Generate a paper bill of materials
@@ -97,6 +104,12 @@
   stars: 7
   language: Ruby
   pushed_at: '2026-01-06T10:21:58Z'
+- name: changelog-parser
+  url: https://github.com/andrew/changelog-parser
+  description: Parse changelog files into structured data
+  stars: 6
+  language: Ruby
+  pushed_at: '2025-12-23T21:08:21Z'
 - name: zizmor-research
   url: https://github.com/andrew/zizmor-research
   description: zizmor analysis of 31,916 github actions using alpha of ecosyste.ms
@@ -104,12 +117,6 @@
   stars: 6
   language:
   pushed_at: '2025-06-13T20:39:41Z'
-- name: changelog-parser
-  url: https://github.com/andrew/changelog-parser
-  description: Parse changelog files into structured data
-  stars: 6
-  language: Ruby
-  pushed_at: '2025-12-23T21:08:21Z'
 - name: diffoscope
   url: https://github.com/andrew/diffoscope
   description: Ruby bindings for diffoscope - Compare packages, tarballs, files, URLs,
@@ -154,12 +161,6 @@
   stars: 1
   language: Ruby
   pushed_at: '2026-01-07T16:15:11Z'
-- name: swhid-go
-  url: https://github.com/andrew/swhid-go
-  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
-  stars: 1
-  language: Go
-  pushed_at: '2026-02-10T16:08:53Z'
 - name: gitlab-faraday
   url: https://github.com/andrew/gitlab-faraday
   description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
@@ -172,4 +173,10 @@
   description: Parse, generate, and validate Software Bill of Materials (SBOM)
   stars: 1
   language: Ruby
-  pushed_at: '2026-02-15T21:30:37Z'
+  pushed_at: '2026-02-22T20:05:31Z'
+- name: swhid-go
+  url: https://github.com/andrew/swhid-go
+  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
+  stars: 1
+  language: Go
+  pushed_at: '2026-02-26T10:30:27Z'
