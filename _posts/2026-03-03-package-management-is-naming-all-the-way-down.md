@@ -5,6 +5,7 @@ date: 2026-03-03 10:00 +0000
 description: "There are two hard problems in computer science, and package managers found at least eight of them."
 tags:
   - package-managers
+  - deep-dive
 ---
 
 Package managers are usually described by what they do: resolve dependencies, download code, build artifacts. But if you look at the structure of the system instead of the process, nearly every part of it is a naming problem, and the whole thing works because we've agreed on how to interpret strings at each layer and because a registry sits in the middle translating between them.
