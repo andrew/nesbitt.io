@@ -114,7 +114,7 @@ Forgejo and Gitea both inherited the `pull_request_target` trigger from GitHub A
 
 The Forgejo runner also fixed a [cache poisoning vulnerability](https://codeberg.org/forgejo/security-announcements/issues/38) in v10.0.0 where PR workflows could write to the shared action cache, letting a malicious PR poison future privileged workflow runs. It's unclear whether Gitea's runner is affected or fixed this quietly, as they haven't published a corresponding advisory.
 
-GitHub Actions [expressions are case-insensitive](https://yossarian.net/til/post/github-actions-is-surprisingly-case-insensitive/). `${{ github.ref == 'refs/heads/main' }}` matches whether the branch is `main`, `MAIN`, or `mAiN`. Context accesses like `secrets.MY_SECRET` and `SECRETS.my_secret` resolve to the same thing. Git itself is case-sensitive, so if your workflow security depends on branch naming conventions, there's a mismatch that's easy to miss.
+GitHub Actions [expressions are case-insensitive](https://yossarian.net/til/post/github-actions-is-surprisingly-case-insensitive/). `${% raw %}{{ github.ref == 'refs/heads/main' }}{% endraw %}` matches whether the branch is `main`, `MAIN`, or `mAiN`. Context accesses like `secrets.MY_SECRET` and `SECRETS.my_secret` resolve to the same thing. Git itself is case-sensitive, so if your workflow security depends on branch naming conventions, there's a mismatch that's easy to miss.
 
 <hr>
 
