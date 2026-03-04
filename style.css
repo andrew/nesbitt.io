@@ -572,3 +572,21 @@ section li p{
   vertical-align: middle;
 }
 
+h2[id] a.anchor-link,
+h3[id] a.anchor-link,
+h4[id] a.anchor-link,
+h5[id] a.anchor-link{
+  margin-left: 0.3em;
+  color: var(--color-secondary);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+h2[id]:hover a.anchor-link,
+h3[id]:hover a.anchor-link,
+h4[id]:hover a.anchor-link,
+h5[id]:hover a.anchor-link{
+  opacity: 1;
+}
+

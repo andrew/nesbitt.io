@@ -81,6 +81,13 @@
           localStorage.setItem('theme',next);
           updateIcon();
         });
+        document.querySelectorAll('h2[id], h3[id], h4[id], h5[id]').forEach(function(h){
+          var a=document.createElement('a');
+          a.className='anchor-link';
+          a.href='#'+h.id;
+          a.textContent='#';
+          h.appendChild(a);
+        });
       })();
     </script>
     <div data-ea-publisher="nesbittio" data-ea-type="text" data-ea-style="stickybox" class="dark adaptive"></div>
