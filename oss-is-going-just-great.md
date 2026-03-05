@@ -161,6 +161,7 @@ permalink: /oss-is-going-just-great/
 - [Blender proposes AI contributions policy](https://devtalk.blender.org/t/ai-contributions-policy/44202)
 - [Black Duck 2026 OSSRA report](https://www.blackduck.com/blog/open-source-trends-ossra-report.html): open source vulnerabilities doubled to 581 per codebase as AI accelerates code creation
 - [Gentoo launches official Codeberg mirror](https://www.gentoo.org/news/2026/02/16/codeberg.html) as an alternative to GitHub for contributions
+- [**Anthropic launches Claude for Open Source**](https://claude.com/contact-sales/claude-for-oss) — 6 months of free Claude Max 20x for open source maintainers and core contributors
 
 ### March
 
