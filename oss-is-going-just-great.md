@@ -157,6 +157,9 @@ permalink: /oss-is-going-just-great/
 - Mitchell Hashimoto releases [Vouch](https://github.com/mitchellh/vouch), a community trust management system based on explicit vouches to participate
 - [1Password launches SCAM benchmark](https://1password.com/blog/ai-agent-security-benchmark) — tests whether AI agents fall for phishing and social engineering during realistic workflows; every model tested committed critical failures
 - [An AI Agent Published a Hit Piece on Me](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
+- [Godot maintainers struggle with "draining and demoralizing" AI slop PRs](https://www.theregister.com/2026/02/18/godot_maintainers_struggle_with_draining/)
+- [Blender proposes AI contributions policy](https://devtalk.blender.org/t/ai-contributions-policy/44202)
+- [Black Duck 2026 OSSRA report](https://www.blackduck.com/blog/open-source-trends-ossra-report.html): open source vulnerabilities doubled to 581 per codebase as AI accelerates code creation
 - [Gentoo launches official Codeberg mirror](https://www.gentoo.org/news/2026/02/16/codeberg.html) as an alternative to GitHub for contributions
 
 ### March
