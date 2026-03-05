@@ -159,6 +159,10 @@ permalink: /oss-is-going-just-great/
 - [An AI Agent Published a Hit Piece on Me](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
 - [Gentoo launches official Codeberg mirror](https://www.gentoo.org/news/2026/02/16/codeberg.html) as an alternative to GitHub for contributions
 
+### March
+
+- Tuan Anh Tran: ["Relicensing with AI-Assisted Rewrite"](https://tuananh.net/2026/03/05/relicensing-with-ai-assisted-rewrite/) — using AI to rewrite a LGPL-licensed library as a way to circumvent copyleft
+
 ## Resources
 
 - [CHAOSS AI Alignment WG](https://github.com/chaoss/wg-ai-alignment/blob/main/moderation/README.md) — project AI policies, spam examples, blog posts
