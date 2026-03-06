@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Announcing New Working Groups"
-date: 2026-03-06
+date: 2026-03-07 10:00 +0000
 description: "The Open Source Foundations Consortium announces seven new working groups."
 tags:
   - open-source
