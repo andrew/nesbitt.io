@@ -5,7 +5,7 @@ permalink: /posts/
 description: Articles about package management, software supply chain security, and open source infrastructure.
 ---
 
-<h3>Archives</h3>
+<h3 id="archives">Archives</h3>
 
 {%- assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
 <ul>

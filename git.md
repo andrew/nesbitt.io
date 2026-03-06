@@ -38,7 +38,7 @@ description: Posts about git internals, extensions, and tools built on git.
 
 {%- assign git_posts = site.posts | where_exp: "post", "post.tags contains 'git'" -%}
 
-<h3>Reference</h3>
+<h3 id="reference">Reference</h3>
 
 {%- assign reference_posts = git_posts | where_exp: "post", "post.tags contains 'reference'" | sort: "title" -%}
 <section class="posts">
@@ -52,7 +52,7 @@ description: Posts about git internals, extensions, and tools built on git.
 {%- endfor -%}
 </section>
 
-<h3>git-pkgs</h3>
+<h3 id="git-pkgs">git-pkgs</h3>
 
 {%- assign gitpkgs_posts = git_posts | where_exp: "post", "post.tags contains 'git-pkgs'" | sort: "title" -%}
 <section class="posts">
@@ -66,7 +66,7 @@ description: Posts about git internals, extensions, and tools built on git.
 {%- endfor -%}
 </section>
 
-<h3>GitHub</h3>
+<h3 id="github">GitHub</h3>
 
 {%- assign github_posts = git_posts | where_exp: "post", "post.tags contains 'github'" | sort: "title" -%}
 <section class="posts">
@@ -80,7 +80,7 @@ description: Posts about git internals, extensions, and tools built on git.
 {%- endfor -%}
 </section>
 
-<h3>Deep dives</h3>
+<h3 id="deep-dives">Deep dives</h3>
 
 {%- assign deepdive_posts = git_posts | where_exp: "post", "post.tags contains 'deep-dive'" | sort: "title" -%}
 <section class="posts">
@@ -94,7 +94,7 @@ description: Posts about git internals, extensions, and tools built on git.
 {%- endfor -%}
 </section>
 
-<h3>Everything else</h3>
+<h3 id="everything-else">Everything else</h3>
 
 {%- assign categorized_posts = reference_posts | concat: gitpkgs_posts | concat: github_posts | concat: deepdive_posts | map: "url" -%}
 {%- assign other_posts = git_posts | sort: "title" -%}
