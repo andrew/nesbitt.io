@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Package Manager Magic Files](https://nesbitt.io/2026/03/05/package-manager-magic-files.html)
 - [Package Managers Need to Cool Down](https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html)
 - [Package Management is Naming All the Way Down](https://nesbitt.io/2026/03/03/package-management-is-naming-all-the-way-down.html)
 - [Transitive Trust](https://nesbitt.io/2026/03/02/transitive-trust.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Git in Postgres](https://nesbitt.io/2026/02/26/git-in-postgres.html)
 - [Two Kinds of Attestation](https://nesbitt.io/2026/02/25/two-kinds-of-attestation.html)
 - [Reproducible Builds in Language Package Managers](https://nesbitt.io/2026/02/24/reproducible-builds-in-language-package-managers.html)
-- [Where Do Specifications Fit in the Dependency Tree?](https://nesbitt.io/2026/02/23/where-do-specifications-fit-in-the-dependency-tree.html)
 <!-- POSTS:END -->
