@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Announcing New Working Groups](https://nesbitt.io/2026/03/07/announcing-new-working-groups.html)
 - [.gitlocal](https://nesbitt.io/2026/03/06/gitlocal.html)
 - [Package Manager Magic Files](https://nesbitt.io/2026/03/05/package-manager-magic-files.html)
 - [Package Managers Need to Cool Down](https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [npm Data Subject Access Request](https://nesbitt.io/2026/02/28/npm-data-subject-access-request.html)
 - [xkcd 2347](https://nesbitt.io/2026/02/27/xkcd-2347.html)
 - [Git in Postgres](https://nesbitt.io/2026/02/26/git-in-postgres.html)
-- [Two Kinds of Attestation](https://nesbitt.io/2026/02/25/two-kinds-of-attestation.html)
 <!-- POSTS:END -->
