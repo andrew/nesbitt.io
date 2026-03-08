@@ -2,7 +2,7 @@
 layout: post
 title: "If It Quacks Like a Package Manager"
 date: 2026-03-08 10:00 +0000
-description: "GitHub Actions, Ansible Galaxy, Terraform, and Helm all develop transitive dependency trees, reproducing the hardest package management problems without the security lessons."
+description: "Some tools waddle like package managers without learning to swim."
 tags:
   - package-managers
   - security
