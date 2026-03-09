@@ -21,7 +21,7 @@ Rails formalized the convention with `vendor/` for third-party code and `lib/` f
 
 ### git clone
 
-Git clones the entire repository history by default. Every developer, every CI run, gets everything. A vendored dependency updated twenty times means twenty snapshots of its source tree in your .git directory, forever. Shallow clones and partial clones help, but as I wrote in [package managers keep using git as a database](/2025/12/24/package-managers-keep-using-git-as-a-database/), they're workarounds for a problem SVN never had.
+Git clones the entire repository history by default. Every developer, every CI run, gets everything. A vendored dependency updated twenty times means twenty snapshots of its source tree in your .git directory, forever. Shallow clones and partial clones help, but as I wrote in [package managers keep using git as a database](/2025/12/24/package-managers-keep-using-git-as-a-database.html), they're workarounds for a problem SVN never had.
 
 The weight became visible in ways it hadn't been before: code search indexed everything in `vendor/`. GitHub's language statistics counted vendored code unless you added `linguist-vendored` to .gitattributes. Pull requests touching `vendor/` generated walls of diff noise. The developer experience of working with a vendored codebase went from tolerable to actively painful.
 
@@ -41,13 +41,13 @@ In March 2016, a developer [unpublished the 11-line left-pad package](https://bl
 
 The long-term response went the other way: npm [tightened its unpublish policy](https://docs.npmjs.com/policies/unpublish). Lockfiles with content hashes meant even a re-uploaded package with different code would be caught. And enterprise proxy caches like [Artifactory](https://jfrog.com/artifactory/) filled the remaining availability gap: a local mirror that your builds pull from, still serving packages even when the upstream registry goes down or a maintainer rage-quits. The availability guarantee of vendoring, without anything in your git history.
 
-left-pad is sometimes framed as vindication for vendoring. I think it was the moment the industry decided to [fix registry governance](/2025/12/22/package-registries-are-governance-as-a-service/) rather than abandon registries altogether.
+left-pad is sometimes framed as vindication for vendoring. I think it was the moment the industry decided to [fix registry governance](/2025/12/22/package-registries-are-governance-as-a-service.html) rather than abandon registries altogether.
 
 ### The C-shaped hole
 
 C never went through this transition because it never had the prerequisites: no dominant language package manager, no central registry that everyone publishes to, and no lockfile format. A lockfile is just a pointer to something in a registry, and if there's no reliable registry to point to, you have to bring the code with you.
 
-As I wrote in [The C-Shaped Hole in Package Management](/2026/01/27/the-c-shaped-hole-in-package-management/), developers are still dropping .c and .h files into source trees the way they have since the 1970s. Libraries like SQLite and stb are distributed as single files specifically to make this easy. Conan and vcpkg exist now, but neither has the cultural ubiquity that would make vendoring unnecessary. Without a registry everyone agrees on, vendoring in C remains the path of least resistance.
+As I wrote in [The C-Shaped Hole in Package Management](/2026/01/27/the-c-shaped-hole-in-package-management.html), developers are still dropping .c and .h files into source trees the way they have since the 1970s. Libraries like SQLite and stb are distributed as single files specifically to make this easy. Conan and vcpkg exist now, but neither has the cultural ubiquity that would make vendoring unnecessary. Without a registry everyone agrees on, vendoring in C remains the path of least resistance.
 
 ### Go and the Google problem
 

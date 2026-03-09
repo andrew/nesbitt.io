@@ -85,6 +85,6 @@ jobs:
           deny: "GPL-3.0-only,AGPL-3.0-only"
 ```
 
-The `setup` action runs `git-pkgs init` once and the other steps share the same database. All the actions are composite -- shell scripts, no Node.js or Docker -- and the repo passes [zizmor](https://github.com/zizmor/zizmor) in pedantic mode with inputs going through environment variables, action refs pinned by SHA, and credentials not persisted.
+The `setup` action runs `git-pkgs init` once and the other steps share the same database. All the actions are composite -- shell scripts, no Node.js or Docker -- and the repo passes [zizmor](https://github.com/zizmorcore/zizmor) in pedantic mode with inputs going through environment variables, action refs pinned by SHA, and credentials not persisted.
 
 There's a lot git-pkgs can do that doesn't have an action yet: integrity drift detection, outdated dependency reports, enforcing package policy through notes. I'm curious what would actually be useful in practice, so if you have ideas or want something specific, open an issue on the [actions repo](https://github.com/git-pkgs/actions/issues) or find me on [Mastodon](https://mastodon.social/@andrewnez).

@@ -95,7 +95,7 @@ I've been collecting posts about package management for a while. Not academic pa
 
 **[kik, left-pad, and npm](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)** (npm, 2016). The institutional response to left-pad. npm restricts unpublishing after 24 hours, adds placeholder packages for abandoned names, and acknowledges they "dropped the ball." Pairs with Azer's post as the other side of the story.
 
-**[Could Rust have a left-pad incident?](https://edunham.net/2016/03/24/could_rust_have_a_left_pad_incident.html)** (E. Dunham, 2016). Short answer: no. Cargo's yank doesn't delete code, it just prevents new dependencies. The only way to remove code from crates.io is direct intervention by the Rust team, making registry immutability a design choice rather than an accident.
+**[Could Rust have a left-pad incident?](https://edunham.net/2016/03/24/could_rust_have_a_left_pad_incident/)** (E. Dunham, 2016). Short answer: no. Cargo's yank doesn't delete code, it just prevents new dependencies. The only way to remove code from crates.io is direct intervention by the Rust team, making registry immutability a design choice rather than an accident.
 
 **[How I broke Cargo for Windows](https://sasheldon.com/blog/2017/05/07/how-i-broke-cargo-for-windows/)** (Steven Sheldon, 2017). Publishing a crate named `nul` broke Cargo for all Windows users because NUL is a reserved filename dating back to DOS 1.0. The Rust team added 22 reserved names to the crates.io blacklist afterward.
 

@@ -268,7 +268,7 @@ Tools for scanning dependencies, detecting vulnerabilities, and keeping packages
 
 **Software composition analysis:** [Socket](https://socket.dev), [Snyk](https://snyk.io), [Sonatype](https://www.sonatype.com), [Black Duck](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html), [Veracode SCA](https://www.veracode.com/products/software-composition-analysis), [FOSSA](https://fossa.com)
 
-**CI security:** [Zizmor](https://woodruffw.github.io/zizmor/), [StepSecurity](https://www.stepsecurity.io), [Harden-Runner](https://github.com/step-security/harden-runner), [OpenSSF Allstar](https://github.com/ossf/allstar)
+**CI security:** [Zizmor](https://docs.zizmor.sh/), [StepSecurity](https://www.stepsecurity.io), [Harden-Runner](https://github.com/step-security/harden-runner), [OpenSSF Allstar](https://github.com/ossf/allstar)
 
 **Fuzzing:** [OSS-Fuzz](https://github.com/google/oss-fuzz)
 

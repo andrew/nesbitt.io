@@ -140,7 +140,7 @@ The edge cases are where things get interesting. "Same registry state" sounds si
 
 **On-demand queries**: the client fetches metadata per-package during resolution. npm and PyPI work this way. Always current, but requires network access and many round trips.
 
-**Sparse indexing**: the client fetches only metadata for packages it actually needs, but in a cacheable format. [Cargo's sparse index](https://blog.rust-lang.org/2023/03/09/Cargo-1.68.0.html#sparse-registry-support) and RubyGems' [compact index](/2025/12/28/the-compact-index.html) use this approach.
+**Sparse indexing**: the client fetches only metadata for packages it actually needs, but in a cacheable format. [Cargo's sparse index](https://blog.rust-lang.org/2023/03/09/Rust-1.68.0.html#sparse-registry-support) and RubyGems' [compact index](/2025/12/28/the-compact-index.html) use this approach.
 
 **Proxy caching**: an organizational proxy intercepts requests and caches responses. Reduces load on upstream registries and provides availability if upstream goes down.
 
@@ -168,7 +168,7 @@ These failure modes matter because they're where the user experience diverges mo
 
 **Systematic comparison.** Comparing npm and Yarn on consistency guarantees is hard because they don't describe those guarantees in compatible terms. A shared vocabulary would let us ask: which package managers provide publish atomicity? Which guarantee resolution determinism? Where does each fall on the [tradeoff space](/2025/12/05/package-manager-tradeoffs.html)?
 
-**Learning from each other.** When Cargo adopted [sparse indexes](https://blog.rust-lang.org/2023/03/09/Cargo-1.68.0.html#sparse-registry-support), they were borrowing an idea RubyGems had [proven out years earlier](/2025/12/28/the-compact-index.html). When pip rewrote its resolver, they [borrowed test cases from Ruby and Swift](https://pradyunsg.me/blog/2020/03/27/pip-resolver-testing/). A shared model would make these patterns more visible.
+**Learning from each other.** When Cargo adopted [sparse indexes](https://blog.rust-lang.org/2023/03/09/Rust-1.68.0.html#sparse-registry-support), they were borrowing an idea RubyGems had [proven out years earlier](/2025/12/28/the-compact-index.html). When pip rewrote its resolver, they [borrowed test cases from Ruby and Swift](https://pradyunsg.me/blog/2020/03/27/pip-resolver-testing/). A shared model would make these patterns more visible.
 
 **Support for smaller ecosystems.** Dependabot prioritizes npm, PyPI, Maven, Go because each integration is significant work. Smaller package managers (Nimble, Shards, jpm) get pushed to the back of the queue. If tools could implement against a protocol and write thin adapters, the long tail might actually get tooling support.
 

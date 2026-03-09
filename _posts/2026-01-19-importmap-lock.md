@@ -18,7 +18,7 @@ Import maps seem like an interesting starting point for both problems, at least 
 
 ## Import maps are almost a lockfile
 
-Lea identifies import maps as the obvious primitive to build on. Browser-native specifier resolution, no build step to consume. But they're missing most of the bits that make lockfiles useful, and [I do love a good lockfile](/2026/01/17/lockfile-format-design-and-tradeoffs/):
+Lea identifies import maps as the obvious primitive to build on. Browser-native specifier resolution, no build step to consume. But they're missing most of the bits that make lockfiles useful, and [I do love a good lockfile](/2026/01/17/lockfile-format-design-and-tradeoffs.html):
 
 - No package identity (the browser sees URLs, not packages)
 - No version metadata
@@ -92,7 +92,7 @@ Because purls are standardized, an importmap.lock could be scanned by GitHub Dep
 
 ## Connecting to SBOMs
 
-I've written before about [lockfiles and SBOMs recording the same information](/2025/12/23/could-lockfiles-just-be-sboms/). The `packages` block with purl identifiers means this format could generate CycloneDX or SPDX SBOMs directly.
+I've written before about [lockfiles and SBOMs recording the same information](/2025/12/23/could-lockfiles-just-be-sboms.html). The `packages` block with purl identifiers means this format could generate CycloneDX or SPDX SBOMs directly.
 
 Right now, if you're loading dependencies via CDN or script tags without a bundler, SBOM generation is basically manual. [Retire.js](https://github.com/RetireJS/retire.js) can fingerprint known libraries and produce a partial SBOM, but it's heuristic - if the library isn't in their database or is minified differently, it's invisible. Tools like [Syft](https://github.com/anchore/syft) and [cdxgen](https://github.com/CycloneDX/cdxgen) can scan containers, filesystems, and source code, but they can't see what's loaded via script tags pointing at CDNs. The [standard advice](https://sbomify.com/guides/javascript/) for CDN dependencies is "manually document them" or "migrate to npm." A format like this would give SBOM tools something to actually read.
 
@@ -114,7 +114,7 @@ Even the purl spec is still figuring out web dependencies - there are open propo
 
 The manifest side is less clear. Using `package.json` drags in too much Node baggage. Deno's import map approach of just listing specifiers and URLs is closer, though you'd want version constraints rather than pinned URLs in the source file.
 
-There's a cautionary tale in [GitHub Actions](/2025/12/06/github-actions-package-manager/). When you write `uses: actions/checkout@v4`, you're declaring a dependency that gets resolved and executed. It's package management, but without the safety mechanisms other ecosystems developed: no lockfile, no transitive pinning, no dependency graph visibility. Import maps with integrity are better - you get hash verification - but still no record of the resolution that produced them.
+There's a cautionary tale in [GitHub Actions](/2025/12/06/github-actions-package-manager.html). When you write `uses: actions/checkout@v4`, you're declaring a dependency that gets resolved and executed. It's package management, but without the safety mechanisms other ecosystems developed: no lockfile, no transitive pinning, no dependency graph visibility. Import maps with integrity are better - you get hash verification - but still no record of the resolution that produced them.
 
 ## Prototyping
 

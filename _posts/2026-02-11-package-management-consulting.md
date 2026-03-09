@@ -10,7 +10,7 @@ tags:
 
 I'm now taking on consulting work. If you're building or running a package manager, registry, or dependency tooling, I can probably help.
 
-Over fifteen years I've built [Libraries.io](https://libraries.io), [Ecosyste.ms](https://ecosyste.ms), [git-pkgs](https://github.com/andrew/git-pkgs), the [Manifest podcast](https://manifest.fm), co-organised the [Package Management devroom at FOSDEM](https://fosdem.org/2025/schedule/track/package-management/), and contributed to [Homebrew](https://brew.sh). I've written integrations for dozens of package managers, tracked billions of dependency relationships, and watched the same design mistakes repeat across ecosystems for a decade. That pattern recognition is what I bring to consulting engagements.
+Over fifteen years I've built [Libraries.io](https://libraries.io), [Ecosyste.ms](https://ecosyste.ms), [git-pkgs](https://github.com/andrew/git-pkgs), the [Manifest podcast](https://manifest.fm), co-organised the [Package Management devroom at FOSDEM](https://fosdem.org/2026/schedule/track/package-management/), and contributed to [Homebrew](https://brew.sh). I've written integrations for dozens of package managers, tracked billions of dependency relationships, and watched the same design mistakes repeat across ecosystems for a decade. That pattern recognition is what I bring to consulting engagements.
 
 ## What I can help with
 

@@ -77,7 +77,7 @@ The separate API helped, but the fundamental problem remained: serving dependenc
 
 ## The compact index design
 
-[André Arko](https://andre.arko.net/2014/03/28/the-new-rubygems-index-format/), Samuel Giddins, and the rest of the Bundler team spent 2014-2015 designing something new, shipping it in [Bundler 1.12](https://bundler.io/blog/2016/04/28/the-new-index-format-fastly-and-bundler-1-12.html) in April 2016. The requirements were clear: no server-side computation, cacheable on a CDN, and efficient for clients that already have most of the data. Every [package manager design involves trade-offs](/2025/12/05/package-manager-tradeoffs.html), and this one optimised for scale.
+[André Arko](https://andre.arko.net/2014/03/28/the-new-rubygems-index-format/), Samuel Giddins, and the rest of the Bundler team spent 2014-2015 designing something new, shipping it in [Bundler 1.12](https://andre.arko.net/2014/03/28/the-new-rubygems-index-format/) in April 2016. The requirements were clear: no server-side computation, cacheable on a CDN, and efficient for clients that already have most of the data. Every [package manager design involves trade-offs](/2025/12/05/package-manager-tradeoffs.html), and this one optimised for scale.
 
 The [compact index](https://guides.rubygems.org/rubygems-org-compact-index-api/) has three endpoints.
 
