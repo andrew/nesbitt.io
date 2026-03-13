@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Reviewing ENISA’s Package Manager Advisory](https://nesbitt.io/2026/03/12/reviewing-enisas-package-manager-advisory.html)
 - [git-pkgs/actions](https://nesbitt.io/2026/03/11/git-pkgs-actions.html)
 - [Just Use Postgres](https://nesbitt.io/2026/03/10/just-use-postgres.html)
 - [100 Posts](https://nesbitt.io/2026/03/09/100-posts.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Package Manager Magic Files](https://nesbitt.io/2026/03/05/package-manager-magic-files.html)
 - [Package Managers Need to Cool Down](https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html)
 - [Package Management is Naming All the Way Down](https://nesbitt.io/2026/03/03/package-management-is-naming-all-the-way-down.html)
-- [Transitive Trust](https://nesbitt.io/2026/03/02/transitive-trust.html)
 <!-- POSTS:END -->
