@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Git Remote Helpers](https://nesbitt.io/2026/03/18/git-remote-helpers.html)
 - [Guided Meditation for Developers](https://nesbitt.io/2026/03/15/guided-meditation-for-developers.html)
 - [What’s Going On with FAIR Package Manager](https://nesbitt.io/2026/03/14/whats-going-on-with-fair-package-manager.html)
 - [Forge](https://nesbitt.io/2026/03/13/forge.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [100 Posts](https://nesbitt.io/2026/03/09/100-posts.html)
 - [If It Quacks Like a Package Manager](https://nesbitt.io/2026/03/08/if-it-quacks-like-a-package-manager.html)
 - [Announcing New Working Groups](https://nesbitt.io/2026/03/07/announcing-new-working-groups.html)
-- [.gitlocal](https://nesbitt.io/2026/03/06/gitlocal.html)
 <!-- POSTS:END -->
