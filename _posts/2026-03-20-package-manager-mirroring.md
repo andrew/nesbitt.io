@@ -84,7 +84,7 @@ The repository format is a directory structure over HTTP with SHA-1 and MD5 chec
 
 ### Packagist (PHP/Composer)
 
-[Satis](https://github.com/composer/satis) fetches packages via Git, SVN, Mercurial, or HTTP downloads depending on the source type, and generates a static `packages.json` following the [Composer repository format](https://getcomposer.org/doc/05-repositories.md). Provider file references include SHA256 hashes for cache invalidation. Supports both Composer v1 and v2 metadata formats. With `require-dependencies` it resolves the full dependency tree, and with `archive` configuration it downloads and stores dist files locally for a fully self-contained mirror. Each run rebuilds the entire `packages.json` from scratch by querying all configured repositories.
+[composer/mirror](https://github.com/composer/mirror/) syncs package metadata over https by polling the [metadata-changes-url](https://github.com/composer/composer/blob/9d18266945b42009057694ddedd7b159badd5eff/res/composer-repository-schema.json#L52) endpoint — a URL advertised in the repository's packages.json that returns a list of recently changed package metadata files, allowing the mirror to fetch only what has changed rather than rescanning everything.
 
 ## Protocols and standards for mirroring
 
