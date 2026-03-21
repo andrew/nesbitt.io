@@ -9,6 +9,10 @@ tags:
   - satire
 ---
 
+I [complained on Mastodon](https://mastodon.social/@andrewnez/116262193716178409) about not getting any AI-authored PRs on my open source projects. [Mauro Pompilio](https://github.com/malditogeek) responded by using Claude to write this post and opening a pull request to add it to my blog. I merged it, which I suppose counts as my first AI-assisted contribution. Enjoy!
+
+---
+
 I maintain several dozen open source repositories across multiple ecosystems. Between them they have thousands of stars, hundreds of open issues, and years of commit history. And yet not a single AI agent has ever opened a pull request on any of them. Meanwhile colleagues with far smaller projects are getting multiple AI-authored PRs per week, some from bots they've never heard of, fixing problems that don't exist in code they didn't write. I'm clearly doing something wrong.
 
 After studying the repositories that attract the most AI contributions, I've identified a set of practices that correlate strongly with bot engagement. Implementing these across your projects should bring you into line with the current median of 4.7 AI-authored PRs per month for repositories over 500 stars.
