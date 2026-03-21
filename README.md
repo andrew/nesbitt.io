@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Package Manager Mirroring](https://nesbitt.io/2026/03/20/package-manager-mirroring.html)
 - [The Fragmented World of Dependency Policy](https://nesbitt.io/2026/03/19/the-fragmented-world-of-dependency-policy.html)
 - [Git Remote Helpers](https://nesbitt.io/2026/03/18/git-remote-helpers.html)
 - [Guided Meditation for Developers](https://nesbitt.io/2026/03/15/guided-meditation-for-developers.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [git-pkgs/actions](https://nesbitt.io/2026/03/11/git-pkgs-actions.html)
 - [Just Use Postgres](https://nesbitt.io/2026/03/10/just-use-postgres.html)
 - [100 Posts](https://nesbitt.io/2026/03/09/100-posts.html)
-- [If It Quacks Like a Package Manager](https://nesbitt.io/2026/03/08/if-it-quacks-like-a-package-manager.html)
 <!-- POSTS:END -->
