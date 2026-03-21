@@ -87,7 +87,7 @@ ACM Queue
 
 Influential essay on managing software dependencies at scale. Discusses version selection, minimum version selection (used in Go), and the tradeoffs between different dependency management approaches. Required reading for anyone working on package managers.
 
-**[The Impact of Regular Expression Denial of Service (ReDoS) in Practice](https://dl.acm.org/doi/10.1145/3236024.3236027)** ([archive](http://web.archive.org/web/20250619163946/https://dl.acm.org/doi/10.1145/3236024.3236027)) (2018)
+**[The Impact of Regular Expression Denial of Service (ReDoS) in Practice](https://dl.acm.org/doi/10.1145/3236024.3236027)** ([archive](https://web.archive.org/web/20210416093951/https://ieeexplore.ieee.org/document/9403390)) (2018)
 *James Davis, Christy Coghlan, Francisco Servant, Dongyoon Lee*
 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) - Distinguished Paper Award
 
@@ -109,19 +109,19 @@ arXiv preprint
 
 First study of lockfiles across seven package managers (npm, pnpm, Cargo, Poetry, Pipenv, Gradle, Go). Analyzes lockfile content and lifecycle differences, finding Go has near 100% lockfile commit rate while Gradle is close to zero. Interviews with 15 developers reveal benefits (build determinism, integrity verification, transparency) and challenges (readability, delayed updates, library locking). Recommends generating lockfiles by default and committing them for all projects.
 
-**[Reproducible builds: Increasing the integrity of software supply chains](https://ieeexplore.ieee.org/document/9648644)** ([archive](http://web.archive.org/web/20250415120641/https://ieeexplore.ieee.org/document/9648644/)) (2022)
+**[Reproducible builds: Increasing the integrity of software supply chains](https://ieeexplore.ieee.org/document/9403390)** ([archive](http://web.archive.org/web/20250415120641/https://ieeexplore.ieee.org/document/9648644/)) (2022)
 *Chris Lamb, Stefano Zacchiroli*
 IEEE Software
 
 Overview of the reproducible builds movement and its importance for software supply chain security. Discusses how bit-for-bit reproducibility enables independent verification of build artifacts.
 
-**[It's Like Flossing Your Teeth: On the Importance and Challenges of Reproducible Builds for Software Supply Chain Security](https://ieeexplore.ieee.org/document/10179304)** ([archive](http://web.archive.org/web/20260109160942/https://ieeexplore.ieee.org/document/10179304)) (2023)
+**[It's Like Flossing Your Teeth: On the Importance and Challenges of Reproducible Builds for Software Supply Chain Security](https://ieeexplore.ieee.org/abstract/document/10179320)** ([archive](http://web.archive.org/web/20240415165128/https://ieeexplore.ieee.org/abstract/document/10179320)) (2023)
 *Marcel Fourné, Dominik Wermke, William Enck, Sascha Fahl, Yasemin Acar*
 IEEE Symposium on Security and Privacy (S&P)
 
 24 semi-structured interviews with Reproducible-Builds.org participants. Found self-effective work by highly motivated developers and collaborative communication with upstream projects are key to achieving reproducible builds. Identifies path for R-Bs to become commonplace.
 
-**[Investigating the reproducibility of npm packages](https://ieeexplore.ieee.org/document/9240691)** ([archive](http://web.archive.org/web/20240905114400/https://ieeexplore.ieee.org/document/9240691/)) (2020)
+**[Investigating the reproducibility of npm packages](https://ieeexplore.ieee.org/document/9240695)** ([archive](http://web.archive.org/web/20201210163152/https://ieeexplore.ieee.org/document/9240695)) (2020)
 *Pronnoy Goswami, Saksham Gupta, Zhiyuan Li, Na Meng, Daphne Yao*
 IEEE International Conference on Software Maintenance and Evolution (ICSME)
 
@@ -193,7 +193,7 @@ International Workshop on Logics for Component Configuration (LoCoCo)
 
 Applied pseudo-boolean optimization techniques to Linux package upgradeability, showing how boolean optimization can find optimal solutions while respecting user preferences.
 
-**[Dependency solving: A separate concern in component evolution management](https://www.sciencedirect.com/science/article/pii/S0164121212000532)** ([archive](http://web.archive.org/web/20250427212457/https://www.sciencedirect.com/science/article/pii/S0164121212000532)) (2012)
+**[Dependency solving: A separate concern in component evolution management](https://www.sciencedirect.com/science/article/abs/pii/S0164121212000477)** ([archive](http://web.archive.org/web/20240918233216/https://www.sciencedirect.com/science/article/abs/pii/S0164121212000477)) (2012)
 *Pietro Abate, Roberto Di Cosmo, Ralf Treinen, Stefano Zacchiroli*
 Journal of Systems and Software (JSS)
 
@@ -344,7 +344,7 @@ Empirical Software Engineering
 
 Analyzed vulnerabilities in 450 Java, Python, and Ruby projects using industrial SCA tool. Found vulnerabilities persist 3-5 months after fixes become available. Highlights importance of managing dependency count and performing timely updates.
 
-**[Software Supply Chain: Review of Attacks, Risk Assessment Strategies and Security Controls](https://arxiv.org/abs/2308.07920)** ([archive](http://web.archive.org/web/20251220023335/https://arxiv.org/abs/2308.07920)) (2023)
+**[Software Supply Chain: Review of Attacks, Risk Assessment Strategies and Security Controls](https://arxiv.org/abs/2305.14157)** ([archive](http://web.archive.org/web/20260222031806/https://arxiv.org/abs/2305.14157)) (2023)
 *Betul Gokkaya, et al.*
 arXiv preprint
 
@@ -356,13 +356,13 @@ arXiv preprint
 
 Evaluated six SBOM generation tools on complex open-source Java projects, identifying hard challenges for accurate SBOM production and usage in software supply chain security contexts.
 
-**[On the way to sboms: Investigating design issues and solutions in practice](https://dl.acm.org/doi/10.1145/3660773)** ([archive](http://web.archive.org/web/20250413103622/https://dl.acm.org/doi/10.1145/3660773)) (2024)
+**[On the way to sboms: Investigating design issues and solutions in practice](https://dl.acm.org/doi/full/10.1145/3654442)** ([archive](http://web.archive.org/web/20250219015905/https://dl.acm.org/doi/abs/10.1145/3654442)) (2024)
 *Tingting Bi, Boming Xia, Zhenchang Xing, Qinghua Lu, Liming Zhu*
 ACM Transactions on Software Engineering and Methodology (TOSEM)
 
 Investigates SBOM design issues and solutions, noting lockfiles as related to SBOM generation.
 
-**[On the correctness of metadata-based sbom generation: A differential analysis approach](https://ieeexplore.ieee.org/document/10646632)** ([archive](http://web.archive.org/web/20250429061800/https://ieeexplore.ieee.org/document/10646632/)) (2024)
+**[On the correctness of metadata-based sbom generation: A differential analysis approach](https://ieeexplore.ieee.org/document/10646983)** ([archive](http://web.archive.org/web/20240908003706/https://ieeexplore.ieee.org/document/10646983)) (2024)
 *Songqiang Yu, Wei Song, Xiaolong Hu, Heng Yin*
 IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)
 
@@ -398,19 +398,19 @@ arXiv preprint
 
 Introduces "software supply chain smell" as a novel concept for identifying problematic dependency patterns. Presents Dirty-Waters tool for detecting these smells in JavaScript projects, finding many patterns that reveal potential supply chain risks.
 
-**[LastPyMile: Identifying the Discrepancy Between Sources and Packages](https://dl.acm.org/doi/10.1145/3468264.3468588)** ([archive](http://web.archive.org/web/20251215170518/https://dl.acm.org/doi/10.1145/3468264.3468588)) (2021)
+**[LastPyMile: Identifying the Discrepancy Between Sources and Packages](https://dl.acm.org/doi/10.1145/3468264.3468592)** ([archive](http://web.archive.org/web/20250601134415/https://dl.acm.org/doi/10.1145/3468264.3468592)) (2021)
 *Duc-Ly Vu, Fabio Massacci, Ivan Pashchenko, Henrik Plate, Antonino Sabetta*
 ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)
 
 Proposed methodology for identifying discrepancies between source code repositories (GitHub) and distributed packages (PyPI). Analyzed 2,438 popular PyPI packages, finding on average 5.8% of artifacts and 2.6% of files have changes.
 
-**[Towards Using Source Code Repositories to Identify Software Supply Chain Attacks](https://dl.acm.org/doi/10.1145/3411508.3421375)** ([archive](http://web.archive.org/web/20250303120246/https://dl.acm.org/doi/10.1145/3411508.3421375)) (2020)
+**[Towards Using Source Code Repositories to Identify Software Supply Chain Attacks](https://dl.acm.org/doi/10.1145/3372297.3420015)** ([archive](http://web.archive.org/web/20211008081035/https://dl.acm.org/doi/10.1145/3372297.3420015)) (2020)
 *Duc-Ly Vu, Ivan Pashchenko, Fabio Massacci, Henrik Plate, Antonino Sabetta*
 ACM Conference on Computer and Communications Security (CCS)
 
 Earlier work exploring use of source code repository analysis for detecting supply chain attacks, establishing foundation for LastPyMile approach by identifying that attackers inject minimal code changes.
 
-**[Software Composition Analysis and Supply Chain Security in Apache Projects: An Empirical Study](https://dl.acm.org/doi/10.1145/3643991.3644909)** ([archive](http://web.archive.org/web/20240703053856/https://dl.acm.org/doi/10.1145/3643991.3644909)) (2025)
+**[Software Composition Analysis and Supply Chain Security in Apache Projects: An Empirical Study](https://ieeexplore.ieee.org/document/11025577)** ([archive](http://web.archive.org/web/20250808133305/https://ieeexplore.ieee.org/document/11025577)) (2025)
 *Sabato Nocera, Sira Vegas, Giuseppe Scanniello, Natalia Juristo*
 International Conference on Mining Software Repositories (MSR)
 
@@ -426,7 +426,7 @@ International Conference on Mining Software Repositories (MSR)
 
 First analysis of npm ecosystem examining package descriptions, dependencies, download metrics, and historical evolution. Analyzed 230,000+ packages over 6 years.
 
-**[npm-follower: A Complete Dataset Tracking the NPM Ecosystem](https://dl.acm.org/doi/10.1145/3611643.3613867)** ([archive](http://web.archive.org/web/20241109015801/https://dl.acm.org/doi/10.1145/3611643.3613867)) (2023)
+**[npm-follower: A Complete Dataset Tracking the NPM Ecosystem](https://dl.acm.org/doi/10.1145/3611643.3613094)** ([archive](http://web.archive.org/web/20240110181423/https://dl.acm.org/doi/10.1145/3611643.3613094)) (2023)
 *Donald Pinckney, Federico Cassano, Arjun Guha, Jonathan Bell*
 ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE)
 
@@ -462,7 +462,7 @@ arXiv preprint
 
 Empirical summary covering 178,592 packages, 1,745,744 releases, 76,997 contributors, and 156.8M+ import statements. Found 47% CAGR for active packages, 39% for new authors.
 
-**[Analyzing the Accessibility of GitHub Repositories for PyPI and NPM Libraries](https://arxiv.org/abs/2403.03923)** ([archive](http://web.archive.org/web/20251222100153/https://arxiv.org/abs/2403.03923)) (2024)
+**[Analyzing the Accessibility of GitHub Repositories for PyPI and NPM Libraries](https://arxiv.org/html/2404.17403v2)** ([archive](http://web.archive.org/web/20250424015032/https://arxiv.org/html/2404.17403v2)) (2024)
 *Alexandros Tsakpinis, Alexander Pretschner*
 arXiv preprint
 
@@ -474,7 +474,7 @@ Empirical Software Engineering
 
 Analyzed 9,639 Java artifacts with 723,444 dependency relationships using DepClean tool, finding that bloated dependencies significantly increase binary size and maintenance effort.
 
-**[Goblin: A Framework for Enriching and Querying the Maven Central Dependency Graph](https://dl.acm.org/doi/10.1145/3643991.3644914)** ([archive](http://web.archive.org/web/20241211064017/https://dl.acm.org/doi/10.1145/3643991.3644914)) (2024)
+**[Goblin: A Framework for Enriching and Querying the Maven Central Dependency Graph](https://dl.acm.org/doi/10.1145/3643991.3644879)** ([archive](http://web.archive.org/web/20250217085507/https://dl.acm.org/doi/10.1145/3643991.3644879)) (2024)
 *Damien Jaime, Joyce El Haddad, Pascal Poizat*
 International Conference on Mining Software Repositories (MSR)
 
@@ -516,19 +516,19 @@ arXiv preprint
 
 Largest static analysis of PyPI at time of publication, analyzing 197,000+ packages with 749,000+ security issues. Found 46% of Python packages have at least one security issue. Exception handling and code injections most common. Subprocess module identified as particularly problematic.
 
-**[An Empirical Analysis of the R Package Ecosystem](https://arxiv.org/abs/2109.03251)** ([archive](http://web.archive.org/web/20251205123134/https://arxiv.org/abs/2109.03251)) (2021)
+**[An Empirical Analysis of the R Package Ecosystem](https://arxiv.org/abs/2102.09904)** ([archive](http://web.archive.org/web/20210222114028/http://arxiv.org/abs/2102.09904)) (2021)
 *Ethan Bommarito, Michael J. Bommarito II*
 arXiv preprint
 
 Analysis of 25,000+ packages, 150,000 releases across CRAN, Bioconductor, and GitHub over two decades. Found top 5 packages imported by 25% of all packages, top 10 maintainers support packages imported by 50%+ of ecosystem.
 
-**[A Complex Network Analysis of the Comprehensive R Archive Network (CRAN) Package Ecosystem](https://www.sciencedirect.com/science/article/pii/S0164121220301527)** ([archive](http://web.archive.org/web/20240325051211/https://www.sciencedirect.com/science/article/pii/S0164121220301527)) (2020)
+**[A Complex Network Analysis of the Comprehensive R Archive Network (CRAN) Package Ecosystem](https://www.sciencedirect.com/science/article/abs/pii/S0164121220301709)** ([archive](http://web.archive.org/web/20220120161512/https://www.sciencedirect.com/science/article/abs/pii/S0164121220301709)) (2020)
 *Multiple authors*
 Journal of Systems and Software
 
 Applied complex network analysis to CRAN dependency graph from macroscopic, microscopic, and modular perspectives. Demonstrated how network theory helps profile ecosystem strengths, practices, and risks.
 
-**[Evolution and Prospects of the Comprehensive R Archive Network (CRAN) Package Ecosystem](https://onlinelibrary.wiley.com/doi/10.1002/smr.2288)** (2020)
+**[Evolution and Prospects of the Comprehensive R Archive Network (CRAN) Package Ecosystem](https://onlinelibrary.wiley.com/doi/abs/10.1002/smr.2270)** ([archive](http://web.archive.org/web/20250430012352/https://onlinelibrary.wiley.com/doi/abs/10.1002/smr.2270)) (2020)
 *Marcelino Mora-Cantallops, Salvador Sánchez-Alonso, Elena García-Barriocanal*
 Journal of Software: Evolution and Process
 
@@ -552,7 +552,7 @@ ACM Transactions on Software Engineering and Methodology (TOSEM)
 
 First security investigation of Rust ecosystem. Analyzed dataset of 433 vulnerabilities across 300 vulnerable code repositories. Found vulnerable code is localized at file level and contains significantly more unsafe functions/blocks. More popular packages have more vulnerabilities, while less popular packages remain vulnerable for more versions.
 
-**[An empirical study of yanked releases in the rust package registry](https://ieeexplore.ieee.org/document/9732248)** ([archive](http://web.archive.org/web/20240807153645/https://ieeexplore.ieee.org/document/9732248/)) (2023)
+**[An empirical study of yanked releases in the rust package registry](https://ieeexplore.ieee.org/document/9714872)** ([archive](http://web.archive.org/web/20240429220635/https://ieeexplore.ieee.org/document/9714872)) (2023)
 *Hao Li, Filipe Cogo, Cor-Paul Bezemer*
 IEEE Transactions on Software Engineering
 
@@ -564,7 +564,7 @@ Scientific Data
 
 Dataset curating Rust ecosystem data over eight years, capturing developer activity, library dependencies, and usage trends.
 
-**[Why do software packages conflict?](https://ieeexplore.ieee.org/document/6224287)** ([archive](http://web.archive.org/web/20240427050042/https://ieeexplore.ieee.org/document/6224287)) (2012)
+**[Why do software packages conflict?](https://ieeexplore.ieee.org/document/6224274)** ([archive](http://web.archive.org/web/20180616023744/https://ieeexplore.ieee.org/document/6224274/)) (2012)
 *Cyrille Artho, Roberto Di Cosmo, Kuniyasu Suzaki, Stefano Zacchiroli*
 IEEE Working Conference on Mining Software Repositories (MSR)
 
@@ -604,13 +604,13 @@ Analysis of dependency problems arising from packages split between GitHub and C
 
 Research on versioning practices, semantic versioning adoption, and breaking changes.
 
-**[Dependency Versioning in the Wild](https://dl.acm.org/doi/10.1109/MSR.2019.00059)** ([archive](http://web.archive.org/web/20230406133732/https://dl.acm.org/doi/10.1109/MSR.2019.00059)) (2019)
+**[Dependency Versioning in the Wild](https://ieeexplore.ieee.org/document/8816809)** ([archive](http://web.archive.org/web/20210308040655/https://ieeexplore.ieee.org/document/8816809)) (2019)
 *Jens Dietrich, David Pearce, Jacob Stringer, Amjed Tahir, Kelly Blincoe*
 International Conference on Mining Software Repositories (MSR)
 
 Large-scale empirical study of versioning practices across 17 package managers, analyzing over 70 million dependencies, complemented by survey of 170 developers. Found many package managers support flexible versioning but developers struggle to balance predictability and agility.
 
-**[What do package dependencies tell us about semantic versioning?](https://ieeexplore.ieee.org/document/9240691)** ([archive](http://web.archive.org/web/20240905114400/https://ieeexplore.ieee.org/document/9240691/)) (2021)
+**[What do package dependencies tell us about semantic versioning?](https://ieeexplore.ieee.org/document/8721084)** ([archive](http://web.archive.org/web/20210614031543/https://ieeexplore.ieee.org/document/8721084)) (2021)
 *Alexandre Decan, Tom Mens*
 IEEE Transactions on Software Engineering
 
@@ -634,7 +634,7 @@ IEEE International Conference on Software Maintenance and Evolution (ICSME)
 
 Studied technical lag (outdatedness of dependencies) in npm ecosystem, examining tension between stability and freshness in dependency management.
 
-**[Understanding Breaking Changes in the Wild](https://dl.acm.org/doi/10.1145/3597926.3598140)** ([archive](http://web.archive.org/web/20240416102210/https://dl.acm.org/doi/10.1145/3597926.3598140)) (2023)
+**[Understanding Breaking Changes in the Wild](https://dl.acm.org/doi/10.1145/3597926.3598147)** ([archive](http://web.archive.org/web/20240116193155/https://dl.acm.org/doi/10.1145/3597926.3598147)) (2023)
 *Dhanushka Jayasuriya, Valerio Terragni, Jens Dietrich, Samuel Ou, Kelly Blincoe*
 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)
 
@@ -646,19 +646,19 @@ arXiv preprint
 
 Automated tool that generates explanations for compilation errors caused by incompatible dependency version changes. Analyzes logs and dependency trees to identify root causes across direct/indirect dependencies, Java version conflicts, and configuration issues. Successfully identified causes for 70% of 243 real breaking updates.
 
-**[Bump: A benchmark of reproducible breaking dependency updates](https://ieeexplore.ieee.org/document/10589731)** ([archive](http://web.archive.org/web/20250429221220/https://ieeexplore.ieee.org/document/10589731/)) (2024)
+**[BUMP: A benchmark of reproducible breaking dependency updates](https://arxiv.org/abs/2401.09906)** ([archive](http://web.archive.org/web/20251224091002/https://arxiv.org/abs/2401.09906)) (2024)
 *Frank Reyes, Yogya Gamage, Gabriel Skoglund, Benoit Baudry, Martin Monperrus*
 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
 
 Benchmark dataset of reproducible breaking dependency updates for evaluating tools that detect or explain breaking changes in dependency updates.
 
-**[I depended on you and you broke me: An empirical study of manifesting breaking changes in client packages](https://dl.acm.org/doi/10.1145/3583565)** ([archive](http://web.archive.org/web/20250217132158/https://dl.acm.org/doi/10.1145/3583565)) (2023)
+**[I depended on you and you broke me: An empirical study of manifesting breaking changes in client packages](https://arxiv.org/abs/2301.04563)** ([archive](http://web.archive.org/web/20251224071311/https://arxiv.org/abs/2301.04563)) (2023)
 *Daniel Venturini, Filipe Cogo, Igor Polato, Marco Gerosa, Igor Wiese*
 ACM Transactions on Software Engineering and Methodology (TOSEM)
 
 Quantitative evaluation of the impact of breaking updates on dependent packages in npm, examining how breaking changes manifest and propagate through the ecosystem.
 
-**[Semantic Versioning versus Breaking Changes: A Study of the Maven Repository](https://www.sciencedirect.com/science/article/pii/S0164121217300018)** ([archive](http://web.archive.org/web/20200704084315/https://www.sciencedirect.com/science/article/pii/S0164121217300018)) (2014, 2017)
+**[Semantic Versioning versus Breaking Changes: A Study of the Maven Repository](https://www.sciencedirect.com/science/article/abs/pii/S0164121216300243)** ([archive](http://web.archive.org/web/20240420032215/https://www.sciencedirect.com/science/article/abs/pii/S0164121216300243)) (2014, 2017)
 *Steven Raemaekers, Arie van Deursen, Joost Visser*
 IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM) / Journal of Systems and Software
 
@@ -870,7 +870,7 @@ USENIX Security Symposium
 
 Proposed ChkUp tool to detect firmware update vulnerabilities by resolving program execution paths. Analyzing 12,000 firmware images, identifies vulnerabilities stemming from incomplete or incorrect verification steps.
 
-**[Formal Security Analysis of Electronic Software Distribution Systems](https://link.springer.com/chapter/10.1007/978-3-540-87698-4_14)** ([archive](http://web.archive.org/web/20220516013920/https://link.springer.com/chapter/10.1007/978-3-540-87698-4_14)) (2008)
+**[Formal Security Analysis of Electronic Software Distribution Systems](https://link.springer.com/chapter/10.1007/978-3-540-87698-4_34)** ([archive](http://web.archive.org/web/20180605151459/https://link.springer.com/chapter/10.1007%2F978-3-540-87698-4_34)) (2008)
 *M. Maidl, D. von Oheimb, P. Hartmann, R. Robinson*
 International Conference on Computer Safety, Reliability, and Security (SAFECOMP)
 
@@ -904,7 +904,7 @@ ACM Web Conference (WWW)
 
 Introduced MeMPtec, metadata-based malicious package detection model. Demonstrates resistance to adversarial attacks with 85.2% precision and 91.8% recall.
 
-**[On the Feasibility of Detecting Injections in Malicious npm Packages](https://dl.acm.org/doi/10.1145/3524842.3528494)** (Year TBD)
+**[On the Feasibility of Detecting Injections in Malicious npm Packages](https://dl.acm.org/doi/10.1145/3538969.3543815)** ([archive](http://web.archive.org/web/20250601134415/https://dl.acm.org/doi/10.1145/3538969.3543815)) (2022)
 *Various authors*
 ACM conference proceedings
 
@@ -928,7 +928,7 @@ IEEE/ACM International Conference on Software Engineering (ICSE)
 
 Presents Amalfi, combining ML classifiers, a reproducer for identifying packages rebuildable from source, and a clone detector for known malicious packages. Identified 95 previously unknown malicious packages over seven days. Found malicious packages more likely to contain minified code or binaries.
 
-**[TypoSmart: A Low False-Positive System for Detecting Malicious and Stealthy Typosquatting Threats in Package Registries](https://arxiv.org/abs/2502.20528)** ([archive](http://web.archive.org/web/20251205123206/https://arxiv.org/abs/2502.20528)) (2025)
+**[TypoSmart: A Low False-Positive System for Detecting Malicious and Stealthy Typosquatting Threats in Package Registries](https://arxiv.org/html/2502.20528v1)** ([archive](http://web.archive.org/web/20250303032939/https://arxiv.org/html/2502.20528v1)) (2025)
 *Multiple authors*
 arXiv preprint
 
@@ -944,7 +944,7 @@ Revealed dependency confusion attack that exploits package managers pulling high
 
 Research on metadata systems, signing, and trust frameworks.
 
-**[Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain](https://arxiv.org/abs/2407.20861)** ([archive](http://web.archive.org/web/20251007160345/https://arxiv.org/abs/2407.20861)) (2024)
+**[Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain](https://arxiv.org/abs/2510.04964)** ([archive](http://web.archive.org/web/20251203082721/https://arxiv.org/abs/2510.04964)) (2024)
 *Multiple authors*
 arXiv preprint
 
@@ -956,7 +956,7 @@ USENIX Security Symposium
 
 Qualitative study interviewing 18 experienced security practitioners across 13 organizations to understand software signing practices and challenges. Shows that experts disagree on signing importance.
 
-**[Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors](https://ieeexplore.ieee.org/document/10646685)** ([archive](http://web.archive.org/web/20250429062547/https://ieeexplore.ieee.org/document/10646685/)) (2024)
+**[Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors](https://ieeexplore.ieee.org/document/10646801)** ([archive](http://web.archive.org/web/20251222023837/https://ieeexplore.ieee.org/document/10646801)) (2024)
 *Taylor R. Schorlemmer, Kelechi G. Kalu, Luke Chigges, Kyung Myung Ko, Elizabeth A. Ishgair, Saurabh Bagchi, Santiago Torres-Arias, James C. Davis*
 IEEE Symposium on Security and Privacy (S&P)
 
@@ -978,13 +978,13 @@ Academic analysis of Sigstore's keyless signing infrastructure. Describes formal
 
 Research on automated dependency management tools like Dependabot and Renovate.
 
-**[On the use of dependabot security pull requests](https://ieeexplore.ieee.org/document/9463091)** ([archive](http://web.archive.org/web/20250506010819/https://ieeexplore.ieee.org/document/9463091/)) (2021)
+**[On the use of dependabot security pull requests](https://ieeexplore.ieee.org/document/9463148)** ([archive](http://web.archive.org/web/20210630134610/https://ieeexplore.ieee.org/document/9463148)) (2021)
 *Mahmoud Alfadel, Diego Elias Costa, Emad Shihab, Moiz Mkhallalati*
 IEEE/ACM International Conference on Mining Software Repositories (MSR)
 
 Evaluates how developers respond to security updates suggested by Dependabot, finding varying acceptance rates across ecosystems.
 
-**[Investigating the resolution of vulnerable dependencies with dependabot security updates](https://ieeexplore.ieee.org/document/10172658)** (2023)
+**[Investigating the resolution of vulnerable dependencies with dependabot security updates](https://ieeexplore.ieee.org/abstract/document/10174082)** ([archive](http://web.archive.org/web/20240704210422/https://ieeexplore.ieee.org/abstract/document/10174082)) (2023)
 *Hadi Mohayeji, Ani Agaronian, Eleni Constantinou, Nicola Zannone, Alexander Serebrenik*
 IEEE/ACM International Conference on Mining Software Repositories (MSR)
 
@@ -996,7 +996,7 @@ Empirical Software Engineering
 
 Follow-up study on Dependabot's effectiveness for vulnerability mitigation across projects.
 
-**[There's no such thing as a free lunch: Lessons learned from exploring the overhead introduced by the greenkeeper dependency bot in npm](https://dl.acm.org/doi/10.1145/3583029)** (2023)
+**[There's no such thing as a free lunch: Lessons learned from exploring the overhead introduced by the greenkeeper dependency bot in npm](https://dl.acm.org/doi/10.1145/3522587)** ([archive](https://web.archive.org/web/20220504135417/https://dl.acm.org/doi/10.1145/3522587)) (2023)
 *Benjamin Rombaut, Filipe Cogo, Bram Adams, Ahmed E. Hassan*
 ACM Transactions on Software Engineering and Methodology (TOSEM)
 
@@ -1018,13 +1018,13 @@ arXiv preprint
 
 Extends call-graph dependency analysis with Präzi, constructing fine-grained dependency networks at the function level rather than package level. Enables more precise vulnerability impact analysis and identifies unused transitive dependencies.
 
-**[Towards Understanding Third-Party Library Dependency in C/C++ Ecosystem](https://dl.acm.org/doi/10.1145/3551349.3556898)** ([archive](http://web.archive.org/web/20250726062324/https://dl.acm.org/doi/10.1145/3551349.3556898)) (2022)
+**[Towards Understanding Third-Party Library Dependency in C/C++ Ecosystem](https://dl.acm.org/doi/10.1145/3551349.3560432)** ([archive](https://web.archive.org/web/20250621102306/https://dl.acm.org/doi/10.1145/3551349.3560432)) (2022)
 *Wei Tang, Zhengzi Xu, Chengwei Liu, Jiahui Wu, Shouguo Yang, Yi Li, Ping Luo, Yang Liu*
 IEEE/ACM International Conference on Automated Software Engineering (ASE)
 
 First large-scale C/C++ dependency study addressing lack of unified package manager. Analyzed 24K repositories revealing 71.5% dependencies handled in Install phase.
 
-**[A Machine Learning Approach for Vulnerability Curation](https://dl.acm.org/doi/10.1145/3379597.3387470)** ([archive](http://web.archive.org/web/20240415122617/https://dl.acm.org/doi/10.1145/3379597.3387470)) (2020)
+**[A Machine Learning Approach for Vulnerability Curation](https://dl.acm.org/doi/10.1145/3379597.3387461)** ([archive](https://web.archive.org/web/20250303141339/https://dl.acm.org/doi/10.1145/3379597.3387461)) (2020)
 *Chen Yang, Andrew Santosa, Ang Ming Yi, Abhishek Sharma, Asankhaya Sharma, David Lo*
 International Conference on Mining Software Repositories (MSR)
 
@@ -1066,7 +1066,7 @@ SAC
 
 Study of package manager adoption in C++ open source.
 
-**[Beyond Dependencies: The Role of Copy-Based Reuse in Open Source Software Development](https://dl.acm.org/doi/10.1145/3712057)** ([archive](http://web.archive.org/web/20250302162428/https://dl.acm.org/doi/10.1145/3712057)) (2025)
+**[Beyond Dependencies: The Role of Copy-Based Reuse in Open Source Software Development](https://dl.acm.org/doi/10.1145/3715907)** ([archive](https://web.archive.org/web/20250218142710/https://dl.acm.org/doi/10.1145/3715907)) (2025)
 *Mahmoud Jahanshahi, David Reid, Audris Mockus*
 ACM Transactions on Software Engineering and Methodology
 
@@ -1088,7 +1088,7 @@ Recent longitudinal analysis of software dependencies examining long-term patter
 
 Research on how ecosystems and developer practices evolve over time.
 
-**[An Empirical Study of API Stability and Adoption in the Android Ecosystem](https://ieeexplore.ieee.org/document/6624028)** ([archive](http://web.archive.org/web/20250422072112/https://ieeexplore.ieee.org/document/6624028/)) (2013)
+**[An Empirical Study of API Stability and Adoption in the Android Ecosystem](https://ieeexplore.ieee.org/document/6676878)** ([archive](https://web.archive.org/web/20180614234525/https://ieeexplore.ieee.org/document/6676878/)) (2013)
 *Tyler McDonnell, Baishakhi Ray, Miryung Kim*
 IEEE International Conference on Software Maintenance (ICSM) - Most Influential Paper Award 2023
 
@@ -1130,7 +1130,7 @@ ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and A
 
 Introduces LIBSYNC, which learns complex API usage adaptation patterns from other clients that already migrated to a new library version, guiding developers through API migrations.
 
-**[Influences on developer participation in the Debian software ecosystem](https://www.sciencedirect.com/science/article/abs/pii/S0167624508000346)** ([archive](http://web.archive.org/web/20240419012843/https://www.sciencedirect.com/science/article/abs/pii/S0167624508000346)) (2011)
+**[Influences on developer participation in the Debian software ecosystem](https://dl.acm.org/doi/10.1145/2077489.2077505)** ([archive](https://web.archive.org/web/20250306172406/https://dl.acm.org/doi/10.1145/2077489.2077505)) (2011)
 *Multiple authors*
 Academic publication
 
