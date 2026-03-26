@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [The Top 10 Biggest Conspiracies in Open Source](https://nesbitt.io/2026/03/25/the-top-10-biggest-conspiracies-in-open-source.html)
 - [How to Attract AI Bots to Your Open Source Project](https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html)
 - [Package Manager Mirroring](https://nesbitt.io/2026/03/20/package-manager-mirroring.html)
 - [The Fragmented World of Dependency Policy](https://nesbitt.io/2026/03/19/the-fragmented-world-of-dependency-policy.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Forge](https://nesbitt.io/2026/03/13/forge.html)
 - [Reviewing ENISA’s Package Manager Advisory](https://nesbitt.io/2026/03/12/reviewing-enisas-package-manager-advisory.html)
 - [git-pkgs/actions](https://nesbitt.io/2026/03/11/git-pkgs-actions.html)
-- [Just Use Postgres](https://nesbitt.io/2026/03/10/just-use-postgres.html)
 <!-- POSTS:END -->
