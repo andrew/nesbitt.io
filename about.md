@@ -57,6 +57,6 @@ Some of my other notable open source projects:
 
 I'm based in the UK and have been part of the Ruby community here for years, speaking at Brighton Ruby, Bath Ruby, and meetups around Bristol. When I'm not thinking about dependencies, I'm usually at a track day in my [turbocharged Subaru BRZ](https://www.instagram.com/wj68rzx).
 
-You can find me on [GitHub](https://github.com/andrew) and [Mastodon](https://mastodon.social/@andrewnez). I'm also on [Bluesky](https://bsky.app/profile/andrewnez.bsky.social) and [Twitter](https://twitter.com/teabass) but rarely check either.
+You can find me on [GitHub](https://github.com/andrew) and [Mastodon](https://mastodon.social/@andrewnez). I'm also on [Bluesky](https://bsky.app/profile/andrewnez.bsky.social) and [Twitter](https://twitter.com/teabass) but rarely check either. There's also my [CV](/cv/).
 
 If you want to chat about package management, open source sustainability, or have me on your podcast, email me at [andrew@ecosyste.ms](mailto:andrew@ecosyste.ms).
