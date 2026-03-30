@@ -1,0 +1,37 @@
+_posts/2026-03-30-git-diff-drivers.md
+  1207f5398f885a08 5,12,26,46,48,100,106-109,125,129,135,137-139
+  00d01c2861a4b118 1-4,6-11,13-25,27-45,47,49-99,101-105,110-124,126-128,130-134,136
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "cc12ca03dcad570acfc583ec6c5c4001d5be7670",
+  "prompts": {
+    "00d01c2861a4b118": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f6ff76f5-31db-41e5-b1cd-e656e16fa35b",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Andrew Nesbitt <andrewnez@gmail.com>",
+      "messages": [],
+      "total_additions": 101,
+      "total_deletions": 44,
+      "accepted_lines": 123,
+      "overriden_lines": 0
+    },
+    "1207f5398f885a08": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "23e22a57-1846-4235-9f0a-c0b79411bd29",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Andrew Nesbitt <andrewnez@gmail.com>",
+      "messages": [],
+      "total_additions": 33,
+      "total_deletions": 39,
+      "accepted_lines": 16,
+      "overriden_lines": 0
+    }
+  }
+}
