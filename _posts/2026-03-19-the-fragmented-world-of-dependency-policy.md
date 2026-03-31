@@ -76,7 +76,7 @@ That spans TOML, YAML in at least ten different schemas, JSON, JSON5, XML with c
 
 The one tool that could theoretically unify this is [Open Policy Agent](https://www.openpolicyagent.org/) with [Conftest](https://www.conftest.dev/), since OPA's Rego language is a general-purpose policy engine that evaluates any structured data and you could write Rego rules against SBOMs, lockfiles, or dependency manifests. But OPA is the assembly language of policy rather than a standard for dependency decisions. It gives you a way to write rules but says nothing about what those rules should look like for package management, and there's no shared Rego library for common operations like "deny this license" or "ignore this CVE until this date." Everyone who uses OPA for dependency policy writes their own rules from scratch, and those rules aren't portable between organizations any more than the tool-specific configs are.
 
-Rego is at least a constrained language designed for policy evaluation, but ORT's evaluator rules are full Kotlin scripts, which means your policy files are arbitrary code that can make HTTP requests, read the filesystem, or behave differently depending on what day of the week it is, and now you need to audit your policy files with the same scrutiny you'd give any other code you run in CI.
+Rego is at least a constrained language designed for policy evaluation, but [ORT](https://github.com/oss-review-toolkit/ort)'s evaluator rules are full Kotlin scripts, which means your policy files are arbitrary code that can make HTTP requests, read the filesystem, or behave differently depending on what day of the week it is, and now you need to audit your policy files with the same scrutiny you'd give any other code you run in CI.
 
 ### Existing standards
 
