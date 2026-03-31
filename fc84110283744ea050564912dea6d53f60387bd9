@@ -1,0 +1,37 @@
+_posts/2026-03-31-npms-defaults-are-bad.md
+  b4528da868b00ff4 13,57,59
+  c0692fda946151eb 1-12,14-56,58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "fc84110283744ea050564912dea6d53f60387bd9",
+  "prompts": {
+    "b4528da868b00ff4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1634622b-c2f7-4b83-b488-fd672dedf0c9",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Andrew Nesbitt <andrewnez@gmail.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 4,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    },
+    "c0692fda946151eb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3c86c0ad-f9e3-43c3-9455-ee9de1439b26",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Andrew Nesbitt <andrewnez@gmail.com>",
+      "messages": [],
+      "total_additions": 111,
+      "total_deletions": 52,
+      "accepted_lines": 56,
+      "overriden_lines": 0
+    }
+  }
+}
