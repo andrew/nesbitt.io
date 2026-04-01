@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [npm’s Defaults Are Bad](https://nesbitt.io/2026/03/31/npms-defaults-are-bad.html)
 - [Git Diff Drivers](https://nesbitt.io/2026/03/30/git-diff-drivers.html)
 - [The Roles of Packages](https://nesbitt.io/2026/03/29/the-roles-of-packages.html)
 - [The Top 10 Biggest Conspiracies in Open Source](https://nesbitt.io/2026/03/25/the-top-10-biggest-conspiracies-in-open-source.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Git Remote Helpers](https://nesbitt.io/2026/03/18/git-remote-helpers.html)
 - [Guided Meditation for Developers](https://nesbitt.io/2026/03/15/guided-meditation-for-developers.html)
 - [What’s Going On with FAIR Package Manager](https://nesbitt.io/2026/03/14/whats-going-on-with-fair-package-manager.html)
-- [Forge](https://nesbitt.io/2026/03/13/forge.html)
 <!-- POSTS:END -->
