@@ -1,0 +1,51 @@
+_posts/2026-04-03-package-manager-easter-eggs.md
+  12dcf8fa1f6ee0c5 1-12,14-60,62,64-70,72-76,78-86,90-108,110-112,114-118
+  40f261c6d2a0fda2 13,61,63,109
+  9ffc9be1ba95cb9e 71,77,87-89,113
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "34aaaee4e122613308d17567371554c9ac9971a7",
+  "prompts": {
+    "12dcf8fa1f6ee0c5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8270ad2e-83c5-4b7f-972a-a6885626cc07",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Andrew Nesbitt",
+      "messages": [],
+      "total_additions": 23,
+      "total_deletions": 30,
+      "accepted_lines": 108,
+      "overriden_lines": 1
+    },
+    "40f261c6d2a0fda2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6a4f19c1-70e8-491b-b671-4556c10c03bf",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Andrew Nesbitt",
+      "messages": [],
+      "total_additions": 9,
+      "total_deletions": 9,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    },
+    "9ffc9be1ba95cb9e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "651d9a7a-a41c-49dc-b253-90fc228923e4",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Andrew Nesbitt",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 5,
+      "accepted_lines": 6,
+      "overriden_lines": 0
+    }
+  }
+}
