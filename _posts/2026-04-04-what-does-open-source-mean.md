@@ -8,7 +8,7 @@ tags:
   - reference
 ---
 
-Every few months someone declares that "X will kill open source" or that "open source is not sustainable" or that "open source won", and every time the responses split into factions that seem to be having completely different conversations. The phrase "open source" carries so many meanings that people routinely talk past each other while using the exact same words, each person confident the other is being obtuse when really they're just working from a different definition.
+Every few months someone declares that "X will kill open source" or that "open source is not sustainable" or that "open source won", and every time the responses split into factions that seem to be having completely different conversations. People have been [pointing](https://writing.kemitchell.com/2016/05/13/What-Open-Source-Means.html) [this](https://speaking.unlockopen.com/s7Me0Q/what-is-open-source) out for at least a decade. Replacement terms like "post-open source" never stuck, because the problem isn't the label. The phrase "open source" carries so many meanings that people routinely talk past each other while using the exact same words, each person confident the other is being obtuse when really they're just working from a different definition.
 
 **A licensing regime.** Software distributed under a license meeting the [Open Source Definition](https://opensource.org/osd): free redistribution, source availability, derived works permitted. The OSI maintains this formal definition, and for a certain kind of conversation it's the only one that counts.
 
