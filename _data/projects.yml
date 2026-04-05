@@ -3,23 +3,23 @@
   url: https://github.com/andrew/ultimate-awesome
   description: Every awesome list on every topic, including awesome lists of awesome
     lists, updated daily.
-  stars: 163
+  stars: 168
   language:
-  pushed_at: '2026-03-29T00:52:50Z'
+  pushed_at: '2026-04-05T00:53:08Z'
 - name: gitgres
   url: https://github.com/andrew/gitgres
   description: Store git objects and refs in PostgreSQL tables. Standard git push/clone
     work against the database through a libgit2-based backend.
-  stars: 67
+  stars: 69
   language: C
   pushed_at: '2026-03-08T20:14:08Z'
 - name: nesbitt.io
   url: https://github.com/andrew/nesbitt.io
   description: 'Personal blog built with Jekyll and hosted on GitHub Pages. I write
     about package management, software supply chain security, and open source infrastructure. '
-  stars: 23
+  stars: 27
   language: HTML
-  pushed_at: '2026-03-28T20:44:31Z'
+  pushed_at: '2026-04-05T06:29:31Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
@@ -46,51 +46,51 @@
     the VERS spec.
   stars: 11
   language: Ruby
-  pushed_at: '2026-03-19T08:46:33Z'
-- name: purl
-  url: https://github.com/andrew/purl
-  description: A Ruby library for parsing, validating, and generating Package URLs
-    (PURLs) as defined by the PURL specification
-  stars: 11
-  language: Ruby
-  pushed_at: '2026-03-24T09:24:49Z'
-- name: go-bundler
-  url: https://github.com/andrew/go-bundler
-  description: Go-style imports for Ruby
-  stars: 11
-  language: Ruby
-  pushed_at: '2025-12-25T12:38:33Z'
+  pushed_at: '2026-04-03T08:00:46Z'
 - name: sidekiq-mcp
   url: https://github.com/andrew/sidekiq-mcp
   description: A Sidekiq plugin that provides an MCP (Model Context Protocol) server
     for LLMs to interact with Sidekiq queues, stats, and failed jobs
   stars: 11
   language: Ruby
-  pushed_at: '2026-02-24T18:09:36Z'
+  pushed_at: '2026-04-03T07:26:48Z'
+- name: purl
+  url: https://github.com/andrew/purl
+  description: A Ruby library for parsing, validating, and generating Package URLs
+    (PURLs) as defined by the PURL specification
+  stars: 11
+  language: Ruby
+  pushed_at: '2026-04-03T08:00:37Z'
+- name: go-bundler
+  url: https://github.com/andrew/go-bundler
+  description: Go-style imports for Ruby
+  stars: 11
+  language: Ruby
+  pushed_at: '2025-12-25T12:38:33Z'
 - name: swhid
   url: https://github.com/andrew/swhid
   description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
   stars: 11
   language: Ruby
   pushed_at: '2026-01-14T12:35:01Z'
-- name: ruby-upgrade-action
-  url: https://github.com/andrew/ruby-upgrade-action
-  description: GitHub action to upgrade version of Ruby in various places to the latest
-  stars: 10
-  language:
-  pushed_at: '2026-03-24T07:50:15Z'
 - name: json-schema-diff
   url: https://github.com/andrew/json-schema-diff
   description: Semantic diff for JSON files using JSON Schema metadata
   stars: 10
   language: Ruby
   pushed_at: '2025-10-15T09:49:49Z'
+- name: ruby-upgrade-action
+  url: https://github.com/andrew/ruby-upgrade-action
+  description: GitHub action to upgrade version of Ruby in various places to the latest
+  stars: 10
+  language:
+  pushed_at: '2026-03-24T07:50:15Z'
 - name: hanami-sprockets
   url: https://github.com/andrew/hanami-sprockets
   description: An alternative to hanami-assets that doesn't rely on npm
   stars: 9
   language: Ruby
-  pushed_at: '2026-03-19T13:46:33Z'
+  pushed_at: '2026-04-03T07:26:36Z'
 - name: PBOM
   url: https://github.com/andrew/PBOM
   description: Paper Bill of Materials (PBOM) - Generate a paper bill of materials
@@ -98,6 +98,13 @@
   stars: 8
   language: Ruby
   pushed_at: '2026-03-19T13:46:13Z'
+- name: omni_git
+  url: https://github.com/andrew/omni_git
+  description: A PostgreSQL extension that stores git repositories in database tables
+    and serves the git smart HTTP protocol, turning Postgres into a git remote.
+  stars: 7
+  language: PLpgSQL
+  pushed_at: '2026-03-08T20:14:28Z'
 - name: typosquatting
   url: https://github.com/andrew/typosquatting
   description: Detect potential typosquatting packages across package ecosystems
@@ -117,25 +124,12 @@
   stars: 6
   language: Ruby
   pushed_at: '2025-12-23T21:08:21Z'
-- name: omni_git
-  url: https://github.com/andrew/omni_git
-  description: A PostgreSQL extension that stores git repositories in database tables
-    and serves the git smart HTTP protocol, turning Postgres into a git remote.
-  stars: 5
-  language: PLpgSQL
-  pushed_at: '2026-03-08T20:14:28Z'
 - name: gitlocal
   url: https://github.com/andrew/gitlocal
   description: A pre-commit hook for .gitlocal marked files
   stars: 3
   language: Shell
   pushed_at: '2026-03-06T09:17:43Z'
-- name: swhid-go
-  url: https://github.com/andrew/swhid-go
-  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
-  stars: 2
-  language: Go
-  pushed_at: '2026-02-26T10:30:27Z'
 - name: diffoscope
   url: https://github.com/andrew/diffoscope
   description: Ruby bindings for diffoscope - Compare packages, tarballs, files, URLs,
@@ -162,12 +156,18 @@
   stars: 2
   language: Ruby
   pushed_at: '2026-03-19T13:46:38Z'
+- name: swhid-go
+  url: https://github.com/andrew/swhid-go
+  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
+  stars: 2
+  language: Go
+  pushed_at: '2026-03-30T18:03:16Z'
 - name: sbom
   url: https://github.com/andrew/sbom
   description: Parse, generate, and validate Software Bill of Materials (SBOM)
   stars: 2
   language: Ruby
-  pushed_at: '2026-03-24T07:50:38Z'
+  pushed_at: '2026-04-02T17:28:45Z'
 - name: sarif
   url: https://github.com/andrew/sarif
   description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
