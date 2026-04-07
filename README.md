@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [The Cathedral and the Catacombs](https://nesbitt.io/2026/04/06/the-cathedral-and-the-catacombs.html)
 - [What does Open Source mean?](https://nesbitt.io/2026/04/04/what-does-open-source-mean.html)
 - [Package Manager Easter Eggs](https://nesbitt.io/2026/04/03/package-manager-easter-eggs.html)
 - [npm’s Defaults Are Bad](https://nesbitt.io/2026/03/31/npms-defaults-are-bad.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [How to Attract AI Bots to Your Open Source Project](https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html)
 - [Package Manager Mirroring](https://nesbitt.io/2026/03/20/package-manager-mirroring.html)
 - [The Fragmented World of Dependency Policy](https://nesbitt.io/2026/03/19/the-fragmented-world-of-dependency-policy.html)
-- [Git Remote Helpers](https://nesbitt.io/2026/03/18/git-remote-helpers.html)
 <!-- POSTS:END -->
