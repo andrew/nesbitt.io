@@ -1,0 +1,34 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "133cb6650eb908973227e16a236568a89cc49bf6",
+  "prompts": {
+    "3f11f6999fa939d7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9b4af719-975d-4daa-a792-b3503d2c1688",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Andrew Nesbitt",
+      "messages": [],
+      "total_additions": 46,
+      "total_deletions": 45,
+      "accepted_lines": 30,
+      "overriden_lines": 0
+    },
+    "44784090b564f688": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d132f48a-3ab9-4225-831b-4e5c73265d68",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Andrew Nesbitt",
+      "messages": [],
+      "total_additions": 115,
+      "total_deletions": 41,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
