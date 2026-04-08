@@ -51,6 +51,8 @@ MCP server descriptions, agent cards, skill descriptors, and plugin manifests sh
 
 Log every package install, version resolution, and registry query an agent makes, and diff these against expected behavior for the task. If an agent asked to fix a CSS bug runs `npm install crypto-utils`, that should page someone the same way an unexpected outbound network connection would in production. If an agent resolves a package version different from what's in the lockfile, the task should halt and wait for human approval. Traditional package security tooling already surfaces these signals but most AI coding platforms don't wire them into their agent workflows.
 
+Failed installs matter too. When an agent tries to install a package that doesn't exist, that's likely a hallucinated name, and those names are [slopsquatting](/2025/12/10/slopsquatting-meets-dependency-confusion) targets. Registries and AI coding platforms that log failed resolution attempts have an early warning system for which package names attackers should be racing to register.
+
 ### Namespace reservation for agent ecosystems
 
 MCP server registries, A2A discovery services, and skill marketplaces should implement namespace reservation and verification, the way npm has org scopes and PyPI has verified publishers. Unverified packages in agent-specific namespaces should carry visible warnings, and agents should be configurable to reject unverified sources entirely.
