@@ -17,7 +17,7 @@ There's no silver bullet for securing agent coding workflows because LLMs can't 
 
 ### Disable install scripts by default
 
-npm has `--ignore-scripts`, pip has `--no-build-isolation` discussions, but neither defaults to off. Agent platforms should ship with install scripts disabled and require explicit opt-in per package. The `postinstall` script is the single most common vector for malicious packages, and agents have no way to evaluate whether a script is legitimate. Bun already defaults to not running lifecycle scripts for installed dependencies.
+npm has `--ignore-scripts`, pip has `--only-binary :all:` to refuse sdists and force wheels, but neither defaults to off. Agent platforms should ship with install scripts disabled and require explicit opt-in per package. The `postinstall` script is the single most common vector for malicious packages, and agents have no way to evaluate whether a script is legitimate. Bun already defaults to not running lifecycle scripts for installed dependencies.
 
 ### Dependency cooldown periods
 
