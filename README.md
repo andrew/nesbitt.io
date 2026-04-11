@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Package Registries and Pagination](https://nesbitt.io/2026/04/10/package-registries-and-pagination.html)
 - [Package Security Defenses for AI Agents](https://nesbitt.io/2026/04/09/package-security-defenses-for-ai-agents.html)
 - [Package Security Problems for AI Agents](https://nesbitt.io/2026/04/08/package-security-problems-for-ai-agents.html)
 - [Who Built This?](https://nesbitt.io/2026/04/07/who-built-this.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [npm’s Defaults Are Bad](https://nesbitt.io/2026/03/31/npms-defaults-are-bad.html)
 - [Git Diff Drivers](https://nesbitt.io/2026/03/30/git-diff-drivers.html)
 - [The Roles of Packages](https://nesbitt.io/2026/03/29/the-roles-of-packages.html)
-- [The Top 10 Biggest Conspiracies in Open Source](https://nesbitt.io/2026/03/25/the-top-10-biggest-conspiracies-in-open-source.html)
 <!-- POSTS:END -->
