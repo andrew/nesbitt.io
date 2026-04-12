@@ -3,14 +3,14 @@
   url: https://github.com/andrew/ultimate-awesome
   description: Every awesome list on every topic, including awesome lists of awesome
     lists, updated daily.
-  stars: 168
+  stars: 173
   language:
-  pushed_at: '2026-04-05T00:53:08Z'
+  pushed_at: '2026-04-12T00:55:21Z'
 - name: gitgres
   url: https://github.com/andrew/gitgres
   description: Store git objects and refs in PostgreSQL tables. Standard git push/clone
     work against the database through a libgit2-based backend.
-  stars: 69
+  stars: 72
   language: C
   pushed_at: '2026-03-08T20:14:08Z'
 - name: nesbitt.io
@@ -19,13 +19,13 @@
     about package management, software supply chain security, and open source infrastructure. '
   stars: 27
   language: HTML
-  pushed_at: '2026-04-05T06:29:31Z'
+  pushed_at: '2026-04-11T06:25:43Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
   stars: 22
   language: Ruby
-  pushed_at: '2025-12-01T16:57:51Z'
+  pushed_at: '2026-04-08T19:25:04Z'
 - name: managing-dependencies
   url: https://github.com/andrew/managing-dependencies
   description: Claude Code skill for evaluating packages and managing dependencies
@@ -40,13 +40,26 @@
   stars: 11
   language: HTML
   pushed_at: '2025-10-22T13:42:10Z'
+- name: go-bundler
+  url: https://github.com/andrew/go-bundler
+  description: Go-style imports for Ruby
+  stars: 11
+  language: Ruby
+  pushed_at: '2025-12-25T12:38:33Z'
 - name: vers
   url: https://github.com/andrew/vers
   description: A Ruby gem for parsing, comparing and sorting versions according to
     the VERS spec.
   stars: 11
   language: Ruby
-  pushed_at: '2026-04-03T08:00:46Z'
+  pushed_at: '2026-04-07T10:00:06Z'
+- name: purl
+  url: https://github.com/andrew/purl
+  description: A Ruby library for parsing, validating, and generating Package URLs
+    (PURLs) as defined by the PURL specification
+  stars: 11
+  language: Ruby
+  pushed_at: '2026-04-07T09:59:32Z'
 - name: sidekiq-mcp
   url: https://github.com/andrew/sidekiq-mcp
   description: A Sidekiq plugin that provides an MCP (Model Context Protocol) server
@@ -54,19 +67,6 @@
   stars: 11
   language: Ruby
   pushed_at: '2026-04-03T07:26:48Z'
-- name: purl
-  url: https://github.com/andrew/purl
-  description: A Ruby library for parsing, validating, and generating Package URLs
-    (PURLs) as defined by the PURL specification
-  stars: 11
-  language: Ruby
-  pushed_at: '2026-04-03T08:00:37Z'
-- name: go-bundler
-  url: https://github.com/andrew/go-bundler
-  description: Go-style imports for Ruby
-  stars: 11
-  language: Ruby
-  pushed_at: '2025-12-25T12:38:33Z'
 - name: swhid
   url: https://github.com/andrew/swhid
   description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
@@ -78,7 +78,7 @@
   description: Semantic diff for JSON files using JSON Schema metadata
   stars: 10
   language: Ruby
-  pushed_at: '2025-10-15T09:49:49Z'
+  pushed_at: '2026-04-08T11:20:12Z'
 - name: ruby-upgrade-action
   url: https://github.com/andrew/ruby-upgrade-action
   description: GitHub action to upgrade version of Ruby in various places to the latest
@@ -102,7 +102,7 @@
   url: https://github.com/andrew/omni_git
   description: A PostgreSQL extension that stores git repositories in database tables
     and serves the git smart HTTP protocol, turning Postgres into a git remote.
-  stars: 7
+  stars: 8
   language: PLpgSQL
   pushed_at: '2026-03-08T20:14:28Z'
 - name: typosquatting
@@ -110,7 +110,7 @@
   description: Detect potential typosquatting packages across package ecosystems
   stars: 7
   language: Ruby
-  pushed_at: '2026-01-06T10:21:58Z'
+  pushed_at: '2026-04-08T11:28:49Z'
 - name: zizmor-research
   url: https://github.com/andrew/zizmor-research
   description: zizmor analysis of 31,916 github actions using alpha of ecosyste.ms
@@ -130,19 +130,25 @@
   stars: 3
   language: Shell
   pushed_at: '2026-03-06T09:17:43Z'
+- name: swhid-go
+  url: https://github.com/andrew/swhid-go
+  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
+  stars: 2
+  language: Go
+  pushed_at: '2026-03-30T18:03:16Z'
 - name: diffoscope
   url: https://github.com/andrew/diffoscope
   description: Ruby bindings for diffoscope - Compare packages, tarballs, files, URLs,
     or package URLs
   stars: 2
   language: Ruby
-  pushed_at: '2026-01-02T20:13:25Z'
-- name: foss-backstage
-  url: https://github.com/andrew/foss-backstage
-  description: Is InnerSource Commons good for open source?
+  pushed_at: '2026-04-08T11:19:52Z'
+- name: jekyll-stats
+  url: https://github.com/andrew/jekyll-stats
+  description: Jekyll plugin that generates site statistics
   stars: 2
   language: Ruby
-  pushed_at: '2026-03-19T13:45:44Z'
+  pushed_at: '2026-04-08T11:19:55Z'
 - name: oss-community-benchmarks
   url: https://github.com/andrew/oss-community-benchmarks
   description: A benchmark framework where maintainers define what good AI-generated
@@ -150,24 +156,25 @@
   stars: 2
   language:
   pushed_at: '2025-11-26T18:50:44Z'
-- name: jekyll-stats
-  url: https://github.com/andrew/jekyll-stats
-  description: Jekyll plugin that generates site statistics
+- name: foss-backstage
+  url: https://github.com/andrew/foss-backstage
+  description: Is InnerSource Commons good for open source?
   stars: 2
   language: Ruby
-  pushed_at: '2026-03-19T13:46:38Z'
-- name: swhid-go
-  url: https://github.com/andrew/swhid-go
-  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
-  stars: 2
-  language: Go
-  pushed_at: '2026-03-30T18:03:16Z'
+  pushed_at: '2026-04-08T11:20:07Z'
 - name: sbom
   url: https://github.com/andrew/sbom
   description: Parse, generate, and validate Software Bill of Materials (SBOM)
   stars: 2
   language: Ruby
-  pushed_at: '2026-04-02T17:28:45Z'
+  pushed_at: '2026-04-08T11:20:20Z'
+- name: gitlab-faraday
+  url: https://github.com/andrew/gitlab-faraday
+  description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
+    updated to use Faraday
+  stars: 1
+  language: Ruby
+  pushed_at: '2026-03-19T13:46:21Z'
 - name: sarif
   url: https://github.com/andrew/sarif
   description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
@@ -192,10 +199,3 @@
   stars: 1
   language:
   pushed_at: '2025-12-21T20:26:20Z'
-- name: gitlab-faraday
-  url: https://github.com/andrew/gitlab-faraday
-  description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
-    updated to use Faraday
-  stars: 1
-  language: Ruby
-  pushed_at: '2026-03-19T13:46:21Z'
