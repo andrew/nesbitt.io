@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-16T08:42:24Z",
-  "total_posts": 124,
-  "total_words": 176536,
-  "reading_minutes": 883,
-  "average_words": 1424,
+  "generated_at": "2026-04-21T19:40:03Z",
+  "total_posts": 126,
+  "total_words": 178478,
+  "reading_minutes": 893,
+  "average_words": 1416,
   "longest_post": {
     "title": "Package Management Papers",
     "url": "/2025/11/13/package-management-papers.html",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "The Tuesday Test",
-    "url": "/2026/04/15/the-tuesday-test.html",
-    "date": "2026-04-15"
+    "title": "brief",
+    "url": "/2026/04/21/brief.html",
+    "date": "2026-04-21"
   },
-  "years_active": 9.1,
+  "years_active": 9.2,
   "posts_per_month": 1.1,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 84
+      "count": 86
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-04",
-      "count": 10
+      "count": 12
     },
     {
       "month": "2026-03",
@@ -101,20 +101,20 @@
   "posts_by_day_of_week": {
     "sunday": 16,
     "monday": 19,
-    "tuesday": 16,
+    "tuesday": 17,
     "wednesday": 18,
-    "thursday": 19,
+    "thursday": 20,
     "friday": 20,
     "saturday": 16
   },
   "tags": [
     {
       "name": "package-managers",
-      "count": 91
+      "count": 92
     },
     {
       "name": "open-source",
-      "count": 28
+      "count": 29
     },
     {
       "name": "reference",
@@ -125,12 +125,12 @@
       "count": 23
     },
     {
-      "name": "git",
+      "name": "security",
       "count": 17
     },
     {
-      "name": "security",
-      "count": 16
+      "name": "git",
+      "count": 17
     },
     {
       "name": "satire",
@@ -138,7 +138,7 @@
     },
     {
       "name": "tools",
-      "count": 13
+      "count": 14
     },
     {
       "name": "dependencies",
@@ -149,19 +149,23 @@
       "count": 12
     },
     {
+      "name": "ai",
+      "count": 8
+    },
+    {
       "name": "github",
       "count": 7
     },
     {
-      "name": "ai",
-      "count": 7
+      "name": "git-pkgs",
+      "count": 6
     },
     {
       "name": "supply-chain",
       "count": 5
     },
     {
-      "name": "git-pkgs",
+      "name": "npm",
       "count": 5
     },
     {
@@ -186,10 +190,6 @@
     },
     {
       "name": "go",
-      "count": 4
-    },
-    {
-      "name": "npm",
       "count": 4
     },
     {
@@ -221,15 +221,7 @@
       "count": 2
     },
     {
-      "name": "semver",
-      "count": 2
-    },
-    {
-      "name": "podcasts",
-      "count": 2
-    },
-    {
-      "name": "research",
+      "name": "versioning",
       "count": 2
     },
     {
@@ -237,51 +229,19 @@
       "count": 2
     },
     {
-      "name": "versioning",
+      "name": "research",
       "count": 2
     },
     {
-      "name": "writing",
-      "count": 1
+      "name": "podcasts",
+      "count": 2
     },
     {
-      "name": "governance",
-      "count": 1
+      "name": "semver",
+      "count": 2
     },
     {
-      "name": "testing",
-      "count": 1
-    },
-    {
-      "name": "github-actions",
-      "count": 1
-    },
-    {
-      "name": "policy",
-      "count": 1
-    },
-    {
-      "name": "registries",
-      "count": 1
-    },
-    {
-      "name": "fediverse",
-      "count": 1
-    },
-    {
-      "name": "activitypub",
-      "count": 1
-    },
-    {
-      "name": "oci",
-      "count": 1
-    },
-    {
-      "name": "consulting",
-      "count": 1
-    },
-    {
-      "name": "debian",
+      "name": "infrastructure",
       "count": 1
     },
     {
@@ -289,7 +249,51 @@
       "count": 1
     },
     {
-      "name": "infrastructure",
+      "name": "debian",
+      "count": 1
+    },
+    {
+      "name": "consulting",
+      "count": 1
+    },
+    {
+      "name": "oci",
+      "count": 1
+    },
+    {
+      "name": "activitypub",
+      "count": 1
+    },
+    {
+      "name": "fediverse",
+      "count": 1
+    },
+    {
+      "name": "sustainability",
+      "count": 1
+    },
+    {
+      "name": "policy",
+      "count": 1
+    },
+    {
+      "name": "testing",
+      "count": 1
+    },
+    {
+      "name": "governance",
+      "count": 1
+    },
+    {
+      "name": "writing",
+      "count": 1
+    },
+    {
+      "name": "github-actions",
+      "count": 1
+    },
+    {
+      "name": "registries",
       "count": 1
     },
     {
@@ -305,11 +309,7 @@
       "count": 1
     },
     {
-      "name": "sustainability",
-      "count": 1
-    },
-    {
-      "name": "software development",
+      "name": "benchmarks",
       "count": 1
     },
     {
@@ -317,7 +317,7 @@
       "count": 1
     },
     {
-      "name": "benchmarks",
+      "name": "maintainers",
       "count": 1
     },
     {
@@ -326,10 +326,6 @@
     },
     {
       "name": "jekyll",
-      "count": 1
-    },
-    {
-      "name": "maintainers",
       "count": 1
     },
     {
@@ -346,6 +342,10 @@
     },
     {
       "name": "christmas",
+      "count": 1
+    },
+    {
+      "name": "software development",
       "count": 1
     },
     {
