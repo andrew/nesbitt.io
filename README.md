@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [brief](https://nesbitt.io/2026/04/21/brief.html)
 - [Features everyone should steal from npmx](https://nesbitt.io/2026/04/16/features-everyone-should-steal-from-npmx.html)
 - [The Tuesday Test](https://nesbitt.io/2026/04/15/the-tuesday-test.html)
 - [Standing on the shoulders of Homebrew](https://nesbitt.io/2026/04/14/standing-on-the-shoulders-of-homebrew.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Package Security Problems for AI Agents](https://nesbitt.io/2026/04/08/package-security-problems-for-ai-agents.html)
 - [Who Built This?](https://nesbitt.io/2026/04/07/who-built-this.html)
 - [The Cathedral and the Catacombs](https://nesbitt.io/2026/04/06/the-cathedral-and-the-catacombs.html)
-- [What does Open Source mean?](https://nesbitt.io/2026/04/04/what-does-open-source-mean.html)
 <!-- POSTS:END -->
