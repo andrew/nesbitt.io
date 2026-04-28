@@ -1,0 +1,274 @@
+---
+layout: null
+sitemap: false
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CWE map</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: #0d1117;
+    color: #c9d1d9;
+  }
+  #wrap { display: flex; height: 100%; overflow: hidden; }
+  #chart { flex: 1; min-width: 0; cursor: pointer; touch-action: manipulation; }
+  #side {
+    width: 360px;
+    flex: none;
+    padding: 16px 20px;
+    overflow-y: auto;
+    border-left: 1px solid #30363d;
+    background: #161b22;
+  }
+  @media (max-width: 900px) {
+    #wrap { flex-direction: column; height: auto; overflow: visible; }
+    #chart { width: 100%; height: 100vw; max-height: 90vh; flex: none; }
+    #side { width: auto; border-left: none; border-top: 1px solid #30363d; }
+  }
+  #side h1 { font-size: 18px; margin: 0 0 4px; color: #e6edf3; }
+  #side .meta { color: #8b949e; font-size: 12px; margin-bottom: 16px; }
+  #side h2 { font-size: 15px; margin: 0 0 2px; color: #e6edf3; }
+  #side .id { color: #58a6ff; font-size: 12px; }
+  #side .id a { color: inherit; text-decoration: none; }
+  #side .id a:hover { text-decoration: underline; }
+  #side .count { color: #8b949e; font-size: 12px; margin: 4px 0 10px; }
+  #side .desc { font-size: 13px; color: #c9d1d9; }
+  #side .hint { color: #8b949e; font-size: 12px; margin-top: 16px; }
+  #top div { cursor: pointer; padding: 1px 0; }
+  #top div:hover { color: #e6edf3; }
+  circle.hl { stroke: #fff !important; stroke-width: 3px; }
+  #crumbs { font-size: 12px; color: #8b949e; margin-bottom: 12px; }
+  #crumbs span { cursor: pointer; color: #58a6ff; }
+  #crumbs span:hover { text-decoration: underline; }
+  #legend { font-size: 11px; color: #8b949e; margin: 0 0 16px; }
+  #legend div { display: flex; align-items: center; gap: 6px; margin: 2px 0; cursor: pointer; padding: 1px 0; }
+  #legend div:hover { color: #e6edf3; }
+  #legend div.dim { opacity: 0.35; }
+  #legend i { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+  circle { stroke-width: 1px; }
+  circle:hover { stroke: #e6edf3 !important; stroke-width: 2px; }
+  text { pointer-events: none; fill: #e6edf3; }
+  text.cat {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    paint-order: stroke;
+    stroke: rgba(0,0,0,0.7);
+    stroke-width: 3px;
+    stroke-linejoin: round;
+  }
+  text.leaf {
+    font: 600 10px sans-serif;
+    text-anchor: middle;
+    fill: #111;
+    paint-order: stroke;
+    stroke: rgba(255,255,255,0.85);
+    stroke-width: 2.5px;
+    stroke-linejoin: round;
+  }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <svg id="chart"></svg>
+  <div id="side">
+    <h1>CWE map</h1>
+    <div class="meta" id="meta"></div>
+    <div id="legend"></div>
+    <div id="crumbs"></div>
+    <div id="info">
+      <div class="desc">Circle size is the number of CVE records that reference each weakness. Click a category to zoom in, click the background to zoom out, hover for details.</div>
+    </div>
+    <div class="hint" id="top"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script>
+fetch("cwe_data.json").then(r => r.json()).then(data => {
+  const fmt = d3.format(",");
+  document.getElementById("meta").textContent =
+    `CWE ${data.cwe_version} · ${fmt(data.cve_files)} CVEs · ${fmt(data.total_refs)} CWE refs`;
+
+  const topHtml = data.top.slice(0, 10).map(t =>
+    `<div data-id="${t.id}">${t.id} · ${fmt(t.count)} · ${t.name}</div>`).join("");
+  document.getElementById("top").innerHTML = `<strong>Most referenced</strong>${topHtml}`;
+
+  const size = 1000;
+  const svg = d3.select("#chart")
+    .attr("viewBox", `${-size/2} ${-size/2} ${size} ${size}`)
+    .attr("preserveAspectRatio", "xMidYMid meet");
+
+  const root = d3.hierarchy(data.tree)
+    .sum(d => d.value || 0)
+    .sort((a, b) => b.value - a.value);
+
+  d3.pack().size([size - 4, size - 4]).padding(3)(root);
+
+  const absOrder = ["Pillar", "Class", "Base", "Variant", "Compound"];
+  const absColor = d3.scaleOrdinal()
+    .domain(absOrder)
+    .range(["#d73027", "#fc8d59", "#91cf60", "#1a9850", "#4575b4"]);
+
+  document.getElementById("legend").innerHTML = absOrder
+    .map(a => `<div data-abs="${a}"><i style="background:${absColor(a)}"></i>${a}</div>`).join("");
+
+  let absFilter = null;
+  let focus = root;
+  let view;
+
+  const defs = svg.append("defs");
+  const arcPath = defs.selectAll("path")
+    .data(root.children)
+    .join("path")
+      .attr("id", (d, i) => `arc-${i}`);
+
+  const g = svg.append("g");
+
+  function leafFill(d) {
+    if (absFilter && d.data.abstraction !== absFilter) return "#2a2f36";
+    return absColor(d.data.abstraction) || "#666";
+  }
+
+  const node = g.selectAll("circle")
+    .data(root.descendants().slice(1))
+    .join("circle")
+      .attr("fill", d => d.depth === 1 ? "rgba(100,100,100,0.15)" : leafFill(d))
+      .attr("stroke", d => d.depth === 1 ? "#555" : "none")
+      .on("mouseover", (e, d) => showInfo(d))
+      .on("click", (e, d) => {
+        const target = d.children ? d : d.parent;
+        if (focus !== target) { zoom(e, target); e.stopPropagation(); }
+      });
+
+  const catLabel = g.selectAll("text.cat")
+    .data(root.children)
+    .join("text")
+      .attr("class", "cat")
+    .append("textPath")
+      .attr("href", (d, i) => `#arc-${i}`)
+      .attr("startOffset", "50%")
+      .attr("text-anchor", "middle")
+      .text(d => d.data.name);
+
+  const leafLabel = g.selectAll("text.leaf")
+    .data(root.leaves())
+    .join("text")
+      .attr("class", "leaf")
+      .attr("dy", "0.35em")
+      .text(d => d.data.id);
+
+  svg.on("click", e => zoom(e, root));
+
+  function setFilter(abs) {
+    absFilter = abs;
+    node.filter(d => d.depth > 1).attr("fill", leafFill);
+    leafLabel.style("visibility", d =>
+      absFilter && d.data.abstraction !== absFilter ? "hidden" : null);
+    document.querySelectorAll("#legend div[data-abs]").forEach(el =>
+      el.classList.toggle("dim", absFilter && el.dataset.abs !== absFilter));
+  }
+
+  document.querySelectorAll("#legend div[data-abs]").forEach(el => {
+    el.addEventListener("click", e => {
+      setFilter(absFilter === el.dataset.abs ? null : el.dataset.abs);
+      e.stopPropagation();
+    });
+  });
+
+  const byId = new Map(root.descendants().map(d => [d.data.id, d]));
+
+  function focusOn(id) {
+    const d = byId.get(id);
+    if (!d) return;
+    node.classed("hl", n => n === d);
+    showInfo(d);
+    zoom(null, d.children ? d : d.parent);
+  }
+
+  document.querySelectorAll("#top div[data-id]").forEach(el => {
+    el.addEventListener("click", e => { focusOn(el.dataset.id); e.stopPropagation(); });
+  });
+
+  zoomTo([root.x, root.y, root.r * 2]);
+
+  function zoomTo(v) {
+    view = v;
+    const k = size / v[2];
+    const tx = d => (d.x - v[0]) * k;
+    const ty = d => (d.y - v[1]) * k;
+
+    node.attr("transform", d => `translate(${tx(d)},${ty(d)})`)
+        .attr("r", d => d.r * k);
+
+    arcPath.attr("d", d => {
+      const r = d.r * k - 6;
+      const cx = tx(d), cy = ty(d);
+      return `M ${cx - r} ${cy} A ${r} ${r} 0 1 1 ${cx + r} ${cy}`;
+    });
+    catLabel.each(function(d) {
+      const r = d.r * k;
+      const parent = this.parentNode;
+      const arcLen = Math.PI * (r - 6);
+      const fs = arcLen / (d.data.name.length * 0.6);
+      if (r < 25 || fs < 10) { parent.style.display = "none"; return; }
+      parent.style.display = null;
+      parent.style.fontSize = Math.min(16, fs) + "px";
+    });
+
+    leafLabel
+      .attr("transform", d => `translate(${tx(d)},${ty(d)})`)
+      .style("display", d => d.r * k > 22 ? null : "none");
+  }
+
+  function zoom(event, d) {
+    focus = d;
+    updateCrumbs();
+    svg.transition().duration(600).tween("zoom", () => {
+      const i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + 10]);
+      return t => zoomTo(i(t));
+    });
+  }
+
+  function showInfo(d) {
+    const info = document.getElementById("info");
+    const id = d.data.id;
+    const num = id.replace("CWE-", "");
+    const link = `https://cwe.mitre.org/data/definitions/${num}.html`;
+    let html = `<div class="id"><a href="${link}" target="_blank">${id}</a></div>`;
+    html += `<h2>${d.data.name}</h2>`;
+    if (d.children) {
+      const total = d3.sum(d.leaves(), l => l.data.count);
+      html += `<div class="count">${d.children.length} weaknesses · ${fmt(total)} CVE refs</div>`;
+      if (d.data.summary) html += `<div class="desc">${escapeHtml(d.data.summary)}</div>`;
+    } else {
+      html += `<div class="count">${fmt(d.data.count)} CVE refs · ${d.data.abstraction || ""}</div>`;
+      if (d.data.description) html += `<div class="desc">${escapeHtml(d.data.description)}</div>`;
+    }
+    info.innerHTML = html;
+  }
+
+  function updateCrumbs() {
+    const el = document.getElementById("crumbs");
+    const chain = focus.ancestors().reverse();
+    el.innerHTML = chain.map((d, i) =>
+      i === chain.length - 1 ? d.data.name : `<span data-i="${i}">${d.data.name}</span>`
+    ).join(" / ");
+    el.querySelectorAll("span").forEach(s =>
+      s.onclick = e => { zoom(e, chain[+s.dataset.i]); e.stopPropagation(); });
+  }
+
+  function escapeHtml(s) {
+    return s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+  }
+
+  updateCrumbs();
+});
+</script>
+</body>
+</html>
