@@ -46,6 +46,10 @@ sitemap: false
   #crumbs { font-size: 12px; color: #8b949e; margin-bottom: 12px; }
   #crumbs span { cursor: pointer; color: #58a6ff; }
   #crumbs span:hover { text-decoration: underline; }
+  #labelmode { font-size: 12px; margin: 0 0 12px; }
+  #labelmode a { color: #8b949e; cursor: pointer; text-decoration: none; }
+  #labelmode a.on { color: #58a6ff; }
+  #labelmode a:hover { text-decoration: underline; }
   #legend { font-size: 11px; color: #8b949e; margin: 0 0 16px; }
   #legend div { display: flex; align-items: center; gap: 6px; margin: 2px 0; cursor: pointer; padding: 1px 0; }
   #legend div:hover { color: #e6edf3; }
@@ -79,6 +83,10 @@ sitemap: false
   <div id="side">
     <h1>CWE map</h1>
     <div class="meta" id="meta"></div>
+    <div id="labelmode">
+      <a data-mode="cwe" class="on">CWE IDs</a> ·
+      <a data-mode="dewey">Dewey-style</a>
+    </div>
     <div id="legend"></div>
     <div id="crumbs"></div>
     <div id="info">
@@ -110,6 +118,12 @@ fetch("cwe_data.json").then(r => r.json()).then(data => {
 
   d3.pack().size([size - 4, size - 4]).padding(3)(root);
 
+  root.children.forEach((cat, ci) => {
+    cat.dewey = String(ci + 1);
+    cat.children.forEach((leaf, li) => leaf.dewey = `${ci + 1}.${li + 1}`);
+  });
+
+  let labelMode = "cwe";
   const absOrder = ["Pillar", "Class", "Base", "Variant", "Compound"];
   const absColor = d3.scaleOrdinal()
     .domain(absOrder)
@@ -146,6 +160,9 @@ fetch("cwe_data.json").then(r => r.json()).then(data => {
         if (focus !== target) { zoom(e, target); e.stopPropagation(); }
       });
 
+  const catText = d => labelMode === "dewey" ? `${d.dewey} · ${d.data.name}` : d.data.name;
+  const leafText = d => labelMode === "dewey" ? d.dewey : d.data.id;
+
   const catLabel = g.selectAll("text.cat")
     .data(root.children)
     .join("text")
@@ -154,14 +171,26 @@ fetch("cwe_data.json").then(r => r.json()).then(data => {
       .attr("href", (d, i) => `#arc-${i}`)
       .attr("startOffset", "50%")
       .attr("text-anchor", "middle")
-      .text(d => d.data.name);
+      .text(catText);
 
   const leafLabel = g.selectAll("text.leaf")
     .data(root.leaves())
     .join("text")
       .attr("class", "leaf")
       .attr("dy", "0.35em")
-      .text(d => d.data.id);
+      .text(leafText);
+
+  document.querySelectorAll("#labelmode a").forEach(a => {
+    a.addEventListener("click", e => {
+      labelMode = a.dataset.mode;
+      document.querySelectorAll("#labelmode a").forEach(x =>
+        x.classList.toggle("on", x === a));
+      catLabel.text(catText);
+      leafLabel.text(leafText);
+      zoomTo(view);
+      e.preventDefault();
+    });
+  });
 
   svg.on("click", e => zoom(e, root));
 
@@ -215,7 +244,7 @@ fetch("cwe_data.json").then(r => r.json()).then(data => {
       const r = d.r * k;
       const parent = this.parentNode;
       const arcLen = Math.PI * (r - 6);
-      const fs = arcLen / (d.data.name.length * 0.6);
+      const fs = arcLen / (catText(d).length * 0.6);
       if (r < 25 || fs < 10) { parent.style.display = "none"; return; }
       parent.style.display = null;
       parent.style.fontSize = Math.min(16, fs) + "px";
@@ -240,7 +269,8 @@ fetch("cwe_data.json").then(r => r.json()).then(data => {
     const id = d.data.id;
     const num = id.replace("CWE-", "");
     const link = `https://cwe.mitre.org/data/definitions/${num}.html`;
-    let html = `<div class="id"><a href="${link}" target="_blank">${id}</a></div>`;
+    const dew = d.dewey ? ` · <span title="synthetic Dewey-style code">${d.dewey}</span>` : "";
+    let html = `<div class="id"><a href="${link}" target="_blank">${id}</a>${dew}</div>`;
     html += `<h2>${d.data.name}</h2>`;
     if (d.children) {
       const total = d3.sum(d.leaves(), l => l.data.count);
