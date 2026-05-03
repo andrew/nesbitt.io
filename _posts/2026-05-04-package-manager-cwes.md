@@ -50,9 +50,9 @@ If you have a verification step, write the test where the signature is absent, m
 
 CWE-522 (insufficiently protected credentials). An auth token scoped to one registry gets sent to another, usually via a redirect, a mirror, or a dependency hosted somewhere else. [CVE-2016-3956](https://github.com/advisories/GHSA-m5h6-hr3q-22h5) sent the bearer token with every request regardless of host. [CVE-2019-15052](https://github.com/gradle/gradle/security/advisories/GHSA-4cwg-f7qc-6r95) followed a redirect and re-sent credentials to the new host. [CVE-2021-32690](https://github.com/helm/helm/security/advisories/GHSA-56hp-xqp3-w2jf) sent repository credentials to whatever domain a chart's dependencies pointed at. [CVE-2021-22568](https://github.com/dart-lang/sdk/security/advisories/GHSA-r32f-vhjp-qhj7) sent the official-registry OAuth token to any third-party server you published to.
 
-The other half of this category is credentials ending up in logs or published artefacts: passwords embedded in URLs written to the build log ([CVE-2020-15095](https://github.com/advisories/GHSA-93f3-23rq-pjfp)), signing passphrases at debug level ([CVE-2020-13165](https://github.com/gradle/gradle/security/advisories/GHSA-ww7h-4fx5-8c2j)), workspace ignore files not honoured so secrets get packed into the published tarball ([CVE-2022-29244](https://github.com/advisories/GHSA-hj9c-8jmm-8c52)).
+The other half of this category is credentials ending up in logs or published artifacts: passwords embedded in URLs written to the build log ([CVE-2020-15095](https://github.com/advisories/GHSA-93f3-23rq-pjfp)), signing passphrases at debug level ([CVE-2020-13165](https://github.com/gradle/gradle/security/advisories/GHSA-ww7h-4fx5-8c2j)), workspace ignore files not honoured so secrets get packed into the published tarball ([CVE-2022-29244](https://github.com/advisories/GHSA-hj9c-8jmm-8c52)).
 
-Credentials should be bound to an origin and stripped on cross-origin redirect, same as a browser would. And anything that builds a publishable artefact needs a test that `.env` doesn't end up inside it.
+Credentials should be bound to an origin and stripped on cross-origin redirect, same as a browser would. And anything that builds a publishable artifact needs a test that `.env` doesn't end up inside it.
 
 ### Picking the wrong source
 
