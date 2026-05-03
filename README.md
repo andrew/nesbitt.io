@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [A GitHub for maintainers](https://nesbitt.io/2026/05/02/a-github-for-maintainers.html)
 - [Patching and forking in package managers](https://nesbitt.io/2026/05/01/patching-and-forking-in-package-managers.html)
 - [Announcing the 2026 Open Source Fantasy Draft](https://nesbitt.io/2026/04/30/open-source-fantasy-draft.html)
 - [GitHub Actions is the weakest link](https://nesbitt.io/2026/04/28/github-actions-is-the-weakest-link.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [The Tuesday Test](https://nesbitt.io/2026/04/15/the-tuesday-test.html)
 - [Standing on the shoulders of Homebrew](https://nesbitt.io/2026/04/14/standing-on-the-shoulders-of-homebrew.html)
 - [Common Package Specification](https://nesbitt.io/2026/04/13/common-package-specification.html)
-- [Package Registries and Pagination](https://nesbitt.io/2026/04/10/package-registries-and-pagination.html)
 <!-- POSTS:END -->
