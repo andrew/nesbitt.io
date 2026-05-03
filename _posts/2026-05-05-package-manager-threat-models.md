@@ -2,7 +2,7 @@
 layout: post
 title: "Package Manager Threat Models"
 date: 2026-05-05 10:00 +0000
-description: "Design-level questions for reviewing package managers"
+description: "The non-CVE half of package manager security"
 tags:
   - package-managers
   - security
