@@ -66,6 +66,8 @@ The xz incident is the reference case: nothing was hacked, a new maintainer was 
 
 Establish how a maintainer is added to a package (invite, request, automatic via org membership), whether existing users get any signal when the set changes, whether a newly added maintainer can publish immediately or there's a delay, and whether there's any concept of role (publish vs admin vs read). Most registries treat all maintainers as equivalent and notify nobody when one is added; write that down too.
 
+The set can also shift without the registry recording anything, because on most registries a maintainer's identity is, at bottom, control of an email address. Password reset goes to whatever address is on file, and if that address is at a domain that has since lapsed, registering the domain is enough to take the account. Work out what account recovery rests on: a single address, a second factor, a hardware key; whether that address is ever re-verified; and whether a long-dormant account can ship a new release with nothing more than a reset link.
+
 ### Immutability of published versions
 
 Once `foo 1.2.3` is published, the bytes should never change. On most modern registries that holds, though the path there went through left-pad and the edges are still worth checking.
@@ -82,7 +84,7 @@ This is changing. [Trusted publishing](https://docs.pypi.org/trusted-publishers/
 
 The publish token is the thing attackers exfiltrate from CI logs, phish from maintainers, and find in old commits, so its shape matters more than almost anything else on the registry side. The previous post covered tokens whose scope enforcement is buggy; here it's what scopes exist in the first place.
 
-Map out the dimensions: scope (one package, or everything the owner can publish), capability (publish-only, or also add maintainers and change settings), expiry (mandatory, optional, none), and whether the 2FA-on-publish requirement comes with an automation-token bypass and how narrow that bypass can be made. On a registry where the only credential is a session-equivalent API key with no expiry, one leaked CI variable is the whole account, forever. On one with short-lived OIDC-exchanged tokens scoped to one package, it's a single bad release.
+Map out the dimensions: scope (one package, or everything the owner can publish), capability (publish-only, or also add maintainers and change settings), expiry (mandatory, optional, none), and whether the 2FA-on-publish requirement comes with an automation-token bypass and how narrow that bypass can be made. Then what happens to a leaked one: whether the token has a recognisable prefix and the registry is enrolled with the secret scanners that would auto-revoke it, or whether it's an unmarked string that sits in a public commit until used. On a registry where the only credential is a session-equivalent API key with no expiry, one leaked CI variable is the whole account, forever. On one with short-lived OIDC-exchanged tokens scoped to one package, it's a single bad release.
 
 ### Blast radius and detection
 
@@ -98,4 +100,4 @@ So the questions above apply to the tool's own manifests. How the client's and r
 
 ---
 
-A project that answers all of these in writing has something close to a published threat model. A few already do: npm's [threats and mitigations](https://docs.npmjs.com/threats-and-mitigations) page covers most of this list from the maintainer's side. The CVE catalogue in the previous post will keep growing as bugs are found and fixed. This list mostly won't, which is the argument for writing the answers down somewhere users can read them instead of leaving them implicit in the source.
+A project that answers all of these in writing has something close to a published threat model. A few already do: npm's [threats and mitigations](https://docs.npmjs.com/threats-and-mitigations) page covers most of this list from the maintainer's side, and the OpenSSF's [Principles for Package Repository Security](https://repos.openssf.org/principles-for-package-repository-security) covers the registry half as a maturity model for operators. The CVE catalogue in the previous post will keep growing as bugs are found and fixed. This list mostly won't, which is the argument for writing the answers down somewhere users can read them instead of leaving them implicit in the source.
