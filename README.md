@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Package Manager CWEs](https://nesbitt.io/2026/05/04/package-manager-cwes.html)
 - [A GitHub for maintainers](https://nesbitt.io/2026/05/02/a-github-for-maintainers.html)
 - [Patching and forking in package managers](https://nesbitt.io/2026/05/01/patching-and-forking-in-package-managers.html)
 - [Announcing the 2026 Open Source Fantasy Draft](https://nesbitt.io/2026/04/30/open-source-fantasy-draft.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Features everyone should steal from npmx](https://nesbitt.io/2026/04/16/features-everyone-should-steal-from-npmx.html)
 - [The Tuesday Test](https://nesbitt.io/2026/04/15/the-tuesday-test.html)
 - [Standing on the shoulders of Homebrew](https://nesbitt.io/2026/04/14/standing-on-the-shoulders-of-homebrew.html)
-- [Common Package Specification](https://nesbitt.io/2026/04/13/common-package-specification.html)
 <!-- POSTS:END -->
