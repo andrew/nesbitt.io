@@ -34,7 +34,16 @@ description: Articles about package management, software supply chain security, 
       </a>
     </h4>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    <p class="post-meta">{{ post.date | date: date_format }}</p>
+    <p class="post-meta">
+      {{ post.date | date: date_format }}
+      {%- if post.tags.size > 0 -%}
+      <span class="post-tags">
+        {%- for tag in post.tags -%}
+        <a href="/search#{{ tag | url_encode }}" class="post-tag">{{ tag }}</a>
+        {%- endfor -%}
+      </span>
+      {%- endif -%}
+    </p>
     {%- if post.description -%}
     <p class="post-description">{{ post.description }}</p>
     {%- endif -%}
