@@ -341,6 +341,41 @@ h3:first-of-type{
   margin-top: 20px;
 }
 
+.posts-sidebar ul{
+  padding-left: 1.2em;
+  margin-top: 0;
+}
+
+.posts-sidebar > ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+.posts-sidebar li{
+  font-size: 14px;
+}
+
+@media (min-width: 768px){
+  .posts-layout{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .posts-main{
+    flex: 1;
+    min-width: 0;
+  }
+  .posts-sidebar{
+    flex: 0 0 180px;
+    position: sticky;
+    top: 20px;
+  }
+  .posts-main h3:first-of-type,
+  .posts-sidebar h3{
+    margin-top: 20px;
+  }
+}
+
 section li p{
   font-size: 14px;
   color: var(--color-secondary);

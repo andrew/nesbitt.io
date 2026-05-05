@@ -5,24 +5,11 @@ permalink: /posts/
 description: Articles about package management, software supply chain security, and open source infrastructure.
 ---
 
-<h3 id="archives">Archives</h3>
-
 {%- assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
-<ul>
-{%- for year in posts_by_year -%}
-  <li>
-    <a href="/{{ year.name }}/">{{ year.name }}</a>
-    {%- assign months_in_year = year.items | group_by_exp: "post", "post.date | date: '%m'" -%}
-    <ul>
-    {%- for month in months_in_year -%}
-      {%- assign month_name = month.items.first.date | date: "%B" -%}
-      <li><a href="/{{ year.name }}/{{ month.name }}/">{{ month_name }}</a> ({{ month.size }})</li>
-    {%- endfor -%}
-    </ul>
-  </li>
-{%- endfor -%}
-</ul>
 
+<div class="posts-layout">
+
+<div class="posts-main">
 {%- for year in posts_by_year -%}
 <h3><a href="/{{ year.name }}/">{{ year.name }}</a></h3>
 <section class="posts">
@@ -51,3 +38,24 @@ description: Articles about package management, software supply chain security, 
   {%- endfor -%}
 </section>
 {%- endfor -%}
+</div>
+
+<aside class="posts-sidebar">
+<h3 id="archives">Archives</h3>
+<ul>
+{%- for year in posts_by_year -%}
+  <li>
+    <a href="/{{ year.name }}/">{{ year.name }}</a>
+    {%- assign months_in_year = year.items | group_by_exp: "post", "post.date | date: '%m'" -%}
+    <ul>
+    {%- for month in months_in_year -%}
+      {%- assign month_name = month.items.first.date | date: "%B" -%}
+      <li><a href="/{{ year.name }}/{{ month.name }}/">{{ month_name }}</a> ({{ month.size }})</li>
+    {%- endfor -%}
+    </ul>
+  </li>
+{%- endfor -%}
+</ul>
+</aside>
+
+</div>
