@@ -4,7 +4,6 @@ title: "Madame Semver Will See You Now"
 date: 2026-05-10 10:00 +0000
 description: "The cards do not lie."
 tags:
-  - open-source
   - package-managers
   - satire
 ---

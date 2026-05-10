@@ -5,6 +5,10 @@ date: 2026-02-14
 description: "Comparing namespace models across npm, Maven, Go, Swift, and crates.io."
 tags:
   - package-managers
+  - registries
+  - npm
+  - go
+  - deep-dive
 ---
 
 Every package needs a name. The rules for how those names work is one of the most consequential decisions a package manager makes, and one of the hardest to change later. I [categorized the approaches](/2025/12/29/categorizing-package-registries.html) previously and touched on the [tradeoffs](/2025/12/05/package-manager-tradeoffs.html) briefly.

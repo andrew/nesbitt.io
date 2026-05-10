@@ -5,6 +5,9 @@ date: 2026-04-13 10:00 +0000
 description: "Not the cross-ecosystem format the name suggests."
 tags:
   - package-managers
+  - metadata
+  - sbom
+  - deep-dive
 ---
 
 The [Common Package Specification](https://cps-org.github.io/cps/) went stable in CMake 4.3 last year and the name caught my attention because it sounds like it might be addressing the cross-ecosystem dependency problem I've [written about before](/2026/01/27/the-c-shaped-hole-in-package-management.html). Reading the spec, the "common" turns out to mean common across build systems rather than common across language ecosystems: it's a JSON format that CMake and Meson and autotools can all read to find out where an installed library lives and how to link against it, replacing the mix of `.pc` files and `*Config.cmake` scripts that currently fill that role.

@@ -5,7 +5,6 @@ date: 2026-03-15 10:00:00
 description: "A practice for finding peace in your dependency tree."
 tags:
   - package-managers
-  - open-source
   - satire
 ---
 

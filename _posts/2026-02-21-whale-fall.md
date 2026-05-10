@@ -5,7 +5,7 @@ date: 2026-02-21
 description: "What happens when a large open source project dies."
 tags:
   - open-source
-  - ecosystems
+  - ecosyste.ms
 ---
 
 When a whale dies in the open ocean, its carcass sinks to the abyssal floor and becomes an ecosystem. Marine biologists call this a [whale fall](https://en.wikipedia.org/wiki/Whale_fall), and the body sustains life in three overlapping stages: mobile scavengers strip the soft tissue over months, enrichment opportunists colonise the bones and surrounding sediment for years, and chemosynthetic bacteria feed on the skeleton itself for decades, converting the lipids stored in bone into energy that supports entire communities of specialised organisms. A single whale fall can sustain life on an otherwise barren ocean floor for fifty years.

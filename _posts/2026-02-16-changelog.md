@@ -5,7 +5,6 @@ date: 2026-02-16
 description: "All notable changes to the math module will be documented in this file."
 tags:
   - package-managers
-  - open-source
   - ai
   - satire
 ---

@@ -6,7 +6,7 @@ description: "A survey of dependency cooldown support across package managers an
 tags:
   - package-managers
   - security
-  - ecosystems
+  - ecosyste.ms
   - deep-dive
 ---
 

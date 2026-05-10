@@ -6,7 +6,7 @@ description: "Most library maintainers have no way to test against their depende
 tags:
   - package-managers
   - testing
-  - ecosystems
+  - ecosyste.ms
 ---
 
 The information about how a library is actually used lives in the dependents' code, not in the library's own tests or docs. Someone downstream is parsing your error messages with a regex, or relying on the iteration order of a result set you never documented, or depending on a method you consider internal because it wasn't marked private in a language that doesn't enforce visibility. [Hyrum's Law](https://www.hyrumslaw.com/) says all of these implicit contracts exist once you have enough users, and semver can't help because a version number declares what the maintainer intended, not what downstream code actually depends on.

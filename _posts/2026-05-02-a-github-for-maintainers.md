@@ -5,7 +5,6 @@ date: 2026-05-02 10:00 +0000
 description: "Giving dependencies the same treatment the fork got"
 tags:
   - github
-  - open-source
   - package-managers
   - forges
 ---

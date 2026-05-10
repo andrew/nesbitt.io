@@ -6,7 +6,7 @@ description: "You trust your maintainers, who trust their maintainers, but do th
 tags:
   - package-managers
   - security
-  - ecosystems
+  - ecosyste.ms
 ---
 
 Ken Thompson's 1984 Turing Award lecture, [Reflections on Trusting Trust](https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf), described a C compiler modified to insert a backdoor into the `login` program, then modified again so the compiler would replicate the backdoor in future versions of itself without any trace in the source. The source was clean, the binary was compromised, and the only way to discover the backdoor was to rebuild the entire compiler toolchain from scratch and compare the output, which nobody was going to do.

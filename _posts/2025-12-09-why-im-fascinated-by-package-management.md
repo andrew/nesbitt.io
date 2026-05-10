@@ -5,6 +5,8 @@ date: 2025-12-09 10:00 +0000
 description: "From gaming magazine CDs to dependency graphs"
 tags:
   - package-managers
+  - history
+  - dependencies
 ---
 
 Before I had broadband, software updates came on CDs bundled with gaming magazines. Growing up in rural England, I had no idea these CDs even carried patches until I stumbled across one. Finding a new Half-Life patch or Quake map pack felt like discovering treasure. Software could get better after you bought it.

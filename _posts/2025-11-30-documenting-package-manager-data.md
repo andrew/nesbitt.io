@@ -4,7 +4,6 @@ title: "Documenting Package Manager Data"
 date: 2025-11-30 12:00 +0000
 description: "Six repositories documenting how package managers work: commands, manifests, APIs, hooks, and more."
 tags:
-  - open-source
   - package-managers
   - ecosyste.ms
   - reference
