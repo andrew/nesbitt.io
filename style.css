@@ -552,6 +552,49 @@ section li p{
   vertical-align: baseline;
 }
 
+.related-posts{
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+}
+
+.related-posts h3{
+  margin: 0 0 12px 0;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+.related-posts ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.related-posts li{
+  margin: 0 0 16px 0;
+}
+
+.related-posts li:last-child{
+  margin-bottom: 0;
+}
+
+.related-title{
+  font-weight: 600;
+}
+
+.related-meta{
+  font-size: 13px;
+  font-style: italic;
+  color: var(--color-secondary);
+  margin-left: 8px;
+}
+
+.related-desc{
+  margin: 4px 0 0 0;
+  font-size: 15px;
+  color: var(--color-secondary);
+}
+
 /* Projects page */
 .featured-list{
   margin: 15px 0;

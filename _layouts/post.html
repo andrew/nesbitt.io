@@ -26,5 +26,48 @@ layout: default
     {{ content }}
   </div>
 
+  {%- if page.tags.size > 0 -%}
+    {%- assign related_keys = "" -%}
+    {%- for post in site.posts -%}
+      {%- unless post.url == page.url -%}
+        {%- assign score = 0 -%}
+        {%- for tag in post.tags -%}
+          {%- if page.tags contains tag -%}
+            {%- assign score = score | plus: 1 -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if score > 0 -%}
+          {%- assign padded = score | prepend: "00" | slice: -2, 2 -%}
+          {%- assign date_key = post.date | date: "%s" -%}
+          {%- assign related_keys = related_keys | append: padded | append: "|" | append: date_key | append: "|" | append: post.url | append: ";" -%}
+        {%- endif -%}
+      {%- endunless -%}
+    {%- endfor -%}
+    {%- assign related_array = related_keys | split: ";" | sort | reverse -%}
+    {%- if related_array.size > 0 -%}
+    {%- assign related_date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <aside class="related-posts">
+      <h3>Related posts</h3>
+      <ul>
+        {%- for entry in related_array limit: 5 -%}
+          {%- assign parts = entry | split: "|" -%}
+          {%- assign related_url = parts[2] -%}
+          {%- for post in site.posts -%}
+            {%- if post.url == related_url -%}
+        <li>
+          <a class="related-title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <time class="related-meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: related_date_format }}</time>
+          {%- if post.description -%}
+          <p class="related-desc">{{ post.description | escape }}</p>
+          {%- endif -%}
+        </li>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endfor -%}
+      </ul>
+    </aside>
+    {%- endif -%}
+  {%- endif -%}
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
