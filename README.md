@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Not a Security Issue](https://nesbitt.io/2026/05/12/not-a-security-issue.html)
 - [proxy](https://nesbitt.io/2026/05/11/proxy.html)
 - [Madame Semver Will See You Now](https://nesbitt.io/2026/05/10/madame-semver-will-see-you-now.html)
 - [The Mismeasure of Open Source](https://nesbitt.io/2026/05/09/the-mismeasure-of-open-source.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Package Manager Threat Models](https://nesbitt.io/2026/05/05/package-manager-threat-models.html)
 - [Package Manager CWEs](https://nesbitt.io/2026/05/04/package-manager-cwes.html)
 - [A GitHub for maintainers](https://nesbitt.io/2026/05/02/a-github-for-maintainers.html)
-- [Patching and forking in package managers](https://nesbitt.io/2026/05/01/patching-and-forking-in-package-managers.html)
 <!-- POSTS:END -->
