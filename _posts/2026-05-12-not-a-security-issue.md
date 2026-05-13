@@ -51,6 +51,8 @@ One category worth adding that I haven't seen written down is documentation not 
 
 Stating that distinction in the policy file would have trimmed the curl results further, and Piotr Karwasz [made much the same observation](https://github.com/ossf/wg-vulnerability-disclosures/issues/178#issuecomment-3897627638) from the Log4j side, where most of the borderline reports describe real behaviour that the threat model excludes and the fix is usually a Javadoc line saying whether an argument is trusted.
 
+Mike McQuaid [wrote one for Homebrew](https://github.com/Homebrew/.github/pull/427) that does roughly all of the above: a short threat model built around the single-user-machine boundary, an in-scope list, and a set of named exclusions with a paragraph of reasoning each, including the documentation-mismatch one. It's a good worked example if you want to see the shape on a project that isn't curl.
+
 None of this stops someone pasting a hallucinated buffer overflow into your HackerOne queue without reading anything, and the bottom of the report-quality distribution is unreachable by documentation. But the better-built tools, the ones that read the repo before reporting, are the ones a policy file can steer, and those are increasingly the ones doing the scanning. Writing the threat model down was always good practice for human reporters, and it turns out the new readers take it more literally than the old ones ever did.
 
 Whatever mythical models turn up next will be reading the same files.
