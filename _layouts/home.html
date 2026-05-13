@@ -3,251 +3,476 @@ layout: default
 ---
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  "mainEntity": {
-    "@type": "Person",
-    "name": "Andrew Nesbitt",
-    "url": "{{ site.url }}",
-    "image": "{{ site.url }}/face.jpg",
-    "jobTitle": "Software Engineer",
-    "description": "{{ site.description }}",
-    "knowsAbout": ["Package Management", "Open Source", "Software Supply Chain", "Ruby"],
-    "sameAs": [
-      "https://github.com/andrew",
-      "https://mastodon.social/@andrewnez"
-    ]
-  }
-}
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "mainEntity": {
+            "@type": "Person",
+            "name": "Andrew Nesbitt",
+            "url": "{{ site.url }}",
+            "image": "{{ site.url }}/face.jpg",
+            "jobTitle": "Software Engineer",
+            "description": "{{ site.description }}",
+            "knowsAbout": [
+                "Package Management",
+                "Open Source",
+                "Software Supply Chain",
+                "Ruby"
+            ],
+            "sameAs": [
+                "https://github.com/andrew",
+                "https://mastodon.social/@andrewnez"
+            ]
+        }
+    }
 </script>
 
 <div class="row">
-  <div class="col-12">
-    <p>I've spent the last decade thinking about <a href="/package-managers/">package management</a> and <a href="/git/">git</a>. I build <a href="https://ecosyste.ms">Ecosyste.ms</a>, the largest open dataset of open source metadata, tracking packages, repositories, and dependencies across ecosystems. I've worked at GitHub and Tidelift, and contributed to working groups at Alpha-Omega, OpenSSF, CycloneDX, and CHAOSS. <a href="/about/">More about me</a>.</p>
-
-    <p><strong>I'm available for consulting</strong> on package management, software supply chain security, and open source infrastructure. <a href="/consulting/">Learn more</a>.</p>
-  </div>
+    <div class="col-12">
+        <p>
+            I've spent the last decade thinking about
+            <a href="/package-managers/">package management</a> and
+            <a href="/git/">git</a>. I build
+            <a href="https://ecosyste.ms">Ecosyste.ms</a>, the largest open
+            dataset of open source metadata, tracking packages, repositories,
+            and dependencies across ecosystems. I've worked at GitHub and
+            Tidelift, and contributed to working groups at Alpha-Omega, OpenSSF,
+            CycloneDX, and CHAOSS. <a href="/about/">More about me</a>.
+        </p>
+    </div>
 </div>
 <section class="posts">
-  <h3 id="recent-posts">Recent Posts</h3>
-  {%- if site.posts.size > 0 -%}
+    <h3 id="recent-posts">Recent Posts</h3>
+    {%- if site.posts.size > 0 -%}
     <ul>
-      {%- for post in site.posts limit:10 -%}
-      <li>
-        <h4>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h4>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <p class="post-meta">
-          {{ post.date | date: date_format }}
-          {%- if post.tags.size > 0 -%}
-          <span class="post-tags">
-            {%- for tag in post.tags -%}
-            <a href="/search#{{ tag | url_encode }}" class="post-tag">{{ tag }}</a>
-            {%- endfor -%}
-          </span>
-          {%- endif -%}
-        </p>
-        {%- if post.description -%}
-        <p class="post-description">{{ post.description }}</p>
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
+        {%- for post in site.posts limit:10 -%}
+        <li>
+            <h4>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h4>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d,
+            %Y" -%}
+            <p class="post-meta">
+                {{ post.date | date: date_format }} {%- if post.tags.size > 0
+                -%}
+                <span class="post-tags">
+                    {%- for tag in post.tags -%}
+                    <a href="/search#{{ tag | url_encode }}" class="post-tag"
+                        >{{ tag }}</a
+                    >
+                    {%- endfor -%}
+                </span>
+                {%- endif -%}
+            </p>
+            {%- if post.description -%}
+            <p class="post-description">{{ post.description }}</p>
+            {%- endif -%}
+        </li>
+        {%- endfor -%}
     </ul>
     {%- if site.posts.size > 10 -%}
     <p><a href="/posts/">View all posts</a></p>
-    {%- endif -%}
-  {%- endif -%}
-
+    {%- endif -%} {%- endif -%}
 </section>
 
-<hr>
+<hr />
 <h3 id="projects">Projects</h3>
 <div class="row">
-  <div class="media col-lg-4">
-    <a href="https://ecosyste.ms"><img class="mr-3" src="/images/projects/ecosyste-ms.png" width="60px" alt="Ecosyste.ms"></a>
-    <div class="media-body">
-      <h5 class="mt-0"><a href="https://ecosyste.ms">Ecosyste.ms</a></h5>
-      Tools and open datasets to support OSS.
+    <div class="media col-lg-4">
+        <a href="https://ecosyste.ms"
+            ><img
+                class="mr-3"
+                src="/images/projects/ecosyste-ms.png"
+                width="60px"
+                alt="Ecosyste.ms"
+        /></a>
+        <div class="media-body">
+            <h5 class="mt-0"><a href="https://ecosyste.ms">Ecosyste.ms</a></h5>
+            Tools and open datasets to support OSS.
+        </div>
     </div>
-  </div>
-  <div class="media col-lg-4">
-    <a href="https://libraries.io"><img class="mr-3" src="/images/projects/librariesio.png" width="60px" alt="Libraries.io"></a>
-    <div class="media-body">
-      <h5 class="mt-0"><a href="https://libraries.io">Libraries.io</a></h5>
-      The Open source Discovery Service.
+    <div class="media col-lg-4">
+        <a href="https://libraries.io"
+            ><img
+                class="mr-3"
+                src="/images/projects/librariesio.png"
+                width="60px"
+                alt="Libraries.io"
+        /></a>
+        <div class="media-body">
+            <h5 class="mt-0">
+                <a href="https://libraries.io">Libraries.io</a>
+            </h5>
+            The Open source Discovery Service.
+        </div>
     </div>
-  </div>
-  <div class="media col-lg-4">
-    <a href="https://manifest.fm"><img class="mr-3" src="/images/projects/themanifest.png" width="60px" alt="Manifest Podcast"></a>
-    <div class="media-body">
-      <h5 class="mt-0"><a href="https://manifest.fm">Manifest Podcast</a></h5>
-      A podcast all about package management.
+    <div class="media col-lg-4">
+        <a href="https://manifest.fm"
+            ><img
+                class="mr-3"
+                src="/images/projects/themanifest.png"
+                width="60px"
+                alt="Manifest Podcast"
+        /></a>
+        <div class="media-body">
+            <h5 class="mt-0">
+                <a href="https://manifest.fm">Manifest Podcast</a>
+            </h5>
+            A podcast all about package management.
+        </div>
     </div>
-  </div>
 </div>
 <div class="row">
-  <div class="media col-lg-4">
-    <a href="https://github.com/sass/node-sass"><img class="mr-3" src="/images/projects/sass.png" width="60px" alt="node-sass"></a>
-    <div class="media-body">
-      <h5 class="mt-0"><a href="https://github.com/sass/node-sass">node-sass</a></h5>
-      Node.js bindings to libsass (1.3B downloads)
+    <div class="media col-lg-4">
+        <a href="https://github.com/sass/node-sass"
+            ><img
+                class="mr-3"
+                src="/images/projects/sass.png"
+                width="60px"
+                alt="node-sass"
+        /></a>
+        <div class="media-body">
+            <h5 class="mt-0">
+                <a href="https://github.com/sass/node-sass">node-sass</a>
+            </h5>
+            Node.js bindings to libsass (1.3B downloads)
+        </div>
     </div>
-  </div>
-  <div class="media col-lg-4">
-    <a href="https://octobox.io"><img class="mr-3" src="/images/projects/octobox.png" width="60px" alt="Octobox"></a>
-    <div class="media-body">
-      <h5 class="mt-0"><a href="https://octobox.io">Octobox</a></h5>
-      Take back control of your GitHub notifications.
+    <div class="media col-lg-4">
+        <a href="https://octobox.io"
+            ><img
+                class="mr-3"
+                src="/images/projects/octobox.png"
+                width="60px"
+                alt="Octobox"
+        /></a>
+        <div class="media-body">
+            <h5 class="mt-0"><a href="https://octobox.io">Octobox</a></h5>
+            Take back control of your GitHub notifications.
+        </div>
     </div>
-  </div>
-  <div class="media col-lg-4">
-    <a href="https://24pullrequests.com"><img class="mr-3" src="/images/projects/24pullrequests.png" width="60px" alt="24 Pull Requests"></a>
-    <div class="media-body">
-      <h5 class="mt-0"><a href="https://24pullrequests.com">24 Pull Requests</a></h5>
-      Giving back to open source for the holidays.
+    <div class="media col-lg-4">
+        <a href="https://24pullrequests.com"
+            ><img
+                class="mr-3"
+                src="/images/projects/24pullrequests.png"
+                width="60px"
+                alt="24 Pull Requests"
+        /></a>
+        <div class="media-body">
+            <h5 class="mt-0">
+                <a href="https://24pullrequests.com">24 Pull Requests</a>
+            </h5>
+            Giving back to open source for the holidays.
+        </div>
     </div>
-  </div>
 </div>
 <p><a href="/projects/">View all projects</a></p>
 
-<section id='podcasts'>
-  <h3 id="podcast-interviews">Podcast Interviews</h3>
-  <ul>
-    <li>
-      <h4><a href='https://changelog.com/podcast/665'>The world of open source metadata with Andrew Nesbitt from ecosyste.ms</a></h4>
-      <p>Changelog Interviews #665: Building tools and open datasets to support, sustain, and secure critical digital infrastructure</p>
-    </li>
-    <li>
-      <h4><a href='https://opensourcesecurity.io/2025/2025-06-ecosystems_andrew_nesbitt/'>Ecosyste.ms with Andrew Nesbitt</a></h4>
-      <p>Open Source Security: Ecosyste.ms catalogs open source projects by tracking packages, dependencies, repositories, and more</p>
-    </li>
-    <li>
-      <h4><a href='https://podcast.sustainoss.org/270'>Ben Nickolls &amp; Andrew Nesbitt on Ecosyste.ms</a></h4>
-      <p>Sustain Episode 270: Exploring ecosyste.ms, a project using open source metadata to guide funding and support key projects</p>
-    </li>
-    <li>
-      <h4><a href='https://podcast.chaoss.community/121'>Package Metadata Working Group with Andrew Nesbitt and Damián Vicino</a></h4>
-      <p>CHAOSScast Episode 121: Discussing the formation and objectives of the Package Metadata Working Group within the CHAOSS community</p>
-    </li>
-    <li>
-      <h4><a href='https://podcast.chaoss.community/115'>Trends from UN OSS Week and OSSNA</a></h4>
-      <p>CHAOSScast Episode 115: Reflections on UN Open Source Week in New York and CHAOSScon North America</p>
-    </li>
-    <li>
-      <h4><a href='https://podcast.sustainoss.org/159'>Dawn Foster &amp; Andrew Nesbitt at State of Open Con 2023</a></h4>
-      <p>Sustain Episode 159: Andrew talks about his history with 24 Pull Requests, Libraries.io, and Ecosyste.ms</p>
-    </li>
-    <li>
-      <h4><a href='https://changelog.com/podcast/327'>Untangle your GitHub notifications with Octobox</a></h4>
-      <p>Changelog Interviews #327: How Octobox came to be and why open source maintainers love it</p>
-    </li>
-    <li>
-      <h4><a href='https://changelog.com/podcast/188'>24 Pull Requests and Libraries.io</a></h4>
-      <p>Changelog Interviews #188: A special doubleheader holiday show discussing 24 Pull Requests and Libraries.io</p>
-    </li>
-    <li>
-      <h4><a href='https://changelog.com/rfc/3'>Measuring Success in Open Source</a></h4>
-      <p>Request For Commits #3: Open source metrics and how to interpret data around dependencies and usage</p>
-    </li>
-    <li>
-      <h4><a href='https://www.betonyourself.com/podcast/episode-22-andrew-nesbitt'>Episode 22: Andrew Nesbitt</a></h4>
-      <p>Bet On Yourself: Creator of Libraries.io, Dependency CI and 24 Pull Requests on solving discoverability and sustainability in open source</p>
-    </li>
+<section id="podcasts">
+    <h3 id="podcast-interviews">Podcast Interviews</h3>
+    <ul>
+        <li>
+            <h4>
+                <a href="https://changelog.com/podcast/665"
+                    >The world of open source metadata with Andrew Nesbitt from
+                    ecosyste.ms</a
+                >
+            </h4>
+            <p>
+                Changelog Interviews #665: Building tools and open datasets to
+                support, sustain, and secure critical digital infrastructure
+            </p>
+        </li>
+        <li>
+            <h4>
+                <a
+                    href="https://opensourcesecurity.io/2025/2025-06-ecosystems_andrew_nesbitt/"
+                    >Ecosyste.ms with Andrew Nesbitt</a
+                >
+            </h4>
+            <p>
+                Open Source Security: Ecosyste.ms catalogs open source projects
+                by tracking packages, dependencies, repositories, and more
+            </p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://podcast.sustainoss.org/270"
+                    >Ben Nickolls &amp; Andrew Nesbitt on Ecosyste.ms</a
+                >
+            </h4>
+            <p>
+                Sustain Episode 270: Exploring ecosyste.ms, a project using open
+                source metadata to guide funding and support key projects
+            </p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://podcast.chaoss.community/121"
+                    >Package Metadata Working Group with Andrew Nesbitt and
+                    Damián Vicino</a
+                >
+            </h4>
+            <p>
+                CHAOSScast Episode 121: Discussing the formation and objectives
+                of the Package Metadata Working Group within the CHAOSS
+                community
+            </p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://podcast.chaoss.community/115"
+                    >Trends from UN OSS Week and OSSNA</a
+                >
+            </h4>
+            <p>
+                CHAOSScast Episode 115: Reflections on UN Open Source Week in
+                New York and CHAOSScon North America
+            </p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://podcast.sustainoss.org/159"
+                    >Dawn Foster &amp; Andrew Nesbitt at State of Open Con
+                    2023</a
+                >
+            </h4>
+            <p>
+                Sustain Episode 159: Andrew talks about his history with 24 Pull
+                Requests, Libraries.io, and Ecosyste.ms
+            </p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://changelog.com/podcast/327"
+                    >Untangle your GitHub notifications with Octobox</a
+                >
+            </h4>
+            <p>
+                Changelog Interviews #327: How Octobox came to be and why open
+                source maintainers love it
+            </p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://changelog.com/podcast/188"
+                    >24 Pull Requests and Libraries.io</a
+                >
+            </h4>
+            <p>
+                Changelog Interviews #188: A special doubleheader holiday show
+                discussing 24 Pull Requests and Libraries.io
+            </p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://changelog.com/rfc/3"
+                    >Measuring Success in Open Source</a
+                >
+            </h4>
+            <p>
+                Request For Commits #3: Open source metrics and how to interpret
+                data around dependencies and usage
+            </p>
+        </li>
+        <li>
+            <h4>
+                <a
+                    href="https://www.betonyourself.com/podcast/episode-22-andrew-nesbitt"
+                    >Episode 22: Andrew Nesbitt</a
+                >
+            </h4>
+            <p>
+                Bet On Yourself: Creator of Libraries.io, Dependency CI and 24
+                Pull Requests on solving discoverability and sustainability in
+                open source
+            </p>
+        </li>
     </ul>
 </section>
 
-<section id='presentations'>
-  <h3 id="presentations">Presentations</h3>
-  <ul>
-    <li>
-      <h4><a href='https://speakerdeck.com/andrew/ecosyste-dot-ms-conference-talk-at-easybuild-user-meeting'>Ecosyste.ms: Exploring Open Source Software Landscapes</a></h4>
-      <p>Presented at EasyBuild User Meeting in 2025</p>
-    </li>
-    <li>
-      <h4><a href='https://speakerdeck.com/andrew/can-my-friends-come-too'>Can my friends come too?</a></h4>
-      <p>Presented at Brighton Ruby in 2017</p>
-    </li>
-    <li>
-      <h4><a href='https://speakerdeck.com/andrew/elasticsearch-on-rails'>Elasticsearch on Rails</a></h4>
-      <p>Presented at South-West Elastic Community Meetup in 2015</p>
-    </li>
-    <li>
-      <h4><a href='https://speakerdeck.com/andrew/robotics-101'>Robotics 101</a></h4>
-      <p>Presented at Hackference in 2014</p>
-    </li>
-    <li>
-      <h4><a href='https://speakerdeck.com/andrew/learning-how-to-tinker'>Learning how to Tinker</a></h4>
-      <p>Presented at HybridConf in 2014</p>
-    </li>
-    <li>
-      <h4><a href='https://speakerdeck.com/andrew/hardware-hacking-with-javascript'>The Rise of JavaScript Hardware Hacking</a></h4>
-      <p>Presented at jQuery UK in 2014</p>
-    </li>
-    <li>
-      <h4><a href='https://speakerdeck.com/andrew/javascript-in-the-real-world'>JavaScript in the Real World</a></h4>
-      <p>Presented at Full Frontal in 2013</p>
-    </li>
-    <li>
-      <h4><a href='https://speakerdeck.com/andrew/the-future-of-nodecopter'>The Future of Nodecopter</a></h4>
-      <p>Presented at LXJS in 2013</p>
-    </li>
-    <li>
-      <h4><a href='https://speakerdeck.com/andrew/webshaped'>Turbo Charging your workflow with Node.js</a></h4>
-      <p>Presented at Webshaped in 2013</p>
-    </li>
-    <li>
-      <h4><a href='https://speakerdeck.com/andrew/the-meetup-organisers-field-guide'>The Meetup Organisers Field Guide</a></h4>
-      <p>Presented at Bristol IT Mega Meet in 2013</p>
-    </li>
+<section id="presentations">
+    <h3 id="presentations">Presentations</h3>
+    <ul>
+        <li>
+            <h4>
+                <a
+                    href="https://speakerdeck.com/andrew/ecosyste-dot-ms-conference-talk-at-easybuild-user-meeting"
+                    >Ecosyste.ms: Exploring Open Source Software Landscapes</a
+                >
+            </h4>
+            <p>Presented at EasyBuild User Meeting in 2025</p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://speakerdeck.com/andrew/can-my-friends-come-too"
+                    >Can my friends come too?</a
+                >
+            </h4>
+            <p>Presented at Brighton Ruby in 2017</p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://speakerdeck.com/andrew/elasticsearch-on-rails"
+                    >Elasticsearch on Rails</a
+                >
+            </h4>
+            <p>Presented at South-West Elastic Community Meetup in 2015</p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://speakerdeck.com/andrew/robotics-101"
+                    >Robotics 101</a
+                >
+            </h4>
+            <p>Presented at Hackference in 2014</p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://speakerdeck.com/andrew/learning-how-to-tinker"
+                    >Learning how to Tinker</a
+                >
+            </h4>
+            <p>Presented at HybridConf in 2014</p>
+        </li>
+        <li>
+            <h4>
+                <a
+                    href="https://speakerdeck.com/andrew/hardware-hacking-with-javascript"
+                    >The Rise of JavaScript Hardware Hacking</a
+                >
+            </h4>
+            <p>Presented at jQuery UK in 2014</p>
+        </li>
+        <li>
+            <h4>
+                <a
+                    href="https://speakerdeck.com/andrew/javascript-in-the-real-world"
+                    >JavaScript in the Real World</a
+                >
+            </h4>
+            <p>Presented at Full Frontal in 2013</p>
+        </li>
+        <li>
+            <h4>
+                <a
+                    href="https://speakerdeck.com/andrew/the-future-of-nodecopter"
+                    >The Future of Nodecopter</a
+                >
+            </h4>
+            <p>Presented at LXJS in 2013</p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://speakerdeck.com/andrew/webshaped"
+                    >Turbo Charging your workflow with Node.js</a
+                >
+            </h4>
+            <p>Presented at Webshaped in 2013</p>
+        </li>
+        <li>
+            <h4>
+                <a
+                    href="https://speakerdeck.com/andrew/the-meetup-organisers-field-guide"
+                    >The Meetup Organisers Field Guide</a
+                >
+            </h4>
+            <p>Presented at Bristol IT Mega Meet in 2013</p>
+        </li>
     </ul>
-  <p><a href="https://speakerdeck.com/andrew">View all presentations</a></p>
+    <p><a href="https://speakerdeck.com/andrew">View all presentations</a></p>
 </section>
-<section id='videos'>
-  <h3 id="videos">Videos</h3>
-  <ul>
-    <li>
-      <h4><a href='https://www.youtube.com/watch?v=8sD81Dqw0Os'>Panel Discussion: The Impact of Funding</a></h4>
-      <p>With Georg Link, Dawn Foster & Alyssa Wright at OSS Summit NA 2025</p>
-    </li>
-    <li>
-      <h4><a href='https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5576-open-source-funding-you-re-doing-it-wrong/'>Open source funding: you're doing it wrong</a></h4>
-      <p>With Benjamin Nickolls at FOSDEM 2025</p>
-    </li>
-    <li>
-      <h4><a href='https://www.youtube.com/watch?v=uNuPJHP2lfU'>Content Addressed Package Management</a></h4>
-      <p>Presented in 2021</p>
-    </li>
-    <li>
-      <h4><a href='https://www.youtube.com/watch?v=9NYjwskpIc0'>Republishing npm dependencies to IPFS as a micro-registry</a></h4>
-      <p>Presented in 2019</p>
-    </li>
-    <li>
-      <h4><a href='https://www.youtube.com/watch?v=hW4wUpoBHr8'>With a Little Help from My Friends</a></h4>
-      <p>Presented at Bath Ruby in 2018</p>
-    </li>
-    <li>
-      <h4><a href='https://brightonruby.com/2017/can-my-friends-come-too-andrew-nesbitt/'>Can my friends come too?</a></h4>
-      <p>Presented at Brighton Ruby in 2017</p>
-    </li>
-    <li>
-      <h4><a href='http://vimeo.com/album/2912171/video/97724406'>The Rise of JavaScript Hardware Hacking</a></h4>
-      <p>Presented at jQuery UK in 2014</p>
-    </li>
-    <li>
-      <h4><a href='http://www.youtube.com/watch?v=C7wWakRMAUY'>JavaScript in the Real World</a></h4>
-      <p>Recorded at Full Frontal in 2013</p>
-    </li>
-    <li>
-      <h4><a href='http://www.youtube.com/watch?v=1qq4c6J8lVU'>The Future of Nodecopter</a></h4>
-      <p>Recorded at LXJS in 2013</p>
-    </li>
-    <li>
-      <h4><a href='http://www.youtube.com/watch?v=bcQAdVO3N_c'>Nodecopter</a></h4>
-      <p>Recorded at Over the Air in 2013</p>
-    </li>
+<section id="videos">
+    <h3 id="videos">Videos</h3>
+    <ul>
+        <li>
+            <h4>
+                <a href="https://www.youtube.com/watch?v=8sD81Dqw0Os"
+                    >Panel Discussion: The Impact of Funding</a
+                >
+            </h4>
+            <p>
+                With Georg Link, Dawn Foster & Alyssa Wright at OSS Summit NA
+                2025
+            </p>
+        </li>
+        <li>
+            <h4>
+                <a
+                    href="https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5576-open-source-funding-you-re-doing-it-wrong/"
+                    >Open source funding: you're doing it wrong</a
+                >
+            </h4>
+            <p>With Benjamin Nickolls at FOSDEM 2025</p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://www.youtube.com/watch?v=uNuPJHP2lfU"
+                    >Content Addressed Package Management</a
+                >
+            </h4>
+            <p>Presented in 2021</p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://www.youtube.com/watch?v=9NYjwskpIc0"
+                    >Republishing npm dependencies to IPFS as a
+                    micro-registry</a
+                >
+            </h4>
+            <p>Presented in 2019</p>
+        </li>
+        <li>
+            <h4>
+                <a href="https://www.youtube.com/watch?v=hW4wUpoBHr8"
+                    >With a Little Help from My Friends</a
+                >
+            </h4>
+            <p>Presented at Bath Ruby in 2018</p>
+        </li>
+        <li>
+            <h4>
+                <a
+                    href="https://brightonruby.com/2017/can-my-friends-come-too-andrew-nesbitt/"
+                    >Can my friends come too?</a
+                >
+            </h4>
+            <p>Presented at Brighton Ruby in 2017</p>
+        </li>
+        <li>
+            <h4>
+                <a href="http://vimeo.com/album/2912171/video/97724406"
+                    >The Rise of JavaScript Hardware Hacking</a
+                >
+            </h4>
+            <p>Presented at jQuery UK in 2014</p>
+        </li>
+        <li>
+            <h4>
+                <a href="http://www.youtube.com/watch?v=C7wWakRMAUY"
+                    >JavaScript in the Real World</a
+                >
+            </h4>
+            <p>Recorded at Full Frontal in 2013</p>
+        </li>
+        <li>
+            <h4>
+                <a href="http://www.youtube.com/watch?v=1qq4c6J8lVU"
+                    >The Future of Nodecopter</a
+                >
+            </h4>
+            <p>Recorded at LXJS in 2013</p>
+        </li>
+        <li>
+            <h4>
+                <a href="http://www.youtube.com/watch?v=bcQAdVO3N_c"
+                    >Nodecopter</a
+                >
+            </h4>
+            <p>Recorded at Over the Air in 2013</p>
+        </li>
     </ul>
 </section>
