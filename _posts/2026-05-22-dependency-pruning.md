@@ -37,7 +37,7 @@ None of npm, pnpm or Yarn ship anything for this natively, which still surprises
 
 ### Rust
 
-Cargo doesn't have anything built in but the third-party options are good. [cargo-machete](https://github.com/bnjbvr/cargo-machete) does a fast text-level scan for crate references without compiling anything, which makes it cheap enough to run in CI on every push at the cost of occasional false positives on macros and re-exports. [cargo-shear](https://github.com/Boshen/cargo-shear) parses with `syn` for a more accurate read while still avoiding a full build. [cargo-udeps](https://github.com/est31/cargo-udeps) goes the other way and actually compiles the project to see which crates get linked, which is the most precise approach but needs nightly Rust and takes as long as a build. I'd run machete in CI and one of the others occasionally by hand.
+Cargo doesn't have anything built in but the third-party options are good. [cargo-machete](https://github.com/bnjbvr/cargo-machete) does a fast text-level scan for crate references without compiling anything, which makes it cheap enough to run in CI on every push at the cost of occasional false positives on macros and re-exports. [cargo-shear](https://github.com/Boshen/cargo-shear) parses the source properly for a more accurate read while still avoiding a full build. [cargo-udeps](https://github.com/est31/cargo-udeps) goes the other way and actually compiles the project to see which crates get linked, which is the most precise approach but needs nightly Rust and takes as long as a build. I'd run machete in CI and one of the others occasionally by hand.
 
 ### Go
 
@@ -47,7 +47,7 @@ Go is the one place where this is properly solved in the toolchain. `go mod tidy
 
 Maven has had `mvn dependency:analyze` in [maven-dependency-plugin](https://maven.apache.org/plugins/maven-dependency-plugin/analyze-mojo.html) for a very long time. It works on bytecode after compilation, comparing referenced classes against declared dependencies, and reports both "unused declared" and "used undeclared" (things you're getting transitively and should probably declare directly). On Gradle, the [Dependency Analysis Gradle Plugin](https://github.com/autonomousapps/dependency-analysis-gradle-plugin) has become the standard and produces structured advice that includes unused dependencies alongside other dependency-hygiene findings; Netflix's [Nebula Lint](https://github.com/nebula-plugins/gradle-lint-plugin) has an `unused-dependency` rule that does a similar bytecode-vs-declarations check.
 
-Bytecode analysis can't see reflection, so anything loaded by class name string will be flagged as unused when it isn't, which describes a fair amount of enterprise Java. If you want evidence that the exercise pays off in security terms, Soto-Valero et al. [debloated a real industrial Java application](https://arxiv.org/abs/2108.05115) and measured a real drop in CVE exposure afterwards.
+Bytecode analysis can't see reflection or annotation processors, so anything loaded by class-name string or used only at compile time will be flagged as unused when it isn't, which describes a fair amount of enterprise Java. If you want evidence that the exercise pays off in security terms, Ponta et al. at SAP [debloated a real industrial Java application](https://arxiv.org/abs/2108.05115) and measured a real drop in CVE exposure afterwards.
 
 ### PHP
 
@@ -55,11 +55,11 @@ Bytecode analysis can't see reflection, so anything loaded by class name string 
 
 ### .NET
 
-There's no `dotnet` CLI verb for this. Visual Studio has a Roslyn-backed "Remove Unused References" action in Solution Explorer, and [ReferenceTrimmer](https://github.com/dfederm/ReferenceTrimmer) wraps the same Roslyn analysis as an MSBuild task for CI. [snitch](https://github.com/spectresystems/snitch) finds packages you've declared that you'd already get transitively, which is adjacent but doesn't actually shrink the closure.
+There's no `dotnet` CLI verb for this. Visual Studio has a Roslyn-backed "Remove Unused References" action in Solution Explorer, and [ReferenceTrimmer](https://github.com/dfederm/ReferenceTrimmer) wraps the same Roslyn analysis into the build for CI. [snitch](https://github.com/spectresystems/snitch) finds packages you've declared that you'd already get transitively, which is adjacent but doesn't actually shrink the closure.
 
 ### Elixir
 
-Mix ships `mix deps.unlock --unused`, which clears lockfile entries for anything no longer in `mix.exs`, and `--check-unused` to fail CI if there are any. That's lockfile hygiene rather than code-level analysis though; it won't surface a package that's still listed in `mix.exs` but that no module in your app actually calls. The compiler does emit a warning when a listed application has no referenced module, which catches some cases. I couldn't find a maintained third-party tool that does the full source-vs-manifest check, so if you're in Elixir you may be reading `mix.exs` by hand.
+Mix ships `mix deps.unlock --unused`, which clears lockfile entries for anything no longer in `mix.exs`, and `--check-unused` to fail CI if there are any. That's lockfile hygiene rather than code-level analysis though; it won't surface a package that's still listed in `mix.exs` but that no module in your app actually calls. I couldn't find a maintained third-party tool that does the full source-vs-manifest check, so if you're in Elixir you may be reading `mix.exs` by hand.
 
 ### Ruby
 
