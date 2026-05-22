@@ -1,5 +1,34 @@
 task default: :test
 
+namespace :twipm do
+  NEWSBOAT_ARGS = %w[
+    -u _twipm/newsboat/urls
+    -c _twipm/newsboat/cache.db
+    -C _twipm/newsboat/config
+  ].freeze
+
+  desc "Re-fetch OPML from ecosyste-ms and reimport feed list"
+  task :opml do
+    require "net/http"
+    url = "https://raw.githubusercontent.com/ecosyste-ms/package-managers-opml/main/package-manager.opml"
+    body = Net::HTTP.get(URI(url))
+    File.write("_twipm/newsboat/package-manager.opml", body)
+    File.write("_twipm/newsboat/urls", "")
+    sh "newsboat", *NEWSBOAT_ARGS, "-i", "_twipm/newsboat/package-manager.opml"
+    extra = "_twipm/newsboat/urls.extra"
+    File.open("_twipm/newsboat/urls", "a") { |f| f.write(File.read(extra)) } if File.exist?(extra)
+    puts File.readlines("_twipm/newsboat/urls").size.to_s + " feeds"
+  end
+
+  desc "Reload feeds and write _twipm/collected.json (default 7 days)"
+  task :collect, [:days] do |t, args|
+    days = args[:days] || "7"
+    Bundler.with_unbundled_env do
+      sh({ "BUNDLE_GEMFILE" => "_twipm/Gemfile" }, "bundle", "exec", "ruby", "_twipm/collect.rb", "--days", days)
+    end
+  end
+end
+
 desc "Add archive.org links to papers post"
 task :archive_papers, [:mode] do |t, args|
   require 'net/http'
