@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require "sqlite3"
+require "octokit"
 require "json"
 require "time"
 require "fileutils"
@@ -18,6 +19,7 @@ BOOKMARKS_TXT = File.join(TWIPM, "bookmarks.txt")
 OUTPUT = File.join(TWIPM, "collected.json")
 MASTODON_INSTANCE = "https://mastodon.social"
 MASTODON_ACCT = "andrewnez"
+GIT_PKGS_ORG = "git-pkgs"
 
 options = { days: 7, reload: true }
 OptionParser.new do |o|
@@ -184,6 +186,35 @@ rescue => e
   []
 end
 
+def octokit
+  @octokit ||= begin
+    token = ENV["GITHUB_TOKEN"] || `gh auth token 2>/dev/null`.strip.then { |t| t.empty? ? nil : t }
+    Octokit::Client.new(access_token: token, auto_paginate: true)
+  end
+end
+
+def collect_git_pkgs_releases(since)
+  results = []
+  octokit.org_repos(GIT_PKGS_ORG, sort: "pushed").each do |repo|
+    break if repo.pushed_at < since
+    octokit.tags(repo.full_name, per_page: 3).first(3).each do |tag|
+      commit = octokit.commit(repo.full_name, tag.commit.sha)
+      published = commit.commit.committer.date
+      next if published < since
+      results << {
+        repo: repo.name,
+        tag: tag.name,
+        url: "https://github.com/#{repo.full_name}/releases/tag/#{tag.name}",
+        published: published.utc.iso8601
+      }
+    end
+  end
+  results.sort_by { |r| r[:repo] }
+rescue => e
+  warn "git-pkgs releases skipped: #{e.message}"
+  []
+end
+
 def collect_bookmarks_txt(path)
   return [] unless File.exist?(path)
   File.readlines(path).filter_map do |line|
@@ -203,13 +234,16 @@ collapsed = collapse_releases(items)
 bookmarks = collect_firefox_bookmarks(since) + collect_bookmarks_txt(BOOKMARKS_TXT)
 bookmarks.uniq! { |b| b[:url] }
 
+git_pkgs = collect_git_pkgs_releases(since)
+
 result = {
   since: since.utc.iso8601,
   generated: Time.now.utc.iso8601,
   feed_item_count: items.size,
   feeds: collapsed,
-  bookmarks: bookmarks
+  bookmarks: bookmarks,
+  git_pkgs: git_pkgs
 }
 
 File.write(OUTPUT, JSON.pretty_generate(result))
-warn "Wrote #{collapsed.size} feed items (#{items.size} raw) and #{bookmarks.size} bookmarks to #{OUTPUT}"
+warn "Wrote #{collapsed.size} feed items (#{items.size} raw), #{bookmarks.size} bookmarks, #{git_pkgs.size} git-pkgs releases to #{OUTPUT}"
