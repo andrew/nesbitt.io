@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [This Week in Package Management: 23 May 2026](https://nesbitt.io/2026/05/23/this-week-in-package-management.html)
 - [Dependency Pruning](https://nesbitt.io/2026/05/22/dependency-pruning.html)
 - [RFC: Artificial Contributors to Open Source](https://nesbitt.io/2026/05/21/rfc-artificial-contributors-to-open-source.html)
 - [Dumb Ways for an Open Source Project to Die](https://nesbitt.io/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Not a Security Issue](https://nesbitt.io/2026/05/12/not-a-security-issue.html)
 - [proxy](https://nesbitt.io/2026/05/11/proxy.html)
 - [Madame Semver Will See You Now](https://nesbitt.io/2026/05/10/madame-semver-will-see-you-now.html)
-- [The Mismeasure of Open Source](https://nesbitt.io/2026/05/09/the-mismeasure-of-open-source.html)
 <!-- POSTS:END -->
