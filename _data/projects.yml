@@ -3,14 +3,14 @@
   url: https://github.com/andrew/ultimate-awesome
   description: Every awesome list on every topic, including awesome lists of awesome
     lists, updated daily.
-  stars: 189
+  stars: 192
   language:
-  pushed_at: '2026-05-17T01:08:13Z'
+  pushed_at: '2026-05-24T01:11:06Z'
 - name: gitgres
   url: https://github.com/andrew/gitgres
   description: Store git objects and refs in PostgreSQL tables. Standard git push/clone
     work against the database through a libgit2-based backend.
-  stars: 79
+  stars: 80
   language: C
   pushed_at: '2026-03-08T20:14:08Z'
 - name: nesbitt.io
@@ -19,7 +19,7 @@
     about package management, software supply chain security, and open source infrastructure. '
   stars: 31
   language: HTML
-  pushed_at: '2026-05-16T06:50:40Z'
+  pushed_at: '2026-05-24T07:09:51Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
@@ -65,14 +65,14 @@
     the VERS spec.
   stars: 12
   language: Ruby
-  pushed_at: '2026-05-05T09:23:19Z'
+  pushed_at: '2026-05-22T03:09:42Z'
 - name: purl
   url: https://github.com/andrew/purl
   description: A Ruby library for parsing, validating, and generating Package URLs
     (PURLs) as defined by the PURL specification
   stars: 12
   language: Ruby
-  pushed_at: '2026-05-05T09:23:52Z'
+  pushed_at: '2026-05-22T03:11:11Z'
 - name: state-of-oss-funding
   url: https://github.com/andrew/state-of-oss-funding
   description: 'The State of OSS Funding data: Insights from ecosyste.ms - talk at
@@ -91,7 +91,14 @@
   description: GitHub action to upgrade version of Ruby in various places to the latest
   stars: 10
   language:
-  pushed_at: '2026-05-17T00:19:11Z'
+  pushed_at: '2026-05-24T00:21:06Z'
+- name: pycon
+  url: https://github.com/andrew/pycon
+  description: Data collection and analysis for a PyCon talk on GitHub Actions security
+    across Python packages.
+  stars: 10
+  language: HTML
+  pushed_at: '2026-05-23T08:53:15Z'
 - name: hanami-sprockets
   url: https://github.com/andrew/hanami-sprockets
   description: An alternative to hanami-assets that doesn't rely on npm
@@ -104,7 +111,7 @@
     from the software of a paper
   stars: 8
   language: Ruby
-  pushed_at: '2026-03-19T13:46:13Z'
+  pushed_at: '2026-05-22T03:21:23Z'
 - name: typosquatting
   url: https://github.com/andrew/typosquatting
   description: Detect potential typosquatting packages across package ecosystems
@@ -137,48 +144,24 @@
   stars: 3
   language: Ruby
   pushed_at: '2026-04-27T10:05:34Z'
-- name: gitlocal
-  url: https://github.com/andrew/gitlocal
-  description: A pre-commit hook for .gitlocal marked files
-  stars: 3
-  language: Shell
-  pushed_at: '2026-03-06T09:17:43Z'
 - name: VID
   url: https://github.com/andrew/VID
   description: Content-addressed vulnerability identifiers
   stars: 3
   language:
   pushed_at: '2026-05-06T17:16:22Z'
-- name: swhid-go
-  url: https://github.com/andrew/swhid-go
-  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
-  stars: 2
-  language: Go
-  pushed_at: '2026-05-11T15:54:24Z'
-- name: jekyll-stats
-  url: https://github.com/andrew/jekyll-stats
-  description: Jekyll plugin that generates site statistics
-  stars: 2
-  language: Ruby
-  pushed_at: '2026-04-20T12:46:05Z'
-- name: foss-backstage
-  url: https://github.com/andrew/foss-backstage
-  description: Is InnerSource Commons good for open source?
-  stars: 2
-  language: Ruby
-  pushed_at: '2026-04-08T11:20:07Z'
+- name: gitlocal
+  url: https://github.com/andrew/gitlocal
+  description: A pre-commit hook for .gitlocal marked files
+  stars: 3
+  language: Shell
+  pushed_at: '2026-03-06T09:17:43Z'
 - name: sarif
   url: https://github.com/andrew/sarif
   description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
   stars: 2
   language: Ruby
   pushed_at: '2026-04-27T10:05:38Z'
-- name: weekend-at-bernies
-  url: https://github.com/andrew/weekend-at-bernies
-  description: Data collection for Weekend at Bernie's blog post
-  stars: 2
-  language: Ruby
-  pushed_at: '2026-05-08T16:17:17Z'
 - name: dirhash
   url: https://github.com/andrew/dirhash
   description: Generate Go module zip digests compatible with sum.golang.org
@@ -191,6 +174,24 @@
   stars: 2
   language: Ruby
   pushed_at: '2026-04-27T10:35:09Z'
+- name: jekyll-stats
+  url: https://github.com/andrew/jekyll-stats
+  description: Jekyll plugin that generates site statistics
+  stars: 2
+  language: Ruby
+  pushed_at: '2026-04-20T12:46:05Z'
+- name: foss-backstage
+  url: https://github.com/andrew/foss-backstage
+  description: Is InnerSource Commons good for open source?
+  stars: 2
+  language: Ruby
+  pushed_at: '2026-05-22T03:21:27Z'
+- name: weekend-at-bernies
+  url: https://github.com/andrew/weekend-at-bernies
+  description: Data collection for Weekend at Bernie's blog post
+  stars: 2
+  language: Ruby
+  pushed_at: '2026-05-08T16:17:17Z'
 - name: oss-community-benchmarks
   url: https://github.com/andrew/oss-community-benchmarks
   description: A benchmark framework where maintainers define what good AI-generated
@@ -198,20 +199,19 @@
   stars: 2
   language:
   pushed_at: '2025-11-26T18:50:44Z'
+- name: swhid-go
+  url: https://github.com/andrew/swhid-go
+  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
+  stars: 2
+  language: Go
+  pushed_at: '2026-05-22T02:53:04Z'
 - name: gitlab-faraday
   url: https://github.com/andrew/gitlab-faraday
   description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
     updated to use Faraday
   stars: 1
   language: Ruby
-  pushed_at: '2026-03-19T13:46:21Z'
-- name: pycon
-  url: https://github.com/andrew/pycon
-  description: Data collection and analysis for a PyCon talk on GitHub Actions security
-    across Python packages.
-  stars: 1
-  language: HTML
-  pushed_at: '2026-05-16T21:45:08Z'
+  pushed_at: '2026-05-22T03:21:19Z'
 - name: semgrep-codeql
   url: https://github.com/andrew/semgrep-codeql
   description: Converted security rules fromcodeql to semgrep format.
