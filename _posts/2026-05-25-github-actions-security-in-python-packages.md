@@ -9,7 +9,7 @@ tags:
   - python
 ---
 
-_This is a written version of a talk I gave at PyCon US 2026 in Long Beach. Slides, scan tooling, and the SQLite databases behind every number here are at [github.com/andrew/pycon](https://github.com/andrew/pycon)._
+_This is a written version of a talk I gave at PyCon US 2026 in Long Beach. [Slides (PDF)](https://github.com/andrew/pycon/raw/main/slides.pdf), scripts, and datasets are at [github.com/andrew/pycon](https://github.com/andrew/pycon)._
 
 Of the roughly 864,000 packages PyPI lists, about 387,000 declare a repository URL on GitHub, mapping to 343,000 distinct repositories once you collapse the monorepos. 152,000 of those have something in `.github/workflows/`, and for practical purposes open source Python has one CI system: Travis CI, the previous default, accounts for 11% of the same population and stopped offering free open source builds in 2023, with everything else below 2%.
 
@@ -31,15 +31,15 @@ After those two commands every workflow on `@v41` runs the new commit on its nex
 | When | Project | Compromise |
 |---|---|---|
 | Nov 2024 | spotbugs | `pull_request_target` ran fork code, maintainer PAT stolen |
-| Dec 2024 | Ultralytics | cache poisoning from fork PR → crypto miner on PyPI |
+| Dec 2024 | Ultralytics | cache poisoning from fork PR -> crypto miner on PyPI |
 | Mar 2025 | tj-actions / reviewdog | tags force-pushed, secrets dumped from ~23k repos |
 | Mar 2026 | Trivy | `pull_request_target` ran fork code, CI tokens harvested |
 | Mar 2026 | Trivy (again) | 75 of 76 tags force-pushed three weeks later with stolen tokens |
-| Mar 2026 | LiteLLM | PyPI token harvested via Trivy chain → malicious wheel |
-| Mar 2026 | Telnyx | PyPI token harvested via Trivy chain → malicious wheel |
-| Apr 2026 | elementary-data | issue comment → shell injection → malicious wheel |
-| Apr 2026 | lightning | stale long-lived token, no OIDC → malicious wheel |
-| May 2026 | mistralai, guardrails-ai | cache poison + OIDC token theft → malicious wheels |
+| Mar 2026 | LiteLLM | PyPI token harvested via Trivy chain -> malicious wheel |
+| Mar 2026 | Telnyx | PyPI token harvested via Trivy chain -> malicious wheel |
+| Apr 2026 | elementary-data | issue comment -> shell injection -> malicious wheel |
+| Apr 2026 | lightning | stale long-lived token, no OIDC -> malicious wheel |
+| May 2026 | mistralai, guardrails-ai | cache poison + OIDC token theft -> malicious wheels |
 
 Five of those six PyPI uploads are from March to May this year. The lightning row is the useful counter-example, since nothing was wrong with that workflow; it had a long-lived API token that leaked through some other route, and trusted publishing on its own would have stopped it. elementary-data and the mistralai chain are the opposite case, where trusted publishing was configured or wouldn't have helped, because the attacker ended up holding a valid OIDC token minted by the real workflow. LiteLLM, Telnyx, and Ultralytics sit in between, with stored tokens stolen from a runner that an Actions misconfiguration let the attacker reach.
 
@@ -76,7 +76,7 @@ The advisory column counts how often each audit class has been the documented ro
 
 That repository was already in my dataset when it happened, and zizmor had flagged the exact line three weeks earlier with three separate audits, any one of which would have broken the chain if remediated. Narrowing the 21,000 repositories down to those where the interpolated expression actually carries attacker-controlled data gives 1,396, and filtering those for triggers like `issues` and `issue_comment` where secrets are always in scope leaves 99. After deduplicating shared monorepos and checking job-level permissions, ten of those have a write-scoped token in the same job as a stored PyPI credential. All ten are going through coordinated disclosure and aren't named here. The fix for all of them is to pass the value through `env:` and reference the shell variable, which carries the same data without the pre-parse expansion.
 
-`use-trusted-publishing` is in about 44,000 repositories, roughly 78% of `gh-action-pypi-publish` users, and has no GHSA advisories because storing a long-lived token isn't a CVE in itself; it's the credential that makes the other audits worth an attacker's time. The largest packages still on stored tokens include `six` at 896M monthly downloads, `fsspec` at 616M, `pyasn1` at 430M, `tomli` at 377M, `greenlet` at 337M, and `sqlalchemy` at 335M. One caveat is that PyPI's trusted publishing [doesn't yet support reusable workflows](https://github.com/pypi/warehouse/issues/11096), so packages publishing through something like Speakeasy's shared release workflow have a legitimate excuse. zizmor also misses those callers entirely because the `twine upload` lives in a different repository, and `mistralai` was one of them, which is why it wasn't among the 44,000 despite having a stored token and partly why it ended up in the incidents table instead.
+`use-trusted-publishing` is in about 44,000 repositories, roughly 78% of `gh-action-pypi-publish` users, and has no GHSA advisories because nobody files a CVE for storing a long-lived token, though that token is what makes the other audits worth an attacker's time. The largest packages still on stored tokens include `six` at 896M monthly downloads, `fsspec` at 616M, `pyasn1` at 430M, `tomli` at 377M, `greenlet` at 337M, and `sqlalchemy` at 335M. One caveat is that PyPI's trusted publishing [doesn't yet support reusable workflows](https://github.com/pypi/warehouse/issues/11096), so packages publishing through something like Speakeasy's shared release workflow have a legitimate excuse. zizmor also misses those callers entirely because the `twine upload` lives in a different repository, and `mistralai` was one of them, which is why it wasn't among the 44,000 despite having a stored token and partly why it ended up in the incidents table instead.
 
 `cache-poisoning` fires for about 15,000 repositories where a privileged job restores from a cache namespace that a lower-privilege job can write into, with Ultralytics as one of the two published advisories. The May 2026 [mistralai and guardrails-ai compromise](https://x.com/MsftSecIntel/status/2054041471280423424) was the same shape on the entry side: a `pull_request_target` job ran fork code, the fork code poisoned a cache, the publish workflow restored it, and the cached code lifted the runner's OIDC token from memory. Trusted publishing didn't help because the workflow had a legitimate `id-token: write` and the attacker was already executing inside it. 1,348 PyPI repositories have `dangerous-triggers` and `cache-poisoning` findings together, which is the population that exact chain applies to, and the remediation in every case is to not restore caches in jobs that build or publish artifacts.
 
@@ -90,7 +90,7 @@ Alongside the audit findings, extracting every `uses:` line gives an inventory o
 
 zizmor's audits stop at the workflow YAML, leaving what an action does at runtime as a separate question, so as a one-action case study I looked harder at `pypa/cibuildwheel`, which is in about 2,700 publish workflows and already runs zizmor on itself with one Low finding. Its `action.yml` is a thin composite wrapper around `python -m cibuildwheel`, and that Python code fetches CPython, PyPy, GraalPy, virtualenv, Node.js, nuget, and python-build-standalone from seven different upstream hosts at runtime over HTTPS with no hash pin, a transitive dependency tree that doesn't appear in any `action.yml` and that every consuming workflow inherits without seeing. The other popular composites I checked either pin their internal `uses:` to SHAs or only call `actions/*`, with a few long-tail counterexamples that pull third-party actions by tag from inside the composite definition.
 
-Slicing for third-party actions that run in the same job as `pypa/gh-action-pypi-publish` narrows the picture again, where a tag hijack would execute alongside the publish credential.
+Slicing for third-party actions that run in the same job as `pypa/gh-action-pypi-publish` narrows the picture again.
 
 | Action | Publish jobs | Unpinned |
 |---|---:|---:|
@@ -161,7 +161,7 @@ Thanks to [William Woodruff](https://github.com/woodruffw) for building and main
 
 **Incidents referenced:**
 
-- [spotbugs → reviewdog → tj-actions chain](https://unit42.paloaltonetworks.com/github-actions-supply-chain-attack/), Nov 2024 - Mar 2025
+- [spotbugs -> reviewdog -> tj-actions chain](https://unit42.paloaltonetworks.com/github-actions-supply-chain-attack/), Nov 2024 - Mar 2025
 - [Ultralytics cache poisoning](https://blog.yossarian.net/2024/12/06/zizmor-ultralytics-injection) and [PyPI's analysis](https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/), Dec 2024
 - [tj-actions/changed-files CVE-2025-30066](https://www.wiz.io/blog/github-action-tj-actions-changed-files-supply-chain-attack-cve-2025-30066), Mar 2025
 - [CISA advisory on tj-actions/reviewdog](https://www.cisa.gov/news-events/alerts/2025/03/18/supply-chain-compromise-third-party-tj-actionschanged-files-cve-2025-30066-and-reviewdogaction)
