@@ -21,6 +21,7 @@ apk,pacman,pacman-dev,https://repology.org/project/pacman-package-manager/versio
 apk,pip,py3-pip,https://repology.org/project/pip/versions,repology
 apk,pnpm,pnpm,https://repology.org/project/pnpm/versions,repology
 apk,Poetry,poetry,https://repology.org/project/poetry/versions,repology
+apk,pub,flutter,https://repology.org/project/flutter/versions,repology
 apk,RubyGems,ruby-rdoc,https://repology.org/project/ruby/versions,repology
 apk,Stack,stack,https://repology.org/project/haskell:stack/versions,repology
 apk,uv,py3-uv,https://repology.org/project/uv/versions,repology
@@ -81,6 +82,7 @@ Conda,Julia,julia,https://anaconda.org/conda-forge/julia,ecosystems
 Conda,LuaRocks,luarocks,https://anaconda.org/anaconda/luarocks,ecosystems
 Conda,Maven,maven,https://anaconda.org/anaconda/maven,ecosystems
 Conda,Nix,nix,https://anaconda.org/conda-forge/nix,ecosystems
+Conda,npm,nodejs,https://anaconda.org/conda-forge/nodejs,manual
 Conda,opam,opam,https://anaconda.org/conda-forge/opam,ecosystems
 Conda,pdm,pdm,https://anaconda.org/anaconda/pdm,ecosystems
 Conda,pip,pip,https://anaconda.org/conda-forge/pip,ecosystems
@@ -146,6 +148,7 @@ Guix,Julia,julia,https://repology.org/project/julia/versions,repology
 Guix,LuaRocks,lua5.2-luarocks,https://repology.org/project/luarocks/versions,repology
 Guix,Maven,maven,https://repology.org/project/maven/versions,repology
 Guix,Nix,nix,https://repology.org/project/nix/versions,repology
+Guix,npm,node,https://repology.org/project/nodejs/versions,repology
 Guix,opam,opam,https://repology.org/project/opam/versions,repology
 Guix,pip,python-pip,https://repology.org/project/pip/versions,repology
 Guix,Poetry,poetry,https://repology.org/project/poetry/versions,repology
@@ -202,7 +205,7 @@ Nix,Cargo,cargo,https://repology.org/project/cargo/versions,repology
 Nix,CocoaPods,cocoapods,https://repology.org/project/cocoapods/versions,repology
 Nix,Composer,composer,https://repology.org/project/php:composer/versions,repology
 Nix,Conan,conan,https://repology.org/project/conan/versions,repology
-Nix,Conda,python3.10-conda,https://repology.org/project/conda/versions,repology
+Nix,Conda,python3.12-conda,https://repology.org/project/conda/versions,repology
 Nix,CPAN,perl,https://repology.org/project/perl/versions,repology
 Nix,CRAN,R,https://repology.org/project/r/versions,repology
 Nix,dub,dub,https://repology.org/project/dub/versions,repology
@@ -225,6 +228,7 @@ Nix,pdm,pdm,https://repology.org/project/pdm/versions,repology
 Nix,pip,python3.11-pip,https://repology.org/project/pip/versions,repology
 Nix,pnpm,pnpm,https://repology.org/project/pnpm/versions,repology
 Nix,Poetry,poetry,https://repology.org/project/poetry/versions,repology
+Nix,pub,flutter,https://repology.org/project/flutter/versions,repology
 Nix,RubyGems,ruby,https://repology.org/project/ruby/versions,repology
 Nix,Stack,stack,https://repology.org/project/haskell:stack/versions,repology
 Nix,uv,uv,https://repology.org/project/uv/versions,repology
@@ -243,7 +247,7 @@ pacman,apt,apt,https://repology.org/project/apt/versions,repology
 pacman,Bun,bun,https://repology.org/project/bun/versions,repology
 pacman,Bundler,ruby-bundler,https://repology.org/project/ruby:bundler/versions,repology
 pacman,Cabal,cabal-install,https://repology.org/project/cabal-install/versions,repology
-pacman,Cargo,rust-aarch64-musl,https://repology.org/project/rust/versions,repology
+pacman,Cargo,rust-wasm,https://repology.org/project/rust/versions,repology
 pacman,Composer,composer,https://repology.org/project/php:composer/versions,repology
 pacman,Conan,conan,https://repology.org/project/conan/versions,repology
 pacman,Conda,python-conda,https://repology.org/project/conda/versions,repology
@@ -271,10 +275,11 @@ pacman,pdm,python-pdm,https://repology.org/project/pdm/versions,repology
 pacman,pip,python-pip,https://repology.org/project/pip/versions,repology
 pacman,pnpm,pnpm,https://repology.org/project/pnpm/versions,repology
 pacman,Poetry,python-poetry,https://repology.org/project/poetry/versions,repology
+pacman,pub,flutter-tool,https://repology.org/project/flutter/versions,repology
 pacman,RubyGems,ruby-default-gems,https://repology.org/project/ruby/versions,repology
 pacman,Spack,spack,https://repology.org/project/spack/versions,repology
 pacman,Stack,stack,https://repology.org/project/haskell:stack/versions,repology
-pacman,uv,uv,https://repology.org/project/uv/versions,repology
+pacman,uv,python-uv-build,https://repology.org/project/uv/versions,repology
 pacman,vcpkg,vcpkg,https://repology.org/project/vcpkg/versions,repology
 pacman,Yarn,yarn-berry,https://repology.org/project/yarn/versions,repology
 pdm,Conan,conan,https://pypi.org/project/conan/,ecosystems
@@ -304,7 +309,9 @@ Poetry,uv,uv,https://pypi.org/project/uv/,ecosystems
 RubyGems,Bundler,bundler,https://rubygems.org/gems/bundler,manual
 RubyGems,CocoaPods,cocoapods,https://gem.coop/gems/cocoapods,ecosystems
 RubyGems,RubyGems,rubygems-update,https://rubygems.org/gems/rubygems-update,manual
+Spack,Bundler,ruby,https://repology.org/project/ruby/versions,repology
 Spack,Cargo,rust,https://repology.org/project/rust/versions,repology
+Spack,Conda,miniconda3,https://repology.org/project/miniconda3/versions,repology
 Spack,CPAN,perl,https://repology.org/project/perl/versions,repology
 Spack,CRAN,r,https://repology.org/project/r/versions,repology
 Spack,Go,go,https://repology.org/project/go/versions,repology
@@ -327,10 +334,10 @@ uv,pdm,pdm,https://pypi.org/project/pdm/,ecosystems
 uv,pip,pip,https://pypi.org/project/pip/,ecosystems
 uv,Poetry,poetry,https://pypi.org/project/poetry/,ecosystems
 uv,uv,uv,https://pypi.org/project/uv/,ecosystems
+vcpkg,pip,python3,https://repology.org/project/python/versions,repology
 Yarn,Bun,bun,https://www.npmjs.com/package/bun,ecosystems
 Yarn,Elm,elm,https://www.npmjs.com/package/elm,ecosystems
 Yarn,Maven,,https://www.npmjs.com/package/maven-artifact-version,squat
 Yarn,npm,npm,https://www.npmjs.com/package/npm,ecosystems
 Yarn,pnpm,pnpm,https://www.npmjs.com/package/pnpm,ecosystems
 Yarn,Yarn,yarn,https://www.npmjs.com/package/yarn,ecosystems
-Conda,npm,nodejs,https://anaconda.org/conda-forge/nodejs,manual
