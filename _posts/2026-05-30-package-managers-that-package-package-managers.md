@@ -25,14 +25,16 @@ A CVE filed against pip lands as `pkg:pypi/pip` and perhaps `pkg:deb/python3-pip
 
 A first attempt at filling the matrix probed each registry for a package literally named after each other manager. That doesn't work, because every short name is already taken on every flat-namespace registry and almost never by the right thing: [`pip` on npm](https://www.npmjs.com/package/pip) is a 2012 CLI for the Freckle time tracker, [`homebrew` on PyPI](https://pypi.org/project/homebrew/) is an empty 0.0.0.1 with no description, and [`pacman` on npm](https://www.npmjs.com/package/pacman) is a static site generator. Going the other way and asking ecosyste.ms which packages point at each manager's canonical source repo gave [much cleaner results](https://github.com/andrew/nesbitt.io/blob/master/_data/package_manager_matrix.csv), at the cost of a handful of false positives where someone has set `repository` in their `package.json` to `rust-lang/cargo` for a hello-world WASM tutorial.
 
-The longest chain I've found without reusing a client runs nine hops from an Arch box to a working Elm compiler:
+The longest chain I've found without reusing a client runs eleven hops from an Arch box to a working Elm compiler, with the middle stretch getting progressively more nested because Poetry and pdm only install into projects:
 
 ```sh
-yay -S brew-git                       # AUR
-brew install python@3                 # bundles pip
-pip install uv
-uv tool install conda
-conda install -c conda-forge nodejs   # bundles npm
+yay -S brew-git                                     # AUR
+brew install python@3                               # bundles pip
+pip install poetry
+poetry init -n && poetry add pdm
+poetry run pdm init -n && poetry run pdm add uv
+poetry run pdm run uv tool install conda
+conda install -c conda-forge nodejs                 # bundles npm
 npm install -g yarn
 yarn global add pnpm
 pnpm add -g bun
