@@ -1,0 +1,117 @@
+---
+layout: null
+title: Package manager matrix
+description: Which package managers package other package managers.
+---
+{%- assign clients = site.data.package_manager_clients -%}
+{%- assign cells = site.data.package_manager_matrix -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Package manager matrix</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="/style.css">
+<script>
+  (function(){var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)})();
+</script>
+<style>
+  body { margin: 0; background: var(--color-bg); color: var(--color-text); }
+  .page { margin: 0 auto; width: max-content; max-width: 100vw; }
+  header { padding: 12px 20px 8px; }
+  header h1 { font-size: 18px; margin: 0 0 4px; }
+  header p { color: var(--color-secondary); margin: 0 0 4px; }
+  header a { color: var(--color-accent); }
+  .wrap { overflow-x: auto; }
+  table.mx { border-collapse: separate; border-spacing: 0; font-size: 11px; }
+  table.mx th, table.mx td { border-right: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); padding: 0; }
+  table.mx thead th { position: sticky; top: 0; background: var(--color-bg); z-index: 2; height: 130px; vertical-align: bottom; }
+  table.mx thead th.corner { z-index: 3; left: 0; min-width: 150px; text-align: right; padding: 4px 8px; font-weight: 400; color: var(--color-secondary); }
+  table.mx thead th .rot { writing-mode: vertical-rl; transform: rotate(180deg); padding: 6px 0; white-space: nowrap; font-weight: 400; width: 24px; }
+  table.mx tbody th { position: sticky; left: 0; background: var(--color-bg); z-index: 1; text-align: right; padding: 0 8px; white-space: nowrap; font-weight: 400; min-width: 150px; }
+  table.mx tbody th .n { color: var(--color-secondary); font-size: 10px; margin-left: 6px; }
+  table.mx td { width: 24px; min-width: 24px; height: 24px; text-align: center; }
+  table.mx td a { display: block; width: 100%; height: 100%; line-height: 24px; text-decoration: none; color: var(--color-text); }
+  .hit { background: rgba(40, 167, 69, 0.18); }
+  td.hit:hover { background: rgba(40, 167, 69, 0.4); }
+  .self { background: rgba(0, 123, 255, 0.25); }
+  td.self:hover { background: rgba(0, 123, 255, 0.5); }
+  .diag { background: repeating-linear-gradient(45deg, transparent, transparent 3px, var(--color-border) 3px, var(--color-border) 4px); }
+  tbody tr:hover th { background: var(--color-table-alt); }
+  tbody tr:hover td { box-shadow: inset 0 0 0 999px rgba(128,128,128,0.06); }
+  .legend { padding: 12px 20px 24px; font-size: 12px; color: var(--color-secondary); }
+  .legend ul { list-style: none; padding: 0; margin: 0 0 12px; display: flex; gap: 16px; flex-wrap: wrap; }
+  .legend li { display: inline-flex; align-items: center; gap: 6px; }
+  .legend li i { width: 14px; height: 14px; border: 1px solid var(--color-border); display: inline-block; }
+  .legend p { margin: 0; }
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <h1><a href="/">nesbitt.io</a> / Package manager matrix</h1>
+  <p>Which package managers package other package managers?</p>
+</header>
+
+{%- comment -%} Build a lookup of installer|target -> cell, and per-row counts. {%- endcomment -%}
+{%- assign sep = "||" -%}
+{%- assign keys = "" | split: "" -%}
+{%- for c in cells -%}
+  {%- unless c.confidence == "squat" -%}
+    {%- assign k = c.installer | append: sep | append: c.target -%}
+    {%- assign keys = keys | push: k -%}
+  {%- endunless -%}
+{%- endfor -%}
+
+<div class="wrap">
+<table class="mx">
+  <thead>
+    <tr>
+      <th class="corner">installs &rarr;<br>via &darr;</th>
+      {%- for col in clients -%}
+      <th><div class="rot">{{ col.client }}</div></th>
+      {%- endfor -%}
+    </tr>
+  </thead>
+  <tbody>
+    {%- for row in clients -%}
+    {%- assign installer = row.client -%}
+    {%- assign rowcells = cells | where: "installer", installer -%}
+    {%- assign rowcount = 0 -%}
+    {%- for rc in rowcells -%}{%- unless rc.confidence == "squat" -%}{%- assign rowcount = rowcount | plus: 1 -%}{%- endunless -%}{%- endfor -%}
+    <tr>
+      <th>{{ installer }}<span class="n">{{ rowcount }}</span></th>
+      {%- for col in clients -%}
+        {%- assign target = col.client -%}
+        {%- assign key = installer | append: sep | append: target -%}
+        {%- if keys contains key -%}
+          {%- assign hit = rowcells | where: "target", target | first -%}
+          {%- if installer == target -%}
+          <td class="self"><a href="{{ hit.url }}" title="{{ installer }} packages itself: {{ hit.package_name }}">&#9679;</a></td>
+          {%- else -%}
+          <td class="hit"><a href="{{ hit.url }}" title="{{ installer }} &rarr; {{ target }}: {{ hit.package_name }}">&#9679;</a></td>
+          {%- endif -%}
+        {%- elsif installer == target -%}
+          <td class="diag" title="{{ installer }} does not package itself"></td>
+        {%- else -%}
+          <td></td>
+        {%- endif -%}
+      {%- endfor -%}
+    </tr>
+    {%- endfor -%}
+  </tbody>
+</table>
+</div>
+
+<div class="legend">
+  <ul>
+    <li><i class="hit"></i> packages</li>
+    <li><i class="self"></i> packages itself</li>
+    <li><i class="diag"></i> does not package itself</li>
+    <li>{{ keys | size }} cells / {{ clients | size }}&times;{{ clients | size }}</li>
+  </ul>
+  <p>Rows install columns. See the <a href="/2026/05/30/package-managers-that-package-package-managers.html">accompanying post</a>. Data from <a href="https://packages.ecosyste.ms">ecosyste.ms</a> and <a href="https://repology.org">Repology</a>, generated by <a href="https://github.com/andrew/nesbitt.io/blob/master/Rakefile"><code>rake matrix:probe</code></a>, raw data: <a href="https://github.com/andrew/nesbitt.io/blob/master/_data/package_manager_matrix.csv">CSV</a>.</p>
+</div>
+</div>
+</body>
+</html>
