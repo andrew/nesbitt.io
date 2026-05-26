@@ -142,7 +142,7 @@ a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0
 b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1
 ```
 
-Configure git to use it with `git config blame.ignoreRevsFile .git-blame-ignore-revs`. GitHub, GitLab (15.4+), and Gitea all read this file automatically without configuration. If you set this in your global git config, `git blame` will fail in any repository that doesn't have the file, so you either need per-repo config or an empty `.git-blame-ignore-revs` in every repo you work in.
+Configure git to use it with `git config blame.ignoreRevsFile .git-blame-ignore-revs`. GitHub, GitLab (15.4+), and Gitea all read this file automatically without configuration. Setting this in your global config used to mean `git blame` would error in any repository that lacked the file, which pushed people toward per-repo config or scattering empty `.git-blame-ignore-revs` files around. Since [git 2.52](https://github.com/git/git/blob/v2.52.0/Documentation/RelNotes/2.52.0.adoc) you can prefix the value with `:(optional)` and git skips it when the file is missing, so `git config --global blame.ignoreRevsFile ':(optional).git-blame-ignore-revs'` now works as a one-time global default.
 
 This solves the problem where running a formatter on the entire codebase makes `git blame` useless. With this file, blame skips those commits and shows the actual author of the logic.
 
