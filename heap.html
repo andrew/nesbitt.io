@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>node_modules/</title>
+<style>
+  html, body { margin: 0; padding: 0; overflow: hidden; height: 100%; background: #1a1612; }
+  canvas { display: block; }
+  #hud {
+    position: fixed; top: 0; left: 0; right: 0;
+    padding: 14px 18px;
+    font: 600 13px/1.4 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+    color: #e8dcc4; letter-spacing: 0.02em;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+    pointer-events: none; z-index: 10;
+    display: flex; justify-content: space-between; align-items: flex-start;
+  }
+  #hud .title { font-size: 15px; color: #d4a857; }
+  #hud .title .slash { color: #6b5d4a; }
+  #hud .hint { color: #8a7a5e; font-weight: 400; font-size: 12px; }
+  #hud .stats { text-align: right; color: #8a7a5e; font-size: 11px; }
+  #hud .stats b { color: #d4a857; }
+  #gate {
+    position: fixed; inset: 0; display: grid; place-items: center;
+    background: radial-gradient(ellipse at center, rgba(26,22,18,0.4), rgba(26,22,18,0.92));
+    color: #e8dcc4; cursor: pointer; z-index: 20;
+    font: 600 14px/1.5 'JetBrains Mono', ui-monospace, Menlo, monospace;
+    text-align: center; letter-spacing: 0.03em;
+  }
+  #gate div { padding: 28px 36px; border: 1px solid #4a3f2e; background: rgba(20,16,12,0.85); }
+  #gate .big { font-size: 18px; color: #d4a857; margin-bottom: 6px; }
+  #gate .small { color: #8a7a5e; font-size: 12px; font-weight: 400; }
+  #cross {
+    position: fixed; top: 50%; left: 50%; width: 4px; height: 4px;
+    margin: -2px 0 0 -2px; background: rgba(232,220,196,0.6);
+    border-radius: 50%; pointer-events: none; z-index: 5;
+  }
+  #dpad {
+    position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%);
+    display: none; grid-template-columns: 56px 56px 56px; grid-template-rows: 56px 56px 56px;
+    gap: 6px; z-index: 15; touch-action: none;
+  }
+  body.touch #dpad { display: grid; }
+  body.touch #cross { display: none; }
+  body.touch #hud .hint { display: none; }
+  #dpad button {
+    border: 1px solid rgba(212,168,87,0.45);
+    background: rgba(20,16,12,0.7);
+    color: #d4a857; font-size: 22px; line-height: 1;
+    border-radius: 8px; padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none; touch-action: none;
+  }
+  #dpad button:active { background: rgba(212,168,87,0.35); color: #1a1612; }
+  #dpad .gap { visibility: hidden; }
+  #dpad .fly { font-size: 14px; font-family: ui-monospace, monospace; opacity: 0.7; }
+</style>
+</head>
+<body>
+<div id="hud">
+  <div>
+    <div class="title">~<span class="slash">/</span>node_modules<span class="slash">/</span></div>
+    <div class="hint">WASD move · mouse look · shift sprint · space fly</div>
+  </div>
+  <div class="stats">
+    <div><b id="pkgcount">0</b> packages loaded</div>
+    <div><b id="diskuse">0</b> on disk</div>
+    <div style="margin-top:4px;opacity:0.7" id="lookingat">&nbsp;</div>
+  </div>
+</div>
+<div id="cross"></div>
+<div id="dpad">
+  <button class="gap"></button>
+  <button data-k="KeyW">▲</button>
+  <button data-k="Space" class="fly">fly</button>
+  <button data-k="KeyA">◀</button>
+  <button class="gap"></button>
+  <button data-k="KeyD">▶</button>
+  <button class="gap"></button>
+  <button data-k="KeyS">▼</button>
+  <button class="gap"></button>
+</div>
+<div id="gate"><div>
+  <div class="big">tap to enter the heap</div>
+  <div class="small">npm install completed with 47 vulnerabilities (3 low, 18 moderate, 26 high)</div>
+</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(() => {
+  // ---------------------------------------------------------------------------
+  // procedural package names — several naming conventions mixed together
+  // ---------------------------------------------------------------------------
+  const REAL = [
+    'left-pad','is-odd','is-even','lodash','react','express','chalk','debug',
+    'minimist','glob','rimraf','mkdirp','semver','uuid','axios','moment',
+    'core-js','tslib','webpack','eslint','prettier','readable-stream','once',
+    'wrappy','minimatch','graceful-fs','ms','kind-of','micromatch','nan'
+  ];
+  const ADJ  = ['tiny','micro','nano','fast','safe','deep','flat','lazy','async',
+                'mini','lite','pure','strict','smart','simple','better','modern',
+                'universal','isomorphic','pretty','ansi','cross','native','meta'];
+  const NOUN = ['parse','stream','buffer','path','glob','hash','lock','cache',
+                'queue','event','file','json','yaml','env','config','util','log',
+                'fetch','walk','chunk','map','array','string','type','error',
+                'retry','pool','worker','dom','fs','args','spawn','exec','diff',
+                'tree','graph','schema','token','emoji','color','spinner','table'];
+  const VERB = ['get','set','make','find','read','write','copy','watch','emit',
+                'wrap','pipe','sort','merge','split','pad','trim','clamp','dedupe',
+                'resolve','normalize','flatten','ensure','detect','validate'];
+  const SCOPE = ['babel','types','vue','angular','nestjs','aws-sdk','npmcli',
+                 'octokit','eslint','rollup','vitejs','swc','tanstack','radix-ui',
+                 'sindresorhus','hapi','fastify','remix-run','next','turbo'];
+  const SUFFIX = ['ify','er','it','ly','kit','box','hub','io','js','x','rs'];
+
+  const pick = a => a[(Math.random()*a.length)|0];
+
+  function genPkgName() {
+    const r = Math.random();
+    if (r < 0.14) return pick(REAL);                                    // a classic
+    if (r < 0.24) return pick(NOUN);                                    // foo
+    if (r < 0.38) return pick(ADJ) + '-' + pick(NOUN);                  // tiny-glob
+    if (r < 0.50) return pick(VERB) + '-' + pick(NOUN);                 // read-json
+    if (r < 0.58) return pick(NOUN) + '-' + pick(NOUN);                 // path-map
+    if (r < 0.66) return pick(ADJ) + '-' + pick(NOUN) + '-' + pick(NOUN);
+    if (r < 0.74) return 'is-' + pick(NOUN);                            // is-buffer
+    if (r < 0.80) return 'has-' + pick(NOUN);                           // has-flag
+    if (r < 0.86) return pick(NOUN) + pick(SUFFIX);                     // streamify
+    if (r < 0.93) return '@' + pick(SCOPE) + '/' + pick(NOUN);          // @babel/parse
+    return '@' + pick(SCOPE) + '/' + pick(ADJ) + '-' + pick(NOUN);      // @vitejs/fast-hash
+  }
+
+  function genVersion() {
+    const r = Math.random();
+    const n = m => (Math.random()*m)|0;
+    if (r < 0.15) return '0.0.' + n(80);                                // eternal pre-1.0
+    if (r < 0.30) return '0.' + n(30) + '.' + n(40);
+    if (r < 0.75) return (1+n(20)) + '.' + n(30) + '.' + n(50);
+    if (r < 0.85) return (1+n(9)) + '.' + n(12) + '.' + n(30) +
+                         pick(['-beta.','-alpha.','-rc.','-next.','-canary.']) + n(20);
+    if (r < 0.92) return (2020+n(6)) + '.' + (1+n(12)) + '.' + n(28);   // calver
+    return (1+n(5)) + '.0.0-' + Math.random().toString(36).slice(2,9);  // git sha-ish
+  }
+
+  // ---------------------------------------------------------------------------
+  // procedural cardboard textures
+  // ---------------------------------------------------------------------------
+  function noise2d(ctx, w, h, alpha) {
+    const img = ctx.getImageData(0, 0, w, h);
+    const d = img.data;
+    for (let i = 0; i < d.length; i += 4) {
+      const n = (Math.random() - 0.5) * alpha;
+      d[i] += n; d[i+1] += n; d[i+2] += n;
+    }
+    ctx.putImageData(img, 0, 0);
+  }
+
+  function cardboardBase(ctx, w, h, tint) {
+    const g = ctx.createLinearGradient(0, 0, w, h);
+    g.addColorStop(0, `hsl(${32+tint}, 38%, ${52+tint}%)`);
+    g.addColorStop(1, `hsl(${30+tint}, 40%, ${46+tint}%)`);
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, w, h);
+    // corrugation hint
+    ctx.globalAlpha = 0.06;
+    ctx.fillStyle = '#000';
+    for (let x = 0; x < w; x += 6) ctx.fillRect(x, 0, 2, h);
+    ctx.globalAlpha = 1;
+    noise2d(ctx, w, h, 18);
+    // edge darkening
+    ctx.strokeStyle = 'rgba(0,0,0,0.25)';
+    ctx.lineWidth = 6;
+    ctx.strokeRect(0, 0, w, h);
+  }
+
+  function tapeStrip(ctx, x, y, w, h, vertical) {
+    ctx.save();
+    ctx.fillStyle = 'rgba(225, 218, 190, 0.55)';
+    ctx.fillRect(x, y, w, h);
+    ctx.strokeStyle = 'rgba(120, 100, 60, 0.35)';
+    ctx.lineWidth = 1;
+    ctx.strokeRect(x, y, w, h);
+    // tape sheen
+    ctx.fillStyle = 'rgba(255,255,255,0.18)';
+    if (vertical) ctx.fillRect(x + w*0.15, y, w*0.2, h);
+    else ctx.fillRect(x, y + h*0.15, w, h*0.2);
+    ctx.restore();
+  }
+
+  function makeTopTexture(tint) {
+    const S = 256;
+    const c = document.createElement('canvas'); c.width = c.height = S;
+    const ctx = c.getContext('2d');
+    cardboardBase(ctx, S, S, tint);
+    // box flap seam
+    ctx.fillStyle = 'rgba(0,0,0,0.35)';
+    ctx.fillRect(S/2 - 1, 0, 2, S);
+    // tape across seam
+    tapeStrip(ctx, S/2 - 22, 0, 44, S, true);
+    // occasionally a fragile sticker
+    if (Math.random() < 0.25) {
+      ctx.save();
+      ctx.translate(S*0.7, S*0.28);
+      ctx.rotate((Math.random()-0.5)*0.3);
+      ctx.fillStyle = '#c0392b';
+      ctx.fillRect(-30, -14, 60, 28);
+      ctx.fillStyle = '#fff';
+      ctx.font = 'bold 13px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('FRAGILE', 0, 5);
+      ctx.restore();
+    }
+    const t = new THREE.CanvasTexture(c);
+    t.anisotropy = 4;
+    return t;
+  }
+
+  function makeSideTexture(tint, withLabel) {
+    const S = 256;
+    const c = document.createElement('canvas'); c.width = c.height = S;
+    const ctx = c.getContext('2d');
+    cardboardBase(ctx, S, S, tint);
+    // tape coming over from top
+    tapeStrip(ctx, S/2 - 22, 0, 44, 36, true);
+    if (withLabel) {
+      ctx.save();
+      ctx.translate(S*0.5, S*0.55);
+      ctx.rotate((Math.random()-0.5)*0.08);
+      ctx.fillStyle = '#f4f0e8';
+      ctx.fillRect(-90, -55, 180, 110);
+      ctx.strokeStyle = 'rgba(0,0,0,0.15)';
+      ctx.strokeRect(-90, -55, 180, 110);
+      ctx.fillStyle = '#222';
+      ctx.fillRect(-90, -55, 180, 22);
+      ctx.fillStyle = '#f4f0e8';
+      ctx.font = 'bold 12px monospace';
+      ctx.textAlign = 'left';
+      ctx.fillText('npm registry', -84, -39);
+      // package name — handle @scope/name on two lines, shrink long names
+      const name = genPkgName();
+      const ver  = genVersion();
+      ctx.fillStyle = '#111';
+      const slash = name.indexOf('/');
+      if (slash > 0) {
+        ctx.font = 'bold 13px monospace';
+        ctx.fillText(name.slice(0, slash+1), -84, -16);
+        const rest = name.slice(slash+1);
+        ctx.font = 'bold ' + (rest.length > 15 ? 13 : 16) + 'px monospace';
+        ctx.fillText(rest.length > 20 ? rest.slice(0,19)+'…' : rest, -84, 0);
+      } else {
+        ctx.font = 'bold ' + (name.length > 16 ? 14 : 18) + 'px monospace';
+        ctx.fillText(name.length > 22 ? name.slice(0,21)+'…' : name, -84, -8);
+      }
+      ctx.font = '12px monospace';
+      ctx.fillStyle = '#666';
+      ctx.fillText(ver, -84, slash > 0 ? 14 : 8);
+      // barcode
+      ctx.fillStyle = '#111';
+      let bx = -84;
+      while (bx < 84) {
+        const bw = 1 + (Math.random()*3|0);
+        ctx.fillRect(bx, 24, bw, 24);
+        bx += bw + 1 + (Math.random()*2|0);
+      }
+      ctx.restore();
+      c._pkgLabel = name + '@' + ver;
+    }
+    const t = new THREE.CanvasTexture(c);
+    t.anisotropy = 4;
+    t._pkgLabel = c._pkgLabel;
+    return t;
+  }
+
+  function makePlainSide(tint) {
+    const S = 128;
+    const c = document.createElement('canvas'); c.width = c.height = S;
+    const ctx = c.getContext('2d');
+    cardboardBase(ctx, S, S, tint);
+    tapeStrip(ctx, S/2 - 11, 0, 22, 18, true);
+    const t = new THREE.CanvasTexture(c);
+    t.anisotropy = 4;
+    return t;
+  }
+
+  // material pool — many distinct labelled boxes; each chunk draws a palette
+  // of VARIANTS from this pool so different regions show different packages
+  const VARIANTS = 8;
+  const POOL = 28;
+  const variantMats = [];
+  const variantLabels = [];
+  for (let v = 0; v < POOL; v++) {
+    const tint = (Math.random()-0.5)*8;
+    const top = makeTopTexture(tint);
+    const labelSide = makeSideTexture(tint, true);
+    const plain = makePlainSide(tint);
+    variantLabels.push(labelSide._pkgLabel || (genPkgName()+'@'+genVersion()));
+    const mat = [
+      new THREE.MeshLambertMaterial({ map: plain }),
+      new THREE.MeshLambertMaterial({ map: plain }),
+      new THREE.MeshLambertMaterial({ map: top }),
+      new THREE.MeshLambertMaterial({ map: makePlainSide(tint) }),
+      new THREE.MeshLambertMaterial({ map: labelSide }),
+      new THREE.MeshLambertMaterial({ map: makeSideTexture(tint, Math.random()<0.4) }),
+    ];
+    variantMats.push(mat);
+  }
+
+  function paletteFor(ci, cj) {
+    // deterministic 8-of-POOL selection per chunk
+    const out = [];
+    let seed = hash(ci*0.31+9.9, cj*0.77+3.3);
+    for (let i = 0; i < VARIANTS; i++) {
+      seed = hash(seed*100+i, ci-cj+i);
+      let idx = (seed * POOL) | 0;
+      while (out.includes(idx)) idx = (idx+1) % POOL;
+      out.push(idx);
+    }
+    return out;
+  }
+
+  // ---------------------------------------------------------------------------
+  // infinite deterministic heap field
+  // one mound per ~11×11 cell, position/size derived from cell coords,
+  // ~28% of cells empty so you get clearings between piles.
+  // heightAt only consults the 3×3 neighbourhood of mound cells.
+  // ---------------------------------------------------------------------------
+  function hash(x, z) {
+    let n = Math.sin(x*127.1 + z*311.7) * 43758.5453;
+    return n - Math.floor(n);
+  }
+
+  const MCELL = 11;
+  const moundCache = new Map();
+  function moundFor(ci, cj) {
+    const key = ci + '|' + cj;
+    let m = moundCache.get(key);
+    if (m !== undefined) return m;
+    const a = hash(ci*13.1, cj*7.7);
+    const b = hash(ci*5.3+1.1, cj*11.9+2.2);
+    const c = hash(ci*3.7+4.4, cj*17.1+5.5);
+    const d = hash(ci*23.3+6.6, cj*2.9+7.7);
+    m = (d < 0.28) ? null : {
+      x: (ci + 0.15 + a*0.7) * MCELL,
+      z: (cj + 0.15 + b*0.7) * MCELL,
+      r: 2.5 + c*5,
+      h: 2 + b*6 + (a < 0.12 ? 4 : 0)
+    };
+    moundCache.set(key, m);
+    if (moundCache.size > 4000) moundCache.clear();
+    return m;
+  }
+
+  function heightAt(x, z) {
+    const ci = Math.floor(x / MCELL), cj = Math.floor(z / MCELL);
+    let h = 0;
+    for (let di = -1; di <= 1; di++)
+      for (let dj = -1; dj <= 1; dj++) {
+        const m = moundFor(ci+di, cj+dj);
+        if (!m) continue;
+        const dx = x - m.x, dz = z - m.z;
+        h += m.h * Math.exp(-(dx*dx + dz*dz) / (m.r*m.r) * 1.4);
+      }
+    h += (hash(Math.floor(x), Math.floor(z)) - 0.35) * 1.2;
+    return Math.max(0, h);
+  }
+
+  // ---------------------------------------------------------------------------
+  // scene
+  // ---------------------------------------------------------------------------
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x2a2419);
+  scene.fog = new THREE.FogExp2(0x2a2419, 0.022);
+
+  const camera = new THREE.PerspectiveCamera(72, innerWidth/innerHeight, 0.1, 500);
+
+  const renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  renderer.setSize(innerWidth, innerHeight);
+  document.body.appendChild(renderer.domElement);
+
+  scene.add(new THREE.AmbientLight(0x6b5e48, 0.9));
+  const sun = new THREE.DirectionalLight(0xffe9c4, 1.1);
+  sun.position.set(30, 50, 18);
+  scene.add(sun);
+  const fill = new THREE.DirectionalLight(0x4a5a6b, 0.35);
+  fill.position.set(-20, 10, -30);
+  scene.add(fill);
+
+  // floor — repositioned under the player each frame so it never ends
+  let floor;
+  {
+    const c = document.createElement('canvas'); c.width = c.height = 256;
+    const ctx = c.getContext('2d');
+    ctx.fillStyle = '#3a342a'; ctx.fillRect(0,0,256,256);
+    noise2d(ctx, 256, 256, 14);
+    const ft = new THREE.CanvasTexture(c);
+    ft.wrapS = ft.wrapT = THREE.RepeatWrapping;
+    ft.repeat.set(50, 50);
+    floor = new THREE.Mesh(
+      new THREE.PlaneGeometry(500, 500),
+      new THREE.MeshLambertMaterial({ map: ft })
+    );
+    floor.rotation.x = -Math.PI/2;
+    floor.position.y = -0.56;
+    scene.add(floor);
+  }
+
+  // dust motes — also recentred on player
+  let motes;
+  {
+    const N = 600;
+    const pos = new Float32Array(N*3);
+    for (let i=0;i<N;i++){
+      pos[i*3]   = (Math.random()-0.5)*120;
+      pos[i*3+1] = Math.random()*40;
+      pos[i*3+2] = (Math.random()-0.5)*120;
+    }
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(pos,3));
+    motes = new THREE.Points(g, new THREE.PointsMaterial({
+      color: 0xcab882, size: 0.12, transparent: true, opacity: 0.35, depthWrite: false
+    }));
+    scene.add(motes);
+  }
+
+  // ---------------------------------------------------------------------------
+  // chunk streaming
+  // ---------------------------------------------------------------------------
+  const CHUNK   = 16;
+  const RADIUS  = 4;            // chunks in each direction
+  const world   = new THREE.Group(); scene.add(world);
+  const chunks  = new Map();    // key -> Group
+  const pending = [];           // build queue, nearest first
+  const geom    = new THREE.BoxGeometry(1, 1, 1);
+  const dummy   = new THREE.Object3D();
+  let totalLoaded = 0;
+
+  function chunkKey(ci, cj){ return ci + ',' + cj; }
+
+  function buildChunk(ci, cj) {
+    const x0 = ci*CHUNK, z0 = cj*CHUNK;
+    const buckets = Array.from({length: VARIANTS}, () => []);
+    for (let lx = 0; lx < CHUNK; lx++) {
+      for (let lz = 0; lz < CHUNK; lz++) {
+        const x = x0+lx, z = z0+lz;
+        const h = heightAt(x, z) | 0;
+        for (let y = 0; y < h; y++) {
+          const exposed =
+            y === 0 || y >= h-1 ||
+            (heightAt(x+1,z)|0) <= y || (heightAt(x-1,z)|0) <= y ||
+            (heightAt(x,z+1)|0) <= y || (heightAt(x,z-1)|0) <= y;
+          if (!exposed) continue;
+          const v = (hash(x*7+y*13, z*3+y*5) * VARIANTS) | 0;
+          buckets[v].push(x, y, z, hash(x+y, z+y));
+        }
+        // deterministic loose scatter on empty floor
+        if (h === 0 && hash(x*1.7+0.3, z*2.3+0.9) < 0.07) {
+          const v = (hash(x*9.1, z*4.2) * VARIANTS) | 0;
+          buckets[v].push(x, 0, z, hash(x+0.5, z+0.5));
+        }
+      }
+    }
+    const group = new THREE.Group();
+    const pal = paletteFor(ci, cj);
+    let n = 0;
+    for (let v = 0; v < VARIANTS; v++) {
+      const data = buckets[v];
+      const count = data.length / 4;
+      if (!count) continue;
+      const matIdx = pal[v];
+      const im = new THREE.InstancedMesh(geom, variantMats[matIdx], count);
+      im.frustumCulled = false;
+      for (let i = 0; i < count; i++) {
+        const x = data[i*4], y = data[i*4+1], z = data[i*4+2], r = data[i*4+3];
+        const loose = (y === 0 && (heightAt(x,z)|0) <= 1);
+        dummy.position.set(
+          x + (r-0.5) * (loose ? 0.3 : 0.04),
+          y,
+          z + (hash(z,x)-0.5) * (loose ? 0.3 : 0.04)
+        );
+        dummy.rotation.set(
+          loose ? (r-0.5)*0.5 : 0,
+          Math.floor(r*4) * Math.PI/2 + (r-0.5) * (loose ? 0.6 : 0.05),
+          loose ? (hash(y,x)-0.5)*0.5 : 0
+        );
+        const s = 1.0 + (r-0.5)*0.04;
+        dummy.scale.set(s, 0.92 + hash(x,y)*0.12, s);
+        dummy.updateMatrix();
+        im.setMatrixAt(i, dummy.matrix);
+      }
+      im.userData.label = variantLabels[matIdx];
+      group.add(im);
+      n += count;
+    }
+    group.userData = { ci, cj, n };
+    world.add(group);
+    totalLoaded += n;
+    return group;
+  }
+
+  function disposeChunk(group) {
+    totalLoaded -= group.userData.n;
+    for (const m of group.children) m.dispose();
+    world.remove(group);
+  }
+
+  function updateChunks(px, pz) {
+    const pci = Math.floor(px / CHUNK);
+    const pcj = Math.floor(pz / CHUNK);
+
+    // queue any missing chunks within radius
+    for (let di = -RADIUS; di <= RADIUS; di++)
+      for (let dj = -RADIUS; dj <= RADIUS; dj++) {
+        const ci = pci+di, cj = pcj+dj;
+        const k = chunkKey(ci, cj);
+        if (chunks.has(k)) continue;
+        chunks.set(k, null);                          // reserve
+        pending.push({ ci, cj, k, d: di*di + dj*dj });
+      }
+    // nearest first
+    pending.sort((a,b) => a.d - b.d);
+
+    // build a couple per frame to avoid hitching
+    let budget = 2;
+    while (budget-- > 0 && pending.length) {
+      const job = pending.shift();
+      // re-check distance — might have walked away while it was queued
+      const ddi = job.ci - pci, ddj = job.cj - pcj;
+      if (Math.abs(ddi) > RADIUS || Math.abs(ddj) > RADIUS) {
+        chunks.delete(job.k); budget++; continue;
+      }
+      chunks.set(job.k, buildChunk(job.ci, job.cj));
+    }
+
+    // evict anything now out of range
+    for (const [k, g] of chunks) {
+      if (g === null) continue;
+      const ddi = g.userData.ci - pci, ddj = g.userData.cj - pcj;
+      if (Math.abs(ddi) > RADIUS+1 || Math.abs(ddj) > RADIUS+1) {
+        disposeChunk(g);
+        chunks.delete(k);
+      }
+    }
+
+    document.getElementById('pkgcount').textContent = totalLoaded.toLocaleString();
+    document.getElementById('diskuse').textContent =
+      (totalLoaded * 0.37).toFixed(1) + ' GB';
+  }
+
+  // ---------------------------------------------------------------------------
+  // first-person controls — manual pointer lock + terrain following
+  // ---------------------------------------------------------------------------
+  const player = {
+    pos: new THREE.Vector3(4, 0, 4),
+    yaw: Math.PI*0.75, pitch: -0.05,
+    vy: 0, flying: false
+  };
+  player.pos.y = heightAt(player.pos.x, player.pos.z) + 1.7;
+
+  const keys = {};
+  addEventListener('keydown', e => { keys[e.code] = true; });
+  addEventListener('keyup',   e => { keys[e.code] = false; });
+
+  // ---- input: pointer-lock on desktop, drag-look + D-pad on touch ----------
+  const gate = document.getElementById('gate');
+  const dpad = document.getElementById('dpad');
+  let touchMode = false;
+
+  function enterTouchMode() {
+    if (touchMode) return;
+    touchMode = true;
+    document.body.classList.add('touch');
+  }
+  if (matchMedia('(pointer: coarse)').matches || 'ontouchstart' in window) enterTouchMode();
+
+  gate.addEventListener('click', () => {
+    if (touchMode) { gate.style.display = 'none'; return; }
+    renderer.domElement.requestPointerLock();
+  });
+  gate.addEventListener('touchstart', e => {
+    e.preventDefault(); enterTouchMode(); gate.style.display = 'none';
+  }, { passive: false });
+
+  document.addEventListener('pointerlockchange', () => {
+    if (touchMode) return;
+    gate.style.display = document.pointerLockElement ? 'none' : 'grid';
+  });
+  document.addEventListener('mousemove', e => {
+    if (!document.pointerLockElement) return;
+    player.yaw   -= e.movementX * 0.0022;
+    player.pitch -= e.movementY * 0.0022;
+    player.pitch = Math.max(-1.45, Math.min(1.45, player.pitch));
+  });
+
+  // drag-to-look: track the first touch that didn't land on the D-pad
+  let lookTouch = null;
+  document.addEventListener('touchstart', e => {
+    enterTouchMode();
+    if (lookTouch !== null) return;
+    for (const t of e.changedTouches) {
+      if (dpad.contains(t.target)) continue;
+      lookTouch = { id: t.identifier, x: t.clientX, y: t.clientY };
+      break;
+    }
+  }, { passive: true });
+  document.addEventListener('touchmove', e => {
+    if (lookTouch === null) return;
+    for (const t of e.changedTouches) {
+      if (t.identifier !== lookTouch.id) continue;
+      const dx = t.clientX - lookTouch.x;
+      const dy = t.clientY - lookTouch.y;
+      lookTouch.x = t.clientX; lookTouch.y = t.clientY;
+      player.yaw   -= dx * 0.004;
+      player.pitch -= dy * 0.004;
+      player.pitch = Math.max(-1.45, Math.min(1.45, player.pitch));
+      e.preventDefault();
+    }
+  }, { passive: false });
+  function endLook(e) {
+    if (lookTouch === null) return;
+    for (const t of e.changedTouches)
+      if (t.identifier === lookTouch.id) { lookTouch = null; return; }
+  }
+  document.addEventListener('touchend', endLook);
+  document.addEventListener('touchcancel', endLook);
+
+  // D-pad: hold-to-move via pointer events (covers touch + mouse-hold)
+  for (const btn of dpad.querySelectorAll('button[data-k]')) {
+    const k = btn.dataset.k;
+    const on  = e => { e.preventDefault(); e.stopPropagation();
+                       btn.setPointerCapture?.(e.pointerId); keys[k] = true; };
+    const off = e => { e.stopPropagation(); keys[k] = false; };
+    btn.addEventListener('pointerdown', on);
+    btn.addEventListener('pointerup', off);
+    btn.addEventListener('pointercancel', off);
+    btn.addEventListener('pointerleave', off);
+    btn.addEventListener('contextmenu', e => e.preventDefault());
+  }
+
+  const ray = new THREE.Raycaster();
+  ray.far = 8;
+  const lookEl = document.getElementById('lookingat');
+
+  function tick(dt) {
+    const spd = (keys['ShiftLeft'] ? 12 : 5.5) * dt;
+    const fwd   = new THREE.Vector3(Math.sin(player.yaw), 0, Math.cos(player.yaw));
+    const right = new THREE.Vector3(-Math.cos(player.yaw), 0, Math.sin(player.yaw));
+    if (keys['KeyW']) player.pos.addScaledVector(fwd,    spd);
+    if (keys['KeyS']) player.pos.addScaledVector(fwd,   -spd);
+    if (keys['KeyA']) player.pos.addScaledVector(right, -spd);
+    if (keys['KeyD']) player.pos.addScaledVector(right,  spd);
+
+    if (keys['Space']) { player.flying = true; player.pos.y += spd; }
+
+    const groundY = heightAt(player.pos.x, player.pos.z) + 1.7;
+    if (!keys['Space']) {
+      if (player.pos.y > groundY + 0.1) {
+        player.vy -= 28 * dt;
+        player.pos.y += player.vy * dt;
+        if (player.pos.y <= groundY) { player.pos.y = groundY; player.vy = 0; player.flying = false; }
+      } else {
+        player.pos.y += (groundY - player.pos.y) * Math.min(1, dt*12);
+        player.vy = 0; player.flying = false;
+      }
+    } else { player.vy = 0; }
+
+    // stream chunks around the player
+    updateChunks(player.pos.x, player.pos.z);
+
+    // drag the infinite-looking bits along with us
+    floor.position.x = player.pos.x;
+    floor.position.z = player.pos.z;
+    motes.position.x = player.pos.x;
+    motes.position.z = player.pos.z;
+    sun.position.set(player.pos.x + 30, 50, player.pos.z + 18);
+
+    camera.position.copy(player.pos);
+    const lookDir = new THREE.Vector3(
+      Math.sin(player.yaw) * Math.cos(player.pitch),
+      Math.sin(player.pitch),
+      Math.cos(player.yaw) * Math.cos(player.pitch)
+    );
+    camera.lookAt(player.pos.clone().add(lookDir));
+
+    ray.set(camera.position, lookDir.normalize());
+    const hits = ray.intersectObjects(world.children, true);
+    if (hits.length && hits[0].distance < 8) {
+      lookEl.textContent = hits[0].object.userData.label;
+    } else {
+      lookEl.innerHTML = '&nbsp;';
+    }
+  }
+
+  // warm up: build the spawn neighbourhood synchronously so we don't open on void
+  for (let i = 0; i < 30; i++) updateChunks(player.pos.x, player.pos.z);
+
+  let last = performance.now();
+  function loop(t) {
+    const dt = Math.min(0.05, (t - last)/1000); last = t;
+    tick(dt);
+    renderer.render(scene, camera);
+    requestAnimationFrame(loop);
+  }
+  requestAnimationFrame(loop);
+
+  addEventListener('resize', () => {
+    camera.aspect = innerWidth/innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(innerWidth, innerHeight);
+  });
+})();
+</script>
+</body>
+</html>
