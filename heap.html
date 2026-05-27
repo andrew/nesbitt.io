@@ -318,6 +318,34 @@
     return out;
   }
 
+  // ---- rare blocks ----------------------------------------------------------
+  function oreTex(base, dark, light) {
+    return pixelTex(16, 16, (ctx,w,h) => {
+      ctx.fillStyle = base; ctx.fillRect(0,0,w,h);
+      for (let y=0;y<h;y++) for (let x=0;x<w;x++) {
+        const r = hash(x*1.7, y*2.3);
+        if (r < 0.12) { ctx.fillStyle = dark;  ctx.fillRect(x,y,1,1); }
+        else if (r > 0.88) { ctx.fillStyle = light; ctx.fillRect(x,y,1,1); }
+      }
+      ctx.strokeStyle = dark; ctx.lineWidth = 1;
+      ctx.strokeRect(0.5,0.5,w-1,h-1);
+    });
+  }
+  const goldMat = new THREE.MeshPhongMaterial({
+    map: oreTex('#f5c542','#b8860b','#fff1a8'),
+    specular: 0xffffff, shininess: 80,
+    emissive: 0x6b4e00, emissiveIntensity: 0.25
+  });
+  const diamondMat = new THREE.MeshPhongMaterial({
+    map: oreTex('#7feaff','#2a9bb5','#e8ffff'),
+    specular: 0xffffff, shininess: 120,
+    emissive: 0x2ad4ff, emissiveIntensity: 0.55
+  });
+  const GOLD_NAMES = ['react','lodash','express','typescript','webpack','vite',
+                      'next','vue','svelte','esbuild'];
+  const DIAMOND_NAMES = ['left-pad@1.0.0','event-stream@3.3.6','colors@1.4.44',
+                         'ua-parser-js@0.7.29','node-ipc@10.1.1'];
+
   // ---------------------------------------------------------------------------
   // infinite deterministic heap field
   // one mound per ~11×11 cell, position/size derived from cell coords,
@@ -440,6 +468,7 @@
   function buildChunk(ci, cj) {
     const x0 = ci*CHUNK, z0 = cj*CHUNK;
     const buckets = Array.from({length: VARIANTS}, () => []);
+    const goldB = [], diaB = [];
     for (let lx = 0; lx < CHUNK; lx++) {
       for (let lz = 0; lz < CHUNK; lz++) {
         const x = x0+lx, z = z0+lz;
@@ -450,10 +479,15 @@
             (heightAt(x+1,z)|0) <= y || (heightAt(x-1,z)|0) <= y ||
             (heightAt(x,z+1)|0) <= y || (heightAt(x,z-1)|0) <= y;
           if (!exposed) continue;
-          const v = (hash(x*7+y*13, z*3+y*5) * VARIANTS) | 0;
-          buckets[v].push(x, y, z, hash(x+y, z+y));
+          const rr = hash(x*0.91+y*4.3+0.11, z*1.37+y*2.7+0.23);
+          const rec = [x, y, z, hash(x+y, z+y)];
+          if (rr < 0.00001)      diaB.push(...rec);     // ultra rare ~0.001%
+          else if (rr < 0.0001)  goldB.push(...rec);    // rare       ~0.01%
+          else {
+            const v = (hash(x*7+y*13, z*3+y*5) * VARIANTS) | 0;
+            buckets[v].push(...rec);
+          }
         }
-        // deterministic loose scatter on empty floor
         if (h === 0 && hash(x*1.7+0.3, z*2.3+0.9) < 0.07) {
           const v = (hash(x*9.1, z*4.2) * VARIANTS) | 0;
           buckets[v].push(x, 0, z, hash(x+0.5, z+0.5));
@@ -463,12 +497,11 @@
     const group = new THREE.Group();
     const pal = paletteFor(ci, cj);
     let n = 0;
-    for (let v = 0; v < VARIANTS; v++) {
-      const data = buckets[v];
+
+    function emit(data, material, label) {
       const count = data.length / 4;
-      if (!count) continue;
-      const matIdx = pal[v];
-      const im = new THREE.InstancedMesh(geom, variantMats[matIdx], count);
+      if (!count) return;
+      const im = new THREE.InstancedMesh(geom, material, count);
       im.frustumCulled = false;
       for (let i = 0; i < count; i++) {
         const x = data[i*4], y = data[i*4+1], z = data[i*4+2], r = data[i*4+3];
@@ -488,10 +521,19 @@
         dummy.updateMatrix();
         im.setMatrixAt(i, dummy.matrix);
       }
-      im.userData.label = variantLabels[matIdx];
+      im.userData.label = label;
       group.add(im);
       n += count;
     }
+
+    for (let v = 0; v < VARIANTS; v++) {
+      const matIdx = pal[v];
+      emit(buckets[v], variantMats[matIdx], variantLabels[matIdx]);
+    }
+    emit(goldB, goldMat,
+         '★ ' + pick(GOLD_NAMES) + '@' + ((1+Math.random()*20)|0) + '.0.0');
+    emit(diaB,  diamondMat, '💎 ' + pick(DIAMOND_NAMES));
+
     group.userData = { ci, cj, n };
     world.add(group);
     totalLoaded += n;
@@ -548,12 +590,130 @@
   }
 
   // ---------------------------------------------------------------------------
+  // first-person arm holding a mouse — separate scene rendered after a
+  // depth clear so it never clips into world geometry (the minecraft way)
+  // ---------------------------------------------------------------------------
+  function pixelTex(w, h, draw) {
+    const c = document.createElement('canvas'); c.width = w; c.height = h;
+    const ctx = c.getContext('2d');
+    draw(ctx, w, h);
+    const t = new THREE.CanvasTexture(c);
+    t.magFilter = THREE.NearestFilter;
+    t.minFilter = THREE.NearestFilter;
+    return t;
+  }
+
+  const sleeveTex = pixelTex(16, 32, (ctx,w,h) => {
+    ctx.fillStyle = '#3b4252'; ctx.fillRect(0,0,w,h);
+    for (let y=0;y<h;y++) for (let x=0;x<w;x++)
+      if (hash(x,y) < 0.25) { ctx.fillStyle = '#323847'; ctx.fillRect(x,y,1,1); }
+    ctx.fillStyle = '#2a2f3b'; ctx.fillRect(0,h-3,w,3); // cuff
+  });
+  const skinTex = pixelTex(8, 8, (ctx,w,h) => {
+    ctx.fillStyle = '#e8b896'; ctx.fillRect(0,0,w,h);
+    for (let y=0;y<h;y++) for (let x=0;x<w;x++)
+      if (hash(x*3,y*3) < 0.3) { ctx.fillStyle = '#dfab87'; ctx.fillRect(x,y,1,1); }
+  });
+
+  const armScene  = new THREE.Scene();
+  const armCamera = new THREE.PerspectiveCamera(70, innerWidth/innerHeight, 0.01, 10);
+  armScene.add(new THREE.AmbientLight(0x8a7a5e, 1.0));
+  const armSun = new THREE.DirectionalLight(0xffe9c4, 0.9);
+  armSun.position.set(-1, 2, 1);
+  armScene.add(armSun);
+
+  const arm = new THREE.Group();
+  {
+    const sleeve = new THREE.MeshLambertMaterial({ map: sleeveTex });
+    const skin   = new THREE.MeshLambertMaterial({ map: skinTex });
+    const shellD = new THREE.MeshLambertMaterial({ color: 0x232323 });
+    const shellL = new THREE.MeshLambertMaterial({ color: 0x3a3a3a });
+    const accent = new THREE.MeshLambertMaterial({ color: 0x1a1a1a });
+    const glow   = new THREE.MeshBasicMaterial({ color: 0xff3322 });
+
+    const forearm = new THREE.Mesh(new THREE.BoxGeometry(0.13, 0.13, 0.55), sleeve);
+    forearm.position.set(0, 0, 0.18);
+    arm.add(forearm);
+
+    const hand = new THREE.Mesh(new THREE.BoxGeometry(0.135, 0.08, 0.17), skin);
+    hand.position.set(0, -0.015, -0.145);
+    arm.add(hand);
+
+    const thumb = new THREE.Mesh(new THREE.BoxGeometry(0.04, 0.05, 0.10), skin);
+    thumb.position.set(-0.085, -0.035, -0.16);
+    thumb.rotation.z = 0.3;
+    arm.add(thumb);
+
+    // fingers draped over the buttons
+    for (let i = 0; i < 3; i++) {
+      const f = new THREE.Mesh(new THREE.BoxGeometry(0.033, 0.028, 0.11), skin);
+      f.position.set(-0.035 + i*0.042, 0.002, -0.255);
+      f.rotation.x = -0.35;
+      arm.add(f);
+    }
+
+    const mouse = new THREE.Group();
+    mouse.position.set(0, -0.055, -0.205);
+    arm.add(mouse);
+
+    const body = new THREE.Mesh(new THREE.BoxGeometry(0.13, 0.06, 0.20), shellD);
+    mouse.add(body);
+    const hump = new THREE.Mesh(new THREE.BoxGeometry(0.115, 0.03, 0.14), shellL);
+    hump.position.set(0, 0.04, 0.01);
+    mouse.add(hump);
+
+    const lbtn = new THREE.Mesh(new THREE.BoxGeometry(0.052, 0.018, 0.09), shellL);
+    lbtn.position.set(-0.031, 0.042, -0.055);
+    mouse.add(lbtn);
+    const rbtn = new THREE.Mesh(new THREE.BoxGeometry(0.052, 0.018, 0.09), shellL);
+    rbtn.position.set(0.031, 0.042, -0.055);
+    mouse.add(rbtn);
+
+    const wheel = new THREE.Mesh(new THREE.CylinderGeometry(0.013, 0.013, 0.012, 8), accent);
+    wheel.rotation.z = Math.PI/2;
+    wheel.position.set(0, 0.05, -0.04);
+    mouse.add(wheel);
+
+    const led = new THREE.Mesh(new THREE.BoxGeometry(0.02, 0.004, 0.03), glow);
+    led.position.set(0, -0.031, 0.02);
+    mouse.add(led);
+
+    // chunky cable
+    let cx = 0, cz = -0.10;
+    for (let i = 0; i < 5; i++) {
+      const seg = new THREE.Mesh(new THREE.BoxGeometry(0.014, 0.014, 0.05), accent);
+      cz -= 0.045; cx += (i-2)*0.006;
+      seg.position.set(cx, -0.02, cz);
+      seg.rotation.y = (i-2)*0.12;
+      mouse.add(seg);
+    }
+  }
+  // place in view — fairly central, angled slightly in from the right
+  const armRest = { x: 0.22, y: -0.34, z: -0.60 };
+  arm.position.set(armRest.x, armRest.y, armRest.z);
+  arm.rotation.set(0.35, -0.30, 0.10);
+  armScene.add(arm);
+
+  let bobPhase = 0;
+  function updateArm(dt, moving, lookDx, lookDy) {
+    bobPhase += dt * (moving ? 9 : 1.4);
+    const wb = moving ? 1 : 0.25;
+    arm.position.x = armRest.x + Math.cos(bobPhase*0.5) * 0.012 * wb - lookDx*0.06;
+    arm.position.y = armRest.y + Math.sin(bobPhase)     * 0.018 * wb - lookDy*0.06;
+    arm.position.z = armRest.z + Math.sin(bobPhase*0.5) * 0.006 * wb;
+    arm.rotation.z = 0.15 + Math.sin(bobPhase) * 0.02 * wb;
+  }
+
+  renderer.autoClear = false;
+
+  // ---------------------------------------------------------------------------
   // first-person controls — manual pointer lock + terrain following
   // ---------------------------------------------------------------------------
   const player = {
     pos: new THREE.Vector3(4, 0, 4),
     yaw: Math.PI*0.75, pitch: -0.05,
-    vy: 0, flying: false
+    vy: 0, flying: false,
+    lookDx: 0, lookDy: 0      // smoothed look velocity, for arm sway
   };
   player.pos.y = heightAt(player.pos.x, player.pos.z) + 1.7;
 
@@ -587,9 +747,19 @@
   });
   document.addEventListener('mousemove', e => {
     if (!document.pointerLockElement) return;
-    player.yaw   -= e.movementX * 0.0022;
-    player.pitch -= e.movementY * 0.0022;
+    // movementX/Y are reported in device pixels in some browsers under
+    // pointer lock (notably Chromium), so a 2× or 3× display spins 2–3× too
+    // fast. Normalise by DPR, and clamp the occasional giant spike some
+    // platforms emit on lock acquire / internal edge wrap.
+    const dpr = window.devicePixelRatio || 1;
+    const clamp = v => Math.max(-150, Math.min(150, v));
+    const mx = clamp(e.movementX) / dpr;
+    const my = clamp(e.movementY) / dpr;
+    player.yaw   -= mx * 0.0022;
+    player.pitch -= my * 0.0022;
     player.pitch = Math.max(-1.45, Math.min(1.45, player.pitch));
+    player.lookDx += mx * 0.003;
+    player.lookDy += my * 0.003;
   });
 
   // drag-to-look: track the first touch that didn't land on the D-pad
@@ -613,6 +783,8 @@
       player.yaw   -= dx * 0.004;
       player.pitch -= dy * 0.004;
       player.pitch = Math.max(-1.45, Math.min(1.45, player.pitch));
+      player.lookDx += dx * 0.004;
+      player.lookDy += dy * 0.004;
       e.preventDefault();
     }
   }, { passive: false });
@@ -689,6 +861,14 @@
     } else {
       lookEl.innerHTML = '&nbsp;';
     }
+
+    // arm bob + look-sway
+    const moving = keys['KeyW']||keys['KeyS']||keys['KeyA']||keys['KeyD'];
+    player.lookDx *= Math.max(0, 1 - dt*8);
+    player.lookDy *= Math.max(0, 1 - dt*8);
+    player.lookDx = Math.max(-1, Math.min(1, player.lookDx));
+    player.lookDy = Math.max(-1, Math.min(1, player.lookDy));
+    updateArm(dt, moving, player.lookDx, player.lookDy);
   }
 
   // warm up: build the spawn neighbourhood synchronously so we don't open on void
@@ -698,14 +878,18 @@
   function loop(t) {
     const dt = Math.min(0.05, (t - last)/1000); last = t;
     tick(dt);
+    renderer.clear();
     renderer.render(scene, camera);
+    renderer.clearDepth();
+    renderer.render(armScene, armCamera);
     requestAnimationFrame(loop);
   }
   requestAnimationFrame(loop);
 
   addEventListener('resize', () => {
-    camera.aspect = innerWidth/innerHeight;
+    camera.aspect = armCamera.aspect = innerWidth/innerHeight;
     camera.updateProjectionMatrix();
+    armCamera.updateProjectionMatrix();
     renderer.setSize(innerWidth, innerHeight);
   });
 })();
