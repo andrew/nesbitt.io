@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [CHAOSS Metrics in 2026](https://nesbitt.io/2026/05/27/chaoss-metrics-in-2026.html)
 - [GitHub Actions security in Python packages](https://nesbitt.io/2026/05/25/github-actions-security-in-python-packages.html)
 - [Signing is for the bad days](https://nesbitt.io/2026/05/24/signing-is-for-the-bad-days.html)
 - [This Week in Package Management: 23 May 2026](https://nesbitt.io/2026/05/23/this-week-in-package-management.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Language Registries Are Unstable by Default](https://nesbitt.io/2026/05/15/language-registries-are-unstable-by-default.html)
 - [Centrality is not vitality](https://nesbitt.io/2026/05/14/centrality-is-not-vitality.html)
 - [Showing Our Work](https://nesbitt.io/2026/05/13/showing-our-work.html)
-- [Not a Security Issue](https://nesbitt.io/2026/05/12/not-a-security-issue.html)
 <!-- POSTS:END -->
