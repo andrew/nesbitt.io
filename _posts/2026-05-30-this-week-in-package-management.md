@@ -16,6 +16,8 @@ npm [invalidated every granular access token with write access that bypassed 2FA
 
 pnpm hardened lockfile integrity on both maintained lines. [10.34.0](https://github.com/pnpm/pnpm/releases/tag/v10.34.0) makes a tarball-integrity mismatch a hard failure instead of quietly re-resolving and overwriting the locked hash, and [10.34.1](https://github.com/pnpm/pnpm/releases/tag/v10.34.1) rejects lockfile entries whose `resolution:` block has no `integrity` field at all, closing a path where a PR that strips the field let unverified bytes through.
 
+[Cargo 1.96](https://doc.rust-lang.org/nightly/cargo/CHANGELOG.html#cargo-196-2026-05-28) ships fixes for two third-party-registry vulnerabilities: [CVE-2026-5223](https://blog.rust-lang.org/2026/05/25/cve-2026-5223/), symlink handling when extracting crate tarballs, and [CVE-2026-5222](https://blog.rust-lang.org/2026/05/25/cve-2026-5222/), authentication against normalised registry URLs. crates.io users are unaffected by either. Both are on the [package manager CWE list](/2026/05/04/package-manager-cwes.html) from earlier this month.
+
 Packagist published [an update on Composer supply chain security](https://blog.packagist.com/an-update-on-composer-packagist-supply-chain-security/) covering version immutability, a public transparency log, and the policy framework landing in Composer 2.10. I wrote up the [dependency policy side](/2026/05/29/composer-dependency-policies.html) yesterday.
 
 [Atomdrift](https://atomdrift.org/) is a new Apache-2.0 malware classifier for packages and binaries that runs its models locally with no network calls, with the components split out as separate Rust and Go tools on [Codeberg](https://codeberg.org/atomdrift).
