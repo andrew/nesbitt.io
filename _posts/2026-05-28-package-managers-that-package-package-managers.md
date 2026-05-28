@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Package managers that package package managers"
-date: 2026-05-30 10:00 +0000
-description: "Turtles, mostly."
+date: 2026-05-28 10:00 +0000
+description: "brew install pip install poetry add pdm add uv tool install conda"
 tags:
   - package-managers
 ---
