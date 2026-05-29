@@ -2,4 +2,5 @@ auto-reload no
 reload-threads 2
 reload-time 0
 download-timeout 30
+download-retries 2
 error-log "_twipm/newsboat/error.log"

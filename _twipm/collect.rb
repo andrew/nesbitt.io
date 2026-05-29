@@ -4,6 +4,7 @@ require "octokit"
 require "json"
 require "time"
 require "fileutils"
+require "set"
 require "tmpdir"
 require "optparse"
 require "shellwords"
@@ -20,6 +21,8 @@ OUTPUT = File.join(TWIPM, "collected.json")
 MASTODON_INSTANCE = "https://mastodon.social"
 MASTODON_ACCT = "andrewnez"
 GIT_PKGS_ORG = "git-pkgs"
+DBLP_TERMS = ["package manager", "software supply chain", "dependency confusion", "typosquatting"]
+DBLP_SEEN = File.join(TWIPM, "dblp_seen.txt")
 
 options = { days: 7, reload: true }
 OptionParser.new do |o|
@@ -215,6 +218,51 @@ rescue => e
   []
 end
 
+def http_get_json(url)
+  uri = URI(url)
+  req = Net::HTTP::Get.new(uri)
+  req["User-Agent"] = "nesbitt.io twipm collector"
+  req["Accept"] = "application/json"
+  res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: uri.scheme == "https") { |h| h.request(req) }
+  res.is_a?(Net::HTTPSuccess) ? JSON.parse(res.body) : nil
+end
+
+def dblp_authors(info)
+  a = info.dig("authors", "author")
+  a = a.is_a?(Array) ? a : [a].compact
+  a.map { |x| x.is_a?(Hash) ? x["text"] : x }.compact
+end
+
+def collect_dblp
+  min_year = Time.now.year - 1
+  seen = File.exist?(DBLP_SEEN) ? File.readlines(DBLP_SEEN, chomp: true).to_set : Set.new
+  hits = {}
+  DBLP_TERMS.each do |term|
+    q = URI.encode_www_form(q: term, format: "json", h: 50)
+    data = http_get_json("https://dblp.org/search/publ/api?#{q}") or next
+    Array(data.dig("result", "hits", "hit")).each do |h|
+      info = h["info"] or next
+      key = info["key"] or next
+      next if info["year"].to_i < min_year
+      hits[key] ||= {
+        key: key,
+        title: info["title"].to_s.sub(/\.\z/, ""),
+        authors: dblp_authors(info),
+        venue: info["venue"],
+        year: info["year"],
+        url: info["ee"] || info["url"],
+        new: !seen.include?(key)
+      }
+    end
+  end
+  new_hits = hits.values.select { |h| h[:new] }
+  File.write(DBLP_SEEN, (seen.to_a + new_hits.map { |h| h[:key] }).sort.uniq.join("\n") + "\n") unless new_hits.empty?
+  hits.values.sort_by { |h| [h[:new] ? 0 : 1, -h[:year].to_i, h[:title]] }
+rescue => e
+  warn "dblp skipped: #{e.message}"
+  []
+end
+
 def collect_bookmarks_txt(path)
   return [] unless File.exist?(path)
   File.readlines(path).filter_map do |line|
@@ -235,6 +283,7 @@ bookmarks = collect_firefox_bookmarks(since) + collect_bookmarks_txt(BOOKMARKS_T
 bookmarks.uniq! { |b| b[:url] }
 
 git_pkgs = collect_git_pkgs_releases(since)
+dblp = collect_dblp
 
 result = {
   since: since.utc.iso8601,
@@ -242,8 +291,9 @@ result = {
   feed_item_count: items.size,
   feeds: collapsed,
   bookmarks: bookmarks,
-  git_pkgs: git_pkgs
+  git_pkgs: git_pkgs,
+  dblp: dblp
 }
 
 File.write(OUTPUT, JSON.pretty_generate(result))
-warn "Wrote #{collapsed.size} feed items (#{items.size} raw), #{bookmarks.size} bookmarks, #{git_pkgs.size} git-pkgs releases to #{OUTPUT}"
+warn "Wrote #{collapsed.size} feed items (#{items.size} raw), #{bookmarks.size} bookmarks, #{git_pkgs.size} git-pkgs releases, #{dblp.count { |d| d[:new] }}/#{dblp.size} new DBLP papers to #{OUTPUT}"

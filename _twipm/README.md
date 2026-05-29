@@ -21,4 +21,8 @@ Then run `/twipm` in Claude Code to draft the post.
 - `bookmarks.txt` - one URL per line, optional note after whitespace. Append things during the week. Cleared after each post.
 - Firefox bookmarks tagged `twipm` - read automatically when a local profile exists, skipped otherwise.
 
-`newsboat/cache.db`, `newsboat/error.log`, and `collected.json` are gitignored.
+`newsboat/cache.db`, `newsboat/error.log`, `collected.json`, and `dblp_seen.txt` are gitignored.
+
+## Academic papers
+
+arXiv is subscribed as a search feed in `urls.extra` and arrives via newsboat like everything else. DBLP has no RSS and only year-level dates, so `collect.rb` queries its search API for a fixed term list, filters to last-year-onwards, and marks anything not already in `dblp_seen.txt` as `new: true` in `collected.json`. First run on a fresh machine reports everything as new.
