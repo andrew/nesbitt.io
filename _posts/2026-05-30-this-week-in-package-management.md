@@ -32,6 +32,8 @@ pnpm hardened lockfile integrity on both maintained lines. [10.34.0](https://git
 
 [mise 2026.5.16](https://github.com/jdx/mise/releases/tag/v2026.5.16) routes GitHub release metadata and attestation lookups through a shared `mise-versions` host before falling back to `api.github.com`, cutting anonymous API usage in CI, and adds an `allow_builds` tool option for npm-backend installs.
 
+[brew-vulns 0.3.0](https://github.com/Homebrew/homebrew-brew-vulns/releases/tag/v0.3.0) can now scan formulae that aren't installed, either by name or with `--all` for the whole of homebrew-core, and ships example GitHub Actions workflows for running it on tap PRs. The aim is to merge it into `brew` as a built-in command.
+
 Also out: [Deno 2.8.1](https://github.com/denoland/deno/releases/tag/v2.8.1), [uv 0.11.17](https://github.com/astral-sh/uv/releases/tag/0.11.17), [Conan 2.29.0](https://github.com/conan-io/conan/releases/tag/2.29.0), [Homebrew 5.1.14](https://github.com/Homebrew/brew/releases/tag/5.1.14), [conda 26.5.1](https://github.com/conda/conda/releases/tag/26.5.1), [Gradle 9.6.0-RC1](https://github.com/gradle/gradle/releases/tag/v9.6.0-RC1), [vcpkg 2026-05-27](https://github.com/microsoft/vcpkg-tool/releases/tag/2026-05-27), [Verdaccio 6.7.2](https://github.com/verdaccio/verdaccio/releases/tag/v6.7.2), [snapd 2.75.2.2](https://github.com/canonical/snapd/releases/tag/2.75.2.2).
 
 ## Articles
