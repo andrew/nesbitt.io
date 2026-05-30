@@ -8,23 +8,29 @@ tags:
   - weekly
 ---
 
+Back for a second week, built from the [package manager OPML feed collection](https://github.com/ecosyste-ms/package-managers-opml) and whatever I've posted or boosted on [Mastodon](https://mastodon.social/@andrewnez).
+
 ## Security
 
-npm [invalidated every granular access token with write access that bypassed 2FA](https://github.com/orgs/community/discussions/196340), following another Shai-Hulud-pattern attack. CI pipelines that publish with a granular token need a new one.
+npm [invalidated every granular access token with write access that bypassed 2FA](https://github.com/orgs/community/discussions/196340) following another Shai-Hulud-pattern attack, so CI pipelines that publish with one need to mint a new token.
 
-[npm 11.16.0](https://github.com/npm/cli/releases/tag/v11.16.0) ships phase one of the [`allowScripts` install-script policy](https://github.com/npm/cli/pull/9360): an opt-in allowlist in `package.json` that names which dependencies may run lifecycle scripts, with everything else silenced.
+[npm 11.16.0](https://github.com/npm/cli/releases/tag/v11.16.0) ships phase one of the [`allowScripts` install-script policy](https://github.com/npm/cli/pull/9360), an opt-in allowlist in `package.json` naming which dependencies may run lifecycle scripts; in this phase scripts outside the list still run but trigger a warning.
 
-pnpm hardened lockfile integrity on both maintained lines. [10.34.0](https://github.com/pnpm/pnpm/releases/tag/v10.34.0) makes a tarball-integrity mismatch a hard failure instead of quietly re-resolving and overwriting the locked hash, and [10.34.1](https://github.com/pnpm/pnpm/releases/tag/v10.34.1) rejects lockfile entries whose `resolution:` block has no `integrity` field at all, closing a path where a PR that strips the field let unverified bytes through.
+[pnpm 10.34.0](https://github.com/pnpm/pnpm/releases/tag/v10.34.0) and [11.4.0](https://github.com/pnpm/pnpm/releases/tag/v11.4.0) land the same security set on both maintained lines: a tarball-integrity mismatch is now a hard failure instead of quietly re-resolving and overwriting the locked hash, unscoped `_authToken` is bound to the registry from the same config source so a workspace `.npmrc` can't redirect a credential set in `~/.npmrc`, git-resolution `commit` values must be a 40-char SHA to block `--upload-pack` injection from a hostile lockfile, and patch files can't reference paths outside the patched package. [10.34.1](https://github.com/pnpm/pnpm/releases/tag/v10.34.1) followed by rejecting lockfile entries whose `resolution:` block has no `integrity` field at all, closing a path where a PR that strips the field let unverified bytes through.
 
-[Cargo 1.96](https://doc.rust-lang.org/nightly/cargo/CHANGELOG.html#cargo-196-2026-05-28) ships fixes for two third-party-registry vulnerabilities: [CVE-2026-5223](https://blog.rust-lang.org/2026/05/25/cve-2026-5223/), symlink handling when extracting crate tarballs, and [CVE-2026-5222](https://blog.rust-lang.org/2026/05/25/cve-2026-5222/), authentication against normalised registry URLs. crates.io users are unaffected by either. Both are on the [package manager CWE list](/2026/05/04/package-manager-cwes.html) from earlier this month.
+[NuGet.Server 3.4.3](https://github.com/NuGet/NuGet.Server/releases/tag/3.4.3) moves API-key validation ahead of package processing on the upload endpoint, fixing a DoS where unauthenticated requests could exhaust server resources.
 
-[Composer 2.10](https://blog.packagist.com/composer-2-10-release/) shipped with native malware filtering on by default for Packagist installs, fed by an Aikido detection feed. The new `config.policy` block consolidates how malware, advisories, and abandoned packages are handled, and source-fallback on dist failure is now off by default. Packagist's accompanying [supply-chain update](https://blog.packagist.com/an-update-on-composer-packagist-supply-chain-security/) covers version immutability and a public transparency log. I wrote up the [policy framework](/2026/05/29/composer-dependency-policies.html) yesterday.
+[Cargo 1.96](https://doc.rust-lang.org/nightly/cargo/CHANGELOG.html#cargo-196-2026-05-28) ships fixes for two third-party-registry vulnerabilities, [CVE-2026-5223](https://blog.rust-lang.org/2026/05/25/cve-2026-5223/) in symlink handling when extracting crate tarballs and [CVE-2026-5222](https://blog.rust-lang.org/2026/05/25/cve-2026-5222/) in authentication against normalised registry URLs, neither of which affects crates.io users. Both are on the [package manager CWE list](/2026/05/04/package-manager-cwes.html) from earlier this month.
 
-[Atomdrift](https://atomdrift.org/) is a new Apache-2.0 malware classifier for packages and binaries that runs its models locally with no network calls, with the components split out as separate Rust and Go tools on [Codeberg](https://codeberg.org/atomdrift).
+[Composer 2.10](https://blog.packagist.com/composer-2-10-release/) shipped with native malware filtering on by default for Packagist installs, fed by an Aikido detection feed. The new `config.policy` block, which I [wrote up yesterday](/2026/05/29/composer-dependency-policies.html), consolidates how malware, advisories, and abandoned packages are handled, and source-fallback on dist failure is now off by default. Packagist's accompanying [supply-chain update](https://blog.packagist.com/an-update-on-composer-packagist-supply-chain-security/) covers version immutability and a public transparency log.
+
+[Atomdrift](https://atomdrift.org/) is a new Apache-2.0 malware classifier for packages and binaries that runs its models locally with no network calls, with the components split out as separate tools on [Codeberg](https://codeberg.org/atomdrift).
 
 ## Releases
 
-[pnpm 11.3.0](https://github.com/pnpm/pnpm/releases/tag/v11.3.0) adds `pnpm stage` with `publish`, `list`, `view`, `approve`, `reject`, and `download` subcommands for npm's new staged publishing queue, so pnpm users can drive the 2FA-gated promote flow without switching client.
+[pnpm 11.3.0](https://github.com/pnpm/pnpm/releases/tag/v11.3.0) adds `pnpm stage` with `publish`, `list`, `view`, `approve`, `reject`, and `download` subcommands for npm's new staged publishing queue, so pnpm users can drive the 2FA-gated promote flow without switching client. [11.5.0](https://github.com/pnpm/pnpm/releases/tag/v11.5.0) follows with a yarn-style `hoistingLimits` setting for `nodeLinker: hoisted` installs and treats a registry `approver` field from a staged publish as the strongest trust evidence.
+
+[winget 1.29.240](https://github.com/microsoft/winget-cli/releases/tag/v1.29.240) is the first 1.29 release candidate, with an experimental `sourcePriority` feature for ranking configured sources.
 
 [dependabot-core 0.378.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.378.0) adds blocked-versions support to the updater job and dry-run script, letting a config pin specific versions out of consideration regardless of what the registry advertises.
 
@@ -32,9 +38,9 @@ pnpm hardened lockfile integrity on both maintained lines. [10.34.0](https://git
 
 [mise 2026.5.16](https://github.com/jdx/mise/releases/tag/v2026.5.16) routes GitHub release metadata and attestation lookups through a shared `mise-versions` host before falling back to `api.github.com`, cutting anonymous API usage in CI, and adds an `allow_builds` tool option for npm-backend installs.
 
-[brew-vulns 0.3.0](https://github.com/Homebrew/homebrew-brew-vulns/releases/tag/v0.3.0) can now scan formulae that aren't installed, either by name or with `--all` for the whole of homebrew-core, and ships example GitHub Actions workflows for running it on tap PRs. The aim is to merge it into `brew` as a built-in command.
+[brew-vulns 0.3.0](https://github.com/Homebrew/homebrew-brew-vulns/releases/tag/v0.3.0) can now scan formulae that aren't installed, either by name or with `--all` for the whole of homebrew-core, and ships example GitHub Actions workflows for running it on tap PRs, with the aim of merging into `brew` as a built-in command. A [related change I got into `brew` itself](https://github.com/Homebrew/brew/pull/22459) adds each formula's applied patches to `brew info --json` and the formulae.brew.sh API so scanners can see which packages Homebrew has modified relative to upstream.
 
-Also out: [Deno 2.8.1](https://github.com/denoland/deno/releases/tag/v2.8.1), [uv 0.11.17](https://github.com/astral-sh/uv/releases/tag/0.11.17), [Conan 2.29.0](https://github.com/conan-io/conan/releases/tag/2.29.0), [Homebrew 5.1.14](https://github.com/Homebrew/brew/releases/tag/5.1.14), [conda 26.5.1](https://github.com/conda/conda/releases/tag/26.5.1), [Gradle 9.6.0-RC1](https://github.com/gradle/gradle/releases/tag/v9.6.0-RC1), [vcpkg 2026-05-27](https://github.com/microsoft/vcpkg-tool/releases/tag/2026-05-27), [Verdaccio 6.7.2](https://github.com/verdaccio/verdaccio/releases/tag/v6.7.2), [snapd 2.75.2.2](https://github.com/canonical/snapd/releases/tag/2.75.2.2).
+Also out: [Deno 2.8.1](https://github.com/denoland/deno/releases/tag/v2.8.1), [uv 0.11.17](https://github.com/astral-sh/uv/releases/tag/0.11.17), [Conan 2.29.0](https://github.com/conan-io/conan/releases/tag/2.29.0), [Homebrew 5.1.14](https://github.com/Homebrew/brew/releases/tag/5.1.14), [conda 26.5.1](https://github.com/conda/conda/releases/tag/26.5.1), [Gradle 9.6.0-RC1](https://github.com/gradle/gradle/releases/tag/v9.6.0-RC1), [vcpkg 2026-05-27](https://github.com/microsoft/vcpkg-tool/releases/tag/2026-05-27), [Verdaccio 6.7.2](https://github.com/verdaccio/verdaccio/releases/tag/v6.7.2), [snapd 2.76](https://github.com/canonical/snapd/releases/tag/2.76), [pipx 1.13.0](https://github.com/pypa/pipx/releases/tag/1.13.0).
 
 ## Articles
 
@@ -48,7 +54,7 @@ Talk Python [episode 544](https://talkpython.fm/episodes/show/544/wheel-next-pac
 
 ## Elsewhere
 
-I made [heap](/heap), a first-person walk through your `node_modules` folder.
+I made [heap](/heap), a first-person walk through your `node_modules` folder, and [Clawtoberfest](/clawtoberfest/), a year-round Hacktoberfest for the agents that never stop opening pull requests. Building these little standalone satire pages is keeping me sane at the moment.
 
 Garnix, the hosted Nix CI service, is [shutting down on 15 July](https://discourse.nixos.org/t/garnix-is-shutting-down-not-oc/77895) as the team joins Shopify, and the [codebase is now open source](https://github.com/garnix-io/garnix-ci).
 
@@ -58,6 +64,6 @@ snix grew a [`snix-store import-nar` subcommand](https://snix.dev/docs/component
 
 ## git-pkgs
 
-I tagged [git-pkgs v0.16.2](https://github.com/git-pkgs/git-pkgs/releases/tag/v0.16.2), [brief v0.8.1](https://github.com/git-pkgs/brief/releases/tag/v0.8.1), and [managers v0.9.0](https://github.com/git-pkgs/managers/releases/tag/v0.9.0).
+I tagged [git-pkgs v0.16.2](https://github.com/git-pkgs/git-pkgs/releases/tag/v0.16.2), [brief v0.8.1](https://github.com/git-pkgs/brief/releases/tag/v0.8.1), [managers v0.9.0](https://github.com/git-pkgs/managers/releases/tag/v0.9.0), and [enrichment v0.3.0](https://github.com/git-pkgs/enrichment/releases/tag/v0.3.0).
 
 Send links for next week to [@andrewnez@mastodon.social](https://mastodon.social/@andrewnez).
