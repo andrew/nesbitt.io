@@ -38,13 +38,13 @@ Spend enough time around security people and you pick up a second vocabulary. It
 
 *Assume breach*: we got breached.
 
+*CVE*: cirriculem vitae enhancement.
+
 *CVSS 9.8*: please answer the phone.
 
 *Lateral movement*: ssh.
 
 *Exfiltration*: curl.
-
-*Persistence*: cron.
 
 *Supply chain security*: running `npm install`, nervously.
 
