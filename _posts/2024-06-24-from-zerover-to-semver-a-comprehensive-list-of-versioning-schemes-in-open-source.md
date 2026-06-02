@@ -132,6 +132,16 @@ Pragmatic Versioning addresses the challenges faced by package authors, enabling
 
 Pragmatic Versioning was proposed by [Severin Ibarluzea](https://seve.blog/) in December 2023.
 
+## [PaceVer](https://pacever.org/)
+
+**Pace Versioning (PaceVer)** is a versioning scheme for user-facing apps (React Native, Expo, mobile and similar) that ship through two channels at two speeds: slow, store-gated native builds and fast over-the-air (OTA) updates. A version takes the form `MARKETING.NATIVE.OTA` and encodes *how* a release reaches users rather than how big the change is or whether it breaks compatibility.
+
+- `MARKETING`: a free, human-assigned number (an era, year, redesign, or never bumped at all), carrying no compatibility meaning.
+- `NATIVE`: incremented for any release that requires a new store binary (native code, dependency or SDK upgrades, new permissions).
+- `OTA`: incremented for every over-the-air update delivered on top of the current native build.
+
+Proposed by [Pavlos Vinieratos](https://github.com/pvinis) in June 2026.
+
 ## [WendtVer](https://wendtver.org/)
 
 **WendtVer** is a tongue-in-cheek versioning system designed to minimize the thought required for version increments. Starting at `0.0.0`, every commit increments the version number following these rules:
