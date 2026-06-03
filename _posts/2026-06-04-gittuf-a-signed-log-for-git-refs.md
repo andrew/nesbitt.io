@@ -31,7 +31,7 @@ The [2016 USENIX paper](https://www.usenix.org/conference/usenixsecurity16/techn
 
 ### The Reference State Log
 
-[gittuf](https://gittuf.dev), written up in a [2026 NDSS paper](https://www.ndss-symposium.org/ndss-paper/rethinking-trust-in-forge-based-git-security/) from the same research group, records every ref update as a signed entry in a hash chain stored in the repository, under `refs/gittuf/reference-state-log`. Each entry names a ref, the new commit hash, and the hash of the previous entry, signed by keys the policy allows to advance that ref.
+[gittuf](https://gittuf.dev), written up in a [2025 NDSS paper](https://www.ndss-symposium.org/ndss-paper/rethinking-trust-in-forge-based-git-security/) from the same research group, records every ref update as a signed entry in a hash chain stored in the repository, under `refs/gittuf/reference-state-log`. Each entry names a ref, the new commit hash, and the hash of the previous entry, signed by keys the policy allows to advance that ref.
 
 Verifying a clone means walking the RSL forward and checking each ref movement against the policy in force at the time. If the tip your clone holds for main is not the tip the RSL ends on, something between you and the maintainers served you a ref they didn't sign for.
 
