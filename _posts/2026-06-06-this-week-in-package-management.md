@@ -16,6 +16,8 @@ Third week of the roundup, built from the [package manager OPML feed collection]
 
 The Packagist supply-chain series continues. [Closing Composer's Download Fallback Paths](https://blog.packagist.com/closing-composers-download-fallback-paths-in-private-packagist/) covers how the dist-to-source fallback, originally designed for resilience, can be used to fetch a different artifact than the one Composer expected. [Blocking Malware Downloads for Every Composer Version](https://blog.packagist.com/blocking-malware-downloads-for-every-composer-version-in-private-packagist/) describes how Private Packagist enforces malware blocking for installs from Composer versions older than 2.10, before the dependency policy framework existed.
 
+[New HexDocs URLs: per-package subdomains](https://hex.pm/blog/hexdocs-per-package-subdomains) moves public Elixir and Erlang package docs from `hexdocs.pm/package` to `package.hexdocs.pm`, and organization docs to a separate registrable domain (`hexorgs.pm`). The browser's same-origin policy now isolates packages from each other, addressing a finding from Hex's recent security audit that docs pages run maintainer-controlled HTML, CSS, and JavaScript under a shared origin.
+
 ## Releases
 
 [Yarn 4.16.0](https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.16.0) adds `yarn npm stage` for npm's staged publishing queue, alongside editor SDK support for oxc's formatter and linter.
