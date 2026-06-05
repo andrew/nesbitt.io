@@ -8,6 +8,7 @@ tags:
   - crates.io
   - debian
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklphjogq27"
 ---
 
 The maintainers of [crates.io](https://crates.io/) wake up Friday morning to find their registry has swapped design philosophies with Debian. They still serve the Rust ecosystem, Debian still serves Linux distributions, but the tradeoffs they've chosen have reversed. Like Tess and Anna in [Freaky Friday](https://www.imdb.com/title/tt0322330/), they're stuck in each other's bodies, forced to navigate constraints they've spent years criticizing from the outside.

@@ -6,6 +6,7 @@ description: "There are two hard problems in computer science, and package manag
 tags:
   - package-managers
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpksj6r26"
 ---
 
 Package managers are usually described by what they do: resolve dependencies, download code, build artifacts. But if you look at the structure of the system instead of the process, nearly every part of it is a naming problem, and the whole thing works because we've agreed on how to interpret strings at each layer and because a registry sits in the middle translating between them.

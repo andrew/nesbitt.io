@@ -6,6 +6,7 @@ description: "Federated FAIR pivots from WordPress to TYPO3"
 tags:
   - package-managers
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpm6yrh2w"
 ---
 
 The [FAIR package manager](https://fair.pm/) started as a response to the 2024 Automattic/WP Engine conflict, when Matt Mullenweg used access to the WordPress.org plugin repository as leverage in a business dispute. Plugin authors and hosting companies watched a single person effectively weaponize the central registry, and FAIR was built to make sure that couldn't happen again, assembling federated package distribution, cryptographic identity with DIDs and ED25519 signatures, and a labeler system borrowed from Bluesky's moderation architecture under the Linux Foundation in a matter of months.

@@ -8,6 +8,7 @@ tags:
   - security
   - ecosyste.ms
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpkvzbh2i"
 ---
 
 This post was requested by [Seth Larson](https://sethmlarson.dev/), who asked if I could do a breakdown of dependency cooldowns across package managers. His framing: all tools should support a globally-configurable `exclude-newer-than=<relative duration>` like `7d`, to bring the response times for autonomous exploitation back into the realm of human intervention.

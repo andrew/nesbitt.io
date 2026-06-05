@@ -8,6 +8,7 @@ tags:
   - package-managers
   - ai
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpnwq372e"
 ---
 
 I went through the recent [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) and pulled out the scenarios related to package management, which turn up in all ten categories and don't sort neatly into any one of them, since a typosquatted MCP server is simultaneously a name attack, a registry attack, and a metadata poisoning vector.

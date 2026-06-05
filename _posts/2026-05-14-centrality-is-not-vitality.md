@@ -7,6 +7,7 @@ tags:
   - open-source
   - metrics
   - research
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklprgkue2v"
 ---
 
 Working through the data behind [Weekend at Bernie's](/2026/05/08/weekend-at-bernies.html) and [The Mismeasure of Open Source](/2026/05/09/the-mismeasure-of-open-source.html) these past couple of weeks, I've been running into the same metric again and again: PageRank applied to package dependency graphs. It turns up in almost every academic paper that wants to say something quantitative about a dependency graph, often as the entire definition of "criticality" or "importance" or "centrality". It's in every graph library, it produces one number per node, and the graph looks superficially like the web that PageRank was designed for, so it tends to be picked up as the default centrality measure when someone needs one.

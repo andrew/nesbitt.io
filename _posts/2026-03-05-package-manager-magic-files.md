@@ -6,6 +6,7 @@ description: "Package manager magic files and where to find them: .npmrc, MANIFE
 tags:
   - package-managers
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpkzlqr26"
 ---
 
 A follow-up to my post on [git's magic files](/2026/02/05/git-magic-files.html). Most package managers have a manifest and a lockfile, and most developers stop there. But across the ecosystems I track on [ecosyste.ms](https://ecosyste.ms), package managers check for dozens of other files beyond the manifest and lockfile, controlling where packages come from, what gets published, how versions resolve, and what code runs during installation. These files tend to be poorly documented, inconsistently named, and useful once you know they exist.

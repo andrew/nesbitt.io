@@ -10,6 +10,7 @@ tags:
   - security
   - sbom
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklphcn2j2l"
 ---
 
 [FOSDEM 2026](https://fosdem.org/2026/) ran last weekend in Brussels with its usual dense schedule of talks across open source projects and communities. Package management had a strong presence again this year, with a [dedicated devroom](https://fosdem.org/2026/schedule/track/package-management/) plus related content scattered across the [Distributions](https://fosdem.org/2026/schedule/track/distributions/), [Nix and NixOS](https://fosdem.org/2026/schedule/track/nix-and-nixos/), and [SBOMs and Supply Chains](https://fosdem.org/2026/schedule/track/sboms-and-supply-chains/) tracks.

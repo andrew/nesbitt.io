@@ -8,6 +8,7 @@ tags:
   - security
   - package-managers
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpp3yjn2f"
 ---
 
 Pick almost any open source supply chain incident from the past eighteen months and trace it back, and you end up reading a `.github/workflows` YAML file. Ultralytics shipping a crypto miner to PyPI, the nx packages that turned thousands of developer machines into credential harvesters, tj-actions leaking secrets from 23,000 repositories, Trivy getting compromised twice in three weeks, elementary-data publishing a malicious wheel ten minutes after a stranger left a GitHub comment. Different headline payloads, different victims, and in each case a GitHub Actions feature behaving exactly as documented.

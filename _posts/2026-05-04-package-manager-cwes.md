@@ -6,6 +6,7 @@ description: "Recurring weakness classes in package managers"
 tags:
   - package-managers
   - security
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklppowxv2f"
 ---
 
 I went through every public CVE and security advisory I could find that was filed against a package manager itself. Clients and registries both: language package managers, system package managers, self-hosted registry servers, the lot.

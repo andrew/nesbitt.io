@@ -8,6 +8,7 @@ tags:
   - ecosyste.ms
   - open-source
   - sustainability
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp4yjjj2m"
 ---
 
 Over the past few months I've had the pleasure of appearing on several podcasts to discuss my work on [ecosyste.ms](https://ecosyste.ms), open source metadata, package management ecosystems, and software sustainability. Here's a round-up of those conversations:

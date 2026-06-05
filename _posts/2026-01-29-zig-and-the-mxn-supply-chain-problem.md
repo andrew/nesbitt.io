@@ -6,6 +6,7 @@ description: "Zig's long road to supply chain security."
 tags:
   - package-managers
   - idea
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpgt7un2f"
 ---
 
 Zig shipped a built-in package manager in version 0.11 in August 2023. It uses `build.zig.zon` files for manifests and fetches dependencies directly from URLs, usually tarballs on GitHub. There's no central registry yet, though the community runs unofficial indexes like [zpm](https://github.com/zigtools/zpm) and [aquila](https://aquila.red/).[^1]

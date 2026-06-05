@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklprpdpn2n"
 ---
 
 Running `pip install requests` or `npm install react` against the public registry is the same operation, structurally, as running `apt install -t unstable` against [Debian sid](https://wiki.debian.org/DebianUnstable), and nobody involved talks about it that way. I don't mean "unstable" as a synonym for buggy, I mean it in the specific sense Debian has used since the late nineties: a pool of packages where new versions land the moment a maintainer uploads them, with no promotion gate, no minimum residency time, and no quality bar between the upload and your machine.

@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklplkeub26"
 ---
 
 I spend a lot of time studying package managers, and after a while you develop an eye for things that quack like one. Plenty of tools have registries, version pinning, code that gets downloaded and executed on your behalf. But flat lists of installable things aren't very interesting. 

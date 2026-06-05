@@ -6,6 +6,7 @@ description: "Rewriting the easy parts of Homebrew."
 tags:
   - package-managers
   - homebrew
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpof2xh2w"
 ---
 
 [zerobrew](https://github.com/lucasgelfond/zerobrew) and [nanobrew](https://github.com/justrach/nanobrew) have been doing the rounds as fast alternatives to Homebrew, one written in Rust with the tagline "uv-style architecture for Homebrew packages" and the other in Zig with a 1.2 MB static binary and a benchmark table comparing itself favourably against the first. Both are upfront, once you scroll past the speedup numbers, that they resolve dependencies against homebrew-core, download the bottles that Homebrew's CI built and Homebrew's bandwidth bill serves, and parse the cask definitions that Homebrew contributors maintain.

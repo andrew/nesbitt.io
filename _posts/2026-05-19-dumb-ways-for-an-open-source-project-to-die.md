@@ -7,6 +7,7 @@ tags:
   - open-source
   - maintainers
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklprsrpx2i"
 ---
 
 [Weekend at Bernie's](/2026/05/08/weekend-at-bernies.html) showed that a good chunk of the most-depended-on open source packages are dead, and there are a lot of different ways for a project to end up that way.

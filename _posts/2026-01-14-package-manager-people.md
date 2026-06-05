@@ -7,6 +7,7 @@ tags:
   - package-managers
   - research
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpeqwqj2m"
 ---
 
 People who built, maintain, or research package managers. Tool creators, registry operators, resolver authors, and the academics studying how it all works.

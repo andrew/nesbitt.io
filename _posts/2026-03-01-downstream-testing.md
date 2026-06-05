@@ -7,6 +7,7 @@ tags:
   - package-managers
   - testing
   - ecosyste.ms
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpklhkb2l"
 ---
 
 The information about how a library is actually used lives in the dependents' code, not in the library's own tests or docs. Someone downstream is parsing your error messages with a regex, or relying on the iteration order of a result set you never documented, or depending on a method you consider internal because it wasn't marked private in a language that doesn't enforce visibility. [Hyrum's Law](https://www.hyrumslaw.com/) says all of these implicit contracts exist once you have enough users, and semver can't help because a version number declares what the maintainer intended, not what downstream code actually depends on.

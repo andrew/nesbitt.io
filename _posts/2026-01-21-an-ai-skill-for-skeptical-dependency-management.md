@@ -6,6 +6,7 @@ description: "A skill that makes Claude Code evaluate packages before suggesting
 tags:
   - package-managers
   - tools
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpfwyi72e"
 ---
 
 AI coding assistants will suggest packages that don't exist, pin to versions from two years ago, and never mention that the standard library already does what you need. I've written a [skill](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) that makes Claude Code and similar agents more careful.

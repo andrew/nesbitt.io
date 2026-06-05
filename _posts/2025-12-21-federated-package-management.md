@@ -6,6 +6,7 @@ description: "The trade-offs that make decentralized package management impracti
 tags:
   - package-managers
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpb2evr26"
 ---
 
 Every time a major package registry has a crisis, someone suggests federation. When npm was acquired by Microsoft, or when PyPI had that outage, or when RubyGems moderation decisions upset people, the same proposal surfaces: what if we had a decentralized registry, like Mastodon but for packages? No single point of failure, no corporate capture, no governance bottlenecks. Just a federated network of registries that can mirror packages, share metadata, and let developers publish wherever they want.

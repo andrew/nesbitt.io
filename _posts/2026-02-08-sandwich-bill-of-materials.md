@@ -7,6 +7,7 @@ tags:
   - package-managers
   - sbom
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpi2kzi2t"
 ---
 
 **Specification:** SBOM 1.0 (Sandwich Bill of Materials)<br>

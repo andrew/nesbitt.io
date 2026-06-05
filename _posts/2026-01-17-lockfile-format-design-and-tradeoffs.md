@@ -6,6 +6,7 @@ description: "Lockfile format tradeoffs, best practices, and a survey of existin
 tags:
   - package-managers
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpezism2v"
 ---
 
 Lockfiles record which packages were installed, at what versions, from where, with what checksums. Most package managers have one: Gemfile.lock, package-lock.json, Cargo.lock, poetry.lock, pnpm-lock.yaml. (Go splits this across go.mod and go.sum.) They solve the same problem but make different decisions about format, structure, and what to include.[^tradeoffs]

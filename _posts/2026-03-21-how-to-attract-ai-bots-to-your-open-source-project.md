@@ -7,6 +7,7 @@ tags:
   - open-source
   - ai
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpmq4px2e"
 ---
 
 I [complained on Mastodon](https://mastodon.social/@andrewnez/116262193716178409) about not getting any AI-authored PRs on my open source projects. [Mauro Pompilio](https://github.com/malditogeek) responded by using Claude to write this post and opening a pull request to add it to my blog. I merged it, which I suppose counts as my first AI-assisted contribution. Enjoy!

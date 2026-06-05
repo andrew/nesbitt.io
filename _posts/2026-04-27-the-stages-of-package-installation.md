@@ -6,6 +6,7 @@ description: "Denial, anger, bargaining, depression, acceptance, postinstall."
 tags:
   - package-managers
   - security
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpoyevu2v"
 ---
 
 Suppose, hypothetically, that someone had been spending their evenings reimplementing bits of several package managers from scratch, not to ship anything but as a test bed for swapping different resolvers, index formats, and registry APIs in and out to see what actually changes.

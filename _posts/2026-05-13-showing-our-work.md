@@ -7,6 +7,7 @@ tags:
   - open-source
   - ecosyste.ms
   - research
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpr635i2t"
 ---
 
 A preprint went up on arXiv this week from Alexandros Tsakpinis, Emil Schwenger and Alexander Pretschner at fortiss and TU Munich: [Modeling Dependency-Propagated Ecosystem Impact of Changes in Maintenance Activities](https://arxiv.org/abs/2605.06164). They built a model of how maintenance changes propagate through the Python dependency graph, ran it over 718,750 PyPI packages and two million dependency edges, and then benchmarked three real-world support mechanisms against it to see how well each one's package selection lined up with where the model says support would do the most good.

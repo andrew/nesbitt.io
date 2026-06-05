@@ -7,6 +7,7 @@ tags:
   - package-managers
   - reference
   - dependencies
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklphs2zp2i"
 ---
 
 Every package manager faces the same core problem: given a set of packages with version constraints, find a compatible set of versions to install. The classic example is the diamond dependency: A depends on B and C, both of which depend on D but at incompatible versions. The resolver has to find a version of D that satisfies both, prove that none exists, or find some other way out. Di Cosmo et al. [proved in 2005](https://www.researchgate.net/publication/278629134_EDOS_deliverable_WP2-D21_Report_on_Formal_Management_of_Software_Dependencies) that this problem is NP-complete, encoding it as 3SAT for Debian and RPM constraint languages. In practice, real-world dependency graphs are far more tractable than the worst case, and different ecosystems have landed on different resolution strategies that make different tradeoffs between completeness, speed, error quality, and simplicity.

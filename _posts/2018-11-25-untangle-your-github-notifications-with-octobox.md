@@ -8,6 +8,7 @@ tags:
   - github
   - open-source
   - productivity
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp3e7nx2e"
 ---
 
 As an active contributor and maintainer of many open source projects on GitHub, I struggle to keep up with the various in-progress issues and pull requests across multiple repositories and find it hard to see an overview of everything I’m involved in. If you manage or contribute to any number projects on GitHub, I’m betting you probably have the same issue.

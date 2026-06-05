@@ -8,6 +8,7 @@ tags:
   - npm
   - docker
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpanmez2j"
 ---
 
 At a Node.js conference years ago, I heard a speaker claim that npm had finally "solved" dependency hell. The ecosystem wasn't solving dependency conflicts so much as deferring them to production.

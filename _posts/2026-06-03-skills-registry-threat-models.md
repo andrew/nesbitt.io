@@ -8,6 +8,7 @@ tags:
   - package-managers
   - reference
   - ai
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklptc7nf2n"
 ---
 
 [Agent skills](https://agentskills.io/home) bundle prompts, scripts, dependencies, and tool permissions for AI agents to load on demand. A skills registry is the distribution channel for them: a hosted marketplace, an indexed hub, or in many cases just a curated list of GitHub repos. [ClawHub](https://clawhub.com/), [Tessl](https://www.tessl.io/), and [skills.sh](https://www.skills.sh/) have all launched in the past year, mostly modelled on existing package registries.

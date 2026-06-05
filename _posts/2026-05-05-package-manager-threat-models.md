@@ -6,6 +6,7 @@ description: "The non-CVE half of package manager security"
 tags:
   - package-managers
   - security
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklppswuj2m"
 ---
 
 The [previous post](/2026/05/04/package-manager-cwes.html) catalogued the bugs that get filed against package managers: path traversal in the extractor, argument injection in the git driver, XSS in the registry's README renderer. Things you can find by reading code, point at a line number, and patch.

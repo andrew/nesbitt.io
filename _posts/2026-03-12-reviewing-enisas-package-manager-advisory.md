@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklply5zh2w"
 ---
 
 ENISA, the EU's cybersecurity agency, published a [Technical Advisory for Secure Use of Package Managers](https://www.enisa.europa.eu/publications/enisa-technical-advisory-for-secure-use-of-package-managers) in March 2026, a 26-page guide aimed at developers consuming third-party packages. I've been writing about package management since [November 2025](/2025/11/13/package-management-papers) and wanted to see how their recommendations line up with what I've found.

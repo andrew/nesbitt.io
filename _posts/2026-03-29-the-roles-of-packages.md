@@ -7,6 +7,7 @@ tags:
   - package-managers
   - taxonomy
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpmxurh2e"
 ---
 
 Greg Wilson's recent post [An E-Bike for the Mind](https://third-bit.com/2026/03/28/e-bike-for-the-mind/) reminded me of Jorma Sajaniemi's work on the roles of variables. Sajaniemi found that just eleven roles cover nearly all variables in novice programs: stepper, most-wanted holder, gatherer, one-way flag, and so on. As Wilson puts it, types tell you about a variable's state at rest while roles tell you about its state in motion. Once you learn the roles, you can look at unfamiliar code and immediately recognize the shape of the algorithm from how data flows through it.

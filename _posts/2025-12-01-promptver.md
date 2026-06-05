@@ -9,6 +9,7 @@ tags:
   - semver
   - package-managers
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp6arl72e"
 ---
 
 I'm pleased to announce PromptVer[^1], a new versioning scheme designed for the age of large language models. PromptVer is fully compatible with [Semantic Versioning](https://semver.org/) and builds on SemVer's pre-release identifier to embed additional metadata about your software.

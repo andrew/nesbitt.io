@@ -6,6 +6,7 @@ description: "Sorting package registries by architecture, review model, namespac
 tags:
   - package-managers
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpcpdvj2j"
 ---
 
 Package registries differ in dozens of ways, but most of those differences cluster into a few structural categories. Looking at them through the lens of [design tradeoffs](/2025/12/05/package-manager-tradeoffs.html) helps explain why they ended up where they did. The [ecosyste.ms documentation repositories](/2025/11/30/documenting-package-manager-data.html) contain detailed data on over 70 registries; here I'm trying to draw out the shapes.

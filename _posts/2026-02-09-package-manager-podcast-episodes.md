@@ -7,6 +7,7 @@ tags:
   - package-managers
   - podcasts
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpi66mc2u"
 ---
 
 Like the [blog posts](/2026/01/09/package-management-blog-posts.html) and [papers](/2025/11/13/package-management-papers.html) collections, this is a running list of podcast episodes where people who build and maintain package managers talk about their work. Grouped by ecosystem, with a few cross-cutting episodes at the end.

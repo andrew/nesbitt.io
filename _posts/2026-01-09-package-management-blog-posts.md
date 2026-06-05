@@ -7,6 +7,7 @@ tags:
   - package-managers
   - history
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpea3rz26"
 ---
 
 I've been collecting posts about package management for a while. Not academic papers (those are in a [separate list](/2025/11/13/package-management-papers.html)) and not the historical events themselves (that's the [timeline](/2025/11/15/package-manager-timeline.html)), but the blog posts, talks, and essays where practitioners worked through ideas, explained incidents, or just vented.

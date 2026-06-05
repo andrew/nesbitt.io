@@ -6,6 +6,7 @@ description: "What is a package manager? Perhaps quite a few more components tha
 tags:
   - package-managers
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp6lbj72e"
 ---
 
 When people think of package managers they usually picture installing a library but these days package managers and their associated registries handle dozens of distinct functions.

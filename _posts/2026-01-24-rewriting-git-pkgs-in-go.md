@@ -9,6 +9,7 @@ tags:
   - tools
   - git-pkgs
   - go
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpgbo3k2u"
 ---
 
 This past week I've rewritten [git-pkgs](/2026/01/01/git-pkgs-explore-your-dependency-history) in Go. git-pkgs is a git subcommand that indexes your dependency history into a SQLite database. It parses manifests and lockfiles across 35+ package managers, tracks every add, update, and remove through your git history, and gives you commands like `git pkgs blame` to see who added each dependency, `git pkgs history <package>` to trace a package's version changes over time, and `git pkgs diff` to compare dependencies between branches or commits.

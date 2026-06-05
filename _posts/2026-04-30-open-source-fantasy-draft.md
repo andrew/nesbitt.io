@@ -7,6 +7,7 @@ tags:
   - open-source
   - maintainers
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpp7btr2s"
 ---
 
 Registration is now open for the sixth season of the Open Source Fantasy League. Twelve teams, snake draft, standard scoring. The board goes live next Tuesday and as commissioner I'm publishing the rule changes and some notes on this year's class before everyone starts arguing in the group chat.

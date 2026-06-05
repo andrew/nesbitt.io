@@ -8,6 +8,7 @@ tags:
   - dependencies
   - satire
   - the-path
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpfo7zr2j"
 ---
 
 Evil is evil. Lesser, greater, middling - makes no difference. But when the [EU Cyber Resilience Act](https://www.canada.ca/en/revenue-agency.html) requires you to document every open source component you ship, you learn to choose.

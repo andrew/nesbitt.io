@@ -7,6 +7,7 @@ tags:
   - package-managers
   - history
   - dependencies
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp7cilx2i"
 ---
 
 Before I had broadband, software updates came on CDs bundled with gaming magazines. Growing up in rural England, I had no idea these CDs even carried patches until I stumbled across one. Finding a new Half-Life patch or Quake map pack felt like discovering treasure. Software could get better after you bought it.

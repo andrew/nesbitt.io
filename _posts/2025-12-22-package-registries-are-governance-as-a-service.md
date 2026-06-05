@@ -6,6 +6,7 @@ description: "Registries host files, but they also decide who owns names, how di
 tags:
   - package-managers
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpbe65x2i"
 ---
 
 Package registries are infrastructure. They host files, serve downloads, run APIs. But they're also governance providers, and that second role gets less attention. When a registry decides who owns a disputed package name, whether an unpublished package should be restored, or how to handle a compromised maintainer account, those aren't infrastructure decisions. They're political choices with real consequences. Registries do both jobs at once: the hosting and the ruling.

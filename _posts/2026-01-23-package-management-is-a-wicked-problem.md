@@ -6,6 +6,7 @@ description: "Why fixing package managers is harder than it looks."
 tags:
   - package-managers
   - idea
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpg63vq27"
 ---
 
 In 1973, Horst Rittel and Melvin Webber published ["Dilemmas in a General Theory of Planning"](https://urbanpolicy.net/wp-content/uploads/2015/06/Rittel-Webber_1973_DilemmasInAGeneralTheoryOfPlanning.pdf), introducing the concept of "wicked problems" in urban planning. Wicked problems are problems where the act of trying to solve them changes what the problem is. Problems where you can't test solutions in advance. Problems where every stakeholder has a different definition of success.

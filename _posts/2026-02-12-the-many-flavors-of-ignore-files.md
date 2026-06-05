@@ -7,6 +7,7 @@ tags:
   - git
   - tools
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpiinl22u"
 ---
 
 A [bug report](https://github.com/git-pkgs/git-pkgs/issues/53#issuecomment-3857707729) in git-pkgs led me down a rabbit hole: files that git ignored were showing up as phantom diffs, and the cause turned out to be [go-git's gitignore implementation](https://github.com/go-git/go-git/issues/108), which doesn't match git's actual behavior for unanchored patterns in nested directories. I went looking for a Go library that fully matched git's pattern semantics and couldn't find one, so I wrote [git-pkgs/gitignore](https://github.com/git-pkgs/gitignore) with a wildmatch engine modeled on git's own `wildmatch.c`.

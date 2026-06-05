@@ -6,6 +6,7 @@ description: "A shared vocabulary for resolution, publishing, and governance acr
 tags:
   - package-managers
   - idea
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpg2gnc2u"
 ---
 
 Writing about [testing package managers like Jepsen tests databases](/2026/01/19/a-jepsen-test-for-package-managers.html) got me thinking about what sits underneath all the ecosystem-specific details. We can describe HTTP without talking about Apache or nginx. We can discuss database consistency models without reference to PostgreSQL or MySQL. But when we talk about package management, the conversation immediately becomes about npm's node_modules hoisting or Cargo's semver-compatible version deduplication or Go's minimal version selection, rather than the underlying operations those are all implementations of.

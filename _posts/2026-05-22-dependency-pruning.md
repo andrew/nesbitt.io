@@ -7,6 +7,7 @@ tags:
   - supply-chain
   - dependencies
   - package-managers
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklprzubd2d"
 ---
 
 The best time to prune your dependency tree was three years ago. The second best time is right now.

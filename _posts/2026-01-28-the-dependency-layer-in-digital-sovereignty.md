@@ -6,6 +6,7 @@ description: "Where package management fits in the digital sovereignty discussio
 tags:
   - package-managers
   - idea
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpgpujj26"
 ---
 
 David Eaves recently argued that [the path to tech sovereignty runs through commodification](https://www.techpolicy.press/the-path-to-a-sovereign-tech-stack-is-via-a-commodified-tech-stack/), not duplication. Europe shouldn't try to build its own AWS. Instead, governments should use procurement power to enforce interoperability standards. The S3 API became a de facto standard that lets you move between providers, reducing switching costs. If governments required that kind of compatibility as a condition for contracts, smaller providers could compete. Sovereignty through standards rather than state-owned infrastructure.

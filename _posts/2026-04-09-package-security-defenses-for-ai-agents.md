@@ -7,6 +7,7 @@ tags:
   - security
   - package-managers
   - ai
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpo2gdb2l"
 ---
 
 Yesterday I wrote about [the package security problems AI agents face](/2026/04/08/package-security-problems-for-ai-agents): typosquatting, registry poisoning, lockfile manipulation, install-time code execution, credential theft, and cascading failures through the dependency graph. Agents inherit all the old package security problems but resolve, install, and propagate faster than any human can review.

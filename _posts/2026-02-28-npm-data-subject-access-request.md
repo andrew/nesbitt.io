@@ -7,6 +7,7 @@ tags:
   - package-managers
   - npm
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpki5u22b"
 ---
 
 **From:** Data Protection Officer, npm, Inc. (a subsidiary of GitHub, Inc., a subsidiary of Microsoft Corporation)  

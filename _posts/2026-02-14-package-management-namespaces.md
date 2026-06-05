@@ -9,6 +9,7 @@ tags:
   - npm
   - go
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpipkdy27"
 ---
 
 Every package needs a name. The rules for how those names work is one of the most consequential decisions a package manager makes, and one of the hardest to change later. I [categorized the approaches](/2025/12/29/categorizing-package-registries.html) previously and touched on the [tradeoffs](/2025/12/05/package-manager-tradeoffs.html) briefly.

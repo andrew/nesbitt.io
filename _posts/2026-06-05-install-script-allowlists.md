@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklptja4z26"
 ---
 
 In most package managers a dependency's [install-time code runs by default](/2026/04/15/the-tuesday-test.html) the moment you install it: an npm postinstall, a Setuptools `setup.py`, a CPAN `Makefile.PL`, an RPM scriptlet, a Conda post-link, a Debian `postinst`. A handful require explicit per-package opt-in before any of that code runs, usually called an allowlist or a trusted-dependencies list depending on the tool.

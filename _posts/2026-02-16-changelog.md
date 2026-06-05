@@ -7,6 +7,7 @@ tags:
   - package-managers
   - ai
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpiwiwz2j"
 ---
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/).

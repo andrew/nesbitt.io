@@ -6,6 +6,7 @@ description: "The riskiest projects in open source, scored a decade early"
 tags:
   - security
   - open-source
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklppwcd52f"
 ---
 
 In July 2015, a year after Heartbleed, the Linux Foundation's Core Infrastructure Initiative published a [census of open source projects](https://github.com/ossf/census). The idea was to find the next OpenSSL before it found us: take every package in Debian's popularity contest, score it for risk, and produce a ranked list of where to send help. David Wheeler designed the scoring, a small team did manual review, and the output was [a CSV of 428 projects](https://github.com/ossf/census/blob/main/results.csv) sorted by a `risk_index` from 1 to 13.

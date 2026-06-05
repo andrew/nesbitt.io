@@ -7,6 +7,7 @@ tags:
   - open-source
   - challenge
   - christmas
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp3ngh22b"
 ---
 
 For the past 6 years, [24 Pull Requests](https://24pullrequests.com) has been encouraging developers to give back to the open source projects they use. The idea was simple: “Send 24 pull requests between December 1st and December 24th”, giving little gifts of code throughout December.

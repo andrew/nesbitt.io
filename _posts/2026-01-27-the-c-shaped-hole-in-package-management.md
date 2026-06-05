@@ -6,6 +6,7 @@ description: "System package managers and language package managers are solving 
 tags:
   - package-managers
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpgmate2v"
 ---
 
 System package managers and language package managers are both called package managers. They both resolve dependencies, download code, and install software. But they evolved to solve different problems, and the overlap is where all the friction lives. If you drew a venn diagram, C libraries would sit right in the middle: needed by language packages, provided by system packages, understood by neither in a way the other can use. As Kristoffer Grönlund [put it in 2017](https://lwn.net/Articles/712318/): "Why are we trying to manage packages from one package manager with a different package manager?"

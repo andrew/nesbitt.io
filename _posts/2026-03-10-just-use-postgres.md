@@ -6,6 +6,7 @@ date: 2026-03-10 10:00:00 +0000
 tags:
   - git
   - postgres
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklplrabb2j"
 ---
 
 A couple of weeks ago I wrote about [storing git repositories in Postgres](/2026/02/26/git-in-postgres.html) and built [gitgres](https://github.com/andrew/gitgres) to prove it worked. Two tables, some PL/pgSQL, a libgit2 backend, and you could push to and clone from a database. The post ended with a missing piece: the server-side pack protocol, the part that lets a Postgres instance serve `git push` and `git clone` over HTTP without a separate application in front of it.

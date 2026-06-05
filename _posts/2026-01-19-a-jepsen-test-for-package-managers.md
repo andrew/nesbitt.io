@@ -7,6 +7,7 @@ tags:
   - package-managers
   - idea
 draft: true
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpfhcfy27"
 ---
 
 When your CI fails because a package got yanked mid-install, or your lockfile resolves differently on a colleague's machine, you're hitting edge cases that nobody tested for. Package managers make promises about consistency and determinism, but those promises rarely get verified under adversarial conditions.

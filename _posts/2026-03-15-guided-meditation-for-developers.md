@@ -6,6 +6,7 @@ description: "A practice for finding peace in your dependency tree."
 tags:
   - package-managers
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpmcj3d2d"
 ---
 
 Find a comfortable position. Close your laptop halfway, so the screen light softens but the fan noise continues.[^1] That hum is your anchor. You will return to it throughout this practice.

@@ -7,6 +7,7 @@ tags:
   - package-managers
   - supply-chain
   - git-pkgs
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpmjgwz2l"
 ---
 
 I've been thinking about adding policy features to [git-pkgs/actions](/2026/03/11/git-pkgs-actions.html), the GitHub Actions that check licenses, scan for vulnerabilities, and generate SBOMs during CI. The license action currently takes a comma-separated list of SPDX identifiers and the vulnerability action takes a severity string, which is fine for simple cases but obviously not enough once you need to ignore specific CVEs with expiry dates, ban particular packages regardless of license, allow exceptions for vetted transitive dependencies, or set different rules for different repositories.

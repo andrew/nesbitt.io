@@ -6,6 +6,7 @@ date: 2026-04-10 10:00 +0000
 tags:
   - package-managers
   - registries
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpo5vau2v"
 ---
 
 Package registries return every version a package has ever published in a single response, with no way to ask for less. The API formats were designed ten to twenty years ago when packages had tens of versions, not thousands, and they haven't changed even as the ecosystems grew by orders of magnitude around them.

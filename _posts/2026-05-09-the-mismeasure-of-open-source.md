@@ -7,6 +7,7 @@ tags:
   - open-source
   - security
   - metrics
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpqky2e2v"
 ---
 
 Every attempt to score open source projects for criticality, risk, or funding need ends up built on roughly the same dozen signals, because those are the dozen signals you can get from a registry API and the GitHub REST endpoints in an afternoon. I [wrote earlier this week](/2026/05/06/revisiting-the-2015-open-source-census.html) about the 2015 CII census, whose formula scored xz-utils a 6 out of 13 and let it sink to row 254, and which nonetheless got more right than it's usually given credit for.

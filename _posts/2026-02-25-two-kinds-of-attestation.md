@@ -6,6 +6,7 @@ tags:
   - security
   - open-source
   - policy
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpk5mxi27"
 ---
 
 The word "attestation" now means two unrelated things in open source, and the people using it in each sense don't seem to be talking to each other much.

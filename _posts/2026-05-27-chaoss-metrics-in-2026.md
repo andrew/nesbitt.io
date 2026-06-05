@@ -7,6 +7,7 @@ tags:
   - open-source
   - metrics
   - ai
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpsieer26"
 ---
 
 The [CHAOSS project](https://chaoss.community/) has spent the last eight years writing down careful, implementation-agnostic definitions for the things people measure about open source projects: how many issues get opened, how long they take to close, how many distinct people commit, how stale the dependencies are. The point of writing them down is that two dashboards computing "issue response time" should at least be computing the same thing, and the [released metric set](https://chaoss.community/kb-metrics-and-metrics-models/) has become the closest thing the field has to a shared vocabulary.

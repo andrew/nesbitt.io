@@ -6,6 +6,7 @@ description: "Sorting package manager clients by resolution algorithms, lockfile
 tags:
   - package-managers
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpcghpr2j"
 ---
 
 This is the companion to [Categorizing Package Registries](/2025/12/29/categorizing-package-registries.html), focusing on the client side: how package managers resolve dependencies, track versions, run build code, and declare dependencies. The data is also available as [CSV](https://github.com/andrew/nesbitt.io/blob/master/data/package-manager-clients.csv). There are gaps; contributions welcome.

@@ -7,6 +7,7 @@ tags:
   - package-managers
   - ecosyste.ms
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp63xgb26"
 ---
 
 *Originally posted on [blog.ecosyste.ms](https://blog.ecosyste.ms/2025/11/17/documenting-package-manager-data.html) on November 17, 2025.*

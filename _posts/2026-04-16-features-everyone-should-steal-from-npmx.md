@@ -6,6 +6,7 @@ description: "What happens when users design their own package registry frontend
 tags:
   - package-managers
   - npm
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklporggk2b"
 ---
 
 For most of the time GitHub has owned npm, the public-facing website at npmjs.com has been effectively frozen, with the issue tracker accumulating years of requests that nobody on the inside seemed to be reading. In January [Daniel Roe](https://roe.dev) started [npmx.dev](https://npmx.dev) as an alternative web frontend over the same registry data, posted about it on Bluesky, and within a fortnight years of pent-up demand had turned into a thousand issues and pull requests on a repo that would actually merge them, with the contributor count passing a hundred a couple of days after that. It helps that every npmjs.com URL works with the hostname swapped to `npmx.dev` or `xnpmjs.com`, the same trick Invidious and Nitter used, so browser extensions and muscle memory carry straight over. The competitive pressure appears to have worked: npmjs.com shipped dark mode last month, the single most upvoted feature request on the tracker for something like five years, and there are signs of other long-dormant tickets being picked up.

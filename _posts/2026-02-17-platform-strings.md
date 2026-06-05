@@ -6,6 +6,7 @@ description: "An M1 Mac is aarch64-apple-darwin, arm64-darwin, darwin/arm64, or 
 tags:
   - package-managers
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpj2bvm2v"
 ---
 
 Ask a dozen ecosystems what platform you're running on and you'll get a dozen different answers. An M1 Mac compiling a library is `aarch64-apple-darwin` to LLVM, `arm64-darwin` to RubyGems, `darwin/arm64` to Go, `macosx_11_0_arm64` to Python wheels, and `darwin-arm64` to npm, all describing the same chip on the same OS. Each naming scheme was designed for its own context with its own constraints, and every tool that needs to work across ecosystems ends up maintaining a translation table between them.

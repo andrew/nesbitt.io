@@ -6,6 +6,7 @@ description: "Maintainer attention as a finite resource."
 tags:
   - open-source
   - idea
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpim2zi27"
 ---
 
 I found and fixed a bug in a popular open source project last week. Went to look at the repository and saw a maintainer drowning in issues and pull requests, clearly underwater, and I didn't submit the fix.

@@ -6,6 +6,7 @@ description: "A reference guide to typosquatting techniques, real-world examples
 tags:
   - security
   - package-managers
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpabjnk2u"
 ---
 
 Typosquatting is registering a package name that looks like a popular one, hoping developers mistype or copy-paste the wrong thing. It's been a supply chain attack vector since at least 2016, when Nikolai Tschacher [demonstrated](https://incolumitas.com/2016/06/08/typosquatting-package-managers/) that uploading malicious packages with slightly misspelled names could infect thousands of hosts within days. His bachelor thesis experiment infected over 17,000 machines across PyPI, npm, and RubyGems, with half running his code as administrator.

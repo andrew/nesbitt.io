@@ -7,6 +7,7 @@ tags:
   - package-managers
   - docker
   - idea
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpiszi42v"
 ---
 
 Docker layer caching works best when each layer's inputs are narrow, and a layer that only depends on a lockfile can survive most builds untouched because you're usually changing application code, not dependencies. Most package managers combine downloading and installing into a single command though, so the layer that fetches from the registry also depends on source files, and any source change invalidates the layer and forces every dependency to re-download even when the lockfile is identical to last time.

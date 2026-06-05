@@ -8,6 +8,7 @@ tags:
   - metadata
   - sbom
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpobkgu2v"
 ---
 
 The [Common Package Specification](https://cps-org.github.io/cps/) went stable in CMake 4.3 last year and the name caught my attention because it sounds like it might be addressing the cross-ecosystem dependency problem I've [written about before](/2026/01/27/the-c-shaped-hole-in-package-management.html). Reading the spec, the "common" turns out to mean common across build systems rather than common across language ecosystems: it's a JSON format that CMake and Meson and autotools can all read to find out where an installed library lives and how to link against it, replacing the mix of `.pc` files and `*Config.cmake` scripts that currently fill that role.

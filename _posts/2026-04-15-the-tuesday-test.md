@@ -8,6 +8,7 @@ tags:
   - homebrew
   - supply-chain
   - security
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklponxcn2f"
 ---
 
 [Yesterday](/2026/04/14/standing-on-the-shoulders-of-homebrew.html) I wrote about the fast Homebrew rewrites and ended on the line that the bottleneck for that whole class of project is not Rust or Ruby, it is the absence of a stable declarative package schema. Someone on Mastodon picked up that thread and asked the obvious follow-on: which package managers actually have one? Going through the list, the honest answer is hardly any of them, and there is a quick test that makes the answer easy to check.

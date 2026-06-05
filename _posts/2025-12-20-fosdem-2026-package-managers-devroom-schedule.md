@@ -7,6 +7,7 @@ tags:
   - package-managers
   - fosdem
   - conferences
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpawjqr2m"
 ---
 
 *Cross-posted from the [Ecosystems blog](https://blog.ecosyste.ms/2025/12/20/fosdem-2026-package-managers-devroom-schedule.html).*

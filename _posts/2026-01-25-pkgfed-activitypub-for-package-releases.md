@@ -6,6 +6,7 @@ description: "Follow serde@crates.io from your Mastodon account"
 tags:
   - package-managers
   - idea
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpgfejr2l"
 ---
 
 [ForgeFed](https://forgefed.org/) extends ActivityPub for software forges. The idea is that GitLab, Gitea, Forgejo, and other forges could federate with each other the way Mastodon instances do: follow users across servers, get notified when they push commits, comment on issues from a different instance. It's been in development since 2019, slow going but still alive. Forgejo is the main implementer.

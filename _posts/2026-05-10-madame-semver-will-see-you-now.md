@@ -6,6 +6,7 @@ description: "The cards do not lie."
 tags:
   - package-managers
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpqokic2b"
 ---
 
 The tent is at the back of the fairground, past the fudge stall. The velvet over the entrance is the exact red of a failed CI badge.

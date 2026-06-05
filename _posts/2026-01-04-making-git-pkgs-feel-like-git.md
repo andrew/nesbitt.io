@@ -8,6 +8,7 @@ tags:
   - git
   - tools
   - git-pkgs
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpdja772e"
 ---
 
 **Update:** git-pkgs has been [rewritten in Go](/2026/01/24/rewriting-git-pkgs-in-go) and now lives at [github.com/git-pkgs/git-pkgs](https://github.com/git-pkgs/git-pkgs).

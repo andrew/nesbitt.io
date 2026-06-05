@@ -7,6 +7,7 @@ tags:
   - package-managers
   - rust
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp6udh72w"
 ---
 
 Package managers make dozens of design decisions with no right answer. Each choice has real costs and benefits, and choosing one side often forecloses other options. This is a survey of those tradeoffs.

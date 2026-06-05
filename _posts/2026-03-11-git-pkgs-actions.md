@@ -7,6 +7,7 @@ tags:
   - git-pkgs
   - github-actions
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpluntz2m"
 ---
 
 Until now [git-pkgs](https://github.com/git-pkgs/git-pkgs) has been a local tool, you run it in your terminal to query dependency history, scan for vulnerabilities, check licenses. Getting it into CI meant downloading the binary yourself, initializing the database, and wiring up whatever checks you wanted by hand.

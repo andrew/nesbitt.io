@@ -8,6 +8,7 @@ tags:
   - git
   - software heritage
   - tools
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp5pewp2e"
 ---
 
 Nine years ago I made a small experiment called [Gitballs](https://github.com/andrew/gitballs). Package registries store every release as a complete tarball, but most releases are just a few lines changed from the previous version. Git is good at storing diffs efficiently. What if you committed each release to a git repo and let git's delta compression do the work?

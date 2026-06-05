@@ -8,6 +8,7 @@ tags:
   - sbom
   - package-managers
   - tools
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpjbkkj2s"
 ---
 
 I've been working on a reusable layer for building ecosystem-agnostic package and supply chain tools in Go: fourteen modules under [git-pkgs](https://github.com/git-pkgs) covering manifest parsing, registry clients, license normalization, platform translation, vulnerability feeds, and more.

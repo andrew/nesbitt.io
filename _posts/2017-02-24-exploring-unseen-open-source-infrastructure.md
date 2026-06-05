@@ -9,6 +9,7 @@ tags:
   - infrastructure
   - dependencies
   - github
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp2vzgc2b"
 ---
 
 Whilst working on [Libraries.io](https://libraries.io), I often stumble across libraries that appear to be used by an incredible amount of open source projects but often don’t have any of the usual signs of being a popular project on GitHub.

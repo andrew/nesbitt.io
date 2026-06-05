@@ -6,6 +6,7 @@ description: "I'm now available for consulting on package management, software s
 tags:
   - package-managers
   - consulting
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpifd7t2d"
 ---
 
 I'm now taking on consulting work. If you're building or running a package manager, registry, or dependency tooling, I can probably help.

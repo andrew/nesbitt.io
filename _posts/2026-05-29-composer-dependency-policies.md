@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpssv6j2m"
 ---
 
 [Composer 2.10](https://github.com/composer/composer/releases/tag/2.10.0) ships a new [`config.policy`](https://getcomposer.org/doc/06-config.md#policy) block that puts security advisories, malware reports, abandoned packages, and arbitrary custom blocklists under a single configuration object. Each list has the same three knobs: `block` (remove matching versions from the resolver pool), `audit` (`ignore`/`report`/`fail`), and `ignore` (per-package exemptions with optional version constraints). The model is the one [uBlock Origin](https://github.com/gorhill/uBlock) and other ad blockers use for their filter lists: named lists published at URLs by whoever maintains them, with a default set enabled and a config slot to subscribe to more or drop any.

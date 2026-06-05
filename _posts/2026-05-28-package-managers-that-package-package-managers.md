@@ -5,6 +5,7 @@ date: 2026-05-28 10:00 +0000
 description: "brew install spack install conda install cargo install uv tool install pip install poetry add pdm add conan"
 tags:
   - package-managers
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpslu7u2v"
 ---
 
 [Mike Fiedler](https://github.com/miketheman) sent me a cursed table he'd put together while trying to close a loop of languages whose package managers each install the next one's runtime. He got there in two hops: PyPI ships a Node binary as [`nodejs-wheel`](https://pypi.org/project/nodejs-wheel/) and npm ships a portable CPython as [`@bjia56/portable-python`](https://www.npmjs.com/package/@bjia56/portable-python), so `pip install` and `npm install` can hand control back and forth indefinitely. I wanted the version where both axes are package managers rather than runtimes, partly because the diagonal then shows which ones ship themselves, and partly because once you start chaining `brew install uv` into `uv tool install conan` it's natural to wonder how far you get before the chain bottoms out at `curl | sh`.

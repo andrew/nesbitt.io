@@ -6,6 +6,7 @@ description: "Attach financial incentives to open source metrics and watch the s
 tags:
   - package-managers
   - security
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpc5xlb26"
 ---
 
 Prediction markets are having a moment. After Polymarket called the 2024 election better than the pollsters, the model is expanding everywhere: sports, weather, Fed interest rate decisions. The thesis is that markets aggregate information better than polls or experts. Put money on the line and people get serious about being right.

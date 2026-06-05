@@ -8,6 +8,7 @@ tags:
   - javascript
   - npm
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpdnazp2i"
 ---
 
 I have walked the circles of JavaScript dependency hell. I watched the developers solve each problem, only to create the next. Come, I will show you what I have seen.

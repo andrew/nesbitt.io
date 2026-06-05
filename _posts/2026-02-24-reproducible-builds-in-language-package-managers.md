@@ -6,6 +6,7 @@ description: "Verifying that a published package was actually built from the sou
 tags:
   - package-managers
   - security
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpk26sr2l"
 ---
 
 You download a package from a registry and the registry says it was built from a particular git commit, but the tarball or wheel or crate you received is an opaque artifact that someone built on their machine and uploaded. Reproducible builds let you check by rebuilding from source yourself and comparing, and if you get the same bytes, the artifact is what it claims to be. Making this work requires controlling both the build environment and the provenance of artifacts, and most language package managers historically controlled neither.

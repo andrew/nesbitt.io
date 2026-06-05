@@ -6,6 +6,7 @@ description: "a/s/l/threat model?"
 tags:
   - security
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpszlv72w"
 ---
 
 Spend enough time around security people and you pick up a second vocabulary. It has a faintly military air and a noticeable per-syllable markup on vendor invoices.

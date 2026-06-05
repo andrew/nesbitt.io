@@ -7,6 +7,7 @@ tags:
   - open-source
   - dependencies
   - security
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpnpki72w"
 ---
 
 Eric Raymond's [The Cathedral and the Bazaar](http://www.catb.org/~esr/writings/cathedral-bazaar/) is almost thirty years old and people are still finding new ways to extend the metaphor. Drew Breunig recently described a third mode, the [Winchester Mystery House](https://www.dbreunig.com/2026/03/26/winchester-mystery-house.html), for the sprawling codebases that agentic AI produces: rooms that lead nowhere, staircases into ceilings, a single builder with no plan. That piece got me thinking, though it shares a blind spot with every other response to Raymond I've read.

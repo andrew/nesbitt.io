@@ -7,6 +7,7 @@ tags:
   - git
   - tools
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklphg5672w"
 ---
 
 A follow-up to my post on [extending git functionality](/2025/11/26/extending-git-functionality.html). Git looks for several special files in your repository that control its behavior. These aren't configuration files in `.git/`, they're committed files that travel with your code and affect how git treats your files.

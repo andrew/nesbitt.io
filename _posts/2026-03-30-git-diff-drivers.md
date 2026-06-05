@@ -7,6 +7,7 @@ tags:
   - git
   - tools
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpnb7gb2j"
 ---
 
 When I added a diff driver to [git-pkgs](https://github.com/git-pkgs/git-pkgs), most of the work was already done. git-pkgs could parse 29 lockfile formats and extract dependency lists, so wiring that into git's textconv mechanism was a small addition that turned `git diff` on a lockfile from 200 lines of resolver noise into a handful of dependency changes. That got me looking at what else people had built on top of git's diff driver system, and at the 28 built-in drivers that git ships, none of which has made it into any forge or GUI client.

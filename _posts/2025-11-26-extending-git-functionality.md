@@ -7,6 +7,7 @@ tags:
   - git
   - tools
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp55eop2i"
 ---
 
 I've been researching how to extend git for a project I'm working on. There are seven distinct patterns that I've seen people use to add functionality to git without modifying git itself:

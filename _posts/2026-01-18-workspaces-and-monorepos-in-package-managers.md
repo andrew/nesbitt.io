@@ -7,6 +7,7 @@ tags:
   - package-managers
   - monorepo
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpfcgdv2f"
 ---
 
 I've never needed workspaces. Never used a monorepo either. I've also never worked in a massive team. The projects I work on are small enough that a single package per repo works fine, and when I need to coordinate changes across packages, publishing isn't that painful.

@@ -6,6 +6,7 @@ description: "I'm not connecting these dots. I'm just pointing out that the dots
 tags:
   - open-source
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpmucj72e"
 ---
 
 ### 10. Dependabot is a surveillance program

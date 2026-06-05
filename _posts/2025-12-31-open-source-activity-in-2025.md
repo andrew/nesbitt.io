@@ -6,6 +6,7 @@ description: "A look back at my open source work in 2025: ecosyste.ms, supply ch
 tags:
   - open-source
   - github
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpd3hvz26"
 ---
 
 It's been a busy year for me working full time on open source software. Here's the stats breakdown: 9,485 contributions, 8,893 commits, 127 pull requests (117 merged), 101 issues opened, 336 PR reviews, and 53 new repositories.

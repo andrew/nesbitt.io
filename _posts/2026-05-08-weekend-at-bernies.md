@@ -8,6 +8,7 @@ tags:
   - security
   - supply-chain
   - maintainers
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpqcgtd2d"
 ---
 
 In the [1989 film](https://en.wikipedia.org/wiki/Weekend_at_Bernie%27s), two junior employees turn up at their boss's beach house to find him dead, and spend the rest of the weekend wheeling him around the party with sunglasses on so nobody notices. The other guests keep slapping him on the back and putting drinks in his hand. It works because nobody looks too closely and because everyone has a strong incentive for Bernie to still be alive.

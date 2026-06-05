@@ -7,6 +7,7 @@ tags:
   - security
   - supply-chain
   - python
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpseafh2e"
 ---
 
 _This is a written version of a talk I gave at PyCon US 2026 in Long Beach. [Slides (PDF)](https://github.com/andrew/pycon/raw/main/slides.pdf), scripts, and datasets are at [github.com/andrew/pycon](https://github.com/andrew/pycon)._

@@ -7,6 +7,7 @@ tags:
   - git
   - security
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklptfrn72e"
 ---
 
 Commit signatures are part of git. Branch protection isn't. It's a row in a database run by the forge, checked by the forge's API before accepting a push. Most of the interesting source-repository attacks have landed in the gap between the two.

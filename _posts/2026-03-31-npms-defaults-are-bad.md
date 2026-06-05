@@ -8,6 +8,7 @@ tags:
   - javascript
   - npm
   - security
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpneqos2u"
 ---
 
 Yesterday the [axios package was compromised](https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan) on npm. An attacker hijacked a maintainer account, published two malicious versions that bundled a remote access trojan through a staged dependency called `plain-crypto-js`, and the versions were live for two to three hours before npm pulled them. Axios gets 83 million weekly downloads. This [keeps](https://snyk.io/blog/maintainers-of-eslint-prettier-plugin-attacked-via-npm-supply-chain-malware/) [happening](https://nx.dev/blog/s1ngularity-postmortem) [over](https://snyk.io/articles/npm-security-best-practices-shai-hulud-attack/) [and](https://github.com/advisories/GHSA-pjwm-rvh2-c87w) [over](https://blog.npmjs.org/post/180565383195/details-about-the-event-stream-incident) [and](https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes/) [over](https://snyk.io/blog/peacenotwar-malicious-npm-node-ipc-package-vulnerability/) and the post-incident conversation always goes the same way: was the maintainer using MFA, should the registry have caught it faster, should people be running more scanners. None of that gets at why JavaScript keeps having these incidents at a rate no other ecosystem comes close to matching. The npm client's defaults actively enable the attacks and have done for years.

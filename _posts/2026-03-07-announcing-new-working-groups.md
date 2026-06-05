@@ -7,6 +7,7 @@ tags:
   - open-source
   - governance
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklplgskb2l"
 ---
 
 **FOR IMMEDIATE RELEASE**

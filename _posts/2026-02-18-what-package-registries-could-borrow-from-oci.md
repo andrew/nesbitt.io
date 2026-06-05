@@ -7,6 +7,7 @@ tags:
   - package-managers
   - oci
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpj5uqf2n"
 ---
 
 Every package manager ships code as an archive, and every one of them has a slightly different way to do it. npm wraps tarballs in a `package/` directory prefix. RubyGems nests gzipped files inside an uncompressed tar. Alpine concatenates three gzip streams and calls it a package. Python cycled through four distribution formats in twenty years. RPM used cpio as its payload format for nearly three decades before finally dropping it in 2025.

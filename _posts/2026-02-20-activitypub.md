@@ -7,6 +7,7 @@ tags:
   - satire
   - activitypub
   - fediverse
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpjf6ci2t"
 ---
 
 **ActivityPub** is a federated protocol used by public houses in the United Kingdom and the Republic of Ireland for announcing scheduled events, drink promotions, and community activities to patrons and the wider neighbourhood. Each participating pub operates as an independent **instance**, maintaining its own chalkboard and event schedule while optionally sharing activity information with other instances in the network. First formalised in the early 18th century, the protocol remains in widespread use today, with an estimated 46,000 active instances across the British Isles as of 2024.[^1]

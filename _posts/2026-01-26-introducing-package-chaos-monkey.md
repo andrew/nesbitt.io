@@ -6,6 +6,7 @@ description: "Resilience engineering for your software supply chain."
 tags:
   - package-managers
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpgiv6i2t"
 ---
 
 We are excited to announce general availability of Package Chaos Monkey, a new addition to the Resilience Engineering suite designed to help teams build confidence in their software supply chain.

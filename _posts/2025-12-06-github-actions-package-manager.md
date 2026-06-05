@@ -7,6 +7,7 @@ tags:
   - package-managers
   - github
   - git
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp75kmj26"
 ---
 
 After putting together [ecosyste-ms/package-manager-resolvers](https://github.com/ecosyste-ms/package-manager-resolvers), I started wondering what dependency resolution algorithm GitHub Actions uses. When you write `uses: actions/checkout@v4` in a workflow file, you're declaring a dependency. GitHub resolves it, downloads it, and executes it. That's package management. So I went spelunking into the runner codebase to see how it works. What I found was concerning.

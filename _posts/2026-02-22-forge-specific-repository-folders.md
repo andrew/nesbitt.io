@@ -6,6 +6,7 @@ description: "Magic folders in git forges: what .github/, .gitlab/, .gitea/, .fo
 tags:
   - git
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpjrsgn2n"
 ---
 
 Git doesn't know about CI, code review, or issue templates, but every forge that hosts git repositories has added these features through the same trick: a dot-folder in your repo root that the forge reads on push. The folder names differ, the contents overlap in some places and diverge in others, and the portability story between them is worse than you'd expect. A companion to my earlier post on [git's magic files](/2026/02/05/git-magic-files.html).

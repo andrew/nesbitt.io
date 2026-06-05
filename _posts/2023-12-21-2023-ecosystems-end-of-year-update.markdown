@@ -8,6 +8,7 @@ tags:
   - github
 published_at: 2023-12-23 17:24 +0000
 layout: post
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp3xvor26"
 ---
 
 This year has been another very productive one for [Ecosyste.ms](https://opencollective.com/redirect?url=https%3A%2F%2Fecosyste.ms%2F), we've designed, built, deployed and maintained 16 significant services to support, sustain, and secure critical digital infrastructure.

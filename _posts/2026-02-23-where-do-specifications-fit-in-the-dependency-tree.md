@@ -7,6 +7,7 @@ tags:
   - package-managers
   - dependencies
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpjvcep2w"
 ---
 
 Your Ruby gem declares `required_ruby_version >= 3.0`. That constraint references the Ruby 3.0 language specification, expressed through the implementation version, checked against whichever runtime happens to be running, with no distinction between MRI and JRuby, and no connection to the specification document that defines what Ruby 3.0 even is.

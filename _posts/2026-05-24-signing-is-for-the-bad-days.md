@@ -7,6 +7,7 @@ tags:
   - supply-chain
   - security
   - package-managers
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpsas4f2f"
 ---
 
 I have had roughly the same conversation four or five times in the last month. I'm explaining why a registry should adopt Sigstore, or why a build pipeline should emit in-toto attestations, and the person across the table says some version of: we already use TLS to the registry, the registry already hashes the tarballs, the lockfile already pins the hash, what does a signature add? And on a Tuesday afternoon when nothing has gone wrong, the honest answer is that it adds a bit of CPU on publish and a bit of YAML in the workflow and not much else you can see.

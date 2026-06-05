@@ -7,6 +7,7 @@ tags:
   - open-source
   - ruby
   - jekyll
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpb7em42v"
 ---
 
 Jekyll doesn't have a built-in way to see how many words you've written, so I made [jekyll-stats](https://github.com/andrew/jekyll-stats).

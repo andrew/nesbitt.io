@@ -6,6 +6,7 @@ description: "What I actually look at when deciding whether to adopt a dependenc
 tags:
   - package-managers
   - dependencies
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp7z7422b"
 ---
 
 I was recently invited to give a guest lecture at [Justin Cappos's Secure Systems Lab](https://ssl.engineering.nyu.edu/) at NYU on how to assess open source software, which forced me to articulate what I actually look at after a decade of building tools that analyse dependencies across package ecosystems.

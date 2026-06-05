@@ -6,6 +6,7 @@ date: 2026-04-04 10:00:00 +0000
 tags:
   - open-source
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpnlvib2l"
 ---
 
 Every few months someone declares that "X will kill open source" or that "open source is not sustainable" or that "open source won", and every time the responses split into factions that seem to be having completely different conversations. People have been [pointing](https://writing.kemitchell.com/2016/05/13/What-Open-Source-Means.html) [this](https://speaking.unlockopen.com/s7Me0Q/what-is-open-source) out for at least a decade. Replacement terms like "post-open source" never stuck, because the problem isn't the label. The phrase "open source" carries so many meanings that people routinely talk past each other while using the exact same words, each person confident the other is being obtuse when really they're just working from a different definition.

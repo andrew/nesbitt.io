@@ -10,6 +10,7 @@ tags:
   - package-managers
   - reference
   - history
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp4awof2f"
 ---
 
 You might assume Semantic Versioning (SemVer) is the only real game in town but versioning in open source is far messier and more diverse than that. Across different ecosystems, maintainers have proposed and adopted a wide range of alternative schemes, from the satirical to the pragmatic. This post is a catalogue of the many versioning approaches that exist in the wild today—from ZeroVer to SemVer and beyond.

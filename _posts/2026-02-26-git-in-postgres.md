@@ -6,6 +6,7 @@ date: 2026-02-26 10:00:00 +0000
 tags:
   - git
   - postgres
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpkbb4b2j"
 ---
 
 In December I wrote about [package managers using git as a database](/2025/12/24/package-managers-keep-using-git-as-a-database.html), and how Cargo's index, Homebrew's taps, Go's module proxy, and CocoaPods' Specs repo all hit the same wall once their access patterns outgrew what a git repo is designed for.

@@ -8,6 +8,7 @@ tags:
   - dependencies
   - security
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpq6sfm2v"
 ---
 
 The free software movement gave us two prepositions to argue over. [Free as in beer](https://en.wiktionary.org/wiki/free_as_in_beer): it costs you nothing. [Free as in speech](https://en.wikipedia.org/wiki/Gratis_versus_libre): you can do what you like with it. Stallman spent decades insisting the second was the one that mattered and the first was nearly a distraction, which is why the FSF ended up maintaining [a page about the word "free"](https://www.gnu.org/philosophy/free-sw.html) that runs longer than most licences.

@@ -7,6 +7,7 @@ tags:
   - security
   - open-source
   - ai
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpqvfsi2t"
 ---
 
 Daniel Stenberg [wrote yesterday](https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/) about Mythos finding a real curl vulnerability, which sent me poking around the curl tree with a couple of AI-assisted scanners to see what else turned up in a codebase that has already had every fuzzer and auditor on earth pointed at it. The findings were better than expected, and one reason stood out: the scanners had read [`docs/VULN-DISCLOSURE-POLICY.md`](https://github.com/curl/curl/blob/master/docs/VULN-DISCLOSURE-POLICY.md) and applied it.

@@ -8,6 +8,7 @@ tags:
   - open-source
   - benchmarks
   - maintainers
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklp5fubr2m"
 ---
 
 If you've used AI coding tools outside of Python or JavaScript, you've probably noticed they get things wrong. Not syntax errors, but convention errors: old package versions, deprecated APIs, outdated idioms.

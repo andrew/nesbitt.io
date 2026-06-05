@@ -6,6 +6,7 @@ description: "What to do when upstream ghosts you"
 tags:
   - package-managers
   - security
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklppcnap2w"
 ---
 
 When a dependency has a known vulnerability and no maintainer to release a fix, you have to fix it yourself. Clone the source, apply the patch, get the patched version back into your dependency tree. The volume of reported CVEs is going to rise, and many will land in packages where nobody is around to cut a release.

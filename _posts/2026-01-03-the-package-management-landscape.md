@@ -6,6 +6,7 @@ description: "A directory of tools, systems, and services that relate to package
 tags:
   - package-managers
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpdfrrb2s"
 ---
 
 A directory of tools, libraries, registries, and standards across package management. I put this together partly as a reference, partly to track which areas I've covered in other posts.

@@ -7,6 +7,7 @@ tags:
   - package-managers
   - deep-dive
   - dependencies
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpibmma2t"
 ---
 
 Whilst I was implementing a [vendor command in git-pkgs](https://github.com/git-pkgs/git-pkgs/pull/98), I noticed that not many package manager clients have native vendoring commands. Go has `go mod vendor`, Cargo has `cargo vendor`, and Bundler has `bundle cache`. That's most of the first-class support I could find, which surprised me for something that used to be the dominant way to manage dependencies. So I went looking for what happened.

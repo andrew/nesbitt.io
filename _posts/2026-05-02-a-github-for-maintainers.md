@@ -7,6 +7,7 @@ tags:
   - github
   - package-managers
   - forges
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklppgejj2m"
 ---
 
 Mat Duggan wrote up [what he'd want from a GitHub replacement](https://matduggan.com/if-i-could-make-my-own-github/) and it's a reasonable list if you're the one at the keyboard. Stacked PRs, pre-push feedback, offline review, lazy history, graduated approval states. Reading through it I kept noticing that almost every item is a client problem, and the clients are already solving it. Jujutsu does stacked changes better than any web UI is going to. Review is moving into editors. Pre-commit feedback wants to run on your machine, where the files are.

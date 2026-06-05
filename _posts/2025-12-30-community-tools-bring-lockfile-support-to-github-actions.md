@@ -8,6 +8,7 @@ tags:
   - github
   - git
   - tools
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpcxwmz26"
 ---
 
 Earlier this month I wrote about [GitHub Actions' missing lockfile](/2025/12/06/github-actions-package-manager.html). After the post was featured on [Hacker News](https://news.ycombinator.com/item?id=46189692) and [Lobste.rs](https://lobste.rs/s/zbqvyu/github_actions_has_package_manager_it), the authors of two projects reached out to share their work solving the problem from different angles.

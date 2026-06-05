@@ -6,6 +6,7 @@ description: "A tour of the easter eggs hiding inside package managers."
 tags:
   - package-managers
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpnidse2v"
 ---
 
 It's Easter, so here's a tour of the easter eggs hiding inside package managers.

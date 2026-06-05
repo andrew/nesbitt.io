@@ -6,6 +6,7 @@ date: 2026-03-20 10:00:00 +0000
 tags:
   - package-managers
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpmmtbz2m"
 ---
 
 [Mike Fiedler](https://www.linkedin.com/in/mikefiedler/) from PyPI asked me recently: which package ecosystems have mirroring tools and what protocols do they use? Here's what I found.
