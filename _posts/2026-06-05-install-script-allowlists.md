@@ -33,7 +33,7 @@ Deno never runs npm lifecycle scripts unless explicitly approved, via the [`--al
 
 Composer's top-level `scripts` field carries lifecycle hooks tied to events like `pre-install-cmd` and `post-update-cmd`, but only the root package's scripts run during install: a dependency's scripts never execute in the parent project, unlike npm's `postinstall`. Plugins are the actual transitive execution surface, and the [`allow-plugins`](https://getcomposer.org/doc/06-config.md#allow-plugins) configuration key (Composer 2.2, 2021-12-22) made plugin activation explicit per package.
 
-The key takes `"vendor/package": true|false` entries with wildcard support (`"vendor/*": true`), defaults to `{}`, and prompts interactively for unlisted plugins while persisting the answer. Non-interactive runs (`--no-interaction`, CI) error rather than silently skipping, so an install that succeeded locally fails in CI until the plugin is on the list.
+The key takes `"vendor/package": true|false` entries with wildcard support (`"vendor/*": true`), defaults to `{}`, and prompts interactively for unlisted plugins while persisting the answer. Non-interactive runs (`--no-interaction`, CI) install the package into `vendor/` but skip executing its plugin code, so an unlisted plugin doesn't break the install, it just doesn't activate.
 
 ## Python
 
