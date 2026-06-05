@@ -35,6 +35,9 @@ llmstxt:
 standard_site:
   publication: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.publication/3mnkktcb4vt2j"
 
+include:
+  - .well-known
+
 exclude:
   - .ruby-lsp
   - cwe/build.rb
