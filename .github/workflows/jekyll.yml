@@ -45,8 +45,25 @@ jobs:
           JEKYLL_ENV: production
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
+      - name: Bundle artifact
+        run: |
+          tar \
+            --dereference --hard-dereference \
+            --directory _site \
+            -cvf "$RUNNER_TEMP/artifact.tar" \
+            --exclude=.git --exclude=.github \
+            .
+        # actions/upload-pages-artifact strips dotfiles, which kills
+        # /.well-known/site.standard.publication. Bundle the tar ourselves
+        # and upload it as the github-pages artifact directly.
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
 
   deploy:
     name: Deploy
