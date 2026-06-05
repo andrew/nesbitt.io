@@ -12,4 +12,5 @@ group :jekyll_plugins do
   gem 'jekyll-stats'
   gem 'jekyll-llmstxt', github: 'andrew/jekyll-llmstxt'
   gem 'jekyll-archives'
+  gem 'jekyll-standard-site'
 end

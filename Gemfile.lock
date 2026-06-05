@@ -66,6 +66,8 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-standard-site (0.2.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-stats (0.2.0)
       jekyll (>= 4.0)
       logger
@@ -117,6 +119,7 @@ DEPENDENCIES
   jekyll-llmstxt!
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-standard-site
   jekyll-stats
 
 RUBY VERSION

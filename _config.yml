@@ -18,6 +18,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-standard-site
 
 jekyll-archives:
   enabled:
@@ -30,6 +31,9 @@ jekyll-archives:
 
 llmstxt:
   full: true
+
+standard_site:
+  publication: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.publication/3mnkktcb4vt2j"
 
 exclude:
   - .ruby-lsp
