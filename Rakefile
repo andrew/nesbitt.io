@@ -1,5 +1,7 @@
 task default: :test
 
+require "jekyll-standard-site/tasks"
+
 namespace :twipm do
   NEWSBOAT_ARGS = %w[
     -u _twipm/newsboat/urls

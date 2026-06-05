@@ -1,0 +1,52 @@
+name: Publish standard.site documents
+
+on:
+  push:
+    branches: ["master"]
+    paths:
+      - '_posts/**'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: standard-site-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Publish new documents
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # commit patched front matter back
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f # v1.310.0
+        with:
+          bundler-cache: true
+
+      - name: Publish documents
+        run: bundle exec rake standard_site:publish
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+
+      - name: Commit patched front matter
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [[ -n "$(git status --porcelain _posts)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add _posts
+            git commit -m "Add at_uri to new posts [skip ci]"
+            git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF_NAME}"
+          else
+            echo "No front matter changes to commit"
+          fi
