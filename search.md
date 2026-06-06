@@ -5,7 +5,7 @@ permalink: /search/
 description: Search articles about package management, software supply chain security, and open source infrastructure.
 ---
 
-<input type="text" id="search-input" placeholder="Search posts...">
+<input type="text" id="search-input" placeholder="Search posts..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
 
 <div id="search-tags">
 {% for tag in site.data.stats.tags limit:15 %}<a href="#" class="search-tag" data-tag="{{ tag.name }}">{{ tag.name }}</a> {% endfor %}

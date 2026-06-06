@@ -3,6 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
   var results = document.getElementById('search-results');
   var posts = [];
 
+  if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    input.focus();
+  }
+
   fetch('/search.json')
     .then(function(response) { return response.json(); })
     .then(function(data) {
