@@ -1,0 +1,1957 @@
+---
+sections:
+- id: package-management-security
+  title: Package Management Security
+  description: Research on security vulnerabilities, attack vectors, and defense mechanisms in package management systems.
+  papers:
+  - title: 'A Look in the Mirror: Attacks on Package Managers'
+    url: https://dl.acm.org/doi/10.1145/1455770.1455841
+    archive_url: http://web.archive.org/web/20241117111626/https://dl.acm.org/doi/10.1145/1455770.1455841
+    year: '2008'
+    authors: Justin Cappos, Justin Samuel, Scott Baker, John H. Hartman
+    venue: ACM Conference on Computer and Communications Security (CCS)
+    notes: |-
+      Seminal paper analyzing ten popular package managers (APT, YUM, YaST, Portage) discovering vulnerabilities in all systems exploitable by man-in-the-middle attackers or malicious mirrors. Demonstrated attackers controlling mirrors could compromise hundreds to thousands of clients weekly. Identified replay attacks, freeze attacks, extraneous dependencies attacks, and endless data attacks while proposing a layered security approach.
+
+      A broader, more "textbook" analysis of these attacks is also available in [a technical report](https://www2.cs.arizona.edu/people/jsamuel/papers/TR08-02.pdf) by the authors.  This further fleshes out a host of related attacks that rely on manipulation of dependency information by mirrors to cause package resolution to behave in ways that harm security or stability.
+    ids:
+      doi: 10.1145/1455770.1455841
+  - title: Package Managers Still Vulnerable
+    url: https://www.usenix.org/publications/login/february-2009-volume-34-number-1/package-managers-still-vulnerable
+    archive_url: http://web.archive.org/web/20260126214140/https://www.usenix.org/publications/login/february-2009-volume-34-number-1/package-managers-still-vulnerable
+    year: '2009'
+    authors: Justin Samuel, Justin Cappos
+    venue: ";login: The USENIX Magazine"
+    notes: Follow-up analysis examining how package managers responded to disclosed vulnerabilities, finding that while some (YaST, APT) made improvements, many remained vulnerable to replay, freeze, and endless data attacks.
+  - title: 'Secure Software Updates: Disappointments and New Challenges'
+    url: https://www.usenix.org/legacy/events/hotsec06/tech/full_papers/bellissimo/bellissimo.pdf
+    archive_url: http://web.archive.org/web/20241209195604/https://www.usenix.org/legacy/events/hotsec06/tech/full_papers/bellissimo/bellissimo.pdf
+    year: '2006'
+    authors: Anthony Bellissimo, John Burgess, Kevin Fu
+    venue: USENIX Workshop on Hot Topics in Security (HotSec)
+    notes: Early analysis of popular software update mechanisms demonstrating that despite research progress, deployed systems relied on trusted networks and were susceptible to man-in-the-middle attacks. Examining McAfee VirusScan, Mozilla Firefox, and Windows Update, the study found none properly authenticated connections.  While technically not package manager research, this work demonstrated that security was lacking in the general space of software update systems.
+  - title: 'Mercury: Bandwidth-Effective Prevention of Rollback Attacks Against Community Repositories'
+    url: https://www.usenix.org/conference/atc17/technical-sessions/presentation/kuppusamy
+    archive_url: http://web.archive.org/web/20251221202931/https://www.usenix.org/conference/atc17/technical-sessions/presentation/kuppusamy
+    year: '2017'
+    authors: Trishank Kuppusamy, Vladimir Diaz, Justin Cappos
+    venue: USENIX Annual Technical Conference (USENIX ATC)
+    notes: Presented bandwidth-efficient techniques for preventing rollback attacks on package repositories in a way that scales to very large software repositories, such as PyPI.  The techniques described here reduce metadata overhead by 95% compared to standard TUF while maintaining security properties. Using delta compression, Mercury achieves about 3.5% of average package size per month for PyPI users.
+  - title: 'Artemis: Defanging Software Supply Chain Attacks in Multi-repository Update Systems'
+    url: https://ssl.engineering.nyu.edu/papers/moore_artemis_2023.pdf
+    archive_url: http://web.archive.org/web/20251205123106/https://ssl.engineering.nyu.edu/papers/moore_artemis_2023.pdf
+    year: '2023'
+    authors: Marina Moore, Trishank Kuppusamy, Justin Cappos
+    venue: Annual Computer Security Applications Conference (ACSAC)
+    notes: Discusses ways to securely use multiple repositories with a package manager.  This includes a mechanism to 1) blocking or pinning a repository name to a specific repository, 2) a means for multiple parties to have different package namespaces on the same repository, and 3) a means to require a threshold of approvers for all of these operations. This paper presents lessons learned both from deployments of [Uptane](https://ssl.engineering.nyu.edu/papers/kuppusamy_escar_16.pdf) (the automotive variant of TUF which is widely used in automotive) and other TUF deployments across millions of devices.
+  - title: 'Small World with High Risks: A Study of Security Threats in the npm Ecosystem'
+    url: https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman
+    archive_url: http://web.archive.org/web/20260101112303/https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman
+    year: '2019'
+    authors: Markus Zimmermann, Cristian-Alexandru Staicu, Cam Tenny, Michael Pradel
+    venue: USENIX Security Symposium
+    notes: Systematically analyzed dependencies, maintainers, and security issues in npm, finding that 20 maintainers can reach more than half the ecosystem and two-thirds of advisories remain unpatched. Demonstrated small-world network properties create concentrated security risks.
+  - title: The impact of security vulnerabilities in the npm package dependency network
+    url: https://dl.acm.org/doi/10.1145/3196398.3196401
+    archive_url: http://web.archive.org/web/20250518070420/https://dl.acm.org/doi/10.1145/3196398.3196401
+    year: '2018'
+    authors: Alexandre Decan, Tom Mens, Eleni Constantinou
+    venue: International Conference on Mining Software Repositories (MSR)
+    notes: Analyzed propagation of security vulnerabilities through npm dependency network, studying how vulnerabilities affect downstream packages and the time required for ecosystem-wide fixes.
+    ids:
+      doi: 10.1145/3196398.3196401
+  - title: Demystifying the vulnerability propagation and its evolution via dependency trees in the npm ecosystem
+    url: https://dl.acm.org/doi/10.1145/3510003.3510142
+    archive_url: http://web.archive.org/web/20250531100002/https://dl.acm.org/doi/10.1145/3510003.3510142
+    year: '2022'
+    authors: Chengwei Liu, Sen Chen, Lingling Fan, Bihuan Chen, Yang Liu, Xin Peng
+    venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+    notes: Analyzes vulnerability propagation within dependency trees by applying npm-specific dependency resolution rules, recommending lockfiles for managing dependencies.
+    ids:
+      doi: 10.1145/3510003.3510142
+  - title: Empirical Analysis of Security Vulnerabilities in Python Packages
+    url: https://ieeexplore.ieee.org/document/9678615
+    archive_url: http://web.archive.org/web/20250416013926/https://ieeexplore.ieee.org/document/9678615/
+    year: '2021'
+    authors: Various authors
+    venue: IEEE conference proceedings
+    notes: Analysis of 550 vulnerability reports affecting 252 Python packages in PyPI ecosystem, providing empirical evidence about vulnerability patterns in Python packages.
+  - title: Surviving Software Dependencies
+    url: https://dl.acm.org/doi/10.1145/3329781.3344149
+    year: '2019'
+    authors: Russ Cox
+    venue: ACM Queue
+    notes: Influential essay on managing software dependencies at scale. Discusses version selection, minimum version selection (used in Go), and the tradeoffs between different dependency management approaches. Required reading for anyone working on package managers.
+    ids:
+      doi: 10.1145/3329781.3344149
+  - title: The Impact of Regular Expression Denial of Service (ReDoS) in Practice
+    url: https://dl.acm.org/doi/10.1145/3236024.3236027
+    archive_url: https://web.archive.org/web/20210416093951/https://ieeexplore.ieee.org/document/9403390
+    year: '2018'
+    authors: James Davis, Christy Coghlan, Francisco Servant, Dongyoon Lee
+    venue: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) - Distinguished Paper Award
+    notes: Ecosystem-scale study of ReDoS vulnerabilities in npm and PyPI. Found thousands of super-linear regexes affecting over 10,000 modules. 93% of vulnerable regexes are polynomial rather than exponential, missed by common detection tools.
+    ids:
+      doi: 10.1145/3236024.3236027
+  - title: 'Thou Shalt Not Depend on Me: Analysing the Use of Outdated JavaScript Libraries on the Web'
+    url: https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_02B-1_Lauinger_paper.pdf
+    archive_url: http://web.archive.org/web/20240916155726/https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_02B-1_Lauinger_paper.pdf
+    year: '2017'
+    authors: Tobias Lauinger, Abdelberi Chaabane, Sajjad Arshad, William Robertson, Christo Wilson, Engin Kirda
+    venue: Network and Distributed System Security Symposium (NDSS)
+    notes: First comprehensive study of client-side JavaScript library usage across 133K websites. Found 37% include at least one library with a known vulnerability. Median site uses library versions released 1,177 days before newest available release.
+- id: lockfiles
+  title: Lockfiles
+  description: Research on lockfile design, usage, and their role in dependency management.
+  papers:
+  - title: The Design Space of Lockfiles Across Package Managers
+    url: https://arxiv.org/pdf/2505.04834
+    archive_url: http://web.archive.org/web/20251210090521/https://arxiv.org/pdf/2505.04834
+    year: '2025'
+    authors: Yogya Gamage, Deepika Tiwari, Martin Monperrus, Benoit Baudry
+    venue: arXiv preprint
+    notes: First study of lockfiles across seven package managers (npm, pnpm, Cargo, Poetry, Pipenv, Gradle, Go). Analyzes lockfile content and lifecycle differences, finding Go has near 100% lockfile commit rate while Gradle is close to zero. Interviews with 15 developers reveal benefits (build determinism, integrity verification, transparency) and challenges (readability, delayed updates, library locking). Recommends generating lockfiles by default and committing them for all projects.
+    ids:
+      arxiv: '2505.04834'
+  - title: 'Reproducible builds: Increasing the integrity of software supply chains'
+    url: https://ieeexplore.ieee.org/document/9403390
+    archive_url: http://web.archive.org/web/20250415120641/https://ieeexplore.ieee.org/document/9648644/
+    year: '2022'
+    authors: Chris Lamb, Stefano Zacchiroli
+    venue: IEEE Software
+    notes: Overview of the reproducible builds movement and its importance for software supply chain security. Discusses how bit-for-bit reproducibility enables independent verification of build artifacts.
+  - title: 'It''s Like Flossing Your Teeth: On the Importance and Challenges of Reproducible Builds for Software Supply Chain Security'
+    url: https://ieeexplore.ieee.org/abstract/document/10179320
+    archive_url: http://web.archive.org/web/20240415165128/https://ieeexplore.ieee.org/abstract/document/10179320
+    year: '2023'
+    authors: Marcel Fourné, Dominik Wermke, William Enck, Sascha Fahl, Yasemin Acar
+    venue: IEEE Symposium on Security and Privacy (S&P)
+    notes: 24 semi-structured interviews with Reproducible-Builds.org participants. Found self-effective work by highly motivated developers and collaborative communication with upstream projects are key to achieving reproducible builds. Identifies path for R-Bs to become commonplace.
+  - title: Investigating the reproducibility of npm packages
+    url: https://ieeexplore.ieee.org/document/9240695
+    archive_url: http://web.archive.org/web/20201210163152/https://ieeexplore.ieee.org/document/9240695
+    year: '2020'
+    authors: Pronnoy Goswami, Saksham Gupta, Zhiyuan Li, Na Meng, Daphne Yao
+    venue: IEEE International Conference on Software Maintenance and Evolution (ICSME)
+    notes: Empirical study of npm package reproducibility, analyzing factors that affect whether packages can be rebuilt identically from source.
+  - title: 'Pinning is futile: You need more than local dependency versioning to defend against supply chain attacks'
+    url: https://arxiv.org/abs/2502.06662
+    archive_url: http://web.archive.org/web/20260127103135/https://arxiv.org/abs/2502.06662
+    year: '2025'
+    authors: Hao He, Bogdan Vasilescu, Christian Kästner
+    venue: arXiv preprint
+    notes: Study finding that local pinning leads to more security vulnerabilities due to bloated and outdated dependencies. Suggests risk of malicious package updates can be reduced when core dependencies pin their versions and keep them updated regularly.
+    ids:
+      arxiv: '2502.06662'
+  - title: Causes and Canonicalization of Unreproducible Builds in Java
+    url: https://arxiv.org/abs/2504.21679
+    archive_url: https://web.archive.org/web/20260109164548/https://arxiv.org/abs/2504.21679
+    year: '2025'
+    authors: Aman Sharma, Benoit Baudry, Martin Monperrus
+    venue: IEEE Transactions on Software Engineering
+    notes: Develops a taxonomy of six root causes of build unreproducibility in Java and presents Chains-Rebuild, a canonicalization tool that raises reproducibility success from 9.48% to 26.89% on 12,283 unreproducible artifacts. Studies mitigations including artifact and bytecode canonicalization.
+    ids:
+      arxiv: '2504.21679'
+  - title: 'Maven-Lockfile: High Integrity Rebuild of Past Java Releases'
+    url: https://arxiv.org/abs/2510.00730
+    archive_url: http://web.archive.org/web/20260126214427/https://arxiv.org/abs/2510.00730
+    year: '2025'
+    authors: Larissa Schmid, et al.
+    venue: arXiv preprint
+    notes: Addresses Maven's lack of native lockfile support. Presents Maven-Lockfile to generate and update lockfiles capturing all direct and transitive dependencies with checksums. Enables high integrity builds and can detect tampered artifacts.
+    ids:
+      arxiv: '2510.00730'
+  - title: Does Functional Package Management Enable Reproducible Builds at Scale? Yes.
+    url: https://arxiv.org/abs/2501.15919
+    archive_url: http://web.archive.org/web/20251222083827/https://arxiv.org/abs/2501.15919
+    year: '2025'
+    authors: Julien Malka, Stefano Zacchiroli, Théo Zimmermann
+    venue: International Conference on Mining Software Repositories (MSR) - Distinguished Paper Award
+    notes: First large-scale study of bitwise reproducibility in Nix, rebuilding 709,816 packages from historical snapshots of nixpkgs sampled between 2017 and 2023. Achieved reproducibility rates between 69% and 91% with an upward trend, and rebuildability rates over 99%. Found about 15% of unreproducibility failures are due to embedded build dates. Released a dataset with build statuses, logs, and recursive diffs showing where unreproducible artifacts differ.
+    ids:
+      arxiv: '2501.15919'
+  - title: 'Improving Reproducibility of Scientific Software Using Nix/NixOS: A Case Study on the preCICE Ecosystem'
+    url: https://eceasst.org/index.php/eceasst/article/view/2613
+    archive_url: http://web.archive.org/web/20250620075104/https://eceasst.org/index.php/eceasst/article/view/2613
+    year: '2025'
+    authors: Max Hausch, Simon Hauser, Benjamin Uekermann
+    venue: Electronic Communications of the EASST
+    notes: Case study applying Nix to scientific software reproducibility in the preCICE coupling library ecosystem. Demonstrates how functional package management provides guarantees that packages and their dependencies can be built reproducibly, addressing challenges in computational science where results must be independently verifiable.
+  - title: 'Lila: Decentralized Build Reproducibility Monitoring for the Functional Package Management Model'
+    url: https://arxiv.org/abs/2601.20662
+    year: '2026'
+    authors: Julien Malka, Arnout Engelen
+    venue: arXiv preprint
+    notes: Proposes Lila, a decentralised monitor for bit-for-bit reproducibility of artifacts built under functional package managers like Nix and Guix. Independent builders publish attestations to a shared log so divergences in distributed binaries can be detected without trusting any single rebuilder.
+    ids:
+      arxiv: '2601.20662'
+      doi: 10.48550/arXiv.2601.20662
+- id: dependency-resolution-algorithms-and-challenges
+  title: Dependency Resolution Algorithms and Challenges
+  description: Research establishing the theoretical complexity of dependency resolution and practical solutions.
+  papers:
+  - title: 'EDOS deliverable WP2-D2.1: Report on Formal Management of Software Dependencies'
+    url: https://www.researchgate.net/publication/278629134_EDOS_deliverable_WP2-D21_Report_on_Formal_Management_of_Software_Dependencies
+    year: '2005'
+    authors: Roberto Di Cosmo
+    venue: INRIA Technical Report
+    notes: |-
+      First document to show that the package installation problem is NP-complete. First to
+      show a 3SAT encoding for Debian and RPM solves. Compares package constraint languages
+      and proposes improvements for metadata.
+  - title: 'OPIUM: Optimal Package Install/Uninstall Manager'
+    url: https://cseweb.ucsd.edu/~lerner/papers/opium.pdf
+    archive_url: http://web.archive.org/web/20250920063707/https://cseweb.ucsd.edu/~lerner/papers/opium.pdf
+    year: '2007'
+    authors: Chris Tucker, David Shuffelton, Ranjit Jhala, Sorin Lerner
+    venue: International Conference on Software Engineering (ICSE)
+    notes: Introduced complete dependency solver using SAT, pseudo-boolean optimization, and Integer Linear Programming. OPIUM guarantees completeness and optimizes user-defined objectives. Demonstrated 23.3% of Debian users encounter apt-get's incompleteness failures.
+  - title: Automated dependency resolution for open source software
+    url: https://ieeexplore.ieee.org/document/5463346
+    archive_url: http://web.archive.org/web/20250423181704/https://ieeexplore.ieee.org/document/5463346/
+    year: '2010'
+    authors: Joel Ossher, Sushil Bajracharya, Cristina Lopes
+    venue: IEEE Working Conference on Mining Software Repositories (MSR)
+    notes: Proposed techniques for automatically resolving dependencies in open source projects by mining and analyzing source code repositories, addressing challenges when dependency metadata is incomplete or unavailable.
+  - title: Handling software upgradeability problems with MILP solvers
+    url: https://doi.org/10.4204/EPTCS.29.1
+    year: '2010'
+    authors: Claude Michel, Michel Rueher
+    venue: International Workshop on Logics for Component Configuration (LoCoCo)
+    notes: Demonstrated how Mixed Integer Linear Programming solvers can handle package upgradeability problems, offering an alternative to SAT-based approaches with different performance characteristics.
+    ids:
+      doi: 10.4204/EPTCS.29.1
+  - title: Solving Linux Upgradeability Problems Using Boolean Optimization
+    url: https://doi.org/10.4204/EPTCS.29.2
+    year: '2010'
+    authors: Josep Argelich, Daniel Le Berre, Inês Lynce, João P. Marques Silva, Pascal Rapicault
+    venue: International Workshop on Logics for Component Configuration (LoCoCo)
+    notes: Applied pseudo-boolean optimization techniques to Linux package upgradeability, showing how boolean optimization can find optimal solutions while respecting user preferences.
+    ids:
+      doi: 10.4204/EPTCS.29.2
+  - title: 'Dependency solving: A separate concern in component evolution management'
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0164121212000477
+    archive_url: http://web.archive.org/web/20240918233216/https://www.sciencedirect.com/science/article/abs/pii/S0164121212000477
+    year: '2012'
+    authors: Pietro Abate, Roberto Di Cosmo, Ralf Treinen, Stefano Zacchiroli
+    venue: Journal of Systems and Software (JSS)
+    notes: Argued for modular package manager architecture where dependency solving separates from other concerns. Reviewed state-of-the-art package managers and proposed generic external solvers (SAT, PBO, MILP) rather than ad-hoc heuristics.
+  - title: Modelling and Resolving Software Dependencies
+    url: https://www.researchgate.net/publication/229012671_Modelling_and_resolving_software_dependencies
+    year: '2005'
+    authors: Daniel Burrows
+    venue: Technical Report
+    notes: Presented abstract model of dependency relationships and restartable best-first-search technique for dependency resolution. Documents theoretical approach behind aptitude's problem resolver.
+  - title: Dependency Solving Is Still Hard, but We Are Getting Better at It
+    url: https://arxiv.org/abs/2011.07851
+    archive_url: http://web.archive.org/web/20251208110940/https://arxiv.org/abs/2011.07851
+    year: '2020'
+    authors: Pietro Abate, Roberto Di Cosmo, Georgios Gousios, Stefano Zacchiroli
+    venue: IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
+    notes: Retrospective analysis conducting census of dependency solving capabilities in state-of-the-art package managers, showing SAT-based approaches are gaining adoption. Demonstrated that despite NP-completeness, practical solvers perform well on real-world instances.
+    ids:
+      arxiv: '2011.07851'
+  - title: 'aspcud: A Linux Package Configuration Tool Based on Answer Set Programming'
+    url: https://doi.org/10.4204/EPTCS.65.2
+    year: '2011'
+    authors: Martin Gebser, Roland Kaminski, Torsten Schaub
+    venue: Electronic Proceedings in Theoretical Computer Science
+    notes: Introduced aspcud, a dependency solver using Answer Set Programming rather than SAT or MILP. Demonstrates ASP as a viable alternative for package configuration, with declarative specification of optimization criteria and competitive performance on Debian package problems.
+    ids:
+      doi: 10.4204/EPTCS.65.2
+  - title: On software component co-installability
+    url: https://dl.acm.org/doi/10.1145/2025113.2025149
+    year: '2011'
+    authors: Roberto Di Cosmo, Jérôme Vouillon
+    venue: SIGSOFT Symposium on the Foundations of Software Engineering (FSE)
+    notes: Addressed fundamental challenge of determining which software components can be installed together, developing formal framework with graph-theoretic transformations to simplify dependency repositories while preserving co-installability properties.
+    ids:
+      doi: 10.1145/2025113.2025149
+  - title: Strong dependencies between software components
+    url: https://dl.acm.org/doi/10.1109/ESEM.2009.5314231
+    archive_url: http://web.archive.org/web/20240411232341/https://dl.acm.org/doi/10.1109/ESEM.2009.5314231
+    year: '2009'
+    authors: Pietro Abate, Roberto Di Cosmo, Jaap Boender, Stefano Zacchiroli
+    venue: ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)
+    notes: Studied strong dependency relationships where packages are tightly coupled, analyzing patterns of mandatory co-installation and implications for system evolution.
+    ids:
+      doi: 10.1109/ESEM.2009.5314231
+  - title: 'Watchman: Monitoring dependency conflicts for python library ecosystem'
+    url: https://dl.acm.org/doi/10.1145/3377811.3380426
+    archive_url: http://web.archive.org/web/20250531100002/https://dl.acm.org/doi/10.1145/3377811.3380426
+    year: '2020'
+    authors: Ying Wang, Ming Wen, Yepang Liu, Yibo Wang, Zhenming Li, Chao Wang, Hai Yu, Shing-Chi Cheung, Chang Xu, Zhiliang Zhu
+    venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+    notes: Identifies factors leading to dependency conflicts in Python ecosystem and proposes monitoring approach for detecting conflicts.
+    ids:
+      doi: 10.1145/3377811.3380426
+  - title: 'smartpip: A smart approach to resolving python dependency conflict issues'
+    url: https://dl.acm.org/doi/10.1145/3551349.3560437
+    archive_url: http://web.archive.org/web/20250531100002/https://dl.acm.org/doi/10.1145/3551349.3560437
+    year: '2023'
+    authors: Chenyang Wang, Rongxin Wu, Haoran Song, Junjie Shu, Guozhu Li
+    venue: IEEE/ACM International Conference on Automated Software Engineering (ASE)
+    notes: Highlights issues related to inefficiency and excessive resource usage by dependency resolution strategies in Python, proposing improved resolution approach.
+    ids:
+      doi: 10.1145/3551349.3560437
+  - title: 'ConflictJS: Finding and understanding conflicts between javascript libraries'
+    url: https://dl.acm.org/doi/10.1145/3180155.3180184
+    archive_url: http://web.archive.org/web/20250802213305/https://dl.acm.org/doi/10.1145/3180155.3180184
+    year: '2018'
+    authors: Jibesh Patra, Pooja N. Dixit, Michael Pradel
+    venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+    notes: Analyzes dependency conflicts in JavaScript arising from namespace collisions, proposing detection and understanding mechanisms.
+    ids:
+      doi: 10.1145/3180155.3180184
+  - title: Could I Have a Stack Trace to Examine the Dependency Conflict Issue?
+    url: https://doi.org/10.1109/ICSE.2019.00068
+    year: '2019'
+    authors: Ying Wang, Ming Wen, Rongxin Wu, Zhenwei Liu, Shin Hwei Tan, Zhiliang Zhu, Hai Yu, Shing-Chi Cheung
+    venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+    notes: Proposes approach to help developers diagnose dependency conflicts in Java/Maven by generating stack traces that reveal how conflicts manifest at runtime, making abstract version incompatibilities concrete and actionable.
+    ids:
+      doi: 10.1109/ICSE.2019.00068
+  - title: 'Hero: On the chaos when path meets modules'
+    url: https://dl.acm.org/doi/10.1109/ICSE43902.2021.00022
+    year: '2021'
+    authors: Ying Wang, Liang Qiao, Chang Xu, Yepang Liu, Shing-Chi Cheung, Na Meng, Hai Yu, Zhiliang Zhu
+    venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+    notes: 'Studies conflicts in Go ecosystem caused by coexistence of two library referencing modes: GOPATH and Go modules.'
+    ids:
+      doi: 10.1109/ICSE43902.2021.00022
+  - title: 'Stork: Secure Package Management For VM Environments'
+    url: https://www.cs.arizona.edu/sites/default/files/TR08-04.pdf
+    archive_url: http://web.archive.org/web/20250320005134/https://cs.arizona.edu/sites/default/files/TR08-04.pdf
+    year: '2008'
+    authors: Justin Cappos
+    venue: Dissertation (University of Arizona) -- Chapter 3.8
+    notes: Describes backtracking dependency resolution.  In contrast to more mathematically advanced techniques, this tries the best match greedily for each package and then rewinds state if there is a conflict.  Through practical use in Stork, this was found to work well for adopters, despite its simplcity.
+  - title: Solving Package Management via Hypergraph Dependency Resolution
+    url: https://arxiv.org/abs/2506.10803
+    archive_url: http://web.archive.org/web/20251203173638/https://arxiv.org/abs/2506.10803
+    year: '2025'
+    authors: Ryan Gibb, Patrick Ferris, David Allsopp, Michael Winston Dales, Mark Elvers, Thomas Gazagnaire, Sadiq Jaffer, Thomas Leonard, Jon Ludlam, Anil Madhavapeddy
+    venue: arXiv preprint
+    notes: Introduces HyperRes, a formal framework modeling dependencies as hypergraphs to address fragmentation across package managers. Demonstrates translation of metadata between different package managers and solving dependency constraints across ecosystems without forcing users to abandon their preferred tools.
+    ids:
+      arxiv: '2506.10803'
+  - title: Using Answer Set Programming for HPC Dependency Solving
+    url: https://dl.acm.org/doi/abs/10.5555/3571885.3571931
+    archive_url: http://web.archive.org/web/20240429022238/https://dl.acm.org/doi/abs/10.5555/3571885.3571931
+    year: '2022'
+    authors: Todd Gamblin, Massimiliano Culpo, Gregory Becker, Sergei Shudler
+    venue: Supercomputing
+    notes: 'Describes the ASP encoding used for Spack''s dependency solver: how to model versions, variants, and dependencies. Also describes how to structure optimization criteria to mix source and binary builds by reusing existing installations/build caches (if they''re compatible).'
+    ids:
+      doi: 10.5555/3571885.3571931
+  - title: Bridging the Gap Between Binary and Source Based Package Management in Spack
+    url: https://dl.acm.org/doi/10.1145/3712285.3759791
+    year: '2025'
+    authors: John Gouwar, Greg Becker, Tamara Dahlgren, Nathan Hanford, Arjun Guha, and Todd Gamblin
+    venue: Supercomputing
+    notes: |-
+      Discusses some differences beteween source and binary package solving. Describes how to
+      avoid the rigid ABI requirements of Spack's (and Nix's and Guix's) hashing model and not
+      rebuild the world when an ABI-stable package like zlib changes, while preserving
+      reproducibility for mixed (or "impure" in nix-speak) installations.
+    ids:
+      doi: 10.1145/3712285.3759791
+  - title: 'Package Managers à la Carte: A Formal Model of Dependency Resolution'
+    url: https://arxiv.org/abs/2602.18602
+    year: '2026'
+    authors: Ryan Gibb, Patrick Ferris, David N. Allsopp, Thomas Gazagnaire, Anil Madhavapeddy
+    venue: arXiv preprint
+    notes: Follow-up to the HyperRes hypergraph dependency resolver. Introduces the Package Calculus, a formalism aiming to capture dependency resolution semantics across language and OS package managers as parameterised variants of a single core. Targets multilingual projects whose external system and hardware dependencies fall through gaps between existing package managers.
+    ids:
+      arxiv: '2602.18602'
+      doi: 10.48550/arxiv.2602.18602
+  - title: 'Breaking the Dependency Chaos: A Constraint-Driven Python Dependency Resolution Strategy with Selective LLM Imputation'
+    url: https://arxiv.org/abs/2605.11772
+    year: '2026'
+    authors: Kowshik Chowdhury, Dipayan Banik, Shazibul Islam Shamim
+    venue: arXiv preprint
+    notes: Tackles Python dependency resolution where missing metadata, Python 2/3 incompatibilities, and deprecated packages make pure SAT-style solvers fail. Combines constraint solving with LLM-based imputation only for the genuinely missing version information, rather than treating the whole problem as LLM inference like prior work (PLLM).
+    ids:
+      arxiv: '2605.11772'
+      doi: 10.48550/arxiv.2605.11772
+- id: software-supply-chain-security
+  title: Software Supply Chain Security
+  description: Research on supply chain attacks, detection methods, and prevention frameworks.
+  papers:
+  - title: 'in-toto: Providing Farm-to-Table Guarantees for Bits and Bytes'
+    url: https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias
+    archive_url: http://web.archive.org/web/20251230045420/https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias
+    year: '2019'
+    authors: Santiago Torres-Arias, Hammad Afzali, Trishank Kuppusamy, Reza Curtmola, Justin Cappos
+    venue: USENIX Security Symposium
+    notes: Presented framework for securing the entire software supply chain from development to deployment using cryptographic metadata. Analyzed 30 major supply chain attacks and demonstrated in-toto would have prevented 23 (77%) outright. Deployed at Datadog, Debian, and Kubernetes.
+  - title: 'Backstabber''s Knife Collection: A Review of Open Source Software Supply Chain Attacks'
+    url: https://arxiv.org/abs/2005.09535
+    archive_url: http://web.archive.org/web/20260126214947/https://arxiv.org/abs/2005.09535
+    year: '2020'
+    authors: Marc Ohm, Henrik Plate, Arnold Sykosch, Michael Meier
+    venue: International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment (DIMVA)
+    notes: Presented dataset and analysis of 174 malicious packages from npm, PyPI, and RubyGems used in real-world attacks between November 2015 and November 2019. Introduced attack trees categorizing injection techniques and execution triggers.
+    ids:
+      arxiv: '2005.09535'
+  - title: Towards Measuring Supply Chain Attacks on Package Managers for Interpreted Languages
+    url: https://arxiv.org/abs/2002.01139
+    archive_url: http://web.archive.org/web/20260107210003/https://arxiv.org/abs/2002.01139
+    year: '2020'
+    authors: Ruian Duan, Omar Alrawi, Ranjita Pai Kasturi, Ryan Elder, Brendan Saltaformaggio, Wenke Lee
+    venue: arXiv preprint
+    notes: Proposed comparative framework for assessing security features of package managers for interpreted languages. Developed MalOSS pipeline for automated malware detection, finding and reporting 339 new malicious packages, with 278 (82%) confirmed by maintainers.
+    ids:
+      arxiv: '2002.01139'
+  - title: 'SoK: Taxonomy of Attacks on Open-Source Software Supply Chains'
+    url: https://ieeexplore.ieee.org/document/10179304
+    archive_url: http://web.archive.org/web/20260109160942/https://ieeexplore.ieee.org/document/10179304
+    year: '2023'
+    authors: Piergiorgio Ladisa, Henrik Plate, Matias Martinez, Olivier Barais
+    venue: IEEE Symposium on Security and Privacy (S&P)
+    notes: Systematized knowledge about attacks on open-source software supply chains, proposing taxonomy independent of specific languages or ecosystems. Identified 12 distinct attack categories and analyzed their prevalence.
+  - title: 'SoK: Analysis of Software Supply Chain Security by Establishing Secure Design Properties'
+    url: https://dl.acm.org/doi/10.1145/3560835.3564556
+    archive_url: http://web.archive.org/web/20250626110144/https://dl.acm.org/doi/10.1145/3560835.3564556
+    year: '2022'
+    authors: Chinenye Okafor, James Davis, et al.
+    venue: ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)
+    notes: 'Systematized knowledge about secure software supply chain patterns, identifying four stages of supply chain attacks and proposing three security properties: transparency, validity, and separation.'
+    ids:
+      doi: 10.1145/3560835.3564556
+  - title: Research directions in software supply chain security
+    url: https://dl.acm.org/doi/10.1145/3709359
+    year: '2025'
+    authors: Laurie Williams, Grace Benedetti, Samuel Hamer, Ranindya Paramitha, Imranur Rahman, Mahzabin Tamanna, Gabriel Tystahl, Nusrat Zahan, Patrick Morrison, Yasemin Acar, Michel Cukier, Christian Kästner, Alexandros Kapravelos, Dominik Wermke, William Enck
+    venue: ACM Transactions on Software Engineering and Methodology (TOSEM)
+    notes: Survey identifying key research directions in software supply chain security including dependency management, vulnerability detection, and trust models across package ecosystems.
+    ids:
+      doi: 10.1145/3709359
+  - title: Modeling Interconnected Social and Technical Risks in Open Source Software Ecosystems
+    url: https://arxiv.org/abs/2205.04268
+    archive_url: http://web.archive.org/web/20250604175554/https://arxiv.org/abs/2205.04268
+    year: '2022'
+    authors: William Schueller, Johannes Wachs
+    venue: arXiv preprint
+    notes: Examines how social and technical factors interact to create systemic risks in open source ecosystems. Developers often maintain multiple interdependent libraries, meaning individual departures can cascade failures across projects. Develops a framework measuring risk based on both dependency networks and developer involvement, applied to the Rust ecosystem.
+    ids:
+      arxiv: '2205.04268'
+  - title: Out of Sight, Out of Mind? How Vulnerable Dependencies Affect Open-Source Projects
+    url: https://link.springer.com/article/10.1007/s10664-021-09959-3
+    archive_url: http://web.archive.org/web/20230729215339/https://link.springer.com/article/10.1007/s10664-021-09959-3
+    year: '2021'
+    authors: Gede Artha Azriadi Prana, Abhishek Sharma, Lwin Khin Shar, Darius Foo, Andrew Santosa, Asankhaya Sharma, David Lo
+    venue: Empirical Software Engineering
+    notes: Analyzed vulnerabilities in 450 Java, Python, and Ruby projects using industrial SCA tool. Found vulnerabilities persist 3-5 months after fixes become available. Highlights importance of managing dependency count and performing timely updates.
+  - title: 'Software Supply Chain: Review of Attacks, Risk Assessment Strategies and Security Controls'
+    url: https://arxiv.org/abs/2305.14157
+    archive_url: http://web.archive.org/web/20260222031806/https://arxiv.org/abs/2305.14157
+    year: '2023'
+    authors: Betul Gokkaya, et al.
+    venue: arXiv preprint
+    notes: Systematic literature review analyzing common software supply chain attacks and providing latest trends. Identified security risks for open-source and third-party software supply chains.
+    ids:
+      arxiv: '2305.14157'
+  - title: Challenges of Producing Software Bill Of Materials for Java
+    url: https://arxiv.org/abs/2303.11102
+    archive_url: http://web.archive.org/web/20251122153049/https://arxiv.org/abs/2303.11102
+    year: '2023'
+    authors: Musard Balliu, Benoit Baudry, Sofia Bobadilla, Mathias Ekstedt, Martin Monperrus, Javier Ron, Aman Sharma, Gabriel Skoglund, César Soto-Valero, Martin Wittlinger
+    venue: arXiv preprint
+    notes: Evaluated six SBOM generation tools on complex open-source Java projects, identifying hard challenges for accurate SBOM production and usage in software supply chain security contexts.
+    ids:
+      arxiv: '2303.11102'
+  - title: 'On the way to sboms: Investigating design issues and solutions in practice'
+    url: https://dl.acm.org/doi/full/10.1145/3654442
+    archive_url: http://web.archive.org/web/20250219015905/https://dl.acm.org/doi/abs/10.1145/3654442
+    year: '2024'
+    authors: Tingting Bi, Boming Xia, Zhenchang Xing, Qinghua Lu, Liming Zhu
+    venue: ACM Transactions on Software Engineering and Methodology (TOSEM)
+    notes: Investigates SBOM design issues and solutions, noting lockfiles as related to SBOM generation.
+    ids:
+      doi: 10.1145/3654442
+  - title: 'On the correctness of metadata-based sbom generation: A differential analysis approach'
+    url: https://ieeexplore.ieee.org/document/10646983
+    archive_url: http://web.archive.org/web/20240908003706/https://ieeexplore.ieee.org/document/10646983
+    year: '2024'
+    authors: Songqiang Yu, Wei Song, Xiaolong Hu, Heng Yin
+    venue: IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)
+    notes: Differential analysis evaluating correctness of SBOM generation from metadata, using lockfiles as source of truth for comparison.
+  - title: 'SBOM.EXE: Countering Dynamic Code Injection based on Software Bill of Materials in Java'
+    url: https://arxiv.org/abs/2407.00246
+    archive_url: http://web.archive.org/web/20251117192231/https://arxiv.org/abs/2407.00246
+    year: '2024'
+    authors: Aman Sharma, Martin Wittlinger, Benoit Baudry, Martin Monperrus
+    venue: arXiv preprint
+    notes: Proposes a runtime defense mechanism for Java applications that constructs an allowlist of legitimate classes using complete software supply chain information, then enforces this list during execution to block unauthorized classes. Tested against critical vulnerabilities including Log4Shell-style threats with minimal performance impact.
+    ids:
+      arxiv: '2407.00246'
+  - title: 'Maven-Hijack: Software Supply Chain Attack Exploiting Packaging Order'
+    url: https://arxiv.org/abs/2407.18760
+    archive_url: https://web.archive.org/web/20251216155450/http://arxiv.org/abs/2407.18760
+    year: '2025'
+    authors: Frank Reyes, Federico Bono, Aman Sharma, Benoit Baudry, Martin Monperrus
+    venue: ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)
+    notes: Demonstrates a supply chain attack exploiting how Maven packages dependencies and how the JVM resolves classes at runtime. By injecting a malicious class with the same fully qualified name into a dependency packaged earlier, an attacker can silently override application behavior. Demonstrated on the Corona-Warn-App.
+    ids:
+      arxiv: '2407.18760'
+  - title: 'GoSurf: Identifying Software Supply Chain Attack Vectors in Go'
+    url: https://arxiv.org/abs/2407.04442
+    archive_url: https://web.archive.org/web/20251117190748/https://arxiv.org/abs/2407.04442
+    year: '2024'
+    authors: Carmine Cesarano, Vivi Andersson, Roberto Natella, Martin Monperrus
+    venue: ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)
+    notes: Proposes a taxonomy of 12 attack vectors specific to Go's package lifecycle, identifying language features that can be misused to propagate malicious code through supply chains. Introduces GoSurf, a static analysis tool that measures the attack surface of Go packages according to this taxonomy, evaluated on the top 500 most imported Go modules.
+    ids:
+      arxiv: '2407.04442'
+  - title: Software Bills of Materials in Maven Central
+    url: https://arxiv.org/abs/2501.13832
+    archive_url: https://web.archive.org/web/20251118030348/https://arxiv.org/abs/2501.13832
+    year: '2025'
+    authors: Yogya Gamage, Nadia Gonzalez Fernandez, Martin Monperrus, Benoit Baudry
+    venue: International Conference on Mining Software Repositories (MSR) Mining Challenge
+    notes: Mines SBOMs from Maven Central to assess how often developers publish them alongside artifacts. Collected 14,071 SBOMs from 7,290 package releases and found the 2021 White House Executive Order significantly accelerated SBOM adoption. CycloneDX and SPDX plugins for Gradle and Maven are the most commonly used generators.
+    ids:
+      arxiv: '2501.13832'
+  - title: 'Dirty-Waters: Detecting Software Supply Chain Smells'
+    url: https://arxiv.org/abs/2410.16049
+    archive_url: http://web.archive.org/web/20260126215029/https://arxiv.org/abs/2410.16049
+    year: '2024'
+    authors: Raphina Liu, Sofia Bobadilla, Benoit Baudry, Martin Monperrus
+    venue: arXiv preprint
+    notes: Introduces "software supply chain smell" as a novel concept for identifying problematic dependency patterns. Presents Dirty-Waters tool for detecting these smells in JavaScript projects, finding many patterns that reveal potential supply chain risks.
+    ids:
+      arxiv: '2410.16049'
+  - title: 'LastPyMile: Identifying the Discrepancy Between Sources and Packages'
+    url: https://dl.acm.org/doi/10.1145/3468264.3468592
+    archive_url: http://web.archive.org/web/20250601134415/https://dl.acm.org/doi/10.1145/3468264.3468592
+    year: '2021'
+    authors: Duc-Ly Vu, Fabio Massacci, Ivan Pashchenko, Henrik Plate, Antonino Sabetta
+    venue: ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)
+    notes: Proposed methodology for identifying discrepancies between source code repositories (GitHub) and distributed packages (PyPI). Analyzed 2,438 popular PyPI packages, finding on average 5.8% of artifacts and 2.6% of files have changes.
+    ids:
+      doi: 10.1145/3468264.3468592
+  - title: Towards Using Source Code Repositories to Identify Software Supply Chain Attacks
+    url: https://dl.acm.org/doi/10.1145/3372297.3420015
+    archive_url: http://web.archive.org/web/20211008081035/https://dl.acm.org/doi/10.1145/3372297.3420015
+    year: '2020'
+    authors: Duc-Ly Vu, Ivan Pashchenko, Fabio Massacci, Henrik Plate, Antonino Sabetta
+    venue: ACM Conference on Computer and Communications Security (CCS)
+    notes: Earlier work exploring use of source code repository analysis for detecting supply chain attacks, establishing foundation for LastPyMile approach by identifying that attackers inject minimal code changes.
+    ids:
+      doi: 10.1145/3372297.3420015
+  - title: 'Software Composition Analysis and Supply Chain Security in Apache Projects: An Empirical Study'
+    url: https://ieeexplore.ieee.org/document/11025577
+    archive_url: http://web.archive.org/web/20250808133305/https://ieeexplore.ieee.org/document/11025577
+    year: '2025'
+    authors: Sabato Nocera, Sira Vegas, Giuseppe Scanniello, Natalia Juristo
+    venue: International Conference on Mining Software Repositories (MSR)
+    notes: Investigated effects of adopting OWASP Dependency-Check (SCA tool) in Apache Software Foundation Java Maven projects. Found adoption causes significant reduction in vulnerabilities including high-severity CVEs.
+  - title: 'Original Sin of npm: A Study on Vulnerability Propagation in JavaScript Dependency Networks'
+    url: https://arxiv.org/abs/2604.17668
+    year: '2026'
+    authors: Michael Robinson, Sajal Halder, Muhammad Ejaz Ahmed, Muhammad Ikram, Seyit Camtepe, Hyoungshick Kim
+    venue: arXiv preprint
+    notes: Empirical study of 1,515 reported npm vulnerabilities asking how a small number of vulnerable packages give rise to a disproportionately large vulnerable downstream surface. Quantifies the propagation paths through dependency networks rather than reasoning only about direct dependencies.
+    ids:
+      arxiv: '2604.17668'
+      doi: 10.1145/3779208.3785388
+  - title: Towards Predicting Multi-Vulnerability Attack Chains in Software Supply Chains from Software Bill of Materials Graphs
+    url: https://arxiv.org/abs/2604.04977
+    year: '2026'
+    authors: Laura Baird, Armin Moin
+    venue: arXiv preprint
+    notes: Treats SBOMs as graphs and applies graph learning to predict multi-CVE attack chains that combine several vulnerable components, rather than reporting per-CVE findings in isolation. Argues SBOM-based pipelines miss compound risks when scanner output is flattened to a list of independent vulnerabilities.
+    ids:
+      arxiv: '2604.04977'
+      doi: 10.48550/arxiv.2604.04977
+  - title: A Large Scale Empirical Analysis on the Adherence Gap between Standards and Tools in SBOM
+    url: https://arxiv.org/abs/2601.05622
+    year: '2026'
+    authors: Chengjie Wang, Jingzheng Wu, Hao Lyu, Xiang Ling, Tianyue Luo, Yanjun Wu, Chen Zhao
+    venue: arXiv preprint
+    notes: Measures how closely SBOM tools follow the SPDX and CycloneDX standards, finding the gap between specification and implementation is large enough to undermine interoperability claims. Builds a conformance test suite and runs it across widely-used generators.
+    ids:
+      arxiv: '2601.05622'
+      doi: 10.1145/3788692
+  - title: 'SynthChain: A Synthetic Benchmark and Forensic Analysis of Advanced and Stealthy Software Supply Chain Attacks'
+    url: https://arxiv.org/abs/2603.16694
+    year: '2026'
+    authors: Zhuoran Tan, Wenbo Guo, Taylor Brierley, Jiewen Luo, Jeremy Singer, Christos Anagnostopoulos
+    venue: arXiv preprint
+    notes: Builds a near-production testbed and multi-source runtime dataset of supply chain attacks, derived from real malicious packages, with chain-level ground truth across hosts, services, and build/dependency layers. Targets the case where attacks are runtime-only and any single telemetry stream is insufficient to reconstruct the chain.
+    ids:
+      arxiv: '2603.16694'
+      doi: 10.48550/arxiv.2603.16694
+  - title: The Grand Software Supply Chain of AI Systems
+    url: https://arxiv.org/abs/2604.27781
+    year: '2026'
+    authors: Carmine Cesarano, Martin Monperrus
+    venue: arXiv preprint
+    notes: 'Maps the AI supply chain across four layers (data acquisition, training, inference, and the cross-cutting substrate) and identifies four structural gaps that conventional software supply chain mechanisms do not cover: verifiability, versioning, observability, and provenance for non-code artifacts.'
+    ids:
+      arxiv: '2604.27781'
+      doi: 10.48550/arxiv.2604.27781
+  - title: 'A Reality Check on SBOM-based Vulnerability Management: An Empirical Study and A Path Forward'
+    url: https://arxiv.org/abs/2511.20313
+    year: '2025'
+    authors: Li Zhou, Marc Dacier, Charalambos Konstantinou
+    venue: arXiv preprint
+    notes: Large empirical study of 2,414 open-source repositories showing that lockfiles from strong package managers are a precondition for accurate SBOMs. Frames the SBOM-to-vulnerability pipeline as broken at generation time, not just at scanner-matching time.
+    ids:
+      arxiv: '2511.20313'
+      doi: 10.48550/arxiv.2511.20313
+- id: package-repository-analysis-and-ecosystems
+  title: Package Repository Analysis and Ecosystems
+  description: Large-scale empirical studies of package ecosystems and their structural properties.
+  papers:
+  - title: A Look at the Dynamics of the JavaScript Package Ecosystem
+    url: https://dl.acm.org/doi/10.1145/2901739.2901743
+    archive_url: http://web.archive.org/web/20240723182115/https://dl.acm.org/doi/10.1145/2901739.2901743
+    year: '2016'
+    authors: Erik Wittern, Philippe Suter, Shriram Rajagopalan
+    venue: International Conference on Mining Software Repositories (MSR)
+    notes: First analysis of npm ecosystem examining package descriptions, dependencies, download metrics, and historical evolution. Analyzed 230,000+ packages over 6 years.
+    ids:
+      doi: 10.1145/2901739.2901743
+  - title: 'npm-follower: A Complete Dataset Tracking the NPM Ecosystem'
+    url: https://dl.acm.org/doi/10.1145/3611643.3613094
+    archive_url: http://web.archive.org/web/20240110181423/https://dl.acm.org/doi/10.1145/3611643.3613094
+    year: '2023'
+    authors: Donald Pinckney, Federico Cassano, Arjun Guha, Jonathan Bell
+    venue: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE)
+    notes: Introduced dataset architecture that archives metadata and code of all npm packages as published, including deleted versions (330,000+ versions deleted between July 2022-May 2023).
+    ids:
+      doi: 10.1145/3611643.3613094
+  - title: 'npm-miner: An Infrastructure for Measuring the Quality of the npm Registry'
+    url: https://dl.acm.org/doi/10.1145/3196398.3196465
+    archive_url: http://web.archive.org/web/20250217105028/https://dl.acm.org/doi/10.1145/3196398.3196465
+    year: '2018'
+    authors: Kyriakos Chatzidimitriou, Michail Papamichail, Themistoklis Diamantopoulos, Michail Tsapanos, Andreas Symeonidis
+    venue: International Conference on Mining Software Repositories (MSR)
+    notes: Infrastructure that crawls npm and analyzes packages using static analysis to extract quality metrics including maintainability and security. Identified ecosystem issues like packages with broken GitHub URLs and copied-pasted projects with only package names changed.
+    ids:
+      doi: 10.1145/3196398.3196465
+  - title: On the accuracy of github's dependency graph
+    url: https://dl.acm.org/doi/10.1145/3661167.3661175
+    archive_url: http://web.archive.org/web/20250531100002/https://dl.acm.org/doi/10.1145/3661167.3661175
+    year: '2024'
+    authors: Daniele Bifolco, Sara Nocera, Simone Romano, Massimiliano Di Penta, Rita Francese, Giuseppe Scanniello
+    venue: International Conference on Evaluation and Assessment in Software Engineering (EASE)
+    notes: Assesses accuracy of GitHub dependency graph in Java and Python projects, using lockfiles as source of truth for comparison.
+    ids:
+      doi: 10.1145/3661167.3661175
+  - title: Understanding and Detecting Peer Dependency Resolving Loop in npm Ecosystem
+    url: https://dl.acm.org/doi/10.1109/ICSE55347.2025.00054
+    year: '2025'
+    authors: Xiaohui Wang, Mingyu Wang, Weijian Shen, Rui Chang
+    venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+    notes: In-depth study of conflicts between peer dependencies in npm, examining how circular peer dependencies create resolution loops.
+    ids:
+      doi: 10.1109/ICSE55347.2025.00054
+  - title: An Empirical Analysis of Technical Lag in npm Package Dependencies
+    url: https://link.springer.com/chapter/10.1007/978-3-319-90421-4_6
+    archive_url: http://web.archive.org/web/20260127104258/https://link.springer.com/chapter/10.1007/978-3-319-90421-4_6?
+    year: '2018'
+    authors: Ahmed Zerouali, Eleni Constantinou, Tom Mens, Gregorio Robles, Jesús M. González-Barahona
+    venue: International Conference on Software Reuse (ICSR)
+    notes: Introduced technical lag metric to assess how outdated packages are compared to latest releases, finding strong presence caused by dependency constraints indicating reluctance to update.
+  - title: An Empirical Analysis of the Python Package Index (PyPI)
+    url: https://arxiv.org/abs/1907.11073
+    archive_url: http://web.archive.org/web/20260127104326/https://arxiv.org/abs/1907.11073
+    year: '2019'
+    authors: Ethan Bommarito, Michael J. Bommarito II
+    venue: arXiv preprint
+    notes: Empirical summary covering 178,592 packages, 1,745,744 releases, 76,997 contributors, and 156.8M+ import statements. Found 47% CAGR for active packages, 39% for new authors.
+    ids:
+      arxiv: '1907.11073'
+  - title: Analyzing the Accessibility of GitHub Repositories for PyPI and NPM Libraries
+    url: https://arxiv.org/html/2404.17403v2
+    archive_url: http://web.archive.org/web/20250424015032/https://arxiv.org/html/2404.17403v2
+    year: '2024'
+    authors: Alexandros Tsakpinis, Alexander Pretschner
+    venue: arXiv preprint
+    notes: Analyzed accessibility of GitHub repositories for libraries using page rank algorithm, finding up to 80.1% of PyPI and 81.1% of npm libraries have repository URLs within dependency chains.
+    ids:
+      arxiv: '2404.17403'
+  - title: A Study of Bloated Dependencies in the Maven Ecosystem
+    url: https://link.springer.com/article/10.1007/s10664-020-09914-8
+    archive_url: http://web.archive.org/web/20251119060027/https://link.springer.com/article/10.1007/s10664-020-09914-8
+    year: '2021'
+    authors: César Soto-Valero, Nicolas Harrand, Martin Monperrus, Benoit Baudry
+    venue: Empirical Software Engineering
+    notes: Analyzed 9,639 Java artifacts with 723,444 dependency relationships using DepClean tool, finding that bloated dependencies significantly increase binary size and maintenance effort.
+  - title: 'Goblin: A Framework for Enriching and Querying the Maven Central Dependency Graph'
+    url: https://dl.acm.org/doi/10.1145/3643991.3644879
+    archive_url: http://web.archive.org/web/20250217085507/https://dl.acm.org/doi/10.1145/3643991.3644879
+    year: '2024'
+    authors: Damien Jaime, Joyce El Haddad, Pascal Poizat
+    venue: International Conference on Mining Software Repositories (MSR)
+    notes: Introduced customizable framework comprising dependency graph metamodel with temporal information, miner for Maven Central, and tool for metric weaving.
+    ids:
+      doi: 10.1145/3643991.3644879
+  - title: The Ripple Effect of Vulnerabilities in Maven Central
+    url: https://arxiv.org/abs/2504.04175
+    archive_url: http://web.archive.org/web/20251216131609/https://arxiv.org/abs/2504.04175
+    year: '2025'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: Most recent large-scale Maven vulnerability study analyzing 4 million releases. Found only 1% of releases have direct vulnerabilities, but 46.8% are affected by transitive vulnerabilities. Patch time often spans several years even for critical vulnerabilities. Demonstrates more central artifacts are not necessarily less vulnerable.
+    ids:
+      arxiv: '2504.04175'
+  - title: 'Out of Sight, Still at Risk: The Lifecycle of Transitive Vulnerabilities in Maven'
+    url: https://arxiv.org/abs/2504.04803
+    archive_url: http://web.archive.org/web/20251210035135/https://arxiv.org/abs/2504.04803
+    year: '2025'
+    authors: Piotr Przymus, Mikołaj Fejzer, Jakub Narębski, Krzysztof Rykaczewski, Krzysztof Stencel
+    venue: IEEE/ACM International Conference on Mining Software Repositories (MSR)
+    notes: Uses survival analysis to measure how long projects remain exposed after CVE introduction. Shows vulnerabilities at deeper dependency levels persist longer due to compounded resolution delays. Mean time to fix rises from 215 days at level 0 to 2,075 days at level 10.
+    ids:
+      arxiv: '2504.04803'
+  - title: How Deep Does Your Dependency Tree Go? An Empirical Study of Dependency Amplification Across 10 Package Ecosystems
+    url: https://arxiv.org/abs/2512.14739
+    archive_url: http://web.archive.org/web/20251218025231/https://arxiv.org/abs/2512.14739
+    year: '2025'
+    authors: Jahidul Arafat
+    venue: arXiv preprint
+    notes: Studies dependency amplification (ratio of transitive to direct dependencies) across 500 projects in 10 ecosystems. Maven exhibits highest mean amplification at 24.7x compared to 4.3x for npm. Challenges prevailing assumptions that npm's preference for small packages leads to highest amplification.
+    ids:
+      arxiv: '2512.14739'
+  - title: Understanding Software Vulnerabilities in the Maven Ecosystem
+    url: https://arxiv.org/abs/2503.22391
+    archive_url: http://web.archive.org/web/20251205123127/https://arxiv.org/abs/2503.22391
+    year: '2025'
+    authors: Multiple authors
+    venue: MSR 2025 Mining Challenge
+    notes: Vulnerability analysis of 77,393 vulnerable releases with 226 unique CWEs. Found 25 CWEs account for nearly 70% of all vulnerabilities. Vulnerabilities take approximately 5 years to document and 4.4 years to resolve on average. Input validation and access control issues dominate.
+    ids:
+      arxiv: '2503.22391'
+  - title: 'Tracing Vulnerabilities in Maven: A Study of CVE lifecycles'
+    url: https://arxiv.org/abs/2502.04621
+    archive_url: http://web.archive.org/web/20251226221747/https://arxiv.org/abs/2502.04621
+    year: '2025'
+    authors: Corey Yang-Smith et al.
+    venue: arXiv preprint
+    notes: Brand new lifecycle and response time analysis of 3,362 CVEs in Maven. Documents "Publish-Before-Patch" scenarios. Response time reduced 48.3% for critical vs low severity vulnerabilities (78 vs 151 days). Contributor absence and issue activity correlate with CVE occurrences.
+    ids:
+      arxiv: '2502.04621'
+  - title: A Large-Scale Security-Oriented Static Analysis of Python Packages in PyPI
+    url: https://arxiv.org/abs/2107.12699
+    archive_url: http://web.archive.org/web/20260127104508/https://arxiv.org/abs/2107.12699
+    year: '2021'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: Largest static analysis of PyPI at time of publication, analyzing 197,000+ packages with 749,000+ security issues. Found 46% of Python packages have at least one security issue. Exception handling and code injections most common. Subprocess module identified as particularly problematic.
+    ids:
+      arxiv: '2107.12699'
+  - title: An Empirical Analysis of the R Package Ecosystem
+    url: https://arxiv.org/abs/2102.09904
+    archive_url: http://web.archive.org/web/20210222114028/http://arxiv.org/abs/2102.09904
+    year: '2021'
+    authors: Ethan Bommarito, Michael J. Bommarito II
+    venue: arXiv preprint
+    notes: Analysis of 25,000+ packages, 150,000 releases across CRAN, Bioconductor, and GitHub over two decades. Found top 5 packages imported by 25% of all packages, top 10 maintainers support packages imported by 50%+ of ecosystem.
+    ids:
+      arxiv: '2102.09904'
+  - title: A Complex Network Analysis of the Comprehensive R Archive Network (CRAN) Package Ecosystem
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0164121220301709
+    archive_url: http://web.archive.org/web/20220120161512/https://www.sciencedirect.com/science/article/abs/pii/S0164121220301709
+    year: '2020'
+    authors: Multiple authors
+    venue: Journal of Systems and Software
+    notes: Applied complex network analysis to CRAN dependency graph from macroscopic, microscopic, and modular perspectives. Demonstrated how network theory helps profile ecosystem strengths, practices, and risks.
+  - title: Evolution and Prospects of the Comprehensive R Archive Network (CRAN) Package Ecosystem
+    url: https://onlinelibrary.wiley.com/doi/abs/10.1002/smr.2270
+    archive_url: http://web.archive.org/web/20250430012352/https://onlinelibrary.wiley.com/doi/abs/10.1002/smr.2270
+    year: '2020'
+    authors: Marcelino Mora-Cantallops, Salvador Sánchez-Alonso, Elena García-Barriocanal
+    venue: 'Journal of Software: Evolution and Process'
+    notes: 20-year empirical analysis of CRAN evolution considering laws of software evolution and CRAN policies. Found progress consistent with continuous growth/change laws but relevant increase in complexity in recent years.
+  - title: An Empirical Comparison of Dependency Network Evolution in Seven Software Packaging Ecosystems
+    url: https://link.springer.com/article/10.1007/s10664-017-9589-y
+    archive_url: http://web.archive.org/web/20250512150327/https://link.springer.com/article/10.1007/s10664-017-9589-y
+    year: '2019'
+    authors: Alexandre Decan, Tom Mens, Philippe Grosjean
+    venue: Empirical Software Engineering
+    notes: Quantitative analysis of seven packaging ecosystems (Cargo, CPAN, CRAN, npm, NuGet, Packagist, RubyGems) using libraries.io dataset. Demonstrated important structural differences that complicate cross-ecosystem generalization.
+  - title: The Multibillion Dollar Software Supply Chain of Ethereum
+    url: https://arxiv.org/abs/2202.07029
+    archive_url: http://web.archive.org/web/20260113175935/https://arxiv.org/abs/2202.07029
+    year: '2022'
+    authors: César Soto-Valero, Martin Monperrus, Benoit Baudry
+    venue: arXiv preprint
+    notes: Examines how Java Ethereum nodes depend on third-party software maintained by various organizations, analyzing the supply chain supporting blockchain infrastructure and highlighting reliability and security challenges from diverse external dependencies.
+    ids:
+      arxiv: '2202.07029'
+  - title: A Closer Look at the Security Risks in the Rust Ecosystem
+    url: https://dl.acm.org/doi/10.1145/3624738
+    year: '2024'
+    authors: Multiple authors
+    venue: ACM Transactions on Software Engineering and Methodology (TOSEM)
+    notes: First security investigation of Rust ecosystem. Analyzed dataset of 433 vulnerabilities across 300 vulnerable code repositories. Found vulnerable code is localized at file level and contains significantly more unsafe functions/blocks. More popular packages have more vulnerabilities, while less popular packages remain vulnerable for more versions.
+    ids:
+      doi: 10.1145/3624738
+  - title: An empirical study of yanked releases in the rust package registry
+    url: https://ieeexplore.ieee.org/document/9714872
+    archive_url: http://web.archive.org/web/20240429220635/https://ieeexplore.ieee.org/document/9714872
+    year: '2023'
+    authors: Hao Li, Filipe Cogo, Cor-Paul Bezemer
+    venue: IEEE Transactions on Software Engineering
+    notes: Reveals that 46% of Rust packages adopted yanked releases and the proportion keeps increasing. In Cargo, yanked releases can only be resolved if a lockfile is present.
+  - title: Evolving collaboration, dependencies, and use in the rust open source software ecosystem
+    url: https://www.nature.com/articles/s41597-022-01819-z
+    archive_url: http://web.archive.org/web/20260126215508/https://www.nature.com/articles/s41597-022-01819-z
+    year: '2022'
+    authors: William Schueller, Johannes Wachs, Vito D.P. Servedio, Stefan Thurner, Vittorio Loreto
+    venue: Scientific Data
+    notes: Dataset curating Rust ecosystem data over eight years, capturing developer activity, library dependencies, and usage trends.
+  - title: Why do software packages conflict?
+    url: https://ieeexplore.ieee.org/document/6224274
+    archive_url: http://web.archive.org/web/20180616023744/https://ieeexplore.ieee.org/document/6224274/
+    year: '2012'
+    authors: Cyrille Artho, Roberto Di Cosmo, Kuniyasu Suzaki, Stefano Zacchiroli
+    venue: IEEE Working Conference on Mining Software Repositories (MSR)
+    notes: Empirical investigation of root causes of package conflicts in Debian ecosystem, categorizing conflict types and their frequencies.
+  - title: Are There Too Many R Packages?
+    url: https://www.ajs.or.at/index.php/ajs/article/view/vol41,%20no1%20-%205
+    archive_url: http://web.archive.org/web/20260126215542/https://www.ajs.or.at/index.php/ajs/article/view/vol41,%20no1%20-%205
+    year: '2012'
+    authors: Multiple authors
+    venue: Austrian Journal of Statistics
+    notes: Analysis questioning the growth and sustainability of the R package ecosystem.
+  - title: The Evolution of the R Software Ecosystem
+    url: https://ieeexplore.ieee.org/document/6498472/
+    archive_url: http://web.archive.org/web/20240712145430/https://ieeexplore.ieee.org/document/6498472/
+    year: '2013'
+    authors: Multiple authors including Ahmed E. Hassan
+    venue: Academic publication
+    notes: Historical analysis of R ecosystem evolution and growth patterns.
+  - title: On the Maintainability of CRAN Packages
+    url: https://ieeexplore.ieee.org/document/6747183/
+    archive_url: http://web.archive.org/web/20250423002653/https://ieeexplore.ieee.org/document/6747183/
+    year: '2014'
+    authors: Tom Mens et al.
+    venue: Academic publication
+    notes: Study examining maintainability challenges in the CRAN ecosystem.
+  - title: 'On the Development and Distribution of R Packages: An Empirical Analysis of the R Ecosystem'
+    url: https://dl.acm.org/doi/10.1145/2797433.2797476
+    archive_url: http://web.archive.org/web/20250723131326/https://dl.acm.org/doi/10.1145/2797433.2797476
+    year: '2015'
+    authors: Multiple authors
+    venue: Academic publication
+    notes: Empirical analysis of R package development and distribution patterns.
+    ids:
+      doi: 10.1145/2797433.2797476
+  - title: 'When GitHub meets CRAN: An analysis of inter-repository package dependency problems'
+    url: https://ieeexplore.ieee.org/document/7476669/
+    archive_url: http://web.archive.org/web/20240814075840/https://ieeexplore.ieee.org/document/7476669/
+    year: '2016'
+    authors: Multiple authors
+    venue: IEEE conference proceedings
+    notes: Analysis of dependency problems arising from packages split between GitHub and CRAN.
+  - title: 'Modeling Dependency-Propagated Ecosystem Impact of Changes in Maintenance Activities: Evaluating Support Strategies in the PyPI Network'
+    url: https://arxiv.org/abs/2605.06164
+    year: '2026'
+    authors: Alexandros Tsakpinis, Emil Schwenger, Alexander Pretschner
+    venue: arXiv preprint
+    notes: Models how maintenance-activity changes on a single PyPI package ripple through the dependency network. Uses the resulting impact measure to evaluate which support strategies (e.g. funding, mentoring, replacement) reduce the most downstream risk per intervention.
+    ids:
+      arxiv: '2605.06164'
+      doi: 10.48550/arxiv.2605.06164
+  - title: 'InEx-Bug: A Human Annotated Dataset of Intrinsic and Extrinsic Bugs in the NPM Ecosystem'
+    url: https://arxiv.org/abs/2602.13400
+    year: '2026'
+    authors: Tanner Wright, Adams Chen, Gema Rodríguez-Pérez
+    venue: arXiv preprint
+    notes: Manually annotates 377 GitHub issues from 103 npm repositories, separating defects internal to a project from defects caused by external dependencies or runtime environment. Existing bug datasets conflate the two, which masks how much downstream pain comes from dependency churn rather than the project itself.
+    ids:
+      arxiv: '2602.13400'
+      doi: 10.48550/arxiv.2602.13400
+  - title: 'SourceBroken: A large-scale analysis on the (un)reliability of SourceRank in the PyPI ecosystem'
+    url: https://arxiv.org/abs/2512.24400
+    year: '2025'
+    authors: Biagio Montaruli, Serena Elisa Ponta, Luca Compagna, Davide Balzarotti
+    venue: arXiv preprint
+    notes: Audits SourceRank, the 18-metric package-quality score used by several recent studies, for evasion attacks. Finds five of the eighteen metrics can be inflated through URL-confusion tricks alone, undermining downstream studies that use SourceRank as a proxy for trustworthiness.
+    ids:
+      arxiv: '2512.24400'
+      doi: 10.48550/arxiv.2512.24400
+- id: version-constraints-and-semantic-versioning
+  title: Version Constraints and Semantic Versioning
+  description: Research on versioning practices, semantic versioning adoption, and breaking changes.
+  papers:
+  - title: Dependency Versioning in the Wild
+    url: https://ieeexplore.ieee.org/document/8816809
+    archive_url: http://web.archive.org/web/20210308040655/https://ieeexplore.ieee.org/document/8816809
+    year: '2019'
+    authors: Jens Dietrich, David Pearce, Jacob Stringer, Amjed Tahir, Kelly Blincoe
+    venue: International Conference on Mining Software Repositories (MSR)
+    notes: Large-scale empirical study of versioning practices across 17 package managers, analyzing over 70 million dependencies, complemented by survey of 170 developers. Found many package managers support flexible versioning but developers struggle to balance predictability and agility.
+  - title: What do package dependencies tell us about semantic versioning?
+    url: https://ieeexplore.ieee.org/document/8721084
+    archive_url: http://web.archive.org/web/20210614031543/https://ieeexplore.ieee.org/document/8721084
+    year: '2021'
+    authors: Alexandre Decan, Tom Mens
+    venue: IEEE Transactions on Software Engineering
+    notes: Analyzed relationship between dependency declarations and semantic versioning across multiple package ecosystems, revealing disconnect between versioning theory and developer practices.
+  - title: 'Technical Lag in Software Compilations: Measuring How Outdated a Software Deployment Is'
+    url: https://link.springer.com/chapter/10.1007/978-3-319-57735-7_17
+    archive_url: http://web.archive.org/web/20240720222418/https://link.springer.com/chapter/10.1007/978-3-319-57735-7_17
+    year: '2017'
+    authors: Jesús M. González-Barahona, Paul Sherwood, Gregorio Robles, Daniel Izquierdo
+    venue: IFIP International Conference on Open Source Systems (OSS)
+    notes: Introduces the concept of technical lag for measuring how outdated a deployed system is. Proposes theoretical model to assist decisions about upgrading in production, balancing being up-to-date against keeping working versions.
+  - title: A Formal Framework for Measuring Technical Lag in Component Repositories
+    url: https://onlinelibrary.wiley.com/doi/10.1002/smr.2157
+    archive_url: http://web.archive.org/web/20250504011703/https://onlinelibrary.wiley.com/doi/10.1002/smr.2157
+    year: '2019'
+    authors: Ahmed Zerouali, Tom Mens, Jesús González-Barahona, Alexandre Decan, Eleni Constantinou, Gregorio Robles
+    venue: 'Journal of Software: Evolution and Process'
+    notes: Formalizes a generic model of technical lag quantifying how outdated a deployed collection of components is. Operationalizes the model for npm and analyzes 500K+ packages over seven years, considering direct and transitive dependencies.
+  - title: On the Evolution of Technical Lag in the npm Package Dependency Network
+    url: https://ieeexplore.ieee.org/document/8530047
+    archive_url: http://web.archive.org/web/20240707055925/https://ieeexplore.ieee.org/document/8530047
+    year: '2018'
+    authors: Alexandre Decan, Tom Mens, Eleni Constantinou
+    venue: IEEE International Conference on Software Maintenance and Evolution (ICSME)
+    notes: Studied technical lag (outdatedness of dependencies) in npm ecosystem, examining tension between stability and freshness in dependency management.
+  - title: Understanding Breaking Changes in the Wild
+    url: https://dl.acm.org/doi/10.1145/3597926.3598147
+    archive_url: http://web.archive.org/web/20240116193155/https://dl.acm.org/doi/10.1145/3597926.3598147
+    year: '2023'
+    authors: Dhanushka Jayasuriya, Valerio Terragni, Jens Dietrich, Samuel Ou, Kelly Blincoe
+    venue: ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)
+    notes: Empirical study finding 11.58% of dependency updates contain breaking changes that impact clients. Almost half of detected breaking changes violate semantic versioning by appearing in non-major releases.
+    ids:
+      doi: 10.1145/3597926.3598147
+  - title: 'Breaking-Good: Explaining Breaking Dependency Updates with Build Analysis'
+    url: https://arxiv.org/abs/2407.03880
+    archive_url: http://web.archive.org/web/20260126215730/https://arxiv.org/abs/2407.03880
+    year: '2024'
+    authors: Frank Reyes, Benoit Baudry, Martin Monperrus
+    venue: arXiv preprint
+    notes: Automated tool that generates explanations for compilation errors caused by incompatible dependency version changes. Analyzes logs and dependency trees to identify root causes across direct/indirect dependencies, Java version conflicts, and configuration issues. Successfully identified causes for 70% of 243 real breaking updates.
+    ids:
+      arxiv: '2407.03880'
+  - title: 'BUMP: A benchmark of reproducible breaking dependency updates'
+    url: https://arxiv.org/abs/2401.09906
+    archive_url: http://web.archive.org/web/20251224091002/https://arxiv.org/abs/2401.09906
+    year: '2024'
+    authors: Frank Reyes, Yogya Gamage, Gabriel Skoglund, Benoit Baudry, Martin Monperrus
+    venue: IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
+    notes: Benchmark dataset of reproducible breaking dependency updates for evaluating tools that detect or explain breaking changes in dependency updates.
+    ids:
+      arxiv: '2401.09906'
+  - title: 'I depended on you and you broke me: An empirical study of manifesting breaking changes in client packages'
+    url: https://arxiv.org/abs/2301.04563
+    archive_url: http://web.archive.org/web/20251224071311/https://arxiv.org/abs/2301.04563
+    year: '2023'
+    authors: Daniel Venturini, Filipe Cogo, Igor Polato, Marco Gerosa, Igor Wiese
+    venue: ACM Transactions on Software Engineering and Methodology (TOSEM)
+    notes: Quantitative evaluation of the impact of breaking updates on dependent packages in npm, examining how breaking changes manifest and propagate through the ecosystem.
+    ids:
+      arxiv: '2301.04563'
+  - title: 'Semantic Versioning versus Breaking Changes: A Study of the Maven Repository'
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0164121216300243
+    archive_url: http://web.archive.org/web/20240420032215/https://www.sciencedirect.com/science/article/abs/pii/S0164121216300243
+    year: 2014, 2017
+    authors: Steven Raemaekers, Arie van Deursen, Joost Visser
+    venue: IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM) / Journal of Systems and Software
+    notes: Analyzed 100,000+ JAR files from Maven Central over 7 years covering 22,000+ libraries. Found approximately one-third of all releases introduce breaking changes, often violating semantic versioning conventions.
+  - title: Breaking Bad? Semantic Versioning and Impact of Breaking Changes in Maven Central
+    url: https://link.springer.com/article/10.1007/s10664-021-10052-y
+    archive_url: http://web.archive.org/web/20251203121012/https://link.springer.com/article/10.1007/s10664-021-10052-y
+    year: '2021'
+    authors: Lina Ochoa, Thomas Degueule, Jean-Rémy Falleri, Jurgen Vinju
+    venue: Empirical Software Engineering
+    notes: 'External replication of Raemaekers et al. with different findings: 83.4% of upgrades comply with semver regarding backwards compatibility. Found most breaking changes affect code not used by any client, and only 7.9% of clients are affected by breaking changes.'
+  - title: How Java APIs Break – An Empirical Study
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0950584915000506
+    archive_url: http://web.archive.org/web/20240416132642/https://www.sciencedirect.com/science/article/abs/pii/S0950584915000506
+    year: '2015'
+    authors: Kamil Jezek, Jens Dietrich, Premek Brada
+    venue: Information and Software Technology
+    notes: Study of 109 Java open-source programs and 564 versions showing APIs are commonly unstable. Analyzes patterns of API breaking changes and their impact on dependent systems.
+  - title: Why and How Java Developers Break APIs
+    url: https://ieeexplore.ieee.org/document/8330214/
+    archive_url: http://web.archive.org/web/20240603082846/https://ieeexplore.ieee.org/document/8330214/
+    year: '2018'
+    authors: Aline Brito, Laerte Xavier, André Hora, Marco Tulio Valente
+    venue: IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
+    notes: Four-month field study with developers of 400 popular Java libraries. Found breaking changes are mostly motivated by implementing new features, simplifying APIs, and improving maintainability. Developers rarely deprecate elements before changes due to maintenance overhead.
+  - title: Has My Release Disobeyed Semantic Versioning? Static Detection Based on Semantic Differencing
+    url: https://dl.acm.org/doi/10.1145/3551349.3556956
+    archive_url: http://web.archive.org/web/20250527191303/https://dl.acm.org/doi/10.1145/3551349.3556956
+    year: '2022'
+    authors: Lyuye Zhang, Chengwei Liu, Zhengzi Xu, Sen Chen, Lingling Fan, Bihuan Chen, Yang Liu
+    venue: IEEE/ACM International Conference on Automated Software Engineering (ASE) - Distinguished Paper Award
+    notes: Addresses semantic breaking where APIs have identical signatures but inconsistent semantics. Proposes Sembid tool achieving 90.26% recall. Empirical study on 1.6M APIs found 2-4x more semantic breaking than signature-based issues.
+    ids:
+      doi: 10.1145/3551349.3556956
+  - title: 'When and How to Make Breaking Changes: Policies and Practices in 18 Open Source Software Ecosystems'
+    url: https://dl.acm.org/doi/10.1145/3447245
+    archive_url: http://web.archive.org/web/20250620153214/https://dl.acm.org/doi/10.1145/3447245
+    year: '2021'
+    authors: Chris Bogart, Christian Kästner, James Herbsleb, Ferdian Thung
+    venue: ACM Transactions on Software Engineering and Methodology (TOSEM)
+    notes: Comparative study of breaking change policies across 18 ecosystems combining repository mining, document analysis, and large-scale survey. Found practices and values are cohesive within ecosystems but diverse across them. Eclipse's "prime directive" never permits breaking changes; other ecosystems balance differently.
+    ids:
+      doi: 10.1145/3447245
+  - title: Possible directions for improving dependency versioning in R
+    url: https://arxiv.org/abs/1303.2140
+    archive_url: http://web.archive.org/web/20251211163841/https://arxiv.org/abs/1303.2140
+    year: '2013'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: Proposal for improving version handling in the R ecosystem.
+    ids:
+      arxiv: '1303.2140'
+- id: package-manager-design-and-architecture
+  title: Package Manager Design and Architecture
+  description: Research on package manager design principles, architectures, and implementation.
+  papers:
+  - title: 'LUDE: A Distributed Software Library'
+    url: https://www.usenix.org/conference/lisa-93/lude-distributed-software-library
+    archive_url: http://web.archive.org/web/20260126215922/https://www.usenix.org/conference/lisa-93/lude-distributed-software-library
+    year: '1993'
+    authors: Multiple authors
+    venue: USENIX LISA
+    notes: Early distributed software library system.
+  - title: The Comprehensive TeX Archive Network
+    url: https://www.tug.org/TUGboat/Contents/contents14-2.html
+    archive_url: http://web.archive.org/web/20251205123138/https://www.tug.org/TUGboat/Contents/contents14-2.html
+    year: '1993'
+    authors: Multiple authors
+    venue: TUGboat
+    notes: Description of CTAN, one of the earliest package repositories.
+  - title: 'Nix: A Safe and Policy-Free System for Software Deployment'
+    url: https://edolstra.github.io/pubs/nspfssd-lisa2004-final.pdf
+    archive_url: http://web.archive.org/web/20251208111102/https://edolstra.github.io/pubs/nspfssd-lisa2004-final.pdf
+    year: '2004'
+    authors: Eelco Dolstra, Merijn de Jonge, Eelco Visser
+    venue: USENIX LISA
+    notes: Introduced Nix, a purely functional package manager with unique approach to dependency management. Packages are stored in isolation from each other using cryptographic hashes, preventing dependency conflicts and enabling atomic upgrades and rollbacks.
+  - title: The Purely Functional Software Deployment Model
+    url: https://edolstra.github.io/pubs/phd-thesis.pdf
+    archive_url: http://web.archive.org/web/20260114221012/https://edolstra.github.io/pubs/phd-thesis.pdf
+    year: '2006'
+    authors: Eelco Dolstra
+    venue: PhD Thesis, Utrecht University
+    notes: The comprehensive treatment of functional package management that the LISA paper summarizes. Develops the theoretical foundations for treating software deployment as a pure function from inputs to outputs, where the cryptographic hash of all build inputs determines the output path. Covers the Nix expression language, the store model, and techniques for achieving reproducible builds.
+  - title: An adaptive package management system for Scheme
+    url: https://dblp.org/rec/conf/dls/SerranoG07.html
+    archive_url: http://web.archive.org/web/20251205123139/https://dblp.org/rec/conf/dls/SerranoG07.html
+    year: '2007'
+    authors: Erick Gallesio et al.
+    venue: Academic publication
+    notes: Adaptive package management approach for Scheme programming language.
+  - title: 'NixOS: a purely functional Linux distribution'
+    url: https://dl.acm.org/doi/10.1145/1411204.1411255
+    archive_url: http://web.archive.org/web/20241216073602/https://dl.acm.org/doi/10.1145/1411204.1411255
+    year: '2008'
+    authors: Eelco Dolstra, Andres Löh
+    venue: ACM SIGPLAN International Conference on Functional Programming (ICFP)
+    notes: Description of NixOS, a Linux distribution built on Nix package manager. Extends functional package management to system configuration, treating the entire operating system as a function from a declarative specification to a running system.
+    ids:
+      doi: 10.1145/1411204.1411255
+  - title: Functional Package Management with Guix
+    url: https://arxiv.org/abs/1305.4584
+    archive_url: http://web.archive.org/web/20251217025549/https://arxiv.org/abs/1305.4584
+    year: '2013'
+    authors: Ludovic Courtès
+    venue: European Lisp Symposium
+    notes: Introduces GNU Guix, a purely functional package manager building on Nix's deployment model but using Scheme as its implementation and extension language. Demonstrates how an embedded domain-specific language for package definitions allows users to benefit from a general-purpose programming language while maintaining the reproducibility guarantees of functional package management.
+    ids:
+      arxiv: '1305.4584'
+  - title: Reproducible and User-Controlled Software Environments in HPC with Guix
+    url: https://link.springer.com/chapter/10.1007/978-3-319-27308-2_47
+    archive_url: http://web.archive.org/web/20250416054140/https://link.springer.com/chapter/10.1007/978-3-319-27308-2_47
+    year: '2015'
+    authors: Ludovic Courtès, Ricardo Wurmus
+    venue: International Conference on High Performance Computing (ISC)
+    notes: Addresses how HPC support teams struggle to balance conservative system administration with user demands for up-to-date tools. Presents GNU Guix as a solution allowing unprivileged users to install and manage their own software environments while maintaining reproducibility, without requiring root access or containers.
+  - title: The Comprehensive R Archive Network
+    url: https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wics.1212
+    year: '2012'
+    authors: Multiple authors
+    venue: Wiley Interdisciplinary Reviews
+    notes: Detailed description of CRAN architecture and design.
+  - title: 'EasyBuild: Building Software With Ease'
+    url: https://ieeexplore.ieee.org/document/6495863/
+    archive_url: http://web.archive.org/web/20240427193303/https://ieeexplore.ieee.org/document/6495863
+    year: '2012'
+    authors: Multiple authors
+    venue: PyHPC Workshop
+    notes: Framework for building and installing scientific software.
+  - title: 'maintaineR: A web-based dashboard for maintainers of CRAN packages'
+    url: https://ieeexplore.ieee.org/document/6976148/
+    archive_url: http://web.archive.org/web/20250423000042/https://ieeexplore.ieee.org/document/6976148/
+    year: '2014'
+    authors: Multiple authors
+    venue: ICSME Tool Demo
+    notes: Tool for CRAN package maintainers.
+  - title: 'The Spack Package Manager: Bringing Order to HPC Software Chaos'
+    url: https://dl.acm.org/doi/10.1145/2807591.2807623
+    archive_url: http://web.archive.org/web/20250630173209/https://dl.acm.org/doi/10.1145/2807591.2807623
+    year: '2015'
+    authors: Todd Gamblin, Matthew LeGendre, Michael R. Collette, Gregory L. Lee, Adam Moody, Bronis R. de Supinski, Scott Futral
+    venue: Supercomputing
+    notes: Package manager designed for HPC environments.
+    ids:
+      doi: 10.1145/2807591.2807623
+  - title: 'SPAM: a Secure Package Manager'
+    url: https://www.usenix.org/conference/hotsec17/conference-program/presentation/stefan
+    archive_url: http://web.archive.org/web/20240503004028/https://www.usenix.org/conference/hotsec17/conference-program/presentation/stefan
+    year: '2017'
+    authors: Multiple authors
+    venue: Academic publication
+    notes: Design for a security-focused package manager.
+  - title: Managing the Complexity of Large Free and Open Source Package-Based Software Distributions
+    url: https://ieeexplore.ieee.org/document/4019575/
+    archive_url: http://web.archive.org/web/20241107232754/https://ieeexplore.ieee.org/document/4019575/
+    year: '2006'
+    authors: Multiple authors
+    venue: ASE
+    notes: Analysis of complexity challenges in large package distributions.
+  - title: Toward Decentralized Package Management
+    url: https://www.researchgate.net/publication/278797326_Toward_a_distributed_package_management_system
+    year: '2011'
+    authors: Multiple authors
+    venue: Academic publication
+    notes: Proposal for decentralized package management approaches.
+  - title: 'MPM: a modular package manager'
+    url: https://dl.acm.org/doi/10.1145/2000229.2000255
+    year: '2011'
+    authors: Multiple authors
+    venue: ACM publication
+    notes: Design of a modular package manager architecture.
+    ids:
+      doi: 10.1145/2000229.2000255
+  - title: A modular package manager architecture
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0950584912001851
+    archive_url: http://web.archive.org/web/20240419152424/https://www.sciencedirect.com/science/article/abs/pii/S0950584912001851
+    year: '2013'
+    authors: Roberto Di Cosmo et al.
+    venue: Technical report
+    notes: Detailed architecture for modular package managers.
+  - title: Towards efficient optimization in package management systems
+    url: https://alexeyignatiev.github.io/assets/pdf/ijms-icse14-preprint.pdf
+    archive_url: http://web.archive.org/web/20251205123146/https://alexeyignatiev.github.io/assets/pdf/ijms-icse14-preprint.pdf
+    year: '2014'
+    authors: Alexey Ignatiev et al.
+    venue: Academic publication
+    notes: Approaches for optimizing package management operations.
+  - title: Flexible and optimal dependency management via max-smt
+    url: https://dl.acm.org/doi/10.1109/ICSE48619.2023.00124
+    year: '2023'
+    authors: Donald Pinckney, Federico Cassano, Arjun Guha, Jonathan Bell, Massimiliano Culpo, Todd Gamblin
+    venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+    notes: Introduced unified framework built on Max-SMT solvers to resolve dependencies more systematically, moving beyond ad-hoc algorithms. Demonstrates practical solvers can handle real-world dependency resolution with formal guarantees.
+    ids:
+      doi: 10.1109/ICSE48619.2023.00124
+  - title: Automatic Software Dependency Management using Blockchain
+    url: https://norma.ncirl.ie/3300/
+    archive_url: http://web.archive.org/web/20250911151759/https://norma.ncirl.ie/3300/
+    year: '2018'
+    authors: Gavin D'Mello
+    venue: Technical report
+    notes: Exploration of blockchain for dependency management.
+  - title: 'PubGrub: Next-Generation Version Solving'
+    url: https://nex3.medium.com/pubgrub-2fb6470504f
+    archive_url: http://web.archive.org/web/20251119042824/https://nex3.medium.com/pubgrub-2fb6470504f
+    year: '2018'
+    authors: Natalie Weizenbaum
+    venue: Medium article
+    notes: Description of PubGrub algorithm used in Dart's pub package manager.
+  - title: 'Contour: A Practical System for Binary Transparency'
+    url: https://arxiv.org/abs/1712.08427
+    archive_url: http://web.archive.org/web/20260126220212/https://arxiv.org/abs/1712.08427
+    year: '2018'
+    authors: Multiple authors
+    venue: Academic publication
+    notes: System for binary transparency in software distribution.
+    ids:
+      arxiv: '1712.08427'
+- id: software-distribution-systems
+  title: Software Distribution Systems
+  description: Research on secure software update systems and distribution frameworks.
+  papers:
+  - title: Survivable Key Compromise in Software Update Systems
+    url: https://dl.acm.org/doi/10.1145/1866307.1866315
+    year: '2010'
+    authors: Justin Samuel, Nick Mathewson, Justin Cappos, Roger Dingledine
+    venue: ACM Conference on Computer and Communications Security (CCS)
+    notes: Introduced The Update Framework (TUF), a secure software update system that remains secure even when repository keys are compromised. TUF uses role separation, threshold signatures, and offline keys. Led to adoption by Docker, Python, and automotive update systems.
+    ids:
+      doi: 10.1145/1866307.1866315
+  - title: 'Diplomat: Using Delegations to Protect Community Repositories'
+    url: https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/kuppusamy
+    archive_url: http://web.archive.org/web/20250920135517/https://www.usenix.org/conference/nsdi16/technical-sessions/presentation/kuppusamy
+    year: '2016'
+    authors: Trishank Karthik Kuppusamy, Santiago Torres-Arias, Vladimir Diaz, Justin Cappos
+    venue: USENIX Symposium on Networked Systems Design and Implementation (NSDI)
+    notes: Extended TUF to work efficiently with large community repositories like PyPI and RubyGems. Introduced delegation mechanisms allowing package repositories to scale to hundreds of thousands of packages while maintaining security guarantees.
+  - title: 'CHAINIAC: Proactive Software-Update Transparency via Collectively Signed Skipchains and Verified Builds'
+    url: https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/nikitin
+    archive_url: http://web.archive.org/web/20250503011610/https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/nikitin
+    year: '2017'
+    authors: Kirill Nikitin, Eleftherios Kokoris-Kogias, Philipp Jovanovic, Nicolas Gailly, Linus Gasser, Ismail Khoffi, Justin Cappos, Bryan Ford
+    venue: USENIX Security Symposium
+    notes: Proposed decentralized software-update framework eliminating single points of failure through independent witness servers. Evaluation shows clients achieve security comparable to verifying every update while consuming only one-fifth of the bandwidth.
+  - title: 'Uptane: Securing Software Updates for Automobiles'
+    url: https://ieeexplore.ieee.org/document/8278174
+    archive_url: http://web.archive.org/web/20240416142926/https://ieeexplore.ieee.org/document/8278174/
+    year: 2016, 2018
+    authors: Trishank Karthik Kuppusamy, Akshay Dua, Russ Bielawski, Cameron Mott, Sam Lauzon, Andre Weimerskirch, Akan Brown, Sebastien Awwad, Damon McCoy, Justin Cappos
+    venue: escar Europe / IEEE Vehicular Technology Magazine
+    notes: First software update framework for automobiles capable of resisting nation-state level attacks. Based on TUF but adapted for automotive constraints. Became IEEE/ISTO standard in 2019.
+  - title: 'Your Firmware Has Arrived: A Study of Firmware Update Vulnerabilities'
+    url: https://www.usenix.org/conference/usenixsecurity24/presentation/wu-yuhao
+    archive_url: http://web.archive.org/web/20251217100354/https://www.usenix.org/conference/usenixsecurity24/presentation/wu-yuhao
+    year: '2024'
+    authors: Yuhao Wu, Jinwen Wang, Yujie Wang, Shixuan Zhai, Zihan Li, Yi He, Kun Sun, Qi Li, Ning Zhang
+    venue: USENIX Security Symposium
+    notes: Proposed ChkUp tool to detect firmware update vulnerabilities by resolving program execution paths. Analyzing 12,000 firmware images, identifies vulnerabilities stemming from incomplete or incorrect verification steps.
+  - title: Formal Security Analysis of Electronic Software Distribution Systems
+    url: https://link.springer.com/chapter/10.1007/978-3-540-87698-4_34
+    archive_url: http://web.archive.org/web/20180605151459/https://link.springer.com/chapter/10.1007%2F978-3-540-87698-4_34
+    year: '2008'
+    authors: M. Maidl, D. von Oheimb, P. Hartmann, R. Robinson
+    venue: International Conference on Computer Safety, Reliability, and Security (SAFECOMP)
+    notes: Introduced software distribution system architecture with generic core component for secure software transport. Used formal methods to validate system security for critical embedded systems.
+  - title: Reflections on Trusting Trust
+    url: https://dl.acm.org/doi/10.1145/358198.358210
+    archive_url: http://web.archive.org/web/20251008182946/https://dl.acm.org/doi/10.1145/358198.358210
+    year: '1984'
+    authors: Ken Thompson
+    venue: Communications of the ACM
+    notes: Classic paper on trust in software compilation and distribution.
+    ids:
+      doi: 10.1145/358198.358210
+- id: malicious-packages-and-typosquatting
+  title: Malicious Packages and Typosquatting
+  description: Research on detection and analysis of malicious packages in ecosystems.
+  papers:
+  - title: An Empirical Study of Malicious Code in PyPI Ecosystem
+    url: https://ieeexplore.ieee.org/document/10298430
+    archive_url: http://web.archive.org/web/20250425090040/https://ieeexplore.ieee.org/document/10298430/
+    year: '2023'
+    authors: Wenbo Guo, et al.
+    venue: IEEE/ACM International Conference on Automated Software Engineering (ASE)
+    notes: Large-scale empirical study with dataset of 4,669 malicious code samples from PyPI. Found 74.81% of malicious packages enter user systems via source code installation.
+  - title: 'Killing Two Birds with One Stone: Malicious Package Detection in NPM and PyPI using a Single Model of Malicious Behavior Sequence'
+    url: https://arxiv.org/abs/2309.02637
+    archive_url: http://web.archive.org/web/20260126220410/https://arxiv.org/abs/2309.02637
+    year: '2024'
+    authors: Junan Zhang, Kaifeng Huang, et al.
+    venue: ACM Transactions on Software Engineering and Methodology
+    notes: Proposed Cerebro, unified detection model for malicious packages across npm and PyPI using behavior sequence analysis with BERT. Detected 683 malicious PyPI packages and 799 npm packages.
+    ids:
+      arxiv: '2309.02637'
+  - title: Malicious Package Detection using Metadata Information
+    url: https://arxiv.org/abs/2402.07444
+    year: '2024'
+    authors: S. Halder, et al.
+    venue: ACM Web Conference (WWW)
+    notes: Introduced MeMPtec, metadata-based malicious package detection model. Demonstrates resistance to adversarial attacks with 85.2% precision and 91.8% recall.
+    ids:
+      arxiv: '2402.07444'
+  - title: On the Feasibility of Detecting Injections in Malicious npm Packages
+    url: https://dl.acm.org/doi/10.1145/3538969.3543815
+    archive_url: http://web.archive.org/web/20250601134415/https://dl.acm.org/doi/10.1145/3538969.3543815
+    year: '2022'
+    authors: Various authors
+    venue: ACM conference proceedings
+    notes: Analyzed 361 malicious npm artifacts covering typosquatting, combosquatting, and package hijacking, providing insights into attack patterns.
+    ids:
+      doi: 10.1145/3538969.3543815
+  - title: 'SpellBound: Defending Against Package Typosquatting'
+    url: https://arxiv.org/abs/2003.03471
+    archive_url: http://web.archive.org/web/20251223030450/https://arxiv.org/abs/2003.03471
+    year: '2020'
+    authors: Matthew Taylor, Ruturaj K. Vaidya, Drew Davidson, Lorenzo De Carli, Vaibhav Rastogi
+    venue: arXiv preprint
+    notes: Proposed TypoGard, a detection technique based on analysis of npm and PyPI leveraging lexical similarity between names and package popularity. Evaluation showed TypoGard flags up to 99.4% of known typosquatting cases while generating limited warnings (0.5% of package installs) and low overhead (2.5% of package install time).
+    ids:
+      arxiv: '2003.03471'
+  - title: Typosquatting and Combosquatting Attacks on the Python Ecosystem
+    url: https://ieeexplore.ieee.org/document/9229803/
+    year: '2020'
+    authors: Duc-Ly Vu, Ivan Pashchenko, Fabio Massacci, Henrik Plate, Antonino Sabetta
+    venue: IEEE European Symposium on Security and Privacy Workshops (Euro S&P)
+    notes: Studies typosquatting and combosquatting attacks on PyPI. Combosquatting exploits mistakes in the order of package names consisting of multiple nouns (e.g., "python-nmap" typed as "nmap-python"). Proposes automated approach to identify combosquatting and typosquatting package names.
+  - title: Practical Automated Detection of Malicious npm Packages
+    url: https://dl.acm.org/doi/10.1145/3510003.3510104
+    archive_url: http://web.archive.org/web/20250524215619/https://dl.acm.org/doi/10.1145/3510003.3510104
+    year: '2022'
+    authors: Adriana Sejfia, Max Schäfer
+    venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+    notes: Presents Amalfi, combining ML classifiers, a reproducer for identifying packages rebuildable from source, and a clone detector for known malicious packages. Identified 95 previously unknown malicious packages over seven days. Found malicious packages more likely to contain minified code or binaries.
+    ids:
+      doi: 10.1145/3510003.3510104
+  - title: 'TypoSmart: A Low False-Positive System for Detecting Malicious and Stealthy Typosquatting Threats in Package Registries'
+    url: https://arxiv.org/html/2502.20528v1
+    archive_url: http://web.archive.org/web/20250303032939/https://arxiv.org/html/2502.20528v1
+    year: '2025'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: First scalable deployment of a typosquatting detection system that addresses key limitations by leveraging package metadata. Improved neighbor search speeds by 73-91% and reduced false positives by 70.4% compared to prior work. Being used in production, contributing to removal of 3,658 typosquatting threats in one month.
+    ids:
+      arxiv: '2502.20528'
+  - title: 'Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other Companies'
+    url: https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
+    archive_url: http://web.archive.org/web/20260111211113/https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
+    year: '2021'
+    authors: Alex Birsan
+    venue: Medium blog post / Security research
+    notes: Revealed dependency confusion attack that exploits package managers pulling higher-versioned packages from public repositories when private packages exist with the same name. Successfully compromised over 35 major companies including Microsoft, Apple, PayPal, Shopify, Netflix, and Tesla. Awarded over $130,000 in bug bounties.
+  - title: 'Many Hands Make Light Work: An LLM-based Multi-Agent System for Detecting Malicious PyPI Packages'
+    url: https://arxiv.org/abs/2601.12148
+    year: '2026'
+    authors: Muhammad Umar Zeshan, Motunrayo Ibiyo, Claudio Di Sipio, Phuong T. Nguyen, Davide Di Ruscio
+    venue: Journal of Systems and Software
+    notes: Presents LAMPS, a multi-agent system that routes PyPI package code through specialised LLM agents for static, behavioural, and metadata analysis, then aggregates their findings. Targets the semantic patterns that single-pass rule-based scanners miss.
+    ids:
+      arxiv: '2601.12148'
+      doi: 10.1016/j.jss.2026.112792
+  - title: 'Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework'
+    url: https://arxiv.org/abs/2601.16463
+    year: '2026'
+    authors: Wenbo Guo, Chengwei Liu, Ming Kang, Yiran Zhang, Jiahui Wu, Zhengzi Xu, Vinay Sachidananda, Yang Liu
+    venue: arXiv preprint
+    notes: Reports that existing PyPI malware detectors flag 15-30% of legitimate packages as malicious because they rely on syntactic rules over API calls without considering context. Proposes PyGuard, which mines a knowledge base linking API patterns to their typical legitimate uses and flags only deviations.
+    ids:
+      arxiv: '2601.16463'
+      doi: 10.48550/arxiv.2601.16463
+  - title: 'Cryptographic Registry Provenance: Structural Defense Against Dependency Confusion in AI Package Ecosystems'
+    url: https://arxiv.org/abs/2605.03309
+    year: '2026'
+    authors: Alan L. McCann
+    venue: arXiv preprint
+    notes: Argues every existing dependency confusion defense is configuration-based and fails silently when misconfigured. Proposes that every registry hold an Ed25519 keypair and sign every artifact it distributes, with a dual-signature model recording which registry actually served a package so installs can be audited after the fact.
+    ids:
+      arxiv: '2605.03309'
+      doi: 10.48550/arxiv.2605.03309
+  - title: 'Unveiling Malicious Logic: Towards a Statement-Level Taxonomy and Dataset for Securing Python Packages'
+    url: https://arxiv.org/abs/2512.12559
+    year: '2025'
+    authors: Ahmed Ryan, Junaid Mansur Ifti, Md Erfan, Akond Ashfaque Ur Rahman, Md Rayhanur Rahman
+    venue: arXiv preprint
+    notes: Existing malicious-package datasets (pypi-malregistry, DataDog, OpenSSF, MalwareBench) label whole packages as malicious or benign and don't say which statements implement the malicious behaviour. Introduces a statement-level taxonomy and a manually annotated dataset so detectors can be trained and evaluated at the granularity attackers actually operate at.
+    ids:
+      arxiv: '2512.12559'
+      doi: 10.48550/arxiv.2512.12559
+- id: package-metadata-and-trust-models
+  title: Package Metadata and Trust Models
+  description: Research on metadata systems, signing, and trust frameworks.
+  papers:
+  - title: 'Why Software Signing (Still) Matters: Trust Boundaries in the Software Supply Chain'
+    url: https://arxiv.org/abs/2510.04964
+    archive_url: http://web.archive.org/web/20251203082721/https://arxiv.org/abs/2510.04964
+    year: '2024'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: Analyzed when registry hardening renders signing redundant versus when signing is necessary, examining trust boundaries in software distribution.
+    ids:
+      arxiv: '2510.04964'
+  - title: An Industry Interview Study of Software Signing for Supply Chain Security
+    url: https://www.usenix.org/conference/usenixsecurity25/presentation/kalu
+    archive_url: http://web.archive.org/web/20251231192924/https://www.usenix.org/conference/usenixsecurity25/presentation/kalu
+    year: '2025'
+    authors: Kelechi G. Kalu, James C. Davis
+    venue: USENIX Security Symposium
+    notes: Qualitative study interviewing 18 experienced security practitioners across 13 organizations to understand software signing practices and challenges. Shows that experts disagree on signing importance.
+  - title: 'Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors'
+    url: https://ieeexplore.ieee.org/document/10646801
+    archive_url: http://web.archive.org/web/20251222023837/https://ieeexplore.ieee.org/document/10646801
+    year: '2024'
+    authors: Taylor R. Schorlemmer, Kelechi G. Kalu, Luke Chigges, Kyung Myung Ko, Elizabeth A. Ishgair, Saurabh Bagchi, Santiago Torres-Arias, James C. Davis
+    venue: IEEE Symposium on Security and Privacy (S&P)
+    notes: Study of software signing adoption in Maven, PyPI, DockerHub and Huggingface, finding strict signature rules increase the quantity of signatures and registry policies impact developer decisions.
+  - title: A systematic literature review on trust in the software ecosystem
+    url: https://link.springer.com/article/10.1007/s10664-022-10238-y
+    year: '2022'
+    authors: Multiple authors
+    venue: Empirical Software Engineering
+    notes: Systematic literature review examining trust in software ecosystems, including relationships between end-users and software products, package managers, software producing organizations, and software engineers. Addresses how trust is frequently violated by bad actors and vulnerabilities in the software supply chain.
+  - title: 'Sigstore: Software Signing for Everybody'
+    url: https://dl.acm.org/doi/10.1145/3548606.3560596
+    archive_url: http://web.archive.org/web/20250526171110/https://dl.acm.org/doi/10.1145/3548606.3560596
+    year: '2022'
+    authors: Zachary Newman, John Speed Meyers, Santiago Torres-Arias
+    venue: ACM Conference on Computer and Communications Security (CCS)
+    notes: Academic analysis of Sigstore's keyless signing infrastructure. Describes formal attacker model and possible attack avenues. Sigstore uses identity-based signing (OAuth/OIDC) rather than traditional key management, now adopted by npm, PyPI, and major Linux distributions.
+    ids:
+      doi: 10.1145/3548606.3560596
+  - title: 'VeriSBOM: Secure and Verifiable SBOM Sharing Via Zero-Knowledge Proofs'
+    url: https://arxiv.org/abs/2602.13682
+    year: '2026'
+    authors: Gianpietro Castiglione, Shahriar Ebrahimi, Narges Khakpour
+    venue: arXiv preprint
+    notes: Uses zero-knowledge proofs so an SBOM publisher can prove properties (no vulnerable component, presence of a specific dependency, conformance to a policy) without revealing the full component list. Addresses the disclosure dilemma where full SBOMs leak both technical risk and competitive information.
+    ids:
+      arxiv: '2602.13682'
+      doi: 10.48550/arxiv.2602.13682
+  - title: 'zkSBOM: Privacy-Preserving SBOM Sharing with Zero-Knowledge Sets'
+    url: https://arxiv.org/abs/2605.00076
+    year: '2026'
+    authors: Tom Sorger, Eric Cornelissen, Aman Sharma, Javier Ron, Musard Balliu, Martin Monperrus
+    venue: arXiv preprint
+    notes: Concurrent zero-knowledge SBOM proposal targeting the same disclosure problem from a different cryptographic angle (zero-knowledge sets rather than general ZK proofs). Frames the binary all-or-nothing model of current SBOM sharing as the source of both supplier exposure and consumer deception risk.
+    ids:
+      arxiv: '2605.00076'
+      doi: 10.48550/arxiv.2605.00076
+- id: dependency-management-bots
+  title: Dependency Management Bots
+  description: Research on automated dependency management tools like Dependabot and Renovate.
+  papers:
+  - title: On the use of dependabot security pull requests
+    url: https://ieeexplore.ieee.org/document/9463148
+    archive_url: http://web.archive.org/web/20210630134610/https://ieeexplore.ieee.org/document/9463148
+    year: '2021'
+    authors: Mahmoud Alfadel, Diego Elias Costa, Emad Shihab, Moiz Mkhallalati
+    venue: IEEE/ACM International Conference on Mining Software Repositories (MSR)
+    notes: Evaluates how developers respond to security updates suggested by Dependabot, finding varying acceptance rates across ecosystems.
+  - title: Investigating the resolution of vulnerable dependencies with dependabot security updates
+    url: https://ieeexplore.ieee.org/abstract/document/10174082
+    archive_url: http://web.archive.org/web/20240704210422/https://ieeexplore.ieee.org/abstract/document/10174082
+    year: '2023'
+    authors: Hadi Mohayeji, Ani Agaronian, Eleni Constantinou, Nicola Zannone, Alexander Serebrenik
+    venue: IEEE/ACM International Conference on Mining Software Repositories (MSR)
+    notes: Investigates how Dependabot helps mitigate vulnerabilities, noting it uses lockfiles to create dependency graphs.
+  - title: 'Securing dependencies: A comprehensive study of dependabot''s impact on vulnerability mitigation'
+    url: https://link.springer.com/article/10.1007/s10664-025-10638-w
+    archive_url: http://web.archive.org/web/20260126220543/https://link.springer.com/article/10.1007/s10664-025-10638-w?
+    year: '2025'
+    authors: Hadi Mohayeji, Ani Agaronian, Eleni Constantinou, Nicola Zannone, Alexander Serebrenik
+    venue: Empirical Software Engineering
+    notes: Follow-up study on Dependabot's effectiveness for vulnerability mitigation across projects.
+  - title: 'There''s no such thing as a free lunch: Lessons learned from exploring the overhead introduced by the greenkeeper dependency bot in npm'
+    url: https://dl.acm.org/doi/10.1145/3522587
+    archive_url: https://web.archive.org/web/20220504135417/https://dl.acm.org/doi/10.1145/3522587
+    year: '2023'
+    authors: Benjamin Rombaut, Filipe Cogo, Bram Adams, Ahmed E. Hassan
+    venue: ACM Transactions on Software Engineering and Methodology (TOSEM)
+    notes: Studies whether Greenkeeper reduces developer effort or introduces unnecessary workload. Mentions lockfiles as a way to overcome in-range breaking changes.
+    ids:
+      doi: 10.1145/3522587
+- id: software-composition-analysis
+  title: Software Composition Analysis
+  description: Research on library usage, updates, and composition analysis tools.
+  papers:
+  - title: Software ecosystem call graph for dependency management
+    url: https://doi.org/10.1145/3183399.3183417
+    year: '2018'
+    authors: Joseph Hejderup, Arie van Deursen, Georgios Gousios
+    venue: 'IEEE/ACM International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER)'
+    notes: Proposes moving beyond package-level dependency analysis to call-graph level, enabling finer-grained understanding of which functions are actually used from dependencies.
+    ids:
+      doi: 10.1145/3183399.3183417
+  - title: 'Präzi: From Package-based to Call-based Dependency Networks'
+    url: https://arxiv.org/abs/2101.09563
+    archive_url: http://web.archive.org/web/20251211203418/https://arxiv.org/abs/2101.09563
+    year: '2021'
+    authors: Joseph Hejderup, Moritz Beller, Konstantinos Triantafyllou, Georgios Gousios
+    venue: arXiv preprint
+    notes: Extends call-graph dependency analysis with Präzi, constructing fine-grained dependency networks at the function level rather than package level. Enables more precise vulnerability impact analysis and identifies unused transitive dependencies.
+    ids:
+      arxiv: '2101.09563'
+  - title: Towards Understanding Third-Party Library Dependency in C/C++ Ecosystem
+    url: https://dl.acm.org/doi/10.1145/3551349.3560432
+    archive_url: https://web.archive.org/web/20250621102306/https://dl.acm.org/doi/10.1145/3551349.3560432
+    year: '2022'
+    authors: Wei Tang, Zhengzi Xu, Chengwei Liu, Jiahui Wu, Shouguo Yang, Yi Li, Ping Luo, Yang Liu
+    venue: IEEE/ACM International Conference on Automated Software Engineering (ASE)
+    notes: First large-scale C/C++ dependency study addressing lack of unified package manager. Analyzed 24K repositories revealing 71.5% dependencies handled in Install phase.
+    ids:
+      doi: 10.1145/3551349.3560432
+  - title: A Machine Learning Approach for Vulnerability Curation
+    url: https://dl.acm.org/doi/10.1145/3379597.3387461
+    archive_url: https://web.archive.org/web/20250303141339/https://dl.acm.org/doi/10.1145/3379597.3387461
+    year: '2020'
+    authors: Chen Yang, Andrew Santosa, Ang Ming Yi, Abhishek Sharma, Asankhaya Sharma, David Lo
+    venue: International Conference on Mining Software Repositories (MSR)
+    notes: Designed ML system to automatically predict vulnerability-relatedness of data items for software composition analysis databases.
+    ids:
+      doi: 10.1145/3379597.3387461
+  - title: An Exploratory Study on Library Aging by Monitoring Client Usage in a Software Ecosystem
+    url: https://ieeexplore.ieee.org/document/7884643/
+    archive_url: http://web.archive.org/web/20250422082539/https://ieeexplore.ieee.org/document/7884643/
+    year: '2017'
+    authors: Multiple authors
+    venue: SANER
+    notes: Study of library aging patterns through client usage monitoring.
+  - title: Do Developers Update Their Library Dependencies?
+    url: https://link.springer.com/article/10.1007/s10664-017-9521-5
+    archive_url: http://web.archive.org/web/20230729215447/https://link.springer.com/article/10.1007/s10664-017-9521-5
+    year: '2018'
+    authors: Raula Gaikovina Kula, Daniel M. German, Ali Ouni, Takashi Ishio, Katsuro Inoue
+    venue: Empirical Software Engineering
+    notes: Empirical study on library migration covering 4,600+ GitHub projects and 2,700 library dependencies. Found 81.5% of systems keep outdated dependencies, and developers rarely respond to security advisories. Introduced the Library Migration Plot (LMP) visualization.
+  - title: 'A Large-Scale Empirical Study on Java Library Migrations: Prevalence, Trends, and Rationales'
+    url: https://dl.acm.org/doi/10.1145/3468264.3468571
+    archive_url: http://web.archive.org/web/20241207083408/https://dl.acm.org/doi/10.1145/3468264.3468571
+    year: '2021'
+    authors: Hao He, Runzhi He, Haiqiao Gu, Minghui Zhou
+    venue: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)
+    notes: Commit-level analysis of 19,652 Java projects extracting 1,194 migration rules and 3,163 migration commits. Found migrations dominated by logging, JSON, testing, and web service domains. Identified 14 migration reasons, 7 not discussed in prior work.
+    ids:
+      doi: 10.1145/3468264.3468571
+  - title: Modeling Library Dependencies and Updates in Large Software Repository Universes
+    url: https://arxiv.org/abs/1709.04626
+    archive_url: http://web.archive.org/web/20241219003631/https://arxiv.org/abs/1709.04626
+    year: '2017'
+    authors: Raula Gaikovina Kula, Coen De Roover, Daniel M. German, Takashi Ishio, Katsuro Inoue
+    venue: arXiv preprint
+    notes: Proposes the Software Universe Graph (SUG) to model library dependency and update information mined from Maven. Leverages "wisdom of the crowd" to recommend library updates based on what other projects have adopted.
+    ids:
+      arxiv: '1709.04626'
+  - title: The emergence of software diversity in maven central
+    url: https://arxiv.org/abs/1903.05394
+    year: '2019'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: Analysis of software diversity patterns in Maven Central.
+    ids:
+      arxiv: '1903.05394'
+  - title: On the use of package managers by the C++ open-source community
+    url: https://dl.acm.org/doi/10.1145/3167132.3167290
+    archive_url: http://web.archive.org/web/20250630173209/https://dl.acm.org/doi/10.1145/3167132.3167290
+    year: '2018'
+    authors: Multiple authors
+    venue: SAC
+    notes: Study of package manager adoption in C++ open source.
+    ids:
+      doi: 10.1145/3167132.3167290
+  - title: 'Beyond Dependencies: The Role of Copy-Based Reuse in Open Source Software Development'
+    url: https://dl.acm.org/doi/10.1145/3715907
+    archive_url: https://web.archive.org/web/20250218142710/https://dl.acm.org/doi/10.1145/3715907
+    year: '2025'
+    authors: Mahmoud Jahanshahi, David Reid, Audris Mockus
+    venue: ACM Transactions on Software Engineering and Methodology
+    notes: Studies how code copying (not just dependency declaration) affects software reuse patterns, examining the relationship between formal dependencies and actual code reuse in open source.
+    ids:
+      doi: 10.1145/3715907
+  - title: A Longitudinal Analysis of Bloated Java Dependencies
+    url: https://www.researchgate.net/publication/351978531_A_Longitudinal_Analysis_of_Bloated_Java_Dependencies
+    year: '2021'
+    authors: Multiple authors
+    venue: ResearchGate / Academic publication
+    notes: Longitudinal study examining bloated dependencies in Java projects over time. Analyzes how dependency bloat evolves and accumulates in Maven-based projects.
+  - title: Longitudinal Analysis of Software Dependencies in Large-Scale Systems
+    url: https://link.springer.com/article/10.1007/s10664-025-10638-w
+    archive_url: http://web.archive.org/web/20260126220543/https://link.springer.com/article/10.1007/s10664-025-10638-w?
+    year: '2025'
+    authors: Multiple authors
+    venue: Empirical Software Engineering
+    notes: Recent longitudinal analysis of software dependencies examining long-term patterns and evolution of dependency management practices in large-scale systems.
+  - title: Uncovering Hidden Inclusions of Vulnerable Dependencies in Real-World Java Projects
+    url: https://arxiv.org/abs/2601.23020
+    year: '2026'
+    authors: Stefan Schott, Serena Elisa Ponta, Wolfram Fischer, Jonas Klauke, Eric Bodden
+    venue: arXiv preprint
+    notes: Studies the gap between what metadata-based scanners see and what code-centric scanners see for Java vulnerabilities. Reports that code inclusions of vulnerable libraries via shading, fat-jars, and copy-paste are routinely missed by Maven-graph-based tooling.
+    ids:
+      arxiv: '2601.23020'
+      doi: 10.48550/arxiv.2601.23020
+  - title: Hidden Dependencies and Component Variants in SBOM-Based Software Composition Analysis
+    url: https://arxiv.org/abs/2604.21278
+    year: '2026'
+    authors: Shawn Rasheed, Max McPhee, Lisa Patterson, Stephen MacDonell, Jens Dietrich
+    venue: arXiv preprint
+    notes: 'Identifies two mismatch patterns that break SBOM-driven SCA: hidden components introduced through build-time vendoring, and variants of the same component (forks, patched rebuilds, renamed redistributions) that share code but not identity. Quantifies how often each occurs and which SBOM tools surface them.'
+    ids:
+      arxiv: '2604.21278'
+      doi: 10.48550/arxiv.2604.21278
+  - title: A Practical Solution to Systematically Monitor Inconsistencies in SBOM-based Vulnerability Scanners
+    url: https://arxiv.org/abs/2512.17710
+    year: '2025'
+    authors: Martin Rosso, Muhammad Asad Jahangir Jaffar, Alessandro Brighente, Mauro Conti
+    venue: arXiv preprint
+    notes: Introduces SVS-TEST, which feeds controlled SBOMs into vulnerability scanners and compares their outputs to find silent inconsistencies. Documents systematic false negatives caused by component-naming and version-range handling differences between scanners.
+    ids:
+      arxiv: '2512.17710'
+      doi: 10.1145/3748522.3779717
+  - title: 'The State of the SBOM Tool Ecosystems: A Comparative Analysis of SPDX and CycloneDX'
+    url: https://arxiv.org/abs/2512.21781
+    year: '2025'
+    authors: Abdul Ali Bangash, Tongxu Ge, Zhimin Zhao, Arshdeep Singh, Zitao Wang, Bram Adams
+    venue: arXiv preprint
+    notes: 'Quantitative comparison of 170 SBOM tools across SPDX and CycloneDX ecosystems, measuring tool count, format coverage, repository activity, and use-case fit. Shows the two formats are not interchangeable in practice: tool ecosystems differ in maturity and the gaps fall in different places.'
+    ids:
+      arxiv: '2512.21781'
+      doi: 10.48550/arxiv.2512.21781
+- id: ecosystem-evolution-and-developer-behavior
+  title: Ecosystem Evolution and Developer Behavior
+  description: Research on how ecosystems and developer practices evolve over time.
+  papers:
+  - title: An Empirical Study of API Stability and Adoption in the Android Ecosystem
+    url: https://ieeexplore.ieee.org/document/6676878
+    archive_url: https://web.archive.org/web/20180614234525/https://ieeexplore.ieee.org/document/6676878/
+    year: '2013'
+    authors: Tyler McDonnell, Baishakhi Ray, Miryung Kim
+    venue: IEEE International Conference on Software Maintenance (ICSM) - Most Influential Paper Award 2023
+    notes: Found Android API evolves at 115 updates per month on average, but client adoption doesn't keep pace. Established API stability and adoption as a vital research area, inspiring subsequent work on automating API migration and change impact analysis.
+  - title: Understanding the Response to Open-Source Dependency Abandonment in the npm Ecosystem
+    url: https://www.cs.cmu.edu/~ckaestne/pdf/icse25_abandonment.pdf
+    archive_url: http://web.archive.org/web/20251231075249/http://www.cs.cmu.edu/~ckaestne/pdf/icse25_abandonment.pdf
+    year: '2025'
+    authors: Courtney Miller, Mahmoud Jahanshahi, Audris Mockus, Bogdan Vasilescu, Christian Kästner
+    venue: IEEE/ACM International Conference on Software Engineering (ICSE)
+    notes: Studies how developers respond when their dependencies are abandoned, analyzing response patterns and mitigation strategies in the npm ecosystem.
+  - title: 'Underproduction: An Approach for Measuring Risk in Open Source Software'
+    url: https://ieeexplore.ieee.org/document/9426043/
+    archive_url: http://web.archive.org/web/20241219180939/https://ieeexplore.ieee.org/document/9426043/
+    year: '2021'
+    authors: Kaylea Champion, Benjamin Mako Hill
+    venue: IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
+    notes: Introduces framework for identifying underproduction where software engineering labor supply is misaligned with demand. Applied to 21,902 Debian packages and 461,656 bugs, finding at least 4,327 packages are underproduced. Desktop environments particularly at risk.
+  - title: 'Deprecation of Packages and Releases in Software Ecosystems: A Case Study on npm'
+    url: https://ieeexplore.ieee.org/document/9351569/
+    archive_url: http://web.archive.org/web/20250506191010/https://ieeexplore.ieee.org/document/9351569/
+    year: '2022'
+    authors: Filipe Cogo, Gustavo Oliva, Ahmed E. Hassan
+    venue: IEEE Transactions on Software Engineering
+    notes: Examines npm's deprecation mechanism. Found 3.7% of packages have at least one deprecated release, and 66% of those have deprecated all releases, preventing migration to replacements. Transitive adoption of deprecated releases is challenging to track.
+  - title: 'The Evolution of Project Inter-dependencies in a Software Ecosystem: The Case of Apache'
+    url: https://ieeexplore.ieee.org/document/6676899/
+    archive_url: http://web.archive.org/web/20240714234455/https://ieeexplore.ieee.org/document/6676899/
+    year: '2013'
+    authors: Gabriele Bavota, Gerardo Canfora, Massimiliano Di Penta, Rocco Oliveto
+    venue: IEEE International Conference on Software Maintenance (ICSM)
+    notes: Exploratory study of 147 Apache Java projects over 14 years (1,964 releases), examining how dependency relationships evolve and when projects decide to upgrade dependencies.
+  - title: 'How the Apache Community Upgrades Dependencies: An Evolutionary Study'
+    url: https://link.springer.com/article/10.1007/s10664-014-9325-9
+    archive_url: http://web.archive.org/web/20260126221014/https://link.springer.com/article/10.1007/s10664-014-9325-9?
+    year: '2015'
+    authors: Gabriele Bavota, Gerardo Canfora, Massimiliano Di Penta, Rocco Oliveto, Sebastiano Panichella
+    venue: Empirical Software Engineering
+    notes: Follow-up study examining when and why Apache projects upgrade their dependencies, identifying patterns in upgrade decisions.
+  - title: A Graph-Based Approach to API Usage Adaptation
+    url: https://dl.acm.org/doi/10.1145/1869459.1869486
+    archive_url: http://web.archive.org/web/20251123065611/https://dl.acm.org/doi/10.1145/1869459.1869486
+    year: '2010'
+    authors: Hoan Anh Nguyen, Tung Thanh Nguyen, Gary Wilson Jr., Anh Tuan Nguyen, Miryung Kim, Tien Nguyen
+    venue: ACM SIGPLAN Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)
+    notes: Introduces LIBSYNC, which learns complex API usage adaptation patterns from other clients that already migrated to a new library version, guiding developers through API migrations.
+    ids:
+      doi: 10.1145/1869459.1869486
+  - title: Influences on developer participation in the Debian software ecosystem
+    url: https://dl.acm.org/doi/10.1145/2077489.2077505
+    archive_url: https://web.archive.org/web/20250306172406/https://dl.acm.org/doi/10.1145/2077489.2077505
+    year: '2011'
+    authors: Multiple authors
+    venue: Academic publication
+    notes: Analysis of factors affecting developer participation in Debian.
+    ids:
+      doi: 10.1145/2077489.2077505
+  - title: A historical analysis of Debian package incompatibilities
+    url: https://ieeexplore.ieee.org/document/7180081/
+    archive_url: http://web.archive.org/web/20240605212707/https://ieeexplore.ieee.org/document/7180081/
+    year: '2015'
+    authors: Multiple authors
+    venue: Academic publication
+    notes: Historical perspective on package incompatibilities in Debian.
+  - title: Why Do Developers Use Trivial Packages? An Empirical Case Study on npm
+    url: https://dl.acm.org/doi/10.1145/3106237.3106267
+    archive_url: http://web.archive.org/web/20250731151238/https://dl.acm.org/doi/10.1145/3106237.3106267
+    year: '2017'
+    authors: Suhaib Mujahid et al.
+    venue: Academic publication
+    notes: Investigation of why developers depend on trivial packages.
+    ids:
+      doi: 10.1145/3106237.3106267
+  - title: 'On the Impact of Using Trivial Packages: An Empirical Case Study on npm and PyPI'
+    url: https://link.springer.com/article/10.1007/s10664-019-09792-9
+    archive_url: http://web.archive.org/web/20230729215932/https://link.springer.com/article/10.1007/s10664-019-09792-9
+    year: '2020'
+    authors: Rabe Abdalkareem, Vinicius Oda, Suhaib Mujahid, Emad Shihab
+    venue: Empirical Software Engineering
+    notes: Follow-up study finding 16% of npm and 10.5% of PyPI packages are trivial. Survey of 125 developers found they believe trivial packages are well-tested, but only 28% of npm and 49% of PyPI trivial packages actually have tests. 18.4% of npm trivial packages have more than 20 dependencies.
+  - title: 'Towards Smoother Library Migrations: A Look at Vulnerable Dependency Migrations at Function Level for npm JavaScript Packages'
+    url: https://ieeexplore.ieee.org/document/8530065/
+    archive_url: http://web.archive.org/web/20241217162605/https://ieeexplore.ieee.org/document/8530065/
+    year: '2018'
+    authors: Multiple authors
+    venue: IEEE publication
+    notes: Study of library migration patterns for vulnerability fixes.
+  - title: 'On the diversity of software package popularity metrics: An empirical study of npm'
+    url: https://arxiv.org/abs/1901.04217
+    archive_url: http://web.archive.org/web/20260126221056/https://arxiv.org/abs/1901.04217
+    year: '2019'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: Analysis of different popularity metrics in npm ecosystem.
+    ids:
+      arxiv: '1901.04217'
+  - title: Are Software Dependency Supply Chain Metrics Useful in Predicting Change of Popularity of npm Packages?
+    url: https://dl.acm.org/doi/10.1145/3273934.3273942
+    archive_url: http://web.archive.org/web/20240721083319/https://dl.acm.org/doi/10.1145/3273934.3273942
+    year: '2018'
+    authors: Tapajit Dey, Audris Mockus
+    venue: International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE)
+    notes: Investigates whether supply chain metrics (dependency relationships, update patterns) can predict changes in npm package popularity.
+    ids:
+      doi: 10.1145/3273934.3273942
+  - title: 'Ecosystem-Level Determinants of Sustained Activity in Open-Source Projects: A Case Study of the PyPI Ecosystem'
+    url: https://dl.acm.org/doi/abs/10.1145/3236024.3236062
+    archive_url: http://web.archive.org/web/20200702042838/https://dl.acm.org/doi/abs/10.1145/3236024.3236062
+    year: '2018'
+    authors: Multiple authors
+    venue: FSE
+    notes: Study of factors contributing to sustained activity in PyPI.
+    ids:
+      doi: 10.1145/3236024.3236062
+  - title: 'When It Breaks, It Breaks: How Ecosystem Developers Reason about the Stability of Dependencies'
+    url: https://ieeexplore.ieee.org/document/7426643/
+    archive_url: http://web.archive.org/web/20240714130038/https://ieeexplore.ieee.org/document/7426643/
+    year: '2015'
+    authors: Multiple authors
+    venue: CMU Technical Report
+    notes: Investigation of how developers reason about dependency stability.
+  - title: 'How to Break an API: Cost Negotiation and Community Values in Three Software Ecosystems'
+    url: https://dl.acm.org/doi/10.1145/2950290.2950325
+    archive_url: http://web.archive.org/web/20250309065128/https://dl.acm.org/doi/10.1145/2950290.2950325
+    year: '2016'
+    authors: Multiple authors
+    venue: ACM publication
+    notes: Study of API breaking changes across three ecosystems.
+    ids:
+      doi: 10.1145/2950290.2950325
+  - title: An ecosystemic and socio-technical view on software maintenance and evolution
+    url: https://ieeexplore.ieee.org/document/7816449/
+    archive_url: http://web.archive.org/web/20250430053316/https://ieeexplore.ieee.org/document/7816449/
+    year: '2016'
+    authors: Multiple authors
+    venue: Academic publication
+    notes: Socio-technical perspective on ecosystem maintenance.
+  - title: 'On the topology of package dependency networks: a comparison of three programming language ecosystems'
+    url: https://dl.acm.org/doi/10.1145/2993412.3003382
+    archive_url: http://web.archive.org/web/20250214180319/https://dl.acm.org/doi/10.1145/2993412.3003382
+    year: '2016'
+    authors: Multiple authors
+    venue: Academic publication
+    notes: Topological analysis of dependency networks.
+    ids:
+      doi: 10.1145/2993412.3003382
+  - title: Structure and Evolution of Package Dependency Networks
+    url: https://ieeexplore.ieee.org/document/7962360/
+    archive_url: http://web.archive.org/web/20240709222812/https://ieeexplore.ieee.org/document/7962360/
+    year: '2017'
+    authors: Multiple authors
+    venue: TU Delft publication
+    notes: Analysis of dependency network structure and evolution.
+  - title: An Empirical Comparison of Developer Retention in the RubyGems and npm Software Ecosystems
+    url: https://arxiv.org/abs/1708.02618
+    archive_url: http://web.archive.org/web/20251205123239/https://arxiv.org/abs/1708.02618
+    year: '2017'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: Comparison of developer retention across ecosystems.
+    ids:
+      arxiv: '1708.02618'
+  - title: 'Culture and Breaking Change: A Survey of Values and Practices in 18 Open Source Software Ecosystems'
+    url: https://kilthub.cmu.edu/articles/dataset/Culture_and_Breaking_Change_A_Survey_of_Values_and_Practices_in_18_Open_Source_Software_Ecosystems/5108716
+    archive_url: http://web.archive.org/web/20251206220343/https://kilthub.cmu.edu/articles/dataset/Culture_and_Breaking_Change_A_Survey_of_Values_and_Practices_in_18_Open_Source_Software_Ecosystems/5108716
+    year: '2017'
+    authors: Multiple authors
+    venue: Figshare
+    notes: Survey of cultural values around breaking changes.
+  - title: A generalized model for visualizing library popularity, adoption, and diffusion within a software ecosystem
+    url: https://ieeexplore.ieee.org/document/8330217/
+    year: '2018'
+    authors: Raula et al.
+    venue: NAIST publication
+    notes: Model for visualizing library adoption patterns.
+  - title: Release synchronization in software ecosystems
+    url: https://ieeexplore.ieee.org/document/8802690/
+    archive_url: http://web.archive.org/web/20240712135124/https://ieeexplore.ieee.org/document/8802690/
+    year: '2019'
+    authors: Multiple authors
+    venue: ACM publication
+    notes: Study of release coordination across ecosystem projects.
+  - title: 'Steering insight: An exploration of the ruby software ecosystem'
+    url: https://link.springer.com/chapter/10.1007/978-3-642-21544-5_5
+    year: '2011'
+    authors: Multiple authors
+    venue: Academic publication
+    notes: Exploration of Ruby ecosystem characteristics.
+  - title: Socio-technical evolution of the Ruby ecosystem in GitHub
+    url: https://ieeexplore.ieee.org/document/7884607
+    archive_url: http://web.archive.org/web/20240605191935/https://ieeexplore.ieee.org/document/7884607/
+    year: '2017'
+    authors: Constantinou, Mens
+    venue: SANER
+    notes: Analysis of Ruby ecosystem evolution on GitHub.
+  - title: How do developers react to API deprecation? The case of a Smalltalk ecosystem
+    url: https://dl.acm.org/doi/10.1145/2393596.2393662
+    archive_url: http://web.archive.org/web/20230210091914/https://dl.acm.org/doi/10.1145/2393596.2393662
+    year: '2012'
+    authors: Multiple authors
+    venue: FSE
+    notes: Study of developer responses to API deprecation.
+    ids:
+      doi: 10.1145/2393596.2393662
+  - title: A study of ripple effects in software ecosystems
+    url: https://ieeexplore.ieee.org/document/6032548/
+    year: '2011'
+    authors: Multiple authors
+    venue: ICSE
+    notes: Analysis of how changes ripple through ecosystems.
+  - title: How do developers react to API evolution? The Pharo ecosystem case
+    url: https://inria.hal.science/hal-01185736
+    archive_url: http://web.archive.org/web/20231202164108/https://inria.hal.science/hal-01185736
+    year: '2015'
+    authors: Multiple authors
+    venue: HAL archives
+    notes: Case study of API evolution in Pharo.
+  - title: How do developers react to API evolution? A large-scale empirical study
+    url: https://link.springer.com/article/10.1007/s11219-016-9344-4
+    archive_url: http://web.archive.org/web/20260126221401/https://link.springer.com/article/10.1007/s11219-016-9344-4?
+    year: '2018'
+    authors: Multiple authors
+    venue: Academic publication
+    notes: Large-scale study of API evolution responses.
+  - title: Software engineering with reusable components
+    url: https://link.springer.com/book/10.1007/978-3-662-03345-6
+    archive_url: http://web.archive.org/web/20210308095916/http://link.springer.com/book/10.1007/978-3-662-03345-6
+    year: '1997'
+    authors: Multiple authors
+    venue: Academic publication
+    notes: Early work on component reuse in software engineering.
+  - title: A method to generate traverse paths for eliciting missing requirements
+    url: https://dl.acm.org/doi/10.1145/3290688.3290697
+    year: '2019'
+    authors: Multiple authors
+    venue: ACM publication
+    notes: Method for identifying missing requirements through path analysis.
+    ids:
+      doi: 10.1145/3290688.3290697
+  - title: Mining component repositories for installability issues
+    url: https://ieeexplore.ieee.org/document/7180064/
+    archive_url: http://web.archive.org/web/20240603092648/https://ieeexplore.ieee.org/document/7180064/
+    year: '2015'
+    authors: Roberto Di Cosmo et al.
+    venue: MSR
+    notes: Mining approach for finding installability problems.
+  - title: 'Measuring the Health of Open Source Software Ecosystems: Beyond the Scope of Project Health'
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0950584914000871
+    archive_url: http://web.archive.org/web/20240418100155/https://www.sciencedirect.com/science/article/abs/pii/S0950584914000871
+    year: '2014'
+    authors: Slinger Jansen
+    venue: Information and Software Technology
+    notes: First model for measuring open source ecosystem health, evaluating productivity, robustness, and niche creation. Distinguishes ecosystem health from project health, recognizing that ecosystem health involves multiple interrelated projects, contributors, and end-users.
+  - title: Software Ecosystems Governance - A Systematic Literature Review and Research Agenda
+    url: https://www.scitepress.org/Papers/2017/62694/
+    archive_url: http://web.archive.org/web/20260126221546/https://www.scitepress.org/Papers/2017/62694/
+    year: '2017'
+    authors: Carina Alves, Joyce Oliveira, Slinger Jansen
+    venue: ICEIS
+    notes: Systematic literature review examining how software ecosystems should be managed and controlled. Analyzed 63 studies and classified governance mechanisms into value creation, coordination of players, and organizational openness and control.
+  - title: 'Giving Back: Contributions Congruent to Library Dependency Changes in a Software Ecosystem'
+    url: https://arxiv.org/abs/2205.13231
+    archive_url: http://web.archive.org/web/20260126221615/https://arxiv.org/abs/2205.13231
+    year: '2022'
+    authors: Supatsara Wattanakriengkrai, Dong Wang, Raula Gaikovina Kula, Christoph Treude, Patanamon Thongtanunam, Takashi Ishio, Kenichi Matsumoto
+    venue: arXiv preprint
+    notes: Empirical study of how developers contribute to open-source libraries in relation to dependency changes within npm. Analyzed over 5.3 million commits across 107,242 packages to measure dependency-contribution congruence. Found a statistically significant relationship between such contributions and whether packages become dormant.
+    ids:
+      arxiv: '2205.13231'
+  - title: An empirical study of software ecosystem related tweets by npm maintainers
+    url: https://peerj.com/articles/cs-1669/
+    archive_url: http://web.archive.org/web/20250501074733/https://peerj.com/articles/cs-1669/
+    year: '2023'
+    authors: Syful Islam, Yusuf Sulistyo Nugroho, et al.
+    venue: PeerJ Computer Science
+    notes: Analyzed approximately 1,176 tweets from npm package maintainers to categorize discussion topics, communication styles, and emotional tone. Found package management issues dominate discussions and maintainers express predominantly neutral sentiment about technical matters.
+- id: llms-and-package-hallucinations-slopsquatting
+  title: LLMs and Package Hallucinations (Slopsquatting)
+  description: Recent research on how large language models hallucinate non-existent packages, creating new supply chain attack vectors.
+  papers:
+  - title: We Have a Package for You! An Analysis of Package Hallucinations by Code Generating LLMs
+    url: https://arxiv.org/abs/2406.10279
+    archive_url: http://web.archive.org/web/20251209183818/https://arxiv.org/abs/2406.10279
+    year: '2024'
+    authors: Multiple authors from University of Texas at San Antonio, Virginia Tech, University of Oklahoma
+    venue: arXiv preprint | [GitHub](https://github.com/Spracks/PackageHallucination)
+    notes: Analysis using 16 popular LLMs and 2 prompt datasets for Python and JavaScript code generation, producing 576,000 code samples. Found 440,445 (19.7%) were hallucinations, including 205,474 unique non-existent packages. Average hallucination rate of 5.2% for commercial models and 21.7% for open-source models. Demonstrates how attackers can exploit LLM hallucinations by registering fake packages.
+    ids:
+      arxiv: '2406.10279'
+  - title: 'Importing Phantoms: Measuring LLM Package Hallucination Vulnerabilities'
+    url: https://arxiv.org/abs/2501.19012
+    archive_url: http://web.archive.org/web/20260126221647/https://arxiv.org/abs/2501.19012
+    year: '2025'
+    authors: Arjun Krishna, Erick Galinkin, Leon Derczynski, Jeffrey Martin
+    venue: arXiv preprint
+    notes: Examines package hallucinations across multiple programming languages (Python, JavaScript, Rust) for different tasks across different LLMs. Found package hallucination rate depends on model choice, programming language, model size, and task specificity. Discovered inverse correlation between package hallucination rate and HumanEval coding benchmark. Shows coding models are not being optimized for secure code generation.
+    ids:
+      arxiv: '2501.19012'
+  - title: 'HFuzzer: Testing Large Language Models for Package Hallucinations via Phrase-based Fuzzing'
+    url: https://arxiv.org/abs/2509.23835
+    archive_url: http://web.archive.org/web/20251207144536/https://arxiv.org/abs/2509.23835
+    year: '2025'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: First framework to introduce fuzzing into testing LLMs for package hallucinations. Adopts phrase-based fuzzing to guide models to generate diverse coding tasks. Triggers package hallucinations across all tested models. Identifies 2.60× more unique hallucinated packages compared to mutational fuzzing frameworks. Found 46 unique hallucinated packages when testing GPT-4o.
+    ids:
+      arxiv: '2509.23835'
+  - title: 'AI-Induced Supply-Chain Compromise: A Systematic Review of Package Hallucinations and Slopsquatting Attacks'
+    url: https://www.researchsquare.com/article/rs-8007192/v1
+    year: '2025'
+    authors: Multiple authors
+    venue: Research Square preprint
+    notes: Systematic review of package hallucinations and slopsquatting attacks where malicious actors exploit LLMs' tendency to generate non-existent package names. Coined term "slopsquatting" by security researcher Seth Larson. Analyzes how adversaries can register hallucinated package names in public registries with malware payloads.
+  - title: An Empirical Study of Vulnerable Package Dependencies in LLM Repositories
+    url: https://arxiv.org/abs/2508.21417
+    archive_url: http://web.archive.org/web/20251215012832/https://arxiv.org/abs/2508.21417
+    year: '2025'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: Empirical analysis of 52 open-source LLMs examining third-party dependencies and vulnerabilities. Found half of vulnerabilities in LLM ecosystem remain undisclosed for more than 56.2 months, and 75.8% of LLMs include vulnerable dependencies. GitHub's Top 100 AI projects reference on average 208 direct and transitive dependencies, with 15% containing 10+ known vulnerabilities.
+    ids:
+      arxiv: '2508.21417'
+  - title: 'The Hidden Risks of LLM-Generated Web Application Code: A Security-Centric Evaluation'
+    url: https://arxiv.org/abs/2504.20612
+    archive_url: http://web.archive.org/web/20251216144526/https://arxiv.org/abs/2504.20612
+    year: '2025'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: Security evaluation of LLM-generated web application code finding over 40% of AI-generated solutions contain security flaws. Common issues include missing input sanitization, authentication mechanism vulnerabilities, and dependency overuse that expands attack surface.
+    ids:
+      arxiv: '2504.20612'
+  - title: 'Large Language Models and Code Security: A Systematic Literature Review'
+    url: https://arxiv.org/abs/2412.15004
+    archive_url: http://web.archive.org/web/20251205123241/https://arxiv.org/abs/2412.15004
+    year: '2024'
+    authors: Multiple authors
+    venue: arXiv preprint
+    notes: Systematic literature review examining LLMs in code security, covering vulnerabilities to remediation approaches. Analyzes common security vulnerabilities in AI-generated code across multiple languages and models.
+    ids:
+      arxiv: '2412.15004'
+  - title: 'The Range Shrinks, the Threat Remains: Re-evaluating LLM Package Hallucinations on the 2026 Frontier-Model Cohort'
+    url: https://arxiv.org/abs/2605.17062
+    year: '2026'
+    authors: Aleksandr Churilov
+    venue: arXiv preprint
+    notes: Replicates Spracklen et al. (USENIX Security '25) on five frontier code models released between October 2025 and March 2026, including Claude Sonnet 4.6, Claude Haiku 4.5, and GPT-5.4-mini. Finds the commercial-vs-open hallucination gap has narrowed substantially but the absolute slopsquatting attack surface remains non-trivial.
+    ids:
+      arxiv: '2605.17062'
+      doi: 10.48550/arxiv.2605.17062
+  - title: 'PackMonitor: Enabling Zero Package Hallucinations Through Decoding-Time Monitoring'
+    url: https://arxiv.org/abs/2602.20717
+    year: '2026'
+    authors: Xiting Liu, Yuetong Liu, Yitong Zhang, Jia Li, Shi-Min Hu
+    venue: arXiv preprint
+    notes: Intercepts package-name generation at decoding time and checks each candidate against the live registry before letting the model commit to it. Reports a zero-hallucination rate on the studied benchmark by treating package name choice as a constrained-decoding problem rather than a post-hoc detection one.
+    ids:
+      arxiv: '2602.20717'
+      doi: 10.48550/arxiv.2602.20717
+  - title: 'Correct Code, Vulnerable Dependencies: A Large Scale Measurement Study of LLM-Specified Library Versions'
+    url: https://arxiv.org/abs/2605.06279
+    year: '2026'
+    authors: Chengjie Wang, Jingzheng Wu, Xiang Ling, Tianyue Luo, Chen Zhao
+    venue: arXiv preprint
+    notes: First measurement study of the version identifiers LLMs write into import statements. Evaluates ten models against PinTrace, a benchmark of 1,000 Stack Overflow snippets, and shows that even when the code is correct the pinned version is often vulnerable or incompatible with the runtime.
+    ids:
+      arxiv: '2605.06279'
+      doi: 10.48550/arxiv.2605.06279

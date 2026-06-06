@@ -31,6 +31,19 @@ namespace :twipm do
   end
 end
 
+namespace :papers do
+  desc "Query OpenAlex/arXiv/DBLP for new papers and write _papers/candidates.json"
+  task :collect, [:since] do |t, args|
+    since = args[:since] || "2025-11-01"
+    sh "ruby", "_papers/collect.rb", "--since", since
+  end
+
+  desc "Render Liquid template against the YAML data and diff against the original markdown body"
+  task :verify do
+    sh "bundle", "exec", "ruby", "_papers/verify_render.rb"
+  end
+end
+
 desc "Add archive.org links to papers post"
 task :archive_papers, [:mode] do |t, args|
   require 'net/http'

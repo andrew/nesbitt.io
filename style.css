@@ -664,6 +664,21 @@ section li p{
   border-color: var(--color-accent);
 }
 
+#papers-count{
+  font-size: 14px;
+  color: var(--color-secondary);
+  margin-bottom: 20px;
+}
+
+#papers-count:empty{
+  margin: 0;
+}
+
+.papers-section{
+  border-top: none;
+  padding-top: 0;
+}
+
 #search-tags{
   margin-bottom: 20px;
 }
