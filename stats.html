@@ -6,41 +6,75 @@ title: Stats
 <div class="post-content">
   <h2>Site Statistics</h2>
 
-  <p>{{ site.data.stats.total_posts }} posts, {{ site.data.stats.total_words | number_with_commas }} words, ~{{ site.data.stats.reading_minutes }} minutes reading time.</p>
+  {% assign max_day = "" %}
+  {% assign max_day_count = 0 %}
+  {% for day in site.data.stats.posts_by_day_of_week %}
+    {% if day[1] > max_day_count %}{% assign max_day_count = day[1] %}{% assign max_day = day[0] %}{% endif %}
+  {% endfor %}
 
-  <p>Average {{ site.data.stats.average_words | number_with_commas }} words per post. Longest: <a href="{{ site.data.stats.longest_post.url }}">{{ site.data.stats.longest_post.title }}</a> ({{ site.data.stats.longest_post.words | number_with_commas }} words).</p>
+  <div class="factoids">
+    <span class="factoid"><strong>{{ site.data.stats.total_posts }}</strong> Posts</span>
+    <span class="factoid"><strong>{{ site.data.stats.total_words | number_with_commas }}</strong> Words</span>
+    <span class="factoid">~<strong>{{ site.data.stats.reading_minutes | number_with_commas }}</strong> Min read</span>
+    <span class="factoid"><strong>{{ site.data.stats.average_words | number_with_commas }}</strong> Avg words/post</span>
+    <span class="factoid"><strong>{{ site.data.stats.posts_per_month }}</strong> Posts/month</span>
+    <span class="factoid"><strong>{{ site.data.stats.years_active }}</strong> Years active</span>
+    <span class="factoid"><strong>{{ site.data.stats.tags | size }}</strong> Unique tags</span>
+    <span class="factoid">Busiest day <strong>{{ max_day | capitalize }}</strong> ({{ max_day_count }} posts)</span>
+    <span class="factoid">First post <strong>{{ site.data.stats.first_post.date }}</strong></span>
+    <span class="factoid">Latest post <strong>{{ site.data.stats.last_post.date }}</strong></span>
+    <a class="factoid" href="{{ site.data.stats.longest_post.url }}">Longest: <strong>{{ site.data.stats.longest_post.title }}</strong> ({{ site.data.stats.longest_post.words | number_with_commas }} words)</a>
+    <a class="factoid" href="{{ site.data.stats.shortest_post.url }}">Shortest: <strong>{{ site.data.stats.shortest_post.title }}</strong> ({{ site.data.stats.shortest_post.words | number_with_commas }} words)</a>
+    <span class="factoid">Generated <strong>{{ site.data.stats.generated_at | date: "%b %-d, %Y" }}</strong></span>
+  </div>
 
-  <p>First post: {{ site.data.stats.first_post.date }} | Last post: {{ site.data.stats.last_post.date }} | {{ site.data.stats.years_active }} years active.</p>
+  <h2>Posts by Month</h2>
 
-  <h2>Posts by Year</h2>
+  {% assign curr_year = site.time | date: "%Y" | plus: 0 %}
+  {% assign curr_month = site.time | date: "%-m" | plus: 0 %}
 
-  <table>
-    <tr>
-      <th>Year</th>
-      <th>Posts</th>
-    </tr>
-    {% for year in site.data.stats.posts_by_year %}
-    <tr>
-      <td>{{ year.year }}</td>
-      <td>{{ year.count }}</td>
-    </tr>
+  {% assign month_max = 0 %}
+  {% for i in (0..8) %}
+    {% assign m = curr_month | minus: i %}
+    {% assign y = curr_year %}
+    {% if m < 1 %}{% assign m = m | plus: 12 %}{% assign y = y | minus: 1 %}{% endif %}
+    {% if m < 10 %}{% assign mstr = "0" | append: m %}{% else %}{% capture mstr %}{{ m }}{% endcapture %}{% endif %}
+    {% assign key = y | append: "-" | append: mstr %}
+    {% assign match = site.data.stats.posts_by_month | where: "month", key | first %}
+    {% if match and match.count > month_max %}{% assign month_max = match.count %}{% endif %}
+  {% endfor %}
+  {% if month_max == 0 %}{% assign month_max = 1 %}{% endif %}
+
+  <div class="stat-month-chart">
+    {% for i in (0..8) reversed %}
+      {% assign m = curr_month | minus: i %}
+      {% assign y = curr_year %}
+      {% if m < 1 %}{% assign m = m | plus: 12 %}{% assign y = y | minus: 1 %}{% endif %}
+      {% if m < 10 %}{% assign mstr = "0" | append: m %}{% else %}{% capture mstr %}{{ m }}{% endcapture %}{% endif %}
+      {% assign key = y | append: "-" | append: mstr %}
+      {% assign match = site.data.stats.posts_by_month | where: "month", key | first %}
+      {% if match %}{% assign count = match.count %}{% else %}{% assign count = 0 %}{% endif %}
+      {% assign h = count | times: 180 | divided_by: month_max %}
+      {% assign month_date = key | append: "-01" %}
+      <div class="stat-month-col" title="{{ month_date | date: '%B %Y' }}: {{ count }} posts">
+        <div class="stat-month-count">{{ count }}</div>
+        {% assign shade = 8 | minus: i %}
+        {% if count > 0 %}<div class="stat-month-bar" style="height: {{ h }}px; --shade: {{ shade }}"></div>{% endif %}
+        <div class="stat-month-label">{{ month_date | date: "%b" }}<br><span class="stat-month-year">&rsquo;{{ month_date | date: "%y" }}</span></div>
+      </div>
     {% endfor %}
-  </table>
+  </div>
 
   <h2>Top Tags</h2>
 
-  <table>
-    <tr>
-      <th>Tag</th>
-      <th>Posts</th>
-    </tr>
-    {% for tag in site.data.stats.tags limit:10 %}
-    <tr>
-      <td>{{ tag.name }}</td>
-      <td>{{ tag.count }}</td>
-    </tr>
+  {% assign top_tags = site.data.stats.tags | slice: 0, 20 %}
+  {% assign tags_by_count = top_tags | sort: "count" %}
+  {% assign tag_max = tags_by_count | last %}
+  <div class="tag-cloud">
+    {% for tag in top_tags %}
+    {% assign weight = tag.count | times: 100 | divided_by: tag_max.count %}
+    <a class="tag-cloud-item" style="--weight: {{ weight }}" href="/search/#{{ tag.name | url_encode }}">{{ tag.name }}<span class="tag-cloud-count">{{ tag.count }}</span></a>
     {% endfor %}
-  </table>
+  </div>
 
-  <p class="post-meta">Generated {{ site.data.stats.generated_at | date: "%b %-d, %Y" }}</p>
 </div>
