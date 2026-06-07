@@ -851,6 +851,34 @@ h5[id]:hover a.anchor-link{
   opacity: 1;
 }
 
+/* Home */
+h1.home-title{
+  font-size: clamp(1.5rem, 5vw, 2.125rem) !important;
+  font-weight: 600;
+  margin: 12px 0 16px 0;
+}
+
+.home-chips{
+  margin: 20px 0 28px 0;
+}
+
+.home-chip{
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 0 6px 6px 0;
+  font-size: 14px;
+  color: var(--color-secondary) !important;
+  background: var(--color-code-bg);
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.home-chip:hover{
+  color: var(--color-accent) !important;
+  border-color: var(--color-accent);
+  text-decoration: none;
+}
+
 /* Feeds page */
 .feeds-intro{
   color: var(--color-secondary);
