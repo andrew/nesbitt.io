@@ -36,7 +36,7 @@ warn "Fetching #{feeds.size} feeds, #{options[:concurrency]} at a time, last #{o
 
 results, ok = FeedFetch.fetch_feeds(feeds, concurrency: options[:concurrency], timeout: options[:timeout])
 results.reject! { |i| i[:published] < cutoff }
-results.sort_by! { |i| i[:published] }.reverse!
+results.sort_by! { |i| [-i[:published].to_i, i[:source].to_s, i[:title].to_s, i[:url].to_s] }
 results = results.first(options[:max_items])
 
 payload = {
