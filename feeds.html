@@ -1,0 +1,39 @@
+---
+layout: page
+title: Package manager feeds
+permalink: /feeds/
+description: A combined feed of releases and blog posts from package manager projects, updated hourly.
+---
+
+<p class="feeds-intro">
+  Combined feed from <a href="https://github.com/ecosyste-ms/package-managers-opml">package-managers-opml</a>.
+  {{ site.data.feeds.item_count }} items from {{ site.data.feeds.feed_count }} feeds,
+  generated {{ site.data.feeds.generated }}.
+</p>
+
+<div id="feed-filter">
+  <button type="button" class="feed-chip is-active" data-category="all">All</button>
+  {% for category in site.data.feeds.categories %}
+    <button type="button" class="feed-chip" data-category="{{ category | slugify }}">{{ category }}</button>
+  {% endfor %}
+</div>
+
+<div id="feed-list">
+  {% assign groups = site.data.feeds.items | group_by_exp: "item", "item.published | date: '%Y-%m-%d'" %}
+  {% for group in groups %}
+    <h2 class="feed-date" data-date="{{ group.name }}">{{ group.name | date: "%a %-d %b %Y" }}</h2>
+    <ul class="feed-day">
+      {% for item in group.items %}
+        <li class="feed-item" data-category="{{ item.category | slugify }}">
+          <div class="feed-title-row">
+            <span class="feed-source">{{ item.source }}</span>
+            <a class="feed-title" href="{{ item.url }}" rel="noopener">{{ item.title }}</a>
+          </div>
+          {% if item.preview %}<p class="feed-preview">{{ item.preview | truncate: 500, "…" | escape }}</p>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
+
+<script src="/feeds.js"></script>

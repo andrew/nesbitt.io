@@ -851,3 +851,72 @@ h5[id]:hover a.anchor-link{
   opacity: 1;
 }
 
+/* Feeds page */
+.feeds-intro{
+  color: var(--color-secondary);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#feed-filter{
+  margin-bottom: 24px;
+}
+
+.feed-chip{
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 0 6px 6px 0;
+  font-size: 14px;
+  color: var(--color-secondary);
+  background: var(--color-code-bg);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.feed-chip.is-active{
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.feed-date{
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 28px 0 8px 0;
+}
+
+.post-content .feed-day{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-content .feed-item{
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.12);
+}
+
+.post-content .feed-item:last-child{
+  border-bottom: none;
+}
+
+.feed-title-row .feed-source{
+  color: var(--color-secondary);
+  margin-right: 8px;
+}
+
+.feed-title{
+  font-weight: 500;
+}
+
+.feed-preview{
+  margin: 6px 0 0 0;
+  font-size: 14px;
+  color: var(--color-secondary);
+  line-height: 1.45;
+}
+

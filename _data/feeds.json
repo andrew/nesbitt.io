@@ -1,0 +1,1801 @@
+{
+  "generated": "2026-06-07T12:56:15Z",
+  "cutoff": "2026-05-08T12:56:10Z",
+  "feed_count": 79,
+  "item_count": 222,
+  "categories": [
+    ".NET",
+    "C/C++",
+    "Containers",
+    "Elixir",
+    "Go",
+    "Infrastructure",
+    "JavaScript",
+    "Maven",
+    "Multi-language",
+    "PHP",
+    "Python",
+    "Registries",
+    "Ruby",
+    "Rust",
+    "System"
+  ],
+  "items": [
+    {
+      "title": "43.214.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.4",
+      "published": "2026-06-07T11:54:09Z",
+      "preview": "43.214.4 (2026-06-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.6 (main) ( #43853 ) ( 52d88af ) Documentation schema: link config options to docs ( #43613 ) ( def98d0 ) Miscellaneous Chores deps: update dependency lint-staged to v17.0.7 (main) ( #43852 ) ( 8a58267 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.10.24 (main) ( #43849 ) ( 76a45a1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.214.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.3",
+      "published": "2026-06-07T05:47:04Z",
+      "preview": "43.214.3 (2026-06-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.5 (main) ( #43851 ) ( 5d451e9 ) Miscellaneous Chores deps: update codecov/codecov-action action to v6.0.2 (main) ( #43848 ) ( 5df20fd ) deps: update containerbase/internal-tools action to v4.6.40 (main) ( #43846 ) ( afcc22e ) deps: update dependency lint-staged to v17.0.6 (main) ( #43843 ) ( 9ccca70 ) deps: update linters to v1.67.0 (main) ( #42416 ) ( 9245b57 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-06-07T02:33:38Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-180.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-180.0.dev",
+      "published": "2026-06-07T00:51:56Z",
+      "preview": "SDK 3.13.0-180.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2026.6.1: aqua multi-registry, SOPS TOML, and a GitHub backend tune-up",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.1",
+      "published": "2026-06-07T00:31:53Z",
+      "preview": "Added (aqua) Support multiple custom registries via aqua.registries ; deprecates single-string aqua.registry_url ( #10179 by @risu729 ). (env) Decrypt SOPS-encrypted TOML env files ( .env.toml ) through rops ( #10201 by @risu729 ). (hooks) Add run_windows for Windows-specific inline hook commands ( #10202 by @risu729 ). (task) Render task_config.includes with the Tera config context and expand ~/ for local includes ( #10225 by @risu729 ). (task) Support standalone .toml task files via git:: directory includes ( #10219 by @davidolrik ). (aqua) Extract 7z archives, including auto-detection of .7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.6.1",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.1",
+      "published": "2026-06-06T23:54:34Z",
+      "preview": "Release aqua-registry 2026.6.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.6.1",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.1",
+      "published": "2026-06-06T23:54:18Z",
+      "preview": "Release vfox 2026.6.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "7.9.0.17",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.17",
+      "published": "2026-06-06T12:26:42Z",
+      "preview": "Insert 7.9.0.17 into main on 06/06/2026 12:26:41",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "43.214.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.2",
+      "published": "2026-06-06T09:19:23Z",
+      "preview": "43.214.2 (2026-06-06) Bug Fixes config/validation: validate children of arrays in global config ( #43836 ) ( 460fa82 ) types: allow global config to be set in repositories ( #43837 ) ( 0ba948c ) Tests config/validation: remove platformConfig test ( #43835 ) ( d0deb90 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "SDK-3.13.0-179.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-179.0.dev",
+      "published": "2026-06-06T00:48:41Z",
+      "preview": "SDK 3.13.0-179.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-178.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-178.0.dev",
+      "published": "2026-06-06T00:48:39Z",
+      "preview": "SDK 3.13.0-178.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-177.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-177.0.dev",
+      "published": "2026-06-06T00:48:36Z",
+      "preview": "SDK 3.13.0-177.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.214.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.1",
+      "published": "2026-06-05T23:46:57Z",
+      "preview": "43.214.1 (2026-06-05) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.5.0 (main) ( #43842 ) ( 37d5ec5 ) Build System deps: update dependency protobufjs to v8.5.0 (main) ( #43841 ) ( 3dabd1f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "7.8.0.59",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.8.0.59",
+      "published": "2026-06-05T22:28:21Z",
+      "preview": "Insert 7.8.0.59 into rel/insiders on 06/05/2026 22:28:21",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "43.214.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.0",
+      "published": "2026-06-05T20:39:50Z",
+      "preview": "43.214.0 (2026-06-05) Features manager/nuget: default rangeStrategy to bump ( #43820 ) ( 4f7eed4 ) Documentation manger/github-actions: reword \"community actions\" section ( #43829 ) ( 4bf6bd9 ) Tests workers/global: fix typo ( #43838 ) ( 8c6a8d8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.213.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.213.3",
+      "published": "2026-06-05T16:03:33Z",
+      "preview": "43.213.3 (2026-06-05) Bug Fixes conda/pypi: allow nullable strings ( #43834 ) ( 5835388 ) Tests config/validation: validate all warnings / errors ( #43832 ) ( 6e41173 ) datasource/pypi: cover null and missing home_page ( #43828 ) ( c3998a3 ), closes #43814 Continuous Integration don't cancel \"stale\" PR workflows ( #43830 ) ( 15e719b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "7.9.0.15",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.15",
+      "published": "2026-06-05T12:25:13Z",
+      "preview": "Insert 7.9.0.15 into main on 06/05/2026 12:25:12",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "43.213.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.213.2",
+      "published": "2026-06-05T11:53:17Z",
+      "preview": "43.213.2 (2026-06-05) Bug Fixes datasource/pypi: allow null home_page in PyPI JSON response ( #43814 ) ( 1c3a16c ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.4 (main) ( #43824 ) ( 059d4fe ) Tests config/validation: explicitly check error/warning messages ( #43799 ) ( b0d84ad ) config: ensure no default options require migrating ( #43806 ) ( 7a87094 ), closes #43804",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.213.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.213.1",
+      "published": "2026-06-05T09:35:51Z",
+      "preview": "43.213.1 (2026-06-05) Bug Fixes config: remove deprecated rebaseStalePrs from lockFileMaintenance default ( #43804 ) ( c91f9f3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "2.8.0",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.8.0",
+      "published": "2026-06-05T08:55:06Z",
+      "preview": "You can update micromamba to this version using: micromamba self-update Bug fixes: [libmamba] fix: Restore cross-channel expansion by @jjerphan in #4304 [libmamba, micromamba] JSON output api rewritten to avoid JSON flattening by @Klaim in #4284",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-03-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-03-a",
+      "published": "2026-06-05T08:54:38Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-03-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.213.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.213.0",
+      "published": "2026-06-05T08:43:16Z",
+      "preview": "43.213.0 (2026-06-05) Features github-actions: add community actions ( #43821 ) ( 27a3f58 ) Documentation update pip-compile project URL ( #43816 ) ( e84d2db ) Miscellaneous Chores deps: update jdx/mise-action action to v4.1.0 (main) ( #43813 ) ( 95c42c8 ) Tests config/validation: remove untested bumpVersions code ( #39710 ) ( 981df6a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 11.5.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.2",
+      "published": "2026-06-05T06:50:59Z",
+      "preview": "Patch Changes Peer dependency resolution now reuses the peer contexts already recorded in the lockfile when those providers are still present in the dependency graph and still satisfy the peer ranges. This avoids unnecessary peer-context rewrites during lockfile regeneration. Current manifest choices remain authoritative: a newly added, explicitly updated, or aliased direct provider, a changed nested provider, or a locked version that no longer satisfies the range still takes precedence. The lockfile verifier now checks that a registry entry pinning an explicit tarball URL points at the artifa",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "SDK-3.13.0-176.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-176.0.dev",
+      "published": "2026-06-05T00:51:13Z",
+      "preview": "SDK 3.13.0-176.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-175.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-175.0.dev",
+      "published": "2026-06-05T00:51:10Z",
+      "preview": "SDK 3.13.0-175.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-174.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-174.0.dev",
+      "published": "2026-06-05T00:51:08Z",
+      "preview": "SDK 3.13.0-174.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-173.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-173.0.dev",
+      "published": "2026-06-05T00:51:06Z",
+      "preview": "SDK 3.13.0-173.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-172.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-172.0.dev",
+      "published": "2026-06-05T00:51:03Z",
+      "preview": "SDK 3.13.0-172.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-171.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-171.0.dev",
+      "published": "2026-06-05T00:51:01Z",
+      "preview": "SDK 3.13.0-171.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Windows Package Manager 1.29.250",
+      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.250",
+      "published": "2026-06-05T00:30:50Z",
+      "preview": "This is a release candidate of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
+      "source": "winget releases",
+      "category": "System"
+    },
+    {
+      "title": "43.212.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.212.4",
+      "published": "2026-06-04T17:39:51Z",
+      "preview": "43.212.4 (2026-06-04) Bug Fixes config: clarify that bumpVersions.bumpType supports templating ( #43805 ) ( 83bba0e ) config: mark relevant options with patternMatch ( #43798 ) ( 309af5a ), closes #40805",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "2.7.0",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.7.0",
+      "published": "2026-06-04T14:27:52Z",
+      "preview": "You can update micromamba to this version using: micromamba self-update Bug fixes: [libmamba] fix: Harden noarch:python entry point linking by @jjerphan in #4282 [libmamba] fix: Guard Root Packages' Expansion by @jjerphan in #4283 [micromamba, libmamba] fix: Adapt root packages expansion by @jjerphan in #4298 [micromamba, libmamba] fix: Populate python_site_packages_path independently from host by @jjerphan in #4288 [libmamba] Fallback to flat cache dir if missing hierarchical by @Hind-M in #4290 [micromamba, libmamba] fix: Adapt noarch unlink path normalization for conda interoperability by @",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "7.9.0.11",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.11",
+      "published": "2026-06-04T12:27:08Z",
+      "preview": "Insert 7.9.0.11 into main on 06/04/2026 12:27:07",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "Enforce a safe Composer version across your organization",
+      "url": "https://blog.packagist.com/enforce-a-safe-composer-version-across-your-organization/",
+      "published": "2026-06-04T12:17:45Z",
+      "preview": "This is the next post in our supply chain security series, following the supply chain security update , the Composer 2.10 release , closing Composer&apos;s download fallback paths , and blocking malware downloads for every Composer version . While the protections we have shipped try their best to cover older Composer",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-02-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-02-a",
+      "published": "2026-06-04T08:52:24Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-02-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "2.10.1",
+      "url": "https://github.com/composer/composer/releases/tag/2.10.1",
+      "published": "2026-06-04T08:29:43Z",
+      "preview": "Security: Fixed shell escaping when opening an editor ( #12903 ) Security: Verify backup phar signature before restoring it when using self-update --rollback ( #12918 ) Fixed source-fallback also disabling fallbacks to dist install when source is the preferred install method ( #12888 ) Fixed source -> dist package updates wiping the .git dir without checking for local changes first ( #12912 ) Fixed GitHub token prompt happening multiple times on parallel auth failures ( #12913 ) Fixed warnings from Composer repositories being printed twice in some cases ( #12907 ) Full Changelog : 2.10.0...2.1",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "7.8.0.58",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.8.0.58",
+      "published": "2026-06-04T07:41:43Z",
+      "preview": "Insert 7.8.0.58 into rel/insiders on 06/04/2026 07:41:43",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "1.14.0",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.14.0",
+      "published": "2026-06-04T05:25:29Z",
+      "preview": "What's Changed ci: declare workflow-level contents: read on 3 remaining workflows by @arpitjain099 in #1822 Fix inject option parsing with --force before dependencies by @bubaizhanshen in #1820 docs: fix self-managed ensurepath command by @EddieBSN in #1823 chore(ci): restrict OIDC token to publish job by @facutuesca in #1826 Add --no-path-check to skip the on-PATH check in pipx run by @findepi in #1825 Add zizmor workflow and address findings by @facutuesca in #1827 Fix release push auth with persist-credentials: false by @gaborbernat in #1828 New Contributors @arpitjain099 made their first c",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "0.11.19",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.19",
+      "published": "2026-06-03T22:38:57Z",
+      "preview": "Release Notes Released on 2026-06-03. Python Add CPython 3.15.0b2 ( #19531 ) Enhancements Always compute SHA256 for remote distributions ( #19662 ) Add PyEmscripten platform (PEP 783) ( #19629 ) Add Pyodide 2025 target triple ( #19653 ) Preview features Make preview features for commands have names that aren't ambiguous with the command ( #19645 ) Respect --isolated in uv check ( #19666 ) Bug fixes Continue tool uninstall after dangling receipts ( #19623 ) Skip Unix-specific installation steps when cross-installing Windows Python distributions ( #19424 ) Install uv 0.11.19 Install prebuilt bin",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "v29.5.3",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.5.3",
+      "published": "2026-06-03T18:50:17Z",
+      "preview": "29.5.3 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.5.3 milestone moby/moby, 29.5.3 milestone Bug fixes and enhancements Reduce docker system df errors when images are pruned at the same time with the containerd image store. moby/moby#52672 Packaging updates Update containerd (static binaries only) to v2.2.4 . moby/moby#52683 Update Go runtime to 1.26.4 . moby/moby#52753 , docker/cli#7025 Update RootlessKit to v3.0.1 . moby/moby#52710 Rootless Fix AWS IMDS access with gvisor-tap-vsock and UDP port forwarding for non-loopb",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2026.6.0: Corepack-managed npm and aqua Windows parity",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.0",
+      "published": "2026-06-03T18:02:06Z",
+      "preview": "A focused release that wires npm into Corepack when requested, brings aqua's Windows extension handling in line with upstream, and fixes task include ordering plus a Git Bash cygdrive regression. Added (npm) Ensure npm itself is managed by Corepack when node.corepack=true and node.npm_shim=false , so the Corepack-managed npm shim is enabled alongside yarn/pnpm ( #10196 by @roele ). (cli) New mise sponsors subcommand and a sponsor block on the docs site that lists sponsors fetched from en.dev/sponsors.json ( #10182 by @jdx ). Fixed (aqua) Mirror aqua's Windows extension semantics end-to-end ( #",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v2.0.0-beta.16",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.16",
+      "published": "2026-06-03T17:58:53Z",
+      "preview": "v2.0.0-beta.16",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "aqua-registry-v2026.6.0",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.0",
+      "published": "2026-06-03T17:23:18Z",
+      "preview": "Release aqua-registry 2026.6.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.6.0",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.0",
+      "published": "2026-06-03T17:23:02Z",
+      "preview": "Release vfox 2026.6.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "0.70.1 - 2026-06-03",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.70.1",
+      "published": "2026-06-03T13:43:42Z",
+      "preview": "Release Notes ✨ Highlights This release lays the foundation for repodata v3 support and adds a couple of important fixes: parallel pixi install now works reliably issues that came up with parallelized pixi global have been fixed Added Add --index option to specify PyPI index URL by @suleman1412 in #5575 Implement extras and flags support for pixi and pixi-build by @wolfv in #5998 Serialize concurrent environment installs and recover from interrupted ones by @baszalmstra in #6233 Changed Reinstall to avoid duplicate dist-info by @baszalmstra in #6257 Documentation Link to parselmouth mapping br",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v2.8.2",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.8.2",
+      "published": "2026-06-03T13:41:42Z",
+      "preview": "2.8.2 / 2026.06.03 feat(compile): improve --bundle dependency resolution and add --minify ( #34536 ) feat(compile): scope --bundle npm embed to packages actually reached ( #34532 ) feat(ext/crypto): add ChaCha20-Poly1305, SHAKE, cSHAKE, TurboSHAKE, SHA-3 HMAC ( #34417 ) feat(ext/crypto): add ML-DSA (FIPS 204) post-quantum signatures ( #34448 ) feat(ext/crypto): implement ML-KEM (FIPS 203) post-quantum KEM ( #34447 ) feat(ext/node): env/global proxy support for node:http and node:https ( #34257 ) feat(ext/node): support DENO_SERVE_ADDRESS override in node:http servers ( #34662 ) feat(jupyter): ",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "5.1.15",
+      "url": "https://github.com/Homebrew/brew/releases/tag/5.1.15",
+      "published": "2026-06-03T13:24:35Z",
+      "preview": "What's Changed tests: Use full constant names sometimes (for Sorbet rule 5001 compat) by @issyl0 in #22415 Sorbet now understands our custom mktmpdir helper method by @issyl0 in #22414 test_runner_formula: treat versioned macOS deps as macOS-only by @ivan-digital in #22420 Check bundle formula link status by @MikeMcQuaid in #22412 Improve cleanup ask output by @MikeMcQuaid in #22416 Fix zsh nested subcommand option completion by @ZhongRuoyu in #22422 Fix cask upgrade env conflict by @MikeMcQuaid in #22423 cask/upgrade: re-register application bundle before reopen by @bevanjkay in #22425 docs/G",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "7.9.0.10",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.10",
+      "published": "2026-06-03T12:25:20Z",
+      "preview": "Insert 7.9.0.10 into main on 06/03/2026 12:25:20",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-01-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-01-a",
+      "published": "2026-06-03T08:53:55Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-01-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "bundler-v4.0.13",
+      "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.13",
+      "published": "2026-06-03T03:01:31Z",
+      "preview": "Enhancements: Do not hard-code permissions for new gem directories during bundle install. Pull request #9557 by maxfelsher-cgi Clear gem specification cache after acquiring process lock. Pull request #9310 by ngan Show release date with bundle outdated. Pull request #9337 by hsbt Bug fixes: Apply cooldown to locally installed gem versions. Pull request #9582 by hsbt Security: Add cooldown to delay newly published gem. Pull request #9576 by hsbt",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.13",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.13",
+      "published": "2026-06-03T02:59:24Z",
+      "preview": "Enhancements: Prevent extraction from escaping destination_dir via pre-existing symlinks. Pull request #9493 by thesmartshadow Close stdin immediately when using popen2e. Pull request #9540 by rwstauner Fallback to copy symlinks on Windows. Pull request #9296 by larskanis Installs bundler 4.0.13 as a default gem.",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "4.0.13 Released",
+      "url": "https://blog.rubygems.org/2026/06/03/4.0.13-released.html",
+      "published": "2026-06-03T00:00:00Z",
+      "preview": "RubyGems 4.0.13 includes enhancements and Bundler 4.0.13 includes enhancements, bug fixes and security. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.13 RubyGems Release Notes Enhancements: Prevent extraction from escaping destination_dir via pre-existing symlinks. Pull request #9493 by thesmartshadow Close stdin immediately when using popen2e. Pull request #9540 by rwstauner Fallback to copy symlinks on Windows. Pull request #9296 by larskanis Installs bundler 4.0.1",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
+    },
+    {
+      "title": "Cool down before you install: give new gems a few days to be vetted",
+      "url": "https://blog.rubygems.org/2026/06/03/cooldown-let-new-gems-be-vetted.html",
+      "published": "2026-06-03T00:00:00Z",
+      "preview": "Most supply-chain attacks against RubyGems exploit a narrow window: an account is compromised, a malicious version ships, and any bundle install in the minutes that follow resolves straight to it. Bundler 4.0.13 introduces cooldown , a time-based filter that refuses to resolve to a version until it has been public for at least N days. Releases too new to have been scrutinized are passed over in favor of ones that have aged past the window. The feature was designed in the open , drawing on how other ecosystems approach the same problem . It is opt-in, and complements rather than replaces existi",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
+    },
+    {
+      "title": "[release-branch.go1.25] go1.25.11",
+      "url": "https://github.com/golang/go/releases/tag/go1.25.11",
+      "published": "2026-06-02T18:57:25Z",
+      "preview": "Change-Id: I294bec3e2b7893fc24bcaf8755de77e1afb31fd1 Reviewed-on: https://go-review.googlesource.com/c/go/+/786221 Reviewed-by: David Chase drchase@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Mark Freeman markfreeman@google.com",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "[release-branch.go1.26] go1.26.4",
+      "url": "https://github.com/golang/go/releases/tag/go1.26.4",
+      "published": "2026-06-02T18:57:22Z",
+      "preview": "Change-Id: I1c45ebded2d678b73081c6716a0fdd15a0b1824e Reviewed-on: https://go-review.googlesource.com/c/go/+/786201 TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Mark Freeman markfreeman@google.com Reviewed-by: David Chase drchase@google.com",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "Blocking malware downloads for every Composer version in Private Packagist",
+      "url": "https://blog.packagist.com/blocking-malware-downloads-for-every-composer-version-in-private-packagist/",
+      "published": "2026-06-02T15:08:10Z",
+      "preview": "This is the next post in our supply chain security series, following the supply chain security update , the Composer 2.10 release , and the recent post on closing Composer&apos;s download fallback paths . Composer 2.10&apos;s dependency policy framework is a substantial step forward for PHP supply",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "7.9.0.2",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.2",
+      "published": "2026-06-02T12:39:17Z",
+      "preview": "Insert 7.9.0.2 into main on 06/02/2026 12:39:17",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-31-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-31-a",
+      "published": "2026-06-02T08:53:01Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-31-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "pixi-build-cmake-v0.3.14",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.3.14",
+      "published": "2026-06-02T08:44:26Z",
+      "preview": "chore: bump backend versions ( #6254 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-mojo-v0.1.14",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.1.14",
+      "published": "2026-06-02T08:44:26Z",
+      "preview": "chore: bump backend versions ( #6254 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-python-v0.5.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.5.2",
+      "published": "2026-06-02T08:44:26Z",
+      "preview": "chore: bump backend versions ( #6254 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-ros-v0.5.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.5.0",
+      "published": "2026-06-02T08:44:26Z",
+      "preview": "chore: bump backend versions ( #6254 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rust-v0.4.11",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rust-v0.4.11",
+      "published": "2026-06-02T08:44:26Z",
+      "preview": "chore: bump backend versions ( #6254 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rattler-build-v0.3.13",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.3.13",
+      "published": "2026-06-02T08:44:26Z",
+      "preview": "chore: bump backend versions ( #6254 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pnpm 11.5.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.1",
+      "published": "2026-06-02T08:40:54Z",
+      "preview": "Patch Changes Improve pnpm audit performance by pruning non-vulnerable lockfile subtrees and stopping path enumeration once vulnerable findings reach the path cap. Avoid crashing when the workspace state cache is partially written or malformed. Set npm_config_user_agent for root lifecycle scripts during headless installs. Preserve the integrity field of a remote (non-registry) tarball dependency when its lockfile entry is rebuilt. Re-resolving such a dependency without re-fetching it (for example via pnpm update , or when another dependency changes) produced a resolution with no integrity — UR",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v4.16.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.16.0",
+      "published": "2026-06-02T07:11:32Z",
+      "preview": "What's Changed PnP: Include Node 22.22.3 in fstat workaround by @junjuny0227 in #7141 Implements yarn npm stage by @arcanis in #7147 fix: Stop using EBADF workaround for Node 24.16.0+ by @MJDSys in #7152 Bumps eslint-plugin-arca by @arcanis in #7163 Enables staged publishing by @arcanis in #7164 feat: Add editor SDK support for oxc (oxfmt & oxlint) by @slainless in #7078 docs: fix npmMinimalAgeGate default value. by @ryanfox1985 in #7125 New Contributors @junjuny0227 made their first contribution in #7141 @MJDSys made their first contribution in #7152 @slainless made their first contribution i",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/pnp/4.1.7",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fpnp%2F4.1.7",
+      "published": "2026-06-02T07:11:27Z",
+      "preview": "@yarnpkg/pnp",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-pnp/4.1.7",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnp%2F4.1.7",
+      "published": "2026-06-02T07:11:27Z",
+      "preview": "@yarnpkg/plugin-pnp",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/sdks/3.3.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fsdks%2F3.3.0",
+      "published": "2026-06-02T07:11:27Z",
+      "preview": "@yarnpkg/sdks",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/eslint-config/3.1.1",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Feslint-config%2F3.1.1",
+      "published": "2026-06-02T07:11:27Z",
+      "preview": "@yarnpkg/eslint-config",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-npm-cli/4.5.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-npm-cli%2F4.5.0",
+      "published": "2026-06-02T07:11:27Z",
+      "preview": "@yarnpkg/plugin-npm-cli",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2026-06-02",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-06-02",
+      "published": "2026-06-02T07:11:27Z",
+      "preview": "2026-06-02",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "Hatch v1.17.0",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.17.0",
+      "published": "2026-06-02T00:27:57Z",
+      "preview": "Changed: The hatch fmt command is now deprecated in favor of the new hatch check command group Migrate HTTP client from httpx to httpx2 Added: Add hatch check command group with subcommands for check code (linting), check fmt (formatting), and check types (type checking) Add hatch check types command for type checking using Pyrefly, with --summarize and --cover flags Add hatch env lock command to generate PEP 751 compliant lockfiles ( pylock.toml ) for environments Add hatch dep lock and hatch lock commands as shortcuts for locking the active environment Add hatch dep sync command for syncing ",
+      "source": "Hatch releases",
+      "category": "Python"
+    },
+    {
+      "title": "Hatchling v1.30.1",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.30.1",
+      "published": "2026-06-02T00:10:21Z",
+      "preview": "Fixed Default core metadata version kept at 2.4 until more tools support 2.5",
+      "source": "Hatch releases",
+      "category": "Python"
+    },
+    {
+      "title": "Launching the Rust Foundation Maintainers Fund",
+      "url": "https://blog.rust-lang.org/2026/06/02/launching-the-rust-foundation-maintainers-fund/",
+      "published": "2026-06-02T00:00:00Z",
+      "preview": "If you want to financially support the development of Rust, please consider donating to the Rust Foundation Maintainers Fund. A few months ago, the Rust Foundation announced the Rust Foundation Maintainers Fund (RFMF). Since then, the Rust Project has been closely cooperating with the Rust Foundation to determine how exactly this fund will be used to support Rust maintainers. This resulted in the acceptance of RFC #3931 , which established the Funding team and the Maintainer in Residence program. The primary goal of the Funding team is to ensure that maintainers who work on Rust and its toolch",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
+      "title": "26.5.2",
+      "url": "https://github.com/conda/conda/releases/tag/26.5.2",
+      "published": "2026-06-01T20:35:51Z",
+      "preview": "Bug fixes Validate Python entry point definitions before generating entry point scripts. ( #16168 ) Contributors @jaimergp Full Changelog : 26.5.1...26.5.2",
+      "source": "Conda releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "0.11.18",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.18",
+      "published": "2026-06-01T19:44:30Z",
+      "preview": "Release Notes Released on 2026-06-01. Performance Fix performance regression in unzip of local wheels ( #19637 ) Preview Add uv check to run ty from uv ( #19605 ) Bug fixes Update activation scripts with upstream fixes ( #19628 ) Other changes Bump MSRV to 1.94 ( #19600 ) Install uv 0.11.18 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.18/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/dow",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "2026-05-27 Release",
+      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-05-27",
+      "published": "2026-06-01T18:45:09Z",
+      "preview": "What's Changed Accept libcurl.so as a provider of curl. by @podsvirov in #1984 Add arm64 CMake presets, delete MSI extraction. by @BillyONeal in #1995 Ignore HTTPS_PROXY and NO_PROXY if env variable is set to empty value by @TobiasFunk in #1988 x-add-version: Regenerate baseline on --all. by @BillyONeal in #2003 integrate install: Remove VS2015 integration. by @BillyONeal in #2011 Fix empty vs. unset environment variables on Windows. by @BillyONeal in #1997 Fix self-cascade bug in feature test baseline checking by @BillyONeal in #2017 x-download: more output, error if no asset cache configured",
+      "source": "vcpkg releases",
+      "category": "C/C++"
+    },
+    {
+      "title": "2.7.0.alpha0",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.7.0.alpha0",
+      "published": "2026-06-01T16:18:17Z",
+      "preview": "You can update micromamba to this pre-release version using: micromamba self-update -c conda-forge/label/micromamba_prerelease \"micromamba==2.7.0.alpha0\" Bug fixes: [libmamba] fix: Harden noarch:python entry point linking by @jjerphan in #4282 [libmamba] fix: Guard Root Packages' Expansion by @jjerphan in #4283 [micromamba, libmamba] fix: Adapt root packages expansion by @jjerphan in #4298 [micromamba, libmamba] fix: Populate python_site_packages_path independently from host by @jjerphan in #4288 [libmamba] Fallback to flat cache dir if missing hierarchical by @Hind-M in #4290 [micromamba, lib",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "2.0.0-RC14",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0-RC14",
+      "published": "2026-06-01T15:35:00Z",
+      "preview": "🐛 bug fixes fix: Fixes Scala Native artifact publishing by @anatoliykmetyuk in #9118 fix: Fix duplicate autoplugins packageBin mappings by @anatoliykmetyuk in #9255 perf: Parallelize dependency resolution when no progress bar is rendered by @BrianHotopp in #9270 fix: Report a missing input file clearly by @BrianHotopp in #9271 fix: Reimplement FarmHash without using sun.misc.Unsafe by @eed3si9n in #9267 + #9278 fix: Fixes backtick-quoted project handling by @xuwei-k in #9277 perf: Improve incremental test stamper, take 2 by @eed3si9n in #9257 fix: Opt bspBuildTargetOutputPathsItem out of cachi",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "0.70.0 - 2026-06-01",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.70.0",
+      "published": "2026-06-01T11:49:09Z",
+      "preview": "Release Notes ✨ Highlights This release brings a lot of exciting features. Workspace dependencies We now allow to define workspace dependencies that allows to set package matchspecs that then can be inherited by package dependencies. This is how it looks like: [ workspace . dependencies ] numpy = \" 1.* \" boltons = { version = \" >=24 \" , channel = \" conda-forge \" } # Build packages [ package . build ] backend = { name = \" foo-build \" , workspace = true } [ package . host-dependencies ] cmake = { workspace = true } [ package . target . linux-64 . run-dependencies ] numpy = { workspace = true } F",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v0.380.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.380.0",
+      "published": "2026-06-01T10:31:11Z",
+      "preview": "What's Changed bundler: avoid adding Bundler checksum for lockfiles using 4.0.0-4.0.10 by @thavaahariharangit in #15164 Remove beta ecosystem flag handling for Deno by @markhallen in #15173 [bun] Add lockfile generator for bun by @brrygrdn in #14882 Pass --config.minimumReleaseAge=0 for pnpm security updates to bypass pnpm-workspace.yaml by @yeikel in #15170 build(deps): bump terraform to 1.15.3 by @HorizonNet in #15055 Change cron schedule from Thursday to Monday by @robaiken in #15181 Add specific error for missing .NET SDK in discovery by @brettfo in #15168 Throw UnparseableFileException wh",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-30-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-30-a",
+      "published": "2026-06-01T08:51:00Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-30-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "20260601t084200-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260601t084200-all",
+      "published": "2026-06-01T08:42:30Z",
+      "preview": "Deployment at 2026-06-01T08:42:29.038167Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Closing Composer's download fallback paths in Private Packagist",
+      "url": "https://blog.packagist.com/closing-composers-download-fallback-paths-in-private-packagist/",
+      "published": "2026-06-01T07:16:32Z",
+      "preview": "This is the next post in our supply chain security series, following the supply chain security update and the Composer 2.10 release . Each post in this series covers a specific Composer behavior worth understanding, and a Private Packagist feature we are introducing on top of it. Today: How Composer&",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "hatchling-v1.30.0",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.30.0",
+      "published": "2026-06-01T01:27:35Z",
+      "preview": "Fix draft release uploads. ( #2293 )",
+      "source": "Hatch releases",
+      "category": "Python"
+    },
+    {
+      "title": "v2.0.0-RC13-1",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0-RC13-1",
+      "published": "2026-05-31T22:26:34Z",
+      "preview": "2.0.0-RC13-1",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "v2026.5.17: Custom aqua registry cache and Windows fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.5.17",
+      "published": "2026-05-31T21:52:31Z",
+      "preview": "A catch-up release for the tag that shipped the compiled custom aqua registry cache, several Windows task/shim fixes, and a handful of backend install improvements. This release is backfilled without binary assets; use v2026.5.18 or newer for downloadable artifacts. Added (aqua) Add a compiled custom registry cache to speed up aqua registry lookups and reduce repeated parsing work ( #9583 by @jdx ). Fixed (upgrade) Handle a lone v prefix in --bump latest queries ( #10130 by @jdx ). (env) Force the Unix environment key to uppercase PATH , avoiding mixed-case path handling surprises ( #9927 by @",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v2026.5.18: Hook script arrays and lock-identity fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.5.18",
+      "published": "2026-05-31T21:43:15Z",
+      "preview": "A focused release that teaches hooks to accept script arrays, ships an npm install -g mise package, and tightens lock identity across several backends so mise.lock entries can no longer be reused for option combinations that resolve to a different artifact set. Added (config) Hooks now accept script / scripts arrays for current-shell hooks ( #9836 by @risu729 ): [ hooks . enter ] shell = \" bash \" script = [ \" source completions.sh \" , \" export PROJECT_READY=1 \" , ] Note that run is still string-only — to spawn multiple inline commands, use a list of { run = \"...\" } entries or one multiline run",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.5.17",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.5.17",
+      "published": "2026-05-31T21:05:46Z",
+      "preview": "Release vfox 2026.5.17",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "26.1.2",
+      "url": "https://github.com/pypa/pip/releases/tag/26.1.2",
+      "published": "2026-05-31T17:16:13Z",
+      "preview": "Release 26.1.2",
+      "source": "pip releases",
+      "category": "Python"
+    },
+    {
+      "title": "vfox-v2026.5.16",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.5.16",
+      "published": "2026-05-31T15:28:09Z",
+      "preview": "Release vfox 2026.5.16",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-29-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-29-a",
+      "published": "2026-05-31T08:52:12Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-29-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "rc/v3.11.0.1 (release candidate)",
+      "url": "https://github.com/commercialhaskell/stack/releases/tag/rc%2Fv3.11.0.1",
+      "published": "2026-05-30T22:47:18Z",
+      "preview": "Changes since v3.9.3: Major changes: On 64-bit Windows, the default msys-environment configuration option is now CLANG64 , rather than MINGW64 (which remains an option). The MSYS2 project deprecated the latter environment on 15 March 2026. The GHC project has used the former toolchain from GHC 9.4.1. No default is provided for 32-bit Windows, rather than MINGW32 (which remains an option). The MSYS2 project ceased to actively support it on 17 May 2020. 32-bit Windows is not supported by the GHC project from GHC 8.12. Behavior changes: Stack's default Nix integration now includes the cacert Nix ",
+      "source": "Stack releases",
+      "category": "Registries"
+    },
+    {
+      "title": "0.97.1",
+      "url": "https://github.com/rust-lang/cargo/releases/tag/0.97.1",
+      "published": "2026-05-30T14:34:07Z",
+      "preview": "0.97.1 release",
+      "source": "Cargo releases",
+      "category": "Rust"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-28-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-28-a",
+      "published": "2026-05-30T08:55:06Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-28-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "NixOS 26.05 released",
+      "url": "https://nixos.org/blog/announcements/2026/nixos-2605/",
+      "published": "2026-05-30T07:00:00Z",
+      "preview": "Hey everyone, we are yayayayaka and jopejoe1 , the release managers of the newest release of NixOS. We are very proud to announce the public availability of NixOS 26.05 \"Yarara\". NixOS is a Linux distribution. Its underlying package repository Nixpkgs can also be used on other Linux systems and macOS with the Nix package manager. This release will receive bugfixes and security updates for seven months (up until 2026-12-31). The old release 25.11 \"Xantusia\" is now officially deprecated and will reach its end-of-life and stop receiving security updates after 2026-06-30. NixOS Release Notes Highl",
+      "source": "NixOS Blog",
+      "category": "System"
+    },
+    {
+      "title": "1.13.0",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.13.0",
+      "published": "2026-05-30T00:07:06Z",
+      "preview": "What's Changed Add shared libs auto-upgrade opt-out by @Herrtian in #1809 Fix app script shebang isolation by @sjh9714 in #1819 Update deprecation message in get-pipx.py; obsoleted, not deprecated by @Spitfire1900 in #1813 docs: clarify runpip cache warnings by @Sean-Kenneth-Doherty in #1815 Refresh legacy standalone Python index cache by @Sean-Kenneth-Doherty in #1814 New Contributors @sjh9714 made their first contribution in #1819 @Sean-Kenneth-Doherty made their first contribution in #1815 Full Changelog : 1.12.0...1.13.0",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "Windows Package Manager 1.29.240",
+      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.240",
+      "published": "2026-05-29T23:26:03Z",
+      "preview": "This is a release candidate of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . Note: This version is not fully localized yet. Localized strings will be included in a future build before stable release. New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the",
+      "source": "winget releases",
+      "category": "System"
+    },
+    {
+      "title": "NuGet.Server 3.4.3",
+      "url": "https://github.com/NuGet/NuGet.Server/releases/tag/3.4.3",
+      "published": "2026-05-29T17:48:01Z",
+      "preview": "What's Changed Fixed a denial-of-service vulnerability (CWE-696/CWE-400) where unauthenticated callers could exhaust server resources via the package upload endpoint by moving API key validation before expensive file I/O and package processing. Full Changelog : 3.4.2...3.4.3",
+      "source": "NuGet.Server releases",
+      "category": ".NET"
+    },
+    {
+      "title": "pnpm 11.5",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.0",
+      "published": "2026-05-29T15:51:39Z",
+      "preview": "Minor Changes Added a new hoistingLimits setting for nodeLinker: hoisted installs, mirroring yarn's nmHoistingLimits . It accepts none (the default — hoist as far as possible), workspaces (hoist only as far as each workspace package), or dependencies (hoist only up to each workspace package's direct dependencies). Originally proposed in #6468 , closing #6457 . Replaced enquirer with @inquirer/prompts for all interactive prompts. Fixes the update -i scrolling overflow bug where long choice lists were clipped in the terminal #6643 . User-facing changes: pnpm update -i / pnpm update -i --latest :",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.76",
+      "url": "https://github.com/canonical/snapd/releases/tag/2.76",
+      "published": "2026-05-29T09:53:17Z",
+      "preview": "tagging package snapd version 2.76",
+      "source": "Snapd releases",
+      "category": "System"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-26-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-26-a",
+      "published": "2026-05-29T07:00:06Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-26-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "pnpm 11.5",
+      "url": "https://pnpm.io/blog/releases/11.5",
+      "published": "2026-05-29T00:00:00Z",
+      "preview": "pnpm 11.5 adds a hoistingLimits setting for controlling how far dependencies hoist in nodeLinker: hoisted installs, replaces the interactive prompt library to fix scrolling in long choice lists, recognizes staged publishes in the trust scale, and ships several install and dist-tag fixes.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "0.11.17",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.17",
+      "published": "2026-05-28T20:41:06Z",
+      "preview": "Release Notes Released on 2026-05-28. Enhancements Add a diagnostic for uv add with standard library modules ( #19572 ) Expose uv workspace and its list subcommand in help output ( #19533 ) Improve the \"403 forbidden\" hint to suggest ignore-error-codes when applicable ( #19521 ) Skip direct URL lock freshness checks while offline ( #19596 ) Add import-names and import-namespaces support to uv-build ( PEP 794 ) ( #19380 ) Add a --no-editable-package flag to various commands ( #19584 ) Infer Python version requests from source trees in uv tool invocations ( #19577 ) Preview features Add module o",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "0.97.0",
+      "url": "https://github.com/rust-lang/cargo/releases/tag/0.97.0",
+      "published": "2026-05-28T17:50:39Z",
+      "preview": "0.97.0 release",
+      "source": "Cargo releases",
+      "category": "Rust"
+    },
+    {
+      "title": "v0.379.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.379.0",
+      "published": "2026-05-28T17:11:39Z",
+      "preview": "What's Changed Fix duplicate updated dependencies in multi-directory group refresh by @markhallen in #15098 Recategorise lockfile generation errors as known types by @brrygrdn in #15084 [Graph Job] Do not treat Dependabot::UnexpectedExternalCode as a hard failure by @brrygrdn in #15075 [Graph] Fix handling of multiple version resolution by @brrygrdn in #15099 Bun: Upgrade to Node JS 24 by @yeikel in #14964 Add API integration to fetch blocked versions at job construction by @kbukum1 in #14917 Fix go modules error in package details fetcher due to subpath issue by @AbhishekBhaskar in #15096 add",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "2.29.0 (28-May-2026)",
+      "url": "https://github.com/conan-io/conan/releases/tag/2.29.0",
+      "published": "2026-05-28T16:27:51Z",
+      "preview": "Feature: Limited support for python_requires in workspace, only in conanws.yml file. ( #20028 ). Docs: 📃 Feature: Added new public attribute binaries to the MesonToolchain generator. ( #20017 ) Feature: Add support for Apple OS 26.5 release. ( #19976 ) Feature: Document RemoveAPI . ( #19930 ) Feature: New global_user.conf file to locally customize global.conf . ( #19923 ). Docs: 📃 Feature: Add support for GCC 16. ( #19921 ) Fix: Forward -vxxx verbosity argument to conan workspace build/install packages. ( #20015 ) Fix: Add message when no packages found in conan list command. ( #20013 ) Fix: s",
+      "source": "Conan releases",
+      "category": "C/C++"
+    },
+    {
+      "title": "2.7.0",
+      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.0",
+      "published": "2026-05-28T15:05:02Z",
+      "preview": "As part of this release we had 11 issues closed. Dependency Change Update bundled 7zip executables to v26.00. See #3857 by AdmiringWorm , resolved in !3858 by AdmiringWorm . Enhancements Capture the source that was being used when searching for packages. See #3849 by gep13 , resolved in !3850 by gep13 . Bug Fix Chocolatey does not handle passwords with non ASCII characters when interacting with authenticating sources See #3600 by pfremy , resolved in !3762 by AdmiringWorm . Contributors 2 contributors made this release possible.",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
+    {
+      "title": "9.6.0 RC1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0-RC1",
+      "published": "2026-05-28T13:05:49Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.6.0 RC1. Here are the highlights of this release: Improved Configuration Cache hit rates Additional CLI rendering options Important project hierarchy lookup deprecations Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aharnish Solanki , Benedikt Johannes , Devendra Reddy Pennabadi , Dmytro Rodionov , Dreeam , Elías Hernández Rodríguez , Eng Zer Jun , FinlayRJW , Kamal Kansal , Marcono1234 , Nelson Osacky , Philip Wedemann , Ravi , Roberto Perez Alcolea , Ryan Schmitt",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-05-27-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-05-27-a",
+      "published": "2026-05-28T11:15:36Z",
+      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-05-27-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "20260528t110400-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260528t110400-all",
+      "published": "2026-05-28T11:04:49Z",
+      "preview": "Deployment at 2026-05-28T11:04:47.905202Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "2.10.0",
+      "url": "https://github.com/composer/composer/releases/tag/2.10.0",
+      "published": "2026-05-28T10:53:10Z",
+      "preview": "Read the Composer 2.10 Release Announcement for more details on the release highlights. Full Changelog BC Break / Security: Disabled automatic fallback to source checkout if dist/zip install fails, we have introduced a new source-fallback config option as a temporary way to restore the old behavior, but if you need this talk to us as we plan to remove it entirely in 2.11 ( #12885 ) BC Break: Minor break for audit consumers, the exit code is now always 0 (success) or 1 if anything failed the audit ( #12881 ) Security: Added dependency policies to block package versions where malware was detecte",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "Composer 2.10 Release",
+      "url": "https://blog.packagist.com/composer-2-10-release/",
+      "published": "2026-05-28T10:46:09Z",
+      "preview": "We are excited to announce the release of Composer 2.10.0 , introducing native malware filtering and consolidated future-proof customizable dependency policy configuration to control the handling of security advisories, abandoned packages, and now malware. Fast detection of malware for packages published on Packagist.org is provided by Aikido . This",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "20260528t104000-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260528t104000-all",
+      "published": "2026-05-28T10:40:55Z",
+      "preview": "Deployment at 2026-05-28T10:40:52.185885Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "20260528t103900-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260528t103900-all",
+      "published": "2026-05-28T10:39:24Z",
+      "preview": "Deployment at 2026-05-28T10:39:17.154788Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Announcing Rust 1.96.0",
+      "url": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
+      "published": "2026-05-28T00:00:00Z",
+      "preview": "The Rust team is happy to announce a new version of Rust, 1.96.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.96.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.96.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
+      "title": "pnpm 10.34.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.1",
+      "published": "2026-05-27T23:11:40Z",
+      "preview": "Patch Changes Reject pnpm-lock.yaml entries whose remote tarball resolution: block is missing the integrity field. Previously the worker that extracts a downloaded tarball skipped hash verification when no integrity was supplied and minted a fresh one from the unverified bytes, so an attacker who could both alter the lockfile (e.g. via a pull request that strips integrity: ) and serve modified content at the referenced tarball URL could install a tampered package without any error — including under --frozen-lockfile . pnpm now fails closed at lockfile-read time with ERR_PNPM_MISSING_TARBALL_IN",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmversion: v8.0.4",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmversion-v8.0.4",
+      "published": "2026-05-27T20:52:27Z",
+      "preview": "8.0.4 (2026-05-27) Documentation c5e9d73 #9390 Document npm_old_version and npm_new_version environment variables ( #9389 ) (@github-actions[bot], @36degrees ) Chores 40fcab4 #8991 @npmcli/template-oss@4.29.0 ( @wraithgar )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmpack: v9.1.9",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.9",
+      "published": "2026-05-27T20:52:26Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.7.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v7.0.23",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.23",
+      "published": "2026-05-27T20:52:25Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.7.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v10.2.9",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v10.2.9",
+      "published": "2026-05-27T20:52:24Z",
+      "preview": "10.2.9 (2026-05-27) Bug Fixes 5000cbf #9409 exempt local project introspection from allow-directory ( @owlstronaut ) Dependencies workspace : @npmcli/arborist@9.7.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmdiff: v8.1.9",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.9",
+      "published": "2026-05-27T20:52:23Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.7.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "config: v10.10.0",
+      "url": "https://github.com/npm/cli/releases/tag/config-v10.10.0",
+      "published": "2026-05-27T20:52:22Z",
+      "preview": "10.10.0 (2026-05-27) Features 4b67f6e #9416 publish --access=private alias for restricted ( #9416 ) (@github-actions[bot], @reggi , @Copilot) a10c7ca #9415 Phase 1 of allowScripts opt-in install-script policy ( #9360 ) ( #9415 ) ( @owlstronaut , @JamieMagee )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "arborist: v9.7.0",
+      "url": "https://github.com/npm/cli/releases/tag/arborist-v9.7.0",
+      "published": "2026-05-27T20:52:20Z",
+      "preview": "9.7.0 (2026-05-27) Features a10c7ca #9415 Phase 1 of allowScripts opt-in install-script policy ( #9360 ) ( #9415 ) ( @owlstronaut , @JamieMagee ) Bug Fixes d8a7803 #9418 arborist: drop self-link materialization for undeclared workspaces ( #9418 ) (@github-actions[bot], @manzoorwanijk ) 4d141a0 #9417 skip hidden lockfile save on dry run ( #9417 ) (@github-actions[bot], @puneetdixit200 , @puneetdixit200 )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.16.0",
+      "url": "https://github.com/npm/cli/releases/tag/v11.16.0",
+      "published": "2026-05-27T20:52:19Z",
+      "preview": "11.16.0 (2026-05-27) Features 4b67f6e #9416 publish --access=private alias for restricted ( #9416 ) (@github-actions[bot], @reggi , @Copilot) a10c7ca #9415 Phase 1 of allowScripts opt-in install-script policy ( #9360 ) ( #9415 ) ( @owlstronaut , @JamieMagee ) Bug Fixes 1f7869b #9411 fix typo of fullMetadata ( @owlstronaut ) cde03ba #9390 config: pause progress spinner during interactive editor spawn ( #9388 ) (@github-actions[bot], @Zelys-DFKH , @claude ) Documentation c5e9d73 #9390 Document npm_old_version and npm_new_version environment variables ( #9389 ) (@github-actions[bot], @36degrees )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "An update on Composer & Packagist supply chain security",
+      "url": "https://blog.packagist.com/an-update-on-composer-packagist-supply-chain-security/",
+      "published": "2026-05-27T15:11:51Z",
+      "preview": "The last months, and even more so the last weeks, saw an increasing amount of software supply chain attacks targeting open-source ecosystems. A handful of these have hit the PHP ecosystem too, via taken-over GitHub accounts and stolen access tokens that let attackers publish new tags on packages they had",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "pnpm 10.34",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.0",
+      "published": "2026-05-27T14:58:43Z",
+      "preview": "Minor Changes Treat tarball-integrity mismatches against the lockfile as a hard failure by default. Previously, pnpm install (non-frozen) would log ERR_PNPM_TARBALL_INTEGRITY , silently re-resolve from the registry, and overwrite the locked integrity — which meant a compromised registry, proxy, or republished version could substitute attacker-controlled content on a clean machine even though the project shipped a committed lockfile. pnpm install now exits with ERR_PNPM_TARBALL_INTEGRITY and a hint pointing at the new opt-in flag. The only opt-in is pnpm install --update-checksums — narrowly sc",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.4",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.4.0",
+      "published": "2026-05-27T13:32:37Z",
+      "preview": "Minor Changes Treat tarball-integrity mismatches against the lockfile as a hard failure by default. Previously, pnpm install (non-frozen) would log ERR_PNPM_TARBALL_INTEGRITY , silently re-resolve from the registry, and overwrite the locked integrity — which meant a compromised registry, proxy, or republished version could substitute attacker-controlled content on a clean machine even though the project shipped a committed lockfile. pnpm install now exits with ERR_PNPM_TARBALL_INTEGRITY and a hint pointing at the new opt-in flag. The only opt-in is pnpm install --update-checksums — narrowly sc",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v2.8.1",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.8.1",
+      "published": "2026-05-27T12:56:27Z",
+      "preview": "2.8.1 / 2026.05.27 Revert \"fix(ext/node): polyfill module.enableCompileCache and companions\" ( #34190 ) ( #34348 ) feat(bundle): support browser field map in package.json ( #34407 ) fix(bundle): read package.json sideEffects field ( #34406 ) fix(cli): clearer error when importing .node addon via ESM ( #34361 ) fix(config): don't panic when --config path can't be converted to URL ( #34351 ) fix(core): allow host objects to round-trip through core.deserialize ( #34380 ) fix(core): keep lazy_loaded_esm sources across concurrent loads ( #34353 ) fix(ext/fetch,ext/websocket): check resolved IPs aga",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "7.8.0.45",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.8.0.45",
+      "published": "2026-05-27T12:24:24Z",
+      "preview": "Insert 7.8.0.45 into main on 05/27/2026 12:24:24",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "2.7.3-beta-20260527",
+      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.3-beta-20260527",
+      "published": "2026-05-27T08:29:45Z",
+      "preview": "2.7.3-beta-20260527",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
+    {
+      "title": "pnpm 11.4",
+      "url": "https://pnpm.io/blog/releases/11.4",
+      "published": "2026-05-27T00:00:00Z",
+      "preview": "pnpm 11.4 closes a cluster of supply-chain holes around lockfile integrity, credential scoping, git resolutions, patch files, and dependency aliases, makes tarball-integrity mismatches a hard install failure by default (with a narrowly-scoped --update-checksums opt-in), and changes pnpm runtime set to write to devEngines.runtime instead of engines.runtime by default.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "26.5.1",
+      "url": "https://github.com/conda/conda/releases/tag/26.5.1",
+      "published": "2026-05-26T20:51:19Z",
+      "preview": "Bug fixes Fix channel notices display failing with ImportError when a decorated command replaces base python while conda is still running on the previous interpreter. Pre-import conda.notices.views before the command so post-command display does not load modules from rewritten site-packages . ( #16126 via #16142 ) Fix crash in UnavailableInvalidChannel and CondaHTTPError when simplejson is installed and a non-JSON HTTP error response is received. ( #16136 ) Contributors @jezdez @kenodegard Full Changelog : 26.5.0...26.5.1",
+      "source": "Conda releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-24-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-24-a",
+      "published": "2026-05-26T18:55:58Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-24-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v6.7.2",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.2",
+      "published": "2026-05-25T13:24:43Z",
+      "preview": "Patch Changes a89aca1 : chore: fix unit test a28cf71 : chore: add missing types #5889 by @mbtools",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.75.2.2",
+      "url": "https://github.com/canonical/snapd/releases/tag/2.75.2.2",
+      "published": "2026-05-25T10:01:11Z",
+      "preview": "hotfix for tpm/fde",
+      "source": "Snapd releases",
+      "category": "System"
+    },
+    {
+      "title": "5.1.14",
+      "url": "https://github.com/Homebrew/brew/releases/tag/5.1.14",
+      "published": "2026-05-25T07:42:19Z",
+      "preview": "What's Changed Show quarantine script usage by @MikeMcQuaid in #22375 Ignore flaky VirusTotal docs link by @MikeMcQuaid in #22374 api: fix every formula having a post install defined by @Bo98 in #22378 Fix dynamic completion audit crash by @MikeMcQuaid in #22380 build(deps): bump the bundler group across 2 directories with 13 updates by @dependabot [bot] in #22381 build(deps): bump the github-actions group across 1 directory with 2 updates by @dependabot [bot] in #22382 workflows/incomplete-prs: allow deleting PR template comments by @gibfahn in #22290 Move away from RSpec's described_class by",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "v9.6.0-M3",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0-M3",
+      "published": "2026-05-25T07:27:36Z",
+      "preview": "Fix close-linked-issue workflow by pinning gha-mjolnir to v1.5.0 ( #37 …",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "Security Advisory for Cargo (CVE-2026-5223)",
+      "url": "https://blog.rust-lang.org/2026/05/25/cve-2026-5223/",
+      "published": "2026-05-25T00:00:00Z",
+      "preview": "The Rust Security Response Team was notified that Cargo incorrectly handled symlinks inside of crate tarballs downloaded from third-party registries, allowing a malicious crate to override the source code of another crate from the same registry. This vulnerability is tracked as CVE-2026-5223. The severity of the vulnerability is medium for users of third-party registries. Users of crates.io are not affected , as crates.io forbids uploading crates containing any symlink. Overview When building a crate, Cargo extracts its source code in a local cache (stored within ~/.cargo ), reusing it for any",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
+      "title": "Security Advisory for Cargo (CVE-2026-5222)",
+      "url": "https://blog.rust-lang.org/2026/05/25/cve-2026-5222/",
+      "published": "2026-05-25T00:00:00Z",
+      "preview": "The Rust Security Response Team was notified that Cargo incorrectly normalized the URLs of third-party registries using the sparse index protocol . If a hosting provider allowed multiple registries to be hosted with arbitrary names within the same domain, an attacker able to publish crates in a registry could obtain the credentials of others users of the same registry. This vulnerability is tracked as CVE-2026-5222. The severity of the vulnerability is low , due to the extremely niche requirements needed to achieve the attack. Overview Originally Cargo only supported storing a registry's index",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
+      "title": "pnpm 11.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.3.0",
+      "published": "2026-05-24T08:48:54Z",
+      "preview": "See full v11.0.0 changelog Migration guide: Migrating from v10 to v11 Minor Changes Added pnpm stage with publish , list , view , approve , reject , and download subcommands for npm staged publishing. Added a new setting trustLockfile . When true , pnpm install skips the supply-chain verification pass that re-applies minimumReleaseAge / trustPolicy='no-downgrade' to every entry in the loaded lockfile. The install treats the lockfile as already-trusted — useful for closed-source projects where every commit comes from a trusted author. Defaults to false ; verification stays on by default. Set in",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.3",
+      "url": "https://pnpm.io/blog/releases/11.3",
+      "published": "2026-05-24T00:00:00Z",
+      "preview": "pnpm 11.3 adds support for npm's staged publishing (pnpm stage), the new trustLockfile setting for skipping the supply-chain verification pass on already-trusted lockfiles, and native implementations of pnpm pkg, pnpm repo, and pnpm set-script. It also adds a --skip-manifest-obfuscation flag for pack / publish and cuts the memory footprint of minimumReleaseAge / trustPolicy verification on large workspaces.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "7.8.0.40",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.8.0.40",
+      "published": "2026-05-22T12:34:39Z",
+      "preview": "Insert 7.8.0.40 into main on 05/22/2026 12:34:38",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "v2.8.0",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.8.0",
+      "published": "2026-05-22T10:51:19Z",
+      "preview": "2.8.0 / 2026.05.22 Read more: http://deno.com/blog/v2.8 feat: accept deno audit fix as alias for deno audit --fix ( #34273 ) feat: add --watch flag to deno check ( #34224 ) feat: add deno bump-version subcommand ( #30562 ) feat: add deno why subcommand ( #32908 ) feat: support workspaces in deno bump-version ( #33689 ) feat(add/install): default to npm registry for unprefixed packages ( #33246 ) feat(compile): add progress bar for deno compile ( #33874 ) feat(compile): support module.registerHooks() in compiled binaries ( #33853 ) feat(core): add Deno.core.loadExtScript() for lazy-loaded scrip",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "0.11.16",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.16",
+      "published": "2026-05-21T22:11:32Z",
+      "preview": "Release Notes Released on 2026-05-21. Enhancements Add support for direct archive dependencies in Git ( #10072 ) Adjust hint rendering ( #18090 ) Preview features uv audit: specialize malformed OSV error ( #19515 ) Reject locked malware installations ( #18936 ) Configuration Allow disabling reading the system config with UV_NO_SYSTEM_CONFIG ( #19476 ) Bug fixes Allow environment variables that take a list to be empty ( #19503 ) Ensure that incompatible wheel hints do not leak secrets ( #19504 ) Reject unsafe entry points in uv-build ( #19495 ) Restrict delimiters in entry point parsing ( #1947",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "5.1.13",
+      "url": "https://github.com/Homebrew/brew/releases/tag/5.1.13",
+      "published": "2026-05-21T16:55:12Z",
+      "preview": "What's Changed info: mark deprecated/disabled pkg in install status by @HaraldNordgren in #22334 gitignore: ignore test/.npm/ by @HaraldNordgren in #22337 info, tap-info: skip uninstalled marker and bold when not a problem (align with search) by @HaraldNordgren in #22342 Remove obsolete --skip-update from command-not-found handlers by @rexmhall09 in #22340 Check RubyGems licences by @MikeMcQuaid in #22343 cask: include resolved artifact targets in JSON output by @carlocab in #22346 Move the 'wsl?' bool from the OS::Linux module up to the OS module by @lstn in #22309 Make bundle upgrade an alia",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "pnpm 11.2.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.2.2",
+      "published": "2026-05-21T13:55:59Z",
+      "preview": "See full v11.0.0 changelog Migration guide: Migrating from v10 to v11 Minor Changes Experimental: Adding @pnpm/pacquet (the Rust port of pnpm) to configDependencies in pnpm-workspace.yaml now delegates the materialization phase of pnpm install to the pacquet binary. pnpm still owns dependency resolution; pacquet only fetches and imports from the freshly-written lockfile. This is an opt-in preview of the Rust install engine #11723 . To configure pacquet in a project, run: pnpm add @pnpm/pacquet --config You'll see changes in pnpm-workspace.yaml and pnpm-lock.yaml that should be committed. If yo",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "7.8.0.39",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.8.0.39",
+      "published": "2026-05-21T12:25:53Z",
+      "preview": "Insert 7.8.0.39 into main on 05/21/2026 12:25:52",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "pixi-build-rust-v0.4.10",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rust-v0.4.10",
+      "published": "2026-05-21T09:44:36Z",
+      "preview": "chore: bump backend versions ( #6173 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "0.69.0 - 2026-05-20",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.69.0",
+      "published": "2026-05-21T09:38:24Z",
+      "preview": "Release Notes ✨ Highlights Pixi now supports easy authentication to prefix.dev, just like GitHub CLI you can run: pixi auth login prefix.dev And it will take you to the login page of prefix.dev. Next to that publishing a package became much easier with --variant , --build-number and more. Added Support build-string-prefix and build-number in [package-build] by @hunger in #6051 Centralize default compiler variants and add CUDA support by @wolfv in #6108 Support build backend secrets by @wolfv in #6101 Honor workspace.s3-options when uploading to s3 by @hunger in #6069 Add oauth default login by",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v0.378.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.378.0",
+      "published": "2026-05-21T08:48:56Z",
+      "preview": "What's Changed fix(opentofu): strip v prefix in cooldown version comparison by @diofeher in #15044 Use POM last-modified as Gradle plugin release date fallback by @thavaahariharangit in #15006 Add blocked versions support to updater job by @kbukum1 in #14915 Add blocked versions support to dry-run script by @kbukum1 in #14916 Strip surrounding quotes from go.env values before writing by @yeikel in #15060 Require dependabot-deno in updater setup by @markhallen in #15064 fix(docker): use manifests endpoint for manifest-list digests by @devantler in #14691 Fix NuGet lock file tracking when no loc",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2.27.0",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.27.0",
+      "published": "2026-05-21T07:14:32Z",
+      "preview": "Breaking Changes Update the minimum required Python version to 3.10. ( #3787 ) Features & Improvements Respect existing values of pyproject.toml when running pdm init or pdm new . ( #3786 ) Move project plugin installations from .pdm-plugins under the project root to an isolated cache directory, and add a fixer to migrate existing plugin directories. ( #3790 ) Remove legacy importlib compatibility wrappers and use standard-library importlib.metadata and importlib.resources APIs directly. ( #3796 ) Bug Fixes Fix a security issue with the installer to disallow installing to paths outside of the ",
+      "source": "PDM releases",
+      "category": "Python"
+    },
+    {
+      "title": "Introducing the pkg.go.dev API",
+      "url": "https://go.dev/blog/pkgsite-api",
+      "published": "2026-05-21T00:00:00Z",
+      "preview": "Introducing the new programmatic API for pkg.go.dev, allowing developers to fetch package and module data directly.",
+      "source": "Go Blog",
+      "category": "Go"
+    },
+    {
+      "title": "v12.0.0-pre.0.0",
+      "url": "https://github.com/npm/cli/releases/tag/v12.0.0-pre.0.0",
+      "published": "2026-05-20T20:51:12Z",
+      "preview": "12.0.0-pre.0.0 (2026-05-20) ⚠️ BREAKING CHANGES npm view --json now always returns an array. npm sbom --sbom-format=cyclonedx now reports the name field from each package's package.json instead of the on-disk directory name. The name , bom-ref , and purl of the root component and of aliased dependencies may change. npm no longer registers man pages with the system when installed globally. man npm-install will no longer work, but npm help install is unaffected. The npm pkg output is no longer forced to json. This means you can get single values without having to worry about wrapping of the valu",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.0.0-pre.0",
+      "url": "https://github.com/npm/cli/releases/tag/v12.0.0-pre.0",
+      "published": "2026-05-20T20:47:33Z",
+      "preview": "chore: release 12.0.0-pre.0.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v29.5.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.5.2",
+      "published": "2026-05-20T18:02:30Z",
+      "preview": "29.5.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.5.2 milestone moby/moby, 29.5.2 milestone Bug fixes and enhancements Fix docker cp failing with \"mkdirat: file exists\" when a container has a bind mount whose target traverses an in-container symlink (e.g. /var/run -> /run ). moby/moby#52655",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.0.0-beta.15",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.15",
+      "published": "2026-05-20T16:05:19Z",
+      "preview": "v2.0.0-beta.15",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "pnpm 11.2.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.2.1",
+      "published": "2026-05-20T14:59:41Z",
+      "preview": "Minor Changes Experimental: Adding @pnpm/pacquet (the Rust port of pnpm) to configDependencies in pnpm-workspace.yaml now delegates the materialization phase of pnpm install to the pacquet binary. pnpm still owns dependency resolution; pacquet only fetches and imports from the freshly-written lockfile. This is an opt-in preview of the Rust install engine #11723 . To configure pacquet in a project, run: pnpm add @pnpm/pacquet --config You'll see changes in pnpm-workspace.yaml and pnpm-lock.yaml that should be committed. If you experience any issues with pacquet, please let us know by mentioning",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.10.0-RC2",
+      "url": "https://github.com/composer/composer/releases/tag/2.10.0-RC2",
+      "published": "2026-05-20T13:43:05Z",
+      "preview": "Composer 2.10 is ready for a release, and we need your help to test it and report any regression. Please try it out! Running composer self-update --preview will get you the 2.10.0-RC2 Running composer self-update --stable will get you back on the latest 2.9 stable release if anything broke. Report any issues you encounter as a new issue specifying you tried the 2.10 RC and please include stack traces & repro details. Full Changelog Since 2.10.0-RC1, fixes in 2.9.6 - 2.9.8, many of which security relevant, are also included Since 2.10.0-RC1 a lot of the new filter list config format was modifie",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "pnpm 11.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.2.0",
+      "published": "2026-05-20T11:09:09Z",
+      "preview": "See full v11.0.0 changelog Migration guide: Migrating from v10 to v11 Minor Changes Experimental: Adding @pnpm/pacquet (the Rust port of pnpm) to configDependencies in pnpm-workspace.yaml now delegates the materialization phase of pnpm install to the pacquet binary. pnpm still owns dependency resolution; pacquet only fetches and imports from the freshly-written lockfile. This is an opt-in preview of the Rust install engine #11723 . To configure pacquet in a project, run: pnpm add @pnpm/pacquet --config You'll see changes in pnpm-workspace.yaml and pnpm-lock.yaml that should be committed. If yo",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "bundler-v4.0.12",
+      "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.12",
+      "published": "2026-05-20T03:07:44Z",
+      "preview": "Enhancements: Make bundle config get return status 1 when the value is not set. Pull request #9505 by willnet Use Pathname#absolute?. Pull request #9529 by nobu Deprecate parsing non-lockfile content in LockfileParser. Pull request #9502 by kurotaky Print a warning for a potential confusion from the indirect dependencies. Pull request #5029 by junaruga Respect Gemfile bundler setting in Bundler.setup . Pull request #4892 by godfat Bug fixes: Gracefully handle missing checksums in Compact Index. Pull request #9492 by jneen Skip git source exclusion when lockfile cannot backfill. Pull request #9",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.12",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.12",
+      "published": "2026-05-20T03:06:01Z",
+      "preview": "Enhancements: Remove cygwin from WIN_PATTERNS. Pull request #9527 by fd00 Installs bundler 4.0.12 as a default gem. Bug fixes: Fall back to lockfile version when BUNDLE_VERSION is \"lockfile\". Pull request #9545 by hsbt Read BUNDLE_VERSION env var in BundlerVersionFinder . Pull request #9538 by hsbt",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "4.0.12 Released",
+      "url": "https://blog.rubygems.org/2026/05/20/4.0.12-released.html",
+      "published": "2026-05-20T00:00:00Z",
+      "preview": "RubyGems 4.0.12 includes enhancements and bug fixes and Bundler 4.0.12 includes enhancements and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.12 RubyGems Release Notes Enhancements: Remove cygwin from WIN_PATTERNS. Pull request #9527 by fd00 Installs bundler 4.0.12 as a default gem. Bug fixes: Fall back to lockfile version when BUNDLE_VERSION is “lockfile”. Pull request #9545 by hsbt Read BUNDLE_VERSION env var in BundlerVersionFinder . Pull request #9538",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
+    },
+    {
+      "title": "May 2026 Releases",
+      "url": "https://conda.org/blog/2026-05-20-may-releases",
+      "published": "2026-05-20T00:00:00Z",
+      "preview": "May releases of conda and conda-build are out—native lockfiles, a snappier CLI, v1 recipe builds improvements and conda-pypi. 🎉",
+      "source": "Conda Blog",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pnpm 11.2",
+      "url": "https://pnpm.io/blog/releases/11.2",
+      "published": "2026-05-20T00:00:00Z",
+      "preview": "pnpm 11.2 ships an experimental opt-in into pacquet (the Rust port of pnpm) as the install backend, expands config dependencies to install one level of optionalDependencies (so the esbuild/swc platform-binary pattern works for config deps too), wires up the long-documented pnpm login --scope flag, and surfaces runtime entries (Node.js, Deno, Bun) in pnpm outdated and pnpm update --interactive.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2026-05-19",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-05-19",
+      "published": "2026-05-19T22:20:40Z",
+      "preview": "2026-05-19",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/pnp/4.1.6",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fpnp%2F4.1.6",
+      "published": "2026-05-19T22:20:40Z",
+      "preview": "@yarnpkg/pnp",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-pnpm/2.2.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnpm%2F2.2.0",
+      "published": "2026-05-19T22:20:40Z",
+      "preview": "@yarnpkg/plugin-pnpm",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.6.2",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.6.2",
+      "published": "2026-05-19T17:02:20Z",
+      "preview": "Bug fixes: [libmamba] fix: Use zlib<1.3.2 for static builds by @jjerphan in #4281 [libmamba] fix: Set environment variables for use_sharded_repodata by @jjerphan in #4279 CI fixes and doc: [all] ci: Use micromamba 2.6.0 by @jjerphan in #4280",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "20260519t092000-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260519t092000-all",
+      "published": "2026-05-19T09:20:48Z",
+      "preview": "Deployment at 2026-05-19T09:20:44.409819Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "0.11.15",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.15",
+      "published": "2026-05-18T20:12:10Z",
+      "preview": "Release Notes Released on 2026-05-18. Security Fix a TAR parser differential, see GHSA-3cv2-h65g-fgmm ( #19463 ) Enforce that entry points cannot escape in the scripts directory, see GHSA-4gg8-gxpx-9rph ( #19464 ) Enhancements Add TOML v1.1 -> v1.0 backwards compatibility for source distributions ( #18741 ) Add support for Azure request signing ( #19421 ) Apply stricter validation to all wheel filename segments ( #19364 ) Reject empty strings as an invalid package name ( #19435 ) Use structured errors for signing authentication failures ( #19422 ) Preview uv audit: Add JSON output ( #19305 ) C",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "v29.5.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.5.1",
+      "published": "2026-05-18T17:29:08Z",
+      "preview": "29.5.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.5.1 milestone moby/moby, 29.5.1 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. CVE-2026-41567 Fix a vulnerability in docker cp where archive decompression binaries (e.g. xz , unpigz ) were resolved via PATH inside the container filesystem while running as host root, allowing a malicious container to execute arbitrary binaries with host root privileges. GHSA-x86f-5xw2-fm2r CVE-2026-41568 Fix a TOCTOU vulnerabi",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.0.0-beta.14",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.14",
+      "published": "2026-05-18T17:14:46Z",
+      "preview": "v2.0.0-beta.14",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "NuGet Package Pruning: Cleaner Dependencies and Actionable Vulnerability Reports",
+      "url": "https://devblogs.microsoft.com/dotnet/nuget-package-pruning-in-dotnet-10/",
+      "published": "2026-05-18T17:00:00Z",
+      "preview": "Package pruning in .NET 10 removes platform-provided packages from your dependency graph. With transitive auditing enabled by default, projects with these defaults have 70% fewer transitive vulnerability reports compared to projects using the previous defaults. The post NuGet Package Pruning: Cleaner Dependencies and Actionable Vulnerability Reports appeared first on .NET Blog .",
+      "source": "NuGet Blog",
+      "category": ".NET"
+    },
+    {
+      "title": "5.1.12",
+      "url": "https://github.com/Homebrew/brew/releases/tag/5.1.12",
+      "published": "2026-05-18T16:02:23Z",
+      "preview": "What's Changed info: resolve installed formulae from receipt's tap and warn on shadow by @HaraldNordgren in #22224 info: resolve aliased deps when checking installed status by @HaraldNordgren in #22228 audit: don't check livecheck throttle days offline by @bevanjkay in #22233 Add brew exec command by @MikeMcQuaid in #22222 Annotate test-bot dependency impact by @MikeMcQuaid in #22221 Omit platform for all bottles by @MikeMcQuaid in #22227 test/cask: speed up missing source test by @bevanjkay in #22234 Skip bot incomplete PR closures by @MikeMcQuaid in #22232 build(deps): bump urllib3 from 2.6.",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "What's new in Private Packagist, May 2026 Update",
+      "url": "https://blog.packagist.com/whats-new-in-private-packagist-may-2026-update/",
+      "published": "2026-05-18T12:33:50Z",
+      "preview": "Over the past three months, we&apos;ve shipped updates focused on security, integrations with code hosting platforms, and usability improvements throughout Private Packagist. Here&apos;s a rundown of the most notable changes. Support for malware filter lists We&apos;ve added support for malware filter lists to help",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "v29.5.0",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.5.0",
+      "published": "2026-05-18T08:50:32Z",
+      "preview": "29.5.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.5.0 milestone moby/moby, 29.5.0 milestone Note Rootless: gvisor-tap-vsock is now the new default rootless network driver and should be preferred over slirp4netns which is no longer installed via Docker packaging. New Rootless: Add new default gvisor-tap-vsock network driver. moby/moby#52319 Enable private time namespace for containers by default on supported kernels. moby/moby#52326 The local logging driver now has support for custom attributes, adding support for the la",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "2.0.0-RC13",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0-RC13",
+      "published": "2026-05-18T00:11:33Z",
+      "preview": "Execution log sbt 2.0.0 adds experimental execution log feature to debug caching issues. The execution log can be enabled with sbt.experimental_execution_log system property has either true or a file path: $ sbt --server -Dsbt.experimental_execution_log=true compile This will generate an execution log file in target/global-logging/exec-log****.log : { \"input\" : { \"digest\" : \" sha256-a50da1cd086987bc273861a815da4e90ba4735d4a21b965e861e583382a985d6/48 \" , \"codeContentHash\" : \" murmur3-0000000000000000ffffffffce70de5a/0 \" , \"extraHash\" : \" murmur3-00000000000000000000000000000000/0 \" , \"str\" : \" ",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "Project goals update — April 2026 (end of 2025H2)",
+      "url": "https://blog.rust-lang.org/2026/05/18/project-goals-2026-04/",
+      "published": "2026-05-18T00:00:00Z",
+      "preview": "The 2025H2 Project Goal period has now concluded. Over these months, the Rust Project pursued 41 Project Goals , 13 of which were designated as Flagship Goals . This post contains curated updates on our progress since the last post and the final status for each of the goals (many of which continue as part of the 2026 period). Full details for any particular goal are available in its tracking issue . Thanks to everyone who contributed! <3 Table of contents Flagship: Beyond the & Continue Experimentation with Pin Ergonomics Design a language feature to solve Field Projections Reborrow traits Fla",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
+      "title": "3.3.1",
+      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.1",
+      "published": "2026-05-17T19:22:40Z",
+      "preview": "apt Debian release 3.3.1",
+      "source": "APT releases",
+      "category": "System"
+    },
+    {
+      "title": "3.9.16",
+      "url": "https://github.com/apache/maven/releases/tag/maven-3.9.16",
+      "published": "2026-05-17T16:55:16Z",
+      "preview": "🐛 Bug Fixes Trim threadConfiguration to accept input surrounded with spaces ( #12042 ) @slawekjaranowski Backport: Maven 3.10.x fixed plugin resolution ( #12022 ) @cstamas 📦 Dependency updates Bump org.codehaus.plexus:plexus-classworlds from 2.9.0 to 2.11.0 ( #12039 ) @ dependabot[bot] [3.9.x] Bump to parent POM 48 ( #12024 ) @cstamas Bump commons-io:commons-io from 2.21.0 to 2.22.0 ( #11980 ) @ dependabot[bot] Bump com.google.guava:guava from 33.5.0-jre to 33.6.0-jre ( #11951 ) @ dependabot[bot] Bump actions/cache from 5.0.4 to 5.0.5 ( #11943 ) @ dependabot[bot]",
+      "source": "Maven releases",
+      "category": "Maven"
+    },
+    {
+      "title": "v6.7.1",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.1",
+      "published": "2026-05-16T15:02:40Z",
+      "preview": "Patch Changes a75f9bb : chore: refactor docker publish pipeline",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v6.7.0",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.0",
+      "published": "2026-05-16T14:35:11Z",
+      "preview": "⚠️ not available in docker (due pipeline issue) Minor Changes 9f1bcc5 : feat: update Node.js to 24 Bumps the project's Node.js baseline to 24 across runtime and container, and adds a startup warning for users still on an older (but supported) Node. Node 24 bump : .nvmrc 22 → 24 ; Dockerfile base image node:22.22.1-alpine → node:24.15.0-alpine (builder + runtime). Soft-deprecation warning : new RECOMMENDED_NODE_VERSION = '22' and isVersionRecommended() in src/lib/cli/utils.ts ; the init command logs a warn at startup when Node is below the recommendation. MIN_NODE_VERSION stays at '18' — no har",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v0.377.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.377.0",
+      "published": "2026-05-15T22:07:49Z",
+      "preview": "What's Changed Implement sbt metadata finder by @AbhishekBhaskar in #15011 Bump NuGet.Client to release/7.6.x and pin dotnet-core to v10.0.8 by @JamieMagee in #14995 feat(opentofu): resolve locals references in module version constraints by @diofeher in #15009 simplify line indent detection by @brettfo in #14980 Fix flaky test: use unique git.store path to avoid parallel race condition by @brettfo in #14944 Update OpenTelemetry packages to 1.15.3 by @brettfo in #15029 Add SBT ecosystem to CI, Docker images, and runtime registration by @kbukum1 in #15012 v0.377.0 by @dependabot-core-action-auto",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "26.5.0",
+      "url": "https://github.com/conda/conda/releases/tag/26.5.0",
+      "published": "2026-05-15T19:16:39Z",
+      "preview": "26.5.0 (2026-05-15) Enhancements Add parsing and storage support for conditional dependencies, optional dependency groups, and variant flags in MatchSpec expressions (introduced in conda/ceps#164 , conda/ceps#165 , and conda/ceps#166 ). ( #15443 ) Add --clobber flag to conda create , matching existing support in conda install and conda update . ( #15584 via #15801 ) Display a Warning when exporting lockfiles from environments containing packages installed with pip, uv, or other 3rd party Python package managers. ( #15581 via #15838 ) Speed up condarc search path expansion on every reset_contex",
+      "source": "Conda releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v0.376.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.376.0",
+      "published": "2026-05-14T20:03:27Z",
+      "preview": "What's Changed Julia: filter yanked versions from get_available_versions by @IanButterworth in #14939 Add blob_oid metadata to manifests in dependency snapshots by @juxtin in #14857 Fix Maven released? check for non-jar packaging types (e.g., aar) by @kbukum1 in #14886 (Python): Move Pip file filtering to grapher by @Copilot in #14856 detect central package version scheme by @brettfo in #14927 allow insecure feeds if explicitly requested by @brettfo in #14891 don't warn on deprecated framework by @brettfo in #14936 migrate sln to slnx by @brettfo in #14943 fix(maven): parse Artifactory-style H",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v6.6.2",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.6.2",
+      "published": "2026-05-14T18:23:18Z",
+      "preview": "6.6.2 Patch Changes 7f7bbde : chore: bump up package test (testing publish provenance )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "Helm v3.21.0",
+      "url": "https://github.com/helm/helm/releases/tag/v3.21.0",
+      "published": "2026-05-14T17:41:50Z",
+      "preview": "Helm v3.21.0 is a feature release. Users are encouraged to upgrade for the best experience. Warning Helm v3 is approaching end-of-life. Please update to Helm v4. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Kubernetes client libraries to v1.36 notable changes here Installation and Upgrading Download Helm v3.21.0. The common pl",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.0.0-beta.13",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.13",
+      "published": "2026-05-14T14:38:18Z",
+      "preview": "v2.0.0-beta.13",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "2.9.8",
+      "url": "https://github.com/composer/composer/releases/tag/2.9.8",
+      "published": "2026-05-14T12:41:12Z",
+      "preview": "Security: Fixed GitHub token validation and disclosure ( GHSA-f9f8-rm49-7jv2 / CVE-2026-45793 ) Full Changelog : 2.9.7...2.9.8",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "1.10.28",
+      "url": "https://github.com/composer/composer/releases/tag/1.10.28",
+      "published": "2026-05-14T12:41:01Z",
+      "preview": "Security: Fixed GitHub token validation and disclosure ( GHSA-f9f8-rm49-7jv2 / CVE-2026-45793 )",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "2.2.28",
+      "url": "https://github.com/composer/composer/releases/tag/2.2.28",
+      "published": "2026-05-14T12:40:19Z",
+      "preview": "Security: Fixed GitHub token validation and disclosure ( GHSA-f9f8-rm49-7jv2 / CVE-2026-45793 ) Full Changelog : 2.2.27...2.2.28",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "Helm v4.2.0",
+      "url": "https://github.com/helm/helm/releases/tag/v4.2.0",
+      "published": "2026-05-14T01:31:58Z",
+      "preview": "Helm v4.2.0 is a feature release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Switch to goreleaser for release builds Kubernetes client libraries to v1.36 Add mustToToml template function deprecate unused --hide-notes and --render-subchart-notes flags --dry-run=server n",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
+      "title": "2.7.2",
+      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.2",
+      "published": "2026-05-13T20:15:08Z",
+      "preview": "Read our blog post about this release. As part of this release we had 2 issues closed. Dependency Changes Upgrade log4net to 3.3.1. See #3887 by corbob , resolved in !3886 by corbob . Update bundled 7zip executables to v26.01. See #3888 by corbob . Contributors 1 contributors made this release possible.",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
+    {
+      "title": "1.4.6",
+      "url": "https://github.com/chocolatey/choco/releases/tag/1.4.6",
+      "published": "2026-05-13T20:14:52Z",
+      "preview": "Read our blog post about this release. As part of this release we had 1 issue closed. Dependency Change Update support branch bundled 7zip executables to v26.01. See #3889 by corbob resolved in !3892 by corbob . Contributors 1 contributors made this release possible.",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
+    {
+      "title": "v25.0.16",
+      "url": "https://github.com/moby/moby/releases/tag/v25.0.16",
+      "published": "2026-05-13T16:27:26Z",
+      "preview": "v25.0.16",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "2.6.1",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.6.1",
+      "published": "2026-05-13T13:17:43Z",
+      "preview": "Bug fixes: [libmamba] fix: Support local install without explicit path by @jjerphan in #4273 [micromamba, libmamba] fix: Free-threaded builds location on Windows by @jjerphan in #4268 [libmamba] fix: Do not use python for platform detection by @jjerphan in #4257 [libmamba] fix: Adapt Sharded Repodata TTL update logic by @jjerphan in #4269 [libmamba] fix: Adaptations for vcpkg's distribution of zlib 1.3.2 on Windows by @jjerphan in #4260 [libmamba] fix: Normalize MatchSpec package names to lowercase by @jjerphan in #4258 [libmambapy] fix: Adapt add_pip_as_python_dependency python tests by @dany",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "Composer 2.9.8 and 2.2.28 fix GitHub Actions token disclosure in error messages",
+      "url": "https://blog.packagist.com/composer-2-9-8-and-2-2-28-fix-github-actions-token-disclosure-in-error-messages/",
+      "published": "2026-05-13T10:35:41Z",
+      "preview": "Please immediately update Composer to version 2.9.8 or 2.2.28 (LTS) by running composer.phar self-update . The new releases fix a vulnerability where Composer leaks the full contents of GitHub Actions issued GITHUB_TOKEN s or GitHub App installation tokens to the GitHub Actions logs. GitHub introduced",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "Bun v1.3.14",
+      "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.3.14",
+      "published": "2026-05-13T03:50:15Z",
+      "preview": "To install Bun v1.3.14 curl -fsSL https://bun.sh/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.sh/install.ps1|iex \" To upgrade to Bun v1.3.14: bun upgrade Read Bun v1.3.14's release notes on Bun's blog Thanks to 11 contributors! @190n @alii @carlsmedstad @cirospaciari @coleleavitt @djs5008 @dylan-conway @ig-ant @Jarred-Sumner @robobun @sosukesuzuki",
+      "source": "Bun releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v0.17.1",
+      "url": "https://github.com/gomods/athens/releases/tag/v0.17.1",
+      "published": "2026-05-12T18:46:36Z",
+      "preview": "What's Changed fix: use default config for config files by @nrwiersma in #2108 fix: support external_account workload identity, add tests by @DrPsychick in #2120 chinese translations of design by @sufu777 in #2110 New Contributors @sufu777 made their first contribution in #2110 Full Changelog : v0.17.0...v0.17.1",
+      "source": "Athens releases",
+      "category": "Go"
+    },
+    {
+      "title": "0.11.14",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.14",
+      "published": "2026-05-12T18:04:36Z",
+      "preview": "Release Notes Released on 2026-05-12. Enhancements Add Astral mirror URL override ( #19206 ) Ignore top_level.txt entries in uninstall that are not valid Python identifiers ( #19340 ) Bug fixes Avoid applying .env files in parent process ( #19343 ) Filter ANSI codes in logging output ( #19311 ) Fix uv tree showing extra-conditional deps for packages required without extras ( #19332 ) Respect build options (e.g., --no-build ) during lock validation ( #19366 ) Install uv 0.11.14 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/u",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "5.4.2.1",
+      "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.2.1",
+      "published": "2026-05-12T14:15:14Z",
+      "preview": "Update translations from weblate Move system-repo.lock to /var/lib/dnf/system-repo.lock dnfdaemon: Document interactive option in D-Bus API dnfdaemon: Add repo_key_imported informational signal dnfdaemon: Avoid timeout on repo key import dnfdaemon: Pass interactive parameter to repo key import callback refactor(download): preallocate memory in DownloadCommand::configure Fix list --installed-from-repo to imply --installed Fix typos in docs, comments, and user-facing strings dnf5.8.rst: s/sytem/system Suggest allow_vendor_change=true when solver blocks vendor update Shell completion: use space f",
+      "source": "DNF5 releases",
+      "category": "System"
+    },
+    {
+      "title": "9.5.1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.5.1",
+      "published": "2026-05-12T14:14:22Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.5.1. Here are the highlights of this release: Task provenance in reports and failure messages Type-safe accessors for precompiled Kotlin Settings plugins Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: atm1020 , mataha , Adam , Attila Kelemen , Benedikt Ritter , Björn Kautler , Caro Silva Rode , CHANHAN , Dmitry Nezavitin , Eng Zer Jun , KugelLibelle , Madalin Valceleanu , Markus Gaisbauer , Oliver Kopp , Philip Wedemann , ploober , Roberto Perez Alcolea , Rohit Anan",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "20260512t124000-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260512t124000-all",
+      "published": "2026-05-12T12:40:21Z",
+      "preview": "Deployment at 2026-05-12T12:40:18.344790Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "20260512t100400-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260512t100400-all",
+      "published": "2026-05-12T10:04:10Z",
+      "preview": "Deployment at 2026-05-12T10:04:08.298757Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2.0.0-beta.12",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.12",
+      "published": "2026-05-11T18:20:35Z",
+      "preview": "v2.0.0-beta.12",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "5.1.11",
+      "url": "https://github.com/Homebrew/brew/releases/tag/5.1.11",
+      "published": "2026-05-11T07:25:58Z",
+      "preview": "What's Changed info: list installed dependents with --verbose by @HaraldNordgren in #22163 bundle/checker: enable typed: strict by @bittoby in #22157 Supports in repository patch files by @rexmhall09 in #22144 bundle/commands/exec: enable typed: strict by @bittoby in #22167 dev-cmd/tests: remove obsolete HOMEBREW_REALLY_USE_INTERNAL_API cleanup by @bittoby in #22168 docs: formula-cookbook remove deprecated string replacement instructions by @GunniBusch in #22169 Test bare cask macOS dependencies by @MikeMcQuaid in #22166 build(deps): bump github/codeql-action from 4.35.2 to 4.35.3 in the githu",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "v2.14.4",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.4",
+      "published": "2026-05-11T04:11:29Z",
+      "preview": "What's Changed Component updates ⬆️ [CHERRY_PICK] fix(session): fix SessionRegenerate save args and lifetime by @chlins in #22882 [CHERRY-PICK] feat(session): prevent background polling from renewing session TTL by @chlins in #23098 (cherry-pick) Fix issue related to scanner API by @stonezdj in #23109 (cherry-pick) Call /v2/auth/token api to get bearer token for dockerhub adapter by @stonezdj in #23208 bump Go to 1.25.9 and use goharbor/photon:5.0 base images by @stonezdj in #23204 Bump up the go.opentelemetry.io/otel/sdk and github.com/go-jose/go-jose package by @stonezdj in #23215 (cherry-pi",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
+      "title": "0.11.13",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.13",
+      "published": "2026-05-11T01:40:21Z",
+      "preview": "Release Notes Released on 2026-05-10. Bug fixes Include data files in editable builds ( #19312 ) Respect --require-hashes when installing from pylock.toml files ( #19334 ) Python Add CPython 3.14.5 Install uv 0.11.13 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.13/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/download/0.11.13/uv-installer.ps1 | iex \" Download uv 0.11.13 File Platform Ch",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "pnpm 11.1",
+      "url": "https://pnpm.io/blog/releases/11.1",
+      "published": "2026-05-11T00:00:00Z",
+      "preview": "pnpm 11.1 adds a few new commands — pnpm audit signatures, pnpm bugs, and pnpm owner — alongside support for installing from arbitrary named registries (including a built-in alias for the GitHub Packages npm registry), the ability to skip runtime installation in CI, and several fixes.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v6.6.0",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.6.0",
+      "published": "2026-05-10T13:22:10Z",
+      "preview": "What's Changed feat: update core dependencies by @juanpicado in #5832 chore(deps): update yarn to v4.14.1 (6.x) by @renovate [bot] in #5866 fix(deps): update core verdaccio dependencies (6.x) by @renovate [bot] in #5865 fix: migrate to run server internally by @juanpicado in #5868 fix: tarball might fail #5829 by @juanpicado in #5869 fix(deps): update dependency semver to v7.8.0 (6.x) by @renovate [bot] in #5867 Full Changelog : v6.5.2...v6.6.0",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.26.9",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.26.9",
+      "published": "2026-05-10T11:06:43Z",
+      "preview": "Features & Improvements Support exclude-newer in pyproject.toml in the [tool.pdm.resolution] table ( #3776 ) Bug Fixes Preserve pylock package markers when refreshing lockfile hashes. ( #3773 ) What's Changed Remove dead code by @duriantaco in #3774 [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci [bot] in #3780 chore(deps): bump the actions group with 5 updates by @dependabot [bot] in #3778 fix: update pdm_scheme to set pep582_base in sysconfig and add corresponding test by @frostming in #3781 Allow exclude-newer to be defined in pyproject.toml by @sneakers-the-rat in #3782 New Contrib",
+      "source": "PDM releases",
+      "category": "Python"
+    },
+    {
+      "title": "v2.14.4-rc1",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.4-rc1",
+      "published": "2026-05-10T03:53:14Z",
+      "preview": "What's Changed Component updates ⬆️ [CHERRY_PICK] fix(session): fix SessionRegenerate save args and lifetime by @chlins in #22882 [CHERRY-PICK] feat(session): prevent background polling from renewing session TTL by @chlins in #23098 (cherry-pick) Fix issue related to scanner API by @stonezdj in #23109 (cherry-pick) Call /v2/auth/token api to get bearer token for dockerhub adapter by @stonezdj in #23208 bump Go to 1.25.9 and use goharbor/photon:5.0 base images by @stonezdj in #23204 Bump up the go.opentelemetry.io/otel/sdk and github.com/go-jose/go-jose package by @stonezdj in #23215 (cherry-pi",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
+      "title": "@verdaccio/signature@8.0.1",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fsignature%408.0.1",
+      "published": "2026-05-09T17:05:39Z",
+      "preview": "@verdaccio/signature@8.0.1",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/test-helper@4.0.1",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%404.0.1",
+      "published": "2026-05-09T17:05:39Z",
+      "preview": "@verdaccio/test-helper@4.0.1",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/url@13.0.1",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4013.0.1",
+      "published": "2026-05-09T17:05:39Z",
+      "preview": "@verdaccio/url@13.0.1",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/utils@8.1.1",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Futils%408.1.1",
+      "published": "2026-05-09T17:05:39Z",
+      "preview": "@verdaccio/utils@8.1.1",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/tarball@13.0.1",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4013.0.1",
+      "published": "2026-05-09T17:05:39Z",
+      "preview": "@verdaccio/tarball@13.0.1",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.4.1",
+      "url": "https://github.com/python-poetry/poetry/releases/tag/2.4.1",
+      "published": "2026-05-09T15:18:04Z",
+      "preview": "Changed Re-allow installer==0.7.0 ( #10887 ). Fixed Fix an issue where poetry update <package> failed when <package> was a transitive dependency ( #10885 ).",
+      "source": "Poetry releases",
+      "category": "Python"
+    },
+    {
+      "title": "v9.6.0-M2",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0-M2",
+      "published": "2026-05-09T10:31:02Z",
+      "preview": "Run smoke-ide-tests with GProfiler ( #37800 )",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "0.11.12",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.12",
+      "published": "2026-05-08T22:38:38Z",
+      "preview": "Release Notes Released on 2026-05-08. Python Add CPython 3.15.0b1 Enhancements Add --no-editable support to uv pip install ( #19306 ) Require git refs in URLs to be percent-encoded ( #19320 ) Bug fixes Respect --no-dev over UV_DEV=1 ( #19313 ) Don't suggest non-existent --no-frozen flag ( #19290 ) ( #19294 ) Documentation Fix bug from inconsistent workflow name in GHA-PyPI guide example ( #19309 ) Install uv 0.11.12 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.12/uv-installer.sh | sh Install prebu",
+      "source": "uv releases",
+      "category": "Python"
+    }
+  ]
+}
