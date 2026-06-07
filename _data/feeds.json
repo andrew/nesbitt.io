@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-07T20:45:34Z",
-  "cutoff": "2026-05-08T20:45:31Z",
+  "generated": "2026-06-07T21:44:49Z",
+  "cutoff": "2026-05-08T21:44:45Z",
   "feed_count": 79,
   "item_count": 222,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.214.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.5",
+      "published": "2026-06-07T21:43:55Z",
+      "preview": "43.214.5 (2026-06-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.7 (main) ( #43856 ) ( 9bac785 ) Miscellaneous Chores deps: update containerbase/internal-tools action to v4.6.41 (main) ( #43854 ) ( 54df7e7 ) deps: update dependency type-fest to v5.7.0 (main) ( #43855 ) ( 251e67f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.214.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.4",
@@ -260,14 +268,6 @@
       "preview": "This is a release candidate of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
       "source": "winget releases",
       "category": "System"
-    },
-    {
-      "title": "43.212.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.212.4",
-      "published": "2026-06-04T17:39:51Z",
-      "preview": "43.212.4 (2026-06-04) Bug Fixes config: clarify that bumpVersions.bumpType supports templating ( #43805 ) ( 83bba0e ) config: mark relevant options with patternMatch ( #43798 ) ( 309af5a ), closes #40805",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.7.0",
