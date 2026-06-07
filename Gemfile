@@ -3,6 +3,7 @@ source "https://rubygems.org"
 ruby '4.0.5'
 
 gem "jekyll"
+gem "feedjira"
 
 group :jekyll_plugins do
   gem "jekyll-feed"

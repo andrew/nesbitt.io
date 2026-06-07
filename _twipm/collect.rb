@@ -1,21 +1,17 @@
 #!/usr/bin/env ruby
-require "sqlite3"
 require "octokit"
 require "json"
 require "time"
-require "fileutils"
 require "set"
-require "tmpdir"
 require "optparse"
-require "shellwords"
 require "net/http"
 require "uri"
+require_relative "feed_fetch"
 
 ROOT = File.expand_path("..", __dir__)
 TWIPM = File.join(ROOT, "_twipm")
-NEWSBOAT_DIR = File.join(TWIPM, "newsboat")
-URLS_FILE = File.join(NEWSBOAT_DIR, "urls")
-CACHE_DB = File.join(NEWSBOAT_DIR, "cache.db")
+FEEDS_JSON = File.join(ROOT, "_data/feeds.json")
+EXTRA_FEEDS = File.join(TWIPM, "extra_feeds.txt")
 BOOKMARKS_TXT = File.join(TWIPM, "bookmarks.txt")
 OUTPUT = File.join(TWIPM, "collected.json")
 MASTODON_INSTANCE = "https://mastodon.social"
@@ -24,65 +20,21 @@ GIT_PKGS_ORG = "git-pkgs"
 DBLP_TERMS = ["package manager", "software supply chain", "dependency confusion", "typosquatting"]
 DBLP_SEEN = File.join(TWIPM, "dblp_seen.txt")
 
-options = { days: 7, reload: true }
+options = { days: 7 }
 OptionParser.new do |o|
   o.on("--days N", Integer) { |v| options[:days] = v }
   o.on("--since DATE") { |v| options[:since] = Time.parse(v) }
-  o.on("--no-reload") { options[:reload] = false }
 end.parse!
 
 since = options[:since] || (Time.now - options[:days] * 86400)
 
-def strip_html(s)
-  s.to_s.gsub(/<[^>]+>/, " ").gsub(/\s+/, " ").strip
-end
-
-def parse_urls_file(path)
-  feeds = {}
-  File.readlines(path).each do |line|
-    line = line.strip
-    next if line.empty? || line.start_with?("#")
-    parts = Shellwords.split(line)
-    url = parts.shift
-    name = parts.find { |p| p.start_with?("~") }&.delete_prefix("~")
-    tags = parts.reject { |p| p.start_with?("~") }
-    feeds[url] = { name: name, category: tags.first }
-  end
-  feeds
-end
-
-def reload_feeds
-  cmd = [
-    "newsboat",
-    "-u", URLS_FILE,
-    "-c", CACHE_DB,
-    "-C", File.join(NEWSBOAT_DIR, "config"),
-    "-x", "reload"
-  ]
-  warn "Reloading feeds..."
-  system(*cmd) or warn "newsboat reload exited nonzero"
-end
-
-def collect_feed_items(since, feed_meta)
-  db = SQLite3::Database.new(CACHE_DB, readonly: true)
-  rows = db.execute(<<~SQL, [since.to_i])
-    SELECT i.title, i.url, i.pubDate, i.feedurl, i.content
-    FROM rss_item i
-    WHERE i.pubDate >= ?
-    ORDER BY i.pubDate DESC
-  SQL
-  db.close
-
-  rows.map do |title, url, pub, feedurl, content|
-    meta = feed_meta[feedurl] || {}
-    {
-      title: title,
-      url: url,
-      published: Time.at(pub).utc.iso8601,
-      source: meta[:name] || feedurl,
-      category: meta[:category],
-      preview: strip_html(content)[0, 400]
-    }
+def load_feeds_json(path, since)
+  abort "#{path} not found - run `rake feeds` first" unless File.exist?(path)
+  data = JSON.parse(File.read(path), symbolize_names: true)
+  data[:items].filter_map do |i|
+    pub = Time.parse(i[:published])
+    next if pub < since
+    i.merge(published: pub.utc.iso8601)
   end
 end
 
@@ -104,46 +56,6 @@ def collapse_releases(items)
       }]
     end
   end.sort_by { |i| i[:published] }.reverse
-end
-
-def firefox_places_path
-  case RUBY_PLATFORM
-  when /darwin/
-    Dir.glob(File.expand_path("~/Library/Application Support/Firefox/Profiles/*/places.sqlite")).first
-  when /linux/
-    Dir.glob(File.expand_path("~/.mozilla/firefox/*/places.sqlite")).first
-  end
-end
-
-def collect_firefox_bookmarks(since, tag: "twipm")
-  src = firefox_places_path
-  return [] unless src && File.exist?(src)
-
-  Dir.mktmpdir do |dir|
-    %w[places.sqlite places.sqlite-wal places.sqlite-shm].each do |f|
-      path = File.join(File.dirname(src), f)
-      FileUtils.cp(path, dir) if File.exist?(path)
-    end
-    db = SQLite3::Database.new(File.join(dir, "places.sqlite"), readonly: true)
-    rows = db.execute(<<~SQL, [tag, since.to_i * 1_000_000])
-      SELECT p.url, p.title, b.dateAdded
-      FROM moz_bookmarks tags_root
-      JOIN moz_bookmarks tag_folder ON tag_folder.parent = tags_root.id
-      JOIN moz_bookmarks b ON b.parent = tag_folder.id
-      JOIN moz_places p ON p.id = b.fk
-      WHERE tags_root.guid = 'tags________'
-        AND tag_folder.title = ?
-        AND b.dateAdded >= ?
-      ORDER BY b.dateAdded DESC
-    SQL
-    db.close
-    rows.map do |url, title, added|
-      { url: url, title: title, added: Time.at(added / 1_000_000).utc.iso8601, via: "firefox" }
-    end
-  end
-rescue => e
-  warn "firefox bookmarks skipped: #{e.message}"
-  []
 end
 
 def mastodon_get(path)
@@ -177,7 +89,7 @@ def collect_mastodon_boosts(since)
         published: created.utc.iso8601,
         source: "Mastodon boosts",
         category: "Mastodon",
-        preview: strip_html(r["content"])[0, 400],
+        preview: FeedFetch.strip_html(r["content"])[0, 400],
         links: links
       }
     end
@@ -273,14 +185,16 @@ def collect_bookmarks_txt(path)
   end
 end
 
-reload_feeds if options[:reload]
+opml_items = load_feeds_json(FEEDS_JSON, since)
+extra_feeds = FeedFetch.parse_urls_file(EXTRA_FEEDS)
+warn "Fetching #{extra_feeds.size} extra feeds..." unless extra_feeds.empty?
+extra_results, _ok = FeedFetch.fetch_feeds(extra_feeds)
+extra_items = extra_results.reject { |i| i[:published] < since }.map { |i| i.merge(published: i[:published].iso8601) }
 
-feed_meta = parse_urls_file(URLS_FILE)
-items = collect_feed_items(since, feed_meta) + collect_mastodon_boosts(since)
-collapsed = collapse_releases(items)
+feed_items = opml_items + extra_items + collect_mastodon_boosts(since)
+collapsed = collapse_releases(feed_items)
 
-bookmarks = collect_firefox_bookmarks(since) + collect_bookmarks_txt(BOOKMARKS_TXT)
-bookmarks.uniq! { |b| b[:url] }
+bookmarks = collect_bookmarks_txt(BOOKMARKS_TXT)
 
 git_pkgs = collect_git_pkgs_releases(since)
 dblp = collect_dblp
@@ -288,7 +202,7 @@ dblp = collect_dblp
 result = {
   since: since.utc.iso8601,
   generated: Time.now.utc.iso8601,
-  feed_item_count: items.size,
+  feed_item_count: feed_items.size,
   feeds: collapsed,
   bookmarks: bookmarks,
   git_pkgs: git_pkgs,
@@ -296,4 +210,4 @@ result = {
 }
 
 File.write(OUTPUT, JSON.pretty_generate(result))
-warn "Wrote #{collapsed.size} feed items (#{items.size} raw), #{bookmarks.size} bookmarks, #{git_pkgs.size} git-pkgs releases, #{dblp.count { |d| d[:new] }}/#{dblp.size} new DBLP papers to #{OUTPUT}"
+warn "Wrote #{collapsed.size} feed items (#{feed_items.size} raw), #{bookmarks.size} bookmarks, #{git_pkgs.size} git-pkgs releases, #{dblp.count { |d| d[:new] }}/#{dblp.size} new DBLP papers to #{OUTPUT}"

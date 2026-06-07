@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-07T12:56:15Z",
-  "cutoff": "2026-05-08T12:56:10Z",
+  "generated": "2026-06-07T13:14:44Z",
+  "cutoff": "2026-05-08T13:14:39Z",
   "feed_count": 79,
   "item_count": 222,
   "categories": [
@@ -494,16 +494,16 @@
       "category": "Multi-language"
     },
     {
-      "title": "pixi-build-mojo-v0.1.14",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.1.14",
+      "title": "pixi-build-python-v0.5.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.5.2",
       "published": "2026-06-02T08:44:26Z",
       "preview": "chore: bump backend versions ( #6254 )",
       "source": "pixi releases",
       "category": "Multi-language"
     },
     {
-      "title": "pixi-build-python-v0.5.2",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.5.2",
+      "title": "pixi-build-rattler-build-v0.3.13",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.3.13",
       "published": "2026-06-02T08:44:26Z",
       "preview": "chore: bump backend versions ( #6254 )",
       "source": "pixi releases",
@@ -526,8 +526,8 @@
       "category": "Multi-language"
     },
     {
-      "title": "pixi-build-rattler-build-v0.3.13",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.3.13",
+      "title": "pixi-build-mojo-v0.1.14",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.1.14",
       "published": "2026-06-02T08:44:26Z",
       "preview": "chore: bump backend versions ( #6254 )",
       "source": "pixi releases",
@@ -550,10 +550,10 @@
       "category": "JavaScript"
     },
     {
-      "title": "@yarnpkg/pnp/4.1.7",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fpnp%2F4.1.7",
+      "title": "@yarnpkg/eslint-config/3.1.1",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Feslint-config%2F3.1.1",
       "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/pnp",
+      "preview": "@yarnpkg/eslint-config",
       "source": "Yarn releases",
       "category": "JavaScript"
     },
@@ -566,6 +566,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "2026-06-02",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-06-02",
+      "published": "2026-06-02T07:11:27Z",
+      "preview": "2026-06-02",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "@yarnpkg/sdks/3.3.0",
       "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fsdks%2F3.3.0",
       "published": "2026-06-02T07:11:27Z",
@@ -574,10 +582,10 @@
       "category": "JavaScript"
     },
     {
-      "title": "@yarnpkg/eslint-config/3.1.1",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Feslint-config%2F3.1.1",
+      "title": "@yarnpkg/pnp/4.1.7",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fpnp%2F4.1.7",
       "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/eslint-config",
+      "preview": "@yarnpkg/pnp",
       "source": "Yarn releases",
       "category": "JavaScript"
     },
@@ -586,14 +594,6 @@
       "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-npm-cli%2F4.5.0",
       "published": "2026-06-02T07:11:27Z",
       "preview": "@yarnpkg/plugin-npm-cli",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "2026-06-02",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-06-02",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "2026-06-02",
       "source": "Yarn releases",
       "category": "JavaScript"
     },
@@ -1134,18 +1134,18 @@
       "category": "Maven"
     },
     {
-      "title": "Security Advisory for Cargo (CVE-2026-5223)",
-      "url": "https://blog.rust-lang.org/2026/05/25/cve-2026-5223/",
-      "published": "2026-05-25T00:00:00Z",
-      "preview": "The Rust Security Response Team was notified that Cargo incorrectly handled symlinks inside of crate tarballs downloaded from third-party registries, allowing a malicious crate to override the source code of another crate from the same registry. This vulnerability is tracked as CVE-2026-5223. The severity of the vulnerability is medium for users of third-party registries. Users of crates.io are not affected , as crates.io forbids uploading crates containing any symlink. Overview When building a crate, Cargo extracts its source code in a local cache (stored within ~/.cargo ), reusing it for any",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
       "title": "Security Advisory for Cargo (CVE-2026-5222)",
       "url": "https://blog.rust-lang.org/2026/05/25/cve-2026-5222/",
       "published": "2026-05-25T00:00:00Z",
       "preview": "The Rust Security Response Team was notified that Cargo incorrectly normalized the URLs of third-party registries using the sparse index protocol . If a hosting provider allowed multiple registries to be hosted with arbitrary names within the same domain, an attacker able to publish crates in a registry could obtain the credentials of others users of the same registry. This vulnerability is tracked as CVE-2026-5222. The severity of the vulnerability is low , due to the extremely niche requirements needed to achieve the attack. Overview Originally Cargo only supported storing a registry's index",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
+      "title": "Security Advisory for Cargo (CVE-2026-5223)",
+      "url": "https://blog.rust-lang.org/2026/05/25/cve-2026-5223/",
+      "published": "2026-05-25T00:00:00Z",
+      "preview": "The Rust Security Response Team was notified that Cargo incorrectly handled symlinks inside of crate tarballs downloaded from third-party registries, allowing a malicious crate to override the source code of another crate from the same registry. This vulnerability is tracked as CVE-2026-5223. The severity of the vulnerability is medium for users of third-party registries. Users of crates.io are not affected , as crates.io forbids uploading crates containing any symlink. Overview When building a crate, Cargo extracts its source code in a local cache (stored within ~/.cargo ), reusing it for any",
       "source": "Rust Blog",
       "category": "Rust"
     },
@@ -1350,14 +1350,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "2026-05-19",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-05-19",
-      "published": "2026-05-19T22:20:40Z",
-      "preview": "2026-05-19",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "@yarnpkg/pnp/4.1.6",
       "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fpnp%2F4.1.6",
       "published": "2026-05-19T22:20:40Z",
@@ -1370,6 +1362,14 @@
       "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnpm%2F2.2.0",
       "published": "2026-05-19T22:20:40Z",
       "preview": "@yarnpkg/plugin-pnpm",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2026-05-19",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-05-19",
+      "published": "2026-05-19T22:20:40Z",
+      "preview": "2026-05-19",
       "source": "Yarn releases",
       "category": "JavaScript"
     },
@@ -1734,10 +1734,10 @@
       "category": "Containers"
     },
     {
-      "title": "@verdaccio/signature@8.0.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fsignature%408.0.1",
+      "title": "@verdaccio/url@13.0.1",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4013.0.1",
       "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/signature@8.0.1",
+      "preview": "@verdaccio/url@13.0.1",
       "source": "Verdaccio releases",
       "category": "JavaScript"
     },
@@ -1750,10 +1750,18 @@
       "category": "JavaScript"
     },
     {
-      "title": "@verdaccio/url@13.0.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4013.0.1",
+      "title": "@verdaccio/tarball@13.0.1",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4013.0.1",
       "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/url@13.0.1",
+      "preview": "@verdaccio/tarball@13.0.1",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/signature@8.0.1",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fsignature%408.0.1",
+      "published": "2026-05-09T17:05:39Z",
+      "preview": "@verdaccio/signature@8.0.1",
       "source": "Verdaccio releases",
       "category": "JavaScript"
     },
@@ -1762,14 +1770,6 @@
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Futils%408.1.1",
       "published": "2026-05-09T17:05:39Z",
       "preview": "@verdaccio/utils@8.1.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/tarball@13.0.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4013.0.1",
-      "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/tarball@13.0.1",
       "source": "Verdaccio releases",
       "category": "JavaScript"
     },

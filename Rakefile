@@ -3,32 +3,28 @@ task default: :test
 require "jekyll-standard-site/tasks"
 
 namespace :twipm do
-  NEWSBOAT_ARGS = %w[
-    -u _twipm/newsboat/urls
-    -c _twipm/newsboat/cache.db
-    -C _twipm/newsboat/config
-  ].freeze
-
-  desc "Re-fetch OPML from ecosyste-ms and reimport feed list"
+  desc "Re-fetch OPML from ecosyste-ms"
   task :opml do
     require "net/http"
     url = "https://raw.githubusercontent.com/ecosyste-ms/package-managers-opml/main/package-manager.opml"
     body = Net::HTTP.get(URI(url))
-    File.write("_twipm/newsboat/package-manager.opml", body)
-    File.write("_twipm/newsboat/urls", "")
-    sh "newsboat", *NEWSBOAT_ARGS, "-i", "_twipm/newsboat/package-manager.opml"
-    extra = "_twipm/newsboat/urls.extra"
-    File.open("_twipm/newsboat/urls", "a") { |f| f.write(File.read(extra)) } if File.exist?(extra)
-    puts File.readlines("_twipm/newsboat/urls").size.to_s + " feeds"
+    File.write("_twipm/package-manager.opml", body)
+    puts "Updated _twipm/package-manager.opml"
   end
 
-  desc "Reload feeds and write _twipm/collected.json (default 7 days)"
+  desc "Write _twipm/collected.json from _data/feeds.json + extras (default 7 days)"
   task :collect, [:days] do |t, args|
     days = args[:days] || "7"
     Bundler.with_unbundled_env do
       sh({ "BUNDLE_GEMFILE" => "_twipm/Gemfile" }, "bundle", "exec", "ruby", "_twipm/collect.rb", "--days", days)
     end
   end
+end
+
+desc "Fetch all OPML feeds and write _data/feeds.json (default 30 days)"
+task :feeds, [:days] do |t, args|
+  days = args[:days] || "30"
+  sh "bundle", "exec", "ruby", "_twipm/fetch_feeds.rb", "--days", days
 end
 
 namespace :papers do
