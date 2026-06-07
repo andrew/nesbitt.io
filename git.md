@@ -36,6 +36,14 @@ description: Posts about git internals, extensions, and tools built on git.
 
 <p>Everything I've written about git, organized by type.</p>
 
+<nav class="page-chips" aria-label="Sections">
+  <a class="page-chip" href="#reference">Reference</a>
+  <a class="page-chip" href="#git-pkgs">git-pkgs</a>
+  <a class="page-chip" href="#github">GitHub</a>
+  <a class="page-chip" href="#deep-dives">Deep dives</a>
+  <a class="page-chip" href="#everything-else">Everything else</a>
+</nav>
+
 {%- assign git_posts = site.posts | where_exp: "post", "post.tags contains 'git'" -%}
 
 <h3 id="reference">Reference</h3>

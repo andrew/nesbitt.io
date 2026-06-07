@@ -769,17 +769,25 @@ section li p{
   color: var(--color-secondary);
 }
 
+/* Page intro paragraph */
+.page-intro{
+  color: var(--color-secondary);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
 /* Projects page */
-.featured-list{
-  margin: 15px 0;
+.post-content .featured-list{
+  margin: 15px 0 30px 0;
   padding: 0;
 }
 
-.featured-list li{
+.post-content .featured-list li{
   list-style: none;
   display: flex;
   align-items: flex-start;
   margin-bottom: 15px;
+  padding: 0;
 }
 
 .featured-list h4{
@@ -792,12 +800,12 @@ section li p{
   margin: 5px 0 0 0;
 }
 
-.project-list{
+.post-content .project-list{
   margin: 15px 0;
   padding: 0;
 }
 
-.project-list li{
+.post-content .project-list li{
   list-style: none;
   padding: 0;
   margin: 0 0 20px;
@@ -858,11 +866,11 @@ h1.home-title{
   margin: 12px 0 16px 0;
 }
 
-.home-chips{
+.page-chips{
   margin: 20px 0 28px 0;
 }
 
-.home-chip{
+.page-chip{
   display: inline-block;
   padding: 4px 10px;
   margin: 0 6px 6px 0;
@@ -873,7 +881,7 @@ h1.home-title{
   border-radius: 4px;
 }
 
-.home-chip:hover{
+.page-chip:hover{
   color: var(--color-accent) !important;
   border-color: var(--color-accent);
   text-decoration: none;

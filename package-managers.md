@@ -36,6 +36,17 @@ description: Posts about package management, dependency resolution, and software
 
 <p>Everything I've written about package managers, organized by type.</p>
 
+<nav class="page-chips" aria-label="Sections">
+  <a class="page-chip" href="#reference">Reference</a>
+  <a class="page-chip" href="#ideas">Ideas</a>
+  <a class="page-chip" href="#deep-dives">Deep dives</a>
+  <a class="page-chip" href="#tools">Tools</a>
+  <a class="page-chip" href="#security">Security</a>
+  <a class="page-chip" href="#satire">Satire</a>
+  <a class="page-chip" href="#weekly">Weekly</a>
+  <a class="page-chip" href="#everything-else">Everything else</a>
+</nav>
+
 {%- assign pm_posts = site.posts | where_exp: "post", "post.tags contains 'package-managers'" -%}
 
 <h3 id="reference">Reference</h3>
