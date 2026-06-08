@@ -39,14 +39,20 @@ results.reject! { |i| i[:published] < cutoff }
 results.sort_by! { |i| [-i[:published].to_i, i[:source].to_s, i[:title].to_s, i[:url].to_s] }
 results = results.first(options[:max_items])
 
-payload = {
-  generated: Time.now.utc.iso8601,
-  cutoff: cutoff.iso8601,
-  feed_count: feeds.size,
-  item_count: results.size,
-  categories: feeds.map { |f| f[:category] }.uniq.sort,
-  items: results.map { |i| i.merge(published: i[:published].iso8601) }
-}
+items = results.map { |i| i.merge(published: i[:published].iso8601) }
 
-File.write(OUTPUT, JSON.pretty_generate(payload) + "\n")
-warn "Wrote #{results.size} items from #{ok}/#{feeds.size} feeds to #{OUTPUT}"
+existing = File.exist?(OUTPUT) ? JSON.parse(File.read(OUTPUT)) : nil
+if existing && existing["items"] == JSON.parse(items.to_json)
+  warn "No changes to items, leaving #{OUTPUT} untouched"
+else
+  payload = {
+    generated: Time.now.utc.iso8601,
+    cutoff: cutoff.iso8601,
+    feed_count: feeds.size,
+    item_count: results.size,
+    categories: feeds.map { |f| f[:category] }.uniq.sort,
+    items: items
+  }
+  File.write(OUTPUT, JSON.pretty_generate(payload) + "\n")
+  warn "Wrote #{results.size} items from #{ok}/#{feeds.size} feeds to #{OUTPUT}"
+end
