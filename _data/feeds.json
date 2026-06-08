@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-08T15:32:43Z",
-  "cutoff": "2026-05-09T15:32:39Z",
+  "generated": "2026-06-08T17:27:43Z",
+  "cutoff": "2026-05-09T17:27:38Z",
   "feed_count": 79,
-  "item_count": 221,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.8.1",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.8.1",
+      "published": "2026-06-08T15:56:22Z",
+      "preview": "release libmamba 2.8.1, micromamba 2.8.1, libmambapy 2.8.1",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
     {
       "title": "0.70.2 - 2026-06-08",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.70.2",
@@ -1748,46 +1756,6 @@
       "preview": "What's Changed Component updates ⬆️ [CHERRY_PICK] fix(session): fix SessionRegenerate save args and lifetime by @chlins in #22882 [CHERRY-PICK] feat(session): prevent background polling from renewing session TTL by @chlins in #23098 (cherry-pick) Fix issue related to scanner API by @stonezdj in #23109 (cherry-pick) Call /v2/auth/token api to get bearer token for dockerhub adapter by @stonezdj in #23208 bump Go to 1.25.9 and use goharbor/photon:5.0 base images by @stonezdj in #23204 Bump up the go.opentelemetry.io/otel/sdk and github.com/go-jose/go-jose package by @stonezdj in #23215 (cherry-pi",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "@verdaccio/signature@8.0.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fsignature%408.0.1",
-      "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/signature@8.0.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/tarball@13.0.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4013.0.1",
-      "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/tarball@13.0.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/test-helper@4.0.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%404.0.1",
-      "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/test-helper@4.0.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/url@13.0.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4013.0.1",
-      "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/url@13.0.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/utils@8.1.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Futils%408.1.1",
-      "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/utils@8.1.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     }
   ]
 }
