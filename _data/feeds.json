@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-08T17:27:43Z",
-  "cutoff": "2026-05-09T17:27:38Z",
+  "generated": "2026-06-08T20:02:14Z",
+  "cutoff": "2026-05-09T20:02:10Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.216.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.216.2",
+      "published": "2026-06-08T19:44:00Z",
+      "preview": "43.216.2 (2026-06-08) Bug Fixes manager/flux: pin tag-only OCIRepository digests to spec.ref.digest ( #43753 ) ( 5e4ef74 ) Miscellaneous Chores deps: update dependency tar to v7.5.16 (main) ( #43880 ) ( 5e6b309 ) deps: update linters to v1.68.0 (main) ( #43883 ) ( 527c3df ) Code Refactoring schema-utils: add DeepNullish and use it for conda pypi ( #43877 ) ( d23bef9 ) Continuous Integration agents: extend AGENTS.md and add Claude hooks ( #43470 ) ( b632d27 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.8.1",
       "url": "https://github.com/mamba-org/mamba/releases/tag/2.8.1",
@@ -212,14 +220,6 @@
       "preview": "Insert 7.8.0.59 into rel/insiders on 06/05/2026 22:28:21",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "43.214.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.0",
-      "published": "2026-06-05T20:39:50Z",
-      "preview": "43.214.0 (2026-06-05) Features manager/nuget: default rangeStrategy to bump ( #43820 ) ( 4f7eed4 ) Documentation manger/github-actions: reword \"community actions\" section ( #43829 ) ( 4bf6bd9 ) Tests workers/global: fix typo ( #43838 ) ( 8c6a8d8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.9.0.15",
