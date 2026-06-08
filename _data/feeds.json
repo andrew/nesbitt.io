@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-08T05:59:02Z",
-  "cutoff": "2026-05-09T05:58:58Z",
+  "generated": "2026-06-08T08:09:17Z",
+  "cutoff": "2026-05-09T08:08:09Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 141,
   "categories": [
     ".NET",
     "C/C++",
@@ -70,14 +70,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "SDK-3.13.0-180.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-180.0.dev",
-      "published": "2026-06-07T00:51:56Z",
-      "preview": "SDK 3.13.0-180.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "v2026.6.1: aqua multi-registry, SOPS TOML, and a GitHub backend tune-up",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.6.1",
       "published": "2026-06-07T00:31:53Z",
@@ -116,30 +108,6 @@
       "preview": "43.214.2 (2026-06-06) Bug Fixes config/validation: validate children of arrays in global config ( #43836 ) ( 460fa82 ) types: allow global config to be set in repositories ( #43837 ) ( 0ba948c ) Tests config/validation: remove platformConfig test ( #43835 ) ( d0deb90 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "SDK-3.13.0-179.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-179.0.dev",
-      "published": "2026-06-06T00:48:41Z",
-      "preview": "SDK 3.13.0-179.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-178.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-178.0.dev",
-      "published": "2026-06-06T00:48:39Z",
-      "preview": "SDK 3.13.0-178.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-177.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-177.0.dev",
-      "published": "2026-06-06T00:48:36Z",
-      "preview": "SDK 3.13.0-177.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "43.214.1",
@@ -198,14 +166,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "2.8.0",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.8.0",
-      "published": "2026-06-05T08:55:06Z",
-      "preview": "You can update micromamba to this version using: micromamba self-update Bug fixes: [libmamba] fix: Restore cross-channel expansion by @jjerphan in #4304 [libmamba, micromamba] JSON output api rewritten to avoid JSON flattening by @Klaim in #4284",
-      "source": "Mamba releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-03-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-03-a",
       "published": "2026-06-05T08:54:38Z",
@@ -220,70 +180,6 @@
       "preview": "Patch Changes Peer dependency resolution now reuses the peer contexts already recorded in the lockfile when those providers are still present in the dependency graph and still satisfy the peer ranges. This avoids unnecessary peer-context rewrites during lockfile regeneration. Current manifest choices remain authoritative: a newly added, explicitly updated, or aliased direct provider, a changed nested provider, or a locked version that no longer satisfies the range still takes precedence. The lockfile verifier now checks that a registry entry pinning an explicit tarball URL points at the artifa",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "SDK-3.13.0-176.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-176.0.dev",
-      "published": "2026-06-05T00:51:13Z",
-      "preview": "SDK 3.13.0-176.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-175.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-175.0.dev",
-      "published": "2026-06-05T00:51:10Z",
-      "preview": "SDK 3.13.0-175.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-174.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-174.0.dev",
-      "published": "2026-06-05T00:51:08Z",
-      "preview": "SDK 3.13.0-174.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-173.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-173.0.dev",
-      "published": "2026-06-05T00:51:06Z",
-      "preview": "SDK 3.13.0-173.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-172.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-172.0.dev",
-      "published": "2026-06-05T00:51:03Z",
-      "preview": "SDK 3.13.0-172.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-171.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-171.0.dev",
-      "published": "2026-06-05T00:51:01Z",
-      "preview": "SDK 3.13.0-171.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "Windows Package Manager 1.29.250",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.250",
-      "published": "2026-06-05T00:30:50Z",
-      "preview": "This is a release candidate of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
-      "source": "winget releases",
-      "category": "System"
-    },
-    {
-      "title": "2.7.0",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.7.0",
-      "published": "2026-06-04T14:27:52Z",
-      "preview": "You can update micromamba to this version using: micromamba self-update Bug fixes: [libmamba] fix: Harden noarch:python entry point linking by @jjerphan in #4282 [libmamba] fix: Guard Root Packages' Expansion by @jjerphan in #4283 [micromamba, libmamba] fix: Adapt root packages expansion by @jjerphan in #4298 [micromamba, libmamba] fix: Populate python_site_packages_path independently from host by @jjerphan in #4288 [libmamba] Fallback to flat cache dir if missing hierarchical by @Hind-M in #4290 [micromamba, libmamba] fix: Adapt noarch unlink path normalization for conda interoperability by @",
-      "source": "Mamba releases",
-      "category": "Multi-language"
     },
     {
       "title": "7.9.0.11",
@@ -324,22 +220,6 @@
       "preview": "Insert 7.8.0.58 into rel/insiders on 06/04/2026 07:41:43",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "1.14.0",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.14.0",
-      "published": "2026-06-04T05:25:29Z",
-      "preview": "What's Changed ci: declare workflow-level contents: read on 3 remaining workflows by @arpitjain099 in #1822 Fix inject option parsing with --force before dependencies by @bubaizhanshen in #1820 docs: fix self-managed ensurepath command by @EddieBSN in #1823 chore(ci): restrict OIDC token to publish job by @facutuesca in #1826 Add --no-path-check to skip the on-PATH check in pipx run by @findepi in #1825 Add zizmor workflow and address findings by @facutuesca in #1827 Fix release push auth with persist-credentials: false by @gaborbernat in #1828 New Contributors @arpitjain099 made their first c",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "0.11.19",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.19",
-      "published": "2026-06-03T22:38:57Z",
-      "preview": "Release Notes Released on 2026-06-03. Python Add CPython 3.15.0b2 ( #19531 ) Enhancements Always compute SHA256 for remote distributions ( #19662 ) Add PyEmscripten platform (PEP 783) ( #19629 ) Add Pyodide 2025 target triple ( #19653 ) Preview features Make preview features for commands have names that aren't ambiguous with the command ( #19645 ) Respect --isolated in uv check ( #19666 ) Bug fixes Continue tool uninstall after dangling receipts ( #19623 ) Skip Unix-specific installation steps when cross-installing Windows Python distributions ( #19424 ) Install uv 0.11.19 Install prebuilt bin",
-      "source": "uv releases",
-      "category": "Python"
     },
     {
       "title": "v29.5.3",
@@ -550,116 +430,12 @@
       "category": "JavaScript"
     },
     {
-      "title": "v4.16.0",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.16.0",
-      "published": "2026-06-02T07:11:32Z",
-      "preview": "What's Changed PnP: Include Node 22.22.3 in fstat workaround by @junjuny0227 in #7141 Implements yarn npm stage by @arcanis in #7147 fix: Stop using EBADF workaround for Node 24.16.0+ by @MJDSys in #7152 Bumps eslint-plugin-arca by @arcanis in #7163 Enables staged publishing by @arcanis in #7164 feat: Add editor SDK support for oxc (oxfmt & oxlint) by @slainless in #7078 docs: fix npmMinimalAgeGate default value. by @ryanfox1985 in #7125 New Contributors @junjuny0227 made their first contribution in #7141 @MJDSys made their first contribution in #7152 @slainless made their first contribution i",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "2026-06-02",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-06-02",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "2026-06-02",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/eslint-config/3.1.1",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Feslint-config%2F3.1.1",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/eslint-config",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-npm-cli/4.5.0",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-npm-cli%2F4.5.0",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/plugin-npm-cli",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-pnp/4.1.7",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnp%2F4.1.7",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/plugin-pnp",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/pnp/4.1.7",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fpnp%2F4.1.7",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/pnp",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/sdks/3.3.0",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fsdks%2F3.3.0",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/sdks",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "Hatch v1.17.0",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.17.0",
-      "published": "2026-06-02T00:27:57Z",
-      "preview": "Changed: The hatch fmt command is now deprecated in favor of the new hatch check command group Migrate HTTP client from httpx to httpx2 Added: Add hatch check command group with subcommands for check code (linting), check fmt (formatting), and check types (type checking) Add hatch check types command for type checking using Pyrefly, with --summarize and --cover flags Add hatch env lock command to generate PEP 751 compliant lockfiles ( pylock.toml ) for environments Add hatch dep lock and hatch lock commands as shortcuts for locking the active environment Add hatch dep sync command for syncing ",
-      "source": "Hatch releases",
-      "category": "Python"
-    },
-    {
-      "title": "Hatchling v1.30.1",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.30.1",
-      "published": "2026-06-02T00:10:21Z",
-      "preview": "Fixed Default core metadata version kept at 2.4 until more tools support 2.5",
-      "source": "Hatch releases",
-      "category": "Python"
-    },
-    {
       "title": "Launching the Rust Foundation Maintainers Fund",
       "url": "https://blog.rust-lang.org/2026/06/02/launching-the-rust-foundation-maintainers-fund/",
       "published": "2026-06-02T00:00:00Z",
       "preview": "If you want to financially support the development of Rust, please consider donating to the Rust Foundation Maintainers Fund. A few months ago, the Rust Foundation announced the Rust Foundation Maintainers Fund (RFMF). Since then, the Rust Project has been closely cooperating with the Rust Foundation to determine how exactly this fund will be used to support Rust maintainers. This resulted in the acceptance of RFC #3931 , which established the Funding team and the Maintainer in Residence program. The primary goal of the Funding team is to ensure that maintainers who work on Rust and its toolch",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "26.5.2",
-      "url": "https://github.com/conda/conda/releases/tag/26.5.2",
-      "published": "2026-06-01T20:35:51Z",
-      "preview": "Bug fixes Validate Python entry point definitions before generating entry point scripts. ( #16168 ) Contributors @jaimergp Full Changelog : 26.5.1...26.5.2",
-      "source": "Conda releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "0.11.18",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.18",
-      "published": "2026-06-01T19:44:30Z",
-      "preview": "Release Notes Released on 2026-06-01. Performance Fix performance regression in unzip of local wheels ( #19637 ) Preview Add uv check to run ty from uv ( #19605 ) Bug fixes Update activation scripts with upstream fixes ( #19628 ) Other changes Bump MSRV to 1.94 ( #19600 ) Install uv 0.11.18 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.18/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/dow",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
-      "title": "2026-05-27 Release",
-      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-05-27",
-      "published": "2026-06-01T18:45:09Z",
-      "preview": "What's Changed Accept libcurl.so as a provider of curl. by @podsvirov in #1984 Add arm64 CMake presets, delete MSI extraction. by @BillyONeal in #1995 Ignore HTTPS_PROXY and NO_PROXY if env variable is set to empty value by @TobiasFunk in #1988 x-add-version: Regenerate baseline on --all. by @BillyONeal in #2003 integrate install: Remove VS2015 integration. by @BillyONeal in #2011 Fix empty vs. unset environment variables on Windows. by @BillyONeal in #1997 Fix self-cascade bug in feature test baseline checking by @BillyONeal in #2017 x-download: more output, error if no asset cache configured",
-      "source": "vcpkg releases",
-      "category": "C/C++"
-    },
-    {
-      "title": "2.7.0.alpha0",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.7.0.alpha0",
-      "published": "2026-06-01T16:18:17Z",
-      "preview": "You can update micromamba to this pre-release version using: micromamba self-update -c conda-forge/label/micromamba_prerelease \"micromamba==2.7.0.alpha0\" Bug fixes: [libmamba] fix: Harden noarch:python entry point linking by @jjerphan in #4282 [libmamba] fix: Guard Root Packages' Expansion by @jjerphan in #4283 [micromamba, libmamba] fix: Adapt root packages expansion by @jjerphan in #4298 [micromamba, libmamba] fix: Populate python_site_packages_path independently from host by @jjerphan in #4288 [libmamba] Fallback to flat cache dir if missing hierarchical by @Hind-M in #4290 [micromamba, lib",
-      "source": "Mamba releases",
-      "category": "Multi-language"
     },
     {
       "title": "2.0.0-RC14",
@@ -676,14 +452,6 @@
       "preview": "Release Notes ✨ Highlights This release brings a lot of exciting features. Workspace dependencies We now allow to define workspace dependencies that allows to set package matchspecs that then can be inherited by package dependencies. This is how it looks like: [ workspace . dependencies ] numpy = \" 1.* \" boltons = { version = \" >=24 \" , channel = \" conda-forge \" } # Build packages [ package . build ] backend = { name = \" foo-build \" , workspace = true } [ package . host-dependencies ] cmake = { workspace = true } [ package . target . linux-64 . run-dependencies ] numpy = { workspace = true } F",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v0.380.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.380.0",
-      "published": "2026-06-01T10:31:11Z",
-      "preview": "What's Changed bundler: avoid adding Bundler checksum for lockfiles using 4.0.0-4.0.10 by @thavaahariharangit in #15164 Remove beta ecosystem flag handling for Deno by @markhallen in #15173 [bun] Add lockfile generator for bun by @brrygrdn in #14882 Pass --config.minimumReleaseAge=0 for pnpm security updates to bypass pnpm-workspace.yaml by @yeikel in #15170 build(deps): bump terraform to 1.15.3 by @HorizonNet in #15055 Change cron schedule from Thursday to Monday by @robaiken in #15181 Add specific error for missing .NET SDK in discovery by @brettfo in #15168 Throw UnparseableFileException wh",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-30-a",
@@ -708,14 +476,6 @@
       "preview": "This is the next post in our supply chain security series, following the supply chain security update and the Composer 2.10 release . Each post in this series covers a specific Composer behavior worth understanding, and a Private Packagist feature we are introducing on top of it. Today: How Composer&",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "hatchling-v1.30.0",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.30.0",
-      "published": "2026-06-01T01:27:35Z",
-      "preview": "Fix draft release uploads. ( #2293 )",
-      "source": "Hatch releases",
-      "category": "Python"
     },
     {
       "title": "v2.0.0-RC13-1",
@@ -748,14 +508,6 @@
       "preview": "Release vfox 2026.5.17",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "26.1.2",
-      "url": "https://github.com/pypa/pip/releases/tag/26.1.2",
-      "published": "2026-05-31T17:16:13Z",
-      "preview": "Release 26.1.2",
-      "source": "pip releases",
-      "category": "Python"
     },
     {
       "title": "vfox-v2026.5.16",
@@ -806,22 +558,6 @@
       "category": "System"
     },
     {
-      "title": "1.13.0",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.13.0",
-      "published": "2026-05-30T00:07:06Z",
-      "preview": "What's Changed Add shared libs auto-upgrade opt-out by @Herrtian in #1809 Fix app script shebang isolation by @sjh9714 in #1819 Update deprecation message in get-pipx.py; obsoleted, not deprecated by @Spitfire1900 in #1813 docs: clarify runpip cache warnings by @Sean-Kenneth-Doherty in #1815 Refresh legacy standalone Python index cache by @Sean-Kenneth-Doherty in #1814 New Contributors @sjh9714 made their first contribution in #1819 @Sean-Kenneth-Doherty made their first contribution in #1815 Full Changelog : 1.12.0...1.13.0",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "Windows Package Manager 1.29.240",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.240",
-      "published": "2026-05-29T23:26:03Z",
-      "preview": "This is a release candidate of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . Note: This version is not fully localized yet. Localized strings will be included in a future build before stable release. New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the",
-      "source": "winget releases",
-      "category": "System"
-    },
-    {
       "title": "NuGet.Server 3.4.3",
       "url": "https://github.com/NuGet/NuGet.Server/releases/tag/3.4.3",
       "published": "2026-05-29T17:48:01Z",
@@ -836,14 +572,6 @@
       "preview": "Minor Changes Added a new hoistingLimits setting for nodeLinker: hoisted installs, mirroring yarn's nmHoistingLimits . It accepts none (the default — hoist as far as possible), workspaces (hoist only as far as each workspace package), or dependencies (hoist only up to each workspace package's direct dependencies). Originally proposed in #6468 , closing #6457 . Replaced enquirer with @inquirer/prompts for all interactive prompts. Fixes the update -i scrolling overflow bug where long choice lists were clipped in the terminal #6643 . User-facing changes: pnpm update -i / pnpm update -i --latest :",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "2.76",
-      "url": "https://github.com/canonical/snapd/releases/tag/2.76",
-      "published": "2026-05-29T09:53:17Z",
-      "preview": "tagging package snapd version 2.76",
-      "source": "Snapd releases",
-      "category": "System"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-26-a",
@@ -862,28 +590,12 @@
       "category": "JavaScript"
     },
     {
-      "title": "0.11.17",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.17",
-      "published": "2026-05-28T20:41:06Z",
-      "preview": "Release Notes Released on 2026-05-28. Enhancements Add a diagnostic for uv add with standard library modules ( #19572 ) Expose uv workspace and its list subcommand in help output ( #19533 ) Improve the \"403 forbidden\" hint to suggest ignore-error-codes when applicable ( #19521 ) Skip direct URL lock freshness checks while offline ( #19596 ) Add import-names and import-namespaces support to uv-build ( PEP 794 ) ( #19380 ) Add a --no-editable-package flag to various commands ( #19584 ) Infer Python version requests from source trees in uv tool invocations ( #19577 ) Preview features Add module o",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
       "title": "0.97.0",
       "url": "https://github.com/rust-lang/cargo/releases/tag/0.97.0",
       "published": "2026-05-28T17:50:39Z",
       "preview": "0.97.0 release",
       "source": "Cargo releases",
       "category": "Rust"
-    },
-    {
-      "title": "v0.379.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.379.0",
-      "published": "2026-05-28T17:11:39Z",
-      "preview": "What's Changed Fix duplicate updated dependencies in multi-directory group refresh by @markhallen in #15098 Recategorise lockfile generation errors as known types by @brrygrdn in #15084 [Graph Job] Do not treat Dependabot::UnexpectedExternalCode as a hard failure by @brrygrdn in #15075 [Graph] Fix handling of multiple version resolution by @brrygrdn in #15099 Bun: Upgrade to Node JS 24 by @yeikel in #14964 Add API integration to fetch blocked versions at job construction by @kbukum1 in #14917 Fix go modules error in package details fetcher due to subpath issue by @AbhishekBhaskar in #15096 add",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.29.0 (28-May-2026)",
@@ -900,14 +612,6 @@
       "preview": "As part of this release we had 11 issues closed. Dependency Change Update bundled 7zip executables to v26.00. See #3857 by AdmiringWorm , resolved in !3858 by AdmiringWorm . Enhancements Capture the source that was being used when searching for packages. See #3849 by gep13 , resolved in !3850 by gep13 . Bug Fix Chocolatey does not handle passwords with non ASCII characters when interacting with authenticating sources See #3600 by pfremy , resolved in !3762 by AdmiringWorm . Contributors 2 contributors made this release possible.",
       "source": "Chocolatey releases",
       "category": "System"
-    },
-    {
-      "title": "9.6.0 RC1",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0-RC1",
-      "published": "2026-05-28T13:05:49Z",
-      "preview": "The Gradle team is excited to announce Gradle 9.6.0 RC1. Here are the highlights of this release: Improved Configuration Cache hit rates Additional CLI rendering options Important project hierarchy lookup deprecations Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aharnish Solanki , Benedikt Johannes , Devendra Reddy Pennabadi , Dmytro Rodionov , Dreeam , Elías Hernández Rodríguez , Eng Zer Jun , FinlayRJW , Kamal Kansal , Marcono1234 , Nelson Osacky , Philip Wedemann , Ravi , Roberto Perez Alcolea , Ryan Schmitt",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-05-27-a",
@@ -974,70 +678,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "libnpmversion: v8.0.4",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmversion-v8.0.4",
-      "published": "2026-05-27T20:52:27Z",
-      "preview": "8.0.4 (2026-05-27) Documentation c5e9d73 #9390 Document npm_old_version and npm_new_version environment variables ( #9389 ) (@github-actions[bot], @36degrees ) Chores 40fcab4 #8991 @npmcli/template-oss@4.29.0 ( @wraithgar )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmpack: v9.1.9",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.9",
-      "published": "2026-05-27T20:52:26Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.7.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmfund: v7.0.23",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.23",
-      "published": "2026-05-27T20:52:25Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.7.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmexec: v10.2.9",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v10.2.9",
-      "published": "2026-05-27T20:52:24Z",
-      "preview": "10.2.9 (2026-05-27) Bug Fixes 5000cbf #9409 exempt local project introspection from allow-directory ( @owlstronaut ) Dependencies workspace : @npmcli/arborist@9.7.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmdiff: v8.1.9",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.9",
-      "published": "2026-05-27T20:52:23Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.7.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "config: v10.10.0",
-      "url": "https://github.com/npm/cli/releases/tag/config-v10.10.0",
-      "published": "2026-05-27T20:52:22Z",
-      "preview": "10.10.0 (2026-05-27) Features 4b67f6e #9416 publish --access=private alias for restricted ( #9416 ) (@github-actions[bot], @reggi , @Copilot) a10c7ca #9415 Phase 1 of allowScripts opt-in install-script policy ( #9360 ) ( #9415 ) ( @owlstronaut , @JamieMagee )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "arborist: v9.7.0",
-      "url": "https://github.com/npm/cli/releases/tag/arborist-v9.7.0",
-      "published": "2026-05-27T20:52:20Z",
-      "preview": "9.7.0 (2026-05-27) Features a10c7ca #9415 Phase 1 of allowScripts opt-in install-script policy ( #9360 ) ( #9415 ) ( @owlstronaut , @JamieMagee ) Bug Fixes d8a7803 #9418 arborist: drop self-link materialization for undeclared workspaces ( #9418 ) (@github-actions[bot], @manzoorwanijk ) 4d141a0 #9417 skip hidden lockfile save on dry run ( #9417 ) (@github-actions[bot], @puneetdixit200 , @puneetdixit200 )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v11.16.0",
-      "url": "https://github.com/npm/cli/releases/tag/v11.16.0",
-      "published": "2026-05-27T20:52:19Z",
-      "preview": "11.16.0 (2026-05-27) Features 4b67f6e #9416 publish --access=private alias for restricted ( #9416 ) (@github-actions[bot], @reggi , @Copilot) a10c7ca #9415 Phase 1 of allowScripts opt-in install-script policy ( #9360 ) ( #9415 ) ( @owlstronaut , @JamieMagee ) Bug Fixes 1f7869b #9411 fix typo of fullMetadata ( @owlstronaut ) cde03ba #9390 config: pause progress spinner during interactive editor spawn ( #9388 ) (@github-actions[bot], @Zelys-DFKH , @claude ) Documentation c5e9d73 #9390 Document npm_old_version and npm_new_version environment variables ( #9389 ) (@github-actions[bot], @36degrees )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "An update on Composer & Packagist supply chain security",
       "url": "https://blog.packagist.com/an-update-on-composer-packagist-supply-chain-security/",
       "published": "2026-05-27T15:11:51Z",
@@ -1094,14 +734,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "26.5.1",
-      "url": "https://github.com/conda/conda/releases/tag/26.5.1",
-      "published": "2026-05-26T20:51:19Z",
-      "preview": "Bug fixes Fix channel notices display failing with ImportError when a decorated command replaces base python while conda is still running on the previous interpreter. Pre-import conda.notices.views before the command so post-command display does not load modules from rewritten site-packages . ( #16126 via #16142 ) Fix crash in UnavailableInvalidChannel and CondaHTTPError when simplejson is installed and a non-JSON HTTP error response is received. ( #16136 ) Contributors @jezdez @kenodegard Full Changelog : 26.5.0...26.5.1",
-      "source": "Conda releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-24-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-24-a",
       "published": "2026-05-26T18:55:58Z",
@@ -1110,36 +742,12 @@
       "category": "Registries"
     },
     {
-      "title": "v6.7.2",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.2",
-      "published": "2026-05-25T13:24:43Z",
-      "preview": "Patch Changes a89aca1 : chore: fix unit test a28cf71 : chore: add missing types #5889 by @mbtools",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "2.75.2.2",
-      "url": "https://github.com/canonical/snapd/releases/tag/2.75.2.2",
-      "published": "2026-05-25T10:01:11Z",
-      "preview": "hotfix for tpm/fde",
-      "source": "Snapd releases",
-      "category": "System"
-    },
-    {
       "title": "5.1.14",
       "url": "https://github.com/Homebrew/brew/releases/tag/5.1.14",
       "published": "2026-05-25T07:42:19Z",
       "preview": "What's Changed Show quarantine script usage by @MikeMcQuaid in #22375 Ignore flaky VirusTotal docs link by @MikeMcQuaid in #22374 api: fix every formula having a post install defined by @Bo98 in #22378 Fix dynamic completion audit crash by @MikeMcQuaid in #22380 build(deps): bump the bundler group across 2 directories with 13 updates by @dependabot [bot] in #22381 build(deps): bump the github-actions group across 1 directory with 2 updates by @dependabot [bot] in #22382 workflows/incomplete-prs: allow deleting PR template comments by @gibfahn in #22290 Move away from RSpec's described_class by",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "v9.6.0-M3",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0-M3",
-      "published": "2026-05-25T07:27:36Z",
-      "preview": "Fix close-linked-issue workflow by pinning gha-mjolnir to v1.5.0 ( #37 …",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "Security Advisory for Cargo (CVE-2026-5222)",
@@ -1190,14 +798,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "0.11.16",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.16",
-      "published": "2026-05-21T22:11:32Z",
-      "preview": "Release Notes Released on 2026-05-21. Enhancements Add support for direct archive dependencies in Git ( #10072 ) Adjust hint rendering ( #18090 ) Preview features uv audit: specialize malformed OSV error ( #19515 ) Reject locked malware installations ( #18936 ) Configuration Allow disabling reading the system config with UV_NO_SYSTEM_CONFIG ( #19476 ) Bug fixes Allow environment variables that take a list to be empty ( #19503 ) Ensure that incompatible wheel hints do not leak secrets ( #19504 ) Reject unsafe entry points in uv-build ( #19495 ) Restrict delimiters in entry point parsing ( #1947",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
       "title": "5.1.13",
       "url": "https://github.com/Homebrew/brew/releases/tag/5.1.13",
       "published": "2026-05-21T16:55:12Z",
@@ -1238,44 +838,12 @@
       "category": "Multi-language"
     },
     {
-      "title": "v0.378.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.378.0",
-      "published": "2026-05-21T08:48:56Z",
-      "preview": "What's Changed fix(opentofu): strip v prefix in cooldown version comparison by @diofeher in #15044 Use POM last-modified as Gradle plugin release date fallback by @thavaahariharangit in #15006 Add blocked versions support to updater job by @kbukum1 in #14915 Add blocked versions support to dry-run script by @kbukum1 in #14916 Strip surrounding quotes from go.env values before writing by @yeikel in #15060 Require dependabot-deno in updater setup by @markhallen in #15064 fix(docker): use manifests endpoint for manifest-list digests by @devantler in #14691 Fix NuGet lock file tracking when no loc",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "v2.27.0",
-      "url": "https://github.com/pdm-project/pdm/releases/tag/2.27.0",
-      "published": "2026-05-21T07:14:32Z",
-      "preview": "Breaking Changes Update the minimum required Python version to 3.10. ( #3787 ) Features & Improvements Respect existing values of pyproject.toml when running pdm init or pdm new . ( #3786 ) Move project plugin installations from .pdm-plugins under the project root to an isolated cache directory, and add a fixer to migrate existing plugin directories. ( #3790 ) Remove legacy importlib compatibility wrappers and use standard-library importlib.metadata and importlib.resources APIs directly. ( #3796 ) Bug Fixes Fix a security issue with the installer to disallow installing to paths outside of the ",
-      "source": "PDM releases",
-      "category": "Python"
-    },
-    {
       "title": "Introducing the pkg.go.dev API",
       "url": "https://go.dev/blog/pkgsite-api",
       "published": "2026-05-21T00:00:00Z",
       "preview": "Introducing the new programmatic API for pkg.go.dev, allowing developers to fetch package and module data directly.",
       "source": "Go Blog",
       "category": "Go"
-    },
-    {
-      "title": "v12.0.0-pre.0.0",
-      "url": "https://github.com/npm/cli/releases/tag/v12.0.0-pre.0.0",
-      "published": "2026-05-20T20:51:12Z",
-      "preview": "12.0.0-pre.0.0 (2026-05-20) ⚠️ BREAKING CHANGES npm view --json now always returns an array. npm sbom --sbom-format=cyclonedx now reports the name field from each package's package.json instead of the on-disk directory name. The name , bom-ref , and purl of the root component and of aliased dependencies may change. npm no longer registers man pages with the system when installed globally. man npm-install will no longer work, but npm help install is unaffected. The npm pkg output is no longer forced to json. This means you can get single values without having to worry about wrapping of the valu",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.0.0-pre.0",
-      "url": "https://github.com/npm/cli/releases/tag/v12.0.0-pre.0",
-      "published": "2026-05-20T20:47:33Z",
-      "preview": "chore: release 12.0.0-pre.0.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "v29.5.2",
@@ -1358,52 +926,12 @@
       "category": "JavaScript"
     },
     {
-      "title": "2026-05-19",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-05-19",
-      "published": "2026-05-19T22:20:40Z",
-      "preview": "2026-05-19",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-pnpm/2.2.0",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnpm%2F2.2.0",
-      "published": "2026-05-19T22:20:40Z",
-      "preview": "@yarnpkg/plugin-pnpm",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/pnp/4.1.6",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fpnp%2F4.1.6",
-      "published": "2026-05-19T22:20:40Z",
-      "preview": "@yarnpkg/pnp",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "2.6.2",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.6.2",
-      "published": "2026-05-19T17:02:20Z",
-      "preview": "Bug fixes: [libmamba] fix: Use zlib<1.3.2 for static builds by @jjerphan in #4281 [libmamba] fix: Set environment variables for use_sharded_repodata by @jjerphan in #4279 CI fixes and doc: [all] ci: Use micromamba 2.6.0 by @jjerphan in #4280",
-      "source": "Mamba releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "20260519t092000-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260519t092000-all",
       "published": "2026-05-19T09:20:48Z",
       "preview": "Deployment at 2026-05-19T09:20:44.409819Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "0.11.15",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.15",
-      "published": "2026-05-18T20:12:10Z",
-      "preview": "Release Notes Released on 2026-05-18. Security Fix a TAR parser differential, see GHSA-3cv2-h65g-fgmm ( #19463 ) Enforce that entry points cannot escape in the scripts directory, see GHSA-4gg8-gxpx-9rph ( #19464 ) Enhancements Add TOML v1.1 -> v1.0 backwards compatibility for source distributions ( #18741 ) Add support for Azure request signing ( #19421 ) Apply stricter validation to all wheel filename segments ( #19364 ) Reject empty strings as an invalid package name ( #19435 ) Use structured errors for signing authentication failures ( #19422 ) Preview uv audit: Add JSON output ( #19305 ) C",
-      "source": "uv releases",
-      "category": "Python"
     },
     {
       "title": "v29.5.1",
@@ -1486,62 +1014,6 @@
       "category": "Maven"
     },
     {
-      "title": "v6.7.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.1",
-      "published": "2026-05-16T15:02:40Z",
-      "preview": "Patch Changes a75f9bb : chore: refactor docker publish pipeline",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v6.7.0",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.0",
-      "published": "2026-05-16T14:35:11Z",
-      "preview": "⚠️ not available in docker (due pipeline issue) Minor Changes 9f1bcc5 : feat: update Node.js to 24 Bumps the project's Node.js baseline to 24 across runtime and container, and adds a startup warning for users still on an older (but supported) Node. Node 24 bump : .nvmrc 22 → 24 ; Dockerfile base image node:22.22.1-alpine → node:24.15.0-alpine (builder + runtime). Soft-deprecation warning : new RECOMMENDED_NODE_VERSION = '22' and isVersionRecommended() in src/lib/cli/utils.ts ; the init command logs a warn at startup when Node is below the recommendation. MIN_NODE_VERSION stays at '18' — no har",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v0.377.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.377.0",
-      "published": "2026-05-15T22:07:49Z",
-      "preview": "What's Changed Implement sbt metadata finder by @AbhishekBhaskar in #15011 Bump NuGet.Client to release/7.6.x and pin dotnet-core to v10.0.8 by @JamieMagee in #14995 feat(opentofu): resolve locals references in module version constraints by @diofeher in #15009 simplify line indent detection by @brettfo in #14980 Fix flaky test: use unique git.store path to avoid parallel race condition by @brettfo in #14944 Update OpenTelemetry packages to 1.15.3 by @brettfo in #15029 Add SBT ecosystem to CI, Docker images, and runtime registration by @kbukum1 in #15012 v0.377.0 by @dependabot-core-action-auto",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "26.5.0",
-      "url": "https://github.com/conda/conda/releases/tag/26.5.0",
-      "published": "2026-05-15T19:16:39Z",
-      "preview": "26.5.0 (2026-05-15) Enhancements Add parsing and storage support for conditional dependencies, optional dependency groups, and variant flags in MatchSpec expressions (introduced in conda/ceps#164 , conda/ceps#165 , and conda/ceps#166 ). ( #15443 ) Add --clobber flag to conda create , matching existing support in conda install and conda update . ( #15584 via #15801 ) Display a Warning when exporting lockfiles from environments containing packages installed with pip, uv, or other 3rd party Python package managers. ( #15581 via #15838 ) Speed up condarc search path expansion on every reset_contex",
-      "source": "Conda releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "v0.376.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.376.0",
-      "published": "2026-05-14T20:03:27Z",
-      "preview": "What's Changed Julia: filter yanked versions from get_available_versions by @IanButterworth in #14939 Add blob_oid metadata to manifests in dependency snapshots by @juxtin in #14857 Fix Maven released? check for non-jar packaging types (e.g., aar) by @kbukum1 in #14886 (Python): Move Pip file filtering to grapher by @Copilot in #14856 detect central package version scheme by @brettfo in #14927 allow insecure feeds if explicitly requested by @brettfo in #14891 don't warn on deprecated framework by @brettfo in #14936 migrate sln to slnx by @brettfo in #14943 fix(maven): parse Artifactory-style H",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "v6.6.2",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.6.2",
-      "published": "2026-05-14T18:23:18Z",
-      "preview": "6.6.2 Patch Changes 7f7bbde : chore: bump up package test (testing publish provenance )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "Helm v3.21.0",
-      "url": "https://github.com/helm/helm/releases/tag/v3.21.0",
-      "published": "2026-05-14T17:41:50Z",
-      "preview": "Helm v3.21.0 is a feature release. Users are encouraged to upgrade for the best experience. Warning Helm v3 is approaching end-of-life. Please update to Helm v4. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Kubernetes client libraries to v1.36 notable changes here Installation and Upgrading Download Helm v3.21.0. The common pl",
-      "source": "Helm releases",
-      "category": "Containers"
-    },
-    {
       "title": "v2.0.0-beta.13",
       "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.13",
       "published": "2026-05-14T14:38:18Z",
@@ -1574,14 +1046,6 @@
       "category": "PHP"
     },
     {
-      "title": "Helm v4.2.0",
-      "url": "https://github.com/helm/helm/releases/tag/v4.2.0",
-      "published": "2026-05-14T01:31:58Z",
-      "preview": "Helm v4.2.0 is a feature release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Switch to goreleaser for release builds Kubernetes client libraries to v1.36 Add mustToToml template function deprecate unused --hide-notes and --render-subchart-notes flags --dry-run=server n",
-      "source": "Helm releases",
-      "category": "Containers"
-    },
-    {
       "title": "2.7.2",
       "url": "https://github.com/chocolatey/choco/releases/tag/2.7.2",
       "published": "2026-05-13T20:15:08Z",
@@ -1606,14 +1070,6 @@
       "category": "Containers"
     },
     {
-      "title": "2.6.1",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.6.1",
-      "published": "2026-05-13T13:17:43Z",
-      "preview": "Bug fixes: [libmamba] fix: Support local install without explicit path by @jjerphan in #4273 [micromamba, libmamba] fix: Free-threaded builds location on Windows by @jjerphan in #4268 [libmamba] fix: Do not use python for platform detection by @jjerphan in #4257 [libmamba] fix: Adapt Sharded Repodata TTL update logic by @jjerphan in #4269 [libmamba] fix: Adaptations for vcpkg's distribution of zlib 1.3.2 on Windows by @jjerphan in #4260 [libmamba] fix: Normalize MatchSpec package names to lowercase by @jjerphan in #4258 [libmambapy] fix: Adapt add_pip_as_python_dependency python tests by @dany",
-      "source": "Mamba releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "Composer 2.9.8 and 2.2.28 fix GitHub Actions token disclosure in error messages",
       "url": "https://blog.packagist.com/composer-2-9-8-and-2-2-28-fix-github-actions-token-disclosure-in-error-messages/",
       "published": "2026-05-13T10:35:41Z",
@@ -1622,44 +1078,12 @@
       "category": "PHP"
     },
     {
-      "title": "Bun v1.3.14",
-      "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.3.14",
-      "published": "2026-05-13T03:50:15Z",
-      "preview": "To install Bun v1.3.14 curl -fsSL https://bun.sh/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.sh/install.ps1|iex \" To upgrade to Bun v1.3.14: bun upgrade Read Bun v1.3.14's release notes on Bun's blog Thanks to 11 contributors! @190n @alii @carlsmedstad @cirospaciari @coleleavitt @djs5008 @dylan-conway @ig-ant @Jarred-Sumner @robobun @sosukesuzuki",
-      "source": "Bun releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v0.17.1",
-      "url": "https://github.com/gomods/athens/releases/tag/v0.17.1",
-      "published": "2026-05-12T18:46:36Z",
-      "preview": "What's Changed fix: use default config for config files by @nrwiersma in #2108 fix: support external_account workload identity, add tests by @DrPsychick in #2120 chinese translations of design by @sufu777 in #2110 New Contributors @sufu777 made their first contribution in #2110 Full Changelog : v0.17.0...v0.17.1",
-      "source": "Athens releases",
-      "category": "Go"
-    },
-    {
-      "title": "0.11.14",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.14",
-      "published": "2026-05-12T18:04:36Z",
-      "preview": "Release Notes Released on 2026-05-12. Enhancements Add Astral mirror URL override ( #19206 ) Ignore top_level.txt entries in uninstall that are not valid Python identifiers ( #19340 ) Bug fixes Avoid applying .env files in parent process ( #19343 ) Filter ANSI codes in logging output ( #19311 ) Fix uv tree showing extra-conditional deps for packages required without extras ( #19332 ) Respect build options (e.g., --no-build ) during lock validation ( #19366 ) Install uv 0.11.14 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/u",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
       "title": "5.4.2.1",
       "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.2.1",
       "published": "2026-05-12T14:15:14Z",
       "preview": "Update translations from weblate Move system-repo.lock to /var/lib/dnf/system-repo.lock dnfdaemon: Document interactive option in D-Bus API dnfdaemon: Add repo_key_imported informational signal dnfdaemon: Avoid timeout on repo key import dnfdaemon: Pass interactive parameter to repo key import callback refactor(download): preallocate memory in DownloadCommand::configure Fix list --installed-from-repo to imply --installed Fix typos in docs, comments, and user-facing strings dnf5.8.rst: s/sytem/system Suggest allow_vendor_change=true when solver blocks vendor update Shell completion: use space f",
       "source": "DNF5 releases",
       "category": "System"
-    },
-    {
-      "title": "9.5.1",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.5.1",
-      "published": "2026-05-12T14:14:22Z",
-      "preview": "The Gradle team is excited to announce Gradle 9.5.1. Here are the highlights of this release: Task provenance in reports and failure messages Type-safe accessors for precompiled Kotlin Settings plugins Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: atm1020 , mataha , Adam , Attila Kelemen , Benedikt Ritter , Björn Kautler , Caro Silva Rode , CHANHAN , Dmitry Nezavitin , Eng Zer Jun , KugelLibelle , Madalin Valceleanu , Markus Gaisbauer , Oliver Kopp , Philip Wedemann , ploober , Roberto Perez Alcolea , Rohit Anan",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "20260512t124000-all",
@@ -1702,36 +1126,12 @@
       "category": "Containers"
     },
     {
-      "title": "0.11.13",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.13",
-      "published": "2026-05-11T01:40:21Z",
-      "preview": "Release Notes Released on 2026-05-10. Bug fixes Include data files in editable builds ( #19312 ) Respect --require-hashes when installing from pylock.toml files ( #19334 ) Python Add CPython 3.14.5 Install uv 0.11.13 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.13/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/download/0.11.13/uv-installer.ps1 | iex \" Download uv 0.11.13 File Platform Ch",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
       "title": "pnpm 11.1",
       "url": "https://pnpm.io/blog/releases/11.1",
       "published": "2026-05-11T00:00:00Z",
       "preview": "pnpm 11.1 adds a few new commands — pnpm audit signatures, pnpm bugs, and pnpm owner — alongside support for installing from arbitrary named registries (including a built-in alias for the GitHub Packages npm registry), the ability to skip runtime installation in CI, and several fixes.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "v6.6.0",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.6.0",
-      "published": "2026-05-10T13:22:10Z",
-      "preview": "What's Changed feat: update core dependencies by @juanpicado in #5832 chore(deps): update yarn to v4.14.1 (6.x) by @renovate [bot] in #5866 fix(deps): update core verdaccio dependencies (6.x) by @renovate [bot] in #5865 fix: migrate to run server internally by @juanpicado in #5868 fix: tarball might fail #5829 by @juanpicado in #5869 fix(deps): update dependency semver to v7.8.0 (6.x) by @renovate [bot] in #5867 Full Changelog : v6.5.2...v6.6.0",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "2.26.9",
-      "url": "https://github.com/pdm-project/pdm/releases/tag/2.26.9",
-      "published": "2026-05-10T11:06:43Z",
-      "preview": "Features & Improvements Support exclude-newer in pyproject.toml in the [tool.pdm.resolution] table ( #3776 ) Bug Fixes Preserve pylock package markers when refreshing lockfile hashes. ( #3773 ) What's Changed Remove dead code by @duriantaco in #3774 [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci [bot] in #3780 chore(deps): bump the actions group with 5 updates by @dependabot [bot] in #3778 fix: update pdm_scheme to set pep582_base in sysconfig and add corresponding test by @frostming in #3781 Allow exclude-newer to be defined in pyproject.toml by @sneakers-the-rat in #3782 New Contrib",
-      "source": "PDM releases",
-      "category": "Python"
     },
     {
       "title": "v2.14.4-rc1",
@@ -1742,60 +1142,12 @@
       "category": "Containers"
     },
     {
-      "title": "@verdaccio/signature@8.0.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fsignature%408.0.1",
-      "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/signature@8.0.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/tarball@13.0.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4013.0.1",
-      "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/tarball@13.0.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/test-helper@4.0.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%404.0.1",
-      "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/test-helper@4.0.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/url@13.0.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4013.0.1",
-      "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/url@13.0.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/utils@8.1.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Futils%408.1.1",
-      "published": "2026-05-09T17:05:39Z",
-      "preview": "@verdaccio/utils@8.1.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "2.4.1",
       "url": "https://github.com/python-poetry/poetry/releases/tag/2.4.1",
       "published": "2026-05-09T15:18:04Z",
       "preview": "Changed Re-allow installer==0.7.0 ( #10887 ). Fixed Fix an issue where poetry update <package> failed when <package> was a transitive dependency ( #10885 ).",
       "source": "Poetry releases",
       "category": "Python"
-    },
-    {
-      "title": "v9.6.0-M2",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0-M2",
-      "published": "2026-05-09T10:31:02Z",
-      "preview": "Run smoke-ide-tests with GProfiler ( #37800 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     }
   ]
 }
