@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-08T13:48:44Z",
-  "cutoff": "2026-05-09T13:48:39Z",
+  "generated": "2026-06-08T15:32:43Z",
+  "cutoff": "2026-05-09T15:32:39Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.70.2 - 2026-06-08",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.70.2",
+      "published": "2026-06-08T14:14:44Z",
+      "preview": "Release Notes Added Improve PyPI > Conda clobber detection by @tdejager in #6292 Changed Avoid pixi lock panics on unmappable ROS dependencies by @baszalmstra in #6290 Fixed Compare pypi git urls using the raw url, not uv's canonical one by @baszalmstra in #6272 Keep conda-env build discriminator out of PEP 517 config_settings by @baszalmstra in #6273 Accept find-links URLs during lock file satisfiability by @baszalmstra in #6270 Download pixi 0.70.2 File Platform Checksum pixi-aarch64-apple-darwin.tar.gz Apple Silicon macOS checksum pixi-x86_64-apple-darwin.tar.gz Intel macOS checksum pixi-aa",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "43.216.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.216.1",
+      "published": "2026-06-08T13:55:24Z",
+      "preview": "43.216.1 (2026-06-08) Bug Fixes config/presets: Exclude docker.io/kindest/node from nodejs versioning ( #43772 ) ( bb147e0 ) npm: use packageName for pnpm overrides with range selectors in minimumReleaseAgeExclude ( #43477 ) ( 5e1f88a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.18.0",
       "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.0",
@@ -194,14 +210,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.0",
       "published": "2026-06-05T20:39:50Z",
       "preview": "43.214.0 (2026-06-05) Features manager/nuget: default rangeStrategy to bump ( #43820 ) ( 4f7eed4 ) Documentation manger/github-actions: reword \"community actions\" section ( #43829 ) ( 4bf6bd9 ) Tests workers/global: fix typo ( #43838 ) ( 8c6a8d8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.213.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.213.3",
-      "published": "2026-06-05T16:03:33Z",
-      "preview": "43.213.3 (2026-06-05) Bug Fixes conda/pypi: allow nullable strings ( #43834 ) ( 5835388 ) Tests config/validation: validate all warnings / errors ( #43832 ) ( 6e41173 ) datasource/pypi: cover null and missing home_page ( #43828 ) ( c3998a3 ), closes #43814 Continuous Integration don't cancel \"stale\" PR workflows ( #43830 ) ( 15e719b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1230,14 +1238,6 @@
       "category": ".NET"
     },
     {
-      "title": "pixi-build-rust-v0.4.10",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rust-v0.4.10",
-      "published": "2026-05-21T09:44:36Z",
-      "preview": "chore: bump backend versions ( #6173 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "0.69.0 - 2026-05-20",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.69.0",
       "published": "2026-05-21T09:38:24Z",
@@ -1788,14 +1788,6 @@
       "preview": "@verdaccio/utils@8.1.1",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "2.4.1",
-      "url": "https://github.com/python-poetry/poetry/releases/tag/2.4.1",
-      "published": "2026-05-09T15:18:04Z",
-      "preview": "Changed Re-allow installer==0.7.0 ( #10887 ). Fixed Fix an issue where poetry update <package> failed when <package> was a transitive dependency ( #10885 ).",
-      "source": "Poetry releases",
-      "category": "Python"
     }
   ]
 }
