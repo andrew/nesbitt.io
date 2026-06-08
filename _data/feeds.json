@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-08T03:31:17Z",
-  "cutoff": "2026-05-09T03:31:14Z",
+  "generated": "2026-06-08T05:59:02Z",
+  "cutoff": "2026-05-09T05:58:58Z",
   "feed_count": 79,
-  "item_count": 221,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.0.0-RC15",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0-RC15",
+      "published": "2026-06-08T04:54:51Z",
+      "preview": "🐛 bug fixes fix: ByteStream chunked upload/download by @eed3si9n in #9298 fix: Fixes publishing platform-specific artifacts (like Scala Native) by @arashi01 in #9293 fix: Fixes cross build caching by @eed3si9n in #9305 deps: Update to Scala 3.8.4 by @xuwei-k + @eed3si9n in #9302 / sbt/io#522 Full Changelog : v2.0.0-RC14...v2.0.0-RC15",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-06-08T04:33:15Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.214.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.6",
+      "published": "2026-06-08T03:51:46Z",
+      "preview": "43.214.6 (2026-06-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.8 (main) ( #43863 ) ( 778b05c ) Documentation update references to astral-sh/setup-uv to v8.2.0 (main) ( #43857 ) ( 8131324 ) update references to jaegertracing/jaeger to v2.19.0 (main) ( #43858 ) ( e96b028 ) update references to otel/opentelemetry-collector-contrib to v0.153.0 (main) ( #43860 ) ( c185b68 ) update references to prom/prometheus to v3.12.0 (main) ( #43861 ) ( bf7974e ) update references to renovate/renovate (main) ( #43862 ) ( 1632a28 ) Miscellaneous Chores deps: lock file maintenanc",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.214.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.5",
@@ -44,14 +68,6 @@
       "preview": "43.214.3 (2026-06-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.5 (main) ( #43851 ) ( 5d451e9 ) Miscellaneous Chores deps: update codecov/codecov-action action to v6.0.2 (main) ( #43848 ) ( 5df20fd ) deps: update containerbase/internal-tools action to v4.6.40 (main) ( #43846 ) ( afcc22e ) deps: update dependency lint-staged to v17.0.6 (main) ( #43843 ) ( 9ccca70 ) deps: update linters to v1.67.0 (main) ( #42416 ) ( 9245b57 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-07T02:33:38Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "SDK-3.13.0-180.0.dev",
@@ -196,14 +212,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-03-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.213.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.213.0",
-      "published": "2026-06-05T08:43:16Z",
-      "preview": "43.213.0 (2026-06-05) Features github-actions: add community actions ( #43821 ) ( 27a3f58 ) Documentation update pip-compile project URL ( #43816 ) ( e84d2db ) Miscellaneous Chores deps: update jdx/mise-action action to v4.1.0 (main) ( #43813 ) ( 95c42c8 ) Tests config/validation: remove untested bumpVersions code ( #39710 ) ( 981df6a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 11.5.2",
