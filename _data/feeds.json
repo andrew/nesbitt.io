@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T15:26:02Z",
-  "cutoff": "2026-05-10T15:25:56Z",
+  "generated": "2026-06-09T18:01:32Z",
+  "cutoff": "2026-05-10T18:01:26Z",
   "feed_count": 79,
   "item_count": 214,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.217.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.217.0",
+      "published": "2026-06-09T17:42:17Z",
+      "preview": "43.217.0 (2026-06-09) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.57.0 (main) ( #43893 ) ( ae859fa ) Code Refactoring gerrit: use schema validated getJson instead of getJsonUnchecked ( #43777 ) ( dfe806f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.6.2",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.2",
+      "published": "2026-06-09T17:27:23Z",
+      "preview": "(config) add minimum release age excludes by @jdx in [ #10277 ](h…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.6.2",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.2",
+      "published": "2026-06-09T17:25:09Z",
+      "preview": "Release vfox 2026.6.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -194,14 +218,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.4",
       "published": "2026-06-07T11:54:09Z",
       "preview": "43.214.4 (2026-06-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.6 (main) ( #43853 ) ( 52d88af ) Documentation schema: link config options to docs ( #43613 ) ( def98d0 ) Miscellaneous Chores deps: update dependency lint-staged to v17.0.7 (main) ( #43852 ) ( 8a58267 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.10.24 (main) ( #43849 ) ( 76a45a1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.214.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.3",
-      "published": "2026-06-07T05:47:04Z",
-      "preview": "43.214.3 (2026-06-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.5 (main) ( #43851 ) ( 5d451e9 ) Miscellaneous Chores deps: update codecov/codecov-action action to v6.0.2 (main) ( #43848 ) ( 5df20fd ) deps: update containerbase/internal-tools action to v4.6.40 (main) ( #43846 ) ( afcc22e ) deps: update dependency lint-staged to v17.0.6 (main) ( #43843 ) ( 9ccca70 ) deps: update linters to v1.67.0 (main) ( #42416 ) ( 9245b57 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -772,22 +788,6 @@
       "preview": "2.0.0-RC13-1",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "v2026.5.17: Custom aqua registry cache and Windows fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.5.17",
-      "published": "2026-05-31T21:52:31Z",
-      "preview": "A catch-up release for the tag that shipped the compiled custom aqua registry cache, several Windows task/shim fixes, and a handful of backend install improvements. This release is backfilled without binary assets; use v2026.5.18 or newer for downloadable artifacts. Added (aqua) Add a compiled custom registry cache to speed up aqua registry lookups and reduce repeated parsing work ( #9583 by @jdx ). Fixed (upgrade) Handle a lone v prefix in --bump latest queries ( #10130 by @jdx ). (env) Force the Unix environment key to uppercase PATH , avoiding mixed-case path handling surprises ( #9927 by @",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "v2026.5.18: Hook script arrays and lock-identity fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.5.18",
-      "published": "2026-05-31T21:43:15Z",
-      "preview": "A focused release that teaches hooks to accept script arrays, ships an npm install -g mise package, and tightens lock identity across several backends so mise.lock entries can no longer be reused for option combinations that resolve to a different artifact set. Added (config) Hooks now accept script / scripts arrays for current-shell hooks ( #9836 by @risu729 ): [ hooks . enter ] shell = \" bash \" script = [ \" source completions.sh \" , \" export PROJECT_READY=1 \" , ] Note that run is still string-only — to spawn multiple inline commands, use a list of { run = \"...\" } entries or one multiline run",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.5.17",
