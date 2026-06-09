@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-09T13:19:16Z",
-  "cutoff": "2026-05-10T13:19:12Z",
+  "generated": "2026-06-09T15:26:02Z",
+  "cutoff": "2026-05-10T15:25:56Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-06-09T13:28:46Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "7.9.0.20",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.20",
@@ -164,14 +172,6 @@
       "preview": "🐛 bug fixes fix: ByteStream chunked upload/download by @eed3si9n in #9298 fix: Fixes publishing platform-specific artifacts (like Scala Native) by @arashi01 in #9293 fix: Fixes cross build caching by @eed3si9n in #9305 deps: Update to Scala 3.8.4 by @xuwei-k + @eed3si9n in #9302 / sbt/io#522 Full Changelog : v2.0.0-RC14...v2.0.0-RC15",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-08T04:33:15Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "43.214.6",
@@ -1731,14 +1731,6 @@
       "published": "2026-05-11T00:00:00Z",
       "preview": "pnpm 11.1 adds a few new commands — pnpm audit signatures, pnpm bugs, and pnpm owner — alongside support for installing from arbitrary named registries (including a built-in alias for the GitHub Packages npm registry), the ability to skip runtime installation in CI, and several fixes.",
       "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v6.6.0",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.6.0",
-      "published": "2026-05-10T13:22:10Z",
-      "preview": "What's Changed feat: update core dependencies by @juanpicado in #5832 chore(deps): update yarn to v4.14.1 (6.x) by @renovate [bot] in #5866 fix(deps): update core verdaccio dependencies (6.x) by @renovate [bot] in #5865 fix: migrate to run server internally by @juanpicado in #5868 fix: tarball might fail #5829 by @juanpicado in #5869 fix(deps): update dependency semver to v7.8.0 (6.x) by @renovate [bot] in #5867 Full Changelog : v6.5.2...v6.6.0",
-      "source": "Verdaccio releases",
       "category": "JavaScript"
     }
   ]
