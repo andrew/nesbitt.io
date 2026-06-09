@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-09T09:31:53Z",
-  "cutoff": "2026-05-10T09:31:49Z",
+  "generated": "2026-06-09T11:27:50Z",
+  "cutoff": "2026-05-10T11:27:46Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.216.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.216.4",
+      "published": "2026-06-09T09:46:53Z",
+      "preview": "43.216.4 (2026-06-09) Bug Fixes use lockedVersion for currentVersionTimestamp lookup ( #42476 ) ( 5646cba )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.216.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.216.3",
@@ -228,14 +236,6 @@
       "preview": "Insert 7.9.0.17 into main on 06/06/2026 12:26:41",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "43.214.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.2",
-      "published": "2026-06-06T09:19:23Z",
-      "preview": "43.214.2 (2026-06-06) Bug Fixes config/validation: validate children of arrays in global config ( #43836 ) ( 460fa82 ) types: allow global config to be set in repositories ( #43837 ) ( 0ba948c ) Tests config/validation: remove platformConfig test ( #43835 ) ( d0deb90 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.13.0-179.0.dev",
@@ -1740,14 +1740,6 @@
       "preview": "What's Changed feat: update core dependencies by @juanpicado in #5832 chore(deps): update yarn to v4.14.1 (6.x) by @renovate [bot] in #5866 fix(deps): update core verdaccio dependencies (6.x) by @renovate [bot] in #5865 fix: migrate to run server internally by @juanpicado in #5868 fix: tarball might fail #5829 by @juanpicado in #5869 fix(deps): update dependency semver to v7.8.0 (6.x) by @renovate [bot] in #5867 Full Changelog : v6.5.2...v6.6.0",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "2.26.9",
-      "url": "https://github.com/pdm-project/pdm/releases/tag/2.26.9",
-      "published": "2026-05-10T11:06:43Z",
-      "preview": "Features & Improvements Support exclude-newer in pyproject.toml in the [tool.pdm.resolution] table ( #3776 ) Bug Fixes Preserve pylock package markers when refreshing lockfile hashes. ( #3773 ) What's Changed Remove dead code by @duriantaco in #3774 [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci [bot] in #3780 chore(deps): bump the actions group with 5 updates by @dependabot [bot] in #3778 fix: update pdm_scheme to set pep582_base in sysconfig and add corresponding test by @frostming in #3781 Allow exclude-newer to be defined in pyproject.toml by @sneakers-the-rat in #3782 New Contrib",
-      "source": "PDM releases",
-      "category": "Python"
     }
   ]
 }
