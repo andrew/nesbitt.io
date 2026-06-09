@@ -7,6 +7,7 @@ tags:
   - package-managers
   - history
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mntygon5uj26"
 ---
 
 Patents and applications relevant to package manager design, grouped by area. Mostly US filings, found through Google Patents searches on the obvious terms. Each entry lists the assignee, filing and grant dates, and current status, followed by a short summary of the core claim and a prior-art note where open-source predecessors are well-documented.

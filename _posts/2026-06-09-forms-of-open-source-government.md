@@ -7,6 +7,7 @@ tags:
   - open-source
   - maintainers
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mntygowscr2y"
 ---
 
 **Benevolent dictator for life.** The founder keeps final say over project direction in perpetuity, by convention rather than written rule. Python ran this way until Guido stepped down in 2018, and Linux, Ruby, Rails, and Laravel still do. The unspoken upper bound on "in perpetuity" is one human lifespan, which none of the famous projects in the category have had to test yet.
