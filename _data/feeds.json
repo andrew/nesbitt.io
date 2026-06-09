@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-09T01:18:36Z",
-  "cutoff": "2026-05-10T01:18:33Z",
+  "generated": "2026-06-09T05:45:04Z",
+  "cutoff": "2026-05-10T05:45:00Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -1748,14 +1748,6 @@
       "preview": "Features & Improvements Support exclude-newer in pyproject.toml in the [tool.pdm.resolution] table ( #3776 ) Bug Fixes Preserve pylock package markers when refreshing lockfile hashes. ( #3773 ) What's Changed Remove dead code by @duriantaco in #3774 [pre-commit.ci] pre-commit autoupdate by @pre-commit-ci [bot] in #3780 chore(deps): bump the actions group with 5 updates by @dependabot [bot] in #3778 fix: update pdm_scheme to set pep582_base in sysconfig and add corresponding test by @frostming in #3781 Allow exclude-newer to be defined in pyproject.toml by @sneakers-the-rat in #3782 New Contrib",
       "source": "PDM releases",
       "category": "Python"
-    },
-    {
-      "title": "v2.14.4-rc1",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.4-rc1",
-      "published": "2026-05-10T03:53:14Z",
-      "preview": "What's Changed Component updates ⬆️ [CHERRY_PICK] fix(session): fix SessionRegenerate save args and lifetime by @chlins in #22882 [CHERRY-PICK] feat(session): prevent background polling from renewing session TTL by @chlins in #23098 (cherry-pick) Fix issue related to scanner API by @stonezdj in #23109 (cherry-pick) Call /v2/auth/token api to get bearer token for dockerhub adapter by @stonezdj in #23208 bump Go to 1.25.9 and use goharbor/photon:5.0 base images by @stonezdj in #23204 Bump up the go.opentelemetry.io/otel/sdk and github.com/go-jose/go-jose package by @stonezdj in #23215 (cherry-pi",
-      "source": "Harbor releases",
-      "category": "Containers"
     }
   ]
 }
