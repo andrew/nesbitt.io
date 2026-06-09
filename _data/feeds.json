@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-09T18:01:32Z",
-  "cutoff": "2026-05-10T18:01:26Z",
+  "generated": "2026-06-09T19:04:52Z",
+  "cutoff": "2026-05-10T19:04:31Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.381.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.381.0",
+      "published": "2026-06-09T18:01:58Z",
+      "preview": "What's Changed Disable npmMinimalAgeGate for Yarn Berry security updates by @yeikel in #15191 Add Bundler 4 support by @JamieMagee in #15180 Bump org.apache.maven.plugins:maven-dependency-plugin from 3.10.0 to 3.11.0 in /maven/lib/dependabot/maven by @dependabot [bot] in #15190 Add GONOPROXY/GONOSUMDB env vars to go_modules FileParser by @Nishnha in #15159 fix(go_modules): include advisory pseudo-version boundaries for security fix resolution by @thavaahariharangit in #15213 Retry Gradle metadata fetch on EOF by @thavaahariharangit in #15204 Handle npm registry EOFError in latest version finde",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.217.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.217.0",
