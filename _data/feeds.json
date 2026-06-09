@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T11:27:50Z",
-  "cutoff": "2026-05-10T11:27:46Z",
+  "generated": "2026-06-09T13:19:16Z",
+  "cutoff": "2026-05-10T13:19:12Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.9.0.20",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.20",
+      "published": "2026-06-09T12:26:16Z",
+      "preview": "Insert 7.9.0.20 into main on 06/09/2026 12:26:16",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "43.216.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.216.4",
@@ -1236,14 +1244,6 @@
       "preview": "See full v11.0.0 changelog Migration guide: Migrating from v10 to v11 Minor Changes Experimental: Adding @pnpm/pacquet (the Rust port of pnpm) to configDependencies in pnpm-workspace.yaml now delegates the materialization phase of pnpm install to the pacquet binary. pnpm still owns dependency resolution; pacquet only fetches and imports from the freshly-written lockfile. This is an opt-in preview of the Rust install engine #11723 . To configure pacquet in a project, run: pnpm add @pnpm/pacquet --config You'll see changes in pnpm-workspace.yaml and pnpm-lock.yaml that should be committed. If yo",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "7.8.0.39",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.8.0.39",
-      "published": "2026-05-21T12:25:53Z",
-      "preview": "Insert 7.8.0.39 into main on 05/21/2026 12:25:52",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "0.69.0 - 2026-05-20",
