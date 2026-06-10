@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T19:14:27Z",
-  "cutoff": "2026-05-11T19:14:22Z",
+  "generated": "2026-06-10T22:00:51Z",
+  "cutoff": "2026-05-11T22:00:47Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.6.2: Supply-chain defaults and clearer install warnings",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.2",
+      "published": "2026-06-10T21:28:14Z",
+      "preview": "This release tightens mise's default supply-chain posture: fuzzy version resolution now waits 24 hours after a release by default on timestamp-aware backends, with new excludes, opt-outs, and warnings so it stays out of your way when you don't want it. A couple of long-standing GitHub-attestation and npm-install rough edges are smoothed over as well. Added (config) Apply a built-in 24-hour minimum_release_age when no global or per-tool value is set, for backends that expose release timestamps (core, aqua, github, npm, pipx, etc.). Asdf/vfox/plugin-style tools without release metadata are unaff",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "0.11.20",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.20",
@@ -188,14 +196,6 @@
       "preview": "43.217.0 (2026-06-09) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.57.0 (main) ( #43893 ) ( ae859fa ) Code Refactoring gerrit: use schema validated getJson instead of getJsonUnchecked ( #43777 ) ( dfe806f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.6.2",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.2",
-      "published": "2026-06-09T17:27:23Z",
-      "preview": "(config) add minimum release age excludes by @jdx in [ #10277 ](h…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.6.2",
