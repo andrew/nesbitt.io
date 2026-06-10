@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-10T05:50:01Z",
-  "cutoff": "2026-05-11T05:49:57Z",
+  "generated": "2026-06-10T07:49:54Z",
+  "cutoff": "2026-05-11T07:49:49Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.218.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.218.0",
+      "published": "2026-06-10T06:30:17Z",
+      "preview": "43.218.0 (2026-06-10) Features platform/gitea,forgejo: use login instead of username for user handles ( #43904 ) ( 5a8b5bb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.217.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.217.1",
@@ -282,14 +290,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.6",
       "published": "2026-06-08T03:51:46Z",
       "preview": "43.214.6 (2026-06-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.8 (main) ( #43863 ) ( 778b05c ) Documentation update references to astral-sh/setup-uv to v8.2.0 (main) ( #43857 ) ( 8131324 ) update references to jaegertracing/jaeger to v2.19.0 (main) ( #43858 ) ( e96b028 ) update references to otel/opentelemetry-collector-contrib to v0.153.0 (main) ( #43860 ) ( c185b68 ) update references to prom/prometheus to v3.12.0 (main) ( #43861 ) ( bf7974e ) update references to renovate/renovate (main) ( #43862 ) ( 1632a28 ) Miscellaneous Chores deps: lock file maintenanc",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.214.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.5",
-      "published": "2026-06-07T21:43:55Z",
-      "preview": "43.214.5 (2026-06-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.7 (main) ( #43856 ) ( 9bac785 ) Miscellaneous Chores deps: update containerbase/internal-tools action to v4.6.41 (main) ( #43854 ) ( 54df7e7 ) deps: update dependency type-fest to v5.7.0 (main) ( #43855 ) ( 251e67f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1732,14 +1732,6 @@
       "preview": "v2.0.0-beta.12",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "5.1.11",
-      "url": "https://github.com/Homebrew/brew/releases/tag/5.1.11",
-      "published": "2026-05-11T07:25:58Z",
-      "preview": "What's Changed info: list installed dependents with --verbose by @HaraldNordgren in #22163 bundle/checker: enable typed: strict by @bittoby in #22157 Supports in repository patch files by @rexmhall09 in #22144 bundle/commands/exec: enable typed: strict by @bittoby in #22167 dev-cmd/tests: remove obsolete HOMEBREW_REALLY_USE_INTERNAL_API cleanup by @bittoby in #22168 docs: formula-cookbook remove deprecated string replacement instructions by @GunniBusch in #22169 Test bare cask macOS dependencies by @MikeMcQuaid in #22166 build(deps): bump github/codeql-action from 4.35.2 to 4.35.3 in the githu",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
