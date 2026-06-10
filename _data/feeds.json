@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-10T03:30:52Z",
-  "cutoff": "2026-05-11T03:30:48Z",
+  "generated": "2026-06-10T05:50:01Z",
+  "cutoff": "2026-05-11T05:49:57Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -1740,14 +1740,6 @@
       "preview": "What's Changed info: list installed dependents with --verbose by @HaraldNordgren in #22163 bundle/checker: enable typed: strict by @bittoby in #22157 Supports in repository patch files by @rexmhall09 in #22144 bundle/commands/exec: enable typed: strict by @bittoby in #22167 dev-cmd/tests: remove obsolete HOMEBREW_REALLY_USE_INTERNAL_API cleanup by @bittoby in #22168 docs: formula-cookbook remove deprecated string replacement instructions by @GunniBusch in #22169 Test bare cask macOS dependencies by @MikeMcQuaid in #22166 build(deps): bump github/codeql-action from 4.35.2 to 4.35.3 in the githu",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "v2.14.4",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.4",
-      "published": "2026-05-11T04:11:29Z",
-      "preview": "What's Changed Component updates ⬆️ [CHERRY_PICK] fix(session): fix SessionRegenerate save args and lifetime by @chlins in #22882 [CHERRY-PICK] feat(session): prevent background polling from renewing session TTL by @chlins in #23098 (cherry-pick) Fix issue related to scanner API by @stonezdj in #23109 (cherry-pick) Call /v2/auth/token api to get bearer token for dockerhub adapter by @stonezdj in #23208 bump Go to 1.25.9 and use goharbor/photon:5.0 base images by @stonezdj in #23204 Bump up the go.opentelemetry.io/otel/sdk and github.com/go-jose/go-jose package by @stonezdj in #23215 (cherry-pi",
-      "source": "Harbor releases",
-      "category": "Containers"
     }
   ]
 }
