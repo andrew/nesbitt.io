@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-10T09:34:03Z",
-  "cutoff": "2026-05-11T09:33:59Z",
+  "generated": "2026-06-10T11:32:01Z",
+  "cutoff": "2026-05-11T11:31:57Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.219.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.219.0",
+      "published": "2026-06-10T11:23:30Z",
+      "preview": "43.219.0 (2026-06-10) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.58.0 (main) ( #43909 ) ( 20fe86c ) Miscellaneous Chores deps: update dependency memfs to v4.57.5 (main) ( #43907 ) ( 72eb482 ) deps: update dependency memfs to v4.57.6 (main) ( #43908 ) ( 4b02975 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v11.5.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.3",
+      "published": "2026-06-10T10:45:18Z",
+      "preview": "v11.5.3",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.7.3",
+      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.3",
+      "published": "2026-06-10T10:39:59Z",
+      "preview": "As part of this release we had 2 issues closed. Bug Fix Corrupted package prevents new package installations. See #3875 by Kylotan , resolved in !3901 by vexx32 . Contributors 2 contributors made this release possible.",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-08-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-08-a",
@@ -292,14 +316,6 @@
       "preview": "🐛 bug fixes fix: ByteStream chunked upload/download by @eed3si9n in #9298 fix: Fixes publishing platform-specific artifacts (like Scala Native) by @arashi01 in #9293 fix: Fixes cross build caching by @eed3si9n in #9305 deps: Update to Scala 3.8.4 by @xuwei-k + @eed3si9n in #9302 / sbt/io#522 Full Changelog : v2.0.0-RC14...v2.0.0-RC15",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "43.214.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.6",
-      "published": "2026-06-08T03:51:46Z",
-      "preview": "43.214.6 (2026-06-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.8 (main) ( #43863 ) ( 778b05c ) Documentation update references to astral-sh/setup-uv to v8.2.0 (main) ( #43857 ) ( 8131324 ) update references to jaegertracing/jaeger to v2.19.0 (main) ( #43858 ) ( e96b028 ) update references to otel/opentelemetry-collector-contrib to v0.153.0 (main) ( #43860 ) ( c185b68 ) update references to prom/prometheus to v3.12.0 (main) ( #43861 ) ( bf7974e ) update references to renovate/renovate (main) ( #43862 ) ( 1632a28 ) Miscellaneous Chores deps: lock file maintenanc",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.6.1: aqua multi-registry, SOPS TOML, and a GitHub backend tune-up",
@@ -1356,14 +1372,6 @@
       "preview": "Composer 2.10 is ready for a release, and we need your help to test it and report any regression. Please try it out! Running composer self-update --preview will get you the 2.10.0-RC2 Running composer self-update --stable will get you back on the latest 2.9 stable release if anything broke. Report any issues you encounter as a new issue specifying you tried the 2.10 RC and please include stack traces & repro details. Full Changelog Since 2.10.0-RC1, fixes in 2.9.6 - 2.9.8, many of which security relevant, are also included Since 2.10.0-RC1 a lot of the new filter list config format was modifie",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "pnpm 11.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.2.0",
-      "published": "2026-05-20T11:09:09Z",
-      "preview": "See full v11.0.0 changelog Migration guide: Migrating from v10 to v11 Minor Changes Experimental: Adding @pnpm/pacquet (the Rust port of pnpm) to configDependencies in pnpm-workspace.yaml now delegates the materialization phase of pnpm install to the pacquet binary. pnpm still owns dependency resolution; pacquet only fetches and imports from the freshly-written lockfile. This is an opt-in preview of the Rust install engine #11723 . To configure pacquet in a project, run: pnpm add @pnpm/pacquet --config You'll see changes in pnpm-workspace.yaml and pnpm-lock.yaml that should be committed. If yo",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "bundler-v4.0.12",
