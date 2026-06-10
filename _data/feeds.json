@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-10T01:23:43Z",
-  "cutoff": "2026-05-11T01:23:39Z",
+  "generated": "2026-06-10T03:30:52Z",
+  "cutoff": "2026-05-11T03:30:48Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.217.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.217.1",
+      "published": "2026-06-10T01:47:34Z",
+      "preview": "43.217.1 (2026-06-10) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.57.1 (main) ( #43903 ) ( b103f93 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "SDK-3.13.0-189.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-189.0.dev",
+      "published": "2026-06-10T01:31:28Z",
+      "preview": "SDK 3.13.0-189.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-188.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-188.0.dev",
+      "published": "2026-06-10T01:31:26Z",
+      "preview": "SDK 3.13.0-188.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-187.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-187.0.dev",
+      "published": "2026-06-10T01:31:24Z",
+      "preview": "SDK 3.13.0-187.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-186.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-186.0.dev",
+      "published": "2026-06-10T01:31:22Z",
+      "preview": "SDK 3.13.0-186.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.12.2",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.12.2",
+      "published": "2026-06-10T01:31:20Z",
+      "preview": "SDK 3.12.2",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "bundler-v4.0.14",
       "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.14",
@@ -246,22 +294,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "43.214.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.214.4",
-      "published": "2026-06-07T11:54:09Z",
-      "preview": "43.214.4 (2026-06-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.56.6 (main) ( #43853 ) ( 52d88af ) Documentation schema: link config options to docs ( #43613 ) ( def98d0 ) Miscellaneous Chores deps: update dependency lint-staged to v17.0.7 (main) ( #43852 ) ( 8a58267 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.10.24 (main) ( #43849 ) ( 76a45a1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "SDK-3.13.0-180.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-180.0.dev",
-      "published": "2026-06-07T00:51:56Z",
-      "preview": "SDK 3.13.0-180.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "v2026.6.1: aqua multi-registry, SOPS TOML, and a GitHub backend tune-up",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.6.1",
       "published": "2026-06-07T00:31:53Z",
@@ -292,30 +324,6 @@
       "preview": "Insert 7.9.0.17 into main on 06/06/2026 12:26:41",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "SDK-3.13.0-179.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-179.0.dev",
-      "published": "2026-06-06T00:48:41Z",
-      "preview": "SDK 3.13.0-179.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-178.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-178.0.dev",
-      "published": "2026-06-06T00:48:39Z",
-      "preview": "SDK 3.13.0-178.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-177.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-177.0.dev",
-      "published": "2026-06-06T00:48:36Z",
-      "preview": "SDK 3.13.0-177.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "7.8.0.59",
@@ -356,14 +364,6 @@
       "preview": "Patch Changes Peer dependency resolution now reuses the peer contexts already recorded in the lockfile when those providers are still present in the dependency graph and still satisfy the peer ranges. This avoids unnecessary peer-context rewrites during lockfile regeneration. Current manifest choices remain authoritative: a newly added, explicitly updated, or aliased direct provider, a changed nested provider, or a locked version that no longer satisfies the range still takes precedence. The lockfile verifier now checks that a registry entry pinning an explicit tarball URL points at the artifa",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "SDK-3.13.0-176.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-176.0.dev",
-      "published": "2026-06-05T00:51:13Z",
-      "preview": "SDK 3.13.0-176.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "Windows Package Manager 1.29.250",
@@ -1748,14 +1748,6 @@
       "preview": "What's Changed Component updates ⬆️ [CHERRY_PICK] fix(session): fix SessionRegenerate save args and lifetime by @chlins in #22882 [CHERRY-PICK] feat(session): prevent background polling from renewing session TTL by @chlins in #23098 (cherry-pick) Fix issue related to scanner API by @stonezdj in #23109 (cherry-pick) Call /v2/auth/token api to get bearer token for dockerhub adapter by @stonezdj in #23208 bump Go to 1.25.9 and use goharbor/photon:5.0 base images by @stonezdj in #23204 Bump up the go.opentelemetry.io/otel/sdk and github.com/go-jose/go-jose package by @stonezdj in #23215 (cherry-pi",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "0.11.13",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.13",
-      "published": "2026-05-11T01:40:21Z",
-      "preview": "Release Notes Released on 2026-05-10. Bug fixes Include data files in editable builds ( #19312 ) Respect --require-hashes when installing from pylock.toml files ( #19334 ) Python Add CPython 3.14.5 Install uv 0.11.13 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.13/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/download/0.11.13/uv-installer.ps1 | iex \" Download uv 0.11.13 File Platform Ch",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
