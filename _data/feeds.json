@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-09T19:04:52Z",
-  "cutoff": "2026-05-10T19:04:31Z",
+  "generated": "2026-06-10T01:23:43Z",
+  "cutoff": "2026-05-11T01:23:39Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "bundler-v4.0.14",
+      "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.14",
+      "published": "2026-06-10T00:12:00Z",
+      "preview": "Bug fixes: Preserve per-source cooldown when converging sources from the lockfile. Pull request #9601 by bryanwoods Don't exclude the locked version from cooldown during bundle update. Pull request #9599 by hsbt",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.14",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.14",
+      "published": "2026-06-10T00:10:15Z",
+      "preview": "Enhancements: Add executables and bindir validation to the gem installer. Pull request #9595 by hsbt Strip C1 control characters from displayed gem text. Pull request #9597 by hsbt Installs bundler 4.0.14 as a default gem.",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "4.0.14 Released",
+      "url": "https://blog.rubygems.org/2026/06/10/4.0.14-released.html",
+      "published": "2026-06-10T00:00:00Z",
+      "preview": "RubyGems 4.0.14 includes enhancements and Bundler 4.0.14 includes bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.14 RubyGems Release Notes Enhancements: Add executables and bindir validation to the gem installer. Pull request #9595 by hsbt Strip C1 control characters from displayed gem text. Pull request #9597 by hsbt Installs bundler 4.0.14 as a default gem. Bundler Release Notes Bug fixes: Preserve per-source cooldown when converging sources from the lock",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
+    },
     {
       "title": "v0.381.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.381.0",
@@ -1732,14 +1756,6 @@
       "preview": "Release Notes Released on 2026-05-10. Bug fixes Include data files in editable builds ( #19312 ) Respect --require-hashes when installing from pylock.toml files ( #19334 ) Python Add CPython 3.14.5 Install uv 0.11.13 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.13/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/download/0.11.13/uv-installer.ps1 | iex \" Download uv 0.11.13 File Platform Ch",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 11.1",
-      "url": "https://pnpm.io/blog/releases/11.1",
-      "published": "2026-05-11T00:00:00Z",
-      "preview": "pnpm 11.1 adds a few new commands — pnpm audit signatures, pnpm bugs, and pnpm owner — alongside support for installing from arbitrary named registries (including a built-in alias for the GitHub Packages npm registry), the ability to skip runtime installation in CI, and several fixes.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
