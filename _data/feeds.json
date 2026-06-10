@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T11:32:01Z",
-  "cutoff": "2026-05-11T11:31:57Z",
+  "generated": "2026-06-10T13:33:50Z",
+  "cutoff": "2026-05-11T13:33:45Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -22,28 +22,36 @@
   ],
   "items": [
     {
+      "title": "2.7.3",
+      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.3",
+      "published": "2026-06-10T13:09:19Z",
+      "preview": "As part of this release we had 2 issues closed. Bug Fix Corrupted package prevents new package installations. See #3875 by Kylotan , resolved in !3901 by vexx32 . Contributors 2 contributors made this release possible. SHA256 Hashes of the release artifacts 3ae5e9cc9cfa8347d243662006fc4e75936561cfb1c6605f6c37d81edf48fbc7 chocolatey-2.7.3.0.msi 40778cc59245b3eb6ea5147aeef5bea5d577419e5abce22a224189740dc16db5 chocolatey.2.7.3.nupkg a4879a4260f162c029a318791cbd90a7d191ee9d815e9981bcfee6e433ec83a2 chocolatey.lib.2.7.3.nupkg 561b4ea32936d794f2b938a9a5f00488d0a92116182bd8640a78728d06bbf9bf chocolate",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
+    {
+      "title": "7.9.0.26",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.26",
+      "published": "2026-06-10T12:24:44Z",
+      "preview": "Insert 7.9.0.26 into main on 06/10/2026 12:24:44",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "pnpm 11.5.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.3",
+      "published": "2026-06-10T11:54:49Z",
+      "preview": "Patch Changes Stopped expanding environment variables in repository-controlled registry/proxy request destinations and registry credential values from .npmrc , and in workspace registry URLs from pnpm-workspace.yaml . Move dynamic registry URL and token configuration to trusted user, global, CLI, or environment config. Resolve package-manager bootstrap dependencies with trusted user or CLI registry and network config, and reject package-manager env-lockfile records that do not use registry package paths with integrity-only resolutions before auto-switch execution. Avoid writing packageManagerD",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "43.219.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.219.0",
       "published": "2026-06-10T11:23:30Z",
       "preview": "43.219.0 (2026-06-10) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.58.0 (main) ( #43909 ) ( 20fe86c ) Miscellaneous Chores deps: update dependency memfs to v4.57.5 (main) ( #43907 ) ( 72eb482 ) deps: update dependency memfs to v4.57.6 (main) ( #43908 ) ( 4b02975 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v11.5.3",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.3",
-      "published": "2026-06-10T10:45:18Z",
-      "preview": "v11.5.3",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "2.7.3",
-      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.3",
-      "published": "2026-06-10T10:39:59Z",
-      "preview": "As part of this release we had 2 issues closed. Bug Fix Corrupted package prevents new package installations. See #3875 by Kylotan , resolved in !3901 by vexx32 . Contributors 2 contributors made this release possible.",
-      "source": "Chocolatey releases",
-      "category": "System"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-08-a",
@@ -1252,14 +1260,6 @@
       "preview": "pnpm 11.3 adds support for npm's staged publishing (pnpm stage), the new trustLockfile setting for skipping the supply-chain verification pass on already-trusted lockfiles, and native implementations of pnpm pkg, pnpm repo, and pnpm set-script. It also adds a --skip-manifest-obfuscation flag for pack / publish and cuts the memory footprint of minimumReleaseAge / trustPolicy verification on large workspaces.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "7.8.0.40",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.8.0.40",
-      "published": "2026-05-22T12:34:39Z",
-      "preview": "Insert 7.8.0.40 into main on 05/22/2026 12:34:38",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "v2.8.0",
