@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T13:33:50Z",
-  "cutoff": "2026-05-11T13:33:45Z",
+  "generated": "2026-06-10T15:31:26Z",
+  "cutoff": "2026-05-11T15:31:20Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.220.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.220.0",
+      "published": "2026-06-10T14:40:30Z",
+      "preview": "43.220.0 (2026-06-10) Features config: add statusCheckWhen option to control individual Renovate status checks ( #42887 ) ( 09def4f ) Miscellaneous Chores deps: update dependency python to v3.14.6 (main) ( #43910 ) ( dd57703 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 10.34.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.2",
+      "published": "2026-06-10T14:04:24Z",
+      "preview": "Patch Changes Package-manager bootstrap traffic is now resolved through trusted registries and trusted network config. When pnpm downloads the pnpm version requested by a repository's packageManager field, the registry it fetches from (and the proxy/TLS settings used for that traffic) now come exclusively from trusted config sources — CLI options, env config, user and global .npmrc — defaulting to the public npm registry, instead of the repository's project/workspace settings. pnpm now verifies the npm registry signature of a package-manager binary before spawning it. When the packageManager f",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "2.7.3",
       "url": "https://github.com/chocolatey/choco/releases/tag/2.7.3",
@@ -298,14 +314,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.216.0",
       "published": "2026-06-08T12:18:03Z",
       "preview": "43.216.0 (2026-06-08) Features platform/github: support gitUrl option on github ( #43531 ) ( 2abd139 ), closes renovatebot/renovate#43086",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.215.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.215.0",
-      "published": "2026-06-08T12:00:20Z",
-      "preview": "43.215.0 (2026-06-08) Features data: automatic update of static data ( #43847 ) ( e065ed5 ) Miscellaneous Chores deps: update dependency vite to v8.0.15 (main) ( #43866 ) ( df314e0 ) deps: update dependency vite to v8.0.16 (main) ( #43872 ) ( 9f9028e ) deps: update vitest monorepo to v4.1.8 (main) ( #43869 ) ( 5667e52 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1356,14 +1364,6 @@
       "preview": "v2.0.0-beta.15",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "pnpm 11.2.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.2.1",
-      "published": "2026-05-20T14:59:41Z",
-      "preview": "Minor Changes Experimental: Adding @pnpm/pacquet (the Rust port of pnpm) to configDependencies in pnpm-workspace.yaml now delegates the materialization phase of pnpm install to the pacquet binary. pnpm still owns dependency resolution; pacquet only fetches and imports from the freshly-written lockfile. This is an opt-in preview of the Rust install engine #11723 . To configure pacquet in a project, run: pnpm add @pnpm/pacquet --config You'll see changes in pnpm-workspace.yaml and pnpm-lock.yaml that should be committed. If you experience any issues with pacquet, please let us know by mentioning",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "2.10.0-RC2",
