@@ -151,7 +151,13 @@ def collect_dblp
   hits = {}
   DBLP_TERMS.each do |term|
     q = URI.encode_www_form(q: term, format: "json", h: 50)
-    data = http_get_json("https://dblp.org/search/publ/api?#{q}") or next
+    data = begin
+      http_get_json("https://dblp.org/search/publ/api?#{q}")
+    rescue => e
+      warn "dblp term #{term.inspect} skipped: #{e.message}"
+      nil
+    end
+    next unless data
     Array(data.dig("result", "hits", "hit")).each do |h|
       info = h["info"] or next
       key = info["key"] or next
