@@ -16,6 +16,10 @@ GitHub announced the [breaking changes coming in npm v12](https://github.blog/ch
 
 [uv audit](https://astral.sh/blog/uv-audit) is a new preview command that scans Python dependencies for known vulnerabilities and adverse project statuses like deprecation, a uv-native alternative to pip-audit. The same announcement covers an experimental malware check: `uv add` and `uv sync` can look up previously-resolved packages against OSV on every sync, behind `UV_MALWARE_CHECK=1`.
 
+[pnpm 11.5.3](https://github.com/pnpm/pnpm/releases/tag/v11.5.3), backported to [10.34.2](https://github.com/pnpm/pnpm/releases/tag/v10.34.2), hardens the `packageManager` bootstrap path. The registry and proxy settings used to download a requested pnpm version now come only from trusted config sources, not the repository's own `.npmrc`, and the downloaded binary's npm registry signature is verified before it runs, failing closed. Repository-controlled config can no longer expand environment variables into registry URLs or credential values, and Node.js downloads get their `SHASUMS256.txt` checked against the release team's PGP keys instead of trusting the configured mirror to vouch for itself.
+
+Ruby Central announced a [Security Engineers in Residence programme](https://rubycentral.org/news/strengthening-security-for-the-ruby-ecosystem/), funded by an Alpha-Omega grant, to find and verify vulnerabilities in widely-used gems before reporting them to maintainers, following the model the Python, Rust and PHP foundations already run. I'm advising the team on package ecosystem security. The first engagement turned up a ReDoS in Nokogiri's CSS query tokenizer, verified and fixed before disclosure.
+
 ## Releases
 
 [RubyGems and Bundler 4.0.14](https://blog.rubygems.org/2026/06/10/4.0.14-released.html) follow up on last week's Cooldown feature: Bundler now preserves per-source cooldown settings when converging sources from the lockfile and stops excluding the locked version from cooldown during `bundle update`. On the RubyGems side, the gem installer validates executables and bindir, and C1 control characters are stripped from displayed gem text.
@@ -26,7 +30,7 @@ GitHub announced the [breaking changes coming in npm v12](https://github.blog/ch
 
 [Flatpak 1.18.0](https://github.com/flatpak/flatpak/releases/tag/1.18.0) exposes AMD's compute interface (`/dev/kfd`) through the DRI device permission, prints failure causes in `flatpak update` output, and speeds up fish shell integration at startup.
 
-Also out: [pixi 0.70.2](https://github.com/prefix-dev/pixi/releases/tag/v0.70.2), [Mamba 2.8.1](https://github.com/mamba-org/mamba/releases/tag/2.8.1), [sbt 2.0.0-RC15](https://github.com/sbt/sbt/releases/tag/v2.0.0-RC15).
+Also out: [pixi 0.70.2](https://github.com/prefix-dev/pixi/releases/tag/v0.70.2), [Mamba 2.8.1](https://github.com/mamba-org/mamba/releases/tag/2.8.1), [uv 0.11.20](https://github.com/astral-sh/uv/releases/tag/0.11.20), [Chocolatey 2.7.3](https://github.com/chocolatey/choco/releases/tag/2.7.3), [sbt 2.0.0-RC16](https://github.com/sbt/sbt/releases/tag/v2.0.0-RC16).
 
 ## Articles
 
@@ -37,6 +41,8 @@ Also out: [pixi 0.70.2](https://github.com/prefix-dev/pixi/releases/tag/v0.70.2)
 [A Strategic Approach to Demonstrating the Value of OSS Efforts](https://fastwonderblog.com/2026/06/08/a-strategic-approach-to-demonstrating-the-value-of-oss-efforts/) (Dawn Foster) collects a year of her writing and talks on showing leadership the value of open source work in one place.
 
 [The Guix Nix Abomination: Leveraging Guix derivations in Nix](https://fzakaria.com/2026/06/05/the-guix-nix-abomination-leveraging-guix-derivations-in-nix) (Farid Zakaria) registers a Guix derivation in a Nix store and has Nix build it, showing the two tools share the same derivation machinery underneath the rivalry.
+
+[Are insecure code completions a vulnerability?](https://sethmlarson.dev/are-insecure-code-completions-a-vulnerability) (Seth Larson) catches PyCharm's line completion suggesting `CERT_NONE` and warning-suppression boilerplate, and argues a CVE is the wrong mechanism for systematically insecure suggestions, though vendors should still fix them at the source.
 
 ## Papers
 
