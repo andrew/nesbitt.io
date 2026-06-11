@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T22:55:50Z",
-  "cutoff": "2026-05-12T22:55:46Z",
+  "generated": "2026-06-11T23:53:25Z",
+  "cutoff": "2026-05-12T23:53:21Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -22,12 +22,28 @@
   ],
   "items": [
     {
-      "title": "v2026.6.3",
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-06-11T23:17:09Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2026.6.3: auto_env, release-age polish, and lockfile fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.6.3",
-      "published": "2026-06-11T22:33:22Z",
-      "preview": "(backend) allow version_expr to post-process version_regex resu…",
+      "published": "2026-06-11T23:12:12Z",
+      "preview": "This release smooths over follow-ups to v2026.6.2's built-in minimum_release_age cutoff, introduces opt-in platform-aware config environments, and tightens lockfile and Windows behavior for tasks and installs. Added (config) New auto_env early-init setting ( MISE_AUTO_ENV or .miserc.toml ) that automatically activates platform-derived config environments — unix , {os} ( linux / macos / windows ), and {os}-{arch} (e.g. windows-x64 , macos-arm64 ) — so files like mise.windows.toml , mise/config.macos-arm64.toml , and matching mise.<env>.lock lockfiles load automatically. Precedence is unix < {os",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "pnpm 11.6",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.6.0",
+      "published": "2026-06-11T23:10:00Z",
+      "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
+      "source": "pnpm releases",
+      "category": "JavaScript"
     },
     {
       "title": "vfox-v2026.6.3",
@@ -108,14 +124,6 @@
       "preview": "Release Notes Released on 2026-06-11. Python Add CPython 3.13.14 and 3.14.6 ( #19787 ) Preview features Add environment.root to uv workspace metadata --sync ( #19760 ) Allow uv upgrade to update a single dependency constraint ( #19738 ) Compute and pass uv workspace metadata payload in ty check ( #19763 ) Make packaged applications the default for uv init ( #17841 ) Performance Add parallel discovery of Python versions for uv python list ( #18684 ) Avoid normalizing source distribution names twice ( #19784 ) Bug fixes Improve cache robustness and pruning behavior Allow CI cache pruning without",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-11T17:22:37Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "pnpm 10.34.3",
@@ -1364,14 +1372,6 @@
       "preview": "The Rust Security Response Team was notified that Cargo incorrectly handled symlinks inside of crate tarballs downloaded from third-party registries, allowing a malicious crate to override the source code of another crate from the same registry. This vulnerability is tracked as CVE-2026-5223. The severity of the vulnerability is medium for users of third-party registries. Users of crates.io are not affected , as crates.io forbids uploading crates containing any symlink. Overview When building a crate, Cargo extracts its source code in a local cache (stored within ~/.cargo ), reusing it for any",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "pnpm 11.3",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.3.0",
-      "published": "2026-05-24T08:48:54Z",
-      "preview": "See full v11.0.0 changelog Migration guide: Migrating from v10 to v11 Minor Changes Added pnpm stage with publish , list , view , approve , reject , and download subcommands for npm staged publishing. Added a new setting trustLockfile . When true , pnpm install skips the supply-chain verification pass that re-applies minimumReleaseAge / trustPolicy='no-downgrade' to every entry in the loaded lockfile. The install treats the lockfile as already-trusted — useful for closed-source projects where every commit comes from a trusted author. Defaults to false ; verification stays on by default. Set in",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 11.3",
