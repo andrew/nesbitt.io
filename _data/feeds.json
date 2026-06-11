@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T15:33:04Z",
-  "cutoff": "2026-05-12T15:32:58Z",
+  "generated": "2026-06-11T17:32:43Z",
+  "cutoff": "2026-05-12T17:32:39Z",
   "feed_count": 79,
   "item_count": 218,
   "categories": [
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-06-11T17:22:37Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "pnpm 10.34.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.3",
+      "published": "2026-06-11T17:04:59Z",
+      "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.5.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.3",
+      "published": "2026-06-11T17:03:19Z",
+      "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 10.34.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.2",
+      "published": "2026-06-11T17:01:53Z",
+      "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v2.8.3",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.8.3",
+      "published": "2026-06-11T15:57:47Z",
+      "preview": "2.8.3 / 2026.06.11 feat(cli): suggest DENO_TLS_CA_STORE on untrusted TLS certificate ( #34756 ) feat(cli): support --env-file in dependency and registry subcommands ( #34843 ) feat(compile): support watch mode ( #34860 ) feat(config): support globs in links ( #34849 ) feat(ext/crypto): implement SubtleCrypto.supports() static method ( #34903 ) feat(ext/crypto): support ML-DSA JWK import/export ( #34914 ) feat(ext/fetch): support priority in RequestInit ( #34716 ) feat(ext/node): auto-instrument node:http2 with OpenTelemetry ( #34510 ) feat(ext/node): notify control socket when node:http server",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
     {
       "title": "9.6.0 RC2",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0-RC2",
@@ -44,14 +84,6 @@
       "preview": "Insert 7.9.0.28 into main on 06/11/2026 12:34:08",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "v2.8.3: 2.8.3 (#35144)",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.8.3",
-      "published": "2026-06-11T12:02:22Z",
-      "preview": "Bumped versions for 2.8.3 Co-authored-by: bartlomieju bartlomieju@users.noreply.github.com Co-authored-by: Bartek Iwańczuk biwanczuk@gmail.com",
-      "source": "Deno releases",
-      "category": "JavaScript"
     },
     {
       "title": "20260611t083300-all",
@@ -126,14 +158,6 @@
       "category": "Registries"
     },
     {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-11T00:22:07Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
       "title": "6.0.0",
       "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
       "published": "2026-06-11T00:00:00Z",
@@ -166,14 +190,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "pnpm 10.34.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.2",
-      "published": "2026-06-10T14:04:24Z",
-      "preview": "Patch Changes Package-manager bootstrap traffic is now resolved through trusted registries and trusted network config. When pnpm downloads the pnpm version requested by a repository's packageManager field, the registry it fetches from (and the proxy/TLS settings used for that traffic) now come exclusively from trusted config sources — CLI options, env config, user and global .npmrc — defaulting to the public npm registry, instead of the repository's project/workspace settings. pnpm now verifies the npm registry signature of a package-manager binary before spawning it. When the packageManager f",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "2.7.3",
       "url": "https://github.com/chocolatey/choco/releases/tag/2.7.3",
       "published": "2026-06-10T13:09:19Z",
@@ -188,14 +204,6 @@
       "preview": "Insert 7.9.0.26 into main on 06/10/2026 12:24:44",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "pnpm 11.5.3",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.3",
-      "published": "2026-06-10T11:54:49Z",
-      "preview": "Patch Changes Stopped expanding environment variables in repository-controlled registry/proxy request destinations and registry credential values from .npmrc , and in workspace registry URLs from pnpm-workspace.yaml . Move dynamic registry URL and token configuration to trusted user, global, CLI, or environment config. Resolve package-manager bootstrap dependencies with trusted user or CLI registry and network config, and reject package-manager env-lockfile records that do not use registry package paths with integrity-only resolutions before auto-switch execution. Avoid writing packageManagerD",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "43.219.0",
@@ -1356,14 +1364,6 @@
       "preview": "What's Changed info: mark deprecated/disabled pkg in install status by @HaraldNordgren in #22334 gitignore: ignore test/.npm/ by @HaraldNordgren in #22337 info, tap-info: skip uninstalled marker and bold when not a problem (align with search) by @HaraldNordgren in #22342 Remove obsolete --skip-update from command-not-found handlers by @rexmhall09 in #22340 Check RubyGems licences by @MikeMcQuaid in #22343 cask: include resolved artifact targets in JSON output by @carlocab in #22346 Move the 'wsl?' bool from the OS::Linux module up to the OS module by @lstn in #22309 Make bundle upgrade an alia",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "pnpm 11.2.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.2.2",
-      "published": "2026-05-21T13:55:59Z",
-      "preview": "See full v11.0.0 changelog Migration guide: Migrating from v10 to v11 Minor Changes Experimental: Adding @pnpm/pacquet (the Rust port of pnpm) to configDependencies in pnpm-workspace.yaml now delegates the materialization phase of pnpm install to the pacquet binary. pnpm still owns dependency resolution; pacquet only fetches and imports from the freshly-written lockfile. This is an opt-in preview of the Rust install engine #11723 . To configure pacquet in a project, run: pnpm add @pnpm/pacquet --config You'll see changes in pnpm-workspace.yaml and pnpm-lock.yaml that should be committed. If yo",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "0.69.0 - 2026-05-20",
