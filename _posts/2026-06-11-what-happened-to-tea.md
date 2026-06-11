@@ -7,6 +7,7 @@ tags:
   - package-managers
   - supply-chain
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnyzjwtyox2l"
 ---
 
 On June 4th, [tea.xyz](https://tea.xyz/) launched what it had been promising since 2022: a cryptocurrency that pays open source maintainers. Within the first hour of official trading, the token fell 75% from its opening price. A week later it trades about 90% below its first-day high, the company's GitHub org has been near-silent for six months, and the founder's public commits are going to a different project entirely.
