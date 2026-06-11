@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-11T17:32:43Z",
-  "cutoff": "2026-05-12T17:32:39Z",
+  "generated": "2026-06-11T18:25:08Z",
+  "cutoff": "2026-05-12T18:25:02Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.11.21",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.21",
+      "published": "2026-06-11T18:20:26Z",
+      "preview": "Release Notes Released on 2026-06-11. Python Add CPython 3.13.14 and 3.14.6 ( #19787 ) Preview features Add environment.root to uv workspace metadata --sync ( #19760 ) Allow uv upgrade to update a single dependency constraint ( #19738 ) Compute and pass uv workspace metadata payload in ty check ( #19763 ) Make packaged applications the default for uv init ( #17841 ) Performance Add parallel discovery of Python versions for uv python list ( #18684 ) Avoid normalizing source distribution names twice ( #19784 ) Bug fixes Improve cache robustness and pruning behavior Allow CI cache pruning without",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -164,6 +172,14 @@
       "preview": "Today, I’m proud to announce Homebrew 6.0.0. The most significant changes since 5.1.0 are a new tap trust security mechanism, the new faster, smaller, default internal Homebrew JSON API, sandboxing on Linux, better defaults informed by our user survey, many brew bundle improvements, improved performance and initial support for macOS 27 (Golden Gate).",
       "source": "Homebrew Blog",
       "category": "System"
+    },
+    {
+      "title": "Why pnpm no longer expands environment variables in a repository's .npmrc",
+      "url": "https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc",
+      "published": "2026-06-11T00:00:00Z",
+      "preview": "pnpm used to expand $ placeholders everywhere it found them — including in the .npmrc and pnpm-workspace.yaml files that live inside the repository you just cloned. That turned out to be a way for a malicious repository to steal the secrets in your environment. As of v10.34.2 and v11.5.3, pnpm stops expanding environment variables in repository-controlled registry and credential settings.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "v2026.6.2: Supply-chain defaults and clearer install warnings",
@@ -1756,14 +1772,6 @@
       "preview": "What's Changed fix: use default config for config files by @nrwiersma in #2108 fix: support external_account workload identity, add tests by @DrPsychick in #2120 chinese translations of design by @sufu777 in #2110 New Contributors @sufu777 made their first contribution in #2110 Full Changelog : v0.17.0...v0.17.1",
       "source": "Athens releases",
       "category": "Go"
-    },
-    {
-      "title": "0.11.14",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.14",
-      "published": "2026-05-12T18:04:36Z",
-      "preview": "Release Notes Released on 2026-05-12. Enhancements Add Astral mirror URL override ( #19206 ) Ignore top_level.txt entries in uninstall that are not valid Python identifiers ( #19340 ) Bug fixes Avoid applying .env files in parent process ( #19343 ) Filter ANSI codes in logging output ( #19311 ) Fix uv tree showing extra-conditional deps for packages required without extras ( #19332 ) Respect build options (e.g., --no-build ) during lock validation ( #19366 ) Install uv 0.11.14 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/u",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }

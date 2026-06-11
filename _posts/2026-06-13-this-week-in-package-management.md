@@ -16,7 +16,7 @@ GitHub announced the [breaking changes coming in npm v12](https://github.blog/ch
 
 [uv audit](https://astral.sh/blog/uv-audit) is a new preview command that scans Python dependencies for known vulnerabilities and adverse project statuses like deprecation, a uv-native alternative to pip-audit. The same announcement covers an experimental malware check: `uv add` and `uv sync` can look up previously-resolved packages against OSV on every sync, behind `UV_MALWARE_CHECK=1`.
 
-[pnpm 11.5.3](https://github.com/pnpm/pnpm/releases/tag/v11.5.3), backported to [10.34.2](https://github.com/pnpm/pnpm/releases/tag/v10.34.2), hardens the `packageManager` bootstrap path. The registry and proxy settings used to download a requested pnpm version now come only from trusted config sources, not the repository's own `.npmrc`, and the downloaded binary's npm registry signature is verified before it runs, failing closed. Repository-controlled config can no longer expand environment variables into registry URLs or credential values, and Node.js downloads get their `SHASUMS256.txt` checked against the release team's PGP keys instead of trusting the configured mirror to vouch for itself.
+[pnpm 11.5.3](https://github.com/pnpm/pnpm/releases/tag/v11.5.3), backported to [10.34.2](https://github.com/pnpm/pnpm/releases/tag/v10.34.2), hardens the `packageManager` bootstrap path. The registry and proxy settings used to download a requested pnpm version now come only from trusted config sources, not the repository's own `.npmrc`, and the downloaded binary's npm registry signature is verified before it runs, failing closed. Repository-controlled config can no longer expand environment variables into registry URLs or credential values, and Node.js downloads get their `SHASUMS256.txt` checked against the release team's PGP keys instead of trusting the configured mirror to vouch for itself. A [follow-up post](https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc) walks through the malicious-repository scenario the env-variable change blocks.
 
 Ruby Central announced a [Security Engineers in Residence programme](https://rubycentral.org/news/strengthening-security-for-the-ruby-ecosystem/), funded by an Alpha-Omega grant, to find and verify vulnerabilities in widely-used gems before reporting them to maintainers, following the model the Python, Rust and PHP foundations already run. I'm advising the team on package ecosystem security. The first engagement turned up a ReDoS in Nokogiri's CSS query tokenizer, verified and fixed before disclosure.
 
@@ -32,7 +32,11 @@ Ruby Central announced a [Security Engineers in Residence programme](https://rub
 
 [Flatpak 1.18.0](https://github.com/flatpak/flatpak/releases/tag/1.18.0) exposes AMD's compute interface (`/dev/kfd`) through the DRI device permission, prints failure causes in `flatpak update` output, and speeds up fish shell integration at startup.
 
-Also out: [pixi 0.70.2](https://github.com/prefix-dev/pixi/releases/tag/v0.70.2), [Mamba 2.8.1](https://github.com/mamba-org/mamba/releases/tag/2.8.1), [uv 0.11.20](https://github.com/astral-sh/uv/releases/tag/0.11.20), [Chocolatey 2.7.3](https://github.com/chocolatey/choco/releases/tag/2.7.3), [sbt 2.0.0-RC16](https://github.com/sbt/sbt/releases/tag/v2.0.0-RC16).
+[Homebrew 6.0.0](https://brew.sh/2026/06/11/homebrew-6.0.0/) adds a tap trust mechanism that requires explicit approval before a third-party tap's Ruby runs on the machine. The release also ships a smaller default internal JSON API, sandboxing on Linux, and parallel formula installs from `brew bundle`. Three [security advisories](https://github.com/Homebrew/brew/releases/tag/6.0.0) are addressed in the same release: an HTTPS-to-HTTP redirect bypass in the POST download strategy, root code execution via Git hooks in a macOS pkg postinstall, and the macOS installer trusting user-controlled plist files. `brew bundle` also adds npm, krew and winget support and now prompts before removing packages on cleanup. A [PR I sent](https://github.com/Homebrew/brew/pull/22459) adds a `patches` key to `brew info --json` and the formulae.brew.sh API, so SBOM generators and vulnerability tools can see which patches each formula applies on top of upstream.
+
+[Deno 2.8.3](https://github.com/denoland/deno/releases/tag/v2.8.3) accepts `--env-file` in the `dependency` and `registry` subcommands, and suggests `DENO_TLS_CA_STORE` when a fetch hits an untrusted certificate.
+
+Also out: [pixi 0.70.2](https://github.com/prefix-dev/pixi/releases/tag/v0.70.2), [Mamba 2.8.1](https://github.com/mamba-org/mamba/releases/tag/2.8.1), [uv 0.11.21](https://github.com/astral-sh/uv/releases/tag/0.11.21), [Chocolatey 2.7.3](https://github.com/chocolatey/choco/releases/tag/2.7.3), [sbt 2.0.0-RC16](https://github.com/sbt/sbt/releases/tag/v2.0.0-RC16), [Gradle 9.6.0-RC2](https://github.com/gradle/gradle/releases/tag/v9.6.0-RC2), [Windows Package Manager 1.29.250](https://github.com/microsoft/winget-cli/releases/tag/v1.29.250).
 
 ## Articles
 
@@ -46,6 +50,8 @@ Also out: [pixi 0.70.2](https://github.com/prefix-dev/pixi/releases/tag/v0.70.2)
 
 [Are insecure code completions a vulnerability?](https://sethmlarson.dev/are-insecure-code-completions-a-vulnerability) (Seth Larson) catches PyCharm's line completion suggesting `CERT_NONE` and warning-suppression boilerplate, and argues a CVE is the wrong mechanism for systematically insecure suggestions, though vendors should still fix them at the source.
 
+[Helm v3 end-of-life](https://helm.sh/blog/helm-v3-end-of-life) sets 9 September 2026 as the final feature release, limited to Kubernetes client library updates, and February 2027 as the cutoff for security patches. Existing Helm 3 releases can be managed by Helm 4 without chart rewrites.
+
 ## Papers
 
 [When LLMs Invent Rust Crates: An Empirical Study of Hallucination Patterns and Mitigation](https://arxiv.org/abs/2606.08444) (Zheng et al., arXiv) is the first large-scale study of crate hallucination in LLM-generated Rust code, building its dataset from Stack Overflow and GitHub tasks rather than the Python and JavaScript ecosystems earlier package-hallucination work measured.
@@ -57,6 +63,8 @@ Also out: [pixi 0.70.2](https://github.com/prefix-dev/pixi/releases/tag/v0.70.2)
 [Inside PyPI: Maria Ashna on Supporting Python's Package Index](https://www.youtube.com/watch?v=OGIznDrFa2U) is a Behind the Commit interview about the day-to-day work of running PyPI.
 
 [Fixing Fedora's Packaging Pipeline](https://www.youtube.com/watch?v=m59OdC3BLp0) is a Fedora Podcast episode with Jakub Kadlčík of the Copr build service on RPM packaging tooling.
+
+[The impact of AI on open source software development](https://mikemcquaid.com/talks/the-impact-of-ai-on-open-source-software-development/) is a panel Mike McQuaid put together with five open source practitioners on what AI assistance changes for the communities and projects underneath the tooling.
 
 Two versioning schemes: [PaceVer](https://pacever.org/) versions user-facing apps as `MARKETING.NATIVE.OTA`, bumping by which channel a release ships through, the slow store-reviewed binary or the fast over-the-air update. [Kelvin versioning](https://wiki.xxiivv.com/site/kelvin_versioning.html) (Devine Lu Linvega) counts versions down in Kelvin towards absolute zero, where the software is frozen and no further releases are possible.
 
