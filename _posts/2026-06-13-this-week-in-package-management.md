@@ -24,6 +24,8 @@ Ruby Central announced a [Security Engineers in Residence programme](https://rub
 
 [RubyGems and Bundler 4.0.14](https://blog.rubygems.org/2026/06/10/4.0.14-released.html) follow up on last week's Cooldown feature: Bundler now preserves per-source cooldown settings when converging sources from the lockfile and stops excluding the locked version from cooldown during `bundle update`. On the RubyGems side, the gem installer validates executables and bindir, and C1 control characters are stripped from displayed gem text.
 
+[gem.coop namespaces](https://gem.coop/updates/7/) moved from beta to general availability, so a Gemfile can point at a per-publisher source like `https://gem.coop/@kaspth`. Cooldown support was added to every namespace via a `/cooldown` suffix, though that part stays on the beta domain while bugs get fixed.
+
 [Dependabot Core 0.381.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.381.0) adds Bundler 4 support and disables the npm minimal-age gate for Yarn Berry security updates, the same cooldown-bypass-for-security-fixes pattern it applied to pnpm last week. Go module updates now respect `GONOPROXY` and `GONOSUMDB`.
 
 [mise 2026.6.2](https://github.com/jdx/mise/releases/tag/v2026.6.2) adds excludes to its minimum release age setting, so a cooldown policy can carve out specific tools.
