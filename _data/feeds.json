@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-11T01:26:56Z",
-  "cutoff": "2026-05-12T01:26:53Z",
+  "generated": "2026-06-11T03:31:19Z",
+  "cutoff": "2026-05-12T03:31:15Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.0.0-RC16",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0-RC16",
+      "published": "2026-06-11T03:11:52Z",
+      "preview": "🐛 bug fixes fix: Fixes packageDirectory zip publication race by @bitloi in #9047 fix: Fixes chunked upload/download by @eed3si9n in #9318 fix: Fixes console / javaOptions + console / forked by default by @eed3si9n in #9322 Full Changelog : v2.0.0-RC15...v2.0.0-RC16",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
     {
       "title": "SDK-3.13.0-195.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-195.0.dev",
