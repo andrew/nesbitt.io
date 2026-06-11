@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-11T19:17:59Z",
-  "cutoff": "2026-05-12T19:17:53Z",
+  "generated": "2026-06-11T21:08:58Z",
+  "cutoff": "2026-05-12T21:08:52Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v7.0.0-next-7.21",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.21",
+      "published": "2026-06-11T20:52:43Z",
+      "preview": "Minor Changes ddf993c : Adopt @verdaccio/server and drop the local api/web/storage forks. A thin Storage wrapper is kept to support legacy callback-based storage plugins, and the unused helpers in src/lib/utils.ts were removed.",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "libnpmpack: v9.1.10",
       "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.10",
