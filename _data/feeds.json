@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-11T18:25:08Z",
-  "cutoff": "2026-05-12T18:25:02Z",
+  "generated": "2026-06-11T19:17:59Z",
+  "cutoff": "2026-05-12T19:17:53Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,62 @@
     "System"
   ],
   "items": [
+    {
+      "title": "libnpmpack: v9.1.10",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.10",
+      "published": "2026-06-11T18:49:03Z",
+      "preview": "9.1.10 (2026-06-11) Bug Fixes 33d421a #9468 flatten path separators in pack output filename ( #9468 ) (@github-actions[bot], @rootvector2 ) Dependencies workspace : @npmcli/arborist@9.8.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v7.0.24",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.24",
+      "published": "2026-06-11T18:49:02Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.8.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v10.3.0",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v10.3.0",
+      "published": "2026-06-11T18:49:01Z",
+      "preview": "10.3.0 (2026-06-11) Features 8ff3e48 #9483 allowScripts tooling and inBundle hardening ( #9483 ) (@github-actions[bot], @JamieMagee ) Bug Fixes 1bb1b8c #9467 escape executable name in libnpmexec run-script ( #9467 ) (@github-actions[bot], @rootvector2 ) Dependencies workspace : @npmcli/arborist@9.8.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmdiff: v8.1.10",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.10",
+      "published": "2026-06-11T18:49:00Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.8.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "config: v10.11.0",
+      "url": "https://github.com/npm/cli/releases/tag/config-v10.11.0",
+      "published": "2026-06-11T18:48:58Z",
+      "preview": "10.11.0 (2026-06-11) Features 5f73e31 #9539 differentiate GitHub Actions environments in user-agent ( #9517 ) ( @reggi , @Copilot) ae8ac4e #9534 add min-release-age-exclude config ( @JamieMagee , @caseyjhol ) Bug Fixes 1bb62bb #9454 config: clarify --all help so it's accurate for approve-scripts and deny-scripts ( @JamieMagee )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "arborist: v9.8.0",
+      "url": "https://github.com/npm/cli/releases/tag/arborist-v9.8.0",
+      "published": "2026-06-11T18:48:57Z",
+      "preview": "9.8.0 (2026-06-11) Features ae8ac4e #9534 add min-release-age-exclude config ( @JamieMagee , @caseyjhol ) 8ff3e48 #9483 allowScripts tooling and inBundle hardening ( #9483 ) (@github-actions[bot], @JamieMagee ) Bug Fixes fc5573a #9530 keep nested file: deps and re-resolve changed git refs ( #9530 ) (@github-actions[bot], @owlstronaut ) b13ee4d #9511 arborist: honor allow-remote=root for root-direct remote tarballs ( #9511 ) (@github-actions[bot], @manzoorwanijk ) 66408d7 #9500 arborist: apply registry-tarball allow-remote exemption in linked strategy ( #9500 ) (@github-actions[bot], @manzoorwa",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.17.0",
+      "url": "https://github.com/npm/cli/releases/tag/v11.17.0",
+      "published": "2026-06-11T18:48:56Z",
+      "preview": "11.17.0 (2026-06-11) Features ae8ac4e #9534 add min-release-age-exclude config ( @JamieMagee , @caseyjhol ) 8ff3e48 #9483 allowScripts tooling and inBundle hardening ( #9483 ) (@github-actions[bot], @JamieMagee ) Bug Fixes 847cdf8 #9541 match dotted and versioned args in approve-scripts/deny-scripts ( @owlstronaut ) d99f7cb #9535 emit valid JSON from approve-scripts/deny-scripts --json ( @owlstronaut ) 351a309 #9499 pass script-shell to publish lifecycle hooks ( #9499 ) (@github-actions[bot]) 4fa81df #9497 recognize allowScripts for local link targets ( #9497 ) (@github-actions[bot], @cypherco",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
     {
       "title": "0.11.21",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.21",
@@ -1190,46 +1246,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "libnpmfund: v7.0.23",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.23",
-      "published": "2026-05-27T20:52:25Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.7.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmexec: v10.2.9",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v10.2.9",
-      "published": "2026-05-27T20:52:24Z",
-      "preview": "10.2.9 (2026-05-27) Bug Fixes 5000cbf #9409 exempt local project introspection from allow-directory ( @owlstronaut ) Dependencies workspace : @npmcli/arborist@9.7.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmdiff: v8.1.9",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.9",
-      "published": "2026-05-27T20:52:23Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.7.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "config: v10.10.0",
-      "url": "https://github.com/npm/cli/releases/tag/config-v10.10.0",
-      "published": "2026-05-27T20:52:22Z",
-      "preview": "10.10.0 (2026-05-27) Features 4b67f6e #9416 publish --access=private alias for restricted ( #9416 ) (@github-actions[bot], @reggi , @Copilot) a10c7ca #9415 Phase 1 of allowScripts opt-in install-script policy ( #9360 ) ( #9415 ) ( @owlstronaut , @JamieMagee )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "arborist: v9.7.0",
-      "url": "https://github.com/npm/cli/releases/tag/arborist-v9.7.0",
-      "published": "2026-05-27T20:52:20Z",
-      "preview": "9.7.0 (2026-05-27) Features a10c7ca #9415 Phase 1 of allowScripts opt-in install-script policy ( #9360 ) ( #9415 ) ( @owlstronaut , @JamieMagee ) Bug Fixes d8a7803 #9418 arborist: drop self-link materialization for undeclared workspaces ( #9418 ) (@github-actions[bot], @manzoorwanijk ) 4d141a0 #9417 skip hidden lockfile save on dry run ( #9417 ) (@github-actions[bot], @puneetdixit200 , @puneetdixit200 )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v11.16.0",
       "url": "https://github.com/npm/cli/releases/tag/v11.16.0",
       "published": "2026-05-27T20:52:19Z",
@@ -1412,22 +1428,6 @@
       "preview": "Introducing the new programmatic API for pkg.go.dev, allowing developers to fetch package and module data directly.",
       "source": "Go Blog",
       "category": "Go"
-    },
-    {
-      "title": "v12.0.0-pre.0.0",
-      "url": "https://github.com/npm/cli/releases/tag/v12.0.0-pre.0.0",
-      "published": "2026-05-20T20:51:12Z",
-      "preview": "12.0.0-pre.0.0 (2026-05-20) ⚠️ BREAKING CHANGES npm view --json now always returns an array. npm sbom --sbom-format=cyclonedx now reports the name field from each package's package.json instead of the on-disk directory name. The name , bom-ref , and purl of the root component and of aliased dependencies may change. npm no longer registers man pages with the system when installed globally. man npm-install will no longer work, but npm help install is unaffected. The npm pkg output is no longer forced to json. This means you can get single values without having to worry about wrapping of the valu",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.0.0-pre.0",
-      "url": "https://github.com/npm/cli/releases/tag/v12.0.0-pre.0",
-      "published": "2026-05-20T20:47:33Z",
-      "preview": "chore: release 12.0.0-pre.0.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "v29.5.2",
@@ -1764,14 +1764,6 @@
       "preview": "To install Bun v1.3.14 curl -fsSL https://bun.sh/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.sh/install.ps1|iex \" To upgrade to Bun v1.3.14: bun upgrade Read Bun v1.3.14's release notes on Bun's blog Thanks to 11 contributors! @190n @alii @carlsmedstad @cirospaciari @coleleavitt @djs5008 @dylan-conway @ig-ant @Jarred-Sumner @robobun @sosukesuzuki",
       "source": "Bun releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "v0.17.1",
-      "url": "https://github.com/gomods/athens/releases/tag/v0.17.1",
-      "published": "2026-05-12T18:46:36Z",
-      "preview": "What's Changed fix: use default config for config files by @nrwiersma in #2108 fix: support external_account workload identity, add tests by @DrPsychick in #2120 chinese translations of design by @sufu777 in #2110 New Contributors @sufu777 made their first contribution in #2110 Full Changelog : v0.17.0...v0.17.1",
-      "source": "Athens releases",
-      "category": "Go"
     }
   ]
 }
