@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-11T13:44:16Z",
-  "cutoff": "2026-05-12T13:44:11Z",
+  "generated": "2026-06-11T15:33:04Z",
+  "cutoff": "2026-05-12T15:32:58Z",
   "feed_count": 79,
-  "item_count": 220,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -1764,22 +1764,6 @@
       "preview": "Release Notes Released on 2026-05-12. Enhancements Add Astral mirror URL override ( #19206 ) Ignore top_level.txt entries in uninstall that are not valid Python identifiers ( #19340 ) Bug fixes Avoid applying .env files in parent process ( #19343 ) Filter ANSI codes in logging output ( #19311 ) Fix uv tree showing extra-conditional deps for packages required without extras ( #19332 ) Respect build options (e.g., --no-build ) during lock validation ( #19366 ) Install uv 0.11.14 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/u",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "5.4.2.1",
-      "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.2.1",
-      "published": "2026-05-12T14:15:14Z",
-      "preview": "Update translations from weblate Move system-repo.lock to /var/lib/dnf/system-repo.lock dnfdaemon: Document interactive option in D-Bus API dnfdaemon: Add repo_key_imported informational signal dnfdaemon: Avoid timeout on repo key import dnfdaemon: Pass interactive parameter to repo key import callback refactor(download): preallocate memory in DownloadCommand::configure Fix list --installed-from-repo to imply --installed Fix typos in docs, comments, and user-facing strings dnf5.8.rst: s/sytem/system Suggest allow_vendor_change=true when solver blocks vendor update Shell completion: use space f",
-      "source": "DNF5 releases",
-      "category": "System"
-    },
-    {
-      "title": "9.5.1",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.5.1",
-      "published": "2026-05-12T14:14:22Z",
-      "preview": "The Gradle team is excited to announce Gradle 9.5.1. Here are the highlights of this release: Task provenance in reports and failure messages Type-safe accessors for precompiled Kotlin Settings plugins Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: atm1020 , mataha , Adam , Attila Kelemen , Benedikt Ritter , Björn Kautler , Caro Silva Rode , CHANHAN , Dmitry Nezavitin , Eng Zer Jun , KugelLibelle , Madalin Valceleanu , Markus Gaisbauer , Oliver Kopp , Philip Wedemann , ploober , Roberto Perez Alcolea , Rohit Anan",
-      "source": "Gradle releases",
-      "category": "Maven"
     }
   ]
 }
