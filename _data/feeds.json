@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-12T03:31:14Z",
-  "cutoff": "2026-05-13T03:31:09Z",
+  "generated": "2026-06-12T05:57:32Z",
+  "cutoff": "2026-05-13T05:57:27Z",
   "feed_count": 79,
   "item_count": 221,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v3.21.1",
+      "url": "https://github.com/helm/helm/releases/tag/v3.21.1",
+      "published": "2026-06-12T03:56:09Z",
+      "preview": "Helm release v3.21.1",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
     {
       "title": "v4.2.1",
       "url": "https://github.com/helm/helm/releases/tag/v4.2.1",
@@ -1780,14 +1788,6 @@
       "preview": "Please immediately update Composer to version 2.9.8 or 2.2.28 (LTS) by running composer.phar self-update . The new releases fix a vulnerability where Composer leaks the full contents of GitHub Actions issued GITHUB_TOKEN s or GitHub App installation tokens to the GitHub Actions logs. GitHub",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "Bun v1.3.14",
-      "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.3.14",
-      "published": "2026-05-13T03:50:15Z",
-      "preview": "To install Bun v1.3.14 curl -fsSL https://bun.sh/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.sh/install.ps1|iex \" To upgrade to Bun v1.3.14: bun upgrade Read Bun v1.3.14's release notes on Bun's blog Thanks to 11 contributors! @190n @alii @carlsmedstad @cirospaciari @coleleavitt @djs5008 @dylan-conway @ig-ant @Jarred-Sumner @robobun @sosukesuzuki",
-      "source": "Bun releases",
-      "category": "JavaScript"
     }
   ]
 }
