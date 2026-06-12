@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-12T13:30:00Z",
-  "cutoff": "2026-05-13T13:29:55Z",
+  "generated": "2026-06-12T15:29:30Z",
+  "cutoff": "2026-05-13T15:29:25Z",
   "feed_count": 79,
   "item_count": 221,
   "categories": [
@@ -22,6 +22,46 @@
   ],
   "items": [
     {
+      "title": "Helm v4.2.1",
+      "url": "https://github.com/helm/helm/releases/tag/v4.2.1",
+      "published": "2026-06-12T15:06:26Z",
+      "preview": "Helm v4.2.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Fixed data race detected by -race flag when concurrent goroutines (upgrade + rollback, install + uninstall) both call GetWaiterWithOptions on the same FailingKubeClient instance #31925 Fixed hel",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2026.6.4: Declarative system packages",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.4",
+      "published": "2026-06-12T14:55:25Z",
+      "preview": "Added (system) Declarative system packages ( [system.packages] ) for apt, dnf, pacman, and Homebrew core formulae (installed without a brew CLI) via new experimental mise system status / install commands ( #10326 by @jdx ). (system) New mise system use and mise system upgrade to write [system.packages] entries and refresh installed system packages ( #10346 by @jdx ). (github) Added matching (substring) and matching_regex asset options to the github , gitlab , and forgejo backends, applied before platform autodetection and scoped through SLSA provenance verification ( #10325 by @devnulled ). (o",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "Helm v3.21.1",
+      "url": "https://github.com/helm/helm/releases/tag/v3.21.1",
+      "published": "2026-06-12T14:51:31Z",
+      "preview": "Helm v3.21.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Fixed nil pointer panic that could happen with helm template in ClientOnly flows. Now correctly returns a template error #31920 Bumped golang.org/x/net to v0.55.0 to address GO-2026-5026 #32152",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
+      "title": "aqua-registry-v2026.6.2",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.2",
+      "published": "2026-06-12T14:23:12Z",
+      "preview": "Release aqua-registry 2026.6.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.6.4",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.4",
+      "published": "2026-06-12T14:22:53Z",
+      "preview": "Release vfox 2026.6.4",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "2.29.1 (12-Jun-2026)",
       "url": "https://github.com/conan-io/conan/releases/tag/2.29.1",
       "published": "2026-06-12T10:55:57Z",
@@ -36,22 +76,6 @@
       "preview": "This is the next post in our supply chain security series, following the supply chain security update , the Composer 2.10 release , closing Composer&apos;s download fallback paths , blocking malware downloads for every Composer version , and enforcing a safe Composer version across your organization . Composer plugins are a powerful",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "v3.21.1",
-      "url": "https://github.com/helm/helm/releases/tag/v3.21.1",
-      "published": "2026-06-12T03:56:09Z",
-      "preview": "Helm release v3.21.1",
-      "source": "Helm releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v4.2.1",
-      "url": "https://github.com/helm/helm/releases/tag/v4.2.1",
-      "published": "2026-06-12T03:08:17Z",
-      "preview": "Helm release v4.2.1",
-      "source": "Helm releases",
-      "category": "Containers"
     },
     {
       "title": "6.0.1",
@@ -718,36 +742,12 @@
       "category": "Containers"
     },
     {
-      "title": "v2026.6.0: Corepack-managed npm and aqua Windows parity",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.0",
-      "published": "2026-06-03T18:02:06Z",
-      "preview": "A focused release that wires npm into Corepack when requested, brings aqua's Windows extension handling in line with upstream, and fixes task include ordering plus a Git Bash cygdrive regression. Added (npm) Ensure npm itself is managed by Corepack when node.corepack=true and node.npm_shim=false , so the Corepack-managed npm shim is enabled alongside yarn/pnpm ( #10196 by @roele ). (cli) New mise sponsors subcommand and a sponsor block on the docs site that lists sponsors fetched from en.dev/sponsors.json ( #10182 by @jdx ). Fixed (aqua) Mirror aqua's Windows extension semantics end-to-end ( #",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v2.0.0-beta.16",
       "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.16",
       "published": "2026-06-03T17:58:53Z",
       "preview": "v2.0.0-beta.16",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "aqua-registry-v2026.6.0",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.0",
-      "published": "2026-06-03T17:23:18Z",
-      "preview": "Release aqua-registry 2026.6.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.6.0",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.0",
-      "published": "2026-06-03T17:23:02Z",
-      "preview": "Release vfox 2026.6.0",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "0.70.1 - 2026-06-03",
