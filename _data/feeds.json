@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-12T15:29:30Z",
-  "cutoff": "2026-05-13T15:29:25Z",
+  "generated": "2026-06-12T17:18:55Z",
+  "cutoff": "2026-05-13T17:18:51Z",
   "feed_count": 79,
-  "item_count": 221,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "client/v0.5.0-rc.1",
+      "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.5.0-rc.1",
+      "published": "2026-06-12T16:53:15Z",
+      "preview": "0.5.0-rc.1 Changelog The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "api/v1.55.0-rc.1",
+      "url": "https://github.com/moby/moby/releases/tag/api%2Fv1.55.0-rc.1",
+      "published": "2026-06-12T16:29:36Z",
+      "preview": "1.55.0-rc.1 Changelog POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636 docs: clarify swarm join required f",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "Helm v4.2.1",
       "url": "https://github.com/helm/helm/releases/tag/v4.2.1",
@@ -1780,14 +1796,6 @@
       "preview": "Read our blog post about this release. As part of this release we had 1 issue closed. Dependency Change Update support branch bundled 7zip executables to v26.01. See #3889 by corbob resolved in !3892 by corbob . Contributors 1 contributors made this release possible.",
       "source": "Chocolatey releases",
       "category": "System"
-    },
-    {
-      "title": "v25.0.16",
-      "url": "https://github.com/moby/moby/releases/tag/v25.0.16",
-      "published": "2026-05-13T16:27:26Z",
-      "preview": "v25.0.16",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
