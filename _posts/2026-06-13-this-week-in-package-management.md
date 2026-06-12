@@ -18,6 +18,10 @@ GitHub announced the [breaking changes coming in npm v12](https://github.blog/ch
 
 [pnpm 11.5.3](https://github.com/pnpm/pnpm/releases/tag/v11.5.3), backported to [10.34.2](https://github.com/pnpm/pnpm/releases/tag/v10.34.2), hardens the `packageManager` bootstrap path. The registry and proxy settings used to download a requested pnpm version now come only from trusted config sources, not the repository's own `.npmrc`, and the downloaded binary's npm registry signature is verified before it runs, failing closed. Repository-controlled config can no longer expand environment variables into registry URLs or credential values, and Node.js downloads get their `SHASUMS256.txt` checked against the release team's PGP keys instead of trusting the configured mirror to vouch for itself. A [follow-up post](https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc) walks through the malicious-repository scenario the env-variable change blocks.
 
+[Composer plugin allowlists](https://blog.packagist.com/restricting-composer-plugins-across-your-organization/) are now available at the organization level for Private Packagist customers, the next post in Packagist's supply-chain security series. Composer plugins run code during install and update, and the existing per-developer trust prompt is easy to clear without thinking, or to clear from a coding agent on autopilot.
+
+The [Arch User Repository package alvr](https://ioctl.fail/preliminary-analysis-of-aur-malware/) was orphaned and immediately adopted by a threat actor who pushed an update carrying an infostealer payload. The [aur-general thread](https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/2LGBF2AZBPVCCY4VTN6DOVUNNBURFJ2J/) tracks the takeover and the orphan-adoption mechanic that enabled it.
+
 Ruby Central announced a [Security Engineers in Residence programme](https://rubycentral.org/news/strengthening-security-for-the-ruby-ecosystem/), funded by an Alpha-Omega grant, to find and verify vulnerabilities in widely-used gems before reporting them to maintainers, following the model the Python, Rust and PHP foundations already run. I'm advising the team on package ecosystem security. The first engagement turned up a ReDoS in Nokogiri's CSS query tokenizer, verified and fixed before disclosure.
 
 ## Releases
@@ -28,7 +32,7 @@ Ruby Central announced a [Security Engineers in Residence programme](https://rub
 
 [Dependabot Core 0.381.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.381.0) adds Bundler 4 support and disables the npm minimal-age gate for Yarn Berry security updates, the same cooldown-bypass-for-security-fixes pattern it applied to pnpm last week. Go module updates now respect `GONOPROXY` and `GONOSUMDB`.
 
-[mise 2026.6.2](https://github.com/jdx/mise/releases/tag/v2026.6.2) adds excludes to its minimum release age setting, so a cooldown policy can carve out specific tools.
+[mise 2026.6.3](https://github.com/jdx/mise/releases/tag/v2026.6.3) adds excludes to its minimum release age setting so a cooldown policy can carve out specific tools, plus an opt-in `auto_env` that activates platform-aware config and lockfiles by detected OS and architecture.
 
 [Flatpak 1.18.0](https://github.com/flatpak/flatpak/releases/tag/1.18.0) exposes AMD's compute interface (`/dev/kfd`) through the DRI device permission, prints failure causes in `flatpak update` output, and speeds up fish shell integration at startup.
 
@@ -36,7 +40,7 @@ Ruby Central announced a [Security Engineers in Residence programme](https://rub
 
 [Deno 2.8.3](https://github.com/denoland/deno/releases/tag/v2.8.3) accepts `--env-file` in the `dependency` and `registry` subcommands, and suggests `DENO_TLS_CA_STORE` when a fetch hits an untrusted certificate.
 
-Also out: [pixi 0.70.2](https://github.com/prefix-dev/pixi/releases/tag/v0.70.2), [Mamba 2.8.1](https://github.com/mamba-org/mamba/releases/tag/2.8.1), [uv 0.11.21](https://github.com/astral-sh/uv/releases/tag/0.11.21), [Chocolatey 2.7.3](https://github.com/chocolatey/choco/releases/tag/2.7.3), [sbt 2.0.0-RC16](https://github.com/sbt/sbt/releases/tag/v2.0.0-RC16), [Gradle 9.6.0-RC2](https://github.com/gradle/gradle/releases/tag/v9.6.0-RC2), [Windows Package Manager 1.29.250](https://github.com/microsoft/winget-cli/releases/tag/v1.29.250).
+Also out: [pixi 0.70.2](https://github.com/prefix-dev/pixi/releases/tag/v0.70.2), [Mamba 2.8.1](https://github.com/mamba-org/mamba/releases/tag/2.8.1), [uv 0.11.21](https://github.com/astral-sh/uv/releases/tag/0.11.21), [Chocolatey 2.7.3](https://github.com/chocolatey/choco/releases/tag/2.7.3), [sbt 2.0.0-RC16](https://github.com/sbt/sbt/releases/tag/v2.0.0-RC16), [Gradle 9.6.0-RC2](https://github.com/gradle/gradle/releases/tag/v9.6.0-RC2), [Conan 2.29.1](https://github.com/conan-io/conan/releases/tag/2.29.1), [Helm 4.2.1](https://github.com/helm/helm/releases/tag/v4.2.1), [Helm 3.21.1](https://github.com/helm/helm/releases/tag/v3.21.1), [pnpm 11.6.0](https://github.com/pnpm/pnpm/releases/tag/v11.6.0), [Homebrew 6.0.1](https://github.com/Homebrew/brew/releases/tag/6.0.1), [Windows Package Manager 1.29.250](https://github.com/microsoft/winget-cli/releases/tag/v1.29.250).
 
 ## Articles
 
@@ -51,6 +55,8 @@ Also out: [pixi 0.70.2](https://github.com/prefix-dev/pixi/releases/tag/v0.70.2)
 [Are insecure code completions a vulnerability?](https://sethmlarson.dev/are-insecure-code-completions-a-vulnerability) (Seth Larson) catches PyCharm's line completion suggesting `CERT_NONE` and warning-suppression boilerplate, and argues a CVE is the wrong mechanism for systematically insecure suggestions, though vendors should still fix them at the source.
 
 [Helm v3 end-of-life](https://helm.sh/blog/helm-v3-end-of-life) sets 9 September 2026 as the final feature release, limited to Kubernetes client library updates, and February 2027 as the cutoff for security patches. Existing Helm 3 releases can be managed by Helm 4 without chart rewrites.
+
+[Reuse Less Software](https://wiki.alopex.li/ReuseLessSoftware) (Simon Heath) argues for vendoring every dependency into your own repository as a supply-chain firebreak, on the principle that the auto-fetch step is what lets a poisoned release propagate at CI speed and that giving up transitive dedup is a price worth paying for the break.
 
 ## Papers
 
