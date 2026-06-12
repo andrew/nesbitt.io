@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-12T17:18:55Z",
-  "cutoff": "2026-05-13T17:18:51Z",
+  "generated": "2026-06-12T19:01:16Z",
+  "cutoff": "2026-05-13T19:01:12Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.6.0-rc.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.0-rc.1",
+      "published": "2026-06-12T18:43:50Z",
+      "preview": "29.6.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.0 milestone moby/moby, 29.6.0 milestone New Add GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Clients can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-t",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v5.8.3",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.3",
+      "published": "2026-06-12T17:58:07Z",
+      "preview": "Security This release addresses CVE-2026-44517, where building a Dockerfile using a ADD or COPY instruction accessing a malicious Git repository or tar archive could cause files outside the build context directory to be included in the build context or copied into the build. Please see GHSA-49p4-px3h-rq49 for more details. Misc Updated Buildah to v1.43.2 Updated gvisor-tap-vsock to v0.8.9",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.0.0-beta.17",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.17",
+      "published": "2026-06-12T17:56:08Z",
+      "preview": "v2.0.0-beta.17",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "client/v0.5.0-rc.1",
       "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.5.0-rc.1",
@@ -1646,14 +1670,6 @@
       "category": "PHP"
     },
     {
-      "title": "v29.5.0",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.5.0",
-      "published": "2026-05-18T08:50:32Z",
-      "preview": "29.5.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.5.0 milestone moby/moby, 29.5.0 milestone Note Rootless: gvisor-tap-vsock is now the new default rootless network driver and should be preferred over slirp4netns which is no longer installed via Docker packaging. New Rootless: Add new default gvisor-tap-vsock network driver. moby/moby#52319 Enable private time namespace for containers by default on supported kernels. moby/moby#52326 The local logging driver now has support for custom attributes, adding support for the la",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
       "title": "2.0.0-RC13",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0-RC13",
       "published": "2026-05-18T00:11:33Z",
@@ -1739,14 +1755,6 @@
       "published": "2026-05-14T17:41:50Z",
       "preview": "Helm v3.21.0 is a feature release. Users are encouraged to upgrade for the best experience. Warning Helm v3 is approaching end-of-life. Please update to Helm v4. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Kubernetes client libraries to v1.36 notable changes here Installation and Upgrading Download Helm v3.21.0. The common pl",
       "source": "Helm releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.0.0-beta.13",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.13",
-      "published": "2026-05-14T14:38:18Z",
-      "preview": "v2.0.0-beta.13",
-      "source": "Docker Engine releases",
       "category": "Containers"
     },
     {
