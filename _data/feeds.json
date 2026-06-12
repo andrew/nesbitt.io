@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-12T21:01:00Z",
-  "cutoff": "2026-05-13T21:00:55Z",
+  "generated": "2026-06-12T22:50:23Z",
+  "cutoff": "2026-05-13T22:50:18Z",
   "feed_count": 79,
   "item_count": 222,
   "categories": [
@@ -22,20 +22,20 @@
   ],
   "items": [
     {
+      "title": "v2026.6.5: Trust hardening and aqua attestation fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.5",
+      "published": "2026-06-12T22:35:11Z",
+      "preview": "This release closes several trust-bypass vectors where a local mise.toml or mise-tasks/ directory could run code before the user trusted a project, and brings aqua's GitHub attestation verification in line with what the registry asks for. Fixed (config) Treat github.credential_command , gitlab.credential_command , and forgejo.credential_command as global-only. They are stripped from project/local config at parse time (with a warning) so an untrusted mise.toml cannot use a credential command to execute arbitrary shell when fetching tokens. Global config, CLI flags, and environment variables are",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "v6.0.0-RC1",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.0-rc1",
       "published": "2026-06-12T19:48:42Z",
       "preview": "Breaking Changes Due to breaking changes in this release, Podman v6.0.0 must be used with Buildah v1.44.0, Skopeo v1.23, Netavark and Aardvark v2.0.0, and configuration files from the container-libs repository's common/v0.68.0 release. Support for BoltDB databases has been dropped. Starting Podman 6 when the BoltDB database is in use will have Podman attempt an automatic migration from SQLite to BoltDB. Support for running on Intel Macs has been removed. Support for running on Windows 10 has been removed. Support for running on cgroups v1 systems has been removed. Please update your system to ",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "v2026.6.5",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.5",
-      "published": "2026-06-12T19:09:02Z",
-      "preview": "(aqua) support GitHub attestation predicate fields by @risu729 …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "aqua-registry-v2026.6.3",
