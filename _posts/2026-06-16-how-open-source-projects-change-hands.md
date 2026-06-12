@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Open Source Projects Change Hands"
-date: 2026-06-12 10:00 +0000
+date: 2026-06-16 10:00 +0000
 description: "There are fewer ways to leave your package than to kill it."
 tags:
   - open-source
