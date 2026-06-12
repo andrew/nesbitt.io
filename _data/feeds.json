@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-12T20:01:44Z",
-  "cutoff": "2026-05-13T20:01:39Z",
+  "generated": "2026-06-12T21:01:00Z",
+  "cutoff": "2026-05-13T21:00:55Z",
   "feed_count": 79,
-  "item_count": 224,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -1796,22 +1796,6 @@
       "preview": "Helm v4.2.0 is a feature release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Switch to goreleaser for release builds Kubernetes client libraries to v1.36 Add mustToToml template function deprecate unused --hide-notes and --render-subchart-notes flags --dry-run=server n",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "2.7.2",
-      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.2",
-      "published": "2026-05-13T20:15:08Z",
-      "preview": "Read our blog post about this release. As part of this release we had 2 issues closed. Dependency Changes Upgrade log4net to 3.3.1. See #3887 by corbob , resolved in !3886 by corbob . Update bundled 7zip executables to v26.01. See #3888 by corbob . Contributors 1 contributors made this release possible.",
-      "source": "Chocolatey releases",
-      "category": "System"
-    },
-    {
-      "title": "1.4.6",
-      "url": "https://github.com/chocolatey/choco/releases/tag/1.4.6",
-      "published": "2026-05-13T20:14:52Z",
-      "preview": "Read our blog post about this release. As part of this release we had 1 issue closed. Dependency Change Update support branch bundled 7zip executables to v26.01. See #3889 by corbob resolved in !3892 by corbob . Contributors 1 contributors made this release possible.",
-      "source": "Chocolatey releases",
-      "category": "System"
     }
   ]
 }
