@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-13T09:28:54Z",
-  "cutoff": "2026-05-14T09:28:50Z",
+  "generated": "2026-06-13T11:58:45Z",
+  "cutoff": "2026-05-14T11:58:40Z",
   "feed_count": 79,
   "item_count": 221,
   "categories": [
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
+      "published": "2026-06-13T11:53:20Z",
+      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2026.6.6",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.6",
+      "published": "2026-06-13T11:26:13Z",
+      "preview": "(bootstrap) add dotfiles workflow by @jdx in [ #10376 ]( https://g…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-interactive-config-v2026.6.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.6.1",
+      "published": "2026-06-13T11:24:20Z",
+      "preview": "Release mise-interactive-config 2026.6.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.6.7",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.7",
+      "published": "2026-06-13T11:24:07Z",
+      "preview": "Release vfox 2026.6.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-11-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-11-a",
@@ -270,28 +302,12 @@
       "category": "Registries"
     },
     {
-      "title": "v2026.6.3: auto_env, release-age polish, and lockfile fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.3",
-      "published": "2026-06-11T23:12:12Z",
-      "preview": "This release smooths over follow-ups to v2026.6.2's built-in minimum_release_age cutoff, introduces opt-in platform-aware config environments, and tightens lockfile and Windows behavior for tasks and installs. Added (config) New auto_env early-init setting ( MISE_AUTO_ENV or .miserc.toml ) that automatically activates platform-derived config environments — unix , {os} ( linux / macos / windows ), and {os}-{arch} (e.g. windows-x64 , macos-arm64 ) — so files like mise.windows.toml , mise/config.macos-arm64.toml , and matching mise.<env>.lock lockfiles load automatically. Precedence is unix < {os",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "pnpm 11.6",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.6.0",
       "published": "2026-06-11T23:10:00Z",
       "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "vfox-v2026.6.3",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.3",
-      "published": "2026-06-11T22:30:57Z",
-      "preview": "Release vfox 2026.6.3",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v7.0.0-next-7.21",
@@ -564,14 +580,6 @@
       "preview": "43.217.0 (2026-06-09) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.57.0 (main) ( #43893 ) ( ae859fa ) Code Refactoring gerrit: use schema validated getJson instead of getJsonUnchecked ( #43777 ) ( dfe806f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "vfox-v2026.6.2",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.2",
-      "published": "2026-06-09T17:25:09Z",
-      "preview": "Release vfox 2026.6.2",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "7.9.0.20",
@@ -1108,14 +1116,6 @@
       "preview": "What's Changed bundler: avoid adding Bundler checksum for lockfiles using 4.0.0-4.0.10 by @thavaahariharangit in #15164 Remove beta ecosystem flag handling for Deno by @markhallen in #15173 [bun] Add lockfile generator for bun by @brrygrdn in #14882 Pass --config.minimumReleaseAge=0 for pnpm security updates to bypass pnpm-workspace.yaml by @yeikel in #15170 build(deps): bump terraform to 1.15.3 by @HorizonNet in #15055 Change cron schedule from Thursday to Monday by @robaiken in #15181 Add specific error for missing .NET SDK in discovery by @brettfo in #15168 Throw UnparseableFileException wh",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-30-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-30-a",
-      "published": "2026-06-01T08:51:00Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-05-30-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "20260601t084200-all",
