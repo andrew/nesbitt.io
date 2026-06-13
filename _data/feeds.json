@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-13T01:27:19Z",
-  "cutoff": "2026-05-14T01:27:15Z",
+  "generated": "2026-06-13T03:30:46Z",
+  "cutoff": "2026-05-14T03:30:42Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -1788,14 +1788,6 @@
       "preview": "Security: Fixed GitHub token validation and disclosure ( GHSA-f9f8-rm49-7jv2 / CVE-2026-45793 ) Full Changelog : 2.2.27...2.2.28",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "Helm v4.2.0",
-      "url": "https://github.com/helm/helm/releases/tag/v4.2.0",
-      "published": "2026-05-14T01:31:58Z",
-      "preview": "Helm v4.2.0 is a feature release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Switch to goreleaser for release builds Kubernetes client libraries to v1.36 Add mustToToml template function deprecate unused --hide-notes and --render-subchart-notes flags --dry-run=server n",
-      "source": "Helm releases",
-      "category": "Containers"
     }
   ]
 }
