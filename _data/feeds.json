@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-13T17:49:11Z",
-  "cutoff": "2026-05-14T17:49:06Z",
+  "generated": "2026-06-13T18:49:14Z",
+  "cutoff": "2026-05-14T18:49:10Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -24,8 +24,8 @@
     {
       "title": "v3.11.1",
       "url": "https://github.com/commercialhaskell/stack/releases/tag/v3.11.1",
-      "published": "2026-06-13T16:47:55Z",
-      "preview": "v3.11.1",
+      "published": "2026-06-13T18:33:04Z",
+      "preview": "See https://haskellstack.org/ for installation and upgrade instructions. Changes since v3.9.3: Major changes: On 64-bit Windows, the default msys-environment configuration option is now CLANG64 , rather than MINGW64 (which remains an option). The MSYS2 project deprecated the latter environment on 15 March 2026. The GHC project has used the former toolchain from GHC 9.4.1. No default is provided for 32-bit Windows, rather than MINGW32 (which remains an option). The MSYS2 project ceased to actively support it on 17 May 2020. 32-bit Windows is not supported by the GHC project from GHC 8.12. Behav",
       "source": "Stack releases",
       "category": "Registries"
     },
@@ -1756,14 +1756,6 @@
       "preview": "What's Changed Julia: filter yanked versions from get_available_versions by @IanButterworth in #14939 Add blob_oid metadata to manifests in dependency snapshots by @juxtin in #14857 Fix Maven released? check for non-jar packaging types (e.g., aar) by @kbukum1 in #14886 (Python): Move Pip file filtering to grapher by @Copilot in #14856 detect central package version scheme by @brettfo in #14927 allow insecure feeds if explicitly requested by @brettfo in #14891 don't warn on deprecated framework by @brettfo in #14936 migrate sln to slnx by @brettfo in #14943 fix(maven): parse Artifactory-style H",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v6.6.2",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.6.2",
-      "published": "2026-05-14T18:23:18Z",
-      "preview": "6.6.2 Patch Changes 7f7bbde : chore: bump up package test (testing publish provenance )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     }
   ]
 }
