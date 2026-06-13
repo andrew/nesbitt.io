@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-13T18:49:14Z",
-  "cutoff": "2026-05-14T18:49:10Z",
+  "generated": "2026-06-13T20:46:23Z",
+  "cutoff": "2026-05-14T20:46:18Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -1748,14 +1748,6 @@
       "preview": "26.5.0 (2026-05-15) Enhancements Add parsing and storage support for conditional dependencies, optional dependency groups, and variant flags in MatchSpec expressions (introduced in conda/ceps#164 , conda/ceps#165 , and conda/ceps#166 ). ( #15443 ) Add --clobber flag to conda create , matching existing support in conda install and conda update . ( #15584 via #15801 ) Display a Warning when exporting lockfiles from environments containing packages installed with pip, uv, or other 3rd party Python package managers. ( #15581 via #15838 ) Speed up condarc search path expansion on every reset_contex",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v0.376.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.376.0",
-      "published": "2026-05-14T20:03:27Z",
-      "preview": "What's Changed Julia: filter yanked versions from get_available_versions by @IanButterworth in #14939 Add blob_oid metadata to manifests in dependency snapshots by @juxtin in #14857 Fix Maven released? check for non-jar packaging types (e.g., aar) by @kbukum1 in #14886 (Python): Move Pip file filtering to grapher by @Copilot in #14856 detect central package version scheme by @brettfo in #14927 allow insecure feeds if explicitly requested by @brettfo in #14891 don't warn on deprecated framework by @brettfo in #14936 migrate sln to slnx by @brettfo in #14943 fix(maven): parse Artifactory-style H",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
