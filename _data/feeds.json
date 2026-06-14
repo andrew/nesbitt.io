@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-14T15:02:46Z",
-  "cutoff": "2026-05-15T15:02:43Z",
+  "generated": "2026-06-14T19:55:02Z",
+  "cutoff": "2026-05-15T19:54:57Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -1748,14 +1748,6 @@
       "preview": "What's Changed Implement sbt metadata finder by @AbhishekBhaskar in #15011 Bump NuGet.Client to release/7.6.x and pin dotnet-core to v10.0.8 by @JamieMagee in #14995 feat(opentofu): resolve locals references in module version constraints by @diofeher in #15009 simplify line indent detection by @brettfo in #14980 Fix flaky test: use unique git.store path to avoid parallel race condition by @brettfo in #14944 Update OpenTelemetry packages to 1.15.3 by @brettfo in #15029 Add SBT ecosystem to CI, Docker images, and runtime registration by @kbukum1 in #15012 v0.377.0 by @dependabot-core-action-auto",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "26.5.0",
-      "url": "https://github.com/conda/conda/releases/tag/26.5.0",
-      "published": "2026-05-15T19:16:39Z",
-      "preview": "26.5.0 (2026-05-15) Enhancements Add parsing and storage support for conditional dependencies, optional dependency groups, and variant flags in MatchSpec expressions (introduced in conda/ceps#164 , conda/ceps#165 , and conda/ceps#166 ). ( #15443 ) Add --clobber flag to conda create , matching existing support in conda install and conda update . ( #15584 via #15801 ) Display a Warning when exporting lockfiles from environments containing packages installed with pip, uv, or other 3rd party Python package managers. ( #15581 via #15838 ) Speed up condarc search path expansion on every reset_contex",
-      "source": "Conda releases",
-      "category": "Multi-language"
     }
   ]
 }
