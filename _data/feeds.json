@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-14T07:55:13Z",
-  "cutoff": "2026-05-15T07:55:09Z",
+  "generated": "2026-06-14T09:30:55Z",
+  "cutoff": "2026-05-15T09:30:51Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.6.8",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.8",
+      "published": "2026-06-14T09:07:53Z",
+      "preview": "(ruby) require build revision releases by @jdx in [ #10428 ](http…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.6.9",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.9",
+      "published": "2026-06-14T09:05:52Z",
+      "preview": "Release vfox 2026.6.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v2026.6.6: Declarative machine bootstrap",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.6",
+      "published": "2026-06-14T08:08:10Z",
+      "preview": "Added mise bootstrap command for end-to-end machine setup — system packages, dotfiles, macOS defaults, login shell, tools, and an optional bootstrap task — with --yes , --dry-run , and --update ( #10365 , #10376 by @jdx ). Declarative dotfiles via [dotfiles] plus mise dotfiles add / apply / edit / status , supporting symlink , symlink-each , copy , and template modes, glob wildcards in source paths, and block/line edits to files mise doesn't own ( #10365 , #10368 , #10374 , #10376 by @jdx ). [bootstrap.macos.defaults] for declaratively managing macOS user defaults, applied through mise bootstr",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "1.12.12",
       "url": "https://github.com/sbt/sbt/releases/tag/v1.12.12",
@@ -68,14 +92,6 @@
       "preview": "Insert 7.9.0.30 into main on 06/13/2026 12:28:48",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "v2026.6.6: Declarative machine bootstrap",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.6",
-      "published": "2026-06-13T12:03:20Z",
-      "preview": "Added mise bootstrap command for end-to-end machine setup — system packages, dotfiles, macOS defaults, login shell, tools, and an optional bootstrap task — with --yes , --dry-run , and --update ( #10365 , #10376 by @jdx ). Declarative dotfiles via [dotfiles] plus mise dotfiles add / apply / edit / status , supporting symlink , symlink-each , copy , and template modes, glob wildcards in source paths, and block/line edits to files mise doesn't own ( #10365 , #10368 , #10374 , #10376 by @jdx ). [bootstrap.macos.defaults] for declaratively managing macOS user defaults, applied through mise bootstr",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
@@ -150,14 +166,6 @@
       "category": "Registries"
     },
     {
-      "title": "v2026.6.5: Trust hardening and aqua attestation fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.5",
-      "published": "2026-06-12T22:35:11Z",
-      "preview": "This release closes several trust-bypass vectors where a local mise.toml or mise-tasks/ directory could run code before the user trusted a project, and brings aqua's GitHub attestation verification in line with what the registry asks for. Fixed (config) Treat github.credential_command , gitlab.credential_command , and forgejo.credential_command as global-only. They are stripped from project/local config at parse time (with a warning) so an untrusted mise.toml cannot use a credential command to execute arbitrary shell when fetching tokens. Global config, CLI flags, and environment variables are",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v6.0.0-RC1",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.0-rc1",
       "published": "2026-06-12T19:48:42Z",
@@ -220,14 +228,6 @@
       "preview": "Helm v4.2.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Fixed data race detected by -race flag when concurrent goroutines (upgrade + rollback, install + uninstall) both call GetWaiterWithOptions on the same FailingKubeClient instance #31925 Fixed hel",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "v2026.6.4: Declarative system packages",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.4",
-      "published": "2026-06-12T14:55:25Z",
-      "preview": "Added (system) Declarative system packages ( [system.packages] ) for apt, dnf, pacman, and Homebrew core formulae (installed without a brew CLI) via new experimental mise system status / install commands ( #10326 by @jdx ). (system) New mise system use and mise system upgrade to write [system.packages] entries and refresh installed system packages ( #10346 by @jdx ). (github) Added matching (substring) and matching_regex asset options to the github , gitlab , and forgejo backends, applied before platform autodetection and scoped through SLSA provenance verification ( #10325 by @devnulled ). (o",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "Helm v3.21.1",
