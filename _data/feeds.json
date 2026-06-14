@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-14T21:47:22Z",
-  "cutoff": "2026-05-15T21:47:18Z",
+  "generated": "2026-06-14T22:44:15Z",
+  "cutoff": "2026-05-15T22:44:10Z",
   "feed_count": 79,
   "item_count": 216,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.18.0",
+      "url": "https://github.com/gomods/athens/releases/tag/v0.18.0",
+      "published": "2026-06-14T21:59:14Z",
+      "preview": "What's Changed stash/redis: add cluster-mode client support for singleflight by @leerieo in #2122 fix: bump golang.org/x/net to v0.55.0 to fix CVE-2026-39821 by @phoenixsbk in #2126 update-go-pkg(deps): bump google.golang.org/api from 0.275.0 to 0.284.0 by @dependabot [bot] in #2116 update-go-pkg(deps): bump github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager from 0.1.15 to 0.2.10 by @dependabot [bot] in #2115 update-github-action(deps): bump docker/build-push-action from 6 to 7 by @dependabot [bot] in #2114 update-github-action(deps): bump docker/setup-qemu-action from 3 to 4 by @dependab",
+      "source": "Athens releases",
+      "category": "Go"
+    },
     {
       "title": "v2026.6.8: Rolling zig@master and fresher Ruby builds",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.6.8",
@@ -1740,14 +1748,6 @@
       "preview": "⚠️ not available in docker (due pipeline issue) Minor Changes 9f1bcc5 : feat: update Node.js to 24 Bumps the project's Node.js baseline to 24 across runtime and container, and adds a startup warning for users still on an older (but supported) Node. Node 24 bump : .nvmrc 22 → 24 ; Dockerfile base image node:22.22.1-alpine → node:24.15.0-alpine (builder + runtime). Soft-deprecation warning : new RECOMMENDED_NODE_VERSION = '22' and isVersionRecommended() in src/lib/cli/utils.ts ; the init command logs a warn at startup when Node is below the recommendation. MIN_NODE_VERSION stays at '18' — no har",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "v0.377.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.377.0",
-      "published": "2026-05-15T22:07:49Z",
-      "preview": "What's Changed Implement sbt metadata finder by @AbhishekBhaskar in #15011 Bump NuGet.Client to release/7.6.x and pin dotnet-core to v10.0.8 by @JamieMagee in #14995 feat(opentofu): resolve locals references in module version constraints by @diofeher in #15009 simplify line indent detection by @brettfo in #14980 Fix flaky test: use unique git.store path to avoid parallel race condition by @brettfo in #14944 Update OpenTelemetry packages to 1.15.3 by @brettfo in #15029 Add SBT ecosystem to CI, Docker images, and runtime registration by @kbukum1 in #15012 v0.377.0 by @dependabot-core-action-auto",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
