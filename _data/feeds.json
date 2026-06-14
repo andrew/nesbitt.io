@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-14T20:46:19Z",
-  "cutoff": "2026-05-15T20:46:13Z",
+  "generated": "2026-06-14T21:47:22Z",
+  "cutoff": "2026-05-15T21:47:18Z",
   "feed_count": 79,
   "item_count": 216,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.6.8: Rolling zig@master and fresher Ruby builds",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.8",
+      "published": "2026-06-14T21:18:12Z",
+      "preview": "A small fix release: zig@master now behaves as a true rolling channel, and jdx/ruby precompiled installs always pick up the latest numbered build revision. Fixed ruby: Precompiled installs from the default jdx/ruby source now require a numeric build-revision tag (e.g. 3.3.11-1 , 3.3.11-2 ) and ignore the floating base release. Lockfiles already pin to a revision and the base tag is treated as revision 0 , so unlocked installs land on the newest rebuilt binary instead of an older one. Custom ruby.precompiled_url GitHub sources keep the previous base-tag fallback ( #10428 by @jdx ). zig: zig@mas",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "43.222.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.222.1",
+      "published": "2026-06-14T20:47:23Z",
+      "preview": "43.222.1 (2026-06-14) Build System deps: update dependency @renovatebot/pgp to v1.3.14 (main) ( #43992 ) ( f36ce71 ) Continuous Integration exercise arm64 in build-docker job ( #43989 ) ( 7cc19e7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -58,14 +74,6 @@
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.10",
       "published": "2026-06-14T10:37:51Z",
       "preview": "Release vfox 2026.6.10",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "v2026.6.8",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.8",
-      "published": "2026-06-14T09:07:53Z",
-      "preview": "(ruby) require build revision releases by @jdx in [ #10428 ](http…",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -660,14 +668,6 @@
       "preview": "You can update micromamba to this version using: micromamba self-update Bug fixes: [libmamba] fix: Handle nodefaults sentinel consistently by @jjerphan in #4308 [libmamba] fix: Avoid download busy-spin with parallel transfers by @jjerphan in #4307 Maintenance: [all] build(deps): bump codecov/codecov-action from 6 to 7 by @app/dependabot in #4309",
       "source": "Mamba releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.216.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.216.2",
-      "published": "2026-06-08T19:44:00Z",
-      "preview": "43.216.2 (2026-06-08) Bug Fixes manager/flux: pin tag-only OCIRepository digests to spec.ref.digest ( #43753 ) ( 5e4ef74 ) Miscellaneous Chores deps: update dependency tar to v7.5.16 (main) ( #43880 ) ( 5e6b309 ) deps: update linters to v1.68.0 (main) ( #43883 ) ( 527c3df ) Code Refactoring schema-utils: add DeepNullish and use it for conda pypi ( #43877 ) ( d23bef9 ) Continuous Integration agents: extend AGENTS.md and add Claude hooks ( #43470 ) ( b632d27 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.70.2 - 2026-06-08",
