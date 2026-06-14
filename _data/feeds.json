@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-13T20:46:23Z",
-  "cutoff": "2026-05-14T20:46:18Z",
+  "generated": "2026-06-14T05:58:55Z",
+  "cutoff": "2026-05-15T05:58:51Z",
   "feed_count": 79,
   "item_count": 216,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.6.7: pkgx backend, more bootstrap surface, and forge install fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.7",
+      "published": "2026-06-14T05:35:34Z",
+      "preview": "Added pkgx: backend: install pkgx pantry packages natively (no pkgx CLI required), with checksum-verified bottles, dependency resolution, and lockfile support via pkgx_deps and a shared [pkgx-packages] section ( #10408 by @jdx ). [bootstrap.macos.launchd.agents] for declarative macOS user LaunchAgents, plus mise bootstrap launchd apply / status ( #10396 by @jdx ). [bootstrap.linux.systemd.units] for declarative systemd user services, plus mise bootstrap systemd apply / status ( #10399 by @jdx ). [bootstrap.hooks] to run shell commands at named bootstrap phases ( pre-packages , post-dotfiles , ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.6.4",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.4",
+      "published": "2026-06-14T03:29:38Z",
+      "preview": "Release aqua-registry 2026.6.4",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.6.8",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.8",
+      "published": "2026-06-14T03:29:20Z",
+      "preview": "Release vfox 2026.6.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v3.11.1",
       "url": "https://github.com/commercialhaskell/stack/releases/tag/v3.11.1",
@@ -134,26 +158,10 @@
       "category": "Containers"
     },
     {
-      "title": "aqua-registry-v2026.6.3",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.3",
-      "published": "2026-06-12T19:06:48Z",
-      "preview": "Release aqua-registry 2026.6.3",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.6.5",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.5",
       "published": "2026-06-12T19:06:29Z",
       "preview": "Release vfox 2026.6.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.6.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.6.0",
-      "published": "2026-06-12T19:05:36Z",
-      "preview": "Release mise-sigstore 2026.6.0",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -220,14 +228,6 @@
       "preview": "Helm v3.21.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Fixed nil pointer panic that could happen with helm template in ClientOnly flows. Now correctly returns a template error #31920 Bumped golang.org/x/net to v0.55.0 to address GO-2026-5026 #32152",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "aqua-registry-v2026.6.2",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.2",
-      "published": "2026-06-12T14:23:12Z",
-      "preview": "Release aqua-registry 2026.6.2",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.6.4",
