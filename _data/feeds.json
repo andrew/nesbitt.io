@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-14T12:02:28Z",
-  "cutoff": "2026-05-15T12:02:23Z",
+  "generated": "2026-06-14T15:02:46Z",
+  "cutoff": "2026-05-15T15:02:43Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.222.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.222.0",
+      "published": "2026-06-14T14:41:08Z",
+      "preview": "43.222.0 (2026-06-14) Features data: automatic update of static data ( #43983 ) ( 89a217d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.221.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.221.0",
+      "published": "2026-06-14T14:11:07Z",
+      "preview": "43.221.0 (2026-06-14) Features datasource/github-runners: add macOS Intel labels ( #43540 ) ( 40450a8 ) datasource/github-runners: add ubuntu 26 ( #43950 ) ( 6c6621e ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.59.0 (main) ( #43969 ) ( da4e48e ) manager/github-actions: support dtolnay/rust-toolchain toolchain input ( #43956 ) ( a73e4d1 ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.58.5 (main) ( #43911 ) ( 5a5d8f5 ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.58.6 (main) ( #43958 ) ( 4a2842d ) deps: update ghcr.io/renovatebot/base",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.6.9: Release plumbing cleanup",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.6.9",
@@ -662,28 +678,12 @@
       "category": "Multi-language"
     },
     {
-      "title": "43.216.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.216.1",
-      "published": "2026-06-08T13:55:24Z",
-      "preview": "43.216.1 (2026-06-08) Bug Fixes config/presets: Exclude docker.io/kindest/node from nodejs versioning ( #43772 ) ( bb147e0 ) npm: use packageName for pnpm overrides with range selectors in minimumReleaseAgeExclude ( #43477 ) ( 5e1f88a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "1.18.0",
       "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.0",
       "published": "2026-06-08T12:45:42Z",
       "preview": "Enhancements: Improve error handling and printed output of flatpak-coredumpctl ( #6649 , #6680 ) Support the AMD vendor specific compute interface ( /dev/kfd ) via the DRI device permission ( #6648 ) Improve the output of flatpak update with failure causes ( #6657 ) Improve startup time for fish shell integration ( #6635 ) Translation updates: ‎zh_CN ( #6671 ) Bug fixes: Fix building when HAVE_LIBSYSTEMD but not USE_SYSTEM_HELPER is defined ( #6652 ) Ignore system bus failures in parental controls check ( #6663 ) Fix some return values and replace deprecated GTimeVal with g_get_real_time() ( #",
       "source": "Flatpak releases",
       "category": "System"
-    },
-    {
-      "title": "43.216.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.216.0",
-      "published": "2026-06-08T12:18:03Z",
-      "preview": "43.216.0 (2026-06-08) Features platform/github: support gitUrl option on github ( #43531 ) ( 2abd139 ), closes renovatebot/renovate#43086",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.3-DEVELOPMENT-SNAPSHOT-2026-06-07-a",
