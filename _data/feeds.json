@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-14T11:14:18Z",
-  "cutoff": "2026-05-15T11:14:14Z",
+  "generated": "2026-06-14T12:02:28Z",
+  "cutoff": "2026-05-15T12:02:23Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v2026.6.9",
+      "title": "v2026.6.9: Release plumbing cleanup",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.6.9",
-      "published": "2026-06-14T10:39:49Z",
-      "preview": "(ci) revert idempotent release asset upload by @jdx in [ #10433 ]…",
+      "published": "2026-06-14T11:16:01Z",
+      "preview": "A maintenance-only release. There are no user-facing changes — just a revert of the release workflow plumbing introduced last cycle, plus routine aqua registry updates. Changed ci: Reverted the idempotent GitHub release asset helper added in the previous cycle. The release workflow now goes back to creating the draft release and uploading every artifact in a single gh release create --draft call, which avoids the tag-lookup failure that broke the v2026.6.8 publish run (GitHub returns an untagged-* URL for freshly created drafts) ( #10433 by @jdx ). Full Changelog : v2026.6.8...v2026.6.9 💚 Spon",
       "source": "mise releases",
       "category": "Multi-language"
     },
