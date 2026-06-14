@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-14T22:44:15Z",
-  "cutoff": "2026-05-15T22:44:10Z",
+  "generated": "2026-06-14T23:45:44Z",
+  "cutoff": "2026-05-15T23:45:40Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.6.10: Env defaults, Unix 7z, and stale-PATH fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.10",
+      "published": "2026-06-14T23:41:17Z",
+      "preview": "A focused release that adds a default shorthand for env vars, brings .7z archive support to Unix, and cleans up several long-standing PATH and shim edge cases on Linux, macOS, Windows, and WSL. Added env: New { default = \"fallback\" } shorthand for [env] (and config/task [vars] ). The default applies only when the variable is unset or empty; existing non-empty values from the process env or earlier config are preserved. Mixing default with value , required , or age now fails with a clear message ( #10441 by @jdx ). [ env ] EDITOR = { default = \" vim \" } # only used if $EDITOR is unset/empty POR",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "2.0.0",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0",
+      "published": "2026-06-14T23:30:22Z",
+      "preview": "See sbt 2.0 change summary . Full Changelog : v1.12.12...v2.0.0",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "vfox-v2026.6.11",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.11",
+      "published": "2026-06-14T23:04:03Z",
+      "preview": "Release vfox 2026.6.11",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v0.18.0",
       "url": "https://github.com/gomods/athens/releases/tag/v0.18.0",
@@ -94,14 +118,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "v2026.6.6: Declarative machine bootstrap",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.6",
-      "published": "2026-06-14T08:08:10Z",
-      "preview": "Added mise bootstrap command for end-to-end machine setup — system packages, dotfiles, macOS defaults, login shell, tools, and an optional bootstrap task — with --yes , --dry-run , and --update ( #10365 , #10376 by @jdx ). Declarative dotfiles via [dotfiles] plus mise dotfiles add / apply / edit / status , supporting symlink , symlink-each , copy , and template modes, glob wildcards in source paths, and block/line edits to files mise doesn't own ( #10365 , #10368 , #10374 , #10376 by @jdx ). [bootstrap.macos.defaults] for declaratively managing macOS user defaults, applied through mise bootstr",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "1.12.12",
       "url": "https://github.com/sbt/sbt/releases/tag/v1.12.12",
       "published": "2026-06-14T06:28:49Z",
@@ -156,14 +172,6 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "mise-interactive-config-v2026.6.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.6.1",
-      "published": "2026-06-13T11:24:20Z",
-      "preview": "Release mise-interactive-config 2026.6.1",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.6.7",
