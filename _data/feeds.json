@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-15T08:31:34Z",
-  "cutoff": "2026-05-16T08:31:29Z",
+  "generated": "2026-06-15T11:23:28Z",
+  "cutoff": "2026-05-16T11:23:24Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -115,6 +115,14 @@
       "published": "2026-06-15T06:56:53Z",
       "preview": "Minor Changes Added a new setting frozenStore ( --frozen-store ) that lets pnpm install run against a package store on a read-only filesystem (e.g. a Nix store, a read-only bind mount, an OCI layer). When enabled, pnpm opens the store's SQLite index.db through the immutable=1 URI — bypassing the WAL/ -shm sidecar creation that otherwise fails on a read-only directory — and suppresses every store-write path (the index.db writer and the project-registry write). Pair it with --offline --frozen-lockfile against a fully-populated store. Under the global virtual store, package directories live insid",
       "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.7",
+      "url": "https://pnpm.io/blog/releases/11.7",
+      "published": "2026-06-15T00:00:00Z",
+      "preview": "pnpm 11.7 adds a frozenStore setting for installing against a read-only package store, a --batch flag for publishing a whole workspace in one request, scope-specific auth tokens, and full resolving installs delegated to pacquet. It also hardens lockfile alias handling, makes several install paths deterministic, and ships a number of publish and Windows fixes.",
+      "source": "pnpm Blog",
       "category": "JavaScript"
     },
     {
@@ -634,6 +642,14 @@
       "url": "https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc",
       "published": "2026-06-11T00:00:00Z",
       "preview": "pnpm used to expand $ placeholders everywhere it found them — including in the .npmrc and pnpm-workspace.yaml files that live inside the repository you just cloned. That turned out to be a way for a malicious repository to steal the secrets in your environment. As of v10.34.2 and v11.5.3, pnpm stops expanding environment variables in repository-controlled registry and credential settings.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.6",
+      "url": "https://pnpm.io/blog/releases/11.6",
+      "published": "2026-06-11T00:00:00Z",
+      "preview": "pnpm 11.6 adds a file-free way to supply registry authentication through npmconfig//… and pnpmconfig//… environment variables, raises the default network concurrency, and skips full re-resolution when only pnpm-lock.yaml is missing. It also infers platform fields for optional dependencies so foreign-platform binaries are never downloaded.",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
