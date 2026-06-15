@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-15T17:02:25Z",
-  "cutoff": "2026-05-16T17:02:21Z",
+  "generated": "2026-06-15T23:00:57Z",
+  "cutoff": "2026-05-16T23:00:53Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.382.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.382.0",
+      "published": "2026-06-15T22:12:17Z",
+      "preview": "What's Changed Add support for scope property in npm_registry credentials by @AbhishekBhaskar in #15219 uv: Remove dead add_auth_env_vars code and add credential matching diagnostics by @kbukum1 in #15209 Fix npm registry credential leak to sibling paths on the same host by @Copilot in #15248 Fix pnpm lockfileVersion 9.0 parsing error with optional chaining by @markhallen in #13959 Parse remaining Job collections into typed structs by @JamieMagee in #15262 Add a typed Hash subclass for requirement entries by @JamieMagee in #15263 Fix Gradle wrapper jar encoding by @kbukum1 in #15235 fix(maven)",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.224.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.224.1",
