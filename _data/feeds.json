@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-14T23:45:44Z",
-  "cutoff": "2026-05-15T23:45:40Z",
+  "generated": "2026-06-15T08:31:34Z",
+  "cutoff": "2026-05-16T08:31:29Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,102 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v4.17.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.17.0",
+      "published": "2026-06-15T08:28:48Z",
+      "preview": "What's Changed Adds support for package map generation by @arcanis in #7184 fix: add catalog settings to yarnrc schema by @cyphercodes in #7179 docs: clarify background job exit codes by @StantonMatt in #7167 fix: explain peer-default dependencies in why by @StantonMatt in #7168 Docs: fix npmMinimalAgeGate default by @clemyan in #7181 feat(plugin-npm): allow npmMinimalAgeGate per npmScope by @erlandasz in #7156 New Contributors @cyphercodes made their first contribution in #7179 @StantonMatt made their first contribution in #7167 @erlandasz made their first contribution in #7156 Full Changelog",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2026-06-15",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-06-15",
+      "published": "2026-06-15T08:28:44Z",
+      "preview": "2026-06-15",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/core/4.9.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcore%2F4.9.0",
+      "published": "2026-06-15T08:28:44Z",
+      "preview": "@yarnpkg/core",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/nm/4.1.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fnm%2F4.1.0",
+      "published": "2026-06-15T08:28:44Z",
+      "preview": "@yarnpkg/nm",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-essentials/4.6.1",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-essentials%2F4.6.1",
+      "published": "2026-06-15T08:28:44Z",
+      "preview": "@yarnpkg/plugin-essentials",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-nm/4.1.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-nm%2F4.1.0",
+      "published": "2026-06-15T08:28:44Z",
+      "preview": "@yarnpkg/plugin-nm",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-npm/3.7.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-npm%2F3.7.0",
+      "published": "2026-06-15T08:28:44Z",
+      "preview": "@yarnpkg/plugin-npm",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-pnp/4.2.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnp%2F4.2.0",
+      "published": "2026-06-15T08:28:44Z",
+      "preview": "@yarnpkg/plugin-pnp",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-pnpm/2.3.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnpm%2F2.3.0",
+      "published": "2026-06-15T08:28:44Z",
+      "preview": "@yarnpkg/plugin-pnpm",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "43.224.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.224.0",
+      "published": "2026-06-15T07:41:29Z",
+      "preview": "43.224.0 (2026-06-15) Features docker: use schema validated getJson ( #43775 ) ( ee55af4 ) Bug Fixes manager/deno: tolerate compilerOptions without jsx fields ( #44002 ) ( 8be9e6b ) Code Refactoring cache: prepare package cache for binary payloads ( #43921 ) ( b348ddc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.223.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.223.0",
+      "published": "2026-06-15T07:00:22Z",
+      "preview": "43.223.0 (2026-06-15) Features git: validate commit shas ( #43988 ) ( 171a591 ) Bug Fixes config/parse: ignore trailing commas during jsonc validation ( #44000 ) ( 204a63d ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.59.3 (main) ( #44003 ) ( 6d30628 ) Documentation update references to otel/opentelemetry-collector-contrib to v0.154.0 (main) ( #43995 ) ( fa0129e ) update references to python to 6f473f8 (main) ( #43993 ) ( 1ac09e7 ) update references to renovate/renovate (main) ( #43996 ) ( ad70cdc ) update references to renovatebot/github-action to v46.1.15 (main) ( #43994 ) ",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 11.7",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.7.0",
+      "published": "2026-06-15T06:56:53Z",
+      "preview": "Minor Changes Added a new setting frozenStore ( --frozen-store ) that lets pnpm install run against a package store on a read-only filesystem (e.g. a Nix store, a read-only bind mount, an OCI layer). When enabled, pnpm opens the store's SQLite index.db through the immutable=1 URI — bypassing the WAL/ -shm sidecar creation that otherwise fails on a read-only directory — and suppresses every store-write path (the index.db writer and the project-registry write). Pair it with --offline --frozen-lockfile against a fully-populated store. Under the global virtual store, package directories live insid",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v2026.6.10: Env defaults, Unix 7z, and stale-PATH fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.6.10",
@@ -654,22 +750,6 @@
       "category": ".NET"
     },
     {
-      "title": "43.216.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.216.4",
-      "published": "2026-06-09T09:46:53Z",
-      "preview": "43.216.4 (2026-06-09) Bug Fixes use lockedVersion for currentVersionTimestamp lookup ( #42476 ) ( 5646cba )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.216.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.216.3",
-      "published": "2026-06-09T09:25:12Z",
-      "preview": "43.216.3 (2026-06-09) Bug Fixes github: use base_tree in pushFiles to avoid org ruleset file-path restrictions ( #42556 ) ( def09c2 ), closes #42554 #13824 #14271 Miscellaneous Chores deps: update dependency graphql to v16.14.1 (main) ( #43887 ) ( 4790189 ) Tests fix test cases failing inside devcontainer ( #43886 ) ( 33ca9e6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-07-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-07-a",
       "published": "2026-06-09T08:56:56Z",
@@ -1014,58 +1094,10 @@
       "category": "JavaScript"
     },
     {
-      "title": "v4.16.0",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.16.0",
-      "published": "2026-06-02T07:11:32Z",
-      "preview": "What's Changed PnP: Include Node 22.22.3 in fstat workaround by @junjuny0227 in #7141 Implements yarn npm stage by @arcanis in #7147 fix: Stop using EBADF workaround for Node 24.16.0+ by @MJDSys in #7152 Bumps eslint-plugin-arca by @arcanis in #7163 Enables staged publishing by @arcanis in #7164 feat: Add editor SDK support for oxc (oxfmt & oxlint) by @slainless in #7078 docs: fix npmMinimalAgeGate default value. by @ryanfox1985 in #7125 New Contributors @junjuny0227 made their first contribution in #7141 @MJDSys made their first contribution in #7152 @slainless made their first contribution i",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "2026-06-02",
       "url": "https://github.com/yarnpkg/berry/releases/tag/2026-06-02",
       "published": "2026-06-02T07:11:27Z",
       "preview": "2026-06-02",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/eslint-config/3.1.1",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Feslint-config%2F3.1.1",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/eslint-config",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-npm-cli/4.5.0",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-npm-cli%2F4.5.0",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/plugin-npm-cli",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-pnp/4.1.7",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnp%2F4.1.7",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/plugin-pnp",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/pnp/4.1.7",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fpnp%2F4.1.7",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/pnp",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/sdks/3.3.0",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fsdks%2F3.3.0",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "@yarnpkg/sdks",
       "source": "Yarn releases",
       "category": "JavaScript"
     },
@@ -1398,14 +1430,6 @@
       "category": "PHP"
     },
     {
-      "title": "pnpm 10.34",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.0",
-      "published": "2026-05-27T14:58:43Z",
-      "preview": "Minor Changes Treat tarball-integrity mismatches against the lockfile as a hard failure by default. Previously, pnpm install (non-frozen) would log ERR_PNPM_TARBALL_INTEGRITY , silently re-resolve from the registry, and overwrite the locked integrity — which meant a compromised registry, proxy, or republished version could substitute attacker-controlled content on a clean machine even though the project shipped a committed lockfile. pnpm install now exits with ERR_PNPM_TARBALL_INTEGRITY and a hint pointing at the new opt-in flag. The only opt-in is pnpm install --update-checksums — narrowly sc",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "pnpm 11.4",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.4.0",
       "published": "2026-05-27T13:32:37Z",
@@ -1619,30 +1643,6 @@
       "published": "2026-05-20T00:00:00Z",
       "preview": "pnpm 11.2 ships an experimental opt-in into pacquet (the Rust port of pnpm) as the install backend, expands config dependencies to install one level of optionalDependencies (so the esbuild/swc platform-binary pattern works for config deps too), wires up the long-documented pnpm login --scope flag, and surfaces runtime entries (Node.js, Deno, Bun) in pnpm outdated and pnpm update --interactive.",
       "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "2026-05-19",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-05-19",
-      "published": "2026-05-19T22:20:40Z",
-      "preview": "2026-05-19",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-pnpm/2.2.0",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnpm%2F2.2.0",
-      "published": "2026-05-19T22:20:40Z",
-      "preview": "@yarnpkg/plugin-pnpm",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/pnp/4.1.6",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fpnp%2F4.1.6",
-      "published": "2026-05-19T22:20:40Z",
-      "preview": "@yarnpkg/pnp",
-      "source": "Yarn releases",
       "category": "JavaScript"
     },
     {
