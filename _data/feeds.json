@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-15T11:23:28Z",
-  "cutoff": "2026-05-16T11:23:24Z",
+  "generated": "2026-06-15T14:33:18Z",
+  "cutoff": "2026-05-16T14:33:14Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,62 @@
     "System"
   ],
   "items": [
+    {
+      "title": "6.0.2",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.2",
+      "published": "2026-06-15T14:05:05Z",
+      "preview": "What's Changed rubocops/lines: add JavaVersions cop by @cho-m in #22681 os/mac/hardware/cpu: fallback to generic CPU detection if sysctl fails by @Bo98 in #22682 Handle pinned dependency failures in upgrade previews by @rexmhall09 in #22683 codex/hooks: return JSON. by @MikeMcQuaid in #22686 build(deps): bump the github-actions group across 1 directory with 2 updates by @dependabot [bot] in #22689 build(deps): bump the bundler group across 2 directories with 11 updates by @dependabot [bot] in #22688 sandbox: deny all of $HOME except Homebrew dirs by @MikeMcQuaid in #22660 Trust custom remote i",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "pixi-build-cmake-v0.4.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.0",
+      "published": "2026-06-15T11:46:50Z",
+      "preview": "chore: bump backend versions ( #6363 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-mojo-v0.2.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.0",
+      "published": "2026-06-15T11:46:50Z",
+      "preview": "chore: bump backend versions ( #6363 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-python-v0.6.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.6.0",
+      "published": "2026-06-15T11:46:50Z",
+      "preview": "chore: bump backend versions ( #6363 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rattler-build-v0.4.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.4.0",
+      "published": "2026-06-15T11:46:50Z",
+      "preview": "chore: bump backend versions ( #6363 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-ros-v0.6.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.6.0",
+      "published": "2026-06-15T11:46:50Z",
+      "preview": "chore: bump backend versions ( #6363 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rust-v0.5.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rust-v0.5.0",
+      "published": "2026-06-15T11:46:50Z",
+      "preview": "chore: bump backend versions ( #6363 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v4.17.0",
       "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.17.0",
@@ -1054,38 +1110,6 @@
       "category": "Registries"
     },
     {
-      "title": "pixi-build-cmake-v0.3.14",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.3.14",
-      "published": "2026-06-02T08:44:26Z",
-      "preview": "chore: bump backend versions ( #6254 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-mojo-v0.1.14",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.1.14",
-      "published": "2026-06-02T08:44:26Z",
-      "preview": "chore: bump backend versions ( #6254 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-python-v0.5.2",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.5.2",
-      "published": "2026-06-02T08:44:26Z",
-      "preview": "chore: bump backend versions ( #6254 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-rattler-build-v0.3.13",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.3.13",
-      "published": "2026-06-02T08:44:26Z",
-      "preview": "chore: bump backend versions ( #6254 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "pixi-build-ros-v0.5.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.5.0",
       "published": "2026-06-02T08:44:26Z",
@@ -1180,14 +1204,6 @@
       "preview": "🐛 bug fixes fix: Fixes Scala Native artifact publishing by @anatoliykmetyuk in #9118 fix: Fix duplicate autoplugins packageBin mappings by @anatoliykmetyuk in #9255 perf: Parallelize dependency resolution when no progress bar is rendered by @BrianHotopp in #9270 fix: Report a missing input file clearly by @BrianHotopp in #9271 fix: Reimplement FarmHash without using sun.misc.Unsafe by @eed3si9n in #9267 + #9278 fix: Fixes backtick-quoted project handling by @xuwei-k in #9277 perf: Improve incremental test stamper, take 2 by @eed3si9n in #9257 fix: Opt bspBuildTargetOutputPathsItem out of cachi",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "0.70.0 - 2026-06-01",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.70.0",
-      "published": "2026-06-01T11:49:09Z",
-      "preview": "Release Notes ✨ Highlights This release brings a lot of exciting features. Workspace dependencies We now allow to define workspace dependencies that allows to set package matchspecs that then can be inherited by package dependencies. This is how it looks like: [ workspace . dependencies ] numpy = \" 1.* \" boltons = { version = \" >=24 \" , channel = \" conda-forge \" } # Build packages [ package . build ] backend = { name = \" foo-build \" , workspace = true } [ package . host-dependencies ] cmake = { workspace = true } [ package . target . linux-64 . run-dependencies ] numpy = { workspace = true } F",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "v0.380.0",
@@ -1564,14 +1580,6 @@
       "preview": "What's Changed info: mark deprecated/disabled pkg in install status by @HaraldNordgren in #22334 gitignore: ignore test/.npm/ by @HaraldNordgren in #22337 info, tap-info: skip uninstalled marker and bold when not a problem (align with search) by @HaraldNordgren in #22342 Remove obsolete --skip-update from command-not-found handlers by @rexmhall09 in #22340 Check RubyGems licences by @MikeMcQuaid in #22343 cask: include resolved artifact targets in JSON output by @carlocab in #22346 Move the 'wsl?' bool from the OS::Linux module up to the OS module by @lstn in #22309 Make bundle upgrade an alia",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "0.69.0 - 2026-05-20",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.69.0",
-      "published": "2026-05-21T09:38:24Z",
-      "preview": "Release Notes ✨ Highlights Pixi now supports easy authentication to prefix.dev, just like GitHub CLI you can run: pixi auth login prefix.dev And it will take you to the login page of prefix.dev. Next to that publishing a package became much easier with --variant , --build-number and more. Added Support build-string-prefix and build-number in [package-build] by @hunger in #6051 Centralize default compiler variants and add CUDA support by @wolfv in #6108 Support build backend secrets by @wolfv in #6101 Honor workspace.s3-options when uploading to s3 by @hunger in #6069 Add oauth default login by",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "v0.378.0",
