@@ -57,7 +57,7 @@ Also out: [pixi 0.70.2](https://github.com/prefix-dev/pixi/releases/tag/v0.70.2)
 
 [The Guix Nix Abomination: Leveraging Guix derivations in Nix](https://fzakaria.com/2026/06/05/the-guix-nix-abomination-leveraging-guix-derivations-in-nix) (Farid Zakaria) registers a Guix derivation in a Nix store and has Nix build it, showing the two tools share the same derivation machinery underneath the rivalry.
 
-[Nix flakes vs Guix](https://coopi.neocities.org/posts/nix-flakes-vs-guix) works through why there's no single Guix equivalent of a flake: flakes bundle several concerns into one feature, where Guix covers the same ground with separate composable tools.
+~~[Nix flakes vs Guix](https://coopi.neocities.org/posts/nix-flakes-vs-guix) works through why there's no single Guix equivalent of a flake: flakes bundle several concerns into one feature, where Guix covers the same ground with separate composable tools.~~ *Update 15 June: the author has since [taken this post down](https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix).*
 
 [Are insecure code completions a vulnerability?](https://sethmlarson.dev/are-insecure-code-completions-a-vulnerability) (Seth Larson) catches PyCharm's line completion suggesting `CERT_NONE` and warning-suppression boilerplate, and argues a CVE is the wrong mechanism for systematically insecure suggestions, though vendors should still fix them at the source.
 
