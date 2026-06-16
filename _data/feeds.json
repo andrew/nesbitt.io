@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-16T22:03:36Z",
-  "cutoff": "2026-05-17T22:03:31Z",
+  "generated": "2026-06-16T23:50:26Z",
+  "cutoff": "2026-05-17T23:50:22Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.6.11: apk bootstrap, cleaner Windows shims, and aqua polish",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.11",
+      "published": "2026-06-16T23:39:09Z",
+      "preview": "A focused release that adds Alpine apk as a bootstrap package manager, stops the default Windows exe shims from leaking into WSL, and fixes a handful of aqua, HTTP cache, Rust, and Deno corners. Added bootstrap: Alpine Linux apk joins apt, dnf, pacman, and brew as a supported [bootstrap.packages] manager. Specify packages as apk:name (with optional @version ), or pass --manager apk explicitly; status, install, and upgrade all wire through the same paths as the other Linux managers ( #10476 by @jdx ). [ bootstrap . packages ] \"apk:curl\" = \" * \" \"apk:git\" = \" @2.45.2-r0 \" registry: Added pinnipe",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "26.5.3",
       "url": "https://github.com/conda/conda/releases/tag/26.5.3",
@@ -84,14 +92,6 @@
       "preview": "43.225.0 (2026-06-16) Features release-notes: include gitRef in release notes cache key ( #43991 ) ( 727e29f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.6.11",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.11",
-      "published": "2026-06-16T03:49:09Z",
-      "preview": "(bootstrap) add apk package support by @jdx in [ #10476 ](https:/…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-interactive-config-v2026.6.2",
