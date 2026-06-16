@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-16T01:33:42Z",
-  "cutoff": "2026-05-17T01:33:23Z",
+  "generated": "2026-06-16T06:13:03Z",
+  "cutoff": "2026-05-17T06:12:58Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.225.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.225.0",
+      "published": "2026-06-16T05:27:47Z",
+      "preview": "43.225.0 (2026-06-16) Features release-notes: include gitRef in release notes cache key ( #43991 ) ( 727e29f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.6.11",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.11",
+      "published": "2026-06-16T03:49:09Z",
+      "preview": "(bootstrap) add apk package support by @jdx in [ #10476 ](https:/…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-interactive-config-v2026.6.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.6.2",
+      "published": "2026-06-16T03:46:45Z",
+      "preview": "Release mise-interactive-config 2026.6.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.6.5",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.5",
+      "published": "2026-06-16T03:46:32Z",
+      "preview": "Release aqua-registry 2026.6.5",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.6.12",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.12",
+      "published": "2026-06-16T03:46:09Z",
+      "preview": "Release vfox 2026.6.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "SDK-3.13.0-209.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-209.0.dev",
@@ -270,14 +310,6 @@
       "category": "Go"
     },
     {
-      "title": "v2026.6.8: Rolling zig@master and fresher Ruby builds",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.8",
-      "published": "2026-06-14T21:18:12Z",
-      "preview": "A small fix release: zig@master now behaves as a true rolling channel, and jdx/ruby precompiled installs always pick up the latest numbered build revision. Fixed ruby: Precompiled installs from the default jdx/ruby source now require a numeric build-revision tag (e.g. 3.3.11-1 , 3.3.11-2 ) and ignore the floating base release. Lockfiles already pin to a revision and the base tag is treated as revision 0 , so unlocked installs land on the newest rebuilt binary instead of an older one. Custom ruby.precompiled_url GitHub sources keep the previous base-tag fallback ( #10428 by @jdx ). zig: zig@mas",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "43.222.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.222.1",
       "published": "2026-06-14T20:47:23Z",
@@ -342,22 +374,6 @@
       "category": "Maven"
     },
     {
-      "title": "v2026.6.7: pkgx backend, more bootstrap surface, and forge install fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.7",
-      "published": "2026-06-14T05:35:34Z",
-      "preview": "Added pkgx: backend: install pkgx pantry packages natively (no pkgx CLI required), with checksum-verified bottles, dependency resolution, and lockfile support via pkgx_deps and a shared [pkgx-packages] section ( #10408 by @jdx ). [bootstrap.macos.launchd.agents] for declarative macOS user LaunchAgents, plus mise bootstrap launchd apply / status ( #10396 by @jdx ). [bootstrap.linux.systemd.units] for declarative systemd user services, plus mise bootstrap systemd apply / status ( #10399 by @jdx ). [bootstrap.hooks] to run shell commands at named bootstrap phases ( pre-packages , post-dotfiles , ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "aqua-registry-v2026.6.4",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.4",
-      "published": "2026-06-14T03:29:38Z",
-      "preview": "Release aqua-registry 2026.6.4",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.6.8",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.8",
       "published": "2026-06-14T03:29:20Z",
@@ -380,14 +396,6 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "vfox-v2026.6.7",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.7",
-      "published": "2026-06-13T11:24:07Z",
-      "preview": "Release vfox 2026.6.7",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-11-a",
@@ -778,14 +786,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.218.0",
       "published": "2026-06-10T06:30:17Z",
       "preview": "43.218.0 (2026-06-10) Features platform/gitea,forgejo: use login instead of username for user handles ( #43904 ) ( 5a8b5bb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.217.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.217.1",
-      "published": "2026-06-10T01:47:34Z",
-      "preview": "43.217.1 (2026-06-10) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.57.1 (main) ( #43903 ) ( b103f93 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
