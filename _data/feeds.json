@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-16T20:20:35Z",
-  "cutoff": "2026-05-17T20:20:30Z",
+  "generated": "2026-06-16T22:03:36Z",
+  "cutoff": "2026-05-17T22:03:31Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "26.5.3",
+      "url": "https://github.com/conda/conda/releases/tag/26.5.3",
+      "published": "2026-06-16T20:51:34Z",
+      "preview": "Bug fixes If shards were not found on a channel, conda would cache the not-found response, which can break shards-only channels. Instead, always check for sharded repodata if classic repodata has not been cached. ( #16183 ) Other Fix get_shortcut_dir() test helper to use the supplied prefix when detecting .nonadmin on Windows, aligning with menuinst 2.5 shortcut path behavior. ( #16207 ) Contributors @danyeaw @jezdez Full Changelog : 26.5.2...26.5.3",
+      "source": "Conda releases",
+      "category": "Multi-language"
+    },
     {
       "title": "9.6.0 RC3",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0-RC3",
