@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-16T06:13:03Z",
-  "cutoff": "2026-05-17T06:12:58Z",
+  "generated": "2026-06-16T11:01:44Z",
+  "cutoff": "2026-05-17T11:01:39Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.226.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.226.1",
+      "published": "2026-06-16T10:17:33Z",
+      "preview": "43.226.1 (2026-06-16) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.59.4 (main) ( #44027 ) ( 8af0cbc ) Miscellaneous Chores deps: update dependency graphql to v16.14.2 (main) ( #44025 ) ( c169ab2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.226.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.226.0",
+      "published": "2026-06-16T09:23:23Z",
+      "preview": "43.226.0 (2026-06-16) Features presets/workaround: add Grafana Docker image versioning workaround ( #44015 ) ( 7424be0 ) Documentation manager/sveltos: remove duplicated depTypes table from readme ( #44016 ) ( 372b258 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.11.4 (main) ( #44023 ) ( 31d5dc5 ) Tests manager/github-actions: add missing community action tests ( #44018 ) ( 7c25616 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.225.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.225.0",
@@ -766,28 +782,12 @@
       "category": ".NET"
     },
     {
-      "title": "43.219.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.219.0",
-      "published": "2026-06-10T11:23:30Z",
-      "preview": "43.219.0 (2026-06-10) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.58.0 (main) ( #43909 ) ( 20fe86c ) Miscellaneous Chores deps: update dependency memfs to v4.57.5 (main) ( #43907 ) ( 72eb482 ) deps: update dependency memfs to v4.57.6 (main) ( #43908 ) ( 4b02975 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-08-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-08-a",
       "published": "2026-06-10T08:51:27Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-08-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.218.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.218.0",
-      "published": "2026-06-10T06:30:17Z",
-      "preview": "43.218.0 (2026-06-10) Features platform/gitea,forgejo: use login instead of username for user handles ( #43904 ) ( 5a8b5bb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "bundler-v4.0.14",
