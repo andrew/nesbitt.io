@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-16T15:05:04Z",
-  "cutoff": "2026-05-17T15:04:59Z",
+  "generated": "2026-06-16T17:00:16Z",
+  "cutoff": "2026-05-17T17:00:12Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "9.6.0 RC3",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0-RC3",
+      "published": "2026-06-16T16:53:47Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.6.0 RC3. Here are the highlights of this release: Improved Configuration Cache hit rates Additional CLI rendering options Important project hierarchy lookup deprecations Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aharnish Solanki , Benedikt Johannes , Devendra Reddy Pennabadi , Dmytro Rodionov , Dreeam , Elías Hernández Rodríguez , Eng Zer Jun , FinlayRJW , Kamal Kansal , Marcono1234 , Nelson Osacky , Philip Wedemann , Ravi , Roberto Perez Alcolea , Ryan Schmitt",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
     {
       "title": "43.227.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.227.0",
@@ -1764,14 +1772,6 @@
       "preview": "apt Debian release 3.3.1",
       "source": "APT releases",
       "category": "System"
-    },
-    {
-      "title": "3.9.16",
-      "url": "https://github.com/apache/maven/releases/tag/maven-3.9.16",
-      "published": "2026-05-17T16:55:16Z",
-      "preview": "🐛 Bug Fixes Trim threadConfiguration to accept input surrounded with spaces ( #12042 ) @slawekjaranowski Backport: Maven 3.10.x fixed plugin resolution ( #12022 ) @cstamas 📦 Dependency updates Bump org.codehaus.plexus:plexus-classworlds from 2.9.0 to 2.11.0 ( #12039 ) @ dependabot[bot] [3.9.x] Bump to parent POM 48 ( #12024 ) @cstamas Bump commons-io:commons-io from 2.21.0 to 2.22.0 ( #11980 ) @ dependabot[bot] Bump com.google.guava:guava from 33.5.0-jre to 33.6.0-jre ( #11951 ) @ dependabot[bot] Bump actions/cache from 5.0.4 to 5.0.5 ( #11943 ) @ dependabot[bot]",
-      "source": "Maven releases",
-      "category": "Maven"
     }
   ]
 }
