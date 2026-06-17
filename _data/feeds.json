@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-17T01:31:59Z",
-  "cutoff": "2026-05-18T01:31:55Z",
+  "generated": "2026-06-17T08:14:21Z",
+  "cutoff": "2026-05-18T08:14:15Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.15.2-rc1",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc1",
+      "published": "2026-06-17T07:43:20Z",
+      "preview": "What's Changed Component updates ⬆️ [CHERRY-PICK] Make openapi-generator-cli download URL configurable ( #23186 ) by @chlins in #23221 bump Go version from 1.25.9 to 1.26.3 by @stonezdj in #23236 [cherry-pick] Rebuild goharbor/photon image before create new harbor base images by @jUDASmILE in #23250 [cherry-pick]remove install net-tools from db dockerfile as photon removed it by @jUDASmILE in #23267 [CHERRY-PICK] feat: replace redis with valkey as cache backend ( #23157 ) by @chlins in #23261 [CHERRY-PICK] test(cosign): disable tlog for signing checks by @chlins in #23280 [CHERRY-PICK] fix(cos",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
     {
       "title": "SDK-3.13.0-214.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-214.0.dev",
