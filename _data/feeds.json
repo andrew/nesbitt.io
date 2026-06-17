@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-17T09:59:49Z",
-  "cutoff": "2026-05-18T09:59:45Z",
+  "generated": "2026-06-17T11:56:44Z",
+  "cutoff": "2026-05-18T11:56:38Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.228.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.228.0",
+      "published": "2026-06-17T10:51:12Z",
+      "preview": "43.228.0 (2026-06-17) Features presets/workarounds: Add grafana/grafana-enterprise to grafanaDockerImageVersioning ( #44058 ) ( e921d27 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-15-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-15-a",
@@ -100,6 +108,14 @@
       "preview": "Bug fixes If shards were not found on a channel, conda would cache the not-found response, which can break shards-only channels. Instead, always check for sharded repodata if classic repodata has not been cached. ( #16183 ) Other Fix get_shortcut_dir() test helper to use the supplied prefix when detecting .nonadmin on Windows, aligning with menuinst 2.5 shortcut path behavior. ( #16207 ) Contributors @danyeaw @jezdez Full Changelog : 26.5.2...26.5.3",
       "source": "Conda releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "v9.7.0-M1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0-M1",
+      "published": "2026-06-16T20:48:15Z",
+      "preview": "Enable remaining IP integ tests ( #38203 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "9.6.0 RC3",
@@ -428,14 +444,6 @@
       "preview": "What's Changed stash/redis: add cluster-mode client support for singleflight by @leerieo in #2122 fix: bump golang.org/x/net to v0.55.0 to fix CVE-2026-39821 by @phoenixsbk in #2126 update-go-pkg(deps): bump google.golang.org/api from 0.275.0 to 0.284.0 by @dependabot [bot] in #2116 update-go-pkg(deps): bump github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager from 0.1.15 to 0.2.10 by @dependabot [bot] in #2115 update-github-action(deps): bump docker/build-push-action from 6 to 7 by @dependabot [bot] in #2114 update-github-action(deps): bump docker/setup-qemu-action from 3 to 4 by @dependab",
       "source": "Athens releases",
       "category": "Go"
-    },
-    {
-      "title": "43.222.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.222.1",
-      "published": "2026-06-14T20:47:23Z",
-      "preview": "43.222.1 (2026-06-14) Build System deps: update dependency @renovatebot/pgp to v1.3.14 (main) ( #43992 ) ( f36ce71 ) Continuous Integration exercise arm64 in build-docker job ( #43989 ) ( 7cc19e7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "cabal-head",
