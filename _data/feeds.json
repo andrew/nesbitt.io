@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-17T11:56:44Z",
-  "cutoff": "2026-05-18T11:56:38Z",
+  "generated": "2026-06-17T13:33:59Z",
+  "cutoff": "2026-05-18T13:33:55Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-06-17T13:30:57Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "7.9.0.35",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.35",
+      "published": "2026-06-17T12:41:01Z",
+      "preview": "Insert 7.9.0.35 into main on 06/17/2026 12:41:01",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "43.228.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.228.0",
@@ -444,14 +460,6 @@
       "preview": "What's Changed stash/redis: add cluster-mode client support for singleflight by @leerieo in #2122 fix: bump golang.org/x/net to v0.55.0 to fix CVE-2026-39821 by @phoenixsbk in #2126 update-go-pkg(deps): bump google.golang.org/api from 0.275.0 to 0.284.0 by @dependabot [bot] in #2116 update-go-pkg(deps): bump github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager from 0.1.15 to 0.2.10 by @dependabot [bot] in #2115 update-github-action(deps): bump docker/build-push-action from 6 to 7 by @dependabot [bot] in #2114 update-github-action(deps): bump docker/setup-qemu-action from 3 to 4 by @dependab",
       "source": "Athens releases",
       "category": "Go"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-14T20:37:58Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v2026.6.9: Release plumbing cleanup",
@@ -1020,14 +1028,6 @@
       "preview": "Security: Fixed shell escaping when opening an editor ( #12903 ) Security: Verify backup phar signature before restoring it when using self-update --rollback ( #12918 ) Fixed source-fallback also disabling fallbacks to dist install when source is the preferred install method ( #12888 ) Fixed source -> dist package updates wiping the .git dir without checking for local changes first ( #12912 ) Fixed GitHub token prompt happening multiple times on parallel auth failures ( #12913 ) Fixed warnings from Composer repositories being printed twice in some cases ( #12907 ) Full Changelog : 2.10.0...2.1",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "7.8.0.58",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.8.0.58",
-      "published": "2026-06-04T07:41:43Z",
-      "preview": "Insert 7.8.0.58 into rel/insiders on 06/04/2026 07:41:43",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "1.14.0",
@@ -1764,14 +1764,6 @@
       "preview": "What's Changed info: resolve installed formulae from receipt's tap and warn on shadow by @HaraldNordgren in #22224 info: resolve aliased deps when checking installed status by @HaraldNordgren in #22228 audit: don't check livecheck throttle days offline by @bevanjkay in #22233 Add brew exec command by @MikeMcQuaid in #22222 Annotate test-bot dependency impact by @MikeMcQuaid in #22221 Omit platform for all bottles by @MikeMcQuaid in #22227 test/cask: speed up missing source test by @bevanjkay in #22234 Skip bot incomplete PR closures by @MikeMcQuaid in #22232 build(deps): bump urllib3 from 2.6.",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "What's new in Private Packagist, May 2026 Update",
-      "url": "https://blog.packagist.com/whats-new-in-private-packagist-may-2026-update/",
-      "published": "2026-05-18T12:33:50Z",
-      "preview": "Over the past three months, we&apos;ve shipped updates focused on security, integrations with code hosting platforms, and usability improvements throughout Private Packagist. Here&apos;s a rundown of the most notable changes. Support for malware filter lists We&apos;ve added support for malware filter lists to help",
-      "source": "Packagist Blog",
-      "category": "PHP"
     }
   ]
 }
