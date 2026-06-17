@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-16T23:50:26Z",
-  "cutoff": "2026-05-17T23:50:22Z",
+  "generated": "2026-06-17T01:31:59Z",
+  "cutoff": "2026-05-18T01:31:55Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.13.0-214.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-214.0.dev",
+      "published": "2026-06-17T00:55:41Z",
+      "preview": "SDK 3.13.0-214.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-213.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-213.0.dev",
+      "published": "2026-06-17T00:55:38Z",
+      "preview": "SDK 3.13.0-213.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-212.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-212.0.dev",
+      "published": "2026-06-17T00:55:34Z",
+      "preview": "SDK 3.13.0-212.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-211.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-211.0.dev",
+      "published": "2026-06-17T00:55:31Z",
+      "preview": "SDK 3.13.0-211.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-210.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-210.0.dev",
+      "published": "2026-06-17T00:55:28Z",
+      "preview": "SDK 3.13.0-210.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.227.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.227.1",
+      "published": "2026-06-16T23:53:44Z",
+      "preview": "43.227.1 (2026-06-16) Bug Fixes platform/forgejo: tollerate null values for Issues ( #44048 ) ( f9305c2 ) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.6.2 (main) ( #44051 ) ( 98b3eca ) Build System deps: update dependency protobufjs to v8.6.2 (main) ( #44050 ) ( 235b177 ) deps: update semantic-release monorepo to v25.0.4 (main) ( #44046 ) ( df4adea ) deps: update semantic-release monorepo to v25.0.5 (main) ( #44052 ) ( 9183851 ) Continuous Integration mend-slack: don't re-send messages if another label is added ( #44042 ) ( 25631fe )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.6.11: apk bootstrap, cleaner Windows shims, and aqua polish",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.6.11",
@@ -382,14 +430,6 @@
       "category": "Registries"
     },
     {
-      "title": "43.222.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.222.0",
-      "published": "2026-06-14T14:41:08Z",
-      "preview": "43.222.0 (2026-06-14) Features data: automatic update of static data ( #43983 ) ( 89a217d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2026.6.9: Release plumbing cleanup",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.6.9",
       "published": "2026-06-14T11:16:01Z",
@@ -458,38 +498,6 @@
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-205.0.dev",
       "published": "2026-06-13T00:54:22Z",
       "preview": "SDK 3.13.0-205.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-204.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-204.0.dev",
-      "published": "2026-06-13T00:54:20Z",
-      "preview": "SDK 3.13.0-204.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-203.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-203.0.dev",
-      "published": "2026-06-13T00:54:18Z",
-      "preview": "SDK 3.13.0-203.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-202.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-202.0.dev",
-      "published": "2026-06-13T00:54:16Z",
-      "preview": "SDK 3.13.0-202.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-201.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-201.0.dev",
-      "published": "2026-06-13T00:54:14Z",
-      "preview": "SDK 3.13.0-201.0.dev",
       "source": "Pub releases",
       "category": "Registries"
     },
@@ -587,14 +595,6 @@
       "published": "2026-06-12T01:34:16Z",
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-06-10-a",
       "source": "Swift Package Manager releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-200.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-200.0.dev",
-      "published": "2026-06-12T00:55:26Z",
-      "preview": "SDK 3.13.0-200.0.dev",
-      "source": "Pub releases",
       "category": "Registries"
     },
     {
@@ -1756,22 +1756,6 @@
       "preview": "Over the past three months, we&apos;ve shipped updates focused on security, integrations with code hosting platforms, and usability improvements throughout Private Packagist. Here&apos;s a rundown of the most notable changes. Support for malware filter lists We&apos;ve added support for malware filter lists to help",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "2.0.0-RC13",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0-RC13",
-      "published": "2026-05-18T00:11:33Z",
-      "preview": "Execution log sbt 2.0.0 adds experimental execution log feature to debug caching issues. The execution log can be enabled with sbt.experimental_execution_log system property has either true or a file path: $ sbt --server -Dsbt.experimental_execution_log=true compile This will generate an execution log file in target/global-logging/exec-log****.log : { \"input\" : { \"digest\" : \" sha256-a50da1cd086987bc273861a815da4e90ba4735d4a21b965e861e583382a985d6/48 \" , \"codeContentHash\" : \" murmur3-0000000000000000ffffffffce70de5a/0 \" , \"extraHash\" : \" murmur3-00000000000000000000000000000000/0 \" , \"str\" : \" ",
-      "source": "sbt releases",
-      "category": "Maven"
-    },
-    {
-      "title": "Project goals update — April 2026 (end of 2025H2)",
-      "url": "https://blog.rust-lang.org/2026/05/18/project-goals-2026-04/",
-      "published": "2026-05-18T00:00:00Z",
-      "preview": "The 2025H2 Project Goal period has now concluded. Over these months, the Rust Project pursued 41 Project Goals , 13 of which were designated as Flagship Goals . This post contains curated updates on our progress since the last post and the final status for each of the goals (many of which continue as part of the 2026 period). Full details for any particular goal are available in its tracking issue . Thanks to everyone who contributed! <3 Table of contents Flagship: Beyond the & Continue Experimentation with Pin Ergonomics Design a language feature to solve Field Projections Reborrow traits Fla",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
