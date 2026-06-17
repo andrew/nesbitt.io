@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-17T13:33:59Z",
-  "cutoff": "2026-05-18T13:33:55Z",
+  "generated": "2026-06-17T17:24:08Z",
+  "cutoff": "2026-05-18T17:24:02Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -1740,30 +1740,6 @@
       "preview": "29.5.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.5.1 milestone moby/moby, 29.5.1 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. CVE-2026-41567 Fix a vulnerability in docker cp where archive decompression binaries (e.g. xz , unpigz ) were resolved via PATH inside the container filesystem while running as host root, allowing a malicious container to execute arbitrary binaries with host root privileges. GHSA-x86f-5xw2-fm2r CVE-2026-41568 Fix a TOCTOU vulnerabi",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "v2.0.0-beta.14",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.14",
-      "published": "2026-05-18T17:14:46Z",
-      "preview": "v2.0.0-beta.14",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "NuGet Package Pruning: Cleaner Dependencies and Actionable Vulnerability Reports",
-      "url": "https://devblogs.microsoft.com/dotnet/nuget-package-pruning-in-dotnet-10/",
-      "published": "2026-05-18T17:00:00Z",
-      "preview": "Package pruning in .NET 10 removes platform-provided packages from your dependency graph. With transitive auditing enabled by default, projects with these defaults have 70% fewer transitive vulnerability reports compared to projects using the previous defaults. The post NuGet Package Pruning: Cleaner Dependencies and Actionable Vulnerability Reports appeared first on .NET Blog .",
-      "source": "NuGet Blog",
-      "category": ".NET"
-    },
-    {
-      "title": "5.1.12",
-      "url": "https://github.com/Homebrew/brew/releases/tag/5.1.12",
-      "published": "2026-05-18T16:02:23Z",
-      "preview": "What's Changed info: resolve installed formulae from receipt's tap and warn on shadow by @HaraldNordgren in #22224 info: resolve aliased deps when checking installed status by @HaraldNordgren in #22228 audit: don't check livecheck throttle days offline by @bevanjkay in #22233 Add brew exec command by @MikeMcQuaid in #22222 Annotate test-bot dependency impact by @MikeMcQuaid in #22221 Omit platform for all bottles by @MikeMcQuaid in #22227 test/cask: speed up missing source test by @bevanjkay in #22234 Skip bot incomplete PR closures by @MikeMcQuaid in #22232 build(deps): bump urllib3 from 2.6.",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
