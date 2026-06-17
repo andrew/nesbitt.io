@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-17T19:11:12Z",
-  "cutoff": "2026-05-18T19:11:06Z",
+  "generated": "2026-06-17T20:02:18Z",
+  "cutoff": "2026-05-18T20:02:14Z",
   "feed_count": 79,
   "item_count": 214,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.228.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.228.1",
+      "published": "2026-06-17T19:34:21Z",
+      "preview": "43.228.1 (2026-06-17) Bug Fixes docker: handle maxResults error on auth probe for ECR repo ( #43657 ) ( 5b4e094 ) platform/forgejo: support empty string email and normalize to undefined ( #44068 ) ( 0cfffb7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -402,14 +410,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.224.0",
       "published": "2026-06-15T07:41:29Z",
       "preview": "43.224.0 (2026-06-15) Features docker: use schema validated getJson ( #43775 ) ( ee55af4 ) Bug Fixes manager/deno: tolerate compilerOptions without jsx fields ( #44002 ) ( 8be9e6b ) Code Refactoring cache: prepare package cache for binary payloads ( #43921 ) ( b348ddc )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.223.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.223.0",
-      "published": "2026-06-15T07:00:22Z",
-      "preview": "43.223.0 (2026-06-15) Features git: validate commit shas ( #43988 ) ( 171a591 ) Bug Fixes config/parse: ignore trailing commas during jsonc validation ( #44000 ) ( 204a63d ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.59.3 (main) ( #44003 ) ( 6d30628 ) Documentation update references to otel/opentelemetry-collector-contrib to v0.154.0 (main) ( #43995 ) ( fa0129e ) update references to python to 6f473f8 (main) ( #43993 ) ( 1ac09e7 ) update references to renovate/renovate (main) ( #43996 ) ( ad70cdc ) update references to renovatebot/github-action to v46.1.15 (main) ( #43994 ) ",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
