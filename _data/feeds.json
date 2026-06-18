@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-18T09:49:24Z",
-  "cutoff": "2026-05-19T09:49:20Z",
+  "generated": "2026-06-18T11:39:11Z",
+  "cutoff": "2026-05-19T11:39:07Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 11.8",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.8.0",
+      "published": "2026-06-18T10:45:14Z",
+      "preview": "Minor Changes c112b61 : Added a --dry-run option to pnpm install . It runs a full dependency resolution and reports what an install would change, but writes nothing to disk (no lockfile, no node_modules ) and always exits with code 0. This mirrors the preview semantics of npm install --dry-run #7340 . 179ebc4 : pnpm run --no-bail now exits with a non-zero exit code when any of the executed scripts fail, while still running every matched script to completion. This makes the exit-code behavior of --no-bail consistent between recursive and non-recursive runs (recursive runs already failed at the ",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "43.231.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.231.0",
+      "published": "2026-06-18T10:12:29Z",
+      "preview": "43.231.0 (2026-06-18) Features datasource/packagist: prefer published-time over time for release timestamp ( #44021 ) ( f88e120 ) Bug Fixes manager/mise: disable digest pinning ( #44036 ) ( 1a0536d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "20260618t095000-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260618t095000-all",
+      "published": "2026-06-18T09:50:52Z",
+      "preview": "Deployment at 2026-06-18T09:50:25.226098Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
     {
       "title": "43.230.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.230.1",
@@ -268,14 +292,6 @@
       "preview": "The Gradle team is excited to announce Gradle 9.6.0 RC3. Here are the highlights of this release: Improved Configuration Cache hit rates Additional CLI rendering options Important project hierarchy lookup deprecations Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aharnish Solanki , Benedikt Johannes , Devendra Reddy Pennabadi , Dmytro Rodionov , Dreeam , Elías Hernández Rodríguez , Eng Zer Jun , FinlayRJW , Kamal Kansal , Marcono1234 , Nelson Osacky , Philip Wedemann , Ravi , Roberto Perez Alcolea , Ryan Schmitt",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "43.227.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.227.0",
-      "published": "2026-06-16T14:46:25Z",
-      "preview": "43.227.0 (2026-06-16) Features platform/forgejo: validate http request with schemas ( #43900 ) ( 7573fa9 ) Tests config-validation: add a test harness for renovate-config-validator ( #44038 ) ( cf72b93 ), closes #40738 #44034 #44034",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.9.0.32",
@@ -1492,14 +1508,6 @@
       "preview": "The Rust team is happy to announce a new version of Rust, 1.96.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.96.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.96.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "pnpm 10.34.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.1",
-      "published": "2026-05-27T23:11:40Z",
-      "preview": "Patch Changes Reject pnpm-lock.yaml entries whose remote tarball resolution: block is missing the integrity field. Previously the worker that extracts a downloaded tarball skipped hash verification when no integrity was supplied and minted a fresh one from the unverified bytes, so an attacker who could both alter the lockfile (e.g. via a pull request that strips integrity: ) and serve modified content at the referenced tarball URL could install a tampered package without any error — including under --frozen-lockfile . pnpm now fails closed at lockfile-read time with ERR_PNPM_MISSING_TARBALL_IN",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "libnpmversion: v8.0.4",
