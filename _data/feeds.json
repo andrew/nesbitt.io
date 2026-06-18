@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-18T01:29:02Z",
-  "cutoff": "2026-05-19T01:28:57Z",
+  "generated": "2026-06-18T05:59:28Z",
+  "cutoff": "2026-05-19T05:59:24Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.229.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.229.2",
+      "published": "2026-06-18T05:51:31Z",
+      "preview": "43.229.2 (2026-06-18) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.6.3 (main) ( #44072 ) ( 0cf9afb ) deps: update docker/dockerfile docker tag to v1.25.0 (main) ( #44073 ) ( e84591b ) Build System deps: update node.js to v24.17.0 (main) ( #44076 ) ( d686b95 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.13.0-220.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-220.0.dev",
@@ -258,14 +266,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.226.0",
       "published": "2026-06-16T09:23:23Z",
       "preview": "43.226.0 (2026-06-16) Features presets/workaround: add Grafana Docker image versioning workaround ( #44015 ) ( 7424be0 ) Documentation manager/sveltos: remove duplicated depTypes table from readme ( #44016 ) ( 372b258 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.11.4 (main) ( #44023 ) ( 31d5dc5 ) Tests manager/github-actions: add missing community action tests ( #44018 ) ( 7c25616 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.225.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.225.0",
-      "published": "2026-06-16T05:27:47Z",
-      "preview": "43.225.0 (2026-06-16) Features release-notes: include gitRef in release notes cache key ( #43991 ) ( 727e29f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
