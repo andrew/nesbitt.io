@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-18T22:59:09Z",
-  "cutoff": "2026-05-19T22:59:05Z",
+  "generated": "2026-06-18T23:56:49Z",
+  "cutoff": "2026-05-19T23:56:45Z",
   "feed_count": 79,
-  "item_count": 220,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.11.22",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.22",
+      "published": "2026-06-18T23:05:10Z",
+      "preview": "Release Notes Released on 2026-06-18. Enhancements Publish wheels before sdists in uv publish ( #19831 ) Add TY and RUFF env vars for providing paths for binaries used by uv format and uv check ( #19821 ) Preview features Allow configuring preview features in uv.toml and pyproject.toml ( #18437 ) Update the lockfile during uv check --no-sync ( #19909 ) Add --script to uv check and uv metadata ( #19860 ) Report workspace-exclusive dependency groups in workspace metadata ( #19862 ) Support SARIF as a uv audit output ( #19872 ) Performance Use a more deadlock-resistant concurrent hashmap in the r",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "pnpm 10.34.4",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.4",
@@ -76,6 +84,14 @@
       "preview": "1.55.0 Changelog POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636 docs: clarify swarm join required fields",
       "source": "Docker Engine releases",
       "category": "Containers"
+    },
+    {
+      "title": "v9.6.0",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0",
+      "published": "2026-06-18T18:34:24Z",
+      "preview": "Update distro size for Gradle 9.6.0 release ( #38243 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "43.231.2",
