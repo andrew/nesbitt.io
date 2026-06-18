@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-18T20:02:58Z",
-  "cutoff": "2026-05-19T20:02:52Z",
+  "generated": "2026-06-18T21:10:11Z",
+  "cutoff": "2026-05-19T21:10:07Z",
   "feed_count": 79,
   "item_count": 220,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.6.0",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.0",
+      "published": "2026-06-18T20:43:10Z",
+      "preview": "29.6.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.0 milestone moby/moby, 29.6.0 milestone New POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 Add GET /images/{name}/attestations endpoint to retrieve in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image. Supports optional platform selection, predicate type filtering, and a statement query parameter for verbatim statement bodies. Bug fixes and enhancements docker image push now respects",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "[release-branch.go1.27] go1.27rc1",
       "url": "https://github.com/golang/go/releases/tag/go1.27rc1",
@@ -1724,14 +1732,6 @@
       "preview": "Introducing the new programmatic API for pkg.go.dev, allowing developers to fetch package and module data directly.",
       "source": "Go Blog",
       "category": "Go"
-    },
-    {
-      "title": "v2.0.0-beta.15",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.15",
-      "published": "2026-05-20T16:05:19Z",
-      "preview": "v2.0.0-beta.15",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     },
     {
       "title": "2.10.0-RC2",
