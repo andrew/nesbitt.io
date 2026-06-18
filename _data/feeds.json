@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-18T21:10:11Z",
-  "cutoff": "2026-05-19T21:10:07Z",
+  "generated": "2026-06-18T22:59:09Z",
+  "cutoff": "2026-05-19T22:59:05Z",
   "feed_count": 79,
   "item_count": 220,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 10.34.4",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.4",
+      "published": "2026-06-18T22:52:00Z",
+      "preview": "Patch Changes 352ae48 : Security: validate config dependency names and versions before using them to build filesystem paths. A pnpm-workspace.yaml with a traversal-shaped configDependencies name (such as ../../PWNED ) or version (such as ../../../PWNED ) could previously cause pnpm install to create symlinks or write package files outside node_modules/.pnpm-config and the store. Names must now be valid npm package names and versions must be exact semver versions. See GHSA-qrv3-253h-g69c . 352ae48 : Reject path-traversal and reserved dependency aliases (such as ../../../escape , .bin , .pnpm , ",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "43.231.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.231.3",
+      "published": "2026-06-18T22:10:53Z",
+      "preview": "43.231.3 (2026-06-18) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.61.1 (main) ( #44090 ) ( 23a2c3c ) Continuous Integration close-answered: use .cjs for script ( #44087 ) ( 90f20a7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v29.6.0",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.0",
@@ -236,14 +252,6 @@
       "preview": "Helm v4.2.2 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Revert: Fixed a race condition in WaitForDelete where the status observer canceled the watch too early, causing intermittent failures when running a full test suite #32214 Installation and Upgra",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "43.228.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.228.1",
-      "published": "2026-06-17T19:34:21Z",
-      "preview": "43.228.1 (2026-06-17) Bug Fixes docker: handle maxResults error on auth probe for ECR repo ( #43657 ) ( 5b4e094 ) platform/forgejo: support empty string email and normalize to undefined ( #44068 ) ( 0cfffb7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.9.0.35",
@@ -1588,14 +1596,6 @@
       "preview": "The last months, and even more so the last weeks, saw an increasing amount of software supply chain attacks targeting open-source ecosystems. A handful of these have hit the PHP ecosystem too, via taken-over GitHub accounts and stolen access tokens that let attackers publish new tags on packages",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "pnpm 11.4",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.4.0",
-      "published": "2026-05-27T13:32:37Z",
-      "preview": "Minor Changes Treat tarball-integrity mismatches against the lockfile as a hard failure by default. Previously, pnpm install (non-frozen) would log ERR_PNPM_TARBALL_INTEGRITY , silently re-resolve from the registry, and overwrite the locked integrity — which meant a compromised registry, proxy, or republished version could substitute attacker-controlled content on a clean machine even though the project shipped a committed lockfile. pnpm install now exits with ERR_PNPM_TARBALL_INTEGRITY and a hint pointing at the new opt-in flag. The only opt-in is pnpm install --update-checksums — narrowly sc",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "v2.8.1",
