@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-18T17:25:22Z",
-  "cutoff": "2026-05-19T17:25:17Z",
+  "generated": "2026-06-18T20:02:58Z",
+  "cutoff": "2026-05-19T20:02:52Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "[release-branch.go1.27] go1.27rc1",
+      "url": "https://github.com/golang/go/releases/tag/go1.27rc1",
+      "published": "2026-06-18T19:54:05Z",
+      "preview": "Change-Id: I140d62e6b20672d5e0283f042338017997fe1c69 Reviewed-on: https://go-review.googlesource.com/c/go/+/792340 Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-by: Dmitri Shuralyov dmitshur@golang.org Reviewed-by: Cherry Mui cherryyz@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "v2.0.0-beta.18",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.18",
+      "published": "2026-06-18T19:46:19Z",
+      "preview": "v2.0.0-beta.18",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "client/0.5.0",
+      "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.5.0",
+      "published": "2026-06-18T19:36:11Z",
+      "preview": "0.5.0 Changelog The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "api/v1.55.0",
+      "url": "https://github.com/moby/moby/releases/tag/api%2Fv1.55.0",
+      "published": "2026-06-18T19:16:53Z",
+      "preview": "1.55.0 Changelog POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636 docs: clarify swarm join required fields",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "43.231.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.231.2",
@@ -1692,14 +1724,6 @@
       "preview": "Introducing the new programmatic API for pkg.go.dev, allowing developers to fetch package and module data directly.",
       "source": "Go Blog",
       "category": "Go"
-    },
-    {
-      "title": "v29.5.2",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.5.2",
-      "published": "2026-05-20T18:02:30Z",
-      "preview": "29.5.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.5.2 milestone moby/moby, 29.5.2 milestone Bug fixes and enhancements Fix docker cp failing with \"mkdirat: file exists\" when a container has a bind mount whose target traverses an in-container symlink (e.g. /var/run -> /run ). moby/moby#52655",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     },
     {
       "title": "v2.0.0-beta.15",
