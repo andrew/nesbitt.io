@@ -7,6 +7,7 @@ tags:
   - open-source
   - maintainers
   - dependencies
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mokwlnitq622"
 ---
 
 If you handed an economics undergraduate a description of how open source libraries are produced, without saying what it was, and asked them to predict the outcome, they would tell you it doesn't add up. Non-excludable goods with no price, no contracts, no liability, a median producer headcount of one, and near-total free riding by consumers: there is no model in the textbook under which that arrangement produces anything stable.
