@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-18T11:39:11Z",
-  "cutoff": "2026-05-19T11:39:07Z",
+  "generated": "2026-06-18T13:31:10Z",
+  "cutoff": "2026-05-19T13:31:05Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.231.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.231.1",
+      "published": "2026-06-18T13:08:18Z",
+      "preview": "43.231.1 (2026-06-18) Build System deps: update opentelemetry-js monorepo (main) ( #44086 ) ( 4a20581 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-06-18T12:24:40Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "pnpm 11.8",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.8.0",
@@ -182,14 +198,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-17T13:30:57Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
       "title": "7.9.0.35",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.35",
       "published": "2026-06-17T12:41:01Z",
@@ -252,14 +260,6 @@
       "preview": "SDK 3.13.0-211.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.227.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.227.1",
-      "published": "2026-06-16T23:53:44Z",
-      "preview": "43.227.1 (2026-06-16) Bug Fixes platform/forgejo: tollerate null values for Issues ( #44048 ) ( f9305c2 ) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.6.2 (main) ( #44051 ) ( 98b3eca ) Build System deps: update dependency protobufjs to v8.6.2 (main) ( #44050 ) ( 235b177 ) deps: update semantic-release monorepo to v25.0.4 (main) ( #44046 ) ( df4adea ) deps: update semantic-release monorepo to v25.0.5 (main) ( #44052 ) ( 9183851 ) Continuous Integration mend-slack: don't re-send messages if another label is added ( #44042 ) ( 25631fe )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.6.11: apk bootstrap, cleaner Windows shims, and aqua polish",
