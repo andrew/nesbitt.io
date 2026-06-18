@@ -7,6 +7,7 @@ tags:
   - open-source
   - maintainers
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mokgwyfr6l2d"
 ---
 
 [Dumb Ways for an Open Source Project to Die](/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html) listed the ways projects end up dead, and most of the entries describe a moment where maintainership should have moved to someone else and didn't. This is the other, shorter inventory: the mechanisms that exist for a project to change hands, and who can trigger each one.
