@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-18T05:59:28Z",
-  "cutoff": "2026-05-19T05:59:24Z",
+  "generated": "2026-06-18T09:49:24Z",
+  "cutoff": "2026-05-19T09:49:20Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.230.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.230.1",
+      "published": "2026-06-18T09:44:35Z",
+      "preview": "43.230.1 (2026-06-18) Build System deps: update dependency semver to v7.8.4 (main) ( #44053 ) ( 7a14a85 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "20260618t093200-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260618t093200-all",
+      "published": "2026-06-18T09:32:31Z",
+      "preview": "Deployment at 2026-06-18T09:32:15.690453Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "20260618t092800-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260618t092800-all",
+      "published": "2026-06-18T09:28:46Z",
+      "preview": "Deployment at 2026-06-18T09:28:26.557517Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.230.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.230.0",
+      "published": "2026-06-18T09:28:06Z",
+      "preview": "43.230.0 (2026-06-18) Features datasource/packagist: mark abandoned packages as deprecated ( #44037 ) ( 3575630 ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.61.0 (main) ( #44078 ) ( 50a78d8 ) Bug Fixes datasource/npm: handle array of repository for legacy packages ( #44061 ) ( 1754bb8 ) semver: Add legacy layer for x-ranges ( #44074 ) ( 75e6c00 ) Documentation don't include announcement bar in release notes' attachment ( #44031 ) ( 7a50358 ), closes #44030 Miscellaneous Chores ensure we use productLinks for docs site links where possible ( #44066 ) ( e1e5c39 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.229.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.229.3",
+      "published": "2026-06-18T08:09:43Z",
+      "preview": "43.229.3 (2026-06-18) Miscellaneous Chores deps: update jdx/mise-action action to v4.2.0 (main) ( #44067 ) ( 8f368cc ) instrumentation: instrument config validation ( #43839 ) ( 1618725 ) Build System deps: update dependency node to v24.17.0 (main) ( #44077 ) ( 7666cf6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.229.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.229.2",
@@ -238,36 +278,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "43.226.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.226.2",
-      "published": "2026-06-16T14:04:25Z",
-      "preview": "43.226.2 (2026-06-16) Bug Fixes workers/global: parse .jsonc files ( #44034 ) ( ac013be ), closes #44033",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "7.9.0.32",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.32",
       "published": "2026-06-16T12:39:20Z",
       "preview": "Insert 7.9.0.32 into main on 06/16/2026 12:39:20",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "43.226.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.226.1",
-      "published": "2026-06-16T10:17:33Z",
-      "preview": "43.226.1 (2026-06-16) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.59.4 (main) ( #44027 ) ( 8af0cbc ) Miscellaneous Chores deps: update dependency graphql to v16.14.2 (main) ( #44025 ) ( c169ab2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.226.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.226.0",
-      "published": "2026-06-16T09:23:23Z",
-      "preview": "43.226.0 (2026-06-16) Features presets/workaround: add Grafana Docker image versioning workaround ( #44015 ) ( 7424be0 ) Documentation manager/sveltos: remove duplicated depTypes table from readme ( #44016 ) ( 372b258 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.11.4 (main) ( #44023 ) ( 31d5dc5 ) Tests manager/github-actions: add missing community action tests ( #44018 ) ( 7c25616 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "mise-interactive-config-v2026.6.2",
@@ -1732,14 +1748,6 @@
       "preview": "Bug fixes: [libmamba] fix: Use zlib<1.3.2 for static builds by @jjerphan in #4281 [libmamba] fix: Set environment variables for use_sharded_repodata by @jjerphan in #4279 CI fixes and doc: [all] ci: Use micromamba 2.6.0 by @jjerphan in #4280",
       "source": "Mamba releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "20260519t092000-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260519t092000-all",
-      "published": "2026-05-19T09:20:48Z",
-      "preview": "Deployment at 2026-05-19T09:20:44.409819Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     }
   ]
 }
