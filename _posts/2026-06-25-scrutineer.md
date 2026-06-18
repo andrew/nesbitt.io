@@ -15,7 +15,7 @@ Large language models have made finding vulnerabilities in open source code much
 
 When I [pointed a couple of AI scanners at curl](/2026/05/12/not-a-security-issue.html) back in May, most of the output collapsed against the project's own disclosure policy, and the findings worth having were buried in the rest. Scrutineer is built so the volume a model can generate never lands directly on a maintainer.
 
-You add a repo by URL, it runs a pipeline of [claude-code skills](https://agentskills.io) against the code, and presents the results in a web UI for triage. It's already in the hands of ecosystem security engineers and several of the teams Alpha-Omega funds, and between us a fair number of vulnerabilities have been found, reported, fixed, and shipped in a release with its help.
+You add a repo by URL, it runs a pipeline of [skills](https://agentskills.io) against the code, and presents the results in a web UI for triage. It's already in the hands of ecosystem security engineers and several of the teams Alpha-Omega funds, and between us a fair number of vulnerabilities have been found, reported, fixed, and shipped in a release with its help.
 
 ### How a scan runs
 
