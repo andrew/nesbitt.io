@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-19T18:59:38Z",
-  "cutoff": "2026-05-20T18:59:34Z",
+  "generated": "2026-06-19T21:44:47Z",
+  "cutoff": "2026-05-20T21:44:43Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.233.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.3",
+      "published": "2026-06-19T20:49:52Z",
+      "preview": "43.233.3 (2026-06-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.62.2 (main) ( #44109 ) ( 83a863f ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.6.7 (main) ( #44106 ) ( b08b3c5 ) deps: update dependency astral-sh/uv to v0.11.23 (main) ( #44107 ) ( 10f5d61 ) deps: update dependency uv to v0.11.23 (main) ( #44108 ) ( 7c38c00 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.11.23",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.23",
@@ -316,14 +324,6 @@
       "preview": "Minor Changes c112b61 : Added a --dry-run option to pnpm install . It runs a full dependency resolution and reports what an install would change, but writes nothing to disk (no lockfile, no node_modules ) and always exits with code 0. This mirrors the preview semantics of npm install --dry-run #7340 . 179ebc4 : pnpm run --no-bail now exits with a non-zero exit code when any of the executed scripts fail, while still running every matched script to completion. This makes the exit-code behavior of --no-bail consistent between recursive and non-recursive runs (recursive runs already failed at the ",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.231.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.231.0",
-      "published": "2026-06-18T10:12:29Z",
-      "preview": "43.231.0 (2026-06-18) Features datasource/packagist: prefer published-time over time for release timestamp ( #44021 ) ( f88e120 ) Bug Fixes manager/mise: disable digest pinning ( #44036 ) ( 1a0536d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20260618t095000-all",
