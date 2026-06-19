@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-18T23:56:49Z",
-  "cutoff": "2026-05-19T23:56:45Z",
+  "generated": "2026-06-19T01:35:07Z",
+  "cutoff": "2026-05-20T01:35:03Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,62 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.13.0-225.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-225.0.dev",
+      "published": "2026-06-19T00:59:28Z",
+      "preview": "SDK 3.13.0-225.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-224.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-224.0.dev",
+      "published": "2026-06-19T00:59:26Z",
+      "preview": "SDK 3.13.0-224.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-223.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-223.0.dev",
+      "published": "2026-06-19T00:59:24Z",
+      "preview": "SDK 3.13.0-223.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-222.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-222.0.dev",
+      "published": "2026-06-19T00:59:23Z",
+      "preview": "SDK 3.13.0-222.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-221.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-221.0.dev",
+      "published": "2026-06-19T00:59:21Z",
+      "preview": "SDK 3.13.0-221.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.231.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.231.4",
+      "published": "2026-06-19T00:52:58Z",
+      "preview": "43.231.4 (2026-06-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.61.2 (main) ( #44095 ) ( a69f4f9 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.11.22 (main) ( #44093 ) ( 0e491f8 ) deps: update dependency uv to v0.11.22 (main) ( #44094 ) ( 347c63c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "9.6.0",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0",
+      "published": "2026-06-19T00:47:45Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.6.0. Here are the highlights of this release: Improved Configuration Cache hit rates Additional CLI rendering options Important project hierarchy lookup deprecations Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aharnish Solanki , Benedikt Johannes , Devendra Reddy Pennabadi , Dmytro Rodionov , Dreeam , Elías Hernández Rodríguez , Eng Zer Jun , FinlayRJW , Kamal Kansal , Marcono1234 , Nelson Osacky , Philip Wedemann , Ravi , Roberto Perez Alcolea , Ryan Schmitt , S",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
     {
       "title": "0.11.22",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.22",
@@ -84,14 +140,6 @@
       "preview": "1.55.0 Changelog POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636 docs: clarify swarm join required fields",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "v9.6.0",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0",
-      "published": "2026-06-18T18:34:24Z",
-      "preview": "Update distro size for Gradle 9.6.0 release ( #38243 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "43.231.2",
@@ -230,26 +278,10 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.13.0-215.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-215.0.dev",
-      "published": "2026-06-18T00:55:21Z",
-      "preview": "SDK 3.13.0-215.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "43.229.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.229.1",
       "published": "2026-06-18T00:53:23Z",
       "preview": "43.229.1 (2026-06-18) Miscellaneous Chores deps: update dependency @types/node to v24.13.2 (main) ( #44069 ) ( a496f8a ) deps: update dependency memfs to v4.57.7 (main) ( #44070 ) ( 0c620e9 ) Build System deps: update dependency protobufjs to v8.6.3 (main) ( #44071 ) ( cd9b3f8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.229.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.229.0",
-      "published": "2026-06-17T23:00:06Z",
-      "preview": "43.229.0 (2026-06-17) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.60.2 (main) ( #44045 ) ( fdf5f9d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -292,38 +324,6 @@
       "preview": "What's Changed Component updates ⬆️ [CHERRY-PICK] Make openapi-generator-cli download URL configurable ( #23186 ) by @chlins in #23221 bump Go version from 1.25.9 to 1.26.3 by @stonezdj in #23236 [cherry-pick] Rebuild goharbor/photon image before create new harbor base images by @jUDASmILE in #23250 [cherry-pick]remove install net-tools from db dockerfile as photon removed it by @jUDASmILE in #23267 [CHERRY-PICK] feat: replace redis with valkey as cache backend ( #23157 ) by @chlins in #23261 [CHERRY-PICK] test(cosign): disable tlog for signing checks by @chlins in #23280 [CHERRY-PICK] fix(cos",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "SDK-3.13.0-214.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-214.0.dev",
-      "published": "2026-06-17T00:55:41Z",
-      "preview": "SDK 3.13.0-214.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-213.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-213.0.dev",
-      "published": "2026-06-17T00:55:38Z",
-      "preview": "SDK 3.13.0-213.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-212.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-212.0.dev",
-      "published": "2026-06-17T00:55:34Z",
-      "preview": "SDK 3.13.0-212.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-211.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-211.0.dev",
-      "published": "2026-06-17T00:55:31Z",
-      "preview": "SDK 3.13.0-211.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "v2026.6.11: apk bootstrap, cleaner Windows shims, and aqua polish",
@@ -1772,30 +1772,6 @@
       "preview": "Enhancements: Remove cygwin from WIN_PATTERNS. Pull request #9527 by fd00 Installs bundler 4.0.12 as a default gem. Bug fixes: Fall back to lockfile version when BUNDLE_VERSION is \"lockfile\". Pull request #9545 by hsbt Read BUNDLE_VERSION env var in BundlerVersionFinder . Pull request #9538 by hsbt",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "May 2026 Releases",
-      "url": "https://conda.org/blog/2026-05-20-may-releases",
-      "published": "2026-05-20T00:00:00Z",
-      "preview": "May releases of conda and conda-build are out—native lockfiles, a snappier CLI, v1 recipe builds improvements and conda-pypi. 🎉",
-      "source": "Conda Blog",
-      "category": "Multi-language"
-    },
-    {
-      "title": "4.0.12 Released",
-      "url": "https://blog.rubygems.org/2026/05/20/4.0.12-released.html",
-      "published": "2026-05-20T00:00:00Z",
-      "preview": "RubyGems 4.0.12 includes enhancements and bug fixes and Bundler 4.0.12 includes enhancements and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.12 RubyGems Release Notes Enhancements: Remove cygwin from WIN_PATTERNS. Pull request #9527 by fd00 Installs bundler 4.0.12 as a default gem. Bug fixes: Fall back to lockfile version when BUNDLE_VERSION is “lockfile”. Pull request #9545 by hsbt Read BUNDLE_VERSION env var in BundlerVersionFinder . Pull request #9538",
-      "source": "RubyGems Blog",
-      "category": "Ruby"
-    },
-    {
-      "title": "pnpm 11.2",
-      "url": "https://pnpm.io/blog/releases/11.2",
-      "published": "2026-05-20T00:00:00Z",
-      "preview": "pnpm 11.2 ships an experimental opt-in into pacquet (the Rust port of pnpm) as the install backend, expands config dependencies to install one level of optionalDependencies (so the esbuild/swc platform-binary pattern works for config deps too), wires up the long-documented pnpm login --scope flag, and surfaces runtime entries (Node.js, Deno, Bun) in pnpm outdated and pnpm update --interactive.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
