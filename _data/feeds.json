@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-19T03:31:49Z",
-  "cutoff": "2026-05-20T03:31:44Z",
+  "generated": "2026-06-19T11:46:32Z",
+  "cutoff": "2026-05-20T11:46:28Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.232.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.232.1",
+      "published": "2026-06-19T10:58:18Z",
+      "preview": "43.232.1 (2026-06-19) Bug Fixes manager/flux: extract both commit and branch for GitRepository ( #43560 ) ( a8b8643 ) omit version from pr title if group has a single update ( #43970 ) ( ae13ef0 ) Code Refactoring use GlobalConfig for productLinks ( #44098 ) ( 89be048 ) Continuous Integration use mnt for docker for older gh runners ( #44091 ) ( b394c7c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "New release 2.76",
+      "url": "https://github.com/canonical/snapd/releases/tag/2.76",
+      "published": "2026-06-19T10:30:06Z",
+      "preview": "assertions: add helper for validating integrity data assertions: drop incorrect/non-standard Ed25519 support confdb: allow only API admin read access to confdb secrets confdb: block concurrent confdb accesses confdb: block concurrent snapctl accesses to configuration database confdb: check for ephemeral data when missing save-view hook on commit confdb: ignore not-found errors in confdb-schema refreshes confdb: support --wait-for timeouts when accessing confdb core-initrd: add group referenced in udev rules core-initrd: add libbpf dependency to initramfs core-initrd: add missing libbpf depende",
+      "source": "Snapd releases",
+      "category": "System"
+    },
     {
       "title": "43.232.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.232.0",
@@ -234,14 +250,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.229.3",
       "published": "2026-06-18T08:09:43Z",
       "preview": "43.229.3 (2026-06-18) Miscellaneous Chores deps: update jdx/mise-action action to v4.2.0 (main) ( #44067 ) ( 8f368cc ) instrumentation: instrument config validation ( #43839 ) ( 1618725 ) Build System deps: update dependency node to v24.17.0 (main) ( #44077 ) ( 7666cf6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.229.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.229.2",
-      "published": "2026-06-18T05:51:31Z",
-      "preview": "43.229.2 (2026-06-18) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.6.3 (main) ( #44072 ) ( 0cf9afb ) deps: update docker/dockerfile docker tag to v1.25.0 (main) ( #44073 ) ( e84591b ) Build System deps: update node.js to v24.17.0 (main) ( #44076 ) ( d686b95 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1468,14 +1476,6 @@
       "preview": "Minor Changes Added a new hoistingLimits setting for nodeLinker: hoisted installs, mirroring yarn's nmHoistingLimits . It accepts none (the default — hoist as far as possible), workspaces (hoist only as far as each workspace package), or dependencies (hoist only up to each workspace package's direct dependencies). Originally proposed in #6468 , closing #6457 . Replaced enquirer with @inquirer/prompts for all interactive prompts. Fixes the update -i scrolling overflow bug where long choice lists were clipped in the terminal #6643 . User-facing changes: pnpm update -i / pnpm update -i --latest :",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "2.76",
-      "url": "https://github.com/canonical/snapd/releases/tag/2.76",
-      "published": "2026-05-29T09:53:17Z",
-      "preview": "tagging package snapd version 2.76",
-      "source": "Snapd releases",
-      "category": "System"
     },
     {
       "title": "pnpm 11.5",
