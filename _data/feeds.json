@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-19T17:05:49Z",
-  "cutoff": "2026-05-20T17:05:45Z",
+  "generated": "2026-06-19T18:59:38Z",
+  "cutoff": "2026-05-20T18:59:34Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.11.23",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.23",
+      "published": "2026-06-19T18:42:52Z",
+      "preview": "Release Notes Released on 2026-06-19. Bug fixes Revert \"Fix transparent Python upgrades in project environments\" to mitigate unintended breakage in pre-commit-uv ( #19925 ) Restore old behavior where workspace members \"hidden\" by an intermediate pyproject.toml would be treated as standalone projects ( #19926 ) Install uv 0.11.23 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.23/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://re",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "43.233.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.2",
+      "published": "2026-06-19T18:12:39Z",
+      "preview": "43.233.2 (2026-06-19) Bug Fixes containerbase: support constraints.rust=nightly ( #43543 ) ( b8c4eb2 ), closes #43489",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.233.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.1",
@@ -316,14 +332,6 @@
       "preview": "Deployment at 2026-06-18T09:50:25.226098Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.230.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.230.1",
-      "published": "2026-06-18T09:44:35Z",
-      "preview": "43.230.1 (2026-06-18) Build System deps: update dependency semver to v7.8.4 (main) ( #44053 ) ( 7a14a85 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20260618t093200-all",
