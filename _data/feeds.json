@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-19T11:46:32Z",
-  "cutoff": "2026-05-20T11:46:28Z",
+  "generated": "2026-06-19T13:31:36Z",
+  "cutoff": "2026-05-20T13:31:31Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.9.0.37",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.37",
+      "published": "2026-06-19T12:42:31Z",
+      "preview": "Insert 7.9.0.37 into main on 06/19/2026 12:42:30",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "43.232.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.232.1",
@@ -1116,14 +1124,6 @@
       "preview": "You can update micromamba to this version using: micromamba self-update Bug fixes: [libmamba] fix: Harden noarch:python entry point linking by @jjerphan in #4282 [libmamba] fix: Guard Root Packages' Expansion by @jjerphan in #4283 [micromamba, libmamba] fix: Adapt root packages expansion by @jjerphan in #4298 [micromamba, libmamba] fix: Populate python_site_packages_path independently from host by @jjerphan in #4288 [libmamba] Fallback to flat cache dir if missing hierarchical by @Hind-M in #4290 [micromamba, libmamba] fix: Adapt noarch unlink path normalization for conda interoperability by @",
       "source": "Mamba releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "7.9.0.11",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.11",
-      "published": "2026-06-04T12:27:08Z",
-      "preview": "Insert 7.9.0.11 into main on 06/04/2026 12:27:07",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "Enforce a safe Composer version across your organization",
