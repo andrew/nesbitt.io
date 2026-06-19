@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-19T15:29:34Z",
-  "cutoff": "2026-05-20T15:29:29Z",
+  "generated": "2026-06-19T17:05:49Z",
+  "cutoff": "2026-05-20T17:05:45Z",
   "feed_count": 79,
   "item_count": 216,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.233.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.1",
+      "published": "2026-06-19T16:16:57Z",
+      "preview": "43.233.1 (2026-06-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.62.1 (main) ( #44104 ) ( 05874ee ) Documentation restructure postUpdateOptions table into headers ( #44089 ) ( 67c9e08 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.1 (main) ( #44103 ) ( fb2f117 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "libnpmversion: v9.0.0-pre.1",
       "url": "https://github.com/npm/cli/releases/tag/libnpmversion-v9.0.0-pre.1",
@@ -332,14 +340,6 @@
       "preview": "Deployment at 2026-06-18T09:28:26.557517Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.230.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.230.0",
-      "published": "2026-06-18T09:28:06Z",
-      "preview": "43.230.0 (2026-06-18) Features datasource/packagist: mark abandoned packages as deprecated ( #44037 ) ( 3575630 ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.61.0 (main) ( #44078 ) ( 50a78d8 ) Bug Fixes datasource/npm: handle array of repository for legacy packages ( #44061 ) ( 1754bb8 ) semver: Add legacy layer for x-ranges ( #44074 ) ( 75e6c00 ) Documentation don't include announcement bar in release notes' attachment ( #44031 ) ( 7a50358 ), closes #44030 Miscellaneous Chores ensure we use productLinks for docs site links where possible ( #44066 ) ( e1e5c39 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.13.0-220.0.dev",
