@@ -30,7 +30,13 @@ Week five of the roundup, built from the [package manager OPML feed collection](
 
 [pipx 1.14.1](https://github.com/pypa/pipx/releases/tag/1.14.1) restores a package after an interrupted reinstall and fixes `inject --force` reinstall behaviour.
 
-Also out: [Homebrew 6.0.2](https://github.com/Homebrew/brew/releases/tag/6.0.2), [Helm 4.2.2](https://github.com/helm/helm/releases/tag/v4.2.2), [Gradle 9.7.0-M1](https://github.com/gradle/gradle/releases/tag/v9.7.0-M1), [Harbor 2.15.2-rc1](https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc1), [Renovate 43.229.3](https://github.com/renovatebot/renovate/releases/tag/43.229.3).
+[uv 0.11.22](https://github.com/astral-sh/uv/releases/tag/0.11.22) adds SARIF output to `uv audit`, a `--script` flag for `uv check` and `uv metadata`, and lets preview features be set in `uv.toml` and `pyproject.toml`.
+
+[Docker Engine 29.6.0](https://github.com/moby/moby/releases/tag/docker-v29.6.0) adds a `GET /images/{name}/attestations` endpoint that returns in-toto attestation statements such as SLSA provenance and SPDX SBOMs attached to an image, with platform selection and predicate-type filtering.
+
+[yay v13](https://jguer.space/blog/2026-06-15-yay-v13) shows how long it has been since each PKGBUILD was last modified, so a recently changed AUR package stands out for review, and adds Lua hooks in `init.lua` for scripting package checks and filtering.
+
+Also out: [Homebrew 6.0.2](https://github.com/Homebrew/brew/releases/tag/6.0.2), [Helm 4.2.2](https://github.com/helm/helm/releases/tag/v4.2.2), [Gradle 9.6.0](https://github.com/gradle/gradle/releases/tag/v9.6.0), [Harbor 2.15.2-rc1](https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc1), [Renovate 43.232.0](https://github.com/renovatebot/renovate/releases/tag/43.232.0).
 
 ## Articles
 
@@ -48,11 +54,19 @@ Also out: [Homebrew 6.0.2](https://github.com/Homebrew/brew/releases/tag/6.0.2),
 
 [Composer & Packagist Supply Chain Security in 2026](https://naderman.de/slippy/slides/2026-06-09-PHPVerse-Composer-and-Packagist-Supply-Chain-Security-in-2026.pdf) (Nils Adermann) are the slides from the PHPVerse talk covering the same series of changes the Packagist blog has been writing up over the last few weeks.
 
+[Thoughts on governance](https://fastwonderblog.com/2026/06/18/thoughts-on-governance/) (Dawn Foster) gathers her recent talks on open source project governance and where it meets public-sector governance.
+
+[Open source is a gig](https://www.linkedin.com/pulse/open-source-livelihoods-gig-cristovao-verstraeten-iyhwe/) (Cristovao Verstraeten, LinkedIn) compares maintaining open source to a touring musician's life, mostly paid in exposure rather than money.
+
 ## Elsewhere
 
 [Software Dark Matter: Gazing at Uncharted Files to Navigate SBOM Integrations](https://arxiv.org/abs/2606.13966) (Reddypalle et al., arXiv) names the gap between what an SBOM lists from package manager metadata and the security-relevant files that actually ship in an artifact but never appear in a manifest.
 
 The [ClickPy May 2026 report](https://clickpy.clickhouse.com/report/may-2026.html) puts PyPI at 163.8 billion downloads for the month, up about 20% since March.
+
+`actions/checkout` v7 now [refuses by default](https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout/) to check out fork pull request code in `pull_request_target` workflows, blocking a common path to running untrusted code with write tokens in CI.
+
+Weston Steimel has [opened a discussion](https://github.com/pypa/advisory-database/issues/313) on improving the data quality of the PyPA advisory database and is asking for ideas.
 
 [gem-guardian](https://github.com/kanutocd/gem-guardian) is a RubyGems checksum verifier that has grown lockfile-checksum support, provenance reporting and publisher-provided checksum verification for private registries.
 
