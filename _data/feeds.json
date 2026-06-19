@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-19T01:35:07Z",
-  "cutoff": "2026-05-20T01:35:03Z",
+  "generated": "2026-06-19T03:31:49Z",
+  "cutoff": "2026-05-20T03:31:44Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.232.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.232.0",
+      "published": "2026-06-19T01:54:42Z",
+      "preview": "43.232.0 (2026-06-19) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.62.0 (main) ( #44096 ) ( 3c4d1c6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.13.0-225.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-225.0.dev",
@@ -276,14 +284,6 @@
       "preview": "SDK 3.13.0-216.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.229.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.229.1",
-      "published": "2026-06-18T00:53:23Z",
-      "preview": "43.229.1 (2026-06-18) Miscellaneous Chores deps: update dependency @types/node to v24.13.2 (main) ( #44069 ) ( a496f8a ) deps: update dependency memfs to v4.57.7 (main) ( #44070 ) ( 0c620e9 ) Build System deps: update dependency protobufjs to v8.6.3 (main) ( #44071 ) ( cd9b3f8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.14.1",
@@ -1756,22 +1756,6 @@
       "preview": "Composer 2.10 is ready for a release, and we need your help to test it and report any regression. Please try it out! Running composer self-update --preview will get you the 2.10.0-RC2 Running composer self-update --stable will get you back on the latest 2.9 stable release if anything broke. Report any issues you encounter as a new issue specifying you tried the 2.10 RC and please include stack traces & repro details. Full Changelog Since 2.10.0-RC1, fixes in 2.9.6 - 2.9.8, many of which security relevant, are also included Since 2.10.0-RC1 a lot of the new filter list config format was modifie",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "bundler-v4.0.12",
-      "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.12",
-      "published": "2026-05-20T03:07:44Z",
-      "preview": "Enhancements: Make bundle config get return status 1 when the value is not set. Pull request #9505 by willnet Use Pathname#absolute?. Pull request #9529 by nobu Deprecate parsing non-lockfile content in LockfileParser. Pull request #9502 by kurotaky Print a warning for a potential confusion from the indirect dependencies. Pull request #5029 by junaruga Respect Gemfile bundler setting in Bundler.setup . Pull request #4892 by godfat Bug fixes: Gracefully handle missing checksums in Compact Index. Pull request #9492 by jneen Skip git source exclusion when lockfile cannot backfill. Pull request #9",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.12",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.12",
-      "published": "2026-05-20T03:06:01Z",
-      "preview": "Enhancements: Remove cygwin from WIN_PATTERNS. Pull request #9527 by fd00 Installs bundler 4.0.12 as a default gem. Bug fixes: Fall back to lockfile version when BUNDLE_VERSION is \"lockfile\". Pull request #9545 by hsbt Read BUNDLE_VERSION env var in BundlerVersionFinder . Pull request #9538 by hsbt",
-      "source": "RubyGems releases",
-      "category": "Ruby"
     }
   ]
 }
