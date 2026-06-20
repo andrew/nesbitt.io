@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-20T07:38:28Z",
-  "cutoff": "2026-05-21T07:38:24Z",
+  "generated": "2026-06-20T09:28:54Z",
+  "cutoff": "2026-05-21T09:28:51Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -1740,14 +1740,6 @@
       "preview": "What's Changed info: mark deprecated/disabled pkg in install status by @HaraldNordgren in #22334 gitignore: ignore test/.npm/ by @HaraldNordgren in #22337 info, tap-info: skip uninstalled marker and bold when not a problem (align with search) by @HaraldNordgren in #22342 Remove obsolete --skip-update from command-not-found handlers by @rexmhall09 in #22340 Check RubyGems licences by @MikeMcQuaid in #22343 cask: include resolved artifact targets in JSON output by @carlocab in #22346 Move the 'wsl?' bool from the OS::Linux module up to the OS module by @lstn in #22309 Make bundle upgrade an alia",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "v0.378.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.378.0",
-      "published": "2026-05-21T08:48:56Z",
-      "preview": "What's Changed fix(opentofu): strip v prefix in cooldown version comparison by @diofeher in #15044 Use POM last-modified as Gradle plugin release date fallback by @thavaahariharangit in #15006 Add blocked versions support to updater job by @kbukum1 in #14915 Add blocked versions support to dry-run script by @kbukum1 in #14916 Strip surrounding quotes from go.env values before writing by @yeikel in #15060 Require dependabot-deno in updater setup by @markhallen in #15064 fix(docker): use manifests endpoint for manifest-list digests by @devantler in #14691 Fix NuGet lock file tracking when no loc",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
