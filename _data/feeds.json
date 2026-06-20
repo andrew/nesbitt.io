@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-20T05:47:21Z",
-  "cutoff": "2026-05-21T05:47:17Z",
+  "generated": "2026-06-20T07:38:28Z",
+  "cutoff": "2026-05-21T07:38:24Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -1748,14 +1748,6 @@
       "preview": "What's Changed fix(opentofu): strip v prefix in cooldown version comparison by @diofeher in #15044 Use POM last-modified as Gradle plugin release date fallback by @thavaahariharangit in #15006 Add blocked versions support to updater job by @kbukum1 in #14915 Add blocked versions support to dry-run script by @kbukum1 in #14916 Strip surrounding quotes from go.env values before writing by @yeikel in #15060 Require dependabot-deno in updater setup by @markhallen in #15064 fix(docker): use manifests endpoint for manifest-list digests by @devantler in #14691 Fix NuGet lock file tracking when no loc",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2.27.0",
-      "url": "https://github.com/pdm-project/pdm/releases/tag/2.27.0",
-      "published": "2026-05-21T07:14:32Z",
-      "preview": "Breaking Changes Update the minimum required Python version to 3.10. ( #3787 ) Features & Improvements Respect existing values of pyproject.toml when running pdm init or pdm new . ( #3786 ) Move project plugin installations from .pdm-plugins under the project root to an isolated cache directory, and add a fixer to migrate existing plugin directories. ( #3790 ) Remove legacy importlib compatibility wrappers and use standard-library importlib.metadata and importlib.resources APIs directly. ( #3796 ) Bug Fixes Fix a security issue with the installer to disallow installing to paths outside of the ",
-      "source": "PDM releases",
-      "category": "Python"
     }
   ]
 }
