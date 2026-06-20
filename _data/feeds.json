@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-20T15:01:24Z",
-  "cutoff": "2026-05-21T15:01:19Z",
+  "generated": "2026-06-20T17:50:15Z",
+  "cutoff": "2026-05-21T17:50:10Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
   ],
   "items": [
     {
+      "title": "Helm v3.21.2",
+      "url": "https://github.com/helm/helm/releases/tag/v3.21.2",
+      "published": "2026-06-20T17:19:31Z",
+      "preview": "Helm v3.21.2 is a patch release to correct bump the Kubernetes client libraries (client-go, etc) to match the expected Kubernetes v1.36 release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Update Kubernetes client libraries to v1.36 Installation and Upgrading Download H",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
       "title": "43.233.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.4",
       "published": "2026-06-20T14:44:38Z",
@@ -36,14 +44,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "Helm v3.21.2",
-      "url": "https://github.com/helm/helm/releases/tag/v3.21.2",
-      "published": "2026-06-20T04:42:18Z",
-      "preview": "Helm v3.21.2 is a feature release to correct bump the Kubernetes client libraries (client-go, etc) to match the expected Kubernetes v1.36 release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Update Kubernetes client libraries to v1.36 Installation and Upgrading Download",
-      "source": "Helm releases",
-      "category": "Containers"
     },
     {
       "title": "SDK-3.13.0-228.0.dev",
@@ -1732,14 +1732,6 @@
       "preview": "Release Notes Released on 2026-05-21. Enhancements Add support for direct archive dependencies in Git ( #10072 ) Adjust hint rendering ( #18090 ) Preview features uv audit: specialize malformed OSV error ( #19515 ) Reject locked malware installations ( #18936 ) Configuration Allow disabling reading the system config with UV_NO_SYSTEM_CONFIG ( #19476 ) Bug fixes Allow environment variables that take a list to be empty ( #19503 ) Ensure that incompatible wheel hints do not leak secrets ( #19504 ) Reject unsafe entry points in uv-build ( #19495 ) Restrict delimiters in entry point parsing ( #1947",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "5.1.13",
-      "url": "https://github.com/Homebrew/brew/releases/tag/5.1.13",
-      "published": "2026-05-21T16:55:12Z",
-      "preview": "What's Changed info: mark deprecated/disabled pkg in install status by @HaraldNordgren in #22334 gitignore: ignore test/.npm/ by @HaraldNordgren in #22337 info, tap-info: skip uninstalled marker and bold when not a problem (align with search) by @HaraldNordgren in #22342 Remove obsolete --skip-update from command-not-found handlers by @rexmhall09 in #22340 Check RubyGems licences by @MikeMcQuaid in #22343 cask: include resolved artifact targets in JSON output by @carlocab in #22346 Move the 'wsl?' bool from the OS::Linux module up to the OS module by @lstn in #22309 Make bundle upgrade an alia",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
