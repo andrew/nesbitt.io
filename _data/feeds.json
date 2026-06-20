@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-20T09:28:54Z",
-  "cutoff": "2026-05-21T09:28:51Z",
+  "generated": "2026-06-20T12:57:10Z",
+  "cutoff": "2026-05-21T12:57:06Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-06-20T12:51:35Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "Helm v3.21.2",
       "url": "https://github.com/helm/helm/releases/tag/v3.21.2",
@@ -340,14 +348,6 @@
       "preview": "43.231.1 (2026-06-18) Build System deps: update opentelemetry-js monorepo (main) ( #44086 ) ( 4a20581 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-18T12:24:40Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "pnpm 11.8",
