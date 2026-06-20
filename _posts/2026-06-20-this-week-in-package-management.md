@@ -58,6 +58,8 @@ Also out: [Homebrew 6.0.2](https://github.com/Homebrew/brew/releases/tag/6.0.2),
 
 [curl summer of bliss](https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/) (Daniel Stenberg) announces that the curl project will not accept or handle vulnerability reports during July 2026, giving the maintainers a month off the disclosure treadmill. [libexpat is doing the same](https://github.com/libexpat/libexpat/issues/1277) through 1 August.
 
+[The Vulnerability Report Is Dead. Long Live the Prompt!](https://mikael.barbero.tech/blog/post/2026-06-19-vulnerability-report-is-dead-long-live-the-prompt/) (Mikaël Barbero) argues an AI-assisted vulnerability report should lead with the prompt, model version, commit hash, tool access and verification status, and treat the generated write-up as supporting material.
+
 [Composer & Packagist Supply Chain Security in 2026](https://naderman.de/slippy/slides/2026-06-09-PHPVerse-Composer-and-Packagist-Supply-Chain-Security-in-2026.pdf) (Nils Adermann) are the slides from the PHPVerse talk covering the same series of changes the Packagist blog has been writing up over the last few weeks.
 
 [Homebrew tightens tap security, begins work on its interface](https://www.helpnetsecurity.com/2026/06/18/homebrew-6-0-0-released/) (Help Net Security) interviews Mike McQuaid about the 6.0.0 release and the tap trust mechanism.
