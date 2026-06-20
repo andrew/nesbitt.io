@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-20T18:50:17Z",
-  "cutoff": "2026-05-21T18:50:12Z",
+  "generated": "2026-06-20T22:44:15Z",
+  "cutoff": "2026-05-21T22:44:11Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -1732,14 +1732,6 @@
       "preview": "2.8.0 / 2026.05.22 Read more: http://deno.com/blog/v2.8 feat: accept deno audit fix as alias for deno audit --fix ( #34273 ) feat: add --watch flag to deno check ( #34224 ) feat: add deno bump-version subcommand ( #30562 ) feat: add deno why subcommand ( #32908 ) feat: support workspaces in deno bump-version ( #33689 ) feat(add/install): default to npm registry for unprefixed packages ( #33246 ) feat(compile): add progress bar for deno compile ( #33874 ) feat(compile): support module.registerHooks() in compiled binaries ( #33853 ) feat(core): add Deno.core.loadExtScript() for lazy-loaded scrip",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "0.11.16",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.16",
-      "published": "2026-05-21T22:11:32Z",
-      "preview": "Release Notes Released on 2026-05-21. Enhancements Add support for direct archive dependencies in Git ( #10072 ) Adjust hint rendering ( #18090 ) Preview features uv audit: specialize malformed OSV error ( #19515 ) Reject locked malware installations ( #18936 ) Configuration Allow disabling reading the system config with UV_NO_SYSTEM_CONFIG ( #19476 ) Bug fixes Allow environment variables that take a list to be empty ( #19503 ) Ensure that incompatible wheel hints do not leak secrets ( #19504 ) Reject unsafe entry points in uv-build ( #19495 ) Restrict delimiters in entry point parsing ( #1947",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
