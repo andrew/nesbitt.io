@@ -16,6 +16,10 @@ Week five of the roundup, built from the [package manager OPML feed collection](
 
 [pnpm 11.7](https://pnpm.io/blog/releases/11.7) adds a `frozenStore` setting that opens the store's SQLite index read-only so `pnpm install` can run against a Nix store, a read-only bind mount or an OCI layer without trying to write WAL sidecar files. The release also adds a `--batch` flag to publish a whole workspace in one request, per-scope auth tokens, and an option to delegate resolving installs to pacquet.
 
+[pnpm 10.34.4](https://github.com/pnpm/pnpm/releases/tag/v10.34.4) on the v10 line fixes two path-traversal issues. A traversal-shaped `configDependencies` name or version in `pnpm-workspace.yaml` could write files outside `node_modules/.pnpm-config` and the store ([GHSA-qrv3-253h-g69c](https://github.com/pnpm/pnpm/security/advisories/GHSA-qrv3-253h-g69c)), and a crafted lockfile alias under `nodeLinker: hoisted` could write outside the install root ([GHSA-fr4h-3cph-29xv](https://github.com/pnpm/pnpm/security/advisories/GHSA-fr4h-3cph-29xv), also fixed in 11.7.0).
+
+[npm 12.0.0-pre.1](https://github.com/npm/cli/releases/tag/v12.0.0-pre.1) is the first pre-release with the v12 defaults switched on: dependency install scripts are blocked unless listed in `allowScripts`, `allow-git` and `allow-remote` default to `none`, and unknown configs and CLI flags error instead of warn. New in this build are an `npm patch` subcommand for native dependency patching and a `packageExtensions` field for repairing dependency manifests from the root.
+
 [Yarn 4.17.0](https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.17.0) adds package map generation and lets `npmMinimalAgeGate` be set per npm scope rather than globally.
 
 [Dependabot Core 0.382.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.382.0) supports a `scope` property on `npm_registry` credentials and fixes a leak where npm registry credentials were sent to sibling paths on the same host.
@@ -28,15 +32,17 @@ Week five of the roundup, built from the [package manager OPML feed collection](
 
 [Athens 0.18.0](https://github.com/gomods/athens/releases/tag/v0.18.0), the Go module proxy, adds Redis cluster-mode support for its singleflight stash.
 
+[Go 1.27rc1](https://tip.golang.org/doc/go1.27) drops Bazaar from the version control systems the `go` command can fetch modules from, and `go mod tidy` now consolidates duplicate `require` blocks into one direct and one indirect block for modules at `go 1.27` or later.
+
 [pipx 1.14.1](https://github.com/pypa/pipx/releases/tag/1.14.1) restores a package after an interrupted reinstall and fixes `inject --force` reinstall behaviour.
 
-[uv 0.11.22](https://github.com/astral-sh/uv/releases/tag/0.11.22) adds SARIF output to `uv audit`, a `--script` flag for `uv check` and `uv metadata`, and lets preview features be set in `uv.toml` and `pyproject.toml`.
+[uv 0.11.22](https://github.com/astral-sh/uv/releases/tag/0.11.22) adds SARIF output to `uv audit`, a `--script` flag for `uv check` and `uv metadata`, and lets preview features be set in `uv.toml` and `pyproject.toml`. [0.11.23](https://github.com/astral-sh/uv/releases/tag/0.11.23) followed a day later reverting two earlier fixes, one of which had broken pre-commit-uv.
 
 [Docker Engine 29.6.0](https://github.com/moby/moby/releases/tag/docker-v29.6.0) adds a `GET /images/{name}/attestations` endpoint that returns in-toto attestation statements such as SLSA provenance and SPDX SBOMs attached to an image, with platform selection and predicate-type filtering.
 
 [yay v13](https://jguer.space/blog/2026-06-15-yay-v13) shows how long it has been since each PKGBUILD was last modified, so a recently changed AUR package stands out for review, and adds Lua hooks in `init.lua` for scripting package checks and filtering.
 
-Also out: [Homebrew 6.0.2](https://github.com/Homebrew/brew/releases/tag/6.0.2), [Helm 4.2.2](https://github.com/helm/helm/releases/tag/v4.2.2), [Gradle 9.6.0](https://github.com/gradle/gradle/releases/tag/v9.6.0), [Harbor 2.15.2-rc1](https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc1), [Renovate 43.232.0](https://github.com/renovatebot/renovate/releases/tag/43.232.0).
+Also out: [Homebrew 6.0.2](https://github.com/Homebrew/brew/releases/tag/6.0.2), [Helm 4.2.2](https://github.com/helm/helm/releases/tag/v4.2.2), [Helm 3.21.2](https://github.com/helm/helm/releases/tag/v3.21.2), [Gradle 9.6.0](https://github.com/gradle/gradle/releases/tag/v9.6.0), [snapd 2.76](https://github.com/canonical/snapd/releases/tag/2.76), [Harbor 2.15.2-rc1](https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc1), [Renovate 43.233.3](https://github.com/renovatebot/renovate/releases/tag/43.233.3).
 
 ## Articles
 
@@ -54,6 +60,8 @@ Also out: [Homebrew 6.0.2](https://github.com/Homebrew/brew/releases/tag/6.0.2),
 
 [Composer & Packagist Supply Chain Security in 2026](https://naderman.de/slippy/slides/2026-06-09-PHPVerse-Composer-and-Packagist-Supply-Chain-Security-in-2026.pdf) (Nils Adermann) are the slides from the PHPVerse talk covering the same series of changes the Packagist blog has been writing up over the last few weeks.
 
+[Homebrew tightens tap security, begins work on its interface](https://www.helpnetsecurity.com/2026/06/18/homebrew-6-0-0-released/) (Help Net Security) interviews Mike McQuaid about the 6.0.0 release and the tap trust mechanism.
+
 [Thoughts on governance](https://fastwonderblog.com/2026/06/18/thoughts-on-governance/) (Dawn Foster) gathers her recent talks on open source project governance and where it meets public-sector governance.
 
 [Open source is a gig](https://www.linkedin.com/pulse/open-source-livelihoods-gig-cristovao-verstraeten-iyhwe/) (Cristovao Verstraeten, LinkedIn) compares maintaining open source to a touring musician's life, mostly paid in exposure rather than money.
@@ -65,6 +73,8 @@ Also out: [Homebrew 6.0.2](https://github.com/Homebrew/brew/releases/tag/6.0.2),
 The [ClickPy May 2026 report](https://clickpy.clickhouse.com/report/may-2026.html) puts PyPI at 163.8 billion downloads for the month, up about 20% since March.
 
 `actions/checkout` v7 now [refuses by default](https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout/) to check out fork pull request code in `pull_request_target` workflows, blocking a common path to running untrusted code with write tokens in CI.
+
+GitHub repositories can now [cap the number of open pull requests](https://github.blog/changelog/2026-06-17-limit-open-pull-requests-for-users-without-write-access/) a user without write access may have at once, aimed at drive-by contribution volume.
 
 Weston Steimel has [opened a discussion](https://github.com/pypa/advisory-database/issues/313) on improving the data quality of the PyPA advisory database and is asking for ideas.
 
