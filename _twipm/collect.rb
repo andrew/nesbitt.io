@@ -12,7 +12,6 @@ ROOT = File.expand_path("..", __dir__)
 TWIPM = File.join(ROOT, "_twipm")
 FEEDS_JSON = File.join(ROOT, "_data/feeds.json")
 EXTRA_FEEDS = File.join(TWIPM, "extra_feeds.txt")
-BOOKMARKS_TXT = File.join(TWIPM, "bookmarks.txt")
 OUTPUT = File.join(TWIPM, "collected.json")
 MASTODON_INSTANCE = "https://mastodon.social"
 MASTODON_ACCT = "andrewnez"
@@ -181,16 +180,6 @@ rescue => e
   []
 end
 
-def collect_bookmarks_txt(path)
-  return [] unless File.exist?(path)
-  File.readlines(path).filter_map do |line|
-    line = line.strip
-    next if line.empty? || line.start_with?("#")
-    url, note = line.split(/\s+/, 2)
-    { url: url, title: note, via: "bookmarks.txt" }
-  end
-end
-
 opml_items = load_feeds_json(FEEDS_JSON, since)
 extra_feeds = FeedFetch.parse_urls_file(EXTRA_FEEDS)
 warn "Fetching #{extra_feeds.size} extra feeds..." unless extra_feeds.empty?
@@ -200,8 +189,6 @@ extra_items = extra_results.reject { |i| i[:published] < since }.map { |i| i.mer
 feed_items = opml_items + extra_items + collect_mastodon_boosts(since)
 collapsed = collapse_releases(feed_items)
 
-bookmarks = collect_bookmarks_txt(BOOKMARKS_TXT)
-
 git_pkgs = collect_git_pkgs_releases(since)
 dblp = collect_dblp
 
@@ -210,10 +197,9 @@ result = {
   generated: Time.now.utc.iso8601,
   feed_item_count: feed_items.size,
   feeds: collapsed,
-  bookmarks: bookmarks,
   git_pkgs: git_pkgs,
   dblp: dblp
 }
 
 File.write(OUTPUT, JSON.pretty_generate(result))
-warn "Wrote #{collapsed.size} feed items (#{feed_items.size} raw), #{bookmarks.size} bookmarks, #{git_pkgs.size} git-pkgs releases, #{dblp.count { |d| d[:new] }}/#{dblp.size} new DBLP papers to #{OUTPUT}"
+warn "Wrote #{collapsed.size} feed items (#{feed_items.size} raw), #{git_pkgs.size} git-pkgs releases, #{dblp.count { |d| d[:new] }}/#{dblp.size} new DBLP papers to #{OUTPUT}"
