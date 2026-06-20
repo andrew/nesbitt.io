@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-20T12:57:10Z",
-  "cutoff": "2026-05-21T12:57:06Z",
+  "generated": "2026-06-20T15:01:24Z",
+  "cutoff": "2026-05-21T15:01:19Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.233.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.4",
+      "published": "2026-06-20T14:44:38Z",
+      "preview": "43.233.4 (2026-06-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.62.3 (main) ( #44112 ) ( 8ba083c ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.2 (main) ( #44111 ) ( 70322c7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -338,14 +346,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.231.2",
       "published": "2026-06-18T15:33:01Z",
       "preview": "43.231.2 (2026-06-18) Build System deps: update opentelemetry-js-contrib monorepo (main) ( #44088 ) ( c704115 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.231.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.231.1",
-      "published": "2026-06-18T13:08:18Z",
-      "preview": "43.231.1 (2026-06-18) Build System deps: update opentelemetry-js monorepo (main) ( #44086 ) ( 4a20581 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
