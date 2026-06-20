@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-19T21:44:47Z",
-  "cutoff": "2026-05-20T21:44:43Z",
+  "generated": "2026-06-20T01:24:19Z",
+  "cutoff": "2026-05-21T01:24:16Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.13.0-228.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-228.0.dev",
+      "published": "2026-06-20T00:50:49Z",
+      "preview": "SDK 3.13.0-228.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-227.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-227.0.dev",
+      "published": "2026-06-20T00:50:46Z",
+      "preview": "SDK 3.13.0-227.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-226.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-226.0.dev",
+      "published": "2026-06-20T00:50:43Z",
+      "preview": "SDK 3.13.0-226.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "43.233.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.3",
@@ -362,30 +386,6 @@
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-219.0.dev",
       "published": "2026-06-18T00:55:31Z",
       "preview": "SDK 3.13.0-219.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-218.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-218.0.dev",
-      "published": "2026-06-18T00:55:29Z",
-      "preview": "SDK 3.13.0-218.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-217.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-217.0.dev",
-      "published": "2026-06-18T00:55:26Z",
-      "preview": "SDK 3.13.0-217.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-216.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-216.0.dev",
-      "published": "2026-06-18T00:55:23Z",
-      "preview": "SDK 3.13.0-216.0.dev",
       "source": "Pub releases",
       "category": "Registries"
     },
@@ -1748,14 +1748,6 @@
       "preview": "Breaking Changes Update the minimum required Python version to 3.10. ( #3787 ) Features & Improvements Respect existing values of pyproject.toml when running pdm init or pdm new . ( #3786 ) Move project plugin installations from .pdm-plugins under the project root to an isolated cache directory, and add a fixer to migrate existing plugin directories. ( #3790 ) Remove legacy importlib compatibility wrappers and use standard-library importlib.metadata and importlib.resources APIs directly. ( #3796 ) Bug Fixes Fix a security issue with the installer to disallow installing to paths outside of the ",
       "source": "PDM releases",
       "category": "Python"
-    },
-    {
-      "title": "Introducing the pkg.go.dev API",
-      "url": "https://go.dev/blog/pkgsite-api",
-      "published": "2026-05-21T00:00:00Z",
-      "preview": "Introducing the new programmatic API for pkg.go.dev, allowing developers to fetch package and module data directly.",
-      "source": "Go Blog",
-      "category": "Go"
     }
   ]
 }
