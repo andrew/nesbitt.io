@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-21T08:00:21Z",
-  "cutoff": "2026-05-22T08:00:15Z",
+  "generated": "2026-06-21T09:32:27Z",
+  "cutoff": "2026-05-22T09:32:23Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.7.4",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.4",
+      "published": "2026-06-21T08:01:04Z",
+      "preview": "Patch Changes 0205c78 : fix: run jwt middleware before middleware plugins Register the JWT middleware before middleware plugins are loaded so that req.remote_user (anonymous by default) is available inside a plugin's register_middlewares . The API router keeps its own JWT middleware behind a guard so it is not executed twice. Backport of #5697 Closes #5167",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v6.7.3",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.3",
