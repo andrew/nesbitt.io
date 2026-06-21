@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-20T22:44:15Z",
-  "cutoff": "2026-05-21T22:44:11Z",
+  "generated": "2026-06-21T08:00:21Z",
+  "cutoff": "2026-05-22T08:00:15Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.7.3",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.3",
+      "published": "2026-06-21T06:24:30Z",
+      "preview": "Patch Changes f8fdfc2 : fix: enforce generated npm token metadata Generated npm tokens ( POST /-/npm/v1/tokens ) stored their readonly and cidr_whitelist restrictions but never enforced them, and deleting a token did not revoke it for the package APIs. A token marked read-only or pinned to a CIDR range could still publish packages and change dist-tags, and a deleted token remained usable. Generated tokens now embed a server-issued key (in the JWT claim, or in the encrypted legacy AES payload) and a new enforceGeneratedTokenMetadata middleware looks that key up on each request, rejecting the to",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "43.234.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.234.0",
+      "published": "2026-06-21T06:10:37Z",
+      "preview": "43.234.0 (2026-06-21) Features data: automatic update of static data ( #44121 ) ( c145c01 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v7.0.0-next-7.22",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.22",
@@ -348,14 +364,6 @@
       "preview": "1.55.0 Changelog POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636 docs: clarify swarm join required fields",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "43.231.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.231.2",
-      "published": "2026-06-18T15:33:01Z",
-      "preview": "43.231.2 (2026-06-18) Build System deps: update opentelemetry-js-contrib monorepo (main) ( #44088 ) ( c704115 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 11.8",
