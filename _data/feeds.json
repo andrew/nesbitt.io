@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-21T09:32:27Z",
-  "cutoff": "2026-05-22T09:32:23Z",
+  "generated": "2026-06-21T11:24:29Z",
+  "cutoff": "2026-05-22T11:24:25Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -1739,14 +1739,6 @@
       "published": "2026-05-24T00:00:00Z",
       "preview": "pnpm 11.3 adds support for npm's staged publishing (pnpm stage), the new trustLockfile setting for skipping the supply-chain verification pass on already-trusted lockfiles, and native implementations of pnpm pkg, pnpm repo, and pnpm set-script. It also adds a --skip-manifest-obfuscation flag for pack / publish and cuts the memory footprint of minimumReleaseAge / trustPolicy verification on large workspaces.",
       "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v2.8.0",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.8.0",
-      "published": "2026-05-22T10:51:19Z",
-      "preview": "2.8.0 / 2026.05.22 Read more: http://deno.com/blog/v2.8 feat: accept deno audit fix as alias for deno audit --fix ( #34273 ) feat: add --watch flag to deno check ( #34224 ) feat: add deno bump-version subcommand ( #30562 ) feat: add deno why subcommand ( #32908 ) feat: support workspaces in deno bump-version ( #33689 ) feat(add/install): default to npm registry for unprefixed packages ( #33246 ) feat(compile): add progress bar for deno compile ( #33874 ) feat(compile): support module.registerHooks() in compiled binaries ( #33853 ) feat(core): add Deno.core.loadExtScript() for lazy-loaded scrip",
-      "source": "Deno releases",
       "category": "JavaScript"
     }
   ]
