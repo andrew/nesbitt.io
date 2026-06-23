@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-23T21:51:46Z",
-  "cutoff": "2026-05-24T21:51:42Z",
+  "generated": "2026-06-23T22:45:38Z",
+  "cutoff": "2026-05-24T22:45:29Z",
   "feed_count": 79,
   "item_count": 220,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.241.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.0",
+      "published": "2026-06-23T22:42:54Z",
+      "preview": "43.241.0 (2026-06-23) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.66.1 (main) ( #44198 ) ( 3f01267 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.11.24",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.24",
@@ -210,14 +218,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.235.0",
       "published": "2026-06-22T10:54:14Z",
       "preview": "43.235.0 (2026-06-22) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.63.0 (main) ( #44157 ) ( 5ad54b5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.234.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.234.2",
-      "published": "2026-06-22T09:59:11Z",
-      "preview": "43.234.2 (2026-06-22) Miscellaneous Chores deps: update vitest monorepo to v4.1.9 (main) ( #44146 ) ( 814dc3f ) Code Refactoring add more options to template support ( #43822 ) ( cd2ae5d ) Build System deps: update yarn monorepo to v4.9.0 (main) ( #44156 ) ( 0dd7dbd )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
