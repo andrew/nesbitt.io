@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-23T15:23:56Z",
-  "cutoff": "2026-05-24T15:23:52Z",
+  "generated": "2026-06-23T17:06:49Z",
+  "cutoff": "2026-05-24T17:06:45Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 11.9",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.9.0",
+      "published": "2026-06-23T15:55:03Z",
+      "preview": "Minor Changes bae694f : Some registries generate tarballs on-demand and cannot provide an integrity checksum in their package metadata. In that case pnpm now computes the integrity from the downloaded tarball and stores it in the lockfile, so the entry is verifiable on subsequent installs instead of being written without an integrity (which would fail the next install). This also applies to --lockfile-only : the tarball is downloaded so its integrity can be computed. A lockfile entry that is still missing its integrity is rejected as a ERR_PNPM_MISSING_TARBALL_INTEGRITY lockfile verification v",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "43.239.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.239.0",
@@ -1572,14 +1580,6 @@
       "preview": "What's Changed Fixed a denial-of-service vulnerability (CWE-696/CWE-400) where unauthenticated callers could exhaust server resources via the package upload endpoint by moving API key validation before expensive file I/O and package processing. Full Changelog : 3.4.2...3.4.3",
       "source": "NuGet.Server releases",
       "category": ".NET"
-    },
-    {
-      "title": "pnpm 11.5",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.0",
-      "published": "2026-05-29T15:51:39Z",
-      "preview": "Minor Changes Added a new hoistingLimits setting for nodeLinker: hoisted installs, mirroring yarn's nmHoistingLimits . It accepts none (the default — hoist as far as possible), workspaces (hoist only as far as each workspace package), or dependencies (hoist only up to each workspace package's direct dependencies). Originally proposed in #6468 , closing #6457 . Replaced enquirer with @inquirer/prompts for all interactive prompts. Fixes the update -i scrolling overflow bug where long choice lists were clipped in the terminal #6643 . User-facing changes: pnpm update -i / pnpm update -i --latest :",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 11.5",
