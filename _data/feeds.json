@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-23T21:00:05Z",
-  "cutoff": "2026-05-24T21:00:00Z",
+  "generated": "2026-06-23T21:51:46Z",
+  "cutoff": "2026-05-24T21:51:42Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,10 +22,18 @@
   ],
   "items": [
     {
-      "title": "v2026.6.13",
+      "title": "0.11.24",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.24",
+      "published": "2026-06-23T21:16:31Z",
+      "preview": "Release Notes Released on 2026-06-23. Python Add CPython 3.15.0b3 ( #19964 ) Preview features Make project environments relocatable under preview ( #19965 ) Performance Use a compact index for lazy version maps ( #19959 ) Bug fixes Allow disabling exclude-newer ( #19934 ) Avoid archive id collisions ( #19949 ) Reapply \"Fix transparent Python upgrades in project environments\" ( #19928 ) Clean up partial tool entrypoint installs ( #19966 ) Fix relocatable activate.fish and broaden Fish version support ( #19856 ) Install uv 0.11.24 Install prebuilt binaries via shell script curl --proto ' =https ",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "v2026.6.13: Lock resolution discipline and aqua attestation fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.6.13",
-      "published": "2026-06-23T20:32:44Z",
-      "preview": "(bootstrap) support brew cask pkg artifacts by @jdx in [ #10587 ]…",
+      "published": "2026-06-23T21:08:17Z",
+      "preview": "Added bootstrap: Support brew cask pkg artifacts, installing via sudo installer and tracking pkgutil receipt IDs for status checks ( #10587 by @jdx ). registry: Added lore ( #10558 by @ggoggam ) and published-checksum resolution for dart , neo4j , nomad-pack , sentinel , tfc-agent , oc , openshift-install , claude , flutter , and julia ( #10552 by @itochan ). Fixed lock: mise lock now errors out when an active tool request cannot be resolved instead of silently skipping it and updating the lockfile ( #10586 by @jdx ). aqua: Verified checksum files can now upgrade an existing recorded checksum ",
       "source": "mise releases",
       "category": "Multi-language"
     },
