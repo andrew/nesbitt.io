@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-23T22:45:38Z",
-  "cutoff": "2026-05-24T22:45:29Z",
+  "generated": "2026-06-23T23:39:12Z",
+  "cutoff": "2026-05-24T23:39:09Z",
   "feed_count": 79,
-  "item_count": 220,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "bundler-v4.0.15",
+      "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.15",
+      "published": "2026-06-23T23:36:05Z",
+      "preview": "Enhancements: Resolve Git LFS files in git sources from the real remote. Pull request #9632 by hsbt Suggest access issues, not only yanking, for missing locked gems. Pull request #9631 by hsbt Implement a make jobserver (continuation of #9210 ). Pull request #9625 by hsbt Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Bump up to rb-sys 0.9.128. Pull request #9569 by hsbt Bug fixes: Skip the make jobserver on Windows. Pull request #9630 by hsbt Don't require source plugins to be installed to parse a lockfile: 4.0.x. Pull request #9621 by hsbt Exemp",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.15",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.15",
+      "published": "2026-06-23T23:32:27Z",
+      "preview": "Enhancements: Rubygems: Fix Gem::Request for PQC support, adding integration connection tests. Pull request #9615 by junaruga Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Installs bundler 4.0.15 as a default gem. Bug fixes: Forward security policy to old-format gems. Pull request #9611 by hsbt",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
     {
       "title": "43.241.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.0",
