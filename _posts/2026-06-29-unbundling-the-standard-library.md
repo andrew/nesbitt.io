@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unbundling the standard library"
-date: 2026-06-22 10:00 +0000
+date: 2026-06-29 10:00 +0000
 description: "Batteries no longer included, available separately on aisle four"
 tags:
   - package-managers
