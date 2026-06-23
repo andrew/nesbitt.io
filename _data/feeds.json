@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-21T11:24:29Z",
-  "cutoff": "2026-05-22T11:24:25Z",
+  "generated": "2026-06-23T15:23:56Z",
+  "cutoff": "2026-05-24T15:23:52Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,270 @@
   ],
   "items": [
     {
+      "title": "43.239.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.239.0",
+      "published": "2026-06-23T15:08:52Z",
+      "preview": "43.239.0 (2026-06-23) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.65.0 (main) ( #44192 ) ( 2d3424d ) Bug Fixes platform/azure: avoid corrupting HTML entities and URL anchors in massageMarkdown ( #44131 ) ( fed1eb1 ), closes #42758 #8203 preserve version in PR title for Maven property updates ( #44176 ) ( 936dece )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.238.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.238.0",
+      "published": "2026-06-23T14:35:59Z",
+      "preview": "43.238.0 (2026-06-23) Features datasource/dart: Added support for constraints extraction ( #44191 ) ( cce3e86 ) Miscellaneous Chores manager/mix: extract hardcoded Erlang version for updates ( #44180 ) ( 677470b ), closes #44149 #26768 Continuous Integration require build-docs as part of test-success ( #44186 ) ( 9fdec11 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "7.9.0.49",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.49",
+      "published": "2026-06-23T12:25:35Z",
+      "preview": "Insert 7.9.0.49 into main on 06/23/2026 12:25:34",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "43.237.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.237.1",
+      "published": "2026-06-23T12:18:18Z",
+      "preview": "43.237.1 (2026-06-23) Bug Fixes datasource/npm: export schema types ( #44181 ) ( ccf25fd )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.237.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.237.0",
+      "published": "2026-06-23T09:36:09Z",
+      "preview": "43.237.0 (2026-06-23) Features config: set groupSingleUpdates=false by default ( #44168 ) ( 9d0ddbd )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v29.6.0",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.0",
+      "published": "2026-06-23T08:08:09Z",
+      "preview": "29.6.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.0 milestone moby/moby, 29.6.0 milestone New POST /containers/{id}/update now supports per-device blkio resource settings. moby/moby#52651 Add GET /images/{name}/attestations endpoint to retrieve in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image. Supports optional platform selection, predicate type filtering, and a statement query parameter for verbatim statement bodies. Bug fixes and enhancements docker image push now respects ",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "43.236.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.236.0",
+      "published": "2026-06-23T03:45:51Z",
+      "preview": "43.236.0 (2026-06-23) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.64.0 (main) ( #44177 ) ( a0df771 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2.28.0",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.28.0",
+      "published": "2026-06-23T01:55:42Z",
+      "preview": "Features & Improvements Add experimental workspace support for managing local member projects in a shared root lock file. ( #1505 ) Defer startup-time imports for Python, virtualenv, and self-management commands. ( #3673 ) Bug Fixes Fix pdm completion bash printing __ltrim_colon_completions: command not found (and a similar error for _get_comp_words_by_ref ) when the generated script is sourced in a bash without the bash-completion package loaded, such as Git Bash on Windows or minimal Linux containers. The script now defines small fallbacks for both helpers when they are not already available",
+      "source": "PDM releases",
+      "category": "Python"
+    },
+    {
+      "title": "SDK-3.13.0-233.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-233.0.dev",
+      "published": "2026-06-23T00:48:36Z",
+      "preview": "SDK 3.13.0-233.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-232.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-232.0.dev",
+      "published": "2026-06-23T00:48:33Z",
+      "preview": "SDK 3.13.0-232.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-231.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-231.0.dev",
+      "published": "2026-06-23T00:48:31Z",
+      "preview": "SDK 3.13.0-231.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-230.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-230.0.dev",
+      "published": "2026-06-23T00:48:29Z",
+      "preview": "SDK 3.13.0-230.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-229.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-229.0.dev",
+      "published": "2026-06-23T00:48:26Z",
+      "preview": "SDK 3.13.0-229.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.235.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.235.2",
+      "published": "2026-06-22T22:50:14Z",
+      "preview": "43.235.2 (2026-06-22) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.63.2 (main) ( #44172 ) ( f9b1af7 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.0 (main) ( #44167 ) ( c66b935 ) disable automatic venv activation in VS Code terminal ( #44165 ) ( d2ae23d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-06-22T15:26:56Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.235.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.235.1",
+      "published": "2026-06-22T15:21:01Z",
+      "preview": "43.235.1 (2026-06-22) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.63.1 (main) ( #44164 ) ( 0d87a48 ) Miscellaneous Chores deps: update linters (main) ( #44162 ) ( 534eb43 ) util/exec: log the environment variable names when exerting a command ( #44159 ) ( 860293b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "6.0.3",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.3",
+      "published": "2026-06-22T14:25:07Z",
+      "preview": "What's Changed docs: drop advice to disable security or lower support tier by @MikeMcQuaid in #22749 release: exclude Dependabot PRs from changelog by @ZhongRuoyu in #22750 Document more supply-chain guardrails by @MikeMcQuaid in #22752 Allow tap trust in build sandbox by @MikeMcQuaid in #22751 Don't warn for partially trusted skipped taps by @MikeMcQuaid in #22755 services: check --sudo-service-user exists by @sexagesimal in #22763 Follow symlinked trust stores by @MikeMcQuaid in #22762 Annotate upgradable dependencies in install plans by @HaraldNordgren in #22761 livecheck: add compressed op",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "43.235.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.235.0",
+      "published": "2026-06-22T10:54:14Z",
+      "preview": "43.235.0 (2026-06-22) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.63.0 (main) ( #44157 ) ( 5ad54b5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.234.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.234.2",
+      "published": "2026-06-22T09:59:11Z",
+      "preview": "43.234.2 (2026-06-22) Miscellaneous Chores deps: update vitest monorepo to v4.1.9 (main) ( #44146 ) ( 814dc3f ) Code Refactoring add more options to template support ( #43822 ) ( cd2ae5d ) Build System deps: update yarn monorepo to v4.9.0 (main) ( #44156 ) ( 0dd7dbd )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pixi-build-cmake-v0.4.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.2",
+      "published": "2026-06-22T09:53:13Z",
+      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-mojo-v0.2.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.2",
+      "published": "2026-06-22T09:53:13Z",
+      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-python-v0.7.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.7.0",
+      "published": "2026-06-22T09:53:13Z",
+      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-r-v0.1.3",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-r-v0.1.3",
+      "published": "2026-06-22T09:53:13Z",
+      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rattler-build-v0.4.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.4.2",
+      "published": "2026-06-22T09:53:13Z",
+      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-ros-v0.6.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.6.2",
+      "published": "2026-06-22T09:53:13Z",
+      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rust-v0.5.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rust-v0.5.2",
+      "published": "2026-06-22T09:53:13Z",
+      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "43.234.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.234.1",
+      "published": "2026-06-22T07:36:09Z",
+      "preview": "43.234.1 (2026-06-22) Bug Fixes workers/repository: use GlobalConfig for productLinks ( #44126 ) ( f3492fe ), closes #44098 #44098 Documentation update references to python to 4d7dd74 (main) ( #44136 ) ( b60b405 ) update references to renovate/renovate (main) ( #44137 ) ( 05e976f ) update references to renovatebot/github-action to v46.1.16 (main) ( #44139 ) ( 41db496 ) Miscellaneous Chores deps: lock file maintenance (main) ( #44140 ) ( 2b5770c ) deps: update zizmor (main) ( #44134 ) ( b63825f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.6.12: Bootstrap skip, cross-platform lock checksums, DNF5 fix",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.12",
+      "published": "2026-06-22T01:14:49Z",
+      "preview": "Added bootstrap: mise bootstrap --skip <part> for selective phases ( packages , dotfiles , defaults , launchd , systemd , user , tools , task , final-hook ); repeatable and comma-separated ( #10497 by @jdx ). http: Cross-platform lock checksums resolved from published metadata via checksum_url , checksum_expr , and checksum_algo ( #10509 by @itochan ). aqua: Parse and verify checksum.replacements , checksum.minisign , and checksum.github_artifact_attestations ( #10473 by @risu729 ). registry: Added aspire ( #10520 by @davidfowl ), ldc ( #10527 by @slbls ), and nub ( #10544 by @colinhacks ). Fi",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.6.6",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.6",
+      "published": "2026-06-22T00:36:27Z",
+      "preview": "Release aqua-registry 2026.6.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.6.13",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.13",
+      "published": "2026-06-22T00:36:05Z",
+      "preview": "Release vfox 2026.6.13",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "1.12.13",
+      "url": "https://github.com/sbt/sbt/releases/tag/v1.12.13",
+      "published": "2026-06-21T22:42:29Z",
+      "preview": "🐛 bug fixes fix: Fixes file permissions by @eed3si9n + @xuwei-k in sbt/io#527 / #9350 fix: Fixes ArrayIndexOutOfBoundsException error when Unix domain socket is closed by @merlinorg in sbt/ipcsocket#77 Full Changelog : v1.12.12...v1.12.13",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "v1.2.0 (2026-06-21)",
+      "url": "https://github.com/spack/spack/releases/tag/v1.2.0",
+      "published": "2026-06-21T22:42:02Z",
+      "preview": "v1.2.0 is a major feature release. The main changes you'll notice are the new, parallel installer and the many performance improvements we've added. There are also usability features like concretization groups , and security features like experimental build sandboxing and SBOM generation . Major new features New installer Spack v1.2.0 defaults to the new installer, which is a completely rewritten package installer designed for better performance and improved user experience. This was an experimental feature in v1.1.0 . The new installer takes advantage of much more build parallelism by schedul",
+      "source": "Spack releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "latest: Set version to 1.2.0",
+      "url": "https://github.com/spack/spack/releases/tag/latest",
+      "published": "2026-06-21T22:33:05Z",
+      "preview": "Signed-off-by: Harmen Stoppels me@harmenstoppels.nl",
+      "source": "Spack releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "v6.7.4",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.4",
       "published": "2026-06-21T08:01:04Z",
@@ -38,14 +302,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "43.234.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.234.0",
-      "published": "2026-06-21T06:10:37Z",
-      "preview": "43.234.0 (2026-06-21) Features data: automatic update of static data ( #44121 ) ( c145c01 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v7.0.0-next-7.22",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.22",
       "published": "2026-06-20T17:56:52Z",
@@ -60,22 +316,6 @@
       "preview": "Helm v3.21.2 is a patch release to correct bump the Kubernetes client libraries (client-go, etc) to match the expected Kubernetes v1.36 release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Update Kubernetes client libraries to v1.36 Installation and Upgrading Download H",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "43.233.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.4",
-      "published": "2026-06-20T14:44:38Z",
-      "preview": "43.233.4 (2026-06-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.62.3 (main) ( #44112 ) ( 8ba083c ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.2 (main) ( #44111 ) ( 70322c7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-20T12:51:35Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "SDK-3.13.0-228.0.dev",
@@ -102,36 +342,12 @@
       "category": "Registries"
     },
     {
-      "title": "43.233.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.3",
-      "published": "2026-06-19T20:49:52Z",
-      "preview": "43.233.3 (2026-06-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.62.2 (main) ( #44109 ) ( 83a863f ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.6.7 (main) ( #44106 ) ( b08b3c5 ) deps: update dependency astral-sh/uv to v0.11.23 (main) ( #44107 ) ( 10f5d61 ) deps: update dependency uv to v0.11.23 (main) ( #44108 ) ( 7c38c00 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "0.11.23",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.23",
       "published": "2026-06-19T18:42:52Z",
       "preview": "Release Notes Released on 2026-06-19. Bug fixes Revert \"Fix transparent Python upgrades in project environments\" to mitigate unintended breakage in pre-commit-uv ( #19925 ) Restore old behavior where workspace members \"hidden\" by an intermediate pyproject.toml would be treated as standalone projects ( #19926 ) Install uv 0.11.23 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.23/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://re",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "43.233.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.2",
-      "published": "2026-06-19T18:12:39Z",
-      "preview": "43.233.2 (2026-06-19) Bug Fixes containerbase: support constraints.rust=nightly ( #43543 ) ( b8c4eb2 ), closes #43489",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.233.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.1",
-      "published": "2026-06-19T16:16:57Z",
-      "preview": "43.233.1 (2026-06-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.62.1 (main) ( #44104 ) ( 05874ee ) Documentation restructure postUpdateOptions table into headers ( #44089 ) ( 67c9e08 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.1 (main) ( #44103 ) ( fb2f117 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "libnpmversion: v9.0.0-pre.1",
@@ -214,14 +430,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "43.233.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.233.0",
-      "published": "2026-06-19T15:22:38Z",
-      "preview": "43.233.0 (2026-06-19) Features monorepo: Add arrow-rs repository ( #44005 ) ( 4758128 ) Bug Fixes not applying global options in object entries in repositories array ( #43295 ) ( 523bf29 ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.0 (main) ( #44101 ) ( 45866be ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.0 (main) ( #44044 ) ( 6a8fb40 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "7.9.0.37",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.37",
       "published": "2026-06-19T12:42:31Z",
@@ -230,28 +438,12 @@
       "category": ".NET"
     },
     {
-      "title": "43.232.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.232.1",
-      "published": "2026-06-19T10:58:18Z",
-      "preview": "43.232.1 (2026-06-19) Bug Fixes manager/flux: extract both commit and branch for GitRepository ( #43560 ) ( a8b8643 ) omit version from pr title if group has a single update ( #43970 ) ( ae13ef0 ) Code Refactoring use GlobalConfig for productLinks ( #44098 ) ( 89be048 ) Continuous Integration use mnt for docker for older gh runners ( #44091 ) ( b394c7c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "New release 2.76",
       "url": "https://github.com/canonical/snapd/releases/tag/2.76",
       "published": "2026-06-19T10:30:06Z",
       "preview": "assertions: add helper for validating integrity data assertions: drop incorrect/non-standard Ed25519 support confdb: allow only API admin read access to confdb secrets confdb: block concurrent confdb accesses confdb: block concurrent snapctl accesses to configuration database confdb: check for ephemeral data when missing save-view hook on commit confdb: ignore not-found errors in confdb-schema refreshes confdb: support --wait-for timeouts when accessing confdb core-initrd: add group referenced in udev rules core-initrd: add libbpf dependency to initramfs core-initrd: add missing libbpf depende",
       "source": "Snapd releases",
       "category": "System"
-    },
-    {
-      "title": "43.232.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.232.0",
-      "published": "2026-06-19T01:54:42Z",
-      "preview": "43.232.0 (2026-06-19) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.62.0 (main) ( #44096 ) ( 3c4d1c6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.13.0-225.0.dev",
@@ -268,38 +460,6 @@
       "preview": "SDK 3.13.0-224.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-223.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-223.0.dev",
-      "published": "2026-06-19T00:59:24Z",
-      "preview": "SDK 3.13.0-223.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-222.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-222.0.dev",
-      "published": "2026-06-19T00:59:23Z",
-      "preview": "SDK 3.13.0-222.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-221.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-221.0.dev",
-      "published": "2026-06-19T00:59:21Z",
-      "preview": "SDK 3.13.0-221.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "43.231.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.231.4",
-      "published": "2026-06-19T00:52:58Z",
-      "preview": "43.231.4 (2026-06-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.61.2 (main) ( #44095 ) ( a69f4f9 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.11.22 (main) ( #44093 ) ( 0e491f8 ) deps: update dependency uv to v0.11.22 (main) ( #44094 ) ( 347c63c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "9.6.0",
@@ -324,22 +484,6 @@
       "preview": "Patch Changes 352ae48 : Security: validate config dependency names and versions before using them to build filesystem paths. A pnpm-workspace.yaml with a traversal-shaped configDependencies name (such as ../../PWNED ) or version (such as ../../../PWNED ) could previously cause pnpm install to create symlinks or write package files outside node_modules/.pnpm-config and the store. Names must now be valid npm package names and versions must be exact semver versions. See GHSA-qrv3-253h-g69c . 352ae48 : Reject path-traversal and reserved dependency aliases (such as ../../../escape , .bin , .pnpm , ",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.231.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.231.3",
-      "published": "2026-06-18T22:10:53Z",
-      "preview": "43.231.3 (2026-06-18) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.61.1 (main) ( #44090 ) ( 23a2c3c ) Continuous Integration close-answered: use .cjs for script ( #44087 ) ( 90f20a7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "v29.6.0",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.0",
-      "published": "2026-06-18T20:43:10Z",
-      "preview": "29.6.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.0 milestone moby/moby, 29.6.0 milestone New POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 Add GET /images/{name}/attestations endpoint to retrieve in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image. Supports optional platform selection, predicate type filtering, and a statement query parameter for verbatim statement bodies. Bug fixes and enhancements docker image push now respects",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     },
     {
       "title": "[release-branch.go1.27] go1.27rc1",
@@ -403,22 +547,6 @@
       "published": "2026-06-18T09:28:46Z",
       "preview": "Deployment at 2026-06-18T09:28:26.557517Z.",
       "source": "pub.dev releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-220.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-220.0.dev",
-      "published": "2026-06-18T00:55:34Z",
-      "preview": "SDK 3.13.0-220.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-219.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-219.0.dev",
-      "published": "2026-06-18T00:55:31Z",
-      "preview": "SDK 3.13.0-219.0.dev",
-      "source": "Pub releases",
       "category": "Registries"
     },
     {
@@ -550,30 +678,6 @@
       "category": "System"
     },
     {
-      "title": "pixi-build-cmake-v0.4.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.0",
-      "published": "2026-06-15T11:46:50Z",
-      "preview": "chore: bump backend versions ( #6363 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-mojo-v0.2.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.0",
-      "published": "2026-06-15T11:46:50Z",
-      "preview": "chore: bump backend versions ( #6363 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-python-v0.6.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.6.0",
-      "published": "2026-06-15T11:46:50Z",
-      "preview": "chore: bump backend versions ( #6363 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "pixi-build-rattler-build-v0.4.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.4.0",
       "published": "2026-06-15T11:46:50Z",
@@ -686,14 +790,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "v2026.6.10: Env defaults, Unix 7z, and stale-PATH fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.10",
-      "published": "2026-06-14T23:41:17Z",
-      "preview": "A focused release that adds a default shorthand for env vars, brings .7z archive support to Unix, and cleans up several long-standing PATH and shim edge cases on Linux, macOS, Windows, and WSL. Added env: New { default = \"fallback\" } shorthand for [env] (and config/task [vars] ). The default applies only when the variable is unset or empty; existing non-empty values from the process env or earlier config are preserved. Mixing default with value , required , or age now fails with a clear message ( #10441 by @jdx ). [ env ] EDITOR = { default = \" vim \" } # only used if $EDITOR is unset/empty POR",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "2.0.0",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0",
       "published": "2026-06-14T23:30:22Z",
@@ -718,14 +814,6 @@
       "category": "Go"
     },
     {
-      "title": "v2026.6.9: Release plumbing cleanup",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.9",
-      "published": "2026-06-14T11:16:01Z",
-      "preview": "A maintenance-only release. There are no user-facing changes — just a revert of the release workflow plumbing introduced last cycle, plus routine aqua registry updates. Changed ci: Reverted the idempotent GitHub release asset helper added in the previous cycle. The release workflow now goes back to creating the draft release and uploading every artifact in a single gh release create --draft call, which avoids the tag-lookup failure that broke the v2026.6.8 publish run (GitHub returns an untagged-* URL for freshly created drafts) ( #10433 by @jdx ). Full Changelog : v2026.6.8...v2026.6.9 💚 Spon",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.6.10",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.10",
       "published": "2026-06-14T10:37:51Z",
@@ -748,14 +836,6 @@
       "preview": "bug fixes fix: Fixes console that references Java module classes on JDK 9+ by @BrianHotopp in #9327 fix: Fixes sbt --version to now show JDK warnings on JDK 25 by @bitloi in #8822 fix: Fixes stdout/stderr not displaying on sbtn by @BrianHotopp in #9265 fix: Ensure resources are copied atomically by @anatoliykmetyuk in #9196 behind the scenes Update sbtn to 2.0.0-f0d2fae4 by @eed3si9n in #9334 test: Make custom-scala-org scripted test hermetic by @BrianHotopp in #9260 ci: Skip 2.13 modules from graph submission by @eed3si9n in #9328 Full Changelog : v1.12.11...v1.12.12",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "vfox-v2026.6.8",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.8",
-      "published": "2026-06-14T03:29:20Z",
-      "preview": "Release vfox 2026.6.8",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "7.9.0.30",
@@ -1094,14 +1174,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "0.70.2 - 2026-06-08",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.70.2",
-      "published": "2026-06-08T14:14:44Z",
-      "preview": "Release Notes Added Improve PyPI > Conda clobber detection by @tdejager in #6292 Changed Avoid pixi lock panics on unmappable ROS dependencies by @baszalmstra in #6290 Fixed Compare pypi git urls using the raw url, not uv's canonical one by @baszalmstra in #6272 Keep conda-env build discriminator out of PEP 517 config_settings by @baszalmstra in #6273 Accept find-links URLs during lock file satisfiability by @baszalmstra in #6270 Download pixi 0.70.2 File Platform Checksum pixi-aarch64-apple-darwin.tar.gz Apple Silicon macOS checksum pixi-x86_64-apple-darwin.tar.gz Intel macOS checksum pixi-aa",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "1.18.0",
       "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.0",
       "published": "2026-06-08T12:45:42Z",
@@ -1130,14 +1202,6 @@
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.17",
       "published": "2026-06-06T12:26:42Z",
       "preview": "Insert 7.9.0.17 into main on 06/06/2026 12:26:41",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
-      "title": "7.8.0.59",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.8.0.59",
-      "published": "2026-06-05T22:28:21Z",
-      "preview": "Insert 7.8.0.59 into rel/insiders on 06/05/2026 22:28:21",
       "source": "NuGet Client releases",
       "category": ".NET"
     },
@@ -1246,14 +1310,6 @@
       "category": "Containers"
     },
     {
-      "title": "0.70.1 - 2026-06-03",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.70.1",
-      "published": "2026-06-03T13:43:42Z",
-      "preview": "Release Notes ✨ Highlights This release lays the foundation for repodata v3 support and adds a couple of important fixes: parallel pixi install now works reliably issues that came up with parallelized pixi global have been fixed Added Add --index option to specify PyPI index URL by @suleman1412 in #5575 Implement extras and flags support for pixi and pixi-build by @wolfv in #5998 Serialize concurrent environment installs and recover from interrupted ones by @baszalmstra in #6233 Changed Reinstall to avoid duplicate dist-info by @baszalmstra in #6257 Documentation Link to parselmouth mapping br",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v2.8.2",
       "url": "https://github.com/denoland/deno/releases/tag/v2.8.2",
       "published": "2026-06-03T13:41:42Z",
@@ -1332,22 +1388,6 @@
       "preview": "This is the next post in our supply chain security series, following the supply chain security update , the Composer 2.10 release , and the recent post on closing Composer&apos;s download fallback paths . Composer 2.10&apos;s dependency policy framework is a substantial step forward for PHP supply",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "pixi-build-ros-v0.5.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.5.0",
-      "published": "2026-06-02T08:44:26Z",
-      "preview": "chore: bump backend versions ( #6254 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-rust-v0.4.11",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rust-v0.4.11",
-      "published": "2026-06-02T08:44:26Z",
-      "preview": "chore: bump backend versions ( #6254 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pnpm 11.5.1",
@@ -1732,14 +1772,6 @@
       "preview": "The Rust Security Response Team was notified that Cargo incorrectly handled symlinks inside of crate tarballs downloaded from third-party registries, allowing a malicious crate to override the source code of another crate from the same registry. This vulnerability is tracked as CVE-2026-5223. The severity of the vulnerability is medium for users of third-party registries. Users of crates.io are not affected , as crates.io forbids uploading crates containing any symlink. Overview When building a crate, Cargo extracts its source code in a local cache (stored within ~/.cargo ), reusing it for any",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "pnpm 11.3",
-      "url": "https://pnpm.io/blog/releases/11.3",
-      "published": "2026-05-24T00:00:00Z",
-      "preview": "pnpm 11.3 adds support for npm's staged publishing (pnpm stage), the new trustLockfile setting for skipping the supply-chain verification pass on already-trusted lockfiles, and native implementations of pnpm pkg, pnpm repo, and pnpm set-script. It also adds a --skip-manifest-obfuscation flag for pack / publish and cuts the memory footprint of minimumReleaseAge / trustPolicy verification on large workspaces.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
