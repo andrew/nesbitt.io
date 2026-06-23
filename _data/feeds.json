@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-23T17:06:49Z",
-  "cutoff": "2026-05-24T17:06:45Z",
+  "generated": "2026-06-23T19:02:23Z",
+  "cutoff": "2026-05-24T19:02:18Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.240.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.240.0",
+      "published": "2026-06-23T18:52:15Z",
+      "preview": "43.240.0 (2026-06-23) Features manager/pub: extract constraints ( #44171 ) ( 4ad5bc1 ) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.6.4 (main) ( #44196 ) ( 10d7710 ) deps: update dependency tsdown to v0.22.3 (main) ( #44197 ) ( 50464b8 ) Build System deps: update dependency protobufjs to v8.6.4 (main) ( #44194 ) ( 2b18d7f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 11.9",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.9.0",
@@ -236,14 +244,6 @@
       "preview": "chore: make backend release-script also work with ssh ( #6414 )",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.234.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.234.1",
-      "published": "2026-06-22T07:36:09Z",
-      "preview": "43.234.1 (2026-06-22) Bug Fixes workers/repository: use GlobalConfig for productLinks ( #44126 ) ( f3492fe ), closes #44098 #44098 Documentation update references to python to 4d7dd74 (main) ( #44136 ) ( b60b405 ) update references to renovate/renovate (main) ( #44137 ) ( 05e976f ) update references to renovatebot/github-action to v46.1.16 (main) ( #44139 ) ( 41db496 ) Miscellaneous Chores deps: lock file maintenance (main) ( #44140 ) ( 2b5770c ) deps: update zizmor (main) ( #44134 ) ( b63825f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.6.12: Bootstrap skip, cross-platform lock checksums, DNF5 fix",
