@@ -7,6 +7,7 @@ tags:
   - package-managers
   - registries
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3moxoklaq3p2t"
 ---
 
 On December 2nd 2026, CocoaPods trunk [goes read-only](https://blog.cocoapods.org/CocoaPods-Specs-Repo/). Orta Therox set the plan out in 2024: the server stops accepting new pods and new versions, while the [more than 100,000](https://packages.ecosyste.ms/registries/cocoapods.org) libraries already published keep resolving through the Specs repo on GitHub and the CDN on jsDelivr, so every existing Podfile resolves exactly as it did the day before. The maintainers had run out of people, Apple's Swift Package Manager had become the first-class tool, and a [2024 round of critical vulnerabilities](https://www.evasec.io/blog/eva-discovered-supply-chain-vulnerabities-in-cocoapods) had turned running the trunk server into a liability.
