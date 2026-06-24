@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-24T13:07:35Z",
-  "cutoff": "2026-05-25T13:07:30Z",
+  "generated": "2026-06-24T14:02:40Z",
+  "cutoff": "2026-05-25T14:02:34Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.71.0 - 2026-06-24",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.71.0",
+      "published": "2026-06-24T13:14:50Z",
+      "preview": "Release Notes ✨ Highlights This release adds a lot of exciting features. ⚠️ Breaking: Configurable Conda to PyPI name mappings Pixi now gives you more control over how conda packages are matched to PyPI packages. Previously you could already have an external map, in a file that overwrote the mappings we generate with parselmouth There were a couple of problems though: It was alwys a full overwrite, We write a single-file compressed mapping, but it was not usable directly in Pixi and needed to be modified. Especially 2, limited people on corporate networks to host their own mappings. We've now ",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "7.9.0.51",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.51",
@@ -756,14 +764,6 @@
       "preview": "What's Changed rubocops/lines: add JavaVersions cop by @cho-m in #22681 os/mac/hardware/cpu: fallback to generic CPU detection if sysctl fails by @Bo98 in #22682 Handle pinned dependency failures in upgrade previews by @rexmhall09 in #22683 codex/hooks: return JSON. by @MikeMcQuaid in #22686 build(deps): bump the github-actions group across 1 directory with 2 updates by @dependabot [bot] in #22689 build(deps): bump the bundler group across 2 directories with 11 updates by @dependabot [bot] in #22688 sandbox: deny all of $HOME except Homebrew dirs by @MikeMcQuaid in #22660 Trust custom remote i",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "pixi-build-rattler-build-v0.4.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.4.0",
-      "published": "2026-06-15T11:46:50Z",
-      "preview": "chore: bump backend versions ( #6363 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-ros-v0.6.0",
@@ -1764,14 +1764,6 @@
       "preview": "Bug fixes Fix channel notices display failing with ImportError when a decorated command replaces base python while conda is still running on the previous interpreter. Pre-import conda.notices.views before the command so post-command display does not load modules from rewritten site-packages . ( #16126 via #16142 ) Fix crash in UnavailableInvalidChannel and CondaHTTPError when simplejson is installed and a non-JSON HTTP error response is received. ( #16136 ) Contributors @jezdez @kenodegard Full Changelog : 26.5.0...26.5.1",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v6.7.2",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.2",
-      "published": "2026-05-25T13:24:43Z",
-      "preview": "Patch Changes a89aca1 : chore: fix unit test a28cf71 : chore: add missing types #5889 by @mbtools",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     }
   ]
 }
