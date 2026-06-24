@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-24T02:07:47Z",
-  "cutoff": "2026-05-25T02:07:43Z",
+  "generated": "2026-06-24T03:30:24Z",
+  "cutoff": "2026-05-25T03:30:20Z",
   "feed_count": 79,
-  "item_count": 221,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.383.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.383.0",
+      "published": "2026-06-24T02:35:11Z",
+      "preview": "What's Changed Bump bundled npm from 11.8.0 to 11.17.0 by @kbukum1 in #15335 Fix composer specs failure due to block-insecure feature by @AbhishekBhaskar in #15334 Add blocked_versions.ignored metric for Security-blocked update checks by @kbukum1 in #15333 Preserve original bundler checksum on Bundler 4.0.11+ lockfile updates by @lucasmazza in #15249 Generate .npmrc from scope property when lockfile inference fails by @AbhishekBhaskar in #15264 Revert disabling block insecure flag in composer by @AbhishekBhaskar in #15339 Fix no method error during fetching credentials properties by @AbhishekB",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.241.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.5",
