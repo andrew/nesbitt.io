@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-23T23:39:12Z",
-  "cutoff": "2026-05-24T23:39:09Z",
+  "generated": "2026-06-24T01:15:57Z",
+  "cutoff": "2026-05-25T01:15:52Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,9 +22,81 @@
   ],
   "items": [
     {
+      "title": "43.241.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.3",
+      "published": "2026-06-24T00:45:34Z",
+      "preview": "43.241.3 (2026-06-24) Build System deps: update dependency re2 to v1.25.0 (main) ( #44204 ) ( 6c34319 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "SDK-3.13.0-238.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-238.0.dev",
+      "published": "2026-06-24T00:44:57Z",
+      "preview": "SDK 3.13.0-238.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-237.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-237.0.dev",
+      "published": "2026-06-24T00:44:53Z",
+      "preview": "SDK 3.13.0-237.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-236.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-236.0.dev",
+      "published": "2026-06-24T00:44:51Z",
+      "preview": "SDK 3.13.0-236.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-235.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-235.0.dev",
+      "published": "2026-06-24T00:44:48Z",
+      "preview": "SDK 3.13.0-235.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-234.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-234.0.dev",
+      "published": "2026-06-24T00:44:45Z",
+      "preview": "SDK 3.13.0-234.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.241.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.2",
+      "published": "2026-06-24T00:00:39Z",
+      "preview": "43.241.2 (2026-06-23) Build System deps: update node.js to v24.18.0 (main) ( #44203 ) ( 0998723 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "4.0.15 Released",
+      "url": "https://blog.rubygems.org/2026/06/24/4.0.15-released.html",
+      "published": "2026-06-24T00:00:00Z",
+      "preview": "RubyGems 4.0.15 includes enhancements and bug fixes and Bundler 4.0.15 includes enhancements and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.15 RubyGems Release Notes Enhancements: Rubygems: Fix Gem::Request for PQC support, adding integration connection tests. Pull request #9615 by junaruga Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Installs bundler 4.0.15 as a default gem. Bug fixes: Forward security p",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
+    },
+    {
+      "title": "43.241.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.1",
+      "published": "2026-06-23T23:45:54Z",
+      "preview": "43.241.1 (2026-06-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.66.1 (main) ( #44202 ) ( 604b83d ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.11.24 (main) ( #44200 ) ( d4e543a ) deps: update dependency uv to v0.11.24 (main) ( #44201 ) ( b594945 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "bundler-v4.0.15",
       "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.15",
-      "published": "2026-06-23T23:36:05Z",
+      "published": "2026-06-23T23:41:00Z",
       "preview": "Enhancements: Resolve Git LFS files in git sources from the real remote. Pull request #9632 by hsbt Suggest access issues, not only yanking, for missing locked gems. Pull request #9631 by hsbt Implement a make jobserver (continuation of #9210 ). Pull request #9625 by hsbt Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Bump up to rb-sys 0.9.128. Pull request #9569 by hsbt Bug fixes: Skip the make jobserver on Windows. Pull request #9630 by hsbt Don't require source plugins to be installed to parse a lockfile: 4.0.x. Pull request #9621 by hsbt Exemp",
       "source": "RubyGems releases",
       "category": "Ruby"
@@ -198,14 +270,6 @@
       "category": "Registries"
     },
     {
-      "title": "43.235.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.235.2",
-      "published": "2026-06-22T22:50:14Z",
-      "preview": "43.235.2 (2026-06-22) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.63.2 (main) ( #44172 ) ( f9b1af7 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.0 (main) ( #44167 ) ( c66b935 ) disable automatic venv activation in VS Code terminal ( #44165 ) ( d2ae23d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
       "published": "2026-06-22T15:26:56Z",
@@ -214,28 +278,12 @@
       "category": "Registries"
     },
     {
-      "title": "43.235.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.235.1",
-      "published": "2026-06-22T15:21:01Z",
-      "preview": "43.235.1 (2026-06-22) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.63.1 (main) ( #44164 ) ( 0d87a48 ) Miscellaneous Chores deps: update linters (main) ( #44162 ) ( 534eb43 ) util/exec: log the environment variable names when exerting a command ( #44159 ) ( 860293b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "6.0.3",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.3",
       "published": "2026-06-22T14:25:07Z",
       "preview": "What's Changed docs: drop advice to disable security or lower support tier by @MikeMcQuaid in #22749 release: exclude Dependabot PRs from changelog by @ZhongRuoyu in #22750 Document more supply-chain guardrails by @MikeMcQuaid in #22752 Allow tap trust in build sandbox by @MikeMcQuaid in #22751 Don't warn for partially trusted skipped taps by @MikeMcQuaid in #22755 services: check --sudo-service-user exists by @sexagesimal in #22763 Follow symlinked trust stores by @MikeMcQuaid in #22762 Annotate upgradable dependencies in install plans by @HaraldNordgren in #22761 livecheck: add compressed op",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "43.235.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.235.0",
-      "published": "2026-06-22T10:54:14Z",
-      "preview": "43.235.0 (2026-06-22) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.63.0 (main) ( #44157 ) ( 5ad54b5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pixi-build-cmake-v0.4.2",
@@ -374,30 +422,6 @@
       "category": "Containers"
     },
     {
-      "title": "SDK-3.13.0-228.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-228.0.dev",
-      "published": "2026-06-20T00:50:49Z",
-      "preview": "SDK 3.13.0-228.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-227.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-227.0.dev",
-      "published": "2026-06-20T00:50:46Z",
-      "preview": "SDK 3.13.0-227.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-226.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-226.0.dev",
-      "published": "2026-06-20T00:50:43Z",
-      "preview": "SDK 3.13.0-226.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "0.11.23",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.23",
       "published": "2026-06-19T18:42:52Z",
@@ -500,22 +524,6 @@
       "preview": "assertions: add helper for validating integrity data assertions: drop incorrect/non-standard Ed25519 support confdb: allow only API admin read access to confdb secrets confdb: block concurrent confdb accesses confdb: block concurrent snapctl accesses to configuration database confdb: check for ephemeral data when missing save-view hook on commit confdb: ignore not-found errors in confdb-schema refreshes confdb: support --wait-for timeouts when accessing confdb core-initrd: add group referenced in udev rules core-initrd: add libbpf dependency to initramfs core-initrd: add missing libbpf depende",
       "source": "Snapd releases",
       "category": "System"
-    },
-    {
-      "title": "SDK-3.13.0-225.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-225.0.dev",
-      "published": "2026-06-19T00:59:28Z",
-      "preview": "SDK 3.13.0-225.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-224.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-224.0.dev",
-      "published": "2026-06-19T00:59:26Z",
-      "preview": "SDK 3.13.0-224.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "9.6.0",
@@ -1780,22 +1788,6 @@
       "preview": "Fix close-linked-issue workflow by pinning gha-mjolnir to v1.5.0 ( #37 …",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "Security Advisory for Cargo (CVE-2026-5222)",
-      "url": "https://blog.rust-lang.org/2026/05/25/cve-2026-5222/",
-      "published": "2026-05-25T00:00:00Z",
-      "preview": "The Rust Security Response Team was notified that Cargo incorrectly normalized the URLs of third-party registries using the sparse index protocol . If a hosting provider allowed multiple registries to be hosted with arbitrary names within the same domain, an attacker able to publish crates in a registry could obtain the credentials of others users of the same registry. This vulnerability is tracked as CVE-2026-5222. The severity of the vulnerability is low , due to the extremely niche requirements needed to achieve the attack. Overview Originally Cargo only supported storing a registry's index",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
-      "title": "Security Advisory for Cargo (CVE-2026-5223)",
-      "url": "https://blog.rust-lang.org/2026/05/25/cve-2026-5223/",
-      "published": "2026-05-25T00:00:00Z",
-      "preview": "The Rust Security Response Team was notified that Cargo incorrectly handled symlinks inside of crate tarballs downloaded from third-party registries, allowing a malicious crate to override the source code of another crate from the same registry. This vulnerability is tracked as CVE-2026-5223. The severity of the vulnerability is medium for users of third-party registries. Users of crates.io are not affected , as crates.io forbids uploading crates containing any symlink. Overview When building a crate, Cargo extracts its source code in a local cache (stored within ~/.cargo ), reusing it for any",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
