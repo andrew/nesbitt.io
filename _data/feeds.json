@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-24T17:01:34Z",
-  "cutoff": "2026-05-25T17:01:29Z",
+  "generated": "2026-06-24T17:59:25Z",
+  "cutoff": "2026-05-25T17:59:14Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.0.0",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.0",
+      "published": "2026-06-24T17:38:25Z",
+      "preview": "Security This release addresses CVE-2026-57231, where a malicious image using malformed Env entries could cause host environment variables to leak into containers run based on the image, including the ability to use the * glob operator to leak large numbers of environment variables without knowing their exact names ( GHSA-4hq8-gpf5-8p68 ). Breaking Changes Due to breaking changes in this release, Podman v6.0.0 must be used with Buildah v1.44.0, Skopeo v1.23, Netavark and Aardvark v2.0.0, and configuration files from the container-libs repository's common/v0.68.0 release. Support for BoltDB dat",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
+      "title": "7.9.0.54",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.54",
+      "published": "2026-06-24T17:04:43Z",
+      "preview": "Insert 7.9.0.54 into main on 06/24/2026 17:04:43",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "7.9.0.53",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.53",
@@ -308,6 +324,14 @@
       "preview": "SDK 3.13.0-229.0.dev",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "pnpm 11.9",
+      "url": "https://pnpm.io/blog/releases/11.9",
+      "published": "2026-06-23T00:00:00Z",
+      "preview": "pnpm 11.9 computes missing tarball integrity for registries that cannot publish checksums, adds pnpm sbom --exclude-peers, improves audit performance on cyclic lockfiles, fixes peer-resolution nondeterminism, and tightens exclusion handling for minimumReleaseAge and trustPolicy.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "6.0.3",
@@ -644,6 +668,14 @@
       "preview": "Deployment at 2026-06-18T09:28:26.557517Z.",
       "source": "pub.dev releases",
       "category": "Registries"
+    },
+    {
+      "title": "pnpm 11.8",
+      "url": "https://pnpm.io/blog/releases/11.8",
+      "published": "2026-06-18T00:00:00Z",
+      "preview": "pnpm 11.8 adds install dry-run previews, Node.js package map generation, richer SBOM output, pnpm view defaulting to the current package, and correct pnpm run --no-bail exit codes. It also includes a config-dependency lockfile traversal fix and many install/update determinism fixes.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "1.14.1",
@@ -1212,14 +1244,6 @@
       "preview": "What's Changed Disable npmMinimalAgeGate for Yarn Berry security updates by @yeikel in #15191 Add Bundler 4 support by @JamieMagee in #15180 Bump org.apache.maven.plugins:maven-dependency-plugin from 3.10.0 to 3.11.0 in /maven/lib/dependabot/maven by @dependabot [bot] in #15190 Add GONOPROXY/GONOSUMDB env vars to go_modules FileParser by @Nishnha in #15159 fix(go_modules): include advisory pseudo-version boundaries for security fix resolution by @thavaahariharangit in #15213 Retry Gradle metadata fetch on EOF by @thavaahariharangit in #15204 Handle npm registry EOFError in latest version finde",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "7.9.0.20",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.20",
-      "published": "2026-06-09T12:26:16Z",
-      "preview": "Insert 7.9.0.20 into main on 06/09/2026 12:26:16",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-07-a",
