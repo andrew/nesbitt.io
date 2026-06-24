@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-24T01:15:57Z",
-  "cutoff": "2026-05-25T01:15:52Z",
+  "generated": "2026-06-24T02:07:47Z",
+  "cutoff": "2026-05-25T02:07:43Z",
   "feed_count": 79,
   "item_count": 221,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.241.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.5",
+      "published": "2026-06-24T02:01:19Z",
+      "preview": "43.241.5 (2026-06-24) Build System deps: update dependency node to v24.18.0 (main) ( #44207 ) ( 122fac7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.241.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.4",
+      "published": "2026-06-24T01:46:04Z",
+      "preview": "43.241.4 (2026-06-24) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.66.2 (main) ( #44206 ) ( d777130 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-06-24T01:27:32Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "43.241.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.3",
@@ -198,28 +222,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "43.237.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.237.0",
-      "published": "2026-06-23T09:36:09Z",
-      "preview": "43.237.0 (2026-06-23) Features config: set groupSingleUpdates=false by default ( #44168 ) ( 9d0ddbd )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v29.6.0",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.0",
       "published": "2026-06-23T08:08:09Z",
       "preview": "29.6.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.0 milestone moby/moby, 29.6.0 milestone New POST /containers/{id}/update now supports per-device blkio resource settings. moby/moby#52651 Add GET /images/{name}/attestations endpoint to retrieve in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image. Supports optional platform selection, predicate type filtering, and a statement query parameter for verbatim statement bodies. Bug fixes and enhancements docker image push now respects ",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "43.236.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.236.0",
-      "published": "2026-06-23T03:45:51Z",
-      "preview": "43.236.0 (2026-06-23) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.64.0 (main) ( #44177 ) ( a0df771 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.28.0",
@@ -267,14 +275,6 @@
       "published": "2026-06-23T00:48:26Z",
       "preview": "SDK 3.13.0-229.0.dev",
       "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-22T15:26:56Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
       "category": "Registries"
     },
     {
