@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-25T07:32:10Z",
-  "cutoff": "2026-05-26T07:32:06Z",
+  "generated": "2026-06-25T12:08:54Z",
+  "cutoff": "2026-05-26T12:08:47Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "6.0.4",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.4",
+      "published": "2026-06-25T11:35:36Z",
+      "preview": "What's Changed Cask Cookbook: document generate_completions_from_executable stanza by @bevanjkay in #22848 generate_completions: add style for default shells and auto corrections by @daeho-ro in #22841 Add bump-compatibility-version command by @p-linnane in #22846 Filter info JSON package types by @MikeMcQuaid in #22851 Enable formula path helper cop by @MikeMcQuaid in #22845 Rescue MethodDeprecatedError when attempting to load installed caskfiles by @Rylan12 in #22856 Speed up tests by @MikeMcQuaid in #22852 Approve stale lead maintainer PRs by @MikeMcQuaid in #22818 Rescue MethodDeprecatedEr",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-06-24-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-06-24-a",
+      "published": "2026-06-25T11:30:38Z",
+      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-06-24-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "43.242.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.242.2",
@@ -1412,14 +1428,6 @@
       "preview": "What's Changed tests: Use full constant names sometimes (for Sorbet rule 5001 compat) by @issyl0 in #22415 Sorbet now understands our custom mktmpdir helper method by @issyl0 in #22414 test_runner_formula: treat versioned macOS deps as macOS-only by @ivan-digital in #22420 Check bundle formula link status by @MikeMcQuaid in #22412 Improve cleanup ask output by @MikeMcQuaid in #22416 Fix zsh nested subcommand option completion by @ZhongRuoyu in #22422 Fix cask upgrade env conflict by @MikeMcQuaid in #22423 cask/upgrade: re-register application bundle before reopen by @bevanjkay in #22425 docs/G",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-01-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-01-a",
-      "published": "2026-06-03T08:53:55Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-01-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "bundler-v4.0.13",
