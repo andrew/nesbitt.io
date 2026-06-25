@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-24T19:58:42Z",
-  "cutoff": "2026-05-25T19:58:38Z",
+  "generated": "2026-06-25T01:20:44Z",
+  "cutoff": "2026-05-26T01:20:23Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.13.0-242.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-242.0.dev",
+      "published": "2026-06-25T00:49:07Z",
+      "preview": "SDK 3.13.0-242.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-241.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-241.0.dev",
+      "published": "2026-06-25T00:49:05Z",
+      "preview": "SDK 3.13.0-241.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-240.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-240.0.dev",
+      "published": "2026-06-25T00:49:03Z",
+      "preview": "SDK 3.13.0-240.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-239.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-239.0.dev",
+      "published": "2026-06-25T00:49:01Z",
+      "preview": "SDK 3.13.0-239.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "1.15.0",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.15.0",
+      "published": "2026-06-24T23:48:42Z",
+      "preview": "What's Changed Add --dry-run flag to pipx ensurepath by @somaz94 in #1842 Fix uninject for uv-backed venvs by @sjh9714 in #1844 New Contributors @somaz94 made their first contribution in #1842 Full Changelog : 1.14.1...1.15.0",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "Windows Package Manager 1.29.280",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.280",
@@ -298,38 +338,6 @@
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-233.0.dev",
       "published": "2026-06-23T00:48:36Z",
       "preview": "SDK 3.13.0-233.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-232.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-232.0.dev",
-      "published": "2026-06-23T00:48:33Z",
-      "preview": "SDK 3.13.0-232.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-231.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-231.0.dev",
-      "published": "2026-06-23T00:48:31Z",
-      "preview": "SDK 3.13.0-231.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-230.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-230.0.dev",
-      "published": "2026-06-23T00:48:29Z",
-      "preview": "SDK 3.13.0-230.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-229.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-229.0.dev",
-      "published": "2026-06-23T00:48:26Z",
-      "preview": "SDK 3.13.0-229.0.dev",
       "source": "Pub releases",
       "category": "Registries"
     },
@@ -985,7 +993,7 @@
       "title": "v5.8.3",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.3",
       "published": "2026-06-12T17:58:07Z",
-      "preview": "Security This release addresses CVE-2026-44517, where building a Dockerfile using a ADD or COPY instruction accessing a malicious Git repository or tar archive could cause files outside the build context directory to be included in the build context or copied into the build. Please see GHSA-49p4-px3h-rq49 for more details. Misc Updated Buildah to v1.43.2 Updated gvisor-tap-vsock to v0.8.9",
+      "preview": "Security This release addresses CVE-2026-44517 , where building a Dockerfile using a ADD or COPY instruction accessing a malicious Git repository or tar archive could cause files outside the build context directory to be included in the build context or copied into the build. Please see GHSA-49p4-px3h-rq49 for more details. Misc Updated Buildah to v1.43.2 Updated gvisor-tap-vsock to v0.8.9",
       "source": "Podman releases",
       "category": "Containers"
     },
