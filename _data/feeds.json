@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T05:44:13Z",
-  "cutoff": "2026-05-26T05:44:08Z",
+  "generated": "2026-06-25T07:32:10Z",
+  "cutoff": "2026-05-26T07:32:06Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.242.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.242.2",
+      "published": "2026-06-25T06:09:25Z",
+      "preview": "43.242.2 (2026-06-25) Bug Fixes manager/pub: Always populate pub extracted constraints ( #44220 ) ( 2258aa4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.242.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.242.1",
@@ -324,14 +332,6 @@
       "preview": "Minor Changes bae694f : Some registries generate tarballs on-demand and cannot provide an integrity checksum in their package metadata. In that case pnpm now computes the integrity from the downloaded tarball and stores it in the lockfile, so the entry is verifiable on subsequent installs instead of being written without an integrity (which would fail the next install). This also applies to --lockfile-only : the tarball is downloaded so its integrity can be computed. A lockfile entry that is still missing its integrity is rejected as a ERR_PNPM_MISSING_TARBALL_INTEGRITY lockfile verification v",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.239.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.239.0",
-      "published": "2026-06-23T15:08:52Z",
-      "preview": "43.239.0 (2026-06-23) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.65.0 (main) ( #44192 ) ( 2d3424d ) Bug Fixes platform/azure: avoid corrupting HTML entities and URL anchors in massageMarkdown ( #44131 ) ( fed1eb1 ), closes #42758 #8203 preserve version in PR title for Maven property updates ( #44176 ) ( 936dece )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.9.0.49",
