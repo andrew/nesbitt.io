@@ -7,6 +7,7 @@ tags:
   - security
   - tools
   - ai
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mp4pn75fkp2t"
 ---
 
 [Scrutineer](https://github.com/alpha-omega-security/scrutineer) scans open source repositories for security vulnerabilities and then handles everything that follows: verifying each one, working out who to contact, drafting a fix, and tracking it through to a published advisory. I've been building it for [Alpha-Omega](https://alpha-omega.dev) for the past couple of months.
