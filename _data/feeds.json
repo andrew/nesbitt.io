@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T01:20:44Z",
-  "cutoff": "2026-05-26T01:20:23Z",
+  "generated": "2026-06-25T03:30:10Z",
+  "cutoff": "2026-05-26T03:30:07Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.6.14: Bootstrap, end-to-end",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.14",
+      "published": "2026-06-25T03:02:47Z",
+      "preview": "Added bootstrap: mise bootstrap --only <part> as the inverse of --skip , accepting repeated/comma-separated phase names and mutually exclusive with --skip ( #10607 by @jdx ). bootstrap: mise bootstrap packages import / prune for Homebrew formulae, snapshotting requested installed formulae into [bootstrap.packages] and ledger-pruning only adopted formulae no longer needed by merged config ( #10606 by @jdx ). bootstrap: mise bootstrap status (alias ls ) aggregates packages, dotfiles, macOS defaults, launchd, systemd, login shell, repos, shell activation, and [tools] into one report with --json a",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.6.15",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.15",
+      "published": "2026-06-25T02:15:58Z",
+      "preview": "Release vfox 2026.6.15",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.6.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.6.2",
+      "published": "2026-06-25T02:14:58Z",
+      "preview": "Release mise-sigstore 2026.6.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "SDK-3.13.0-242.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-242.0.dev",
@@ -734,14 +758,6 @@
       "category": "Containers"
     },
     {
-      "title": "v2026.6.11: apk bootstrap, cleaner Windows shims, and aqua polish",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.11",
-      "published": "2026-06-16T23:39:09Z",
-      "preview": "A focused release that adds Alpine apk as a bootstrap package manager, stops the default Windows exe shims from leaking into WSL, and fixes a handful of aqua, HTTP cache, Rust, and Deno corners. Added bootstrap: Alpine Linux apk joins apt, dnf, pacman, and brew as a supported [bootstrap.packages] manager. Specify packages as apk:name (with optional @version ), or pass --manager apk explicitly; status, install, and upgrade all wire through the same paths as the other Linux managers ( #10476 by @jdx ). [ bootstrap . packages ] \"apk:curl\" = \" * \" \"apk:git\" = \" @2.45.2-r0 \" registry: Added pinnipe",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "26.5.3",
       "url": "https://github.com/conda/conda/releases/tag/26.5.3",
       "published": "2026-06-16T20:51:34Z",
@@ -772,22 +788,6 @@
       "preview": "Insert 7.9.0.32 into main on 06/16/2026 12:39:20",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "mise-interactive-config-v2026.6.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.6.2",
-      "published": "2026-06-16T03:46:45Z",
-      "preview": "Release mise-interactive-config 2026.6.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "aqua-registry-v2026.6.5",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.5",
-      "published": "2026-06-16T03:46:32Z",
-      "preview": "Release aqua-registry 2026.6.5",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.6.12",
