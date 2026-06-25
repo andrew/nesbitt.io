@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T15:20:08Z",
-  "cutoff": "2026-05-26T15:19:53Z",
+  "generated": "2026-06-25T17:02:42Z",
+  "cutoff": "2026-05-26T17:02:38Z",
   "feed_count": 79,
   "item_count": 226,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.71.1",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.71.1",
+      "published": "2026-06-25T16:27:29Z",
+      "preview": "[0.71.1] - 2026-06-25 ✨ Highlights This release brings a couple of bugfixes. The important thing though is that from now on releases are immutable . Added React to auth challenges for private channel reads by @nichmor in #6426 Fixed Ignore credentials when matching direct-URL PyPI deps by @temporaer in #6427 New Contributors @temporaer made their first contribution in #6427",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "43.243.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.243.0",
+      "published": "2026-06-25T15:48:29Z",
+      "preview": "43.243.0 (2026-06-25) Features replacements: add @aws-sdk/smithy-client to @smithy/smithy-client ( #44230 ) ( 04fb640 ) Bug Fixes datasource/crate: tolerate null metadata fields ( #44227 ) ( b84a54c ) Documentation don't show client-side rendered version number ( #44224 ) ( 62277c6 ) Miscellaneous Chores deps: update dependency pnpm to v11.8.0 (main) ( #44063 ) ( ed10a46 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.9.0",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.0",
@@ -356,14 +372,6 @@
       "preview": "Release mise-sigstore 2026.6.1",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.240.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.240.0",
-      "published": "2026-06-23T18:52:15Z",
-      "preview": "43.240.0 (2026-06-23) Features manager/pub: extract constraints ( #44171 ) ( 4ad5bc1 ) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.6.4 (main) ( #44196 ) ( 10d7710 ) deps: update dependency tsdown to v0.22.3 (main) ( #44197 ) ( 50464b8 ) Build System deps: update dependency protobufjs to v8.6.4 (main) ( #44194 ) ( 2b18d7f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 11.9",
@@ -860,14 +868,6 @@
       "preview": "What's Changed rubocops/lines: add JavaVersions cop by @cho-m in #22681 os/mac/hardware/cpu: fallback to generic CPU detection if sysctl fails by @Bo98 in #22682 Handle pinned dependency failures in upgrade previews by @rexmhall09 in #22683 codex/hooks: return JSON. by @MikeMcQuaid in #22686 build(deps): bump the github-actions group across 1 directory with 2 updates by @dependabot [bot] in #22689 build(deps): bump the bundler group across 2 directories with 11 updates by @dependabot [bot] in #22688 sandbox: deny all of $HOME except Homebrew dirs by @MikeMcQuaid in #22660 Trust custom remote i",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "pixi-build-ros-v0.6.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.6.0",
-      "published": "2026-06-15T11:46:50Z",
-      "preview": "chore: bump backend versions ( #6363 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-rust-v0.5.0",
