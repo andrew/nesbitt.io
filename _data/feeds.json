@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-25T20:00:15Z",
-  "cutoff": "2026-05-26T20:00:11Z",
+  "generated": "2026-06-25T20:59:33Z",
+  "cutoff": "2026-05-26T20:59:29Z",
   "feed_count": 79,
-  "item_count": 227,
+  "item_count": 226,
   "categories": [
     ".NET",
     "C/C++",
@@ -1828,14 +1828,6 @@
       "preview": "pnpm 11.4 closes a cluster of supply-chain holes around lockfile integrity, credential scoping, git resolutions, patch files, and dependency aliases, makes tarball-integrity mismatches a hard install failure by default (with a narrowly-scoped --update-checksums opt-in), and changes pnpm runtime set to write to devEngines.runtime instead of engines.runtime by default.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "26.5.1",
-      "url": "https://github.com/conda/conda/releases/tag/26.5.1",
-      "published": "2026-05-26T20:51:19Z",
-      "preview": "Bug fixes Fix channel notices display failing with ImportError when a decorated command replaces base python while conda is still running on the previous interpreter. Pre-import conda.notices.views before the command so post-command display does not load modules from rewritten site-packages . ( #16126 via #16142 ) Fix crash in UnavailableInvalidChannel and CondaHTTPError when simplejson is installed and a non-JSON HTTP error response is received. ( #16136 ) Contributors @jezdez @kenodegard Full Changelog : 26.5.0...26.5.1",
-      "source": "Conda releases",
-      "category": "Multi-language"
     }
   ]
 }
