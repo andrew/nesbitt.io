@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T03:30:10Z",
-  "cutoff": "2026-05-26T03:30:07Z",
+  "generated": "2026-06-25T05:44:13Z",
+  "cutoff": "2026-05-26T05:44:08Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.242.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.242.1",
+      "published": "2026-06-25T04:47:39Z",
+      "preview": "43.242.1 (2026-06-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.67.1 (main) ( #44223 ) ( 50e5486 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.1 (main) ( #44221 ) ( 17b9886 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.6.14: Bootstrap, end-to-end",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.6.14",
@@ -322,14 +330,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.239.0",
       "published": "2026-06-23T15:08:52Z",
       "preview": "43.239.0 (2026-06-23) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.65.0 (main) ( #44192 ) ( 2d3424d ) Bug Fixes platform/azure: avoid corrupting HTML entities and URL anchors in massageMarkdown ( #44131 ) ( fed1eb1 ), closes #42758 #8203 preserve version in PR title for Maven property updates ( #44176 ) ( 936dece )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.238.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.238.0",
-      "published": "2026-06-23T14:35:59Z",
-      "preview": "43.238.0 (2026-06-23) Features datasource/dart: Added support for constraints extraction ( #44191 ) ( cce3e86 ) Miscellaneous Chores manager/mix: extract hardcoded Erlang version for updates ( #44180 ) ( 677470b ), closes #44149 #26768 Continuous Integration require build-docs as part of test-success ( #44186 ) ( 9fdec11 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
