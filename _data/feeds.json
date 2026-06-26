@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-26T13:02:35Z",
-  "cutoff": "2026-05-27T13:02:30Z",
+  "generated": "2026-06-26T15:13:45Z",
+  "cutoff": "2026-05-27T15:13:41Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -52,6 +52,14 @@
       "preview": "43.244.0 (2026-06-26) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.68.0 (main) ( #44250 ) ( 8f38e3a )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "v9.6.1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.1",
+      "published": "2026-06-26T08:28:42Z",
+      "preview": "Update fixed issues in release notes for 9.6.1 ( #38328 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "pixi-build-python-v0.8.0",
@@ -1796,14 +1804,6 @@
       "preview": "The Rust team is happy to announce a new version of Rust, 1.96.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.96.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.96.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "An update on Composer & Packagist supply chain security",
-      "url": "https://blog.packagist.com/an-update-on-composer-packagist-supply-chain-security/",
-      "published": "2026-05-27T15:11:51Z",
-      "preview": "The last months, and even more so the last weeks, saw an increasing amount of software supply chain attacks targeting open-source ecosystems. A handful of these have hit the PHP ecosystem too, via taken-over GitHub accounts and stolen access tokens that let attackers publish new tags on packages",
-      "source": "Packagist Blog",
-      "category": "PHP"
     }
   ]
 }
