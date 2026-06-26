@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-25T20:59:33Z",
-  "cutoff": "2026-05-26T20:59:29Z",
+  "generated": "2026-06-26T01:23:25Z",
+  "cutoff": "2026-05-27T01:23:20Z",
   "feed_count": 79,
-  "item_count": 226,
+  "item_count": 225,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,62 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.13.0-248.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-248.0.dev",
+      "published": "2026-06-26T00:50:42Z",
+      "preview": "SDK 3.13.0-248.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-247.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-247.0.dev",
+      "published": "2026-06-26T00:50:39Z",
+      "preview": "SDK 3.13.0-247.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-246.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-246.0.dev",
+      "published": "2026-06-26T00:50:37Z",
+      "preview": "SDK 3.13.0-246.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-245.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-245.0.dev",
+      "published": "2026-06-26T00:50:35Z",
+      "preview": "SDK 3.13.0-245.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-244.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-244.0.dev",
+      "published": "2026-06-26T00:50:33Z",
+      "preview": "SDK 3.13.0-244.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-243.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-243.0.dev",
+      "published": "2026-06-26T00:50:31Z",
+      "preview": "SDK 3.13.0-243.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.243.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.243.2",
+      "published": "2026-06-26T00:47:03Z",
+      "preview": "43.243.2 (2026-06-26) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.67.2 (main) ( #44241 ) ( f387cbe )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.243.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.243.1",
@@ -270,46 +326,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "SDK-3.13.0-238.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-238.0.dev",
-      "published": "2026-06-24T00:44:57Z",
-      "preview": "SDK 3.13.0-238.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-237.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-237.0.dev",
-      "published": "2026-06-24T00:44:53Z",
-      "preview": "SDK 3.13.0-237.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-236.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-236.0.dev",
-      "published": "2026-06-24T00:44:51Z",
-      "preview": "SDK 3.13.0-236.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-235.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-235.0.dev",
-      "published": "2026-06-24T00:44:48Z",
-      "preview": "SDK 3.13.0-235.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-234.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-234.0.dev",
-      "published": "2026-06-24T00:44:45Z",
-      "preview": "SDK 3.13.0-234.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "43.241.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.2",
       "published": "2026-06-24T00:00:39Z",
@@ -324,14 +340,6 @@
       "preview": "RubyGems 4.0.15 includes enhancements and bug fixes and Bundler 4.0.15 includes enhancements and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.15 RubyGems Release Notes Enhancements: Rubygems: Fix Gem::Request for PQC support, adding integration connection tests. Pull request #9615 by junaruga Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Installs bundler 4.0.15 as a default gem. Bug fixes: Forward security p",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "43.241.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.1",
-      "published": "2026-06-23T23:45:54Z",
-      "preview": "43.241.1 (2026-06-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.66.1 (main) ( #44202 ) ( 604b83d ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.11.24 (main) ( #44200 ) ( d4e543a ) deps: update dependency uv to v0.11.24 (main) ( #44201 ) ( b594945 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "bundler-v4.0.15",
@@ -412,14 +420,6 @@
       "preview": "Features & Improvements Add experimental workspace support for managing local member projects in a shared root lock file. ( #1505 ) Defer startup-time imports for Python, virtualenv, and self-management commands. ( #3673 ) Bug Fixes Fix pdm completion bash printing __ltrim_colon_completions: command not found (and a similar error for _get_comp_words_by_ref ) when the generated script is sourced in a bash without the bash-completion package loaded, such as Git Bash on Windows or minimal Linux containers. The script now defines small fallbacks for both helpers when they are not already available",
       "source": "PDM releases",
       "category": "Python"
-    },
-    {
-      "title": "SDK-3.13.0-233.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-233.0.dev",
-      "published": "2026-06-23T00:48:36Z",
-      "preview": "SDK 3.13.0-233.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "pnpm 11.9",
@@ -1820,14 +1820,6 @@
       "preview": "2.7.3-beta-20260527",
       "source": "Chocolatey releases",
       "category": "System"
-    },
-    {
-      "title": "pnpm 11.4",
-      "url": "https://pnpm.io/blog/releases/11.4",
-      "published": "2026-05-27T00:00:00Z",
-      "preview": "pnpm 11.4 closes a cluster of supply-chain holes around lockfile integrity, credential scoping, git resolutions, patch files, and dependency aliases, makes tarball-integrity mismatches a hard install failure by default (with a narrowly-scoped --update-checksums opt-in), and changes pnpm runtime set to write to devEngines.runtime instead of engines.runtime by default.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
