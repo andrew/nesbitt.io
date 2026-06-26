@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-26T18:58:10Z",
-  "cutoff": "2026-05-27T18:58:06Z",
+  "generated": "2026-06-26T19:59:10Z",
+  "cutoff": "2026-05-27T19:59:05Z",
   "feed_count": 79,
   "item_count": 226,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.244.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.244.3",
+      "published": "2026-06-26T19:55:52Z",
+      "preview": "43.244.3 (2026-06-26) Build System deps: update dependency semver to v7.8.5 (main) ( #44263 ) ( cf74a67 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.244.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.244.2",
@@ -379,14 +387,6 @@
       "published": "2026-06-24T02:35:11Z",
       "preview": "What's Changed Bump bundled npm from 11.8.0 to 11.17.0 by @kbukum1 in #15335 Fix composer specs failure due to block-insecure feature by @AbhishekBhaskar in #15334 Add blocked_versions.ignored metric for Security-blocked update checks by @kbukum1 in #15333 Preserve original bundler checksum on Bundler 4.0.11+ lockfile updates by @lucasmazza in #15249 Generate .npmrc from scope property when lockfile inference fails by @AbhishekBhaskar in #15264 Revert disabling block insecure flag in composer by @AbhishekBhaskar in #15339 Fix no method error during fetching credentials properties by @AbhishekB",
       "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.241.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.5",
-      "published": "2026-06-24T02:01:19Z",
-      "preview": "43.241.5 (2026-06-24) Build System deps: update dependency node to v24.18.0 (main) ( #44207 ) ( 122fac7 )",
-      "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
