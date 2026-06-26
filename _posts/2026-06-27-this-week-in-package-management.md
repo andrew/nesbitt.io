@@ -34,13 +34,17 @@ Week six of the roundup, built from the [package manager OPML feed collection](h
 
 [Deno 2.9.0](https://github.com/denoland/deno/releases/tag/v2.9.0) adds a canary-only `deno desktop` command that compiles a project into a self-contained desktop binary, defaulting to the OS native WebView and able to switch to the Chromium Embedded Framework backend.
 
+[Docker Engine 29.6.0](https://github.com/moby/moby/releases/tag/docker-v29.6.0) adds a `GET /images/{name}/attestations` endpoint for retrieving in-toto attestation statements such as SLSA provenance and SPDX SBOMs attached to an image, with platform selection and predicate-type filtering.
+
 [Homebrew 6.0.4](https://github.com/Homebrew/brew/releases/tag/6.0.4) adds `type` and `resolves` fields to the `patch` DSL for annotating patches, in a [change I wrote](https://github.com/Homebrew/brew/pull/22466).
 
-Also out: [sbt 1.12.13](https://github.com/sbt/sbt/releases/tag/v1.12.13), [Verdaccio 6.7.4](https://github.com/verdaccio/verdaccio/releases/tag/v6.7.4), [NuGet 7.9.0.55](https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.55).
+Also out: [sbt 1.12.13](https://github.com/sbt/sbt/releases/tag/v1.12.13), [Verdaccio 6.7.4](https://github.com/verdaccio/verdaccio/releases/tag/v6.7.4), [NuGet 7.9.0.60](https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.60), [Gradle 9.6.1](https://github.com/gradle/gradle/releases/tag/v9.6.1), [Helm 3.21.2](https://github.com/helm/helm/releases/tag/v3.21.2).
 
 ## Security
 
 [Podman 6.0.0](https://github.com/podman-container-tools/podman/releases/tag/v6.0.0) fixes [CVE-2026-57231](https://github.com/advisories/GHSA-4hq8-gpf5-8p68), where a malicious image with malformed `Env` entries could leak host environment variables into containers, including using the `*` glob to pull large numbers of variables without knowing their names. The release also has breaking changes that require matching Buildah, Skopeo, Netavark and Aardvark versions.
+
+[Docker Engine 29.6.1](https://github.com/moby/moby/releases/tag/docker-v29.6.1) fixes several vulnerabilities, including one where a malicious image supplying a malformed `/etc/passwd` or `/etc/group` file could drive excessive memory use and an out-of-memory kill ([GHSA-mjcv-p78q-w5fw](https://github.com/advisories/GHSA-mjcv-p78q-w5fw), [GHSA-jpcc-p29g-p8mq](https://github.com/advisories/GHSA-jpcc-p29g-p8mq), [GHSA-72x6-4j93-7w86](https://github.com/advisories/GHSA-72x6-4j93-7w86)).
 
 [zizmor 1.26](https://docs.zizmor.sh/release-notes/#1260), the GitHub Actions static analysis tool, adds three audits: `typosquat-uses` for misspelled action references, [which I added](https://github.com/zizmorcore/zizmor/pull/1985), plus `unsound-ternary` and `adhoc-packages` for packages installed from outside a package manager.
 
@@ -57,6 +61,8 @@ Also out: [sbt 1.12.13](https://github.com/sbt/sbt/releases/tag/v1.12.13), [Verd
 [One month of ecosystem security engineering](https://thephp.foundation/blog/2026/06/23/one-month-of-ecosystem-security-engineering/) (PHP Foundation) is an update on what the Ecosystem Security Team has shipped for Packagist and Composer in its first month.
 
 [Packagist's security improvements](https://opensourcesecurity.io/2026/2026-06-packagist-security-jordi/) (Josh Bressers, Open Source Security) is an interview with Jordi Boggiano on malware detection, transparency logs and immutable tags, extending the same Packagist series Nils Adermann's PHPVerse slides covered.
+
+[Bridging conda and PyPI ecosystems](https://conda.org/blog/2026-06-25-bridging-conda-and-pypi-ecosystems) (conda.org) covers a conda-pypi channel that translates PyPI metadata into repodata the conda solver reads, plus a plugin that unpacks the wheels and registers them with conda, so you can pull PyPI packages through `conda install` rather than pip inside the environment.
 
 [Too many new packages on CRAN?](https://rworks.dev/posts/too-many-R-packages/) (R Works) notes 40 of 323 recent new CRAN packages shipped with no README, and links a [GitHub discussion](https://github.com/r-community-works/rworks-website/issues/68#issuecomment-4719264802) on whether the bottleneck is submission volume or maintainer capacity.
 
@@ -75,6 +81,8 @@ Also out: [sbt 1.12.13](https://github.com/sbt/sbt/releases/tag/v1.12.13), [Verd
 The Python Security Response Team has [open-sourced psrt-ghsa-bot](https://github.com/python/psrt-ghsa-bot), the cron bot it uses to automate advisory tasks and work around GitHub limitations.
 
 Open Collective is [pausing its security bounty program](https://framapiaf.org/@Betree/116799545927857584) for the summer, following curl's lead, and is considering paying for only the first three reports per researcher per week when it returns.
+
+[replacements.fyi](https://replacements.fyi/) lets you search an npm package name and get suggested lighter or safer alternatives, aimed at trimming dependency bloat.
 
 ## git-pkgs
 
