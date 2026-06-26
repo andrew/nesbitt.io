@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-26T09:29:59Z",
-  "cutoff": "2026-05-27T09:29:54Z",
+  "generated": "2026-06-26T13:02:35Z",
+  "cutoff": "2026-05-27T13:02:30Z",
   "feed_count": 79,
-  "item_count": 224,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.244.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.244.1",
+      "published": "2026-06-26T13:00:28Z",
+      "preview": "43.244.1 (2026-06-26) Bug Fixes schema-utils: support for GitHub bot style email addresses ( #44249 ) ( 1e43d46 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "7.9.0.60",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.60",
+      "published": "2026-06-26T12:37:23Z",
+      "preview": "Insert 7.9.0.60 into main on 06/26/2026 12:37:23",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "v29.6.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.1",
+      "published": "2026-06-26T12:29:14Z",
+      "preview": "29.6.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.1 milestone moby/moby, 29.6.1 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. A malicious image could supply a malicious /etc/passwd or /etc/group -style file causing excessive memory consumption, potentially resulting in process termination due to Out Of Memory (OOM) conditions. GHSA-mjcv-p78q-w5fw , GHSA-jpcc-p29g-p8mq , GHSA-72x6-4j93-7w86 A custom frontend could send a crafted build request that disabled",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "43.244.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.244.0",
+      "published": "2026-06-26T11:52:53Z",
+      "preview": "43.244.0 (2026-06-26) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.68.0 (main) ( #44250 ) ( 8f38e3a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pixi-build-python-v0.8.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.8.0",
@@ -322,22 +354,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.4",
       "published": "2026-06-24T01:46:04Z",
       "preview": "43.241.4 (2026-06-24) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.66.2 (main) ( #44206 ) ( d777130 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.241.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.3",
-      "published": "2026-06-24T00:45:34Z",
-      "preview": "43.241.3 (2026-06-24) Build System deps: update dependency re2 to v1.25.0 (main) ( #44204 ) ( 6c34319 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.241.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.2",
-      "published": "2026-06-24T00:00:39Z",
-      "preview": "43.241.2 (2026-06-23) Build System deps: update node.js to v24.18.0 (main) ( #44203 ) ( 0998723 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1190,14 +1206,6 @@
       "category": "System"
     },
     {
-      "title": "7.9.0.28",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.28",
-      "published": "2026-06-11T12:34:09Z",
-      "preview": "Insert 7.9.0.28 into main on 06/11/2026 12:34:08",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
       "title": "20260611t083300-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260611t083300-all",
       "published": "2026-06-11T08:33:23Z",
@@ -1420,14 +1428,6 @@
       "preview": "Release Notes Released on 2026-06-03. Python Add CPython 3.15.0b2 ( #19531 ) Enhancements Always compute SHA256 for remote distributions ( #19662 ) Add PyEmscripten platform (PEP 783) ( #19629 ) Add Pyodide 2025 target triple ( #19653 ) Preview features Make preview features for commands have names that aren't ambiguous with the command ( #19645 ) Respect --isolated in uv check ( #19666 ) Bug fixes Continue tool uninstall after dangling receipts ( #19623 ) Skip Unix-specific installation steps when cross-installing Windows Python distributions ( #19424 ) Install uv 0.11.19 Install prebuilt bin",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "v29.5.3",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.5.3",
-      "published": "2026-06-03T18:50:17Z",
-      "preview": "29.5.3 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.5.3 milestone moby/moby, 29.5.3 milestone Bug fixes and enhancements Reduce docker system df errors when images are pruned at the same time with the containerd image store. moby/moby#52672 Packaging updates Update containerd (static binaries only) to v2.2.4 . moby/moby#52683 Update Go runtime to 1.26.4 . moby/moby#52753 , docker/cli#7025 Update RootlessKit to v3.0.1 . moby/moby#52710 Rootless Fix AWS IMDS access with gvisor-tap-vsock and UDP port forwarding for non-loopb",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     },
     {
       "title": "v2.0.0-beta.16",
@@ -1804,14 +1804,6 @@
       "preview": "The last months, and even more so the last weeks, saw an increasing amount of software supply chain attacks targeting open-source ecosystems. A handful of these have hit the PHP ecosystem too, via taken-over GitHub accounts and stolen access tokens that let attackers publish new tags on packages",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "v2.8.1",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.8.1",
-      "published": "2026-05-27T12:56:27Z",
-      "preview": "2.8.1 / 2026.05.27 Revert \"fix(ext/node): polyfill module.enableCompileCache and companions\" ( #34190 ) ( #34348 ) feat(bundle): support browser field map in package.json ( #34407 ) fix(bundle): read package.json sideEffects field ( #34406 ) fix(cli): clearer error when importing .node addon via ESM ( #34361 ) fix(config): don't panic when --config path can't be converted to URL ( #34351 ) fix(core): allow host objects to round-trip through core.deserialize ( #34380 ) fix(core): keep lazy_loaded_esm sources across concurrent loads ( #34353 ) fix(ext/fetch,ext/websocket): check resolved IPs aga",
-      "source": "Deno releases",
-      "category": "JavaScript"
     }
   ]
 }
