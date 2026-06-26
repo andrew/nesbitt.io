@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-26T17:00:19Z",
-  "cutoff": "2026-05-27T17:00:15Z",
+  "generated": "2026-06-26T18:58:10Z",
+  "cutoff": "2026-05-27T18:58:06Z",
   "feed_count": 79,
-  "item_count": 225,
+  "item_count": 226,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.244.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.244.2",
+      "published": "2026-06-26T18:49:00Z",
+      "preview": "43.244.2 (2026-06-26) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.68.1 (main) ( #44261 ) ( cced14c ) http/github: handle Github got errors containing falsely an object ( #44259 ) ( a539377 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.8 (main) ( #44252 ) ( 61147d7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "6.0.5",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.5",
+      "published": "2026-06-26T18:11:56Z",
+      "preview": "What's Changed rubocop/formula_path_methods: add formula_opt_include method by @botantony in #22867 Reject patch targets that escape the staged source tree by @p-linnane in #22881 system_command: use Process.spawn to avoid fork-unsafe exec3 child by @p-linnane in #22880 formula: std_meson_args prefix param and relative libdir by @cho-m in #22888 Expand deferred env in curl URLs by @MikeMcQuaid in #22886 Full Changelog : 6.0.4...6.0.5",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
     {
       "title": "9.6.1",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.6.1",
@@ -370,14 +386,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.5",
       "published": "2026-06-24T02:01:19Z",
       "preview": "43.241.5 (2026-06-24) Build System deps: update dependency node to v24.18.0 (main) ( #44207 ) ( 122fac7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.241.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.241.4",
-      "published": "2026-06-24T01:46:04Z",
-      "preview": "43.241.4 (2026-06-24) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.66.2 (main) ( #44206 ) ( d777130 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
