@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-27T15:46:27Z",
-  "cutoff": "2026-05-28T15:46:23Z",
+  "generated": "2026-06-27T16:42:04Z",
+  "cutoff": "2026-05-28T16:42:00Z",
   "feed_count": 79,
-  "item_count": 220,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -1772,14 +1772,6 @@
       "preview": "What's Changed Fix duplicate updated dependencies in multi-directory group refresh by @markhallen in #15098 Recategorise lockfile generation errors as known types by @brrygrdn in #15084 [Graph Job] Do not treat Dependabot::UnexpectedExternalCode as a hard failure by @brrygrdn in #15075 [Graph] Fix handling of multiple version resolution by @brrygrdn in #15099 Bun: Upgrade to Node JS 24 by @yeikel in #14964 Add API integration to fetch blocked versions at job construction by @kbukum1 in #14917 Fix go modules error in package details fetcher due to subpath issue by @AbhishekBhaskar in #15096 add",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "2.29.0 (28-May-2026)",
-      "url": "https://github.com/conan-io/conan/releases/tag/2.29.0",
-      "published": "2026-05-28T16:27:51Z",
-      "preview": "Feature: Limited support for python_requires in workspace, only in conanws.yml file. ( #20028 ). Docs: 📃 Feature: Added new public attribute binaries to the MesonToolchain generator. ( #20017 ) Feature: Add support for Apple OS 26.5 release. ( #19976 ) Feature: Document RemoveAPI . ( #19930 ) Feature: New global_user.conf file to locally customize global.conf . ( #19923 ). Docs: 📃 Feature: Add support for GCC 16. ( #19921 ) Fix: Forward -vxxx verbosity argument to conan workspace build/install packages. ( #20015 ) Fix: Add message when no packages found in conan list command. ( #20013 ) Fix: s",
-      "source": "Conan releases",
-      "category": "C/C++"
     }
   ]
 }
