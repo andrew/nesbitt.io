@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-27T09:13:25Z",
-  "cutoff": "2026-05-28T09:13:21Z",
+  "generated": "2026-06-27T10:59:19Z",
+  "cutoff": "2026-05-28T10:59:14Z",
   "feed_count": 79,
-  "item_count": 227,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -1802,38 +1802,6 @@
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260528t110400-all",
       "published": "2026-05-28T11:04:49Z",
       "preview": "Deployment at 2026-05-28T11:04:47.905202Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
-    },
-    {
-      "title": "2.10.0",
-      "url": "https://github.com/composer/composer/releases/tag/2.10.0",
-      "published": "2026-05-28T10:53:10Z",
-      "preview": "Read the Composer 2.10 Release Announcement for more details on the release highlights. Full Changelog BC Break / Security: Disabled automatic fallback to source checkout if dist/zip install fails, we have introduced a new source-fallback config option as a temporary way to restore the old behavior, but if you need this talk to us as we plan to remove it entirely in 2.11 ( #12885 ) BC Break: Minor break for audit consumers, the exit code is now always 0 (success) or 1 if anything failed the audit ( #12881 ) Security: Added dependency policies to block package versions where malware was detecte",
-      "source": "Composer releases",
-      "category": "PHP"
-    },
-    {
-      "title": "Composer 2.10 Release",
-      "url": "https://blog.packagist.com/composer-2-10-release/",
-      "published": "2026-05-28T10:46:09Z",
-      "preview": "We are excited to announce the release of Composer 2.10.0 , introducing native malware filtering and consolidated future-proof customizable dependency policy configuration to control the handling of security advisories, abandoned packages, and now malware. Fast detection of malware for packages published on Packagist.org is provided by Aikido",
-      "source": "Packagist Blog",
-      "category": "PHP"
-    },
-    {
-      "title": "20260528t104000-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260528t104000-all",
-      "published": "2026-05-28T10:40:55Z",
-      "preview": "Deployment at 2026-05-28T10:40:52.185885Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
-    },
-    {
-      "title": "20260528t103900-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260528t103900-all",
-      "published": "2026-05-28T10:39:24Z",
-      "preview": "Deployment at 2026-05-28T10:39:17.154788Z.",
       "source": "pub.dev releases",
       "category": "Registries"
     }
