@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-27T01:18:35Z",
-  "cutoff": "2026-05-28T01:18:30Z",
+  "generated": "2026-06-27T03:29:59Z",
+  "cutoff": "2026-05-28T03:29:55Z",
   "feed_count": 79,
   "item_count": 226,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.244.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.244.4",
+      "published": "2026-06-27T02:45:39Z",
+      "preview": "43.244.4 (2026-06-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.68.2 (main) ( #44270 ) ( f30fdc6 ) Miscellaneous Chores deps: update dependency @types/luxon to v3.7.2 (main) ( #44265 ) ( 7d9248c ) deps: update dependency astral-sh/uv to v0.11.25 (main) ( #44268 ) ( f338cbc ) deps: update dependency uv to v0.11.25 (main) ( #44269 ) ( 5f7fb2f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.11.25",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.25",
@@ -380,14 +388,6 @@
       "preview": "Insert 7.9.0.51 into main on 06/24/2026 12:22:28",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "43.242.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.242.0",
-      "published": "2026-06-24T03:47:06Z",
-      "preview": "43.242.0 (2026-06-24) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.67.0 (main) ( #44209 ) ( 3f697a4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.383.0",
