@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-27T16:42:04Z",
-  "cutoff": "2026-05-28T16:42:00Z",
+  "generated": "2026-06-27T17:41:41Z",
+  "cutoff": "2026-05-28T17:41:37Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -1764,14 +1764,6 @@
       "preview": "0.97.0 release",
       "source": "Cargo releases",
       "category": "Rust"
-    },
-    {
-      "title": "v0.379.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.379.0",
-      "published": "2026-05-28T17:11:39Z",
-      "preview": "What's Changed Fix duplicate updated dependencies in multi-directory group refresh by @markhallen in #15098 Recategorise lockfile generation errors as known types by @brrygrdn in #15084 [Graph Job] Do not treat Dependabot::UnexpectedExternalCode as a hard failure by @brrygrdn in #15075 [Graph] Fix handling of multiple version resolution by @brrygrdn in #15099 Bun: Upgrade to Node JS 24 by @yeikel in #14964 Add API integration to fetch blocked versions at job construction by @kbukum1 in #14917 Fix go modules error in package details fetcher due to subpath issue by @AbhishekBhaskar in #15096 add",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
