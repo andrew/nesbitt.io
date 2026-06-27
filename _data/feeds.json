@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-27T17:41:41Z",
-  "cutoff": "2026-05-28T17:41:37Z",
+  "generated": "2026-06-27T18:44:48Z",
+  "cutoff": "2026-05-28T18:44:44Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -1756,14 +1756,6 @@
       "preview": "Release Notes Released on 2026-05-28. Enhancements Add a diagnostic for uv add with standard library modules ( #19572 ) Expose uv workspace and its list subcommand in help output ( #19533 ) Improve the \"403 forbidden\" hint to suggest ignore-error-codes when applicable ( #19521 ) Skip direct URL lock freshness checks while offline ( #19596 ) Add import-names and import-namespaces support to uv-build ( PEP 794 ) ( #19380 ) Add a --no-editable-package flag to various commands ( #19584 ) Infer Python version requests from source trees in uv tool invocations ( #19577 ) Preview features Add module o",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "0.97.0",
-      "url": "https://github.com/rust-lang/cargo/releases/tag/0.97.0",
-      "published": "2026-05-28T17:50:39Z",
-      "preview": "0.97.0 release",
-      "source": "Cargo releases",
-      "category": "Rust"
     }
   ]
 }
