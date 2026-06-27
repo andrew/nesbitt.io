@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-26T19:59:10Z",
-  "cutoff": "2026-05-27T19:59:05Z",
+  "generated": "2026-06-27T01:18:35Z",
+  "cutoff": "2026-05-28T01:18:30Z",
   "feed_count": 79,
   "item_count": 226,
   "categories": [
@@ -21,6 +21,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.11.25",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.25",
+      "published": "2026-06-27T00:49:49Z",
+      "preview": "Release Notes Released on 2026-06-26. Security This release updates our tar library, astral-tokio-tar , to v0.6.3, which includes over 20 changes that harden our tar handling against parser differentials . uv may reject source distributions with malformed or ambiguous content that were previously accepted. See the upstream commits for a full list of changes. Enhancements Add a full \"lockfile\" to tool receipts ( #18937 ) Allow scoped overrides to add dependencies ( #19974 ) Avoid writing redundant lockfile markers with tool.uv.environments ( #19933 ) Factor supported environments out of lockfil",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "SDK-3.13.0-253.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-253.0.dev",
+      "published": "2026-06-27T00:48:10Z",
+      "preview": "SDK 3.13.0-253.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-252.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-252.0.dev",
+      "published": "2026-06-27T00:48:07Z",
+      "preview": "SDK 3.13.0-252.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-251.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-251.0.dev",
+      "published": "2026-06-27T00:48:05Z",
+      "preview": "SDK 3.13.0-251.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-250.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-250.0.dev",
+      "published": "2026-06-27T00:48:02Z",
+      "preview": "SDK 3.13.0-250.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-249.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-249.0.dev",
+      "published": "2026-06-27T00:48:00Z",
+      "preview": "SDK 3.13.0-249.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "43.244.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.244.3",
@@ -150,14 +198,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.13.0-243.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-243.0.dev",
-      "published": "2026-06-26T00:50:31Z",
-      "preview": "SDK 3.13.0-243.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "43.243.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.243.2",
       "published": "2026-06-26T00:47:03Z",
@@ -268,38 +308,6 @@
       "preview": "Release mise-sigstore 2026.6.2",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "SDK-3.13.0-242.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-242.0.dev",
-      "published": "2026-06-25T00:49:07Z",
-      "preview": "SDK 3.13.0-242.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-241.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-241.0.dev",
-      "published": "2026-06-25T00:49:05Z",
-      "preview": "SDK 3.13.0-241.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-240.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-240.0.dev",
-      "published": "2026-06-25T00:49:03Z",
-      "preview": "SDK 3.13.0-240.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-239.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-239.0.dev",
-      "published": "2026-06-25T00:49:01Z",
-      "preview": "SDK 3.13.0-239.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "Bridging conda and PyPI ecosystems: Install PyPI packages with conda install",
@@ -1820,14 +1828,6 @@
       "preview": "Deployment at 2026-05-28T10:39:17.154788Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "Announcing Rust 1.96.0",
-      "url": "https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/",
-      "published": "2026-05-28T00:00:00Z",
-      "preview": "The Rust team is happy to announce a new version of Rust, 1.96.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.96.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.96.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
