@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-27T18:44:48Z",
-  "cutoff": "2026-05-28T18:44:44Z",
+  "generated": "2026-06-27T21:41:03Z",
+  "cutoff": "2026-05-28T21:40:59Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -1748,14 +1748,6 @@
       "preview": "pnpm 11.5 adds a hoistingLimits setting for controlling how far dependencies hoist in nodeLinker: hoisted installs, replaces the interactive prompt library to fix scrolling in long choice lists, recognizes staged publishes in the trust scale, and ships several install and dist-tag fixes.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "0.11.17",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.17",
-      "published": "2026-05-28T20:41:06Z",
-      "preview": "Release Notes Released on 2026-05-28. Enhancements Add a diagnostic for uv add with standard library modules ( #19572 ) Expose uv workspace and its list subcommand in help output ( #19533 ) Improve the \"403 forbidden\" hint to suggest ignore-error-codes when applicable ( #19521 ) Skip direct URL lock freshness checks while offline ( #19596 ) Add import-names and import-namespaces support to uv-build ( PEP 794 ) ( #19380 ) Add a --no-editable-package flag to various commands ( #19584 ) Infer Python version requests from source trees in uv tool invocations ( #19577 ) Preview features Add module o",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
