@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-27T22:40:49Z",
-  "cutoff": "2026-05-28T22:40:45Z",
+  "generated": "2026-06-27T23:39:25Z",
+  "cutoff": "2026-05-28T23:39:20Z",
   "feed_count": 79,
-  "item_count": 212,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -638,6 +638,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "Helm v3.21.2",
+      "url": "https://github.com/helm/helm/releases/tag/v3.21.2",
+      "published": "2026-06-20T17:19:31Z",
+      "preview": "Helm v3.21.2 is a patch release to correct bump the Kubernetes client libraries (client-go, etc) to match the expected Kubernetes v1.36 release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Update Kubernetes client libraries to v1.36 Installation and Upgrading Download H",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
       "title": "0.11.23",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.23",
       "published": "2026-06-19T18:42:52Z",
@@ -844,6 +852,14 @@
       "preview": "What's Changed Use exact version in GHA comments by @facutuesca in #1830 Preserve installer errors during package name detection by @marko1olo in #1836 Fix pipx.util import cycle by @marko1olo in #1831 Expose man pages for editable local installs by @marko1olo in #1832 Restore package after interrupted reinstall by @puneetdixit200 in #1829 Fix inject --force reinstall behavior by @marko1olo in #1833 Fix pin --injected-only for pinned apps by @marko1olo in #1835 New Contributors @marko1olo made their first contribution in #1836 @puneetdixit200 made their first contribution in #1829 Full Changel",
       "source": "pipx releases",
       "category": "Python"
+    },
+    {
+      "title": "Helm v4.2.2",
+      "url": "https://github.com/helm/helm/releases/tag/v4.2.2",
+      "published": "2026-06-17T20:50:16Z",
+      "preview": "Helm v4.2.2 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Revert: Fixed a race condition in WaitForDelete where the status observer canceled the watch too early, causing intermittent failures when running a full test suite #32214 Installation and Upgra",
+      "source": "Helm releases",
+      "category": "Containers"
     },
     {
       "title": "7.9.0.35",
@@ -1115,6 +1131,22 @@
       "published": "2026-06-12T16:29:36Z",
       "preview": "1.55.0-rc.1 Changelog POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636 docs: clarify swarm join required f",
       "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "Helm v4.2.1",
+      "url": "https://github.com/helm/helm/releases/tag/v4.2.1",
+      "published": "2026-06-12T15:06:26Z",
+      "preview": "Helm v4.2.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Fixed data race detected by -race flag when concurrent goroutines (upgrade + rollback, install + uninstall) both call GetWaiterWithOptions on the same FailingKubeClient instance #31925 Fixed hel",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
+      "title": "Helm v3.21.1",
+      "url": "https://github.com/helm/helm/releases/tag/v3.21.1",
+      "published": "2026-06-12T14:51:31Z",
+      "preview": "Helm v3.21.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Fixed nil pointer panic that could happen with helm template in ClientOnly flows. Now correctly returns a template error #31920 Bumped golang.org/x/net to v0.55.0 to address GO-2026-5026 #32152",
+      "source": "Helm releases",
       "category": "Containers"
     },
     {
