@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-27T13:58:44Z",
-  "cutoff": "2026-05-28T13:58:39Z",
+  "generated": "2026-06-27T15:46:27Z",
+  "cutoff": "2026-05-28T15:46:23Z",
   "feed_count": 79,
-  "item_count": 221,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.245.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.245.0",
+      "published": "2026-06-27T15:31:32Z",
+      "preview": "43.245.0 (2026-06-27) Features onboarding: add a summary for detected package files ( #44258 ) ( bcd44b9 ), closes #41502 Miscellaneous Chores deps: update dependency memfs to v4.57.8 (main) ( #44271 ) ( 5281211 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.15.2-rc2",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc2",
@@ -290,14 +298,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.242.2",
       "published": "2026-06-25T06:09:25Z",
       "preview": "43.242.2 (2026-06-25) Bug Fixes manager/pub: Always populate pub extracted constraints ( #44220 ) ( 2258aa4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.242.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.242.1",
-      "published": "2026-06-25T04:47:39Z",
-      "preview": "43.242.1 (2026-06-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.67.1 (main) ( #44223 ) ( 50e5486 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.1 (main) ( #44221 ) ( 17b9886 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1780,14 +1780,6 @@
       "preview": "Feature: Limited support for python_requires in workspace, only in conanws.yml file. ( #20028 ). Docs: 📃 Feature: Added new public attribute binaries to the MesonToolchain generator. ( #20017 ) Feature: Add support for Apple OS 26.5 release. ( #19976 ) Feature: Document RemoveAPI . ( #19930 ) Feature: New global_user.conf file to locally customize global.conf . ( #19923 ). Docs: 📃 Feature: Add support for GCC 16. ( #19921 ) Fix: Forward -vxxx verbosity argument to conan workspace build/install packages. ( #20015 ) Fix: Add message when no packages found in conan list command. ( #20013 ) Fix: s",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "2.7.0",
-      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.0",
-      "published": "2026-05-28T15:05:02Z",
-      "preview": "As part of this release we had 11 issues closed. Dependency Change Update bundled 7zip executables to v26.00. See #3857 by AdmiringWorm , resolved in !3858 by AdmiringWorm . Enhancements Capture the source that was being used when searching for packages. See #3849 by gep13 , resolved in !3850 by gep13 . Bug Fix Chocolatey does not handle passwords with non ASCII characters when interacting with authenticating sources See #3600 by pfremy , resolved in !3762 by AdmiringWorm . Contributors 2 contributors made this release possible.",
-      "source": "Chocolatey releases",
-      "category": "System"
     }
   ]
 }
