@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-27T03:29:59Z",
-  "cutoff": "2026-05-28T03:29:55Z",
+  "generated": "2026-06-27T09:13:25Z",
+  "cutoff": "2026-05-28T09:13:21Z",
   "feed_count": 79,
-  "item_count": 226,
+  "item_count": 227,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.15.2-rc2",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc2",
+      "published": "2026-06-27T08:10:46Z",
+      "preview": "What's Changed Component updates ⬆️ [CHERRY-PICK] Make openapi-generator-cli download URL configurable ( #23186 ) by @chlins in #23221 bump Go version from 1.25.9 to 1.26.3 by @stonezdj in #23236 [cherry-pick] Rebuild goharbor/photon image before create new harbor base images by @jUDASmILE in #23250 [cherry-pick]remove install net-tools from db dockerfile as photon removed it by @jUDASmILE in #23267 [CHERRY-PICK] feat: replace redis with valkey as cache backend ( #23157 ) by @chlins in #23261 [CHERRY-PICK] test(cosign): disable tlog for signing checks by @chlins in #23280 [CHERRY-PICK] fix(cos",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
     {
       "title": "43.244.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.244.4",
