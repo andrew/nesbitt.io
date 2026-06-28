@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-28T20:42:59Z",
-  "cutoff": "2026-05-29T20:42:54Z",
+  "generated": "2026-06-28T23:41:51Z",
+  "cutoff": "2026-05-29T23:41:48Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 213,
   "categories": [
     ".NET",
     "C/C++",
@@ -1724,14 +1724,6 @@
       "preview": "What's Changed Add shared libs auto-upgrade opt-out by @Herrtian in #1809 Fix app script shebang isolation by @sjh9714 in #1819 Update deprecation message in get-pipx.py; obsoleted, not deprecated by @Spitfire1900 in #1813 docs: clarify runpip cache warnings by @Sean-Kenneth-Doherty in #1815 Refresh legacy standalone Python index cache by @Sean-Kenneth-Doherty in #1814 New Contributors @sjh9714 made their first contribution in #1819 @Sean-Kenneth-Doherty made their first contribution in #1815 Full Changelog : 1.12.0...1.13.0",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "Windows Package Manager 1.29.240",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.240",
-      "published": "2026-05-29T23:26:03Z",
-      "preview": "This is a release candidate of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . Note: This version is not fully localized yet. Localized strings will be included in a future build before stable release. New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the",
-      "source": "winget releases",
-      "category": "System"
     }
   ]
 }
