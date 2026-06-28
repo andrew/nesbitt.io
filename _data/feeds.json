@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T18:45:10Z",
-  "cutoff": "2026-05-29T18:45:07Z",
+  "generated": "2026-06-28T20:42:59Z",
+  "cutoff": "2026-05-29T20:42:54Z",
   "feed_count": 79,
   "item_count": 214,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.246.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.246.1",
+      "published": "2026-06-28T19:52:11Z",
+      "preview": "43.246.1 (2026-06-28) Build System deps: update dependency @renovatebot/osv-offline to v3.0.4 (main) ( #44278 ) ( 98b50a2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -260,14 +268,6 @@
       "preview": "[0.71.1] - 2026-06-25 ✨ Highlights This release brings a couple of bugfixes. The important thing though is that from now on releases are immutable . Added React to auth challenges for private channel reads by @nichmor in #6426 Fixed Ignore credentials when matching direct-URL PyPI deps by @temporaer in #6427 New Contributors @temporaer made their first contribution in #6427",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.243.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.243.0",
-      "published": "2026-06-25T15:48:29Z",
-      "preview": "43.243.0 (2026-06-25) Features replacements: add @aws-sdk/smithy-client to @smithy/smithy-client ( #44230 ) ( 04fb640 ) Bug Fixes datasource/crate: tolerate null metadata fields ( #44227 ) ( b84a54c ) Documentation don't show client-side rendered version number ( #44224 ) ( 62277c6 ) Miscellaneous Chores deps: update dependency pnpm to v11.8.0 (main) ( #44063 ) ( ed10a46 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.9.0",
