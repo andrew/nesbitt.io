@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T11:01:29Z",
-  "cutoff": "2026-05-29T11:01:25Z",
+  "generated": "2026-06-28T12:48:39Z",
+  "cutoff": "2026-05-29T12:48:35Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.9.0.61",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.61",
+      "published": "2026-06-28T12:27:44Z",
+      "preview": "Insert 7.9.0.61 into main on 06/28/2026 12:27:44",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -1060,14 +1068,6 @@
       "preview": "bug fixes fix: Fixes console that references Java module classes on JDK 9+ by @BrianHotopp in #9327 fix: Fixes sbt --version to now show JDK warnings on JDK 25 by @bitloi in #8822 fix: Fixes stdout/stderr not displaying on sbtn by @BrianHotopp in #9265 fix: Ensure resources are copied atomically by @anatoliykmetyuk in #9196 behind the scenes Update sbtn to 2.0.0-f0d2fae4 by @eed3si9n in #9334 test: Make custom-scala-org scripted test hermetic by @BrianHotopp in #9260 ci: Skip 2.13 modules from graph submission by @eed3si9n in #9328 Full Changelog : v1.12.11...v1.12.12",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "7.9.0.30",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.30",
-      "published": "2026-06-13T12:28:48Z",
-      "preview": "Insert 7.9.0.30 into main on 06/13/2026 12:28:48",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
