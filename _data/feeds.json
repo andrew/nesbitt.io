@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-28T16:44:08Z",
-  "cutoff": "2026-05-29T16:44:04Z",
+  "generated": "2026-06-28T18:45:10Z",
+  "cutoff": "2026-05-29T18:45:07Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -24,7 +24,7 @@
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-28T16:17:04Z",
+      "published": "2026-06-28T18:31:34Z",
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
@@ -1732,14 +1732,6 @@
       "preview": "This is a release candidate of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . Note: This version is not fully localized yet. Localized strings will be included in a future build before stable release. New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the",
       "source": "winget releases",
       "category": "System"
-    },
-    {
-      "title": "NuGet.Server 3.4.3",
-      "url": "https://github.com/NuGet/NuGet.Server/releases/tag/3.4.3",
-      "published": "2026-05-29T17:48:01Z",
-      "preview": "What's Changed Fixed a denial-of-service vulnerability (CWE-696/CWE-400) where unauthenticated callers could exhaust server resources via the package upload endpoint by moving API key validation before expensive file I/O and package processing. Full Changelog : 3.4.2...3.4.3",
-      "source": "NuGet.Server releases",
-      "category": ".NET"
     }
   ]
 }
