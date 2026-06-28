@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T12:48:39Z",
-  "cutoff": "2026-05-29T12:48:35Z",
+  "generated": "2026-06-28T14:55:16Z",
+  "cutoff": "2026-05-29T14:55:12Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.246.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.246.0",
+      "published": "2026-06-28T14:33:09Z",
+      "preview": "43.246.0 (2026-06-28) Features data: automatic update of static data ( #44274 ) ( 27b8785 ) Miscellaneous Chores deps: update dependency lint-staged to v17.0.8 (main) ( #44273 ) ( 2ac478d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.9.0.61",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.61",
@@ -300,14 +308,6 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-06-24-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.242.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.242.2",
-      "published": "2026-06-25T06:09:25Z",
-      "preview": "43.242.2 (2026-06-25) Bug Fixes manager/pub: Always populate pub extracted constraints ( #44220 ) ( 2258aa4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.6.14: Bootstrap, end-to-end",
