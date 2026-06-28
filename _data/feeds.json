@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T01:24:57Z",
-  "cutoff": "2026-05-29T01:24:53Z",
+  "generated": "2026-06-28T11:01:29Z",
+  "cutoff": "2026-05-29T11:01:25Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-06-28T10:41:49Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "SDK-3.13.0-254.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-254.0.dev",
@@ -180,14 +188,6 @@
       "preview": "chore: bump backend versions ( #6454 )",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-26T01:41:36Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "SDK-3.13.0-248.0.dev",
