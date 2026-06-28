@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-27T23:39:25Z",
-  "cutoff": "2026-05-28T23:39:20Z",
+  "generated": "2026-06-28T01:24:57Z",
+  "cutoff": "2026-05-29T01:24:53Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.13.0-254.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-254.0.dev",
+      "published": "2026-06-28T00:50:00Z",
+      "preview": "SDK 3.13.0-254.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "43.245.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.245.0",
@@ -210,14 +218,6 @@
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-245.0.dev",
       "published": "2026-06-26T00:50:35Z",
       "preview": "SDK 3.13.0-245.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-244.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-244.0.dev",
-      "published": "2026-06-26T00:50:33Z",
-      "preview": "SDK 3.13.0-244.0.dev",
       "source": "Pub releases",
       "category": "Registries"
     },
@@ -1740,14 +1740,6 @@
       "preview": "What's Changed Fixed a denial-of-service vulnerability (CWE-696/CWE-400) where unauthenticated callers could exhaust server resources via the package upload endpoint by moving API key validation before expensive file I/O and package processing. Full Changelog : 3.4.2...3.4.3",
       "source": "NuGet.Server releases",
       "category": ".NET"
-    },
-    {
-      "title": "pnpm 11.5",
-      "url": "https://pnpm.io/blog/releases/11.5",
-      "published": "2026-05-29T00:00:00Z",
-      "preview": "pnpm 11.5 adds a hoistingLimits setting for controlling how far dependencies hoist in nodeLinker: hoisted installs, replaces the interactive prompt library to fix scrolling in long choice lists, recognizes staged publishes in the trust scale, and ships several install and dist-tag fixes.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
