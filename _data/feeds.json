@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-29T13:48:34Z",
-  "cutoff": "2026-05-30T13:48:29Z",
+  "generated": "2026-06-29T15:32:01Z",
+  "cutoff": "2026-05-30T15:31:57Z",
   "feed_count": 79,
   "item_count": 213,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.30.0 (29-Jun-2026)",
+      "url": "https://github.com/conan-io/conan/releases/tag/2.30.0",
+      "published": "2026-06-29T14:36:27Z",
+      "preview": "Feature: Add SPDX expression support in SBOM generation. ( #20112 ) Feature: Add type annotations to LockfileAPI for improved IDE support. ( #20104 ) Feature: Add missing favicon to Conan HTML output. ( #20087 ) Feature: Implement the conf=~ for the \"unset\" operation (alias for conf=! ). ( #20084 ). Docs: 📃 Feature: Add ASFLAGS to AutotoolsToolchain / GnuToolchain , including architecture and sysroot flags. ( #20078 ). Docs: 📃 Feature: Add IntelCC support in Meson, Autotools and Premake toolchains. ( #20075 ). Docs: 📃 Feature: Model explicitly the msys2 environments (clang64, ucrt64, etc) in t",
+      "source": "Conan releases",
+      "category": "C/C++"
+    },
     {
       "title": "43.247.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.247.1",
@@ -1716,14 +1724,6 @@
       "preview": "Changes since v3.9.3: Major changes: On 64-bit Windows, the default msys-environment configuration option is now CLANG64 , rather than MINGW64 (which remains an option). The MSYS2 project deprecated the latter environment on 15 March 2026. The GHC project has used the former toolchain from GHC 9.4.1. No default is provided for 32-bit Windows, rather than MINGW32 (which remains an option). The MSYS2 project ceased to actively support it on 17 May 2020. 32-bit Windows is not supported by the GHC project from GHC 8.12. Behavior changes: Stack's default Nix integration now includes the cacert Nix ",
       "source": "Stack releases",
       "category": "Registries"
-    },
-    {
-      "title": "0.97.1",
-      "url": "https://github.com/rust-lang/cargo/releases/tag/0.97.1",
-      "published": "2026-05-30T14:34:07Z",
-      "preview": "0.97.1 release",
-      "source": "Cargo releases",
-      "category": "Rust"
     }
   ]
 }
