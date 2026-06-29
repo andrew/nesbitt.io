@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-29T03:30:44Z",
-  "cutoff": "2026-05-30T03:30:40Z",
+  "generated": "2026-06-29T05:58:38Z",
+  "cutoff": "2026-05-30T05:58:34Z",
   "feed_count": 79,
   "item_count": 214,
   "categories": [
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v2.0.1",
+      "title": "2.0.1",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.1",
-      "published": "2026-06-29T03:29:33Z",
-      "preview": "2.0.1",
+      "published": "2026-06-29T03:55:39Z",
+      "preview": "🐛 bug fixes fix: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk in #9374 fix: Fixes global plugin loading by @eed3si9n in #9391 / #9380 fix: Fixes sbt runner support on OpenBSD by @eed3si9n in #9394 fix: Fixes --allow-empty and --sbt-create by @anatoliykmetyuk in #9370 fix: Fixes BSP publishDiagnostics propagation by @anatoliykmetyuk in #9376 fix: Fixes macro expansion for higher-kinded type arguments by @tanishiking in #9377 fix: Fixes IllegalAccessError analyzing Java compiled with --add-exports by @jozanek in sbt/zinc#1714 / sbt/zinc#1729 fix: Fixes increment",
       "source": "sbt releases",
       "category": "Maven"
     },
