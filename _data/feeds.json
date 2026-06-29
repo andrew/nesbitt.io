@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-29T21:48:03Z",
-  "cutoff": "2026-05-30T21:47:57Z",
+  "generated": "2026-06-29T23:39:39Z",
+  "cutoff": "2026-05-30T23:39:34Z",
   "feed_count": 79,
-  "item_count": 213,
+  "item_count": 212,
   "categories": [
     ".NET",
     "C/C++",
@@ -1716,14 +1716,6 @@
       "preview": "Release 26.1.2",
       "source": "pip releases",
       "category": "Python"
-    },
-    {
-      "title": "rc/v3.11.0.1 (release candidate)",
-      "url": "https://github.com/commercialhaskell/stack/releases/tag/rc%2Fv3.11.0.1",
-      "published": "2026-05-30T22:47:18Z",
-      "preview": "Changes since v3.9.3: Major changes: On 64-bit Windows, the default msys-environment configuration option is now CLANG64 , rather than MINGW64 (which remains an option). The MSYS2 project deprecated the latter environment on 15 March 2026. The GHC project has used the former toolchain from GHC 9.4.1. No default is provided for 32-bit Windows, rather than MINGW32 (which remains an option). The MSYS2 project ceased to actively support it on 17 May 2020. 32-bit Windows is not supported by the GHC project from GHC 8.12. Behavior changes: Stack's default Nix integration now includes the cacert Nix ",
-      "source": "Stack releases",
-      "category": "Registries"
     }
   ]
 }
