@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-29T01:25:54Z",
-  "cutoff": "2026-05-30T01:25:50Z",
+  "generated": "2026-06-29T03:30:44Z",
+  "cutoff": "2026-05-30T03:30:40Z",
   "feed_count": 79,
-  "item_count": 212,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.0.1",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.1",
+      "published": "2026-06-29T03:29:33Z",
+      "preview": "2.0.1",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "v2.5.0",
+      "url": "https://github.com/hexpm/hex/releases/tag/v2.5.0",
+      "published": "2026-06-29T02:07:07Z",
+      "preview": "Enhancements Add organization-defined dependency policies that filter the package versions available during dependency resolution. An organization publishes a named policy through its repository, and a project opts into one with the policy config ( HEX_POLICY , [org: \"ORG\", name: \"NAME\"] in the mix.exs :hex block, or mix hex.config ). A policy constrains one or more repositories — typically the organization's own repo and hexpm — and for each can block releases that: carry a security advisory at or above a minimum severity are retired for one of a given set of reasons are newer than a release-",
+      "source": "Hex releases",
+      "category": "Elixir"
+    },
     {
       "title": "43.246.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.246.1",
