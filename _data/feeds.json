@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-29T17:16:00Z",
-  "cutoff": "2026-05-30T17:15:56Z",
+  "generated": "2026-06-29T21:48:03Z",
+  "cutoff": "2026-05-30T21:47:57Z",
   "feed_count": 79,
   "item_count": 213,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.249.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.0",
+      "published": "2026-06-29T21:28:36Z",
+      "preview": "43.249.0 (2026-06-29) Features cache: use binary envelopes for package cache writes ( #43922 ) ( 9ad7875 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.2 (main) ( #44293 ) ( 81040a4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "libnpmpack: v9.1.11",
       "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.11",
@@ -308,14 +316,6 @@
       "preview": "Security This release addresses CVE-2026-57231, where a malicious image using malformed Env entries could cause host environment variables to leak into containers run based on the image, including the ability to use the * glob operator to leak large numbers of environment variables without knowing their exact names ( GHSA-4hq8-gpf5-8p68 ). The golang.org/x/crypto library has been updated to v0.53.0, addressing CVE-2026-39830 and CVE-2026-42508 . Bugfixes Fixed a bug where the remote Podman client's podman save command would fail on Linux when using the -f oci-dir or -f docker-dir arguments.",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "43.244.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.244.1",
-      "published": "2026-06-26T13:00:28Z",
-      "preview": "43.244.1 (2026-06-26) Bug Fixes schema-utils: support for GitHub bot style email addresses ( #44249 ) ( 1e43d46 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.9.0.60",
