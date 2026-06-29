@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-29T08:09:49Z",
-  "cutoff": "2026-05-30T08:09:44Z",
+  "generated": "2026-06-29T09:56:21Z",
+  "cutoff": "2026-05-30T09:56:17Z",
   "feed_count": 79,
   "item_count": 213,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.71.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.71.2",
+      "published": "2026-06-29T08:47:19Z",
+      "preview": "[0.71.2] - 2026-06-29 ✨ Highlights This release features a couple of important bug fixes. Fixed Handle CONDA_OVERRIDE_* in pixi global install by @hunger in #6335 Convert custom-scheme channel URLs to https by @hunger in #6456 Preserve declared platforms for manifests without system-requirements by @hunger in #6458 Fix conda-pypi-mapping internet access in offline tests by @mgorny in #6438",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "43.247.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.247.0",
+      "published": "2026-06-29T08:35:05Z",
+      "preview": "43.247.0 (2026-06-29) Features versioning/node: support Semver pre-release versions for Node 27 ( #44281 ) ( 5d79039 ) Documentation update references to otel/opentelemetry-collector-contrib to v0.155.0 (main) ( #44280 ) ( 73a3334 ) update references to python to 5c48543 (main) ( #44279 ) ( a1669f3 ) update references to renovate/renovate (main) ( #44282 ) ( e84faa2 ) update references to renovatebot/github-action to v46.1.17 (main) ( #44284 ) ( ce5f708 ) Miscellaneous Chores deps: lock file maintenance (main) ( #44283 ) ( 5190e1a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.0.1",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.1",
@@ -266,14 +282,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.243.2",
       "published": "2026-06-26T00:47:03Z",
       "preview": "43.243.2 (2026-06-26) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.67.2 (main) ( #44241 ) ( f387cbe )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.243.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.243.1",
-      "published": "2026-06-25T18:05:20Z",
-      "preview": "43.243.1 (2026-06-25) Build System deps: update dependency cronstrue to v3.20.0 (main) ( #44238 ) ( 06153ae )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -532,14 +540,6 @@
       "preview": "What's Changed docs: drop advice to disable security or lower support tier by @MikeMcQuaid in #22749 release: exclude Dependabot PRs from changelog by @ZhongRuoyu in #22750 Document more supply-chain guardrails by @MikeMcQuaid in #22752 Allow tap trust in build sandbox by @MikeMcQuaid in #22751 Don't warn for partially trusted skipped taps by @MikeMcQuaid in #22755 services: check --sudo-service-user exists by @sexagesimal in #22763 Follow symlinked trust stores by @MikeMcQuaid in #22762 Annotate upgradable dependencies in install plans by @HaraldNordgren in #22761 livecheck: add compressed op",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "pixi-build-cmake-v0.4.2",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.2",
-      "published": "2026-06-22T09:53:13Z",
-      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-mojo-v0.2.2",
