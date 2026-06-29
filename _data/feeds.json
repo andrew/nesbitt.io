@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-29T15:32:01Z",
-  "cutoff": "2026-05-30T15:31:57Z",
+  "generated": "2026-06-29T17:16:00Z",
+  "cutoff": "2026-05-30T17:15:56Z",
   "feed_count": 79,
   "item_count": 213,
   "categories": [
@@ -21,6 +21,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "libnpmpack: v9.1.11",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.11",
+      "published": "2026-06-29T16:48:22Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v7.0.25",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.25",
+      "published": "2026-06-29T16:48:21Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v10.3.1",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v10.3.1",
+      "published": "2026-06-29T16:48:20Z",
+      "preview": "10.3.1 (2026-06-29) Bug Fixes f3f2465 #9692 exec: prevent shared binPaths pollution across workspace runs ( #9692 ) (@github-actions[bot], @arjun-vegeta ) b2e6338 #9602 arborist: don't flag inert optional deps in strict-allow-scripts ( #9602 ) (@github-actions[bot], @JamieMagee ) Dependencies workspace : @npmcli/arborist@9.9.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmdiff: v8.1.11",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.11",
+      "published": "2026-06-29T16:48:19Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.18.0",
+      "url": "https://github.com/npm/cli/releases/tag/v11.18.0",
+      "published": "2026-06-29T16:48:15Z",
+      "preview": "11.18.0 (2026-06-29) Features 3021ad6 #9694 arborist: extend replace-registry-host with URL prefix matching ( #6110 ) ( #9694 ) (@github-actions[bot], @u2mejc ) abd8c6b #9677 graduate the linked install strategy from experimental to stable ( #9677 ) (@github-actions[bot], @manzoorwanijk ) 9420673 #9662 install-scripts: prune unused allowScripts entries ( #9662 ) (@github-actions[bot], @JamieMagee ) fc9d4c7 #9635 namespace install-script approval commands under npm install-scripts ( #9635 ) ( @manzoorwanijk ) 073253f #9564 warn when min-release-age blocks an audit fix ( #9564 ) (@github-actions",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v8.0.0-pre.1",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.0-pre.1",
+      "published": "2026-06-29T16:42:27Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.0-pre.2",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmpack: v10.0.0-pre.2",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.0-pre.2",
+      "published": "2026-06-29T16:42:27Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.0-pre.2",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v11.0.0-pre.1",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.0-pre.1",
+      "published": "2026-06-29T16:42:26Z",
+      "preview": "11.0.0-pre.1 (2026-06-29) Bug Fixes 18b930f #9650 exec: prevent shared binPaths pollution across workspace runs ( #9650 ) ( @arjun-vegeta ) 7655822 #9597 arborist: don't flag inert optional deps in strict-allow-scripts ( #9597 ) ( @JamieMagee ) Dependencies workspace : @npmcli/arborist@10.0.0-pre.2",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmdiff: v9.0.0-pre.1",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v9.0.0-pre.1",
+      "published": "2026-06-29T16:42:25Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.0-pre.2",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.0.0-pre.2",
+      "url": "https://github.com/npm/cli/releases/tag/v12.0.0-pre.2",
+      "published": "2026-06-29T16:42:21Z",
+      "preview": "12.0.0-pre.2 (2026-06-29) Features b51d156 #9672 arborist: extend replace-registry-host with URL prefix matching ( #6110 ) ( #9672 ) ( @u2mejc ) 86416a6 #9674 graduate the linked install strategy from experimental to stable ( #9674 ) ( @manzoorwanijk ) c4e5356 #9651 install-scripts: prune unused allowScripts entries ( #9651 ) ( @JamieMagee ) 0c4dd41 #9629 namespace install-script approval commands under npm install-scripts ( #9629 ) ( @manzoorwanijk ) 58cd8f5 #9586 .npm-extension transformManifest for imperative manifest repairs ( #9586 ) ( @manzoorwanijk ) Bug Fixes 024e6d9 #9670 sbom: percen",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "43.248.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.248.0",
+      "published": "2026-06-29T16:02:05Z",
+      "preview": "43.248.0 (2026-06-29) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.69.0 (main) ( #44290 ) ( b9e7f04 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.30.0 (29-Jun-2026)",
       "url": "https://github.com/conan-io/conan/releases/tag/2.30.0",
@@ -244,14 +332,6 @@
       "preview": "29.6.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.1 milestone moby/moby, 29.6.1 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. A malicious image could supply a malicious /etc/passwd or /etc/group -style file causing excessive memory consumption, potentially resulting in process termination due to Out Of Memory (OOM) conditions. GHSA-mjcv-p78q-w5fw , GHSA-jpcc-p29g-p8mq , GHSA-72x6-4j93-7w86 A custom frontend could send a crafted build request that disabled",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "43.244.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.244.0",
-      "published": "2026-06-26T11:52:53Z",
-      "preview": "43.244.0 (2026-06-26) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.68.0 (main) ( #44250 ) ( 8f38e3a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pixi-build-python-v0.8.0",
@@ -684,86 +764,6 @@
       "preview": "Release Notes Released on 2026-06-19. Bug fixes Revert \"Fix transparent Python upgrades in project environments\" to mitigate unintended breakage in pre-commit-uv ( #19925 ) Restore old behavior where workspace members \"hidden\" by an intermediate pyproject.toml would be treated as standalone projects ( #19926 ) Install uv 0.11.23 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.23/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://re",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "libnpmversion: v9.0.0-pre.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmversion-v9.0.0-pre.1",
-      "published": "2026-06-19T15:26:01Z",
-      "preview": "9.0.0-pre.1 (2026-06-19) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 18eb967 #9559 bump to new node engine range ( @owlstronaut ) Bug Fixes c5292fa #9422 use prerelease strategy without a bug ( @owlstronaut ) Documentation d124c08 #9385 Document npm_old_version and npm_new_version environment variables ( #9385 ) ( @36degrees ) Dependencies 3dc18e5 #9559 @npmcli/git@8.0.0 21df0ab #9559 proc-log@7.0.0 30e89d9 #9559 json-parse-even-better-errors@6.0.0 9d13ebf #9559 @npmcli/run-script@11.0.0 Chores 0323f2d #9559 template-oss-apply ( @owlstronaut ) ee3d87f #9",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmteam: v9.0.0-pre.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmteam-v9.0.0-pre.0",
-      "published": "2026-06-19T15:26:00Z",
-      "preview": "9.0.0-pre.0 (2026-06-19) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 18eb967 #9559 bump to new node engine range ( @owlstronaut ) Dependencies 1f9c567 #9559 npm-registry-fetch@20.0.1 Chores 1453954 #9559 nock@14.0.0 ( @owlstronaut ) 0323f2d #9559 template-oss-apply ( @owlstronaut ) ee3d87f #9559 @npmcli/template-oss@5.1.1 ( @owlstronaut ) d25a179 #9559 template-oss-apply ( @owlstronaut ) 40fcab4 #8991 @npmcli/template-oss@4.29.0 ( @wraithgar ) 5e0909b #8620 fix spelling in workspaces ( #8620 ) ( @jsoref )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmsearch: v10.0.0-pre.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmsearch-v10.0.0-pre.0",
-      "published": "2026-06-19T15:25:59Z",
-      "preview": "10.0.0-pre.0 (2026-06-19) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 18eb967 #9559 bump to new node engine range ( @owlstronaut ) Dependencies 1f9c567 #9559 npm-registry-fetch@20.0.1 Chores 1453954 #9559 nock@14.0.0 ( @owlstronaut ) 0323f2d #9559 template-oss-apply ( @owlstronaut ) ee3d87f #9559 @npmcli/template-oss@5.1.1 ( @owlstronaut ) d25a179 #9559 template-oss-apply ( @owlstronaut ) 40fcab4 #8991 @npmcli/template-oss@4.29.0 ( @wraithgar ) 5e0909b #8620 fix spelling in workspaces ( #8620 ) ( @jsoref )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmpublish: v12.0.0-pre.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpublish-v12.0.0-pre.0",
-      "published": "2026-06-19T15:25:58Z",
-      "preview": "12.0.0-pre.0 (2026-06-19) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 opts.access now defaults to null instead of 'public' . With null , libnpmpublish no longer sets an explicit access level in the publish payload, so new scoped packages are created as restricted (registry default) and republishes preserve the existing access level. Callers that want to force public access must now pass access: 'public' explicitly. Features ce7681f #9496 packageExtensions for root-owned dependency manifest repairs ( #9496 ) ( @manzoorwanijk ) 1db885c #9439 native dependency patch",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmpack: v10.0.0-pre.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.0-pre.1",
-      "published": "2026-06-19T15:25:57Z",
-      "preview": "10.0.0-pre.1 (2026-06-19) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 allow-git and allow-remote now default to \"none\"; set them to \"all\" (or \"root\") to install git or user-supplied tarball-URL dependencies. Features 18eb967 #9559 bump to new node engine range ( @owlstronaut ) caa3295 #9466 default allow-git and allow-remote to none ( @owlstronaut ) Bug Fixes 76f8059 #9446 flatten path separators in pack output filename ( #9446 ) ( @rootvector2 ) c5292fa #9422 use prerelease strategy without a bug ( @owlstronaut ) Dependencies a44c1cf #9559 pacote@22.0.0 d80859a ",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmorg: v9.0.0-pre.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmorg-v9.0.0-pre.0",
-      "published": "2026-06-19T15:25:56Z",
-      "preview": "9.0.0-pre.0 (2026-06-19) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 18eb967 #9559 bump to new node engine range ( @owlstronaut ) Dependencies 1f9c567 #9559 npm-registry-fetch@20.0.1 Chores 1453954 #9559 nock@14.0.0 ( @owlstronaut ) 0323f2d #9559 template-oss-apply ( @owlstronaut ) ee3d87f #9559 @npmcli/template-oss@5.1.1 ( @owlstronaut ) d25a179 #9559 template-oss-apply ( @owlstronaut ) 40fcab4 #8991 @npmcli/template-oss@4.29.0 ( @wraithgar ) 5e0909b #8620 fix spelling in workspaces ( #8620 ) ( @jsoref )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmfund: v8.0.0-pre.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.0-pre.0",
-      "published": "2026-06-19T15:25:55Z",
-      "preview": "8.0.0-pre.0 (2026-06-19) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 18eb967 #9559 bump to new node engine range ( @owlstronaut ) Bug Fixes c5292fa #9422 use prerelease strategy without a bug ( @owlstronaut ) Chores 0323f2d #9559 template-oss-apply ( @owlstronaut ) ee3d87f #9559 @npmcli/template-oss@5.1.1 ( @owlstronaut ) d25a179 #9559 template-oss-apply ( @owlstronaut ) Dependencies workspace : @npmcli/arborist@10.0.0-pre.1",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmexec: v11.0.0-pre.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.0-pre.0",
-      "published": "2026-06-19T15:25:54Z",
-      "preview": "11.0.0-pre.0 (2026-06-19) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 18eb967 #9559 bump to new node engine range ( @owlstronaut ) 64e3f79 #9480 allowScripts tooling and inBundle hardening ( #9480 ) ( @JamieMagee ) Bug Fixes 6901bb1 #9436 escape executable name in libnpmexec run-script ( #9436 ) ( @rootvector2 ) c5292fa #9422 use prerelease strategy without a bug ( @owlstronaut ) 6237783 #9408 exempt local project introspection from allow-directory ( @owlstronaut ) Dependencies b62db95 #9559 bin-links@7.0.0 3484d7f #9559 read@6.0.0 21df0ab #9559 proc-log",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmdiff: v9.0.0-pre.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v9.0.0-pre.0",
-      "published": "2026-06-19T15:25:53Z",
-      "preview": "9.0.0-pre.0 (2026-06-19) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 allow-git and allow-remote now default to \"none\"; set them to \"all\" (or \"root\") to install git or user-supplied tarball-URL dependencies. Features 18eb967 #9559 bump to new node engine range ( @owlstronaut ) caa3295 #9466 default allow-git and allow-remote to none ( @owlstronaut ) Bug Fixes c5292fa #9422 use prerelease strategy without a bug ( @owlstronaut ) Dependencies cc96d57 #9559 @npmcli/installed-package-contents@5.0.0 a44c1cf #9559 pacote@22.0.0 d80859a #9559 npm-package-arg@14.0.0 Chores",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.0.0-pre.1",
-      "url": "https://github.com/npm/cli/releases/tag/v12.0.0-pre.1",
-      "published": "2026-06-19T15:25:48Z",
-      "preview": "12.0.0-pre.1 (2026-06-19) ⚠️ BREAKING CHANGES Preserve https protocol when working with git ( #8703 ) The default license for npm init has been changed from \"ISC\" to an empty string. If not set, the license field will be omitted from new packages. npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 allow-git and allow-remote now default to \"none\"; set them to \"all\" (or \"root\") to install git or user-supplied tarball-URL dependencies. root `preinstall` now runs before dependencies are installed. unknown configs in .npmrc, unknown CLI flags, abbreviated flags, and single-hyphen multi-char sho",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "7.9.0.37",
