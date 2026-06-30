@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-30T01:20:27Z",
-  "cutoff": "2026-05-31T01:20:23Z",
+  "generated": "2026-06-30T09:30:40Z",
+  "cutoff": "2026-05-31T09:30:34Z",
   "feed_count": 79,
   "item_count": 213,
   "categories": [
@@ -21,6 +21,70 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pixi-build-cmake-v0.4.3",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.3",
+      "published": "2026-06-30T08:26:39Z",
+      "preview": "chore: bump backend versions ( #6480 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-mojo-v0.2.3",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.3",
+      "published": "2026-06-30T08:26:39Z",
+      "preview": "chore: bump backend versions ( #6480 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-python-v0.8.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.8.2",
+      "published": "2026-06-30T08:26:39Z",
+      "preview": "chore: bump backend versions ( #6480 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-r-v0.1.4",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-r-v0.1.4",
+      "published": "2026-06-30T08:26:39Z",
+      "preview": "chore: bump backend versions ( #6480 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rattler-build-v0.4.3",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.4.3",
+      "published": "2026-06-30T08:26:39Z",
+      "preview": "chore: bump backend versions ( #6480 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-ros-v0.6.3",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.6.3",
+      "published": "2026-06-30T08:26:39Z",
+      "preview": "chore: bump backend versions ( #6480 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rust-v0.5.3",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rust-v0.5.3",
+      "published": "2026-06-30T08:26:39Z",
+      "preview": "chore: bump backend versions ( #6480 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-python-v0.8.1",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.8.1",
+      "published": "2026-06-30T07:39:58Z",
+      "preview": "chore: bump backend versions ( #6478 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "6.0.6",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.6",
@@ -382,14 +446,6 @@
       "category": "Registries"
     },
     {
-      "title": "v0.71.1",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.71.1",
-      "published": "2026-06-25T16:27:29Z",
-      "preview": "[0.71.1] - 2026-06-25 ✨ Highlights This release brings a couple of bugfixes. The important thing though is that from now on releases are immutable . Added React to auth challenges for private channel reads by @nichmor in #6426 Fixed Ignore credentials when matching direct-URL PyPI deps by @temporaer in #6427 New Contributors @temporaer made their first contribution in #6427",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v2.9.0",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.0",
       "published": "2026-06-25T15:00:40Z",
@@ -510,14 +566,6 @@
       "category": ".NET"
     },
     {
-      "title": "0.71.0 - 2026-06-24",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.71.0",
-      "published": "2026-06-24T13:14:50Z",
-      "preview": "Release Notes ✨ Highlights This release adds a lot of exciting features. ⚠️ Breaking: Configurable Conda to PyPI name mappings Pixi now gives you more control over how conda packages are matched to PyPI packages. Previously you could already have an external map, in a file that overwrote the mappings we generate with parselmouth There were a couple of problems though: It was alwys a full overwrite, We write a single-file compressed mapping, but it was not usable directly in Pixi and needed to be modified. Especially 2, limited people on corporate networks to host their own mappings. We've now ",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "7.9.0.51",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.51",
       "published": "2026-06-24T12:22:28Z",
@@ -636,54 +684,6 @@
       "preview": "What's Changed docs: drop advice to disable security or lower support tier by @MikeMcQuaid in #22749 release: exclude Dependabot PRs from changelog by @ZhongRuoyu in #22750 Document more supply-chain guardrails by @MikeMcQuaid in #22752 Allow tap trust in build sandbox by @MikeMcQuaid in #22751 Don't warn for partially trusted skipped taps by @MikeMcQuaid in #22755 services: check --sudo-service-user exists by @sexagesimal in #22763 Follow symlinked trust stores by @MikeMcQuaid in #22762 Annotate upgradable dependencies in install plans by @HaraldNordgren in #22761 livecheck: add compressed op",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "pixi-build-mojo-v0.2.2",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.2",
-      "published": "2026-06-22T09:53:13Z",
-      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-python-v0.7.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.7.0",
-      "published": "2026-06-22T09:53:13Z",
-      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-r-v0.1.3",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-r-v0.1.3",
-      "published": "2026-06-22T09:53:13Z",
-      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-rattler-build-v0.4.2",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.4.2",
-      "published": "2026-06-22T09:53:13Z",
-      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-ros-v0.6.2",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.6.2",
-      "published": "2026-06-22T09:53:13Z",
-      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-rust-v0.5.2",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rust-v0.5.2",
-      "published": "2026-06-22T09:53:13Z",
-      "preview": "chore: make backend release-script also work with ssh ( #6414 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "v2026.6.12: Bootstrap skip, cross-platform lock checksums, DNF5 fix",
