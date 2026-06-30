@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-30T14:01:34Z",
-  "cutoff": "2026-05-31T14:01:30Z",
+  "generated": "2026-06-30T15:14:10Z",
+  "cutoff": "2026-05-31T15:14:06Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.11.26",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.26",
+      "published": "2026-06-30T14:53:17Z",
+      "preview": "Release Notes Released on 2026-06-30. Performance Adapt uv to IDs-only PubGrub dependencies ( #20048 ) Avoid allocations in ForkMap::contains ( #20023 ) Reuse resolver work across PubGrub iterations ( #20020 ) Speed up candidate selection for disjoint ranges ( #20026 ) Bug fixes Warn when the build cache is inside the source directory ( #20056 ) Install uv 0.11.26 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.26/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -Execut",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "v0.71.3",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.71.3",
