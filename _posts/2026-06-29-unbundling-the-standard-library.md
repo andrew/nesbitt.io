@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mpisu6ortb2d"
 ---
 
 I got sent a link to [a pull request](https://github.com/DanBurton/composition/pull/6) against [Dan Burton](https://github.com/DanBurton)'s `composition`, a tiny Haskell package whose whole gimmick is that it depends on nothing, not even `base`. The upcoming GHC 10.2 breaks it: built-in names resolve through a real module, `GHC.Essentials`, which is in `base`, so from 10.2 every package picks up an implicit `base` dependency whether the cabal file declares one or not. The PR added a flag to opt out of that. Dan closed it and shipped a 2.0 that depends on `base` like everything else, on the grounds that the zero-dependency claim had always been a polite fiction about where the compiler's wired-in identifiers came from.

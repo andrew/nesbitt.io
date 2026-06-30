@@ -7,6 +7,7 @@ tags:
   - open-source
   - maintainers
   - sustainability
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mpisu6y5pv2l"
 ---
 
 I spent last week at [UN Open Source Week](https://www.unopensource.org), where officials from a dozen governments stood up in turn and described open source as critical infrastructure. That framing has been the standard one since Nadia Eghbal's [*Roads and Bridges*](https://www.fordfoundation.org/work/learning/research-reports/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/) report for the Ford Foundation in 2016, and after ten years it has finally reached the audience it describes. Sitting in a UN conference room full of people whose job is public infrastructure, I started wondering what it would mean to stop treating the title as a metaphor and look at how bridges are actually maintained.
