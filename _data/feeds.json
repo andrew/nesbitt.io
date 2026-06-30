@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-30T13:02:23Z",
-  "cutoff": "2026-05-31T13:02:17Z",
+  "generated": "2026-06-30T14:01:34Z",
+  "cutoff": "2026-05-31T14:01:30Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.71.3",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.71.3",
+      "published": "2026-06-30T13:57:10Z",
+      "preview": "[0.71.3] - 2026-06-30 ✨ Highlights We fixed a couple of bugs, so here's the bugfix release! Added Show resolved anaconda.org owner/label and warn on non-main labels by @wolfv in #6391 Implement serde for more types by @Hofer-Julian in #6481 Documentation Setup-pixi post-cleanup now defaults to false by @Hofer-Julian in #6465 Fixed Yet another failure to convert system-requirements to richplatforms by @hunger in #6471 Read env var BUILD_EDITABLE_PYTHON consistently by @Hofer-Julian in #6469 Source dependency matchspec conversion by @wolfv in #6470 Drop repodata gateway before indexing local cha",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "7.9.0.62",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.62",
@@ -452,14 +460,6 @@
       "preview": "29.6.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.1 milestone moby/moby, 29.6.1 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. A malicious image could supply a malicious /etc/passwd or /etc/group -style file causing excessive memory consumption, potentially resulting in process termination due to Out Of Memory (OOM) conditions. GHSA-mjcv-p78q-w5fw , GHSA-jpcc-p29g-p8mq , GHSA-72x6-4j93-7w86 A custom frontend could send a crafted build request that disabled",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "pixi-build-python-v0.8.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.8.0",
-      "published": "2026-06-26T07:41:40Z",
-      "preview": "chore: bump backend versions ( #6454 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "SDK-3.13.0-248.0.dev",
