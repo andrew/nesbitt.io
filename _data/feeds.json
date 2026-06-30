@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-29T23:39:39Z",
-  "cutoff": "2026-05-30T23:39:34Z",
+  "generated": "2026-06-30T01:20:27Z",
+  "cutoff": "2026-05-31T01:20:23Z",
   "feed_count": 79,
-  "item_count": 212,
+  "item_count": 213,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "6.0.6",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.6",
+      "published": "2026-06-30T01:17:41Z",
+      "preview": "What's Changed Flag scoped service path helpers by @MikeMcQuaid in #22858 linkage_checker: always report incorrect :no_linkage by @cho-m in #22887 Cleanup brew-rs leftovers by @botantony in #22895 Add shared Utils::Path.ensure_child_of! containment helper by @p-linnane in #22890 test: add :needs_daemon_manager to some tests by @cho-m in #22905 test/cmd/update_spec: fix local test run failures by @cho-m in #22906 Resolve patch targets via patch --dry-run for containment by @p-linnane in #22908 Revalidate tap restrictions for git redirects by @p-linnane in #22909 Full Changelog : 6.0.5...6.0.6",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "SDK-3.13.0-257.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-257.0.dev",
+      "published": "2026-06-30T00:48:37Z",
+      "preview": "SDK 3.13.0-257.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-256.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-256.0.dev",
+      "published": "2026-06-30T00:48:35Z",
+      "preview": "SDK 3.13.0-256.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-255.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-255.0.dev",
+      "published": "2026-06-30T00:48:33Z",
+      "preview": "SDK 3.13.0-255.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "43.249.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.0",
@@ -346,30 +378,6 @@
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-248.0.dev",
       "published": "2026-06-26T00:50:42Z",
       "preview": "SDK 3.13.0-248.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-247.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-247.0.dev",
-      "published": "2026-06-26T00:50:39Z",
-      "preview": "SDK 3.13.0-247.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-246.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-246.0.dev",
-      "published": "2026-06-26T00:50:37Z",
-      "preview": "SDK 3.13.0-246.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-245.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-245.0.dev",
-      "published": "2026-06-26T00:50:35Z",
-      "preview": "SDK 3.13.0-245.0.dev",
       "source": "Pub releases",
       "category": "Registries"
     },
