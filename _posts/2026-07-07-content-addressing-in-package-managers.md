@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Content addressing in package managers"
-date: 2026-07-01 10:00 +0000
+date: 2026-07-07 10:00 +0000
 description: "Names are for humans, hashes are for everything else"
 tags:
   - package-managers
   - security
-  - supply-chain
   - reference
 ---
 
