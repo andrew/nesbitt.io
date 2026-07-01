@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-30T23:44:56Z",
-  "cutoff": "2026-05-31T23:44:35Z",
+  "generated": "2026-07-01T01:26:07Z",
+  "cutoff": "2026-06-01T01:26:03Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.13.0-262.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-262.0.dev",
+      "published": "2026-07-01T00:59:53Z",
+      "preview": "SDK 3.13.0-262.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-261.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-261.0.dev",
+      "published": "2026-07-01T00:59:50Z",
+      "preview": "SDK 3.13.0-261.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-260.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-260.0.dev",
+      "published": "2026-07-01T00:59:47Z",
+      "preview": "SDK 3.13.0-260.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-259.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-259.0.dev",
+      "published": "2026-07-01T00:59:44Z",
+      "preview": "SDK 3.13.0-259.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-258.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-258.0.dev",
+      "published": "2026-07-01T00:59:41Z",
+      "preview": "SDK 3.13.0-258.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.249.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.5",
+      "published": "2026-07-01T00:48:34Z",
+      "preview": "43.249.5 (2026-07-01) Build System deps: update aws-sdk-js-v3 monorepo to v3.1075.0 (main) ( #44316 ) ( 0744b7c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -358,14 +406,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "43.246.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.246.0",
-      "published": "2026-06-28T14:33:09Z",
-      "preview": "43.246.0 (2026-06-28) Features data: automatic update of static data ( #44274 ) ( 27b8785 ) Miscellaneous Chores deps: update dependency lint-staged to v17.0.8 (main) ( #44273 ) ( 2ac478d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "7.9.0.61",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.61",
       "published": "2026-06-28T12:27:44Z",
@@ -402,38 +442,6 @@
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-253.0.dev",
       "published": "2026-06-27T00:48:10Z",
       "preview": "SDK 3.13.0-253.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-252.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-252.0.dev",
-      "published": "2026-06-27T00:48:07Z",
-      "preview": "SDK 3.13.0-252.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-251.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-251.0.dev",
-      "published": "2026-06-27T00:48:05Z",
-      "preview": "SDK 3.13.0-251.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-250.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-250.0.dev",
-      "published": "2026-06-27T00:48:02Z",
-      "preview": "SDK 3.13.0-250.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-249.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-249.0.dev",
-      "published": "2026-06-27T00:48:00Z",
-      "preview": "SDK 3.13.0-249.0.dev",
       "source": "Pub releases",
       "category": "Registries"
     },
@@ -476,14 +484,6 @@
       "preview": "29.6.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.1 milestone moby/moby, 29.6.1 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. A malicious image could supply a malicious /etc/passwd or /etc/group -style file causing excessive memory consumption, potentially resulting in process termination due to Out Of Memory (OOM) conditions. GHSA-mjcv-p78q-w5fw , GHSA-jpcc-p29g-p8mq , GHSA-72x6-4j93-7w86 A custom frontend could send a crafted build request that disabled",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "SDK-3.13.0-248.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-248.0.dev",
-      "published": "2026-06-26T00:50:42Z",
-      "preview": "SDK 3.13.0-248.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "v2.9.0",
