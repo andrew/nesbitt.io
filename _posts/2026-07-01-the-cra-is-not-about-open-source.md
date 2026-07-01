@@ -7,6 +7,7 @@ tags:
   - open-source
   - sustainability
   - policy
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mplo3qwdpe22"
 ---
 
 At [FOSDEM](https://fosdem.org/2026/) in February and again at [UN Open Source Week](https://www.unopensource.org) last week, the [Cyber Resilience Act](https://eur-lex.europa.eu/eli/reg/2024/2847/oj) was the answer on offer whenever anyone asked what governments are doing about open source security, and the foundations and corporate advocates presenting it framed it as good news for open source. It is the largest piece of software legislation the EU has passed, the open source community spent two years lobbying over its text, and its main obligations come into force in December 2027.
