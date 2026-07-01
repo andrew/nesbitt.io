@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-01T16:11:52Z",
-  "cutoff": "2026-06-01T16:11:48Z",
+  "generated": "2026-07-01T17:03:04Z",
+  "cutoff": "2026-06-01T17:03:00Z",
   "feed_count": 79,
-  "item_count": 213,
+  "item_count": 212,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v2.9.1: 2.9.1 (#35669)",
+      "title": "v2.9.1",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.1",
-      "published": "2026-07-01T13:28:43Z",
-      "preview": "Bumped versions for 2.9.1 Co-authored-by: bartlomieju bartlomieju@users.noreply.github.com Co-authored-by: Bartek Iwańczuk biwanczuk@gmail.com",
+      "published": "2026-07-01T16:31:16Z",
+      "preview": "2.9.1 / 2026.07.01 feat(check): add --desktop flag to type-check for deno desktop ( #35644 ) feat(desktop): register deep-link URL schemes at bundle time ( #35466 ) feat: update laufey to 0.5.0 ( #35663 ) fix(bundle): emit CSSStyleSheet for CSS raw imports ( #35598 ) fix(cache): skip checksums for cached 404 entries ( #35526 ) fix(config): don't strip workspace-member includes from deploy config ( #34788 ) fix(core): apply deferred fast-call op upgrade to the captured bootstrap clone ( #35630 ) fix(core): prevent shared-buffer timer expiry race from losing timers ( #35312 ) fix(desktop): defau",
       "source": "Deno releases",
       "category": "JavaScript"
     },
@@ -1716,14 +1716,6 @@
       "preview": "What's Changed Accept libcurl.so as a provider of curl. by @podsvirov in #1984 Add arm64 CMake presets, delete MSI extraction. by @BillyONeal in #1995 Ignore HTTPS_PROXY and NO_PROXY if env variable is set to empty value by @TobiasFunk in #1988 x-add-version: Regenerate baseline on --all. by @BillyONeal in #2003 integrate install: Remove VS2015 integration. by @BillyONeal in #2011 Fix empty vs. unset environment variables on Windows. by @BillyONeal in #1997 Fix self-cascade bug in feature test baseline checking by @BillyONeal in #2017 x-download: more output, error if no asset cache configured",
       "source": "vcpkg releases",
       "category": "C/C++"
-    },
-    {
-      "title": "2.7.0.alpha0",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.7.0.alpha0",
-      "published": "2026-06-01T16:18:17Z",
-      "preview": "You can update micromamba to this pre-release version using: micromamba self-update -c conda-forge/label/micromamba_prerelease \"micromamba==2.7.0.alpha0\" Bug fixes: [libmamba] fix: Harden noarch:python entry point linking by @jjerphan in #4282 [libmamba] fix: Guard Root Packages' Expansion by @jjerphan in #4283 [micromamba, libmamba] fix: Adapt root packages expansion by @jjerphan in #4298 [micromamba, libmamba] fix: Populate python_site_packages_path independently from host by @jjerphan in #4288 [libmamba] Fallback to flat cache dir if missing hierarchical by @Hind-M in #4290 [micromamba, lib",
-      "source": "Mamba releases",
-      "category": "Multi-language"
     }
   ]
 }
