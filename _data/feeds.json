@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-01T14:07:36Z",
-  "cutoff": "2026-06-01T14:07:31Z",
+  "generated": "2026-07-01T16:11:52Z",
+  "cutoff": "2026-06-01T16:11:48Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 213,
   "categories": [
     ".NET",
     "C/C++",
@@ -1724,14 +1724,6 @@
       "preview": "You can update micromamba to this pre-release version using: micromamba self-update -c conda-forge/label/micromamba_prerelease \"micromamba==2.7.0.alpha0\" Bug fixes: [libmamba] fix: Harden noarch:python entry point linking by @jjerphan in #4282 [libmamba] fix: Guard Root Packages' Expansion by @jjerphan in #4283 [micromamba, libmamba] fix: Adapt root packages expansion by @jjerphan in #4298 [micromamba, libmamba] fix: Populate python_site_packages_path independently from host by @jjerphan in #4288 [libmamba] Fallback to flat cache dir if missing hierarchical by @Hind-M in #4290 [micromamba, lib",
       "source": "Mamba releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "2.0.0-RC14",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0-RC14",
-      "published": "2026-06-01T15:35:00Z",
-      "preview": "🐛 bug fixes fix: Fixes Scala Native artifact publishing by @anatoliykmetyuk in #9118 fix: Fix duplicate autoplugins packageBin mappings by @anatoliykmetyuk in #9255 perf: Parallelize dependency resolution when no progress bar is rendered by @BrianHotopp in #9270 fix: Report a missing input file clearly by @BrianHotopp in #9271 fix: Reimplement FarmHash without using sun.misc.Unsafe by @eed3si9n in #9267 + #9278 fix: Fixes backtick-quoted project handling by @xuwei-k in #9277 perf: Improve incremental test stamper, take 2 by @eed3si9n in #9257 fix: Opt bspBuildTargetOutputPathsItem out of cachi",
-      "source": "sbt releases",
-      "category": "Maven"
     }
   ]
 }
