@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-01T18:59:42Z",
-  "cutoff": "2026-06-01T18:59:38Z",
+  "generated": "2026-07-01T19:59:31Z",
+  "cutoff": "2026-06-01T19:59:27Z",
   "feed_count": 79,
-  "item_count": 211,
+  "item_count": 209,
   "categories": [
     ".NET",
     "C/C++",
@@ -1692,22 +1692,6 @@
       "preview": "Bug fixes Validate Python entry point definitions before generating entry point scripts. ( #16168 ) Contributors @jaimergp Full Changelog : 26.5.1...26.5.2",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "0.11.18",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.18",
-      "published": "2026-06-01T19:44:30Z",
-      "preview": "Release Notes Released on 2026-06-01. Performance Fix performance regression in unzip of local wheels ( #19637 ) Preview Add uv check to run ty from uv ( #19605 ) Bug fixes Update activation scripts with upstream fixes ( #19628 ) Other changes Bump MSRV to 1.94 ( #19600 ) Install uv 0.11.18 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.18/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/dow",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
-      "title": "v1.29.20-preview: Apply latest loc patch (#6262)",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.20-preview",
-      "published": "2026-06-01T19:34:19Z",
-      "preview": "Microsoft Reviewers: [Open in CodeFlow]( https://microsoft.github.io/open-pr/?codeflow=https://github.com/microsoft/winget-cli/pull/6262 )",
-      "source": "winget releases",
-      "category": "System"
     }
   ]
 }
