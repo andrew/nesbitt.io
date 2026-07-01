@@ -1,0 +1,522 @@
+---
+layout: page
+title: BRZ/GT86 top speed calculator
+permalink: /brz-top-speed/
+description: A theoretical top speed calculator for Subaru BRZ and Toyota GT86 gearing, final drives, and tyre sizes.
+---
+
+<style>
+  .brz-calculator{
+    --brz-panel: var(--color-code-bg);
+    --brz-muted: var(--color-secondary);
+    --brz-strong: var(--color-text);
+    --brz-track: var(--color-table-alt);
+    --brz-fill: var(--color-accent);
+    --brz-fill-text: var(--color-bg);
+    display: grid;
+    gap: 18px;
+  }
+
+  .brz-intro{
+    color: var(--brz-muted);
+    max-width: 68ch;
+  }
+
+  .brz-controls{
+    display: grid;
+    gap: 14px;
+    padding: 16px;
+    background: var(--brz-panel);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+  }
+
+  .brz-control-group{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-width: 0;
+  }
+
+  .brz-label{
+    display: block;
+    margin-bottom: 8px;
+    color: var(--brz-muted);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0;
+  }
+
+  .brz-segmented{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .brz-drive-grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .brz-segmented input,
+  .brz-drive-grid input{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .brz-segmented label,
+  .brz-drive-grid label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 8px 10px;
+    color: var(--brz-strong);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .brz-segmented input:checked + label,
+  .brz-drive-grid input:checked + label{
+    color: var(--brz-fill-text);
+    background: var(--brz-fill);
+    border-color: var(--brz-fill);
+  }
+
+  .brz-segmented input:focus-visible + label,
+  .brz-drive-grid input:focus-visible + label,
+  .brz-number-input:focus-visible,
+  .brz-select:focus-visible,
+  .brz-range:focus-visible{
+    outline: 2px solid var(--brz-fill);
+    outline-offset: 2px;
+  }
+
+  .brz-rpm-row{
+    display: grid;
+    grid-template-columns: 1fr 96px;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .brz-range{
+    width: 100%;
+    accent-color: var(--brz-fill);
+  }
+
+  .brz-number-input{
+    width: 100%;
+    min-height: 42px;
+    padding: 8px 10px;
+    color: var(--brz-strong);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .brz-select{
+    width: 100%;
+    min-height: 42px;
+    padding: 8px 10px;
+    color: var(--brz-strong);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+  }
+
+  .brz-summary{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .brz-stat{
+    padding: 14px;
+    background: var(--brz-panel);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+  }
+
+  .brz-stat span{
+    display: block;
+    color: var(--brz-muted);
+    font-size: 13px;
+  }
+
+  .brz-stat strong{
+    display: block;
+    margin-top: 4px;
+    color: var(--brz-strong);
+    font-size: clamp(20px, 3.3vw, 30px);
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .brz-stat small{
+    display: block;
+    margin-top: 4px;
+    color: var(--brz-muted);
+    font-size: 14px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .brz-chart{
+    display: grid;
+    gap: 10px;
+    padding: 16px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+  }
+
+  .brz-chart-row{
+    display: grid;
+    grid-template-columns: 56px 1fr 96px;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .brz-chart-label{
+    color: var(--brz-muted);
+    font-weight: 600;
+  }
+
+  .brz-chart-track{
+    height: 18px;
+    overflow: hidden;
+    background: var(--brz-track);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+  }
+
+  .brz-chart-bar{
+    width: 0;
+    height: 100%;
+    background: var(--brz-fill);
+  }
+
+  .brz-chart-value{
+    text-align: right;
+    color: var(--brz-muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .brz-table-wrap{
+    overflow-x: auto;
+  }
+
+  .brz-calculator table{
+    width: 100%;
+    min-width: 620px;
+  }
+
+  .brz-calculator td,
+  .brz-calculator th{
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .brz-note{
+    color: var(--brz-muted);
+    font-size: 14px;
+  }
+
+  @media (min-width: 760px){
+    .brz-controls{
+      grid-template-columns: 1fr 1.35fr;
+      align-items: start;
+    }
+
+    .brz-control-group-wide{
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 640px){
+    .brz-segmented,
+    .brz-drive-grid,
+    .brz-summary{
+      grid-template-columns: 1fr;
+    }
+
+    .brz-rpm-row{
+      grid-template-columns: 1fr;
+    }
+
+    .brz-chart-row{
+      grid-template-columns: 42px 1fr 76px;
+      gap: 8px;
+    }
+  }
+</style>
+
+<div class="brz-calculator" id="brz-calculator">
+  <p class="brz-intro">
+    Theoretical speed at redline for a BRZ, GT86, or FR-S.
+    These numbers are gearing-limited calculations, not power, drag, tyre growth, or road-condition estimates.
+  </p>
+
+  <form class="brz-controls" aria-label="Top speed inputs">
+    <fieldset class="brz-control-group">
+      <legend class="brz-label">Gearbox</legend>
+      <div class="brz-segmented" id="gearbox-options">
+        <input type="radio" name="gearbox" id="gearbox-manual" value="manual" checked>
+        <label for="gearbox-manual">Manual</label>
+
+        <input type="radio" name="gearbox" id="gearbox-auto" value="auto">
+        <label for="gearbox-auto">Auto</label>
+
+        <input type="radio" name="gearbox" id="gearbox-zf8" value="zf8">
+        <label for="gearbox-zf8">ZF8 / 8HP45Z</label>
+      </div>
+    </fieldset>
+
+    <fieldset class="brz-control-group">
+      <legend class="brz-label">Final drive</legend>
+      <div class="brz-drive-grid" id="final-drive-options">
+        <input type="radio" name="final-drive" id="fd-358" value="3.58">
+        <label for="fd-358">3.58</label>
+
+        <input type="radio" name="final-drive" id="fd-410" value="4.10" checked>
+        <label for="fd-410">4.10</label>
+
+        <input type="radio" name="final-drive" id="fd-430" value="4.30">
+        <label for="fd-430">4.30</label>
+
+        <input type="radio" name="final-drive" id="fd-456" value="4.56">
+        <label for="fd-456">4.56</label>
+
+        <input type="radio" name="final-drive" id="fd-4875" value="4.875">
+        <label for="fd-4875">4.875</label>
+
+        <input type="radio" name="final-drive" id="fd-530" value="5.30">
+        <label for="fd-530">5.30</label>
+      </div>
+    </fieldset>
+
+    <label class="brz-control-group">
+      <span class="brz-label">Tyre size</span>
+      <select class="brz-select" id="tyre-size"></select>
+    </label>
+
+    <label class="brz-control-group brz-control-group-wide">
+      <span class="brz-label">Redline rpm</span>
+      <span class="brz-rpm-row">
+        <input class="brz-range" id="rpm-range" type="range" min="6000" max="9000" step="100" value="7400">
+        <input class="brz-number-input" id="rpm-number" type="number" min="6000" max="9000" step="100" value="7400" inputmode="numeric">
+      </span>
+    </label>
+  </form>
+
+  <div class="brz-summary" aria-live="polite">
+    <div class="brz-stat">
+      <span>Fastest theoretical gear</span>
+      <strong id="summary-gear">6th</strong>
+    </div>
+    <div class="brz-stat">
+      <span>Top speed</span>
+      <strong id="summary-speed">0 mph</strong>
+      <small id="summary-speed-kmh">0 km/h</small>
+    </div>
+    <div class="brz-stat">
+      <span>Tyre circumference</span>
+      <strong id="summary-tyre">0 mm</strong>
+    </div>
+  </div>
+
+  <div class="brz-chart" id="speed-chart" aria-label="Speed by gear chart"></div>
+
+  <div class="brz-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Gear</th>
+          <th>Ratio</th>
+          <th>Overall ratio</th>
+          <th>Speed mph</th>
+          <th>Speed km/h</th>
+        </tr>
+      </thead>
+      <tbody id="speed-table-body"></tbody>
+    </table>
+  </div>
+
+  <p class="brz-note" id="gearbox-note"></p>
+</div>
+
+<script>
+  (() => {
+    const tyreSizes = [
+      { label: '255/40R17', widthMm: 255, aspectRatio: 40, wheelIn: 17 },
+      { label: '215/45R17 OEM', widthMm: 215, aspectRatio: 45, wheelIn: 17 },
+      { label: '245/35R18', widthMm: 245, aspectRatio: 35, wheelIn: 18 },
+      { label: '255/35R18', widthMm: 255, aspectRatio: 35, wheelIn: 18 },
+      { label: '265/35R18', widthMm: 265, aspectRatio: 35, wheelIn: 18 }
+    ];
+
+    const gearboxes = {
+      manual: {
+        name: 'Manual',
+        note: 'Manual uses the common TL70 6-speed ratios. UK OEM cars used a 4.10 final drive.',
+        gears: [3.626, 2.188, 1.541, 1.213, 1.000, 0.767]
+      },
+      auto: {
+        name: 'Auto',
+        note: 'Auto uses the Aisin 6-speed automatic ratios commonly fitted to the BRZ/GT86/FR-S platform.',
+        gears: [3.538, 2.060, 1.404, 1.000, 0.713, 0.582]
+      },
+      zf8: {
+        name: 'ZF8 / 8HP45Z',
+        note: 'ZF8 uses the 8HP45Z first-generation 8HP ratio set here.',
+        gears: [4.714, 3.143, 2.106, 1.667, 1.285, 1.000, 0.839, 0.667]
+      }
+    };
+
+    const calculator = document.getElementById('brz-calculator');
+    const tyreSizeSelect = document.getElementById('tyre-size');
+    const rpmRange = document.getElementById('rpm-range');
+    const rpmNumber = document.getElementById('rpm-number');
+    const chart = document.getElementById('speed-chart');
+    const tableBody = document.getElementById('speed-table-body');
+    const summaryGear = document.getElementById('summary-gear');
+    const summarySpeed = document.getElementById('summary-speed');
+    const summarySpeedKmh = document.getElementById('summary-speed-kmh');
+    const summaryTyre = document.getElementById('summary-tyre');
+    const gearboxNote = document.getElementById('gearbox-note');
+
+    function ordinal(n) {
+      if (n === 1) return '1st';
+      if (n === 2) return '2nd';
+      if (n === 3) return '3rd';
+      return n + 'th';
+    }
+
+    function formatRatio(value) {
+      return Number(value).toFixed(3);
+    }
+
+    function speedFor(rpm, gearRatio, finalDrive, tyre) {
+      return rpm * tyre.mphConstant / (gearRatio * finalDrive);
+    }
+
+    function selectedValue(name) {
+      return calculator.querySelector('input[name="' + name + '"]:checked').value;
+    }
+
+    function setRpm(value, source) {
+      const numeric = Math.max(6000, Math.min(9000, Number(value) || 7400));
+      const rounded = Math.round(numeric / 100) * 100;
+
+      if (source !== rpmRange) rpmRange.value = rounded;
+      if (source !== rpmNumber) rpmNumber.value = rounded;
+
+      return rounded;
+    }
+
+    function currentTyre() {
+      const tyre = tyreSizes[Number(tyreSizeSelect.value)] || tyreSizes[0];
+      return tyreMetrics(tyre);
+    }
+
+    function tyreMetrics(tyre) {
+      const sidewallIn = tyre.widthMm * (tyre.aspectRatio / 100) / 25.4;
+      const diameterIn = tyre.wheelIn + sidewallIn * 2;
+      const circumferenceIn = diameterIn * Math.PI;
+      const circumferenceMm = circumferenceIn * 25.4;
+
+      return {
+        ...tyre,
+        diameterIn,
+        circumferenceIn,
+        circumferenceMm,
+        mphConstant: circumferenceIn / 1056
+      };
+    }
+
+    function chartScaleMph() {
+      const minFinalDrive = 3.58;
+      const maxRpm = Number(rpmRange.max);
+      const largestTyre = tyreSizes
+        .map(tyreMetrics)
+        .reduce((largest, tyre) => tyre.circumferenceIn > largest.circumferenceIn ? tyre : largest);
+      const fastestGearRatio = Object.values(gearboxes)
+        .flatMap(gearbox => gearbox.gears)
+        .reduce((lowest, ratio) => ratio < lowest ? ratio : lowest);
+      const absoluteMax = speedFor(maxRpm, fastestGearRatio, minFinalDrive, largestTyre);
+
+      return Math.ceil(absoluteMax / 10) * 10;
+    }
+
+    function render() {
+      const gearbox = gearboxes[selectedValue('gearbox')];
+      const finalDrive = Number(selectedValue('final-drive'));
+      const tyre = currentTyre();
+      const rpm = setRpm(rpmNumber.value);
+      const rows = gearbox.gears.map((ratio, index) => {
+        const mph = speedFor(rpm, ratio, finalDrive, tyre);
+        return {
+          gear: index + 1,
+          ratio,
+          overall: ratio * finalDrive,
+          mph,
+          kmh: mph * 1.609344
+        };
+      });
+      const fastest = rows.reduce((max, row) => row.mph > max.mph ? row : max, rows[0]);
+      const maxMph = chartScaleMph();
+
+      summaryGear.textContent = ordinal(fastest.gear);
+      summarySpeed.textContent = Math.round(fastest.mph) + ' mph';
+      summarySpeedKmh.textContent = Math.round(fastest.kmh) + ' km/h';
+      summaryTyre.textContent = Math.round(tyre.circumferenceMm) + ' mm';
+      gearboxNote.textContent = gearbox.note;
+
+      chart.innerHTML = rows.map(row => {
+        const width = Math.max(3, row.mph / maxMph * 100);
+        return '<div class="brz-chart-row">' +
+          '<div class="brz-chart-label">' + ordinal(row.gear) + '</div>' +
+          '<div class="brz-chart-track"><div class="brz-chart-bar" style="width:' + width.toFixed(2) + '%"></div></div>' +
+          '<div class="brz-chart-value">' + Math.round(row.mph) + ' mph</div>' +
+        '</div>';
+      }).join('');
+
+      tableBody.innerHTML = rows.map(row => {
+        return '<tr>' +
+          '<td>' + ordinal(row.gear) + '</td>' +
+          '<td>' + formatRatio(row.ratio) + '</td>' +
+          '<td>' + formatRatio(row.overall) + '</td>' +
+          '<td>' + row.mph.toFixed(1) + '</td>' +
+          '<td>' + row.kmh.toFixed(1) + '</td>' +
+        '</tr>';
+      }).join('');
+    }
+
+    tyreSizeSelect.innerHTML = tyreSizes.map((tyre, index) => {
+      return '<option value="' + index + '">' + tyre.label + '</option>';
+    }).join('');
+
+    calculator.addEventListener('change', render);
+
+    rpmRange.addEventListener('input', event => {
+      rpmNumber.value = event.target.value;
+      render();
+    });
+
+    rpmNumber.addEventListener('input', event => {
+      rpmRange.value = setRpm(event.target.value, rpmNumber);
+      render();
+    });
+
+    render();
+  })();
+</script>
