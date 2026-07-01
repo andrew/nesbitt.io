@@ -2,7 +2,7 @@
 layout: post
 title: "The CRA is not about open source"
 date: 2026-07-01 10:00 +0000
-description: "The CRA created an open source steward role and left it unfunded"
+description: "The CRA created an open-source steward role, then left maintenance unfunded."
 tags:
   - open-source
   - sustainability
