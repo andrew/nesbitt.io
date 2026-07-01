@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-01T07:20:48Z",
-  "cutoff": "2026-06-01T07:20:43Z",
+  "generated": "2026-07-01T09:31:39Z",
+  "cutoff": "2026-06-01T09:31:35Z",
   "feed_count": 79,
-  "item_count": 213,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.10.2",
+      "url": "https://github.com/composer/composer/releases/tag/2.10.2",
+      "published": "2026-07-01T09:24:45Z",
+      "preview": "Release 2.10.2",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "2.2.29",
+      "url": "https://github.com/composer/composer/releases/tag/2.2.29",
+      "published": "2026-07-01T09:24:18Z",
+      "preview": "Release 2.2.29",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
     {
       "title": "SDK-3.13.0-262.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-262.0.dev",
@@ -1716,14 +1732,6 @@
       "preview": "What's Changed bundler: avoid adding Bundler checksum for lockfiles using 4.0.0-4.0.10 by @thavaahariharangit in #15164 Remove beta ecosystem flag handling for Deno by @markhallen in #15173 [bun] Add lockfile generator for bun by @brrygrdn in #14882 Pass --config.minimumReleaseAge=0 for pnpm security updates to bypass pnpm-workspace.yaml by @yeikel in #15170 build(deps): bump terraform to 1.15.3 by @HorizonNet in #15055 Change cron schedule from Thursday to Monday by @robaiken in #15181 Add specific error for missing .NET SDK in discovery by @brettfo in #15168 Throw UnparseableFileException wh",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "20260601t084200-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260601t084200-all",
-      "published": "2026-06-01T08:42:30Z",
-      "preview": "Deployment at 2026-06-01T08:42:29.038167Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     }
   ]
 }
