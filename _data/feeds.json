@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-01T17:03:04Z",
-  "cutoff": "2026-06-01T17:03:00Z",
+  "generated": "2026-07-01T18:59:42Z",
+  "cutoff": "2026-06-01T18:59:38Z",
   "feed_count": 79,
-  "item_count": 212,
+  "item_count": 211,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Windows Package Manager 1.29.280",
+      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.280",
+      "published": "2026-07-01T18:03:55Z",
+      "preview": "This is the latest of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: Match qua",
+      "source": "winget releases",
+      "category": "System"
+    },
     {
       "title": "v2.9.1",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.1",
@@ -596,14 +604,6 @@
       "preview": "What's Changed Add --dry-run flag to pipx ensurepath by @somaz94 in #1842 Fix uninject for uv-backed venvs by @sjh9714 in #1844 New Contributors @somaz94 made their first contribution in #1842 Full Changelog : 1.14.1...1.15.0",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "Windows Package Manager 1.29.280",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.280",
-      "published": "2026-06-24T18:59:48Z",
-      "preview": "This is a release candidate of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
-      "source": "winget releases",
-      "category": "System"
     },
     {
       "title": "v6.0.0",
@@ -1708,14 +1708,6 @@
       "preview": "Microsoft Reviewers: [Open in CodeFlow]( https://microsoft.github.io/open-pr/?codeflow=https://github.com/microsoft/winget-cli/pull/6262 )",
       "source": "winget releases",
       "category": "System"
-    },
-    {
-      "title": "2026-05-27 Release",
-      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-05-27",
-      "published": "2026-06-01T18:45:09Z",
-      "preview": "What's Changed Accept libcurl.so as a provider of curl. by @podsvirov in #1984 Add arm64 CMake presets, delete MSI extraction. by @BillyONeal in #1995 Ignore HTTPS_PROXY and NO_PROXY if env variable is set to empty value by @TobiasFunk in #1988 x-add-version: Regenerate baseline on --all. by @BillyONeal in #2003 integrate install: Remove VS2015 integration. by @BillyONeal in #2011 Fix empty vs. unset environment variables on Windows. by @BillyONeal in #1997 Fix self-cascade bug in feature test baseline checking by @BillyONeal in #2017 x-download: more output, error if no asset cache configured",
-      "source": "vcpkg releases",
-      "category": "C/C++"
     }
   ]
 }
