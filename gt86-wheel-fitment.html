@@ -1,0 +1,790 @@
+---
+layout: page
+title: BRZ/GT86 wheel fitment visualiser
+permalink: /gt86-wheel-fitment/
+description: A tyre and wheel fitment visualiser for Toyota GT86, Subaru BRZ, and Scion FR-S front and rear axle setups.
+---
+
+<style>
+  .fitment-calculator{
+    --fitment-panel: var(--color-code-bg);
+    --fitment-muted: var(--color-secondary);
+    --fitment-strong: var(--color-text);
+    --fitment-accent: var(--color-accent);
+    --fitment-front: #006ab2;
+    --fitment-rear: #2da44e;
+    display: grid;
+    gap: 18px;
+  }
+
+  .fitment-intro,
+  .fitment-note{
+    color: var(--fitment-muted);
+    max-width: 72ch;
+  }
+
+  .fitment-controls{
+    display: grid;
+    gap: 14px;
+  }
+
+  .fitment-check{
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--fitment-strong);
+    font-weight: 600;
+  }
+
+  .fitment-check input{
+    width: 18px;
+    height: 18px;
+    accent-color: var(--fitment-accent);
+  }
+
+  .fitment-axle-heading{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .fitment-axle[data-locked="true"]{
+    opacity: 0.72;
+  }
+
+  .fitment-axle[data-locked="true"] input,
+  .fitment-axle[data-locked="true"] select{
+    cursor: not-allowed;
+  }
+
+  .fitment-axle{
+    margin: 0;
+    padding: 16px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: var(--fitment-panel);
+  }
+
+  .fitment-legend{
+    padding: 0;
+    color: var(--fitment-strong);
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .fitment-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .fitment-field{
+    display: grid;
+    gap: 6px;
+    min-width: 0;
+  }
+
+  .fitment-field-wide{
+    grid-column: 1 / -1;
+  }
+
+  .fitment-label{
+    color: var(--fitment-muted);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0;
+  }
+
+  .fitment-input,
+  .fitment-select{
+    width: 100%;
+    min-height: 42px;
+    padding: 8px 10px;
+    color: var(--fitment-strong);
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .fitment-input:focus-visible,
+  .fitment-select:focus-visible{
+    outline: 2px solid var(--fitment-accent);
+    outline-offset: 2px;
+  }
+
+  .fitment-summary{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .fitment-stat{
+    padding: 14px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: var(--fitment-panel);
+  }
+
+  .fitment-stat span,
+  .fitment-mini{
+    display: block;
+    color: var(--fitment-muted);
+    font-size: 13px;
+  }
+
+  .fitment-stat strong{
+    display: block;
+    margin-top: 4px;
+    color: var(--fitment-strong);
+    font-size: clamp(18px, 3vw, 26px);
+    line-height: 1.15;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .fitment-views{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .fitment-view{
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--color-bg);
+  }
+
+  .fitment-view h2{
+    margin: 0;
+    padding: 12px 14px;
+    font-size: 18px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .fitment-svg-wrap{
+    padding: 12px;
+    overflow-x: auto;
+  }
+
+  .fitment-svg{
+    display: block;
+    width: 100%;
+    min-width: 620px;
+    height: auto;
+  }
+
+  .fitment-svg text{
+    fill: var(--fitment-strong);
+    font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .fitment-svg .muted{
+    fill: var(--fitment-muted);
+  }
+
+  .fitment-svg .baseline{
+    fill: none;
+    stroke: var(--color-border);
+    stroke-width: 2;
+    stroke-dasharray: 6 5;
+  }
+
+  .fitment-svg .oem-fill{
+    fill: rgba(101, 109, 118, 0.08);
+    stroke: var(--color-border);
+    stroke-width: 2;
+    stroke-dasharray: 6 5;
+  }
+
+  .fitment-svg .selected-tyre{
+    fill: rgba(0, 106, 178, 0.16);
+    stroke: var(--fitment-front);
+    stroke-width: 3;
+  }
+
+  .fitment-svg .selected-wheel{
+    fill: rgba(45, 164, 78, 0.18);
+    stroke: var(--fitment-rear);
+    stroke-width: 3;
+  }
+
+  .fitment-svg .body-line{
+    fill: none;
+    stroke: var(--fitment-muted);
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .fitment-svg .measure{
+    stroke: var(--fitment-accent);
+    stroke-width: 2;
+    stroke-linecap: round;
+  }
+
+  .fitment-svg .label-box{
+    fill: var(--fitment-panel);
+    stroke: var(--color-border);
+    stroke-width: 1;
+  }
+
+  .fitment-svg .tyre{
+    fill: rgba(0, 106, 178, 0.14);
+    stroke: var(--fitment-front);
+    stroke-width: 3;
+  }
+
+  .fitment-svg .wheel{
+    fill: rgba(45, 164, 78, 0.16);
+    stroke: var(--fitment-rear);
+    stroke-width: 3;
+  }
+
+  .fitment-svg .guide{
+    stroke: var(--color-border);
+    stroke-width: 1;
+  }
+
+  .fitment-svg .ref-line{
+    stroke: var(--fitment-muted);
+    stroke-width: 1.5;
+    stroke-dasharray: 3 4;
+  }
+
+  .fitment-svg .hub{
+    stroke: var(--fitment-muted);
+    stroke-width: 2;
+  }
+
+  .fitment-table-wrap{
+    overflow-x: auto;
+  }
+
+  .fitment-calculator table{
+    width: 100%;
+    min-width: 760px;
+  }
+
+  .fitment-calculator th,
+  .fitment-calculator td{
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  @media (min-width: 840px){
+    .fitment-controls{
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+  }
+
+  @media (max-width: 640px){
+    .fitment-grid,
+    .fitment-summary{
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="fitment-calculator" id="fitment-calculator">
+  <p class="fitment-intro">
+    Compare front and rear tyre and wheel setups against a BRZ/GT86 OEM baseline of 17x7 ET48 with 215/45R17 tyres.
+    Poke and inner clearance are geometric estimates relative to the hub face, before camber, ride height, tyre shape, arch liner, and alignment effects.
+  </p>
+
+  <form aria-label="Wheel fitment inputs">
+    <div class="fitment-controls">
+      <fieldset class="fitment-axle" data-axle="front">
+        <div class="fitment-axle-heading">
+          <legend class="fitment-legend">Front</legend>
+        </div>
+        <div class="fitment-grid">
+          <label class="fitment-field fitment-field-wide">
+            <span class="fitment-label">Preset</span>
+            <select class="fitment-select" data-input="preset"></select>
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Wheel width</span>
+            <input class="fitment-input" data-input="wheelWidthIn" type="number" min="5" max="12" step="0.5" value="7">
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Wheel diameter</span>
+            <input class="fitment-input" data-input="wheelDiameterIn" type="number" min="14" max="20" step="1" value="17">
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Offset ET</span>
+            <input class="fitment-input" data-input="offsetMm" type="number" min="0" max="70" step="1" value="48">
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Tyre width</span>
+            <input class="fitment-input" data-input="tyreWidthMm" type="number" min="165" max="315" step="5" value="215">
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Aspect ratio</span>
+            <input class="fitment-input" data-input="aspectRatio" type="number" min="25" max="60" step="5" value="45">
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Tyre rim</span>
+            <input class="fitment-input" data-input="tyreRimIn" type="number" min="14" max="20" step="1" value="17">
+          </label>
+          <label class="fitment-field fitment-field-wide">
+            <span class="fitment-label">Ride height drop</span>
+            <input class="fitment-input" data-input="rideDropMm" type="number" min="0" max="80" step="5" value="0">
+          </label>
+          <label class="fitment-field fitment-field-wide">
+            <span class="fitment-label">Camber</span>
+            <input class="fitment-input" data-input="camberDeg" type="number" min="-8" max="3" step="0.1" value="0">
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="fitment-axle" data-axle="rear">
+        <div class="fitment-axle-heading">
+          <legend class="fitment-legend">Rear</legend>
+          <label class="fitment-check">
+            <input type="checkbox" id="mirror-rear" checked>
+            <span>Matches front</span>
+          </label>
+        </div>
+        <div class="fitment-grid">
+          <label class="fitment-field fitment-field-wide">
+            <span class="fitment-label">Preset</span>
+            <select class="fitment-select" data-input="preset"></select>
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Wheel width</span>
+            <input class="fitment-input" data-input="wheelWidthIn" type="number" min="5" max="12" step="0.5" value="7">
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Wheel diameter</span>
+            <input class="fitment-input" data-input="wheelDiameterIn" type="number" min="14" max="20" step="1" value="17">
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Offset ET</span>
+            <input class="fitment-input" data-input="offsetMm" type="number" min="0" max="70" step="1" value="48">
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Tyre width</span>
+            <input class="fitment-input" data-input="tyreWidthMm" type="number" min="165" max="315" step="5" value="215">
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Aspect ratio</span>
+            <input class="fitment-input" data-input="aspectRatio" type="number" min="25" max="60" step="5" value="45">
+          </label>
+          <label class="fitment-field">
+            <span class="fitment-label">Tyre rim</span>
+            <input class="fitment-input" data-input="tyreRimIn" type="number" min="14" max="20" step="1" value="17">
+          </label>
+          <label class="fitment-field fitment-field-wide">
+            <span class="fitment-label">Ride height drop</span>
+            <input class="fitment-input" data-input="rideDropMm" type="number" min="0" max="80" step="5" value="0">
+          </label>
+          <label class="fitment-field fitment-field-wide">
+            <span class="fitment-label">Camber</span>
+            <input class="fitment-input" data-input="camberDeg" type="number" min="-8" max="3" step="0.1" value="0">
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </form>
+
+  <div class="fitment-summary" aria-live="polite">
+    <div class="fitment-stat">
+      <span>Front poke</span>
+      <strong id="front-poke">0 mm</strong>
+      <small class="fitment-mini">vs OEM tyre outer edge</small>
+    </div>
+    <div class="fitment-stat">
+      <span>Front inner</span>
+      <strong id="front-inner">0 mm</strong>
+      <small class="fitment-mini">clearance change</small>
+    </div>
+    <div class="fitment-stat">
+      <span>Rear poke</span>
+      <strong id="rear-poke">0 mm</strong>
+      <small class="fitment-mini">vs OEM tyre outer edge</small>
+    </div>
+    <div class="fitment-stat">
+      <span>Rear inner</span>
+      <strong id="rear-inner">0 mm</strong>
+      <small class="fitment-mini">clearance change</small>
+    </div>
+  </div>
+
+  <div class="fitment-views">
+    <section class="fitment-view">
+      <h2>Front view</h2>
+      <div class="fitment-svg-wrap" id="front-view"></div>
+    </section>
+
+    <section class="fitment-view">
+      <h2>Side view</h2>
+      <div class="fitment-svg-wrap" id="side-view"></div>
+    </section>
+  </div>
+
+  <div class="fitment-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Axle</th>
+          <th>Wheel</th>
+          <th>Tyre</th>
+          <th>Diameter</th>
+          <th>Sidewall</th>
+          <th>Poke</th>
+          <th>Inner clearance</th>
+          <th>Camber</th>
+          <th>Arch gap</th>
+          <th>Speedo delta</th>
+        </tr>
+      </thead>
+      <tbody id="fitment-table-body"></tbody>
+    </table>
+  </div>
+
+  <p class="fitment-note">
+    Positive poke means the tyre outer edge moves outward compared with OEM.
+    Positive inner change means the tyre inner edge moves closer to the strut side.
+  </p>
+
+</div>
+
+<script>
+  (() => {
+    const baseline = {
+      wheelWidthIn: 7,
+      wheelDiameterIn: 17,
+      offsetMm: 48,
+      tyreWidthMm: 215,
+      aspectRatio: 45,
+      tyreRimIn: 17,
+      rideDropMm: 0,
+      camberDeg: 0
+    };
+
+    // Approximate ZN6/ZC6 clearances from hub mounting face, mm, at axle height.
+    // Tune these against your own car; forum-sourced, not measured here.
+    const chassis = {
+      front: { fenderMm: 85, strutMm: 165 },
+      rear:  { fenderMm: 90, strutMm: 200 }
+    };
+
+    const presets = [
+      { label: 'OEM 17x7 ET48 215/45R17', ...baseline },
+      { label: '17x7.5 ET45 225/45R17', wheelWidthIn: 7.5, wheelDiameterIn: 17, offsetMm: 45, tyreWidthMm: 225, aspectRatio: 45, tyreRimIn: 17 },
+      { label: '17x8 ET45 225/45R17', wheelWidthIn: 8, wheelDiameterIn: 17, offsetMm: 45, tyreWidthMm: 225, aspectRatio: 45, tyreRimIn: 17 },
+      { label: '17x8 ET35 235/40R17', wheelWidthIn: 8, wheelDiameterIn: 17, offsetMm: 35, tyreWidthMm: 235, aspectRatio: 40, tyreRimIn: 17 },
+      { label: '17x9 ET35 245/40R17', wheelWidthIn: 9, wheelDiameterIn: 17, offsetMm: 35, tyreWidthMm: 245, aspectRatio: 40, tyreRimIn: 17 },
+      { label: '17x9 ET38 255/40R17', wheelWidthIn: 9, wheelDiameterIn: 17, offsetMm: 38, tyreWidthMm: 255, aspectRatio: 40, tyreRimIn: 17 },
+      { label: '18x8.5 ET35 245/35R18', wheelWidthIn: 8.5, wheelDiameterIn: 18, offsetMm: 35, tyreWidthMm: 245, aspectRatio: 35, tyreRimIn: 18 },
+      { label: '18x9 ET38 255/35R18', wheelWidthIn: 9, wheelDiameterIn: 18, offsetMm: 38, tyreWidthMm: 255, aspectRatio: 35, tyreRimIn: 18 },
+      { label: '18x9.5 ET38 255/35R18', wheelWidthIn: 9.5, wheelDiameterIn: 18, offsetMm: 38, tyreWidthMm: 255, aspectRatio: 35, tyreRimIn: 18 },
+      { label: '18x9.5 ET35 265/35R18', wheelWidthIn: 9.5, wheelDiameterIn: 18, offsetMm: 35, tyreWidthMm: 265, aspectRatio: 35, tyreRimIn: 18 }
+    ];
+
+    const calculator = document.getElementById('fitment-calculator');
+    const mirrorRear = document.getElementById('mirror-rear');
+    const sideView = document.getElementById('side-view');
+    const frontView = document.getElementById('front-view');
+    const tableBody = document.getElementById('fitment-table-body');
+    const summary = {
+      frontPoke: document.getElementById('front-poke'),
+      frontInner: document.getElementById('front-inner'),
+      rearPoke: document.getElementById('rear-poke'),
+      rearInner: document.getElementById('rear-inner')
+    };
+
+    function setupPresets() {
+      calculator.querySelectorAll('[data-input="preset"]').forEach(select => {
+        select.innerHTML = '<option value="">Custom</option>' + presets.map((preset, index) => {
+          return '<option value="' + index + '">' + preset.label + '</option>';
+        }).join('');
+        select.value = '0';
+      });
+    }
+
+    function axleElement(axle) {
+      return calculator.querySelector('[data-axle="' + axle + '"]');
+    }
+
+    function inputValue(axle, key) {
+      const input = axleElement(axle).querySelector('[data-input="' + key + '"]');
+      return Number(input.value);
+    }
+
+    function readSetup(axle) {
+      return {
+        axle,
+        wheelWidthIn: inputValue(axle, 'wheelWidthIn'),
+        wheelDiameterIn: inputValue(axle, 'wheelDiameterIn'),
+        offsetMm: inputValue(axle, 'offsetMm'),
+        tyreWidthMm: inputValue(axle, 'tyreWidthMm'),
+        aspectRatio: inputValue(axle, 'aspectRatio'),
+        tyreRimIn: inputValue(axle, 'tyreRimIn'),
+        rideDropMm: inputValue(axle, 'rideDropMm'),
+        camberDeg: inputValue(axle, 'camberDeg')
+      };
+    }
+
+    function applyPreset(axle, preset) {
+      const element = axleElement(axle);
+      Object.keys(baseline).forEach(key => {
+        element.querySelector('[data-input="' + key + '"]').value = preset[key] ?? baseline[key];
+      });
+    }
+
+    function syncRearToFront() {
+      const frontElement = axleElement('front');
+      const rearElement = axleElement('rear');
+
+      frontElement.querySelectorAll('[data-input]').forEach(frontInput => {
+        const key = frontInput.dataset.input;
+        const rearInput = rearElement.querySelector('[data-input="' + key + '"]');
+        if (rearInput) rearInput.value = frontInput.value;
+      });
+    }
+
+    function updateRearLock() {
+      const rearElement = axleElement('rear');
+      const locked = mirrorRear.checked;
+
+      if (locked) syncRearToFront();
+
+      rearElement.dataset.locked = locked ? 'true' : 'false';
+      rearElement.querySelectorAll('input, select').forEach(input => {
+        if (input === mirrorRear) return;
+        input.disabled = locked;
+      });
+    }
+
+    function metrics(setup) {
+      const sidewallMm = setup.tyreWidthMm * setup.aspectRatio / 100;
+      const diameterMm = setup.tyreRimIn * 25.4 + sidewallMm * 2;
+      const wheelWidthMm = setup.wheelWidthIn * 25.4;
+      const tyreOuterMm = setup.tyreWidthMm / 2 - setup.offsetMm;
+      const tyreInnerMm = setup.tyreWidthMm / 2 + setup.offsetMm;
+      const wheelOuterMm = wheelWidthMm / 2 - setup.offsetMm;
+      const wheelInnerMm = wheelWidthMm / 2 + setup.offsetMm;
+      const baselineMetrics = setup === baseline ? null : metrics(baseline);
+      const pokeMm = baselineMetrics ? tyreOuterMm - baselineMetrics.tyreOuterMm : 0;
+      const innerChangeMm = baselineMetrics ? tyreInnerMm - baselineMetrics.tyreInnerMm : 0;
+      const diameterChangePct = baselineMetrics ? (diameterMm / baselineMetrics.diameterMm - 1) * 100 : 0;
+      const archGapChangeMm = baselineMetrics ? -setup.rideDropMm - (diameterMm - baselineMetrics.diameterMm) / 2 : 0;
+
+      return {
+        ...setup,
+        sidewallMm,
+        diameterMm,
+        wheelWidthMm,
+        tyreOuterMm,
+        tyreInnerMm,
+        wheelOuterMm,
+        wheelInnerMm,
+        pokeMm,
+        innerChangeMm,
+        diameterChangePct,
+        archGapChangeMm
+      };
+    }
+
+    function signedMm(value) {
+      const rounded = Math.round(value);
+      if (rounded > 0) return '+' + rounded + ' mm';
+      return rounded + ' mm';
+    }
+
+    function oneDecimal(value) {
+      return Number(value).toFixed(1);
+    }
+
+    function wheelLabel(item) {
+      return item.wheelDiameterIn + 'x' + oneDecimal(item.wheelWidthIn).replace('.0', '') + ' ET' + item.offsetMm;
+    }
+
+    function tyreLabel(item) {
+      return item.tyreWidthMm + '/' + item.aspectRatio + 'R' + item.tyreRimIn;
+    }
+
+    function sideSvg(front, rear) {
+      const base = metrics(baseline);
+      const maxDiameter = Math.max(base.diameterMm, front.diameterMm, rear.diameterMm);
+      const scale = 210 / maxDiameter;
+      const y = 190;
+      const frontX = 250;
+      const rearX = 620;
+
+      function wheel(axle, x) {
+        const tyreR = axle.diameterMm * scale / 2;
+        const rimR = axle.tyreRimIn * 25.4 * scale / 2;
+        const baseTyreR = base.diameterMm * scale / 2;
+        const baseRimR = base.tyreRimIn * 25.4 * scale / 2;
+        const archR = Math.max(baseTyreR, tyreR) + 28;
+        const groundY = y + Math.max(baseTyreR, tyreR) + 20;
+        const archDropPx = axle.rideDropMm * scale;
+        const bodyY = y + archDropPx;
+
+        return '<path class="baseline" d="M ' + (x - archR - 30) + ' ' + (y - 10) + ' C ' + (x - archR - 2) + ' ' + (y - archR - 8) + ', ' + (x + archR + 2) + ' ' + (y - archR - 8) + ', ' + (x + archR + 30) + ' ' + (y - 10) + '"></path>' +
+          '<path class="body-line" d="M ' + (x - archR - 30) + ' ' + (bodyY - 10) + ' C ' + (x - archR - 2) + ' ' + (bodyY - archR - 8) + ', ' + (x + archR + 2) + ' ' + (bodyY - archR - 8) + ', ' + (x + archR + 30) + ' ' + (bodyY - 10) + '"></path>' +
+          '<line class="guide" x1="' + (x - archR - 38) + '" y1="' + groundY + '" x2="' + (x + archR + 38) + '" y2="' + groundY + '"></line>' +
+          '<circle class="oem-fill" cx="' + x + '" cy="' + y + '" r="' + baseTyreR + '"></circle>' +
+          '<circle class="baseline" cx="' + x + '" cy="' + y + '" r="' + baseRimR + '"></circle>' +
+          '<circle class="selected-tyre" cx="' + x + '" cy="' + y + '" r="' + tyreR + '"></circle>' +
+          '<circle class="selected-wheel" cx="' + x + '" cy="' + y + '" r="' + rimR + '"></circle>' +
+          '<text x="' + x + '" y="330" text-anchor="middle">' + axle.axleLabel + '</text>' +
+          '<text class="muted" x="' + x + '" y="350" text-anchor="middle">' + Math.round(axle.diameterMm) + ' mm diameter</text>' +
+          '<text class="muted" x="' + x + '" y="370" text-anchor="middle">' + signedMm(axle.archGapChangeMm) + ' arch gap</text>';
+      }
+
+      return '<svg class="fitment-svg" viewBox="0 0 860 395" role="img" aria-label="Side view tyre diameter comparison">' +
+        '<text x="18" y="28">Side profile</text>' +
+        '<text class="muted" x="18" y="48">Dashed outline is OEM. Solid outline is selected.</text>' +
+        wheel(front, frontX) +
+        wheel(rear, rearX) +
+      '</svg>';
+    }
+
+    function frontSvg(front, rear) {
+      const base = metrics(baseline);
+      const maxDiameter = Math.max(base.diameterMm, front.diameterMm, rear.diameterMm);
+      const maxOut = Math.max(chassis.front.fenderMm, chassis.rear.fenderMm, base.tyreOuterMm, front.tyreOuterMm, rear.tyreOuterMm) + 12;
+      const maxIn = Math.max(chassis.front.strutMm, chassis.rear.strutMm, base.tyreInnerMm, front.tyreInnerMm, rear.tyreInnerMm) + 12;
+      const colW = 440;
+      const drawTop = 130;
+      const drawH = 360;
+      const groundY = drawTop + drawH;
+      const scale = Math.min(drawH / maxDiameter, (colW - 30) / (maxOut + maxIn));
+
+      function section(axle, clr, colX) {
+        const hubX = colX + colW / 2 - (maxIn - maxOut) / 2 * scale;
+        const fenderX = hubX - clr.fenderMm * scale;
+        const strutX = hubX + clr.strutMm * scale;
+        const baseCy = groundY - base.diameterMm * scale / 2;
+        const cy = groundY - axle.diameterMm * scale / 2;
+        const rimDiaMm = axle.wheelDiameterIn * 25.4;
+        const baseRimDiaMm = base.wheelDiameterIn * 25.4;
+        const contactX = hubX + (axle.tyreInnerMm - axle.tyreOuterMm) / 2 * scale;
+        const rot = ' transform="rotate(' + (-axle.camberDeg) + ' ' + contactX + ' ' + groundY + ')"';
+        const fenderClr = clr.fenderMm - axle.tyreOuterMm;
+        const strutClr = clr.strutMm - axle.tyreInnerMm;
+
+        function tyreD(m, rimDia, centreY) {
+          const l = hubX - m.tyreOuterMm * scale;
+          const r = hubX + m.tyreInnerMm * scale;
+          const bl = hubX - m.wheelOuterMm * scale;
+          const br = hubX + m.wheelInnerMm * scale;
+          const t = centreY - m.diameterMm * scale / 2;
+          const b = centreY + m.diameterMm * scale / 2;
+          const rt = centreY - rimDia * scale / 2;
+          const rb = centreY + rimDia * scale / 2;
+          const s = Math.min(10, (rt - t) * 0.45);
+          return 'M ' + (l + s) + ' ' + t +
+            ' L ' + (r - s) + ' ' + t + ' Q ' + r + ' ' + t + ' ' + r + ' ' + (t + s) +
+            ' L ' + r + ' ' + rt + ' L ' + br + ' ' + rt + ' L ' + br + ' ' + rb + ' L ' + r + ' ' + rb +
+            ' L ' + r + ' ' + (b - s) + ' Q ' + r + ' ' + b + ' ' + (r - s) + ' ' + b +
+            ' L ' + (l + s) + ' ' + b + ' Q ' + l + ' ' + b + ' ' + l + ' ' + (b - s) +
+            ' L ' + l + ' ' + rb + ' L ' + bl + ' ' + rb + ' L ' + bl + ' ' + rt + ' L ' + l + ' ' + rt +
+            ' L ' + l + ' ' + (t + s) + ' Q ' + l + ' ' + t + ' ' + (l + s) + ' ' + t + ' Z';
+        }
+
+        function rimRect(m, rimDia, centreY, cls, extra) {
+          const x = hubX - m.wheelOuterMm * scale;
+          const h = rimDia * scale;
+          return '<rect class="' + cls + '" x="' + x + '" y="' + (centreY - h / 2) + '" width="' + (m.wheelWidthMm * scale) + '" height="' + h + '"' + (extra || '') + '></rect>';
+        }
+
+        return '<text x="' + (colX + 15) + '" y="86">' + axle.axleLabel + '</text>' +
+          '<text class="muted" x="' + (colX + 15) + '" y="104">' + wheelLabel(axle) + ' &middot; ' + tyreLabel(axle) + ' &middot; ' + oneDecimal(axle.camberDeg) + '&deg;</text>' +
+          '<line class="guide" x1="' + (colX + 10) + '" y1="' + groundY + '" x2="' + (colX + colW - 10) + '" y2="' + groundY + '"></line>' +
+          '<line class="ref-line" x1="' + fenderX + '" y1="' + (drawTop - 8) + '" x2="' + fenderX + '" y2="' + groundY + '"></line>' +
+          '<text class="muted" x="' + fenderX + '" y="' + (drawTop - 14) + '" text-anchor="middle">fender</text>' +
+          '<line class="ref-line" x1="' + strutX + '" y1="' + (drawTop - 8) + '" x2="' + strutX + '" y2="' + groundY + '"></line>' +
+          '<text class="muted" x="' + strutX + '" y="' + (drawTop - 14) + '" text-anchor="middle">strut</text>' +
+          '<line class="hub" x1="' + hubX + '" y1="' + (drawTop - 8) + '" x2="' + hubX + '" y2="' + groundY + '"></line>' +
+          '<text class="muted" x="' + hubX + '" y="' + (drawTop - 14) + '" text-anchor="middle">hub</text>' +
+          '<path class="oem-fill" d="' + tyreD(base, baseRimDiaMm, baseCy) + '"></path>' +
+          rimRect(base, baseRimDiaMm, baseCy, 'baseline') +
+          '<path class="selected-tyre" d="' + tyreD(axle, rimDiaMm, cy) + '"' + rot + '></path>' +
+          rimRect(axle, rimDiaMm, cy, 'selected-wheel', rot) +
+          '<text class="muted" x="' + (colX + 15) + '" y="' + (groundY + 24) + '">fender ' + Math.round(fenderClr) + ' mm &middot; strut ' + Math.round(strutClr) + ' mm</text>' +
+          '<text class="muted" x="' + (colX + 15) + '" y="' + (groundY + 42) + '">' + signedMm(axle.pokeMm) + ' poke &middot; ' + signedMm(axle.innerChangeMm) + ' inner vs OEM</text>';
+      }
+
+      return '<svg class="fitment-svg" viewBox="0 0 900 560" role="img" aria-label="Front view cross-section">' +
+        '<text x="18" y="28">Cross-section, looking from front of car</text>' +
+        '<text class="muted" x="18" y="48">Outside (fender) left, inside (strut) right. Dashed outline is OEM.</text>' +
+        '<rect class="oem-fill" x="642" y="20" width="38" height="18" rx="4"></rect>' +
+        '<text class="muted" x="690" y="34">OEM</text>' +
+        '<rect class="selected-tyre" x="742" y="20" width="38" height="18" rx="4"></rect>' +
+        '<text class="muted" x="790" y="34">Selected</text>' +
+        section(front, chassis.front, 10) +
+        '<line class="guide" x1="450" y1="70" x2="450" y2="540"></line>' +
+        section(rear, chassis.rear, 460) +
+      '</svg>';
+    }
+
+    function render() {
+      updateRearLock();
+
+      const front = metrics(readSetup('front'));
+      const rear = metrics(readSetup('rear'));
+      front.axleLabel = 'Front';
+      rear.axleLabel = 'Rear';
+
+      summary.frontPoke.textContent = signedMm(front.pokeMm);
+      summary.frontInner.textContent = signedMm(front.innerChangeMm);
+      summary.rearPoke.textContent = signedMm(rear.pokeMm);
+      summary.rearInner.textContent = signedMm(rear.innerChangeMm);
+
+      sideView.innerHTML = sideSvg(front, rear);
+      frontView.innerHTML = frontSvg(front, rear);
+
+      tableBody.innerHTML = [front, rear].map(item => {
+        return '<tr>' +
+          '<td>' + item.axleLabel + '</td>' +
+          '<td>' + wheelLabel(item) + '</td>' +
+          '<td>' + tyreLabel(item) + '</td>' +
+          '<td>' + Math.round(item.diameterMm) + ' mm</td>' +
+          '<td>' + Math.round(item.sidewallMm) + ' mm</td>' +
+          '<td>' + signedMm(item.pokeMm) + '</td>' +
+          '<td>' + signedMm(item.innerChangeMm) + '</td>' +
+          '<td>' + oneDecimal(item.camberDeg) + '&deg;</td>' +
+          '<td>' + signedMm(item.archGapChangeMm) + '</td>' +
+          '<td>' + oneDecimal(item.diameterChangePct) + '%</td>' +
+        '</tr>';
+      }).join('');
+    }
+
+    setupPresets();
+
+    calculator.addEventListener('change', event => {
+      if (event.target === mirrorRear) {
+        render();
+        return;
+      }
+
+      if (event.target.matches('[data-input="preset"]')) {
+        if (event.target.value === '') return;
+        const axle = event.target.closest('[data-axle]').dataset.axle;
+        applyPreset(axle, presets[Number(event.target.value)]);
+      }
+
+      render();
+    });
+
+    calculator.addEventListener('input', event => {
+      if (!event.target.matches('.fitment-input')) return;
+      const axle = event.target.closest('[data-axle]');
+      axle.querySelector('[data-input="preset"]').value = '';
+      render();
+    });
+
+    render();
+  })();
+</script>
