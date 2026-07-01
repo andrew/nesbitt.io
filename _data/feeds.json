@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-01T09:31:39Z",
-  "cutoff": "2026-06-01T09:31:35Z",
+  "generated": "2026-07-01T11:29:08Z",
+  "cutoff": "2026-06-01T11:29:02Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 213,
   "categories": [
     ".NET",
     "C/C++",
@@ -24,16 +24,16 @@
     {
       "title": "2.10.2",
       "url": "https://github.com/composer/composer/releases/tag/2.10.2",
-      "published": "2026-07-01T09:24:45Z",
-      "preview": "Release 2.10.2",
+      "published": "2026-07-01T09:33:23Z",
+      "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 ) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx ) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 ) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Added warning output in self-update command when using a soon-to-be EOL version ( #12920 ) Added download retry when ",
       "source": "Composer releases",
       "category": "PHP"
     },
     {
       "title": "2.2.29",
       "url": "https://github.com/composer/composer/releases/tag/2.2.29",
-      "published": "2026-07-01T09:24:18Z",
-      "preview": "Release 2.2.29",
+      "published": "2026-07-01T09:32:54Z",
+      "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 ) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx ) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 ) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Fixed GitHub token validation to be even more relaxed ( #12856 ) Full Changelog : 2.2.28...2.2.29",
       "source": "Composer releases",
       "category": "PHP"
     },
@@ -1724,14 +1724,6 @@
       "preview": "🐛 bug fixes fix: Fixes Scala Native artifact publishing by @anatoliykmetyuk in #9118 fix: Fix duplicate autoplugins packageBin mappings by @anatoliykmetyuk in #9255 perf: Parallelize dependency resolution when no progress bar is rendered by @BrianHotopp in #9270 fix: Report a missing input file clearly by @BrianHotopp in #9271 fix: Reimplement FarmHash without using sun.misc.Unsafe by @eed3si9n in #9267 + #9278 fix: Fixes backtick-quoted project handling by @xuwei-k in #9277 perf: Improve incremental test stamper, take 2 by @eed3si9n in #9257 fix: Opt bspBuildTargetOutputPathsItem out of cachi",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "v0.380.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.380.0",
-      "published": "2026-06-01T10:31:11Z",
-      "preview": "What's Changed bundler: avoid adding Bundler checksum for lockfiles using 4.0.0-4.0.10 by @thavaahariharangit in #15164 Remove beta ecosystem flag handling for Deno by @markhallen in #15173 [bun] Add lockfile generator for bun by @brrygrdn in #14882 Pass --config.minimumReleaseAge=0 for pnpm security updates to bypass pnpm-workspace.yaml by @yeikel in #15170 build(deps): bump terraform to 1.15.3 by @HorizonNet in #15055 Change cron schedule from Thursday to Monday by @robaiken in #15181 Add specific error for missing .NET SDK in discovery by @brettfo in #15168 Throw UnparseableFileException wh",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
