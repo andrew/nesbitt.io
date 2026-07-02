@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-01T20:53:25Z",
-  "cutoff": "2026-06-01T20:53:16Z",
+  "generated": "2026-07-02T01:19:51Z",
+  "cutoff": "2026-06-02T01:19:46Z",
   "feed_count": 79,
-  "item_count": 208,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.13.0-266.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-266.0.dev",
+      "published": "2026-07-02T00:48:03Z",
+      "preview": "SDK 3.13.0-266.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-265.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-265.0.dev",
+      "published": "2026-07-02T00:48:01Z",
+      "preview": "SDK 3.13.0-265.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-264.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-264.0.dev",
+      "published": "2026-07-02T00:47:59Z",
+      "preview": "SDK 3.13.0-264.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-263.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-263.0.dev",
+      "published": "2026-07-02T00:47:57Z",
+      "preview": "SDK 3.13.0-263.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "Windows Package Manager 1.29.280",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.280",
@@ -270,22 +302,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.13.0-256.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-256.0.dev",
-      "published": "2026-06-30T00:48:35Z",
-      "preview": "SDK 3.13.0-256.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-255.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-255.0.dev",
-      "published": "2026-06-30T00:48:33Z",
-      "preview": "SDK 3.13.0-255.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "Announcing Rust 1.96.1",
       "url": "https://blog.rust-lang.org/2026/06/30/Rust-1.96.1/",
       "published": "2026-06-30T00:00:00Z",
@@ -446,14 +462,6 @@
       "category": ".NET"
     },
     {
-      "title": "SDK-3.13.0-254.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-254.0.dev",
-      "published": "2026-06-28T00:50:00Z",
-      "preview": "SDK 3.13.0-254.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "v2.15.2-rc2",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc2",
       "published": "2026-06-27T08:10:46Z",
@@ -468,14 +476,6 @@
       "preview": "Release Notes Released on 2026-06-26. Security This release updates our tar library, astral-tokio-tar , to v0.6.3, which includes over 20 changes that harden our tar handling against parser differentials . uv may reject source distributions with malformed or ambiguous content that were previously accepted. See the upstream commits for a full list of changes. Enhancements Add a full \"lockfile\" to tool receipts ( #18937 ) Allow scoped overrides to add dependencies ( #19974 ) Avoid writing redundant lockfile markers with tool.uv.environments ( #19933 ) Factor supported environments out of lockfil",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "SDK-3.13.0-253.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-253.0.dev",
-      "published": "2026-06-27T00:48:10Z",
-      "preview": "SDK 3.13.0-253.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "6.0.5",
@@ -1660,30 +1660,6 @@
       "preview": "2026-06-02",
       "source": "Yarn releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "Hatch v1.17.0",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.17.0",
-      "published": "2026-06-02T00:27:57Z",
-      "preview": "Changed: The hatch fmt command is now deprecated in favor of the new hatch check command group Migrate HTTP client from httpx to httpx2 Added: Add hatch check command group with subcommands for check code (linting), check fmt (formatting), and check types (type checking) Add hatch check types command for type checking using Pyrefly, with --summarize and --cover flags Add hatch env lock command to generate PEP 751 compliant lockfiles ( pylock.toml ) for environments Add hatch dep lock and hatch lock commands as shortcuts for locking the active environment Add hatch dep sync command for syncing ",
-      "source": "Hatch releases",
-      "category": "Python"
-    },
-    {
-      "title": "Hatchling v1.30.1",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.30.1",
-      "published": "2026-06-02T00:10:21Z",
-      "preview": "Fixed Default core metadata version kept at 2.4 until more tools support 2.5",
-      "source": "Hatch releases",
-      "category": "Python"
-    },
-    {
-      "title": "Launching the Rust Foundation Maintainers Fund",
-      "url": "https://blog.rust-lang.org/2026/06/02/launching-the-rust-foundation-maintainers-fund/",
-      "published": "2026-06-02T00:00:00Z",
-      "preview": "If you want to financially support the development of Rust, please consider donating to the Rust Foundation Maintainers Fund. A few months ago, the Rust Foundation announced the Rust Foundation Maintainers Fund (RFMF). Since then, the Rust Project has been closely cooperating with the Rust Foundation to determine how exactly this fund will be used to support Rust maintainers. This resulted in the acceptance of RFC #3931 , which established the Funding team and the Maintainer in Residence program. The primary goal of the Funding team is to ensure that maintainers who work on Rust and its toolch",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
