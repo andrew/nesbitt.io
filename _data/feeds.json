@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-02T12:59:53Z",
-  "cutoff": "2026-06-02T12:59:49Z",
+  "generated": "2026-07-02T15:02:25Z",
+  "cutoff": "2026-06-02T15:02:21Z",
   "feed_count": 79,
   "item_count": 206,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.250.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.250.0",
+      "published": "2026-07-02T14:03:29Z",
+      "preview": "43.250.0 (2026-07-02) Features manager/github-actions: support parallel steps ( #44341 ) ( a84fb3d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.9.0.71",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.71",
@@ -460,14 +468,6 @@
       "preview": "Feature: Add SPDX expression support in SBOM generation. ( #20112 ) Feature: Add type annotations to LockfileAPI for improved IDE support. ( #20104 ) Feature: Add missing favicon to Conan HTML output. ( #20087 ) Feature: Implement the conf=~ for the \"unset\" operation (alias for conf=! ). ( #20084 ). Docs: 📃 Feature: Add ASFLAGS to AutotoolsToolchain / GnuToolchain , including architecture and sysroot flags. ( #20078 ). Docs: 📃 Feature: Add IntelCC support in Meson, Autotools and Premake toolchains. ( #20075 ). Docs: 📃 Feature: Model explicitly the msys2 environments (clang64, ucrt64, etc) in t",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "43.247.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.247.1",
-      "published": "2026-06-29T13:07:00Z",
-      "preview": "43.247.1 (2026-06-29) Miscellaneous Chores deps: update dependency oxlint to v1.71.0 (main) ( #44288 ) ( 99a6e31 ) Build System deps: update dependency cronstrue to v3.21.0 (main) ( #44287 ) ( 1c7dde3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.0.1",
