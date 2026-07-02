@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-02T16:01:25Z",
-  "cutoff": "2026-06-02T16:01:21Z",
+  "generated": "2026-07-02T16:57:50Z",
+  "cutoff": "2026-06-02T16:57:46Z",
   "feed_count": 79,
   "item_count": 205,
   "categories": [
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v2026.7.0",
+      "title": "v2026.7.0: Shell expansion by default, monorepo lockfiles, and task usage mounts",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.0",
-      "published": "2026-07-02T15:54:15Z",
-      "preview": "(bootstrap) prune unmanaged brew formulae by @jdx in [ #10618 ](h…",
+      "published": "2026-07-02T16:36:52Z",
+      "preview": "Added env: enable shell expansion by default; opt out with env_shell_expand = false ( #10702 by @jdx ). monorepo: mise install --monorepo and mise ls --monorepo install/list the union of tools across [monorepo].config_roots ; new tri-state [monorepo].lockfile for unified root lockfiles ( #10707 by @jdx ). task: root-level #USAGE mount ... in file tasks (including shorthand mount \"cmd\" ) hoists mounted usage specs onto the generated task command ( #10704 by @jdx ). github: per-tool github_attestations option to disable GitHub Artifact Attestation verification for a single tool ( #10694 by @jdx ",
       "source": "mise releases",
       "category": "Multi-language"
     },
