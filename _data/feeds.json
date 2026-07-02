@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-02T15:02:25Z",
-  "cutoff": "2026-06-02T15:02:21Z",
+  "generated": "2026-07-02T16:01:25Z",
+  "cutoff": "2026-06-02T16:01:21Z",
   "feed_count": 79,
-  "item_count": 206,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.0",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.0",
+      "published": "2026-07-02T15:54:15Z",
+      "preview": "(bootstrap) prune unmanaged brew formulae by @jdx in [ #10618 ](h…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.7.0",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.7.0",
+      "published": "2026-07-02T15:51:38Z",
+      "preview": "Release aqua-registry 2026.7.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.0",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.0",
+      "published": "2026-07-02T15:51:23Z",
+      "preview": "Release vfox 2026.7.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.7.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.7.0",
+      "published": "2026-07-02T15:50:38Z",
+      "preview": "Release mise-sigstore 2026.7.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "43.250.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.250.0",
@@ -782,30 +814,6 @@
       "category": "System"
     },
     {
-      "title": "v2026.6.12: Bootstrap skip, cross-platform lock checksums, DNF5 fix",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.12",
-      "published": "2026-06-22T01:14:49Z",
-      "preview": "Added bootstrap: mise bootstrap --skip <part> for selective phases ( packages , dotfiles , defaults , launchd , systemd , user , tools , task , final-hook ); repeatable and comma-separated ( #10497 by @jdx ). http: Cross-platform lock checksums resolved from published metadata via checksum_url , checksum_expr , and checksum_algo ( #10509 by @itochan ). aqua: Parse and verify checksum.replacements , checksum.minisign , and checksum.github_artifact_attestations ( #10473 by @risu729 ). registry: Added aspire ( #10520 by @davidfowl ), ldc ( #10527 by @slbls ), and nub ( #10544 by @colinhacks ). Fi",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "aqua-registry-v2026.6.6",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.6.6",
-      "published": "2026-06-22T00:36:27Z",
-      "preview": "Release aqua-registry 2026.6.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.6.13",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.13",
-      "published": "2026-06-22T00:36:05Z",
-      "preview": "Release vfox 2026.6.13",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "1.12.13",
       "url": "https://github.com/sbt/sbt/releases/tag/v1.12.13",
       "published": "2026-06-21T22:42:29Z",
@@ -1036,14 +1044,6 @@
       "preview": "The Gradle team is excited to announce Gradle 9.6.0 RC3. Here are the highlights of this release: Improved Configuration Cache hit rates Additional CLI rendering options Important project hierarchy lookup deprecations Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aharnish Solanki , Benedikt Johannes , Devendra Reddy Pennabadi , Dmytro Rodionov , Dreeam , Elías Hernández Rodríguez , Eng Zer Jun , FinlayRJW , Kamal Kansal , Marcono1234 , Nelson Osacky , Philip Wedemann , Ravi , Roberto Perez Alcolea , Ryan Schmitt",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "vfox-v2026.6.12",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.12",
-      "published": "2026-06-16T03:46:09Z",
-      "preview": "Release vfox 2026.6.12",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v0.382.0",
@@ -1660,14 +1660,6 @@
       "preview": "Change-Id: I1c45ebded2d678b73081c6716a0fdd15a0b1824e Reviewed-on: https://go-review.googlesource.com/c/go/+/786201 TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Mark Freeman markfreeman@google.com Reviewed-by: David Chase drchase@google.com",
       "source": "Go releases",
       "category": "Go"
-    },
-    {
-      "title": "Blocking malware downloads for every Composer version in Private Packagist",
-      "url": "https://blog.packagist.com/blocking-malware-downloads-for-every-composer-version-in-private-packagist/",
-      "published": "2026-06-02T15:08:10Z",
-      "preview": "This is the next post in our supply chain security series, following the supply chain security update , the Composer 2.10 release , and the recent post on closing Composer&apos;s download fallback paths . Composer 2.10&apos;s dependency policy framework is a substantial step forward for PHP supply",
-      "source": "Packagist Blog",
-      "category": "PHP"
     }
   ]
 }
