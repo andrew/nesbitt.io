@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-02T09:28:23Z",
-  "cutoff": "2026-06-02T09:28:18Z",
+  "generated": "2026-07-02T11:12:26Z",
+  "cutoff": "2026-06-02T11:12:21Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 206,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.249.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.7",
+      "published": "2026-07-02T11:02:10Z",
+      "preview": "43.249.7 (2026-07-02) Bug Fixes manager/custom/jsonata: handle evaluation errors ( #44340 ) ( d8e82a2 ) Miscellaneous Chores deps: update github/codeql-action action to v4.36.3 (main) ( #44343 ) ( e8af898 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "20260702t101200-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260702t101200-all",
+      "published": "2026-07-02T10:13:04Z",
+      "preview": "Deployment at 2026-07-02T10:12:51.191618Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2.15.2",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2",
+      "published": "2026-07-02T10:08:11Z",
+      "preview": "What's Changed Component updates ⬆️ [CHERRY-PICK] Make openapi-generator-cli download URL configurable ( #23186 ) by @chlins in #23221 bump Go version from 1.25.9 to 1.26.3 by @stonezdj in #23236 [cherry-pick] Rebuild goharbor/photon image before create new harbor base images by @jUDASmILE in #23250 [cherry-pick]remove install net-tools from db dockerfile as photon removed it by @jUDASmILE in #23267 [CHERRY-PICK] feat: replace redis with valkey as cache backend ( #23157 ) by @chlins in #23261 [CHERRY-PICK] test(cosign): disable tlog for signing checks by @chlins in #23280 [CHERRY-PICK] fix(cos",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
     {
       "title": "43.249.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.6",
@@ -434,14 +458,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.247.1",
       "published": "2026-06-29T13:07:00Z",
       "preview": "43.247.1 (2026-06-29) Miscellaneous Chores deps: update dependency oxlint to v1.71.0 (main) ( #44288 ) ( 99a6e31 ) Build System deps: update dependency cronstrue to v3.21.0 (main) ( #44287 ) ( 1c7dde3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.247.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.247.0",
-      "published": "2026-06-29T08:35:05Z",
-      "preview": "43.247.0 (2026-06-29) Features versioning/node: support Semver pre-release versions for Node 27 ( #44281 ) ( 5d79039 ) Documentation update references to otel/opentelemetry-collector-contrib to v0.155.0 (main) ( #44280 ) ( 73a3334 ) update references to python to 5c48543 (main) ( #44279 ) ( a1669f3 ) update references to renovate/renovate (main) ( #44282 ) ( e84faa2 ) update references to renovatebot/github-action to v46.1.17 (main) ( #44284 ) ( ce5f708 ) Miscellaneous Chores deps: lock file maintenance (main) ( #44283 ) ( 5190e1a )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
