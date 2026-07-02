@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-02T16:57:50Z",
-  "cutoff": "2026-06-02T16:57:46Z",
+  "generated": "2026-07-02T19:52:20Z",
+  "cutoff": "2026-06-02T19:52:15Z",
   "feed_count": 79,
-  "item_count": 205,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.251.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.251.0",
+      "published": "2026-07-02T18:51:58Z",
+      "preview": "43.251.0 (2026-07-02) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.70.0 (main) ( #44351 ) ( c2964c6 ) Miscellaneous Chores deps: update dependency tar to v7.5.17 (main) ( #44348 ) ( 75f8deb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.7.0: Shell expansion by default, monorepo lockfiles, and task usage mounts",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.0",
@@ -484,14 +492,6 @@
       "preview": "12.0.0-pre.2 (2026-06-29) Features b51d156 #9672 arborist: extend replace-registry-host with URL prefix matching ( #6110 ) ( #9672 ) ( @u2mejc ) 86416a6 #9674 graduate the linked install strategy from experimental to stable ( #9674 ) ( @manzoorwanijk ) c4e5356 #9651 install-scripts: prune unused allowScripts entries ( #9651 ) ( @JamieMagee ) 0c4dd41 #9629 namespace install-script approval commands under npm install-scripts ( #9629 ) ( @manzoorwanijk ) 58cd8f5 #9586 .npm-extension transformManifest for imperative manifest repairs ( #9586 ) ( @manzoorwanijk ) Bug Fixes 024e6d9 #9670 sbom: percen",
       "source": "npm CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.248.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.248.0",
-      "published": "2026-06-29T16:02:05Z",
-      "preview": "43.248.0 (2026-06-29) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.69.0 (main) ( #44290 ) ( b9e7f04 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.30.0 (29-Jun-2026)",
@@ -1644,22 +1644,6 @@
       "preview": "Most supply-chain attacks against RubyGems exploit a narrow window: an account is compromised, a malicious version ships, and any bundle install in the minutes that follow resolves straight to it. Bundler 4.0.13 introduces cooldown , a time-based filter that refuses to resolve to a version until it has been public for at least N days. Releases too new to have been scrutinized are passed over in favor of ones that have aged past the window. The feature was designed in the open , drawing on how other ecosystems approach the same problem . It is opt-in, and complements rather than replaces existi",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "[release-branch.go1.25] go1.25.11",
-      "url": "https://github.com/golang/go/releases/tag/go1.25.11",
-      "published": "2026-06-02T18:57:25Z",
-      "preview": "Change-Id: I294bec3e2b7893fc24bcaf8755de77e1afb31fd1 Reviewed-on: https://go-review.googlesource.com/c/go/+/786221 Reviewed-by: David Chase drchase@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Mark Freeman markfreeman@google.com",
-      "source": "Go releases",
-      "category": "Go"
-    },
-    {
-      "title": "[release-branch.go1.26] go1.26.4",
-      "url": "https://github.com/golang/go/releases/tag/go1.26.4",
-      "published": "2026-06-02T18:57:22Z",
-      "preview": "Change-Id: I1c45ebded2d678b73081c6716a0fdd15a0b1824e Reviewed-on: https://go-review.googlesource.com/c/go/+/786201 TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Mark Freeman markfreeman@google.com Reviewed-by: David Chase drchase@google.com",
-      "source": "Go releases",
-      "category": "Go"
     }
   ]
 }
