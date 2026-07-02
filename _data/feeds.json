@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-02T07:30:18Z",
-  "cutoff": "2026-06-02T07:30:15Z",
+  "generated": "2026-07-02T09:28:23Z",
+  "cutoff": "2026-06-02T09:28:18Z",
   "feed_count": 79,
-  "item_count": 205,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.249.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.6",
+      "published": "2026-07-02T08:45:15Z",
+      "preview": "43.249.6 (2026-07-02) Bug Fixes deno: lockfile update in presence of private registries ( #43147 ) ( 5ddd565 ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.69.5 (main) ( #44333 ) ( 62b2825 ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.69.5 (main) ( #44336 ) ( 5c0df3f ) git: allow overriding GIT_ASKPASS ( #44322 ) ( 289e2d2 ) manager/nuget: detect MSBuild SDK updates in sqlproj files ( #43831 ) ( 5d9e0b8 ) Miscellaneous Chores deps: update actions/cache action to v5.1.0 (main) ( #44264 ) ( 0daf9ed ) deps: update docker/setup-qemu-action action to v4.2.0 (main)",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.15.2-rc3",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc3",
@@ -452,14 +460,6 @@
       "preview": "Enhancements Add organization-defined dependency policies that filter the package versions available during dependency resolution. An organization publishes a named policy through its repository, and a project opts into one with the policy config ( HEX_POLICY , [org: \"ORG\", name: \"NAME\"] in the mix.exs :hex block, or mix hex.config ). A policy constrains one or more repositories — typically the organization's own repo and hexpm — and for each can block releases that: carry a security advisory at or above a minimum severity are retired for one of a given set of reasons are newer than a release-",
       "source": "Hex releases",
       "category": "Elixir"
-    },
-    {
-      "title": "43.246.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.246.1",
-      "published": "2026-06-28T19:52:11Z",
-      "preview": "43.246.1 (2026-06-28) Build System deps: update dependency @renovatebot/osv-offline to v3.0.4 (main) ( #44278 ) ( 98b50a2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.9.0.61",
@@ -1652,14 +1652,6 @@
       "preview": "This is the next post in our supply chain security series, following the supply chain security update , the Composer 2.10 release , and the recent post on closing Composer&apos;s download fallback paths . Composer 2.10&apos;s dependency policy framework is a substantial step forward for PHP supply",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "pnpm 11.5.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.1",
-      "published": "2026-06-02T08:40:54Z",
-      "preview": "Patch Changes Improve pnpm audit performance by pruning non-vulnerable lockfile subtrees and stopping path enumeration once vulnerable findings reach the path cap. Avoid crashing when the workspace state cache is partially written or malformed. Set npm_config_user_agent for root lifecycle scripts during headless installs. Preserve the integrity field of a remote (non-registry) tarball dependency when its lockfile entry is rebuilt. Re-resolving such a dependency without re-fetching it (for example via pnpm update , or when another dependency changes) produced a resolution with no integrity — UR",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     }
   ]
 }
