@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-02T11:12:26Z",
-  "cutoff": "2026-06-02T11:12:21Z",
+  "generated": "2026-07-02T12:59:53Z",
+  "cutoff": "2026-06-02T12:59:49Z",
   "feed_count": 79,
   "item_count": 206,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.9.0.71",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.71",
+      "published": "2026-07-02T12:20:04Z",
+      "preview": "Insert 7.9.0.71 into main on 07/02/2026 12:20:04",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "43.249.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.7",
@@ -988,14 +996,6 @@
       "preview": "Helm v4.2.2 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Revert: Fixed a race condition in WaitForDelete where the status observer canceled the watch too early, causing intermittent failures when running a full test suite #32214 Installation and Upgra",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "7.9.0.35",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.35",
-      "published": "2026-06-17T12:41:01Z",
-      "preview": "Insert 7.9.0.35 into main on 06/17/2026 12:41:01",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-15-a",
