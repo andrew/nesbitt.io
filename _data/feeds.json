@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-02T05:40:23Z",
-  "cutoff": "2026-06-02T05:40:19Z",
+  "generated": "2026-07-02T07:30:18Z",
+  "cutoff": "2026-06-02T07:30:15Z",
   "feed_count": 79,
-  "item_count": 206,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -1659,14 +1659,6 @@
       "published": "2026-06-02T08:40:54Z",
       "preview": "Patch Changes Improve pnpm audit performance by pruning non-vulnerable lockfile subtrees and stopping path enumeration once vulnerable findings reach the path cap. Avoid crashing when the workspace state cache is partially written or malformed. Set npm_config_user_agent for root lifecycle scripts during headless installs. Preserve the integrity field of a remote (non-registry) tarball dependency when its lockfile entry is rebuilt. Re-resolving such a dependency without re-fetching it (for example via pnpm update , or when another dependency changes) produced a resolution with no integrity — UR",
       "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "2026-06-02",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-06-02",
-      "published": "2026-06-02T07:11:27Z",
-      "preview": "2026-06-02",
-      "source": "Yarn releases",
       "category": "JavaScript"
     }
   ]
