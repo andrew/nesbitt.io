@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-03T18:45:38Z",
-  "cutoff": "2026-06-03T18:45:34Z",
+  "generated": "2026-07-03T22:39:34Z",
+  "cutoff": "2026-06-03T22:39:30Z",
   "feed_count": 79,
-  "item_count": 197,
+  "item_count": 196,
   "categories": [
     ".NET",
     "C/C++",
@@ -1587,14 +1587,6 @@
       "published": "2026-06-04T05:25:29Z",
       "preview": "What's Changed ci: declare workflow-level contents: read on 3 remaining workflows by @arpitjain099 in #1822 Fix inject option parsing with --force before dependencies by @bubaizhanshen in #1820 docs: fix self-managed ensurepath command by @EddieBSN in #1823 chore(ci): restrict OIDC token to publish job by @facutuesca in #1826 Add --no-path-check to skip the on-PATH check in pipx run by @findepi in #1825 Add zizmor workflow and address findings by @facutuesca in #1827 Fix release push auth with persist-credentials: false by @gaborbernat in #1828 New Contributors @arpitjain099 made their first c",
       "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "0.11.19",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.19",
-      "published": "2026-06-03T22:38:57Z",
-      "preview": "Release Notes Released on 2026-06-03. Python Add CPython 3.15.0b2 ( #19531 ) Enhancements Always compute SHA256 for remote distributions ( #19662 ) Add PyEmscripten platform (PEP 783) ( #19629 ) Add Pyodide 2025 target triple ( #19653 ) Preview features Make preview features for commands have names that aren't ambiguous with the command ( #19645 ) Respect --isolated in uv check ( #19666 ) Bug fixes Continue tool uninstall after dangling receipts ( #19623 ) Skip Unix-specific installation steps when cross-installing Windows Python distributions ( #19424 ) Install uv 0.11.19 Install prebuilt bin",
-      "source": "uv releases",
       "category": "Python"
     }
   ]
