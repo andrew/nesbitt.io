@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-03T01:02:29Z",
-  "cutoff": "2026-06-03T01:02:25Z",
+  "generated": "2026-07-03T03:30:00Z",
+  "cutoff": "2026-06-03T03:29:37Z",
   "feed_count": 79,
-  "item_count": 201,
+  "item_count": 199,
   "categories": [
     ".NET",
     "C/C++",
@@ -1612,22 +1612,6 @@
       "preview": "What's Changed tests: Use full constant names sometimes (for Sorbet rule 5001 compat) by @issyl0 in #22415 Sorbet now understands our custom mktmpdir helper method by @issyl0 in #22414 test_runner_formula: treat versioned macOS deps as macOS-only by @ivan-digital in #22420 Check bundle formula link status by @MikeMcQuaid in #22412 Improve cleanup ask output by @MikeMcQuaid in #22416 Fix zsh nested subcommand option completion by @ZhongRuoyu in #22422 Fix cask upgrade env conflict by @MikeMcQuaid in #22423 cask/upgrade: re-register application bundle before reopen by @bevanjkay in #22425 docs/G",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "bundler-v4.0.13",
-      "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.13",
-      "published": "2026-06-03T03:01:31Z",
-      "preview": "Enhancements: Do not hard-code permissions for new gem directories during bundle install. Pull request #9557 by maxfelsher-cgi Clear gem specification cache after acquiring process lock. Pull request #9310 by ngan Show release date with bundle outdated. Pull request #9337 by hsbt Bug fixes: Apply cooldown to locally installed gem versions. Pull request #9582 by hsbt Security: Add cooldown to delay newly published gem. Pull request #9576 by hsbt",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.13",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.13",
-      "published": "2026-06-03T02:59:24Z",
-      "preview": "Enhancements: Prevent extraction from escaping destination_dir via pre-existing symlinks. Pull request #9493 by thesmartshadow Close stdin immediately when using popen2e. Pull request #9540 by rwstauner Fallback to copy symlinks on Windows. Pull request #9296 by larskanis Installs bundler 4.0.13 as a default gem.",
-      "source": "RubyGems releases",
-      "category": "Ruby"
     }
   ]
 }
