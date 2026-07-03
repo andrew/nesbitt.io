@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-03T14:00:28Z",
-  "cutoff": "2026-06-03T14:00:17Z",
+  "generated": "2026-07-03T18:45:38Z",
+  "cutoff": "2026-06-03T18:45:34Z",
   "feed_count": 79,
-  "item_count": 198,
+  "item_count": 197,
   "categories": [
     ".NET",
     "C/C++",
@@ -1596,14 +1596,6 @@
       "preview": "Release Notes Released on 2026-06-03. Python Add CPython 3.15.0b2 ( #19531 ) Enhancements Always compute SHA256 for remote distributions ( #19662 ) Add PyEmscripten platform (PEP 783) ( #19629 ) Add Pyodide 2025 target triple ( #19653 ) Preview features Make preview features for commands have names that aren't ambiguous with the command ( #19645 ) Respect --isolated in uv check ( #19666 ) Bug fixes Continue tool uninstall after dangling receipts ( #19623 ) Skip Unix-specific installation steps when cross-installing Windows Python distributions ( #19424 ) Install uv 0.11.19 Install prebuilt bin",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "v2.0.0-beta.16",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.16",
-      "published": "2026-06-03T17:58:53Z",
-      "preview": "v2.0.0-beta.16",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
