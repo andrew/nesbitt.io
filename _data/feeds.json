@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-03T11:12:50Z",
-  "cutoff": "2026-06-03T11:12:45Z",
+  "generated": "2026-07-03T14:00:28Z",
+  "cutoff": "2026-06-03T14:00:17Z",
   "feed_count": 79,
-  "item_count": 200,
+  "item_count": 198,
   "categories": [
     ".NET",
     "C/C++",
@@ -1604,22 +1604,6 @@
       "preview": "v2.0.0-beta.16",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "v2.8.2",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.8.2",
-      "published": "2026-06-03T13:41:42Z",
-      "preview": "2.8.2 / 2026.06.03 feat(compile): improve --bundle dependency resolution and add --minify ( #34536 ) feat(compile): scope --bundle npm embed to packages actually reached ( #34532 ) feat(ext/crypto): add ChaCha20-Poly1305, SHAKE, cSHAKE, TurboSHAKE, SHA-3 HMAC ( #34417 ) feat(ext/crypto): add ML-DSA (FIPS 204) post-quantum signatures ( #34448 ) feat(ext/crypto): implement ML-KEM (FIPS 203) post-quantum KEM ( #34447 ) feat(ext/node): env/global proxy support for node:http and node:https ( #34257 ) feat(ext/node): support DENO_SERVE_ADDRESS override in node:http servers ( #34662 ) feat(jupyter): ",
-      "source": "Deno releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "5.1.15",
-      "url": "https://github.com/Homebrew/brew/releases/tag/5.1.15",
-      "published": "2026-06-03T13:24:35Z",
-      "preview": "What's Changed tests: Use full constant names sometimes (for Sorbet rule 5001 compat) by @issyl0 in #22415 Sorbet now understands our custom mktmpdir helper method by @issyl0 in #22414 test_runner_formula: treat versioned macOS deps as macOS-only by @ivan-digital in #22420 Check bundle formula link status by @MikeMcQuaid in #22412 Improve cleanup ask output by @MikeMcQuaid in #22416 Fix zsh nested subcommand option completion by @ZhongRuoyu in #22422 Fix cask upgrade env conflict by @MikeMcQuaid in #22423 cask/upgrade: re-register application bundle before reopen by @bevanjkay in #22425 docs/G",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
