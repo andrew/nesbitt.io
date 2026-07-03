@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-02T19:52:20Z",
-  "cutoff": "2026-06-02T19:52:15Z",
+  "generated": "2026-07-03T01:02:29Z",
+  "cutoff": "2026-06-03T01:02:25Z",
   "feed_count": 79,
-  "item_count": 203,
+  "item_count": 201,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.13.0-269.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-269.0.dev",
+      "published": "2026-07-03T00:39:43Z",
+      "preview": "SDK 3.13.0-269.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-268.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-268.0.dev",
+      "published": "2026-07-03T00:39:41Z",
+      "preview": "SDK 3.13.0-268.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-267.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-267.0.dev",
+      "published": "2026-07-03T00:39:39Z",
+      "preview": "SDK 3.13.0-267.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "43.251.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.251.0",
@@ -214,22 +238,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.13.0-259.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-259.0.dev",
-      "published": "2026-07-01T00:59:44Z",
-      "preview": "SDK 3.13.0-259.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-258.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-258.0.dev",
-      "published": "2026-07-01T00:59:41Z",
-      "preview": "SDK 3.13.0-258.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "43.249.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.5",
       "published": "2026-07-01T00:48:34Z",
@@ -388,14 +396,6 @@
       "preview": "What's Changed Flag scoped service path helpers by @MikeMcQuaid in #22858 linkage_checker: always report incorrect :no_linkage by @cho-m in #22887 Cleanup brew-rs leftovers by @botantony in #22895 Add shared Utils::Path.ensure_child_of! containment helper by @p-linnane in #22890 test: add :needs_daemon_manager to some tests by @cho-m in #22905 test/cmd/update_spec: fix local test run failures by @cho-m in #22906 Resolve patch targets via patch --dry-run for containment by @p-linnane in #22908 Revalidate tap restrictions for git redirects by @p-linnane in #22909 Full Changelog : 6.0.5...6.0.6",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "SDK-3.13.0-257.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-257.0.dev",
-      "published": "2026-06-30T00:48:37Z",
-      "preview": "SDK 3.13.0-257.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "Announcing Rust 1.96.1",
@@ -1627,22 +1627,6 @@
       "published": "2026-06-03T02:59:24Z",
       "preview": "Enhancements: Prevent extraction from escaping destination_dir via pre-existing symlinks. Pull request #9493 by thesmartshadow Close stdin immediately when using popen2e. Pull request #9540 by rwstauner Fallback to copy symlinks on Windows. Pull request #9296 by larskanis Installs bundler 4.0.13 as a default gem.",
       "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "4.0.13 Released",
-      "url": "https://blog.rubygems.org/2026/06/03/4.0.13-released.html",
-      "published": "2026-06-03T00:00:00Z",
-      "preview": "RubyGems 4.0.13 includes enhancements and Bundler 4.0.13 includes enhancements, bug fixes and security. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.13 RubyGems Release Notes Enhancements: Prevent extraction from escaping destination_dir via pre-existing symlinks. Pull request #9493 by thesmartshadow Close stdin immediately when using popen2e. Pull request #9540 by rwstauner Fallback to copy symlinks on Windows. Pull request #9296 by larskanis Installs bundler 4.0.1",
-      "source": "RubyGems Blog",
-      "category": "Ruby"
-    },
-    {
-      "title": "Cool down before you install: give new gems a few days to be vetted",
-      "url": "https://blog.rubygems.org/2026/06/03/cooldown-let-new-gems-be-vetted.html",
-      "published": "2026-06-03T00:00:00Z",
-      "preview": "Most supply-chain attacks against RubyGems exploit a narrow window: an account is compromised, a malicious version ships, and any bundle install in the minutes that follow resolves straight to it. Bundler 4.0.13 introduces cooldown , a time-based filter that refuses to resolve to a version until it has been public for at least N days. Releases too new to have been scrutinized are passed over in favor of ones that have aged past the window. The feature was designed in the open , drawing on how other ecosystems approach the same problem . It is opt-in, and complements rather than replaces existi",
-      "source": "RubyGems Blog",
       "category": "Ruby"
     }
   ]
