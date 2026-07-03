@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-03T07:29:17Z",
-  "cutoff": "2026-06-03T07:29:11Z",
+  "generated": "2026-07-03T09:28:54Z",
+  "cutoff": "2026-06-03T09:28:49Z",
   "feed_count": 79,
-  "item_count": 199,
+  "item_count": 200,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.251.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.251.2",
+      "published": "2026-07-03T09:08:44Z",
+      "preview": "43.251.2 (2026-07-03) Miscellaneous Chores deps: update dependency nock to v14.0.16 (main) ( #44354 ) ( bc2f043 ) Build System deps: update dependency ae-cvss-calculator to v1.0.13 (main) ( #44355 ) ( 55b4257 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.251.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.251.1",
@@ -52,6 +60,14 @@
       "preview": "SDK 3.13.0-267.0.dev",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "v9.7.0-M2",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0-M2",
+      "published": "2026-07-02T20:05:53Z",
+      "preview": "Add feature preview for enhanced graph orderings ( #38077 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "43.251.0",
@@ -324,14 +340,6 @@
       "preview": "0.97.2 release",
       "source": "Cargo releases",
       "category": "Rust"
-    },
-    {
-      "title": "43.249.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.1",
-      "published": "2026-06-30T10:52:47Z",
-      "preview": "43.249.1 (2026-06-30) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.69.1 (main) ( #44300 ) ( ffe66e3 ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.1 (main) ( #44297 ) ( b0bbd85 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.3 (main) ( #44299 ) ( 1c191d2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pixi-build-cmake-v0.4.3",
