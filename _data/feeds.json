@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-04T08:25:20Z",
-  "cutoff": "2026-06-04T08:25:16Z",
+  "generated": "2026-07-04T09:08:22Z",
+  "cutoff": "2026-06-04T09:08:18Z",
   "feed_count": 79,
-  "item_count": 195,
+  "item_count": 193,
   "categories": [
     ".NET",
     "C/C++",
@@ -1563,22 +1563,6 @@
       "published": "2026-06-04T12:17:45Z",
       "preview": "This is the next post in our supply chain security series, following the supply chain security update , the Composer 2.10 release , closing Composer&apos;s download fallback paths , and blocking malware downloads for every Composer version . While the protections we have shipped try their best to cover older Composer",
       "source": "Packagist Blog",
-      "category": "PHP"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-02-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-02-a",
-      "published": "2026-06-04T08:52:24Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-02-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
-    },
-    {
-      "title": "2.10.1",
-      "url": "https://github.com/composer/composer/releases/tag/2.10.1",
-      "published": "2026-06-04T08:29:43Z",
-      "preview": "Security: Fixed shell escaping when opening an editor ( #12903 ) Security: Verify backup phar signature before restoring it when using self-update --rollback ( #12918 ) Fixed source-fallback also disabling fallbacks to dist install when source is the preferred install method ( #12888 ) Fixed source -> dist package updates wiping the .git dir without checking for local changes first ( #12912 ) Fixed GitHub token prompt happening multiple times on parallel auth failures ( #12913 ) Fixed warnings from Composer repositories being printed twice in some cases ( #12907 ) Full Changelog : 2.10.0...2.1",
-      "source": "Composer releases",
       "category": "PHP"
     }
   ]
