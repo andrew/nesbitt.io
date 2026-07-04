@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-04T20:35:53Z",
-  "cutoff": "2026-06-04T20:35:50Z",
+  "generated": "2026-07-04T23:39:59Z",
+  "cutoff": "2026-06-04T23:39:55Z",
   "feed_count": 79,
-  "item_count": 192,
+  "item_count": 193,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 11.10",
+      "url": "https://pnpm.io/blog/releases/11.10",
+      "published": "2026-07-05T00:00:00Z",
+      "preview": "pnpm 11.10 adds the _auth setting for CI-friendly registry authentication, new pnpm prefix and pnpm issues commands, and the ability for pnpm self-update to install pnpm v12 (the Rust port). It also improves pnpm up accuracy, speeds up resolution against registries that ignore abbreviated metadata, and hardens global package management, pnpm deploy, and pnpm pack-app.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
     {
       "title": "pnpm 11.10",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.10.0",
