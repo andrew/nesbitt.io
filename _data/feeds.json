@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-04T12:44:35Z",
-  "cutoff": "2026-06-04T12:44:31Z",
+  "generated": "2026-07-04T14:47:32Z",
+  "cutoff": "2026-06-04T14:47:28Z",
   "feed_count": 79,
-  "item_count": 192,
+  "item_count": 191,
   "categories": [
     ".NET",
     "C/C++",
@@ -1548,14 +1548,6 @@
       "preview": "This is a release candidate of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
       "source": "winget releases",
       "category": "System"
-    },
-    {
-      "title": "2.7.0",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.7.0",
-      "published": "2026-06-04T14:27:52Z",
-      "preview": "You can update micromamba to this version using: micromamba self-update Bug fixes: [libmamba] fix: Harden noarch:python entry point linking by @jjerphan in #4282 [libmamba] fix: Guard Root Packages' Expansion by @jjerphan in #4283 [micromamba, libmamba] fix: Adapt root packages expansion by @jjerphan in #4298 [micromamba, libmamba] fix: Populate python_site_packages_path independently from host by @jjerphan in #4288 [libmamba] Fallback to flat cache dir if missing hierarchical by @Hind-M in #4290 [micromamba, libmamba] fix: Adapt noarch unlink path normalization for conda interoperability by @",
-      "source": "Mamba releases",
-      "category": "Multi-language"
     }
   ]
 }
