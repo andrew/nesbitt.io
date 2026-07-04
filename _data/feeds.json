@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-04T01:00:41Z",
-  "cutoff": "2026-06-04T01:00:36Z",
+  "generated": "2026-07-04T05:32:25Z",
+  "cutoff": "2026-06-04T05:32:14Z",
   "feed_count": 79,
-  "item_count": 196,
+  "item_count": 195,
   "categories": [
     ".NET",
     "C/C++",
@@ -1580,14 +1580,6 @@
       "preview": "Security: Fixed shell escaping when opening an editor ( #12903 ) Security: Verify backup phar signature before restoring it when using self-update --rollback ( #12918 ) Fixed source-fallback also disabling fallbacks to dist install when source is the preferred install method ( #12888 ) Fixed source -> dist package updates wiping the .git dir without checking for local changes first ( #12912 ) Fixed GitHub token prompt happening multiple times on parallel auth failures ( #12913 ) Fixed warnings from Composer repositories being printed twice in some cases ( #12907 ) Full Changelog : 2.10.0...2.1",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "1.14.0",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.14.0",
-      "published": "2026-06-04T05:25:29Z",
-      "preview": "What's Changed ci: declare workflow-level contents: read on 3 remaining workflows by @arpitjain099 in #1822 Fix inject option parsing with --force before dependencies by @bubaizhanshen in #1820 docs: fix self-managed ensurepath command by @EddieBSN in #1823 chore(ci): restrict OIDC token to publish job by @facutuesca in #1826 Add --no-path-check to skip the on-PATH check in pipx run by @findepi in #1825 Add zizmor workflow and address findings by @facutuesca in #1827 Fix release push auth with persist-credentials: false by @gaborbernat in #1828 New Contributors @arpitjain099 made their first c",
-      "source": "pipx releases",
-      "category": "Python"
     }
   ]
 }
