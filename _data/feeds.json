@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-04T19:44:43Z",
-  "cutoff": "2026-06-04T19:44:39Z",
+  "generated": "2026-07-04T20:35:53Z",
+  "cutoff": "2026-06-04T20:35:50Z",
   "feed_count": 79,
   "item_count": 192,
   "categories": [
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v11.10.0",
+      "title": "pnpm 11.10",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.10.0",
-      "published": "2026-07-04T19:42:48Z",
-      "preview": "v11.10.0",
+      "published": "2026-07-04T19:58:37Z",
+      "preview": "Minor Changes e2e3c81 : Added the issues command as an alias of bugs , so pnpm issues opens the package's bug tracker URL in the browser. 8491f8e : Added the prefix command which prints the current package prefix directory (or global prefix directory if -g / --global is used). 3425e80 : Added an _auth setting for configuring registry authentication as a single structured (URL-keyed) value. It can be set in the global pnpm config ( config.yaml ) or, for CI, via the pnpm_config__auth environment variable. The env form sidesteps the GitHub Actions / bash / zsh limitation that broke the existing p",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
