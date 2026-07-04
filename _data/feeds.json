@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-04T05:32:25Z",
-  "cutoff": "2026-06-04T05:32:14Z",
+  "generated": "2026-07-04T08:25:20Z",
+  "cutoff": "2026-06-04T08:25:16Z",
   "feed_count": 79,
   "item_count": 195,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-07-04T07:52:21Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "SDK-3.13.0-271.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-271.0.dev",
@@ -276,14 +284,6 @@
       "preview": "43.249.5 (2026-07-01) Build System deps: update aws-sdk-js-v3 monorepo to v3.1075.0 (main) ( #44316 ) ( 0744b7c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-06-30T23:17:57Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "43.249.4",
