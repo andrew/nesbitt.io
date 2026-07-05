@@ -25,7 +25,7 @@ The 2018 [Zip Slip](https://security.snyk.io/research/zip-slip-vulnerability) re
 
 The pattern extends beyond the archive itself. A `bin` field in a manifest that points at `../../../usr/local/bin/something` ([CVE-2019-16775](https://github.com/advisories/GHSA-m6cx-g6qm-p2cx)), a `Content-Disposition` header on a download with `../` in the filename ([CVE-2019-20916](https://github.com/advisories/GHSA-gpvv-69j7-gwj8), [CVE-2019-9686](https://nvd.nist.gov/vuln/detail/CVE-2019-9686)), a chart name or version string with path segments in it ([CVE-2023-35946](https://github.com/gradle/gradle/security/advisories/GHSA-2h6c-rv6q-494v)). Anywhere a string from a package ends up in a filesystem path.
 
-If you're building one: extract into a directory and refuse to create anything whose resolved path isn't under it. Resolve symlinks before checking. Treat every separator the target OS treats as a separator. Apply the same check to every field that becomes a path, not just archive entries.
+If you're building one: extract into a directory and refuse to create anything whose resolved path isn't under it. Resolve symlinks before checking. Treat every separator the target OS treats as a separator. Apply the same check to every field that becomes a path, not just archive entries, and test "under it" at a path-component boundary rather than as a string prefix, since `/cache/foo-evil` starts with `/cache/foo` without being inside it.
 
 ### Argument injection into git, hg, svn, and friends
 
@@ -36,6 +36,8 @@ Examples: [CVE-2021-29472](https://github.com/composer/composer/security/advisor
 The fix is the `--` separator and an allowlist of which options you actually pass, but the bug keeps reappearing because each VCS backend is written separately and the lesson from the git driver doesn't transfer to the p4 driver three years later.
 
 A related but distinct cluster is compiler flag injection: a package smuggling `-fplugin=` or arbitrary `LDFLAGS` through to the C compiler at build time. This is mostly a Go pattern ([CVE-2018-6574](https://nvd.nist.gov/vuln/detail/CVE-2018-6574), [CVE-2023-29404](https://nvd.nist.gov/vuln/detail/CVE-2023-29404), [CVE-2023-39323](https://nvd.nist.gov/vuln/detail/CVE-2023-39323)) because of how cgo works, but the shape is the same: untrusted strings reaching a subprocess that treats some strings as instructions.
+
+Implementing the git wire protocol in-process, or linking libgit2 or JGit, removes the argument-injection surface, and several tools take that route, but it means the checkout code has to reimplement every path-safety fix upstream git has accumulated: `.git` directory protection on case-insensitive filesystems, NTFS short names and alternate data streams, submodule paths that resolve through symlinks. libgit2 and JGit have both had rounds of these ([CVE-2020-12278](https://nvd.nist.gov/vuln/detail/CVE-2020-12278), [CVE-2020-12279](https://nvd.nist.gov/vuln/detail/CVE-2020-12279), [CVE-2023-4759](https://nvd.nist.gov/vuln/detail/CVE-2023-4759)), usually filed shortly after the equivalent fix landed in git itself, so a package manager with its own git implementation takes on tracking that advisory stream indefinitely.
 
 ### Integrity checks that fail open
 
