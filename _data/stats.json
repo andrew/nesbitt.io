@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-04T08:36:34Z",
+  "generated_at": "2026-07-05T09:56:37Z",
   "total_posts": 175,
-  "total_words": 245834,
-  "reading_minutes": 1230,
-  "average_words": 1405,
+  "total_words": 244480,
+  "reading_minutes": 1223,
+  "average_words": 1397,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -20,9 +20,9 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "Unboxed: Zig",
-    "url": "/2026/07/03/unboxed-zig.html",
-    "date": "2026-07-03"
+    "title": "This Week in Package Management: 4 July 2026",
+    "url": "/2026/07/04/this-week-in-package-management.html",
+    "date": "2026-07-04"
   },
   "years_active": 9.4,
   "posts_per_month": 1.5,
@@ -116,8 +116,8 @@
     "tuesday": 25,
     "wednesday": 23,
     "thursday": 30,
-    "friday": 29,
-    "saturday": 24
+    "friday": 28,
+    "saturday": 25
   },
   "tags": [
     {
@@ -185,7 +185,11 @@
       "count": 7
     },
     {
-      "name": "sbom",
+      "name": "weekly",
+      "count": 7
+    },
+    {
+      "name": "history",
       "count": 6
     },
     {
@@ -193,19 +197,15 @@
       "count": 6
     },
     {
-      "name": "history",
+      "name": "sbom",
       "count": 6
-    },
-    {
-      "name": "weekly",
-      "count": 6
-    },
-    {
-      "name": "go",
-      "count": 5
     },
     {
       "name": "ruby",
+      "count": 5
+    },
+    {
+      "name": "go",
       "count": 5
     },
     {
@@ -213,15 +213,7 @@
       "count": 4
     },
     {
-      "name": "rust",
-      "count": 3
-    },
-    {
-      "name": "docker",
-      "count": 3
-    },
-    {
-      "name": "javascript",
+      "name": "registries",
       "count": 3
     },
     {
@@ -229,11 +221,11 @@
       "count": 3
     },
     {
-      "name": "registries",
+      "name": "javascript",
       "count": 3
     },
     {
-      "name": "metrics",
+      "name": "docker",
       "count": 3
     },
     {
@@ -241,35 +233,15 @@
       "count": 3
     },
     {
-      "name": "policy",
-      "count": 2
+      "name": "metrics",
+      "count": 3
     },
     {
-      "name": "postgres",
-      "count": 2
+      "name": "rust",
+      "count": 3
     },
     {
-      "name": "versioning",
-      "count": 2
-    },
-    {
-      "name": "semver",
-      "count": 2
-    },
-    {
-      "name": "python",
-      "count": 2
-    },
-    {
-      "name": "podcasts",
-      "count": 2
-    },
-    {
-      "name": "conferences",
-      "count": 2
-    },
-    {
-      "name": "fosdem",
+      "name": "taxonomy",
       "count": 2
     },
     {
@@ -277,39 +249,39 @@
       "count": 2
     },
     {
-      "name": "taxonomy",
+      "name": "fosdem",
       "count": 2
     },
     {
-      "name": "testing",
-      "count": 1
+      "name": "conferences",
+      "count": 2
     },
     {
-      "name": "forges",
-      "count": 1
+      "name": "podcasts",
+      "count": 2
     },
     {
-      "name": "governance",
-      "count": 1
+      "name": "versioning",
+      "count": 2
     },
     {
-      "name": "github-actions",
-      "count": 1
+      "name": "python",
+      "count": 2
     },
     {
-      "name": "writing",
-      "count": 1
+      "name": "postgres",
+      "count": 2
     },
     {
-      "name": "fediverse",
-      "count": 1
+      "name": "semver",
+      "count": 2
     },
     {
-      "name": "unboxed",
-      "count": 1
+      "name": "policy",
+      "count": 2
     },
     {
-      "name": "activitypub",
+      "name": "consulting",
       "count": 1
     },
     {
@@ -317,11 +289,35 @@
       "count": 1
     },
     {
-      "name": "zig",
+      "name": "activitypub",
       "count": 1
     },
     {
-      "name": "consulting",
+      "name": "fediverse",
+      "count": 1
+    },
+    {
+      "name": "infrastructure",
+      "count": 1
+    },
+    {
+      "name": "testing",
+      "count": 1
+    },
+    {
+      "name": "governance",
+      "count": 1
+    },
+    {
+      "name": "writing",
+      "count": 1
+    },
+    {
+      "name": "forges",
+      "count": 1
+    },
+    {
+      "name": "github-actions",
       "count": 1
     },
     {
@@ -345,15 +341,27 @@
       "count": 1
     },
     {
+      "name": "productivity",
+      "count": 1
+    },
+    {
+      "name": "challenge",
+      "count": 1
+    },
+    {
       "name": "jekyll",
       "count": 1
     },
     {
-      "name": "infrastructure",
+      "name": "christmas",
       "count": 1
     },
     {
       "name": "apisix",
+      "count": 1
+    },
+    {
+      "name": "software development",
       "count": 1
     },
     {
@@ -362,22 +370,6 @@
     },
     {
       "name": "benchmarks",
-      "count": 1
-    },
-    {
-      "name": "software development",
-      "count": 1
-    },
-    {
-      "name": "christmas",
-      "count": 1
-    },
-    {
-      "name": "challenge",
-      "count": 1
-    },
-    {
-      "name": "productivity",
       "count": 1
     }
   ],
