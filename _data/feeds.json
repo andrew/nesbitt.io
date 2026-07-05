@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-05T07:29:22Z",
-  "cutoff": "2026-06-05T07:29:18Z",
+  "generated": "2026-07-05T09:22:25Z",
+  "cutoff": "2026-06-05T09:22:22Z",
   "feed_count": 79,
-  "item_count": 191,
+  "item_count": 189,
   "categories": [
     ".NET",
     "C/C++",
@@ -1532,22 +1532,6 @@
       "preview": "🐛 bug fixes fix: ByteStream chunked upload/download by @eed3si9n in #9298 fix: Fixes publishing platform-specific artifacts (like Scala Native) by @arashi01 in #9293 fix: Fixes cross build caching by @eed3si9n in #9305 deps: Update to Scala 3.8.4 by @xuwei-k + @eed3si9n in #9302 / sbt/io#522 Full Changelog : v2.0.0-RC14...v2.0.0-RC15",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "2.8.0",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.8.0",
-      "published": "2026-06-05T08:55:06Z",
-      "preview": "You can update micromamba to this version using: micromamba self-update Bug fixes: [libmamba] fix: Restore cross-channel expansion by @jjerphan in #4304 [libmamba, micromamba] JSON output api rewritten to avoid JSON flattening by @Klaim in #4284",
-      "source": "Mamba releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-03-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-03-a",
-      "published": "2026-06-05T08:54:38Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-03-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     }
   ]
 }
