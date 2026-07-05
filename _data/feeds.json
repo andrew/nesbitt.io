@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-05T01:06:55Z",
-  "cutoff": "2026-06-05T01:06:52Z",
+  "generated": "2026-07-05T07:29:22Z",
+  "cutoff": "2026-06-05T07:29:18Z",
   "feed_count": 79,
-  "item_count": 192,
+  "item_count": 191,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.252.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.0",
+      "published": "2026-07-05T06:55:10Z",
+      "preview": "43.252.0 (2026-07-05) Features data: automatic update of static data ( #44367 ) ( 3373ac7 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.10 (main) ( #44359 ) ( 27b6d83 ) deps: update dependency @containerbase/istanbul-reports-html to v2.0.11 (main) ( #44368 ) ( 27d4803 ) deps: update dependency @containerbase/istanbul-reports-html to v2.0.9 (main) ( #44357 ) ( 2a8ae3f ) deps: update dependency tar to v7.5.19 (main) ( #44365 ) ( cb16cd2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.13.0-272.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-272.0.dev",
@@ -306,14 +314,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.4",
       "published": "2026-06-30T22:35:12Z",
       "preview": "43.249.4 (2026-06-30) Bug Fixes manager/mise: install resolver tools during mise lock ( #44174 ) ( 333ace1 ) Miscellaneous Chores deps: update dependency pnpm to v11.9.0 (main) ( #44310 ) ( eee0d97 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.4 (main) ( #44302 ) ( 278ec32 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.249.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.3",
-      "published": "2026-06-30T16:59:25Z",
-      "preview": "43.249.3 (2026-06-30) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.69.3 (main) ( #44309 ) ( 04bf2f7 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.11.26 (main) ( #44306 ) ( ed564a9 ) deps: update dependency protobufjs@8.0.1 to v8.6.5 (main) ( #44307 ) ( 72e145b ) deps: update dependency uv to v0.11.26 (main) ( #44308 ) ( 4d1ec5b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1548,14 +1548,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-03-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 11.5.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.2",
-      "published": "2026-06-05T06:50:59Z",
-      "preview": "Patch Changes Peer dependency resolution now reuses the peer contexts already recorded in the lockfile when those providers are still present in the dependency graph and still satisfy the peer ranges. This avoids unnecessary peer-context rewrites during lockfile regeneration. Current manifest choices remain authoritative: a newly added, explicitly updated, or aliased direct provider, a changed nested provider, or a locked version that no longer satisfies the range still takes precedence. The lockfile verifier now checks that a registry entry pinning an explicit tarball URL points at the artifa",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     }
   ]
 }
