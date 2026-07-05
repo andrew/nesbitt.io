@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-04T23:39:59Z",
-  "cutoff": "2026-06-04T23:39:55Z",
+  "generated": "2026-07-05T01:06:55Z",
+  "cutoff": "2026-06-05T01:06:52Z",
   "feed_count": 79,
-  "item_count": 193,
+  "item_count": 192,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.13.0-272.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-272.0.dev",
+      "published": "2026-07-05T00:42:00Z",
+      "preview": "SDK 3.13.0-272.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "pnpm 11.10",
       "url": "https://pnpm.io/blog/releases/11.10",
@@ -284,14 +292,6 @@
       "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 ) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx ) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 ) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Fixed GitHub token validation to be even more relaxed ( #12856 ) Full Changelog : 2.2.28...2.2.29",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "SDK-3.13.0-262.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-262.0.dev",
-      "published": "2026-07-01T00:59:53Z",
-      "preview": "SDK 3.13.0-262.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "43.249.5",
@@ -1556,14 +1556,6 @@
       "preview": "Patch Changes Peer dependency resolution now reuses the peer contexts already recorded in the lockfile when those providers are still present in the dependency graph and still satisfy the peer ranges. This avoids unnecessary peer-context rewrites during lockfile regeneration. Current manifest choices remain authoritative: a newly added, explicitly updated, or aliased direct provider, a changed nested provider, or a locked version that no longer satisfies the range still takes precedence. The lockfile verifier now checks that a registry entry pinning an explicit tarball URL points at the artifa",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "Windows Package Manager 1.29.250",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.250",
-      "published": "2026-06-05T00:30:50Z",
-      "preview": "This is a release candidate of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
-      "source": "winget releases",
-      "category": "System"
     }
   ]
 }
