@@ -31,6 +31,8 @@ The less obvious version of the same question. The user's mental model is usuall
 
 A `setup.py` is a Python program, and for a long time getting the version number out of one meant running it. A `build.gradle` is a Groovy program and resolving the dependency graph means evaluating it. Manifest formats that are data (TOML, JSON, a locked-down YAML subset) draw a hard line here that manifest formats that are programs can't. Work out which commands a cautious user can run on an untrusted checkout; for several tools the honest answer is none of them.
 
+The related design question is whether files inside that checkout can widen what the tool is allowed to do. Several tools read per-project configuration that sets network access, filesystem scope, plugin paths, or which binary to invoke as the toolchain, and if that configuration is honoured on first run without a prompt then a repo can grant itself whatever capability the format can express. The direnv `allow` step and VS Code's workspace-trust prompt exist because their authors concluded the answer had to be no; check whether the package manager reached the same conclusion or whether a `.npmrc`, `.cargo/config.toml`, `settings.gradle`, or wrapper script in the repo takes effect the moment the tool runs.
+
 ### Lockfile guarantees by design
 
 The previous post covered lockfile bugs: code paths that ignore the lock when they shouldn't. The design question underneath is what the lockfile is even trying to promise.
@@ -39,7 +41,11 @@ Lockfiles that pin a content hash (`go.sum`, `package-lock.json`, `Cargo.lock` s
 
 Go's [checksum database](https://go.dev/ref/mod#checksum-database) is the most developed answer here: a public append-only log of every module version's hash that the client verifies against by default, so neither a proxy nor the origin can change what a version resolves to after the fact. It sits outside both client and registry, which is part of why it's interesting.
 
-Record what's pinned, which commands honour it, and whether the CI template uses the strict one.
+Where in the pipeline the hash is checked matters as much as what it covers. Several clients download the archive, extract it to a temp directory, hash the extracted tree, and only then compare, so a mismatch fails the build after the extractor has already processed attacker-controlled bytes. Every archive-handling bug from the previous post is therefore reachable by a mirror or a MITM even when the hash ultimately rejects the package, whereas clients that verify the archive bytes before writing anything to disk avoid that exposure. The same ordering determines whether accepting plain http is defensible; some tools do accept it on the basis that content hashing catches tampering, and that argument only holds when verification precedes extraction.
+
+The hash also usually serves as the on-disk cache directory name, and once that directory exists most tools read from it without re-hashing, which is the expected behaviour of a content-addressed cache and also means anything able to write into that directory is used unverified from then on.
+
+Record what's pinned, which commands honour it, whether verification runs before or after extraction, whether the local cache is re-verified on read, and whether the CI template uses the strict install command.
 
 ### Package name identity
 
@@ -52,6 +58,8 @@ Most clients can be configured with more than one place to fetch from: a public 
 Determine what the resolver does when a name is satisfiable from more than one configured source: highest version across all of them, first source that has it, explicit per-dependency pinning, or refuse. Then whether a source added for one dependency is allowed to satisfy others, and whether the lockfile records which source each package actually came from.
 
 ## Registry
+
+Some tools have no registry at all: Go modules, Deno, Zig, and Swift packages can resolve straight from a git URL or a tarball, which relocates most of this section to whoever operates the forge. The forge's account system is doing the job of namespace allocation, whether it allows force-pushing a tag determines immutability, and the repo's collaborator list is the maintainer set, none of which the client is in a position to inspect. On the client side that leaves two things to evaluate: the mechanism standing in for registry immutability, almost always a content hash in the manifest, and the capabilities that are simply absent, typically any way to revoke a version later found malicious or to establish provenance beyond "this URL served these bytes once".
 
 ### Namespace allocation
 
@@ -98,6 +106,8 @@ Look for anomaly detection on publish (new maintainer, long-dormant package, ver
 Both halves apply recursively. The client is software with dependencies, usually from the ecosystem it serves: npm is an npm package, Bundler is a gem, Cargo is built with Cargo. The registry is an application with a manifest that often resolves against itself: rubygems.org has a Gemfile, crates.io has a `Cargo.toml`. A compromised package in either tree is code execution inside the thing the rest of the ecosystem has to trust.
 
 So the questions above apply to the tool's own manifests. How the client's and registry's dependencies are handled: vendored into the source tree, pinned by content hash in a committed lockfile, or resolved at build time from the live registry. pip [vendors everything](https://pip.pypa.io/en/stable/development/vendoring-policy/) under `pip._vendor` to break the loop on the client side. On the registry side the sharper version is whether anything in the deploy's dependency tree runs install-time hooks, because that's where a dependency becomes code on the box that holds everyone's publish credentials.
+
+The build and release pipeline is part of the same recursion, and it tends to contain paths into the shipped artifact that never appear in a lockfile: a CI step that downloads a bootstrap toolchain without checking a hash, third-party actions pinned by mutable tag rather than commit SHA, or release binaries uploaded without a signature that would let anyone verify them later. For a compiler there is a further layer, since building one usually requires a previous version of itself and somewhere at the bottom of that chain sits a binary nobody in the room compiled. Where that binary comes from and whether it can be independently reproduced is [Thompson's question](https://dl.acm.org/doi/10.1145/358198.358210), and the answers currently in the wild range from an unsigned tarball on a CDN through Go's [reproducible toolchain builds](https://go.dev/blog/rebuild) to the [full-source bootstrap](https://bootstrappable.org/) work that aims to eliminate the seed binary entirely.
 
 ---
 
