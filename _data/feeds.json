@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-05T09:22:25Z",
-  "cutoff": "2026-06-05T09:22:22Z",
+  "generated": "2026-07-05T12:46:24Z",
+  "cutoff": "2026-06-05T12:46:20Z",
   "feed_count": 79,
   "item_count": 189,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.252.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.1",
+      "published": "2026-07-05T11:51:06Z",
+      "preview": "43.252.1 (2026-07-05) Miscellaneous Chores deps: update astral-sh/setup-uv action to v8.3.0 (main) ( #44369 ) ( 7a53af8 ) Build System deps: update dependency @renovatebot/osv-offline to v3.0.5 (main) ( #44370 ) ( 5d808f6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.252.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.0",
@@ -306,14 +314,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.5",
       "published": "2026-07-01T00:48:34Z",
       "preview": "43.249.5 (2026-07-01) Build System deps: update aws-sdk-js-v3 monorepo to v3.1075.0 (main) ( #44316 ) ( 0744b7c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.249.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.4",
-      "published": "2026-06-30T22:35:12Z",
-      "preview": "43.249.4 (2026-06-30) Bug Fixes manager/mise: install resolver tools during mise lock ( #44174 ) ( 333ace1 ) Miscellaneous Chores deps: update dependency pnpm to v11.9.0 (main) ( #44310 ) ( eee0d97 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.4 (main) ( #44302 ) ( 278ec32 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
