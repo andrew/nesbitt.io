@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-06T07:53:23Z",
-  "cutoff": "2026-06-06T07:53:20Z",
+  "generated": "2026-07-06T11:46:46Z",
+  "cutoff": "2026-06-06T11:46:42Z",
   "feed_count": 79,
   "item_count": 190,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.252.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.3",
+      "published": "2026-07-06T10:26:44Z",
+      "preview": "43.252.3 (2026-07-06) Bug Fixes npm: do not fail on version-only replacements ( #44380 ) ( a80e811 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.252.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.2",
+      "published": "2026-07-06T10:02:28Z",
+      "preview": "43.252.2 (2026-07-06) Documentation update references to astral-sh/setup-uv to v8.3.0 (main) ( #44373 ) ( 59e96e1 ) update references to prom/prometheus to v3.13.0 (main) ( #44374 ) ( b5721bf ) update references to python to 09b29c3 (main) ( #44372 ) ( 8992670 ) update references to renovate/renovate (main) ( #44375 ) ( 36f5c45 ) update references to renovatebot/github-action to v46.1.18 (main) ( #44376 ) ( edc6847 ) Build System deps: update dependency adm-zip to v0.5.18 (main) ( #44379 ) ( 22b494c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "6.0.7",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.7",
@@ -230,14 +246,6 @@
       "category": "Containers"
     },
     {
-      "title": "43.249.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.6",
-      "published": "2026-07-02T08:45:15Z",
-      "preview": "43.249.6 (2026-07-02) Bug Fixes deno: lockfile update in presence of private registries ( #43147 ) ( 5ddd565 ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.69.5 (main) ( #44333 ) ( 62b2825 ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.69.5 (main) ( #44336 ) ( 5c0df3f ) git: allow overriding GIT_ASKPASS ( #44322 ) ( 289e2d2 ) manager/nuget: detect MSBuild SDK updates in sqlproj files ( #43831 ) ( 5d9e0b8 ) Miscellaneous Chores deps: update actions/cache action to v5.1.0 (main) ( #44264 ) ( 0daf9ed ) deps: update docker/setup-qemu-action action to v4.2.0 (main)",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2.15.2-rc3",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc3",
       "published": "2026-07-02T03:36:51Z",
@@ -316,14 +324,6 @@
       "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 ) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx ) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 ) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Fixed GitHub token validation to be even more relaxed ( #12856 ) Full Changelog : 2.2.28...2.2.29",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "43.249.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.5",
-      "published": "2026-07-01T00:48:34Z",
-      "preview": "43.249.5 (2026-07-01) Build System deps: update aws-sdk-js-v3 monorepo to v3.1075.0 (main) ( #44316 ) ( 0744b7c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.384.0",
