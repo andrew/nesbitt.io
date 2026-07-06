@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-06T18:58:53Z",
-  "cutoff": "2026-06-06T18:58:48Z",
+  "generated": "2026-07-06T19:59:45Z",
+  "cutoff": "2026-06-06T19:59:40Z",
   "feed_count": 79,
-  "item_count": 191,
+  "item_count": 192,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "6.0.8",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.8",
+      "published": "2026-07-06T19:02:09Z",
+      "preview": "What's Changed test/bundle/brew_spec: allow running test on generic OS by @cho-m in #22973 Add source option to brew bundle uv tools by @danielfleischer in #22963 test/test_bot_spec: use :trust_store context when testing trust by @cho-m in #22972 Update issue links in docs to use correct template by @SMillerDev in #22982 Store bottle SBOM data in manifests by @MikeMcQuaid in #22981 Clarify install output for durations and single deps by @HaraldNordgren in #22980 perf/sorbet: skip sorbet-runtime dispatch when runtime disabled (~6-8% faster) by @dduugg in #22978 Fix stale cask upgrade metadata b",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
     {
       "title": "v0.385.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.385.0",
