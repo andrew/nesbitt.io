@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-06T13:34:37Z",
-  "cutoff": "2026-06-06T13:34:33Z",
+  "generated": "2026-07-06T18:58:53Z",
+  "cutoff": "2026-06-06T18:58:48Z",
   "feed_count": 79,
-  "item_count": 190,
+  "item_count": 191,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.385.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.385.0",
+      "published": "2026-07-06T18:31:05Z",
+      "preview": "What's Changed Support package-scoped NuGet release notes by @Cjewett in #15211 Filter null entries from job directories by @brettfo in #15457 devcontainers: preserve major-only Feature pins when precision-matching tags are absent by @thavaahariharangit with @Copilot in #15445 Type opaque hashes in common with T.anything by @JamieMagee in #15458 Type the options passthrough in base classes with T.anything by @JamieMagee in #15459 Apply git-tag cooldown across ecosystems by @robaiken in #15369 Type requirement helpers in the update-checker base class by @JamieMagee in #15461 Select group update",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.252.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.5",
