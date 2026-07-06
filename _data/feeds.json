@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-06T20:56:54Z",
-  "cutoff": "2026-06-06T20:56:51Z",
+  "generated": "2026-07-06T21:49:56Z",
+  "cutoff": "2026-06-06T21:49:52Z",
   "feed_count": 79,
-  "item_count": 193,
+  "item_count": 195,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.17.0",
+      "url": "https://github.com/CocoaPods/CocoaPods/releases/tag/1.17.0",
+      "published": "2026-07-06T21:38:22Z",
+      "preview": "Enhancements Added --no-lint option for pod repo push command to allow skipping Lint phase when publishing a Pod. Guillermo Mazzola #12706 Bump minimum Xcodeproj to 1.28.0. Eric Amorde #12913 Remove unused escape dependency. Samuel Giddins , Eric Amorde #12914 Bug Fixes Update ruby-macho to 4.1.0 to address new mergable libraries not beind detected correctly. Parsa Nasirimehr #12691 Fix a crash when run with certain versions of active_support. Eric Amorde #12915",
+      "source": "CocoaPods releases",
+      "category": "Registries"
+    },
+    {
+      "title": "0.11.27",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.27",
+      "published": "2026-07-06T21:01:23Z",
+      "preview": "Release Notes Released on 2026-07-06. Enhancements Continue on ignored errors when fetching wheel metadata ( #12255 ) Use caching for --python-downloads-json-url ( #16749 ) Preview features Discover extensionless shebang scripts in uv workspace list --scripts ( #20099 ) Performance Avoid full site-packages scans for direct reinstalls ( #20119 ) Avoid redundant pyproject parsing ( #20076 ) Cache default dependency markers when reading locks ( #20125 ) Enable SIMD-accelerated TOML parsing ( #20079 ) Intern requires-python specifiers in Simple API parsing ( #20104 ) Read cache entries into exact-",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "2.34.8",
       "url": "https://github.com/NixOS/nix/releases/tag/2.34.8",
