@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-06T11:46:46Z",
-  "cutoff": "2026-06-06T11:46:42Z",
+  "generated": "2026-07-06T13:34:37Z",
+  "cutoff": "2026-06-06T13:34:33Z",
   "feed_count": 79,
   "item_count": 190,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.252.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.5",
+      "published": "2026-07-06T13:01:22Z",
+      "preview": "43.252.5 (2026-07-06) Build System deps: update dependency cronstrue to v3.23.0 (main) ( #44385 ) ( 9647e98 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.252.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.4",
+      "published": "2026-07-06T12:02:18Z",
+      "preview": "43.252.4 (2026-07-06) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.70.1 (main) ( #44384 ) ( d893930 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.5 (main) ( #44383 ) ( 534352b ) Build System deps: update dependency @renovatebot/osv-offline to v3.0.6 (main) ( #44382 ) ( d4128c8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.252.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.3",
@@ -206,28 +222,12 @@
       "category": "Multi-language"
     },
     {
-      "title": "43.250.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.250.0",
-      "published": "2026-07-02T14:03:29Z",
-      "preview": "43.250.0 (2026-07-02) Features manager/github-actions: support parallel steps ( #44341 ) ( a84fb3d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "7.9.0.71",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.71",
       "published": "2026-07-02T12:20:04Z",
       "preview": "Insert 7.9.0.71 into main on 07/02/2026 12:20:04",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "43.249.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.249.7",
-      "published": "2026-07-02T11:02:10Z",
-      "preview": "43.249.7 (2026-07-02) Bug Fixes manager/custom/jsonata: handle evaluation errors ( #44340 ) ( d8e82a2 ) Miscellaneous Chores deps: update github/codeql-action action to v4.36.3 (main) ( #44343 ) ( e8af898 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20260702t101200-all",
