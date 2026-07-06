@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-06T21:49:56Z",
-  "cutoff": "2026-06-06T21:49:52Z",
+  "generated": "2026-07-06T22:45:26Z",
+  "cutoff": "2026-06-06T22:45:23Z",
   "feed_count": 79,
   "item_count": 195,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.252.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.6",
+      "published": "2026-07-06T21:52:34Z",
+      "preview": "43.252.6 (2026-07-06) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.3 (main) ( #44387 ) ( 1a06d8a ) Build System deps: update dependency @renovatebot/osv-offline to v3.0.7 (main) ( #44392 ) ( e4005ef )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.17.0",
       "url": "https://github.com/CocoaPods/CocoaPods/releases/tag/1.17.0",
@@ -220,14 +228,6 @@
       "preview": "Add feature preview for enhanced graph orderings ( #38077 )",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "43.251.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.251.0",
-      "published": "2026-07-02T18:51:58Z",
-      "preview": "43.251.0 (2026-07-02) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.70.0 (main) ( #44351 ) ( c2964c6 ) Miscellaneous Chores deps: update dependency tar to v7.5.17 (main) ( #44348 ) ( 75f8deb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.7.0: Shell expansion by default, monorepo lockfiles, and task usage mounts",
