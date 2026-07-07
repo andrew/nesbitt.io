@@ -6,6 +6,7 @@ description: "Releases, advisories, and articles from across the package managem
 tags:
   - package-managers
   - weekly
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mq2zdugz3m2m"
 ---
 
 Week seven of the roundup, built from the [package manager OPML feed collection](https://github.com/ecosyste-ms/package-managers-opml) and whatever I've posted or boosted on [Mastodon](https://mastodon.social/@andrewnez).

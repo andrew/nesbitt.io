@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mq2zduqsku2m"
 ---
 
 Content addressing identifies a piece of data by a cryptographic hash of its contents rather than by a name or a location. Two copies of the same bytes get the same identifier wherever they came from, a single changed bit produces a completely different one, and because the identifier is derived from the data itself it works as a lookup key and an integrity check at the same time.
