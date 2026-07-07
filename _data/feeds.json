@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-07T17:02:54Z",
-  "cutoff": "2026-06-07T17:02:43Z",
+  "generated": "2026-07-07T19:59:34Z",
+  "cutoff": "2026-06-07T19:59:24Z",
   "feed_count": 79,
-  "item_count": 198,
+  "item_count": 201,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.255.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.255.1",
+      "published": "2026-07-07T19:50:17Z",
+      "preview": "43.255.1 (2026-07-07) Bug Fixes datasource/npm: require public Cache-Control to cache responses ( #42822 ) ( 371412d ) datasource/repology: honor abortOnError instead of aborting the run on every error ( #44326 ) ( 8a8f830 ) Code Refactoring oxlint: enable typescript/no-useless-default-assignment ( #44419 ) ( b106668 ), closes #43845 oxlint: enable vitest/expect-expect ( #44415 ) ( 5d027f7 ), closes #43845 oxlint: enable vitest/no-conditional-expect ( #44416 ) ( a1e8441 ), closes #43845 oxlint: enable vitest/prefer-snapshot-hint ( #44420 ) ( aac8365 ), closes #43845 oxlint: enable vitest/requi",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "[release-branch.go1.27] go1.27rc2",
+      "url": "https://github.com/golang/go/releases/tag/go1.27rc2",
+      "published": "2026-07-07T19:42:34Z",
+      "preview": "Change-Id: Iee4d231b5b040576ab9c1175ba726e03090fff7c Reviewed-on: https://go-review.googlesource.com/c/go/+/797800 TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Junyang Shao shaojunyang@google.com Reviewed-by: David Chase drchase@google.com Auto-Submit: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "[release-branch.go1.25] go1.25.12",
+      "url": "https://github.com/golang/go/releases/tag/go1.25.12",
+      "published": "2026-07-07T19:29:20Z",
+      "preview": "Change-Id: Ie3ced7f6cf7301d878818c6ec858b659bb5f04df Reviewed-on: https://go-review.googlesource.com/c/go/+/797760 Reviewed-by: Junyang Shao shaojunyang@google.com Reviewed-by: David Chase drchase@google.com Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "[release-branch.go1.26] go1.26.5",
+      "url": "https://github.com/golang/go/releases/tag/go1.26.5",
+      "published": "2026-07-07T19:29:04Z",
+      "preview": "Change-Id: I87dc3d84cde11db83a0d88a60262a38fc429838d Reviewed-on: https://go-review.googlesource.com/c/go/+/797740 Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: David Chase drchase@google.com Reviewed-by: Junyang Shao shaojunyang@google.com TryBot-Bypass: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
     {
       "title": "v1.2.1 (2026-07-06)",
       "url": "https://github.com/spack/spack/releases/tag/v1.2.1",
@@ -298,14 +330,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.5",
       "published": "2026-07-06T13:01:22Z",
       "preview": "43.252.5 (2026-07-06) Build System deps: update dependency cronstrue to v3.23.0 (main) ( #44385 ) ( 9647e98 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.252.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.4",
-      "published": "2026-07-06T12:02:18Z",
-      "preview": "43.252.4 (2026-07-06) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.70.1 (main) ( #44384 ) ( d893930 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.5 (main) ( #44383 ) ( 534352b ) Build System deps: update dependency @renovatebot/osv-offline to v3.0.6 (main) ( #44382 ) ( d4128c8 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
