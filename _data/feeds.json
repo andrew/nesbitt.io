@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T09:31:05Z",
-  "cutoff": "2026-06-07T09:31:01Z",
+  "generated": "2026-07-07T11:20:17Z",
+  "cutoff": "2026-06-07T11:20:13Z",
   "feed_count": 79,
   "item_count": 195,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.254.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.254.0",
+      "published": "2026-07-07T10:49:50Z",
+      "preview": "43.254.0 (2026-07-07) Features versioning: Add Paket versioning ( #44366 ) ( 9b8dfd6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.253.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.253.2",
@@ -194,14 +202,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.3",
       "published": "2026-07-06T10:26:44Z",
       "preview": "43.252.3 (2026-07-06) Bug Fixes npm: do not fail on version-only replacements ( #44380 ) ( a80e811 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.252.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.2",
-      "published": "2026-07-06T10:02:28Z",
-      "preview": "43.252.2 (2026-07-06) Documentation update references to astral-sh/setup-uv to v8.3.0 (main) ( #44373 ) ( 59e96e1 ) update references to prom/prometheus to v3.13.0 (main) ( #44374 ) ( b5721bf ) update references to python to 09b29c3 (main) ( #44372 ) ( 8992670 ) update references to renovate/renovate (main) ( #44375 ) ( 36f5c45 ) update references to renovatebot/github-action to v46.1.18 (main) ( #44376 ) ( edc6847 ) Build System deps: update dependency adm-zip to v0.5.18 (main) ( #44379 ) ( 22b494c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
