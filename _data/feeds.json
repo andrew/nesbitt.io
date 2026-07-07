@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-07T20:56:05Z",
-  "cutoff": "2026-06-07T20:56:01Z",
+  "generated": "2026-07-07T23:37:15Z",
+  "cutoff": "2026-06-07T23:37:11Z",
   "feed_count": 79,
-  "item_count": 201,
+  "item_count": 202,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.11.28",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.28",
+      "published": "2026-07-07T23:14:13Z",
+      "preview": "Release Notes Released on 2026-07-07. Security This release updates our ZIP library, astral-async-zip , to v0.0.20, which includes 15 changes that harden our ZIP handling against parser differentials . uv may reject ZIP archives with malformed or ambiguous content that were previously accepted. See the upstream commits for a full list of changes. Python Upgrade GraalPy to 25.1.3 ( #20069 ) Enhancements Improve trace logs for unexpected error chains ( #20220 ) Move lockfile update guidance to a hint ( #20219 ) Preserve indentation for multiline error causes ( #20156 ) Render user errors with th",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "43.255.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.255.2",
