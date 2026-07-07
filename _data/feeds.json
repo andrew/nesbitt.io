@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-07T13:06:58Z",
-  "cutoff": "2026-06-07T13:06:53Z",
+  "generated": "2026-07-07T14:02:42Z",
+  "cutoff": "2026-06-07T14:02:37Z",
   "feed_count": 79,
-  "item_count": 195,
+  "item_count": 196,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Immutable Versions on Packagist",
+      "url": "https://blog.packagist.com/immutable-versions-on-packagist/",
+      "published": "2026-07-07T13:56:17Z",
+      "preview": "This is the next post in our supply chain security series, following the supply chain security update and the Composer 2.10 release . Each post in this series covers a specific behavior worth understanding, and a change we are making on top of it. Today: Stable version metadata on Packagist.",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "43.255.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.255.0",
+      "published": "2026-07-07T13:24:46Z",
+      "preview": "43.255.0 (2026-07-07) Features replacements: corentinmusard/otel-cicd-action transferred to dash0hq ( #44386 ) ( c759c30 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pixi-build-cmake-v0.4.4",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.4",
@@ -250,14 +266,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.4",
       "published": "2026-07-06T12:02:18Z",
       "preview": "43.252.4 (2026-07-06) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.70.1 (main) ( #44384 ) ( d893930 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.5 (main) ( #44383 ) ( 534352b ) Build System deps: update dependency @renovatebot/osv-offline to v3.0.6 (main) ( #44382 ) ( d4128c8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.252.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.3",
-      "published": "2026-07-06T10:26:44Z",
-      "preview": "43.252.3 (2026-07-06) Bug Fixes npm: do not fail on version-only replacements ( #44380 ) ( a80e811 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
