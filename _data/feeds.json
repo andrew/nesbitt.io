@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-07T15:19:56Z",
-  "cutoff": "2026-06-07T15:19:51Z",
+  "generated": "2026-07-07T17:02:54Z",
+  "cutoff": "2026-06-07T17:02:43Z",
   "feed_count": 79,
-  "item_count": 197,
+  "item_count": 198,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,10 +22,18 @@
   ],
   "items": [
     {
-      "title": "v2026.7.2",
+      "title": "v1.2.1 (2026-07-06)",
+      "url": "https://github.com/spack/spack/releases/tag/v1.2.1",
+      "published": "2026-07-07T16:26:27Z",
+      "preview": "Bug fixes Installer bugfixes: Fix a hang of the new installer when running under forkserver ( #52621 ) Sanitize the computed build log filename ( #52660 ) Allow local installs for packages missing in upstream ( #52630 ) Restore working_dir in build subprocess ( #52576 ) Solver bugfixes: Restore performance on macOS ( #52604 , #52603 ) Fix the solver heuristic for build_set_id ( #52634 ) Drop noisy debug message ( #52640 ) Fix environment view regeneration when using multiple overlayfs layers ( #52594 ) Fix spack cd -e and other dash-prefixed args in fish ( #52586 ) Fix spack location with -v /",
+      "source": "Spack releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v2026.7.2: Template and Extraction Fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.2",
-      "published": "2026-07-07T15:19:40Z",
-      "preview": "(config) restore get_env template helper by @jdx in [ #10830 ](ht…",
+      "published": "2026-07-07T16:19:07Z",
+      "preview": "This is a small bug-fix release focused on template compatibility, archive extraction, and a couple of tool-specific installs. Fixed config: restored the get_env template helper for Tera v2 templates, backed by mise's original process environment, so older templates keep working. Shared configs can also opt back into the temporary Tera v1 renderer with [env] MISE_TERA_V1 = true (which older mise versions safely ignore) ( #10830 by @jdx ): [ env ] MISE_TERA_V1 = \" true \" config: deprecated settings that you set explicitly, via [settings] (including nested keys like aqua.registry_url ), process ",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -276,6 +284,14 @@
       "preview": "What's Changed Support package-scoped NuGet release notes by @Cjewett in #15211 Filter null entries from job directories by @brettfo in #15457 devcontainers: preserve major-only Feature pins when precision-matching tags are absent by @thavaahariharangit with @Copilot in #15445 Type opaque hashes in common with T.anything by @JamieMagee in #15458 Type the options passthrough in base classes with T.anything by @JamieMagee in #15459 Apply git-tag cooldown across ecosystems by @robaiken in #15369 Type requirement helpers in the update-checker base class by @JamieMagee in #15461 Select group update",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "releases/latest: Set version to v1.2.1",
+      "url": "https://github.com/spack/spack/releases/tag/releases%2Flatest",
+      "published": "2026-07-06T16:42:00Z",
+      "preview": "Signed-off-by: Harmen Stoppels me@harmenstoppels.nl",
+      "source": "Spack releases",
+      "category": "Multi-language"
     },
     {
       "title": "43.252.5",
@@ -914,14 +930,6 @@
       "url": "https://github.com/spack/spack/releases/tag/v1.2.0",
       "published": "2026-06-21T22:42:02Z",
       "preview": "v1.2.0 is a major feature release. The main changes you'll notice are the new, parallel installer and the many performance improvements we've added. There are also usability features like concretization groups , and security features like experimental build sandboxing and SBOM generation . Major new features New installer Spack v1.2.0 defaults to the new installer, which is a completely rewritten package installer designed for better performance and improved user experience. This was an experimental feature in v1.1.0 . The new installer takes advantage of much more build parallelism by schedul",
-      "source": "Spack releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "releases/latest: Set version to 1.2.0",
-      "url": "https://github.com/spack/spack/releases/tag/releases%2Flatest",
-      "published": "2026-06-21T22:33:05Z",
-      "preview": "Signed-off-by: Harmen Stoppels me@harmenstoppels.nl",
       "source": "Spack releases",
       "category": "Multi-language"
     },
