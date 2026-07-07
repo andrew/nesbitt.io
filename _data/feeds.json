@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T19:59:34Z",
-  "cutoff": "2026-06-07T19:59:24Z",
+  "generated": "2026-07-07T20:56:05Z",
+  "cutoff": "2026-06-07T20:56:01Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.255.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.255.2",
+      "published": "2026-07-07T20:07:51Z",
+      "preview": "43.255.2 (2026-07-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.71.6 (main) ( #44404 ) ( 399c163 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.255.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.255.1",
@@ -324,14 +332,6 @@
       "preview": "Signed-off-by: Harmen Stoppels me@harmenstoppels.nl",
       "source": "Spack releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.252.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.5",
-      "published": "2026-07-06T13:01:22Z",
-      "preview": "43.252.5 (2026-07-06) Build System deps: update dependency cronstrue to v3.23.0 (main) ( #44385 ) ( 9647e98 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "6.0.7",
