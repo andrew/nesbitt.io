@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-06T22:45:26Z",
-  "cutoff": "2026-06-06T22:45:23Z",
+  "generated": "2026-07-07T01:05:19Z",
+  "cutoff": "2026-06-07T01:05:15Z",
   "feed_count": 79,
   "item_count": 195,
   "categories": [
@@ -21,6 +21,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.252.8",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.8",
+      "published": "2026-07-07T00:58:24Z",
+      "preview": "43.252.8 (2026-07-07) Miscellaneous Chores deps: update dependency oxlint to v1.72.0 (main) ( #44398 ) ( f98aeab ) Build System deps: update dependency cronstrue to v3.24.0 (main) ( #44397 ) ( 351d3cc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "SDK-3.13.0-276.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-276.0.dev",
+      "published": "2026-07-07T00:42:12Z",
+      "preview": "SDK 3.13.0-276.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-275.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-275.0.dev",
+      "published": "2026-07-07T00:42:10Z",
+      "preview": "SDK 3.13.0-275.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-274.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-274.0.dev",
+      "published": "2026-07-07T00:42:07Z",
+      "preview": "SDK 3.13.0-274.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0-273.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-273.0.dev",
+      "published": "2026-07-07T00:42:04Z",
+      "preview": "SDK 3.13.0-273.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.252.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.7",
+      "published": "2026-07-06T23:56:27Z",
+      "preview": "43.252.7 (2026-07-06) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.4 (main) ( #44393 ) ( 5439dd6 ) deps: update dependency astral-sh/uv to v0.11.27 (main) ( #44394 ) ( 295c77a ) deps: update dependency uv to v0.11.27 (main) ( #44396 ) ( 54e44e6 ) Build System deps: update dependency p-map to v7.0.5 (main) ( #44395 ) ( e5b3285 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.252.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.6",
@@ -182,22 +230,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "43.251.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.251.2",
-      "published": "2026-07-03T09:08:44Z",
-      "preview": "43.251.2 (2026-07-03) Miscellaneous Chores deps: update dependency nock to v14.0.16 (main) ( #44354 ) ( bc2f043 ) Build System deps: update dependency ae-cvss-calculator to v1.0.13 (main) ( #44355 ) ( 55b4257 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.251.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.251.1",
-      "published": "2026-07-03T06:48:14Z",
-      "preview": "43.251.1 (2026-07-03) Bug Fixes versioning/debian: keep numeric value on dated codename update ( #44335 ) ( cb9a5ae )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "SDK-3.13.0-269.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-269.0.dev",
       "published": "2026-07-03T00:39:43Z",
@@ -292,38 +324,6 @@
       "preview": "What's Changed Component updates ⬆️ [CHERRY-PICK] Make openapi-generator-cli download URL configurable ( #23186 ) by @chlins in #23221 bump Go version from 1.25.9 to 1.26.3 by @stonezdj in #23236 [cherry-pick] Rebuild goharbor/photon image before create new harbor base images by @jUDASmILE in #23250 [cherry-pick]remove install net-tools from db dockerfile as photon removed it by @jUDASmILE in #23267 [CHERRY-PICK] feat: replace redis with valkey as cache backend ( #23157 ) by @chlins in #23261 [CHERRY-PICK] test(cosign): disable tlog for signing checks by @chlins in #23280 [CHERRY-PICK] fix(cos",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "SDK-3.13.0-266.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-266.0.dev",
-      "published": "2026-07-02T00:48:03Z",
-      "preview": "SDK 3.13.0-266.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-265.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-265.0.dev",
-      "published": "2026-07-02T00:48:01Z",
-      "preview": "SDK 3.13.0-265.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-264.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-264.0.dev",
-      "published": "2026-07-02T00:47:59Z",
-      "preview": "SDK 3.13.0-264.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-263.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-263.0.dev",
-      "published": "2026-07-02T00:47:57Z",
-      "preview": "SDK 3.13.0-263.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "Windows Package Manager 1.29.280",
