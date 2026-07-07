@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-07T14:02:42Z",
-  "cutoff": "2026-06-07T14:02:37Z",
+  "generated": "2026-07-07T15:19:56Z",
+  "cutoff": "2026-06-07T15:19:51Z",
   "feed_count": 79,
-  "item_count": 196,
+  "item_count": 197,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.2",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.2",
+      "published": "2026-07-07T15:19:40Z",
+      "preview": "(config) restore get_env template helper by @jdx in [ #10830 ](ht…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.2",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.2",
+      "published": "2026-07-07T15:16:49Z",
+      "preview": "Release vfox 2026.7.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v0.20.0",
+      "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.20.0",
+      "published": "2026-07-07T14:05:43Z",
+      "preview": "0.20.0 (2026-07-07) Features add warning to asdf info output when ASDF_TOOL_VERSIONS_FILENAME value is invalid ( #2293 ) ( 244e513 ) Bug Fixes shallow clone plugin repositories for faster installs ( #2256 ) ( badc9db ) update nushell completion code so it works on latest version of nushell ( #2275 ) ( 51ebfb4 )",
+      "source": "asdf releases",
+      "category": "Multi-language"
+    },
     {
       "title": "Immutable Versions on Packagist",
       "url": "https://blog.packagist.com/immutable-versions-on-packagist/",
@@ -734,14 +758,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "mise-sigstore-v2026.6.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.6.2",
-      "published": "2026-06-25T02:14:58Z",
-      "preview": "Release mise-sigstore 2026.6.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "Bridging conda and PyPI ecosystems: Install PyPI packages with conda install",
       "url": "https://conda.org/blog/2026-06-25-bridging-conda-and-pypi-ecosystems",
       "published": "2026-06-25T00:00:00Z",
@@ -836,14 +852,6 @@
       "preview": "Release Notes Released on 2026-06-23. Python Add CPython 3.15.0b3 ( #19964 ) Preview features Make project environments relocatable under preview ( #19965 ) Performance Use a compact index for lazy version maps ( #19959 ) Bug fixes Allow disabling exclude-newer ( #19934 ) Avoid archive id collisions ( #19949 ) Reapply \"Fix transparent Python upgrades in project environments\" ( #19928 ) Clean up partial tool entrypoint installs ( #19966 ) Fix relocatable activate.fish and broaden Fish version support ( #19856 ) Install uv 0.11.24 Install prebuilt binaries via shell script curl --proto ' =https ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "vfox-v2026.6.14",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.14",
-      "published": "2026-06-23T20:30:18Z",
-      "preview": "Release vfox 2026.6.14",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "pnpm 11.9",
