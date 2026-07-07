@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T02:01:52Z",
-  "cutoff": "2026-06-07T02:01:49Z",
+  "generated": "2026-07-07T05:43:59Z",
+  "cutoff": "2026-06-07T05:43:55Z",
   "feed_count": 79,
   "item_count": 195,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.1: Tera v2 Templates and Safer Pruning",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.1",
+      "published": "2026-07-07T05:27:43Z",
+      "preview": "Added config: temporary tera_v1 / MISE_TERA_V1 escape hatch to keep rendering templates with the old Tera v1 engine after the upgrade to Tera v2 (scheduled for removal in 2027.4.0) #10817 cargo: experimental cargo.binstall_native fast path that installs prebuilt native binaries from crate package.metadata.binstall when cargo-binstall is unavailable, falling back to cargo install on misses #10789 bootstrap: start_calendar_interval support for macOS launchd agents, allowing calendar-based schedules (hour/minute/day/weekday/month) in addition to start_interval #10797 npm: trust_policy_excludes in",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.1",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.1",
+      "published": "2026-07-07T04:48:17Z",
+      "preview": "Release vfox 2026.7.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "43.253.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.253.1",
+      "published": "2026-07-07T03:51:11Z",
+      "preview": "43.253.1 (2026-07-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.71.2 (main) ( #44400 ) ( b18cff0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.253.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.253.0",
@@ -178,14 +202,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.1",
       "published": "2026-07-05T11:51:06Z",
       "preview": "43.252.1 (2026-07-05) Miscellaneous Chores deps: update astral-sh/setup-uv action to v8.3.0 (main) ( #44369 ) ( 7a53af8 ) Build System deps: update dependency @renovatebot/osv-offline to v3.0.5 (main) ( #44370 ) ( 5d808f6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.252.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.0",
-      "published": "2026-07-05T06:55:10Z",
-      "preview": "43.252.0 (2026-07-05) Features data: automatic update of static data ( #44367 ) ( 3373ac7 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.10 (main) ( #44359 ) ( 27b6d83 ) deps: update dependency @containerbase/istanbul-reports-html to v2.0.11 (main) ( #44368 ) ( 27d4803 ) deps: update dependency @containerbase/istanbul-reports-html to v2.0.9 (main) ( #44357 ) ( 2a8ae3f ) deps: update dependency tar to v7.5.19 (main) ( #44365 ) ( cb16cd2 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -814,26 +830,10 @@
       "category": "Python"
     },
     {
-      "title": "v2026.6.13: Lock resolution discipline and aqua attestation fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.13",
-      "published": "2026-06-23T21:08:17Z",
-      "preview": "Added bootstrap: Support brew cask pkg artifacts, installing via sudo installer and tracking pkgutil receipt IDs for status checks ( #10587 by @jdx ). registry: Added lore ( #10558 by @ggoggam ) and published-checksum resolution for dart , neo4j , nomad-pack , sentinel , tfc-agent , oc , openshift-install , claude , flutter , and julia ( #10552 by @itochan ). Fixed lock: mise lock now errors out when an active tool request cannot be resolved instead of silently skipping it and updating the lockfile ( #10586 by @jdx ). aqua: Verified checksum files can now upgrade an existing recorded checksum ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.6.14",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.14",
       "published": "2026-06-23T20:30:18Z",
       "preview": "Release vfox 2026.6.14",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.6.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.6.1",
-      "published": "2026-06-23T20:29:20Z",
-      "preview": "Release mise-sigstore 2026.6.1",
       "source": "mise releases",
       "category": "Multi-language"
     },
