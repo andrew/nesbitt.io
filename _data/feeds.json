@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T01:05:19Z",
-  "cutoff": "2026-06-07T01:05:15Z",
+  "generated": "2026-07-07T02:01:52Z",
+  "cutoff": "2026-06-07T02:01:49Z",
   "feed_count": 79,
   "item_count": 195,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.253.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.253.0",
+      "published": "2026-07-07T01:51:52Z",
+      "preview": "43.253.0 (2026-07-07) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.71.1 (main) ( #44399 ) ( 345eb15 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.252.8",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.252.8",
@@ -220,14 +228,6 @@
       "preview": "SDK 3.13.0-270.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.251.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.251.3",
-      "published": "2026-07-03T10:31:32Z",
-      "preview": "43.251.3 (2026-07-03) Bug Fixes terraform: strictly strip \".git\" suffix from source URLs ( #44350 ) ( 834fd2e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.13.0-269.0.dev",
