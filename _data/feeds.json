@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-08T20:44:24Z",
-  "cutoff": "2026-06-08T20:44:20Z",
+  "generated": "2026-07-08T21:43:41Z",
+  "cutoff": "2026-06-08T21:43:38Z",
   "feed_count": 79,
   "item_count": 207,
   "categories": [
@@ -22,20 +22,84 @@
   ],
   "items": [
     {
+      "title": "libnpmversion: v9.0.0",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmversion-v9.0.0",
+      "published": "2026-07-08T21:21:42Z",
+      "preview": "9.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm shrinkwrap is removed, the shrinkwrap config alias is removed, and npm-shrinkwrap.json is no longer loaded or honored at the project root or from inside dependency tarballs. Rename project-root npm-shrinkwrap.json to package-lock.json ; use bundleDependencies if you need to ship a locked dependency tree. npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmteam: v9.0.0",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmteam-v9.0.0",
+      "published": "2026-07-08T21:21:41Z",
+      "preview": "9.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmsearch: v10.0.0",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmsearch-v10.0.0",
+      "published": "2026-07-08T21:21:40Z",
+      "preview": "10.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmpublish: v12.0.0",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpublish-v12.0.0",
+      "published": "2026-07-08T21:21:39Z",
+      "preview": "12.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 opts.access now defaults to null instead of 'public' . With null , libnpmpublish no longer sets an explicit access level in the publish payload, so new scoped packages are created as restricted (registry default) and republishes preserve the existing access level. Callers that want to force public access must now pass access: 'public' explicitly. Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmpack: v10.0.0",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.0",
+      "published": "2026-07-08T21:21:38Z",
+      "preview": "10.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm pack and npm publish now error when a package's overrides apply to one or more of its bundled packages (bundledDependencies / bundleDependencies). Defining both fields is still allowed as long as no override actually targets a bundled package. To resolve the error, remove the affected entries from either overrides or the bundle. npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 allow-git and allow-remote now default to \"none\"; set them to \"all\" (or \"root\") to install git or user-supplied tarball-URL dependencies. Features 5b83698 #9737 trigger r",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmorg: v9.0.0",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmorg-v9.0.0",
+      "published": "2026-07-08T21:21:37Z",
+      "preview": "9.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v8.0.0",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.0",
+      "published": "2026-07-08T21:21:36Z",
+      "preview": "8.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi ) Dependencies workspace : @npmcli/arborist@10.0.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v11.0.0",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.0",
+      "published": "2026-07-08T21:21:35Z",
+      "preview": "11.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi ) Dependencies workspace : @npmcli/arborist@10.0.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.0.0",
+      "url": "https://github.com/npm/cli/releases/tag/v12.0.0",
+      "published": "2026-07-08T21:21:30Z",
+      "preview": "12.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm view --json now always returns an array. npm sbom --sbom-format=cyclonedx now reports the name field from each package's package.json instead of the on-disk directory name. The name , bom-ref , and purl of the root component and of aliased dependencies may change. npm no longer registers man pages with the system when installed globally. man npm-install will no longer work, but npm help install is unaffected. The npm pkg output is no longer forced to json. This means you can get single values without having to worry about wrapping of the values. It a",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "v6.0.1",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.1",
       "published": "2026-07-08T20:15:01Z",
       "preview": "Bugfixes Fixed a bug where Podman Machine VMs on Mac using the libkrun provider could be regularly turned off by a port-scanning process on the host unintentionally commanding the VM to shut down. Fixed a bug where the podman machine init command would fail on Windows hosts when using the hyperv provider when WSL was not installed ( #29053 ). Fixed a bug where the podman machine init command would fail on Windows hosts when using the wsl provider when the user was a Hyper-V admin but Hyper-V is disabled ( #29138 ). Fixed a bug where error messages from the OCI runtime were sometimes not displa",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "config: v11.0.0-pre.3",
-      "url": "https://github.com/npm/cli/releases/tag/config-v11.0.0-pre.3",
-      "published": "2026-07-08T19:30:55Z",
-      "preview": "11.0.0-pre.3 (2026-07-08) Features fd75880 #9729 warn instead of error on unknown .npmrc configs ( #9729 ) ( @reggi )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "v12.0.0-pre.3",
@@ -700,70 +764,6 @@
       "preview": "The Rust team has published a new point release of Rust, 1.96.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.96.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.96.1 Rust 1.96.1 fixes: Missing retries / timeouts in Cargo's HTTP client Miscompilation in a MIR optimization It also fixes three CVEs affecting libssh2 (which is compiled into Cargo): CVE-2025-15661 CVE-2026-5519",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "libnpmpack: v9.1.11",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.11",
-      "published": "2026-06-29T16:48:22Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.9.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmfund: v7.0.25",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.25",
-      "published": "2026-06-29T16:48:21Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.9.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmexec: v10.3.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v10.3.1",
-      "published": "2026-06-29T16:48:20Z",
-      "preview": "10.3.1 (2026-06-29) Bug Fixes f3f2465 #9692 exec: prevent shared binPaths pollution across workspace runs ( #9692 ) (@github-actions[bot], @arjun-vegeta ) b2e6338 #9602 arborist: don't flag inert optional deps in strict-allow-scripts ( #9602 ) (@github-actions[bot], @JamieMagee ) Dependencies workspace : @npmcli/arborist@9.9.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v11.18.0",
-      "url": "https://github.com/npm/cli/releases/tag/v11.18.0",
-      "published": "2026-06-29T16:48:15Z",
-      "preview": "11.18.0 (2026-06-29) Features 3021ad6 #9694 arborist: extend replace-registry-host with URL prefix matching ( #6110 ) ( #9694 ) (@github-actions[bot], @u2mejc ) abd8c6b #9677 graduate the linked install strategy from experimental to stable ( #9677 ) (@github-actions[bot], @manzoorwanijk ) 9420673 #9662 install-scripts: prune unused allowScripts entries ( #9662 ) (@github-actions[bot], @JamieMagee ) fc9d4c7 #9635 namespace install-script approval commands under npm install-scripts ( #9635 ) ( @manzoorwanijk ) 073253f #9564 warn when min-release-age blocks an audit fix ( #9564 ) (@github-actions",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmfund: v8.0.0-pre.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.0-pre.1",
-      "published": "2026-06-29T16:42:27Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.0-pre.2",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmpack: v10.0.0-pre.2",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.0-pre.2",
-      "published": "2026-06-29T16:42:27Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.0-pre.2",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmexec: v11.0.0-pre.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.0-pre.1",
-      "published": "2026-06-29T16:42:26Z",
-      "preview": "11.0.0-pre.1 (2026-06-29) Bug Fixes 18b930f #9650 exec: prevent shared binPaths pollution across workspace runs ( #9650 ) ( @arjun-vegeta ) 7655822 #9597 arborist: don't flag inert optional deps in strict-allow-scripts ( #9597 ) ( @JamieMagee ) Dependencies workspace : @npmcli/arborist@10.0.0-pre.2",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.0.0-pre.2",
-      "url": "https://github.com/npm/cli/releases/tag/v12.0.0-pre.2",
-      "published": "2026-06-29T16:42:21Z",
-      "preview": "12.0.0-pre.2 (2026-06-29) Features b51d156 #9672 arborist: extend replace-registry-host with URL prefix matching ( #6110 ) ( #9672 ) ( @u2mejc ) 86416a6 #9674 graduate the linked install strategy from experimental to stable ( #9674 ) ( @manzoorwanijk ) c4e5356 #9651 install-scripts: prune unused allowScripts entries ( #9651 ) ( @JamieMagee ) 0c4dd41 #9629 namespace install-script approval commands under npm install-scripts ( #9629 ) ( @manzoorwanijk ) 58cd8f5 #9586 .npm-extension transformManifest for imperative manifest repairs ( #9586 ) ( @manzoorwanijk ) Bug Fixes 024e6d9 #9670 sbom: percen",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "2.30.0 (29-Jun-2026)",
