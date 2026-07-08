@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-08T00:55:53Z",
-  "cutoff": "2026-06-08T00:55:49Z",
+  "generated": "2026-07-08T02:01:20Z",
+  "cutoff": "2026-06-08T02:01:16Z",
   "feed_count": 79,
-  "item_count": 202,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Hatchling v1.31.0",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.31.0",
+      "published": "2026-07-08T01:53:12Z",
+      "preview": "Fixed Only rewrite the shebang of a shared script when a Python shebang is present on the first line, preserving binary files and other content verbatim instead of dropping leading bytes.",
+      "source": "Hatch releases",
+      "category": "Python"
+    },
+    {
+      "title": "hatch-v1.17.1",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.17.1",
+      "published": "2026-07-08T01:46:42Z",
+      "preview": "release Hatch v1.17.1",
+      "source": "Hatch releases",
+      "category": "Python"
+    },
     {
       "title": "SDK-3.13.0-279.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-279.0.dev",
