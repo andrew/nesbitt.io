@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-08T02:01:20Z",
-  "cutoff": "2026-06-08T02:01:16Z",
+  "generated": "2026-07-08T03:28:53Z",
+  "cutoff": "2026-06-08T03:28:48Z",
   "feed_count": 79,
   "item_count": 204,
   "categories": [
@@ -22,18 +22,18 @@
   ],
   "items": [
     {
-      "title": "Hatchling v1.31.0",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.31.0",
-      "published": "2026-07-08T01:53:12Z",
-      "preview": "Fixed Only rewrite the shebang of a shared script when a Python shebang is present on the first line, preserving binary files and other content verbatim instead of dropping leading bytes.",
+      "title": "Hatch v1.17.1",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.17.1",
+      "published": "2026-07-08T02:23:40Z",
+      "preview": "Fixed Use TemporaryDirectory and pylock*.toml for temporary lock files. Skip injection of ruff extend if a key already exists in ruff.toml . Pass --no-header to uv pip compile in the uv locker so that generated lockfiles are deterministic. Fix env-dependency extras being dropped when a metadata hook is configured and resolve workspace-member extras from the member's own metadata.",
       "source": "Hatch releases",
       "category": "Python"
     },
     {
-      "title": "hatch-v1.17.1",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.17.1",
-      "published": "2026-07-08T01:46:42Z",
-      "preview": "release Hatch v1.17.1",
+      "title": "Hatchling v1.31.0",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.31.0",
+      "published": "2026-07-08T01:53:12Z",
+      "preview": "Fixed Only rewrite the shebang of a shared script when a Python shebang is present on the first line, preserving binary files and other content verbatim instead of dropping leading bytes.",
       "source": "Hatch releases",
       "category": "Python"
     },
