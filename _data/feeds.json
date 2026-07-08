@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-08T18:50:00Z",
-  "cutoff": "2026-06-08T18:49:55Z",
+  "generated": "2026-07-08T19:53:41Z",
+  "cutoff": "2026-06-08T19:53:37Z",
   "feed_count": 79,
   "item_count": 206,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "config: v11.0.0-pre.3",
+      "url": "https://github.com/npm/cli/releases/tag/config-v11.0.0-pre.3",
+      "published": "2026-07-08T19:30:55Z",
+      "preview": "11.0.0-pre.3 (2026-07-08) Features fd75880 #9729 warn instead of error on unknown .npmrc configs ( #9729 ) ( @reggi )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.0.0-pre.3",
+      "url": "https://github.com/npm/cli/releases/tag/v12.0.0-pre.3",
+      "published": "2026-07-08T19:30:54Z",
+      "preview": "12.0.0-pre.3 (2026-07-08) Features fd75880 #9729 warn instead of error on unknown .npmrc configs ( #9729 ) ( @reggi ) 42b12c2 #9697 install-scripts: use install-scripts as the warning log title ( @manzoorwanijk ) Chores 6fefd0e #9733 clarify unknown-config breaking change note in changelog ( #9733 ) ( @reggi , @Copilot) Dependencies workspace : @npmcli/config@11.0.0-pre.3",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v5.8.5",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.5",
@@ -702,14 +718,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "libnpmdiff: v8.1.11",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.11",
-      "published": "2026-06-29T16:48:19Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.9.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v11.18.0",
       "url": "https://github.com/npm/cli/releases/tag/v11.18.0",
       "published": "2026-06-29T16:48:15Z",
@@ -738,14 +746,6 @@
       "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.0-pre.1",
       "published": "2026-06-29T16:42:26Z",
       "preview": "11.0.0-pre.1 (2026-06-29) Bug Fixes 18b930f #9650 exec: prevent shared binPaths pollution across workspace runs ( #9650 ) ( @arjun-vegeta ) 7655822 #9597 arborist: don't flag inert optional deps in strict-allow-scripts ( #9597 ) ( @JamieMagee ) Dependencies workspace : @npmcli/arborist@10.0.0-pre.2",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmdiff: v9.0.0-pre.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v9.0.0-pre.1",
-      "published": "2026-06-29T16:42:25Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.0-pre.2",
       "source": "npm CLI releases",
       "category": "JavaScript"
     },
