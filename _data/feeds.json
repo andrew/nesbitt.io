@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-08T12:52:11Z",
-  "cutoff": "2026-06-08T12:52:06Z",
+  "generated": "2026-07-08T15:03:28Z",
+  "cutoff": "2026-06-08T15:03:22Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -22,6 +22,30 @@
   ],
   "items": [
     {
+      "title": "v2026.7.3",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.3",
+      "published": "2026-07-08T14:48:01Z",
+      "preview": "(brew) run cask lifecycle hooks by @jdx in [ #10837 ]( https://git…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.8",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.8",
+      "published": "2026-07-08T14:45:33Z",
+      "preview": "Release vfox 2026.7.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v2.9.2",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.2",
+      "published": "2026-07-08T14:36:21Z",
+      "preview": "2.9.2 / 2026.07.08 feat(desktop): autodetect React Router framework ( #35557 ) feat(desktop): enable --hmr for Vite and Nuxt ( #35851 ) feat(desktop): run HMR by framework dev server ( #35722 ) feat(desktop): window opacity and transparency APIs ( #35646 ) feat(desktop): wire --exclude-unused-npm through to compile ( #35740 ) feat(ext/node): implement v8.setHeapSnapshotNearHeapLimit ( #35694 ) feat(ext/telemetry): honor OTEL_ATTRIBUTE_VALUE_LENGTH_LIMIT ( #35068 ) feat(inspector): start inspector server on SIGUSR1 ( #35738 ) feat(node): implement getTestContext() in node:test ( #35678 ) feat: ",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "43.256.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.256.0",
       "published": "2026-07-08T12:47:33Z",
@@ -36,14 +60,6 @@
       "preview": "chore: bump backend versions ( #6562 )",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v2.9.2: 2.9.2 (#35865)",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.2",
-      "published": "2026-07-08T10:45:38Z",
-      "preview": "Bumped versions for 2.9.2 Co-authored-by: bartlomieju bartlomieju@users.noreply.github.com",
-      "source": "Deno releases",
-      "category": "JavaScript"
     },
     {
       "title": "2.10.2",
@@ -820,22 +836,6 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-06-24-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.6.14: Bootstrap, end-to-end",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.6.14",
-      "published": "2026-06-25T03:02:47Z",
-      "preview": "Added bootstrap: mise bootstrap --only <part> as the inverse of --skip , accepting repeated/comma-separated phase names and mutually exclusive with --skip ( #10607 by @jdx ). bootstrap: mise bootstrap packages import / prune for Homebrew formulae, snapshotting requested installed formulae into [bootstrap.packages] and ledger-pruning only adopted formulae no longer needed by merged config ( #10606 by @jdx ). bootstrap: mise bootstrap status (alias ls ) aggregates packages, dotfiles, macOS defaults, launchd, systemd, login shell, repos, shell activation, and [tools] into one report with --json a",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.6.15",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.6.15",
-      "published": "2026-06-25T02:15:58Z",
-      "preview": "Release vfox 2026.6.15",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "Bridging conda and PyPI ecosystems: Install PyPI packages with conda install",
