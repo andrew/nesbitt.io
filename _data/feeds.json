@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-08T07:37:17Z",
-  "cutoff": "2026-06-08T07:37:12Z",
+  "generated": "2026-07-08T09:10:38Z",
+  "cutoff": "2026-06-08T09:10:35Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.10.2",
+      "url": "https://github.com/composer/composer/releases/tag/2.10.2",
+      "published": "2026-07-08T08:24:36Z",
+      "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 / CVE-2026-59948) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx / CVE-2026-59946) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 / CVE-2026-59947) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Added warning output in self-update command when using a soon-to-be E",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
     {
       "title": "6.0.9",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.9",
@@ -532,14 +540,6 @@
       "preview": "[0.72.0] - 2026-07-01 ✨ Highlights This release brings an exciting new Pixi Build feature: inline package manifests. If you want to build a package from source that didn't contain a Pixi Build manifest, that used to be pretty annoying. Now you can simply set the metadata inline like this: [ dependencies ] rust-package = { git = \" https://github.com/user/repo.git \" , package.build.backend.name = \" pixi-build-rust \" } You can learn more about this feature in the docs: https://pixi.prefix.dev/v0.72.0/build/inline_packages/ Added Inline package definition by @Hofer-Julian in #6428",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "2.10.2",
-      "url": "https://github.com/composer/composer/releases/tag/2.10.2",
-      "published": "2026-07-01T09:33:23Z",
-      "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 ) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx ) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 ) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Added warning output in self-update command when using a soon-to-be EOL version ( #12920 ) Added download retry when ",
-      "source": "Composer releases",
-      "category": "PHP"
     },
     {
       "title": "2.2.29",
@@ -1644,14 +1644,6 @@
       "preview": "Enhancements: Improve error handling and printed output of flatpak-coredumpctl ( #6649 , #6680 ) Support the AMD vendor specific compute interface ( /dev/kfd ) via the DRI device permission ( #6648 ) Improve the output of flatpak update with failure causes ( #6657 ) Improve startup time for fish shell integration ( #6635 ) Translation updates: ‎zh_CN ( #6671 ) Bug fixes: Fix building when HAVE_LIBSYSTEMD but not USE_SYSTEM_HELPER is defined ( #6652 ) Ignore system bus failures in parental controls check ( #6663 ) Fix some return values and replace deprecated GTimeVal with g_get_real_time() ( #",
       "source": "Flatpak releases",
       "category": "System"
-    },
-    {
-      "title": "swift-6.3-DEVELOPMENT-SNAPSHOT-2026-06-07-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.3-DEVELOPMENT-SNAPSHOT-2026-06-07-a",
-      "published": "2026-06-08T08:39:23Z",
-      "preview": "Tag build swift-6.3-DEVELOPMENT-SNAPSHOT-2026-06-07-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     }
   ]
 }
