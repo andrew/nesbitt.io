@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-08T17:52:13Z",
-  "cutoff": "2026-06-08T17:52:08Z",
+  "generated": "2026-07-08T18:50:00Z",
+  "cutoff": "2026-06-08T18:49:55Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 206,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v5.8.5",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.5",
+      "published": "2026-07-08T18:46:08Z",
+      "preview": "Bugfixes Fixed a bug where Podman Machine VMs on Mac using the libkrun provider could be regularly turned off by a port-scanning process on the host unintentionally commanding the VM to shut down.",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
+      "title": "2.5.2",
+      "url": "https://github.com/ocaml/opam/releases/tag/2.5.2",
+      "published": "2026-07-08T18:34:54Z",
+      "preview": "2.5.2",
+      "source": "opam releases",
+      "category": "Registries"
+    },
     {
       "title": "v2026.7.3: System dependency checks and cask lifecycle hooks",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.3",
