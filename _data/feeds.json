@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-08T16:51:13Z",
-  "cutoff": "2026-06-08T16:51:08Z",
+  "generated": "2026-07-08T17:52:13Z",
+  "cutoff": "2026-06-08T17:52:08Z",
   "feed_count": 79,
   "item_count": 204,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.3: System dependency checks and cask lifecycle hooks",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.3",
+      "published": "2026-07-08T16:55:01Z",
+      "preview": "This release brings smarter builds for source-compiling tools, better Homebrew cask support, and a fix for lockfile entries losing their platform data during upgrades. Added vfox: plugin-declared system dependencies. Source-compiling plugins (php, mysql, erlang, ...) often need build tools and libraries that previously showed up only as a failed ./configure twenty minutes into a build. vfox plugins can now declare these prerequisites in metadata.lua , and mise checks them before installing ( #10848 by @jdx ): PLUGIN . systemDependencies = { { bin = \" bison \" , version = \" >=3.0 \" , packages = ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v4.17.1",
       "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.17.1",
@@ -52,14 +60,6 @@
       "preview": "@yarnpkg/plugin-patch",
       "source": "Yarn releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "v2026.7.3",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.3",
-      "published": "2026-07-08T14:48:01Z",
-      "preview": "(brew) run cask lifecycle hooks by @jdx in [ #10837 ]( https://git…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.7.8",
