@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-09T13:24:03Z",
-  "cutoff": "2026-06-09T13:23:59Z",
+  "generated": "2026-07-09T15:29:00Z",
+  "cutoff": "2026-06-09T15:28:56Z",
   "feed_count": 79,
   "item_count": 207,
   "categories": [
@@ -22,6 +22,38 @@
   ],
   "items": [
     {
+      "title": "v2026.7.4: Bootstrap goes stable",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.4",
+      "published": "2026-07-09T15:23:35Z",
+      "preview": "This release graduates mise bootstrap and mise dotfiles out of experimental mode, teaches mise install to reconcile Rust components and targets, and restores Linux arm64 glibc compatibility for release builds. Added Bootstrap and dotfiles are now stable. mise bootstrap and all of its subcommands (packages, repos, macOS/Linux user services, shell activation, login shell) plus mise dotfiles no longer require experimental mode, so they work with MISE_EXPERIMENTAL=0 . The related mise doctor diagnostics (system packages, macOS defaults, login-shell drift) and the missing [bootstrap.packages] hint ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.9",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.9",
+      "published": "2026-07-09T14:46:50Z",
+      "preview": "Release vfox 2026.7.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "2.5.2",
+      "url": "https://github.com/ocaml/opam/releases/tag/2.5.2",
+      "published": "2026-07-09T14:44:15Z",
+      "preview": "This is the release of opam 2.5.2. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our upcoming blog post for more details and the upgrade instructions. Changelog : Security fix Fix a bug that allowed a package to install files anywhere on the system using a symlink to an external directory without warning the user and asking ",
+      "source": "opam releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v0.72.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.72.2",
+      "published": "2026-07-09T13:59:11Z",
+      "preview": "[0.72.2] - 2026-07-09 ✨ Highlights This release contains more fixes for rich platforms. Added Add pixi workspace platform add --auto-detected by @hunger in #6355 Explain why each declared platform cannot run here by @hunger in #6491 Changed Compose sysreq platforms from customisations only by @kilian-hu in #6520 Report unsatisfied virtual packages instead of a misleading interpreter error by @hunger Documentation Document the build variants pixi sets automatically by @hunger in #6534 Fixed Quick-validate to rebuild source packages on rich platforms by @wolfv in #6544 Satisfiability of conditio",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "0.98.0",
       "url": "https://github.com/rust-lang/cargo/releases/tag/0.98.0",
       "published": "2026-07-09T12:25:13Z",
@@ -36,14 +68,6 @@
       "preview": "Insert 7.9.0.76 into main on 07/09/2026 12:25:12",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "2.5.2",
-      "url": "https://github.com/ocaml/opam/releases/tag/2.5.2",
-      "published": "2026-07-09T10:18:54Z",
-      "preview": "This is the release of opam 2.5.2. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our upcoming blog post for more details and the upgrade instructions. Changelog : Security fix Fix a bug that allowed a package to install files anywhere on the system using a symlink to an external directory without warning the user and asking ",
-      "source": "opam releases",
-      "category": "Registries"
     },
     {
       "title": "43.256.1",
@@ -654,26 +678,10 @@
       "category": "Multi-language"
     },
     {
-      "title": "aqua-registry-v2026.7.0",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.7.0",
-      "published": "2026-07-02T15:51:38Z",
-      "preview": "Release aqua-registry 2026.7.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.7.0",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.0",
       "published": "2026-07-02T15:51:23Z",
       "preview": "Release vfox 2026.7.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.7.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.7.0",
-      "published": "2026-07-02T15:50:38Z",
-      "preview": "Release mise-sigstore 2026.7.0",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -724,14 +732,6 @@
       "preview": "2.9.1 / 2026.07.01 feat(check): add --desktop flag to type-check for deno desktop ( #35644 ) feat(desktop): register deep-link URL schemes at bundle time ( #35466 ) feat: update laufey to 0.5.0 ( #35663 ) fix(bundle): emit CSSStyleSheet for CSS raw imports ( #35598 ) fix(cache): skip checksums for cached 404 entries ( #35526 ) fix(config): don't strip workspace-member includes from deploy config ( #34788 ) fix(core): apply deferred fast-call op upgrade to the captured bootstrap clone ( #35630 ) fix(core): prevent shared-buffer timer expiry race from losing timers ( #35312 ) fix(desktop): defau",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "v0.72.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.72.0",
-      "published": "2026-07-01T12:23:46Z",
-      "preview": "[0.72.0] - 2026-07-01 ✨ Highlights This release brings an exciting new Pixi Build feature: inline package manifests. If you want to build a package from source that didn't contain a Pixi Build manifest, that used to be pretty annoying. Now you can simply set the metadata inline like this: [ dependencies ] rust-package = { git = \" https://github.com/user/repo.git \" , package.build.backend.name = \" pixi-build-rust \" } You can learn more about this feature in the docs: https://pixi.prefix.dev/v0.72.0/build/inline_packages/ Added Inline package definition by @Hofer-Julian in #6428",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "2.2.29",
