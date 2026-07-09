@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-09T19:58:08Z",
-  "cutoff": "2026-06-09T19:58:04Z",
+  "generated": "2026-07-09T20:54:51Z",
+  "cutoff": "2026-06-09T20:54:47Z",
   "feed_count": 79,
-  "item_count": 208,
+  "item_count": 210,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.10.0.5",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.5",
+      "published": "2026-07-09T20:52:08Z",
+      "preview": "Insert 7.10.0.5 into main on 07/09/2026 20:52:07",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "pnpm 11.11",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.11.0",
+      "published": "2026-07-09T20:43:41Z",
+      "preview": "Minor Changes 508b8c2 : Added the pnpm access command for managing package access and visibility on the registry, supporting listing packages and collaborators, getting and setting package status and MFA requirements, and granting or revoking team access. Patch Changes c70e33e : Allow allowBuilds entries for git-hosted packages to match by repository URL without pinning the resolved commit hash. This lets trusted git repositories keep running their build scripts after branch updates without approving each new commit, while package-name-only rules still do not approve git-hosted artifacts. 3067",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v2026.7.5",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.5",
+      "published": "2026-07-09T20:35:37Z",
+      "preview": "(trust) share config trust across git worktrees by @jdx in [#10…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.10",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.10",
+      "published": "2026-07-09T20:33:04Z",
+      "preview": "Release vfox 2026.7.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v4.2.3",
+      "url": "https://github.com/helm/helm/releases/tag/v4.2.3",
+      "published": "2026-07-09T20:25:38Z",
+      "preview": "Helm release v4.2.3",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
     {
       "title": "maven-3.10.0-rc-1",
       "url": "https://github.com/apache/maven/releases/tag/maven-3.10.0-rc-1",
@@ -686,22 +726,6 @@
       "category": "Maven"
     },
     {
-      "title": "v2026.7.0: Shell expansion by default, monorepo lockfiles, and task usage mounts",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.0",
-      "published": "2026-07-02T16:36:52Z",
-      "preview": "Added env: enable shell expansion by default; opt out with env_shell_expand = false ( #10702 by @jdx ). monorepo: mise install --monorepo and mise ls --monorepo install/list the union of tools across [monorepo].config_roots ; new tri-state [monorepo].lockfile for unified root lockfiles ( #10707 by @jdx ). task: root-level #USAGE mount ... in file tasks (including shorthand mount \"cmd\" ) hoists mounted usage specs onto the generated task command ( #10704 by @jdx ). github: per-tool github_attestations option to disable GitHub Artifact Attestation verification for a single tool ( #10694 by @jdx ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.7.0",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.0",
-      "published": "2026-07-02T15:51:23Z",
-      "preview": "Release vfox 2026.7.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "7.9.0.71",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.71",
       "published": "2026-07-02T12:20:04Z",
@@ -1036,14 +1060,6 @@
       "preview": "Minor Changes bae694f : Some registries generate tarballs on-demand and cannot provide an integrity checksum in their package metadata. In that case pnpm now computes the integrity from the downloaded tarball and stores it in the lockfile, so the entry is verifiable on subsequent installs instead of being written without an integrity (which would fail the next install). This also applies to --lockfile-only : the tarball is downloaded so its integrity can be computed. A lockfile entry that is still missing its integrity is rejected as a ERR_PNPM_MISSING_TARBALL_INTEGRITY lockfile verification v",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "7.9.0.49",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.49",
-      "published": "2026-06-23T12:25:35Z",
-      "preview": "Insert 7.9.0.49 into main on 06/23/2026 12:25:34",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "v29.6.0",
