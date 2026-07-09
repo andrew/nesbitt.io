@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-09T22:46:56Z",
-  "cutoff": "2026-06-09T22:46:53Z",
+  "generated": "2026-07-09T23:45:25Z",
+  "cutoff": "2026-06-09T23:45:21Z",
   "feed_count": 79,
-  "item_count": 211,
+  "item_count": 212,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.257.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.0",
+      "published": "2026-07-09T23:44:34Z",
+      "preview": "43.257.0 (2026-07-09) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.2 (main) ( #44463 ) ( 7e1122f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2.5.1",
+      "url": "https://github.com/hexpm/hex/releases/tag/v2.5.1",
+      "published": "2026-07-09T23:17:14Z",
+      "preview": "Enhancements Add ignore_advisories and ignore_retirements configs to acknowledge security advisories and package retirements. Configure them in the mix.exs :hex block ( ignore_advisories: [\"CVE-2026-32686\"] , ignore_retirements: [:decimal, phoenix: \"1.0.0\"] ) or with the HEX_IGNORE_ADVISORIES and HEX_IGNORE_RETIREMENTS environment variables. An advisory can be ignored by any of its aliased identifiers (for example the GHSA alias of a CVE). mix hex.audit lists ignored findings in separate sections without failing and warns about entries that no longer match anything, and mix deps.get / mix deps",
+      "source": "Hex releases",
+      "category": "Elixir"
+    },
     {
       "title": "43.256.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.256.3",
@@ -644,14 +660,6 @@
       "preview": "Release vfox 2026.7.1",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.253.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.253.1",
-      "published": "2026-07-07T03:51:11Z",
-      "preview": "43.253.1 (2026-07-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.71.2 (main) ( #44400 ) ( b18cff0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.17.0",
