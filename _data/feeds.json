@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-09T17:59:07Z",
-  "cutoff": "2026-06-09T17:59:03Z",
+  "generated": "2026-07-09T18:56:48Z",
+  "cutoff": "2026-06-09T18:56:44Z",
   "feed_count": 79,
-  "item_count": 208,
+  "item_count": 207,
   "categories": [
     ".NET",
     "C/C++",
@@ -1676,14 +1676,6 @@
       "preview": "RubyGems 4.0.14 includes enhancements and Bundler 4.0.14 includes bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.14 RubyGems Release Notes Enhancements: Add executables and bindir validation to the gem installer. Pull request #9595 by hsbt Strip C1 control characters from displayed gem text. Pull request #9597 by hsbt Installs bundler 4.0.14 as a default gem. Bundler Release Notes Bug fixes: Preserve per-source cooldown when converging sources from the lock",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "v0.381.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.381.0",
-      "published": "2026-06-09T18:01:58Z",
-      "preview": "What's Changed Disable npmMinimalAgeGate for Yarn Berry security updates by @yeikel in #15191 Add Bundler 4 support by @JamieMagee in #15180 Bump org.apache.maven.plugins:maven-dependency-plugin from 3.10.0 to 3.11.0 in /maven/lib/dependabot/maven by @dependabot [bot] in #15190 Add GONOPROXY/GONOSUMDB env vars to go_modules FileParser by @Nishnha in #15159 fix(go_modules): include advisory pseudo-version boundaries for security fix resolution by @thavaahariharangit in #15213 Retry Gradle metadata fetch on EOF by @thavaahariharangit in #15204 Handle npm registry EOFError in latest version finde",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
