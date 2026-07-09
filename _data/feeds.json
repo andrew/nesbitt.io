@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-09T11:20:43Z",
-  "cutoff": "2026-06-09T11:20:39Z",
+  "generated": "2026-07-09T13:24:03Z",
+  "cutoff": "2026-06-09T13:23:59Z",
   "feed_count": 79,
-  "item_count": 205,
+  "item_count": 207,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.98.0",
+      "url": "https://github.com/rust-lang/cargo/releases/tag/0.98.0",
+      "published": "2026-07-09T12:25:13Z",
+      "preview": "0.98.0 release",
+      "source": "Cargo releases",
+      "category": "Rust"
+    },
+    {
+      "title": "7.9.0.76",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.76",
+      "published": "2026-07-09T12:25:12Z",
+      "preview": "Insert 7.9.0.76 into main on 07/09/2026 12:25:12",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "2.5.2",
       "url": "https://github.com/ocaml/opam/releases/tag/2.5.2",
@@ -92,6 +108,14 @@
       "preview": "SDK 3.13.0-280.0.dev",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "Announcing Rust 1.97.0",
+      "url": "https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/",
+      "published": "2026-07-09T00:00:00Z",
+      "preview": "The Rust team is happy to announce a new version of Rust, 1.97.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.97.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.97.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "cabal-head",
@@ -1092,14 +1116,6 @@
       "preview": "Release Notes Released on 2026-06-19. Bug fixes Revert \"Fix transparent Python upgrades in project environments\" to mitigate unintended breakage in pre-commit-uv ( #19925 ) Restore old behavior where workspace members \"hidden\" by an intermediate pyproject.toml would be treated as standalone projects ( #19926 ) Install uv 0.11.23 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.23/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://re",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "7.9.0.37",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.37",
-      "published": "2026-06-19T12:42:31Z",
-      "preview": "Insert 7.9.0.37 into main on 06/19/2026 12:42:30",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "New release 2.76",
