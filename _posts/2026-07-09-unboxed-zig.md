@@ -7,6 +7,7 @@ tags:
   - package-managers
   - unboxed
   - zig
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mqa57igr322o"
 ---
 
 This is the first in a series of posts working through individual package managers against a fixed set of headings, so they can be compared directly. The headings come from earlier posts: the [client](/2025/12/29/categorizing-package-manager-clients.html) and [registry](/2025/12/29/categorizing-package-registries.html) categorisations, the [governance](/2025/12/22/package-registries-are-governance-as-a-service.html) post, and the [threat model](/2026/05/05/package-manager-threat-models.html).
