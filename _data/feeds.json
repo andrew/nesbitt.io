@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-09T20:54:51Z",
-  "cutoff": "2026-06-09T20:54:47Z",
+  "generated": "2026-07-09T21:50:00Z",
+  "cutoff": "2026-06-09T21:49:55Z",
   "feed_count": 79,
-  "item_count": 210,
+  "item_count": 211,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
   ],
   "items": [
     {
+      "title": "Helm v3.21.3",
+      "url": "https://github.com/helm/helm/releases/tag/v3.21.3",
+      "published": "2026-07-09T21:20:27Z",
+      "preview": "Helm v3.21.3 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Installation and Upgrading Download Helm v3.21.3. The common platform binaries are here: MacOS amd64 ( checksum / 76d0db4730b05d3d625eee11e80f0721b32b4d8422f4e5d093de6337bf3ac9f8) MacOS arm64 ( checksum / 1987",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2026.7.5: Worktree-Aware Trust and npm 12 Support",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.5",
+      "published": "2026-07-09T21:12:51Z",
+      "preview": "This release makes config trust smarter across git worktrees and monorepos, and fixes npm-backed tools on npm 12. Added Trust is shared across git worktrees. Trust records are keyed by absolute path, so every new git worktree add checkout used to re-prompt for the same config. A config inside a linked worktree is now trusted automatically when the equivalent path in the repository's main checkout is trusted — trusting a repo once covers all of its worktrees. This is especially helpful for workflows that spin up many short-lived worktrees (e.g. AI-agent worktrees under .claude/worktrees/ ). Sha",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "Helm v4.2.3",
+      "url": "https://github.com/helm/helm/releases/tag/v4.2.3",
+      "published": "2026-07-09T20:56:43Z",
+      "preview": "Helm v4.2.3 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Installation and Upgrading Download Helm v4.2.3. The common platform binaries are here: MacOS amd64 ( checksum / ff3ac86755a45f3422473bc1200776aac0fe04c5766abe6ca66699f7b564b23b) MacOS arm64 ( checksum / 048ecf",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
       "title": "7.10.0.5",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.5",
       "published": "2026-07-09T20:52:08Z",
@@ -38,28 +62,12 @@
       "category": "JavaScript"
     },
     {
-      "title": "v2026.7.5",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.5",
-      "published": "2026-07-09T20:35:37Z",
-      "preview": "(trust) share config trust across git worktrees by @jdx in [#10…",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.7.10",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.10",
       "published": "2026-07-09T20:33:04Z",
       "preview": "Release vfox 2026.7.10",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v4.2.3",
-      "url": "https://github.com/helm/helm/releases/tag/v4.2.3",
-      "published": "2026-07-09T20:25:38Z",
-      "preview": "Helm release v4.2.3",
-      "source": "Helm releases",
-      "category": "Containers"
     },
     {
       "title": "maven-3.10.0-rc-1",
