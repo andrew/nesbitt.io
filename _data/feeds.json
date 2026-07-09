@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-09T21:50:00Z",
-  "cutoff": "2026-06-09T21:49:55Z",
+  "generated": "2026-07-09T22:46:56Z",
+  "cutoff": "2026-06-09T22:46:53Z",
   "feed_count": 79,
   "item_count": 211,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.256.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.256.3",
+      "published": "2026-07-09T21:54:05Z",
+      "preview": "43.256.3 (2026-07-09) Bug Fixes datasource/puppet-forge: filter out deleted forge releases so that they don't count as updates anymore ( #43906 ) ( 54407b6 ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.71.9 (main) ( #44454 ) ( cca3cb9 ) Build System deps: update opentelemetry-js monorepo (main) ( #44462 ) ( 7682933 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "Helm v3.21.3",
       "url": "https://github.com/helm/helm/releases/tag/v3.21.3",
@@ -642,14 +650,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.253.1",
       "published": "2026-07-07T03:51:11Z",
       "preview": "43.253.1 (2026-07-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.71.2 (main) ( #44400 ) ( b18cff0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.253.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.253.0",
-      "published": "2026-07-07T01:51:52Z",
-      "preview": "43.253.0 (2026-07-07) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.71.1 (main) ( #44399 ) ( 345eb15 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
