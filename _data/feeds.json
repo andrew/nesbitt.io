@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-10T07:30:49Z",
-  "cutoff": "2026-06-10T07:30:45Z",
+  "generated": "2026-07-10T08:04:38Z",
+  "cutoff": "2026-06-10T08:04:32Z",
   "feed_count": 79,
   "item_count": 212,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.257.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.4",
+      "published": "2026-07-10T07:52:50Z",
+      "preview": "43.257.4 (2026-07-10) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.3 (main) ( #44472 ) ( 789458d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.257.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.3",
@@ -530,14 +538,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.255.2",
       "published": "2026-07-07T20:07:51Z",
       "preview": "43.255.2 (2026-07-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.71.6 (main) ( #44404 ) ( 399c163 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.255.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.255.1",
-      "published": "2026-07-07T19:50:17Z",
-      "preview": "43.255.1 (2026-07-07) Bug Fixes datasource/npm: require public Cache-Control to cache responses ( #42822 ) ( 371412d ) datasource/repology: honor abortOnError instead of aborting the run on every error ( #44326 ) ( 8a8f830 ) Code Refactoring oxlint: enable typescript/no-useless-default-assignment ( #44419 ) ( b106668 ), closes #43845 oxlint: enable vitest/expect-expect ( #44415 ) ( 5d027f7 ), closes #43845 oxlint: enable vitest/no-conditional-expect ( #44416 ) ( a1e8441 ), closes #43845 oxlint: enable vitest/prefer-snapshot-hint ( #44420 ) ( aac8365 ), closes #43845 oxlint: enable vitest/requi",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
