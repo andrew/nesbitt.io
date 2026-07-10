@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-10T14:01:46Z",
-  "cutoff": "2026-06-10T14:01:42Z",
+  "generated": "2026-07-10T15:13:54Z",
+  "cutoff": "2026-06-10T15:13:41Z",
   "feed_count": 79,
-  "item_count": 210,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -166,28 +166,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "Helm v3.21.3",
-      "url": "https://github.com/helm/helm/releases/tag/v3.21.3",
-      "published": "2026-07-09T21:20:27Z",
-      "preview": "Helm v3.21.3 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Installation and Upgrading Download Helm v3.21.3. The common platform binaries are here: MacOS amd64 ( checksum / 76d0db4730b05d3d625eee11e80f0721b32b4d8422f4e5d093de6337bf3ac9f8) MacOS arm64 ( checksum / 1987",
-      "source": "Helm releases",
-      "category": "Containers"
-    },
-    {
       "title": "v2026.7.5: Worktree-Aware Trust and npm 12 Support",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.5",
       "published": "2026-07-09T21:12:51Z",
       "preview": "This release makes config trust smarter across git worktrees and monorepos, and fixes npm-backed tools on npm 12. Added Trust is shared across git worktrees. Trust records are keyed by absolute path, so every new git worktree add checkout used to re-prompt for the same config. A config inside a linked worktree is now trusted automatically when the equivalent path in the repository's main checkout is trusted — trusting a repo once covers all of its worktrees. This is especially helpful for workflows that spin up many short-lived worktrees (e.g. AI-agent worktrees under .claude/worktrees/ ). Sha",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "Helm v4.2.3",
-      "url": "https://github.com/helm/helm/releases/tag/v4.2.3",
-      "published": "2026-07-09T20:56:43Z",
-      "preview": "Helm v4.2.3 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Installation and Upgrading Download Helm v4.2.3. The common platform binaries are here: MacOS amd64 ( checksum / ff3ac86755a45f3422473bc1200776aac0fe04c5766abe6ca66699f7b564b23b) MacOS arm64 ( checksum / 048ecf",
-      "source": "Helm releases",
-      "category": "Containers"
     },
     {
       "title": "7.10.0.5",
@@ -1182,14 +1166,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "Helm v3.21.2",
-      "url": "https://github.com/helm/helm/releases/tag/v3.21.2",
-      "published": "2026-06-20T17:19:31Z",
-      "preview": "Helm v3.21.2 is a patch release to correct bump the Kubernetes client libraries (client-go, etc) to match the expected Kubernetes v1.36 release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Update Kubernetes client libraries to v1.36 Installation and Upgrading Download H",
-      "source": "Helm releases",
-      "category": "Containers"
-    },
-    {
       "title": "0.11.23",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.23",
       "published": "2026-06-19T18:42:52Z",
@@ -1308,14 +1284,6 @@
       "preview": "What's Changed Use exact version in GHA comments by @facutuesca in #1830 Preserve installer errors during package name detection by @marko1olo in #1836 Fix pipx.util import cycle by @marko1olo in #1831 Expose man pages for editable local installs by @marko1olo in #1832 Restore package after interrupted reinstall by @puneetdixit200 in #1829 Fix inject --force reinstall behavior by @marko1olo in #1833 Fix pin --injected-only for pinned apps by @marko1olo in #1835 New Contributors @marko1olo made their first contribution in #1836 @puneetdixit200 made their first contribution in #1829 Full Changel",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "Helm v4.2.2",
-      "url": "https://github.com/helm/helm/releases/tag/v4.2.2",
-      "published": "2026-06-17T20:50:16Z",
-      "preview": "Helm v4.2.2 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Revert: Fixed a race condition in WaitForDelete where the status observer canceled the watch too early, causing intermittent failures when running a full test suite #32214 Installation and Upgra",
-      "source": "Helm releases",
-      "category": "Containers"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-15-a",
@@ -1531,22 +1499,6 @@
       "published": "2026-06-12T16:29:36Z",
       "preview": "1.55.0-rc.1 Changelog POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636 docs: clarify swarm join required f",
       "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "Helm v4.2.1",
-      "url": "https://github.com/helm/helm/releases/tag/v4.2.1",
-      "published": "2026-06-12T15:06:26Z",
-      "preview": "Helm v4.2.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Fixed data race detected by -race flag when concurrent goroutines (upgrade + rollback, install + uninstall) both call GetWaiterWithOptions on the same FailingKubeClient instance #31925 Fixed hel",
-      "source": "Helm releases",
-      "category": "Containers"
-    },
-    {
-      "title": "Helm v3.21.1",
-      "url": "https://github.com/helm/helm/releases/tag/v3.21.1",
-      "published": "2026-06-12T14:51:31Z",
-      "preview": "Helm v3.21.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Fixed nil pointer panic that could happen with helm template in ClientOnly flows. Now correctly returns a template error #31920 Bumped golang.org/x/net to v0.55.0 to address GO-2026-5026 #32152",
-      "source": "Helm releases",
       "category": "Containers"
     },
     {
