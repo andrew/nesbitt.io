@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-10T00:59:57Z",
-  "cutoff": "2026-06-10T00:59:54Z",
+  "generated": "2026-07-10T05:43:35Z",
+  "cutoff": "2026-06-10T05:43:30Z",
   "feed_count": 79,
-  "item_count": 209,
+  "item_count": 212,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "bundler-v4.0.16",
+      "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.16",
+      "published": "2026-07-10T05:41:26Z",
+      "preview": "Enhancements: Bundler: Fix Bundler::Fetcher for PQC support, adding integration connection tests. Pull request #9637 by junaruga Reuse RubyGems' vendored tsort in Bundler. Pull request #9647 by hsbt Bug fixes: Initialize the new gem's git repo without a subshell. Pull request #9670 by hsbt Preserve CRLF lockfile line endings on Windows. Pull request #9669 by hsbt Fix the gemspec error snippet on Windows drive-letter paths. Pull request #9668 by hsbt Documentation: Point Bundler gemspec metadata at the moved docs. Pull request #9648 by hsbt",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.16",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.16",
+      "published": "2026-07-10T05:39:35Z",
+      "preview": "Enhancements: Installs bundler 4.0.16 as a default gem. Bug fixes: Skip the make job server when using BSD make. Pull request #9676 by flavorjones",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
     {
       "title": "SDK-3.14.0-8.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-8.0.dev",
@@ -84,6 +100,14 @@
       "preview": "43.257.1 (2026-07-10) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.2 (main) ( #44467 ) ( 619b832 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.6 (main) ( #44466 ) ( cc6752c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "4.0.16 Released",
+      "url": "https://blog.rubygems.org/2026/07/10/4.0.16-released.html",
+      "published": "2026-07-10T00:00:00Z",
+      "preview": "RubyGems 4.0.16 includes enhancements and bug fixes and Bundler 4.0.16 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.16 RubyGems Release Notes Enhancements: Installs bundler 4.0.16 as a default gem. Bug fixes: Skip the make job server when using BSD make. Pull request #9676 by flavorjones Bundler Release Notes Enhancements: Bundler: Fix Bundler::Fetcher for PQC support, adding integration connection tests. Pull requ",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
     },
     {
       "title": "43.257.0",
