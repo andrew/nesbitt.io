@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-10T11:20:41Z",
-  "cutoff": "2026-06-10T11:20:37Z",
+  "generated": "2026-07-10T13:02:13Z",
+  "cutoff": "2026-06-10T13:02:09Z",
   "feed_count": 79,
   "item_count": 211,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 10.34.5",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.5",
+      "published": "2026-07-10T11:39:29Z",
+      "preview": "Patch Changes 78e29fe : Prevent a crafted pnpm-lock.yaml from writing package content outside the virtual store. A dependency path key whose name reconstructs to a path-traversal sequence (e.g. ../../../tmp/x@1.0.0 ) is now rejected by the isolated (virtual-store) linker and the Plug'n'Play resolver map, matching the containment already applied to the hoisted linker. Under the global virtual store, a traversal in the version-derived path segment (e.g. a snapshot version: \"../../x\" ) is now rejected at iterateHashedGraphNodes , the single point every global-virtual-store slot path funnels throu",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "43.257.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.5",
@@ -1609,14 +1617,6 @@
       "title": "pnpm 11.5.3",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.3",
       "published": "2026-06-11T17:03:19Z",
-      "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 10.34.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.2",
-      "published": "2026-06-11T17:01:53Z",
       "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
       "source": "pnpm releases",
       "category": "JavaScript"
