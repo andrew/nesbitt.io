@@ -7,6 +7,7 @@ tags:
   - package-managers
   - dependencies
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mqc3k7wsam26"
 ---
 
 Conway's Law says organisations produce systems that copy their own communication structure. Dependency management tooling is part of the system. A resolution strategy is an opinion about how disagreements get settled; a manifest format records who is allowed to depend on whom.
