@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-10T18:49:37Z",
-  "cutoff": "2026-06-10T18:49:33Z",
+  "generated": "2026-07-10T19:52:13Z",
+  "cutoff": "2026-06-10T19:52:09Z",
   "feed_count": 79,
-  "item_count": 211,
+  "item_count": 212,
   "categories": [
     ".NET",
     "C/C++",
@@ -24,8 +24,16 @@
     {
       "title": "v1.3.3",
       "url": "https://github.com/oras-project/oras/releases/tag/v1.3.3",
-      "published": "2026-07-10T18:40:53Z",
-      "preview": "v1.3.3",
+      "published": "2026-07-10T19:31:11Z",
+      "preview": "ORAS CLI v1.3.3 is a maintenance release focused on security hardening, dependency updates, and a few user-facing improvements to oras attach . Highlights 🔒 Security: upgraded oras-go to v2.6.2 , which addresses a tar-extraction path-traversal advisory ( GHSA-fxhp-mv3v-67qp ) affecting hardlink entries during pull /extract. ✨ oras attach gains --config support, and --annotation $config:* values now flow through to the packed manifest. 🛡️ Supply-chain hardening: GitHub Actions are now pinned to commit SHAs, SBOMs are attached to release artifacts, and static security scanning (gosec) runs in CI",
+      "source": "ORAS releases",
+      "category": "Containers"
+    },
+    {
+      "title": "untagged-82326db59e6888e8f3fd: bump: tag and release ORAS CLI v1.3.3 (#2082)",
+      "url": "https://github.com/oras-project/oras/releases/tag/untagged-82326db59e6888e8f3fd",
+      "published": "2026-07-10T18:27:45Z",
+      "preview": "Signed-off-by: Terry Howe terrylhowe@gmail.com",
       "source": "ORAS releases",
       "category": "Containers"
     },
