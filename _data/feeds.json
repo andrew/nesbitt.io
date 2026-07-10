@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-10T16:07:49Z",
-  "cutoff": "2026-06-10T16:07:45Z",
+  "generated": "2026-07-10T17:56:26Z",
+  "cutoff": "2026-06-10T17:56:23Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -21,6 +21,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "libnpmpack: v10.0.1",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.1",
+      "published": "2026-07-10T17:18:55Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.1",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v8.0.1",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.1",
+      "published": "2026-07-10T17:18:54Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.1",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v11.0.1",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.1",
+      "published": "2026-07-10T17:18:53Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.1",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmdiff: v9.0.1",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v9.0.1",
+      "published": "2026-07-10T17:18:52Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.1",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "arborist: v10.0.1",
+      "url": "https://github.com/npm/cli/releases/tag/arborist-v10.0.1",
+      "published": "2026-07-10T17:18:51Z",
+      "preview": "10.0.1 (2026-07-10) Bug Fixes 47fc8b1 #9740 correct bundled sigstore from dev dependency conflict ( #9740 ) ( @james-pre )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.0.1",
+      "url": "https://github.com/npm/cli/releases/tag/v12.0.1",
+      "published": "2026-07-10T17:18:50Z",
+      "preview": "12.0.1 (2026-07-10) Bug Fixes ecb02a8 #9745 view: avoid wrapping array results ( #9745 ) ( @reggi , @martinrrm , @Copilot) 47fc8b1 #9740 correct bundled sigstore from dev dependency conflict ( #9740 ) ( @james-pre ) Dependencies workspace : @npmcli/arborist@10.0.1 workspace : libnpmdiff@9.0.1 workspace : libnpmexec@11.0.1 workspace : libnpmfund@8.0.1 workspace : libnpmpack@10.0.1",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
     {
       "title": "pnpm 10.34.5",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.5",
@@ -68,6 +116,14 @@
       "preview": "Enhancements: Installs bundler 4.0.16 as a default gem. Bug fixes: Skip the make job server when using BSD make. Pull request #9676 by flavorjones",
       "source": "RubyGems releases",
       "category": "Ruby"
+    },
+    {
+      "title": "v9.7.0-M3",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0-M3",
+      "published": "2026-07-10T03:02:41Z",
+      "preview": "Prepare release notes for Gradle 9.7.0RC1 ( #38479 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "SDK-3.14.0-8.0.dev",
@@ -354,54 +410,6 @@
       "url": "https://github.com/npm/cli/releases/tag/libnpmteam-v9.0.0",
       "published": "2026-07-08T21:21:41Z",
       "preview": "9.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmsearch: v10.0.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmsearch-v10.0.0",
-      "published": "2026-07-08T21:21:40Z",
-      "preview": "10.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmpublish: v12.0.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpublish-v12.0.0",
-      "published": "2026-07-08T21:21:39Z",
-      "preview": "12.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 opts.access now defaults to null instead of 'public' . With null , libnpmpublish no longer sets an explicit access level in the publish payload, so new scoped packages are created as restricted (registry default) and republishes preserve the existing access level. Callers that want to force public access must now pass access: 'public' explicitly. Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmpack: v10.0.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.0",
-      "published": "2026-07-08T21:21:38Z",
-      "preview": "10.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm pack and npm publish now error when a package's overrides apply to one or more of its bundled packages (bundledDependencies / bundleDependencies). Defining both fields is still allowed as long as no override actually targets a bundled package. To resolve the error, remove the affected entries from either overrides or the bundle. npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 allow-git and allow-remote now default to \"none\"; set them to \"all\" (or \"root\") to install git or user-supplied tarball-URL dependencies. Features 5b83698 #9737 trigger r",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmorg: v9.0.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmorg-v9.0.0",
-      "published": "2026-07-08T21:21:37Z",
-      "preview": "9.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmfund: v8.0.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.0",
-      "published": "2026-07-08T21:21:36Z",
-      "preview": "8.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi ) Dependencies workspace : @npmcli/arborist@10.0.0",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmexec: v11.0.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.0",
-      "published": "2026-07-08T21:21:35Z",
-      "preview": "11.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi ) Dependencies workspace : @npmcli/arborist@10.0.0",
       "source": "npm CLI releases",
       "category": "JavaScript"
     },
@@ -1692,14 +1700,6 @@
       "preview": "pnpm 11.6 adds a file-free way to supply registry authentication through npmconfig//… and pnpmconfig//… environment variables, raises the default network concurrency, and skips full re-resolution when only pnpm-lock.yaml is missing. It also infers platform fields for optional dependencies so foreign-platform binaries are never downloaded.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "0.11.20",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.20",
-      "published": "2026-06-10T17:21:19Z",
-      "preview": "Release Notes Released on 2026-06-10. Enhancements Add --emit-index-url and --emit-find-links to uv export ( #18370 ) Add --find-links support for uv pip list ( #16103 ) Group executable install errors during uv python install ( #19691 ) Use ICF in macOS release builds to reduce binary sizes ( #19615 ) Preview features Add initial hidden uv upgrade command ( #19678 ) Reject Git revisions in uv upgrade ( #19742 ) Configuration Recognize UV_NO_INSTALL_PROJECT , UV_NO_INSTALL_WORKSPACE , UV_NO_INSTALL_LOCAL ( #19323 ) Performance Speed up discovery of large workspaces ( #18311 ) Bug fixes Allow u",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
