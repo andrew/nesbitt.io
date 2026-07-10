@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-10T05:43:35Z",
-  "cutoff": "2026-06-10T05:43:30Z",
+  "generated": "2026-07-10T07:30:49Z",
+  "cutoff": "2026-06-10T07:30:45Z",
   "feed_count": 79,
   "item_count": 212,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.257.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.3",
+      "published": "2026-07-10T06:49:06Z",
+      "preview": "43.257.3 (2026-07-10) Bug Fixes custom/jsonata: support autoReplaceStringTemplate ( #43535 ) ( 198a4a7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "bundler-v4.0.16",
       "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.16",
@@ -596,14 +604,6 @@
       "preview": "This is the next post in our supply chain security series, following the supply chain security update and the Composer 2.10 release . Each post in this series covers a specific behavior worth understanding, and a change we are making on top of it. Today: Stable version metadata on Packagist.",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "43.255.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.255.0",
-      "published": "2026-07-07T13:24:46Z",
-      "preview": "43.255.0 (2026-07-07) Features replacements: corentinmusard/otel-cicd-action transferred to dash0hq ( #44386 ) ( c759c30 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pixi-build-cmake-v0.4.4",
