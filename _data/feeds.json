@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T08:56:21Z",
-  "cutoff": "2026-06-11T08:56:18Z",
+  "generated": "2026-07-11T09:50:29Z",
+  "cutoff": "2026-06-11T09:50:25Z",
   "feed_count": 79,
   "item_count": 207,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v11.12.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.12.0",
+      "published": "2026-07-11T09:34:48Z",
+      "preview": "v11.12.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "43.258.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.258.0",
@@ -1641,14 +1649,6 @@
       "title": "pnpm 10.34.3",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.3",
       "published": "2026-06-11T17:04:59Z",
-      "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 11.5.3",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.5.3",
-      "published": "2026-06-11T17:03:19Z",
       "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
       "source": "pnpm releases",
       "category": "JavaScript"
