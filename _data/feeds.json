@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T03:28:37Z",
-  "cutoff": "2026-06-11T03:28:32Z",
+  "generated": "2026-07-11T07:02:29Z",
+  "cutoff": "2026-06-11T07:02:25Z",
   "feed_count": 79,
   "item_count": 209,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.258.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.258.0",
+      "published": "2026-07-11T06:16:36Z",
+      "preview": "43.258.0 (2026-07-11) Features bitbucket: add draft PRs support ( #43965 ) ( a602d16 ) monorepo: graphql-platform monorepo ( #44409 ) ( bcc71ca ) Bug Fixes npm: allow rename when replacement value is unchanged ( #44486 ) ( d3cbca9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.257.9",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.9",
@@ -284,14 +292,6 @@
       "preview": "RubyGems 4.0.16 includes enhancements and bug fixes and Bundler 4.0.16 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.16 RubyGems Release Notes Enhancements: Installs bundler 4.0.16 as a default gem. Bug fixes: Skip the make job server when using BSD make. Pull request #9676 by flavorjones Bundler Release Notes Enhancements: Bundler: Fix Bundler::Fetcher for PQC support, adding integration connection tests. Pull requ",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "43.257.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.0",
-      "published": "2026-07-09T23:44:34Z",
-      "preview": "43.257.0 (2026-07-09) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.2 (main) ( #44463 ) ( 7e1122f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.5.1",
