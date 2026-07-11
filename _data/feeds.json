@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T00:53:21Z",
-  "cutoff": "2026-06-11T00:53:09Z",
+  "generated": "2026-07-11T02:01:13Z",
+  "cutoff": "2026-06-11T02:01:08Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.257.8",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.8",
+      "published": "2026-07-11T01:51:53Z",
+      "preview": "43.257.8 (2026-07-11) Miscellaneous Chores deps: update slackapi/slack-github-action action to v3.0.4 (main) ( #44487 ) ( cf22314 ) Build System deps: update dependency protobufjs to v8.6.6 (main) ( #44488 ) ( 06863ce )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-9.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-9.0.dev",
@@ -364,14 +372,6 @@
       "preview": "This is the release of opam 2.5.2. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for more details and the upgrade instructions. Changelog : Security fix Fix a bug that allowed a package to install files anywhere on the system using a symlink to an external directory without warning the user and asking for their",
       "source": "opam releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.256.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.256.2",
-      "published": "2026-07-09T15:29:14Z",
-      "preview": "43.256.2 (2026-07-09) Miscellaneous Chores deps: update dependency markdownlint-cli2 to v0.23.0 (main) ( #44439 ) ( aea2d02 ) deps: update github/codeql-action action to v4.37.0 (main) ( #44440 ) ( 8f68bd6 ) Build System deps: update dependency @renovatebot/osv-offline to v3.0.8 (main) ( #44447 ) ( 1a93ad6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.7.4: Bootstrap goes stable",
