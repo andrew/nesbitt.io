@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T09:50:29Z",
-  "cutoff": "2026-06-11T09:50:25Z",
+  "generated": "2026-07-11T11:36:19Z",
+  "cutoff": "2026-06-11T11:36:16Z",
   "feed_count": 79,
   "item_count": 207,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.258.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.258.1",
+      "published": "2026-07-11T11:02:21Z",
+      "preview": "43.258.1 (2026-07-11) Bug Fixes platform/gitlab: guard non-string error message in setBranchStatus ( #44117 ) ( 0019a19 ) Miscellaneous Chores deps: update slackapi/slack-github-action action to v3.0.5 (main) ( #44493 ) ( 51bd40b ) fix best-practices.md path in AGENTS.md ( #44490 ) ( d9e850d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v11.12.0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.12.0",
@@ -282,14 +290,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.2",
       "published": "2026-07-10T00:29:51Z",
       "preview": "43.257.2 (2026-07-10) Build System deps: update opentelemetry-js monorepo (main) ( #44468 ) ( d8e4060 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.257.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.1",
-      "published": "2026-07-10T00:12:36Z",
-      "preview": "43.257.1 (2026-07-10) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.2 (main) ( #44467 ) ( 619b832 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.6 (main) ( #44466 ) ( cc6752c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
