@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-11T15:37:04Z",
-  "cutoff": "2026-06-11T15:37:01Z",
+  "generated": "2026-07-11T16:36:17Z",
+  "cutoff": "2026-06-11T16:36:12Z",
   "feed_count": 79,
-  "item_count": 206,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -1659,14 +1659,6 @@
       "published": "2026-06-11T17:04:59Z",
       "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
       "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v2.8.3",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.8.3",
-      "published": "2026-06-11T15:57:47Z",
-      "preview": "2.8.3 / 2026.06.11 feat(cli): suggest DENO_TLS_CA_STORE on untrusted TLS certificate ( #34756 ) feat(cli): support --env-file in dependency and registry subcommands ( #34843 ) feat(compile): support watch mode ( #34860 ) feat(config): support globs in links ( #34849 ) feat(ext/crypto): implement SubtleCrypto.supports() static method ( #34903 ) feat(ext/crypto): support ML-DSA JWK import/export ( #34914 ) feat(ext/fetch): support priority in RequestInit ( #34716 ) feat(ext/node): auto-instrument node:http2 with OpenTelemetry ( #34510 ) feat(ext/node): notify control socket when node:http server",
-      "source": "Deno releases",
       "category": "JavaScript"
     }
   ]
