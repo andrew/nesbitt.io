@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-11T17:39:15Z",
-  "cutoff": "2026-06-11T17:39:10Z",
+  "generated": "2026-07-11T18:36:41Z",
+  "cutoff": "2026-06-11T18:36:38Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -1644,14 +1644,6 @@
       "preview": "Minor Changes ddf993c : Adopt @verdaccio/server and drop the local api/web/storage forks. A thin Storage wrapper is kept to support legacy callback-based storage plugins, and the unused helpers in src/lib/utils.ts were removed.",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "0.11.21",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.21",
-      "published": "2026-06-11T18:20:26Z",
-      "preview": "Release Notes Released on 2026-06-11. Python Add CPython 3.13.14 and 3.14.6 ( #19787 ) Preview features Add environment.root to uv workspace metadata --sync ( #19760 ) Allow uv upgrade to update a single dependency constraint ( #19738 ) Compute and pass uv workspace metadata payload in ty check ( #19763 ) Make packaged applications the default for uv init ( #17841 ) Performance Add parallel discovery of Python versions for uv python list ( #18684 ) Avoid normalizing source distribution names twice ( #19784 ) Bug fixes Improve cache robustness and pruning behavior Allow CI cache pruning without",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
