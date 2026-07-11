@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-11T16:36:17Z",
-  "cutoff": "2026-06-11T16:36:12Z",
+  "generated": "2026-07-11T17:39:15Z",
+  "cutoff": "2026-06-11T17:39:10Z",
   "feed_count": 79,
-  "item_count": 205,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.259.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.259.2",
+      "published": "2026-07-11T16:49:27Z",
+      "preview": "43.259.2 (2026-07-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.6 (main) ( #44499 ) ( efd982f ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.9 (main) ( #44495 ) ( 016ca59 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.259.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.259.1",
@@ -234,14 +242,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.5",
       "published": "2026-07-10T09:54:54Z",
       "preview": "43.257.5 (2026-07-10) Build System deps: update opentelemetry-js-contrib monorepo (main) ( #44475 ) ( cc2a9e5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.257.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.4",
-      "published": "2026-07-10T07:52:50Z",
-      "preview": "43.257.4 (2026-07-10) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.3 (main) ( #44472 ) ( 789458d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1652,14 +1652,6 @@
       "preview": "Release Notes Released on 2026-06-11. Python Add CPython 3.13.14 and 3.14.6 ( #19787 ) Preview features Add environment.root to uv workspace metadata --sync ( #19760 ) Allow uv upgrade to update a single dependency constraint ( #19738 ) Compute and pass uv workspace metadata payload in ty check ( #19763 ) Make packaged applications the default for uv init ( #17841 ) Performance Add parallel discovery of Python versions for uv python list ( #18684 ) Avoid normalizing source distribution names twice ( #19784 ) Bug fixes Improve cache robustness and pruning behavior Allow CI cache pruning without",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 10.34.3",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.3",
-      "published": "2026-06-11T17:04:59Z",
-      "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     }
   ]
 }
