@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-11T12:38:40Z",
-  "cutoff": "2026-06-11T12:38:36Z",
+  "generated": "2026-07-11T13:52:53Z",
+  "cutoff": "2026-06-11T13:52:50Z",
   "feed_count": 79,
-  "item_count": 207,
+  "item_count": 206,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v7.0.0-next-7.23",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.23",
+      "published": "2026-07-11T12:39:21Z",
+      "preview": "Patch Changes a768d16 : chore: replace eslint and prettier with oxlint and oxfmt",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "43.259.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.259.0",
@@ -1660,22 +1668,6 @@
       "preview": "2.8.3 / 2026.06.11 feat(cli): suggest DENO_TLS_CA_STORE on untrusted TLS certificate ( #34756 ) feat(cli): support --env-file in dependency and registry subcommands ( #34843 ) feat(compile): support watch mode ( #34860 ) feat(config): support globs in links ( #34849 ) feat(ext/crypto): implement SubtleCrypto.supports() static method ( #34903 ) feat(ext/crypto): support ML-DSA JWK import/export ( #34914 ) feat(ext/fetch): support priority in RequestInit ( #34716 ) feat(ext/node): auto-instrument node:http2 with OpenTelemetry ( #34510 ) feat(ext/node): notify control socket when node:http server",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "9.6.0 RC2",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0-RC2",
-      "published": "2026-06-11T13:44:04Z",
-      "preview": "The Gradle team is excited to announce Gradle 9.6.0 RC2. Here are the highlights of this release: Improved Configuration Cache hit rates Additional CLI rendering options Important project hierarchy lookup deprecations Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aharnish Solanki , Benedikt Johannes , Devendra Reddy Pennabadi , Dmytro Rodionov , Dreeam , Elías Hernández Rodríguez , Eng Zer Jun , FinlayRJW , Kamal Kansal , Marcono1234 , Nelson Osacky , Philip Wedemann , Ravi , Roberto Perez Alcolea , Ryan Schmitt",
-      "source": "Gradle releases",
-      "category": "Maven"
-    },
-    {
-      "title": "6.0.0",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.0",
-      "published": "2026-06-11T13:13:47Z",
-      "preview": "What's Changed services: fix not loading with --sudo-service-user by @sexagesimal in #22500 livecheck/strategy: convert Version to String by @botantony in #22526 brew bundle dump trusted bundle entries by @MikeMcQuaid in #22528 pathname: accept Pathname in write_env_script method by @botantony in #22529 docs: link to Tap-Trust from index by @scpeters in #22533 Block worktree updates by @MikeMcQuaid in #22525 Handle untrusted bundle formulae by @MikeMcQuaid in #22527 test: use language-specific heredoc delimiters by @botantony in #22536 pathname: change env_script_all_files type by @botantony i",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
