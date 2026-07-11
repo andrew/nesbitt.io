@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-11T02:01:13Z",
-  "cutoff": "2026-06-11T02:01:08Z",
+  "generated": "2026-07-11T03:28:37Z",
+  "cutoff": "2026-06-11T03:28:32Z",
   "feed_count": 79,
-  "item_count": 210,
+  "item_count": 209,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.257.9",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.9",
+      "published": "2026-07-11T03:03:54Z",
+      "preview": "43.257.9 (2026-07-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.5 (main) ( #44492 ) ( c5c1c40 ) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.6.6 (main) ( #44489 ) ( d60e33b ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.8 (main) ( #44491 ) ( 6597662 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.257.8",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.8",
@@ -292,14 +300,6 @@
       "preview": "Enhancements Add ignore_advisories and ignore_retirements configs to acknowledge security advisories and package retirements. Configure them in the mix.exs :hex block ( ignore_advisories: [\"CVE-2026-32686\"] , ignore_retirements: [:decimal, phoenix: \"1.0.0\"] ) or with the HEX_IGNORE_ADVISORIES and HEX_IGNORE_RETIREMENTS environment variables. An advisory can be ignored by any of its aliased identifiers (for example the GHSA alias of a CVE). mix hex.audit lists ignored findings in separate sections without failing and warns about entries that no longer match anything, and mix deps.get / mix deps",
       "source": "Hex releases",
       "category": "Elixir"
-    },
-    {
-      "title": "43.256.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.256.3",
-      "published": "2026-07-09T21:54:05Z",
-      "preview": "43.256.3 (2026-07-09) Bug Fixes datasource/puppet-forge: filter out deleted forge releases so that they don't count as updates anymore ( #43906 ) ( 54407b6 ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.71.9 (main) ( #44454 ) ( cca3cb9 ) Build System deps: update opentelemetry-js monorepo (main) ( #44462 ) ( 7682933 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Helm v3.21.3",
@@ -1692,14 +1692,6 @@
       "preview": "Deployment at 2026-06-11T08:23:11.439122Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "2.0.0-RC16",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0-RC16",
-      "published": "2026-06-11T03:11:52Z",
-      "preview": "🐛 bug fixes fix: Fixes packageDirectory zip publication race by @bitloi in #9047 fix: Fixes chunked upload/download by @eed3si9n in #9318 fix: Fixes console / javaOptions + console / forked by default by @eed3si9n in #9322 Full Changelog : v2.0.0-RC15...v2.0.0-RC16",
-      "source": "sbt releases",
-      "category": "Maven"
     }
   ]
 }
