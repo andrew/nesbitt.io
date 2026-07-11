@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T18:36:41Z",
-  "cutoff": "2026-06-11T18:36:38Z",
+  "generated": "2026-07-11T21:34:37Z",
+  "cutoff": "2026-06-11T21:34:33Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12 Alpha 8",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.8",
+      "published": "2026-07-11T21:15:43Z",
+      "preview": "fix(pacquet): close CLI gaps that broke the pnpm release workflow ( #1… …2944 ) * fix(pacquet): close CLI gaps that broke the pnpm release workflow The v11.12.0 release workflow failed because bundle-deps.ts invokes pnpm --config.inject-workspace-packages=true --config.node-linker=hoisted \\ --ignore-scripts --force --filter=pnpm --prod deploy <dir> and pacquet's clap-based CLI rejected --ignore-scripts ahead of the subcommand. Running the whole release.yml sequence locally against a fresh build surfaced five gaps, all fixed here: - Accept options anywhere on the command line. nopt parses posit",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.12",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.12.0",
+      "published": "2026-07-11T21:15:22Z",
+      "preview": "Minor Changes a897ef7 : Custom fetchers exported from a pnpmfile can now delegate by returning a { delegate: <resolution> } envelope: pnpm rewrites the package's resolution to the delegated shape and runs the built-in fetcher on it. This is the portable delegation form that also works in pacquet, where cafs and fetchers cannot be passed to the hook. Related to pnpm/pnpm#11685 . Patch Changes 2b02764 : The changed-packages filter ( --filter \"...[<since>]\" ) no longer allows an option-like <since> value (such as --output=<path> ) to be interpreted as a git option — git now rejects it as a bad re",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "43.259.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.259.2",
@@ -60,14 +76,6 @@
       "preview": "43.258.1 (2026-07-11) Bug Fixes platform/gitlab: guard non-string error message in setBranchStatus ( #44117 ) ( 0019a19 ) Miscellaneous Chores deps: update slackapi/slack-github-action action to v3.0.5 (main) ( #44493 ) ( 51bd40b ) fix best-practices.md path in AGENTS.md ( #44490 ) ( d9e850d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v11.12.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.12.0",
-      "published": "2026-07-11T09:34:48Z",
-      "preview": "v11.12.0",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "43.258.0",
@@ -1635,14 +1643,6 @@
       "published": "2026-06-11T23:10:00Z",
       "preview": "⚠️ Security fix — environment variables in a project .npmrc (action may be required) Following GHSA-3qhv-2rgh-x77r , pnpm no longer expands ${ENV_VAR} placeholders that come from a repository-controlled config file, because a malicious repository could otherwise use them to leak your environment secrets (npm tokens, CI job tokens, etc.) to an attacker-controlled registry during install. This applies to: the project/workspace .npmrc — registry , @scope:registry , proxy URLs, URL-scoped keys ( //host/… ), and credential values ( _authToken , _auth , _password , username , tokenHelper , cert , ke",
       "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v7.0.0-next-7.21",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.21",
-      "published": "2026-06-11T20:52:43Z",
-      "preview": "Minor Changes ddf993c : Adopt @verdaccio/server and drop the local api/web/storage forks. A thin Storage wrapper is kept to support legacy callback-based storage plugins, and the unused helpers in src/lib/utils.ts were removed.",
-      "source": "Verdaccio releases",
       "category": "JavaScript"
     }
   ]
