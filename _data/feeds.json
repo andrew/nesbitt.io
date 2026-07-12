@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-12T17:39:37Z",
-  "cutoff": "2026-06-12T17:39:33Z",
+  "generated": "2026-07-12T18:37:38Z",
+  "cutoff": "2026-06-12T18:37:33Z",
   "feed_count": 79,
-  "item_count": 195,
+  "item_count": 193,
   "categories": [
     ".NET",
     "C/C++",
@@ -1562,22 +1562,6 @@
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.0-rc.1",
       "published": "2026-06-12T18:43:50Z",
       "preview": "29.6.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.0 milestone moby/moby, 29.6.0 milestone New Add GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Clients can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-t",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v5.8.3",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.3",
-      "published": "2026-06-12T17:58:07Z",
-      "preview": "Security This release addresses CVE-2026-44517 , where building a Dockerfile using a ADD or COPY instruction accessing a malicious Git repository or tar archive could cause files outside the build context directory to be included in the build context or copied into the build. Please see GHSA-49p4-px3h-rq49 for more details. Misc Updated Buildah to v1.43.2 Updated gvisor-tap-vsock to v0.8.9",
-      "source": "Podman releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.0.0-beta.17",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.17",
-      "published": "2026-06-12T17:56:08Z",
-      "preview": "v2.0.0-beta.17",
       "source": "Docker Engine releases",
       "category": "Containers"
     }
