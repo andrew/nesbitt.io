@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-12T19:42:48Z",
-  "cutoff": "2026-06-12T19:42:44Z",
+  "generated": "2026-07-12T20:32:44Z",
+  "cutoff": "2026-06-12T20:32:41Z",
   "feed_count": 79,
-  "item_count": 192,
+  "item_count": 191,
   "categories": [
     ".NET",
     "C/C++",
@@ -1548,14 +1548,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-11-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "v6.0.0-RC1",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.0-rc1",
-      "published": "2026-06-12T19:48:42Z",
-      "preview": "Breaking Changes Due to breaking changes in this release, Podman v6.0.0 must be used with Buildah v1.44.0, Skopeo v1.23, Netavark and Aardvark v2.0.0, and configuration files from the container-libs repository's common/v0.68.0 release. Support for BoltDB databases has been dropped. Starting Podman 6 when the BoltDB database is in use will have Podman attempt an automatic migration from SQLite to BoltDB. Support for running on Intel Macs has been removed. Support for running on Windows 10 has been removed. Support for running on cgroups v1 systems has been removed. Please update your system to ",
-      "source": "Podman releases",
-      "category": "Containers"
     }
   ]
 }
