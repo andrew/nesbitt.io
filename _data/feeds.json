@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-12T22:33:23Z",
-  "cutoff": "2026-06-12T22:33:19Z",
+  "generated": "2026-07-12T23:36:49Z",
+  "cutoff": "2026-06-12T23:36:45Z",
   "feed_count": 79,
   "item_count": 192,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.260.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.260.2",
+      "published": "2026-07-12T22:50:45Z",
+      "preview": "43.260.2 (2026-07-12) Build System deps: update dependency @renovatebot/detect-tools to v4.0.10 (main) ( #44391 ) ( d164e7a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.260.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.260.1",
@@ -162,14 +170,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.9",
       "published": "2026-07-11T03:03:54Z",
       "preview": "43.257.9 (2026-07-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.5 (main) ( #44492 ) ( c5c1c40 ) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.6.6 (main) ( #44489 ) ( d60e33b ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.8 (main) ( #44491 ) ( 6597662 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.257.8",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.8",
-      "published": "2026-07-11T01:51:53Z",
-      "preview": "43.257.8 (2026-07-11) Miscellaneous Chores deps: update slackapi/slack-github-action action to v3.0.4 (main) ( #44487 ) ( cf22314 ) Build System deps: update dependency protobufjs to v8.6.6 (main) ( #44488 ) ( 06863ce )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
