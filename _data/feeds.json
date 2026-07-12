@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-12T03:29:08Z",
-  "cutoff": "2026-06-12T03:29:05Z",
+  "generated": "2026-07-12T10:47:51Z",
+  "cutoff": "2026-06-12T10:47:48Z",
   "feed_count": 79,
-  "item_count": 200,
+  "item_count": 199,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.259.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.259.3",
+      "published": "2026-07-12T10:06:20Z",
+      "preview": "43.259.3 (2026-07-12) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.7 (main) ( #44511 ) ( ef9cb1a ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.12 (main) ( #44508 ) ( d5482ba ) deps: update dependency pnpm to v11.10.0 (main) ( #44504 ) ( c78e40e ) deps: update dependency type-fest to v5.8.0 (main) ( #44506 ) ( 9d73c4e ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.10 (main) ( #44509 ) ( 821e66e ) Build System deps: update dependency @renovatebot/pgp to v1.3.15 (main) ( #44510 ) ( af3ec94 ) deps: ",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-18.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-18.0.dev",
@@ -276,14 +284,6 @@
       "preview": "Patch Changes 78e29fe : Prevent a crafted pnpm-lock.yaml from writing package content outside the virtual store. A dependency path key whose name reconstructs to a path-traversal sequence (e.g. ../../../tmp/x@1.0.0 ) is now rejected by the isolated (virtual-store) linker and the Plug'n'Play resolver map, matching the containment already applied to the hoisted linker. Under the global virtual store, a traversal in the version-derived path segment (e.g. a snapshot version: \"../../x\" ) is now rejected at iterateHashedGraphNodes , the single point every global-virtual-store slot path funnels throu",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.257.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.5",
-      "published": "2026-07-10T09:54:54Z",
-      "preview": "43.257.5 (2026-07-10) Build System deps: update opentelemetry-js-contrib monorepo (main) ( #44475 ) ( cc2a9e5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "bundler-v4.0.16",
@@ -1612,14 +1612,6 @@
       "preview": "Bugfix: Handle special case where only one possible option is defined for shared. ( #20082 )",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "Restricting Composer plugins across your organization",
-      "url": "https://blog.packagist.com/restricting-composer-plugins-across-your-organization/",
-      "published": "2026-06-12T10:42:21Z",
-      "preview": "This is the next post in our supply chain security series, following the supply chain security update , the Composer 2.10 release , closing Composer&apos;s download fallback paths , blocking malware downloads for every Composer version , and enforcing a safe Composer version across your organization . Composer plugins are a powerful",
-      "source": "Packagist Blog",
-      "category": "PHP"
     }
   ]
 }
