@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-12T16:36:31Z",
-  "cutoff": "2026-06-12T16:36:27Z",
+  "generated": "2026-07-12T17:39:37Z",
+  "cutoff": "2026-06-12T17:39:33Z",
   "feed_count": 79,
-  "item_count": 196,
+  "item_count": 195,
   "categories": [
     ".NET",
     "C/C++",
@@ -1578,14 +1578,6 @@
       "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.17",
       "published": "2026-06-12T17:56:08Z",
       "preview": "v2.0.0-beta.17",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "client/v0.5.0-rc.1",
-      "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.5.0-rc.1",
-      "published": "2026-06-12T16:53:15Z",
-      "preview": "0.5.0-rc.1 Changelog The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636",
       "source": "Docker Engine releases",
       "category": "Containers"
     }
