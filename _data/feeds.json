@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-13T17:02:25Z",
-  "cutoff": "2026-06-13T17:02:21Z",
+  "generated": "2026-07-13T18:51:04Z",
+  "cutoff": "2026-06-13T18:50:59Z",
   "feed_count": 79,
   "item_count": 195,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.261.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.261.3",
+      "published": "2026-07-13T18:34:01Z",
+      "preview": "43.261.3 (2026-07-13) Bug Fixes avoid proposing replacements when the new dependency already exists ( #40149 ) ( 3032c96 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.261.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.261.2",
@@ -218,14 +226,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.259.2",
       "published": "2026-07-11T16:49:27Z",
       "preview": "43.259.2 (2026-07-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.6 (main) ( #44499 ) ( efd982f ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.9 (main) ( #44495 ) ( 016ca59 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.259.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.259.1",
-      "published": "2026-07-11T15:25:49Z",
-      "preview": "43.259.1 (2026-07-11) Bug Fixes stats: avoid max argument overflow ( #44494 ) ( e77f3d1 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
