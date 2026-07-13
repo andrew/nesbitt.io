@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-13T20:41:06Z",
-  "cutoff": "2026-06-13T20:40:54Z",
+  "generated": "2026-07-13T21:36:40Z",
+  "cutoff": "2026-06-13T21:36:35Z",
   "feed_count": 79,
-  "item_count": 196,
+  "item_count": 198,
   "categories": [
     ".NET",
     "C/C++",
@@ -24,9 +24,25 @@
     {
       "title": "v11.13.0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.13.0",
-      "published": "2026-07-13T20:19:21Z",
+      "published": "2026-07-13T21:24:30Z",
       "preview": "v11.13.0",
       "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2026-07-13 Release",
+      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-13",
+      "published": "2026-07-13T21:03:04Z",
+      "preview": "What's Changed Fix collide on shared .partial extraction directory on POSIX by @Erik-White in #2036 Sanitize DESTDIR on non-Windows platforms by @BillyONeal in #2039 Update NPM dependencies. by @BillyONeal in #2047 Support CURL_CA_BUNDLE like the curl command line tool by @Matus-p in #2042 [curl] Add VCPKG_SSL_REVOKE_BEST_EFFORT to fix Schannel proxy revocation errors by @sdn9002 in #2043 Change GITHUB_SERVER_URL to GITHUB_API_URL to allow submission of dependency graph data again by @rwindegger in #2056 [z-applocal] Only log dependency deployment details with --verbose by @ricardoofnl in #205",
+      "source": "vcpkg releases",
+      "category": "C/C++"
+    },
+    {
+      "title": "v6.8.0",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.8.0",
+      "published": "2026-07-13T20:50:22Z",
+      "preview": "Minor Changes 962fba8 : feat: add unpublish notification hooks Port of #5920 (ref #5328 ). The notify webhook now also fires when a package is unpublished entirely and when a single version (tarball) is removed, not only on publish. Notification templates can distinguish the event through the new {{ publishType }} ( publish | unpublish ) and {{ publishedPackage }} variables, and the {{ publisher }} object exposes only name , groups and real_groups , so the remote user auth token can never leak to the notification endpoint (via @verdaccio/hooks 8.0.4). Patch Changes f0684dc : fix: return 403 to",
+      "source": "Verdaccio releases",
       "category": "JavaScript"
     },
     {
