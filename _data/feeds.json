@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-13T00:57:52Z",
-  "cutoff": "2026-06-13T00:57:48Z",
+  "generated": "2026-07-13T05:31:14Z",
+  "cutoff": "2026-06-13T05:31:10Z",
   "feed_count": 79,
-  "item_count": 192,
+  "item_count": 193,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.0.2",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.2",
+      "published": "2026-07-13T05:13:12Z",
+      "preview": "🐛 bug fixes fix: Fixes remote cache ByteStream timeout by @yhefamly in #9413 fix: Fixes metabuild dependency downgrade via plugin by @anatoliykmetyuk in #9426 fix: Fixes build pipelining by @anatoliykmetyuk in #9425 fix: Fixes auto import of givens by @xuwei-k in #9409 fix: Fixes sbtn stdout relaying by @BrianHotopp in #9411 / #9414 fix: Fixes shutdownall in sbt runner by @eed3si9n in #9435 fix: Fixes attribute string in pom.xml to be deterministic @raboof in sbt/ivy#51 fix: Fixes ivyless publishing of sbt plugins by @anatoliykmetyuk in #9416 updates Deprecate url(...) and Resolver.url(...) in",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-07-13T04:59:45Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "SDK-3.14.0-19.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-19.0.dev",
@@ -460,14 +476,6 @@
       "preview": "The Rust team is happy to announce a new version of Rust, 1.97.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.97.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.97.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-08T23:53:05Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "libnpmversion: v9.0.0",
