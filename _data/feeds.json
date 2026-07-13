@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-13T05:31:14Z",
-  "cutoff": "2026-06-13T05:31:10Z",
+  "generated": "2026-07-13T09:29:46Z",
+  "cutoff": "2026-06-13T09:29:43Z",
   "feed_count": 79,
-  "item_count": 193,
+  "item_count": 194,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-10-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-10-a",
+      "published": "2026-07-13T08:48:01Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-10-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "3.10.0-rc-1",
+      "url": "https://github.com/apache/maven/releases/tag/maven-3.10.0-rc-1",
+      "published": "2026-07-13T08:21:54Z",
+      "preview": "💥 Breaking changes Remove release-profile from super POM ( #11999 ) @slawekjaranowski Remove deprecated plugin management from super POM ( #11986 ) @slawekjaranowski 🚀 New features and improvements Feat: Align Maven 3.10.x and 4.0.x ( #12442 ) @cstamas Feat: Align CP ordering with Maven 4 ( #12327 ) @cstamas Feat: Apply latest Resolver 2.0.19 changes ( #12246 ) @cstamas Feat: Maven 3.10.x super POM ( #12032 ) @cstamas In failed build limit reactor summary to only failed modules ( #11977 ) @slawekjaranowski Add time zone to Maven startup banner ( #11972 ) @slawekjaranowski Feat: Version range f",
+      "source": "Maven releases",
+      "category": "Maven"
+    },
     {
       "title": "2.0.2",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.2",
@@ -44,6 +60,14 @@
       "preview": "SDK 3.14.0-19.0.dev",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "crates.io: development update",
+      "url": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
+      "published": "2026-07-13T00:00:00Z",
+      "preview": "Another six months have passed since our last development update , and the crates.io team has been busy. Here's a summary of the most notable changes and improvements made to crates.io since then. Source Code Viewer Crate pages now have a \"Code\" tab that lets you browse the contents of published crate versions directly on crates.io. This shows you the exact files that cargo downloads when you add a crate as a dependency, which might differ from the linked repository. This makes it much easier to audit your dependencies, including files that never appear in the repository, like the normalized C",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "43.260.2",
@@ -404,14 +428,6 @@
       "preview": "Release vfox 2026.7.10",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "maven-3.10.0-rc-1",
-      "url": "https://github.com/apache/maven/releases/tag/maven-3.10.0-rc-1",
-      "published": "2026-07-09T19:25:37Z",
-      "preview": "[maven-release-plugin] copy for tag maven-3.10.0-rc-1",
-      "source": "Maven releases",
-      "category": "Maven"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-06-a",
@@ -1554,14 +1570,6 @@
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
       "published": "2026-06-13T11:53:20Z",
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-11-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-11-a",
-      "published": "2026-06-13T08:53:33Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-11-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
     }
