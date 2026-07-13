@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-13T11:26:04Z",
-  "cutoff": "2026-06-13T11:26:01Z",
+  "generated": "2026-07-13T13:06:36Z",
+  "cutoff": "2026-06-13T13:06:31Z",
   "feed_count": 79,
   "item_count": 194,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "6.0.10",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.10",
+      "published": "2026-07-13T11:58:34Z",
+      "preview": "What's Changed version/parser: speed up StemParser by @Bo98 in #23007 Send bundle check failures to stderr by @MikeMcQuaid in #23009 Guard release against stale main by @MikeMcQuaid in #23008 dev-cmd/bump-formula-pr: keep failures when downgrade fails by @cho-m in #23006 Skip incompatible cask upgrades by @MikeMcQuaid in #23012 Remove redundant T.let annotations Sorbet can infer by @dduugg in #23013 Avoid generated rmdir for shared file lists by @loganrosen in #22940 docs: escape braces to avoid Liquid tag handling by @cho-m in #23025 Fix test setup crash when multiple package APIs are cached ",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
     {
       "title": "43.260.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.260.3",
@@ -1564,14 +1572,6 @@
       "preview": "bug fixes fix: Fixes console that references Java module classes on JDK 9+ by @BrianHotopp in #9327 fix: Fixes sbt --version to now show JDK warnings on JDK 25 by @bitloi in #8822 fix: Fixes stdout/stderr not displaying on sbtn by @BrianHotopp in #9265 fix: Ensure resources are copied atomically by @anatoliykmetyuk in #9196 behind the scenes Update sbtn to 2.0.0-f0d2fae4 by @eed3si9n in #9334 test: Make custom-scala-org scripted test hermetic by @BrianHotopp in #9260 ci: Skip 2.13 modules from graph submission by @eed3si9n in #9328 Full Changelog : v1.12.11...v1.12.12",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
-      "published": "2026-06-13T11:53:20Z",
-      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-06-12-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     }
   ]
 }
