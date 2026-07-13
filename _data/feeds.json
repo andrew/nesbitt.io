@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-13T19:51:16Z",
-  "cutoff": "2026-06-13T19:51:12Z",
+  "generated": "2026-07-13T20:41:06Z",
+  "cutoff": "2026-06-13T20:40:54Z",
   "feed_count": 79,
-  "item_count": 195,
+  "item_count": 196,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v11.13.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.13.0",
+      "published": "2026-07-13T20:19:21Z",
+      "preview": "v11.13.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.35.0",
+      "url": "https://github.com/NixOS/nix/releases/tag/2.35.0",
+      "published": "2026-07-13T20:08:52Z",
+      "preview": "Tagging release 2.35.0",
+      "source": "Nix releases",
+      "category": "System"
+    },
+    {
+      "title": "43.261.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.261.4",
+      "published": "2026-07-13T19:56:09Z",
+      "preview": "43.261.4 (2026-07-13) Build System deps: update dependency @opentelemetry/semantic-conventions to v1.42.0 (main) ( #44539 ) ( 2b992e5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.3.3",
       "url": "https://github.com/oras-project/oras/releases/tag/v1.3.3",
@@ -228,14 +252,6 @@
       "preview": "Minor Changes a897ef7 : Custom fetchers exported from a pnpmfile can now delegate by returning a { delegate: <resolution> } envelope: pnpm rewrites the package's resolution to the delegated shape and runs the built-in fetcher on it. This is the portable delegation form that also works in pacquet, where cafs and fetchers cannot be passed to the hook. Related to pnpm/pnpm#11685 . Patch Changes 2b02764 : The changed-packages filter ( --filter \"...[<since>]\" ) no longer allows an option-like <since> value (such as --output=<path> ) to be interpreted as a git option — git now rejects it as a bad re",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.259.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.259.2",
-      "published": "2026-07-11T16:49:27Z",
-      "preview": "43.259.2 (2026-07-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.6 (main) ( #44499 ) ( efd982f ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.9 (main) ( #44495 ) ( 016ca59 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v7.0.0-next-7.23",
@@ -1539,14 +1555,6 @@
       "published": "2026-06-15T08:28:44Z",
       "preview": "@yarnpkg/plugin-pnpm",
       "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 11.7",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.7.0",
-      "published": "2026-06-15T06:56:53Z",
-      "preview": "Minor Changes Added a new setting frozenStore ( --frozen-store ) that lets pnpm install run against a package store on a read-only filesystem (e.g. a Nix store, a read-only bind mount, an OCI layer). When enabled, pnpm opens the store's SQLite index.db through the immutable=1 URI — bypassing the WAL/ -shm sidecar creation that otherwise fails on a read-only directory — and suppresses every store-write path (the index.db writer and the project-registry write). Pair it with --offline --frozen-lockfile against a fully-populated store. Under the global virtual store, package directories live insid",
-      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
