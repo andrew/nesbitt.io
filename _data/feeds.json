@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-13T21:36:40Z",
-  "cutoff": "2026-06-13T21:36:35Z",
+  "generated": "2026-07-13T22:37:39Z",
+  "cutoff": "2026-06-13T22:37:36Z",
   "feed_count": 79,
   "item_count": 198,
   "categories": [
@@ -22,10 +22,18 @@
   ],
   "items": [
     {
-      "title": "v11.13.0",
+      "title": "pnpm 12 Alpha 10",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.10",
+      "published": "2026-07-13T22:01:55Z",
+      "preview": "fix(release): sync Rust product versions via the meta-updater ( #12988 ) The Rust CLI and pnpr embed the versions their release builds report and verify (`PNPM_VERSION` in pnpm/crates/config/src/defaults.rs, the crate version in pnpr/crates/pnpr/Cargo.toml, and its Cargo.lock entry). These were mirrored from the npm wrappers by `syncRustVersions` in bump.ts — a step separate from the meta-updater, so running `pnpm version -r` without the full bump flow bumped the wrappers (pacquet 12.0.0-alpha.10, pnpr 0.1.0-alpha.2) while the Rust sources stayed at the previous versions. The release workflow'",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.13",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.13.0",
-      "published": "2026-07-13T21:24:30Z",
-      "preview": "v11.13.0",
+      "published": "2026-07-13T22:01:33Z",
+      "preview": "Minor Changes Added versioning.epics to pnpm-workspace.yaml . An epic ties a group of member packages to a lead package, constraining every member's major version to a band derived from the lead's major: while the lead is on major M , members live in M*100 … M*100+99 . Members move independently inside the band (patch, minor, and a major intent that stays in-band); a bump that would carry a member past the band ceiling is rejected until the lead advances its own major. When a release plan takes the lead to a new stable major, every member re-bases to the band floor in the same plan. Membership",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -1364,14 +1372,6 @@
       "preview": "Release Notes Released on 2026-06-18. Enhancements Publish wheels before sdists in uv publish ( #19831 ) Add TY and RUFF env vars for providing paths for binaries used by uv format and uv check ( #19821 ) Preview features Allow configuring preview features in uv.toml and pyproject.toml ( #18437 ) Update the lockfile during uv check --no-sync ( #19909 ) Add --script to uv check and uv metadata ( #19860 ) Report workspace-exclusive dependency groups in workspace metadata ( #19862 ) Support SARIF as a uv audit output ( #19872 ) Performance Use a more deadlock-resistant concurrent hashmap in the r",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 10.34.4",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.4",
-      "published": "2026-06-18T22:52:00Z",
-      "preview": "Patch Changes 352ae48 : Security: validate config dependency names and versions before using them to build filesystem paths. A pnpm-workspace.yaml with a traversal-shaped configDependencies name (such as ../../PWNED ) or version (such as ../../../PWNED ) could previously cause pnpm install to create symlinks or write package files outside node_modules/.pnpm-config and the store. Names must now be valid npm package names and versions must be exact semver versions. See GHSA-qrv3-253h-g69c . 352ae48 : Reject path-traversal and reserved dependency aliases (such as ../../../escape , .bin , .pnpm , ",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "[release-branch.go1.27] go1.27rc1",
