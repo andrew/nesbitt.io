@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-13T13:06:36Z",
-  "cutoff": "2026-06-13T13:06:31Z",
+  "generated": "2026-07-13T17:02:25Z",
+  "cutoff": "2026-06-13T17:02:21Z",
   "feed_count": 79,
-  "item_count": 194,
+  "item_count": 195,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.261.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.261.2",
+      "published": "2026-07-13T17:01:35Z",
+      "preview": "43.261.2 (2026-07-13) Bug Fixes initialise logger before proxy ( #44152 ) ( 77da691 ), closes #44128",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.261.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.261.1",
+      "published": "2026-07-13T16:44:56Z",
+      "preview": "43.261.1 (2026-07-13) Build System deps: update dependency protobufjs to v8.7.0 (main) ( #44532 ) ( 0c0d91b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v0.386.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.386.0",
+      "published": "2026-07-13T16:30:52Z",
+      "preview": "What's Changed Capture offending gem details on bundler registry metadata errors by @kbukum1 in #15512 Bundler: apply empty-checksum metadata patch to the v2 helper by @kbukum1 in #15513 [Update graph] Ensure bystander txt files are removed before parsing for Python by @brrygrdn in #15508 Handle global.json with no SDK version in dotnet_sdk parser by @brettfo in #15510 Type the cargo ecosystem and remove it from the T.untyped burndown by @JamieMagee in #15492 Type the conda ecosystem and remove it from the T.untyped burndown by @JamieMagee in #15493 Type the docker ecosystem and remove it from",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.261.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.261.0",
+      "published": "2026-07-13T16:04:38Z",
+      "preview": "43.261.0 (2026-07-13) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.73.0 (main) ( #44535 ) ( fda3e62 ) Miscellaneous Chores deps: update dependency memfs to v4.58.0 (main) ( #44533 ) ( 612eb3b ) deps: update dependency protobufjs@8.0.1 to v8.7.0 (main) ( #44534 ) ( f9aa2fa )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "6.0.10",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.10",
@@ -204,30 +236,6 @@
       "preview": "Patch Changes a768d16 : chore: replace eslint and prettier with oxlint and oxfmt",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.259.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.259.0",
-      "published": "2026-07-11T12:25:00Z",
-      "preview": "43.259.0 (2026-07-11) Features presets: add security:gomodIndirectSecurityUpdates preset ( #43222 ) ( 00e05db )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.258.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.258.1",
-      "published": "2026-07-11T11:02:21Z",
-      "preview": "43.258.1 (2026-07-11) Bug Fixes platform/gitlab: guard non-string error message in setBranchStatus ( #44117 ) ( 0019a19 ) Miscellaneous Chores deps: update slackapi/slack-github-action action to v3.0.5 (main) ( #44493 ) ( 51bd40b ) fix best-practices.md path in AGENTS.md ( #44490 ) ( d9e850d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.258.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.258.0",
-      "published": "2026-07-11T06:16:36Z",
-      "preview": "43.258.0 (2026-07-11) Features bitbucket: add draft PRs support ( #43965 ) ( a602d16 ) monorepo: graphql-platform monorepo ( #44409 ) ( bcc71ca ) Bug Fixes npm: allow rename when replacement value is unchanged ( #44486 ) ( d3cbca9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-14.0.dev",
