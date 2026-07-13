@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-13T09:29:46Z",
-  "cutoff": "2026-06-13T09:29:43Z",
+  "generated": "2026-07-13T11:26:04Z",
+  "cutoff": "2026-06-13T11:26:01Z",
   "feed_count": 79,
   "item_count": 194,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.260.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.260.3",
+      "published": "2026-07-13T10:02:31Z",
+      "preview": "43.260.3 (2026-07-13) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.8 (main) ( #44527 ) ( 0ca9a97 ) Documentation update references to astral-sh/setup-uv to v8.3.2 (main) ( #44516 ) ( 6f1dc71 ) update references to otel/opentelemetry-collector-contrib to v0.156.0 (main) ( #44519 ) ( b07352a ) update references to prom/prometheus to v3.13.1 (main) ( #44517 ) ( dc2f3f5 ) update references to renovate/renovate (main) ( #44520 ) ( 3c0b445 ) update references to renovatebot/github-action to v46.1.19 (main) ( #44518 ) ( a46fbe3 ) Miscellaneous Chores deps: lock file main",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-10-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-10-a",
@@ -210,14 +218,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.258.0",
       "published": "2026-07-11T06:16:36Z",
       "preview": "43.258.0 (2026-07-11) Features bitbucket: add draft PRs support ( #43965 ) ( a602d16 ) monorepo: graphql-platform monorepo ( #44409 ) ( bcc71ca ) Bug Fixes npm: allow rename when replacement value is unchanged ( #44486 ) ( d3cbca9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.257.9",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.257.9",
-      "published": "2026-07-11T03:03:54Z",
-      "preview": "43.257.9 (2026-07-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.5 (main) ( #44492 ) ( c5c1c40 ) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.6.6 (main) ( #44489 ) ( d60e33b ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.8 (main) ( #44491 ) ( 6597662 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
