@@ -1,0 +1,1253 @@
+---
+layout: null
+title: Homebrew Formula Momentum
+description: Homebrew formula install momentum across 30, 90, and 365 day analytics windows.
+permalink: /homebrew/
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Homebrew formula install momentum across 30, 90, and 365 day analytics windows.">
+  <link rel="canonical" href="https://nesbitt.io/homebrew/">
+  <title>Homebrew Formula Momentum</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --font-size-base: 16px;
+      --background: #2e2a24;
+      --surface: rgba(255, 255, 255, 0.06);
+      --surface-strong: #3a342c;
+      --foreground: #ffffff;
+      --heading: #ffd79a;
+      --muted-foreground: #d0c5b7;
+      --border: rgba(162, 107, 20, 0.42);
+      --grid: rgba(255, 255, 255, 0.1);
+      --accent: #e2a843;
+      --accent-hover: #f7c96c;
+      --accent-soft: rgba(162, 107, 20, 0.3);
+      --cool: #87c7d8;
+      --cool-soft: rgba(135, 199, 216, 0.17);
+      --dependency: #009999;
+      --point-muted: #999988;
+      --positive-zone: rgba(226, 168, 67, 0.08);
+      --shadow: 0 18px 50px rgba(0, 0, 0, 0.22);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--foreground);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: var(--font-size-base);
+      font-weight: 400;
+    }
+
+    a {
+      color: inherit;
+      text-decoration-color: var(--accent);
+      text-underline-offset: 0.18em;
+    }
+
+    a:hover {
+      color: var(--accent-hover);
+    }
+
+    code,
+    .formula-name {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    .page-shell {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 72px 0 40px;
+    }
+
+    .page-header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: end;
+      gap: 32px;
+      margin-bottom: 40px;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent-hover);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2 {
+      margin: 0;
+      color: var(--heading);
+      font-weight: 500;
+      letter-spacing: -0.035em;
+    }
+
+    h1 {
+      max-width: 760px;
+      font-size: clamp(2.5rem, 7vw, 5.7rem);
+      line-height: 0.94;
+    }
+
+    h2 {
+      font-size: clamp(1.35rem, 3vw, 2rem);
+      line-height: 1.1;
+    }
+
+    .dek {
+      max-width: 700px;
+      margin: 22px 0 0;
+      color: var(--muted-foreground);
+      font-size: 1.08rem;
+      line-height: 1.65;
+    }
+
+    .date-stamp {
+      padding: 12px 0 5px;
+      border-top: 2px solid var(--heading);
+      color: var(--muted-foreground);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.8rem;
+      line-height: 1.6;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .date-stamp strong {
+      display: block;
+      color: var(--heading);
+      font-weight: 500;
+    }
+
+    .panel {
+      margin-top: 20px;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 20px;
+    }
+
+    .section-heading p {
+      max-width: 620px;
+      margin: 8px 0 0;
+      color: var(--muted-foreground);
+      line-height: 1.55;
+    }
+
+    .control {
+      display: grid;
+      gap: 7px;
+      min-width: 184px;
+      color: var(--muted-foreground);
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    select {
+      width: 100%;
+      min-height: 42px;
+      padding: 0 36px 0 12px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--surface-strong);
+      color: var(--foreground);
+      font: inherit;
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    select:focus-visible,
+    a:focus-visible {
+      outline: 3px solid var(--cool);
+      outline-offset: 3px;
+    }
+
+    .chart-shell {
+      position: relative;
+      min-height: 510px;
+    }
+
+    #momentum-chart {
+      display: block;
+      width: 100%;
+      height: auto;
+      overflow: visible;
+    }
+
+    #momentum-chart .axis text,
+    #momentum-chart .chart-note,
+    #momentum-chart .point-label {
+      fill: var(--muted-foreground);
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    #momentum-chart .point-label {
+      fill: var(--foreground);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-weight: 500;
+      paint-order: stroke;
+      stroke: var(--surface-strong);
+      stroke-linejoin: round;
+      stroke-width: 4px;
+    }
+
+    #momentum-chart .axis path,
+    #momentum-chart .axis line {
+      stroke: var(--border);
+    }
+
+    #momentum-chart .grid line {
+      stroke: var(--grid);
+      stroke-width: 1;
+    }
+
+    #momentum-chart .grid path {
+      display: none;
+    }
+
+    #momentum-chart .baseline {
+      stroke: var(--foreground);
+      stroke-width: 1.25;
+    }
+
+    #momentum-chart .leader {
+      stroke: var(--muted-foreground);
+      stroke-width: 1;
+      opacity: 0.7;
+    }
+
+    #momentum-chart .formula-point {
+      cursor: crosshair;
+      transition: opacity 120ms ease, stroke-width 120ms ease;
+    }
+
+    #momentum-chart .formula-point:hover,
+    #momentum-chart .formula-point.is-selected {
+      opacity: 1;
+      stroke: var(--foreground);
+      stroke-width: 2;
+    }
+
+    .tooltip {
+      position: absolute;
+      z-index: 3;
+      width: max-content;
+      max-width: calc(100% - 16px);
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: var(--surface-strong);
+      box-shadow: var(--shadow);
+      color: var(--foreground);
+      font-size: 0.82rem;
+      line-height: 1.35;
+      pointer-events: none;
+    }
+
+    .tooltip[hidden] {
+      display: none;
+    }
+
+    .tooltip strong {
+      display: block;
+      margin-bottom: 7px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-weight: 500;
+      overflow-wrap: anywhere;
+    }
+
+    .tooltip-metrics {
+      display: grid;
+      grid-template-columns: auto repeat(3, auto);
+      gap: 3px 12px;
+      align-items: baseline;
+    }
+
+    .tooltip-metrics .metric-header,
+    .tooltip-metrics .metric-label,
+    .tooltip-share {
+      color: var(--muted-foreground);
+    }
+
+    .tooltip-metrics .metric-header {
+      font-size: 0.68rem;
+      letter-spacing: 0.04em;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    .tooltip-metrics .metric-label {
+      padding-right: 3px;
+    }
+
+    .tooltip-metrics .metric-value {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .tooltip-share {
+      margin-top: 6px;
+      font-size: 0.74rem;
+      text-align: right;
+    }
+
+    .chart-readout {
+      min-height: 1.5em;
+      margin: 8px 0 0;
+      color: var(--muted-foreground);
+      line-height: 1.5;
+    }
+
+    .chart-readout .formula-name,
+    .chart-readout strong {
+      color: var(--foreground);
+      font-weight: 500;
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      margin-top: 16px;
+      color: var(--muted-foreground);
+      font-size: 0.82rem;
+    }
+
+    .legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .legend i {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--point-muted);
+    }
+
+    .legend .direct {
+      background: var(--accent);
+    }
+
+    .legend .dependency {
+      background: var(--dependency);
+    }
+
+    .legend .momentum {
+      border: 2px solid var(--foreground);
+      background: transparent;
+    }
+
+    .table-panel {
+      margin-top: 24px;
+    }
+
+    .table-wrap {
+      width: 100%;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    th,
+    td {
+      padding: 13px 10px;
+      border-bottom: 1px solid var(--border);
+      text-align: right;
+      vertical-align: middle;
+    }
+
+    th {
+      color: var(--muted-foreground);
+      font-size: 0.74rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    th:first-child,
+    td:first-child {
+      width: 46%;
+      padding-left: 10px;
+      text-align: left;
+    }
+
+    th:last-child,
+    td:last-child {
+      padding-right: 10px;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: 0;
+    }
+
+    tbody tr:nth-child(odd) {
+      background: rgba(0, 0, 0, 0.13);
+    }
+
+    .rank {
+      display: inline-block;
+      width: 2.1em;
+      color: var(--muted-foreground);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    .formula-name {
+      overflow-wrap: anywhere;
+    }
+
+    .formula-link {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .ratio {
+      display: inline-block;
+      min-width: 4.5em;
+      padding: 4px 7px;
+      border-radius: 999px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-weight: 500;
+    }
+
+    .ratio.short {
+      background: var(--cool-soft);
+    }
+
+    .ratio.long {
+      background: var(--accent-soft);
+    }
+
+    .demand-value {
+      color: var(--foreground);
+      font-weight: 500;
+    }
+
+    .demand-detail,
+    .ratio-detail {
+      display: block;
+      margin-top: 3px;
+      color: var(--muted-foreground);
+      font-size: 0.76rem;
+      white-space: nowrap;
+    }
+
+    .method {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 24px;
+      margin-top: 26px;
+      padding: 0 4px;
+      color: var(--muted-foreground);
+      font-size: 0.82rem;
+      line-height: 1.6;
+    }
+
+    .method p {
+      margin: 0;
+    }
+
+    .new-activity {
+      margin-top: 26px;
+      padding-top: 22px;
+      border-top: 1px solid var(--border);
+    }
+
+    .new-activity h3 {
+      margin: 0;
+      color: var(--heading);
+      font-weight: 500;
+    }
+
+    .new-activity > p {
+      margin: 7px 0 12px;
+      color: var(--muted-foreground);
+      line-height: 1.55;
+    }
+
+    .activity-label {
+      color: var(--muted-foreground);
+      font-size: 0.82rem;
+    }
+
+    .empty-table {
+      padding-top: 24px;
+      padding-bottom: 24px;
+      color: var(--muted-foreground);
+      text-align: center;
+    }
+
+    .error-message {
+      margin: 32px 0;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--surface);
+      color: var(--foreground);
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    @media (max-width: 720px) {
+      .page-shell {
+        width: min(100% - 20px, 1120px);
+        padding-top: 42px;
+      }
+
+      .page-header {
+        grid-template-columns: 1fr;
+        gap: 22px;
+      }
+
+      .date-stamp {
+        justify-self: start;
+        text-align: left;
+      }
+
+      .panel {
+        padding: 20px 14px;
+        border-radius: 13px;
+      }
+
+      .section-heading {
+        display: grid;
+        align-items: start;
+      }
+
+      .control {
+        width: 100%;
+      }
+
+      .chart-shell {
+        min-height: 430px;
+      }
+
+      th,
+      td {
+        padding: 11px 4px;
+        font-size: 0.78rem;
+      }
+
+      th:first-child,
+      td:first-child {
+        width: 43%;
+      }
+
+      .ratio {
+        min-width: 0;
+        padding: 3px 5px;
+      }
+
+      .rank {
+        width: 1.7em;
+      }
+
+      .method {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="page-header">
+      <div>
+        <p class="eyebrow"><a href="/">nesbitt.io</a> / Homebrew analytics</p>
+        <h1>Formula momentum</h1>
+        <p class="dek">See which formulae are pulling ahead of their earlier three-month and one-year install pace, and whether that demand came from users or dependency chains.</p>
+      </div>
+      <div class="date-stamp">
+        Data through
+        <strong><%= end_date_label %></strong>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel" aria-labelledby="momentum-heading">
+        <div class="section-heading">
+          <div>
+            <h2 id="momentum-heading">Recent pace vs. prior baselines</h2>
+            <p>Upper right means all installs are above both earlier baselines. Color separates mostly direct requests from dependency-heavy installs; stable formulae within <%= format("%g", options[:minimum_change] * 100) %>% of both are omitted.</p>
+          </div>
+          <label class="control" for="minimum-installs">
+            Minimum 30-day installs
+            <select id="minimum-installs">
+              <option value="500">500+</option>
+              <option value="1000" selected>1,000+</option>
+              <option value="5000">5,000+</option>
+              <option value="10000">10,000+</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="chart-shell" class="chart-shell">
+          <svg id="momentum-chart" role="img" aria-labelledby="chart-title chart-description">
+            <title id="chart-title">Homebrew formula install momentum</title>
+            <desc id="chart-description">A scatter plot comparing each formula's recent installs with earlier averages. Point color distinguishes direct user requests from dependency-heavy installs.</desc>
+          </svg>
+          <div id="chart-tooltip" class="tooltip" role="status" hidden></div>
+        </div>
+
+        <p id="chart-readout" class="chart-readout" aria-live="polite"></p>
+        <div class="legend" aria-label="Chart legend">
+          <span><i class="direct" aria-hidden="true"></i>At least 50% requested directly</span>
+          <span><i class="dependency" aria-hidden="true"></i>Mostly installed as a dependency</span>
+          <span><i class="momentum" aria-hidden="true"></i>Outline: above both baselines</span>
+        </div>
+      </section>
+
+      <section class="panel table-panel" aria-labelledby="breakouts-heading">
+        <div class="section-heading">
+          <div>
+            <h2 id="breakouts-heading">Strongest all-install breakouts</h2>
+            <p id="breakouts-description">Ranked by the weaker all-install gain. Each row also shows how much recent demand was requested directly and whether that direct demand is accelerating.</p>
+          </div>
+          <label class="control" for="table-mode">
+            Rank table by
+            <select id="table-mode">
+              <option value="all" selected>All installs</option>
+              <option value="direct">Direct requests</option>
+            </select>
+          </label>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Formula</th>
+                <th scope="col">30-day demand</th>
+                <th scope="col">vs. prior 60d avg.</th>
+                <th scope="col">vs. prior 335d avg.</th>
+              </tr>
+            </thead>
+            <tbody id="breakout-rows"></tbody>
+          </table>
+        </div>
+
+        <div id="new-activity" class="new-activity" hidden>
+          <h3>New or newly active</h3>
+          <p>No installs were observed before the recent window. These may be new formulae or previously dormant formulae; aggregate analytics cannot distinguish between the two.</p>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Formula</th>
+                  <th scope="col">30-day demand</th>
+                  <th scope="col" colspan="2">History signal</th>
+                </tr>
+              </thead>
+              <tbody id="new-activity-rows"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="method">
+      <p>Recent totals are subtracted from both all-install and install-on-request windows. The preceding 60 and 335 days are then scaled to the recent window. “Direct” means Homebrew recorded the formula as explicitly requested rather than installed as a dependency.</p>
+      <p>Source: <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh analytics</a></p>
+    </footer>
+  </div>
+
+  <noscript><p class="error-message">JavaScript is required to draw this chart.</p></noscript>
+  <script id="analytics-data" type="application/json"><%= dataset_json %></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script>
+    (() => {
+      "use strict";
+
+      const chartElement = document.getElementById("momentum-chart");
+      const chartShell = document.getElementById("chart-shell");
+      const tooltip = document.getElementById("chart-tooltip");
+      const readout = document.getElementById("chart-readout");
+      const tableBody = document.getElementById("breakout-rows");
+      const newActivity = document.getElementById("new-activity");
+      const newActivityBody = document.getElementById("new-activity-rows");
+      const minimumSelect = document.getElementById("minimum-installs");
+      const tableModeSelect = document.getElementById("table-mode");
+      const breakoutsHeading = document.getElementById("breakouts-heading");
+      const breakoutsDescription = document.getElementById("breakouts-description");
+      const payload = JSON.parse(document.getElementById("analytics-data").textContent);
+
+      if (!window.d3) {
+        chartShell.innerHTML = '<p class="error-message">The chart library could not be loaded. Check the network connection and reload this page.</p>';
+        return;
+      }
+
+      const d3 = window.d3;
+      const number = new Intl.NumberFormat("en-US");
+      const percentage = new Intl.NumberFormat("en-US", {
+        style: "percent",
+        maximumFractionDigits: 1,
+      });
+      let selectedFormula = null;
+      let scheduledFrame = null;
+
+      const availableThresholds = Array.from(minimumSelect.options)
+        .map((option) => Number(option.value))
+        .filter((threshold) => threshold >= payload.meta.dataFloor);
+
+      Array.from(minimumSelect.options).forEach((option) => {
+        option.disabled = Number(option.value) < payload.meta.dataFloor;
+      });
+
+      if (Number(minimumSelect.value) < payload.meta.dataFloor) {
+        minimumSelect.value = String(availableThresholds[0] || payload.meta.dataFloor);
+      }
+
+      const recentDays = payload.meta.windows["30d"].days;
+      const shortBaselineDays = payload.meta.windows["90d"].days - recentDays;
+      const longBaselineDays = payload.meta.windows["365d"].days - recentDays;
+      const formatRatio = (value) => `${value.toFixed(value >= 10 ? 1 : 2)}×`;
+      const formatDirectRatio = (row, window) => {
+        const value = window === "short" ? row.directRatio90 : row.directRatio365;
+        if (Number.isFinite(value)) return formatRatio(value);
+        if (row.directHistoryStatus === "recent_only") return "new";
+        if (row.directHistoryStatus === "reactivated") return window === "short" ? "reactivated" : formatRatio(row.directRatio365);
+        return "—";
+      };
+      const conservativeScore = (row) => Math.min(row.ratio90, row.ratio365);
+      const directConservativeScore = (row) => Math.min(row.directRatio90, row.directRatio365);
+      const hasComparableHistory = (row) => row.historyStatus === "established";
+      const hasComparableDirectHistory = (row) =>
+        row.directHistoryStatus === "established" &&
+        Number.isFinite(row.directRatio90) &&
+        Number.isFinite(row.directRatio365);
+      const risingAgainstBoth = (row) => hasComparableHistory(row) && row.ratio90 > 1 && row.ratio365 > 1;
+      const risingDirectlyAgainstBoth = (row) =>
+        hasComparableDirectHistory(row) &&
+        row.requested30 >= payload.meta.dataFloor &&
+        row.directRatio90 > 1 &&
+        row.directRatio365 > 1;
+      const hasMeaningfulChange = (row) =>
+        Math.abs(row.ratio90 - 1) >= payload.meta.minimumChange ||
+        Math.abs(row.ratio365 - 1) >= payload.meta.minimumChange;
+      const hasMeaningfulDirectChange = (row) =>
+        hasComparableDirectHistory(row) && (
+          Math.abs(row.directRatio90 - 1) >= payload.meta.minimumChange ||
+          Math.abs(row.directRatio365 - 1) >= payload.meta.minimumChange
+        );
+
+      function filteredFormulae() {
+        const threshold = Number(minimumSelect.value);
+        return payload.formulae.filter((row) => row.installs30 >= threshold);
+      }
+
+      function chartFormulae(rows) {
+        return rows.filter((row) => hasComparableHistory(row) && hasMeaningfulChange(row));
+      }
+
+      function topBreakouts(rows, mode = "all") {
+        if (mode === "direct") {
+          return rows
+            .filter((row) => risingDirectlyAgainstBoth(row) && hasMeaningfulDirectChange(row))
+            .slice()
+            .sort((a, b) =>
+              d3.descending(directConservativeScore(a), directConservativeScore(b)) ||
+              d3.descending(a.requested30, b.requested30) ||
+              d3.ascending(a.formula, b.formula)
+            );
+        }
+
+        return rows
+          .filter(risingAgainstBoth)
+          .slice()
+          .sort((a, b) =>
+            d3.descending(conservativeScore(a), conservativeScore(b)) ||
+            d3.descending(a.installs30, b.installs30) ||
+            d3.ascending(a.formula, b.formula)
+          );
+      }
+
+      function createCell(row, value, className) {
+        const cell = document.createElement("td");
+        if (className) cell.className = className;
+        cell.textContent = value;
+        row.appendChild(cell);
+        return cell;
+      }
+
+      function createDemandCell(row, formula, mode = "all") {
+        const cell = document.createElement("td");
+        const primary = document.createElement("span");
+        const detail = document.createElement("span");
+        primary.className = "demand-value";
+        detail.className = "demand-detail";
+
+        if (mode === "direct") {
+          primary.textContent = `${number.format(formula.requested30)} direct`;
+          detail.textContent = `${number.format(formula.installs30)} all · ${percentage.format(formula.directShare)} direct`;
+        } else {
+          primary.textContent = `${number.format(formula.installs30)} all`;
+          detail.textContent = `${number.format(formula.requested30)} direct · ${percentage.format(formula.directShare)}`;
+        }
+
+        cell.append(primary, detail);
+        row.appendChild(cell);
+        return cell;
+      }
+
+      function addSecondaryRatio(cell, formula, window, mode) {
+        const detail = document.createElement("span");
+        detail.className = "ratio-detail";
+        const allRatio = window === "short" ? formula.ratio90 : formula.ratio365;
+        detail.textContent = mode === "direct"
+          ? `all ${formatRatio(allRatio)}`
+          : `direct ${formatDirectRatio(formula, window)}`;
+        cell.appendChild(detail);
+      }
+
+      function createFormulaName(formula) {
+        const name = document.createElement(formula.includes("/") ? "span" : "a");
+        name.className = `formula-name${formula.includes("/") ? "" : " formula-link"}`;
+        name.textContent = formula;
+        if (!formula.includes("/")) {
+          name.href = `https://formulae.brew.sh/formula/${encodeURIComponent(formula)}`;
+        }
+        return name;
+      }
+
+      function renderTable(rows) {
+        const mode = tableModeSelect.value;
+        const directMode = mode === "direct";
+        const breakouts = (directMode
+          ? topBreakouts(rows, "direct")
+          : topBreakouts(chartFormulae(rows), "all")
+        ).slice(0, 15);
+
+        breakoutsHeading.textContent = directMode
+          ? "Strongest direct-request breakouts"
+          : "Strongest all-install breakouts";
+        breakoutsDescription.textContent = directMode
+          ? `Ranked by the weaker direct-request gain, with at least ${number.format(payload.meta.dataFloor)} recent direct requests. All-install volume and momentum remain underneath for context.`
+          : "Ranked by the weaker all-install gain. Each row also shows how much recent demand was requested directly and whether that direct demand is accelerating.";
+        tableBody.replaceChildren();
+
+        if (!breakouts.length) {
+          const row = document.createElement("tr");
+          const cell = createCell(row, directMode
+            ? "No direct-request breakouts meet the current thresholds."
+            : "No all-install breakouts meet the current thresholds.", "empty-table");
+          cell.colSpan = 4;
+          tableBody.appendChild(row);
+        }
+
+        breakouts.forEach((formula, index) => {
+          const row = document.createElement("tr");
+          const nameCell = document.createElement("td");
+          const rank = document.createElement("span");
+          const name = createFormulaName(formula.formula);
+          rank.className = "rank";
+          rank.textContent = String(index + 1).padStart(2, "0");
+          nameCell.append(rank, name);
+          row.appendChild(nameCell);
+
+          createDemandCell(row, formula, mode);
+          const shortCell = createCell(row, "");
+          const shortRatio = document.createElement("span");
+          shortRatio.className = "ratio short";
+          const shortValue = directMode ? formula.directRatio90 : formula.ratio90;
+          shortRatio.textContent = formatRatio(shortValue);
+          shortRatio.setAttribute("aria-label", `${formatRatio(shortValue)} the preceding short-window ${directMode ? "direct-request" : "all-install"} average`);
+          shortCell.appendChild(shortRatio);
+          addSecondaryRatio(shortCell, formula, "short", mode);
+
+          const longCell = createCell(row, "");
+          const longRatio = document.createElement("span");
+          longRatio.className = "ratio long";
+          const longValue = directMode ? formula.directRatio365 : formula.ratio365;
+          longRatio.textContent = formatRatio(longValue);
+          longRatio.setAttribute("aria-label", `${formatRatio(longValue)} the preceding long-window ${directMode ? "direct-request" : "all-install"} average`);
+          longCell.appendChild(longRatio);
+          addSecondaryRatio(longCell, formula, "long", mode);
+          tableBody.appendChild(row);
+        });
+
+        const newRows = rows
+          .filter((formula) => !hasComparableHistory(formula))
+          .slice()
+          .sort((a, b) => d3.descending(a.installs30, b.installs30) || d3.ascending(a.formula, b.formula))
+          .slice(0, 15);
+        newActivityBody.replaceChildren();
+        newActivity.hidden = newRows.length === 0;
+
+        newRows.forEach((formula, index) => {
+          const row = document.createElement("tr");
+          const nameCell = document.createElement("td");
+          const rank = document.createElement("span");
+          const name = createFormulaName(formula.formula);
+          rank.className = "rank";
+          rank.textContent = String(index + 1).padStart(2, "0");
+          nameCell.append(rank, name);
+          row.appendChild(nameCell);
+          createDemandCell(row, formula, "all");
+          const signalCell = createCell(row, "");
+          signalCell.colSpan = 2;
+          signalCell.className = "activity-label";
+          signalCell.textContent = formula.historyStatus === "recent_only"
+            ? "No earlier installs in the 365-day window"
+            : "No installs in the preceding short window";
+          newActivityBody.appendChild(row);
+        });
+      }
+
+      function setReadout(rows, allRows, formula) {
+        const breakoutCount = rows.filter(risingAgainstBoth).length;
+        const stableCount = allRows.filter(hasComparableHistory).length - rows.length;
+        const newCount = allRows.filter((row) => !hasComparableHistory(row)).length;
+        readout.replaceChildren();
+
+        const recentText = newCount ? ` · ${number.format(newCount)} recent-only` : "";
+        const countText = document.createTextNode(`${number.format(rows.length)} moving · ${number.format(breakoutCount)} above both · ${number.format(stableCount)} stable hidden${recentText}`);
+        readout.appendChild(countText);
+        if (!formula) return;
+
+        const separator = document.createTextNode(" · ");
+        const name = document.createElement("span");
+        name.className = "formula-name";
+        name.textContent = formula.formula;
+        const detail = document.createTextNode(`: ${number.format(formula.installs30)} installs · ${percentage.format(formula.directShare)} direct · ${formatRatio(formula.ratio90)} short / ${formatRatio(formula.ratio365)} long`);
+        readout.append(separator, name, detail);
+      }
+
+      function populateTooltip(formula) {
+        tooltip.replaceChildren();
+        const name = document.createElement("strong");
+        name.textContent = formula.formula;
+        const metrics = document.createElement("div");
+        metrics.className = "tooltip-metrics";
+        metrics.setAttribute("aria-label", `${recentDays}-day count and momentum versus prior baselines`);
+
+        const metric = (text, className) => {
+          const value = document.createElement("span");
+          value.className = className;
+          value.textContent = text;
+          metrics.appendChild(value);
+        };
+
+        metric("", "metric-header");
+        metric(`${recentDays}d`, "metric-header");
+        metric(`vs ${shortBaselineDays}d`, "metric-header");
+        metric(`vs ${longBaselineDays}d`, "metric-header");
+        metric("All", "metric-label");
+        metric(number.format(formula.installs30), "metric-value");
+        metric(formatRatio(formula.ratio90), "metric-value");
+        metric(formatRatio(formula.ratio365), "metric-value");
+        metric("Direct", "metric-label");
+        metric(number.format(formula.requested30), "metric-value");
+        metric(formatDirectRatio(formula, "short"), "metric-value");
+        metric(formatDirectRatio(formula, "long"), "metric-value");
+
+        const share = document.createElement("div");
+        share.className = "tooltip-share";
+        share.textContent = `${percentage.format(formula.directShare)} requested directly`;
+        tooltip.append(name, metrics, share);
+      }
+
+      function showTooltip(formula, xPosition, yPosition) {
+        selectedFormula = formula.formula;
+        populateTooltip(formula);
+        tooltip.hidden = false;
+
+        const shellBounds = chartShell.getBoundingClientRect();
+        const tooltipBounds = tooltip.getBoundingClientRect();
+        const padding = 8;
+        let left = xPosition - tooltipBounds.width / 2;
+        left = Math.max(padding, Math.min(left, shellBounds.width - tooltipBounds.width - padding));
+        let top = yPosition - tooltipBounds.height - 14;
+        if (top < padding) top = yPosition + 14;
+        tooltip.style.left = `${left}px`;
+        tooltip.style.top = `${top}px`;
+      }
+
+      function hideTooltip() {
+        tooltip.hidden = true;
+      }
+
+      function truncateFormula(name, limit) {
+        return name.length > limit ? `${name.slice(0, limit - 1)}…` : name;
+      }
+
+      function axisMaximum(values) {
+        const sorted = values.filter(Number.isFinite).sort(d3.ascending);
+        const percentile = d3.quantileSorted(sorted, 0.99) || 4;
+        const roundedPower = 2 ** Math.ceil(Math.log2(Math.max(4, percentile)));
+        return Math.min(64, roundedPower);
+      }
+
+      function renderChart() {
+        const allRows = filteredFormulae();
+        const rows = chartFormulae(allRows);
+        if (!allRows.length) {
+          chartElement.replaceChildren();
+          readout.textContent = "No formulae meet this install threshold.";
+          renderTable(allRows);
+          return;
+        }
+        if (!rows.length) {
+          chartElement.replaceChildren();
+          readout.textContent = "No established formulae show a meaningful change at this install threshold.";
+          renderTable(allRows);
+          return;
+        }
+
+        const shellWidth = Math.max(300, Math.floor(chartShell.getBoundingClientRect().width));
+        const compact = shellWidth < 620;
+        const width = shellWidth;
+        const height = compact ? 420 : 500;
+        const margin = compact
+          ? { top: 28, right: 14, bottom: 68, left: 52 }
+          : { top: 32, right: 32, bottom: 72, left: 72 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+        const minimumRatio = 0.125;
+        const maximum90 = axisMaximum(rows.map((row) => row.ratio90));
+        const maximum365 = axisMaximum(rows.map((row) => row.ratio365));
+
+        const x = d3.scaleLog()
+          .domain([minimumRatio, maximum365])
+          .range([margin.left, margin.left + innerWidth])
+          .clamp(true);
+        const y = d3.scaleLog()
+          .domain([minimumRatio, maximum90])
+          .range([margin.top + innerHeight, margin.top])
+          .clamp(true);
+        const radius = d3.scaleSqrt()
+          .domain(d3.extent(rows, (row) => row.installs30))
+          .range(compact ? [2.2, 9] : [2.5, 13]);
+
+        const ratioTicks = [0.125, 0.25, 0.5, 1, 2, 4, 8, 16, 32, 64];
+        const xTicks = ratioTicks.filter((tick) => tick <= maximum365);
+        const yTicks = ratioTicks.filter((tick) => tick <= maximum90);
+        const svg = d3.select(chartElement);
+        svg.selectAll("*").remove();
+        svg.attr("viewBox", `0 0 ${width} ${height}`);
+        svg.append("title").attr("id", "chart-title").text("Homebrew formula install momentum");
+        svg.append("desc").attr("id", "chart-description").text(
+          `${number.format(rows.length)} moving established formulae. Horizontal position compares the recent ${recentDays}-day pace with the preceding ${longBaselineDays}-day pace; vertical position compares it with the preceding ${shortBaselineDays}-day pace. Gold points were mostly requested directly; teal points were mostly installed as dependencies.`
+        );
+
+        svg.append("rect")
+          .attr("x", x(1))
+          .attr("y", y(maximum90))
+          .attr("width", x(maximum365) - x(1))
+          .attr("height", y(1) - y(maximum90))
+          .attr("fill", "var(--positive-zone)");
+
+        svg.append("g")
+          .attr("class", "grid")
+          .attr("transform", `translate(0,${margin.top + innerHeight})`)
+          .call(d3.axisBottom(x).tickValues(xTicks).tickSize(-innerHeight).tickFormat(""));
+        svg.append("g")
+          .attr("class", "grid")
+          .attr("transform", `translate(${margin.left},0)`)
+          .call(d3.axisLeft(y).tickValues(yTicks).tickSize(-innerWidth).tickFormat(""));
+
+        svg.append("line")
+          .attr("class", "baseline")
+          .attr("x1", x(1))
+          .attr("x2", x(1))
+          .attr("y1", margin.top)
+          .attr("y2", margin.top + innerHeight);
+        svg.append("line")
+          .attr("class", "baseline")
+          .attr("x1", margin.left)
+          .attr("x2", margin.left + innerWidth)
+          .attr("y1", y(1))
+          .attr("y2", y(1));
+
+        svg.append("g")
+          .attr("class", "axis")
+          .attr("transform", `translate(0,${margin.top + innerHeight})`)
+          .call(d3.axisBottom(x).tickValues(xTicks).tickFormat((tick) => `${tick}×`));
+        svg.append("g")
+          .attr("class", "axis")
+          .attr("transform", `translate(${margin.left},0)`)
+          .call(d3.axisLeft(y).tickValues(yTicks).tickFormat((tick) => `${tick}×`));
+
+        svg.append("text")
+          .attr("class", "chart-note")
+          .attr("x", margin.left + innerWidth / 2)
+          .attr("y", height - 15)
+          .attr("text-anchor", "middle")
+          .text(compact ? `${recentDays}d pace ÷ prior ${longBaselineDays}d avg` : `Recent ${recentDays}-day pace ÷ preceding ${longBaselineDays}-day average`);
+        svg.append("text")
+          .attr("class", "chart-note")
+          .attr("transform", `translate(15,${margin.top + innerHeight / 2}) rotate(-90)`)
+          .attr("text-anchor", "middle")
+          .text(compact ? `${recentDays}d pace ÷ prior ${shortBaselineDays}d avg` : `Recent ${recentDays}-day pace ÷ preceding ${shortBaselineDays}-day average`);
+        svg.append("text")
+          .attr("class", "chart-note")
+          .attr("x", x(1) + 8)
+          .attr("y", y(1) - 10)
+          .attr("text-anchor", "start")
+          .text("ABOVE BOTH BASELINES");
+        svg.append("text")
+          .attr("class", "chart-note")
+          .attr("x", margin.left + 4)
+          .attr("y", margin.top + 14)
+          .text(compact ? "Area = installs" : "Bubble area = installs · extreme ratios clamp at the edge");
+
+        const orderedRows = rows.slice().sort((a, b) => d3.ascending(a.installs30, b.installs30));
+        const points = svg.append("g")
+          .attr("aria-hidden", "true")
+          .selectAll("circle")
+          .data(orderedRows, (row) => row.formula)
+          .join("circle")
+          .attr("class", (row) => `formula-point${row.formula === selectedFormula ? " is-selected" : ""}`)
+          .attr("cx", (row) => x(row.ratio365))
+          .attr("cy", (row) => y(row.ratio90))
+          .attr("r", (row) => radius(row.installs30))
+          .attr("fill", (row) => row.directShare >= 0.5 ? "var(--accent)" : "var(--dependency)")
+          .attr("fill-opacity", (row) => risingAgainstBoth(row) ? 0.66 : 0.28)
+          .attr("stroke", (row) => risingAgainstBoth(row) ? "var(--foreground)" : "var(--surface-strong)")
+          .attr("stroke-width", (row) => risingAgainstBoth(row) ? 1.35 : 0.7)
+          .on("pointerenter", function(event, row) {
+            points.classed("is-selected", (candidate) => candidate.formula === row.formula);
+            showTooltip(row, x(row.ratio365), y(row.ratio90));
+            setReadout(rows, allRows, row);
+          })
+          .on("pointerleave", function() {
+            points.classed("is-selected", false);
+            hideTooltip();
+          })
+          .on("click", function(event, row) {
+            event.stopPropagation();
+            selectedFormula = row.formula;
+            points.classed("is-selected", (candidate) => candidate.formula === row.formula);
+            showTooltip(row, x(row.ratio365), y(row.ratio90));
+            setReadout(rows, allRows, row);
+          });
+
+        const labels = topBreakouts(rows)
+          .sort((a, b) =>
+            d3.descending(
+              Math.sqrt(a.installs30) * Math.log(conservativeScore(a)),
+              Math.sqrt(b.installs30) * Math.log(conservativeScore(b))
+            )
+          )
+          .slice(0, compact ? 3 : 6);
+        const labelLayer = svg.append("g").attr("aria-hidden", "true");
+        const labelPositions = labels
+          .map((row) => ({ row, pointX: x(row.ratio365), pointY: y(row.ratio90) }))
+          .sort((a, b) => d3.ascending(a.pointY, b.pointY));
+        const labelGap = compact ? 17 : 19;
+        const minimumLabelY = margin.top + 30;
+        const maximumLabelY = margin.top + innerHeight - 8;
+
+        labelPositions.forEach((label, index) => {
+          label.labelY = Math.max(label.pointY, index ? labelPositions[index - 1].labelY + labelGap : minimumLabelY);
+        });
+        for (let index = labelPositions.length - 1; index >= 0; index -= 1) {
+          const upperBound = maximumLabelY - (labelPositions.length - 1 - index) * labelGap;
+          labelPositions[index].labelY = Math.min(labelPositions[index].labelY, upperBound);
+        }
+
+        labelPositions.forEach(({ row, pointX, pointY, labelY }) => {
+          const placeLeft = pointX > margin.left + innerWidth * 0.72;
+          const labelX = pointX + (placeLeft ? -10 : 10);
+
+          labelLayer.append("line")
+            .attr("class", "leader")
+            .attr("x1", pointX)
+            .attr("y1", pointY)
+            .attr("x2", labelX)
+            .attr("y2", labelY - 4);
+          labelLayer.append("text")
+            .attr("class", "point-label")
+            .attr("x", labelX + (placeLeft ? -3 : 3))
+            .attr("y", labelY)
+            .attr("text-anchor", placeLeft ? "end" : "start")
+            .text(truncateFormula(row.formula, compact ? 15 : 24));
+        });
+
+        chartElement.onclick = () => {
+          selectedFormula = null;
+          points.classed("is-selected", false);
+          hideTooltip();
+          setReadout(rows, allRows, null);
+        };
+
+        setReadout(rows, allRows, rows.find((row) => row.formula === selectedFormula));
+        renderTable(allRows);
+      }
+
+      function scheduleRender() {
+        if (scheduledFrame) cancelAnimationFrame(scheduledFrame);
+        scheduledFrame = requestAnimationFrame(() => {
+          scheduledFrame = null;
+          renderChart();
+        });
+      }
+
+      minimumSelect.addEventListener("change", () => {
+        selectedFormula = null;
+        hideTooltip();
+        renderChart();
+      });
+
+      tableModeSelect.addEventListener("change", () => {
+        renderTable(filteredFormulae());
+      });
+
+      if (window.ResizeObserver) {
+        new ResizeObserver(scheduleRender).observe(chartShell);
+      } else {
+        window.addEventListener("resize", scheduleRender);
+      }
+
+      renderChart();
+    })();
+  </script>
+</body>
+</html>
