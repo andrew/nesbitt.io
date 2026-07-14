@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-14T12:46:06Z",
-  "cutoff": "2026-06-14T12:46:01Z",
+  "generated": "2026-07-14T13:58:55Z",
+  "cutoff": "2026-06-14T13:58:50Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.263.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.2",
+      "published": "2026-07-14T13:37:53Z",
+      "preview": "43.263.2 (2026-07-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.1 (main) ( #44573 ) ( 54d52f2 ) Miscellaneous Chores deps: update dependency memfs to v4.61.0 (main) ( #44574 ) ( b41d05f ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.1 (main) ( #44572 ) ( 6b80c5d ) Code Refactoring oxlint: enable no-else-return and unicorn/no-lonely-if ( #44553 ) ( 9717259 ) oxlint: enable typescript/no-unnecessary-type-arguments ( #44555 ) ( d57843c ) oxlint: enable unicorn/prefer-at ( #44556 ) ( 64e6a4c ) Tests linters: add codeblock linter rule for spe",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.10.0.8",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.8",
@@ -210,14 +218,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.261.3",
       "published": "2026-07-13T18:34:01Z",
       "preview": "43.261.3 (2026-07-13) Bug Fixes avoid proposing replacements when the new dependency already exists ( #40149 ) ( 3032c96 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.261.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.261.2",
-      "published": "2026-07-13T17:01:35Z",
-      "preview": "43.261.2 (2026-07-13) Bug Fixes initialise logger before proxy ( #44152 ) ( 77da691 ), closes #44128",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
