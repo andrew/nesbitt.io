@@ -1,0 +1,45 @@
+name: Update Homebrew trends
+
+on:
+  schedule:
+    # 01:12 PST / 02:12 PDT, before the site's hourly build at :30.
+    - cron: '12 9 * * *'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: update-homebrew
+  cancel-in-progress: true
+
+jobs:
+  update:
+    name: Update Homebrew trends
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write # commit the refreshed page
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0
+        with:
+          persist-credentials: false
+
+      - uses: ruby/setup-ruby@d45b1a4e94b71acab930e56e79c6aa188764e7f9 # v1.316.0
+        with:
+          ruby-version: '3.4'
+
+      - name: Generate Homebrew trends
+        run: ruby _homebrew/generate.rb
+
+      - name: Commit changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          if ! git diff --quiet -- homebrew.html; then
+            git add homebrew.html
+            git commit -m 'Update Homebrew formula trends'
+            git push "https://x-access-token:${GH_TOKEN}@github.com/${REPO}" HEAD:master
+          fi
