@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-14T20:41:02Z",
-  "cutoff": "2026-06-14T20:40:58Z",
+  "generated": "2026-07-14T21:37:36Z",
+  "cutoff": "2026-06-14T21:37:32Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2026-07-13 Release",
+      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-13",
+      "published": "2026-07-14T21:26:44Z",
+      "preview": "What's Changed Fix collide on shared .partial extraction directory on POSIX by @Erik-White in #2036 Sanitize DESTDIR on non-Windows platforms by @BillyONeal in #2039 Update NPM dependencies. by @BillyONeal in #2047 Support CURL_CA_BUNDLE like the curl command line tool by @Matus-p in #2042 [curl] Add VCPKG_SSL_REVOKE_BEST_EFFORT to fix Schannel proxy revocation errors by @sdn9002 in #2043 Change GITHUB_SERVER_URL to GITHUB_API_URL to allow submission of dependency graph data again by @rwindegger in #2056 [z-applocal] Only log dependency deployment details with --verbose by @ricardoofnl in #205",
+      "source": "vcpkg releases",
+      "category": "C/C++"
+    },
+    {
+      "title": "v1.3.3",
+      "url": "https://github.com/oras-project/oras/releases/tag/v1.3.3",
+      "published": "2026-07-14T21:18:10Z",
+      "preview": "ORAS CLI v1.3.3 is a maintenance release focused on security hardening, dependency updates, and a few user-facing improvements to oras attach . Highlights 🔒 Security: upgraded oras-go to v2.6.2 , which addresses a tar-extraction path-traversal advisory ( GHSA-fxhp-mv3v-67qp ) affecting hardlink entries during pull /extract. ✨ oras attach gains --config support, and --annotation $config:* values now flow through to the packed manifest. 🛡️ Supply-chain hardening: GitHub Actions are now pinned to commit SHAs, SBOMs are attached to release artifacts, and static security scanning (gosec) runs in CI",
+      "source": "ORAS releases",
+      "category": "Containers"
+    },
+    {
+      "title": "43.263.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.5",
+      "published": "2026-07-14T20:53:53Z",
+      "preview": "43.263.5 (2026-07-14) Build System deps: update dependency re2 to v1.25.2 (main) ( #44586 ) ( 7449371 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.263.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.4",
@@ -150,14 +174,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "43.262.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.262.0",
-      "published": "2026-07-14T00:54:35Z",
-      "preview": "43.262.0 (2026-07-14) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.74.0 (main) ( #44544 ) ( 50b15e2 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.12 (main) ( #44543 ) ( a05aba9 ) Code Refactoring platform/gitlab: fetch detailed_merge_status ( #44122 ) ( c8fcd63 ), closes #44114 #44114 #44114",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "SDK-3.14.0-23.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-23.0.dev",
       "published": "2026-07-14T00:31:47Z",
@@ -214,14 +230,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "2026-07-13 Release",
-      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-13",
-      "published": "2026-07-13T21:03:04Z",
-      "preview": "What's Changed Fix collide on shared .partial extraction directory on POSIX by @Erik-White in #2036 Sanitize DESTDIR on non-Windows platforms by @BillyONeal in #2039 Update NPM dependencies. by @BillyONeal in #2047 Support CURL_CA_BUNDLE like the curl command line tool by @Matus-p in #2042 [curl] Add VCPKG_SSL_REVOKE_BEST_EFFORT to fix Schannel proxy revocation errors by @sdn9002 in #2043 Change GITHUB_SERVER_URL to GITHUB_API_URL to allow submission of dependency graph data again by @rwindegger in #2056 [z-applocal] Only log dependency deployment details with --verbose by @ricardoofnl in #205",
-      "source": "vcpkg releases",
-      "category": "C/C++"
-    },
-    {
       "title": "v6.8.0",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.8.0",
       "published": "2026-07-13T20:50:22Z",
@@ -236,14 +244,6 @@
       "preview": "Tagging release 2.35.0",
       "source": "Nix releases",
       "category": "System"
-    },
-    {
-      "title": "v1.3.3",
-      "url": "https://github.com/oras-project/oras/releases/tag/v1.3.3",
-      "published": "2026-07-13T19:41:09Z",
-      "preview": "ORAS CLI v1.3.3 is a maintenance release focused on security hardening, dependency updates, and a few user-facing improvements to oras attach . Highlights 🔒 Security: upgraded oras-go to v2.6.2 , which addresses a tar-extraction path-traversal advisory ( GHSA-fxhp-mv3v-67qp ) affecting hardlink entries during pull /extract. ✨ oras attach gains --config support, and --annotation $config:* values now flow through to the packed manifest. 🛡️ Supply-chain hardening: GitHub Actions are now pinned to commit SHAs, SBOMs are attached to release artifacts, and static security scanning (gosec) runs in CI",
-      "source": "ORAS releases",
-      "category": "Containers"
     },
     {
       "title": "v0.386.0",
