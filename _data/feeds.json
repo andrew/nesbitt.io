@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-14T09:59:55Z",
-  "cutoff": "2026-06-14T09:59:51Z",
+  "generated": "2026-07-14T10:54:45Z",
+  "cutoff": "2026-06-14T10:54:41Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.263.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.0",
+      "published": "2026-07-14T10:47:48Z",
+      "preview": "43.263.0 (2026-07-14) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.0 (main) ( #44568 ) ( 6e22797 ) Code Refactoring schemas: prefer Nullish schema utils instead of z.nullish() ( #44565 ) ( a31f9cf )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.262.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.262.4",
@@ -211,14 +219,6 @@
       "published": "2026-07-13T16:30:52Z",
       "preview": "What's Changed Capture offending gem details on bundler registry metadata errors by @kbukum1 in #15512 Bundler: apply empty-checksum metadata patch to the v2 helper by @kbukum1 in #15513 [Update graph] Ensure bystander txt files are removed before parsing for Python by @brrygrdn in #15508 Handle global.json with no SDK version in dotnet_sdk parser by @brettfo in #15510 Type the cargo ecosystem and remove it from the T.untyped burndown by @JamieMagee in #15492 Type the conda ecosystem and remove it from the T.untyped burndown by @JamieMagee in #15493 Type the docker ecosystem and remove it from",
       "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.261.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.261.0",
-      "published": "2026-07-13T16:04:38Z",
-      "preview": "43.261.0 (2026-07-13) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.73.0 (main) ( #44535 ) ( fda3e62 ) Miscellaneous Chores deps: update dependency memfs to v4.58.0 (main) ( #44533 ) ( 612eb3b ) deps: update dependency protobufjs@8.0.1 to v8.7.0 (main) ( #44534 ) ( f9aa2fa )",
-      "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
