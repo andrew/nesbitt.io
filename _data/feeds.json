@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-14T22:38:35Z",
-  "cutoff": "2026-06-14T22:38:30Z",
+  "generated": "2026-07-14T23:35:49Z",
+  "cutoff": "2026-06-14T23:35:45Z",
   "feed_count": 79,
   "item_count": 200,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "6.0.11",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.11",
+      "published": "2026-07-14T23:12:25Z",
+      "preview": "What's Changed Enable more cask metadata migration to JSON for all users by @MikeMcQuaid in #22958 Skip rewriting Mach-O binaries when delete_rpath changes nothing by @hyuraku in #23079 test_bot/formulae: remove generic tests by @cho-m in #23082 Return a shared type instance from type constructors when runtime checking is disabled by @dduugg in #23078 test_bot/formulae: skip portable Ruby tests on macOS if same version by @cho-m in #23083 Test fixes for portable Ruby macOS runners by @cho-m in #23081 test/cask/audit_spec: fix min OS for Intel by @cho-m in #23085 Fix brew outdated --greedy cras",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
     {
       "title": "2026-07-13 Release",
       "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-13",
@@ -1612,14 +1620,6 @@
       "preview": "pnpm 11.7 adds a frozenStore setting for installing against a read-only package store, a --batch flag for publishing a whole workspace in one request, scope-specific auth tokens, and full resolving installs delegated to pacquet. It also hardens lockfile alias handling, makes several install paths deterministic, and ships a number of publish and Windows fixes.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "2.0.0",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.0",
-      "published": "2026-06-14T23:30:22Z",
-      "preview": "See sbt 2.0 change summary . Full Changelog : v1.12.12...v2.0.0",
-      "source": "sbt releases",
-      "category": "Maven"
     }
   ]
 }
