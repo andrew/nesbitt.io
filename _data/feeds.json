@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-14T14:58:58Z",
-  "cutoff": "2026-06-14T14:58:53Z",
+  "generated": "2026-07-14T15:50:03Z",
+  "cutoff": "2026-06-14T15:49:59Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.6",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.6",
+      "published": "2026-07-14T15:44:23Z",
+      "preview": "(aqua) support private content and archives by @risu729 in [#10…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.7.1",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.7.1",
+      "published": "2026-07-14T15:41:11Z",
+      "preview": "Release aqua-registry 2026.7.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.11",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.11",
+      "published": "2026-07-14T15:40:53Z",
+      "preview": "Release vfox 2026.7.11",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "43.263.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.3",
@@ -774,14 +798,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "v2026.7.2: Template and Extraction Fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.2",
-      "published": "2026-07-07T16:19:07Z",
-      "preview": "This is a small bug-fix release focused on template compatibility, archive extraction, and a couple of tool-specific installs. Fixed config: restored the get_env template helper for Tera v2 templates, backed by mise's original process environment, so older templates keep working. Shared configs can also opt back into the temporary Tera v1 renderer with [env] MISE_TERA_V1 = true (which older mise versions safely ignore) ( #10830 by @jdx ): [ env ] MISE_TERA_V1 = \" true \" config: deprecated settings that you set explicitly, via [settings] (including nested keys like aqua.registry_url ), process ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.7.2",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.2",
       "published": "2026-07-07T15:16:49Z",
@@ -867,22 +883,6 @@
       "published": "2026-07-07T08:19:02Z",
       "preview": "[0.72.1] - 2026-07-07 ✨ Highlights This release contains important bugfixes for rich platforms, v3 repodata handling, pixi-build-r and more. Changed Do not fail when running tasks in an environment by @hunger in #6507 Provide R packages under their r-prefixed conda name by @roaldarbol in #6515 Suggest pixi self-update --version for requires-pixi errors by @hunger in #6516 Register run-export-introduced source deps on the assembled record by @wolfv in #6519 Let explicit source registrations win over implied ones by @Hofer-Julian in #6532 Documentation Document all override variables by @Hofer-J",
       "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "v2026.7.1: Tera v2 Templates and Safer Pruning",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.1",
-      "published": "2026-07-07T05:27:43Z",
-      "preview": "Added config: temporary tera_v1 / MISE_TERA_V1 escape hatch to keep rendering templates with the old Tera v1 engine after the upgrade to Tera v2 (scheduled for removal in 2027.4.0) #10817 cargo: experimental cargo.binstall_native fast path that installs prebuilt native binaries from crate package.metadata.binstall when cargo-binstall is unavailable, falling back to cargo install on misses #10789 bootstrap: start_calendar_interval support for macOS launchd agents, allowing calendar-based schedules (hour/minute/day/weekday/month) in addition to start_interval #10797 npm: trust_policy_excludes in",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.7.1",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.1",
-      "published": "2026-07-07T04:48:17Z",
-      "preview": "Release vfox 2026.7.1",
-      "source": "mise releases",
       "category": "Multi-language"
     },
     {
