@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-14T19:48:37Z",
-  "cutoff": "2026-06-14T19:48:33Z",
+  "generated": "2026-07-14T20:41:02Z",
+  "cutoff": "2026-06-14T20:40:58Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -21,14 +21,6 @@
     "System"
   ],
   "items": [
-    {
-      "title": "v12.0.0-alpha.12",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.12",
-      "published": "2026-07-14T18:52:04Z",
-      "preview": "v12.0.0-alpha.12",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
     {
       "title": "43.263.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.4",
@@ -1444,6 +1436,14 @@
       "preview": "1.55.0 Changelog POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636 docs: clarify swarm join required fields",
       "source": "Docker Engine releases",
       "category": "Containers"
+    },
+    {
+      "title": "pnpm 11.8",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.8.0",
+      "published": "2026-06-18T10:45:14Z",
+      "preview": "Minor Changes c112b61 : Added a --dry-run option to pnpm install . It runs a full dependency resolution and reports what an install would change, but writes nothing to disk (no lockfile, no node_modules ) and always exits with code 0. This mirrors the preview semantics of npm install --dry-run #7340 . 179ebc4 : pnpm run --no-bail now exits with a non-zero exit code when any of the executed scripts fail, while still running every matched script to completion. This makes the exit-code behavior of --no-bail consistent between recursive and non-recursive runs (recursive runs already failed at the ",
+      "source": "pnpm releases",
+      "category": "JavaScript"
     },
     {
       "title": "20260618t095000-all",
