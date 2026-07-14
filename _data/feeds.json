@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-14T09:01:07Z",
-  "cutoff": "2026-06-14T09:01:04Z",
+  "generated": "2026-07-14T09:59:55Z",
+  "cutoff": "2026-06-14T09:59:51Z",
   "feed_count": 79,
-  "item_count": 200,
+  "item_count": 201,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.262.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.262.4",
+      "published": "2026-07-14T09:59:49Z",
+      "preview": "43.262.4 (2026-07-14) Miscellaneous Chores deps: update dependency memfs to v4.59.0 (main) ( #44561 ) ( 3399c72 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.0 (main) ( #44564 ) ( ae15d64 ) Build System deps: update dependency re2 to v1.25.1 (main) ( #44546 ) ( 99006b2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "20260714t095300-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260714t095300-all",
+      "published": "2026-07-14T09:53:36Z",
+      "preview": "Deployment at 2026-07-14T09:53:17.406059Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-11-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-11-a",
@@ -212,14 +228,6 @@
       "preview": "What's Changed version/parser: speed up StemParser by @Bo98 in #23007 Send bundle check failures to stderr by @MikeMcQuaid in #23009 Guard release against stale main by @MikeMcQuaid in #23008 dev-cmd/bump-formula-pr: keep failures when downgrade fails by @cho-m in #23006 Skip incompatible cask upgrades by @MikeMcQuaid in #23012 Remove redundant T.let annotations Sorbet can infer by @dduugg in #23013 Avoid generated rmdir for shared file lists by @loganrosen in #22940 docs: escape braces to avoid Liquid tag handling by @cho-m in #23025 Fix test setup crash when multiple package APIs are cached ",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "43.260.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.260.3",
-      "published": "2026-07-13T10:02:31Z",
-      "preview": "43.260.3 (2026-07-13) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.72.8 (main) ( #44527 ) ( 0ca9a97 ) Documentation update references to astral-sh/setup-uv to v8.3.2 (main) ( #44516 ) ( 6f1dc71 ) update references to otel/opentelemetry-collector-contrib to v0.156.0 (main) ( #44519 ) ( b07352a ) update references to prom/prometheus to v3.13.1 (main) ( #44517 ) ( dc2f3f5 ) update references to renovate/renovate (main) ( #44520 ) ( 3c0b445 ) update references to renovatebot/github-action to v46.1.19 (main) ( #44518 ) ( a46fbe3 ) Miscellaneous Chores deps: lock file main",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-10-a",
