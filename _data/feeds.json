@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-14T10:54:45Z",
-  "cutoff": "2026-06-14T10:54:41Z",
+  "generated": "2026-07-14T12:46:06Z",
+  "cutoff": "2026-06-14T12:46:01Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.10.0.8",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.8",
+      "published": "2026-07-14T12:38:48Z",
+      "preview": "Insert 7.10.0.8 into main on 07/14/2026 12:38:48",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "43.263.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.1",
+      "published": "2026-07-14T12:10:32Z",
+      "preview": "43.263.1 (2026-07-14) Bug Fixes platform/azure: resolve work item states from process ( #44412 ) ( 483890a ) Miscellaneous Chores deps: update dependency memfs to v4.60.0 (main) ( #44570 ) ( cbfba3d ) Tests linter: add renovate/no-redundant-mock-reset rule ( #44557 ) ( 7436b80 ) linter: add renovate/no-stateful-global-regex rule ( #44566 ) ( 4176a3b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.263.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.0",
@@ -202,14 +218,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.261.2",
       "published": "2026-07-13T17:01:35Z",
       "preview": "43.261.2 (2026-07-13) Bug Fixes initialise logger before proxy ( #44152 ) ( 77da691 ), closes #44128",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.261.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.261.1",
-      "published": "2026-07-13T16:44:56Z",
-      "preview": "43.261.1 (2026-07-13) Build System deps: update dependency protobufjs to v8.7.0 (main) ( #44532 ) ( 0c0d91b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1234,14 +1242,6 @@
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.53",
       "published": "2026-06-24T16:53:02Z",
       "preview": "Insert 7.9.0.53 into main on 06/24/2026 16:53:02",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
-      "title": "7.9.0.51",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.51",
-      "published": "2026-06-24T12:22:28Z",
-      "preview": "Insert 7.9.0.51 into main on 06/24/2026 12:22:28",
       "source": "NuGet Client releases",
       "category": ".NET"
     },
