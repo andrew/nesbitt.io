@@ -1,7 +1,7 @@
 ---
 layout: null
-title: Homebrew Formula Momentum
-description: Homebrew formula install momentum across 30, 90, and 365 day analytics windows.
+title: Trending Formula
+description: Homebrew formula installs from the last 30 days compared with averages from the preceding 60 and 335 days.
 permalink: /homebrew/
 ---
 <!doctype html>
@@ -9,9 +9,9 @@ permalink: /homebrew/
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Homebrew formula install momentum across 30, 90, and 365 day analytics windows.">
+  <meta name="description" content="Homebrew formula installs from the last 30 days compared with averages from the preceding 60 and 335 days.">
   <link rel="canonical" href="https://nesbitt.io/homebrew/">
-  <title>Homebrew Formula Momentum</title>
+  <title>Trending Formula | Homebrew analytics</title>
   <style>
     :root {
       color-scheme: dark;
@@ -604,7 +604,7 @@ permalink: /homebrew/
       <div>
         <p class="eyebrow"><a href="/">nesbitt.io</a> / Homebrew analytics</p>
         <h1>Trending Formula</h1>
-        <p class="dek">See which formulae are pulling ahead of their earlier three-month and one-year install pace, and whether that demand came from users or dependency chains.</p>
+        <p class="dek">Compares installs from the last 30 days with averages from the preceding 60 and 335 days. Install-on-request counts are shown separately.</p>
       </div>
       <div class="date-stamp">
         Data through
@@ -616,11 +616,11 @@ permalink: /homebrew/
       <section class="panel" aria-labelledby="momentum-heading">
         <div class="section-heading">
           <div>
-            <h2 id="momentum-heading">Recent pace vs. prior baselines</h2>
-            <p>Upper right means all installs are above both earlier baselines. Color separates mostly direct requests from dependency-heavy installs; stable formulae within 15% of both are omitted.</p>
+            <h2 id="momentum-heading">30-day rate vs. earlier averages</h2>
+            <p>Each axis is the last 30 days divided by an earlier 30-day average. Formulae within 15% of both averages are hidden.</p>
           </div>
           <label class="control" for="minimum-installs">
-            Minimum 30-day installs
+            Minimum installs in 30 days
             <select id="minimum-installs">
               <option value="500">500+</option>
               <option value="1000" selected>1,000+</option>
@@ -632,25 +632,25 @@ permalink: /homebrew/
 
         <div id="chart-shell" class="chart-shell">
           <svg id="momentum-chart" role="img" aria-labelledby="chart-title chart-description">
-            <title id="chart-title">Homebrew formula install momentum</title>
-            <desc id="chart-description">A scatter plot comparing each formula's recent installs with earlier averages. Point color distinguishes direct user requests from dependency-heavy installs.</desc>
+            <title id="chart-title">Homebrew formula install ratios</title>
+            <desc id="chart-description">Scatter plot of the last 30 days divided by averages from the preceding 60 and 335 days. Color shows the install-on-request share.</desc>
           </svg>
           <div id="chart-tooltip" class="tooltip" role="status" hidden></div>
         </div>
 
         <p id="chart-readout" class="chart-readout" aria-live="polite"></p>
         <div class="legend" aria-label="Chart legend">
-          <span><i class="direct" aria-hidden="true"></i>At least 50% requested directly</span>
-          <span><i class="dependency" aria-hidden="true"></i>Mostly installed as a dependency</span>
-          <span><i class="momentum" aria-hidden="true"></i>Outline: above both baselines</span>
+          <span><i class="direct" aria-hidden="true"></i>50% or more install-on-request</span>
+          <span><i class="dependency" aria-hidden="true"></i>Under 50% install-on-request</span>
+          <span><i class="momentum" aria-hidden="true"></i>Outline: above both averages</span>
         </div>
       </section>
 
       <section class="panel table-panel" aria-labelledby="breakouts-heading">
         <div class="section-heading">
           <div>
-            <h2 id="breakouts-heading">Strongest all-install breakouts</h2>
-            <p id="breakouts-description">Ranked by the weaker all-install gain. Each row also shows how much recent demand was requested directly and whether that direct demand is accelerating.</p>
+            <h2 id="breakouts-heading">Highest all-install ratios</h2>
+            <p id="breakouts-description">Ranked by the lower of the 60- and 335-day ratios. Direct-request values are shown below the all-install values.</p>
           </div>
           <label class="control" for="table-mode">
             Rank table by
@@ -665,9 +665,9 @@ permalink: /homebrew/
             <thead>
               <tr>
                 <th scope="col">Formula</th>
-                <th scope="col">30-day demand</th>
-                <th scope="col">vs. prior 60d avg.</th>
-                <th scope="col">vs. prior 335d avg.</th>
+                <th scope="col">30-day count</th>
+                <th scope="col">vs. 60d avg.</th>
+                <th scope="col">vs. 335d avg.</th>
               </tr>
             </thead>
             <tbody id="breakout-rows"></tbody>
@@ -675,15 +675,15 @@ permalink: /homebrew/
         </div>
 
         <div id="new-activity" class="new-activity" hidden>
-          <h3>New or newly active</h3>
-          <p>No installs were observed before the recent window. These may be new formulae or previously dormant formulae; aggregate analytics cannot distinguish between the two.</p>
+          <h3>No prior install history</h3>
+          <p>No installs were recorded before the last 30 days. The data does not distinguish new formulae from returning formulae with no earlier installs.</p>
           <div class="table-wrap">
             <table>
               <thead>
                 <tr>
                   <th scope="col">Formula</th>
-                  <th scope="col">30-day demand</th>
-                  <th scope="col" colspan="2">History signal</th>
+                  <th scope="col">30-day count</th>
+                  <th scope="col" colspan="2">Recorded history</th>
                 </tr>
               </thead>
               <tbody id="new-activity-rows"></tbody>
@@ -694,7 +694,7 @@ permalink: /homebrew/
     </main>
 
     <footer class="method">
-      <p>Recent totals are subtracted from both all-install and install-on-request windows. The preceding 60 and 335 days are then scaled to the recent window. “Direct” means Homebrew recorded the formula as explicitly requested rather than installed as a dependency.</p>
+      <p>The latest 30 days are removed from the 90- and 365-day totals. The remaining 60 and 335 days are normalized to 30-day averages. “Direct” is Homebrew’s install-on-request count.</p>
       <p>Source: <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh analytics</a></p>
     </footer>
   </div>
@@ -720,7 +720,7 @@ permalink: /homebrew/
       const payload = JSON.parse(document.getElementById("analytics-data").textContent);
 
       if (!window.d3) {
-        chartShell.innerHTML = '<p class="error-message">The chart library could not be loaded. Check the network connection and reload this page.</p>';
+        chartShell.innerHTML = '<p class="error-message">The chart code did not load. Reload the page with a network connection.</p>';
         return;
       }
 
@@ -752,8 +752,8 @@ permalink: /homebrew/
       const formatDirectRatio = (row, window) => {
         const value = window === "short" ? row.directRatio90 : row.directRatio365;
         if (Number.isFinite(value)) return formatRatio(value);
-        if (row.directHistoryStatus === "recent_only") return "new";
-        if (row.directHistoryStatus === "reactivated") return window === "short" ? "reactivated" : formatRatio(row.directRatio365);
+        if (row.directHistoryStatus === "recent_only") return "no history";
+        if (row.directHistoryStatus === "reactivated") return window === "short" ? `no ${shortBaselineDays}d history` : formatRatio(row.directRatio365);
         return "—";
       };
       const conservativeScore = (row) => Math.min(row.ratio90, row.ratio365);
@@ -866,18 +866,18 @@ permalink: /homebrew/
         ).slice(0, 15);
 
         breakoutsHeading.textContent = directMode
-          ? "Strongest direct-request breakouts"
-          : "Strongest all-install breakouts";
+          ? "Highest direct-request ratios"
+          : "Highest all-install ratios";
         breakoutsDescription.textContent = directMode
-          ? `Ranked by the weaker direct-request gain, with at least ${number.format(payload.meta.dataFloor)} recent direct requests. All-install volume and momentum remain underneath for context.`
-          : "Ranked by the weaker all-install gain. Each row also shows how much recent demand was requested directly and whether that direct demand is accelerating.";
+          ? `Ranked by the lower of the 60- and 335-day direct-request ratios. Rows require at least ${number.format(payload.meta.dataFloor)} direct requests in the last 30 days; all-install values are shown below.`
+          : "Ranked by the lower of the 60- and 335-day ratios. Direct-request values are shown below the all-install values.";
         tableBody.replaceChildren();
 
         if (!breakouts.length) {
           const row = document.createElement("tr");
           const cell = createCell(row, directMode
-            ? "No direct-request breakouts meet the current thresholds."
-            : "No all-install breakouts meet the current thresholds.", "empty-table");
+            ? "No direct-request rows meet these filters."
+            : "No all-install rows meet these filters.", "empty-table");
           cell.colSpan = 4;
           tableBody.appendChild(row);
         }
@@ -898,7 +898,7 @@ permalink: /homebrew/
           shortRatio.className = "ratio short";
           const shortValue = directMode ? formula.directRatio90 : formula.ratio90;
           shortRatio.textContent = formatRatio(shortValue);
-          shortRatio.setAttribute("aria-label", `${formatRatio(shortValue)} the preceding short-window ${directMode ? "direct-request" : "all-install"} average`);
+          shortRatio.setAttribute("aria-label", `${formatRatio(shortValue)} the preceding ${shortBaselineDays}-day ${directMode ? "direct-request" : "all-install"} average`);
           shortCell.appendChild(shortRatio);
           addSecondaryRatio(shortCell, formula, "short", mode);
 
@@ -907,7 +907,7 @@ permalink: /homebrew/
           longRatio.className = "ratio long";
           const longValue = directMode ? formula.directRatio365 : formula.ratio365;
           longRatio.textContent = formatRatio(longValue);
-          longRatio.setAttribute("aria-label", `${formatRatio(longValue)} the preceding long-window ${directMode ? "direct-request" : "all-install"} average`);
+          longRatio.setAttribute("aria-label", `${formatRatio(longValue)} the preceding ${longBaselineDays}-day ${directMode ? "direct-request" : "all-install"} average`);
           longCell.appendChild(longRatio);
           addSecondaryRatio(longCell, formula, "long", mode);
           tableBody.appendChild(row);
@@ -935,8 +935,8 @@ permalink: /homebrew/
           signalCell.colSpan = 2;
           signalCell.className = "activity-label";
           signalCell.textContent = formula.historyStatus === "recent_only"
-            ? "No earlier installs in the 365-day window"
-            : "No installs in the preceding short window";
+            ? "No installs before the last 30 days"
+            : `No installs in the preceding ${shortBaselineDays} days`;
           newActivityBody.appendChild(row);
         });
       }
@@ -947,8 +947,8 @@ permalink: /homebrew/
         const newCount = allRows.filter((row) => !hasComparableHistory(row)).length;
         readout.replaceChildren();
 
-        const recentText = newCount ? ` · ${number.format(newCount)} recent-only` : "";
-        const countText = document.createTextNode(`${number.format(rows.length)} moving · ${number.format(breakoutCount)} above both · ${number.format(stableCount)} stable hidden${recentText}`);
+        const recentText = newCount ? ` · ${number.format(newCount)} without history` : "";
+        const countText = document.createTextNode(`${number.format(rows.length)} shown · ${number.format(breakoutCount)} above both · ${number.format(stableCount)} within ${percentage.format(payload.meta.minimumChange)} hidden${recentText}`);
         readout.appendChild(countText);
         if (!formula) return;
 
@@ -956,7 +956,7 @@ permalink: /homebrew/
         const name = document.createElement("span");
         name.className = "formula-name";
         name.textContent = formula.formula;
-        const detail = document.createTextNode(`: ${number.format(formula.installs30)} installs · ${percentage.format(formula.directShare)} direct · ${formatRatio(formula.ratio90)} short / ${formatRatio(formula.ratio365)} long`);
+        const detail = document.createTextNode(`: ${number.format(formula.installs30)} in 30d · ${percentage.format(formula.directShare)} direct · ${formatRatio(formula.ratio90)} vs. ${shortBaselineDays}d / ${formatRatio(formula.ratio365)} vs. ${longBaselineDays}d`);
         readout.append(separator, name, detail);
       }
 
@@ -966,7 +966,7 @@ permalink: /homebrew/
         name.textContent = formula.formula;
         const metrics = document.createElement("div");
         metrics.className = "tooltip-metrics";
-        metrics.setAttribute("aria-label", `${recentDays}-day count and momentum versus prior baselines`);
+        metrics.setAttribute("aria-label", `${recentDays}-day counts and ratios against ${shortBaselineDays}- and ${longBaselineDays}-day averages`);
 
         const metric = (text, className) => {
           const value = document.createElement("span");
@@ -990,7 +990,7 @@ permalink: /homebrew/
 
         const share = document.createElement("div");
         share.className = "tooltip-share";
-        share.textContent = `${percentage.format(formula.directShare)} requested directly`;
+        share.textContent = `${percentage.format(formula.directShare)} install-on-request`;
         tooltip.append(name, metrics, share);
       }
 
@@ -1030,13 +1030,13 @@ permalink: /homebrew/
         const rows = chartFormulae(allRows);
         if (!allRows.length) {
           chartElement.replaceChildren();
-          readout.textContent = "No formulae meet this install threshold.";
+          readout.textContent = "No formulae meet the install filter.";
           renderTable(allRows);
           return;
         }
         if (!rows.length) {
           chartElement.replaceChildren();
-          readout.textContent = "No established formulae show a meaningful change at this install threshold.";
+          readout.textContent = "No established formulae meet both the install and change filters.";
           renderTable(allRows);
           return;
         }
@@ -1072,9 +1072,9 @@ permalink: /homebrew/
         const svg = d3.select(chartElement);
         svg.selectAll("*").remove();
         svg.attr("viewBox", `0 0 ${width} ${height}`);
-        svg.append("title").attr("id", "chart-title").text("Homebrew formula install momentum");
+        svg.append("title").attr("id", "chart-title").text("Homebrew formula install ratios");
         svg.append("desc").attr("id", "chart-description").text(
-          `${number.format(rows.length)} moving established formulae. Horizontal position compares the recent ${recentDays}-day pace with the preceding ${longBaselineDays}-day pace; vertical position compares it with the preceding ${shortBaselineDays}-day pace. Gold points were mostly requested directly; teal points were mostly installed as dependencies.`
+          `${number.format(rows.length)} formulae shown. Horizontal position is the last ${recentDays} days divided by the preceding ${longBaselineDays}-day average. Vertical position uses the preceding ${shortBaselineDays}-day average. Gold marks have at least 50% install-on-request; teal marks have less than 50%.`
         );
 
         svg.append("rect")
@@ -1120,23 +1120,23 @@ permalink: /homebrew/
           .attr("x", margin.left + innerWidth / 2)
           .attr("y", height - 15)
           .attr("text-anchor", "middle")
-          .text(compact ? `${recentDays}d pace ÷ prior ${longBaselineDays}d avg` : `Recent ${recentDays}-day pace ÷ preceding ${longBaselineDays}-day average`);
+          .text(compact ? `${recentDays}d ÷ prior ${longBaselineDays}d avg` : `Last ${recentDays} days ÷ preceding ${longBaselineDays}-day average`);
         svg.append("text")
           .attr("class", "chart-note")
           .attr("transform", `translate(15,${margin.top + innerHeight / 2}) rotate(-90)`)
           .attr("text-anchor", "middle")
-          .text(compact ? `${recentDays}d pace ÷ prior ${shortBaselineDays}d avg` : `Recent ${recentDays}-day pace ÷ preceding ${shortBaselineDays}-day average`);
+          .text(compact ? `${recentDays}d ÷ prior ${shortBaselineDays}d avg` : `Last ${recentDays} days ÷ preceding ${shortBaselineDays}-day average`);
         svg.append("text")
           .attr("class", "chart-note")
           .attr("x", x(1) + 8)
           .attr("y", y(1) - 10)
           .attr("text-anchor", "start")
-          .text("ABOVE BOTH BASELINES");
+          .text("ABOVE BOTH AVERAGES");
         svg.append("text")
           .attr("class", "chart-note")
           .attr("x", margin.left + 4)
           .attr("y", margin.top + 14)
-          .text(compact ? "Area = installs" : "Bubble area = installs · extreme ratios clamp at the edge");
+          .text(compact ? "Area = 30-day installs" : "Area = 30-day installs · ratios above the axis maximum appear at the edge");
 
         const orderedRows = rows.slice().sort((a, b) => d3.ascending(a.installs30, b.installs30));
         const points = svg.append("g")
