@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-14T15:50:03Z",
-  "cutoff": "2026-06-14T15:49:59Z",
+  "generated": "2026-07-14T16:45:09Z",
+  "cutoff": "2026-06-14T16:45:05Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v2026.7.6",
+      "title": "v2026.7.6: Sandbox defaults, Flatpak bootstrap, and smarter task output",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.6",
-      "published": "2026-07-14T15:44:23Z",
-      "preview": "(aqua) support private content and archives by @risu729 in [#10…",
+      "published": "2026-07-14T16:23:32Z",
+      "preview": "Added task: per-task output style field, decoupled from verbosity, so styles like prefix and quietness combine freely #10885 sandbox: global [settings.sandbox] deny defaults ( deny_all , deny_read , deny_write , deny_net , deny_env ) #10940 bootstrap: Flatpak package support for [bootstrap.packages] on Linux #10951 oci: reproducible host path copy layers via mise oci build --copy HOST_PATH:IMAGE_PATH and [[oci.copy]] #10952 doctor: mise doctor now warns when a mise shim is shadowed by an earlier executable in PATH #10919 aqua: support for private github_content and github_archive packages via ",
       "source": "mise releases",
       "category": "Multi-language"
     },
