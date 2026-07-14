@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-14T06:04:33Z",
-  "cutoff": "2026-06-14T06:04:29Z",
+  "generated": "2026-07-14T07:01:59Z",
+  "cutoff": "2026-06-14T07:01:56Z",
   "feed_count": 79,
-  "item_count": 199,
+  "item_count": 198,
   "categories": [
     ".NET",
     "C/C++",
@@ -1604,14 +1604,6 @@
       "preview": "What's Changed stash/redis: add cluster-mode client support for singleflight by @leerieo in #2122 fix: bump golang.org/x/net to v0.55.0 to fix CVE-2026-39821 by @phoenixsbk in #2126 update-go-pkg(deps): bump google.golang.org/api from 0.275.0 to 0.284.0 by @dependabot [bot] in #2116 update-go-pkg(deps): bump github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager from 0.1.15 to 0.2.10 by @dependabot [bot] in #2115 update-github-action(deps): bump docker/build-push-action from 6 to 7 by @dependabot [bot] in #2114 update-github-action(deps): bump docker/setup-qemu-action from 3 to 4 by @dependab",
       "source": "Athens releases",
       "category": "Go"
-    },
-    {
-      "title": "1.12.12",
-      "url": "https://github.com/sbt/sbt/releases/tag/v1.12.12",
-      "published": "2026-06-14T06:28:49Z",
-      "preview": "bug fixes fix: Fixes console that references Java module classes on JDK 9+ by @BrianHotopp in #9327 fix: Fixes sbt --version to now show JDK warnings on JDK 25 by @bitloi in #8822 fix: Fixes stdout/stderr not displaying on sbtn by @BrianHotopp in #9265 fix: Ensure resources are copied atomically by @anatoliykmetyuk in #9196 behind the scenes Update sbtn to 2.0.0-f0d2fae4 by @eed3si9n in #9334 test: Make custom-scala-org scripted test hermetic by @BrianHotopp in #9260 ci: Skip 2.13 modules from graph submission by @eed3si9n in #9328 Full Changelog : v1.12.11...v1.12.12",
-      "source": "sbt releases",
-      "category": "Maven"
     }
   ]
 }
