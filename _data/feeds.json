@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-15T09:02:35Z",
-  "cutoff": "2026-06-15T09:02:31Z",
+  "generated": "2026-07-15T10:00:28Z",
+  "cutoff": "2026-06-15T10:00:24Z",
   "feed_count": 79,
   "item_count": 193,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpr@0.1.0-alpha.3: chore(release): pacquet 12.0.0-alpha.12, pnpr 0.1.0-alpha.3 (#13023)",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.3",
+      "published": "2026-07-15T09:42:38Z",
+      "preview": "Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.0.0-alpha.12: chore(release): pacquet 12.0.0-alpha.12, pnpr 0.1.0-alpha.3 (#13023)",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.12",
+      "published": "2026-07-15T09:42:38Z",
+      "preview": "Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v0.73.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.73.0",
+      "published": "2026-07-15T09:12:13Z",
+      "preview": "[0.73.0] - 2026-07-15 ✨ Highlights This release brings two big features: workspace = true now also works in environment [dependency] tables TOML 1.1 multiline inline tables are now fully supported As usual we also fixed a couple of bugs. workspace = true in environment dependency tables Until now, { workspace = true } only worked in the package dependency tables and required the pixi-build preview. With this release, the environment tables can inherit from [workspace.dependencies] as well, no preview needed. That means a version shared by several features or targets only has to be declared onc",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "43.263.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.7",
@@ -830,14 +854,6 @@
       "category": "PHP"
     },
     {
-      "title": "pixi-build-cmake-v0.4.4",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.4",
-      "published": "2026-07-07T11:33:41Z",
-      "preview": "chore: bump backend versions ( #6539 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "pixi-build-mojo-v0.2.4",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.4",
       "published": "2026-07-07T11:33:41Z",
@@ -1294,14 +1310,6 @@
       "category": "Python"
     },
     {
-      "title": "pnpm 11.9",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.9.0",
-      "published": "2026-06-23T15:55:03Z",
-      "preview": "Minor Changes bae694f : Some registries generate tarballs on-demand and cannot provide an integrity checksum in their package metadata. In that case pnpm now computes the integrity from the downloaded tarball and stores it in the lockfile, so the entry is verifiable on subsequent installs instead of being written without an integrity (which would fail the next install). This also applies to --lockfile-only : the tarball is downloaded so its integrity can be computed. A lockfile entry that is still missing its integrity is rejected as a ERR_PNPM_MISSING_TARBALL_INTEGRITY lockfile verification v",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v29.6.0",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.0",
       "published": "2026-06-23T08:08:09Z",
@@ -1444,14 +1452,6 @@
       "preview": "1.55.0 Changelog POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636 docs: clarify swarm join required fields",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "pnpm 11.8",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.8.0",
-      "published": "2026-06-18T10:45:14Z",
-      "preview": "Minor Changes c112b61 : Added a --dry-run option to pnpm install . It runs a full dependency resolution and reports what an install would change, but writes nothing to disk (no lockfile, no node_modules ) and always exits with code 0. This mirrors the preview semantics of npm install --dry-run #7340 . 179ebc4 : pnpm run --no-bail now exits with a non-zero exit code when any of the executed scripts fail, while still running every matched script to completion. This makes the exit-code behavior of --no-bail consistent between recursive and non-recursive runs (recursive runs already failed at the ",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "20260618t095000-all",
