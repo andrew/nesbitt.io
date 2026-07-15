@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-15T19:45:12Z",
-  "cutoff": "2026-06-15T19:45:08Z",
+  "generated": "2026-07-15T21:37:50Z",
+  "cutoff": "2026-06-15T21:37:46Z",
   "feed_count": 79,
-  "item_count": 194,
+  "item_count": 195,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.15.1",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.15.1",
+      "published": "2026-07-15T21:34:34Z",
+      "preview": "What's Changed Keep trash cleanup non-fatal for locked files by @cyphercodes in #1848 Fix --with being dropped for PEP 723 scripts on the pip backend by @2ykwang in #1849 Fix uninject leaving man page symlinks behind by @sronix in #1854 Refresh metadata after runpip installs by @itscloud0 in #1855 🐛 fix(spec): accept local VCS URLs by @gaborbernat in #1859 🐛 fix(install): resolve local find-links by @gaborbernat in #1860 🐛 fix(ensurepath): configure global PATH by @gaborbernat in #1861 🐛 fix(metadata): tolerate corrupt files by @gaborbernat in #1863 🐛 fix(run): translate uv pip options by @gab",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "v12.0.0-alpha.13",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.13",
+      "published": "2026-07-15T21:33:24Z",
+      "preview": "v12.0.0-alpha.13",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v2026.7.7: Monorepo deps, systemd timers, and OAuth reliability",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.7",
@@ -1003,14 +1019,6 @@
       "published": "2026-07-05T00:00:00Z",
       "preview": "pnpm 11.10 adds the _auth setting for CI-friendly registry authentication, new pnpm prefix and pnpm issues commands, and the ability for pnpm self-update to install pnpm v12 (the Rust port). It also improves pnpm up accuracy, speeds up resolution against registries that ignore abbreviated metadata, and hardens global package management, pnpm deploy, and pnpm pack-app.",
       "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 11.10",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.10.0",
-      "published": "2026-07-04T19:58:37Z",
-      "preview": "Minor Changes e2e3c81 : Added the issues command as an alias of bugs , so pnpm issues opens the package's bug tracker URL in the browser. 8491f8e : Added the prefix command which prints the current package prefix directory (or global prefix directory if -g / --global is used). 3425e80 : Added an _auth setting for configuring registry authentication as a single structured (URL-keyed) value. It can be set in the global pnpm config ( config.yaml ) or, for CI, via the pnpm_config__auth environment variable. The env form sidesteps the GitHub Actions / bash / zsh limitation that broke the existing p",
-      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
