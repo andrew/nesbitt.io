@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-15T14:58:21Z",
-  "cutoff": "2026-06-15T14:58:16Z",
+  "generated": "2026-07-15T15:51:50Z",
+  "cutoff": "2026-06-15T15:51:45Z",
   "feed_count": 79,
   "item_count": 193,
   "categories": [
@@ -22,12 +22,28 @@
   ],
   "items": [
     {
+      "title": "43.264.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.264.1",
+      "published": "2026-07-15T15:45:11Z",
+      "preview": "43.264.1 (2026-07-15) Bug Fixes rebase request not bypassing commit limits ( #43031 ) ( cb0ee72 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.7 (main) ( #44609 ) ( 001dd5b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "v2.9.3",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.3",
-      "published": "2026-07-15T13:38:12Z",
-      "preview": "refactor(npm): merge fast-registry-json crate into deno_npm ( #35874 )",
+      "published": "2026-07-15T15:35:06Z",
+      "preview": "2.9.3 / 2026.07.15 feat(cli): deno add --no-save and --save-optional ( #36039 ) feat(cli): add --min-dep-age alias ( #35914 ) feat(compile): support aarch64-pc-windows-msvc target ( #36004 ) feat(ext/fetch): add http2MaxHeaderListSize option to Deno.createHttpClient ( #33194 ) fix(bundle): preserve raw imports in watch mode ( #36040 ) fix(canvas): don't hold SurfaceData mut borrow over window resize ( #35993 ) fix(config): reject out-of-range minimum dependency ages ( #36051 ) fix(core): block user ext imports after resolution ( #36012 ) fix(core): deactivate idle TTY write handles ( #35886 ) ",
       "source": "Deno releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "43.264.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.264.0",
+      "published": "2026-07-15T15:04:58Z",
+      "preview": "43.264.0 (2026-07-15) Features add --rebase-all-open-branches ( #44607 ) ( 13b5ae4 ) Miscellaneous Chores deps: update dependency memfs to v4.64.0 (main) ( #44580 ) ( 3499785 ) deps: update dependency memfs to v4.64.0 (main) ( #44602 ) ( 6b28213 ) deps: update zizmor (main) ( #44601 ) ( 461248e ) Continuous Integration add auto:pls-merge-main label workflow to merge main into a PR branch ( #44599 ) ( cc5bcaa )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "7.10.0.11",
@@ -228,22 +244,6 @@
       "preview": "Insert 7.10.0.8 into main on 07/14/2026 12:38:48",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "43.263.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.1",
-      "published": "2026-07-14T12:10:32Z",
-      "preview": "43.263.1 (2026-07-14) Bug Fixes platform/azure: resolve work item states from process ( #44412 ) ( 483890a ) Miscellaneous Chores deps: update dependency memfs to v4.60.0 (main) ( #44570 ) ( cbfba3d ) Tests linter: add renovate/no-redundant-mock-reset rule ( #44557 ) ( 7436b80 ) linter: add renovate/no-stateful-global-regex rule ( #44566 ) ( 4176a3b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.263.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.0",
-      "published": "2026-07-14T10:47:48Z",
-      "preview": "43.263.0 (2026-07-14) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.0 (main) ( #44568 ) ( 6e22797 ) Code Refactoring schemas: prefer Nullish schema utils instead of z.nullish() ( #44565 ) ( a31f9cf )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20260714t095300-all",
