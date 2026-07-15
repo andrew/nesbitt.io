@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-15T15:51:50Z",
-  "cutoff": "2026-06-15T15:51:45Z",
+  "generated": "2026-07-15T16:48:04Z",
+  "cutoff": "2026-06-15T16:48:00Z",
   "feed_count": 79,
-  "item_count": 193,
+  "item_count": 192,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.264.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.264.2",
+      "published": "2026-07-15T16:02:18Z",
+      "preview": "43.264.2 (2026-07-15) Bug Fixes config: move checkedBranches and rebaseAllOpenBranches into GlobalConfig ( #44611 ) ( 42864eb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.264.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.264.1",
@@ -226,14 +234,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.3",
       "published": "2026-07-14T14:40:41Z",
       "preview": "43.263.3 (2026-07-14) Bug Fixes misleading PR body changed log when autoApprove is enabled ( #43913 ) ( 5aa3c7e ) Miscellaneous Chores deps: update dependency memfs to v4.62.0 (main) ( #44577 ) ( 26c1641 ) log how many branches commitHourlyLimit is being calculated against ( #44575 ) ( 121f5df )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.263.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.2",
-      "published": "2026-07-14T13:37:53Z",
-      "preview": "43.263.2 (2026-07-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.1 (main) ( #44573 ) ( 54d52f2 ) Miscellaneous Chores deps: update dependency memfs to v4.61.0 (main) ( #44574 ) ( b41d05f ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.1 (main) ( #44572 ) ( 6b80c5d ) Code Refactoring oxlint: enable no-else-return and unicorn/no-lonely-if ( #44553 ) ( 9717259 ) oxlint: enable typescript/no-unnecessary-type-arguments ( #44555 ) ( d57843c ) oxlint: enable unicorn/prefer-at ( #44556 ) ( 64e6a4c ) Tests linters: add codeblock linter rule for spe",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1556,14 +1556,6 @@
       "preview": "What's Changed Add support for scope property in npm_registry credentials by @AbhishekBhaskar in #15219 uv: Remove dead add_auth_env_vars code and add credential matching diagnostics by @kbukum1 in #15209 Fix npm registry credential leak to sibling paths on the same host by @Copilot in #15248 Fix pnpm lockfileVersion 9.0 parsing error with optional chaining by @markhallen in #13959 Parse remaining Job collections into typed structs by @JamieMagee in #15262 Add a typed Hash subclass for requirement entries by @JamieMagee in #15263 Fix Gradle wrapper jar encoding by @kbukum1 in #15235 fix(maven)",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v3.11.1",
-      "url": "https://github.com/commercialhaskell/stack/releases/tag/v3.11.1",
-      "published": "2026-06-15T16:16:38Z",
-      "preview": "See https://haskellstack.org/ for installation and upgrade instructions. Changes since v3.9.3: Major changes: On 64-bit Windows, the default msys-environment configuration option is now CLANG64 , rather than MINGW64 (which remains an option). The MSYS2 project deprecated the latter environment on 15 March 2026. The GHC project has used the former toolchain from GHC 9.4.1. No default is provided for 32-bit Windows, rather than MINGW32 (which remains an option). The MSYS2 project ceased to actively support it on 17 May 2020. 32-bit Windows is not supported by the GHC project from GHC 9.0.1. Beha",
-      "source": "Stack releases",
-      "category": "Registries"
     }
   ]
 }
