@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-15T16:48:04Z",
-  "cutoff": "2026-06-15T16:48:00Z",
+  "generated": "2026-07-15T18:41:34Z",
+  "cutoff": "2026-06-15T18:41:29Z",
   "feed_count": 79,
-  "item_count": 192,
+  "item_count": 194,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.18.1",
+      "url": "https://github.com/gomods/athens/releases/tag/v0.18.1",
+      "published": "2026-07-15T18:39:59Z",
+      "preview": "What's Changed chore(deps): bump golang.org/x/crypto from 0.51.0 to 0.52.0 by @dependabot [bot] in #2148 Revert in-process subprocess reaper, rely on tini by @matt0x6F in #2137 Replace OpenCensus with OpenTelemetry by @matt0x6F in #2138 update-github-action(deps): bump actions/upload-pages-artifact from 4 to 5 by @dependabot [bot] in #2129 update-github-action(deps): bump docker/setup-buildx-action from 3 to 4 by @dependabot [bot] in #2130 update-go-pkg(deps): bump github.com/go-sql-driver/mysql from 1.9.3 to 1.10.0 by @dependabot [bot] in #2132 update-go-pkg(deps): bump go.mongodb.org/mongo-d",
+      "source": "Athens releases",
+      "category": "Go"
+    },
+    {
+      "title": "1.16.0",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.16.0",
+      "published": "2026-07-15T18:21:47Z",
+      "preview": "Release 1.16.0",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "v2026.7.7",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.7",
+      "published": "2026-07-15T18:00:20Z",
+      "preview": "(bootstrap) support systemd timers by @jdx in [ #10984 ](https://…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.7.2",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.7.2",
+      "published": "2026-07-15T17:57:43Z",
+      "preview": "Release aqua-registry 2026.7.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.12",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.12",
+      "published": "2026-07-15T17:57:23Z",
+      "preview": "Release vfox 2026.7.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "43.264.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.264.2",
@@ -710,14 +750,6 @@
       "category": "Containers"
     },
     {
-      "title": "v2026.7.3: System dependency checks and cask lifecycle hooks",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.3",
-      "published": "2026-07-08T16:55:01Z",
-      "preview": "This release brings smarter builds for source-compiling tools, better Homebrew cask support, and a fix for lockfile entries losing their platform data during upgrades. Added vfox: plugin-declared system dependencies. Source-compiling plugins (php, mysql, erlang, ...) often need build tools and libraries that previously showed up only as a failed ./configure twenty minutes into a build. vfox plugins can now declare these prerequisites in metadata.lua , and mise checks them before installing ( #10848 by @jdx ): PLUGIN . systemDependencies = { { bin = \" bison \" , version = \" >=3.0 \" , packages = ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v4.17.1",
       "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.17.1",
       "published": "2026-07-08T16:48:56Z",
@@ -748,14 +780,6 @@
       "preview": "@yarnpkg/plugin-patch",
       "source": "Yarn releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "vfox-v2026.7.8",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.8",
-      "published": "2026-07-08T14:45:33Z",
-      "preview": "Release vfox 2026.7.8",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v2.9.2",
@@ -843,14 +867,6 @@
       "published": "2026-07-07T16:26:27Z",
       "preview": "Bug fixes Installer bugfixes: Fix a hang of the new installer when running under forkserver ( #52621 ) Sanitize the computed build log filename ( #52660 ) Allow local installs for packages missing in upstream ( #52630 ) Restore working_dir in build subprocess ( #52576 ) Solver bugfixes: Restore performance on macOS ( #52604 , #52603 ) Fix the solver heuristic for build_set_id ( #52634 ) Drop noisy debug message ( #52640 ) Fix environment view regeneration when using multiple overlayfs layers ( #52594 ) Fix spack cd -e and other dash-prefixed args in fish ( #52586 ) Fix spack location with -v /",
       "source": "Spack releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.7.2",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.2",
-      "published": "2026-07-07T15:16:49Z",
-      "preview": "Release vfox 2026.7.2",
-      "source": "mise releases",
       "category": "Multi-language"
     },
     {
