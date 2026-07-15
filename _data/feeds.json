@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-15T13:58:35Z",
-  "cutoff": "2026-06-15T13:58:31Z",
+  "generated": "2026-07-15T14:58:21Z",
+  "cutoff": "2026-06-15T14:58:16Z",
   "feed_count": 79,
-  "item_count": 194,
+  "item_count": 193,
   "categories": [
     ".NET",
     "C/C++",
@@ -1564,14 +1564,6 @@
       "preview": "See https://haskellstack.org/ for installation and upgrade instructions. Changes since v3.9.3: Major changes: On 64-bit Windows, the default msys-environment configuration option is now CLANG64 , rather than MINGW64 (which remains an option). The MSYS2 project deprecated the latter environment on 15 March 2026. The GHC project has used the former toolchain from GHC 9.4.1. No default is provided for 32-bit Windows, rather than MINGW32 (which remains an option). The MSYS2 project ceased to actively support it on 17 May 2020. 32-bit Windows is not supported by the GHC project from GHC 9.0.1. Beha",
       "source": "Stack releases",
       "category": "Registries"
-    },
-    {
-      "title": "6.0.2",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.2",
-      "published": "2026-06-15T14:05:05Z",
-      "preview": "What's Changed rubocops/lines: add JavaVersions cop by @cho-m in #22681 os/mac/hardware/cpu: fallback to generic CPU detection if sysctl fails by @Bo98 in #22682 Handle pinned dependency failures in upgrade previews by @rexmhall09 in #22683 codex/hooks: return JSON. by @MikeMcQuaid in #22686 build(deps): bump the github-actions group across 1 directory with 2 updates by @dependabot [bot] in #22689 build(deps): bump the bundler group across 2 directories with 11 updates by @dependabot [bot] in #22688 sandbox: deny all of $HOME except Homebrew dirs by @MikeMcQuaid in #22660 Trust custom remote i",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
