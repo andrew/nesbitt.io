@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-15T18:41:34Z",
-  "cutoff": "2026-06-15T18:41:29Z",
+  "generated": "2026-07-15T19:45:12Z",
+  "cutoff": "2026-06-15T19:45:08Z",
   "feed_count": 79,
   "item_count": 194,
   "categories": [
@@ -22,28 +22,28 @@
   ],
   "items": [
     {
+      "title": "v2026.7.7: Monorepo deps, systemd timers, and OAuth reliability",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.7",
+      "published": "2026-07-15T18:49:36Z",
+      "preview": "This release extends dependency providers and systemd bootstrap to monorepo and timer-based workflows, and hardens GitHub OAuth token refreshes and cache clearing against concurrent mise processes. Added deps: experimental mise deps --monorepo runs dependency providers across every explicitly configured [monorepo].config_roots entry, aligned with mise install --monorepo . Provider IDs are qualified by config root (e.g. //apps/api:uv ) so repeated provider names across subprojects no longer collide, and mise installs the union of tools declared across participating roots before running provider",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "0.11.29",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.29",
+      "published": "2026-07-15T18:44:43Z",
+      "preview": "Release Notes Released on 2026-07-15. Python Use gzip-compressed artifacts for PyPy downloads ( #20265 ) Enhancements Add JSON output to uv tree ( #19978 ) Add CUDA 13.2 as a supported PyTorch backend ( #20267 ) Prefer local artifacts over URLs when installing from pylock.toml ( #20393 ) Clarify diagnostics for unsatisfiable direct requirement ranges ( #20227 ) Include the selected project name in missing-extra errors ( #20358 ) Preview features Preserve extras and dependency-group conflict context when selecting locked project tools ( #20078 ) Split OSV audit queries that exceed the service's",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
       "title": "v0.18.1",
       "url": "https://github.com/gomods/athens/releases/tag/v0.18.1",
       "published": "2026-07-15T18:39:59Z",
       "preview": "What's Changed chore(deps): bump golang.org/x/crypto from 0.51.0 to 0.52.0 by @dependabot [bot] in #2148 Revert in-process subprocess reaper, rely on tini by @matt0x6F in #2137 Replace OpenCensus with OpenTelemetry by @matt0x6F in #2138 update-github-action(deps): bump actions/upload-pages-artifact from 4 to 5 by @dependabot [bot] in #2129 update-github-action(deps): bump docker/setup-buildx-action from 3 to 4 by @dependabot [bot] in #2130 update-go-pkg(deps): bump github.com/go-sql-driver/mysql from 1.9.3 to 1.10.0 by @dependabot [bot] in #2132 update-go-pkg(deps): bump go.mongodb.org/mongo-d",
       "source": "Athens releases",
       "category": "Go"
-    },
-    {
-      "title": "1.16.0",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.16.0",
-      "published": "2026-07-15T18:21:47Z",
-      "preview": "Release 1.16.0",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "v2026.7.7",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.7",
-      "published": "2026-07-15T18:00:20Z",
-      "preview": "(bootstrap) support systemd timers by @jdx in [ #10984 ](https://…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "aqua-registry-v2026.7.2",
