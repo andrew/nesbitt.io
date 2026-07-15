@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-15T10:00:28Z",
-  "cutoff": "2026-06-15T10:00:24Z",
+  "generated": "2026-07-15T10:57:50Z",
+  "cutoff": "2026-06-15T10:57:46Z",
   "feed_count": 79,
   "item_count": 193,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.263.9",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.9",
+      "published": "2026-07-15T10:19:38Z",
+      "preview": "43.263.9 (2026-07-15) Bug Fixes platform/azure: don't create Dependency Dashboard for projects without an Issue type ( #44592 ) ( 2d431ea )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.263.8",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.8",
+      "published": "2026-07-15T10:03:50Z",
+      "preview": "43.263.8 (2026-07-15) Bug Fixes worker/repository: only set artifacts status when branch was updated ( #44597 ) ( 4ca050e ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.3 (main) ( #44595 ) ( 80f9ccf ) deps: update dependency @types/node to v24.13.3 (main) ( #44593 ) ( 0c7f4c6 ) deps: update dependency tsdown to v0.22.4 (main) ( #44596 ) ( be1027d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpr@0.1.0-alpha.3: chore(release): pacquet 12.0.0-alpha.12, pnpr 0.1.0-alpha.3 (#13023)",
       "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.3",
@@ -214,14 +230,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "43.262.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.262.4",
-      "published": "2026-07-14T09:59:49Z",
-      "preview": "43.262.4 (2026-07-14) Miscellaneous Chores deps: update dependency memfs to v4.59.0 (main) ( #44561 ) ( 3399c72 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.0 (main) ( #44564 ) ( ae15d64 ) Build System deps: update dependency re2 to v1.25.1 (main) ( #44546 ) ( 99006b2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "20260714t095300-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260714t095300-all",
       "published": "2026-07-14T09:53:36Z",
@@ -236,14 +244,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-11-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.262.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.262.3",
-      "published": "2026-07-14T08:48:19Z",
-      "preview": "43.262.3 (2026-07-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.74.3 (main) ( #44558 ) ( 08f723e ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.12.13 (main) ( #44549 ) ( 71bb1e2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20260714t082700-all",
