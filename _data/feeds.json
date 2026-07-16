@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-16T09:05:18Z",
-  "cutoff": "2026-06-16T09:05:12Z",
+  "generated": "2026-07-16T10:01:12Z",
+  "cutoff": "2026-06-16T10:01:07Z",
   "feed_count": 79,
   "item_count": 197,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.265.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.1",
+      "published": "2026-07-16T09:29:20Z",
+      "preview": "43.265.1 (2026-07-16) Build System revert docker build cross-compilation workaround ( #44017 ) ( 78060bc ), closes #43984",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
@@ -322,14 +330,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.5",
       "published": "2026-07-14T20:53:53Z",
       "preview": "43.263.5 (2026-07-14) Build System deps: update dependency re2 to v1.25.2 (main) ( #44586 ) ( 7449371 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.263.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.4",
-      "published": "2026-07-14T18:47:14Z",
-      "preview": "43.263.4 (2026-07-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.2 (main) ( #44583 ) ( 79e0a29 ) gerrit: enforce username in SSH Git URLs ( #43651 ) ( b3a21cf ) Miscellaneous Chores workers/repository: instrument calculation of limits ( #44581 ) ( df7aa7b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
