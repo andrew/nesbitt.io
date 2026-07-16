@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-16T10:01:12Z",
-  "cutoff": "2026-06-16T10:01:07Z",
+  "generated": "2026-07-16T12:51:47Z",
+  "cutoff": "2026-06-16T12:51:43Z",
   "feed_count": 79,
-  "item_count": 197,
+  "item_count": 198,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.10.0.16",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.16",
+      "published": "2026-07-16T12:28:38Z",
+      "preview": "Insert 7.10.0.16 into main on 07/16/2026 12:28:37",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "43.265.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.1",
@@ -92,6 +100,14 @@
       "preview": "What's Changed 📝 docs: restore the 1.16.0 changelog fragments by @gaborbernat in #1961 Full Changelog : 1.15.2...1.16.0",
       "source": "pipx releases",
       "category": "Python"
+    },
+    {
+      "title": "Announcing Rust 1.97.1",
+      "url": "https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
+      "published": "2026-07-16T00:00:00Z",
+      "preview": "The Rust team has published a new point release of Rust, 1.97.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.97.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.97.1 Rust 1.97.1 fixes a miscompilation in an LLVM optimization . We have backported both an LLVM fix and a disable of the underlying change in Rust 1.97.0 of Rust's generated IR that increased the likelihood of th",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "1.15.2",
@@ -1316,14 +1332,6 @@
       "preview": "Security This release addresses CVE-2026-57231, where a malicious image using malformed Env entries could cause host environment variables to leak into containers run based on the image, including the ability to use the * glob operator to leak large numbers of environment variables without knowing their exact names ( GHSA-4hq8-gpf5-8p68 ). Breaking Changes Due to breaking changes in this release, Podman v6.0.0 must be used with Buildah v1.44.0, Skopeo v1.23, Netavark and Aardvark v2.0.0, and configuration files from the container-libs repository's common/v0.68.0 release. Support for BoltDB dat",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "7.9.0.54",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.54",
-      "published": "2026-06-24T17:04:43Z",
-      "preview": "Insert 7.9.0.54 into main on 06/24/2026 17:04:43",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "v0.383.0",
