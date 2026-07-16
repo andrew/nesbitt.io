@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-16T00:52:26Z",
-  "cutoff": "2026-06-16T00:52:22Z",
+  "generated": "2026-07-16T08:01:04Z",
+  "cutoff": "2026-06-16T08:00:59Z",
   "feed_count": 79,
   "item_count": 196,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.265.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.0",
+      "published": "2026-07-16T07:13:07Z",
+      "preview": "43.265.0 (2026-07-16) Features logging: do not use dynamic fields in log messages with severity WARN or higher ( #44560 ) ( c41b46b ) Continuous Integration agent-hooks: run checks only on file changes ( #44612 ) ( d6fc7bd ) extend old vm workaround to build-docker job ( #44614 ) ( 170b972 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-32.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-32.0.dev",
@@ -340,14 +348,6 @@
       "preview": "Release vfox 2026.7.11",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.263.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.3",
-      "published": "2026-07-14T14:40:41Z",
-      "preview": "43.263.3 (2026-07-14) Bug Fixes misleading PR body changed log when autoApprove is enabled ( #43913 ) ( 5aa3c7e ) Miscellaneous Chores deps: update dependency memfs to v4.62.0 (main) ( #44577 ) ( 26c1641 ) log how many branches commitHourlyLimit is being calculated against ( #44575 ) ( 121f5df )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.10.0.8",
