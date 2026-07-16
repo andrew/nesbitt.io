@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-16T12:51:47Z",
-  "cutoff": "2026-06-16T12:51:43Z",
+  "generated": "2026-07-16T15:49:41Z",
+  "cutoff": "2026-06-16T15:49:37Z",
   "feed_count": 79,
   "item_count": 198,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.265.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.2",
+      "published": "2026-07-16T15:18:33Z",
+      "preview": "43.265.2 (2026-07-16) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.4 (main) ( #44644 ) ( 7d1c833 ) Miscellaneous Chores deps: update dependency esbuild to v0.28.1 (main) ( #44638 ) ( 7e42c0e ) deps: update dependency uv to v0.11.29 (main) ( #44639 ) ( c47f8e0 ) deps: update dependency vite to v8.1.4 (main) ( #44640 ) ( b32c6c6 ) Tests set NODE_ENV to test explicitly ( #44622 ) ( 64aa927 ) Build System deps: update dependency @renovatebot/pgp to v1.3.16 (main) ( #44618 ) ( d36747c ) deps: update dependency re2 to v1.26.0 (main) ( #44590 ) ( e096334 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.10.0.16",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.16",
@@ -340,14 +348,6 @@
       "preview": "ORAS CLI v1.3.3 is a maintenance release focused on security hardening, dependency updates, and a few user-facing improvements to oras attach . Highlights 🔒 Security: upgraded oras-go to v2.6.2 , which addresses a tar-extraction path-traversal advisory ( GHSA-fxhp-mv3v-67qp ) affecting hardlink entries during pull /extract. ✨ oras attach gains --config support, and --annotation $config:* values now flow through to the packed manifest. 🛡️ Supply-chain hardening: GitHub Actions are now pinned to commit SHAs, SBOMs are attached to release artifacts, and static security scanning (gosec) runs in CI",
       "source": "ORAS releases",
       "category": "Containers"
-    },
-    {
-      "title": "43.263.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.5",
-      "published": "2026-07-14T20:53:53Z",
-      "preview": "43.263.5 (2026-07-14) Build System deps: update dependency re2 to v1.25.2 (main) ( #44586 ) ( 7449371 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.7.6: Sandbox defaults, Flatpak bootstrap, and smarter task output",
