@@ -149,6 +149,24 @@ rescue Date::Error, KeyError, TypeError, ArgumentError => e
   raise "invalid #{event}/#{window} response: #{e.message}"
 end
 
+def normalize_window_counts(formula, metric, counts)
+  normalized = counts.dup
+
+  WINDOWS.each_cons(2) do |shorter_window, longer_window|
+    next if normalized.fetch(longer_window) >= normalized.fetch(shorter_window)
+
+    normalized[longer_window] = normalized.fetch(shorter_window)
+  end
+
+  if normalized != counts
+    original_counts = WINDOWS.map { |window| "#{window}=#{counts.fetch(window)}" }.join(", ")
+    warn "Normalizing non-monotonic #{metric} for #{formula.inspect} (#{original_counts}); " \
+         "Homebrew queries rolling windows independently"
+  end
+
+  normalized
+end
+
 def build_dataset(snapshots, data_floor, minimum_change)
   end_dates = snapshots.values.flat_map do |event_snapshots|
     event_snapshots.values.map { |snapshot| snapshot.fetch("endDate") }
@@ -177,12 +195,15 @@ def build_dataset(snapshots, data_floor, minimum_change)
 
     installs90 = medium.fetch("counts").fetch(formula, 0)
     installs365 = long.fetch("counts").fetch(formula, 0)
-    if installs90.zero? || installs365.zero?
-      raise "#{formula.inspect} is present in 30d but missing from a longer window"
-    end
-    if installs90 < installs30 || installs365 < installs30
-      raise "#{formula.inspect} has fewer installs in a longer window than in 30d"
-    end
+    normalized_installs = normalize_window_counts(
+      formula,
+      "installs",
+      "30d" => installs30,
+      "90d" => installs90,
+      "365d" => installs365,
+    )
+    installs90 = normalized_installs.fetch("90d")
+    installs365 = normalized_installs.fetch("365d")
 
     prior90_installs = installs90 - installs30
     prior365_installs = installs365 - installs30
@@ -204,9 +225,15 @@ def build_dataset(snapshots, data_floor, minimum_change)
     requested30 = [request_current.fetch("counts").fetch(formula, 0), installs30].min
     requested90 = [request_medium.fetch("counts").fetch(formula, 0), installs90].min
     requested365 = [request_long.fetch("counts").fetch(formula, 0), installs365].min
-    if requested90 < requested30 || requested365 < requested30
-      raise "#{formula.inspect} has fewer direct requests in a longer window than in 30d"
-    end
+    normalized_requests = normalize_window_counts(
+      formula,
+      "direct requests",
+      "30d" => requested30,
+      "90d" => requested90,
+      "365d" => requested365,
+    )
+    requested90 = normalized_requests.fetch("90d")
+    requested365 = normalized_requests.fetch("365d")
 
     prior90_requests = requested90 - requested30
     prior365_requests = requested365 - requested30
@@ -273,31 +300,33 @@ def format_date(iso_date)
   "#{date.strftime("%B")} #{date.day}, #{date.year}"
 end
 
-options = parse_options
-raw_snapshots = EVENTS.keys.to_h do |event|
-  [event, WINDOWS.to_h { |window| [window, load_snapshot(event, window, options[:input_dir])] }]
-end
-snapshots = raw_snapshots.each_with_object({}) do |(event, event_snapshots), validated_events|
-  validated_events[event] = event_snapshots.each_with_object({}) do |(window, snapshot), validated_windows|
-    validated_windows[window] = validate_snapshot(event, window, snapshot)
+if $PROGRAM_NAME == __FILE__
+  options = parse_options
+  raw_snapshots = EVENTS.keys.to_h do |event|
+    [event, WINDOWS.to_h { |window| [window, load_snapshot(event, window, options[:input_dir])] }]
   end
+  snapshots = raw_snapshots.each_with_object({}) do |(event, event_snapshots), validated_events|
+    validated_events[event] = event_snapshots.each_with_object({}) do |(window, snapshot), validated_windows|
+      validated_windows[window] = validate_snapshot(event, window, snapshot)
+    end
+  end
+  dataset = build_dataset(snapshots, options[:data_floor], options[:minimum_change])
+
+  dataset_json = script_safe_json(dataset)
+  end_date_label = format_date(dataset.fetch("meta").fetch("endDate"))
+  template = ERB.new(File.read(TEMPLATE_PATH), trim_mode: "-")
+  html = template.result(binding)
+
+  output = options[:output]
+  FileUtils.mkdir_p(File.dirname(output))
+  temporary_output = "#{output}.tmp.#{$$}"
+
+  begin
+    File.write(temporary_output, html)
+    File.rename(temporary_output, output)
+  ensure
+    File.delete(temporary_output) if File.exist?(temporary_output)
+  end
+
+  puts "Wrote #{output} with #{dataset.fetch("formulae").length} formulae through #{dataset.fetch("meta").fetch("endDate")}"
 end
-dataset = build_dataset(snapshots, options[:data_floor], options[:minimum_change])
-
-dataset_json = script_safe_json(dataset)
-end_date_label = format_date(dataset.fetch("meta").fetch("endDate"))
-template = ERB.new(File.read(TEMPLATE_PATH), trim_mode: "-")
-html = template.result(binding)
-
-output = options[:output]
-FileUtils.mkdir_p(File.dirname(output))
-temporary_output = "#{output}.tmp.#{$$}"
-
-begin
-  File.write(temporary_output, html)
-  File.rename(temporary_output, output)
-ensure
-  File.delete(temporary_output) if File.exist?(temporary_output)
-end
-
-puts "Wrote #{output} with #{dataset.fetch("formulae").length} formulae through #{dataset.fetch("meta").fetch("endDate")}"

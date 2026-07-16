@@ -28,6 +28,9 @@ jobs:
         with:
           ruby-version: '3.4'
 
+      - name: Test Homebrew trends generator
+        run: ruby _homebrew/generate_test.rb
+
       - name: Generate Homebrew trends
         run: ruby _homebrew/generate.rb
 

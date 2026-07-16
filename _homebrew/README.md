@@ -26,6 +26,10 @@ ruby _homebrew/generate.rb --output /tmp/homebrew.html
 The generator exits non-zero when a request fails, a response has an unexpected
 shape, or the six snapshots do not have the same end date. This makes a stale
 or partial update visible in CI instead of silently publishing mixed data.
+Homebrew queries each rolling window independently against live data, so a
+newly active formula can occasionally have a longer-window total a few events
+below its 30-day total. Those per-formula counts are normalized with a warning
+before the preceding periods are calculated.
 
 ## Options
 
