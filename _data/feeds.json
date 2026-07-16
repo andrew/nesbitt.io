@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-16T20:36:01Z",
-  "cutoff": "2026-06-16T20:35:57Z",
+  "generated": "2026-07-16T21:40:38Z",
+  "cutoff": "2026-06-16T21:40:33Z",
   "feed_count": 79,
-  "item_count": 199,
+  "item_count": 197,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.265.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.3",
+      "published": "2026-07-16T20:48:44Z",
+      "preview": "43.265.3 (2026-07-16) Miscellaneous Chores deps: update jdx/mise-action action to v4.2.1 (main) ( #44648 ) ( 84d3214 ) Build System deps: update dependency @opentelemetry/semantic-conventions to v1.43.0 (main) ( #44649 ) ( b217c34 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v0.387.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.387.0",
@@ -356,14 +364,6 @@
       "preview": "SDK 3.13.0-282.2.beta",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.263.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.6",
-      "published": "2026-07-15T00:53:31Z",
-      "preview": "43.263.6 (2026-07-15) Build System deps: update dependency lru-cache to v11.5.2 (main) ( #44588 ) ( a93daa4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "6.0.11",
@@ -1596,22 +1596,6 @@
       "preview": "What's Changed Component updates ⬆️ [CHERRY-PICK] Make openapi-generator-cli download URL configurable ( #23186 ) by @chlins in #23221 bump Go version from 1.25.9 to 1.26.3 by @stonezdj in #23236 [cherry-pick] Rebuild goharbor/photon image before create new harbor base images by @jUDASmILE in #23250 [cherry-pick]remove install net-tools from db dockerfile as photon removed it by @jUDASmILE in #23267 [CHERRY-PICK] feat: replace redis with valkey as cache backend ( #23157 ) by @chlins in #23261 [CHERRY-PICK] test(cosign): disable tlog for signing checks by @chlins in #23280 [CHERRY-PICK] fix(cos",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "26.5.3",
-      "url": "https://github.com/conda/conda/releases/tag/26.5.3",
-      "published": "2026-06-16T20:51:34Z",
-      "preview": "Bug fixes If shards were not found on a channel, conda would cache the not-found response, which can break shards-only channels. Instead, always check for sharded repodata if classic repodata has not been cached. ( #16183 ) Other Fix get_shortcut_dir() test helper to use the supplied prefix when detecting .nonadmin on Windows, aligning with menuinst 2.5 shortcut path behavior. ( #16207 ) Contributors @danyeaw @jezdez Full Changelog : 26.5.2...26.5.3",
-      "source": "Conda releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "v9.7.0-M1",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0-M1",
-      "published": "2026-06-16T20:48:15Z",
-      "preview": "Enable remaining IP integ tests ( #38203 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     }
   ]
 }
