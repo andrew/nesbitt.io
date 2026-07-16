@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-15T23:38:57Z",
-  "cutoff": "2026-06-15T23:38:52Z",
+  "generated": "2026-07-16T00:52:26Z",
+  "cutoff": "2026-06-16T00:52:22Z",
   "feed_count": 79,
-  "item_count": 195,
+  "item_count": 196,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,12 +22,52 @@
   ],
   "items": [
     {
-      "title": "v11.13.1",
+      "title": "SDK-3.14.0-32.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-32.0.dev",
+      "published": "2026-07-16T00:34:06Z",
+      "preview": "SDK 3.14.0-32.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-31.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-31.0.dev",
+      "published": "2026-07-16T00:33:46Z",
+      "preview": "SDK 3.14.0-31.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-30.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-30.0.dev",
+      "published": "2026-07-16T00:33:43Z",
+      "preview": "SDK 3.14.0-30.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-29.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-29.0.dev",
+      "published": "2026-07-16T00:33:39Z",
+      "preview": "SDK 3.14.0-29.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "pnpm 11.13.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.13.1",
-      "published": "2026-07-15T23:07:50Z",
-      "preview": "v11.13.1",
+      "published": "2026-07-16T00:31:55Z",
+      "preview": "Patch Changes Fixed pnpm pack applying workspace-root ignore rules when a workspace package has its own .npmignore file. Keep the interactive minimumReleaseAge approval prompt visible during pnpm install . The progress reporter now pauses its redraws while a prompt is waiting for input instead of overwriting it, so the install no longer hangs on a question the user cannot see #13019 . Fixed pnpm self-update failing to link native platform binaries stored in sibling global virtual store slots.",
       "source": "pnpm releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "1.16.0",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.16.0",
+      "published": "2026-07-16T00:08:21Z",
+      "preview": "What's Changed 📝 docs: restore the 1.16.0 changelog fragments by @gaborbernat in #1961 Full Changelog : 1.15.2...1.16.0",
+      "source": "pipx releases",
+      "category": "Python"
     },
     {
       "title": "1.15.2",
@@ -339,38 +379,6 @@
       "published": "2026-07-14T08:27:48Z",
       "preview": "Deployment at 2026-07-14T08:27:40.466795Z.",
       "source": "pub.dev releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-23.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-23.0.dev",
-      "published": "2026-07-14T00:31:47Z",
-      "preview": "SDK 3.14.0-23.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-22.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-22.0.dev",
-      "published": "2026-07-14T00:31:45Z",
-      "preview": "SDK 3.14.0-22.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-21.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-21.0.dev",
-      "published": "2026-07-14T00:31:43Z",
-      "preview": "SDK 3.14.0-21.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-20.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-20.0.dev",
-      "published": "2026-07-14T00:31:41Z",
-      "preview": "SDK 3.14.0-20.0.dev",
-      "source": "Pub releases",
       "category": "Registries"
     },
     {
