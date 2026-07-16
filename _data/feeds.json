@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-16T15:49:41Z",
-  "cutoff": "2026-06-16T15:49:37Z",
+  "generated": "2026-07-16T17:45:23Z",
+  "cutoff": "2026-06-16T17:45:18Z",
   "feed_count": 79,
   "item_count": 198,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.6.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.2",
+      "published": "2026-07-16T16:55:29Z",
+      "preview": "29.6.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.2 milestone moby/moby, 29.6.2 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. Git source checkout from a bundle file could lead to command injection. GHSA-hw3h-2gp9-cxpv Incorrect parameters sent from a frontend could cause a panic. GHSA-qx3x-mv6r-52p6 An LLB file operation could be tricked into removing the contents of the /tmp directory. GHSA-32pv-7hq5-qhwq A malicious client could bypass destination direc",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "43.265.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.2",
@@ -1594,14 +1602,6 @@
       "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0-M1",
       "published": "2026-06-16T20:48:15Z",
       "preview": "Enable remaining IP integ tests ( #38203 )",
-      "source": "Gradle releases",
-      "category": "Maven"
-    },
-    {
-      "title": "9.6.0 RC3",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.6.0-RC3",
-      "published": "2026-06-16T16:53:47Z",
-      "preview": "The Gradle team is excited to announce Gradle 9.6.0 RC3. Here are the highlights of this release: Improved Configuration Cache hit rates Additional CLI rendering options Important project hierarchy lookup deprecations Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aharnish Solanki , Benedikt Johannes , Devendra Reddy Pennabadi , Dmytro Rodionov , Dreeam , Elías Hernández Rodríguez , Eng Zer Jun , FinlayRJW , Kamal Kansal , Marcono1234 , Nelson Osacky , Philip Wedemann , Ravi , Roberto Perez Alcolea , Ryan Schmitt",
       "source": "Gradle releases",
       "category": "Maven"
     }
