@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-17T22:34:16Z",
-  "cutoff": "2026-06-17T22:34:13Z",
+  "generated": "2026-07-17T23:36:43Z",
+  "cutoff": "2026-06-17T23:36:39Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 209,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
   ],
   "items": [
     {
+      "title": "Windows Package Manager 1.30.50-preview",
+      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.50-preview",
+      "published": "2026-07-17T23:19:56Z",
+      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Apply latest loc patch by @florelis in #6262 Remove old Store certs, replace test use with generated ones by @JohnMcPMS in #6275 Add .gitattributes and norm",
+      "source": "winget releases",
+      "category": "System"
+    },
+    {
+      "title": "43.269.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.269.1",
+      "published": "2026-07-17T22:52:15Z",
+      "preview": "43.269.1 (2026-07-17) Build System deps: update dependency semantic-release to v25.0.6 (main) ( #44682 ) ( 1bccea4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "consolidation-step-5-green",
+      "url": "https://github.com/oven-sh/bun/releases/tag/consolidation-step-5-green",
+      "published": "2026-07-17T22:34:08Z",
+      "preview": "step 5.fix0: route bun_s3_signing::error/Error via s3_signing mount path",
+      "source": "Bun releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "pnpm 12 Alpha 14",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.14",
       "published": "2026-07-17T22:21:46Z",
@@ -35,6 +59,14 @@
       "published": "2026-07-17T22:20:32Z",
       "preview": "Minor Changes peerDependencies now accept dependency specifiers that carry a scheme — a named-registry spec ( <registry>:<version> ), an npm: alias, or a file: /git/URL spec — instead of rejecting them with ERR_PNPM_INVALID_PEER_DEPENDENCY_SPECIFICATION #13095 . Such a peer is matched against the semver range carried by the specifier ( work:5.x.x is checked as 5.x.x , npm:bar@^5 as ^5 ), or against * when it carries no version, while the original specifier still selects the package to auto-install. Bare name@version values, which are almost always a mistake, are still rejected. Added pnpm doct",
       "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "consolidation-step-4-green",
+      "url": "https://github.com/oven-sh/bun/releases/tag/consolidation-step-4-green",
+      "published": "2026-07-17T22:17:59Z",
+      "preview": "step 4.fix0: drop package-rename deps; apply 4.2/4.4/4.5/4.6 seds",
+      "source": "Bun releases",
       "category": "JavaScript"
     },
     {
@@ -54,12 +86,28 @@
       "category": "Infrastructure"
     },
     {
+      "title": "consolidation-step-3-green",
+      "url": "https://github.com/oven-sh/bun/releases/tag/consolidation-step-3-green",
+      "published": "2026-07-17T21:56:14Z",
+      "preview": "step 3.fix0: drop package-rename deps; apply 2.4/2.5/3.6 seds",
+      "source": "Bun releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "43.268.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.6",
       "published": "2026-07-17T21:50:54Z",
       "preview": "43.268.6 (2026-07-17) Build System deps: update dependency @renovatebot/osv-offline to v3.0.9 (main) ( #44679 ) ( 0b44e35 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "consolidation-step-1-green",
+      "url": "https://github.com/oven-sh/bun/releases/tag/consolidation-step-1-green",
+      "published": "2026-07-17T21:16:27Z",
+      "preview": "step 1.fix0: regenerate stale build/debug/codegen rust outputs",
+      "source": "Bun releases",
+      "category": "JavaScript"
     },
     {
       "title": "43.268.5",
@@ -130,14 +178,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.267.0",
       "published": "2026-07-17T12:27:16Z",
       "preview": "43.267.0 (2026-07-17) Features datasource/docker: Identify private ECR registries across AWS partitions ( #44655 ) ( 78c9787 ) manager/npm: read private registries from pnpm-workspace.yaml ( #44083 ) ( e0c13b6 ) Bug Fixes post-upgrade: preserve executable file modes ( #44505 ) ( 19a3843 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.266.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.266.0",
-      "published": "2026-07-17T11:53:39Z",
-      "preview": "43.266.0 (2026-07-17) Features github-actions: support jdx/mise-action version input ( #44660 ) ( 2c70608 ) Tests add linter for as any in test files ( #44658 ) ( 4add67e ), closes #44646",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
