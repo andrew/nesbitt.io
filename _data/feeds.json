@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-17T10:56:34Z",
-  "cutoff": "2026-06-17T10:56:30Z",
+  "generated": "2026-07-17T12:43:51Z",
+  "cutoff": "2026-06-17T12:43:47Z",
   "feed_count": 79,
   "item_count": 204,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.10.0.21",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.21",
+      "published": "2026-07-17T12:30:37Z",
+      "preview": "Insert 7.10.0.21 into main on 07/17/2026 12:30:36",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "43.267.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.267.0",
+      "published": "2026-07-17T12:27:16Z",
+      "preview": "43.267.0 (2026-07-17) Features datasource/docker: Identify private ECR registries across AWS partitions ( #44655 ) ( 78c9787 ) manager/npm: read private registries from pnpm-workspace.yaml ( #44083 ) ( e0c13b6 ) Bug Fixes post-upgrade: preserve executable file modes ( #44505 ) ( 19a3843 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.266.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.266.0",
+      "published": "2026-07-17T11:53:39Z",
+      "preview": "43.266.0 (2026-07-17) Features github-actions: support jdx/mise-action version input ( #44660 ) ( 2c70608 ) Tests add linter for as any in test files ( #44658 ) ( 4add67e ), closes #44646",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.265.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.5",
@@ -406,14 +430,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "43.264.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.264.0",
-      "published": "2026-07-15T15:04:58Z",
-      "preview": "43.264.0 (2026-07-15) Features add --rebase-all-open-branches ( #44607 ) ( 13b5ae4 ) Miscellaneous Chores deps: update dependency memfs to v4.64.0 (main) ( #44580 ) ( 3499785 ) deps: update dependency memfs to v4.64.0 (main) ( #44602 ) ( 6b28213 ) deps: update zizmor (main) ( #44601 ) ( 461248e ) Continuous Integration add auto:pls-merge-main label workflow to merge main into a PR branch ( #44599 ) ( cc5bcaa )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "7.10.0.11",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.11",
       "published": "2026-07-15T12:21:38Z",
@@ -428,14 +444,6 @@
       "preview": "chore(release): pacquet 12.0.0-alpha.12, pnpr 0.1.0-alpha.3 ( #13023 ) Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.263.9",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.9",
-      "published": "2026-07-15T10:19:38Z",
-      "preview": "43.263.9 (2026-07-15) Bug Fixes platform/azure: don't create Dependency Dashboard for projects without an Issue type ( #44592 ) ( 2d431ea )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpr@0.1.0-alpha.3: chore(release): pacquet 12.0.0-alpha.12, pnpr 0.1.0-alpha.3 (#13023)",
@@ -1364,14 +1372,6 @@
       "preview": "Deployment at 2026-06-25T13:40:20.581204Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "7.9.0.55",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.55",
-      "published": "2026-06-25T12:22:22Z",
-      "preview": "Insert 7.9.0.55 into main on 06/25/2026 12:22:22",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "6.0.4",
