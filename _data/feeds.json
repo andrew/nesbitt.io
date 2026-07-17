@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-17T21:36:01Z",
-  "cutoff": "2026-06-17T21:35:56Z",
+  "generated": "2026-07-17T22:34:16Z",
+  "cutoff": "2026-06-17T22:34:13Z",
   "feed_count": 79,
-  "item_count": 203,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12 Alpha 14",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.14",
+      "published": "2026-07-17T22:21:46Z",
+      "preview": "chore(release): 11.14.0, pacquet 12.0.0-alpha.14 ( #13113 ) Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.14",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.14.0",
+      "published": "2026-07-17T22:20:32Z",
+      "preview": "Minor Changes peerDependencies now accept dependency specifiers that carry a scheme — a named-registry spec ( <registry>:<version> ), an npm: alias, or a file: /git/URL spec — instead of rejecting them with ERR_PNPM_INVALID_PEER_DEPENDENCY_SPECIFICATION #13095 . Such a peer is matched against the semver range carried by the specifier ( work:5.x.x is checked as 5.x.x , npm:bar@^5 as ^5 ), or against * when it carries no version, while the original specifier still selects the package to auto-install. Bare name@version values, which are almost always a mistake, are still rejected. Added pnpm doct",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.6.0-alpha1",
+      "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-alpha1",
+      "published": "2026-07-17T22:12:11Z",
+      "preview": "2.6.0~alpha1",
+      "source": "opam releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.269.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.269.0",
+      "published": "2026-07-17T22:06:36Z",
+      "preview": "43.269.0 (2026-07-17) Features gerrit: rework scm implementation ( #38966 ) ( 18c9c93 ), closes #41382",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.268.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.6",
+      "published": "2026-07-17T21:50:54Z",
+      "preview": "43.268.6 (2026-07-17) Build System deps: update dependency @renovatebot/osv-offline to v3.0.9 (main) ( #44679 ) ( 0b44e35 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.268.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.5",
@@ -98,14 +138,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.266.0",
       "published": "2026-07-17T11:53:39Z",
       "preview": "43.266.0 (2026-07-17) Features github-actions: support jdx/mise-action version input ( #44660 ) ( 2c70608 ) Tests add linter for as any in test files ( #44658 ) ( 4add67e ), closes #44646",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.265.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.5",
-      "published": "2026-07-17T10:36:04Z",
-      "preview": "43.265.5 (2026-07-17) Bug Fixes terraform: normalize lock file constraint order after provider update ( #44530 ) ( 2783859 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -196,14 +228,6 @@
       "preview": "🐛 bug fixes fix: Backports the packager cache fix for CVE-2026-26032 by @raboof in sbt/ivy#57 deps: sjson-new 0.15.1, which transitively updates Jawn to 1.7.0 for GHSA-cc4v-rvgp-2pf3 and GHSA-w4cm-gvhj-cgw6 by @eed3si9n in #9458 fix: Fixes JVM option capability in the launcher config by @anatoliykmetyuk in #9452 Full Changelog : v2.0.2...v2.0.3",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "43.265.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.4",
-      "published": "2026-07-17T01:11:15Z",
-      "preview": "43.265.4 (2026-07-17) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.5 (main) ( #44653 ) ( 4952929 ) Miscellaneous Chores deps: update dependency pnpm to v11.11.0 (main) ( #44654 ) ( e64554c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-38.0.dev",
@@ -662,14 +686,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "pnpm 11.12",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.12.0",
-      "published": "2026-07-11T21:15:22Z",
-      "preview": "Minor Changes a897ef7 : Custom fetchers exported from a pnpmfile can now delegate by returning a { delegate: <resolution> } envelope: pnpm rewrites the package's resolution to the delegated shape and runs the built-in fetcher on it. This is the portable delegation form that also works in pacquet, where cafs and fetchers cannot be passed to the hook. Related to pnpm/pnpm#11685 . Patch Changes 2b02764 : The changed-packages filter ( --filter \"...[<since>]\" ) no longer allows an option-like <since> value (such as --output=<path> ) to be interpreted as a git option — git now rejects it as a bad re",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v7.0.0-next-7.23",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.23",
       "published": "2026-07-11T12:39:21Z",
@@ -740,14 +756,6 @@
       "preview": "tl;dr: There is a renewed effort to improve documentation, head to https://opencollective.com/nixos/projects/nix-documentation or contact foundation@nixos.org to chip in with funding! With the 2023 crowd-funding in documentation funding , we've seen some improvements, but a lot more is needed to make significant progress towards improving the overall experience with Nix documentation, including onboarding and discovery. Especially newcomers frequently struggle with our documentation, get frustrated and notice gaps, and have a hard time adopting Nix. In addition, in the Nix community survey 202",
       "source": "NixOS Blog",
       "category": "System"
-    },
-    {
-      "title": "pnpm 10.34.5",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.5",
-      "published": "2026-07-10T11:39:29Z",
-      "preview": "Patch Changes 78e29fe : Prevent a crafted pnpm-lock.yaml from writing package content outside the virtual store. A dependency path key whose name reconstructs to a path-traversal sequence (e.g. ../../../tmp/x@1.0.0 ) is now rejected by the isolated (virtual-store) linker and the Plug'n'Play resolver map, matching the containment already applied to the hoisted linker. Under the global virtual store, a traversal in the version-derived path segment (e.g. a snapshot version: \"../../x\" ) is now rejected at iterateHashedGraphNodes , the single point every global-virtual-store slot path funnels throu",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "bundler-v4.0.16",
