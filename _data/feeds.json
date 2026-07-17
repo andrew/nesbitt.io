@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-17T15:48:39Z",
-  "cutoff": "2026-06-17T15:48:35Z",
+  "generated": "2026-07-17T17:41:51Z",
+  "cutoff": "2026-06-17T17:41:45Z",
   "feed_count": 79,
   "item_count": 205,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "9.7.0 RC1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0-RC1",
+      "published": "2026-07-17T17:15:24Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.7.0 RC1. Here are the highlights of this release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 , Ravi , sk-reddy17 , Suvrat Acharya , Yongshun Ye . Upgrade instructions Switch your build to use Gradle 9.7.0 RC1 by updating your wra",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "43.268.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.4",
+      "published": "2026-07-17T17:05:40Z",
+      "preview": "43.268.4 (2026-07-17) Bug Fixes deps: update dependency mkdocs-material to v9.7.7 (main) ( #44669 ) ( 6dee5c4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.268.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.3",
+      "published": "2026-07-17T16:47:57Z",
+      "preview": "43.268.3 (2026-07-17) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.7 (main) ( #44668 ) ( c92de21 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.2 (main) ( #44666 ) ( 398d576 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.268.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.2",
@@ -76,14 +100,6 @@
       "preview": "43.265.5 (2026-07-17) Bug Fixes terraform: normalize lock file constraint order after provider update ( #44530 ) ( 2783859 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v9.7.0-RC1",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0-RC1",
-      "published": "2026-07-17T09:58:45Z",
-      "preview": "Minor release notes tweaks ( #38562 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
@@ -278,28 +294,12 @@
       "category": "Multi-language"
     },
     {
-      "title": "43.265.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.2",
-      "published": "2026-07-16T15:18:33Z",
-      "preview": "43.265.2 (2026-07-16) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.4 (main) ( #44644 ) ( 7d1c833 ) Miscellaneous Chores deps: update dependency esbuild to v0.28.1 (main) ( #44638 ) ( 7e42c0e ) deps: update dependency uv to v0.11.29 (main) ( #44639 ) ( c47f8e0 ) deps: update dependency vite to v8.1.4 (main) ( #44640 ) ( b32c6c6 ) Tests set NODE_ENV to test explicitly ( #44622 ) ( 64aa927 ) Build System deps: update dependency @renovatebot/pgp to v1.3.16 (main) ( #44618 ) ( d36747c ) deps: update dependency re2 to v1.26.0 (main) ( #44590 ) ( e096334 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "7.10.0.16",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.16",
       "published": "2026-07-16T12:28:38Z",
       "preview": "Insert 7.10.0.16 into main on 07/16/2026 12:28:37",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "43.265.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.1",
-      "published": "2026-07-16T09:29:20Z",
-      "preview": "43.265.1 (2026-07-16) Build System revert docker build cross-compilation workaround ( #44017 ) ( 78060bc ), closes #43984",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
