@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-17T08:00:41Z",
-  "cutoff": "2026-06-17T08:00:38Z",
+  "generated": "2026-07-17T09:02:03Z",
+  "cutoff": "2026-06-17T09:01:59Z",
   "feed_count": 79,
   "item_count": 204,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
+      "published": "2026-07-17T08:44:47Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "cabal-install-solver-v3.18.1.0",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-solver-v3.18.1.0",
@@ -1644,14 +1652,6 @@
       "preview": "Helm v4.2.2 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Revert: Fixed a race condition in WaitForDelete where the status observer canceled the watch too early, causing intermittent failures when running a full test suite #32214 Installation and Upgra",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-15-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-15-a",
-      "published": "2026-06-17T08:54:09Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-06-15-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     }
   ]
 }
