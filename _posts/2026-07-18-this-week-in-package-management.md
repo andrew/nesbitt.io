@@ -26,11 +26,15 @@ Week nine of the roundup, built from the [package manager OPML feed collection](
 
 [Rust 1.97.1](https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/) is a point release backporting an LLVM fix and disabling the IR change in 1.97.0 that made the miscompilation more likely to trigger.
 
-Also out: [Homebrew 6.0.11](https://github.com/Homebrew/brew/releases/tag/6.0.11), [npm 12.0.1](https://github.com/npm/cli/releases/tag/v12.0.1), [Athens 0.18.1](https://github.com/gomods/athens/releases/tag/v0.18.1), [vcpkg 2026-07-13](https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-13), [sbt 2.0.2](https://github.com/sbt/sbt/releases/tag/v2.0.2), [Renovate 43.265.2](https://github.com/renovatebot/renovate/releases/tag/43.265.2), [Dependabot Core 0.387.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.387.0).
+[Homebrew 6.0.11](https://github.com/Homebrew/brew/releases/tag/6.0.11) merges `brew vulns`, so CVE scanning of installed formulae is now built in; I wrote up [the work behind it](/2026/07/17/plumbing-homebrew-into-the-vulnerability-ecosystem).
+
+Also out: [npm 12.0.1](https://github.com/npm/cli/releases/tag/v12.0.1), [Athens 0.18.1](https://github.com/gomods/athens/releases/tag/v0.18.1), [vcpkg 2026-07-13](https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-13), [sbt 2.0.2](https://github.com/sbt/sbt/releases/tag/v2.0.2), [Nix 2.35.1](https://github.com/NixOS/nix/releases/tag/2.35.1), [mise 2026.7.10](https://github.com/jdx/mise/releases/tag/v2026.7.10), [pipx 1.16.0](https://github.com/pypa/pipx/releases/tag/1.16.0), [Gradle 9.7.0-RC1](https://github.com/gradle/gradle/releases/tag/v9.7.0-RC1), [Renovate 43.268.4](https://github.com/renovatebot/renovate/releases/tag/43.268.4), [Dependabot Core 0.387.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.387.0).
 
 ## Security
 
 [Docker Engine 29.6.2](https://github.com/moby/moby/releases/tag/docker-v29.6.2) fixes three CVEs: [CVE-2026-15793](https://github.com/advisories/GHSA-hw3h-2gp9-cxpv), where a git source checkout from a bundle file could lead to command injection; [CVE-2026-15792](https://github.com/advisories/GHSA-qx3x-mv6r-52p6), where incorrect parameters from a BuildKit frontend could cause a panic; and [CVE-2026-15791](https://github.com/advisories/GHSA-32pv-7hq5-qhwj), where an LLB file operation could be tricked into removing the contents of `/tmp`.
+
+[sbt 1.12.14](https://github.com/sbt/sbt/releases/tag/v1.12.14) backports the fix for [CVE-2026-26032](https://github.com/advisories/GHSA-j482-hm6j-v5jj) in the bundled Apache Ivy `PackagerResolver`.
 
 ## Articles
 
@@ -43,6 +47,10 @@ Also out: [Homebrew 6.0.11](https://github.com/Homebrew/brew/releases/tag/6.0.11
 ## Papers
 
 [Software Supply Chains are Dead: Use-Case-Oriented Regeneration](https://arxiv.org/abs/2607.13021) (arXiv) argues that supply-chain attacks have raised the cost of external dependencies while generative AI has lowered the cost of local implementation, and evaluates an agent workflow that synthesises only the slice of a dependency an application actually calls.
+
+[Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents](https://arxiv.org/abs/2607.15143) (Bagmar et al., arXiv) evaluates package-install-time supply-chain attacks delivered through project setup docs against production coding-agent harnesses: editing only a README, requirements file or Makefile redirects the agent to an untrusted registry, a known-vulnerable version, or a wrong-but-plausible package name.
+
+[The Distributed Open-Source Vulnerability Ecosystem](https://arxiv.org/abs/2607.14900) (Mandl et al., arXiv) models vulnerability management as a distributed process and traces where scanners diverge on identical software inventories to specific stages of the ecosystem rather than any one tool or data source.
 
 ## Elsewhere
 
