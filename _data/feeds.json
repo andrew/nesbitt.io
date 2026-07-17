@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-17T13:57:17Z",
-  "cutoff": "2026-06-17T13:57:14Z",
+  "generated": "2026-07-17T14:52:57Z",
+  "cutoff": "2026-06-17T14:52:54Z",
   "feed_count": 79,
   "item_count": 204,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.268.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.2",
+      "published": "2026-07-17T14:06:44Z",
+      "preview": "43.268.2 (2026-07-17) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.6 (main) ( #44662 ) ( 7bdb713 ) Build System deps: update dependency ignore to v7.0.6 (main) ( #44661 ) ( e30d05c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.268.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.1",
@@ -292,14 +300,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.265.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.0",
-      "published": "2026-07-16T07:13:07Z",
-      "preview": "43.265.0 (2026-07-16) Features logging: do not use dynamic fields in log messages with severity WARN or higher ( #44560 ) ( c41b46b ) Continuous Integration agent-hooks: run checks only on file changes ( #44612 ) ( d6fc7bd ) extend old vm workaround to build-docker job ( #44614 ) ( 170b972 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-32.0.dev",
