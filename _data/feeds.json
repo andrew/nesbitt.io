@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-16T23:37:43Z",
-  "cutoff": "2026-06-16T23:37:39Z",
+  "generated": "2026-07-17T00:55:27Z",
+  "cutoff": "2026-06-17T00:55:22Z",
   "feed_count": 79,
   "item_count": 199,
   "categories": [
@@ -22,20 +22,68 @@
   ],
   "items": [
     {
-      "title": "v2.0.3",
+      "title": "2.0.3",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.3",
-      "published": "2026-07-16T23:00:58Z",
-      "preview": "2.0.3",
+      "published": "2026-07-17T00:41:42Z",
+      "preview": "updates deps: sjson-new 0.15.1 by @eed3si9n in #9458 🐛 bug fixes fix: Fixes packager cache by @raboof in sbt/ivy#57 fix: Fixes JVM option capability in the launcher config by @anatoliykmetyuk in #9452 Full Changelog : v2.0.2...v2.0.3",
       "source": "sbt releases",
       "category": "Maven"
     },
     {
-      "title": "v1.12.14",
+      "title": "1.12.14",
       "url": "https://github.com/sbt/sbt/releases/tag/v1.12.14",
-      "published": "2026-07-16T22:18:42Z",
-      "preview": "1.12.14",
+      "published": "2026-07-17T00:38:07Z",
+      "preview": "updates deps: sjson-new 0.10.3 by @eed3si9n in #9460 sbtn 2.0.0-b4d628dd by @eed3si9n in #9443 deps: ipcsocket 1.8.0 by @eed3si9n in #9433 🐛 bug fixes fix: Fixes packager cache by @raboof in sbt/ivy#57 fix: Fixes BSP dependency parsing by @anatoliykmetyuk in #9451 fix: Fixes JVM option capability in the launcher config by @anatoliykmetyuk in #9452 fix: Fixes sbt shutdownall by @eed3si9n in #9435 behind the scenes Bump actions/checkout from 6 to 7 by @dependabot [bot] in #9367 Full Changelog : v1.12.13...v1.12.14",
       "source": "sbt releases",
       "category": "Maven"
+    },
+    {
+      "title": "SDK-3.14.0-38.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-38.0.dev",
+      "published": "2026-07-17T00:35:02Z",
+      "preview": "SDK 3.14.0-38.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-37.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-37.0.dev",
+      "published": "2026-07-17T00:35:00Z",
+      "preview": "SDK 3.14.0-37.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-36.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-36.0.dev",
+      "published": "2026-07-17T00:34:58Z",
+      "preview": "SDK 3.14.0-36.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-35.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-35.0.dev",
+      "published": "2026-07-17T00:34:55Z",
+      "preview": "SDK 3.14.0-35.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-34.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-34.0.dev",
+      "published": "2026-07-17T00:34:53Z",
+      "preview": "SDK 3.14.0-34.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-33.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-33.0.dev",
+      "published": "2026-07-17T00:34:51Z",
+      "preview": "SDK 3.14.0-33.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
     },
     {
       "title": "43.265.3",
@@ -332,54 +380,6 @@
       "preview": "43.263.7 (2026-07-15) Bug Fixes manager/deno: set --frozen=false default to update lock file correctly ( #43058 ) ( 335d663 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "SDK-3.14.0-28.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-28.0.dev",
-      "published": "2026-07-15T00:56:02Z",
-      "preview": "SDK 3.14.0-28.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-27.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-27.0.dev",
-      "published": "2026-07-15T00:56:00Z",
-      "preview": "SDK 3.14.0-27.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-26.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-26.0.dev",
-      "published": "2026-07-15T00:55:58Z",
-      "preview": "SDK 3.14.0-26.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-25.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-25.0.dev",
-      "published": "2026-07-15T00:55:56Z",
-      "preview": "SDK 3.14.0-25.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-24.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-24.0.dev",
-      "published": "2026-07-15T00:55:55Z",
-      "preview": "SDK 3.14.0-24.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.13.0-282.2.beta",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0-282.2.beta",
-      "published": "2026-07-15T00:55:52Z",
-      "preview": "SDK 3.13.0-282.2.beta",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "6.0.11",
