@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-17T00:55:27Z",
-  "cutoff": "2026-06-17T00:55:22Z",
+  "generated": "2026-07-17T02:01:07Z",
+  "cutoff": "2026-06-17T02:01:03Z",
   "feed_count": 79,
   "item_count": 199,
   "categories": [
@@ -22,18 +22,26 @@
   ],
   "items": [
     {
-      "title": "2.0.3",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.3",
-      "published": "2026-07-17T00:41:42Z",
-      "preview": "updates deps: sjson-new 0.15.1 by @eed3si9n in #9458 🐛 bug fixes fix: Fixes packager cache by @raboof in sbt/ivy#57 fix: Fixes JVM option capability in the launcher config by @anatoliykmetyuk in #9452 Full Changelog : v2.0.2...v2.0.3",
-      "source": "sbt releases",
-      "category": "Maven"
+      "title": "43.265.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.265.4",
+      "published": "2026-07-17T01:11:15Z",
+      "preview": "43.265.4 (2026-07-17) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.5 (main) ( #44653 ) ( 4952929 ) Miscellaneous Chores deps: update dependency pnpm to v11.11.0 (main) ( #44654 ) ( e64554c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "1.12.14",
       "url": "https://github.com/sbt/sbt/releases/tag/v1.12.14",
-      "published": "2026-07-17T00:38:07Z",
-      "preview": "updates deps: sjson-new 0.10.3 by @eed3si9n in #9460 sbtn 2.0.0-b4d628dd by @eed3si9n in #9443 deps: ipcsocket 1.8.0 by @eed3si9n in #9433 🐛 bug fixes fix: Fixes packager cache by @raboof in sbt/ivy#57 fix: Fixes BSP dependency parsing by @anatoliykmetyuk in #9451 fix: Fixes JVM option capability in the launcher config by @anatoliykmetyuk in #9452 fix: Fixes sbt shutdownall by @eed3si9n in #9435 behind the scenes Bump actions/checkout from 6 to 7 by @dependabot [bot] in #9367 Full Changelog : v1.12.13...v1.12.14",
+      "published": "2026-07-17T00:56:20Z",
+      "preview": "🐛 bug fixes fix: Fixes packager cache by @raboof in sbt/ivy#57 deps: sjson-new 0.10.3 by @eed3si9n in #9460 fix: Fixes BSP dependency parsing by @anatoliykmetyuk in #9451 fix: Fixes JVM option capability in the launcher config by @anatoliykmetyuk in #9452 fix: Fixes sbt shutdownall by @eed3si9n in #9435 updates sbtn 2.0.0-b4d628dd by @eed3si9n in #9443 deps: ipcsocket 1.8.0 by @eed3si9n in #9433 behind the scenes Bump actions/checkout from 6 to 7 by @dependabot [bot] in #9367 Full Changelog : v1.12.13...v1.12.14",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "2.0.3",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.3",
+      "published": "2026-07-17T00:55:47Z",
+      "preview": "🐛 bug fixes fix: Fixes packager cache by @raboof in sbt/ivy#57 deps: sjson-new 0.15.1 by @eed3si9n in #9458 fix: Fixes JVM option capability in the launcher config by @anatoliykmetyuk in #9452 Full Changelog : v2.0.2...v2.0.3",
       "source": "sbt releases",
       "category": "Maven"
     },
@@ -372,14 +380,6 @@
       "preview": "[0.73.0] - 2026-07-15 ✨ Highlights This release brings two big features: workspace = true now also works in environment [dependency] tables TOML 1.1 multiline inline tables are now fully supported As usual we also fixed a couple of bugs. workspace = true in environment dependency tables Until now, { workspace = true } only worked in the package dependency tables and required the pixi-build preview. With this release, the environment tables can inherit from [workspace.dependencies] as well, no preview needed. That means a version shared by several features or targets only has to be declared onc",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.263.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.263.7",
-      "published": "2026-07-15T07:08:34Z",
-      "preview": "43.263.7 (2026-07-15) Bug Fixes manager/deno: set --frozen=false default to update lock file correctly ( #43058 ) ( 335d663 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "6.0.11",
