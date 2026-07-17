@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-17T12:43:51Z",
-  "cutoff": "2026-06-17T12:43:47Z",
+  "generated": "2026-07-17T13:57:17Z",
+  "cutoff": "2026-06-17T13:57:14Z",
   "feed_count": 79,
   "item_count": 204,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.268.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.1",
+      "published": "2026-07-17T13:41:58Z",
+      "preview": "43.268.1 (2026-07-17) Bug Fixes manager/hermit: propagate git credentials to hermit install ( #43524 ) ( 556b1be )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.268.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.0",
+      "published": "2026-07-17T12:52:12Z",
+      "preview": "43.268.0 (2026-07-17) Features presets: add Error Prone Support monorepo group ( #44628 ) ( cea5263 ) presets: add Serwist monorepo group ( #44626 ) ( cc94975 ) presets: add Size Limit monorepo group ( #44627 ) ( 61d399e ) Bug Fixes presets/workarounds: keep major-only Java Docker tags rolling ( #44603 ) ( 768fd6c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.10.0.21",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.21",
@@ -404,22 +420,6 @@
       "preview": "Release vfox 2026.7.12",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.264.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.264.2",
-      "published": "2026-07-15T16:02:18Z",
-      "preview": "43.264.2 (2026-07-15) Bug Fixes config: move checkedBranches and rebaseAllOpenBranches into GlobalConfig ( #44611 ) ( 42864eb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.264.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.264.1",
-      "published": "2026-07-15T15:45:11Z",
-      "preview": "43.264.1 (2026-07-15) Bug Fixes rebase request not bypassing commit limits ( #43031 ) ( cb0ee72 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.7 (main) ( #44609 ) ( 001dd5b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.9.3",
