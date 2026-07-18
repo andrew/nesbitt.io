@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-18T09:49:22Z",
-  "cutoff": "2026-06-18T09:49:18Z",
+  "generated": "2026-07-18T10:45:59Z",
+  "cutoff": "2026-06-18T10:45:55Z",
   "feed_count": 79,
-  "item_count": 207,
+  "item_count": 206,
   "categories": [
     ".NET",
     "C/C++",
@@ -1668,14 +1668,6 @@
       "preview": "1.55.0 Changelog POST /containers/{id}/update now supports per-device blkio resource settingss. moby/moby#52651 The new GET /images/{name}/attestations endpoint returns in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image, with optional platform selection, predicate type filtering, and an opt-in statement query parameter for retrieving the verbatim statement bodies. Tools can now retrieve attestation metadata and content directly from the daemon instead of performing additional registry round-trips. moby/moby#52636 docs: clarify swarm join required fields",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "20260618t095000-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260618t095000-all",
-      "published": "2026-06-18T09:50:52Z",
-      "preview": "Deployment at 2026-06-18T09:50:25.226098Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     }
   ]
 }
