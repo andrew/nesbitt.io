@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-18T00:51:12Z",
-  "cutoff": "2026-06-18T00:51:08Z",
+  "generated": "2026-07-18T06:59:46Z",
+  "cutoff": "2026-06-18T06:59:42Z",
   "feed_count": 79,
   "item_count": 208,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.269.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.269.2",
+      "published": "2026-07-18T06:25:48Z",
+      "preview": "43.269.2 (2026-07-18) Bug Fixes nuget: fall back to nupkg metadata on nuspec 404 ( #44388 ) ( 7ab2063 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -204,14 +212,6 @@
       "preview": "Insert 7.10.0.21 into main on 07/17/2026 12:30:36",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "43.267.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.267.0",
-      "published": "2026-07-17T12:27:16Z",
-      "preview": "43.267.0 (2026-07-17) Features datasource/docker: Identify private ECR registries across AWS partitions ( #44655 ) ( 78c9787 ) manager/npm: read private registries from pnpm-workspace.yaml ( #44083 ) ( e0c13b6 ) Bug Fixes post-upgrade: preserve executable file modes ( #44505 ) ( 19a3843 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
