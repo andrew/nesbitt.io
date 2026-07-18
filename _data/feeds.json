@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-18T12:37:48Z",
-  "cutoff": "2026-06-18T12:37:45Z",
+  "generated": "2026-07-18T13:51:11Z",
+  "cutoff": "2026-06-18T13:51:08Z",
   "feed_count": 79,
   "item_count": 207,
   "categories": [
@@ -22,9 +22,17 @@
   ],
   "items": [
     {
-      "title": "pnpm 12 Alpha 15",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.15",
-      "published": "2026-07-18T12:35:34Z",
+      "title": "43.269.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.269.3",
+      "published": "2026-07-18T13:06:39Z",
+      "preview": "43.269.3 (2026-07-18) Bug Fixes git: detect commits modified through rebase or amend ( #44587 ) ( 8e6a7fc ), closes #42975 #43171 #44585",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 11.15",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.15.0",
+      "published": "2026-07-18T12:52:03Z",
       "preview": "Minor Changes Optional peer dependencies declared only via peerDependenciesMeta (for example debug 's supports-color peer) are now resolved from a satisfying version already present in the dependency graph, the same way explicitly declared optional peer dependencies are. Previously such peers were only resolved this way when the package's metadata was read back from the lockfile, so an unrelated dependency change could rewrite peer resolutions across the whole lockfile. Patch Changes Updated adm-zip to prevent crafted ZIP archives from causing excessive memory allocation. pnpm version -r no lo",
       "source": "pnpm releases",
       "category": "JavaScript"
@@ -38,8 +46,8 @@
       "category": "JavaScript"
     },
     {
-      "title": "v11.15.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.15.0",
+      "title": "v12.0.0-alpha.15",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.15",
       "published": "2026-07-18T12:19:57Z",
       "preview": "chore(release): 11.15.0, pacquet 12.0.0-alpha.15, pnpr 0.1.0-alpha.4 …",
       "source": "pnpm releases",
@@ -242,14 +250,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.1",
       "published": "2026-07-17T13:41:58Z",
       "preview": "43.268.1 (2026-07-17) Bug Fixes manager/hermit: propagate git credentials to hermit install ( #43524 ) ( 556b1be )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.268.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.0",
-      "published": "2026-07-17T12:52:12Z",
-      "preview": "43.268.0 (2026-07-17) Features presets: add Error Prone Support monorepo group ( #44628 ) ( cea5263 ) presets: add Serwist monorepo group ( #44626 ) ( cc94975 ) presets: add Size Limit monorepo group ( #44627 ) ( 61d399e ) Bug Fixes presets/workarounds: keep major-only Java Docker tags rolling ( #44603 ) ( 768fd6c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
