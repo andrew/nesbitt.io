@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-17T23:36:43Z",
-  "cutoff": "2026-06-17T23:36:39Z",
+  "generated": "2026-07-18T00:51:12Z",
+  "cutoff": "2026-06-18T00:51:08Z",
   "feed_count": 79,
-  "item_count": 209,
+  "item_count": 208,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-07-18T00:36:17Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-41.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-41.0.dev",
+      "published": "2026-07-18T00:32:37Z",
+      "preview": "SDK 3.14.0-41.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-40.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-40.0.dev",
+      "published": "2026-07-18T00:32:35Z",
+      "preview": "SDK 3.14.0-40.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-39.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-39.0.dev",
+      "published": "2026-07-18T00:32:34Z",
+      "preview": "SDK 3.14.0-39.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "Windows Package Manager 1.30.50-preview",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.50-preview",
@@ -382,30 +414,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.14.0-31.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-31.0.dev",
-      "published": "2026-07-16T00:33:46Z",
-      "preview": "SDK 3.14.0-31.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-30.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-30.0.dev",
-      "published": "2026-07-16T00:33:43Z",
-      "preview": "SDK 3.14.0-30.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-29.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-29.0.dev",
-      "published": "2026-07-16T00:33:39Z",
-      "preview": "SDK 3.14.0-29.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "pnpm 11.13.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.13.1",
       "published": "2026-07-16T00:31:55Z",
@@ -684,14 +692,6 @@
       "preview": "🐛 bug fixes fix: Fixes remote cache ByteStream timeout by @yhefamly in #9413 fix: Fixes metabuild dependency downgrade via plugin by @anatoliykmetyuk in #9426 fix: Fixes build pipelining by @anatoliykmetyuk in #9425 fix: Fixes auto import of givens by @xuwei-k in #9409 fix: Fixes sbtn stdout relaying by @BrianHotopp in #9411 / #9414 fix: Fixes shutdownall in sbt runner by @eed3si9n in #9435 fix: Fixes attribute string in pom.xml to be deterministic @raboof in sbt/ivy#51 fix: Fixes ivyless publishing of sbt plugins by @anatoliykmetyuk in #9416 updates Deprecate url(...) and Resolver.url(...) in",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-13T04:59:45Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "crates.io: development update",
@@ -1684,14 +1684,6 @@
       "preview": "Deployment at 2026-06-18T09:28:26.557517Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 11.8",
-      "url": "https://pnpm.io/blog/releases/11.8",
-      "published": "2026-06-18T00:00:00Z",
-      "preview": "pnpm 11.8 adds install dry-run previews, Node.js package map generation, richer SBOM output, pnpm view defaulting to the current package, and correct pnpm run --no-bail exit codes. It also includes a config-dependency lockfile traversal fix and many install/update determinism fixes.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
