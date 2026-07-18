@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-18T19:43:34Z",
-  "cutoff": "2026-06-18T19:43:31Z",
+  "generated": "2026-07-18T20:33:22Z",
+  "cutoff": "2026-06-18T20:33:18Z",
   "feed_count": 79,
-  "item_count": 205,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -1644,22 +1644,6 @@
       "preview": "Release Notes Released on 2026-06-18. Enhancements Publish wheels before sdists in uv publish ( #19831 ) Add TY and RUFF env vars for providing paths for binaries used by uv format and uv check ( #19821 ) Preview features Allow configuring preview features in uv.toml and pyproject.toml ( #18437 ) Update the lockfile during uv check --no-sync ( #19909 ) Add --script to uv check and uv metadata ( #19860 ) Report workspace-exclusive dependency groups in workspace metadata ( #19862 ) Support SARIF as a uv audit output ( #19872 ) Performance Use a more deadlock-resistant concurrent hashmap in the r",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "[release-branch.go1.27] go1.27rc1",
-      "url": "https://github.com/golang/go/releases/tag/go1.27rc1",
-      "published": "2026-06-18T19:54:05Z",
-      "preview": "Change-Id: I140d62e6b20672d5e0283f042338017997fe1c69 Reviewed-on: https://go-review.googlesource.com/c/go/+/792340 Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-by: Dmitri Shuralyov dmitshur@golang.org Reviewed-by: Cherry Mui cherryyz@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org",
-      "source": "Go releases",
-      "category": "Go"
-    },
-    {
-      "title": "v2.0.0-beta.18",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.18",
-      "published": "2026-06-18T19:46:19Z",
-      "preview": "v2.0.0-beta.18",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
