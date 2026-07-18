@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-18T13:51:11Z",
-  "cutoff": "2026-06-18T13:51:08Z",
+  "generated": "2026-07-18T14:38:01Z",
+  "cutoff": "2026-06-18T14:37:57Z",
   "feed_count": 79,
   "item_count": 207,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12 Alpha 15",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.15-1",
+      "published": "2026-07-18T14:15:53Z",
+      "preview": "Minor Changes Optional peer dependencies declared only via peerDependenciesMeta (for example debug 's supports-color peer) are now resolved from a satisfying version already present in the dependency graph, the same way explicitly declared optional peer dependencies are. Previously such peers were only resolved this way when the package's metadata was read back from the lockfile, so an unrelated dependency change could rewrite peer resolutions across the whole lockfile. Added pnpm licenses command to the Rust pacquet port to list package licenses in a tabular or JSON format. Patch Changes pnpm",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "43.269.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.269.3",
@@ -668,14 +676,6 @@
       "preview": "Tagging release 2.35.1",
       "source": "Nix releases",
       "category": "System"
-    },
-    {
-      "title": "pnpm 12 Alpha 10",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.10",
-      "published": "2026-07-13T22:01:55Z",
-      "preview": "fix(release): sync Rust product versions via the meta-updater ( #12988 ) The Rust CLI and pnpr embed the versions their release builds report and verify (`PNPM_VERSION` in pnpm/crates/config/src/defaults.rs, the crate version in pnpr/crates/pnpr/Cargo.toml, and its Cargo.lock entry). These were mirrored from the npm wrappers by `syncRustVersions` in bump.ts — a step separate from the meta-updater, so running `pnpm version -r` without the full bump flow bumped the wrappers (pacquet 12.0.0-alpha.10, pnpr 0.1.0-alpha.2) while the Rust sources stayed at the previous versions. The release workflow'",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "v6.8.0",
