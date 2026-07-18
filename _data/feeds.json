@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-18T20:33:22Z",
-  "cutoff": "2026-06-18T20:33:18Z",
+  "generated": "2026-07-18T22:33:36Z",
+  "cutoff": "2026-06-18T22:33:31Z",
   "feed_count": 79,
-  "item_count": 203,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -132,6 +132,14 @@
       "preview": "SDK 3.14.0-39.0.dev",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "pnpm 11.11-11.14",
+      "url": "https://pnpm.io/blog/releases/11.11-11.14",
+      "published": "2026-07-18T00:00:00Z",
+      "preview": "pnpm 11.11 through 11.14 add native workspace release management (pnpm change, pnpm lane, and a bare pnpm version -r), a pnpm doctor command that diagnoses your installation end to end, the pnpm access and pnpm team commands for managing packages and organizations on the registry, convergence overrides, and scheme-carrying peerDependencies specifiers. They also fix a path-traversal vulnerability, cut peak memory during cold-cache resolution by roughly 30%, and resolve a peer dependency deadlock.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "Windows Package Manager 1.30.50-preview",
