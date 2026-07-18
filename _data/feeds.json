@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-18T14:38:01Z",
-  "cutoff": "2026-06-18T14:37:57Z",
+  "generated": "2026-07-18T15:37:43Z",
+  "cutoff": "2026-06-18T15:37:39Z",
   "feed_count": 79,
   "item_count": 207,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-07-18T15:15:22Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.270.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.270.0",
+      "published": "2026-07-18T14:48:05Z",
+      "preview": "43.270.0 (2026-07-18) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.0 (main) ( #44695 ) ( f532fdc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 12 Alpha 15",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.15-1",
@@ -92,14 +108,6 @@
       "preview": "43.269.2 (2026-07-18) Bug Fixes nuget: fall back to nupkg metadata on nuspec 404 ( #44388 ) ( 7ab2063 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-18T00:36:17Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "SDK-3.14.0-41.0.dev",
@@ -250,14 +258,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.2",
       "published": "2026-07-17T14:06:44Z",
       "preview": "43.268.2 (2026-07-17) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.6 (main) ( #44662 ) ( 7bdb713 ) Build System deps: update dependency ignore to v7.0.6 (main) ( #44661 ) ( e30d05c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.268.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.1",
-      "published": "2026-07-17T13:41:58Z",
-      "preview": "43.268.1 (2026-07-17) Bug Fixes manager/hermit: propagate git credentials to hermit install ( #43524 ) ( 556b1be )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
