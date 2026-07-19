@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-19T00:57:13Z",
-  "cutoff": "2026-06-19T00:57:08Z",
+  "generated": "2026-07-19T05:28:46Z",
+  "cutoff": "2026-06-19T05:28:42Z",
   "feed_count": 79,
   "item_count": 202,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.270.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.270.1",
+      "published": "2026-07-19T04:59:50Z",
+      "preview": "43.270.1 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.1 (main) ( #44703 ) ( efe4c69 ) Miscellaneous Chores deps: update dependency tar to v7.5.20 (main) ( #44702 ) ( aa18088 ) deps: update dependency tsdown to v0.22.5 (main) ( #44696 ) ( ffa5bbb ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.4 (main) ( #44700 ) ( aae1338 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -258,14 +266,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.3",
       "published": "2026-07-17T16:47:57Z",
       "preview": "43.268.3 (2026-07-17) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.7 (main) ( #44668 ) ( c92de21 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.2 (main) ( #44666 ) ( 398d576 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.268.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.2",
-      "published": "2026-07-17T14:06:44Z",
-      "preview": "43.268.2 (2026-07-17) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.75.6 (main) ( #44662 ) ( 7bdb713 ) Build System deps: update dependency ignore to v7.0.6 (main) ( #44661 ) ( e30d05c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
