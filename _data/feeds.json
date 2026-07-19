@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-19T12:37:02Z",
-  "cutoff": "2026-06-19T12:36:58Z",
+  "generated": "2026-07-19T15:37:43Z",
+  "cutoff": "2026-06-19T15:37:39Z",
   "feed_count": 79,
   "item_count": 202,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.271.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.271.3",
+      "published": "2026-07-19T14:52:08Z",
+      "preview": "43.271.3 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.5 (main) ( #44712 ) ( 3200bd4 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.8 (main) ( #44711 ) ( 37d4dd2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.271.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.271.2",
@@ -244,14 +252,6 @@
       "preview": "2.6.0~alpha1",
       "source": "opam releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.269.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.269.0",
-      "published": "2026-07-17T22:06:36Z",
-      "preview": "43.269.0 (2026-07-17) Features gerrit: rework scm implementation ( #38966 ) ( 18c9c93 ), closes #41382",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "consolidation-step-3-green",
