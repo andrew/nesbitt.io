@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-19T10:47:46Z",
-  "cutoff": "2026-06-19T10:47:42Z",
+  "generated": "2026-07-19T12:37:02Z",
+  "cutoff": "2026-06-19T12:36:58Z",
   "feed_count": 79,
   "item_count": 202,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.271.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.271.2",
+      "published": "2026-07-19T11:45:52Z",
+      "preview": "43.271.2 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.4 (main) ( #44710 ) ( ac8e1d7 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.7 (main) ( #44709 ) ( 61d5247 ) Code Refactoring linters: enabled oxlints func-style ( #44691 ) ( 58771bb ) Tests linters: add linting rule to enforce usage of host rules test util ( #44692 ) ( 5ad36a2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.271.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.271.1",
@@ -252,14 +260,6 @@
       "preview": "step 3.fix0: drop package-rename deps; apply 2.4/2.5/3.6 seds",
       "source": "Bun releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.268.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.6",
-      "published": "2026-07-17T21:50:54Z",
-      "preview": "43.268.6 (2026-07-17) Build System deps: update dependency @renovatebot/osv-offline to v3.0.9 (main) ( #44679 ) ( 0b44e35 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "consolidation-step-1-green",
