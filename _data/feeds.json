@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-19T15:37:43Z",
-  "cutoff": "2026-06-19T15:37:39Z",
+  "generated": "2026-07-19T19:43:20Z",
+  "cutoff": "2026-06-19T19:43:17Z",
   "feed_count": 79,
-  "item_count": 202,
+  "item_count": 201,
   "categories": [
     ".NET",
     "C/C++",
@@ -1628,14 +1628,6 @@
       "preview": "Helm v3.21.2 is a patch release to correct bump the Kubernetes client libraries (client-go, etc) to match the expected Kubernetes v1.36 release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Update Kubernetes client libraries to v1.36 Installation and Upgrading Download H",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "0.11.23",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.23",
-      "published": "2026-06-19T18:42:52Z",
-      "preview": "Release Notes Released on 2026-06-19. Bug fixes Revert \"Fix transparent Python upgrades in project environments\" to mitigate unintended breakage in pre-commit-uv ( #19925 ) Restore old behavior where workspace members \"hidden\" by an intermediate pyproject.toml would be treated as standalone projects ( #19926 ) Install uv 0.11.23 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.23/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://re",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
