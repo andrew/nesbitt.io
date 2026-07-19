@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-19T09:01:24Z",
-  "cutoff": "2026-06-19T09:01:20Z",
+  "generated": "2026-07-19T09:58:27Z",
+  "cutoff": "2026-06-19T09:58:22Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.271.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.271.1",
+      "published": "2026-07-19T09:50:48Z",
+      "preview": "43.271.1 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.3 (main) ( #44708 ) ( 55df4c7 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.13 (main) ( #44706 ) ( 806133b ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.6 (main) ( #44707 ) ( 5e626a7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-16-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-16-a",
@@ -260,14 +268,6 @@
       "preview": "step 1.fix0: regenerate stale build/debug/codegen rust outputs",
       "source": "Bun releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.268.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.268.5",
-      "published": "2026-07-17T20:50:15Z",
-      "preview": "43.268.5 (2026-07-17) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.8 (main) ( #44672 ) ( 497a429 ) Tests git: disable git maintenance to prevent test flakiness ( #44670 ) ( 636e888 ) Build System deps: update dependency adm-zip to v0.6.0 (main) ( #44678 ) ( 55ab570 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "9.7.0 RC1",
