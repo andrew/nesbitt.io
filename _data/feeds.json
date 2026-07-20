@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-20T19:54:20Z",
-  "cutoff": "2026-06-20T19:54:16Z",
+  "generated": "2026-07-20T20:46:18Z",
+  "cutoff": "2026-06-20T20:46:15Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -22,12 +22,44 @@
   ],
   "items": [
     {
-      "title": "v12.0.0-alpha.17: chore(release): pacquet 12.0.0-alpha.17 (#13180)",
+      "title": "v2026.7.11",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.11",
+      "published": "2026-07-20T20:39:19Z",
+      "preview": "(bootstrap) support auto-updating cask metadata by @casparbrelo…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.16",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.16",
+      "published": "2026-07-20T20:36:40Z",
+      "preview": "Release vfox 2026.7.16",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.7.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.7.1",
+      "published": "2026-07-20T20:35:41Z",
+      "preview": "Release mise-sigstore 2026.7.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pnpm 12 Alpha 17",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.17",
-      "published": "2026-07-20T19:26:06Z",
-      "preview": "Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+      "published": "2026-07-20T19:57:49Z",
+      "preview": "Minor Changes Added support for alias-less Git dependency adds, preserved locked Git commits during unrelated dependency changes, and reported Git package versions in install logs. pnpm list and pnpm why are now feature complete and behaviorally identical to the TypeScript CLI. pnpm list gained --only-projects , --find-by (finders declared in .pnpmfile.cjs ), search by version range ( pnpm ls \"foo@^2\" ), subtree deduplication with [deduped] markers, peer/skipped annotations, the package-count summary, --long manifest details, resolved tarball URLs and absolute paths in --json / --parseable out",
       "source": "pnpm releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "43.272.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.5",
+      "published": "2026-07-20T19:57:08Z",
+      "preview": "43.272.5 (2026-07-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.7 (main) ( #44743 ) ( 1e7391f ) Miscellaneous Chores deps: update actions/checkout action to v6.1.0 (main) ( #44741 ) ( e3541c1 ) deps: update dependency astral-sh/uv to v0.11.29 (main) ( #44619 ) ( 75d2ca1 ) deps: update dependency protobufjs@8.0.1 to v8.7.1 (main) ( #44733 ) ( f3e5741 ) deps: update github/codeql-action action to v4.37.1 (main) ( #44647 ) ( 5a06fc9 ) Code Refactoring linters: enable node/no-sync and migrate to async calls ( #44693 ) ( 2dbfd85 ) Tests linters: add linting rule to ",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "2.6.0~alpha1",
@@ -218,14 +250,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.271.0",
       "published": "2026-07-19T08:19:28Z",
       "preview": "43.271.0 (2026-07-19) Features data: automatic update of static data ( #44699 ) ( fc68aea )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.270.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.270.2",
-      "published": "2026-07-19T06:48:44Z",
-      "preview": "43.270.2 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.2 (main) ( #44705 ) ( 54d839d ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.5 (main) ( #44704 ) ( fed170a )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -614,14 +638,6 @@
       "category": "Go"
     },
     {
-      "title": "aqua-registry-v2026.7.2",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.7.2",
-      "published": "2026-07-15T17:57:43Z",
-      "preview": "Release aqua-registry 2026.7.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.7.12",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.12",
       "published": "2026-07-15T17:57:23Z",
@@ -676,22 +692,6 @@
       "preview": "ORAS CLI v1.3.3 is a maintenance release focused on security hardening, dependency updates, and a few user-facing improvements to oras attach . Highlights 🔒 Security: upgraded oras-go to v2.6.2 , which addresses a tar-extraction path-traversal advisory ( GHSA-fxhp-mv3v-67qp ) affecting hardlink entries during pull /extract. ✨ oras attach gains --config support, and --annotation $config:* values now flow through to the packed manifest. 🛡️ Supply-chain hardening: GitHub Actions are now pinned to commit SHAs, SBOMs are attached to release artifacts, and static security scanning (gosec) runs in CI",
       "source": "ORAS releases",
       "category": "Containers"
-    },
-    {
-      "title": "v2026.7.6: Sandbox defaults, Flatpak bootstrap, and smarter task output",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.6",
-      "published": "2026-07-14T16:23:32Z",
-      "preview": "Added task: per-task output style field, decoupled from verbosity, so styles like prefix and quietness combine freely #10885 sandbox: global [settings.sandbox] deny defaults ( deny_all , deny_read , deny_write , deny_net , deny_env ) #10940 bootstrap: Flatpak package support for [bootstrap.packages] on Linux #10951 oci: reproducible host path copy layers via mise oci build --copy HOST_PATH:IMAGE_PATH and [[oci.copy]] #10952 doctor: mise doctor now warns when a mise shim is shadowed by an earlier executable in PATH #10919 aqua: support for private github_content and github_archive packages via ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.7.11",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.11",
-      "published": "2026-07-14T15:40:53Z",
-      "preview": "Release vfox 2026.7.11",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "7.10.0.8",
