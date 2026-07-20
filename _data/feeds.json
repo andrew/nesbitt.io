@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-20T07:24:44Z",
-  "cutoff": "2026-06-20T07:24:38Z",
+  "generated": "2026-07-20T09:28:38Z",
+  "cutoff": "2026-06-20T09:28:33Z",
   "feed_count": 79,
-  "item_count": 201,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.2.2 (2026-07-20)",
+      "url": "https://github.com/spack/spack/releases/tag/v1.2.2",
+      "published": "2026-07-20T09:09:23Z",
+      "preview": "Bug fixes Concretization cache: Fix accidental exponential complexity issue in spec hash, and disable for spliced specs ( #52665 ) Fix serialization issues with abstract input spec ( #52714 , #52716 ) Prune cache only after write ( #52715 ) Reduce excessive syscalls ( #52721 ) Make spack --disable-locks apply to all file system locks used by Spack ( #52270 ) Fix a patch file lookup issue when using multiple package repositories ( #52675 ) Fix a few issues with spack isolate --self ( #52725 ) Fix an issue where repositories did not raise InvalidNamespaceError correctly ( #52689 )",
+      "source": "Spack releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "releases/latest: Set version to v1.2.2",
+      "url": "https://github.com/spack/spack/releases/tag/releases%2Flatest",
+      "published": "2026-07-20T09:07:17Z",
+      "preview": "Signed-off-by: Harmen Stoppels me@harmenstoppels.nl",
+      "source": "Spack releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
+      "published": "2026-07-20T08:45:50Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "43.272.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.1",
@@ -1228,14 +1252,6 @@
       "preview": "What's Changed Support package-scoped NuGet release notes by @Cjewett in #15211 Filter null entries from job directories by @brettfo in #15457 devcontainers: preserve major-only Feature pins when precision-matching tags are absent by @thavaahariharangit with @Copilot in #15445 Type opaque hashes in common with T.anything by @JamieMagee in #15458 Type the options passthrough in base classes with T.anything by @JamieMagee in #15459 Apply git-tag cooldown across ecosystems by @robaiken in #15369 Type requirement helpers in the update-checker base class by @JamieMagee in #15461 Select group update",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "releases/latest: Set version to v1.2.1",
-      "url": "https://github.com/spack/spack/releases/tag/releases%2Flatest",
-      "published": "2026-07-06T16:42:00Z",
-      "preview": "Signed-off-by: Harmen Stoppels me@harmenstoppels.nl",
-      "source": "Spack releases",
-      "category": "Multi-language"
     },
     {
       "title": "6.0.7",
