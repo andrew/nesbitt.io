@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-20T11:17:38Z",
-  "cutoff": "2026-06-20T11:17:34Z",
+  "generated": "2026-07-20T13:01:19Z",
+  "cutoff": "2026-06-20T13:01:14Z",
   "feed_count": 79,
   "item_count": 204,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.272.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.4",
+      "published": "2026-07-20T12:04:16Z",
+      "preview": "43.272.4 (2026-07-20) Documentation fix outdated statement that Docker major updates are disabled by default ( #44524 ) ( b0bc33c ) wrap preset names in code blocks ( #44234 ) ( 6959107 ) Tests add linter for as LongCommitSha in test files ( #44681 ) ( 1e03699 ) Build System deps: update dependency protobufjs to v8.7.1 (main) ( #44732 ) ( 52907ef )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.272.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.3",
@@ -146,14 +154,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.270.2",
       "published": "2026-07-19T06:48:44Z",
       "preview": "43.270.2 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.2 (main) ( #44705 ) ( 54d839d ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.5 (main) ( #44704 ) ( fed170a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.270.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.270.1",
-      "published": "2026-07-19T04:59:50Z",
-      "preview": "43.270.1 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.1 (main) ( #44703 ) ( efe4c69 ) Miscellaneous Chores deps: update dependency tar to v7.5.20 (main) ( #44702 ) ( aa18088 ) deps: update dependency tsdown to v0.22.5 (main) ( #44696 ) ( ffa5bbb ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.4 (main) ( #44700 ) ( aae1338 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
