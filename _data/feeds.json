@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-20T21:43:50Z",
-  "cutoff": "2026-06-20T21:43:45Z",
+  "generated": "2026-07-20T22:38:13Z",
+  "cutoff": "2026-06-20T22:38:09Z",
   "feed_count": 79,
   "item_count": 205,
   "categories": [
@@ -22,6 +22,14 @@
   ],
   "items": [
     {
+      "title": "v2026.7.11: Task Source Tracking and Activation Speedups",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.11",
+      "published": "2026-07-20T21:58:37Z",
+      "preview": "This release sharpens task handling around remote files, global config, and tool selectors, trims redundant work from shell activation, and fixes several bootstrap and platform-specific edge cases. Note This is the first published release since v2026.7.7 — versions 2026.7.8 through 2026.7.10 were tagged but never published due to a release pipeline issue. Their changes are included here; see Also in this release below. Added config: structured tool definitions now accept version , path , prefix , and ref selectors consistently in root [tools] , inline task definitions, task templates, and file",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "1.16.1",
       "url": "https://github.com/pypa/pipx/releases/tag/1.16.1",
       "published": "2026-07-20T21:30:33Z",
@@ -36,14 +44,6 @@
       "preview": "Release Notes Released on 2026-07-20. Python Add CPython 3.15.0b4 ( #20519 ) Preview features Allow uv workspace metadata --sync to target the active virtual environment with --active ( #20500 ) Reuse centralized project environments when workspaces are accessed through symlinks ( #20436 ) Performance Skip resolver candidates whose files are all excluded by exclude-newer ( #20460 ) Limit parallel cache reads to reduce resolver scheduling and allocation overhead ( #20427 ) Accelerate lockfile serialization with toml_writer ( #20450 ) Compact cached Simple API distribution metadata and hashes ( ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "v2026.7.11",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.11",
-      "published": "2026-07-20T20:39:19Z",
-      "preview": "(bootstrap) support auto-updating cask metadata by @casparbrelo…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.7.16",
@@ -1105,7 +1105,7 @@
       "title": "2.10.2",
       "url": "https://github.com/composer/composer/releases/tag/2.10.2",
       "published": "2026-07-08T08:24:36Z",
-      "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 / CVE-2026-59948 ) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx / CVE-2026-59946) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 / CVE-2026-59947) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Added warning output in self-update command when using a soon-to-be ",
+      "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 / CVE-2026-59948 ) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx / CVE-2026-59946 ) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 / CVE-2026-59947 ) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Added warning output in self-update command when using a soon-to-b",
       "source": "Composer releases",
       "category": "PHP"
     },
