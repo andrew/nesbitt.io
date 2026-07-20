@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-20T13:01:19Z",
-  "cutoff": "2026-06-20T13:01:14Z",
+  "generated": "2026-07-20T16:48:27Z",
+  "cutoff": "2026-06-20T16:48:23Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,62 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Cabal-hooks-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-hooks-v3.18.1.0",
+      "published": "2026-07-20T16:39:00Z",
+      "preview": "Cabal-hooks-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Cabal-syntax-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-syntax-v3.18.1.0",
+      "published": "2026-07-20T16:38:53Z",
+      "preview": "Cabal-syntax-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Cabal-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-v3.18.1.0",
+      "published": "2026-07-20T16:38:47Z",
+      "preview": "Cabal-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "cabal-install-solver-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-solver-v3.18.1.0",
+      "published": "2026-07-20T16:38:39Z",
+      "preview": "cabal-install-solver-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "cabal-install-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0",
+      "published": "2026-07-20T16:38:29Z",
+      "preview": "cabal-install-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "hooks-exe-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/hooks-exe-v3.18.1.0",
+      "published": "2026-07-20T16:38:22Z",
+      "preview": "hooks-exe-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "6.0.12",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.12",
+      "published": "2026-07-20T16:17:48Z",
+      "preview": "What's Changed vulns: advisory database repo renamed to Homebrew/advisory-database by @andrew in #23117 Bump vendored portable-ruby to 4.0.6 by @brew-commit-app[bot] in #23118 formulary: map resolves information from API by @Bo98 in #23114 downloadable: skip repeated checksum verification of the same file by @aholland in #23116 Enable cask FFI helpers for all users by @MikeMcQuaid in #23061 cmd/upgrade: don't show upgrade size with --build-from-source by @Bo98 in #23109 readline_nonblock: use larger buffer and retain state by @cho-m in #23120 Raise ArgumentError when get_make_var variable is m",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
     {
       "title": "43.272.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.4",
@@ -339,54 +395,6 @@
       "published": "2026-07-17T08:44:47Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
       "source": "Swift Package Manager releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-install-solver-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-solver-v3.18.1.0",
-      "published": "2026-07-17T06:42:00Z",
-      "preview": "cabal-install-solver-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-install-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0",
-      "published": "2026-07-17T06:41:55Z",
-      "preview": "cabal-install-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "hooks-exe-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/hooks-exe-v3.18.1.0",
-      "published": "2026-07-17T06:41:49Z",
-      "preview": "hooks-exe-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "Cabal-hooks-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-hooks-v3.18.1.0",
-      "published": "2026-07-17T06:41:42Z",
-      "preview": "Cabal-hooks-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "Cabal-syntax-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-syntax-v3.18.1.0",
-      "published": "2026-07-17T06:41:35Z",
-      "preview": "Cabal-syntax-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "Cabal-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-v3.18.1.0",
-      "published": "2026-07-17T06:40:40Z",
-      "preview": "Cabal-v3.18.1.0",
-      "source": "Cabal releases",
       "category": "Registries"
     },
     {
