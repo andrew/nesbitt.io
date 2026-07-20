@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-20T18:58:39Z",
-  "cutoff": "2026-06-20T18:58:35Z",
+  "generated": "2026-07-20T19:54:20Z",
+  "cutoff": "2026-06-20T19:54:16Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -22,10 +22,18 @@
   ],
   "items": [
     {
+      "title": "v12.0.0-alpha.17: chore(release): pacquet 12.0.0-alpha.17 (#13180)",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.17",
+      "published": "2026-07-20T19:26:06Z",
+      "preview": "Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "2.6.0~alpha1",
       "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-alpha1",
-      "published": "2026-07-20T18:35:24Z",
-      "preview": "This is the first alpha release of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our (upcoming) blog post for a highlight on the major changes and upgrade instructions. Changelog : Major changes The shell env hook will now update the current bin path in PATH in place instead of always prioritising opam's path ove",
+      "published": "2026-07-20T19:08:11Z",
+      "preview": "This is the first alpha release of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for a highlight on the major changes and upgrade instructions. Changelog : Major changes The shell env hook will now update the current bin path in PATH in place instead of always prioritising opam's path over every oth",
       "source": "opam releases",
       "category": "Registries"
     },
@@ -574,14 +582,6 @@
       "category": "Python"
     },
     {
-      "title": "pnpm 12 Alpha 13",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.13",
-      "published": "2026-07-15T22:29:32Z",
-      "preview": "No content.",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "1.15.1",
       "url": "https://github.com/pypa/pipx/releases/tag/1.15.1",
       "published": "2026-07-15T21:34:34Z",
@@ -1089,7 +1089,7 @@
       "title": "2.10.2",
       "url": "https://github.com/composer/composer/releases/tag/2.10.2",
       "published": "2026-07-08T08:24:36Z",
-      "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 / CVE-2026-59948) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx / CVE-2026-59946) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 / CVE-2026-59947) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Added warning output in self-update command when using a soon-to-be E",
+      "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 / CVE-2026-59948 ) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx / CVE-2026-59946) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 / CVE-2026-59947) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Added warning output in self-update command when using a soon-to-be ",
       "source": "Composer releases",
       "category": "PHP"
     },
