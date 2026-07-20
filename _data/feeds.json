@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-20T09:28:38Z",
-  "cutoff": "2026-06-20T09:28:33Z",
+  "generated": "2026-07-20T11:17:38Z",
+  "cutoff": "2026-06-20T11:17:34Z",
   "feed_count": 79,
-  "item_count": 203,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.272.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.3",
+      "published": "2026-07-20T10:12:22Z",
+      "preview": "43.272.3 (2026-07-20) Bug Fixes docker: include global and inherited JSON schemas ( #44674 ) ( 29ca969 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v1.0.4 (2026-02-23)",
+      "url": "https://github.com/spack/spack/releases/tag/v1.0.4",
+      "published": "2026-07-20T09:58:49Z",
+      "preview": "v1.0.4 (2026-02-23) Bug fixes Concretizer bugfixes: solver: remove a special case for provider weighting #51347 solver: improve timeout handling and add Ctrl-C interrupt safety #51341 solver: simplify interrupt/timeout logic #51349 Repo management bugfixes: repo.py: support rhel 7 #51617 repo.py: fix checking out commits #51695 git: pull_checkout_branch RHEL7 git 1.8.3.1 fix #51779 git: fix locking issue in pull_checkout_branch #51854 spack repo remove: allow removing from unspecified scope #51563 build_environment.py: Prevent deadlock on install process join #51429 Fix typo in untrack_env #51",
+      "source": "Spack releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "43.272.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.2",
+      "published": "2026-07-20T09:42:57Z",
+      "preview": "43.272.2 (2026-07-20) Bug Fixes platform/azure: evaluate policies before attempting to merge PR ( #44631 ) ( 7ac677d ) Code Refactoring types: document localDir isn't a globalOnly option ( #44635 ) ( 0e6429b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.2.2 (2026-07-20)",
       "url": "https://github.com/spack/spack/releases/tag/v1.2.2",
@@ -142,28 +166,12 @@
       "category": "Registries"
     },
     {
-      "title": "43.270.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.270.0",
-      "published": "2026-07-18T14:48:05Z",
-      "preview": "43.270.0 (2026-07-18) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.0 (main) ( #44695 ) ( f532fdc )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "pnpm 12 Alpha 15",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.15-1",
       "published": "2026-07-18T14:15:53Z",
       "preview": "Minor Changes Optional peer dependencies declared only via peerDependenciesMeta (for example debug 's supports-color peer) are now resolved from a satisfying version already present in the dependency graph, the same way explicitly declared optional peer dependencies are. Previously such peers were only resolved this way when the package's metadata was read back from the lockfile, so an unrelated dependency change could rewrite peer resolutions across the whole lockfile. Added pnpm licenses command to the Rust pacquet port to list package licenses in a tabular or JSON format. Patch Changes pnpm",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.269.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.269.3",
-      "published": "2026-07-18T13:06:39Z",
-      "preview": "43.269.3 (2026-07-18) Bug Fixes git: detect commits modified through rebase or amend ( #44587 ) ( 8e6a7fc ), closes #42975 #43171 #44585",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 11.15",
