@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-21T09:12:47Z",
-  "cutoff": "2026-06-21T09:12:43Z",
+  "generated": "2026-07-21T11:56:27Z",
+  "cutoff": "2026-06-21T11:56:23Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.272.9",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.9",
+      "published": "2026-07-21T11:08:44Z",
+      "preview": "43.272.9 (2026-07-21) Bug Fixes manager/dockerfile: handle single-quoted empty ARG default value ( #44522 ) ( 1f5f6da )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.272.8",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.8",
@@ -276,14 +284,6 @@
       "preview": "Patch Changes pnpm install now detects a supportedArchitectures change and re-evaluates previously skipped platform-specific optional dependencies, instead of reporting the project as up to date and leaving the packages for the old architecture set in place. pnpm setup now removes leftover v10-layout shims at the top of PNPM_HOME , so pnpm self-update no longer warns about a v10 installation layout after PATH has been migrated to the v11 PNPM_HOME/bin layout. Applies to both the TypeScript CLI and pacquet. In the TypeScript CLI, self-update also no longer treats a dangling legacy shim (one who",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.271.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.271.3",
-      "published": "2026-07-19T14:52:08Z",
-      "preview": "43.271.3 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.5 (main) ( #44712 ) ( 3200bd4 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.8 (main) ( #44711 ) ( 37d4dd2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-16-a",
