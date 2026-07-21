@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-21T11:56:27Z",
-  "cutoff": "2026-06-21T11:56:23Z",
+  "generated": "2026-07-21T13:59:33Z",
+  "cutoff": "2026-06-21T13:59:27Z",
   "feed_count": 79,
-  "item_count": 203,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,78 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Cabal-hooks-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-hooks-v3.18.1.0",
+      "published": "2026-07-21T13:53:34Z",
+      "preview": "Cabal-hooks-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Cabal-syntax-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-syntax-v3.18.1.0",
+      "published": "2026-07-21T13:53:33Z",
+      "preview": "Cabal-syntax-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Cabal-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-v3.18.1.0",
+      "published": "2026-07-21T13:53:32Z",
+      "preview": "Cabal-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "cabal-install-solver-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-solver-v3.18.1.0",
+      "published": "2026-07-21T13:53:31Z",
+      "preview": "cabal-install-solver-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "cabal-install-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0",
+      "published": "2026-07-21T13:53:30Z",
+      "preview": "cabal-install-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "hooks-exe-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/hooks-exe-v3.18.1.0",
+      "published": "2026-07-21T13:53:28Z",
+      "preview": "hooks-exe-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.273.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.273.0",
+      "published": "2026-07-21T13:48:17Z",
+      "preview": "43.273.0 (2026-07-21) Features platform: get all branch update dates in a more performant manner ( #44582 ) ( f932d52 ) Code Refactoring config/global: improve type restrictions for GlobalConfig.OPTIONS ( #44636 ) ( d16dc9a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "1.16.2",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.16.2",
+      "published": "2026-07-21T13:44:56Z",
+      "preview": "What's Changed 👷 ci: test against Python 3.15 beta by @gaborbernat in #1971 Full Changelog : 1.16.1...1.16.2",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-07-21T13:12:19Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "43.272.9",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.9",
@@ -44,14 +116,6 @@
       "preview": "43.272.7 (2026-07-21) Bug Fixes gomod: pseudo-version digest updates produce no change when module is absent from go proxy ( #44477 ) ( e5ace74 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-21T06:12:31Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "SDK-3.14.0-43.0.dev",
@@ -142,54 +206,6 @@
       "category": "Registries"
     },
     {
-      "title": "Cabal-hooks-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-hooks-v3.18.1.0",
-      "published": "2026-07-20T16:39:00Z",
-      "preview": "Cabal-hooks-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "Cabal-syntax-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-syntax-v3.18.1.0",
-      "published": "2026-07-20T16:38:53Z",
-      "preview": "Cabal-syntax-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "Cabal-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-v3.18.1.0",
-      "published": "2026-07-20T16:38:47Z",
-      "preview": "Cabal-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-install-solver-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-solver-v3.18.1.0",
-      "published": "2026-07-20T16:38:39Z",
-      "preview": "cabal-install-solver-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-install-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0",
-      "published": "2026-07-20T16:38:29Z",
-      "preview": "cabal-install-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "hooks-exe-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/hooks-exe-v3.18.1.0",
-      "published": "2026-07-20T16:38:22Z",
-      "preview": "hooks-exe-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
       "title": "6.0.12",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.12",
       "published": "2026-07-20T16:17:48Z",
@@ -258,14 +274,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.1",
       "published": "2026-07-20T07:02:11Z",
       "preview": "43.272.1 (2026-07-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.6 (main) ( #44724 ) ( 37372a1 ) Documentation update references to python to 311ea5b (main) ( #44716 ) ( ac6614e ) update references to renovate/renovate (main) ( #44717 ) ( 6f577f0 ) update references to renovatebot/github-action to v46.1.20 (main) ( #44721 ) ( c898019 ) Miscellaneous Chores deps: lock file maintenance (main) ( #44719 ) ( 4d42538 ) deps: update dependency tsdown to v0.22.7 (main) ( #44720 ) ( 90697a2 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.9 (main) (",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.272.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.0",
-      "published": "2026-07-19T23:21:09Z",
-      "preview": "43.272.0 (2026-07-19) Features platform-azure: initial bearer token auth support for Azure DevOps ( #43888 ) ( 0f06e63 ), closes #22198",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
