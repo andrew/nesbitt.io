@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-21T17:48:38Z",
-  "cutoff": "2026-06-21T17:48:34Z",
+  "generated": "2026-07-21T18:46:46Z",
+  "cutoff": "2026-06-21T18:46:43Z",
   "feed_count": 79,
   "item_count": 207,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.275.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.275.0",
+      "published": "2026-07-21T18:23:22Z",
+      "preview": "43.275.0 (2026-07-21) Features onboarding: use summary view if hitting platform limits ( #44256 ) ( 969d1a1 ), closes #41502",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.76.1",
       "url": "https://github.com/canonical/snapd/releases/tag/2.76.1",
@@ -268,14 +276,6 @@
       "preview": "v1.0.4 (2026-02-23) Bug fixes Concretizer bugfixes: solver: remove a special case for provider weighting #51347 solver: improve timeout handling and add Ctrl-C interrupt safety #51341 solver: simplify interrupt/timeout logic #51349 Repo management bugfixes: repo.py: support rhel 7 #51617 repo.py: fix checking out commits #51695 git: pull_checkout_branch RHEL7 git 1.8.3.1 fix #51779 git: fix locking issue in pull_checkout_branch #51854 spack repo remove: allow removing from unspecified scope #51563 build_environment.py: Prevent deadlock on install process join #51429 Fix typo in untrack_env #51",
       "source": "Spack releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.272.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.2",
-      "published": "2026-07-20T09:42:57Z",
-      "preview": "43.272.2 (2026-07-20) Bug Fixes platform/azure: evaluate policies before attempting to merge PR ( #44631 ) ( 7ac677d ) Code Refactoring types: document localDir isn't a globalOnly option ( #44635 ) ( 0e6429b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.2.2 (2026-07-20)",
