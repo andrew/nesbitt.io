@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-21T07:13:08Z",
-  "cutoff": "2026-06-21T07:13:04Z",
+  "generated": "2026-07-21T08:03:33Z",
+  "cutoff": "2026-06-21T08:03:28Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.272.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.7",
+      "published": "2026-07-21T07:39:04Z",
+      "preview": "43.272.7 (2026-07-21) Bug Fixes gomod: pseudo-version digest updates produce no change when module is absent from go proxy ( #44477 ) ( e5ace74 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -274,14 +282,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.271.2",
       "published": "2026-07-19T11:45:52Z",
       "preview": "43.271.2 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.4 (main) ( #44710 ) ( ac8e1d7 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.7 (main) ( #44709 ) ( 61d5247 ) Code Refactoring linters: enabled oxlints func-style ( #44691 ) ( 58771bb ) Tests linters: add linting rule to enforce usage of host rules test util ( #44692 ) ( 5ad36a2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.271.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.271.1",
-      "published": "2026-07-19T09:50:48Z",
-      "preview": "43.271.1 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.3 (main) ( #44708 ) ( 55df4c7 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.13 (main) ( #44706 ) ( 806133b ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.6 (main) ( #44707 ) ( 5e626a7 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1644,14 +1644,6 @@
       "preview": "v1.2.0 is a major feature release. The main changes you'll notice are the new, parallel installer and the many performance improvements we've added. There are also usability features like concretization groups , and security features like experimental build sandboxing and SBOM generation . Major new features New installer Spack v1.2.0 defaults to the new installer, which is a completely rewritten package installer designed for better performance and improved user experience. This was an experimental feature in v1.1.0 . The new installer takes advantage of much more build parallelism by schedul",
       "source": "Spack releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v6.7.4",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.4",
-      "published": "2026-06-21T08:01:04Z",
-      "preview": "Patch Changes 0205c78 : fix: run jwt middleware before middleware plugins Register the JWT middleware before middleware plugins are loaded so that req.remote_user (anonymous by default) is available inside a plugin's register_middlewares . The API router keeps its own JWT middleware behind a guard so it is not executed twice. Backport of #5697 Closes #5167",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     }
   ]
 }
