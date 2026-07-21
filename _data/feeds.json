@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-21T13:59:33Z",
-  "cutoff": "2026-06-21T13:59:27Z",
+  "generated": "2026-07-21T15:52:44Z",
+  "cutoff": "2026-06-21T15:52:38Z",
   "feed_count": 79,
   "item_count": 204,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.274.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.274.0",
+      "published": "2026-07-21T15:38:12Z",
+      "preview": "43.274.0 (2026-07-21) Features datasource/docker: Read Official Image annotations ( #44755 ) ( 572554f ) Miscellaneous Chores deps: update github/codeql-action action to v4.37.2 (main) ( #44760 ) ( 2f7284f ) Code Refactoring onboarding: add functions to summarise \"What to expect\" ( #43764 ) ( 4fbfc60 ), closes #41502",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "Cabal-hooks-v3.18.1.0",
       "url": "https://github.com/haskell/cabal/releases/tag/Cabal-hooks-v3.18.1.0",
@@ -268,14 +276,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.272.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.1",
-      "published": "2026-07-20T07:02:11Z",
-      "preview": "43.272.1 (2026-07-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.6 (main) ( #44724 ) ( 37372a1 ) Documentation update references to python to 311ea5b (main) ( #44716 ) ( ac6614e ) update references to renovate/renovate (main) ( #44717 ) ( 6f577f0 ) update references to renovatebot/github-action to v46.1.20 (main) ( #44721 ) ( c898019 ) Miscellaneous Chores deps: lock file maintenance (main) ( #44719 ) ( 4d42538 ) deps: update dependency tsdown to v0.22.7 (main) ( #44720 ) ( 90697a2 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.9 (main) (",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12 Alpha 16",
