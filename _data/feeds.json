@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-21T08:03:33Z",
-  "cutoff": "2026-06-21T08:03:28Z",
+  "generated": "2026-07-21T09:12:47Z",
+  "cutoff": "2026-06-21T09:12:43Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.272.8",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.8",
+      "published": "2026-07-21T08:39:34Z",
+      "preview": "43.272.8 (2026-07-21) Bug Fixes git-submodule: handle ./ relative paths in URL resolution ( #44742 ) ( bad5e22 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.272.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.7",
@@ -274,14 +282,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.271.3",
       "published": "2026-07-19T14:52:08Z",
       "preview": "43.271.3 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.5 (main) ( #44712 ) ( 3200bd4 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.8 (main) ( #44711 ) ( 37d4dd2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.271.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.271.2",
-      "published": "2026-07-19T11:45:52Z",
-      "preview": "43.271.2 (2026-07-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.4 (main) ( #44710 ) ( ac8e1d7 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.7 (main) ( #44709 ) ( 61d5247 ) Code Refactoring linters: enabled oxlints func-style ( #44691 ) ( 58771bb ) Tests linters: add linting rule to enforce usage of host rules test util ( #44692 ) ( 5ad36a2 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
