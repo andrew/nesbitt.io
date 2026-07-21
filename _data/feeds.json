@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-21T02:01:12Z",
-  "cutoff": "2026-06-21T02:01:09Z",
+  "generated": "2026-07-21T07:13:08Z",
+  "cutoff": "2026-06-21T07:13:04Z",
   "feed_count": 79,
-  "item_count": 205,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -24,7 +24,7 @@
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-21T01:51:01Z",
+      "published": "2026-07-21T06:12:31Z",
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
@@ -1650,14 +1650,6 @@
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.4",
       "published": "2026-06-21T08:01:04Z",
       "preview": "Patch Changes 0205c78 : fix: run jwt middleware before middleware plugins Register the JWT middleware before middleware plugins are loaded so that req.remote_user (anonymous by default) is available inside a plugin's register_middlewares . The API router keeps its own JWT middleware behind a guard so it is not executed twice. Backport of #5697 Closes #5167",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v6.7.3",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.7.3",
-      "published": "2026-06-21T06:24:30Z",
-      "preview": "Patch Changes f8fdfc2 : fix: enforce generated npm token metadata Generated npm tokens ( POST /-/npm/v1/tokens ) stored their readonly and cidr_whitelist restrictions but never enforced them, and deleting a token did not revoke it for the package APIs. A token marked read-only or pinned to a CIDR range could still publish packages and change dist-tags, and a deleted token remained usable. Generated tokens now embed a server-issued key (in the JWT claim, or in the encrypted legacy AES payload) and a new enforceGeneratedTokenMetadata middleware looks that key up on each request, rejecting the to",
       "source": "Verdaccio releases",
       "category": "JavaScript"
     }
