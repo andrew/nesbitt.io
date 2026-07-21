@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-21T18:46:46Z",
-  "cutoff": "2026-06-21T18:46:43Z",
+  "generated": "2026-07-21T23:38:49Z",
+  "cutoff": "2026-06-21T23:38:45Z",
   "feed_count": 79,
-  "item_count": 207,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.9.0.83",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.83",
+      "published": "2026-07-21T23:18:08Z",
+      "preview": "Insert 7.9.0.83 into rel/insiders on 07/21/2026 23:18:08",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "43.275.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.275.0",
@@ -1470,14 +1478,6 @@
       "category": "Elixir"
     },
     {
-      "title": "7.9.0.61",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.61",
-      "published": "2026-06-28T12:27:44Z",
-      "preview": "Insert 7.9.0.61 into main on 06/28/2026 12:27:44",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
       "title": "v2.15.2-rc2",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc2",
       "published": "2026-06-27T08:10:46Z",
@@ -1660,22 +1660,6 @@
       "preview": "What's Changed docs: drop advice to disable security or lower support tier by @MikeMcQuaid in #22749 release: exclude Dependabot PRs from changelog by @ZhongRuoyu in #22750 Document more supply-chain guardrails by @MikeMcQuaid in #22752 Allow tap trust in build sandbox by @MikeMcQuaid in #22751 Don't warn for partially trusted skipped taps by @MikeMcQuaid in #22755 services: check --sudo-service-user exists by @sexagesimal in #22763 Follow symlinked trust stores by @MikeMcQuaid in #22762 Annotate upgradable dependencies in install plans by @HaraldNordgren in #22761 livecheck: add compressed op",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "1.12.13",
-      "url": "https://github.com/sbt/sbt/releases/tag/v1.12.13",
-      "published": "2026-06-21T22:42:29Z",
-      "preview": "🐛 bug fixes fix: Fixes file permissions by @eed3si9n + @xuwei-k in sbt/io#527 / #9350 fix: Fixes ArrayIndexOutOfBoundsException error when Unix domain socket is closed by @merlinorg in sbt/ipcsocket#77 Full Changelog : v1.12.12...v1.12.13",
-      "source": "sbt releases",
-      "category": "Maven"
-    },
-    {
-      "title": "v1.2.0 (2026-06-21)",
-      "url": "https://github.com/spack/spack/releases/tag/v1.2.0",
-      "published": "2026-06-21T22:42:02Z",
-      "preview": "v1.2.0 is a major feature release. The main changes you'll notice are the new, parallel installer and the many performance improvements we've added. There are also usability features like concretization groups , and security features like experimental build sandboxing and SBOM generation . Major new features New installer Spack v1.2.0 defaults to the new installer, which is a completely rewritten package installer designed for better performance and improved user experience. This was an experimental feature in v1.1.0 . The new installer takes advantage of much more build parallelism by schedul",
-      "source": "Spack releases",
-      "category": "Multi-language"
     }
   ]
 }
