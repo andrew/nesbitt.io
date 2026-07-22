@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-22T10:07:10Z",
-  "cutoff": "2026-06-22T10:07:04Z",
+  "generated": "2026-07-22T11:01:23Z",
+  "cutoff": "2026-06-22T11:01:18Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.277.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.277.1",
+      "published": "2026-07-22T10:36:13Z",
+      "preview": "43.277.1 (2026-07-22) Bug Fixes presets/monorepo: update react and react-native source URLs to react/react org ( #44780 ) ( 61e4c9c ) Documentation manager: make sure that Supported Datasources are de-duped and sorted ( #44765 ) ( 3888247 ), closes #44764",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-20-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-20-a",
@@ -298,14 +306,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.8",
       "published": "2026-07-21T08:39:34Z",
       "preview": "43.272.8 (2026-07-21) Bug Fixes git-submodule: handle ./ relative paths in URL resolution ( #44742 ) ( bad5e22 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.272.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.7",
-      "published": "2026-07-21T07:39:04Z",
-      "preview": "43.272.7 (2026-07-21) Bug Fixes gomod: pseudo-version digest updates produce no change when module is absent from go proxy ( #44477 ) ( e5ace74 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
