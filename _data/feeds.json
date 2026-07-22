@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-22T16:50:29Z",
-  "cutoff": "2026-06-22T16:50:25Z",
+  "generated": "2026-07-22T19:48:57Z",
+  "cutoff": "2026-06-22T19:48:53Z",
   "feed_count": 79,
-  "item_count": 209,
+  "item_count": 210,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.388.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.388.0",
+      "published": "2026-07-22T19:35:32Z",
+      "preview": "What's Changed Type GitHub release metadata by @JamieMagee in #15597 Make GitCommitChecker strongly typed by @JamieMagee in #15598 Retry corepack prepare and install on signature metadata errors from private registries by @kbukum1 in #15606 Fix UV DependencyGrapher to detect nested uv.lock in monorepos by @thavaahariharangit with @Copilot in #15520 Bump library/rust from 1.95.0-bookworm to 1.97.0-bookworm in /cargo by @dependabot [bot] in #15560 Bump @sigstore/core from 3.1.0 to 3.2.1 in /npm_and_yarn/helpers by @dependabot [bot] in #15455 Bump maven from 3.9.14 to 3.9.16 in /maven by @dependa",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.278.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.3",
