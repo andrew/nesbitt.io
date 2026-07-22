@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-22T19:48:57Z",
-  "cutoff": "2026-06-22T19:48:53Z",
+  "generated": "2026-07-22T20:41:35Z",
+  "cutoff": "2026-06-22T20:41:31Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 11.16",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.16.0",
+      "published": "2026-07-22T20:36:06Z",
+      "preview": "Minor Changes The first release of a package now publishes the version written in its manifest verbatim, instead of bumping off it. pnpm version -r and pnpm change status check the registry for each release's current version; when that version is not yet published, the package debuts at it and its pending changesets apply only from the next release. A newly added package seeded at 1100.0.0 with a minor changeset is therefore published as 1100.0.0 rather than skipping straight to 1100.1.0 . Added a --changeset flag to pnpm update . Set update.changeset to true in pnpm-workspace.yaml to enable t",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12 Alpha 18",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.18",
+      "published": "2026-07-22T20:35:27Z",
+      "preview": "Minor Changes The first release of a package now publishes the version written in its manifest verbatim, instead of bumping off it. pnpm version -r and pnpm change status check the registry for each release's current version; when that version is not yet published, the package debuts at it and its pending changesets apply only from the next release. A newly added package seeded at 1100.0.0 with a minor changeset is therefore published as 1100.0.0 rather than skipping straight to 1100.1.0 . pnpm version now supports the npm-style bump forms: pnpm version <major|minor|patch|premajor|preminor|pre",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v2026.7.12",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.12",
+      "published": "2026-07-22T20:01:13Z",
+      "preview": "(bootstrap) support relative paths in [bootstrap.repos] by @Lil …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.17",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.17",
+      "published": "2026-07-22T19:58:20Z",
+      "preview": "Release vfox 2026.7.17",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v0.388.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.388.0",
@@ -550,14 +582,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "pnpm 11.14",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.14.0",
-      "published": "2026-07-17T22:20:32Z",
-      "preview": "Minor Changes peerDependencies now accept dependency specifiers that carry a scheme — a named-registry spec ( <registry>:<version> ), an npm: alias, or a file: /git/URL spec — instead of rejecting them with ERR_PNPM_INVALID_PEER_DEPENDENCY_SPECIFICATION #13095 . Such a peer is matched against the semver range carried by the specifier ( work:5.x.x is checked as 5.x.x , npm:bar@^5 as ^5 ), or against * when it carries no version, while the original specifier still selects the package to auto-install. Bare name@version values, which are almost always a mistake, are still rejected. Added pnpm doct",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "consolidation-step-4-green",
       "url": "https://github.com/oven-sh/bun/releases/tag/consolidation-step-4-green",
       "published": "2026-07-17T22:17:59Z",
@@ -694,14 +718,6 @@
       "category": "Registries"
     },
     {
-      "title": "pnpm 11.13.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.13.1",
-      "published": "2026-07-16T00:31:55Z",
-      "preview": "Patch Changes Fixed pnpm pack applying workspace-root ignore rules when a workspace package has its own .npmignore file. Keep the interactive minimumReleaseAge approval prompt visible during pnpm install . The progress reporter now pauses its redraws while a prompt is waiting for input instead of overwriting it, so the install no longer hangs on a question the user cannot see #13019 . Fixed pnpm self-update failing to link native platform binaries stored in sibling global virtual store slots.",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "1.16.0",
       "url": "https://github.com/pypa/pipx/releases/tag/1.16.0",
       "published": "2026-07-16T00:08:21Z",
@@ -734,14 +750,6 @@
       "category": "Python"
     },
     {
-      "title": "v2026.7.7: Monorepo deps, systemd timers, and OAuth reliability",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.7",
-      "published": "2026-07-15T18:49:36Z",
-      "preview": "This release extends dependency providers and systemd bootstrap to monorepo and timer-based workflows, and hardens GitHub OAuth token refreshes and cache clearing against concurrent mise processes. Added deps: experimental mise deps --monorepo runs dependency providers across every explicitly configured [monorepo].config_roots entry, aligned with mise install --monorepo . Provider IDs are qualified by config root (e.g. //apps/api:uv ) so repeated provider names across subprojects no longer collide, and mise installs the union of tools declared across participating roots before running provider",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "0.11.29",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.29",
       "published": "2026-07-15T18:44:43Z",
@@ -756,14 +764,6 @@
       "preview": "What's Changed chore(deps): bump golang.org/x/crypto from 0.51.0 to 0.52.0 by @dependabot [bot] in #2148 Revert in-process subprocess reaper, rely on tini by @matt0x6F in #2137 Replace OpenCensus with OpenTelemetry by @matt0x6F in #2138 update-github-action(deps): bump actions/upload-pages-artifact from 4 to 5 by @dependabot [bot] in #2129 update-github-action(deps): bump docker/setup-buildx-action from 3 to 4 by @dependabot [bot] in #2130 update-go-pkg(deps): bump github.com/go-sql-driver/mysql from 1.9.3 to 1.10.0 by @dependabot [bot] in #2132 update-go-pkg(deps): bump go.mongodb.org/mongo-d",
       "source": "Athens releases",
       "category": "Go"
-    },
-    {
-      "title": "vfox-v2026.7.12",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.12",
-      "published": "2026-07-15T17:57:23Z",
-      "preview": "Release vfox 2026.7.12",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v2.9.3",
