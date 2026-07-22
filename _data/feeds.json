@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-22T05:27:13Z",
-  "cutoff": "2026-06-22T05:27:09Z",
+  "generated": "2026-07-22T07:13:45Z",
+  "cutoff": "2026-06-22T07:13:40Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.275.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.275.2",
+      "published": "2026-07-22T06:55:43Z",
+      "preview": "43.275.2 (2026-07-22) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.11 (main) ( #44775 ) ( 381a5b4 ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.4 (main) ( #44773 ) ( df82d39 ) deps: update github/codeql-action action to v4.37.3 (main) ( #44774 ) ( a04cf91 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "bundler-v4.0.17",
       "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.17",
@@ -364,14 +372,6 @@
       "preview": "What's Changed vulns: advisory database repo renamed to Homebrew/advisory-database by @andrew in #23117 Bump vendored portable-ruby to 4.0.6 by @brew-commit-app[bot] in #23118 formulary: map resolves information from API by @Bo98 in #23114 downloadable: skip repeated checksum verification of the same file by @aholland in #23116 Enable cask FFI helpers for all users by @MikeMcQuaid in #23061 cmd/upgrade: don't show upgrade size with --build-from-source by @Bo98 in #23109 readline_nonblock: use larger buffer and retain state by @cho-m in #23120 Raise ArgumentError when get_make_var variable is m",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "43.272.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.4",
-      "published": "2026-07-20T12:04:16Z",
-      "preview": "43.272.4 (2026-07-20) Documentation fix outdated statement that Docker major updates are disabled by default ( #44524 ) ( b0bc33c ) wrap preset names in code blocks ( #44234 ) ( 6959107 ) Tests add linter for as LongCommitSha in test files ( #44681 ) ( 1e03699 ) Build System deps: update dependency protobufjs to v8.7.1 (main) ( #44732 ) ( 52907ef )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.0.4 (2026-02-23)",
