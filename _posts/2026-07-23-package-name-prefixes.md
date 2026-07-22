@@ -72,3 +72,5 @@ A prefix page that lists every `jekyll-*` gem ranked by dependent count, with `j
 ### PEP 755
 
 PEP 752's four named prefixes cover about 2,000 PyPI packages from one organisation each, against about 25,000 under the open-convention prefixes named above. The companion policy [PEP 755](https://peps.python.org/pep-0755/) is still in draft and sets out who can apply for a grant and on what terms, including a proposed queue priority for paid organisations. How it handles an application for `django-` or `pytest-`, from the project or from anyone else, is still to be worked out, and NuGet's handling of `Serilog.*` is one existing precedent.
+
+Data and scripts: [github.com/andrew/package-name-prefixes](https://github.com/andrew/package-name-prefixes).
