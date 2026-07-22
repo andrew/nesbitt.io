@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-22T03:28:35Z",
-  "cutoff": "2026-06-22T03:28:31Z",
+  "generated": "2026-07-22T05:27:13Z",
+  "cutoff": "2026-06-22T05:27:09Z",
   "feed_count": 79,
-  "item_count": 207,
+  "item_count": 210,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "bundler-v4.0.17",
+      "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.17",
+      "published": "2026-07-22T04:19:42Z",
+      "preview": "Enhancements: Open compact index cache in binary mode when appending. Pull request #9679 by hsbt Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install paths when globbing. Pull request #9687 by hsbt Avoid space-containing absolute path in RUBYOPT. Pull request #9696 by hsbt Preserve the locked Bundler checksum when the gem isn't cached. Pull request #9658 by rwstauner Documentation: Point Bundler gemspec metadata at the moved docs. Pull request #9648 by hsbt",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.17",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.17",
+      "published": "2026-07-22T04:17:51Z",
+      "preview": "Enhancements: Validate spec name before writing to the spec cache. Pull request #9690 by hsbt Installs bundler 4.0.17 as a default gem. Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install paths when globbing. Pull request #9687 by hsbt Preserve Windows editor paths in gem open and bundle open. Pull request #9694 by hsbt Preserve Windows paths in MAKE and rake environment variables. Pull request #9693 by hsbt Fix bundle binstub broken by gem update --system on Homebrew ruby. Pull request #9688 by hsbt",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "43.275.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.275.1",
+      "published": "2026-07-22T03:49:52Z",
+      "preview": "43.275.1 (2026-07-22) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.10 (main) ( #44771 ) ( 5586073 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.9 (main) ( #44767 ) ( 6894228 ) deps: update dependency astral-sh/uv to v0.11.31 (main) ( #44769 ) ( f31eedd )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v6.0.2",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.2",
@@ -92,6 +116,14 @@
       "preview": "SDK 3.13.0-282.3.beta",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "4.0.17 Released",
+      "url": "https://blog.rubygems.org/2026/07/22/4.0.17-released.html",
+      "published": "2026-07-22T00:00:00Z",
+      "preview": "RubyGems 4.0.17 includes enhancements and bug fixes and Bundler 4.0.17 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.17 RubyGems Release Notes Enhancements: Validate spec name before writing to the spec cache. Pull request #9690 by hsbt Installs bundler 4.0.17 as a default gem. Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install pa",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
     },
     {
       "title": "7.9.0.83",
@@ -338,14 +370,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.4",
       "published": "2026-07-20T12:04:16Z",
       "preview": "43.272.4 (2026-07-20) Documentation fix outdated statement that Docker major updates are disabled by default ( #44524 ) ( b0bc33c ) wrap preset names in code blocks ( #44234 ) ( 6959107 ) Tests add linter for as LongCommitSha in test files ( #44681 ) ( 1e03699 ) Build System deps: update dependency protobufjs to v8.7.1 (main) ( #44732 ) ( 52907ef )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.272.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.3",
-      "published": "2026-07-20T10:12:22Z",
-      "preview": "43.272.3 (2026-07-20) Bug Fixes docker: include global and inherited JSON schemas ( #44674 ) ( 29ca969 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
