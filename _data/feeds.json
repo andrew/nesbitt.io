@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-22T11:01:23Z",
-  "cutoff": "2026-06-22T11:01:18Z",
+  "generated": "2026-07-22T12:49:14Z",
+  "cutoff": "2026-06-22T12:49:10Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.10.0.29",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.29",
+      "published": "2026-07-22T12:43:13Z",
+      "preview": "Insert 7.10.0.29 into main on 07/22/2026 12:43:12",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "43.278.0: feat(instrumentation): allow exporting OTLP JSON file (#42284)",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.0",
+      "published": "2026-07-22T12:26:16Z",
+      "preview": "feat(instrumentation): allow exporting OTLP JSON file We've recently been investing in improvements to Renovate's OpenTelemetry instrumentation to improve debuggability and supportability. However, not everyone has an immediately available OpenTelemetry Collector, so the added instrumentation isn't useful to those users. Instead, we can provide a way to export to the OTLP file format, which provides a means to export the data to disk and then consume it later. This will also support use-cases like running in a CI platform like GitHub Actions and GitLab CI, where OpenTelemetry Collectors may no",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.277.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.277.1",
@@ -298,14 +314,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.9",
       "published": "2026-07-21T11:08:44Z",
       "preview": "43.272.9 (2026-07-21) Bug Fixes manager/dockerfile: handle single-quoted empty ARG default value ( #44522 ) ( 1f5f6da )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.272.8",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.8",
-      "published": "2026-07-21T08:39:34Z",
-      "preview": "43.272.8 (2026-07-21) Bug Fixes git-submodule: handle ./ relative paths in URL resolution ( #44742 ) ( bad5e22 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1468,14 +1476,6 @@
       "preview": "Release Notes Released on 2026-06-30. Performance Adapt uv to IDs-only PubGrub dependencies ( #20048 ) Avoid allocations in ForkMap::contains ( #20023 ) Reuse resolver work across PubGrub iterations ( #20020 ) Speed up candidate selection for disjoint ranges ( #20026 ) Bug fixes Warn when the build cache is inside the source directory ( #20056 ) Install uv 0.11.26 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.26/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -Execut",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "7.9.0.62",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.62",
-      "published": "2026-06-30T12:29:08Z",
-      "preview": "Insert 7.9.0.62 into main on 06/30/2026 12:29:08",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "0.97.2",
