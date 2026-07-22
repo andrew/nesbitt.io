@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-22T13:59:37Z",
-  "cutoff": "2026-06-22T13:59:33Z",
+  "generated": "2026-07-22T15:00:57Z",
+  "cutoff": "2026-06-22T15:00:52Z",
   "feed_count": 79,
-  "item_count": 210,
+  "item_count": 209,
   "categories": [
     ".NET",
     "C/C++",
@@ -1692,14 +1692,6 @@
       "preview": "pnpm 11.9 computes missing tarball integrity for registries that cannot publish checksums, adds pnpm sbom --exclude-peers, improves audit performance on cyclic lockfiles, fixes peer-resolution nondeterminism, and tightens exclusion handling for minimumReleaseAge and trustPolicy.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "6.0.3",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.3",
-      "published": "2026-06-22T14:25:07Z",
-      "preview": "What's Changed docs: drop advice to disable security or lower support tier by @MikeMcQuaid in #22749 release: exclude Dependabot PRs from changelog by @ZhongRuoyu in #22750 Document more supply-chain guardrails by @MikeMcQuaid in #22752 Allow tap trust in build sandbox by @MikeMcQuaid in #22751 Don't warn for partially trusted skipped taps by @MikeMcQuaid in #22755 services: check --sudo-service-user exists by @sexagesimal in #22763 Follow symlinked trust stores by @MikeMcQuaid in #22762 Annotate upgradable dependencies in install plans by @HaraldNordgren in #22761 livecheck: add compressed op",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
