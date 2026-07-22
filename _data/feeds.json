@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-22T22:38:56Z",
-  "cutoff": "2026-06-22T22:38:52Z",
+  "generated": "2026-07-22T23:38:34Z",
+  "cutoff": "2026-06-22T23:38:29Z",
   "feed_count": 79,
-  "item_count": 211,
+  "item_count": 212,
   "categories": [
     ".NET",
     "C/C++",
@@ -28,6 +28,14 @@
       "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Apply latest loc patch by @florelis in #6262 Remove old Store certs, replace test use with generated ones by @JohnMcPMS in #6275 Add .gitattributes and norm",
       "source": "winget releases",
       "category": "System"
+    },
+    {
+      "title": "Security advisory: Possible leak of legacy API keys via improper cache configuration",
+      "url": "https://blog.rubygems.org/2026/07/22/security-advisory-legacy-api-key-leak.html",
+      "published": "2026-07-22T21:02:00Z",
+      "preview": "A CDN caching bug on RubyGems.org could hand one account’s API key to another person for up to an hour. If you signed in to RubyGems.org with a gem client older than v3.2.0, your key could have been exposed (the technical details are below). Currently, 18% of sign-ins through gem signin come from an affected version, and for the first several years of this bug, before we changed the client’s sign-in path in December 2020, it was every gem client. We’ve reviewed the access logs we keep and found no sign of a legacy key being used maliciously, and no user or support report has suggested otherwis",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
     },
     {
       "title": "pnpm 11.16",
