@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-22T12:49:14Z",
-  "cutoff": "2026-06-22T12:49:10Z",
+  "generated": "2026-07-22T13:59:37Z",
+  "cutoff": "2026-06-22T13:59:33Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -22,20 +22,36 @@
   ],
   "items": [
     {
+      "title": "43.278.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.2",
+      "published": "2026-07-22T13:23:34Z",
+      "preview": "43.278.2 (2026-07-22) Bug Fixes preset/monorepo: re-add old facebook/react URL ( #44782 ) ( da47cb0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.278.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.1",
+      "published": "2026-07-22T13:06:14Z",
+      "preview": "43.278.1 (2026-07-22) Build System deps: update dependency @opentelemetry/otlp-transformer to v0.220.0 (main) ( #44783 ) ( 89b60af )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.278.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.0",
+      "published": "2026-07-22T12:49:17Z",
+      "preview": "43.278.0 (2026-07-22) Features instrumentation: allow exporting OTLP JSON file ( #42284 ) ( adbc20e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "7.10.0.29",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.29",
       "published": "2026-07-22T12:43:13Z",
       "preview": "Insert 7.10.0.29 into main on 07/22/2026 12:43:12",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "43.278.0: feat(instrumentation): allow exporting OTLP JSON file (#42284)",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.0",
-      "published": "2026-07-22T12:26:16Z",
-      "preview": "feat(instrumentation): allow exporting OTLP JSON file We've recently been investing in improvements to Renovate's OpenTelemetry instrumentation to improve debuggability and supportability. However, not everyone has an immediately available OpenTelemetry Collector, so the added instrumentation isn't useful to those users. Instead, we can provide a way to export to the OTLP file format, which provides a means to export the data to disk and then consume it later. This will also support use-cases like running in a CI platform like GitHub Actions and GitLab CI, where OpenTelemetry Collectors may no",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "43.277.1",
@@ -286,14 +302,6 @@
       "category": "Registries"
     },
     {
-      "title": "43.273.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.273.0",
-      "published": "2026-07-21T13:48:17Z",
-      "preview": "43.273.0 (2026-07-21) Features platform: get all branch update dates in a more performant manner ( #44582 ) ( f932d52 ) Code Refactoring config/global: improve type restrictions for GlobalConfig.OPTIONS ( #44636 ) ( d16dc9a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "1.16.2",
       "url": "https://github.com/pypa/pipx/releases/tag/1.16.2",
       "published": "2026-07-21T13:44:56Z",
@@ -308,14 +316,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.272.9",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.9",
-      "published": "2026-07-21T11:08:44Z",
-      "preview": "43.272.9 (2026-07-21) Bug Fixes manager/dockerfile: handle single-quoted empty ARG default value ( #44522 ) ( 1f5f6da )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-43.0.dev",
