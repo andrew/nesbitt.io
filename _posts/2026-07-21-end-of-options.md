@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - git
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mr7uirphpv2b"
 ---
 
 I was reading through the fix for a package manager CVE last week and ran into a git flag I'd somehow never noticed: `--end-of-options`. My first reaction was that some LLM had hallucinated it, but it's [documented in `gitcli(7)`](https://git-scm.com/docs/gitcli), it was added in git 2.24.0 in November 2019, and it exists because git had already used `--` for something else.
