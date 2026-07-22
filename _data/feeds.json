@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-22T07:13:45Z",
-  "cutoff": "2026-06-22T07:13:40Z",
+  "generated": "2026-07-22T09:12:49Z",
+  "cutoff": "2026-06-22T09:12:06Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.277.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.277.0",
+      "published": "2026-07-22T08:57:55Z",
+      "preview": "43.277.0 (2026-07-22) Features gitlab: add gitlab codeowners role support ( #44621 ) ( 2f9735f ) Bug Fixes schedule: match cron schedules on the edge of an hour ( #44757 ) ( 54acab0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.276.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.276.0",
+      "published": "2026-07-22T08:22:59Z",
+      "preview": "43.276.0 (2026-07-22) Features github-actions: support sigstore/cosign-installer version input ( #44766 ) ( f01f1b5 ) managers: add support for the Smithy framework ( #44737 ) ( 8708834 ) Bug Fixes manager/npm: don't include versions in extracted Yarn resolutions ' depName # ( #44776 ) ( 476d10a ), closes #44768 Miscellaneous Chores deps: update dependency tsdown to v0.22.8 (main) ( #44778 ) ( d2ef8e8 ) deps: update dependency uv to v0.11.31 (main) ( #44770 ) ( 2bebe63 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.275.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.275.2",
@@ -302,14 +318,6 @@
       "category": "Registries"
     },
     {
-      "title": "43.272.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.6",
-      "published": "2026-07-20T23:53:31Z",
-      "preview": "43.272.6 (2026-07-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.8 (main) ( #44747 ) ( a00c621 ) deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.9 (main) ( #44748 ) ( d2aa7e3 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.11.30 (main) ( #44745 ) ( 451ed1c ) deps: update dependency uv to v0.11.30 (main) ( #44746 ) ( 984cb43 ) Tests replace deprecated Biome recommended with preset ( #44735 ) ( 73d21dd )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2026.7.11: Task Source Tracking and Activation Speedups",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.11",
       "published": "2026-07-20T21:58:37Z",
@@ -356,14 +364,6 @@
       "preview": "Minor Changes Added support for alias-less Git dependency adds, preserved locked Git commits during unrelated dependency changes, and reported Git package versions in install logs. pnpm list and pnpm why are now feature complete and behaviorally identical to the TypeScript CLI. pnpm list gained --only-projects , --find-by (finders declared in .pnpmfile.cjs ), search by version range ( pnpm ls \"foo@^2\" ), subtree deduplication with [deduped] markers, peer/skipped annotations, the package-count summary, --long manifest details, resolved tarball URLs and absolute paths in --json / --parseable out",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.272.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.272.5",
-      "published": "2026-07-20T19:57:08Z",
-      "preview": "43.272.5 (2026-07-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.7 (main) ( #44743 ) ( 1e7391f ) Miscellaneous Chores deps: update actions/checkout action to v6.1.0 (main) ( #44741 ) ( e3541c1 ) deps: update dependency astral-sh/uv to v0.11.29 (main) ( #44619 ) ( 75d2ca1 ) deps: update dependency protobufjs@8.0.1 to v8.7.1 (main) ( #44733 ) ( f3e5741 ) deps: update github/codeql-action action to v4.37.1 (main) ( #44647 ) ( 5a06fc9 ) Code Refactoring linters: enable node/no-sync and migrate to async calls ( #44693 ) ( 2dbfd85 ) Tests linters: add linting rule to ",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "6.0.12",
