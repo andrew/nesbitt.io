@@ -17,7 +17,7 @@ This is because GitHub Notifications are marked as read and disappear from the l
 
 Most open source maintainers and even some GitHub staff end up using a complex combination of filters and labels in Gmail to manage their notifications from their inbox. If, like me, you try to avoid email, then you might want to try [Octobox](https://octobox.io).
 
-![](https://cdn-images-1.medium.com/max/2800/1*J2VYzaXsvfrGPzjcZVxB0w.png)
+![](https://cdn-images-1.medium.com/max/2800/1*J2VYzaXsvfrGPzjcZVxB0w.png){: width="1400" height="818" loading="lazy" decoding="async" }
 
 ## How Octobox Helps
 

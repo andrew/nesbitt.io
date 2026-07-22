@@ -12,7 +12,7 @@ at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mnklpslu7
 
 So I [built one](/package-manager-matrix/) covering the 42 clients from the [categorisation post](/2025/12/29/categorizing-package-manager-clients.html), with data pulled from [ecosyste.ms](https://packages.ecosyste.ms) for the language registries and [Repology](https://repology.org) for the distros, and each filled cell linking through to the package it found.
 
-[![Matrix of which package managers package other package managers](/images/package-manager-matrix.png)](/package-manager-matrix/)
+[![Matrix of which package managers package other package managers](/images/package-manager-matrix.png){: width="2452" height="2394" loading="lazy" decoding="async" }](/package-manager-matrix/)
 
 The dense rows are the system package managers, and packaging arbitrary binaries is what they're for. The AUR carries [40 of the 42](/package-manager-matrix/), with nixpkgs, Homebrew, the DNF repos and Debian not far behind. The same tools are almost empty as columns, because nothing needs to redistribute apt or DNF when they already arrive with the operating system. Homebrew is the slightly odd case among the system managers since it isn't tied to an operating system image, and the only place I found it packaged is [the AUR](https://aur.archlinux.org/packages/brew-git), where someone has wrapped the install script as `brew-git`.
 
