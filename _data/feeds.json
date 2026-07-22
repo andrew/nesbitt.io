@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-22T15:00:57Z",
-  "cutoff": "2026-06-22T15:00:52Z",
+  "generated": "2026-07-22T16:50:29Z",
+  "cutoff": "2026-06-22T16:50:25Z",
   "feed_count": 79,
   "item_count": 209,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.278.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.3",
+      "published": "2026-07-22T15:56:05Z",
+      "preview": "43.278.3 (2026-07-22) Miscellaneous Chores deps: update dependency vitest-mock-extended to v5 (main) ( #44786 ) ( d6f2426 ) Build System deps: update dependency typescript to v7 (main) ( #44785 ) ( b01c6db )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.278.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.2",
@@ -244,14 +252,6 @@
       "preview": "This is the first alpha release of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for a highlight on the major changes and upgrade instructions. Changelog : Major changes The shell env hook will now update the current bin path in PATH in place instead of always prioritising opam's path over every oth",
       "source": "opam releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.274.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.274.0",
-      "published": "2026-07-21T15:38:12Z",
-      "preview": "43.274.0 (2026-07-21) Features datasource/docker: Read Official Image annotations ( #44755 ) ( 572554f ) Miscellaneous Chores deps: update github/codeql-action action to v4.37.2 (main) ( #44760 ) ( 2f7284f ) Code Refactoring onboarding: add functions to summarise \"What to expect\" ( #43764 ) ( 4fbfc60 ), closes #41502",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Cabal-hooks-v3.18.1.0",
