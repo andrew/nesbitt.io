@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-22T00:53:23Z",
-  "cutoff": "2026-06-22T00:53:20Z",
+  "generated": "2026-07-22T02:01:14Z",
+  "cutoff": "2026-06-22T02:01:10Z",
   "feed_count": 79,
-  "item_count": 205,
+  "item_count": 206,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.11.31",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.31",
+      "published": "2026-07-22T01:49:40Z",
+      "preview": "Release Notes Released on 2026-07-21. Enhancements Allow workspace sources to reference members in another workspace by path ( #18401 ) Support .venv files containing paths to centralized project environments ( #20022 ) Update bundled Windows timezone data to IANA 2026c ( #20554 ) Preview features Add an index-specific hash-algorithm setting for lockfile generation ( #20605 ) Configuration Add audit.malware-check and audit.malware-check-url settings ( #20587 ) Performance Avoid quadratic work when deduplicating transitive conflicts ( #20578 ) Bug fixes Suggest --emit-build-options for unsuppor",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "SDK-3.14.0-49.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-49.0.dev",
