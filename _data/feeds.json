@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-23T15:01:47Z",
-  "cutoff": "2026-06-23T15:01:42Z",
+  "generated": "2026-07-23T15:58:28Z",
+  "cutoff": "2026-06-23T15:58:25Z",
   "feed_count": 79,
-  "item_count": 211,
+  "item_count": 212,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpr 0.1.0-alpha.5",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.5",
+      "published": "2026-07-23T15:34:36Z",
+      "preview": "Patch Changes Fixed catalog: references in dependencies and overrides failing to resolve when installing through a pnpr server, which errored with \"No catalog entry '' was found for catalog 'default'.\" even though the catalog entry existed. Also fixed a crash on Windows when installing a nested workspace member (e.g. packages/foo ) through a pnpr server #13232 .",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.17.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.17.0",
+      "published": "2026-07-23T15:31:43Z",
+      "preview": "v11.17.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.31.0 (23-Jul-2026)",
+      "url": "https://github.com/conan-io/conan/releases/tag/2.31.0",
+      "published": "2026-07-23T15:25:17Z",
+      "preview": "Feature: Get Workspace feature out of incubating. ( #20202 ). Docs: 📃 Feature: replace_in_file now supports regex patterns. ( #20194 ). Docs: 📃 Feature: Warn when conan config install is used after conan config install-pkg . ( #20188 ). Docs: 📃 Feature: Support GCC 14.4 and 15.3 in settings.yml . ( #20184 ) Feature: Support intel-cc 2025.2, 2025.3 and 2026.1 in settings.yml . ( #20184 ) Feature: Change the Workspace approach to not process python_requires just to derive name/version . Proposed a new get_ref(folder) method in the conanws.py file to be able to define versions dynamically. ( #201",
+      "source": "Conan releases",
+      "category": "C/C++"
+    },
+    {
+      "title": "v12.0.0-alpha.19",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.19",
+      "published": "2026-07-23T15:07:05Z",
+      "preview": "chore(release): 11.17.0, pacquet 12.0.0-alpha.19, pnpr 0.1.0-alpha.5 …",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v2.9.4: 2.9.4 (#36271)",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.4",
@@ -542,22 +574,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "pnpm 11.15",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.15.0",
-      "published": "2026-07-18T12:52:03Z",
-      "preview": "Minor Changes Optional peer dependencies declared only via peerDependenciesMeta (for example debug 's supports-color peer) are now resolved from a satisfying version already present in the dependency graph, the same way explicitly declared optional peer dependencies are. Previously such peers were only resolved this way when the package's metadata was read back from the lockfile, so an unrelated dependency change could rewrite peer resolutions across the whole lockfile. Patch Changes Updated adm-zip to prevent crafted ZIP archives from causing excessive memory allocation. pnpm version -r no lo",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpr@0.1.0-alpha.4",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.4",
-      "published": "2026-07-18T12:19:57Z",
-      "preview": "chore(release): 11.15.0, pacquet 12.0.0-alpha.15, pnpr 0.1.0-alpha.4 …",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v12.0.0-alpha.15",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.15",
       "published": "2026-07-18T12:19:57Z",
@@ -611,14 +627,6 @@
       "published": "2026-07-17T22:34:08Z",
       "preview": "step 5.fix0: route bun_s3_signing::error/Error via s3_signing mount path",
       "source": "Bun releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12 Alpha 14",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.14",
-      "published": "2026-07-17T22:21:46Z",
-      "preview": "chore(release): 11.14.0, pacquet 12.0.0-alpha.14 ( #13113 ) Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
-      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
