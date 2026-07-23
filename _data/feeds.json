@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-23T16:49:52Z",
-  "cutoff": "2026-06-23T16:49:48Z",
+  "generated": "2026-07-23T17:49:50Z",
+  "cutoff": "2026-06-23T17:49:46Z",
   "feed_count": 79,
   "item_count": 212,
   "categories": [
@@ -22,12 +22,44 @@
   ],
   "items": [
     {
-      "title": "v11.17.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.17.0",
-      "published": "2026-07-23T16:19:05Z",
-      "preview": "v11.17.0",
+      "title": "v12.0.0-alpha.20: chore(release): pacquet 12.0.0-alpha.20 (#13248)",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.20",
+      "published": "2026-07-23T17:32:28Z",
+      "preview": "Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
       "source": "pnpm releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12 Alpha 19",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/untagged-e518c274b13ed6243f61",
+      "published": "2026-07-23T17:04:05Z",
+      "preview": "Minor Changes Added a new setting, update.githubActionsServer , for specifying the base URL of the GitHub server that hosts the repositories of the GitHub Actions referenced by the workflow files (for example, a GitHub Enterprise Server). When the setting is not defined, the URL is read from the GITHUB_SERVER_URL environment variable, falling back to https://github.com . The URL must use the https:// or http:// protocol #13220 . pnpm outdated and pnpm update no longer fail when the refs of a GitHub Action's repository cannot be read (for example, when the action's repository is private or host",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.17",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.17.0",
+      "published": "2026-07-23T17:03:37Z",
+      "preview": "Minor Changes Added a new setting, update.githubActionsServer , for specifying the base URL of the GitHub server that hosts the repositories of the GitHub Actions referenced by the workflow files (for example, a GitHub Enterprise Server). When the setting is not defined, the URL is read from the GITHUB_SERVER_URL environment variable, falling back to https://github.com . The URL must use the https:// or http:// protocol #13220 . pnpm outdated and pnpm update no longer fail when the refs of a GitHub Action's repository cannot be read (for example, when the action's repository is private or host",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v2.9.4",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.4",
+      "published": "2026-07-23T16:59:31Z",
+      "preview": "2.9.4 / 2026.07.23 feat(desktop): enable --hmr for React Router ( #35900 ) feat(ext/node): add a byteLength/length parameter to Buffer.indexOf/lastIndexOf/includes ( #35872 ) feat(ext/node): support raw chacha20 cipher in crypto.createCipheriv ( #36016 ) feat: upgrade V8 to 150.2.0 ( #36098 ) fix(add): support --minimum-dependency-age flag in deno add/remove ( #36099 ) fix(cache): store Web Cache under origin data ( #36145 ) fix(canvas): require FFI permission for native window handles ( #36080 ) fix(clean): reject symlinked node_modules cleanup roots ( #36190 ) fix(compile): bump libsui to 0.",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "43.279.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.279.0",
+      "published": "2026-07-23T16:54:38Z",
+      "preview": "43.279.0 (2026-07-23) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.0 (main) ( #44802 ) ( 609a1be ) Documentation mend-hosted: correctly note \"Community (OSS)\" vCPUs ( #44798 ) ( 996dfbb ) Miscellaneous Chores deps: update dependency tsdown to v0.22.9 (main) ( #44801 ) ( 5b5dea6 ) gitlab: tidy up around gitlab codeowner role support ( #44796 ) ( e59b10a ) Code Refactoring linters: add linters for Json.pipe and schema location ( #44684 ) ( ac0407b ) Tests exclude .claude/worktrees from vitest and prettier ( #44799 ) ( 943f917 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "pnpr 0.1.0-alpha.5",
@@ -51,14 +83,6 @@
       "published": "2026-07-23T15:07:05Z",
       "preview": "chore(release): 11.17.0, pacquet 12.0.0-alpha.19, pnpr 0.1.0-alpha.5 …",
       "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v2.9.4: 2.9.4 (#36271)",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.4",
-      "published": "2026-07-23T14:13:55Z",
-      "preview": "Bumped versions for 2.9.4 Co-authored-by: bartlomieju bartlomieju@users.noreply.github.com",
-      "source": "Deno releases",
       "category": "JavaScript"
     },
     {
@@ -266,14 +290,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.276.0",
       "published": "2026-07-22T08:22:59Z",
       "preview": "43.276.0 (2026-07-22) Features github-actions: support sigstore/cosign-installer version input ( #44766 ) ( f01f1b5 ) managers: add support for the Smithy framework ( #44737 ) ( 8708834 ) Bug Fixes manager/npm: don't include versions in extracted Yarn resolutions ' depName # ( #44776 ) ( 476d10a ), closes #44768 Miscellaneous Chores deps: update dependency tsdown to v0.22.8 (main) ( #44778 ) ( d2ef8e8 ) deps: update dependency uv to v0.11.31 (main) ( #44770 ) ( 2bebe63 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.275.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.275.2",
-      "published": "2026-07-22T06:55:43Z",
-      "preview": "43.275.2 (2026-07-22) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.11 (main) ( #44775 ) ( 381a5b4 ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.4 (main) ( #44773 ) ( df82d39 ) deps: update github/codeql-action action to v4.37.3 (main) ( #44774 ) ( a04cf91 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -564,22 +580,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-16-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 12 Alpha 15",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.15-1",
-      "published": "2026-07-18T14:15:53Z",
-      "preview": "Minor Changes Optional peer dependencies declared only via peerDependenciesMeta (for example debug 's supports-color peer) are now resolved from a satisfying version already present in the dependency graph, the same way explicitly declared optional peer dependencies are. Previously such peers were only resolved this way when the package's metadata was read back from the lockfile, so an unrelated dependency change could rewrite peer resolutions across the whole lockfile. Added pnpm licenses command to the Rust pacquet port to list package licenses in a tabular or JSON format. Patch Changes pnpm",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.0.0-alpha.15",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.15",
-      "published": "2026-07-18T12:19:57Z",
-      "preview": "chore(release): 11.15.0, pacquet 12.0.0-alpha.15, pnpr 0.1.0-alpha.4 …",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "7.10.0.26",
