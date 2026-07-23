@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-23T09:11:41Z",
-  "cutoff": "2026-06-23T09:11:36Z",
+  "generated": "2026-07-23T11:01:30Z",
+  "cutoff": "2026-06-23T11:01:26Z",
   "feed_count": 79,
   "item_count": 209,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.278.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.5",
+      "published": "2026-07-23T10:10:09Z",
+      "preview": "43.278.5 (2026-07-23) Bug Fixes changelog: re-add old facebook/react URL ( #44792 ) ( 9c98086 ) Miscellaneous Chores deps: update dependency vite to v8.1.5 (main) ( #44791 ) ( d4d3c55 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.278.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.4",
@@ -228,14 +236,6 @@
       "preview": "Enhancements: Validate spec name before writing to the spec cache. Pull request #9690 by hsbt Installs bundler 4.0.17 as a default gem. Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install paths when globbing. Pull request #9687 by hsbt Preserve Windows editor paths in gem open and bundle open. Pull request #9694 by hsbt Preserve Windows paths in MAKE and rake environment variables. Pull request #9693 by hsbt Fix bundle binstub broken by gem update --system on Homebrew ruby. Pull request #9688 by hsbt",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "43.275.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.275.1",
-      "published": "2026-07-22T03:49:52Z",
-      "preview": "43.275.1 (2026-07-22) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.10 (main) ( #44771 ) ( 5586073 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.9 (main) ( #44767 ) ( 6894228 ) deps: update dependency astral-sh/uv to v0.11.31 (main) ( #44769 ) ( f31eedd )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v6.0.2",
