@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-23T00:55:54Z",
-  "cutoff": "2026-06-23T00:55:51Z",
+  "generated": "2026-07-23T02:01:34Z",
+  "cutoff": "2026-06-23T02:01:29Z",
   "feed_count": 79,
-  "item_count": 211,
+  "item_count": 210,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.12: Safe mode, node-free npm, and a built-in OCI push client",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.12",
+      "published": "2026-07-23T01:54:21Z",
+      "preview": "This release centers on running mise safely against untrusted config, shipping node-free npm: version resolution and installs, and replacing external tools (skopeo/crane, gpg) with built-in, dependency-free implementations. Along the way it fixes a prefer_offline timeout regression, several config/env correctness issues, and platform-specific problems on Windows and macOS. Highlights New MISE_SAFE=1 mode turns mise into an inert config reader so automation (CI, Renovate) can run mise lock --bump against untrusted branches without trust prompts or arbitrary code execution. The npm: backend no l",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "SDK-3.14.0-55.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-55.0.dev",
@@ -100,14 +108,6 @@
       "preview": "Minor Changes The first release of a package now publishes the version written in its manifest verbatim, instead of bumping off it. pnpm version -r and pnpm change status check the registry for each release's current version; when that version is not yet published, the package debuts at it and its pending changesets apply only from the next release. A newly added package seeded at 1100.0.0 with a minor changeset is therefore published as 1100.0.0 rather than skipping straight to 1100.1.0 . pnpm version now supports the npm-style bump forms: pnpm version <major|minor|patch|premajor|preminor|pre",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "v2026.7.12",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.12",
-      "published": "2026-07-22T20:01:13Z",
-      "preview": "(bootstrap) support relative paths in [bootstrap.repos] by @Lil …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.7.17",
@@ -1700,14 +1700,6 @@
       "preview": "29.6.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.0 milestone moby/moby, 29.6.0 milestone New POST /containers/{id}/update now supports per-device blkio resource settings. moby/moby#52651 Add GET /images/{name}/attestations endpoint to retrieve in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image. Supports optional platform selection, predicate type filtering, and a statement query parameter for verbatim statement bodies. Bug fixes and enhancements docker image push now respects ",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "v2.28.0",
-      "url": "https://github.com/pdm-project/pdm/releases/tag/2.28.0",
-      "published": "2026-06-23T01:55:42Z",
-      "preview": "Features & Improvements Add experimental workspace support for managing local member projects in a shared root lock file. ( #1505 ) Defer startup-time imports for Python, virtualenv, and self-management commands. ( #3673 ) Bug Fixes Fix pdm completion bash printing __ltrim_colon_completions: command not found (and a similar error for _get_comp_words_by_ref ) when the generated script is sourced in a bash without the bash-completion package loaded, such as Git Bash on Windows or minimal Linux containers. The script now defines small fallbacks for both helpers when they are not already available",
-      "source": "PDM releases",
-      "category": "Python"
     }
   ]
 }
