@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-23T21:40:02Z",
-  "cutoff": "2026-06-23T21:39:17Z",
+  "generated": "2026-07-23T23:38:06Z",
+  "cutoff": "2026-06-23T23:37:53Z",
   "feed_count": 79,
   "item_count": 211,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.11.32",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.32",
+      "published": "2026-07-23T23:17:45Z",
+      "preview": "Release Notes Released on 2026-07-23. Preview features Add --package and --all-packages selection to uv check ( #20628 ) Allow uv upgrade to update multiple marker-specific declarations of the same package ( #20335 ) Reject non-canonically formatted lockfiles in uv lock --check and commands using --locked ( #20646 ) Regenerate non-canonically formatted lockfiles with uv lock --refresh ( #20634 ) Include best-effort information about the active environment in uv workspace metadata by default ( #20643 ) Performance Skip dependency-group conflict expansion when no additional conflicts can be infe",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "pnpm 12 Alpha 20",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.20",
@@ -1698,14 +1706,6 @@
       "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.15",
       "published": "2026-06-23T23:41:00Z",
       "preview": "Enhancements: Resolve Git LFS files in git sources from the real remote. Pull request #9632 by hsbt Suggest access issues, not only yanking, for missing locked gems. Pull request #9631 by hsbt Implement a make jobserver (continuation of #9210 ). Pull request #9625 by hsbt Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Bump up to rb-sys 0.9.128. Pull request #9569 by hsbt Bug fixes: Skip the make jobserver on Windows. Pull request #9630 by hsbt Don't require source plugins to be installed to parse a lockfile: 4.0.x. Pull request #9621 by hsbt Exemp",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.15",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.15",
-      "published": "2026-06-23T23:32:27Z",
-      "preview": "Enhancements: Rubygems: Fix Gem::Request for PQC support, adding integration connection tests. Pull request #9615 by junaruga Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Installs bundler 4.0.15 as a default gem. Bug fixes: Forward security policy to old-format gems. Pull request #9611 by hsbt",
       "source": "RubyGems releases",
       "category": "Ruby"
     }
