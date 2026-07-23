@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-23T02:01:34Z",
-  "cutoff": "2026-06-23T02:01:29Z",
+  "generated": "2026-07-23T05:29:11Z",
+  "cutoff": "2026-06-23T05:29:07Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.278.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.4",
+      "published": "2026-07-23T03:49:47Z",
+      "preview": "43.278.4 (2026-07-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.12 (main) ( #44790 ) ( 5a400e2 ) Miscellaneous Chores deps: update dependency pnpm to v11.13.1 (main) ( #44789 ) ( e70b316 ) Tests util/exec: remove deprecated reference to trust level ( #44244 ) ( a72dc7e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.7.12: Safe mode, node-free npm, and a built-in OCI push client",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.12",
@@ -292,14 +300,6 @@
       "preview": "Insert 7.9.0.83 into rel/insiders on 07/21/2026 23:18:08",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "43.275.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.275.0",
-      "published": "2026-07-21T18:23:22Z",
-      "preview": "43.275.0 (2026-07-21) Features onboarding: use summary view if hitting platform limits ( #44256 ) ( 969d1a1 ), closes #41502",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.76.1",
