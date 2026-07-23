@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-23T05:29:11Z",
-  "cutoff": "2026-06-23T05:29:07Z",
+  "generated": "2026-07-23T09:11:41Z",
+  "cutoff": "2026-06-23T09:11:36Z",
   "feed_count": 79,
-  "item_count": 210,
+  "item_count": 209,
   "categories": [
     ".NET",
     "C/C++",
@@ -1692,14 +1692,6 @@
       "preview": "Release Notes Released on 2026-06-23. Python Add CPython 3.15.0b3 ( #19964 ) Preview features Make project environments relocatable under preview ( #19965 ) Performance Use a compact index for lazy version maps ( #19959 ) Bug fixes Allow disabling exclude-newer ( #19934 ) Avoid archive id collisions ( #19949 ) Reapply \"Fix transparent Python upgrades in project environments\" ( #19928 ) Clean up partial tool entrypoint installs ( #19966 ) Fix relocatable activate.fish and broaden Fish version support ( #19856 ) Install uv 0.11.24 Install prebuilt binaries via shell script curl --proto ' =https ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "v29.6.0",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.0",
-      "published": "2026-06-23T08:08:09Z",
-      "preview": "29.6.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.0 milestone moby/moby, 29.6.0 milestone New POST /containers/{id}/update now supports per-device blkio resource settings. moby/moby#52651 Add GET /images/{name}/attestations endpoint to retrieve in-toto attestation statements (such as SLSA provenance and SPDX SBOM) attached to an image. Supports optional platform selection, predicate type filtering, and a statement query parameter for verbatim statement bodies. Bug fixes and enhancements docker image push now respects ",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
