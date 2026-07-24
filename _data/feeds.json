@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-24T03:28:29Z",
-  "cutoff": "2026-06-24T03:28:26Z",
+  "generated": "2026-07-24T05:28:02Z",
+  "cutoff": "2026-06-24T05:27:58Z",
   "feed_count": 79,
-  "item_count": 208,
+  "item_count": 209,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2026-07-24 Release",
+      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-24",
+      "published": "2026-07-24T05:00:38Z",
+      "preview": "What's Changed Update vcpkg-tool-release-process. by @BillyONeal in #2070 Use canonical vcpkg PURLs in dependency snapshots by @JamieMagee in #2072 Add Git tree gitoids to SPDX SBOMs by @JamieMagee in #2074 Fix dependency snapshot relationships and correlators by @JamieMagee in #2073 Fix Qt plugins deployment with z-applocal by @vicroms in #2048 Add \"min-version\" to vcpkg-tools.json . by @BillyONeal in #2067 Fix CopyOptions::update_existing creating a 0 byte file when the destination is nonexistent. by @BillyONeal in #2068 Fix unreplaced CMake variables in SBOMs. by @BillyONeal in #2075 Full C",
+      "source": "vcpkg releases",
+      "category": "C/C++"
+    },
+    {
+      "title": "43.279.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.279.1",
+      "published": "2026-07-24T04:48:06Z",
+      "preview": "43.279.1 (2026-07-24) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.2 (main) ( #44816 ) ( ee7285a ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.11.32 (main) ( #44813 ) ( d9f4492 ) deps: update dependency markdownlint-cli2 to v0.23.1 (main) ( #44814 ) ( 3ecb103 ) deps: update dependency uv to v0.11.32 (main) ( #44815 ) ( 6026442 ) deps: update ossf/scorecard-action action to v2.4.4 (main) ( #44811 ) ( 9a48b68 ) deps: update zizmor (main) ( #44812 ) ( bc8843e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-61.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-61.0.dev",
@@ -322,14 +338,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.277.0",
       "published": "2026-07-22T08:57:55Z",
       "preview": "43.277.0 (2026-07-22) Features gitlab: add gitlab codeowners role support ( #44621 ) ( 2f9735f ) Bug Fixes schedule: match cron schedules on the edge of an hour ( #44757 ) ( 54acab0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.276.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.276.0",
-      "published": "2026-07-22T08:22:59Z",
-      "preview": "43.276.0 (2026-07-22) Features github-actions: support sigstore/cosign-installer version input ( #44766 ) ( f01f1b5 ) managers: add support for the Smithy framework ( #44737 ) ( 8708834 ) Bug Fixes manager/npm: don't include versions in extracted Yarn resolutions ' depName # ( #44776 ) ( 476d10a ), closes #44768 Miscellaneous Chores deps: update dependency tsdown to v0.22.8 (main) ( #44778 ) ( d2ef8e8 ) deps: update dependency uv to v0.11.31 (main) ( #44770 ) ( 2bebe63 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
