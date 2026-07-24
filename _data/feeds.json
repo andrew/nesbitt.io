@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-24T15:48:44Z",
-  "cutoff": "2026-06-24T15:48:40Z",
+  "generated": "2026-07-24T17:51:57Z",
+  "cutoff": "2026-06-24T17:51:53Z",
   "feed_count": 79,
-  "item_count": 210,
+  "item_count": 209,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v2026.7.13",
+      "title": "v2026.7.13: Multi-binary renaming, cask completions, and go.mod support",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.13",
-      "published": "2026-07-24T15:11:43Z",
-      "preview": "(backend) support renaming multiple binaries via rename_exe tab…",
+      "published": "2026-07-24T17:51:54Z",
+      "preview": "This release expands archive backends to rename multiple binaries from a single release, adds Homebrew cask shell completions and go.mod version-file support, and fixes a broad batch of task, install, lockfile, and language-plugin correctness issues. Added backend: rename_exe now accepts a table mapping source patterns to target names, so an archive that ships several executables can expose all of them cleanly on PATH instead of only one. The existing string form is unchanged. ( #11231 by @jdx ) [ tools . \"github:DanielGavin/ols\" ] version = \" latest \" rename_exe = { \"ols-*\" = \" ols \" , \"odinf",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -1692,14 +1692,6 @@
       "preview": "What's Changed Add --dry-run flag to pipx ensurepath by @somaz94 in #1842 Fix uninject for uv-backed venvs by @sjh9714 in #1844 New Contributors @somaz94 made their first contribution in #1842 Full Changelog : 1.14.1...1.15.0",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "v6.0.0",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.0",
-      "published": "2026-06-24T17:38:25Z",
-      "preview": "Security This release addresses CVE-2026-57231, where a malicious image using malformed Env entries could cause host environment variables to leak into containers run based on the image, including the ability to use the * glob operator to leak large numbers of environment variables without knowing their exact names ( GHSA-4hq8-gpf5-8p68 ). Breaking Changes Due to breaking changes in this release, Podman v6.0.0 must be used with Buildah v1.44.0, Skopeo v1.23, Netavark and Aardvark v2.0.0, and configuration files from the container-libs repository's common/v0.68.0 release. Support for BoltDB dat",
-      "source": "Podman releases",
-      "category": "Containers"
     }
   ]
 }
