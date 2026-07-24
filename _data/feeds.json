@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-24T11:54:16Z",
-  "cutoff": "2026-06-24T11:54:11Z",
+  "generated": "2026-07-24T12:49:02Z",
+  "cutoff": "2026-06-24T12:48:54Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -22,10 +22,18 @@
   ],
   "items": [
     {
-      "title": "2.31.1",
+      "title": "7.10.0.40",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.40",
+      "published": "2026-07-24T12:27:17Z",
+      "preview": "Insert 7.10.0.40 into main on 07/24/2026 12:27:16",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "2.31.1 (24-Jul-2026)",
       "url": "https://github.com/conan-io/conan/releases/tag/2.31.1",
-      "published": "2026-07-24T11:54:09Z",
-      "preview": "Release 2.31.1",
+      "published": "2026-07-24T11:54:53Z",
+      "preview": "Fix: Fixed replace_in_file() raising a false \"pattern not found\" error when the replacement produced the same content as the original (no-op replace). ( #20211 )",
       "source": "Conan releases",
       "category": "C/C++"
     },
@@ -1164,14 +1172,6 @@
       "preview": "0.98.0 release",
       "source": "Cargo releases",
       "category": "Rust"
-    },
-    {
-      "title": "7.9.0.76",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.76",
-      "published": "2026-07-09T12:25:12Z",
-      "preview": "Insert 7.9.0.76 into main on 07/09/2026 12:25:12",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "Announcing Rust 1.97.0",
