@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-24T09:08:41Z",
-  "cutoff": "2026-06-24T09:08:37Z",
+  "generated": "2026-07-24T09:34:26Z",
+  "cutoff": "2026-06-24T09:34:20Z",
   "feed_count": 79,
   "item_count": 209,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.279.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.279.2",
+      "published": "2026-07-24T09:27:17Z",
+      "preview": "43.279.2 (2026-07-24) Bug Fixes git: surface GitHub GH013 ruleset rejections as config errors ( #44819 ) ( 3cba608 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-22-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-22-a",
@@ -340,14 +348,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-20-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.277.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.277.0",
-      "published": "2026-07-22T08:57:55Z",
-      "preview": "43.277.0 (2026-07-22) Features gitlab: add gitlab codeowners role support ( #44621 ) ( 2f9735f ) Bug Fixes schedule: match cron schedules on the edge of an hour ( #44757 ) ( 54acab0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "bundler-v4.0.17",
