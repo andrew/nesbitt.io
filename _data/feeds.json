@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-24T17:51:57Z",
-  "cutoff": "2026-06-24T17:51:53Z",
+  "generated": "2026-07-24T21:41:18Z",
+  "cutoff": "2026-06-24T21:41:14Z",
   "feed_count": 79,
   "item_count": 209,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.280.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.3",
+      "published": "2026-07-24T21:00:48Z",
+      "preview": "43.280.3 (2026-07-24) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.4 (main) ( #44837 ) ( 558fb51 ) Miscellaneous Chores deps: update jdx/mise-action action to v4.2.3 (main) ( #44836 ) ( 5a1925f ) Code Refactoring workers/repository: add isMinimumReleaseAgeApplicable / isMinimumConfidenceApplicable ( #44824 ) ( f1cd516 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.7.13: Multi-binary renaming, cask completions, and go.mod support",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.13",
@@ -362,14 +370,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.3",
       "published": "2026-07-22T15:56:05Z",
       "preview": "43.278.3 (2026-07-22) Miscellaneous Chores deps: update dependency vitest-mock-extended to v5 (main) ( #44786 ) ( d6f2426 ) Build System deps: update dependency typescript to v7 (main) ( #44785 ) ( b01c6db )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.278.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.2",
-      "published": "2026-07-22T13:23:34Z",
-      "preview": "43.278.2 (2026-07-22) Bug Fixes preset/monorepo: re-add old facebook/react URL ( #44782 ) ( da47cb0 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
