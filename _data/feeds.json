@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-24T09:34:26Z",
-  "cutoff": "2026-06-24T09:34:20Z",
+  "generated": "2026-07-24T11:00:30Z",
+  "cutoff": "2026-06-24T11:00:26Z",
   "feed_count": 79,
   "item_count": 209,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.280.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.0",
+      "published": "2026-07-24T10:12:32Z",
+      "preview": "43.280.0 (2026-07-24) Features azure: make issue work item type configurable ( #44736 ) ( e0714e0 ) Documentation minimum-release-age: link to separate issue for pinDigest ( #44821 ) ( 6e15862 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.279.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.279.2",
@@ -332,14 +340,6 @@
       "preview": "Insert 7.10.0.29 into main on 07/22/2026 12:43:12",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "43.277.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.277.1",
-      "published": "2026-07-22T10:36:13Z",
-      "preview": "43.277.1 (2026-07-22) Bug Fixes presets/monorepo: update react and react-native source URLs to react/react org ( #44780 ) ( 61e4c9c ) Documentation manager: make sure that Supported Datasources are de-duped and sorted ( #44765 ) ( 3888247 ), closes #44764",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-20-a",
