@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-24T14:58:57Z",
-  "cutoff": "2026-06-24T14:58:54Z",
+  "generated": "2026-07-24T15:48:44Z",
+  "cutoff": "2026-06-24T15:48:40Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.13",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.13",
+      "published": "2026-07-24T15:11:43Z",
+      "preview": "(backend) support renaming multiple binaries via rename_exe tab…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.18",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.18",
+      "published": "2026-07-24T15:09:09Z",
+      "preview": "Release vfox 2026.7.18",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "43.280.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.2",
@@ -758,28 +774,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v2026.7.8",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.8",
-      "published": "2026-07-16T17:58:42Z",
-      "preview": "(bootstrap) add repos update and exec commands by @jdx in [#110…",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v29.6.2",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.2",
       "published": "2026-07-16T17:55:13Z",
       "preview": "29.6.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.2 milestone moby/moby, 29.6.2 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. CVE-2026-15793 : Git source checkout from a bundle file could lead to command injection. GHSA-hw3h-2gp9-cxpv CVE-2026-15792 : Incorrect parameters sent from a frontend could cause a panic. GHSA-qx3x-mv6r-52p6 CVE-2026-15791 : An LLB file operation could be tricked into removing the contents of the /tmp directory. GHSA-32pv-7hq5-qhw",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "aqua-registry-v2026.7.3",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.7.3",
-      "published": "2026-07-16T17:54:20Z",
-      "preview": "Release aqua-registry 2026.7.3",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.7.13",
