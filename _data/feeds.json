@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-24T00:52:58Z",
-  "cutoff": "2026-06-24T00:52:36Z",
+  "generated": "2026-07-24T03:28:29Z",
+  "cutoff": "2026-06-24T03:28:26Z",
   "feed_count": 79,
-  "item_count": 209,
+  "item_count": 208,
   "categories": [
     ".NET",
     "C/C++",
@@ -1684,14 +1684,6 @@
       "preview": "Security This release addresses CVE-2026-57231, where a malicious image using malformed Env entries could cause host environment variables to leak into containers run based on the image, including the ability to use the * glob operator to leak large numbers of environment variables without knowing their exact names ( GHSA-4hq8-gpf5-8p68 ). Breaking Changes Due to breaking changes in this release, Podman v6.0.0 must be used with Buildah v1.44.0, Skopeo v1.23, Netavark and Aardvark v2.0.0, and configuration files from the container-libs repository's common/v0.68.0 release. Support for BoltDB dat",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "v0.383.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.383.0",
-      "published": "2026-06-24T02:35:11Z",
-      "preview": "What's Changed Bump bundled npm from 11.8.0 to 11.17.0 by @kbukum1 in #15335 Fix composer specs failure due to block-insecure feature by @AbhishekBhaskar in #15334 Add blocked_versions.ignored metric for Security-blocked update checks by @kbukum1 in #15333 Preserve original bundler checksum on Bundler 4.0.11+ lockfile updates by @lucasmazza in #15249 Generate .npmrc from scope property when lockfile inference fails by @AbhishekBhaskar in #15264 Revert disabling block insecure flag in composer by @AbhishekBhaskar in #15339 Fix no method error during fetching credentials properties by @AbhishekB",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
