@@ -7,6 +7,7 @@ tags:
   - open-source
   - ai
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mrf2w4t7bt23"
 ---
 
 *The following is a transcript of episode 214 of Green Squares, a podcast about building in public and staying green. It has been lightly edited for length and clarity. Transcription by OpenClaw-4.2.*

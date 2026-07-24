@@ -7,6 +7,7 @@ tags:
   - package-managers
   - registries
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mrf2w4djmu2b"
 ---
 
 [PEP 752](https://peps.python.org/pep-0752/) was accepted at the end of June. It lets an organisation apply to PyPI to reserve a package name prefix, after which new uploads matching that prefix are rejected unless they come from the grant holder. Existing packages are grandfathered. The motivation is impersonation: someone publishing malware as `google-cloud-something` or `apache-something` gets the vendor's name in front of it. The PEP names four example prefixes: `google-cloud-`, `opentelemetry-`, `apache-airflow-providers-`, and `types-`.
