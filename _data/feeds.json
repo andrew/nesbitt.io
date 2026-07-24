@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-24T13:58:38Z",
-  "cutoff": "2026-06-24T13:58:35Z",
+  "generated": "2026-07-24T14:58:57Z",
+  "cutoff": "2026-06-24T14:58:54Z",
   "feed_count": 79,
   "item_count": 210,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.280.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.2",
+      "published": "2026-07-24T14:19:58Z",
+      "preview": "43.280.2 (2026-07-24) Bug Fixes presets/helpers: ensure that pinGitHubActionDigestsToSemver preset only applies to actions ( #44830 ) ( c33364d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.280.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.1",
+      "published": "2026-07-24T13:58:44Z",
+      "preview": "43.280.1 (2026-07-24) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.3 (main) ( #44829 ) ( 5c316be ) Documentation minimum-release-age: correctly reference lockfileUpdate ( #44823 ) ( 52fc547 ) minimum-release-age: indicate which Datasources support releaseTimestamp ( #44822 ) ( f7bf437 ), closes #30714 Miscellaneous Chores deps: update jdx/mise-action action to v4.2.2 (main) ( #44826 ) ( 98d45b7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 12 Alpha 21",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.21",
@@ -338,22 +354,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.2",
       "published": "2026-07-22T13:23:34Z",
       "preview": "43.278.2 (2026-07-22) Bug Fixes preset/monorepo: re-add old facebook/react URL ( #44782 ) ( da47cb0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.278.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.1",
-      "published": "2026-07-22T13:06:14Z",
-      "preview": "43.278.1 (2026-07-22) Build System deps: update dependency @opentelemetry/otlp-transformer to v0.220.0 (main) ( #44783 ) ( 89b60af )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.278.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.0",
-      "published": "2026-07-22T12:49:17Z",
-      "preview": "43.278.0 (2026-07-22) Features instrumentation: allow exporting OTLP JSON file ( #42284 ) ( adbc20e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
