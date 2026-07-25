@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-25T13:56:25Z",
-  "cutoff": "2026-06-25T13:56:21Z",
+  "generated": "2026-07-25T15:43:27Z",
+  "cutoff": "2026-06-25T15:43:23Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -1644,14 +1644,6 @@
       "preview": "29.6.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.1 milestone moby/moby, 29.6.1 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. A malicious image could supply a malicious /etc/passwd or /etc/group -style file causing excessive memory consumption, potentially resulting in process termination due to Out Of Memory (OOM) conditions. GHSA-mjcv-p78q-w5fw , GHSA-jpcc-p29g-p8mq , GHSA-72x6-4j93-7w86 A custom frontend could send a crafted build request that disabled",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "v2.9.0",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.0",
-      "published": "2026-06-25T15:00:40Z",
-      "preview": "2.9.0 / 2026.06.25 Read more: http://deno.com/blog/v2.9 feat(bundle): add --declaration flag to generate rolled-up .d.ts files ( #33838 ) feat(cli): add deno link and deno unlink subcommands ( #34359 ) feat(cli): add deno watch subcommand ( #35301 ) feat(cli): add deno list subcommand to list declared dependencies ( #34972 ) feat(cli): auto-migrate pnpm-workspace.yaml on resolution failure ( #34993 ) feat(cli): provide a node on PATH when Node.js is not installed ( #34969 ) feat(compile): persist Web Storage/KV in a per-app data directory ( #34618 ) feat(coverage): add configurable coverage th",
-      "source": "Deno releases",
-      "category": "JavaScript"
     }
   ]
 }
