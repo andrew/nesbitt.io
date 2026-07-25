@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-25T15:43:27Z",
-  "cutoff": "2026-06-25T15:43:23Z",
+  "generated": "2026-07-25T19:44:03Z",
+  "cutoff": "2026-06-25T19:43:58Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.280.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.5",
+      "published": "2026-07-25T19:02:51Z",
+      "preview": "43.280.5 (2026-07-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.5 (main) ( #44842 ) ( be2ff0d ) linters: add rules for filesystem helpers and Date ( #44685 ) ( 716baf6 ) platform/gitlab: retry MR creation on transient source_branch race. ( #44502 ) ( 12b2f4f ) Miscellaneous Chores deps: update dependency lint-staged to v17.1.0 (main) ( #44845 ) ( d610624 ) deps: update dependency pnpm to v11.15.0 (main) ( #44844 ) ( 510a850 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.10 (main) ( #44841 ) ( 439bdd2 ) Code Refactoring workers/repository",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
@@ -314,14 +322,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.5",
       "published": "2026-07-23T10:10:09Z",
       "preview": "43.278.5 (2026-07-23) Bug Fixes changelog: re-add old facebook/react URL ( #44792 ) ( 9c98086 ) Miscellaneous Chores deps: update dependency vite to v8.1.5 (main) ( #44791 ) ( d4d3c55 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.278.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.4",
-      "published": "2026-07-23T03:49:47Z",
-      "preview": "43.278.4 (2026-07-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.76.12 (main) ( #44790 ) ( 5a400e2 ) Miscellaneous Chores deps: update dependency pnpm to v11.13.1 (main) ( #44789 ) ( e70b316 ) Tests util/exec: remove deprecated reference to trust level ( #44244 ) ( a72dc7e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
