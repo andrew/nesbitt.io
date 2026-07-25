@@ -219,7 +219,7 @@ Libraries that read dependency files across ecosystems, used by security scanner
 
 **[oras](https://github.com/oras-project/oras):** OCI Registry As Storage, for pushing and pulling arbitrary content to OCI registries.
 
-**Version constraint parsers:** [node-semver](https://github.com/npm/node-semver), [packaging](https://github.com/pypa/packaging) (Python), [Gem::Version](https://github.com/rubygems/rubygems) (Ruby), [semver](https://github.com/Masterminds/semver) (Go), [semver](https://github.com/dtolnay/semver) (Rust)
+**Version constraint parsers:** [node-semver](https://github.com/npm/node-semver), [packaging](https://github.com/pypa/packaging) (Python), [Gem::Version](https://github.com/rubygems/rubygems) (Ruby), [semver](https://github.com/Masterminds/semver) (Go), [semver](https://github.com/dtolnay/semver) (Rust), [Semver4j](https://github.com/semver4j/semver4j) (Java)
 
 ## Registry software
 
@@ -259,15 +259,15 @@ Artifact repositories, fleet management, and package distribution for organizati
 
 Tools for scanning dependencies, detecting vulnerabilities, and keeping packages updated.
 
-**Vulnerability scanning:** [Snyk](https://snyk.io), [Socket](https://socket.dev), [Grype](https://github.com/anchore/grype), [Trivy](https://trivy.dev), [npm audit](https://docs.npmjs.com/cli/commands/npm-audit), [pip-audit](https://github.com/pypa/pip-audit), [bundler-audit](https://github.com/rubysec/bundler-audit), [cargo-audit](https://github.com/rustsec/rustsec), [safety](https://github.com/pyupio/safety), [OSV-Scanner](https://google.github.io/osv-scanner/), [Dependency-Check](https://owasp.org/www-project-dependency-check/)
+**Vulnerability scanning:** [Snyk](https://snyk.io), [Socket](https://socket.dev), [Grype](https://github.com/anchore/grype), [Trivy](https://trivy.dev), [npm audit](https://docs.npmjs.com/cli/commands/npm-audit), [pip-audit](https://github.com/pypa/pip-audit), [bundler-audit](https://github.com/rubysec/bundler-audit), [cargo-audit](https://github.com/rustsec/rustsec), [safety](https://github.com/pyupio/safety), [OSV-Scanner](https://google.github.io/osv-scanner/), [Dependency-Check](https://owasp.org/www-project-dependency-check/), [ORT Advisor](https://oss-review-toolkit.org/ort/#advisor)
 
 **Dependency updates:** [Dependabot](https://github.com/dependabot), [Socket](https://socket.dev), [Renovate](https://www.mend.io/renovate/), [Snyk](https://snyk.io), [Depfu](https://depfu.com), [pip-tools](https://github.com/jazzband/pip-tools), [OpenRewrite](https://github.com/openrewrite/rewrite)
 
 **Malware detection:** [Socket](https://socket.dev), [GuardDog](https://github.com/DataDog/guarddog)
 
-**License compliance:** [FOSSA](https://fossa.com), [Socket](https://socket.dev), [Snyk](https://snyk.io), [Mend](https://www.mend.io), [Black Duck](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html), [FOSSology](https://www.fossology.org), [licensee](https://github.com/licensee/licensee), [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit), [ScanCode.io](https://github.com/aboutcode-org/scancode.io), [DejaCode](https://github.com/aboutcode-org/dejacode), [cargo-deny](https://github.com/EmbarkStudios/cargo-deny), [pip-licenses](https://github.com/raimon49/pip-licenses), [license_finder](https://github.com/pivotal/LicenseFinder)
+**License compliance:** [FOSSA](https://fossa.com), [Socket](https://socket.dev), [Snyk](https://snyk.io), [Mend](https://www.mend.io), [Black Duck](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html), [FOSSology](https://www.fossology.org), [licensee](https://github.com/licensee/licensee), [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit), [ScanCode.io](https://github.com/aboutcode-org/scancode.io), [DejaCode](https://github.com/aboutcode-org/dejacode), [cargo-deny](https://github.com/EmbarkStudios/cargo-deny), [pip-licenses](https://github.com/raimon49/pip-licenses), [license_finder](https://github.com/pivotal/LicenseFinder), [OSS Review Toolkit (ORT)](https://oss-review-toolkit.org/), [ORT Server](https://eclipse-apoapsis.github.io/ort-server/)
 
-**Software composition analysis:** [Socket](https://socket.dev), [Snyk](https://snyk.io), [Sonatype](https://www.sonatype.com), [Black Duck](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html), [Veracode SCA](https://www.veracode.com/products/software-composition-analysis), [FOSSA](https://fossa.com)
+**Software composition analysis:** [Socket](https://socket.dev), [Snyk](https://snyk.io), [Sonatype](https://www.sonatype.com), [Black Duck](https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html), [Veracode SCA](https://www.veracode.com/products/software-composition-analysis), [FOSSA](https://fossa.com), [ORT Analyzer](https://oss-review-toolkit.org/ort/#analyzer)
 
 **CI security:** [Zizmor](https://docs.zizmor.sh/), [StepSecurity](https://www.stepsecurity.io), [Harden-Runner](https://github.com/step-security/harden-runner), [OpenSSF Allstar](https://github.com/ossf/allstar)
 
@@ -295,13 +295,13 @@ Services that aggregate package data across ecosystems.
 
 Tools for generating and consuming Software Bills of Materials, and for supply chain security more broadly.
 
-**SBOM generators:** [Syft](https://github.com/anchore/syft), [Trivy](https://trivy.dev), [CycloneDX tools](https://cyclonedx.org/tool-center/), [SPDX tools](https://spdx.dev/use/tools/), [Tern](https://github.com/tern-tools/tern), [Bom](https://github.com/kubernetes-sigs/bom), [cdxgen](https://github.com/CycloneDX/cdxgen), [sbom-tool](https://github.com/microsoft/sbom-tool)
+**SBOM generators:** [Syft](https://github.com/anchore/syft), [Trivy](https://trivy.dev), [CycloneDX tools](https://cyclonedx.org/tool-center/), [SPDX tools](https://spdx.dev/use/tools/), [Tern](https://github.com/tern-tools/tern), [Bom](https://github.com/kubernetes-sigs/bom), [cdxgen](https://github.com/CycloneDX/cdxgen), [sbom-tool](https://github.com/microsoft/sbom-tool), [ORT Reporter](https://oss-review-toolkit.org/ort/#reporter)
 
 **SBOM management:** [sbomify](https://github.com/sbomify/sbomify), [Dependency-Track](https://dependencytrack.org), [GUAC](https://guac.sh)
 
 **SBOM libraries:** [Protobom](https://github.com/protobom/protobom)
 
-**SBOM formats:** [CycloneDX](https://cyclonedx.org), [SPDX](https://spdx.dev), [SWID](https://csrc.nist.gov/projects/Software-Identification-SWID)
+**SBOM formats:** [CycloneDX](https://cyclonedx.org), [SPDX](https://spdx.dev), [SWID](https://csrc.nist.gov/projects/Software-Identification-SWID), [kissbom](https://github.com/kissbom/kissbom-spec)
 
 **SBOM quality:** [sbom-scorecard](https://github.com/eBay/sbom-scorecard), [sbomqs](https://github.com/interlynk-io/sbomqs), [ntia-conformance-checker](https://github.com/spdx/ntia-conformance-checker)
 
@@ -309,7 +309,7 @@ Tools for generating and consuming Software Bills of Materials, and for supply c
 
 **Reproducible builds:** [Reproducible Builds](https://reproducible-builds.org), [oss-rebuild](https://github.com/google/oss-rebuild), [rebuilderd](https://github.com/kpcyrd/rebuilderd), [diffoscope](https://diffoscope.org)
 
-**Policy enforcement:** [OPA](https://www.openpolicyagent.org)/[Gatekeeper](https://open-policy-agent.github.io/gatekeeper/), [Kyverno](https://kyverno.io), [ratify](https://github.com/ratify-project/ratify)
+**Policy enforcement:** [OPA](https://www.openpolicyagent.org)/[Gatekeeper](https://open-policy-agent.github.io/gatekeeper/), [Kyverno](https://kyverno.io), [ratify](https://github.com/ratify-project/ratify), [ORT Evaluator](https://oss-review-toolkit.org/ort/#evaluator)
 
 ## Trusted publishing
 
