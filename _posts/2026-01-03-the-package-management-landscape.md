@@ -219,7 +219,7 @@ Libraries that read dependency files across ecosystems, used by security scanner
 
 **[oras](https://github.com/oras-project/oras):** OCI Registry As Storage, for pushing and pulling arbitrary content to OCI registries.
 
-**Version constraint parsers:** [node-semver](https://github.com/npm/node-semver), [packaging](https://github.com/pypa/packaging) (Python), [Gem::Version](https://github.com/rubygems/rubygems) (Ruby), [semver](https://github.com/Masterminds/semver) (Go), [semver](https://github.com/dtolnay/semver) (Rust)
+**Version constraint parsers:** [node-semver](https://github.com/npm/node-semver), [packaging](https://github.com/pypa/packaging) (Python), [Gem::Version](https://github.com/rubygems/rubygems) (Ruby), [semver](https://github.com/Masterminds/semver) (Go), [semver](https://github.com/dtolnay/semver) (Rust), [Semver4j](https://github.com/semver4j/semver4j) (Java)
 
 ## Registry software
 
