@@ -301,7 +301,7 @@ Tools for generating and consuming Software Bills of Materials, and for supply c
 
 **SBOM libraries:** [Protobom](https://github.com/protobom/protobom)
 
-**SBOM formats:** [CycloneDX](https://cyclonedx.org), [SPDX](https://spdx.dev), [SWID](https://csrc.nist.gov/projects/Software-Identification-SWID)
+**SBOM formats:** [CycloneDX](https://cyclonedx.org), [SPDX](https://spdx.dev), [SWID](https://csrc.nist.gov/projects/Software-Identification-SWID), [kissbom](https://github.com/kissbom/kissbom-spec)
 
 **SBOM quality:** [sbom-scorecard](https://github.com/eBay/sbom-scorecard), [sbomqs](https://github.com/interlynk-io/sbomqs), [ntia-conformance-checker](https://github.com/spdx/ntia-conformance-checker)
 
