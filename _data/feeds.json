@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-24T21:41:18Z",
-  "cutoff": "2026-06-24T21:41:14Z",
+  "generated": "2026-07-25T00:55:44Z",
+  "cutoff": "2026-06-25T00:55:40Z",
   "feed_count": 79,
-  "item_count": 209,
+  "item_count": 206,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.280.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.4",
+      "published": "2026-07-25T00:51:21Z",
+      "preview": "43.280.4 (2026-07-25) Miscellaneous Chores deps: update dependency pnpm to v11.14.0 (main) ( #44839 ) ( 04930f4 ) deps: update dependency tar to v7.5.21 [security] (main) ( #44838 ) ( 4f9359a ) Build System deps: update dependency semantic-release to v25.0.8 (main) ( #44840 ) ( 53223e3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "SDK-3.14.0-65.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-65.0.dev",
+      "published": "2026-07-25T00:36:22Z",
+      "preview": "SDK 3.14.0-65.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-64.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-64.0.dev",
+      "published": "2026-07-25T00:36:19Z",
+      "preview": "SDK 3.14.0-64.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-63.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-63.0.dev",
+      "published": "2026-07-25T00:36:17Z",
+      "preview": "SDK 3.14.0-63.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-62.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-62.0.dev",
+      "published": "2026-07-25T00:36:14Z",
+      "preview": "SDK 3.14.0-62.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "43.280.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.3",
@@ -286,38 +326,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "SDK-3.14.0-55.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-55.0.dev",
-      "published": "2026-07-23T00:35:56Z",
-      "preview": "SDK 3.14.0-55.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-54.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-54.0.dev",
-      "published": "2026-07-23T00:35:53Z",
-      "preview": "SDK 3.14.0-54.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-53.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-53.0.dev",
-      "published": "2026-07-23T00:35:49Z",
-      "preview": "SDK 3.14.0-53.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-52.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-52.0.dev",
-      "published": "2026-07-23T00:35:46Z",
-      "preview": "SDK 3.14.0-52.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "Windows Package Manager 1.30.70-preview",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.70-preview",
       "published": "2026-07-22T22:34:52Z",
@@ -363,14 +371,6 @@
       "published": "2026-07-22T19:35:32Z",
       "preview": "What's Changed Type GitHub release metadata by @JamieMagee in #15597 Make GitCommitChecker strongly typed by @JamieMagee in #15598 Retry corepack prepare and install on signature metadata errors from private registries by @kbukum1 in #15606 Fix UV DependencyGrapher to detect nested uv.lock in monorepos by @thavaahariharangit with @Copilot in #15520 Bump library/rust from 1.95.0-bookworm to 1.97.0-bookworm in /cargo by @dependabot [bot] in #15560 Bump @sigstore/core from 3.1.0 to 3.2.1 in /npm_and_yarn/helpers by @dependabot [bot] in #15455 Bump maven from 3.9.14 to 3.9.16 in /maven by @dependa",
       "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.278.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.278.3",
-      "published": "2026-07-22T15:56:05Z",
-      "preview": "43.278.3 (2026-07-22) Miscellaneous Chores deps: update dependency vitest-mock-extended to v5 (main) ( #44786 ) ( d6f2426 ) Build System deps: update dependency typescript to v7 (main) ( #44785 ) ( b01c6db )",
-      "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
@@ -1668,30 +1668,6 @@
       "preview": "What's Changed Cask Cookbook: document generate_completions_from_executable stanza by @bevanjkay in #22848 generate_completions: add style for default shells and auto corrections by @daeho-ro in #22841 Add bump-compatibility-version command by @p-linnane in #22846 Filter info JSON package types by @MikeMcQuaid in #22851 Enable formula path helper cop by @MikeMcQuaid in #22845 Rescue MethodDeprecatedError when attempting to load installed caskfiles by @Rylan12 in #22856 Speed up tests by @MikeMcQuaid in #22852 Approve stale lead maintainer PRs by @MikeMcQuaid in #22818 Rescue MethodDeprecatedEr",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "Bridging conda and PyPI ecosystems: Install PyPI packages with conda install",
-      "url": "https://conda.org/blog/2026-06-25-bridging-conda-and-pypi-ecosystems",
-      "published": "2026-06-25T00:00:00Z",
-      "preview": "conda-pypi beta enables conda CLI to install pure Python packages from PyPI natively and alongside conda packages in a single dependency solve, without a separate pip step",
-      "source": "Conda Blog",
-      "category": "Multi-language"
-    },
-    {
-      "title": "The many journeys of learning Rust",
-      "url": "https://blog.rust-lang.org/2026/06/25/vision-doc-journeys-to-learning-rust/",
-      "published": "2026-06-25T00:00:00Z",
-      "preview": "This is another post in our series covering what we learned through the Vision Doc process. We previously described the overall approach and what we learned about doing user research , we explored what people love about Rust , dug into what it takes to ship safety-crticial Rust , and described some of the major challenges that people face when using Rust . In this post we walk through what folks have found on their journey to learn the Rust programming language with ups and downs covered. As a disclaimer, LLMs (Large Language Models) come up in this post because our interviewees brought them u",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
-      "title": "1.15.0",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.15.0",
-      "published": "2026-06-24T23:48:42Z",
-      "preview": "What's Changed Add --dry-run flag to pipx ensurepath by @somaz94 in #1842 Fix uninject for uv-backed venvs by @sjh9714 in #1844 New Contributors @somaz94 made their first contribution in #1842 Full Changelog : 1.14.1...1.15.0",
-      "source": "pipx releases",
-      "category": "Python"
     }
   ]
 }
