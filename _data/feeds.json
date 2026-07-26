@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-26T20:36:47Z",
-  "cutoff": "2026-06-26T20:36:44Z",
+  "generated": "2026-07-26T21:38:06Z",
+  "cutoff": "2026-06-26T21:38:01Z",
   "feed_count": 79,
-  "item_count": 200,
+  "item_count": 201,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.0.4",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.4",
+      "published": "2026-07-26T21:37:49Z",
+      "preview": "changes with compatibility implications fix: Forked run uses working directory by @jozanek in #9442 🐛 bug fixes fix: Fixes test ClassLoader retention issues by @kevin-lee in #9485 fix: Fixes hashes for directories in MappedVirtualFile by @raboof in sbt/zinc#1747 fix: Fixes common settings with a plugin with extraProjects by @eed3si9n in #9495 fix: Fixes Def.declareOutput invoked in a loop by @BrianHotopp in #9492 fix: Fixes partial cache restoration by @stasimus in #9488 fix: Fixes system errors getting cached as compilation errors by @BrianHotopp in #9464 fix: Fixes dependency tree rendering ",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
     {
       "title": "v6.9.0",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.9.0",
