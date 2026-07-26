@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-26T21:38:06Z",
-  "cutoff": "2026-06-26T21:38:01Z",
+  "generated": "2026-07-26T22:39:01Z",
+  "cutoff": "2026-06-26T22:38:57Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -24,8 +24,8 @@
     {
       "title": "2.0.4",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.4",
-      "published": "2026-07-26T21:37:49Z",
-      "preview": "changes with compatibility implications fix: Forked run uses working directory by @jozanek in #9442 🐛 bug fixes fix: Fixes test ClassLoader retention issues by @kevin-lee in #9485 fix: Fixes hashes for directories in MappedVirtualFile by @raboof in sbt/zinc#1747 fix: Fixes common settings with a plugin with extraProjects by @eed3si9n in #9495 fix: Fixes Def.declareOutput invoked in a loop by @BrianHotopp in #9492 fix: Fixes partial cache restoration by @stasimus in #9488 fix: Fixes system errors getting cached as compilation errors by @BrianHotopp in #9464 fix: Fixes dependency tree rendering ",
+      "published": "2026-07-26T22:04:52Z",
+      "preview": "changes with compatibility implications fix: Forked run uses working directory by @jozanek in #9442 🐛 bug fixes fix: Fixes test ClassLoader retention issues by @kevin-lee in #9485 fix: Fixes common settings with a plugin with extraProjects by @eed3si9n in #9495 fix: Fixes dependency tree rendering on some libraries by @anatoliykmetyuk in #9371 fix: Fixes tests not detecting stale resources by @eed3si9n in #9469 fix: Fixes sbtn not propagating -java-home by @BrianHotopp in #9448 fix: Fixes clean task not cleaning sona-staging by @eed3si9n in #9479 fix: Fixes reboot from sbtn by @BrianHotopp in ",
       "source": "sbt releases",
       "category": "Maven"
     },
