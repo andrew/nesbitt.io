@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-26T18:39:22Z",
-  "cutoff": "2026-06-26T18:39:18Z",
+  "generated": "2026-07-26T19:44:04Z",
+  "cutoff": "2026-06-26T19:44:00Z",
   "feed_count": 79,
   "item_count": 199,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.281.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.281.1",
+      "published": "2026-07-26T18:48:51Z",
+      "preview": "43.281.1 (2026-07-26) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.6 (main) ( #44860 ) ( 866dd56 ) Miscellaneous Chores deps: update dependency tsdown to v0.22.11 (main) ( #44857 ) ( 1d8c976 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.7.14: Multi-asset GitHub installs, safer defaults, and Windows pip",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.14",
@@ -300,14 +308,6 @@
       "preview": "2.9.4 / 2026.07.23 feat(desktop): enable --hmr for React Router ( #35900 ) feat(ext/node): add a byteLength/length parameter to Buffer.indexOf/lastIndexOf/includes ( #35872 ) feat(ext/node): support raw chacha20 cipher in crypto.createCipheriv ( #36016 ) feat: upgrade V8 to 150.2.0 ( #36098 ) fix(add): support --minimum-dependency-age flag in deno add/remove ( #36099 ) fix(cache): store Web Cache under origin data ( #36145 ) fix(canvas): require FFI permission for native window handles ( #36080 ) fix(clean): reject symlinked node_modules cleanup roots ( #36190 ) fix(compile): bump libsui to 0.",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.279.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.279.0",
-      "published": "2026-07-23T16:54:38Z",
-      "preview": "43.279.0 (2026-07-23) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.0 (main) ( #44802 ) ( 609a1be ) Documentation mend-hosted: correctly note \"Community (OSS)\" vCPUs ( #44798 ) ( 996dfbb ) Miscellaneous Chores deps: update dependency tsdown to v0.22.9 (main) ( #44801 ) ( 5b5dea6 ) gitlab: tidy up around gitlab codeowner role support ( #44796 ) ( e59b10a ) Code Refactoring linters: add linters for Json.pipe and schema location ( #44684 ) ( ac0407b ) Tests exclude .claude/worktrees from vitest and prettier ( #44799 ) ( 943f917 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpr 0.1.0-alpha.5",
