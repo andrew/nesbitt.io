@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-26T16:36:51Z",
-  "cutoff": "2026-06-26T16:36:46Z",
+  "generated": "2026-07-26T18:39:22Z",
+  "cutoff": "2026-06-26T18:39:18Z",
   "feed_count": 79,
-  "item_count": 200,
+  "item_count": 199,
   "categories": [
     ".NET",
     "C/C++",
@@ -1612,14 +1612,6 @@
       "preview": "Release Notes Released on 2026-06-26. Security This release updates our tar library, astral-tokio-tar , to v0.6.3, which includes over 20 changes that harden our tar handling against parser differentials . uv may reject source distributions with malformed or ambiguous content that were previously accepted. See the upstream commits for a full list of changes. Enhancements Add a full \"lockfile\" to tool receipts ( #18937 ) Allow scoped overrides to add dependencies ( #19974 ) Avoid writing redundant lockfile markers with tool.uv.environments ( #19933 ) Factor supported environments out of lockfil",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "6.0.5",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.5",
-      "published": "2026-06-26T18:11:56Z",
-      "preview": "What's Changed rubocop/formula_path_methods: add formula_opt_include method by @botantony in #22867 Reject patch targets that escape the staged source tree by @p-linnane in #22881 system_command: use Process.spawn to avoid fork-unsafe exec3 child by @p-linnane in #22880 formula: std_meson_args prefix param and relative libdir by @cho-m in #22888 Expand deferred env in curl URLs by @MikeMcQuaid in #22886 Full Changelog : 6.0.4...6.0.5",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
