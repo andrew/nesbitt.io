@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-26T07:13:04Z",
-  "cutoff": "2026-06-26T07:12:59Z",
+  "generated": "2026-07-26T12:41:25Z",
+  "cutoff": "2026-06-26T12:41:21Z",
   "feed_count": 79,
-  "item_count": 203,
+  "item_count": 202,
   "categories": [
     ".NET",
     "C/C++",
@@ -1635,14 +1635,6 @@
       "published": "2026-06-26T15:37:17Z",
       "preview": "Security This release addresses CVE-2026-57231, where a malicious image using malformed Env entries could cause host environment variables to leak into containers run based on the image, including the ability to use the * glob operator to leak large numbers of environment variables without knowing their exact names ( GHSA-4hq8-gpf5-8p68 ). The golang.org/x/crypto library has been updated to v0.53.0, addressing CVE-2026-39830 and CVE-2026-42508 . Bugfixes Fixed a bug where the remote Podman client's podman save command would fail on Linux when using the -f oci-dir or -f docker-dir arguments.",
       "source": "Podman releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v29.6.1",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.1",
-      "published": "2026-06-26T12:29:14Z",
-      "preview": "29.6.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.1 milestone moby/moby, 29.6.1 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. A malicious image could supply a malicious /etc/passwd or /etc/group -style file causing excessive memory consumption, potentially resulting in process termination due to Out Of Memory (OOM) conditions. GHSA-mjcv-p78q-w5fw , GHSA-jpcc-p29g-p8mq , GHSA-72x6-4j93-7w86 A custom frontend could send a crafted build request that disabled",
-      "source": "Docker Engine releases",
       "category": "Containers"
     }
   ]
