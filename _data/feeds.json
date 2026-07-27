@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-27T19:53:05Z",
-  "cutoff": "2026-06-27T19:53:01Z",
+  "generated": "2026-07-27T20:47:58Z",
+  "cutoff": "2026-06-27T20:47:54Z",
   "feed_count": 79,
   "item_count": 205,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.285.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.1",
+      "published": "2026-07-27T19:56:34Z",
+      "preview": "43.285.1 (2026-07-27) Bug Fixes gerrit: use max available Code-Review vote value for autoApprove ( #44425 ) ( d83651c ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.11 (main) ( #44891 ) ( 707c440 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.0.0-beta.19",
       "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.19",
@@ -252,14 +260,6 @@
       "preview": "SDK 3.14.0-62.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.280.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.3",
-      "published": "2026-07-24T21:00:48Z",
-      "preview": "43.280.3 (2026-07-24) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.4 (main) ( #44837 ) ( 558fb51 ) Miscellaneous Chores deps: update jdx/mise-action action to v4.2.3 (main) ( #44836 ) ( 5a1925f ) Code Refactoring workers/repository: add isMinimumReleaseAgeApplicable / isMinimumConfidenceApplicable ( #44824 ) ( f1cd516 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.7.13: Multi-binary renaming, cask completions, and go.mod support",
