@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-27T20:47:58Z",
-  "cutoff": "2026-06-27T20:47:54Z",
+  "generated": "2026-07-27T21:42:39Z",
+  "cutoff": "2026-06-27T21:42:34Z",
   "feed_count": 79,
   "item_count": 205,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.285.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.2",
+      "published": "2026-07-27T20:53:40Z",
+      "preview": "43.285.2 (2026-07-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.8 (main) ( #44892 ) ( dfc9a0a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.285.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.1",
@@ -220,14 +228,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.280.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.4",
-      "published": "2026-07-25T00:51:21Z",
-      "preview": "43.280.4 (2026-07-25) Miscellaneous Chores deps: update dependency pnpm to v11.14.0 (main) ( #44839 ) ( 04930f4 ) deps: update dependency tar to v7.5.21 [security] (main) ( #44838 ) ( 4f9359a ) Build System deps: update dependency semantic-release to v25.0.8 (main) ( #44840 ) ( 53223e3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-65.0.dev",
