@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-27T11:29:01Z",
-  "cutoff": "2026-06-27T11:28:57Z",
+  "generated": "2026-07-27T13:21:58Z",
+  "cutoff": "2026-06-27T13:21:55Z",
   "feed_count": 79,
-  "item_count": 200,
+  "item_count": 201,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.15",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.15",
+      "published": "2026-07-27T13:15:46Z",
+      "preview": "(config) parse registry idiomatic version files by @jdx in [#11…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.20",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.20",
+      "published": "2026-07-27T13:12:51Z",
+      "preview": "Release vfox 2026.7.20",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "6.0.13",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.13",
+      "published": "2026-07-27T12:54:46Z",
+      "preview": "What's Changed docs: update formula authoring and toolchain references by @p-linnane in #23225 Don't print the --force hint when brew bundle cleanup prompts by @p-linnane in #23212 Generate stable cask syntax jobs by @MikeMcQuaid in #23222 docs: convert Adding Software to Homebrew into a package-type router by @p-linnane in #23224 Use --end-of-options for Git arguments by @andrew in #23223 Normalise systemd service labels by @MikeMcQuaid in #23228 Skip unavailable xattrs in cask audits by @MikeMcQuaid in #23229 Add phase timings to brew prof by @MikeMcQuaid in #23216 docs: update maintainer op",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "v0.74.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.74.0",
+      "published": "2026-07-27T12:50:47Z",
+      "preview": "[0.74.0] - 2026-07-27 ✨ Highlights Environments can now define content inline, no feature needed: [ environments . test . dependencies ] pytest = \" * \" [ environments . test-lower-bounds ] solve-strategy = \" lowest-direct \" And pixi global can build tools from sources without a package manifest, just name the backend: pixi global install --git https://github.com/BurntSushi/xsv.git --build-backend pixi-build-rust We also fixed a bunch of bugs. Added Inline environments by @Hofer-Julian in #6497 Add offline mode (--offline) by @baszalmstra in #6608 Inline package manifests for pixi global by @Ho",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "43.284.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.284.0",
+      "published": "2026-07-27T11:55:06Z",
+      "preview": "43.284.0 (2026-07-27) Features github-actions: update mise checksums ( #44876 ) ( 7700d62 ) Tests util/git: reference default branch ( #44877 ) ( a44bbfa )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -220,14 +260,6 @@
       "preview": "Fix: Fixed replace_in_file() raising a false \"pattern not found\" error when the replacement produced the same content as the original (no-op replace). ( #20211 )",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "43.280.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.0",
-      "published": "2026-07-24T10:12:32Z",
-      "preview": "43.280.0 (2026-07-24) Features azure: make issue work item type configurable ( #44736 ) ( e0714e0 ) Documentation minimum-release-age: link to separate issue for pinDigest ( #44821 ) ( 6e15862 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-22-a",
@@ -614,14 +646,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "mise-sigstore-v2026.7.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.7.1",
-      "published": "2026-07-20T20:35:41Z",
-      "preview": "Release mise-sigstore 2026.7.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "pnpm 12 Alpha 17",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.17",
       "published": "2026-07-20T19:57:49Z",
@@ -780,14 +804,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "vfox-v2026.7.15",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.15",
-      "published": "2026-07-17T05:34:11Z",
-      "preview": "Release vfox 2026.7.15",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "1.12.14",
@@ -1388,14 +1404,6 @@
       "preview": "This is the next post in our supply chain security series, following the supply chain security update and the Composer 2.10 release . Each post in this series covers a specific behavior worth understanding, and a change we are making on top of it. Today: Stable version metadata on Packagist.",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "pixi-build-mojo-v0.2.4",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.4",
-      "published": "2026-07-07T11:33:41Z",
-      "preview": "chore: bump backend versions ( #6539 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-python-v0.8.3",
