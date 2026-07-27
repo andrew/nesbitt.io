@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-27T18:49:57Z",
-  "cutoff": "2026-06-27T18:49:52Z",
+  "generated": "2026-07-27T19:53:05Z",
+  "cutoff": "2026-06-27T19:53:01Z",
   "feed_count": 79,
-  "item_count": 203,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.0.0-beta.19",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.19",
+      "published": "2026-07-27T19:23:19Z",
+      "preview": "v2.0.0-beta.19",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "client/v0.5.1",
+      "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.5.1",
+      "published": "2026-07-27T19:09:03Z",
+      "preview": "0.5.1 Changelog client/pkg/jsonmessage: Display: fix godoc link. moby/moby#53070 client: ServiceCreate, ServiceUpdate: fix duplicate and 'unkown' platforms. moby/moby#53012 client: ServiceInspect, ContainerCommit: omit optional query args if not set. moby/moby#53010 golangci-lint: enable perfsprint linter. moby/moby#53016",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-07-27T19:05:12Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "2026-07-24 Release",
+      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-24",
+      "published": "2026-07-27T18:58:58Z",
+      "preview": "This release failed validation due to an unexpected HEAD_REF being passed to vcpkg_download_distfile by liblas so it will not be promoted, but it should work if you aren't doing that: https://dev.azure.com/vcpkg/public/_build/results?buildId=134909&view=results What's Changed Update vcpkg-tool-release-process. by @BillyONeal in #2070 Use canonical vcpkg PURLs in dependency snapshots by @JamieMagee in #2072 Add Git tree gitoids to SPDX SBOMs by @JamieMagee in #2074 Fix dependency snapshot relationships and correlators by @JamieMagee in #2073 Fix Qt plugins deployment with z-applocal by @vicroms",
+      "source": "vcpkg releases",
+      "category": "C/C++"
+    },
+    {
+      "title": "v2026.7.15: Experimental Task Output Caching",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.15",
+      "published": "2026-07-27T18:51:46Z",
+      "preview": "This release lands the first version of experimental local task output caching, letting eligible tasks restore their declared outputs and replay their logs without rerunning. It also adds structured registry idiomatic-version-file parsing, a standalone Aube installer mode, and a broad batch of task, Homebrew, shell, and Windows path fixes. Highlights Experimental local task artifact caching restores task outputs (and replays their logs) across deletions, checkouts, and unchanged CI runs, with cache keys derived from source contents, task config, tools, and environment. It works for tasks that ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v0.389.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.389.0",
@@ -54,14 +94,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v2026.7.15",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.15",
-      "published": "2026-07-27T13:15:46Z",
-      "preview": "(config) parse registry idiomatic version files by @jdx in [#11…",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.7.20",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.20",
       "published": "2026-07-27T13:12:51Z",
@@ -92,14 +124,6 @@
       "preview": "43.284.0 (2026-07-27) Features github-actions: update mise checksums ( #44876 ) ( 7700d62 ) Tests util/git: reference default branch ( #44877 ) ( a44bbfa )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-27T11:00:32Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "43.283.0",
@@ -291,14 +315,6 @@
       "published": "2026-07-24T05:32:47Z",
       "preview": "Feature: Get Workspace feature out of incubating. ( #20202 ). Docs: 📃 Feature: replace_in_file now supports regex patterns. ( #20194 ). Docs: 📃 Feature: Warn when conan config install is used after conan config install-pkg . ( #20188 ). Docs: 📃 Feature: Support GCC 14.4 and 15.3 in settings.yml . ( #20184 ) Feature: Support intel-cc 2025.2, 2025.3 and 2026.1 in settings.yml . ( #20184 ) Feature: Change the Workspace approach to not process python_requires just to derive name/version . Proposed a new get_ref(folder) method in the conanws.py file to be able to define versions dynamically. ( #201",
       "source": "Conan releases",
-      "category": "C/C++"
-    },
-    {
-      "title": "2026-07-24 Release",
-      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-24",
-      "published": "2026-07-24T05:00:38Z",
-      "preview": "What's Changed Update vcpkg-tool-release-process. by @BillyONeal in #2070 Use canonical vcpkg PURLs in dependency snapshots by @JamieMagee in #2072 Add Git tree gitoids to SPDX SBOMs by @JamieMagee in #2074 Fix dependency snapshot relationships and correlators by @JamieMagee in #2073 Fix Qt plugins deployment with z-applocal by @vicroms in #2048 Add \"min-version\" to vcpkg-tools.json . by @BillyONeal in #2067 Fix CopyOptions::update_existing creating a 0 byte file when the destination is nonexistent. by @BillyONeal in #2068 Fix unreplaced CMake variables in SBOMs. by @BillyONeal in #2075 Full C",
-      "source": "vcpkg releases",
       "category": "C/C++"
     },
     {
