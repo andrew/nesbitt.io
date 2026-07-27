@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-27T13:21:58Z",
-  "cutoff": "2026-06-27T13:21:55Z",
+  "generated": "2026-07-27T15:18:44Z",
+  "cutoff": "2026-06-27T15:18:40Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.284.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.284.1",
+      "published": "2026-07-27T14:59:21Z",
+      "preview": "43.284.1 (2026-07-27) Bug Fixes post-upgrade: skip executable detection for directories ( #44884 ) ( 3f46080 ) Miscellaneous Chores vscode: enable TypeScript 7 ( #44883 ) ( 27b4832 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.7.15",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.15",
@@ -226,14 +234,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.2",
       "published": "2026-07-24T14:19:58Z",
       "preview": "43.280.2 (2026-07-24) Bug Fixes presets/helpers: ensure that pinGitHubActionDigestsToSemver preset only applies to actions ( #44830 ) ( c33364d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.280.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.1",
-      "published": "2026-07-24T13:58:44Z",
-      "preview": "43.280.1 (2026-07-24) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.3 (main) ( #44829 ) ( 5c316be ) Documentation minimum-release-age: correctly reference lockfileUpdate ( #44823 ) ( 52fc547 ) minimum-release-age: indicate which Datasources support releaseTimestamp ( #44822 ) ( f7bf437 ), closes #30714 Miscellaneous Chores deps: update jdx/mise-action action to v4.2.2 (main) ( #44826 ) ( 98d45b7 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
