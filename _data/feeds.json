@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-27T16:59:23Z",
-  "cutoff": "2026-06-27T16:59:18Z",
+  "generated": "2026-07-27T18:49:57Z",
+  "cutoff": "2026-06-27T18:49:52Z",
   "feed_count": 79,
-  "item_count": 202,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.389.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.389.0",
+      "published": "2026-07-27T18:25:20Z",
+      "preview": "What's Changed Rescue errors in metadata_cascades_for_dep to prevent PR message loss by @yeikel in #14905 Bump sigstore from 4.1.0 to 4.1.1 in /npm_and_yarn/helpers by @dependabot [bot] in #15484 Bump handlebars from 4.7.8 to 4.7.9 in /npm_and_yarn/helpers by @dependabot [bot] in #14547 Bump lodash from 4.17.23 to 4.18.1 in /npm_and_yarn/helpers by @dependabot [bot] in #14605 fix: use canonical LOCKFILE_ENTRY_REGEX in replace-lockfile-declaration.ts by @thavaahariharangit with @Copilot in #15642 Prevent update job crash when a pinned GitHub Actions SHA is missing by @robaiken in #15628 feat(np",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.285.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.0",
