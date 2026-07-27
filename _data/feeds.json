@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-27T09:31:41Z",
-  "cutoff": "2026-06-27T09:31:37Z",
+  "generated": "2026-07-27T11:29:01Z",
+  "cutoff": "2026-06-27T11:28:57Z",
   "feed_count": 79,
   "item_count": 200,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-07-27T11:00:32Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "43.283.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.283.0",
@@ -572,14 +580,6 @@
       "preview": "What's Changed 👷 ci: test against Python 3.15 beta by @gaborbernat in #1971 Full Changelog : 1.16.1...1.16.2",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-21T13:12:19Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v2026.7.11: Task Source Tracking and Activation Speedups",
