@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-27T15:18:44Z",
-  "cutoff": "2026-06-27T15:18:40Z",
+  "generated": "2026-07-27T16:59:23Z",
+  "cutoff": "2026-06-27T16:59:18Z",
   "feed_count": 79,
-  "item_count": 201,
+  "item_count": 202,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.285.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.0",
+      "published": "2026-07-27T16:53:10Z",
+      "preview": "43.285.0 (2026-07-27) Features managers/mise: set depType for tools and task tools ( #44868 ) ( 0ad45c5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "2.77",
+      "url": "https://github.com/canonical/snapd/releases/tag/2.77",
+      "published": "2026-07-27T15:52:39Z",
+      "preview": "tagging package snapd version 2.77",
+      "source": "Snapd releases",
+      "category": "System"
+    },
     {
       "title": "43.284.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.284.1",
@@ -228,14 +244,6 @@
       "preview": "Release vfox 2026.7.18",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.280.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.280.2",
-      "published": "2026-07-24T14:19:58Z",
-      "preview": "43.280.2 (2026-07-24) Bug Fixes presets/helpers: ensure that pinGitHubActionDigestsToSemver preset only applies to actions ( #44830 ) ( c33364d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12 Alpha 21",
