@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-26T22:39:01Z",
-  "cutoff": "2026-06-26T22:38:57Z",
+  "generated": "2026-07-27T01:00:06Z",
+  "cutoff": "2026-06-27T01:00:02Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.14: Multi-asset GitHub installs, safer defaults, and Windows pip",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.14",
+      "published": "2026-07-27T00:16:44Z",
+      "preview": "This release adds overlay installs for GitHub-based tools, closes a config-trust security gap around default shell arguments, and lands a wide batch of correctness fixes across tasks, lockfiles, npm, Swift, brew casks, and Windows Python. Added github: the GitHub/GitLab/Forgejo release backend now accepts additional_asset_patterns , so a single install can overlay multiple release archives from the same tag into one installation directory. Each supplemental artifact is locked and verified (checksums and provenance) on its own, and --locked fails if the recorded set no longer matches. This mode",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "1.16.3",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.16.3",
+      "published": "2026-07-27T00:10:10Z",
+      "preview": "What's Changed 📝 docs: update Linux install guidance by @vigneshakaviki in #1977 fix: allow read-only global list with inaccessible locks by @yangfan-yf-yf in #1975 New Contributors @vigneshakaviki made their first contribution in #1977 @yangfan-yf-yf made their first contribution in #1975 Full Changelog : 1.16.2...1.16.3",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "2.0.4",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.4",
@@ -44,14 +60,6 @@
       "preview": "43.281.1 (2026-07-26) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.6 (main) ( #44860 ) ( 866dd56 ) Miscellaneous Chores deps: update dependency tsdown to v0.22.11 (main) ( #44857 ) ( 1d8c976 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.7.14: Multi-asset GitHub installs, safer defaults, and Windows pip",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.14",
-      "published": "2026-07-26T16:26:10Z",
-      "preview": "This release adds overlay installs for GitHub-based tools, closes a config-trust security gap around default shell arguments, and lands a wide batch of correctness fixes across tasks, lockfiles, npm, Swift, brew casks, and Windows Python. Added github: the GitHub/GitLab/Forgejo release backend now accepts additional_asset_patterns , so a single install can overlay multiple release archives from the same tag into one installation directory. Each supplemental artifact is locked and verified (checksums and provenance) on its own, and --locked fails if the recorded set no longer matches. This mode",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.7.19",
@@ -1620,14 +1628,6 @@
       "preview": "What's Changed Component updates ⬆️ [CHERRY-PICK] Make openapi-generator-cli download URL configurable ( #23186 ) by @chlins in #23221 bump Go version from 1.25.9 to 1.26.3 by @stonezdj in #23236 [cherry-pick] Rebuild goharbor/photon image before create new harbor base images by @jUDASmILE in #23250 [cherry-pick]remove install net-tools from db dockerfile as photon removed it by @jUDASmILE in #23267 [CHERRY-PICK] feat: replace redis with valkey as cache backend ( #23157 ) by @chlins in #23261 [CHERRY-PICK] test(cosign): disable tlog for signing checks by @chlins in #23280 [CHERRY-PICK] fix(cos",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "0.11.25",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.25",
-      "published": "2026-06-27T00:49:49Z",
-      "preview": "Release Notes Released on 2026-06-26. Security This release updates our tar library, astral-tokio-tar , to v0.6.3, which includes over 20 changes that harden our tar handling against parser differentials . uv may reject source distributions with malformed or ambiguous content that were previously accepted. See the upstream commits for a full list of changes. Enhancements Add a full \"lockfile\" to tool receipts ( #18937 ) Allow scoped overrides to add dependencies ( #19974 ) Avoid writing redundant lockfile markers with tool.uv.environments ( #19933 ) Factor supported environments out of lockfil",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
