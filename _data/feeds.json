@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-27T07:29:55Z",
-  "cutoff": "2026-06-27T07:29:52Z",
+  "generated": "2026-07-27T09:31:41Z",
+  "cutoff": "2026-06-27T09:31:37Z",
   "feed_count": 79,
-  "item_count": 201,
+  "item_count": 200,
   "categories": [
     ".NET",
     "C/C++",
@@ -1620,14 +1620,6 @@
       "preview": "Enhancements Add organization-defined dependency policies that filter the package versions available during dependency resolution. An organization publishes a named policy through its repository, and a project opts into one with the policy config ( HEX_POLICY , [org: \"ORG\", name: \"NAME\"] in the mix.exs :hex block, or mix hex.config ). A policy constrains one or more repositories — typically the organization's own repo and hexpm — and for each can block releases that: carry a security advisory at or above a minimum severity are retired for one of a given set of reasons are newer than a release-",
       "source": "Hex releases",
       "category": "Elixir"
-    },
-    {
-      "title": "v2.15.2-rc2",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2-rc2",
-      "published": "2026-06-27T08:10:46Z",
-      "preview": "What's Changed Component updates ⬆️ [CHERRY-PICK] Make openapi-generator-cli download URL configurable ( #23186 ) by @chlins in #23221 bump Go version from 1.25.9 to 1.26.3 by @stonezdj in #23236 [cherry-pick] Rebuild goharbor/photon image before create new harbor base images by @jUDASmILE in #23250 [cherry-pick]remove install net-tools from db dockerfile as photon removed it by @jUDASmILE in #23267 [CHERRY-PICK] feat: replace redis with valkey as cache backend ( #23157 ) by @chlins in #23261 [CHERRY-PICK] test(cosign): disable tlog for signing checks by @chlins in #23280 [CHERRY-PICK] fix(cos",
-      "source": "Harbor releases",
-      "category": "Containers"
     }
   ]
 }
