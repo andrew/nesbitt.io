@@ -60,6 +60,8 @@ tags:
 
 *Evals*: CI.
 
+*Pelican on a bicycle*: fizzbuzz.
+
 *Mixture of experts*: HAProxy.
 
 *Hallucination*: a 404 page served as a 200.
