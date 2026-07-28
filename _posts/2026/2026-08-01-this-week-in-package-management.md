@@ -12,7 +12,7 @@ Week eleven of the roundup, built from the [package manager OPML feed collection
 
 ## Releases
 
-[mise 2026.7.14](https://github.com/jdx/mise/releases/tag/v2026.7.14) adds `additional_asset_patterns` to the GitHub/GitLab/Forgejo backend so a single install can overlay multiple release archives from one tag, each locked and verified independently. The default shell-argument settings (`unix_default_file_shell_args` and friends) are now global-only, closing a hole where an untrusted repository's local config could influence how commands from trusted sources were executed before trust evaluation ran.
+[mise 2026.7.14](https://github.com/jdx/mise/releases/tag/v2026.7.14) adds `additional_asset_patterns` to the GitHub/GitLab/Forgejo backend so a single install can overlay multiple release archives from one tag, each locked and verified independently. The default shell-argument settings (`unix_default_file_shell_args` and friends) are now global-only, closing a hole where an untrusted repository's local config could influence how commands from trusted sources were executed before trust evaluation ran. [2026.7.15](https://github.com/jdx/mise/releases/tag/v2026.7.15) adds experimental local task output caching: a task with declared outputs restores them and replays its logs instead of rerunning when its sources, config, tools and environment are unchanged.
 
 [Verdaccio 6.9.0](https://github.com/verdaccio/verdaccio/releases/tag/v6.9.0) requires Node.js 22 as the minimum runtime and ships a dual CJS+ESM build with an `exports` field, so `import { runServer } from 'verdaccio'` resolves a real ES module. The bundled `@verdaccio/config` moves to js-yaml 4.3.0, resolving [GHSA-52cp-r559-cp3m](https://github.com/advisories/GHSA-52cp-r559-cp3m).
 
@@ -20,7 +20,23 @@ Week eleven of the roundup, built from the [package manager OPML feed collection
 
 [Renovate 43.282.0](https://github.com/renovatebot/renovate/releases/tag/43.282.0) has the mise manager run `mise lock` in the `MISE_SAFE=1` mode [added last week](/2026/07/25/this-week-in-package-management), so lockfile updates against untrusted branches no longer need `allowedUnsafeExecutions`. [43.283.0](https://github.com/renovatebot/renovate/releases/tag/43.283.0) adds a `commitTrailers` option.
 
-Also out: [pipx 1.16.3](https://github.com/pypa/pipx/releases/tag/1.16.3), [sbt 2.0.4](https://github.com/sbt/sbt/releases/tag/v2.0.4).
+[uv 0.11.33](https://github.com/astral-sh/uv/releases/tag/0.11.33) runs the malware check against locked tools before reusing them from cache, and the preview lockfile format can now be written and read without embedded `package.metadata`.
+
+[pixi 0.74.0](https://github.com/prefix-dev/pixi/releases/tag/v0.74.0) lets environments define dependencies and solve strategy inline without a separate feature block, adds an `--offline` mode, and `pixi global install --git` can build a tool from source given only `--build-backend` and no package manifest.
+
+Also out: [pipx 1.16.3](https://github.com/pypa/pipx/releases/tag/1.16.3), [sbt 2.0.4](https://github.com/sbt/sbt/releases/tag/v2.0.4), [Homebrew 6.0.13](https://github.com/Homebrew/brew/releases/tag/6.0.13), [snapd 2.77](https://github.com/canonical/snapd/releases/tag/2.77), [vcpkg 2026-07-27](https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-27), [Dependabot Core 0.389.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.389.0).
+
+## Articles
+
+[Open Source Must Be Fun or It Will Die](https://mikemcquaid.com/open-source-must-be-fun-or-it-will-die/) (Mike McQuaid) argues that maintainer enjoyment is the scarce resource that keeps a project alive, and points at Homebrew's numbers: 26 of last year's 29 maintainers are still active, with automation and CI doing the pedantic review work.
+
+[The Package Manager for Everywhere](https://starhaven.io/blog/2026-07-27-the-package-manager-for-everywhere/) (Patrick Linnane) breaks down Homebrew's public analytics by platform: about a quarter of events are on Linux, Universal Blue images (which ship brew by default) account for roughly 26% of non-CI Linux traffic, and WSL is at 3.7%.
+
+## Papers
+
+[No Edges, No Verdict](https://arxiv.org/abs/2607.22140) (Zięba-Kozarzewski, arXiv) analyses 78,000 SBOMs in the wild and finds 52.9% declare no dependency edges at all, and only 0.10% use CycloneDX compositions to flag that the graph is incomplete; treating edgeless SBOMs as degenerate raised KEV-detection recall from 0.600 to 0.950.
+
+[No Snake Oil: Verifying Python Package Builds](https://arxiv.org/abs/2607.21888) (Dietrich et al., arXiv) rebuilds 12,180 popular PyPI releases with macaron and oss-rebuild: only 15.4% and 19.1% of wheels come out byte-identical to the published artifact, but their daleq4py tool establishes semantic equivalence for 60.2% and 78.9% of source-equivalent rebuilds.
 
 ## Elsewhere
 
@@ -30,12 +46,13 @@ Most WASI phase 2 proposals now have OCI packages published and are indexed on [
 
 ## git-pkgs
 
-I tagged 13 repos this week:
+I tagged 14 repos this week:
 
 - [git-pkgs v0.18.2](https://github.com/git-pkgs/git-pkgs/releases/tag/v0.18.2)
+- [cwe v0.1.0](https://github.com/git-pkgs/cwe/releases/tag/v0.1.0) (new), a Go library for looking up MITRE CWE entries by ID with the catalogue embedded at build time
 - [archives v0.3.1](https://github.com/git-pkgs/archives/releases/tag/v0.3.1)
 - [brief v0.9.4](https://github.com/git-pkgs/brief/releases/tag/v0.9.4)
-- [capcheck v0.1.2](https://github.com/git-pkgs/capcheck/releases/tag/v0.1.2)
+- [capcheck v0.1.3](https://github.com/git-pkgs/capcheck/releases/tag/v0.1.3)
 - [distill v0.1.1](https://github.com/git-pkgs/distill/releases/tag/v0.1.1)
 - [enrichment v0.6.4](https://github.com/git-pkgs/enrichment/releases/tag/v0.6.4)
 - [forge v0.7.0](https://github.com/git-pkgs/forge/releases/tag/v0.7.0)
