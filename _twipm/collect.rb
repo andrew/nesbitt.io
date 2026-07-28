@@ -119,7 +119,8 @@ def collect_git_pkgs_releases(since)
         repo: repo.name,
         tag: tag.name,
         url: "https://github.com/#{repo.full_name}/releases/tag/#{tag.name}",
-        published: published.utc.iso8601
+        published: published.utc.iso8601,
+        repo_created: repo.created_at.utc.iso8601
       }
     end
   end
