@@ -7,6 +7,7 @@ tags:
   - package-managers
   - npm
   - dependencies
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mrp7clc7mj26"
 ---
 
 Every major release of Rails sets off a wave of releases across the rest of the gem ecosystem. An application that tries to upgrade runs `bundle update rails` and Bundler refuses, because some gem in the tree only allows activesupport up to the previous major. The error names the gem, an issue gets filed on its tracker, and a maintainer who had nothing to do with the Rails release widens a version range and ships. Multiply that across every gem with a Rails constraint and the upgrade arrives as dozens of small releases from maintainers who mostly don't know each other, each responding to errors their own users are hitting.
