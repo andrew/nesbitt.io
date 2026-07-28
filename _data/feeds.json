@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-28T11:59:16Z",
-  "cutoff": "2026-06-28T11:59:12Z",
+  "generated": "2026-07-28T12:57:57Z",
+  "cutoff": "2026-06-28T12:57:53Z",
   "feed_count": 79,
   "item_count": 209,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.285.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.5",
+      "published": "2026-07-28T12:09:29Z",
+      "preview": "43.285.5 (2026-07-28) Bug Fixes datasource/go: resolve sourceUrl from GOPROXY Origin ( #44902 ) ( feeb236 ) Documentation manager: indicate where lockFileMaintenance runs external commands ( #44914 ) ( 5ffc308 ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.5 (main) ( #44906 ) ( 9c1fe2c ) deps: update dependency astral-sh/uv to v0.11.33 (main) ( #44912 ) ( e41e315 ) deps: update dependency oxlint-tsgolint to v0.25.0 (main) ( #44424 ) ( 196101a ) deps: update dependency uv to v0.11.33 (main) ( #44913 ) ( 9c7d468 ) Code Refactoring move checkMinimumReleaseAge to lib/util/mi",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-install-v3.18.1.0-for-release",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0-for-release",
@@ -268,14 +276,6 @@
       "preview": "Minor Changes b67a665 : feat: require Node.js 22 as the minimum supported version Node.js 22 or higher is now required (previously the CLI still accepted Node.js 18, while engines already demanded 20). The CLI refuses to start on older runtimes and engines is set to >=22 ; Node.js 24 is the recommended version. CI, e2e, and smoke test matrices now cover Node.js 22, 24, and 26. Registry operators on Node.js 18 or 20 must upgrade the runtime before taking this release. b67a665 : feat: dual CJS + ESM build with exports field, migrate build from babel to vite 8 Native ESM support. The package now ",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.281.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.281.1",
-      "published": "2026-07-26T18:48:51Z",
-      "preview": "43.281.1 (2026-07-26) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.6 (main) ( #44860 ) ( 866dd56 ) Miscellaneous Chores deps: update dependency tsdown to v0.22.11 (main) ( #44857 ) ( 1d8c976 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "vfox-v2026.7.19",
