@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-28T14:00:21Z",
-  "cutoff": "2026-06-28T14:00:17Z",
+  "generated": "2026-07-28T16:01:08Z",
+  "cutoff": "2026-06-28T16:01:04Z",
   "feed_count": 79,
   "item_count": 209,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.285.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.7",
+      "published": "2026-07-28T15:55:48Z",
+      "preview": "43.285.7 (2026-07-28) Bug Fixes packagist: Throw on transient errors ( #44328 ) ( 2a5308b ) Code Refactoring types: make currentVersionTimestamp a Timestamp ( #44917 ) ( 12f5fde )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pixi-build-ros-v0.7.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.7.0",
+      "published": "2026-07-28T15:31:20Z",
+      "preview": "chore: bump backend versions ( #6704 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "43.285.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.6",
@@ -234,14 +250,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.284.0",
       "published": "2026-07-27T11:55:06Z",
       "preview": "43.284.0 (2026-07-27) Features github-actions: update mise checksums ( #44876 ) ( 7700d62 ) Tests util/git: reference default branch ( #44877 ) ( a44bbfa )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.283.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.283.0",
-      "published": "2026-07-27T07:11:03Z",
-      "preview": "43.283.0 (2026-07-27) Features add commitTrailers option ( #44651 ) ( ddbbb68 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1468,14 +1476,6 @@
       "preview": "This is the next post in our supply chain security series, following the supply chain security update and the Composer 2.10 release . Each post in this series covers a specific behavior worth understanding, and a change we are making on top of it. Today: Stable version metadata on Packagist.",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "pixi-build-python-v0.8.3",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.8.3",
-      "published": "2026-07-07T11:33:41Z",
-      "preview": "chore: bump backend versions ( #6539 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-r-v0.1.5",
