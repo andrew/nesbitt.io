@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-28T02:01:13Z",
-  "cutoff": "2026-06-28T02:01:09Z",
+  "generated": "2026-07-28T07:14:33Z",
+  "cutoff": "2026-06-28T07:14:29Z",
   "feed_count": 79,
   "item_count": 206,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-07-28T07:08:39Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "43.285.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.4",
+      "published": "2026-07-28T05:55:44Z",
+      "preview": "43.285.4 (2026-07-28) Build System deps: update dependency re2 to v1.26.1 (main) ( #44903 ) ( 48399bc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2026-07-27 Release",
       "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-27",
@@ -100,14 +116,6 @@
       "preview": "0.5.1 Changelog client/pkg/jsonmessage: Display: fix godoc link. moby/moby#53070 client: ServiceCreate, ServiceUpdate: fix duplicate and 'unkown' platforms. moby/moby#53012 client: ServiceInspect, ContainerCommit: omit optional query args if not set. moby/moby#53010 golangci-lint: enable perfsprint linter. moby/moby#53016",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-27T19:05:12Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "2026-07-24 Release",
@@ -252,14 +260,6 @@
       "preview": "Release vfox 2026.7.19",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.281.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.281.0",
-      "published": "2026-07-26T07:09:32Z",
-      "preview": "43.281.0 (2026-07-26) Features data: automatic update of static data ( #44850 ) ( bd8f885 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
