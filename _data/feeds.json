@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-28T12:57:57Z",
-  "cutoff": "2026-06-28T12:57:53Z",
+  "generated": "2026-07-28T14:00:21Z",
+  "cutoff": "2026-06-28T14:00:17Z",
   "feed_count": 79,
   "item_count": 209,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.285.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.6",
+      "published": "2026-07-28T12:58:27Z",
+      "preview": "43.285.6 (2026-07-28) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.9 (main) ( #44919 ) ( 18c59f8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "43.285.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.5",
@@ -234,14 +242,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.283.0",
       "published": "2026-07-27T07:11:03Z",
       "preview": "43.283.0 (2026-07-27) Features add commitTrailers option ( #44651 ) ( ddbbb68 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.282.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.282.0",
-      "published": "2026-07-27T06:53:30Z",
-      "preview": "43.282.0 (2026-07-27) Features manager/mise: run mise lock in safe mode without allowedUnsafeExecutions ( #44749 ) ( 94f0219 ), closes jdx/mise#11146 jdx/mise#11145 jdx/mise#11151 Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.7 (main) ( #44872 ) ( 8971306 ) Documentation update references to jaegertracing/jaeger to v2.20.0 (main) ( #44864 ) ( 20a51f8 ) update references to otel/opentelemetry-collector-contrib to v0.157.0 (main) ( #44865 ) ( 1cae2cc ) update references to python to 5f1cdbc (main) ( #44863 ) ( f9532ad ) update references to renovate/renovate (main) (",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
