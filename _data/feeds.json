@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-28T16:01:08Z",
-  "cutoff": "2026-06-28T16:01:04Z",
+  "generated": "2026-07-28T19:52:33Z",
+  "cutoff": "2026-06-28T19:52:28Z",
   "feed_count": 79,
-  "item_count": 209,
+  "item_count": 210,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-07-28T19:18:14Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "0.12.0",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.0",
+      "published": "2026-07-28T19:15:56Z",
+      "preview": "Release Notes Released on 2026-07-28. Since we released uv 0.11.0 in March, we've accumulated changes that improve correctness, safety, and compatibility with specifications, but could break some workflows. This release contains those changes; many have been marked as breaking out of an abundance of caution. We expect most users to be able to upgrade without making changes. There are no breaking changes to the configuration of the uv build backend . If your [build-system] table includes an upper bound on uv_build , update it to allow uv_build 0.12, e.g., uv_build>=0.11.32,<0.13 . Breaking chan",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "43.285.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.7",
@@ -76,14 +92,6 @@
       "preview": "29.7.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.0 milestone moby/moby, 29.7.0 milestone New Add an experimental embedded-containerd feature that runs containerd inside the daemon process instead of as a separate managed process. moby/moby#52898 Bug fixes and enhancements Add the default-stop-timeout daemon option to configure the stop timeout assigned to containers without an explicit timeout. moby/moby#53146 containerd image store: Fix daemon-wide concurrent download and upload limits for pulls and pushes not ",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-28T07:08:39Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "43.285.4",
@@ -662,14 +670,6 @@
       "category": "Registries"
     },
     {
-      "title": "cabal-install-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0",
-      "published": "2026-07-21T13:53:30Z",
-      "preview": "cabal-install-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
       "title": "hooks-exe-v3.18.1.0",
       "url": "https://github.com/haskell/cabal/releases/tag/hooks-exe-v3.18.1.0",
       "published": "2026-07-21T13:53:28Z",
@@ -875,6 +875,14 @@
       "published": "2026-07-17T08:44:47Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
       "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "cabal-install-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0",
+      "published": "2026-07-17T06:41:55Z",
+      "preview": "cabal-install-v3.18.1.0",
+      "source": "Cabal releases",
       "category": "Registries"
     },
     {
