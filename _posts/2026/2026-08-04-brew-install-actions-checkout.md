@@ -9,7 +9,7 @@ tags:
   - idea
 ---
 
-In December I went through why [`uses:` is a package manager with no lockfile, no integrity hashes and no transitive visibility](/2025/12/06/github-actions-package-manager.html), and in April through the [run of incidents](/2026/04/28/github-actions-is-the-weakest-link.html) that followed from that. GitHub's [2026 security roadmap](https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/) has since committed to a lockfile and made immutable actions the preferred resolution path, and neither of those changes adds any review between an action author tagging a release and the runner executing it. Homebrew has run that kind of curated index for fifteen years and, as of the immutable-actions rollout, stores its artifacts as OCI manifests on ghcr.io alongside the actions themselves, so I spent some time working out how much of a GitHub Actions registry you could assemble from Homebrew parts.
+In December I went through why [`uses:` is a package manager with no lockfile, no integrity hashes and no transitive visibility](/2025/12/06/github-actions-package-manager.html), and in April through the [run of incidents](/2026/04/28/github-actions-is-the-weakest-link.html) that followed from that. GitHub's [2026 security roadmap](https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/) has since committed to a lockfile, now in preview as [`gh-actions-lock`](https://github.com/github/gh-actions-lock), and made immutable actions the preferred resolution path. Neither of those changes adds any review between an action author tagging a release and the runner executing it. Homebrew has run that kind of curated index for fifteen years and, as of the immutable-actions rollout, stores its artifacts as OCI manifests on ghcr.io alongside the actions themselves, so I spent some time working out how much of a GitHub Actions registry you could assemble from Homebrew parts.
 
 ### Shared storage
 
@@ -44,6 +44,10 @@ For a JavaScript action that ships a built `dist/` in its release tarball, that'
 
 The [transitive problem](/2025/12/06/github-actions-package-manager.html) is specific to composite actions, whose `action.yml` carries its own `uses:` lines that the runner re-resolves at execution time regardless of how the outer action was pinned. In a formula those become `depends_on` entries plus an `inreplace` at build time. For a composite that internally calls `actions/cache@v4`:
 
+<!-- TODO: if $/ inside a locally-loaded composite roots at that composite's own
+     directory (ask actions-dispatch team), the rewrite target becomes
+     "uses: $/../actions-cache" or the dep gets vendored into the tree and
+     referenced as "uses: $/deps/actions-cache". Leaving ./../ until confirmed. -->
 ```ruby
 depends_on "actions-cache"
 
@@ -79,11 +83,15 @@ steps:
 
 This works with the runner as shipped and covers composite transitives because the bottle's `action.yml` was rewritten to relative paths at packaging time. It costs one round-trip to fetch the setup action itself the old way, and `checkout` stays on a plain SHA pin because it runs before the workspace has anything in it to `uses: ./` from.
 
-On self-hosted runners, [`ActionManager.cs`](https://github.com/actions/runner/blob/main/src/Runner.Worker/ActionManager.cs) reads `ACTIONS_RUNNER_ACTION_ARCHIVE_CACHE` and, if `<owner>_<repo>/<resolved-sha>.tar.gz` exists there, skips the download. A `brew bundle` on the runner host could populate that directory from the tap. The cache key is the SHA that GitHub's server-side resolver already returned for the ref, though, so this controls where the bytes for a given SHA come from and not which SHA `@v4` resolves to, which makes it an offline mirror, not a resolution override.
+<!-- TODO: confirm before publish - "this week" from the actions-dispatch team on
+     2026-07-29. README section is live, runner-side enablement date TBC. -->
+The copy-into-workspace step and the `checkout` bootstrap are both consequences of `./` being anchored at `$GITHUB_WORKSPACE`. `gh-actions-lock` is [introducing a `$/` prefix](https://github.com/github/gh-actions-lock#self-repository-actions-) that anchors at the repository containing the defining file, resolved at the running commit. In a workflow `$/` is readable before any step has run, inside a composite it roots at that composite's own tree, and it's also valid for reusable workflows (`uses: $/.github/workflows/foo.yml`), which `./` never supported. `gh-actions-lock` rewrites existing `./` references to `$/` by default and treats the result as inherently pinned, so no lockfile entry is generated for it. Whether `$/` inside a composite that was loaded from a local path roots at that composite's on-disk directory determines whether the setup step above can drop the workspace copy and point straight at `$(brew --prefix)/opt`, and I've asked.
 
-The clean version is a fourth `ActionSourceType` that reads a formula's JSON from `formulae.brew.sh` (or any tap's API endpoint), verifies the bottle attestation, and extracts to `_actions/`. On hosted runners the ref-to-tarball resolution happens in a server-side `ResolveActionsDownloadInfoAsync` call rather than in the open-source runner, so a client-side patch takes effect on self-hosted runners and the compatible forks ([act](https://github.com/nektos/act), [Forgejo's runner](https://code.forgejo.org/forgejo/runner)) without any change to GitHub's backend. The smaller upstream change that would make the first option clean everywhere is for the runner to accept a directory of pre-resolved actions that it doesn't wipe on job start.
+On self-hosted runners, [`ActionManager.cs`](https://github.com/actions/runner/blob/main/src/Runner.Worker/ActionManager.cs) reads `ACTIONS_RUNNER_ACTION_ARCHIVE_CACHE` and, if `<owner>_<repo>/<resolved-sha>.tar.gz` exists there, skips the download. A `brew bundle` on the runner host could populate that directory from the tap. The cache key is the SHA that GitHub's server-side resolver already returned for the ref, though, so this controls where the bytes for a given SHA come from and not which SHA `@v4` resolves to, which makes it an offline mirror rather than a resolution override.
 
-Reusable workflows (`uses: org/repo/.github/workflows/foo.yml@ref`) go through a different loader and can't be `./`-referenced, so they need the runner patch rather than the setup step. Docker actions already resolve through a container registry and get whatever pinning the image reference carries.
+The clean version is a fourth `ActionSourceType` that reads a formula's JSON from `formulae.brew.sh` (or any tap's API endpoint), verifies the bottle attestation, and extracts to `_actions/`. On hosted runners the ref-to-tarball resolution happens in a server-side `ResolveActionsDownloadInfoAsync` call rather than in the open-source runner, so a client-side patch takes effect on self-hosted runners and the compatible forks ([act](https://github.com/nektos/act), [Forgejo's runner](https://code.forgejo.org/forgejo/runner)) without any change to GitHub's backend. `$/` covers the same-repo case, and the remaining upstream change that would make the setup-step option clean is a `$/`-style anchor whose root is a runner-side directory outside any repository.
+
+Reusable workflows referenced across repositories (`uses: org/repo/.github/workflows/foo.yml@ref`) go through a different loader and have no local-path form even with `$/`, so they still need the runner patch rather than the setup step. Docker actions already resolve through a container registry and get whatever pinning the image reference carries.
 
 ### Built in
 
