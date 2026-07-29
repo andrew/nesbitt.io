@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-29T15:56:09Z",
-  "cutoff": "2026-06-29T15:56:01Z",
+  "generated": "2026-07-29T16:46:29Z",
+  "cutoff": "2026-06-29T16:46:24Z",
   "feed_count": 79,
-  "item_count": 213,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.16.4",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.16.4",
+      "published": "2026-07-29T16:36:16Z",
+      "preview": "Release 1.16.4",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "44.1.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.1.0",
+      "published": "2026-07-29T16:33:22Z",
+      "preview": "44.1.0 (2026-07-29) Features presets/monorepo: Add YamlDotNet as monorepo ( #44937 ) ( e3655af ) Miscellaneous Chores deps: update renovate/renovate docker tag to v44 (main) ( #44942 ) ( ba0182f ) Continuous Integration don't allow breaking changes in PR commit messages ( #44944 ) ( 710913e ), closes #44004 #44004 #44939",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pixi-build-ros-v0.7.1",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.7.1",
@@ -316,14 +332,6 @@
       "preview": "29.7.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.0 milestone moby/moby, 29.7.0 milestone New Add an experimental embedded-containerd feature that runs containerd inside the daemon process instead of as a separate managed process. moby/moby#52898 Bug fixes and enhancements Add the default-stop-timeout daemon option to configure the stop timeout assigned to containers without an explicit timeout. moby/moby#53146 containerd image store: Fix daemon-wide concurrent download and upload limits for pulls and pushes not ",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "43.285.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.4",
-      "published": "2026-07-28T05:55:44Z",
-      "preview": "43.285.4 (2026-07-28) Build System deps: update dependency re2 to v1.26.1 (main) ( #44903 ) ( 48399bc )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2026-07-27 Release",
