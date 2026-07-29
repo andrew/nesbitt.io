@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-29T09:17:55Z",
-  "cutoff": "2026-06-29T09:17:51Z",
+  "generated": "2026-07-29T11:08:14Z",
+  "cutoff": "2026-06-29T11:08:09Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -22,10 +22,26 @@
   ],
   "items": [
     {
-      "title": "v12.0.0-beta.0: fix(release): resume pacquet beta publish (#13483)",
+      "title": "44.0.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.0.0",
+      "published": "2026-07-29T10:56:36Z",
+      "preview": "44.0.0 (2026-07-29) ⚠ BREAKING CHANGES managers/pep621: The pixi manager no longer updates pixi.lock automatically. To keep pixi.lock updated, add pixi to the global allowedUnsafeExecutions option. Features managers/pep621: update pixi.lock if present ( #44004 ) ( c3c70b8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "43.288.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.288.0",
+      "published": "2026-07-29T09:39:04Z",
+      "preview": "43.288.0 (2026-07-29) Features exec: support custom stream output writers ( #44910 ) ( 5ff2229 ) manager/pixi: gate pixi.lock updates behind allowedUnsafeExecutions ( #44939 ) ( f60995a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 12 Beta 0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.0",
-      "published": "2026-07-29T08:54:15Z",
-      "preview": "The first pnpm 12 beta release used pnpm 12.0.0-alpha.21 to publish a wrapper whose workspace name is pacquet . That version predates publishConfig.name , so npm trusted publishing was attempted for pacquet instead of pnpm and the root package failed after all native packages had already been published. Use pnpm 11.18.0, the released TypeScript CLI that supports publishConfig.name , for release tooling. Update every pnpm/setup consumer to the revision that can install v11 from GitHub release archives. Make the Rust publishing loop query each effective published name and skip versions already o",
+      "published": "2026-07-29T09:18:36Z",
+      "preview": "Minor Changes The Rust engine now reads four more settings from pnpm-workspace.yaml and PNPM_CONFIG_* , instead of only accepting them as CLI flags: frozenLockfile — pnpm install grows a --no-frozen-lockfile flag so the setting can be overridden in both directions. As in pnpm, it cannot be set in the global config.yaml . savePrefix — the range operator pnpm add saves, still overridable with --save-prefix / --save-exact . savePeer — pnpm add also records the new dependency in peerDependencies . pnpm add --no-save-peer overrides it back off. saveCatalogName — the catalog pnpm add saves into. The",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -338,22 +354,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.3",
       "published": "2026-07-27T21:57:08Z",
       "preview": "43.285.3 (2026-07-27) Build System deps: update dependency p-map to v7.0.6 (main) ( #44893 ) ( 352c728 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.285.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.2",
-      "published": "2026-07-27T20:53:40Z",
-      "preview": "43.285.2 (2026-07-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.8 (main) ( #44892 ) ( dfc9a0a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.285.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.1",
-      "published": "2026-07-27T19:56:34Z",
-      "preview": "43.285.1 (2026-07-27) Bug Fixes gerrit: use max available Code-Review vote value for autoApprove ( #44425 ) ( d83651c ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.11 (main) ( #44891 ) ( 707c440 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
