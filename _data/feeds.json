@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-29T00:53:57Z",
-  "cutoff": "2026-06-29T00:53:53Z",
+  "generated": "2026-07-29T03:27:54Z",
+  "cutoff": "2026-06-29T03:27:50Z",
   "feed_count": 79,
-  "item_count": 212,
+  "item_count": 210,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "43.286.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.286.1",
+      "published": "2026-07-29T02:51:00Z",
+      "preview": "43.286.1 (2026-07-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.78.1 (main) ( #44932 ) ( 648b7a8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "cabal-install-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0",
+      "published": "2026-07-29T02:41:47Z",
+      "preview": "cabal-install-v3.18.1.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "SDK-3.14.0-74.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-74.0.dev",
@@ -132,14 +148,6 @@
       "preview": "43.285.5 (2026-07-28) Bug Fixes datasource/go: resolve sourceUrl from GOPROXY Origin ( #44902 ) ( feeb236 ) Documentation manager: indicate where lockFileMaintenance runs external commands ( #44914 ) ( 5ffc308 ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.5 (main) ( #44906 ) ( 9c1fe2c ) deps: update dependency astral-sh/uv to v0.11.33 (main) ( #44912 ) ( e41e315 ) deps: update dependency oxlint-tsgolint to v0.25.0 (main) ( #44424 ) ( 196101a ) deps: update dependency uv to v0.11.33 (main) ( #44913 ) ( 9c7d468 ) Code Refactoring move checkMinimumReleaseAge to lib/util/mi",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-install-v3.18.1.0-for-release",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0-for-release",
-      "published": "2026-07-28T11:11:59Z",
-      "preview": "cabal-install-v3.18.1.0-for-release",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "0.11.33",
@@ -284,14 +292,6 @@
       "preview": "tagging package snapd version 2.77",
       "source": "Snapd releases",
       "category": "System"
-    },
-    {
-      "title": "43.284.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.284.1",
-      "published": "2026-07-27T14:59:21Z",
-      "preview": "43.284.1 (2026-07-27) Bug Fixes post-upgrade: skip executable detection for directories ( #44884 ) ( 3f46080 ) Miscellaneous Chores vscode: enable TypeScript 7 ( #44883 ) ( 27b4832 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "vfox-v2026.7.20",
@@ -891,14 +891,6 @@
       "published": "2026-07-17T08:44:47Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
       "source": "Swift Package Manager releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-install-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0",
-      "published": "2026-07-17T06:41:55Z",
-      "preview": "cabal-install-v3.18.1.0",
-      "source": "Cabal releases",
       "category": "Registries"
     },
     {
@@ -1708,14 +1700,6 @@
       "preview": "🐛 bug fixes fix: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk in #9374 fix: Fixes global plugin loading by @eed3si9n in #9391 / #9380 fix: Fixes sbt runner support on OpenBSD by @eed3si9n in #9394 fix: Fixes --allow-empty and --sbt-create by @anatoliykmetyuk in #9370 fix: Fixes BSP publishDiagnostics propagation by @anatoliykmetyuk in #9376 fix: Fixes macro expansion for higher-kinded type arguments by @tanishiking in #9377 fix: Fixes IllegalAccessError analyzing Java compiled with --add-exports by @jozanek in sbt/zinc#1714 / sbt/zinc#1729 fix: Fixes increment",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "v2.5.0",
-      "url": "https://github.com/hexpm/hex/releases/tag/v2.5.0",
-      "published": "2026-06-29T02:07:07Z",
-      "preview": "Enhancements Add organization-defined dependency policies that filter the package versions available during dependency resolution. An organization publishes a named policy through its repository, and a project opts into one with the policy config ( HEX_POLICY , [org: \"ORG\", name: \"NAME\"] in the mix.exs :hex block, or mix hex.config ). A policy constrains one or more repositories — typically the organization's own repo and hexpm — and for each can block releases that: carry a security advisory at or above a minimum severity are retired for one of a given set of reasons are newer than a release-",
-      "source": "Hex releases",
-      "category": "Elixir"
     }
   ]
 }
