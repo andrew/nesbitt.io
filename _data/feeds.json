@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-29T15:02:27Z",
-  "cutoff": "2026-06-29T15:02:21Z",
+  "generated": "2026-07-29T15:56:09Z",
+  "cutoff": "2026-06-29T15:56:01Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 213,
   "categories": [
     ".NET",
     "C/C++",
@@ -244,14 +244,6 @@
       "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Updated NUnit to v4 Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Bump js-yaml from 4.1.1 to 4.3.0 in /tools/WinGetLogViewer by @dependabot [bot] in #6359 Fix portable tests impacted by ADO image by @Jo",
       "source": "winget releases",
       "category": "System"
-    },
-    {
-      "title": "4.0.0-rc-6",
-      "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-6",
-      "published": "2026-07-28T22:18:37Z",
-      "preview": "Notes This new release candidate of Maven 4 is released to get feedback from users. Maven 4 has restricted a few things compared to Maven 3, so make sure to run the mvnup tool before trying your project with Maven 4. Issues fixed since RC-5 All known issues reported in the RC-5 release notes have been fixed: Bean configuration bug — field accessibility state was cached globally, causing plugin configuration injection failures. Fixed in #11433 . Concurrency issue in the v4 API — a ConcurrentModificationException was fixed in #11429 . BOM packaging — consumer POM conversion for BOM projects now ",
-      "source": "Maven releases",
-      "category": "Maven"
     },
     {
       "title": "43.286.0",
