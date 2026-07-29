@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-29T03:27:54Z",
-  "cutoff": "2026-06-29T03:27:50Z",
+  "generated": "2026-07-29T05:28:36Z",
+  "cutoff": "2026-06-29T05:28:32Z",
   "feed_count": 79,
-  "item_count": 210,
+  "item_count": 209,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.16",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.16",
+      "published": "2026-07-29T05:00:36Z",
+      "preview": "(bootstrap) consolidate dotfiles commands by @jdx in [ #11436 ](h…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.21",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.21",
+      "published": "2026-07-29T04:57:19Z",
+      "preview": "Release vfox 2026.7.21",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "43.286.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.286.1",
@@ -702,14 +718,6 @@
       "category": "Python"
     },
     {
-      "title": "v2026.7.11: Task Source Tracking and Activation Speedups",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.11",
-      "published": "2026-07-20T21:58:37Z",
-      "preview": "This release sharpens task handling around remote files, global config, and tool selectors, trims redundant work from shell activation, and fixes several bootstrap and platform-specific edge cases. Note This is the first published release since v2026.7.7 — versions 2026.7.8 through 2026.7.10 were tagged but never published due to a release pipeline issue. Their changes are included here; see Also in this release below. Added config: structured tool definitions now accept version , path , prefix , and ref selectors consistently in root [tools] , inline task definitions, task templates, and file",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "1.16.1",
       "url": "https://github.com/pypa/pipx/releases/tag/1.16.1",
       "published": "2026-07-20T21:30:33Z",
@@ -724,14 +732,6 @@
       "preview": "Release Notes Released on 2026-07-20. Python Add CPython 3.15.0b4 ( #20519 ) Preview features Allow uv workspace metadata --sync to target the active virtual environment with --active ( #20500 ) Reuse centralized project environments when workspaces are accessed through symlinks ( #20436 ) Performance Skip resolver candidates whose files are all excluded by exclude-newer ( #20460 ) Limit parallel cache reads to reduce resolver scheduling and allocation overhead ( #20427 ) Accelerate lockfile serialization with toml_writer ( #20450 ) Compact cached Simple API distribution metadata and hashes ( ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "vfox-v2026.7.16",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.16",
-      "published": "2026-07-20T20:36:40Z",
-      "preview": "Release vfox 2026.7.16",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "pnpm 12 Alpha 17",
@@ -1692,14 +1692,6 @@
       "preview": "Feature: Add SPDX expression support in SBOM generation. ( #20112 ) Feature: Add type annotations to LockfileAPI for improved IDE support. ( #20104 ) Feature: Add missing favicon to Conan HTML output. ( #20087 ) Feature: Implement the conf=~ for the \"unset\" operation (alias for conf=! ). ( #20084 ). Docs: 📃 Feature: Add ASFLAGS to AutotoolsToolchain / GnuToolchain , including architecture and sysroot flags. ( #20078 ). Docs: 📃 Feature: Add IntelCC support in Meson, Autotools and Premake toolchains. ( #20075 ). Docs: 📃 Feature: Model explicitly the msys2 environments (clang64, ucrt64, etc) in t",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "2.0.1",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.1",
-      "published": "2026-06-29T03:55:39Z",
-      "preview": "🐛 bug fixes fix: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk in #9374 fix: Fixes global plugin loading by @eed3si9n in #9391 / #9380 fix: Fixes sbt runner support on OpenBSD by @eed3si9n in #9394 fix: Fixes --allow-empty and --sbt-create by @anatoliykmetyuk in #9370 fix: Fixes BSP publishDiagnostics propagation by @anatoliykmetyuk in #9376 fix: Fixes macro expansion for higher-kinded type arguments by @tanishiking in #9377 fix: Fixes IllegalAccessError analyzing Java compiled with --add-exports by @jozanek in sbt/zinc#1714 / sbt/zinc#1729 fix: Fixes increment",
-      "source": "sbt releases",
-      "category": "Maven"
     }
   ]
 }
