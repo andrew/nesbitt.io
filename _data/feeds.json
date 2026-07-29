@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-29T14:00:51Z",
-  "cutoff": "2026-06-29T14:00:46Z",
+  "generated": "2026-07-29T15:02:27Z",
+  "cutoff": "2026-06-29T15:02:21Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pixi-build-ros-v0.7.1",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.7.1",
+      "published": "2026-07-29T14:33:22Z",
+      "preview": "chore: bump backend versions ( #6716 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v0.75.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.75.0",
@@ -1550,14 +1558,6 @@
       "category": "PHP"
     },
     {
-      "title": "pixi-build-rattler-build-v0.4.4",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.4.4",
-      "published": "2026-07-07T11:33:41Z",
-      "preview": "chore: bump backend versions ( #6539 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "pixi-build-ros-v0.6.4",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.6.4",
       "published": "2026-07-07T11:33:41Z",
@@ -1732,14 +1732,6 @@
       "preview": "The Rust team has published a new point release of Rust, 1.96.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.96.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.96.1 Rust 1.96.1 fixes: Missing retries / timeouts in Cargo's HTTP client Miscompilation in a MIR optimization It also fixes three CVEs affecting libssh2 (which is compiled into Cargo): CVE-2025-15661 CVE-2026-5519",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "2.30.0 (29-Jun-2026)",
-      "url": "https://github.com/conan-io/conan/releases/tag/2.30.0",
-      "published": "2026-06-29T14:36:27Z",
-      "preview": "Feature: Add SPDX expression support in SBOM generation. ( #20112 ) Feature: Add type annotations to LockfileAPI for improved IDE support. ( #20104 ) Feature: Add missing favicon to Conan HTML output. ( #20087 ) Feature: Implement the conf=~ for the \"unset\" operation (alias for conf=! ). ( #20084 ). Docs: 📃 Feature: Add ASFLAGS to AutotoolsToolchain / GnuToolchain , including architecture and sysroot flags. ( #20078 ). Docs: 📃 Feature: Add IntelCC support in Meson, Autotools and Premake toolchains. ( #20075 ). Docs: 📃 Feature: Model explicitly the msys2 environments (clang64, ucrt64, etc) in t",
-      "source": "Conan releases",
-      "category": "C/C++"
     }
   ]
 }
