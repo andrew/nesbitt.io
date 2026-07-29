@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-29T07:15:42Z",
-  "cutoff": "2026-06-29T07:15:39Z",
+  "generated": "2026-07-29T08:11:11Z",
+  "cutoff": "2026-06-29T08:11:06Z",
   "feed_count": 79,
-  "item_count": 209,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,102 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2026-07-29",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-07-29",
+      "published": "2026-07-29T07:56:27Z",
+      "preview": "2026-07-29",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-patch/4.0.6",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-patch%2F4.0.6",
+      "published": "2026-07-29T07:56:27Z",
+      "preview": "@yarnpkg/plugin-patch",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-pnp/4.2.1",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnp%2F4.2.1",
+      "published": "2026-07-29T07:56:27Z",
+      "preview": "@yarnpkg/plugin-pnp",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-pnpm/2.3.1",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnpm%2F2.3.1",
+      "published": "2026-07-29T07:56:27Z",
+      "preview": "@yarnpkg/plugin-pnpm",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-stage/4.0.3",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-stage%2F4.0.3",
+      "published": "2026-07-29T07:56:27Z",
+      "preview": "@yarnpkg/plugin-stage",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-typescript/4.1.4",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-typescript%2F4.1.4",
+      "published": "2026-07-29T07:56:27Z",
+      "preview": "@yarnpkg/plugin-typescript",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-version/4.3.0",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-version%2F4.3.0",
+      "published": "2026-07-29T07:56:27Z",
+      "preview": "@yarnpkg/plugin-version",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/plugin-workspace-tools/4.1.8",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-workspace-tools%2F4.1.8",
+      "published": "2026-07-29T07:56:27Z",
+      "preview": "@yarnpkg/plugin-workspace-tools",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/pnpify/4.1.7",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fpnpify%2F4.1.7",
+      "published": "2026-07-29T07:56:27Z",
+      "preview": "@yarnpkg/pnpify",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/sdks/3.3.1",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fsdks%2F3.3.1",
+      "published": "2026-07-29T07:56:27Z",
+      "preview": "@yarnpkg/sdks",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.18.0: chore(release): 11.18.0, pacquet 12.0.0-beta.0 (#13481)",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.18.0",
+      "published": "2026-07-29T07:29:53Z",
+      "preview": "Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.0.0-beta.0: chore(release): 11.18.0, pacquet 12.0.0-beta.0 (#13481)",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.0",
+      "published": "2026-07-29T07:29:53Z",
+      "preview": "Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "43.287.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/43.287.0",
@@ -734,14 +830,6 @@
       "category": "Python"
     },
     {
-      "title": "pnpm 12 Alpha 17",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.17",
-      "published": "2026-07-20T19:57:49Z",
-      "preview": "Minor Changes Added support for alias-less Git dependency adds, preserved locked Git commits during unrelated dependency changes, and reported Git package versions in install logs. pnpm list and pnpm why are now feature complete and behaviorally identical to the TypeScript CLI. pnpm list gained --only-projects , --find-by (finders declared in .pnpmfile.cjs ), search by version range ( pnpm ls \"foo@^2\" ), subtree deduplication with [deduped] markers, peer/skipped annotations, the package-count summary, --long manifest details, resolved tarball URLs and absolute paths in --json / --parseable out",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "6.0.12",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.12",
       "published": "2026-07-20T16:17:48Z",
@@ -780,14 +868,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 12 Alpha 16",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.16",
-      "published": "2026-07-19T22:37:30Z",
-      "preview": "Minor Changes Completed pnpm runtime installation parity for Node.js, Deno, and Bun, including runtime failure policy, target architecture selection, and dependency runtime engines. Runtime failure overrides now preserve explicit runtime dependencies without matching engine entries. Deprecated packages are reported during installation: a directly depended-on deprecated package gets an immediate warning, and deprecated subdependencies are summarized in a single <N> deprecated subdependencies found line. Versions matched by pnpm.allowedDeprecatedVersions are not warned about #11633 . Implemented",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-16-a",
@@ -1356,38 +1436,6 @@
       "preview": "Bugfixes Fixed a bug where Podman Machine VMs on Mac using the libkrun provider could be regularly turned off by a port-scanning process on the host unintentionally commanding the VM to shut down.",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "v4.17.1",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.17.1",
-      "published": "2026-07-08T16:48:56Z",
-      "preview": "What's Changed Handle optional compat patch failures for TypeScript 7 by @hamidrezahanafi in #7190 New Contributors @hamidrezahanafi made their first contribution in #7190 Full Changelog : https://github.com/yarnpkg/berry/compare/@yarnpkg/cli/4.17.0...@yarnpkg/cli/4.17.1",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "2026-07-08",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-07-08",
-      "published": "2026-07-08T16:48:52Z",
-      "preview": "2026-07-08",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-compat/4.0.13",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-compat%2F4.0.13",
-      "published": "2026-07-08T16:48:52Z",
-      "preview": "@yarnpkg/plugin-compat",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-patch/4.0.5",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-patch%2F4.0.5",
-      "published": "2026-07-08T16:48:52Z",
-      "preview": "@yarnpkg/plugin-patch",
-      "source": "Yarn releases",
-      "category": "JavaScript"
     },
     {
       "title": "v2.9.2",
