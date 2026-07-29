@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-28T22:39:37Z",
-  "cutoff": "2026-06-28T22:39:31Z",
+  "generated": "2026-07-29T00:53:57Z",
+  "cutoff": "2026-06-29T00:53:53Z",
   "feed_count": 79,
-  "item_count": 211,
+  "item_count": 212,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-74.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-74.0.dev",
+      "published": "2026-07-29T00:32:26Z",
+      "preview": "SDK 3.14.0-74.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-73.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-73.0.dev",
+      "published": "2026-07-29T00:32:24Z",
+      "preview": "SDK 3.14.0-73.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-72.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-72.0.dev",
+      "published": "2026-07-29T00:32:22Z",
+      "preview": "SDK 3.14.0-72.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-71.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-71.0.dev",
+      "published": "2026-07-29T00:32:19Z",
+      "preview": "SDK 3.14.0-71.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-70.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-70.0.dev",
+      "published": "2026-07-29T00:32:17Z",
+      "preview": "SDK 3.14.0-70.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Windows Package Manager 1.30.80-preview",
+      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.80-preview",
+      "published": "2026-07-29T00:21:04Z",
+      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Updated NUnit to v4 Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Bump js-yaml from 4.1.1 to 4.3.0 in /tools/WinGetLogViewer by @dependabot [bot] in #6359 Fix portable tests impacted by ADO image by @Jo",
+      "source": "winget releases",
+      "category": "System"
+    },
     {
       "title": "4.0.0-rc-6",
       "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-6",
@@ -326,30 +374,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.14.0-64.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-64.0.dev",
-      "published": "2026-07-25T00:36:19Z",
-      "preview": "SDK 3.14.0-64.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-63.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-63.0.dev",
-      "published": "2026-07-25T00:36:17Z",
-      "preview": "SDK 3.14.0-63.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-62.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-62.0.dev",
-      "published": "2026-07-25T00:36:14Z",
-      "preview": "SDK 3.14.0-62.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "v2026.7.13: Multi-binary renaming, cask completions, and go.mod support",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.13",
       "published": "2026-07-24T17:51:54Z",
@@ -404,22 +428,6 @@
       "preview": "Feature: Get Workspace feature out of incubating. ( #20202 ). Docs: 📃 Feature: replace_in_file now supports regex patterns. ( #20194 ). Docs: 📃 Feature: Warn when conan config install is used after conan config install-pkg . ( #20188 ). Docs: 📃 Feature: Support GCC 14.4 and 15.3 in settings.yml . ( #20184 ) Feature: Support intel-cc 2025.2, 2025.3 and 2026.1 in settings.yml . ( #20184 ) Feature: Change the Workspace approach to not process python_requires just to derive name/version . Proposed a new get_ref(folder) method in the conanws.py file to be able to define versions dynamically. ( #201",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "SDK-3.14.0-61.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-61.0.dev",
-      "published": "2026-07-24T00:32:31Z",
-      "preview": "SDK 3.14.0-61.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-60.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-60.0.dev",
-      "published": "2026-07-24T00:32:28Z",
-      "preview": "SDK 3.14.0-60.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "0.11.32",
