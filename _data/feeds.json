@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-29T21:37:15Z",
-  "cutoff": "2026-06-29T21:37:12Z",
+  "generated": "2026-07-29T22:38:11Z",
+  "cutoff": "2026-06-29T22:38:07Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.2.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.2.2",
+      "published": "2026-07-29T21:50:36Z",
+      "preview": "44.2.2 (2026-07-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.78.4 (main) ( #44938 ) ( 6c536e4 ) Documentation next-major: update links to Renovate 44 examples ( #44945 ) ( 1fe48de ) note the accidental release of Renovate 44 ( #44954 ) ( 5067543 ) Miscellaneous Chores deps: update dependency pnpm to v11.16.0 (main) ( #44957 ) ( c80292d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "libnpmpack: v10.0.2",
       "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.2",
@@ -92,6 +100,14 @@
       "preview": "11.19.0 (2026-07-28) Features 7d39aa6 #9698 install-scripts: use install-scripts as the warning log title ( @manzoorwanijk ) Bug Fixes 3529ca2 #9811 pack: honor min-release-age-exclude ( #9811 ) (@github-actions[bot], @martinrrm , @Copilot) 67f12ae #9810 owner: use scoped registry for user lookup ( #9810 ) (@github-actions[bot], @martinrrm , @Copilot) Dependencies workspace : @npmcli/arborist@9.9.1 workspace : libnpmdiff@8.1.12 workspace : libnpmexec@10.3.2 workspace : libnpmfund@7.0.26 workspace : libnpmpack@9.1.12",
       "source": "npm CLI releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "26.2",
+      "url": "https://github.com/pypa/pip/releases/tag/26.2",
+      "published": "2026-07-29T20:56:17Z",
+      "preview": "Release 26.2",
+      "source": "pip releases",
+      "category": "Python"
     },
     {
       "title": "7.10.0.42",
@@ -396,14 +412,6 @@
       "preview": "Release Notes Released on 2026-07-28. Since we released uv 0.11.0 in March, we've accumulated changes that improve correctness, safety, and compatibility with specifications, but could break some workflows. This release contains those changes; many have been marked as breaking out of an abundance of caution. We expect most users to be able to upgrade without making changes. There are no breaking changes to the configuration of the uv build backend . If your [build-system] table includes an upper bound on uv_build , update it to allow uv_build 0.12, e.g., uv_build>=0.11.32,<0.13 . Breaking chan",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "43.285.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.7",
-      "published": "2026-07-28T15:55:48Z",
-      "preview": "43.285.7 (2026-07-28) Bug Fixes packagist: Throw on transient errors ( #44328 ) ( 2a5308b ) Code Refactoring types: make currentVersionTimestamp a Timestamp ( #44917 ) ( 12f5fde )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pixi-build-ros-v0.7.0",
