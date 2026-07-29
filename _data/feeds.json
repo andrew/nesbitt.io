@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-29T16:46:29Z",
-  "cutoff": "2026-06-29T16:46:24Z",
+  "generated": "2026-07-29T17:45:37Z",
+  "cutoff": "2026-06-29T17:45:32Z",
   "feed_count": 79,
   "item_count": 214,
   "categories": [
@@ -22,10 +22,34 @@
   ],
   "items": [
     {
+      "title": "44.2.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.2.1",
+      "published": "2026-07-29T17:16:08Z",
+      "preview": "44.2.1 (2026-07-29) Build System deps: update node.js to v24.18.1 (main) ( #44951 ) ( cb5c6d6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.0.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.0.0",
+      "published": "2026-07-29T17:12:41Z",
+      "preview": "44.0.0 (2026-07-29) Important This release was incorrectly flagged as a major bump. Now it is released, we will - unfortunately - have to continue on the 44.x release train. For more details, see the announcement on GitHub . Features managers/pep621: update pixi.lock if present ( #44004 ) ( c3c70b8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.2.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.2.0",
+      "published": "2026-07-29T16:58:04Z",
+      "preview": "44.2.0 (2026-07-29) Features github-actions: support UpCloudLtd/upcloud-cli-action ver input ( #44947 ) ( fdd3d02 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "1.16.4",
       "url": "https://github.com/pypa/pipx/releases/tag/1.16.4",
-      "published": "2026-07-29T16:36:16Z",
-      "preview": "Release 1.16.4",
+      "published": "2026-07-29T16:56:30Z",
+      "preview": "What's Changed Build Windows zipapp separately by @dukecat0 in #1979 Fix Release Notes project URL by @giri256 in #1981 📝 docs: fix trailing-slash links left by the Sphinx move by @marko1olo in #1986 Prune the logs when PIPX_MAX_LOGS is 0 by @marko1olo in #1988 👷 ci: reject misnamed changelog.d fragments by @gaborbernat in #1989 🐛 fix(zipapp): restore one cross-platform pipx.pyz by @gaborbernat in #1990 New Contributors @giri256 made their first contribution in #1981 Full Changelog : 1.16.3...1.16.4",
       "source": "pipx releases",
       "category": "Python"
     },
@@ -66,14 +90,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.0.1",
       "published": "2026-07-29T12:50:43Z",
       "preview": "44.0.1 (2026-07-29) Code Refactoring manager/pixi: extract shared pixi.lock update helper ( #44941 ) ( 533bc62 ) Build System deps: update dependency p-queue to v9.3.3 (main) ( #44900 ) ( 04b629b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.0.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.0.0",
-      "published": "2026-07-29T12:27:30Z",
-      "preview": "44.0.0 (2026-07-29) Important This release was incorrectly flagged as a major bump. Now it is released, we will - unfortunately - have to continue on the 44.x release train. Features managers/pep621: update pixi.lock if present ( #44004 ) ( c3c70b8 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -300,22 +316,6 @@
       "preview": "chore: bump backend versions ( #6704 )",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.285.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.6",
-      "published": "2026-07-28T12:58:27Z",
-      "preview": "43.285.6 (2026-07-28) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.77.9 (main) ( #44919 ) ( 18c59f8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.285.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.5",
-      "published": "2026-07-28T12:09:29Z",
-      "preview": "43.285.5 (2026-07-28) Bug Fixes datasource/go: resolve sourceUrl from GOPROXY Origin ( #44902 ) ( feeb236 ) Documentation manager: indicate where lockFileMaintenance runs external commands ( #44914 ) ( 5ffc308 ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.5 (main) ( #44906 ) ( 9c1fe2c ) deps: update dependency astral-sh/uv to v0.11.33 (main) ( #44912 ) ( e41e315 ) deps: update dependency oxlint-tsgolint to v0.25.0 (main) ( #44424 ) ( 196101a ) deps: update dependency uv to v0.11.33 (main) ( #44913 ) ( 9c7d468 ) Code Refactoring move checkMinimumReleaseAge to lib/util/mi",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.11.33",
