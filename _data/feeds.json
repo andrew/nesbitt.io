@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-29T19:48:36Z",
-  "cutoff": "2026-06-29T19:48:31Z",
+  "generated": "2026-07-29T21:37:15Z",
+  "cutoff": "2026-06-29T21:37:12Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,78 @@
     "System"
   ],
   "items": [
+    {
+      "title": "libnpmpack: v10.0.2",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.2",
+      "published": "2026-07-29T21:11:51Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.2",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v8.0.2",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.2",
+      "published": "2026-07-29T21:11:50Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.2",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v11.0.2",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.2",
+      "published": "2026-07-29T21:11:49Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.2",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmdiff: v9.0.2",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v9.0.2",
+      "published": "2026-07-29T21:11:48Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.2",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.0.2",
+      "url": "https://github.com/npm/cli/releases/tag/v12.0.2",
+      "published": "2026-07-29T21:11:46Z",
+      "preview": "12.0.2 (2026-07-27) Bug Fixes 834408e #9760 pack: honor min-release-age-exclude ( #9760 ) ( @martinrrm , @Copilot) ef6cfea #9786 owner: use scoped registry for user lookup ( #9786 ) ( @martinrrm , @Copilot) Documentation 9e17dc0 #9805 clarify npm 12 unknown-config breaking change in changelogs ( #9805 ) ( @Hashim1999164 ) Chores 7b1f6c1 #9747 parse pack --json object output in node integration ( #9747 ) ( @reggi , @Copilot) Dependencies workspace : @npmcli/arborist@10.0.2 workspace : @npmcli/config@11.0.1 workspace : libnpmdiff@9.0.2 workspace : libnpmexec@11.0.2 workspace : libnpmfund@8.0.2 w",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmpack: v9.1.12",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.12",
+      "published": "2026-07-29T20:57:35Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.1",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v7.0.26",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.26",
+      "published": "2026-07-29T20:57:34Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.1",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v10.3.2",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v10.3.2",
+      "published": "2026-07-29T20:57:33Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.1",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.19.0",
+      "url": "https://github.com/npm/cli/releases/tag/v11.19.0",
+      "published": "2026-07-29T20:57:30Z",
+      "preview": "11.19.0 (2026-07-28) Features 7d39aa6 #9698 install-scripts: use install-scripts as the warning log title ( @manzoorwanijk ) Bug Fixes 3529ca2 #9811 pack: honor min-release-age-exclude ( #9811 ) (@github-actions[bot], @martinrrm , @Copilot) 67f12ae #9810 owner: use scoped registry for user lookup ( #9810 ) (@github-actions[bot], @martinrrm , @Copilot) Dependencies workspace : @npmcli/arborist@9.9.1 workspace : libnpmdiff@8.1.12 workspace : libnpmexec@10.3.2 workspace : libnpmfund@7.0.26 workspace : libnpmpack@9.1.12",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
     {
       "title": "7.10.0.42",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.42",
@@ -1278,54 +1350,6 @@
       "category": "Containers"
     },
     {
-      "title": "libnpmpack: v10.0.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.1",
-      "published": "2026-07-10T17:18:55Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.1",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmfund: v8.0.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.1",
-      "published": "2026-07-10T17:18:54Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.1",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmexec: v11.0.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.1",
-      "published": "2026-07-10T17:18:53Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.1",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmdiff: v9.0.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v9.0.1",
-      "published": "2026-07-10T17:18:52Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.1",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "arborist: v10.0.1",
-      "url": "https://github.com/npm/cli/releases/tag/arborist-v10.0.1",
-      "published": "2026-07-10T17:18:51Z",
-      "preview": "10.0.1 (2026-07-10) Bug Fixes 47fc8b1 #9740 correct bundled sigstore from dev dependency conflict ( #9740 ) ( @james-pre )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.0.1",
-      "url": "https://github.com/npm/cli/releases/tag/v12.0.1",
-      "published": "2026-07-10T17:18:50Z",
-      "preview": "12.0.1 (2026-07-10) Bug Fixes ecb02a8 #9745 view: avoid wrapping array results ( #9745 ) ( @reggi , @martinrrm , @Copilot) 47fc8b1 #9740 correct bundled sigstore from dev dependency conflict ( #9740 ) ( @james-pre ) Dependencies workspace : @npmcli/arborist@10.0.1 workspace : libnpmdiff@9.0.1 workspace : libnpmexec@11.0.1 workspace : libnpmfund@8.0.1 workspace : libnpmpack@10.0.1",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "Documentation team funding",
       "url": "https://nixos.org/blog/announcements/2026/docs-funding-2026/",
       "published": "2026-07-10T12:00:00Z",
@@ -1422,36 +1446,12 @@
       "category": "Rust"
     },
     {
-      "title": "libnpmversion: v9.0.0",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmversion-v9.0.0",
-      "published": "2026-07-08T21:21:42Z",
-      "preview": "9.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm shrinkwrap is removed, the shrinkwrap config alias is removed, and npm-shrinkwrap.json is no longer loaded or honored at the project root or from inside dependency tarballs. Rename project-root npm-shrinkwrap.json to package-lock.json ; use bundleDependencies if you need to ship a locked dependency tree. npm now supports node ^22.22.2 || ^24.15.0 || >=26.0.0 Features 5b83698 #9737 trigger release process ( #9737 ) ( @reggi )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.0.0",
-      "url": "https://github.com/npm/cli/releases/tag/v12.0.0",
-      "published": "2026-07-08T21:21:30Z",
-      "preview": "12.0.0 (2026-07-08) ⚠️ BREAKING CHANGES npm view --json now always returns an array. npm sbom --sbom-format=cyclonedx now reports the name field from each package's package.json instead of the on-disk directory name. The name , bom-ref , and purl of the root component and of aliased dependencies may change. npm no longer registers man pages with the system when installed globally. man npm-install will no longer work, but npm help install is unaffected. The npm pkg output is no longer forced to json. This means you can get single values without having to worry about wrapping of the values. It a",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v6.0.1",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.1",
       "published": "2026-07-08T20:15:01Z",
       "preview": "Bugfixes Fixed a bug where Podman Machine VMs on Mac using the libkrun provider could be regularly turned off by a port-scanning process on the host unintentionally commanding the VM to shut down. Fixed a bug where the podman machine init command would fail on Windows hosts when using the hyperv provider when WSL was not installed ( #29053 ). Fixed a bug where the podman machine init command would fail on Windows hosts when using the wsl provider when the user was a Hyper-V admin but Hyper-V is disabled ( #29138 ). Fixed a bug where error messages from the OCI runtime were sometimes not displa",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "v12.0.0-pre.3",
-      "url": "https://github.com/npm/cli/releases/tag/v12.0.0-pre.3",
-      "published": "2026-07-08T19:30:54Z",
-      "preview": "12.0.0-pre.3 (2026-07-08) Features fd75880 #9729 warn instead of error on unknown .npmrc configs ( #9729 ) ( @reggi ) 42b12c2 #9697 install-scripts: use install-scripts as the warning log title ( @manzoorwanijk ) Chores 6fefd0e #9733 clarify unknown-config breaking change note in changelog ( #9733 ) ( @reggi , @Copilot) Dependencies workspace : @npmcli/config@11.0.0-pre.3",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "v5.8.5",
