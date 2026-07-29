@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-29T05:28:36Z",
-  "cutoff": "2026-06-29T05:28:32Z",
+  "generated": "2026-07-29T07:15:42Z",
+  "cutoff": "2026-06-29T07:15:39Z",
   "feed_count": 79,
   "item_count": 209,
   "categories": [
@@ -22,10 +22,18 @@
   ],
   "items": [
     {
-      "title": "v2026.7.16",
+      "title": "43.287.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/43.287.0",
+      "published": "2026-07-29T06:56:26Z",
+      "preview": "43.287.0 (2026-07-29) Features copier: convert ssh _src_path to https URL for datasource lookup ( #44552 ) ( 932b7b2 ), closes #44528 Bug Fixes github: include commitTrailers in platform-native commits ( #44918 ) ( d32e38e ) Miscellaneous Chores deps: update dependency lint-staged to v17.1.1 (main) ( #44935 ) ( 736438b ) deps: update dependency oxlint-tsgolint to v7 (main) ( #44907 ) ( 1809104 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.7.16: Task Workspaces, MCP Command Effects, and Dotfiles Cleanup",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.16",
-      "published": "2026-07-29T05:00:36Z",
-      "preview": "(bootstrap) consolidate dotfiles commands by @jdx in [ #11436 ](h…",
+      "published": "2026-07-29T06:23:37Z",
+      "preview": "This release expands the experimental task output cache with per-run controls, a configurable cache directory, and command-derived cache inputs, and lays the groundwork for monorepo-aware task workspaces starting with Node discovery. It also teaches mise mcp to expose each command's read/write/destructive effect to agents, consolidates dotfiles management under mise bootstrap , and lands a broad batch of fixes across brew, npm, tasks, config rewriting, and OCI pushes. Highlights The experimental task output cache gains per-run controls ( --task-cache / MISE_TASK_CACHE ), a configurable task.ca",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -291,14 +299,6 @@
       "published": "2026-07-27T18:25:20Z",
       "preview": "What's Changed Rescue errors in metadata_cascades_for_dep to prevent PR message loss by @yeikel in #14905 Bump sigstore from 4.1.0 to 4.1.1 in /npm_and_yarn/helpers by @dependabot [bot] in #15484 Bump handlebars from 4.7.8 to 4.7.9 in /npm_and_yarn/helpers by @dependabot [bot] in #14547 Bump lodash from 4.17.23 to 4.18.1 in /npm_and_yarn/helpers by @dependabot [bot] in #14605 fix: use canonical LOCKFILE_ENTRY_REGEX in replace-lockfile-declaration.ts by @thavaahariharangit with @Copilot in #15642 Prevent update job crash when a pinned GitHub Actions SHA is missing by @robaiken in #15628 feat(np",
       "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "43.285.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.0",
-      "published": "2026-07-27T16:53:10Z",
-      "preview": "43.285.0 (2026-07-27) Features managers/mise: set depType for tools and task tools ( #44868 ) ( 0ad45c5 )",
-      "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
