@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-29T12:59:44Z",
-  "cutoff": "2026-06-29T12:59:40Z",
+  "generated": "2026-07-29T14:00:51Z",
+  "cutoff": "2026-06-29T14:00:46Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.75.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.75.0",
+      "published": "2026-07-29T13:43:56Z",
+      "preview": "[0.75.0] - 2026-07-29 ✨ Highlights pixi publish now publishes every workspace package that opts in in dependency order. It also refuses to publish anything if a necessary source dependencies didn't opt into being published. [ package ] name = \" cpp_math \" publish = true Offline solves now only consider conda packages you already have, either in the package cache or on a local file:// channel. That means that you can run pixi update --offline and it will resolve with the packages you have local on your machine. Completion is now generated from the CLI itself, so environment, platform, feature, ",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "cabal-install-v3.18.1.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0",
+      "published": "2026-07-29T13:09:20Z",
+      "preview": "No content.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.0.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.0.1",
@@ -172,14 +188,6 @@
       "preview": "43.286.1 (2026-07-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.78.1 (main) ( #44932 ) ( 648b7a8 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-install-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0",
-      "published": "2026-07-29T02:41:47Z",
-      "preview": "cabal-install-v3.18.1.0",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "SDK-3.14.0-74.0.dev",
@@ -1540,14 +1548,6 @@
       "preview": "This is the next post in our supply chain security series, following the supply chain security update and the Composer 2.10 release . Each post in this series covers a specific behavior worth understanding, and a change we are making on top of it. Today: Stable version metadata on Packagist.",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "pixi-build-r-v0.1.5",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-r-v0.1.5",
-      "published": "2026-07-07T11:33:41Z",
-      "preview": "chore: bump backend versions ( #6539 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-rattler-build-v0.4.4",
