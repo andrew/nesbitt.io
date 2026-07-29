@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-29T11:08:14Z",
-  "cutoff": "2026-06-29T11:08:09Z",
+  "generated": "2026-07-29T12:59:44Z",
+  "cutoff": "2026-06-29T12:59:40Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -22,10 +22,18 @@
   ],
   "items": [
     {
+      "title": "44.0.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.0.1",
+      "published": "2026-07-29T12:50:43Z",
+      "preview": "44.0.1 (2026-07-29) Code Refactoring manager/pixi: extract shared pixi.lock update helper ( #44941 ) ( 533bc62 ) Build System deps: update dependency p-queue to v9.3.3 (main) ( #44900 ) ( 04b629b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "44.0.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.0.0",
-      "published": "2026-07-29T10:56:36Z",
-      "preview": "44.0.0 (2026-07-29) ⚠ BREAKING CHANGES managers/pep621: The pixi manager no longer updates pixi.lock automatically. To keep pixi.lock updated, add pixi to the global allowedUnsafeExecutions option. Features managers/pep621: update pixi.lock if present ( #44004 ) ( c3c70b8 )",
+      "published": "2026-07-29T12:27:30Z",
+      "preview": "44.0.0 (2026-07-29) Important This release was incorrectly flagged as a major bump. Now it is released, we will - unfortunately - have to continue on the 44.x release train. Features managers/pep621: update pixi.lock if present ( #44004 ) ( c3c70b8 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -348,14 +356,6 @@
       "preview": "SDK 3.14.0-66.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "43.285.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.285.3",
-      "published": "2026-07-27T21:57:08Z",
-      "preview": "43.285.3 (2026-07-27) Build System deps: update dependency p-map to v7.0.6 (main) ( #44893 ) ( 352c728 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.0.0-beta.19",
