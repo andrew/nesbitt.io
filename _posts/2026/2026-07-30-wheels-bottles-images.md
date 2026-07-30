@@ -7,6 +7,7 @@ tags:
   - package-managers
   - oci
   - registries
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mruimtcnjj25"
 ---
 
 In February Simon Willison [packaged a Go CLI as Python wheels](https://simonwillison.net/2026/Feb/4/distributing-go-binaries/), one wheel per platform with the compiled binary inside, so `pip install sqlite-scanner` fetches a program containing no Python. His build tool [maps each Go target to a wheel tag](/2026/02/17/platform-strings.html) on the way through: `darwin/arm64` to `macosx_11_0_arm64`, `linux/amd64` to `manylinux_2_17_x86_64`. PyPI accepted the uploads and pip picked the right platforms, and [the thread that followed](https://discuss.python.org/t/use-of-pypi-as-a-generic-storage-platform-for-binaries/106044) was about whether PyPI should store binaries that serve no Python purpose.
