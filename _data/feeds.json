@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-30T21:44:07Z",
-  "cutoff": "2026-06-30T21:44:04Z",
+  "generated": "2026-07-30T22:41:05Z",
+  "cutoff": "2026-06-30T22:41:01Z",
   "feed_count": 79,
   "item_count": 218,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.18: Monorepo task ergonomics and a broad round of fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.18",
+      "published": "2026-07-30T22:11:04Z",
+      "preview": "This release refines mise's experimental monorepo task workflow with relative dependency paths and a compact dependency tree view, and lands a wide batch of fixes across Cargo installs, plugins, PATH handling, Windows program resolution, Aqua locks, GitLab pagination, and more. Added task: mise tasks deps gains a --compact flag that expands each shared dependency subtree only once and marks later references as (already shown) , keeping every incoming edge visible while avoiding the recursive blow-up that wildcard-heavy monorepo graphs produced. Default output is unchanged unless you pass the f",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.4.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.3",
+      "published": "2026-07-30T21:54:50Z",
+      "preview": "44.4.3 (2026-07-30) Build System deps: update dependency @renovatebot/osv-offline to v3.0.10 (main) ( #44980 ) ( dfcc47a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v29.7.0",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.0",
@@ -52,14 +68,6 @@
       "preview": "a hack for https://cabal.readthedocs.io/en/stable/",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.7.18",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.18",
-      "published": "2026-07-30T20:09:38Z",
-      "preview": "(task) support relative monorepo dependency paths by @jdx in [#…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.7.23",
@@ -340,14 +348,6 @@
       "preview": "10.9.9 (2026-07-28) Dependencies 5e9f451 #9814 tar@7.5.22 ( #9814 ) ( @martinrrm , @Copilot) Chores 189ba13 #9319 add cli-triage team as codeowner ( #9319 ) (@github-actions[bot], Michael Smith)",
       "source": "npm CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.2.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.2.1",
-      "published": "2026-07-29T17:16:08Z",
-      "preview": "44.2.1 (2026-07-29) Build System deps: update node.js to v24.18.1 (main) ( #44951 ) ( cb5c6d6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.16.4",
