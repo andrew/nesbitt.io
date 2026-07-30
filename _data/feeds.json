@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-30T20:43:42Z",
-  "cutoff": "2026-06-30T20:43:36Z",
+  "generated": "2026-07-30T21:44:07Z",
+  "cutoff": "2026-06-30T21:44:04Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.7.0",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.0",
+      "published": "2026-07-30T21:38:11Z",
+      "preview": "29.7.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.0 milestone moby/moby, 29.7.0 milestone New Add an experimental embedded-containerd feature that runs containerd inside the daemon process instead of as a separate managed process. moby/moby#52898 Mount type image is no longer experimental. moby/moby#52998 Add the default-stop-timeout daemon option to configure the stop timeout assigned to containers without an explicit timeout. moby/moby#53146 Security This release includes a fix for a security vulnerability affecting",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.0.0-beta.20",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.20",
+      "published": "2026-07-30T21:35:27Z",
+      "preview": "v2.0.0-beta.20",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "3.3.2",
+      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.2",
+      "published": "2026-07-30T20:46:13Z",
+      "preview": "apt Debian release 3.3.2",
+      "source": "APT releases",
+      "category": "System"
+    },
     {
       "title": "3.18.0+0",
       "url": "https://github.com/haskell/cabal/releases/tag/3.18.0%2B0",
