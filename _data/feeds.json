@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-30T14:00:17Z",
-  "cutoff": "2026-06-30T14:00:05Z",
+  "generated": "2026-07-30T15:02:00Z",
+  "cutoff": "2026-06-30T15:01:55Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -68,14 +68,6 @@
       "preview": "Deployment at 2026-07-30T08:55:08.002317Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "4.0.0-rc-6",
-      "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-6",
-      "published": "2026-07-30T06:24:45Z",
-      "preview": "Notes This new release candidate of Maven 4 is released to get feedback from users. Maven 4 has restricted a few things compared to Maven 3, so make sure to run the mvnup tool before trying your project with Maven 4. Issues fixed since RC-5 All known issues reported in the RC-5 release notes have been fixed: Bean configuration bug — field accessibility state was cached globally, causing plugin configuration injection failures. Fixed in #11433 . Concurrency issue in the v4 API — a ConcurrentModificationException was fixed in #11429 . BOM packaging — consumer POM conversion for BOM projects now ",
-      "source": "Maven releases",
-      "category": "Maven"
     },
     {
       "title": "44.2.3",
@@ -1740,14 +1732,6 @@
       "preview": "What's Changed Bazel: Fix prerelease filtering with same-release-line scoping by @v-HaripriyaC in #15332 Respect cooldown for Docker digest updates and suppress multi-arch no-ops by @robaiken in #15354 Bypass npmrc min-release-age for transitive npm security updates by @robaiken in #15386 Ratchet the Sorbet T.untyped burndown by @JamieMagee in #15399 feat(docker): implement single-platform image detection and optimize manifest fetching logic by @jpinz in #15390 Fix private registry config not found error not being raised issue in npm_and_yarn by @AbhishekBhaskar in #15394 don't fail if nuget c",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "0.11.26",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.26",
-      "published": "2026-06-30T14:53:17Z",
-      "preview": "Release Notes Released on 2026-06-30. Performance Adapt uv to IDs-only PubGrub dependencies ( #20048 ) Avoid allocations in ForkMap::contains ( #20023 ) Reuse resolver work across PubGrub iterations ( #20020 ) Speed up candidate selection for disjoint ranges ( #20026 ) Bug fixes Warn when the build cache is inside the source directory ( #20056 ) Install uv 0.11.26 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.26/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -Execut",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
