@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-30T05:19:54Z",
-  "cutoff": "2026-06-30T05:19:50Z",
+  "generated": "2026-07-30T07:13:58Z",
+  "cutoff": "2026-06-30T07:13:54Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "4.0.0-rc-6",
+      "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-6",
+      "published": "2026-07-30T06:24:45Z",
+      "preview": "Notes This new release candidate of Maven 4 is released to get feedback from users. Maven 4 has restricted a few things compared to Maven 3, so make sure to run the mvnup tool before trying your project with Maven 4. Issues fixed since RC-5 All known issues reported in the RC-5 release notes have been fixed: Bean configuration bug — field accessibility state was cached globally, causing plugin configuration injection failures. Fixed in #11433 . Concurrency issue in the v4 API — a ConcurrentModificationException was fixed in #11429 . BOM packaging — consumer POM conversion for BOM projects now ",
+      "source": "Maven releases",
+      "category": "Maven"
+    },
     {
       "title": "44.2.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.2.3",
