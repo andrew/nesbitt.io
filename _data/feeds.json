@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-30T18:49:50Z",
-  "cutoff": "2026-06-30T18:49:46Z",
+  "generated": "2026-07-30T19:52:13Z",
+  "cutoff": "2026-06-30T19:52:08Z",
   "feed_count": 79,
   "item_count": 214,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.4.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.1",
+      "published": "2026-07-30T19:02:31Z",
+      "preview": "44.4.1 (2026-07-30) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.13 (main) ( #44972 ) ( 2c786a2 ) deps: update dependency pnpm to v11.17.0 (main) ( #44973 ) ( 9f453df ) deps: update dependency tsdown to v0.22.14 (main) ( #44975 ) ( 7a05b9a ) Build System deps: update opentelemetry-js-contrib monorepo (main) ( #44976 ) ( 8e1603a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 12 Beta 1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.1",
@@ -300,14 +308,6 @@
       "preview": "What's Changed Build Windows zipapp separately by @dukecat0 in #1979 Fix Release Notes project URL by @giri256 in #1981 📝 docs: fix trailing-slash links left by the Sphinx move by @marko1olo in #1986 Prune the logs when PIPX_MAX_LOGS is 0 by @marko1olo in #1988 👷 ci: reject misnamed changelog.d fragments by @gaborbernat in #1989 🐛 fix(zipapp): restore one cross-platform pipx.pyz by @gaborbernat in #1990 New Contributors @giri256 made their first contribution in #1981 Full Changelog : 1.16.3...1.16.4",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "44.1.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.1.0",
-      "published": "2026-07-29T16:33:22Z",
-      "preview": "44.1.0 (2026-07-29) Features presets/monorepo: Add YamlDotNet as monorepo ( #44937 ) ( e3655af ) Miscellaneous Chores deps: update renovate/renovate docker tag to v44 (main) ( #44942 ) ( ba0182f ) Continuous Integration don't allow breaking changes in PR commit messages ( #44944 ) ( 710913e ), closes #44004 #44004 #44939",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pixi-build-ros-v0.7.1",
