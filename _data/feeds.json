@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-30T09:14:28Z",
-  "cutoff": "2026-06-30T09:14:23Z",
+  "generated": "2026-07-30T11:58:00Z",
+  "cutoff": "2026-06-30T11:57:57Z",
   "feed_count": 79,
   "item_count": 216,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.3.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.3.0",
+      "published": "2026-07-30T11:14:34Z",
+      "preview": "44.3.0 (2026-07-30) Features pre-commit: support forgejo-tags datasource ( #44923 ) ( c526a26 ) Miscellaneous Chores deps: update dependency lint-staged to v17.2.0 (main) ( #44962 ) ( 54609b4 ) deps: update github/codeql-action action to v4.37.4 (main) ( #44961 ) ( 3ea610a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "20260730t085500-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260730t085500-all",
@@ -420,14 +428,6 @@
       "preview": "Release vfox 2026.7.21",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "43.286.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.286.1",
-      "published": "2026-07-29T02:51:00Z",
-      "preview": "43.286.1 (2026-07-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.78.1 (main) ( #44932 ) ( 648b7a8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-74.0.dev",
