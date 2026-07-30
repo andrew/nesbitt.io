@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-30T00:50:58Z",
-  "cutoff": "2026-06-30T00:50:54Z",
+  "generated": "2026-07-30T02:00:42Z",
+  "cutoff": "2026-06-30T02:00:38Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v2026.7.17",
+      "title": "v2026.7.17: Monorepo Task Inference and Root Defaults",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.17",
-      "published": "2026-07-30T00:39:31Z",
-      "preview": "(config) allow disabling individual idiomatic version files by …",
+      "published": "2026-07-30T01:58:40Z",
+      "preview": "This release builds out mise's experimental monorepo task story: Node workspaces now infer project dependency graphs, import package scripts as first-class tasks, and can share configuration through root task defaults and upstream ( ^task ) dependencies. It also adds per-tool control over idiomatic version files, a smoother dotfiles workflow, and a batch of fixes across shell activation, hook-env, Homebrew casks, Aqua, and Python uv environments. Highlights Node monorepo workspaces gain end-to-end task support: inferred project dependency edges, imported package.json scripts as node:<package>#",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -1732,14 +1732,6 @@
       "preview": "0.97.2 release",
       "source": "Cargo releases",
       "category": "Rust"
-    },
-    {
-      "title": "6.0.6",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.6",
-      "published": "2026-06-30T01:17:41Z",
-      "preview": "What's Changed Flag scoped service path helpers by @MikeMcQuaid in #22858 linkage_checker: always report incorrect :no_linkage by @cho-m in #22887 Cleanup brew-rs leftovers by @botantony in #22895 Add shared Utils::Path.ensure_child_of! containment helper by @p-linnane in #22890 test: add :needs_daemon_manager to some tests by @cho-m in #22905 test/cmd/update_spec: fix local test run failures by @cho-m in #22906 Resolve patch targets via patch --dry-run for containment by @p-linnane in #22908 Revalidate tap restrictions for git redirects by @p-linnane in #22909 Full Changelog : 6.0.5...6.0.6",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
