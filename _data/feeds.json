@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-30T15:57:30Z",
-  "cutoff": "2026-06-30T15:57:22Z",
+  "generated": "2026-07-30T16:50:49Z",
+  "cutoff": "2026-06-30T16:50:45Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,10 +22,18 @@
   ],
   "items": [
     {
-      "title": "maven-4.0.0-rc-6",
+      "title": "44.4.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.0",
+      "published": "2026-07-30T16:30:35Z",
+      "preview": "44.4.0 (2026-07-30) Features templates: always expose renovateVersion ( #44969 ) ( 69a6290 ), closes #44756 Bug Fixes util/markdown: undo zero-width space chars when used inside codeblocks ( #44933 ) ( 14c81bb ) workers/repository: apply minimumReleaseAge to pinDigest updates ( #44968 ) ( 33f5139 ), closes #44820 Documentation contributing: clarify the \"don't merge main \" ( #44963 ) ( 9d41668 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.12 (main) ( #44929 ) ( d422e51 ) util/exec: fix typo ( #44946 ) ( 29243d0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Maven 4.0.0-rc-6",
       "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-6",
-      "published": "2026-07-30T15:06:00Z",
-      "preview": "[maven-release-plugin] prepare release maven-4.0.0-rc-6",
+      "published": "2026-07-30T16:29:31Z",
+      "preview": "Notes This new release candidate of Maven 4 is released to get feedback from users. Maven 4 has restricted a few things compared to Maven 3, so make sure to run the mvnup tool before trying your project with Maven 4. Issues fixed since RC-5 All known issues reported in the RC-5 release notes have been fixed: Bean configuration bug — field accessibility state was cached globally, causing plugin configuration injection failures. Fixed in #11433 . Concurrency issue in the v4 API — a ConcurrentModificationException was fixed in #11429 . BOM packaging — consumer POM conversion for BOM projects now ",
       "source": "Maven releases",
       "category": "Maven"
     },
@@ -316,14 +324,6 @@
       "preview": "No content.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.0.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.0.1",
-      "published": "2026-07-29T12:50:43Z",
-      "preview": "44.0.1 (2026-07-29) Code Refactoring manager/pixi: extract shared pixi.lock update helper ( #44941 ) ( 533bc62 ) Build System deps: update dependency p-queue to v9.3.3 (main) ( #44900 ) ( 04b629b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12 Beta 0",
@@ -1732,14 +1732,6 @@
       "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 ) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx ) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 ) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Fixed GitHub token validation to be even more relaxed ( #12856 ) Full Changelog : 2.2.28...2.2.29",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "v0.384.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.384.0",
-      "published": "2026-06-30T16:05:23Z",
-      "preview": "What's Changed Bazel: Fix prerelease filtering with same-release-line scoping by @v-HaripriyaC in #15332 Respect cooldown for Docker digest updates and suppress multi-arch no-ops by @robaiken in #15354 Bypass npmrc min-release-age for transitive npm security updates by @robaiken in #15386 Ratchet the Sorbet T.untyped burndown by @JamieMagee in #15399 feat(docker): implement single-platform image detection and optimize manifest fetching logic by @jpinz in #15390 Fix private registry config not found error not being raised issue in npm_and_yarn by @AbhishekBhaskar in #15394 don't fail if nuget c",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
