@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-30T19:52:13Z",
-  "cutoff": "2026-06-30T19:52:08Z",
+  "generated": "2026-07-30T20:43:42Z",
+  "cutoff": "2026-06-30T20:43:36Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "3.18.0+0",
+      "url": "https://github.com/haskell/cabal/releases/tag/3.18.0%2B0",
+      "published": "2026-07-30T20:39:12Z",
+      "preview": "a hack for https://cabal.readthedocs.io/en/stable/",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2026.7.18",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.18",
+      "published": "2026-07-30T20:09:38Z",
+      "preview": "(task) support relative monorepo dependency paths by @jdx in [#…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.23",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.23",
+      "published": "2026-07-30T20:06:28Z",
+      "preview": "Release vfox 2026.7.23",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.4.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.2",
+      "published": "2026-07-30T19:56:32Z",
+      "preview": "44.4.2 (2026-07-30) Build System deps: update dependency @opentelemetry/instrumentation-bunyan to v0.66.0 (main) ( #44977 ) ( e2dc290 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.4.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.1",
@@ -290,14 +322,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.2.1",
       "published": "2026-07-29T17:16:08Z",
       "preview": "44.2.1 (2026-07-29) Build System deps: update node.js to v24.18.1 (main) ( #44951 ) ( cb5c6d6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.2.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.2.0",
-      "published": "2026-07-29T16:58:04Z",
-      "preview": "44.2.0 (2026-07-29) Features github-actions: support UpCloudLtd/upcloud-cli-action ver input ( #44947 ) ( fdd3d02 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -614,14 +638,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "v2026.7.14: Multi-asset GitHub installs, safer defaults, and Windows pip",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.14",
-      "published": "2026-07-27T00:16:44Z",
-      "preview": "This release adds overlay installs for GitHub-based tools, closes a config-trust security gap around default shell arguments, and lands a wide batch of correctness fixes across tasks, lockfiles, npm, Swift, brew casks, and Windows Python. Added github: the GitHub/GitLab/Forgejo release backend now accepts additional_asset_patterns , so a single install can overlay multiple release archives from the same tag into one installation directory. Each supplemental artifact is locked and verified (checksums and provenance) on its own, and --locked fails if the recorded set no longer matches. This mode",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "1.16.3",
       "url": "https://github.com/pypa/pipx/releases/tag/1.16.3",
       "published": "2026-07-27T00:10:10Z",
@@ -660,14 +676,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "vfox-v2026.7.18",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.18",
-      "published": "2026-07-24T15:09:09Z",
-      "preview": "Release vfox 2026.7.18",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "pnpm 12 Alpha 21",
