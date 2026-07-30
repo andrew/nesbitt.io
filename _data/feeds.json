@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-30T11:58:00Z",
-  "cutoff": "2026-06-30T11:57:57Z",
+  "generated": "2026-07-30T12:53:26Z",
+  "cutoff": "2026-06-30T12:53:22Z",
   "feed_count": 79,
   "item_count": 216,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.3.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.3.2",
+      "published": "2026-07-30T12:50:26Z",
+      "preview": "44.3.2 (2026-07-30) Bug Fixes manager/mise: use semver versioning for cargo backend crates ( #44966 ) ( 97fcec1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.3.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.3.1",
+      "published": "2026-07-30T12:32:47Z",
+      "preview": "44.3.1 (2026-07-30) Bug Fixes config-validator: warn when RE2 is not in use ( #44894 ) ( 11a217e ) workers/repository: apply minimumReleaseAge to digest updates ( #44965 ) ( 1247df7 ) Miscellaneous Chores config: be explicit about Renovate CLI in prFooter ( #44949 ) ( 10da664 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Announcing the Composer & Packagist Sponsorship Program",
+      "url": "https://blog.packagist.com/announcing-the-composer-packagist-sponsorship-program/",
+      "published": "2026-07-30T12:15:40Z",
+      "preview": "Today we are launching a formal sponsorship program for Composer and Packagist.org, together with new public sponsor pages on packagist.org/sponsor and getcomposer.org/sponsor . We want to start by thanking the companies who are on board at launch: Private Packagist , Aikido , AWS , Socket , Bunny , Upsun , Sonatype , Tideways",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
     {
       "title": "44.3.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.3.0",
@@ -302,14 +326,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "43.288.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.288.0",
-      "published": "2026-07-29T09:39:04Z",
-      "preview": "43.288.0 (2026-07-29) Features exec: support custom stream output writers ( #44910 ) ( 5ff2229 ) manager/pixi: gate pixi.lock updates behind allowedUnsafeExecutions ( #44939 ) ( f60995a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "pnpm 12 Beta 0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.0",
       "published": "2026-07-29T09:18:36Z",
@@ -404,14 +420,6 @@
       "preview": "@yarnpkg/sdks",
       "source": "Yarn releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "43.287.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/43.287.0",
-      "published": "2026-07-29T06:56:26Z",
-      "preview": "43.287.0 (2026-07-29) Features copier: convert ssh _src_path to https URL for datasource lookup ( #44552 ) ( 932b7b2 ), closes #44528 Bug Fixes github: include commitTrailers in platform-native commits ( #44918 ) ( d32e38e ) Miscellaneous Chores deps: update dependency lint-staged to v17.1.1 (main) ( #44935 ) ( 736438b ) deps: update dependency oxlint-tsgolint to v7 (main) ( #44907 ) ( 1809104 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.7.16: Task Workspaces, MCP Command Effects, and Dotfiles Cleanup",
@@ -1740,14 +1748,6 @@
       "preview": "Release Notes Released on 2026-06-30. Performance Adapt uv to IDs-only PubGrub dependencies ( #20048 ) Avoid allocations in ForkMap::contains ( #20023 ) Reuse resolver work across PubGrub iterations ( #20020 ) Speed up candidate selection for disjoint ranges ( #20026 ) Bug fixes Warn when the build cache is inside the source directory ( #20056 ) Install uv 0.11.26 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.11.26/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -Execut",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "0.97.2",
-      "url": "https://github.com/rust-lang/cargo/releases/tag/0.97.2",
-      "published": "2026-06-30T12:18:57Z",
-      "preview": "0.97.2 release",
-      "source": "Cargo releases",
-      "category": "Rust"
     }
   ]
 }
