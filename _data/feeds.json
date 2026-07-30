@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-29T22:38:11Z",
-  "cutoff": "2026-06-29T22:38:07Z",
+  "generated": "2026-07-30T00:50:58Z",
+  "cutoff": "2026-06-30T00:50:54Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,70 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.7.17",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.17",
+      "published": "2026-07-30T00:39:31Z",
+      "preview": "(config) allow disabling individual idiomatic version files by …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.7.4",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.7.4",
+      "published": "2026-07-30T00:36:48Z",
+      "preview": "Release aqua-registry 2026.7.4",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.7.22",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.22",
+      "published": "2026-07-30T00:36:26Z",
+      "preview": "Release vfox 2026.7.22",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "SDK-3.14.0-78.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-78.0.dev",
+      "published": "2026-07-30T00:32:38Z",
+      "preview": "SDK 3.14.0-78.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-77.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-77.0.dev",
+      "published": "2026-07-30T00:32:36Z",
+      "preview": "SDK 3.14.0-77.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-76.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-76.0.dev",
+      "published": "2026-07-30T00:32:34Z",
+      "preview": "SDK 3.14.0-76.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-75.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-75.0.dev",
+      "published": "2026-07-30T00:32:32Z",
+      "preview": "SDK 3.14.0-75.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-07-30T00:24:29Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.2.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.2.2",
@@ -398,14 +462,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-28T19:18:14Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
       "title": "0.12.0",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.0",
       "published": "2026-07-28T19:15:56Z",
@@ -450,30 +506,6 @@
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-69.0.dev",
       "published": "2026-07-28T00:38:17Z",
       "preview": "SDK 3.14.0-69.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-68.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-68.0.dev",
-      "published": "2026-07-28T00:38:15Z",
-      "preview": "SDK 3.14.0-68.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-67.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-67.0.dev",
-      "published": "2026-07-28T00:38:12Z",
-      "preview": "SDK 3.14.0-67.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-66.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-66.0.dev",
-      "published": "2026-07-28T00:38:10Z",
-      "preview": "SDK 3.14.0-66.0.dev",
       "source": "Pub releases",
       "category": "Registries"
     },
@@ -598,22 +630,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.14.0-65.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-65.0.dev",
-      "published": "2026-07-25T00:36:22Z",
-      "preview": "SDK 3.14.0-65.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "v2026.7.13: Multi-binary renaming, cask completions, and go.mod support",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.13",
-      "published": "2026-07-24T17:51:54Z",
-      "preview": "This release expands archive backends to rename multiple binaries from a single release, adds Homebrew cask shell completions and go.mod version-file support, and fixes a broad batch of task, install, lockfile, and language-plugin correctness issues. Added backend: rename_exe now accepts a table mapping source patterns to target names, so an archive that ships several executables can expose all of them cleanly on PATH instead of only one. The existing string form is unchanged. ( #11231 by @jdx ) [ tools . \"github:DanielGavin/ols\" ] version = \" latest \" rename_exe = { \"ols-*\" = \" ols \" , \"odinf",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.7.18",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.18",
       "published": "2026-07-24T15:09:09Z",
@@ -734,14 +750,6 @@
       "category": ".NET"
     },
     {
-      "title": "v2026.7.12: Safe mode, node-free npm, and a built-in OCI push client",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.12",
-      "published": "2026-07-23T01:54:21Z",
-      "preview": "This release centers on running mise safely against untrusted config, shipping node-free npm: version resolution and installs, and replacing external tools (skopeo/crane, gpg) with built-in, dependency-free implementations. Along the way it fixes a prefer_offline timeout regression, several config/env correctness issues, and platform-specific problems on Windows and macOS. Highlights New MISE_SAFE=1 mode turns mise into an inert config reader so automation (CI, Renovate) can run mise lock --bump against untrusted branches without trust prompts or arbitrary code execution. The npm: backend no l",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "Windows Package Manager 1.30.70-preview",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.70-preview",
       "published": "2026-07-22T22:34:52Z",
@@ -772,14 +780,6 @@
       "preview": "Minor Changes The first release of a package now publishes the version written in its manifest verbatim, instead of bumping off it. pnpm version -r and pnpm change status check the registry for each release's current version; when that version is not yet published, the package debuts at it and its pending changesets apply only from the next release. A newly added package seeded at 1100.0.0 with a minor changeset is therefore published as 1100.0.0 rather than skipping straight to 1100.1.0 . pnpm version now supports the npm-style bump forms: pnpm version <major|minor|patch|premajor|preminor|pre",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "vfox-v2026.7.17",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.17",
-      "published": "2026-07-22T19:58:20Z",
-      "preview": "Release vfox 2026.7.17",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v0.388.0",
@@ -1740,14 +1740,6 @@
       "preview": "What's Changed Flag scoped service path helpers by @MikeMcQuaid in #22858 linkage_checker: always report incorrect :no_linkage by @cho-m in #22887 Cleanup brew-rs leftovers by @botantony in #22895 Add shared Utils::Path.ensure_child_of! containment helper by @p-linnane in #22890 test: add :needs_daemon_manager to some tests by @cho-m in #22905 test/cmd/update_spec: fix local test run failures by @cho-m in #22906 Resolve patch targets via patch --dry-run for containment by @p-linnane in #22908 Revalidate tap restrictions for git redirects by @p-linnane in #22909 Full Changelog : 6.0.5...6.0.6",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "Announcing Rust 1.96.1",
-      "url": "https://blog.rust-lang.org/2026/06/30/Rust-1.96.1/",
-      "published": "2026-06-30T00:00:00Z",
-      "preview": "The Rust team has published a new point release of Rust, 1.96.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.96.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.96.1 Rust 1.96.1 fixes: Missing retries / timeouts in Cargo's HTTP client Miscompilation in a MIR optimization It also fixes three CVEs affecting libssh2 (which is compiled into Cargo): CVE-2025-15661 CVE-2026-5519",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
