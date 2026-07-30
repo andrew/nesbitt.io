@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-30T16:50:49Z",
-  "cutoff": "2026-06-30T16:50:45Z",
+  "generated": "2026-07-30T18:49:50Z",
+  "cutoff": "2026-06-30T18:49:46Z",
   "feed_count": 79,
   "item_count": 214,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12 Beta 1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.1",
+      "published": "2026-07-30T18:42:38Z",
+      "preview": "Minor Changes Made peer resolution significantly faster in large multi-importer workspaces (a 114-importer workspace's resolution dropped from ~77s to ~36s): importers whose hoist rounds converged no longer re-walk their dependency forest every round, later rounds walk only newly added direct dependencies, ownership handovers with an unchanged peer context no longer invalidate shared walk caches, and the resolver's internal hash maps use a faster hash. Peer dependencies provided by multiple candidate versions may resolve to a different (still range-valid) provider than before, which can shift ",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.4.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.0",
@@ -788,14 +796,6 @@
       "preview": "A CDN caching bug on RubyGems.org could hand one account’s API key to another person for up to an hour. If you signed in to RubyGems.org with a gem client older than v3.2.0, your key could have been exposed (the technical details are below). Currently, 18% of sign-ins through gem signin come from an affected version, and for the first several years of this bug, before we changed the client’s sign-in path in December 2020, it was every gem client. We’ve reviewed the access logs we keep and found no sign of a legacy key being used maliciously, and no user or support report has suggested otherwis",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "pnpm 11.16",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.16.0",
-      "published": "2026-07-22T20:36:06Z",
-      "preview": "Minor Changes The first release of a package now publishes the version written in its manifest verbatim, instead of bumping off it. pnpm version -r and pnpm change status check the registry for each release's current version; when that version is not yet published, the package debuts at it and its pending changesets apply only from the next release. A newly added package seeded at 1100.0.0 with a minor changeset is therefore published as 1100.0.0 rather than skipping straight to 1100.1.0 . Added a --changeset flag to pnpm update . Set update.changeset to true in pnpm-workspace.yaml to enable t",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 12 Alpha 18",
