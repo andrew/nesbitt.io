@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-31T16:54:22Z",
-  "cutoff": "2026-07-01T16:54:17Z",
+  "generated": "2026-07-31T17:52:04Z",
+  "cutoff": "2026-07-01T17:52:00Z",
   "feed_count": 79,
-  "item_count": 221,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.7.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.1",
+      "published": "2026-07-31T17:36:24Z",
+      "preview": "29.7.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.1 milestone moby/moby, 29.7.1 milestone Bug fixes and enhancements Fix a regression that prevented pulling images whose layers contain directories without explicit parent directory entries. moby/moby#53260 Fix a regression where the CopyToContainer rejects container paths that traverse absolute symlinks, such as /var/run -> /run . moby/moby#53261",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.0.0-beta.21",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.21",
+      "published": "2026-07-31T17:05:38Z",
+      "preview": "v2.0.0-beta.21",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "3.18.0+1",
       "url": "https://github.com/haskell/cabal/releases/tag/3.18.0%2B1",
