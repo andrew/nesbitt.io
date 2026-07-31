@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-31T14:00:19Z",
-  "cutoff": "2026-07-01T14:00:14Z",
+  "generated": "2026-07-31T16:00:16Z",
+  "cutoff": "2026-07-01T16:00:12Z",
   "feed_count": 79,
-  "item_count": 220,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,20 +22,36 @@
   ],
   "items": [
     {
+      "title": "3.18.0+1",
+      "url": "https://github.com/haskell/cabal/releases/tag/3.18.0%2B1",
+      "published": "2026-07-31T15:45:02Z",
+      "preview": "a hack for https://cabal.readthedocs.io/en/stable/",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "2.9.0.rc0",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0.rc0",
+      "published": "2026-07-31T15:37:42Z",
+      "preview": "Enhancements: [micromamba, libmamba] Refactor and clean up by @Hind-M in #4359 [libmambapy, libmamba] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fixes: [libmamba] fix: Do not change permissions of existing shared package cache directories by @jjerphan in #4365 [libmamba] fix: Link libpsl static library for static builds by @mikemhenry in #4355 [micromamba, libmamba] fix: Accept non-standard quoted noarch entry points by @jjerphan in #4354 [micromamba] fix: Add deactivate command to t",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "6.0.14",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.14",
+      "published": "2026-07-31T15:10:38Z",
+      "preview": "What's Changed Speed up warm-cache API loads and path lookups by @MikeMcQuaid in #23300 Remove most forks from no-op brew startup by @MikeMcQuaid in #23298 Speed up style checks for homebrew/core and homebrew/cask by @MikeMcQuaid in #23301 Avoid repeated coverage simulation by @MikeMcQuaid in #23313 Reduce vendored gem dependencies by @MikeMcQuaid in #23309 tap: require trust in Tap#to_hash by @carlocab in #23333 test/os/mac/keg: require macho by @carlocab in #23334 Preserve locale during brew startup by @MikeMcQuaid in #23332 Support Landlock ABI 2 on Linux kernel 6.1 by @MikeMcQuaid in #2333",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
       "title": "44.5.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.5.0",
       "published": "2026-07-31T13:40:53Z",
       "preview": "44.5.0 (2026-07-31) Features presets: add security:minimumReleaseAgeCrate preset ( #44659 ) ( fa7f6ec )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "release libmamba 2.9.0.rc0, micromamba 2.9.0.rc0, libmambapy 2.9.0.rc0",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0.rc0",
-      "published": "2026-07-31T13:31:59Z",
-      "preview": "Signed-off-by: Julien Jerphanion git@jjerphan.xyz",
-      "source": "Mamba releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-cmake-v0.4.5",
