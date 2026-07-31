@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-31T19:52:13Z",
-  "cutoff": "2026-07-01T19:52:09Z",
+  "generated": "2026-07-31T20:48:05Z",
+  "cutoff": "2026-07-01T20:48:01Z",
   "feed_count": 79,
   "item_count": 224,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.5.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.5.1",
+      "published": "2026-07-31T20:02:51Z",
+      "preview": "44.5.1 (2026-07-31) Miscellaneous Chores deps: update dependency tar to v7.5.22 (main) ( #44995 ) ( 2810dfb ) deps: update docker/dockerfile docker tag to v1.26.0 (main) ( #44993 ) ( b98703e ) Build System deps: update dependency sax to v1.6.1 (main) ( #45001 ) ( 84c75fb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.12.1",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.1",
@@ -338,14 +346,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.3.3",
       "published": "2026-07-30T13:18:16Z",
       "preview": "44.3.3 (2026-07-30) Bug Fixes composer: detect already-updated lockfile updates for dev dependencies ( #44805 ) ( 98b7710 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.3.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.3.2",
-      "published": "2026-07-30T12:50:26Z",
-      "preview": "44.3.2 (2026-07-30) Bug Fixes manager/mise: use semver versioning for cargo backend crates ( #44966 ) ( 97fcec1 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
