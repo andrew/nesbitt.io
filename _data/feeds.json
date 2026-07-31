@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-31T12:59:03Z",
-  "cutoff": "2026-07-01T12:58:59Z",
+  "generated": "2026-07-31T14:00:19Z",
+  "cutoff": "2026-07-01T14:00:14Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.5.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.5.0",
+      "published": "2026-07-31T13:40:53Z",
+      "preview": "44.5.0 (2026-07-31) Features presets: add security:minimumReleaseAgeCrate preset ( #44659 ) ( fa7f6ec )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "release libmamba 2.9.0.rc0, micromamba 2.9.0.rc0, libmambapy 2.9.0.rc0",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0.rc0",
+      "published": "2026-07-31T13:31:59Z",
+      "preview": "Signed-off-by: Julien Jerphanion git@jjerphan.xyz",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
     {
       "title": "pixi-build-cmake-v0.4.5",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.5",
@@ -282,14 +298,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.3.2",
       "published": "2026-07-30T12:50:26Z",
       "preview": "44.3.2 (2026-07-30) Bug Fixes manager/mise: use semver versioning for cargo backend crates ( #44966 ) ( 97fcec1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.3.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.3.1",
-      "published": "2026-07-30T12:32:47Z",
-      "preview": "44.3.1 (2026-07-30) Bug Fixes config-validator: warn when RE2 is not in use ( #44894 ) ( 11a217e ) workers/repository: apply minimumReleaseAge to digest updates ( #44965 ) ( 1247df7 ) Miscellaneous Chores config: be explicit about Renovate CLI in prFooter ( #44949 ) ( 10da664 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
