@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-31T11:09:54Z",
-  "cutoff": "2026-07-01T11:09:48Z",
+  "generated": "2026-07-31T11:59:50Z",
+  "cutoff": "2026-07-01T11:59:45Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -84,6 +84,14 @@
       "preview": "44.4.5 (2026-07-31) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.78.6 (main) ( #44983 ) ( 4c7bb14 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 11.15-11.19",
+      "url": "https://pnpm.io/blog/releases/11.15-11.19",
+      "published": "2026-07-31T00:00:00Z",
+      "preview": "pnpm 11.15 through 11.19 teach pnpm update and pnpm outdated to update GitHub Actions, let pnpm update write changesets for the bumps it makes, introduce cleaner update and audit settings sections, add publishConfig.name for publishing a package under a different name, harden pnpm self-update against project-supplied configuration, make web-based login work without a TTY, and accept = as a save-prefix. They also cut peak resolution memory by several times on large workspaces and speed up repeat installs after compatible dependency changes.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.4.4",
