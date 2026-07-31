@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-31T18:48:12Z",
-  "cutoff": "2026-07-01T18:48:08Z",
+  "generated": "2026-07-31T19:52:13Z",
+  "cutoff": "2026-07-01T19:52:09Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.1",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.1",
+      "published": "2026-07-31T19:43:31Z",
+      "preview": "Release Notes Released on 2026-07-31. Enhancements Add package-specific pre-release policies with --prerelease-package ( #20837 ) Support local HTML files as flat indexes ( #20802 ) Add Xonsh virtual environment activation scripts ( activate.xsh ) ( #19740 ) Preserve filesystem paths passed to uv add --index when updating pyproject.toml ( #20817 ) Preview features Add automatic fixes to uv check with --fix ( #20793 ) Avoid rejecting unchanged metadata-free lockfiles when workspace dependencies share direct sources ( #20847 ) Honor direct URL constraints when validating metadata-free lockfiles ",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "v6.1.0-RC1",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.0-rc1",
