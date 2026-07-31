@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-31T07:18:45Z",
-  "cutoff": "2026-07-01T07:18:40Z",
+  "generated": "2026-07-31T09:20:21Z",
+  "cutoff": "2026-07-01T09:20:15Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 11.19",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.19.0",
+      "published": "2026-07-31T09:10:30Z",
+      "preview": "Minor Changes pnpm login no longer requires an interactive terminal when the registry supports web-based login: without a TTY it prints the authentication URL (skipping the QR code and the \"Press ENTER to open the URL in your browser\" prompt) and polls the registry until the browser approval completes. Only the classic username/password login still fails with ERR_PNPM_LOGIN_NON_INTERACTIVE in a non-interactive terminal. The save-prefix setting now accepts = : newly added dependencies are saved with an explicit = operator ( =1.2.3 ) instead of the setting being silently treated as the default ^",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "9.7.0 RC2",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0-RC2",
+      "published": "2026-07-31T08:47:15Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.7.0 RC2. Here are the highlights of this release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 , Ravi , sk-reddy17 , Suvrat Acharya , Yongshun Ye . Upgrade instructions Switch your build to use Gradle 9.7.0 RC2 by updating your wra",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-07-31T07:57:57Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.4.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.6",
@@ -275,14 +299,6 @@
       "published": "2026-07-30T00:32:32Z",
       "preview": "SDK 3.14.0-75.0.dev",
       "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-30T00:24:29Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
       "category": "Registries"
     },
     {
@@ -795,14 +811,6 @@
       "published": "2026-07-23T16:59:31Z",
       "preview": "2.9.4 / 2026.07.23 feat(desktop): enable --hmr for React Router ( #35900 ) feat(ext/node): add a byteLength/length parameter to Buffer.indexOf/lastIndexOf/includes ( #35872 ) feat(ext/node): support raw chacha20 cipher in crypto.createCipheriv ( #36016 ) feat: upgrade V8 to 150.2.0 ( #36098 ) fix(add): support --minimum-dependency-age flag in deno add/remove ( #36099 ) fix(cache): store Web Cache under origin data ( #36145 ) fix(canvas): require FFI permission for native window handles ( #36080 ) fix(clean): reject symlinked node_modules cleanup roots ( #36190 ) fix(compile): bump libsui to 0.",
       "source": "Deno releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpr 0.1.0-alpha.5",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.5",
-      "published": "2026-07-23T15:34:36Z",
-      "preview": "Patch Changes Fixed catalog: references in dependencies and overrides failing to resolve when installing through a pnpr server, which errored with \"No catalog entry '' was found for catalog 'default'.\" even though the catalog entry existed. Also fixed a crash on Windows when installing a nested workspace member (e.g. packages/foo ) through a pnpr server #13232 .",
-      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
