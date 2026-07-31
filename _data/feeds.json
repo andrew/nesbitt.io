@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-31T09:20:21Z",
-  "cutoff": "2026-07-01T09:20:15Z",
+  "generated": "2026-07-31T11:09:54Z",
+  "cutoff": "2026-07-01T11:09:48Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -1764,14 +1764,6 @@
       "preview": "2.9.1 / 2026.07.01 feat(check): add --desktop flag to type-check for deno desktop ( #35644 ) feat(desktop): register deep-link URL schemes at bundle time ( #35466 ) feat: update laufey to 0.5.0 ( #35663 ) fix(bundle): emit CSSStyleSheet for CSS raw imports ( #35598 ) fix(cache): skip checksums for cached 404 entries ( #35526 ) fix(config): don't strip workspace-member includes from deploy config ( #34788 ) fix(core): apply deferred fast-call op upgrade to the captured bootstrap clone ( #35630 ) fix(core): prevent shared-buffer timer expiry race from losing timers ( #35312 ) fix(desktop): defau",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "2.2.29",
-      "url": "https://github.com/composer/composer/releases/tag/2.2.29",
-      "published": "2026-07-01T09:32:54Z",
-      "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 ) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx ) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 ) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Fixed GitHub token validation to be even more relaxed ( #12856 ) Full Changelog : 2.2.28...2.2.29",
-      "source": "Composer releases",
-      "category": "PHP"
     }
   ]
 }
