@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-31T11:59:50Z",
-  "cutoff": "2026-07-01T11:59:45Z",
+  "generated": "2026-07-31T12:59:03Z",
+  "cutoff": "2026-07-01T12:58:59Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,62 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pixi-build-cmake-v0.4.5",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.5",
+      "published": "2026-07-31T12:10:08Z",
+      "preview": "chore: bump backend versions ( #6737 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-mojo-v0.2.5",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.5",
+      "published": "2026-07-31T12:10:08Z",
+      "preview": "chore: bump backend versions ( #6737 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-python-v0.8.5",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.8.5",
+      "published": "2026-07-31T12:10:08Z",
+      "preview": "chore: bump backend versions ( #6737 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-r-v0.1.6",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-r-v0.1.6",
+      "published": "2026-07-31T12:10:08Z",
+      "preview": "chore: bump backend versions ( #6737 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rattler-build-v0.4.5",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.4.5",
+      "published": "2026-07-31T12:10:08Z",
+      "preview": "chore: bump backend versions ( #6737 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-ros-v0.7.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.7.2",
+      "published": "2026-07-31T12:10:08Z",
+      "preview": "chore: bump backend versions ( #6737 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rust-v0.5.5",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rust-v0.5.5",
+      "published": "2026-07-31T12:10:08Z",
+      "preview": "chore: bump backend versions ( #6737 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "pnpm 11.19",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.19.0",
@@ -598,14 +654,6 @@
       "category": "Python"
     },
     {
-      "title": "pixi-build-ros-v0.7.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.7.0",
-      "published": "2026-07-28T15:31:20Z",
-      "preview": "chore: bump backend versions ( #6704 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "0.11.33",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.11.33",
       "published": "2026-07-28T10:37:25Z",
@@ -692,14 +740,6 @@
       "preview": "What's Changed docs: update formula authoring and toolchain references by @p-linnane in #23225 Don't print the --force hint when brew bundle cleanup prompts by @p-linnane in #23212 Generate stable cask syntax jobs by @MikeMcQuaid in #23222 docs: convert Adding Software to Homebrew into a package-type router by @p-linnane in #23224 Use --end-of-options for Git arguments by @andrew in #23223 Normalise systemd service labels by @MikeMcQuaid in #23228 Skip unavailable xattrs in cask audits by @MikeMcQuaid in #23229 Add phase timings to brew prof by @MikeMcQuaid in #23216 docs: update maintainer op",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "v0.74.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.74.0",
-      "published": "2026-07-27T12:50:47Z",
-      "preview": "[0.74.0] - 2026-07-27 ✨ Highlights Environments can now define content inline, no feature needed: [ environments . test . dependencies ] pytest = \" * \" [ environments . test-lower-bounds ] solve-strategy = \" lowest-direct \" And pixi global can build tools from sources without a package manifest, just name the backend: pixi global install --git https://github.com/BurntSushi/xsv.git --build-backend pixi-build-rust We also fixed a bunch of bugs. Added Inline environments by @Hofer-Julian in #6497 Add offline mode (--offline) by @baszalmstra in #6608 Inline package manifests for pixi global by @Ho",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "1.16.3",
@@ -1286,14 +1326,6 @@
       "category": ".NET"
     },
     {
-      "title": "v0.73.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.73.0",
-      "published": "2026-07-15T09:12:13Z",
-      "preview": "[0.73.0] - 2026-07-15 ✨ Highlights This release brings two big features: workspace = true now also works in environment [dependency] tables TOML 1.1 multiline inline tables are now fully supported As usual we also fixed a couple of bugs. workspace = true in environment dependency tables Until now, { workspace = true } only worked in the package dependency tables and required the pixi-build preview. With this release, the environment tables can inherit from [workspace.dependencies] as well, no preview needed. That means a version shared by several features or targets only has to be declared onc",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "6.0.11",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.11",
       "published": "2026-07-14T23:12:25Z",
@@ -1510,14 +1542,6 @@
       "category": "Registries"
     },
     {
-      "title": "v0.72.2",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.72.2",
-      "published": "2026-07-09T13:59:11Z",
-      "preview": "[0.72.2] - 2026-07-09 ✨ Highlights This release contains more fixes for rich platforms. Added Add pixi workspace platform add --auto-detected by @hunger in #6355 Explain why each declared platform cannot run here by @hunger in #6491 Changed Compose sysreq platforms from customisations only by @kilian-hu in #6520 Report unsatisfied virtual packages instead of a misleading interpreter error by @hunger Documentation Document the build variants pixi sets automatically by @hunger in #6534 Fixed Quick-validate to rebuild source packages on rich platforms by @wolfv in #6544 Satisfiability of conditio",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "0.98.0",
       "url": "https://github.com/rust-lang/cargo/releases/tag/0.98.0",
       "published": "2026-07-09T12:25:13Z",
@@ -1556,14 +1580,6 @@
       "preview": "2.9.2 / 2026.07.08 feat(desktop): autodetect React Router framework ( #35557 ) feat(desktop): enable --hmr for Vite and Nuxt ( #35851 ) feat(desktop): run HMR by framework dev server ( #35722 ) feat(desktop): window opacity and transparency APIs ( #35646 ) feat(desktop): wire --exclude-unused-npm through to compile ( #35740 ) feat(ext/node): implement v8.setHeapSnapshotNearHeapLimit ( #35694 ) feat(ext/telemetry): honor OTEL_ATTRIBUTE_VALUE_LENGTH_LIMIT ( #35068 ) feat(inspector): start inspector server on SIGUSR1 ( #35738 ) feat(node): implement getTestContext() in node:test ( #35678 ) feat: ",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "pixi-build-ros-v0.6.5",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.6.5",
-      "published": "2026-07-08T12:01:04Z",
-      "preview": "chore: bump backend versions ( #6562 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "2.10.2",
@@ -1652,22 +1668,6 @@
       "preview": "This is the next post in our supply chain security series, following the supply chain security update and the Composer 2.10 release . Each post in this series covers a specific behavior worth understanding, and a change we are making on top of it. Today: Stable version metadata on Packagist.",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "pixi-build-rust-v0.5.4",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rust-v0.5.4",
-      "published": "2026-07-07T11:33:41Z",
-      "preview": "chore: bump backend versions ( #6539 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "v0.72.1",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.72.1",
-      "published": "2026-07-07T08:19:02Z",
-      "preview": "[0.72.1] - 2026-07-07 ✨ Highlights This release contains important bugfixes for rich platforms, v3 repodata handling, pixi-build-r and more. Changed Do not fail when running tasks in an environment by @hunger in #6507 Provide R packages under their r-prefixed conda name by @roaldarbol in #6515 Suggest pixi self-update --version for requires-pixi errors by @hunger in #6516 Register run-export-introduced source deps on the assembled record by @wolfv in #6519 Let explicit source registrations win over implied ones by @Hofer-Julian in #6532 Documentation Document all override variables by @Hofer-J",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "1.17.0",
