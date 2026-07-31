@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-30T23:39:11Z",
-  "cutoff": "2026-06-30T23:39:08Z",
+  "generated": "2026-07-31T00:57:17Z",
+  "cutoff": "2026-07-01T00:57:13Z",
   "feed_count": 79,
   "item_count": 218,
   "categories": [
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-81.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-81.0.dev",
+      "published": "2026-07-31T00:36:51Z",
+      "preview": "SDK 3.14.0-81.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-80.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-80.0.dev",
+      "published": "2026-07-31T00:36:48Z",
+      "preview": "SDK 3.14.0-80.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-79.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-79.0.dev",
+      "published": "2026-07-31T00:36:44Z",
+      "preview": "SDK 3.14.0-79.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.4.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.5",
+      "published": "2026-07-31T00:10:04Z",
+      "preview": "44.4.5 (2026-07-31) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.78.6 (main) ( #44983 ) ( 4c7bb14 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.4.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.4",
+      "published": "2026-07-30T23:54:10Z",
+      "preview": "44.4.4 (2026-07-30) Build System deps: update dependency google-auth-library to v10.9.1 (main) ( #44982 ) ( 58ce6fa )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 12 Beta 2",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.2",
@@ -174,14 +214,6 @@
       "category": "Registries"
     },
     {
-      "title": "44.2.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.2.3",
-      "published": "2026-07-30T03:48:45Z",
-      "preview": "44.2.3 (2026-07-30) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.78.5 (main) ( #44960 ) ( 17951d4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2026.7.17: Monorepo Task Inference and Root Defaults",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.7.17",
       "published": "2026-07-30T01:58:40Z",
@@ -244,14 +276,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.2.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.2.2",
-      "published": "2026-07-29T21:50:36Z",
-      "preview": "44.2.2 (2026-07-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.78.4 (main) ( #44938 ) ( 6c536e4 ) Documentation next-major: update links to Renovate 44 examples ( #44945 ) ( 1fe48de ) note the accidental release of Renovate 44 ( #44954 ) ( 5067543 ) Miscellaneous Chores deps: update dependency pnpm to v11.16.0 (main) ( #44957 ) ( c80292d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "libnpmpack: v10.0.2",
@@ -526,22 +550,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.14.0-71.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-71.0.dev",
-      "published": "2026-07-29T00:32:19Z",
-      "preview": "SDK 3.14.0-71.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-70.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-70.0.dev",
-      "published": "2026-07-29T00:32:17Z",
-      "preview": "SDK 3.14.0-70.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "Windows Package Manager 1.30.80-preview",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.80-preview",
       "published": "2026-07-29T00:21:04Z",
@@ -588,14 +596,6 @@
       "preview": "What's Changed Update scripts SHA 2026-07-27 and add explicit override feature. by @BillyONeal in #2086 Full Changelog : 2026-07-24...2026-07-27",
       "source": "vcpkg releases",
       "category": "C/C++"
-    },
-    {
-      "title": "SDK-3.14.0-69.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-69.0.dev",
-      "published": "2026-07-28T00:38:17Z",
-      "preview": "SDK 3.14.0-69.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "v2.0.0-beta.19",
