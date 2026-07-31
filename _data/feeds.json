@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-31T16:00:16Z",
-  "cutoff": "2026-07-01T16:00:12Z",
+  "generated": "2026-07-31T16:54:22Z",
+  "cutoff": "2026-07-01T16:54:17Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -1788,14 +1788,6 @@
       "preview": "This is the latest of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: Match qua",
       "source": "winget releases",
       "category": "System"
-    },
-    {
-      "title": "v2.9.1",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.1",
-      "published": "2026-07-01T16:31:16Z",
-      "preview": "2.9.1 / 2026.07.01 feat(check): add --desktop flag to type-check for deno desktop ( #35644 ) feat(desktop): register deep-link URL schemes at bundle time ( #35466 ) feat: update laufey to 0.5.0 ( #35663 ) fix(bundle): emit CSSStyleSheet for CSS raw imports ( #35598 ) fix(cache): skip checksums for cached 404 entries ( #35526 ) fix(config): don't strip workspace-member includes from deploy config ( #34788 ) fix(core): apply deferred fast-call op upgrade to the captured bootstrap clone ( #35630 ) fix(core): prevent shared-buffer timer expiry race from losing timers ( #35312 ) fix(desktop): defau",
-      "source": "Deno releases",
-      "category": "JavaScript"
     }
   ]
 }
