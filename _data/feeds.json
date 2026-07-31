@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-31T17:52:04Z",
-  "cutoff": "2026-07-01T17:52:00Z",
+  "generated": "2026-07-31T18:48:12Z",
+  "cutoff": "2026-07-01T18:48:08Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.1.0-RC1",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.0-rc1",
+      "published": "2026-07-31T18:07:18Z",
+      "preview": "Features A new command has been added, podman volume rename , to allow renaming volumes. Volumes created using volume drivers and volumes that are currently used by a container cannot be renamed ( #28189 ). A new command has been added, podman machine restart , to allow easy restart of VMs managed by podman machine ( #28366 ). The podman network rm command now includes a new option, --ignore , which suppresses errors when attempting to remove networks that do not exist ( #28363 ). The podman manifest push command now includes two new options, --retry and --retry-delay , which allow pushes to b",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
     {
       "title": "v29.7.1",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.1",
@@ -1796,14 +1804,6 @@
       "preview": "What's Changed Component updates ⬆️ [CHERRY-PICK] Make openapi-generator-cli download URL configurable ( #23186 ) by @chlins in #23221 bump Go version from 1.25.9 to 1.26.3 by @stonezdj in #23236 [cherry-pick] Rebuild goharbor/photon image before create new harbor base images by @jUDASmILE in #23250 [cherry-pick]remove install net-tools from db dockerfile as photon removed it by @jUDASmILE in #23267 [CHERRY-PICK] feat: replace redis with valkey as cache backend ( #23157 ) by @chlins in #23261 [CHERRY-PICK] test(cosign): disable tlog for signing checks by @chlins in #23280 [CHERRY-PICK] fix(cos",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "Windows Package Manager 1.29.280",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.280",
-      "published": "2026-07-01T18:03:55Z",
-      "preview": "This is the latest of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: Match qua",
-      "source": "winget releases",
-      "category": "System"
     }
   ]
 }
