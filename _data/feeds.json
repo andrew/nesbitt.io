@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-31T22:39:31Z",
-  "cutoff": "2026-07-01T22:39:27Z",
+  "generated": "2026-07-31T23:38:54Z",
+  "cutoff": "2026-07-01T23:38:51Z",
   "feed_count": 79,
-  "item_count": 225,
+  "item_count": 226,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2026-07-27 Release",
+      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-27",
+      "published": "2026-07-31T23:10:53Z",
+      "preview": "What's Changed Update scripts SHA 2026-07-27 and add explicit override feature. by @BillyONeal in #2086 Full Changelog : 2026-07-24...2026-07-27",
+      "source": "vcpkg releases",
+      "category": "C/C++"
+    },
+    {
+      "title": "3.18.0+2",
+      "url": "https://github.com/haskell/cabal/releases/tag/3.18.0%2B2",
+      "published": "2026-07-31T22:46:08Z",
+      "preview": "a hack for https://cabal.readthedocs.io/en/stable/",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "26.7.0",
       "url": "https://github.com/conda/conda/releases/tag/26.7.0",
@@ -732,14 +748,6 @@
       "preview": "29.7.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.0 milestone moby/moby, 29.7.0 milestone New Add an experimental embedded-containerd feature that runs containerd inside the daemon process instead of as a separate managed process. moby/moby#52898 Bug fixes and enhancements Add the default-stop-timeout daemon option to configure the stop timeout assigned to containers without an explicit timeout. moby/moby#53146 containerd image store: Fix daemon-wide concurrent download and upload limits for pulls and pushes not ",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "2026-07-27 Release",
-      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-27",
-      "published": "2026-07-28T00:56:13Z",
-      "preview": "What's Changed Update scripts SHA 2026-07-27 and add explicit override feature. by @BillyONeal in #2086 Full Changelog : 2026-07-24...2026-07-27",
-      "source": "vcpkg releases",
-      "category": "C/C++"
     },
     {
       "title": "v2.0.0-beta.19",
