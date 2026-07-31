@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-31T00:57:17Z",
-  "cutoff": "2026-07-01T00:57:13Z",
+  "generated": "2026-07-31T07:18:45Z",
+  "cutoff": "2026-07-01T07:18:40Z",
   "feed_count": 79,
   "item_count": 218,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.4.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.6",
+      "published": "2026-07-31T06:50:32Z",
+      "preview": "44.4.6 (2026-07-31) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.78.7 (main) ( #44986 ) ( d1d254c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-81.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-81.0.dev",
@@ -166,6 +174,14 @@
       "category": "Maven"
     },
     {
+      "title": "pixi-build-python-v0.8.4: feat: support `[package.run-exports]` in package manifests (#6696)",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.8.4",
+      "published": "2026-07-30T15:18:36Z",
+      "preview": "Co-authored-by: Ruben Arts ruben.arts@hotmail.com",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "44.3.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.3.3",
       "published": "2026-07-30T13:18:16Z",
@@ -196,14 +212,6 @@
       "preview": "Today we are launching a formal sponsorship program for Composer and Packagist.org, together with new public sponsor pages on packagist.org/sponsor and getcomposer.org/sponsor . We want to start by thanking the companies who are on board at launch: Private Packagist , Aikido , AWS , Socket , Bunny , Upsun , Sonatype , Tideways",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "44.3.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.3.0",
-      "published": "2026-07-30T11:14:34Z",
-      "preview": "44.3.0 (2026-07-30) Features pre-commit: support forgejo-tags datasource ( #44923 ) ( c526a26 ) Miscellaneous Chores deps: update dependency lint-staged to v17.2.0 (main) ( #44962 ) ( 54609b4 ) deps: update github/codeql-action action to v4.37.4 (main) ( #44961 ) ( 3ea610a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20260730t085500-all",
@@ -1628,14 +1636,6 @@
       "preview": "This is the next post in our supply chain security series, following the supply chain security update and the Composer 2.10 release . Each post in this series covers a specific behavior worth understanding, and a change we are making on top of it. Today: Stable version metadata on Packagist.",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "pixi-build-ros-v0.6.4",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.6.4",
-      "published": "2026-07-07T11:33:41Z",
-      "preview": "chore: bump backend versions ( #6539 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-rust-v0.5.4",
