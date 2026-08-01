@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-01T13:52:54Z",
-  "cutoff": "2026-07-02T13:52:49Z",
+  "generated": "2026-08-01T17:39:25Z",
+  "cutoff": "2026-07-02T17:39:21Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12 Beta 3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.3",
+      "published": "2026-08-01T17:18:38Z",
+      "preview": "Patch Changes With excludeLinksFromLockfile enabled, a link: dependency pointing inside the workspace is no longer treated as an external link when it resolves a peer dependency, so the peer suffixes it produces stay identical to an install with the setting off. Injected ( file: ) workspace dependencies are no longer affected by the setting either #13556 . A registry dependency is now always recorded in pnpm-lock.yaml with an integrity hash, including under --lockfile-only . Packages from a registry that publishes no subresource-integrity metadata — https://node-registry.bit.cloud/ , for one —",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -906,14 +914,6 @@
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.20",
       "published": "2026-07-23T17:58:57Z",
       "preview": "Patch Changes Close three CLI parity gaps with the TypeScript pnpm CLI: --registry <url> is now accepted on every command as a universal rc-option, not only through --config.registry=<url> ( pnpm view pnpm dist-tags.latest --registry=https://registry.npmjs.org/ ). pnpm add (and pnpm add -g ) now accept --allow-build=<pkg> , appending the named packages to allowBuilds so they can run their lifecycle scripts during the install ( pnpm add @pnpm/exe@11.16.0 --allow-build=@pnpm/exe ). --dir / -C is now position-independent: it is accepted anywhere on the command line, before or after the subcommand",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12 Alpha 19",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/untagged-e518c274b13ed6243f61",
-      "published": "2026-07-23T17:04:05Z",
-      "preview": "Minor Changes Added a new setting, update.githubActionsServer , for specifying the base URL of the GitHub server that hosts the repositories of the GitHub Actions referenced by the workflow files (for example, a GitHub Enterprise Server). When the setting is not defined, the URL is read from the GITHUB_SERVER_URL environment variable, falling back to https://github.com . The URL must use the https:// or http:// protocol #13220 . pnpm outdated and pnpm update no longer fail when the refs of a GitHub Action's repository cannot be read (for example, when the action's repository is private or host",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
