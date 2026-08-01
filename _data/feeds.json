@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-01T20:34:59Z",
-  "cutoff": "2026-07-02T20:34:55Z",
+  "generated": "2026-08-01T21:37:08Z",
+  "cutoff": "2026-07-02T21:37:04Z",
   "feed_count": 79,
   "item_count": 222,
   "categories": [
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v2026.8.0",
+      "title": "v2026.8.0: 15% faster shims, multi-language workspaces, and precompiled Ruby",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.0",
-      "published": "2026-08-01T19:25:01Z",
-      "preview": "(ruby) make precompiled binaries the default by @jdx in [ #11584 …",
+      "published": "2026-08-01T20:56:45Z",
+      "preview": "This release makes mise noticeably faster on Linux x64: shims have 15% lower latency, while config-aware commands are 8–11% faster in local release-to-release benchmarks. It also significantly expands the experimental monorepo task workflow with dependency inference across Cargo, uv (Python), Go, and Node workspaces, and makes precompiled Ruby binaries the default. ⚡ Performance: up to 15% lower latency Official checksum-verified Linux x64 GNU binaries were compared on an AMD Ryzen 9 7950X3D using an isolated offline fixture with warm filesystem caches (20 warmups and 200 measured runs per com",
       "source": "mise releases",
       "category": "Multi-language"
     },
