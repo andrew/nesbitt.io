@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-01T10:50:29Z",
-  "cutoff": "2026-07-02T10:50:25Z",
+  "generated": "2026-08-01T13:52:54Z",
+  "cutoff": "2026-07-02T13:52:49Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-01T13:41:46Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.5.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.5.3",
@@ -220,14 +228,6 @@
       "preview": "The Gradle team is excited to announce Gradle 9.7.0 RC2. Here are the highlights of this release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 , Ravi , sk-reddy17 , Suvrat Acharya , Yongshun Ye . Upgrade instructions Switch your build to use Gradle 9.7.0 RC2 by updating your wra",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-07-31T07:57:57Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "44.4.6",
