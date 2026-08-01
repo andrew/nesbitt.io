@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-31T23:38:54Z",
-  "cutoff": "2026-07-01T23:38:51Z",
+  "generated": "2026-08-01T00:58:07Z",
+  "cutoff": "2026-07-02T00:58:03Z",
   "feed_count": 79,
   "item_count": 226,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.5.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.5.3",
+      "published": "2026-08-01T00:52:52Z",
+      "preview": "44.5.3 (2026-08-01) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.14 (main) ( #45006 ) ( 2e94314 ) Build System deps: update aws-sdk-js-v3 monorepo to v3.1095.0 (main) ( #45007 ) ( 34a83b9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "SDK-3.14.0-83.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-83.0.dev",
+      "published": "2026-08-01T00:36:00Z",
+      "preview": "SDK 3.14.0-83.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-82.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-82.0.dev",
+      "published": "2026-08-01T00:35:57Z",
+      "preview": "SDK 3.14.0-82.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "2026-07-27 Release",
       "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-27",
@@ -348,14 +372,6 @@
       "preview": "Minor Changes Made peer resolution significantly faster in large multi-importer workspaces (a 114-importer workspace's resolution dropped from ~77s to ~36s): importers whose hoist rounds converged no longer re-walk their dependency forest every round, later rounds walk only newly added direct dependencies, ownership handovers with an unchanged peer context no longer invalidate shared walk caches, and the resolver's internal hash maps use a faster hash. Peer dependencies provided by multiple candidate versions may resolve to a different (still range-valid) provider than before, which can shift ",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.4.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.0",
-      "published": "2026-07-30T16:30:35Z",
-      "preview": "44.4.0 (2026-07-30) Features templates: always expose renovateVersion ( #44969 ) ( 69a6290 ), closes #44756 Bug Fixes util/markdown: undo zero-width space chars when used inside codeblocks ( #44933 ) ( 14c81bb ) workers/repository: apply minimumReleaseAge to pinDigest updates ( #44968 ) ( 33f5139 ), closes #44820 Documentation contributing: clarify the \"don't merge main \" ( #44963 ) ( 9d41668 ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.12 (main) ( #44929 ) ( d422e51 ) util/exec: fix typo ( #44946 ) ( 29243d0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Maven 4.0.0-rc-6",
@@ -698,22 +714,6 @@
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-74.0.dev",
       "published": "2026-07-29T00:32:26Z",
       "preview": "SDK 3.14.0-74.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-73.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-73.0.dev",
-      "published": "2026-07-29T00:32:24Z",
-      "preview": "SDK 3.14.0-73.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-72.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-72.0.dev",
-      "published": "2026-07-29T00:32:22Z",
-      "preview": "SDK 3.14.0-72.0.dev",
       "source": "Pub releases",
       "category": "Registries"
     },
