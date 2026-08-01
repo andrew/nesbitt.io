@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-01T17:39:25Z",
-  "cutoff": "2026-07-02T17:39:21Z",
+  "generated": "2026-08-01T19:44:12Z",
+  "cutoff": "2026-07-02T19:44:07Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.8.0",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.0",
+      "published": "2026-08-01T19:25:01Z",
+      "preview": "(ruby) make precompiled binaries the default by @jdx in [ #11584 …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-interactive-config-v2026.8.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.0",
+      "published": "2026-08-01T19:22:26Z",
+      "preview": "Release mise-interactive-config 2026.8.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.0",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.0",
+      "published": "2026-08-01T19:22:08Z",
+      "preview": "Release vfox 2026.8.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.8.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.8.0",
+      "published": "2026-08-01T19:21:13Z",
+      "preview": "Release mise-sigstore 2026.8.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "pnpm 12 Beta 3",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.3",
@@ -702,14 +734,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "v2026.7.16: Task Workspaces, MCP Command Effects, and Dotfiles Cleanup",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.16",
-      "published": "2026-07-29T06:23:37Z",
-      "preview": "This release expands the experimental task output cache with per-run controls, a configurable cache directory, and command-derived cache inputs, and lays the groundwork for monorepo-aware task workspaces starting with Node discovery. It also teaches mise mcp to expose each command's read/write/destructive effect to agents, consolidates dotfiles management under mise bootstrap , and lands a broad batch of fixes across brew, npm, tasks, config rewriting, and OCI pushes. Highlights The experimental task output cache gains per-run controls ( --task-cache / MISE_TASK_CACHE ), a configurable task.ca",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.7.21",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.21",
       "published": "2026-07-29T04:57:19Z",
@@ -782,14 +806,6 @@
       "category": "C/C++"
     },
     {
-      "title": "v2026.7.15: Experimental Task Output Caching",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.15",
-      "published": "2026-07-27T18:51:46Z",
-      "preview": "This release lands the first version of experimental local task output caching, letting eligible tasks restore their declared outputs and replay their logs without rerunning. It also adds structured registry idiomatic-version-file parsing, a standalone Aube installer mode, and a broad batch of task, Homebrew, shell, and Windows path fixes. Highlights Experimental local task artifact caching restores task outputs (and replays their logs) across deletions, checkouts, and unchanged CI runs, with cache keys derived from source contents, task config, tools, and environment. It works for tasks that ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v0.389.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.389.0",
       "published": "2026-07-27T18:25:20Z",
@@ -804,14 +820,6 @@
       "preview": "tagging package snapd version 2.77",
       "source": "Snapd releases",
       "category": "System"
-    },
-    {
-      "title": "vfox-v2026.7.20",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.20",
-      "published": "2026-07-27T13:12:51Z",
-      "preview": "Release vfox 2026.7.20",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "6.0.13",
@@ -844,14 +852,6 @@
       "preview": "Minor Changes b67a665 : feat: require Node.js 22 as the minimum supported version Node.js 22 or higher is now required (previously the CLI still accepted Node.js 18, while engines already demanded 20). The CLI refuses to start on older runtimes and engines is set to >=22 ; Node.js 24 is the recommended version. CI, e2e, and smoke test matrices now cover Node.js 22, 24, and 26. Registry operators on Node.js 18 or 20 must upgrade the runtime before taking this release. b67a665 : feat: dual CJS + ESM build with exports field, migrate build from babel to vite 8 Native ESM support. The package now ",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "vfox-v2026.7.19",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.19",
-      "published": "2026-07-26T15:18:37Z",
-      "preview": "Release vfox 2026.7.19",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
