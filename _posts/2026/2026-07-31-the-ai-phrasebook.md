@@ -6,6 +6,7 @@ description: "We have autonomous agents at home."
 tags:
   - ai
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mrzaysysxf2b"
 ---
 
 *Agentic*: bash.
