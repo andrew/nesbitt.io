@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-01T21:37:08Z",
-  "cutoff": "2026-07-02T21:37:04Z",
+  "generated": "2026-08-01T23:38:38Z",
+  "cutoff": "2026-07-02T23:38:35Z",
   "feed_count": 79,
   "item_count": 222,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.6.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.6.0",
+      "published": "2026-08-01T23:02:34Z",
+      "preview": "44.6.0 (2026-08-01) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.79.0 (main) ( #45011 ) ( 6025968 ) Miscellaneous Chores deps: update jdx/mise-action action to v4.2.4 (main) ( #45008 ) ( d94d55e ) deps: update zizmor (main) ( #45010 ) ( 2e66925 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.8.0: 15% faster shims, multi-language workspaces, and precompiled Ruby",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.0",
@@ -394,14 +402,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.2",
       "published": "2026-07-30T19:56:32Z",
       "preview": "44.4.2 (2026-07-30) Build System deps: update dependency @opentelemetry/instrumentation-bunyan to v0.66.0 (main) ( #44977 ) ( e2dc290 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.4.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.1",
-      "published": "2026-07-30T19:02:31Z",
-      "preview": "44.4.1 (2026-07-30) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.13 (main) ( #44972 ) ( 2c786a2 ) deps: update dependency pnpm to v11.17.0 (main) ( #44973 ) ( 9f453df ) deps: update dependency tsdown to v0.22.14 (main) ( #44975 ) ( 7a05b9a ) Build System deps: update opentelemetry-js-contrib monorepo (main) ( #44976 ) ( 8e1603a )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
