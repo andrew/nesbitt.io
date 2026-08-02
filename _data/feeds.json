@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-02T08:01:57Z",
-  "cutoff": "2026-07-03T08:01:53Z",
+  "generated": "2026-08-02T09:02:57Z",
+  "cutoff": "2026-07-03T09:02:54Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.9.1",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.9.1",
+      "published": "2026-08-02T08:26:30Z",
+      "preview": "Patch Changes dfe3938 : Update verdaccio dependencies to the latest npm dist-tag ( @verdaccio/ui-theme tracks next-9 ): @verdaccio/auth : 8.1.0 → 8.1.1 @verdaccio/config : 8.2.0 → 8.2.1 @verdaccio/core : 8.2.0 → 8.2.1 @verdaccio/hooks : 8.1.1 → 8.1.2 @verdaccio/loaders : 8.1.0 → 8.1.1 @verdaccio/local-storage-legacy : 11.4.0 → 11.4.1 @verdaccio/logger : 8.1.0 → 8.1.1 @verdaccio/middleware : 8.1.0 → 8.1.1 @verdaccio/package-filter : 13.1.0 → 13.1.1 @verdaccio/signature : 8.1.0 → 8.1.1 @verdaccio/tarball : 13.1.0 → 13.1.1 @verdaccio/ui-theme : 9.0.0-next-9.21 → 9.0.0-next-9.22 @verdaccio/url : 1",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.7.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.7.0",
