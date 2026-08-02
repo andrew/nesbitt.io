@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-02T19:43:51Z",
-  "cutoff": "2026-07-03T19:43:47Z",
+  "generated": "2026-08-02T23:38:46Z",
+  "cutoff": "2026-07-03T23:38:42Z",
   "feed_count": 79,
   "item_count": 224,
   "categories": [
@@ -24,10 +24,18 @@
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-02T18:50:47Z",
+      "published": "2026-08-02T23:19:06Z",
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
+    },
+    {
+      "title": "44.7.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.7.2",
+      "published": "2026-08-02T22:42:13Z",
+      "preview": "44.7.2 (2026-08-02) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.14 (main) ( #45013 ) ( 2c71bb2 ) Build System deps: update dependency fs-extra to v11.4.0 (main) ( #44978 ) ( 7aeaceb ) Continuous Integration remove auto:pls-merge-main ( #44964 ) ( d396090 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "v6.9.2",
@@ -356,14 +364,6 @@
       "preview": "pnpm 11.15 through 11.19 teach pnpm update and pnpm outdated to update GitHub Actions, let pnpm update write changesets for the bumps it makes, introduce cleaner update and audit settings sections, add publishConfig.name for publishing a package under a different name, harden pnpm self-update against project-supplied configuration, make web-based login work without a TTY, and accept = as a save-prefix. They also cut peak resolution memory by several times on large workspaces and speed up repeat installs after compatible dependency changes.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.4.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.4",
-      "published": "2026-07-30T23:54:10Z",
-      "preview": "44.4.4 (2026-07-30) Build System deps: update dependency google-auth-library to v10.9.1 (main) ( #44982 ) ( 58ce6fa )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12 Beta 2",
