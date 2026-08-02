@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-02T09:02:57Z",
-  "cutoff": "2026-07-03T09:02:54Z",
+  "generated": "2026-08-02T13:52:57Z",
+  "cutoff": "2026-07-03T13:52:52Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.7.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.7.1",
+      "published": "2026-08-02T13:16:20Z",
+      "preview": "44.7.1 (2026-08-02) Bug Fixes presets: refactor security:minimumReleaseAge* to reduce duplication ( #44989 ) ( 786c2ee )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v6.9.1",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.9.1",
@@ -364,14 +372,6 @@
       "preview": "This release refines mise's experimental monorepo task workflow with relative dependency paths and a compact dependency tree view, and lands a wide batch of fixes across Cargo installs, plugins, PATH handling, Windows program resolution, Aqua locks, GitLab pagination, and more. Added task: mise tasks deps gains a --compact flag that expands each shared dependency subtree only once and marks later references as (already shown) , keeping every incoming edge visible while avoiding the recursive blow-up that wildcard-heavy monorepo graphs produced. Default output is unchanged unless you pass the f",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.4.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.4.3",
-      "published": "2026-07-30T21:54:50Z",
-      "preview": "44.4.3 (2026-07-30) Build System deps: update dependency @renovatebot/osv-offline to v3.0.10 (main) ( #44980 ) ( dfcc47a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v29.7.0",
