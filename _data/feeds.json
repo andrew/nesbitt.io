@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-02T13:52:57Z",
-  "cutoff": "2026-07-03T13:52:52Z",
+  "generated": "2026-08-02T18:38:42Z",
+  "cutoff": "2026-07-03T18:38:38Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.9.2",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.9.2",
+      "published": "2026-08-02T17:52:15Z",
+      "preview": "Patch Changes 297dc43 : fix: apply package access controls to the starredByUser endpoint The GET /-/_view/starredByUser view did not enforce the configured package access policy when listing a user's starred packages. Results are now filtered through auth.allow_access , so the response only includes packages the requesting client is authorized to see. 05917d5 : Update verdaccio dependencies to the latest npm dist-tag ( @verdaccio/ui-theme tracks next-9 ): @verdaccio/ui-theme : 9.0.0-next-9.22 → 9.0.0-next-9.23",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.7.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.7.1",
