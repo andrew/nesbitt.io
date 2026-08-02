@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-02T18:38:42Z",
-  "cutoff": "2026-07-03T18:38:38Z",
+  "generated": "2026-08-02T19:43:51Z",
+  "cutoff": "2026-07-03T19:43:47Z",
   "feed_count": 79,
   "item_count": 224,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-02T18:50:47Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "v6.9.2",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.9.2",
@@ -100,14 +108,6 @@
       "preview": "Patch Changes With excludeLinksFromLockfile enabled, a link: dependency pointing inside the workspace is no longer treated as an external link when it resolves a peer dependency, so the peer suffixes it produces stay identical to an install with the setting off. Injected ( file: ) workspace dependencies are no longer affected by the setting either #13556 . A registry dependency is now always recorded in pnpm-lock.yaml with an integrity hash, including under --lockfile-only . Packages from a registry that publishes no subresource-integrity metadata — https://node-registry.bit.cloud/ , for one —",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-01T13:41:46Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "44.5.3",
