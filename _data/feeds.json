@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-03T18:56:10Z",
-  "cutoff": "2026-07-04T18:56:05Z",
+  "generated": "2026-08-03T20:44:08Z",
+  "cutoff": "2026-07-04T20:44:03Z",
   "feed_count": 79,
   "item_count": 226,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.9.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.9.2",
+      "published": "2026-08-03T19:58:08Z",
+      "preview": "44.9.2 (2026-08-03) Build System deps: update dependency minimatch to v10.2.6 (main) ( #45046 ) ( 72be1e4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.9.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.9.1",
@@ -178,14 +186,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.7.0",
       "published": "2026-08-02T07:53:32Z",
       "preview": "44.7.0 (2026-08-02) Features data: automatic update of static data ( #45012 ) ( df2b4c1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.6.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.6.0",
-      "published": "2026-08-01T23:02:34Z",
-      "preview": "44.6.0 (2026-08-01) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.79.0 (main) ( #45011 ) ( 6025968 ) Miscellaneous Chores deps: update jdx/mise-action action to v4.2.4 (main) ( #45008 ) ( d94d55e ) deps: update zizmor (main) ( #45010 ) ( 2e66925 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
