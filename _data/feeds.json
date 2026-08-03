@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-03T17:58:45Z",
-  "cutoff": "2026-07-04T17:58:40Z",
+  "generated": "2026-08-03T18:56:10Z",
+  "cutoff": "2026-07-04T18:56:05Z",
   "feed_count": 79,
   "item_count": 226,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.9.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.9.1",
+      "published": "2026-08-03T18:54:31Z",
+      "preview": "44.9.1 (2026-08-03) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.80.1 (main) ( #45045 ) ( 73adcf8 ) manager/quadlet: enable digest replacement metadata ( #44538 ) ( 2c185ea ) schema: allow object entries in repositories array ( #44589 ) ( b9087cb ) Code Refactoring workers: allow extractedConstraints on PackageDependency ( #43252 ) ( a16858b ), closes #42701",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.9.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.9.0",
@@ -220,14 +228,6 @@
       "preview": "Patch Changes With excludeLinksFromLockfile enabled, a link: dependency pointing inside the workspace is no longer treated as an external link when it resolves a peer dependency, so the peer suffixes it produces stay identical to an install with the setting off. Injected ( file: ) workspace dependencies are no longer affected by the setting either #13556 . A registry dependency is now always recorded in pnpm-lock.yaml with an integrity hash, including under --lockfile-only . Packages from a registry that publishes no subresource-integrity metadata — https://node-registry.bit.cloud/ , for one —",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.5.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.5.3",
-      "published": "2026-08-01T00:52:52Z",
-      "preview": "44.5.3 (2026-08-01) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.14 (main) ( #45006 ) ( 2e94314 ) Build System deps: update aws-sdk-js-v3 monorepo to v3.1095.0 (main) ( #45007 ) ( 34a83b9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-83.0.dev",
