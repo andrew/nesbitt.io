@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-03T15:19:58Z",
-  "cutoff": "2026-07-04T15:19:54Z",
+  "generated": "2026-08-03T17:02:40Z",
+  "cutoff": "2026-07-04T17:02:33Z",
   "feed_count": 79,
   "item_count": 226,
   "categories": [
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-03T17:02:36Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2026.8.1: Task Cache Goes Remote, Affected Tasks, and Config Ergonomics",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.1",
+      "published": "2026-08-03T16:58:47Z",
+      "preview": "This release rounds out mise's experimental task artifact cache with size/age limits, inspection tooling, and a full local-plus-remote cache backend (including authenticated CI caching), adds experimental mise run --affected for monorepos, and lands a batch of config, upgrade, and install fixes. Highlights The experimental task output cache now supports remote sharing: a composite store reads locally first, promotes remote hits, and mirrors writes, with authenticated requests backed by token files or GitHub Actions OIDC. Cache entries can be inspected, cleared per-task, and bounded by size and",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.8.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.8.1",
+      "published": "2026-08-03T16:54:13Z",
+      "preview": "44.8.1 (2026-08-03) Bug Fixes datasource/npm: handle absent homepage s ( #44999 ) ( 89f526e ), closes #44991 Miscellaneous Chores deps: update github/codeql-action action to v4.37.5 (main) ( #45036 ) ( 3cc91b0 ) deps: update pnpm/action-setup action to v6.0.10 (main) ( #45038 ) ( 87ee522 ) Build System deps: update node.js to v24.19.0 (main) ( #45039 ) ( 8688710 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "aqua-registry-v2026.8.0",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.8.0",
+      "published": "2026-08-03T15:47:54Z",
+      "preview": "Release aqua-registry 2026.8.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.1",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.1",
+      "published": "2026-08-03T15:47:38Z",
+      "preview": "Release vfox 2026.8.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v0.390.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.390.0",
@@ -84,14 +124,6 @@
       "preview": "44.7.3 (2026-08-03) Bug Fixes manager/pre-commit: remove category ( #45005 ) ( edc22ea ) presets: add missing updateTypes to exclusions in security:minimumReleaseAge* ( #44990 ) ( 8af53eb ) Documentation update references to prom/prometheus to v3.13.2 (main) ( #45017 ) ( 9fbe473 ) update references to renovate/renovate (main) ( #45018 ) ( c4fe594 ) update references to renovatebot/github-action to v46.2.0 (main) ( #45019 ) ( a5ac833 ) update references to renovatebot/github-action to v46.2.1 (main) ( #45020 ) ( 2817236 ) Miscellaneous Chores deps: lock file maintenance (main) ( #45021 ) ( ef31",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-02T23:19:06Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "44.7.2",
@@ -234,14 +266,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.5.2",
       "published": "2026-07-31T21:49:31Z",
       "preview": "44.5.2 (2026-07-31) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.78.8 (main) ( #45004 ) ( 022f765 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.1 (main) ( #45002 ) ( 292f98b ) deps: update dependency uv to v0.12.1 (main) ( #45003 ) ( 027e4b6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.5.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.5.1",
-      "published": "2026-07-31T20:02:51Z",
-      "preview": "44.5.1 (2026-07-31) Miscellaneous Chores deps: update dependency tar to v7.5.22 (main) ( #44995 ) ( 2810dfb ) deps: update docker/dockerfile docker tag to v1.26.0 (main) ( #44993 ) ( b98703e ) Build System deps: update dependency sax to v1.6.1 (main) ( #45001 ) ( 84c75fb )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -500,22 +524,6 @@
       "preview": "Deployment at 2026-07-30T08:55:08.002317Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.7.17: Monorepo Task Inference and Root Defaults",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.7.17",
-      "published": "2026-07-30T01:58:40Z",
-      "preview": "This release builds out mise's experimental monorepo task story: Node workspaces now infer project dependency graphs, import package scripts as first-class tasks, and can share configuration through root task defaults and upstream ( ^task ) dependencies. It also adds per-tool control over idiomatic version files, a smoother dotfiles workflow, and a batch of fixes across shell activation, hook-env, Homebrew casks, Aqua, and Python uv environments. Highlights Node monorepo workspaces gain end-to-end task support: inferred project dependency edges, imported package.json scripts as node:<package>#",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "aqua-registry-v2026.7.4",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.7.4",
-      "published": "2026-07-30T00:36:48Z",
-      "preview": "Release aqua-registry 2026.7.4",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.7.22",
@@ -780,14 +788,6 @@
       "preview": "@yarnpkg/sdks",
       "source": "Yarn releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "vfox-v2026.7.21",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.7.21",
-      "published": "2026-07-29T04:57:19Z",
-      "preview": "Release vfox 2026.7.21",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "SDK-3.14.0-74.0.dev",
