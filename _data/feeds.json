@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-03T13:21:04Z",
-  "cutoff": "2026-07-04T13:20:58Z",
+  "generated": "2026-08-03T15:19:58Z",
+  "cutoff": "2026-07-04T15:19:54Z",
   "feed_count": 79,
-  "item_count": 225,
+  "item_count": 226,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.390.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.390.0",
+      "published": "2026-08-03T15:09:31Z",
+      "preview": "What's Changed Add typed requirement source API by @JamieMagee in #15705 Reland \"Cargo: handle crates locked at multiple versions\" ( #15638 ) by @p-linnane in #15668 Preserve original absence of the bundler self-checksum on lockfile updates by @p-linnane in #15669 Support security updates for vcpkg ports by @JamieMagee in #15676 Beta support of PNPM 11 by @v-robaiken in #15710 Remove enable_cooldown_default_days feature flag; make 3-day cooldown default unconditional by @v-robaiken with @Copilot in #15711 github_actions: integrate gh-actions-lock lockfile relocking by @nodeselector in #15267 F",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 11.20",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.20.0",
+      "published": "2026-08-03T14:20:27Z",
+      "preview": "Minor Changes Security fix. Affects projects using namedRegistries on pnpm 11.1.0–11.19.x. It is semi-breaking for those projects — see \"If you use named registries\" below. The lockfile recorded no marker for which registry a package came from. Packages were keyed by name@version alone, and entry lookup went through refToRelative(ref, name) , so a dependency you declared against one registry could be satisfied by an entry that was actually resolved from another. When two registries served the same name and version, both collapsed onto a single packages: entry and whichever resolved first decid",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12 Beta 4",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.4",
+      "published": "2026-08-03T14:18:38Z",
+      "preview": "Minor Changes Security fix. Affects projects using namedRegistries on pnpm 11.1.0–11.19.x. It is semi-breaking for those projects — see \"If you use named registries\" below. The lockfile recorded no marker for which registry a package came from. Packages were keyed by name@version alone, and entry lookup went through refToRelative(ref, name) , so a dependency you declared against one registry could be satisfied by an entry that was actually resolved from another. When two registries served the same name and version, both collapsed onto a single packages: entry and whichever resolved first decid",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v0.76.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.76.0",
@@ -942,27 +966,11 @@
       "category": "JavaScript"
     },
     {
-      "title": "pnpm 11.17",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.17.0",
-      "published": "2026-07-23T17:03:37Z",
-      "preview": "Minor Changes Added a new setting, update.githubActionsServer , for specifying the base URL of the GitHub server that hosts the repositories of the GitHub Actions referenced by the workflow files (for example, a GitHub Enterprise Server). When the setting is not defined, the URL is read from the GITHUB_SERVER_URL environment variable, falling back to https://github.com . The URL must use the https:// or http:// protocol #13220 . pnpm outdated and pnpm update no longer fail when the refs of a GitHub Action's repository cannot be read (for example, when the action's repository is private or host",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v2.9.4",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.4",
       "published": "2026-07-23T16:59:31Z",
       "preview": "2.9.4 / 2026.07.23 feat(desktop): enable --hmr for React Router ( #35900 ) feat(ext/node): add a byteLength/length parameter to Buffer.indexOf/lastIndexOf/includes ( #35872 ) feat(ext/node): support raw chacha20 cipher in crypto.createCipheriv ( #36016 ) feat: upgrade V8 to 150.2.0 ( #36098 ) fix(add): support --minimum-dependency-age flag in deno add/remove ( #36099 ) fix(cache): store Web Cache under origin data ( #36145 ) fix(canvas): require FFI permission for native window handles ( #36080 ) fix(clean): reject symlinked node_modules cleanup roots ( #36190 ) fix(compile): bump libsui to 0.",
       "source": "Deno releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.0.0-alpha.19",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.19",
-      "published": "2026-07-23T15:07:05Z",
-      "preview": "chore(release): 11.17.0, pacquet 12.0.0-alpha.19, pnpr 0.1.0-alpha.5 …",
-      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
