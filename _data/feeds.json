@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-03T11:29:08Z",
-  "cutoff": "2026-07-04T11:29:03Z",
+  "generated": "2026-08-03T13:21:04Z",
+  "cutoff": "2026-07-04T13:20:58Z",
   "feed_count": 79,
   "item_count": 225,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.76.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.76.0",
+      "published": "2026-08-03T12:11:32Z",
+      "preview": "[0.76.0] - 2026-08-03 ✨ Highlights A single Python file can now carry its own environment. Pixi reads PEP 723 inline metadata, and --script works on init , run , add , remove , lock , list , tree , and workspace export . # /// script # requires-python = \">=3.11\" # dependencies = [\"rich>=13.9.2\"] # /// import rich rich . print ( \"Hi from [bold magenta]hello.py[/bold magenta]!\" ) pixi run --script hello.py is the whole setup: no pixi.toml , no .pixi folder, and no lock file unless you ask for one with pixi lock --script . PEP 723 only covers Python and PyPI, so Pixi reads tool.pixi for the rest.",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.8.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.8.0",
@@ -636,14 +644,6 @@
       "preview": "What's Changed Build Windows zipapp separately by @dukecat0 in #1979 Fix Release Notes project URL by @giri256 in #1981 📝 docs: fix trailing-slash links left by the Sphinx move by @marko1olo in #1986 Prune the logs when PIPX_MAX_LOGS is 0 by @marko1olo in #1988 👷 ci: reject misnamed changelog.d fragments by @gaborbernat in #1989 🐛 fix(zipapp): restore one cross-platform pipx.pyz by @gaborbernat in #1990 New Contributors @giri256 made their first contribution in #1981 Full Changelog : 1.16.3...1.16.4",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "pixi-build-ros-v0.7.1",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.7.1",
-      "published": "2026-07-29T14:33:22Z",
-      "preview": "chore: bump backend versions ( #6716 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "v0.75.0",
