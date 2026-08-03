@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-03T09:31:11Z",
-  "cutoff": "2026-07-04T09:31:07Z",
+  "generated": "2026-08-03T11:29:08Z",
+  "cutoff": "2026-07-04T11:29:03Z",
   "feed_count": 79,
   "item_count": 225,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.8.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.8.0",
+      "published": "2026-08-03T10:39:10Z",
+      "preview": "44.8.0 (2026-08-03) Features presets: add security:minimumReleaseAgePypi ( #44992 ) ( f89efb2 ) Bug Fixes datasource/npm: handle old-style dependencies / devDependencies ( #44998 ) ( 49fa228 ) Miscellaneous Chores add PR comments AI disclosure to PR template ( #45032 ) ( 8393b3d ) datasource/npm: log packageName and registryUrl on Unknown npm lookup error ( #44996 ) ( 7843511 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.7.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.7.4",
@@ -260,14 +268,6 @@
       "preview": "What's Changed Speed up warm-cache API loads and path lookups by @MikeMcQuaid in #23300 Remove most forks from no-op brew startup by @MikeMcQuaid in #23298 Speed up style checks for homebrew/core and homebrew/cask by @MikeMcQuaid in #23301 Avoid repeated coverage simulation by @MikeMcQuaid in #23313 Reduce vendored gem dependencies by @MikeMcQuaid in #23309 tap: require trust in Tap#to_hash by @carlocab in #23333 test/os/mac/keg: require macho by @carlocab in #23334 Preserve locale during brew startup by @MikeMcQuaid in #23332 Support Landlock ABI 2 on Linux kernel 6.1 by @MikeMcQuaid in #2333",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "44.5.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.5.0",
-      "published": "2026-07-31T13:40:53Z",
-      "preview": "44.5.0 (2026-07-31) Features presets: add security:minimumReleaseAgeCrate preset ( #44659 ) ( fa7f6ec )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pixi-build-cmake-v0.4.5",
