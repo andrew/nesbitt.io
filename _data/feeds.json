@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-04T17:57:52Z",
-  "cutoff": "2026-07-05T17:57:47Z",
+  "generated": "2026-08-04T19:54:03Z",
+  "cutoff": "2026-07-05T19:53:59Z",
   "feed_count": 79,
-  "item_count": 231,
+  "item_count": 232,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.31.2 (04-Aug-2026)",
+      "url": "https://github.com/conan-io/conan/releases/tag/2.31.2",
+      "published": "2026-08-04T19:10:26Z",
+      "preview": "Bugfix: conan upload .. --dry-run -f=json > to_upload.json now allows round-trip for conan upload -l=to_upload.json without re-preparing the artifacts. ( #20237 )",
+      "source": "Conan releases",
+      "category": "C/C++"
+    },
+    {
+      "title": "44.11.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.5",
+      "published": "2026-08-04T18:55:26Z",
+      "preview": "44.11.5 (2026-08-04) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.81.3 (main) ( #45073 ) ( 7e67ccd ) Documentation config: clarify how to use repositories ( #45061 ) ( 190f8d5 ) validate JSONC and Javascript code blocks ( #45063 ) ( 8108714 ) Miscellaneous Chores deps: update github/codeql-action action to v4.37.6 (main) ( #45066 ) ( 52c5ba2 ) Tests config/validation: ensure that errors and warnings are always checked and that we don't length check ( #45065 ) ( 23dd568 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "9.7.0 RC3",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0-RC3",
@@ -196,14 +212,6 @@
       "preview": "This release rounds out mise's experimental task artifact cache with size/age limits, inspection tooling, and a full local-plus-remote cache backend (including authenticated CI caching), adds experimental mise run --affected for monorepos, and lands a batch of config, upgrade, and install fixes. Highlights The experimental task output cache now supports remote sharing: a composite store reads locally first, promotes remote hits, and mirrors writes, with authenticated requests backed by token files or GitHub Actions OIDC. Cache entries can be inspected, cleared per-task, and bounded by size and",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.8.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.8.1",
-      "published": "2026-08-03T16:54:13Z",
-      "preview": "44.8.1 (2026-08-03) Bug Fixes datasource/npm: handle absent homepage s ( #44999 ) ( 89f526e ), closes #44991 Miscellaneous Chores deps: update github/codeql-action action to v4.37.5 (main) ( #45036 ) ( 3cc91b0 ) deps: update pnpm/action-setup action to v6.0.10 (main) ( #45038 ) ( 87ee522 ) Build System deps: update node.js to v24.19.0 (main) ( #45039 ) ( 8688710 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "aqua-registry-v2026.8.0",
