@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-04T20:46:52Z",
-  "cutoff": "2026-07-05T20:46:48Z",
+  "generated": "2026-08-04T21:46:10Z",
+  "cutoff": "2026-07-05T21:46:05Z",
   "feed_count": 79,
   "item_count": 232,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.11.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.6",
+      "published": "2026-08-04T20:53:34Z",
+      "preview": "44.11.6 (2026-08-04) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.81.4 (main) ( #45076 ) ( 374fa3f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.31.2 (04-Aug-2026)",
       "url": "https://github.com/conan-io/conan/releases/tag/2.31.2",
@@ -188,14 +196,6 @@
       "preview": "NuGet API key durations will be reduced to 30 days starting August 17th. This change will significantly strengthen the integrity of the NuGet supply chain. The post Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime appeared first on .NET Blog .",
       "source": "NuGet Blog",
       "category": ".NET"
-    },
-    {
-      "title": "44.9.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.9.0",
-      "published": "2026-08-03T17:57:41Z",
-      "preview": "44.9.0 (2026-08-03) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.80.0 (main) ( #45044 ) ( b708c86 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "cabal-head",
