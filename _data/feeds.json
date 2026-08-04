@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-04T16:58:26Z",
-  "cutoff": "2026-07-05T16:58:21Z",
+  "generated": "2026-08-04T17:57:52Z",
+  "cutoff": "2026-07-05T17:57:47Z",
   "feed_count": 79,
-  "item_count": 230,
+  "item_count": 231,
   "categories": [
     ".NET",
     "C/C++",
@@ -164,6 +164,14 @@
       "preview": "44.9.1 (2026-08-03) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.80.1 (main) ( #45045 ) ( 73adcf8 ) manager/quadlet: enable digest replacement metadata ( #44538 ) ( 2c185ea ) schema: allow object entries in repositories array ( #44589 ) ( b9087cb ) Code Refactoring workers: allow extractedConstraints on PackageDependency ( #43252 ) ( a16858b ), closes #42701",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime",
+      "url": "https://devblogs.microsoft.com/dotnet/strengthening-nuget-supply-chain-security-reducing-api-key-lifetime/",
+      "published": "2026-08-03T18:10:00Z",
+      "preview": "NuGet API key durations will be reduced to 30 days starting August 17th. This change will significantly strengthen the integrity of the NuGet supply chain. The post Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime appeared first on .NET Blog .",
+      "source": "NuGet Blog",
+      "category": ".NET"
     },
     {
       "title": "44.9.0",
