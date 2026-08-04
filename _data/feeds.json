@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-03T23:41:34Z",
-  "cutoff": "2026-07-04T23:41:30Z",
+  "generated": "2026-08-04T00:55:42Z",
+  "cutoff": "2026-07-05T00:55:38Z",
   "feed_count": 79,
   "item_count": 227,
   "categories": [
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-87.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-87.0.dev",
+      "published": "2026-08-04T00:35:53Z",
+      "preview": "SDK 3.14.0-87.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-86.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-86.0.dev",
+      "published": "2026-08-04T00:35:50Z",
+      "preview": "SDK 3.14.0-86.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-85.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-85.0.dev",
+      "published": "2026-08-04T00:35:48Z",
+      "preview": "SDK 3.14.0-85.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-84.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-84.0.dev",
+      "published": "2026-08-04T00:35:45Z",
+      "preview": "SDK 3.14.0-84.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "2.0.5",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.5",
@@ -164,6 +196,14 @@
       "preview": "44.7.3 (2026-08-03) Bug Fixes manager/pre-commit: remove category ( #45005 ) ( edc22ea ) presets: add missing updateTypes to exclusions in security:minimumReleaseAge* ( #44990 ) ( 8af53eb ) Documentation update references to prom/prometheus to v3.13.2 (main) ( #45017 ) ( 9fbe473 ) update references to renovate/renovate (main) ( #45018 ) ( c4fe594 ) update references to renovatebot/github-action to v46.2.0 (main) ( #45019 ) ( a5ac833 ) update references to renovatebot/github-action to v46.2.1 (main) ( #45020 ) ( 2817236 ) Miscellaneous Chores deps: lock file maintenance (main) ( #45021 ) ( ef31",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 11.20",
+      "url": "https://pnpm.io/blog/releases/11.20",
+      "published": "2026-08-03T00:00:00Z",
+      "preview": "pnpm 11.20 fixes a package-substitution risk in projects that install from more than one registry alias, stops empty proxy settings from failing installs, hardens pnpm rebuild against a malicious lockfile, and speeds up dependency resolution.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.7.2",
@@ -550,30 +590,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.14.0-77.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-77.0.dev",
-      "published": "2026-07-30T00:32:36Z",
-      "preview": "SDK 3.14.0-77.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-76.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-76.0.dev",
-      "published": "2026-07-30T00:32:34Z",
-      "preview": "SDK 3.14.0-76.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-75.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-75.0.dev",
-      "published": "2026-07-30T00:32:32Z",
-      "preview": "SDK 3.14.0-75.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "libnpmpack: v10.0.2",
       "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.2",
       "published": "2026-07-29T21:11:51Z",
@@ -796,14 +812,6 @@
       "preview": "@yarnpkg/sdks",
       "source": "Yarn releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "SDK-3.14.0-74.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-74.0.dev",
-      "published": "2026-07-29T00:32:26Z",
-      "preview": "SDK 3.14.0-74.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "Windows Package Manager 1.30.80-preview",
@@ -1828,14 +1836,6 @@
       "preview": "What's Changed ENV/super: set CC and CXX to unversioned gcc on Linux by @cho-m in #22889 audit: require curl dependencies to have a working HTTP mirror by @p-linnane in #22898 Force CMake to find shims before $HOMEBREW_PREFIX/bin by @cho-m in #22916 Improve awkward wording of Backing Up App by @carter-thaxton in #22918 bump-cask-pr: error when update fails by @samford in #22901 contributions: fix type error by @samford in #22915 extend/ENV/super: set CC/CXX to real names for llvm_clang by @cho-m in #22920 bump: fix with invalid arch by @bevanjkay in #22910 style: fix infinite loop in array alp",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "pnpm 11.10",
-      "url": "https://pnpm.io/blog/releases/11.10",
-      "published": "2026-07-05T00:00:00Z",
-      "preview": "pnpm 11.10 adds the _auth setting for CI-friendly registry authentication, new pnpm prefix and pnpm issues commands, and the ability for pnpm self-update to install pnpm v12 (the Rust port). It also improves pnpm up accuracy, speeds up resolution against registries that ignore abbreviated metadata, and hardens global package management, pnpm deploy, and pnpm pack-app.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
