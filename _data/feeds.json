@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-04T09:17:02Z",
-  "cutoff": "2026-07-05T09:16:59Z",
+  "generated": "2026-08-04T11:11:05Z",
+  "cutoff": "2026-07-05T11:11:00Z",
   "feed_count": 79,
   "item_count": 227,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.11.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.4",
+      "published": "2026-08-04T11:06:33Z",
+      "preview": "44.11.4 (2026-08-04) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.81.2 (main) ( #45060 ) ( 699b85d ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.6 (main) ( #45059 ) ( 8f294ca )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v0.76.1",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.76.1",
+      "published": "2026-08-04T10:46:19Z",
+      "preview": "[0.76.1] - 2026-08-04 ✨ Highlights This release features an improved pixi task list and a revamped docs page based on Zensical. Changed Correct task list runnability and show every task by @hunger in #6367 Documentation Switch from mkdocs to zensical by @Hofer-Julian in #6572 Fixed Honour editable = true in transitive [tool.uv.sources] at install time by @earlybard in #6730 New Contributors @earlybard made their first contribution in #6730",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.11.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.3",
@@ -204,14 +220,6 @@
       "preview": "[0.76.0] - 2026-08-03 ✨ Highlights A single Python file can now carry its own environment. Pixi reads PEP 723 inline metadata, and --script works on init , run , add , remove , lock , list , tree , and workspace export . # /// script # requires-python = \">=3.11\" # dependencies = [\"rich>=13.9.2\"] # /// import rich rich . print ( \"Hi from [bold magenta]hello.py[/bold magenta]!\" ) pixi run --script hello.py is the whole setup: no pixi.toml , no .pixi folder, and no lock file unless you ask for one with pixi lock --script . PEP 723 only covers Python and PyPI, so Pixi reads tool.pixi for the rest.",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.8.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.8.0",
-      "published": "2026-08-03T10:39:10Z",
-      "preview": "44.8.0 (2026-08-03) Features presets: add security:minimumReleaseAgePypi ( #44992 ) ( f89efb2 ) Bug Fixes datasource/npm: handle old-style dependencies / devDependencies ( #44998 ) ( 49fa228 ) Miscellaneous Chores add PR comments AI disclosure to PR template ( #45032 ) ( 8393b3d ) datasource/npm: log packageName and registryUrl on Unknown npm lookup error ( #44996 ) ( 7843511 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "6.0.15",
@@ -708,14 +716,6 @@
       "preview": "What's Changed Build Windows zipapp separately by @dukecat0 in #1979 Fix Release Notes project URL by @giri256 in #1981 📝 docs: fix trailing-slash links left by the Sphinx move by @marko1olo in #1986 Prune the logs when PIPX_MAX_LOGS is 0 by @marko1olo in #1988 👷 ci: reject misnamed changelog.d fragments by @gaborbernat in #1989 🐛 fix(zipapp): restore one cross-platform pipx.pyz by @gaborbernat in #1990 New Contributors @giri256 made their first contribution in #1981 Full Changelog : 1.16.3...1.16.4",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "v0.75.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.75.0",
-      "published": "2026-07-29T13:43:56Z",
-      "preview": "[0.75.0] - 2026-07-29 ✨ Highlights pixi publish now publishes every workspace package that opts in in dependency order. It also refuses to publish anything if a necessary source dependencies didn't opt into being published. [ package ] name = \" cpp_math \" publish = true Offline solves now only consider conda packages you already have, either in the package cache or on a local file:// channel. That means that you can run pixi update --offline and it will resolve with the packages you have local on your machine. Completion is now generated from the CLI itself, so environment, platform, feature, ",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "cabal-install-v3.18.1.0",
