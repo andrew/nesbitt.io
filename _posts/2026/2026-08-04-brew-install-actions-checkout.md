@@ -2,7 +2,7 @@
 layout: post
 title: "brew install actions/checkout"
 date: 2026-08-04 10:00 +0000
-description: "What would it take to make a Homebrew the registry for GitHub Actions?"
+description: "Using Homebrew's tap machinery as a curated distribution layer for GitHub Actions."
 tags:
   - homebrew
   - github
