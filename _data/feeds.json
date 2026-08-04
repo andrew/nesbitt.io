@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-04T03:28:12Z",
-  "cutoff": "2026-07-05T03:28:08Z",
+  "generated": "2026-08-04T05:23:48Z",
+  "cutoff": "2026-07-05T05:23:44Z",
   "feed_count": 79,
   "item_count": 227,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.11.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.1",
+      "published": "2026-08-04T05:21:58Z",
+      "preview": "44.11.1 (2026-08-04) Bug Fixes gerrit: build SSH clone URLs with hostname only ( #44584 ) ( e14a11a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.11.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.0",
@@ -220,14 +228,6 @@
       "preview": "pnpm 11.20 fixes a package-substitution risk in projects that install from more than one registry alias, stops empty proxy settings from failing installs, hardens pnpm rebuild against a malicious lockfile, and speeds up dependency resolution.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.7.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.7.2",
-      "published": "2026-08-02T22:42:13Z",
-      "preview": "44.7.2 (2026-08-02) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.14 (main) ( #45013 ) ( 2c71bb2 ) Build System deps: update dependency fs-extra to v11.4.0 (main) ( #44978 ) ( 7aeaceb ) Continuous Integration remove auto:pls-merge-main ( #44964 ) ( d396090 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v6.9.2",
