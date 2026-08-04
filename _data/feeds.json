@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-04T05:23:48Z",
-  "cutoff": "2026-07-05T05:23:44Z",
+  "generated": "2026-08-04T09:17:02Z",
+  "cutoff": "2026-07-05T09:16:59Z",
   "feed_count": 79,
   "item_count": 227,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.11.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.3",
+      "published": "2026-08-04T08:54:35Z",
+      "preview": "44.11.3 (2026-08-04) Bug Fixes platform/github: don't follow Link headers with different hosts ( edb2217 ) platform/gitlab: don't follow Link headers with different hosts ( a160e39 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.11.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.2",
+      "published": "2026-08-04T08:19:54Z",
+      "preview": "44.11.2 (2026-08-04) Bug Fixes datasource/docker: don't follow Link headers with different hosts ( 8a9f9cd ) datasource/nuget: don't follow Link headers with different hosts ( 7d2335e ) Miscellaneous Chores add a linting rule to enforce resolveSameOriginUrl ( ae40fbb ) Code Refactoring util: add a helper method for resolveSameOriginUrl ( 7f7b039 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.11.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.1",
@@ -198,28 +214,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.7.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.7.4",
-      "published": "2026-08-03T08:16:34Z",
-      "preview": "44.7.4 (2026-08-03) Build System deps: update dependency node to v24.18.1 (main) ( #44956 ) ( b6625c6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "6.0.15",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.15",
       "published": "2026-08-03T07:55:59Z",
       "preview": "What's Changed workflows/docker: align deprecation of 22.04 image by @cho-m in #23378 Add PHP configuration action (16/24) by @MikeMcQuaid in #23191 Add Python bootstrap action (17/24) by @MikeMcQuaid in #23192 Align shared install step interfaces (18/24) by @MikeMcQuaid in #23193 Align install step autocorrections (20/24) by @MikeMcQuaid in #23195 Document canonical install steps (21/24) by @MikeMcQuaid in #23196 Plan remaining install hook migration (22/24) by @MikeMcQuaid in #23197 Bridge cask flight step migrations (19/26) by @MikeMcQuaid in #23382 Update migration delivery plan (23/24) by",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "44.7.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.7.3",
-      "published": "2026-08-03T07:50:20Z",
-      "preview": "44.7.3 (2026-08-03) Bug Fixes manager/pre-commit: remove category ( #45005 ) ( edc22ea ) presets: add missing updateTypes to exclusions in security:minimumReleaseAge* ( #44990 ) ( 8af53eb ) Documentation update references to prom/prometheus to v3.13.2 (main) ( #45017 ) ( 9fbe473 ) update references to renovate/renovate (main) ( #45018 ) ( c4fe594 ) update references to renovatebot/github-action to v46.2.0 (main) ( #45019 ) ( a5ac833 ) update references to renovatebot/github-action to v46.2.1 (main) ( #45020 ) ( 2817236 ) Miscellaneous Chores deps: lock file maintenance (main) ( #45021 ) ( ef31",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 11.20",
