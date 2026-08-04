@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-04T11:11:05Z",
-  "cutoff": "2026-07-05T11:11:00Z",
+  "generated": "2026-08-04T15:08:59Z",
+  "cutoff": "2026-07-05T15:08:54Z",
   "feed_count": 79,
-  "item_count": 227,
+  "item_count": 229,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.16.6",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.16.6",
+      "published": "2026-08-04T14:47:34Z",
+      "preview": "Release 1.16.6",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "44.11.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.4",
@@ -108,6 +116,14 @@
       "preview": "SDK 3.14.0-84.0.dev",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "Enabling the next iteration of the borrow checker on nightly",
+      "url": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nighty/",
+      "published": "2026-08-04T00:00:00Z",
+      "preview": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha) on nightly in preparation for stabilization in the next few months. Whaaaaaat? Yes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited and was phased out in 2019 in favor of NLL , other than a \"migrate mode\" that was used to provide nice error messages. That migrate mode was finally removed in 2022 . The Polonius borrow checker spun out of the NLL effort in 2018. The initial formulation passed the NLL test suite and accep",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "2.0.5",
