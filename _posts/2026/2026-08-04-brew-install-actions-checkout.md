@@ -7,6 +7,7 @@ tags:
   - homebrew
   - github
   - idea
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3msawwfodaj2o"
 ---
 
 In December I went through why [`uses:` is a package manager with no lockfile, no integrity hashes and no transitive visibility](/2025/12/06/github-actions-package-manager.html), and in April through the [run of incidents](/2026/04/28/github-actions-is-the-weakest-link.html) that followed from that. GitHub's [2026 security roadmap](https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/) has since committed to a lockfile, now in preview as [`gh-actions-lock`](https://github.com/github/gh-actions-lock), and made immutable actions the preferred resolution path. Neither of those changes adds any review between an action author tagging a release and the runner executing it. Homebrew has run that kind of curated index for fifteen years and, as of the immutable-actions rollout, stores its artifacts as OCI manifests on ghcr.io alongside the actions themselves, so I spent some time working out how much of a GitHub Actions registry you could assemble from Homebrew parts.
