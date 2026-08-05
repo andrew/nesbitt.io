@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T12:58:35Z",
-  "cutoff": "2026-07-06T12:58:30Z",
+  "generated": "2026-08-05T14:00:44Z",
+  "cutoff": "2026-07-06T14:00:39Z",
   "feed_count": 79,
   "item_count": 236,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.9.0.rc1",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0.rc1",
+      "published": "2026-08-05T13:39:42Z",
+      "preview": "Enhancements: [libmamba, micromamba] Refactor and clean up by @Hind-M in #4359 [libmamba, libmambapy] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fixes: [libmamba] fix: Explain missing packages when string ids collide with solvables by @jjerphan in #4369 [libmamba] fix: Do not change permissions of existing shared package cache directories by @jjerphan in #4365 [libmamba] fix: Link libpsl static library for static builds by @mikemhenry in #4355 [libmamba, micromamba] fix: Accept non-s",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
     {
       "title": "7.11.0.1",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.1",
@@ -52,14 +60,6 @@
       "preview": "Deployment at 2026-08-05T09:56:28.129138Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "release libmamba 2.9.0.rc1, micromamba 2.9.0.rc1, libmambapy 2.9.0.rc1",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0.rc1",
-      "published": "2026-08-05T08:38:33Z",
-      "preview": "Signed-off-by: Julien Jerphanion git@jjerphan.xyz",
-      "source": "Mamba releases",
-      "category": "Multi-language"
     },
     {
       "title": "44.12.0",
