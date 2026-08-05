@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-05T05:23:44Z",
-  "cutoff": "2026-07-06T05:23:39Z",
+  "generated": "2026-08-05T07:14:36Z",
+  "cutoff": "2026-07-06T07:14:32Z",
   "feed_count": 79,
-  "item_count": 235,
+  "item_count": 234,
   "categories": [
     ".NET",
     "C/C++",
@@ -1892,14 +1892,6 @@
       "preview": "What's Changed Support package-scoped NuGet release notes by @Cjewett in #15211 Filter null entries from job directories by @brettfo in #15457 devcontainers: preserve major-only Feature pins when precision-matching tags are absent by @thavaahariharangit with @Copilot in #15445 Type opaque hashes in common with T.anything by @JamieMagee in #15458 Type the options passthrough in base classes with T.anything by @JamieMagee in #15459 Apply git-tag cooldown across ecosystems by @robaiken in #15369 Type requirement helpers in the update-checker base class by @JamieMagee in #15461 Select group update",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "6.0.7",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.7",
-      "published": "2026-07-06T07:07:07Z",
-      "preview": "What's Changed ENV/super: set CC and CXX to unversioned gcc on Linux by @cho-m in #22889 audit: require curl dependencies to have a working HTTP mirror by @p-linnane in #22898 Force CMake to find shims before $HOMEBREW_PREFIX/bin by @cho-m in #22916 Improve awkward wording of Backing Up App by @carter-thaxton in #22918 bump-cask-pr: error when update fails by @samford in #22901 contributions: fix type error by @samford in #22915 extend/ENV/super: set CC/CXX to real names for llvm_clang by @cho-m in #22920 bump: fix with invalid arch by @bevanjkay in #22910 style: fix infinite loop in array alp",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
