@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T07:14:36Z",
-  "cutoff": "2026-07-06T07:14:32Z",
+  "generated": "2026-08-05T08:08:47Z",
+  "cutoff": "2026-07-06T08:08:43Z",
   "feed_count": 79,
   "item_count": 234,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.12.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.12.0",
+      "published": "2026-08-05T07:44:58Z",
+      "preview": "44.12.0 (2026-08-05) Features config/validation: validate object entries in the repositories array ( #43033 ) ( 527c141 ), closes #43295",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.11.8",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.8",
@@ -276,14 +284,6 @@
       "preview": "changes with compatibility implications fix: Changes the test ClassLoader to close by default, to fix AccessDeniedException by @eed3si9n in #9538 . Set closeClassLoaders to false to opt out, or Test / fork := true to fork the tests that does not shutdown properly. 🐛 bug fixes fix: Fixes a/build.sbt setting leakage by @eed3si9n in #9519 fix: Fixes sbt runner failing to start sbtn on Windows by @ColOfAbRiX in #9520 fix: Fixes forked run baseDirectory by @eed3si9n in #9531 fix: Fixes remote cache header values with = by @KilianSwissborg in #9534 fix: Fixes pipelined build deadlocks by @BrianHotop",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.10.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.10.0",
-      "published": "2026-08-03T22:51:28Z",
-      "preview": "44.10.0 (2026-08-03) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.81.0 (main) ( #45049 ) ( e765c6f ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.15 (main) ( #45048 ) ( 4525b24 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime",
