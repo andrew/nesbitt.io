@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T00:50:07Z",
-  "cutoff": "2026-07-06T00:50:03Z",
+  "generated": "2026-08-05T02:00:58Z",
+  "cutoff": "2026-07-06T02:00:53Z",
   "feed_count": 79,
   "item_count": 233,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.8.2: Declarative System Bootstrap",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.2",
+      "published": "2026-08-05T01:50:22Z",
+      "preview": "This release turns mise bootstrap into a full declarative host-provisioning system: alongside packages, mise can now converge privileged files, Linux users and groups, systemd services, Docker Compose projects, and firewall rules — all with plan/apply/status workflows, secret handling, and the ability to run over SSH against remote hosts. It also makes Ruby's ruby.compile=false a strict precompiled-only mode and lands a batch of install and lockfile fixes. Highlights mise bootstrap gains a Terraform-style declarative model. A new mise bootstrap plan previews changes with table or JSON output a",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "SDK-3.14.0-93.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-93.0.dev",
@@ -76,14 +84,6 @@
       "preview": "SDK 3.13.0-282.4.beta",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.8.2",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.2",
-      "published": "2026-08-04T22:53:40Z",
-      "preview": "(bootstrap) add declarative resource plans by @jdx in [ #11669 ](…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.8.2",
