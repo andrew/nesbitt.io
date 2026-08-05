@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T11:08:02Z",
-  "cutoff": "2026-07-06T11:07:58Z",
+  "generated": "2026-08-05T11:59:45Z",
+  "cutoff": "2026-07-06T11:59:40Z",
   "feed_count": 79,
   "item_count": 236,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.13.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.1",
+      "published": "2026-08-05T11:26:41Z",
+      "preview": "44.13.1 (2026-08-05) Build System deps: update yarn monorepo (main) ( #45083 ) ( ce414fb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.13.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.0",
@@ -242,14 +250,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.2",
       "published": "2026-08-04T08:19:54Z",
       "preview": "44.11.2 (2026-08-04) Bug Fixes datasource/docker: don't follow Link headers with different hosts ( 8a9f9cd ) datasource/nuget: don't follow Link headers with different hosts ( 7d2335e ) Miscellaneous Chores add a linting rule to enforce resolveSameOriginUrl ( ae40fbb ) Code Refactoring util: add a helper method for resolveSameOriginUrl ( 7f7b039 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.11.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.1",
-      "published": "2026-08-04T05:21:58Z",
-      "preview": "44.11.1 (2026-08-04) Bug Fixes gerrit: build SSH clone URLs with hostname only ( #44584 ) ( e14a11a )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
