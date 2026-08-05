@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-05T15:03:37Z",
-  "cutoff": "2026-07-06T15:03:33Z",
+  "generated": "2026-08-05T18:52:18Z",
+  "cutoff": "2026-07-06T18:52:13Z",
   "feed_count": 79,
-  "item_count": 236,
+  "item_count": 237,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.7.4-beta-20260805: Merge pull request #3916 from st3phhays/log4net-lib",
+      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.4-beta-20260805",
+      "published": "2026-08-05T17:50:31Z",
+      "preview": "( #3915 ) Update log4net in chocolatey.lib",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
     {
       "title": "44.13.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.2",
@@ -228,6 +236,14 @@
       "preview": "The Gradle team is excited to announce Gradle 9.7.0 RC3. Here are the highlights of this release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Anton Dubrouski , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 , Qin Mi , Ravi , sk-reddy17 , Suvrat Acharya , Yongshun Ye Upgrade instructions Switch your build to use Gradle 9.7.0",
       "source": "Gradle releases",
       "category": "Maven"
+    },
+    {
+      "title": "1.4.7-beta-20260805: Merge pull request #3925 from alexaveldanez/update-7zip-version",
+      "url": "https://github.com/chocolatey/choco/releases/tag/1.4.7-beta-20260805",
+      "published": "2026-08-04T16:01:31Z",
+      "preview": "( #3918 ) Update 7zip to 26.02",
+      "source": "Chocolatey releases",
+      "category": "System"
     },
     {
       "title": "1.16.6",
@@ -1900,14 +1916,6 @@
       "preview": "What's Changed test/bundle/brew_spec: allow running test on generic OS by @cho-m in #22973 Add source option to brew bundle uv tools by @danielfleischer in #22963 test/test_bot_spec: use :trust_store context when testing trust by @cho-m in #22972 Update issue links in docs to use correct template by @SMillerDev in #22982 Store bottle SBOM data in manifests by @MikeMcQuaid in #22981 Clarify install output for durations and single deps by @HaraldNordgren in #22980 perf/sorbet: skip sorbet-runtime dispatch when runtime disabled (~6-8% faster) by @dduugg in #22978 Fix stale cask upgrade metadata b",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "v0.385.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.385.0",
-      "published": "2026-07-06T18:31:05Z",
-      "preview": "What's Changed Support package-scoped NuGet release notes by @Cjewett in #15211 Filter null entries from job directories by @brettfo in #15457 devcontainers: preserve major-only Feature pins when precision-matching tags are absent by @thavaahariharangit with @Copilot in #15445 Type opaque hashes in common with T.anything by @JamieMagee in #15458 Type the options passthrough in base classes with T.anything by @JamieMagee in #15459 Apply git-tag cooldown across ecosystems by @robaiken in #15369 Type requirement helpers in the update-checker base class by @JamieMagee in #15461 Select group update",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
