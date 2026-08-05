@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-05T02:00:58Z",
-  "cutoff": "2026-07-06T02:00:53Z",
+  "generated": "2026-08-05T03:26:18Z",
+  "cutoff": "2026-07-06T03:26:14Z",
   "feed_count": 79,
-  "item_count": 233,
+  "item_count": 235,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v4.0.18",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.18",
+      "published": "2026-08-05T02:16:51Z",
+      "preview": "RubyGems 4.0.18 Enhancements: Check the resolved parent directory before extracting old format gems. Pull request #9755 by hsbt Installs bundler 4.0.18 as a default gem. Bug fixes: Call Kernel.format explicitly in Gem::Deprecate wrapper. Pull request #9714 by hsbt Documentation: Point bundler.io URLs at guides.rubygems.org. Pull request #9737 by hsbt Bundler 4.0.18 Enhancements: Don't mask install errors when no Gemfile can be located. Pull request #9757 by hsbt Warn when duplicate source declarations conflict on cooldown. Pull request #9736 by hsbt Redact URI userinfo from settings names in B",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
     {
       "title": "v2026.8.2: Declarative System Bootstrap",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.2",
@@ -84,6 +92,14 @@
       "preview": "SDK 3.13.0-282.4.beta",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "4.0.18 Released",
+      "url": "https://blog.rubygems.org/2026/08/05/4.0.18-released.html",
+      "published": "2026-08-05T00:00:00Z",
+      "preview": "RubyGems 4.0.18 includes enhancements, bug fixes and documentation and Bundler 4.0.18 includes enhancements, bug fixes, security and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.18 RubyGems Release Notes Enhancements: Check the resolved parent directory before extracting old format gems. Pull request #9755 by hsbt Installs bundler 4.0.18 as a default gem. Bug fixes: Call Kernel.format explicitly in Gem::Deprecate wrapper. Pull request #9714 by hsbt Do",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
     },
     {
       "title": "vfox-v2026.8.2",
