@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T11:59:45Z",
-  "cutoff": "2026-07-06T11:59:40Z",
+  "generated": "2026-08-05T12:58:35Z",
+  "cutoff": "2026-07-06T12:58:30Z",
   "feed_count": 79,
   "item_count": 236,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.11.0.1",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.1",
+      "published": "2026-08-05T12:34:05Z",
+      "preview": "Insert 7.11.0.1 into main on 08/05/2026 12:34:05",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "44.13.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.1",
@@ -1556,14 +1564,6 @@
       "preview": "ORAS CLI v1.3.3 is a maintenance release focused on security hardening, dependency updates, and a few user-facing improvements to oras attach . Highlights 🔒 Security: upgraded oras-go to v2.6.2 , which addresses a tar-extraction path-traversal advisory ( GHSA-fxhp-mv3v-67qp ) affecting hardlink entries during pull /extract. ✨ oras attach gains --config support, and --annotation $config:* values now flow through to the packed manifest. 🛡️ Supply-chain hardening: GitHub Actions are now pinned to commit SHAs, SBOMs are attached to release artifacts, and static security scanning (gosec) runs in CI",
       "source": "ORAS releases",
       "category": "Containers"
-    },
-    {
-      "title": "7.10.0.8",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.8",
-      "published": "2026-07-14T12:38:48Z",
-      "preview": "Insert 7.10.0.8 into main on 07/14/2026 12:38:48",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "20260714t095300-all",
