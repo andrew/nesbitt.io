@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T10:15:00Z",
-  "cutoff": "2026-07-06T10:14:55Z",
+  "generated": "2026-08-05T11:08:02Z",
+  "cutoff": "2026-07-06T11:07:58Z",
   "feed_count": 79,
   "item_count": 236,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.13.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.0",
+      "published": "2026-08-05T10:51:03Z",
+      "preview": "44.13.0 (2026-08-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.0 (main) ( #45084 ) ( 6e9352c ) Miscellaneous Chores deps: update dependency pnpm to v11.18.0 (main) ( #45080 ) ( 6950cb2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "20260805t095600-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260805t095600-all",
@@ -242,14 +250,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.1",
       "published": "2026-08-04T05:21:58Z",
       "preview": "44.11.1 (2026-08-04) Bug Fixes gerrit: build SSH clone URLs with hostname only ( #44584 ) ( e14a11a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.11.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.0",
-      "published": "2026-08-04T02:56:56Z",
-      "preview": "44.11.0 (2026-08-04) Features datasource/aws-machine-image: support AWS AMI host rule credentials ( #44853 ) ( cb453f6 ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.81.1 (main) ( #45050 ) ( 1bfd4a6 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
