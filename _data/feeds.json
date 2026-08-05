@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-05T19:52:55Z",
-  "cutoff": "2026-07-06T19:52:50Z",
+  "generated": "2026-08-05T20:44:07Z",
+  "cutoff": "2026-07-06T20:44:02Z",
   "feed_count": 79,
-  "item_count": 237,
+  "item_count": 236,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v12.0.0-rc.0",
+      "title": "pnpm 12 RC 0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.0",
-      "published": "2026-08-05T19:42:22Z",
-      "preview": "v12.0.0-rc.0",
+      "published": "2026-08-05T20:20:09Z",
+      "preview": "Minor Changes Running pnpm setup , pnpm self-update , or a command that modifies the global installation (such as pnpm add --global ) through sudo now fails with ERR_PNPM_SUDO_NOT_SUPPORTED instead of silently operating on the root user's home directory. pnpm keeps global packages and configuration in the invoking user's home directory, so these commands never need root permissions. Read-only global commands (such as pnpm bin --global ) still work under sudo. Patch Changes Archive entries whose paths use \\ as a separator are now read the same way pnpm reads them. A nested path spelled bin\\tool",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -1908,14 +1908,6 @@
       "preview": "Release Notes Released on 2026-07-06. Enhancements Continue on ignored errors when fetching wheel metadata ( #12255 ) Use caching for --python-downloads-json-url ( #16749 ) Preview features Discover extensionless shebang scripts in uv workspace list --scripts ( #20099 ) Performance Avoid full site-packages scans for direct reinstalls ( #20119 ) Avoid redundant pyproject parsing ( #20076 ) Cache default dependency markers when reading locks ( #20125 ) Enable SIMD-accelerated TOML parsing ( #20079 ) Intern requires-python specifiers in Simple API parsing ( #20104 ) Read cache entries into exact-",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "2.34.8",
-      "url": "https://github.com/NixOS/nix/releases/tag/2.34.8",
-      "published": "2026-07-06T20:22:24Z",
-      "preview": "Tagging release 2.34.8",
-      "source": "Nix releases",
-      "category": "System"
     }
   ]
 }
