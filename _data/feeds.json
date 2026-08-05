@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T21:45:14Z",
-  "cutoff": "2026-07-06T21:45:09Z",
+  "generated": "2026-08-05T22:39:37Z",
+  "cutoff": "2026-07-06T22:39:32Z",
   "feed_count": 79,
   "item_count": 234,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.13.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.3",
+      "published": "2026-08-05T21:52:51Z",
+      "preview": "44.13.3 (2026-08-05) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.1 (main) ( #45099 ) ( 814c4dc ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.16 (main) ( #45095 ) ( d7d23ac ) deps: update dependency astral-sh/uv to v0.12.2 (main) ( #45097 ) ( 09fb3c4 ) deps: update dependency uv to v0.12.2 (main) ( #45098 ) ( dd657f3 ) Continuous Integration migrate to pnpm/setup ( #45035 ) ( 144ba37 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 12 RC 0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.0",
@@ -284,14 +292,6 @@
       "preview": "[0.76.1] - 2026-08-04 ✨ Highlights This release features an improved pixi task list and a revamped docs page based on Zensical. Changed Correct task list runnability and show every task by @hunger in #6367 Documentation Switch from mkdocs to zensical by @Hofer-Julian in #6572 Fixed Honour editable = true in transitive [tool.uv.sources] at install time by @earlybard in #6730 New Contributors @earlybard made their first contribution in #6730",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.11.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.3",
-      "published": "2026-08-04T08:54:35Z",
-      "preview": "44.11.3 (2026-08-04) Bug Fixes platform/github: don't follow Link headers with different hosts ( edb2217 ) platform/gitlab: don't follow Link headers with different hosts ( a160e39 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-01-a",
