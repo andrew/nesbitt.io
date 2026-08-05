@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T18:52:18Z",
-  "cutoff": "2026-07-06T18:52:13Z",
+  "generated": "2026-08-05T19:52:55Z",
+  "cutoff": "2026-07-06T19:52:50Z",
   "feed_count": 79,
   "item_count": 237,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.0.0-rc.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.0",
+      "published": "2026-08-05T19:42:22Z",
+      "preview": "v12.0.0-rc.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "0.12.2",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.2",
+      "published": "2026-08-05T19:22:56Z",
+      "preview": "Release Notes Released on 2026-08-05. Python Add CPython 3.15.0rc1 ( #20948 ) Add CPython 3.14.7 ( #20971 ) Enhancements Ensure diagnostic hints end with a newline to prevent malformed terminal output ( #20959 ) Preview features Audit one or all installed tools with uv tool audit ( #20921 ) Report physically reclaimed disk space during cache cleanup with the cache-physical-space preview feature ( #20925 ) Configuration Add UV_RUN_RLIMIT_NOFILE to set the open-file limit for commands launched by uv run ( #20926 ) Performance Speed up uv.lock parsing for wheel entries ( #20881 ) Speed up uv.lock",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "2.7.4-beta-20260805: Merge pull request #3916 from st3phhays/log4net-lib",
       "url": "https://github.com/chocolatey/choco/releases/tag/2.7.4-beta-20260805",
@@ -1086,14 +1102,6 @@
       "category": "Python"
     },
     {
-      "title": "pnpm 12 Alpha 20",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.20",
-      "published": "2026-07-23T17:58:57Z",
-      "preview": "Patch Changes Close three CLI parity gaps with the TypeScript pnpm CLI: --registry <url> is now accepted on every command as a universal rc-option, not only through --config.registry=<url> ( pnpm view pnpm dist-tags.latest --registry=https://registry.npmjs.org/ ). pnpm add (and pnpm add -g ) now accept --allow-build=<pkg> , appending the named packages to allowBuilds so they can run their lifecycle scripts during the install ( pnpm add @pnpm/exe@11.16.0 --allow-build=@pnpm/exe ). --dir / -C is now position-independent: it is accepted anywhere on the command line, before or after the subcommand",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v2.9.4",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.4",
       "published": "2026-07-23T16:59:31Z",
@@ -1907,14 +1915,6 @@
       "published": "2026-07-06T20:22:24Z",
       "preview": "Tagging release 2.34.8",
       "source": "Nix releases",
-      "category": "System"
-    },
-    {
-      "title": "6.0.8",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.8",
-      "published": "2026-07-06T19:02:09Z",
-      "preview": "What's Changed test/bundle/brew_spec: allow running test on generic OS by @cho-m in #22973 Add source option to brew bundle uv tools by @danielfleischer in #22963 test/test_bot_spec: use :trust_store context when testing trust by @cho-m in #22972 Update issue links in docs to use correct template by @SMillerDev in #22982 Store bottle SBOM data in manifests by @MikeMcQuaid in #22981 Clarify install output for durations and single deps by @HaraldNordgren in #22980 perf/sorbet: skip sorbet-runtime dispatch when runtime disabled (~6-8% faster) by @dduugg in #22978 Fix stale cask upgrade metadata b",
-      "source": "Homebrew releases",
       "category": "System"
     }
   ]
