@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05T14:00:44Z",
-  "cutoff": "2026-07-06T14:00:39Z",
+  "generated": "2026-08-05T15:03:37Z",
+  "cutoff": "2026-07-06T15:03:33Z",
   "feed_count": 79,
   "item_count": 236,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.13.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.2",
+      "published": "2026-08-05T14:15:36Z",
+      "preview": "44.13.2 (2026-08-05) Build System deps: update dependency @renovatebot/detect-tools to v4.0.11 (main) ( #44979 ) ( bce1f27 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.9.0.rc1",
       "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0.rc1",
@@ -250,14 +258,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.3",
       "published": "2026-08-04T08:54:35Z",
       "preview": "44.11.3 (2026-08-04) Bug Fixes platform/github: don't follow Link headers with different hosts ( edb2217 ) platform/gitlab: don't follow Link headers with different hosts ( a160e39 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.11.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.2",
-      "published": "2026-08-04T08:19:54Z",
-      "preview": "44.11.2 (2026-08-04) Bug Fixes datasource/docker: don't follow Link headers with different hosts ( 8a9f9cd ) datasource/nuget: don't follow Link headers with different hosts ( 7d2335e ) Miscellaneous Chores add a linting rule to enforce resolveSameOriginUrl ( ae40fbb ) Code Refactoring util: add a helper method for resolveSameOriginUrl ( 7f7b039 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
