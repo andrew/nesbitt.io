@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-06T15:02:14Z",
-  "cutoff": "2026-07-07T15:02:10Z",
+  "generated": "2026-08-06T23:35:19Z",
+  "cutoff": "2026-07-07T23:35:15Z",
   "feed_count": 79,
-  "item_count": 237,
+  "item_count": 234,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Windows Package Manager 1.30.90-preview",
+      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.90-preview",
+      "published": "2026-08-06T16:55:21Z",
+      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Updated NUnit to v4 Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Bubble up child process errors in IndexCreationTool by Tom Plant (@pl4nty) in #6261 Bump brace-expansion and @vscode/vsce in /tools/WinG",
+      "source": "winget releases",
+      "category": "System"
+    },
+    {
+      "title": "v2.9.5",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.5",
+      "published": "2026-08-06T15:05:43Z",
+      "preview": "2.9.5 / 2026.08.06 feat(add): --unscoped flag to alias packages by their unscoped name ( #36319 ) feat(task): add --members flag to run tasks in workspace members only ( #35748 ) feat: add Blob/Body textStream() ( #35616 ) feat: add experimental QuickJS backend ( #36194 ) fix(bundle): avoid esbuild protocol deadlock ( #36427 ) fix(bundle): respect runtime file permissions ( #36107 ) fix(cjs): use loader sources for recursive analysis ( #36111 ) fix(cli): escape control characters in external metadata ( #36198 ) fix(core): don't resolve internal module imports with the user's import map ( #3630",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
     {
       "title": "9.7.0",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0",
@@ -52,14 +68,6 @@
       "preview": "Deployment at 2026-08-06T12:05:00.025851Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2.9.5: chore(release): publish dependency crates with --no-verify",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.5",
-      "published": "2026-08-06T11:40:26Z",
-      "preview": "The dependency crates can't be built standalone since the deno_v8 facade landed: they depend on deno_core with default features off, so no engine feature is selected and deno_v8 hits its compile_error!. Cargo's tarball verification builds each crate on its own, so it fails. Engine selection happens at the top of the tree, which verification can't reproduce.",
-      "source": "Deno releases",
-      "category": "JavaScript"
     },
     {
       "title": "v29.7.2",
@@ -460,6 +468,14 @@
       "preview": "What's Changed workflows/docker: align deprecation of 22.04 image by @cho-m in #23378 Add PHP configuration action (16/24) by @MikeMcQuaid in #23191 Add Python bootstrap action (17/24) by @MikeMcQuaid in #23192 Align shared install step interfaces (18/24) by @MikeMcQuaid in #23193 Align install step autocorrections (20/24) by @MikeMcQuaid in #23195 Document canonical install steps (21/24) by @MikeMcQuaid in #23196 Plan remaining install hook migration (22/24) by @MikeMcQuaid in #23197 Bridge cask flight step migrations (19/26) by @MikeMcQuaid in #23382 Update migration delivery plan (23/24) by",
       "source": "Homebrew releases",
       "category": "System"
+    },
+    {
+      "title": "June and July 2026 Releases",
+      "url": "https://conda.org/blog/2026-08-03-july-releases",
+      "published": "2026-08-03T00:00:00Z",
+      "preview": "June and July releases across the conda org: conda and conda-build 26.7.0, constructor 3.16, libmamba and conda-pypi updates, faster solves in rattler, and more. 🎉",
+      "source": "Conda Blog",
+      "category": "Multi-language"
     },
     {
       "title": "pnpm 11.20",
@@ -1876,46 +1892,6 @@
       "preview": "Fixed Only rewrite the shebang of a shared script when a Python shebang is present on the first line, preserving binary files and other content verbatim instead of dropping leading bytes.",
       "source": "Hatch releases",
       "category": "Python"
-    },
-    {
-      "title": "0.11.28",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.28",
-      "published": "2026-07-07T23:14:13Z",
-      "preview": "Release Notes Released on 2026-07-07. Security This release updates our ZIP library, astral-async-zip , to v0.0.20, which includes 15 changes that harden our ZIP handling against parser differentials . uv may reject ZIP archives with malformed or ambiguous content that were previously accepted. See the upstream commits for a full list of changes. Python Upgrade GraalPy to 25.1.3 ( #20069 ) Enhancements Improve trace logs for unexpected error chains ( #20220 ) Move lockfile update guidance to a hint ( #20219 ) Preserve indentation for multiline error causes ( #20156 ) Render user errors with th",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
-      "title": "[release-branch.go1.27] go1.27rc2",
-      "url": "https://github.com/golang/go/releases/tag/go1.27rc2",
-      "published": "2026-07-07T19:42:34Z",
-      "preview": "Change-Id: Iee4d231b5b040576ab9c1175ba726e03090fff7c Reviewed-on: https://go-review.googlesource.com/c/go/+/797800 TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Junyang Shao shaojunyang@google.com Reviewed-by: David Chase drchase@google.com Auto-Submit: Gopher Robot gobot@golang.org",
-      "source": "Go releases",
-      "category": "Go"
-    },
-    {
-      "title": "[release-branch.go1.25] go1.25.12",
-      "url": "https://github.com/golang/go/releases/tag/go1.25.12",
-      "published": "2026-07-07T19:29:20Z",
-      "preview": "Change-Id: Ie3ced7f6cf7301d878818c6ec858b659bb5f04df Reviewed-on: https://go-review.googlesource.com/c/go/+/797760 Reviewed-by: Junyang Shao shaojunyang@google.com Reviewed-by: David Chase drchase@google.com Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org",
-      "source": "Go releases",
-      "category": "Go"
-    },
-    {
-      "title": "[release-branch.go1.26] go1.26.5",
-      "url": "https://github.com/golang/go/releases/tag/go1.26.5",
-      "published": "2026-07-07T19:29:04Z",
-      "preview": "Change-Id: I87dc3d84cde11db83a0d88a60262a38fc429838d Reviewed-on: https://go-review.googlesource.com/c/go/+/797740 Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: David Chase drchase@google.com Reviewed-by: Junyang Shao shaojunyang@google.com TryBot-Bypass: Gopher Robot gobot@golang.org",
-      "source": "Go releases",
-      "category": "Go"
-    },
-    {
-      "title": "v1.2.1 (2026-07-06)",
-      "url": "https://github.com/spack/spack/releases/tag/v1.2.1",
-      "published": "2026-07-07T16:26:27Z",
-      "preview": "Bug fixes Installer bugfixes: Fix a hang of the new installer when running under forkserver ( #52621 ) Sanitize the computed build log filename ( #52660 ) Allow local installs for packages missing in upstream ( #52630 ) Restore working_dir in build subprocess ( #52576 ) Solver bugfixes: Restore performance on macOS ( #52604 , #52603 ) Fix the solver heuristic for build_set_id ( #52634 ) Drop noisy debug message ( #52640 ) Fix environment view regeneration when using multiple overlayfs layers ( #52594 ) Fix spack cd -e and other dash-prefixed args in fish ( #52586 ) Fix spack location with -v /",
-      "source": "Spack releases",
-      "category": "Multi-language"
     }
   ]
 }
