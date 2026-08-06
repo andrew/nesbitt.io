@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-06T03:27:40Z",
-  "cutoff": "2026-07-07T03:27:35Z",
+  "generated": "2026-08-06T07:15:07Z",
+  "cutoff": "2026-07-07T07:15:02Z",
   "feed_count": 79,
   "item_count": 235,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.14.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.0",
+      "published": "2026-08-06T06:55:42Z",
+      "preview": "44.14.0 (2026-08-06) Features github-actions: add support for pnpm/setup ( #45094 ) ( fa17e59 ) Miscellaneous Chores deps: update dependency npm-run-all2 to v9 (main) ( #45101 ) ( 5149a03 ) deps: update pnpm/setup action to v2 (main) ( #45102 ) ( da0534a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-99.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-99.0.dev",
@@ -310,14 +318,6 @@
       "category": "Python"
     },
     {
-      "title": "44.11.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.4",
-      "published": "2026-08-04T11:06:33Z",
-      "preview": "44.11.4 (2026-08-04) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.81.2 (main) ( #45060 ) ( 699b85d ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.6 (main) ( #45059 ) ( 8f294ca )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v0.76.1",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.76.1",
       "published": "2026-08-04T10:46:19Z",
@@ -497,7 +497,7 @@
       "title": "2026-07-27 Release",
       "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-27",
       "published": "2026-07-31T23:10:53Z",
-      "preview": "What's Changed Update scripts SHA 2026-07-27 and add explicit override feature. by @BillyONeal in #2086 Full Changelog : 2026-07-24...2026-07-27",
+      "preview": "What's Changed Update scripts SHA 2026-07-27 and add explicit override feature. by Billy O'Neal (@BillyONeal) in #2086 Full Changelog : 2026-07-24...2026-07-27",
       "source": "vcpkg releases",
       "category": "C/C++"
     },
@@ -953,7 +953,7 @@
       "title": "Windows Package Manager 1.30.80-preview",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.80-preview",
       "published": "2026-07-29T00:21:04Z",
-      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Updated NUnit to v4 Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Bump js-yaml from 4.1.1 to 4.3.0 in /tools/WinGetLogViewer by @dependabot [bot] in #6359 Fix portable tests impacted by ADO image by @Jo",
+      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Updated NUnit to v4 Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Bump js-yaml from 4.1.1 to 4.3.0 in /tools/WinGetLogViewer by Dependabot (@dependabot) [bot] in #6359 Fix portable tests impacted by ADO",
       "source": "winget releases",
       "category": "System"
     },
@@ -1137,7 +1137,7 @@
       "title": "Windows Package Manager 1.30.70-preview",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.70-preview",
       "published": "2026-07-22T22:34:52Z",
-      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Apply latest loc patch by @florelis in #6262 Remove old Store certs, replace test use with generated ones by @JohnMcPMS in #6275 Add .gitattributes and norm",
+      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Apply latest loc patch by Flor Chacón (@florelis) in #6262 Remove old Store certs, replace test use with generated ones by JohnMcPMS in #6275 Add .gitattrib",
       "source": "winget releases",
       "category": "System"
     },
@@ -1401,7 +1401,7 @@
       "title": "Windows Package Manager 1.30.50-preview",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.50-preview",
       "published": "2026-07-17T23:19:56Z",
-      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Apply latest loc patch by @florelis in #6262 Remove old Store certs, replace test use with generated ones by @JohnMcPMS in #6275 Add .gitattributes and norm",
+      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Apply latest loc patch by Flor Chacón (@florelis) in #6262 Remove old Store certs, replace test use with generated ones by JohnMcPMS in #6275 Add .gitattrib",
       "source": "winget releases",
       "category": "System"
     },
