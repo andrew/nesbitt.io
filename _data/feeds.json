@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-06T14:00:09Z",
-  "cutoff": "2026-07-07T14:00:04Z",
+  "generated": "2026-08-06T15:02:14Z",
+  "cutoff": "2026-07-07T15:02:10Z",
   "feed_count": 79,
   "item_count": 237,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "9.7.0",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0",
+      "published": "2026-08-06T14:57:58Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.7.0. Here are the highlights of this release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Anton Dubrouski , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 , Qin Mi , Ravi , sk-reddy17 , Suvrat Acharya , Yongshun Ye . Upgrade instructions Switch your build to use Gradle 9.7.0 b",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "44.14.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.3",
+      "published": "2026-08-06T14:24:02Z",
+      "preview": "44.14.3 (2026-08-06) Bug Fixes workers/global: sanitise COREPACK_NPM_{TOKEN,PASSWORD} in logs ( #45116 ) ( 244bfe1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.14.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.2",
@@ -218,14 +234,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.8",
       "published": "2026-08-05T04:48:03Z",
       "preview": "44.11.8 (2026-08-05) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.81.6 (main) ( #45078 ) ( 7ae4708 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.11.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.7",
-      "published": "2026-08-05T03:49:36Z",
-      "preview": "44.11.7 (2026-08-05) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.81.5 (main) ( #45077 ) ( 7da69ea )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1907,14 +1915,6 @@
       "published": "2026-07-07T16:26:27Z",
       "preview": "Bug fixes Installer bugfixes: Fix a hang of the new installer when running under forkserver ( #52621 ) Sanitize the computed build log filename ( #52660 ) Allow local installs for packages missing in upstream ( #52630 ) Restore working_dir in build subprocess ( #52576 ) Solver bugfixes: Restore performance on macOS ( #52604 , #52603 ) Fix the solver heuristic for build_set_id ( #52634 ) Drop noisy debug message ( #52640 ) Fix environment view regeneration when using multiple overlayfs layers ( #52594 ) Fix spack cd -e and other dash-prefixed args in fish ( #52586 ) Fix spack location with -v /",
       "source": "Spack releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "v0.20.0",
-      "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.20.0",
-      "published": "2026-07-07T14:05:43Z",
-      "preview": "0.20.0 (2026-07-07) Features add warning to asdf info output when ASDF_TOOL_VERSIONS_FILENAME value is invalid ( #2293 ) ( 244e513 ) Bug Fixes shallow clone plugin repositories for faster installs ( #2256 ) ( badc9db ) update nushell completion code so it works on latest version of nushell ( #2275 ) ( 51ebfb4 )",
-      "source": "asdf releases",
       "category": "Multi-language"
     }
   ]
