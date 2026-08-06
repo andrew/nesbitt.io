@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-06T07:15:07Z",
-  "cutoff": "2026-07-07T07:15:02Z",
+  "generated": "2026-08-06T08:07:39Z",
+  "cutoff": "2026-07-07T08:07:36Z",
   "feed_count": 79,
   "item_count": 235,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.14.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.1",
+      "published": "2026-08-06T07:52:33Z",
+      "preview": "44.14.1 (2026-08-06) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.2 (main) ( #45103 ) ( c4756c3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.14.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.0",
@@ -284,14 +292,6 @@
       "preview": "Bugfix: conan upload .. --dry-run -f=json > to_upload.json now allows round-trip for conan upload -l=to_upload.json without re-preparing the artifacts. ( #20237 )",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "44.11.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.5",
-      "published": "2026-08-04T18:55:26Z",
-      "preview": "44.11.5 (2026-08-04) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.81.3 (main) ( #45073 ) ( 7e67ccd ) Documentation config: clarify how to use repositories ( #45061 ) ( 190f8d5 ) validate JSONC and Javascript code blocks ( #45063 ) ( 8108714 ) Miscellaneous Chores deps: update github/codeql-action action to v4.37.6 (main) ( #45066 ) ( 52c5ba2 ) Tests config/validation: ensure that errors and warnings are always checked and that we don't length check ( #45065 ) ( 23dd568 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "9.7.0 RC3",
@@ -1001,7 +1001,7 @@
       "title": "2026-07-24 Release",
       "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-24",
       "published": "2026-07-27T18:58:58Z",
-      "preview": "This release failed validation due to an unexpected HEAD_REF being passed to vcpkg_download_distfile by liblas so it will not be promoted, but it should work if you aren't doing that: https://dev.azure.com/vcpkg/public/_build/results?buildId=134909&view=results What's Changed Update vcpkg-tool-release-process. by @BillyONeal in #2070 Use canonical vcpkg PURLs in dependency snapshots by @JamieMagee in #2072 Add Git tree gitoids to SPDX SBOMs by @JamieMagee in #2074 Fix dependency snapshot relationships and correlators by @JamieMagee in #2073 Fix Qt plugins deployment with z-applocal by @vicroms",
+      "preview": "This release failed validation due to an unexpected HEAD_REF being passed to vcpkg_download_distfile by liblas so it will not be promoted, but it should work if you aren't doing that: https://dev.azure.com/vcpkg/public/_build/results?buildId=134909&view=results What's Changed Update vcpkg-tool-release-process. by Billy O'Neal (@BillyONeal) in #2070 Use canonical vcpkg PURLs in dependency snapshots by Jamie Magee (@JamieMagee) in #2072 Add Git tree gitoids to SPDX SBOMs by Jamie Magee (@JamieMagee) in #2074 Fix dependency snapshot relationships and correlators by Jamie Magee (@JamieMagee) in #2",
       "source": "vcpkg releases",
       "category": "C/C++"
     },
@@ -1585,7 +1585,7 @@
       "title": "2026-07-13 Release",
       "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-13",
       "published": "2026-07-14T21:26:44Z",
-      "preview": "What's Changed Fix collide on shared .partial extraction directory on POSIX by @Erik-White in #2036 Sanitize DESTDIR on non-Windows platforms by @BillyONeal in #2039 Update NPM dependencies. by @BillyONeal in #2047 Support CURL_CA_BUNDLE like the curl command line tool by @Matus-p in #2042 [curl] Add VCPKG_SSL_REVOKE_BEST_EFFORT to fix Schannel proxy revocation errors by @sdn9002 in #2043 Change GITHUB_SERVER_URL to GITHUB_API_URL to allow submission of dependency graph data again by @rwindegger in #2056 [z-applocal] Only log dependency deployment details with --verbose by @ricardoofnl in #205",
+      "preview": "What's Changed Fix collide on shared .partial extraction directory on POSIX by Erik White (@Erik-White) in #2036 Sanitize DESTDIR on non-Windows platforms by Billy O'Neal (@BillyONeal) in #2039 Update NPM dependencies. by Billy O'Neal (@BillyONeal) in #2047 Support CURL_CA_BUNDLE like the curl command line tool by Matus-p in #2042 [curl] Add VCPKG_SSL_REVOKE_BEST_EFFORT to fix Schannel proxy revocation errors by Sezgin Niyaziev (@sdn9002) in #2043 Change GITHUB_SERVER_URL to GITHUB_API_URL to allow submission of dependency graph data again by Rene Windegger (@rwindegger) in #2056 [z-applocal] ",
       "source": "vcpkg releases",
       "category": "C/C++"
     },
