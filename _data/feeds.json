@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-06T11:09:31Z",
-  "cutoff": "2026-07-07T11:09:25Z",
+  "generated": "2026-08-06T12:00:11Z",
+  "cutoff": "2026-07-07T12:00:07Z",
   "feed_count": 79,
-  "item_count": 236,
+  "item_count": 237,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.9.5: chore(release): publish dependency crates with --no-verify",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.5",
+      "published": "2026-08-06T11:40:26Z",
+      "preview": "The dependency crates can't be built standalone since the deno_v8 facade landed: they depend on deno_core with default features off, so no engine feature is selected and deno_v8 hits its compile_error!. Cargo's tarball verification builds each crate on its own, so it fails. Engine selection happens at the top of the tree, which verification can't reproduce.",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v29.7.2",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.2",
