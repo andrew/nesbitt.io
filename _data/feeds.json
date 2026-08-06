@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-06T08:07:39Z",
-  "cutoff": "2026-07-07T08:07:36Z",
+  "generated": "2026-08-06T11:09:31Z",
+  "cutoff": "2026-07-07T11:09:25Z",
   "feed_count": 79,
-  "item_count": 235,
+  "item_count": 236,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.7.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.2",
+      "published": "2026-08-06T10:35:19Z",
+      "preview": "29.7.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.2 milestone moby/moby, 29.7.2 milestone Bug fixes and enhancements Fix docker service create and docker service update panicking when the same environment variable is passed more than once. docker/cli#7145 Fix a regression introduced in Docker Engine 29.7.0 that caused image pulls to reject images containing absolute hardlink targets, as produced by some image builders. moby/moby#53305 Fix a regression introduced in Docker Engine 29.7.0 that could cause image pulls and",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "44.14.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.1",
