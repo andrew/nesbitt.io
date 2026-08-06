@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-06T12:58:57Z",
-  "cutoff": "2026-07-07T12:58:52Z",
+  "generated": "2026-08-06T14:00:09Z",
+  "cutoff": "2026-07-07T14:00:04Z",
   "feed_count": 79,
-  "item_count": 238,
+  "item_count": 237,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.14.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.2",
+      "published": "2026-08-06T13:49:02Z",
+      "preview": "44.14.2 (2026-08-06) Bug Fixes datasource/docker: fetch all pages for cgr.dev ( #45114 ) ( d7ce060 ) Miscellaneous Chores add linter rule for shell: true usage ( #45110 ) ( 52ff375 ) deps: update actions/cache action to v6 (main) ( #45104 ) ( ec7aadb ) deps: update actions/checkout action to v7 (main) ( #45105 ) ( db79937 ) deps: update codecov/codecov-action action to v7 (main) ( #45106 ) ( 0593955 ) deps: update dependency astral-sh/setup-uv to v9 (main) ( #45100 ) ( 7840681 ) deps: update dependency vite to v8.2.0 (main) ( #45115 ) ( 9d02537 ) deps: update slackapi/slack-github-action actio",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "20260806t120500-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260806t120500-all",
@@ -300,14 +308,6 @@
       "preview": "Release 26.2.1",
       "source": "pip releases",
       "category": "Python"
-    },
-    {
-      "title": "44.11.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.6",
-      "published": "2026-08-04T20:53:34Z",
-      "preview": "44.11.6 (2026-08-04) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.81.4 (main) ( #45076 ) ( 374fa3f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.31.2 (04-Aug-2026)",
@@ -1916,14 +1916,6 @@
       "preview": "0.20.0 (2026-07-07) Features add warning to asdf info output when ASDF_TOOL_VERSIONS_FILENAME value is invalid ( #2293 ) ( 244e513 ) Bug Fixes shallow clone plugin repositories for faster installs ( #2256 ) ( badc9db ) update nushell completion code so it works on latest version of nushell ( #2275 ) ( 51ebfb4 )",
       "source": "asdf releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "Immutable Versions on Packagist",
-      "url": "https://blog.packagist.com/immutable-versions-on-packagist/",
-      "published": "2026-07-07T13:56:17Z",
-      "preview": "This is the next post in our supply chain security series, following the supply chain security update and the Composer 2.10 release . Each post in this series covers a specific behavior worth understanding, and a change we are making on top of it. Today: Stable version metadata on Packagist.",
-      "source": "Packagist Blog",
-      "category": "PHP"
     }
   ]
 }
