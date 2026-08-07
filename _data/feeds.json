@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-07T04:58:30Z",
-  "cutoff": "2026-07-08T04:58:27Z",
+  "generated": "2026-08-07T07:48:06Z",
+  "cutoff": "2026-07-08T07:48:02Z",
   "feed_count": 79,
-  "item_count": 234,
+  "item_count": 233,
   "categories": [
     ".NET",
     "C/C++",
@@ -24,7 +24,7 @@
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-07T04:16:01Z",
+      "published": "2026-08-07T07:19:32Z",
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
@@ -1884,14 +1884,6 @@
       "preview": "Security: Validate package names ( GHSA-499r-g7pc-vmp9 / CVE-2026-59948 ) Security: Validate package bin paths against path traversal ( GHSA-gjfg-22fp-rrxx / CVE-2026-59946 ) Security: Sanitize URL-embedded usernames/token in verbose output ( GHSA-g6xq-892h-64w3 / CVE-2026-59947 ) Security: Only follow HTTP redirects from HTTP responses ( #12948 ) Security: Prevent phar metadata unserialization on unsafe PHP versions ( #12946 ) Security: Sanitize JSON parse errors in http responses to avoid leaking response body data ( #12959 ) Added warning output in self-update command when using a soon-to-b",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "6.0.9",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.9",
-      "published": "2026-07-08T07:22:48Z",
-      "preview": "What's Changed install_steps: handle EUID/UID like postinstall does by @Bo98 in #22985 cask/upgrade: don't lose the original exception when rollback itself fails by @aholland in #22997 Defer reinstall keg backup and silence analytics curl output by @p-linnane in #22994 cask: don't crash upgrade when staged version directory is missing by @gecube in #22999 perf/config: gather system configuration concurrently (~31% faster) by @dduugg in #22989 github_runner_matrix: unique runner for each shard by @cho-m in #22991 Avoid filesystem checks from Pathname presence tests by @dduugg in #22988 Warn whe",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
