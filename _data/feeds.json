@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-07T03:19:36Z",
-  "cutoff": "2026-07-08T03:19:22Z",
+  "generated": "2026-08-07T04:58:30Z",
+  "cutoff": "2026-07-08T04:58:27Z",
   "feed_count": 79,
   "item_count": 234,
   "categories": [
@@ -22,18 +22,26 @@
   ],
   "items": [
     {
-      "title": "2.0.6",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.6",
-      "published": "2026-08-07T02:53:26Z",
-      "preview": "🐛 bug fixes fix: Preserve file timestamp in local disk cache by @eed3si9n in #9559 🚀 updates perf: Improve update task by caching file hashes by @takayahilton in #9559 Full Changelog : v2.0.5...v2.0.6",
-      "source": "sbt releases",
-      "category": "Maven"
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-07T04:16:01Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
     },
     {
       "title": "1.12.15",
       "url": "https://github.com/sbt/sbt/releases/tag/v1.12.15",
-      "published": "2026-08-07T02:15:32Z",
-      "preview": "🐛 bug fixes bport: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk in #9374 bport: Fixes sbt runner support on OpenBSD by @eed3si9n in #9394 behind the scenes Update to sbtn 2.0.0-731e6666 ci: Bump actions/setup-python from 6 to 7 by @dependabot [bot] in #9478 Full Changelog : v1.12.14...v1.12.15",
+      "published": "2026-08-07T03:39:10Z",
+      "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes bport: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk in ",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "2.0.6",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.6",
+      "published": "2026-08-07T03:38:44Z",
+      "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes fix: Preserve file timestamp in local disk cache by @eed3si9n in #9559 🚀 updates perf: Im",
       "source": "sbt releases",
       "category": "Maven"
     },
@@ -412,14 +420,6 @@
       "preview": "NuGet API key durations will be reduced to 30 days starting August 17th. This change will significantly strengthen the integrity of the NuGet supply chain. The post Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime appeared first on .NET Blog .",
       "source": "NuGet Blog",
       "category": ".NET"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-03T17:02:37Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v2026.8.1: Task Cache Goes Remote, Affected Tasks, and Config Ergonomics",
