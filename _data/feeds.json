@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-07T10:35:56Z",
-  "cutoff": "2026-07-08T10:35:51Z",
+  "generated": "2026-08-07T12:32:18Z",
+  "cutoff": "2026-07-08T12:32:14Z",
   "feed_count": 79,
   "item_count": 233,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.11.0.5",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.5",
+      "published": "2026-08-07T12:21:41Z",
+      "preview": "Insert 7.11.0.5 into main on 08/07/2026 12:21:41",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "44.14.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.5",
@@ -1636,14 +1644,6 @@
       "preview": "2.9.3 / 2026.07.15 feat(cli): deno add --no-save and --save-optional ( #36039 ) feat(cli): add --min-dep-age alias ( #35914 ) feat(compile): support aarch64-pc-windows-msvc target ( #36004 ) feat(ext/fetch): add http2MaxHeaderListSize option to Deno.createHttpClient ( #33194 ) fix(bundle): preserve raw imports in watch mode ( #36040 ) fix(canvas): don't hold SurfaceData mut borrow over window resize ( #35993 ) fix(config): reject out-of-range minimum dependency ages ( #36051 ) fix(core): block user ext imports after resolution ( #36012 ) fix(core): deactivate idle TTY write handles ( #35886 ) ",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "7.10.0.11",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.11",
-      "published": "2026-07-15T12:21:38Z",
-      "preview": "Insert 7.10.0.11 into main on 07/15/2026 12:21:38",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "6.0.11",
