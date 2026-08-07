@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-07T13:46:15Z",
-  "cutoff": "2026-07-08T13:46:11Z",
+  "generated": "2026-08-07T14:38:30Z",
+  "cutoff": "2026-07-08T14:38:25Z",
   "feed_count": 79,
-  "item_count": 233,
+  "item_count": 232,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.0.0-rc.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.1",
+      "published": "2026-08-07T14:17:37Z",
+      "preview": "v12.0.0-rc.1",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.14.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.7",
+      "published": "2026-08-07T13:48:13Z",
+      "preview": "44.14.7 (2026-08-07) Bug Fixes exec/docker: single-quote the sidecar bash command ( b017c75 ) manager/deno: quote allow-import host list in install command ( 3793e3b ) manager/gomod: quote module path in import path update command ( c9cec1a ) manager/gradle-wrapper: quote distribution URL in wrapper command ( b3f7846 ) manager/maven-wrapper: quote distribution type in wrapper command ( 7279744 ) manager/mix: quote hex organization and token in auth command ( ff3e99e ) manager/nix: quote GitHub token in flake update command ( 521d325 ) manager/npm: quote package spec in corepack command ( 6d2fa",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.14.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.6",
@@ -300,14 +316,6 @@
       "preview": "Insert 7.11.0.1 into main on 08/05/2026 12:34:05",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.13.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.1",
-      "published": "2026-08-05T11:26:41Z",
-      "preview": "44.13.1 (2026-08-05) Build System deps: update yarn monorepo (main) ( #45083 ) ( ce414fb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20260805t095600-all",
@@ -1142,14 +1150,6 @@
       "category": "Registries"
     },
     {
-      "title": "pnpm 12 Alpha 21",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-alpha.21",
-      "published": "2026-07-24T13:39:06Z",
-      "preview": "Minor Changes pnpm setup now appends PNPM_HOME and the global bin directory to the GitHub Actions environment files ( GITHUB_ENV and GITHUB_PATH ), so later steps in the same job can run pnpm add --global and other global commands #9191 . Patch Changes Checking GitHub Actions dependencies for updates is now opt-in for every command. Neither pnpm outdated nor pnpm update reads the workflow files unless --include-github-actions is passed or update.githubActions is set to true in pnpm-workspace.yaml . Reading them runs git ls-remote against every referenced repository, which fails in environments",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "7.10.0.40",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.40",
       "published": "2026-07-24T12:27:17Z",
@@ -1876,14 +1876,6 @@
       "preview": "Bugfixes Fixed a bug where Podman Machine VMs on Mac using the libkrun provider could be regularly turned off by a port-scanning process on the host unintentionally commanding the VM to shut down.",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "v2.9.2",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.2",
-      "published": "2026-07-08T14:36:21Z",
-      "preview": "2.9.2 / 2026.07.08 feat(desktop): autodetect React Router framework ( #35557 ) feat(desktop): enable --hmr for Vite and Nuxt ( #35851 ) feat(desktop): run HMR by framework dev server ( #35722 ) feat(desktop): window opacity and transparency APIs ( #35646 ) feat(desktop): wire --exclude-unused-npm through to compile ( #35740 ) feat(ext/node): implement v8.setHeapSnapshotNearHeapLimit ( #35694 ) feat(ext/telemetry): honor OTEL_ATTRIBUTE_VALUE_LENGTH_LIMIT ( #35068 ) feat(inspector): start inspector server on SIGUSR1 ( #35738 ) feat(node): implement getTestContext() in node:test ( #35678 ) feat: ",
-      "source": "Deno releases",
-      "category": "JavaScript"
     }
   ]
 }
