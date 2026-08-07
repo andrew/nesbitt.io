@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-07T14:38:30Z",
-  "cutoff": "2026-07-08T14:38:25Z",
+  "generated": "2026-08-07T15:36:59Z",
+  "cutoff": "2026-07-08T15:36:55Z",
   "feed_count": 79,
   "item_count": 232,
   "categories": [
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v12.0.0-rc.1",
+      "title": "pnpm 12 RC 1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.1",
-      "published": "2026-08-07T14:17:37Z",
-      "preview": "v12.0.0-rc.1",
+      "published": "2026-08-07T14:57:20Z",
+      "preview": "Major Changes Git dependencies on known hosts (GitHub, GitLab, Bitbucket) are now treated as identities rather than transport choices. Every representation of the same repository — github:owner/repo , owner/repo , git+https://… , git+ssh://git@… — resolves through the host's canonical HTTPS URL, and the lockfile never records an SSH URL for them. Repositories whose archive endpoint is anonymously reachable resolve to the host's archive (fast tarball download); all others resolve to a git clone of the canonical HTTPS URL, which every machine with access to the repository can fetch. To reach a p",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
