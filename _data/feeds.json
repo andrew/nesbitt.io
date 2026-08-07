@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-07T21:31:13Z",
-  "cutoff": "2026-07-08T21:31:09Z",
+  "generated": "2026-08-07T23:30:20Z",
+  "cutoff": "2026-07-08T23:30:15Z",
   "feed_count": 79,
   "item_count": 231,
   "categories": [
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v2026.8.3",
+      "title": "v2026.8.3: Flatpak, Font Casks, and Task Precedence Fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.3",
-      "published": "2026-08-07T21:20:33Z",
-      "preview": "(bootstrap) add user-scoped flatpak packages by @jdx in [ #11757 …",
+      "published": "2026-08-07T22:39:57Z",
+      "preview": "This release expands bootstrap package management with per-user Flatpak support and Linux font casks, adds a per-tool pipx registry option and a shim safety setting, and lands a batch of task precedence, lockfile, and Python fixes. Added bootstrap: manage per-user Flatpak installations with a new flatpak-user package manager. The existing flatpak:<id> entries stay system-scoped, and you can now declare both scopes in the same config, including the same application ID. ( #11757 by @jdx ) brew: the built-in brew-cask manager now works on Linux for font-only casks, installing fonts under $XDG_DAT",
       "source": "mise releases",
       "category": "Multi-language"
     },
