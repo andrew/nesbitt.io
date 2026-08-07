@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-07T19:37:55Z",
-  "cutoff": "2026-07-08T19:37:50Z",
+  "generated": "2026-08-07T20:31:46Z",
+  "cutoff": "2026-07-08T20:31:22Z",
   "feed_count": 79,
-  "item_count": 232,
+  "item_count": 229,
   "categories": [
     ".NET",
     "C/C++",
@@ -516,14 +516,6 @@
       "preview": "What's Changed workflows/docker: align deprecation of 22.04 image by @cho-m in #23378 Add PHP configuration action (16/24) by @MikeMcQuaid in #23191 Add Python bootstrap action (17/24) by @MikeMcQuaid in #23192 Align shared install step interfaces (18/24) by @MikeMcQuaid in #23193 Align install step autocorrections (20/24) by @MikeMcQuaid in #23195 Document canonical install steps (21/24) by @MikeMcQuaid in #23196 Plan remaining install hook migration (22/24) by @MikeMcQuaid in #23197 Bridge cask flight step migrations (19/26) by @MikeMcQuaid in #23382 Update migration delivery plan (23/24) by",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "June and July 2026 Releases",
-      "url": "https://conda.org/blog/2026-08-03-july-releases",
-      "published": "2026-08-03T00:00:00Z",
-      "preview": "June and July releases across the conda org: conda and conda-build 26.7.0, constructor 3.16, libmamba and conda-pypi updates, faster solves in rattler, and more. 🎉",
-      "source": "Conda Blog",
-      "category": "Multi-language"
     },
     {
       "title": "pnpm 11.20",
@@ -1782,14 +1774,6 @@
       "category": "Containers"
     },
     {
-      "title": "Documentation team funding",
-      "url": "https://nixos.org/blog/announcements/2026/docs-funding-2026/",
-      "published": "2026-07-10T12:00:00Z",
-      "preview": "tl;dr: There is a renewed effort to improve documentation, head to https://opencollective.com/nixos/projects/nix-documentation or contact foundation@nixos.org to chip in with funding! With the 2023 crowd-funding in documentation funding , we've seen some improvements, but a lot more is needed to make significant progress towards improving the overall experience with Nix documentation, including onboarding and discovery. Especially newcomers frequently struggle with our documentation, get frustrated and notice gaps, and have a hard time adopting Nix. In addition, in the Nix community survey 202",
-      "source": "NixOS Blog",
-      "category": "System"
-    },
-    {
       "title": "bundler-v4.0.16",
       "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.16",
       "published": "2026-07-10T05:41:26Z",
@@ -1868,14 +1852,6 @@
       "preview": "The Rust team is happy to announce a new version of Rust, 1.97.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.97.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.97.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "v6.0.1",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.1",
-      "published": "2026-07-08T20:15:01Z",
-      "preview": "Bugfixes Fixed a bug where Podman Machine VMs on Mac using the libkrun provider could be regularly turned off by a port-scanning process on the host unintentionally commanding the VM to shut down. Fixed a bug where the podman machine init command would fail on Windows hosts when using the hyperv provider when WSL was not installed ( #29053 ). Fixed a bug where the podman machine init command would fail on Windows hosts when using the wsl provider when the user was a Hyper-V admin but Hyper-V is disabled ( #29138 ). Fixed a bug where error messages from the OCI runtime were sometimes not displa",
-      "source": "Podman releases",
-      "category": "Containers"
     }
   ]
 }
