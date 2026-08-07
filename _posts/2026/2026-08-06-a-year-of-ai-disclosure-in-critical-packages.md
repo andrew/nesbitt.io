@@ -6,6 +6,7 @@ tags:
   - open-source
   - ai
   - metrics
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mshwg7syug2a"
 ---
 
 Stephen O'Grady's [RedMonk analysis of who is writing open source code](https://redmonk.com/sogrady/2026/07/30/writing-open-source/) looked at commits to fifteen large projects during the first half of 2026 and counted two forms of declared AI involvement: a known autonomous agent as the commit author, or a known AI identity in a `Co-Authored-By` trailer. The result was under one percent, framed as a floor.
