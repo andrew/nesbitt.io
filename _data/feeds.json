@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-07T08:38:23Z",
-  "cutoff": "2026-07-08T08:38:18Z",
+  "generated": "2026-08-07T10:35:56Z",
+  "cutoff": "2026-07-08T10:35:51Z",
   "feed_count": 79,
   "item_count": 233,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.14.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.5",
+      "published": "2026-08-07T10:25:30Z",
+      "preview": "44.14.5 (2026-08-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.3 (main) ( #45122 ) ( 4230fe3 ) Miscellaneous Chores deps: update dependency pnpm to v11.19.0 (main) ( #45128 ) ( 8126773 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.14.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.4",
+      "published": "2026-08-07T09:55:24Z",
+      "preview": "44.14.4 (2026-08-07) Bug Fixes proxy: sanitise password components in HTTP_PROXY variable(s) in logs ( #45117 ) ( f88212b ) util/host-rules: sanitise TLS credential fields in hostRules ( #45119 ) ( 54384ff ) Miscellaneous Chores deps: update dependency lint-staged to v17.3.0 (main) ( #45126 ) ( 4a62cda )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "release libmamba 2.9.0, micromamba 2.9.0, libmambapy 2.9.0",
       "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0",
@@ -292,22 +308,6 @@
       "preview": "Deployment at 2026-08-05T09:56:28.129138Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.12.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.12.0",
-      "published": "2026-08-05T07:44:58Z",
-      "preview": "44.12.0 (2026-08-05) Features config/validation: validate object entries in the repositories array ( #43033 ) ( 527c141 ), closes #43295",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.11.8",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.11.8",
-      "published": "2026-08-05T04:48:03Z",
-      "preview": "44.11.8 (2026-08-05) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.81.6 (main) ( #45078 ) ( 7ae4708 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v4.0.18",
