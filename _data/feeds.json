@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-07T16:35:50Z",
-  "cutoff": "2026-07-08T16:35:45Z",
+  "generated": "2026-08-07T19:37:55Z",
+  "cutoff": "2026-07-08T19:37:50Z",
   "feed_count": 79,
-  "item_count": 233,
+  "item_count": 232,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.9.0",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0",
+      "published": "2026-08-07T19:03:05Z",
+      "preview": "You can update micromamba to this version using: micromamba self-update Enhancements: [libmamba, micromamba] Refactor and clean up by @Hind-M in #4359 [libmamba, libmambapy] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fixes: [micromamba] fix: Remove duplicate deactivate from shell completion by @henriquesimoes in #4371 [libmamba] fix: Explain missing packages when string ids collide with solvables by @jjerphan in #4369 [libmamba] fix: Do not change permissions of existing shared packa",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.14.8",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.8",
+      "published": "2026-08-07T18:48:40Z",
+      "preview": "44.14.8 (2026-08-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.5 (main) ( #45141 ) ( ee9e688 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.3 (main) ( #45139 ) ( f1e08d3 ) deps: update dependency uv to v0.12.3 (main) ( #45140 ) ( 58c581b ) Code Refactoring types: make return type for getToolSettingsOptions stricter ( #45133 ) ( c92c7e2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.12.3",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.3",
@@ -76,14 +92,6 @@
       "preview": "44.14.4 (2026-08-07) Bug Fixes proxy: sanitise password components in HTTP_PROXY variable(s) in logs ( #45117 ) ( f88212b ) util/host-rules: sanitise TLS credential fields in hostRules ( #45119 ) ( 54384ff ) Miscellaneous Chores deps: update dependency lint-staged to v17.3.0 (main) ( #45126 ) ( 4a62cda )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "release libmamba 2.9.0, micromamba 2.9.0, libmambapy 2.9.0",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0",
-      "published": "2026-08-07T07:53:01Z",
-      "preview": "Signed-off-by: Julien Jerphanion git@jjerphan.xyz",
-      "source": "Mamba releases",
-      "category": "Multi-language"
     },
     {
       "title": "cabal-head",
@@ -300,14 +308,6 @@
       "preview": "( #3915 ) Update log4net in chocolatey.lib",
       "source": "Chocolatey releases",
       "category": "System"
-    },
-    {
-      "title": "44.13.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.2",
-      "published": "2026-08-05T14:15:36Z",
-      "preview": "44.13.2 (2026-08-05) Build System deps: update dependency @renovatebot/detect-tools to v4.0.11 (main) ( #44979 ) ( bce1f27 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.9.0.rc1",
@@ -1874,14 +1874,6 @@
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.1",
       "published": "2026-07-08T20:15:01Z",
       "preview": "Bugfixes Fixed a bug where Podman Machine VMs on Mac using the libkrun provider could be regularly turned off by a port-scanning process on the host unintentionally commanding the VM to shut down. Fixed a bug where the podman machine init command would fail on Windows hosts when using the hyperv provider when WSL was not installed ( #29053 ). Fixed a bug where the podman machine init command would fail on Windows hosts when using the wsl provider when the user was a Hyper-V admin but Hyper-V is disabled ( #29138 ). Fixed a bug where error messages from the OCI runtime were sometimes not displa",
-      "source": "Podman releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v5.8.5",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.5",
-      "published": "2026-07-08T18:46:08Z",
-      "preview": "Bugfixes Fixed a bug where Podman Machine VMs on Mac using the libkrun provider could be regularly turned off by a port-scanning process on the host unintentionally commanding the VM to shut down.",
       "source": "Podman releases",
       "category": "Containers"
     }
