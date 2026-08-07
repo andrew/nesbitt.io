@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-07T12:32:18Z",
-  "cutoff": "2026-07-08T12:32:14Z",
+  "generated": "2026-08-07T13:46:15Z",
+  "cutoff": "2026-07-08T13:46:11Z",
   "feed_count": 79,
   "item_count": 233,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.14.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.6",
+      "published": "2026-08-07T13:29:38Z",
+      "preview": "44.14.6 (2026-08-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.4 (main) ( #45131 ) ( d8aa95f ) Documentation add link to Containerbase' \"new tool\" documentation ( #45127 ) ( 78fa7af ) Do not recommend to use prCreation=not-pending with automerge ( #45088 ) ( 0dac257 ) Miscellaneous Chores deps: update dependency nock to v14.0.17 (main) ( #45121 ) ( 2668a65 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.15 (main) ( #45120 ) ( 3bcc84b ) deps: update pnpm/setup action to v2.0.1 (main) ( #45129 ) ( ed81456 ) Code Refactoring types: clarify T",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.11.0.5",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.5",
@@ -298,14 +306,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.1",
       "published": "2026-08-05T11:26:41Z",
       "preview": "44.13.1 (2026-08-05) Build System deps: update yarn monorepo (main) ( #45083 ) ( ce414fb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.13.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.0",
-      "published": "2026-08-05T10:51:03Z",
-      "preview": "44.13.0 (2026-08-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.0 (main) ( #45084 ) ( 6e9352c ) Miscellaneous Chores deps: update dependency pnpm to v11.18.0 (main) ( #45080 ) ( 6950cb2 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
