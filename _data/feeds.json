@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-07T20:31:46Z",
-  "cutoff": "2026-07-08T20:31:22Z",
+  "generated": "2026-08-07T21:31:13Z",
+  "cutoff": "2026-07-08T21:31:09Z",
   "feed_count": 79,
-  "item_count": 229,
+  "item_count": 231,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.8.3",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.3",
+      "published": "2026-08-07T21:20:33Z",
+      "preview": "(bootstrap) add user-scoped flatpak packages by @jdx in [ #11757 …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.3",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.3",
+      "published": "2026-08-07T21:17:49Z",
+      "preview": "Release vfox 2026.8.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "2.9.0",
       "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0",
@@ -518,6 +534,14 @@
       "category": "System"
     },
     {
+      "title": "June and July 2026 Releases",
+      "url": "https://conda.org/blog/2026-08-03-july-releases",
+      "published": "2026-08-03T00:00:00Z",
+      "preview": "June and July releases across the conda org: conda and conda-build 26.7.0, constructor 3.16, libmamba and conda-pypi updates, faster solves in rattler, and more. 🎉",
+      "source": "Conda Blog",
+      "category": "Multi-language"
+    },
+    {
       "title": "pnpm 11.20",
       "url": "https://pnpm.io/blog/releases/11.20",
       "published": "2026-08-03T00:00:00Z",
@@ -550,26 +574,10 @@
       "category": "Multi-language"
     },
     {
-      "title": "mise-interactive-config-v2026.8.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.0",
-      "published": "2026-08-01T19:22:26Z",
-      "preview": "Release mise-interactive-config 2026.8.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.8.0",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.0",
       "published": "2026-08-01T19:22:08Z",
       "preview": "Release vfox 2026.8.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.8.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.8.0",
-      "published": "2026-08-01T19:21:13Z",
-      "preview": "Release mise-sigstore 2026.8.0",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -1772,6 +1780,14 @@
       "preview": "Signed-off-by: Terry Howe terrylhowe@gmail.com",
       "source": "ORAS releases",
       "category": "Containers"
+    },
+    {
+      "title": "Documentation team funding",
+      "url": "https://nixos.org/blog/announcements/2026/docs-funding-2026/",
+      "published": "2026-07-10T12:00:00Z",
+      "preview": "tl;dr: There is a renewed effort to improve documentation, head to https://opencollective.com/nixos/projects/nix-documentation or contact foundation@nixos.org to chip in with funding! With the 2023 crowd-funding in documentation funding , we've seen some improvements, but a lot more is needed to make significant progress towards improving the overall experience with Nix documentation, including onboarding and discovery. Especially newcomers frequently struggle with our documentation, get frustrated and notice gaps, and have a hard time adopting Nix. In addition, in the Nix community survey 202",
+      "source": "NixOS Blog",
+      "category": "System"
     },
     {
       "title": "bundler-v4.0.16",
