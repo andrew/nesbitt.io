@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-07T23:30:20Z",
-  "cutoff": "2026-07-08T23:30:15Z",
+  "generated": "2026-08-08T00:34:14Z",
+  "cutoff": "2026-07-09T00:34:10Z",
   "feed_count": 79,
-  "item_count": 231,
+  "item_count": 230,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-108.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-108.0.dev",
+      "published": "2026-08-08T00:18:45Z",
+      "preview": "SDK 3.14.0-108.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-107.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-107.0.dev",
+      "published": "2026-08-08T00:18:42Z",
+      "preview": "SDK 3.14.0-107.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-106.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-106.0.dev",
+      "published": "2026-08-08T00:18:39Z",
+      "preview": "SDK 3.14.0-106.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-105.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-105.0.dev",
+      "published": "2026-08-08T00:18:37Z",
+      "preview": "SDK 3.14.0-105.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.14.9",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.9",
+      "published": "2026-08-07T23:46:28Z",
+      "preview": "44.14.9 (2026-08-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.6 (main) ( #45147 ) ( 84ef069 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.16 (main) ( #45145 ) ( 4c492d3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.8.3: Flatpak, Font Casks, and Task Precedence Fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.3",
@@ -254,52 +294,12 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.14.0-98.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-98.0.dev",
-      "published": "2026-08-06T00:30:52Z",
-      "preview": "SDK 3.14.0-98.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-97.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-97.0.dev",
-      "published": "2026-08-06T00:30:49Z",
-      "preview": "SDK 3.14.0-97.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-96.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-96.0.dev",
-      "published": "2026-08-06T00:30:46Z",
-      "preview": "SDK 3.14.0-96.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-95.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-95.0.dev",
-      "published": "2026-08-06T00:30:43Z",
-      "preview": "SDK 3.14.0-95.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "Making RubyGems Guides friendly to humans and AI",
       "url": "https://blog.rubygems.org/2026/08/06/making-rubygems-guides-ai-friendly.html",
       "published": "2026-08-06T00:00:00Z",
       "preview": "The RubyGems guides at guides.rubygems.org are read by more than humans these days. AI agents fetch them to answer questions about building, publishing, and installing gems. Evil Martians’ Ruby/Rails LLM discoverability scorecard asks how easily an agent can find and read Ruby documentation, and the guides had no good answer. There was no machine readable index, and no way to get a page without its navigation and markup. This week we merged three changes that close both gaps. The first change adds sitemap.xml and robots.txt ( rubygems/guides#523 ), giving crawlers a complete map of the site. T",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "44.13.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.13.3",
-      "published": "2026-08-05T21:52:51Z",
-      "preview": "44.13.3 (2026-08-05) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.1 (main) ( #45099 ) ( 814c4dc ) Miscellaneous Chores deps: update dependency @smithy/util-stream to v4.7.16 (main) ( #45095 ) ( d7d23ac ) deps: update dependency astral-sh/uv to v0.12.2 (main) ( #45097 ) ( 09fb3c4 ) deps: update dependency uv to v0.12.2 (main) ( #45098 ) ( dd657f3 ) Continuous Integration migrate to pnpm/setup ( #45035 ) ( 144ba37 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12 RC 0",
@@ -1859,14 +1859,6 @@
       "published": "2026-07-09T12:25:13Z",
       "preview": "0.98.0 release",
       "source": "Cargo releases",
-      "category": "Rust"
-    },
-    {
-      "title": "Announcing Rust 1.97.0",
-      "url": "https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/",
-      "published": "2026-07-09T00:00:00Z",
-      "preview": "The Rust team is happy to announce a new version of Rust, 1.97.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.97.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.97.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
-      "source": "Rust Blog",
       "category": "Rust"
     }
   ]
