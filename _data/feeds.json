@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-08T12:31:02Z",
-  "cutoff": "2026-07-09T12:30:58Z",
+  "generated": "2026-08-08T16:30:05Z",
+  "cutoff": "2026-07-09T16:30:01Z",
   "feed_count": 79,
-  "item_count": 229,
+  "item_count": 228,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.14.12",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.12",
+      "published": "2026-08-08T15:45:34Z",
+      "preview": "44.14.12 (2026-08-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.9 (main) ( #45156 ) ( 1b99a61 ) Miscellaneous Chores deps: update dependency @types/lodash to v4.17.25 (main) ( #45151 ) ( 2f2dd98 ) deps: update dependency @types/luxon to v3.7.3 (main) ( #45154 ) ( ecadb0c ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.18 (main) ( #45155 ) ( 7a4aac6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.14.11",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.11",
@@ -258,14 +266,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.3",
       "published": "2026-08-06T14:24:02Z",
       "preview": "44.14.3 (2026-08-06) Bug Fixes workers/global: sanitise COREPACK_NPM_{TOKEN,PASSWORD} in logs ( #45116 ) ( 244bfe1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.14.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.2",
-      "published": "2026-08-06T13:49:02Z",
-      "preview": "44.14.2 (2026-08-06) Bug Fixes datasource/docker: fetch all pages for cgr.dev ( #45114 ) ( d7ce060 ) Miscellaneous Chores add linter rule for shell: true usage ( #45110 ) ( 52ff375 ) deps: update actions/cache action to v6 (main) ( #45104 ) ( ec7aadb ) deps: update actions/checkout action to v7 (main) ( #45105 ) ( db79937 ) deps: update codecov/codecov-action action to v7 (main) ( #45106 ) ( 0593955 ) deps: update dependency astral-sh/setup-uv to v9 (main) ( #45100 ) ( 7840681 ) deps: update dependency vite to v8.2.0 (main) ( #45115 ) ( 9d02537 ) deps: update slackapi/slack-github-action actio",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1844,14 +1844,6 @@
       "preview": "Helm v4.2.3 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Installation and Upgrading Download Helm v4.2.3. The common platform binaries are here: MacOS amd64 ( checksum / ff3ac86755a45f3422473bc1200776aac0fe04c5766abe6ca66699f7b564b23b) MacOS arm64 ( checksum / 048ecf",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "2.5.2",
-      "url": "https://github.com/ocaml/opam/releases/tag/2.5.2",
-      "published": "2026-07-09T16:03:04Z",
-      "preview": "This is the release of opam 2.5.2. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for more details and the upgrade instructions. Changelog : Security fix Fix a bug that allowed a package to install files anywhere on the system using a symlink to an external directory without warning the user and asking for their",
-      "source": "opam releases",
-      "category": "Registries"
     }
   ]
 }
