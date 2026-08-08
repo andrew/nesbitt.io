@@ -63,6 +63,8 @@ npm has [restricted 2FA-bypass granular access tokens](https://github.blog/chang
 
 The [Software Stewardship Lab](https://stewardshiplab.org/) launched on Thursday, a non-profit applied research lab for open source sustainability that I'm a director of. I've [written it up separately](/2026/08/07/the-software-stewardship-lab), and there's a [Sustain podcast episode](https://podcast.sustainoss.org/292) with executive director Vlad-Stefan Harbuz.
 
+The Nixpkgs core team [has disbanded](https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413). Its two members cite workload incompatible with continued technical contribution and friction with the Steering Committee, which now takes over the team's responsibilities directly.
+
 William Woodruff's EuroPython 2026 keynote [Securing Python for the next decade](https://www.youtube.com/watch?v=wMPe_KepOjc) is online.
 
 [htmx 4: the game](https://sethmlarson.dev/htmx-4-the-game) (Seth Larson): htmx 4 shipped as a physical Game Boy cartridge, and the distribution mechanism for the library source is to finish the game and hand-type it from the screen.
