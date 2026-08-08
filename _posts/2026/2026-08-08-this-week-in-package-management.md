@@ -12,11 +12,9 @@ Week twelve of the roundup, built from the [package manager OPML feed collection
 
 ## Releases
 
-[pnpm 11.20](https://pnpm.io/blog/releases/11.20) fixes a package-substitution risk in projects that use multiple named registries. The lockfile previously keyed packages by `name@version` alone, so when two registries served the same name and version they collapsed onto one entry and whichever resolved first supplied the tarball. Packages from named registries are now recorded with registry-qualified keys such as `foo@work:1.0.0`. The release also hardens `pnpm rebuild` against a malicious lockfile and stops empty proxy settings from failing installs.
+[pnpm 11.20](https://pnpm.io/blog/releases/11.20) fixes a package-substitution risk in projects with multiple named registries by recording packages under registry-qualified lockfile keys such as `foo@work:1.0.0`. [12.0.0-rc.1](https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.1), the Rust-engine release candidate, resolves git dependencies on known hosts through the canonical HTTPS URL so the lockfile never records an SSH URL, and refuses global commands run under `sudo`.
 
-[pnpm 12.0.0-rc.0](https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.0) is the first release candidate of the Rust-engine rewrite. Global commands run through `sudo` (`pnpm setup`, `pnpm self-update`, `pnpm add --global`) now fail with `ERR_PNPM_SUDO_NOT_SUPPORTED` rather than silently operating on the root user's home directory.
-
-[mise 2026.8.0–8.2](https://github.com/jdx/mise/releases/tag/v2026.8.2) turns `mise bootstrap` into a declarative host-provisioning system. Alongside packages it can now converge privileged files and directories, Linux users and groups, systemd services, Docker Compose projects and firewall rules, with `mise bootstrap plan` previewing the diff before `apply` runs, per-resource `status` commands, and remote execution over SSH. `ruby.compile=false` is now a strict precompiled-only mode.
+[mise 2026.8.0–8.3](https://github.com/jdx/mise/releases/tag/v2026.8.3) turns `mise bootstrap` into a declarative host-provisioning system: alongside packages it now converges files, users, systemd units, Docker Compose projects and firewall rules, with `mise bootstrap plan` to preview and remote execution over SSH. 8.3 adds a `flatpak-user` package manager and Linux font-cask support.
 
 [packaging 26.3](https://github.com/pypa/packaging/releases/tag/26.3) adds a `VersionRange` API that represents the versions a specifier set accepts as an interval set with intersection, union and difference operations, plus `is_subset`/`is_superset`/`is_disjoint` on `SpecifierSet`. It also accepts `Metadata-Version: 2.6` per [PEP 808](https://peps.python.org/pep-0808/), which lets build backends extend list and table `[project]` fields that are also declared in `project.dynamic`.
 
@@ -28,7 +26,22 @@ Week twelve of the roundup, built from the [package manager OPML feed collection
 
 [Verdaccio 6.9.2](https://github.com/verdaccio/verdaccio/releases/tag/v6.9.2) applies configured package access controls to the `GET /-/_view/starredByUser` endpoint, which previously returned a user's starred packages without filtering by what the requesting client is authorised to see.
 
-Also out: [RubyGems 4.0.18](https://blog.rubygems.org/2026/08/05/4.0.18-released.html), [pip 26.2.1](https://github.com/pypa/pip/releases/tag/26.2.1), [pipx 1.16.6](https://github.com/pypa/pipx/releases/tag/1.16.6), [Conan 2.31.2](https://github.com/conan-io/conan/releases/tag/2.31.2), [Gradle 9.7.0](https://github.com/gradle/gradle/releases/tag/v9.7.0), [Homebrew 6.0.15](https://github.com/Homebrew/brew/releases/tag/6.0.15), [Renovate 44.14.3](https://github.com/renovatebot/renovate/releases/tag/44.14.3), [pixi 0.76.1](https://github.com/prefix-dev/pixi/releases/tag/v0.76.1), [npm 11.19.0](https://github.com/npm/cli/releases/tag/v11.19.0), [Deno 2.9.5](https://github.com/denoland/deno/releases/tag/v2.9.5), [Docker 29.7.2](https://github.com/moby/moby/releases/tag/docker-v29.7.2), [Mamba 2.9.0.rc1](https://github.com/mamba-org/mamba/releases/tag/2.9.0.rc1).
+[Mamba 2.9.0](https://github.com/mamba-org/mamba/releases/tag/2.9.0) adds `--exclude-newer` to filter out packages built after a given timestamp, for reproducing an environment as it would have resolved at a past point in time, and an option to opt out of running link scripts during install.
+
+Also out:
+
+- [RubyGems 4.0.18](https://blog.rubygems.org/2026/08/05/4.0.18-released.html)
+- [pip 26.2.1](https://github.com/pypa/pip/releases/tag/26.2.1)
+- [pipx 1.16.6](https://github.com/pypa/pipx/releases/tag/1.16.6)
+- [Conan 2.31.2](https://github.com/conan-io/conan/releases/tag/2.31.2)
+- [Gradle 9.7.0](https://github.com/gradle/gradle/releases/tag/v9.7.0)
+- [Homebrew 6.0.15](https://github.com/Homebrew/brew/releases/tag/6.0.15)
+- [Renovate 44.14.11](https://github.com/renovatebot/renovate/releases/tag/44.14.11)
+- [pixi 0.76.1](https://github.com/prefix-dev/pixi/releases/tag/v0.76.1)
+- [npm 11.19.0](https://github.com/npm/cli/releases/tag/v11.19.0)
+- [Deno 2.9.5](https://github.com/denoland/deno/releases/tag/v2.9.5)
+- [Docker 29.7.2](https://github.com/moby/moby/releases/tag/docker-v29.7.2)
+- [winget 1.30.90-preview](https://github.com/microsoft/winget-cli/releases/tag/v1.30.90-preview)
 
 ## Security
 
@@ -44,11 +57,19 @@ npm has [restricted 2FA-bypass granular access tokens](https://github.blog/chang
 
 [Making RubyGems Guides friendly to humans and AI](https://blog.rubygems.org/2026/08/06/making-rubygems-guides-ai-friendly.html): guides.rubygems.org now serves `sitemap.xml`, `robots.txt` and per-page plain-text renderings so agents can fetch a guide without navigation and markup, prompted by the Evil Martians Ruby/Rails LLM discoverability scorecard.
 
+[A Vision for Cargo](https://epage.github.io/blog/2026/08/cargo-vision/) (Ed Page): a Cargo team member sets out the workflows he wants to improve, covering dependency discovery and audit points in the crates.io ecosystem, build performance, plumbing commands and programmatic APIs for tools built on Cargo, and the state of the Cargo codebase itself.
+
 ## Elsewhere
+
+The [Software Stewardship Lab](https://stewardshiplab.org/) launched on Thursday, a non-profit applied research lab for open source sustainability that I'm a director of. I've [written it up separately](/2026/08/07/the-software-stewardship-lab), and there's a [Sustain podcast episode](https://podcast.sustainoss.org/292) with executive director Vlad-Stefan Harbuz.
 
 William Woodruff's EuroPython 2026 keynote [Securing Python for the next decade](https://www.youtube.com/watch?v=wMPe_KepOjc) is online.
 
 [htmx 4: the game](https://sethmlarson.dev/htmx-4-the-game) (Seth Larson): htmx 4 shipped as a physical Game Boy cartridge, and the distribution mechanism for the library source is to finish the game and hand-type it from the screen.
+
+[help wanted](https://lake.computer/blog/help-wanted/) (Lake Hope): a maintainer responds to feedback from the community.
+
+[jj v0.44.0](https://github.com/jj-vcs/jj/releases/tag/v0.44.0) stabilises tag support: tags can be tracked or untracked like bookmarks, with tracked tags pushed by default.
 
 [Stylometric Defenses Against Author Impersonation in Software Repositories](https://arxiv.org/abs/2608.02695) (Ravich et al., arXiv) builds a patch-level authorship verifier from twenty years of Linux kernel commit history and applies it retroactively to real supply-chain incidents: the 2021 PHP backdoor commits surface within about 1% of the maintainer review queue and the 2026 ForceMemo spoofs at a median 0.8% per-repository review burden.
 
