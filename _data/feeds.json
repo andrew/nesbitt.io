@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-08T16:30:05Z",
-  "cutoff": "2026-07-09T16:30:01Z",
+  "generated": "2026-08-08T20:29:33Z",
+  "cutoff": "2026-07-09T20:29:29Z",
   "feed_count": 79,
   "item_count": 228,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-08T20:02:00Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.14.12",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.12",
@@ -172,14 +180,6 @@
       "preview": "44.14.4 (2026-08-07) Bug Fixes proxy: sanitise password components in HTTP_PROXY variable(s) in logs ( #45117 ) ( f88212b ) util/host-rules: sanitise TLS credential fields in hostRules ( #45119 ) ( 54384ff ) Miscellaneous Chores deps: update dependency lint-staged to v17.3.0 (main) ( #45126 ) ( 4a62cda )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-07T07:19:32Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "1.12.15",
