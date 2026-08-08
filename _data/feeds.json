@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-08T21:29:33Z",
-  "cutoff": "2026-07-09T21:29:29Z",
+  "generated": "2026-08-08T23:29:21Z",
+  "cutoff": "2026-07-09T23:29:17Z",
   "feed_count": 79,
-  "item_count": 226,
+  "item_count": 225,
   "categories": [
     ".NET",
     "C/C++",
@@ -1820,14 +1820,6 @@
       "preview": "RubyGems 4.0.16 includes enhancements and bug fixes and Bundler 4.0.16 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.16 RubyGems Release Notes Enhancements: Installs bundler 4.0.16 as a default gem. Bug fixes: Skip the make job server when using BSD make. Pull request #9676 by flavorjones Bundler Release Notes Enhancements: Bundler: Fix Bundler::Fetcher for PQC support, adding integration connection tests. Pull requ",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "v2.5.1",
-      "url": "https://github.com/hexpm/hex/releases/tag/v2.5.1",
-      "published": "2026-07-09T23:17:14Z",
-      "preview": "Enhancements Add ignore_advisories and ignore_retirements configs to acknowledge security advisories and package retirements. Configure them in the mix.exs :hex block ( ignore_advisories: [\"CVE-2026-32686\"] , ignore_retirements: [:decimal, phoenix: \"1.0.0\"] ) or with the HEX_IGNORE_ADVISORIES and HEX_IGNORE_RETIREMENTS environment variables. An advisory can be ignored by any of its aliased identifiers (for example the GHSA alias of a CVE). mix hex.audit lists ignored findings in separate sections without failing and warns about entries that no longer match anything, and mix deps.get / mix deps",
-      "source": "Hex releases",
-      "category": "Elixir"
     }
   ]
 }
