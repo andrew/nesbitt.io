@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-08T20:29:33Z",
-  "cutoff": "2026-07-09T20:29:29Z",
+  "generated": "2026-08-08T21:29:33Z",
+  "cutoff": "2026-07-09T21:29:29Z",
   "feed_count": 79,
-  "item_count": 228,
+  "item_count": 226,
   "categories": [
     ".NET",
     "C/C++",
@@ -1828,22 +1828,6 @@
       "preview": "Enhancements Add ignore_advisories and ignore_retirements configs to acknowledge security advisories and package retirements. Configure them in the mix.exs :hex block ( ignore_advisories: [\"CVE-2026-32686\"] , ignore_retirements: [:decimal, phoenix: \"1.0.0\"] ) or with the HEX_IGNORE_ADVISORIES and HEX_IGNORE_RETIREMENTS environment variables. An advisory can be ignored by any of its aliased identifiers (for example the GHSA alias of a CVE). mix hex.audit lists ignored findings in separate sections without failing and warns about entries that no longer match anything, and mix deps.get / mix deps",
       "source": "Hex releases",
       "category": "Elixir"
-    },
-    {
-      "title": "Helm v3.21.3",
-      "url": "https://github.com/helm/helm/releases/tag/v3.21.3",
-      "published": "2026-07-09T21:20:27Z",
-      "preview": "Helm v3.21.3 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Installation and Upgrading Download Helm v3.21.3. The common platform binaries are here: MacOS amd64 ( checksum / 76d0db4730b05d3d625eee11e80f0721b32b4d8422f4e5d093de6337bf3ac9f8) MacOS arm64 ( checksum / 1987",
-      "source": "Helm releases",
-      "category": "Containers"
-    },
-    {
-      "title": "Helm v4.2.3",
-      "url": "https://github.com/helm/helm/releases/tag/v4.2.3",
-      "published": "2026-07-09T20:56:43Z",
-      "preview": "Helm v4.2.3 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Installation and Upgrading Download Helm v4.2.3. The common platform binaries are here: MacOS amd64 ( checksum / ff3ac86755a45f3422473bc1200776aac0fe04c5766abe6ca66699f7b564b23b) MacOS arm64 ( checksum / 048ecf",
-      "source": "Helm releases",
-      "category": "Containers"
     }
   ]
 }
