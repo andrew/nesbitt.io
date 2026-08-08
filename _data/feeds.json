@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-08T00:34:14Z",
-  "cutoff": "2026-07-09T00:34:10Z",
+  "generated": "2026-08-08T01:58:36Z",
+  "cutoff": "2026-07-09T01:58:32Z",
   "feed_count": 79,
   "item_count": 230,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.14.11",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.11",
+      "published": "2026-08-08T01:45:33Z",
+      "preview": "44.14.11 (2026-08-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.8 (main) ( #45150 ) ( 952ec8d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.14.10",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.10",
+      "published": "2026-08-08T00:51:35Z",
+      "preview": "44.14.10 (2026-08-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.7 (main) ( #45149 ) ( f306402 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.17 (main) ( #45148 ) ( b726beb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-108.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-108.0.dev",
@@ -268,22 +284,6 @@
       "preview": "29.7.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.2 milestone moby/moby, 29.7.2 milestone Bug fixes and enhancements Fix docker service create and docker service update panicking when the same environment variable is passed more than once. docker/cli#7145 Fix a regression introduced in Docker Engine 29.7.0 that caused image pulls to reject images containing absolute hardlink targets, as produced by some image builders. moby/moby#53305 Fix a regression introduced in Docker Engine 29.7.0 that could cause image pulls and",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.14.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.1",
-      "published": "2026-08-06T07:52:33Z",
-      "preview": "44.14.1 (2026-08-06) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.2 (main) ( #45103 ) ( c4756c3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.14.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.0",
-      "published": "2026-08-06T06:55:42Z",
-      "preview": "44.14.0 (2026-08-06) Features github-actions: add support for pnpm/setup ( #45094 ) ( fa17e59 ) Miscellaneous Chores deps: update dependency npm-run-all2 to v9 (main) ( #45101 ) ( 5149a03 ) deps: update pnpm/setup action to v2 (main) ( #45102 ) ( da0534a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-99.0.dev",
