@@ -7,6 +7,7 @@ tags:
   - open-source
   - sustainability
   - research
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mskmzavr3p2h"
 ---
 
 The [Software Stewardship Lab](https://stewardshiplab.org/) launches today, a Scottish non-profit set up to do applied research on the open source ecosystem, and I'm one of its directors. [Vlad-Stefan Harbuz](https://vlad.website), who runs the [Open Source Pledge](https://opensourcepledge.com/), is the executive director and did the bulk of the work getting it incorporated.
