@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-08T23:29:21Z",
-  "cutoff": "2026-07-09T23:29:17Z",
+  "generated": "2026-08-09T00:35:13Z",
+  "cutoff": "2026-07-10T00:35:09Z",
   "feed_count": 79,
-  "item_count": 225,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-110.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-110.0.dev",
+      "published": "2026-08-09T00:18:43Z",
+      "preview": "SDK 3.14.0-110.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-109.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-109.0.dev",
+      "published": "2026-08-09T00:18:41Z",
+      "preview": "SDK 3.14.0-109.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -230,14 +246,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.14.0-100.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-100.0.dev",
-      "published": "2026-08-07T01:15:56Z",
-      "preview": "SDK 3.14.0-100.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "Windows Package Manager 1.30.90-preview",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.90-preview",
       "published": "2026-08-06T16:55:21Z",
@@ -284,14 +292,6 @@
       "preview": "29.7.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.2 milestone moby/moby, 29.7.2 milestone Bug fixes and enhancements Fix docker service create and docker service update panicking when the same environment variable is passed more than once. docker/cli#7145 Fix a regression introduced in Docker Engine 29.7.0 that caused image pulls to reject images containing absolute hardlink targets, as produced by some image builders. moby/moby#53305 Fix a regression introduced in Docker Engine 29.7.0 that could cause image pulls and",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "SDK-3.14.0-99.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-99.0.dev",
-      "published": "2026-08-06T00:30:54Z",
-      "preview": "SDK 3.14.0-99.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "Making RubyGems Guides friendly to humans and AI",
@@ -1812,14 +1812,6 @@
       "preview": "Prepare release notes for Gradle 9.7.0RC1 ( #38479 )",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "4.0.16 Released",
-      "url": "https://blog.rubygems.org/2026/07/10/4.0.16-released.html",
-      "published": "2026-07-10T00:00:00Z",
-      "preview": "RubyGems 4.0.16 includes enhancements and bug fixes and Bundler 4.0.16 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.16 RubyGems Release Notes Enhancements: Installs bundler 4.0.16 as a default gem. Bug fixes: Skip the make job server when using BSD make. Pull request #9676 by flavorjones Bundler Release Notes Enhancements: Bundler: Fix Bundler::Fetcher for PQC support, adding integration connection tests. Pull requ",
-      "source": "RubyGems Blog",
-      "category": "Ruby"
     }
   ]
 }
