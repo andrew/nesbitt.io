@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-09T15:29:54Z",
-  "cutoff": "2026-07-10T15:29:49Z",
+  "generated": "2026-08-09T16:30:12Z",
+  "cutoff": "2026-07-10T16:30:07Z",
   "feed_count": 79,
   "item_count": 220,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.17.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.17.0",
+      "published": "2026-08-09T15:59:37Z",
+      "preview": "44.17.0 (2026-08-09) Features presets: add replacement for deprecated password pusher images ( #45172 ) ( a484d01 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.15 (main) ( #45173 ) ( 5e5dd4f ) deps: update dependency vitest-mock-extended to v5.1.1 (main) ( #44856 ) ( 0243c9d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 12 RC 2",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.2",
@@ -202,14 +210,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.7",
       "published": "2026-08-07T13:48:13Z",
       "preview": "44.14.7 (2026-08-07) Bug Fixes exec/docker: single-quote the sidecar bash command ( b017c75 ) manager/deno: quote allow-import host list in install command ( 3793e3b ) manager/gomod: quote module path in import path update command ( c9cec1a ) manager/gradle-wrapper: quote distribution URL in wrapper command ( b3f7846 ) manager/maven-wrapper: quote distribution type in wrapper command ( 7279744 ) manager/mix: quote hex organization and token in auth command ( ff3e99e ) manager/nix: quote GitHub token in flake update command ( 521d325 ) manager/npm: quote package spec in corepack command ( 6d2fa",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.14.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.6",
-      "published": "2026-08-07T13:29:38Z",
-      "preview": "44.14.6 (2026-08-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.4 (main) ( #45131 ) ( d8aa95f ) Documentation add link to Containerbase' \"new tool\" documentation ( #45127 ) ( 78fa7af ) Do not recommend to use prCreation=not-pending with automerge ( #45088 ) ( 0dac257 ) Miscellaneous Chores deps: update dependency nock to v14.0.17 (main) ( #45121 ) ( 2668a65 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.15 (main) ( #45120 ) ( 3bcc84b ) deps: update pnpm/setup action to v2.0.1 (main) ( #45129 ) ( ed81456 ) Code Refactoring types: clarify T",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
