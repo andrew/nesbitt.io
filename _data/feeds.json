@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-09T06:32:06Z",
-  "cutoff": "2026-07-10T06:32:02Z",
+  "generated": "2026-08-09T09:31:07Z",
+  "cutoff": "2026-07-10T09:31:03Z",
   "feed_count": 79,
   "item_count": 221,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.16.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.16.0",
+      "published": "2026-08-09T09:31:02Z",
+      "preview": "44.16.0 (2026-08-09) Features presets: add Flue monorepo ( #45137 ) ( e869eec ) Miscellaneous Chores deps: update dependency @types/semver to v7.8.0 (main) ( #45164 ) ( 2f1b951 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.15.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.15.0",
+      "published": "2026-08-09T08:34:32Z",
+      "preview": "44.15.0 (2026-08-09) Features data: automatic update of static data ( #45163 ) ( 25a09ec )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-110.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-110.0.dev",
@@ -190,14 +206,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.14.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.4",
-      "published": "2026-08-07T09:55:24Z",
-      "preview": "44.14.4 (2026-08-07) Bug Fixes proxy: sanitise password components in HTTP_PROXY variable(s) in logs ( #45117 ) ( f88212b ) util/host-rules: sanitise TLS credential fields in hostRules ( #45119 ) ( 54384ff ) Miscellaneous Chores deps: update dependency lint-staged to v17.3.0 (main) ( #45126 ) ( 4a62cda )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "1.12.15",
       "url": "https://github.com/sbt/sbt/releases/tag/v1.12.15",
       "published": "2026-08-07T03:39:10Z",
@@ -268,14 +276,6 @@
       "preview": "The Gradle team is excited to announce Gradle 9.7.0. Here are the highlights of this release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Anton Dubrouski , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 , Qin Mi , Ravi , sk-reddy17 , Suvrat Acharya , Yongshun Ye . Upgrade instructions Switch your build to use Gradle 9.7.0 b",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.14.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.3",
-      "published": "2026-08-06T14:24:02Z",
-      "preview": "44.14.3 (2026-08-06) Bug Fixes workers/global: sanitise COREPACK_NPM_{TOKEN,PASSWORD} in logs ( #45116 ) ( 244bfe1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20260806t120500-all",
