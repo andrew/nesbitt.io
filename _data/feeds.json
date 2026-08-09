@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-09T14:30:22Z",
-  "cutoff": "2026-07-10T14:30:16Z",
+  "generated": "2026-08-09T15:29:54Z",
+  "cutoff": "2026-07-10T15:29:49Z",
   "feed_count": 79,
   "item_count": 220,
   "categories": [
@@ -22,18 +22,18 @@
   ],
   "items": [
     {
-      "title": "pnpm 11.21",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.21.0",
-      "published": "2026-08-09T14:25:31Z",
-      "preview": "Minor Changes Added interactive group selection to pnpm update --global --interactive . Running pnpm setup , pnpm self-update , or a command that modifies the global installation (such as pnpm add --global ) through sudo now prints a warning. pnpm keeps global packages and configuration in the invoking user's home directory, so running these commands as root silently operates on the root user's home directory instead of yours. They will fail with ERR_PNPM_SUDO_NOT_SUPPORTED in pnpm v12. Read-only global commands (such as pnpm bin --global ) are unaffected. Patch Changes Fixed pnpm failing to s",
+      "title": "pnpm 12 RC 2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.2",
+      "published": "2026-08-09T14:32:02Z",
+      "preview": "Minor Changes Globally installed bins can now follow the project you run them in. The new globalShims setting is a record of package names to policies that selects which globally installed packages get project-aware shims; it defaults to { node: true, deno: true, bun: true } and merges key-wise, so globalShims: { bun: false } switches one default off and globalShims: { typescript: true } adds another package. With the default, a project that pins Node.js through devEngines.runtime or engines.runtime gets the pinned stable release — authenticated against the Node.js release-team signatures — do",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
-      "title": "v12.0.0-rc.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.2",
-      "published": "2026-08-09T14:03:20Z",
-      "preview": "v12.0.0-rc.2",
+      "title": "pnpm 11.21",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.21.0",
+      "published": "2026-08-09T14:25:31Z",
+      "preview": "Minor Changes Added interactive group selection to pnpm update --global --interactive . Running pnpm setup , pnpm self-update , or a command that modifies the global installation (such as pnpm add --global ) through sudo now prints a warning. pnpm keeps global packages and configuration in the invoking user's home directory, so running these commands as root silently operates on the root user's home directory instead of yours. They will fail with ERR_PNPM_SUDO_NOT_SUPPORTED in pnpm v12. Read-only global commands (such as pnpm bin --global ) are unaffected. Patch Changes Fixed pnpm failing to s",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
