@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-09T03:52:38Z",
-  "cutoff": "2026-07-10T03:52:35Z",
+  "generated": "2026-08-09T06:32:06Z",
+  "cutoff": "2026-07-10T06:32:02Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -1788,22 +1788,6 @@
       "preview": "tl;dr: There is a renewed effort to improve documentation, head to https://opencollective.com/nixos/projects/nix-documentation or contact foundation@nixos.org to chip in with funding! With the 2023 crowd-funding in documentation funding , we've seen some improvements, but a lot more is needed to make significant progress towards improving the overall experience with Nix documentation, including onboarding and discovery. Especially newcomers frequently struggle with our documentation, get frustrated and notice gaps, and have a hard time adopting Nix. In addition, in the Nix community survey 202",
       "source": "NixOS Blog",
       "category": "System"
-    },
-    {
-      "title": "bundler-v4.0.16",
-      "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.16",
-      "published": "2026-07-10T05:41:26Z",
-      "preview": "Enhancements: Bundler: Fix Bundler::Fetcher for PQC support, adding integration connection tests. Pull request #9637 by junaruga Reuse RubyGems' vendored tsort in Bundler. Pull request #9647 by hsbt Bug fixes: Initialize the new gem's git repo without a subshell. Pull request #9670 by hsbt Preserve CRLF lockfile line endings on Windows. Pull request #9669 by hsbt Fix the gemspec error snippet on Windows drive-letter paths. Pull request #9668 by hsbt Documentation: Point Bundler gemspec metadata at the moved docs. Pull request #9648 by hsbt",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.16",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.16",
-      "published": "2026-07-10T05:39:35Z",
-      "preview": "Enhancements: Installs bundler 4.0.16 as a default gem. Bug fixes: Skip the make job server when using BSD make. Pull request #9676 by flavorjones",
-      "source": "RubyGems releases",
-      "category": "Ruby"
     }
   ]
 }
