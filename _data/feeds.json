@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-09T19:30:22Z",
-  "cutoff": "2026-07-10T19:30:17Z",
+  "generated": "2026-08-09T20:30:00Z",
+  "cutoff": "2026-07-10T20:29:54Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.0.0-rc.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.3",
+      "published": "2026-08-09T20:06:37Z",
+      "preview": "v12.0.0-rc.3",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.17.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.17.1",
@@ -804,14 +812,6 @@
       "preview": "a hack for https://cabal.readthedocs.io/en/stable/",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 12 Beta 1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.1",
-      "published": "2026-07-30T18:42:38Z",
-      "preview": "Minor Changes Made peer resolution significantly faster in large multi-importer workspaces (a 114-importer workspace's resolution dropped from ~77s to ~36s): importers whose hoist rounds converged no longer re-walk their dependency forest every round, later rounds walk only newly added direct dependencies, ownership handovers with an unchanged peer context no longer invalidate shared walk caches, and the resolver's internal hash maps use a faster hash. Peer dependencies provided by multiple candidate versions may resolve to a different (still range-valid) provider than before, which can shift ",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "Maven 4.0.0-rc-6",
