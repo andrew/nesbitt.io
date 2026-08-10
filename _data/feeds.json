@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-10T11:34:54Z",
-  "cutoff": "2026-07-11T11:34:50Z",
+  "generated": "2026-08-10T12:34:49Z",
+  "cutoff": "2026-07-11T12:34:44Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.18.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.18.0",
+      "published": "2026-08-10T12:29:30Z",
+      "preview": "44.18.0 (2026-08-10) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.83.0 (main) ( #45195 ) ( 63f9e20 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.0 (main) ( #45194 ) ( 7275fcb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.17.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.17.5",
+      "published": "2026-08-10T12:13:53Z",
+      "preview": "44.17.5 (2026-08-10) Bug Fixes git: resolve child env before adding authentication ( #45184 ) ( cca6227 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.17.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.17.4",
@@ -140,22 +156,6 @@
       "preview": "SDK 3.14.0-109.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.14.12",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.12",
-      "published": "2026-08-08T15:45:34Z",
-      "preview": "44.14.12 (2026-08-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.9 (main) ( #45156 ) ( 1b99a61 ) Miscellaneous Chores deps: update dependency @types/lodash to v4.17.25 (main) ( #45151 ) ( 2f2dd98 ) deps: update dependency @types/luxon to v3.7.3 (main) ( #45154 ) ( ecadb0c ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.18 (main) ( #45155 ) ( 7a4aac6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.14.11",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.11",
-      "published": "2026-08-08T01:45:33Z",
-      "preview": "44.14.11 (2026-08-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.8 (main) ( #45150 ) ( 952ec8d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-108.0.dev",
