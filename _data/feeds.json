@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-10T14:40:02Z",
-  "cutoff": "2026-07-11T14:39:57Z",
+  "generated": "2026-08-10T15:37:40Z",
+  "cutoff": "2026-07-11T15:37:35Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.20.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.20.1",
+      "published": "2026-08-10T15:00:13Z",
+      "preview": "44.20.1 (2026-08-10) Bug Fixes cargo: support fetching crates from git monorepo ( #45142 ) ( 4adc8f3 ) Miscellaneous Chores deps: update dependency pnpm to v11.20.0 (main) ( #45201 ) ( 3f20dca )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v0.391.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.391.0",
+      "published": "2026-08-10T14:52:59Z",
+      "preview": "What's Changed Add typed requirement metadata readers by @JamieMagee in #15740 Type common requirement access by @JamieMagee in #15741 gracefully handle exceptions generated during package detail fetch by @brettfo in #15762 Bump the dev-dependencies group across 2 directories with 7 updates by @dependabot [bot] in #15563 Upgrade uv to 0.11.31 by @ABruihler in #15424 Bump ip-address from 10.2.0 to 10.4.0 in /bun/helpers by @dependabot [bot] in #15768 Bump brace-expansion from 1.1.13 to 1.1.18 in /npm_and_yarn/helpers/test/npm6/fixtures/conflicting-dependency-parser/deeply-nested by @dependabot ",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.20.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.20.0",
@@ -118,6 +134,14 @@
       "category": "Registries"
     },
     {
+      "title": "What's different in pnpm 12",
+      "url": "https://pnpm.io/blog/whats-different-in-pnpm-12",
+      "published": "2026-08-10T00:00:00Z",
+      "preview": "pnpm 12 is a rewrite of pnpm in Rust, and it is currently a release candidate. Upgrading is not meant to be a migration: apart from the differences below, it keeps the commands, flags, settings, and lockfile format of pnpm 11, and the documentation applies to both versions.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
       "title": "pnpm 12 RC 3",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.3",
       "published": "2026-08-09T20:32:01Z",
@@ -156,14 +180,6 @@
       "preview": "Minor Changes Added interactive group selection to pnpm update --global --interactive . Running pnpm setup , pnpm self-update , or a command that modifies the global installation (such as pnpm add --global ) through sudo now prints a warning. pnpm keeps global packages and configuration in the invoking user's home directory, so running these commands as root silently operates on the root user's home directory instead of yours. They will fail with ERR_PNPM_SUDO_NOT_SUPPORTED in pnpm v12. Read-only global commands (such as pnpm bin --global ) are unaffected. Patch Changes Fixed pnpm failing to s",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.16.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.16.1",
-      "published": "2026-08-09T09:46:19Z",
-      "preview": "44.16.1 (2026-08-09) Bug Fixes presets/monorepo: add new datatables.net source repos ( #45090 ) ( 42cd249 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-110.0.dev",
