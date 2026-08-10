@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-10T06:47:13Z",
-  "cutoff": "2026-07-11T06:47:09Z",
+  "generated": "2026-08-10T08:51:28Z",
+  "cutoff": "2026-07-11T08:51:23Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.9.0",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0",
+      "published": "2026-08-10T08:27:37Z",
+      "preview": "⚠️ Breaking changes Logs and JSON outputs are now properly handled together but at the cost of some adaptations of the JSON output. If you use --json , you might need to adapt your applications' logic to handle this change. For full background on the issue, see: #4202 You can update micromamba to this version using: micromamba self-update Enhancements: [libmamba, micromamba] Refactor and clean up by @Hind-M in #4359 [libmamba, libmambapy] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fi",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.17.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.17.3",
+      "published": "2026-08-10T08:19:29Z",
+      "preview": "44.17.3 (2026-08-10) Bug Fixes manager/asdf,mise,proto: use rust-version datasource for rust ( #45143 ) ( a2d1b8c ) manager/rust-toolchain: report skipReason instead of dropping deps ( #45144 ) ( 183ee9c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.17.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.17.2",
@@ -174,14 +190,6 @@
       "category": "Registries"
     },
     {
-      "title": "44.14.9",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.14.9",
-      "published": "2026-08-07T23:46:28Z",
-      "preview": "44.14.9 (2026-08-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.6 (main) ( #45147 ) ( 84ef069 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.16 (main) ( #45145 ) ( 4c492d3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2026.8.3: Flatpak, Font Casks, and Task Precedence Fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.3",
       "published": "2026-08-07T22:39:57Z",
@@ -195,14 +203,6 @@
       "published": "2026-08-07T21:17:49Z",
       "preview": "Release vfox 2026.8.3",
       "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "2.9.0",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0",
-      "published": "2026-08-07T19:03:05Z",
-      "preview": "You can update micromamba to this version using: micromamba self-update Enhancements: [libmamba, micromamba] Refactor and clean up by @Hind-M in #4359 [libmamba, libmambapy] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fixes: [micromamba] fix: Remove duplicate deactivate from shell completion by @henriquesimoes in #4371 [libmamba] fix: Explain missing packages when string ids collide with solvables by @jjerphan in #4369 [libmamba] fix: Do not change permissions of existing shared packa",
-      "source": "Mamba releases",
       "category": "Multi-language"
     },
     {
