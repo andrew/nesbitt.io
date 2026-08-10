@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-10T13:48:48Z",
-  "cutoff": "2026-07-11T13:48:44Z",
+  "generated": "2026-08-10T14:40:02Z",
+  "cutoff": "2026-07-11T14:39:57Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.20.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.20.0",
+      "published": "2026-08-10T14:26:01Z",
+      "preview": "44.20.0 (2026-08-10) Features util/exec: add support for gh tool ( #45192 ) ( 4537247 ), closes #44753 #45190 Documentation update references to renovate/renovate (main) ( #45196 ) ( d584cf4 ) Code Refactoring workers/repository: allow managers to opt out of digest pinning ( #45198 ) ( 7f40d43 ), closes #45190",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.19.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.19.0",
+      "published": "2026-08-10T13:50:44Z",
+      "preview": "44.19.0 (2026-08-10) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.84.0 (main) ( #45197 ) ( 197ad00 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "6.0.16",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.16",
@@ -146,22 +162,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.16.1",
       "published": "2026-08-09T09:46:19Z",
       "preview": "44.16.1 (2026-08-09) Bug Fixes presets/monorepo: add new datatables.net source repos ( #45090 ) ( 42cd249 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.16.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.16.0",
-      "published": "2026-08-09T09:31:02Z",
-      "preview": "44.16.0 (2026-08-09) Features presets: add Flue monorepo ( #45137 ) ( e869eec ) Miscellaneous Chores deps: update dependency @types/semver to v7.8.0 (main) ( #45164 ) ( 2f1b951 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.15.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.15.0",
-      "published": "2026-08-09T08:34:32Z",
-      "preview": "44.15.0 (2026-08-09) Features data: automatic update of static data ( #45163 ) ( 25a09ec )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
