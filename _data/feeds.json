@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-10T15:37:40Z",
-  "cutoff": "2026-07-11T15:37:35Z",
+  "generated": "2026-08-10T17:36:57Z",
+  "cutoff": "2026-07-11T17:36:53Z",
   "feed_count": 79,
   "item_count": 221,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.22.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.22.0",
+      "published": "2026-08-10T17:09:56Z",
+      "preview": "44.22.0 (2026-08-10) Features vulnerabilities: match OSV Packagist sub-ecosystems ( #45203 ) ( a84e007 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.21.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.21.0",
+      "published": "2026-08-10T16:48:17Z",
+      "preview": "44.21.0 (2026-08-10) Features replacements: add replacements for dev-facing Comet packages ( #45112 ) ( b9b2755 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.20.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.20.1",
@@ -148,22 +164,6 @@
       "preview": "Patch Changes Command shims on POSIX again exec a target that has no interpreter — a runtime binary such as the managed Node.js, or any bin without a shebang — instead of waiting on it. A shim that waited reported a target killed by a signal as exit code 128+N (for example 137 for SIGKILL ), so callers that distinguish a signal death from an exit code, such as CI runners and process supervisors, saw the wrong outcome.",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.17.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.17.1",
-      "published": "2026-08-09T18:45:46Z",
-      "preview": "44.17.1 (2026-08-09) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.82.10 (main) ( #45175 ) ( ef843fd ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.13.19 (main) ( #45174 ) ( 4b27160 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.17.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.17.0",
-      "published": "2026-08-09T15:59:37Z",
-      "preview": "44.17.0 (2026-08-09) Features presets: add replacement for deprecated password pusher images ( #45172 ) ( a484d01 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.15 (main) ( #45173 ) ( 5e5dd4f ) deps: update dependency vitest-mock-extended to v5.1.1 (main) ( #44856 ) ( 0243c9d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12 RC 2",
