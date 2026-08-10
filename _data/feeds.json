@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-10T12:34:49Z",
-  "cutoff": "2026-07-11T12:34:44Z",
+  "generated": "2026-08-10T13:48:48Z",
+  "cutoff": "2026-07-11T13:48:44Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "6.0.16",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.16",
+      "published": "2026-08-10T13:40:39Z",
+      "preview": "What's Changed cask/audit: detect incorrect app case by @krehel in #23400 Start install downloads before local-only checks by @MikeMcQuaid in #23381 contributions: clarify Maintainer team access by @SSakutaro in #23394 Tolerate missing bottle manifests in prefetches by @MikeMcQuaid in #23403 Use workflow result for commit style by @MikeMcQuaid in #23402 docs/MCP-Server: update Cursor URL by @p-linnane in #23415 download_queue: print fetch heading to stderr when stdout is not a TTY by @carlocab in #23406 cask/audit: allow linux-only casks by @bevanjkay in #23422 Compact install step JSON (25/26",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "v0.76.2",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.76.2",
+      "published": "2026-08-10T12:43:07Z",
+      "preview": "[0.76.2] - 2026-08-10 ✨ Highlights This release features better logging and a few bug fixes. Added Add logging about why pixi build has a cache miss by @baszalmstra in #6784 Changed Log CEP-42 user-order conflicts at debug level by @hunger in #6778 Small fixes to better handle paths containing spaces by @hunger in #6779 Documentation Split prepare-docs into tasks with dependencies by @Hofer-Julian in #6757 Better organize the CLI nav sections by @Hofer-Julian in #6768 Clarify pixi search channels by @ytausch in #6774 Fixed Wasm example by @wolfv in #6777 Scope the build source check to the pac",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "7.11.0.6",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.6",
+      "published": "2026-08-10T12:39:19Z",
+      "preview": "Insert 7.11.0.6 into main on 08/10/2026 12:39:19",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "44.18.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.18.0",
@@ -822,14 +846,6 @@
       "category": "Maven"
     },
     {
-      "title": "pixi-build-python-v0.8.4: feat: support `[package.run-exports]` in package manifests (#6696)",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.8.4",
-      "published": "2026-07-30T15:18:36Z",
-      "preview": "Co-authored-by: Ruben Arts ruben.arts@hotmail.com",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "Announcing the Composer & Packagist Sponsorship Program",
       "url": "https://blog.packagist.com/announcing-the-composer-packagist-sponsorship-program/",
       "published": "2026-07-30T12:15:40Z",
@@ -1582,14 +1598,6 @@
       "category": "Containers"
     },
     {
-      "title": "7.10.0.16",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.16",
-      "published": "2026-07-16T12:28:38Z",
-      "preview": "Insert 7.10.0.16 into main on 07/16/2026 12:28:37",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
       "published": "2026-07-16T08:57:14Z",
@@ -1764,14 +1772,6 @@
       "preview": "Another six months have passed since our last development update , and the crates.io team has been busy. Here's a summary of the most notable changes and improvements made to crates.io since then. Source Code Viewer Crate pages now have a \"Code\" tab that lets you browse the contents of published crate versions directly on crates.io. This shows you the exact files that cargo downloads when you add a crate as a dependency, which might differ from the linked repository. This makes it much easier to audit your dependencies, including files that never appear in the repository, like the normalized C",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "v7.0.0-next-7.23",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.23",
-      "published": "2026-07-11T12:39:21Z",
-      "preview": "Patch Changes a768d16 : chore: replace eslint and prettier with oxlint and oxfmt",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     }
   ]
 }
