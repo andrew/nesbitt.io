@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-11T14:40:23Z",
-  "cutoff": "2026-07-12T14:40:17Z",
+  "generated": "2026-08-11T17:38:44Z",
+  "cutoff": "2026-07-12T17:38:40Z",
   "feed_count": 79,
   "item_count": 227,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.24.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.2",
+      "published": "2026-08-11T16:48:31Z",
+      "preview": "44.24.2 (2026-08-11) Bug Fixes terraform: deduplicate provider lockfile hashes ( #45226 ) ( 2869cd3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "6.0.17",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.17",
@@ -227,14 +235,6 @@
       "published": "2026-08-10T14:52:59Z",
       "preview": "What's Changed Add typed requirement metadata readers by @JamieMagee in #15740 Type common requirement access by @JamieMagee in #15741 gracefully handle exceptions generated during package detail fetch by @brettfo in #15762 Bump the dev-dependencies group across 2 directories with 7 updates by @dependabot [bot] in #15563 Upgrade uv to 0.11.31 by @ABruihler in #15424 Bump ip-address from 10.2.0 to 10.4.0 in /bun/helpers by @dependabot [bot] in #15768 Bump brace-expansion from 1.1.13 to 1.1.18 in /npm_and_yarn/helpers/test/npm6/fixtures/conflicting-dependency-parser/deeply-nested by @dependabot ",
       "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.20.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.20.0",
-      "published": "2026-08-10T14:26:01Z",
-      "preview": "44.20.0 (2026-08-10) Features util/exec: add support for gh tool ( #45192 ) ( 4537247 ), closes #44753 #45190 Documentation update references to renovate/renovate (main) ( #45196 ) ( d584cf4 ) Code Refactoring workers/repository: allow managers to opt out of digest pinning ( #45198 ) ( 7f40d43 ), closes #45190",
-      "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
