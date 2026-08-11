@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-11T13:48:15Z",
-  "cutoff": "2026-07-12T13:48:11Z",
+  "generated": "2026-08-11T14:40:23Z",
+  "cutoff": "2026-07-12T14:40:17Z",
   "feed_count": 79,
-  "item_count": 226,
+  "item_count": 227,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "6.0.17",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.17",
+      "published": "2026-08-11T14:37:20Z",
+      "preview": "What's Changed sbom: build pkg:brew purls via Vulns::Purl by @andrew in #23488 Report skipped dependent upgrades by @MikeMcQuaid in #23491 Allow cask runs to access the network by @MikeMcQuaid in #23497 Full Changelog : 6.0.16...6.0.17",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "44.24.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.1",
+      "published": "2026-08-11T14:07:53Z",
+      "preview": "44.24.1 (2026-08-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.84.2 (main) ( #45223 ) ( bbda046 ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.7 (main) ( #45225 ) ( e8568a2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.18.1",
       "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.1",
@@ -218,14 +234,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.20.0",
       "published": "2026-08-10T14:26:01Z",
       "preview": "44.20.0 (2026-08-10) Features util/exec: add support for gh tool ( #45192 ) ( 4537247 ), closes #44753 #45190 Documentation update references to renovate/renovate (main) ( #45196 ) ( d584cf4 ) Code Refactoring workers/repository: allow managers to opt out of digest pinning ( #45198 ) ( 7f40d43 ), closes #45190",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.19.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.19.0",
-      "published": "2026-08-10T13:50:44Z",
-      "preview": "44.19.0 (2026-08-10) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.84.0 (main) ( #45197 ) ( 197ad00 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
