@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-11T03:00:52Z",
-  "cutoff": "2026-07-12T03:00:48Z",
+  "generated": "2026-08-11T03:53:31Z",
+  "cutoff": "2026-07-12T03:53:27Z",
   "feed_count": 79,
   "item_count": 221,
   "categories": [
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v2026.8.4",
+      "title": "v2026.8.4: Cross-backend ls, semver ordering, and bootstrap cask pruning",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.4",
-      "published": "2026-08-11T02:01:28Z",
-      "preview": "(aqua) resolve relative aqua.registries against the declaring c…",
+      "published": "2026-08-11T03:03:53Z",
+      "preview": "This release adds explicit semantic version ordering for major backends, teaches mise ls and mise install --force to work across backends, extends bootstrap package management with platform filters and cask pruning, and lands a broad batch of task, config, and platform-specific fixes. Added backend: tools can now declare an explicit version_order ( source or semver ) so that latest and version-prefix resolution follow semantic precedence instead of source/chronological order. This is enabled for Aqua, GitHub, GitLab, Forgejo, and HTTP backends, and fixes cases where a backport or older release",
       "source": "mise releases",
       "category": "Multi-language"
     },
