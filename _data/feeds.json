@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-11T17:38:44Z",
-  "cutoff": "2026-07-12T17:38:40Z",
+  "generated": "2026-08-11T21:32:10Z",
+  "cutoff": "2026-07-12T21:32:06Z",
   "feed_count": 79,
   "item_count": 227,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.24.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.3",
+      "published": "2026-08-11T21:15:40Z",
+      "preview": "44.24.3 (2026-08-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.84.3 (main) ( #45233 ) ( 8a6d27d ) Miscellaneous Chores deps: update dependency @containerbase/semantic-release-pnpm to v1.4.3 (main) ( #45232 ) ( 923cc3f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.24.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.2",
@@ -218,14 +226,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.21.0",
       "published": "2026-08-10T16:48:17Z",
       "preview": "44.21.0 (2026-08-10) Features replacements: add replacements for dev-facing Comet packages ( #45112 ) ( b9b2755 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.20.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.20.1",
-      "published": "2026-08-10T15:00:13Z",
-      "preview": "44.20.1 (2026-08-10) Bug Fixes cargo: support fetching crates from git monorepo ( #45142 ) ( 4adc8f3 ) Miscellaneous Chores deps: update dependency pnpm to v11.20.0 (main) ( #45201 ) ( 3f20dca )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
