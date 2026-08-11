@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-11T05:39:09Z",
-  "cutoff": "2026-07-12T05:39:05Z",
+  "generated": "2026-08-11T06:37:09Z",
+  "cutoff": "2026-07-12T06:37:05Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.23.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.23.2",
+      "published": "2026-08-11T06:34:10Z",
+      "preview": "44.23.2 (2026-08-11) Bug Fixes keep HTTPS when resolving same origin URLs ( #45157 ) ( 728ce97 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.23.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.23.1",
+      "published": "2026-08-11T05:46:21Z",
+      "preview": "44.23.1 (2026-08-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.84.1 (main) ( #45209 ) ( f4f7ea1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "Hatch v1.18.0",
       "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.18.0",
@@ -198,28 +214,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.17.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.17.4",
-      "published": "2026-08-10T11:24:18Z",
-      "preview": "44.17.4 (2026-08-10) Bug Fixes versioning/cargo: convert ranges to semver in subset and intersects ( #45146 ) ( 1f6546b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "2.9.0",
       "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0",
       "published": "2026-08-10T08:27:37Z",
       "preview": "⚠️ Breaking changes Logs and JSON outputs are now properly handled together but at the cost of some adaptations of the JSON output. If you use --json , you might need to adapt your applications' logic to handle this change. For full background on the issue, see: #4202 You can update micromamba to this version using: micromamba self-update Enhancements: [libmamba, micromamba] Refactor and clean up by @Hind-M in #4359 [libmamba, libmambapy] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fi",
       "source": "Mamba releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.17.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.17.3",
-      "published": "2026-08-10T08:19:29Z",
-      "preview": "44.17.3 (2026-08-10) Bug Fixes manager/asdf,mise,proto: use rust-version datasource for rust ( #45143 ) ( a2d1b8c ) manager/rust-toolchain: report skipReason instead of dropping deps ( #45144 ) ( 183ee9c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "cabal-head",
