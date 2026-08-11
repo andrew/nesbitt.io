@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-11T06:37:09Z",
-  "cutoff": "2026-07-12T06:37:05Z",
+  "generated": "2026-08-11T07:45:11Z",
+  "cutoff": "2026-07-12T07:45:07Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.23.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.23.3",
+      "published": "2026-08-11T06:49:33Z",
+      "preview": "44.23.3 (2026-08-11) Bug Fixes swift: support Package Registry pins in Package.resolved ( #44358 ) ( d735b9b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.23.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.23.2",
@@ -202,14 +210,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.18.0",
       "published": "2026-08-10T12:29:30Z",
       "preview": "44.18.0 (2026-08-10) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.83.0 (main) ( #45195 ) ( 63f9e20 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.0 (main) ( #45194 ) ( 7275fcb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.17.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.17.5",
-      "published": "2026-08-10T12:13:53Z",
-      "preview": "44.17.5 (2026-08-10) Bug Fixes git: resolve child env before adding authentication ( #45184 ) ( cca6227 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
