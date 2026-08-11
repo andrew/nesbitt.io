@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-11T12:32:19Z",
-  "cutoff": "2026-07-12T12:32:14Z",
+  "generated": "2026-08-11T13:48:15Z",
+  "cutoff": "2026-07-12T13:48:11Z",
   "feed_count": 79,
-  "item_count": 225,
+  "item_count": 226,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,10 +22,34 @@
   ],
   "items": [
     {
+      "title": "1.18.1",
+      "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.1",
+      "published": "2026-08-11T12:59:57Z",
+      "preview": "Security fixes: Fix sandbox escape with full host filesystem read/write access via symlink attack on app data directories ( GHSA-8688-9x26-hhxj ) Fix local root privilege escalation via revokefs symlink path traversal and commit tampering ( GHSA-qrwq-7qwx-q9rp ) Fix arbitrary root write via symlink and path traversal in extra-data extraction ( GHSA-fqx6-vh4p-42cg ) Fix arbitrary root write via path traversal in flatpak build-init ( GHSA-8qxj-x646-phcm ) Fix arbitrary host file read via hardlink path traversal in OCI archive extraction ( GHSA-9rww-v4mm-x4jg ) Fix path traversal via unvalidated ",
+      "source": "Flatpak releases",
+      "category": "System"
+    },
+    {
+      "title": "New release 2.76.2",
+      "url": "https://github.com/canonical/snapd/releases/tag/2.76.2",
+      "published": "2026-08-11T12:47:04Z",
+      "preview": "interfaces: steam-support, docker-support | fix mountinfo denial",
+      "source": "Snapd releases",
+      "category": "System"
+    },
+    {
+      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-08-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-08-08-a",
+      "published": "2026-08-11T12:32:51Z",
+      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-08-08-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
       "title": "1.19.0",
       "url": "https://github.com/flatpak/flatpak/releases/tag/1.19.0",
       "published": "2026-08-11T12:29:33Z",
-      "preview": "Security fixes: Fix sandbox escape with full host filesystem read/write access via symlink attack on app data directories (GHSA-8688-9x26-hhxj) Fix local root privilege escalation via revokefs symlink path traversal and commit tampering (GHSA-qrwq-7qwx-q9rp) Fix arbitrary root write via symlink and path traversal in extra-data extraction (GHSA-fqx6-vh4p-42cg) Fix arbitrary root write via path traversal in flatpak build-init (GHSA-8qxj-x646-phcm) Fix arbitrary host file read via hardlink path traversal in OCI archive extraction (GHSA-9rww-v4mm-x4jg) Fix path traversal via unvalidated architectu",
+      "preview": "Security fixes: Fix sandbox escape with full host filesystem read/write access via symlink attack on app data directories ( GHSA-8688-9x26-hhxj ) Fix local root privilege escalation via revokefs symlink path traversal and commit tampering ( GHSA-qrwq-7qwx-q9rp ) Fix arbitrary root write via symlink and path traversal in extra-data extraction ( GHSA-fqx6-vh4p-42cg ) Fix arbitrary root write via path traversal in flatpak build-init ( GHSA-8qxj-x646-phcm ) Fix arbitrary host file read via hardlink path traversal in OCI archive extraction ( GHSA-9rww-v4mm-x4jg ) Fix path traversal via unvalidated ",
       "source": "Flatpak releases",
       "category": "System"
     },
@@ -1382,14 +1406,6 @@
       "category": "System"
     },
     {
-      "title": "2.76.2",
-      "url": "https://github.com/canonical/snapd/releases/tag/2.76.2",
-      "published": "2026-07-21T17:44:19Z",
-      "preview": "tagging package snapd version 2.76.2",
-      "source": "Snapd releases",
-      "category": "System"
-    },
-    {
       "title": "2.76.3",
       "url": "https://github.com/canonical/snapd/releases/tag/2.76.3",
       "published": "2026-07-21T17:43:35Z",
@@ -1739,14 +1755,6 @@
       "published": "2026-07-14T09:53:36Z",
       "preview": "Deployment at 2026-07-14T09:53:17.406059Z.",
       "source": "pub.dev releases",
-      "category": "Registries"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-11-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-11-a",
-      "published": "2026-07-14T08:50:48Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-11-a",
-      "source": "Swift Package Manager releases",
       "category": "Registries"
     },
     {
