@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-11T07:45:11Z",
-  "cutoff": "2026-07-12T07:45:07Z",
+  "generated": "2026-08-11T11:33:41Z",
+  "cutoff": "2026-07-12T11:33:37Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.28.1",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.28.1",
+      "published": "2026-08-11T11:17:09Z",
+      "preview": "Features & Improvements Defer command action and Python installer imports until their corresponding runtime paths execute. ( #3673 ) Add {run_cwd} placeholder for scripts to reference the original working directory. ( #3734 ) Add opt-in canonical lock input freshness via tool.pdm.resolution.lock_inputs while retaining sticky lockfile behavior and legacy hash fallback for existing lock files. ( #3821 ) Integrate argcomplete for simplified command-line completion scripts. ( #3823 ) Bug Fixes Keep workspace members in their explicitly declared dependency groups instead of adding them to default i",
+      "source": "PDM releases",
+      "category": "Python"
+    },
     {
       "title": "44.23.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.23.3",
