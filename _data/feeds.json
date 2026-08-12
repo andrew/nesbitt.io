@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-12T05:49:07Z",
-  "cutoff": "2026-07-13T05:49:02Z",
+  "generated": "2026-08-12T06:47:55Z",
+  "cutoff": "2026-07-13T06:47:51Z",
   "feed_count": 79,
   "item_count": 225,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.25.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.25.0",
+      "published": "2026-08-12T06:13:51Z",
+      "preview": "44.25.0 (2026-08-12) Features parse TOML files by default with TOML 1.1 ( #45231 ) ( 848ef4a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.24.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.4",
+      "published": "2026-08-12T05:57:04Z",
+      "preview": "44.24.4 (2026-08-12) Bug Fixes manager/npm: pass correct arguments to pnpm dedupe ( #42024 ) ( 3646307 ) Build System deps: update dependency semantic-release to v25.0.9 (main) ( #45238 ) ( 5ecbdc9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-118.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-118.0.dev",
@@ -258,22 +274,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.23.0",
       "published": "2026-08-10T22:02:33Z",
       "preview": "44.23.0 (2026-08-10) Features add regex support for gitIgnoredAuthors configuration ( #43938 ) ( 65ee1f1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.22.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.22.0",
-      "published": "2026-08-10T17:09:56Z",
-      "preview": "44.22.0 (2026-08-10) Features vulnerabilities: match OSV Packagist sub-ecosystems ( #45203 ) ( a84e007 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.21.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.21.0",
-      "published": "2026-08-10T16:48:17Z",
-      "preview": "44.21.0 (2026-08-10) Features replacements: add replacements for dev-facing Comet packages ( #45112 ) ( b9b2755 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
