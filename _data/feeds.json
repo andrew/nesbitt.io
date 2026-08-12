@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-12T20:31:47Z",
-  "cutoff": "2026-07-13T20:31:42Z",
+  "generated": "2026-08-12T21:32:07Z",
+  "cutoff": "2026-07-13T21:32:02Z",
   "feed_count": 79,
-  "item_count": 224,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -1804,14 +1804,6 @@
       "preview": "Tagging release 2.35.1",
       "source": "Nix releases",
       "category": "System"
-    },
-    {
-      "title": "v6.8.0",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.8.0",
-      "published": "2026-07-13T20:50:22Z",
-      "preview": "Minor Changes 962fba8 : feat: add unpublish notification hooks Port of #5920 (ref #5328 ). The notify webhook now also fires when a package is unpublished entirely and when a single version (tarball) is removed, not only on publish. Notification templates can distinguish the event through the new {{ publishType }} ( publish | unpublish ) and {{ publishedPackage }} variables, and the {{ publisher }} object exposes only name , groups and real_groups , so the remote user auth token can never leak to the notification endpoint (via @verdaccio/hooks 8.0.4). Patch Changes f0684dc : fix: return 403 to",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     }
   ]
 }
