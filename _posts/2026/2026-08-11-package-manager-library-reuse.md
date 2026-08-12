@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - idea
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3msunogks2l2h"
 ---
 
 Writing up the [package manager CWEs](/2026/05/04/package-manager-cwes.html) list and then the [`--end-of-options`](/2026/07/21/end-of-options.html) survey, both of which come down to the same bug being fixed independently in tool after tool, left me wondering how much code these tools share with each other in the first place. So I went through the direct dependencies of [twenty package managers](https://github.com/andrew/package-manager-library-reuse)[^snapshot], each with at least two same-language peers in the set, looking for package-management libraries reused between them and setting aside the general-purpose stuff any CLI would use (serde, clap, requests).
