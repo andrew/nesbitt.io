@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-12T00:40:00Z",
-  "cutoff": "2026-07-13T00:39:57Z",
+  "generated": "2026-08-12T05:49:07Z",
+  "cutoff": "2026-07-13T05:49:02Z",
   "feed_count": 79,
-  "item_count": 226,
+  "item_count": 225,
   "categories": [
     ".NET",
     "C/C++",
@@ -1819,14 +1819,6 @@
       "published": "2026-07-13T08:21:54Z",
       "preview": "💥 Breaking changes Remove release-profile from super POM ( #11999 ) @slawekjaranowski Remove deprecated plugin management from super POM ( #11986 ) @slawekjaranowski 🚀 New features and improvements Feat: Align Maven 3.10.x and 4.0.x ( #12442 ) @cstamas Feat: Align CP ordering with Maven 4 ( #12327 ) @cstamas Feat: Apply latest Resolver 2.0.19 changes ( #12246 ) @cstamas Feat: Maven 3.10.x super POM ( #12032 ) @cstamas In failed build limit reactor summary to only failed modules ( #11977 ) @slawekjaranowski Add time zone to Maven startup banner ( #11972 ) @slawekjaranowski Feat: Version range f",
       "source": "Maven releases",
-      "category": "Maven"
-    },
-    {
-      "title": "2.0.2",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.2",
-      "published": "2026-07-13T05:13:12Z",
-      "preview": "🐛 bug fixes fix: Fixes remote cache ByteStream timeout by @yhefamly in #9413 fix: Fixes metabuild dependency downgrade via plugin by @anatoliykmetyuk in #9426 fix: Fixes build pipelining by @anatoliykmetyuk in #9425 fix: Fixes auto import of givens by @xuwei-k in #9409 fix: Fixes sbtn stdout relaying by @BrianHotopp in #9411 / #9414 fix: Fixes shutdownall in sbt runner by @eed3si9n in #9435 fix: Fixes attribute string in pom.xml to be deterministic @raboof in sbt/ivy#51 fix: Fixes ivyless publishing of sbt plugins by @anatoliykmetyuk in #9416 updates Deprecate url(...) and Resolver.url(...) in",
-      "source": "sbt releases",
       "category": "Maven"
     }
   ]
