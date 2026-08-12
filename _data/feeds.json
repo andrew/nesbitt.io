@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-12T10:40:17Z",
-  "cutoff": "2026-07-13T10:40:11Z",
+  "generated": "2026-08-12T12:34:05Z",
+  "cutoff": "2026-07-13T12:34:01Z",
   "feed_count": 79,
   "item_count": 224,
   "categories": [
@@ -22,12 +22,28 @@
   ],
   "items": [
     {
-      "title": "v2026.8.5",
+      "title": "7.11.0.8",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.8",
+      "published": "2026-08-12T12:17:37Z",
+      "preview": "Insert 7.11.0.8 into main on 08/12/2026 12:17:36",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "v2026.8.5: PyPy on the precompiled path, Node source patches, and a broad batch of fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.5",
-      "published": "2026-08-12T10:16:57Z",
-      "preview": "(node) apply patches to the source build by @JamBalaya56562 in …",
+      "published": "2026-08-12T12:01:21Z",
+      "preview": "This release lets mise install PyPy on the precompiled path (including on Windows), adds Node source-build patching, and lands a wide set of fixes across config precedence, install hooks, version pinning, and the Rust, conda, and vfox backends. Added python: PyPy can now be installed on the precompiled path — when python.compile=false , and unconditionally on Windows, where PyPy versions previously never appeared in mise ls-remote python and could not be installed at all. mise reads the upstream downloads.python.org/pypy index, downloads and extracts the correct archive, runs ensurepip , and r",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "20260812t113900-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260812t113900-all",
+      "published": "2026-08-12T11:39:47Z",
+      "preview": "Deployment at 2026-08-12T11:39:40.328756Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
     },
     {
       "title": "mise-interactive-config-v2026.8.3",
@@ -1622,14 +1638,6 @@
       "category": "Maven"
     },
     {
-      "title": "7.10.0.21",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.21",
-      "published": "2026-07-17T12:30:37Z",
-      "preview": "Insert 7.10.0.21 into main on 07/17/2026 12:30:36",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
       "published": "2026-07-17T08:44:47Z",
@@ -1804,14 +1812,6 @@
       "preview": "What's Changed Capture offending gem details on bundler registry metadata errors by @kbukum1 in #15512 Bundler: apply empty-checksum metadata patch to the v2 helper by @kbukum1 in #15513 [Update graph] Ensure bystander txt files are removed before parsing for Python by @brrygrdn in #15508 Handle global.json with no SDK version in dotnet_sdk parser by @brettfo in #15510 Type the cargo ecosystem and remove it from the T.untyped burndown by @JamieMagee in #15492 Type the conda ecosystem and remove it from the T.untyped burndown by @JamieMagee in #15493 Type the docker ecosystem and remove it from",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "6.0.10",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.10",
-      "published": "2026-07-13T11:58:34Z",
-      "preview": "What's Changed version/parser: speed up StemParser by @Bo98 in #23007 Send bundle check failures to stderr by @MikeMcQuaid in #23009 Guard release against stale main by @MikeMcQuaid in #23008 dev-cmd/bump-formula-pr: keep failures when downgrade fails by @cho-m in #23006 Skip incompatible cask upgrades by @MikeMcQuaid in #23012 Remove redundant T.let annotations Sorbet can infer by @dduugg in #23013 Avoid generated rmdir for shared file lists by @loganrosen in #22940 docs: escape braces to avoid Liquid tag handling by @cho-m in #23025 Fix test setup crash when multiple package APIs are cached ",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
