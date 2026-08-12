@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-12T12:34:05Z",
-  "cutoff": "2026-07-13T12:34:01Z",
+  "generated": "2026-08-12T13:50:22Z",
+  "cutoff": "2026-07-13T13:50:18Z",
   "feed_count": 79,
   "item_count": 224,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.26.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.26.1",
+      "published": "2026-08-12T13:31:07Z",
+      "preview": "44.26.1 (2026-08-12) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.85.1 (main) ( #45246 ) ( 851d6b6 ) manager/npm: do not pass --recursive to pnpm dedupe ( #45244 ) ( b2da209 ) Miscellaneous Chores tools: allow unsafe askpass in agent hooks git config ( #45245 ) ( 7c0592b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.11.0.8",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.8",
@@ -250,14 +258,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.23.2",
       "published": "2026-08-11T06:34:10Z",
       "preview": "44.23.2 (2026-08-11) Bug Fixes keep HTTPS when resolving same origin URLs ( #45157 ) ( 728ce97 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.23.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.23.1",
-      "published": "2026-08-11T05:46:21Z",
-      "preview": "44.23.1 (2026-08-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.84.1 (main) ( #45209 ) ( f4f7ea1 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
