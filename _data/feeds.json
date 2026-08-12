@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-12T17:39:37Z",
-  "cutoff": "2026-07-13T17:39:04Z",
+  "generated": "2026-08-12T20:31:47Z",
+  "cutoff": "2026-07-13T20:31:42Z",
   "feed_count": 79,
   "item_count": 224,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.1.0",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.0",
+      "published": "2026-08-12T20:12:23Z",
+      "preview": "Features A new command has been added, podman volume rename , to allow renaming volumes. Volumes created using volume drivers and volumes that are currently used by a container cannot be renamed ( #28189 ). A new command has been added, podman machine restart , to allow easy restart of VMs managed by podman machine ( #28366 ). The podman network rm command now includes a new option, --ignore , which suppresses errors when attempting to remove networks that do not exist ( #28363 ). The podman manifest push command now includes two new options, --retry and --retry-delay , which allow pushes to b",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
     {
       "title": "pnpm 12 RC 4",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.4",
@@ -1804,14 +1812,6 @@
       "preview": "Minor Changes 962fba8 : feat: add unpublish notification hooks Port of #5920 (ref #5328 ). The notify webhook now also fires when a package is unpublished entirely and when a single version (tarball) is removed, not only on publish. Notification templates can distinguish the event through the new {{ publishType }} ( publish | unpublish ) and {{ publishedPackage }} variables, and the {{ publisher }} object exposes only name , groups and real_groups , so the remote user auth token can never leak to the notification endpoint (via @verdaccio/hooks 8.0.4). Patch Changes f0684dc : fix: return 403 to",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "2.35.0",
-      "url": "https://github.com/NixOS/nix/releases/tag/2.35.0",
-      "published": "2026-07-13T20:08:52Z",
-      "preview": "Tagging release 2.35.0",
-      "source": "Nix releases",
-      "category": "System"
     }
   ]
 }
