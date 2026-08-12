@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-12T21:32:07Z",
-  "cutoff": "2026-07-13T21:32:02Z",
+  "generated": "2026-08-12T22:31:15Z",
+  "cutoff": "2026-07-13T22:31:10Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-11-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-08-11-a",
+      "published": "2026-08-12T22:30:38Z",
+      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-08-11-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "2.35.2",
+      "url": "https://github.com/NixOS/nix/releases/tag/2.35.2",
+      "published": "2026-08-12T22:01:50Z",
+      "preview": "Tagging release 2.35.2",
+      "source": "Nix releases",
+      "category": "System"
+    },
     {
       "title": "v6.1.0",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.0",
@@ -1692,14 +1708,6 @@
       "preview": "29.6.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.2 milestone moby/moby, 29.6.2 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. CVE-2026-15793 : Git source checkout from a bundle file could lead to command injection. GHSA-hw3h-2gp9-cxpv CVE-2026-15792 : Incorrect parameters sent from a frontend could cause a panic. GHSA-qx3x-mv6r-52p6 CVE-2026-15791 : An LLB file operation could be tricked into removing the contents of the /tmp directory. GHSA-32pv-7hq5-qhw",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
-      "published": "2026-07-16T08:57:14Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "1.16.0",
