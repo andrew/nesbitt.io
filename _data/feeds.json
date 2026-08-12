@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-12T06:47:55Z",
-  "cutoff": "2026-07-13T06:47:51Z",
+  "generated": "2026-08-12T08:45:31Z",
+  "cutoff": "2026-07-13T08:45:28Z",
   "feed_count": 79,
-  "item_count": 225,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -1812,14 +1812,6 @@
       "preview": "What's Changed version/parser: speed up StemParser by @Bo98 in #23007 Send bundle check failures to stderr by @MikeMcQuaid in #23009 Guard release against stale main by @MikeMcQuaid in #23008 dev-cmd/bump-formula-pr: keep failures when downgrade fails by @cho-m in #23006 Skip incompatible cask upgrades by @MikeMcQuaid in #23012 Remove redundant T.let annotations Sorbet can infer by @dduugg in #23013 Avoid generated rmdir for shared file lists by @loganrosen in #22940 docs: escape braces to avoid Liquid tag handling by @cho-m in #23025 Fix test setup crash when multiple package APIs are cached ",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "3.10.0-rc-1",
-      "url": "https://github.com/apache/maven/releases/tag/maven-3.10.0-rc-1",
-      "published": "2026-07-13T08:21:54Z",
-      "preview": "💥 Breaking changes Remove release-profile from super POM ( #11999 ) @slawekjaranowski Remove deprecated plugin management from super POM ( #11986 ) @slawekjaranowski 🚀 New features and improvements Feat: Align Maven 3.10.x and 4.0.x ( #12442 ) @cstamas Feat: Align CP ordering with Maven 4 ( #12327 ) @cstamas Feat: Apply latest Resolver 2.0.19 changes ( #12246 ) @cstamas Feat: Maven 3.10.x super POM ( #12032 ) @cstamas In failed build limit reactor summary to only failed modules ( #11977 ) @slawekjaranowski Add time zone to Maven startup banner ( #11972 ) @slawekjaranowski Feat: Version range f",
-      "source": "Maven releases",
-      "category": "Maven"
     }
   ]
 }
