@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-12T09:42:59Z",
-  "cutoff": "2026-07-13T09:42:54Z",
+  "generated": "2026-08-12T10:40:17Z",
+  "cutoff": "2026-07-13T10:40:11Z",
   "feed_count": 79,
-  "item_count": 213,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.8.5",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.5",
+      "published": "2026-08-12T10:16:57Z",
+      "preview": "(node) apply patches to the source build by @JamBalaya56562 in …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-interactive-config-v2026.8.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.3",
+      "published": "2026-08-12T10:13:58Z",
+      "preview": "Release mise-interactive-config 2026.8.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.8.6",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.8.6",
+      "published": "2026-08-12T10:13:43Z",
+      "preview": "Release aqua-registry 2026.8.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.9",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.9",
+      "published": "2026-08-12T10:13:21Z",
+      "preview": "Release vfox 2026.8.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-rustc-v2026.8.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.1",
+      "published": "2026-08-12T10:12:16Z",
+      "preview": "Release mise-cache-rustc 2026.8.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-core-v2026.8.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.1",
+      "published": "2026-08-12T10:12:07Z",
+      "preview": "Release mise-cache-core 2026.8.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.26.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.26.0",
@@ -142,6 +190,14 @@
       "category": "System"
     },
     {
+      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-08-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-08-08-a",
+      "published": "2026-08-11T12:32:51Z",
+      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-08-08-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
       "title": "1.19.0",
       "url": "https://github.com/flatpak/flatpak/releases/tag/1.19.0",
       "published": "2026-08-11T12:29:33Z",
@@ -222,14 +278,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "aqua-registry-v2026.8.5",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.8.5",
-      "published": "2026-08-11T01:57:22Z",
-      "preview": "Release aqua-registry 2026.8.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.8.8",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.8",
       "published": "2026-08-11T01:57:00Z",
@@ -242,14 +290,6 @@
       "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.0",
       "published": "2026-08-11T01:55:55Z",
       "preview": "Release mise-cache-rustc 2026.8.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-core-v2026.8.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.0",
-      "published": "2026-08-11T01:55:47Z",
-      "preview": "Release mise-cache-core 2026.8.0",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -364,22 +404,6 @@
       "preview": "SDK 3.14.0-109.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.8.3: Flatpak, Font Casks, and Task Precedence Fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.3",
-      "published": "2026-08-07T22:39:57Z",
-      "preview": "This release expands bootstrap package management with per-user Flatpak support and Linux font casks, adds a per-tool pipx registry option and a shim safety setting, and lands a batch of task precedence, lockfile, and Python fixes. Added bootstrap: manage per-user Flatpak installations with a new flatpak-user package manager. The existing flatpak:<id> entries stay system-scoped, and you can now declare both scopes in the same config, including the same application ID. ( #11757 by @jdx ) brew: the built-in brew-cask manager now works on Linux for font-only casks, installing fonts under $XDG_DAT",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.8.3",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.3",
-      "published": "2026-08-07T21:17:49Z",
-      "preview": "Release vfox 2026.8.3",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "0.12.3",
@@ -526,28 +550,12 @@
       "category": "Ruby"
     },
     {
-      "title": "v2026.8.2: Declarative System Bootstrap",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.2",
-      "published": "2026-08-05T01:50:22Z",
-      "preview": "This release turns mise bootstrap into a full declarative host-provisioning system: alongside packages, mise can now converge privileged files, Linux users and groups, systemd services, Docker Compose projects, and firewall rules — all with plan/apply/status workflows, secret handling, and the ability to run over SSH against remote hosts. It also makes Ruby's ruby.compile=false a strict precompiled-only mode and lands a batch of install and lockfile fixes. Highlights mise bootstrap gains a Terraform-style declarative model. A new mise bootstrap plan previews changes with table or JSON output a",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "4.0.18 Released",
       "url": "https://blog.rubygems.org/2026/08/05/4.0.18-released.html",
       "published": "2026-08-05T00:00:00Z",
       "preview": "RubyGems 4.0.18 includes enhancements, bug fixes and documentation and Bundler 4.0.18 includes enhancements, bug fixes, security and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.18 RubyGems Release Notes Enhancements: Check the resolved parent directory before extracting old format gems. Pull request #9755 by hsbt Installs bundler 4.0.18 as a default gem. Bug fixes: Call Kernel.format explicitly in Gem::Deprecate wrapper. Pull request #9714 by hsbt Do",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "vfox-v2026.8.2",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.2",
-      "published": "2026-08-04T22:49:53Z",
-      "preview": "Release vfox 2026.8.2",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "26.2.1",
@@ -596,6 +604,14 @@
       "preview": "[0.76.1] - 2026-08-04 ✨ Highlights This release features an improved pixi task list and a revamped docs page based on Zensical. Changed Correct task list runnability and show every task by @hunger in #6367 Documentation Switch from mkdocs to zensical by @Hofer-Julian in #6572 Fixed Honour editable = true in transitive [tool.uv.sources] at install time by @earlybard in #6730 New Contributors @earlybard made their first contribution in #6730",
       "source": "pixi releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-01-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-01-a",
+      "published": "2026-08-04T01:35:54Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-01-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
     },
     {
       "title": "Enabling the next iteration of the borrow checker on nightly",
@@ -1230,6 +1246,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
+      "published": "2026-07-25T08:42:55Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
       "title": "7.10.0.40",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.40",
       "published": "2026-07-24T12:27:17Z",
@@ -1244,6 +1268,14 @@
       "preview": "Fix: Fixed replace_in_file() raising a false \"pattern not found\" error when the replacement produced the same content as the original (no-op replace). ( #20211 )",
       "source": "Conan releases",
       "category": "C/C++"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-22-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-22-a",
+      "published": "2026-07-24T08:51:41Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-22-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
     },
     {
       "title": "2.31.0 (23-Jul-2026)",
@@ -1316,6 +1348,14 @@
       "preview": "Insert 7.10.0.29 into main on 07/22/2026 12:43:12",
       "source": "NuGet Client releases",
       "category": ".NET"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-20-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-20-a",
+      "published": "2026-07-22T10:00:46Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-20-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
     },
     {
       "title": "bundler-v4.0.17",
@@ -1486,6 +1526,22 @@
       "category": "Multi-language"
     },
     {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
+      "published": "2026-07-20T08:45:50Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-16-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-16-a",
+      "published": "2026-07-19T08:45:36Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-16-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
       "title": "7.10.0.26",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.26",
       "published": "2026-07-18T12:19:54Z",
@@ -1500,6 +1556,14 @@
       "preview": "step 7.sweep-wip2: snapshot before cap-raise resume",
       "source": "Bun releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-15-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-15-a",
+      "published": "2026-07-18T08:43:29Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-15-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
     },
     {
       "title": "pnpm 11.11-11.14",
@@ -1566,6 +1630,14 @@
       "category": ".NET"
     },
     {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
+      "published": "2026-07-17T08:44:47Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-14-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
       "title": "1.12.14",
       "url": "https://github.com/sbt/sbt/releases/tag/v1.12.14",
       "published": "2026-07-17T02:57:49Z",
@@ -1596,6 +1668,14 @@
       "preview": "29.6.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.2 milestone moby/moby, 29.6.2 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. CVE-2026-15793 : Git source checkout from a bundle file could lead to command injection. GHSA-hw3h-2gp9-cxpv CVE-2026-15792 : Incorrect parameters sent from a frontend could cause a panic. GHSA-qx3x-mv6r-52p6 CVE-2026-15791 : An LLB file operation could be tricked into removing the contents of the /tmp directory. GHSA-32pv-7hq5-qhw",
       "source": "Docker Engine releases",
       "category": "Containers"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
+      "published": "2026-07-16T08:57:14Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-13-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
     },
     {
       "title": "1.16.0",
@@ -1636,6 +1716,14 @@
       "preview": "Release Notes Released on 2026-07-15. Python Use gzip-compressed artifacts for PyPy downloads ( #20265 ) Enhancements Add JSON output to uv tree ( #19978 ) Add CUDA 13.2 as a supported PyTorch backend ( #20267 ) Prefer local artifacts over URLs when installing from pylock.toml ( #20393 ) Clarify diagnostics for unsatisfiable direct requirement ranges ( #20227 ) Include the selected project name in missing-extra errors ( #20358 ) Preview features Preserve extras and dependency-group conflict context when selecting locked project tools ( #20078 ) Split OSV audit queries that exceed the service's",
       "source": "uv releases",
       "category": "Python"
+    },
+    {
+      "title": "v0.18.1",
+      "url": "https://github.com/gomods/athens/releases/tag/v0.18.1",
+      "published": "2026-07-15T18:39:59Z",
+      "preview": "What's Changed chore(deps): bump golang.org/x/crypto from 0.51.0 to 0.52.0 by @dependabot [bot] in #2148 Revert in-process subprocess reaper, rely on tini by @matt0x6F in #2137 Replace OpenCensus with OpenTelemetry by @matt0x6F in #2138 update-github-action(deps): bump actions/upload-pages-artifact from 4 to 5 by @dependabot [bot] in #2129 update-github-action(deps): bump docker/setup-buildx-action from 3 to 4 by @dependabot [bot] in #2130 update-go-pkg(deps): bump github.com/go-sql-driver/mysql from 1.9.3 to 1.10.0 by @dependabot [bot] in #2132 update-go-pkg(deps): bump go.mongodb.org/mongo-d",
+      "source": "Athens releases",
+      "category": "Go"
     },
     {
       "title": "v2.9.3",
