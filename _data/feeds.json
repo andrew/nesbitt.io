@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-12T14:40:10Z",
-  "cutoff": "2026-07-13T14:40:04Z",
+  "generated": "2026-08-12T15:37:34Z",
+  "cutoff": "2026-07-13T15:37:29Z",
   "feed_count": 79,
   "item_count": 225,
   "categories": [
@@ -22,6 +22,14 @@
   ],
   "items": [
     {
+      "title": "pnpm 12 RC 4",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.4",
+      "published": "2026-08-12T14:42:28Z",
+      "preview": "Minor Changes Added a new setting minimumReleaseAgeExcludePrune . When enabled, pnpm add , pnpm update , and pnpm remove prune the entries of minimumReleaseAgeExclude in pnpm-workspace.yaml that the freshly written lockfile no longer resolves: versions that are gone are dropped (an entry is removed once none of its versions remain), and entries for packages that are no longer in the lockfile are removed too. Name patterns ( @scope/* ) are always kept. The cleanup is skipped when the install's lockfile does not cover the whole workspace ( sharedWorkspaceLockfile: false ), since entries another ",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "pnpr 0.1.0-alpha.6",
       "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.6",
       "published": "2026-08-12T14:38:30Z",
@@ -36,14 +44,6 @@
       "preview": "44.26.2 (2026-08-12) Bug Fixes platform/azure: skip work item Markdown format on Azure DevOps Server ( #45237 ) ( d678372 ) Continuous Integration workflows: switch select workflows to ubuntu-slim runner ( #45247 ) ( 6d4a5d3 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v12.0.0-rc.4",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.4",
-      "published": "2026-08-12T14:13:00Z",
-      "preview": "v12.0.0-rc.4",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "5.4.3.0",
