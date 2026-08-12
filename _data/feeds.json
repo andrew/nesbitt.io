@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-11T21:32:10Z",
-  "cutoff": "2026-07-12T21:32:06Z",
+  "generated": "2026-08-12T00:40:00Z",
+  "cutoff": "2026-07-13T00:39:57Z",
   "feed_count": 79,
-  "item_count": 227,
+  "item_count": 226,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-118.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-118.0.dev",
+      "published": "2026-08-12T00:24:03Z",
+      "preview": "SDK 3.14.0-118.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-117.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-117.0.dev",
+      "published": "2026-08-12T00:24:01Z",
+      "preview": "SDK 3.14.0-117.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-116.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-116.0.dev",
+      "published": "2026-08-12T00:23:58Z",
+      "preview": "SDK 3.14.0-116.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-115.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-115.0.dev",
+      "published": "2026-08-12T00:23:55Z",
+      "preview": "SDK 3.14.0-115.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-114.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-114.0.dev",
+      "published": "2026-08-12T00:23:52Z",
+      "preview": "SDK 3.14.0-114.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-113.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-113.0.dev",
+      "published": "2026-08-12T00:23:49Z",
+      "preview": "SDK 3.14.0-113.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "44.24.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.3",
@@ -326,38 +374,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.14.0-108.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-108.0.dev",
-      "published": "2026-08-08T00:18:45Z",
-      "preview": "SDK 3.14.0-108.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-107.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-107.0.dev",
-      "published": "2026-08-08T00:18:42Z",
-      "preview": "SDK 3.14.0-107.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-106.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-106.0.dev",
-      "published": "2026-08-08T00:18:39Z",
-      "preview": "SDK 3.14.0-106.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-105.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-105.0.dev",
-      "published": "2026-08-08T00:18:37Z",
-      "preview": "SDK 3.14.0-105.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "v2026.8.3: Flatpak, Font Casks, and Task Precedence Fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.3",
       "published": "2026-08-07T22:39:57Z",
@@ -412,22 +428,6 @@
       "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes fix: Preserve file timestamp in local disk cache by @eed3si9n in #9559 🚀 updates perf: Im",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "SDK-3.14.0-104.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-104.0.dev",
-      "published": "2026-08-07T01:16:07Z",
-      "preview": "SDK 3.14.0-104.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-103.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-103.0.dev",
-      "published": "2026-08-07T01:16:04Z",
-      "preview": "SDK 3.14.0-103.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "Windows Package Manager 1.30.90-preview",
@@ -1828,14 +1828,6 @@
       "preview": "🐛 bug fixes fix: Fixes remote cache ByteStream timeout by @yhefamly in #9413 fix: Fixes metabuild dependency downgrade via plugin by @anatoliykmetyuk in #9426 fix: Fixes build pipelining by @anatoliykmetyuk in #9425 fix: Fixes auto import of givens by @xuwei-k in #9409 fix: Fixes sbtn stdout relaying by @BrianHotopp in #9411 / #9414 fix: Fixes shutdownall in sbt runner by @eed3si9n in #9435 fix: Fixes attribute string in pom.xml to be deterministic @raboof in sbt/ivy#51 fix: Fixes ivyless publishing of sbt plugins by @anatoliykmetyuk in #9416 updates Deprecate url(...) and Resolver.url(...) in",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "crates.io: development update",
-      "url": "https://blog.rust-lang.org/2026/07/13/crates-io-development-update/",
-      "published": "2026-07-13T00:00:00Z",
-      "preview": "Another six months have passed since our last development update , and the crates.io team has been busy. Here's a summary of the most notable changes and improvements made to crates.io since then. Source Code Viewer Crate pages now have a \"Code\" tab that lets you browse the contents of published crate versions directly on crates.io. This shows you the exact files that cargo downloads when you add a crate as a dependency, which might differ from the linked repository. This makes it much easier to audit your dependencies, including files that never appear in the repository, like the normalized C",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
