@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-13T08:47:23Z",
-  "cutoff": "2026-07-14T08:47:19Z",
+  "generated": "2026-08-13T10:40:24Z",
+  "cutoff": "2026-07-14T10:40:20Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -1796,14 +1796,6 @@
       "preview": "ORAS CLI v1.3.3 is a maintenance release focused on security hardening, dependency updates, and a few user-facing improvements to oras attach . Highlights 🔒 Security: upgraded oras-go to v2.6.2 , which addresses a tar-extraction path-traversal advisory ( GHSA-fxhp-mv3v-67qp ) affecting hardlink entries during pull /extract. ✨ oras attach gains --config support, and --annotation $config:* values now flow through to the packed manifest. 🛡️ Supply-chain hardening: GitHub Actions are now pinned to commit SHAs, SBOMs are attached to release artifacts, and static security scanning (gosec) runs in CI",
       "source": "ORAS releases",
       "category": "Containers"
-    },
-    {
-      "title": "20260714t095300-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260714t095300-all",
-      "published": "2026-07-14T09:53:36Z",
-      "preview": "Deployment at 2026-07-14T09:53:17.406059Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     }
   ]
 }
