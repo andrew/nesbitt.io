@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-12T23:31:30Z",
-  "cutoff": "2026-07-13T23:31:25Z",
+  "generated": "2026-08-13T00:40:47Z",
+  "cutoff": "2026-07-14T00:40:43Z",
   "feed_count": 79,
   "item_count": 224,
   "categories": [
@@ -21,6 +21,86 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v25.0.17",
+      "url": "https://github.com/moby/moby/releases/tag/v25.0.17",
+      "published": "2026-08-13T00:25:05Z",
+      "preview": "For a full list of pull requests and changes in this release, refer to the relevant GitHub milestone: moby/moby, 25.0.17 milestone Changes to the Engine API, see API version history . Bug fixes and enhancements Fix CVE-2026-41568 : symlink escape in mount destination creation. #52648 Decompress archives before entering container filesystem, fixing CVE-2026-41567 . #52647 Fix CVE-2026-42306 : bind mount target redirection via symlink swap during docker cp. #52657 Vendor github.com/containerd/containerd v1.7.33 to mitigate CVE-2024-40635 . #49909",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "SDK-3.14.0-95.1.beta",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-95.1.beta",
+      "published": "2026-08-13T00:24:56Z",
+      "preview": "SDK 3.14.0-95.1.beta",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-124.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-124.0.dev",
+      "published": "2026-08-13T00:24:52Z",
+      "preview": "SDK 3.14.0-124.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-123.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-123.0.dev",
+      "published": "2026-08-13T00:24:49Z",
+      "preview": "SDK 3.14.0-123.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-122.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-122.0.dev",
+      "published": "2026-08-13T00:24:46Z",
+      "preview": "SDK 3.14.0-122.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-121.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-121.0.dev",
+      "published": "2026-08-13T00:24:43Z",
+      "preview": "SDK 3.14.0-121.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-120.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-120.0.dev",
+      "published": "2026-08-13T00:24:40Z",
+      "preview": "SDK 3.14.0-120.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-119.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-119.0.dev",
+      "published": "2026-08-13T00:24:37Z",
+      "preview": "SDK 3.14.0-119.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.0",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.0",
+      "published": "2026-08-13T00:24:34Z",
+      "preview": "SDK 3.13.0",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.27.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.27.0",
+      "published": "2026-08-13T00:00:07Z",
+      "preview": "44.27.0 (2026-08-12) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.0 (main) ( #45254 ) ( f6acbb5 ) Miscellaneous Chores deps: update dependency memfs to v4.68.0 (main) ( #45253 ) ( 75c68d4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.26.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.26.3",
@@ -198,38 +278,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.14.0-116.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-116.0.dev",
-      "published": "2026-08-12T00:23:58Z",
-      "preview": "SDK 3.14.0-116.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-115.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-115.0.dev",
-      "published": "2026-08-12T00:23:55Z",
-      "preview": "SDK 3.14.0-115.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-114.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-114.0.dev",
-      "published": "2026-08-12T00:23:52Z",
-      "preview": "SDK 3.14.0-114.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-113.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-113.0.dev",
-      "published": "2026-08-12T00:23:49Z",
-      "preview": "SDK 3.14.0-113.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "44.24.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.3",
       "published": "2026-08-11T21:15:40Z",
@@ -294,14 +342,6 @@
       "category": "System"
     },
     {
-      "title": "44.24.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.0",
-      "published": "2026-08-11T12:15:28Z",
-      "preview": "44.24.0 (2026-08-11) Features manager/github-actions: add support for Actions Lockfiles ( #45199 ) ( fba1a9d ) Documentation fix fenced blocks ( #45206 ) ( 3823ef8 ) Miscellaneous Chores deps: update dependency memfs to v4.67.0 (main) ( #45193 ) ( bfa0da8 ) Code Refactoring manager: add utility for creating Artifact Error messages ( #45218 ) ( 15d5414 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2.28.1",
       "url": "https://github.com/pdm-project/pdm/releases/tag/2.28.1",
       "published": "2026-08-11T11:17:09Z",
@@ -356,22 +396,6 @@
       "preview": "Release mise-cache-rustc 2026.8.0",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "SDK-3.14.0-112.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-112.0.dev",
-      "published": "2026-08-11T00:19:59Z",
-      "preview": "SDK 3.14.0-112.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-111.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-111.0.dev",
-      "published": "2026-08-11T00:19:56Z",
-      "preview": "SDK 3.14.0-111.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "v0.391.0",
@@ -452,22 +476,6 @@
       "preview": "Minor Changes Added interactive group selection to pnpm update --global --interactive . Running pnpm setup , pnpm self-update , or a command that modifies the global installation (such as pnpm add --global ) through sudo now prints a warning. pnpm keeps global packages and configuration in the invoking user's home directory, so running these commands as root silently operates on the root user's home directory instead of yours. They will fail with ERR_PNPM_SUDO_NOT_SUPPORTED in pnpm v12. Read-only global commands (such as pnpm bin --global ) are unaffected. Patch Changes Fixed pnpm failing to s",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "SDK-3.14.0-110.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-110.0.dev",
-      "published": "2026-08-09T00:18:43Z",
-      "preview": "SDK 3.14.0-110.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-109.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-109.0.dev",
-      "published": "2026-08-09T00:18:41Z",
-      "preview": "SDK 3.14.0-109.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "0.12.3",
@@ -1804,14 +1812,6 @@
       "preview": "Deployment at 2026-07-14T08:27:40.466795Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "2.35.1",
-      "url": "https://github.com/NixOS/nix/releases/tag/2.35.1",
-      "published": "2026-07-14T00:04:39Z",
-      "preview": "Tagging release 2.35.1",
-      "source": "Nix releases",
-      "category": "System"
     }
   ]
 }
