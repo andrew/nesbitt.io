@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-13T15:37:52Z",
-  "cutoff": "2026-07-14T15:37:48Z",
+  "generated": "2026-08-13T16:36:38Z",
+  "cutoff": "2026-07-14T16:36:35Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.29.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.1",
+      "published": "2026-08-13T16:31:38Z",
+      "preview": "44.29.1 (2026-08-13) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.1 (main) ( #45255 ) ( 14604ae ) Code Refactoring linters: add rules for @sindresorhus/is helpers ( #45229 ) ( 16ef171 ) oxlint: scope custom JS rules via config overrides ( #45266 ) ( c2785bc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v12.0.0-rc.5",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.5",
+      "published": "2026-08-13T16:05:41Z",
+      "preview": "v12.0.0-rc.5",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "Helm v4.2.4",
       "url": "https://github.com/helm/helm/releases/tag/v4.2.4",
@@ -300,14 +316,6 @@
       "preview": "SDK 3.14.0-117.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.24.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.3",
-      "published": "2026-08-11T21:15:40Z",
-      "preview": "44.24.3 (2026-08-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.84.3 (main) ( #45233 ) ( 8a6d27d ) Miscellaneous Chores deps: update dependency @containerbase/semantic-release-pnpm to v1.4.3 (main) ( #45232 ) ( 923cc3f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "6.0.17",
@@ -787,14 +795,6 @@
       "published": "2026-08-02T08:26:30Z",
       "preview": "Patch Changes dfe3938 : Update verdaccio dependencies to the latest npm dist-tag ( @verdaccio/ui-theme tracks next-9 ): @verdaccio/auth : 8.1.0 → 8.1.1 @verdaccio/config : 8.2.0 → 8.2.1 @verdaccio/core : 8.2.0 → 8.2.1 @verdaccio/hooks : 8.1.1 → 8.1.2 @verdaccio/loaders : 8.1.0 → 8.1.1 @verdaccio/local-storage-legacy : 11.4.0 → 11.4.1 @verdaccio/logger : 8.1.0 → 8.1.1 @verdaccio/middleware : 8.1.0 → 8.1.1 @verdaccio/package-filter : 13.1.0 → 13.1.1 @verdaccio/signature : 8.1.0 → 8.1.1 @verdaccio/tarball : 13.1.0 → 13.1.1 @verdaccio/ui-theme : 9.0.0-next-9.21 → 9.0.0-next-9.22 @verdaccio/url : 1",
       "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12 Beta 3",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.3",
-      "published": "2026-08-01T17:18:38Z",
-      "preview": "Patch Changes With excludeLinksFromLockfile enabled, a link: dependency pointing inside the workspace is no longer treated as an external link when it resolves a peer dependency, so the peer suffixes it produces stay identical to an install with the setting off. Injected ( file: ) workspace dependencies are no longer affected by the setting either #13556 . A registry dependency is now always recorded in pnpm-lock.yaml with an integrity hash, including under --lockfile-only . Packages from a registry that publishes no subresource-integrity metadata — https://node-registry.bit.cloud/ , for one —",
-      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
