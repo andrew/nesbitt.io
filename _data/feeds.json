@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-13T00:40:47Z",
-  "cutoff": "2026-07-14T00:40:43Z",
+  "generated": "2026-08-13T06:49:46Z",
+  "cutoff": "2026-07-14T06:49:42Z",
   "feed_count": 79,
-  "item_count": 224,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -124,14 +124,6 @@
       "preview": "Tagging release 2.35.2",
       "source": "Nix releases",
       "category": "System"
-    },
-    {
-      "title": "v6.1.0",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.0",
-      "published": "2026-08-12T20:12:23Z",
-      "preview": "Features A new command has been added, podman volume rename , to allow renaming volumes. Volumes created using volume drivers and volumes that are currently used by a container cannot be renamed ( #28189 ). A new command has been added, podman machine restart , to allow easy restart of VMs managed by podman machine ( #28366 ). The podman network rm command now includes a new option, --ignore , which suppresses errors when attempting to remove networks that do not exist ( #28363 ). The podman manifest push command now includes two new options, --retry and --retry-delay , which allow pushes to b",
-      "source": "Podman releases",
-      "category": "Containers"
     },
     {
       "title": "pnpm 12 RC 4",
@@ -822,14 +814,6 @@
       "category": "Python"
     },
     {
-      "title": "v6.1.0-RC1",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.0-rc1",
-      "published": "2026-07-31T18:07:18Z",
-      "preview": "Features A new command has been added, podman volume rename , to allow renaming volumes. Volumes created using volume drivers and volumes that are currently used by a container cannot be renamed ( #28189 ). A new command has been added, podman machine restart , to allow easy restart of VMs managed by podman machine ( #28366 ). The podman network rm command now includes a new option, --ignore , which suppresses errors when attempting to remove networks that do not exist ( #28363 ). The podman manifest push command now includes two new options, --retry and --retry-delay , which allow pushes to b",
-      "source": "Podman releases",
-      "category": "Containers"
-    },
-    {
       "title": "v29.7.1",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.1",
       "published": "2026-07-31T17:36:24Z",
@@ -1428,14 +1412,6 @@
       "preview": "Enhancements: Validate spec name before writing to the spec cache. Pull request #9690 by hsbt Installs bundler 4.0.17 as a default gem. Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install paths when globbing. Pull request #9687 by hsbt Preserve Windows editor paths in gem open and bundle open. Pull request #9694 by hsbt Preserve Windows paths in MAKE and rake environment variables. Pull request #9693 by hsbt Fix bundle binstub broken by gem update --system on Homebrew ruby. Pull request #9688 by hsbt",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "v6.0.2",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.2",
-      "published": "2026-07-22T03:02:34Z",
-      "preview": "Bugfixes Fixed a bug where podman machine VMs created by the WSL provider on Windows were not properly cleaned up if the podman machine init command failed ( #27036 ). Fixed a bug where the Windows installer for Podman would, when installing for all users, incorrectly modify the path of only the user installing Podman ( #29160 ). Fixed a bug where the remote Podman client would throw errors when run on a Linux system that was not using Cgroups v2 ( #29241 ). Misc Updated Buildah to v1.44.1",
-      "source": "Podman releases",
-      "category": "Containers"
     },
     {
       "title": "0.11.31",
