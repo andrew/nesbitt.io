@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-13T14:40:24Z",
-  "cutoff": "2026-07-14T14:40:19Z",
+  "generated": "2026-08-13T15:37:52Z",
+  "cutoff": "2026-07-14T15:37:48Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Helm v4.2.4",
+      "url": "https://github.com/helm/helm/releases/tag/v4.2.4",
+      "published": "2026-08-13T15:33:04Z",
+      "preview": "Helm v4.2.4 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix: Improve error reporting for helm template --debug with --show-only- #31185 by @kyokuping fix: fetch logs from all containers in test pods- #32099 by @SebTardif fix(provenance): check error ",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
     {
       "title": "44.29.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.0",
