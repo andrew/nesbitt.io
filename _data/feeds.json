@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-13T17:39:02Z",
-  "cutoff": "2026-07-14T17:38:58Z",
+  "generated": "2026-08-13T18:37:05Z",
+  "cutoff": "2026-07-14T18:37:00Z",
   "feed_count": 79,
-  "item_count": 226,
+  "item_count": 227,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-13T18:15:32Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.29.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.2",
+      "published": "2026-08-13T17:53:28Z",
+      "preview": "44.29.2 (2026-08-13) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.2 (main) ( #45271 ) ( 184f31d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "[release-branch.go1.27] go1.27rc3",
+      "url": "https://github.com/golang/go/releases/tag/go1.27rc3",
+      "published": "2026-08-13T17:38:53Z",
+      "preview": "Change-Id: I400bf6802223b50d5b0273153984e801a66bc317 Reviewed-on: https://go-review.googlesource.com/c/go/+/814825 Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-by: Mark Freeman mark@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
     {
       "title": "[release-branch.go1.25] go1.25.13",
       "url": "https://github.com/golang/go/releases/tag/go1.25.13",
@@ -318,14 +342,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.24.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.4",
-      "published": "2026-08-12T05:57:04Z",
-      "preview": "44.24.4 (2026-08-12) Bug Fixes manager/npm: pass correct arguments to pnpm dedupe ( #42024 ) ( 3646307 ) Build System deps: update dependency semantic-release to v25.0.9 (main) ( #45238 ) ( 5ecbdc9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "SDK-3.14.0-118.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-118.0.dev",
       "published": "2026-08-12T00:24:03Z",
@@ -476,14 +492,6 @@
       "preview": "⚠️ Breaking changes Logs and JSON outputs are now properly handled together but at the cost of some adaptations of the JSON output. If you use --json , you might need to adapt your applications' logic to handle this change. For full background on the issue, see: #4202 You can update micromamba to this version using: micromamba self-update Enhancements: [libmamba, micromamba] Refactor and clean up by @Hind-M in #4359 [libmamba, libmambapy] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fi",
       "source": "Mamba releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-10T01:16:29Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "What's different in pnpm 12",
