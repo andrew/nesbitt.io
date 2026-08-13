@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-13T16:36:38Z",
-  "cutoff": "2026-07-14T16:36:35Z",
+  "generated": "2026-08-13T17:39:02Z",
+  "cutoff": "2026-07-14T17:38:58Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 226,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,20 +22,44 @@
   ],
   "items": [
     {
+      "title": "[release-branch.go1.25] go1.25.13",
+      "url": "https://github.com/golang/go/releases/tag/go1.25.13",
+      "published": "2026-08-13T17:36:03Z",
+      "preview": "Change-Id: I4b70d995adc305fd68e4dfc6bc5c42cd001513b5 Reviewed-on: https://go-review.googlesource.com/c/go/+/814722 Reviewed-by: Mark Freeman mark@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "[release-branch.go1.26] go1.26.6",
+      "url": "https://github.com/golang/go/releases/tag/go1.26.6",
+      "published": "2026-08-13T17:25:07Z",
+      "preview": "Change-Id: I04258bea694def9a16dd544fba28fea45eeadbbb Reviewed-on: https://go-review.googlesource.com/c/go/+/814840 TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Mark Freeman mark@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "v6.0.0",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.0",
+      "published": "2026-08-13T17:06:35Z",
+      "preview": "Security This release addresses CVE-2026-57231, where a malicious image using malformed Env entries could cause host environment variables to leak into containers run based on the image, including the ability to use the * glob operator to leak large numbers of environment variables without knowing their exact names ( GHSA-4hq8-gpf5-8p68 ). This release addresses CVE-2026-19730 where the podman quadlet install --replace command did not truncate the file being replaced, meaning replacing a longer file with a shorter one would result in content from the original file incorrectly being retained. B",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
+      "title": "pnpm 12 RC 5",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.5",
+      "published": "2026-08-13T16:42:24Z",
+      "preview": "Minor Changes Breaking change. Dependency cycles are now broken canonically during peer resolution: the members of each cycle are ordered by package id, and the edges that close a cycle are always cut at the same place, no matter where the installation walks into the cycle from. Previously the cut depended on the walk path, so installing the same dependencies could produce different lockfiles depending on importer order or resolution order #13846 , and a peer-resolution verdict computed for one occurrence of a cyclic package could be wrongly reused at another #13865 . With canonical cycle brea",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "44.29.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.1",
       "published": "2026-08-13T16:31:38Z",
       "preview": "44.29.1 (2026-08-13) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.1 (main) ( #45255 ) ( 14604ae ) Code Refactoring linters: add rules for @sindresorhus/is helpers ( #45229 ) ( 16ef171 ) oxlint: scope custom JS rules via config overrides ( #45266 ) ( c2785bc )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v12.0.0-rc.5",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.5",
-      "published": "2026-08-13T16:05:41Z",
-      "preview": "v12.0.0-rc.5",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "Helm v4.2.4",
