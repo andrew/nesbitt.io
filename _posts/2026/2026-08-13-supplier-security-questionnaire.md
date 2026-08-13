@@ -7,6 +7,7 @@ tags:
   - open-source
   - security
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3msy53aedon2n"
 ---
 
 **From:** Third-Party Risk Management  
