@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-13T12:35:05Z",
-  "cutoff": "2026-07-14T12:35:01Z",
+  "generated": "2026-08-13T14:40:24Z",
+  "cutoff": "2026-07-14T14:40:19Z",
   "feed_count": 79,
   "item_count": 222,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.29.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.0",
+      "published": "2026-08-13T13:59:07Z",
+      "preview": "chore(deps): update github/codeql-action action to v4.37.7 (main) ( #4 …",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.28.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.28.0",
@@ -290,14 +298,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.3",
       "published": "2026-08-11T21:15:40Z",
       "preview": "44.24.3 (2026-08-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.84.3 (main) ( #45233 ) ( 8a6d27d ) Miscellaneous Chores deps: update dependency @containerbase/semantic-release-pnpm to v1.4.3 (main) ( #45232 ) ( 923cc3f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.24.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.24.2",
-      "published": "2026-08-11T16:48:31Z",
-      "preview": "44.24.2 (2026-08-11) Bug Fixes terraform: deduplicate provider lockfile hashes ( #45226 ) ( 2869cd3 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
