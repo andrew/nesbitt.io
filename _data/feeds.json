@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-13T22:31:32Z",
-  "cutoff": "2026-07-14T22:31:26Z",
+  "generated": "2026-08-13T23:31:37Z",
+  "cutoff": "2026-07-14T23:31:33Z",
   "feed_count": 79,
   "item_count": 229,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Windows Package Manager 1.30.100-preview",
+      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.100-preview",
+      "published": "2026-08-13T22:59:35Z",
+      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 --ignore-unavailable flag for install Added a new --ignore-unavailable flag to the install command. When installing multiple packages, this flag allows the operation to continue with the remaining packages instead of failing entirely when one or more packages are not found in the configured sources. This brings the same behavior",
+      "source": "winget releases",
+      "category": "System"
+    },
+    {
+      "title": "44.29.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.4",
+      "published": "2026-08-13T22:47:31Z",
+      "preview": "44.29.4 (2026-08-13) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.4 (main) ( #45277 ) ( 7226640 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.16.7",
       "url": "https://github.com/pypa/pipx/releases/tag/1.16.7",
@@ -364,14 +380,6 @@
       "preview": "Release mise-cache-core 2026.8.1",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.26.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.26.0",
-      "published": "2026-08-12T09:24:21Z",
-      "preview": "44.26.0 (2026-08-12) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.85.0 (main) ( #45240 ) ( e2f223e ) Code Refactoring linter: oxlint prefer partial typed casts for consts ( #45239 ) ( e01b50c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-118.0.dev",
@@ -1844,14 +1852,6 @@
       "preview": "2.9.3 / 2026.07.15 feat(cli): deno add --no-save and --save-optional ( #36039 ) feat(cli): add --min-dep-age alias ( #35914 ) feat(compile): support aarch64-pc-windows-msvc target ( #36004 ) feat(ext/fetch): add http2MaxHeaderListSize option to Deno.createHttpClient ( #33194 ) fix(bundle): preserve raw imports in watch mode ( #36040 ) fix(canvas): don't hold SurfaceData mut borrow over window resize ( #35993 ) fix(config): reject out-of-range minimum dependency ages ( #36051 ) fix(core): block user ext imports after resolution ( #36012 ) fix(core): deactivate idle TTY write handles ( #35886 ) ",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "6.0.11",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.11",
-      "published": "2026-07-14T23:12:25Z",
-      "preview": "What's Changed Enable more cask metadata migration to JSON for all users by @MikeMcQuaid in #22958 Skip rewriting Mach-O binaries when delete_rpath changes nothing by @hyuraku in #23079 test_bot/formulae: remove generic tests by @cho-m in #23082 Return a shared type instance from type constructors when runtime checking is disabled by @dduugg in #23078 test_bot/formulae: skip portable Ruby tests on macOS if same version by @cho-m in #23083 Test fixes for portable Ruby macOS runners by @cho-m in #23081 test/cask/audit_spec: fix min OS for Intel by @cho-m in #23085 Fix brew outdated --greedy cras",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
