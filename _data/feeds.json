@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-13T20:31:31Z",
-  "cutoff": "2026-07-14T20:31:26Z",
+  "generated": "2026-08-13T21:32:07Z",
+  "cutoff": "2026-07-14T21:32:03Z",
   "feed_count": 79,
   "item_count": 228,
   "categories": [
@@ -22,20 +22,36 @@
   ],
   "items": [
     {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-13T21:17:45Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "0.12.4",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.4",
+      "published": "2026-08-13T21:16:08Z",
+      "preview": "Release Notes Released on 2026-08-13. Enhancements Prefer post-quantum key exchange and enable opt-in TLS diagnostics ( #21054 ) Accept whitespace before versions in noncompliant wildcard comparisons such as Requires-Python: >= 3.5.* ( #21012 ) Report a specific error when a PEP 723 closing tag contains trailing whitespace or other content ( #20944 ) Omit source-span carets from diagnostics for empty PEP 508 requirements ( #21094 ) Preview features Add uv check --no-install-project and respect UV_NO_INSTALL_PROJECT to install dependencies without building or installing the project ( #21085 ) M",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "v5.8.6",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.6",
+      "published": "2026-08-13T21:11:05Z",
+      "preview": "Security This release addressed CVE-2026-19730 where the podman quadlet install --replace command did not truncate the file being replaced, meaning replacing a longer file with a shorter one would result in content from the original file incorrectly being retained.",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
       "title": "v3.21.4",
       "url": "https://github.com/helm/helm/releases/tag/v3.21.4",
       "published": "2026-08-13T20:16:41Z",
       "preview": "Helm release v3.21.4",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-13T18:15:32Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "44.29.2",
@@ -1828,22 +1844,6 @@
       "preview": "What's Changed Enable more cask metadata migration to JSON for all users by @MikeMcQuaid in #22958 Skip rewriting Mach-O binaries when delete_rpath changes nothing by @hyuraku in #23079 test_bot/formulae: remove generic tests by @cho-m in #23082 Return a shared type instance from type constructors when runtime checking is disabled by @dduugg in #23078 test_bot/formulae: skip portable Ruby tests on macOS if same version by @cho-m in #23083 Test fixes for portable Ruby macOS runners by @cho-m in #23081 test/cask/audit_spec: fix min OS for Intel by @cho-m in #23085 Fix brew outdated --greedy cras",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "2026-07-13 Release",
-      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-13",
-      "published": "2026-07-14T21:26:44Z",
-      "preview": "What's Changed Fix collide on shared .partial extraction directory on POSIX by Erik White (@Erik-White) in #2036 Sanitize DESTDIR on non-Windows platforms by Billy O'Neal (@BillyONeal) in #2039 Update NPM dependencies. by Billy O'Neal (@BillyONeal) in #2047 Support CURL_CA_BUNDLE like the curl command line tool by Matus-p in #2042 [curl] Add VCPKG_SSL_REVOKE_BEST_EFFORT to fix Schannel proxy revocation errors by Sezgin Niyaziev (@sdn9002) in #2043 Change GITHUB_SERVER_URL to GITHUB_API_URL to allow submission of dependency graph data again by Rene Windegger (@rwindegger) in #2056 [z-applocal] ",
-      "source": "vcpkg releases",
-      "category": "C/C++"
-    },
-    {
-      "title": "v1.3.3",
-      "url": "https://github.com/oras-project/oras/releases/tag/v1.3.3",
-      "published": "2026-07-14T21:18:10Z",
-      "preview": "ORAS CLI v1.3.3 is a maintenance release focused on security hardening, dependency updates, and a few user-facing improvements to oras attach . Highlights 🔒 Security: upgraded oras-go to v2.6.2 , which addresses a tar-extraction path-traversal advisory ( GHSA-fxhp-mv3v-67qp ) affecting hardlink entries during pull /extract. ✨ oras attach gains --config support, and --annotation $config:* values now flow through to the packed manifest. 🛡️ Supply-chain hardening: GitHub Actions are now pinned to commit SHAs, SBOMs are attached to release artifacts, and static security scanning (gosec) runs in CI",
-      "source": "ORAS releases",
-      "category": "Containers"
     }
   ]
 }
