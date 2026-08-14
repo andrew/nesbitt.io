@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-14T20:29:52Z",
-  "cutoff": "2026-07-15T20:29:48Z",
+  "generated": "2026-08-14T22:28:41Z",
+  "cutoff": "2026-07-15T22:28:36Z",
   "feed_count": 79,
-  "item_count": 228,
+  "item_count": 227,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.30.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.30.2",
+      "published": "2026-08-14T21:50:01Z",
+      "preview": "44.30.2 (2026-08-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.5 (main) ( #45292 ) ( 1e108a0 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.5 (main) ( #45288 ) ( fb225aa ) deps: update dependency uv to v0.12.5 (main) ( #45289 ) ( e22af56 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.12.5",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.5",
@@ -340,14 +348,6 @@
       "preview": "SDK 3.14.0-120.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.27.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.27.0",
-      "published": "2026-08-13T00:00:07Z",
-      "preview": "44.27.0 (2026-08-12) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.0 (main) ( #45254 ) ( f6acbb5 ) Miscellaneous Chores deps: update dependency memfs to v4.68.0 (main) ( #45253 ) ( 75c68d4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-11-a",
@@ -1834,14 +1834,6 @@
       "url": "https://github.com/pypa/pipx/releases/tag/1.15.2",
       "published": "2026-07-15T22:45:38Z",
       "preview": "Full Changelog : 1.15.1...1.15.2",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.15.1",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.15.1",
-      "published": "2026-07-15T21:34:34Z",
-      "preview": "What's Changed Keep trash cleanup non-fatal for locked files by @cyphercodes in #1848 Fix --with being dropped for PEP 723 scripts on the pip backend by @2ykwang in #1849 Fix uninject leaving man page symlinks behind by @sronix in #1854 Refresh metadata after runpip installs by @itscloud0 in #1855 🐛 fix(spec): accept local VCS URLs by @gaborbernat in #1859 🐛 fix(install): resolve local find-links by @gaborbernat in #1860 🐛 fix(ensurepath): configure global PATH by @gaborbernat in #1861 🐛 fix(metadata): tolerate corrupt files by @gaborbernat in #1863 🐛 fix(run): translate uv pip options by @gab",
       "source": "pipx releases",
       "category": "Python"
     }
