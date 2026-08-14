@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-14T17:37:54Z",
-  "cutoff": "2026-07-15T17:37:49Z",
+  "generated": "2026-08-14T19:37:04Z",
+  "cutoff": "2026-07-15T19:36:59Z",
   "feed_count": 79,
-  "item_count": 230,
+  "item_count": 227,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,14 +21,6 @@
     "System"
   ],
   "items": [
-    {
-      "title": "v3.3.1-ghc-9.10.3",
-      "url": "https://github.com/commercialhaskell/stack/releases/tag/v3.3.1-ghc-9.10.3",
-      "published": "2026-08-14T16:38:15Z",
-      "preview": "Use GHC 9.10.3",
-      "source": "Stack releases",
-      "category": "Registries"
-    },
     {
       "title": "3.3.3",
       "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.3",
@@ -1844,22 +1836,6 @@
       "preview": "What's Changed Keep trash cleanup non-fatal for locked files by @cyphercodes in #1848 Fix --with being dropped for PEP 723 scripts on the pip backend by @2ykwang in #1849 Fix uninject leaving man page symlinks behind by @sronix in #1854 Refresh metadata after runpip installs by @itscloud0 in #1855 🐛 fix(spec): accept local VCS URLs by @gaborbernat in #1859 🐛 fix(install): resolve local find-links by @gaborbernat in #1860 🐛 fix(ensurepath): configure global PATH by @gaborbernat in #1861 🐛 fix(metadata): tolerate corrupt files by @gaborbernat in #1863 🐛 fix(run): translate uv pip options by @gab",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "0.11.29",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.29",
-      "published": "2026-07-15T18:44:43Z",
-      "preview": "Release Notes Released on 2026-07-15. Python Use gzip-compressed artifacts for PyPy downloads ( #20265 ) Enhancements Add JSON output to uv tree ( #19978 ) Add CUDA 13.2 as a supported PyTorch backend ( #20267 ) Prefer local artifacts over URLs when installing from pylock.toml ( #20393 ) Clarify diagnostics for unsatisfiable direct requirement ranges ( #20227 ) Include the selected project name in missing-extra errors ( #20358 ) Preview features Preserve extras and dependency-group conflict context when selecting locked project tools ( #20078 ) Split OSV audit queries that exceed the service's",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
-      "title": "v0.18.1",
-      "url": "https://github.com/gomods/athens/releases/tag/v0.18.1",
-      "published": "2026-07-15T18:39:59Z",
-      "preview": "What's Changed chore(deps): bump golang.org/x/crypto from 0.51.0 to 0.52.0 by @dependabot [bot] in #2148 Revert in-process subprocess reaper, rely on tini by @matt0x6F in #2137 Replace OpenCensus with OpenTelemetry by @matt0x6F in #2138 update-github-action(deps): bump actions/upload-pages-artifact from 4 to 5 by @dependabot [bot] in #2129 update-github-action(deps): bump docker/setup-buildx-action from 3 to 4 by @dependabot [bot] in #2130 update-go-pkg(deps): bump github.com/go-sql-driver/mysql from 1.9.3 to 1.10.0 by @dependabot [bot] in #2132 update-go-pkg(deps): bump go.mongodb.org/mongo-d",
-      "source": "Athens releases",
-      "category": "Go"
     }
   ]
 }
