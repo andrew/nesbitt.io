@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-14T15:35:50Z",
-  "cutoff": "2026-07-15T15:35:45Z",
+  "generated": "2026-08-14T16:35:33Z",
+  "cutoff": "2026-07-15T16:35:30Z",
   "feed_count": 79,
-  "item_count": 228,
+  "item_count": 229,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "3.3.3",
+      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.3",
+      "published": "2026-08-14T15:52:09Z",
+      "preview": "apt Debian release 3.3.3",
+      "source": "APT releases",
+      "category": "System"
+    },
+    {
+      "title": "v2026.8.6",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.6",
+      "published": "2026-08-14T15:47:21Z",
+      "preview": "(brew) support structured cask symlinks by @jdx in [ #11962 ](htt…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-interactive-config-v2026.8.4",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.4",
+      "published": "2026-08-14T15:42:48Z",
+      "preview": "Release mise-interactive-config 2026.8.4",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.10",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.10",
+      "published": "2026-08-14T15:42:25Z",
+      "preview": "Release vfox 2026.8.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-rustc-v2026.8.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.2",
+      "published": "2026-08-14T15:41:06Z",
+      "preview": "Release mise-cache-rustc 2026.8.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-core-v2026.8.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.2",
+      "published": "2026-08-14T15:40:52Z",
+      "preview": "Release mise-cache-core 2026.8.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "Helm v4.2.4",
       "url": "https://github.com/helm/helm/releases/tag/v4.2.4",
@@ -374,14 +422,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "aqua-registry-v2026.8.6",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.8.6",
-      "published": "2026-08-12T10:13:43Z",
-      "preview": "Release aqua-registry 2026.8.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.8.9",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.9",
       "published": "2026-08-12T10:13:21Z",
@@ -468,38 +508,6 @@
       "preview": "Changed: Bump default core metadata version to 2.5 Add tomlkit as a runtime dependency, which is required to rewrite pyproject.toml when setting a static version Added: The version command can now set a version that is statically defined by the project.version field, updating pyproject.toml in place. Pass --force to allow an explicit downgrade Fixed: Allow the ; private annotation on project.import-names and project.import-namespaces entries rather than rejecting them as invalid import names. Reject project.readme paths that are absolute or resolve outside of the project directory.",
       "source": "Hatch releases",
       "category": "Python"
-    },
-    {
-      "title": "v2026.8.4: Cross-backend ls, semver ordering, and bootstrap cask pruning",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.4",
-      "published": "2026-08-11T03:03:53Z",
-      "preview": "This release adds explicit semantic version ordering for major backends, teaches mise ls and mise install --force to work across backends, extends bootstrap package management with platform filters and cask pruning, and lands a broad batch of task, config, and platform-specific fixes. Added backend: tools can now declare an explicit version_order ( source or semver ) so that latest and version-prefix resolution follow semantic precedence instead of source/chronological order. This is enabled for Aqua, GitHub, GitLab, Forgejo, and HTTP backends, and fixes cases where a backport or older release",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-interactive-config-v2026.8.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.2",
-      "published": "2026-08-11T01:57:35Z",
-      "preview": "Release mise-interactive-config 2026.8.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.8.8",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.8",
-      "published": "2026-08-11T01:57:00Z",
-      "preview": "Release vfox 2026.8.8",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-rustc-v2026.8.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.0",
-      "published": "2026-08-11T01:55:55Z",
-      "preview": "Release mise-cache-rustc 2026.8.0",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v0.391.0",
