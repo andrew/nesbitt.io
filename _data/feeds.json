@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-14T22:28:41Z",
-  "cutoff": "2026-07-15T22:28:36Z",
+  "generated": "2026-08-14T23:28:22Z",
+  "cutoff": "2026-07-15T23:28:17Z",
   "feed_count": 79,
-  "item_count": 227,
+  "item_count": 226,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.8.6: Resumable downloads, richer Homebrew casks, and monorepo task fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.6",
+      "published": "2026-08-14T22:33:07Z",
+      "preview": "This release adds resumable HTTP downloads, expands Homebrew cask support, and lands a large batch of fixes across tasks, config, install, and platform-specific behavior — with a particular focus on monorepos and Windows. Highlights Interrupted artifact downloads now resume instead of restarting from zero, and more transient network failures (including HTTP/2 REFUSED_STREAM ) are retried automatically. The Homebrew cask backend gained structured symlinks, generic artifacts, and copy/installer flight steps, closing several gaps in cask installation. A wide round of monorepo task, config precede",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.30.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.30.2",
@@ -44,14 +52,6 @@
       "preview": "apt Debian release 3.3.3",
       "source": "APT releases",
       "category": "System"
-    },
-    {
-      "title": "v2026.8.6",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.6",
-      "published": "2026-08-14T15:47:21Z",
-      "preview": "(brew) support structured cask symlinks by @jdx in [ #11962 ](htt…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-interactive-config-v2026.8.4",
@@ -1828,14 +1828,6 @@
       "preview": "The Rust team has published a new point release of Rust, 1.97.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.97.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.97.1 Rust 1.97.1 fixes a miscompilation in an LLVM optimization . We have backported both an LLVM fix and a disable of the underlying change in Rust 1.97.0 of Rust's generated IR that increased the likelihood of th",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "1.15.2",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.15.2",
-      "published": "2026-07-15T22:45:38Z",
-      "preview": "Full Changelog : 1.15.1...1.15.2",
-      "source": "pipx releases",
-      "category": "Python"
     }
   ]
 }
