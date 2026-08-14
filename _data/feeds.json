@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-14T19:37:04Z",
-  "cutoff": "2026-07-15T19:36:59Z",
+  "generated": "2026-08-14T20:29:52Z",
+  "cutoff": "2026-07-15T20:29:48Z",
   "feed_count": 79,
-  "item_count": 227,
+  "item_count": 228,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.5",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.5",
+      "published": "2026-08-14T19:57:52Z",
+      "preview": "Release Notes Released on 2026-08-14. Python Add CPython 3.10.21, 3.11.16, and 3.12.14 ( #21138 ) Prefer newer versions and standard variants when selecting between equally prioritized Python interpreters ( #21134 ) Enhancements Simplify errors and hints for invalid editable requirements, and redact credentials in requirement URLs ( #21130 ) Preview features Allow --index and --default-index to select configured package indexes by name with the index-by-name preview feature ( #17455 ) Include distribution artifact URLs and hashes in CycloneDX SBOM exports by default ( #21131 ) Fall back to log",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "3.3.3",
       "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.3",
