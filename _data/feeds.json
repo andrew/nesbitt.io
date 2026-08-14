@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-14T08:44:53Z",
-  "cutoff": "2026-07-15T08:44:49Z",
+  "generated": "2026-08-14T10:38:34Z",
+  "cutoff": "2026-07-15T10:38:30Z",
   "feed_count": 79,
   "item_count": 229,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.30.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.30.0",
+      "published": "2026-08-14T10:15:17Z",
+      "preview": "44.30.0 (2026-08-14) Features presets: add jsonforms monorepo ( #45280 ) ( fc9e453 ) terraform-provider: use OpenTofu packages API for lockfile hashes ( #43573 ) ( 6a782d3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-12-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-12-a",
@@ -324,14 +332,6 @@
       "preview": "Patch Changes Validated forwarded catalog targets and kept catalog-specific resolutions isolated in the server cache.",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.26.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.26.2",
-      "published": "2026-08-12T14:31:51Z",
-      "preview": "44.26.2 (2026-08-12) Bug Fixes platform/azure: skip work item Markdown format on Azure DevOps Server ( #45237 ) ( d678372 ) Continuous Integration workflows: switch select workflows to ubuntu-slim runner ( #45247 ) ( 6d4a5d3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "5.4.3.0",
