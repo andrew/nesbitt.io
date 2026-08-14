@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-14T10:38:34Z",
-  "cutoff": "2026-07-15T10:38:30Z",
+  "generated": "2026-08-14T15:35:50Z",
+  "cutoff": "2026-07-15T15:35:45Z",
   "feed_count": 79,
-  "item_count": 229,
+  "item_count": 228,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Helm v4.2.4",
+      "url": "https://github.com/helm/helm/releases/tag/v4.2.4",
+      "published": "2026-08-14T15:03:07Z",
+      "preview": "Helm v4.2.4 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix: Improve error reporting for helm template --debug with --show-only- #31185 by @kyokuping fix: fetch logs from all containers in test pods- #32099 by @SebTardif fix(provenance): check error ",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
+      "title": "44.30.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.30.1",
+      "published": "2026-08-14T15:01:56Z",
+      "preview": "44.30.1 (2026-08-14) Bug Fixes linters: add linting rule to enforce usage of our regEx utility ( #44690 ) ( a1971af ), closes 12872/#12875 #12875",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Helm v3.21.4",
+      "url": "https://github.com/helm/helm/releases/tag/v3.21.4",
+      "published": "2026-08-14T15:00:06Z",
+      "preview": "Helm v3.21.4 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix(engine): prevent Files.Lines panic on empty file (backport to v3)- #32303 by @mahesh-sadupalli fix(provenance): migrate to ProtonMail/go-crypto to resolve GO-2026-5932- #32463 by @karan-vk ",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
     {
       "title": "44.30.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.30.0",
@@ -142,14 +166,6 @@
       "category": "Containers"
     },
     {
-      "title": "v3.21.4",
-      "url": "https://github.com/helm/helm/releases/tag/v3.21.4",
-      "published": "2026-08-13T20:16:41Z",
-      "preview": "Helm release v3.21.4",
-      "source": "Helm releases",
-      "category": "Containers"
-    },
-    {
       "title": "44.29.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.2",
       "published": "2026-08-13T17:53:28Z",
@@ -204,14 +220,6 @@
       "preview": "44.29.1 (2026-08-13) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.1 (main) ( #45255 ) ( 14604ae ) Code Refactoring linters: add rules for @sindresorhus/is helpers ( #45229 ) ( 16ef171 ) oxlint: scope custom JS rules via config overrides ( #45266 ) ( c2785bc )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "Helm v4.2.4",
-      "url": "https://github.com/helm/helm/releases/tag/v4.2.4",
-      "published": "2026-08-13T15:33:04Z",
-      "preview": "Helm v4.2.4 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix: Improve error reporting for helm template --debug with --show-only- #31185 by @kyokuping fix: fetch logs from all containers in test pods- #32099 by @SebTardif fix(provenance): check error ",
-      "source": "Helm releases",
-      "category": "Containers"
     },
     {
       "title": "44.29.0",
@@ -282,14 +290,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.27.0",
       "published": "2026-08-13T00:00:07Z",
       "preview": "44.27.0 (2026-08-12) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.0 (main) ( #45254 ) ( f6acbb5 ) Miscellaneous Chores deps: update dependency memfs to v4.68.0 (main) ( #45253 ) ( 75c68d4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.26.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.26.3",
-      "published": "2026-08-12T22:42:14Z",
-      "preview": "44.26.3 (2026-08-12) Bug Fixes github-actions: support ratchet comments for nested actions ( #45210 ) ( 481f9b6 ) manager/terraform: stream-based H1 hashing ( #45220 ) ( 7c3a3ef ) Tests bun: mock util/fs instead of fs-extra in artifacts spec ( #45235 ) ( d53ffc5 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1844,14 +1844,6 @@
       "preview": "What's Changed chore(deps): bump golang.org/x/crypto from 0.51.0 to 0.52.0 by @dependabot [bot] in #2148 Revert in-process subprocess reaper, rely on tini by @matt0x6F in #2137 Replace OpenCensus with OpenTelemetry by @matt0x6F in #2138 update-github-action(deps): bump actions/upload-pages-artifact from 4 to 5 by @dependabot [bot] in #2129 update-github-action(deps): bump docker/setup-buildx-action from 3 to 4 by @dependabot [bot] in #2130 update-go-pkg(deps): bump github.com/go-sql-driver/mysql from 1.9.3 to 1.10.0 by @dependabot [bot] in #2132 update-go-pkg(deps): bump go.mongodb.org/mongo-d",
       "source": "Athens releases",
       "category": "Go"
-    },
-    {
-      "title": "v2.9.3",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.3",
-      "published": "2026-07-15T15:35:06Z",
-      "preview": "2.9.3 / 2026.07.15 feat(cli): deno add --no-save and --save-optional ( #36039 ) feat(cli): add --min-dep-age alias ( #35914 ) feat(compile): support aarch64-pc-windows-msvc target ( #36004 ) feat(ext/fetch): add http2MaxHeaderListSize option to Deno.createHttpClient ( #33194 ) fix(bundle): preserve raw imports in watch mode ( #36040 ) fix(canvas): don't hold SurfaceData mut borrow over window resize ( #35993 ) fix(config): reject out-of-range minimum dependency ages ( #36051 ) fix(core): block user ext imports after resolution ( #36012 ) fix(core): deactivate idle TTY write handles ( #35886 ) ",
-      "source": "Deno releases",
-      "category": "JavaScript"
     }
   ]
 }
