@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-14T00:40:59Z",
-  "cutoff": "2026-07-15T00:40:56Z",
+  "generated": "2026-08-14T07:51:19Z",
+  "cutoff": "2026-07-15T07:51:15Z",
   "feed_count": 79,
   "item_count": 229,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.29.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.5",
+      "published": "2026-08-14T07:24:47Z",
+      "preview": "44.29.5 (2026-08-14) Bug Fixes platform/github: abort branch update when PR is in merge queue ( #45252 ) ( c953faf ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.4 (main) ( #45275 ) ( 7e82bd7 ) Continuous Integration auto-label PRs that have been dequeued from the Merge Queue ( #45270 ) ( eba4b3e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-129.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-129.0.dev",
@@ -324,14 +332,6 @@
       "preview": "Update translations from weblate Port bootc functionality from DNF4 Add --[no-]allow-vendor-change option Warn when upgrades are silently skipped due to vendor change restriction Add remove --duplicates option to remove older duplicate packages Introduce gpgcheck_policy to control gpgcheck Add RepoSack API for repo config overrides libdnf5-cli: Stop option parsing after \"--\" Show protected package info when removing its dependency Invalidate offline transaction after successful online transaction Add distro-sync support to dnf-automatic Add tmpfiles config to create system repo lockfile manife",
       "source": "DNF5 releases",
       "category": "System"
-    },
-    {
-      "title": "44.26.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.26.1",
-      "published": "2026-08-12T13:31:07Z",
-      "preview": "44.26.1 (2026-08-12) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.85.1 (main) ( #45246 ) ( 851d6b6 ) manager/npm: do not pass --recursive to pnpm dedupe ( #45244 ) ( b2da209 ) Miscellaneous Chores tools: allow unsafe askpass in agent hooks git config ( #45245 ) ( 7c0592b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.11.0.8",
