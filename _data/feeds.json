@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-15T00:31:56Z",
-  "cutoff": "2026-07-16T00:31:51Z",
+  "generated": "2026-08-15T01:50:58Z",
+  "cutoff": "2026-07-16T01:50:53Z",
   "feed_count": 79,
   "item_count": 224,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.30.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.30.3",
+      "published": "2026-08-15T00:48:52Z",
+      "preview": "44.30.3 (2026-08-15) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.6 (main) ( #45293 ) ( bf865fe )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-134.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-134.0.dev",
@@ -330,14 +338,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.0",
       "published": "2026-08-13T13:59:07Z",
       "preview": "chore(deps): update github/codeql-action action to v4.37.7 (main) ( #4 …",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.28.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.28.0",
-      "published": "2026-08-13T11:55:19Z",
-      "preview": "44.28.0 (2026-08-13) Features gomod: add gomodTidyAll option for indirect dependency updates in Go monorepos ( #37138 ) ( ab105e6 ) Miscellaneous Chores deps: update jdx/mise-action action to v4.2.5 (main) ( #45262 ) ( c3c0226 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
