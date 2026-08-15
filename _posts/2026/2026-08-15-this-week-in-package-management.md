@@ -16,13 +16,13 @@ pnpm 12, the Rust rewrite, reached [RC 5](https://github.com/pnpm/pnpm/releases/
 
 [Hatch 1.18.0](https://github.com/pypa/hatch/releases/tag/hatch-v1.18.0) adds a `sources` environment option that redirects individual dependencies to a local path, Git repository, URL, alternate index or workspace member at install time without altering the published metadata, and `hatch build --all` to build every workspace member at once. [Hatchling 1.32.0](https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.0) lets the `version` command set a version that is statically defined in `project.version`, rewriting `pyproject.toml` in place.
 
-[Renovate 44.24.0–44.30.1](https://github.com/renovatebot/renovate/releases/tag/44.30.1) adds [support](https://github.com/renovatebot/renovate/pull/45199) for GitHub's Actions lockfile, relocking it alongside `uses:` reference updates. 44.28.0 adds a [`gomodTidyAll`](https://github.com/renovatebot/renovate/pull/37138) option to run `go mod tidy` across every module in a Go monorepo after a dependency update, and 44.29.5 [stops updating a PR branch](https://github.com/renovatebot/renovate/pull/45252) while it sits in a GitHub merge queue.
+[Renovate 44.24.0–44.30.3](https://github.com/renovatebot/renovate/releases/tag/44.30.3) adds [support](https://github.com/renovatebot/renovate/pull/45199) for GitHub's Actions lockfile, relocking it alongside `uses:` reference updates. 44.28.0 adds a [`gomodTidyAll`](https://github.com/renovatebot/renovate/pull/37138) option to run `go mod tidy` across every module in a Go monorepo after a dependency update, and 44.29.5 [stops updating a PR branch](https://github.com/renovatebot/renovate/pull/45252) while it sits in a GitHub merge queue.
 
 [DNF5 5.4.3.0](https://github.com/rpm-software-management/dnf5/releases/tag/5.4.3.0) ports the bootc integration from DNF4, adds `--allow-vendor-change`/`--no-allow-vendor-change` with a warning when upgrades are silently skipped by the vendor-change restriction, `remove --duplicates` to clear older duplicate packages, and a `gpgcheck_policy` setting.
 
 Also out:
 
-- [uv 0.12.4](https://github.com/astral-sh/uv/releases/tag/0.12.4)
+- [uv 0.12.5](https://github.com/astral-sh/uv/releases/tag/0.12.5)
 - [PDM 2.28.1](https://github.com/pdm-project/pdm/releases/tag/2.28.1)
 - [mise 2026.8.6](https://github.com/jdx/mise/releases/tag/v2026.8.6)
 - [Homebrew 6.0.17](https://github.com/Homebrew/brew/releases/tag/6.0.17)
@@ -60,9 +60,13 @@ Also out:
 
 [PyPI dependencies, resolved and built for you](https://fedora-copr.github.io/posts/pypi-dependencies-resolved-and-built-for-you) (Sundaram Krishnan, Fedora Copr blog) introduces `coprtree`, which resolves a Python package's dependency tree from [ecosyste.ms](https://ecosyste.ms) metadata, drops packages already available in Fedora repositories or the target Copr project, and topologically sorts the remainder into a build order.
 
+[What is a package registry?](https://swiftpackageindex.com/blog/what-is-a-package-registry) (Dave Verwer, Swift Package Index): following the index joining Apple, the two are building a Swift package registry. SwiftPM has resolved `.package(id:from:)` registry dependencies since Swift 5.7, fetching an immutable source archive instead of cloning a repository and checking out a mutable tag. Artifactory, AWS CodeArtifact, Cloudsmith and the read-only Tuist cache already implement the protocol.
+
 ## Elsewhere
 
 Following [PEP 833](https://peps.python.org/pep-0833/), PyPI's [HTML simple index representation is now frozen](https://blog.pypi.org/posts/2026-08-11-html-index-is-frozen/): it will keep serving new packages and releases indefinitely but no new metadata fields will be added to it, with future index standardisation targeting only the JSON representation. pip and uv already prefer JSON.
+
+Seventeen candidates are [standing](https://blog.python.org/2026/08/2026-packaging-council-nominees/) for the five seats on the 2026 Python Packaging Council, the [PEP 772](https://peps.python.org/pep-0772/) body with authority over packaging standards and PyPA tools. Voter registration closes 25 August and the vote closes 15 September.
 
 [Soar](https://github.com/pkgforge/soar) is a distro-independent Linux package manager from pkgforge that installs static binaries, AppImages and FlatImages into the user's home directory without root. Packages come from the [soarpkgs](https://github.com/pkgforge/soarpkgs) repository, built on remote CI and verified with BLAKE3 checksums and minisign signatures.
 
