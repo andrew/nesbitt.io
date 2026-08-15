@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-14T23:28:22Z",
-  "cutoff": "2026-07-15T23:28:17Z",
+  "generated": "2026-08-15T00:31:56Z",
+  "cutoff": "2026-07-16T00:31:51Z",
   "feed_count": 79,
-  "item_count": 226,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-134.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-134.0.dev",
+      "published": "2026-08-15T00:13:55Z",
+      "preview": "SDK 3.14.0-134.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-133.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-133.0.dev",
+      "published": "2026-08-15T00:13:52Z",
+      "preview": "SDK 3.14.0-133.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-132.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-132.0.dev",
+      "published": "2026-08-15T00:13:49Z",
+      "preview": "SDK 3.14.0-132.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-131.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-131.0.dev",
+      "published": "2026-08-15T00:13:47Z",
+      "preview": "SDK 3.14.0-131.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-130.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-130.0.dev",
+      "published": "2026-08-15T00:13:44Z",
+      "preview": "SDK 3.14.0-130.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "v2026.8.6: Resumable downloads, richer Homebrew casks, and monorepo task fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.6",
@@ -308,46 +348,6 @@
       "preview": "For a full list of pull requests and changes in this release, refer to the relevant GitHub milestone: moby/moby, 25.0.17 milestone Changes to the Engine API, see API version history . Bug fixes and enhancements Fix CVE-2026-41568 : symlink escape in mount destination creation. #52648 Decompress archives before entering container filesystem, fixing CVE-2026-41567 . #52647 Fix CVE-2026-42306 : bind mount target redirection via symlink swap during docker cp. #52657 Vendor github.com/containerd/containerd v1.7.33 to mitigate CVE-2024-40635 . #49909",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "SDK-3.14.0-124.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-124.0.dev",
-      "published": "2026-08-13T00:24:52Z",
-      "preview": "SDK 3.14.0-124.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-123.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-123.0.dev",
-      "published": "2026-08-13T00:24:49Z",
-      "preview": "SDK 3.14.0-123.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-122.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-122.0.dev",
-      "published": "2026-08-13T00:24:46Z",
-      "preview": "SDK 3.14.0-122.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-121.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-121.0.dev",
-      "published": "2026-08-13T00:24:43Z",
-      "preview": "SDK 3.14.0-121.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-120.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-120.0.dev",
-      "published": "2026-08-13T00:24:40Z",
-      "preview": "SDK 3.14.0-120.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-11-a",
@@ -1812,22 +1812,6 @@
       "preview": "29.6.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.2 milestone moby/moby, 29.6.2 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. CVE-2026-15793 : Git source checkout from a bundle file could lead to command injection. GHSA-hw3h-2gp9-cxpv CVE-2026-15792 : Incorrect parameters sent from a frontend could cause a panic. GHSA-qx3x-mv6r-52p6 CVE-2026-15791 : An LLB file operation could be tricked into removing the contents of the /tmp directory. GHSA-32pv-7hq5-qhw",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "1.16.0",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.16.0",
-      "published": "2026-07-16T00:08:21Z",
-      "preview": "What's Changed 📝 docs: restore the 1.16.0 changelog fragments by @gaborbernat in #1961 Full Changelog : 1.15.2...1.16.0",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "Announcing Rust 1.97.1",
-      "url": "https://blog.rust-lang.org/2026/07/16/Rust-1.97.1/",
-      "published": "2026-07-16T00:00:00Z",
-      "preview": "The Rust team has published a new point release of Rust, 1.97.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.97.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.97.1 Rust 1.97.1 fixes a miscompilation in an LLVM optimization . We have backported both an LLVM fix and a disable of the underlying change in Rust 1.97.0 of Rust's generated IR that increased the likelihood of th",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
