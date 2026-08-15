@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-15T18:29:29Z",
-  "cutoff": "2026-07-16T18:29:24Z",
+  "generated": "2026-08-15T20:28:29Z",
+  "cutoff": "2026-07-16T20:28:24Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -1796,14 +1796,6 @@
       "preview": "🐛 bug fixes fix: Backports the packager cache fix for CVE-2026-26032 by @raboof in sbt/ivy#57 deps: sjson-new 0.15.1, which transitively updates Jawn to 1.7.0 for GHSA-cc4v-rvgp-2pf3 and GHSA-w4cm-gvhj-cgw6 by @eed3si9n in #9458 fix: Fixes JVM option capability in the launcher config by @anatoliykmetyuk in #9452 Full Changelog : v2.0.2...v2.0.3",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "v0.387.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.387.0",
-      "published": "2026-07-16T20:27:46Z",
-      "preview": "What's Changed Type the gradle, swift, and pre_commit ecosystems by @JamieMagee in #15534 Default cooldown to 3 days when default-days is not specified (behind a feature flag) by @robaiken with @Copilot in #15344 Use shared base cooldown in git_submodules by @robaiken in #15537 [Update graph] Avoid PathDependenciesNotReachable killing the whole job by @brrygrdn in #15522 [Update Graph] Ensure that txt/in pairs are included properly in layers when working out references by @brrygrdn in #15581 build(deps): bump opentofu to 1.12.1 by @RinseV in #15231 Type the Sentry before_send processors by @Ja",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
