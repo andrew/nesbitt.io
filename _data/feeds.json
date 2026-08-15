@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-15T17:27:59Z",
-  "cutoff": "2026-07-16T17:27:55Z",
+  "generated": "2026-08-15T18:29:29Z",
+  "cutoff": "2026-07-16T18:29:24Z",
   "feed_count": 79,
-  "item_count": 224,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -1804,14 +1804,6 @@
       "preview": "What's Changed Type the gradle, swift, and pre_commit ecosystems by @JamieMagee in #15534 Default cooldown to 3 days when default-days is not specified (behind a feature flag) by @robaiken with @Copilot in #15344 Use shared base cooldown in git_submodules by @robaiken in #15537 [Update graph] Avoid PathDependenciesNotReachable killing the whole job by @brrygrdn in #15522 [Update Graph] Ensure that txt/in pairs are included properly in layers when working out references by @brrygrdn in #15581 build(deps): bump opentofu to 1.12.1 by @RinseV in #15231 Type the Sentry before_send processors by @Ja",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v29.6.2",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.2",
-      "published": "2026-07-16T17:55:13Z",
-      "preview": "29.6.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.6.2 milestone moby/moby, 29.6.2 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine. CVE-2026-15793 : Git source checkout from a bundle file could lead to command injection. GHSA-hw3h-2gp9-cxpv CVE-2026-15792 : Incorrect parameters sent from a frontend could cause a panic. GHSA-qx3x-mv6r-52p6 CVE-2026-15791 : An LLB file operation could be tricked into removing the contents of the /tmp directory. GHSA-32pv-7hq5-qhw",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
