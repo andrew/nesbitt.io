@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-15T09:28:48Z",
-  "cutoff": "2026-07-16T09:28:44Z",
+  "generated": "2026-08-15T17:27:59Z",
+  "cutoff": "2026-07-16T17:27:55Z",
   "feed_count": 79,
   "item_count": 224,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 11.22",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.22.0",
+      "published": "2026-08-15T17:18:05Z",
+      "preview": "Minor Changes Added pnpm cache path , which prints the directory pnpm uses for its metadata cache. CI setups can use it to cache that directory — including the lockfile verification log, which lets a job skip re-checking an unchanged lockfile against the configured supply-chain policies. --config.config-dir no longer reaches the config through a project's pnpm-workspace.yaml , and neither do the --config. spellings of the other settings a project manifest may no longer contribute ( --config.pnpm-home-dir , --config.workspace-dir , --config.global-pkg-dir , --config.root-project-manifest-dir ).",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12 RC 6",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.6",
+      "published": "2026-08-15T17:17:48Z",
+      "preview": "Minor Changes Added pnpm cache path , which prints the directory pnpm uses for its metadata cache. CI setups can use it to cache that directory — including the lockfile verification log, which lets a job skip re-checking an unchanged lockfile against the configured supply-chain policies. pnpm installs the other package managers now, not just itself: npm, Yarn Classic, Yarn Berry, Yarn 6 ( yarnpkg/zpm ), and Bun. Each is resolved and fetched through the trusted package-manager registries, and an npm-published one is verified against npm's signature for its exact version before it is executed. T",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-13-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-13-a",
@@ -836,22 +852,6 @@
       "preview": "What's Changed Add typed requirement source API by @JamieMagee in #15705 Reland \"Cargo: handle crates locked at multiple versions\" ( #15638 ) by @p-linnane in #15668 Preserve original absence of the bundler self-checksum on lockfile updates by @p-linnane in #15669 Support security updates for vcpkg ports by @JamieMagee in #15676 Beta support of PNPM 11 by @v-robaiken in #15710 Remove enable_cooldown_default_days feature flag; make 3-day cooldown default unconditional by @v-robaiken with @Copilot in #15711 github_actions: integrate gh-actions-lock lockfile relocking by @nodeselector in #15267 F",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "pnpm 11.20",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.20.0",
-      "published": "2026-08-03T14:20:27Z",
-      "preview": "Minor Changes Security fix. Affects projects using namedRegistries on pnpm 11.1.0–11.19.x. It is semi-breaking for those projects — see \"If you use named registries\" below. The lockfile recorded no marker for which registry a package came from. Packages were keyed by name@version alone, and entry lookup went through refToRelative(ref, name) , so a dependency you declared against one registry could be satisfied by an entry that was actually resolved from another. When two registries served the same name and version, both collapsed onto a single packages: entry and whichever resolved first decid",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12 Beta 4",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-beta.4",
-      "published": "2026-08-03T14:18:38Z",
-      "preview": "Minor Changes Security fix. Affects projects using namedRegistries on pnpm 11.1.0–11.19.x. It is semi-breaking for those projects — see \"If you use named registries\" below. The lockfile recorded no marker for which registry a package came from. Packages were keyed by name@version alone, and entry lookup went through refToRelative(ref, name) , so a dependency you declared against one registry could be satisfied by an entry that was actually resolved from another. When two registries served the same name and version, both collapsed onto a single packages: entry and whichever resolved first decid",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "v0.76.0",
