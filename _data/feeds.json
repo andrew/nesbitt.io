@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-16T21:27:42Z",
-  "cutoff": "2026-07-17T21:27:38Z",
+  "generated": "2026-08-16T22:28:23Z",
+  "cutoff": "2026-07-17T22:28:18Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.31.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.31.0",
+      "published": "2026-08-16T21:44:44Z",
+      "preview": "44.31.0 (2026-08-16) Features data: automatic update of static data ( #45301 ) ( abd9125 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-14-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-14-a",
@@ -364,14 +372,6 @@
       "preview": "Minor Changes Breaking change. Dependency cycles are now broken canonically during peer resolution: the members of each cycle are ordered by package id, and the edges that close a cycle are always cut at the same place, no matter where the installation walks into the cycle from. Previously the cut depended on the walk path, so installing the same dependencies could produce different lockfiles depending on importer order or resolution order #13846 , and a peer-resolution verdict computed for one occurrence of a cyclic package could be wrongly reused at another #13865 . With canonical cycle brea",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.29.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.1",
-      "published": "2026-08-13T16:31:38Z",
-      "preview": "44.29.1 (2026-08-13) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.1 (main) ( #45255 ) ( 14604ae ) Code Refactoring linters: add rules for @sindresorhus/is helpers ( #45229 ) ( 16ef171 ) oxlint: scope custom JS rules via config overrides ( #45266 ) ( c2785bc )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v25.0.17",
@@ -1746,22 +1746,6 @@
       "url": "https://github.com/oven-sh/bun/releases/tag/consolidation-step-5-green",
       "published": "2026-07-17T22:34:08Z",
       "preview": "step 5.fix0: route bun_s3_signing::error/Error via s3_signing mount path",
-      "source": "Bun releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "consolidation-step-4-green",
-      "url": "https://github.com/oven-sh/bun/releases/tag/consolidation-step-4-green",
-      "published": "2026-07-17T22:17:59Z",
-      "preview": "step 4.fix0: drop package-rename deps; apply 4.2/4.4/4.5/4.6 seds",
-      "source": "Bun releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "consolidation-step-3-green",
-      "url": "https://github.com/oven-sh/bun/releases/tag/consolidation-step-3-green",
-      "published": "2026-07-17T21:56:14Z",
-      "preview": "step 3.fix0: drop package-rename deps; apply 2.4/2.5/3.6 seds",
       "source": "Bun releases",
       "category": "JavaScript"
     }
