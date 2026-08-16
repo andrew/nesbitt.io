@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-16T22:28:23Z",
-  "cutoff": "2026-07-17T22:28:18Z",
+  "generated": "2026-08-16T23:27:49Z",
+  "cutoff": "2026-07-17T23:27:45Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -1731,22 +1731,6 @@
       "published": "2026-07-18T00:00:00Z",
       "preview": "pnpm 11.11 through 11.14 add native workspace release management (pnpm change, pnpm lane, and a bare pnpm version -r), a pnpm doctor command that diagnoses your installation end to end, the pnpm access and pnpm team commands for managing packages and organizations on the registry, convergence overrides, and scheme-carrying peerDependencies specifiers. They also fix a path-traversal vulnerability, cut peak memory during cold-cache resolution by roughly 30%, and resolve a peer dependency deadlock.",
       "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "Windows Package Manager 1.30.50-preview",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.50-preview",
-      "published": "2026-07-17T23:19:56Z",
-      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Apply latest loc patch by Flor Chacón (@florelis) in #6262 Remove old Store certs, replace test use with generated ones by JohnMcPMS in #6275 Add .gitattrib",
-      "source": "winget releases",
-      "category": "System"
-    },
-    {
-      "title": "consolidation-step-5-green",
-      "url": "https://github.com/oven-sh/bun/releases/tag/consolidation-step-5-green",
-      "published": "2026-07-17T22:34:08Z",
-      "preview": "step 5.fix0: route bun_s3_signing::error/Error via s3_signing mount path",
-      "source": "Bun releases",
       "category": "JavaScript"
     }
   ]
