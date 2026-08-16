@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-15T20:28:29Z",
-  "cutoff": "2026-07-16T20:28:24Z",
+  "generated": "2026-08-16T03:34:41Z",
+  "cutoff": "2026-07-17T03:34:37Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -1779,22 +1779,6 @@
       "published": "2026-07-17T17:15:24Z",
       "preview": "The Gradle team is excited to announce Gradle 9.7.0 RC1. Here are the highlights of this release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 , Ravi , sk-reddy17 , Suvrat Acharya , Yongshun Ye . Upgrade instructions Switch your build to use Gradle 9.7.0 RC1 by updating your wra",
       "source": "Gradle releases",
-      "category": "Maven"
-    },
-    {
-      "title": "1.12.14",
-      "url": "https://github.com/sbt/sbt/releases/tag/v1.12.14",
-      "published": "2026-07-17T02:57:49Z",
-      "preview": "🐛 bug fixes fix: Backports the packager cache fix for CVE-2026-26032 by @raboof in sbt/ivy#57 deps: sjson-new 0.10.3, which transitively updates Jawn to 1.7.0 for GHSA-cc4v-rvgp-2pf3 and GHSA-w4cm-gvhj-cgw6 by @eed3si9n in #9460 fix: Fixes BSP dependency parsing by @anatoliykmetyuk in #9451 fix: Fixes JVM option capability in the launcher config by @anatoliykmetyuk in #9452 fix: Fixes sbt shutdownall by @eed3si9n in #9435 updates sbtn 2.0.0-b4d628dd by @eed3si9n in #9443 deps: ipcsocket 1.8.0 by @eed3si9n in #9433 behind the scenes Bump actions/checkout from 6 to 7 by @dependabot [bot] in #936",
-      "source": "sbt releases",
-      "category": "Maven"
-    },
-    {
-      "title": "2.0.3",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.3",
-      "published": "2026-07-17T02:57:28Z",
-      "preview": "🐛 bug fixes fix: Backports the packager cache fix for CVE-2026-26032 by @raboof in sbt/ivy#57 deps: sjson-new 0.15.1, which transitively updates Jawn to 1.7.0 for GHSA-cc4v-rvgp-2pf3 and GHSA-w4cm-gvhj-cgw6 by @eed3si9n in #9458 fix: Fixes JVM option capability in the launcher config by @anatoliykmetyuk in #9452 Full Changelog : v2.0.2...v2.0.3",
-      "source": "sbt releases",
       "category": "Maven"
     }
   ]
