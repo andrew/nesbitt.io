@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-17T18:30:39Z",
-  "cutoff": "2026-07-18T18:30:35Z",
+  "generated": "2026-08-17T19:29:13Z",
+  "cutoff": "2026-07-18T19:29:09Z",
   "feed_count": 79,
   "item_count": 213,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.32.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.3",
+      "published": "2026-08-17T19:23:10Z",
+      "preview": "44.32.3 (2026-08-17) Bug Fixes datasource/go: prefer later releaseTimestamp from GitHub Releases ( #45315 ) ( d870505 ), closes #45314 #43451 github: recognize another \"needs approving review\" message ( #45052 ) ( 5e8bf3c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.8.8: Restore ARMv7 release builds",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.8",
@@ -308,14 +316,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-12-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.29.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.5",
-      "published": "2026-08-14T07:24:47Z",
-      "preview": "44.29.5 (2026-08-14) Bug Fixes platform/github: abort branch update when PR is in merge queue ( #45252 ) ( c953faf ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.4 (main) ( #45275 ) ( 7e82bd7 ) Continuous Integration auto-label PRs that have been dequeued from the Merge Queue ( #45270 ) ( eba4b3e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-129.0.dev",
