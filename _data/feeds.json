@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-17T06:31:43Z",
-  "cutoff": "2026-07-18T06:31:38Z",
+  "generated": "2026-08-17T08:31:38Z",
+  "cutoff": "2026-07-18T08:31:34Z",
   "feed_count": 79,
-  "item_count": 213,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "6.0.18",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.18",
+      "published": "2026-08-17T07:46:53Z",
+      "preview": "What's Changed Build and publish large runner docker image by @iMichka in #23345 Avoid nil cask versions during installation by @MikeMcQuaid in #23499 Use cask dependencies for platform support by @MikeMcQuaid in #23496 Fix role used to push to ECR by @iMichka in #23500 Report unavailable cask platforms accurately by @MikeMcQuaid in #23501 Add supported_platforms to cask API data by @p-linnane in #23503 cask: merge multiple conflicts_with stanzas by @hyuraku in #23506 Normalize hyphenated HOMEBREW_CASK_OPTS option names by @carlocab in #23505 sbom: add purl external references for sources usin",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
