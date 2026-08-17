@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-17T08:31:38Z",
-  "cutoff": "2026-07-18T08:31:34Z",
+  "generated": "2026-08-17T09:31:29Z",
+  "cutoff": "2026-07-18T09:31:25Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.15.2",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2",
+      "published": "2026-08-17T09:30:23Z",
+      "preview": "Upgrade Notice: Internal PostgreSQL Upgrade Upgrading to Harbor v2.15.2 (Helm Chart v1.19.2) automatically updates the bundled internal database from PostgreSQL 15 to PostgreSQL 18 via pg_upgrade upon container startup. Action Items & Considerations Backup Data: Back up your database before applying the upgrade or restarting the database pod. Maintenance Downtime: pg_upgrade runs on pod startup and may temporarily extend initialization time depending on database size. Reindexing (Non-ASCII Data & Troubleshooting): Major PostgreSQL collation changes can cause existing B-Tree indexes to become s",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
+      "title": "44.32.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.0",
+      "published": "2026-08-17T09:12:12Z",
+      "preview": "44.32.0 (2026-08-17) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.87.0 (main) ( #45309 ) ( a1453ae ) Documentation clarify GHSA publishing timelines and CVE IDs ( #45307 ) ( 183fc14 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.16 (main) ( #45305 ) ( d1360ed ) deps: update dependency pnpm to v11.21.0 (main) ( #45306 ) ( 367ab09 ) Build System deps: update dependency jsonc-weaver to v0.3.0 (main) ( #45308 ) ( d87e46e ) deps: update dependency protobufjs to v8.7.2 (main) ( #45296 ) ( dfde7f2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "6.0.18",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.18",
@@ -364,14 +380,6 @@
       "preview": "Security This release addressed CVE-2026-19730 where the podman quadlet install --replace command did not truncate the file being replaced, meaning replacing a longer file with a shorter one would result in content from the original file incorrectly being retained.",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.29.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.2",
-      "published": "2026-08-13T17:53:28Z",
-      "preview": "44.29.2 (2026-08-13) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.2 (main) ( #45271 ) ( 184f31d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "[release-branch.go1.27] go1.27rc3",
