@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-17T12:31:03Z",
-  "cutoff": "2026-07-18T12:30:56Z",
+  "generated": "2026-08-17T18:30:39Z",
+  "cutoff": "2026-07-18T18:30:35Z",
   "feed_count": 79,
   "item_count": 213,
   "categories": [
@@ -22,10 +22,18 @@
   ],
   "items": [
     {
-      "title": "v2026.8.8",
+      "title": "v2026.8.8: Restore ARMv7 release builds",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.8",
-      "published": "2026-08-17T12:05:24Z",
-      "preview": "(release) install newer libclang for armv7 builds by @jdx in [#…",
+      "published": "2026-08-17T17:57:05Z",
+      "preview": "Note The automated v2026.8.7 release failed before binaries were published. v2026.8.8 includes all changes from v2026.8.7 and is the supported downloadable release for those changes. This release restores the ARMv7 (hard-float) build so those binaries can be published again. Fixed release: the armv7-unknown-linux-gnueabihf build now installs a newer libclang (LLVM 6), which the aws-lc-sys bindgen step requires. Previously the release job panicked on every ARMv7 build because the cross Ubuntu 16.04 image shipped libclang 3.8. ( #12088 by @jdx ) Full Changelog : v2026.8.7...v2026.8.8 💚 Sponsor m",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v2026.8.7: Windows launchers, project conf.d, and safer installs",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.7",
+      "published": "2026-08-17T17:57:04Z",
+      "preview": "Important The automated release for v2026.8.7 failed before binaries were published. This release is retained for changelog and version history only and intentionally has no assets. Use v2026.8.8 or newer for downloadable binaries containing these changes. This release expands Windows support across generated launchers, dotfiles, shells, and file tasks; adds project conf.d fragments, task-specific tool installation, and APK bootstrap support; and includes a broad set of reliability and security fixes. Added install: include tools declared by tasks when installing project dependencies. ( #11988",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -92,14 +100,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.8.7",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.7",
-      "published": "2026-08-17T03:48:24Z",
-      "preview": "(bootstrap) add launchd throttle and queue keys by @CallumKerso…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.8.11",
