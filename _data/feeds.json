@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-17T20:29:15Z",
-  "cutoff": "2026-07-18T20:29:11Z",
+  "generated": "2026-08-17T21:28:51Z",
+  "cutoff": "2026-07-18T21:28:46Z",
   "feed_count": 79,
   "item_count": 213,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.32.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.5",
+      "published": "2026-08-17T20:52:47Z",
+      "preview": "44.32.5 (2026-08-17) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.87.1 (main) ( #45320 ) ( 803f154 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.32.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.4",
@@ -292,14 +300,6 @@
       "preview": "Helm v4.2.4 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix: Improve error reporting for helm template --debug with --show-only- #31185 by @kyokuping fix: fetch logs from all containers in test pods- #32099 by @SebTardif fix(provenance): check error ",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.30.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.30.1",
-      "published": "2026-08-14T15:01:56Z",
-      "preview": "44.30.1 (2026-08-14) Bug Fixes linters: add linting rule to enforce usage of our regEx utility ( #44690 ) ( a1971af ), closes 12872/#12875 #12875",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Helm v3.21.4",
