@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-17T19:29:13Z",
-  "cutoff": "2026-07-18T19:29:09Z",
+  "generated": "2026-08-17T20:29:15Z",
+  "cutoff": "2026-07-18T20:29:11Z",
   "feed_count": 79,
   "item_count": 213,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.32.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.4",
+      "published": "2026-08-17T19:44:25Z",
+      "preview": "44.32.4 (2026-08-17) Miscellaneous Chores deps: update dependency memfs to v4.68.1 (main) ( #45318 ) ( 01a6df8 ) Build System deps: update dependency jsonc-weaver to v0.3.1 (main) ( #45317 ) ( 0294dce )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.32.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.3",
@@ -300,14 +308,6 @@
       "preview": "Helm v3.21.4 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix(engine): prevent Files.Lines panic on empty file (backport to v3)- #32303 by @mahesh-sadupalli fix(provenance): migrate to ProtonMail/go-crypto to resolve GO-2026-5932- #32463 by @karan-vk ",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.30.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.30.0",
-      "published": "2026-08-14T10:15:17Z",
-      "preview": "44.30.0 (2026-08-14) Features presets: add jsonforms monorepo ( #45280 ) ( fc9e453 ) terraform-provider: use OpenTofu packages API for lockfile hashes ( #43573 ) ( 6a782d3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-12-a",
