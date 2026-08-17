@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-17T00:31:57Z",
-  "cutoff": "2026-07-18T00:31:53Z",
+  "generated": "2026-08-17T04:31:36Z",
+  "cutoff": "2026-07-18T04:31:32Z",
   "feed_count": 79,
   "item_count": 213,
   "categories": [
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.8.7",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.7",
+      "published": "2026-08-17T03:48:24Z",
+      "preview": "(bootstrap) add launchd throttle and queue keys by @CallumKerso…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.11",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.11",
+      "published": "2026-08-17T03:44:55Z",
+      "preview": "Release vfox 2026.8.11",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-rustc-v2026.8.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.3",
+      "published": "2026-08-17T03:43:51Z",
+      "preview": "Release mise-cache-rustc 2026.8.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-core-v2026.8.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.3",
+      "published": "2026-08-17T03:43:40Z",
+      "preview": "Release mise-cache-core 2026.8.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.31.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.31.0",
@@ -438,14 +470,6 @@
       "category": ".NET"
     },
     {
-      "title": "v2026.8.5: PyPy on the precompiled path, Node source patches, and a broad batch of fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.5",
-      "published": "2026-08-12T12:01:21Z",
-      "preview": "This release lets mise install PyPy on the precompiled path (including on Windows), adds Node source-build patching, and lands a wide set of fixes across config precedence, install hooks, version pinning, and the Rust, conda, and vfox backends. Added python: PyPy can now be installed on the precompiled path — when python.compile=false , and unconditionally on Windows, where PyPy versions previously never appeared in mise ls-remote python and could not be installed at all. mise reads the upstream downloads.python.org/pypy index, downloads and extracts the correct archive, runs ensurepip , and r",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "20260812t113900-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260812t113900-all",
       "published": "2026-08-12T11:39:47Z",
@@ -454,34 +478,10 @@
       "category": "Registries"
     },
     {
-      "title": "mise-interactive-config-v2026.8.3",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.3",
-      "published": "2026-08-12T10:13:58Z",
-      "preview": "Release mise-interactive-config 2026.8.3",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.8.9",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.9",
       "published": "2026-08-12T10:13:21Z",
       "preview": "Release vfox 2026.8.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-rustc-v2026.8.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.1",
-      "published": "2026-08-12T10:12:16Z",
-      "preview": "Release mise-cache-rustc 2026.8.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-core-v2026.8.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.1",
-      "published": "2026-08-12T10:12:07Z",
-      "preview": "Release mise-cache-core 2026.8.1",
       "source": "mise releases",
       "category": "Multi-language"
     },
