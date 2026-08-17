@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-17T11:28:56Z",
-  "cutoff": "2026-07-18T11:28:51Z",
+  "generated": "2026-08-17T12:31:03Z",
+  "cutoff": "2026-07-18T12:30:56Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 213,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.8.8",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.8",
+      "published": "2026-08-17T12:05:24Z",
+      "preview": "(release) install newer libclang for armv7 builds by @jdx in [#…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.12",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.12",
+      "published": "2026-08-17T12:02:00Z",
+      "preview": "Release vfox 2026.8.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-rustc-v2026.8.4",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.4",
+      "published": "2026-08-17T12:00:54Z",
+      "preview": "Release mise-cache-rustc 2026.8.4",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.32.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.2",
@@ -242,22 +266,6 @@
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.10",
       "published": "2026-08-14T15:42:25Z",
       "preview": "Release vfox 2026.8.10",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-rustc-v2026.8.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.2",
-      "published": "2026-08-14T15:41:06Z",
-      "preview": "Release mise-cache-rustc 2026.8.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-core-v2026.8.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.2",
-      "published": "2026-08-14T15:40:52Z",
-      "preview": "Release mise-cache-core 2026.8.2",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -492,14 +500,6 @@
       "preview": "Deployment at 2026-08-12T11:39:40.328756Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "vfox-v2026.8.9",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.9",
-      "published": "2026-08-12T10:13:21Z",
-      "preview": "Release vfox 2026.8.9",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "6.0.17",
@@ -1724,22 +1724,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "7.10.0.26",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.26",
-      "published": "2026-07-18T12:19:54Z",
-      "preview": "Insert 7.10.0.26 into main on 07/18/2026 12:19:54",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
-      "title": "consolidation-step-7-green",
-      "url": "https://github.com/oven-sh/bun/releases/tag/consolidation-step-7-green",
-      "published": "2026-07-18T11:51:02Z",
-      "preview": "step 7.sweep-wip2: snapshot before cap-raise resume",
-      "source": "Bun releases",
-      "category": "JavaScript"
     }
   ]
 }
