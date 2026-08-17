@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-17T10:29:52Z",
-  "cutoff": "2026-07-18T10:29:48Z",
+  "generated": "2026-08-17T11:28:56Z",
+  "cutoff": "2026-07-18T11:28:51Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.32.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.2",
+      "published": "2026-08-17T11:22:33Z",
+      "preview": "44.32.2 (2026-08-17) Bug Fixes datasource/pypi: use the earliest upload_time of a version ( #45313 ) ( e942788 ) Tests datasource/pypi: add regression test for constraintsFiltering=strict ( #45312 ) ( 5e93fc2 ), closes #44222",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.32.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.1",
@@ -348,14 +356,6 @@
       "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 --ignore-unavailable flag for install Added a new --ignore-unavailable flag to the install command. When installing multiple packages, this flag allows the operation to continue with the remaining packages instead of failing entirely when one or more packages are not found in the configured sources. This brings the same behavior",
       "source": "winget releases",
       "category": "System"
-    },
-    {
-      "title": "44.29.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.4",
-      "published": "2026-08-13T22:47:31Z",
-      "preview": "44.29.4 (2026-08-13) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.4 (main) ( #45277 ) ( 7226640 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.16.7",
