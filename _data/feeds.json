@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-17T09:31:29Z",
-  "cutoff": "2026-07-18T09:31:25Z",
+  "generated": "2026-08-17T10:29:52Z",
+  "cutoff": "2026-07-18T10:29:48Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.32.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.1",
+      "published": "2026-08-17T10:07:52Z",
+      "preview": "44.32.1 (2026-08-17) Bug Fixes datasource/npm: handle absent homepage s ( #45219 ) ( 116c3d6 ) Miscellaneous Chores AGENTS.md: tune the PR template + PR raising etiquette ( #45311 ) ( a07a598 ) deps: update dependency protobufjs@8.0.1 to v8.7.2 (main) ( #45297 ) ( a429936 ) Tests git: disable Git's maintenance in test repositories ( #45310 ) ( 65be1c5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.15.2",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2",
@@ -356,14 +364,6 @@
       "preview": "What's Changed 📄 docs: publish llms.txt from the docs build by @gaborbernat in #2000 🐛 fix(standalone): retry index fetch, resume dropped downloads by @gaborbernat in #2001 docs: correct the Windows default for PIPX_HOME by @aroh3006 in #2002 Handle multiple site-packages paths in virtual environments by @Cycloctane in #1999 New Contributors @aroh3006 made their first contribution in #2002 @Cycloctane made their first contribution in #1999 Full Changelog : 1.16.6...1.16.7",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "44.29.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.29.3",
-      "published": "2026-08-13T21:50:58Z",
-      "preview": "44.29.3 (2026-08-13) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.3 (main) ( #45274 ) ( 00daaee ) Miscellaneous Chores deps: update dependency uv to v0.12.4 (main) ( #45276 ) ( 4b81aa8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.12.4",
