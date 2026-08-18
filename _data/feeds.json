@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-18T04:30:18Z",
-  "cutoff": "2026-07-19T04:30:13Z",
+  "generated": "2026-08-18T06:31:02Z",
+  "cutoff": "2026-07-19T06:30:56Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.10.0",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.0",
+      "published": "2026-08-18T06:06:54Z",
+      "preview": "Minor Changes 51c2733 : Update internal Verdaccio types to include the optional server.legacyAuthCache configuration used by the 8.x auth and config packages.",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v6.9.3",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.9.3",
+      "published": "2026-08-18T05:59:16Z",
+      "preview": "Patch Changes 3c8f391 : Reject wildcard characters in package and tarball path validation. ebc08ba : Update verdaccio dependencies to the latest npm dist-tag ( @verdaccio/ui-theme tracks next-9 ): This dependency refresh includes @verdaccio/package-filter 13.2.0 with excludeDeprecated support from #6142 by @jotadeveloper , based on the original work by @davidus27 . It also includes the @verdaccio/ui-theme update containing the homepage action hover fix from #6135 by @pranshuchittora . @verdaccio/auth : 8.1.1 → 8.1.2 @verdaccio/config : 8.2.1 → 8.2.2 @verdaccio/core : 8.2.1 → 8.2.2 @verdaccio/h",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.32.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.6",
@@ -76,14 +92,6 @@
       "preview": "What's Changed Type shared Python requirement boundaries by @JamieMagee in #15837 Type Python requirement consumers by @JamieMagee in #15838 Type UV requirement access by @JamieMagee in #15839 Type Conda requirement access by @JamieMagee in #15840 Roll pub. Fix flutter/dart sdk constraint rewritten in lockfile by @svartalfheim in #15654 Use GitHub Artifact Attestations for container image signing by @codysoyland in #12116 Add artifact metadata permission by @JamieMagee in #15859 Bump the all-actions group across 1 directory with 8 updates by @dependabot [bot] in #15860 Bump sigstore/cosign/cos",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v6.9.3",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.9.3",
-      "published": "2026-08-17T21:52:20Z",
-      "preview": "Patch Changes 3c8f391 : Reject wildcard characters in package and tarball path validation. ebc08ba : Update verdaccio dependencies to the latest npm dist-tag ( @verdaccio/ui-theme tracks next-9 ): @verdaccio/auth : 8.1.1 → 8.1.2 @verdaccio/config : 8.2.1 → 8.2.2 @verdaccio/core : 8.2.1 → 8.2.2 @verdaccio/hooks : 8.1.2 → 8.1.3 @verdaccio/loaders : 8.1.1 → 8.1.2 @verdaccio/local-storage-legacy : 11.4.1 → 11.4.2 @verdaccio/logger : 8.1.1 → 8.1.2 @verdaccio/middleware : 8.1.1 → 8.1.2 @verdaccio/package-filter : 13.1.1 → 13.2.0 @verdaccio/signature : 8.1.1 → 8.1.2 @verdaccio/tarball : 13.1.1 → 13.1",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "44.32.5",
