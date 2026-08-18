@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-18T07:31:17Z",
-  "cutoff": "2026-07-19T07:31:13Z",
+  "generated": "2026-08-18T09:30:02Z",
+  "cutoff": "2026-07-19T09:29:58Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.33.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.33.0",
+      "published": "2026-08-18T09:25:03Z",
+      "preview": "44.33.0 (2026-08-18) Features pypi: add support for JSON-based Simple API (PEP 691) ( #44222 ) ( 2606ae2 ), closes #44182 Code Refactoring java-version: extract adoptium HTTP logic from datasource class ( #42604 ) ( a53aaf4 ) remove escapeRegExp and replace with RegExp.escape ( #45322 ) ( 41da033 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v6.10.0",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.0",
@@ -268,14 +276,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-13-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.30.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.30.3",
-      "published": "2026-08-15T00:48:52Z",
-      "preview": "44.30.3 (2026-08-15) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.6 (main) ( #45293 ) ( bf865fe )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-134.0.dev",
