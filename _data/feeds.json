@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-18T12:30:53Z",
-  "cutoff": "2026-07-19T12:30:47Z",
+  "generated": "2026-08-18T13:32:38Z",
+  "cutoff": "2026-07-19T13:32:32Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -204,6 +204,14 @@
       "preview": "SDK 3.14.0-135.0.dev",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "pnpm 11.21-11.22",
+      "url": "https://pnpm.io/blog/releases/11.21-11.22",
+      "published": "2026-08-18T00:00:00Z",
+      "preview": "pnpm 11.21 and 11.22 teach pnpm install to update the lockfile in place for most everyday changes instead of re-resolving the whole dependency graph, stop recording SSH URLs that break installs on CI, make global installs switch over atomically and global interactive updates select whole install groups, add pnpm cache path, and take away a project's ability to relocate pnpm's machine-level state through pnpm-workspace.yaml.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "v0.392.0",
