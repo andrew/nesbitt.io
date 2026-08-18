@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-18T11:28:54Z",
-  "cutoff": "2026-07-19T11:28:49Z",
+  "generated": "2026-08-18T12:30:53Z",
+  "cutoff": "2026-07-19T12:30:47Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.11.0.12",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.12",
+      "published": "2026-08-18T12:29:40Z",
+      "preview": "Insert 7.11.0.12 into main on 08/18/2026 12:29:39",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "pixi-build-ros-v0.7.4",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.7.4",
+      "published": "2026-08-18T12:21:19Z",
+      "preview": "chore: bump backend versions ( #6854 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "20260818t114400-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260818t114400-all",
+      "published": "2026-08-18T11:44:54Z",
+      "preview": "Deployment at 2026-08-18T11:44:38.196169Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
     {
       "title": "pixi-build-cmake-v0.4.6",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.6",
@@ -964,14 +988,6 @@
       "preview": "What's Changed Add typed requirement source API by @JamieMagee in #15705 Reland \"Cargo: handle crates locked at multiple versions\" ( #15638 ) by @p-linnane in #15668 Preserve original absence of the bundler self-checksum on lockfile updates by @p-linnane in #15669 Support security updates for vcpkg ports by @JamieMagee in #15676 Beta support of PNPM 11 by @v-robaiken in #15710 Remove enable_cooldown_default_days feature flag; make 3-day cooldown default unconditional by @v-robaiken with @Copilot in #15711 github_actions: integrate gh-actions-lock lockfile relocking by @nodeselector in #15267 F",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v0.76.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.76.0",
-      "published": "2026-08-03T12:11:32Z",
-      "preview": "[0.76.0] - 2026-08-03 ✨ Highlights A single Python file can now carry its own environment. Pixi reads PEP 723 inline metadata, and --script works on init , run , add , remove , lock , list , tree , and workspace export . # /// script # requires-python = \">=3.11\" # dependencies = [\"rich>=13.9.2\"] # /// import rich rich . print ( \"Hi from [bold magenta]hello.py[/bold magenta]!\" ) pixi run --script hello.py is the whole setup: no pixi.toml , no .pixi folder, and no lock file unless you ask for one with pixi lock --script . PEP 723 only covers Python and PyPI, so Pixi reads tool.pixi for the rest.",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "6.0.15",
