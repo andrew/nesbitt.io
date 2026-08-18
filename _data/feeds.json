@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-18T00:31:51Z",
-  "cutoff": "2026-07-19T00:31:48Z",
+  "generated": "2026-08-18T02:40:26Z",
+  "cutoff": "2026-07-19T02:40:22Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.28.2",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.28.2",
+      "published": "2026-08-18T02:24:28Z",
+      "preview": "Bug Fixes Keep environment inspection working for Python 3.9 targets when PDM uses dep-logic 0.7 or newer. ( #3838 ) Cache the update check timestamp even when the version lookup fails, so that pdm no longer appears to hang on every command when PyPI is unreachable. ( #3840 ) Don't crash with an IndexError when listing scripts and one of them is blank. A blank script is now listed as <BLANK_SCRIPT> . ( #3842 ) Keep the whole template URL when pdm new is given an ssh:// or credentialed Git URL, instead of truncating it at the userinfo @ . ( #3843 ) Strip comments preceded by any whitespace, not",
+      "source": "PDM releases",
+      "category": "Python"
+    },
     {
       "title": "SDK-3.14.0-138.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-138.0.dev",
