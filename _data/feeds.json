@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-18T02:40:26Z",
-  "cutoff": "2026-07-19T02:40:22Z",
+  "generated": "2026-08-18T04:30:18Z",
+  "cutoff": "2026-07-19T04:30:13Z",
   "feed_count": 79,
   "item_count": 216,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.32.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.6",
+      "published": "2026-08-18T03:50:32Z",
+      "preview": "44.32.6 (2026-08-18) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.87.2 (main) ( #45323 ) ( 2fb8ad4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.28.2",
       "url": "https://github.com/pdm-project/pdm/releases/tag/2.28.2",
@@ -308,14 +316,6 @@
       "preview": "This release adds resumable HTTP downloads, expands Homebrew cask support, and lands a large batch of fixes across tasks, config, install, and platform-specific behavior — with a particular focus on monorepos and Windows. Highlights Interrupted artifact downloads now resume instead of restarting from zero, and more transient network failures (including HTTP/2 REFUSED_STREAM ) are retried automatically. The Homebrew cask backend gained structured symlinks, generic artifacts, and copy/installer flight steps, closing several gaps in cask installation. A wide round of monorepo task, config precede",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.30.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.30.2",
-      "published": "2026-08-14T21:50:01Z",
-      "preview": "44.30.2 (2026-08-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.86.5 (main) ( #45292 ) ( 1e108a0 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.5 (main) ( #45288 ) ( fb225aa ) deps: update dependency uv to v0.12.5 (main) ( #45289 ) ( e22af56 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.12.5",
