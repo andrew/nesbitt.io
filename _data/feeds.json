@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-18T06:31:02Z",
-  "cutoff": "2026-07-19T06:30:56Z",
+  "generated": "2026-08-18T07:31:17Z",
+  "cutoff": "2026-07-19T07:31:13Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -24,8 +24,8 @@
     {
       "title": "v6.10.0",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.0",
-      "published": "2026-08-18T06:06:54Z",
-      "preview": "Minor Changes 51c2733 : Update internal Verdaccio types to include the optional server.legacyAuthCache configuration used by the 8.x auth and config packages.",
+      "published": "2026-08-18T06:36:16Z",
+      "preview": "Minor Changes 51c2733 : Expose the optional legacy authentication cache for Verdaccio 6.x through server.legacyAuthCache . This feature is intended for performance-sensitive installations that still use legacy bearer tokens. When enabled, Verdaccio caches successful legacy token authentication results for a short period of time, so repeated requests using the same token do not need to run password verification through the authentication plugin every time. Concurrent requests for the same legacy token can also share the same in-flight authentication result. The cache is disabled by default, so ",
       "source": "Verdaccio releases",
       "category": "JavaScript"
     },
