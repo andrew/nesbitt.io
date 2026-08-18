@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-18T13:32:38Z",
-  "cutoff": "2026-07-19T13:32:32Z",
+  "generated": "2026-08-18T14:30:14Z",
+  "cutoff": "2026-07-19T14:30:10Z",
   "feed_count": 79,
-  "item_count": 220,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "26.7.1",
+      "url": "https://github.com/conda/conda/releases/tag/26.7.1",
+      "published": "2026-08-18T13:41:01Z",
+      "preview": "Bug fixes Fix DeprecationHandler version fallback when packaging raises InvalidVersion for unparseable versions (e.g. None under packaging >=26.3). ( #16495 ) Refresh cached empty channel notice responses and parse CEP 6 expires_at timestamps. ( #16500 , #16501 ) Fall back to threaded package extraction when process synchronization primitives are unavailable. ( #16512 ) Fix CondaHttpAuth.add_binstar_token mangling URLs that end in notices.json (or any filename without a platform subdir) by correcting Channel.url() to preserve package_filename when platform is None . ( #16516 ) Fix AttributeErr",
+      "source": "Conda releases",
+      "category": "Multi-language"
+    },
     {
       "title": "7.11.0.12",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.12",
