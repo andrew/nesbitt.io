@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-19T08:32:33Z",
-  "cutoff": "2026-07-20T08:32:30Z",
+  "generated": "2026-08-19T09:30:11Z",
+  "cutoff": "2026-07-20T09:30:06Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.4.7",
+      "url": "https://github.com/chocolatey/choco/releases/tag/1.4.7",
+      "published": "2026-08-19T08:43:54Z",
+      "preview": "As part of this release we had 1 issue closed. Dependency Change [Security] Update bundled 7zip executables to 26.02. See #3928 by gep13 resolved in !3925 by alexaveldanez . Contributors 2 contributors made this release possible.",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
     {
       "title": "20260819t082900-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260819t082900-all",
@@ -1780,30 +1788,6 @@
       "preview": "v1.0.4 (2026-02-23) Bug fixes Concretizer bugfixes: solver: remove a special case for provider weighting #51347 solver: improve timeout handling and add Ctrl-C interrupt safety #51341 solver: simplify interrupt/timeout logic #51349 Repo management bugfixes: repo.py: support rhel 7 #51617 repo.py: fix checking out commits #51695 git: pull_checkout_branch RHEL7 git 1.8.3.1 fix #51779 git: fix locking issue in pull_checkout_branch #51854 spack repo remove: allow removing from unspecified scope #51563 build_environment.py: Prevent deadlock on install process join #51429 Fix typo in untrack_env #51",
       "source": "Spack releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v1.2.2 (2026-07-20)",
-      "url": "https://github.com/spack/spack/releases/tag/v1.2.2",
-      "published": "2026-07-20T09:09:23Z",
-      "preview": "Bug fixes Concretization cache: Fix accidental exponential complexity issue in spec hash, and disable for spliced specs ( #52665 ) Fix serialization issues with abstract input spec ( #52714 , #52716 ) Prune cache only after write ( #52715 ) Reduce excessive syscalls ( #52721 ) Make spack --disable-locks apply to all file system locks used by Spack ( #52270 ) Fix a patch file lookup issue when using multiple package repositories ( #52675 ) Fix a few issues with spack isolate --self ( #52725 ) Fix an issue where repositories did not raise InvalidNamespaceError correctly ( #52689 )",
-      "source": "Spack releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "releases/latest: Set version to v1.2.2",
-      "url": "https://github.com/spack/spack/releases/tag/releases%2Flatest",
-      "published": "2026-07-20T09:07:17Z",
-      "preview": "Signed-off-by: Harmen Stoppels me@harmenstoppels.nl",
-      "source": "Spack releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
-      "published": "2026-07-20T08:45:50Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-17-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     }
   ]
 }
