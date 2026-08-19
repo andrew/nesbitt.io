@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-19T15:29:51Z",
-  "cutoff": "2026-07-20T15:29:47Z",
+  "generated": "2026-08-19T16:29:46Z",
+  "cutoff": "2026-07-20T16:29:42Z",
   "feed_count": 79,
-  "item_count": 225,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.0.6",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.6",
+      "published": "2026-08-19T16:22:59Z",
+      "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemente",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "9.7.1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.1",
+      "published": "2026-08-19T15:30:28Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.7.1. This is a patch release for 9.7.0. We recommend using 9.7.1 instead of 9.7.0. Here are the highlights of 9.7.0 release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility Resilient Sync helps you fix broken builds More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Anton Dubrouski , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 ",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
     {
       "title": "[release-branch.go1.25] go1.25.14",
       "url": "https://github.com/golang/go/releases/tag/go1.25.14",
@@ -118,14 +134,6 @@
       "category": "Registries"
     },
     {
-      "title": "v9.7.1",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.1",
-      "published": "2026-08-19T07:20:09Z",
-      "preview": "update fixed issues for 9.7.1 ( #38892 )",
-      "source": "Gradle releases",
-      "category": "Maven"
-    },
-    {
       "title": "v0.77.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.77.0",
       "published": "2026-08-19T07:17:52Z",
@@ -139,14 +147,6 @@
       "published": "2026-08-19T03:57:31Z",
       "preview": "Report invalid toolchain installation paths as warnings via Problems …",
       "source": "Gradle releases",
-      "category": "Maven"
-    },
-    {
-      "title": "2.0.6",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.6",
-      "published": "2026-08-19T01:48:45Z",
-      "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemente",
-      "source": "sbt releases",
       "category": "Maven"
     },
     {
@@ -1812,14 +1812,6 @@
       "preview": "Release Notes Released on 2026-07-20. Python Add CPython 3.15.0b4 ( #20519 ) Preview features Allow uv workspace metadata --sync to target the active virtual environment with --active ( #20500 ) Reuse centralized project environments when workspaces are accessed through symlinks ( #20436 ) Performance Skip resolver candidates whose files are all excluded by exclude-newer ( #20460 ) Limit parallel cache reads to reduce resolver scheduling and allocation overhead ( #20427 ) Accelerate lockfile serialization with toml_writer ( #20450 ) Compact cached Simple API distribution metadata and hashes ( ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "6.0.12",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.12",
-      "published": "2026-07-20T16:17:48Z",
-      "preview": "What's Changed vulns: advisory database repo renamed to Homebrew/advisory-database by @andrew in #23117 Bump vendored portable-ruby to 4.0.6 by @brew-commit-app[bot] in #23118 formulary: map resolves information from API by @Bo98 in #23114 downloadable: skip repeated checksum verification of the same file by @aholland in #23116 Enable cask FFI helpers for all users by @MikeMcQuaid in #23061 cmd/upgrade: don't show upgrade size with --build-from-source by @Bo98 in #23109 readline_nonblock: use larger buffer and retain state by @cho-m in #23120 Raise ArgumentError when get_make_var variable is m",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
