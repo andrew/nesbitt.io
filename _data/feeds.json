@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-19T12:31:07Z",
-  "cutoff": "2026-07-20T12:31:02Z",
+  "generated": "2026-08-19T13:33:45Z",
+  "cutoff": "2026-07-20T13:33:40Z",
   "feed_count": 79,
   "item_count": 221,
   "categories": [
@@ -22,9 +22,25 @@
   ],
   "items": [
     {
+      "title": "44.34.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.34.1",
+      "published": "2026-08-19T13:08:03Z",
+      "preview": "44.34.1 (2026-08-19) Build System deps: update dependency azure-devops-node-api to v15.1.3 (main) ( #45355 ) ( ae4f36d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "7.11.0.13",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.13",
+      "published": "2026-08-19T12:48:30Z",
+      "preview": "Insert 7.11.0.13 into main on 08/19/2026 12:48:29",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
       "title": "2.7.4",
       "url": "https://github.com/chocolatey/choco/releases/tag/2.7.4",
-      "published": "2026-08-19T11:39:16Z",
+      "published": "2026-08-19T12:42:30Z",
       "preview": "As part of this release we had 2 issues closed. Dependency Changes [Security] Upgrade log4net to 3.3.1 in chocolatey.lib. See #3915 by st3phhays , resolved in !3916 by st3phhays . [Security] Update bundled 7zip executables to 26.02. See #3918 by AdmiringWorm , resolved in !3924 by alexaveldanez . Contributors 3 contributors made this release possible.",
       "source": "Chocolatey releases",
       "category": "System"
@@ -402,14 +418,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.2",
       "published": "2026-08-17T11:22:33Z",
       "preview": "44.32.2 (2026-08-17) Bug Fixes datasource/pypi: use the earliest upload_time of a version ( #45313 ) ( e942788 ) Tests datasource/pypi: add regression test for constraintsFiltering=strict ( #45312 ) ( 5e93fc2 ), closes #44222",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.32.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.1",
-      "published": "2026-08-17T10:07:52Z",
-      "preview": "44.32.1 (2026-08-17) Bug Fixes datasource/npm: handle absent homepage s ( #45219 ) ( 116c3d6 ) Miscellaneous Chores AGENTS.md: tune the PR template + PR raising etiquette ( #45311 ) ( a07a598 ) deps: update dependency protobufjs@8.0.1 to v8.7.2 (main) ( #45297 ) ( a429936 ) Tests git: disable Git's maintenance in test repositories ( #45310 ) ( 65be1c5 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1684,14 +1692,6 @@
       "preview": "RubyGems 4.0.17 includes enhancements and bug fixes and Bundler 4.0.17 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.17 RubyGems Release Notes Enhancements: Validate spec name before writing to the spec cache. Pull request #9690 by hsbt Installs bundler 4.0.17 as a default gem. Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install pa",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "7.9.0.83",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.9.0.83",
-      "published": "2026-07-21T23:18:08Z",
-      "preview": "Insert 7.9.0.83 into rel/insiders on 07/21/2026 23:18:08",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "2.76.1",
