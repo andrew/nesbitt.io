@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-19T17:29:08Z",
-  "cutoff": "2026-07-20T17:29:03Z",
+  "generated": "2026-08-19T18:30:17Z",
+  "cutoff": "2026-07-20T18:30:13Z",
   "feed_count": 79,
-  "item_count": 225,
+  "item_count": 226,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.12.15",
+      "url": "https://github.com/sbt/sbt/releases/tag/v1.12.15",
+      "published": "2026-08-19T18:18:52Z",
+      "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes bport: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk in ",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "v2026.8.9",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.9",
+      "published": "2026-08-19T17:54:18Z",
+      "preview": "(bootstrap) expose resource provenance by @jdx in [ #12100 ](http…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.8.8",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.8.8",
+      "published": "2026-08-19T17:53:51Z",
+      "preview": "Release aqua-registry 2026.8.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.14",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.14",
+      "published": "2026-08-19T17:53:35Z",
+      "preview": "Release vfox 2026.8.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-rustc-v2026.8.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.7",
+      "published": "2026-08-19T17:53:08Z",
+      "preview": "Release mise-cache-rustc 2026.8.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-core-v2026.8.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.6",
+      "published": "2026-08-19T17:52:53Z",
+      "preview": "Release mise-cache-core 2026.8.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "[release-branch.go1.27] go1.27.0",
       "url": "https://github.com/golang/go/releases/tag/go1.27.0",
@@ -212,6 +260,14 @@
       "preview": "SDK 3.13.1",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "Go 1.27 is released",
+      "url": "https://go.dev/blog/go1.27",
+      "published": "2026-08-19T00:00:00Z",
+      "preview": "Go 1.27 adds generic methods, encoding/json/v2 package, uuid package, faster memory allocation, goroutine leak profiles, and more.",
+      "source": "Go Blog",
+      "category": "Go"
     },
     {
       "title": "v7.0.0-next-7.24",
@@ -494,22 +550,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "mise-cache-rustc-v2026.8.3",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.3",
-      "published": "2026-08-17T03:43:51Z",
-      "preview": "Release mise-cache-rustc 2026.8.3",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-core-v2026.8.3",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.3",
-      "published": "2026-08-17T03:43:40Z",
-      "preview": "Release mise-cache-core 2026.8.3",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-14-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-14-a",
       "published": "2026-08-16T08:33:39Z",
@@ -542,14 +582,6 @@
       "category": "Registries"
     },
     {
-      "title": "v2026.8.6: Resumable downloads, richer Homebrew casks, and monorepo task fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.6",
-      "published": "2026-08-14T22:33:07Z",
-      "preview": "This release adds resumable HTTP downloads, expands Homebrew cask support, and lands a large batch of fixes across tasks, config, install, and platform-specific behavior — with a particular focus on monorepos and Windows. Highlights Interrupted artifact downloads now resume instead of restarting from zero, and more transient network failures (including HTTP/2 REFUSED_STREAM ) are retried automatically. The Homebrew cask backend gained structured symlinks, generic artifacts, and copy/installer flight steps, closing several gaps in cask installation. A wide round of monorepo task, config precede",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "0.12.5",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.5",
       "published": "2026-08-14T19:57:52Z",
@@ -564,22 +596,6 @@
       "preview": "apt Debian release 3.3.3",
       "source": "APT releases",
       "category": "System"
-    },
-    {
-      "title": "mise-interactive-config-v2026.8.4",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.4",
-      "published": "2026-08-14T15:42:48Z",
-      "preview": "Release mise-interactive-config 2026.8.4",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.8.10",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.10",
-      "published": "2026-08-14T15:42:25Z",
-      "preview": "Release vfox 2026.8.10",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "Helm v4.2.4",
@@ -892,14 +908,6 @@
       "preview": "Insert 7.11.0.5 into main on 08/07/2026 12:21:41",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "1.12.15",
-      "url": "https://github.com/sbt/sbt/releases/tag/v1.12.15",
-      "published": "2026-08-07T03:39:10Z",
-      "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes bport: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk in ",
-      "source": "sbt releases",
-      "category": "Maven"
     },
     {
       "title": "Windows Package Manager 1.30.90-preview",
