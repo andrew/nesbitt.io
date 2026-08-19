@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-19T00:32:07Z",
-  "cutoff": "2026-07-20T00:32:03Z",
+  "generated": "2026-08-19T01:52:33Z",
+  "cutoff": "2026-07-20T01:52:28Z",
   "feed_count": 79,
   "item_count": 222,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.0.6",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.6",
+      "published": "2026-08-19T01:48:45Z",
+      "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemente",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
     {
       "title": "SDK-3.14.0-95.2.beta",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-95.2.beta",
@@ -810,14 +818,6 @@
       "url": "https://github.com/sbt/sbt/releases/tag/v1.12.15",
       "published": "2026-08-07T03:39:10Z",
       "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes bport: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk in ",
-      "source": "sbt releases",
-      "category": "Maven"
-    },
-    {
-      "title": "2.0.6",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.6",
-      "published": "2026-08-07T03:38:44Z",
-      "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes fix: Preserve file timestamp in local disk cache by @eed3si9n in #9559 🚀 updates perf: Im",
       "source": "sbt releases",
       "category": "Maven"
     },
