@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-19T13:33:45Z",
-  "cutoff": "2026-07-20T13:33:40Z",
+  "generated": "2026-08-19T14:30:14Z",
+  "cutoff": "2026-07-20T14:30:09Z",
   "feed_count": 79,
-  "item_count": 221,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-19T14:11:42Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.34.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.34.2",
+      "published": "2026-08-19T14:09:53Z",
+      "preview": "44.34.2 (2026-08-19) Bug Fixes gradle: collision with well-known Android APIs ( #45350 ) ( c77ac1f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.34.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.34.1",
@@ -78,12 +94,28 @@
       "category": "Registries"
     },
     {
+      "title": "v9.7.1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.1",
+      "published": "2026-08-19T07:20:09Z",
+      "preview": "update fixed issues for 9.7.1 ( #38892 )",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
       "title": "v0.77.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.77.0",
       "published": "2026-08-19T07:17:52Z",
       "preview": "[0.77.0] - 2026-08-18 ✨ Highlights This release includes the API update for the backends such that we support pin-compatible and pin-subpackage specs in package manifests. For example: # Pin subpackage `mypkg` to the same version as the package itself, but allow any compatible version of `mypkg` to be used. [ package ] name = \" mypkg \" [ package . run-exports . weak ] mypkg = { pin-subpackage = { upper-bound = \" x.x \" } } # Pin `boltons` to a compatible version. [ package . host-dependencies ] boltons = \" >=2,<3 \" [ package . run-dependencies ] boltons = { pin-compatible = true } Note that thi",
       "source": "pixi releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "v9.8.0-M1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-M1",
+      "published": "2026-08-19T03:57:31Z",
+      "preview": "Report invalid toolchain installation paths as warnings via Problems …",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "2.0.6",
@@ -414,14 +446,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "44.32.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.2",
-      "published": "2026-08-17T11:22:33Z",
-      "preview": "44.32.2 (2026-08-17) Bug Fixes datasource/pypi: use the earliest upload_time of a version ( #45313 ) ( e942788 ) Tests datasource/pypi: add regression test for constraintsFiltering=strict ( #45312 ) ( 5e93fc2 ), closes #44222",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2.15.2",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2",
       "published": "2026-08-17T09:30:23Z",
@@ -436,14 +460,6 @@
       "preview": "What's Changed Build and publish large runner docker image by @iMichka in #23345 Avoid nil cask versions during installation by @MikeMcQuaid in #23499 Use cask dependencies for platform support by @MikeMcQuaid in #23496 Fix role used to push to ECR by @iMichka in #23500 Report unavailable cask platforms accurately by @MikeMcQuaid in #23501 Add supported_platforms to cask API data by @p-linnane in #23503 cask: merge multiple conflicts_with stanzas by @hyuraku in #23506 Normalize hyphenated HOMEBREW_CASK_OPTS option names by @carlocab in #23505 sbom: add purl external references for sources usin",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-17T06:13:48Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "vfox-v2026.8.11",
