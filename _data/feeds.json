@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-19T10:29:36Z",
-  "cutoff": "2026-07-20T10:29:31Z",
+  "generated": "2026-08-19T11:28:53Z",
+  "cutoff": "2026-07-20T11:28:48Z",
   "feed_count": 79,
-  "item_count": 220,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pixi-build-mojo-v0.2.7",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.7",
+      "published": "2026-08-19T11:05:52Z",
+      "preview": "chore: bump backend versions ( #6863 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "2.7.4",
+      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.4",
+      "published": "2026-08-19T10:40:56Z",
+      "preview": "As part of this release we had 2 issues closed. Dependency Changes [Security] Upgrade log4net to 3.3.1 in chocolatey.lib. See #3915 by st3phhays , resolved in !3916 by st3phhays . [Security] Update bundled 7zip executables to 26.02. See #3918 by AdmiringWorm , resolved in !3924 by alexaveldanez . Contributors 3 contributors made this release possible.",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
     {
       "title": "1.4.7",
       "url": "https://github.com/chocolatey/choco/releases/tag/1.4.7",
@@ -764,14 +780,6 @@
       "preview": "What's Changed cask/audit: detect incorrect app case by @krehel in #23400 Start install downloads before local-only checks by @MikeMcQuaid in #23381 contributions: clarify Maintainer team access by @SSakutaro in #23394 Tolerate missing bottle manifests in prefetches by @MikeMcQuaid in #23403 Use workflow result for commit style by @MikeMcQuaid in #23402 docs/MCP-Server: update Cursor URL by @p-linnane in #23415 download_queue: print fetch heading to stderr when stdout is not a TTY by @carlocab in #23406 cask/audit: allow linux-only casks by @bevanjkay in #23422 Compact install step JSON (25/26",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "v0.76.2",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.76.2",
-      "published": "2026-08-10T12:43:07Z",
-      "preview": "[0.76.2] - 2026-08-10 ✨ Highlights This release features better logging and a few bug fixes. Added Add logging about why pixi build has a cache miss by @baszalmstra in #6784 Changed Log CEP-42 user-order conflicts at debug level by @hunger in #6778 Small fixes to better handle paths containing spaces by @hunger in #6779 Documentation Split prepare-docs into tasks with dependencies by @Hofer-Julian in #6757 Better organize the CLI nav sections by @Hofer-Julian in #6768 Clarify pixi search channels by @ytausch in #6774 Fixed Wasm example by @wolfv in #6777 Scope the build source check to the pac",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "7.11.0.6",
