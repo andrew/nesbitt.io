@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-19T14:30:14Z",
-  "cutoff": "2026-07-20T14:30:09Z",
+  "generated": "2026-08-19T15:29:51Z",
+  "cutoff": "2026-07-20T15:29:47Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 225,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "[release-branch.go1.25] go1.25.14",
+      "url": "https://github.com/golang/go/releases/tag/go1.25.14",
+      "published": "2026-08-19T14:43:56Z",
+      "preview": "Change-Id: I9e3fddf67829ff8d68e49f38b44e298327d554db Reviewed-on: https://go-review.googlesource.com/c/go/+/817740 Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-by: Carlos Amedee carlos@golang.org Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "[release-branch.go1.26] go1.26.7",
+      "url": "https://github.com/golang/go/releases/tag/go1.26.7",
+      "published": "2026-08-19T14:43:46Z",
+      "preview": "Change-Id: Ia3e132d4c983f77f720a01d12ff0222a39d03c18 Reviewed-on: https://go-review.googlesource.com/c/go/+/817760 TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Carlos Amedee carlos@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "44.34.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.34.3",
+      "published": "2026-08-19T14:31:26Z",
+      "preview": "44.34.3 (2026-08-19) Bug Fixes kotlin-script: support vararg arguments in @file:DependsOn and @file:Repository ( #44762 ) ( 8ea65f7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -402,14 +426,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.4",
       "published": "2026-08-17T19:44:25Z",
       "preview": "44.32.4 (2026-08-17) Miscellaneous Chores deps: update dependency memfs to v4.68.1 (main) ( #45318 ) ( 01a6df8 ) Build System deps: update dependency jsonc-weaver to v0.3.1 (main) ( #45317 ) ( 0294dce )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.32.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.3",
-      "published": "2026-08-17T19:23:10Z",
-      "preview": "44.32.3 (2026-08-17) Bug Fixes datasource/go: prefer later releaseTimestamp from GitHub Releases ( #45315 ) ( d870505 ), closes #45314 #43451 github: recognize another \"needs approving review\" message ( #45052 ) ( 5e8bf3c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
