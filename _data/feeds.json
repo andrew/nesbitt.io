@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-19T01:52:33Z",
-  "cutoff": "2026-07-20T01:52:28Z",
+  "generated": "2026-08-19T07:31:06Z",
+  "cutoff": "2026-07-20T07:31:03Z",
   "feed_count": 79,
   "item_count": 222,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.77.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.77.0",
+      "published": "2026-08-19T07:17:52Z",
+      "preview": "[0.77.0] - 2026-08-18 ✨ Highlights This release includes the API update for the backends such that we support pin-compatible and pin-subpackage specs in package manifests. For example: # Pin subpackage `mypkg` to the same version as the package itself, but allow any compatible version of `mypkg` to be used. [ package ] name = \" mypkg \" [ package . run-exports . weak ] mypkg = { pin-subpackage = { upper-bound = \" x.x \" } } # Pin `boltons` to a compatible version. [ package . host-dependencies ] boltons = \" >=2,<3 \" [ package . run-dependencies ] boltons = { pin-compatible = true } Note that thi",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "2.0.6",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.6",
@@ -964,14 +972,6 @@
       "preview": "What's Changed 🐛 fix(run): discover entry points for inferred names by @gaborbernat in #1996 Full Changelog : 1.16.5...1.16.6",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "v0.76.1",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.76.1",
-      "published": "2026-08-04T10:46:19Z",
-      "preview": "[0.76.1] - 2026-08-04 ✨ Highlights This release features an improved pixi task list and a revamped docs page based on Zensical. Changed Correct task list runnability and show every task by @hunger in #6367 Documentation Switch from mkdocs to zensical by @Hofer-Julian in #6572 Fixed Honour editable = true in transitive [tool.uv.sources] at install time by @earlybard in #6730 New Contributors @earlybard made their first contribution in #6730",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-01-a",
