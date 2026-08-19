@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-19T18:30:17Z",
-  "cutoff": "2026-07-20T18:30:13Z",
+  "generated": "2026-08-19T19:28:51Z",
+  "cutoff": "2026-07-20T19:28:46Z",
   "feed_count": 79,
   "item_count": 226,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.35.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.0",
+      "published": "2026-08-19T19:01:11Z",
+      "preview": "44.35.0 (2026-08-19) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.88.0 (main) ( #45361 ) ( 179b8f4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.12.15",
       "url": "https://github.com/sbt/sbt/releases/tag/v1.12.15",
@@ -482,14 +490,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.5",
       "published": "2026-08-17T20:52:47Z",
       "preview": "44.32.5 (2026-08-17) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.87.1 (main) ( #45320 ) ( 803f154 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.32.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.4",
-      "published": "2026-08-17T19:44:25Z",
-      "preview": "44.32.4 (2026-08-17) Miscellaneous Chores deps: update dependency memfs to v4.68.1 (main) ( #45318 ) ( 01a6df8 ) Build System deps: update dependency jsonc-weaver to v0.3.1 (main) ( #45317 ) ( 0294dce )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
