@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-19T19:28:51Z",
-  "cutoff": "2026-07-20T19:28:46Z",
+  "generated": "2026-08-19T21:29:05Z",
+  "cutoff": "2026-07-20T21:29:00Z",
   "feed_count": 79,
-  "item_count": 226,
+  "item_count": 225,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
   ],
   "items": [
     {
+      "title": "v2026.8.9: Composable Bootstrap, Environment-Aware conf.d, and Faster Startup",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.9",
+      "published": "2026-08-19T21:19:31Z",
+      "preview": "This release expands declarative bootstrap into a composable, multi-root system; adds environment-specific conf.d fragments and glob-based ignored config paths; smooths out shell activation so runtime overrides stick; and delivers major startup performance gains for vfox-backed setups. It also includes several security hardening fixes worth noting. Highlights Bootstrap can now compose declarative resources (dotfiles, files, directories, services, and Compose projects) from multiple independent config roots, with provenance tracking and clear conflict diagnostics. Startup is dramatically faster",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.35.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.1",
+      "published": "2026-08-19T21:02:09Z",
+      "preview": "44.35.1 (2026-08-19) Bug Fixes datasource/npm: don't break on non-string homepage ( #45358 ) ( a61de24 ), closes #45357",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "44.35.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.0",
       "published": "2026-08-19T19:01:11Z",
@@ -36,14 +52,6 @@
       "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes bport: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk in ",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "v2026.8.9",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.9",
-      "published": "2026-08-19T17:54:18Z",
-      "preview": "(bootstrap) expose resource provenance by @jdx in [ #12100 ](http…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "aqua-registry-v2026.8.8",
@@ -483,14 +491,6 @@
       "published": "2026-08-17T22:00:40Z",
       "preview": "What's Changed Type shared Python requirement boundaries by @JamieMagee in #15837 Type Python requirement consumers by @JamieMagee in #15838 Type UV requirement access by @JamieMagee in #15839 Type Conda requirement access by @JamieMagee in #15840 Roll pub. Fix flutter/dart sdk constraint rewritten in lockfile by @svartalfheim in #15654 Use GitHub Artifact Attestations for container image signing by @codysoyland in #12116 Add artifact metadata permission by @JamieMagee in #15859 Bump the all-actions group across 1 directory with 8 updates by @dependabot [bot] in #15860 Bump sigstore/cosign/cos",
       "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.32.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.5",
-      "published": "2026-08-17T20:52:47Z",
-      "preview": "44.32.5 (2026-08-17) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.87.1 (main) ( #45320 ) ( 803f154 )",
-      "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
@@ -1819,14 +1819,6 @@
       "published": "2026-07-20T21:30:33Z",
       "preview": "What's Changed 📝 docs: strip the prompt from copied console snippets by @gaborbernat in #1962 🐛 fix: don't crash scanning a foreign binary in the bin dir by @gaborbernat in #1970 Full Changelog : 1.16.0...1.16.1",
       "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "0.11.30",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.30",
-      "published": "2026-07-20T20:48:06Z",
-      "preview": "Release Notes Released on 2026-07-20. Python Add CPython 3.15.0b4 ( #20519 ) Preview features Allow uv workspace metadata --sync to target the active virtual environment with --active ( #20500 ) Reuse centralized project environments when workspaces are accessed through symlinks ( #20436 ) Performance Skip resolver candidates whose files are all excluded by exclude-newer ( #20460 ) Limit parallel cache reads to reduce resolver scheduling and allocation overhead ( #20427 ) Accelerate lockfile serialization with toml_writer ( #20450 ) Compact cached Simple API distribution metadata and hashes ( ",
-      "source": "uv releases",
       "category": "Python"
     }
   ]
