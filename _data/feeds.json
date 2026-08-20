@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-20T16:30:17Z",
-  "cutoff": "2026-07-21T16:30:13Z",
+  "generated": "2026-08-20T17:29:37Z",
+  "cutoff": "2026-07-21T17:29:33Z",
   "feed_count": 79,
-  "item_count": 221,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,10 +22,18 @@
   ],
   "items": [
     {
-      "title": "v2026.8.10",
+      "title": "0.99.0",
+      "url": "https://github.com/rust-lang/cargo/releases/tag/0.99.0",
+      "published": "2026-08-20T17:10:25Z",
+      "preview": "0.99.0 release",
+      "source": "Cargo releases",
+      "category": "Rust"
+    },
+    {
+      "title": "v2026.8.10: Remote bootstrap environments and asset-matching fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.10",
-      "published": "2026-08-20T15:17:00Z",
-      "preview": "(bootstrap) forward config environments to remote hosts by @jdx …",
+      "published": "2026-08-20T17:05:41Z",
+      "preview": "This release lets remote bootstrap pick which config environments run on each target, fixes several tool-installation edge cases (archive naming, Windows ZIP preference, renamed aqua packages, Homebrew cask metadata), and hardens pacman package detection and Windows self-update cleanup. Added bootstrap: Remote bootstrap can now select which mise.<env>.toml layers load on each SSH target without inheriting the orchestrator's full environment. Set a default with [bootstrap.remote].mise_env , override per host in your inventory, or pass --remote-env (repeatable or comma-separated) on the command ",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -132,6 +140,14 @@
       "preview": "RubyGems 4.0.19 includes enhancements, bug fixes and documentation and Bundler 4.0.19 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.19 RubyGems Release Notes Enhancements: Reject SafeMarshal collection lengths longer than the remaining input. Pull request #9756 by hsbt Installs bundler 4.0.19 as a default gem. Bug fixes: Fix gem uninstall –user-install crash when GEM_HOME does not exist. Pull request #9749 by hsbt D",
       "source": "RubyGems Blog",
       "category": "Ruby"
+    },
+    {
+      "title": "Announcing Rust 1.98.0",
+      "url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
+      "published": "2026-08-20T00:00:00Z",
+      "preview": "The Rust team is happy to announce a new version of Rust, 1.98.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.98.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.98.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "Supply chain attack on arrayref",
