@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20T18:30:45Z",
-  "cutoff": "2026-07-21T18:30:42Z",
+  "generated": "2026-08-20T19:29:43Z",
+  "cutoff": "2026-07-21T19:29:39Z",
   "feed_count": 79,
   "item_count": 221,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.36.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.36.0",
+      "published": "2026-08-20T19:15:49Z",
+      "preview": "44.36.0 (2026-08-20) Features onboarding: improve wording of concurrency limits with PRs opened ( #45213 ) ( bf17167 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.35.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.5",
+      "published": "2026-08-20T18:50:22Z",
+      "preview": "44.35.5 (2026-08-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.88.4 (main) ( #45376 ) ( d629420 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.99.0",
       "url": "https://github.com/rust-lang/cargo/releases/tag/0.99.0",
@@ -334,14 +350,6 @@
       "category": "System"
     },
     {
-      "title": "44.34.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.34.0",
-      "published": "2026-08-19T10:00:09Z",
-      "preview": "44.34.0 (2026-08-19) Features manager/poetry: pass POETRY_SOLVER_MIN_RELEASE_AGE when minimumReleaseAge is configured ( #43429 ) ( dd72cf0 ) Documentation update information about renovate-pretty-log ( #45327 ) ( 5af2a19 ) Miscellaneous Chores deps: update dependency @hyrious/marshal to v0.3.4 (main) ( #45344 ) ( a648fa7 ) Code Refactoring changelog: make release-notes URLs overridable on ChangeLogSource ( #45260 ) ( e42c696 ) config: use constants for config validation topics ( #45333 ) ( 1d6af9f ) Continuous Integration oxlint: move custom oxlint rules to typescript and alternative API ( #45",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "20260819t082900-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260819t082900-all",
       "published": "2026-08-19T08:29:55Z",
@@ -524,14 +532,6 @@
       "preview": "Minor Changes node_modules/.modules.yaml no longer records the registries an install resolved from, and the recorded copy is dropped from the file on the first install that rewrites it. It dated from the lockfile format that spelled a dependency's path relative to its registry, where reading an installed tree meant knowing the registries it was installed with. Dependency paths have not carried a registry for several major versions, and the recorded copy outlived its use: pnpm list , pnpm why , and single-project installs preferred it over the project's own configuration, so a project whose reg",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.33.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.33.2",
-      "published": "2026-08-18T10:19:02Z",
-      "preview": "44.33.2 (2026-08-18) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.87.3 (main) ( #45332 ) ( 1333d2c ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.8 (main) ( #45329 ) ( 72f9949 ) Continuous Integration add restore-keys fallback for tsbuildinfo cache ( 97c10ff ) add restore-keys fallback for vitest cache ( a265d4a ) add missing description to setup-docker action ( da7dc8b ) correctly generate prefetch matrix cache key ( 6a7683b ) don't gate build-docs on lint-docs ( 27875b6 ) don't gate lint-actions on setup-build ( 4dae136 ) ensure lint-actions ",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v6.10.0",
