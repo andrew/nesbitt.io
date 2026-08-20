@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20T02:41:30Z",
-  "cutoff": "2026-07-21T02:41:27Z",
+  "generated": "2026-08-20T04:30:54Z",
+  "cutoff": "2026-07-21T04:30:50Z",
   "feed_count": 79,
   "item_count": 226,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.35.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.3",
+      "published": "2026-08-20T03:49:44Z",
+      "preview": "44.35.3 (2026-08-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.88.2 (main) ( #45364 ) ( 71b9888 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v4.0.19",
       "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.19",
@@ -458,14 +466,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.33.1",
       "published": "2026-08-18T09:47:49Z",
       "preview": "44.33.1 (2026-08-18) Bug Fixes datasource: keep merged releases when a registry is rate-limited ( #45299 ) ( 37444ef )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.33.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.33.0",
-      "published": "2026-08-18T09:25:03Z",
-      "preview": "44.33.0 (2026-08-18) Features pypi: add support for JSON-based Simple API (PEP 691) ( #44222 ) ( 2606ae2 ), closes #44182 Code Refactoring java-version: extract adoptium HTTP logic from datasource class ( #42604 ) ( a53aaf4 ) remove escapeRegExp and replace with RegExp.escape ( #45322 ) ( 41da033 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
