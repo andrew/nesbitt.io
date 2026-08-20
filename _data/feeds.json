@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-19T22:28:52Z",
-  "cutoff": "2026-07-20T22:28:47Z",
+  "generated": "2026-08-20T00:32:03Z",
+  "cutoff": "2026-07-21T00:31:58Z",
   "feed_count": 79,
   "item_count": 224,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.35.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.2",
+      "published": "2026-08-19T23:46:59Z",
+      "preview": "44.35.2 (2026-08-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.88.1 (main) ( #45363 ) ( 52db0eb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.8.9: Composable Bootstrap, Environment-Aware conf.d, and Faster Startup",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.9",
@@ -436,14 +444,6 @@
       "preview": "Patch Changes 3c8f391 : Reject wildcard characters in package and tarball path validation. ebc08ba : Update verdaccio dependencies to the latest npm dist-tag ( @verdaccio/ui-theme tracks next-9 ): This dependency refresh includes @verdaccio/package-filter 13.2.0 with excludeDeprecated support from #6142 by @jotadeveloper , based on the original work by @davidus27 . It also includes the @verdaccio/ui-theme update containing the homepage action hover fix from #6135 by @pranshuchittora . @verdaccio/auth : 8.1.1 → 8.1.2 @verdaccio/config : 8.2.1 → 8.2.2 @verdaccio/core : 8.2.1 → 8.2.2 @verdaccio/h",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.32.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.32.6",
-      "published": "2026-08-18T03:50:32Z",
-      "preview": "44.32.6 (2026-08-18) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.87.2 (main) ( #45323 ) ( 2fb8ad4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.28.2",
