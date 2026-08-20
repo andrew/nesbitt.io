@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-20T19:29:43Z",
-  "cutoff": "2026-07-21T19:29:39Z",
+  "generated": "2026-08-20T20:29:31Z",
+  "cutoff": "2026-07-21T20:29:25Z",
   "feed_count": 79,
-  "item_count": 221,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.0.0-rc.8",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.8",
+      "published": "2026-08-20T20:10:51Z",
+      "preview": "v12.0.0-rc.8",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "New release 2.76.3",
+      "url": "https://github.com/canonical/snapd/releases/tag/2.76.3",
+      "published": "2026-08-20T19:48:26Z",
+      "preview": "FDE: support keyboard configuration at install-time for first-boot FDE: re-enable passphrases/PINs at install-time FDE: require volumes authentication if HWROT is missing FDE: bump secboot to rev 457b03a16d19 FDE: use new secboot API for reprovision TPM Cross-distro: modify SELinux policy to use init_named_socket_activation() for allowing systemd to start snapd through socket activation packaging: make sure that usr/bin/snap is built with correct build tags on debian sid Ensure profiles are setup before running prepare-{slot, plug}* hooks",
+      "source": "Snapd releases",
+      "category": "System"
+    },
     {
       "title": "44.36.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.36.0",
@@ -930,14 +946,6 @@
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.2",
       "published": "2026-08-09T14:32:02Z",
       "preview": "Minor Changes Globally installed bins can now follow the project you run them in. The new globalShims setting is a record of package names to policies that selects which globally installed packages get project-aware shims; it defaults to { node: true, deno: true, bun: true } and merges key-wise, so globalShims: { bun: false } switches one default off and globalShims: { typescript: true } adds another package. With the default, a project that pins Node.js through devEngines.runtime or engines.runtime gets the pinned stable release — authenticated against the Node.js release-team signatures — do",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 11.21",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.21.0",
-      "published": "2026-08-09T14:25:31Z",
-      "preview": "Minor Changes Added interactive group selection to pnpm update --global --interactive . Running pnpm setup , pnpm self-update , or a command that modifies the global installation (such as pnpm add --global ) through sudo now prints a warning. pnpm keeps global packages and configuration in the invoking user's home directory, so running these commands as root silently operates on the root user's home directory instead of yours. They will fail with ERR_PNPM_SUDO_NOT_SUPPORTED in pnpm v12. Read-only global commands (such as pnpm bin --global ) are unaffected. Patch Changes Fixed pnpm failing to s",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
