@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20T14:30:52Z",
-  "cutoff": "2026-07-21T14:30:46Z",
+  "generated": "2026-08-20T15:30:27Z",
+  "cutoff": "2026-07-21T15:30:23Z",
   "feed_count": 79,
   "item_count": 222,
   "categories": [
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.8.10",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.10",
+      "published": "2026-08-20T15:17:00Z",
+      "preview": "(bootstrap) forward config environments to remote hosts by @jdx …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.15",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.15",
+      "published": "2026-08-20T15:16:26Z",
+      "preview": "Release vfox 2026.8.15",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-rustc-v2026.8.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.8",
+      "published": "2026-08-20T15:15:46Z",
+      "preview": "Release mise-cache-rustc 2026.8.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-core-v2026.8.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.7",
+      "published": "2026-08-20T15:15:23Z",
+      "preview": "Release mise-cache-core 2026.8.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "Bun v1.4",
       "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.0",
@@ -526,34 +558,10 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v2026.8.8: Restore ARMv7 release builds",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.8",
-      "published": "2026-08-17T17:57:05Z",
-      "preview": "Note The automated v2026.8.7 release failed before binaries were published. v2026.8.8 includes all changes from v2026.8.7 and is the supported downloadable release for those changes. This release restores the ARMv7 (hard-float) build so those binaries can be published again. Fixed release: the armv7-unknown-linux-gnueabihf build now installs a newer libclang (LLVM 6), which the aws-lc-sys bindgen step requires. Previously the release job panicked on every ARMv7 build because the cross Ubuntu 16.04 image shipped libclang 3.8. ( #12088 by @jdx ) Full Changelog : v2026.8.7...v2026.8.8 💚 Sponsor m",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "v2026.8.7: Windows launchers, project conf.d, and safer installs",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.7",
-      "published": "2026-08-17T17:57:04Z",
-      "preview": "Important The automated release for v2026.8.7 failed before binaries were published. This release is retained for changelog and version history only and intentionally has no assets. Use v2026.8.8 or newer for downloadable binaries containing these changes. This release expands Windows support across generated launchers, dotfiles, shells, and file tasks; adds project conf.d fragments, task-specific tool installation, and APK bootstrap support; and includes a broad set of reliability and security fixes. Added install: include tools declared by tasks when installing project dependencies. ( #11988",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.8.12",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.12",
       "published": "2026-08-17T12:02:00Z",
       "preview": "Release vfox 2026.8.12",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-rustc-v2026.8.4",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.4",
-      "published": "2026-08-17T12:00:54Z",
-      "preview": "Release mise-cache-rustc 2026.8.4",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -572,14 +580,6 @@
       "preview": "What's Changed Build and publish large runner docker image by @iMichka in #23345 Avoid nil cask versions during installation by @MikeMcQuaid in #23499 Use cask dependencies for platform support by @MikeMcQuaid in #23496 Fix role used to push to ECR by @iMichka in #23500 Report unavailable cask platforms accurately by @MikeMcQuaid in #23501 Add supported_platforms to cask API data by @p-linnane in #23503 cask: merge multiple conflicts_with stanzas by @hyuraku in #23506 Normalize hyphenated HOMEBREW_CASK_OPTS option names by @carlocab in #23505 sbom: add purl external references for sources usin",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "vfox-v2026.8.11",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.11",
-      "published": "2026-08-17T03:44:55Z",
-      "preview": "Release vfox 2026.8.11",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-14-a",
