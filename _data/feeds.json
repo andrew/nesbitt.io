@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20T21:29:14Z",
-  "cutoff": "2026-07-21T21:29:10Z",
+  "generated": "2026-08-20T22:29:19Z",
+  "cutoff": "2026-07-21T22:29:14Z",
   "feed_count": 79,
   "item_count": 222,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.37.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.37.0",
+      "published": "2026-08-20T21:48:43Z",
+      "preview": "44.37.0 (2026-08-20) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.0 (main) ( #45378 ) ( 130e335 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 12 RC 8",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.8",
@@ -322,14 +330,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.34.2",
       "published": "2026-08-19T14:09:53Z",
       "preview": "44.34.2 (2026-08-19) Bug Fixes gradle: collision with well-known Android APIs ( #45350 ) ( c77ac1f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.34.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.34.1",
-      "published": "2026-08-19T13:08:03Z",
-      "preview": "44.34.1 (2026-08-19) Build System deps: update dependency azure-devops-node-api to v15.1.3 (main) ( #45355 ) ( ae4f36d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
