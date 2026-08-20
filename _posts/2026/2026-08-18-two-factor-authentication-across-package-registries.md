@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - registries
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mtiqtol3652d"
 ---
 
 This month npm [stopped accepting](https://docs.npmjs.com/about-two-factor-authentication/) bypass-2FA tokens for account-governance actions, one of the steps in [the plan GitHub set out last September](https://github.blog/security/supply-chain-security/our-plan-for-a-more-secure-npm-supply-chain/) to close the remaining routes that let a reusable credential bypass 2FA on npm. I went through the other [registries ecosyste.ms tracks](https://packages.ecosyste.ms/registries) with more than ten thousand packages to see where each is on the same question, and the answer mostly follows from whose accounts a registry uses, an axis I'd left out when [categorising registries](/2025/12/29/categorizing-package-registries.html) last year: its own, an OAuth provider's, a git forge's, or none.
