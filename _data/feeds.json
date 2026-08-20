@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-20T06:31:09Z",
-  "cutoff": "2026-07-21T06:31:04Z",
+  "generated": "2026-08-20T10:29:39Z",
+  "cutoff": "2026-07-21T10:29:35Z",
   "feed_count": 79,
-  "item_count": 226,
+  "item_count": 227,
   "categories": [
     ".NET",
     "C/C++",
@@ -92,6 +92,14 @@
       "preview": "RubyGems 4.0.19 includes enhancements, bug fixes and documentation and Bundler 4.0.19 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.19 RubyGems Release Notes Enhancements: Reject SafeMarshal collection lengths longer than the remaining input. Pull request #9756 by hsbt Installs bundler 4.0.19 as a default gem. Bug fixes: Fix gem uninstall –user-install crash when GEM_HOME does not exist. Pull request #9749 by hsbt D",
       "source": "RubyGems Blog",
       "category": "Ruby"
+    },
+    {
+      "title": "Supply chain attack on arrayref",
+      "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
+      "published": "2026-08-20T00:00:00Z",
+      "preview": "What happened On 2026-08-20 at 7:15 UTC we got a report that the proc-macro1 crate was malicious. The Rust Security Response Team verified this to be the case: the crate had a build script that was downloading a malicious payload. This crate proc-macro1 and others like it ( proc-macro-en , aovine , arone , aronenao , tinymember ) have been deleted. Furthermore, we discovered that the popular arrayref crate had recently been republished and made to depend on this crate, with the most recent versions yanked. We have removed the malicious version and unyanked the maliciously-yanked versions. Othe",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "44.35.2",
