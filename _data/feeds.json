@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20T20:29:31Z",
-  "cutoff": "2026-07-21T20:29:25Z",
+  "generated": "2026-08-20T21:29:14Z",
+  "cutoff": "2026-07-21T21:29:10Z",
   "feed_count": 79,
   "item_count": 222,
   "categories": [
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v12.0.0-rc.8",
+      "title": "pnpm 12 RC 8",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.8",
-      "published": "2026-08-20T20:10:51Z",
-      "preview": "v12.0.0-rc.8",
+      "published": "2026-08-20T20:48:28Z",
+      "preview": "Minor Changes packageImportMethod: auto now tries hardlinks before cloning on Linux. A reflink materializes a new inode and copies extent bookkeeping inside the filesystem's metadata trees, where a hardlink is one directory entry — on btrfs this roughly halves the time an install spends materializing node_modules from a warm store. ext4 installs are unchanged (cloning was never supported there, so auto already hardlinked), and macOS keeps clone-first, where APFS clonefile is the platform's cheap primitive. Cloning remains the fallback when the store refuses hardlinks, and remains available exp",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
