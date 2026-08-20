@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20T04:30:54Z",
-  "cutoff": "2026-07-21T04:30:50Z",
+  "generated": "2026-08-20T06:31:09Z",
+  "cutoff": "2026-07-21T06:31:04Z",
   "feed_count": 79,
   "item_count": 226,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.35.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.4",
+      "published": "2026-08-20T05:50:28Z",
+      "preview": "44.35.4 (2026-08-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.88.3 (main) ( #45365 ) ( da01a2f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.35.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.3",
@@ -458,14 +466,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.33.2",
       "published": "2026-08-18T10:19:02Z",
       "preview": "44.33.2 (2026-08-18) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.87.3 (main) ( #45332 ) ( 1333d2c ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.8 (main) ( #45329 ) ( 72f9949 ) Continuous Integration add restore-keys fallback for tsbuildinfo cache ( 97c10ff ) add restore-keys fallback for vitest cache ( a265d4a ) add missing description to setup-docker action ( da7dc8b ) correctly generate prefetch matrix cache key ( 6a7683b ) don't gate build-docs on lint-docs ( 27875b6 ) don't gate lint-actions on setup-build ( 4dae136 ) ensure lint-actions ",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.33.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.33.1",
-      "published": "2026-08-18T09:47:49Z",
-      "preview": "44.33.1 (2026-08-18) Bug Fixes datasource: keep merged releases when a registry is rate-limited ( #45299 ) ( 37444ef )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
