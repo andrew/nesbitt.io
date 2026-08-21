@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-21T04:30:56Z",
-  "cutoff": "2026-07-22T04:30:52Z",
+  "generated": "2026-08-21T09:30:46Z",
+  "cutoff": "2026-07-22T09:30:42Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.38.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.38.0",
+      "published": "2026-08-21T09:20:13Z",
+      "preview": "44.38.0 (2026-08-21) Features manager/devcontainer: add folder pattern to list of managerFilePatterns ( #45377 ) ( adce441 ) Bug Fixes vulnerabilities: scope Go stdlib OSV remediation to the toolchain directive ( #45334 ) ( 6c7d345 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.13.0",
       "url": "https://github.com/sbt/sbt/releases/tag/v1.13.0",
@@ -372,14 +380,6 @@
       "preview": "Change-Id: Ia3e132d4c983f77f720a01d12ff0222a39d03c18 Reviewed-on: https://go-review.googlesource.com/c/go/+/817760 TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Carlos Amedee carlos@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com",
       "source": "Go releases",
       "category": "Go"
-    },
-    {
-      "title": "44.34.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.34.3",
-      "published": "2026-08-19T14:31:26Z",
-      "preview": "44.34.3 (2026-08-19) Bug Fixes kotlin-script: support vararg arguments in @file:DependsOn and @file:Repository ( #44762 ) ( 8ea65f7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "cabal-head",
