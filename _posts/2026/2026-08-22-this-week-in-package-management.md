@@ -14,9 +14,13 @@ Week fourteen of the roundup, built from the [package manager OPML feed collecti
 
 [Go 1.27](https://go.dev/doc/go1.27) is out. On the module side, `go mod tidy` now consolidates duplicate `require` blocks into the canonical direct/indirect pair for modules declaring `go 1.27` or later, `go doc` accepts `package@version` to fetch documentation for a specific module version, and the `go` command drops support for fetching modules from Bazaar repositories.
 
-[pnpm 11.22](https://github.com/pnpm/pnpm/releases/tag/v11.22.0) shipped alongside a [11.21–11.22 recap](https://pnpm.io/blog/releases/11.21-11.22): `pnpm install` now edits the lockfile in place for most everyday manifest changes without re-resolving the whole dependency graph, global installs switch over atomically, `pnpm cache path` prints the store location, and a project's `pnpm-workspace.yaml` can no longer relocate machine-level state directories. pnpm 12 reached [RC 7](https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.7), which restructures the `registries` setting to be keyed by URL with scopes, tarball layout and `serverType` declared per entry, and drops the recorded registry list from `node_modules/.modules.yaml`.
+[Rust 1.98](https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/) ships Cargo with an unstable [`-Zmin-publish-age`](https://github.com/rust-lang/cargo/pull/17012) flag implementing [RFC 3923](https://github.com/rust-lang/rfcs/pull/3923): resolution filters out crate versions published more recently than a configured threshold. It also fixes a 1.96 Windows regression in `cargo:token-from-stdout` credential providers.
 
-[Renovate 44.33.0–44.34.3](https://github.com/renovatebot/renovate/releases/tag/44.34.3) adds [PEP 691 JSON simple index](https://github.com/renovatebot/renovate/pull/44222) support to the PyPI datasource and passes [`POETRY_SOLVER_MIN_RELEASE_AGE`](https://github.com/renovatebot/renovate/pull/43429) through to Poetry when `minimumReleaseAge` is configured.
+[Bun 1.4](https://bun.com/blog/bun-v1.4) is the first release of the [Rust rewrite](https://bun.com/blog/bun-in-rust), the bulk of which Jarred Sumner produced from the Zig codebase with Claude Code workflows. It fills out the package manager subcommands: `bun pm diff` shows un-minified source diffs between package versions and flags new install scripts, `bun audit fix` upgrades vulnerable dependencies, `bun dedupe` and `bun prune` clean up the lockfile and `node_modules`, GitHub and tarball dependencies now record SHA-512 hashes in the lockfile, and only packages from the npm registry are auto-trusted to run install scripts by default.
+
+[pnpm 11.22](https://github.com/pnpm/pnpm/releases/tag/v11.22.0) shipped alongside a [11.21–11.22 recap](https://pnpm.io/blog/releases/11.21-11.22): `pnpm install` now edits the lockfile in place for most everyday manifest changes without re-resolving the whole dependency graph, global installs switch over atomically, `pnpm cache path` prints the store location, and a project's `pnpm-workspace.yaml` can no longer relocate machine-level state directories. pnpm 12 reached [RC 8](https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.8): the `registries` setting is now keyed by URL with scopes and tarball layout declared per entry, and `packageImportMethod: auto` tries hardlinks before reflinks on Linux, roughly halving the time to materialise `node_modules` from a warm store on btrfs.
+
+[Renovate 44.33.0–44.37.1](https://github.com/renovatebot/renovate/releases/tag/44.37.1) adds [PEP 691 JSON simple index](https://github.com/renovatebot/renovate/pull/44222) support to the PyPI datasource and passes [`POETRY_SOLVER_MIN_RELEASE_AGE`](https://github.com/renovatebot/renovate/pull/43429) through to Poetry when `minimumReleaseAge` is configured.
 
 Also out:
 
@@ -27,12 +31,17 @@ Also out:
 - [Chocolatey 2.7.4](https://github.com/chocolatey/choco/releases/tag/2.7.4)
 - [Verdaccio 6.9.3](https://github.com/verdaccio/verdaccio/releases/tag/v6.9.3)
 - [Dependabot Core 0.392.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.392.0)
-- [mise 2026.8.8](https://github.com/jdx/mise/releases/tag/v2026.8.8)
+- [mise 2026.8.10](https://github.com/jdx/mise/releases/tag/v2026.8.10)
 - [Harbor 2.15.2](https://github.com/goharbor/harbor/releases/tag/v2.15.2)
+- [RPM 6.1.0](https://rpm.org/releases/6.1.0)
+- [RubyGems 4.0.19](https://blog.rubygems.org/2026/08/20/4.0.19-released.html)
+- [snapd 2.76.3](https://github.com/canonical/snapd/releases/tag/2.76.3)
 
 ## Security
 
-[sbt 2.0.6](https://github.com/sbt/sbt/releases/tag/v2.0.6) and [1.12.15](https://github.com/sbt/sbt/releases/tag/v1.12.15) fix [GHSA-m2pw-22cj-jq4v](https://github.com/sbt/sbt/security/advisories/GHSA-m2pw-22cj-jq4v), a remote code execution via the sbt server when `serverConnectionType` is set to `Tcp`. Builds using the default Unix domain socket connection type are unaffected.
+crates.io [removed](https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/) malicious versions of `arrayref`, `internment`, `append-only-vec` and several typosquat crates published from a compromised maintainer account. The malicious versions carried a build script that downloaded a remote payload and were live for under two hours before deletion; the post gives a command to check the local Cargo cache for the affected versions.
+
+[sbt 2.0.6](https://github.com/sbt/sbt/releases/tag/v2.0.6) and [1.12.15](https://github.com/sbt/sbt/releases/tag/v1.12.15) fix [GHSA-m2pw-22cj-jq4v](https://github.com/sbt/sbt/security/advisories/GHSA-m2pw-22cj-jq4v), a remote code execution via the sbt server when `serverConnectionType` is set to `Tcp`, and [2.0.7](https://github.com/sbt/sbt/releases/tag/v2.0.7)/[1.13.0](https://github.com/sbt/sbt/releases/tag/v1.13.0) fix the same class of bug in the BSP handler ([GHSA-943m-f264-54p4](https://github.com/sbt/sbt/security/advisories/GHSA-943m-f264-54p4)). Builds using the default Unix domain socket connection type are unaffected.
 
 ## Articles
 
@@ -54,12 +63,17 @@ Also out:
 
 [Commonhaus and HeroDevs launch OSSI](https://opensourcesecurity.io/2026/2026-08-commonhaus-herodevs/) (Josh Bressers, Open Source Security): an interview with Erin Schnabel and Rob Nalen on a partnership funding CVE remediation and extended support for end-of-life releases of Commonhaus-hosted projects, starting with Hibernate, Jackson and Quarkus.
 
+[How AWS powers PyPI and the PSF](https://blog.pypi.org/posts/2026-08-14-how-aws-powers-pypi-and-the-psf/) (PyPI blog): AWS's open source credits programme covers PyPI's infrastructure bill and its security sponsorship funds engineering time, but PyPI is currently maintained by roughly one and a half full-time engineers plus one on support. A line describing PyPI as a supply chain risk given that staffing was later [reworded](https://github.com/pypi/warehouse/commit/bc867eed).
+
+[Inside Modern Software Engineering with Homebrew's Mike McQuaid](https://podcast.thoughtbot.com/619) (Giant Robots podcast): an interview covering Homebrew's history and open source maintainership.
+
 ## git-pkgs
 
-I tagged 13 repos this week:
+I tagged 14 repos this week:
 
 - [artifacts v0.1.1](https://github.com/git-pkgs/artifacts/releases/tag/v0.1.1) (new), a Go library that describes a completed package file as a canonical package URL, an OCI-form content digest and a byte count, with optional filename and media type carried alongside
 - [integrity v0.1.1](https://github.com/git-pkgs/integrity/releases/tag/v0.1.1) (new), a Go library that parses Subresource Integrity metadata (SHA-256/384/512, standard or URL-safe base64) and verifies package byte streams against it as they are read
+- [brief v0.11.0](https://github.com/git-pkgs/brief/releases/tag/v0.11.0)
 - [clone v0.5.0](https://github.com/git-pkgs/clone/releases/tag/v0.5.0)
 - [cooldown v0.2.0](https://github.com/git-pkgs/cooldown/releases/tag/v0.2.0)
 - [enrichment v0.7.0](https://github.com/git-pkgs/enrichment/releases/tag/v0.7.0)
@@ -68,7 +82,7 @@ I tagged 13 repos this week:
 - [pin v0.2.0](https://github.com/git-pkgs/pin/releases/tag/v0.2.0)
 - [pom v0.1.7](https://github.com/git-pkgs/pom/releases/tag/v0.1.7)
 - [purl v0.1.17](https://github.com/git-pkgs/purl/releases/tag/v0.1.17)
-- [registries v0.8.0](https://github.com/git-pkgs/registries/releases/tag/v0.8.0)
+- [registries v0.8.1](https://github.com/git-pkgs/registries/releases/tag/v0.8.1)
 - [sigstore v0.2.0](https://github.com/git-pkgs/sigstore/releases/tag/v0.2.0)
 - [vers v0.6.0](https://github.com/git-pkgs/vers/releases/tag/v0.6.0)
 
