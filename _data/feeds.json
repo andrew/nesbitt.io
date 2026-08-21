@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-21T15:30:18Z",
-  "cutoff": "2026-07-22T15:30:13Z",
+  "generated": "2026-08-21T20:29:09Z",
+  "cutoff": "2026-07-22T20:29:04Z",
   "feed_count": 79,
-  "item_count": 221,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-21T20:25:41Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.39.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.39.1",
@@ -420,14 +428,6 @@
       "preview": "Change-Id: Ia3e132d4c983f77f720a01d12ff0222a39d03c18 Reviewed-on: https://go-review.googlesource.com/c/go/+/817760 TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Carlos Amedee carlos@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com",
       "source": "Go releases",
       "category": "Go"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-19T14:11:42Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "7.11.0.13",
@@ -1780,14 +1780,6 @@
       "preview": "A CDN caching bug on RubyGems.org could hand one account’s API key to another person for up to an hour. If you signed in to RubyGems.org with a gem client older than v3.2.0, your key could have been exposed (the technical details are below). Currently, 18% of sign-ins through gem signin come from an affected version, and for the first several years of this bug, before we changed the client’s sign-in path in December 2020, it was every gem client. We’ve reviewed the access logs we keep and found no sign of a legacy key being used maliciously, and no user or support report has suggested otherwis",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "v0.388.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.388.0",
-      "published": "2026-07-22T19:35:32Z",
-      "preview": "What's Changed Type GitHub release metadata by @JamieMagee in #15597 Make GitCommitChecker strongly typed by @JamieMagee in #15598 Retry corepack prepare and install on signature metadata errors from private registries by @kbukum1 in #15606 Fix UV DependencyGrapher to detect nested uv.lock in monorepos by @thavaahariharangit with @Copilot in #15520 Bump library/rust from 1.95.0-bookworm to 1.97.0-bookworm in /cargo by @dependabot [bot] in #15560 Bump @sigstore/core from 3.1.0 to 3.2.1 in /npm_and_yarn/helpers by @dependabot [bot] in #15455 Bump maven from 3.9.14 to 3.9.16 in /maven by @dependa",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
