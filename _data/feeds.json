@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-20T23:28:59Z",
-  "cutoff": "2026-07-21T23:28:55Z",
+  "generated": "2026-08-21T00:32:08Z",
+  "cutoff": "2026-07-22T00:32:04Z",
   "feed_count": 79,
-  "item_count": 222,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-153.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-153.0.dev",
+      "published": "2026-08-21T00:15:03Z",
+      "preview": "SDK 3.14.0-153.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-152.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-152.0.dev",
+      "published": "2026-08-21T00:15:00Z",
+      "preview": "SDK 3.14.0-152.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-151.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-151.0.dev",
+      "published": "2026-08-21T00:14:57Z",
+      "preview": "SDK 3.14.0-151.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-150.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-150.0.dev",
+      "published": "2026-08-21T00:14:55Z",
+      "preview": "SDK 3.14.0-150.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-149.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-149.0.dev",
+      "published": "2026-08-21T00:14:52Z",
+      "preview": "SDK 3.14.0-149.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "44.37.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.37.1",
@@ -388,46 +428,6 @@
       "preview": "Report invalid toolchain installation paths as warnings via Problems …",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "SDK-3.14.0-143.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-143.0.dev",
-      "published": "2026-08-19T00:13:35Z",
-      "preview": "SDK 3.14.0-143.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-142.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-142.0.dev",
-      "published": "2026-08-19T00:13:32Z",
-      "preview": "SDK 3.14.0-142.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-141.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-141.0.dev",
-      "published": "2026-08-19T00:13:29Z",
-      "preview": "SDK 3.14.0-141.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-140.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-140.0.dev",
-      "published": "2026-08-19T00:13:26Z",
-      "preview": "SDK 3.14.0-140.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-139.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-139.0.dev",
-      "published": "2026-08-19T00:13:23Z",
-      "preview": "SDK 3.14.0-139.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "Go 1.27 is released",
@@ -1788,14 +1788,6 @@
       "preview": "Release Notes Released on 2026-07-21. Enhancements Allow workspace sources to reference members in another workspace by path ( #18401 ) Support .venv files containing paths to centralized project environments ( #20022 ) Update bundled Windows timezone data to IANA 2026c ( #20554 ) Preview features Add an index-specific hash-algorithm setting for lockfile generation ( #20605 ) Configuration Add audit.malware-check and audit.malware-check-url settings ( #20587 ) Performance Avoid quadratic work when deduplicating transitive conflicts ( #20578 ) Bug fixes Suggest --emit-build-options for unsuppor",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "4.0.17 Released",
-      "url": "https://blog.rubygems.org/2026/07/22/4.0.17-released.html",
-      "published": "2026-07-22T00:00:00Z",
-      "preview": "RubyGems 4.0.17 includes enhancements and bug fixes and Bundler 4.0.17 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.17 RubyGems Release Notes Enhancements: Validate spec name before writing to the spec cache. Pull request #9690 by hsbt Installs bundler 4.0.17 as a default gem. Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install pa",
-      "source": "RubyGems Blog",
-      "category": "Ruby"
     }
   ]
 }
