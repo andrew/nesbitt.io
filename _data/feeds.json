@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-21T13:34:06Z",
-  "cutoff": "2026-07-22T13:34:01Z",
+  "generated": "2026-08-21T14:30:27Z",
+  "cutoff": "2026-07-22T14:30:24Z",
   "feed_count": 79,
   "item_count": 220,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.39.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.39.1",
+      "published": "2026-08-21T13:58:08Z",
+      "preview": "44.39.1 (2026-08-21) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.1 (main) ( #45387 ) ( 1208dd3 ) Miscellaneous Chores deps: update github/codeql-action action to v4.37.8 (main) ( #45386 ) ( b7f19dc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.6.0-beta1",
       "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-beta1",
@@ -340,14 +348,6 @@
       "preview": "This release expands declarative bootstrap into a composable, multi-root system; adds environment-specific conf.d fragments and glob-based ignored config paths; smooths out shell activation so runtime overrides stick; and delivers major startup performance gains for vfox-backed setups. It also includes several security hardening fixes worth noting. Highlights Bootstrap can now compose declarative resources (dotfiles, files, directories, services, and Compose projects) from multiple independent config roots, with provenance tracking and clear conflict diagnostics. Startup is dramatically faster",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.35.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.1",
-      "published": "2026-08-19T21:02:09Z",
-      "preview": "44.35.1 (2026-08-19) Bug Fixes datasource/npm: don't break on non-string homepage ( #45358 ) ( a61de24 ), closes #45357",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "aqua-registry-v2026.8.8",
