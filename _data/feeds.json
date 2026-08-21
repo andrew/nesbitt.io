@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-21T12:31:14Z",
-  "cutoff": "2026-07-22T12:30:59Z",
+  "generated": "2026-08-21T13:34:06Z",
+  "cutoff": "2026-07-22T13:34:01Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.6.0-beta1",
+      "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-beta1",
+      "published": "2026-08-21T12:43:54Z",
+      "preview": "2.6.0~beta1",
+      "source": "opam releases",
+      "category": "Registries"
+    },
+    {
+      "title": "5.4.3.0",
+      "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.3.0",
+      "published": "2026-08-21T12:31:16Z",
+      "preview": "=================================== !!!This release is broken - do not use!!! 5.4.3.0 unintentionally broke ABI (see #2869 for details) which crashes any application built against 5.4.2.1 or earlier when run against this release (e.g. PackageKit). Recommendation: skip 5.4.3.0 and upgrade directly to 5.4.4.0. ==================================== Update translations from weblate Port bootc functionality from DNF4 Add --[no-]allow-vendor-change option Warn when upgrades are silently skipped due to vendor change restriction Add remove --duplicates option to remove older duplicate packages Introduc",
+      "source": "DNF5 releases",
+      "category": "System"
+    },
     {
       "title": "5.4.4.0",
       "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.4.0",
@@ -836,14 +852,6 @@
       "preview": "Patch Changes Validated forwarded catalog targets and kept catalog-specific resolutions isolated in the server cache.",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "5.4.3.0",
-      "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.3.0",
-      "published": "2026-08-12T14:09:32Z",
-      "preview": "Update translations from weblate Port bootc functionality from DNF4 Add --[no-]allow-vendor-change option Warn when upgrades are silently skipped due to vendor change restriction Add remove --duplicates option to remove older duplicate packages Introduce gpgcheck_policy to control gpgcheck Add RepoSack API for repo config overrides libdnf5-cli: Stop option parsing after \"--\" Show protected package info when removing its dependency Invalidate offline transaction after successful online transaction Add distro-sync support to dnf-automatic Add tmpfiles config to create system repo lockfile manife",
-      "source": "DNF5 releases",
-      "category": "System"
     },
     {
       "title": "7.11.0.8",
