@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-21T03:36:21Z",
-  "cutoff": "2026-07-22T03:36:17Z",
+  "generated": "2026-08-21T04:30:56Z",
+  "cutoff": "2026-07-22T04:30:52Z",
   "feed_count": 79,
-  "item_count": 221,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -1772,22 +1772,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-20-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "bundler-v4.0.17",
-      "url": "https://github.com/ruby/rubygems/releases/tag/bundler-v4.0.17",
-      "published": "2026-07-22T04:19:42Z",
-      "preview": "Enhancements: Open compact index cache in binary mode when appending. Pull request #9679 by hsbt Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install paths when globbing. Pull request #9687 by hsbt Avoid space-containing absolute path in RUBYOPT. Pull request #9696 by hsbt Preserve the locked Bundler checksum when the gem isn't cached. Pull request #9658 by rwstauner Documentation: Point Bundler gemspec metadata at the moved docs. Pull request #9648 by hsbt",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.17",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.17",
-      "published": "2026-07-22T04:17:51Z",
-      "preview": "Enhancements: Validate spec name before writing to the spec cache. Pull request #9690 by hsbt Installs bundler 4.0.17 as a default gem. Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install paths when globbing. Pull request #9687 by hsbt Preserve Windows editor paths in gem open and bundle open. Pull request #9694 by hsbt Preserve Windows paths in MAKE and rake environment variables. Pull request #9693 by hsbt Fix bundle binstub broken by gem update --system on Homebrew ruby. Pull request #9688 by hsbt",
-      "source": "RubyGems releases",
-      "category": "Ruby"
     }
   ]
 }
