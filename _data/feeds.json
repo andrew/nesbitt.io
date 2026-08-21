@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-21T02:44:34Z",
-  "cutoff": "2026-07-22T02:44:29Z",
+  "generated": "2026-08-21T03:36:21Z",
+  "cutoff": "2026-07-22T03:36:17Z",
   "feed_count": 79,
   "item_count": 221,
   "categories": [
@@ -24,8 +24,32 @@
     {
       "title": "1.13.0",
       "url": "https://github.com/sbt/sbt/releases/tag/v1.13.0",
-      "published": "2026-08-21T02:08:04Z",
-      "preview": "🚀 updates Scala 3.9 REPL support by @Gedochao in #9564 IO.jarParallel and IO.zipParallel by @hoangmaihuy in sbt/io#540 🐛 bug fixes fix: Avoid rewriting unchanged plugin descriptors by @unkarjedy in #9613 fix: Fixes -V parsing in sbt runners by @anatoliykmetyuk in #9626 behind the scenes ci: Remove cla-checker v1 by @eed3si9n in #9572 Update sbtn to 2.0.0-8753a981 by @eed3si9n in #9635 Bump IO to 1.13.0 by @eed3si9n in #9648 new contributors @Gedochao made their first contribution in #9564 Full Changelog : v1.12.15...v1.13.0",
+      "published": "2026-08-21T03:18:37Z",
+      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-943m-f264-54p4 from @stasimus that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via BSP, similar to a recent bug that was found in JSON-RPC. sbt 1.13.0 and 2.0.7 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionTy",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "2.0.7",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.7",
+      "published": "2026-08-21T03:17:58Z",
+      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-943m-f264-54p4 from @stasimus that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via BSP, similar to a recent bug that was found in JSON-RPC. sbt 1.13.0 and 2.0.7 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionTy",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "1.12.15",
+      "url": "https://github.com/sbt/sbt/releases/tag/v1.12.15",
+      "published": "2026-08-21T03:11:15Z",
+      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes bport: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk ",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "2.0.6",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.6",
+      "published": "2026-08-21T03:10:43Z",
+      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionType . Tcp The remediation was impleme",
       "source": "sbt releases",
       "category": "Maven"
     },
@@ -286,14 +310,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "1.12.15",
-      "url": "https://github.com/sbt/sbt/releases/tag/v1.12.15",
-      "published": "2026-08-19T18:18:52Z",
-      "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes bport: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk in ",
-      "source": "sbt releases",
-      "category": "Maven"
-    },
-    {
       "title": "aqua-registry-v2026.8.8",
       "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.8.8",
       "published": "2026-08-19T17:53:51Z",
@@ -332,14 +348,6 @@
       "preview": "Change-Id: I9ff6bc81cccdd7876e7b36c395151f70ab3ac654 Reviewed-on: https://go-review.googlesource.com/c/go/+/817701 Reviewed-by: Carlos Amedee carlos@golang.org Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com",
       "source": "Go releases",
       "category": "Go"
-    },
-    {
-      "title": "2.0.6",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.6",
-      "published": "2026-08-19T16:22:59Z",
-      "preview": "Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemente",
-      "source": "sbt releases",
-      "category": "Maven"
     },
     {
       "title": "9.7.1",
@@ -1780,14 +1788,6 @@
       "preview": "Enhancements: Validate spec name before writing to the spec cache. Pull request #9690 by hsbt Installs bundler 4.0.17 as a default gem. Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install paths when globbing. Pull request #9687 by hsbt Preserve Windows editor paths in gem open and bundle open. Pull request #9694 by hsbt Preserve Windows paths in MAKE and rake environment variables. Pull request #9693 by hsbt Fix bundle binstub broken by gem update --system on Homebrew ruby. Pull request #9688 by hsbt",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "v6.0.2",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.2",
-      "published": "2026-07-22T03:02:34Z",
-      "preview": "Bugfixes Fixed a bug where podman machine VMs created by the WSL provider on Windows were not properly cleaned up if the podman machine init command failed ( #27036 ). Fixed a bug where the Windows installer for Podman would, when installing for all users, incorrectly modify the path of only the user installing Podman ( #29160 ). Fixed a bug where the remote Podman client would throw errors when run on a Linux system that was not using Cgroups v2 ( #29241 ). Misc Updated Buildah to v1.44.1",
-      "source": "Podman releases",
-      "category": "Containers"
     }
   ]
 }
