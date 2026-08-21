@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-21T00:32:08Z",
-  "cutoff": "2026-07-22T00:32:04Z",
+  "generated": "2026-08-21T01:54:25Z",
+  "cutoff": "2026-07-22T01:54:22Z",
   "feed_count": 79,
   "item_count": 221,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.13.0",
+      "url": "https://github.com/sbt/sbt/releases/tag/v1.13.0",
+      "published": "2026-08-21T01:51:48Z",
+      "preview": "1.13.0",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
     {
       "title": "SDK-3.14.0-153.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-153.0.dev",
@@ -1780,14 +1788,6 @@
       "preview": "Bugfixes Fixed a bug where podman machine VMs created by the WSL provider on Windows were not properly cleaned up if the podman machine init command failed ( #27036 ). Fixed a bug where the Windows installer for Podman would, when installing for all users, incorrectly modify the path of only the user installing Podman ( #29160 ). Fixed a bug where the remote Podman client would throw errors when run on a Linux system that was not using Cgroups v2 ( #29241 ). Misc Updated Buildah to v1.44.1",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "0.11.31",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.31",
-      "published": "2026-07-22T01:49:40Z",
-      "preview": "Release Notes Released on 2026-07-21. Enhancements Allow workspace sources to reference members in another workspace by path ( #18401 ) Support .venv files containing paths to centralized project environments ( #20022 ) Update bundled Windows timezone data to IANA 2026c ( #20554 ) Preview features Add an index-specific hash-algorithm setting for lockfile generation ( #20605 ) Configuration Add audit.malware-check and audit.malware-check-url settings ( #20587 ) Performance Avoid quadratic work when deduplicating transitive conflicts ( #20578 ) Bug fixes Suggest --emit-build-options for unsuppor",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
