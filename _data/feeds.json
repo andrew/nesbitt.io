@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-21T14:30:27Z",
-  "cutoff": "2026-07-22T14:30:24Z",
+  "generated": "2026-08-21T15:30:18Z",
+  "cutoff": "2026-07-22T15:30:13Z",
   "feed_count": 79,
-  "item_count": 220,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -148,6 +148,14 @@
       "preview": "SDK 3.14.0-149.0.dev",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "Enabling the next-generation trait solver on nightly",
+      "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+      "published": "2026-08-21T00:00:00Z",
+      "preview": "After nearly 4 years of active development, the next-generation trait solver is close to stabilization. We are enabling it by default on nightly to surface any remaining issues and plan to stabilize it in the next months. This is the largest single change to the Rust compiler since its initial release. It completely replaces how we prove where-clauses, normalize associated types, and much more. Please try out the latest nightly and open an issue if you encounter any bugs or regressions. This is an internal component of the compiler. The main benefits of this rework will come in the future. The",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "44.37.1",
