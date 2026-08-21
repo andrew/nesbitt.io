@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-21T21:28:52Z",
-  "cutoff": "2026-07-22T21:28:47Z",
+  "generated": "2026-08-21T23:28:43Z",
+  "cutoff": "2026-07-22T23:28:38Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -1764,14 +1764,6 @@
       "preview": "Insert 7.10.0.34 into main on 07/23/2026 12:20:58",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "Windows Package Manager 1.30.70-preview",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.70-preview",
-      "published": "2026-07-22T22:34:52Z",
-      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Apply latest loc patch by Flor Chacón (@florelis) in #6262 Remove old Store certs, replace test use with generated ones by JohnMcPMS in #6275 Add .gitattrib",
-      "source": "winget releases",
-      "category": "System"
     }
   ]
 }
