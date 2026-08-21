@@ -7,6 +7,7 @@ tags:
   - git
   - tools
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mtlar4fl352v"
 ---
 
 GitHub had a rough Monday this week, with git operations, Actions, and the issue tracker all unavailable for [several hours](https://www.githubstatus.com/incidents/zkxwbgr0cnmx). Code being unreachable during a forge outage is annoying but survivable because every contributor already has a full clone. Issues and pull request threads going dark is a different matter, since for most projects those exist only in GitHub's database and nowhere else. I [asked on Mastodon](https://mastodon.social/@andrewnez/117111291448638063) about tools that keep issue and review data inside the repository so it clones and pushes with the code, and got pointed at more projects than I expected, spanning about twenty years of people having a go at this.
