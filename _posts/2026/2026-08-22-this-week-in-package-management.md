@@ -12,7 +12,7 @@ Week fourteen of the roundup, built from the [package manager OPML feed collecti
 
 ## Releases
 
-[Go 1.27](https://go.dev/doc/go1.27) is out. On the module side, `go mod tidy` now consolidates duplicate `require` blocks into the canonical direct/indirect pair for modules declaring `go 1.27` or later, `go doc` accepts `package@version` to fetch documentation for a specific module version, and the `go` command drops support for fetching modules from Bazaar repositories.
+[Go 1.27](https://go.dev/doc/go1.27) is out. On the module side, `go mod tidy` now consolidates duplicate `require` blocks into the canonical direct/indirect pair for modules declaring `go 1.27` or later, `go doc` accepts `package@version` to fetch documentation for a specific module version, and the `go` command drops support for fetching modules from Bazaar repositories. A [`compress/flate` encoder change](https://go.dev/doc/go1.27#compressflatepkgcompressflate) also means `archive/zip` and `compress/gzip` produce different bytes than under Go 1.26, which is worth checking anywhere a Go-built tool's archive output is hash-pinned downstream (forge tarball endpoints, module proxies, release pipelines).
 
 [Rust 1.98](https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/) ships Cargo with an unstable [`-Zmin-publish-age`](https://github.com/rust-lang/cargo/pull/17012) flag implementing [RFC 3923](https://github.com/rust-lang/rfcs/pull/3923): resolution filters out crate versions published more recently than a configured threshold. It also fixes a 1.96 Windows regression in `cargo:token-from-stdout` credential providers.
 
@@ -20,7 +20,9 @@ Week fourteen of the roundup, built from the [package manager OPML feed collecti
 
 [pnpm 11.22](https://github.com/pnpm/pnpm/releases/tag/v11.22.0) shipped alongside a [11.21–11.22 recap](https://pnpm.io/blog/releases/11.21-11.22): `pnpm install` now edits the lockfile in place for most everyday manifest changes without re-resolving the whole dependency graph, global installs switch over atomically, `pnpm cache path` prints the store location, and a project's `pnpm-workspace.yaml` can no longer relocate machine-level state directories. pnpm 12 reached [RC 8](https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.8): the `registries` setting is now keyed by URL with scopes and tarball layout declared per entry, and `packageImportMethod: auto` tries hardlinks before reflinks on Linux, roughly halving the time to materialise `node_modules` from a warm store on btrfs.
 
-[Renovate 44.33.0–44.37.1](https://github.com/renovatebot/renovate/releases/tag/44.37.1) adds [PEP 691 JSON simple index](https://github.com/renovatebot/renovate/pull/44222) support to the PyPI datasource and passes [`POETRY_SOLVER_MIN_RELEASE_AGE`](https://github.com/renovatebot/renovate/pull/43429) through to Poetry when `minimumReleaseAge` is configured.
+[Hex 2.5](https://hex.pm/blog/hex-v25-released) surfaces security advisories during `mix deps.get` and `mix deps.update`, printing a summary of vulnerable packages at the end of the run. A `cooldown` setting withholds versions younger than a configured age from resolution, lifted automatically when the currently locked version is itself retired or has an advisory, and organisations can publish signed dependency policies that opted-in projects apply centrally.
+
+[Renovate 44.33.0–44.39.1](https://github.com/renovatebot/renovate/releases/tag/44.39.1) adds [PEP 691 JSON simple index](https://github.com/renovatebot/renovate/pull/44222) support to the PyPI datasource and passes [`POETRY_SOLVER_MIN_RELEASE_AGE`](https://github.com/renovatebot/renovate/pull/43429) through to Poetry when `minimumReleaseAge` is configured.
 
 Also out:
 
@@ -36,6 +38,9 @@ Also out:
 - [RPM 6.1.0](https://rpm.org/releases/6.1.0)
 - [RubyGems 4.0.19](https://blog.rubygems.org/2026/08/20/4.0.19-released.html)
 - [snapd 2.76.3](https://github.com/canonical/snapd/releases/tag/2.76.3)
+- [DNF5 5.4.4.0](https://github.com/rpm-software-management/dnf5/releases/tag/5.4.4.0)
+- [opam 2.6.0-beta1](https://github.com/ocaml/opam/releases/tag/2.6.0-beta1)
+- [diffoscope 329](https://diffoscope.org/news/diffoscope-329-released/)
 
 ## Security
 
@@ -67,9 +72,11 @@ crates.io [removed](https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on
 
 [Inside Modern Software Engineering with Homebrew's Mike McQuaid](https://podcast.thoughtbot.com/619) (Giant Robots podcast): an interview covering Homebrew's history and open source maintainership.
 
+[Sustain #293](https://podcast.sustainoss.org/293) has Daniel Roe and Matias Capeletto on [npmx](https://npmx.dev), the community-built npm registry browser, covering how the project reached hundreds of contributors since January and its governance and funding.
+
 ## git-pkgs
 
-I tagged 14 repos this week:
+I tagged 16 repos this week:
 
 - [artifacts v0.1.1](https://github.com/git-pkgs/artifacts/releases/tag/v0.1.1) (new), a Go library that describes a completed package file as a canonical package URL, an OCI-form content digest and a byte count, with optional filename and media type carried alongside
 - [integrity v0.1.1](https://github.com/git-pkgs/integrity/releases/tag/v0.1.1) (new), a Go library that parses Subresource Integrity metadata (SHA-256/384/512, standard or URL-safe base64) and verifies package byte streams against it as they are read
@@ -78,6 +85,8 @@ I tagged 14 repos this week:
 - [cooldown v0.2.0](https://github.com/git-pkgs/cooldown/releases/tag/v0.2.0)
 - [enrichment v0.7.0](https://github.com/git-pkgs/enrichment/releases/tag/v0.7.0)
 - [forge v0.9.0](https://github.com/git-pkgs/forge/releases/tag/v0.9.0)
+- [licenses v0.6.0](https://github.com/git-pkgs/licenses/releases/tag/v0.6.0)
+- [managers v0.11.0](https://github.com/git-pkgs/managers/releases/tag/v0.11.0)
 - [manifests v0.10.0](https://github.com/git-pkgs/manifests/releases/tag/v0.10.0)
 - [pin v0.2.0](https://github.com/git-pkgs/pin/releases/tag/v0.2.0)
 - [pom v0.1.7](https://github.com/git-pkgs/pom/releases/tag/v0.1.7)
