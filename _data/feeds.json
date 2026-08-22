@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-22T16:28:57Z",
-  "cutoff": "2026-07-23T16:28:52Z",
+  "generated": "2026-08-22T17:28:05Z",
+  "cutoff": "2026-07-23T17:28:01Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -1756,14 +1756,6 @@
       "preview": "Release Notes Released on 2026-07-23. Preview features Add --package and --all-packages selection to uv check ( #20628 ) Allow uv upgrade to update multiple marker-specific declarations of the same package ( #20335 ) Reject non-canonically formatted lockfiles in uv lock --check and commands using --locked ( #20646 ) Regenerate non-canonically formatted lockfiles with uv lock --refresh ( #20634 ) Include best-effort information about the active environment in uv workspace metadata by default ( #20643 ) Performance Skip dependency-group conflict expansion when no additional conflicts can be infe",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "v2.9.4",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.4",
-      "published": "2026-07-23T16:59:31Z",
-      "preview": "2.9.4 / 2026.07.23 feat(desktop): enable --hmr for React Router ( #35900 ) feat(ext/node): add a byteLength/length parameter to Buffer.indexOf/lastIndexOf/includes ( #35872 ) feat(ext/node): support raw chacha20 cipher in crypto.createCipheriv ( #36016 ) feat: upgrade V8 to 150.2.0 ( #36098 ) fix(add): support --minimum-dependency-age flag in deno add/remove ( #36099 ) fix(cache): store Web Cache under origin data ( #36145 ) fix(canvas): require FFI permission for native window handles ( #36080 ) fix(clean): reject symlinked node_modules cleanup roots ( #36190 ) fix(compile): bump libsui to 0.",
-      "source": "Deno releases",
-      "category": "JavaScript"
     }
   ]
 }
