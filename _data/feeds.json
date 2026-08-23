@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-23T17:27:40Z",
-  "cutoff": "2026-07-24T17:27:36Z",
+  "generated": "2026-08-23T19:27:50Z",
+  "cutoff": "2026-07-24T19:27:46Z",
   "feed_count": 79,
   "item_count": 214,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-23T19:00:53Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.39.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.39.3",
+      "published": "2026-08-23T18:49:48Z",
+      "preview": "44.39.3 (2026-08-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.2 (main) ( #45405 ) ( 047e5e7 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.17 (main) ( #45403 ) ( 2f658f0 ) deps: update dependency @smithy/util-stream to v4.8.1 (main) ( #45338 ) ( c2dd4f8 ) deps: update dependency @smithy/util-stream to v4.8.2 (main) ( #45397 ) ( 55f5c17 ) deps: update dependency pnpm to v11.22.0 (main) ( #45398 ) ( 92e0ab4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.8.11: Automatic updates, remote mise installs, and versioned lockfiles",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.11",
@@ -100,14 +116,6 @@
       "preview": "pnpm 11.23 gives the registries setting a shape that describes each registry once — its tarball layout, the scopes routed to it, the prefix it answers to — so an Artifactory or GitLab registry can finally keep its tarball URLs out of pnpm-lock.yaml. It adds virtualStoreType, makes undeclared imports resolve under ESM with the global virtual store without a plugin, teaches pnpm config get to report the settings pnpm actually acts on, and warns about settings no pnpm version recognizes.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-22T21:44:58Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "rc/v4.1.0.1 (release candidate)",
@@ -402,14 +410,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.4",
       "published": "2026-08-20T05:50:28Z",
       "preview": "44.35.4 (2026-08-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.88.3 (main) ( #45365 ) ( da01a2f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.35.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.3",
-      "published": "2026-08-20T03:49:44Z",
-      "preview": "44.35.3 (2026-08-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.88.2 (main) ( #45364 ) ( 71b9888 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
