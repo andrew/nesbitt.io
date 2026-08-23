@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-23T14:28:46Z",
-  "cutoff": "2026-07-24T14:28:40Z",
+  "generated": "2026-08-23T15:28:19Z",
+  "cutoff": "2026-07-24T15:28:15Z",
   "feed_count": 79,
-  "item_count": 213,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,10 +22,66 @@
   ],
   "items": [
     {
-      "title": "v11.23.0",
+      "title": "v2026.8.11",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.11",
+      "published": "2026-08-23T14:51:33Z",
+      "preview": "(bootstrap) install mise on remote targets by @jdx in [ #12284 ](…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-interactive-config-v2026.8.5",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.5",
+      "published": "2026-08-23T14:51:12Z",
+      "preview": "Release mise-interactive-config 2026.8.5",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.8.9",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.8.9",
+      "published": "2026-08-23T14:51:03Z",
+      "preview": "Release aqua-registry 2026.8.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.16",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.16",
+      "published": "2026-08-23T14:50:50Z",
+      "preview": "Release vfox 2026.8.16",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.8.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.8.2",
+      "published": "2026-08-23T14:50:30Z",
+      "preview": "Release mise-sigstore 2026.8.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-rustc-v2026.8.9",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.9",
+      "published": "2026-08-23T14:50:24Z",
+      "preview": "Release mise-cache-rustc 2026.8.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-core-v2026.8.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.8",
+      "published": "2026-08-23T14:50:12Z",
+      "preview": "Release mise-cache-core 2026.8.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pnpm 11.23",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.23.0",
-      "published": "2026-08-23T13:47:44Z",
-      "preview": "v11.23.0",
+      "published": "2026-08-23T14:41:02Z",
+      "preview": "Minor Changes pnpm config get and pnpm config list now show the settings pnpm acts on under their documented names: registries shows the registries pnpm resolves from, merged across every source ( .npmrc , pnpm-workspace.yaml , the global config, CLI flags), in the shape the setting is written in: keyed by registry URL, with the default registry declared as the bare @ scope. Built-in routes are included — the @jsr scope and the npmjs and gh prefixes — unless pointed elsewhere. Previously pnpm config get registries printed undefined . update and audit show the effective sections, whichever spel",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -36,6 +92,14 @@
       "preview": "SDK 3.14.0-159.0.dev",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "pnpm 11.23",
+      "url": "https://pnpm.io/blog/releases/11.23",
+      "published": "2026-08-23T00:00:00Z",
+      "preview": "pnpm 11.23 gives the registries setting a shape that describes each registry once — its tarball layout, the scopes routed to it, the prefix it answers to — so an Artifactory or GitLab registry can finally keep its tarball URLs out of pnpm-lock.yaml. It adds virtualStoreType, makes undeclared imports resolve under ESM with the global virtual store without a plugin, teaches pnpm config get to report the settings pnpm actually acts on, and warns about settings no pnpm version recognizes.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "cabal-head",
@@ -326,14 +390,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "mise-cache-core-v2026.8.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.7",
-      "published": "2026-08-20T15:15:23Z",
-      "preview": "Release mise-cache-core 2026.8.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "Bun v1.4",
       "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.0",
       "published": "2026-08-20T14:08:57Z",
@@ -388,46 +444,6 @@
       "preview": "What happened On 2026-08-20 at 7:15 UTC we got a report that the proc-macro1 crate was malicious. The Rust Security Response Team verified this to be the case: the crate had a build script that was downloading a malicious payload. This crate proc-macro1 and others like it ( proc-macro-en , aovine , arone , aronenao , tinymember ) have been deleted. Furthermore, we discovered that the popular arrayref crate had recently been republished and made to depend on this crate, with the most recent versions yanked. We have removed the malicious version and unyanked the maliciously-yanked versions. Othe",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "v2026.8.9: Composable Bootstrap, Environment-Aware conf.d, and Faster Startup",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.9",
-      "published": "2026-08-19T21:19:31Z",
-      "preview": "This release expands declarative bootstrap into a composable, multi-root system; adds environment-specific conf.d fragments and glob-based ignored config paths; smooths out shell activation so runtime overrides stick; and delivers major startup performance gains for vfox-backed setups. It also includes several security hardening fixes worth noting. Highlights Bootstrap can now compose declarative resources (dotfiles, files, directories, services, and Compose projects) from multiple independent config roots, with provenance tracking and clear conflict diagnostics. Startup is dramatically faster",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "aqua-registry-v2026.8.8",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.8.8",
-      "published": "2026-08-19T17:53:51Z",
-      "preview": "Release aqua-registry 2026.8.8",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.8.14",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.14",
-      "published": "2026-08-19T17:53:35Z",
-      "preview": "Release vfox 2026.8.14",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-rustc-v2026.8.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.7",
-      "published": "2026-08-19T17:53:08Z",
-      "preview": "Release mise-cache-rustc 2026.8.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-core-v2026.8.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.6",
-      "published": "2026-08-19T17:52:53Z",
-      "preview": "Release mise-cache-core 2026.8.6",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "[release-branch.go1.27] go1.27.0",
@@ -676,14 +692,6 @@
       "preview": "What's Changed Type shared Python requirement boundaries by @JamieMagee in #15837 Type Python requirement consumers by @JamieMagee in #15838 Type UV requirement access by @JamieMagee in #15839 Type Conda requirement access by @JamieMagee in #15840 Roll pub. Fix flutter/dart sdk constraint rewritten in lockfile by @svartalfheim in #15654 Use GitHub Artifact Attestations for container image signing by @codysoyland in #12116 Add artifact metadata permission by @JamieMagee in #15859 Bump the all-actions group across 1 directory with 8 updates by @dependabot [bot] in #15860 Bump sigstore/cosign/cos",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "vfox-v2026.8.12",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.12",
-      "published": "2026-08-17T12:02:00Z",
-      "preview": "Release vfox 2026.8.12",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v2.15.2",
