@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-23T12:30:35Z",
-  "cutoff": "2026-07-24T12:30:31Z",
+  "generated": "2026-08-23T14:28:46Z",
+  "cutoff": "2026-07-24T14:28:40Z",
   "feed_count": 79,
   "item_count": 213,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v11.23.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.23.0",
+      "published": "2026-08-23T13:47:44Z",
+      "preview": "v11.23.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "SDK-3.14.0-159.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-159.0.dev",
@@ -1010,14 +1018,6 @@
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.3",
       "published": "2026-08-09T20:32:01Z",
       "preview": "Patch Changes Command shims on POSIX again exec a target that has no interpreter — a runtime binary such as the managed Node.js, or any bin without a shebang — instead of waiting on it. A shim that waited reported a target killed by a signal as exit code 128+N (for example 137 for SIGKILL ), so callers that distinguish a signal death from an exit code, such as CI runners and process supervisors, saw the wrong outcome.",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12 RC 2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.2",
-      "published": "2026-08-09T14:32:02Z",
-      "preview": "Minor Changes Globally installed bins can now follow the project you run them in. The new globalShims setting is a record of package names to policies that selects which globally installed packages get project-aware shims; it defaults to { node: true, deno: true, bun: true } and merges key-wise, so globalShims: { bun: false } switches one default off and globalShims: { typescript: true } adds another package. With the default, a project that pins Node.js through devEngines.runtime or engines.runtime gets the pinned stable release — authenticated against the Node.js release-team signatures — do",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
