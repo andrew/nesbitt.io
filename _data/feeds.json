@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-23T15:28:19Z",
-  "cutoff": "2026-07-24T15:28:15Z",
+  "generated": "2026-08-23T17:27:40Z",
+  "cutoff": "2026-07-24T17:27:36Z",
   "feed_count": 79,
   "item_count": 214,
   "categories": [
@@ -22,10 +22,10 @@
   ],
   "items": [
     {
-      "title": "v2026.8.11",
+      "title": "v2026.8.11: Automatic updates, remote mise installs, and versioned lockfiles",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.11",
-      "published": "2026-08-23T14:51:33Z",
-      "preview": "(bootstrap) install mise on remote targets by @jdx in [ #12284 ](…",
+      "published": "2026-08-23T16:46:13Z",
+      "preview": "This release adds opt-in automatic self-updates, lets remote bootstrap leave a working mise behind on each target, and introduces versioned lockfiles that bind each request to the version it resolved. It also replaces the CLI parser with usage-rs, hardens remote Git task handling, and fixes a wide range of tool-installation, task, and config edge cases. Highlights mise can now keep itself up to date and provision itself onto remote hosts, closing two long-standing gaps in unattended and remote workflows. Lockfiles gained an explicit format version so overlapping loose and exact requests can pi",
       "source": "mise releases",
       "category": "Multi-language"
     },
