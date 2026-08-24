@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-24T09:32:17Z",
-  "cutoff": "2026-07-25T09:32:12Z",
+  "generated": "2026-08-24T10:30:46Z",
+  "cutoff": "2026-07-25T10:30:42Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "New release 2.76.3",
+      "url": "https://github.com/canonical/snapd/releases/tag/2.76.3",
+      "published": "2026-08-24T10:08:30Z",
+      "preview": "FDE: support keyboard configuration at install-time for first-boot FDE: re-enable passphrases/PINs at install-time FDE: require volumes authentication if HWROT is missing FDE: bump secboot to rev 457b03a16d19 FDE: use new secboot API for reprovision TPM Cross-distro: modify SELinux policy to use init_named_socket_activation() for allowing systemd to start snapd through socket activation packaging: make sure that usr/bin/snap is built with correct build tags on debian sid Ensure profiles are setup before running prepare-{slot, plug}* hooks Please note: the tarball generation did not happen in a",
+      "source": "Snapd releases",
+      "category": "System"
+    },
+    {
+      "title": "New release 2.76.2",
+      "url": "https://github.com/canonical/snapd/releases/tag/2.76.2",
+      "published": "2026-08-24T10:08:01Z",
+      "preview": "interfaces: steam-support, docker-support | fix mountinfo denial Please note: the tarball generation did not happen in a pristine environment and as a result unintended content was incorporated which inflates the size.",
+      "source": "Snapd releases",
+      "category": "System"
+    },
     {
       "title": "v2026.8.12: Cleaner diagnostics and a raft of task, config, and tool fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.12",
@@ -68,6 +84,14 @@
       "preview": "Release mise-cache-rustc 2026.8.10",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "v9.8.0-M2",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-M2",
+      "published": "2026-08-24T05:30:32Z",
+      "preview": "Defer signing wiring until projects are evaluated ( #38932 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "pnpm 12 RC 9",
@@ -388,14 +412,6 @@
       "preview": "Minor Changes packageImportMethod: auto now tries hardlinks before cloning on Linux. A reflink materializes a new inode and copies extent bookkeeping inside the filesystem's metadata trees, where a hardlink is one directory entry — on btrfs this roughly halves the time an install spends materializing node_modules from a warm store. ext4 installs are unchanged (cloning was never supported there, so auto already hardlinked), and macOS keeps clone-first, where APFS clonefile is the platform's cheap primitive. Cloning remains the fallback when the store refuses hardlinks, and remains available exp",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "New release 2.76.3",
-      "url": "https://github.com/canonical/snapd/releases/tag/2.76.3",
-      "published": "2026-08-20T19:48:26Z",
-      "preview": "FDE: support keyboard configuration at install-time for first-boot FDE: re-enable passphrases/PINs at install-time FDE: require volumes authentication if HWROT is missing FDE: bump secboot to rev 457b03a16d19 FDE: use new secboot API for reprovision TPM Cross-distro: modify SELinux policy to use init_named_socket_activation() for allowing systemd to start snapd through socket activation packaging: make sure that usr/bin/snap is built with correct build tags on debian sid Ensure profiles are setup before running prepare-{slot, plug}* hooks",
-      "source": "Snapd releases",
-      "category": "System"
     },
     {
       "title": "44.36.0",
@@ -947,14 +963,6 @@
       "published": "2026-08-11T12:59:57Z",
       "preview": "Security fixes: Fix sandbox escape with full host filesystem read/write access via symlink attack on app data directories ( GHSA-8688-9x26-hhxj ) Fix local root privilege escalation via revokefs symlink path traversal and commit tampering ( GHSA-qrwq-7qwx-q9rp ) Fix arbitrary root write via symlink and path traversal in extra-data extraction ( GHSA-fqx6-vh4p-42cg ) Fix arbitrary root write via path traversal in flatpak build-init ( GHSA-8qxj-x646-phcm ) Fix arbitrary host file read via hardlink path traversal in OCI archive extraction ( GHSA-9rww-v4mm-x4jg ) Fix path traversal via unvalidated ",
       "source": "Flatpak releases",
-      "category": "System"
-    },
-    {
-      "title": "New release 2.76.2",
-      "url": "https://github.com/canonical/snapd/releases/tag/2.76.2",
-      "published": "2026-08-11T12:47:04Z",
-      "preview": "interfaces: steam-support, docker-support | fix mountinfo denial",
-      "source": "Snapd releases",
       "category": "System"
     },
     {
