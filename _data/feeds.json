@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-23T23:28:11Z",
-  "cutoff": "2026-07-24T23:28:07Z",
+  "generated": "2026-08-24T07:41:48Z",
+  "cutoff": "2026-07-25T07:41:16Z",
   "feed_count": 79,
   "item_count": 214,
   "categories": [
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.8.12",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.12",
+      "published": "2026-08-24T07:14:58Z",
+      "preview": "(bootstrap) add package plugin uninstall support by @jdx in [#1…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-interactive-config-v2026.8.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.6",
+      "published": "2026-08-24T07:14:38Z",
+      "preview": "Release mise-interactive-config 2026.8.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.17",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.17",
+      "published": "2026-08-24T07:14:26Z",
+      "preview": "Release vfox 2026.8.17",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-rustc-v2026.8.10",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.10",
+      "published": "2026-08-24T07:14:03Z",
+      "preview": "Release mise-cache-rustc 2026.8.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "pnpm 12 RC 9",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.9",
@@ -58,14 +90,6 @@
       "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.5",
       "published": "2026-08-23T14:51:12Z",
       "preview": "Release mise-interactive-config 2026.8.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "aqua-registry-v2026.8.9",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.8.9",
-      "published": "2026-08-23T14:51:03Z",
-      "preview": "Release aqua-registry 2026.8.9",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -380,30 +404,6 @@
       "preview": "0.99.0 release",
       "source": "Cargo releases",
       "category": "Rust"
-    },
-    {
-      "title": "v2026.8.10: Remote bootstrap environments and asset-matching fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.10",
-      "published": "2026-08-20T17:05:41Z",
-      "preview": "This release lets remote bootstrap pick which config environments run on each target, fixes several tool-installation edge cases (archive naming, Windows ZIP preference, renamed aqua packages, Homebrew cask metadata), and hardens pacman package detection and Windows self-update cleanup. Added bootstrap: Remote bootstrap can now select which mise.<env>.toml layers load on each SSH target without inheriting the orchestrator's full environment. Set a default with [bootstrap.remote].mise_env , override per host in your inventory, or pass --remote-env (repeatable or comma-separated) on the command ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.8.15",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.15",
-      "published": "2026-08-20T15:16:26Z",
-      "preview": "Release vfox 2026.8.15",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-rustc-v2026.8.8",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.8",
-      "published": "2026-08-20T15:15:46Z",
-      "preview": "Release mise-cache-rustc 2026.8.8",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "Bun v1.4",
