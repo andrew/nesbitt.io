@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-24T15:31:16Z",
-  "cutoff": "2026-07-25T15:31:12Z",
+  "generated": "2026-08-24T18:30:41Z",
+  "cutoff": "2026-07-25T18:30:36Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Windows Package Manager 1.29.290",
+      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.290",
+      "published": "2026-08-24T18:14:11Z",
+      "preview": "This is a servicing release of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
+      "source": "winget releases",
+      "category": "System"
+    },
     {
       "title": "v0.393.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.393.0",
