@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-24T10:30:46Z",
-  "cutoff": "2026-07-25T10:30:42Z",
+  "generated": "2026-08-24T11:29:39Z",
+  "cutoff": "2026-07-25T11:29:33Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-24T11:23:00Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.40.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.40.1",
+      "published": "2026-08-24T11:05:39Z",
+      "preview": "44.40.1 (2026-08-24) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.3 (main) ( #45419 ) ( 28abf41 ) Miscellaneous Chores deps: update dependency @oxlint/plugins to v1.78.0 (main) ( #45346 ) ( ea8d11b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "New release 2.76.3",
       "url": "https://github.com/canonical/snapd/releases/tag/2.76.3",
@@ -100,14 +116,6 @@
       "preview": "Major Changes A project's pnpm-workspace.yaml may no longer carry a setting pnpm does not recognize. Such a setting used to be ignored in silence — a misspelled minimumReleaseAge dropped the policy it was meant to set, and nothing said so. Now it is reported, suggesting the closest real setting name when the key looks like a typo, and it fails the command with ERR_PNPM_UNRECOGNIZED_WORKSPACE_SETTINGS when the project pins a pnpm version the running pnpm satisfies: with the pin honored, the setting cannot be meant for a different pnpm version, so it is a mistake to fix rather than a key to igno",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-23T19:00:53Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "44.39.3",
@@ -418,14 +426,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.36.0",
       "published": "2026-08-20T19:15:49Z",
       "preview": "44.36.0 (2026-08-20) Features onboarding: improve wording of concurrency limits with PRs opened ( #45213 ) ( bf17167 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.35.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.5",
-      "published": "2026-08-20T18:50:22Z",
-      "preview": "44.35.5 (2026-08-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.88.4 (main) ( #45376 ) ( d629420 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
