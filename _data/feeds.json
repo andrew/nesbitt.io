@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-24T19:29:41Z",
-  "cutoff": "2026-07-25T19:29:36Z",
+  "generated": "2026-08-24T22:29:05Z",
+  "cutoff": "2026-07-25T22:29:01Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.0.0-rc.11",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.11",
+      "published": "2026-08-24T22:12:22Z",
+      "preview": "v12.0.0-rc.11",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "pnpm 11.24",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.24.0",
@@ -908,14 +916,6 @@
       "preview": "Security This release addresses CVE-2026-57231, where a malicious image using malformed Env entries could cause host environment variables to leak into containers run based on the image, including the ability to use the * glob operator to leak large numbers of environment variables without knowing their exact names ( GHSA-4hq8-gpf5-8p68 ). This release addresses CVE-2026-19730 where the podman quadlet install --replace command did not truncate the file being replaced, meaning replacing a longer file with a shorter one would result in content from the original file incorrectly being retained. B",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "pnpm 12 RC 5",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.5",
-      "published": "2026-08-13T16:42:24Z",
-      "preview": "Minor Changes Breaking change. Dependency cycles are now broken canonically during peer resolution: the members of each cycle are ordered by package id, and the edges that close a cycle are always cut at the same place, no matter where the installation walks into the cycle from. Previously the cut depended on the walk path, so installing the same dependencies could produce different lockfiles depending on importer order or resolution order #13846 , and a peer-resolution verdict computed for one occurrence of a cyclic package could be wrongly reused at another #13865 . With canonical cycle brea",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "v25.0.17",
