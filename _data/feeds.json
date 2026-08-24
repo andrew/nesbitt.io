@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-24T12:31:22Z",
-  "cutoff": "2026-07-25T12:31:17Z",
+  "generated": "2026-08-24T14:31:44Z",
+  "cutoff": "2026-07-25T14:31:38Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v11.24.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.24.0",
+      "published": "2026-08-24T14:29:17Z",
+      "preview": "v11.24.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.0.0-rc.10",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.10",
+      "published": "2026-08-24T13:57:13Z",
+      "preview": "v12.0.0-rc.10",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v0.77.1",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.77.1",
@@ -916,22 +932,6 @@
       "preview": "Features A new command has been added, podman volume rename , to allow renaming volumes. Volumes created using volume drivers and volumes that are currently used by a container cannot be renamed ( #28189 ). A new command has been added, podman machine restart , to allow easy restart of VMs managed by podman machine ( #28366 ). The podman network rm command now includes a new option, --ignore , which suppresses errors when attempting to remove networks that do not exist ( #28363 ). The podman manifest push command now includes two new options, --retry and --retry-delay , which allow pushes to b",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "pnpm 12 RC 4",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.4",
-      "published": "2026-08-12T14:42:28Z",
-      "preview": "Minor Changes Added a new setting minimumReleaseAgeExcludePrune . When enabled, pnpm add , pnpm update , and pnpm remove prune the entries of minimumReleaseAgeExclude in pnpm-workspace.yaml that the freshly written lockfile no longer resolves: versions that are gone are dropped (an entry is removed once none of its versions remain), and entries for packages that are no longer in the lockfile are removed too. Name patterns ( @scope/* ) are always kept. The cleanup is skipped when the install's lockfile does not cover the whole workspace ( sharedWorkspaceLockfile: false ), since entries another ",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpr 0.1.0-alpha.6",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.6",
-      "published": "2026-08-12T14:38:30Z",
-      "preview": "Patch Changes Validated forwarded catalog targets and kept catalog-specific resolutions isolated in the server cache.",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "7.11.0.8",
