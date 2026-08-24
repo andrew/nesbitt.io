@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-24T07:41:48Z",
-  "cutoff": "2026-07-25T07:41:16Z",
+  "generated": "2026-08-24T08:32:06Z",
+  "cutoff": "2026-07-25T08:32:02Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.40.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.40.0",
+      "published": "2026-08-24T08:22:24Z",
+      "preview": "44.40.0 (2026-08-24) Features data: automatic update of static data ( #45401 ) ( c05d35a ) Documentation update references to otel/opentelemetry-collector-contrib to v0.159.0 (main) ( #45408 ) ( 823dd62 ) update references to prom/prometheus to v3.14.0 (main) ( #45410 ) ( 385ab96 ) update references to python to 4fad234 (main) ( #45407 ) ( 9ce288e ) update references to renovate/renovate (main) ( #45411 ) ( e162f91 ) update references to renovatebot/github-action to v46.2.3 (main) ( #45412 ) ( 7aafba7 ) Miscellaneous Chores deps: lock file maintenance (main) ( #45413 ) ( 597312a ) deps: lock f",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "6.0.19",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.19",
+      "published": "2026-08-24T07:43:35Z",
+      "preview": "What's Changed Set oldest GCC to 8 to enable -ffile-prefix-map by @cho-m in #23533 audit: resolve untapped core dependencies by @MikeMcQuaid in #23542 Skip duplicate /v2/ when artifact domain already contains it by @jouve in #23062 cli/parser: fix help crash with -- arguments by @krehel in #23544 sorbet: Add a Tapioca compiler for Cask::DSL to type some more tests by @issyl0 in #23534 Clarify outdated cask version display by @HaraldNordgren in #23543 cask/upgrade: mirror per-file quarantine approval across upgrades by @aholland in #23546 rubocops/cask: add cops for all conditional stanzas by @",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
     {
       "title": "v2026.8.12",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.12",
@@ -412,14 +428,6 @@
       "preview": "To install Bun v1.4 curl -fsSL https://bun.com/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.com/install.ps1|iex \" To upgrade to Bun v1.4.0: bun upgrade Read the blog post : Thank you Bun is free, open source, and MIT-licensed. We receive a lot of contributions from the community, and we'd like to thank everyone who fixed a bug or contributed since Bun v1.3. @190n @alanstott @alii @alinalihassan @amdad121 @ant-kurt @anthonybaldwin @avarayr @baboon-king @billywhizz @bmwalters @Boshen @braden-w @c-stoeckl @carlsmedstad @chrislloyd @cirospaciari @colele",
       "source": "Bun releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.35.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.35.4",
-      "published": "2026-08-20T05:50:28Z",
-      "preview": "44.35.4 (2026-08-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.88.3 (main) ( #45365 ) ( da01a2f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v4.0.19",
