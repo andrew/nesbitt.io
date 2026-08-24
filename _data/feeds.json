@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-24T18:30:41Z",
-  "cutoff": "2026-07-25T18:30:36Z",
+  "generated": "2026-08-24T19:29:41Z",
+  "cutoff": "2026-07-25T19:29:36Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,22 @@
   ],
   "items": [
     {
+      "title": "pnpm 11.24",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.24.0",
+      "published": "2026-08-24T19:10:25Z",
+      "preview": "Minor Changes Added global build approvals pnpm/pnpm#14101 . Patch Changes Fixed pnpm v11 incorrectly reporting confirmModulesPurge as unrecognized when set in pnpm-workspace.yaml . The Rust CLI now identifies the unsupported option as a pnpm v11 setting instead of suggesting an unrelated setting. pnpm install --frozen-lockfile no longer fails with ERR_PNPM_FROZEN_LOCKFILE_WITH_OUTDATED_LOCKFILE when the pinned pnpm version recorded in pnpm-lock.yaml has to be re-resolved before it can be installed. It runs the pnpm version the lockfile pins and leaves the lockfile unchanged #14124 . Under nod",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12 RC 10",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.10",
+      "published": "2026-08-24T19:06:14Z",
+      "preview": "Patch Changes Fixed pnpm v11 incorrectly reporting confirmModulesPurge as unrecognized when set in pnpm-workspace.yaml . The Rust CLI now identifies the unsupported option as a pnpm v11 setting instead of suggesting an unrelated setting. A +<algorithm>.<hash> build in a devEngines.packageManager version no longer makes pnpm install --frozen-lockfile fail with ERR_PNPM_FROZEN_LOCKFILE_WITH_OUTDATED_LOCKFILE on a lockfile a plain install kept rewriting identically #14124 . The built-in compatibility database no longer adds dependencies that were detected by static analysis of published packages.",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "Windows Package Manager 1.29.290",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.290",
       "published": "2026-08-24T18:14:11Z",
@@ -38,28 +54,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v12.0.0-rc.10",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.10",
-      "published": "2026-08-24T14:50:06Z",
-      "preview": "v12.0.0-rc.10",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "44.41.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.41.1",
       "published": "2026-08-24T14:48:25Z",
       "preview": "44.41.1 (2026-08-24) Bug Fixes http/github: support cursor pagination ( #45241 ) ( 9cc1ab0 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v11.24.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.24.0",
-      "published": "2026-08-24T14:29:17Z",
-      "preview": "v11.24.0",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "v0.77.1",
