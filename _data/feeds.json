@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-24T08:32:06Z",
-  "cutoff": "2026-07-25T08:32:02Z",
+  "generated": "2026-08-24T09:32:17Z",
+  "cutoff": "2026-07-25T09:32:12Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
   ],
   "items": [
     {
+      "title": "v2026.8.12: Cleaner diagnostics and a raft of task, config, and tool fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.12",
+      "published": "2026-08-24T08:33:55Z",
+      "preview": "This release adds package uninstall support to the plugin bootstrap flow and fixes a broad set of task, config, tool, and diagnostic edge cases. Many changes turn silent failures and cryptic errors into actionable messages, so it is largely a robustness and quality-of-life release. Added bootstrap: Package-plugin managers now support pruning via an optional PackageUninstall hook, so mise bootstrap packages prune --manager <plugin> is no longer Homebrew-only. mise records ownership only for packages that go from missing to installed during an install, and prune removes only owned packages that ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "44.40.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.40.0",
       "published": "2026-08-24T08:22:24Z",
@@ -36,14 +44,6 @@
       "preview": "What's Changed Set oldest GCC to 8 to enable -ffile-prefix-map by @cho-m in #23533 audit: resolve untapped core dependencies by @MikeMcQuaid in #23542 Skip duplicate /v2/ when artifact domain already contains it by @jouve in #23062 cli/parser: fix help crash with -- arguments by @krehel in #23544 sorbet: Add a Tapioca compiler for Cask::DSL to type some more tests by @issyl0 in #23534 Clarify outdated cask version display by @HaraldNordgren in #23543 cask/upgrade: mirror per-file quarantine approval across upgrades by @aholland in #23546 rubocops/cask: add cops for all conditional stanzas by @",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "v2026.8.12",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.12",
-      "published": "2026-08-24T07:14:58Z",
-      "preview": "(bootstrap) add package plugin uninstall support by @jdx in [#1…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-interactive-config-v2026.8.6",
@@ -1732,14 +1732,6 @@
       "preview": "Minor Changes b67a665 : feat: require Node.js 22 as the minimum supported version Node.js 22 or higher is now required (previously the CLI still accepted Node.js 18, while engines already demanded 20). The CLI refuses to start on older runtimes and engines is set to >=22 ; Node.js 24 is the recommended version. CI, e2e, and smoke test matrices now cover Node.js 22, 24, and 26. Registry operators on Node.js 18 or 20 must upgrade the runtime before taking this release. b67a665 : feat: dual CJS + ESM build with exports field, migrate build from babel to vite 8 Native ESM support. The package now ",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
-      "published": "2026-07-25T08:42:55Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-07-23-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     }
   ]
 }
