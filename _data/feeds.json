@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-24T11:29:39Z",
-  "cutoff": "2026-07-25T11:29:33Z",
+  "generated": "2026-08-24T12:31:22Z",
+  "cutoff": "2026-07-25T12:31:17Z",
   "feed_count": 79,
   "item_count": 215,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.77.1",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.77.1",
+      "published": "2026-08-24T12:22:30Z",
+      "preview": "[0.77.1] - 2026-08-24 Added Add pixi workspace preview subcommand by @ruben-arts in #6859 Update rattler, rattler-build, minijinja, and display channel notices by @wolfv in #6852 Add one consistent API for detecting host machine by @Hofer-Julian in #6864 Changed Use .mojoc with precompile by @sstadick in #6860 Render lists in the generated CLI docs by @Hofer-Julian in #6868 Documentation Fix lists that render as plain text by @Hofer-Julian in #6871 Add a social card for link previews by @Hofer-Julian in #6876 Fixed Remove backends channel from pixi repo by @Hofer-Julian in #6862 Avoid rebuilds",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.41.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.41.0",
+      "published": "2026-08-24T11:42:24Z",
+      "preview": "44.41.0 (2026-08-24) Features config: add overrideDescription option ( #45400 ) ( 9d0e535 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -422,14 +438,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "44.36.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.36.0",
-      "published": "2026-08-20T19:15:49Z",
-      "preview": "44.36.0 (2026-08-20) Features onboarding: improve wording of concurrency limits with PRs opened ( #45213 ) ( bf17167 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "0.99.0",
       "url": "https://github.com/rust-lang/cargo/releases/tag/0.99.0",
       "published": "2026-08-20T17:10:25Z",
@@ -612,14 +620,6 @@
       "preview": "Deployment at 2026-08-18T11:44:38.196169Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "pixi-build-cmake-v0.4.6",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.6",
-      "published": "2026-08-18T11:27:37Z",
-      "preview": "chore: bump backend versions ( #6845 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-mojo-v0.2.6",
