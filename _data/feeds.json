@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T15:32:14Z",
-  "cutoff": "2026-07-26T15:32:08Z",
+  "generated": "2026-08-25T16:30:45Z",
+  "cutoff": "2026-07-26T16:30:40Z",
   "feed_count": 79,
   "item_count": 220,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.44.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.44.0",
+      "published": "2026-08-25T16:13:26Z",
+      "preview": "44.44.0 (2026-08-25) Features http/bitbucket: surface deprecated and removed API functionality ( #45446 ) ( 4eee9a4 ) Bug Fixes manager/sveltos: concatenate repositoryURL with chartName for OCI ( #45439 ) ( 448597f ) platform/bitbucket: remove support for Issues ( #45445 ) ( ad63ddd ), closes #20568 Miscellaneous Chores deps: update vitest monorepo to v4.1.11 (main) ( #45452 ) ( e173b32 ) Code Refactoring http: add a handleResponse hook ( #45449 ) ( 3861bda )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-08-25T16:03:01Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "v2.12.6",
       "url": "https://github.com/macports/macports-base/releases/tag/v2.12.6",
@@ -190,14 +206,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-08-24T11:23:00Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
       "title": "44.40.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.40.1",
       "published": "2026-08-24T11:05:39Z",
@@ -284,14 +292,6 @@
       "preview": "Major Changes A project's pnpm-workspace.yaml may no longer carry a setting pnpm does not recognize. Such a setting used to be ignored in silence — a misspelled minimumReleaseAge dropped the policy it was meant to set, and nothing said so. Now it is reported, suggesting the closest real setting name when the key looks like a typo, and it fails the command with ERR_PNPM_UNRECOGNIZED_WORKSPACE_SETTINGS when the project pins a pnpm version the running pnpm satisfies: with the pin honored, the setting cannot be meant for a different pnpm version, so it is a mistake to fix rather than a key to igno",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.39.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.39.3",
-      "published": "2026-08-23T18:49:48Z",
-      "preview": "44.39.3 (2026-08-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.2 (main) ( #45405 ) ( 047e5e7 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.17 (main) ( #45403 ) ( 2f658f0 ) deps: update dependency @smithy/util-stream to v4.8.1 (main) ( #45338 ) ( c2dd4f8 ) deps: update dependency @smithy/util-stream to v4.8.2 (main) ( #45397 ) ( 55f5c17 ) deps: update dependency pnpm to v11.22.0 (main) ( #45398 ) ( 92e0ab4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.8.11: Automatic updates, remote mise installs, and versioned lockfiles",
