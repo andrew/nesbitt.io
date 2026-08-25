@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - cli
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mtvlilyxni2h"
 ---
 
 I've been reading through the recent run of incidents where package-manager infrastructure was the attack surface, as one does on a Sunday afternoon. One question I kept coming back to was whether the tools have any defences at the flag and config level. Every package manager has an override that turns off a check: `--allow-unauthenticated`, `--break-system-packages`, `--ignore-scripts`, an env var that points the resolver at a different registry. If a compromised install script can pass those as easily as a person at a keyboard can, the check does very little. So I went looking at how command-line tools more generally handle their dangerous overrides, `sudo` and `curl` and `rm` and the rest, and the catalogue got long enough to write up on its own.
