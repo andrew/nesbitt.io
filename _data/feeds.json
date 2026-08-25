@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-24T23:28:13Z",
-  "cutoff": "2026-07-25T23:28:09Z",
+  "generated": "2026-08-25T00:32:02Z",
+  "cutoff": "2026-07-26T00:31:58Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-164.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-164.0.dev",
+      "published": "2026-08-25T00:14:24Z",
+      "preview": "SDK 3.14.0-164.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-163.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-163.0.dev",
+      "published": "2026-08-25T00:14:20Z",
+      "preview": "SDK 3.14.0-163.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-162.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-162.0.dev",
+      "published": "2026-08-25T00:14:16Z",
+      "preview": "SDK 3.14.0-162.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-161.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-161.0.dev",
+      "published": "2026-08-25T00:14:13Z",
+      "preview": "SDK 3.14.0-161.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-160.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-160.0.dev",
+      "published": "2026-08-25T00:14:09Z",
+      "preview": "SDK 3.14.0-160.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "v12.0.0-rc.11",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.11",
@@ -334,14 +374,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.14.0-154.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-154.0.dev",
-      "published": "2026-08-22T00:14:01Z",
-      "preview": "SDK 3.14.0-154.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "44.39.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.39.1",
       "published": "2026-08-21T13:58:08Z",
@@ -420,38 +452,6 @@
       "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionType . Tcp The remediation was impleme",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "SDK-3.14.0-153.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-153.0.dev",
-      "published": "2026-08-21T00:15:03Z",
-      "preview": "SDK 3.14.0-153.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-152.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-152.0.dev",
-      "published": "2026-08-21T00:15:00Z",
-      "preview": "SDK 3.14.0-152.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-151.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-151.0.dev",
-      "published": "2026-08-21T00:14:57Z",
-      "preview": "SDK 3.14.0-151.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-150.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-150.0.dev",
-      "published": "2026-08-21T00:14:55Z",
-      "preview": "SDK 3.14.0-150.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "Enabling the next-generation trait solver on nightly",
