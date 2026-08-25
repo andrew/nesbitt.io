@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T07:32:35Z",
-  "cutoff": "2026-07-26T07:32:28Z",
+  "generated": "2026-08-25T10:30:06Z",
+  "cutoff": "2026-07-26T10:30:01Z",
   "feed_count": 79,
   "item_count": 218,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12 RC 11",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.11",
+      "published": "2026-08-25T09:49:21Z",
+      "preview": "Minor Changes pnpm stage approve now approves several staged packages at once. Run it without a stage id to pick from the staged versions interactively, or pass a list of stage ids. The whole batch is approved with a single one-time password, and pnpm asks for a new one only once the registry stops accepting it. Inside a workspace, the selected packages are approved in dependency order, and a package whose workspace dependency could not be approved is skipped instead of being published against a dependency that never reached the registry. Patch Changes Under nodeLinker: isolated , a Bit root-c",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.42.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.42.0",
@@ -76,14 +84,6 @@
       "preview": "SDK 3.14.0-160.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "v12.0.0-rc.11",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.11",
-      "published": "2026-08-24T22:46:48Z",
-      "preview": "v12.0.0-rc.11",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 11.24",
