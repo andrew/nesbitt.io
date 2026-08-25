@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T19:29:59Z",
-  "cutoff": "2026-07-26T19:29:54Z",
+  "generated": "2026-08-25T20:29:25Z",
+  "cutoff": "2026-07-26T20:29:21Z",
   "feed_count": 79,
   "item_count": 220,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.6",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.6",
+      "published": "2026-08-25T19:41:07Z",
+      "preview": "Release Notes Released on 2026-08-25. Python Update CPython to use OpenSSL 3.5.8 and libffi 3.4.8 #21295 ) Enhancements Report cache-cleaning space savings from filesystem block allocation and avoid double-counting hard links ( #21261 ) Limit warnings about unbounded uv_build requirements to source-distribution builds ( #21078 ) Display byte counts below 1 KiB without a fractional part ( #21237 ) Preview features Add uv workspace metadata --sync --exact to remove packages outside the selected resolution ( #21117 ) Add the artifact-hash-filtering preview feature to make uv pip compile --generat",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "MacPorts 2.12.6",
       "url": "https://github.com/macports/macports-base/releases/tag/v2.12.6",
@@ -1772,14 +1780,6 @@
       "preview": "changes with compatibility implications fix: Forked run uses working directory by @jozanek in #9442 🐛 bug fixes fix: Fixes test ClassLoader retention issues by @kevin-lee in #9485 fix: Fixes common settings with a plugin with extraProjects by @eed3si9n in #9495 fix: Fixes dependency tree rendering on some libraries by @anatoliykmetyuk in #9371 fix: Fixes tests not detecting stale resources by @eed3si9n in #9469 fix: Fixes sbtn not propagating -java-home by @BrianHotopp in #9448 fix: Fixes clean task not cleaning sona-staging by @eed3si9n in #9479 fix: Fixes reboot from sbtn by @BrianHotopp in ",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "v6.9.0",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.9.0",
-      "published": "2026-07-26T20:05:02Z",
-      "preview": "Minor Changes b67a665 : feat: require Node.js 22 as the minimum supported version Node.js 22 or higher is now required (previously the CLI still accepted Node.js 18, while engines already demanded 20). The CLI refuses to start on older runtimes and engines is set to >=22 ; Node.js 24 is the recommended version. CI, e2e, and smoke test matrices now cover Node.js 22, 24, and 26. Registry operators on Node.js 18 or 20 must upgrade the runtime before taking this release. b67a665 : feat: dual CJS + ESM build with exports field, migrate build from babel to vite 8 Native ESM support. The package now ",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     }
   ]
 }
