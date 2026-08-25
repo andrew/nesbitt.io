@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-25T21:29:23Z",
-  "cutoff": "2026-07-26T21:29:17Z",
+  "generated": "2026-08-25T22:29:11Z",
+  "cutoff": "2026-07-26T22:29:06Z",
   "feed_count": 79,
-  "item_count": 220,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.8.13: Task exclusions, visible conf.d fragments, and a broad round of fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.13",
+      "published": "2026-08-25T22:28:40Z",
+      "preview": "This release adds a few configuration and task features and delivers a large batch of fixes across completions, tools, lockfiles, tasks, config parsing, and shell integration. It also restores dynamic shell completions that regressed after the recent CLI parser change. Added task: New task_config.excludes lets file-task discovery skip config-root-relative paths, directories, and glob patterns, so accidental TOML files (like a pyproject.toml inside a task directory) or entire subtrees are no longer treated as tasks. The closest config that sets excludes replaces inherited values, and an empty l",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.45.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.1",
+      "published": "2026-08-25T21:58:47Z",
+      "preview": "44.45.1 (2026-08-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.5 (main) ( #45468 ) ( dfda756 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.45.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.0",
@@ -44,14 +60,6 @@
       "preview": "Changes since 2.12.5: Fixed potential unreliable application of network proxy settings with background fetches. (jmr in 6d9edb0 ) Fixed occasional failure to sync the PortIndex, which required portindex to run locally. (fhgwright in 928dc47 ) Added documentation for the 'none' option for 'port select'. (cvengler in 1552e82 ) Various reliability improvements for trace mode. (cal in 6dda4cc , 1db3e7f , bea36d7 )",
       "source": "MacPorts releases",
       "category": "System"
-    },
-    {
-      "title": "v2026.8.13",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.13",
-      "published": "2026-08-25T18:33:49Z",
-      "preview": "(bootstrap) add skip-dirty repo updates by @jdx in [ #12364 ](htt…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-interactive-config-v2026.8.7",
@@ -250,14 +258,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.41.0",
       "published": "2026-08-24T11:42:24Z",
       "preview": "44.41.0 (2026-08-24) Features config: add overrideDescription option ( #45400 ) ( 9d0e535 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.40.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.40.1",
-      "published": "2026-08-24T11:05:39Z",
-      "preview": "44.40.1 (2026-08-24) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.3 (main) ( #45419 ) ( 28abf41 ) Miscellaneous Chores deps: update dependency @oxlint/plugins to v1.78.0 (main) ( #45346 ) ( ea8d11b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1772,14 +1772,6 @@
       "preview": "What's Changed 📝 docs: update Linux install guidance by @vigneshakaviki in #1977 fix: allow read-only global list with inaccessible locks by @yangfan-yf-yf in #1975 New Contributors @vigneshakaviki made their first contribution in #1977 @yangfan-yf-yf made their first contribution in #1975 Full Changelog : 1.16.2...1.16.3",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "2.0.4",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.4",
-      "published": "2026-07-26T22:04:52Z",
-      "preview": "changes with compatibility implications fix: Forked run uses working directory by @jozanek in #9442 🐛 bug fixes fix: Fixes test ClassLoader retention issues by @kevin-lee in #9485 fix: Fixes common settings with a plugin with extraProjects by @eed3si9n in #9495 fix: Fixes dependency tree rendering on some libraries by @anatoliykmetyuk in #9371 fix: Fixes tests not detecting stale resources by @eed3si9n in #9469 fix: Fixes sbtn not propagating -java-home by @BrianHotopp in #9448 fix: Fixes clean task not cleaning sona-staging by @eed3si9n in #9479 fix: Fixes reboot from sbtn by @BrianHotopp in ",
-      "source": "sbt releases",
-      "category": "Maven"
     }
   ]
 }
