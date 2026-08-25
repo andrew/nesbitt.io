@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T16:30:45Z",
-  "cutoff": "2026-07-26T16:30:40Z",
+  "generated": "2026-08-25T19:29:59Z",
+  "cutoff": "2026-07-26T19:29:54Z",
   "feed_count": 79,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,46 @@
   ],
   "items": [
     {
+      "title": "MacPorts 2.12.6",
+      "url": "https://github.com/macports/macports-base/releases/tag/v2.12.6",
+      "published": "2026-08-25T18:57:30Z",
+      "preview": "Changes since 2.12.5: Fixed potential unreliable application of network proxy settings with background fetches. (jmr in 6d9edb0 ) Fixed occasional failure to sync the PortIndex, which required portindex to run locally. (fhgwright in 928dc47 ) Added documentation for the 'none' option for 'port select'. (cvengler in 1552e82 ) Various reliability improvements for trace mode. (cal in 6dda4cc , 1db3e7f , bea36d7 )",
+      "source": "MacPorts releases",
+      "category": "System"
+    },
+    {
+      "title": "v2026.8.13",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.13",
+      "published": "2026-08-25T18:33:49Z",
+      "preview": "(bootstrap) add skip-dirty repo updates by @jdx in [ #12364 ](htt…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-interactive-config-v2026.8.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.7",
+      "published": "2026-08-25T18:33:24Z",
+      "preview": "Release mise-interactive-config 2026.8.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.18",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.18",
+      "published": "2026-08-25T18:33:06Z",
+      "preview": "Release vfox 2026.8.18",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-rustc-v2026.8.11",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.11",
+      "published": "2026-08-25T18:32:39Z",
+      "preview": "Release mise-cache-rustc 2026.8.11",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "44.44.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.44.0",
       "published": "2026-08-25T16:13:26Z",
@@ -36,14 +76,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2.12.6",
-      "url": "https://github.com/macports/macports-base/releases/tag/v2.12.6",
-      "published": "2026-08-25T14:37:37Z",
-      "preview": "MacPorts 2.12.6",
-      "source": "MacPorts releases",
-      "category": "System"
     },
     {
       "title": "44.43.1",
@@ -302,42 +334,10 @@
       "category": "Multi-language"
     },
     {
-      "title": "mise-interactive-config-v2026.8.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.5",
-      "published": "2026-08-23T14:51:12Z",
-      "preview": "Release mise-interactive-config 2026.8.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.8.16",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.16",
       "published": "2026-08-23T14:50:50Z",
       "preview": "Release vfox 2026.8.16",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.8.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.8.2",
-      "published": "2026-08-23T14:50:30Z",
-      "preview": "Release mise-sigstore 2026.8.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-rustc-v2026.8.9",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.9",
-      "published": "2026-08-23T14:50:24Z",
-      "preview": "Release mise-cache-rustc 2026.8.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-core-v2026.8.8",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.8.8",
-      "published": "2026-08-23T14:50:12Z",
-      "preview": "Release mise-cache-core 2026.8.8",
       "source": "mise releases",
       "category": "Multi-language"
     },
