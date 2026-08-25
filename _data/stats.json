@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-22T09:13:49Z",
-  "total_posts": 199,
-  "total_words": 275872,
-  "reading_minutes": 1380,
-  "average_words": 1386,
+  "generated_at": "2026-08-25T10:13:48Z",
+  "total_posts": 201,
+  "total_words": 278441,
+  "reading_minutes": 1393,
+  "average_words": 1385,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "Issues in the Repo",
-    "url": "/2026/08/20/issues-in-the-repo.html",
-    "date": "2026-08-20"
+    "title": "Hardening the Override Flag",
+    "url": "/2026/08/25/hardening-the-override-flag.html",
+    "date": "2026-08-25"
   },
   "years_active": 9.5,
   "posts_per_month": 1.7,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 159
+      "count": 161
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-08",
-      "count": 11
+      "count": 13
     },
     {
       "month": "2026-07",
@@ -117,20 +117,20 @@
   "posts_by_day_of_week": {
     "sunday": 18,
     "monday": 26,
-    "tuesday": 31,
+    "tuesday": 32,
     "wednesday": 23,
     "thursday": 36,
     "friday": 34,
-    "saturday": 31
+    "saturday": 32
   },
   "tags": [
     {
       "name": "package-managers",
-      "count": 135
+      "count": 137
     },
     {
       "name": "security",
-      "count": 48
+      "count": 49
     },
     {
       "name": "open-source",
@@ -174,7 +174,7 @@
     },
     {
       "name": "weekly",
-      "count": 13
+      "count": 14
     },
     {
       "name": "ecosyste.ms",
@@ -189,15 +189,15 @@
       "count": 8
     },
     {
-      "name": "npm",
-      "count": 7
-    },
-    {
       "name": "git-pkgs",
       "count": 7
     },
     {
-      "name": "sbom",
+      "name": "npm",
+      "count": 7
+    },
+    {
+      "name": "registries",
       "count": 6
     },
     {
@@ -205,15 +205,11 @@
       "count": 6
     },
     {
-      "name": "registries",
+      "name": "sbom",
       "count": 6
     },
     {
       "name": "research",
-      "count": 5
-    },
-    {
-      "name": "go",
       "count": 5
     },
     {
@@ -225,15 +221,19 @@
       "count": 5
     },
     {
-      "name": "sustainability",
-      "count": 4
+      "name": "go",
+      "count": 5
     },
     {
       "name": "metrics",
       "count": 4
     },
     {
-      "name": "javascript",
+      "name": "sustainability",
+      "count": 4
+    },
+    {
+      "name": "rust",
       "count": 3
     },
     {
@@ -241,31 +241,11 @@
       "count": 3
     },
     {
-      "name": "rust",
+      "name": "javascript",
       "count": 3
     },
     {
-      "name": "taxonomy",
-      "count": 2
-    },
-    {
       "name": "oci",
-      "count": 2
-    },
-    {
-      "name": "metadata",
-      "count": 2
-    },
-    {
-      "name": "fosdem",
-      "count": 2
-    },
-    {
-      "name": "conferences",
-      "count": 2
-    },
-    {
-      "name": "python",
       "count": 2
     },
     {
@@ -273,11 +253,7 @@
       "count": 2
     },
     {
-      "name": "semver",
-      "count": 2
-    },
-    {
-      "name": "versioning",
+      "name": "policy",
       "count": 2
     },
     {
@@ -285,23 +261,39 @@
       "count": 2
     },
     {
-      "name": "policy",
+      "name": "python",
       "count": 2
     },
     {
-      "name": "zig",
-      "count": 1
+      "name": "metadata",
+      "count": 2
     },
     {
-      "name": "activitypub",
+      "name": "conferences",
+      "count": 2
+    },
+    {
+      "name": "fosdem",
+      "count": 2
+    },
+    {
+      "name": "versioning",
+      "count": 2
+    },
+    {
+      "name": "taxonomy",
+      "count": 2
+    },
+    {
+      "name": "semver",
+      "count": 2
+    },
+    {
+      "name": "infrastructure",
       "count": 1
     },
     {
       "name": "unboxed",
-      "count": 1
-    },
-    {
-      "name": "fediverse",
       "count": 1
     },
     {
@@ -313,7 +305,7 @@
       "count": 1
     },
     {
-      "name": "testing",
+      "name": "writing",
       "count": 1
     },
     {
@@ -321,7 +313,23 @@
       "count": 1
     },
     {
-      "name": "writing",
+      "name": "testing",
+      "count": 1
+    },
+    {
+      "name": "zig",
+      "count": 1
+    },
+    {
+      "name": "fediverse",
+      "count": 1
+    },
+    {
+      "name": "activitypub",
+      "count": 1
+    },
+    {
+      "name": "cli",
       "count": 1
     },
     {
@@ -337,6 +345,10 @@
       "count": 1
     },
     {
+      "name": "benchmarks",
+      "count": 1
+    },
+    {
       "name": "the-path",
       "count": 1
     },
@@ -349,31 +361,11 @@
       "count": 1
     },
     {
-      "name": "jekyll",
-      "count": 1
-    },
-    {
-      "name": "infrastructure",
-      "count": 1
-    },
-    {
-      "name": "apisix",
-      "count": 1
-    },
-    {
       "name": "software heritage",
       "count": 1
     },
     {
-      "name": "benchmarks",
-      "count": 1
-    },
-    {
-      "name": "software development",
-      "count": 1
-    },
-    {
-      "name": "christmas",
+      "name": "productivity",
       "count": 1
     },
     {
@@ -381,7 +373,19 @@
       "count": 1
     },
     {
-      "name": "productivity",
+      "name": "jekyll",
+      "count": 1
+    },
+    {
+      "name": "christmas",
+      "count": 1
+    },
+    {
+      "name": "apisix",
+      "count": 1
+    },
+    {
+      "name": "software development",
       "count": 1
     }
   ],
