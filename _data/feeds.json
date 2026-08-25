@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-25T11:30:30Z",
-  "cutoff": "2026-07-26T11:29:12Z",
+  "generated": "2026-08-25T12:31:13Z",
+  "cutoff": "2026-07-26T12:31:07Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.11.0.17",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.17",
+      "published": "2026-08-25T12:30:55Z",
+      "preview": "Insert 7.11.0.17 into main on 08/25/2026 12:30:54",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "44.43.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.43.0",
+      "published": "2026-08-25T12:15:52Z",
+      "preview": "44.43.0 (2026-08-25) Features manager/github-actions: add workflow depType for reusable workflow calls ( #45443 ) ( 69e0523 ) Miscellaneous Chores deps: update jdx/mise-action action to v4.3.0 (main) ( #45442 ) ( 577ffce )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.42.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.42.2",
+      "published": "2026-08-25T11:50:16Z",
+      "preview": "44.42.2 (2026-08-25) Bug Fixes manager/copier: report template conflicts as artifact errors ( #45433 ) ( c3b0166 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.42.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.42.1",
@@ -398,14 +422,6 @@
       "category": "Registries"
     },
     {
-      "title": "44.39.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.39.1",
-      "published": "2026-08-21T13:58:08Z",
-      "preview": "44.39.1 (2026-08-21) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.1 (main) ( #45387 ) ( 1208dd3 ) Miscellaneous Chores deps: update github/codeql-action action to v4.37.8 (main) ( #45386 ) ( b7f19dc )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "5.4.3.0",
       "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.3.0",
       "published": "2026-08-21T12:31:16Z",
@@ -428,14 +444,6 @@
       "preview": "Insert 7.11.0.14 into main on 08/21/2026 12:22:43",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.39.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.39.0",
-      "published": "2026-08-21T12:13:10Z",
-      "preview": "44.39.0 (2026-08-21) Features onboarding: show \"What to Expect\" first in summary view ( #44922 ) ( d1b6830 ) Documentation manager/gradle: add link to Dependency Verification docs ( #45384 ) ( 1fc0a3e ) Code Refactoring workers/repository: extract PR body template helpers for onboarding/reconfigure ( #45382 ) ( 4593b9b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.13.0",
@@ -828,6 +836,14 @@
       "preview": "Release Notes Released on 2026-08-14. Python Add CPython 3.10.21, 3.11.16, and 3.12.14 ( #21138 ) Prefer newer versions and standard variants when selecting between equally prioritized Python interpreters ( #21134 ) Enhancements Simplify errors and hints for invalid editable requirements, and redact credentials in requirement URLs ( #21130 ) Preview features Allow --index and --default-index to select configured package indexes by name with the index-by-name preview feature ( #17455 ) Include distribution artifact URLs and hashes in CycloneDX SBOM exports by default ( #21131 ) Fall back to log",
       "source": "uv releases",
       "category": "Python"
+    },
+    {
+      "title": "3.3.3",
+      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.3",
+      "published": "2026-08-14T15:52:09Z",
+      "preview": "apt Debian release 3.3.3",
+      "source": "APT releases",
+      "category": "System"
     },
     {
       "title": "Helm v4.2.4",
@@ -1412,6 +1428,14 @@
       "preview": "v2.0.0-beta.20",
       "source": "Docker Engine releases",
       "category": "Containers"
+    },
+    {
+      "title": "3.3.2",
+      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.2",
+      "published": "2026-07-30T20:46:13Z",
+      "preview": "apt Debian release 3.3.2",
+      "source": "APT releases",
+      "category": "System"
     },
     {
       "title": "3.18.0+0",
