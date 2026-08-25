@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T06:31:26Z",
-  "cutoff": "2026-07-26T06:31:21Z",
+  "generated": "2026-08-25T07:32:35Z",
+  "cutoff": "2026-07-26T07:32:28Z",
   "feed_count": 79,
   "item_count": 218,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.42.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.42.0",
+      "published": "2026-08-25T07:31:15Z",
+      "preview": "44.42.0 (2026-08-25) Features always set CI=true for subprocesses ( 43d63f9 ), closes #43761 #43606 always set CI=true for subprocesses ( 5b17499 ), closes #43761 #43606 Code Refactoring manager/npm: remove redundant CI=true ( f50bee3 ) tools: extract function for basicEnvVars docs ( 8770bff ) Tests manager/npm: fix getChildProcessEnv mock in yarn tests ( 2779587 ) util/exec: be more strict in expected value ( 0d920f1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.16.8",
       "url": "https://github.com/pypa/pipx/releases/tag/1.16.8",
@@ -468,14 +476,6 @@
       "preview": "After nearly 4 years of active development, the next-generation trait solver is close to stabilization. We are enabling it by default on nightly to surface any remaining issues and plan to stabilize it in the next months. This is the largest single change to the Rust compiler since its initial release. It completely replaces how we prove where-clauses, normalize associated types, and much more. Please try out the latest nightly and open an issue if you encounter any bugs or regressions. This is an internal component of the compiler. The main benefits of this rework will come in the future. The",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "44.37.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.37.1",
-      "published": "2026-08-20T23:03:47Z",
-      "preview": "44.37.1 (2026-08-20) Bug Fixes onboarding: clarify security PRs are not part of limits ( #45215 ) ( 98988e1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12 RC 8",
