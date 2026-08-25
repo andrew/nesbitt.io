@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T20:29:25Z",
-  "cutoff": "2026-07-26T20:29:21Z",
+  "generated": "2026-08-25T21:29:23Z",
+  "cutoff": "2026-07-26T21:29:17Z",
   "feed_count": 79,
   "item_count": 220,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.45.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.0",
+      "published": "2026-08-25T20:56:15Z",
+      "preview": "44.45.0 (2026-08-25) Features http/bitbucket: warn when an endpoint announces a deprecation ( #45461 ) ( a4b5c18 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.6 (main) ( #45464 ) ( f35acdd ) deps: update dependency uv to v0.12.6 (main) ( #45465 ) ( 1d366f3 ) Tests manager/bundler: add missing branch coverage in extract() ( #45457 ) ( aa5d1e5 ) versioning/conan: ignore unreachable coverage branches ( #45458 ) ( 0cc9356 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.12.6",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.6",
@@ -276,14 +284,6 @@
       "preview": "This release adds package uninstall support to the plugin bootstrap flow and fixes a broad set of task, config, tool, and diagnostic edge cases. Many changes turn silent failures and cryptic errors into actionable messages, so it is largely a robustness and quality-of-life release. Added bootstrap: Package-plugin managers now support pruning via an optional PackageUninstall hook, so mise bootstrap packages prune --manager <plugin> is no longer Homebrew-only. mise records ownership only for packages that go from missing to installed during an install, and prune removes only owned packages that ",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.40.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.40.0",
-      "published": "2026-08-24T08:22:24Z",
-      "preview": "44.40.0 (2026-08-24) Features data: automatic update of static data ( #45401 ) ( c05d35a ) Documentation update references to otel/opentelemetry-collector-contrib to v0.159.0 (main) ( #45408 ) ( 823dd62 ) update references to prom/prometheus to v3.14.0 (main) ( #45410 ) ( 385ab96 ) update references to python to 4fad234 (main) ( #45407 ) ( 9ce288e ) update references to renovate/renovate (main) ( #45411 ) ( e162f91 ) update references to renovatebot/github-action to v46.2.3 (main) ( #45412 ) ( 7aafba7 ) Miscellaneous Chores deps: lock file maintenance (main) ( #45413 ) ( 597312a ) deps: lock f",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "6.0.19",
