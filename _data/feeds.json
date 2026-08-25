@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T12:31:13Z",
-  "cutoff": "2026-07-26T12:31:07Z",
+  "generated": "2026-08-25T13:36:13Z",
+  "cutoff": "2026-07-26T13:36:08Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.43.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.43.1",
+      "published": "2026-08-25T13:01:04Z",
+      "preview": "44.43.1 (2026-08-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.4 (main) ( #45444 ) ( 7d7f286 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.11.0.17",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.17",
@@ -380,14 +388,6 @@
       "preview": "Insert 7.11.0.16 into main on 08/22/2026 12:37:55",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.39.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.39.2",
-      "published": "2026-08-22T11:46:57Z",
-      "preview": "44.39.2 (2026-08-22) Bug Fixes linters: forbid inert counts in v8 coverage-ignore comments ( #45287 ) ( a473e73 ) Continuous Integration add commit hook for BREAKING CHANGE ( #45391 ) ( aaeedf2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-158.0.dev",
