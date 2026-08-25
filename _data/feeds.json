@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-25T22:29:11Z",
-  "cutoff": "2026-07-26T22:29:06Z",
+  "generated": "2026-08-25T23:28:48Z",
+  "cutoff": "2026-07-26T23:28:43Z",
   "feed_count": 79,
   "item_count": 219,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.45.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.2",
+      "published": "2026-08-25T23:23:01Z",
+      "preview": "44.45.2 (2026-08-25) Bug Fixes github-graphql: lower shrinkPageSize floor from 25 to 5 ( #45460 ) ( d4c29b1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.8.13: Task exclusions, visible conf.d fragments, and a broad round of fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.13",
@@ -252,14 +260,6 @@
       "preview": "[0.77.1] - 2026-08-24 Added Add pixi workspace preview subcommand by @ruben-arts in #6859 Update rattler, rattler-build, minijinja, and display channel notices by @wolfv in #6852 Add one consistent API for detecting host machine by @Hofer-Julian in #6864 Changed Use .mojoc with precompile by @sstadick in #6860 Render lists in the generated CLI docs by @Hofer-Julian in #6868 Documentation Fix lists that render as plain text by @Hofer-Julian in #6871 Add a social card for link previews by @Hofer-Julian in #6876 Fixed Remove backends channel from pixi repo by @Hofer-Julian in #6862 Avoid rebuilds",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.41.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.41.0",
-      "published": "2026-08-24T11:42:24Z",
-      "preview": "44.41.0 (2026-08-24) Features config: add overrideDescription option ( #45400 ) ( 9d0e535 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "New release 2.76.3",
