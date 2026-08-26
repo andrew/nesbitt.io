@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T07:33:49Z",
-  "cutoff": "2026-07-27T07:33:44Z",
+  "generated": "2026-08-26T10:30:19Z",
+  "cutoff": "2026-07-27T10:30:15Z",
   "feed_count": 79,
   "item_count": 218,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.46.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.1",
+      "published": "2026-08-26T10:00:53Z",
+      "preview": "44.46.1 (2026-08-26) Bug Fixes manager/gomod: handle bare ../ replace paths in gomodTidyAll ( #45392 ) ( cee4515 ) Miscellaneous Chores deps: update linters to v1.79.0 (main) ( #44542 ) ( 91dafe9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.46.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.0",
@@ -218,14 +226,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.43.0",
       "published": "2026-08-25T12:15:52Z",
       "preview": "44.43.0 (2026-08-25) Features manager/github-actions: add workflow depType for reusable workflow calls ( #45443 ) ( 69e0523 ) Miscellaneous Chores deps: update jdx/mise-action action to v4.3.0 (main) ( #45442 ) ( 577ffce )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.42.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.42.2",
-      "published": "2026-08-25T11:50:16Z",
-      "preview": "44.42.2 (2026-08-25) Bug Fixes manager/copier: report template conflicts as artifact errors ( #45433 ) ( c3b0166 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
