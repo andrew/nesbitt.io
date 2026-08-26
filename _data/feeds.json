@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-26T16:37:47Z",
-  "cutoff": "2026-07-27T16:37:43Z",
+  "generated": "2026-08-26T19:00:30Z",
+  "cutoff": "2026-07-27T19:00:24Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -1740,22 +1740,6 @@
       "preview": "0.5.1 Changelog client/pkg/jsonmessage: Display: fix godoc link. moby/moby#53070 client: ServiceCreate, ServiceUpdate: fix duplicate and 'unkown' platforms. moby/moby#53012 client: ServiceInspect, ContainerCommit: omit optional query args if not set. moby/moby#53010 golangci-lint: enable perfsprint linter. moby/moby#53016",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "2026-07-24 Release",
-      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-07-24",
-      "published": "2026-07-27T18:58:58Z",
-      "preview": "This release failed validation due to an unexpected HEAD_REF being passed to vcpkg_download_distfile by liblas so it will not be promoted, but it should work if you aren't doing that: https://dev.azure.com/vcpkg/public/_build/results?buildId=134909&view=results What's Changed Update vcpkg-tool-release-process. by Billy O'Neal (@BillyONeal) in #2070 Use canonical vcpkg PURLs in dependency snapshots by Jamie Magee (@JamieMagee) in #2072 Add Git tree gitoids to SPDX SBOMs by Jamie Magee (@JamieMagee) in #2074 Fix dependency snapshot relationships and correlators by Jamie Magee (@JamieMagee) in #2",
-      "source": "vcpkg releases",
-      "category": "C/C++"
-    },
-    {
-      "title": "v0.389.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.389.0",
-      "published": "2026-07-27T18:25:20Z",
-      "preview": "What's Changed Rescue errors in metadata_cascades_for_dep to prevent PR message loss by @yeikel in #14905 Bump sigstore from 4.1.0 to 4.1.1 in /npm_and_yarn/helpers by @dependabot [bot] in #15484 Bump handlebars from 4.7.8 to 4.7.9 in /npm_and_yarn/helpers by @dependabot [bot] in #14547 Bump lodash from 4.17.23 to 4.18.1 in /npm_and_yarn/helpers by @dependabot [bot] in #14605 fix: use canonical LOCKFILE_ENTRY_REGEX in replace-lockfile-declaration.ts by @thavaahariharangit with @Copilot in #15642 Prevent update job crash when a pinned GitHub Actions SHA is missing by @robaiken in #15628 feat(np",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
