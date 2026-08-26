@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-26T13:38:55Z",
-  "cutoff": "2026-07-27T13:38:49Z",
+  "generated": "2026-08-26T15:52:20Z",
+  "cutoff": "2026-07-27T15:52:15Z",
   "feed_count": 79,
-  "item_count": 217,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0",
+      "published": "2026-08-26T15:13:51Z",
+      "preview": "Major Changes Git dependencies on known hosts (GitHub, GitLab, Bitbucket) are now treated as identities rather than transport choices. Every representation of the same repository — github:owner/repo , owner/repo , git+https://… , git+ssh://git@… — resolves through the host's canonical HTTPS URL, and the lockfile never records an SSH URL for them. Repositories whose archive endpoint is anonymously reachable resolve to the host's archive (fast tarball download); all others resolve to a git clone of the canonical HTTPS URL, which every machine with access to the repository can fetch. To reach a p",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpr 0.1.0-alpha.8",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.8",
+      "published": "2026-08-26T15:13:05Z",
+      "preview": "Minor Changes Added an opt-in proof of concept that lets installs reuse a dependency's build output across machines, by publishing and restoring signed, organization-scoped artifacts through pnpr instead of running the lifecycle scripts locally. Configure it with the new remoteSideEffectsCache setting. A workspace names the eligible organization and packages ; everything describing the act of signing — publish , keyId , builderId , trustedKeys , privateKey and the provenance fields — is refused in pnpm-workspace.yaml and read from the global config file or the environment instead. Hosted pnpr ",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.46.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.4",
@@ -132,6 +148,14 @@
       "preview": "SDK 3.13.2",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "Announcing our first Maintainers in Residence",
+      "url": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
+      "published": "2026-08-26T00:00:00Z",
+      "preview": "We are very happy to announce the Rust Project's first round of Maintainers in Residence: Gen Li ( @rami3l ), Chris Denton ( @ChrisDenton ), Alejandra González ( @blyxyas ), León Liehr ( @fmease ), and Maintainer Grant recipients: Jason Newcomb ( @Jarcho ) and Jonas Böttiger ( @joboet ). These contributors will be funded for their rust-lang maintenance activities for (at least) the following 12 months! The funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, th",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "vfox-v2026.8.19",
@@ -828,22 +852,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-14-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 11.22",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.22.0",
-      "published": "2026-08-15T17:18:05Z",
-      "preview": "Minor Changes Added pnpm cache path , which prints the directory pnpm uses for its metadata cache. CI setups can use it to cache that directory — including the lockfile verification log, which lets a job skip re-checking an unchanged lockfile against the configured supply-chain policies. --config.config-dir no longer reaches the config through a project's pnpm-workspace.yaml , and neither do the --config. spellings of the other settings a project manifest may no longer contribute ( --config.pnpm-home-dir , --config.workspace-dir , --config.global-pkg-dir , --config.root-project-manifest-dir ).",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12 RC 6",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.6",
-      "published": "2026-08-15T17:17:48Z",
-      "preview": "Minor Changes Added pnpm cache path , which prints the directory pnpm uses for its metadata cache. CI setups can use it to cache that directory — including the lockfile verification log, which lets a job skip re-checking an unchanged lockfile against the configured supply-chain policies. pnpm installs the other package managers now, not just itself: npm, Yarn Classic, Yarn Berry, Yarn 6 ( yarnpkg/zpm ), and Bun. Each is resolved and fetched through the trusted package-manager registries, and an npm-published one is verified against npm's signature for its exact version before it is executed. T",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-13-a",
