@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-26T19:57:58Z",
-  "cutoff": "2026-07-27T19:57:53Z",
+  "generated": "2026-08-26T21:10:25Z",
+  "cutoff": "2026-07-27T21:10:21Z",
   "feed_count": 79,
-  "item_count": 213,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.10.1",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.1",
+      "published": "2026-08-26T20:51:59Z",
+      "preview": "Patch Changes 90d5c20 : Import shared helpers from @verdaccio/core and drop the deprecated @verdaccio/utils dependency All internal usages of @verdaccio/utils now resolve the same helpers from @verdaccio/core (validation, auth, crypto, package and author utilities), and the @verdaccio/utils dependency has been removed. 7805d50: Limit web UI search responses to 20 packages. c84070b : Update verdaccio dependencies to the latest npm dist-tag ( @verdaccio/ui-theme tracks next-9 ): @verdaccio/ui-theme : 9.0.0-next-9.27 → 9.0.0-next-9.28",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "pnpm 12",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0",
@@ -156,6 +164,14 @@
       "preview": "We are very happy to announce the Rust Project's first round of Maintainers in Residence: Gen Li ( @rami3l ), Chris Denton ( @ChrisDenton ), Alejandra González ( @blyxyas ), León Liehr ( @fmease ), and Maintainer Grant recipients: Jason Newcomb ( @Jarcho ) and Jonas Böttiger ( @joboet ). These contributors will be funded for their rust-lang maintenance activities for (at least) the following 12 months! The funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, th",
       "source": "Rust Blog",
       "category": "Rust"
+    },
+    {
+      "title": "pnpm 12.0",
+      "url": "https://pnpm.io/blog/releases/12.0",
+      "published": "2026-08-26T00:00:00Z",
+      "preview": "pnpm 12 is stable. It is a rewrite of pnpm in Rust, and it is deliberately not a migration: the commands, flags, settings, and lockfile format of pnpm 11 all carry over, and the documentation describes both versions.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "vfox-v2026.8.19",
@@ -412,6 +428,14 @@
       "preview": "Defer signing wiring until projects are evaluated ( #38932 )",
       "source": "Gradle releases",
       "category": "Maven"
+    },
+    {
+      "title": "pnpm 11.24",
+      "url": "https://pnpm.io/blog/releases/11.24",
+      "published": "2026-08-24T00:00:00Z",
+      "preview": "pnpm 11.24 brings back pnpm approve-builds --global, which isolated global installs took away in v11.0, and makes recursive batch publishing group its packages by registry so a credential mismatch is caught before anything is published. It also stops --frozen-lockfile from failing over the pnpm version the lockfile pins.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "pnpm 12 RC 9",
@@ -1105,7 +1129,7 @@
       "title": "What's different in pnpm 12",
       "url": "https://pnpm.io/blog/whats-different-in-pnpm-12",
       "published": "2026-08-10T00:00:00Z",
-      "preview": "pnpm 12 is a rewrite of pnpm in Rust, and it is currently a release candidate. Upgrading is not meant to be a migration: apart from the differences below, it keeps the commands, flags, settings, and lockfile format of pnpm 11, and the documentation applies to both versions.",
+      "preview": "pnpm 12 is a rewrite of pnpm in Rust, stable since v12.0.0. Upgrading is not meant to be a migration: apart from the differences below, it keeps the commands, flags, settings, and lockfile format of pnpm 11, and the documentation applies to both versions.",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
