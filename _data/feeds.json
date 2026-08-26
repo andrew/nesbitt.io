@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T04:31:04Z",
-  "cutoff": "2026-07-27T04:31:00Z",
+  "generated": "2026-08-26T07:33:49Z",
+  "cutoff": "2026-07-27T07:33:44Z",
   "feed_count": 79,
   "item_count": 218,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.46.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.0",
+      "published": "2026-08-26T07:33:39Z",
+      "preview": "44.46.0 (2026-08-26) Features presets: add @oxlint/* packages to packages:linters and monorepo:oxlint ( #45466 ) ( 1012b34 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.45.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.4",
@@ -218,14 +226,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.42.2",
       "published": "2026-08-25T11:50:16Z",
       "preview": "44.42.2 (2026-08-25) Bug Fixes manager/copier: report template conflicts as artifact errors ( #45433 ) ( c3b0166 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.42.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.42.1",
-      "published": "2026-08-25T10:55:36Z",
-      "preview": "44.42.1 (2026-08-25) Bug Fixes platform/azure: detect hosted deployment when deploymentType is a string ( #45440 ) ( 694410d ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.9 (main) ( #45435 ) ( ccc37d5 ) deps: update dependency @types/markdown-it to v14.2.0 (main) ( #45436 ) ( 033d1a7 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
