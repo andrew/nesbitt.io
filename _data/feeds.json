@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T21:10:25Z",
-  "cutoff": "2026-07-27T21:10:21Z",
+  "generated": "2026-08-26T22:18:50Z",
+  "cutoff": "2026-07-27T22:18:45Z",
   "feed_count": 79,
   "item_count": 216,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "libnpmpack: v9.1.13",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.13",
+      "published": "2026-08-26T21:48:48Z",
+      "preview": "9.1.13 (2026-08-25) Bug Fixes 83b750d #9916 exempt explicit pack targets from allow-directory ( #9916 ) (@github-actions[bot], @ychampion , @ychampion )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.19.1",
+      "url": "https://github.com/npm/cli/releases/tag/v11.19.1",
+      "published": "2026-08-26T21:48:47Z",
+      "preview": "11.19.1 (2026-08-25) Bug Fixes 83b750d #9916 exempt explicit pack targets from allow-directory ( #9916 ) (@github-actions[bot], @ychampion , @ychampion ) Dependencies 4791b27 #9872 undici@6.28.0 ( @martinrrm , @Copilot) 823d647 #9872 ip-address@10.5.0 ( @martinrrm , @Copilot) 04f8efe #9872 brace-expansion@5.0.9 ( @martinrrm , @Copilot) 1610280 #9842 tar@7.5.22 ( #9842 ) ( @martinrrm , @Copilot) workspace : libnpmpack@9.1.13",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v6.10.1",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.1",
@@ -1550,14 +1566,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "libnpmdiff: v9.0.2",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v9.0.2",
-      "published": "2026-07-29T21:11:48Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.2",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v12.0.2",
       "url": "https://github.com/npm/cli/releases/tag/v12.0.2",
       "published": "2026-07-29T21:11:46Z",
@@ -1577,14 +1585,6 @@
       "title": "libnpmfund: v7.0.26",
       "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.26",
       "published": "2026-07-29T20:57:34Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.9.1",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmexec: v10.3.2",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v10.3.2",
-      "published": "2026-07-29T20:57:33Z",
       "preview": "Dependencies workspace : @npmcli/arborist@9.9.1",
       "source": "npm CLI releases",
       "category": "JavaScript"
