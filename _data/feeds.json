@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-25T23:28:48Z",
-  "cutoff": "2026-07-26T23:28:43Z",
+  "generated": "2026-08-26T00:32:05Z",
+  "cutoff": "2026-07-27T00:32:01Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,70 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-168.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-168.0.dev",
+      "published": "2026-08-26T00:14:55Z",
+      "preview": "SDK 3.14.0-168.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-167.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-167.0.dev",
+      "published": "2026-08-26T00:14:51Z",
+      "preview": "SDK 3.14.0-167.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-166.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-166.0.dev",
+      "published": "2026-08-26T00:14:47Z",
+      "preview": "SDK 3.14.0-166.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-165.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-165.0.dev",
+      "published": "2026-08-26T00:14:44Z",
+      "preview": "SDK 3.14.0-165.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.13.2",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.13.2",
+      "published": "2026-08-26T00:14:41Z",
+      "preview": "SDK 3.13.2",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2026.8.14",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.14",
+      "published": "2026-08-25T23:35:51Z",
+      "preview": "(http) remove the extraction temp dir when extraction fails by …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.8.19",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.19",
+      "published": "2026-08-25T23:35:25Z",
+      "preview": "Release vfox 2026.8.19",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-rustc-v2026.8.12",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.12",
+      "published": "2026-08-25T23:35:00Z",
+      "preview": "Release mise-cache-rustc 2026.8.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.45.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.2",
@@ -310,14 +374,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "mise-cache-rustc-v2026.8.10",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-rustc-v2026.8.10",
-      "published": "2026-08-24T07:14:03Z",
-      "preview": "Release mise-cache-rustc 2026.8.10",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v9.8.0-M2",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-M2",
       "published": "2026-08-24T05:30:32Z",
@@ -334,36 +390,12 @@
       "category": "JavaScript"
     },
     {
-      "title": "v2026.8.11: Automatic updates, remote mise installs, and versioned lockfiles",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.11",
-      "published": "2026-08-23T16:46:13Z",
-      "preview": "This release adds opt-in automatic self-updates, lets remote bootstrap leave a working mise behind on each target, and introduces versioned lockfiles that bind each request to the version it resolved. It also replaces the CLI parser with usage-rs, hardens remote Git task handling, and fixes a wide range of tool-installation, task, and config edge cases. Highlights mise can now keep itself up to date and provision itself onto remote hosts, closing two long-standing gaps in unattended and remote workflows. Lockfiles gained an explicit format version so overlapping loose and exact requests can pi",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.8.16",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.16",
-      "published": "2026-08-23T14:50:50Z",
-      "preview": "Release vfox 2026.8.16",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "pnpm 11.23",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.23.0",
       "published": "2026-08-23T14:41:02Z",
       "preview": "Minor Changes pnpm config get and pnpm config list now show the settings pnpm acts on under their documented names: registries shows the registries pnpm resolves from, merged across every source ( .npmrc , pnpm-workspace.yaml , the global config, CLI flags), in the shape the setting is written in: keyed by registry URL, with the default registry declared as the bare @ scope. Built-in routes are included — the @jsr scope and the npmjs and gh prefixes — unless pointed elsewhere. Previously pnpm config get registries printed undefined . update and audit show the effective sections, whichever spel",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "SDK-3.14.0-159.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-159.0.dev",
-      "published": "2026-08-23T00:13:56Z",
-      "preview": "SDK 3.14.0-159.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "pnpm 11.23",
@@ -404,38 +436,6 @@
       "preview": "Insert 7.11.0.16 into main on 08/22/2026 12:37:55",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "SDK-3.14.0-158.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-158.0.dev",
-      "published": "2026-08-22T00:14:16Z",
-      "preview": "SDK 3.14.0-158.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-157.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-157.0.dev",
-      "published": "2026-08-22T00:14:12Z",
-      "preview": "SDK 3.14.0-157.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-156.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-156.0.dev",
-      "published": "2026-08-22T00:14:09Z",
-      "preview": "SDK 3.14.0-156.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-155.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-155.0.dev",
-      "published": "2026-08-22T00:14:05Z",
-      "preview": "SDK 3.14.0-155.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "5.4.3.0",
@@ -1764,14 +1764,6 @@
       "preview": "What's Changed docs: update formula authoring and toolchain references by @p-linnane in #23225 Don't print the --force hint when brew bundle cleanup prompts by @p-linnane in #23212 Generate stable cask syntax jobs by @MikeMcQuaid in #23222 docs: convert Adding Software to Homebrew into a package-type router by @p-linnane in #23224 Use --end-of-options for Git arguments by @andrew in #23223 Normalise systemd service labels by @MikeMcQuaid in #23228 Skip unavailable xattrs in cask audits by @MikeMcQuaid in #23229 Add phase timings to brew prof by @MikeMcQuaid in #23216 docs: update maintainer op",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "1.16.3",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.16.3",
-      "published": "2026-07-27T00:10:10Z",
-      "preview": "What's Changed 📝 docs: update Linux install guidance by @vigneshakaviki in #1977 fix: allow read-only global list with inaccessible locks by @yangfan-yf-yf in #1975 New Contributors @vigneshakaviki made their first contribution in #1977 @yangfan-yf-yf made their first contribution in #1975 Full Changelog : 1.16.2...1.16.3",
-      "source": "pipx releases",
-      "category": "Python"
     }
   ]
 }
