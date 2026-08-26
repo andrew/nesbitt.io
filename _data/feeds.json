@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T00:32:05Z",
-  "cutoff": "2026-07-27T00:32:01Z",
+  "generated": "2026-08-26T01:54:44Z",
+  "cutoff": "2026-07-27T01:54:39Z",
   "feed_count": 79,
   "item_count": 218,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.8.14: npm/aube install fixes and cleaner temp/prune handling",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.14",
+      "published": "2026-08-26T01:16:21Z",
+      "preview": "This is a small release focused on bug fixes for npm (aube-backed) installs, HTTP cache cleanup, and Windows config pruning. Fixed npm: Aube-backed npm installs no longer drop a synthetic .npmrc into the per-tool install directory. Install-scoped settings such as minimumReleaseAge , trustPolicyExclude , allowedUnpopularPackages , and (for CLI installs) globalDir / globalBinDir now go into .config/aube/config.toml as typed TOML, while allowBuilds stays in package.json . Inline-table trust_policy_excludes / allow_low_downloads in mise.toml still round-trip correctly. ( #12425 by @jdx ) npm: mise",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.45.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.3",
+      "published": "2026-08-26T00:51:20Z",
+      "preview": "44.45.3 (2026-08-26) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.6 (main) ( #45470 ) ( 224f1e3 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.1 (main) ( #45469 ) ( bc0672b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-168.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-168.0.dev",
@@ -60,14 +76,6 @@
       "preview": "SDK 3.13.2",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.8.14",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.14",
-      "published": "2026-08-25T23:35:51Z",
-      "preview": "(http) remove the extraction temp dir when extraction fails by …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.8.19",
@@ -307,14 +315,6 @@
       "published": "2026-08-24T15:26:56Z",
       "preview": "What's Changed Type common runtime boundaries by @JamieMagee in #15916 Type common provider clients by @JamieMagee in #15917 Type common repository fetching by @JamieMagee in #15918 Type common metadata boundaries by @JamieMagee in #15919 Type common pull request reads by @JamieMagee in #15920 Type common pull request writes by @JamieMagee in #15921 Bump erb from 6.0.1 to 6.0.1.1 in /updater by @dependabot [bot] in #14828 Bump erb from 6.0.1 to 6.0.1.1 by @dependabot [bot] in #14816 Terraform: skip interpolated module sources instead of crashing the parse by @miki79 in #15912 Fix uv library de",
       "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.41.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.41.1",
-      "published": "2026-08-24T14:48:25Z",
-      "preview": "44.41.1 (2026-08-24) Bug Fixes http/github: support cursor pagination ( #45241 ) ( 9cc1ab0 )",
-      "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
