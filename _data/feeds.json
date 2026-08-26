@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T01:54:44Z",
-  "cutoff": "2026-07-27T01:54:39Z",
+  "generated": "2026-08-26T04:31:04Z",
+  "cutoff": "2026-07-27T04:31:00Z",
   "feed_count": 79,
   "item_count": 218,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.45.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.4",
+      "published": "2026-08-26T03:49:33Z",
+      "preview": "44.45.4 (2026-08-26) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.7 (main) ( #45471 ) ( 844a2ce )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.8.14: npm/aube install fixes and cleaner temp/prune handling",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.14",
@@ -228,14 +236,6 @@
       "preview": "Minor Changes pnpm stage approve now approves several staged packages at once. Run it without a stage id to pick from the staged versions interactively, or pass a list of stage ids. The whole batch is approved with a single one-time password, and pnpm asks for a new one only once the registry stops accepting it. Inside a workspace, the selected packages are approved in dependency order, and a package whose workspace dependency could not be approved is skipped instead of being published against a dependency that never reached the registry. Patch Changes Under nodeLinker: isolated , a Bit root-c",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.42.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.42.0",
-      "published": "2026-08-25T07:31:15Z",
-      "preview": "44.42.0 (2026-08-25) Features always set CI=true for subprocesses ( 43d63f9 ), closes #43761 #43606 always set CI=true for subprocesses ( 5b17499 ), closes #43761 #43606 Code Refactoring manager/npm: remove redundant CI=true ( f50bee3 ) tools: extract function for basicEnvVars docs ( 8770bff ) Tests manager/npm: fix getChildProcessEnv mock in yarn tests ( 2779587 ) util/exec: be more strict in expected value ( 0d920f1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.16.8",
