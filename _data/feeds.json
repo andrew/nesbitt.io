@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26T10:30:19Z",
-  "cutoff": "2026-07-27T10:30:15Z",
+  "generated": "2026-08-26T11:29:31Z",
+  "cutoff": "2026-07-27T11:29:26Z",
   "feed_count": 79,
   "item_count": 218,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.46.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.2",
+      "published": "2026-08-26T11:11:59Z",
+      "preview": "44.46.2 (2026-08-26) Bug Fixes lint: extend prefer-is-helpers to catch more cases ( #45474 ) ( a9c8f74 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.46.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.1",
@@ -220,14 +228,6 @@
       "preview": "Insert 7.11.0.17 into main on 08/25/2026 12:30:54",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.43.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.43.0",
-      "published": "2026-08-25T12:15:52Z",
-      "preview": "44.43.0 (2026-08-25) Features manager/github-actions: add workflow depType for reusable workflow calls ( #45443 ) ( 69e0523 ) Miscellaneous Chores deps: update jdx/mise-action action to v4.3.0 (main) ( #45442 ) ( 577ffce )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12 RC 11",
