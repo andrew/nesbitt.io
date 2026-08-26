@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-26T11:29:31Z",
-  "cutoff": "2026-07-27T11:29:26Z",
+  "generated": "2026-08-26T13:38:55Z",
+  "cutoff": "2026-07-27T13:38:49Z",
   "feed_count": 79,
-  "item_count": 218,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.46.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.4",
+      "published": "2026-08-26T13:21:00Z",
+      "preview": "44.46.4 (2026-08-26) Bug Fixes lint: use parseInt over Number ( #45472 ) ( 0216124 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.46.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.3",
+      "published": "2026-08-26T12:43:54Z",
+      "preview": "44.46.3 (2026-08-26) Bug Fixes logger: only truncate metaFields when they're string values ( #45478 ) ( e456197 ) Code Refactoring logger: remove unused dependencies as a stringified metaField ( #45477 ) ( 4c8a1bd ) Tests logger: add coverage of current metaFields stringifying behaviour ( #45476 ) ( 1d48943 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "7.11.0.23",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.23",
+      "published": "2026-08-26T12:40:13Z",
+      "preview": "Insert 7.11.0.23 into main on 08/26/2026 12:40:13",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "44.46.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.2",
@@ -198,28 +222,12 @@
       "category": "Multi-language"
     },
     {
-      "title": "44.44.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.44.0",
-      "published": "2026-08-25T16:13:26Z",
-      "preview": "44.44.0 (2026-08-25) Features http/bitbucket: surface deprecated and removed API functionality ( #45446 ) ( 4eee9a4 ) Bug Fixes manager/sveltos: concatenate repositoryURL with chartName for OCI ( #45439 ) ( 448597f ) platform/bitbucket: remove support for Issues ( #45445 ) ( ad63ddd ), closes #20568 Miscellaneous Chores deps: update vitest monorepo to v4.1.11 (main) ( #45452 ) ( e173b32 ) Code Refactoring http: add a handleResponse hook ( #45449 ) ( 3861bda )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
       "published": "2026-08-25T16:03:01Z",
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.43.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.43.1",
-      "published": "2026-08-25T13:01:04Z",
-      "preview": "44.43.1 (2026-08-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.4 (main) ( #45444 ) ( 7d7f286 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.11.0.17",
@@ -1566,14 +1574,6 @@
       "category": "Python"
     },
     {
-      "title": "7.10.0.42",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.10.0.42",
-      "published": "2026-07-29T19:39:45Z",
-      "preview": "Insert 7.10.0.42 into main on 07/29/2026 19:39:45",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
       "title": "1.16.5",
       "url": "https://github.com/pypa/pipx/releases/tag/1.16.5",
       "published": "2026-07-29T18:26:58Z",
@@ -1755,14 +1755,6 @@
       "published": "2026-07-27T15:52:39Z",
       "preview": "tagging package snapd version 2.77",
       "source": "Snapd releases",
-      "category": "System"
-    },
-    {
-      "title": "6.0.13",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.13",
-      "published": "2026-07-27T12:54:46Z",
-      "preview": "What's Changed docs: update formula authoring and toolchain references by @p-linnane in #23225 Don't print the --force hint when brew bundle cleanup prompts by @p-linnane in #23212 Generate stable cask syntax jobs by @MikeMcQuaid in #23222 docs: convert Adding Software to Homebrew into a package-type router by @p-linnane in #23224 Use --end-of-options for Git arguments by @andrew in #23223 Normalise systemd service labels by @MikeMcQuaid in #23228 Skip unavailable xattrs in cask audits by @MikeMcQuaid in #23229 Add phase timings to brew prof by @MikeMcQuaid in #23216 docs: update maintainer op",
-      "source": "Homebrew releases",
       "category": "System"
     }
   ]
