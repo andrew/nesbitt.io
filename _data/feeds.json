@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-26T19:00:30Z",
-  "cutoff": "2026-07-27T19:00:24Z",
+  "generated": "2026-08-26T19:57:58Z",
+  "cutoff": "2026-07-27T19:57:53Z",
   "feed_count": 79,
-  "item_count": 215,
+  "item_count": 213,
   "categories": [
     ".NET",
     "C/C++",
@@ -1722,22 +1722,6 @@
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.0-rc.1",
       "published": "2026-07-28T09:01:20Z",
       "preview": "29.7.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.0 milestone moby/moby, 29.7.0 milestone New Add an experimental embedded-containerd feature that runs containerd inside the daemon process instead of as a separate managed process. moby/moby#52898 Bug fixes and enhancements Add the default-stop-timeout daemon option to configure the stop timeout assigned to containers without an explicit timeout. moby/moby#53146 containerd image store: Fix daemon-wide concurrent download and upload limits for pulls and pushes not ",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.0.0-beta.19",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.19",
-      "published": "2026-07-27T19:23:19Z",
-      "preview": "v2.0.0-beta.19",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "client/v0.5.1",
-      "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.5.1",
-      "published": "2026-07-27T19:09:03Z",
-      "preview": "0.5.1 Changelog client/pkg/jsonmessage: Display: fix godoc link. moby/moby#53070 client: ServiceCreate, ServiceUpdate: fix duplicate and 'unkown' platforms. moby/moby#53012 client: ServiceInspect, ContainerCommit: omit optional query args if not set. moby/moby#53010 golangci-lint: enable perfsprint linter. moby/moby#53016",
       "source": "Docker Engine releases",
       "category": "Containers"
     }
