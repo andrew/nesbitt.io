@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-27T14:15:43Z",
-  "cutoff": "2026-07-28T14:15:38Z",
+  "generated": "2026-08-27T16:00:54Z",
+  "cutoff": "2026-07-28T16:00:49Z",
   "feed_count": 79,
-  "item_count": 219,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.9.6: 2.9.6 (#36706)",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.6",
+      "published": "2026-08-27T15:15:58Z",
+      "preview": "Bumped versions for 2.9.6 Co-authored-by: bartlomieju bartlomieju@users.noreply.github.com",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.47.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.47.0",
+      "published": "2026-08-27T15:04:52Z",
+      "preview": "44.47.0 (2026-08-27) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.90.0 (main) ( #45512 ) ( e0aa2ca ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.2 (main) ( #45511 ) ( 9f7e356 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.46.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.7",
@@ -212,14 +228,6 @@
       "preview": "This is a small release focused on bug fixes for npm (aube-backed) installs, HTTP cache cleanup, and Windows config pruning. Fixed npm: Aube-backed npm installs no longer drop a synthetic .npmrc into the per-tool install directory. Install-scoped settings such as minimumReleaseAge , trustPolicyExclude , allowedUnpopularPackages , and (for CLI installs) globalDir / globalBinDir now go into .config/aube/config.toml as typed TOML, while allowBuilds stays in package.json . Inline-table trust_policy_excludes / allow_low_downloads in mise.toml still round-trip correctly. ( #12425 by @jdx ) npm: mise",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.45.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.3",
-      "published": "2026-08-26T00:51:20Z",
-      "preview": "44.45.3 (2026-08-26) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.6 (main) ( #45470 ) ( 224f1e3 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.1 (main) ( #45469 ) ( bc0672b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-168.0.dev",
