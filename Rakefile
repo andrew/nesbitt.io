@@ -461,6 +461,7 @@ end
 desc "Build the site and check workflows"
 task :test do
   sh "bundle exec jekyll build"
+  sh "bundle exec ruby test/post_layout_test.rb"
   sh "zizmor .github/workflows/"
 end
 

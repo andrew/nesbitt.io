@@ -580,6 +580,16 @@ section li p{
   margin: 5px 0 0 0;
 }
 
+.post-header .post-title{
+  margin-bottom: 10px;
+}
+
+.post-tagline{
+  font-size: 18px;
+  color: var(--color-secondary);
+  margin: 0 0 8px 0;
+}
+
 @media only screen and (max-width: 600px) {
   h1,
   h1.post-title{
