@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-27T19:51:24Z",
-  "cutoff": "2026-07-28T19:51:20Z",
+  "generated": "2026-08-27T23:30:08Z",
+  "cutoff": "2026-07-28T23:30:03Z",
   "feed_count": 79,
-  "item_count": 220,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,20 +22,44 @@
   ],
   "items": [
     {
+      "title": "44.48.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.48.2",
+      "published": "2026-08-27T23:00:00Z",
+      "preview": "44.48.2 (2026-08-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.91.2 (main) ( #45518 ) ( cab7099 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.7 (main) ( #45519 ) ( 90df877 ) Code Refactoring lint: add types-location rule and enable it for lib/modules ( #45497 ) ( e0cec3d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "0.12.7",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.7",
+      "published": "2026-08-27T22:14:06Z",
+      "preview": "Release Notes Released on 2026-08-27. Python Replace managed Python installations when upgrading to a newer build of the same version ( #21323 ) Enhancements Support Linux s390x , ppc64le , and loongarch64 targets for cross-platform dependency resolution ( #21313 ) Retry downloads with configured credentials when Azure Storage denies anonymous access to an endpoint configured via UV_AZURE_ENDPOINT_URL ( #21318 ) Preview features Use content-based directory hashes to deduplicate extracted wheels in the cache with the content-addressed-cache preview feature ( #19693 ) Bug fixes Reject source arc",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "v1.3.4",
+      "url": "https://github.com/oras-project/oras/releases/tag/v1.3.4",
+      "published": "2026-08-27T20:37:08Z",
+      "preview": "ORAS CLI v1.3.4 is a security-focused maintenance release. It scopes registry credentials — mTLS client certificates, custom --header values, and --debug trace output — strictly to the configured registry origin, and adds an opt-in --force copy mode for registries that report incomplete content as present. Highlights 🔒 Security: three credential-scoping advisories are fixed — mTLS client certificates ( GHSA-h3wm-jjqf-8jm2 ), custom request headers ( GHSA-whvf-jp7m-59f3 ), and --debug HTTP traces ( GHSA-5jhf-2qmf-m8c5 ). All three were reported by Hardik Mehta ( @hardw00t ). ✨ oras cp and oras ",
+      "source": "ORAS releases",
+      "category": "Containers"
+    },
+    {
+      "title": "44.48.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.48.1",
+      "published": "2026-08-27T19:55:32Z",
+      "preview": "44.48.1 (2026-08-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.91.1 (main) ( #45516 ) ( 87d882e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "1.18.2",
       "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.2",
       "published": "2026-08-27T19:47:38Z",
       "preview": "Bug fixes: Validate GVariant structure of summaries before using generated variant readers ( #6779 ) Fix crash in system helper when iterating cache directories ( #6780 ) Avoid corrupted output from non-UTF-8 characters in error messages ( #6795 ) Fix portal passing wrong file descriptor when sandbox-expose-fd-ro triggers fd remapping collision ( #6785 ) Fix system helper tracking wrong D-Bus sender for pulls ( #6781 ) Fix extensions not being populated in the sandbox due to unhandled EAGAIN from openat2 ( #6787 ) Fix build failure with GLib versions older than 2.72 ( #6777 ) Test infrastructu",
       "source": "Flatpak releases",
       "category": "System"
-    },
-    {
-      "title": "v1.3.4",
-      "url": "https://github.com/oras-project/oras/releases/tag/v1.3.4",
-      "published": "2026-08-27T19:26:44Z",
-      "preview": "Release v1.3.4",
-      "source": "ORAS releases",
-      "category": "Containers"
     },
     {
       "title": "v2.9.6",
@@ -226,22 +250,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.2",
       "published": "2026-08-26T11:11:59Z",
       "preview": "44.46.2 (2026-08-26) Bug Fixes lint: extend prefer-is-helpers to catch more cases ( #45474 ) ( a9c8f74 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.46.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.1",
-      "published": "2026-08-26T10:00:53Z",
-      "preview": "44.46.1 (2026-08-26) Bug Fixes manager/gomod: handle bare ../ replace paths in gomodTidyAll ( #45392 ) ( cee4515 ) Miscellaneous Chores deps: update linters to v1.79.0 (main) ( #44542 ) ( 91dafe9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.46.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.0",
-      "published": "2026-08-26T07:33:39Z",
-      "preview": "44.46.0 (2026-08-26) Features presets: add @oxlint/* packages to packages:linters and monorepo:oxlint ( #45466 ) ( 1012b34 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -990,6 +998,14 @@
       "category": "Python"
     },
     {
+      "title": "3.3.3",
+      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.3",
+      "published": "2026-08-14T15:52:09Z",
+      "preview": "apt Debian release 3.3.3",
+      "source": "APT releases",
+      "category": "System"
+    },
+    {
       "title": "Helm v4.2.4",
       "url": "https://github.com/helm/helm/releases/tag/v4.2.4",
       "published": "2026-08-14T15:03:07Z",
@@ -1564,6 +1580,14 @@
       "preview": "v2.0.0-beta.20",
       "source": "Docker Engine releases",
       "category": "Containers"
+    },
+    {
+      "title": "3.3.2",
+      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.2",
+      "published": "2026-07-30T20:46:13Z",
+      "preview": "apt Debian release 3.3.2",
+      "source": "APT releases",
+      "category": "System"
     },
     {
       "title": "3.18.0+0",
