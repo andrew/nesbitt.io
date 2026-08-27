@@ -7,6 +7,7 @@ tags:
   - package-managers
   - ecosyste.ms
   - dependencies
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mu3cdy4bmj2o"
 ---
 
 Aman Sharma [reported](https://github.com/git-pkgs/enrichment/issues/65) this week that [packages.ecosyste.ms](https://packages.ecosyste.ms) had the latest version of protobuf on the [Bazel Central Registry](https://registry.bazel.build/) (BCR, the default package index for Bazel's built-in dependency manager) as `3.19.6`. The [current release](https://registry.bazel.build/modules/protobuf) is `36.0.bcr.1`. Protobuf [dropped the leading `3.` in 2022](https://protobuf.dev/support/version-support/) and has shipped `21.x` through `36.x` since, so `3.19.6` is four years behind.
