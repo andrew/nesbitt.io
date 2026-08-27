@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-27T02:58:58Z",
-  "cutoff": "2026-07-28T02:58:53Z",
+  "generated": "2026-08-27T05:06:09Z",
+  "cutoff": "2026-07-28T05:06:05Z",
   "feed_count": 79,
-  "item_count": 216,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.46.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.5",
+      "published": "2026-08-27T04:53:19Z",
+      "preview": "44.46.5 (2026-08-27) Bug Fixes github: respect automergeStrategy with platform automerge ( #44563 ) ( 93afa9f ) Miscellaneous Chores deps: update dependency vite to v8.2.2 (main) ( #45491 ) ( fcec542 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "SDK-3.14.0-171.0.dev",
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-171.0.dev",
@@ -198,6 +206,14 @@
       "category": "Registries"
     },
     {
+      "title": "Generic Methods",
+      "url": "https://go.dev/blog/generic-methods",
+      "published": "2026-08-26T00:00:00Z",
+      "preview": "Go 1.27 adds generic methods—a highly desired language feature.",
+      "source": "Go Blog",
+      "category": "Go"
+    },
+    {
       "title": "Announcing our first Maintainers in Residence",
       "url": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
       "published": "2026-08-26T00:00:00Z",
@@ -250,14 +266,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.1",
       "published": "2026-08-25T21:58:47Z",
       "preview": "44.45.1 (2026-08-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.5 (main) ( #45468 ) ( dfda756 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.45.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.0",
-      "published": "2026-08-25T20:56:15Z",
-      "preview": "44.45.0 (2026-08-25) Features http/bitbucket: warn when an endpoint announces a deprecation ( #45461 ) ( a4b5c18 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.6 (main) ( #45464 ) ( f35acdd ) deps: update dependency uv to v0.12.6 (main) ( #45465 ) ( 1d366f3 ) Tests manager/bundler: add missing branch coverage in extract() ( #45457 ) ( aa5d1e5 ) versioning/conan: ignore unreachable coverage branches ( #45458 ) ( 0cc9356 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
