@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-27T05:06:09Z",
-  "cutoff": "2026-07-28T05:06:05Z",
+  "generated": "2026-08-27T11:45:37Z",
+  "cutoff": "2026-07-28T11:44:55Z",
   "feed_count": 79,
   "item_count": 217,
   "categories": [
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.10.3",
+      "url": "https://github.com/composer/composer/releases/tag/2.10.3",
+      "published": "2026-08-27T11:41:32Z",
+      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 ) Security: Sanitize URL-embedded usernames/token in a few more places ( #13044 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #12988 ) Fixed PHP 8.6 deprecation warnings ( #12967 , #13028 ) Fixed error output when a policy blocks a package version to be clearer ( #12993 ) Fixed the lock file's content-hash with a conflict marker ending up breaking ",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "2.2.30",
+      "url": "https://github.com/composer/composer/releases/tag/2.2.30",
+      "published": "2026-08-27T11:41:29Z",
+      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 ) Security: Sanitize URL-embedded usernames/token in a few more places ( #13045 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #13042 ) Full Changelog : 2.2.29...2.2.30",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "6.0.20",
+      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.20",
+      "published": "2026-08-27T10:26:48Z",
+      "preview": "What's Changed generate-zap: resolve apps from package receipts by @loganrosen in #23623 cc shim: compare by canonicalizing both sides, fixing issues with symlinked HOMEs by @averms in #23637 pathname/disk_usage_extension: fix double path traversal by @krehel in #23632 Migrate analytics to brew.sh proxy by @SMillerDev in #23639 Add brew tests --load-only and break the install require cycle by @p-linnane in #23642 Run privileged cask install steps in the parent process by @p-linnane in #23641 Drive bottle pours from relocation metadata by @MikeMcQuaid in #23643 bundle: fail Flatpak entries when",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "44.46.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.6",
+      "published": "2026-08-27T08:59:51Z",
+      "preview": "44.46.6 (2026-08-27) Build System deps: update node.js to v24.20.0 (main) ( #45485 ) ( 5c8e0de )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-25-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-25-a",
+      "published": "2026-08-27T08:36:44Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-25-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "44.46.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.5",
@@ -260,14 +300,6 @@
       "preview": "This release adds a few configuration and task features and delivers a large batch of fixes across completions, tools, lockfiles, tasks, config parsing, and shell integration. It also restores dynamic shell completions that regressed after the recent CLI parser change. Added task: New task_config.excludes lets file-task discovery skip config-root-relative paths, directories, and glob patterns, so accidental TOML files (like a pyproject.toml inside a task directory) or entire subtrees are no longer treated as tasks. The closest config that sets excludes replaces inherited values, and an empty l",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.45.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.45.1",
-      "published": "2026-08-25T21:58:47Z",
-      "preview": "44.45.1 (2026-08-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.89.5 (main) ( #45468 ) ( dfda756 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.12.6",
@@ -918,14 +950,6 @@
       "category": "Python"
     },
     {
-      "title": "3.3.3",
-      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.3",
-      "published": "2026-08-14T15:52:09Z",
-      "preview": "apt Debian release 3.3.3",
-      "source": "APT releases",
-      "category": "System"
-    },
-    {
       "title": "Helm v4.2.4",
       "url": "https://github.com/helm/helm/releases/tag/v4.2.4",
       "published": "2026-08-14T15:03:07Z",
@@ -1510,14 +1534,6 @@
       "category": "Containers"
     },
     {
-      "title": "3.3.2",
-      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.2",
-      "published": "2026-07-30T20:46:13Z",
-      "preview": "apt Debian release 3.3.2",
-      "source": "APT releases",
-      "category": "System"
-    },
-    {
       "title": "3.18.0+0",
       "url": "https://github.com/haskell/cabal/releases/tag/3.18.0%2B0",
       "published": "2026-07-30T20:39:12Z",
@@ -1740,22 +1756,6 @@
       "preview": "Release Notes Released on 2026-07-28. Since we released uv 0.11.0 in March, we've accumulated changes that improve correctness, safety, and compatibility with specifications, but could break some workflows. This release contains those changes; many have been marked as breaking out of an abundance of caution. We expect most users to be able to upgrade without making changes. There are no breaking changes to the configuration of the uv build backend . If your [build-system] table includes an upper bound on uv_build , update it to allow uv_build 0.12, e.g., uv_build>=0.11.32,<0.13 . Breaking chan",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "0.11.33",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.11.33",
-      "published": "2026-07-28T10:37:25Z",
-      "preview": "Release Notes Released on 2026-07-28. Enhancements Abort panics in release builds for smaller uv binaries ( #20271 ) Use .tar.gz archives for Pyodide installs ( #20667 ) Preview features Avoid checking any scripts in uv check unless --script is passed ( #20676 ) Check locked tools for malware before cache reuse ( #20301 ) Write and read package.metadata -free lockfiles ( #20688 , #20691 , #20685 , #20695 ) Bug fixes Correctly split dependencies into production and optional markers ( #20671 ) Fix discrepancies in argument parsing of exclude-newer ( #20679 ) Cleanup managed Python temporary dire",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
-      "title": "v29.7.0-rc.1",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.0-rc.1",
-      "published": "2026-07-28T09:01:20Z",
-      "preview": "29.7.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.0 milestone moby/moby, 29.7.0 milestone New Add an experimental embedded-containerd feature that runs containerd inside the daemon process instead of as a separate managed process. moby/moby#52898 Bug fixes and enhancements Add the default-stop-timeout daemon option to configure the stop timeout assigned to containers without an explicit timeout. moby/moby#53146 containerd image store: Fix daemon-wide concurrent download and upload limits for pulls and pushes not ",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
