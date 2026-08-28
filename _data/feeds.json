@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-28T03:25:27Z",
-  "cutoff": "2026-07-29T03:25:22Z",
+  "generated": "2026-08-28T06:54:29Z",
+  "cutoff": "2026-07-29T06:54:23Z",
   "feed_count": 79,
   "item_count": 223,
   "categories": [
@@ -24,8 +24,8 @@
     {
       "title": "2.0.8",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.8",
-      "published": "2026-08-28T03:20:25Z",
-      "preview": "🐛 bug fixes fix: Notify listeners before LinkageError escapes suites by @unkarjedy in #9667 fix: Restore public test result report types by @unkarjedy in #9655 fix: Fixes --addPluginSbtFile getting lost after reboot by @azdrojowa123 in #9669 fix: Fixes JDK 17 domain socket deadlocks by @eed3si9n in #9671 fix: Fixes ThisBuild -scoped bare settings by @eed3si9n in #9674 fix: Keep adhoc test classloader open in a forked test @stasimus in #9639 fix: Fixes Windows runner by @eed3si9n in #9680 Full Changelog : v2.0.7...v2.0.8",
+      "published": "2026-08-28T03:36:40Z",
+      "preview": "🐛 bug fixes fix: Fixes ThisBuild -scoped bare settings by @eed3si9n in #9674 fix: Fixes TestReportListener not receiving endGroup after a LinkageError by @unkarjedy in #9667 fix: Fixes the ability to extend TestResultLogger by @unkarjedy in #9655 fix: Fixes --addPluginSbtFile getting lost after reboot by @azdrojowa123 in #9669 fix: Fixes JDK 17 domain socket deadlocks by @eed3si9n in #9671 fix: Keep adhoc test classloader open in a forked test @stasimus in #9639 fix: Fixes Windows runner by @eed3si9n in #9680 Full Changelog : v2.0.7...v2.0.8",
       "source": "sbt releases",
       "category": "Maven"
     },
