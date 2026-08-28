@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-28T20:16:16Z",
-  "cutoff": "2026-07-29T20:16:11Z",
+  "generated": "2026-08-28T22:01:10Z",
+  "cutoff": "2026-07-29T22:01:05Z",
   "feed_count": 79,
-  "item_count": 211,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.8.0-rc.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.0-rc.1",
+      "published": "2026-08-28T20:48:41Z",
+      "preview": "29.8.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.8.0 milestone moby/moby, 29.8.0 milestone Bug fixes and enhancements containerd image store: Fix docker image inspect reporting a smaller image size than docker image ls . moby/moby#53426 Do not log expected image signature identity misses as errors for containerd image store images. moby/moby#53495 dockerd now uses the embedded containerd if no system containerd service is configured and containerd is not installed. moby/moby#53388 Fix GET /images/{name}/json not i",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "44.50.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.50.3",
@@ -1126,14 +1134,6 @@
       "category": "Containers"
     },
     {
-      "title": "v25.0.17",
-      "url": "https://github.com/moby/moby/releases/tag/v25.0.17",
-      "published": "2026-08-13T00:25:05Z",
-      "preview": "For a full list of pull requests and changes in this release, refer to the relevant GitHub milestone: moby/moby, 25.0.17 milestone Changes to the Engine API, see API version history . Bug fixes and enhancements Fix CVE-2026-41568 : symlink escape in mount destination creation. #52648 Decompress archives before entering container filesystem, fixing CVE-2026-41567 . #52647 Fix CVE-2026-42306 : bind mount target redirection via symlink swap during docker cp. #52657 Vendor github.com/containerd/containerd v1.7.33 to mitigate CVE-2024-40635 . #49909",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-11-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-08-11-a",
       "published": "2026-08-12T22:30:38Z",
@@ -1644,70 +1644,6 @@
       "preview": "Deployment at 2026-07-30T08:55:08.002317Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "libnpmpack: v10.0.2",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.2",
-      "published": "2026-07-29T21:11:51Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.2",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmfund: v8.0.2",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.2",
-      "published": "2026-07-29T21:11:50Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.2",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmexec: v11.0.2",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.2",
-      "published": "2026-07-29T21:11:49Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.2",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.0.2",
-      "url": "https://github.com/npm/cli/releases/tag/v12.0.2",
-      "published": "2026-07-29T21:11:46Z",
-      "preview": "12.0.2 (2026-07-27) Bug Fixes 834408e #9760 pack: honor min-release-age-exclude ( #9760 ) ( @martinrrm , @Copilot) ef6cfea #9786 owner: use scoped registry for user lookup ( #9786 ) ( @martinrrm , @Copilot) Documentation 9e17dc0 #9805 clarify npm 12 unknown-config breaking change in changelogs ( #9805 ) ( @Hashim1999164 ) Chores 7b1f6c1 #9747 parse pack --json object output in node integration ( #9747 ) ( @reggi , @Copilot) Dependencies workspace : @npmcli/arborist@10.0.2 workspace : @npmcli/config@11.0.1 workspace : libnpmdiff@9.0.2 workspace : libnpmexec@11.0.2 workspace : libnpmfund@8.0.2 w",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmpack: v9.1.12",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.12",
-      "published": "2026-07-29T20:57:35Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.9.1",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmfund: v7.0.26",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.26",
-      "published": "2026-07-29T20:57:34Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.9.1",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v11.19.0",
-      "url": "https://github.com/npm/cli/releases/tag/v11.19.0",
-      "published": "2026-07-29T20:57:30Z",
-      "preview": "11.19.0 (2026-07-28) Features 7d39aa6 #9698 install-scripts: use install-scripts as the warning log title ( @manzoorwanijk ) Bug Fixes 3529ca2 #9811 pack: honor min-release-age-exclude ( #9811 ) (@github-actions[bot], @martinrrm , @Copilot) 67f12ae #9810 owner: use scoped registry for user lookup ( #9810 ) (@github-actions[bot], @martinrrm , @Copilot) Dependencies workspace : @npmcli/arborist@9.9.1 workspace : libnpmdiff@8.1.12 workspace : libnpmexec@10.3.2 workspace : libnpmfund@7.0.26 workspace : libnpmpack@9.1.12",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "26.2",
-      "url": "https://github.com/pypa/pip/releases/tag/26.2",
-      "published": "2026-07-29T20:56:17Z",
-      "preview": "Release 26.2",
-      "source": "pip releases",
-      "category": "Python"
     }
   ]
 }
