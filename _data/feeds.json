@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-28T15:21:59Z",
-  "cutoff": "2026-07-29T15:21:55Z",
+  "generated": "2026-08-28T20:16:16Z",
+  "cutoff": "2026-07-29T20:16:11Z",
   "feed_count": 79,
-  "item_count": 214,
+  "item_count": 211,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.50.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.50.3",
+      "published": "2026-08-28T18:53:24Z",
+      "preview": "44.50.3 (2026-08-28) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.91.5 (main) ( #45541 ) ( fcd8291 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.3 (main) ( #45539 ) ( 4e4ae49 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.50.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.50.2",
+      "published": "2026-08-28T16:51:41Z",
+      "preview": "44.50.2 (2026-08-28) Bug Fixes exec: supress unhandled promise rehection from execa timeout ( #45335 ) ( a3a00ce )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.50.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.50.1",
@@ -186,22 +202,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.48.0",
       "published": "2026-08-27T16:02:45Z",
       "preview": "44.48.0 (2026-08-27) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.91.0 (main) ( #45515 ) ( 9cd8c6d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.47.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.47.0",
-      "published": "2026-08-27T15:04:52Z",
-      "preview": "44.47.0 (2026-08-27) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.90.0 (main) ( #45512 ) ( e0aa2ca ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.2 (main) ( #45511 ) ( 9f7e356 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.46.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.7",
-      "published": "2026-08-27T14:06:44Z",
-      "preview": "44.46.7 (2026-08-27) Bug Fixes changelog: dedupe releases which are equal for the versioning in use ( #45506 ) ( 28391ae ) datasource/docker: update traefik source URL to traefik/traefik ( #45505 ) ( 9d90b63 ) Documentation point to logLevelRemap for minimumReleaseAgeBehaviour=timestamp-optional warnings ( #45498 ) ( 41820f7 ) Miscellaneous Chores deps: update github/codeql-action action to v4.37.9 (main) ( #45484 ) ( 2455656 ) Build System deps: update dependency node to v24.20.0 (main) ( #45509 ) ( d1c191a )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1707,30 +1707,6 @@
       "published": "2026-07-29T20:56:17Z",
       "preview": "Release 26.2",
       "source": "pip releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.16.5",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.16.5",
-      "published": "2026-07-29T18:26:58Z",
-      "preview": "What's Changed 🐛 fix(upgrade): honor the version specifier with --install by @gaborbernat in #1991 Full Changelog : 1.16.4...1.16.5",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "v10.9.9",
-      "url": "https://github.com/npm/cli/releases/tag/v10.9.9",
-      "published": "2026-07-29T18:02:54Z",
-      "preview": "10.9.9 (2026-07-28) Dependencies 5e9f451 #9814 tar@7.5.22 ( #9814 ) ( @martinrrm , @Copilot) Chores 189ba13 #9319 add cli-triage team as codeowner ( #9319 ) (@github-actions[bot], Michael Smith)",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "1.16.4",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.16.4",
-      "published": "2026-07-29T16:56:30Z",
-      "preview": "What's Changed Build Windows zipapp separately by @dukecat0 in #1979 Fix Release Notes project URL by @giri256 in #1981 📝 docs: fix trailing-slash links left by the Sphinx move by @marko1olo in #1986 Prune the logs when PIPX_MAX_LOGS is 0 by @marko1olo in #1988 👷 ci: reject misnamed changelog.d fragments by @gaborbernat in #1989 🐛 fix(zipapp): restore one cross-platform pipx.pyz by @gaborbernat in #1990 New Contributors @giri256 made their first contribution in #1981 Full Changelog : 1.16.3...1.16.4",
-      "source": "pipx releases",
       "category": "Python"
     }
   ]
