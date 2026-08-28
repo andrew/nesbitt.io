@@ -18,23 +18,30 @@ Week fifteen of the roundup, built from the [package manager OPML feed collectio
 
 [winget 1.29.290](https://github.com/microsoft/winget-cli/releases/tag/v1.29.290) adds an experimental `sourcePriority` feature: sources can be given a numeric priority via `source add` or `source edit`, and higher-priority sources sort first in search results when other ranking factors are equal.
 
+[Maven 3.10.0-rc-1](https://github.com/apache/maven/releases/tag/maven-3.10.0-rc-1) is the first release candidate for the 3.10 line, which aligns 3.x behaviour with Maven 4: classpath ordering, version-range resolution filtering and the Resolver 2.0.19 changes are backported, and the super POM drops the deprecated `release-profile` and default plugin management.
+
 Also out:
 
 - [Homebrew 6.0.20](https://github.com/Homebrew/brew/releases/tag/6.0.20)
 - [npm 11.19.1](https://github.com/npm/cli/releases/tag/v11.19.1)
 - [Verdaccio 6.10.1](https://github.com/verdaccio/verdaccio/releases/tag/v6.10.1)
-- [uv 0.12.6](https://github.com/astral-sh/uv/releases/tag/0.12.6)
+- [Deno 2.9.6](https://github.com/denoland/deno/releases/tag/v2.9.6)
+- [uv 0.12.7](https://github.com/astral-sh/uv/releases/tag/0.12.7)
 - [pipx 1.16.8](https://github.com/pypa/pipx/releases/tag/1.16.8)
-- [pixi 0.77.1](https://github.com/prefix-dev/pixi/releases/tag/v0.77.1)
+- [pixi 0.78.0](https://github.com/prefix-dev/pixi/releases/tag/v0.78.0)
 - [mise 2026.8.14](https://github.com/jdx/mise/releases/tag/v2026.8.14)
 - [MacPorts 2.12.6](https://github.com/macports/macports-base/releases/tag/v2.12.6)
+- [Flatpak 1.18.2](https://github.com/flatpak/flatpak/releases/tag/1.18.2)
 - [Dependabot Core 0.393.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.393.0)
-- [Renovate 44.46.7](https://github.com/renovatebot/renovate/releases/tag/44.46.7)
+- [Renovate 44.49.0](https://github.com/renovatebot/renovate/releases/tag/44.49.0)
 - [Gradle 9.8.0-M2](https://github.com/gradle/gradle/releases/tag/v9.8.0-M2)
+- [sbt 2.0.8](https://github.com/sbt/sbt/releases/tag/v2.0.8)
 
 ## Security
 
 [Composer 2.10.3](https://github.com/composer/composer/releases/tag/2.10.3) and [2.2.30](https://github.com/composer/composer/releases/tag/2.2.30) fix four issues: [CVE-2026-59944](https://github.com/composer/composer/security/advisories/GHSA-96h3-5x6v-m776) (path traversal via symlinked `bin` entries), [command injection via a malicious Perforce URL](https://github.com/composer/composer/security/advisories/GHSA-rvx4-ffvw-m9q3), URL-embedded credentials leaking into more places than intended, and GitLab URL matching that could send credentials to the wrong domain.
+
+[ORAS 1.3.4](https://github.com/oras-project/oras/releases/tag/v1.3.4) fixes three credential-scoping issues: mTLS client certificates supplied via `--cert-file` were presented to any HTTPS peer including cross-origin redirect and bearer-realm targets, custom `--header` values were forwarded to hosts other than the configured registry, and `--debug` traces logged pre-signed URL parameters, cookies, proxy authorisation and token response bodies.
 
 ## Articles
 
@@ -56,6 +63,13 @@ The Rust project [announced](https://blog.rust-lang.org/2026/08/26/announcing-ou
 
 ## git-pkgs
 
-I tagged [artifacts v0.2.0](https://github.com/git-pkgs/artifacts/releases/tag/v0.2.0), [brief v0.12.0](https://github.com/git-pkgs/brief/releases/tag/v0.12.0), [clone v0.7.1](https://github.com/git-pkgs/clone/releases/tag/v0.7.1), [purl v0.1.18](https://github.com/git-pkgs/purl/releases/tag/v0.1.18) and [sbom v0.1.6](https://github.com/git-pkgs/sbom/releases/tag/v0.1.6).
+I tagged 6 repos this week:
+
+- [archives v0.6.0](https://github.com/git-pkgs/archives/releases/tag/v0.6.0)
+- [artifacts v0.2.0](https://github.com/git-pkgs/artifacts/releases/tag/v0.2.0)
+- [brief v0.12.1](https://github.com/git-pkgs/brief/releases/tag/v0.12.1)
+- [clone v0.7.1](https://github.com/git-pkgs/clone/releases/tag/v0.7.1)
+- [purl v0.1.19](https://github.com/git-pkgs/purl/releases/tag/v0.1.19)
+- [sbom v0.1.6](https://github.com/git-pkgs/sbom/releases/tag/v0.1.6)
 
 Send links for next week to [@andrewnez@mastodon.social](https://mastodon.social/@andrewnez).

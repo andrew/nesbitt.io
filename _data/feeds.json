@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-28T06:54:29Z",
-  "cutoff": "2026-07-29T06:54:23Z",
+  "generated": "2026-08-28T08:20:22Z",
+  "cutoff": "2026-07-29T08:20:17Z",
   "feed_count": 79,
-  "item_count": 223,
+  "item_count": 213,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.78.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.78.0",
+      "published": "2026-08-28T08:06:34Z",
+      "preview": "[0.78.0] - 2026-08-28 ✨ Highlights You can now use the CLI to add path dependencies with the following command: pixi add --path ~ /dev/pixi pixi pixi add --path ~ /dev/vinca vinca --pypi pixi add --path ~ /dev/ros_ws/src/common/package.xml ros-jazzy-common Pixi now can also share the configuration with rattler-based tools like rattler-build and rattler-index . The PEP 723 script support has been improved with better caching and resolution of scripts. Added Write manifest platform names instead of pN aliases by @ruben-arts in #6885 Rework the terminal output by @Hofer-Julian in #6869 Read the s",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.49.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.49.0",
+      "published": "2026-08-28T07:23:00Z",
+      "preview": "44.49.0 (2026-08-28) Features changelog: fetch newest releases first ( #45502 ) ( 57e546d ), closes #45500 #45482 changelog: stop fetching changelog entries when we're at platform limits ( #45503 ) ( ba1fad9 ), closes #45482 #45501 #45500 Code Refactoring instrumentation: instrument changelog generation ( #45507 ) ( 64e81c2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.0.8",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.8",
@@ -266,14 +282,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.4",
       "published": "2026-08-26T13:21:00Z",
       "preview": "44.46.4 (2026-08-26) Bug Fixes lint: use parseInt over Number ( #45472 ) ( 0216124 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.46.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.3",
-      "published": "2026-08-26T12:43:54Z",
-      "preview": "44.46.3 (2026-08-26) Bug Fixes logger: only truncate metaFields when they're string values ( #45478 ) ( e456197 ) Code Refactoring logger: remove unused dependencies as a stringified metaField ( #45477 ) ( 4c8a1bd ) Tests logger: add coverage of current metaFields stringifying behaviour ( #45476 ) ( 1d48943 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -860,14 +868,6 @@
       "preview": "Deployment at 2026-08-18T11:44:38.196169Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "pixi-build-mojo-v0.2.6",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.6",
-      "published": "2026-08-18T11:27:37Z",
-      "preview": "chore: bump backend versions ( #6845 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-python-v0.8.6",
@@ -1724,86 +1724,6 @@
       "preview": "No content.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "2026-07-29",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-07-29",
-      "published": "2026-07-29T07:56:27Z",
-      "preview": "2026-07-29",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-patch/4.0.6",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-patch%2F4.0.6",
-      "published": "2026-07-29T07:56:27Z",
-      "preview": "@yarnpkg/plugin-patch",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-pnp/4.2.1",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnp%2F4.2.1",
-      "published": "2026-07-29T07:56:27Z",
-      "preview": "@yarnpkg/plugin-pnp",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-pnpm/2.3.1",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-pnpm%2F2.3.1",
-      "published": "2026-07-29T07:56:27Z",
-      "preview": "@yarnpkg/plugin-pnpm",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-stage/4.0.3",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-stage%2F4.0.3",
-      "published": "2026-07-29T07:56:27Z",
-      "preview": "@yarnpkg/plugin-stage",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-typescript/4.1.4",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-typescript%2F4.1.4",
-      "published": "2026-07-29T07:56:27Z",
-      "preview": "@yarnpkg/plugin-typescript",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-version/4.3.0",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-version%2F4.3.0",
-      "published": "2026-07-29T07:56:27Z",
-      "preview": "@yarnpkg/plugin-version",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/plugin-workspace-tools/4.1.8",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fplugin-workspace-tools%2F4.1.8",
-      "published": "2026-07-29T07:56:27Z",
-      "preview": "@yarnpkg/plugin-workspace-tools",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/pnpify/4.1.7",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fpnpify%2F4.1.7",
-      "published": "2026-07-29T07:56:27Z",
-      "preview": "@yarnpkg/pnpify",
-      "source": "Yarn releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@yarnpkg/sdks/3.3.1",
-      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fsdks%2F3.3.1",
-      "published": "2026-07-29T07:56:27Z",
-      "preview": "@yarnpkg/sdks",
-      "source": "Yarn releases",
-      "category": "JavaScript"
     }
   ]
 }
