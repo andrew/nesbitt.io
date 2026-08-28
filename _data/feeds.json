@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-28T08:20:22Z",
-  "cutoff": "2026-07-29T08:20:17Z",
+  "generated": "2026-08-28T10:58:03Z",
+  "cutoff": "2026-07-29T10:57:58Z",
   "feed_count": 79,
-  "item_count": 213,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.49.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.49.1",
+      "published": "2026-08-28T10:00:54Z",
+      "preview": "44.49.1 (2026-08-28) Bug Fixes github: treat graphql_rate_limit as rate limiting ( #45396 ) ( 2e89151 ) manager/copier: set isExecutable on added and modified files ( #45520 ) ( a3ac0bb ) Code Refactoring linters: add prefer-coerce-array rule ( #45492 ) ( 97327c3 ), closes #45217 linters: add prefer-coerce-object rule ( #45493 ) ( c32e239 ), closes #45216 Tests replace env operation with vi.stubEnv() ( #45490 ) ( fbedd41 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-26-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-26-a",
+      "published": "2026-08-28T08:37:00Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-26-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "v0.78.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.78.0",
@@ -276,14 +292,6 @@
       "preview": "Minor Changes Added an opt-in proof of concept that lets installs reuse a dependency's build output across machines, by publishing and restoring signed, organization-scoped artifacts through pnpr instead of running the lifecycle scripts locally. Configure it with the new remoteSideEffectsCache setting. A workspace names the eligible organization and packages ; everything describing the act of signing — publish , keyId , builderId , trustedKeys , privateKey and the provenance fields — is refused in pnpm-workspace.yaml and read from the global config file or the environment instead. Hosted pnpr ",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.46.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.4",
-      "published": "2026-08-26T13:21:00Z",
-      "preview": "44.46.4 (2026-08-26) Bug Fixes lint: use parseInt over Number ( #45472 ) ( 0216124 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.11.0.23",
