@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-28T10:58:03Z",
-  "cutoff": "2026-07-29T10:57:58Z",
+  "generated": "2026-08-28T15:21:59Z",
+  "cutoff": "2026-07-29T15:21:55Z",
   "feed_count": 79,
   "item_count": 214,
   "categories": [
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.50.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.50.1",
+      "published": "2026-08-28T12:57:27Z",
+      "preview": "44.50.1 (2026-08-28) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.91.4 (main) ( #45533 ) ( e7b98b5 ) Miscellaneous Chores manager/gomod: clarify how artifact updates work with minimumReleaseAge ( #45526 ) ( 9ecbaa8 ) Code Refactoring return a RepositoryResult while onboarding ( #45531 ) ( 8d08b51 ), closes #22198",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "7.11.0.30",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.30",
+      "published": "2026-08-28T12:24:53Z",
+      "preview": "Insert 7.11.0.30 into main on 08/28/2026 12:24:53",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "44.50.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.50.0",
+      "published": "2026-08-28T11:52:47Z",
+      "preview": "44.50.0 (2026-08-28) Features instrumentation: add support for protobuf + gRPC exporter ( #45527 ) ( 0879ce5 ), closes #36073",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "What's new in Private Packagist, August 2026 update",
+      "url": "https://blog.packagist.com/whats-new-in-private-packagist-august-2026-update/",
+      "published": "2026-08-28T11:49:57Z",
+      "preview": "We&apos;ve shipped a large batch of updates to Private Packagist over the past few months. A lot of our attention went to supply chain security, which we&apos;ve covered in depth in our supply chain security series. In this post, we&apos;ll highlight the other improvements",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
     {
       "title": "44.49.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.49.1",
@@ -206,28 +238,12 @@
       "category": "System"
     },
     {
-      "title": "44.46.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.6",
-      "published": "2026-08-27T08:59:51Z",
-      "preview": "44.46.6 (2026-08-27) Build System deps: update node.js to v24.20.0 (main) ( #45485 ) ( 5c8e0de )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-25-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-25-a",
       "published": "2026-08-27T08:36:44Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-25-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.46.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.46.5",
-      "published": "2026-08-27T04:53:19Z",
-      "preview": "44.46.5 (2026-08-27) Bug Fixes github: respect automergeStrategy with platform automerge ( #44563 ) ( 93afa9f ) Miscellaneous Chores deps: update dependency vite to v8.2.2 (main) ( #45491 ) ( fcec542 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "SDK-3.14.0-171.0.dev",
@@ -1262,14 +1278,6 @@
       "category": "Python"
     },
     {
-      "title": "7.11.0.5",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.5",
-      "published": "2026-08-07T12:21:41Z",
-      "preview": "Insert 7.11.0.5 into main on 08/07/2026 12:21:41",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
       "title": "Windows Package Manager 1.30.90-preview",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.90-preview",
       "published": "2026-08-06T16:55:21Z",
@@ -1724,14 +1732,6 @@
       "preview": "What's Changed Build Windows zipapp separately by @dukecat0 in #1979 Fix Release Notes project URL by @giri256 in #1981 📝 docs: fix trailing-slash links left by the Sphinx move by @marko1olo in #1986 Prune the logs when PIPX_MAX_LOGS is 0 by @marko1olo in #1988 👷 ci: reject misnamed changelog.d fragments by @gaborbernat in #1989 🐛 fix(zipapp): restore one cross-platform pipx.pyz by @gaborbernat in #1990 New Contributors @giri256 made their first contribution in #1981 Full Changelog : 1.16.3...1.16.4",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "cabal-install-v3.18.1.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.1.0",
-      "published": "2026-07-29T13:09:20Z",
-      "preview": "No content.",
-      "source": "Cabal releases",
-      "category": "Registries"
     }
   ]
 }
