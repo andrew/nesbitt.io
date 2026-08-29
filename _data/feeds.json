@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-29T10:24:07Z",
-  "cutoff": "2026-07-30T10:24:03Z",
+  "generated": "2026-08-29T12:32:58Z",
+  "cutoff": "2026-07-30T12:32:54Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -1644,14 +1644,6 @@
       "preview": "Notes This new release candidate of Maven 4 is released to get feedback from users. Maven 4 has restricted a few things compared to Maven 3, so make sure to run the mvnup tool before trying your project with Maven 4. Issues fixed since RC-5 All known issues reported in the RC-5 release notes have been fixed: Bean configuration bug — field accessibility state was cached globally, causing plugin configuration injection failures. Fixed in #11433 . Concurrency issue in the v4 API — a ConcurrentModificationException was fixed in #11429 . BOM packaging — consumer POM conversion for BOM projects now ",
       "source": "Maven releases",
       "category": "Maven"
-    },
-    {
-      "title": "Announcing the Composer & Packagist Sponsorship Program",
-      "url": "https://blog.packagist.com/announcing-the-composer-packagist-sponsorship-program/",
-      "published": "2026-07-30T12:15:40Z",
-      "preview": "Today we are launching a formal sponsorship program for Composer and Packagist.org, together with new public sponsor pages on packagist.org/sponsor and getcomposer.org/sponsor . We want to start by thanking the companies who are on board at launch: Private Packagist , Aikido , AWS , Socket , Bunny , Upsun , Sonatype , Tideways",
-      "source": "Packagist Blog",
-      "category": "PHP"
     }
   ]
 }
