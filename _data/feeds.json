@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-29T19:21:39Z",
-  "cutoff": "2026-07-30T19:21:35Z",
+  "generated": "2026-08-29T20:24:28Z",
+  "cutoff": "2026-07-30T20:24:24Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.51.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.51.1",
+      "published": "2026-08-29T19:50:17Z",
+      "preview": "44.51.1 (2026-08-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.92.1 (main) ( #45549 ) ( 43de28b ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.4 (main) ( #45548 ) ( af4211d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.4.2",
       "url": "https://github.com/python-poetry/poetry/releases/tag/2.4.2",
@@ -268,14 +276,6 @@
       "preview": "ORAS CLI v1.3.4 is a security-focused maintenance release. It scopes registry credentials — mTLS client certificates, custom --header values, and --debug trace output — strictly to the configured registry origin, and adds an opt-in --force copy mode for registries that report incomplete content as present. Highlights 🔒 Security: three credential-scoping advisories are fixed — mTLS client certificates ( GHSA-h3wm-jjqf-8jm2 ), custom request headers ( GHSA-whvf-jp7m-59f3 ), and --debug HTTP traces ( GHSA-5jhf-2qmf-m8c5 ). All three were reported by Hardik Mehta ( @hardw00t ). ✨ oras cp and oras ",
       "source": "ORAS releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.48.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.48.1",
-      "published": "2026-08-27T19:55:32Z",
-      "preview": "44.48.1 (2026-08-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.91.1 (main) ( #45516 ) ( 87d882e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.18.2",
