@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-28T22:01:10Z",
-  "cutoff": "2026-07-29T22:01:05Z",
+  "generated": "2026-08-29T00:53:42Z",
+  "cutoff": "2026-07-30T00:53:38Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -21,6 +21,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-179.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-179.0.dev",
+      "published": "2026-08-29T00:26:13Z",
+      "preview": "SDK 3.14.0-179.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-178.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-178.0.dev",
+      "published": "2026-08-29T00:26:10Z",
+      "preview": "SDK 3.14.0-178.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-177.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-177.0.dev",
+      "published": "2026-08-29T00:26:07Z",
+      "preview": "SDK 3.14.0-177.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-176.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-176.0.dev",
+      "published": "2026-08-29T00:26:03Z",
+      "preview": "SDK 3.14.0-176.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-175.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-175.0.dev",
+      "published": "2026-08-29T00:26:00Z",
+      "preview": "SDK 3.14.0-175.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "v29.8.0-rc.1",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.0-rc.1",
@@ -270,14 +310,6 @@
       "category": "Registries"
     },
     {
-      "title": "SDK-3.14.0-169.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-169.0.dev",
-      "published": "2026-08-27T01:39:05Z",
-      "preview": "SDK 3.14.0-169.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "libnpmpack: v9.1.13",
       "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.13",
       "published": "2026-08-26T21:48:48Z",
@@ -332,38 +364,6 @@
       "preview": "This is a small release focused on bug fixes for npm (aube-backed) installs, HTTP cache cleanup, and Windows config pruning. Fixed npm: Aube-backed npm installs no longer drop a synthetic .npmrc into the per-tool install directory. Install-scoped settings such as minimumReleaseAge , trustPolicyExclude , allowedUnpopularPackages , and (for CLI installs) globalDir / globalBinDir now go into .config/aube/config.toml as typed TOML, while allowBuilds stays in package.json . Inline-table trust_policy_excludes / allow_low_downloads in mise.toml still round-trip correctly. ( #12425 by @jdx ) npm: mise",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "SDK-3.14.0-168.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-168.0.dev",
-      "published": "2026-08-26T00:14:55Z",
-      "preview": "SDK 3.14.0-168.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-167.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-167.0.dev",
-      "published": "2026-08-26T00:14:51Z",
-      "preview": "SDK 3.14.0-167.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-166.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-166.0.dev",
-      "published": "2026-08-26T00:14:47Z",
-      "preview": "SDK 3.14.0-166.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-165.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-165.0.dev",
-      "published": "2026-08-26T00:14:44Z",
-      "preview": "SDK 3.14.0-165.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "Generic Methods",
