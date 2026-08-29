@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-29T21:22:58Z",
-  "cutoff": "2026-07-30T21:22:52Z",
+  "generated": "2026-08-29T22:23:40Z",
+  "cutoff": "2026-07-30T22:23:35Z",
   "feed_count": 79,
-  "item_count": 201,
+  "item_count": 199,
   "categories": [
     ".NET",
     "C/C++",
@@ -1612,22 +1612,6 @@
       "preview": "pnpm 11.15 through 11.19 teach pnpm update and pnpm outdated to update GitHub Actions, let pnpm update write changesets for the bumps it makes, introduce cleaner update and audit settings sections, add publishConfig.name for publishing a package under a different name, harden pnpm self-update against project-supplied configuration, make web-based login work without a TTY, and accept = as a save-prefix. They also cut peak resolution memory by several times on large workspaces and speed up repeat installs after compatible dependency changes.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "v29.7.0",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.0",
-      "published": "2026-07-30T21:38:11Z",
-      "preview": "29.7.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.0 milestone moby/moby, 29.7.0 milestone New Add an experimental embedded-containerd feature that runs containerd inside the daemon process instead of as a separate managed process. moby/moby#52898 Mount type image is no longer experimental. moby/moby#52998 Add the default-stop-timeout daemon option to configure the stop timeout assigned to containers without an explicit timeout. moby/moby#53146 Security This release includes a fix for a security vulnerability affecting",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.0.0-beta.20",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.20",
-      "published": "2026-07-30T21:35:27Z",
-      "preview": "v2.0.0-beta.20",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
