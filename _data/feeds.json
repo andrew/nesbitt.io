@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-29T17:22:30Z",
-  "cutoff": "2026-07-30T17:22:26Z",
+  "generated": "2026-08-29T19:21:39Z",
+  "cutoff": "2026-07-30T19:21:35Z",
   "feed_count": 79,
-  "item_count": 202,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.4.2",
+      "url": "https://github.com/python-poetry/poetry/releases/tag/2.4.2",
+      "published": "2026-08-29T19:17:15Z",
+      "preview": "Fixed Fix an issue where Poetry installs an artifact that is not listed in the lockfile when the package source does not provide a hash for this artifact ( #11030 ). Fix a path traversal vulnerability when downloading files from a compromised URL and/or package source ( #11029 ). Fix a path traversal vulnerability in sdist extraction on Python 3.10.0-3.10.12 and 3.11.0-3.11.4 that could allow malicious tarball files to write files outside the target directory ( #11027 ).",
+      "source": "Poetry releases",
+      "category": "Python"
+    },
     {
       "title": "pnpr 0.1.0-alpha.9",
       "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.9",
