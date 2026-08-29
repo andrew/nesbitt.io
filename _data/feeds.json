@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-29T20:24:28Z",
-  "cutoff": "2026-07-30T20:24:24Z",
+  "generated": "2026-08-29T21:22:58Z",
+  "cutoff": "2026-07-30T21:22:52Z",
   "feed_count": 79,
-  "item_count": 203,
+  "item_count": 201,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.51.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.51.2",
+      "published": "2026-08-29T20:48:55Z",
+      "preview": "44.51.2 (2026-08-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.92.2 (main) ( #45550 ) ( e26aa5d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.51.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.51.1",
@@ -250,14 +258,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.48.3",
       "published": "2026-08-28T00:50:57Z",
       "preview": "44.48.3 (2026-08-28) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.91.3 (main) ( #45523 ) ( 16f06e5 ) Miscellaneous Chores deps: update dependency uv to v0.12.7 (main) ( #45521 ) ( 905f42a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.48.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.48.2",
-      "published": "2026-08-27T23:00:00Z",
-      "preview": "44.48.2 (2026-08-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.91.2 (main) ( #45518 ) ( cab7099 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.7 (main) ( #45519 ) ( 90df877 ) Code Refactoring lint: add types-location rule and enable it for lib/modules ( #45497 ) ( e0cec3d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1628,22 +1628,6 @@
       "preview": "v2.0.0-beta.20",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "3.3.2",
-      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.2",
-      "published": "2026-07-30T20:46:13Z",
-      "preview": "apt Debian release 3.3.2",
-      "source": "APT releases",
-      "category": "System"
-    },
-    {
-      "title": "3.18.0+0",
-      "url": "https://github.com/haskell/cabal/releases/tag/3.18.0%2B0",
-      "published": "2026-07-30T20:39:12Z",
-      "preview": "a hack for https://cabal.readthedocs.io/en/stable/",
-      "source": "Cabal releases",
-      "category": "Registries"
     }
   ]
 }
