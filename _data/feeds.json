@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-29T14:23:36Z",
-  "cutoff": "2026-07-30T14:23:32Z",
+  "generated": "2026-08-29T17:22:30Z",
+  "cutoff": "2026-07-30T17:22:26Z",
   "feed_count": 79,
-  "item_count": 203,
+  "item_count": 202,
   "categories": [
     ".NET",
     "C/C++",
@@ -1636,14 +1636,6 @@
       "preview": "a hack for https://cabal.readthedocs.io/en/stable/",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "Maven 4.0.0-rc-6",
-      "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-6",
-      "published": "2026-07-30T16:29:31Z",
-      "preview": "Notes This new release candidate of Maven 4 is released to get feedback from users. Maven 4 has restricted a few things compared to Maven 3, so make sure to run the mvnup tool before trying your project with Maven 4. Issues fixed since RC-5 All known issues reported in the RC-5 release notes have been fixed: Bean configuration bug — field accessibility state was cached globally, causing plugin configuration injection failures. Fixed in #11433 . Concurrency issue in the v4 API — a ConcurrentModificationException was fixed in #11429 . BOM packaging — consumer POM conversion for BOM projects now ",
-      "source": "Maven releases",
-      "category": "Maven"
     }
   ]
 }
