@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-29T13:22:44Z",
-  "cutoff": "2026-07-30T13:22:40Z",
+  "generated": "2026-08-29T14:23:36Z",
+  "cutoff": "2026-07-30T14:23:32Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpr 0.1.0-alpha.9",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.9",
+      "published": "2026-08-29T14:20:24Z",
+      "preview": "Minor Changes Made the signed shared-artifact cache horizontally scalable with S3-compatible storage and an independent top-level artifacts feature toggle. Generalized the experimental shared-artifact protocol so candidates and signed payloads identify a discriminated subject. Dependency side effects use package and source-integrity subjects, while workspace tasks use project and task subjects. This changes shared-artifact request bodies and signed payloads. A pnpr server and its clients have to be on matching versions. Patch Changes A published build artifact is now immutable: one input key a",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.25",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.25.0",
+      "published": "2026-08-29T14:20:10Z",
+      "preview": "Minor Changes Added an opt-in proof of concept that lets installs reuse a dependency's build output across machines, by publishing and restoring signed, organization-scoped artifacts through pnpr instead of running the lifecycle scripts locally. Configure it with the new remoteSideEffectsCache setting. A workspace names the eligible organization and packages ; everything describing the act of signing — publish , keyId , builderId , trustedKeys , privateKey and the provenance fields — is refused in pnpm-workspace.yaml and read from the global config file or the environment instead. Added macOS ",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.1.0",
+      "published": "2026-08-29T14:19:52Z",
+      "preview": "Minor Changes pnpm login and pnpm adduser now record the granted token in the global config.yaml , under the _auth setting, with --scope 's scope routed to that registry under registries . pnpm logout removes it from there, and still from an auth.ini an earlier version wrote. Tokens already in auth.ini keep working. A scope set in a project's pnpm-workspace.yaml is now ignored, with a warning naming where to set it instead. pnpm login records the scope as a @scope:registry route in the machine-global auth.ini , which outranks ~/.npmrc in every project — so a repository-committed file could red",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.51.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.51.0",
@@ -726,14 +750,6 @@
       "category": "Rust"
     },
     {
-      "title": "pnpm 12 RC 8",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.8",
-      "published": "2026-08-20T20:48:28Z",
-      "preview": "Minor Changes packageImportMethod: auto now tries hardlinks before cloning on Linux. A reflink materializes a new inode and copies extent bookkeeping inside the filesystem's metadata trees, where a hardlink is one directory entry — on btrfs this roughly halves the time an install spends materializing node_modules from a warm store. ext4 installs are unchanged (cloning was never supported there, so auto already hardlinked), and macOS keeps clone-first, where APFS clonefile is the platform's cheap primitive. Cloning remains the fallback when the store refuses hardlinks, and remains available exp",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "0.99.0",
       "url": "https://github.com/rust-lang/cargo/releases/tag/0.99.0",
       "published": "2026-08-20T17:10:25Z",
@@ -956,22 +972,6 @@
       "preview": "chore: bump backend versions ( #6845 )",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "pnpr 0.1.0-alpha.7",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.7",
-      "published": "2026-08-18T10:37:48Z",
-      "preview": "Minor Changes Packument responses now carry a Last-Modified header derived from the document's time.modified , so a client's release-age check can learn the package-level last-publish bound from a cheap HEAD probe instead of downloading the metadata body. A pnpr resolve request now carries the client's registries the way the registries setting declares them — keyed by URL, with the scopes routed to each, the bare-specifier prefix each answers to, and each one's serverType — in place of the prefix map it used to send. The server routes them through the same inversion the config reader runs, so ",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12 RC 7",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.7",
-      "published": "2026-08-18T10:37:27Z",
-      "preview": "Minor Changes node_modules/.modules.yaml no longer records the registries an install resolved from, and the recorded copy is dropped from the file on the first install that rewrites it. It dated from the lockfile format that spelled a dependency's path relative to its registry, where reading an installed tree meant knowing the registries it was installed with. Dependency paths have not carried a registry for several major versions, and the recorded copy outlived its use: pnpm list , pnpm why , and single-project installs preferred it over the project's own configuration, so a project whose reg",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "v6.10.0",
