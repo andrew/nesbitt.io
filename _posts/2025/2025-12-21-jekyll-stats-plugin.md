@@ -46,7 +46,7 @@ group :jekyll_plugins do
 end
 ```
 
-The `--save` flag writes stats to `_data/stats.json`. This lets you build a stats page with pure Liquid templates. I built a [stats page](https://nesbitt.io/stats) that pulls from this data ([template source](https://github.com/andrew/nesbitt.io/blob/master/stats.html)).
+The `--save` flag writes stats to `_data/stats.json`. This lets you build a stats page with pure Liquid templates. I built a [stats page](/stats) that pulls from this data ([template source](https://github.com/andrew/nesbitt.io/blob/master/stats.html)).
 
 To keep stats fresh, I added a git pre-commit hook:
 

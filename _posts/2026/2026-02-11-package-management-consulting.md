@@ -27,7 +27,7 @@ Over fifteen years I've built [Libraries.io](https://libraries.io), [Ecosyste.ms
 
 **Open source strategy.** I've [built and maintained](https://github.com/andrew) open source for over fifteen years: [octobox](https://octobox.io), [node-sass](https://github.com/sass/node-sass), [24 Pull Requests](https://24pullrequests.com), [Split](https://github.com/splitrb/split), and contributions to [Homebrew](https://brew.sh). I've designed web applications that scale to millions of users. If you're launching projects, building contributor communities, or making sustainability decisions, I've seen what works and what doesn't.
 
-**Research & analysis.** Guest lectures, technical reports, ecosystem comparisons, landscape surveys. I've presented at [FOSDEM](https://fosdem.org) and [NYU Secure Systems Lab](https://ssl.engineering.nyu.edu/), spoken at the [Software Mentions in OpenAlex workshop](https://nesbitt.io/posts/), and contributed to research with [Software Heritage](https://www.softwareheritage.org/), [CHAOSS](https://chaoss.community/), and [OpenSSF](https://openssf.org/).
+**Research & analysis.** Guest lectures, technical reports, ecosystem comparisons, landscape surveys. I've presented at [FOSDEM](https://fosdem.org) and [NYU Secure Systems Lab](https://ssl.engineering.nyu.edu/), spoken at the [Software Mentions in OpenAlex workshop](/posts/), and contributed to research with [Software Heritage](https://www.softwareheritage.org/), [CHAOSS](https://chaoss.community/), and [OpenSSF](https://openssf.org/).
 
 ## How it works
 
