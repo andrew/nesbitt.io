@@ -368,6 +368,42 @@ a.factoid:hover strong{
   }
 }
 
+.stat-linked-row{
+  display: grid;
+  grid-template-columns: 1fr 120px 30px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.stat-linked-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--color-text) !important;
+}
+
+.stat-linked-title:hover{
+  color: var(--color-accent) !important;
+}
+
+@media (max-width: 500px){
+  .stat-linked-row{
+    grid-template-columns: 1fr 30px;
+    gap: 8px;
+  }
+  .stat-linked-row .stat-bar-track{
+    display: none;
+  }
+}
+
+.stats-credit{
+  font-size: 13px;
+  color: var(--color-secondary);
+  margin-top: 20px;
+}
+
 .stat-month-chart{
   display: flex;
   align-items: flex-end;

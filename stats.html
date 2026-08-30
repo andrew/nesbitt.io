@@ -65,6 +65,21 @@ title: Stats
     {% endfor %}
   </div>
 
+  <h2>Most Referenced Posts</h2>
+
+  {% assign top_linked = site.data.stats.internal_links | slice: 0, 10 %}
+  {% assign link_max = top_linked[0].inbound_count %}
+  <div class="stat-chart">
+    {% for post in top_linked %}
+    {% assign w = post.inbound_count | times: 100 | divided_by: link_max %}
+    <div class="stat-linked-row">
+      <a class="stat-linked-title" href="{{ post.url }}">{{ post.title }}</a>
+      <div class="stat-bar-track"><div class="stat-bar" style="width: {{ w }}%"></div></div>
+      <span class="stat-count">{{ post.inbound_count }}</span>
+    </div>
+    {% endfor %}
+  </div>
+
   <h2>Top Tags</h2>
 
   {% assign top_tags = site.data.stats.tags | slice: 0, 20 %}
@@ -76,5 +91,7 @@ title: Stats
     <a class="tag-cloud-item" style="--weight: {{ weight }}" href="/search/#{{ tag.name | url_encode }}">{{ tag.name }}<span class="tag-cloud-count">{{ tag.count }}</span></a>
     {% endfor %}
   </div>
+
+  <p class="stats-credit">Powered by <a href="https://github.com/andrew/jekyll-stats">jekyll-stats</a></p>
 
 </div>

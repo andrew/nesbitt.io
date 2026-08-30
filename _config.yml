@@ -20,6 +20,10 @@ plugins:
   - jekyll-archives
   - jekyll-standard-site
 
+jekyll-stats:
+  link_source_exclude_tags:
+    - roundup
+
 jekyll-archives:
   enabled:
     - year
