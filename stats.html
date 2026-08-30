@@ -81,6 +81,28 @@ title: Stats
     <p class="stat-view-all"><a href="/most-referenced/">View all {{ site.data.stats.internal_links | where_exp: "e", "e.inbound_count > 1" | size }}</a></p>
   </div>
 
+  <h2>External Links</h2>
+
+  {% assign ext = site.data.stats.external_links %}
+  <div class="factoids">
+    <span class="factoid"><strong>{{ ext.total | number_with_commas }}</strong> Outbound links</span>
+    <span class="factoid"><strong>{{ ext.unique | number_with_commas }}</strong> Unique URLs</span>
+    <span class="factoid"><strong>{{ ext.domains | size | number_with_commas }}</strong> Hosts</span>
+  </div>
+
+  {% assign top_domains = ext.domains | slice: 0, 15 %}
+  {% assign domain_max = top_domains[1].count %}
+  <div class="stat-chart">
+    {% for d in top_domains %}
+    {% assign w = d.count | times: 100 | divided_by: domain_max %}{% if w > 100 %}{% assign w = 100 %}{% endif %}
+    <div class="stat-linked-row">
+      <span class="stat-linked-title">{{ d.host }} <span class="stat-count">&middot; {{ d.posts }} posts</span></span>
+      <div class="stat-bar-track"><div class="stat-bar" style="width: {{ w }}%"></div></div>
+      <span class="stat-count">{{ d.count }}</span>
+    </div>
+    {% endfor %}
+  </div>
+
   <h2>Top Tags</h2>
 
   {% assign top_tags = site.data.stats.tags | slice: 0, 20 %}

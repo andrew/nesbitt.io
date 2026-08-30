@@ -370,11 +370,15 @@ a.factoid:hover strong{
 
 .stat-linked-row{
   display: grid;
-  grid-template-columns: 1fr 120px 30px;
+  grid-template-columns: 1fr 120px 40px;
   align-items: center;
   gap: 12px;
   margin-bottom: 6px;
   font-size: 14px;
+}
+
+.stat-linked-row .stat-count{
+  text-align: right;
 }
 
 .stat-linked-title{
@@ -390,7 +394,7 @@ a.factoid:hover strong{
 
 @media (max-width: 500px){
   .stat-linked-row{
-    grid-template-columns: 1fr 30px;
+    grid-template-columns: 1fr 40px;
     gap: 8px;
   }
   .stat-linked-row .stat-bar-track{
