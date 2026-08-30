@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-30T13:23:19Z",
-  "cutoff": "2026-07-31T13:23:15Z",
+  "generated": "2026-08-30T15:24:18Z",
+  "cutoff": "2026-07-31T15:24:13Z",
   "feed_count": 79,
-  "item_count": 200,
+  "item_count": 199,
   "categories": [
     ".NET",
     "C/C++",
@@ -1612,14 +1612,6 @@
       "preview": "Enhancements: [micromamba, libmamba] Refactor and clean up by @Hind-M in #4359 [libmambapy, libmamba] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fixes: [libmamba] fix: Do not change permissions of existing shared package cache directories by @jjerphan in #4365 [libmamba] fix: Link libpsl static library for static builds by @mikemhenry in #4355 [micromamba, libmamba] fix: Accept non-standard quoted noarch entry points by @jjerphan in #4354 [micromamba] fix: Add deactivate command to t",
       "source": "Mamba releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "6.0.14",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.14",
-      "published": "2026-07-31T15:10:38Z",
-      "preview": "What's Changed Speed up warm-cache API loads and path lookups by @MikeMcQuaid in #23300 Remove most forks from no-op brew startup by @MikeMcQuaid in #23298 Speed up style checks for homebrew/core and homebrew/cask by @MikeMcQuaid in #23301 Avoid repeated coverage simulation by @MikeMcQuaid in #23313 Reduce vendored gem dependencies by @MikeMcQuaid in #23309 tap: require trust in Tap#to_hash by @carlocab in #23333 test/os/mac/keg: require macho by @carlocab in #23334 Preserve locale during brew startup by @MikeMcQuaid in #23332 Support Landlock ABI 2 on Linux kernel 6.1 by @MikeMcQuaid in #2333",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
