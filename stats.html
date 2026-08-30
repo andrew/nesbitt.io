@@ -78,6 +78,7 @@ title: Stats
       <span class="stat-count">{{ post.inbound_count }}</span>
     </div>
     {% endfor %}
+    <p class="stat-view-all"><a href="/most-referenced/">View all {{ site.data.stats.internal_links | where_exp: "e", "e.inbound_count > 1" | size }}</a></p>
   </div>
 
   <h2>Top Tags</h2>

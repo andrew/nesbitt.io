@@ -90,6 +90,40 @@ layout: default
     {%- endif -%} {%- endif -%}
 </section>
 
+{%- if site.data.stats.internal_links.size > 0 -%}
+<section class="posts">
+    <h3 id="most-referenced">Most Referenced Posts</h3>
+    <ul>
+        {%- for entry in site.data.stats.internal_links limit:5 -%}
+        {%- assign post = site.posts | where: "url", entry.url | first -%}
+        <li>
+            <h4>
+                <a class="post-link" href="{{ entry.url | relative_url }}">
+                    {{ entry.title | escape }}
+                </a>
+            </h4>
+            <p class="post-meta">
+                Referenced by {{ entry.inbound_count }} posts
+                {%- if post.tags.size > 0 -%}
+                <span class="post-tags">
+                    {%- for tag in post.tags -%}
+                    <a href="/search#{{ tag | url_encode }}" class="post-tag"
+                        >{{ tag }}</a
+                    >
+                    {%- endfor -%}
+                </span>
+                {%- endif -%}
+            </p>
+            {%- if post.description -%}
+            <p class="post-description">{{ post.description }}</p>
+            {%- endif -%}
+        </li>
+        {%- endfor -%}
+    </ul>
+    <p><a href="/most-referenced/">View all</a></p>
+</section>
+{%- endif -%}
+
 <hr />
 <h3 id="projects">Projects</h3>
 <div class="row">
