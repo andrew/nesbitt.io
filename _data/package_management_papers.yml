@@ -186,6 +186,30 @@ sections:
     ids:
       arxiv: '2601.20662'
       doi: 10.48550/arXiv.2601.20662
+  - title: 'Mutating the "Immutable": A Large-Scale Study of Git Tag Alterations'
+    url: https://arxiv.org/abs/2606.31354
+    year: '2026'
+    authors: Solal Rapaport, Laurent Pautet, Samuel Tardieu, Stefano Zacchiroli, Théo Zimmermann
+    venue: ACM Conference on Reproducibility and Replicability
+    notes: Analyses 328.4 million repositories from Software Heritage and finds 10.2 million tags that were deleted or force-pushed after creation. Altered tags weaken reproducible builds that treat a tag as a stable source reference.
+    ids:
+      arxiv: '2606.31354'
+  - title: 'No Snake Oil: Verifying Python Package Builds'
+    url: https://arxiv.org/abs/2607.21888
+    year: '2026'
+    authors: Jens Dietrich, Spencer Sun, Tim W. White, Behnaz Hassanshahi
+    venue: arXiv preprint
+    notes: Rebuilds 12,180 popular PyPI releases with macaron and oss-rebuild, finding only 15.4% and 19.1% of wheels are byte-identical to the published artifact. The daleq4py equivalence checker establishes equivalence for 60.2% and 78.9% of source-equivalent rebuilds.
+    ids:
+      arxiv: '2607.21888'
+  - title: 'AROMA+: A Study of Factors Affecting Reproducible Builds in the Maven Ecosystem'
+    url: https://arxiv.org/abs/2608.27125
+    year: '2026'
+    authors: Mehdi Keshani, Amirhossein Rahmati, Mohammad Hossein Aref, Abbas Heydarnoori
+    venue: arXiv preprint
+    notes: Automatically recovers build environments for Maven Central releases and finds 32% are feasible for automatic reproduction, of which 12% reproduce fully. Recovered build specifications match the manually curated Reproducible Central data field-for-field 99.8% of the time.
+    ids:
+      arxiv: '2608.27125'
 - id: dependency-resolution-algorithms-and-challenges
   title: Dependency Resolution Algorithms and Challenges
   description: Research establishing the theoretical complexity of dependency resolution and practical solutions.
@@ -374,6 +398,14 @@ sections:
     ids:
       arxiv: '2605.11772'
       doi: 10.48550/arxiv.2605.11772
+  - title: 'SMTpip: Interpreter-Aware SMT-Based Dependency Conflict Resolution for Restoring Python Source-Code Executability'
+    url: https://arxiv.org/abs/2608.15886
+    year: '2026'
+    authors: Sadman Jashim Sakib, Muhammad Asaduzzaman, Curtis Bright
+    venue: arXiv preprint
+    notes: Encodes package version constraints and Python interpreter compatibility as SMT formulas so the resolver can determine whether a satisfying environment exists. Runs 6.9x faster than pip's backtracking resolver on the evaluated datasets while producing constraint-consistent environments.
+    ids:
+      arxiv: '2608.15886'
 - id: software-supply-chain-security
   title: Software Supply Chain Security
   description: Research on supply chain attacks, detection methods, and prevention frameworks.
@@ -601,6 +633,38 @@ sections:
     ids:
       arxiv: '2511.20313'
       doi: 10.48550/arxiv.2511.20313
+  - title: 'VeriPort: Automated and Verified Patch Backporting at Scale'
+    url: https://arxiv.org/abs/2606.22704
+    year: '2026'
+    authors: Jonah Ghebremichael, Wenxin Jiang, Mikola Lysenko, Benjamin Barslev Nielsen, William Enck, Alexandros Kapravelos
+    venue: arXiv preprint
+    notes: Backports security fixes across affected package versions and records evidence that each patch blocks exploitation without breaking expected behaviour. Resolves 95.3% of 128 benchmark tasks and produced more than 5,000 verified patches for 169 high- and critical-severity CVEs.
+    ids:
+      arxiv: '2606.22704'
+  - title: 'Software Supply Chains are Dead: Use-Case-Oriented Regeneration'
+    url: https://arxiv.org/abs/2607.13021
+    year: '2026'
+    authors: Tanmay Singla, James C. Davis
+    venue: arXiv preprint
+    notes: Evaluates an agent workflow that replaces an external dependency by generating only the functionality an application calls. Examines whether local regeneration can reduce the attack surface and maintenance cost associated with third-party packages.
+    ids:
+      arxiv: '2607.13021'
+  - title: 'Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents'
+    url: https://arxiv.org/abs/2607.15143
+    year: '2026'
+    authors: Aadesh Bagmar, Pushkar Saraf
+    venue: arXiv preprint
+    notes: Tests package-install attacks delivered through README files, requirements files, and Makefiles across twelve scenarios and five attack classes. Coding agents often install dependencies redirected to an untrusted registry or supplied under a plausible wrong name, with results varying by the harness-model pairing.
+    ids:
+      arxiv: '2607.15143'
+  - title: Stylometric Defenses Against Author Impersonation in Software Repositories
+    url: https://arxiv.org/abs/2608.02695
+    year: '2026'
+    authors: Leonid Ravich, Michael Fire
+    venue: arXiv preprint
+    notes: Builds a patch-level authorship verifier from more than twenty years of Linux kernel history and reaches 0.93 ROC AUC. Retrospective tests surface the PHP backdoor commits within about 1% of the review queue and ForceMemo spoofs at a median 0.8% review burden per repository.
+    ids:
+      arxiv: '2608.02695'
 - id: package-repository-analysis-and-ecosystems
   title: Package Repository Analysis and Ecosystems
   description: Large-scale empirical studies of package ecosystems and their structural properties.
@@ -876,6 +940,14 @@ sections:
     ids:
       arxiv: '2512.24400'
       doi: 10.48550/arxiv.2512.24400
+  - title: 'CHRONO-RESOLUTION: A Dependency Resolution Dataset at Release Points for npm, PyPI, and crates.io Packages'
+    url: https://arxiv.org/abs/2607.15315
+    year: '2026'
+    authors: Imranur Rahman, Jill Marley, Ranindya Paramitha, Laurie Williams
+    venue: IEEE International Conference on Software Maintenance and Evolution (ICSME)
+    notes: Records dependency-resolution results at each package's release point across npm, PyPI, and crates.io, then enriches them with vulnerability data from OSV. Researchers can reconstruct historical dependency graphs and calculate time-sensitive measures such as dependency freshness and update rhythm from the dataset.
+    ids:
+      arxiv: '2607.15315'
 - id: version-constraints-and-semantic-versioning
   title: Version Constraints and Semantic Versioning
   description: Research on versioning practices, semantic versioning adoption, and breaking changes.
@@ -1172,6 +1244,14 @@ sections:
     notes: System for binary transparency in software distribution.
     ids:
       arxiv: '1712.08427'
+  - title: 'Skilldex: A Package Manager and Registry for Agent Skill Packages with Hierarchical Scope-Based Distribution'
+    url: https://arxiv.org/abs/2604.16911
+    year: '2026'
+    authors: Sampriti Saha, Pranav Hemanth
+    venue: arXiv preprint
+    notes: Introduces a package manager and registry for agent skill packages with compiler-style format checks and bundled skillsets that share assets. A three-tier scope system separates global, user, and project installations.
+    ids:
+      arxiv: '2604.16911'
 - id: software-distribution-systems
   title: Software Distribution Systems
   description: Research on secure software update systems and distribution frameworks.
@@ -1341,6 +1421,30 @@ sections:
     ids:
       arxiv: '2512.12559'
       doi: 10.48550/arxiv.2512.12559
+  - title: 'PyFEX: Uncovering Evasive Python-based Threats via Resilient and Exhaustive Path Exploration'
+    url: https://arxiv.org/abs/2606.02196
+    year: '2026'
+    authors: Meng Wang, Yue Ma, Majid Garoosi, Wenting Fan, Liwei Guo, Jianqiang Wang, Ali Abbasi
+    venue: arXiv preprint
+    notes: Forces execution across conditional branches and synthesises replacement objects after runtime failures so analysis can continue through evasive Python code. A live PyPI deployment found 212 previously unknown malicious packages with more than 91,000 downloads.
+    ids:
+      arxiv: '2606.02196'
+  - title: Uncovering Similar but Different Packages in PyPI and Potential Security Threats
+    url: https://arxiv.org/abs/2606.29785
+    year: '2026'
+    authors: Sunha Park, Soojin Han, Seunghoon Woo
+    venue: arXiv preprint
+    notes: Measures package replication on PyPI, where one package duplicates most of another package's codebase. Replicated packages can carry known vulnerabilities forward and provide cover for malicious variants.
+    ids:
+      arxiv: '2606.29785'
+  - title: 'Cloak and Detonate: Scanner Evasion and Dynamic Detection of Agent Skill Malware'
+    url: https://arxiv.org/abs/2607.02357
+    year: '2026'
+    authors: Zimo Ji, Congying Xu, Zongjie Li, Yudong Gao, Xin Wei, Shuai Wang, Shing-Chi Cheung
+    venue: arXiv preprint
+    notes: Builds payload transformations that evade all eight evaluated agent-skill scanners at rates above 90%. The SkillDetonate runtime auditor detects 97% of the malicious skills by observing operating-system behaviour during sandboxed execution.
+    ids:
+      arxiv: '2607.02357'
 - id: package-metadata-and-trust-models
   title: Package Metadata and Trust Models
   description: Research on metadata systems, signing, and trust frameworks.
@@ -1401,6 +1505,22 @@ sections:
     ids:
       arxiv: '2605.00076'
       doi: 10.48550/arxiv.2605.00076
+  - title: A Longitudinal Study of Android Apps Signing Key Protection
+    url: https://arxiv.org/abs/2606.21487
+    year: '2026'
+    authors: Mark Huasong Meng, Qing Zhang, Weirao Lu, Chunyang Chen
+    venue: arXiv preprint
+    notes: Finds 5,673 compromised Android keystores in public GitHub repositories and links 26 exposed certificates to 278 apps. The affected set includes public-store and preinstalled apps distributed across seven manufacturers.
+    ids:
+      arxiv: '2606.21487'
+  - title: "The Rising Cost of Trust: Practitioners' Trust Signals, Controls, and Responses in the Software Supply Chain"
+    url: https://arxiv.org/abs/2608.20675
+    year: '2026'
+    authors: Ranindya Paramitha, Siri Paidipalli, Laurie Williams, Christian Kästner
+    venue: arXiv preprint
+    notes: Interviews 38 industry and open-source practitioners about the signals and controls they use when selecting dependencies. Practitioners respond to reduced confidence by automating verification, delegating decisions to trusted intermediaries, or avoiding some external dependencies.
+    ids:
+      arxiv: '2608.20675'
 - id: dependency-management-bots
   title: Dependency Management Bots
   description: Research on automated dependency management tools like Dependabot and Renovate.
@@ -1581,6 +1701,86 @@ sections:
     ids:
       arxiv: '2512.21781'
       doi: 10.48550/arxiv.2512.21781
+  - title: 'Stdlib or Third-Party? Empirical Performance and Correctness of LLM-Assisted Zero-Dependency Python Libraries'
+    url: https://arxiv.org/abs/2605.21405
+    year: '2026'
+    authors: Peng Ding, Rick Stevens
+    venue: arXiv preprint
+    notes: Benchmarks more than 40 standard-library-only reimplementations of popular Python packages across twelve categories. Most run within twice the reference package's performance, while C-extension-backed image, binary serialisation, and cryptography workloads remain the main performance boundary.
+    ids:
+      arxiv: '2605.21405'
+  - title: 'Poking Around in the Dark: Why a Shared Understanding of Components Matters'
+    url: https://arxiv.org/abs/2606.02442
+    year: '2026'
+    authors: Felix Reichmann, Wolfgang Krane, Alena Naiakshina, Martin Johns, Simon Koch
+    venue: arXiv preprint
+    notes: Finds that popular SBOM generators disagree on which components belong in the same software. No evaluated tool covers every component-inclusion mechanism across Python, Java, Go, PHP, Rust, and C, leaving common blind spots in vulnerability identification.
+    ids:
+      arxiv: '2606.02442'
+  - title: 'Software Dark Matter: Gazing at Uncharted Files to Navigate SBOM Integrations'
+    url: https://arxiv.org/abs/2606.13966
+    year: '2026'
+    authors: Abhishek Reddypalle, Dennis Roellke, Santiago Torres-Arias
+    venue: arXiv preprint
+    notes: Measures security-relevant files that ship in artifacts without appearing in package metadata across Docker Hub, Maven Central, plugin marketplaces, and an enterprise environment. Finds vulnerable software, secrets, and cryptographic keys hidden from metadata-driven SBOM pipelines, including three confirmed high-severity CVEs.
+    ids:
+      arxiv: '2606.13966'
+  - title: 'What You See Is Not What You Execute: Memory-Based Runtime SBOM Generation for Supply Chain Security'
+    url: https://arxiv.org/abs/2606.22827
+    year: '2026'
+    authors: Hala Ali, Andrew Case, Irfan Ahmed
+    venue: arXiv preprint
+    notes: Generates Python SBOMs from components loaded in volatile memory instead of package metadata or filesystem artifacts. Evaluation across 51 applications reaches 100% extraction accuracy and recovers runtime packages missed by existing SBOM tools.
+    ids:
+      arxiv: '2606.22827'
+  - title: 'Ensuring Open Source Integrity: The Intersection of Copy-Based Reuse and License Compliance'
+    url: https://arxiv.org/abs/2606.23495
+    year: '2026'
+    authors: Mahmoud Jahanshahi, Bogdan Vasilescu, Audris Mockus
+    venue: arXiv preprint
+    notes: Builds a copy-based reuse network from World of Code to trace dependencies created by copying source between projects. Finds potential licence noncompliance in 39.4% of project combinations where copied code crosses unclear or incompatible licence boundaries.
+    ids:
+      arxiv: '2606.23495'
+  - title: File-Level Copying Is an Implicit Dependency in Open Source
+    url: https://arxiv.org/abs/2607.02059
+    year: '2026'
+    authors: Runzhi He, Audris Mockus, Wenhao Yang, Minghui Zhou
+    venue: arXiv preprint
+    notes: Mines 690,500 file-copying events from World of Code and treats copied files as undeclared dependencies. These copies lack the provenance, maintenance, security, and compliance signals supplied by package manager metadata.
+    ids:
+      arxiv: '2607.02059'
+  - title: 'Beyond Compliance: A Large Scale Study on the Completeness and Consistency of the GitHub SBOMs'
+    url: https://arxiv.org/abs/2607.04614
+    year: '2026'
+    authors: Kawsar Ahmed Bhuiyan, Mohamed Bilel Besbes, Rachna Raj, Adam Al Assil, Diego Elias Costa
+    venue: arXiv preprint
+    notes: Measures GitHub's automatically generated SBOMs across package ecosystems. Version and licence coverage varies enough by language that the reliability of the resulting inventory depends on the project's ecosystem.
+    ids:
+      arxiv: '2607.04614'
+  - title: The Distributed Open-Source Vulnerability Ecosystem
+    url: https://arxiv.org/abs/2607.14900
+    year: '2026'
+    authors: Peter Mandl, Paul Mandl
+    venue: arXiv preprint
+    notes: Models vulnerability management as a distributed process and traces scanner disagreement on identical software inventories to separate stages of the process. The analysis distinguishes data-source, matching, and reporting differences instead of treating scanner output as a single decision.
+    ids:
+      arxiv: '2607.14900'
+  - title: 'No Edges, No Verdict: A Large-Scale Empirical Study of Declared Dependency Graphs in 78K SBOMs in the Wild'
+    url: https://arxiv.org/abs/2607.22140
+    year: '2026'
+    authors: Artur Zięba-Kozarzewski
+    venue: arXiv preprint
+    notes: Finds 52.9% of 77,092 parseable SBOMs declare no dependency edges and only 0.10% use CycloneDX compositions to flag an incomplete graph. Treating edgeless SBOMs as incomplete raises known-exploited-vulnerability recall from 0.600 to 0.950.
+    ids:
+      arxiv: '2607.22140'
+  - title: 'Implicit, Yet Impactful: Understanding Hidden Dependencies in Java Projects'
+    url: https://arxiv.org/abs/2608.16262
+    year: '2026'
+    authors: Lyuye Zhang, Chengwei Liu, Fangyuan Zhang, Yiran Zhang, Yuan Zhou, Yang Liu
+    venue: arXiv preprint
+    notes: Finds undeclared transitive dependencies used directly by project code in 34.12% of 972 Maven modules. Version drift causes breaking changes in 48% of affected modules, while 36 CVEs expose vulnerable methods called directly by root projects.
+    ids:
+      arxiv: '2608.16262'
 - id: ecosystem-evolution-and-developer-behavior
   title: Ecosystem Evolution and Developer Behavior
   description: Research on how ecosystems and developer practices evolve over time.
@@ -1955,3 +2155,20 @@ sections:
     ids:
       arxiv: '2605.06279'
       doi: 10.48550/arxiv.2605.06279
+  - title: 'When LLMs Invent Rust Crates: An Empirical Study of Hallucination Patterns and Mitigation'
+    url: https://arxiv.org/abs/2606.08444
+    year: '2026'
+    authors: Jieming Zheng, Hao Guan, Yepang Liu
+    venue: arXiv preprint
+    notes: Measures crate hallucination in Rust code generated for Stack Overflow, GitHub, and synthetic tasks. Different models show similar hallucination rates with little sensitivity to decoding parameters, unlike earlier results for Python and JavaScript.
+    ids:
+      arxiv: '2606.08444'
+  - title: Evaluating Inference-Time Defenses Against Package Hallucination in LLM-Generated Code
+    url: https://arxiv.org/abs/2608.22652
+    year: '2026'
+    authors: Alberick Euraste Djire, Iyiola E. Olatunji, Melissa Tessa, Earl T. Barr, Jacques Klein, Tegawendé F. Bissyandé
+    venue: arXiv preprint
+    notes: Finds earlier measurements overstate Python package hallucination by 9.4 percentage points when they classify standard-library modules as missing packages. Across seven inference-time defences, retrieval-augmented generation reduces hallucinations in 18 of 32 model-language combinations and performs best alongside self-refinement under adversarial prompts.
+    ids:
+      arxiv: '2608.22652'
+      doi: 10.1145/3832783.3837555
