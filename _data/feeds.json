@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-30T09:26:35Z",
-  "cutoff": "2026-07-31T09:26:30Z",
+  "generated": "2026-08-30T12:34:13Z",
+  "cutoff": "2026-07-31T12:34:09Z",
   "feed_count": 79,
-  "item_count": 198,
+  "item_count": 199,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.52.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.52.0",
+      "published": "2026-08-30T12:34:00Z",
+      "preview": "44.52.0 (2026-08-30) Features data: automatic update of static data ( #45551 ) ( df98f44 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "archive/maven-3.8.x: Archive maven-3.8.x branch (EOL)",
+      "url": "https://github.com/apache/maven/releases/tag/archive%2Fmaven-3.8.x",
+      "published": "2026-08-30T11:31:31Z",
+      "preview": "The 3.8.x release stream reached end-of-life; see dev@ discussion: https://lists.apache.org/thread/2t99pftq06j25rq7j3h1l0z5xsn57z6b This tag preserves the branch's final state (last real content is the maven-3.8.9 release plus the automatic next-development-iteration bump) before the branch itself is removed.",
+      "source": "Maven releases",
+      "category": "Maven"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-28-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-28-a",
@@ -268,14 +284,6 @@
       "preview": "SDK 3.14.0-172.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.48.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.48.3",
-      "published": "2026-08-28T00:50:57Z",
-      "preview": "44.48.3 (2026-08-28) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.91.3 (main) ( #45523 ) ( 16f06e5 ) Miscellaneous Chores deps: update dependency uv to v0.12.7 (main) ( #45521 ) ( 905f42a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.12.7",
