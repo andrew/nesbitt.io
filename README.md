@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [This Week in Package Management: 29 August 2026](https://nesbitt.io/2026/08/29/this-week-in-package-management.html)
 - [Now Hiring: Senior Open Source Maintainer](https://nesbitt.io/2026/08/28/now-hiring-senior-open-source-maintainer.html)
 - [Bazel Module Versions Aren’t SemVer](https://nesbitt.io/2026/08/27/bazel-module-versions-arent-semver.html)
 - [Hardening the Override Flag](https://nesbitt.io/2026/08/25/hardening-the-override-flag.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [This Week in Package Management: 15 August 2026](https://nesbitt.io/2026/08/15/this-week-in-package-management.html)
 - [How This Blog Is Built](https://nesbitt.io/2026/08/14/how-this-blog-is-built.html)
 - [Supplier Security Questionnaire](https://nesbitt.io/2026/08/13/supplier-security-questionnaire.html)
-- [Shared Code Between Package Managers](https://nesbitt.io/2026/08/11/package-manager-library-reuse.html)
 <!-- POSTS:END -->
