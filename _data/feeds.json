@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-30T17:22:14Z",
-  "cutoff": "2026-07-31T17:22:09Z",
+  "generated": "2026-08-30T18:28:49Z",
+  "cutoff": "2026-07-31T18:28:31Z",
   "feed_count": 79,
-  "item_count": 197,
+  "item_count": 195,
   "categories": [
     ".NET",
     "C/C++",
@@ -1580,22 +1580,6 @@
       "preview": "Release Notes Released on 2026-07-31. Enhancements Add package-specific pre-release policies with --prerelease-package ( #20837 ) Support local HTML files as flat indexes ( #20802 ) Add Xonsh virtual environment activation scripts ( activate.xsh ) ( #19740 ) Preserve filesystem paths passed to uv add --index when updating pyproject.toml ( #20817 ) Preview features Add automatic fixes to uv check with --fix ( #20793 ) Avoid rejecting unchanged metadata-free lockfiles when workspace dependencies share direct sources ( #20847 ) Honor direct URL constraints when validating metadata-free lockfiles ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "v6.1.0-RC1",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.0-rc1",
-      "published": "2026-07-31T18:07:18Z",
-      "preview": "Features A new command has been added, podman volume rename , to allow renaming volumes. Volumes created using volume drivers and volumes that are currently used by a container cannot be renamed ( #28189 ). A new command has been added, podman machine restart , to allow easy restart of VMs managed by podman machine ( #28366 ). The podman network rm command now includes a new option, --ignore , which suppresses errors when attempting to remove networks that do not exist ( #28363 ). The podman manifest push command now includes two new options, --retry and --retry-delay , which allow pushes to b",
-      "source": "Podman releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v29.7.1",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.1",
-      "published": "2026-07-31T17:36:24Z",
-      "preview": "29.7.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.1 milestone moby/moby, 29.7.1 milestone Bug fixes and enhancements Fix a regression that prevented pulling images whose layers contain directories without explicit parent directory entries. moby/moby#53260 Fix a regression where the CopyToContainer rejects container paths that traverse absolute symlinks, such as /var/run -> /run . moby/moby#53261",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
