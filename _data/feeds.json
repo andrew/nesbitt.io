@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-30T18:28:49Z",
-  "cutoff": "2026-07-31T18:28:31Z",
+  "generated": "2026-08-30T20:25:13Z",
+  "cutoff": "2026-07-31T20:25:09Z",
   "feed_count": 79,
   "item_count": 195,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.17.1",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.1",
+      "published": "2026-08-30T20:00:39Z",
+      "preview": "What's Changed tests: make utils_temp_dir work without symlink privilege by @iam-kira in #2023 fix(environment): report PIPX_MAX_LOGS by @dylanpulver in #2024 👷 test: keep the suite off the real internet by @gaborbernat in #2025 New Contributors @iam-kira made their first contribution in #2023 @dylanpulver made their first contribution in #2024 Full Changelog : 1.17.0...1.17.1",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "v7.0.0-next-7.26",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.26",
@@ -1572,14 +1580,6 @@
       "preview": "Enhancements Replace runtime dependency on zstandard with compression.zstd (Python >=3.14) and backports.zstd (Python 3.10–3.13) for repodata and sharded repodata decompression. ( #15486 via #16191 ) Defer concurrent.futures and threading imports in common/io.py so they only load when executor classes ( DummyExecutor , ThreadLimitedThreadPoolExecutor ) are first accessed. ( #15867 via #15881 ) Defer heavy imports in exceptions.py ( models.channel , auxlib.logz , common.io , common.iterators , serialize.json ) to function level so they only load on error paths. ( #15867 via #15880 ) Defer impor",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "0.12.1",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.1",
-      "published": "2026-07-31T19:43:31Z",
-      "preview": "Release Notes Released on 2026-07-31. Enhancements Add package-specific pre-release policies with --prerelease-package ( #20837 ) Support local HTML files as flat indexes ( #20802 ) Add Xonsh virtual environment activation scripts ( activate.xsh ) ( #19740 ) Preserve filesystem paths passed to uv add --index when updating pyproject.toml ( #20817 ) Preview features Add automatic fixes to uv check with --fix ( #20793 ) Avoid rejecting unchanged metadata-free lockfiles when workspace dependencies share direct sources ( #20847 ) Honor direct URL constraints when validating metadata-free lockfiles ",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
