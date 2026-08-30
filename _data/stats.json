@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T15:11:35Z",
+  "generated_at": "2026-08-30T15:33:34Z",
   "total_posts": 204,
   "total_words": 281091,
   "reading_minutes": 1406,
@@ -138,7 +138,7 @@
     },
     {
       "name": "reference",
-      "count": 33
+      "count": 32
     },
     {
       "name": "deep-dive",
@@ -394,5 +394,996 @@
     }
   ],
   "categories": [],
+  "internal_links": [
+    {
+      "url": "/2025/12/06/github-actions-package-manager.html",
+      "title": "GitHub Actions Has a Package Manager, and It Might Be the Worst",
+      "inbound_count": 15,
+      "inbound_from": [
+        "/2025/12/09/why-im-fascinated-by-package-management.html",
+        "/2025/12/19/why-javascript-needed-docker.html",
+        "/2025/12/30/community-tools-bring-lockfile-support-to-github-actions.html",
+        "/2026/01/08/brew-vulns-cve-scanning-for-homebrew.html",
+        "/2026/01/19/a-jepsen-test-for-package-managers.html",
+        "/2026/01/19/importmap-lock.html",
+        "/2026/02/24/reproducible-builds-in-language-package-managers.html",
+        "/2026/03/02/transitive-trust.html",
+        "/2026/03/08/if-it-quacks-like-a-package-manager.html",
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html",
+        "/2026/04/28/github-actions-is-the-weakest-link.html",
+        "/2026/05/02/a-github-for-maintainers.html",
+        "/2026/05/25/github-actions-security-in-python-packages.html",
+        "/2026/08/04/brew-install-actions-checkout.html",
+        "/2026/08/18/two-factor-authentication-across-package-registries.html"
+      ]
+    },
+    {
+      "url": "/2025/12/05/package-manager-tradeoffs.html",
+      "title": "Package Manager Design Tradeoffs",
+      "inbound_count": 14,
+      "inbound_from": [
+        "/2025/12/09/why-im-fascinated-by-package-management.html",
+        "/2025/12/19/why-javascript-needed-docker.html",
+        "/2025/12/21/federated-package-management.html",
+        "/2025/12/24/package-managers-keep-using-git-as-a-database.html",
+        "/2025/12/28/the-compact-index.html",
+        "/2025/12/29/categorizing-package-registries.html",
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/01/17/lockfile-format-design-and-tradeoffs.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/01/23/package-management-is-a-wicked-problem.html",
+        "/2026/02/06/cratesio-freaky-friday.html",
+        "/2026/02/14/package-management-namespaces.html",
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html",
+        "/2026/07/28/why-npm-dependency-trees-are-so-big.html"
+      ]
+    },
+    {
+      "url": "/2025/12/22/package-registries-are-governance-as-a-service.html",
+      "title": "Package Registries Are Governance Providers",
+      "inbound_count": 11,
+      "inbound_from": [
+        "/2026/01/03/the-package-management-landscape.html",
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/01/23/package-management-is-a-wicked-problem.html",
+        "/2026/01/25/pkgfed-activitypub-for-package-releases.html",
+        "/2026/01/30/will-ai-make-package-managers-redundant.html",
+        "/2026/02/10/lockfiles-killed-vendoring.html",
+        "/2026/02/18/what-package-registries-could-borrow-from-oci.html",
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html",
+        "/2026/05/15/language-registries-are-unstable-by-default.html",
+        "/2026/07/09/unboxed-zig.html"
+      ]
+    },
+    {
+      "url": "/2025/12/10/slopsquatting-meets-dependency-confusion.html",
+      "title": "Slopsquatting meets Dependency Confusion",
+      "inbound_count": 10,
+      "inbound_from": [
+        "/2025/12/17/typosquatting-in-package-managers.html",
+        "/2025/12/21/federated-package-management.html",
+        "/2026/01/21/an-ai-skill-for-skeptical-dependency-management.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/01/30/will-ai-make-package-managers-redundant.html",
+        "/2026/03/03/package-management-is-naming-all-the-way-down.html",
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html",
+        "/2026/04/08/package-security-problems-for-ai-agents.html",
+        "/2026/04/09/package-security-defenses-for-ai-agents.html",
+        "/2026/04/27/the-stages-of-package-installation.html"
+      ]
+    },
+    {
+      "url": "/2025/11/13/package-management-papers.html",
+      "title": "Package Management Papers",
+      "inbound_count": 8,
+      "inbound_from": [
+        "/2026/01/03/the-package-management-landscape.html",
+        "/2026/01/09/package-management-blog-posts.html",
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/01/19/a-jepsen-test-for-package-managers.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/02/06/dependency-resolution-methods.html",
+        "/2026/02/09/package-manager-podcast-episodes.html",
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html"
+      ]
+    },
+    {
+      "url": "/2026/05/08/weekend-at-bernies.html",
+      "title": "Weekend at Bernie's",
+      "inbound_count": 8,
+      "inbound_from": [
+        "/2026/05/09/the-mismeasure-of-open-source.html",
+        "/2026/05/13/showing-our-work.html",
+        "/2026/05/14/centrality-is-not-vitality.html",
+        "/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
+        "/2026/05/25/github-actions-security-in-python-packages.html",
+        "/2026/05/27/chaoss-metrics-in-2026.html",
+        "/2026/06/18/open-source-vs-the-invisible-hand.html",
+        "/2026/08/06/a-year-of-ai-disclosure-in-critical-packages.html"
+      ]
+    },
+    {
+      "url": "/2025/12/24/package-managers-keep-using-git-as-a-database.html",
+      "title": "Package managers keep using git as a database, it never works out",
+      "inbound_count": 7,
+      "inbound_from": [
+        "/2025/12/28/the-compact-index.html",
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/01/23/package-management-is-a-wicked-problem.html",
+        "/2026/02/10/lockfiles-killed-vendoring.html",
+        "/2026/02/26/git-in-postgres.html",
+        "/2026/04/27/the-stages-of-package-installation.html",
+        "/2026/08/18/two-factor-authentication-across-package-registries.html"
+      ]
+    },
+    {
+      "url": "/2025/12/29/categorizing-package-manager-clients.html",
+      "title": "Categorizing Package Manager Clients",
+      "inbound_count": 7,
+      "inbound_from": [
+        "/2025/12/29/categorizing-package-registries.html",
+        "/2026/01/03/the-package-management-landscape.html",
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/02/06/dependency-resolution-methods.html",
+        "/2026/05/28/package-managers-that-package-package-managers.html",
+        "/2026/07/09/unboxed-zig.html"
+      ]
+    },
+    {
+      "url": "/2025/12/29/categorizing-package-registries.html",
+      "title": "Categorizing Package Registries",
+      "inbound_count": 7,
+      "inbound_from": [
+        "/2025/12/29/categorizing-package-manager-clients.html",
+        "/2026/01/03/the-package-management-landscape.html",
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/01/28/the-dependency-layer-in-digital-sovereignty.html",
+        "/2026/02/14/package-management-namespaces.html",
+        "/2026/07/09/unboxed-zig.html",
+        "/2026/08/18/two-factor-authentication-across-package-registries.html"
+      ]
+    },
+    {
+      "url": "/2026/01/17/lockfile-format-design-and-tradeoffs.html",
+      "title": "Lockfile Format Design and Tradeoffs",
+      "inbound_count": 7,
+      "inbound_from": [
+        "/2026/01/19/a-jepsen-test-for-package-managers.html",
+        "/2026/01/19/importmap-lock.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/01/28/the-dependency-layer-in-digital-sovereignty.html",
+        "/2026/02/10/lockfiles-killed-vendoring.html",
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html",
+        "/2026/04/27/the-stages-of-package-installation.html"
+      ]
+    },
+    {
+      "url": "/2024/06/24/from-zerover-to-semver-a-comprehensive-list-of-versioning-schemes-in-open-source.html",
+      "title": "From ZeroVer to SemVer: A List of Versioning Schemes in Open Source",
+      "inbound_count": 6,
+      "inbound_from": [
+        "/2025/12/09/why-im-fascinated-by-package-management.html",
+        "/2026/01/09/package-management-blog-posts.html",
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/01/23/package-management-is-a-wicked-problem.html",
+        "/2026/03/03/package-management-is-naming-all-the-way-down.html"
+      ]
+    },
+    {
+      "url": "/2025/12/21/federated-package-management.html",
+      "title": "Federated Package Management and the Zooko Triangle",
+      "inbound_count": 6,
+      "inbound_from": [
+        "/2025/12/24/package-managers-keep-using-git-as-a-database.html",
+        "/2026/01/23/package-management-is-a-wicked-problem.html",
+        "/2026/01/25/pkgfed-activitypub-for-package-releases.html",
+        "/2026/03/03/package-management-is-naming-all-the-way-down.html",
+        "/2026/03/14/whats-going-on-with-fair-package-manager.html",
+        "/2026/05/02/a-github-for-maintainers.html"
+      ]
+    },
+    {
+      "url": "/2026/01/03/the-package-management-landscape.html",
+      "title": "The Package Management Landscape",
+      "inbound_count": 6,
+      "inbound_from": [
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/01/28/the-dependency-layer-in-digital-sovereignty.html",
+        "/2026/01/29/zig-and-the-mxn-supply-chain-problem.html",
+        "/2026/04/07/who-built-this.html",
+        "/2026/04/15/the-tuesday-test.html"
+      ]
+    },
+    {
+      "url": "/2026/03/04/package-managers-need-to-cool-down.html",
+      "title": "Package Managers Need to Cool Down",
+      "inbound_count": 6,
+      "inbound_from": [
+        "/2026/04/09/package-security-defenses-for-ai-agents.html",
+        "/2026/04/10/package-registries-and-pagination.html",
+        "/2026/05/11/proxy.html",
+        "/2026/05/15/language-registries-are-unstable-by-default.html",
+        "/2026/05/27/chaoss-metrics-in-2026.html",
+        "/2026/05/29/composer-dependency-policies.html"
+      ]
+    },
+    {
+      "url": "/2026/05/09/the-mismeasure-of-open-source.html",
+      "title": "The Mismeasure of Open Source",
+      "inbound_count": 6,
+      "inbound_from": [
+        "/2026/05/13/showing-our-work.html",
+        "/2026/05/14/centrality-is-not-vitality.html",
+        "/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
+        "/2026/05/27/chaoss-metrics-in-2026.html",
+        "/2026/06/18/open-source-vs-the-invisible-hand.html",
+        "/2026/06/30/taking-roads-and-bridges-literally.html"
+      ]
+    },
+    {
+      "url": "/2025/12/02/what-is-a-package-manager.html",
+      "title": "What is a Package Manager?",
+      "inbound_count": 5,
+      "inbound_from": [
+        "/2025/12/09/why-im-fascinated-by-package-management.html",
+        "/2025/12/25/cursed-bundler-using-go-get-to-install-ruby-gems.html",
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/01/28/the-dependency-layer-in-digital-sovereignty.html"
+      ]
+    },
+    {
+      "url": "/2025/12/17/typosquatting-in-package-managers.html",
+      "title": "Typosquatting in Package Managers",
+      "inbound_count": 5,
+      "inbound_from": [
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/01/23/package-management-is-a-wicked-problem.html",
+        "/2026/02/14/package-management-namespaces.html",
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html"
+      ]
+    },
+    {
+      "url": "/2026/01/22/a-protocol-for-package-management.html",
+      "title": "A Protocol for Package Management",
+      "inbound_count": 5,
+      "inbound_from": [
+        "/2026/01/23/package-management-is-a-wicked-problem.html",
+        "/2026/01/27/the-c-shaped-hole-in-package-management.html",
+        "/2026/01/28/the-dependency-layer-in-digital-sovereignty.html",
+        "/2026/01/29/zig-and-the-mxn-supply-chain-problem.html",
+        "/2026/01/30/will-ai-make-package-managers-redundant.html"
+      ]
+    },
+    {
+      "url": "/2026/01/23/package-management-is-a-wicked-problem.html",
+      "title": "Package Management is a Wicked Problem",
+      "inbound_count": 5,
+      "inbound_from": [
+        "/2026/01/28/the-dependency-layer-in-digital-sovereignty.html",
+        "/2026/01/29/zig-and-the-mxn-supply-chain-problem.html",
+        "/2026/01/30/will-ai-make-package-managers-redundant.html",
+        "/2026/02/14/package-management-namespaces.html",
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html"
+      ]
+    },
+    {
+      "url": "/2026/01/27/the-c-shaped-hole-in-package-management.html",
+      "title": "The C-Shaped Hole in Package Management",
+      "inbound_count": 5,
+      "inbound_from": [
+        "/2026/02/04/package-management-at-fosdem-2026.html",
+        "/2026/02/10/lockfiles-killed-vendoring.html",
+        "/2026/02/17/platform-strings.html",
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html",
+        "/2026/04/13/common-package-specification.html"
+      ]
+    },
+    {
+      "url": "/2025/11/26/extending-git-functionality.html",
+      "title": "Extending Git Functionality",
+      "inbound_count": 4,
+      "inbound_from": [
+        "/2026/01/04/making-git-pkgs-feel-like-git.html",
+        "/2026/02/05/git-magic-files.html",
+        "/2026/03/18/git-remote-helpers.html",
+        "/2026/08/20/issues-in-the-repo.html"
+      ]
+    },
+    {
+      "url": "/2025/12/01/promptver.html",
+      "title": "PromptVer",
+      "inbound_count": 4,
+      "inbound_from": [
+        "/2025/12/10/slopsquatting-meets-dependency-confusion.html",
+        "/2026/01/30/will-ai-make-package-managers-redundant.html",
+        "/2026/05/21/rfc-artificial-contributors-to-open-source.html",
+        "/2026/05/28/protestware-for-coding-agents.html"
+      ]
+    },
+    {
+      "url": "/2025/12/23/could-lockfiles-just-be-sboms.html",
+      "title": "Could lockfiles just be SBOMs?",
+      "inbound_count": 4,
+      "inbound_from": [
+        "/2026/01/17/lockfile-format-design-and-tradeoffs.html",
+        "/2026/01/19/importmap-lock.html",
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html",
+        "/2026/04/27/the-stages-of-package-installation.html"
+      ]
+    },
+    {
+      "url": "/2025/12/28/the-compact-index.html",
+      "title": "The Compact Index: How Bundler Scales Dependency Resolution",
+      "inbound_count": 4,
+      "inbound_from": [
+        "/2025/12/29/categorizing-package-registries.html",
+        "/2026/01/19/a-jepsen-test-for-package-managers.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/04/27/the-stages-of-package-installation.html"
+      ]
+    },
+    {
+      "url": "/2026/02/05/git-magic-files.html",
+      "title": "Git's Magic Files",
+      "inbound_count": 4,
+      "inbound_from": [
+        "/2026/02/12/the-many-flavors-of-ignore-files.html",
+        "/2026/02/22/forge-specific-repository-folders.html",
+        "/2026/03/05/package-manager-magic-files.html",
+        "/2026/03/06/gitlocal.html"
+      ]
+    },
+    {
+      "url": "/2026/04/16/features-everyone-should-steal-from-npmx.html",
+      "title": "Features everyone should steal from npmx",
+      "inbound_count": 4,
+      "inbound_from": [
+        "/2026/05/02/a-github-for-maintainers.html",
+        "/2026/05/11/proxy.html",
+        "/2026/06/06/this-week-in-package-management.html",
+        "/2026/08/07/the-software-stewardship-lab.html"
+      ]
+    },
+    {
+      "url": "/2026/05/01/patching-and-forking-in-package-managers.html",
+      "title": "Patching and forking in package managers",
+      "inbound_count": 4,
+      "inbound_from": [
+        "/2026/05/02/a-github-for-maintainers.html",
+        "/2026/05/08/weekend-at-bernies.html",
+        "/2026/05/15/language-registries-are-unstable-by-default.html",
+        "/2026/06/29/unbundling-the-standard-library.html"
+      ]
+    },
+    {
+      "url": "/2026/05/04/package-manager-cwes.html",
+      "title": "Package Manager CWEs",
+      "inbound_count": 4,
+      "inbound_from": [
+        "/2026/05/05/package-manager-threat-models.html",
+        "/2026/05/30/this-week-in-package-management.html",
+        "/2026/07/21/end-of-options.html",
+        "/2026/08/11/package-manager-library-reuse.html"
+      ]
+    },
+    {
+      "url": "/2025/11/15/package-manager-timeline.html",
+      "title": "Package Manager Timeline",
+      "inbound_count": 3,
+      "inbound_from": [
+        "/2026/01/09/package-management-blog-posts.html",
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/02/10/lockfiles-killed-vendoring.html"
+      ]
+    },
+    {
+      "url": "/2025/11/30/documenting-package-manager-data.html",
+      "title": "Documenting Package Manager Data",
+      "inbound_count": 3,
+      "inbound_from": [
+        "/2025/12/09/why-im-fascinated-by-package-management.html",
+        "/2025/12/29/categorizing-package-registries.html",
+        "/2026/01/13/package-manager-glossary.html"
+      ]
+    },
+    {
+      "url": "/2026/01/01/git-pkgs-explore-your-dependency-history.html",
+      "title": "git-pkgs: explore your dependency history",
+      "inbound_count": 3,
+      "inbound_from": [
+        "/2026/01/04/making-git-pkgs-feel-like-git.html",
+        "/2026/01/24/rewriting-git-pkgs-in-go.html",
+        "/2026/02/04/package-management-at-fosdem-2026.html"
+      ]
+    },
+    {
+      "url": "/2026/01/24/rewriting-git-pkgs-in-go.html",
+      "title": "Rewriting git-pkgs in Go",
+      "inbound_count": 3,
+      "inbound_from": [
+        "/2026/01/01/git-pkgs-explore-your-dependency-history.html",
+        "/2026/01/04/making-git-pkgs-feel-like-git.html",
+        "/2026/02/19/go-modules-for-package-management-tooling.html"
+      ]
+    },
+    {
+      "url": "/2026/02/14/package-management-namespaces.html",
+      "title": "Package Management Namespaces",
+      "inbound_count": 3,
+      "inbound_from": [
+        "/2026/02/23/where-do-specifications-fit-in-the-dependency-tree.html",
+        "/2026/03/03/package-management-is-naming-all-the-way-down.html",
+        "/2026/07/23/package-name-prefixes.html"
+      ]
+    },
+    {
+      "url": "/2026/02/17/platform-strings.html",
+      "title": "Platform Strings",
+      "inbound_count": 3,
+      "inbound_from": [
+        "/2026/02/19/go-modules-for-package-management-tooling.html",
+        "/2026/03/03/package-management-is-naming-all-the-way-down.html",
+        "/2026/07/30/wheels-bottles-images.html"
+      ]
+    },
+    {
+      "url": "/2026/02/18/what-package-registries-could-borrow-from-oci.html",
+      "title": "What Package Registries Could Borrow from OCI",
+      "inbound_count": 3,
+      "inbound_from": [
+        "/2026/02/19/go-modules-for-package-management-tooling.html",
+        "/2026/04/10/package-registries-and-pagination.html",
+        "/2026/07/30/wheels-bottles-images.html"
+      ]
+    },
+    {
+      "url": "/2026/04/15/the-tuesday-test.html",
+      "title": "The Tuesday Test",
+      "inbound_count": 3,
+      "inbound_from": [
+        "/2026/04/27/the-stages-of-package-installation.html",
+        "/2026/06/05/install-script-allowlists.html",
+        "/2026/07/09/unboxed-zig.html"
+      ]
+    },
+    {
+      "url": "/2026/04/28/github-actions-is-the-weakest-link.html",
+      "title": "GitHub Actions is the weakest link",
+      "inbound_count": 3,
+      "inbound_from": [
+        "/2026/05/02/a-github-for-maintainers.html",
+        "/2026/05/25/github-actions-security-in-python-packages.html",
+        "/2026/08/04/brew-install-actions-checkout.html"
+      ]
+    },
+    {
+      "url": "/2017/11/10/what-does-a-sustainable-open-source-project-look-like.html",
+      "title": "What does a sustainable open source project look like?",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/01/23/package-management-is-a-wicked-problem.html",
+        "/2026/01/25/pkgfed-activitypub-for-package-releases.html"
+      ]
+    },
+    {
+      "url": "/2025/12/14/supply-chain-security-tools-for-ruby.html",
+      "title": "Supply Chain Security Tools for Ruby",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/01/08/brew-vulns-cve-scanning-for-homebrew.html",
+        "/2026/02/19/go-modules-for-package-management-tooling.html"
+      ]
+    },
+    {
+      "url": "/2025/12/18/docker-is-the-lockfile-for-system-packages.html",
+      "title": "Docker is the Lockfile for System Packages",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/01/27/the-c-shaped-hole-in-package-management.html",
+        "/2026/02/18/what-package-registries-could-borrow-from-oci.html"
+      ]
+    },
+    {
+      "url": "/2025/12/26/how-uv-got-so-fast.html",
+      "title": "How uv got so fast",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/01/17/lockfile-format-design-and-tradeoffs.html",
+        "/2026/04/14/standing-on-the-shoulders-of-homebrew.html"
+      ]
+    },
+    {
+      "url": "/2026/01/08/brew-vulns-cve-scanning-for-homebrew.html",
+      "title": "brew-vulns: CVE scanning for Homebrew",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/05/28/package-managers-that-package-package-managers.html",
+        "/2026/07/17/plumbing-homebrew-into-the-vulnerability-ecosystem.html"
+      ]
+    },
+    {
+      "url": "/2026/01/10/16-best-practices-for-reducing-dependabot-noise.html",
+      "title": "16 Best Practices for Reducing Dependabot Noise",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/01/20/the-lesser-evil-of-compliance.html",
+        "/2026/01/26/introducing-package-chaos-monkey.html"
+      ]
+    },
+    {
+      "url": "/2026/01/19/a-jepsen-test-for-package-managers.html",
+      "title": "A Jepsen Test for Package Managers",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/01/26/introducing-package-chaos-monkey.html"
+      ]
+    },
+    {
+      "url": "/2026/01/20/the-lesser-evil-of-compliance.html",
+      "title": "The Lesser Evil of Compliance: Enterprise SBOM Strategy for CRA Readiness",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/01/26/introducing-package-chaos-monkey.html",
+        "/2026/03/19/the-fragmented-world-of-dependency-policy.html"
+      ]
+    },
+    {
+      "url": "/2026/01/21/an-ai-skill-for-skeptical-dependency-management.html",
+      "title": "An AI Skill for Skeptical Dependency Management",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/01/30/will-ai-make-package-managers-redundant.html",
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html"
+      ]
+    },
+    {
+      "url": "/2026/01/25/pkgfed-activitypub-for-package-releases.html",
+      "title": "PkgFed: ActivityPub for Package Releases",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/01/28/the-dependency-layer-in-digital-sovereignty.html",
+        "/2026/03/14/whats-going-on-with-fair-package-manager.html"
+      ]
+    },
+    {
+      "url": "/2026/02/12/the-many-flavors-of-ignore-files.html",
+      "title": "The Many Flavors of Ignore Files",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/02/19/go-modules-for-package-management-tooling.html",
+        "/2026/02/22/forge-specific-repository-folders.html"
+      ]
+    },
+    {
+      "url": "/2026/02/15/separating-download-from-install-in-docker-builds.html",
+      "title": "Separating Download from Install in Docker Builds",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/02/18/what-package-registries-could-borrow-from-oci.html",
+        "/2026/04/27/the-stages-of-package-installation.html"
+      ]
+    },
+    {
+      "url": "/2026/02/24/reproducible-builds-in-language-package-managers.html",
+      "title": "Reproducible Builds in Language Package Managers",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/02/25/two-kinds-of-attestation.html",
+        "/2026/04/27/the-stages-of-package-installation.html"
+      ]
+    },
+    {
+      "url": "/2026/03/19/the-fragmented-world-of-dependency-policy.html",
+      "title": "The Fragmented World of Dependency Policy",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/05/11/proxy.html",
+        "/2026/05/29/composer-dependency-policies.html"
+      ]
+    },
+    {
+      "url": "/2026/03/20/package-manager-mirroring.html",
+      "title": "Package Manager Mirroring",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/04/27/the-stages-of-package-installation.html",
+        "/2026/07/30/wheels-bottles-images.html"
+      ]
+    },
+    {
+      "url": "/2026/05/05/package-manager-threat-models.html",
+      "title": "Package Manager Threat Models",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/05/24/signing-is-for-the-bad-days.html",
+        "/2026/07/09/unboxed-zig.html"
+      ]
+    },
+    {
+      "url": "/2026/05/11/proxy.html",
+      "title": "proxy",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/05/15/language-registries-are-unstable-by-default.html",
+        "/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html"
+      ]
+    },
+    {
+      "url": "/2026/07/17/plumbing-homebrew-into-the-vulnerability-ecosystem.html",
+      "title": "Plumbing Homebrew into the vulnerability ecosystem",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/07/18/this-week-in-package-management.html",
+        "/2026/08/04/brew-install-actions-checkout.html"
+      ]
+    },
+    {
+      "url": "/2017/02/24/exploring-unseen-open-source-infrastructure.html",
+      "title": "Exploring Unseen Open Source Infrastructure",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2025/12/09/why-im-fascinated-by-package-management.html"
+      ]
+    },
+    {
+      "url": "/2025/11/29/oss-taxonomy.html",
+      "title": "A Taxonomy for Open Source Software",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/04/21/brief.html"
+      ]
+    },
+    {
+      "url": "/2025/12/09/why-im-fascinated-by-package-management.html",
+      "title": "Why I'm Fascinated by Package Management",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/01/23/package-management-is-a-wicked-problem.html"
+      ]
+    },
+    {
+      "url": "/2025/12/15/how-i-assess-open-source-libraries.html",
+      "title": "How I Assess Open Source Libraries",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/03/12/reviewing-enisas-package-manager-advisory.html"
+      ]
+    },
+    {
+      "url": "/2025/12/20/fosdem-2026-package-managers-devroom-schedule.html",
+      "title": "Package Managers Devroom at FOSDEM 2026: Schedule Announced",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/01/04/making-git-pkgs-feel-like-git.html"
+      ]
+    },
+    {
+      "url": "/2025/12/27/how-to-ruin-all-of-package-management.html",
+      "title": "How to Ruin All of Package Management",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/01/23/package-management-is-a-wicked-problem.html"
+      ]
+    },
+    {
+      "url": "/2025/12/30/community-tools-bring-lockfile-support-to-github-actions.html",
+      "title": "Community Tools Bring Lockfile Support to GitHub Actions",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/08/04/brew-install-actions-checkout.html"
+      ]
+    },
+    {
+      "url": "/2026/01/02/how-dependabot-actually-works.html",
+      "title": "How Dependabot Actually Works",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/01/25/pkgfed-activitypub-for-package-releases.html"
+      ]
+    },
+    {
+      "url": "/2026/01/05/the-nine-levels-of-javascript-dependency-hell.html",
+      "title": "The Nine Levels of JavaScript Dependency Hell",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/01/23/package-management-is-a-wicked-problem.html"
+      ]
+    },
+    {
+      "url": "/2026/01/09/package-management-blog-posts.html",
+      "title": "Package Management Blog Posts",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/02/09/package-manager-podcast-episodes.html"
+      ]
+    },
+    {
+      "url": "/2026/01/13/package-manager-glossary.html",
+      "title": "Package Manager Glossary",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/01/22/a-protocol-for-package-management.html"
+      ]
+    },
+    {
+      "url": "/2026/01/18/workspaces-and-monorepos-in-package-managers.html",
+      "title": "Workspaces and Monorepos in Package Managers",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/01/19/a-jepsen-test-for-package-managers.html"
+      ]
+    },
+    {
+      "url": "/2026/01/28/the-dependency-layer-in-digital-sovereignty.html",
+      "title": "The Dependency Layer in Digital Sovereignty",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/01/29/zig-and-the-mxn-supply-chain-problem.html"
+      ]
+    },
+    {
+      "url": "/2026/01/29/zig-and-the-mxn-supply-chain-problem.html",
+      "title": "Zig and the M×N Supply Chain Problem",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/07/09/unboxed-zig.html"
+      ]
+    },
+    {
+      "url": "/2026/02/03/incident-report-cve-2024-yikes.html",
+      "title": "Incident Report: CVE-2024-YIKES",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/06/26/incident-report-cve-2026-lgtm.html"
+      ]
+    },
+    {
+      "url": "/2026/02/06/cratesio-freaky-friday.html",
+      "title": "Crates.io's Freaky Friday",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/02/06/dependency-resolution-methods.html"
+      ]
+    },
+    {
+      "url": "/2026/02/06/dependency-resolution-methods.html",
+      "title": "Dependency Resolution Methods",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/04/27/the-stages-of-package-installation.html"
+      ]
+    },
+    {
+      "url": "/2026/02/21/whale-fall.html",
+      "title": "Whale Fall",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/03/14/whats-going-on-with-fair-package-manager.html"
+      ]
+    },
+    {
+      "url": "/2026/02/26/git-in-postgres.html",
+      "title": "Git in Postgres",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/03/10/just-use-postgres.html"
+      ]
+    },
+    {
+      "url": "/2026/03/02/transitive-trust.html",
+      "title": "Transitive Trust",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/03/03/package-management-is-naming-all-the-way-down.html"
+      ]
+    },
+    {
+      "url": "/2026/03/11/git-pkgs-actions.html",
+      "title": "git-pkgs/actions",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/03/19/the-fragmented-world-of-dependency-policy.html"
+      ]
+    },
+    {
+      "url": "/2026/03/31/npms-defaults-are-bad.html",
+      "title": "npm's Defaults Are Bad",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/04/06/the-cathedral-and-the-catacombs.html"
+      ]
+    },
+    {
+      "url": "/2026/04/08/package-security-problems-for-ai-agents.html",
+      "title": "Package Security Problems for AI Agents",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/04/09/package-security-defenses-for-ai-agents.html"
+      ]
+    },
+    {
+      "url": "/2026/04/14/standing-on-the-shoulders-of-homebrew.html",
+      "title": "Standing on the shoulders of Homebrew",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/04/15/the-tuesday-test.html"
+      ]
+    },
+    {
+      "url": "/2026/05/06/revisiting-the-2015-open-source-census.html",
+      "title": "Revisiting the 2015 Open Source Census",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/05/09/the-mismeasure-of-open-source.html"
+      ]
+    },
+    {
+      "url": "/2026/05/12/not-a-security-issue.html",
+      "title": "Not a Security Issue",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/06/25/scrutineer.html"
+      ]
+    },
+    {
+      "url": "/2026/05/13/showing-our-work.html",
+      "title": "Showing Our Work",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/05/14/centrality-is-not-vitality.html"
+      ]
+    },
+    {
+      "url": "/2026/05/14/centrality-is-not-vitality.html",
+      "title": "Centrality is not vitality",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/05/27/chaoss-metrics-in-2026.html"
+      ]
+    },
+    {
+      "url": "/2026/05/15/language-registries-are-unstable-by-default.html",
+      "title": "Language Registries Are Unstable by Default",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/05/27/chaoss-metrics-in-2026.html"
+      ]
+    },
+    {
+      "url": "/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
+      "title": "Dumb Ways for an Open Source Project to Die",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/06/16/how-open-source-projects-change-hands.html"
+      ]
+    },
+    {
+      "url": "/2026/05/21/rfc-artificial-contributors-to-open-source.html",
+      "title": "RFC: Artificial Contributors to Open Source",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/05/27/chaoss-metrics-in-2026.html"
+      ]
+    },
+    {
+      "url": "/2026/05/24/signing-is-for-the-bad-days.html",
+      "title": "Signing is for the bad days",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/06/04/gittuf-a-signed-log-for-git-refs.html"
+      ]
+    },
+    {
+      "url": "/2026/05/29/composer-dependency-policies.html",
+      "title": "Composer's dependency policies",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/05/30/this-week-in-package-management.html"
+      ]
+    },
+    {
+      "url": "/2026/06/05/install-script-allowlists.html",
+      "title": "Install-script allowlists",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/06/13/this-week-in-package-management.html"
+      ]
+    },
+    {
+      "url": "/2026/06/11/what-happened-to-tea.html",
+      "title": "What Happened to tea.xyz",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/07/23/package-name-prefixes.html"
+      ]
+    },
+    {
+      "url": "/2026/06/13/this-week-in-package-management.html",
+      "title": "This Week in Package Management: 13 June 2026",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/08/01/this-week-in-package-management.html"
+      ]
+    },
+    {
+      "url": "/2026/06/18/open-source-vs-the-invisible-hand.html",
+      "title": "Open Source vs the Invisible Hand",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/06/30/taking-roads-and-bridges-literally.html"
+      ]
+    },
+    {
+      "url": "/2026/06/30/taking-roads-and-bridges-literally.html",
+      "title": "Taking Roads and Bridges literally",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/07/01/the-cra-is-not-about-open-source.html"
+      ]
+    },
+    {
+      "url": "/2026/07/01/the-cra-is-not-about-open-source.html",
+      "title": "The CRA is not about open source",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/07/17/plumbing-homebrew-into-the-vulnerability-ecosystem.html"
+      ]
+    },
+    {
+      "url": "/2026/07/07/content-addressing-in-package-managers.html",
+      "title": "Content addressing in package managers",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/07/09/unboxed-zig.html"
+      ]
+    },
+    {
+      "url": "/2026/07/18/this-week-in-package-management.html",
+      "title": "This Week in Package Management: 18 July 2026",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/07/25/this-week-in-package-management.html"
+      ]
+    },
+    {
+      "url": "/2026/07/21/end-of-options.html",
+      "title": "--end-of-options",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/08/11/package-manager-library-reuse.html"
+      ]
+    },
+    {
+      "url": "/2026/07/25/this-week-in-package-management.html",
+      "title": "This Week in Package Management: 25 July 2026",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/08/01/this-week-in-package-management.html"
+      ]
+    },
+    {
+      "url": "/2026/07/30/wheels-bottles-images.html",
+      "title": "Wheels, Bottles and Images",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/08/04/brew-install-actions-checkout.html"
+      ]
+    },
+    {
+      "url": "/2026/08/07/the-software-stewardship-lab.html",
+      "title": "The Software Stewardship Lab",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/08/08/this-week-in-package-management.html"
+      ]
+    }
+  ],
   "drafts_count": 0
 }
