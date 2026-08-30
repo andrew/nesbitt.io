@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-29T22:23:40Z",
-  "cutoff": "2026-07-30T22:23:35Z",
+  "generated": "2026-08-30T01:04:58Z",
+  "cutoff": "2026-07-31T01:04:54Z",
   "feed_count": 79,
-  "item_count": 199,
+  "item_count": 198,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "SDK-3.14.0-180.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-180.0.dev",
+      "published": "2026-08-30T00:31:20Z",
+      "preview": "SDK 3.14.0-180.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
     {
       "title": "44.51.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.51.2",
@@ -346,14 +354,6 @@
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-171.0.dev",
       "published": "2026-08-27T01:39:10Z",
       "preview": "SDK 3.14.0-171.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-170.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-170.0.dev",
-      "published": "2026-08-27T01:39:08Z",
-      "preview": "SDK 3.14.0-170.0.dev",
       "source": "Pub releases",
       "category": "Registries"
     },
@@ -1604,14 +1604,6 @@
       "preview": "The Gradle team is excited to announce Gradle 9.7.0 RC2. Here are the highlights of this release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 , Ravi , sk-reddy17 , Suvrat Acharya , Yongshun Ye . Upgrade instructions Switch your build to use Gradle 9.7.0 RC2 by updating your wra",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "pnpm 11.15-11.19",
-      "url": "https://pnpm.io/blog/releases/11.15-11.19",
-      "published": "2026-07-31T00:00:00Z",
-      "preview": "pnpm 11.15 through 11.19 teach pnpm update and pnpm outdated to update GitHub Actions, let pnpm update write changesets for the bumps it makes, introduce cleaner update and audit settings sections, add publishConfig.name for publishing a package under a different name, harden pnpm self-update against project-supplied configuration, make web-based login work without a TTY, and accept = as a save-prefix. They also cut peak resolution memory by several times on large workspaces and speed up repeat installs after compatible dependency changes.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
