@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-30T20:25:13Z",
-  "cutoff": "2026-07-31T20:25:09Z",
+  "generated": "2026-08-30T22:24:00Z",
+  "cutoff": "2026-07-31T22:23:55Z",
   "feed_count": 79,
-  "item_count": 195,
+  "item_count": 194,
   "categories": [
     ".NET",
     "C/C++",
@@ -1572,14 +1572,6 @@
       "preview": "a hack for https://cabal.readthedocs.io/en/stable/",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "26.7.0",
-      "url": "https://github.com/conda/conda/releases/tag/26.7.0",
-      "published": "2026-07-31T22:05:02Z",
-      "preview": "Enhancements Replace runtime dependency on zstandard with compression.zstd (Python >=3.14) and backports.zstd (Python 3.10–3.13) for repodata and sharded repodata decompression. ( #15486 via #16191 ) Defer concurrent.futures and threading imports in common/io.py so they only load when executor classes ( DummyExecutor , ThreadLimitedThreadPoolExecutor ) are first accessed. ( #15867 via #15881 ) Defer heavy imports in exceptions.py ( models.channel , auxlib.logz , common.io , common.iterators , serialize.json ) to function level so they only load on error paths. ( #15867 via #15880 ) Defer impor",
-      "source": "Conda releases",
-      "category": "Multi-language"
     }
   ]
 }
