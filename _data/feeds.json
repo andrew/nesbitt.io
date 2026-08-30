@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-30T16:25:56Z",
-  "cutoff": "2026-07-31T16:25:52Z",
+  "generated": "2026-08-30T17:22:14Z",
+  "cutoff": "2026-07-31T17:22:09Z",
   "feed_count": 79,
   "item_count": 197,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v7.0.0-next-7.26",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.26",
+      "published": "2026-08-30T16:52:49Z",
+      "preview": "Patch Changes 594f438 : Update verdaccio dependencies ( @verdaccio/* , verdaccio , verdaccio-* ) to the next-9 npm dist-tag.",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v7.0.0-next-7.25",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.25",
@@ -1586,14 +1594,6 @@
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.1",
       "published": "2026-07-31T17:36:24Z",
       "preview": "29.7.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.1 milestone moby/moby, 29.7.1 milestone Bug fixes and enhancements Fix a regression that prevented pulling images whose layers contain directories without explicit parent directory entries. moby/moby#53260 Fix a regression where the CopyToContainer rejects container paths that traverse absolute symlinks, such as /var/run -> /run . moby/moby#53261",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.0.0-beta.21",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.21",
-      "published": "2026-07-31T17:05:38Z",
-      "preview": "v2.0.0-beta.21",
       "source": "Docker Engine releases",
       "category": "Containers"
     }
