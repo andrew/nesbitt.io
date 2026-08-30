@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-30T15:24:18Z",
-  "cutoff": "2026-07-31T15:24:13Z",
+  "generated": "2026-08-30T16:25:56Z",
+  "cutoff": "2026-07-31T16:25:52Z",
   "feed_count": 79,
-  "item_count": 199,
+  "item_count": 197,
   "categories": [
     ".NET",
     "C/C++",
@@ -1596,22 +1596,6 @@
       "preview": "v2.0.0-beta.21",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "3.18.0+1",
-      "url": "https://github.com/haskell/cabal/releases/tag/3.18.0%2B1",
-      "published": "2026-07-31T15:45:02Z",
-      "preview": "a hack for https://cabal.readthedocs.io/en/stable/",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "2.9.0.rc0",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0.rc0",
-      "published": "2026-07-31T15:37:42Z",
-      "preview": "Enhancements: [micromamba, libmamba] Refactor and clean up by @Hind-M in #4359 [libmambapy, libmamba] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fixes: [libmamba] fix: Do not change permissions of existing shared package cache directories by @jjerphan in #4365 [libmamba] fix: Link libpsl static library for static builds by @mikemhenry in #4355 [micromamba, libmamba] fix: Accept non-standard quoted noarch entry points by @jjerphan in #4354 [micromamba] fix: Add deactivate command to t",
-      "source": "Mamba releases",
-      "category": "Multi-language"
     }
   ]
 }
