@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-31T01:06:46Z",
-  "cutoff": "2026-08-01T01:06:42Z",
+  "generated": "2026-08-31T02:37:28Z",
+  "cutoff": "2026-08-01T02:37:24Z",
   "feed_count": 79,
   "item_count": 193,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.52.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.52.1",
+      "published": "2026-08-31T01:57:45Z",
+      "preview": "44.52.1 (2026-08-31) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.92.3 (main) ( #45561 ) ( 9061f33 ) Documentation update references to python to b0aed0e (main) ( #45559 ) ( 29e582b ) update references to renovate/renovate (main) ( #45562 ) ( e8fbe34 ) update references to renovatebot/github-action to v46.2.4 (main) ( #45560 ) ( 5192c0f ) Miscellaneous Chores deps: update dependency pnpm to v11.23.0 (main) ( #45557 ) ( d6ded07 ) deps: update zizmor (main) ( #45558 ) ( 7c351d2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.8.15: Dotfiles diff and capture, scoped config updates, and per-tool postinstall hooks",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.15",
@@ -300,14 +308,6 @@
       "preview": "[0.78.0] - 2026-08-28 ✨ Highlights You can now use the CLI to add path dependencies with the following command: pixi add --path ~ /dev/pixi pixi pixi add --path ~ /dev/vinca vinca --pypi pixi add --path ~ /dev/ros_ws/src/common/package.xml ros-jazzy-common Pixi now can also share the configuration with rattler-based tools like rattler-build and rattler-index . The PEP 723 script support has been improved with better caching and resolution of scripts. Added Write manifest platform names instead of pN aliases by @ruben-arts in #6885 Rework the terminal output by @Hofer-Julian in #6869 Read the s",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.49.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.49.0",
-      "published": "2026-08-28T07:23:00Z",
-      "preview": "44.49.0 (2026-08-28) Features changelog: fetch newest releases first ( #45502 ) ( 57e546d ), closes #45500 #45482 changelog: stop fetching changelog entries when we're at platform limits ( #45503 ) ( ba1fad9 ), closes #45482 #45501 #45500 Code Refactoring instrumentation: instrument changelog generation ( #45507 ) ( 64e81c2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.0.8",
