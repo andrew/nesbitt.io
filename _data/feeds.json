@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-31T07:37:37Z",
-  "cutoff": "2026-08-01T07:37:32Z",
+  "generated": "2026-08-31T11:26:05Z",
+  "cutoff": "2026-08-01T11:26:00Z",
   "feed_count": 79,
-  "item_count": 193,
+  "item_count": 194,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.32.0 (31-Aug-2026)",
+      "url": "https://github.com/conan-io/conan/releases/tag/2.32.0",
+      "published": "2026-08-31T11:21:25Z",
+      "preview": "Feature: Add basic LoongArch64 architecture support and host detection. ( #20288 ) Feature: Add support for Xcode 2.26 . ( #20280 ) Feature: Add support for gcc 16.2 . ( #20280 ) Feature: Parse reference attributes from --ref in workspace add . ( #20269 ) Feature: Add raise_on_errors=True arg to CommandAPI.run , it now raises on all errors returned by commands. ( #20266 ) Feature: XcodeToolchain now accepts arbitrary extra xcconfig settings via tc.build_settings , for build settings with no dedicated conf. ( #20256 ). Docs: 📃 Feature: conan workspace open with no arguments will read the conanw",
+      "source": "Conan releases",
+      "category": "C/C++"
+    },
     {
       "title": "44.52.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.52.1",
