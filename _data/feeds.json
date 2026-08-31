@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-30T23:22:55Z",
-  "cutoff": "2026-07-31T23:22:51Z",
+  "generated": "2026-08-31T01:06:46Z",
+  "cutoff": "2026-08-01T01:06:42Z",
   "feed_count": 79,
-  "item_count": 192,
+  "item_count": 193,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,12 +22,20 @@
   ],
   "items": [
     {
-      "title": "v2026.8.15",
+      "title": "v2026.8.15: Dotfiles diff and capture, scoped config updates, and per-tool postinstall hooks",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.8.15",
-      "published": "2026-08-30T22:39:25Z",
-      "preview": "(bootstrap) clone setup repository before bootstrap by @jdx in …",
+      "published": "2026-08-30T23:44:38Z",
+      "preview": "This release expands the dotfiles/bootstrap workflow with previews, bulk capture, git-tracked manifests, and profile reconciliation, adds scoped config collection updates and per-tool postinstall hooks, and rounds it out with a large batch of fixes across tasks, schema validation, Windows, lockfiles, and shims. Highlights Dotfiles management grows a full preview-and-capture workflow: mise bootstrap dotfiles diff , bulk add --changed , git-tracked directory manifests, and automatic reconciliation when a profile switches a target's source. mise config set learns idempotent list updates ( --appen",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "2.150014",
+      "url": "https://github.com/Perl-Toolchain-Gang/CPAN-Meta/releases/tag/2.150014",
+      "published": "2026-08-30T23:33:14Z",
+      "preview": "v2.150014",
+      "source": "CPAN Meta releases",
+      "category": "Registries"
     },
     {
       "title": "vfox-v2026.8.20",
