@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-31T15:28:05Z",
-  "cutoff": "2026-08-01T15:28:00Z",
+  "generated": "2026-08-31T16:28:38Z",
+  "cutoff": "2026-08-01T16:28:33Z",
   "feed_count": 79,
-  "item_count": 195,
+  "item_count": 196,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,20 +22,28 @@
   ],
   "items": [
     {
+      "title": "v0.394.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.394.0",
+      "published": "2026-08-31T15:46:08Z",
+      "preview": "What's Changed Remove enable_corepack_for_npm_and_yarn and preserve direct execution by @ruben-pachecocaldera with @Copilot in #15945 Remove enable_private_registry_for_corepack flag and make private-registry corepack env permanent by @ruben-pachecocaldera with @Copilot in #15946 Nix: lock the selected revision by @JamieMagee in #15984 Remove allow_refresh_for_existing_pr_dependencies feature flag by @ruben-pachecocaldera with @Copilot in #15947 Remove allow_refresh_group_with_all_dependencies and make group-refresh behavior permanent by @ruben-pachecocaldera with @Copilot in #15948 Remove enh",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.8.16: Command wrappers and Windows shell fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.16",
+      "published": "2026-08-31T15:42:58Z",
+      "preview": "This release adds configurable command wrappers for intercepting ordinary commands, alongside a batch of shell and PATH fixes that make Windows activation more reliable and clearer upgrade and error messaging. Added shims: New [wrappers] config lets you intercept an ordinary command name with a different command, arguments, and environment. Wrappers take precedence over mise-managed tools, and mise strips its dispatch directories before delegating so the underlying tool still resolves from mise or the system. Works with normal activation, activate --shims , and mise exec ; managed wrapper shim",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "2.6.0-beta2",
       "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-beta2",
       "published": "2026-08-31T15:01:56Z",
       "preview": "2.6.0~beta2",
       "source": "opam releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.8.16",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.16",
-      "published": "2026-08-31T13:45:36Z",
-      "preview": "(shims) add command wrappers by @jdx in [ #12617 ]( https://github…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.8.21",
