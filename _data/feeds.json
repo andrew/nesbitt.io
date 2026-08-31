@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-31T02:37:28Z",
-  "cutoff": "2026-08-01T02:37:24Z",
+  "generated": "2026-08-31T06:52:34Z",
+  "cutoff": "2026-08-01T06:52:30Z",
   "feed_count": 79,
-  "item_count": 193,
+  "item_count": 188,
   "categories": [
     ".NET",
     "C/C++",
@@ -494,14 +494,6 @@
       "category": "Go"
     },
     {
-      "title": "Announcing our first Maintainers in Residence",
-      "url": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
-      "published": "2026-08-26T00:00:00Z",
-      "preview": "We are very happy to announce the Rust Project's first round of Maintainers in Residence: Gen Li ( @rami3l ), Chris Denton ( @ChrisDenton ), Alejandra González ( @blyxyas ), León Liehr ( @fmease ), and Maintainer Grant recipients: Jason Newcomb ( @Jarcho ) and Jonas Böttiger ( @joboet ). These contributors will be funded for their rust-lang maintenance activities for (at least) the following 12 months! The funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, th",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
       "title": "pnpm 12.0",
       "url": "https://pnpm.io/blog/releases/12.0",
       "published": "2026-08-26T00:00:00Z",
@@ -798,14 +790,6 @@
       "category": "Maven"
     },
     {
-      "title": "Enabling the next-generation trait solver on nightly",
-      "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
-      "published": "2026-08-21T00:00:00Z",
-      "preview": "After nearly 4 years of active development, the next-generation trait solver is close to stabilization. We are enabling it by default on nightly to surface any remaining issues and plan to stabilize it in the next months. This is the largest single change to the Rust compiler since its initial release. It completely replaces how we prove where-clauses, normalize associated types, and much more. Please try out the latest nightly and open an issue if you encounter any bugs or regressions. This is an internal component of the compiler. The main benefits of this rework will come in the future. The",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
       "title": "0.99.0",
       "url": "https://github.com/rust-lang/cargo/releases/tag/0.99.0",
       "published": "2026-08-20T17:10:25Z",
@@ -836,22 +820,6 @@
       "preview": "RubyGems 4.0.19 includes enhancements, bug fixes and documentation and Bundler 4.0.19 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.19 RubyGems Release Notes Enhancements: Reject SafeMarshal collection lengths longer than the remaining input. Pull request #9756 by hsbt Installs bundler 4.0.19 as a default gem. Bug fixes: Fix gem uninstall –user-install crash when GEM_HOME does not exist. Pull request #9749 by hsbt D",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "Announcing Rust 1.98.0",
-      "url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
-      "published": "2026-08-20T00:00:00Z",
-      "preview": "The Rust team is happy to announce a new version of Rust, 1.98.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.98.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.98.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
-      "title": "Supply chain attack on arrayref",
-      "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
-      "published": "2026-08-20T00:00:00Z",
-      "preview": "What happened On 2026-08-20 at 7:15 UTC we got a report that the proc-macro1 crate was malicious. The Rust Security Response Team verified this to be the case: the crate had a build script that was downloading a malicious payload. This crate proc-macro1 and others like it ( proc-macro-en , aovine , arone , aronenao , tinymember ) have been deleted. Furthermore, we discovered that the popular arrayref crate had recently been republished and made to depend on this crate, with the most recent versions yanked. We have removed the malicious version and unyanked the maliciously-yanked versions. Othe",
-      "source": "Rust Blog",
-      "category": "Rust"
     },
     {
       "title": "[release-branch.go1.27] go1.27.0",
@@ -1492,14 +1460,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-01-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "Enabling the next iteration of the borrow checker on nightly",
-      "url": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
-      "published": "2026-08-04T00:00:00Z",
-      "preview": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha) on nightly in preparation for stabilization in the next few months. Whaaaaaat? Yes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited and was phased out in 2019 in favor of NLL , other than a \"migrate mode\" that was used to provide nice error messages. That migrate mode was finally removed in 2022 . The Polonius borrow checker spun out of the NLL effort in 2018. The initial formulation passed the NLL test suite and accep",
-      "source": "Rust Blog",
-      "category": "Rust"
     },
     {
       "title": "2.0.5",
