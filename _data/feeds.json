@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-31T22:25:55Z",
-  "cutoff": "2026-08-01T22:25:48Z",
+  "generated": "2026-08-31T23:24:30Z",
+  "cutoff": "2026-08-01T23:24:26Z",
   "feed_count": 79,
-  "item_count": 201,
+  "item_count": 202,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Helm v3.22.0-rc.1",
+      "url": "https://github.com/helm/helm/releases/tag/v3.22.0-rc.1",
+      "published": "2026-08-31T22:56:05Z",
+      "preview": "Helm v3.22.0-rc.1 is a pre-release. It is to help gather feedback from the community as well as give users a chance to test Helm in staging environments before v3.22.0 is officially released. The official changelog will come out with the v3.22.0 release. For now, you can see the commit changes from v3.21.4 here . The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: Artif",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
+      "title": "pnpr@0.1.0-alpha.10",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.10",
+      "published": "2026-08-31T22:54:53Z",
+      "preview": "pnpr@0.1.0-alpha.10",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.2.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.2.0",
+      "published": "2026-08-31T22:54:44Z",
+      "preview": "v12.2.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "0.12.8",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.8",
@@ -755,22 +779,6 @@
       "published": "2026-08-24T00:00:00Z",
       "preview": "pnpm 11.24 brings back pnpm approve-builds --global, which isolated global installs took away in v11.0, and makes recursive batch publishing group its packages by registry so a credential mismatch is caught before anything is published. It also stops --frozen-lockfile from failing over the pnpm version the lockfile pins.",
       "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12 RC 9",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.9",
-      "published": "2026-08-23T23:17:08Z",
-      "preview": "Major Changes A project's pnpm-workspace.yaml may no longer carry a setting pnpm does not recognize. Such a setting used to be ignored in silence — a misspelled minimumReleaseAge dropped the policy it was meant to set, and nothing said so. Now it is reported, suggesting the closest real setting name when the key looks like a typo, and it fails the command with ERR_PNPM_UNRECOGNIZED_WORKSPACE_SETTINGS when the project pins a pnpm version the running pnpm satisfies: with the pin honored, the setting cannot be meant for a different pnpm version, so it is a mistake to fix rather than a key to igno",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 11.23",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.23.0",
-      "published": "2026-08-23T14:41:02Z",
-      "preview": "Minor Changes pnpm config get and pnpm config list now show the settings pnpm acts on under their documented names: registries shows the registries pnpm resolves from, merged across every source ( .npmrc , pnpm-workspace.yaml , the global config, CLI flags), in the shape the setting is written in: keyed by registry URL, with the default registry declared as the bare @ scope. Built-in routes are included — the @jsr scope and the npmjs and gh prefixes — unless pointed elsewhere. Previously pnpm config get registries printed undefined . update and audit show the effective sections, whichever spel",
-      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
