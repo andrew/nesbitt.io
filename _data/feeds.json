@@ -1,8 +1,8 @@
 {
-  "generated": "2026-08-31T21:24:43Z",
-  "cutoff": "2026-08-01T21:24:38Z",
+  "generated": "2026-08-31T22:25:55Z",
+  "cutoff": "2026-08-01T22:25:48Z",
   "feed_count": 79,
-  "item_count": 199,
+  "item_count": 201,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.8",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.8",
+      "published": "2026-08-31T22:18:57Z",
+      "preview": "Release Notes Released on 2026-08-31. Enhancements Warn about invalid tool directories and continue upgrading valid tools with uv tool upgrade --all ( #21368 ) Preview features Deduplicate identical files within and across cached wheels with the content-addressed-cache preview feature ( #21327 ) Reduce allocations while extracting content-addressed wheels by reusing the hashing buffer across files ( #21340 ) Speed up content-addressed cache cleanup on macOS by reading hard-link counts in bulk ( #21344 ) Performance Prevent concurrent uv processes from downloading and extracting the same remote",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "Helm v4.3.0-rc.1",
+      "url": "https://github.com/helm/helm/releases/tag/v4.3.0-rc.1",
+      "published": "2026-08-31T22:09:46Z",
+      "preview": "Helm v4.3.0-rc.1 is a pre-release. It is to help gather feedback from the community as well as give users a chance to test Helm in staging environments before v4.3.0 is officially released. The official changelog will come out with the v4.3.0 release. For now, you can see the commit changes from v4.2.4 here . The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactH",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
     {
       "title": "2.6.0~beta2",
       "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-beta2",
