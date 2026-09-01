@@ -7,6 +7,7 @@ tags:
   - git
   - package-managers
   - dependencies
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3muh3haolsy2m"
 ---
 
 I added a worktree to a repository last week to try a branch alongside the main checkout, ran `git submodule update --init` in it because the build needed the vendored dependencies, and when I was done went to clean up with `git worktree remove`, which git refused. Per [the man page](https://git-scm.com/docs/git-worktree) only clean worktrees can be removed, and "unclean worktrees or ones with submodules" need `--force`. Submodules get their own clause in that sentence, distinct from dirty state. `git worktree move` is stricter again and [refuses outright](https://git-scm.com/docs/git-worktree#Documentation/git-worktree.txt-move) on any worktree containing submodules. I'd spent [the previous week](/2026/08/25/hardening-the-override-flag.html) cataloguing how command-line tools harden their `--force` flags, and here was git requiring one because two of its own features had collided.
