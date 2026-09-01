@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-01T08:37:02Z",
-  "cutoff": "2026-08-02T08:36:57Z",
+  "generated": "2026-09-01T10:31:04Z",
+  "cutoff": "2026-08-02T10:31:00Z",
   "feed_count": 79,
   "item_count": 201,
   "categories": [
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.54.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.54.0",
+      "published": "2026-09-01T10:12:56Z",
+      "preview": "44.54.0 (2026-09-01) Features datasource/aws-eks-addon: add host rule authentication ( #45552 ) ( 7dce51d ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.93.3 (main) ( #45587 ) ( a5801df ) util/markdown: preserve at signs in URLs ( #45555 ) ( cfb2a76 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.9.0",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.0",
+      "published": "2026-09-01T10:06:59Z",
+      "preview": "(erlang) add precompiled OS override by @jdx in [ #12637 ](https:…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.0",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.0",
+      "published": "2026-09-01T10:06:32Z",
+      "preview": "Release vfox 2026.9.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "2.32.0 (31-Aug-2026)",
       "url": "https://github.com/conan-io/conan/releases/tag/2.32.0",
@@ -438,14 +462,6 @@
       "category": ".NET"
     },
     {
-      "title": "44.50.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.50.0",
-      "published": "2026-08-28T11:52:47Z",
-      "preview": "44.50.0 (2026-08-28) Features instrumentation: add support for protobuf + gRPC exporter ( #45527 ) ( 0879ce5 ), closes #36073",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "What's new in Private Packagist, August 2026 update",
       "url": "https://blog.packagist.com/whats-new-in-private-packagist-august-2026-update/",
       "published": "2026-08-28T11:49:57Z",
@@ -646,14 +662,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "v2026.8.13: Task exclusions, visible conf.d fragments, and a broad round of fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.13",
-      "published": "2026-08-25T22:28:40Z",
-      "preview": "This release adds a few configuration and task features and delivers a large batch of fixes across completions, tools, lockfiles, tasks, config parsing, and shell integration. It also restores dynamic shell completions that regressed after the recent CLI parser change. Added task: New task_config.excludes lets file-task discovery skip config-root-relative paths, directories, and glob patterns, so accidental TOML files (like a pyproject.toml inside a task directory) or entire subtrees are no longer treated as tasks. The closest config that sets excludes replaces inherited values, and an empty l",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "0.12.6",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.6",
       "published": "2026-08-25T19:41:07Z",
@@ -668,14 +676,6 @@
       "preview": "Changes since 2.12.5: Fixed potential unreliable application of network proxy settings with background fetches. (jmr in 6d9edb0 ) Fixed occasional failure to sync the PortIndex, which required portindex to run locally. (fhgwright in 928dc47 ) Added documentation for the 'none' option for 'port select'. (cvengler in 1552e82 ) Various reliability improvements for trace mode. (cal in 6dda4cc , 1db3e7f , bea36d7 )",
       "source": "MacPorts releases",
       "category": "System"
-    },
-    {
-      "title": "mise-interactive-config-v2026.8.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.8.7",
-      "published": "2026-08-25T18:33:24Z",
-      "preview": "Release mise-interactive-config 2026.8.7",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.8.18",
