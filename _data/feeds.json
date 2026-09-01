@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-01T12:38:57Z",
-  "cutoff": "2026-08-02T12:38:53Z",
+  "generated": "2026-09-01T15:43:48Z",
+  "cutoff": "2026-08-02T15:43:44Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.55.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.55.0",
+      "published": "2026-09-01T15:08:30Z",
+      "preview": "44.55.0 (2026-09-01) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.94.0 (main) ( #45600 ) ( d4ac9fc ) manager/npm: add support for bun in the packageManager field ( #45572 ) ( 24c56f9 ) Bug Fixes datasource/jsr: accept scopes shorter than the JSR registration minimum ( #45547 ) ( 78f4d9a ) Documentation mend-hosted: updates to environment variables and arbitrary scripts ( #45496 ) ( 8b89b34 ) Miscellaneous Chores deps: update docker/setup-qemu-action action to v4.3.0 (main) ( #45594 ) ( d481d33 ) Code Refactoring manager/npm: rename internal managerData.pnpmShrinkwrap ",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "6.0.21",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.21",
@@ -458,14 +466,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.50.2",
       "published": "2026-08-28T16:51:41Z",
       "preview": "44.50.2 (2026-08-28) Bug Fixes exec: supress unhandled promise rehection from execa timeout ( #45335 ) ( a3a00ce )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.50.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.50.1",
-      "published": "2026-08-28T12:57:27Z",
-      "preview": "44.50.1 (2026-08-28) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.91.4 (main) ( #45533 ) ( e7b98b5 ) Miscellaneous Chores manager/gomod: clarify how artifact updates work with minimumReleaseAge ( #45526 ) ( 9ecbaa8 ) Code Refactoring return a RepositoryResult while onboarding ( #45531 ) ( 8d08b51 ), closes #22198",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
