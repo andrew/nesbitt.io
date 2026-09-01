@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-31T23:24:30Z",
-  "cutoff": "2026-08-01T23:24:26Z",
+  "generated": "2026-09-01T01:12:55Z",
+  "cutoff": "2026-08-02T01:12:50Z",
   "feed_count": 79,
   "item_count": 202,
   "categories": [
@@ -22,28 +22,76 @@
   ],
   "items": [
     {
+      "title": "44.53.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.53.0",
+      "published": "2026-09-01T01:02:07Z",
+      "preview": "44.53.0 (2026-09-01) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.93.2 (main) ( #45583 ) ( d62bf70 ) Documentation update references to renovate/renovate to v44.52.1 (main) ( #45563 ) ( 9a53fbd ) update references to renovatebot/github-action to v46.2.5 (main) ( #45566 ) ( 9e335a2 ) Miscellaneous Chores deps: lock file maintenance (main) ( #45564 ) ( f2ed0ac ) deps: update dependency astral-sh/uv to v0.12.8 (main) ( #45580 ) ( 51d19b8 ) deps: update dependency pnpm to v11.24.0 (main) ( #45578 ) ( 6d6432d ) deps: update dependency uv to v0.12.8 (main) ( #45581 ) ( f5ac",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 12.2.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.2.1",
+      "published": "2026-09-01T00:57:45Z",
+      "preview": "Patch Changes Restored the pnpm executable target without a file extension so pnpm 12.1 and earlier can upgrade to newer pnpm 12 releases on POSIX systems. Platinum Sponsors Gold Sponsors",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "SDK-3.14.0-184.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-184.0.dev",
+      "published": "2026-09-01T00:34:16Z",
+      "preview": "SDK 3.14.0-184.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-183.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-183.0.dev",
+      "published": "2026-09-01T00:34:13Z",
+      "preview": "SDK 3.14.0-183.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-182.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-182.0.dev",
+      "published": "2026-09-01T00:34:11Z",
+      "preview": "SDK 3.14.0-182.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-181.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-181.0.dev",
+      "published": "2026-09-01T00:34:08Z",
+      "preview": "SDK 3.14.0-181.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "pnpm 12.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.2.0",
+      "published": "2026-09-01T00:01:41Z",
+      "preview": "Minor Changes Catalogs can now resolve workspace dependencies through the workspace: protocol. Patch Changes Fixed pnpm audit --fix failing with ERR_PNPM_INVALID_FIX_OPTION when used without a value, including when another flag follows it, as in pnpm audit --fix --json #13261 . Fixed pnpm audit --fix=override ignoring the saveExact and savePrefix settings when writing vulnerability overrides #11523 . Authenticate Node.js runtime downloads from nodeDownloadMirrors with URL-scoped npm registry credentials, including bearer tokens, basic auth, and tokenHelper pnpm/pnpm#14334 . Fixed detached chil",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpr 0.1.0-alpha.10",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.10",
+      "published": "2026-08-31T23:31:34Z",
+      "preview": "Patch Changes A shared build artifact publication that cannot unregister itself no longer stops the registry reclaiming space or refusing further publications. A publication says at intervals that it is still working, and a registration that has gone quiet for an hour is written off, so a publication whose bookkeeping write failed stops holding back the collector that reclaims unreferenced blobs and returns the compatibility scopes a failed publication claimed, and stops counting toward the limit on publications in flight.",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "Helm v3.22.0-rc.1",
       "url": "https://github.com/helm/helm/releases/tag/v3.22.0-rc.1",
       "published": "2026-08-31T22:56:05Z",
       "preview": "Helm v3.22.0-rc.1 is a pre-release. It is to help gather feedback from the community as well as give users a chance to test Helm in staging environments before v3.22.0 is officially released. The official changelog will come out with the v3.22.0 release. For now, you can see the commit changes from v3.21.4 here . The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: Artif",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "pnpr@0.1.0-alpha.10",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.10",
-      "published": "2026-08-31T22:54:53Z",
-      "preview": "pnpr@0.1.0-alpha.10",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.2.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.2.0",
-      "published": "2026-08-31T22:54:44Z",
-      "preview": "v12.2.0",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "0.12.8",
@@ -406,14 +454,6 @@
       "category": "PHP"
     },
     {
-      "title": "44.49.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.49.1",
-      "published": "2026-08-28T10:00:54Z",
-      "preview": "44.49.1 (2026-08-28) Bug Fixes github: treat graphql_rate_limit as rate limiting ( #45396 ) ( 2e89151 ) manager/copier: set isExecutable on added and modified files ( #45520 ) ( a3ac0bb ) Code Refactoring linters: add prefer-coerce-array rule ( #45492 ) ( 97327c3 ), closes #45217 linters: add prefer-coerce-object rule ( #45493 ) ( c32e239 ), closes #45216 Tests replace env operation with vi.stubEnv() ( #45490 ) ( fbedd41 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-26-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-26-a",
       "published": "2026-08-28T08:37:00Z",
@@ -436,30 +476,6 @@
       "preview": "🐛 bug fixes fix: Fixes ThisBuild -scoped bare settings by @eed3si9n in #9674 fix: Fixes TestReportListener not receiving endGroup after a LinkageError by @unkarjedy in #9667 fix: Fixes the ability to extend TestResultLogger by @unkarjedy in #9655 fix: Fixes --addPluginSbtFile getting lost after reboot by @azdrojowa123 in #9669 fix: Fixes JDK 17 domain socket deadlocks by @eed3si9n in #9671 fix: Keep adhoc test classloader open in a forked test @stasimus in #9639 fix: Fixes Windows runner by @eed3si9n in #9680 Full Changelog : v2.0.7...v2.0.8",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "SDK-3.14.0-174.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-174.0.dev",
-      "published": "2026-08-28T02:54:59Z",
-      "preview": "SDK 3.14.0-174.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-173.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-173.0.dev",
-      "published": "2026-08-28T02:54:57Z",
-      "preview": "SDK 3.14.0-173.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-172.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-172.0.dev",
-      "published": "2026-08-28T02:54:55Z",
-      "preview": "SDK 3.14.0-172.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "0.12.7",
@@ -539,14 +555,6 @@
       "published": "2026-08-27T08:36:44Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-25-a",
       "source": "Swift Package Manager releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-171.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-171.0.dev",
-      "published": "2026-08-27T01:39:10Z",
-      "preview": "SDK 3.14.0-171.0.dev",
-      "source": "Pub releases",
       "category": "Registries"
     },
     {
@@ -700,14 +708,6 @@
       "preview": "Release 1.16.8",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 11.24",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.24.0",
-      "published": "2026-08-24T19:10:25Z",
-      "preview": "Minor Changes Added global build approvals pnpm/pnpm#14101 . Patch Changes Fixed pnpm v11 incorrectly reporting confirmModulesPurge as unrecognized when set in pnpm-workspace.yaml . The Rust CLI now identifies the unsupported option as a pnpm v11 setting instead of suggesting an unrelated setting. pnpm install --frozen-lockfile no longer fails with ERR_PNPM_FROZEN_LOCKFILE_WITH_OUTDATED_LOCKFILE when the pinned pnpm version recorded in pnpm-lock.yaml has to be re-resolved before it can be installed. It runs the pnpm version the lockfile pins and leaves the lockfile unchanged #14124 . Under nod",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 12 RC 10",
