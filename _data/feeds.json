@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-01T20:27:31Z",
-  "cutoff": "2026-08-02T20:27:26Z",
+  "generated": "2026-09-01T22:25:08Z",
+  "cutoff": "2026-08-02T22:25:04Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 206,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.9",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.9",
+      "published": "2026-09-01T21:58:26Z",
+      "preview": "Release Notes Released on 2026-09-01. Python Add CPython 3.15.0rc2 ( #21413 , #21415 ) Enhancements Add --no-locked and --no-frozen to disable lock modes enabled by UV_LOCKED and UV_FROZEN for a single invocation ( #21408 ) Report the exact command-line lock-mode flag in warnings and errors ( #21402 ) Performance Speed up cold wheel installs by extracting each streaming ZIP archive in a single blocking task and reusing buffers across files ( #21372 ) Bug fixes Update async_http_range_reader to 0.11.1 to address a potential memory-safety issue when reading metadata ranges from untrusted wheels ",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "44.56.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.2",
+      "published": "2026-09-01T21:51:56Z",
+      "preview": "44.56.2 (2026-09-01) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.2 (main) ( #45614 ) ( f96de99 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "1.17.2",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.2",
+      "published": "2026-09-01T21:51:25Z",
+      "preview": "What's Changed Avoid KeyError in _REQUIRES_PYTHON_SCRIPT by @Cycloctane in #2026 Full Changelog : 1.17.1...1.17.2",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "[release-branch.go1.26] go1.26.8",
       "url": "https://github.com/golang/go/releases/tag/go1.26.8",
@@ -396,14 +420,6 @@
       "preview": "Minor Changes pnpm login and pnpm adduser now record the granted token in the global config.yaml , under the _auth setting, with --scope 's scope routed to that registry under registries . pnpm logout removes it from there, and still from an auth.ini an earlier version wrote. Tokens already in auth.ini keep working. A scope set in a project's pnpm-workspace.yaml is now ignored, with a warning naming where to set it instead. pnpm login records the scope as a @scope:registry route in the machine-global auth.ini , which outranks ~/.npmrc in every project — so a repository-committed file could red",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.51.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.51.0",
-      "published": "2026-08-29T12:47:43Z",
-      "preview": "44.51.0 (2026-08-29) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.92.0 (main) ( #45546 ) ( 3e8110e ) Miscellaneous Chores deps: update dependency @types/luxon to v3.7.5 (main) ( #45285 ) ( f32c134 ) deps: update pnpm/setup action to v2.1.0 (main) ( #45543 ) ( 2b56b52 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.29.0",
