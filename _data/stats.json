@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-30T16:51:16Z",
-  "total_posts": 204,
-  "total_words": 281091,
-  "reading_minutes": 1406,
+  "generated_at": "2026-09-01T09:14:42Z",
+  "total_posts": 205,
+  "total_words": 282541,
+  "reading_minutes": 1413,
   "average_words": 1378,
   "longest_post": {
     "title": "Skills Registry Threat Models",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "This Week in Package Management: 29 August 2026",
-    "url": "/2026/08/29/this-week-in-package-management.html",
-    "date": "2026-08-29"
+    "title": "Git Submodules as a Package Manager",
+    "url": "/2026/09/01/git-submodules-as-a-package-manager.html",
+    "date": "2026-09-01"
   },
   "years_active": 9.5,
   "posts_per_month": 1.8,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 164
+      "count": 165
     },
     {
       "year": 2025,
@@ -53,6 +53,10 @@
     }
   ],
   "posts_by_month": [
+    {
+      "month": "2026-09",
+      "count": 1
+    },
     {
       "month": "2026-08",
       "count": 16
@@ -117,7 +121,7 @@
   "posts_by_day_of_week": {
     "sunday": 18,
     "monday": 26,
-    "tuesday": 32,
+    "tuesday": 33,
     "wednesday": 23,
     "thursday": 37,
     "friday": 35,
@@ -126,7 +130,7 @@
   "tags": [
     {
       "name": "package-managers",
-      "count": 139
+      "count": 140
     },
     {
       "name": "security",
@@ -150,14 +154,14 @@
     },
     {
       "name": "git",
+      "count": 21
+    },
+    {
+      "name": "dependencies",
       "count": 20
     },
     {
       "name": "supply-chain",
-      "count": 19
-    },
-    {
-      "name": "dependencies",
       "count": 19
     },
     {
@@ -685,6 +689,30 @@
       ]
     },
     {
+      "url": "/2026/02/05/git-magic-files.html",
+      "title": "Git's Magic Files",
+      "inbound_count": 5,
+      "inbound_from": [
+        "/2026/02/12/the-many-flavors-of-ignore-files.html",
+        "/2026/02/22/forge-specific-repository-folders.html",
+        "/2026/03/05/package-manager-magic-files.html",
+        "/2026/03/06/gitlocal.html",
+        "/2026/09/01/git-submodules-as-a-package-manager.html"
+      ]
+    },
+    {
+      "url": "/2026/05/04/package-manager-cwes.html",
+      "title": "Package Manager CWEs",
+      "inbound_count": 5,
+      "inbound_from": [
+        "/2026/05/05/package-manager-threat-models.html",
+        "/2026/05/30/this-week-in-package-management.html",
+        "/2026/07/21/end-of-options.html",
+        "/2026/08/11/package-manager-library-reuse.html",
+        "/2026/09/01/git-submodules-as-a-package-manager.html"
+      ]
+    },
+    {
       "url": "/2025/11/26/extending-git-functionality.html",
       "title": "Extending Git Functionality",
       "inbound_count": 4,
@@ -729,17 +757,6 @@
       ]
     },
     {
-      "url": "/2026/02/05/git-magic-files.html",
-      "title": "Git's Magic Files",
-      "inbound_count": 4,
-      "inbound_from": [
-        "/2026/02/12/the-many-flavors-of-ignore-files.html",
-        "/2026/02/22/forge-specific-repository-folders.html",
-        "/2026/03/05/package-manager-magic-files.html",
-        "/2026/03/06/gitlocal.html"
-      ]
-    },
-    {
       "url": "/2026/04/16/features-everyone-should-steal-from-npmx.html",
       "title": "Features everyone should steal from npmx",
       "inbound_count": 4,
@@ -759,17 +776,6 @@
         "/2026/05/08/weekend-at-bernies.html",
         "/2026/05/15/language-registries-are-unstable-by-default.html",
         "/2026/06/29/unbundling-the-standard-library.html"
-      ]
-    },
-    {
-      "url": "/2026/05/04/package-manager-cwes.html",
-      "title": "Package Manager CWEs",
-      "inbound_count": 4,
-      "inbound_from": [
-        "/2026/05/05/package-manager-threat-models.html",
-        "/2026/05/30/this-week-in-package-management.html",
-        "/2026/07/21/end-of-options.html",
-        "/2026/08/11/package-manager-library-reuse.html"
       ]
     },
     {
@@ -1022,6 +1028,15 @@
       "inbound_from": [
         "/2026/07/18/this-week-in-package-management.html",
         "/2026/08/04/brew-install-actions-checkout.html"
+      ]
+    },
+    {
+      "url": "/2026/07/21/end-of-options.html",
+      "title": "--end-of-options",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/08/11/package-manager-library-reuse.html",
+        "/2026/09/01/git-submodules-as-a-package-manager.html"
       ]
     },
     {
@@ -1353,14 +1368,6 @@
       ]
     },
     {
-      "url": "/2026/07/21/end-of-options.html",
-      "title": "--end-of-options",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/08/11/package-manager-library-reuse.html"
-      ]
-    },
-    {
       "url": "/2026/07/25/this-week-in-package-management.html",
       "title": "This Week in Package Management: 25 July 2026",
       "inbound_count": 1,
@@ -1383,16 +1390,24 @@
       "inbound_from": [
         "/2026/08/08/this-week-in-package-management.html"
       ]
+    },
+    {
+      "url": "/2026/08/25/hardening-the-override-flag.html",
+      "title": "Hardening the Override Flag",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/09/01/git-submodules-as-a-package-manager.html"
+      ]
     }
   ],
   "external_links": {
-    "total": 4584,
-    "unique": 3699,
+    "total": 4611,
+    "unique": 3719,
     "domains": [
       {
         "host": "github.com",
-        "count": 1360,
-        "posts": 148
+        "count": 1363,
+        "posts": 149
       },
       {
         "host": "en.wikipedia.org",
@@ -1401,8 +1416,8 @@
       },
       {
         "host": "nvd.nist.gov",
-        "count": 56,
-        "posts": 10
+        "count": 58,
+        "posts": 11
       },
       {
         "host": "arxiv.org",
@@ -1421,8 +1436,8 @@
       },
       {
         "host": "github.blog",
-        "count": 35,
-        "posts": 24
+        "count": 36,
+        "posts": 25
       },
       {
         "host": "chaoss.community",
@@ -1430,9 +1445,14 @@
         "posts": 3
       },
       {
+        "host": "git-scm.com",
+        "count": 31,
+        "posts": 12
+      },
+      {
         "host": "pnpm.io",
         "count": 28,
-        "posts": 22
+        "posts": 23
       },
       {
         "host": "docs.npmjs.com",
@@ -1440,14 +1460,9 @@
         "posts": 24
       },
       {
-        "host": "git-scm.com",
-        "count": 27,
-        "posts": 11
-      },
-      {
         "host": "go.dev",
-        "count": 24,
-        "posts": 22
+        "count": 25,
+        "posts": 23
       },
       {
         "host": "learn.microsoft.com",
@@ -1461,13 +1476,13 @@
       },
       {
         "host": "blog.rust-lang.org",
-        "count": 18,
-        "posts": 13
+        "count": 19,
+        "posts": 14
       },
       {
         "host": "doc.rust-lang.org",
-        "count": 18,
-        "posts": 16
+        "count": 19,
+        "posts": 17
       },
       {
         "host": "manifest.fm",
@@ -1485,14 +1500,14 @@
         "posts": 13
       },
       {
+        "host": "docs.github.com",
+        "count": 16,
+        "posts": 17
+      },
+      {
         "host": "blog.packagist.com",
         "count": 15,
         "posts": 13
-      },
-      {
-        "host": "docs.github.com",
-        "count": 15,
-        "posts": 16
       },
       {
         "host": "maven.apache.org",
@@ -2080,6 +2095,11 @@
         "posts": 3
       },
       {
+        "host": "docs.renovatebot.com",
+        "count": 3,
+        "posts": 3
+      },
+      {
         "host": "fair.pm",
         "count": 3,
         "posts": 2
@@ -2106,6 +2126,11 @@
       },
       {
         "host": "lists.debian.org",
+        "count": 3,
+        "posts": 3
+      },
+      {
+        "host": "news.ycombinator.com",
         "count": 3,
         "posts": 3
       },
@@ -2248,6 +2273,11 @@
         "host": "www.sovereign.tech",
         "count": 3,
         "posts": 2
+      },
+      {
+        "host": "www.spinics.net",
+        "count": 3,
+        "posts": 1
       },
       {
         "host": "xkcd.com",
@@ -2413,11 +2443,6 @@
         "host": "docs.pypi.org",
         "count": 2,
         "posts": 8
-      },
-      {
-        "host": "docs.renovatebot.com",
-        "count": 2,
-        "posts": 2
       },
       {
         "host": "docs.sigstore.dev",
@@ -2591,11 +2616,6 @@
       },
       {
         "host": "mozilla.github.io",
-        "count": 2,
-        "posts": 2
-      },
-      {
-        "host": "news.ycombinator.com",
         "count": 2,
         "posts": 2
       },
@@ -3486,6 +3506,11 @@
       },
       {
         "host": "discuss.circleci.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "diziet.dreamwidth.org",
         "count": 1,
         "posts": 1
       },
