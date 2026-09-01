@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-01T15:43:48Z",
-  "cutoff": "2026-08-02T15:43:44Z",
+  "generated": "2026-09-01T16:46:37Z",
+  "cutoff": "2026-08-02T16:46:30Z",
   "feed_count": 79,
   "item_count": 203,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.56.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.0",
+      "published": "2026-09-01T15:59:52Z",
+      "preview": "44.56.0 (2026-09-01) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.0 (main) ( #45604 ) ( c6e4e90 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.55.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.55.0",
@@ -458,14 +466,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.50.3",
       "published": "2026-08-28T18:53:24Z",
       "preview": "44.50.3 (2026-08-28) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.91.5 (main) ( #45541 ) ( fcd8291 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.3 (main) ( #45539 ) ( 4e4ae49 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.50.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.50.2",
-      "published": "2026-08-28T16:51:41Z",
-      "preview": "44.50.2 (2026-08-28) Bug Fixes exec: supress unhandled promise rehection from execa timeout ( #45335 ) ( a3a00ce )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
