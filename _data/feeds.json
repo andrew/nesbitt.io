@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-01T18:33:27Z",
-  "cutoff": "2026-08-02T18:33:23Z",
+  "generated": "2026-09-01T20:27:31Z",
+  "cutoff": "2026-08-02T20:27:26Z",
   "feed_count": 79,
-  "item_count": 202,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "[release-branch.go1.26] go1.26.8",
+      "url": "https://github.com/golang/go/releases/tag/go1.26.8",
+      "published": "2026-09-01T19:56:19Z",
+      "preview": "Change-Id: Id4a4603dc387badef0164e9463093ccd636b67ac Reviewed-on: https://go-review.googlesource.com/c/go/+/825885 Reviewed-by: David Chase drchase@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Michael Pratt mpratt@google.com",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "[release-branch.go1.27] go1.27.1",
+      "url": "https://github.com/golang/go/releases/tag/go1.27.1",
+      "published": "2026-09-01T19:52:53Z",
+      "preview": "Change-Id: I14348d1dc655281274a8731f077ae62725175397 Reviewed-on: https://go-review.googlesource.com/c/go/+/825985 Reviewed-by: David Chase drchase@google.com Reviewed-by: Michael Pratt mpratt@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
     {
       "title": "44.56.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.1",
