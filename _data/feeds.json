@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-01T01:12:55Z",
-  "cutoff": "2026-08-02T01:12:50Z",
+  "generated": "2026-09-01T08:37:02Z",
+  "cutoff": "2026-08-02T08:36:57Z",
   "feed_count": 79,
-  "item_count": 202,
+  "item_count": 201,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.32.0 (31-Aug-2026)",
+      "url": "https://github.com/conan-io/conan/releases/tag/2.32.0",
+      "published": "2026-09-01T08:01:25Z",
+      "preview": "Feature: Add basic LoongArch64 architecture support and host detection. ( #20288 ) Feature: Add support for Xcode 26.6 . ( #20280 ) Feature: Add support for gcc 16.2 . ( #20280 ) Feature: Parse reference attributes from --ref in workspace add . ( #20269 ) Feature: Add raise_on_errors=True arg to CommandAPI.run , it now raises on all errors returned by commands. ( #20266 ) Feature: XcodeToolchain now accepts arbitrary extra xcconfig settings via tc.build_settings , for build settings with no dedicated conf. ( #20256 ). Docs: 📃 Feature: conan workspace open with no arguments will read the conanw",
+      "source": "Conan releases",
+      "category": "C/C++"
+    },
     {
       "title": "44.53.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.53.0",
@@ -164,14 +172,6 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-08-30-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "2.32.0 (31-Aug-2026)",
-      "url": "https://github.com/conan-io/conan/releases/tag/2.32.0",
-      "published": "2026-08-31T11:21:25Z",
-      "preview": "Feature: Add basic LoongArch64 architecture support and host detection. ( #20288 ) Feature: Add support for Xcode 2.26 . ( #20280 ) Feature: Add support for gcc 16.2 . ( #20280 ) Feature: Parse reference attributes from --ref in workspace add . ( #20269 ) Feature: Add raise_on_errors=True arg to CommandAPI.run , it now raises on all errors returned by commands. ( #20266 ) Feature: XcodeToolchain now accepts arbitrary extra xcconfig settings via tc.build_settings , for build settings with no dedicated conf. ( #20256 ). Docs: 📃 Feature: conan workspace open with no arguments will read the conanw",
-      "source": "Conan releases",
-      "category": "C/C++"
     },
     {
       "title": "44.52.1",
@@ -1626,14 +1626,6 @@
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.9.2",
       "published": "2026-08-02T17:52:15Z",
       "preview": "Patch Changes 297dc43 : fix: apply package access controls to the starredByUser endpoint The GET /-/_view/starredByUser view did not enforce the configured package access policy when listing a user's starred packages. Results are now filtered through auth.allow_access , so the response only includes packages the requesting client is authorized to see. 05917d5 : Update verdaccio dependencies to the latest npm dist-tag ( @verdaccio/ui-theme tracks next-9 ): @verdaccio/ui-theme : 9.0.0-next-9.22 → 9.0.0-next-9.23",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v6.9.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.9.1",
-      "published": "2026-08-02T08:26:30Z",
-      "preview": "Patch Changes dfe3938 : Update verdaccio dependencies to the latest npm dist-tag ( @verdaccio/ui-theme tracks next-9 ): @verdaccio/auth : 8.1.0 → 8.1.1 @verdaccio/config : 8.2.0 → 8.2.1 @verdaccio/core : 8.2.0 → 8.2.1 @verdaccio/hooks : 8.1.1 → 8.1.2 @verdaccio/loaders : 8.1.0 → 8.1.1 @verdaccio/local-storage-legacy : 11.4.0 → 11.4.1 @verdaccio/logger : 8.1.0 → 8.1.1 @verdaccio/middleware : 8.1.0 → 8.1.1 @verdaccio/package-filter : 13.1.0 → 13.1.1 @verdaccio/signature : 8.1.0 → 8.1.1 @verdaccio/tarball : 13.1.0 → 13.1.1 @verdaccio/ui-theme : 9.0.0-next-9.21 → 9.0.0-next-9.22 @verdaccio/url : 1",
       "source": "Verdaccio releases",
       "category": "JavaScript"
     }
