@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-02T14:28:56Z",
-  "cutoff": "2026-08-03T14:28:51Z",
+  "generated": "2026-09-02T15:31:22Z",
+  "cutoff": "2026-08-03T15:31:18Z",
   "feed_count": 79,
-  "item_count": 205,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -729,7 +729,7 @@
       "title": "pnpm 12.0",
       "url": "https://pnpm.io/blog/releases/12.0",
       "published": "2026-08-26T00:00:00Z",
-      "preview": "pnpm 12 is stable. It is a rewrite of pnpm in Rust, and it is deliberately not a migration: the commands, flags, settings, and lockfile format of pnpm 11 all carry over, and the documentation describes both versions.",
+      "preview": "pnpm 12 is stable. It is a rewrite of pnpm in Rust. Upgrading should not feel like a migration. The commands, flags, settings, and lockfile format of pnpm 11 all carry over, and the documentation covers both versions.",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
@@ -1481,7 +1481,7 @@
       "title": "What's different in pnpm 12",
       "url": "https://pnpm.io/blog/whats-different-in-pnpm-12",
       "published": "2026-08-10T00:00:00Z",
-      "preview": "pnpm 12 is a rewrite of pnpm in Rust, stable since v12.0.0. Upgrading is not meant to be a migration: apart from the differences below, it keeps the commands, flags, settings, and lockfile format of pnpm 11, and the documentation applies to both versions.",
+      "preview": "pnpm 12 is a rewrite of pnpm in Rust, and it is stable. Upgrading should not feel like a migration. Apart from the differences below, it keeps the commands, flags, settings, and lockfile format of pnpm 11, and the documentation applies to both versions.",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
@@ -1652,14 +1652,6 @@
       "preview": "NuGet API key durations will be reduced to 30 days starting August 17th. This change will significantly strengthen the integrity of the NuGet supply chain. The post Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime appeared first on .NET Blog .",
       "source": "NuGet Blog",
       "category": ".NET"
-    },
-    {
-      "title": "v0.390.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.390.0",
-      "published": "2026-08-03T15:09:31Z",
-      "preview": "What's Changed Add typed requirement source API by @JamieMagee in #15705 Reland \"Cargo: handle crates locked at multiple versions\" ( #15638 ) by @p-linnane in #15668 Preserve original absence of the bundler self-checksum on lockfile updates by @p-linnane in #15669 Support security updates for vcpkg ports by @JamieMagee in #15676 Beta support of PNPM 11 by @v-robaiken in #15710 Remove enable_cooldown_default_days feature flag; make 3-day cooldown default unconditional by @v-robaiken with @Copilot in #15711 github_actions: integrate gh-actions-lock lockfile relocking by @nodeselector in #15267 F",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
