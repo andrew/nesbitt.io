@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-02T08:36:05Z",
-  "cutoff": "2026-08-03T08:36:00Z",
+  "generated": "2026-09-02T09:31:09Z",
+  "cutoff": "2026-08-03T09:31:04Z",
   "feed_count": 79,
-  "item_count": 203,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
   ],
   "items": [
     {
+      "title": "2.10.3",
+      "url": "https://github.com/composer/composer/releases/tag/2.10.3",
+      "published": "2026-09-02T09:27:50Z",
+      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 , CVE-2026-84361) Security: Sanitize URL-embedded usernames/token in a few more places ( #13044 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #12988 ) Fixed PHP 8.6 deprecation warnings ( #12967 , #13028 ) Fixed error output when a policy blocks a package version to be clearer ( #12993 ) Fixed the lock file's content-hash with a conflict marker end",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "2.2.30",
+      "url": "https://github.com/composer/composer/releases/tag/2.2.30",
+      "published": "2026-09-02T09:27:43Z",
+      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 , CVE-2026-84361) Security: Sanitize URL-embedded usernames/token in a few more places ( #13045 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #13042 ) Full Changelog : 2.2.29...2.2.30",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "v4.0.20",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.20",
+      "published": "2026-09-02T08:57:10Z",
+      "preview": "RubyGems 4.0.20 Enhancements: Print a release notes link instead of the whole changelog on gem update --system . Pull request #9794 by hsbt Installs bundler 4.0.20 as a default gem. Bug fixes: Only coerce exact true and false gemrc values to booleans. Pull request #9822 by hsbt Make the gem CLI work under RUBY_BOX=1. Pull request #9810 by hsbt Documentation: Document and test all available gemrc configuration keys. Pull request #9568 by junaruga Bundler 4.0.20 Enhancements: Avoid duplicate relative path prefix in bundle exec. Pull request #9596 by samuel-williams-shopify Follow renamed default",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "44.57.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.0",
+      "published": "2026-09-02T08:43:34Z",
+      "preview": "44.57.0 (2026-09-02) Features preset: add TUnit monorepo preset ( #45612 ) ( a1ce94c ) Documentation conda: clarify minimumReleaseAge is supported ( #45622 ) ( b9f5e3c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "44.56.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.4",
       "published": "2026-09-02T08:07:03Z",
@@ -36,6 +68,14 @@
       "preview": "44.56.3 (2026-09-02) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.3 (main) ( #45619 ) ( dff2419 ) Miscellaneous Chores deps: update actions/deploy-pages action to v5.0.1 (main) ( #45616 ) ( 872716a ) deps: update dependency astral-sh/uv to v0.12.9 (main) ( #45617 ) ( 681e30c ) deps: update dependency uv to v0.12.9 (main) ( #45618 ) ( 1ea3d33 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "4.0.20 Released",
+      "url": "https://blog.rubygems.org/2026/09/02/4.0.20-released.html",
+      "published": "2026-09-02T00:00:00Z",
+      "preview": "RubyGems 4.0.20 includes enhancements, bug fixes and documentation and Bundler 4.0.20 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.20 RubyGems Release Notes Enhancements: Print a release notes link instead of the whole changelog on gem update --system . Pull request #9794 by hsbt Installs bundler 4.0.20 as a default gem. Bug fixes: Only coerce exact true and false gemrc values to booleans. Pull request #9822 by hsb",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
     },
     {
       "title": "0.12.9",
@@ -358,14 +398,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "44.52.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.52.0",
-      "published": "2026-08-30T12:34:00Z",
-      "preview": "44.52.0 (2026-08-30) Features data: automatic update of static data ( #45551 ) ( df98f44 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "archive/maven-3.8.x: Archive maven-3.8.x branch (EOL)",
       "url": "https://github.com/apache/maven/releases/tag/archive%2Fmaven-3.8.x",
       "published": "2026-08-30T11:31:31Z",
@@ -580,22 +612,6 @@
       "preview": "Insert 7.11.0.24 into main on 08/27/2026 12:32:03",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "2.10.3",
-      "url": "https://github.com/composer/composer/releases/tag/2.10.3",
-      "published": "2026-08-27T11:41:32Z",
-      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 ) Security: Sanitize URL-embedded usernames/token in a few more places ( #13044 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #12988 ) Fixed PHP 8.6 deprecation warnings ( #12967 , #13028 ) Fixed error output when a policy blocks a package version to be clearer ( #12993 ) Fixed the lock file's content-hash with a conflict marker ending up breaking ",
-      "source": "Composer releases",
-      "category": "PHP"
-    },
-    {
-      "title": "2.2.30",
-      "url": "https://github.com/composer/composer/releases/tag/2.2.30",
-      "published": "2026-08-27T11:41:29Z",
-      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 ) Security: Sanitize URL-embedded usernames/token in a few more places ( #13045 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #13042 ) Full Changelog : 2.2.29...2.2.30",
-      "source": "Composer releases",
-      "category": "PHP"
     },
     {
       "title": "6.0.20",
