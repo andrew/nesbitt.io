@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-01T22:25:08Z",
-  "cutoff": "2026-08-02T22:25:04Z",
+  "generated": "2026-09-02T01:02:05Z",
+  "cutoff": "2026-08-03T01:02:01Z",
   "feed_count": 79,
-  "item_count": 206,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.56.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.3",
+      "published": "2026-09-02T00:05:24Z",
+      "preview": "44.56.3 (2026-09-02) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.3 (main) ( #45619 ) ( dff2419 ) Miscellaneous Chores deps: update actions/deploy-pages action to v5.0.1 (main) ( #45616 ) ( 872716a ) deps: update dependency astral-sh/uv to v0.12.9 (main) ( #45617 ) ( 681e30c ) deps: update dependency uv to v0.12.9 (main) ( #45618 ) ( 1ea3d33 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.12.9",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.9",
@@ -382,14 +390,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.51.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.51.1",
-      "published": "2026-08-29T19:50:17Z",
-      "preview": "44.51.1 (2026-08-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.92.1 (main) ( #45549 ) ( 43de28b ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.4 (main) ( #45548 ) ( af4211d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "2.4.2",
       "url": "https://github.com/python-poetry/poetry/releases/tag/2.4.2",
       "published": "2026-08-29T19:17:15Z",
@@ -500,14 +500,6 @@
       "preview": "29.8.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.8.0 milestone moby/moby, 29.8.0 milestone Bug fixes and enhancements containerd image store: Fix docker image inspect reporting a smaller image size than docker image ls . moby/moby#53426 Do not log expected image signature identity misses as errors for containerd image store images. moby/moby#53495 dockerd now uses the embedded containerd if no system containerd service is configured and containerd is not installed. moby/moby#53388 Fix GET /images/{name}/json not i",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "7.11.0.30",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.30",
-      "published": "2026-08-28T12:24:53Z",
-      "preview": "Insert 7.11.0.30 into main on 08/28/2026 12:24:53",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "What's new in Private Packagist, August 2026 update",
@@ -1478,6 +1470,14 @@
       "category": "Python"
     },
     {
+      "title": "7.11.0.5",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.5",
+      "published": "2026-08-07T12:21:41Z",
+      "preview": "Insert 7.11.0.5 into main on 08/07/2026 12:21:41",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
       "title": "Windows Package Manager 1.30.90-preview",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.90-preview",
       "published": "2026-08-06T16:55:21Z",
@@ -1652,22 +1652,6 @@
       "preview": "What's Changed workflows/docker: align deprecation of 22.04 image by @cho-m in #23378 Add PHP configuration action (16/24) by @MikeMcQuaid in #23191 Add Python bootstrap action (17/24) by @MikeMcQuaid in #23192 Align shared install step interfaces (18/24) by @MikeMcQuaid in #23193 Align install step autocorrections (20/24) by @MikeMcQuaid in #23195 Document canonical install steps (21/24) by @MikeMcQuaid in #23196 Plan remaining install hook migration (22/24) by @MikeMcQuaid in #23197 Bridge cask flight step migrations (19/26) by @MikeMcQuaid in #23382 Update migration delivery plan (23/24) by",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "June and July 2026 Releases",
-      "url": "https://conda.org/blog/2026-08-03-july-releases",
-      "published": "2026-08-03T00:00:00Z",
-      "preview": "June and July releases across the conda org: conda and conda-build 26.7.0, constructor 3.16, libmamba and conda-pypi updates, faster solves in rattler, and more. 🎉",
-      "source": "Conda Blog",
-      "category": "Multi-language"
-    },
-    {
-      "title": "pnpm 11.20",
-      "url": "https://pnpm.io/blog/releases/11.20",
-      "published": "2026-08-03T00:00:00Z",
-      "preview": "pnpm 11.20 fixes a package-substitution risk in projects that install from more than one registry alias, stops empty proxy settings from failing installs, hardens pnpm rebuild against a malicious lockfile, and speeds up dependency resolution.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
