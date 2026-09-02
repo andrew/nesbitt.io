@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-02T17:25:00Z",
-  "cutoff": "2026-08-03T17:24:56Z",
+  "generated": "2026-09-02T18:33:16Z",
+  "cutoff": "2026-08-03T18:33:11Z",
   "feed_count": 79,
   "item_count": 205,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.59.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.59.1",
+      "published": "2026-09-02T17:33:29Z",
+      "preview": "44.59.1 (2026-09-02) Bug Fixes versioning/rez: match version precision ( #45554 ) ( 1133f3b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.59.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.59.0",
@@ -166,6 +174,14 @@
       "category": "Infrastructure"
     },
     {
+      "title": "Goroutine Leak Profiles",
+      "url": "https://go.dev/blog/goroutine-leak-profiles",
+      "published": "2026-09-02T00:00:00Z",
+      "preview": "Go 1.27 includes new goroutine leak profiles.",
+      "source": "Go Blog",
+      "category": "Go"
+    },
+    {
       "title": "4.0.20 Released",
       "url": "https://blog.rubygems.org/2026/09/02/4.0.20-released.html",
       "published": "2026-09-02T00:00:00Z",
@@ -180,14 +196,6 @@
       "preview": "Release Notes Released on 2026-09-01. Python Add CPython 3.15.0rc2 ( #21413 , #21415 ) Enhancements Add --no-locked and --no-frozen to disable lock modes enabled by UV_LOCKED and UV_FROZEN for a single invocation ( #21408 ) Report the exact command-line lock-mode flag in warnings and errors ( #21402 ) Performance Speed up cold wheel installs by extracting each streaming ZIP archive in a single blocking task and reusing buffers across files ( #21372 ) Bug fixes Update async_http_range_reader to 0.11.1 to address a potential memory-safety issue when reading metadata ranges from untrusted wheels ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "44.56.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.2",
-      "published": "2026-09-01T21:51:56Z",
-      "preview": "44.56.2 (2026-09-01) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.2 (main) ( #45614 ) ( f96de99 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.17.2",
@@ -1652,14 +1660,6 @@
       "preview": "changes with compatibility implications fix: Changes the test ClassLoader to close by default, to fix AccessDeniedException by @eed3si9n in #9538 . Set closeClassLoaders to false to opt out, or Test / fork := true to fork the tests that does not shutdown properly. 🐛 bug fixes fix: Fixes a/build.sbt setting leakage by @eed3si9n in #9519 fix: Fixes sbt runner failing to start sbtn on Windows by @ColOfAbRiX in #9520 fix: Fixes forked run baseDirectory by @eed3si9n in #9531 fix: Fixes remote cache header values with = by @KilianSwissborg in #9534 fix: Fixes pipelined build deadlocks by @BrianHotop",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime",
-      "url": "https://devblogs.microsoft.com/dotnet/strengthening-nuget-supply-chain-security-reducing-api-key-lifetime/",
-      "published": "2026-08-03T18:10:00Z",
-      "preview": "NuGet API key durations will be reduced to 30 days starting August 17th. This change will significantly strengthen the integrity of the NuGet supply chain. The post Strengthening NuGet Supply Chain Security: Reducing API Key Lifetime appeared first on .NET Blog .",
-      "source": "NuGet Blog",
-      "category": ".NET"
     }
   ]
 }
