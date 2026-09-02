@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-02T11:26:53Z",
-  "cutoff": "2026-08-03T11:26:49Z",
+  "generated": "2026-09-02T12:40:04Z",
+  "cutoff": "2026-08-03T12:40:00Z",
   "feed_count": 79,
   "item_count": 205,
   "categories": [
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.9.1",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.1",
+      "published": "2026-09-02T12:30:54Z",
+      "preview": "(bootstrap) add firewall connection limiting by @jdx in [ #12669 …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.9.0",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.9.0",
+      "published": "2026-09-02T12:30:31Z",
+      "preview": "Release aqua-registry 2026.9.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.1",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.1",
+      "published": "2026-09-02T12:30:26Z",
+      "preview": "Release vfox 2026.9.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "7.12.0.3",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.3",
+      "published": "2026-09-02T12:23:26Z",
+      "preview": "Insert 7.12.0.3 into main on 09/02/2026 12:23:26",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "44.57.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.2",
@@ -678,14 +710,6 @@
       "category": ".NET"
     },
     {
-      "title": "v2026.8.14: npm/aube install fixes and cleaner temp/prune handling",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.14",
-      "published": "2026-08-26T01:16:21Z",
-      "preview": "This is a small release focused on bug fixes for npm (aube-backed) installs, HTTP cache cleanup, and Windows config pruning. Fixed npm: Aube-backed npm installs no longer drop a synthetic .npmrc into the per-tool install directory. Install-scoped settings such as minimumReleaseAge , trustPolicyExclude , allowedUnpopularPackages , and (for CLI installs) globalDir / globalBinDir now go into .config/aube/config.toml as typed TOML, while allowBuilds stays in package.json . Inline-table trust_policy_excludes / allow_low_downloads in mise.toml still round-trip correctly. ( #12425 by @jdx ) npm: mise",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "Generic Methods",
       "url": "https://go.dev/blog/generic-methods",
       "published": "2026-08-26T00:00:00Z",
@@ -710,14 +734,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "vfox-v2026.8.19",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.19",
-      "published": "2026-08-25T23:35:25Z",
-      "preview": "Release vfox 2026.8.19",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "0.12.6",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.6",
       "published": "2026-08-25T19:41:07Z",
@@ -732,14 +748,6 @@
       "preview": "Changes since 2.12.5: Fixed potential unreliable application of network proxy settings with background fetches. (jmr in 6d9edb0 ) Fixed occasional failure to sync the PortIndex, which required portindex to run locally. (fhgwright in 928dc47 ) Added documentation for the 'none' option for 'port select'. (cvengler in 1552e82 ) Various reliability improvements for trace mode. (cal in 6dda4cc , 1db3e7f , bea36d7 )",
       "source": "MacPorts releases",
       "category": "System"
-    },
-    {
-      "title": "vfox-v2026.8.18",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.18",
-      "published": "2026-08-25T18:33:06Z",
-      "preview": "Release vfox 2026.8.18",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "7.11.0.17",
@@ -1484,14 +1492,6 @@
       "preview": "Release Notes Released on 2026-08-07. Python Add CPython 3.13.15 ( #20997 ) Preview features Add --output-format to select automatic, human-readable, or raw-byte output for uv cache size ( #20992 ) Preserve JSON output from uv workspace metadata --quiet while suppressing diagnostics ( #20991 ) Reduce memory usage for large workspaces by streaming uv workspace metadata JSON output ( #20990 ) Performance Reduce Linux startup latency by initializing the workspace cache before spawning another thread ( #20989 ) Reuse compiled workspace exclusion patterns during workspace discovery ( #20988 ) Speed",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "7.11.0.5",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.5",
-      "published": "2026-08-07T12:21:41Z",
-      "preview": "Insert 7.11.0.5 into main on 08/07/2026 12:21:41",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "Windows Package Manager 1.30.90-preview",
