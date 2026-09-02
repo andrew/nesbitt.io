@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-02T21:24:43Z",
-  "cutoff": "2026-08-03T21:24:38Z",
+  "generated": "2026-09-02T23:24:18Z",
+  "cutoff": "2026-08-03T23:24:12Z",
   "feed_count": 79,
-  "item_count": 206,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -1660,14 +1660,6 @@
       "preview": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha) on nightly in preparation for stabilization in the next few months. Whaaaaaat? Yes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited and was phased out in 2019 in favor of NLL , other than a \"migrate mode\" that was used to provide nice error messages. That migrate mode was finally removed in 2022 . The Polonius borrow checker spun out of the NLL effort in 2018. The initial formulation passed the NLL test suite and accep",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "2.0.5",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.5",
-      "published": "2026-08-03T23:12:29Z",
-      "preview": "changes with compatibility implications fix: Changes the test ClassLoader to close by default, to fix AccessDeniedException by @eed3si9n in #9538 . Set closeClassLoaders to false to opt out, or Test / fork := true to fork the tests that does not shutdown properly. 🐛 bug fixes fix: Fixes a/build.sbt setting leakage by @eed3si9n in #9519 fix: Fixes sbt runner failing to start sbtn on Windows by @ColOfAbRiX in #9520 fix: Fixes forked run baseDirectory by @eed3si9n in #9531 fix: Fixes remote cache header values with = by @KilianSwissborg in #9534 fix: Fixes pipelined build deadlocks by @BrianHotop",
-      "source": "sbt releases",
-      "category": "Maven"
     }
   ]
 }
