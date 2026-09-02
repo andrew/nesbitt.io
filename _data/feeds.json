@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-02T16:31:15Z",
-  "cutoff": "2026-08-03T16:31:10Z",
+  "generated": "2026-09-02T17:25:00Z",
+  "cutoff": "2026-08-03T17:24:56Z",
   "feed_count": 79,
   "item_count": 205,
   "categories": [
@@ -22,6 +22,22 @@
   ],
   "items": [
     {
+      "title": "44.59.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.59.0",
+      "published": "2026-09-02T16:46:31Z",
+      "preview": "44.59.0 (2026-09-02) Features manager: add apm manager for Agent Package Manager ( #44390 ) ( 6d747ea ) Bug Fixes changelog: match release notes for host-qualified names ( #45176 ) ( fb623bd )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v6.1.1",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.1",
+      "published": "2026-09-02T16:35:51Z",
+      "preview": "Security This release addresses CVE-2026-17106 , where a crafted tar archive could write outside the extraction directory through the use of malicious links ( GHSA-hfg8-hc9c-6c3h ). Bugfixes Fixed broken rootlessport bind behavior with -p 0.0.0.0:... -p [::]:... which failed instead of binding both v4 and v6 separately. Podman Machine on WSL should now correctly forward ports again by binding separate IPv4 and IPv6 sockets to make the WSL forwarder logic work again ( #29377 ).",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
       "title": "44.58.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.58.0",
       "published": "2026-09-02T16:28:59Z",
@@ -36,14 +52,6 @@
       "preview": "Minor Changes Every context-aware global command ( node , deno , bun , and the shims created with pnpm shim add ) is now a native executable on every platform, so environment variables whose names are not valid shell identifiers reach these commands. On Windows, <name>.exe replaces the .cmd and .ps1 shims for them. Shims written by earlier pnpm 12 releases are migrated on the next global install or self-update. pnpm remove and pnpm update now accept --trust-lockfile , --no-trust-lockfile , --trust-policy , --trust-policy-exclude and --trust-policy-ignore-after , the same flags pnpm install and",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "v6.1.1",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.1",
-      "published": "2026-09-02T16:20:12Z",
-      "preview": "v6.1.1",
-      "source": "Podman releases",
-      "category": "Containers"
     },
     {
       "title": "44.57.4",
@@ -204,14 +212,6 @@
       "preview": "Change-Id: I14348d1dc655281274a8731f077ae62725175397 Reviewed-on: https://go-review.googlesource.com/c/go/+/825985 Reviewed-by: David Chase drchase@google.com Reviewed-by: Michael Pratt mpratt@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org",
       "source": "Go releases",
       "category": "Go"
-    },
-    {
-      "title": "44.56.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.1",
-      "published": "2026-09-01T17:39:20Z",
-      "preview": "44.56.1 (2026-09-01) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.1 (main) ( #45609 ) ( eadeb32 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "6.0.21",
