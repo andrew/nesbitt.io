@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-02T15:31:22Z",
-  "cutoff": "2026-08-03T15:31:18Z",
+  "generated": "2026-09-02T16:31:15Z",
+  "cutoff": "2026-08-03T16:31:10Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.58.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.58.0",
+      "published": "2026-09-02T16:28:59Z",
+      "preview": "44.58.0 (2026-09-02) Features preset: group vite+ ( #45631 ) ( 3206c6a ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.6 (main) ( #45633 ) ( d5b78f9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 12.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.0",
+      "published": "2026-09-02T16:28:57Z",
+      "preview": "Minor Changes Every context-aware global command ( node , deno , bun , and the shims created with pnpm shim add ) is now a native executable on every platform, so environment variables whose names are not valid shell identifiers reach these commands. On Windows, <name>.exe replaces the .cmd and .ps1 shims for them. Shims written by earlier pnpm 12 releases are migrated on the next global install or self-update. pnpm remove and pnpm update now accept --trust-lockfile , --no-trust-lockfile , --trust-policy , --trust-policy-exclude and --trust-policy-ignore-after , the same flags pnpm install and",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v6.1.1",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.1",
+      "published": "2026-09-02T16:20:12Z",
+      "preview": "v6.1.1",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
+      "title": "44.57.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.4",
+      "published": "2026-09-02T16:11:57Z",
+      "preview": "44.57.4 (2026-09-02) Bug Fixes bitbucket: bbUseDevelopmentBranch fetching ( #45626 ) ( e631d60 ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.10 (main) ( #45540 ) ( 927e68a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.9.1: Bootstrap firewall limiting, scoped locked mode, and lazy tools in tasks",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.1",
@@ -178,22 +210,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.1",
       "published": "2026-09-01T17:39:20Z",
       "preview": "44.56.1 (2026-09-01) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.1 (main) ( #45609 ) ( eadeb32 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.56.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.0",
-      "published": "2026-09-01T15:59:52Z",
-      "preview": "44.56.0 (2026-09-01) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.0 (main) ( #45604 ) ( c6e4e90 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.55.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.55.0",
-      "published": "2026-09-01T15:08:30Z",
-      "preview": "44.55.0 (2026-09-01) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.94.0 (main) ( #45600 ) ( d4ac9fc ) manager/npm: add support for bun in the packageManager field ( #45572 ) ( 24c56f9 ) Bug Fixes datasource/jsr: accept scopes shorter than the JSR registration minimum ( #45547 ) ( 78f4d9a ) Documentation mend-hosted: updates to environment variables and arbitrary scripts ( #45496 ) ( 8b89b34 ) Miscellaneous Chores deps: update docker/setup-qemu-action action to v4.3.0 (main) ( #45594 ) ( d481d33 ) Code Refactoring manager/npm: rename internal managerData.pnpmShrinkwrap ",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -772,14 +788,6 @@
       "preview": "Release 1.16.8",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 12 RC 10",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.10",
-      "published": "2026-08-24T19:06:14Z",
-      "preview": "Patch Changes Fixed pnpm v11 incorrectly reporting confirmModulesPurge as unrecognized when set in pnpm-workspace.yaml . The Rust CLI now identifies the unsupported option as a pnpm v11 setting instead of suggesting an unrelated setting. A +<algorithm>.<hash> build in a devEngines.packageManager version no longer makes pnpm install --frozen-lockfile fail with ERR_PNPM_FROZEN_LOCKFILE_WITH_OUTDATED_LOCKFILE on a lockfile a plain install kept rewriting identically #14124 . The built-in compatibility database no longer adds dependencies that were detected by static analysis of published packages.",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "Windows Package Manager 1.29.290",
