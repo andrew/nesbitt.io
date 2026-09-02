@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-02T10:29:31Z",
-  "cutoff": "2026-08-03T10:29:27Z",
+  "generated": "2026-09-02T11:26:53Z",
+  "cutoff": "2026-08-03T11:26:49Z",
   "feed_count": 79,
   "item_count": 205,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.57.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.2",
+      "published": "2026-09-02T11:01:15Z",
+      "preview": "44.57.2 (2026-09-02) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.5 (main) ( #45625 ) ( 196f16a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.57.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.1",
@@ -188,14 +196,6 @@
       "preview": "Feature: Add basic LoongArch64 architecture support and host detection. ( #20288 ) Feature: Add support for Xcode 26.6 . ( #20280 ) Feature: Add support for gcc 16.2 . ( #20280 ) Feature: Parse reference attributes from --ref in workspace add . ( #20269 ) Feature: Add raise_on_errors=True arg to CommandAPI.run , it now raises on all errors returned by commands. ( #20266 ) Feature: XcodeToolchain now accepts arbitrary extra xcconfig settings via tc.build_settings , for build settings with no dedicated conf. ( #20256 ). Docs: 📃 Feature: conan workspace open with no arguments will read the conanw",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "44.53.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.53.0",
-      "published": "2026-09-01T01:02:07Z",
-      "preview": "44.53.0 (2026-09-01) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.93.2 (main) ( #45583 ) ( d62bf70 ) Documentation update references to renovate/renovate to v44.52.1 (main) ( #45563 ) ( 9a53fbd ) update references to renovatebot/github-action to v46.2.5 (main) ( #45566 ) ( 9e335a2 ) Miscellaneous Chores deps: lock file maintenance (main) ( #45564 ) ( f2ed0ac ) deps: update dependency astral-sh/uv to v0.12.8 (main) ( #45580 ) ( 51d19b8 ) deps: update dependency pnpm to v11.24.0 (main) ( #45578 ) ( 6d6432d ) deps: update dependency uv to v0.12.8 (main) ( #45581 ) ( f5ac",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.2.1",
