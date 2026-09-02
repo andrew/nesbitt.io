@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-02T12:40:04Z",
-  "cutoff": "2026-08-03T12:40:00Z",
+  "generated": "2026-09-02T14:28:56Z",
+  "cutoff": "2026-08-03T14:28:51Z",
   "feed_count": 79,
   "item_count": 205,
   "categories": [
@@ -22,12 +22,20 @@
   ],
   "items": [
     {
-      "title": "v2026.9.1",
+      "title": "v2026.9.1: Bootstrap firewall limiting, scoped locked mode, and lazy tools in tasks",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.1",
-      "published": "2026-09-02T12:30:54Z",
-      "preview": "(bootstrap) add firewall connection limiting by @jdx in [ #12669 …",
+      "published": "2026-09-02T13:48:24Z",
+      "preview": "This release expands bootstrap system setup with firewall rate limiting and more systemd directives, adds a scoped locked mode for mixing distribution and user tool policies, and fixes lazy tools so they install when invoked from tasks and mise x . Added bootstrap: New action = \"limit\" for incoming TCP firewall rules rate-limits connections per source. It maps to UFW's native limiting and bounded per-source IPv4/IPv6 nftables meters; firewalld fails closed since it cannot express safe per-source limiting. Limit rules are treated as preserving SSH access by the lockout guard. ( #12669 by @jdx )",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "44.57.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.3",
+      "published": "2026-09-02T13:48:00Z",
+      "preview": "44.57.3 (2026-09-02) Bug Fixes cache: re-add cacache.verify() to garbage collect orphaned content from put() overwrites ( #44987 ) ( 13ab659 ) honour dashboard rebase for edited branch with no open PR ( #44567 ) ( 7c5bb7d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "aqua-registry-v2026.9.0",
@@ -204,14 +212,6 @@
       "preview": "This release introduces lazy tool shims, which install a tool automatically the first time one of its commands is invoked, plus an opt-in Erlang precompiled OS override and a fix for nested mise calls during postinstall hooks. Added tools: Declare a tool as lazy in [tools] with lazy = true and mise generates bootstrap shims into its normal user/system shim farms. The provider is installed only when one of its commands is first called, then executes immediately; subsequent calls run the real binary without another mise dispatch. Registry tools derive their command names from registry bins , whi",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.54.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.54.0",
-      "published": "2026-09-01T10:12:56Z",
-      "preview": "44.54.0 (2026-09-01) Features datasource/aws-eks-addon: add host rule authentication ( #45552 ) ( 7dce51d ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.93.3 (main) ( #45587 ) ( a5801df ) util/markdown: preserve at signs in URLs ( #45555 ) ( cfb2a76 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "vfox-v2026.9.0",
