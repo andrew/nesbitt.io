@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-02T01:02:05Z",
-  "cutoff": "2026-08-03T01:02:01Z",
+  "generated": "2026-09-02T08:36:05Z",
+  "cutoff": "2026-08-03T08:36:00Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 203,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.56.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.4",
+      "published": "2026-09-02T08:07:03Z",
+      "preview": "44.56.4 (2026-09-02) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.4 (main) ( #45620 ) ( 957d745 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.56.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.3",
@@ -380,14 +388,6 @@
       "preview": "SDK 3.14.0-180.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.51.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.51.2",
-      "published": "2026-08-29T20:48:55Z",
-      "preview": "44.51.2 (2026-08-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.92.2 (main) ( #45550 ) ( e26aa5d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.4.2",
@@ -1644,14 +1644,6 @@
       "preview": "What's Changed Add typed requirement source API by @JamieMagee in #15705 Reland \"Cargo: handle crates locked at multiple versions\" ( #15638 ) by @p-linnane in #15668 Preserve original absence of the bundler self-checksum on lockfile updates by @p-linnane in #15669 Support security updates for vcpkg ports by @JamieMagee in #15676 Beta support of PNPM 11 by @v-robaiken in #15710 Remove enable_cooldown_default_days feature flag; make 3-day cooldown default unconditional by @v-robaiken with @Copilot in #15711 github_actions: integrate gh-actions-lock lockfile relocking by @nodeselector in #15267 F",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "6.0.15",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.15",
-      "published": "2026-08-03T07:55:59Z",
-      "preview": "What's Changed workflows/docker: align deprecation of 22.04 image by @cho-m in #23378 Add PHP configuration action (16/24) by @MikeMcQuaid in #23191 Add Python bootstrap action (17/24) by @MikeMcQuaid in #23192 Align shared install step interfaces (18/24) by @MikeMcQuaid in #23193 Align install step autocorrections (20/24) by @MikeMcQuaid in #23195 Document canonical install steps (21/24) by @MikeMcQuaid in #23196 Plan remaining install hook migration (22/24) by @MikeMcQuaid in #23197 Bridge cask flight step migrations (19/26) by @MikeMcQuaid in #23382 Update migration delivery plan (23/24) by",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
