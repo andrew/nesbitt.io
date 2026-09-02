@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-02T09:31:09Z",
-  "cutoff": "2026-08-03T09:31:04Z",
+  "generated": "2026-09-02T10:29:31Z",
+  "cutoff": "2026-08-03T10:29:27Z",
   "feed_count": 79,
   "item_count": 205,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.57.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.1",
+      "published": "2026-09-02T09:41:39Z",
+      "preview": "44.57.1 (2026-09-02) Bug Fixes manager/git-submodules: init nested submodules in updateDependency ( #45606 ) ( bbd603e ) reconfigure: capitalise Renovate ( #39310 ) ( c02de67 ) remove references to \"bot\" ( #39305 ) ( b62fe59 ) Tests util/git: add missing coverage of setGitAuthor ( #45607 ) ( ea3b7ac )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.10.3",
       "url": "https://github.com/composer/composer/releases/tag/2.10.3",
@@ -332,14 +340,6 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-08-30-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.52.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.52.1",
-      "published": "2026-08-31T01:57:45Z",
-      "preview": "44.52.1 (2026-08-31) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.92.3 (main) ( #45561 ) ( 9061f33 ) Documentation update references to python to b0aed0e (main) ( #45559 ) ( 29e582b ) update references to renovate/renovate (main) ( #45562 ) ( e8fbe34 ) update references to renovatebot/github-action to v46.2.4 (main) ( #45560 ) ( 5192c0f ) Miscellaneous Chores deps: update dependency pnpm to v11.23.0 (main) ( #45557 ) ( d6ded07 ) deps: update zizmor (main) ( #45558 ) ( 7c351d2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.8.15: Dotfiles diff and capture, scoped config updates, and per-tool postinstall hooks",
