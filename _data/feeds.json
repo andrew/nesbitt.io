@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-02T19:23:47Z",
-  "cutoff": "2026-08-03T19:23:43Z",
+  "generated": "2026-09-02T21:24:43Z",
+  "cutoff": "2026-08-03T21:24:38Z",
   "feed_count": 79,
-  "item_count": 205,
+  "item_count": 206,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.10.2",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.2",
+      "published": "2026-09-02T20:52:18Z",
+      "preview": "Patch Changes 6d972d1 : fix: resolve fast-uri and brace-expansion security advisories fast-uri 3.1.6. Bumps the ajv/fast-uri resolution from 3.1.5 to 3.1.6, which fixes four high-severity advisories in the URI parser used by ajv for schema format validation: host confusion via skipped IDN canonicalization ( GHSA-5jgf-p345-68v8 ), SSRF via malformed IPv6 normalization ( GHSA-f65p-4m7j-42xc ), SSRF via repeated hostname percent-decoding ( GHSA-fph4-wmhf-6fwf ), and host confusion via percent-encoded scheme normalization ( GHSA-jqff-g426-hqxp ). brace-expansion DoS cleanup. Updates the remaining ",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.59.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.59.2",
+      "published": "2026-09-02T20:35:53Z",
+      "preview": "44.59.2 (2026-09-02) Bug Fixes changelog: preserve docker compatibility for changelog release lookup ( #45170 ) ( 02b1384 ) manager/npm: run npm install twice during lock file maintenance ( #45542 ) ( dad0b03 ) prune: skip branch pruning when branchPrefix is empty ( #43891 ) ( 614b15d ) Miscellaneous Chores deps: update docker/dockerfile docker tag to v1.27.0 (main) ( #45634 ) ( d4aaf9e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -170,14 +186,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.4",
       "published": "2026-09-02T08:07:03Z",
       "preview": "44.56.4 (2026-09-02) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.4 (main) ( #45620 ) ( 957d745 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.56.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.3",
-      "published": "2026-09-02T00:05:24Z",
-      "preview": "44.56.3 (2026-09-02) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.3 (main) ( #45619 ) ( dff2419 ) Miscellaneous Chores deps: update actions/deploy-pages action to v5.0.1 (main) ( #45616 ) ( 872716a ) deps: update dependency astral-sh/uv to v0.12.9 (main) ( #45617 ) ( 681e30c ) deps: update dependency uv to v0.12.9 (main) ( #45618 ) ( 1ea3d33 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
