@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-03T13:28:53Z",
-  "cutoff": "2026-08-04T13:28:48Z",
+  "generated": "2026-09-03T14:30:27Z",
+  "cutoff": "2026-08-04T14:30:22Z",
   "feed_count": 79,
-  "item_count": 207,
+  "item_count": 208,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "New release 2.77",
+      "url": "https://github.com/canonical/snapd/releases/tag/2.77",
+      "published": "2026-09-03T13:37:42Z",
+      "preview": "Account for differences in names of the binaries in the snapd FIPS build Add code to calculate canonical subject name hash Add commands for debugging or accessing snap mount namespaces Add helpers for listing and iterating device mediation groups Add package ebpf with helpers wrapping eBPF exposed objects with dependency on github.com/cilium/ebpf Add secondary prerequisites task that acts as the synchronization point, which ensures that a snap's prerequisites are available before it's installed Add support for shell conditional syntax in envs Added /usr/share/{man,help,info} to system-packages",
+      "source": "Snapd releases",
+      "category": "System"
+    },
     {
       "title": "44.61.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.2",
