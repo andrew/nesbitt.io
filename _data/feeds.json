@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-03T17:26:13Z",
-  "cutoff": "2026-08-04T17:26:07Z",
+  "generated": "2026-09-03T19:22:41Z",
+  "cutoff": "2026-08-04T19:22:36Z",
   "feed_count": 79,
-  "item_count": 205,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.61.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.4",
+      "published": "2026-09-03T18:47:16Z",
+      "preview": "44.61.4 (2026-09-03) Bug Fixes github: model GitHub hosts explicitly ( #45605 ) ( a744f0d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.61.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.3",
@@ -162,14 +170,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.59.1",
       "published": "2026-09-02T17:33:29Z",
       "preview": "44.59.1 (2026-09-02) Bug Fixes versioning/rez: match version precision ( #45554 ) ( 1133f3b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.59.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.59.0",
-      "published": "2026-09-02T16:46:31Z",
-      "preview": "44.59.0 (2026-09-02) Features manager: add apm manager for Agent Package Manager ( #44390 ) ( 6d747ea ) Bug Fixes changelog: match release notes for host-qualified names ( #45176 ) ( fb623bd )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1652,14 +1652,6 @@
       "preview": "Release 26.2.1",
       "source": "pip releases",
       "category": "Python"
-    },
-    {
-      "title": "2.31.2 (04-Aug-2026)",
-      "url": "https://github.com/conan-io/conan/releases/tag/2.31.2",
-      "published": "2026-08-04T19:10:26Z",
-      "preview": "Bugfix: conan upload .. --dry-run -f=json > to_upload.json now allows round-trip for conan upload -l=to_upload.json without re-preparing the artifacts. ( #20237 )",
-      "source": "Conan releases",
-      "category": "C/C++"
     }
   ]
 }
