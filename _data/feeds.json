@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-02T23:24:18Z",
-  "cutoff": "2026-08-03T23:24:12Z",
+  "generated": "2026-09-03T01:03:19Z",
+  "cutoff": "2026-08-04T01:03:15Z",
   "feed_count": 79,
-  "item_count": 205,
+  "item_count": 204,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.59.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.59.3",
+      "published": "2026-09-03T01:01:59Z",
+      "preview": "44.59.3 (2026-09-03) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.8.0 (main) ( #45642 ) ( 4e436e5 ) Build System deps: update dependency protobufjs to v8.8.0 (main) ( #45641 ) ( f051ed8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 12.3.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.1",
+      "published": "2026-09-03T00:40:37Z",
+      "preview": "Patch Changes Sped up installs in large workspaces: the anchor for re-rendering workspace link: targets is now derived once per project instead of once per dependency edge, and project ordering hashes paths by their raw bytes #14352 . After a self-update from pnpm 12.2 to 12.3, global commands such as node , npm , and yarn failed with unexpected argument '--shim' found . Global commands now launch normally, and their first launch migrates the global bin directory to native shims. When self-update downgrades to pnpm 12.2 or older, it keeps the newer native shims so those commands continue to wo",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v6.10.2",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.2",
@@ -178,14 +194,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.0",
       "published": "2026-09-02T08:43:34Z",
       "preview": "44.57.0 (2026-09-02) Features preset: add TUnit monorepo preset ( #45612 ) ( a1ce94c ) Documentation conda: clarify minimumReleaseAge is supported ( #45622 ) ( b9f5e3c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.56.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.56.4",
-      "published": "2026-09-02T08:07:03Z",
-      "preview": "44.56.4 (2026-09-02) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.4 (main) ( #45620 ) ( 957d745 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -788,14 +796,6 @@
       "preview": "Insert 7.11.0.17 into main on 08/25/2026 12:30:54",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "pnpm 12 RC 11",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0-rc.11",
-      "published": "2026-08-25T09:49:21Z",
-      "preview": "Minor Changes pnpm stage approve now approves several staged packages at once. Run it without a stage id to pick from the staged versions interactively, or pass a list of stage ids. The whole batch is approved with a single one-time password, and pnpm asks for a new one only once the registry stops accepting it. Inside a workspace, the selected packages are approved in dependency order, and a package whose workspace dependency could not be approved is skipped instead of being published against a dependency that never reached the registry. Patch Changes Under nodeLinker: isolated , a Bit root-c",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "1.16.8",
@@ -1652,14 +1652,6 @@
       "preview": "What's Changed 🐛 fix(run): discover entry points for inferred names by @gaborbernat in #1996 Full Changelog : 1.16.5...1.16.6",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "Enabling the next iteration of the borrow checker on nightly",
-      "url": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
-      "published": "2026-08-04T00:00:00Z",
-      "preview": "TL;DR We are enabling the next iteration of the borrow checker (coined Polonius Alpha) on nightly in preparation for stabilization in the next few months. Whaaaaaat? Yes! You heard it right! The next iteration of the Rust borrow checker is coming! Rust's first borrow checker (\"AST borrowck\") was very limited and was phased out in 2019 in favor of NLL , other than a \"migrate mode\" that was used to provide nice error messages. That migrate mode was finally removed in 2022 . The Polonius borrow checker spun out of the NLL effort in 2018. The initial formulation passed the NLL test suite and accep",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
