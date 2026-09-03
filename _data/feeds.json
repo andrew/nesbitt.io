@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-03T07:30:29Z",
-  "cutoff": "2026-08-04T07:30:24Z",
+  "generated": "2026-09-03T08:36:32Z",
+  "cutoff": "2026-08-04T08:36:28Z",
   "feed_count": 79,
   "item_count": 204,
   "categories": [
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.61.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.0",
+      "published": "2026-09-03T08:13:37Z",
+      "preview": "44.61.0 (2026-09-03) Features datasource/orb: use REST API instead of graphql-unstable ( #45205 ) ( 2fc1b5c ) Performance Improvements package-rules: avoid re-cloning invariant packageRules array on every rule match ( #44781 ) ( 0e90c69 ) Code Refactoring linters: add rule to enforce inline single use fixtures ( #45230 ) ( 6e03e83 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.60.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.60.1",
@@ -164,14 +172,6 @@
       "preview": "Insert 7.12.0.3 into main on 09/02/2026 12:23:26",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.57.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.2",
-      "published": "2026-09-02T11:01:15Z",
-      "preview": "44.57.2 (2026-09-02) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.5 (main) ( #45625 ) ( 196f16a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.10.3",
