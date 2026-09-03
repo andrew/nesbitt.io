@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-03T12:40:03Z",
-  "cutoff": "2026-08-04T12:39:57Z",
+  "generated": "2026-09-03T13:28:53Z",
+  "cutoff": "2026-08-04T13:28:48Z",
   "feed_count": 79,
-  "item_count": 206,
+  "item_count": 207,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.61.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.2",
+      "published": "2026-09-03T13:25:09Z",
+      "preview": "44.61.2 (2026-09-03) Bug Fixes gerrit: resolve relative submodule URLs for nested project paths ( #44667 ) ( 40fce9a ) manager/flux: strip templates from resource files ( #43198 ) ( 029663d ) manager: Handle variables with default values in registry aliases ( #36293 ) ( b22f580 ) Documentation clarify prCreation=not-pending fallback and no-check caveat ( #44889 ) ( c5f50dd ) document GitLab auth for private Go modules ( #44371 ) ( 3228cc7 ), closes #37624 Miscellaneous Chores deps: update dependency lint-staged to v17.4.1 (main) ( #45664 ) ( ff36228 ) Code Refactoring linters: enable oxlint ru",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "20260903t123900-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260903t123900-all",
@@ -94,6 +102,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "Announcing Rust 1.98.1",
+      "url": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
+      "published": "2026-09-03T00:00:00Z",
+      "preview": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.98.1 Rust 1.98.1 fixes a miscompilation in vtable generation . In Rust 1.98.0, in some circumstances, rustc would incorrectly generate a trait object vtable with a null pointer where a function pointer should be. T",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
       "title": "v6.10.2",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.2",
       "published": "2026-09-02T20:52:18Z",
@@ -156,14 +172,6 @@
       "preview": "Minor Changes Every context-aware global command ( node , deno , bun , and the shims created with pnpm shim add ) is now a native executable on every platform, so environment variables whose names are not valid shell identifiers reach these commands. On Windows, <name>.exe replaces the .cmd and .ps1 shims for them. Shims written by earlier pnpm 12 releases are migrated on the next global install or self-update. pnpm remove and pnpm update now accept --trust-lockfile , --no-trust-lockfile , --trust-policy , --trust-policy-exclude and --trust-policy-ignore-after , the same flags pnpm install and",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.57.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.4",
-      "published": "2026-09-02T16:11:57Z",
-      "preview": "44.57.4 (2026-09-02) Bug Fixes bitbucket: bbUseDevelopmentBranch fetching ( #45626 ) ( e631d60 ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.10 (main) ( #45540 ) ( 927e68a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.9.1: Bootstrap firewall limiting, scoped locked mode, and lazy tools in tasks",
