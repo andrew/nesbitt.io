@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-03T16:29:31Z",
-  "cutoff": "2026-08-04T16:29:25Z",
+  "generated": "2026-09-03T17:26:13Z",
+  "cutoff": "2026-08-04T17:26:07Z",
   "feed_count": 79,
-  "item_count": 206,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -1660,14 +1660,6 @@
       "preview": "Bugfix: conan upload .. --dry-run -f=json > to_upload.json now allows round-trip for conan upload -l=to_upload.json without re-preparing the artifacts. ( #20237 )",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "9.7.0 RC3",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0-RC3",
-      "published": "2026-08-04T16:38:26Z",
-      "preview": "The Gradle team is excited to announce Gradle 9.7.0 RC3. Here are the highlights of this release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Anton Dubrouski , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 , Qin Mi , Ravi , sk-reddy17 , Suvrat Acharya , Yongshun Ye Upgrade instructions Switch your build to use Gradle 9.7.0",
-      "source": "Gradle releases",
-      "category": "Maven"
     }
   ]
 }
