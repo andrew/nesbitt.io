@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-03T08:36:32Z",
-  "cutoff": "2026-08-04T08:36:28Z",
+  "generated": "2026-09-03T09:31:09Z",
+  "cutoff": "2026-08-04T09:31:05Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 205,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.77.1",
+      "url": "https://github.com/canonical/snapd/releases/tag/2.77.1",
+      "published": "2026-09-03T09:26:44Z",
+      "preview": "tagging package snapd version 2.77.1",
+      "source": "Snapd releases",
+      "category": "System"
+    },
+    {
+      "title": "44.61.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.1",
+      "published": "2026-09-03T08:51:16Z",
+      "preview": "44.61.1 (2026-09-03) Bug Fixes azure: filter pull request queries by Renovate author ( #45359 ) ( 7a6e7b2 ), closes #1 util/exec: disable execa rejection ( #45651 ) ( c97111e ) Documentation tool-calling: centralise AWS configuration ( #45586 ) ( 210bf42 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
+      "published": "2026-09-03T08:50:41Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "44.61.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.0",
@@ -140,14 +164,6 @@
       "preview": "This release expands bootstrap system setup with firewall rate limiting and more systemd directives, adds a scoped locked mode for mixing distribution and user tool policies, and fixes lazy tools so they install when invoked from tasks and mise x . Added bootstrap: New action = \"limit\" for incoming TCP firewall rules rate-limits connections per source. It maps to UFW's native limiting and bounded per-source IPv4/IPv6 nftables meters; firewalld fails closed since it cannot express safe per-source limiting. Limit rules are treated as preserving SSH access by the lockout guard. ( #12669 by @jdx )",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.57.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.3",
-      "published": "2026-09-02T13:48:00Z",
-      "preview": "44.57.3 (2026-09-02) Bug Fixes cache: re-add cacache.verify() to garbage collect orphaned content from put() overwrites ( #44987 ) ( 13ab659 ) honour dashboard rebase for edited branch with no open PR ( #44567 ) ( 7c5bb7d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "aqua-registry-v2026.9.0",
@@ -1428,14 +1444,6 @@
       "preview": "Security fixes: Fix sandbox escape with full host filesystem read/write access via symlink attack on app data directories ( GHSA-8688-9x26-hhxj ) Fix local root privilege escalation via revokefs symlink path traversal and commit tampering ( GHSA-qrwq-7qwx-q9rp ) Fix arbitrary root write via symlink and path traversal in extra-data extraction ( GHSA-fqx6-vh4p-42cg ) Fix arbitrary root write via path traversal in flatpak build-init ( GHSA-8qxj-x646-phcm ) Fix arbitrary host file read via hardlink path traversal in OCI archive extraction ( GHSA-9rww-v4mm-x4jg ) Fix path traversal via unvalidated ",
       "source": "Flatpak releases",
       "category": "System"
-    },
-    {
-      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-08-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-08-08-a",
-      "published": "2026-08-11T12:32:51Z",
-      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-08-08-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "1.19.0",
