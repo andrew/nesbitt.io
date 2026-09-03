@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-03T14:30:27Z",
-  "cutoff": "2026-08-04T14:30:22Z",
+  "generated": "2026-09-03T15:30:15Z",
+  "cutoff": "2026-08-04T15:30:11Z",
   "feed_count": 79,
-  "item_count": 208,
+  "item_count": 207,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.61.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.3",
+      "published": "2026-09-03T15:20:24Z",
+      "preview": "44.61.3 (2026-09-03) Bug Fixes lookup: preserve current compatibility ( #45171 ) ( 19e4cdc ) manager/gitlabci: support ~latest component refs ( #45234 ) ( 80ed949 ) manager/npm: massage out lockstep siblings pinning the replaced version ( #45085 ) ( fa7abab ) skip empty post upgrade task ( #45227 ) ( 0bfd189 ) workers/repository: ensure internal checks are applied when a rebase is requested ( 4530b9e ) Documentation add warning to checkedBranches ( c2a4f49 ) Code Refactoring workers/repository: add a separate check for \"don't make this branch as pending\" ( bb8c9cb ) workers/repository: extract",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v0.79.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.79.0",
+      "published": "2026-09-03T15:16:32Z",
+      "preview": "[0.79.0] - 2026-09-03 ✨ Highlights Pixi now has better support for RISC-V by setting the default virtual packages. And we've extended the CLI to include pixi install --script and pixi workspace dependencies add . Added Add pixi workspace dependencies CLI by @ruben-arts in #6917 Install script environments without running by @manzt in #6923 Set __glibc default to 2.39 on linux-riscv64 by @pavelzw in #6914 Changed Restore static MSVC CRT in Windows builds by @baszalmstra in #6919 Documentation Mention named platforms in pixi-pack by @pavelzw in #6927 Fixed Bump astral_async_http_range_reader to ",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "New release 2.77",
       "url": "https://github.com/canonical/snapd/releases/tag/2.77",
@@ -164,14 +180,6 @@
       "preview": "Security This release addresses CVE-2026-17106 , where a crafted tar archive could write outside the extraction directory through the use of malicious links ( GHSA-hfg8-hc9c-6c3h ). Bugfixes Fixed broken rootlessport bind behavior with -p 0.0.0.0:... -p [::]:... which failed instead of binding both v4 and v6 separately. Podman Machine on WSL should now correctly forward ports again by binding separate IPv4 and IPv6 sockets to make the WSL forwarder logic work again ( #29377 ).",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.58.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.58.0",
-      "published": "2026-09-02T16:28:59Z",
-      "preview": "44.58.0 (2026-09-02) Features preset: group vite+ ( #45631 ) ( 3206c6a ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.6 (main) ( #45633 ) ( d5b78f9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.3",
@@ -1198,14 +1206,6 @@
       "category": "Registries"
     },
     {
-      "title": "pixi-build-python-v0.8.6",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.8.6",
-      "published": "2026-08-18T11:27:37Z",
-      "preview": "chore: bump backend versions ( #6845 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "pixi-build-r-v0.1.7",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-r-v0.1.7",
       "published": "2026-08-18T11:27:37Z",
@@ -1676,14 +1676,6 @@
       "preview": "( #3918 ) Update 7zip to 26.02",
       "source": "Chocolatey releases",
       "category": "System"
-    },
-    {
-      "title": "1.16.6",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.16.6",
-      "published": "2026-08-04T15:09:46Z",
-      "preview": "What's Changed 🐛 fix(run): discover entry points for inferred names by @gaborbernat in #1996 Full Changelog : 1.16.5...1.16.6",
-      "source": "pipx releases",
-      "category": "Python"
     }
   ]
 }
