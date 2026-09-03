@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-03T19:22:41Z",
-  "cutoff": "2026-08-04T19:22:36Z",
+  "generated": "2026-09-03T21:25:12Z",
+  "cutoff": "2026-08-04T21:25:08Z",
   "feed_count": 79,
-  "item_count": 204,
+  "item_count": 208,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.0.0-beta.23",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.23",
+      "published": "2026-09-03T21:14:07Z",
+      "preview": "v2.0.0-beta.23",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.0.0-beta.22",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.22",
+      "published": "2026-09-03T21:10:58Z",
+      "preview": "v2.0.0-beta.22",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "client/v0.6.0",
+      "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.6.0",
+      "published": "2026-09-03T21:03:01Z",
+      "preview": "0.6.0 Changelog pkg/jsonmessage: add new WithMessagePrinter option to use a custom printer for messages. moby/moby#53489 api: Bump to 1.56. moby/moby#53425 minor cleanups, refactors. moby/moby#53509",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "api/v1.56.0",
+      "url": "https://github.com/moby/moby/releases/tag/api%2Fv1.56.0",
+      "published": "2026-09-03T20:43:14Z",
+      "preview": "1.56.0 Changelog GET /containers/json now supports an annotation filter to filter containers by annotation, either by key ( annotation=key ) or by key and value ( annotation=\"key=value\" ), similar to the existing label filter. moby/moby#53538 POST /containers/create now supports HostConfig.Umask to set the initial umask for a Unix container. When set, the daemon includes the value in the OCI process configuration for the container's entrypoint, exec processes, and healthchecks. When omitted, the runtime's default behavior applies. moby/moby#53463 api/docs: sync API docs v1.25 - v1.55. moby/mob",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "44.61.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.4",
