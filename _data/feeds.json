@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-03T01:03:19Z",
-  "cutoff": "2026-08-04T01:03:15Z",
+  "generated": "2026-09-03T07:30:29Z",
+  "cutoff": "2026-08-04T07:30:24Z",
   "feed_count": 79,
   "item_count": 204,
   "categories": [
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.60.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.60.1",
+      "published": "2026-09-03T07:13:32Z",
+      "preview": "44.60.1 (2026-09-03) Bug Fixes config: enforce allowedEnv when applying env vars ( 6b2b607 ) config: enforce allowedHeaders when applying headers ( 223e6ef ) config: report top-level \"security\" violations for env ( 61cbc87 ) config: report top-level \"security\" violations for hostRules[].headers ( ae34610 ) util/host-rules: apply the admin's headers over a repository's ( 4732da7 ) util/host-rules: enforce allowedHeaders within add() ( c98f4f7 ) util/host-rules: merge headers across matching rules ( 3d56c38 ) workers/global: enforce allowedHeaders for the admin's own hostRules ( 432bb00 ) worker",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.60.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.60.0",
+      "published": "2026-09-03T06:53:25Z",
+      "preview": "44.60.0 (2026-09-03) Features configure limiting security updates ( #45574 ) ( 3b699b3 ) Bug Fixes datasource/go: don't cache null on non-404/410 goproxy errors ( #45638 ) ( dac1985 ) Tests datasource/go: cover Go Proxy error fallback behaviour ( #45637 ) ( 3bc8419 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.59.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.59.3",
@@ -158,14 +174,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.57.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.1",
-      "published": "2026-09-02T09:41:39Z",
-      "preview": "44.57.1 (2026-09-02) Bug Fixes manager/git-submodules: init nested submodules in updateDependency ( #45606 ) ( bbd603e ) reconfigure: capitalise Renovate ( #39310 ) ( c02de67 ) remove references to \"bot\" ( #39305 ) ( b62fe59 ) Tests util/git: add missing coverage of setGitAuthor ( #45607 ) ( ea3b7ac )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "2.10.3",
       "url": "https://github.com/composer/composer/releases/tag/2.10.3",
       "published": "2026-09-02T09:27:50Z",
@@ -188,14 +196,6 @@
       "preview": "RubyGems 4.0.20 Enhancements: Print a release notes link instead of the whole changelog on gem update --system . Pull request #9794 by hsbt Installs bundler 4.0.20 as a default gem. Bug fixes: Only coerce exact true and false gemrc values to booleans. Pull request #9822 by hsbt Make the gem CLI work under RUBY_BOX=1. Pull request #9810 by hsbt Documentation: Document and test all available gemrc configuration keys. Pull request #9568 by junaruga Bundler 4.0.20 Enhancements: Avoid duplicate relative path prefix in bundle exec. Pull request #9596 by samuel-williams-shopify Follow renamed default",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "44.57.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.57.0",
-      "published": "2026-09-02T08:43:34Z",
-      "preview": "44.57.0 (2026-09-02) Features preset: add TUnit monorepo preset ( #45612 ) ( a1ce94c ) Documentation conda: clarify minimumReleaseAge is supported ( #45622 ) ( b9f5e3c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Goroutine Leak Profiles",
