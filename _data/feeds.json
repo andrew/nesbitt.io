@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-04T13:27:43Z",
-  "cutoff": "2026-08-05T13:27:38Z",
+  "generated": "2026-09-04T14:27:33Z",
+  "cutoff": "2026-08-05T14:27:27Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12.3.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.3",
+      "published": "2026-09-04T14:23:32Z",
+      "preview": "Patch Changes Fixed concurrent installs sharing a store occasionally failing with an ENOENT error while importing a package file #14353 . Sped up writing the lockfile in large workspaces #14352 . Sped up dependency resolution in large workspaces #14352 . pnpm now runs through Node.js when it was installed by a tool that skips build scripts, such as Vercel's packageManager provisioning, Bun, Deno, or npm install --ignore-scripts . Those installs previously failed with syntax error near unexpected token ')' . They still cannot run pnpm on Windows. On macOS only a shell can start it #14346 . Plat",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.3.4",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.4",
+      "published": "2026-09-04T14:23:18Z",
+      "preview": "Patch Changes Sped up dependency resolution in large workspaces #14352 . pnpm 12 now accepts the boolean settings as command-line flags on every command that takes them in pnpm 11, for example pnpm install --unsafe-perm , pnpm add foo --offline , and pnpm install --dangerously-allow-all-builds . pnpm 12 rejected them with unexpected argument , which failed every install on Vercel, whose build runs pnpm install --unsafe-perm #14346 . pnpm remove now accepts --unsafe-perm , the same flag pnpm install , pnpm add , and pnpm update take. Platinum Sponsors Gold Sponsors",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "26.7.2",
+      "url": "https://github.com/conda/conda/releases/tag/26.7.2",
+      "published": "2026-09-04T13:36:18Z",
+      "preview": "Bug fixes Allow individual sharded-repodata package shards up to 64 MiB after decompression. ( #16575 ) Contributors @jezdez Full Changelog : 26.7.1...26.7.2",
+      "source": "Conda releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.64.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.0",
@@ -45,14 +69,6 @@
       "preview": "44.62.2 (2026-09-04) Bug Fixes config/validation: allow only capturing currentDigest in Custom Managers ( #45671 ) ( 8abbd14 ), closes #45665 datasource: use release-level registryUrl in postprocessRelease ( #45096 ) ( 7f71c26 ) manager/mix: run mix commands from the lock file's directory ( #44971 ) ( 69bc2dd ) manager/pep621: support array form of tool.uv.sources ( #44970 ) ( 9d10700 ) presets: fix javaLTSVersions not preserving partial semver for mise Java versions ( #44899 ) ( 5f5e58b ) versioning/nuget: bare exact version bypasses ignoreUnstable ( #45087 ) ( 4db8635 ) Tests core: replace f",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v12.3.3",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.3",
-      "published": "2026-09-04T10:35:52Z",
-      "preview": "v12.3.3",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "44.62.1",
@@ -629,14 +645,6 @@
       "preview": "Fixed Fix an issue where Poetry installs an artifact that is not listed in the lockfile when the package source does not provide a hash for this artifact ( #11030 ). Fix a path traversal vulnerability when downloading files from a compromised URL and/or package source ( #11029 ). Fix a path traversal vulnerability in sdist extraction on Python 3.10.0-3.10.12 and 3.11.0-3.11.4 that could allow malicious tarball files to write files outside the target directory ( #11027 ).",
       "source": "Poetry releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpr 0.1.0-alpha.9",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.9",
-      "published": "2026-08-29T14:20:24Z",
-      "preview": "Minor Changes Made the signed shared-artifact cache horizontally scalable with S3-compatible storage and an independent top-level artifacts feature toggle. Generalized the experimental shared-artifact protocol so candidates and signed payloads identify a discriminated subject. Dependency side effects use package and source-integrity subjects, while workspace tasks use project and task subjects. This changes shared-artifact request bodies and signed payloads. A pnpr server and its clients have to be on matching versions. Patch Changes A published build artifact is now immutable: one input key a",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 11.25",
@@ -1749,14 +1757,6 @@
       "preview": "( #3915 ) Update log4net in chocolatey.lib",
       "source": "Chocolatey releases",
       "category": "System"
-    },
-    {
-      "title": "2.9.0.rc1",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0.rc1",
-      "published": "2026-08-05T13:39:42Z",
-      "preview": "Enhancements: [libmamba, micromamba] Refactor and clean up by @Hind-M in #4359 [libmamba, libmambapy] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fixes: [libmamba] fix: Explain missing packages when string ids collide with solvables by @jjerphan in #4369 [libmamba] fix: Do not change permissions of existing shared package cache directories by @jjerphan in #4365 [libmamba] fix: Link libpsl static library for static builds by @mikemhenry in #4355 [libmamba, micromamba] fix: Accept non-s",
-      "source": "Mamba releases",
-      "category": "Multi-language"
     }
   ]
 }
