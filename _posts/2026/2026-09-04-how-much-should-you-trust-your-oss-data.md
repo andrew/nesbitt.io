@@ -7,6 +7,7 @@ tags:
   - open-source
   - ecosyste.ms
   - metrics
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mup5ms7zoa2u"
 ---
 
 *By Sophia Vargas, Google Open Source & Andrew Nesbitt, Ecosyste.ms. Originally published on the [Google Open Source Blog](https://opensource.googleblog.com/2026/09/how-much-should-you-trust-your-oss-data.html), 3 September 2026.*
