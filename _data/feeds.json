@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-04T08:35:20Z",
-  "cutoff": "2026-08-05T08:35:15Z",
+  "generated": "2026-09-04T10:28:02Z",
+  "cutoff": "2026-08-05T10:27:57Z",
   "feed_count": 79,
-  "item_count": 207,
+  "item_count": 206,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.62.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.62.0",
+      "published": "2026-09-04T09:56:44Z",
+      "preview": "44.62.0 (2026-09-04) Features replacements: add replacement for OpenSSF Scorecard Docker images ( #45597 ) ( fe9ce38 ), closes #45568 Tests bundler: replace file snapshots with explicit assertions ( #45657 ) ( 5a9c085 ) manager: replace file snapshots with explicit assertions ( #45656 ) ( 2fc46bd ) npm: replace file snapshots with explicit assertions ( #45658 ) ( f4fa861 ) Validate minimumReleaseAge is ignored for security updates ( #44272 ) ( 09ff8d2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "Bun v1.4.1",
       "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.1",
@@ -194,14 +202,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.60.0",
       "published": "2026-09-03T06:53:25Z",
       "preview": "44.60.0 (2026-09-03) Features configure limiting security updates ( #45574 ) ( 3b699b3 ) Bug Fixes datasource/go: don't cache null on non-404/410 goproxy errors ( #45638 ) ( dac1985 ) Tests datasource/go: cover Go Proxy error fallback behaviour ( #45637 ) ( 3bc8419 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.59.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.59.3",
-      "published": "2026-09-03T01:01:59Z",
-      "preview": "44.59.3 (2026-09-03) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.8.0 (main) ( #45642 ) ( 4e436e5 ) Build System deps: update dependency protobufjs to v8.8.0 (main) ( #45641 ) ( f051ed8 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1668,14 +1668,6 @@
       "preview": "Enhancements: [libmamba, micromamba] Refactor and clean up by @Hind-M in #4359 [libmamba, libmambapy] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fixes: [libmamba] fix: Explain missing packages when string ids collide with solvables by @jjerphan in #4369 [libmamba] fix: Do not change permissions of existing shared package cache directories by @jjerphan in #4365 [libmamba] fix: Link libpsl static library for static builds by @mikemhenry in #4355 [libmamba, micromamba] fix: Accept non-s",
       "source": "Mamba releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "20260805t095600-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260805t095600-all",
-      "published": "2026-08-05T09:56:34Z",
-      "preview": "Deployment at 2026-08-05T09:56:28.129138Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     }
   ]
 }
