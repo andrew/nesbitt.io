@@ -3,7 +3,7 @@
   <head>
     <title>Package Manager Client &amp; Registry Software Feeds</title>
     <dateCreated>Sun, 16 Nov 2025 00:00:00 GMT</dateCreated>
-    <dateModified>Fri, 22 May 2026 16:42:00 GMT</dateModified>
+    <dateModified>Wed, 02 Sep 2026 21:00:00 GMT</dateModified>
   </head>
   <body>
 
@@ -66,6 +66,7 @@
       <outline type="rss" text="NuGet Client releases" xmlUrl="https://github.com/NuGet/NuGet.Client/releases.atom" htmlUrl="https://github.com/NuGet/NuGet.Client/releases"/>
       <outline type="rss" text="NuGet.Server releases" xmlUrl="https://github.com/NuGet/NuGet.Server/releases.atom" htmlUrl="https://github.com/NuGet/NuGet.Server/releases"/>
       <outline type="rss" text="NuGetGallery releases" xmlUrl="https://github.com/NuGet/NuGetGallery/releases.atom" htmlUrl="https://github.com/NuGet/NuGetGallery/releases"/>
+      <outline type="rss" text="PSResourceGet releases" xmlUrl="https://github.com/PowerShell/PSResourceGet/releases.atom" htmlUrl="https://github.com/PowerShell/PSResourceGet/releases"/>
     </outline>
 
     <outline text="C/C++">
@@ -100,16 +101,22 @@
       <outline type="rss" text="Harbor releases" xmlUrl="https://github.com/goharbor/harbor/releases.atom" htmlUrl="https://github.com/goharbor/harbor/releases"/>
       <outline type="rss" text="Helm releases" xmlUrl="https://github.com/helm/helm/releases.atom" htmlUrl="https://github.com/helm/helm/releases"/>
       <outline type="rss" text="ORAS releases" xmlUrl="https://github.com/oras-project/oras/releases.atom" htmlUrl="https://github.com/oras-project/oras/releases"/>
-      <outline type="rss" text="Podman releases" xmlUrl="https://github.com/containers/podman/releases.atom" htmlUrl="https://github.com/containers/podman/releases"/>
+      <outline type="rss" text="Podman releases" xmlUrl="https://github.com/podman-container-tools/podman/releases.atom" htmlUrl="https://github.com/podman-container-tools/podman/releases"/>
+    </outline>
+
+    <outline text="Infrastructure as Code">
+      <outline type="rss" text="OpenTofu releases" xmlUrl="https://github.com/opentofu/opentofu/releases.atom" htmlUrl="https://github.com/opentofu/opentofu/releases"/>
+      <outline type="rss" text="Terraform releases" xmlUrl="https://github.com/hashicorp/terraform/releases.atom" htmlUrl="https://github.com/hashicorp/terraform/releases"/>
     </outline>
 
     <outline text="Language-Specific Registries">
       <outline type="rss" text="Cabal releases" xmlUrl="https://github.com/haskell/cabal/releases.atom" htmlUrl="https://github.com/haskell/cabal/releases"/>
       <outline type="rss" text="CocoaPods releases" xmlUrl="https://github.com/CocoaPods/CocoaPods/releases.atom" htmlUrl="https://github.com/CocoaPods/CocoaPods/releases"/>
       <outline type="rss" text="CPAN Meta releases" xmlUrl="https://github.com/Perl-Toolchain-Gang/CPAN-Meta/releases.atom" htmlUrl="https://github.com/Perl-Toolchain-Gang/CPAN-Meta/releases"/>
+      <outline type="rss" text="Elm releases" xmlUrl="https://github.com/elm/compiler/releases.atom" htmlUrl="https://github.com/elm/compiler/releases"/>
       <outline type="rss" text="LuaRocks releases" xmlUrl="https://github.com/luarocks/luarocks/releases.atom" htmlUrl="https://github.com/luarocks/luarocks/releases"/>
       <outline type="rss" text="opam releases" xmlUrl="https://github.com/ocaml/opam/releases.atom" htmlUrl="https://github.com/ocaml/opam/releases"/>
-      <outline type="rss" text="Pkg.jl releases" xmlUrl="https://github.com/JuliaLang/Pkg.jl/releases.atom" htmlUrl="https://github.com/JuliaLang/Pkg.jl/releases"/>
+      <outline type="rss" text="Pkg.jl releases" xmlUrl="https://github.com/JuliaLang/Pkg.jl/tags.atom" htmlUrl="https://github.com/JuliaLang/Pkg.jl/tags"/>
       <outline type="rss" text="Pub releases" xmlUrl="https://github.com/dart-lang/pub/releases.atom" htmlUrl="https://github.com/dart-lang/pub/releases"/>
       <outline type="rss" text="pub.dev releases" xmlUrl="https://github.com/dart-lang/pub-dev/releases.atom" htmlUrl="https://github.com/dart-lang/pub-dev/releases"/>
       <outline type="rss" text="Stack releases" xmlUrl="https://github.com/commercialhaskell/stack/releases.atom" htmlUrl="https://github.com/commercialhaskell/stack/releases"/>
