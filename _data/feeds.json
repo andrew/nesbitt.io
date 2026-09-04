@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-04T18:30:20Z",
-  "cutoff": "2026-08-05T18:30:14Z",
+  "generated": "2026-09-04T19:22:08Z",
+  "cutoff": "2026-08-05T19:22:04Z",
   "feed_count": 83,
   "item_count": 218,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.64.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.3",
+      "published": "2026-09-04T19:09:40Z",
+      "preview": "44.64.3 (2026-09-04) Build System deps: update dependency @renovatebot/detect-tools to v4.0.12 (main) ( #45710 ) ( b380f44 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.64.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.2",
+      "published": "2026-09-04T18:51:06Z",
+      "preview": "44.64.2 (2026-09-04) Build System deps: update dependency zod to v4.5.1 (main) ( #45709 ) ( 5717d3e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -253,22 +269,6 @@
       "preview": "1.56.0 Changelog GET /containers/json now supports an annotation filter to filter containers by annotation, either by key ( annotation=key ) or by key and value ( annotation=\"key=value\" ), similar to the existing label filter. moby/moby#53538 POST /containers/create now supports HostConfig.Umask to set the initial umask for a Unix container. When set, the daemon includes the value in the OCI process configuration for the container's entrypoint, exec processes, and healthchecks. When omitted, the runtime's default behavior applies. moby/moby#53463 api/docs: sync API docs v1.25 - v1.55. moby/mob",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.61.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.4",
-      "published": "2026-09-03T18:47:16Z",
-      "preview": "44.61.4 (2026-09-03) Bug Fixes github: model GitHub hosts explicitly ( #45605 ) ( a744f0d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.61.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.3",
-      "published": "2026-09-03T15:20:24Z",
-      "preview": "44.61.3 (2026-09-03) Bug Fixes lookup: preserve current compatibility ( #45171 ) ( 19e4cdc ) manager/gitlabci: support ~latest component refs ( #45234 ) ( 80ed949 ) manager/npm: massage out lockstep siblings pinning the replaced version ( #45085 ) ( fa7abab ) skip empty post upgrade task ( #45227 ) ( 0bfd189 ) workers/repository: ensure internal checks are applied when a rebase is requested ( 4530b9e ) Documentation add warning to checkedBranches ( c2a4f49 ) Code Refactoring workers/repository: add a separate check for \"don't make this branch as pending\" ( bb8c9cb ) workers/repository: extract",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.79.0",
