@@ -9,7 +9,7 @@ tags:
   - go
 ---
 
-Back in February I [wrote up the fourteen Go modules](/2026/02/19/go-modules-for-package-management-tooling) behind [git-pkgs](https://github.com/git-pkgs/git-pkgs), a git subcommand for exploring dependency history. The org now has around forty-five repositories: nine standalone tools, a couple of dozen library modules, and the GitHub Actions and agent skills that wire them into CI and coding assistants. Several of the tools have had their own posts here already ([brief](/2026/04/21/brief), [proxy](/2026/05/11/proxy), [forge](/2026/03/13/forge), [actions](/2026/03/11/git-pkgs-actions)), so for those I'll cover what's changed since.
+Back in February I [wrote up the fourteen Go modules](/2026/02/19/go-modules-for-package-management-tooling) behind [git-pkgs](https://github.com/git-pkgs/git-pkgs), a git subcommand for exploring dependency history. The org now has around forty-five repositories: nine standalone tools, around thirty library modules, and the GitHub Actions and agent skills that wire them into CI and coding assistants. Several of the tools have had their own posts here already ([brief](/2026/04/21/brief), [proxy](/2026/05/11/proxy), [forge](/2026/03/13/forge), [actions](/2026/03/11/git-pkgs-actions)), so for those I'll cover what's changed since.
 
 ## Tools
 
@@ -56,7 +56,7 @@ Fails CI when your Go code or one of its dependencies gains access to a new priv
 
 A license scanner built on [ScanCode's rule corpus](https://github.com/aboutcode-org/scancode-toolkit), compiled into a single 22 MB Go binary. ScanCode is the reference implementation for license detection but it's a 507 MB Python install (351 MB of which is a pre-built Lucene-style index) that forks several worker processes each holding over a gigabyte of RSS, which makes it awkward to embed in other tools or run on every push. `licenses` embeds the same rule set at build time and runs [ScanCode's own conformance suite](https://github.com/git-pkgs/licenses#conformance) with tracked differences. On a checkout of [rust-lang/cargo](https://github.com/rust-lang/cargo) (2,950 files, 8-core M1 Pro, default flags) it finishes in 0.91 s and 243 MB peak RSS against scancode -l 32.5.0's 94 s and 4.5 GB across nine processes, roughly 100× faster and 19× lighter.
 
-`licenses .` scans a directory and reports SPDX expressions per file plus a rolled-up expression for the tree; `-json` includes declared licenses from any manifests it recognises alongside the detected ones. It's also the library behind `git pkgs licenses --license-text`, which downloads package archives and scans the files inside them directly.
+`licenses .` scans a directory and reports SPDX expressions per file plus a rolled-up expression for the tree; `-json` includes declared licenses from any manifests it recognises alongside the detected ones. It's also the library behind `git pkgs licenses --license-text`.
 
 ### [downstream](https://github.com/git-pkgs/downstream)
 
@@ -96,7 +96,7 @@ Recording where a package came from and verifying its integrity turned out to ne
 
 ### Licensing
 
-[licenses](https://github.com/git-pkgs/licenses) is also importable as a library, which is how it's mostly used across the org. `git pkgs licenses --license-text` calls `matcher.Match` on every text file inside a downloaded package archive, and proxy is [about to do the same](https://github.com/git-pkgs/proxy/issues/312) so cached artifacts get a persisted license report exposed in the API and web UI, with a [policy hook](https://github.com/git-pkgs/proxy/issues/313) that can block a fetch on a disallowed expression. Because the corpus is embedded and the matcher is a plain Go value, adding license detection to another tool is one `go get` and a function call.
+[licenses](https://github.com/git-pkgs/licenses) is also importable as a library, which is how it's mostly used across the org. `git pkgs licenses --license-text` calls `matcher.Match` directly, and proxy is [about to do the same](https://github.com/git-pkgs/proxy/issues/312) so cached artifacts get a persisted license report exposed in the API and web UI, with a [policy hook](https://github.com/git-pkgs/proxy/issues/313) that can block a fetch on a disallowed expression. Because the corpus is embedded and the matcher is a plain Go value, adding license detection to another tool is one `go get` and a function call.
 
 [reuse](https://github.com/git-pkgs/reuse) handles the other way projects declare licensing: it parses [REUSE spec](https://reuse.software) v3.3 projects, reading SPDX identifiers and copyright lines from file-header comments, `.license` sidecar files, `REUSE.toml` annotations, and legacy `.reuse/dep5` globs, and returns the effective license per path. Between the two, brief can report a project's licensing whether it's declared in structured metadata or only present as text.
 
@@ -132,14 +132,14 @@ Maven's dependency metadata is spread across a chain of parent POMs, imported BO
 
 ## Updates
 
-Since February the original fourteen modules have changed as follows:
+Since February twelve of the original fourteen modules have changed (forge is covered above):
 
 - [manifests](https://github.com/git-pkgs/manifests) now covers 47 ecosystems and added `DiscoverManifests` and `DiscoverVendors` for repository-wide manifest and vendor-directory discovery, plus a `Declaration` API exposing raw source references (git, path, URL) before resolution
 - [registries](https://github.com/git-pkgs/registries) added Helm repositories, a `fetch` sub-package for streaming artifact downloads with retry and circuit-breaking, `FetchObserved` returning the final URL and content digests, and a `safehttp` transport that rejects private-network upstreams
 - [vers](https://github.com/git-pkgs/vers) added Bazel, Composer, Pub, PEP 440, and apk-tools version schemes, plus `HighestSatisfying` and a conformance suite harvested from univers
 - [archives](https://github.com/git-pkgs/archives) added zstd, `.conda`, and extensionless-archive detection, `ExtractAll` confined with `os.Root`, per-archive byte and entry limits, and a `diff` sub-package for comparing two archive versions; it now powers [archives.ecosyste.ms](https://archives.ecosyste.ms)
 - [enrichment](https://github.com/git-pkgs/enrichment) added an [endoflife.date](https://endoflife.date) client, downloads, dependent, funding, and maintainer fields, and made `HybridClient.BulkLookup` run its backends concurrently
-- [managers](https://github.com/git-pkgs/managers) added `init` for 30 managers, `replace` (which backs `git pkgs replace` and downstream), and an renv definition for R
+- [managers](https://github.com/git-pkgs/managers) added `init` for 30 managers, `replace` (which backs `git pkgs replace` and downstream), and a renv definition for R
 - [spdx](https://github.com/git-pkgs/spdx) added identifier rewriting and a syntax-only parse mode for expressions with unknown identifiers
 - [changelog](https://github.com/git-pkgs/changelog) added `FetchAndParse` for remote changelogs and version-range filtering
 - [gitignore](https://github.com/git-pkgs/gitignore) added `WalkFrom` for walking a subdirectory while still applying ancestor `.gitignore` rules
