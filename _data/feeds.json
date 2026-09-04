@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-03T23:23:28Z",
-  "cutoff": "2026-08-04T23:23:23Z",
+  "generated": "2026-09-04T00:59:57Z",
+  "cutoff": "2026-08-05T00:59:53Z",
   "feed_count": 79,
-  "item_count": 208,
+  "item_count": 207,
   "categories": [
     ".NET",
     "C/C++",
@@ -21,6 +21,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.61.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.6",
+      "published": "2026-09-03T23:50:27Z",
+      "preview": "44.61.6 (2026-09-03) Build System deps: update dependency p-map to v7.0.7 (main) ( #45678 ) ( a01be61 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v12.3.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.2",
+      "published": "2026-09-03T23:37:09Z",
+      "preview": "=v12.3.2",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v29.8.0",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.0",
@@ -196,14 +212,6 @@
       "preview": "Patch Changes 6d972d1 : fix: resolve fast-uri and brace-expansion security advisories fast-uri 3.1.6. Bumps the ajv/fast-uri resolution from 3.1.5 to 3.1.6, which fixes four high-severity advisories in the URI parser used by ajv for schema format validation: host confusion via skipped IDN canonicalization ( GHSA-5jgf-p345-68v8 ), SSRF via malformed IPv6 normalization ( GHSA-f65p-4m7j-42xc ), SSRF via repeated hostname percent-decoding ( GHSA-fph4-wmhf-6fwf ), and host confusion via percent-encoded scheme normalization ( GHSA-jqff-g426-hqxp ). brace-expansion DoS cleanup. Updates the remaining ",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.59.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.59.2",
-      "published": "2026-09-02T20:35:53Z",
-      "preview": "44.59.2 (2026-09-02) Bug Fixes changelog: preserve docker compatibility for changelog release lookup ( #45170 ) ( 02b1384 ) manager/npm: run npm install twice during lock file maintenance ( #45542 ) ( dad0b03 ) prune: skip branch pruning when branchPrefix is empty ( #43891 ) ( 614b15d ) Miscellaneous Chores deps: update docker/dockerfile docker tag to v1.27.0 (main) ( #45634 ) ( d4aaf9e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "cabal-head",
@@ -818,14 +826,6 @@
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0",
       "published": "2026-08-26T15:13:51Z",
       "preview": "Major Changes Git dependencies on known hosts (GitHub, GitLab, Bitbucket) are now treated as identities rather than transport choices. Every representation of the same repository — github:owner/repo , owner/repo , git+https://… , git+ssh://git@… — resolves through the host's canonical HTTPS URL, and the lockfile never records an SSH URL for them. Repositories whose archive endpoint is anonymously reachable resolve to the host's archive (fast tarball download); all others resolve to a git clone of the canonical HTTPS URL, which every machine with access to the repository can fetch. To reach a p",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpr 0.1.0-alpha.8",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.8",
-      "published": "2026-08-26T15:13:05Z",
-      "preview": "Minor Changes Added an opt-in proof of concept that lets installs reuse a dependency's build output across machines, by publishing and restoring signed, organization-scoped artifacts through pnpr instead of running the lifecycle scripts locally. Configure it with the new remoteSideEffectsCache setting. A workspace names the eligible organization and packages ; everything describing the act of signing — publish , keyId , builderId , trustedKeys , privateKey and the provenance fields — is refused in pnpm-workspace.yaml and read from the global config file or the environment instead. Hosted pnpr ",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -1675,14 +1675,6 @@
       "published": "2026-08-05T02:16:51Z",
       "preview": "RubyGems 4.0.18 Enhancements: Check the resolved parent directory before extracting old format gems. Pull request #9755 by hsbt Installs bundler 4.0.18 as a default gem. Bug fixes: Call Kernel.format explicitly in Gem::Deprecate wrapper. Pull request #9714 by hsbt Documentation: Point bundler.io URLs at guides.rubygems.org. Pull request #9737 by hsbt Bundler 4.0.18 Enhancements: Don't mask install errors when no Gemfile can be located. Pull request #9757 by hsbt Warn when duplicate source declarations conflict on cooldown. Pull request #9736 by hsbt Redact URI userinfo from settings names in B",
       "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "4.0.18 Released",
-      "url": "https://blog.rubygems.org/2026/08/05/4.0.18-released.html",
-      "published": "2026-08-05T00:00:00Z",
-      "preview": "RubyGems 4.0.18 includes enhancements, bug fixes and documentation and Bundler 4.0.18 includes enhancements, bug fixes, security and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.18 RubyGems Release Notes Enhancements: Check the resolved parent directory before extracting old format gems. Pull request #9755 by hsbt Installs bundler 4.0.18 as a default gem. Bug fixes: Call Kernel.format explicitly in Gem::Deprecate wrapper. Pull request #9714 by hsbt Do",
-      "source": "RubyGems Blog",
       "category": "Ruby"
     }
   ]
