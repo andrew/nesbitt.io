@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-04T17:24:24Z",
-  "cutoff": "2026-08-05T17:23:48Z",
+  "generated": "2026-09-04T18:30:20Z",
+  "cutoff": "2026-08-05T18:30:14Z",
   "feed_count": 83,
-  "item_count": 220,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -1765,22 +1765,6 @@
       "preview": "Release Notes Released on 2026-08-05. Python Add CPython 3.15.0rc1 ( #20948 ) Add CPython 3.14.7 ( #20971 ) Enhancements Ensure diagnostic hints end with a newline to prevent malformed terminal output ( #20959 ) Preview features Audit one or all installed tools with uv tool audit ( #20921 ) Report physically reclaimed disk space during cache cleanup with the cache-physical-space preview feature ( #20925 ) Configuration Add UV_RUN_RLIMIT_NOFILE to set the open-file limit for commands launched by uv run ( #20926 ) Performance Speed up uv.lock parsing for wheel entries ( #20881 ) Speed up uv.lock",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "v1.16.0-beta2",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta2",
-      "published": "2026-08-05T18:07:50Z",
-      "preview": "1.16.0-beta2 (August 05, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. ( #37986 ) terraform_data : The new store block can hold ephemeral and sensitive values across plan and apply. ( #38298 ) Providers can now use nested blocks as computed values ( #38305 ) import: import blocks inside modules are now supported. ( #38352 ) Terraform is now available as a pre-built binary for Linux s390x (zLinux). ( #38384 ) Resource action triggers can now use on_failure modes of halt , taint , or continue .",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
-    },
-    {
-      "title": "2.7.4-beta-20260805: Merge pull request #3916 from st3phhays/log4net-lib",
-      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.4-beta-20260805",
-      "published": "2026-08-05T17:50:31Z",
-      "preview": "( #3915 ) Update log4net in chocolatey.lib",
-      "source": "Chocolatey releases",
-      "category": "System"
     }
   ]
 }
