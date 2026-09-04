@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T10:35:11Z",
-  "total_posts": 205,
-  "total_words": 282541,
-  "reading_minutes": 1413,
+  "generated_at": "2026-09-04T14:13:27Z",
+  "total_posts": 206,
+  "total_words": 283870,
+  "reading_minutes": 1420,
   "average_words": 1378,
   "longest_post": {
     "title": "Skills Registry Threat Models",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "Git Submodules as a Package Manager",
-    "url": "/2026/09/01/git-submodules-as-a-package-manager.html",
-    "date": "2026-09-01"
+    "title": "How much should you trust your OSS data?",
+    "url": "/2026/09/04/how-much-should-you-trust-your-oss-data.html",
+    "date": "2026-09-04"
   },
   "years_active": 9.5,
   "posts_per_month": 1.8,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 165
+      "count": 166
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-09",
-      "count": 1
+      "count": 2
     },
     {
       "month": "2026-08",
@@ -124,7 +124,7 @@
     "tuesday": 33,
     "wednesday": 23,
     "thursday": 37,
-    "friday": 35,
+    "friday": 36,
     "saturday": 33
   },
   "tags": [
@@ -138,7 +138,7 @@
     },
     {
       "name": "open-source",
-      "count": 39
+      "count": 40
     },
     {
       "name": "reference",
@@ -182,7 +182,7 @@
     },
     {
       "name": "ecosyste.ms",
-      "count": 11
+      "count": 12
     },
     {
       "name": "github",
@@ -213,6 +213,10 @@
       "count": 6
     },
     {
+      "name": "metrics",
+      "count": 5
+    },
+    {
       "name": "research",
       "count": 5
     },
@@ -230,10 +234,6 @@
     },
     {
       "name": "sustainability",
-      "count": 4
-    },
-    {
-      "name": "metrics",
       "count": 4
     },
     {
@@ -1401,18 +1401,18 @@
     }
   ],
   "external_links": {
-    "total": 4611,
-    "unique": 3719,
+    "total": 4637,
+    "unique": 3740,
     "domains": [
       {
         "host": "github.com",
-        "count": 1363,
-        "posts": 149
+        "count": 1365,
+        "posts": 150
       },
       {
         "host": "en.wikipedia.org",
-        "count": 94,
-        "posts": 33
+        "count": 95,
+        "posts": 34
       },
       {
         "host": "nvd.nist.gov",
@@ -1421,8 +1421,8 @@
       },
       {
         "host": "arxiv.org",
-        "count": 49,
-        "posts": 30
+        "count": 51,
+        "posts": 31
       },
       {
         "host": "fosdem.org",
@@ -1436,8 +1436,8 @@
       },
       {
         "host": "github.blog",
-        "count": 36,
-        "posts": 25
+        "count": 37,
+        "posts": 26
       },
       {
         "host": "chaoss.community",
@@ -1465,14 +1465,14 @@
         "posts": 23
       },
       {
+        "host": "changelog.com",
+        "count": 23,
+        "posts": 5
+      },
+      {
         "host": "learn.microsoft.com",
         "count": 23,
         "posts": 13
-      },
-      {
-        "host": "changelog.com",
-        "count": 22,
-        "posts": 4
       },
       {
         "host": "blog.rust-lang.org",
@@ -1483,6 +1483,11 @@
         "host": "doc.rust-lang.org",
         "count": 19,
         "posts": 17
+      },
+      {
+        "host": "docs.github.com",
+        "count": 19,
+        "posts": 18
       },
       {
         "host": "manifest.fm",
@@ -1498,11 +1503,6 @@
         "host": "blog.rubygems.org",
         "count": 16,
         "posts": 13
-      },
-      {
-        "host": "docs.github.com",
-        "count": 16,
-        "posts": 17
       },
       {
         "host": "blog.packagist.com",
@@ -1575,6 +1575,11 @@
         "posts": 5
       },
       {
+        "host": "www.youtube.com",
+        "count": 11,
+        "posts": 11
+      },
+      {
         "host": "bundler.io",
         "count": 10,
         "posts": 10
@@ -1598,11 +1603,6 @@
         "host": "patents.google.com",
         "count": 10,
         "posts": 1
-      },
-      {
-        "host": "www.youtube.com",
-        "count": 10,
-        "posts": 10
       },
       {
         "host": "yarnpkg.com",
@@ -2270,6 +2270,11 @@
         "posts": 3
       },
       {
+        "host": "www.softwareheritage.org",
+        "count": 3,
+        "posts": 10
+      },
+      {
         "host": "www.sovereign.tech",
         "count": 3,
         "posts": 2
@@ -2467,7 +2472,7 @@
       {
         "host": "ecosyste.ms",
         "count": 2,
-        "posts": 32
+        "posts": 33
       },
       {
         "host": "engineering.fb.com",
@@ -2633,6 +2638,11 @@
         "host": "openjdk.org",
         "count": 2,
         "posts": 2
+      },
+      {
+        "host": "opensource.googleblog.com",
+        "count": 2,
+        "posts": 1
       },
       {
         "host": "opensourcepledge.com",
@@ -2840,6 +2850,11 @@
         "posts": 2
       },
       {
+        "host": "www.gharchive.org",
+        "count": 2,
+        "posts": 2
+      },
+      {
         "host": "www.haskell.org",
         "count": 2,
         "posts": 2
@@ -2873,11 +2888,6 @@
         "host": "www.pythonpodcast.com",
         "count": 2,
         "posts": 1
-      },
-      {
-        "host": "www.softwareheritage.org",
-        "count": 2,
-        "posts": 9
       },
       {
         "host": "www.taoensso.com",
@@ -3241,6 +3251,11 @@
       },
       {
         "host": "chaos.social",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "chaoss.github.io",
         "count": 1,
         "posts": 1
       },
@@ -3960,6 +3975,11 @@
         "posts": 1
       },
       {
+        "host": "hackernoon.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "hackerone.com",
         "count": 1,
         "posts": 1
@@ -4040,6 +4060,11 @@
         "posts": 1
       },
       {
+        "host": "ieeexplore.ieee.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "ilan.schnell-web.net",
         "count": 1,
         "posts": 1
@@ -4053,6 +4078,11 @@
         "host": "infobridge.fhwa.dot.gov",
         "count": 1,
         "posts": 2
+      },
+      {
+        "host": "innovationgraph.github.com",
+        "count": 1,
+        "posts": 1
       },
       {
         "host": "input-output-hk.github.io",
@@ -4493,6 +4523,11 @@
         "host": "ossf.github.io",
         "count": 1,
         "posts": 2
+      },
+      {
+        "host": "ossinsight.io",
+        "count": 1,
+        "posts": 1
       },
       {
         "host": "ostreedev.github.io",
@@ -5560,11 +5595,6 @@
         "posts": 1
       },
       {
-        "host": "www.gharchive.org",
-        "count": 1,
-        "posts": 1
-      },
-      {
         "host": "www.gingerbill.org",
         "count": 1,
         "posts": 1
@@ -5741,6 +5771,11 @@
       },
       {
         "host": "www.openchainproject.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "www.opensourcestories.org",
         "count": 1,
         "posts": 1
       },
