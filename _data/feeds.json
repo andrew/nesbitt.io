@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-04T12:39:04Z",
-  "cutoff": "2026-08-05T12:38:58Z",
+  "generated": "2026-09-04T13:27:43Z",
+  "cutoff": "2026-08-05T13:27:38Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.64.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.0",
+      "published": "2026-09-04T13:02:13Z",
+      "preview": "44.64.0 (2026-09-04) Features preset: @octokit group preset ( #45643 ) ( 10c5232 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.63.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.63.0",
+      "published": "2026-09-04T12:46:09Z",
+      "preview": "44.63.0 (2026-09-04) Features datasource: add APK datasource support ( #40250 ) ( 795d083 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.62.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.62.2",
@@ -191,28 +207,12 @@
       "category": "System"
     },
     {
-      "title": "44.61.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.1",
-      "published": "2026-09-03T08:51:16Z",
-      "preview": "44.61.1 (2026-09-03) Bug Fixes azure: filter pull request queries by Renovate author ( #45359 ) ( 7a6e7b2 ), closes #1 util/exec: disable execa rejection ( #45651 ) ( c97111e ) Documentation tool-calling: centralise AWS configuration ( #45586 ) ( 210bf42 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
       "published": "2026-09-03T08:50:41Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.61.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.0",
-      "published": "2026-09-03T08:13:37Z",
-      "preview": "44.61.0 (2026-09-03) Features datasource/orb: use REST API instead of graphql-unstable ( #45205 ) ( 2fc1b5c ) Performance Improvements package-rules: avoid re-cloning invariant packageRules array on every rule match ( #44781 ) ( 0e90c69 ) Code Refactoring linters: add rule to enforce inline single use fixtures ( #45230 ) ( 6e03e83 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.3.1",
