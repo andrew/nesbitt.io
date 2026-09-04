@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-04T11:25:36Z",
-  "cutoff": "2026-08-05T11:25:31Z",
+  "generated": "2026-09-04T12:39:04Z",
+  "cutoff": "2026-08-05T12:38:58Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.62.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.62.2",
+      "published": "2026-09-04T12:14:56Z",
+      "preview": "44.62.2 (2026-09-04) Bug Fixes config/validation: allow only capturing currentDigest in Custom Managers ( #45671 ) ( 8abbd14 ), closes #45665 datasource: use release-level registryUrl in postprocessRelease ( #45096 ) ( 7f71c26 ) manager/mix: run mix commands from the lock file's directory ( #44971 ) ( 69bc2dd ) manager/pep621: support array form of tool.uv.sources ( #44970 ) ( 9d10700 ) presets: fix javaLTSVersions not preserving partial semver for mise Java versions ( #44899 ) ( 5f5e58b ) versioning/nuget: bare exact version bypasses ignoreUnstable ( #45087 ) ( 4db8635 ) Tests core: replace f",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v12.3.3",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.3",
@@ -203,14 +211,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.0",
       "published": "2026-09-03T08:13:37Z",
       "preview": "44.61.0 (2026-09-03) Features datasource/orb: use REST API instead of graphql-unstable ( #45205 ) ( 2fc1b5c ) Performance Improvements package-rules: avoid re-cloning invariant packageRules array on every rule match ( #44781 ) ( 0e90c69 ) Code Refactoring linters: add rule to enforce inline single use fixtures ( #45230 ) ( 6e03e83 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.60.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.60.1",
-      "published": "2026-09-03T07:13:32Z",
-      "preview": "44.60.1 (2026-09-03) Bug Fixes config: enforce allowedEnv when applying env vars ( 6b2b607 ) config: enforce allowedHeaders when applying headers ( 223e6ef ) config: report top-level \"security\" violations for env ( 61cbc87 ) config: report top-level \"security\" violations for hostRules[].headers ( ae34610 ) util/host-rules: apply the admin's headers over a repository's ( 4732da7 ) util/host-rules: enforce allowedHeaders within add() ( c98f4f7 ) util/host-rules: merge headers across matching rules ( 3d56c38 ) workers/global: enforce allowedHeaders for the admin's own hostRules ( 432bb00 ) worker",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
