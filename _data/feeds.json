@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-04T10:28:02Z",
-  "cutoff": "2026-08-05T10:27:57Z",
-  "feed_count": 79,
-  "item_count": 206,
+  "generated": "2026-09-04T11:25:36Z",
+  "cutoff": "2026-08-05T11:25:31Z",
+  "feed_count": 83,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -10,6 +10,7 @@
     "Elixir",
     "Go",
     "Infrastructure",
+    "Infrastructure as Code",
     "JavaScript",
     "Maven",
     "Multi-language",
@@ -21,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.3.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.3",
+      "published": "2026-09-04T10:35:52Z",
+      "preview": "v12.3.3",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.62.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.62.1",
+      "published": "2026-09-04T10:29:25Z",
+      "preview": "44.62.1 (2026-09-04) Bug Fixes bump-versions: collect bumpVersions from all upgrades, not just upgrades[0] ( #44809 ) ( e10ef79 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.62.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.62.0",
@@ -198,14 +215,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.60.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.60.0",
-      "published": "2026-09-03T06:53:25Z",
-      "preview": "44.60.0 (2026-09-03) Features configure limiting security updates ( #45574 ) ( 3b699b3 ) Bug Fixes datasource/go: don't cache null on non-404/410 goproxy errors ( #45638 ) ( dac1985 ) Tests datasource/go: cover Go Proxy error fallback behaviour ( #45637 ) ( 3bc8419 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "pnpm 12.3.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.1",
       "published": "2026-09-03T00:40:37Z",
@@ -252,6 +261,14 @@
       "preview": "Minor Changes Every context-aware global command ( node , deno , bun , and the shims created with pnpm shim add ) is now a native executable on every platform, so environment variables whose names are not valid shell identifiers reach these commands. On Windows, <name>.exe replaces the .cmd and .ps1 shims for them. Shims written by earlier pnpm 12 releases are migrated on the next global install or self-update. pnpm remove and pnpm update now accept --trust-lockfile , --no-trust-lockfile , --trust-policy , --trust-policy-exclude and --trust-policy-ignore-after , the same flags pnpm install and",
       "source": "pnpm releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "v1.16.1",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.1",
+      "published": "2026-09-02T14:49:32Z",
+      "preview": "1.16.1 (September 2, 2026) BUG FIXES: cloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations ( #38751 ) Support referencing modules containing dynamic sources in Terraform Test ( #38950 ) stacks: Fixed validation to ensure the provider versions in the lock file and configuration are compatible. ( #38829 ) Fix panic when import identity references sensitive value ( #39013 ) import: Fixed a bug where import blocks would be ignored when multiple imports targeted different instances of a resource config using for_each or count . ( #39068 )",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
     },
     {
       "title": "v2026.9.1: Bootstrap firewall limiting, scoped locked mode, and lazy tools in tasks",
@@ -774,6 +791,14 @@
       "category": "System"
     },
     {
+      "title": "v1.13.0-beta1",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.0-beta1",
+      "published": "2026-08-27T18:01:40Z",
+      "preview": "The v1.13.x release series is supported until August 1 2027 . 1.13.0 (Unreleased) UPGRADE NOTES: The \"winrm\" connection type for provisioners is no longer supported. ( #4012 ) This connection type was deprecated in OpenTofu v1.12, and now removed in v1.13. Some of the upstream libraries OpenTofu was using to implement these features are no longer maintained, so it's not viable for us to offer this anymore. Modern Windows versions now support OpenSSH , and so we suggest that anyone currently relying on WinRM plan to migrate to using SSH instead. The base64gzip function now generates results tha",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
       "title": "v2.9.6",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.6",
       "published": "2026-08-27T17:29:30Z",
@@ -796,6 +821,14 @@
       "preview": "Insert 7.11.0.24 into main on 08/27/2026 12:32:03",
       "source": "NuGet Client releases",
       "category": ".NET"
+    },
+    {
+      "title": "v1.17.0-alpha20260827",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827",
+      "published": "2026-08-27T10:30:11Z",
+      "preview": "1.17.0-alpha20260827 (August 27, 2026) NEW FEATURES: A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) ENHANCEMENTS: command/init: Enrich log messages with provider versions ( #38918 ) command/login: display warning after successful login if user is subject to an organization's TTL policy BUG FIXES: funcs: pow and log no longer panic when result is not a number ( #38912 ) ephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previo",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
     },
     {
       "title": "6.0.20",
@@ -838,12 +871,12 @@
       "category": "JavaScript"
     },
     {
-      "title": "pnpm 12",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.0.0",
-      "published": "2026-08-26T15:13:51Z",
-      "preview": "Major Changes Git dependencies on known hosts (GitHub, GitLab, Bitbucket) are now treated as identities rather than transport choices. Every representation of the same repository — github:owner/repo , owner/repo , git+https://… , git+ssh://git@… — resolves through the host's canonical HTTPS URL, and the lockfile never records an SSH URL for them. Repositories whose archive endpoint is anonymously reachable resolve to the host's archive (fast tarball download); all others resolve to a git clone of the canonical HTTPS URL, which every machine with access to the repository can fetch. To reach a p",
-      "source": "pnpm releases",
-      "category": "JavaScript"
+      "title": "v1.16.0",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0",
+      "published": "2026-08-26T13:05:28Z",
+      "preview": "1.16.0 (August 26, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. ( #37986 ) terraform_data : The new store block can hold ephemeral and sensitive values across plan and apply. ( #38298 ) Providers can now use nested blocks as computed values ( #38305 ) import: import blocks inside modules are now supported. ( #38352 ) Terraform is now available as a pre-built binary for Linux s390x (zLinux). ( #38384 ) Resource action triggers can now use on_failure modes of halt , taint , or continue . ( #38",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
     },
     {
       "title": "7.11.0.23",
@@ -1158,6 +1191,14 @@
       "category": "Go"
     },
     {
+      "title": "v1.15.9",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.9",
+      "published": "2026-08-19T14:29:32Z",
+      "preview": "1.15.9 (August 19, 2026) BUG FIXES: validate: Child module validation has been fixed and will now raise errors or warning diagnostics for invalid blocks. ( list , import , backend , and cloud ) ( #38994 ) NOTES: Update go-slug to v0.18.3 to mitigate CVE-2026-14978 , which is a Unicode normalization issue that could lead to files not being correctly excluded via .terraformignore from upload to a Terraform Enterprise or HCP Terraform during a run ( #39036 )",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
+    {
       "title": "7.11.0.13",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.13",
       "published": "2026-08-19T12:48:30Z",
@@ -1172,6 +1213,30 @@
       "preview": "As part of this release we had 2 issues closed. Dependency Changes [Security] Upgrade log4net to 3.3.1 in chocolatey.lib. See #3915 by st3phhays , resolved in !3916 by st3phhays . [Security] Update bundled 7zip executables to 26.02. See #3918 by AdmiringWorm , resolved in !3924 by alexaveldanez . Contributors 3 contributors made this release possible.",
       "source": "Chocolatey releases",
       "category": "System"
+    },
+    {
+      "title": "v1.16.0-rc2",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc2",
+      "published": "2026-08-19T12:08:45Z",
+      "preview": "1.16.0-rc2 (August 19, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. ( #37986 ) terraform_data : The new store block can hold ephemeral and sensitive values across plan and apply. ( #38298 ) Providers can now use nested blocks as computed values ( #38305 ) import: import blocks inside modules are now supported. ( #38352 ) Terraform is now available as a pre-built binary for Linux s390x (zLinux). ( #38384 ) Resource action triggers can now use on_failure modes of halt , taint , or continue . (",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "v1.12.6",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.6",
+      "published": "2026-08-19T11:40:07Z",
+      "preview": "SECURITY ADVISORIES: When interacting with OCI Distribution registries for module or provider package installation, earlier versions of OpenTofu could incorrectly resend credentials intended for the original origin to the target of an HTTP redirect. ( #4422 ) When interacting with an attacker-controlled remote state backend or provider/module registry, tofu init in earlier versions of OpenTofu could potentially cause high CPU usage and/or high memory usage resolving crafted relative URLs in the API responses. ( #4472 ) Full Changelog : v1.12.5...v1.12.6",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "v1.11.14",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.11.14",
+      "published": "2026-08-19T11:39:12Z",
+      "preview": "SECURITY ADVISORIES: When interacting with OCI Distribution registries for module or provider package installation, previous versions of OpenTofu could incorrectly resend credentials intended for the original origin to the target of an HTTP redirect. ( #4423 ) When interacting with an attacker-controlled remote state backend or provider/module registry, tofu init in earlier versions of OpenTofu could potentially cause high CPU usage and/or high memory usage resolving crafted relative URLs in the API responses. ( #4473 ) Note This is the final patch release planned for the OpenTofu v1.11 series",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
     },
     {
       "title": "pixi-build-mojo-v0.2.7",
@@ -1486,12 +1551,28 @@
       "category": "Containers"
     },
     {
+      "title": "v1.16.0-rc1",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc1",
+      "published": "2026-08-12T15:22:32Z",
+      "preview": "1.16.0-rc1 (August 12, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. ( #37986 ) terraform_data : The new store block can hold ephemeral and sensitive values across plan and apply. ( #38298 ) Providers can now use nested blocks as computed values ( #38305 ) import: import blocks inside modules are now supported. ( #38352 ) Terraform is now available as a pre-built binary for Linux s390x (zLinux). ( #38384 ) Resource action triggers can now use on_failure modes of halt , taint , or continue . (",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
+    {
       "title": "7.11.0.8",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.8",
       "published": "2026-08-12T12:17:37Z",
       "preview": "Insert 7.11.0.8 into main on 08/12/2026 12:17:36",
       "source": "NuGet Client releases",
       "category": ".NET"
+    },
+    {
+      "title": "v1.17.0-alpha20260812",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260812",
+      "published": "2026-08-12T12:01:24Z",
+      "preview": "1.17.0-alpha20260812 (August 12, 2026) ENHANCEMENTS: command/init: Enrich log messages with provider versions ( #38918 ) BUG FIXES: funcs: pow and log no longer panic when result is not a number ( #38912 ) ephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. ( #38989 ) NOTES: version: JSON output now includes a new format_vers",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
     },
     {
       "title": "20260812t113900-all",
@@ -1652,6 +1733,14 @@
       "preview": "Release Notes Released on 2026-08-05. Python Add CPython 3.15.0rc1 ( #20948 ) Add CPython 3.14.7 ( #20971 ) Enhancements Ensure diagnostic hints end with a newline to prevent malformed terminal output ( #20959 ) Preview features Audit one or all installed tools with uv tool audit ( #20921 ) Report physically reclaimed disk space during cache cleanup with the cache-physical-space preview feature ( #20925 ) Configuration Add UV_RUN_RLIMIT_NOFILE to set the open-file limit for commands launched by uv run ( #20926 ) Performance Speed up uv.lock parsing for wheel entries ( #20881 ) Speed up uv.lock",
       "source": "uv releases",
       "category": "Python"
+    },
+    {
+      "title": "v1.16.0-beta2",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-beta2",
+      "published": "2026-08-05T18:07:50Z",
+      "preview": "1.16.0-beta2 (August 05, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. ( #37986 ) terraform_data : The new store block can hold ephemeral and sensitive values across plan and apply. ( #38298 ) Providers can now use nested blocks as computed values ( #38305 ) import: import blocks inside modules are now supported. ( #38352 ) Terraform is now available as a pre-built binary for Linux s390x (zLinux). ( #38384 ) Resource action triggers can now use on_failure modes of halt , taint , or continue .",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
     },
     {
       "title": "2.7.4-beta-20260805: Merge pull request #3916 from st3phhays/log4net-lib",
