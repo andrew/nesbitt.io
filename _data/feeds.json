@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-04T22:24:54Z",
-  "cutoff": "2026-08-05T22:24:49Z",
+  "generated": "2026-09-04T23:23:21Z",
+  "cutoff": "2026-08-05T23:23:16Z",
   "feed_count": 83,
-  "item_count": 217,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.10",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.10",
+      "published": "2026-09-04T23:15:57Z",
+      "preview": "Release Notes Released on 2026-09-04. Enhancements Attempt to revoke short-lived PyPI trusted-publishing tokens after uv publish completes, including when publishing fails ( #21423 ) Preview features Omit exclude-newer-package settings for packages outside the resolution from uv.lock with the missing-exclude-newer-package-lock preview feature ( #21455 ) Show terminal dependency cycles in uv tree --invert output ( #21404 ) Performance Speed up locking large workspaces with conflicts by excluding unrelated extras and dependency groups from conflict simplification ( #21399 ) Speed up uv publish b",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "44.65.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.0",
