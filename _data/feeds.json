@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-04T15:27:51Z",
-  "cutoff": "2026-08-05T15:27:45Z",
+  "generated": "2026-09-04T17:24:24Z",
+  "cutoff": "2026-08-05T17:23:48Z",
   "feed_count": 83,
-  "item_count": 217,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-09-04T17:19:50Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "@verdaccio/ui-components@5.0.0-next-9.21",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-components%405.0.0-next-9.21",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/ui-i18n@10.0.0-next-9.5",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-i18n%4010.0.0-next-9.5",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/ui-theme@9.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/url@14.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/web@9.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-audit@14.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-auth-memory@14.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-htpasswd@14.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-memory@14.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio@9.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.64.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.1",
@@ -245,22 +333,6 @@
       "preview": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.98.1 Rust 1.98.1 fixes a miscompilation in vtable generation . In Rust 1.98.0, in some circumstances, rustc would incorrectly generate a trait object vtable with a null pointer where a function pointer should be. T",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "v6.10.2",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.2",
-      "published": "2026-09-02T20:52:18Z",
-      "preview": "Patch Changes 6d972d1 : fix: resolve fast-uri and brace-expansion security advisories fast-uri 3.1.6. Bumps the ajv/fast-uri resolution from 3.1.5 to 3.1.6, which fixes four high-severity advisories in the URI parser used by ajv for schema format validation: host confusion via skipped IDN canonicalization ( GHSA-5jgf-p345-68v8 ), SSRF via malformed IPv6 normalization ( GHSA-f65p-4m7j-42xc ), SSRF via repeated hostname percent-decoding ( GHSA-fph4-wmhf-6fwf ), and host confusion via percent-encoded scheme normalization ( GHSA-jqff-g426-hqxp ). brace-expansion DoS cleanup. Updates the remaining ",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-02T19:11:40Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v6.1.1",
@@ -599,22 +671,6 @@
       "category": "Python"
     },
     {
-      "title": "v7.0.0-next-7.26",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.26",
-      "published": "2026-08-30T16:52:49Z",
-      "preview": "Patch Changes 594f438 : Update verdaccio dependencies ( @verdaccio/* , verdaccio , verdaccio-* ) to the next-9 npm dist-tag.",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v7.0.0-next-7.25",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.25",
-      "published": "2026-08-30T13:11:45Z",
-      "preview": "Patch Changes c461320 : Update verdaccio dependencies ( @verdaccio/* , verdaccio , verdaccio-* ) to the next-9 npm dist-tag.",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "archive/maven-3.8.x: Archive maven-3.8.x branch (EOL)",
       "url": "https://github.com/apache/maven/releases/tag/archive%2Fmaven-3.8.x",
       "published": "2026-08-30T11:31:31Z",
@@ -868,14 +924,6 @@
       "published": "2026-08-26T21:48:47Z",
       "preview": "11.19.1 (2026-08-25) Bug Fixes 83b750d #9916 exempt explicit pack targets from allow-directory ( #9916 ) (@github-actions[bot], @ychampion , @ychampion ) Dependencies 4791b27 #9872 undici@6.28.0 ( @martinrrm , @Copilot) 823d647 #9872 ip-address@10.5.0 ( @martinrrm , @Copilot) 04f8efe #9872 brace-expansion@5.0.9 ( @martinrrm , @Copilot) 1610280 #9842 tar@7.5.22 ( #9842 ) ( @martinrrm , @Copilot) workspace : libnpmpack@9.1.13",
       "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v6.10.1",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.1",
-      "published": "2026-08-26T20:51:59Z",
-      "preview": "Patch Changes 90d5c20 : Import shared helpers from @verdaccio/core and drop the deprecated @verdaccio/utils dependency All internal usages of @verdaccio/utils now resolve the same helpers from @verdaccio/core (validation, auth, crypto, package and author utilities), and the @verdaccio/utils dependency has been removed. 7805d50: Limit web UI search responses to 20 packages. c84070b : Update verdaccio dependencies to the latest npm dist-tag ( @verdaccio/ui-theme tracks next-9 ): @verdaccio/ui-theme : 9.0.0-next-9.27 → 9.0.0-next-9.28",
-      "source": "Verdaccio releases",
       "category": "JavaScript"
     },
     {
@@ -1295,14 +1343,6 @@
       "category": "Go"
     },
     {
-      "title": "v7.0.0-next-7.24",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.24",
-      "published": "2026-08-18T16:52:43Z",
-      "preview": "Patch Changes f1f5d34 : chore: trigger release",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "26.7.1",
       "url": "https://github.com/conda/conda/releases/tag/26.7.1",
       "published": "2026-08-18T13:41:01Z",
@@ -1357,22 +1397,6 @@
       "preview": "chore: bump backend versions ( #6845 )",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v6.10.0",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.0",
-      "published": "2026-08-18T06:36:16Z",
-      "preview": "Minor Changes 51c2733 : Expose the optional legacy authentication cache for Verdaccio 6.x through server.legacyAuthCache . This feature is intended for performance-sensitive installations that still use legacy bearer tokens. When enabled, Verdaccio caches successful legacy token authentication results for a short period of time, so repeated requests using the same token do not need to run password verification through the authentication plugin every time. Concurrent requests for the same legacy token can also share the same in-flight authentication result. The cache is disabled by default, so ",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v6.9.3",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.9.3",
-      "published": "2026-08-18T05:59:16Z",
-      "preview": "Patch Changes 3c8f391 : Reject wildcard characters in package and tarball path validation. ebc08ba : Update verdaccio dependencies to the latest npm dist-tag ( @verdaccio/ui-theme tracks next-9 ): This dependency refresh includes @verdaccio/package-filter 13.2.0 with excludeDeprecated support from #6142 by @jotadeveloper , based on the original work by @davidus27 . It also includes the @verdaccio/ui-theme update containing the homepage action hover fix from #6135 by @pranshuchittora . @verdaccio/auth : 8.1.1 → 8.1.2 @verdaccio/config : 8.2.1 → 8.2.2 @verdaccio/core : 8.2.1 → 8.2.2 @verdaccio/h",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "v2.28.2",
