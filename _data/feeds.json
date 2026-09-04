@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-04T00:59:57Z",
-  "cutoff": "2026-08-05T00:59:53Z",
+  "generated": "2026-09-04T02:35:58Z",
+  "cutoff": "2026-08-05T02:35:53Z",
   "feed_count": 79,
-  "item_count": 207,
+  "item_count": 206,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,20 +22,20 @@
   ],
   "items": [
     {
+      "title": "pnpm 12.3.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.2",
+      "published": "2026-09-04T02:07:17Z",
+      "preview": "Patch Changes pnpm audit --fix update no longer aborts when a vulnerable package has no safe version inside its declared range #14508 . The run updates every package it can and lists the rest as remaining. pnpm install no longer reruns root lifecycle scripts when the global virtual store contains an unfinished-build marker in a package slot that the current lockfile does not use pnpm/pnpm#14485 . Sped up installs that have no lockfile. pnpm now links packages whose dependency subtree has no peer dependencies into the virtual store while resolution is still running. pnpm run and pnpm exec now s",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "44.61.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.6",
       "published": "2026-09-03T23:50:27Z",
       "preview": "44.61.6 (2026-09-03) Build System deps: update dependency p-map to v7.0.7 (main) ( #45678 ) ( a01be61 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v12.3.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.2",
-      "published": "2026-09-03T23:37:09Z",
-      "preview": "=v12.3.2",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "v29.8.0",
@@ -1668,14 +1668,6 @@
       "preview": "Deployment at 2026-08-05T09:56:28.129138Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "v4.0.18",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.18",
-      "published": "2026-08-05T02:16:51Z",
-      "preview": "RubyGems 4.0.18 Enhancements: Check the resolved parent directory before extracting old format gems. Pull request #9755 by hsbt Installs bundler 4.0.18 as a default gem. Bug fixes: Call Kernel.format explicitly in Gem::Deprecate wrapper. Pull request #9714 by hsbt Documentation: Point bundler.io URLs at guides.rubygems.org. Pull request #9737 by hsbt Bundler 4.0.18 Enhancements: Don't mask install errors when no Gemfile can be located. Pull request #9757 by hsbt Warn when duplicate source declarations conflict on cooldown. Pull request #9736 by hsbt Redact URI userinfo from settings names in B",
-      "source": "RubyGems releases",
-      "category": "Ruby"
     }
   ]
 }
