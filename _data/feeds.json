@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-04T19:22:08Z",
-  "cutoff": "2026-08-05T19:22:04Z",
+  "generated": "2026-09-04T20:26:47Z",
+  "cutoff": "2026-08-05T20:26:42Z",
   "feed_count": 83,
-  "item_count": 218,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.65.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.0",
+      "published": "2026-09-04T20:25:35Z",
+      "preview": "44.65.0 (2026-09-04) Features onboarding: note that vulnerabilityAlerts can be rate limited ( #45686 ) ( a806d2f ) Continuous Integration check TODOs for closed issues ( #45575 ) ( 26fe7b0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.64.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.3",
@@ -229,14 +237,6 @@
       "preview": "29.8.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.8.0 milestone moby/moby, 29.8.0 milestone New Add HostConfig.Umask option and a corresponding --umask <octal> flag to docker create / docker run to set the umask for a container's main process, execs, and healthchecks. moby/moby#53463 , docker/cli#7108 Add support for attaching service names, environments, and custom CloudWatch entity attributes to logs from the awslogs logging driver. moby/moby#52632 Security Add daemon support for configuring the default container AppA",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.61.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.5",
-      "published": "2026-09-03T21:59:32Z",
-      "preview": "44.61.5 (2026-09-03) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.11 (main) ( #45676 ) ( 894a4a6 ) Build System deps: update dependency markdown-it to v14.3.1 (main) ( #45675 ) ( af68f37 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.0.0-beta.23",
@@ -1757,14 +1757,6 @@
       "preview": "The RubyGems guides at guides.rubygems.org are read by more than humans these days. AI agents fetch them to answer questions about building, publishing, and installing gems. Evil Martians’ Ruby/Rails LLM discoverability scorecard asks how easily an agent can find and read Ruby documentation, and the guides had no good answer. There was no machine readable index, and no way to get a page without its navigation and markup. This week we merged three changes that close both gaps. The first change adds sitemap.xml and robots.txt ( rubygems/guides#523 ), giving crawlers a complete map of the site. T",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "0.12.2",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.2",
-      "published": "2026-08-05T19:22:56Z",
-      "preview": "Release Notes Released on 2026-08-05. Python Add CPython 3.15.0rc1 ( #20948 ) Add CPython 3.14.7 ( #20971 ) Enhancements Ensure diagnostic hints end with a newline to prevent malformed terminal output ( #20959 ) Preview features Audit one or all installed tools with uv tool audit ( #20921 ) Report physically reclaimed disk space during cache cleanup with the cache-physical-space preview feature ( #20925 ) Configuration Add UV_RUN_RLIMIT_NOFILE to set the open-file limit for commands launched by uv run ( #20926 ) Performance Speed up uv.lock parsing for wheel entries ( #20881 ) Speed up uv.lock",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
