@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-04T14:27:33Z",
-  "cutoff": "2026-08-05T14:27:27Z",
+  "generated": "2026-09-04T15:27:51Z",
+  "cutoff": "2026-08-05T15:27:45Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.64.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.1",
+      "published": "2026-09-04T14:58:37Z",
+      "preview": "44.64.1 (2026-09-04) Bug Fixes deps: promote tar to a prod dependency ( #45699 ) ( 5ee51fd ), closes #40250 #45697",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 12.3.3",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.3",
@@ -197,14 +205,6 @@
       "preview": "Account for differences in names of the binaries in the snapd FIPS build Add code to calculate canonical subject name hash Add commands for debugging or accessing snap mount namespaces Add helpers for listing and iterating device mediation groups Add package ebpf with helpers wrapping eBPF exposed objects with dependency on github.com/cilium/ebpf Add secondary prerequisites task that acts as the synchronization point, which ensures that a snap's prerequisites are available before it's installed Add support for shell conditional syntax in envs Added /usr/share/{man,help,info} to system-packages",
       "source": "Snapd releases",
       "category": "System"
-    },
-    {
-      "title": "44.61.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.2",
-      "published": "2026-09-03T13:25:09Z",
-      "preview": "44.61.2 (2026-09-03) Bug Fixes gerrit: resolve relative submodule URLs for nested project paths ( #44667 ) ( 40fce9a ) manager/flux: strip templates from resource files ( #43198 ) ( 029663d ) manager: Handle variables with default values in registry aliases ( #36293 ) ( b22f580 ) Documentation clarify prCreation=not-pending fallback and no-check caveat ( #44889 ) ( c5f50dd ) document GitLab auth for private Go modules ( #44371 ) ( 3228cc7 ), closes #37624 Miscellaneous Chores deps: update dependency lint-staged to v17.4.1 (main) ( #45664 ) ( ff36228 ) Code Refactoring linters: enable oxlint ru",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20260903t123900-all",
