@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-05T02:34:13Z",
-  "cutoff": "2026-08-06T02:34:10Z",
+  "generated": "2026-09-05T03:30:50Z",
+  "cutoff": "2026-08-06T03:30:46Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.65.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.2",
+      "published": "2026-09-05T02:50:44Z",
+      "preview": "44.65.2 (2026-09-05) Build System deps: update dependency @renovatebot/detect-tools to v4.0.13 (main) ( #45718 ) ( b3977ea )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.65.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.1",
@@ -211,14 +219,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.62.1",
       "published": "2026-09-04T10:29:25Z",
       "preview": "44.62.1 (2026-09-04) Bug Fixes bump-versions: collect bumpVersions from all upgrades, not just upgrades[0] ( #44809 ) ( e10ef79 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.62.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.62.0",
-      "published": "2026-09-04T09:56:44Z",
-      "preview": "44.62.0 (2026-09-04) Features replacements: add replacement for OpenSSF Scorecard Docker images ( #45597 ) ( fe9ce38 ), closes #45568 Tests bundler: replace file snapshots with explicit assertions ( #45657 ) ( 5a9c085 ) manager: replace file snapshots with explicit assertions ( #45656 ) ( 2fc46bd ) npm: replace file snapshots with explicit assertions ( #45658 ) ( f4fa861 ) Validate minimumReleaseAge is ignored for security updates ( #44272 ) ( 09ff8d2 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
