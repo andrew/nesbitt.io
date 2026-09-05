@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-05T11:23:03Z",
-  "cutoff": "2026-08-06T11:23:00Z",
+  "generated": "2026-09-05T12:33:47Z",
+  "cutoff": "2026-08-06T12:33:42Z",
   "feed_count": 83,
-  "item_count": 219,
+  "item_count": 218,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.12.0.4",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.4",
+      "published": "2026-09-05T12:17:09Z",
+      "preview": "Insert 7.12.0.4 into main on 09/05/2026 12:17:09",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "44.65.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.5",
+      "published": "2026-09-05T12:04:41Z",
+      "preview": "44.65.5 (2026-09-05) Build System deps: update dependency @renovatebot/pep440 to v5.0.1 (main) ( #45689 ) ( 2b4f433 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.65.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.4",
+      "published": "2026-09-05T11:47:09Z",
+      "preview": "44.65.4 (2026-09-05) Build System deps: update dependency @renovatebot/pgp to v1.3.18 (main) ( #45727 ) ( f4c9195 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.65.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.3",
@@ -227,22 +251,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.0",
       "published": "2026-09-04T13:02:13Z",
       "preview": "44.64.0 (2026-09-04) Features preset: @octokit group preset ( #45643 ) ( 10c5232 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.63.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.63.0",
-      "published": "2026-09-04T12:46:09Z",
-      "preview": "44.63.0 (2026-09-04) Features datasource: add APK datasource support ( #40250 ) ( 795d083 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.62.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.62.2",
-      "published": "2026-09-04T12:14:56Z",
-      "preview": "44.62.2 (2026-09-04) Bug Fixes config/validation: allow only capturing currentDigest in Custom Managers ( #45671 ) ( 8abbd14 ), closes #45665 datasource: use release-level registryUrl in postprocessRelease ( #45096 ) ( 7f71c26 ) manager/mix: run mix commands from the lock file's directory ( #44971 ) ( 69bc2dd ) manager/pep621: support array form of tool.uv.sources ( #44970 ) ( 9d10700 ) presets: fix javaLTSVersions not preserving partial semver for mise Java versions ( #44899 ) ( 5f5e58b ) versioning/nuget: bare exact version bypasses ignoreUnstable ( #45087 ) ( 4db8635 ) Tests core: replace f",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1711,14 +1719,6 @@
       "category": "System"
     },
     {
-      "title": "7.11.0.6",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.6",
-      "published": "2026-08-10T12:39:19Z",
-      "preview": "Insert 7.11.0.6 into main on 08/10/2026 12:39:19",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
       "title": "2.9.0",
       "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0",
       "published": "2026-08-10T08:27:37Z",
@@ -1765,14 +1765,6 @@
       "preview": "The Gradle team is excited to announce Gradle 9.7.0. Here are the highlights of this release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Anton Dubrouski , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 , Qin Mi , Ravi , sk-reddy17 , Suvrat Acharya , Yongshun Ye . Upgrade instructions Switch your build to use Gradle 9.7.0 b",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "20260806t120500-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260806t120500-all",
-      "published": "2026-08-06T12:05:15Z",
-      "preview": "Deployment at 2026-08-06T12:05:00.025851Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     }
   ]
 }
