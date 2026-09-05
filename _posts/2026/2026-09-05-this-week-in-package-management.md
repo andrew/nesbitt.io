@@ -8,7 +8,7 @@ tags:
   - weekly
 ---
 
-Week sixteen of the roundup, built from the [package manager OPML feed collection](https://github.com/ecosyste-ms/package-managers-opml) and whatever I've posted or boosted on [Mastodon](https://mastodon.social/@andrewnez). The OPML gained Terraform, OpenTofu, Elm and PSResourceGet release feeds this week.
+Week sixteen of the roundup, built from the [package manager OPML feed collection](https://github.com/ecosyste-ms/package-managers-opml) and whatever I've posted or boosted on [Mastodon](https://mastodon.social/@andrewnez). I added Terraform, OpenTofu, Elm and PSResourceGet release feeds to the OPML this week.
 
 ## Releases
 
@@ -22,22 +22,24 @@ Week sixteen of the roundup, built from the [package manager OPML feed collectio
 
 [zizmor 1.30](https://docs.zizmor.sh/release-notes/#1300), the GitHub Actions workflow auditor, adds a `self-repository` audit and expands pre-commit support.
 
+[Renovate 44.59.0](https://github.com/renovatebot/renovate/releases/tag/44.59.0) adds a manager for Microsoft's Agent Package Manager, and [44.60.0](https://github.com/renovatebot/renovate/releases/tag/44.60.0) lets security-update PRs be rate-limited and stops the Go proxy datasource caching transient errors, a long-standing cause of flapping Go update PRs.
+
 The Maven 3.8.x branch has [reached end of life](https://github.com/apache/maven/releases/tag/archive%2Fmaven-3.8.x); the final state is archived under a tag and the branch removed.
 
 Also out:
 
-- [Homebrew 6.0.21](https://github.com/Homebrew/brew/releases/tag/6.0.21)
+- [Homebrew 6.0.22](https://github.com/Homebrew/brew/releases/tag/6.0.22)
 - [snapd 2.77.1](https://github.com/canonical/snapd/releases/tag/2.77.1)
 - [RubyGems and Bundler 4.0.20](https://blog.rubygems.org/2026/09/02/4.0.20-released.html)
-- [Bun 1.4.1](https://github.com/oven-sh/bun/releases/tag/bun-v1.4.1)
+- [Bun 1.4.2](https://github.com/oven-sh/bun/releases/tag/bun-v1.4.2)
 - [Verdaccio 6.10.2](https://github.com/verdaccio/verdaccio/releases/tag/v6.10.2)
 - [Go 1.27.1 and 1.26.8](https://go.dev/doc/devel/release#go1.27.1)
 - [Rust 1.98.1](https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/)
-- [uv 0.12.9](https://github.com/astral-sh/uv/releases/tag/0.12.9)
+- [uv 0.12.10](https://github.com/astral-sh/uv/releases/tag/0.12.10)
 - [pipx 1.17.2](https://github.com/pypa/pipx/releases/tag/1.17.2)
+- [conda 26.7.2](https://github.com/conda/conda/releases/tag/26.7.2)
 - [Pixi 0.79.0](https://github.com/prefix-dev/pixi/releases/tag/v0.79.0)
 - [mise 2026.9.1](https://github.com/jdx/mise/releases/tag/v2026.9.1)
-- [Renovate 44.62.0](https://github.com/renovatebot/renovate/releases/tag/44.62.0)
 - [Dependabot Core 0.394.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.394.0)
 - [Docker Engine 29.8.0](https://github.com/moby/moby/releases/tag/docker-v29.8.0)
 - [Terraform 1.16.1](https://github.com/hashicorp/terraform/releases/tag/v1.16.1)
@@ -65,6 +67,10 @@ Also out:
 
 [The Software Supply Chain as a Market for Lemons: A Multivocal Review of Trust Signal Collapse](https://arxiv.org/abs/2608.20678) (Paramitha et al., arXiv) reviews 252 web sources and 870 Reddit threads on how practitioners pick dependencies: the cheap signals they rely on (stars, download counts, contributor activity) are now cheaper to fake than to earn, and the authors recommend costly signals such as cryptographic attestation as mandatory defaults.
 
+[A Multi-Month Study of Git Commit Signing](https://arxiv.org/abs/2608.29283) (Shittu et al., arXiv): 22 CS students configured commit signing independently, used it across four coursework projects and a second device, then examined a repository seeded with anomalous commits; nearly all signed every commit but over a quarter missed the anomalies.
+
+[AgOSS: A Dataset and Multi-Layer Characterization of Open-Source Agricultural Software](https://arxiv.org/abs/2609.02591) (Dudhaiya et al., arXiv) applies OpenSSF Scorecard, governance metrics, SBOM dependency analysis and KEV matching to 66 agricultural OSS repositories and non-agricultural controls; the agricultural projects score lower on raw Scorecard results but the gap disappears once project size and maturity are accounted for.
+
 ## Elsewhere
 
 NYU Tandon has [launched](https://engineering.nyu.edu/news/nyu-tandon-launches-initiative-close-critical-gap-open-source-security-and-train-students-who) the NYU Software Supply Chain Security Operations Center, led by Justin Cappos, embedding master's students in open source projects for year-long security placements; the first cohort of 8-10 starts January 2027 with support from Google and DTCC.
@@ -77,6 +83,8 @@ NYU Tandon has [launched](https://engineering.nyu.edu/news/nyu-tandon-launches-i
 
 [Tracking Trends in Open Source AI Policy](https://sunnydeveloper.com/tracking-trends-in-open-source-ai-policy/) (Emma Irwin) applies the CHAOSS AI Alignment working group's use-policy-specificity metric to 39 open source project AI policies: 25 address code contributions, none address environmental impact, infrastructure strain or notetaker bots.
 
+GitHub added a [star history REST endpoint](https://github.blog/changelog/2026-09-04-new-api-endpoint-provides-privacy-safe-star-history-data) that returns timestamped aggregate star counts for a repository without listing the accounts that starred it.
+
 The Cargo team put out a [call for testing](https://github.com/rust-lang/cargo/issues/14136#issuecomment-5519248462) for `-Zchecksum-freshness`, which detects the need to rebuild from file content checksums, replacing the mtime check. The plan is to stabilise it as `build.fingerprint = "content"` in `.cargo/config.toml`.
 
 CERN is [migrating its 2,200 accelerator-control machines](https://www.phoronix.com/news/CERN-Goes-Debian-Leaving-RHEL) from RHEL to Debian 13 by the end of 2026. The announcement calls the `-march=x86-64-v2` compiler default forced obsolescence for older hardware and lists gaps in Debian's standard tooling for automated package building and publishing.
@@ -87,6 +95,30 @@ FOSDEM 2027 [will be held](https://fosdem.org/2027/) on 30-31 January.
 
 ## git-pkgs
 
-I tagged [forge v0.10.0](https://github.com/git-pkgs/forge/releases/tag/v0.10.0), [manifests v0.11.0](https://github.com/git-pkgs/manifests/releases/tag/v0.11.0) and [purl v0.1.20](https://github.com/git-pkgs/purl/releases/tag/v0.1.20).
+I tagged 23 repos this week:
+
+- [git-pkgs v0.20.0](https://github.com/git-pkgs/git-pkgs/releases/tag/v0.20.0)
+- [archives v0.7.0](https://github.com/git-pkgs/archives/releases/tag/v0.7.0)
+- [artifacts v0.2.1](https://github.com/git-pkgs/artifacts/releases/tag/v0.2.1)
+- [brief v0.13.0](https://github.com/git-pkgs/brief/releases/tag/v0.13.0)
+- [capcheck v0.1.4](https://github.com/git-pkgs/capcheck/releases/tag/v0.1.4)
+- [changelog v0.2.1](https://github.com/git-pkgs/changelog/releases/tag/v0.2.1)
+- [clone v0.7.3](https://github.com/git-pkgs/clone/releases/tag/v0.7.3)
+- [dependents v0.2.0](https://github.com/git-pkgs/dependents/releases/tag/v0.2.0)
+- [distill v0.1.2](https://github.com/git-pkgs/distill/releases/tag/v0.1.2)
+- [enrichment v0.7.1](https://github.com/git-pkgs/enrichment/releases/tag/v0.7.1)
+- [forge v0.10.0](https://github.com/git-pkgs/forge/releases/tag/v0.10.0)
+- [licenses v0.7.0](https://github.com/git-pkgs/licenses/releases/tag/v0.7.0)
+- [magic v0.3.1](https://github.com/git-pkgs/magic/releases/tag/v0.3.1)
+- [manifests v0.12.0](https://github.com/git-pkgs/manifests/releases/tag/v0.12.0)
+- [outline v0.2.2](https://github.com/git-pkgs/outline/releases/tag/v0.2.2)
+- [pin v0.2.1](https://github.com/git-pkgs/pin/releases/tag/v0.2.1)
+- [provides v0.2.1](https://github.com/git-pkgs/provides/releases/tag/v0.2.1)
+- [proxy v0.8.1](https://github.com/git-pkgs/proxy/releases/tag/v0.8.1)
+- [purl v0.1.20](https://github.com/git-pkgs/purl/releases/tag/v0.1.20)
+- [registries v0.9.1](https://github.com/git-pkgs/registries/releases/tag/v0.9.1)
+- [sigstore v0.2.1](https://github.com/git-pkgs/sigstore/releases/tag/v0.2.1)
+- [vers v0.7.0](https://github.com/git-pkgs/vers/releases/tag/v0.7.0)
+- [vulns v0.2.3](https://github.com/git-pkgs/vulns/releases/tag/v0.2.3)
 
 Send links for next week to [@andrewnez@mastodon.social](https://mastodon.social/@andrewnez).
