@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-05T15:23:44Z",
-  "cutoff": "2026-08-06T15:23:41Z",
+  "generated": "2026-09-05T17:22:15Z",
+  "cutoff": "2026-08-06T17:22:10Z",
   "feed_count": 83,
-  "item_count": 216,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -1741,14 +1741,6 @@
       "preview": "Release Notes Released on 2026-08-07. Python Add CPython 3.13.15 ( #20997 ) Preview features Add --output-format to select automatic, human-readable, or raw-byte output for uv cache size ( #20992 ) Preserve JSON output from uv workspace metadata --quiet while suppressing diagnostics ( #20991 ) Reduce memory usage for large workspaces by streaming uv workspace metadata JSON output ( #20990 ) Performance Reduce Linux startup latency by initializing the workspace cache before spawning another thread ( #20989 ) Reuse compiled workspace exclusion patterns during workspace discovery ( #20988 ) Speed",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "Windows Package Manager 1.30.90-preview",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.90-preview",
-      "published": "2026-08-06T16:55:21Z",
-      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Updated NUnit to v4 Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Bubble up child process errors in IndexCreationTool by Tom Plant (@pl4nty) in #6261 Bump brace-expansion and @vscode/vsce in /tools/WinG",
-      "source": "winget releases",
-      "category": "System"
     }
   ]
 }
