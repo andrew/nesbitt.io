@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [How much should you trust your OSS data?](https://nesbitt.io/2026/09/04/how-much-should-you-trust-your-oss-data.html)
 - [Git Submodules as a Package Manager](https://nesbitt.io/2026/09/01/git-submodules-as-a-package-manager.html)
 - [This Week in Package Management: 29 August 2026](https://nesbitt.io/2026/08/29/this-week-in-package-management.html)
 - [Now Hiring: Senior Open Source Maintainer](https://nesbitt.io/2026/08/28/now-hiring-senior-open-source-maintainer.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Issues in the Repo](https://nesbitt.io/2026/08/20/issues-in-the-repo.html)
 - [Two-Factor Authentication Across Package Registries](https://nesbitt.io/2026/08/18/two-factor-authentication-across-package-registries.html)
 - [This Week in Package Management: 15 August 2026](https://nesbitt.io/2026/08/15/this-week-in-package-management.html)
-- [How This Blog Is Built](https://nesbitt.io/2026/08/14/how-this-blog-is-built.html)
 <!-- POSTS:END -->
