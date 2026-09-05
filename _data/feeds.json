@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-04T23:23:21Z",
-  "cutoff": "2026-08-05T23:23:16Z",
+  "generated": "2026-09-05T00:59:16Z",
+  "cutoff": "2026-08-06T00:59:12Z",
   "feed_count": 83,
-  "item_count": 218,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -1757,14 +1757,6 @@
       "preview": "29.7.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.7.2 milestone moby/moby, 29.7.2 milestone Bug fixes and enhancements Fix docker service create and docker service update panicking when the same environment variable is passed more than once. docker/cli#7145 Fix a regression introduced in Docker Engine 29.7.0 that caused image pulls to reject images containing absolute hardlink targets, as produced by some image builders. moby/moby#53305 Fix a regression introduced in Docker Engine 29.7.0 that could cause image pulls and",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "Making RubyGems Guides friendly to humans and AI",
-      "url": "https://blog.rubygems.org/2026/08/06/making-rubygems-guides-ai-friendly.html",
-      "published": "2026-08-06T00:00:00Z",
-      "preview": "The RubyGems guides at guides.rubygems.org are read by more than humans these days. AI agents fetch them to answer questions about building, publishing, and installing gems. Evil Martians’ Ruby/Rails LLM discoverability scorecard asks how easily an agent can find and read Ruby documentation, and the guides had no good answer. There was no machine readable index, and no way to get a page without its navigation and markup. This week we merged three changes that close both gaps. The first change adds sitemap.xml and robots.txt ( rubygems/guides#523 ), giving crawlers a complete map of the site. T",
-      "source": "RubyGems Blog",
-      "category": "Ruby"
     }
   ]
 }
