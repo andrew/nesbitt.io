@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-05T12:33:47Z",
-  "cutoff": "2026-08-06T12:33:42Z",
+  "generated": "2026-09-05T15:23:44Z",
+  "cutoff": "2026-08-06T15:23:41Z",
   "feed_count": 83,
-  "item_count": 218,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -1749,22 +1749,6 @@
       "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 Nothing yet. Bug Fixes Updated NUnit to v4 Fixed a crash ( 0x8000ffff ) when using --disable-interactivity with the Resume experimental feature enabled during install operations. What's Changed Bubble up child process errors in IndexCreationTool by Tom Plant (@pl4nty) in #6261 Bump brace-expansion and @vscode/vsce in /tools/WinG",
       "source": "winget releases",
       "category": "System"
-    },
-    {
-      "title": "v2.9.5",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.5",
-      "published": "2026-08-06T15:05:43Z",
-      "preview": "2.9.5 / 2026.08.06 feat(add): --unscoped flag to alias packages by their unscoped name ( #36319 ) feat(task): add --members flag to run tasks in workspace members only ( #35748 ) feat: add Blob/Body textStream() ( #35616 ) feat: add experimental QuickJS backend ( #36194 ) fix(bundle): avoid esbuild protocol deadlock ( #36427 ) fix(bundle): respect runtime file permissions ( #36107 ) fix(cjs): use loader sources for recursive analysis ( #36111 ) fix(cli): escape control characters in external metadata ( #36198 ) fix(core): don't resolve internal module imports with the user's import map ( #3630",
-      "source": "Deno releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "9.7.0",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.0",
-      "published": "2026-08-06T14:57:58Z",
-      "preview": "The Gradle team is excited to announce Gradle 9.7.0. Here are the highlights of this release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Anton Dubrouski , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 , Qin Mi , Ravi , sk-reddy17 , Suvrat Acharya , Yongshun Ye . Upgrade instructions Switch your build to use Gradle 9.7.0 b",
-      "source": "Gradle releases",
-      "category": "Maven"
     }
   ]
 }
