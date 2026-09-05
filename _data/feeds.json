@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-05T08:09:55Z",
-  "cutoff": "2026-08-06T08:09:50Z",
+  "generated": "2026-09-05T09:25:52Z",
+  "cutoff": "2026-08-06T09:25:48Z",
   "feed_count": 83,
-  "item_count": 219,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.4.3",
+      "url": "https://github.com/python-poetry/poetry/releases/tag/2.4.3",
+      "published": "2026-09-05T08:58:26Z",
+      "preview": "Fixed Fix an issue where Poetry could not extract sdists on Python 3.10.0-3.10.12 and 3.11.0-3.11.4 ( #11037 ).",
+      "source": "Poetry releases",
+      "category": "Python"
+    },
     {
       "title": "6.0.22",
       "url": "https://github.com/Homebrew/brew/releases/tag/6.0.22",
