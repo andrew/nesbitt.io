@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-05T00:59:16Z",
-  "cutoff": "2026-08-06T00:59:12Z",
+  "generated": "2026-09-05T02:34:13Z",
+  "cutoff": "2026-08-06T02:34:10Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.65.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.1",
+      "published": "2026-09-05T01:53:58Z",
+      "preview": "44.65.1 (2026-09-05) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.7 (main) ( #45717 ) ( 074020e ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.10 (main) ( #45714 ) ( cee2d1f ) deps: update dependency uv to v0.12.10 (main) ( #45715 ) ( 60e655e ) Build System deps: update dependency zod to v4.5.2 (main) ( #45716 ) ( 623793d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.12.10",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.10",
@@ -229,14 +237,6 @@
       "preview": "Patch Changes pnpm audit --fix update no longer aborts when a vulnerable package has no safe version inside its declared range #14508 . The run updates every package it can and lists the rest as remaining. pnpm install no longer reruns root lifecycle scripts when the global virtual store contains an unfinished-build marker in a package slot that the current lockfile does not use pnpm/pnpm#14485 . Sped up installs that have no lockfile. pnpm now links packages whose dependency subtree has no peer dependencies into the virtual store while resolution is still running. pnpm run and pnpm exec now s",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.61.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.61.6",
-      "published": "2026-09-03T23:50:27Z",
-      "preview": "44.61.6 (2026-09-03) Build System deps: update dependency p-map to v7.0.7 (main) ( #45678 ) ( a01be61 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v29.8.0",
