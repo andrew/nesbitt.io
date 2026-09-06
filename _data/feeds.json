@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-06T09:26:15Z",
-  "cutoff": "2026-08-07T09:26:11Z",
+  "generated": "2026-09-06T14:24:03Z",
+  "cutoff": "2026-08-07T14:23:59Z",
   "feed_count": 83,
   "item_count": 215,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-09-05-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-09-05-a",
+      "published": "2026-09-06T13:25:36Z",
+      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-09-05-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-04-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-04-a",
@@ -1533,14 +1541,6 @@
       "preview": "Helm v3.21.4 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix(engine): prevent Files.Lines panic on empty file (backport to v3)- #32303 by @mahesh-sadupalli fix(provenance): migrate to ProtonMail/go-crypto to resolve GO-2026-5932- #32463 by @karan-vk ",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-12-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-12-a",
-      "published": "2026-08-14T08:39:14Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-12-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "Windows Package Manager 1.30.100-preview",
