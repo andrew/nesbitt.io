@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-06T07:26:53Z",
-  "cutoff": "2026-08-07T07:26:49Z",
+  "generated": "2026-09-06T09:26:15Z",
+  "cutoff": "2026-08-07T09:26:11Z",
   "feed_count": 83,
   "item_count": 215,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-04-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-04-a",
+      "published": "2026-09-06T08:46:09Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-04-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "v6.10.3",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.3",
@@ -1597,14 +1605,6 @@
       "preview": "Security This release addresses CVE-2026-57231, where a malicious image using malformed Env entries could cause host environment variables to leak into containers run based on the image, including the ability to use the * glob operator to leak large numbers of environment variables without knowing their exact names ( GHSA-4hq8-gpf5-8p68 ). This release addresses CVE-2026-19730 where the podman quadlet install --replace command did not truncate the file being replaced, meaning replacing a longer file with a shorter one would result in content from the original file incorrectly being retained. B",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-11-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-08-11-a",
-      "published": "2026-08-12T22:30:38Z",
-      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-08-11-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "2.35.2",
