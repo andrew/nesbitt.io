@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-07T21:24:47Z",
-  "cutoff": "2026-08-08T21:24:44Z",
+  "generated": "2026-09-07T22:24:52Z",
+  "cutoff": "2026-08-08T22:24:48Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.69.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.6",
+      "published": "2026-09-07T21:41:40Z",
+      "preview": "44.69.6 (2026-09-07) Build System deps: update opentelemetry-js-contrib monorepo (main) ( #45761 ) ( cc79d30 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.9.2",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.2",
@@ -132,14 +140,6 @@
       "published": "2026-09-07T13:21:16Z",
       "preview": "What's Changed fix: handle nil hash results from unavailable Python package indexes by @sachin-sandhu in #16078 Skip unsupported Maven wrappers instead of failing the Maven job by @kbukum1 in #16090 Migrate test runner to turbo_tests2 by @jeffwidman in #15991 Bump the dev-dependencies group across 2 directories with 5 updates by @dependabot [bot] in #16085 Bump the prod-dependencies group across 2 directories with 13 updates by @dependabot [bot] in #16072 Bump gradle in /gradle by @dependabot [bot] in #16098 Bump the \"uv-ecosystem\" group with 2 updates across multiple ecosystems by @dependabot",
       "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.68.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.68.0",
-      "published": "2026-09-07T13:15:25Z",
-      "preview": "44.68.0 (2026-09-07) Features datasource/apk: default to apk versioning rather than loose ( #45694 ) ( b1cce8a ) Bug Fixes deno: only collect workspace members when workspaces are declared ( #45394 ) ( 8a926e8 ) manager/dockerfile: don't relabel the syntax dep as final ( #45690 ) ( 569dff1 )",
-      "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
