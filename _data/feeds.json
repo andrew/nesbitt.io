@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-07T13:29:51Z",
-  "cutoff": "2026-08-08T13:29:47Z",
+  "generated": "2026-09-07T14:29:12Z",
+  "cutoff": "2026-08-08T14:29:07Z",
   "feed_count": 83,
-  "item_count": 216,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.68.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.68.3",
+      "published": "2026-09-07T14:16:30Z",
+      "preview": "44.68.3 (2026-09-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.9 (main) ( #45753 ) ( 5538ed1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.68.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.68.2",
+      "published": "2026-09-07T13:59:34Z",
+      "preview": "44.68.2 (2026-09-07) Bug Fixes datasource/aws-machine-image: return all AMI releases for minimumReleaseAge filtering ( #43749 ) ( 325dc64 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v0.80.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.80.0",
+      "published": "2026-09-07T13:38:39Z",
+      "preview": "[0.80.0] - 2026-09-07 ✨ Highlights Pixi now has experimental support for conda-script . Conda scripts let you write scripts in any language, with dependencies and instructions for running them included in the same file. Pixi solves the environment, caches it, and runs the script without requiring a separate workspace. For example, an R script can now be self-contained: # /// conda-script # channels = [\"https://prefix.dev/conda-forge\"] # entrypoint = \"Rscript ${SCRIPT}\" # # [dependencies] # r-base = \"*\" # r-jsonlite = \"*\" # /// end-conda-script library( jsonlite ) writeLines(toJSON( list ( hell",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.68.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.68.1",
+      "published": "2026-09-07T13:32:51Z",
+      "preview": "44.68.1 (2026-09-07) Bug Fixes datasource: isolate release lookups by registry configuration ( #45738 ) ( 3e15fc2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v0.395.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.395.0",
@@ -87,6 +119,14 @@
       "category": "Infrastructure"
     },
     {
+      "title": "Rust debugging survey 2026 results",
+      "url": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
+      "published": "2026-09-07T00:00:00Z",
+      "preview": "One of the biggest challenges Rust developers report in our annual surveys is a subpar debugging experience. So, back in February, we ran our first Rust Debugging Survey , in the hopes of identifying how Rust developers are using debuggers and what problems they are facing when doing so. We received over 2,300 responses, and we'd like to thank everyone who took the time to participate in the survey! In this report, we'll go over some of the results of the survey. If you'd like, you can also check out the complete results of the survey . If you'd like to skip ahead to any particular section, yo",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
       "title": "pnpm 11.26",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.26.0",
       "published": "2026-09-06T23:50:11Z",
@@ -135,22 +175,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.65.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.4",
-      "published": "2026-09-05T11:47:09Z",
-      "preview": "44.65.4 (2026-09-05) Build System deps: update dependency @renovatebot/pgp to v1.3.18 (main) ( #45727 ) ( f4c9195 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.65.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.3",
-      "published": "2026-09-05T10:54:45Z",
-      "preview": "44.65.3 (2026-09-05) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.8 (main) ( #45726 ) ( 295d2e3 ) Miscellaneous Chores deps: update dependency memfs to v4.68.2 (main) ( #45725 ) ( 0a30d5b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "2.4.3",
       "url": "https://github.com/python-poetry/poetry/releases/tag/2.4.3",
       "published": "2026-09-05T08:58:26Z",
@@ -173,14 +197,6 @@
       "preview": "To install Bun v1.4.2 curl -fsSL https://bun.sh/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.sh/install.ps1|iex \" To upgrade to Bun v1.4.2: bun upgrade Read Bun v1.4.2's release notes on Bun's blog Thanks to 3 contributors! @dylan-conway @jarred-sumner @robobun",
       "source": "Bun releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.65.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.2",
-      "published": "2026-09-05T02:50:44Z",
-      "preview": "44.65.2 (2026-09-05) Build System deps: update dependency @renovatebot/detect-tools to v4.0.13 (main) ( #45718 ) ( b3977ea )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.12.10",
@@ -1445,14 +1461,6 @@
       "preview": "Deployment at 2026-08-18T11:44:38.196169Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "pixi-build-rattler-build-v0.4.6",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.4.6",
-      "published": "2026-08-18T11:27:37Z",
-      "preview": "chore: bump backend versions ( #6845 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-ros-v0.7.3",
