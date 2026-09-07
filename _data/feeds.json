@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-07T01:06:13Z",
-  "cutoff": "2026-08-08T01:06:09Z",
+  "generated": "2026-09-07T07:38:59Z",
+  "cutoff": "2026-08-08T07:38:55Z",
   "feed_count": 83,
   "item_count": 214,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.66.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.66.1",
+      "published": "2026-09-07T07:34:31Z",
+      "preview": "44.66.1 (2026-09-07) Miscellaneous Chores deps: update dependency pnpm to v11.25.0 (main) ( #45742 ) ( 8eb5da0 ) Build System deps: update dependency zod to v4.5.4 (main) ( #45741 ) ( ca1d66f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.66.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.66.0",
+      "published": "2026-09-07T07:15:08Z",
+      "preview": "44.66.0 (2026-09-07) Features presets: remove duplicate octokit preset ( #45708 ) ( 1bc6686 ) Build System deps: update dependency ignore to v7.0.7 (main) ( #45733 ) ( 1ff45d7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 11.26",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.26.0",
@@ -239,14 +255,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "44.64.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.1",
-      "published": "2026-09-04T14:58:37Z",
-      "preview": "44.64.1 (2026-09-04) Bug Fixes deps: promote tar to a prod dependency ( #45699 ) ( 5ee51fd ), closes #40250 #45697",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "pnpm 12.3.3",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.3",
       "published": "2026-09-04T14:23:32Z",
@@ -269,14 +277,6 @@
       "preview": "Bug fixes Allow individual sharded-repodata package shards up to 64 MiB after decompression. ( #16575 ) Contributors @jezdez Full Changelog : 26.7.1...26.7.2",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.64.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.0",
-      "published": "2026-09-04T13:02:13Z",
-      "preview": "44.64.0 (2026-09-04) Features preset: @octokit group preset ( #45643 ) ( 10c5232 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Bun v1.4.1",
