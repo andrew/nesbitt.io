@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-07T10:29:24Z",
-  "cutoff": "2026-08-08T10:29:20Z",
+  "generated": "2026-09-07T11:26:55Z",
+  "cutoff": "2026-08-08T11:26:51Z",
   "feed_count": 83,
   "item_count": 215,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.67.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.67.0",
+      "published": "2026-09-07T11:00:36Z",
+      "preview": "44.67.0 (2026-09-07) Features config: promote configValidationError to inherited config ( #45369 ) ( 8d9c7b1 ) data: automatic update of static data ( #45728 ) ( 1b53e4f ) Documentation add Renovate Config Debugger to community tools ( #45743 ) ( 599939d ) community-tools: remove duplicate trailing . ( #45746 ) ( 0e932f3 ) configuration-options: fix typo ( #45734 ) ( 374f8f3 ) datasource/apk: remove reference to renamed matcher ( #45704 ) ( 839b7b5 ) datasource/aws-eks-addon: re-add removed hostRules documentation ( #45745 ) ( 354dd99 ), closes #45586 Miscellaneous Chores deps: update dependen",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.78",
       "url": "https://github.com/canonical/snapd/releases/tag/2.78",
@@ -171,14 +179,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.3",
       "published": "2026-09-04T19:09:40Z",
       "preview": "44.64.3 (2026-09-04) Build System deps: update dependency @renovatebot/detect-tools to v4.0.12 (main) ( #45710 ) ( b380f44 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.64.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.64.2",
-      "published": "2026-09-04T18:51:06Z",
-      "preview": "44.64.2 (2026-09-04) Build System deps: update dependency zod to v4.5.1 (main) ( #45709 ) ( 5717d3e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
