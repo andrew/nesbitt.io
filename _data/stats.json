@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-05T08:29:45Z",
-  "total_posts": 206,
-  "total_words": 283870,
-  "reading_minutes": 1420,
-  "average_words": 1378,
+  "generated_at": "2026-09-07T15:49:25Z",
+  "total_posts": 207,
+  "total_words": 284992,
+  "reading_minutes": 1425,
+  "average_words": 1377,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "How much should you trust your OSS data?",
-    "url": "/2026/09/04/how-much-should-you-trust-your-oss-data.html",
-    "date": "2026-09-04"
+    "title": "This Week in Package Management: 5 September 2026",
+    "url": "/2026/09/05/this-week-in-package-management.html",
+    "date": "2026-09-05"
   },
   "years_active": 9.5,
   "posts_per_month": 1.8,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 166
+      "count": 167
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-09",
-      "count": 2
+      "count": 3
     },
     {
       "month": "2026-08",
@@ -125,12 +125,12 @@
     "wednesday": 23,
     "thursday": 37,
     "friday": 36,
-    "saturday": 33
+    "saturday": 34
   },
   "tags": [
     {
       "name": "package-managers",
-      "count": 140
+      "count": 141
     },
     {
       "name": "security",
@@ -174,7 +174,7 @@
     },
     {
       "name": "weekly",
-      "count": 15
+      "count": 16
     },
     {
       "name": "idea",
@@ -1022,6 +1022,15 @@
       ]
     },
     {
+      "url": "/2026/05/24/signing-is-for-the-bad-days.html",
+      "title": "Signing is for the bad days",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/06/04/gittuf-a-signed-log-for-git-refs.html",
+        "/2026/09/05/this-week-in-package-management.html"
+      ]
+    },
+    {
       "url": "/2026/07/17/plumbing-homebrew-into-the-vulnerability-ecosystem.html",
       "title": "Plumbing Homebrew into the vulnerability ecosystem",
       "inbound_count": 2,
@@ -1288,14 +1297,6 @@
       ]
     },
     {
-      "url": "/2026/05/24/signing-is-for-the-bad-days.html",
-      "title": "Signing is for the bad days",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/06/04/gittuf-a-signed-log-for-git-refs.html"
-      ]
-    },
-    {
       "url": "/2026/05/29/composer-dependency-policies.html",
       "title": "Composer's dependency policies",
       "inbound_count": 1,
@@ -1401,13 +1402,13 @@
     }
   ],
   "external_links": {
-    "total": 4637,
-    "unique": 3740,
+    "total": 4712,
+    "unique": 3812,
     "domains": [
       {
         "host": "github.com",
-        "count": 1365,
-        "posts": 150
+        "count": 1415,
+        "posts": 151
       },
       {
         "host": "en.wikipedia.org",
@@ -1421,13 +1422,13 @@
       },
       {
         "host": "arxiv.org",
-        "count": 51,
-        "posts": 31
+        "count": 54,
+        "posts": 32
       },
       {
         "host": "fosdem.org",
-        "count": 41,
-        "posts": 11
+        "count": 42,
+        "posts": 12
       },
       {
         "host": "peps.python.org",
@@ -1436,8 +1437,8 @@
       },
       {
         "host": "github.blog",
-        "count": 37,
-        "posts": 26
+        "count": 38,
+        "posts": 27
       },
       {
         "host": "chaoss.community",
@@ -1451,8 +1452,8 @@
       },
       {
         "host": "pnpm.io",
-        "count": 28,
-        "posts": 23
+        "count": 30,
+        "posts": 24
       },
       {
         "host": "docs.npmjs.com",
@@ -1461,8 +1462,8 @@
       },
       {
         "host": "go.dev",
-        "count": 25,
-        "posts": 23
+        "count": 26,
+        "posts": 24
       },
       {
         "host": "changelog.com",
@@ -1476,8 +1477,8 @@
       },
       {
         "host": "blog.rust-lang.org",
-        "count": 19,
-        "posts": 14
+        "count": 21,
+        "posts": 15
       },
       {
         "host": "doc.rust-lang.org",
@@ -1495,14 +1496,14 @@
         "posts": 3
       },
       {
+        "host": "blog.rubygems.org",
+        "count": 17,
+        "posts": 14
+      },
+      {
         "host": "opencollective.com",
         "count": 17,
         "posts": 5
-      },
-      {
-        "host": "blog.rubygems.org",
-        "count": 16,
-        "posts": 13
       },
       {
         "host": "blog.packagist.com",
@@ -1510,14 +1511,14 @@
         "posts": 13
       },
       {
+        "host": "opensourcesecurity.io",
+        "count": 15,
+        "posts": 16
+      },
+      {
         "host": "maven.apache.org",
         "count": 14,
         "posts": 11
-      },
-      {
-        "host": "opensourcesecurity.io",
-        "count": 14,
-        "posts": 15
       },
       {
         "host": "rubygems.org",
@@ -1662,7 +1663,12 @@
       {
         "host": "mastodon.social",
         "count": 8,
-        "posts": 41
+        "posts": 42
+      },
+      {
+        "host": "salsa.debian.org",
+        "count": 8,
+        "posts": 5
       },
       {
         "host": "sethmlarson.dev",
@@ -1710,11 +1716,6 @@
         "posts": 6
       },
       {
-        "host": "salsa.debian.org",
-        "count": 7,
-        "posts": 5
-      },
-      {
         "host": "www.sonatype.com",
         "count": 7,
         "posts": 7
@@ -1730,6 +1731,11 @@
         "posts": 5
       },
       {
+        "host": "blog.yossarian.net",
+        "count": 6,
+        "posts": 9
+      },
+      {
         "host": "bun.sh",
         "count": 6,
         "posts": 6
@@ -1738,6 +1744,11 @@
         "host": "deno.com",
         "count": 6,
         "posts": 6
+      },
+      {
+        "host": "docs.zizmor.sh",
+        "count": 6,
+        "posts": 10
       },
       {
         "host": "gist.github.com",
@@ -1820,11 +1831,6 @@
         "posts": 9
       },
       {
-        "host": "blog.yossarian.net",
-        "count": 5,
-        "posts": 8
-      },
-      {
         "host": "bun.com",
         "count": 5,
         "posts": 4
@@ -1840,14 +1846,14 @@
         "posts": 4
       },
       {
-        "host": "docs.zizmor.sh",
-        "count": 5,
-        "posts": 9
-      },
-      {
         "host": "doi.org",
         "count": 5,
         "posts": 3
+      },
+      {
+        "host": "fastwonderblog.com",
+        "count": 5,
+        "posts": 5
       },
       {
         "host": "formulae.brew.sh",
@@ -1898,6 +1904,11 @@
         "host": "www.ruby-lang.org",
         "count": 5,
         "posts": 3
+      },
+      {
+        "host": "anil.recoil.org",
+        "count": 4,
+        "posts": 4
       },
       {
         "host": "archive.fosdem.org",
@@ -1960,7 +1971,7 @@
         "posts": 1
       },
       {
-        "host": "fastwonderblog.com",
+        "host": "fzakaria.com",
         "count": 4,
         "posts": 4
       },
@@ -2021,11 +2032,6 @@
       },
       {
         "host": "24pullrequests.com",
-        "count": 3,
-        "posts": 3
-      },
-      {
-        "host": "anil.recoil.org",
         "count": 3,
         "posts": 3
       },
@@ -2115,17 +2121,7 @@
         "posts": 1
       },
       {
-        "host": "fzakaria.com",
-        "count": 3,
-        "posts": 3
-      },
-      {
         "host": "keepachangelog.com",
-        "count": 3,
-        "posts": 3
-      },
-      {
-        "host": "lists.debian.org",
         "count": 3,
         "posts": 3
       },
@@ -2590,6 +2586,11 @@
         "posts": 3
       },
       {
+        "host": "lists.debian.org",
+        "count": 2,
+        "posts": 2
+      },
+      {
         "host": "lobste.rs",
         "count": 2,
         "posts": 2
@@ -2765,6 +2766,11 @@
         "posts": 3
       },
       {
+        "host": "sunnydeveloper.com",
+        "count": 2,
+        "posts": 2
+      },
+      {
         "host": "taylorbrazelton.com",
         "count": 2,
         "posts": 1
@@ -2885,6 +2891,11 @@
         "posts": 2
       },
       {
+        "host": "www.phoronix.com",
+        "count": 2,
+        "posts": 2
+      },
+      {
         "host": "www.pythonpodcast.com",
         "count": 2,
         "posts": 1
@@ -2896,6 +2907,11 @@
       },
       {
         "host": "www.w3.org",
+        "count": 2,
+        "posts": 2
+      },
+      {
+        "host": "youtu.be",
         "count": 2,
         "posts": 2
       },
@@ -3751,6 +3767,11 @@
       },
       {
         "host": "engineering.grab.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "engineering.nyu.edu",
         "count": 1,
         "posts": 1
       },
@@ -5095,11 +5116,6 @@
         "posts": 2
       },
       {
-        "host": "sunnydeveloper.com",
-        "count": 1,
-        "posts": 1
-      },
-      {
         "host": "sunshowers.io",
         "count": 1,
         "posts": 1
@@ -5406,6 +5422,11 @@
       },
       {
         "host": "www.arfon.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "www.b-list.org",
         "count": 1,
         "posts": 1
       },
@@ -5805,11 +5826,6 @@
         "posts": 1
       },
       {
-        "host": "www.phoronix.com",
-        "count": 1,
-        "posts": 1
-      },
-      {
         "host": "www.pkgsrc.org",
         "count": 1,
         "posts": 1
@@ -6056,11 +6072,6 @@
       },
       {
         "host": "yossarian.net",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "youtu.be",
         "count": 1,
         "posts": 1
       },
