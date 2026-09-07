@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-06T17:22:27Z",
-  "cutoff": "2026-08-07T17:22:21Z",
+  "generated": "2026-09-07T01:06:13Z",
+  "cutoff": "2026-08-08T01:06:09Z",
   "feed_count": 83,
   "item_count": 214,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 11.26",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.26.0",
+      "published": "2026-09-06T23:50:11Z",
+      "preview": "Minor Changes Catalogs can now resolve workspace dependencies through the workspace: protocol. pnpm remove and pnpm update now accept --trust-lockfile , --no-trust-lockfile , --trust-policy , --trust-policy-exclude , and --trust-policy-ignore-after . pnpm remove checks the whole lockfile against the active policies unless --trust-lockfile is set. Added pnpm change check for CI validation of package versions against the versioning.epics bands and versioning.fixed groups in pnpm-workspace.yaml . Patch Changes Fetch and tarball errors and retry logs now hide URL credentials, query strings, and fr",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-09-05-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-09-05-a",
@@ -757,14 +765,6 @@
       "preview": "Fixed Fix an issue where Poetry installs an artifact that is not listed in the lockfile when the package source does not provide a hash for this artifact ( #11030 ). Fix a path traversal vulnerability when downloading files from a compromised URL and/or package source ( #11029 ). Fix a path traversal vulnerability in sdist extraction on Python 3.10.0-3.10.12 and 3.11.0-3.11.4 that could allow malicious tarball files to write files outside the target directory ( #11027 ).",
       "source": "Poetry releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 11.25",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.25.0",
-      "published": "2026-08-29T14:20:10Z",
-      "preview": "Minor Changes Added an opt-in proof of concept that lets installs reuse a dependency's build output across machines, by publishing and restoring signed, organization-scoped artifacts through pnpr instead of running the lifecycle scripts locally. Configure it with the new remoteSideEffectsCache setting. A workspace names the eligible organization and packages ; everything describing the act of signing — publish , keyId , builderId , trustedKeys , privateKey and the provenance fields — is refused in pnpm-workspace.yaml and read from the global config file or the environment instead. Added macOS ",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 12.1",
