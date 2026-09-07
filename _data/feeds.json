@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-07T17:24:58Z",
-  "cutoff": "2026-08-08T17:24:54Z",
+  "generated": "2026-09-07T18:31:46Z",
+  "cutoff": "2026-08-08T18:31:40Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.69.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.4",
+      "published": "2026-09-07T18:24:12Z",
+      "preview": "44.69.4 (2026-09-07) Bug Fixes manager/npm: pass --no-frozen-lockfile to pnpm lock file updates ( #44676 ) ( 6f0b6a5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-09-07T18:18:34Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.69.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.3",
@@ -107,14 +123,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.67.2",
       "published": "2026-09-07T12:39:47Z",
       "preview": "44.67.2 (2026-09-07) Bug Fixes datasource/docker: adjust tag caching for private registries ( #45348 ) ( 1afa293 ), closes #45249 #45249 #40734 manager/npm: prevent updates to unrelated Yarn v1 entries ( #45737 ) ( fcb52fe )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.67.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.67.1",
-      "published": "2026-09-07T11:54:01Z",
-      "preview": "44.67.1 (2026-09-07) Build System deps: update dependency ignore to v7.0.8 (main) ( #45751 ) ( 567f78c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -205,14 +213,6 @@
       "preview": "Release Notes Released on 2026-09-04. Enhancements Attempt to revoke short-lived PyPI trusted-publishing tokens after uv publish completes, including when publishing fails ( #21423 ) Preview features Omit exclude-newer-package settings for packages outside the resolution from uv.lock with the missing-exclude-newer-package-lock preview feature ( #21455 ) Show terminal dependency cycles in uv tree --invert output ( #21404 ) Performance Speed up locking large workspaces with conflicts by excluding unrelated extras and dependency groups from conflict simplification ( #21399 ) Speed up uv publish b",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-04T17:19:50Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "@verdaccio/ui-i18n@10.0.0-next-9.5",
