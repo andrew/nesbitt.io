@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-07T22:24:52Z",
-  "cutoff": "2026-08-08T22:24:48Z",
+  "generated": "2026-09-07T23:24:22Z",
+  "cutoff": "2026-08-08T23:24:19Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -23,20 +23,20 @@
   ],
   "items": [
     {
+      "title": "v2026.9.2: Packslip Backend, SSH Relay, and Reimagined Install Progress",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.2",
+      "published": "2026-09-07T22:30:20Z",
+      "preview": "This is a large release headlined by the new stable packslip: backend for installing tools from a vendor's own signed release manifest, a read-only GitHub SSH relay for remote onboarding, redesigned install progress for both terminals and CI logs, and a rebuilt dotfiles-tracking model for bootstrap. It also carries dozens of fixes across shims, tasks, brew, Go, npm, and the schema, plus two security fixes. Highlights The packslip: backend is now generally available: install tools directly from a project's cryptographically signed release manifest, with signer pinning, trusted stampers, host-re",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "44.69.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.6",
       "published": "2026-09-07T21:41:40Z",
       "preview": "44.69.6 (2026-09-07) Build System deps: update opentelemetry-js-contrib monorepo (main) ( #45761 ) ( cc79d30 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.9.2",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.2",
-      "published": "2026-09-07T20:31:01Z",
-      "preview": "(activate) add an explicit tool shims opt-out by @jdx in [#1292…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.9.2",
