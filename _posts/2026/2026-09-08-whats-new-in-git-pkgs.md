@@ -9,7 +9,9 @@ tags:
   - go
 ---
 
-Back in February I [wrote up the fourteen Go modules](/2026/02/19/go-modules-for-package-management-tooling) behind [git-pkgs](https://github.com/git-pkgs/git-pkgs), a git subcommand for exploring dependency history. The org now has around forty-five repositories: nine standalone tools, around thirty library modules, and the GitHub Actions and agent skills that wire them into CI and coding assistants. Several of the tools have had their own posts here already ([brief](/2026/04/21/brief), [proxy](/2026/05/11/proxy), [forge](/2026/03/13/forge), [actions](/2026/03/11/git-pkgs-actions)), so for those I'll cover what's changed since.
+I'm on holiday this week, so here's a listicle.
+
+Back in February I [wrote up the fourteen Go modules](/2026/02/19/go-modules-for-package-management-tooling) behind [git-pkgs](https://github.com/git-pkgs/git-pkgs), a git subcommand for exploring dependency history. The org now has around forty-five repositories: ten standalone tools, around thirty library modules, and the GitHub Actions and agent skills that wire them into CI and coding assistants. Several of the tools have had their own posts here already ([brief](/2026/04/21/brief), [proxy](/2026/05/11/proxy), [forge](/2026/03/13/forge), [actions](/2026/03/11/git-pkgs-actions)), so for those I'll cover what's changed since.
 
 ## Tools
 
@@ -54,9 +56,15 @@ Fails CI when your Go code or one of its dependencies gains access to a new priv
 
 ### [licenses](https://github.com/git-pkgs/licenses)
 
-A license scanner built on [ScanCode's rule corpus](https://github.com/aboutcode-org/scancode-toolkit), compiled into a single 22 MB Go binary. ScanCode is the reference implementation for license detection but it's a 507 MB Python install (351 MB of which is a pre-built Lucene-style index) that forks several worker processes each holding over a gigabyte of RSS, which makes it awkward to embed in other tools or run on every push. `licenses` embeds the same rule set at build time and runs [ScanCode's own conformance suite](https://github.com/git-pkgs/licenses#conformance) with tracked differences. On a checkout of [rust-lang/cargo](https://github.com/rust-lang/cargo) (2,950 files, 8-core M1 Pro, default flags) it finishes in 0.91 s and 243 MB peak RSS against scancode -l 32.5.0's 94 s and 4.5 GB across nine processes, roughly 100× faster and 19× lighter.
+A license scanner built on [ScanCode's rule corpus](https://github.com/aboutcode-org/scancode-toolkit), compiled into a single 18 MB Go binary. ScanCode is the reference implementation for license detection but it's a 710 MB Python install (413 MB of which is a pre-built Lucene-style index) that forks several worker processes each with over a gigabyte of RSS, which makes it awkward to embed in other tools or run on every push. `licenses` embeds the same rule set at build time and matches license texts and longer notices across variable words such as copyright holders and years. It runs [ScanCode's own conformance suite](https://github.com/git-pkgs/licenses#conformance) with tracked differences. On a checkout of [rust-lang/cargo](https://github.com/rust-lang/cargo) (2,950 files, 8-core M1 Pro, default flags) it finishes in 0.65 s and 239 MB peak RSS against scancode -l 32.5.0's 94 s and 4.5 GB across nine processes, roughly 145× faster and 19× lighter.
 
-`licenses .` scans a directory and reports SPDX expressions per file plus a rolled-up expression for the tree; `-json` includes declared licenses from any manifests it recognises alongside the detected ones. It's also the library behind `git pkgs licenses --license-text`.
+`licenses .` scans a directory and reports SPDX expressions per file plus a rolled-up expression for the tree; `-json` includes declared licenses from any supported manifests alongside the detected ones. It's also the library behind `git pkgs licenses --license-text` and git-spdx.
+
+### [git-spdx](https://github.com/git-pkgs/git-spdx)
+
+Traces detected licenses across a repository's git history, reporting when an expression changed, a matched file was added or removed, or an `SPDX-License-Identifier` declaration appeared or disappeared, with the commit and path behind each change. It runs the `licenses` matcher against every unique blob in the object store once and diffs the results across commits, so content that appears in many revisions is matched once. On the cargo repository (23,190 commits, 1.3 GB of historical blobs, 8-core M1 Pro) a full history scan takes 4.05 s and 2.12 GiB peak RSS with the default `git cat-file` backend, or 3.57 s and 614 MiB with an in-process go-git v6 backend that runs without a git executable.
+
+`git spdx log` reports the change events, with `--group root|legal|other` to filter to top-level license files, subdirectory legal files including vendored copies, or everything else, and `git spdx scan` prints an expression histogram for the whole history.
 
 ### [downstream](https://github.com/git-pkgs/downstream)
 
