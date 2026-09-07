@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-07T14:29:12Z",
-  "cutoff": "2026-08-08T14:29:07Z",
+  "generated": "2026-09-07T15:27:20Z",
+  "cutoff": "2026-08-08T15:27:16Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.69.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.1",
+      "published": "2026-09-07T15:00:31Z",
+      "preview": "44.69.1 (2026-09-07) Tests presets: validate internal presets the way they are consumed ( #45712 ) ( ff76622 ), closes #39738 Build System deps: update dependency @renovatebot/pgp to v1.4.0 (main) ( #45754 ) ( 8e2080e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.69.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.0",
+      "published": "2026-09-07T14:34:23Z",
+      "preview": "44.69.0 (2026-09-07) Features datasource/helm: support aws s3 as helm charts repository ( #45584 ) ( c6578a4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.68.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.68.3",
@@ -111,14 +127,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.66.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.66.0",
-      "published": "2026-09-07T07:15:08Z",
-      "preview": "44.66.0 (2026-09-07) Features presets: remove duplicate octokit preset ( #45708 ) ( 1bc6686 ) Build System deps: update dependency ignore to v7.0.7 (main) ( #45733 ) ( 1ff45d7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "Rust debugging survey 2026 results",
       "url": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
       "published": "2026-09-07T00:00:00Z",
@@ -165,14 +173,6 @@
       "preview": "Insert 7.12.0.4 into main on 09/05/2026 12:17:09",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.65.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.5",
-      "published": "2026-09-05T12:04:41Z",
-      "preview": "44.65.5 (2026-09-05) Build System deps: update dependency @renovatebot/pep440 to v5.0.1 (main) ( #45689 ) ( 2b4f433 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.4.3",
