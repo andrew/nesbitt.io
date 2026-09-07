@@ -2,7 +2,7 @@
 layout: post
 title: "Package Manager Trends"
 date: 2026-09-10 10:00 +0000
-description: "Sixteen weeks of package manager releases show a dozen tools shipping the same defensive features and a dozen tools fixing the same three bug classes"
+description: "min-release-age, minimum-release-age, -Zmin-publish-age, cooldown."
 tags:
   - package-managers
   - supply-chain
