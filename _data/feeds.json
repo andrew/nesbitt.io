@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-07T12:39:20Z",
-  "cutoff": "2026-08-08T12:39:17Z",
+  "generated": "2026-09-07T13:29:51Z",
+  "cutoff": "2026-08-08T13:29:47Z",
   "feed_count": 83,
-  "item_count": 215,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.395.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.395.0",
+      "published": "2026-09-07T13:21:16Z",
+      "preview": "What's Changed fix: handle nil hash results from unavailable Python package indexes by @sachin-sandhu in #16078 Skip unsupported Maven wrappers instead of failing the Maven job by @kbukum1 in #16090 Migrate test runner to turbo_tests2 by @jeffwidman in #15991 Bump the dev-dependencies group across 2 directories with 5 updates by @dependabot [bot] in #16085 Bump the prod-dependencies group across 2 directories with 13 updates by @dependabot [bot] in #16072 Bump gradle in /gradle by @dependabot [bot] in #16098 Bump the \"uv-ecosystem\" group with 2 updates across multiple ecosystems by @dependabot",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.68.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.68.0",
+      "published": "2026-09-07T13:15:25Z",
+      "preview": "44.68.0 (2026-09-07) Features datasource/apk: default to apk versioning rather than loose ( #45694 ) ( b1cce8a ) Bug Fixes deno: only collect workspace members when workspaces are declared ( #45394 ) ( 8a926e8 ) manager/dockerfile: don't relabel the syntax dep as final ( #45690 ) ( 569dff1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.67.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.67.2",
+      "published": "2026-09-07T12:39:47Z",
+      "preview": "44.67.2 (2026-09-07) Bug Fixes datasource/docker: adjust tag caching for private registries ( #45348 ) ( 1afa293 ), closes #45249 #45249 #40734 manager/npm: prevent updates to unrelated Yarn v1 entries ( #45737 ) ( fcb52fe )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.67.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.67.1",
@@ -159,28 +183,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.65.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.1",
-      "published": "2026-09-05T01:53:58Z",
-      "preview": "44.65.1 (2026-09-05) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.7 (main) ( #45717 ) ( 074020e ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.10 (main) ( #45714 ) ( cee2d1f ) deps: update dependency uv to v0.12.10 (main) ( #45715 ) ( 60e655e ) Build System deps: update dependency zod to v4.5.2 (main) ( #45716 ) ( 623793d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "0.12.10",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.10",
       "published": "2026-09-04T23:15:57Z",
       "preview": "Release Notes Released on 2026-09-04. Enhancements Attempt to revoke short-lived PyPI trusted-publishing tokens after uv publish completes, including when publishing fails ( #21423 ) Preview features Omit exclude-newer-package settings for packages outside the resolution from uv.lock with the missing-exclude-newer-package-lock preview feature ( #21455 ) Show terminal dependency cycles in uv tree --invert output ( #21404 ) Performance Speed up locking large workspaces with conflicts by excluding unrelated extras and dependency groups from conflict simplification ( #21399 ) Speed up uv publish b",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "44.65.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.65.0",
-      "published": "2026-09-04T20:25:35Z",
-      "preview": "44.65.0 (2026-09-04) Features onboarding: note that vulnerabilityAlerts can be rate limited ( #45686 ) ( a806d2f ) Continuous Integration check TODOs for closed issues ( #45575 ) ( 26fe7b0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "cabal-head",
