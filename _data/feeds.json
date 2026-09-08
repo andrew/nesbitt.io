@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T14:30:44Z",
-  "cutoff": "2026-08-09T14:30:39Z",
+  "generated": "2026-09-08T15:29:31Z",
+  "cutoff": "2026-08-09T15:29:26Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "9.8.0 RC1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-RC1",
+      "published": "2026-09-08T14:37:51Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.8.0 RC1. Here are the highlights of this release: Java 27 support Maven mirror settings reuse Linked problem locations in build output Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aman Gautam , Björn Kautler , Eng Zer Jun , Hashim Khan , Julian Krannich , KBS , Labh R Jethe , Mark Dodgson , Maxim , monkey , nataphon-ktsystems , Paul King , Qiu Tian , rg_sandesh , Roberto Perez Alcolea , Sean , Zongle Wang . Upgrade instructions Switch your build to use Gradle 9.8.",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
     {
       "title": "v2026.9.3: Winget bootstrap, signed vfox plugins, and faster inline commands",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.3",
@@ -93,14 +101,6 @@
       "preview": "Release vfox 2026.9.3",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v9.8.0-RC1",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-RC1",
-      "published": "2026-09-08T01:31:23Z",
-      "preview": "Release notes polishing ( #39087 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "44.69.7",
