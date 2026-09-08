@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-08T20:27:07Z",
-  "cutoff": "2026-08-09T20:27:03Z",
+  "generated": "2026-09-08T21:23:27Z",
+  "cutoff": "2026-08-09T21:23:23Z",
   "feed_count": 83,
-  "item_count": 220,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.11",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.11",
+      "published": "2026-09-08T20:45:27Z",
+      "preview": "Release Notes Released on 2026-09-08. Preview features Generate missing artifact hashes when exporting pylock.toml files to ensure they conform to PEP 751 ( #20146 ) Warn when pylock.toml artifact hash tables are empty, which will be rejected in a future uv release ( #21462 ) Performance Speed up installs that overwrite existing files by eliminating per-file temporary directories for atomic hard-link, symlink, and reflink replacements ( #21478 ) Speed up installs that merge copied wheels into existing environments by replacing per-file temporary directories with adjacent temporary files ( #214",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "2.6.0~rc1",
       "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-rc1",
