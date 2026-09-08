@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-08T11:25:56Z",
-  "cutoff": "2026-08-09T11:25:52Z",
+  "generated": "2026-09-08T12:39:16Z",
+  "cutoff": "2026-08-09T12:39:11Z",
   "feed_count": 83,
-  "item_count": 217,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,20 +23,28 @@
   ],
   "items": [
     {
+      "title": "20260908t121300-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260908t121300-all",
+      "published": "2026-09-08T12:13:43Z",
+      "preview": "Deployment at 2026-09-08T12:13:41.276148Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "pnpm 12.4",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.0",
+      "published": "2026-09-08T11:27:26Z",
+      "preview": "Minor Changes pnpm can now manage npm, Python, and Cargo dependencies in the same workspace. Enable python.enabled or cargo.enabled in pnpm-workspace.yaml , then use pnpm install to install them together. Add Python packages with pnpm add pypi:<package> . pnpm uses pyproject.toml , pylock.toml , and a managed .venv . Frozen and offline installs are supported, and pnpm run and pnpm exec make the environment's executables available #14566 . Add Rust crates with pnpm add crate:<package> . pnpm supports crates.io and custom sparse registries configured with cargo.indexUrl . Registry authentication",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "New Release 2.77.1",
       "url": "https://github.com/canonical/snapd/releases/tag/2.77.1",
       "published": "2026-09-08T10:58:21Z",
       "preview": "Fix undo of unlink-component after its snap revision was discarded interfaces: power-control | allow reading all battery state files",
       "source": "Snapd releases",
       "category": "System"
-    },
-    {
-      "title": "v12.4.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.0",
-      "published": "2026-09-08T10:47:04Z",
-      "preview": "v12.4.0",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "44.69.8",
@@ -69,6 +77,14 @@
       "preview": "Release vfox 2026.9.3",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "v9.8.0-RC1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-RC1",
+      "published": "2026-09-08T01:31:23Z",
+      "preview": "Release notes polishing ( #39087 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "44.69.7",
