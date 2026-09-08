@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-08T12:39:16Z",
-  "cutoff": "2026-08-09T12:39:11Z",
+  "generated": "2026-09-08T13:29:10Z",
+  "cutoff": "2026-08-09T13:29:04Z",
   "feed_count": 83,
-  "item_count": 219,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.6.0-rc1",
+      "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-rc1",
+      "published": "2026-09-08T13:22:29Z",
+      "preview": "2.6.0~rc1",
+      "source": "opam releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.69.9",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.9",
+      "published": "2026-09-08T13:18:22Z",
+      "preview": "44.69.9 (2026-09-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.12 (main) ( #45770 ) ( f709c68 ) Documentation document assignAutomerge in automerge article ( #44955 ) ( 95517d5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "20260908t121300-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260908t121300-all",
@@ -171,14 +187,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.0",
       "published": "2026-09-07T14:34:23Z",
       "preview": "44.69.0 (2026-09-07) Features datasource/helm: support aws s3 as helm charts repository ( #45584 ) ( c6578a4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.68.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.68.3",
-      "published": "2026-09-07T14:16:30Z",
-      "preview": "44.68.3 (2026-09-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.9 (main) ( #45753 ) ( 5538ed1 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
