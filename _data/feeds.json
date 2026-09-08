@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T16:31:55Z",
-  "cutoff": "2026-08-09T16:31:51Z",
+  "generated": "2026-09-08T18:33:43Z",
+  "cutoff": "2026-08-09T18:33:40Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-09-08T18:31:39Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.69.11",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.11",
+      "published": "2026-09-08T18:27:24Z",
+      "preview": "44.69.11 (2026-09-08) Bug Fixes versioning/apk: correctly implement APK's version constraint operators ( #45692 ) ( 629740f ) Documentation update GitLab security docs + announce Mend-hosted GitLab.com ( #45420 ) ( f3a5286 ) Miscellaneous Chores deps: update dependency @oxlint/plugins to v1.81.0 (main) ( #45772 ) ( 8f76d4e ) deps: update dependency oxlint to v1.81.0 (main) ( #45775 ) ( 27452fc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.69.10",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.10",
@@ -159,14 +175,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-07T18:18:34Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
       "title": "44.69.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.3",
       "published": "2026-09-07T16:43:00Z",
@@ -179,14 +187,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.2",
       "published": "2026-09-07T15:43:03Z",
       "preview": "44.69.2 (2026-09-07) Bug Fixes manager/pixi: support optional channel options ( #45273 ) ( 2e9e479 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.69.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.1",
-      "published": "2026-09-07T15:00:31Z",
-      "preview": "44.69.1 (2026-09-07) Tests presets: validate internal presets the way they are consumed ( #45712 ) ( ff76622 ), closes #39738 Build System deps: update dependency @renovatebot/pgp to v1.4.0 (main) ( #45754 ) ( 8e2080e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
