@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T01:02:38Z",
-  "cutoff": "2026-08-09T01:02:32Z",
+  "generated": "2026-09-08T07:30:24Z",
+  "cutoff": "2026-08-09T07:30:19Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.69.8",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.8",
+      "published": "2026-09-08T07:27:35Z",
+      "preview": "44.69.8 (2026-09-08) Bug Fixes manager/npm: Harden .npmrc sanitization ( #44652 ) ( 2ee9a26 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.9.3",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.3",
+      "published": "2026-09-08T06:50:57Z",
+      "preview": "(bootstrap) add winget package manager support by @jdx in [ #129 …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.9.1",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.9.1",
+      "published": "2026-09-08T06:50:32Z",
+      "preview": "Release aqua-registry 2026.9.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.3",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.3",
+      "published": "2026-09-08T06:50:25Z",
+      "preview": "Release vfox 2026.9.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.69.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.7",
@@ -115,14 +147,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.68.3",
       "published": "2026-09-07T14:16:30Z",
       "preview": "44.68.3 (2026-09-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.9 (main) ( #45753 ) ( 5538ed1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.68.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.68.2",
-      "published": "2026-09-07T13:59:34Z",
-      "preview": "44.68.2 (2026-09-07) Bug Fixes datasource/aws-machine-image: return all AMI releases for minimumReleaseAge filtering ( #43749 ) ( 325dc64 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -719,22 +743,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v2026.8.16: Command wrappers and Windows shell fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.8.16",
-      "published": "2026-08-31T15:42:58Z",
-      "preview": "This release adds configurable command wrappers for intercepting ordinary commands, alongside a batch of shell and PATH fixes that make Windows activation more reliable and clearer upgrade and error messaging. Added shims: New [wrappers] config lets you intercept an ordinary command name with a different command, arguments, and environment. Wrappers take precedence over mise-managed tools, and mise strips its dispatch directories before delegating so the underlying tool still resolves from mise or the system. Works with normal activation, activate --shims , and mise exec ; managed wrapper shim",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.8.21",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.21",
-      "published": "2026-08-31T13:45:10Z",
-      "preview": "Release vfox 2026.8.21",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-30-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-08-30-a",
       "published": "2026-08-31T12:58:39Z",
@@ -749,14 +757,6 @@
       "preview": "v2.150014",
       "source": "CPAN Meta releases",
       "category": "Registries"
-    },
-    {
-      "title": "vfox-v2026.8.20",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.8.20",
-      "published": "2026-08-30T22:39:01Z",
-      "preview": "Release vfox 2026.8.20",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "1.17.1",
