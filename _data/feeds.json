@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T21:23:27Z",
-  "cutoff": "2026-08-09T21:23:23Z",
+  "generated": "2026-09-08T22:25:16Z",
+  "cutoff": "2026-08-09T22:25:12Z",
   "feed_count": 83,
   "item_count": 221,
   "categories": [
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-09-08T21:55:00Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
       "title": "0.12.11",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.11",
       "published": "2026-09-08T20:45:27Z",
@@ -36,14 +44,6 @@
       "published": "2026-09-08T19:41:13Z",
       "preview": "This is the first candidate of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for more details and the upgrade instructions. Changelog : Changes Install Fix a 2.6 performance regression where tar.gz repositories were read entirely twice per package installed [ #7131 @kit-ty-kate ] Build and release U",
       "source": "opam releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-08T18:31:39Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
       "category": "Registries"
     },
     {
@@ -570,7 +570,7 @@
       "title": "2.10.3",
       "url": "https://github.com/composer/composer/releases/tag/2.10.3",
       "published": "2026-09-02T09:27:50Z",
-      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 , CVE-2026-84361) Security: Sanitize URL-embedded usernames/token in a few more places ( #13044 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #12988 ) Fixed PHP 8.6 deprecation warnings ( #12967 , #13028 ) Fixed error output when a policy blocks a package version to be clearer ( #12993 ) Fixed the lock file's content-hash with a conflict marker end",
+      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 , CVE-2026-84361 ) Security: Sanitize URL-embedded usernames/token in a few more places ( #13044 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #12988 ) Fixed PHP 8.6 deprecation warnings ( #12967 , #13028 ) Fixed error output when a policy blocks a package version to be clearer ( #12993 ) Fixed the lock file's content-hash with a conflict marker en",
       "source": "Composer releases",
       "category": "PHP"
     },
@@ -578,7 +578,7 @@
       "title": "2.2.30",
       "url": "https://github.com/composer/composer/releases/tag/2.2.30",
       "published": "2026-09-02T09:27:43Z",
-      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 , CVE-2026-84361) Security: Sanitize URL-embedded usernames/token in a few more places ( #13045 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #13042 ) Full Changelog : 2.2.29...2.2.30",
+      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 , CVE-2026-84361 ) Security: Sanitize URL-embedded usernames/token in a few more places ( #13045 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #13042 ) Full Changelog : 2.2.29...2.2.30",
       "source": "Composer releases",
       "category": "PHP"
     },
