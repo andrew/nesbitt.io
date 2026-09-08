@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T22:25:16Z",
-  "cutoff": "2026-08-09T22:25:12Z",
+  "generated": "2026-09-08T23:24:03Z",
+  "cutoff": "2026-08-09T23:24:00Z",
   "feed_count": 83,
   "item_count": 221,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.69.12",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.12",
+      "published": "2026-09-08T22:43:36Z",
+      "preview": "44.69.12 (2026-09-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.14 (main) ( #45780 ) ( d4387f2 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.11 (main) ( #45776 ) ( 152d289 ) deps: update dependency uv to v0.12.11 (main) ( #45777 ) ( 3ae3d24 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -187,14 +195,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.3",
       "published": "2026-09-07T16:43:00Z",
       "preview": "44.69.3 (2026-09-07) Build System deps: update dependency @renovatebot/detect-tools to v4.0.14 (main) ( #45732 ) ( 96ecc86 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.69.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.2",
-      "published": "2026-09-07T15:43:03Z",
-      "preview": "44.69.2 (2026-09-07) Bug Fixes manager/pixi: support optional channel options ( #45273 ) ( 2e9e479 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
