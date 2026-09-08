@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-07T23:24:22Z",
-  "cutoff": "2026-08-08T23:24:19Z",
+  "generated": "2026-09-08T01:02:38Z",
+  "cutoff": "2026-08-09T01:02:32Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.69.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.7",
+      "published": "2026-09-08T00:47:31Z",
+      "preview": "44.69.7 (2026-09-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.11 (main) ( #45763 ) ( b0d1e5e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.9.2: Packslip Backend, SSH Relay, and Reimagined Install Progress",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.2",
@@ -125,14 +133,6 @@
       "preview": "[0.80.0] - 2026-09-07 ✨ Highlights Pixi now has experimental support for conda-script . Conda scripts let you write scripts in any language, with dependencies and instructions for running them included in the same file. Pixi solves the environment, caches it, and runs the script without requiring a separate workspace. For example, an R script can now be self-contained: # /// conda-script # channels = [\"https://prefix.dev/conda-forge\"] # entrypoint = \"Rscript ${SCRIPT}\" # # [dependencies] # r-base = \"*\" # r-jsonlite = \"*\" # /// end-conda-script library( jsonlite ) writeLines(toJSON( list ( hell",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.68.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.68.1",
-      "published": "2026-09-07T13:32:51Z",
-      "preview": "44.68.1 (2026-09-07) Bug Fixes datasource: isolate release lookups by registry configuration ( #45738 ) ( 3e15fc2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.395.0",
