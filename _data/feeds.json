@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T18:33:43Z",
-  "cutoff": "2026-08-09T18:33:40Z",
+  "generated": "2026-09-08T19:24:15Z",
+  "cutoff": "2026-08-09T19:24:11Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.6.0~rc1",
+      "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-rc1",
+      "published": "2026-09-08T18:44:57Z",
+      "preview": "This is the first candidate of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our upcoming blog post for more details and the upgrade instructions. Changelog : Changes Install Fix a 2.6 performance regression where tar.gz repositories were read entirely twice per package installed [ #7131 @kit-ty-kate ] Build and ",
+      "source": "opam releases",
+      "category": "Registries"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -61,14 +69,6 @@
       "preview": "This release brings Windows bootstrap into the package-manager era with WinGet support, extends the packslip signing model to vfox plugins, and speeds up simple tasks by skipping the shell on Unix. It also carries a batch of bootstrap, sandbox, and Windows ARM64 fixes. Added bootstrap: WinGet is now a built-in [bootstrap.packages] manager on Windows, so mise bootstrap packages can check status, install, and upgrade apps by exact package ID. It supports version pins, source refresh, and automatic source-agreement acceptance. Scoop, Chocolatey, and package removal remain future work. ( #12928 by",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "2.6.0-rc1",
-      "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-rc1",
-      "published": "2026-09-08T13:22:29Z",
-      "preview": "2.6.0~rc1",
-      "source": "opam releases",
-      "category": "Registries"
     },
     {
       "title": "44.69.9",
