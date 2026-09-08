@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T07:30:24Z",
-  "cutoff": "2026-08-09T07:30:19Z",
+  "generated": "2026-09-08T11:25:56Z",
+  "cutoff": "2026-08-09T11:25:52Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "New Release 2.77.1",
+      "url": "https://github.com/canonical/snapd/releases/tag/2.77.1",
+      "published": "2026-09-08T10:58:21Z",
+      "preview": "Fix undo of unlink-component after its snap revision was discarded interfaces: power-control | allow reading all battery state files",
+      "source": "Snapd releases",
+      "category": "System"
+    },
+    {
+      "title": "v12.4.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.0",
+      "published": "2026-09-08T10:47:04Z",
+      "preview": "v12.4.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.69.8",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.8",
@@ -439,14 +455,6 @@
       "category": "Registries"
     },
     {
-      "title": "2.77.1",
-      "url": "https://github.com/canonical/snapd/releases/tag/2.77.1",
-      "published": "2026-09-03T09:26:44Z",
-      "preview": "tagging package snapd version 2.77.1",
-      "source": "Snapd releases",
-      "category": "System"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
       "published": "2026-09-03T08:50:41Z",
@@ -797,14 +805,6 @@
       "preview": "Fixed Fix an issue where Poetry installs an artifact that is not listed in the lockfile when the package source does not provide a hash for this artifact ( #11030 ). Fix a path traversal vulnerability when downloading files from a compromised URL and/or package source ( #11029 ). Fix a path traversal vulnerability in sdist extraction on Python 3.10.0-3.10.12 and 3.11.0-3.11.4 that could allow malicious tarball files to write files outside the target directory ( #11027 ).",
       "source": "Poetry releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 12.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.1.0",
-      "published": "2026-08-29T14:19:52Z",
-      "preview": "Minor Changes pnpm login and pnpm adduser now record the granted token in the global config.yaml , under the _auth setting, with --scope 's scope routed to that registry under registries . pnpm logout removes it from there, and still from an auth.ini an earlier version wrote. Tokens already in auth.ini keep working. A scope set in a project's pnpm-workspace.yaml is now ignored, with a warning naming where to set it instead. pnpm login records the scope as a @scope:registry route in the machine-global auth.ini , which outranks ~/.npmrc in every project — so a repository-committed file could red",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "v2.29.0",
