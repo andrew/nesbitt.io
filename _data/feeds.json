@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-08T13:29:10Z",
-  "cutoff": "2026-08-09T13:29:04Z",
+  "generated": "2026-09-08T14:30:44Z",
+  "cutoff": "2026-08-09T14:30:39Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.9.3: Winget bootstrap, signed vfox plugins, and faster inline commands",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.3",
+      "published": "2026-09-08T13:55:29Z",
+      "preview": "This release brings Windows bootstrap into the package-manager era with WinGet support, extends the packslip signing model to vfox plugins, and speeds up simple tasks by skipping the shell on Unix. It also carries a batch of bootstrap, sandbox, and Windows ARM64 fixes. Added bootstrap: WinGet is now a built-in [bootstrap.packages] manager on Windows, so mise bootstrap packages can check status, install, and upgrade apps by exact package ID. It supports version pins, source refresh, and automatic source-agreement acceptance. Scoop, Chocolatey, and package removal remain future work. ( #12928 by",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "2.6.0-rc1",
       "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-rc1",
@@ -69,14 +77,6 @@
       "preview": "44.69.8 (2026-09-08) Bug Fixes manager/npm: Harden .npmrc sanitization ( #44652 ) ( 2ee9a26 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.9.3",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.3",
-      "published": "2026-09-08T06:50:57Z",
-      "preview": "(bootstrap) add winget package manager support by @jdx in [ #129 …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "aqua-registry-v2026.9.1",
