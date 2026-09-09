@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-09T07:30:59Z",
-  "cutoff": "2026-08-10T07:30:55Z",
+  "generated": "2026-09-09T08:34:25Z",
+  "cutoff": "2026-08-10T08:34:20Z",
   "feed_count": 83,
-  "item_count": 222,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.70.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.70.1",
+      "published": "2026-09-09T08:01:45Z",
+      "preview": "44.70.1 (2026-09-09) Build System deps: update dependency azure-devops-node-api to v17 (main) ( #45790 ) ( 6501ecb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.70.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.70.0",
@@ -58,7 +66,7 @@
       "title": "4.1.0.beta1 Released",
       "url": "https://blog.rubygems.org/2026/09/09/4.1.0.beta1-released.html",
       "published": "2026-09-09T00:00:00Z",
-      "preview": "RubyGems and Bundler 4.1.0.beta1 include features, performance, enhancements, breaking changes, bug fixes and deprecations. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.1.0.beta1 Release Notes RubyGems Changes already released in 4.0.x are not repeated here. Features: Add content addressable gems support. Pull request #9773 by Jenny Shen Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Rubygems: Add PQC ML-DSA support fo",
+      "preview": "RubyGems and Bundler 4.1.0.beta1 include features, performance, enhancements, breaking changes, bug fixes and deprecations. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.1.0.beta1 Release Notes RubyGems Changes already released in 4.0.x are not repeated here. Features: Add content addressable gems support. Pull request #9773 by Jenny Shen, Harriet Oughton and Gira Chawda Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Ru",
       "source": "RubyGems Blog",
       "category": "Ruby"
     },
@@ -197,14 +205,6 @@
       "preview": "This is a large release headlined by the new stable packslip: backend for installing tools from a vendor's own signed release manifest, a read-only GitHub SSH relay for remote onboarding, redesigned install progress for both terminals and CI logs, and a rebuilt dotfiles-tracking model for bootstrap. It also carries dozens of fixes across shims, tasks, brew, Go, npm, and the schema, plus two security fixes. Highlights The packslip: backend is now generally available: install tools directly from a project's cryptographically signed release manifest, with signer pinning, trusted stampers, host-re",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.69.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.6",
-      "published": "2026-09-07T21:41:40Z",
-      "preview": "44.69.6 (2026-09-07) Build System deps: update opentelemetry-js-contrib monorepo (main) ( #45761 ) ( cc79d30 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "vfox-v2026.9.2",
@@ -1789,14 +1789,6 @@
       "preview": "What's Changed cask/audit: detect incorrect app case by @krehel in #23400 Start install downloads before local-only checks by @MikeMcQuaid in #23381 contributions: clarify Maintainer team access by @SSakutaro in #23394 Tolerate missing bottle manifests in prefetches by @MikeMcQuaid in #23403 Use workflow result for commit style by @MikeMcQuaid in #23402 docs/MCP-Server: update Cursor URL by @p-linnane in #23415 download_queue: print fetch heading to stderr when stdout is not a TTY by @carlocab in #23406 cask/audit: allow linux-only casks by @bevanjkay in #23422 Compact install step JSON (25/26",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "2.9.0",
-      "url": "https://github.com/mamba-org/mamba/releases/tag/2.9.0",
-      "published": "2026-08-10T08:27:37Z",
-      "preview": "⚠️ Breaking changes Logs and JSON outputs are now properly handled together but at the cost of some adaptations of the JSON output. If you use --json , you might need to adapt your applications' logic to handle this change. For full background on the issue, see: #4202 You can update micromamba to this version using: micromamba self-update Enhancements: [libmamba, micromamba] Refactor and clean up by @Hind-M in #4359 [libmamba, libmambapy] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fi",
-      "source": "Mamba releases",
-      "category": "Multi-language"
     }
   ]
 }
