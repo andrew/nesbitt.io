@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-09T01:01:36Z",
-  "cutoff": "2026-08-10T01:01:32Z",
+  "generated": "2026-09-09T03:32:52Z",
+  "cutoff": "2026-08-10T03:32:47Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.69.13",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.13",
+      "published": "2026-09-09T02:56:12Z",
+      "preview": "44.69.13 (2026-09-09) Build System deps: update dependency @renovatebot/pgp to v1.4.1 (main) ( #45784 ) ( f7e6afb ) deps: update node.js to v24.21.0 (main) ( #45785 ) ( e318ccb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.69.12",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.12",
@@ -187,14 +195,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.4",
       "published": "2026-09-07T18:24:12Z",
       "preview": "44.69.4 (2026-09-07) Bug Fixes manager/npm: pass --no-frozen-lockfile to pnpm lock file updates ( #44676 ) ( 6f0b6a5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.69.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.3",
-      "published": "2026-09-07T16:43:00Z",
-      "preview": "44.69.3 (2026-09-07) Build System deps: update dependency @renovatebot/detect-tools to v4.0.14 (main) ( #45732 ) ( 96ecc86 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
