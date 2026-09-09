@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-09T05:28:30Z",
-  "cutoff": "2026-08-10T05:28:27Z",
+  "generated": "2026-09-09T06:43:33Z",
+  "cutoff": "2026-08-10T06:43:27Z",
   "feed_count": 83,
   "item_count": 222,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.69.14",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.14",
+      "published": "2026-09-09T05:46:46Z",
+      "preview": "44.69.14 (2026-09-09) Build System deps: update dependency node to v24.21.0 (main) ( #45787 ) ( 1fe9e0b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v4.1.0.beta1",
       "url": "https://github.com/ruby/rubygems/releases/tag/v4.1.0.beta1",
@@ -203,14 +211,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.5",
       "published": "2026-09-07T18:48:45Z",
       "preview": "44.69.5 (2026-09-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.10 (main) ( #45757 ) ( 6111d05 ) Build System deps: update opentelemetry-js monorepo (main) ( #45758 ) ( 7b5293e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.69.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.4",
-      "published": "2026-09-07T18:24:12Z",
-      "preview": "44.69.4 (2026-09-07) Bug Fixes manager/npm: pass --no-frozen-lockfile to pnpm lock file updates ( #44676 ) ( 6f0b6a5 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
