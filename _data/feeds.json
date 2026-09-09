@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-09T14:29:07Z",
-  "cutoff": "2026-08-10T14:29:03Z",
+  "generated": "2026-09-09T15:28:05Z",
+  "cutoff": "2026-08-10T15:28:00Z",
   "feed_count": 83,
-  "item_count": 221,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.72.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.72.0",
+      "published": "2026-09-09T14:35:40Z",
+      "preview": "44.72.0 (2026-09-09) Features manager: share OCI Helm chart resolution across managers ( #45760 ) ( be13c9f ) Bug Fixes merge-confidence: don't require auth in platform=local ( #45769 ) ( f2896de ) Code Refactoring lint: enforce err key for errors in logger metadata ( #45759 ) ( b2d3b64 ) Build System deps: update dependency prettier to v3.9.6 (main) ( #45815 ) ( 9d74625 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.71.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.71.3",
@@ -125,14 +133,6 @@
       "preview": "RubyGems and Bundler 4.1.0.beta1 include features, performance, enhancements, breaking changes, bug fixes and deprecations. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.1.0.beta1 Release Notes RubyGems Changes already released in 4.0.x are not repeated here. Features: Add content addressable gems support. Pull request #9773 by Jenny Shen, Harriet Oughton and Gira Chawda Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Ru",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "44.69.12",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.12",
-      "published": "2026-09-08T22:43:36Z",
-      "preview": "44.69.12 (2026-09-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.14 (main) ( #45780 ) ( d4387f2 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.11 (main) ( #45776 ) ( 152d289 ) deps: update dependency uv to v0.12.11 (main) ( #45777 ) ( 3ae3d24 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "cabal-head",
@@ -1781,14 +1781,6 @@
       "preview": "Changed: Bump default core metadata version to 2.5 Add tomlkit as a runtime dependency, which is required to rewrite pyproject.toml when setting a static version Added: The version command can now set a version that is statically defined by the project.version field, updating pyproject.toml in place. Pass --force to allow an explicit downgrade Fixed: Allow the ; private annotation on project.import-names and project.import-namespaces entries rather than rejecting them as invalid import names. Reject project.readme paths that are absolute or resolve outside of the project directory.",
       "source": "Hatch releases",
       "category": "Python"
-    },
-    {
-      "title": "v0.391.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.391.0",
-      "published": "2026-08-10T14:52:59Z",
-      "preview": "What's Changed Add typed requirement metadata readers by @JamieMagee in #15740 Type common requirement access by @JamieMagee in #15741 gracefully handle exceptions generated during package detail fetch by @brettfo in #15762 Bump the dev-dependencies group across 2 directories with 7 updates by @dependabot [bot] in #15563 Upgrade uv to 0.11.31 by @ABruihler in #15424 Bump ip-address from 10.2.0 to 10.4.0 in /bun/helpers by @dependabot [bot] in #15768 Bump brace-expansion from 1.1.13 to 1.1.18 in /npm_and_yarn/helpers/test/npm6/fixtures/conflicting-dependency-parser/deeply-nested by @dependabot ",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
