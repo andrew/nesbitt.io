@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-09T20:27:44Z",
-  "cutoff": "2026-08-10T20:27:40Z",
+  "generated": "2026-09-09T22:24:50Z",
+  "cutoff": "2026-08-10T22:24:46Z",
   "feed_count": 83,
-  "item_count": 222,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,18 @@
   ],
   "items": [
     {
-      "title": "v2026.9.4",
+      "title": "v4.3.0",
+      "url": "https://github.com/helm/helm/releases/tag/v4.3.0",
+      "published": "2026-09-09T22:19:26Z",
+      "preview": "Helm release v4.3.0",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2026.9.4: Nix Bootstrap, Environment Selectors, and Man Pages",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.4",
-      "published": "2026-09-09T19:24:24Z",
-      "preview": "(bootstrap) add package environment selectors by @jdx in [#1295…",
+      "published": "2026-09-09T21:41:36Z",
+      "preview": "This release expands the bootstrap package model with Nix support and environment selectors, teaches packslip tools to ship man pages, and adds a task-scoped quiet setting. It also carries a wide batch of packslip, bootstrap, and cross-platform fixes plus a major speedup to dotfiles history rebuilds. Added bootstrap: Nix is now a built-in [bootstrap.packages] manager on Linux and macOS. Declare packages with the nix: prefix and apply them through your normal Nix profile; the manager supports use, apply, status JSON, and targeted upgrades while leaving Nix sources, caches, trust, and profile ro",
       "source": "mise releases",
       "category": "Multi-language"
     },
