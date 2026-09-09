@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-09T10:29:03Z",
-  "cutoff": "2026-08-10T10:28:58Z",
+  "generated": "2026-09-09T12:39:10Z",
+  "cutoff": "2026-08-10T12:39:05Z",
   "feed_count": 83,
   "item_count": 221,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.12.0.6",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.6",
+      "published": "2026-09-09T12:18:02Z",
+      "preview": "Insert 7.12.0.6 into main on 09/09/2026 12:18:01",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "44.71.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.71.1",
+      "published": "2026-09-09T11:54:11Z",
+      "preview": "44.71.1 (2026-09-09) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.96.1 (main) ( #45803 ) ( c55a988 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.71.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.71.0",
@@ -149,14 +165,6 @@
       "preview": "This release brings Windows bootstrap into the package-manager era with WinGet support, extends the packslip signing model to vfox plugins, and speeds up simple tasks by skipping the shell on Unix. It also carries a batch of bootstrap, sandbox, and Windows ARM64 fixes. Added bootstrap: WinGet is now a built-in [bootstrap.packages] manager on Windows, so mise bootstrap packages can check status, install, and upgrade apps by exact package ID. It supports version pins, source refresh, and automatic source-agreement acceptance. Scoop, Chocolatey, and package removal remain future work. ( #12928 by",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.69.9",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.9",
-      "published": "2026-09-08T13:18:22Z",
-      "preview": "44.69.9 (2026-09-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.12 (main) ( #45770 ) ( f709c68 ) Documentation document assignAutomerge in automerge article ( #44955 ) ( 95517d5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20260908t121300-all",
@@ -1701,14 +1709,6 @@
       "preview": "1.16.0-rc1 (August 12, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. ( #37986 ) terraform_data : The new store block can hold ephemeral and sensitive values across plan and apply. ( #38298 ) Providers can now use nested blocks as computed values ( #38305 ) import: import blocks inside modules are now supported. ( #38352 ) Terraform is now available as a pre-built binary for Linux s390x (zLinux). ( #38384 ) Resource action triggers can now use on_failure modes of halt , taint , or continue . (",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "7.11.0.8",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.8",
-      "published": "2026-08-12T12:17:37Z",
-      "preview": "Insert 7.11.0.8 into main on 08/12/2026 12:17:36",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "v1.17.0-alpha20260812",
