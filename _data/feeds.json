@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-09T22:24:50Z",
-  "cutoff": "2026-08-10T22:24:46Z",
+  "generated": "2026-09-09T23:24:30Z",
+  "cutoff": "2026-08-10T23:24:25Z",
   "feed_count": 83,
   "item_count": 223,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v3.22.0",
+      "url": "https://github.com/helm/helm/releases/tag/v3.22.0",
+      "published": "2026-09-09T22:30:16Z",
+      "preview": "Helm release v3.22.0",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
     {
       "title": "v4.3.0",
       "url": "https://github.com/helm/helm/releases/tag/v4.3.0",
@@ -1629,14 +1637,6 @@
       "preview": "Release Notes Released on 2026-08-14. Python Add CPython 3.10.21, 3.11.16, and 3.12.14 ( #21138 ) Prefer newer versions and standard variants when selecting between equally prioritized Python interpreters ( #21134 ) Enhancements Simplify errors and hints for invalid editable requirements, and redact credentials in requirement URLs ( #21130 ) Preview features Allow --index and --default-index to select configured package indexes by name with the index-by-name preview feature ( #17455 ) Include distribution artifact URLs and hashes in CycloneDX SBOM exports by default ( #21131 ) Fall back to log",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "3.3.3",
-      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.3",
-      "published": "2026-08-14T15:52:09Z",
-      "preview": "apt Debian release 3.3.3",
-      "source": "APT releases",
-      "category": "System"
     },
     {
       "title": "Helm v4.2.4",
