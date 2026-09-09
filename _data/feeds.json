@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-09T08:34:25Z",
-  "cutoff": "2026-08-10T08:34:20Z",
+  "generated": "2026-09-09T09:31:08Z",
+  "cutoff": "2026-08-10T09:31:04Z",
   "feed_count": 83,
   "item_count": 221,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.70.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.70.2",
+      "published": "2026-09-09T09:23:53Z",
+      "preview": "44.70.2 (2026-09-09) Build System deps: update dependency got to v15 (main) ( #43120 ) ( 2561284 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.70.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.70.1",
@@ -189,14 +197,6 @@
       "preview": "Release vfox 2026.9.3",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.69.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.7",
-      "published": "2026-09-08T00:47:31Z",
-      "preview": "44.69.7 (2026-09-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.11 (main) ( #45763 ) ( b0d1e5e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.9.2: Packslip Backend, SSH Relay, and Reimagined Install Progress",
