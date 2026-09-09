@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-09T17:25:28Z",
-  "cutoff": "2026-08-10T17:25:23Z",
+  "generated": "2026-09-09T18:33:01Z",
+  "cutoff": "2026-08-10T18:32:55Z",
   "feed_count": 83,
   "item_count": 222,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.74.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.74.0",
+      "published": "2026-09-09T17:25:35Z",
+      "preview": "44.74.0 (2026-09-09) Features presets: vale package versions custom manager ( #45817 ) ( b5121c7 ) Miscellaneous Chores deps: update dependency memfs to v4.69.0 (main) ( #45820 ) ( d37de94 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.17.0-beta1",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1",
@@ -123,14 +131,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.70.0",
       "published": "2026-09-09T06:52:20Z",
       "preview": "44.70.0 (2026-09-09) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.96.0 (main) ( #45783 ) ( ab056dc ) Miscellaneous Chores deps: update zizmor (main) ( #45788 ) ( f93caed )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.69.14",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.14",
-      "published": "2026-09-09T05:46:46Z",
-      "preview": "44.69.14 (2026-09-09) Build System deps: update dependency node to v24.21.0 (main) ( #45787 ) ( 1fe9e0b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
