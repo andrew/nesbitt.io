@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-09T12:39:10Z",
-  "cutoff": "2026-08-10T12:39:05Z",
+  "generated": "2026-09-09T13:28:35Z",
+  "cutoff": "2026-08-10T13:28:30Z",
   "feed_count": 83,
-  "item_count": 221,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.16.2",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.2",
+      "published": "2026-09-09T13:22:31Z",
+      "preview": "1.16.2 (September 9, 2026) BUG FIXES: Fix panic in module installation when encoutering invalid module calls ( #39129 )",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "44.71.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.71.2",
+      "published": "2026-09-09T13:21:42Z",
+      "preview": "44.71.2 (2026-09-09) Miscellaneous Chores deps: update dependency astral-sh/setup-uv to v10 (main) ( #45808 ) ( 42cf188 ) Build System deps: update dependency google-auth-library to v11 (main) ( #45805 ) ( 8a1b8a4 ) deps: update dependency markdown-it to v15 (main) ( #45796 ) ( 0e5b228 ) deps: update dependency node-html-parser to v9 (main) ( #45807 ) ( e7d7be9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.12.0.6",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.6",
@@ -139,14 +155,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.11",
       "published": "2026-09-08T18:27:24Z",
       "preview": "44.69.11 (2026-09-08) Bug Fixes versioning/apk: correctly implement APK's version constraint operators ( #45692 ) ( 629740f ) Documentation update GitLab security docs + announce Mend-hosted GitLab.com ( #45420 ) ( f3a5286 ) Miscellaneous Chores deps: update dependency @oxlint/plugins to v1.81.0 (main) ( #45772 ) ( 8f76d4e ) deps: update dependency oxlint to v1.81.0 (main) ( #45775 ) ( 27452fc )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.69.10",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.10",
-      "published": "2026-09-08T15:45:32Z",
-      "preview": "44.69.10 (2026-09-08) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.13 (main) ( #45771 ) ( 0204468 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
