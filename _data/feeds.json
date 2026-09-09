@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-09T13:28:35Z",
-  "cutoff": "2026-08-10T13:28:30Z",
+  "generated": "2026-09-09T14:29:07Z",
+  "cutoff": "2026-08-10T14:29:03Z",
   "feed_count": 83,
-  "item_count": 222,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.71.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.71.3",
+      "published": "2026-09-09T14:06:05Z",
+      "preview": "44.71.3 (2026-09-09) Miscellaneous Chores deps: update dependency graphql to v17 (main) ( #45814 ) ( 0c4abf8 ) Code Refactoring use modern neotraverse API ( #45809 ) ( 634d3b6 ) Build System deps: update commander to v15 (main) ( #45804 ) ( c648a3b ) deps: update dependency neotraverse to v1 (main) ( #45806 ) ( f36f91e ) deps: update dependency xmldoc to v3 (main) ( #45813 ) ( 2428a40 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.16.2",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.2",
@@ -149,14 +157,6 @@
       "preview": "This is the first candidate of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for more details and the upgrade instructions. Changelog : Changes Install Fix a 2.6 performance regression where tar.gz repositories were read entirely twice per package installed [ #7131 @kit-ty-kate ] Build and release U",
       "source": "opam releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.69.11",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.11",
-      "published": "2026-09-08T18:27:24Z",
-      "preview": "44.69.11 (2026-09-08) Bug Fixes versioning/apk: correctly implement APK's version constraint operators ( #45692 ) ( 629740f ) Documentation update GitLab security docs + announce Mend-hosted GitLab.com ( #45420 ) ( f3a5286 ) Miscellaneous Chores deps: update dependency @oxlint/plugins to v1.81.0 (main) ( #45772 ) ( 8f76d4e ) deps: update dependency oxlint to v1.81.0 (main) ( #45775 ) ( 27452fc )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "9.8.0 RC1",
@@ -1789,14 +1789,6 @@
       "preview": "What's Changed Add typed requirement metadata readers by @JamieMagee in #15740 Type common requirement access by @JamieMagee in #15741 gracefully handle exceptions generated during package detail fetch by @brettfo in #15762 Bump the dev-dependencies group across 2 directories with 7 updates by @dependabot [bot] in #15563 Upgrade uv to 0.11.31 by @ABruihler in #15424 Bump ip-address from 10.2.0 to 10.4.0 in /bun/helpers by @dependabot [bot] in #15768 Bump brace-expansion from 1.1.13 to 1.1.18 in /npm_and_yarn/helpers/test/npm6/fixtures/conflicting-dependency-parser/deeply-nested by @dependabot ",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "6.0.16",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.16",
-      "published": "2026-08-10T13:40:39Z",
-      "preview": "What's Changed cask/audit: detect incorrect app case by @krehel in #23400 Start install downloads before local-only checks by @MikeMcQuaid in #23381 contributions: clarify Maintainer team access by @SSakutaro in #23394 Tolerate missing bottle manifests in prefetches by @MikeMcQuaid in #23403 Use workflow result for commit style by @MikeMcQuaid in #23402 docs/MCP-Server: update Cursor URL by @p-linnane in #23415 download_queue: print fetch heading to stderr when stdout is not a TTY by @carlocab in #23406 cask/audit: allow linux-only casks by @bevanjkay in #23422 Compact install step JSON (25/26",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
