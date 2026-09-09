@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-09T06:43:33Z",
-  "cutoff": "2026-08-10T06:43:27Z",
+  "generated": "2026-09-09T07:30:59Z",
+  "cutoff": "2026-08-10T07:30:55Z",
   "feed_count": 83,
   "item_count": 222,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.70.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.70.0",
+      "published": "2026-09-09T06:52:20Z",
+      "preview": "44.70.0 (2026-09-09) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.96.0 (main) ( #45783 ) ( ab056dc ) Miscellaneous Chores deps: update zizmor (main) ( #45788 ) ( f93caed )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.69.14",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.14",
@@ -205,14 +213,6 @@
       "preview": "Release vfox 2026.9.2",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.69.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.5",
-      "published": "2026-09-07T18:48:45Z",
-      "preview": "44.69.5 (2026-09-07) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.95.10 (main) ( #45757 ) ( 6111d05 ) Build System deps: update opentelemetry-js monorepo (main) ( #45758 ) ( 7b5293e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.80.0",
