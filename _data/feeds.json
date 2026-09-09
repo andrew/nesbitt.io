@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-09T16:30:35Z",
-  "cutoff": "2026-08-10T16:30:30Z",
+  "generated": "2026-09-09T17:25:28Z",
+  "cutoff": "2026-08-10T17:25:23Z",
   "feed_count": 83,
-  "item_count": 220,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.17.0-beta1",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1",
+      "published": "2026-09-09T17:13:24Z",
+      "preview": "1.17.0-beta1 (September 09, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and init no longer requires the -allow-experimental-features flag. See https://developer.hashicorp.com/terraform/policy for more information. ( #38970 ) ENHANCEMENTS: command/init: Enrich log messages with provider versions ( #38918 ) test: Add mock_pro",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "0.12.12",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.12",
+      "published": "2026-09-09T16:45:15Z",
+      "preview": "Release Notes Released on 2026-09-09. The executables in our macOS and Windows release archives and uv and uv_build wheels are now code-signed. macOS executables are signed with an Apple Developer ID certificate and notarized by Apple. Windows executables have timestamped Authenticode signatures from Azure Artifact Signing. This enables verification of the release publisher and binary integrity, supports publisher-based allowlisting, and should reduce security warnings and antivirus false positives. Bug fixes Exclude distributions uploaded after the exclude-newer cutoff from lockfiles and gene",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "44.73.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.73.0",
