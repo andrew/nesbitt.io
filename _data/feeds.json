@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-09T15:28:05Z",
-  "cutoff": "2026-08-10T15:28:00Z",
+  "generated": "2026-09-09T16:30:35Z",
+  "cutoff": "2026-08-10T16:30:30Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.73.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.73.0",
+      "published": "2026-09-09T15:52:35Z",
+      "preview": "44.73.0 (2026-09-09) Features automerge: attempt branch automerge before falling back to a PR on merge queue rejection ( #45724 ) ( 4573aa6 ) github: add support for using merge queues without auto merge ( #45721 ) ( 7b25e97 ), closes #45252 gitlab: merge MRs through merge trains via the platform merge queue API ( #45722 ) ( 5f91549 ) Miscellaneous Chores deps: update github/codeql-action action to v4.38.0 (main) ( #45816 ) ( 40aedc3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.72.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.72.0",
@@ -117,14 +125,6 @@
       "preview": "RubyGems Changes already released in 4.0.x are not repeated here. Features: Add content addressable gems support. Pull request #9773 by Jenny Shen Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Rubygems: Add PQC ML-DSA support for cryptographically signed gems workflow. Pull request #9697 by Jun Aruga Preserve non-UTF-8 legacy gem metadata. Pull request #9835 by Stanislav (Stas) Katkov Add an opt-in OS credential store for gem and bundler credentials. Pull request #9671 by Hiroshi SHIBATA Add --cooldown to gem install, update and outdated. Pull",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "44.69.13",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.69.13",
-      "published": "2026-09-09T02:56:12Z",
-      "preview": "44.69.13 (2026-09-09) Build System deps: update dependency @renovatebot/pgp to v1.4.1 (main) ( #45784 ) ( f7e6afb ) deps: update node.js to v24.21.0 (main) ( #45785 ) ( e318ccb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "4.1.0.beta1 Released",
