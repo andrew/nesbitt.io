@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-08T23:24:03Z",
-  "cutoff": "2026-08-09T23:24:00Z",
+  "generated": "2026-09-09T01:01:36Z",
+  "cutoff": "2026-08-10T01:01:32Z",
   "feed_count": 83,
-  "item_count": 221,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -1781,14 +1781,6 @@
       "preview": "⚠️ Breaking changes Logs and JSON outputs are now properly handled together but at the cost of some adaptations of the JSON output. If you use --json , you might need to adapt your applications' logic to handle this change. For full background on the issue, see: #4202 You can update micromamba to this version using: micromamba self-update Enhancements: [libmamba, micromamba] Refactor and clean up by @Hind-M in #4359 [libmamba, libmambapy] feat: Support excluding recent builds using timestamp ( --exclude-newer ) by @jezdez in #4228 [all] Opt out link scripts execution by @Hind-M in #4325 Bug fi",
       "source": "Mamba releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "What's different in pnpm 12",
-      "url": "https://pnpm.io/blog/whats-different-in-pnpm-12",
-      "published": "2026-08-10T00:00:00Z",
-      "preview": "pnpm 12 is a rewrite of pnpm in Rust, and it is stable. Upgrading should not feel like a migration. Apart from the differences below, it keeps the commands, flags, settings, and lockfile format of pnpm 11, and the documentation applies to both versions.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
