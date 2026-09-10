@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-10T13:26:17Z",
-  "cutoff": "2026-08-11T13:26:12Z",
+  "generated": "2026-09-10T14:27:56Z",
+  "cutoff": "2026-08-11T14:27:51Z",
   "feed_count": 83,
   "item_count": 219,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.79.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.79.0",
+      "published": "2026-09-10T14:06:40Z",
+      "preview": "44.79.0 (2026-09-10) Features config: add inheritConfigTrusted to trust inherited-config hostRules ( 238e15a ) host-rules: add allowInternal ( 09d2da2 ) Bug Fixes config: surface blocked hosts more clearly when resolving config ( acb46bc ) util/host-rules: resolve enabled per trust tier ( 7d3fe44 ) util/http: allow blocking requests to internal hosts ( 29a7b9c ) workers/repository/init: surface inherited-config validation errors ( 270a3b7 ) Code Refactoring host-rules: add an inherited trust tier ( 7386ea4 ) util/http: add host guard address classifier ( 0db7cdd ) util/http: share options prep",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.78.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.78.0",
@@ -139,14 +147,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.73.0",
       "published": "2026-09-09T15:52:35Z",
       "preview": "44.73.0 (2026-09-09) Features automerge: attempt branch automerge before falling back to a PR on merge queue rejection ( #45724 ) ( 4573aa6 ) github: add support for using merge queues without auto merge ( #45721 ) ( 7b25e97 ), closes #45252 gitlab: merge MRs through merge trains via the platform merge queue API ( #45722 ) ( 5f91549 ) Miscellaneous Chores deps: update github/codeql-action action to v4.38.0 (main) ( #45816 ) ( 40aedc3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.72.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.72.0",
-      "published": "2026-09-09T14:35:40Z",
-      "preview": "44.72.0 (2026-09-09) Features manager: share OCI Helm chart resolution across managers ( #45760 ) ( be13c9f ) Bug Fixes merge-confidence: don't require auth in platform=local ( #45769 ) ( f2896de ) Code Refactoring lint: enforce err key for errors in logger metadata ( #45759 ) ( b2d3b64 ) Build System deps: update dependency prettier to v3.9.6 (main) ( #45815 ) ( 9d74625 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
