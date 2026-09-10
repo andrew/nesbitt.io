@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-10T21:23:20Z",
-  "cutoff": "2026-08-11T21:23:15Z",
+  "generated": "2026-09-10T22:24:24Z",
+  "cutoff": "2026-08-11T22:24:19Z",
   "feed_count": 83,
   "item_count": 222,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.79.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.79.3",
+      "published": "2026-09-10T22:02:36Z",
+      "preview": "44.79.3 (2026-09-10) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.3 (main) ( #45862 ) ( 7facc6e ) Miscellaneous Chores deps: update astral-sh/setup-uv action to v10.1.0 (main) ( #45858 ) ( a13d962 ) deps: update dependency astral-sh/uv to v0.12.13 (main) ( #45859 ) ( 692322e ) deps: update dependency uv to v0.12.13 (main) ( #45860 ) ( 15a137c ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.5 (main) ( #45857 ) ( 26510c5 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.6 (main) ( #45861 ) ( 0fd32ad )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.9.5",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.5",
@@ -157,14 +165,6 @@
       "preview": "pnpm 12.4 installs crates and Python packages next to npm packages in the same",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.74.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.74.1",
-      "published": "2026-09-09T23:48:34Z",
-      "preview": "44.74.1 (2026-09-09) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.96.2 (main) ( #45827 ) ( 1e3547b ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.12 (main) ( #45821 ) ( 760b8be ) deps: update dependency memfs to v4.69.1 (main) ( #45823 ) ( c64e6bf ) deps: update dependency uv to v0.12.12 (main) ( #45822 ) ( 4577384 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.9.4: Nix Bootstrap, Environment Selectors, and Man Pages",
