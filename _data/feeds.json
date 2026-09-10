@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-10T20:25:53Z",
-  "cutoff": "2026-08-11T20:25:48Z",
+  "generated": "2026-09-10T21:23:20Z",
+  "cutoff": "2026-08-11T21:23:15Z",
   "feed_count": 83,
   "item_count": 222,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.9.5",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.5",
+      "published": "2026-09-10T21:17:52Z",
+      "preview": "(bootstrap) support current-host macOS defaults by @azohra in […",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.5",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.5",
+      "published": "2026-09-10T21:17:27Z",
+      "preview": "Release vfox 2026.9.5",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "0.12.13",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.13",
@@ -653,22 +669,6 @@
       "preview": "1.16.1 (September 2, 2026) BUG FIXES: cloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations ( #38751 ) Support referencing modules containing dynamic sources in Terraform Test ( #38950 ) stacks: Fixed validation to ensure the provider versions in the lock file and configuration are compatible. ( #38829 ) Fix panic when import identity references sensitive value ( #39013 ) import: Fixed a bug where import blocks would be ignored when multiple imports targeted different instances of a resource config using for_each or count . ( #39068 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "v2026.9.1: Bootstrap firewall limiting, scoped locked mode, and lazy tools in tasks",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.1",
-      "published": "2026-09-02T13:48:24Z",
-      "preview": "This release expands bootstrap system setup with firewall rate limiting and more systemd directives, adds a scoped locked mode for mixing distribution and user tool policies, and fixes lazy tools so they install when invoked from tasks and mise x . Added bootstrap: New action = \"limit\" for incoming TCP firewall rules rate-limits connections per source. It maps to UFW's native limiting and bounded per-source IPv4/IPv6 nftables meters; firewalld fails closed since it cannot express safe per-source limiting. Limit rules are treated as preserving SSH access by the lockout guard. ( #12669 by @jdx )",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "aqua-registry-v2026.9.0",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.9.0",
-      "published": "2026-09-02T12:30:31Z",
-      "preview": "Release aqua-registry 2026.9.0",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.9.1",
