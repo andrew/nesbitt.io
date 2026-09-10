@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-10T03:32:35Z",
-  "cutoff": "2026-08-11T03:32:32Z",
+  "generated": "2026-09-10T05:27:47Z",
+  "cutoff": "2026-08-11T05:27:41Z",
   "feed_count": 83,
-  "item_count": 224,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -1796,22 +1796,6 @@
       "published": "2026-08-11T11:17:09Z",
       "preview": "Features & Improvements Defer command action and Python installer imports until their corresponding runtime paths execute. ( #3673 ) Add {run_cwd} placeholder for scripts to reference the original working directory. ( #3734 ) Add opt-in canonical lock input freshness via tool.pdm.resolution.lock_inputs while retaining sticky lockfile behavior and legacy hash fallback for existing lock files. ( #3821 ) Integrate argcomplete for simplified command-line completion scripts. ( #3823 ) Bug Fixes Keep workspace members in their explicitly declared dependency groups instead of adding them to default i",
       "source": "PDM releases",
-      "category": "Python"
-    },
-    {
-      "title": "Hatch v1.18.0",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.18.0",
-      "published": "2026-08-11T05:19:57Z",
-      "preview": "Changed: Upgrade default CPython distributions to 20260807 Added: Add the sources environment option, which redirects dependencies to a local path, Git repository, URL, alternate index, or workspace member at install time without altering published metadata. The top-level [tool.hatch.sources] table is an alias for the default environment, environments inherit sources entry by entry, the HATCH_NO_SOURCES environment variable disables them, and hatch dep show sources reports what each source redirects Add the --all / -a flag to the build command to build the workspace root and every workspace me",
-      "source": "Hatch releases",
-      "category": "Python"
-    },
-    {
-      "title": "Hatchling v1.32.0",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.0",
-      "published": "2026-08-11T05:05:18Z",
-      "preview": "Changed: Bump default core metadata version to 2.5 Add tomlkit as a runtime dependency, which is required to rewrite pyproject.toml when setting a static version Added: The version command can now set a version that is statically defined by the project.version field, updating pyproject.toml in place. Pass --force to allow an explicit downgrade Fixed: Allow the ; private annotation on project.import-names and project.import-namespaces entries rather than rejecting them as invalid import names. Reject project.readme paths that are absolute or resolve outside of the project directory.",
-      "source": "Hatch releases",
       "category": "Python"
     }
   ]
