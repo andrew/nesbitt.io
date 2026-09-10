@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-10T05:27:47Z",
-  "cutoff": "2026-08-11T05:27:41Z",
+  "generated": "2026-09-10T08:35:35Z",
+  "cutoff": "2026-08-11T08:35:31Z",
   "feed_count": 83,
   "item_count": 222,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.75.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.75.2",
+      "published": "2026-09-10T07:41:08Z",
+      "preview": "44.75.2 (2026-09-10) Build System deps: update dependency @redis/client to v6 (main) ( #45789 ) ( 619ce40 ) Continuous Integration raise coverage thresholds ( #45831 ) ( 069c950 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.75.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.75.1",
@@ -155,14 +163,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.71.1",
       "published": "2026-09-09T11:54:11Z",
       "preview": "44.71.1 (2026-09-09) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.96.1 (main) ( #45803 ) ( c55a988 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.71.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.71.0",
-      "published": "2026-09-09T10:18:29Z",
-      "preview": "44.71.0 (2026-09-09) Features presets/monorepo: add convex monorepo ( #45797 ) ( 25fe03a ) presets/workarounds: group commander major update packages ( #45801 ) ( 7c03a7e ) Bug Fixes http: improve warning message for ignored cross origin requests ( #45802 ) ( 1d34441 ) Miscellaneous Chores renovate: group commander packages for major updates ( #45800 ) ( 909b5be ) Build System deps: update dependency got to v15.1.0 (main) ( #45799 ) ( 4853c33 ) deps: update dependency got to v16 (main) ( #45792 ) ( 0f33734 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
