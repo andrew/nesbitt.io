@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-10T12:39:19Z",
-  "cutoff": "2026-08-11T12:39:14Z",
+  "generated": "2026-09-10T13:26:17Z",
+  "cutoff": "2026-08-11T13:26:12Z",
   "feed_count": 83,
-  "item_count": 220,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.78.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.78.0",
+      "published": "2026-09-10T13:02:53Z",
+      "preview": "44.78.0 (2026-09-10) Features manager/github-actions: extract expo GitHub actions' eas-version ( #45846 ) ( 6d67f70 ) Bug Fixes changelog: log external host errors below the error level ( #45798 ) ( 5ec380f ) manager/npm: keep workspace entries when massaging lockstep siblings ( #45786 ) ( 76d55bf ) Code Refactoring emojify pr body notes ( #45646 ) ( 4afe14f ) platform/utils/pr-body: treat truncation as an \"Important\" callout ( #45645 ) ( c387bc1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.77.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.77.0",
@@ -139,14 +147,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.72.0",
       "published": "2026-09-09T14:35:40Z",
       "preview": "44.72.0 (2026-09-09) Features manager: share OCI Helm chart resolution across managers ( #45760 ) ( be13c9f ) Bug Fixes merge-confidence: don't require auth in platform=local ( #45769 ) ( f2896de ) Code Refactoring lint: enforce err key for errors in logger metadata ( #45759 ) ( b2d3b64 ) Build System deps: update dependency prettier to v3.9.6 (main) ( #45815 ) ( 9d74625 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.71.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.71.3",
-      "published": "2026-09-09T14:06:05Z",
-      "preview": "44.71.3 (2026-09-09) Miscellaneous Chores deps: update dependency graphql to v17 (main) ( #45814 ) ( 0c4abf8 ) Code Refactoring use modern neotraverse API ( #45809 ) ( 634d3b6 ) Build System deps: update commander to v15 (main) ( #45804 ) ( c648a3b ) deps: update dependency neotraverse to v1 (main) ( #45806 ) ( f36f91e ) deps: update dependency xmldoc to v3 (main) ( #45813 ) ( 2428a40 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1772,14 +1772,6 @@
       "published": "2026-08-11T14:37:20Z",
       "preview": "What's Changed sbom: build pkg:brew purls via Vulns::Purl by @andrew in #23488 Report skipped dependent upgrades by @MikeMcQuaid in #23491 Allow cask runs to access the network by @MikeMcQuaid in #23497 Full Changelog : 6.0.16...6.0.17",
       "source": "Homebrew releases",
-      "category": "System"
-    },
-    {
-      "title": "1.18.1",
-      "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.1",
-      "published": "2026-08-11T12:59:57Z",
-      "preview": "Security fixes: Fix sandbox escape with full host filesystem read/write access via symlink attack on app data directories ( GHSA-8688-9x26-hhxj ) Fix local root privilege escalation via revokefs symlink path traversal and commit tampering ( GHSA-qrwq-7qwx-q9rp ) Fix arbitrary root write via symlink and path traversal in extra-data extraction ( GHSA-fqx6-vh4p-42cg ) Fix arbitrary root write via path traversal in flatpak build-init ( GHSA-8qxj-x646-phcm ) Fix arbitrary host file read via hardlink path traversal in OCI archive extraction ( GHSA-9rww-v4mm-x4jg ) Fix path traversal via unvalidated ",
-      "source": "Flatpak releases",
       "category": "System"
     }
   ]
