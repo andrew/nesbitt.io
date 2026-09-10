@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-09T23:24:30Z",
-  "cutoff": "2026-08-10T23:24:25Z",
+  "generated": "2026-09-10T01:00:16Z",
+  "cutoff": "2026-08-11T01:00:12Z",
   "feed_count": 83,
-  "item_count": 223,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,20 +23,28 @@
   ],
   "items": [
     {
-      "title": "v3.22.0",
+      "title": "Helm v3.22.0",
       "url": "https://github.com/helm/helm/releases/tag/v3.22.0",
-      "published": "2026-09-09T22:30:16Z",
-      "preview": "Helm release v3.22.0",
+      "published": "2026-09-10T00:12:40Z",
+      "preview": "Helm v3.22.0 is a feature release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes primarily dependency updates and k8s-io group to 0.37.0 Installation and Upgrading Download Helm v3.22.0. The common platform binaries are here: MacOS amd64 ( checksum / bd1d09f316558dda23698",
       "source": "Helm releases",
       "category": "Containers"
     },
     {
-      "title": "v4.3.0",
+      "title": "Helm v4.3.0",
       "url": "https://github.com/helm/helm/releases/tag/v4.3.0",
-      "published": "2026-09-09T22:19:26Z",
-      "preview": "Helm release v4.3.0",
+      "published": "2026-09-10T00:12:24Z",
+      "preview": "Helm v4.3.0 is a feature release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes feat: Add duration functions by @aeroyorch in #31695 feat(engine): add debug logging when lookup returns empty by @ogulcanaydogan in #32205 feat: add ownership verification before deleting res",
       "source": "Helm releases",
       "category": "Containers"
+    },
+    {
+      "title": "44.74.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.74.1",
+      "published": "2026-09-09T23:48:34Z",
+      "preview": "44.74.1 (2026-09-09) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.96.2 (main) ( #45827 ) ( 1e3547b ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.12 (main) ( #45821 ) ( 760b8be ) deps: update dependency memfs to v4.69.1 (main) ( #45823 ) ( c64e6bf ) deps: update dependency uv to v0.12.12 (main) ( #45822 ) ( 4577384 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "v2026.9.4: Nix Bootstrap, Environment Selectors, and Man Pages",
@@ -155,14 +163,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.70.1",
       "published": "2026-09-09T08:01:45Z",
       "preview": "44.70.1 (2026-09-09) Build System deps: update dependency azure-devops-node-api to v17 (main) ( #45790 ) ( 6501ecb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.70.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.70.0",
-      "published": "2026-09-09T06:52:20Z",
-      "preview": "44.70.0 (2026-09-09) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.96.0 (main) ( #45783 ) ( ab056dc ) Miscellaneous Chores deps: update zizmor (main) ( #45788 ) ( f93caed )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1637,6 +1637,14 @@
       "preview": "Release Notes Released on 2026-08-14. Python Add CPython 3.10.21, 3.11.16, and 3.12.14 ( #21138 ) Prefer newer versions and standard variants when selecting between equally prioritized Python interpreters ( #21134 ) Enhancements Simplify errors and hints for invalid editable requirements, and redact credentials in requirement URLs ( #21130 ) Preview features Allow --index and --default-index to select configured package indexes by name with the index-by-name preview feature ( #17455 ) Include distribution artifact URLs and hashes in CycloneDX SBOM exports by default ( #21131 ) Fall back to log",
       "source": "uv releases",
       "category": "Python"
+    },
+    {
+      "title": "3.3.3",
+      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.3",
+      "published": "2026-08-14T15:52:09Z",
+      "preview": "apt Debian release 3.3.3",
+      "source": "APT releases",
+      "category": "System"
     },
     {
       "title": "Helm v4.2.4",
