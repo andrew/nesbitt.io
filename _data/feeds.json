@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-10T17:24:48Z",
-  "cutoff": "2026-08-11T17:24:43Z",
+  "generated": "2026-09-10T20:25:53Z",
+  "cutoff": "2026-08-11T20:25:48Z",
   "feed_count": 83,
-  "item_count": 218,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.13",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.13",
+      "published": "2026-09-10T19:27:24Z",
+      "preview": "Release Notes Released on 2026-09-10. Python Add GraalPy 3.13.0 ( #21431 ) Enhancements Verify hashes when downloading PEP 658 metadata sidecars ( #21563 ) Preview features Respect ty exclusions when uv check automatically selects members of a virtual workspace ( #21555 ) Performance Avoid full wheel downloads during resolution by reusing supported hashes from direct URL fragments when metadata is available separately ( #21279 ) Bug fixes Edit Windows entry-point launcher resources in memory to support Nano Server and reduce antivirus contention ( #18713 ) Prefer core-metadata over legacy alia",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "pnpm 12.4.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.1",
@@ -125,6 +133,14 @@
       "preview": "Helm v4.3.0 is a feature release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes feat: Add duration functions by @aeroyorch in #31695 feat(engine): add debug logging when lookup returns empty by @ogulcanaydogan in #32205 feat: add ownership verification before deleting res",
       "source": "Helm releases",
       "category": "Containers"
+    },
+    {
+      "title": "pnpm 12.4",
+      "url": "https://pnpm.io/blog/releases/12.4",
+      "published": "2026-09-10T00:00:00Z",
+      "preview": "pnpm 12.4 installs crates and Python packages next to npm packages in the same",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.74.1",
@@ -325,6 +341,14 @@
       "preview": "One of the biggest challenges Rust developers report in our annual surveys is a subpar debugging experience. So, back in February, we ran our first Rust Debugging Survey , in the hopes of identifying how Rust developers are using debuggers and what problems they are facing when doing so. We received over 2,300 responses, and we'd like to thank everyone who took the time to participate in the survey! In this report, we'll go over some of the results of the survey. If you'd like, you can also check out the complete results of the survey . If you'd like to skip ahead to any particular section, yo",
       "source": "Rust Blog",
       "category": "Rust"
+    },
+    {
+      "title": "pnpm 11.26",
+      "url": "https://pnpm.io/blog/releases/11.26",
+      "published": "2026-09-07T00:00:00Z",
+      "preview": "pnpm 11.26 brings the JavaScript CLI level with what pnpm 12 gained over the",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "pnpm 11.26",
@@ -701,6 +725,14 @@
       "preview": "RubyGems 4.0.20 includes enhancements, bug fixes and documentation and Bundler 4.0.20 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.20 RubyGems Release Notes Enhancements: Print a release notes link instead of the whole changelog on gem update --system . Pull request #9794 by hsbt Installs bundler 4.0.20 as a default gem. Bug fixes: Only coerce exact true and false gemrc values to booleans. Pull request #9822 by hsb",
       "source": "RubyGems Blog",
       "category": "Ruby"
+    },
+    {
+      "title": "pnpm 12.2-12.3",
+      "url": "https://pnpm.io/blog/releases/12.2-12.3",
+      "published": "2026-09-02T00:00:00Z",
+      "preview": "pnpm 12.2 and 12.3 are largely a catch-up pair: a long list of things pnpm 11",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "0.12.9",
