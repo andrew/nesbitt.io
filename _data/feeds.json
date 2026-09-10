@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-10T15:28:15Z",
-  "cutoff": "2026-08-11T15:28:11Z",
+  "generated": "2026-09-10T17:24:48Z",
+  "cutoff": "2026-08-11T17:24:43Z",
   "feed_count": 83,
   "item_count": 218,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12.4.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.1",
+      "published": "2026-09-10T17:00:15Z",
+      "preview": "pnpm 12.4.1 fixes installs that failed on filesystems refusing hard links or clones, on Android, and under nodeLinker: hoisted . Repeat installs are faster. Patch Changes Installing packages pnpm install no longer fails with Operation not permitted when the filesystem refuses a hard link or a copy-on-write clone #14722 . Under packageImportMethod: auto and clone-or-copy , pnpm copies the file instead. EdenFS checkouts, which have no hard links, and rootless containers, which refuse the clone syscall, both hit this. An explicit packageImportMethod: hardlink or clone still reports the error. pnp",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpr 0.1.0-alpha.11",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.11",
+      "published": "2026-09-10T16:56:04Z",
+      "preview": "pnpr now serves Cargo, Python, and container registries alongside npm, publishes across all of them in one transaction, and signs users in through OIDC. Minor Changes Cargo and Python registries pnpr now serves Cargo and Python registries alongside npm from one instance. Hosted Cargo registries support cargo publish , cargo yank , and crate downloads. Hosted Python registries support pip install --index-url and twine upload . Upstream registries can proxy crates.io and PyPI with checksum verified downloads, and a router can combine sources from all three ecosystems. A registry that serves more",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.79.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.79.2",
+      "published": "2026-09-10T16:52:57Z",
+      "preview": "44.79.2 (2026-09-10) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.1 (main) ( #45854 ) ( f4ceee4 ) Miscellaneous Chores lint: add oxlint rule to block dev-dependency imports in production code ( #45851 ) ( 134dc6c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.79.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.79.1",
@@ -125,14 +149,6 @@
       "preview": "Release vfox 2026.9.4",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.74.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.74.0",
-      "published": "2026-09-09T17:25:35Z",
-      "preview": "44.74.0 (2026-09-09) Features presets: vale package versions custom manager ( #45817 ) ( b5121c7 ) Miscellaneous Chores deps: update dependency memfs to v4.69.0 (main) ( #45820 ) ( d37de94 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.17.0-beta1",
@@ -775,28 +791,12 @@
       "category": "Registries"
     },
     {
-      "title": "pnpm 12.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.2.0",
-      "published": "2026-09-01T00:01:41Z",
-      "preview": "Minor Changes Catalogs can now resolve workspace dependencies through the workspace: protocol. Patch Changes Fixed pnpm audit --fix failing with ERR_PNPM_INVALID_FIX_OPTION when used without a value, including when another flag follows it, as in pnpm audit --fix --json #13261 . Fixed pnpm audit --fix=override ignoring the saveExact and savePrefix settings when writing vulnerability overrides #11523 . Authenticate Node.js runtime downloads from nodeDownloadMirrors with URL-scoped npm registry credentials, including bearer tokens, basic auth, and tokenHelper pnpm/pnpm#14334 . Fixed detached chil",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "Announcing rustup 1.29.1",
       "url": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
       "published": "2026-09-01T00:00:00Z",
       "preview": "The rustup team is happy to announce the release of rustup version 1.29.1. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What's new in rustup 1.29.1 The headlines of this release are: Concurrency in certain rustup operations has been improved: When running rustup update , rustup will first check for possible updates in parallel. pr#4752 When running rustup component add with multiple components, they will be installed concurrently. pr#4790 Implicit installation of the active toolchain in rustup-init and ",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "pnpr 0.1.0-alpha.10",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.10",
-      "published": "2026-08-31T23:31:34Z",
-      "preview": "Patch Changes A shared build artifact publication that cannot unregister itself no longer stops the registry reclaiming space or refusing further publications. A publication says at intervals that it is still working, and a registration that has gone quiet for an hour is written off, so a publication whose bookkeeping write failed stops holding back the collector that reclaims unreferenced blobs and returns the compatibility scopes a failed publication claimed, and stops counting toward the limit on publications in flight.",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "Helm v3.22.0-rc.1",
