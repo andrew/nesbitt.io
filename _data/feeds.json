@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-11T09:29:58Z",
-  "cutoff": "2026-08-12T09:29:54Z",
+  "generated": "2026-09-11T11:25:50Z",
+  "cutoff": "2026-08-12T11:25:46Z",
   "feed_count": 83,
   "item_count": 224,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.82.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.82.0",
+      "published": "2026-09-11T11:23:29Z",
+      "preview": "44.82.0 (2026-09-11) Features manager/github-actions: support renovatebot/github-action renovate-image ( #45873 ) ( 6580ef4 ) manager/github-actions: support renovatebot/github-action's renovate-version ( #45872 ) ( e4307d5 ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.7 (main) ( #45882 ) ( 282a0f3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.81.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.81.0",
+      "published": "2026-09-11T10:43:26Z",
+      "preview": "44.81.0 (2026-09-11) Features datasource/npm: integrity and tarball extraction ( #44315 ) ( ac22678 ) manager/mise: support gitlab backend ( #44116 ) ( 141e136 ) Miscellaneous Chores deps: update dependency memfs to v4.71.0 (main) ( #45871 ) ( 7217c0b ) Tests close remaining line coverage gaps ( #45870 ) ( c23e9f0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.80.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.80.0",
@@ -139,22 +155,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.79.0",
       "published": "2026-09-10T14:06:40Z",
       "preview": "44.79.0 (2026-09-10) Features config: add inheritConfigTrusted to trust inherited-config hostRules ( 238e15a ) host-rules: add allowInternal ( 09d2da2 ) Bug Fixes config: surface blocked hosts more clearly when resolving config ( acb46bc ) util/host-rules: resolve enabled per trust tier ( 7d3fe44 ) util/http: allow blocking requests to internal hosts ( 29a7b9c ) workers/repository/init: surface inherited-config validation errors ( 270a3b7 ) Code Refactoring host-rules: add an inherited trust tier ( 7386ea4 ) util/http: add host guard address classifier ( 0db7cdd ) util/http: share options prep",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.78.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.78.0",
-      "published": "2026-09-10T13:02:53Z",
-      "preview": "44.78.0 (2026-09-10) Features manager/github-actions: extract expo GitHub actions' eas-version ( #45846 ) ( 6d67f70 ) Bug Fixes changelog: log external host errors below the error level ( #45798 ) ( 5ec380f ) manager/npm: keep workspace entries when massaging lockstep siblings ( #45786 ) ( 76d55bf ) Code Refactoring emojify pr body notes ( #45646 ) ( 4afe14f ) platform/utils/pr-body: treat truncation as an \"Important\" callout ( #45645 ) ( c387bc1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.77.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.77.0",
-      "published": "2026-09-10T11:32:07Z",
-      "preview": "44.77.0 (2026-09-10) Features config: add experimental exitCodeForErrors option ( #45752 ) ( 9cecb86 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
