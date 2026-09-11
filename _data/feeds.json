@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-11T21:23:58Z",
-  "cutoff": "2026-08-12T21:23:53Z",
+  "generated": "2026-09-11T22:25:37Z",
+  "cutoff": "2026-08-12T22:25:32Z",
   "feed_count": 83,
-  "item_count": 220,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -1773,14 +1773,6 @@
       "preview": "Security This release addresses CVE-2026-57231, where a malicious image using malformed Env entries could cause host environment variables to leak into containers run based on the image, including the ability to use the * glob operator to leak large numbers of environment variables without knowing their exact names ( GHSA-4hq8-gpf5-8p68 ). This release addresses CVE-2026-19730 where the podman quadlet install --replace command did not truncate the file being replaced, meaning replacing a longer file with a shorter one would result in content from the original file incorrectly being retained. B",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "2.35.2",
-      "url": "https://github.com/NixOS/nix/releases/tag/2.35.2",
-      "published": "2026-08-12T22:01:50Z",
-      "preview": "Tagging release 2.35.2",
-      "source": "Nix releases",
-      "category": "System"
     }
   ]
 }
