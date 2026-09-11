@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-11T20:27:25Z",
-  "cutoff": "2026-08-12T20:27:21Z",
+  "generated": "2026-09-11T21:23:58Z",
+  "cutoff": "2026-08-12T21:23:53Z",
   "feed_count": 83,
-  "item_count": 213,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "rc/v4.1.0.1 (release candidate)",
+      "url": "https://github.com/commercialhaskell/stack/releases/tag/rc%2Fv4.1.0.1",
+      "published": "2026-09-11T20:52:34Z",
+      "preview": "Release notes: The change in major version from 3.x to 4.1 marks the introduction of Stack's support for GHC's Backpack module system for cross-package use. Changes since v3.11.1: Major changes: Stack now supports GHC's Backpack module system for cross-package use. (Private Backpack, where signatures and implementations are in the same package, was already supported.) When a package uses signatures and mixins to depend on an abstract interface provided by another package, Stack automatically creates the extra instantiation build steps that Cabal requires. This includes support for explicit ren",
+      "source": "Stack releases",
+      "category": "Registries"
+    },
     {
       "title": "pnpm 12.4.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.1",
@@ -375,6 +383,14 @@
       "category": "System"
     },
     {
+      "title": "Rust debugging survey 2026 results",
+      "url": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
+      "published": "2026-09-07T00:00:00Z",
+      "preview": "One of the biggest challenges Rust developers report in our annual surveys is a subpar debugging experience. So, back in February, we ran our first Rust Debugging Survey , in the hopes of identifying how Rust developers are using debuggers and what problems they are facing when doing so. We received over 2,300 responses, and we'd like to thank everyone who took the time to participate in the survey! In this report, we'll go over some of the results of the survey. If you'd like, you can also check out the complete results of the survey . If you'd like to skip ahead to any particular section, yo",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
       "title": "pnpm 11.26",
       "url": "https://pnpm.io/blog/releases/11.26",
       "published": "2026-09-07T00:00:00Z",
@@ -655,6 +671,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "Announcing Rust 1.98.1",
+      "url": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
+      "published": "2026-09-03T00:00:00Z",
+      "preview": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.98.1 Rust 1.98.1 fixes a miscompilation in vtable generation . In Rust 1.98.0, in some circumstances, rustc would incorrectly generate a trait object vtable with a null pointer where a function pointer should be. T",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
       "title": "v6.1.1",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.1",
       "published": "2026-09-02T16:35:51Z",
@@ -829,6 +853,14 @@
       "preview": "SDK 3.14.0-181.0.dev",
       "source": "Pub releases",
       "category": "Registries"
+    },
+    {
+      "title": "Announcing rustup 1.29.1",
+      "url": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
+      "published": "2026-09-01T00:00:00Z",
+      "preview": "The rustup team is happy to announce the release of rustup version 1.29.1. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What's new in rustup 1.29.1 The headlines of this release are: Concurrency in certain rustup operations has been improved: When running rustup update , rustup will first check for possible updates in parallel. pr#4752 When running rustup component add with multiple components, they will be installed concurrently. pr#4790 Implicit installation of the active toolchain in rustup-init and ",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "Helm v3.22.0-rc.1",
@@ -1167,6 +1199,14 @@
       "category": "Go"
     },
     {
+      "title": "Announcing our first Maintainers in Residence",
+      "url": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
+      "published": "2026-08-26T00:00:00Z",
+      "preview": "We are very happy to announce the Rust Project's first round of Maintainers in Residence: Gen Li ( @rami3l ), Chris Denton ( @ChrisDenton ), Alejandra González ( @blyxyas ), León Liehr ( @fmease ), and Maintainer Grant recipients: Jason Newcomb ( @Jarcho ) and Jonas Böttiger ( @joboet ). These contributors will be funded for their rust-lang maintenance activities for (at least) the following 12 months! The funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, th",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
       "title": "pnpm 12.0",
       "url": "https://pnpm.io/blog/releases/12.0",
       "published": "2026-08-26T00:00:00Z",
@@ -1279,14 +1319,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "rc/v4.1.0.1 (release candidate)",
-      "url": "https://github.com/commercialhaskell/stack/releases/tag/rc%2Fv4.1.0.1",
-      "published": "2026-08-22T20:46:06Z",
-      "preview": "Release notes: The change in major version from 3.x to 4.1 marks the introduction of Stack's support for GHC's Backpack module system for cross-package use. Changes since v3.11.1: Major changes: Stack now supports GHC's Backpack module system for cross-package use. (Private Backpack, where signatures and implementations are in the same package, was already supported.) When a package uses signatures and mixins to depend on an abstract interface provided by another package, Stack automatically creates the extra instantiation build steps that Cabal requires. This includes support for explicit ren",
-      "source": "Stack releases",
-      "category": "Registries"
-    },
-    {
       "title": "2.6.0~beta1",
       "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-beta1",
       "published": "2026-08-22T16:00:28Z",
@@ -1367,6 +1399,14 @@
       "category": "Maven"
     },
     {
+      "title": "Enabling the next-generation trait solver on nightly",
+      "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
+      "published": "2026-08-21T00:00:00Z",
+      "preview": "After nearly 4 years of active development, the next-generation trait solver is close to stabilization. We are enabling it by default on nightly to surface any remaining issues and plan to stabilize it in the next months. This is the largest single change to the Rust compiler since its initial release. It completely replaces how we prove where-clauses, normalize associated types, and much more. Please try out the latest nightly and open an issue if you encounter any bugs or regressions. This is an internal component of the compiler. The main benefits of this rework will come in the future. The",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
       "title": "0.99.0",
       "url": "https://github.com/rust-lang/cargo/releases/tag/0.99.0",
       "published": "2026-08-20T17:10:25Z",
@@ -1397,6 +1437,22 @@
       "preview": "RubyGems 4.0.19 includes enhancements, bug fixes and documentation and Bundler 4.0.19 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.19 RubyGems Release Notes Enhancements: Reject SafeMarshal collection lengths longer than the remaining input. Pull request #9756 by hsbt Installs bundler 4.0.19 as a default gem. Bug fixes: Fix gem uninstall –user-install crash when GEM_HOME does not exist. Pull request #9749 by hsbt D",
       "source": "RubyGems Blog",
       "category": "Ruby"
+    },
+    {
+      "title": "Announcing Rust 1.98.0",
+      "url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
+      "published": "2026-08-20T00:00:00Z",
+      "preview": "The Rust team is happy to announce a new version of Rust, 1.98.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.98.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.98.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
+      "title": "Supply chain attack on arrayref",
+      "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
+      "published": "2026-08-20T00:00:00Z",
+      "preview": "What happened On 2026-08-20 at 7:15 UTC we got a report that the proc-macro1 crate was malicious. The Rust Security Response Team verified this to be the case: the crate had a build script that was downloading a malicious payload. This crate proc-macro1 and others like it ( proc-macro-en , aovine , arone , aronenao , tinymember ) have been deleted. Furthermore, we discovered that the popular arrayref crate had recently been republished and made to depend on this crate, with the most recent versions yanked. We have removed the malicious version and unyanked the maliciously-yanked versions. Othe",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "[release-branch.go1.27] go1.27.0",
