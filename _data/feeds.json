@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-11T04:31:59Z",
-  "cutoff": "2026-08-12T04:31:56Z",
+  "generated": "2026-09-11T09:29:58Z",
+  "cutoff": "2026-08-12T09:29:54Z",
   "feed_count": 83,
   "item_count": 224,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.80.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.80.0",
+      "published": "2026-09-11T09:29:39Z",
+      "preview": "44.80.0 (2026-09-11) Features datasource/gitlab-releases: replace getJsonUnchecked with validated getJson ( #44145 ) ( da4cbf6 ) datasource/gitlab-tags: replace getJsonUnchecked with validated getJson ( #44144 ) ( e5ef25b ) Miscellaneous Chores deps: update dependency memfs to v4.70.0 (main) ( #45869 ) ( eadd7b4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "Windows Package Manager 1.30.140-preview",
       "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.140-preview",
@@ -147,14 +155,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.77.0",
       "published": "2026-09-10T11:32:07Z",
       "preview": "44.77.0 (2026-09-10) Features config: add experimental exitCodeForErrors option ( #45752 ) ( 9cecb86 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.76.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.76.0",
-      "published": "2026-09-10T11:04:43Z",
-      "preview": "44.76.0 (2026-09-10) Features manager/npm: support pnpm v11.23 url-keyed registries ( #45844 ) ( a4a5efa ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.12 (main) ( #45837 ) ( 113ea82 ) drop stale legacy-decryption coverage exclusion ( #45841 ) ( 8e965bf ), closes #39111 Tests util: cover remaining implicit else branches ( #45840 ) ( 8e19aef ) util: cover remaining lib/util coverage gaps ( #45832 ) ( b5211d4 ) Continuous Integration raise coverage thresholds to measured values ( #45843 ) ( 9344de3 ) tighten statements and functions coverage thresholds ( #45833 ) ( dfc9890",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
