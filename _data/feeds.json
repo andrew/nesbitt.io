@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-11T00:59:50Z",
-  "cutoff": "2026-08-12T00:59:44Z",
+  "generated": "2026-09-11T02:36:32Z",
+  "cutoff": "2026-08-12T02:36:27Z",
   "feed_count": 83,
   "item_count": 222,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.79.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.79.6",
+      "published": "2026-09-11T01:45:20Z",
+      "preview": "44.79.6 (2026-09-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.6 (main) ( #45866 ) ( 0e552f9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.9.5: macOS defaults, per-platform dotfiles, and complete lockfiles",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.5",
@@ -131,14 +139,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.76.0",
       "published": "2026-09-10T11:04:43Z",
       "preview": "44.76.0 (2026-09-10) Features manager/npm: support pnpm v11.23 url-keyed registries ( #45844 ) ( a4a5efa ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.12 (main) ( #45837 ) ( 113ea82 ) drop stale legacy-decryption coverage exclusion ( #45841 ) ( 8e965bf ), closes #39111 Tests util: cover remaining implicit else branches ( #45840 ) ( 8e19aef ) util: cover remaining lib/util coverage gaps ( #45832 ) ( b5211d4 ) Continuous Integration raise coverage thresholds to measured values ( #45843 ) ( 9344de3 ) tighten statements and functions coverage thresholds ( #45833 ) ( dfc9890",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.75.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.75.2",
-      "published": "2026-09-10T07:41:08Z",
-      "preview": "44.75.2 (2026-09-10) Build System deps: update dependency @redis/client to v6 (main) ( #45789 ) ( 619ce40 ) Continuous Integration raise coverage thresholds ( #45831 ) ( 069c950 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
