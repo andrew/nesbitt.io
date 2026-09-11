@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-11T13:28:16Z",
-  "cutoff": "2026-08-12T13:28:10Z",
+  "generated": "2026-09-11T15:27:21Z",
+  "cutoff": "2026-08-12T15:27:17Z",
   "feed_count": 83,
-  "item_count": 222,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12.4.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.1",
+      "published": "2026-09-11T14:55:01Z",
+      "preview": "pnpm 12.4.1 fixes installs that failed on filesystems refusing hard links or clones, on Android, and under nodeLinker: hoisted . Repeat installs are faster. Patch Changes Installing packages pnpm install no longer fails with Operation not permitted when the filesystem refuses a hard link or a copy-on-write clone #14722 . Under packageImportMethod: auto and clone-or-copy , pnpm copies the file instead. EdenFS checkouts, which have no hard links, and rootless containers, which refuse the clone syscall, both hit this. An explicit packageImportMethod: hardlink or clone still reports the error. pnp",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
@@ -125,14 +133,6 @@
       "preview": "Release Notes Released on 2026-09-10. Python Add GraalPy 3.13.0 ( #21431 ) Enhancements Verify hashes when downloading PEP 658 metadata sidecars ( #21563 ) Preview features Respect ty exclusions when uv check automatically selects members of a virtual workspace ( #21555 ) Performance Avoid full wheel downloads during resolution by reusing supported hashes from direct URL fragments when metadata is available separately ( #21279 ) Bug fixes Edit Windows entry-point launcher resources in memory to support Nano Server and reduce antivirus contention ( #18713 ) Prefer core-metadata over legacy alia",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 12.4.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.1",
-      "published": "2026-09-10T17:00:15Z",
-      "preview": "pnpm 12.4.1 fixes installs that failed on filesystems refusing hard links or clones, on Android, and under nodeLinker: hoisted . Repeat installs are faster. Patch Changes Installing packages pnpm install no longer fails with Operation not permitted when the filesystem refuses a hard link or a copy-on-write clone #14722 . Under packageImportMethod: auto and clone-or-copy , pnpm copies the file instead. EdenFS checkouts, which have no hard links, and rootless containers, which refuse the clone syscall, both hit this. An explicit packageImportMethod: hardlink or clone still reports the error. pnp",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpr 0.1.0-alpha.11",
@@ -1789,14 +1789,6 @@
       "preview": "Features A new command has been added, podman volume rename , to allow renaming volumes. Volumes created using volume drivers and volumes that are currently used by a container cannot be renamed ( #28189 ). A new command has been added, podman machine restart , to allow easy restart of VMs managed by podman machine ( #28366 ). The podman network rm command now includes a new option, --ignore , which suppresses errors when attempting to remove networks that do not exist ( #28363 ). The podman manifest push command now includes two new options, --retry and --retry-delay , which allow pushes to b",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "v1.16.0-rc1",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc1",
-      "published": "2026-08-12T15:22:32Z",
-      "preview": "1.16.0-rc1 (August 12, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. ( #37986 ) terraform_data : The new store block can hold ephemeral and sensitive values across plan and apply. ( #38298 ) Providers can now use nested blocks as computed values ( #38305 ) import: import blocks inside modules are now supported. ( #38352 ) Terraform is now available as a pre-built binary for Linux s390x (zLinux). ( #38384 ) Resource action triggers can now use on_failure modes of halt , taint , or continue . (",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
     }
   ]
 }
