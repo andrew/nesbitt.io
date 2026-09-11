@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-11T11:25:50Z",
-  "cutoff": "2026-08-12T11:25:46Z",
+  "generated": "2026-09-11T12:38:23Z",
+  "cutoff": "2026-08-12T12:38:19Z",
   "feed_count": 83,
-  "item_count": 224,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -1797,22 +1797,6 @@
       "preview": "1.16.0-rc1 (August 12, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. ( #37986 ) terraform_data : The new store block can hold ephemeral and sensitive values across plan and apply. ( #38298 ) Providers can now use nested blocks as computed values ( #38305 ) import: import blocks inside modules are now supported. ( #38352 ) Terraform is now available as a pre-built binary for Linux s390x (zLinux). ( #38384 ) Resource action triggers can now use on_failure modes of halt , taint , or continue . (",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "v1.17.0-alpha20260812",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260812",
-      "published": "2026-08-12T12:01:24Z",
-      "preview": "1.17.0-alpha20260812 (August 12, 2026) ENHANCEMENTS: command/init: Enrich log messages with provider versions ( #38918 ) BUG FIXES: funcs: pow and log no longer panic when result is not a number ( #38912 ) ephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previously were lost. We expect that any error diagnostics that were previously lost would have caused confusing downstream errors, so we do not anticipate this change to be breaking. ( #38989 ) NOTES: version: JSON output now includes a new format_vers",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
-    },
-    {
-      "title": "20260812t113900-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260812t113900-all",
-      "published": "2026-08-12T11:39:47Z",
-      "preview": "Deployment at 2026-08-12T11:39:40.328756Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     }
   ]
 }
