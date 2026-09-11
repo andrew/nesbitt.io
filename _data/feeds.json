@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-11T03:32:34Z",
-  "cutoff": "2026-08-12T03:32:30Z",
+  "generated": "2026-09-11T04:31:59Z",
+  "cutoff": "2026-08-12T04:31:56Z",
   "feed_count": 83,
-  "item_count": 223,
+  "item_count": 224,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,18 @@
   ],
   "items": [
     {
+      "title": "Windows Package Manager 1.30.140-preview",
+      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.140-preview",
+      "published": "2026-09-11T04:28:46Z",
+      "preview": "This is a servicing release of Windows Package Manager v1.30. If you find any bugs or problems, please help us out by filing an issue . New in v1.30 --ignore-unavailable flag for install Added a new --ignore-unavailable flag to the install command. When installing multiple packages, this flag allows the operation to continue with the remaining packages instead of failing entirely when one or more packages are not found in the configured sources. This brings the same behavior previously available with import --ignore-unavailable to direct multi-package installs. Bug Fixes Fixed an issue where w",
+      "source": "winget releases",
+      "category": "System"
+    },
+    {
       "title": "v2.15.3-rc1",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3-rc1",
-      "published": "2026-09-11T03:04:38Z",
-      "preview": "{\"buildNo\":\"build.3744\"}",
+      "published": "2026-09-11T03:34:39Z",
+      "preview": "What's Changed Component updates ⬆️ (cherry-pick) fix: avoid panic in user audit event resolver on nil event data ( #23461 ) by @Aloui-Ikram in #23501 (cherry-pick) fix: Constrain /registries/ping to the saved URL for existing registries ( #23463 ) by @Aloui-Ikram in #23502 (cherry-pick) Add a size limit for manifest uploads by @Aloui-Ikram in #23503 cherry-pick: fix(ui): use dark login background in dark mode by @bupd in #23539 ci: remove third-party docker action by @stonezdj in #23693 (cherry-pick) neutralize CSV formula in scan export by @stonezdj in #23696 (cherry-pick): prevent proxy-cac",
       "source": "Harbor releases",
       "category": "Containers"
     },
