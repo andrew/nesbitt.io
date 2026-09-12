@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-12T21:24:38Z",
-  "cutoff": "2026-08-13T21:24:34Z",
+  "generated": "2026-09-12T23:23:57Z",
+  "cutoff": "2026-08-13T23:23:53Z",
   "feed_count": 83,
-  "item_count": 214,
+  "item_count": 212,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.9.6",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.6",
+      "published": "2026-09-12T22:30:47Z",
+      "preview": "(bootstrap) declare Dock applications in order by @azohra in [#…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.9.4",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.9.4",
+      "published": "2026-09-12T22:30:22Z",
+      "preview": "Release aqua-registry 2026.9.4",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.8",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.8",
+      "published": "2026-09-12T22:30:11Z",
+      "preview": "Release vfox 2026.9.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "pnpm 11.27",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.27.0",
@@ -363,22 +387,6 @@
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.3",
       "published": "2026-09-08T06:50:25Z",
       "preview": "Release vfox 2026.9.3",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "v2026.9.2: Packslip Backend, SSH Relay, and Reimagined Install Progress",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.2",
-      "published": "2026-09-07T22:30:20Z",
-      "preview": "This is a large release headlined by the new stable packslip: backend for installing tools from a vendor's own signed release manifest, a read-only GitHub SSH relay for remote onboarding, redesigned install progress for both terminals and CI logs, and a rebuilt dotfiles-tracking model for bootstrap. It also carries dozens of fixes across shims, tasks, brew, Go, npm, and the schema, plus two security fixes. Highlights The packslip: backend is now generally available: install tools directly from a project's cryptographically signed release manifest, with signer pinning, trusted stampers, host-re",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.9.2",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.2",
-      "published": "2026-09-07T20:30:32Z",
-      "preview": "Release vfox 2026.9.2",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -725,14 +733,6 @@
       "preview": "1.16.1 (September 2, 2026) BUG FIXES: cloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations ( #38751 ) Support referencing modules containing dynamic sources in Terraform Test ( #38950 ) stacks: Fixed validation to ensure the provider versions in the lock file and configuration are compatible. ( #38829 ) Fix panic when import identity references sensitive value ( #39013 ) import: Fixed a bug where import blocks would be ignored when multiple imports targeted different instances of a resource config using for_each or count . ( #39068 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "vfox-v2026.9.1",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.1",
-      "published": "2026-09-02T12:30:26Z",
-      "preview": "Release vfox 2026.9.1",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "7.12.0.3",
@@ -1717,22 +1717,6 @@
       "preview": "Helm v3.21.4 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix(engine): prevent Files.Lines panic on empty file (backport to v3)- #32303 by @mahesh-sadupalli fix(provenance): migrate to ProtonMail/go-crypto to resolve GO-2026-5932- #32463 by @karan-vk ",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "Windows Package Manager 1.30.100-preview",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.100-preview",
-      "published": "2026-08-13T22:59:35Z",
-      "preview": "This is a preview build of WinGet for those interested in trying out upcoming features and fixes. While it has had some use and should be free of major issues, it may have bugs or usability problems. If you find any, please help us out by filing an issue . New in v1.30 --ignore-unavailable flag for install Added a new --ignore-unavailable flag to the install command. When installing multiple packages, this flag allows the operation to continue with the remaining packages instead of failing entirely when one or more packages are not found in the configured sources. This brings the same behavior",
-      "source": "winget releases",
-      "category": "System"
-    },
-    {
-      "title": "1.16.7",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.16.7",
-      "published": "2026-08-13T22:28:12Z",
-      "preview": "What's Changed 📄 docs: publish llms.txt from the docs build by @gaborbernat in #2000 🐛 fix(standalone): retry index fetch, resume dropped downloads by @gaborbernat in #2001 docs: correct the Windows default for PIPX_HOME by @aroh3006 in #2002 Handle multiple site-packages paths in virtual environments by @Cycloctane in #1999 New Contributors @aroh3006 made their first contribution in #2002 @Cycloctane made their first contribution in #1999 Full Changelog : 1.16.6...1.16.7",
-      "source": "pipx releases",
-      "category": "Python"
     }
   ]
 }
