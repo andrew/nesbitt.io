@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-11T22:25:37Z",
-  "cutoff": "2026-08-12T22:25:32Z",
+  "generated": "2026-09-12T00:59:14Z",
+  "cutoff": "2026-08-13T00:59:08Z",
   "feed_count": 83,
-  "item_count": 219,
+  "item_count": 220,
   "categories": [
     ".NET",
     "C/C++",
@@ -93,6 +93,14 @@
       "preview": "44.79.6 (2026-09-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.6 (main) ( #45866 ) ( 0e552f9 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "An update on the May spam-publishing campaign on rubygems.org",
+      "url": "https://blog.rubygems.org/2026/09/11/update-may-spam-publishing-campaign.html",
+      "published": "2026-09-11T00:00:00Z",
+      "preview": "Following reporting by The Wall Street Journal and the publication of research by Nightingale Collective , we want to clarify what we know about the spam-publishing campaign on rubygems.org in May 2026. We take the security of rubygems.org and the community that depends on it seriously. Our team reviewed the activity and discussed the findings with researchers from Nightingale Collective. The campaign involved newly registered accounts publishing spam packages. Socket previously documented related activity under the name GemStuffer . As described in our May status updates , we temporarily paus",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
     },
     {
       "title": "v2026.9.5: macOS defaults, per-platform dotfiles, and complete lockfiles",
