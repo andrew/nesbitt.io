@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-12T09:26:46Z",
-  "cutoff": "2026-08-13T09:26:43Z",
+  "generated": "2026-09-12T10:25:05Z",
+  "cutoff": "2026-08-13T10:25:00Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v11.27.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.27.0",
+      "published": "2026-09-12T10:01:21Z",
+      "preview": "v11.27.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
@@ -829,14 +837,6 @@
       "preview": "Feature: Add basic LoongArch64 architecture support and host detection. ( #20288 ) Feature: Add support for Xcode 26.6 . ( #20280 ) Feature: Add support for gcc 16.2 . ( #20280 ) Feature: Parse reference attributes from --ref in workspace add . ( #20269 ) Feature: Add raise_on_errors=True arg to CommandAPI.run , it now raises on all errors returned by commands. ( #20266 ) Feature: XcodeToolchain now accepts arbitrary extra xcconfig settings via tc.build_settings , for build settings with no dedicated conf. ( #20256 ). Docs: 📃 Feature: conan workspace open with no arguments will read the conanw",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "pnpm 12.2.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.2.1",
-      "published": "2026-09-01T00:57:45Z",
-      "preview": "Patch Changes Restored the pnpm executable target without a file extension so pnpm 12.1 and earlier can upgrade to newer pnpm 12 releases on POSIX systems. Platinum Sponsors Gold Sponsors",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "SDK-3.14.0-184.0.dev",
