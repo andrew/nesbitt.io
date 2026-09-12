@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-12T18:28:36Z",
-  "cutoff": "2026-08-13T18:28:32Z",
+  "generated": "2026-09-12T21:24:38Z",
+  "cutoff": "2026-08-13T21:24:34Z",
   "feed_count": 83,
-  "item_count": 216,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "pnpm 11.27",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.27.0",
+      "published": "2026-09-12T21:22:42Z",
+      "preview": "Minor Changes nodeDownloadMirrors can now be set in the global config file ( config.yaml ) and through the PNPM_CONFIG_NODE_DOWNLOAD_MIRRORS environment variable, so a Node.js download mirror can be configured once for a machine instead of in every workspace #12124 , #13611 . PNPM_CONFIG_NODE_DOWNLOAD_MIRRORS= ' {\"release\":\"https://npmmirror.com/mirrors/node/\"} ' Added a new setting trustPolicyExcludePrune (default: false ). When enabled, pnpm add , pnpm update , and pnpm remove prune the entries of trustPolicyExclude in pnpm-workspace.yaml that the freshly written lockfile no longer resolves:",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
       "published": "2026-09-12T18:15:54Z",
@@ -37,14 +45,6 @@
       "preview": "44.82.4 (2026-09-12) Bug Fixes dashboard: keep abandoned note outside the <details> block ( #45902 ) ( 65f8036 ) Documentation hostRules: replace the stale matchHost port warning ( #45901 ) ( 29033c3 ), closes #22007 #29487",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v11.27.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.27.0",
-      "published": "2026-09-12T10:01:21Z",
-      "preview": "v11.27.0",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
@@ -1733,22 +1733,6 @@
       "preview": "What's Changed 📄 docs: publish llms.txt from the docs build by @gaborbernat in #2000 🐛 fix(standalone): retry index fetch, resume dropped downloads by @gaborbernat in #2001 docs: correct the Windows default for PIPX_HOME by @aroh3006 in #2002 Handle multiple site-packages paths in virtual environments by @Cycloctane in #1999 New Contributors @aroh3006 made their first contribution in #2002 @Cycloctane made their first contribution in #1999 Full Changelog : 1.16.6...1.16.7",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "0.12.4",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.4",
-      "published": "2026-08-13T21:16:08Z",
-      "preview": "Release Notes Released on 2026-08-13. Enhancements Prefer post-quantum key exchange and enable opt-in TLS diagnostics ( #21054 ) Accept whitespace before versions in noncompliant wildcard comparisons such as Requires-Python: >= 3.5.* ( #21012 ) Report a specific error when a PEP 723 closing tag contains trailing whitespace or other content ( #20944 ) Omit source-span carets from diagnostics for empty PEP 508 requirements ( #21094 ) Preview features Add uv check --no-install-project and respect UV_NO_INSTALL_PROJECT to install dependencies without building or installing the project ( #21085 ) M",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
-      "title": "v5.8.6",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.6",
-      "published": "2026-08-13T21:11:05Z",
-      "preview": "Security This release addressed CVE-2026-19730 where the podman quadlet install --replace command did not truncate the file being replaced, meaning replacing a longer file with a shorter one would result in content from the original file incorrectly being retained.",
-      "source": "Podman releases",
-      "category": "Containers"
     }
   ]
 }
