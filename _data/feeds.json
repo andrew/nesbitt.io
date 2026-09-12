@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-12T17:23:03Z",
-  "cutoff": "2026-08-13T17:22:59Z",
+  "generated": "2026-09-12T18:28:36Z",
+  "cutoff": "2026-08-13T18:28:32Z",
   "feed_count": 83,
-  "item_count": 219,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,20 +23,20 @@
   ],
   "items": [
     {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-09-12T18:15:54Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
       "title": "44.82.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.82.4",
       "published": "2026-09-12T15:12:16Z",
       "preview": "44.82.4 (2026-09-12) Bug Fixes dashboard: keep abandoned note outside the <details> block ( #45902 ) ( 65f8036 ) Documentation hostRules: replace the stale matchHost port warning ( #45901 ) ( 29033c3 ), closes #22007 #29487",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-12T12:55:13Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v11.27.0",
@@ -1749,30 +1749,6 @@
       "preview": "Security This release addressed CVE-2026-19730 where the podman quadlet install --replace command did not truncate the file being replaced, meaning replacing a longer file with a shorter one would result in content from the original file incorrectly being retained.",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "[release-branch.go1.27] go1.27rc3",
-      "url": "https://github.com/golang/go/releases/tag/go1.27rc3",
-      "published": "2026-08-13T17:38:53Z",
-      "preview": "Change-Id: I400bf6802223b50d5b0273153984e801a66bc317 Reviewed-on: https://go-review.googlesource.com/c/go/+/814825 Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-by: Mark Freeman mark@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org",
-      "source": "Go releases",
-      "category": "Go"
-    },
-    {
-      "title": "[release-branch.go1.25] go1.25.13",
-      "url": "https://github.com/golang/go/releases/tag/go1.25.13",
-      "published": "2026-08-13T17:36:03Z",
-      "preview": "Change-Id: I4b70d995adc305fd68e4dfc6bc5c42cd001513b5 Reviewed-on: https://go-review.googlesource.com/c/go/+/814722 Reviewed-by: Mark Freeman mark@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org",
-      "source": "Go releases",
-      "category": "Go"
-    },
-    {
-      "title": "[release-branch.go1.26] go1.26.6",
-      "url": "https://github.com/golang/go/releases/tag/go1.26.6",
-      "published": "2026-08-13T17:25:07Z",
-      "preview": "Change-Id: I04258bea694def9a16dd544fba28fea45eeadbbb Reviewed-on: https://go-review.googlesource.com/c/go/+/814840 TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Mark Freeman mark@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com",
-      "source": "Go releases",
-      "category": "Go"
     }
   ]
 }
