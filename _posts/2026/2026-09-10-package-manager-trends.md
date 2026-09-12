@@ -7,6 +7,7 @@ tags:
   - package-managers
   - supply-chain
   - security
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mvbxdlgsxs2p"
 ---
 
 I'm on holiday this week, so I'm phoning it in and doing a roundup of the trends I've seen across sixteen weeks of [This Week in Package Management](/search#weekly). Those posts are built from about eighty [RSS feeds](https://github.com/ecosyste-ms/package-managers-opml) and whatever I've boosted on Mastodon. The short version: the same defensive features keep shipping in tool after tool, and the same three bug classes keep getting fixed.

@@ -7,6 +7,7 @@ tags:
   - git-pkgs
   - tools
   - go
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mvbxdkxfun25"
 ---
 
 I'm on holiday this week, so here's a listicle.
