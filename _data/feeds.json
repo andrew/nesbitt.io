@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-12T10:25:05Z",
-  "cutoff": "2026-08-13T10:25:00Z",
+  "generated": "2026-09-12T13:24:02Z",
+  "cutoff": "2026-08-13T13:23:58Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-09-12T12:55:13Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "v11.27.0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.27.0",
@@ -285,14 +293,6 @@
       "preview": "RubyGems and Bundler 4.1.0.beta1 include features, performance, enhancements, breaking changes, bug fixes and deprecations. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.1.0.beta1 Release Notes RubyGems Changes already released in 4.0.x are not repeated here. Features: Add content addressable gems support. Pull request #9773 by Jenny Shen, Harriet Oughton and Gira Chawda Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Ru",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-08T21:55:00Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "0.12.11",
