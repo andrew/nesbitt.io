@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-07T20:42:18Z",
-  "total_posts": 207,
-  "total_words": 284992,
-  "reading_minutes": 1425,
-  "average_words": 1377,
+  "generated_at": "2026-09-12T01:41:08Z",
+  "total_posts": 209,
+  "total_words": 288453,
+  "reading_minutes": 1443,
+  "average_words": 1380,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "This Week in Package Management: 5 September 2026",
-    "url": "/2026/09/05/this-week-in-package-management.html",
-    "date": "2026-09-05"
+    "title": "Package Manager Trends",
+    "url": "/2026/09/10/package-manager-trends.html",
+    "date": "2026-09-10"
   },
   "years_active": 9.5,
   "posts_per_month": 1.8,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 167
+      "count": 169
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-09",
-      "count": 3
+      "count": 5
     },
     {
       "month": "2026-08",
@@ -121,20 +121,20 @@
   "posts_by_day_of_week": {
     "sunday": 18,
     "monday": 26,
-    "tuesday": 33,
+    "tuesday": 34,
     "wednesday": 23,
-    "thursday": 37,
+    "thursday": 38,
     "friday": 36,
     "saturday": 34
   },
   "tags": [
     {
       "name": "package-managers",
-      "count": 141
+      "count": 142
     },
     {
       "name": "security",
-      "count": 49
+      "count": 50
     },
     {
       "name": "open-source",
@@ -157,19 +157,19 @@
       "count": 21
     },
     {
+      "name": "supply-chain",
+      "count": 20
+    },
+    {
       "name": "dependencies",
       "count": 20
     },
     {
-      "name": "supply-chain",
+      "name": "tools",
       "count": 19
     },
     {
       "name": "ai",
-      "count": 18
-    },
-    {
-      "name": "tools",
       "count": 18
     },
     {
@@ -194,7 +194,7 @@
     },
     {
       "name": "git-pkgs",
-      "count": 7
+      "count": 8
     },
     {
       "name": "npm",
@@ -206,6 +206,10 @@
     },
     {
       "name": "history",
+      "count": 6
+    },
+    {
+      "name": "go",
       "count": 6
     },
     {
@@ -226,10 +230,6 @@
     },
     {
       "name": "homebrew",
-      "count": 5
-    },
-    {
-      "name": "go",
       "count": 5
     },
     {
@@ -869,6 +869,16 @@
       ]
     },
     {
+      "url": "/2026/05/11/proxy.html",
+      "title": "proxy",
+      "inbound_count": 3,
+      "inbound_from": [
+        "/2026/05/15/language-registries-are-unstable-by-default.html",
+        "/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
+        "/2026/09/08/whats-new-in-git-pkgs.html"
+      ]
+    },
+    {
       "url": "/2017/11/10/what-does-a-sustainable-open-source-project-look-like.html",
       "title": "What does a sustainable open source project look like?",
       "inbound_count": 2,
@@ -986,6 +996,15 @@
       ]
     },
     {
+      "url": "/2026/03/11/git-pkgs-actions.html",
+      "title": "git-pkgs/actions",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/03/19/the-fragmented-world-of-dependency-policy.html",
+        "/2026/09/08/whats-new-in-git-pkgs.html"
+      ]
+    },
+    {
       "url": "/2026/03/19/the-fragmented-world-of-dependency-policy.html",
       "title": "The Fragmented World of Dependency Policy",
       "inbound_count": 2,
@@ -1010,15 +1029,6 @@
       "inbound_from": [
         "/2026/05/24/signing-is-for-the-bad-days.html",
         "/2026/07/09/unboxed-zig.html"
-      ]
-    },
-    {
-      "url": "/2026/05/11/proxy.html",
-      "title": "proxy",
-      "inbound_count": 2,
-      "inbound_from": [
-        "/2026/05/15/language-registries-are-unstable-by-default.html",
-        "/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html"
       ]
     },
     {
@@ -1185,6 +1195,14 @@
       ]
     },
     {
+      "url": "/2026/02/19/go-modules-for-package-management-tooling.html",
+      "title": "Go Modules for Package Management Tooling",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/09/08/whats-new-in-git-pkgs.html"
+      ]
+    },
+    {
       "url": "/2026/02/21/whale-fall.html",
       "title": "Whale Fall",
       "inbound_count": 1,
@@ -1209,11 +1227,11 @@
       ]
     },
     {
-      "url": "/2026/03/11/git-pkgs-actions.html",
-      "title": "git-pkgs/actions",
+      "url": "/2026/03/13/forge.html",
+      "title": "Forge",
       "inbound_count": 1,
       "inbound_from": [
-        "/2026/03/19/the-fragmented-world-of-dependency-policy.html"
+        "/2026/09/08/whats-new-in-git-pkgs.html"
       ]
     },
     {
@@ -1238,6 +1256,14 @@
       "inbound_count": 1,
       "inbound_from": [
         "/2026/04/15/the-tuesday-test.html"
+      ]
+    },
+    {
+      "url": "/2026/04/21/brief.html",
+      "title": "brief",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/09/08/whats-new-in-git-pkgs.html"
       ]
     },
     {
@@ -1337,6 +1363,14 @@
       ]
     },
     {
+      "url": "/2026/06/25/scrutineer.html",
+      "title": "Scrutineer: scanning open source without flooding maintainers",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/09/08/whats-new-in-git-pkgs.html"
+      ]
+    },
+    {
       "url": "/2026/06/30/taking-roads-and-bridges-literally.html",
       "title": "Taking Roads and Bridges literally",
       "inbound_count": 1,
@@ -1402,13 +1436,13 @@
     }
   ],
   "external_links": {
-    "total": 4712,
-    "unique": 3812,
+    "total": 4852,
+    "unique": 3848,
     "domains": [
       {
         "host": "github.com",
-        "count": 1415,
-        "posts": 151
+        "count": 1446,
+        "posts": 153
       },
       {
         "host": "en.wikipedia.org",
@@ -1438,7 +1472,7 @@
       {
         "host": "github.blog",
         "count": 38,
-        "posts": 27
+        "posts": 28
       },
       {
         "host": "chaoss.community",
@@ -1453,7 +1487,7 @@
       {
         "host": "pnpm.io",
         "count": 30,
-        "posts": 24
+        "posts": 25
       },
       {
         "host": "docs.npmjs.com",
@@ -1463,7 +1497,7 @@
       {
         "host": "go.dev",
         "count": 26,
-        "posts": 24
+        "posts": 25
       },
       {
         "host": "changelog.com",
@@ -1478,7 +1512,7 @@
       {
         "host": "blog.rust-lang.org",
         "count": 21,
-        "posts": 15
+        "posts": 16
       },
       {
         "host": "doc.rust-lang.org",
@@ -1498,7 +1532,7 @@
       {
         "host": "blog.rubygems.org",
         "count": 17,
-        "posts": 14
+        "posts": 15
       },
       {
         "host": "opencollective.com",
@@ -1508,7 +1542,7 @@
       {
         "host": "blog.packagist.com",
         "count": 15,
-        "posts": 13
+        "posts": 14
       },
       {
         "host": "opensourcesecurity.io",
@@ -1528,7 +1562,7 @@
       {
         "host": "blog.pypi.org",
         "count": 13,
-        "posts": 12
+        "posts": 13
       },
       {
         "host": "talkpython.fm",
@@ -1563,7 +1597,7 @@
       {
         "host": "packages.ecosyste.ms",
         "count": 11,
-        "posts": 14
+        "posts": 15
       },
       {
         "host": "topenddevs.com",
@@ -1658,7 +1692,7 @@
       {
         "host": "hex.pm",
         "count": 8,
-        "posts": 7
+        "posts": 8
       },
       {
         "host": "mastodon.social",
@@ -1743,7 +1777,7 @@
       {
         "host": "deno.com",
         "count": 6,
-        "posts": 6
+        "posts": 7
       },
       {
         "host": "docs.zizmor.sh",
@@ -1833,7 +1867,7 @@
       {
         "host": "bun.com",
         "count": 5,
-        "posts": 4
+        "posts": 5
       },
       {
         "host": "diffoscope.org",
@@ -1863,7 +1897,7 @@
       {
         "host": "helm.sh",
         "count": 5,
-        "posts": 5
+        "posts": 6
       },
       {
         "host": "metacpan.org",
@@ -1938,7 +1972,7 @@
       {
         "host": "devblogs.microsoft.com",
         "count": 4,
-        "posts": 4
+        "posts": 5
       },
       {
         "host": "developer.apple.com",
@@ -1998,7 +2032,7 @@
       {
         "host": "nx.dev",
         "count": 4,
-        "posts": 5
+        "posts": 6
       },
       {
         "host": "packaging.python.org",
@@ -2038,7 +2072,7 @@
       {
         "host": "astral.sh",
         "count": 3,
-        "posts": 4
+        "posts": 5
       },
       {
         "host": "aws.amazon.com",
@@ -2076,6 +2110,11 @@
         "posts": 1
       },
       {
+        "host": "cwe.mitre.org",
+        "count": 3,
+        "posts": 3
+      },
+      {
         "host": "developer.mozilla.org",
         "count": 3,
         "posts": 2
@@ -2083,7 +2122,7 @@
       {
         "host": "discourse.nixos.org",
         "count": 3,
-        "posts": 3
+        "posts": 4
       },
       {
         "host": "docs.conan.io",
@@ -2396,11 +2435,6 @@
         "posts": 1
       },
       {
-        "host": "cwe.mitre.org",
-        "count": 2,
-        "posts": 2
-      },
-      {
         "host": "datatracker.ietf.org",
         "count": 2,
         "posts": 2
@@ -2468,7 +2502,7 @@
       {
         "host": "ecosyste.ms",
         "count": 2,
-        "posts": 33
+        "posts": 34
       },
       {
         "host": "engineering.fb.com",
@@ -2583,7 +2617,7 @@
       {
         "host": "lists.archlinux.org",
         "count": 2,
-        "posts": 3
+        "posts": 4
       },
       {
         "host": "lists.debian.org",
@@ -2728,7 +2762,7 @@
       {
         "host": "rubycentral.org",
         "count": 2,
-        "posts": 2
+        "posts": 3
       },
       {
         "host": "rustfoundation.org",
@@ -2783,7 +2817,7 @@
       {
         "host": "thephp.foundation",
         "count": 2,
-        "posts": 2
+        "posts": 3
       },
       {
         "host": "turbo.build",
@@ -3017,6 +3051,11 @@
       },
       {
         "host": "archiva.apache.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "archives.ecosyste.ms",
         "count": 1,
         "posts": 1
       },
@@ -3766,6 +3805,11 @@
         "posts": 1
       },
       {
+        "host": "endoflife.date",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "engineering.grab.com",
         "count": 1,
         "posts": 1
@@ -3773,7 +3817,7 @@
       {
         "host": "engineering.nyu.edu",
         "count": 1,
-        "posts": 1
+        "posts": 2
       },
       {
         "host": "epage.github.io",
@@ -4118,7 +4162,7 @@
       {
         "host": "ioctl.fail",
         "count": 1,
-        "posts": 2
+        "posts": 3
       },
       {
         "host": "iscinumpy.dev",
@@ -4388,7 +4432,7 @@
       {
         "host": "modal.cx",
         "count": 1,
-        "posts": 1
+        "posts": 2
       },
       {
         "host": "module-federation.io",
@@ -4733,7 +4777,7 @@
       {
         "host": "pyfound.blogspot.com",
         "count": 1,
-        "posts": 1
+        "posts": 2
       },
       {
         "host": "pypistats.org",
@@ -4827,6 +4871,11 @@
       },
       {
         "host": "restic.net",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "reuse.software",
         "count": 1,
         "posts": 1
       },
@@ -5137,6 +5186,11 @@
       },
       {
         "host": "tag-security.cncf.io",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "tangled.org",
         "count": 1,
         "posts": 1
       },
