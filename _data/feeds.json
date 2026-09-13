@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-13T19:22:34Z",
-  "cutoff": "2026-08-14T19:22:30Z",
+  "generated": "2026-09-13T20:26:51Z",
+  "cutoff": "2026-08-14T20:26:39Z",
   "feed_count": 83,
-  "item_count": 216,
+  "item_count": 215,
   "categories": [
     ".NET",
     "C/C++",
@@ -1741,14 +1741,6 @@
       "preview": "What's Changed Build and publish large runner docker image by @iMichka in #23345 Avoid nil cask versions during installation by @MikeMcQuaid in #23499 Use cask dependencies for platform support by @MikeMcQuaid in #23496 Fix role used to push to ECR by @iMichka in #23500 Report unavailable cask platforms accurately by @MikeMcQuaid in #23501 Add supported_platforms to cask API data by @p-linnane in #23503 cask: merge multiple conflicts_with stanzas by @hyuraku in #23506 Normalize hyphenated HOMEBREW_CASK_OPTS option names by @carlocab in #23505 sbom: add purl external references for sources usin",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "0.12.5",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.5",
-      "published": "2026-08-14T19:57:52Z",
-      "preview": "Release Notes Released on 2026-08-14. Python Add CPython 3.10.21, 3.11.16, and 3.12.14 ( #21138 ) Prefer newer versions and standard variants when selecting between equally prioritized Python interpreters ( #21134 ) Enhancements Simplify errors and hints for invalid editable requirements, and redact credentials in requirement URLs ( #21130 ) Preview features Allow --index and --default-index to select configured package indexes by name with the index-by-name preview feature ( #17455 ) Include distribution artifact URLs and hashes in CycloneDX SBOM exports by default ( #21131 ) Fall back to log",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
