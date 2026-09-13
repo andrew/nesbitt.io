@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-12T23:23:57Z",
-  "cutoff": "2026-08-13T23:23:53Z",
+  "generated": "2026-09-13T01:07:04Z",
+  "cutoff": "2026-08-14T01:06:59Z",
   "feed_count": 83,
   "item_count": 212,
   "categories": [
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v2026.9.6",
+      "title": "v2026.9.6: Project daemons, mise doctor project, and vfox backend tool discovery",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.6",
-      "published": "2026-09-12T22:30:47Z",
-      "preview": "(bootstrap) declare Dock applications in order by @azohra in [#…",
+      "published": "2026-09-12T23:58:09Z",
+      "preview": "This release adds experimental project daemons backed by pitchfork, a mise doctor project command for project-declared diagnostic checks, and tool discovery from vfox backend plugins in mise search . It also changes the HTTP backend's default install layout so uninstall and prune reclaim disk space, speeds up warm lockfile_mode = \"generate\" installs and repeated OCI builds, and fixes a batch of nushell, monorepo, lockfile, brew, and Windows bootstrap issues. Highlights Services next to tools: [daemons] declares background processes and PostgreSQL/Redis presets in mise.toml , managed through mi",
       "source": "mise releases",
       "category": "Multi-language"
     },
