@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-13T16:26:56Z",
-  "cutoff": "2026-08-14T16:26:50Z",
+  "generated": "2026-09-13T18:29:50Z",
+  "cutoff": "2026-08-14T18:29:46Z",
   "feed_count": 83,
   "item_count": 216,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.1.0-M1",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M1",
+      "published": "2026-09-13T18:24:22Z",
+      "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Publishing sbt 2.1.0 removes Apache Ivy from its transitive dependency, and implements Ivyless publishing. This ",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
     {
       "title": "7.0.1",
       "url": "https://github.com/Homebrew/brew/releases/tag/7.0.1",
@@ -69,14 +77,6 @@
       "preview": "What's Changed Make macOS installer package Apple Silicon only by @MikeMcQuaid in #23779 Forbid T.must and T.unsafe with RuboCop by @MikeMcQuaid in #23787 Warn (don't error) on unavailable Linux sandbox in brew tests by @waldyrious in #23782 Add std_shards_args and update creator for crystal by @cho-m in #23790 cask/audit: fix repo names ending in git by @krehel in #23796 Stop brew tests dirtying the working tree by @dduugg in #23800 Attest supported third-party tap bottles by @heaths in #23769 shared_audits: check homepage domain age via RDAP by @bevanjkay in #23752 Escape dots in domain rege",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "v2.1.0-M1",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M1",
-      "published": "2026-09-13T07:29:11Z",
-      "preview": "2.1.0-M1",
-      "source": "sbt releases",
-      "category": "Maven"
     },
     {
       "title": "44.82.5",
