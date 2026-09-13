@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-13T20:26:51Z",
-  "cutoff": "2026-08-14T20:26:39Z",
+  "generated": "2026-09-13T21:24:05Z",
+  "cutoff": "2026-08-14T21:24:00Z",
   "feed_count": 83,
   "item_count": 215,
   "categories": [
@@ -25,7 +25,7 @@
     {
       "title": "2.1.0-M1",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M1",
-      "published": "2026-09-13T18:33:45Z",
+      "published": "2026-09-13T21:08:24Z",
       "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Publishing sbt 2.1.0 removes Apache Ivy from its transitive dependency, and implements Ivyless publishing. This ",
       "source": "sbt releases",
       "category": "Maven"
