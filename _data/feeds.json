@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-13T06:43:36Z",
-  "cutoff": "2026-08-14T06:43:32Z",
+  "generated": "2026-09-13T08:32:25Z",
+  "cutoff": "2026-08-14T08:32:20Z",
   "feed_count": 83,
-  "item_count": 213,
+  "item_count": 214,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,9 +23,17 @@
   ],
   "items": [
     {
+      "title": "7.0.0",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.0",
+      "published": "2026-09-13T08:30:11Z",
+      "preview": "What's Changed Make macOS installer package Apple Silicon only by @MikeMcQuaid in #23779 Forbid T.must and T.unsafe with RuboCop by @MikeMcQuaid in #23787 Warn (don't error) on unavailable Linux sandbox in brew tests by @waldyrious in #23782 Add std_shards_args and update creator for crystal by @cho-m in #23790 cask/audit: fix repo names ending in git by @krehel in #23796 Stop brew tests dirtying the working tree by @dduugg in #23800 Attest supported third-party tap bottles by @heaths in #23769 shared_audits: check homepage domain age via RDAP by @bevanjkay in #23752 Escape dots in domain rege",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
       "title": "v2.1.0-M1",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M1",
-      "published": "2026-09-13T06:24:50Z",
+      "published": "2026-09-13T07:29:11Z",
       "preview": "2.1.0-M1",
       "source": "sbt releases",
       "category": "Maven"
