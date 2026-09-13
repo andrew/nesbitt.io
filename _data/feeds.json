@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-13T21:24:05Z",
-  "cutoff": "2026-08-14T21:24:00Z",
+  "generated": "2026-09-13T22:25:34Z",
+  "cutoff": "2026-08-14T22:25:30Z",
   "feed_count": 83,
   "item_count": 215,
   "categories": [
@@ -25,10 +25,34 @@
     {
       "title": "2.1.0-M1",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M1",
-      "published": "2026-09-13T21:08:24Z",
-      "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Publishing sbt 2.1.0 removes Apache Ivy from its transitive dependency, and implements Ivyless publishing. This ",
+      "published": "2026-09-13T22:19:43Z",
+      "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 on metabuild sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Publishing sbt 2.1.0 removes Apache Ivy from its transitive dependency, and implements Ivyless publ",
       "source": "sbt releases",
       "category": "Maven"
+    },
+    {
+      "title": "v2026.9.7",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.7",
+      "published": "2026-09-13T22:17:08Z",
+      "preview": "(bootstrap) inspect dotfile sync conflicts by @jdx in [ #13144 ](…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.9",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.9",
+      "published": "2026-09-13T22:16:38Z",
+      "preview": "Release vfox 2026.9.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-agent-env-v2026.9.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-agent-env-v2026.9.0",
+      "published": "2026-09-13T22:16:06Z",
+      "preview": "Release mise-agent-env 2026.9.0",
+      "source": "mise releases",
+      "category": "Multi-language"
     },
     {
       "title": "7.0.1",
@@ -399,14 +423,6 @@
       "category": "Maven"
     },
     {
-      "title": "v2026.9.3: Winget bootstrap, signed vfox plugins, and faster inline commands",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.3",
-      "published": "2026-09-08T13:55:29Z",
-      "preview": "This release brings Windows bootstrap into the package-manager era with WinGet support, extends the packslip signing model to vfox plugins, and speeds up simple tasks by skipping the shell on Unix. It also carries a batch of bootstrap, sandbox, and Windows ARM64 fixes. Added bootstrap: WinGet is now a built-in [bootstrap.packages] manager on Windows, so mise bootstrap packages can check status, install, and upgrade apps by exact package ID. It supports version pins, source refresh, and automatic source-agreement acceptance. Scoop, Chocolatey, and package removal remain future work. ( #12928 by",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "20260908t121300-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260908t121300-all",
       "published": "2026-09-08T12:13:43Z",
@@ -429,22 +445,6 @@
       "preview": "Fix undo of unlink-component after its snap revision was discarded interfaces: power-control | allow reading all battery state files",
       "source": "Snapd releases",
       "category": "System"
-    },
-    {
-      "title": "aqua-registry-v2026.9.1",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.9.1",
-      "published": "2026-09-08T06:50:32Z",
-      "preview": "Release aqua-registry 2026.9.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.9.3",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.3",
-      "published": "2026-09-08T06:50:25Z",
-      "preview": "Release vfox 2026.9.3",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v0.80.0",
