@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-13T15:24:39Z",
-  "cutoff": "2026-08-14T15:24:35Z",
+  "generated": "2026-09-13T16:26:56Z",
+  "cutoff": "2026-08-14T16:26:50Z",
   "feed_count": 83,
-  "item_count": 213,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.0.1",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.1",
+      "published": "2026-09-13T16:26:18Z",
+      "preview": "What's Changed Require Xcode 27 only on macOS 27 by @MikeMcQuaid in #23957 Handle obsolete metadata during upgrades by @MikeMcQuaid in #23958 Full Changelog : 7.0.0...7.0.1",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "v1.13.0",
+      "url": "https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.13.0",
+      "published": "2026-09-13T16:12:46Z",
+      "preview": "Merge pull request #4769 from JuliaLang/backports-release-1.13 Backports for 1.13",
+      "source": "Pkg.jl releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v1.12.7",
+      "url": "https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.12.7",
+      "published": "2026-09-13T16:11:58Z",
+      "preview": "release-1.12: Actually avoid depwarn, and enable --depwarn=error in CI ( #4358 ) ( #4734 ) Co-authored-by: Ian Butterworth <i.r.butterworth@gmail.com>",
+      "source": "Pkg.jl releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v1.10.12",
+      "url": "https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.10.12",
+      "published": "2026-09-13T16:11:22Z",
+      "preview": null,
+      "source": "Pkg.jl releases",
+      "category": "Registries"
+    },
     {
       "title": "44.83.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.83.0",
@@ -1717,14 +1749,6 @@
       "preview": "Release Notes Released on 2026-08-14. Python Add CPython 3.10.21, 3.11.16, and 3.12.14 ( #21138 ) Prefer newer versions and standard variants when selecting between equally prioritized Python interpreters ( #21134 ) Enhancements Simplify errors and hints for invalid editable requirements, and redact credentials in requirement URLs ( #21130 ) Preview features Allow --index and --default-index to select configured package indexes by name with the index-by-name preview feature ( #17455 ) Include distribution artifact URLs and hashes in CycloneDX SBOM exports by default ( #21131 ) Fall back to log",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "3.3.3",
-      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.3",
-      "published": "2026-08-14T15:52:09Z",
-      "preview": "apt Debian release 3.3.3",
-      "source": "APT releases",
-      "category": "System"
     }
   ]
 }
