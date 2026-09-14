@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T18:32:27Z",
-  "cutoff": "2026-08-15T18:32:23Z",
+  "generated": "2026-09-14T21:24:37Z",
+  "cutoff": "2026-08-15T21:24:32Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.90.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.90.0",
+      "published": "2026-09-14T21:03:59Z",
+      "preview": "44.90.0 (2026-09-14) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.0 (main) ( #46125 ) ( fb7f1f4 ) Bug Fixes exec: memoise which install-tool s we've run ( #46084 ) ( b2135e4 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.15.1 (main) ( #46124 ) ( 0e4ccb2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "MacPorts 2.12.6",
+      "url": "https://github.com/macports/macports-base/releases/tag/v2.12.6",
+      "published": "2026-09-14T20:50:06Z",
+      "preview": "Changes since 2.12.5: Fixed potential unreliable application of network proxy settings with background fetches. (jmr in 6d9edb0 ) Fixed occasional failure to sync the PortIndex, which required portindex to run locally. (fhgwright in 928dc47 ) Added documentation for the 'none' option for 'port select'. (cvengler in 1552e82 ) Various reliability improvements for trace mode. (cal in 6dda4cc , 1db3e7f , bea36d7 )",
+      "source": "MacPorts releases",
+      "category": "System"
+    },
     {
       "title": "v2026.9.8: Top-level `mise dot` command, faster brew bootstrap installs, and npm safety-check fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.8",
@@ -123,14 +139,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.84.0",
       "published": "2026-09-14T08:35:51Z",
       "preview": "44.84.0 (2026-09-14) Features manager/github-actions: support actions/setup-dotnet's dotnet-version ( #45877 ) ( e6c6f29 ) manager/github-actions: support actions/setup-java's java-version ( #45878 ) ( 58cd82c ) Documentation manager/github-actions: generate one combined first-party and community table ( #45875 ) ( 343fed8 ) Code Refactoring manager/github-actions: don't duplicate parsing logic for first-party Actions ( #45887 ) ( 03906a7 ), closes #35777",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.83.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.83.3",
-      "published": "2026-09-14T07:24:21Z",
-      "preview": "44.83.3 (2026-09-14) Bug Fixes managers/pep621: use lowest locked version from uv ( #40208 ) ( 26903f4 ) Documentation clarify extractVersion and add artifactory example ( #45926 ) ( 405c32b ) Miscellaneous Chores deps: update dependency pnpm to v11.26.0 (main) ( #45919 ) ( b8d1e03 ) Code Refactoring git: extract runtime config appending ( #45165 ) ( 86890d2 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1333,14 +1341,6 @@
       "preview": "Release Notes Released on 2026-08-25. Python Update CPython to use OpenSSL 3.5.8 and libffi 3.4.8 #21295 ) Enhancements Report cache-cleaning space savings from filesystem block allocation and avoid double-counting hard links ( #21261 ) Limit warnings about unbounded uv_build requirements to source-distribution builds ( #21078 ) Display byte counts below 1 KiB without a fractional part ( #21237 ) Preview features Add uv workspace metadata --sync --exact to remove packages outside the selected resolution ( #21117 ) Add the artifact-hash-filtering preview feature to make uv pip compile --generat",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "MacPorts 2.12.6",
-      "url": "https://github.com/macports/macports-base/releases/tag/v2.12.6",
-      "published": "2026-08-25T18:57:30Z",
-      "preview": "Changes since 2.12.5: Fixed potential unreliable application of network proxy settings with background fetches. (jmr in 6d9edb0 ) Fixed occasional failure to sync the PortIndex, which required portindex to run locally. (fhgwright in 928dc47 ) Added documentation for the 'none' option for 'port select'. (cvengler in 1552e82 ) Various reliability improvements for trace mode. (cal in 6dda4cc , 1db3e7f , bea36d7 )",
-      "source": "MacPorts releases",
-      "category": "System"
     },
     {
       "title": "7.11.0.17",
