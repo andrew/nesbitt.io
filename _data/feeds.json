@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-14T14:31:31Z",
-  "cutoff": "2026-08-15T14:30:54Z",
+  "generated": "2026-09-14T15:29:25Z",
+  "cutoff": "2026-08-15T15:29:20Z",
   "feed_count": 83,
-  "item_count": 198,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -119,6 +119,14 @@
       "category": "Infrastructure"
     },
     {
+      "title": "v2.29.1",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.1",
+      "published": "2026-09-14T00:57:16Z",
+      "preview": "Features & Improvements Explain missing lockfile groups and provide group-selection recovery guidance when installing, syncing, or updating groups. ( #2682 ) Allow package-specific overrides for exclude-newer resolution limits. ( #3809 ) Bug Fixes Keep the separating comma out of the operator and accept a v prefix when converting Poetry version constraints. ( #3860 ) Escape glob characters in the virtualenv lookup prefix, so a project whose directory name contains [ or ] can find its own virtualenv. ( #3869 ) Write pyproject.toml and lockfiles atomically to prevent interrupted writes from trun",
+      "source": "PDM releases",
+      "category": "Python"
+    },
+    {
       "title": "v2026.9.7: Lockfile revision 2 with npm and Python dependency graphs, dotfile conflict inspection",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.7",
       "published": "2026-09-13T23:42:17Z",
@@ -223,6 +231,22 @@
       "category": "Multi-language"
     },
     {
+      "title": "v9.9.0-M1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.9.0-M1",
+      "published": "2026-09-12T22:10:42Z",
+      "preview": "Update tested AGP versions ( #39146 )",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "pnpm 11.27",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.27.0",
+      "published": "2026-09-12T21:22:42Z",
+      "preview": "Minor Changes nodeDownloadMirrors can now be set in the global config file ( config.yaml ) and through the PNPM_CONFIG_NODE_DOWNLOAD_MIRRORS environment variable, so a Node.js download mirror can be configured once for a machine instead of in every workspace #12124 , #13611 . PNPM_CONFIG_NODE_DOWNLOAD_MIRRORS= ' {\"release\":\"https://npmmirror.com/mirrors/node/\"} ' Added a new setting trustPolicyExcludePrune (default: false ). When enabled, pnpm add , pnpm update , and pnpm remove prune the entries of trustPolicyExclude in pnpm-workspace.yaml that the freshly written lockfile no longer resolves:",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
       "published": "2026-09-12T18:15:54Z",
@@ -245,6 +269,14 @@
       "preview": "Release notes: The change in major version from 3.x to 4.1 marks the introduction of Stack's support for GHC's Backpack module system for cross-package use. Changes since v3.11.1: Major changes: Stack now supports GHC's Backpack module system for cross-package use. (Private Backpack, where signatures and implementations are in the same package, was already supported.) When a package uses signatures and mixins to depend on an abstract interface provided by another package, Stack automatically creates the extra instantiation build steps that Cabal requires. This includes support for explicit ren",
       "source": "Stack releases",
       "category": "Registries"
+    },
+    {
+      "title": "pnpm 12.4.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.1",
+      "published": "2026-09-11T14:55:01Z",
+      "preview": "pnpm 12.4.1 fixes installs that failed on filesystems refusing hard links or clones, on Android, and under nodeLinker: hoisted . Repeat installs are faster. Patch Changes Installing packages pnpm install no longer fails with Operation not permitted when the filesystem refuses a hard link or a copy-on-write clone #14722 . Under packageImportMethod: auto and clone-or-copy , pnpm copies the file instead. EdenFS checkouts, which have no hard links, and rootless containers, which refuse the clone syscall, both hit this. An explicit packageImportMethod: hardlink or clone still reports the error. pnp",
+      "source": "pnpm releases",
+      "category": "JavaScript"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
@@ -301,6 +333,14 @@
       "preview": "Release Notes Released on 2026-09-10. Python Add GraalPy 3.13.0 ( #21431 ) Enhancements Verify hashes when downloading PEP 658 metadata sidecars ( #21563 ) Preview features Respect ty exclusions when uv check automatically selects members of a virtual workspace ( #21555 ) Performance Avoid full wheel downloads during resolution by reusing supported hashes from direct URL fragments when metadata is available separately ( #21279 ) Bug fixes Edit Windows entry-point launcher resources in memory to support Nano Server and reduce antivirus contention ( #18713 ) Prefer core-metadata over legacy alia",
       "source": "uv releases",
       "category": "Python"
+    },
+    {
+      "title": "pnpr 0.1.0-alpha.11",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.11",
+      "published": "2026-09-10T16:56:04Z",
+      "preview": "pnpr now serves Cargo, Python, and container registries alongside npm, publishes across all of them in one transaction, and signs users in through OIDC. Minor Changes Cargo and Python registries pnpr now serves Cargo and Python registries alongside npm from one instance. Hosted Cargo registries support cargo publish , cargo yank , and crate downloads. Hosted Python registries support pip install --index-url and twine upload . Upstream registries can proxy crates.io and PyPI with checksum verified downloads, and a router can combine sources from all three ecosystems. A registry that serves more",
+      "source": "pnpm releases",
+      "category": "JavaScript"
     },
     {
       "title": "Helm v3.22.0",
@@ -375,6 +415,14 @@
       "category": ".NET"
     },
     {
+      "title": "v4.1.0.beta1",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.1.0.beta1",
+      "published": "2026-09-09T05:04:33Z",
+      "preview": "RubyGems Changes already released in 4.0.x are not repeated here. Features: Add content addressable gems support. Pull request #9773 by Jenny Shen Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Rubygems: Add PQC ML-DSA support for cryptographically signed gems workflow. Pull request #9697 by Jun Aruga Preserve non-UTF-8 legacy gem metadata. Pull request #9835 by Stanislav (Stas) Katkov Add an opt-in OS credential store for gem and bundler credentials. Pull request #9671 by Hiroshi SHIBATA Add --cooldown to gem install, update and outdated. Pull",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
       "title": "4.1.0.beta1 Released",
       "url": "https://blog.rubygems.org/2026/09/09/4.1.0.beta1-released.html",
       "published": "2026-09-09T00:00:00Z",
@@ -399,12 +447,28 @@
       "category": "Registries"
     },
     {
+      "title": "9.8.0 RC1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-RC1",
+      "published": "2026-09-08T14:37:51Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.8.0 RC1. Here are the highlights of this release: Java 27 support Maven mirror settings reuse Linked problem locations in build output Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aman Gautam , Björn Kautler , Eng Zer Jun , Hashim Khan , Julian Krannich , KBS , Labh R Jethe , Mark Dodgson , Maxim , monkey , nataphon-ktsystems , Paul King , Qiu Tian , rg_sandesh , Roberto Perez Alcolea , Sean , Zongle Wang . Upgrade instructions Switch your build to use Gradle 9.8.",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
       "title": "20260908t121300-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260908t121300-all",
       "published": "2026-09-08T12:13:43Z",
       "preview": "Deployment at 2026-09-08T12:13:41.276148Z.",
       "source": "pub.dev releases",
       "category": "Registries"
+    },
+    {
+      "title": "pnpm 12.4",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.0",
+      "published": "2026-09-08T11:27:26Z",
+      "preview": "Minor Changes pnpm can now manage npm, Python, and Cargo dependencies in the same workspace. Enable python.enabled or cargo.enabled in pnpm-workspace.yaml , then use pnpm install to install them together. Add Python packages with pnpm add pypi:<package> . pnpm uses pyproject.toml , pylock.toml , and a managed .venv . Frozen and offline installs are supported, and pnpm run and pnpm exec make the environment's executables available #14566 . Add Rust crates with pnpm add crate:<package> . pnpm supports crates.io and custom sparse registries configured with cargo.indexUrl . Registry authentication",
+      "source": "pnpm releases",
+      "category": "JavaScript"
     },
     {
       "title": "New Release 2.77.1",
@@ -452,6 +516,14 @@
       "published": "2026-09-07T00:00:00Z",
       "preview": "pnpm 11.26 brings the JavaScript CLI level with what pnpm 12 gained over the",
       "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.26",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.26.0",
+      "published": "2026-09-06T23:50:11Z",
+      "preview": "Minor Changes Catalogs can now resolve workspace dependencies through the workspace: protocol. pnpm remove and pnpm update now accept --trust-lockfile , --no-trust-lockfile , --trust-policy , --trust-policy-exclude , and --trust-policy-ignore-after . pnpm remove checks the whole lockfile against the active policies unless --trust-lockfile is set. Added pnpm change check for CI validation of package versions against the versioning.epics bands and versioning.fixed groups in pnpm-workspace.yaml . Patch Changes Fetch and tarball errors and retry logs now hide URL credentials, query strings, and fr",
+      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
@@ -591,6 +663,22 @@
       "category": "JavaScript"
     },
     {
+      "title": "pnpm 12.3.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.3",
+      "published": "2026-09-04T14:23:32Z",
+      "preview": "Patch Changes Fixed concurrent installs sharing a store occasionally failing with an ENOENT error while importing a package file #14353 . Sped up writing the lockfile in large workspaces #14352 . Sped up dependency resolution in large workspaces #14352 . pnpm now runs through Node.js when it was installed by a tool that skips build scripts, such as Vercel's packageManager provisioning, Bun, Deno, or npm install --ignore-scripts . Those installs previously failed with syntax error near unexpected token ')' . They still cannot run pnpm on Windows. On macOS only a shell can start it #14346 . Plat",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.3.4",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.4",
+      "published": "2026-09-04T14:23:18Z",
+      "preview": "Patch Changes Sped up dependency resolution in large workspaces #14352 . pnpm 12 now accepts the boolean settings as command-line flags on every command that takes them in pnpm 11, for example pnpm install --unsafe-perm , pnpm add foo --offline , and pnpm install --dangerously-allow-all-builds . pnpm 12 rejected them with unexpected argument , which failed every install on Vercel, whose build runs pnpm install --unsafe-perm #14346 . pnpm remove now accepts --unsafe-perm , the same flag pnpm install , pnpm add , and pnpm update take. Platinum Sponsors Gold Sponsors",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "26.7.2",
       "url": "https://github.com/conda/conda/releases/tag/26.7.2",
       "published": "2026-09-04T13:36:18Z",
@@ -604,6 +692,14 @@
       "published": "2026-09-04T08:34:46Z",
       "preview": "To install Bun v1.4.1 curl -fsSL https://bun.sh/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.sh/install.ps1|iex \" To upgrade to Bun v1.4.1: bun upgrade Read Bun v1.4.1's release notes on Bun's blog Thanks to 7 contributors! @alii @dylan-conway @jarred-sumner @jvitormelo @marshallofsound @robobun @sosukesuzuki",
       "source": "Bun releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.3.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.2",
+      "published": "2026-09-04T02:07:17Z",
+      "preview": "Patch Changes pnpm audit --fix update no longer aborts when a vulnerable package has no safe version inside its declared range #14508 . The run updates every package it can and lists the rest as remaining. pnpm install no longer reruns root lifecycle scripts when the global virtual store contains an unfinished-build marker in a package slot that the current lockfile does not use pnpm/pnpm#14485 . Sped up installs that have no lockfile. pnpm now links packages whose dependency subtree has no peer dependencies into the virtual store while resolution is still running. pnpm run and pnpm exec now s",
+      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
@@ -687,6 +783,14 @@
       "category": "Registries"
     },
     {
+      "title": "pnpm 12.3.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.1",
+      "published": "2026-09-03T00:40:37Z",
+      "preview": "Patch Changes Sped up installs in large workspaces: the anchor for re-rendering workspace link: targets is now derived once per project instead of once per dependency edge, and project ordering hashes paths by their raw bytes #14352 . After a self-update from pnpm 12.2 to 12.3, global commands such as node , npm , and yarn failed with unexpected argument '--shim' found . Global commands now launch normally, and their first launch migrates the global bin directory to native shims. When self-update downgrades to pnpm 12.2 or older, it keeps the newer native shims so those commands continue to wo",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "Announcing Rust 1.98.1",
       "url": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
       "published": "2026-09-03T00:00:00Z",
@@ -701,6 +805,14 @@
       "preview": "Security This release addresses CVE-2026-17106 , where a crafted tar archive could write outside the extraction directory through the use of malicious links ( GHSA-hfg8-hc9c-6c3h ). Bugfixes Fixed broken rootlessport bind behavior with -p 0.0.0.0:... -p [::]:... which failed instead of binding both v4 and v6 separately. Podman Machine on WSL should now correctly forward ports again by binding separate IPv4 and IPv6 sockets to make the WSL forwarder logic work again ( #29377 ).",
       "source": "Podman releases",
       "category": "Containers"
+    },
+    {
+      "title": "pnpm 12.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.0",
+      "published": "2026-09-02T16:28:57Z",
+      "preview": "Minor Changes Every context-aware global command ( node , deno , bun , and the shims created with pnpm shim add ) is now a native executable on every platform, so environment variables whose names are not valid shell identifiers reach these commands. On Windows, <name>.exe replaces the .cmd and .ps1 shims for them. Shims written by earlier pnpm 12 releases are migrated on the next global install or self-update. pnpm remove and pnpm update now accept --trust-lockfile , --no-trust-lockfile , --trust-policy , --trust-policy-exclude and --trust-policy-ignore-after , the same flags pnpm install and",
+      "source": "pnpm releases",
+      "category": "JavaScript"
     },
     {
       "title": "v1.16.1",
@@ -733,6 +845,14 @@
       "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 , CVE-2026-84361 ) Security: Sanitize URL-embedded usernames/token in a few more places ( #13045 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #13042 ) Full Changelog : 2.2.29...2.2.30",
       "source": "Composer releases",
       "category": "PHP"
+    },
+    {
+      "title": "v4.0.20",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.20",
+      "published": "2026-09-02T08:57:10Z",
+      "preview": "RubyGems 4.0.20 Enhancements: Print a release notes link instead of the whole changelog on gem update --system . Pull request #9794 by hsbt Installs bundler 4.0.20 as a default gem. Bug fixes: Only coerce exact true and false gemrc values to booleans. Pull request #9822 by hsbt Make the gem CLI work under RUBY_BOX=1. Pull request #9810 by hsbt Documentation: Document and test all available gemrc configuration keys. Pull request #9568 by junaruga Bundler 4.0.20 Enhancements: Avoid duplicate relative path prefix in bundle exec. Pull request #9596 by samuel-williams-shopify Follow renamed default",
+      "source": "RubyGems releases",
+      "category": "Ruby"
     },
     {
       "title": "Goroutine Leak Profiles",
@@ -948,6 +1068,14 @@
       "published": "2026-08-29T19:17:15Z",
       "preview": "Fixed Fix an issue where Poetry installs an artifact that is not listed in the lockfile when the package source does not provide a hash for this artifact ( #11030 ). Fix a path traversal vulnerability when downloading files from a compromised URL and/or package source ( #11029 ). Fix a path traversal vulnerability in sdist extraction on Python 3.10.0-3.10.12 and 3.11.0-3.11.4 that could allow malicious tarball files to write files outside the target directory ( #11027 ).",
       "source": "Poetry releases",
+      "category": "Python"
+    },
+    {
+      "title": "v2.29.0",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.0",
+      "published": "2026-08-29T10:22:56Z",
+      "preview": "Features & Improvements Export editable local dependencies with relative paths in requirements files. ( #3294 ) Extend pdm run with --env , --env-file and --working-dir options to set or override the corresponding script options dynamically. ( #3829 ) Bug Fixes Restrict a locked package to the platform it was resolved for when it doesn't belong to every lock target, so pdm lock --platform ... --append no longer adds entries that get installed on the other targets. ( #3261 ) Keep Poetry include entries restricted to the sdist format when importing, writing them to tool.pdm.build.source-includes",
+      "source": "PDM releases",
       "category": "Python"
     },
     {
@@ -1271,6 +1399,14 @@
       "category": "System"
     },
     {
+      "title": "v9.8.0-M2",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-M2",
+      "published": "2026-08-24T05:30:32Z",
+      "preview": "Defer signing wiring until projects are evaluated ( #38932 )",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
       "title": "pnpm 11.24",
       "url": "https://pnpm.io/blog/releases/11.24",
       "published": "2026-08-24T00:00:00Z",
@@ -1391,6 +1527,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "v4.0.19",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.19",
+      "published": "2026-08-20T01:57:03Z",
+      "preview": "RubyGems 4.0.19 Enhancements: Reject SafeMarshal collection lengths longer than the remaining input. Pull request #9756 by hsbt Installs bundler 4.0.19 as a default gem. Bug fixes: Fix gem uninstall --user-install crash when GEM_HOME does not exist. Pull request #9749 by hsbt Documentation: Document SPDX license handling for license= and licenses=. Pull request #9766 by hsbt Bundler 4.0.19 Enhancements: Validate the platform field in Gem::Installer#verify_spec. Pull request #9780 by hsbt Restrict UserDefined handling to explicit class set for Gem::SafeMashal. Pull request #9770 by jackorp Filt",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
       "title": "4.0.19 Released",
       "url": "https://blog.rubygems.org/2026/08/20/4.0.19-released.html",
       "published": "2026-08-20T00:00:00Z",
@@ -1421,6 +1565,14 @@
       "preview": "Change-Id: I9ff6bc81cccdd7876e7b36c395151f70ab3ac654 Reviewed-on: https://go-review.googlesource.com/c/go/+/817701 Reviewed-by: Carlos Amedee carlos@golang.org Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com",
       "source": "Go releases",
       "category": "Go"
+    },
+    {
+      "title": "9.7.1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.1",
+      "published": "2026-08-19T15:30:28Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.7.1. This is a patch release for 9.7.0. We recommend using 9.7.1 instead of 9.7.0. Here are the highlights of 9.7.0 release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility Resilient Sync helps you fix broken builds More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Anton Dubrouski , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 ",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "[release-branch.go1.25] go1.25.14",
@@ -1519,6 +1671,14 @@
       "category": "Multi-language"
     },
     {
+      "title": "v9.8.0-M1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-M1",
+      "published": "2026-08-19T03:57:31Z",
+      "preview": "Report invalid toolchain installation paths as warnings via Problems …",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
       "title": "Go 1.27 is released",
       "url": "https://go.dev/blog/go1.27",
       "published": "2026-08-19T00:00:00Z",
@@ -1573,6 +1733,14 @@
       "preview": "chore: bump backend versions ( #6845 )",
       "source": "pixi releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "v2.28.2",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.28.2",
+      "published": "2026-08-18T02:24:28Z",
+      "preview": "Bug Fixes Keep environment inspection working for Python 3.9 targets when PDM uses dep-logic 0.7 or newer. ( #3838 ) Cache the update check timestamp even when the version lookup fails, so that pdm no longer appears to hang on every command when PyPI is unreachable. ( #3840 ) Don't crash with an IndexError when listing scripts and one of them is blank. A blank script is now listed as <BLANK_SCRIPT> . ( #3842 ) Keep the whole template URL when pdm new is given an ssh:// or credentialed Git URL, instead of truncating it at the userinfo @ . ( #3843 ) Strip comments preceded by any whitespace, not",
+      "source": "PDM releases",
+      "category": "Python"
     },
     {
       "title": "pnpm 11.21-11.22",
