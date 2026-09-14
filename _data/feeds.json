@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T15:29:25Z",
-  "cutoff": "2026-08-15T15:29:20Z",
+  "generated": "2026-09-14T16:28:56Z",
+  "cutoff": "2026-08-15T16:28:52Z",
   "feed_count": 83,
   "item_count": 219,
   "categories": [
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.89.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.89.0",
+      "published": "2026-09-14T16:23:57Z",
+      "preview": "44.89.0 (2026-09-14) Features mise: support selector lockfile updates ( #44615 ) ( 2e951d2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.9.8",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.8",
+      "published": "2026-09-14T15:38:09Z",
+      "preview": "(dotfiles) add top-level dot command alias by @jdx in [ #13158 ](…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.10",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.10",
+      "published": "2026-09-14T15:37:42Z",
+      "preview": "Release vfox 2026.9.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.88.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.88.0",
+      "published": "2026-09-14T15:33:18Z",
+      "preview": "44.88.0 (2026-09-14) Features manager/github-actions: support aws-actions/amazon-ecs-render-task-definition's image ( #45940 ) ( 3e099dd ), closes #43038 Performance Improvements manager/maven-wrapper: avoid matching each line twice ( #46027 ) ( ed285cc ) Documentation manager/github-actions: clarify the \"default\" ( #45957 ) ( 7295d6d ) self-hosted-configuration: correct reference to cacheTtlOverride namespaces ( #45960 ) ( fb77d30 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.15.0 (main) ( #46025 ) ( 4e6dc54 ) lint: require cacheable on withCache() c",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.87.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.87.1",
@@ -111,14 +143,6 @@
       "category": "Maven"
     },
     {
-      "title": "44.83.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.83.1",
-      "published": "2026-09-14T01:55:51Z",
-      "preview": "44.83.1 (2026-09-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.11 (main) ( #45920 ) ( be7b0a6 ) Documentation update references to astral-sh/setup-uv to v10.1.0 (main) ( #45921 ) ( b6ffadc ) update references to python to e06cc11 (main) ( #45918 ) ( fa393c4 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.18 (main) ( #45914 ) ( ab37ef2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2.29.1",
       "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.1",
       "published": "2026-09-14T00:57:16Z",
@@ -181,14 +205,6 @@
       "preview": null,
       "source": "Pkg.jl releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.83.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.83.0",
-      "published": "2026-09-13T11:09:32Z",
-      "preview": "44.83.0 (2026-09-13) Features data: automatic update of static data ( #45911 ) ( acfaa88 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.0.0",
@@ -365,22 +381,6 @@
       "preview": "pnpm 12.4 installs crates and Python packages next to npm packages in the same",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "v2026.9.4: Nix Bootstrap, Environment Selectors, and Man Pages",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.4",
-      "published": "2026-09-09T21:41:36Z",
-      "preview": "This release expands the bootstrap package model with Nix support and environment selectors, teaches packslip tools to ship man pages, and adds a task-scoped quiet setting. It also carries a wide batch of packslip, bootstrap, and cross-platform fixes plus a major speedup to dotfiles history rebuilds. Added bootstrap: Nix is now a built-in [bootstrap.packages] manager on Linux and macOS. Declare packages with the nix: prefix and apply them through your normal Nix profile; the manager supports use, apply, status JSON, and targeted upgrades while leaving Nix sources, caches, trust, and profile ro",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.9.4",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.4",
-      "published": "2026-09-09T19:23:46Z",
-      "preview": "Release vfox 2026.9.4",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v1.17.0-beta1",
