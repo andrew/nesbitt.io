@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-13T22:25:34Z",
-  "cutoff": "2026-08-14T22:25:30Z",
+  "generated": "2026-09-14T01:07:23Z",
+  "cutoff": "2026-08-15T01:07:19Z",
   "feed_count": 83,
-  "item_count": 215,
+  "item_count": 216,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,18 +23,26 @@
   ],
   "items": [
     {
+      "title": "v2.29.1",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.1",
+      "published": "2026-09-14T00:57:16Z",
+      "preview": "Features & Improvements Explain missing lockfile groups and provide group-selection recovery guidance when installing, syncing, or updating groups. ( #2682 ) Allow package-specific overrides for exclude-newer resolution limits. ( #3809 ) Bug Fixes Keep the separating comma out of the operator and accept a v prefix when converting Poetry version constraints. ( #3860 ) Escape glob characters in the virtualenv lookup prefix, so a project whose directory name contains [ or ] can find its own virtualenv. ( #3869 ) Write pyproject.toml and lockfiles atomically to prevent interrupted writes from trun",
+      "source": "PDM releases",
+      "category": "Python"
+    },
+    {
       "title": "2.1.0-M1",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M1",
-      "published": "2026-09-13T22:19:43Z",
-      "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 on metabuild sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Publishing sbt 2.1.0 removes Apache Ivy from its transitive dependency, and implements Ivyless publ",
+      "published": "2026-09-14T00:37:18Z",
+      "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 on metabuild sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Plugin authors : Here's how to set the minimal sbt version for your plugin: pluginCrossBuild / sbtV",
       "source": "sbt releases",
       "category": "Maven"
     },
     {
-      "title": "v2026.9.7",
+      "title": "v2026.9.7: Lockfile revision 2 with npm and Python dependency graphs, dotfile conflict inspection",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.7",
-      "published": "2026-09-13T22:17:08Z",
-      "preview": "(bootstrap) inspect dotfile sync conflicts by @jdx in [ #13144 ](…",
+      "published": "2026-09-13T23:42:17Z",
+      "preview": "This release introduces mise.lock revision 2, which records complete transitive dependency graphs for npm tools (via embedded aube) and Python tools (via uv) in native sidecar files, and adds mise bootstrap dotfiles conflicts for inspecting dotfile sync conflicts before resolving them. It also lets dotfile templates consume bootstrap secrets, stops minimum_release_age from rejecting versions already committed to a lockfile, and closes a security gap in history.describe_command . Added lock: Lockfile revision 2 records the full dependency graph of npm tools installed by embedded aube and of pyp",
       "source": "mise releases",
       "category": "Multi-language"
     },
