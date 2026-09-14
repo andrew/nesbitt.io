@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T08:39:47Z",
-  "cutoff": "2026-08-15T08:39:43Z",
+  "generated": "2026-09-14T09:36:35Z",
+  "cutoff": "2026-08-15T09:36:31Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.85.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.85.0",
+      "published": "2026-09-14T09:06:25Z",
+      "preview": "44.85.0 (2026-09-14) Features platform: validate gitea responses with schemas and share the implementation with forgejo ( #45825 ) ( 4416075 ), closes #37075 #43900 #44068 #44048 #39533 #37768 #38040",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.84.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.84.0",
@@ -235,14 +243,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.82.2",
       "published": "2026-09-12T07:57:46Z",
       "preview": "44.82.2 (2026-09-12) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.9 (main) ( #45899 ) ( 4bbe614 ) Miscellaneous Chores deps: update dependency lint-staged to v17.5.0 (main) ( #45900 ) ( 57d001c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.82.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.82.1",
-      "published": "2026-09-12T01:43:48Z",
-      "preview": "44.82.1 (2026-09-12) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.8 (main) ( #45898 ) ( 2352b67 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
