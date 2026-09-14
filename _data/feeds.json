@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T21:24:37Z",
-  "cutoff": "2026-08-15T21:24:32Z",
+  "generated": "2026-09-14T22:26:56Z",
+  "cutoff": "2026-08-15T22:26:52Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.90.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.90.1",
+      "published": "2026-09-14T21:55:21Z",
+      "preview": "44.90.1 (2026-09-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.1 (main) ( #46137 ) ( 73bf8d0 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.15.2 (main) ( #46136 ) ( 1b8054f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.90.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.90.0",
@@ -131,14 +139,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.85.0",
       "published": "2026-09-14T09:06:25Z",
       "preview": "44.85.0 (2026-09-14) Features platform: validate gitea responses with schemas and share the implementation with forgejo ( #45825 ) ( 4416075 ), closes #37075 #43900 #44068 #44048 #39533 #37768 #38040",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.84.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.84.0",
-      "published": "2026-09-14T08:35:51Z",
-      "preview": "44.84.0 (2026-09-14) Features manager/github-actions: support actions/setup-dotnet's dotnet-version ( #45877 ) ( e6c6f29 ) manager/github-actions: support actions/setup-java's java-version ( #45878 ) ( 58cd82c ) Documentation manager/github-actions: generate one combined first-party and community table ( #45875 ) ( 343fed8 ) Code Refactoring manager/github-actions: don't duplicate parsing logic for first-party Actions ( #45887 ) ( 03906a7 ), closes #35777",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
