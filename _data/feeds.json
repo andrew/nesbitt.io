@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T01:07:23Z",
-  "cutoff": "2026-08-15T01:07:19Z",
+  "generated": "2026-09-14T02:40:17Z",
+  "cutoff": "2026-08-15T02:40:13Z",
   "feed_count": 83,
   "item_count": 216,
   "categories": [
@@ -23,20 +23,28 @@
   ],
   "items": [
     {
+      "title": "2.1.0-M1",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M1",
+      "published": "2026-09-14T02:32:15Z",
+      "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 on metabuild sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Plugin authors : Here's how to set the minimal sbt version for your plugin: pluginCrossBuild / sbtV",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "44.83.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.83.1",
+      "published": "2026-09-14T01:55:51Z",
+      "preview": "44.83.1 (2026-09-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.11 (main) ( #45920 ) ( be7b0a6 ) Documentation update references to astral-sh/setup-uv to v10.1.0 (main) ( #45921 ) ( b6ffadc ) update references to python to e06cc11 (main) ( #45918 ) ( fa393c4 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.18 (main) ( #45914 ) ( ab37ef2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "v2.29.1",
       "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.1",
       "published": "2026-09-14T00:57:16Z",
       "preview": "Features & Improvements Explain missing lockfile groups and provide group-selection recovery guidance when installing, syncing, or updating groups. ( #2682 ) Allow package-specific overrides for exclude-newer resolution limits. ( #3809 ) Bug Fixes Keep the separating comma out of the operator and accept a v prefix when converting Poetry version constraints. ( #3860 ) Escape glob characters in the virtualenv lookup prefix, so a project whose directory name contains [ or ] can find its own virtualenv. ( #3869 ) Write pyproject.toml and lockfiles atomically to prevent interrupted writes from trun",
       "source": "PDM releases",
       "category": "Python"
-    },
-    {
-      "title": "2.1.0-M1",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M1",
-      "published": "2026-09-14T00:37:18Z",
-      "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 on metabuild sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Plugin authors : Here's how to set the minimal sbt version for your plugin: pluginCrossBuild / sbtV",
-      "source": "sbt releases",
-      "category": "Maven"
     },
     {
       "title": "v2026.9.7: Lockfile revision 2 with npm and Python dependency graphs, dotfile conflict inspection",
@@ -269,14 +277,6 @@
       "preview": "What's Changed Component updates ⬆️ (cherry-pick) fix: avoid panic in user audit event resolver on nil event data ( #23461 ) by @Aloui-Ikram in #23501 (cherry-pick) fix: Constrain /registries/ping to the saved URL for existing registries ( #23463 ) by @Aloui-Ikram in #23502 (cherry-pick) Add a size limit for manifest uploads by @Aloui-Ikram in #23503 cherry-pick: fix(ui): use dark login background in dark mode by @bupd in #23539 ci: remove third-party docker action by @stonezdj in #23693 (cherry-pick) neutralize CSV formula in scan export by @stonezdj in #23696 (cherry-pick): prevent proxy-cac",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.79.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.79.6",
-      "published": "2026-09-11T01:45:20Z",
-      "preview": "44.79.6 (2026-09-11) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.6 (main) ( #45866 ) ( 0e552f9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "An update on the May spam-publishing campaign on rubygems.org",
