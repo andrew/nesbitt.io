@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T02:40:17Z",
-  "cutoff": "2026-08-15T02:40:13Z",
+  "generated": "2026-09-14T04:35:00Z",
+  "cutoff": "2026-08-15T04:34:55Z",
   "feed_count": 83,
   "item_count": 216,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.83.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.83.2",
+      "published": "2026-09-14T03:53:06Z",
+      "preview": "44.83.2 (2026-09-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.12 (main) ( #45923 ) ( 9dfdac3 ) Documentation update references to otel/opentelemetry-collector-contrib to v0.160.0 (main) ( #45924 ) ( dca8aca ) update references to renovate/renovate (main) ( #45925 ) ( 4a9d77d ) Build System deps: update dependency node-html-parser to v9.0.4 (main) ( #45922 ) ( b3acc1e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.1.0-M1",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M1",
@@ -251,14 +259,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.81.0",
       "published": "2026-09-11T10:43:26Z",
       "preview": "44.81.0 (2026-09-11) Features datasource/npm: integrity and tarball extraction ( #44315 ) ( ac22678 ) manager/mise: support gitlab backend ( #44116 ) ( 141e136 ) Miscellaneous Chores deps: update dependency memfs to v4.71.0 (main) ( #45871 ) ( 7217c0b ) Tests close remaining line coverage gaps ( #45870 ) ( c23e9f0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.80.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.80.0",
-      "published": "2026-09-11T09:29:39Z",
-      "preview": "44.80.0 (2026-09-11) Features datasource/gitlab-releases: replace getJsonUnchecked with validated getJson ( #44145 ) ( da4cbf6 ) datasource/gitlab-tags: replace getJsonUnchecked with validated getJson ( #44144 ) ( e5ef25b ) Miscellaneous Chores deps: update dependency memfs to v4.70.0 (main) ( #45869 ) ( eadd7b4 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
