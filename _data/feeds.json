@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-14T04:35:00Z",
-  "cutoff": "2026-08-15T04:34:55Z",
+  "generated": "2026-09-14T06:55:32Z",
+  "cutoff": "2026-08-15T06:55:27Z",
   "feed_count": 83,
-  "item_count": 216,
+  "item_count": 217,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.0.9",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.9",
+      "published": "2026-09-14T06:23:58Z",
+      "preview": "🐛 bug fixes fix: Fixes AccessDeniedException on Windows by creating JAR in situ by @eed3si9n in sbt/io#558 fix: Fixes unhermetic semanticdbTargetRoot in the compile cache key by @christianharrington in #9711 fix: Fixes pipelined build with Java sources by @anatoliykmetyuk in #9574 fix: Keep macro subprojects off the pipelined classpath by @stasimus in #9719 fix: Fixes sbt runner script not starting on openSUSE by @alexasl in #9753 Update to sbtn 2.1.0-M1 #9755 Full Changelog : v2.0.8...v2.0.9",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
     {
       "title": "44.83.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.83.2",
