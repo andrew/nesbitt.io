@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-14T12:40:15Z",
-  "cutoff": "2026-08-15T12:40:05Z",
+  "generated": "2026-09-14T13:29:53Z",
+  "cutoff": "2026-08-15T13:29:50Z",
   "feed_count": 83,
-  "item_count": 212,
+  "item_count": 219,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.87.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.87.0",
+      "published": "2026-09-14T13:24:37Z",
+      "preview": "44.87.0 (2026-09-14) Features replacements: xlsx to scoped ( #43461 ) ( 43bc8c8 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.9 (main) ( #45945 ) ( 2e80293 ) Code Refactoring workers/lookup: drop stale istanbul ignores in generateUpdate ( #45929 ) ( ec4ba7b ) Tests datasource: close branch coverage gaps ( #45943 ) ( 3a723b7 ) workers/lookup: cover untested branches under lookup/ ( #45930 ) ( 7aedcb2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "5.4.5.0",
       "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.5.0",
@@ -71,12 +79,28 @@
       "category": "Infrastructure"
     },
     {
+      "title": "2.0.9",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.9",
+      "published": "2026-09-14T06:23:58Z",
+      "preview": "🐛 bug fixes fix: Fixes AccessDeniedException on Windows by creating JAR in situ by @eed3si9n in sbt/io#558 fix: Fixes unhermetic semanticdbTargetRoot in the compile cache key by @christianharrington in #9711 fix: Fixes pipelined build with Java sources by @anatoliykmetyuk in #9574 fix: Keep macro subprojects off the pipelined classpath by @stasimus in #9719 fix: Fixes sbt runner script not starting on openSUSE by @alexasl in #9753 Update to sbtn 2.1.0-M1 #9755 Full Changelog : v2.0.8...v2.0.9",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
       "title": "44.83.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.83.2",
       "published": "2026-09-14T03:53:06Z",
       "preview": "44.83.2 (2026-09-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.12 (main) ( #45923 ) ( 9dfdac3 ) Documentation update references to otel/opentelemetry-collector-contrib to v0.160.0 (main) ( #45924 ) ( dca8aca ) update references to renovate/renovate (main) ( #45925 ) ( 4a9d77d ) Build System deps: update dependency node-html-parser to v9.0.4 (main) ( #45922 ) ( b3acc1e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "2.1.0-M1",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M1",
+      "published": "2026-09-14T02:32:15Z",
+      "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 on metabuild sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Plugin authors : Here's how to set the minimal sbt version for your plugin: pluginCrossBuild / sbtV",
+      "source": "sbt releases",
+      "category": "Maven"
     },
     {
       "title": "44.83.1",
@@ -229,14 +253,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.82.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.82.4",
-      "published": "2026-09-12T15:12:16Z",
-      "preview": "44.82.4 (2026-09-12) Bug Fixes dashboard: keep abandoned note outside the <details> block ( #45902 ) ( 65f8036 ) Documentation hostRules: replace the stale matchHost port warning ( #45901 ) ( 29033c3 ), closes #22007 #29487",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
@@ -1159,6 +1175,14 @@
       "category": "Multi-language"
     },
     {
+      "title": "2.0.8",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.8",
+      "published": "2026-08-28T03:36:40Z",
+      "preview": "🐛 bug fixes fix: Fixes ThisBuild -scoped bare settings by @eed3si9n in #9674 fix: Fixes TestReportListener not receiving endGroup after a LinkageError by @unkarjedy in #9667 fix: Fixes the ability to extend TestResultLogger by @unkarjedy in #9655 fix: Fixes --addPluginSbtFile getting lost after reboot by @azdrojowa123 in #9669 fix: Fixes JDK 17 domain socket deadlocks by @eed3si9n in #9671 fix: Keep adhoc test classloader open in a forked test @stasimus in #9639 fix: Fixes Windows runner by @eed3si9n in #9680 Full Changelog : v2.0.7...v2.0.8",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
       "title": "0.12.7",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.7",
       "published": "2026-08-27T22:14:06Z",
@@ -1445,6 +1469,38 @@
       "preview": "Insert 7.11.0.14 into main on 08/21/2026 12:22:43",
       "source": "NuGet Client releases",
       "category": ".NET"
+    },
+    {
+      "title": "1.13.0",
+      "url": "https://github.com/sbt/sbt/releases/tag/v1.13.0",
+      "published": "2026-08-21T03:18:37Z",
+      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-943m-f264-54p4 from @stasimus that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via BSP, similar to a recent bug that was found in JSON-RPC. sbt 1.13.0 and 2.0.7 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionTy",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "2.0.7",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.7",
+      "published": "2026-08-21T03:17:58Z",
+      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-943m-f264-54p4 from @stasimus that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via BSP, similar to a recent bug that was found in JSON-RPC. sbt 1.13.0 and 2.0.7 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionTy",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "1.12.15",
+      "url": "https://github.com/sbt/sbt/releases/tag/v1.12.15",
+      "published": "2026-08-21T03:11:15Z",
+      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes bport: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk ",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "2.0.6",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.6",
+      "published": "2026-08-21T03:10:43Z",
+      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionType . Tcp The remediation was impleme",
+      "source": "sbt releases",
+      "category": "Maven"
     },
     {
       "title": "Enabling the next-generation trait solver on nightly",
