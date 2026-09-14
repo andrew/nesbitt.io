@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T07:41:21Z",
-  "cutoff": "2026-08-15T07:41:16Z",
+  "generated": "2026-09-14T08:39:47Z",
+  "cutoff": "2026-08-15T08:39:43Z",
   "feed_count": 83,
   "item_count": 217,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.84.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.84.0",
+      "published": "2026-09-14T08:35:51Z",
+      "preview": "44.84.0 (2026-09-14) Features manager/github-actions: support actions/setup-dotnet's dotnet-version ( #45877 ) ( e6c6f29 ) manager/github-actions: support actions/setup-java's java-version ( #45878 ) ( 58cd82c ) Documentation manager/github-actions: generate one combined first-party and community table ( #45875 ) ( 343fed8 ) Code Refactoring manager/github-actions: don't duplicate parsing logic for first-party Actions ( #45887 ) ( 03906a7 ), closes #35777",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.83.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.83.3",
@@ -261,14 +269,6 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.82.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.82.0",
-      "published": "2026-09-11T11:23:29Z",
-      "preview": "44.82.0 (2026-09-11) Features manager/github-actions: support renovatebot/github-action renovate-image ( #45873 ) ( 6580ef4 ) manager/github-actions: support renovatebot/github-action's renovate-version ( #45872 ) ( e4307d5 ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.7 (main) ( #45882 ) ( 282a0f3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Windows Package Manager 1.30.140-preview",
