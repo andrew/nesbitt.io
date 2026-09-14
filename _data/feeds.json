@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T17:24:27Z",
-  "cutoff": "2026-08-15T17:24:21Z",
+  "generated": "2026-09-14T18:32:27Z",
+  "cutoff": "2026-08-15T18:32:23Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.9.8: Top-level `mise dot` command, faster brew bootstrap installs, and npm safety-check fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.8",
+      "published": "2026-09-14T18:20:23Z",
+      "preview": "Dotfile management moves to the top level as mise dot , Homebrew bootstrap installs run their download, extraction, and linking stages concurrently, and several install paths are corrected: embedded aube reputation gates now report the real reason and honor --yes , PyPI tools fall back to version-only installs when a dependency graph cannot be built, lazy tools no longer trigger missing: warnings, and lockfiles no longer resurrect disabled backends. Added dotfiles: The full dotfiles command tree is now available as mise dotfiles , with mise dot as a short alias. mise bootstrap dotfiles remains",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v0.396.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.396.0",
@@ -45,14 +53,6 @@
       "preview": "44.89.0 (2026-09-14) Features mise: support selector lockfile updates ( #44615 ) ( 2e951d2 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.9.8",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.8",
-      "published": "2026-09-14T15:38:09Z",
-      "preview": "(dotfiles) add top-level dot command alias by @jdx in [ #13158 ](…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.9.10",
