@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T10:29:04Z",
-  "cutoff": "2026-08-15T10:28:59Z",
+  "generated": "2026-09-14T11:27:30Z",
+  "cutoff": "2026-08-15T11:27:25Z",
   "feed_count": 83,
   "item_count": 218,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.85.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.85.1",
+      "published": "2026-09-14T10:59:47Z",
+      "preview": "44.85.1 (2026-09-14) Bug Fixes platform/gitlab: skip projects marked for deletion ( #45928 ) ( 96e72f6 ) Code Refactoring lookup: remove redundant currentValue check ( #45933 ) ( 874060f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.85.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.85.0",
@@ -243,14 +251,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.82.3",
       "published": "2026-09-12T08:26:58Z",
       "preview": "44.82.3 (2026-09-12) Bug Fixes exit non-zero after an unhandled rejection ( #45895 ) ( 41e2689 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.82.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.82.2",
-      "published": "2026-09-12T07:57:46Z",
-      "preview": "44.82.2 (2026-09-12) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.9 (main) ( #45899 ) ( 4bbe614 ) Miscellaneous Chores deps: update dependency lint-staged to v17.5.0 (main) ( #45900 ) ( 57d001c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
