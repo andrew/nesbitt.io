@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-15T12:38:59Z",
-  "cutoff": "2026-08-16T12:38:55Z",
+  "generated": "2026-09-15T13:29:25Z",
+  "cutoff": "2026-08-16T13:29:20Z",
   "feed_count": 83,
   "item_count": 223,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.12.0.13",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.13",
+      "published": "2026-09-15T12:48:26Z",
+      "preview": "Insert 7.12.0.13 into main on 09/15/2026 12:48:26",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "20260915t121500-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260915t121500-all",
@@ -1725,14 +1733,6 @@
       "preview": "Bug fixes Fix DeprecationHandler version fallback when packaging raises InvalidVersion for unparseable versions (e.g. None under packaging >=26.3). ( #16495 ) Refresh cached empty channel notice responses and parse CEP 6 expires_at timestamps. ( #16500 , #16501 ) Fall back to threaded package extraction when process synchronization primitives are unavailable. ( #16512 ) Fix CondaHttpAuth.add_binstar_token mangling URLs that end in notices.json (or any filename without a platform subdir) by correcting Channel.url() to preserve package_filename when platform is None . ( #16516 ) Fix AttributeErr",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "7.11.0.12",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.12",
-      "published": "2026-08-18T12:29:40Z",
-      "preview": "Insert 7.11.0.12 into main on 08/18/2026 12:29:39",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "pixi-build-ros-v0.7.4",
