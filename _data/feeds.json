@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-15T02:37:20Z",
-  "cutoff": "2026-08-16T02:37:15Z",
+  "generated": "2026-09-15T05:29:13Z",
+  "cutoff": "2026-08-16T05:29:09Z",
   "feed_count": 83,
   "item_count": 221,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.9.9",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.9",
+      "published": "2026-09-15T05:08:18Z",
+      "preview": "(dotfiles) add encryption flag to track by @jdx in [ #13180 ](htt…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.11",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.11",
+      "published": "2026-09-15T05:07:50Z",
+      "preview": "Release vfox 2026.9.11",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.90.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.90.3",
+      "published": "2026-09-15T04:48:58Z",
+      "preview": "44.90.3 (2026-09-15) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.3 (main) ( #46198 ) ( b536021 ) Miscellaneous Chores deps: update codecov/codecov-action action to v7.1.0 (main) ( #46195 ) ( d2e5541 ) deps: update dependency astral-sh/uv to v0.12.14 (main) ( #46196 ) ( 653d730 ) deps: update dependency uv to v0.12.14 (main) ( #46197 ) ( 72e7670 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.12.14",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.14",
@@ -139,14 +163,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.86.0",
       "published": "2026-09-14T11:31:24Z",
       "preview": "44.86.0 (2026-09-14) Features manager: pass extracted constraints to updateArtifacts ( #45826 ) ( 4b4d14e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.85.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.85.1",
-      "published": "2026-09-14T10:59:47Z",
-      "preview": "44.85.1 (2026-09-14) Bug Fixes platform/gitlab: skip projects marked for deletion ( #45928 ) ( 96e72f6 ) Code Refactoring lookup: remove redundant currentValue check ( #45933 ) ( 874060f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -349,22 +365,6 @@
       "preview": "Following reporting by The Wall Street Journal and the publication of research by Nightingale Collective , we want to clarify what we know about the spam-publishing campaign on rubygems.org in May 2026. We take the security of rubygems.org and the community that depends on it seriously. Our team reviewed the activity and discussed the findings with researchers from Nightingale Collective. The campaign involved newly registered accounts publishing spam packages. Socket previously documented related activity under the name GemStuffer . As described in our May status updates , we temporarily paus",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "v2026.9.5: macOS defaults, per-platform dotfiles, and complete lockfiles",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.5",
-      "published": "2026-09-10T23:44:04Z",
-      "preview": "This release deepens macOS bootstrap support with current-host and nested defaults, lets dotfiles and tasks adapt to the platform and to parsed arguments, and adds an opt-in trial of complete lockfile generation. It also carries a batch of install progress, self-update, brew-cask, and sandbox fixes. Added bootstrap: New [[bootstrap.macos.defaults_entries]] blocks let you set macOS preferences explicitly with domain , key , value , and an optional host ( any by default, or current ), covering preferences normally written via defaults -currentHost while keeping the existing [bootstrap.macos.defa",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.9.5",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.5",
-      "published": "2026-09-10T21:17:27Z",
-      "preview": "Release vfox 2026.9.5",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "0.12.13",
