@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14T23:23:38Z",
-  "cutoff": "2026-08-15T23:23:33Z",
+  "generated": "2026-09-15T01:03:00Z",
+  "cutoff": "2026-08-16T01:02:57Z",
   "feed_count": 83,
   "item_count": 220,
   "categories": [
@@ -831,6 +831,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "swift-6.4.0-RELEASE: Fix infinite loop in pub grub when repairing decision node (#10479)",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.0-RELEASE",
+      "published": "2026-09-02T15:20:02Z",
+      "preview": "Fixes #10478 Ensure that when comparing against enabled traits state for a decided dependency node, SwiftPM fetches from the enabled traits map rather than directly from the DependencyResolutionNode itself. This is due to the fact that the map is set up to handle special \"default\" trait cases.",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
       "title": "v1.16.1",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.1",
       "published": "2026-09-02T14:49:32Z",
@@ -1436,14 +1444,6 @@
       "published": "2026-08-22T16:00:28Z",
       "preview": "This is the first beta release of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for more details and the upgrade instructions. Changelog : Changes Init Do not make opam init --reinit ask to retry the command when upgrading from a 2.1 root [ #7058 @kit-ty-kate - fix #7057 ] opam init --reinit now reg",
       "source": "opam releases",
-      "category": "Registries"
-    },
-    {
-      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-21-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-08-21-a",
-      "published": "2026-08-22T13:22:19Z",
-      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-08-21-a",
-      "source": "Swift Package Manager releases",
       "category": "Registries"
     },
     {
