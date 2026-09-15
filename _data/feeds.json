@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-15T10:29:40Z",
-  "cutoff": "2026-08-16T10:29:33Z",
+  "generated": "2026-09-15T11:27:05Z",
+  "cutoff": "2026-08-16T11:26:54Z",
   "feed_count": 83,
-  "item_count": 222,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,26 +23,34 @@
   ],
   "items": [
     {
-      "title": "v12.4.2",
+      "title": "44.93.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.0",
+      "published": "2026-09-15T10:54:47Z",
+      "preview": "44.93.0 (2026-09-15) Features manager/github-actions: support baptiste0928/cargo-install crate and version ( cded589 ) manager/github-actions: support conda-incubator/setup-miniconda version inputs ( cbd9e92 ) manager/github-actions: support crystal-lang/install-crystal version inputs ( 91354ec ) manager/github-actions: support cue-lang/setup-cue version ( 6df9554 ) manager/github-actions: support graalvm/setup-graalvm version inputs ( 11ae208 ) manager/github-actions: support jwlawson/actions-setup-cmake cmake-version ( a4a0612 ) manager/github-actions: support moonrepo/setup-rust channel ( 0",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 12.4.2",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.2",
-      "published": "2026-09-15T10:04:40Z",
-      "preview": "v12.4.2",
+      "published": "2026-09-15T10:49:15Z",
+      "preview": "pnpm 12.4.2 includes security fixes for executable shims and GitHub Actions links, more reliable installs, faster peer dependency checks in workspaces, and Python lockfiles that work across compatible targets. Patch Changes Security Dependency executables can no longer take over another package's POSIX bin shim through its shell helpers. Reinstall dependencies to replace existing shims #14837 . On Cygwin, MSYS2, and WSL, shims still use PATH for Windows path conversion, so dependency executables can still redirect them there. GitHub Actions homepage links no longer expose server credentials. G",
       "source": "pnpm releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "44.92.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.92.0",
+      "published": "2026-09-15T10:39:49Z",
+      "preview": "44.92.0 (2026-09-15) Features manager/github-actions: support abatilo/actions-poetry poetry-version ( 5f013cb ) manager/github-actions: support actions-rust-lang/setup-rust-toolchain toolchain ( 99fa381 ) manager/github-actions: support aquaproj/aqua-installer's aqua_version ( d59c05a ) manager/github-actions: support astral-sh/ruff-action version ( 3b252fe ) manager/github-actions: support azure/setup-kubectl's version ( f9e1b04 ) manager/github-actions: support biomejs/setup-biome version ( e51ada8 ) manager/github-actions: support bufbuild/buf-setup-action version ( e0cfb08 ) manager/github",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "44.91.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.91.0",
       "published": "2026-09-15T08:59:50Z",
       "preview": "44.91.0 (2026-09-15) Features manager/github-actions: support extractions/setup-just's just-version ( #46033 ) ( 6c7e9fa ) manager/github-actions: support gradle/actions/setup-gradle's gradle-version ( #46032 ) ( 3de36a8 ) manager/github-actions: support hashicorp/setup-terraform's terraform_version ( #46031 ) ( 608b47e ) manager/github-actions: support terraform-linters/setup-tflint's tflint_version ( #46034 ) ( d27e967 ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.5 (main) ( #46204 ) ( b80931b ) Code Refactoring manager: remove unreachable branches ( #46206 ) (",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.87.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.87.0",
-      "published": "2026-09-15T08:38:25Z",
-      "preview": "44.87.0 (2026-09-14) Features presets/replacements: xlsx to scoped ( #43461 ) ( 43bc8c8 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.14.9 (main) ( #45945 ) ( 2e80293 ) Code Refactoring workers/lookup: drop stale istanbul ignores in generateUpdate ( #45929 ) ( ec4ba7b ) Tests datasource: close branch coverage gaps ( #45943 ) ( 3a723b7 ) workers/lookup: cover untested branches under lookup/ ( #45930 ) ( 7aedcb2 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -163,14 +171,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.88.0",
       "published": "2026-09-14T15:33:18Z",
       "preview": "44.88.0 (2026-09-14) Features manager/github-actions: support aws-actions/amazon-ecs-render-task-definition's image ( #45940 ) ( 3e099dd ), closes #43038 Performance Improvements manager/maven-wrapper: avoid matching each line twice ( #46027 ) ( ed285cc ) Documentation manager/github-actions: clarify the \"default\" ( #45957 ) ( 7295d6d ) self-hosted-configuration: correct reference to cacheTtlOverride namespaces ( #45960 ) ( fb77d30 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.15.0 (main) ( #46025 ) ( 4e6dc54 ) lint: require cacheable on withCache() c",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.87.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.87.1",
-      "published": "2026-09-14T13:41:36Z",
-      "preview": "44.87.1 (2026-09-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.97.13 (main) ( #45953 ) ( 69d6f9d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -469,14 +469,6 @@
       "preview": "RubyGems and Bundler 4.1.0.beta1 include features, performance, enhancements, breaking changes, bug fixes and deprecations. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.1.0.beta1 Release Notes RubyGems Changes already released in 4.0.x are not repeated here. Features: Add content addressable gems support. Pull request #9773 by Jenny Shen, Harriet Oughton and Gira Chawda Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Ru",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "Announcing .NET 11 Release Candidate 1",
-      "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-1/",
-      "published": "2026-09-08T21:30:00Z",
-      "preview": ".NET 11 Release Candidate 1 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, C#, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 1 appeared first on .NET Blog .",
-      "source": "NuGet Blog",
-      "category": ".NET"
     },
     {
       "title": "0.12.11",
