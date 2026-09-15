@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-15T18:31:45Z",
-  "cutoff": "2026-08-16T18:31:40Z",
+  "generated": "2026-09-15T21:24:45Z",
+  "cutoff": "2026-08-16T21:24:40Z",
   "feed_count": 83,
   "item_count": 227,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.93.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.5",
+      "published": "2026-09-15T20:39:22Z",
+      "preview": "44.93.5 (2026-09-15) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.8 (main) ( #46237 ) ( 19087b6 ) Documentation manager/github-actions: count how many Actions we support ( #46233 ) ( 4a83bc3 ) Code Refactoring manager/github-actions: remove \"community\" references ( #46232 ) ( 642fe06 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v29.8.1",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.1",
@@ -187,14 +195,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.90.2",
       "published": "2026-09-14T23:07:14Z",
       "preview": "44.90.2 (2026-09-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.2 (main) ( #46170 ) ( 271ec2a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.90.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.90.1",
-      "published": "2026-09-14T21:55:21Z",
-      "preview": "44.90.1 (2026-09-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.1 (main) ( #46137 ) ( 73bf8d0 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.15.2 (main) ( #46136 ) ( 1b8054f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
