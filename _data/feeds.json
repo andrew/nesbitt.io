@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-15T09:34:34Z",
-  "cutoff": "2026-08-16T09:34:29Z",
+  "generated": "2026-09-15T10:29:40Z",
+  "cutoff": "2026-08-16T10:29:33Z",
   "feed_count": 83,
-  "item_count": 221,
+  "item_count": 222,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.4.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.2",
+      "published": "2026-09-15T10:04:40Z",
+      "preview": "v12.4.2",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.91.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.91.0",
@@ -463,6 +471,14 @@
       "category": "Ruby"
     },
     {
+      "title": "Announcing .NET 11 Release Candidate 1",
+      "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-1/",
+      "published": "2026-09-08T21:30:00Z",
+      "preview": ".NET 11 Release Candidate 1 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, C#, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 1 appeared first on .NET Blog .",
+      "source": "NuGet Blog",
+      "category": ".NET"
+    },
+    {
       "title": "0.12.11",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.11",
       "published": "2026-09-08T20:45:27Z",
@@ -837,14 +853,6 @@
       "preview": "Security This release addresses CVE-2026-17106 , where a crafted tar archive could write outside the extraction directory through the use of malicious links ( GHSA-hfg8-hc9c-6c3h ). Bugfixes Fixed broken rootlessport bind behavior with -p 0.0.0.0:... -p [::]:... which failed instead of binding both v4 and v6 separately. Podman Machine on WSL should now correctly forward ports again by binding separate IPv4 and IPv6 sockets to make the WSL forwarder logic work again ( #29377 ).",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "pnpm 12.3",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.0",
-      "published": "2026-09-02T16:28:57Z",
-      "preview": "Minor Changes Every context-aware global command ( node , deno , bun , and the shims created with pnpm shim add ) is now a native executable on every platform, so environment variables whose names are not valid shell identifiers reach these commands. On Windows, <name>.exe replaces the .cmd and .ps1 shims for them. Shims written by earlier pnpm 12 releases are migrated on the next global install or self-update. pnpm remove and pnpm update now accept --trust-lockfile , --no-trust-lockfile , --trust-policy , --trust-policy-exclude and --trust-policy-ignore-after , the same flags pnpm install and",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "v1.16.1",
