@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-15T16:30:06Z",
-  "cutoff": "2026-08-16T16:30:01Z",
+  "generated": "2026-09-15T17:24:58Z",
+  "cutoff": "2026-08-16T17:24:53Z",
   "feed_count": 83,
-  "item_count": 223,
+  "item_count": 226,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.8.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.1",
+      "published": "2026-09-15T17:05:26Z",
+      "preview": "29.8.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.8.1 milestone moby/moby, 29.8.1 milestone Bug fixes and enhancements containerd image store: Fix docker load leaving dangling images after loading an image that already exists. moby/moby#53595 Fix managed containerd logging a CRI pod-sandbox plugin dependency warning during startup. moby/moby#53585 Fix user-namespace detection on OpenVZ, where namespace inode numbers are virtualized. moby/moby#53605 Windows: Preserve hard links when committing a container, so a file with",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "7.0.2",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.2",
+      "published": "2026-09-15T16:44:56Z",
+      "preview": "What's Changed Change prefix selection documentation and behaviour by @jtbrough in #23959 Fix typos by @aguashui in #23961 Update Safari user agent to 27.0 by @samford in #23964 Fix shorter-prefix Perl bottle relocation by @MikeMcQuaid in #23962 Populate description caches only on search by @p-linnane in #23965 shims/super/cc: allow paths under HOMEBREW_FORMULA_BUILDPATH by @woodruffw in #23971 Verify only trusted files when tapping by @p-linnane in #23972 Type AbstractSubcommand#args as CLI::Args by @dduugg in #23968 cleanup: drop an unreachable bottle-version branch by @rawsun007 in #23975 i",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "v2.0.0-beta.24",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.24",
+      "published": "2026-09-15T16:30:01Z",
+      "preview": "v2.0.0-beta.24",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "44.93.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.4",
