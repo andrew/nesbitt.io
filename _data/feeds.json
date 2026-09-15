@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-15T01:03:00Z",
-  "cutoff": "2026-08-16T01:02:57Z",
+  "generated": "2026-09-15T02:37:20Z",
+  "cutoff": "2026-08-16T02:37:15Z",
   "feed_count": 83,
-  "item_count": 220,
+  "item_count": 221,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.14",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.14",
+      "published": "2026-09-15T02:19:30Z",
+      "preview": "Release Notes Released on 2026-09-15. Package-operation errors now use uv's standard diagnostics, with consistent hints and compact, labeled cause chains. ( #17110 , #21599 , #21603 ) Package-operation exit codes now reflect the underlying cause: expected failures return 1, while recognized operational and internal failures return 2. ( #17110 ) Enhancements Resume interrupted downloads with HTTP Range requests when supported ( #21570 ) Show underlying causes and hints in user warnings ( #21565 ) Show resolver hints for failed uv tool upgrade operations ( #21566 ) Preview features Export multip",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "44.90.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.90.2",
