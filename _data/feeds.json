@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-15T15:27:21Z",
-  "cutoff": "2026-08-16T15:27:17Z",
+  "generated": "2026-09-15T16:30:06Z",
+  "cutoff": "2026-08-16T16:30:01Z",
   "feed_count": 83,
   "item_count": 223,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.93.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.4",
+      "published": "2026-09-15T16:29:46Z",
+      "preview": "44.93.4 (2026-09-15) Bug Fixes datasource/go: cache the publication time of each version ( #45951 ) ( aae889a ) Tests datasource/go: show that .info timestamps are refetched ( #45950 ) ( 0649d9f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.93.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.3",
+      "published": "2026-09-15T16:00:24Z",
+      "preview": "44.93.3 (2026-09-15) Build System deps: update dependency cronstrue to v3.25.0 (main) ( #46231 ) ( 94058a2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.93.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.2",
@@ -159,14 +175,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.90.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.90.0",
-      "published": "2026-09-14T21:03:59Z",
-      "preview": "44.90.0 (2026-09-14) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.0 (main) ( #46125 ) ( fb7f1f4 ) Bug Fixes exec: memoise which install-tool s we've run ( #46084 ) ( b2135e4 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.15.1 (main) ( #46124 ) ( 0e4ccb2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "MacPorts 2.12.6",
       "url": "https://github.com/macports/macports-base/releases/tag/v2.12.6",
       "published": "2026-09-14T20:50:06Z",
@@ -188,14 +196,6 @@
       "published": "2026-09-14T17:05:38Z",
       "preview": "What's Changed Remove fully rolled out feature flags by @ruben-pachecocaldera in #16046 build(deps): bump hcl2json to v0.6.9 by @JamieMagee in #16188 build(deps): bump PowerShell to 7.6.5 by @JamieMagee in #16189 build(deps): bump Yarn to 4.18.0 by @JamieMagee in #16187 build(deps): bump git-shim to v1.5.0 by @JamieMagee in #16186 Add shared delivery for unavailable cooldown warnings by @v-robaiken in #16142 Bump library/golang in /go_modules by @dependabot [bot] in #16097 Bump the all-actions group across 1 directory with 2 updates by @dependabot [bot] in #16198 Give the security refresh oper",
       "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.89.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.89.1",
-      "published": "2026-09-14T16:58:43Z",
-      "preview": "44.89.1 (2026-09-14) Bug Fixes datasource/go: don't cache private modules ( #45949 ) ( 826541b )",
-      "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
