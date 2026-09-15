@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-15T13:29:25Z",
-  "cutoff": "2026-08-16T13:29:20Z",
+  "generated": "2026-09-15T14:29:30Z",
+  "cutoff": "2026-08-16T14:29:18Z",
   "feed_count": 83,
   "item_count": 223,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.93.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.1",
+      "published": "2026-09-15T14:09:35Z",
+      "preview": "44.93.1 (2026-09-15) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.15 (main) ( #46227 ) ( f0b5717 ) Build System deps: update dependency ignore to v7.0.9 (main) ( #46226 ) ( ced1b3a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.12.0.13",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.13",
@@ -189,14 +197,6 @@
       "preview": "Release vfox 2026.9.10",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.88.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.88.0",
-      "published": "2026-09-14T15:33:18Z",
-      "preview": "44.88.0 (2026-09-14) Features manager/github-actions: support aws-actions/amazon-ecs-render-task-definition's image ( #45940 ) ( 3e099dd ), closes #43038 Performance Improvements manager/maven-wrapper: avoid matching each line twice ( #46027 ) ( ed285cc ) Documentation manager/github-actions: clarify the \"default\" ( #45957 ) ( 7295d6d ) self-hosted-configuration: correct reference to cacheTtlOverride namespaces ( #45960 ) ( fb77d30 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.15.0 (main) ( #46025 ) ( 4e6dc54 ) lint: require cacheable on withCache() c",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "5.4.5.0",
