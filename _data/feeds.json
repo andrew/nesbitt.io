@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-15T11:27:05Z",
-  "cutoff": "2026-08-16T11:26:54Z",
+  "generated": "2026-09-15T12:38:59Z",
+  "cutoff": "2026-08-16T12:38:55Z",
   "feed_count": 83,
-  "item_count": 221,
+  "item_count": 223,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "20260915t121500-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260915t121500-all",
+      "published": "2026-09-15T12:15:24Z",
+      "preview": "Deployment at 2026-09-15T12:15:22.786265Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "0.12.15",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.15",
+      "published": "2026-09-15T12:09:40Z",
+      "preview": "Release Notes Released on 2026-09-15. This release fixes a regression in 0.12.14 that lead to rejecting valid installation commands such as using uv pip install --system in python:* docker images or when using uv pip install --target . . ( #21699 ) Performance Speed up cold-cache resolution and HTTP cache revalidation by batching cache writes ( #21675 ) Bug fixes Revert \"Reject symlinked wheel installation destinations\" ( #21699 ) Install uv 0.12.15 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.12.15/",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "44.93.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.0",
