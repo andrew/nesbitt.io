@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-15T14:29:30Z",
-  "cutoff": "2026-08-16T14:29:18Z",
+  "generated": "2026-09-15T15:27:21Z",
+  "cutoff": "2026-08-16T15:27:17Z",
   "feed_count": 83,
   "item_count": 223,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.93.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.2",
+      "published": "2026-09-15T15:07:31Z",
+      "preview": "44.93.2 (2026-09-15) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.7 (main) ( #46230 ) ( bccca7a ) Miscellaneous Chores deps: update dependency uv to v0.12.15 (main) ( #46229 ) ( d0e3426 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v0.81.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.81.0",
+      "published": "2026-09-15T15:07:21Z",
+      "preview": "[0.81.0] - 2026-09-15 ✨ Highlights pixi run --script can now run conda-script files directly from HTTP or HTTPS URLs, including GitHub Gists. Pixi downloads the script, reuses its cached environment, and runs it without requiring a local file. Added Add remote url support to conda-script by @ruben-arts in #6981 Add PrefixPlatformMismatchError for source build prefixes by @hunger in #6984 Show the build platform of nested derived environments by @hunger in #6987 Changed Track the platform of a derived environment explicitly by @hunger in #6985 Keep nested derived environments on the build platf",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.93.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.1",
@@ -83,14 +99,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.91.0",
       "published": "2026-09-15T08:59:50Z",
       "preview": "44.91.0 (2026-09-15) Features manager/github-actions: support extractions/setup-just's just-version ( #46033 ) ( 6c7e9fa ) manager/github-actions: support gradle/actions/setup-gradle's gradle-version ( #46032 ) ( 3de36a8 ) manager/github-actions: support hashicorp/setup-terraform's terraform_version ( #46031 ) ( 608b47e ) manager/github-actions: support terraform-linters/setup-tflint's tflint_version ( #46034 ) ( d27e967 ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.5 (main) ( #46204 ) ( b80931b ) Code Refactoring manager: remove unreachable branches ( #46206 ) (",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.89.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.89.0",
-      "published": "2026-09-15T08:38:09Z",
-      "preview": "44.89.0 (2026-09-14) Features manager/mise: support selector lockfile updates ( #44615 ) ( 2e951d2 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1749,14 +1757,6 @@
       "preview": "Deployment at 2026-08-18T11:44:38.196169Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "pixi-build-ros-v0.7.3",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.7.3",
-      "published": "2026-08-18T11:27:37Z",
-      "preview": "chore: bump backend versions ( #6845 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-rust-v0.5.6",
