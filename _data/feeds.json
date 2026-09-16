@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-16T16:29:57Z",
-  "cutoff": "2026-08-17T16:29:40Z",
+  "generated": "2026-09-16T17:25:11Z",
+  "cutoff": "2026-08-17T17:25:07Z",
   "feed_count": 83,
-  "item_count": 233,
+  "item_count": 235,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Hatchling v1.32.1",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.1",
+      "published": "2026-09-16T16:53:57Z",
+      "preview": "Fixed: Preserve the version string exactly as written in core metadata, so stylized versions such as CalVer 2026.08.10 are no longer stripped of leading zeros. Distribution file names and .dist-info directories continue to use the PEP 440 normalized form.",
+      "source": "Hatch releases",
+      "category": "Python"
+    },
+    {
+      "title": "hatch-v1.18.1",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.18.1",
+      "published": "2026-09-16T16:50:24Z",
+      "preview": "release Hatch v1.18.1 ( #2426 )",
+      "source": "Hatch releases",
+      "category": "Python"
+    },
     {
       "title": "v2.9.7: 2.9.7 (#36857)",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.7",
