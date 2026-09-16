@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-16T01:02:00Z",
-  "cutoff": "2026-08-17T01:01:56Z",
+  "generated": "2026-09-16T06:44:36Z",
+  "cutoff": "2026-08-17T06:44:30Z",
   "feed_count": 83,
-  "item_count": 229,
+  "item_count": 231,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "v4.0.21",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.21",
+      "published": "2026-09-16T06:27:25Z",
+      "preview": "RubyGems 4.0.21 Enhancements: Stop vendoring resolv for two regexps. Pull request #9877 by Hiroshi SHIBATA Normalize absolute symlink targets during gem extraction. Pull request #9860 by Hiroshi SHIBATA Installs bundler 4.0.21 as a default gem. Bundler 4.0.21 Enhancements: Don't update bundler to a prerelease unless asked for one. Pull request #9869 by Hiroshi SHIBATA Reject Bundler redirects that downgrade https to http. Pull request #9859 by Hiroshi SHIBATA Bug fixes: Support safe.bareRepository=explicit in git sources. Pull request #9876 by Hiroshi SHIBATA Stop resolving locally for empty C",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
       "title": "1.17.3",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.3",
       "published": "2026-09-16T00:24:04Z",
@@ -37,6 +45,14 @@
       "preview": "Security This release addresses ( CVE-2025-11395 ), where importing images containing crafted layer tarballs with the podman load command, or importing volumes containing crafted symlinks with podman volume import , allows overwriting files on the host. This release also addresses CVE-2026-79699 and CVE-2026-79705 , though we do not believe these CVEs are exploitable through the Podman command line. Misc Updated Buildah to v1.45.1 Updated Common to v0.69.2 Updated Image to v5.41.2 Updated Storage to v1.64.1",
       "source": "Podman releases",
       "category": "Containers"
+    },
+    {
+      "title": "4.0.21 Released",
+      "url": "https://blog.rubygems.org/2026/09/16/4.0.21-released.html",
+      "published": "2026-09-16T00:00:00Z",
+      "preview": "RubyGems 4.0.21 includes enhancements and Bundler 4.0.21 includes enhancements and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.21 RubyGems Release Notes Enhancements: Stop vendoring resolv for two regexps. Pull request #9877 by Hiroshi SHIBATA Normalize absolute symlink targets during gem extraction. Pull request #9860 by Hiroshi SHIBATA Installs bundler 4.0.21 as a default gem. Bundler Release Notes Enhancements: Don’t update bundler to a prerelease unl",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
     },
     {
       "title": "44.93.5",
