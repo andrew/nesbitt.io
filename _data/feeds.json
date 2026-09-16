@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T10:29:40Z",
-  "cutoff": "2026-08-17T10:29:36Z",
+  "generated": "2026-09-16T12:40:08Z",
+  "cutoff": "2026-08-17T12:40:03Z",
   "feed_count": 83,
   "item_count": 229,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.12.0.17",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.17",
+      "published": "2026-09-16T12:18:02Z",
+      "preview": "Insert 7.12.0.17 into main on 09/16/2026 12:18:02",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "44.93.8",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.8",
+      "published": "2026-09-16T11:28:57Z",
+      "preview": "44.93.8 (2026-09-16) Bug Fixes changelog: prefer precise tags over floating ones for compare links ( #46210 ) ( 5ddaf0a ) platform/gitea: prefer fast-forward-only merge style for fast-forward automerge ( #46203 ) ( ab6b230 ) Tests versioning/conda: clarify latest is a valid version ( #46246 ) ( 809e565 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.93.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.7",
@@ -195,14 +211,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.92.0",
       "published": "2026-09-15T10:39:49Z",
       "preview": "44.92.0 (2026-09-15) Features manager/github-actions: support abatilo/actions-poetry poetry-version ( 5f013cb ) manager/github-actions: support actions-rust-lang/setup-rust-toolchain toolchain ( 99fa381 ) manager/github-actions: support aquaproj/aqua-installer's aqua_version ( d59c05a ) manager/github-actions: support astral-sh/ruff-action version ( 3b252fe ) manager/github-actions: support azure/setup-kubectl's version ( f9e1b04 ) manager/github-actions: support biomejs/setup-biome version ( e51ada8 ) manager/github-actions: support bufbuild/buf-setup-action version ( e0cfb08 ) manager/github",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.91.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.91.0",
-      "published": "2026-09-15T08:59:50Z",
-      "preview": "44.91.0 (2026-09-15) Features manager/github-actions: support extractions/setup-just's just-version ( #46033 ) ( 6c7e9fa ) manager/github-actions: support gradle/actions/setup-gradle's gradle-version ( #46032 ) ( 3de36a8 ) manager/github-actions: support hashicorp/setup-terraform's terraform_version ( #46031 ) ( 608b47e ) manager/github-actions: support terraform-linters/setup-tflint's tflint_version ( #46034 ) ( d27e967 ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.5 (main) ( #46204 ) ( b80931b ) Code Refactoring manager: remove unreachable branches ( #46206 ) (",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1709,14 +1717,6 @@
       "preview": "1.15.9 (August 19, 2026) BUG FIXES: validate: Child module validation has been fixed and will now raise errors or warning diagnostics for invalid blocks. ( list , import , backend , and cloud ) ( #38994 ) NOTES: Update go-slug to v0.18.3 to mitigate CVE-2026-14978 , which is a Unicode normalization issue that could lead to files not being correctly excluded via .terraformignore from upload to a Terraform Enterprise or HCP Terraform during a run ( #39036 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "7.11.0.13",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.13",
-      "published": "2026-08-19T12:48:30Z",
-      "preview": "Insert 7.11.0.13 into main on 08/19/2026 12:48:29",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "2.7.4",
