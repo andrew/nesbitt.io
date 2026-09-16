@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-16T17:25:11Z",
-  "cutoff": "2026-08-17T17:25:07Z",
+  "generated": "2026-09-16T18:32:50Z",
+  "cutoff": "2026-08-17T18:32:40Z",
   "feed_count": 83,
-  "item_count": 235,
+  "item_count": 236,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,12 +23,28 @@
   ],
   "items": [
     {
-      "title": "Hatchling v1.32.1",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.1",
-      "published": "2026-09-16T16:53:57Z",
-      "preview": "Fixed: Preserve the version string exactly as written in core metadata, so stylized versions such as CalVer 2026.08.10 are no longer stripped of leading zeros. Distribution file names and .dist-info directories continue to use the PEP 440 normalized form.",
-      "source": "Hatch releases",
-      "category": "Python"
+      "title": "7.0.3",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.3",
+      "published": "2026-09-16T18:31:15Z",
+      "preview": "What's Changed Check test-bot dependencies recursively by @MikeMcQuaid in #23981 Gemfiles: require a minimum Ruby version by @p-linnane in #23983 sandbox: pass the terminal to stty by @p-linnane in #23994 install: separate upgrades in dry-run summaries by @p-linnane in #23986 Document VS Code Ruby LSP setup by @HaraldNordgren in #23995 shell: write a literal line into a PowerShell profile by @rawsun007 in #23996 Allow sandboxed icon conversion on macOS by @MikeMcQuaid in #23999 formula: run Java headless in sandboxed phases by @ashr123 in #24001 Share Git facts across platform views and load l",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "v5.8.7",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.7",
+      "published": "2026-09-16T18:13:20Z",
+      "preview": "Security This release addresses ( CVE-2025-11395 ), where importing images containing crafted layer tarballs with the podman load command, or importing volumes containing crafted symlinks with podman volume import , allows overwriting files on the host. This release also addresses CVE-2026-79699 and CVE-2026-79705 , though we do not believe these CVEs are exploitable through the Podman command line. Misc Updated Buildah to v1.43.4 Updated Common to v0.67.2 Updated Image to v5.39.3 Updated Storage to v1.62.1",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2026.9.10: shims.exclude, npm allow_exotic_deps, bulk dotfiles conflict resolution, and Windows Ctrl-C handling for tasks",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.10",
+      "published": "2026-09-16T17:25:25Z",
+      "preview": "New settings let mise manage a tool without claiming its command names ( shims.exclude ) and approve non-registry npm dependencies ( allow_exotic_deps ), mise dot pull can decide every sharing conflict at once, and vfox plugin hooks gain cmd.stream plus a working cmd.exec timeout. On the fix side, mise run now survives Ctrl-C on Windows instead of orphaning cmd.exe , fish shells launched through shims start much faster with correct PATH order, and several task-resolution, lockfile, and Homebrew cask bugs are corrected. Highlights Control over what mise puts on PATH and what it installs: settin",
+      "source": "mise releases",
+      "category": "Multi-language"
     },
     {
       "title": "hatch-v1.18.1",
@@ -45,14 +61,6 @@
       "preview": "Bumped versions for 2.9.7 Co-authored-by: bartlomieju bartlomieju@users.noreply.github.com Co-authored-by: Bartek Iwańczuk biwanczuk@gmail.com",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "v2026.9.10",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.10",
-      "published": "2026-09-16T15:40:44Z",
-      "preview": "(bootstrap) render templates in systemd unit and launchd agent …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.9.12",
