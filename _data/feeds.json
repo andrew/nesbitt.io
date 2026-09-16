@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T20:28:53Z",
-  "cutoff": "2026-08-17T20:28:35Z",
+  "generated": "2026-09-16T21:26:33Z",
+  "cutoff": "2026-08-17T21:26:28Z",
   "feed_count": 83,
   "item_count": 237,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.94.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.1",
+      "published": "2026-09-16T20:55:52Z",
+      "preview": "44.94.1 (2026-09-16) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.10 (main) ( #46274 ) ( c563ab2 ) Documentation mend-hosted: clarify Enterprises can change inheritConfig* ( #46261 ) ( 0f5e9af ) mend-hosted: move environment variables to their own page ( #46260 ) ( 98e4bb5 ) Miscellaneous Chores deps: update dependency @types/node to v24.13.4 (main) ( #46273 ) ( 45df173 ) Tests manager/renovate-config: guard supportedPresetSources against drift ( #46256 ) ( a14607f ), closes #46201 Build System deps: update dependency zod to v4.6.0 (main) ( #46275 ) ( 88e6c1a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "Hatchling v1.32.2",
       "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.2",
@@ -277,14 +285,6 @@
       "preview": "Release Notes Released on 2026-09-15. This release fixes a regression in 0.12.14 that lead to rejecting valid installation commands such as using uv pip install --system in python:* docker images or when using uv pip install --target . . ( #21699 ) Performance Speed up cold-cache resolution and HTTP cache revalidation by batching cache writes ( #21675 ) Bug fixes Revert \"Reject symlinked wheel installation destinations\" ( #21699 ) Install uv 0.12.15 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.12.15/",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "44.93.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.0",
-      "published": "2026-09-15T10:54:47Z",
-      "preview": "44.93.0 (2026-09-15) Features manager/github-actions: support baptiste0928/cargo-install crate and version ( cded589 ) manager/github-actions: support conda-incubator/setup-miniconda version inputs ( cbd9e92 ) manager/github-actions: support crystal-lang/install-crystal version inputs ( 91354ec ) manager/github-actions: support cue-lang/setup-cue version ( 6df9554 ) manager/github-actions: support graalvm/setup-graalvm version inputs ( 11ae208 ) manager/github-actions: support jwlawson/actions-setup-cmake cmake-version ( a4a0612 ) manager/github-actions: support moonrepo/setup-rust channel ( 0",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.4.2",
