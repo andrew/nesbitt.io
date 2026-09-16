@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-16T09:30:24Z",
-  "cutoff": "2026-08-17T09:30:20Z",
+  "generated": "2026-09-16T10:29:40Z",
+  "cutoff": "2026-08-17T10:29:36Z",
   "feed_count": 83,
-  "item_count": 230,
+  "item_count": 229,
   "categories": [
     ".NET",
     "C/C++",
@@ -1853,14 +1853,6 @@
       "preview": "What's Changed Type shared Python requirement boundaries by @JamieMagee in #15837 Type Python requirement consumers by @JamieMagee in #15838 Type UV requirement access by @JamieMagee in #15839 Type Conda requirement access by @JamieMagee in #15840 Roll pub. Fix flutter/dart sdk constraint rewritten in lockfile by @svartalfheim in #15654 Use GitHub Artifact Attestations for container image signing by @codysoyland in #12116 Add artifact metadata permission by @JamieMagee in #15859 Bump the all-actions group across 1 directory with 8 updates by @dependabot [bot] in #15860 Bump sigstore/cosign/cos",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2.15.2",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.2",
-      "published": "2026-08-17T09:30:23Z",
-      "preview": "Upgrade Notice: Internal PostgreSQL Upgrade Upgrading to Harbor v2.15.2 (Helm Chart v1.19.2) automatically updates the bundled internal database from PostgreSQL 15 to PostgreSQL 18 via pg_upgrade upon container startup. Action Items & Considerations Backup Data: Back up your database before applying the upgrade or restarting the database pod. Maintenance Downtime: pg_upgrade runs on pod startup and may temporarily extend initialization time depending on database size. Reindexing (Non-ASCII Data & Troubleshooting): Major PostgreSQL collation changes can cause existing B-Tree indexes to become s",
-      "source": "Harbor releases",
-      "category": "Containers"
     }
   ]
 }
