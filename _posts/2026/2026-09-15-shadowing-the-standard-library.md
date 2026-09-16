@@ -7,6 +7,7 @@ tags:
   - security
   - supply-chain
   - ai
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mvmt376tya2i"
 ---
 
 I was reading [Johann Rehberger's write-up](https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/) of an attack on a coding agent last week. The payload is a file called `struct.py` inside a zip archive. The agent unpacks the archive, writes its own small Python decoder in the extracted directory, and runs it. The decoder does `import base64`, `base64` internally does `import struct`, and Python resolves that to the attacker's file because the script's directory is the first entry on `sys.path`. Module-level code runs on import. The poisoned module re-exports the real `_struct` API so decoding still produces valid output and execution continues, and the payload relaunches itself with `python3 -I` so the second interpreter starts with a clean module path.
