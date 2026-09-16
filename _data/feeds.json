@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T13:28:56Z",
-  "cutoff": "2026-08-17T13:28:51Z",
+  "generated": "2026-09-16T14:29:32Z",
+  "cutoff": "2026-08-17T14:29:26Z",
   "feed_count": 83,
   "item_count": 230,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.94.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.0",
+      "published": "2026-09-16T14:16:39Z",
+      "preview": "44.94.0 (2026-09-16) Features manager/renovate-config: support forgejo> preset references ( #46201 ) ( 2d4a77d ) manager/terragrunt: detect forgejo-tags datasource for git-tag sources ( #46202 ) ( 1f3b3a9 ) util/template: Add uppercase helper ( #46205 ) ( 3abfaac ) Bug Fixes datasource/azure-bicep-resource: set cacheable explicitly ( #46115 ) ( c61b3fe ) datasource/cpan: set cacheable explicitly ( #46123 ) ( f2d750b ) datasource/elm-package: set cacheable explicitly ( #46120 ) ( 735c4e2 ) datasource/java-version: set cacheable explicitly ( #46122 ) ( 3b61b15 ) datasource/ruby-version: set cach",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.6.0",
       "url": "https://github.com/ocaml/opam/releases/tag/2.6.0",
@@ -213,14 +221,6 @@
       "preview": "pnpm 12.4.2 includes security fixes for executable shims and GitHub Actions links, more reliable installs, faster peer dependency checks in workspaces, and Python lockfiles that work across compatible targets. Patch Changes Security Dependency executables can no longer take over another package's POSIX bin shim through its shell helpers. Reinstall dependencies to replace existing shims #14837 . On Cygwin, MSYS2, and WSL, shims still use PATH for Windows path conversion, so dependency executables can still redirect them there. GitHub Actions homepage links no longer expose server credentials. G",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.92.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.92.0",
-      "published": "2026-09-15T10:39:49Z",
-      "preview": "44.92.0 (2026-09-15) Features manager/github-actions: support abatilo/actions-poetry poetry-version ( 5f013cb ) manager/github-actions: support actions-rust-lang/setup-rust-toolchain toolchain ( 99fa381 ) manager/github-actions: support aquaproj/aqua-installer's aqua_version ( d59c05a ) manager/github-actions: support astral-sh/ruff-action version ( 3b252fe ) manager/github-actions: support azure/setup-kubectl's version ( f9e1b04 ) manager/github-actions: support biomejs/setup-biome version ( e51ada8 ) manager/github-actions: support bufbuild/buf-setup-action version ( e0cfb08 ) manager/github",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Swift 6.4.0 Release",
