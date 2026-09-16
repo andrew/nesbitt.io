@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-16T14:29:32Z",
-  "cutoff": "2026-08-17T14:29:26Z",
+  "generated": "2026-09-16T15:27:26Z",
+  "cutoff": "2026-08-17T15:27:20Z",
   "feed_count": 83,
-  "item_count": 230,
+  "item_count": 232,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.16.3",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.3",
+      "published": "2026-09-16T14:33:39Z",
+      "preview": "1.16.3 (September 16, 2026) BUG FIXES: Fix handling of destroy=false around create_before_destroy instances ( #39169 ) Fix function result comparison when there are multiple marks ( #39170 ) Filter logic for marks could cause values with multiple marks to erroneously fail validations ( #39171 ) Fix issue with import provider resolution ( #39185 )",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
     {
       "title": "44.94.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.0",
@@ -101,6 +109,14 @@
       "preview": "Security This release addresses ( CVE-2025-11395 ), where importing images containing crafted layer tarballs with the podman load command, or importing volumes containing crafted symlinks with podman volume import , allows overwriting files on the host. This release also addresses CVE-2026-79699 and CVE-2026-79705 , though we do not believe these CVEs are exploitable through the Podman command line. Misc Updated Buildah to v1.45.1 Updated Common to v0.69.2 Updated Image to v5.41.2 Updated Storage to v1.64.1",
       "source": "Podman releases",
       "category": "Containers"
+    },
+    {
+      "title": "Size-Specialized Memory Allocation",
+      "url": "https://go.dev/blog/size-specialized-allocations",
+      "published": "2026-09-16T00:00:00Z",
+      "preview": "Go 1.27 improves performance of small allocations using size-specialized allocation functions.",
+      "source": "Go Blog",
+      "category": "Go"
     },
     {
       "title": "4.0.21 Released",
