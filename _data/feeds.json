@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-15T21:24:45Z",
-  "cutoff": "2026-08-16T21:24:40Z",
+  "generated": "2026-09-16T01:02:00Z",
+  "cutoff": "2026-08-17T01:01:56Z",
   "feed_count": 83,
-  "item_count": 227,
+  "item_count": 229,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.17.3",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.3",
+      "published": "2026-09-16T00:24:04Z",
+      "preview": "What's Changed fix(cli): validate PIPX_MAX_LOGS before logging setup by @hktitof in #2029 fix(runpip): stop the uv backend from printing DEBUG logs by @anandghegde in #2035 🧪 test: sync lock tests on events, not wall-clock time by @gaborbernat in #2038 doc: list every --pip-args flag the uv backend translates by @hxperl in #2037 fix(cli): split --pip-args with shell quoting by @r3wretrhy in #2033 New Contributors @hktitof made their first contribution in #2029 @anandghegde made their first contribution in #2035 @hxperl made their first contribution in #2037 @r3wretrhy made their first contribu",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "v6.1.2",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.2",
+      "published": "2026-09-16T00:07:38Z",
+      "preview": "Security This release addresses ( CVE-2025-11395 ), where importing images containing crafted layer tarballs with the podman load command, or importing volumes containing crafted symlinks with podman volume import , allows overwriting files on the host. This release also addresses CVE-2026-79699 and CVE-2026-79705 , though we do not believe these CVEs are exploitable through the Podman command line. Misc Updated Buildah to v1.45.1 Updated Common to v0.69.2 Updated Image to v5.41.2 Updated Storage to v1.64.1",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
     {
       "title": "44.93.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.5",
