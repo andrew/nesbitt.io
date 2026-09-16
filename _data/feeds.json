@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T08:37:19Z",
-  "cutoff": "2026-08-17T08:37:15Z",
+  "generated": "2026-09-16T09:30:24Z",
+  "cutoff": "2026-08-17T09:30:20Z",
   "feed_count": 83,
   "item_count": 230,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.93.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.7",
+      "published": "2026-09-16T08:52:53Z",
+      "preview": "44.93.7 (2026-09-16) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.9 (main) ( #46245 ) ( 4d88ac4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-14-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-14-a",
+      "published": "2026-09-16T08:47:33Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-14-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "44.93.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.6",
@@ -213,14 +229,6 @@
       "preview": "Release vfox 2026.9.11",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.90.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.90.3",
-      "published": "2026-09-15T04:48:58Z",
-      "preview": "44.90.3 (2026-09-15) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.3 (main) ( #46198 ) ( b536021 ) Miscellaneous Chores deps: update codecov/codecov-action action to v7.1.0 (main) ( #46195 ) ( d2e5541 ) deps: update dependency astral-sh/uv to v0.12.14 (main) ( #46196 ) ( 653d730 ) deps: update dependency uv to v0.12.14 (main) ( #46197 ) ( 72e7670 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.12.14",
@@ -1381,14 +1389,6 @@
       "preview": "What's Changed generate-zap: resolve apps from package receipts by @loganrosen in #23623 cc shim: compare by canonicalizing both sides, fixing issues with symlinked HOMEs by @averms in #23637 pathname/disk_usage_extension: fix double path traversal by @krehel in #23632 Migrate analytics to brew.sh proxy by @SMillerDev in #23639 Add brew tests --load-only and break the install require cycle by @p-linnane in #23642 Run privileged cask install steps in the parent process by @p-linnane in #23641 Drive bottle pours from relocation metadata by @MikeMcQuaid in #23643 bundle: fail Flatpak entries when",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-25-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-25-a",
-      "published": "2026-08-27T08:36:44Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-25-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "libnpmpack: v9.1.13",
