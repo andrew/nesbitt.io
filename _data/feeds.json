@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T22:26:34Z",
-  "cutoff": "2026-08-17T22:25:53Z",
+  "generated": "2026-09-16T23:25:24Z",
+  "cutoff": "2026-08-17T23:25:19Z",
   "feed_count": 83,
   "item_count": 236,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.94.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.3",
+      "published": "2026-09-16T23:03:21Z",
+      "preview": "44.94.3 (2026-09-16) Miscellaneous Chores deps: update dependency memfs to v4.72.1 (main) ( #46278 ) ( 6475043 ) Build System deps: update dependency zod to v4.6.1 (main) ( #46277 ) ( 3c31c7d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.94.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.2",
@@ -243,14 +251,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.3",
       "published": "2026-09-15T16:00:24Z",
       "preview": "44.93.3 (2026-09-15) Build System deps: update dependency cronstrue to v3.25.0 (main) ( #46231 ) ( 94058a2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.93.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.2",
-      "published": "2026-09-15T15:07:31Z",
-      "preview": "44.93.2 (2026-09-15) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.7 (main) ( #46230 ) ( bccca7a ) Miscellaneous Chores deps: update dependency uv to v0.12.15 (main) ( #46229 ) ( d0e3426 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
