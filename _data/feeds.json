@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-16T18:32:50Z",
-  "cutoff": "2026-08-17T18:32:40Z",
+  "generated": "2026-09-16T19:25:02Z",
+  "cutoff": "2026-08-17T19:24:53Z",
   "feed_count": 83,
   "item_count": 236,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Hatch v1.18.1",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.18.1",
+      "published": "2026-09-16T18:34:56Z",
+      "preview": "Added: Apply context formatting to the lock-filename environment option so fields such as {env_name} and {matrix:...} are resolved when computing the lock file path. Fixed: Consolidate extras and feature resolution into a single code path, fixing regressions where environment and project extras could be dropped or resolved inconsistently, and always validate undefined features. Normalize hyphens in the plugin name when building environment option environment variable names in get_env_var() , so options for hyphenated plugins resolve to the correct variable.",
+      "source": "Hatch releases",
+      "category": "Python"
+    },
     {
       "title": "7.0.3",
       "url": "https://github.com/Homebrew/brew/releases/tag/7.0.3",
@@ -45,14 +53,6 @@
       "preview": "New settings let mise manage a tool without claiming its command names ( shims.exclude ) and approve non-registry npm dependencies ( allow_exotic_deps ), mise dot pull can decide every sharing conflict at once, and vfox plugin hooks gain cmd.stream plus a working cmd.exec timeout. On the fix side, mise run now survives Ctrl-C on Windows instead of orphaning cmd.exe , fish shells launched through shims start much faster with correct PATH order, and several task-resolution, lockfile, and Homebrew cask bugs are corrected. Highlights Control over what mise puts on PATH and what it installs: settin",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "hatch-v1.18.1",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.18.1",
-      "published": "2026-09-16T16:50:24Z",
-      "preview": "release Hatch v1.18.1 ( #2426 )",
-      "source": "Hatch releases",
-      "category": "Python"
     },
     {
       "title": "v2.9.7: 2.9.7 (#36857)",
