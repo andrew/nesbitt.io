@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-12T01:41:08Z",
-  "total_posts": 209,
-  "total_words": 288453,
-  "reading_minutes": 1443,
-  "average_words": 1380,
+  "generated_at": "2026-09-16T09:25:48Z",
+  "total_posts": 211,
+  "total_words": 290314,
+  "reading_minutes": 1452,
+  "average_words": 1376,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "Package Manager Trends",
-    "url": "/2026/09/10/package-manager-trends.html",
-    "date": "2026-09-10"
+    "title": "Shadowing the Standard Library",
+    "url": "/2026/09/15/shadowing-the-standard-library.html",
+    "date": "2026-09-15"
   },
-  "years_active": 9.5,
+  "years_active": 9.6,
   "posts_per_month": 1.8,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 169
+      "count": 171
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-09",
-      "count": 5
+      "count": 7
     },
     {
       "month": "2026-08",
@@ -121,20 +121,20 @@
   "posts_by_day_of_week": {
     "sunday": 18,
     "monday": 26,
-    "tuesday": 34,
+    "tuesday": 35,
     "wednesday": 23,
     "thursday": 38,
     "friday": 36,
-    "saturday": 34
+    "saturday": 35
   },
   "tags": [
     {
       "name": "package-managers",
-      "count": 142
+      "count": 143
     },
     {
       "name": "security",
-      "count": 50
+      "count": 51
     },
     {
       "name": "open-source",
@@ -153,28 +153,28 @@
       "count": 26
     },
     {
-      "name": "git",
+      "name": "supply-chain",
       "count": 21
     },
     {
-      "name": "supply-chain",
-      "count": 20
+      "name": "git",
+      "count": 21
     },
     {
       "name": "dependencies",
       "count": 20
     },
     {
+      "name": "ai",
+      "count": 19
+    },
+    {
       "name": "tools",
       "count": 19
     },
     {
-      "name": "ai",
-      "count": 18
-    },
-    {
       "name": "weekly",
-      "count": 16
+      "count": 17
     },
     {
       "name": "idea",
@@ -1059,6 +1059,15 @@
       ]
     },
     {
+      "url": "/2026/08/25/hardening-the-override-flag.html",
+      "title": "Hardening the Override Flag",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/09/01/git-submodules-as-a-package-manager.html",
+        "/2026/09/15/shadowing-the-standard-library.html"
+      ]
+    },
+    {
       "url": "/2017/02/24/exploring-unseen-open-source-infrastructure.html",
       "title": "Exploring Unseen Open Source Infrastructure",
       "inbound_count": 1,
@@ -1425,24 +1434,16 @@
       "inbound_from": [
         "/2026/08/08/this-week-in-package-management.html"
       ]
-    },
-    {
-      "url": "/2026/08/25/hardening-the-override-flag.html",
-      "title": "Hardening the Override Flag",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/09/01/git-submodules-as-a-package-manager.html"
-      ]
     }
   ],
   "external_links": {
-    "total": 4852,
-    "unique": 3848,
+    "total": 4909,
+    "unique": 3899,
     "domains": [
       {
         "host": "github.com",
-        "count": 1446,
-        "posts": 153
+        "count": 1469,
+        "posts": 155
       },
       {
         "host": "en.wikipedia.org",
@@ -1456,13 +1457,13 @@
       },
       {
         "host": "arxiv.org",
-        "count": 54,
-        "posts": 32
+        "count": 55,
+        "posts": 33
       },
       {
         "host": "fosdem.org",
-        "count": 42,
-        "posts": 12
+        "count": 43,
+        "posts": 13
       },
       {
         "host": "peps.python.org",
@@ -1471,8 +1472,13 @@
       },
       {
         "host": "github.blog",
-        "count": 38,
-        "posts": 28
+        "count": 39,
+        "posts": 29
+      },
+      {
+        "host": "pnpm.io",
+        "count": 32,
+        "posts": 26
       },
       {
         "host": "chaoss.community",
@@ -1485,11 +1491,6 @@
         "posts": 12
       },
       {
-        "host": "pnpm.io",
-        "count": 30,
-        "posts": 25
-      },
-      {
         "host": "docs.npmjs.com",
         "count": 27,
         "posts": 24
@@ -1500,18 +1501,23 @@
         "posts": 25
       },
       {
+        "host": "learn.microsoft.com",
+        "count": 25,
+        "posts": 14
+      },
+      {
         "host": "changelog.com",
         "count": 23,
         "posts": 5
       },
       {
-        "host": "learn.microsoft.com",
-        "count": 23,
-        "posts": 13
-      },
-      {
         "host": "blog.rust-lang.org",
         "count": 21,
+        "posts": 16
+      },
+      {
+        "host": "blog.rubygems.org",
+        "count": 19,
         "posts": 16
       },
       {
@@ -1528,11 +1534,6 @@
         "host": "manifest.fm",
         "count": 18,
         "posts": 3
-      },
-      {
-        "host": "blog.rubygems.org",
-        "count": 17,
-        "posts": 15
       },
       {
         "host": "opencollective.com",
@@ -1697,7 +1698,7 @@
       {
         "host": "mastodon.social",
         "count": 8,
-        "posts": 42
+        "posts": 43
       },
       {
         "host": "salsa.debian.org",
@@ -1920,6 +1921,11 @@
         "posts": 1
       },
       {
+        "host": "perldoc.perl.org",
+        "count": 5,
+        "posts": 3
+      },
+      {
         "host": "reproducible-builds.org",
         "count": 5,
         "posts": 7
@@ -1990,6 +1996,11 @@
         "posts": 5
       },
       {
+        "host": "docs.deno.com",
+        "count": 4,
+        "posts": 4
+      },
+      {
         "host": "docs.docker.com",
         "count": 4,
         "posts": 4
@@ -1998,6 +2009,11 @@
         "host": "docs.gitlab.com",
         "count": 4,
         "posts": 3
+      },
+      {
+        "host": "docs.python.org",
+        "count": 4,
+        "posts": 1
       },
       {
         "host": "eeggs.com",
@@ -2021,6 +2037,11 @@
       },
       {
         "host": "lwn.net",
+        "count": 4,
+        "posts": 4
+      },
+      {
+        "host": "nodejs.org",
         "count": 4,
         "posts": 4
       },
@@ -2053,6 +2074,11 @@
         "host": "repos.openssf.org",
         "count": 4,
         "posts": 6
+      },
+      {
+        "host": "wiki.gentoo.org",
+        "count": 4,
+        "posts": 4
       },
       {
         "host": "www.gnu.org",
@@ -2130,11 +2156,6 @@
         "posts": 2
       },
       {
-        "host": "docs.deno.com",
-        "count": 3,
-        "posts": 3
-      },
-      {
         "host": "docs.haskellstack.org",
         "count": 3,
         "posts": 3
@@ -2170,11 +2191,6 @@
         "posts": 3
       },
       {
-        "host": "nodejs.org",
-        "count": 3,
-        "posts": 3
-      },
-      {
         "host": "opam.ocaml.org",
         "count": 3,
         "posts": 3
@@ -2198,11 +2214,6 @@
         "host": "pdm-project.org",
         "count": 3,
         "posts": 3
-      },
-      {
-        "host": "perldoc.perl.org",
-        "count": 3,
-        "posts": 2
       },
       {
         "host": "pixi.sh",
@@ -2266,11 +2277,6 @@
       },
       {
         "host": "vlad.website",
-        "count": 3,
-        "posts": 3
-      },
-      {
-        "host": "wiki.gentoo.org",
         "count": 3,
         "posts": 3
       },
@@ -2480,6 +2486,11 @@
         "posts": 8
       },
       {
+        "host": "docs.ruby-lang.org",
+        "count": 2,
+        "posts": 2
+      },
+      {
         "host": "docs.sigstore.dev",
         "count": 2,
         "posts": 1
@@ -2503,6 +2514,11 @@
         "host": "ecosyste.ms",
         "count": 2,
         "posts": 34
+      },
+      {
+        "host": "embracethered.com",
+        "count": 2,
+        "posts": 2
       },
       {
         "host": "engineering.fb.com",
@@ -2701,6 +2717,11 @@
       },
       {
         "host": "phpunit.expert",
+        "count": 2,
+        "posts": 2
+      },
+      {
+        "host": "platform.claude.com",
         "count": 2,
         "posts": 2
       },
@@ -2926,6 +2947,11 @@
       },
       {
         "host": "www.phoronix.com",
+        "count": 2,
+        "posts": 2
+      },
+      {
+        "host": "www.python.org",
         "count": 2,
         "posts": 2
       },
@@ -3535,6 +3561,11 @@
         "posts": 1
       },
       {
+        "host": "developers.openai.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "devmanual.gentoo.org",
         "count": 1,
         "posts": 1
@@ -3650,6 +3681,11 @@
         "posts": 1
       },
       {
+        "host": "docs.julialang.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "docs.npmx.dev",
         "count": 1,
         "posts": 1
@@ -3680,17 +3716,17 @@
         "posts": 1
       },
       {
+        "host": "docs.oracle.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "docs.racket-lang.org",
         "count": 1,
         "posts": 1
       },
       {
         "host": "docs.rs",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "docs.ruby-lang.org",
         "count": 1,
         "posts": 1
       },
@@ -3786,11 +3822,6 @@
       },
       {
         "host": "embarkstudios.github.io",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "embracethered.com",
         "count": 1,
         "posts": 1
       },
@@ -4685,11 +4716,6 @@
         "posts": 1
       },
       {
-        "host": "platform.claude.com",
-        "count": 1,
-        "posts": 1
-      },
-      {
         "host": "platformio.org",
         "count": 1,
         "posts": 1
@@ -5405,6 +5431,11 @@
         "posts": 1
       },
       {
+        "host": "wiki.php.net",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "wiki.termux.com",
         "count": 1,
         "posts": 1
@@ -5840,6 +5871,11 @@
         "posts": 1
       },
       {
+        "host": "www.nntp.perl.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "www.olafalders.com",
         "count": 1,
         "posts": 1
@@ -5880,6 +5916,11 @@
         "posts": 1
       },
       {
+        "host": "www.php.net",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "www.pkgsrc.org",
         "count": 1,
         "posts": 1
@@ -5891,11 +5932,6 @@
       },
       {
         "host": "www.pypa.io",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "www.python.org",
         "count": 1,
         "posts": 1
       },
