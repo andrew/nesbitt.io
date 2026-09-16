@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-16T06:44:36Z",
-  "cutoff": "2026-08-17T06:44:30Z",
+  "generated": "2026-09-16T08:37:19Z",
+  "cutoff": "2026-08-17T08:37:15Z",
   "feed_count": 83,
-  "item_count": 231,
+  "item_count": 230,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.93.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.6",
+      "published": "2026-09-16T07:38:04Z",
+      "preview": "44.93.6 (2026-09-16) Bug Fixes manager/github-actions: don't try and upgrade non-versions of Gradle ( #46242 ) ( 4b5a64e ) Performance Improvements workers/repository: don't log all matched files at DEBUG ( #46228 ) ( 54c7e5e ) Tests manager: close more branch coverage gaps ( #45972 ) ( 4cb4da6 ) manager: cover the pre-commit warning switch and drop unreachable fallbacks ( #46221 ) ( 312c380 ) manager: mark remaining unreachable manager guards ( #46082 ) ( 9ac59d6 ) manager: reach 100% branch coverage by closing the else-if chains ( #46222 ) ( 1ea8602 ) Continuous Integration ratchet the branc",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v4.0.21",
       "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.21",
@@ -221,14 +229,6 @@
       "preview": "Release Notes Released on 2026-09-15. Package-operation errors now use uv's standard diagnostics, with consistent hints and compact, labeled cause chains. ( #17110 , #21599 , #21603 ) Package-operation exit codes now reflect the underlying cause: expected failures return 1, while recognized operational and internal failures return 2. ( #17110 ) Enhancements Resume interrupted downloads with HTTP Range requests when supported ( #21570 ) Show underlying causes and hints in user warnings ( #21565 ) Show resolver hints for failed uv tool upgrade operations ( #21566 ) Preview features Export multip",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "44.90.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.90.2",
-      "published": "2026-09-14T23:07:14Z",
-      "preview": "44.90.2 (2026-09-14) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.2 (main) ( #46170 ) ( 271ec2a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "MacPorts 2.12.6",
@@ -1861,14 +1861,6 @@
       "preview": "Upgrade Notice: Internal PostgreSQL Upgrade Upgrading to Harbor v2.15.2 (Helm Chart v1.19.2) automatically updates the bundled internal database from PostgreSQL 15 to PostgreSQL 18 via pg_upgrade upon container startup. Action Items & Considerations Backup Data: Back up your database before applying the upgrade or restarting the database pod. Maintenance Downtime: pg_upgrade runs on pod startup and may temporarily extend initialization time depending on database size. Reindexing (Non-ASCII Data & Troubleshooting): Major PostgreSQL collation changes can cause existing B-Tree indexes to become s",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "6.0.18",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.18",
-      "published": "2026-08-17T07:46:53Z",
-      "preview": "What's Changed Build and publish large runner docker image by @iMichka in #23345 Avoid nil cask versions during installation by @MikeMcQuaid in #23499 Use cask dependencies for platform support by @MikeMcQuaid in #23496 Fix role used to push to ECR by @iMichka in #23500 Report unavailable cask platforms accurately by @MikeMcQuaid in #23501 Add supported_platforms to cask API data by @p-linnane in #23503 cask: merge multiple conflicts_with stanzas by @hyuraku in #23506 Normalize hyphenated HOMEBREW_CASK_OPTS option names by @carlocab in #23505 sbom: add purl external references for sources usin",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
