@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-16T15:27:26Z",
-  "cutoff": "2026-08-17T15:27:20Z",
+  "generated": "2026-09-16T16:29:57Z",
+  "cutoff": "2026-08-17T16:29:40Z",
   "feed_count": 83,
-  "item_count": 232,
+  "item_count": 233,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.9.7: 2.9.7 (#36857)",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.7",
+      "published": "2026-09-16T15:45:55Z",
+      "preview": "Bumped versions for 2.9.7 Co-authored-by: bartlomieju bartlomieju@users.noreply.github.com Co-authored-by: Bartek Iwańczuk biwanczuk@gmail.com",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v2026.9.10",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.10",
+      "published": "2026-09-16T15:40:44Z",
+      "preview": "(bootstrap) render templates in systemd unit and launchd agent …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.12",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.12",
+      "published": "2026-09-16T15:40:15Z",
+      "preview": "Release vfox 2026.9.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v1.16.3",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.3",
@@ -405,22 +429,6 @@
       "preview": "Today, I’m proud to announce Homebrew 7.0.0. The most significant changes since 6.0.0 are faster installations and upgrades, stronger sandboxing, a native macOS app, built-in vulnerability checks and an advisory database, the end of macOS 10.15 support and Intel Macs moving to Tier 3.",
       "source": "Homebrew Blog",
       "category": "System"
-    },
-    {
-      "title": "v2026.9.6: Project daemons, mise doctor project, and vfox backend tool discovery",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.6",
-      "published": "2026-09-12T23:58:09Z",
-      "preview": "This release adds experimental project daemons backed by pitchfork, a mise doctor project command for project-declared diagnostic checks, and tool discovery from vfox backend plugins in mise search . It also changes the HTTP backend's default install layout so uninstall and prune reclaim disk space, speeds up warm lockfile_mode = \"generate\" installs and repeated OCI builds, and fixes a batch of nushell, monorepo, lockfile, brew, and Windows bootstrap issues. Highlights Services next to tools: [daemons] declares background processes and PostgreSQL/Redis presets in mise.toml , managed through mi",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "aqua-registry-v2026.9.4",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.9.4",
-      "published": "2026-09-12T22:30:22Z",
-      "preview": "Release aqua-registry 2026.9.4",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.9.8",
