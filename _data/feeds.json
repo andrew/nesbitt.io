@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-16T23:25:24Z",
-  "cutoff": "2026-08-17T23:25:19Z",
+  "generated": "2026-09-17T01:02:23Z",
+  "cutoff": "2026-08-18T01:02:19Z",
   "feed_count": 83,
-  "item_count": 236,
+  "item_count": 235,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.95.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.95.0",
+      "published": "2026-09-17T00:46:15Z",
+      "preview": "44.95.0 (2026-09-17) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.0 (main) ( #46281 ) ( 2732ccf )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.94.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.4",
+      "published": "2026-09-16T23:54:22Z",
+      "preview": "44.94.4 (2026-09-16) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.16.0 (main) ( #46280 ) ( 28f514a ) Build System deps: update dependency @renovatebot/detect-tools to v4.0.16 (main) ( #46279 ) ( 8e9dcc7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.94.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.3",
@@ -237,22 +253,6 @@
       "preview": "v2.0.0-beta.24",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.93.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.4",
-      "published": "2026-09-15T16:29:46Z",
-      "preview": "44.93.4 (2026-09-15) Bug Fixes datasource/go: cache the publication time of each version ( #45951 ) ( aae889a ) Tests datasource/go: show that .info timestamps are refetched ( #45950 ) ( 0649d9f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.93.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.3",
-      "published": "2026-09-15T16:00:24Z",
-      "preview": "44.93.3 (2026-09-15) Build System deps: update dependency cronstrue to v3.25.0 (main) ( #46231 ) ( 94058a2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.81.0",
@@ -1901,14 +1901,6 @@
       "preview": "Bug Fixes Keep environment inspection working for Python 3.9 targets when PDM uses dep-logic 0.7 or newer. ( #3838 ) Cache the update check timestamp even when the version lookup fails, so that pdm no longer appears to hang on every command when PyPI is unreachable. ( #3840 ) Don't crash with an IndexError when listing scripts and one of them is blank. A blank script is now listed as <BLANK_SCRIPT> . ( #3842 ) Keep the whole template URL when pdm new is given an ssh:// or credentialed Git URL, instead of truncating it at the userinfo @ . ( #3843 ) Strip comments preceded by any whitespace, not",
       "source": "PDM releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 11.21-11.22",
-      "url": "https://pnpm.io/blog/releases/11.21-11.22",
-      "published": "2026-08-18T00:00:00Z",
-      "preview": "pnpm 11.21 and 11.22 teach pnpm install to update the lockfile in place for most everyday changes instead of re-resolving the whole dependency graph, stop recording SSH URLs that break installs on CI, make global installs switch over atomically and global interactive updates select whole install groups, add pnpm cache path, and take away a project's ability to relocate pnpm's machine-level state through pnpm-workspace.yaml.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
