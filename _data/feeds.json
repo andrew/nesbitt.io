@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-17T01:02:23Z",
-  "cutoff": "2026-08-18T01:02:19Z",
+  "generated": "2026-09-17T02:37:19Z",
+  "cutoff": "2026-08-18T02:36:38Z",
   "feed_count": 83,
-  "item_count": 235,
+  "item_count": 234,
   "categories": [
     ".NET",
     "C/C++",
@@ -1893,14 +1893,6 @@
       "preview": "chore: bump backend versions ( #6845 )",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v2.28.2",
-      "url": "https://github.com/pdm-project/pdm/releases/tag/2.28.2",
-      "published": "2026-08-18T02:24:28Z",
-      "preview": "Bug Fixes Keep environment inspection working for Python 3.9 targets when PDM uses dep-logic 0.7 or newer. ( #3838 ) Cache the update check timestamp even when the version lookup fails, so that pdm no longer appears to hang on every command when PyPI is unreachable. ( #3840 ) Don't crash with an IndexError when listing scripts and one of them is blank. A blank script is now listed as <BLANK_SCRIPT> . ( #3842 ) Keep the whole template URL when pdm new is given an ssh:// or credentialed Git URL, instead of truncating it at the userinfo @ . ( #3843 ) Strip comments preceded by any whitespace, not",
-      "source": "PDM releases",
-      "category": "Python"
     }
   ]
 }
