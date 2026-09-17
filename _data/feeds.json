@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T13:28:35Z",
-  "cutoff": "2026-08-18T13:28:30Z",
+  "generated": "2026-09-17T14:30:41Z",
+  "cutoff": "2026-08-18T14:30:36Z",
   "feed_count": 83,
   "item_count": 237,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.13.0-rc1",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.0-rc1",
+      "published": "2026-09-17T14:28:25Z",
+      "preview": "1.13.0-rc1",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "44.97.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.0",
+      "published": "2026-09-17T14:19:51Z",
+      "preview": "44.97.0 (2026-09-17) Features manager/helm-values: support version in sibling tag/version key ( #46267 ) ( 2e1a079 ), closes #46265 Bug Fixes datasource/docker: fetch all pages for Red Hat registries ( #46294 ) ( f3a314f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.96.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.96.4",
+      "published": "2026-09-17T13:43:09Z",
+      "preview": "44.96.4 (2026-09-17) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.1 (main) ( #46295 ) ( be8ddad ) Miscellaneous Chores deps: update dependency memfs to v4.73.0 (main) ( #46297 ) ( 53e93ca ) deps: update dependency vite to v8.3.0 (main) ( #46296 ) ( b34b2cb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "20260917t131800-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260917t131800-all",
@@ -199,14 +223,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.94.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.1",
-      "published": "2026-09-16T20:55:52Z",
-      "preview": "44.94.1 (2026-09-16) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.10 (main) ( #46274 ) ( c563ab2 ) Documentation mend-hosted: clarify Enterprises can change inheritConfig* ( #46261 ) ( 0f5e9af ) mend-hosted: move environment variables to their own page ( #46260 ) ( 98e4bb5 ) Miscellaneous Chores deps: update dependency @types/node to v24.13.4 (main) ( #46273 ) ( 45df173 ) Tests manager/renovate-config: guard supportedPresetSources against drift ( #46256 ) ( a14607f ), closes #46201 Build System deps: update dependency zod to v4.6.0 (main) ( #46275 ) ( 88e6c1a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "Hatchling v1.32.2",
       "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.2",
       "published": "2026-09-16T19:34:54Z",
@@ -261,14 +277,6 @@
       "preview": "1.16.3 (September 16, 2026) BUG FIXES: Fix handling of destroy=false around create_before_destroy instances ( #39169 ) Fix function result comparison when there are multiple marks ( #39170 ) Filter logic for marks could cause values with multiple marks to erroneously fail validations ( #39171 ) Fix issue with import provider resolution ( #39185 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "44.94.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.0",
-      "published": "2026-09-16T14:16:39Z",
-      "preview": "44.94.0 (2026-09-16) Features manager/renovate-config: support forgejo> preset references ( #46201 ) ( 2d4a77d ) manager/terragrunt: detect forgejo-tags datasource for git-tag sources ( #46202 ) ( 1f3b3a9 ) util/template: Add uppercase helper ( #46205 ) ( 3abfaac ) Bug Fixes datasource/azure-bicep-resource: set cacheable explicitly ( #46115 ) ( c61b3fe ) datasource/cpan: set cacheable explicitly ( #46123 ) ( f2d750b ) datasource/elm-package: set cacheable explicitly ( #46120 ) ( 735c4e2 ) datasource/java-version: set cacheable explicitly ( #46122 ) ( 3b61b15 ) datasource/ruby-version: set cach",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.12.0.17",
@@ -1909,14 +1917,6 @@
       "preview": "Go 1.27 adds generic methods, encoding/json/v2 package, uuid package, faster memory allocation, goroutine leak profiles, and more.",
       "source": "Go Blog",
       "category": "Go"
-    },
-    {
-      "title": "26.7.1",
-      "url": "https://github.com/conda/conda/releases/tag/26.7.1",
-      "published": "2026-08-18T13:41:01Z",
-      "preview": "Bug fixes Fix DeprecationHandler version fallback when packaging raises InvalidVersion for unparseable versions (e.g. None under packaging >=26.3). ( #16495 ) Refresh cached empty channel notice responses and parse CEP 6 expires_at timestamps. ( #16500 , #16501 ) Fall back to threaded package extraction when process synchronization primitives are unavailable. ( #16512 ) Fix CondaHttpAuth.add_binstar_token mangling URLs that end in notices.json (or any filename without a platform subdir) by correcting Channel.url() to preserve package_filename when platform is None . ( #16516 ) Fix AttributeErr",
-      "source": "Conda releases",
-      "category": "Multi-language"
     }
   ]
 }
