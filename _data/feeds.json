@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-17T21:25:48Z",
-  "cutoff": "2026-08-18T21:25:44Z",
+  "generated": "2026-09-17T22:25:20Z",
+  "cutoff": "2026-08-18T22:25:16Z",
   "feed_count": 83,
-  "item_count": 239,
+  "item_count": 243,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,70 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v4.1.0.beta1",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.1.0.beta1",
+      "published": "2026-09-17T22:00:58Z",
+      "preview": "RubyGems Changes already released in 4.0.x are not repeated here. Features: Add content addressable gems support. Pull request #9773 by Jenny Shen Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Rubygems: Add PQC ML-DSA support for cryptographically signed gems workflow. Pull request #9697 by Jun Aruga Preserve non-UTF-8 legacy gem metadata. Pull request #9835 by Stanislav (Stas) Katkov Add an opt-in OS credential store for gem and bundler credentials. Pull request #9671 by Hiroshi SHIBATA Add --cooldown to gem install, update and outdated. Pull",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.21",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.21",
+      "published": "2026-09-17T22:00:47Z",
+      "preview": "RubyGems 4.0.21 Enhancements: Stop vendoring resolv for two regexps. Pull request #9877 by Hiroshi SHIBATA Normalize absolute symlink targets during gem extraction. Pull request #9860 by Hiroshi SHIBATA Installs bundler 4.0.21 as a default gem. Bundler 4.0.21 Enhancements: Don't update bundler to a prerelease unless asked for one. Pull request #9869 by Hiroshi SHIBATA Reject Bundler redirects that downgrade https to http. Pull request #9859 by Hiroshi SHIBATA Bug fixes: Support safe.bareRepository=explicit in git sources. Pull request #9876 by Hiroshi SHIBATA Stop resolving locally for empty C",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.20",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.20",
+      "published": "2026-09-17T22:00:37Z",
+      "preview": "RubyGems 4.0.20 Enhancements: Print a release notes link instead of the whole changelog on gem update --system . Pull request #9794 by hsbt Installs bundler 4.0.20 as a default gem. Bug fixes: Only coerce exact true and false gemrc values to booleans. Pull request #9822 by hsbt Make the gem CLI work under RUBY_BOX=1. Pull request #9810 by hsbt Documentation: Document and test all available gemrc configuration keys. Pull request #9568 by junaruga Bundler 4.0.20 Enhancements: Avoid duplicate relative path prefix in bundle exec. Pull request #9596 by samuel-williams-shopify Follow renamed default",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.19",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.19",
+      "published": "2026-09-17T22:00:27Z",
+      "preview": "RubyGems 4.0.19 Enhancements: Reject SafeMarshal collection lengths longer than the remaining input. Pull request #9756 by hsbt Installs bundler 4.0.19 as a default gem. Bug fixes: Fix gem uninstall --user-install crash when GEM_HOME does not exist. Pull request #9749 by hsbt Documentation: Document SPDX license handling for license= and licenses=. Pull request #9766 by hsbt Bundler 4.0.19 Enhancements: Validate the platform field in Gem::Installer#verify_spec. Pull request #9780 by hsbt Restrict UserDefined handling to explicit class set for Gem::SafeMashal. Pull request #9770 by jackorp Filt",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.18",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.18",
+      "published": "2026-09-17T22:00:18Z",
+      "preview": "RubyGems 4.0.18 Enhancements: Check the resolved parent directory before extracting old format gems. Pull request #9755 by hsbt Installs bundler 4.0.18 as a default gem. Bug fixes: Call Kernel.format explicitly in Gem::Deprecate wrapper. Pull request #9714 by hsbt Documentation: Point bundler.io URLs at guides.rubygems.org. Pull request #9737 by hsbt Bundler 4.0.18 Enhancements: Don't mask install errors when no Gemfile can be located. Pull request #9757 by hsbt Warn when duplicate source declarations conflict on cooldown. Pull request #9736 by hsbt Redact URI userinfo from settings names in B",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.17",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.17",
+      "published": "2026-09-17T22:00:08Z",
+      "preview": "Enhancements: Validate spec name before writing to the spec cache. Pull request #9690 by hsbt Installs bundler 4.0.17 as a default gem. Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install paths when globbing. Pull request #9687 by hsbt Preserve Windows editor paths in gem open and bundle open. Pull request #9694 by hsbt Preserve Windows paths in MAKE and rake environment variables. Pull request #9693 by hsbt Fix bundle binstub broken by gem update --system on Homebrew ruby. Pull request #9688 by hsbt",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.16",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.16",
+      "published": "2026-09-17T21:59:58Z",
+      "preview": "Enhancements: Installs bundler 4.0.16 as a default gem. Bug fixes: Skip the make job server when using BSD make. Pull request #9676 by flavorjones",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "v4.0.15",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.15",
+      "published": "2026-09-17T21:59:48Z",
+      "preview": "Enhancements: Rubygems: Fix Gem::Request for PQC support, adding integration connection tests. Pull request #9615 by junaruga Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Installs bundler 4.0.15 as a default gem. Bug fixes: Forward security policy to old-format gems. Pull request #9611 by hsbt",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
     {
       "title": "v2026.9.11",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.11",
@@ -45,6 +109,38 @@
       "preview": "Fixed: Preserve the version string exactly as written in core metadata, so stylized versions such as CalVer 2026.08.10 are no longer stripped of leading zeros. Distribution file names and .dist-info directories continue to use the PEP 440 normalized form.",
       "source": "Hatch releases",
       "category": "Python"
+    },
+    {
+      "title": "cabal-install-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0",
+      "published": "2026-09-17T18:26:00Z",
+      "preview": "cabal-install-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Cabal-syntax-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-syntax-v3.18.2.0",
+      "published": "2026-09-17T18:25:34Z",
+      "preview": "Cabal-syntax-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Cabal-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-v3.18.2.0",
+      "published": "2026-09-17T18:25:24Z",
+      "preview": "Cabal-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "cabal-install-solver-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-solver-v3.18.2.0",
+      "published": "2026-09-17T18:25:01Z",
+      "preview": "cabal-install-solver-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
     },
     {
       "title": "44.97.2",
@@ -133,70 +229,6 @@
       "preview": "Insert 7.12.0.19 into main on 09/17/2026 12:19:23",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "v4.0.15",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.15",
-      "published": "2026-09-17T11:41:39Z",
-      "preview": "Enhancements: Rubygems: Fix Gem::Request for PQC support, adding integration connection tests. Pull request #9615 by junaruga Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Installs bundler 4.0.15 as a default gem. Bug fixes: Forward security policy to old-format gems. Pull request #9611 by hsbt",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.16",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.16",
-      "published": "2026-09-17T11:41:17Z",
-      "preview": "Enhancements: Installs bundler 4.0.16 as a default gem. Bug fixes: Skip the make job server when using BSD make. Pull request #9676 by flavorjones",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.17",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.17",
-      "published": "2026-09-17T11:40:56Z",
-      "preview": "Enhancements: Validate spec name before writing to the spec cache. Pull request #9690 by hsbt Installs bundler 4.0.17 as a default gem. Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install paths when globbing. Pull request #9687 by hsbt Preserve Windows editor paths in gem open and bundle open. Pull request #9694 by hsbt Preserve Windows paths in MAKE and rake environment variables. Pull request #9693 by hsbt Fix bundle binstub broken by gem update --system on Homebrew ruby. Pull request #9688 by hsbt",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.18",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.18",
-      "published": "2026-09-17T11:40:34Z",
-      "preview": "RubyGems 4.0.18 Enhancements: Check the resolved parent directory before extracting old format gems. Pull request #9755 by hsbt Installs bundler 4.0.18 as a default gem. Bug fixes: Call Kernel.format explicitly in Gem::Deprecate wrapper. Pull request #9714 by hsbt Documentation: Point bundler.io URLs at guides.rubygems.org. Pull request #9737 by hsbt Bundler 4.0.18 Enhancements: Don't mask install errors when no Gemfile can be located. Pull request #9757 by hsbt Warn when duplicate source declarations conflict on cooldown. Pull request #9736 by hsbt Redact URI userinfo from settings names in B",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.19",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.19",
-      "published": "2026-09-17T11:40:13Z",
-      "preview": "RubyGems 4.0.19 Enhancements: Reject SafeMarshal collection lengths longer than the remaining input. Pull request #9756 by hsbt Installs bundler 4.0.19 as a default gem. Bug fixes: Fix gem uninstall --user-install crash when GEM_HOME does not exist. Pull request #9749 by hsbt Documentation: Document SPDX license handling for license= and licenses=. Pull request #9766 by hsbt Bundler 4.0.19 Enhancements: Validate the platform field in Gem::Installer#verify_spec. Pull request #9780 by hsbt Restrict UserDefined handling to explicit class set for Gem::SafeMashal. Pull request #9770 by jackorp Filt",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.20",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.20",
-      "published": "2026-09-17T11:39:50Z",
-      "preview": "RubyGems 4.0.20 Enhancements: Print a release notes link instead of the whole changelog on gem update --system . Pull request #9794 by hsbt Installs bundler 4.0.20 as a default gem. Bug fixes: Only coerce exact true and false gemrc values to booleans. Pull request #9822 by hsbt Make the gem CLI work under RUBY_BOX=1. Pull request #9810 by hsbt Documentation: Document and test all available gemrc configuration keys. Pull request #9568 by junaruga Bundler 4.0.20 Enhancements: Avoid duplicate relative path prefix in bundle exec. Pull request #9596 by samuel-williams-shopify Follow renamed default",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.1.0.beta1",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.1.0.beta1",
-      "published": "2026-09-17T11:39:28Z",
-      "preview": "RubyGems Changes already released in 4.0.x are not repeated here. Features: Add content addressable gems support. Pull request #9773 by Jenny Shen Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Rubygems: Add PQC ML-DSA support for cryptographically signed gems workflow. Pull request #9697 by Jun Aruga Preserve non-UTF-8 legacy gem metadata. Pull request #9835 by Stanislav (Stas) Katkov Add an opt-in OS credential store for gem and bundler credentials. Pull request #9671 by Hiroshi SHIBATA Add --cooldown to gem install, update and outdated. Pull",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.21",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.21",
-      "published": "2026-09-17T11:39:05Z",
-      "preview": "RubyGems 4.0.21 Enhancements: Stop vendoring resolv for two regexps. Pull request #9877 by Hiroshi SHIBATA Normalize absolute symlink targets during gem extraction. Pull request #9860 by Hiroshi SHIBATA Installs bundler 4.0.21 as a default gem. Bundler 4.0.21 Enhancements: Don't update bundler to a prerelease unless asked for one. Pull request #9869 by Hiroshi SHIBATA Reject Bundler redirects that downgrade https to http. Pull request #9859 by Hiroshi SHIBATA Bug fixes: Support safe.bareRepository=explicit in git sources. Pull request #9876 by Hiroshi SHIBATA Stop resolving locally for empty C",
-      "source": "RubyGems releases",
-      "category": "Ruby"
     },
     {
       "title": "44.96.2",
