@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T08:36:27Z",
-  "cutoff": "2026-08-18T08:36:23Z",
+  "generated": "2026-09-17T09:32:06Z",
+  "cutoff": "2026-08-18T09:32:01Z",
   "feed_count": 83,
   "item_count": 235,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.9.7",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.7",
+      "published": "2026-09-17T09:04:55Z",
+      "preview": "2.9.7 / 2026.09.16 fix(audit): honor configured CA stores ( #36728 ) fix(cache): make HTTP authority paths unambiguous ( #36356 ) fix(cli): accept all valid sys permission descriptors ( #36753 ) fix(cli): don't duplicate passthrough args for deno deploy/sandbox ( #36722 ) fix(cli): generate valid bash completions ( #36736 ) fix(cli): preserve double dash before the entrypoint ( #36835 ) fix(cli): restore optional-value semantics for deno bundle --sourcemap ( #36723 ) fix(completions): keep the dash on short flags in zsh completions ( #36720 ) fix(desktop): complete deferred window close and fi",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-15-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-15-a",
+      "published": "2026-09-17T08:45:38Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-15-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.96.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.96.1",
+      "published": "2026-09-17T08:42:36Z",
+      "preview": "44.96.1 (2026-09-17) Build System deps: update dependency @renovatebot/pgp to v1.4.2 (main) ( #46285 ) ( 232835d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.96.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.96.0",
@@ -119,14 +143,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "v2.9.7: 2.9.7 (#36857)",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.7",
-      "published": "2026-09-16T15:45:55Z",
-      "preview": "Bumped versions for 2.9.7 Co-authored-by: bartlomieju bartlomieju@users.noreply.github.com Co-authored-by: Bartek Iwańczuk biwanczuk@gmail.com",
-      "source": "Deno releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "vfox-v2026.9.12",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.12",
       "published": "2026-09-16T15:40:15Z",
@@ -189,14 +205,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-14-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.93.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.6",
-      "published": "2026-09-16T07:38:04Z",
-      "preview": "44.93.6 (2026-09-16) Bug Fixes manager/github-actions: don't try and upgrade non-versions of Gradle ( #46242 ) ( 4b5a64e ) Performance Improvements workers/repository: don't log all matched files at DEBUG ( #46228 ) ( 54c7e5e ) Tests manager: close more branch coverage gaps ( #45972 ) ( 4cb4da6 ) manager: cover the pre-commit warning switch and drop unreachable fallbacks ( #46221 ) ( 312c380 ) manager: mark remaining unreachable manager guards ( #46082 ) ( 9ac59d6 ) manager: reach 100% branch coverage by closing the else-if chains ( #46222 ) ( 1ea8602 ) Continuous Integration ratchet the branc",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v4.0.21",
@@ -1373,14 +1381,6 @@
       "preview": "We&apos;ve shipped a large batch of updates to Private Packagist over the past few months. A lot of our attention went to supply chain security, which we&apos;ve covered in depth in our supply chain security series. In this post, we&apos;ll highlight the other improvements",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-26-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-26-a",
-      "published": "2026-08-28T08:37:00Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-08-26-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "v0.78.0",
