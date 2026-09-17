@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T16:30:40Z",
-  "cutoff": "2026-08-18T16:30:35Z",
+  "generated": "2026-09-17T17:24:31Z",
+  "cutoff": "2026-08-18T17:24:27Z",
   "feed_count": 83,
   "item_count": 237,
   "categories": [
@@ -23,9 +23,25 @@
   ],
   "items": [
     {
+      "title": "44.97.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.2",
+      "published": "2026-09-17T16:42:18Z",
+      "preview": "44.97.2 (2026-09-17) Build System deps: update dependency @renovatebot/pgp to v2.0.1 (main) ( #46304 ) ( d54267f ) deps: update dependency cronstrue to v3.26.0 (main) ( #46301 ) ( de452f5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "7.0.4",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.4",
+      "published": "2026-09-17T16:38:21Z",
+      "preview": "What's Changed formula: skip Java splash screens in macOS tests by @ashr123 in #24005 Add brew advisory-match --formula-list by @p-linnane in #24007 Update Ubuntu release cycle link by @MikeMcQuaid in #24012 shell: emit a PowerShell assignment from export_value by @rawsun007 in #24010 Avoid sudo for user-local cask app groups by @MikeMcQuaid in #24011 Derive service completions from Cellar paths by @p-linnane in #24009 Prefer Homebrew Python for uv tools by @MikeMcQuaid in #24014 contributions: match co-authored commits made under a real name/email by @iMichka in #23926 cask: improve consisten",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-17T16:28:35Z",
+      "published": "2026-09-17T16:32:47Z",
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
@@ -221,22 +237,6 @@
       "preview": "44.94.4 (2026-09-16) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.16.0 (main) ( #46280 ) ( 28f514a ) Build System deps: update dependency @renovatebot/detect-tools to v4.0.16 (main) ( #46279 ) ( 8e9dcc7 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "44.94.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.3",
-      "published": "2026-09-16T23:03:21Z",
-      "preview": "44.94.3 (2026-09-16) Miscellaneous Chores deps: update dependency memfs to v4.72.1 (main) ( #46278 ) ( 6475043 ) Build System deps: update dependency zod to v4.6.1 (main) ( #46277 ) ( 3c31c7d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Hatchling v1.32.2",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.2",
-      "published": "2026-09-16T19:34:54Z",
-      "preview": "Fixed: Preserve the version string exactly as written in core metadata, so stylized versions such as CalVer 2026.08.10 are no longer stripped of leading zeros. Distribution file names and .dist-info directories continue to use the PEP 440 normalized form.",
-      "source": "Hatch releases",
-      "category": "Python"
     },
     {
       "title": "Hatch v1.18.1",
