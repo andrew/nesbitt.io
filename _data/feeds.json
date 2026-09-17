@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T07:33:19Z",
-  "cutoff": "2026-08-18T07:33:06Z",
+  "generated": "2026-09-17T08:36:27Z",
+  "cutoff": "2026-08-18T08:36:23Z",
   "feed_count": 83,
   "item_count": 235,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.96.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.96.0",
+      "published": "2026-09-17T08:19:40Z",
+      "preview": "44.96.0 (2026-09-17) Features config: add minimumReleaseAgeBuffer option ( #45577 ) ( 4215f35 ) manager/dockerfile: extract apk add packages from RUN instructions ( #45691 ) ( 9b87f8d ), closes #43711 Bug Fixes platform/github: attempt direct merge before falling back to the merge queue ( #46271 ) ( a22f8f0 ), closes #45724 Miscellaneous Chores deps: update codecov/codecov-action action to v7.1.1 (main) ( #46282 ) ( 8763fe4 ) deps: update jlumbroso/free-disk-space action to v1.3.2 (main) ( #46283 ) ( c5a2722 ) Tests reach 100% branch coverage ( #46284 ) ( f711fd4 ) workers/repository: close mo",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.29.2",
       "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.2",
@@ -229,14 +237,6 @@
       "preview": "RubyGems 4.0.21 includes enhancements and Bundler 4.0.21 includes enhancements and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.21 RubyGems Release Notes Enhancements: Stop vendoring resolv for two regexps. Pull request #9877 by Hiroshi SHIBATA Normalize absolute symlink targets during gem extraction. Pull request #9860 by Hiroshi SHIBATA Installs bundler 4.0.21 as a default gem. Bundler Release Notes Enhancements: Don’t update bundler to a prerelease unl",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "44.93.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.5",
-      "published": "2026-09-15T20:39:22Z",
-      "preview": "44.93.5 (2026-09-15) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.8 (main) ( #46237 ) ( 19087b6 ) Documentation manager/github-actions: count how many Actions we support ( #46233 ) ( 4a83bc3 ) Code Refactoring manager/github-actions: remove \"community\" references ( #46232 ) ( 642fe06 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v29.8.1",
