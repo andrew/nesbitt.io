@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-17T22:25:20Z",
-  "cutoff": "2026-08-18T22:25:16Z",
+  "generated": "2026-09-17T23:23:29Z",
+  "cutoff": "2026-08-18T23:23:23Z",
   "feed_count": 83,
-  "item_count": 243,
+  "item_count": 244,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.97.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.4",
+      "published": "2026-09-17T23:08:32Z",
+      "preview": "44.97.4 (2026-09-17) Build System deps: update dependency @renovatebot/detect-tools to v4.0.17 (main) ( #46310 ) ( 5f4d4bf )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "9.8.0 RC2",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-RC2",
+      "published": "2026-09-17T22:59:52Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.8.0 RC2. Here are the highlights of this release: Java 27 support Maven mirror settings reuse Linked problem locations in build output Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aman Gautam , Björn Kautler , Eng Zer Jun , Hashim Khan , Julian Krannich , KBS , Labh R Jethe , Mark Dodgson , Maxim , monkey , nataphon-ktsystems , Paul King , Qiu Tian , rg_sandesh , Roberto Perez Alcolea , Sean , Zongle Wang . Upgrade instructions Switch your build to use Gradle 9.8.",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "44.97.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.3",
+      "published": "2026-09-17T22:50:56Z",
+      "preview": "44.97.3 (2026-09-17) Documentation update call-to-action banner ( #46303 ) ( cc6f414 ) Miscellaneous Chores deps: update dependency memfs to v4.74.0 (main) ( #46307 ) ( e01a965 ) Build System deps: update dependency zod to v4.6.2 (main) ( #46309 ) ( fb9aa21 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v4.1.0.beta1",
       "url": "https://github.com/ruby/rubygems/releases/tag/v4.1.0.beta1",
@@ -279,28 +303,12 @@
       "category": "Python"
     },
     {
-      "title": "44.95.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.95.0",
-      "published": "2026-09-17T00:46:15Z",
-      "preview": "44.95.0 (2026-09-17) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.0 (main) ( #46281 ) ( 2732ccf )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "Be alert: targeted attacks on prominent Rustaceans",
       "url": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
       "published": "2026-09-17T00:00:00Z",
       "preview": "We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. What we've seen A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). These attackers are setting up new but legi",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "44.94.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.4",
-      "published": "2026-09-16T23:54:22Z",
-      "preview": "44.94.4 (2026-09-16) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.16.0 (main) ( #46280 ) ( 28f514a ) Build System deps: update dependency @renovatebot/detect-tools to v4.0.16 (main) ( #46279 ) ( 8e9dcc7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Hatch v1.18.1",
