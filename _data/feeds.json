@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T14:30:41Z",
-  "cutoff": "2026-08-18T14:30:36Z",
+  "generated": "2026-09-17T15:28:13Z",
+  "cutoff": "2026-08-18T15:28:05Z",
   "feed_count": 83,
   "item_count": 237,
   "categories": [
@@ -25,10 +25,18 @@
     {
       "title": "v1.13.0-rc1",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.0-rc1",
-      "published": "2026-09-17T14:28:25Z",
-      "preview": "1.13.0-rc1",
+      "published": "2026-09-17T15:24:48Z",
+      "preview": "The v1.13.x release series is supported until August 1 2027 . 1.13.0 (Unreleased) UPGRADE NOTES: The \"winrm\" connection type for provisioners is no longer supported. ( #4012 ) This connection type was deprecated in OpenTofu v1.12, and now removed in v1.13. Some of the upstream libraries OpenTofu was using to implement these features are no longer maintained, so it's not viable for us to offer this anymore. Modern Windows versions now support OpenSSH , and so we suggest that anyone currently relying on WinRM plan to migrate to using SSH instead. The base64gzip function now generates results tha",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
+    },
+    {
+      "title": "44.97.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.1",
+      "published": "2026-09-17T14:53:33Z",
+      "preview": "44.97.1 (2026-09-17) Build System deps: update dependency @renovatebot/pgp to v2 (main) ( #46298 ) ( e19db4e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "44.97.0",
@@ -211,14 +219,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.3",
       "published": "2026-09-16T23:03:21Z",
       "preview": "44.94.3 (2026-09-16) Miscellaneous Chores deps: update dependency memfs to v4.72.1 (main) ( #46278 ) ( 6475043 ) Build System deps: update dependency zod to v4.6.1 (main) ( #46277 ) ( 3c31c7d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.94.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.94.2",
-      "published": "2026-09-16T21:53:53Z",
-      "preview": "44.94.2 (2026-09-16) Build System deps: update dependency @renovatebot/detect-tools to v4.0.15 (main) ( #46276 ) ( d440083 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
