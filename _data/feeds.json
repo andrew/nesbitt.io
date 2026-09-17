@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-17T02:37:19Z",
-  "cutoff": "2026-08-18T02:36:38Z",
+  "generated": "2026-09-17T07:33:19Z",
+  "cutoff": "2026-08-18T07:33:06Z",
   "feed_count": 83,
-  "item_count": 234,
+  "item_count": 235,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.29.2",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.2",
+      "published": "2026-09-17T07:04:00Z",
+      "preview": "Bug Fixes Fix writing lock files specified as bare relative filenames with pdm lock --lockfile . ( #3891 ) Preserve local paths containing spaces and their extras and environment markers when importing requirements files. ( #3894 ) Documentation List the install-pdm.py options the script actually accepts. ( #3889 )",
+      "source": "PDM releases",
+      "category": "Python"
+    },
     {
       "title": "44.95.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.95.0",
