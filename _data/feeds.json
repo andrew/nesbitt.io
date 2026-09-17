@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-17T17:24:31Z",
-  "cutoff": "2026-08-18T17:24:27Z",
+  "generated": "2026-09-17T18:34:20Z",
+  "cutoff": "2026-08-18T18:34:15Z",
   "feed_count": 83,
-  "item_count": 237,
+  "item_count": 238,
   "categories": [
     ".NET",
     "C/C++",
@@ -229,6 +229,14 @@
       "preview": "44.95.0 (2026-09-17) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.0 (main) ( #46281 ) ( 2732ccf )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "Be alert: targeted attacks on prominent Rustaceans",
+      "url": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
+      "published": "2026-09-17T00:00:00Z",
+      "preview": "We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. What we've seen A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). These attackers are setting up new but legi",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "44.94.4",
