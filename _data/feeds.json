@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-17T12:39:44Z",
-  "cutoff": "2026-08-18T12:39:38Z",
+  "generated": "2026-09-17T13:28:35Z",
+  "cutoff": "2026-08-18T13:28:30Z",
   "feed_count": 83,
-  "item_count": 236,
+  "item_count": 237,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "20260917t131800-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260917t131800-all",
+      "published": "2026-09-17T13:18:41Z",
+      "preview": "Deployment at 2026-09-17T13:18:30.156579Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "2.6.0",
+      "url": "https://github.com/ocaml/opam/releases/tag/2.6.0",
+      "published": "2026-09-17T13:18:15Z",
+      "preview": "This is the final release of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Changelog : Changes Bump opam-root-version to 2.6 [ #7146 @kit-ty-kate ] Improve and extend the testsuite [ #7146 @kit-ty-kate @rjbou ] To get the detailed list of changes compared to 2.5.2, you can look at the pre-releases' release notes: the releas",
+      "source": "opam releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.96.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.96.3",
+      "published": "2026-09-17T13:02:06Z",
+      "preview": "44.96.3 (2026-09-17) Bug Fixes datasource/buildpacks-registry: set cacheable explicitly ( adc1b0c ), closes #45974 datasource/dotnet-version: set cacheable explicitly ( 3848bd9 ), closes #45981 datasource/galaxy: set cacheable explicitly ( 8fcbe1f ), closes #45986 datasource/jsr: set cacheable explicitly ( 30f0fe8 ), closes #46005 datasource/rust-version: set cacheable explicitly ( bb378c3 ), closes #46016 Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.13 (main) ( #46291 ) ( ec41298 ) deps: update dependency lint-staged to v17.5.1 (main) ( #46292 ) ( f585e1e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.12.0.19",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.19",
@@ -93,14 +117,6 @@
       "preview": "RubyGems 4.0.21 Enhancements: Stop vendoring resolv for two regexps. Pull request #9877 by Hiroshi SHIBATA Normalize absolute symlink targets during gem extraction. Pull request #9860 by Hiroshi SHIBATA Installs bundler 4.0.21 as a default gem. Bundler 4.0.21 Enhancements: Don't update bundler to a prerelease unless asked for one. Pull request #9869 by Hiroshi SHIBATA Reject Bundler redirects that downgrade https to http. Pull request #9859 by Hiroshi SHIBATA Bug fixes: Support safe.bareRepository=explicit in git sources. Pull request #9876 by Hiroshi SHIBATA Stop resolving locally for empty C",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "2.6.0",
-      "url": "https://github.com/ocaml/opam/releases/tag/2.6.0",
-      "published": "2026-09-17T11:32:59Z",
-      "preview": "This is the final release of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Changelog : Changes Bump opam-root-version to 2.6 [ #7146 @kit-ty-kate ] Improve and extend the testsuite [ #7146 @kit-ty-kate @rjbou ] To get the detailed list of changes compared to 2.5.2, you can look at the pre-releases' release notes: the releas",
-      "source": "opam releases",
-      "category": "Registries"
     },
     {
       "title": "44.96.2",
@@ -261,14 +277,6 @@
       "preview": "Insert 7.12.0.17 into main on 09/16/2026 12:18:02",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.93.8",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.8",
-      "published": "2026-09-16T11:28:57Z",
-      "preview": "44.93.8 (2026-09-16) Bug Fixes changelog: prefer precise tags over floating ones for compare links ( #46210 ) ( 5ddaf0a ) platform/gitea: prefer fast-forward-only merge style for fast-forward automerge ( #46203 ) ( ab6b230 ) Tests versioning/conda: clarify latest is a valid version ( #46246 ) ( 809e565 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-14-a",
