@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T15:28:13Z",
-  "cutoff": "2026-08-18T15:28:05Z",
+  "generated": "2026-09-17T16:30:40Z",
+  "cutoff": "2026-08-18T16:30:35Z",
   "feed_count": 83,
   "item_count": 237,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-09-17T16:28:35Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "v1.13.0-rc1",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.0-rc1",
@@ -581,14 +589,6 @@
       "preview": "Minor Changes nodeDownloadMirrors can now be set in the global config file ( config.yaml ) and through the PNPM_CONFIG_NODE_DOWNLOAD_MIRRORS environment variable, so a Node.js download mirror can be configured once for a machine instead of in every workspace #12124 , #13611 . PNPM_CONFIG_NODE_DOWNLOAD_MIRRORS= ' {\"release\":\"https://npmmirror.com/mirrors/node/\"} ' Added a new setting trustPolicyExcludePrune (default: false ). When enabled, pnpm add , pnpm update , and pnpm remove prune the entries of trustPolicyExclude in pnpm-workspace.yaml that the freshly written lockfile no longer resolves:",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-12T18:15:54Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
