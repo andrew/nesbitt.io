@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-17T09:32:06Z",
-  "cutoff": "2026-08-18T09:32:01Z",
+  "generated": "2026-09-17T11:27:03Z",
+  "cutoff": "2026-08-18T11:26:59Z",
   "feed_count": 83,
   "item_count": 235,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.96.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.96.2",
+      "published": "2026-09-17T11:04:43Z",
+      "preview": "44.96.2 (2026-09-17) Miscellaneous Chores deps: update dependency memfs to v4.72.2 (main) ( #46290 ) ( ff9ec78 ) Build System deps: update dependency @renovatebot/pgp to v1.4.3 (main) ( #46289 ) ( 3c173d3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.9.7",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.7",
@@ -187,14 +195,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.8",
       "published": "2026-09-16T11:28:57Z",
       "preview": "44.93.8 (2026-09-16) Bug Fixes changelog: prefer precise tags over floating ones for compare links ( #46210 ) ( 5ddaf0a ) platform/gitea: prefer fast-forward-only merge style for fast-forward automerge ( #46203 ) ( ab6b230 ) Tests versioning/conda: clarify latest is a valid version ( #46246 ) ( 809e565 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.93.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.93.7",
-      "published": "2026-09-16T08:52:53Z",
-      "preview": "44.93.7 (2026-09-16) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.98.9 (main) ( #46245 ) ( 4d88ac4 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
