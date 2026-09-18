@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-18T01:36:59Z",
-  "cutoff": "2026-08-19T01:36:54Z",
+  "generated": "2026-09-18T02:37:19Z",
+  "cutoff": "2026-08-19T02:37:14Z",
   "feed_count": 83,
   "item_count": 243,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.15",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.15",
+      "published": "2026-09-18T02:36:52Z",
+      "preview": "Release Notes Released on 2026-09-15. Performance Speed up cold-cache resolution and HTTP cache revalidation by batching cache writes ( #21675 ) Bug fixes Fix regressions in 0.12.14 when installing to symlinked destinations or using uv pip install --target . ( #21699 ) Install uv 0.12.15 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.12.15/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/downlo",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "0.12.14",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.14",
+      "published": "2026-09-18T02:36:49Z",
+      "preview": "Release Notes Released on 2026-09-15. Enhancements Resume interrupted downloads with HTTP Range requests when supported ( #21570 ) Use a consistent format for error rendering ( #17110 ) Render error and warning causes with compact cause: labels ( #21599 , #21603 ) Show underlying causes and hints in user warnings ( #21565 ) Show resolver hints for failed uv tool upgrade operations ( #21566 ) Preview features Export multiple dependency selections from a shared lockfile in one uv export --batch invocation with the batch-export preview feature ( #21618 ) Performance Speed up dependency resolution",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "v2026.9.11: macos-app bootstrap packages, task template inheritance for flags and file tasks, and Swift on Linux fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.11",
@@ -463,14 +479,6 @@
       "category": "Registries"
     },
     {
-      "title": "0.12.15",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.15",
-      "published": "2026-09-15T12:09:40Z",
-      "preview": "Release Notes Released on 2026-09-15. This release fixes a regression in 0.12.14 that lead to rejecting valid installation commands such as using uv pip install --system in python:* docker images or when using uv pip install --target . . ( #21699 ) Performance Speed up cold-cache resolution and HTTP cache revalidation by batching cache writes ( #21675 ) Bug fixes Revert \"Reject symlinked wheel installation destinations\" ( #21699 ) Install uv 0.12.15 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.12.15/",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
       "title": "pnpm 12.4.2",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.2",
       "published": "2026-09-15T10:49:15Z",
@@ -501,14 +509,6 @@
       "preview": "Release vfox 2026.9.11",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "0.12.14",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.14",
-      "published": "2026-09-15T02:19:30Z",
-      "preview": "Release Notes Released on 2026-09-15. Package-operation errors now use uv's standard diagnostics, with consistent hints and compact, labeled cause chains. ( #17110 , #21599 , #21603 ) Package-operation exit codes now reflect the underlying cause: expected failures return 1, while recognized operational and internal failures return 2. ( #17110 ) Enhancements Resume interrupted downloads with HTTP Range requests when supported ( #21570 ) Show underlying causes and hints in user warnings ( #21565 ) Show resolver hints for failed uv tool upgrade operations ( #21566 ) Preview features Export multip",
-      "source": "uv releases",
-      "category": "Python"
     },
     {
       "title": "MacPorts 2.12.6",
