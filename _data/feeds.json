@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-18T18:32:00Z",
-  "cutoff": "2026-08-19T18:31:53Z",
+  "generated": "2026-09-18T19:24:19Z",
+  "cutoff": "2026-08-19T19:24:13Z",
   "feed_count": 102,
   "item_count": 258,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.17",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.17",
+      "published": "2026-09-18T18:59:24Z",
+      "preview": "Release Notes Released on 2026-09-18. Enhancements Reject unsupported Git archive paths in lockfiles with a clear error instead of panicking during frozen exports ( #21780 ) Preview features Set minimum glibc and musl versions that universal resolutions must support with minimum-libc-version ( #21651 ) Reject pylock.toml files whose wheel filenames do not match their declared package names or versions ( #20746 ) Keep uv workspace metadata read-only unless --sync is provided ( #21821 ) Apply uv check lock modes when retrieving workspace metadata ( #21821 ) Performance Speed up builds with many ",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "pnpm 12.5",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.5.0",
@@ -1741,14 +1749,6 @@
       "preview": "🐛 bug fixes fix: Fixes ThisBuild -scoped bare settings by @eed3si9n in #9674 fix: Fixes TestReportListener not receiving endGroup after a LinkageError by @unkarjedy in #9667 fix: Fixes the ability to extend TestResultLogger by @unkarjedy in #9655 fix: Fixes --addPluginSbtFile getting lost after reboot by @azdrojowa123 in #9669 fix: Fixes JDK 17 domain socket deadlocks by @eed3si9n in #9671 fix: Keep adhoc test classloader open in a forked test @stasimus in #9639 fix: Fixes Windows runner by @eed3si9n in #9680 Full Changelog : v2.0.7...v2.0.8",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "0.12.7",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.7",
-      "published": "2026-08-27T22:14:06Z",
-      "preview": "Release Notes Released on 2026-08-27. Python Replace managed Python installations when upgrading to a newer build of the same version ( #21323 ) Enhancements Support Linux s390x , ppc64le , and loongarch64 targets for cross-platform dependency resolution ( #21313 ) Retry downloads with configured credentials when Azure Storage denies anonymous access to an endpoint configured via UV_AZURE_ENDPOINT_URL ( #21318 ) Preview features Use content-based directory hashes to deduplicate extracted wheels in the cache with the content-addressed-cache preview feature ( #19693 ) Bug fixes Reject source arc",
-      "source": "uv releases",
-      "category": "Python"
     },
     {
       "title": "v1.3.4",
