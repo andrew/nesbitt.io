@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18T02:37:19Z",
-  "cutoff": "2026-08-19T02:37:14Z",
+  "generated": "2026-09-18T04:32:05Z",
+  "cutoff": "2026-08-19T04:32:00Z",
   "feed_count": 83,
-  "item_count": 243,
+  "item_count": 242,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.97.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.5",
+      "published": "2026-09-18T03:42:42Z",
+      "preview": "44.97.5 (2026-09-18) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.3 (main) ( #46314 ) ( 0d8fa41 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.16 (main) ( #46312 ) ( b74f510 ) deps: update dependency uv to v0.12.16 (main) ( #46313 ) ( e2da51d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.12.15",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.15",
@@ -307,14 +315,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.96.1",
       "published": "2026-09-17T08:42:36Z",
       "preview": "44.96.1 (2026-09-17) Build System deps: update dependency @renovatebot/pgp to v1.4.2 (main) ( #46285 ) ( 232835d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.96.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.96.0",
-      "published": "2026-09-17T08:19:40Z",
-      "preview": "44.96.0 (2026-09-17) Features config: add minimumReleaseAgeBuffer option ( #45577 ) ( 4215f35 ) manager/dockerfile: extract apk add packages from RUN instructions ( #45691 ) ( 9b87f8d ), closes #43711 Bug Fixes platform/github: attempt direct merge before falling back to the merge queue ( #46271 ) ( a22f8f0 ), closes #45724 Miscellaneous Chores deps: update codecov/codecov-action action to v7.1.1 (main) ( #46282 ) ( 8763fe4 ) deps: update jlumbroso/free-disk-space action to v1.3.2 (main) ( #46283 ) ( c5a2722 ) Tests reach 100% branch coverage ( #46284 ) ( f711fd4 ) workers/repository: close mo",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1957,14 +1957,6 @@
       "preview": "[0.77.0] - 2026-08-18 ✨ Highlights This release includes the API update for the backends such that we support pin-compatible and pin-subpackage specs in package manifests. For example: # Pin subpackage `mypkg` to the same version as the package itself, but allow any compatible version of `mypkg` to be used. [ package ] name = \" mypkg \" [ package . run-exports . weak ] mypkg = { pin-subpackage = { upper-bound = \" x.x \" } } # Pin `boltons` to a compatible version. [ package . host-dependencies ] boltons = \" >=2,<3 \" [ package . run-dependencies ] boltons = { pin-compatible = true } Note that thi",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v9.8.0-M1",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-M1",
-      "published": "2026-08-19T03:57:31Z",
-      "preview": "Report invalid toolchain installation paths as warnings via Problems …",
-      "source": "Gradle releases",
-      "category": "Maven"
     }
   ]
 }
