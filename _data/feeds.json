@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-18T21:25:01Z",
-  "cutoff": "2026-08-19T21:24:57Z",
+  "generated": "2026-09-18T22:25:58Z",
+  "cutoff": "2026-08-19T22:25:52Z",
   "feed_count": 102,
   "item_count": 258,
   "categories": [
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v12.5.1",
+      "title": "pnpm 12.5.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.5.1",
-      "published": "2026-09-18T20:59:46Z",
-      "preview": "=v12.5.1",
+      "published": "2026-09-18T21:48:32Z",
+      "preview": "Patch Changes pnpm now reports an unknown task setting in pnpm-workspace.yaml and carries on. It used to refuse to start, so a project could not use a task setting that only the pnpm version its packageManager pins reads. The setting is still an error when the running pnpm is that pinned version. Python interpreter installation now retries historical release metadata requests. It caches the release list for up to 24 hours and refreshes it once after a lookup miss. When a release omits the current platform, the search samples at most eight other releases before reporting that the lookup is inco",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
