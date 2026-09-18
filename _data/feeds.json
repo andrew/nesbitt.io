@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18T07:31:17Z",
-  "cutoff": "2026-08-19T07:31:10Z",
+  "generated": "2026-09-18T08:35:22Z",
+  "cutoff": "2026-08-19T08:35:18Z",
   "feed_count": 83,
-  "item_count": 241,
+  "item_count": 240,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.99.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.99.0",
+      "published": "2026-09-18T07:56:49Z",
+      "preview": "44.99.0 (2026-09-18) Features datasource/github-runners: make ubuntu 26 stable ( #46308 ) ( bfd3c26 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.98.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.98.0",
+      "published": "2026-09-18T07:38:20Z",
+      "preview": "44.98.0 (2026-09-18) Features manager/dockerfile: update APK packages pinned with a fuzzy constraint ( #45693 ) ( 426bf15 ) Documentation datasource/apk: add more in-depth information about using with a Wolfi Dockerfile ( #45702 ) ( d5faaa8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.97.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.6",
@@ -279,28 +295,12 @@
       "category": "Registries"
     },
     {
-      "title": "44.96.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.96.3",
-      "published": "2026-09-17T13:02:06Z",
-      "preview": "44.96.3 (2026-09-17) Bug Fixes datasource/buildpacks-registry: set cacheable explicitly ( adc1b0c ), closes #45974 datasource/dotnet-version: set cacheable explicitly ( 3848bd9 ), closes #45981 datasource/galaxy: set cacheable explicitly ( 8fcbe1f ), closes #45986 datasource/jsr: set cacheable explicitly ( 30f0fe8 ), closes #46005 datasource/rust-version: set cacheable explicitly ( bb378c3 ), closes #46016 Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.13 (main) ( #46291 ) ( ec41298 ) deps: update dependency lint-staged to v17.5.1 (main) ( #46292 ) ( f585e1e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "7.12.0.19",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.19",
       "published": "2026-09-17T12:19:24Z",
       "preview": "Insert 7.12.0.19 into main on 09/17/2026 12:19:23",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.96.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.96.2",
-      "published": "2026-09-17T11:04:43Z",
-      "preview": "44.96.2 (2026-09-17) Miscellaneous Chores deps: update dependency memfs to v4.72.2 (main) ( #46290 ) ( ff9ec78 ) Build System deps: update dependency @renovatebot/pgp to v1.4.3 (main) ( #46289 ) ( 3c173d3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.9.7",
@@ -1941,14 +1941,6 @@
       "preview": "As part of this release we had 1 issue closed. Dependency Change [Security] Update bundled 7zip executables to 26.02. See #3928 by gep13 resolved in !3925 by alexaveldanez . Contributors 2 contributors made this release possible.",
       "source": "Chocolatey releases",
       "category": "System"
-    },
-    {
-      "title": "20260819t082900-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260819t082900-all",
-      "published": "2026-08-19T08:29:55Z",
-      "preview": "Deployment at 2026-08-19T08:29:51.499574Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     }
   ]
 }
