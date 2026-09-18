@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18T08:35:22Z",
-  "cutoff": "2026-08-19T08:35:18Z",
-  "feed_count": 83,
-  "item_count": 240,
+  "generated": "2026-09-18T08:55:39Z",
+  "cutoff": "2026-08-19T08:55:32Z",
+  "feed_count": 102,
+  "item_count": 267,
   "categories": [
     ".NET",
     "C/C++",
@@ -431,6 +431,14 @@
       "category": "Ruby"
     },
     {
+      "title": "opam 2.6.0 release",
+      "url": "https://opam.ocaml.org/blog/opam-2-6-0/",
+      "published": "2026-09-16T00:00:00Z",
+      "preview": "Feedback on this post is welcome on Discuss! We're happy to announce the release of opam 2.6.0 and encourage all users to upgrade. Please read on for installation and upgrade instructions. Try it! The upgrade instructions are unchanged: Either from binaries: run For Unix systems bash -c \"sh . Thanks to @zoggy for this contribution. Fix the filename check used when parsing arguments to allow / to be recognised as a directory separator on Windows Make git calls more deterministic regardless of the global or system config Read full lines when asking for user input when TERM=dumb (e.g. emacs' M-x ",
+      "source": "opam Blog",
+      "category": "Registries"
+    },
+    {
       "title": "v29.8.1",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.1",
       "published": "2026-09-15T17:05:26Z",
@@ -487,6 +495,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "Swift 6.4 Released",
+      "url": "https://swift.org/blog/swift-6.4-released/",
+      "published": "2026-09-15T07:30:00Z",
+      "preview": "Swift 6.4 is now available. Swift aims to be a great choice across the stack, from apps and servers to systems code, embedded devices, and the browser. This release deepens that support, and makes everyday code easier to write. Highlights include: Swift Build is now the default in Swift Package Manager , so your projects build the same way on Linux, macOS, and Windows. Subprocess reaches 1.0 , a stable, cross-platform way to run and interact with other programs from Swift, from command-line tools to streaming processes. Interoperability reaches further , with Swift’s Span now bridging directly",
+      "source": "Swift Blog",
+      "category": "Registries"
+    },
+    {
       "title": "Swift 6.4.0 Release",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.0-RELEASE",
       "published": "2026-09-15T07:11:55Z",
@@ -509,6 +525,14 @@
       "preview": "Release vfox 2026.9.11",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "Supporter spotlight: Jochen Sprickerhof on ... Reproducible Builds!",
+      "url": "https://reproducible-builds.org/news/2026/09/15/supporter-spotlight-jochen-sprickerhof/",
+      "published": "2026-09-15T03:54:00Z",
+      "preview": "The Reproducible Builds project relies on several projects, supporters and sponsors for financial support, but they are also valued as ambassadors who spread the word about our project and the work that we do. This is the ninth installment in a series featuring the projects, companies and individuals who support the Reproducible Builds project. We started this series by featuring the Civil Infrastructure Platform project, and followed this up with a post about the Ford Foundation as well as recent ones about ARDC , the Google Open Source Security Team (GOSST) , Bootstrappable Builds , the F-Dr",
+      "source": "Reproducible Builds Blog",
+      "category": "Infrastructure"
     },
     {
       "title": "MacPorts 2.12.6",
@@ -671,6 +695,14 @@
       "category": "Registries"
     },
     {
+      "title": "Module Tracking in Swift Debug Info",
+      "url": "https://swift.org/blog/module-tracking-in-debug-info/",
+      "published": "2026-09-11T15:30:00Z",
+      "preview": "When your Swift program hits a breakpoint and stops so you can inspect it, the debugger’s expression evaluator has to find the exact Swift module your code was built from. Until now, that lookup wasn’t always precise. The upcoming Swift 6.4 release will include changes, begun in Swift 6.3, that address this by updating how the Swift compiler references explicitly-built Swift modules in debug info. The majority of developers will automatically benefit from faster , more reliable debugging and smaller build products , without any modifications to their SwiftPM or Xcode projects. For developers w",
+      "source": "Swift Blog",
+      "category": "Registries"
+    },
+    {
       "title": "pnpm 12.4.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.1",
       "published": "2026-09-11T14:55:01Z",
@@ -685,6 +717,14 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
+    },
+    {
+      "title": "Reproducible Builds in August 2026",
+      "url": "https://reproducible-builds.org/reports/2026-08/",
+      "published": "2026-09-11T10:12:50Z",
+      "preview": "Welcome to the August 2026 report from the Reproducible Builds project! In our reports, we try to outline the most important things that we have been up to over the past month. As a quick recap about what problem our project intends to solve, whilst anyone may inspect the source code of free software for malicious flaws, almost all software is distributed to end users as pre-compiled binaries. The motivation behind the reproducible builds effort is to ensure no flaws have been introduced during this compilation process by promising identical results are always generated from a given source, th",
+      "source": "Reproducible Builds Blog",
+      "category": "Infrastructure"
     },
     {
       "title": "Windows Package Manager 1.30.140-preview",
@@ -703,6 +743,14 @@
       "category": "Containers"
     },
     {
+      "title": "How to Calculate 0.1 Plus 0.2 Correctly in PHP?",
+      "url": "https://thephp.foundation/blog/2026/09/11/how-to-calculate-0-point-1-plus-0-point-2-correctly-in-php/",
+      "published": "2026-09-11T00:00:00Z",
+      "preview": "The PHP Foundation thanks guest author Weilin Du for this post! Quick quiz before you read: <?php var_dump(0.1 + 0.2 === 0.3); This returns false . Now, as developers who proudly know IEEE's floating rules , many of you may take a sip of your coffee and say: Hey, that's not news anymore. We all know this classic case that warns generations of junior developers that calculating directly with floats might cause bugs. However, let's see this case here (64-bit): <?php var_dump((9223372036854775808 - 1) === 9223372036854775807); Well, obviously this is an integer calculation. This is surely not aff",
+      "source": "PHP Foundation Blog",
+      "category": "PHP"
+    },
+    {
       "title": "An update on the May spam-publishing campaign on rubygems.org",
       "url": "https://blog.rubygems.org/2026/09/11/update-may-spam-publishing-campaign.html",
       "published": "2026-09-11T00:00:00Z",
@@ -716,6 +764,14 @@
       "published": "2026-09-10T19:27:24Z",
       "preview": "Release Notes Released on 2026-09-10. Python Add GraalPy 3.13.0 ( #21431 ) Enhancements Verify hashes when downloading PEP 658 metadata sidecars ( #21563 ) Preview features Respect ty exclusions when uv check automatically selects members of a virtual workspace ( #21555 ) Performance Avoid full wheel downloads during resolution by reusing supported hashes from direct URL fragments when metadata is available separately ( #21279 ) Bug fixes Edit Windows entry-point launcher resources in memory to support Nano Server and reduce antivirus contention ( #18713 ) Prefer core-metadata over legacy alia",
       "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "v10.1.0 🌈  New output `python-runtime-id`and respect NO_PROXY",
+      "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.1.0",
+      "published": "2026-09-10T19:20:03Z",
+      "preview": "Changes This release adds more bheind the scene security improvements and also 2 small improvements. NO_PROXY This action now respects no_proxy/NO_PROXY environment variables which were previously ignored. New output python-runtime-id The new output python-runtime-id can be used to know which python version exactly was installed if you use activate-environment . See pyca/cryptography#15572 (comment) for details on why this can be useful. 🐛 Bug fixes fix: respect no proxy directive @mj0nez ( #1037 ) Use JSON + a typed wrapper instead of TS codegen @woodruffw ( #1025 ) 🚀 Enhancements Expose a Py",
+      "source": "setup-uv releases",
       "category": "Python"
     },
     {
@@ -783,6 +839,14 @@
       "category": ".NET"
     },
     {
+      "title": "Welcoming Daniel Scherzer to the Ecosystem Security Team",
+      "url": "https://thephp.foundation/blog/2026/09/09/welcome-daniel-scherzer/",
+      "published": "2026-09-09T00:00:00Z",
+      "preview": "When the Ecosystem Security Team was established with funding from the Alpha-Omega “Security Engineer in Residence” grant , its mission was to improve the security of all aspects of the PHP ecosystem. Under the leadership of Volker Dusch, the team has accomplished many things . As predicted, the increasing popularity of AI tools has brought an influx of security reports and PRs from the community to php-src itself. The triaging, reviewing, and handling of issues that do not fall within PHP’s definition of a “security vulnerability,” but that do improve the quality of PHP are tasks that are tim",
+      "source": "PHP Foundation Blog",
+      "category": "PHP"
+    },
+    {
       "title": "4.1.0.beta1 Released",
       "url": "https://blog.rubygems.org/2026/09/09/4.1.0.beta1-released.html",
       "published": "2026-09-09T00:00:00Z",
@@ -847,6 +911,22 @@
       "category": "System"
     },
     {
+      "title": "Incident Report: File Hosting Errors",
+      "url": "https://blog.pypi.org/posts/2026-09-08-file-hosting-errors/",
+      "published": "2026-09-08T06:09:00Z",
+      "preview": "Executive summary For about two weeks in August 2026, some PyPI users hit intermittent 502 and 503 errors downloading files from files.pythonhosted.org , triggering failures during installation from PyPI. Thanks to our users filing reports in the support tracker ; one report in particular narrowed the problem to a single cache node. Two separate problems were uncovered. A canary deployment inside Fastly's network had triggered a misconfiguration at one cache node, causing Fastly's routing layer to return 502 responses for traffic reaching the affected cache node. Separately, I found and fixed ",
+      "source": "PyPI Blog",
+      "category": "Python"
+    },
+    {
+      "title": "opam 2.6.0~rc1 release",
+      "url": "https://opam.ocaml.org/blog/opam-2-6-0-rc1/",
+      "published": "2026-09-08T00:00:00Z",
+      "preview": "Feedback on this post is welcome on Discuss! We are happy to announce the first release candidate of opam 2.6.0. You can view the full list of changes in the release note. This version is a pre-release, we invite users to test it to spot previously unnoticed bugs as we head towards the stable release. Try it! The upgrade instructions are unchanged: Either from binaries: run For Unix systems bash -c \"sh <(curl -fsSL https://opam.ocaml.org/install.sh) --version 2.6.0~rc1\"or from PowerShell for Windows systems Invoke-Expression \"& { $(Invoke-RestMethod https://opam.ocaml.org/install.ps1) } -Versi",
+      "source": "opam Blog",
+      "category": "Registries"
+    },
+    {
       "title": "v0.80.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.80.0",
       "published": "2026-09-07T13:38:39Z",
@@ -868,6 +948,14 @@
       "published": "2026-09-07T10:03:36Z",
       "preview": "tagging package snapd version 2.78",
       "source": "Snapd releases",
+      "category": "System"
+    },
+    {
+      "title": "Demystifying complex configurations",
+      "url": "https://guix.gnu.org/blog/2026/demystifying-complex-configurations//",
+      "published": "2026-09-07T08:30:00Z",
+      "preview": "Guix system and Guix home introduce the concept of services. These provide users with a way to control background processes, commonly refereed as daemons , as well as ways of controlling the setup of files. For example, openssh-service-type is a service which controls a SSH daemon. In contrast, etc-service-type is a service that populates the contents of the /etc directory. One peculiarity of Guix services is that it's customary to provide Scheme bindings for the different fields. By that I mean that the different fields of the configuration of most services will be a…",
+      "source": "Guix Blog",
       "category": "System"
     },
     {
@@ -951,6 +1039,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "Bun v1.4.2",
+      "url": "https://bun.com/blog/bun-v1.4.2",
+      "published": "2026-09-05T05:39:32Z",
+      "preview": "This release fixes two regressions impacting Elysia and AsyncLocalStorage, a hang in @discordjs/ws, CMYK JPEG decoding in Bun.Image, a rare JIT crash, and a GC crash on musl.",
+      "source": "Bun Blog",
+      "category": "JavaScript"
+    },
+    {
       "title": "0.12.10",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.10",
       "published": "2026-09-04T23:15:57Z",
@@ -1031,6 +1127,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "What's new in Swift: August 2026 Edition",
+      "url": "https://swift.org/blog/whats-new-in-swift-august-2026/",
+      "published": "2026-09-04T16:30:00Z",
+      "preview": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. Here’s an update from guest contributor Simon Leeb on Swift’s progress as a language for web scenarios: Hi, Simon here! I am the creator of the elementary-swift project, a collection of packages born from a simple wish: I want to build web UIs in Swift and ultimately help Swift become a first-class choice for the web. This journey began after I started using Swift for backend services. The web frontend, however, still lived in a separate ecosystem, and I really wanted it ",
+      "source": "Swift Blog",
+      "category": "Registries"
+    },
+    {
       "title": "pnpm 12.3.3",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.3",
       "published": "2026-09-04T14:23:32Z",
@@ -1063,12 +1167,28 @@
       "category": "JavaScript"
     },
     {
+      "title": "Bun v1.4.1",
+      "url": "https://bun.com/blog/bun-v1.4.1",
+      "published": "2026-09-04T06:47:12Z",
+      "preview": "Fixes 202 issues, addressing 236 👍. HTTP/2 in Bun.serve, Bun.write() streams Response bodies to disk, self-contained workspace node_modules, bun install --offline and --prefer-offline, WebSocket pause() and resume(), crypto.argon2, tree-shaking through dynamic import(), smarter CommonJS to ESM conversion for default imports, --compile --bytecode when cross-compiling, smaller and faster-starting compiled executables, up to 9x faster Buffer reads and writes, 2x faster AsyncLocalStorage, faster startup, and many bugfixes and Node.js compatibility improvements.",
+      "source": "Bun Blog",
+      "category": "JavaScript"
+    },
+    {
       "title": "pnpm 12.3.2",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.2",
       "published": "2026-09-04T02:07:17Z",
       "preview": "Patch Changes pnpm audit --fix update no longer aborts when a vulnerable package has no safe version inside its declared range #14508 . The run updates every package it can and lists the rest as remaining. pnpm install no longer reruns root lifecycle scripts when the global virtual store contains an unfinished-build marker in a package slot that the current lockfile does not use pnpm/pnpm#14485 . Sped up installs that have no lockfile. pnpm now links packages whose dependency subtree has no peer dependencies into the virtual store while resolution is still running. pnpm run and pnpm exec now s",
       "source": "pnpm releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "Our endorsements for Python’s first Packaging Council",
+      "url": "https://astral.sh/blog/python-packaging-council",
+      "published": "2026-09-04T00:00:00Z",
+      "preview": "Astral is proud to endorse William Woodruff, Pradyun Gedam, Ralf Gommers, and Donald Stufft for the inaugural Python Packaging Council.",
+      "source": "Astral Blog",
+      "category": "Python"
     },
     {
       "title": "v29.8.0",
@@ -1111,6 +1231,14 @@
       "category": "Containers"
     },
     {
+      "title": "v0.45.1",
+      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.45.1",
+      "published": "2026-09-03T16:35:17Z",
+      "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights This release fixes an error that prevented the new jj-core crate from being published. See the release notes for v0.45.0 for more changes since v0.44.0. Fixed bugs Building without Cargo.lock (e.g. cargo install jj-cli ) works again after all versions of the bisync crate, a transitive dependency of gix, were yanked. Signatures on commits in SHA-256 Git repositories are now stored under the gpgsig-sha256 header, as Git does, so Git recognizes",
+      "source": "jj releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "v0.79.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.79.0",
       "published": "2026-09-03T15:16:32Z",
@@ -1151,12 +1279,28 @@
       "category": "Registries"
     },
     {
+      "title": "v0.45.0",
+      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.45.0",
+      "published": "2026-09-03T04:58:53Z",
+      "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights A new jj converge command was added to help automatically resolve divergent commits by combining them appropriately. Breaking changes jj config {edit,set,unset} --user now targets the first loaded user configuration file (e.g. ~/.config/jj/config.toml or the first file in conf.d/ ) instead of prompting interactively when multiple files exist. Use --file <PATH> to target a specific config file. jj git import in non-colocated repositories no l",
+      "source": "jj releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "pnpm 12.3.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.1",
       "published": "2026-09-03T00:40:37Z",
       "preview": "Patch Changes Sped up installs in large workspaces: the anchor for re-rendering workspace link: targets is now derived once per project instead of once per dependency edge, and project ordering hashes paths by their raw bytes #14352 . After a self-update from pnpm 12.2 to 12.3, global commands such as node , npm , and yarn failed with unexpected argument '--shim' found . Global commands now launch normally, and their first launch migrates the global bin directory to native shims. When self-update downgrades to pnpm 12.2 or older, it keeps the newer native shims so those commands continue to wo",
       "source": "pnpm releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "Forgejo Runner v13.1.0 is available",
+      "url": "https://forgejo.org/2026-09-runner-release-v131/",
+      "published": "2026-09-03T00:00:00Z",
+      "preview": "Forgejo Runner v13.1.0 is available. An experimental plugin capability allows Forgejo Runner to support user-developed pluggable execution environments.",
+      "source": "Forgejo Blog",
+      "category": "Infrastructure"
     },
     {
       "title": "Announcing Rust 1.98.1",
@@ -1213,6 +1357,14 @@
       "preview": "Go 1.27 includes new goroutine leak profiles.",
       "source": "Go Blog",
       "category": "Go"
+    },
+    {
+      "title": "Digital Sovereignty Is Written in PHP",
+      "url": "https://thephp.foundation/blog/2026/09/02/digital-sovereignty-is-written-in-php/",
+      "published": "2026-09-02T00:00:00Z",
+      "preview": "Germany is spending €108 million to move its federal websites onto a PHP application. The money is the budget for the eleventh version of the Government Site Builder, the German federal administration's standard content management solution: €26.88 million for product development and support, €73.2 million for migration and relaunch, €8 million for operations , phased over four years. More than 80 federal agencies and institutions already use it, and they have built well over 250 websites with it . In 2025, The PHP Foundation received $730,534 in total contributions . I am not going to argue fr",
+      "source": "PHP Foundation Blog",
+      "category": "PHP"
     },
     {
       "title": "4.0.20 Released",
@@ -1311,6 +1463,22 @@
       "category": "Registries"
     },
     {
+      "title": "Private package authorization vulnerabilities",
+      "url": "https://hex.pm/blog/private-package-authorization-vulnerabilities",
+      "published": "2026-09-01T00:00:00Z",
+      "preview": "On 24 August 2026 we found and fixed two vulnerabilities in how hex.pm issues OAuth tokens. Both could give an account read access to private packages of an organization it was not entitled to. Neither was being exploited when we found them: no active token carried a scope for an organization its holder could not access. Whether either had been used earlier we cannot say, because the records that would settle that had been deleted by routine cleanup. This post describes both vulnerabilities, what we could and could not establish, and what we changed in authorization and in logging. Organizatio",
+      "source": "Hex Blog",
+      "category": "Elixir"
+    },
+    {
+      "title": "Roman Pronskiy Leaves The PHP Foundation Board and Brent Roose Joins",
+      "url": "https://thephp.foundation/blog/2026/09/01/welcome-brent-roose/",
+      "published": "2026-09-01T00:00:00Z",
+      "preview": "The PHP Foundation is excited to announce the addition of Brent Roose from JetBrains to the Foundation's Board of Directors. Brent fills the JetBrains Platinum Sponsor seat and was unanimously voted to join by the existing members. Brent is a developer advocate for PHP at JetBrains, but he is also a writer, content creator, event organizer, community leader, and open source contributor. He is a well-recognized voice on PHP Annotated , maintains an active blog at stitcher.io , and is the creator of the Tempest framework for PHP, one of his bigger open source projects. PHP has been my passion fo",
+      "source": "PHP Foundation Blog",
+      "category": "PHP"
+    },
+    {
       "title": "Announcing rustup 1.29.1",
       "url": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
       "published": "2026-09-01T00:00:00Z",
@@ -1372,6 +1540,30 @@
       "published": "2026-08-31T12:58:39Z",
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-08-30-a",
       "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Metadata requests no longer tracked in PyPI download counts",
+      "url": "https://blog.pypi.org/posts/2026-08-31-download-counts/",
+      "published": "2026-08-31T06:09:00Z",
+      "preview": "On 2026-08-24 I shipped a change to the configuration that emits PyPI's download logs so that only requests for actual distribution artifacts are counted. A request has to end in .whl , .tar.gz , or .zip to produce a download record. The counts are more accurate now, and existing systems based on PyPI's BigQuery dataset , like pypistats.org will display a different shape going forward. If you maintain something that reads these numbers from the public dataset, the discontinuity at 2026-08-24 is expected and permanent. This effort would not be possible without the continued support from Alpha-O",
+      "source": "PyPI Blog",
+      "category": "Python"
+    },
+    {
+      "title": "Join Us for The PHP Foundation Community Hour",
+      "url": "https://thephp.foundation/blog/2026/08/31/join-us-for-the-php-foundation-community-hour/",
+      "published": "2026-08-31T00:00:00Z",
+      "preview": "Here at The PHP Foundation, we are continuously looking for ways in which we can increase our connections with the PHP community, especially when the goal is to improve the sustainability of the PHP language. Increasing the contributor pool ties in directly with sustainability, so encouraging contributions back to the PHP ecosystem is something we want to foster and support. As part of this effort, we are excited to be launching a monthly one-hour interactive podcast in partnership with the folks at PHP Architect . This podcast will be called The PHP Foundation Community Hour and will feature ",
+      "source": "PHP Foundation Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "opam 2.6.0~beta2 release",
+      "url": "https://opam.ocaml.org/blog/opam-2-6-0-beta2/",
+      "published": "2026-08-31T00:00:00Z",
+      "preview": "Feedback on this post is welcome on Discuss! We are happy to announce the second beta release of opam 2.6.0. You can view the full list of changes in the release note. This version is a beta, we invite users to test it to spot previously unnoticed bugs as we head towards the stable release. Try it! The upgrade instructions are unchanged: Either from binaries: run For Unix systems bash -c \"sh <(curl -fsSL https://opam.ocaml.org/install.sh) --version 2.6.0~beta2\"or from PowerShell for Windows systems Invoke-Expression \"& { $(Invoke-RestMethod https://opam.ocaml.org/install.ps1) } -Version 2.6.0~",
+      "source": "opam Blog",
       "category": "Registries"
     },
     {
@@ -1815,6 +2007,14 @@
       "category": "Rust"
     },
     {
+      "title": "opam 2.6.0~beta1 release",
+      "url": "https://opam.ocaml.org/blog/opam-2-6-0-beta1/",
+      "published": "2026-08-21T00:00:00Z",
+      "preview": "Feedback on this post is welcome on Discuss! We are happy to announce the first beta release of opam 2.6.0. You can view the full list of changes in the release note. This version is a beta, we invite users to test it to spot previously unnoticed bugs as we head towards the stable release. Try it! The upgrade instructions are unchanged: Either from binaries: run For Unix systems bash -c \"sh <(curl -fsSL https://opam.ocaml.org/install.sh) --version 2.6.0~beta1\"or from PowerShell for Windows systems Invoke-Expression \"& { $(Invoke-RestMethod https://opam.ocaml.org/install.ps1) } -Version 2.6.0~b",
+      "source": "opam Blog",
+      "category": "Registries"
+    },
+    {
       "title": "0.99.0",
       "url": "https://github.com/rust-lang/cargo/releases/tag/0.99.0",
       "published": "2026-08-20T17:10:25Z",
@@ -1828,6 +2028,22 @@
       "published": "2026-08-20T14:08:57Z",
       "preview": "To install Bun v1.4 curl -fsSL https://bun.com/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.com/install.ps1|iex \" To upgrade to Bun v1.4.0: bun upgrade Read the blog post : Thank you Bun is free, open source, and MIT-licensed. We receive a lot of contributions from the community, and we'd like to thank everyone who fixed a bug or contributed since Bun v1.3. @190n @alanstott @alii @alinalihassan @amdad121 @ant-kurt @anthonybaldwin @avarayr @baboon-king @billywhizz @bmwalters @Boshen @braden-w @c-stoeckl @carlsmedstad @chrislloyd @cirospaciari @colele",
       "source": "Bun releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "Embedded Swift Improvements Coming in Swift 6.4",
+      "url": "https://swift.org/blog/embedded-swift-improvements-coming-in-swift-6.4/",
+      "published": "2026-08-20T13:45:00Z",
+      "preview": "Embedded Swift is a subset of Swift that’s designed for low resource usage, making it capable of running on constrained environments like microcontrollers. Using a special compilation mode, Embedded Swift produces significantly smaller binaries than regular Swift. While a subset of the full language, the vast majority of the Swift language works exactly the same in Embedded Swift. Additional information is described in the Embedded Swift vision document . Embedded Swift is evolving rapidly. Following our updates on Embedded Swift improvements in Swift 6.3 late last year, this post describes a ",
+      "source": "Swift Blog",
+      "category": "Registries"
+    },
+    {
+      "title": "Bun 1.4",
+      "url": "https://bun.com/blog/bun-v1.4",
+      "published": "2026-08-20T00:53:44Z",
+      "preview": "Bun 1.4 rewrites Bun in Rust, ships built-in headless browser automation (Bun.WebView), Bun.Image, Bun.markdown, JSON5, JSONL, Terminal and cron APIs, Node.js 26.3.0 compatibility with 1,517 newly passing tests, parallel test and run, Windows ARM64, and an opt-in global virtual store for up to 7× faster installs.",
+      "source": "Bun Blog",
       "category": "JavaScript"
     },
     {

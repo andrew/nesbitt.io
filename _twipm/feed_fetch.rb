@@ -87,12 +87,17 @@ module FeedFetch
     parsed.entries.filter_map do |entry|
       published = entry.published || entry.updated
       next unless entry.title && entry.url && published
+      url = begin
+        URI.join(feed[:url], entry.url).to_s
+      rescue URI::Error
+        entry.url
+      end
       raw = entry.summary || entry.content || ""
       preview = strip_html(raw)[0, length]
       preview = nil if preview.to_s.empty?
       {
         title: entry.title.to_s.strip,
-        url: entry.url,
+        url: url,
         published: published.utc,
         preview: preview,
         source: feed[:name],

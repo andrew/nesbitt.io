@@ -3,12 +3,14 @@
   <head>
     <title>Package Manager Client &amp; Registry Software Feeds</title>
     <dateCreated>Sun, 16 Nov 2025 00:00:00 GMT</dateCreated>
-    <dateModified>Wed, 02 Sep 2026 21:00:00 GMT</dateModified>
+    <dateModified>Fri, 18 Sep 2026 08:40:00 GMT</dateModified>
   </head>
   <body>
 
     <outline text="JavaScript/Node.js">
+      <outline type="rss" text="Bun Blog" xmlUrl="https://bun.com/rss.xml" htmlUrl="https://bun.com/blog"/>
       <outline type="rss" text="Bun releases" xmlUrl="https://github.com/oven-sh/bun/releases.atom" htmlUrl="https://github.com/oven-sh/bun/releases"/>
+      <outline type="rss" text="Deno Blog" xmlUrl="https://deno.com/feed" htmlUrl="https://deno.com/blog"/>
       <outline type="rss" text="Deno releases" xmlUrl="https://github.com/denoland/deno/releases.atom" htmlUrl="https://github.com/denoland/deno/releases"/>
       <outline type="rss" text="JSR releases" xmlUrl="https://github.com/jsr-io/jsr/releases.atom" htmlUrl="https://github.com/jsr-io/jsr/releases"/>
       <outline type="rss" text="npm Changelog" xmlUrl="https://github.blog/changelog/label/npm/feed/" htmlUrl="https://github.blog/changelog/label/npm/"/>
@@ -22,11 +24,15 @@
     </outline>
 
     <outline text="Python">
+      <outline type="rss" text="Astral Blog" xmlUrl="https://astral.sh/blog/rss.xml" htmlUrl="https://astral.sh/blog"/>
       <outline type="rss" text="Hatch releases" xmlUrl="https://github.com/pypa/hatch/releases.atom" htmlUrl="https://github.com/pypa/hatch/releases"/>
+      <outline type="rss" text="packaging releases" xmlUrl="https://github.com/pypa/packaging/releases.atom" htmlUrl="https://github.com/pypa/packaging/releases"/>
       <outline type="rss" text="PDM releases" xmlUrl="https://github.com/pdm-project/pdm/releases.atom" htmlUrl="https://github.com/pdm-project/pdm/releases"/>
       <outline type="rss" text="pip releases" xmlUrl="https://github.com/pypa/pip/releases.atom" htmlUrl="https://github.com/pypa/pip/releases"/>
       <outline type="rss" text="pipx releases" xmlUrl="https://github.com/pypa/pipx/releases.atom" htmlUrl="https://github.com/pypa/pipx/releases"/>
       <outline type="rss" text="Poetry releases" xmlUrl="https://github.com/python-poetry/poetry/releases.atom" htmlUrl="https://github.com/python-poetry/poetry/releases"/>
+      <outline type="rss" text="PyPI Blog" xmlUrl="https://blog.pypi.org/feed_rss_created.xml" htmlUrl="https://blog.pypi.org/"/>
+      <outline type="rss" text="setup-uv releases" xmlUrl="https://github.com/astral-sh/setup-uv/releases.atom" htmlUrl="https://github.com/astral-sh/setup-uv/releases"/>
       <outline type="rss" text="uv releases" xmlUrl="https://github.com/astral-sh/uv/releases.atom" htmlUrl="https://github.com/astral-sh/uv/releases"/>
       <outline type="rss" text="Warehouse (PyPI) releases" xmlUrl="https://github.com/pypi/warehouse/releases.atom" htmlUrl="https://github.com/pypi/warehouse/releases"/>
     </outline>
@@ -39,6 +45,7 @@
 
     <outline text="Rust">
       <outline type="rss" text="Cargo releases" xmlUrl="https://github.com/rust-lang/cargo/releases.atom" htmlUrl="https://github.com/rust-lang/cargo/releases"/>
+      <outline type="rss" text="cargo-semver-checks releases" xmlUrl="https://github.com/obi1kenobi/cargo-semver-checks/releases.atom" htmlUrl="https://github.com/obi1kenobi/cargo-semver-checks/releases"/>
       <outline type="rss" text="Crates.io releases" xmlUrl="https://github.com/rust-lang/crates.io/releases.atom" htmlUrl="https://github.com/rust-lang/crates.io/releases"/>
       <outline type="rss" text="Rust Blog" xmlUrl="https://blog.rust-lang.org/feed.xml" htmlUrl="https://blog.rust-lang.org/"/>
     </outline>
@@ -47,6 +54,7 @@
       <outline type="rss" text="Composer releases" xmlUrl="https://github.com/composer/composer/releases.atom" htmlUrl="https://github.com/composer/composer/releases"/>
       <outline type="rss" text="Packagist Blog" xmlUrl="https://blog.packagist.com/rss/" htmlUrl="https://blog.packagist.com"/>
       <outline type="rss" text="Packagist releases" xmlUrl="https://github.com/composer/packagist/releases.atom" htmlUrl="https://github.com/composer/packagist/releases"/>
+      <outline type="rss" text="PHP Foundation Blog" xmlUrl="https://thephp.foundation/atom.xml" htmlUrl="https://thephp.foundation/blog/"/>
     </outline>
 
     <outline text="Go">
@@ -75,6 +83,7 @@
     </outline>
 
     <outline text="Elixir">
+      <outline type="rss" text="Hex Blog" xmlUrl="https://hex.pm/feeds/blog.xml" htmlUrl="https://hex.pm/blog"/>
       <outline type="rss" text="Hex releases" xmlUrl="https://github.com/hexpm/hex/releases.atom" htmlUrl="https://github.com/hexpm/hex/releases"/>
       <outline type="rss" text="Hexpm releases" xmlUrl="https://github.com/hexpm/hexpm/releases.atom" htmlUrl="https://github.com/hexpm/hexpm/releases"/>
     </outline>
@@ -85,8 +94,11 @@
       <outline type="rss" text="DNF releases" xmlUrl="https://github.com/rpm-software-management/dnf/releases.atom" htmlUrl="https://github.com/rpm-software-management/dnf/releases"/>
       <outline type="rss" text="DNF5 releases" xmlUrl="https://github.com/rpm-software-management/dnf5/releases.atom" htmlUrl="https://github.com/rpm-software-management/dnf5/releases"/>
       <outline type="rss" text="Flatpak releases" xmlUrl="https://github.com/flatpak/flatpak/releases.atom" htmlUrl="https://github.com/flatpak/flatpak/releases"/>
+      <outline type="rss" text="Guix Blog" xmlUrl="https://guix.gnu.org/feeds/blog.atom" htmlUrl="https://guix.gnu.org/en/blog/"/>
+      <outline type="rss" text="Guix tags" xmlUrl="https://codeberg.org/guix/guix/tags.atom" htmlUrl="https://codeberg.org/guix/guix/tags"/>
       <outline type="rss" text="Homebrew Blog" xmlUrl="https://brew.sh/atom.xml" htmlUrl="https://brew.sh"/>
       <outline type="rss" text="Homebrew releases" xmlUrl="https://github.com/Homebrew/brew/releases.atom" htmlUrl="https://github.com/Homebrew/brew/releases"/>
+      <outline type="rss" text="Homebrew Vulns releases" xmlUrl="https://github.com/Homebrew/homebrew-brew-vulns/releases.atom" htmlUrl="https://github.com/Homebrew/homebrew-brew-vulns/releases"/>
       <outline type="rss" text="MacPorts releases" xmlUrl="https://github.com/macports/macports-base/releases.atom" htmlUrl="https://github.com/macports/macports-base/releases"/>
       <outline type="rss" text="Nix releases" xmlUrl="https://github.com/NixOS/nix/releases.atom" htmlUrl="https://github.com/NixOS/nix/releases"/>
       <outline type="rss" text="NixOS Blog" xmlUrl="https://nixos.org/blog/feed.xml" htmlUrl="https://nixos.org/blog/"/>
@@ -99,6 +111,7 @@
     <outline text="Container &amp; Cloud">
       <outline type="rss" text="Docker Engine releases" xmlUrl="https://github.com/moby/moby/releases.atom" htmlUrl="https://github.com/moby/moby/releases"/>
       <outline type="rss" text="Harbor releases" xmlUrl="https://github.com/goharbor/harbor/releases.atom" htmlUrl="https://github.com/goharbor/harbor/releases"/>
+      <outline type="rss" text="Helm Blog" xmlUrl="https://helm.sh/blog/index.xml" htmlUrl="https://helm.sh/blog/"/>
       <outline type="rss" text="Helm releases" xmlUrl="https://github.com/helm/helm/releases.atom" htmlUrl="https://github.com/helm/helm/releases"/>
       <outline type="rss" text="ORAS releases" xmlUrl="https://github.com/oras-project/oras/releases.atom" htmlUrl="https://github.com/oras-project/oras/releases"/>
       <outline type="rss" text="Podman releases" xmlUrl="https://github.com/podman-container-tools/podman/releases.atom" htmlUrl="https://github.com/podman-container-tools/podman/releases"/>
@@ -115,12 +128,15 @@
       <outline type="rss" text="CPAN Meta releases" xmlUrl="https://github.com/Perl-Toolchain-Gang/CPAN-Meta/releases.atom" htmlUrl="https://github.com/Perl-Toolchain-Gang/CPAN-Meta/releases"/>
       <outline type="rss" text="Elm releases" xmlUrl="https://github.com/elm/compiler/releases.atom" htmlUrl="https://github.com/elm/compiler/releases"/>
       <outline type="rss" text="LuaRocks releases" xmlUrl="https://github.com/luarocks/luarocks/releases.atom" htmlUrl="https://github.com/luarocks/luarocks/releases"/>
+      <outline type="rss" text="opam Blog" xmlUrl="https://opam.ocaml.org/blog/feed.xml" htmlUrl="https://opam.ocaml.org/blog/"/>
       <outline type="rss" text="opam releases" xmlUrl="https://github.com/ocaml/opam/releases.atom" htmlUrl="https://github.com/ocaml/opam/releases"/>
       <outline type="rss" text="Pkg.jl releases" xmlUrl="https://github.com/JuliaLang/Pkg.jl/tags.atom" htmlUrl="https://github.com/JuliaLang/Pkg.jl/tags"/>
       <outline type="rss" text="Pub releases" xmlUrl="https://github.com/dart-lang/pub/releases.atom" htmlUrl="https://github.com/dart-lang/pub/releases"/>
       <outline type="rss" text="pub.dev releases" xmlUrl="https://github.com/dart-lang/pub-dev/releases.atom" htmlUrl="https://github.com/dart-lang/pub-dev/releases"/>
       <outline type="rss" text="Stack releases" xmlUrl="https://github.com/commercialhaskell/stack/releases.atom" htmlUrl="https://github.com/commercialhaskell/stack/releases"/>
+      <outline type="rss" text="Swift Blog" xmlUrl="https://www.swift.org/atom.xml" htmlUrl="https://www.swift.org/blog/"/>
       <outline type="rss" text="Swift Package Manager releases" xmlUrl="https://github.com/swiftlang/swift-package-manager/releases.atom" htmlUrl="https://github.com/swiftlang/swift-package-manager/releases"/>
+      <outline type="rss" text="Zig News" xmlUrl="https://ziglang.org/news/index.xml" htmlUrl="https://ziglang.org/news/"/>
     </outline>
 
     <outline text="Multi-Language Package Managers">
@@ -135,7 +151,10 @@
 
     <outline text="Package Management Infrastructure">
       <outline type="rss" text="Dependabot Core releases" xmlUrl="https://github.com/dependabot/dependabot-core/releases.atom" htmlUrl="https://github.com/dependabot/dependabot-core/releases"/>
+      <outline type="rss" text="Forgejo Blog" xmlUrl="https://forgejo.org/rss.xml" htmlUrl="https://forgejo.org/"/>
+      <outline type="rss" text="jj releases" xmlUrl="https://github.com/jj-vcs/jj/releases.atom" htmlUrl="https://github.com/jj-vcs/jj/releases"/>
       <outline type="rss" text="Renovate releases" xmlUrl="https://github.com/renovatebot/renovate/releases.atom" htmlUrl="https://github.com/renovatebot/renovate/releases"/>
+      <outline type="rss" text="Reproducible Builds Blog" xmlUrl="https://reproducible-builds.org/blog/index.rss" htmlUrl="https://reproducible-builds.org/blog/"/>
     </outline>
 
   </body>
