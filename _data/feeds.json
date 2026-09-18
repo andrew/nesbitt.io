@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18T14:29:00Z",
-  "cutoff": "2026-08-19T14:28:46Z",
+  "generated": "2026-09-18T15:27:40Z",
+  "cutoff": "2026-08-19T15:27:35Z",
   "feed_count": 102,
-  "item_count": 262,
+  "item_count": 259,
   "categories": [
     ".NET",
     "C/C++",
@@ -2093,30 +2093,6 @@
       "preview": "The Gradle team is excited to announce Gradle 9.7.1. This is a patch release for 9.7.0. We recommend using 9.7.1 instead of 9.7.0. Here are the highlights of 9.7.0 release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility Resilient Sync helps you fix broken builds More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Anton Dubrouski , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 ",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "[release-branch.go1.25] go1.25.14",
-      "url": "https://github.com/golang/go/releases/tag/go1.25.14",
-      "published": "2026-08-19T14:43:56Z",
-      "preview": "Change-Id: I9e3fddf67829ff8d68e49f38b44e298327d554db Reviewed-on: https://go-review.googlesource.com/c/go/+/817740 Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-by: Carlos Amedee carlos@golang.org Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org",
-      "source": "Go releases",
-      "category": "Go"
-    },
-    {
-      "title": "[release-branch.go1.26] go1.26.7",
-      "url": "https://github.com/golang/go/releases/tag/go1.26.7",
-      "published": "2026-08-19T14:43:46Z",
-      "preview": "Change-Id: Ia3e132d4c983f77f720a01d12ff0222a39d03c18 Reviewed-on: https://go-review.googlesource.com/c/go/+/817760 TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Carlos Amedee carlos@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com",
-      "source": "Go releases",
-      "category": "Go"
-    },
-    {
-      "title": "v1.15.9",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.9",
-      "published": "2026-08-19T14:29:32Z",
-      "preview": "1.15.9 (August 19, 2026) BUG FIXES: validate: Child module validation has been fixed and will now raise errors or warning diagnostics for invalid blocks. ( list , import , backend , and cloud ) ( #38994 ) NOTES: Update go-slug to v0.18.3 to mitigate CVE-2026-14978 , which is a Unicode normalization issue that could lead to files not being correctly excluded via .terraformignore from upload to a Terraform Enterprise or HCP Terraform during a run ( #39036 )",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
     }
   ]
 }
