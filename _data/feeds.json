@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-18T19:24:19Z",
-  "cutoff": "2026-08-19T19:24:13Z",
+  "generated": "2026-09-18T21:25:01Z",
+  "cutoff": "2026-08-19T21:24:57Z",
   "feed_count": 102,
   "item_count": 258,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.5.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.5.1",
+      "published": "2026-09-18T20:59:46Z",
+      "preview": "=v12.5.1",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm@12.5.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpm%4012.5.1",
+      "published": "2026-09-18T20:59:02Z",
+      "preview": "=v12.5.1",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.103.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.1",
+      "published": "2026-09-18T20:49:50Z",
+      "preview": "44.103.1 (2026-09-18) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.4 (main) ( #46333 ) ( 9bed6dc ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.17 (main) ( #46331 ) ( 6e10310 ) deps: update dependency uv to v0.12.17 (main) ( #46332 ) ( d0cabbe )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.12.17",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.17",
@@ -123,14 +147,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.98.0",
       "published": "2026-09-18T07:38:20Z",
       "preview": "44.98.0 (2026-09-18) Features manager/dockerfile: update APK packages pinned with a fuzzy constraint ( #45693 ) ( 426bf15 ) Documentation datasource/apk: add more in-depth information about using with a Wolfi Dockerfile ( #45702 ) ( d5faaa8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.97.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.6",
-      "published": "2026-09-18T05:49:44Z",
-      "preview": "44.97.6 (2026-09-18) Build System deps: update dependency markdown-it to v15.0.2 (main) ( #46315 ) ( 5b7886e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1181,22 +1197,6 @@
       "preview": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. Here’s an update from guest contributor Simon Leeb on Swift’s progress as a language for web scenarios: Hi, Simon here! I am the creator of the elementary-swift project, a collection of packages born from a simple wish: I want to build web UIs in Swift and ultimately help Swift become a first-class choice for the web. This journey began after I started using Swift for backend services. The web frontend, however, still lived in a separate ecosystem, and I really wanted it ",
       "source": "Swift Blog",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 12.3.3",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.3",
-      "published": "2026-09-04T14:23:32Z",
-      "preview": "Patch Changes Fixed concurrent installs sharing a store occasionally failing with an ENOENT error while importing a package file #14353 . Sped up writing the lockfile in large workspaces #14352 . Sped up dependency resolution in large workspaces #14352 . pnpm now runs through Node.js when it was installed by a tool that skips build scripts, such as Vercel's packageManager provisioning, Bun, Deno, or npm install --ignore-scripts . Those installs previously failed with syntax error near unexpected token ')' . They still cannot run pnpm on Windows. On macOS only a shell can start it #14346 . Plat",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12.3.4",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.4",
-      "published": "2026-09-04T14:23:18Z",
-      "preview": "Patch Changes Sped up dependency resolution in large workspaces #14352 . pnpm 12 now accepts the boolean settings as command-line flags on every command that takes them in pnpm 11, for example pnpm install --unsafe-perm , pnpm add foo --offline , and pnpm install --dangerously-allow-all-builds . pnpm 12 rejected them with unexpected argument , which failed every install on Vercel, whose build runs pnpm install --unsafe-perm #14346 . pnpm remove now accepts --unsafe-perm , the same flag pnpm install , pnpm add , and pnpm update take. Platinum Sponsors Gold Sponsors",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "26.7.2",
