@@ -8,7 +8,7 @@ tags:
   - weekly
 ---
 
-Week eighteen of the roundup, built from the [package manager OPML feed collection](https://github.com/ecosyste-ms/package-managers-opml) and whatever I've posted or boosted on [Mastodon](https://mastodon.social/@andrewnez).
+Week eighteen of the roundup, built from the [package manager OPML feed collection](https://github.com/ecosyste-ms/package-managers-opml) and whatever I've posted or boosted on [Mastodon](https://mastodon.social/@andrewnez). I [added nineteen feeds](https://github.com/ecosyste-ms/package-managers-opml/pull/6) to the OPML this week, mostly project blogs, plus GNU Guix, Zig and the Reproducible Builds monthly reports.
 
 ## Releases
 
@@ -78,6 +78,8 @@ The OpenJS Foundation CNA is [pausing CVE triage, validation and assignment](htt
 Emma Irwin has moved [Open Source Wishlist](https://sunnydeveloper.com/we-have-the-data-the-standards-the-expertise-to-solve-most-oss-sustainability-problems-dollars-not-so-much/) to a standalone teaching tool that uses [Ecosyste.ms](https://ecosyste.ms) metadata to surface single-maintainer risk and open vulnerabilities for a chosen project and generate a support plan. Irwin argues that the data, standards and expertise for open source sustainability already exist and funding is the missing piece.
 
 The PSF [announced the results](https://pyfound.blogspot.com/2026/09/announcing-2026-python-packaging.html) of the inaugural Python Packaging Council election covered [last week](/2026/09/12/this-week-in-package-management.html): Brett Cannon and Pradyun Gedam take two-year seats, and Donald Stufft, Henry Schreiner and Ralf Gommers take one-year seats, on 541 ballots.
+
+The Reproducible Builds [August report](https://reproducible-builds.org/reports/2026-08/) covers Brett Cannon's write-up of what a low-friction reproducible-builds path on PyPI would need, `daleq4py` for establishing equivalence between rebuilt Python wheels, and the AROMA+ study of build reproducibility feasibility across Maven Central.
 
 [Git 2.56.0-rc1](https://github.com/git/git/releases/tag/v2.56.0-rc1) was tagged.
 
