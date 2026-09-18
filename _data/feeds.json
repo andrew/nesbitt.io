@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18T06:43:51Z",
-  "cutoff": "2026-08-19T06:43:47Z",
+  "generated": "2026-09-18T07:31:17Z",
+  "cutoff": "2026-08-19T07:31:10Z",
   "feed_count": 83,
-  "item_count": 242,
+  "item_count": 241,
   "categories": [
     ".NET",
     "C/C++",
@@ -1949,14 +1949,6 @@
       "preview": "Deployment at 2026-08-19T08:29:51.499574Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "v0.77.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.77.0",
-      "published": "2026-08-19T07:17:52Z",
-      "preview": "[0.77.0] - 2026-08-18 ✨ Highlights This release includes the API update for the backends such that we support pin-compatible and pin-subpackage specs in package manifests. For example: # Pin subpackage `mypkg` to the same version as the package itself, but allow any compatible version of `mypkg` to be used. [ package ] name = \" mypkg \" [ package . run-exports . weak ] mypkg = { pin-subpackage = { upper-bound = \" x.x \" } } # Pin `boltons` to a compatible version. [ package . host-dependencies ] boltons = \" >=2,<3 \" [ package . run-dependencies ] boltons = { pin-compatible = true } Note that thi",
-      "source": "pixi releases",
-      "category": "Multi-language"
     }
   ]
 }
