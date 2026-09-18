@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-18T10:28:32Z",
-  "cutoff": "2026-08-19T10:28:26Z",
+  "generated": "2026-09-18T11:25:53Z",
+  "cutoff": "2026-08-19T11:25:47Z",
   "feed_count": 102,
   "item_count": 266,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.101.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.1",
+      "published": "2026-09-18T11:24:45Z",
+      "preview": "44.101.1 (2026-09-18) Bug Fixes host-rules: ignore URL credentials when matching matchHost ( #46128 ) ( 17466ce ) manager/swift: don't rewrite Package.resolved pins in unrelated packages ( #44317 ) ( 8a378fc ) manager: stop logging credential-bearing env and commands ( #46129 ) ( 606b0b3 ) python: share PyPI index credential resolution ( #46127 ) ( f0dd862 ) Miscellaneous Chores deps: update dependency memfs to v4.75.0 (main) ( #46317 ) ( c9be847 ) Code Refactoring workers/lookup: resolve the current version from one release list ( #46143 ) ( 20015e4 ) workers/lookup: share the release classif",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.101.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.0",
@@ -69,6 +77,14 @@
       "preview": "44.97.5 (2026-09-18) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.3 (main) ( #46314 ) ( 0d8fa41 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.16 (main) ( #46312 ) ( b74f510 ) deps: update dependency uv to v0.12.16 (main) ( #46313 ) ( e2da51d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "v9.9.0-M2",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.9.0-M2",
+      "published": "2026-09-18T02:59:02Z",
+      "preview": "Merge release into master (20260918) ( #39216 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "0.12.15",
@@ -269,14 +285,6 @@
       "preview": "The v1.13.x release series is supported until August 1 2027 . 1.13.0 (Unreleased) UPGRADE NOTES: The \"winrm\" connection type for provisioners is no longer supported. ( #4012 ) This connection type was deprecated in OpenTofu v1.12, and now removed in v1.13. Some of the upstream libraries OpenTofu was using to implement these features are no longer maintained, so it's not viable for us to offer this anymore. Modern Windows versions now support OpenSSH , and so we suggest that anyone currently relying on WinRM plan to migrate to using SSH instead. The base64gzip function now generates results tha",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "44.97.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.1",
-      "published": "2026-09-17T14:53:33Z",
-      "preview": "44.97.1 (2026-09-17) Build System deps: update dependency @renovatebot/pgp to v2 (main) ( #46298 ) ( e19db4e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20260917t131800-all",
@@ -2141,14 +2149,6 @@
       "preview": "SECURITY ADVISORIES: When interacting with OCI Distribution registries for module or provider package installation, previous versions of OpenTofu could incorrectly resend credentials intended for the original origin to the target of an HTTP redirect. ( #4423 ) When interacting with an attacker-controlled remote state backend or provider/module registry, tofu init in earlier versions of OpenTofu could potentially cause high CPU usage and/or high memory usage resolving crafted relative URLs in the API responses. ( #4473 ) Note This is the final patch release planned for the OpenTofu v1.11 series",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "pixi-build-mojo-v0.2.7",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.7",
-      "published": "2026-08-19T11:05:52Z",
-      "preview": "chore: bump backend versions ( #6863 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     }
   ]
 }
