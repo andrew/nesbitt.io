@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18T11:25:53Z",
-  "cutoff": "2026-08-19T11:25:47Z",
+  "generated": "2026-09-18T12:38:05Z",
+  "cutoff": "2026-08-19T12:37:58Z",
   "feed_count": 102,
-  "item_count": 266,
+  "item_count": 263,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.101.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.2",
+      "published": "2026-09-18T11:42:24Z",
+      "preview": "44.101.2 (2026-09-18) Build System deps: update dependency adm-zip to v0.6.1 (main) ( #46318 ) ( c7a2d36 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.101.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.1",
@@ -253,14 +261,6 @@
       "preview": "cabal-install-solver-v3.18.2.0",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.97.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.2",
-      "published": "2026-09-17T16:42:18Z",
-      "preview": "44.97.2 (2026-09-17) Build System deps: update dependency @renovatebot/pgp to v2.0.1 (main) ( #46304 ) ( d54267f ) deps: update dependency cronstrue to v3.26.0 (main) ( #46301 ) ( de452f5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.0.4",
@@ -2125,30 +2125,6 @@
       "preview": "As part of this release we had 2 issues closed. Dependency Changes [Security] Upgrade log4net to 3.3.1 in chocolatey.lib. See #3915 by st3phhays , resolved in !3916 by st3phhays . [Security] Update bundled 7zip executables to 26.02. See #3918 by AdmiringWorm , resolved in !3924 by alexaveldanez . Contributors 3 contributors made this release possible.",
       "source": "Chocolatey releases",
       "category": "System"
-    },
-    {
-      "title": "v1.16.0-rc2",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0-rc2",
-      "published": "2026-08-19T12:08:45Z",
-      "preview": "1.16.0-rc2 (August 19, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. ( #37986 ) terraform_data : The new store block can hold ephemeral and sensitive values across plan and apply. ( #38298 ) Providers can now use nested blocks as computed values ( #38305 ) import: import blocks inside modules are now supported. ( #38352 ) Terraform is now available as a pre-built binary for Linux s390x (zLinux). ( #38384 ) Resource action triggers can now use on_failure modes of halt , taint , or continue . (",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
-    },
-    {
-      "title": "v1.12.6",
-      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.6",
-      "published": "2026-08-19T11:40:07Z",
-      "preview": "SECURITY ADVISORIES: When interacting with OCI Distribution registries for module or provider package installation, earlier versions of OpenTofu could incorrectly resend credentials intended for the original origin to the target of an HTTP redirect. ( #4422 ) When interacting with an attacker-controlled remote state backend or provider/module registry, tofu init in earlier versions of OpenTofu could potentially cause high CPU usage and/or high memory usage resolving crafted relative URLs in the API responses. ( #4472 ) Full Changelog : v1.12.5...v1.12.6",
-      "source": "OpenTofu releases",
-      "category": "Infrastructure as Code"
-    },
-    {
-      "title": "v1.11.14",
-      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.11.14",
-      "published": "2026-08-19T11:39:12Z",
-      "preview": "SECURITY ADVISORIES: When interacting with OCI Distribution registries for module or provider package installation, previous versions of OpenTofu could incorrectly resend credentials intended for the original origin to the target of an HTTP redirect. ( #4423 ) When interacting with an attacker-controlled remote state backend or provider/module registry, tofu init in earlier versions of OpenTofu could potentially cause high CPU usage and/or high memory usage resolving crafted relative URLs in the API responses. ( #4473 ) Note This is the final patch release planned for the OpenTofu v1.11 series",
-      "source": "OpenTofu releases",
-      "category": "Infrastructure as Code"
     }
   ]
 }
