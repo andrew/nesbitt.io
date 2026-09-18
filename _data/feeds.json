@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-17T23:23:29Z",
-  "cutoff": "2026-08-18T23:23:23Z",
+  "generated": "2026-09-18T01:01:58Z",
+  "cutoff": "2026-08-19T01:01:48Z",
   "feed_count": 83,
-  "item_count": 244,
+  "item_count": 243,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.16",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.16",
+      "published": "2026-09-18T01:01:42Z",
+      "preview": "Release Notes Released on 2026-09-17. Python Add Pyodide 314.0.7, 0.29.5, and 0.27.8 ( #21741 ) Enhancements Verify downloaded wheels and source distributions against hashes supplied by package indexes ( #21562 ) Allow build-constraint-dependencies entries to include hashes for verifying downloaded build dependencies ( #21467 ) Honor Darwin platform_release markers in required-environments using macOS wheel deployment targets ( #21766 ) Reject unsupported Git URL schemes while parsing lockfiles instead of panicking during frozen exports ( #21779 ) Preview features Support lock-without-metadata",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "44.97.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.4",
@@ -1647,14 +1655,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "0.12.6",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.6",
-      "published": "2026-08-25T19:41:07Z",
-      "preview": "Release Notes Released on 2026-08-25. Python Update CPython to use OpenSSL 3.5.8 and libffi 3.4.8 #21295 ) Enhancements Report cache-cleaning space savings from filesystem block allocation and avoid double-counting hard links ( #21261 ) Limit warnings about unbounded uv_build requirements to source-distribution builds ( #21078 ) Display byte counts below 1 KiB without a fractional part ( #21237 ) Preview features Add uv workspace metadata --sync --exact to remove packages outside the selected resolution ( #21117 ) Add the artifact-hash-filtering preview feature to make uv pip compile --generat",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
       "title": "7.11.0.17",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.17",
       "published": "2026-08-25T12:30:55Z",
@@ -1965,14 +1965,6 @@
       "preview": "Report invalid toolchain installation paths as warnings via Problems …",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "Go 1.27 is released",
-      "url": "https://go.dev/blog/go1.27",
-      "published": "2026-08-19T00:00:00Z",
-      "preview": "Go 1.27 adds generic methods, encoding/json/v2 package, uuid package, faster memory allocation, goroutine leak profiles, and more.",
-      "source": "Go Blog",
-      "category": "Go"
     }
   ]
 }
