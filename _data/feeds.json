@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18T12:38:05Z",
-  "cutoff": "2026-08-19T12:37:58Z",
+  "generated": "2026-09-18T13:27:10Z",
+  "cutoff": "2026-08-19T13:27:05Z",
   "feed_count": 102,
-  "item_count": 263,
+  "item_count": 262,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.12.0.24",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.24",
+      "published": "2026-09-18T12:43:54Z",
+      "preview": "Insert 7.12.0.24 into main on 09/18/2026 12:43:53",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "44.101.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.2",
@@ -1951,14 +1959,6 @@
       "category": "Registries"
     },
     {
-      "title": "7.11.0.16",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.16",
-      "published": "2026-08-22T12:37:55Z",
-      "preview": "Insert 7.11.0.16 into main on 08/22/2026 12:37:55",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
       "title": "5.4.3.0",
       "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.3.0",
       "published": "2026-08-21T12:31:16Z",
@@ -2117,14 +2117,6 @@
       "preview": "1.15.9 (August 19, 2026) BUG FIXES: validate: Child module validation has been fixed and will now raise errors or warning diagnostics for invalid blocks. ( list , import , backend , and cloud ) ( #38994 ) NOTES: Update go-slug to v0.18.3 to mitigate CVE-2026-14978 , which is a Unicode normalization issue that could lead to files not being correctly excluded via .terraformignore from upload to a Terraform Enterprise or HCP Terraform during a run ( #39036 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "2.7.4",
-      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.4",
-      "published": "2026-08-19T12:42:30Z",
-      "preview": "As part of this release we had 2 issues closed. Dependency Changes [Security] Upgrade log4net to 3.3.1 in chocolatey.lib. See #3915 by st3phhays , resolved in !3916 by st3phhays . [Security] Update bundled 7zip executables to 26.02. See #3918 by AdmiringWorm , resolved in !3924 by alexaveldanez . Contributors 3 contributors made this release possible.",
-      "source": "Chocolatey releases",
-      "category": "System"
     }
   ]
 }
