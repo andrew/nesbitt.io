@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18T09:30:21Z",
-  "cutoff": "2026-08-19T09:30:11Z",
+  "generated": "2026-09-18T10:28:32Z",
+  "cutoff": "2026-08-19T10:28:26Z",
   "feed_count": 102,
-  "item_count": 267,
+  "item_count": 266,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.101.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.0",
+      "published": "2026-09-18T09:58:48Z",
+      "preview": "44.101.0 (2026-09-18) Features manager: share the .npmrc host-rule wrapper between bun, deno and npm ( #46131 ) ( 4220c0f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.100.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.100.0",
@@ -267,14 +275,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.1",
       "published": "2026-09-17T14:53:33Z",
       "preview": "44.97.1 (2026-09-17) Build System deps: update dependency @renovatebot/pgp to v2 (main) ( #46298 ) ( e19db4e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.97.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.0",
-      "published": "2026-09-17T14:19:51Z",
-      "preview": "44.97.0 (2026-09-17) Features manager/helm-values: support version in sibling tag/version key ( #46267 ) ( 2e1a079 ), closes #46265 Bug Fixes datasource/docker: fetch all pages for Red Hat registries ( #46294 ) ( f3a314f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -2149,14 +2149,6 @@
       "preview": "chore: bump backend versions ( #6863 )",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "1.4.7",
-      "url": "https://github.com/chocolatey/choco/releases/tag/1.4.7",
-      "published": "2026-08-19T10:13:20Z",
-      "preview": "As part of this release we had 1 issue closed. Dependency Change [Security] Update bundled 7zip executables to 26.02. See #3928 by gep13 resolved in !3925 by alexaveldanez . Contributors 2 contributors made this release possible.",
-      "source": "Chocolatey releases",
-      "category": "System"
     }
   ]
 }
