@@ -7,6 +7,7 @@ tags:
   - open-source
   - security
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mvrrnummpm2c"
 ---
 
 *The following is a transcript of the 7am hour of Rise & Grind, a nationally syndicated breakfast news programme, first broadcast Thursday 17 September 2026. Transcription by OpenClaw-4.2. Portions of this segment were pre-blurred at the request of the network.*
