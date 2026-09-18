@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-18T01:01:58Z",
-  "cutoff": "2026-08-19T01:01:48Z",
+  "generated": "2026-09-18T01:36:59Z",
+  "cutoff": "2026-08-19T01:36:54Z",
   "feed_count": 83,
   "item_count": 243,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.9.11: macos-app bootstrap packages, task template inheritance for flags and file tasks, and Swift on Linux fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.11",
+      "published": "2026-09-18T01:05:52Z",
+      "preview": "A new macos-app bootstrap manager installs .app bundles from a pinned URL and checksum when no Homebrew cask exists, task templates now compose usage flags and can be extended from file tasks, and Swift on Linux picks its distro build from swift.org's release index instead of a hard-coded map that 404'd on arm64 and on newer Fedora, Amazon Linux, and Arch hosts. Install failures also become far more actionable: errors name the minimum_release_age cutoff that hid every version, the child's last stderr line, or the shared libraries a Swift toolchain cannot load. Highlights Apps without a cask: \"",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "0.12.16",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.16",
@@ -117,14 +125,6 @@
       "preview": "Enhancements: Rubygems: Fix Gem::Request for PQC support, adding integration connection tests. Pull request #9615 by junaruga Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Installs bundler 4.0.15 as a default gem. Bug fixes: Forward security policy to old-format gems. Pull request #9611 by hsbt",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "v2026.9.11",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.11",
-      "published": "2026-09-17T20:35:35Z",
-      "preview": "(bootstrap) add macos-app for installing .app bundles from a UR…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.9.13",
