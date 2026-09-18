@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18T15:27:40Z",
-  "cutoff": "2026-08-19T15:27:35Z",
+  "generated": "2026-09-18T16:28:24Z",
+  "cutoff": "2026-08-19T16:28:18Z",
   "feed_count": 102,
-  "item_count": 259,
+  "item_count": 258,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.103.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.0",
+      "published": "2026-09-18T16:21:53Z",
+      "preview": "44.103.0 (2026-09-18) Features workers/repository: allow users to bypass registryUrl when unknown-registry ( #46323 ) ( 8dc0664 ), closes #45706 Bug Fixes manager/dockerfile: don't attempt to update apk / apt for unknown image families ( #46325 ) ( 0253f4b ), closes #45706",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpr@0.1.0-alpha.12",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.12",
+      "published": "2026-09-18T16:15:30Z",
+      "preview": "=pnpr@0.1.0-alpha.12",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.5.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.5.0",
+      "published": "2026-09-18T16:15:04Z",
+      "preview": "=v12.5.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.102.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.102.0",
+      "published": "2026-09-18T15:38:28Z",
+      "preview": "44.102.0 (2026-09-18) Features replacements: add @temporalio/interceptors-opentelemetry-v2 ( #45371 ) ( 403dfeb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.101.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.3",
@@ -95,14 +127,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.97.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.5",
-      "published": "2026-09-18T03:42:42Z",
-      "preview": "44.97.5 (2026-09-18) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.3 (main) ( #46314 ) ( 0d8fa41 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.16 (main) ( #46312 ) ( b74f510 ) deps: update dependency uv to v0.12.16 (main) ( #46313 ) ( e2da51d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v9.9.0-M2",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.9.0-M2",
       "published": "2026-09-18T02:59:02Z",
@@ -141,14 +165,6 @@
       "preview": "Release Notes Released on 2026-09-17. Python Add Pyodide 314.0.7, 0.29.5, and 0.27.8 ( #21741 ) Enhancements Verify downloaded wheels and source distributions against hashes supplied by package indexes ( #21562 ) Allow build-constraint-dependencies entries to include hashes for verifying downloaded build dependencies ( #21467 ) Honor Darwin platform_release markers in required-environments using macOS wheel deployment targets ( #21766 ) Reject unsupported Git URL schemes while parsing lockfiles instead of panicking during frozen exports ( #21779 ) Preview features Support lock-without-metadata",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "44.97.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.97.4",
-      "published": "2026-09-17T23:08:32Z",
-      "preview": "44.97.4 (2026-09-17) Build System deps: update dependency @renovatebot/detect-tools to v4.0.17 (main) ( #46310 ) ( 5f4d4bf )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "9.8.0 RC2",
@@ -1191,14 +1207,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "pnpm 12.3.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.2",
-      "published": "2026-09-04T02:07:17Z",
-      "preview": "Patch Changes pnpm audit --fix update no longer aborts when a vulnerable package has no safe version inside its declared range #14508 . The run updates every package it can and lists the rest as remaining. pnpm install no longer reruns root lifecycle scripts when the global virtual store contains an unfinished-build marker in a package slot that the current lockfile does not use pnpm/pnpm#14485 . Sped up installs that have no lockfile. pnpm now links packages whose dependency subtree has no peer dependencies into the virtual store while resolution is still running. pnpm run and pnpm exec now s",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "Our endorsements for Python’s first Packaging Council",
       "url": "https://astral.sh/blog/python-packaging-council",
       "published": "2026-09-04T00:00:00Z",
@@ -1301,14 +1309,6 @@
       "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights A new jj converge command was added to help automatically resolve divergent commits by combining them appropriately. Breaking changes jj config {edit,set,unset} --user now targets the first loaded user configuration file (e.g. ~/.config/jj/config.toml or the first file in conf.d/ ) instead of prompting interactively when multiple files exist. Use --file <PATH> to target a specific config file. jj git import in non-colocated repositories no l",
       "source": "jj releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "pnpm 12.3.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.3.1",
-      "published": "2026-09-03T00:40:37Z",
-      "preview": "Patch Changes Sped up installs in large workspaces: the anchor for re-rendering workspace link: targets is now derived once per project instead of once per dependency edge, and project ordering hashes paths by their raw bytes #14352 . After a self-update from pnpm 12.2 to 12.3, global commands such as node , npm , and yarn failed with unexpected argument '--shim' found . Global commands now launch normally, and their first launch migrates the global bin directory to native shims. When self-update downgrades to pnpm 12.2 or older, it keeps the newer native shims so those commands continue to wo",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "Forgejo Runner v13.1.0 is available",
@@ -2085,14 +2085,6 @@
       "preview": "Change-Id: I9ff6bc81cccdd7876e7b36c395151f70ab3ac654 Reviewed-on: https://go-review.googlesource.com/c/go/+/817701 Reviewed-by: Carlos Amedee carlos@golang.org Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com",
       "source": "Go releases",
       "category": "Go"
-    },
-    {
-      "title": "9.7.1",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.7.1",
-      "published": "2026-08-19T15:30:28Z",
-      "preview": "The Gradle team is excited to announce Gradle 9.7.1. This is a patch release for 9.7.0. We recommend using 9.7.1 instead of 9.7.0. Here are the highlights of 9.7.0 release: Isolated Projects graduates to incubating Broader Configuration Cache compatibility Resilient Sync helps you fix broken builds More source locations in problem reports Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Adam , Aman Gautam , Aman Kumar , Anton Dubrouski , Aurimas , gbhavya07 , Josh Friend , nicklauslittle-gov , Pragati , project516 ",
-      "source": "Gradle releases",
-      "category": "Maven"
     }
   ]
 }
