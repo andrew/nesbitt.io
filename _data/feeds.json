@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-19T17:23:06Z",
-  "cutoff": "2026-08-20T17:23:01Z",
+  "generated": "2026-09-19T18:29:18Z",
+  "cutoff": "2026-08-20T18:29:14Z",
   "feed_count": 102,
-  "item_count": 252,
+  "item_count": 253,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.5.0",
+      "url": "https://github.com/python-poetry/poetry/releases/tag/2.5.0",
+      "published": "2026-09-19T18:13:07Z",
+      "preview": "Added Add an installer.builtin-uninstall setting to uninstall packages with a built-in uninstaller instead of invoking pip uninstall ( #10931 ). Add official support for Python 3.15 ( #11046 ). Changed Do not send credentials configured for an https repository via http ( #11073 ). Fail with an error when the current Python version is not compatible with the project and virtualenvs.create is false ( #10941 ). Validate version constraints that are entered interactively in poetry init ( #10909 ). Include the path of the pyproject.toml file in the message about already present packages in poetry a",
+      "source": "Poetry releases",
+      "category": "Python"
+    },
     {
       "title": "7.12.0.25",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.25",
