@@ -27,6 +27,20 @@ task :feeds, [:days] do |t, args|
   sh "bundle", "exec", "ruby", "_twipm/fetch_feeds.rb", "--days", days
 end
 
+namespace :threatmodel do
+  desc "Sweep osv.dev + GitHub repo advisories for package managers, write _threatmodel/advisories.yml"
+  task :collect, [:since] do |t, args|
+    cmd = ["ruby", "_threatmodel/collect.rb"]
+    cmd += ["--since", args[:since]] if args[:since]
+    sh(*cmd)
+  end
+
+  desc "Same as collect but keep every advisory ever filed (no date filter)"
+  task :all do
+    sh "ruby", "_threatmodel/collect.rb", "--all"
+  end
+end
+
 namespace :papers do
   desc "Query OpenAlex/arXiv/DBLP for new papers and write _papers/candidates.json"
   task :collect, [:since] do |t, args|

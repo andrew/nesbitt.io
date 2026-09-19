@@ -1,0 +1,385 @@
+# Package managers and registries to look for advisories.
+# Each target is queried against osv.dev (by package coordinates) and/or
+# GitHub's repository security-advisories endpoint.
+#
+# kind: client | registry
+# osv:  list of {ecosystem, name} pairs (osv.dev ecosystem names)
+# repos: list of owner/repo for GET /repos/{o}/{r}/security-advisories
+
+# --- Language package manager clients -----------------------------------
+
+- tool: npm
+  kind: client
+  osv:
+    - {ecosystem: npm, name: npm}
+  repos: [npm/cli]
+
+- tool: pnpm
+  kind: client
+  osv:
+    - {ecosystem: npm, name: pnpm}
+    - {ecosystem: npm, name: "@pnpm/core"}
+  repos: [pnpm/pnpm]
+
+- tool: Yarn
+  kind: client
+  osv:
+    - {ecosystem: npm, name: yarn}
+    - {ecosystem: npm, name: "@yarnpkg/core"}
+    - {ecosystem: npm, name: "@yarnpkg/cli"}
+  repos: [yarnpkg/berry, yarnpkg/yarn]
+
+- tool: Bun
+  kind: client
+  osv:
+    - {ecosystem: npm, name: bun}
+    - {ecosystem: GitHub Actions, name: oven-sh/setup-bun}
+  repos: [oven-sh/bun]
+
+- tool: corepack
+  kind: client
+  osv:
+    - {ecosystem: npm, name: corepack}
+  repos: [nodejs/corepack]
+
+- tool: pip
+  kind: client
+  osv:
+    - {ecosystem: PyPI, name: pip}
+  repos: [pypa/pip]
+
+- tool: setuptools
+  kind: client
+  osv:
+    - {ecosystem: PyPI, name: setuptools}
+  repos: [pypa/setuptools]
+
+- tool: Pipenv
+  kind: client
+  osv:
+    - {ecosystem: PyPI, name: pipenv}
+  repos: [pypa/pipenv]
+
+- tool: Poetry
+  kind: client
+  osv:
+    - {ecosystem: PyPI, name: poetry}
+    - {ecosystem: PyPI, name: poetry-core}
+  repos: [python-poetry/poetry]
+
+- tool: uv
+  kind: client
+  osv:
+    - {ecosystem: PyPI, name: uv}
+    - {ecosystem: crates.io, name: uv}
+  repos: [astral-sh/uv]
+
+- tool: pdm
+  kind: client
+  osv:
+    - {ecosystem: PyPI, name: pdm}
+  repos: [pdm-project/pdm]
+
+- tool: Conda
+  kind: client
+  osv:
+    - {ecosystem: PyPI, name: conda}
+    - {ecosystem: PyPI, name: conda-build}
+  repos: [conda/conda, conda/conda-build]
+
+- tool: RubyGems
+  kind: client
+  osv:
+    - {ecosystem: RubyGems, name: rubygems-update}
+  repos: [rubygems/rubygems]
+
+- tool: Bundler
+  kind: client
+  osv:
+    - {ecosystem: RubyGems, name: bundler}
+  repos: []
+
+- tool: Cargo
+  kind: client
+  osv:
+    - {ecosystem: crates.io, name: cargo}
+  repos: [rust-lang/cargo]
+
+- tool: Composer
+  kind: client
+  osv:
+    - {ecosystem: Packagist, name: composer/composer}
+  repos: [composer/composer]
+
+- tool: Go
+  kind: client
+  osv:
+    - {ecosystem: Go, name: toolchain}
+    - {ecosystem: Go, name: golang.org/x/mod}
+  repos: []
+  filter: 'cmd/go|go get|go install|go mod|go tool|go\.sum|module|sumdb|GOPROXY|GOMODCACHE|toolchain|cgo|CGO_|LDFLAGS'
+
+- tool: Maven
+  kind: client
+  osv:
+    - {ecosystem: Maven, name: "org.apache.maven:maven-core"}
+    - {ecosystem: Maven, name: "org.apache.maven:maven-compat"}
+    - {ecosystem: Maven, name: "org.apache.maven.shared:maven-shared-utils"}
+  repos: [apache/maven]
+
+- tool: Gradle
+  kind: client
+  osv:
+    - {ecosystem: Maven, name: "org.gradle:gradle-core"}
+  repos: [gradle/gradle]
+
+- tool: sbt
+  kind: client
+  osv:
+    - {ecosystem: Maven, name: "org.scala-sbt:sbt"}
+  repos: [sbt/sbt]
+
+- tool: NuGet
+  kind: client
+  osv:
+    - {ecosystem: NuGet, name: NuGet.CommandLine}
+    - {ecosystem: NuGet, name: NuGet.Commands}
+    - {ecosystem: NuGet, name: NuGet.Packaging}
+    - {ecosystem: NuGet, name: NuGet.Protocol}
+  repos: [NuGet/NuGet.Client]
+
+- tool: pub
+  kind: client
+  repos: [dart-lang/pub, dart-lang/sdk]
+
+- tool: Hex
+  kind: client
+  osv:
+    - {ecosystem: Hex, name: hex}
+    - {ecosystem: Hex, name: hex_core}
+  repos: [hexpm/hex]
+
+- tool: CocoaPods
+  kind: client
+  osv:
+    - {ecosystem: RubyGems, name: cocoapods}
+    - {ecosystem: RubyGems, name: cocoapods-downloader}
+  repos: [CocoaPods/CocoaPods]
+
+- tool: Swift Package Manager
+  kind: client
+  repos: [swiftlang/swift-package-manager]
+
+- tool: Helm
+  kind: client
+  osv:
+    - {ecosystem: Go, name: helm.sh/helm/v3}
+    - {ecosystem: Go, name: helm.sh/helm}
+  repos: [helm/helm]
+
+- tool: Nix
+  kind: client
+  repos: [NixOS/nix]
+
+- tool: Homebrew
+  kind: client
+  repos: [Homebrew/brew]
+
+- tool: Spack
+  kind: client
+  osv:
+    - {ecosystem: PyPI, name: spack}
+  repos: [spack/spack]
+
+- tool: opam
+  kind: client
+  repos: [ocaml/opam]
+
+- tool: Cabal
+  kind: client
+  osv:
+    - {ecosystem: Hackage, name: cabal-install}
+  repos: [haskell/cabal]
+
+- tool: Stack
+  kind: client
+  osv:
+    - {ecosystem: Hackage, name: stack}
+  repos: [commercialhaskell/stack]
+
+- tool: LuaRocks
+  kind: client
+  repos: [luarocks/luarocks]
+
+- tool: Conan
+  kind: client
+  osv:
+    - {ecosystem: PyPI, name: conan}
+  repos: [conan-io/conan]
+
+- tool: vcpkg
+  kind: client
+  repos: [microsoft/vcpkg, microsoft/vcpkg-tool]
+
+- tool: Deno
+  kind: client
+  repos: [denoland/deno]
+  filter: 'npm:|jsr|deno\.land|import map|lockfile|package|registry|deno add|deno install|deno cache'
+
+- tool: mise
+  kind: client
+  osv:
+    - {ecosystem: crates.io, name: mise}
+  repos: [jdx/mise]
+
+- tool: Renovate
+  kind: client
+  osv:
+    - {ecosystem: npm, name: renovate}
+  repos: [renovatebot/renovate]
+
+# --- System package managers --------------------------------------------
+
+- tool: apt
+  kind: client
+  osv:
+    - {ecosystem: Debian, name: apt}
+
+- tool: dpkg
+  kind: client
+  osv:
+    - {ecosystem: Debian, name: dpkg}
+
+- tool: rpm
+  kind: client
+  repos: [rpm-software-management/rpm]
+
+- tool: DNF
+  kind: client
+  repos: [rpm-software-management/dnf, rpm-software-management/dnf5]
+
+- tool: apk-tools
+  kind: client
+  osv:
+    - {ecosystem: Alpine, name: apk-tools}
+
+- tool: Flatpak
+  kind: client
+  repos: [flatpak/flatpak]
+
+- tool: Snap
+  kind: client
+  osv:
+    - {ecosystem: Go, name: github.com/snapcore/snapd}
+  repos: [canonical/snapd]
+
+- tool: pacman
+  kind: client
+  osv:
+    - {ecosystem: Debian, name: pacman-package-manager}
+
+# --- Registries / registry servers --------------------------------------
+
+- tool: rubygems.org
+  kind: registry
+  repos: [rubygems/rubygems.org]
+
+- tool: crates.io
+  kind: registry
+  repos: [rust-lang/crates.io]
+
+- tool: PyPI
+  kind: registry
+  repos: [pypi/warehouse]
+
+- tool: Packagist
+  kind: registry
+  repos: [composer/packagist]
+
+- tool: Hex.pm
+  kind: registry
+  repos: [hexpm/hexpm]
+
+- tool: CocoaPods trunk
+  kind: registry
+  repos: [CocoaPods/trunk.cocoapods.org, CocoaPods/CocoaPods]
+
+- tool: Verdaccio
+  kind: registry
+  osv:
+    - {ecosystem: npm, name: verdaccio}
+  repos: [verdaccio/verdaccio]
+
+- tool: Harbor
+  kind: registry
+  osv:
+    - {ecosystem: Go, name: github.com/goharbor/harbor}
+  repos: [goharbor/harbor]
+
+- tool: NuGetGallery
+  kind: registry
+  repos: [NuGet/NuGetGallery]
+
+- tool: Sonatype Nexus
+  kind: registry
+  osv:
+    - {ecosystem: Maven, name: "org.sonatype.nexus:nexus-core"}
+    - {ecosystem: Maven, name: "org.sonatype.nexus:nexus-repository-manager"}
+  repos: [sonatype/nexus-public]
+
+- tool: JFrog Artifactory
+  kind: registry
+  osv:
+    - {ecosystem: Maven, name: "org.jfrog.artifactory:artifactory-oss"}
+
+- tool: Gitea
+  kind: registry
+  osv:
+    - {ecosystem: Go, name: code.gitea.io/gitea}
+  repos: [go-gitea/gitea]
+  filter: '\bpackage\b|registry|npm|PyPI|Maven|NuGet|Composer|Cargo|Conan|Helm|Swift regist|Alpine|Debian pack|rpm pack|RubyGems|container regist|PKGINFO'
+
+- tool: Gitea Actions runner
+  kind: client
+  osv:
+    - {ecosystem: Go, name: gitea.com/gitea/act_runner}
+  filter: 'runner|workflow|action'
+
+- tool: Forgejo
+  kind: registry
+  osv:
+    - {ecosystem: Go, name: forgejo.org/forgejo}
+    - {ecosystem: Go, name: codeberg.org/forgejo/forgejo}
+  filter: '\bpackage\b|registry|npm|PyPI|Maven|NuGet|Composer|Cargo|Conan|Helm|Swift regist|Alpine|Debian pack|rpm pack|RubyGems|container regist|PKGINFO'
+
+- tool: Nexus npm proxy (Repology)
+  kind: registry
+  osv:
+    - {ecosystem: Maven, name: "org.sonatype.nexus.plugins:nexus-repository-npm"}
+
+- tool: Athens
+  kind: registry
+  osv:
+    - {ecosystem: Go, name: github.com/gomods/athens}
+  repos: [gomods/athens]
+
+- tool: ORAS
+  kind: registry
+  osv:
+    - {ecosystem: Go, name: oras.land/oras-go}
+    - {ecosystem: Go, name: oras.land/oras-go/v2}
+  repos: [oras-project/oras]
+
+- tool: Zot
+  kind: registry
+  osv:
+    - {ecosystem: Go, name: zotregistry.dev/zot}
+    - {ecosystem: Go, name: zotregistry.io/zot}
+  repos: [project-zot/zot]
+
+- tool: CNCF Distribution
+  kind: registry
+  osv:
+    - {ecosystem: Go, name: github.com/distribution/distribution/v3}
+    - {ecosystem: Go, name: github.com/docker/distribution}
+  repos: [distribution/distribution]

@@ -1,0 +1,2345 @@
+---
+generated: '2026-09-18T16:20:28Z'
+since: '2026-05-04'
+count: 126
+by_heading:
+  archive-extraction: 33
+  shared-filesystem: 17
+  registry-authorisation: 14
+  credentials-wrong-place: 14
+  argument-injection: 12
+  resource-exhaustion: 12
+  integrity-fail-open: 11
+  sandbox-escape: 7
+  token-overscope: 7
+  server-side-rce: 4
+  registry-ssrf: 4
+  account-takeover: 4
+  "(unbucketed)": 4
+  memory-corruption: 3
+  wrong-source: 3
+  lockfile-not-pinning: 3
+  registry-idor: 3
+  local-files-trusted: 2
+  cdn-caching: 1
+by_tool:
+  pnpm: 20
+  Homebrew: 13
+  Zot: 13
+  Renovate: 10
+  Flatpak: 10
+  Gitea: 9
+  ORAS: 9
+  mise: 8
+  Composer: 6
+  Go: 5
+  Nix: 4
+  pdm: 3
+  rubygems.org: 2
+  sbt: 2
+  Cargo: 2
+  pip: 2
+  Hex.pm: 2
+  Verdaccio: 1
+  setuptools: 1
+  Conda: 1
+  uv: 1
+  Deno: 1
+  CNCF Distribution: 1
+filtered_out:
+  Go: 2
+  Deno: 38
+  Gitea: 287
+advisories:
+- id: GHSA-6pjf-3r9x-m592
+  aliases:
+  - BIT-distribution-2026-41888
+  - CVE-2026-41888
+  - GO-2026-5185
+  tool: CNCF Distribution
+  kind: registry
+  published: '2026-05-04'
+  modified: '2026-09-10'
+  severity: MODERATE
+  summary: Distribution's tag deletion bypasses `storage.delete.enabled` configuration
+  cwes:
+  - 863
+  refs:
+  - https://github.com/distribution/distribution/security/advisories/GHSA-6pjf-3r9x-m592
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-41888
+  - https://github.com/distribution/distribution
+  source: osv
+  headings:
+  - registry-authorisation
+  - token-overscope
+- id: GHSA-gr92-w2r5-qw5p
+  aliases:
+  - CVE-2026-44029
+  tool: Nix
+  kind: client
+  published: '2026-05-04'
+  modified: '2026-05-05'
+  severity: MEDIUM
+  summary: Absolute path traversal when unpacking archives to disk
+  cwes:
+  - 36
+  refs:
+  - https://github.com/NixOS/nix/security/advisories/GHSA-gr92-w2r5-qw5p
+  source: github
+  headings:
+  - archive-extraction
+- id: GHSA-vh5x-56v6-4368
+  aliases: []
+  tool: Nix
+  kind: client
+  published: '2026-05-04'
+  modified: '2026-05-04'
+  severity: HIGH
+  summary: Coroutine stack-to-heap overflow via unbounded recursion in NAR directory
+    parser
+  cwes:
+  - 674
+  - 787
+  refs:
+  - https://github.com/NixOS/nix/security/advisories/GHSA-vh5x-56v6-4368
+  source: github
+  headings:
+  - resource-exhaustion
+  - memory-corruption
+- id: GO-2026-4978
+  aliases:
+  - BIT-golang-2026-39819
+  - CVE-2026-39819
+  tool: Go
+  kind: client
+  published: '2026-05-07'
+  modified: '2026-08-31'
+  severity:
+  summary: Invoking "go bug" follows symlinks in predictable temporary filenames in
+    cmd/go
+  cwes: []
+  refs:
+  - https://go.dev/issue/78584
+  - https://go.dev/cl/763882
+  - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
+  source: osv
+  headings:
+  - shared-filesystem
+- id: GO-2026-4979
+  aliases:
+  - BIT-golang-2026-39817
+  - CVE-2026-39817
+  tool: Go
+  kind: client
+  published: '2026-05-07'
+  modified: '2026-08-31'
+  severity:
+  summary: Invoking "go tool pack" does not sanitize output paths in cmd/go
+  cwes: []
+  refs:
+  - https://go.dev/issue/78778
+  - https://go.dev/cl/767520
+  - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
+  source: osv
+  headings:
+  - archive-extraction
+- id: GO-2026-4984
+  aliases:
+  - BIT-golang-2026-42501
+  - CVE-2026-42501
+  tool: Go
+  kind: client
+  published: '2026-05-07'
+  modified: '2026-08-31'
+  severity:
+  summary: Malicious module proxy can bypass checksum database in cmd/go
+  cwes: []
+  refs:
+  - https://go.dev/cl/775321
+  - https://go.dev/issue/79070
+  - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
+  source: osv
+  headings:
+  - integrity-fail-open
+- id: GHSA-f9f8-rm49-7jv2
+  aliases:
+  - BIT-composer-2026-45793
+  - CVE-2026-45793
+  tool: Composer
+  kind: client
+  published: '2026-05-13'
+  modified: '2026-05-13'
+  severity: HIGH
+  summary: Github Actions issued GITHUB_TOKEN disclosure in GitHub Actions logs
+  cwes:
+  - 200
+  refs:
+  - https://github.com/composer/composer/security/advisories/GHSA-f9f8-rm49-7jv2
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-45793
+  - https://github.com/composer/composer/pull/12853
+  - https://github.com/composer/composer/pull/12855
+  - https://github.com/composer/composer/commit/3f5e7f9fbfa541137d6d1d5643ec3b718e9d5039
+  - https://github.com/composer/composer/commit/65e6390c49f1a11cd8b660d81822086db51fe2d1
+  source: github
+  headings:
+  - credentials-wrong-place
+- id: GHSA-7699-qf8c-q47m
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-05-21'
+  modified: '2026-05-21'
+  severity: LOW
+  summary: POST download strategy bypasses documented HTTPS-to-HTTP redirect protection
+    by discarding `resolved_url`
+  cwes: []
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-7699-qf8c-q47m
+  source: github
+  headings:
+  - integrity-fail-open
+- id: GHSA-968w-xfqw-vp9q
+  aliases:
+  - CVE-2026-49406
+  tool: Deno
+  kind: client
+  published: '2026-05-27'
+  modified: '2026-05-30'
+  severity: MEDIUM
+  summary: BYONM module resolution allows `package.json` main path traversal to bypass
+    `--allow-read` restrictions
+  cwes: []
+  refs:
+  - https://github.com/denoland/deno/security/advisories/GHSA-968w-xfqw-vp9q
+  source: github
+  headings:
+  - archive-extraction
+- id: GHSA-4gg8-gxpx-9rph
+  aliases: []
+  tool: uv
+  kind: client
+  published: '2026-05-29'
+  modified: '2026-05-29'
+  severity: MODERATE
+  summary: uv is vulnerable to arbitrary file write through entry point names
+  cwes:
+  - 22
+  refs:
+  - https://github.com/astral-sh/uv/security/advisories/GHSA-4gg8-gxpx-9rph
+  - https://github.com/astral-sh/uv
+  source: osv
+  headings:
+  - archive-extraction
+- id: GHSA-wf93-45jw-7689
+  aliases:
+  - CVE-2026-8643
+  - PYSEC-2026-196
+  tool: pip
+  kind: client
+  published: '2026-06-01'
+  modified: '2026-09-10'
+  severity: MODERATE
+  summary: 'pip: Path traversal in console_scripts/gui_scripts entry point names allows
+    installing scripts outside of target directory'
+  cwes:
+  - 22
+  refs:
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-8643
+  - https://github.com/pypa/pip/pull/14000
+  - https://access.redhat.com/errata/RHSA-2026:33313
+  - https://access.redhat.com/errata/RHSA-2026:34776
+  - https://access.redhat.com/errata/RHSA-2026:34777
+  - https://access.redhat.com/errata/RHSA-2026:34778
+  - http://www.openwall.com/lists/oss-security/2026/06/01/5
+  - https://mail.python.org/archives/list/security-announce@python.org/thread/YV63UET5D3OOJY7O4M5XCVYO2YM4NBYJ/
+  source: osv
+  headings:
+  - archive-extraction
+- id: GHSA-59v8-x8q4-px5c
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-06-10'
+  modified: '2026-07-22'
+  severity: LOW
+  summary: Homebrew macOS installer package trusts user-controlled `/var/tmp` plist
+    and can assign Homebrew ownership to a local attacker
+  cwes:
+  - 377
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-59v8-x8q4-px5c
+  source: github
+  headings:
+  - shared-filesystem
+- id: GHSA-78v8-vpjp-cjqh
+  aliases:
+  - CVE-2026-47764
+  - PYSEC-2026-2861
+  tool: pdm
+  kind: client
+  published: '2026-06-10'
+  modified: '2026-07-13'
+  severity: HIGH
+  summary: PDM  wheel installation leads to Path Traversal via overridden write_to_fs
+  cwes:
+  - 22
+  refs:
+  - https://github.com/pdm-project/pdm/security/advisories/GHSA-78v8-vpjp-cjqh
+  - https://github.com/pdm-project/pdm/pull/3787
+  - https://github.com/pdm-project/pdm
+  - https://github.com/pdm-project/pdm/releases/tag/2.27.0
+  - https://pypi.org/project/pdm
+  - https://github.com/advisories/GHSA-78v8-vpjp-cjqh
+  source: osv
+  headings:
+  - archive-extraction
+- id: GHSA-ghq2-5c67-fprm
+  aliases:
+  - CVE-2026-47763
+  - PYSEC-2026-2862
+  tool: pdm
+  kind: client
+  published: '2026-06-10'
+  modified: '2026-07-13'
+  severity: MODERATE
+  summary: 'PDM: Project-Local State and Config Writes Follow Symlinks'
+  cwes:
+  - 61
+  refs:
+  - https://github.com/pdm-project/pdm/security/advisories/GHSA-ghq2-5c67-fprm
+  - https://github.com/pdm-project/pdm
+  - https://github.com/pdm-project/pdm/releases/tag/2.27.0
+  - https://pypi.org/project/pdm
+  - https://github.com/advisories/GHSA-ghq2-5c67-fprm
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-47763
+  source: osv
+  headings:
+  - shared-filesystem
+- id: GHSA-qq6c-99pv-prvf
+  aliases:
+  - CVE-2026-47781
+  - PYSEC-2026-2863
+  tool: pdm
+  kind: client
+  published: '2026-06-11'
+  modified: '2026-07-13'
+  severity: HIGH
+  summary: 'PDM: Project-Controlled `.pdm-plugins` Content Executes Before CLI Parsing'
+  cwes:
+  - 94
+  refs:
+  - https://github.com/pdm-project/pdm/security/advisories/GHSA-qq6c-99pv-prvf
+  - https://github.com/pdm-project/pdm
+  - https://github.com/pdm-project/pdm/releases/tag/2.27.0
+  - https://pypi.org/project/pdm
+  - https://github.com/advisories/GHSA-qq6c-99pv-prvf
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-47781
+  source: osv
+  headings:
+  - server-side-rce
+- id: GHSA-5wx6-mg75-v57r
+  aliases:
+  - CVE-2026-55487
+  tool: pnpm
+  kind: client
+  published: '2026-06-12'
+  modified: '2026-06-16'
+  severity: HIGH
+  summary: 'CAND-PNPM-123: manifest identity spoof satisfies allowBuilds and runs
+    attacker lifecycle'
+  cwes:
+  - 346
+  - 693
+  - 829
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-5wx6-mg75-v57r
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-55487
+  - https://github.com/pnpm/pnpm/commit/bf1b731ee6c0ea98709e671ff0f46bf654480ab8
+  - https://github.com/pnpm/pnpm
+  - https://github.com/pnpm/pnpm/releases/tag/v10.34.2
+  - https://github.com/pnpm/pnpm/releases/tag/v11.5.3
+  source: github
+  headings:
+  - sandbox-escape
+  - wrong-source
+- id: GHSA-77g9-363w-rccq
+  aliases:
+  - CVE-2026-55441
+  tool: mise
+  kind: client
+  published: '2026-06-12'
+  modified: '2026-06-17'
+  severity: HIGH
+  summary: Arbitrary command execution via task-include files in an untrusted, config-less
+    repository
+  cwes:
+  - 78
+  - 94
+  - 732
+  refs:
+  - https://github.com/jdx/mise/security/advisories/GHSA-77g9-363w-rccq
+  - https://github.com/jdx/mise
+  source: github
+  headings:
+  - argument-injection
+  - server-side-rce
+  - shared-filesystem
+- id: GHSA-4gxm-v5v7-fqc4
+  aliases:
+  - CVE-2026-55699
+  tool: pnpm
+  kind: client
+  published: '2026-06-15'
+  modified: '2026-06-17'
+  severity: MEDIUM
+  summary: 'CAND-PNPM-085: reserved bin name deletes PNPM_HOME during global remove'
+  cwes:
+  - 22
+  - 73
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-4gxm-v5v7-fqc4
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-55699
+  - https://github.com/pnpm/pnpm
+  source: github
+  headings:
+  - archive-extraction
+- id: GHSA-v23m-ccfg-pq9h
+  aliases:
+  - CVE-2026-55700
+  tool: pnpm
+  kind: client
+  published: '2026-06-15'
+  modified: '2026-06-17'
+  severity: HIGH
+  summary: 'CAND-PNPM-038: stage download writes outside destination via manifest
+    version traversal'
+  cwes:
+  - 22
+  - 73
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-v23m-ccfg-pq9h
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-55700
+  - https://github.com/pnpm/pnpm/pull/12303
+  - https://github.com/pnpm/pnpm
+  source: github
+  headings:
+  - archive-extraction
+- id: GHSA-w466-c33r-3gjp
+  aliases:
+  - CVE-2026-55698
+  tool: pnpm
+  kind: client
+  published: '2026-06-15'
+  modified: '2026-06-17'
+  severity: HIGH
+  summary: 'CAND-PNPM-063: Project env lockfile can short-circuit package-manager
+    resolution and execute lockfile-selected pnpm bytes'
+  cwes:
+  - 345
+  - 494
+  - 829
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-w466-c33r-3gjp
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-55698
+  - https://github.com/pnpm/pnpm
+  source: github
+  headings:
+  - integrity-fail-open
+  - lockfile-not-pinning
+  - wrong-source
+- id: GHSA-fjj5-v948-whjj
+  aliases:
+  - CVE-2026-33646
+  tool: mise
+  kind: client
+  published: '2026-06-22'
+  modified: '2026-07-21'
+  severity: CRITICAL
+  summary: Mise Vulnerable to Arbitrary Code Execution via Tera Templates in .tool-versions
+    Files (Trust Bypass)
+  cwes:
+  - 94
+  refs:
+  - https://github.com/jdx/mise/security/advisories/GHSA-fjj5-v948-whjj
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-33646
+  - https://github.com/jdx/mise
+  source: osv
+  headings:
+  - server-side-rce
+- id: GHSA-fr4h-3cph-29xv
+  aliases:
+  - CVE-2026-59196
+  tool: pnpm
+  kind: client
+  published: '2026-06-22'
+  modified: '2026-07-06'
+  severity: HIGH
+  summary: 'CAND-PNPM-059: hoisted install imports lockfile alias outside node_modules'
+  cwes:
+  - 22
+  - 73
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-fr4h-3cph-29xv
+  - https://github.com/pnpm/pnpm
+  source: github
+  headings:
+  - archive-extraction
+- id: GHSA-29hf-rm4x-xxph
+  aliases:
+  - CVE-2026-55448
+  tool: mise
+  kind: client
+  published: '2026-06-23'
+  modified: '2026-06-23'
+  severity: MODERATE
+  summary: Mise's local credential_command executes untrusted config
+  cwes:
+  - 78
+  refs:
+  - https://github.com/jdx/mise/security/advisories/GHSA-29hf-rm4x-xxph
+  - https://github.com/jdx/mise
+  source: osv
+  headings:
+  - argument-injection
+- id: GHSA-f94h-j2qg-fxw3
+  aliases:
+  - CVE-2026-54557
+  tool: mise
+  kind: client
+  published: '2026-06-23'
+  modified: '2026-07-21'
+  severity: MODERATE
+  summary: mise HTTP backend uses raw version path for install symlink destination
+  cwes:
+  - 22
+  refs:
+  - https://github.com/jdx/mise/security/advisories/GHSA-f94h-j2qg-fxw3
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-54557
+  - https://github.com/jdx/mise
+  source: osv
+  headings:
+  - archive-extraction
+- id: GHSA-qg67-7m6v-qg25
+  aliases:
+  - CVE-2026-61833
+  tool: Zot
+  kind: registry
+  published: '2026-06-24'
+  modified: '2026-07-13'
+  severity: HIGH
+  summary: Bearer authentication maps DELETE to push scope, allowing unauthorized
+    deletion
+  cwes:
+  - 285
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-qg67-7m6v-qg25
+  source: github
+  headings:
+  - registry-authorisation
+- id: GHSA-3qhv-2rgh-x77r
+  aliases:
+  - CVE-2026-55180
+  tool: pnpm
+  kind: client
+  published: '2026-06-26'
+  modified: '2026-06-26'
+  severity: MODERATE
+  summary: 'pnpm: Repository config can expand victim environment secrets into registry
+    requests before scripts run'
+  cwes:
+  - 200
+  - 201
+  - 522
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-3qhv-2rgh-x77r
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-55180
+  - https://github.com/pnpm/pnpm
+  source: osv
+  headings:
+  - credentials-wrong-place
+- id: GHSA-54hh-g5mx-jqcp
+  aliases:
+  - CVE-2026-50573
+  tool: pnpm
+  kind: client
+  published: '2026-06-26'
+  modified: '2026-06-26'
+  severity: MODERATE
+  summary: 'pnpm: Unsafe default behavior breaks integrity check'
+  cwes:
+  - 345
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-54hh-g5mx-jqcp
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-50573
+  - https://github.com/pnpm/pnpm
+  source: osv
+  headings:
+  - integrity-fail-open
+  - lockfile-not-pinning
+- id: GHSA-cjhr-43r9-cfmw
+  aliases:
+  - CVE-2026-50017
+  tool: pnpm
+  kind: client
+  published: '2026-06-26'
+  modified: '2026-06-26'
+  severity: MODERATE
+  summary: pnpm binds unscoped user-level npm auth credentials to a repository-selected
+    registry
+  cwes:
+  - 200
+  - 522
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-cjhr-43r9-cfmw
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-50017
+  - https://github.com/pnpm/pnpm
+  source: osv
+  headings:
+  - credentials-wrong-place
+- id: GHSA-gj8w-mvpf-x27x
+  aliases:
+  - CVE-2026-55697
+  tool: pnpm
+  kind: client
+  published: '2026-06-26'
+  modified: '2026-08-28'
+  severity: HIGH
+  summary: 'pnpm: Repository-controlled configDependencies can select a pacquet native
+    install engine'
+  cwes:
+  - 78
+  - 494
+  - 829
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-gj8w-mvpf-x27x
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-55697
+  - https://github.com/pnpm/pnpm
+  source: osv
+  headings:
+  - argument-injection
+  - integrity-fail-open
+  - wrong-source
+- id: GHSA-hg3w-7f8c-63hp
+  aliases:
+  - CVE-2026-48995
+  tool: pnpm
+  kind: client
+  published: '2026-06-26'
+  modified: '2026-06-26'
+  severity: MODERATE
+  summary: 'pnpm: Tarball hash of GitHub git dependencies is not stored in lockfile'
+  cwes:
+  - 353
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-hg3w-7f8c-63hp
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-48995
+  - https://github.com/pnpm/pnpm
+  source: osv
+  headings:
+  - lockfile-not-pinning
+- id: GHSA-hwx4-2j3j-g496
+  aliases:
+  - CVE-2026-50016
+  tool: pnpm
+  kind: client
+  published: '2026-06-26'
+  modified: '2026-06-26'
+  severity: HIGH
+  summary: 'pnpm: Transitive dependency alias path traversal allows project path override
+    via symlink replacement'
+  cwes:
+  - 23
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-hwx4-2j3j-g496
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-50016
+  - https://github.com/pnpm/pnpm
+  source: osv
+  headings:
+  - archive-extraction
+- id: GHSA-jq42-7mfv-hm57
+  aliases:
+  - CVE-2026-5223
+  tool: Cargo
+  kind: client
+  published: '2026-06-26'
+  modified: '2026-06-26'
+  severity: MODERATE
+  summary: Cargo crates in third party registries can override the cached source of
+    other crates
+  cwes:
+  - 61
+  refs:
+  - https://github.com/rust-lang/cargo/security/advisories/GHSA-jq42-7mfv-hm57
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-5223
+  - https://github.com/rust-lang/cargo/pull/17031
+  - https://blog.rust-lang.org/2026/05/25/cve-2026-5223
+  - https://github.com/rust-lang/cargo
+  - https://groups.google.com/g/rustlang-security-announcements/c/IB74S7Yksg8
+  source: osv
+  headings:
+  - shared-filesystem
+- id: GHSA-p4xf-rf54-rj3x
+  aliases:
+  - CVE-2026-50014
+  tool: pnpm
+  kind: client
+  published: '2026-06-26'
+  modified: '2026-06-26'
+  severity: MODERATE
+  summary: 'pnpm: Git Fetch Argument Injection via Lockfile resolution.commit'
+  cwes:
+  - 88
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-p4xf-rf54-rj3x
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-50014
+  - https://github.com/pnpm/pnpm
+  source: osv
+  headings:
+  - argument-injection
+- id: GHSA-p688-r7jv-fm6f
+  aliases:
+  - CVE-2026-5222
+  tool: Cargo
+  kind: client
+  published: '2026-06-26'
+  modified: '2026-06-26'
+  severity: LOW
+  summary: Cargo can be coerced to share credentials between registries
+  cwes:
+  - 647
+  refs:
+  - https://github.com/rust-lang/cargo/security/advisories/GHSA-p688-r7jv-fm6f
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-5222
+  - https://github.com/rust-lang/cargo/pull/17031
+  - https://blog.rust-lang.org/2026/05/25/cve-2026-5222
+  - https://github.com/rust-lang/cargo
+  - https://groups.google.com/g/rustlang-security-announcements/c/SfUxOiIdY5s
+  source: osv
+  headings:
+  - credentials-wrong-place
+- id: GHSA-q6j5-fjx5-2mc3
+  aliases:
+  - CVE-2026-50021
+  tool: pnpm
+  kind: client
+  published: '2026-06-26'
+  modified: '2026-06-26'
+  severity: MODERATE
+  summary: pnpm Has an Integrity Check Bypass via Missing Lockfile Integrity Field
+  cwes:
+  - 354
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-q6j5-fjx5-2mc3
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-50021
+  - https://github.com/pnpm/pnpm
+  source: osv
+  headings:
+  - integrity-fail-open
+- id: GHSA-rxhj-4m44-96r4
+  aliases:
+  - CVE-2026-50015
+  tool: pnpm
+  kind: client
+  published: '2026-06-26'
+  modified: '2026-06-26'
+  severity: HIGH
+  summary: pnpm Vulnerable to Arbitrary File Write/Delete via Malicious Patch File
+    (Path Traversal)
+  cwes:
+  - 22
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-rxhj-4m44-96r4
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-50015
+  - https://github.com/pnpm/pnpm
+  source: osv
+  headings:
+  - archive-extraction
+- id: GHSA-72r4-9c5j-mj57
+  aliases:
+  - CVE-2026-59194
+  tool: pnpm
+  kind: client
+  published: '2026-06-27'
+  modified: '2026-07-08'
+  severity: HIGH
+  summary: 'pnpm: `patch-remove` could delete project-selected files outside the patches
+    directory'
+  cwes:
+  - 22
+  - 73
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-72r4-9c5j-mj57
+  - https://github.com/pnpm/pnpm/commit/612a2e6a7333f2b061f452a21b6e62c1c161747f
+  - https://github.com/pnpm/pnpm
+  - http://github.com/pnpm/pnpm/commit/352ae489f1b14ffdc19d2c6eacb1b06b098c2ddc
+  source: osv
+  headings:
+  - archive-extraction
+- id: GHSA-qrv3-253h-g69c
+  aliases:
+  - CVE-2026-59195
+  tool: pnpm
+  kind: client
+  published: '2026-06-27'
+  modified: '2026-07-08'
+  severity: HIGH
+  summary: 'pnpm: Path traversal in configDependencies env lockfile allows symlink
+    creation outside node_modules/.pnpm-config'
+  cwes:
+  - 22
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-qrv3-253h-g69c
+  - https://github.com/pnpm/pnpm
+  source: osv
+  headings:
+  - archive-extraction
+- id: GHSA-8xwf-rjm4-xvhv
+  aliases:
+  - CVE-2026-50162
+  - GO-2026-5879
+  tool: ORAS
+  kind: registry
+  published: '2026-07-01'
+  modified: '2026-09-10'
+  severity: MODERATE
+  summary: oras-go has file store write outside workingDir via symlink traversal
+  cwes:
+  - 73
+  refs:
+  - https://github.com/oras-project/oras-go/security/advisories/GHSA-8xwf-rjm4-xvhv
+  - https://github.com/oras-project/oras-go/commit/cc323e564d90c6b5b4bdd71d3c8d2ee2713b37e5
+  - https://github.com/oras-project/oras-go
+  source: osv
+  headings:
+  - archive-extraction
+- id: GHSA-9m8m-c4j3-rj2c
+  aliases:
+  - CVE-2026-53940
+  tool: Conda
+  kind: client
+  published: '2026-07-01'
+  modified: '2026-07-01'
+  severity: HIGH
+  summary: Entry-point path traversal in noarch:python install (arbitrary file write)
+    — canonical Python implementation
+  cwes:
+  - 22
+  - 73
+  refs:
+  - https://github.com/conda/conda/security/advisories/GHSA-9m8m-c4j3-rj2c
+  source: github
+  headings:
+  - archive-extraction
+- id: GHSA-fxhp-mv3v-67qp
+  aliases:
+  - CVE-2026-50163
+  - GO-2026-5880
+  tool: ORAS
+  kind: registry
+  published: '2026-07-01'
+  modified: '2026-09-10'
+  severity: HIGH
+  summary: "`oras-go` tar extraction: Hardlink entry with relative Linkname escapes
+    extract dir via process CWD resolution"
+  cwes:
+  - 22
+  - 59
+  refs:
+  - https://github.com/oras-project/oras-go/security/advisories/GHSA-fxhp-mv3v-67qp
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-50163
+  - https://github.com/oras-project/oras-go/pull/1232
+  - https://github.com/oras-project/oras-go/commit/b11f777f8d405c5023c4b307cfdc5068dfc3d406
+  - https://github.com/oras-project/oras-go/commit/c463c654ab3ef34422c1764cd619806cebf20451
+  - https://github.com/oras-project/oras-go
+  source: osv
+  headings:
+  - archive-extraction
+  - shared-filesystem
+- id: GHSA-jxpm-75mh-9fp7
+  aliases:
+  - CVE-2026-50151
+  - GO-2026-5882
+  tool: ORAS
+  kind: registry
+  published: '2026-07-01'
+  modified: '2026-09-10'
+  severity: HIGH
+  summary: oras-go blob upload vulnerable to credential forwarding via unvalidated
+    Location header
+  cwes:
+  - 918
+  refs:
+  - https://github.com/oras-project/oras-go/security/advisories/GHSA-jxpm-75mh-9fp7
+  - https://github.com/oras-project/oras-go/pull/1152
+  - https://github.com/oras-project/oras-go/commit/4683c46ef078091544f5f55fd25102f002806991
+  - https://github.com/oras-project/oras-go
+  - https://github.com/oras-project/oras-go/releases/tag/v2.6.1
+  source: osv
+  headings:
+  - registry-ssrf
+- id: GHSA-vh4v-2xq2-g5cg
+  aliases:
+  - GO-2026-5884
+  tool: ORAS
+  kind: registry
+  published: '2026-07-01'
+  modified: '2026-09-10'
+  severity: MODERATE
+  summary: ORAS Go forwards registry credentials across registry redirects
+  cwes:
+  - 200
+  - 522
+  refs:
+  - https://github.com/oras-project/oras-go/security/advisories/GHSA-vh4v-2xq2-g5cg
+  - https://github.com/oras-project/oras-go/commit/3c2e884e12ea52b6bff60c97f1edb7df7d0e0909
+  - https://github.com/oras-project/oras-go
+  - https://github.com/oras-project/oras-go/releases/tag/v2.6.1
+  source: osv
+  headings:
+  - credentials-wrong-place
+- id: GHSA-xf85-363p-868w
+  aliases:
+  - CVE-2026-48978
+  - GO-2026-5885
+  tool: ORAS
+  kind: registry
+  published: '2026-07-01'
+  modified: '2026-09-10'
+  severity: LOW
+  summary: 'oras-go: Malicious registry can hijack Bearer token realm to exfiltrate
+    credentials and refresh tokens'
+  cwes:
+  - 319
+  - 918
+  refs:
+  - https://github.com/oras-project/oras-go/security/advisories/GHSA-xf85-363p-868w
+  - https://github.com/oras-project/oras-go/commit/7a9f4b0b9558821b0422152ebe21ae56930fe764
+  - https://github.com/oras-project/oras-go
+  - https://github.com/oras-project/oras-go/releases/tag/v2.6.1
+  source: osv
+  headings:
+  - registry-ssrf
+- id: GHSA-r7qx-325v-4ccx
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-07-04'
+  modified: '2026-07-04'
+  severity: LOW
+  summary: 'Incomplete `ensure_targets_within!` (#22466): a server-supplied `Index:`-header
+    patch bypasses the staged-tree containment and writes out-of-tree (sandbox-contained
+    on macOS)'
+  cwes:
+  - 22
+  - 693
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-r7qx-325v-4ccx
+  source: github
+  headings:
+  - archive-extraction
+  - sandbox-escape
+- id: GHSA-r9gp-p4vv-f93x
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-07-04'
+  modified: '2026-07-04'
+  severity: LOW
+  summary: Server-supplied git redirect silently retargets a tap's origin to an attacker
+    on a routine brew update (HOMEBREW_ALLOWED_TAPS bypass)
+  cwes:
+  - 346
+  - 494
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-r9gp-p4vv-f93x
+  source: github
+  headings:
+  - integrity-fail-open
+- id: GHSA-3m5g-jfx7-3p65
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-07-06'
+  modified: '2026-07-06'
+  severity: LOW
+  summary: Deferred `HOMEBREW_` secret in a download header is re-sent to an attacker
+    host on a cross-host download redirect
+  cwes:
+  - 200
+  - 601
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-3m5g-jfx7-3p65
+  source: github
+  headings:
+  - account-takeover
+- id: GHSA-9g4r-vmj2-j2gj
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-07-06'
+  modified: '2026-07-06'
+  severity: LOW
+  summary: Server-supplied `svn:externals` URL reaches `svn checkout` in option position
+    (argument injection, no malicious formula)
+  cwes:
+  - 88
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-9g4r-vmj2-j2gj
+  source: github
+  headings:
+  - argument-injection
+- id: GHSA-x82f-cj53-gqfr
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-07-06'
+  modified: '2026-07-06'
+  severity: LOW
+  summary: "`brew livecheck` follows a server-supplied redirect to an internal/loopback
+    (or non-HTTPS) target — SSRF (no `--proto-redir` restriction by default)"
+  cwes:
+  - 918
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-x82f-cj53-gqfr
+  source: github
+  headings:
+  - registry-ssrf
+- id: GHSA-9mm4-fgvc-x7rp
+  aliases:
+  - CVE-2026-71477
+  tool: mise
+  kind: client
+  published: '2026-07-07'
+  modified: '2026-08-06'
+  severity: MEDIUM
+  summary: Incorrect file ownership, when `mise` is installed by the root user using
+    `install.sh`
+  cwes:
+  - 278
+  refs:
+  - https://github.com/jdx/mise/security/advisories/GHSA-9mm4-fgvc-x7rp
+  source: github
+  headings:
+  - shared-filesystem
+- id: GHSA-6h4g-g5j9-fm5f
+  aliases:
+  - CVE-2026-64846
+  tool: Nix
+  kind: client
+  published: '2026-07-13'
+  modified: '2026-07-22'
+  severity: LOW
+  summary: Arbitrary file truncation outside the sandbox with recursive-nix experimental
+    feature
+  cwes:
+  - 61
+  - 367
+  refs:
+  - https://github.com/NixOS/nix/security/advisories/GHSA-6h4g-g5j9-fm5f
+  source: github
+  headings:
+  - shared-filesystem
+- id: GHSA-8qw8-rq86-9pc2
+  aliases:
+  - CVE-2026-27771
+  - GO-2026-6017
+  tool: Gitea
+  kind: registry
+  published: '2026-07-17'
+  modified: '2026-07-22'
+  severity: HIGH
+  summary: Gitea has insufficient permission checks for Composer package source links
+  cwes:
+  - 862
+  refs:
+  - https://github.com/go-gitea/gitea/security/advisories/GHSA-8qw8-rq86-9pc2
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-27771
+  - https://github.com/go-gitea/gitea/pull/37610
+  - https://blog.gitea.com/release-of-1.26.2
+  - https://github.com/go-gitea/gitea
+  - https://github.com/go-gitea/gitea/releases/tag/v1.26.2
+  source: osv
+  headings:
+  - registry-authorisation
+- id: GHSA-499r-g7pc-vmp9
+  aliases:
+  - BIT-composer-2026-59948
+  - CVE-2026-59948
+  tool: Composer
+  kind: client
+  published: '2026-07-20'
+  modified: '2026-07-20'
+  severity: HIGH
+  summary: 'Composer: Arbitrary file write outside vendor via malicious transitive
+    package name'
+  cwes:
+  - 22
+  - 787
+  refs:
+  - https://github.com/composer/composer/security/advisories/GHSA-499r-g7pc-vmp9
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-59948
+  - https://github.com/composer/composer/commit/502c6c4f699802d9cf464728b3e8a95674f919a0
+  - https://github.com/composer/composer/commit/c50b1efd13ebd73f6dca19b31424c5a02bf93cc1
+  - https://github.com/composer/composer
+  - https://github.com/composer/composer/releases/tag/2.10.2
+  source: osv
+  headings:
+  - archive-extraction
+  - memory-corruption
+- id: GHSA-g6xq-892h-64w3
+  aliases:
+  - BIT-composer-2026-59947
+  - CVE-2026-59947
+  tool: Composer
+  kind: client
+  published: '2026-07-20'
+  modified: '2026-07-20'
+  severity: MODERATE
+  summary: 'Composer: URL-embedded HTTP-Basic username leaks to verbose logs (GitHub
+    PAT exposure)'
+  cwes:
+  - 532
+  refs:
+  - https://github.com/composer/composer/security/advisories/GHSA-g6xq-892h-64w3
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-59947
+  - https://github.com/composer/composer/commit/6bd66874ae523ecb69aca5964487a0cdfda03ef8
+  - https://github.com/composer/composer/commit/8887ad76fbd830cb1861a2b1fd8ead78ed1fa1ec
+  - https://github.com/composer/composer
+  - https://github.com/composer/composer/releases/tag/2.10.2
+  source: osv
+  headings:
+  - credentials-wrong-place
+- id: GHSA-gjfg-22fp-rrxx
+  aliases:
+  - BIT-composer-2026-59946
+  - CVE-2026-59946
+  tool: Composer
+  kind: client
+  published: '2026-07-20'
+  modified: '2026-07-20'
+  severity: MODERATE
+  summary: 'Composer: Path traversal in package bin field lets dependencies chmod
+    arbitrary host files'
+  cwes:
+  - 22
+  - 732
+  refs:
+  - https://github.com/composer/composer/security/advisories/GHSA-gjfg-22fp-rrxx
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-59946
+  - https://github.com/composer/composer/commit/502c6c4f699802d9cf464728b3e8a95674f919a0
+  - https://github.com/composer/composer/commit/c50b1efd13ebd73f6dca19b31424c5a02bf93cc1
+  - https://github.com/composer/composer
+  - https://github.com/composer/composer/releases/tag/2.10.2
+  source: osv
+  headings:
+  - archive-extraction
+  - shared-filesystem
+- id: GHSA-6hm7-3pwj-22rm
+  aliases:
+  - CVE-2026-56755
+  - GO-2026-6037
+  tool: Gitea
+  kind: registry
+  published: '2026-07-21'
+  modified: '2026-07-22'
+  severity: HIGH
+  summary: 'Gitea: Denial of Service (CPU & Memory Exhaustion) via O(N^2) String Concatenation
+    in Debian Package Upload'
+  cwes:
+  - 409
+  refs:
+  - https://github.com/go-gitea/gitea/security/advisories/GHSA-6hm7-3pwj-22rm
+  - https://github.com/go-gitea/gitea/pull/38406
+  - https://github.com/go-gitea/gitea/pull/38426
+  - https://github.com/go-gitea/gitea/commit/de4b8277e9cb576f2315fb03b5ab6478b42a1d31
+  - https://github.com/go-gitea/gitea/commit/f69e15afe7496cc62e96dab244629c69eb31a7bf
+  - https://github.com/go-gitea/gitea
+  source: osv
+  headings:
+  - resource-exhaustion
+- id: GHSA-7p4h-3gxq-x3h3
+  aliases:
+  - CVE-2026-56443
+  - GO-2026-6045
+  tool: Gitea
+  kind: registry
+  published: '2026-07-21'
+  modified: '2026-07-22'
+  severity: MODERATE
+  summary: 'Gitea: Token public-only scope bypassed on Limited-visibility owners (Repository
+    + Package categories) — residual after CVE-2026-25714 / PR #37118'
+  cwes:
+  - 863
+  refs:
+  - https://github.com/go-gitea/gitea/security/advisories/GHSA-7p4h-3gxq-x3h3
+  - https://github.com/go-gitea/gitea
+  - https://github.com/go-gitea/gitea/releases/tag/v1.27.0
+  source: osv
+  headings:
+  - registry-authorisation
+  - token-overscope
+- id: GHSA-9mq6-mqjj-c2c5
+  aliases:
+  - CVE-2026-59763
+  - GO-2026-6049
+  tool: Gitea
+  kind: registry
+  published: '2026-07-21'
+  modified: '2026-07-22'
+  severity: MODERATE
+  summary: 'Gitea: Unbounded Arch package file metadata can cause resource amplification
+    in Gitea package uploads'
+  cwes:
+  - 770
+  refs:
+  - https://github.com/go-gitea/gitea/security/advisories/GHSA-9mq6-mqjj-c2c5
+  - https://github.com/go-gitea/gitea/pull/38406
+  - https://github.com/go-gitea/gitea/pull/38426
+  - https://github.com/go-gitea/gitea/commit/de4b8277e9cb576f2315fb03b5ab6478b42a1d31
+  - https://github.com/go-gitea/gitea/commit/f69e15afe7496cc62e96dab244629c69eb31a7bf
+  - https://github.com/go-gitea/gitea
+  source: osv
+  headings:
+  - resource-exhaustion
+- id: GHSA-h35f-9h28-mq5c
+  aliases:
+  - BIT-setuptools-2026-59890
+  - CVE-2026-59890
+  - PYSEC-2026-3447
+  tool: setuptools
+  kind: client
+  published: '2026-07-21'
+  modified: '2026-09-10'
+  severity: MODERATE
+  summary: 'setuptools: MANIFEST.in exclusion bypass in sdist via Unicode normalization
+    collision (NFC/NFD) on macOS APFS/HFS+'
+  cwes:
+  - 176
+  - 697
+  refs:
+  - https://github.com/pypa/setuptools/security/advisories/GHSA-h35f-9h28-mq5c
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-59890
+  - https://github.com/pypa/setuptools/commit/dd9f436a36486b4cb8a4c70a2321548b0be09b8f
+  - https://github.com/pypa/advisory-database/tree/main/vulns/setuptools/PYSEC-2026-3447.yaml
+  - https://github.com/pypa/setuptools
+  - https://github.com/pypa/setuptools/releases/tag/v83.0.0
+  source: osv
+  headings: []
+- id: GHSA-wwqq-x6w4-frm2
+  aliases:
+  - CVE-2026-42931
+  - GO-2026-6082
+  tool: Gitea
+  kind: registry
+  published: '2026-07-21'
+  modified: '2026-07-27'
+  severity: MODERATE
+  summary: 'Gitea: Denial of Service via Unbounded io.ReadAll in NPM Package Tag Endpoint'
+  cwes:
+  - 770
+  refs:
+  - https://github.com/go-gitea/gitea/security/advisories/GHSA-wwqq-x6w4-frm2
+  - https://github.com/go-gitea/gitea
+  - https://github.com/go-gitea/gitea/releases/tag/v1.27.0
+  source: osv
+  headings:
+  - resource-exhaustion
+- id: GHSA-9j48-x3c3-mrp2
+  aliases: []
+  tool: rubygems.org
+  kind: registry
+  published: '2026-07-22'
+  modified: '2026-07-22'
+  severity: HIGH
+  summary: Possible leak of legacy API keys via improper cache configuration
+  cwes:
+  - 200
+  - 524
+  refs:
+  - https://github.com/rubygems/rubygems.org/security/advisories/GHSA-9j48-x3c3-mrp2
+  source: github
+  headings:
+  - cdn-caching
+- id: GHSA-f36w-mj3v-6jqv
+  aliases: []
+  tool: ORAS
+  kind: registry
+  published: '2026-07-24'
+  modified: '2026-07-24'
+  severity: MEDIUM
+  summary: Attacker-controlled OCI descriptor size causes unrecovered panic and process
+    crash in ORAS CLI
+  cwes: []
+  refs:
+  - https://github.com/oras-project/oras/security/advisories/GHSA-f36w-mj3v-6jqv
+  source: github
+  headings:
+  - resource-exhaustion
+- id: GHSA-g74g-rg72-j2p3
+  aliases: []
+  tool: mise
+  kind: client
+  published: '2026-07-26'
+  modified: '2026-07-26'
+  severity: HIGH
+  summary: Untrusted local .mise.toml [settings] can set the shell-interpreter args
+    (default_inline/default_file shell_args), giving arbitrary command execution,
+    because those interpreter settings were left off the global_only denylist added
+    for CVE-2026-55448
+  cwes:
+  - 78
+  - 284
+  refs:
+  - https://github.com/jdx/mise/security/advisories/GHSA-g74g-rg72-j2p3
+  source: github
+  headings:
+  - argument-injection
+  - registry-authorisation
+- id: GHSA-qwm4-qh6w-59xr
+  aliases:
+  - CVE-2026-13346
+  - PYSEC-2026-3721
+  tool: pip
+  kind: client
+  published: '2026-07-29'
+  modified: '2026-09-10'
+  severity: MODERATE
+  summary: pip would incorrectly handle doubly-encoded package URLs from indexes
+  cwes:
+  - 36
+  refs:
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-13346
+  - https://github.com/pypa/pip/pull/14110
+  - https://github.com/pypa/pip/commit/10dfb6b9005484578b386f64b9f36982e3dc6679
+  - https://github.com/pypa/advisory-database/tree/main/vulns/pip/PYSEC-2026-3721.yaml
+  - https://github.com/pypa/pip
+  - https://mail.python.org/archives/list/security-announce@python.org/thread/L2BNQGGVQCEV7DROOORQ7WFKKFF2OOQX
+  - http://www.openwall.com/lists/oss-security/2026/07/29/7
+  - https://mail.python.org/archives/list/security-announce@python.org/thread/L2BNQGGVQCEV7DROOORQ7WFKKFF2OOQX/
+  source: osv
+  headings:
+  - archive-extraction
+- id: GHSA-298f-872v-2rcx
+  aliases:
+  - CVE-2026-55588
+  tool: ORAS
+  kind: registry
+  published: '2026-08-01'
+  modified: '2026-08-01'
+  severity: LOW
+  summary: Cyclic Referrer Graph Can Cause Unbounded Recursion and Resource Consumption
+    in the ORAS CLI
+  cwes:
+  - 400
+  - 674
+  - 835
+  refs:
+  - https://github.com/oras-project/oras/security/advisories/GHSA-298f-872v-2rcx
+  source: github
+  headings:
+  - resource-exhaustion
+- id: GHSA-2rx9-3g3h-c2jv
+  aliases: []
+  tool: pnpm
+  kind: client
+  published: '2026-08-02'
+  modified: '2026-08-02'
+  severity: HIGH
+  summary: 'CAND-PNPM-027: pacquet trust-lockfile install can create dependency symlinks
+    outside the project'
+  cwes:
+  - 22
+  - 59
+  - 73
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-2rx9-3g3h-c2jv
+  - https://github.com/pnpm/pnpm/pull/12872
+  - https://github.com/pnpm/pnpm/commit/51300fd41c5e4c8f47635108e373cc3d1f324fa7
+  - https://github.com/pnpm/pnpm
+  source: github
+  headings:
+  - archive-extraction
+  - shared-filesystem
+- id: GHSA-vq4v-j7r6-jq4m
+  aliases:
+  - CVE-2026-82393
+  tool: pnpm
+  kind: client
+  published: '2026-08-02'
+  modified: '2026-08-31'
+  severity: HIGH
+  summary: 'pnpm: A tarball dependency''s manifest `name` escapes node_modules → arbitrary
+    file write/overwrite on install'
+  cwes:
+  - 22
+  - 73
+  - 94
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-vq4v-j7r6-jq4m
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-82393
+  - https://github.com/pnpm/pnpm/pull/12872
+  - https://github.com/pnpm/pnpm/pull/12890
+  - https://github.com/pnpm/pnpm/commit/51300fd41c5e4c8f47635108e373cc3d1f324fa7
+  - https://github.com/pnpm/pnpm/commit/78e29fe5583a1e5d69ea05e414eff310f78d5ed9
+  source: github
+  headings:
+  - archive-extraction
+  - server-side-rce
+- id: GHSA-vx52-2968-3vc6
+  aliases: []
+  tool: pnpm
+  kind: client
+  published: '2026-08-03'
+  modified: '2026-08-03'
+  severity: HIGH
+  summary: Environment secrets exfiltrated via env-placeholder expansion in proxy
+    settings read from an untrusted pnpm-workspace.yaml
+  cwes:
+  - 201
+  - 319
+  - 522
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-vx52-2968-3vc6
+  - https://github.com/pnpm/pnpm/pull/12871
+  - https://github.com/pnpm/pnpm/pull/12898
+  - https://github.com/pnpm/pnpm/commit/36928beae9afb64a2a6a1221df54e66d361320c8
+  - https://github.com/pnpm/pnpm/commit/5a4daec4bd5f0170b18ae053aff093eea56368ba
+  - https://github.com/orgs/pnpm/discussions/13598
+  source: github
+  headings:
+  - credentials-wrong-place
+- id: GHSA-jm6c-h95p-6qhj
+  aliases: []
+  tool: Nix
+  kind: client
+  published: '2026-08-05'
+  modified: '2026-08-05'
+  severity: MEDIUM
+  summary: 'nix-daemon: Unprivileged local users can poison CA derivation realisations
+    via RegisterDrvOutput'
+  cwes:
+  - 306
+  - 565
+  - 862
+  refs:
+  - https://github.com/NixOS/nix/security/advisories/GHSA-jm6c-h95p-6qhj
+  source: github
+  headings:
+  - registry-authorisation
+- id: GHSA-6m3h-m7x6-8826
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-08-06'
+  modified: '2026-08-06'
+  severity: MEDIUM
+  summary: GraphQL API Missing Per-Repository Authorization Allows Authenticated Metadata
+    Disclosure (IDOR)
+  cwes:
+  - 200
+  - 639
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-6m3h-m7x6-8826
+  source: github
+  headings:
+  - registry-idor
+- id: GHSA-9w95-g7vg-45v6
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-08-06'
+  modified: '2026-08-06'
+  severity: CRITICAL
+  summary: zot v2.1.18 digest multi-tag push bypasses update authorization and poisons
+    trusted tags
+  cwes:
+  - 863
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-9w95-g7vg-45v6
+  source: github
+  headings:
+  - registry-authorisation
+  - token-overscope
+- id: GHSA-v852-mrr4-vw6m
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-08-06'
+  modified: '2026-08-06'
+  severity: MEDIUM
+  summary: Open Redirect via OAuth/OIDC Callback
+  cwes:
+  - 601
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-v852-mrr4-vw6m
+  source: github
+  headings:
+  - account-takeover
+- id: GHSA-vj6f-mjhx-gv49
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-08-06'
+  modified: '2026-08-06'
+  severity: MEDIUM
+  summary: Open Redirect via Backslash in OAuth2 OIDC Callback URL Validation
+  cwes:
+  - 601
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-vj6f-mjhx-gv49
+  source: github
+  headings:
+  - account-takeover
+- id: GHSA-x75h-vm25-49xf
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-08-06'
+  modified: '2026-08-06'
+  severity: MEDIUM
+  summary: Zot logs HTTP event-sink header secrets in plaintext
+  cwes: []
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-x75h-vm25-49xf
+  source: github
+  headings:
+  - credentials-wrong-place
+- id: GHSA-m2pw-22cj-jq4v
+  aliases: []
+  tool: sbt
+  kind: client
+  published: '2026-08-07'
+  modified: '2026-08-07'
+  severity: CRITICAL
+  summary: Remote code execution via server when serverConnectionType is set to Tcp
+  cwes:
+  - 285
+  refs:
+  - https://github.com/sbt/sbt/security/advisories/GHSA-m2pw-22cj-jq4v
+  source: github
+  headings:
+  - registry-authorisation
+- id: GHSA-vm27-w3jg-7wg9
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-08-07'
+  modified: '2026-08-07'
+  severity: HIGH
+  summary: 'Vulnerability Report: Unbounded HTTP Request Body Allocation in zot Registry'
+  cwes:
+  - 770
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-vm27-w3jg-7wg9
+  source: github
+  headings:
+  - resource-exhaustion
+- id: GHSA-8688-9x26-hhxj
+  aliases:
+  - CVE-2026-90616
+  tool: Flatpak
+  kind: client
+  published: '2026-08-11'
+  modified: '2026-09-13'
+  severity: CRITICAL
+  summary: 'CVE-2026-90616: Flatpak sandbox escape with full host filesystem access'
+  cwes: []
+  refs:
+  - https://github.com/flatpak/flatpak/security/advisories/GHSA-8688-9x26-hhxj
+  source: github
+  headings:
+  - shared-filesystem
+  - sandbox-escape
+- id: GHSA-8qxj-x646-phcm
+  aliases: []
+  tool: Flatpak
+  kind: client
+  published: '2026-08-11'
+  modified: '2026-08-11'
+  severity: MEDIUM
+  summary: Arbitrary write in host context via `flatpak build-init`
+  cwes: []
+  refs:
+  - https://github.com/flatpak/flatpak/security/advisories/GHSA-8qxj-x646-phcm
+  source: github
+  headings:
+  - archive-extraction
+- id: GHSA-99wv-m8rp-g58x
+  aliases: []
+  tool: Flatpak
+  kind: client
+  published: '2026-08-11'
+  modified: '2026-08-11'
+  severity: MEDIUM
+  summary: Fixed-filename writes to arbitrary locations via symlink attack on .ld.so
+  cwes: []
+  refs:
+  - https://github.com/flatpak/flatpak/security/advisories/GHSA-99wv-m8rp-g58x
+  source: github
+  headings:
+  - shared-filesystem
+  - sandbox-escape
+- id: GHSA-9rww-v4mm-x4jg
+  aliases: []
+  tool: Flatpak
+  kind: client
+  published: '2026-08-11'
+  modified: '2026-08-11'
+  severity: MEDIUM
+  summary: Path traversal issue in OCI archive extraction
+  cwes: []
+  refs:
+  - https://github.com/flatpak/flatpak/security/advisories/GHSA-9rww-v4mm-x4jg
+  source: github
+  headings:
+  - archive-extraction
+  - shared-filesystem
+- id: GHSA-fqx6-vh4p-42cg
+  aliases: []
+  tool: Flatpak
+  kind: client
+  published: '2026-08-11'
+  modified: '2026-08-11'
+  severity: HIGH
+  summary: Arbitrary write access as root via extra-data extraction
+  cwes: []
+  refs:
+  - https://github.com/flatpak/flatpak/security/advisories/GHSA-fqx6-vh4p-42cg
+  source: github
+  headings:
+  - archive-extraction
+- id: GHSA-jr92-2v97-wgvc
+  aliases: []
+  tool: Flatpak
+  kind: client
+  published: '2026-08-11'
+  modified: '2026-08-11'
+  severity: MEDIUM
+  summary: Buffer overflow in OCI delta stream path names
+  cwes: []
+  refs:
+  - https://github.com/flatpak/flatpak/security/advisories/GHSA-jr92-2v97-wgvc
+  source: github
+  headings:
+  - memory-corruption
+- id: GHSA-q4gr-vc25-57m5
+  aliases: []
+  tool: Flatpak
+  kind: client
+  published: '2026-08-11'
+  modified: '2026-08-11'
+  severity: MEDIUM
+  summary: Unprivileged active user can bypass anti-downgrade checks for system apps/runtimes
+  cwes: []
+  refs:
+  - https://github.com/flatpak/flatpak/security/advisories/GHSA-q4gr-vc25-57m5
+  source: github
+  headings:
+  - integrity-fail-open
+- id: GHSA-qrwq-7qwx-q9rp
+  aliases: []
+  tool: Flatpak
+  kind: client
+  published: '2026-08-11'
+  modified: '2026-08-11'
+  severity: HIGH
+  summary: Revokefs symlink path traversal allows local privilege escalation via commit
+    tampering
+  cwes: []
+  refs:
+  - https://github.com/flatpak/flatpak/security/advisories/GHSA-qrwq-7qwx-q9rp
+  source: github
+  headings:
+  - archive-extraction
+  - shared-filesystem
+- id: GHSA-v2gw-v9h5-9q4x
+  aliases:
+  - CVE-2026-92162
+  tool: Flatpak
+  kind: client
+  published: '2026-08-11'
+  modified: '2026-09-16'
+  severity: HIGH
+  summary: 'CVE-2026-92162: Path traversal via unvalidated "arch" parameter in DeployAppstream'
+  cwes: []
+  refs:
+  - https://github.com/flatpak/flatpak/security/advisories/GHSA-v2gw-v9h5-9q4x
+  source: github
+  headings:
+  - archive-extraction
+- id: GHSA-w69g-9x8j-7p8f
+  aliases: []
+  tool: Flatpak
+  kind: client
+  published: '2026-08-11'
+  modified: '2026-08-11'
+  severity: LOW
+  summary: Extension metadata path traversal file existence oracle
+  cwes: []
+  refs:
+  - https://github.com/flatpak/flatpak/security/advisories/GHSA-w69g-9x8j-7p8f
+  source: github
+  headings:
+  - archive-extraction
+  - sandbox-escape
+- id: GO-2026-6179
+  aliases:
+  - BIT-golang-2026-56865
+  - CVE-2026-56865
+  tool: Go
+  kind: client
+  published: '2026-08-13'
+  modified: '2026-08-19'
+  severity:
+  summary: Fix transparency log tile verification bypass in golang.org/x/mod/sumdb/tlog
+  cwes: []
+  refs:
+  - https://go.dev/issue/80744
+  - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+  - https://go.dev/cl/814960
+  - https://go.dev/cl/815020
+  source: osv
+  headings:
+  - integrity-fail-open
+- id: GO-2026-6180
+  aliases:
+  - BIT-golang-2026-56864
+  - CVE-2026-56864
+  tool: Go
+  kind: client
+  published: '2026-08-13'
+  modified: '2026-08-19'
+  severity:
+  summary: Ignore unrelated, unauthenticated hashes in Lookup in golang.org/x/mod/sumdb
+  cwes: []
+  refs:
+  - https://go.dev/issue/80745
+  - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+  - https://go.dev/cl/815000
+  - https://go.dev/cl/815020
+  source: osv
+  headings:
+  - integrity-fail-open
+- id: GHSA-w8pw-h853-frw2
+  aliases: []
+  tool: mise
+  kind: client
+  published: '2026-08-20'
+  modified: '2026-08-20'
+  severity: MEDIUM
+  summary: GitLab/Forgejo tokens are attached to release-asset URLs on hosts mise
+    does not control
+  cwes: []
+  refs:
+  - https://github.com/jdx/mise/security/advisories/GHSA-w8pw-h853-frw2
+  source: github
+  headings:
+  - credentials-wrong-place
+- id: GHSA-943m-f264-54p4
+  aliases: []
+  tool: sbt
+  kind: client
+  published: '2026-08-21'
+  modified: '2026-08-21'
+  severity: CRITICAL
+  summary: Remote code execution via BSP when serverConnectionType is set to Tcp
+  cwes: []
+  refs:
+  - https://github.com/sbt/sbt/security/advisories/GHSA-943m-f264-54p4
+  source: github
+  headings: []
+- id: GHSA-jh2c-7pfp-j69x
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-08-21'
+  modified: '2026-08-21'
+  severity: HIGH
+  summary: Unauthenticated denial of service in zot scale-out clusters via `X-Zot-Cluster-Hop-Count`
+    header
+  cwes:
+  - 20
+  - 617
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-jh2c-7pfp-j69x
+  source: github
+  headings:
+  - resource-exhaustion
+- id: GHSA-24ww-j3f4-p49c
+  aliases:
+  - CVE-2026-75554
+  tool: Hex.pm
+  kind: registry
+  published: '2026-08-24'
+  modified: '2026-08-24'
+  severity: LOW
+  summary: Explicit organization scopes survive token refresh after membership ends
+  cwes:
+  - 613
+  refs:
+  - https://github.com/hexpm/hexpm/security/advisories/GHSA-24ww-j3f4-p49c
+  source: github
+  headings:
+  - account-takeover
+- id: GHSA-rfx8-w654-8cpr
+  aliases:
+  - CVE-2026-75542
+  tool: Hex.pm
+  kind: registry
+  published: '2026-08-24'
+  modified: '2026-08-24'
+  severity: HIGH
+  summary: OAuth token exchange grants repository scopes for organizations the principal
+    cannot access
+  cwes:
+  - 863
+  refs:
+  - https://github.com/hexpm/hexpm/security/advisories/GHSA-rfx8-w654-8cpr
+  source: github
+  headings:
+  - registry-authorisation
+  - token-overscope
+- id: GHSA-4hmw-qw74-vrhm
+  aliases: []
+  tool: Renovate
+  kind: client
+  published: '2026-08-27'
+  modified: '2026-08-27'
+  severity: HIGH
+  summary: TLS private keys were previously not sanitised in logs
+  cwes: []
+  refs:
+  - https://github.com/renovatebot/renovate/security/advisories/GHSA-4hmw-qw74-vrhm
+  source: github
+  headings:
+  - credentials-wrong-place
+- id: GHSA-7chm-46wx-888m
+  aliases: []
+  tool: Renovate
+  kind: client
+  published: '2026-08-27'
+  modified: '2026-08-27'
+  severity: HIGH
+  summary: "`manager/gradle-wrapper`: Command injection could be possible via unescaped
+    `distributionUrl`"
+  cwes:
+  - 78
+  refs:
+  - https://github.com/renovatebot/renovate/security/advisories/GHSA-7chm-46wx-888m
+  source: github
+  headings:
+  - argument-injection
+- id: GHSA-96h3-5x6v-m776
+  aliases:
+  - CVE-2026-59944
+  tool: Composer
+  kind: client
+  published: '2026-08-27'
+  modified: '2026-08-27'
+  severity: MEDIUM
+  summary: Package bin path can escape the package directory, bypassing the GHSA-gjfg-22fp-rrxx
+    fix
+  cwes:
+  - 22
+  - 59
+  - 732
+  refs:
+  - https://github.com/composer/composer/security/advisories/GHSA-96h3-5x6v-m776
+  source: github
+  headings:
+  - archive-extraction
+  - shared-filesystem
+- id: GHSA-9hmg-9h89-jhmx
+  aliases: []
+  tool: Renovate
+  kind: client
+  published: '2026-08-27'
+  modified: '2026-08-27'
+  severity: HIGH
+  summary: Malicious GitLab servers could send a malicious `Link` header to allow
+    exflitrating credentials
+  cwes: []
+  refs:
+  - https://github.com/renovatebot/renovate/security/advisories/GHSA-9hmg-9h89-jhmx
+  source: github
+  headings:
+  - credentials-wrong-place
+- id: GHSA-f2v7-35mm-3hx7
+  aliases: []
+  tool: Renovate
+  kind: client
+  published: '2026-08-27'
+  modified: '2026-08-27'
+  severity: HIGH
+  summary: "`manager/maven-wrapper`: Command injection could be possible via unescaped
+    `distributionType`"
+  cwes:
+  - 78
+  refs:
+  - https://github.com/renovatebot/renovate/security/advisories/GHSA-f2v7-35mm-3hx7
+  source: github
+  headings:
+  - argument-injection
+- id: GHSA-g4qr-hw2h-687r
+  aliases: []
+  tool: Renovate
+  kind: client
+  published: '2026-08-27'
+  modified: '2026-08-27'
+  severity: MEDIUM
+  summary: Digest updates can bypass strict `minimumReleaseAge` internal checks
+  cwes: []
+  refs:
+  - https://github.com/renovatebot/renovate/security/advisories/GHSA-g4qr-hw2h-687r
+  source: github
+  headings: []
+- id: GHSA-mpf8-qxrw-gq3w
+  aliases: []
+  tool: Renovate
+  kind: client
+  published: '2026-08-27'
+  modified: '2026-08-27'
+  severity: HIGH
+  summary: "`manager/gomod`: Command injection could be possible via unescaped `depName`
+    in import-path update command"
+  cwes:
+  - 78
+  refs:
+  - https://github.com/renovatebot/renovate/security/advisories/GHSA-mpf8-qxrw-gq3w
+  source: github
+  headings:
+  - argument-injection
+- id: GHSA-rh7w-ccch-gh49
+  aliases: []
+  tool: Renovate
+  kind: client
+  published: '2026-08-27'
+  modified: '2026-08-27'
+  severity: HIGH
+  summary: Malicious Nuget registries could send a malicious `Link` header to allow
+    exflitrating credentials
+  cwes: []
+  refs:
+  - https://github.com/renovatebot/renovate/security/advisories/GHSA-rh7w-ccch-gh49
+  source: github
+  headings:
+  - credentials-wrong-place
+- id: GHSA-v73q-hvqx-hxwx
+  aliases: []
+  tool: Renovate
+  kind: client
+  published: '2026-08-27'
+  modified: '2026-08-27'
+  severity: HIGH
+  summary: Malicious Docker registries could send a malicious `Link` header to allow
+    exflitrating credentials
+  cwes: []
+  refs:
+  - https://github.com/renovatebot/renovate/security/advisories/GHSA-v73q-hvqx-hxwx
+  source: github
+  headings:
+  - credentials-wrong-place
+- id: GHSA-v85g-rq5w-c46q
+  aliases: []
+  tool: Renovate
+  kind: client
+  published: '2026-08-27'
+  modified: '2026-08-27'
+  severity: HIGH
+  summary: "`manager/mix`: Command injection could be possible via unescaped `organization`"
+  cwes:
+  - 78
+  refs:
+  - https://github.com/renovatebot/renovate/security/advisories/GHSA-v85g-rq5w-c46q
+  source: github
+  headings:
+  - argument-injection
+- id: GHSA-w57v-h33h-835c
+  aliases: []
+  tool: Renovate
+  kind: client
+  published: '2026-08-27'
+  modified: '2026-08-27'
+  severity: HIGH
+  summary: Malicious GitHub servers could send a malicious `Link` header to allow
+    exflitrating credentials
+  cwes: []
+  refs:
+  - https://github.com/renovatebot/renovate/security/advisories/GHSA-w57v-h33h-835c
+  source: github
+  headings:
+  - credentials-wrong-place
+- id: GHSA-36q5-5423-vgx2
+  aliases:
+  - CVE-2026-62925
+  tool: Gitea
+  kind: registry
+  published: '2026-08-29'
+  modified: '2026-08-30'
+  severity: MEDIUM
+  summary: Unbounded Alpine .PKGINFO parse amplifies a small .apk upload into process
+    memory
+  cwes: []
+  refs:
+  - https://github.com/go-gitea/gitea/security/advisories/GHSA-36q5-5423-vgx2
+  source: github
+  headings:
+  - resource-exhaustion
+- id: GHSA-5xcq-p92v-43rf
+  aliases:
+  - CVE-2026-73273
+  tool: Gitea
+  kind: registry
+  published: '2026-08-29'
+  modified: '2026-08-29'
+  severity: MEDIUM
+  summary: Package size quota bypass and unbounded memory read in the Maven checksum
+    upload path
+  cwes:
+  - 770
+  refs:
+  - https://github.com/go-gitea/gitea/security/advisories/GHSA-5xcq-p92v-43rf
+  source: github
+  headings:
+  - resource-exhaustion
+- id: GHSA-fqxf-w92m-prvq
+  aliases:
+  - CVE-2026-63021
+  tool: Gitea
+  kind: registry
+  published: '2026-08-29'
+  modified: '2026-08-30'
+  severity: MEDIUM
+  summary: Swift registry per-file 128KiB manifest guard bypassed by aggregation
+  cwes: []
+  refs:
+  - https://github.com/go-gitea/gitea/security/advisories/GHSA-fqxf-w92m-prvq
+  source: github
+  headings: []
+- id: GHSA-px3q-x2mm-55wg
+  aliases:
+  - CVE-2026-66849
+  tool: Gitea
+  kind: registry
+  published: '2026-08-29'
+  modified: '2026-08-29'
+  severity: MEDIUM
+  summary: 'Package registry: restricted users can read packages of limited-visibility
+    users (authorization bypass)'
+  cwes:
+  - 284
+  refs:
+  - https://github.com/go-gitea/gitea/security/advisories/GHSA-px3q-x2mm-55wg
+  source: github
+  headings:
+  - registry-authorisation
+- id: GHSA-c59q-g84q-2gj5
+  aliases:
+  - CVE-2026-82392
+  tool: pnpm
+  kind: client
+  published: '2026-09-02'
+  modified: '2026-09-02'
+  severity: HIGH
+  summary: 'pnpm: Virtual store linker path traversal via unvalidated depPath name
+    in lockfileToDepGraph'
+  cwes:
+  - 22
+  refs:
+  - https://github.com/pnpm/pnpm/security/advisories/GHSA-c59q-g84q-2gj5
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-82392
+  - https://github.com/pnpm/pnpm/pull/12872
+  - https://github.com/pnpm/pnpm/pull/12890
+  - https://github.com/pnpm/pnpm/commit/51300fd41c5e4c8f47635108e373cc3d1f324fa7
+  - https://github.com/pnpm/pnpm/commit/78e29fe5583a1e5d69ea05e414eff310f78d5ed9
+  source: osv
+  headings:
+  - archive-extraction
+- id: GHSA-hqpg-hjr9-c7j8
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-09-05'
+  modified: '2026-09-05'
+  severity: MEDIUM
+  summary: 'Regression in the GHSA-6689-q779-c33m fix: pkg `postinstall` reads a prefix-owned
+    `.gitconfig` as root, and `core.hooksPath` does not cover config-specified programs'
+  cwes: []
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-hqpg-hjr9-c7j8
+  source: github
+  headings:
+  - local-files-trusted
+- id: GHSA-rg9r-ppxp-87hm
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-09-05'
+  modified: '2026-09-05'
+  severity: HIGH
+  summary: Installed-cask uninstall/zap artifact recovery reads the unsigned `cask/<token>.json`
+    endpoint, bypassing JWS verification and reaching `sudo` command execution
+  cwes: []
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-rg9r-ppxp-87hm
+  source: github
+  headings:
+  - integrity-fail-open
+- id: GHSA-vjgw-2g79-p7w7
+  aliases: []
+  tool: Verdaccio
+  kind: registry
+  published: '2026-09-07'
+  modified: '2026-09-07'
+  severity: HIGH
+  summary: A trailing slash in the package name bypasses the `packages` access rules
+  cwes:
+  - 49
+  - 863
+  refs:
+  - https://github.com/verdaccio/verdaccio/security/advisories/GHSA-vjgw-2g79-p7w7
+  source: github
+  headings:
+  - registry-authorisation
+  - token-overscope
+- id: GHSA-rvx4-ffvw-m9q3
+  aliases:
+  - BIT-composer-2026-84361
+  - CVE-2026-84361
+  tool: Composer
+  kind: client
+  published: '2026-09-08'
+  modified: '2026-09-08'
+  severity: HIGH
+  summary: Composer arbitrary command execution via a malicious package's Perforce
+    source URL
+  cwes:
+  - 78
+  refs:
+  - https://github.com/composer/composer/security/advisories/GHSA-rvx4-ffvw-m9q3
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-84361
+  - https://github.com/composer/composer/commit/0aac50528e83ed635cf788333635897469440220
+  - https://github.com/composer/composer/commit/199ad81a9cc6a2a5164ad79a8da26b2e19e521af
+  - https://github.com/composer/composer
+  - https://github.com/composer/composer/releases/tag/2.10.3
+  source: osv
+  headings:
+  - argument-injection
+- id: GHSA-82rc-37x2-7w36
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-09-11'
+  modified: '2026-09-11'
+  severity: HIGH
+  summary: 'CVE-2024-39897 incomplete fix: bearer-authenticated cross-repository blob
+    reuse still bypasses source-repository read checks in zot'
+  cwes:
+  - 639
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-82rc-37x2-7w36
+  source: github
+  headings:
+  - registry-idor
+- id: GHSA-c7hr-vm67-mm6v
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-09-11'
+  modified: '2026-09-11'
+  severity: HIGH
+  summary: HEAD on a blob is authorized as read but creates the repository and writes
+    a blob into it
+  cwes:
+  - 863
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-c7hr-vm67-mm6v
+  source: github
+  headings:
+  - registry-authorisation
+  - token-overscope
+- id: GHSA-prmc-5wf3-9593
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-09-11'
+  modified: '2026-09-11'
+  severity: HIGH
+  summary: Unbounded GraphQL document fanout permits unauthenticated CPU and allocation
+    exhaustion
+  cwes: []
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-prmc-5wf3-9593
+  source: github
+  headings:
+  - resource-exhaustion
+- id: GHSA-qp6j-ww5h-xvxc
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-09-11'
+  modified: '2026-09-11'
+  severity: MEDIUM
+  summary: Cross-repository blob disclosure via the ranged-pull path in GetBlob (incomplete
+    fix of GHSA-55r9-5mx9-qq7r)
+  cwes:
+  - 639
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-qp6j-ww5h-xvxc
+  source: github
+  headings:
+  - registry-idor
+- id: GHSA-qw2m-qhm4-qghg
+  aliases: []
+  tool: Zot
+  kind: registry
+  published: '2026-09-11'
+  modified: '2026-09-11'
+  severity: MEDIUM
+  summary: Inefficient Algorithmic Complexity and Uncontrolled Resource Consumption
+    and Allocation of Resources Without Limits or Throttling in zotregistry.dev/zot/v2
+  cwes:
+  - 400
+  - 407
+  - 770
+  refs:
+  - https://github.com/project-zot/zot/security/advisories/GHSA-qw2m-qhm4-qghg
+  source: github
+  headings:
+  - resource-exhaustion
+- id: GHSA-5263-whxq-77hp
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-09-13'
+  modified: '2026-09-13'
+  severity: MEDIUM
+  summary: 'Cask install sandbox escape via LaunchServices: unsandboxed code execution
+    when installing a malicious cask'
+  cwes: []
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-5263-whxq-77hp
+  source: github
+  headings:
+  - sandbox-escape
+- id: GHSA-6986-cq7v-7cj9
+  aliases: []
+  tool: mise
+  kind: client
+  published: '2026-09-14'
+  modified: '2026-09-14'
+  severity: HIGH
+  summary: Implicit project trust enables arbitrary command execution via local history.describe_command
+  cwes:
+  - 78
+  - 284
+  refs:
+  - https://github.com/jdx/mise/security/advisories/GHSA-6986-cq7v-7cj9
+  source: github
+  headings:
+  - argument-injection
+  - registry-authorisation
+- id: GHSA-ccgw-4xcq-vgr6
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-09-15'
+  modified: '2026-09-15'
+  severity: MEDIUM
+  summary: macOS Sandbox escape through TOCTOU on homebrew.sb and payload.json files
+  cwes: []
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-ccgw-4xcq-vgr6
+  source: github
+  headings:
+  - shared-filesystem
+  - sandbox-escape
+- id: GHSA-wj84-52wx-4c26
+  aliases: []
+  tool: rubygems.org
+  kind: registry
+  published: '2026-09-15'
+  modified: '2026-09-15'
+  severity: HIGH
+  summary: Organization admins can escalate to owner through gem transfers
+  cwes:
+  - 863
+  refs:
+  - https://github.com/rubygems/rubygems.org/security/advisories/GHSA-wj84-52wx-4c26
+  source: github
+  headings:
+  - registry-authorisation
+  - token-overscope
+- id: GHSA-7hjr-9j5m-v2hw
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-09-17'
+  modified: '2026-09-17'
+  severity: LOW
+  summary: Cask `rename` stanza is not confined to the staged tree — arbitrary file
+    move via `brew install --cask`
+  cwes: []
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-7hjr-9j5m-v2hw
+  source: github
+  headings:
+  - archive-extraction
+- id: GHSA-h7vf-4x9w-h99v
+  aliases:
+  - CVE-2026-85732
+  tool: ORAS
+  kind: registry
+  published: '2026-09-17'
+  modified: '2026-09-17'
+  severity: MODERATE
+  summary: 'oras-go: Blind SSRF via unvalidated Link header URL in pagination allows
+    internal network probing'
+  cwes:
+  - 918
+  refs:
+  - https://github.com/oras-project/oras-go/security/advisories/GHSA-h7vf-4x9w-h99v
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-85732
+  - https://github.com/oras-project/oras-go/commit/31da1963f8c327dd089cd29faeae95cf0fc50842
+  - https://github.com/oras-project/oras-go
+  - https://github.com/oras-project/oras-go/releases/tag/v2.6.2
+  source: osv
+  headings:
+  - registry-ssrf
+- id: GHSA-m37j-52j7-pjw7
+  aliases:
+  - CVE-2026-85731
+  tool: ORAS
+  kind: registry
+  published: '2026-09-17'
+  modified: '2026-09-17'
+  severity: HIGH
+  summary: 'oras-go: Arbitrary file write outside file.Store root via symlink-chain
+    bypass in tar extraction (pushDir)'
+  cwes:
+  - 22
+  - 59
+  refs:
+  - https://github.com/oras-project/oras-go/security/advisories/GHSA-m37j-52j7-pjw7
+  - https://nvd.nist.gov/vuln/detail/CVE-2026-85731
+  - https://github.com/oras-project/oras-go/commit/adab2f25ea95ef4e6e41f50db9266a6701399422
+  - https://github.com/oras-project/oras-go
+  - https://github.com/oras-project/oras-go/releases/tag/v2.6.2
+  source: osv
+  headings:
+  - archive-extraction
+  - shared-filesystem
+- id: GHSA-wh9r-xjmq-6v2h
+  aliases: []
+  tool: Homebrew
+  kind: client
+  published: '2026-09-17'
+  modified: '2026-09-17'
+  severity: HIGH
+  summary: pkg postinstall executes programs from prefix-owned .git/config as root
+  cwes: []
+  refs:
+  - https://github.com/Homebrew/brew/security/advisories/GHSA-wh9r-xjmq-6v2h
+  source: github
+  headings:
+  - local-files-trusted
