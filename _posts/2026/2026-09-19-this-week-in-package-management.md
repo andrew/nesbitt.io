@@ -16,20 +16,24 @@ Week eighteen of the roundup, built from the [package manager OPML feed collecti
 
 [Swift 6.4](https://www.swift.org/blog/swift-6.4-released/) makes Swift Build the default build system in SwiftPM and adds SBOM generation in SPDX and CycloneDX formats via [SE-0509](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0509-package-sbom.md).
 
+[pnpm 12.5](https://pnpm.io/blog/releases/12.5) extends the Python support added in 12.4: each workspace project selects its own interpreter against `requires-python` (downloaded from python-build-standalone if missing), projects with a `[build-system]` install as editable, and a `shared-environment` setting resolves multiple members into one workspace-root `pylock.toml` and `.venv`. `pnpm add` now accepts Package URLs across the npm, cargo and pypi types.
+
 [sbt 2.1.0-M1](https://github.com/sbt/sbt/releases/tag/v2.1.0-M1) moves the metabuild to Scala 3.9 and removes Apache Ivy as a dependency; plugins built for 2.1.x are incompatible with sbt 2.0.x.
 
 [RubyGems and Bundler 4.0.21](https://blog.rubygems.org/2026/09/16/4.0.21-released.html) normalises absolute symlink targets during gem extraction and rejects Bundler redirects that downgrade HTTPS to HTTP.
 
 [Pixi 0.81.0](https://github.com/prefix-dev/pixi/releases/tag/v0.81.0) extends `pixi run --script` to fetch conda-script files from HTTP and HTTPS URLs, including Gists, reusing the cached environment.
 
-[uv 0.12.16](https://github.com/astral-sh/uv/releases/tag/0.12.16) verifies downloaded wheels and sdists against hashes supplied by the index; [0.12.15](https://github.com/astral-sh/uv/releases/tag/0.12.15) reverted the symlinked-destination check from 0.12.14 that broke `uv pip install --system` in `python:*` Docker images and `--target .`.
+[uv 0.12.16](https://github.com/astral-sh/uv/releases/tag/0.12.16) verifies downloaded wheels and sdists against hashes supplied by the index; [0.12.17](https://github.com/astral-sh/uv/releases/tag/0.12.17) adds a preview `minimum-libc-version` setting for the glibc and musl floor a universal resolution must satisfy, and rejects `pylock.toml` wheels whose filenames differ from their declared name or version.
+
+[Renovate 44.103.2](https://github.com/renovatebot/renovate/releases/tag/44.103.2): the Dockerfile manager [natively extracts](https://www.jvt.me/posts/2026/09/18/renovate-regex-dockerfile-apk/) pinned `apk add` and `apt install` packages from `RUN` instructions without a custom regex manager, and the GitHub Actions manager [documents](https://docs.renovatebot.com/modules/manager/github-actions/#updating-with-values-in-github-actions) the 81 actions whose `with:` version inputs it updates. A new [`minimumReleaseAgeBuffer`](https://docs.renovatebot.com/configuration-options/#minimumreleaseagebuffer) option covers sibling packages published after the main package.
 
 [opam 2.6.0](https://opam.ocaml.org/blog/opam-2-6-0/) is out. The shell hook now updates the opam-managed directory in place instead of prepending it to `PATH`, build directories are deleted sooner during install, and HTTP repository loads read `index.tar.gz` in memory to cut tens of thousands of syscalls to one on Windows and constrained filesystems.
 
 Also out:
 
 - [mise 2026.9.11](https://github.com/jdx/mise/releases/tag/v2026.9.11)
-- [pipx 1.17.3](https://github.com/pypa/pipx/releases/tag/1.17.3)
+- [pipx 1.17.4](https://github.com/pypa/pipx/releases/tag/1.17.4)
 - [PDM 2.29.2](https://github.com/pdm-project/pdm/releases/tag/2.29.2)
 - [Hatch 1.18.1](https://github.com/pypa/hatch/releases/tag/hatch-v1.18.1)
 - [Hatchling 1.32.3](https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.3)
@@ -41,11 +45,10 @@ Also out:
 - [cabal-install 3.18.2.0](https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0)
 - [Docker Engine 29.8.1](https://github.com/moby/moby/releases/tag/docker-v29.8.1)
 - [Gradle 9.8.0-RC2](https://github.com/gradle/gradle/releases/tag/v9.8.0-RC2)
-- [Gradle 9.9.0-M1](https://github.com/gradle/gradle/releases/tag/v9.9.0-M1)
+- [Gradle 9.9.0-M2](https://github.com/gradle/gradle/releases/tag/v9.9.0-M2)
 - [Terraform 1.16.3](https://github.com/hashicorp/terraform/releases/tag/v1.16.3)
 - [OpenTofu 1.13.0-rc1](https://github.com/opentofu/opentofu/releases/tag/v1.13.0-rc1)
 - [Dependabot Core 0.396.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.396.0)
-- [Renovate 44.99.0](https://github.com/renovatebot/renovate/releases/tag/44.99.0)
 
 ## Security
 
@@ -69,17 +72,21 @@ PyPI posted an [incident summary](https://blog.pypi.org/posts/2026-09-08-file-ho
 
 [GANADI: Uncovering C/C++ OSS Reuse Genealogies](https://arxiv.org/abs/2609.17018) (Kim et al., arXiv) clusters downstream C/C++ projects by pivotal functions to reconstruct which project copied code from which, then uses the resulting reuse tree to route vulnerability reports; 23 of 48 unpatched vulnerabilities they found this way were fixed after disclosure.
 
+[CASHEWS: Source Preprocessor for LLM-based Malicious Package Detection](https://arxiv.org/abs/2609.18862) (Noirot Ferrand et al., arXiv) deobfuscates, unbundles and backward-slices npm package source before it reaches an LLM scanner, raising analysis coverage from 69.1–85.7% to 98.8–100% across 512 large package files and cutting false negatives by up to 18.6 points.
+
 [Freeriding and Rebellion: An Investigation of Open Source Vendor Relicensing and Member Hard Forking Events](https://doi.org/10.1111/isj.70060) (Foster and Germonprez, Information Systems Journal) studies vendor relicensing events and the hard forks that follow: vendors invoke freeriding concerns to justify governance changes, and community members respond by realigning their engagement into forks. Dawn Foster has a [summary post](https://fastwonderblog.com/2026/09/16/freeriding-and-rebellion-an-investigation-of-open-source-vendor-relicensing-and-member-hard-forking-events/).
 
 ## Elsewhere
 
 The OpenJS Foundation CNA is [pausing CVE triage, validation and assignment](https://openjsf.org/blog/the-openjs-foundation-cna-is-taking-a-coordinated-break) from 17 September to 6 October, citing the volume of AI-generated security reports reaching its volunteer team. Incoming reports queue for processing after the break; actively exploited issues still get a response through the OpenJS Slack.
 
+Pillow [updated its security policy](https://github.com/python-pillow/Pillow/pull/10018) along the lines of CPython's, asking reporters to verify LLM-generated findings, deduplicate batches, and check the project's threat model before submitting; Hugo van Kemenade [noted](https://mastodon.social/@hugovk/117291021060954924) the previous day's 82 reports totalled over 226,000 words.
+
 Emma Irwin has moved [Open Source Wishlist](https://sunnydeveloper.com/we-have-the-data-the-standards-the-expertise-to-solve-most-oss-sustainability-problems-dollars-not-so-much/) to a standalone teaching tool that uses [Ecosyste.ms](https://ecosyste.ms) metadata to surface single-maintainer risk and open vulnerabilities for a chosen project and generate a support plan. Irwin argues that the data, standards and expertise for open source sustainability already exist and funding is the missing piece.
 
 The PSF [announced the results](https://pyfound.blogspot.com/2026/09/announcing-2026-python-packaging.html) of the inaugural Python Packaging Council election covered [last week](/2026/09/12/this-week-in-package-management.html): Brett Cannon and Pradyun Gedam take two-year seats, and Donald Stufft, Henry Schreiner and Ralf Gommers take one-year seats, on 541 ballots.
 
-The Reproducible Builds [August report](https://reproducible-builds.org/reports/2026-08/) covers Brett Cannon's write-up of what a low-friction reproducible-builds path on PyPI would need, `daleq4py` for establishing equivalence between rebuilt Python wheels, and the AROMA+ study of build reproducibility feasibility across Maven Central.
+The Reproducible Builds [August report](https://reproducible-builds.org/reports/2026-08/) covers Brett Cannon's write-up of what a low-friction reproducible-builds path on PyPI would need, `daleq4py` for establishing equivalence between rebuilt Python wheels, and the AROMA+ study of build reproducibility feasibility across Maven Central. A separate [interview with Jochen Sprickerhof](https://reproducible-builds.org/news/2026/09/15/supporter-spotlight-jochen-sprickerhof/) covers `reproduce.debian.net` reaching over 98% reproducibility for Debian packages, up from 33% in 2024, and the May policy change blocking non-reproducible packages from entering new Debian releases.
 
 [Git 2.56.0-rc1](https://github.com/git/git/releases/tag/v2.56.0-rc1) was tagged.
 
