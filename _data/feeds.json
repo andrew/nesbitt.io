@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-19T14:25:19Z",
-  "cutoff": "2026-08-20T14:25:12Z",
+  "generated": "2026-09-19T17:23:06Z",
+  "cutoff": "2026-08-20T17:23:01Z",
   "feed_count": 102,
-  "item_count": 253,
+  "item_count": 252,
   "categories": [
     ".NET",
     "C/C++",
@@ -2037,14 +2037,6 @@
       "preview": "Feedback on this post is welcome on Discuss! We are happy to announce the first beta release of opam 2.6.0. You can view the full list of changes in the release note. This version is a beta, we invite users to test it to spot previously unnoticed bugs as we head towards the stable release. Try it! The upgrade instructions are unchanged: Either from binaries: run For Unix systems bash -c \"sh <(curl -fsSL https://opam.ocaml.org/install.sh) --version 2.6.0~beta1\"or from PowerShell for Windows systems Invoke-Expression \"& { $(Invoke-RestMethod https://opam.ocaml.org/install.ps1) } -Version 2.6.0~b",
       "source": "opam Blog",
       "category": "Registries"
-    },
-    {
-      "title": "0.99.0",
-      "url": "https://github.com/rust-lang/cargo/releases/tag/0.99.0",
-      "published": "2026-08-20T17:10:25Z",
-      "preview": "0.99.0 release",
-      "source": "Cargo releases",
-      "category": "Rust"
     }
   ]
 }
