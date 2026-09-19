@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-18T23:25:40Z",
-  "cutoff": "2026-08-19T23:25:33Z",
+  "generated": "2026-09-19T01:00:10Z",
+  "cutoff": "2026-08-20T01:00:03Z",
   "feed_count": 102,
-  "item_count": 259,
+  "item_count": 255,
   "categories": [
     ".NET",
     "C/C++",
@@ -25,8 +25,8 @@
     {
       "title": "1.17.4",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.4",
-      "published": "2026-09-18T23:15:25Z",
-      "preview": "Release 1.17.4",
+      "published": "2026-09-18T23:32:26Z",
+      "preview": "What's Changed fix(upgrade): don't claim 'latest version' for local-path installs by @DawnofGenX in #2041 New Contributors @DawnofGenX made their first contribution in #2041 Full Changelog : 1.17.3...1.17.4",
       "source": "pipx releases",
       "category": "Python"
     },
@@ -2061,38 +2061,6 @@
       "preview": "Embedded Swift is a subset of Swift that’s designed for low resource usage, making it capable of running on constrained environments like microcontrollers. Using a special compilation mode, Embedded Swift produces significantly smaller binaries than regular Swift. While a subset of the full language, the vast majority of the Swift language works exactly the same in Embedded Swift. Additional information is described in the Embedded Swift vision document . Embedded Swift is evolving rapidly. Following our updates on Embedded Swift improvements in Swift 6.3 late last year, this post describes a ",
       "source": "Swift Blog",
       "category": "Registries"
-    },
-    {
-      "title": "Bun 1.4",
-      "url": "https://bun.com/blog/bun-v1.4",
-      "published": "2026-08-20T00:53:44Z",
-      "preview": "Bun 1.4 rewrites Bun in Rust, ships built-in headless browser automation (Bun.WebView), Bun.Image, Bun.markdown, JSON5, JSONL, Terminal and cron APIs, Node.js 26.3.0 compatibility with 1,517 newly passing tests, parallel test and run, Windows ARM64, and an opt-in global virtual store for up to 7× faster installs.",
-      "source": "Bun Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "4.0.19 Released",
-      "url": "https://blog.rubygems.org/2026/08/20/4.0.19-released.html",
-      "published": "2026-08-20T00:00:00Z",
-      "preview": "RubyGems 4.0.19 includes enhancements, bug fixes and documentation and Bundler 4.0.19 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.19 RubyGems Release Notes Enhancements: Reject SafeMarshal collection lengths longer than the remaining input. Pull request #9756 by hsbt Installs bundler 4.0.19 as a default gem. Bug fixes: Fix gem uninstall –user-install crash when GEM_HOME does not exist. Pull request #9749 by hsbt D",
-      "source": "RubyGems Blog",
-      "category": "Ruby"
-    },
-    {
-      "title": "Announcing Rust 1.98.0",
-      "url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0/",
-      "published": "2026-08-20T00:00:00Z",
-      "preview": "The Rust team is happy to announce a new version of Rust, 1.98.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.98.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.98.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
-      "title": "Supply chain attack on arrayref",
-      "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
-      "published": "2026-08-20T00:00:00Z",
-      "preview": "What happened On 2026-08-20 at 7:15 UTC we got a report that the proc-macro1 crate was malicious. The Rust Security Response Team verified this to be the case: the crate had a build script that was downloading a malicious payload. This crate proc-macro1 and others like it ( proc-macro-en , aovine , arone , aronenao , tinymember ) have been deleted. Furthermore, we discovered that the popular arrayref crate had recently been republished and made to depend on this crate, with the most recent versions yanked. We have removed the malicious version and unyanked the maliciously-yanked versions. Othe",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
