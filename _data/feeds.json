@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-19T12:35:11Z",
-  "cutoff": "2026-08-20T12:35:05Z",
+  "generated": "2026-09-19T14:25:19Z",
+  "cutoff": "2026-08-20T14:25:12Z",
   "feed_count": 102,
-  "item_count": 255,
+  "item_count": 253,
   "categories": [
     ".NET",
     "C/C++",
@@ -2045,22 +2045,6 @@
       "preview": "0.99.0 release",
       "source": "Cargo releases",
       "category": "Rust"
-    },
-    {
-      "title": "Bun v1.4",
-      "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.0",
-      "published": "2026-08-20T14:08:57Z",
-      "preview": "To install Bun v1.4 curl -fsSL https://bun.com/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.com/install.ps1|iex \" To upgrade to Bun v1.4.0: bun upgrade Read the blog post : Thank you Bun is free, open source, and MIT-licensed. We receive a lot of contributions from the community, and we'd like to thank everyone who fixed a bug or contributed since Bun v1.3. @190n @alanstott @alii @alinalihassan @amdad121 @ant-kurt @anthonybaldwin @avarayr @baboon-king @billywhizz @bmwalters @Boshen @braden-w @c-stoeckl @carlsmedstad @chrislloyd @cirospaciari @colele",
-      "source": "Bun releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "Embedded Swift Improvements Coming in Swift 6.4",
-      "url": "https://swift.org/blog/embedded-swift-improvements-coming-in-swift-6.4/",
-      "published": "2026-08-20T13:45:00Z",
-      "preview": "Embedded Swift is a subset of Swift that’s designed for low resource usage, making it capable of running on constrained environments like microcontrollers. Using a special compilation mode, Embedded Swift produces significantly smaller binaries than regular Swift. While a subset of the full language, the vast majority of the Swift language works exactly the same in Embedded Swift. Additional information is described in the Embedded Swift vision document . Embedded Swift is evolving rapidly. Following our updates on Embedded Swift improvements in Swift 6.3 late last year, this post describes a ",
-      "source": "Swift Blog",
-      "category": "Registries"
     }
   ]
 }
