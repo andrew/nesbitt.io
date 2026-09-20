@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-19T19:22:38Z",
-  "cutoff": "2026-08-20T19:22:31Z",
+  "generated": "2026-09-20T01:07:37Z",
+  "cutoff": "2026-08-21T01:07:31Z",
   "feed_count": 102,
-  "item_count": 253,
+  "item_count": 251,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.103.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.4",
+      "published": "2026-09-20T00:50:44Z",
+      "preview": "44.103.4 (2026-09-20) Miscellaneous Chores deps: update dependency pnpm to v11.27.0 (main) ( #46338 ) ( ff4c78b ) Build System deps: update dependency p-map to v7.0.8 (main) ( #46342 ) ( ec68d39 ) deps: update dependency zod to v4.6.3 (main) ( #46339 ) ( dbbe126 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.103.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.3",
@@ -171,14 +179,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.0",
       "published": "2026-09-18T09:58:48Z",
       "preview": "44.101.0 (2026-09-18) Features manager: share the .npmrc host-rule wrapper between bun, deno and npm ( #46131 ) ( 4220c0f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.100.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.100.0",
-      "published": "2026-09-18T08:57:20Z",
-      "preview": "44.100.0 (2026-09-18) Features manager/dockerfile: extract apt install packages from RUN instructions ( #46247 ) ( 6add79a ) Code Refactoring manager/dockerfile: share the RUN command parsing ( #46299 ) ( 56983c3 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -2029,22 +2029,6 @@
       "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionType . Tcp The remediation was impleme",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "Enabling the next-generation trait solver on nightly",
-      "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly/",
-      "published": "2026-08-21T00:00:00Z",
-      "preview": "After nearly 4 years of active development, the next-generation trait solver is close to stabilization. We are enabling it by default on nightly to surface any remaining issues and plan to stabilize it in the next months. This is the largest single change to the Rust compiler since its initial release. It completely replaces how we prove where-clauses, normalize associated types, and much more. Please try out the latest nightly and open an issue if you encounter any bugs or regressions. This is an internal component of the compiler. The main benefits of this rework will come in the future. The",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
-      "title": "opam 2.6.0~beta1 release",
-      "url": "https://opam.ocaml.org/blog/opam-2-6-0-beta1/",
-      "published": "2026-08-21T00:00:00Z",
-      "preview": "Feedback on this post is welcome on Discuss! We are happy to announce the first beta release of opam 2.6.0. You can view the full list of changes in the release note. This version is a beta, we invite users to test it to spot previously unnoticed bugs as we head towards the stable release. Try it! The upgrade instructions are unchanged: Either from binaries: run For Unix systems bash -c \"sh <(curl -fsSL https://opam.ocaml.org/install.sh) --version 2.6.0~beta1\"or from PowerShell for Windows systems Invoke-Expression \"& { $(Invoke-RestMethod https://opam.ocaml.org/install.ps1) } -Version 2.6.0~b",
-      "source": "opam Blog",
-      "category": "Registries"
     }
   ]
 }
