@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-20T21:25:28Z",
-  "cutoff": "2026-08-21T21:25:21Z",
+  "generated": "2026-09-20T22:25:27Z",
+  "cutoff": "2026-08-21T22:25:17Z",
   "feed_count": 102,
   "item_count": 248,
   "categories": [
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v11.27.1",
+      "title": "pnpm 11.27.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.27.1",
-      "published": "2026-09-20T21:11:42Z",
-      "preview": "=v11.27.1",
+      "published": "2026-09-20T21:38:41Z",
+      "preview": "Patch Changes pn , pnpx , and pnx now run the pnpm installed alongside them. They used to look pnpm up on PATH . That failed when the directory holding them was not on PATH , and it silently handed the call to an unrelated pnpm when one came first there #14803 . The @zkochan/cmd-shim package is now available as @pnpm/bins.cmd-shim . pnpm cache list-registries now prints the registry URL, matching pnpm cache view . It printed https%3A+registry.npmjs.org before and prints https://registry.npmjs.org/ now #15046 . pnpm deploy no longer installs the dependencies of the workspace root project into t",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
