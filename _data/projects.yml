@@ -5,12 +5,12 @@
     lists, updated daily.
   stars: 218
   language:
-  pushed_at: '2026-09-13T00:55:06Z'
+  pushed_at: '2026-09-19T00:47:48Z'
 - name: gitgres
   url: https://github.com/andrew/gitgres
   description: Store git objects and refs in PostgreSQL tables. Standard git push/clone
     work against the database through a libgit2-based backend.
-  stars: 89
+  stars: 90
   language: C
   pushed_at: '2026-03-08T20:14:08Z'
 - name: nesbitt.io
@@ -19,13 +19,13 @@
     about package management, software supply chain security, and open source infrastructure. '
   stars: 38
   language: HTML
-  pushed_at: '2026-09-13T06:43:37Z'
+  pushed_at: '2026-09-20T06:17:09Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
   stars: 25
   language: Ruby
-  pushed_at: '2026-09-02T10:58:39Z'
+  pushed_at: '2026-09-17T18:59:12Z'
 - name: managing-dependencies
   url: https://github.com/andrew/managing-dependencies
   description: Claude Code skill for evaluating packages and managing dependencies
@@ -46,7 +46,7 @@
     the VERS spec.
   stars: 13
   language: Ruby
-  pushed_at: '2026-09-08T09:06:32Z'
+  pushed_at: '2026-09-16T07:56:44Z'
 - name: purl
   url: https://github.com/andrew/purl
   description: A Ruby library for parsing, validating, and generating Package URLs
@@ -54,38 +54,31 @@
   stars: 13
   language: Ruby
   pushed_at: '2026-08-04T09:23:32Z'
-- name: swhid
-  url: https://github.com/andrew/swhid
-  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
-  stars: 12
-  language: Ruby
-  pushed_at: '2026-04-27T10:05:45Z'
 - name: go-bundler
   url: https://github.com/andrew/go-bundler
   description: Go-style imports for Ruby
   stars: 12
   language: Ruby
   pushed_at: '2026-04-27T10:05:30Z'
+- name: swhid
+  url: https://github.com/andrew/swhid
+  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
+  stars: 12
+  language: Ruby
+  pushed_at: '2026-04-27T10:05:45Z'
 - name: ruby-upgrade-action
   url: https://github.com/andrew/ruby-upgrade-action
   description: GitHub action to upgrade version of Ruby in various places to the latest
   stars: 11
   language:
-  pushed_at: '2026-07-19T00:33:43Z'
+  pushed_at: '2026-09-20T00:06:05Z'
 - name: pycon
   url: https://github.com/andrew/pycon
   description: Data collection and analysis for a PyCon talk on GitHub Actions security
     across Python packages.
   stars: 11
   language: HTML
-  pushed_at: '2026-05-23T08:53:15Z'
-- name: state-of-oss-funding
-  url: https://github.com/andrew/state-of-oss-funding
-  description: 'The State of OSS Funding data: Insights from ecosyste.ms - talk at
-    CHAOSScon North America 2025'
-  stars: 11
-  language: HTML
-  pushed_at: '2026-05-15T17:17:28Z'
+  pushed_at: '2026-09-19T08:27:40Z'
 - name: omni_git
   url: https://github.com/andrew/omni_git
   description: A PostgreSQL extension that stores git repositories in database tables
@@ -93,6 +86,13 @@
   stars: 11
   language: PLpgSQL
   pushed_at: '2026-03-08T20:14:28Z'
+- name: state-of-oss-funding
+  url: https://github.com/andrew/state-of-oss-funding
+  description: 'The State of OSS Funding data: Insights from ecosyste.ms - talk at
+    CHAOSScon North America 2025'
+  stars: 11
+  language: HTML
+  pushed_at: '2026-05-15T17:17:28Z'
 - name: json-schema-diff
   url: https://github.com/andrew/json-schema-diff
   description: Semantic diff for JSON files using JSON Schema metadata
@@ -124,12 +124,6 @@
   stars: 8
   language: Ruby
   pushed_at: '2026-07-27T10:32:13Z'
-- name: changelog-parser
-  url: https://github.com/andrew/changelog-parser
-  description: Parse changelog files into structured data
-  stars: 7
-  language: Ruby
-  pushed_at: '2026-04-27T10:05:27Z'
 - name: zizmor-research
   url: https://github.com/andrew/zizmor-research
   description: zizmor analysis of 31,916 github actions using alpha of ecosyste.ms
@@ -137,18 +131,24 @@
   stars: 7
   language:
   pushed_at: '2025-06-13T20:39:41Z'
+- name: changelog-parser
+  url: https://github.com/andrew/changelog-parser
+  description: Parse changelog files into structured data
+  stars: 7
+  language: Ruby
+  pushed_at: '2026-04-27T10:05:27Z'
+- name: weekend-at-bernies
+  url: https://github.com/andrew/weekend-at-bernies
+  description: Data collection for Weekend at Bernie's blog post
+  stars: 5
+  language: Ruby
+  pushed_at: '2026-09-15T20:43:56Z'
 - name: sbom
   url: https://github.com/andrew/sbom
   description: Parse, generate, and validate Software Bill of Materials (SBOM)
   stars: 5
   language: Ruby
   pushed_at: '2026-09-06T18:37:24Z'
-- name: weekend-at-bernies
-  url: https://github.com/andrew/weekend-at-bernies
-  description: Data collection for Weekend at Bernie's blog post
-  stars: 5
-  language: Ruby
-  pushed_at: '2026-08-09T17:36:20Z'
 - name: homebrew-actions
   url: https://github.com/andrew/homebrew-actions
   description: Install GitHub Actions from a Homebrew tap
@@ -160,7 +160,7 @@
   description: Content-addressed vulnerability identifiers
   stars: 4
   language: Go
-  pushed_at: '2026-09-10T20:34:18Z'
+  pushed_at: '2026-09-16T11:32:38Z'
 - name: critical-ai-scan
   url: https://github.com/andrew/critical-ai-scan
   description: Survey of explicitly disclosed AI involvement in the git history of
@@ -168,12 +168,6 @@
   stars: 4
   language: Go
   pushed_at: '2026-08-03T16:39:29Z'
-- name: bundler-resolver-logger
-  url: https://github.com/andrew/bundler-resolver-logger
-  description: Experimental structured tracing for Bundler's PubGrub resolver
-  stars: 4
-  language: Ruby
-  pushed_at: '2026-07-16T21:20:49Z'
 - name: package-name-prefixes
   url: https://github.com/andrew/package-name-prefixes
   description: Prefix analysis of package names across PyPI, npm, crates.io, rubygems,
@@ -181,12 +175,12 @@
   stars: 4
   language: Ruby
   pushed_at: '2026-07-23T10:10:30Z'
-- name: foss-backstage
-  url: https://github.com/andrew/foss-backstage
-  description: Is InnerSource Commons good for open source?
-  stars: 3
+- name: bundler-resolver-logger
+  url: https://github.com/andrew/bundler-resolver-logger
+  description: Experimental structured tracing for Bundler's PubGrub resolver
+  stars: 4
   language: Ruby
-  pushed_at: '2026-07-31T08:31:08Z'
+  pushed_at: '2026-07-16T21:20:49Z'
 - name: diffoscope
   url: https://github.com/andrew/diffoscope
   description: Ruby bindings for diffoscope - Compare packages, tarballs, files, URLs,
@@ -200,18 +194,24 @@
   stars: 3
   language: Go
   pushed_at: '2026-08-09T17:30:21Z'
-- name: sarif
-  url: https://github.com/andrew/sarif
-  description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
-  stars: 3
-  language: Ruby
-  pushed_at: '2026-06-19T10:06:04Z'
 - name: jekyll-stats
   url: https://github.com/andrew/jekyll-stats
   description: Jekyll plugin that generates site statistics
   stars: 3
   language: Ruby
   pushed_at: '2026-08-30T16:01:43Z'
+- name: foss-backstage
+  url: https://github.com/andrew/foss-backstage
+  description: Is InnerSource Commons good for open source?
+  stars: 3
+  language: Ruby
+  pushed_at: '2026-07-31T08:31:08Z'
+- name: sarif
+  url: https://github.com/andrew/sarif
+  description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
+  stars: 3
+  language: Ruby
+  pushed_at: '2026-06-19T10:06:04Z'
 - name: gitlocal
   url: https://github.com/andrew/gitlocal
   description: A pre-commit hook for .gitlocal marked files
@@ -236,13 +236,6 @@
   stars: 2
   language: Ruby
   pushed_at: '2026-04-27T10:05:48Z'
-- name: gitlab-faraday
-  url: https://github.com/andrew/gitlab-faraday
-  description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
-    updated to use Faraday
-  stars: 2
-  language: Ruby
-  pushed_at: '2026-08-09T17:36:16Z'
 - name: embedded-rust-packages
   url: https://github.com/andrew/embedded-rust-packages
   description: Find critical open-source packages that ship Rust code inside a non-Rust
@@ -250,6 +243,13 @@
   stars: 2
   language: Ruby
   pushed_at: '2026-08-21T18:28:33Z'
+- name: gitlab-faraday
+  url: https://github.com/andrew/gitlab-faraday
+  description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
+    updated to use Faraday
+  stars: 2
+  language: Ruby
+  pushed_at: '2026-08-09T17:36:16Z'
 - name: oss-community-benchmarks
   url: https://github.com/andrew/oss-community-benchmarks
   description: A benchmark framework where maintainers define what good AI-generated
