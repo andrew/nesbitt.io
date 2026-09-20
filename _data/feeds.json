@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-20T02:36:40Z",
-  "cutoff": "2026-08-21T02:36:33Z",
+  "generated": "2026-09-20T03:33:31Z",
+  "cutoff": "2026-08-21T03:33:26Z",
   "feed_count": 102,
-  "item_count": 251,
+  "item_count": 247,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.103.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.6",
+      "published": "2026-09-20T02:46:32Z",
+      "preview": "44.103.6 (2026-09-20) Build System deps: update dependency @renovatebot/detect-tools to v4.0.19 (main) ( #46341 ) ( bdb9f2e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.103.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.5",
@@ -171,14 +179,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.2",
       "published": "2026-09-18T11:42:24Z",
       "preview": "44.101.2 (2026-09-18) Build System deps: update dependency adm-zip to v0.6.1 (main) ( #46318 ) ( c7a2d36 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.101.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.1",
-      "published": "2026-09-18T11:24:45Z",
-      "preview": "44.101.1 (2026-09-18) Bug Fixes host-rules: ignore URL credentials when matching matchHost ( #46128 ) ( 17466ce ) manager/swift: don't rewrite Package.resolved pins in unrelated packages ( #44317 ) ( 8a378fc ) manager: stop logging credential-bearing env and commands ( #46129 ) ( 606b0b3 ) python: share PyPI index credential resolution ( #46127 ) ( f0dd862 ) Miscellaneous Chores deps: update dependency memfs to v4.75.0 (main) ( #46317 ) ( c9be847 ) Code Refactoring workers/lookup: resolve the current version from one release list ( #46143 ) ( 20015e4 ) workers/lookup: share the release classif",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1997,38 +1997,6 @@
       "preview": "dnf5daemon-server: Validate locale strings Add systemd inhibitor lock plugin Add IPlugin2_2 plugin interface with cleanup hooks doc: Drop Sphinx <4 compatibility workarounds doc: Copy literalinclude sources into the processed dir doc: use version '1.2' in vendor change policy examples doc: Document vendor change policy config file version 1.2 vendor policy: Add cfg file version 1.2 with additional comparators Remove libdnf5::base::Transaction::persistence to restore ABI interaction_callbacks: add ABORT return value expired-pgp-keys: merge related sentences into one translatable string expired-",
       "source": "DNF5 releases",
       "category": "System"
-    },
-    {
-      "title": "1.13.0",
-      "url": "https://github.com/sbt/sbt/releases/tag/v1.13.0",
-      "published": "2026-08-21T03:18:37Z",
-      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-943m-f264-54p4 from @stasimus that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via BSP, similar to a recent bug that was found in JSON-RPC. sbt 1.13.0 and 2.0.7 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionTy",
-      "source": "sbt releases",
-      "category": "Maven"
-    },
-    {
-      "title": "2.0.7",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.7",
-      "published": "2026-08-21T03:17:58Z",
-      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-943m-f264-54p4 from @stasimus that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via BSP, similar to a recent bug that was found in JSON-RPC. sbt 1.13.0 and 2.0.7 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionTy",
-      "source": "sbt releases",
-      "category": "Maven"
-    },
-    {
-      "title": "1.12.15",
-      "url": "https://github.com/sbt/sbt/releases/tag/v1.12.15",
-      "published": "2026-08-21T03:11:15Z",
-      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. We recommend removing the serverConnectionType setting, or upgrading to a patched version or later: Global / serverConnectionType := ConnectionType . Tcp The remediation was implemented by @eed3si9n and @anatoliykmetyuk . 🐛 bug fixes bport: Fixes sbt runner parsing build.properties with whitespaces by @anatoliykmetyuk ",
-      "source": "sbt releases",
-      "category": "Maven"
-    },
-    {
-      "title": "2.0.6",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.6",
-      "published": "2026-08-21T03:10:43Z",
-      "preview": "⚠️ Remote code execution vulnerability fix sbt team received a security report GHSA-m2pw-22cj-jq4v from @arpitjain099 that when the serverConnectionType is set to Tcp , an attacker is able to execute arbitrary code remotely via the sbt server. sbt 1.12.15 and 2.0.6 fix this bug. Builds with the default serverConnectionType are not affected. In affected builds, we recommend removing the serverConnectionType setting, or upgrading to a patched version or later. In an affected build, the setting might look like this: Global / serverConnectionType := ConnectionType . Tcp The remediation was impleme",
-      "source": "sbt releases",
-      "category": "Maven"
     }
   ]
 }
