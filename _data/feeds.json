@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-20T10:26:11Z",
-  "cutoff": "2026-08-21T10:26:05Z",
+  "generated": "2026-09-20T12:35:37Z",
+  "cutoff": "2026-08-21T12:35:31Z",
   "feed_count": 102,
-  "item_count": 248,
+  "item_count": 246,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v2026.9.12",
+      "title": "v2026.9.12: Tasks that require daemons, worktree-aware ports and URLs, Scoop and zypper packages, and official Docker images",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.12",
-      "published": "2026-09-20T09:59:26Z",
-      "preview": "(bootstrap) manage Windows packages with scoop by @jdx in [#133…",
+      "published": "2026-09-20T11:47:12Z",
+      "preview": "The experimental [daemons] system grows substantially: tasks can declare the daemons they need, [daemon_groups] selects subsets of a project's services, port = \"auto\" and stable <NAME>_URL hostnames let several git worktrees run the same stack side by side, and CockroachDB, NATS, and SpiceDB join the PostgreSQL and Redis presets. Outside daemons, [bootstrap.packages] gains scoop: and zypper: managers, mise install --system elevates with sudo only for the final publish step, official mise images are published to GHCR and Docker Hub, and a run of brew-cask fixes lets many more casks install unat",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -1989,22 +1989,6 @@
       "preview": "This is the first beta release of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for more details and the upgrade instructions. Changelog : Changes Init Do not make opam init --reinit ask to retry the command when upgrading from a 2.1 root [ #7058 @kit-ty-kate - fix #7057 ] opam init --reinit now reg",
       "source": "opam releases",
       "category": "Registries"
-    },
-    {
-      "title": "5.4.3.0",
-      "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.3.0",
-      "published": "2026-08-21T12:31:16Z",
-      "preview": "=================================== !!!This release is broken - do not use!!! 5.4.3.0 unintentionally broke ABI (see #2869 for details) which crashes any application built against 5.4.2.1 or earlier when run against this release (e.g. PackageKit). Recommendation: skip 5.4.3.0 and upgrade directly to 5.4.4.0. ==================================== Update translations from weblate Port bootc functionality from DNF4 Add --[no-]allow-vendor-change option Warn when upgrades are silently skipped due to vendor change restriction Add remove --duplicates option to remove older duplicate packages Introduc",
-      "source": "DNF5 releases",
-      "category": "System"
-    },
-    {
-      "title": "5.4.4.0",
-      "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.4.0",
-      "published": "2026-08-21T12:26:29Z",
-      "preview": "dnf5daemon-server: Validate locale strings Add systemd inhibitor lock plugin Add IPlugin2_2 plugin interface with cleanup hooks doc: Drop Sphinx <4 compatibility workarounds doc: Copy literalinclude sources into the processed dir doc: use version '1.2' in vendor change policy examples doc: Document vendor change policy config file version 1.2 vendor policy: Add cfg file version 1.2 with additional comparators Remove libdnf5::base::Transaction::persistence to restore ABI interaction_callbacks: add ABORT return value expired-pgp-keys: merge related sentences into one translatable string expired-",
-      "source": "DNF5 releases",
-      "category": "System"
     }
   ]
 }
