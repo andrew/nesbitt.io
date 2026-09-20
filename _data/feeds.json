@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-20T03:33:31Z",
-  "cutoff": "2026-08-21T03:33:26Z",
+  "generated": "2026-09-20T07:28:38Z",
+  "cutoff": "2026-08-21T07:28:30Z",
   "feed_count": 102,
-  "item_count": 247,
+  "item_count": 248,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.5.1",
+      "url": "https://github.com/python-poetry/poetry/releases/tag/2.5.1",
+      "published": "2026-09-20T07:17:20Z",
+      "preview": "Fixed Fix an issue where uninstalling a package with installer.builtin-uninstall set failed with a TypeError ( #11077 ).",
+      "source": "Poetry releases",
+      "category": "Python"
+    },
     {
       "title": "44.103.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.6",
