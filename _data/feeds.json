@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-20T14:25:17Z",
-  "cutoff": "2026-08-21T14:25:12Z",
+  "generated": "2026-09-20T16:27:38Z",
+  "cutoff": "2026-08-21T16:27:32Z",
   "feed_count": 102,
-  "item_count": 246,
+  "item_count": 248,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.17.5",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.5",
+      "published": "2026-09-20T15:50:20Z",
+      "preview": "What's Changed fix(reinstall): propagate returned failures in reinstall-all by @jakezwang in #2043 New Contributors @jakezwang made their first contribution in #2043 Full Changelog : 1.17.4...1.17.5",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "v6.10.4",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.4",
+      "published": "2026-09-20T15:25:55Z",
+      "preview": "Patch Changes 7730e60 : Update express to 4.22.3 — directly and through @verdaccio/middleware 8.1.4, verdaccio-audit 13.1.4 and @verdaccio/test-helper 4.1.4 — so the registry's entire HTTP stack resolves qs 6.16.0, which fixes several denial-of-service advisories in query-string handling: a remotely triggerable crash in qs.stringify (TypeError on crafted input), an arrayLimit bypass through bracket-key comma parsing that allows memory exhaustion, and a DoS via an attacker-controlled isBuffer check ( GHSA-4mjr-xmp4-gh2g ). A body-parser/qs resolution covers the one remaining consumer that pins ",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.103.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.7",
@@ -53,6 +69,14 @@
       "preview": "Fixed Fix an issue where uninstalling a package with installer.builtin-uninstall set failed with a TypeError ( #11077 ).",
       "source": "Poetry releases",
       "category": "Python"
+    },
+    {
+      "title": "maven-4.0.0-rc-7",
+      "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-7",
+      "published": "2026-09-20T06:53:30Z",
+      "preview": "fix: add -Dmaven.maven3Personality hint to FATAL message for wrong pa…",
+      "source": "Maven releases",
+      "category": "Maven"
     },
     {
       "title": "44.103.6",
@@ -1157,14 +1181,6 @@
       "preview": "Release Notes Released on 2026-09-04. Enhancements Attempt to revoke short-lived PyPI trusted-publishing tokens after uv publish completes, including when publishing fails ( #21423 ) Preview features Omit exclude-newer-package settings for packages outside the resolution from uv.lock with the missing-exclude-newer-package-lock preview feature ( #21455 ) Show terminal dependency cycles in uv tree --invert output ( #21404 ) Performance Speed up locking large workspaces with conflicts by excluding unrelated extras and dependency groups from conflict simplification ( #21399 ) Speed up uv publish b",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "@verdaccio/ui-i18n@10.0.0-next-9.5",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-i18n%4010.0.0-next-9.5",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "@verdaccio/ui-theme@9.0.0-next-9.31",
