@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-20T12:35:37Z",
-  "cutoff": "2026-08-21T12:35:31Z",
+  "generated": "2026-09-20T14:25:17Z",
+  "cutoff": "2026-08-21T14:25:12Z",
   "feed_count": 102,
   "item_count": 246,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.103.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.7",
+      "published": "2026-09-20T13:45:58Z",
+      "preview": "44.103.7 (2026-09-20) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.6 (main) ( #46345 ) ( a38abd5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.9.12: Tasks that require daemons, worktree-aware ports and URLs, Scoop and zypper packages, and official Docker images",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.12",
@@ -197,14 +205,6 @@
       "preview": "Insert 7.12.0.24 into main on 09/18/2026 12:43:53",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.101.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.2",
-      "published": "2026-09-18T11:42:24Z",
-      "preview": "44.101.2 (2026-09-18) Build System deps: update dependency adm-zip to v0.6.1 (main) ( #46318 ) ( c7a2d36 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v9.9.0-M2",
