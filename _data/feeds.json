@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-20T19:23:01Z",
-  "cutoff": "2026-08-21T19:22:56Z",
+  "generated": "2026-09-20T21:25:28Z",
+  "cutoff": "2026-08-21T21:25:21Z",
   "feed_count": 102,
   "item_count": 248,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v11.27.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.27.1",
+      "published": "2026-09-20T21:11:42Z",
+      "preview": "=v11.27.1",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "archive/half-b-recording-design",
+      "url": "https://github.com/jdx/mise/releases/tag/archive%2Fhalf-b-recording-design",
+      "published": "2026-09-20T20:24:42Z",
+      "preview": "fix(history): match exclude patterns by name, absolute path, or any d…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.104.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.104.0",
@@ -687,14 +703,6 @@
       "category": "System"
     },
     {
-      "title": "v2026.9.8: Top-level `mise dot` command, faster brew bootstrap installs, and npm safety-check fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.8",
-      "published": "2026-09-14T18:20:23Z",
-      "preview": "Dotfile management moves to the top level as mise dot , Homebrew bootstrap installs run their download, extraction, and linking stages concurrently, and several install paths are corrected: embedded aube reputation gates now report the real reason and honor --yes , PyPI tools fall back to version-only installs when a dependency graph cannot be built, lazy tools no longer trigger missing: warnings, and lockfiles no longer resurrect disabled backends. Added dotfiles: The full dotfiles command tree is now available as mise dotfiles , with mise dot as a short alias. mise bootstrap dotfiles remains",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v0.396.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.396.0",
       "published": "2026-09-14T17:05:38Z",
@@ -1100,14 +1108,6 @@
       "published": "2026-09-07T00:00:00Z",
       "preview": "pnpm 11.26 brings the JavaScript CLI level with what pnpm 12 gained over the",
       "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 11.26",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.26.0",
-      "published": "2026-09-06T23:50:11Z",
-      "preview": "Minor Changes Catalogs can now resolve workspace dependencies through the workspace: protocol. pnpm remove and pnpm update now accept --trust-lockfile , --no-trust-lockfile , --trust-policy , --trust-policy-exclude , and --trust-policy-ignore-after . pnpm remove checks the whole lockfile against the active policies unless --trust-lockfile is set. Added pnpm change check for CI validation of package versions against the versioning.epics bands and versioning.fixed groups in pnpm-workspace.yaml . Patch Changes Fetch and tarball errors and retry logs now hide URL credentials, query strings, and fr",
-      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
