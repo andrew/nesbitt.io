@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-20T01:07:37Z",
-  "cutoff": "2026-08-21T01:07:31Z",
+  "generated": "2026-09-20T02:36:40Z",
+  "cutoff": "2026-08-21T02:36:33Z",
   "feed_count": 102,
   "item_count": 251,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.103.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.5",
+      "published": "2026-09-20T01:45:26Z",
+      "preview": "44.103.5 (2026-09-20) Build System deps: update dependency zod to v4.6.4 (main) ( #46344 ) ( 2c131af )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.103.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.4",
@@ -171,14 +179,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.1",
       "published": "2026-09-18T11:24:45Z",
       "preview": "44.101.1 (2026-09-18) Bug Fixes host-rules: ignore URL credentials when matching matchHost ( #46128 ) ( 17466ce ) manager/swift: don't rewrite Package.resolved pins in unrelated packages ( #44317 ) ( 8a378fc ) manager: stop logging credential-bearing env and commands ( #46129 ) ( 606b0b3 ) python: share PyPI index credential resolution ( #46127 ) ( f0dd862 ) Miscellaneous Chores deps: update dependency memfs to v4.75.0 (main) ( #46317 ) ( c9be847 ) Code Refactoring workers/lookup: resolve the current version from one release list ( #46143 ) ( 20015e4 ) workers/lookup: share the release classif",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.101.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.101.0",
-      "published": "2026-09-18T09:58:48Z",
-      "preview": "44.101.0 (2026-09-18) Features manager: share the .npmrc host-rule wrapper between bun, deno and npm ( #46131 ) ( 4220c0f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
