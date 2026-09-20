@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-20T22:25:27Z",
-  "cutoff": "2026-08-21T22:25:17Z",
+  "generated": "2026-09-20T23:24:23Z",
+  "cutoff": "2026-08-21T23:24:16Z",
   "feed_count": 102,
-  "item_count": 248,
+  "item_count": 249,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "Hatchling v1.32.4",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.4",
+      "published": "2026-09-20T22:49:07Z",
+      "preview": "Fixed: Revert the extra type parameter added to BuildHookInterface in 1.32.3, which broke plugins that subscripted the interface with a single argument (e.g. BuildHookInterface[MyConfig] ) by raising TypeError at import time. BuilderConfig is likewise no longer generic, restoring the pre-1.32.3 plugin interface. Strip spaces around version metadata when using original input for CalVer to keep leading zeroes.",
+      "source": "Hatch releases",
+      "category": "Python"
+    },
+    {
       "title": "pnpm 11.27.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.27.1",
       "published": "2026-09-20T21:38:41Z",
@@ -35,6 +43,14 @@
       "url": "https://github.com/jdx/mise/releases/tag/archive%2Fhalf-b-recording-design",
       "published": "2026-09-20T20:24:42Z",
       "preview": "fix(history): match exclude patterns by name, absolute path, or any d…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "archive/nested-repo-sync: fix(history): persist the ownership record only after a capture succeeds",
+      "url": "https://github.com/jdx/mise/releases/tag/archive%2Fnested-repo-sync",
+      "published": "2026-09-20T19:29:12Z",
+      "preview": "Review follow-up: the record of nested repositories this machine's own walk found was replaced before the checkpoint was built, so a capture (or the walk itself) failing after a repository was removed cleared the path from the record while no checkpoint held the removal, and the retry took the old pointer for an inherited one. The record is written only on a successful outcome now, after the commit or at the unchanged return; any failure leaves the previous record standing. Unit test on the record, e2e forces a failing save between the removal and the retry. Co-Authored-By: Claude Fable 5.1 no",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -709,14 +725,6 @@
       "preview": "What's Changed Remove fully rolled out feature flags by @ruben-pachecocaldera in #16046 build(deps): bump hcl2json to v0.6.9 by @JamieMagee in #16188 build(deps): bump PowerShell to 7.6.5 by @JamieMagee in #16189 build(deps): bump Yarn to 4.18.0 by @JamieMagee in #16187 build(deps): bump git-shim to v1.5.0 by @JamieMagee in #16186 Add shared delivery for unavailable cooldown warnings by @v-robaiken in #16142 Bump library/golang in /go_modules by @dependabot [bot] in #16097 Bump the all-actions group across 1 directory with 2 updates by @dependabot [bot] in #16198 Give the security refresh oper",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "vfox-v2026.9.10",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.10",
-      "published": "2026-09-14T15:37:42Z",
-      "preview": "Release vfox 2026.9.10",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "5.4.5.0",
