@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-21T15:27:42Z",
-  "cutoff": "2026-08-22T15:27:19Z",
+  "generated": "2026-09-21T16:31:19Z",
+  "cutoff": "2026-08-22T16:31:13Z",
   "feed_count": 102,
-  "item_count": 236,
+  "item_count": 251,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.106.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.106.0",
+      "published": "2026-09-21T16:09:23Z",
+      "preview": "44.106.0 (2026-09-21) Features platform: one \"read repo file at ref\" helper per host ( #46190 ) ( 58d9a01 ) Code Refactoring changelog: derive api base urls from the platform family table ( #46193 ) ( a88aaed ) changelog: move platform fetchers onto ChangeLogSource ( #46192 ) ( 66f6747 ) constants: add a platform family capability table ( #46191 ) ( 0583e54 ) http: read platform families instead of the host type aliases ( #46347 ) ( 853290d ) platform: drop the GiteaLikeHttp alias ( #46098 ) ( 5fdc338 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "7.0.5",
       "url": "https://github.com/Homebrew/brew/releases/tag/7.0.5",
@@ -167,6 +175,14 @@
       "category": "Python"
     },
     {
+      "title": "v6.10.4",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.4",
+      "published": "2026-09-20T15:25:55Z",
+      "preview": "Patch Changes 7730e60 : Update express to 4.22.3 — directly and through @verdaccio/middleware 8.1.4, verdaccio-audit 13.1.4 and @verdaccio/test-helper 4.1.4 — so the registry's entire HTTP stack resolves qs 6.16.0, which fixes several denial-of-service advisories in query-string handling: a remotely triggerable crash in qs.stringify (TypeError on crafted input), an arrayLimit bypass through bracket-key comma parsing that allows memory exhaustion, and a DoS via an attacker-controlled isBuffer check ( GHSA-4mjr-xmp4-gh2g ). A body-parser/qs resolution covers the one remaining consumer that pins ",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "44.103.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.7",
       "published": "2026-09-20T13:45:58Z",
@@ -197,14 +213,6 @@
       "preview": "Fixed Fix an issue where uninstalling a package with installer.builtin-uninstall set failed with a TypeError ( #11077 ).",
       "source": "Poetry releases",
       "category": "Python"
-    },
-    {
-      "title": "44.103.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.6",
-      "published": "2026-09-20T02:46:32Z",
-      "preview": "44.103.6 (2026-09-20) Build System deps: update dependency @renovatebot/detect-tools to v4.0.19 (main) ( #46341 ) ( bdb9f2e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.5.0",
@@ -735,6 +743,14 @@
       "category": "System"
     },
     {
+      "title": "v0.396.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.396.0",
+      "published": "2026-09-14T17:05:38Z",
+      "preview": "What's Changed Remove fully rolled out feature flags by @ruben-pachecocaldera in #16046 build(deps): bump hcl2json to v0.6.9 by @JamieMagee in #16188 build(deps): bump PowerShell to 7.6.5 by @JamieMagee in #16189 build(deps): bump Yarn to 4.18.0 by @JamieMagee in #16187 build(deps): bump git-shim to v1.5.0 by @JamieMagee in #16186 Add shared delivery for unavailable cooldown warnings by @v-robaiken in #16142 Bump library/golang in /go_modules by @dependabot [bot] in #16097 Bump the all-actions group across 1 directory with 2 updates by @dependabot [bot] in #16198 Give the security refresh oper",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "5.4.5.0",
       "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.5.0",
       "published": "2026-09-14T11:47:38Z",
@@ -1087,6 +1103,14 @@
       "category": "Multi-language"
     },
     {
+      "title": "v0.395.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.395.0",
+      "published": "2026-09-07T13:21:16Z",
+      "preview": "What's Changed fix: handle nil hash results from unavailable Python package indexes by @sachin-sandhu in #16078 Skip unsupported Maven wrappers instead of failing the Maven job by @kbukum1 in #16090 Migrate test runner to turbo_tests2 by @jeffwidman in #15991 Bump the dev-dependencies group across 2 directories with 5 updates by @dependabot [bot] in #16085 Bump the prod-dependencies group across 2 directories with 13 updates by @dependabot [bot] in #16072 Bump gradle in /gradle by @dependabot [bot] in #16098 Bump the \"uv-ecosystem\" group with 2 updates across multiple ecosystems by @dependabot",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "2.78",
       "url": "https://github.com/canonical/snapd/releases/tag/2.78",
       "published": "2026-09-07T10:03:36Z",
@@ -1135,6 +1159,14 @@
       "category": "Registries"
     },
     {
+      "title": "v6.10.3",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.3",
+      "published": "2026-09-06T06:57:04Z",
+      "preview": "Patch Changes 98b58ef : fix: do not fetch client-controlled dist.tarball urls off-uplink @cOmrade3267 Only fetch a tarball url that a configured uplink actually serves. Off-uplink urls are fetched without uplink credentials and only for uplink-synced packages (recorded in _distfiles ); a locally published package returns 404 instead of being fetched. Prevents sending an uplink Authorization header to an unrelated host.",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "7.12.0.4",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.4",
       "published": "2026-09-05T12:17:09Z",
@@ -1181,6 +1213,70 @@
       "preview": "Release Notes Released on 2026-09-04. Enhancements Attempt to revoke short-lived PyPI trusted-publishing tokens after uv publish completes, including when publishing fails ( #21423 ) Preview features Omit exclude-newer-package settings for packages outside the resolution from uv.lock with the missing-exclude-newer-package-lock preview feature ( #21455 ) Show terminal dependency cycles in uv tree --invert output ( #21404 ) Performance Speed up locking large workspaces with conflicts by excluding unrelated extras and dependency groups from conflict simplification ( #21399 ) Speed up uv publish b",
       "source": "uv releases",
       "category": "Python"
+    },
+    {
+      "title": "@verdaccio/ui-theme@9.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/url@14.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/web@9.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-audit@14.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-auth-memory@14.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-htpasswd@14.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-memory@14.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio@9.0.0-next-9.31",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.31",
+      "published": "2026-09-04T17:10:38Z",
+      "preview": "chore: update versions (next-9) ( #6189 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
     },
     {
       "title": "What's new in Swift: August 2026 Edition",
@@ -1263,6 +1359,14 @@
       "category": "Containers"
     },
     {
+      "title": "v0.45.1",
+      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.45.1",
+      "published": "2026-09-03T16:35:17Z",
+      "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights This release fixes an error that prevented the new jj-core crate from being published. See the release notes for v0.45.0 for more changes since v0.44.0. Fixed bugs Building without Cargo.lock (e.g. cargo install jj-cli ) works again after all versions of the bisync crate, a transitive dependency of gix, were yanked. Signatures on commits in SHA-256 Git repositories are now stored under the gpgsig-sha256 header, as Git does, so Git recognizes",
+      "source": "jj releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "v0.79.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.79.0",
       "published": "2026-09-03T15:16:32Z",
@@ -1301,6 +1405,14 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
+    },
+    {
+      "title": "v0.45.0",
+      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.45.0",
+      "published": "2026-09-03T04:58:53Z",
+      "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights A new jj converge command was added to help automatically resolve divergent commits by combining them appropriately. Breaking changes jj config {edit,set,unset} --user now targets the first loaded user configuration file (e.g. ~/.config/jj/config.toml or the first file in conf.d/ ) instead of prompting interactively when multiple files exist. Use --file <PATH> to target a specific config file. jj git import in non-colocated repositories no l",
+      "source": "jj releases",
+      "category": "Infrastructure"
     },
     {
       "title": "Forgejo Runner v13.1.0 is available",
@@ -1533,6 +1645,14 @@
       "preview": "v2.150015",
       "source": "CPAN Meta releases",
       "category": "Registries"
+    },
+    {
+      "title": "v0.394.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.394.0",
+      "published": "2026-08-31T15:46:08Z",
+      "preview": "What's Changed Remove enable_corepack_for_npm_and_yarn and preserve direct execution by @ruben-pachecocaldera with @Copilot in #15945 Remove enable_private_registry_for_corepack flag and make private-registry corepack env permanent by @ruben-pachecocaldera with @Copilot in #15946 Nix: lock the selected revision by @JamieMagee in #15984 Remove allow_refresh_for_existing_pr_dependencies feature flag by @ruben-pachecocaldera with @Copilot in #15947 Remove allow_refresh_group_with_all_dependencies and make group-refresh behavior permanent by @ruben-pachecocaldera with @Copilot in #15948 Remove enh",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-30-a",
@@ -1847,6 +1967,14 @@
       "category": "System"
     },
     {
+      "title": "v0.393.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.393.0",
+      "published": "2026-08-24T15:26:56Z",
+      "preview": "What's Changed Type common runtime boundaries by @JamieMagee in #15916 Type common provider clients by @JamieMagee in #15917 Type common repository fetching by @JamieMagee in #15918 Type common metadata boundaries by @JamieMagee in #15919 Type common pull request reads by @JamieMagee in #15920 Type common pull request writes by @JamieMagee in #15921 Bump erb from 6.0.1 to 6.0.1.1 in /updater by @dependabot [bot] in #14828 Bump erb from 6.0.1 to 6.0.1.1 by @dependabot [bot] in #14816 Terraform: skip interpolated module sources instead of crashing the parse by @miki79 in #15912 Fix uv library de",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "v0.77.1",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.77.1",
       "published": "2026-08-24T12:22:30Z",
@@ -1901,14 +2029,6 @@
       "preview": "pnpm 11.23 gives the registries setting a shape that describes each registry once — its tarball layout, the scopes routed to it, the prefix it answers to — so an Artifactory or GitLab registry can finally keep its tarball URLs out of pnpm-lock.yaml. It adds virtualStoreType, makes undeclared imports resolve under ESM with the global virtual store without a plugin, teaches pnpm config get to report the settings pnpm actually acts on, and warns about settings no pnpm version recognizes.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "2.6.0~beta1",
-      "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-beta1",
-      "published": "2026-08-22T16:00:28Z",
-      "preview": "This is the first beta release of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for more details and the upgrade instructions. Changelog : Changes Init Do not make opam init --reinit ask to retry the command when upgrading from a 2.1 root [ #7058 @kit-ty-kate - fix #7057 ] opam init --reinit now reg",
-      "source": "opam releases",
-      "category": "Registries"
     }
   ]
 }
