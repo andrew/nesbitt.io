@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-21T13:29:55Z",
-  "cutoff": "2026-08-22T13:29:45Z",
+  "generated": "2026-09-21T15:27:42Z",
+  "cutoff": "2026-08-22T15:27:19Z",
   "feed_count": 102,
-  "item_count": 251,
+  "item_count": 236,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.0.5",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.5",
+      "published": "2026-09-21T14:32:39Z",
+      "preview": "What's Changed Reject redundant minimum macOS dependencies by @p-linnane in #24020 Avoid duplicate Caskroom loads in doctor by @joseph1020 in #24026 Fix historical loading and CPANSA fallback by @p-linnane in #24029 Type Style options instead of **options by @dduugg in #24025 Avoid repeated Cask rename migrations during update by @joseph1020 in #24031 Type Formulary options instead of **options by @dduugg in #24032 pypi: resolve non-PyPI sources missing from PyPI by @daeho-ro in #24036 shell: do not wrap an escaped value in double quotes by @rawsun007 in #24035 Allow --formula-list with --new-",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
     {
       "title": "v10.2.0 🌈 Disable automatic cache saves for merge queues",
       "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.2.0",
@@ -157,14 +165,6 @@
       "preview": "What's Changed fix(reinstall): propagate returned failures in reinstall-all by @jakezwang in #2043 New Contributors @jakezwang made their first contribution in #2043 Full Changelog : 1.17.4...1.17.5",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "v6.10.4",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.4",
-      "published": "2026-09-20T15:25:55Z",
-      "preview": "Patch Changes 7730e60 : Update express to 4.22.3 — directly and through @verdaccio/middleware 8.1.4, verdaccio-audit 13.1.4 and @verdaccio/test-helper 4.1.4 — so the registry's entire HTTP stack resolves qs 6.16.0, which fixes several denial-of-service advisories in query-string handling: a remotely triggerable crash in qs.stringify (TypeError on crafted input), an arrayLimit bypass through bracket-key comma parsing that allows memory exhaustion, and a DoS via an attacker-controlled isBuffer check ( GHSA-4mjr-xmp4-gh2g ). A body-parser/qs resolution covers the one remaining consumer that pins ",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "44.103.7",
@@ -735,14 +735,6 @@
       "category": "System"
     },
     {
-      "title": "v0.396.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.396.0",
-      "published": "2026-09-14T17:05:38Z",
-      "preview": "What's Changed Remove fully rolled out feature flags by @ruben-pachecocaldera in #16046 build(deps): bump hcl2json to v0.6.9 by @JamieMagee in #16188 build(deps): bump PowerShell to 7.6.5 by @JamieMagee in #16189 build(deps): bump Yarn to 4.18.0 by @JamieMagee in #16187 build(deps): bump git-shim to v1.5.0 by @JamieMagee in #16186 Add shared delivery for unavailable cooldown warnings by @v-robaiken in #16142 Bump library/golang in /go_modules by @dependabot [bot] in #16097 Bump the all-actions group across 1 directory with 2 updates by @dependabot [bot] in #16198 Give the security refresh oper",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "5.4.5.0",
       "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.5.0",
       "published": "2026-09-14T11:47:38Z",
@@ -1095,14 +1087,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "v0.395.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.395.0",
-      "published": "2026-09-07T13:21:16Z",
-      "preview": "What's Changed fix: handle nil hash results from unavailable Python package indexes by @sachin-sandhu in #16078 Skip unsupported Maven wrappers instead of failing the Maven job by @kbukum1 in #16090 Migrate test runner to turbo_tests2 by @jeffwidman in #15991 Bump the dev-dependencies group across 2 directories with 5 updates by @dependabot [bot] in #16085 Bump the prod-dependencies group across 2 directories with 13 updates by @dependabot [bot] in #16072 Bump gradle in /gradle by @dependabot [bot] in #16098 Bump the \"uv-ecosystem\" group with 2 updates across multiple ecosystems by @dependabot",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "2.78",
       "url": "https://github.com/canonical/snapd/releases/tag/2.78",
       "published": "2026-09-07T10:03:36Z",
@@ -1151,14 +1135,6 @@
       "category": "Registries"
     },
     {
-      "title": "v6.10.3",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.3",
-      "published": "2026-09-06T06:57:04Z",
-      "preview": "Patch Changes 98b58ef : fix: do not fetch client-controlled dist.tarball urls off-uplink @cOmrade3267 Only fetch a tarball url that a configured uplink actually serves. Off-uplink urls are fetched without uplink credentials and only for uplink-synced packages (recorded in _distfiles ); a locally published package returns 404 instead of being fetched. Prevents sending an uplink Authorization header to an unrelated host.",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "7.12.0.4",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.4",
       "published": "2026-09-05T12:17:09Z",
@@ -1205,70 +1181,6 @@
       "preview": "Release Notes Released on 2026-09-04. Enhancements Attempt to revoke short-lived PyPI trusted-publishing tokens after uv publish completes, including when publishing fails ( #21423 ) Preview features Omit exclude-newer-package settings for packages outside the resolution from uv.lock with the missing-exclude-newer-package-lock preview feature ( #21455 ) Show terminal dependency cycles in uv tree --invert output ( #21404 ) Performance Speed up locking large workspaces with conflicts by excluding unrelated extras and dependency groups from conflict simplification ( #21399 ) Speed up uv publish b",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "@verdaccio/ui-theme@9.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/url@14.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/web@9.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-audit@14.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-auth-memory@14.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-htpasswd@14.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-memory@14.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio@9.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "What's new in Swift: August 2026 Edition",
@@ -1351,14 +1263,6 @@
       "category": "Containers"
     },
     {
-      "title": "v0.45.1",
-      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.45.1",
-      "published": "2026-09-03T16:35:17Z",
-      "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights This release fixes an error that prevented the new jj-core crate from being published. See the release notes for v0.45.0 for more changes since v0.44.0. Fixed bugs Building without Cargo.lock (e.g. cargo install jj-cli ) works again after all versions of the bisync crate, a transitive dependency of gix, were yanked. Signatures on commits in SHA-256 Git repositories are now stored under the gpgsig-sha256 header, as Git does, so Git recognizes",
-      "source": "jj releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v0.79.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.79.0",
       "published": "2026-09-03T15:16:32Z",
@@ -1397,14 +1301,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "v0.45.0",
-      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.45.0",
-      "published": "2026-09-03T04:58:53Z",
-      "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights A new jj converge command was added to help automatically resolve divergent commits by combining them appropriately. Breaking changes jj config {edit,set,unset} --user now targets the first loaded user configuration file (e.g. ~/.config/jj/config.toml or the first file in conf.d/ ) instead of prompting interactively when multiple files exist. Use --file <PATH> to target a specific config file. jj git import in non-colocated repositories no l",
-      "source": "jj releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Forgejo Runner v13.1.0 is available",
@@ -1637,14 +1533,6 @@
       "preview": "v2.150015",
       "source": "CPAN Meta releases",
       "category": "Registries"
-    },
-    {
-      "title": "v0.394.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.394.0",
-      "published": "2026-08-31T15:46:08Z",
-      "preview": "What's Changed Remove enable_corepack_for_npm_and_yarn and preserve direct execution by @ruben-pachecocaldera with @Copilot in #15945 Remove enable_private_registry_for_corepack flag and make private-registry corepack env permanent by @ruben-pachecocaldera with @Copilot in #15946 Nix: lock the selected revision by @JamieMagee in #15984 Remove allow_refresh_for_existing_pr_dependencies feature flag by @ruben-pachecocaldera with @Copilot in #15947 Remove allow_refresh_group_with_all_dependencies and make group-refresh behavior permanent by @ruben-pachecocaldera with @Copilot in #15948 Remove enh",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-08-30-a",
@@ -1957,14 +1845,6 @@
       "preview": "This is a servicing release of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
       "source": "winget releases",
       "category": "System"
-    },
-    {
-      "title": "v0.393.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.393.0",
-      "published": "2026-08-24T15:26:56Z",
-      "preview": "What's Changed Type common runtime boundaries by @JamieMagee in #15916 Type common provider clients by @JamieMagee in #15917 Type common repository fetching by @JamieMagee in #15918 Type common metadata boundaries by @JamieMagee in #15919 Type common pull request reads by @JamieMagee in #15920 Type common pull request writes by @JamieMagee in #15921 Bump erb from 6.0.1 to 6.0.1.1 in /updater by @dependabot [bot] in #14828 Bump erb from 6.0.1 to 6.0.1.1 by @dependabot [bot] in #14816 Terraform: skip interpolated module sources instead of crashing the parse by @miki79 in #15912 Fix uv library de",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.77.1",
