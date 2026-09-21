@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-21T08:39:49Z",
-  "cutoff": "2026-08-22T08:39:43Z",
+  "generated": "2026-09-21T09:36:49Z",
+  "cutoff": "2026-08-22T09:36:43Z",
   "feed_count": 102,
   "item_count": 250,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.105.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.3",
+      "published": "2026-09-21T09:29:18Z",
+      "preview": "44.105.3 (2026-09-21) Bug Fixes manager/gomod: match gofmt-style unindented closing paren in block end regex ( #45781 ) ( 87111d8 ) manager/quadlet: make Image optional for volume ( #44959 ) ( 75647e2 ) Miscellaneous Chores docs: fix broken image rendering ( #45893 ) ( 1762e24 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.105.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.2",
+      "published": "2026-09-21T08:56:03Z",
+      "preview": "44.105.2 (2026-09-21) Bug Fixes dashboard: handle OSV database fetch failures gracefully ( #46306 ) ( 907fa59 ) Code Refactoring changelog: share the Gitea changelog source with Forgejo ( #46096 ) ( 16474da ) datasource: share the Gitea datasources with Forgejo ( #46095 ) ( bd86caa ) presets: share the Gitea preset source with Forgejo ( #46097 ) ( 0a9d15f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.1.0-M2",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M2",
@@ -179,22 +195,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.5",
       "published": "2026-09-20T01:45:26Z",
       "preview": "44.103.5 (2026-09-20) Build System deps: update dependency zod to v4.6.4 (main) ( #46344 ) ( 2c131af )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.103.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.4",
-      "published": "2026-09-20T00:50:44Z",
-      "preview": "44.103.4 (2026-09-20) Miscellaneous Chores deps: update dependency pnpm to v11.27.0 (main) ( #46338 ) ( ff4c78b ) Build System deps: update dependency p-map to v7.0.8 (main) ( #46342 ) ( ec68d39 ) deps: update dependency zod to v4.6.3 (main) ( #46339 ) ( dbbe126 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.103.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.3",
-      "published": "2026-09-19T18:49:53Z",
-      "preview": "44.103.3 (2026-09-19) Miscellaneous Chores deps: update dependency memfs to v4.76.0 (main) ( #46336 ) ( c95850d ) Build System deps: update dependency p-throttle to v8.1.1 (main) ( #46337 ) ( f5ce6a9 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
