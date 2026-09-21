@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-21T10:30:14Z",
-  "cutoff": "2026-08-22T10:29:59Z",
+  "generated": "2026-09-21T13:29:55Z",
+  "cutoff": "2026-08-22T13:29:45Z",
   "feed_count": 102,
-  "item_count": 250,
+  "item_count": 251,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v10.2.0 🌈 Disable automatic cache saves for merge queues",
+      "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.2.0",
+      "published": "2026-09-21T13:15:15Z",
+      "preview": "Changes This release contains the known-checksum of the most recent uv releases and also disabled the uploading(saving) of the cache when in a merge queue since theses caches would almost never be used. 🚀 Enhancements Disable automatic cache saves for merge queues @eifinger ( #1056 ) 🧰 Maintenance chore: update known checksums for 0.12.17 @ github-actions[bot] ( #1058 ) chore: update known checksums for 0.12.16 @ github-actions[bot] ( #1057 ) chore: update known checksums for 0.12.15 @ github-actions[bot] ( #1054 ) chore: update known checksums for 0.12.14 @ github-actions[bot] ( #1053 ) chore",
+      "source": "setup-uv releases",
+      "category": "Python"
+    },
     {
       "title": "44.105.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.4",
