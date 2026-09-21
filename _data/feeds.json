@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-21T16:31:19Z",
-  "cutoff": "2026-08-22T16:31:13Z",
+  "generated": "2026-09-21T17:24:49Z",
+  "cutoff": "2026-08-22T17:24:42Z",
   "feed_count": 102,
-  "item_count": 251,
+  "item_count": 252,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.397.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.397.0",
+      "published": "2026-09-21T17:04:03Z",
+      "preview": "What's Changed Bump js-yaml from 3.14.1 to 3.15.2 in /bun/helpers by @dependabot [bot] in #16292 Bump Microsoft.Extensions.Logging from 10.0.11 to 10.0.12 by @dependabot [bot] in #16284 Fix devcontainers crash on features referenced without a version tag by @v-kbukum1 in #16295 Add support for .zst nixpkgs tarball by @bazcatqubed in #16166 npm_and_yarn: route pnpm 12 native binary download through the proxy by @Stanzilla in #16170 julia: derive stdlib compat entries from the versions bundled across the julia compat range by @IanButterworth in #16229 Support Bundler cooldown with Compact Index ",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "2.1.0-M2",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M2",
+      "published": "2026-09-21T16:43:22Z",
+      "preview": "updates and bug fixes fix: Fixes Windows runner handling of sbt bsp by @stasimus in #9766 fix: Do not duplicate platform axes on a row by @kitbellew in #9757 fix: Warn on output declarations in uncached tasks by @anatoliykmetyuk in #9770 Allow adding rows and configuring them separately, and through any method by @kitbellew in #9765 fix: Update to Gigahorse 0.9.6 for pre-authentication by @eed3si9n in #9775 fix: Name taskValue in its compile-time diagnostic by @anatoliykmetyuk in #9779 ProjectMatrix: validate axes against autoScalaLibrary by @kitbellew in #9771 deps: Coursier 2.1.25 by @eed3si",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "7.0.6",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.6",
+      "published": "2026-09-21T16:33:33Z",
+      "preview": "What's Changed Revert \"Use InfluxDB v3 API for analytics reporting\" by @SMillerDev in #24056 Clear the environment when reopening cask apps by @MikeMcQuaid in #24057 Full Changelog : 7.0.5...7.0.6",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
     {
       "title": "44.106.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.106.0",
@@ -69,14 +93,6 @@
       "preview": "44.105.2 (2026-09-21) Bug Fixes dashboard: handle OSV database fetch failures gracefully ( #46306 ) ( 907fa59 ) Code Refactoring changelog: share the Gitea changelog source with Forgejo ( #46096 ) ( 16474da ) datasource: share the Gitea datasources with Forgejo ( #46095 ) ( bd86caa ) presets: share the Gitea preset source with Forgejo ( #46097 ) ( 0a9d15f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2.1.0-M2",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M2",
-      "published": "2026-09-21T08:30:42Z",
-      "preview": "2.1.0-M2",
-      "source": "sbt releases",
-      "category": "Maven"
     },
     {
       "title": "archive/adopt-task",
@@ -1996,14 +2012,6 @@
       "published": "2026-08-24T10:08:01Z",
       "preview": "interfaces: steam-support, docker-support | fix mountinfo denial Please note: the tarball generation did not happen in a pristine environment and as a result unintended content was incorporated which inflates the size.",
       "source": "Snapd releases",
-      "category": "System"
-    },
-    {
-      "title": "6.0.19",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.19",
-      "published": "2026-08-24T07:43:35Z",
-      "preview": "What's Changed Set oldest GCC to 8 to enable -ffile-prefix-map by @cho-m in #23533 audit: resolve untapped core dependencies by @MikeMcQuaid in #23542 Skip duplicate /v2/ when artifact domain already contains it by @jouve in #23062 cli/parser: fix help crash with -- arguments by @krehel in #23544 sorbet: Add a Tapioca compiler for Cask::DSL to type some more tests by @issyl0 in #23534 Clarify outdated cask version display by @HaraldNordgren in #23543 cask/upgrade: mirror per-file quarantine approval across upgrades by @aholland in #23546 rubocops/cask: add cops for all conditional stanzas by @",
-      "source": "Homebrew releases",
       "category": "System"
     },
     {
