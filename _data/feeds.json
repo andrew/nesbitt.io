@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-20T23:24:23Z",
-  "cutoff": "2026-08-21T23:24:16Z",
+  "generated": "2026-09-21T01:06:51Z",
+  "cutoff": "2026-08-22T01:06:46Z",
   "feed_count": 102,
   "item_count": 249,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.104.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.104.1",
+      "published": "2026-09-21T00:51:32Z",
+      "preview": "44.104.1 (2026-09-21) Documentation update references to python to be8ccd0 (main) ( #46349 ) ( 84b8df8 ) Miscellaneous Chores deps: update dependency memfs to v4.78.0 (main) ( #46348 ) ( 1765951 ) Build System deps: update dependency zod to v4.6.5 (main) ( #46350 ) ( 37430ac )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "Hatchling v1.32.4",
       "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.4",
@@ -243,14 +251,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.0",
       "published": "2026-09-18T16:21:53Z",
       "preview": "44.103.0 (2026-09-18) Features workers/repository: allow users to bypass registryUrl when unknown-registry ( #46323 ) ( 8dc0664 ), closes #45706 Bug Fixes manager/dockerfile: don't attempt to update apk / apt for unknown image families ( #46325 ) ( 0253f4b ), closes #45706",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.102.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.102.0",
-      "published": "2026-09-18T15:38:28Z",
-      "preview": "44.102.0 (2026-09-18) Features replacements: add @temporalio/interceptors-opentelemetry-v2 ( #45371 ) ( 403dfeb )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
