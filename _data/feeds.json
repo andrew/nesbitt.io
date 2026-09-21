@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-21T01:06:51Z",
-  "cutoff": "2026-08-22T01:06:46Z",
+  "generated": "2026-09-21T03:37:00Z",
+  "cutoff": "2026-08-22T03:36:51Z",
   "feed_count": 102,
   "item_count": 249,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.104.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.104.2",
+      "published": "2026-09-21T02:47:59Z",
+      "preview": "44.104.2 (2026-09-21) Documentation update references to jaegertracing/jaeger to v2.21.0 (main) ( #46352 ) ( 6e60136 ) update references to otel/opentelemetry-collector-contrib to v0.161.0 (main) ( #46353 ) ( e3881d9 ) update references to renovate/renovate (main) ( #46354 ) ( 6de693a ) Build System deps: update dependency @renovatebot/detect-tools to v4.0.20 (main) ( #46351 ) ( 4a0da7b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.104.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.104.1",
@@ -245,14 +253,6 @@
       "preview": "pnpr 0.1.0-alpha.12 answers broad searches against an upstream registry instead of failing, and keeps Python resolution going when an index or a release carries metadata it cannot read. Patch Changes pnpm search and npm search against an upstream with search: true no longer fail with a 400 error on broad terms. pnpr now truncates an upstream that holds more results than its fetch budget downloads. The results it could not download keep total approximate. Python resolution no longer fails on a release whose Requires-Python is not a version specifier, such as the trailing comma in openpyxl 3.0.x",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.103.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.0",
-      "published": "2026-09-18T16:21:53Z",
-      "preview": "44.103.0 (2026-09-18) Features workers/repository: allow users to bypass registryUrl when unknown-registry ( #46323 ) ( 8dc0664 ), closes #45706 Bug Fixes manager/dockerfile: don't attempt to update apk / apt for unknown image families ( #46325 ) ( 0253f4b ), closes #45706",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.12.0.24",
