@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-21T17:24:49Z",
-  "cutoff": "2026-08-22T17:24:42Z",
+  "generated": "2026-09-21T18:33:54Z",
+  "cutoff": "2026-08-22T18:33:48Z",
   "feed_count": 102,
-  "item_count": 252,
+  "item_count": 253,
   "categories": [
     ".NET",
     "C/C++",
@@ -141,6 +141,14 @@
       "preview": "44.104.1 (2026-09-21) Documentation update references to python to be8ccd0 (main) ( #46349 ) ( 84b8df8 ) Miscellaneous Chores deps: update dependency memfs to v4.78.0 (main) ( #46348 ) ( 1765951 ) Build System deps: update dependency zod to v4.6.5 (main) ( #46350 ) ( 37430ac )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "GitHub Actions leaking secrets when Miri output is cached",
+      "url": "https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/",
+      "published": "2026-09-21T00:00:00Z",
+      "preview": "The Rust Security Response Team was notified that Miri stores all environment variables to target/ , allowing secrets to persist in caches. While not necessary a vulnerability in and of itself, when paired with GitHub Actions caching behavior, it is possible for this to expose secrets to PRs. Overview GitHub Actions makes it possible to cache directories between runs. Typical setups allow CI runs on main (and other branches) to write to cache, and PRs can only read from cache (preventing cache poisoning). Rust projects tend to speed up CI by caching binaries built by cargo install and sometime",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "Hatchling v1.32.4",
