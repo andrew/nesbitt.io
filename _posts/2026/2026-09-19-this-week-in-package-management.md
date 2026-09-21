@@ -6,6 +6,7 @@ description: "Releases, advisories, and articles from across the package managem
 tags:
   - package-managers
   - weekly
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mvznumuvzw2i"
 ---
 
 Week eighteen of the roundup, built from the [package manager OPML feed collection](https://github.com/ecosyste-ms/package-managers-opml) and whatever I've posted or boosted on [Mastodon](https://mastodon.social/@andrewnez). I [added nineteen feeds](https://github.com/ecosyste-ms/package-managers-opml/pull/6) to the OPML this week, mostly project blogs, plus GNU Guix, Zig and the Reproducible Builds monthly reports.
