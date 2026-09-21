@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-19T08:25:55Z",
-  "total_posts": 212,
-  "total_words": 292134,
-  "reading_minutes": 1461,
+  "generated_at": "2026-09-21T08:20:39Z",
+  "total_posts": 213,
+  "total_words": 293430,
+  "reading_minutes": 1468,
   "average_words": 1378,
   "longest_post": {
     "title": "Skills Registry Threat Models",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "Good Morning, Your Toaster Is Compromised",
-    "url": "/2026/09/17/good-morning-your-toaster-is-compromised.html",
-    "date": "2026-09-17"
+    "title": "This Week in Package Management: 19 September 2026",
+    "url": "/2026/09/19/this-week-in-package-management.html",
+    "date": "2026-09-19"
   },
   "years_active": 9.6,
   "posts_per_month": 1.8,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 172
+      "count": 173
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-09",
-      "count": 8
+      "count": 9
     },
     {
       "month": "2026-08",
@@ -125,12 +125,12 @@
     "wednesday": 23,
     "thursday": 39,
     "friday": 36,
-    "saturday": 35
+    "saturday": 36
   },
   "tags": [
     {
       "name": "package-managers",
-      "count": 143
+      "count": 144
     },
     {
       "name": "security",
@@ -174,7 +174,7 @@
     },
     {
       "name": "weekly",
-      "count": 17
+      "count": 18
     },
     {
       "name": "idea",
@@ -1434,16 +1434,24 @@
       "inbound_from": [
         "/2026/08/08/this-week-in-package-management.html"
       ]
+    },
+    {
+      "url": "/2026/09/12/this-week-in-package-management.html",
+      "title": "This Week in Package Management: 12 September 2026",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/09/19/this-week-in-package-management.html"
+      ]
     }
   ],
   "external_links": {
-    "total": 4909,
-    "unique": 3899,
+    "total": 4977,
+    "unique": 3962,
     "domains": [
       {
         "host": "github.com",
-        "count": 1469,
-        "posts": 155
+        "count": 1507,
+        "posts": 156
       },
       {
         "host": "en.wikipedia.org",
@@ -1451,14 +1459,14 @@
         "posts": 34
       },
       {
-        "host": "nvd.nist.gov",
-        "count": 58,
-        "posts": 11
+        "host": "arxiv.org",
+        "count": 59,
+        "posts": 34
       },
       {
-        "host": "arxiv.org",
-        "count": 55,
-        "posts": 33
+        "host": "nvd.nist.gov",
+        "count": 59,
+        "posts": 12
       },
       {
         "host": "fosdem.org",
@@ -1477,8 +1485,8 @@
       },
       {
         "host": "pnpm.io",
-        "count": 32,
-        "posts": 26
+        "count": 33,
+        "posts": 27
       },
       {
         "host": "chaoss.community",
@@ -1512,13 +1520,13 @@
       },
       {
         "host": "blog.rust-lang.org",
-        "count": 21,
-        "posts": 16
+        "count": 22,
+        "posts": 17
       },
       {
         "host": "blog.rubygems.org",
-        "count": 19,
-        "posts": 16
+        "count": 20,
+        "posts": 17
       },
       {
         "host": "doc.rust-lang.org",
@@ -1546,6 +1554,11 @@
         "posts": 14
       },
       {
+        "host": "blog.pypi.org",
+        "count": 15,
+        "posts": 14
+      },
+      {
         "host": "opensourcesecurity.io",
         "count": 15,
         "posts": 16
@@ -1559,11 +1572,6 @@
         "host": "rubygems.org",
         "count": 14,
         "posts": 10
-      },
-      {
-        "host": "blog.pypi.org",
-        "count": 13,
-        "posts": 13
       },
       {
         "host": "talkpython.fm",
@@ -1656,6 +1664,11 @@
         "posts": 5
       },
       {
+        "host": "mastodon.social",
+        "count": 9,
+        "posts": 44
+      },
+      {
         "host": "pip.pypa.io",
         "count": 9,
         "posts": 7
@@ -1681,6 +1694,11 @@
         "posts": 7
       },
       {
+        "host": "brew.sh",
+        "count": 8,
+        "posts": 10
+      },
+      {
         "host": "codeberg.org",
         "count": 8,
         "posts": 8
@@ -1696,11 +1714,6 @@
         "posts": 8
       },
       {
-        "host": "mastodon.social",
-        "count": 8,
-        "posts": 43
-      },
-      {
         "host": "salsa.debian.org",
         "count": 8,
         "posts": 5
@@ -1714,11 +1727,6 @@
         "host": "web.archive.org",
         "count": 8,
         "posts": 8
-      },
-      {
-        "host": "brew.sh",
-        "count": 7,
-        "posts": 9
       },
       {
         "host": "cyclonedx.org",
@@ -1749,6 +1757,11 @@
         "host": "python-poetry.org",
         "count": 7,
         "posts": 6
+      },
+      {
+        "host": "reproducible-builds.org",
+        "count": 7,
+        "posts": 8
       },
       {
         "host": "www.sonatype.com",
@@ -1784,6 +1797,16 @@
         "host": "docs.zizmor.sh",
         "count": 6,
         "posts": 10
+      },
+      {
+        "host": "doi.org",
+        "count": 6,
+        "posts": 4
+      },
+      {
+        "host": "fastwonderblog.com",
+        "count": 6,
+        "posts": 6
       },
       {
         "host": "gist.github.com",
@@ -1881,14 +1904,9 @@
         "posts": 4
       },
       {
-        "host": "doi.org",
+        "host": "docs.renovatebot.com",
         "count": 5,
-        "posts": 3
-      },
-      {
-        "host": "fastwonderblog.com",
-        "count": 5,
-        "posts": 5
+        "posts": 4
       },
       {
         "host": "formulae.brew.sh",
@@ -1924,11 +1942,6 @@
         "host": "perldoc.perl.org",
         "count": 5,
         "posts": 3
-      },
-      {
-        "host": "reproducible-builds.org",
-        "count": 5,
-        "posts": 7
       },
       {
         "host": "stewardshiplab.org",
@@ -2056,6 +2069,11 @@
         "posts": 6
       },
       {
+        "host": "opam.ocaml.org",
+        "count": 4,
+        "posts": 4
+      },
+      {
         "host": "packaging.python.org",
         "count": 4,
         "posts": 4
@@ -2161,11 +2179,6 @@
         "posts": 3
       },
       {
-        "host": "docs.renovatebot.com",
-        "count": 3,
-        "posts": 3
-      },
-      {
         "host": "fair.pm",
         "count": 3,
         "posts": 2
@@ -2187,11 +2200,6 @@
       },
       {
         "host": "news.ycombinator.com",
-        "count": 3,
-        "posts": 3
-      },
-      {
-        "host": "opam.ocaml.org",
         "count": 3,
         "posts": 3
       },
@@ -2256,6 +2264,11 @@
         "posts": 5
       },
       {
+        "host": "sunnydeveloper.com",
+        "count": 3,
+        "posts": 3
+      },
+      {
         "host": "swiftpackageindex.com",
         "count": 3,
         "posts": 3
@@ -2284,6 +2297,11 @@
         "host": "www.anthropic.com",
         "count": 3,
         "posts": 2
+      },
+      {
+        "host": "www.jvt.me",
+        "count": 3,
+        "posts": 3
       },
       {
         "host": "www.linkedin.com",
@@ -2513,7 +2531,7 @@
       {
         "host": "ecosyste.ms",
         "count": 2,
-        "posts": 34
+        "posts": 35
       },
       {
         "host": "embracethered.com",
@@ -2751,6 +2769,11 @@
         "posts": 2
       },
       {
+        "host": "pyfound.blogspot.com",
+        "count": 2,
+        "posts": 3
+      },
+      {
         "host": "pypackaging-native.github.io",
         "count": 2,
         "posts": 2
@@ -2821,17 +2844,17 @@
         "posts": 3
       },
       {
-        "host": "sunnydeveloper.com",
-        "count": 2,
-        "posts": 2
-      },
-      {
         "host": "taylorbrazelton.com",
         "count": 2,
         "posts": 1
       },
       {
         "host": "techcrunch.com",
+        "count": 2,
+        "posts": 2
+      },
+      {
+        "host": "tenderlovemaking.com",
         "count": 2,
         "posts": 2
       },
@@ -2921,11 +2944,6 @@
         "posts": 2
       },
       {
-        "host": "www.jvt.me",
-        "count": 2,
-        "posts": 2
-      },
-      {
         "host": "www.mancoosi.org",
         "count": 2,
         "posts": 2
@@ -2959,6 +2977,11 @@
         "host": "www.pythonpodcast.com",
         "count": 2,
         "posts": 1
+      },
+      {
+        "host": "www.swift.org",
+        "count": 2,
+        "posts": 2
       },
       {
         "host": "www.taoensso.com",
@@ -4601,6 +4624,11 @@
         "posts": 1
       },
       {
+        "host": "openjsf.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "opensearch.org",
         "count": 1,
         "posts": 1
@@ -4799,11 +4827,6 @@
         "host": "pvp.haskell.org",
         "count": 1,
         "posts": 1
-      },
-      {
-        "host": "pyfound.blogspot.com",
-        "count": 1,
-        "posts": 2
       },
       {
         "host": "pypistats.org",
@@ -5222,11 +5245,6 @@
       },
       {
         "host": "tef.computer",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "tenderlovemaking.com",
         "count": 1,
         "posts": 1
       },
@@ -6049,11 +6067,6 @@
         "host": "www.swhid.org",
         "count": 1,
         "posts": 3
-      },
-      {
-        "host": "www.swift.org",
-        "count": 1,
-        "posts": 1
       },
       {
         "host": "www.swiftbysundell.com",
