@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-21T06:56:21Z",
-  "cutoff": "2026-08-22T06:56:15Z",
+  "generated": "2026-09-21T07:42:50Z",
+  "cutoff": "2026-08-22T07:42:31Z",
   "feed_count": 102,
   "item_count": 249,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.105.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.0",
+      "published": "2026-09-21T07:32:20Z",
+      "preview": "44.105.0 (2026-09-21) Features manager/mise: support arrays of inline tables as tool versions ( #46330 ) ( e069399 ) Documentation update references to renovate/renovate to v44.104.2 (main) ( #46355 ) ( e392770 ) update references to renovatebot/github-action to v46.3.1 (main) ( #46356 ) ( a54a640 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "maven-4.0.0-rc-7",
       "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-7",
@@ -221,14 +229,6 @@
       "preview": "=v12.5.1",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.103.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.1",
-      "published": "2026-09-18T20:49:50Z",
-      "preview": "44.103.1 (2026-09-18) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.4 (main) ( #46333 ) ( 9bed6dc ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.17 (main) ( #46331 ) ( 6e10310 ) deps: update dependency uv to v0.12.17 (main) ( #46332 ) ( d0cabbe )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.12.17",
