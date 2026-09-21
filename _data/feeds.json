@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-21T09:36:49Z",
-  "cutoff": "2026-08-22T09:36:43Z",
+  "generated": "2026-09-21T10:30:14Z",
+  "cutoff": "2026-08-22T10:29:59Z",
   "feed_count": 102,
   "item_count": 250,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.105.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.4",
+      "published": "2026-09-21T09:53:54Z",
+      "preview": "44.105.4 (2026-09-21) Code Refactoring datasource/rpm: remove \"gzip\" from identifiers ( #46264 ) ( cbe339c ) Build System deps: update dependency azure-devops-node-api to v17.0.1 (main) ( #46363 ) ( b31c429 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.105.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.3",
@@ -187,14 +195,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.6",
       "published": "2026-09-20T02:46:32Z",
       "preview": "44.103.6 (2026-09-20) Build System deps: update dependency @renovatebot/detect-tools to v4.0.19 (main) ( #46341 ) ( bdb9f2e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.103.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.5",
-      "published": "2026-09-20T01:45:26Z",
-      "preview": "44.103.5 (2026-09-20) Build System deps: update dependency zod to v4.6.4 (main) ( #46344 ) ( 2c131af )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
