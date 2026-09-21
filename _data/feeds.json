@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-21T07:42:50Z",
-  "cutoff": "2026-08-22T07:42:31Z",
+  "generated": "2026-09-21T08:39:49Z",
+  "cutoff": "2026-08-22T08:39:43Z",
   "feed_count": 102,
-  "item_count": 249,
+  "item_count": 250,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.1.0-M2",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M2",
+      "published": "2026-09-21T08:30:42Z",
+      "preview": "2.1.0-M2",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "archive/adopt-task",
+      "url": "https://github.com/jdx/mise/releases/tag/archive%2Fadopt-task",
+      "published": "2026-09-21T08:14:58Z",
+      "preview": "fix(dotfiles): require a post-adopt task to be declared where the set…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.105.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.1",
+      "published": "2026-09-21T07:51:16Z",
+      "preview": "44.105.1 (2026-09-21) Bug Fixes datasource/crate: skip the web API of registries that do not implement it ( #46329 ) ( 8f5f238 ), closes #41536",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.105.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.0",
@@ -197,14 +221,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-17-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.103.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.103.2",
-      "published": "2026-09-19T02:45:59Z",
-      "preview": "44.103.2 (2026-09-19) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.5 (main) ( #46335 ) ( d411b5b ) Build System deps: update dependency yaml to v2.9.1 (main) ( #46334 ) ( 94b0cff )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.17.4",
@@ -685,14 +701,6 @@
       "preview": "What's Changed Traits update by @heckj in #9554 Add 6.3 to Swift Build preview release notes by @bripeticca in #9648 Update SwiftBuild progress reporting by @bripeticca in #9519 Avoid producing duplicate modules in the products dir when 2 executable products incorporate the same executable target by @owenv in #9650 Plugin dependencies should not be be linked into executable targets that use those plugins by @pmattos in #9651 Refine Swift Build preview note for Swift SDKs by @cmcgee1024 in #9653 Include linker generated symbol in default defined set by @daniel-grumberg in #9416 Docs: Add SwiftB",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.9.9: Dotfiles false-deletion fix, encrypted `mise dot track`, semantic uv options for PyPI tools",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.9",
-      "published": "2026-09-15T07:00:26Z",
-      "preview": "The dotfiles history watcher no longer records files as deleted when a checkpoint and a sync compose snapshots at the same time, mise dot track --encrypt enrolls a file with encrypted history from its first checkpoint, mise bootstrap --adopt --replace-history discards unrelated local history in one shot, and pypi: tools gain lock-aware with , expose , and dependency_prereleases options. Also fixed: packslip: installs from private GitHub repositories, stale history watchers after upgrading, global npm tools being reinstalled under lockfile = true , and the -- separator in activated PowerShell s",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.9.11",
