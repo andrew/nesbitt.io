@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-21T03:37:00Z",
-  "cutoff": "2026-08-22T03:36:51Z",
+  "generated": "2026-09-21T06:56:21Z",
+  "cutoff": "2026-08-22T06:56:15Z",
   "feed_count": 102,
   "item_count": 249,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "maven-4.0.0-rc-7",
+      "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-7",
+      "published": "2026-09-21T06:36:26Z",
+      "preview": "[maven-release-plugin] prepare release maven-4.0.0-rc-7",
+      "source": "Maven releases",
+      "category": "Maven"
+    },
     {
       "title": "44.104.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.104.2",
@@ -125,14 +133,6 @@
       "preview": "Fixed Fix an issue where uninstalling a package with installer.builtin-uninstall set failed with a TypeError ( #11077 ).",
       "source": "Poetry releases",
       "category": "Python"
-    },
-    {
-      "title": "maven-4.0.0-rc-7",
-      "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-7",
-      "published": "2026-09-20T06:53:30Z",
-      "preview": "fix: add -Dmaven.maven3Personality hint to FATAL message for wrong pa…",
-      "source": "Maven releases",
-      "category": "Maven"
     },
     {
       "title": "44.103.6",
