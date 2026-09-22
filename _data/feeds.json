@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T18:34:35Z",
-  "cutoff": "2026-08-23T18:34:30Z",
+  "generated": "2026-09-22T19:24:58Z",
+  "cutoff": "2026-08-23T19:24:52Z",
   "feed_count": 102,
   "item_count": 259,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.107.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.107.2",
+      "published": "2026-09-22T18:37:00Z",
+      "preview": "44.107.2 (2026-09-22) Build System deps: update dependency @renovatebot/pgp to v2.0.2 (main) ( #46390 ) ( c865607 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.107.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.107.1",
@@ -307,14 +315,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.104.2",
       "published": "2026-09-21T02:47:59Z",
       "preview": "44.104.2 (2026-09-21) Documentation update references to jaegertracing/jaeger to v2.21.0 (main) ( #46352 ) ( 6e60136 ) update references to otel/opentelemetry-collector-contrib to v0.161.0 (main) ( #46353 ) ( e3881d9 ) update references to renovate/renovate (main) ( #46354 ) ( 6de693a ) Build System deps: update dependency @renovatebot/detect-tools to v4.0.20 (main) ( #46351 ) ( 4a0da7b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.104.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.104.1",
-      "published": "2026-09-21T00:51:32Z",
-      "preview": "44.104.1 (2026-09-21) Documentation update references to python to be8ccd0 (main) ( #46349 ) ( 84b8df8 ) Miscellaneous Chores deps: update dependency memfs to v4.78.0 (main) ( #46348 ) ( 1765951 ) Build System deps: update dependency zod to v4.6.5 (main) ( #46350 ) ( 37430ac )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
