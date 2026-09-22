@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-22T13:30:09Z",
-  "cutoff": "2026-08-23T13:29:55Z",
+  "generated": "2026-09-22T14:30:48Z",
+  "cutoff": "2026-08-23T14:30:33Z",
   "feed_count": 102,
-  "item_count": 256,
+  "item_count": 257,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.20.2",
+      "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.20.2",
+      "published": "2026-09-22T14:29:08Z",
+      "preview": "0.20.2 (2026-09-22) Bug Fixes fix release ( #2337 ) ( eac99e3 )",
+      "source": "asdf releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "9.8.0 RC3",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-RC3",
+      "published": "2026-09-22T13:35:47Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.8.0 RC3. Here are the highlights of this release: Java 27 support Maven mirror settings reuse Linked problem locations in build output Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aman Gautam , Björn Kautler , Eng Zer Jun , Hashim Khan , Julian Krannich , KBS , Labh R Jethe , Mark Dodgson , Maxim , monkey , nataphon-ktsystems , Paul King , Qiu Tian , rg_sandesh , Roberto Perez Alcolea , Sean , Zongle Wang . Upgrade instructions Switch your build to use Gradle 9.8.",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-09-21-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-09-21-a",
@@ -61,14 +77,6 @@
       "preview": "Deployment at 2026-09-22T08:35:21.424719Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "v9.8.0-RC3",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-RC3",
-      "published": "2026-09-22T06:51:15Z",
-      "preview": "Fix when a best practice was introduced ( #39253 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "@verdaccio/test-helper@5.0.0-next-9.33",
