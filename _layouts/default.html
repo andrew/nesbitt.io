@@ -21,7 +21,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {%- seo -%}
     {%- feed_meta -%}
-    {% if page.raw_markdown or page.layout == "post" %}<link rel="alternate" type="text/markdown" href="{{ page.url | append: '.md' | replace: '/.md', '.md' | replace: '.html.md', '.md' }}">{% endif %}
+    {% llms_markdown_link %}
     {% standard_site_links %}
 
   </head>
