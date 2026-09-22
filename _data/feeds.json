@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T22:26:04Z",
-  "cutoff": "2026-08-23T22:25:56Z",
+  "generated": "2026-09-22T23:25:08Z",
+  "cutoff": "2026-08-23T23:25:02Z",
   "feed_count": 102,
   "item_count": 266,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.18",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
+      "published": "2026-09-22T23:00:51Z",
+      "preview": "Release Notes Released on 2026-09-22. Enhancements Add --output-format json to uv pip install and uv pip sync , including for --dry-run and --check ( #21893 ) Add --check to uv pip install and uv pip sync to report planned changes without modifying the environment ( #21844 ) Identify failures from get_requires_for_build_* hooks correctly in build errors ( #21881 ) Preview features Validate build requirements for uv build --no-build-isolation with --preview-features build-dependency-check ; use --skip-dependency-check to opt out ( #21880 ) Performance Speed up uv_build editable wheel creation b",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "44.108.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.108.1",
+      "published": "2026-09-22T22:42:48Z",
+      "preview": "44.108.1 (2026-09-22) Build System deps: update dependency cronstrue to v3.27.0 (main) ( #46399 ) ( 4939bce )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.108.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.108.0",
@@ -381,14 +397,6 @@
       "preview": "fix(dotfiles): require a post-adopt task to be declared where the set…",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.105.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.1",
-      "published": "2026-09-21T07:51:16Z",
-      "preview": "44.105.1 (2026-09-21) Bug Fixes datasource/crate: skip the web API of registries that do not implement it ( #46329 ) ( 8f5f238 ), closes #41536",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "maven-4.0.0-rc-7",
@@ -1781,14 +1789,6 @@
       "preview": "Helm v3.22.0-rc.1 is a pre-release. It is to help gather feedback from the community as well as give users a chance to test Helm in staging environments before v3.22.0 is officially released. The official changelog will come out with the v3.22.0 release. For now, you can see the commit changes from v3.21.4 here . The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: Artif",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "0.12.8",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.8",
-      "published": "2026-08-31T22:18:57Z",
-      "preview": "Release Notes Released on 2026-08-31. Enhancements Warn about invalid tool directories and continue upgrading valid tools with uv tool upgrade --all ( #21368 ) Preview features Deduplicate identical files within and across cached wheels with the content-addressed-cache preview feature ( #21327 ) Reduce allocations while extracting content-addressed wheels by reusing the hashing buffer across files ( #21340 ) Speed up content-addressed cache cleanup on macOS by reading hard-link counts in bulk ( #21344 ) Performance Prevent concurrent uv processes from downloading and extracting the same remote",
-      "source": "uv releases",
-      "category": "Python"
     },
     {
       "title": "Helm v4.3.0-rc.1",
