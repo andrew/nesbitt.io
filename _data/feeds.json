@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T02:37:07Z",
-  "cutoff": "2026-08-23T02:37:01Z",
+  "generated": "2026-09-22T06:44:33Z",
+  "cutoff": "2026-08-23T06:44:29Z",
   "feed_count": 102,
   "item_count": 254,
   "categories": [
@@ -22,6 +22,86 @@
     "System"
   ],
   "items": [
+    {
+      "title": "@verdaccio/test-helper@5.0.0-next-9.33",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%405.0.0-next-9.33",
+      "published": "2026-09-22T06:00:33Z",
+      "preview": "chore: update versions (next-9) ( #6226 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/types@14.0.0-next-9.15",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftypes%4014.0.0-next-9.15",
+      "published": "2026-09-22T06:00:33Z",
+      "preview": "chore: update versions (next-9) ( #6226 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/ui-components@5.0.0-next-9.22",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-components%405.0.0-next-9.22",
+      "published": "2026-09-22T06:00:33Z",
+      "preview": "chore: update versions (next-9) ( #6226 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/ui-theme@9.0.0-next-9.32",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.32",
+      "published": "2026-09-22T06:00:33Z",
+      "preview": "chore: update versions (next-9) ( #6226 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/url@14.0.0-next-9.32",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.32",
+      "published": "2026-09-22T06:00:33Z",
+      "preview": "chore: update versions (next-9) ( #6226 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/web@9.0.0-next-9.32",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.32",
+      "published": "2026-09-22T06:00:33Z",
+      "preview": "chore: update versions (next-9) ( #6226 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-audit@14.0.0-next-9.32",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.32",
+      "published": "2026-09-22T06:00:33Z",
+      "preview": "chore: update versions (next-9) ( #6226 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-auth-memory@14.0.0-next-9.32",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.32",
+      "published": "2026-09-22T06:00:33Z",
+      "preview": "chore: update versions (next-9) ( #6226 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-htpasswd@14.0.0-next-9.32",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.32",
+      "published": "2026-09-22T06:00:33Z",
+      "preview": "chore: update versions (next-9) ( #6226 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-memory@14.0.0-next-9.32",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.32",
+      "published": "2026-09-22T06:00:33Z",
+      "preview": "chore: update versions (next-9) ( #6226 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v0.20.1",
       "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.20.1",
@@ -213,14 +293,6 @@
       "preview": "What's Changed fix(reinstall): propagate returned failures in reinstall-all by @jakezwang in #2043 New Contributors @jakezwang made their first contribution in #2043 Full Changelog : 1.17.4...1.17.5",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "v6.10.4",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.4",
-      "published": "2026-09-20T15:25:55Z",
-      "preview": "Patch Changes 7730e60 : Update express to 4.22.3 — directly and through @verdaccio/middleware 8.1.4, verdaccio-audit 13.1.4 and @verdaccio/test-helper 4.1.4 — so the registry's entire HTTP stack resolves qs 6.16.0, which fixes several denial-of-service advisories in query-string handling: a remotely triggerable crash in qs.stringify (TypeError on crafted input), an arrayLimit bypass through bracket-key comma parsing that allows memory exhaustion, and a DoS via an attacker-controlled isBuffer check ( GHSA-4mjr-xmp4-gh2g ). A body-parser/qs resolution covers the one remaining consumer that pins ",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "44.103.7",
@@ -1199,14 +1271,6 @@
       "category": "Registries"
     },
     {
-      "title": "v6.10.3",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.3",
-      "published": "2026-09-06T06:57:04Z",
-      "preview": "Patch Changes 98b58ef : fix: do not fetch client-controlled dist.tarball urls off-uplink @cOmrade3267 Only fetch a tarball url that a configured uplink actually serves. Off-uplink urls are fetched without uplink credentials and only for uplink-synced packages (recorded in _distfiles ); a locally published package returns 404 instead of being fetched. Prevents sending an uplink Authorization header to an unrelated host.",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "7.12.0.4",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.4",
       "published": "2026-09-05T12:17:09Z",
@@ -1253,70 +1317,6 @@
       "preview": "Release Notes Released on 2026-09-04. Enhancements Attempt to revoke short-lived PyPI trusted-publishing tokens after uv publish completes, including when publishing fails ( #21423 ) Preview features Omit exclude-newer-package settings for packages outside the resolution from uv.lock with the missing-exclude-newer-package-lock preview feature ( #21455 ) Show terminal dependency cycles in uv tree --invert output ( #21404 ) Performance Speed up locking large workspaces with conflicts by excluding unrelated extras and dependency groups from conflict simplification ( #21399 ) Speed up uv publish b",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "@verdaccio/ui-theme@9.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/url@14.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/web@9.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-audit@14.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-auth-memory@14.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-htpasswd@14.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-memory@14.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio@9.0.0-next-9.31",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.31",
-      "published": "2026-09-04T17:10:38Z",
-      "preview": "chore: update versions (next-9) ( #6189 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "What's new in Swift: August 2026 Edition",
