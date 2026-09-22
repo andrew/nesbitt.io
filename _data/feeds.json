@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-22T20:27:46Z",
-  "cutoff": "2026-08-23T20:27:30Z",
+  "generated": "2026-09-22T22:26:04Z",
+  "cutoff": "2026-08-23T22:25:56Z",
   "feed_count": 102,
-  "item_count": 267,
+  "item_count": 266,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.108.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.108.0",
+      "published": "2026-09-22T22:06:51Z",
+      "preview": "44.108.0 (2026-09-22) Features manager/helmv3: support token-only registry logins ( #46373 ) ( 2e23302 ) Miscellaneous Chores deps: update dependency @types/node to v24.13.5 (main) ( #46394 ) ( 2e0b166 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "libnpmpublish: v11.2.1",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpublish-v11.2.1",
+      "published": "2026-09-22T21:34:51Z",
+      "preview": "11.2.1 (2026-09-21) Bug Fixes ddbadfc #9947 provenance-file takes precedence over OIDC auto-generated provenance ( #9947 ) (@github-actions[bot], @yunseo-kim )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmpack: v9.1.14",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.14",
+      "published": "2026-09-22T21:34:50Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.2",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v7.0.27",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.27",
+      "published": "2026-09-22T21:34:49Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.2",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v10.3.3",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v10.3.3",
+      "published": "2026-09-22T21:34:48Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.2",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.20.0",
+      "url": "https://github.com/npm/cli/releases/tag/v11.20.0",
+      "published": "2026-09-22T21:34:44Z",
+      "preview": "11.20.0 (2026-09-21) Features 0b3c699 #9994 token: support read-write-stage-only granular access tokens ( #9994 ) (@github-actions[bot], @Tayvon , @Copilot) b872816 #9920 stage: display staged package status ( #9920 ) (@github-actions[bot], @joelverhagen ) Bug Fixes ddbadfc #9947 provenance-file takes precedence over OIDC auto-generated provenance ( #9947 ) (@github-actions[bot], @yunseo-kim ) 64d4b4b #9937 config: avoid exporting persistent allow-scripts ( #9937 ) (@github-actions[bot], @Fnine59 ) 70317da #9930 arborist: reject uninstall args that carry a version ( #9930 ) (@github-actions[bo",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
     {
       "title": "libnpmpublish: v12.0.1",
       "url": "https://github.com/npm/cli/releases/tag/libnpmpublish-v12.0.1",
@@ -51,30 +99,6 @@
       "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.3",
       "published": "2026-09-22T20:21:13Z",
       "preview": "Dependencies workspace : @npmcli/arborist@10.0.3",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmdiff: v9.0.3",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v9.0.3",
-      "published": "2026-09-22T20:21:12Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.3",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "config: v11.1.0",
-      "url": "https://github.com/npm/cli/releases/tag/config-v11.1.0",
-      "published": "2026-09-22T20:21:11Z",
-      "preview": "11.1.0 (2026-09-21) Features 6400533 #9948 token: support read-write-stage-only granular access tokens ( #9948 ) ( @Tayvon , @Copilot) Bug Fixes c9876d7 #9882 provenance-file takes precedence over OIDC auto-generated provenance ( #9882 ) ( @yunseo-kim ) b016aa2 #9913 config: avoid exporting persistent allow-scripts ( #9913 ) ( @Fnine59 )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "arborist: v10.0.3",
-      "url": "https://github.com/npm/cli/releases/tag/arborist-v10.0.3",
-      "published": "2026-09-22T20:21:10Z",
-      "preview": "10.0.3 (2026-09-21) Bug Fixes d6c6122 #9914 arborist: match allowScripts keys for local paths ( #9914 ) ( @martinrrm , @Copilot) da50c34 #9881 arborist: reject uninstall args that carry a version ( #9881 ) ( @lazerg ) dc43591 #9877 arborist: don't fetch packuments for uninstallable optional peer dependencies ( #9877 ) ( @danielroe )",
       "source": "npm CLI releases",
       "category": "JavaScript"
     },
@@ -363,14 +387,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.1",
       "published": "2026-09-21T07:51:16Z",
       "preview": "44.105.1 (2026-09-21) Bug Fixes datasource/crate: skip the web API of registries that do not implement it ( #46329 ) ( 8f5f238 ), closes #41536",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.105.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.0",
-      "published": "2026-09-21T07:32:20Z",
-      "preview": "44.105.0 (2026-09-21) Features manager/mise: support arrays of inline tables as tool versions ( #46330 ) ( e069399 ) Documentation update references to renovate/renovate to v44.104.2 (main) ( #46355 ) ( e392770 ) update references to renovatebot/github-action to v46.3.1 (main) ( #46356 ) ( a54a640 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1263,14 +1279,6 @@
       "category": "Ruby"
     },
     {
-      "title": "Announcing .NET 11 Release Candidate 1",
-      "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-1/",
-      "published": "2026-09-08T21:30:00Z",
-      "preview": ".NET 11 Release Candidate 1 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, C#, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 1 appeared first on .NET Blog .",
-      "source": "NuGet Blog",
-      "category": ".NET"
-    },
-    {
       "title": "0.12.11",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.11",
       "published": "2026-09-08T20:45:27Z",
@@ -2045,22 +2053,6 @@
       "preview": "What's Changed generate-zap: resolve apps from package receipts by @loganrosen in #23623 cc shim: compare by canonicalizing both sides, fixing issues with symlinked HOMEs by @averms in #23637 pathname/disk_usage_extension: fix double path traversal by @krehel in #23632 Migrate analytics to brew.sh proxy by @SMillerDev in #23639 Add brew tests --load-only and break the install require cycle by @p-linnane in #23642 Run privileged cask install steps in the parent process by @p-linnane in #23641 Drive bottle pours from relocation metadata by @MikeMcQuaid in #23643 bundle: fail Flatpak entries when",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "libnpmpack: v9.1.13",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.13",
-      "published": "2026-08-26T21:48:48Z",
-      "preview": "9.1.13 (2026-08-25) Bug Fixes 83b750d #9916 exempt explicit pack targets from allow-directory ( #9916 ) (@github-actions[bot], @ychampion , @ychampion )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v11.19.1",
-      "url": "https://github.com/npm/cli/releases/tag/v11.19.1",
-      "published": "2026-08-26T21:48:47Z",
-      "preview": "11.19.1 (2026-08-25) Bug Fixes 83b750d #9916 exempt explicit pack targets from allow-directory ( #9916 ) (@github-actions[bot], @ychampion , @ychampion ) Dependencies 4791b27 #9872 undici@6.28.0 ( @martinrrm , @Copilot) 823d647 #9872 ip-address@10.5.0 ( @martinrrm , @Copilot) 04f8efe #9872 brace-expansion@5.0.9 ( @martinrrm , @Copilot) 1610280 #9842 tar@7.5.22 ( #9842 ) ( @martinrrm , @Copilot) workspace : libnpmpack@9.1.13",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "v1.16.0",
