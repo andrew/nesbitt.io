@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-22T19:24:58Z",
-  "cutoff": "2026-08-23T19:24:52Z",
+  "generated": "2026-09-22T20:27:46Z",
+  "cutoff": "2026-08-23T20:27:30Z",
   "feed_count": 102,
-  "item_count": 259,
+  "item_count": 267,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,78 @@
     "System"
   ],
   "items": [
+    {
+      "title": "libnpmpublish: v12.0.1",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpublish-v12.0.1",
+      "published": "2026-09-22T20:21:16Z",
+      "preview": "12.0.1 (2026-09-21) Bug Fixes c9876d7 #9882 provenance-file takes precedence over OIDC auto-generated provenance ( #9882 ) ( @yunseo-kim )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v8.0.3",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.3",
+      "published": "2026-09-22T20:21:14Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.3",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmpack: v10.0.3",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.3",
+      "published": "2026-09-22T20:21:14Z",
+      "preview": "10.0.3 (2026-09-21) Bug Fixes 71915e8 #9756 exempt explicit pack targets from allow-directory ( #9756 ) ( @ychampion , @ychampion ) Dependencies workspace : @npmcli/arborist@10.0.3",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v11.0.3",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.3",
+      "published": "2026-09-22T20:21:13Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.3",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmdiff: v9.0.3",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v9.0.3",
+      "published": "2026-09-22T20:21:12Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@10.0.3",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "config: v11.1.0",
+      "url": "https://github.com/npm/cli/releases/tag/config-v11.1.0",
+      "published": "2026-09-22T20:21:11Z",
+      "preview": "11.1.0 (2026-09-21) Features 6400533 #9948 token: support read-write-stage-only granular access tokens ( #9948 ) ( @Tayvon , @Copilot) Bug Fixes c9876d7 #9882 provenance-file takes precedence over OIDC auto-generated provenance ( #9882 ) ( @yunseo-kim ) b016aa2 #9913 config: avoid exporting persistent allow-scripts ( #9913 ) ( @Fnine59 )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "arborist: v10.0.3",
+      "url": "https://github.com/npm/cli/releases/tag/arborist-v10.0.3",
+      "published": "2026-09-22T20:21:10Z",
+      "preview": "10.0.3 (2026-09-21) Bug Fixes d6c6122 #9914 arborist: match allowScripts keys for local paths ( #9914 ) ( @martinrrm , @Copilot) da50c34 #9881 arborist: reject uninstall args that carry a version ( #9881 ) ( @lazerg ) dc43591 #9877 arborist: don't fetch packuments for uninstallable optional peer dependencies ( #9877 ) ( @danielroe )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.1.0",
+      "url": "https://github.com/npm/cli/releases/tag/v12.1.0",
+      "published": "2026-09-22T20:21:08Z",
+      "preview": "12.1.0 (2026-09-21) Features 6400533 #9948 token: support read-write-stage-only granular access tokens ( #9948 ) ( @Tayvon , @Copilot) 8723f53 #9898 stage: display staged package status ( #9898 ) ( @joelverhagen ) Bug Fixes c9876d7 #9882 provenance-file takes precedence over OIDC auto-generated provenance ( #9882 ) ( @yunseo-kim ) b016aa2 #9913 config: avoid exporting persistent allow-scripts ( #9913 ) ( @Fnine59 ) d6c6122 #9914 arborist: match allowScripts keys for local paths ( #9914 ) ( @martinrrm , @Copilot) a8c9b2f #9823 keep dry-run output valid json ( #9823 ) ( @martinrrm ) da50c34 #988",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.107.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.107.3",
+      "published": "2026-09-22T19:58:30Z",
+      "preview": "44.107.3 (2026-09-22) Bug Fixes datasource: declare metadata as instance fields, not statics ( #46101 ) ( a4b263a ) Code Refactoring datasource: add cached() helper to the Datasource base class ( #46102 ) ( 1e6ffa8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.107.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.107.2",
@@ -309,14 +381,6 @@
       "preview": "[maven-release-plugin] prepare release maven-4.0.0-rc-7",
       "source": "Maven releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.104.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.104.2",
-      "published": "2026-09-21T02:47:59Z",
-      "preview": "44.104.2 (2026-09-21) Documentation update references to jaegertracing/jaeger to v2.21.0 (main) ( #46352 ) ( 6e60136 ) update references to otel/opentelemetry-collector-contrib to v0.161.0 (main) ( #46353 ) ( e3881d9 ) update references to renovate/renovate (main) ( #46354 ) ( 6de693a ) Build System deps: update dependency @renovatebot/detect-tools to v4.0.20 (main) ( #46351 ) ( 4a0da7b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "GitHub Actions leaking secrets when Miri output is cached",
