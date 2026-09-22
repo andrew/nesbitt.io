@@ -3,6 +3,7 @@ layout: page
 title: OSS Is Going Just Great
 description: A timeline of generative AI's impact on open source maintainers and software supply chain security.
 permalink: /oss-is-going-just-great/
+raw_markdown: true
 ---
 
 ...and Generative AI is definitely not burying maintainers under mass-generated slop.

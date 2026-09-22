@@ -3,9 +3,10 @@ layout: page
 title: Package Manager Threat Model
 permalink: /package-manager-threat-model/
 description: "A maintained checklist for auditing package managers: recurring weakness patterns from the public advisory record, and the design questions that sit outside it."
+raw_markdown: true
 ---
 
-*This page is the maintained version of two posts from May 2026, [Package Manager CWEs](/2026/05/04/package-manager-cwes.html) and [Package Manager Threat Models](/2026/05/05/package-manager-threat-models.html), merged and updated. Changes since then are summarised in [a separate post](/2026/09/22/package-manager-threat-model-revisited.html). Last reviewed September 2026.*
+*This page is the maintained version of two posts from May 2026, [Package Manager CWEs](/2026/05/04/package-manager-cwes.html) and [Package Manager Threat Models](/2026/05/05/package-manager-threat-models.html), merged and updated. Changes since then are summarised in [a separate post](/2026/09/22/package-manager-threat-model-revisited.html). Last reviewed September 2026. Also available as [raw markdown](/package-manager-threat-model.md) for feeding to agents.*
 
 Going through every security advisory filed against a package manager, client and registry both, produces about twenty recurring patterns. Most tools have entries under at least half of them, often years apart, because the people building package manager number nineteen often miss what bit package managers one through eighteen. Running the same list against ten package managers as an audit instrument over the following months produced findings under most of the same headings again, plus a handful the list was missing.
 

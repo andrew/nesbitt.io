@@ -3,6 +3,7 @@ layout: page
 title: Andrew Nesbitt's CV
 permalink: /cv/
 description: CV for Andrew Nesbitt, independent developer and open source infrastructure specialist.
+raw_markdown: true
 ---
 
 Independent developer and open source infrastructure specialist with 20 years of experience. Creator of Libraries.io and Ecosyste.ms. Building open data and open tooling for software dependency intelligence across package ecosystems.
