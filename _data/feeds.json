@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T11:27:06Z",
-  "cutoff": "2026-08-23T11:27:00Z",
+  "generated": "2026-09-22T12:39:12Z",
+  "cutoff": "2026-08-23T12:39:07Z",
   "feed_count": 102,
   "item_count": 256,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "8.0.0.5",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.5",
+      "published": "2026-09-22T12:22:03Z",
+      "preview": "Insert 8.0.0.5 into main on 09/22/2026 12:22:02",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "1.18.3",
       "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.3",
@@ -1973,14 +1981,6 @@
       "preview": "1.16.0 (August 26, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. ( #37986 ) terraform_data : The new store block can hold ephemeral and sensitive values across plan and apply. ( #38298 ) Providers can now use nested blocks as computed values ( #38305 ) import: import blocks inside modules are now supported. ( #38352 ) Terraform is now available as a pre-built binary for Linux s390x (zLinux). ( #38384 ) Resource action triggers can now use on_failure modes of halt , taint , or continue . ( #38",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "7.11.0.23",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.23",
-      "published": "2026-08-26T12:40:13Z",
-      "preview": "Insert 7.11.0.23 into main on 08/26/2026 12:40:13",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "Generic Methods",
