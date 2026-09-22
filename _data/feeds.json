@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T16:31:18Z",
-  "cutoff": "2026-08-23T16:31:06Z",
+  "generated": "2026-09-22T17:26:15Z",
+  "cutoff": "2026-08-23T17:26:09Z",
   "feed_count": 102,
   "item_count": 258,
   "categories": [
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v12.6.0",
+      "title": "pnpm 12.6",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.6.0",
-      "published": "2026-09-22T16:17:21Z",
-      "preview": "=v12.6.0",
+      "published": "2026-09-22T17:08:42Z",
+      "preview": "pnpm 12.6.0 ships with automatic dependency deduplication, relocatable node_modules, package.yaml manifest editing, and --save-types support. Minor Changes autoDedupe deduplicates compatible dependency versions during installation #7258 . Enable it in pnpm-workspace.yaml or use pnpm install --auto-dedupe or pnpm add --auto-dedupe . Frozen installs leave the lockfile unchanged. pnpm install , pnpm run , and pnpm exec on macOS and Linux now reuse a node_modules directory and bin shims that moved or were copied together with their project #6937 . The first command after the move checks the tree a",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
