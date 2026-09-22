@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-22T17:26:15Z",
-  "cutoff": "2026-08-23T17:26:09Z",
+  "generated": "2026-09-22T18:34:35Z",
+  "cutoff": "2026-08-23T18:34:30Z",
   "feed_count": 102,
-  "item_count": 258,
+  "item_count": 259,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.107.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.107.1",
+      "published": "2026-09-22T18:10:18Z",
+      "preview": "44.107.1 (2026-09-22) Bug Fixes versioning: use BigInt to avoid integer precision loss in gradle, maven and loose ( #43901 ) ( 96ad4be ) workers/repository/extract: pass vulnerability alert state to managers ( #46385 ) ( eee64df ) Code Refactoring types: Add lockfile-only skip reason ( #46384 ) ( 6eedb41 ) Tests utill/git: add 30s timeout to beforeAll ( #46386 ) ( 3b70d5f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 12.6",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.6.0",
@@ -173,6 +181,14 @@
       "preview": "At the end of August, we announced our first Maintainers in Residence, Rust Project contributors who are funded for their upstream contributions and maintenance work from the Rust Foundation Maintainers Fund (RFMF). Since then, the Rust Leadership Council has dedicated more funds from its Project Priorities budget to RFMF, and together with AWS also providing additional funds, this allowed us to open a new full-time Maintainer in Residence (MiR) position to support the Cargo team. We would like to thank the Rust Leadership Council, AWS, and also the Rust Foundation for providing us with this o",
       "source": "Rust Blog",
       "category": "Rust"
+    },
+    {
+      "title": "pnpm 12.6",
+      "url": "https://pnpm.io/blog/releases/12.6",
+      "published": "2026-09-22T00:00:00Z",
+      "preview": "pnpm 12.6 ships with automatic dependency deduplication, relocatable",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "Windows Package Manager 1.29.380",
@@ -341,14 +357,6 @@
       "preview": "Review follow-up: the record of nested repositories this machine's own walk found was replaced before the checkpoint was built, so a capture (or the walk itself) failing after a repository was removed cleared the path from the record while no checkpoint held the removal, and the retry took the old pointer for an inherited one. The record is written only on a successful outcome now, after the commit or at the unchanged return; any failure leaves the previous record standing. Unit test on the record, e2e forces a failing save between the removal and the retry. Co-Authored-By: Claude Fable 5.1 no",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.104.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.104.0",
-      "published": "2026-09-20T18:41:54Z",
-      "preview": "44.104.0 (2026-09-20) Features versioning: support ranges for the regex scheme ( #44834 ) ( 6a1a69c ) Miscellaneous Chores deps: update dependency memfs to v4.77.0 (main) ( #46346 ) ( 695b293 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.17.5",
