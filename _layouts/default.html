@@ -56,12 +56,14 @@
           <a rel="me" href="https://mastodon.social/@andrewnez">Mastodon</a> ·
           <a href="https://github.com/andrew">GitHub</a> ·
           <a href="{{ "/feed.xml" | relative_url }}">RSS</a> ·
+          <a href="{{ "/llms.txt" | relative_url }}">llms.txt</a> ·
           <a href="{{ "/stats" | relative_url }}">Stats</a> ·
           <a href="{{ "/search" | relative_url }}">Search</a> ·
           <a href="{{ "/about" | relative_url }}">About</a>
         </span>
         {% if page.layout == "post" %}
         <span class="footer-source">
+          <a href="{{ page.url | append: '.md' | replace: '.html.md', '.md' }}">Markdown</a> ·
           <a href="https://github.com/andrew/nesbitt.io/blob/master/{{ page.path }}">View source</a>
         </span>
         {% endif %}

@@ -37,4 +37,10 @@ end
 
 posts.each do |slug, (h1, body_marker)|
   check.call(slug, h1, body_marker, "https://nesbitt.io/#{slug}.html", "#{slug}.html")
+
+  html = File.read(File.join(root, "_site/#{slug}.html"))
+  raise "#{slug} footer is missing the Markdown link" unless html.include?(%(<a href="/#{slug}.md">Markdown</a>))
 end
+
+home = File.read(File.join(root, "_site/index.html"))
+raise "footer is missing the llms.txt link" unless home.include?(%(<a href="/llms.txt">llms.txt</a>))
