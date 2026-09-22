@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22T15:27:58Z",
-  "cutoff": "2026-08-23T15:27:52Z",
+  "generated": "2026-09-22T16:31:18Z",
+  "cutoff": "2026-08-23T16:31:06Z",
   "feed_count": 102,
   "item_count": 258,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.6.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.6.0",
+      "published": "2026-09-22T16:17:21Z",
+      "preview": "=v12.6.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v0.20.2",
       "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.20.2",
@@ -1221,14 +1229,6 @@
       "preview": "Deployment at 2026-09-08T12:13:41.276148Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 12.4",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.0",
-      "published": "2026-09-08T11:27:26Z",
-      "preview": "Minor Changes pnpm can now manage npm, Python, and Cargo dependencies in the same workspace. Enable python.enabled or cargo.enabled in pnpm-workspace.yaml , then use pnpm install to install them together. Add Python packages with pnpm add pypi:<package> . pnpm uses pyproject.toml , pylock.toml , and a managed .venv . Frozen and offline installs are supported, and pnpm run and pnpm exec make the environment's executables available #14566 . Add Rust crates with pnpm add crate:<package> . pnpm supports crates.io and custom sparse registries configured with cargo.indexUrl . Registry authentication",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "New Release 2.77.1",
