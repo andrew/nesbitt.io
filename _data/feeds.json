@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-23T12:39:58Z",
-  "cutoff": "2026-08-24T12:39:53Z",
+  "generated": "2026-09-23T13:28:58Z",
+  "cutoff": "2026-08-24T13:28:53Z",
   "feed_count": 102,
-  "item_count": 263,
+  "item_count": 264,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.16.4",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.4",
+      "published": "2026-09-23T12:44:16Z",
+      "preview": "1.16.4 (September 23, 2026) BUG FIXES: Fixed an issue where Terraform fails when rendering policy evaluation outcomes for older versions of Terraform Enterprise ( #39095 ) stacks: Fix invalid deferred error triggered by provider returning a deferral when a resource also has an unknown count/for_each. ( #39237 )",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
     {
       "title": "8.0.0.7",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.7",
