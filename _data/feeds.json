@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-23T18:34:12Z",
-  "cutoff": "2026-08-24T18:34:07Z",
+  "generated": "2026-09-23T19:26:11Z",
+  "cutoff": "2026-08-24T19:26:04Z",
   "feed_count": 102,
   "item_count": 263,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.111.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.3",
+      "published": "2026-09-23T19:01:02Z",
+      "preview": "44.111.3 (2026-09-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.100.1 (main) ( #46431 ) ( 8a3caa8 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.17.1 (main) ( #46430 ) ( fb5e7fb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "2.1.0-M2",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M2",
@@ -139,14 +147,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.108.1",
       "published": "2026-09-22T22:42:48Z",
       "preview": "44.108.1 (2026-09-22) Build System deps: update dependency cronstrue to v3.27.0 (main) ( #46399 ) ( 4939bce )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.108.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.108.0",
-      "published": "2026-09-22T22:06:51Z",
-      "preview": "44.108.0 (2026-09-22) Features manager/helmv3: support token-only registry logins ( #46373 ) ( 2e23302 ) Miscellaneous Chores deps: update dependency @types/node to v24.13.5 (main) ( #46394 ) ( 2e0b166 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
