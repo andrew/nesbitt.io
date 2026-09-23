@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-23T10:29:45Z",
-  "cutoff": "2026-08-24T10:29:38Z",
+  "generated": "2026-09-23T12:39:58Z",
+  "cutoff": "2026-08-24T12:39:53Z",
   "feed_count": 102,
-  "item_count": 264,
+  "item_count": 263,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "8.0.0.7",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.7",
+      "published": "2026-09-23T12:18:35Z",
+      "preview": "Insert 8.0.0.7 into main on 09/23/2026 12:18:35",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "44.110.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.110.0",
+      "published": "2026-09-23T11:51:13Z",
+      "preview": "44.110.0 (2026-09-23) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.100.0 (main) ( #46415 ) ( eedc251 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.17.0 (main) ( #46413 ) ( 53d00bd )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.109.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.109.1",
@@ -373,14 +389,6 @@
       "preview": "What's Changed Revert \"Use InfluxDB v3 API for analytics reporting\" by @SMillerDev in #24056 Clear the environment when reopening cask apps by @MikeMcQuaid in #24057 Full Changelog : 7.0.5...7.0.6",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "44.106.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.106.0",
-      "published": "2026-09-21T16:09:23Z",
-      "preview": "44.106.0 (2026-09-21) Features platform: one \"read repo file at ref\" helper per host ( #46190 ) ( 58d9a01 ) Code Refactoring changelog: derive api base urls from the platform family table ( #46193 ) ( a88aaed ) changelog: move platform fetchers onto ChangeLogSource ( #46192 ) ( 66f6747 ) constants: add a platform family capability table ( #46191 ) ( 0583e54 ) http: read platform families instead of the host type aliases ( #46347 ) ( 853290d ) platform: drop the GiteaLikeHttp alias ( #46098 ) ( 5fdc338 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.0.5",
@@ -2047,14 +2055,6 @@
       "category": "Maven"
     },
     {
-      "title": "7.11.0.24",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.11.0.24",
-      "published": "2026-08-27T12:32:04Z",
-      "preview": "Insert 7.11.0.24 into main on 08/27/2026 12:32:03",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
       "title": "v1.17.0-alpha20260827",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827",
       "published": "2026-08-27T10:30:11Z",
@@ -2125,14 +2125,6 @@
       "preview": "What's Changed Type common runtime boundaries by @JamieMagee in #15916 Type common provider clients by @JamieMagee in #15917 Type common repository fetching by @JamieMagee in #15918 Type common metadata boundaries by @JamieMagee in #15919 Type common pull request reads by @JamieMagee in #15920 Type common pull request writes by @JamieMagee in #15921 Bump erb from 6.0.1 to 6.0.1.1 in /updater by @dependabot [bot] in #14828 Bump erb from 6.0.1 to 6.0.1.1 by @dependabot [bot] in #14816 Terraform: skip interpolated module sources instead of crashing the parse by @miki79 in #15912 Fix uv library de",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v0.77.1",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.77.1",
-      "published": "2026-08-24T12:22:30Z",
-      "preview": "[0.77.1] - 2026-08-24 Added Add pixi workspace preview subcommand by @ruben-arts in #6859 Update rattler, rattler-build, minijinja, and display channel notices by @wolfv in #6852 Add one consistent API for detecting host machine by @Hofer-Julian in #6864 Changed Use .mojoc with precompile by @sstadick in #6860 Render lists in the generated CLI docs by @Hofer-Julian in #6868 Documentation Fix lists that render as plain text by @Hofer-Julian in #6871 Add a social card for link previews by @Hofer-Julian in #6876 Fixed Remove backends channel from pixi repo by @Hofer-Julian in #6862 Avoid rebuilds",
-      "source": "pixi releases",
-      "category": "Multi-language"
     }
   ]
 }
