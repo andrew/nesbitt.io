@@ -478,6 +478,8 @@ task :test do
   sh "bundle exec ruby test/post_layout_test.rb"
   sh "bundle exec ruby test/raw_markdown_test.rb"
   sh "bundle exec ruby test/feed_fetch_test.rb"
+  sh "bundle exec ruby test/cwe_build_test.rb"
+  sh "node test/cwe_page_test.mjs"
   sh "zizmor .github/workflows/"
 end
 

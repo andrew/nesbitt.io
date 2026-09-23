@@ -82,7 +82,7 @@ sitemap: false
   <svg id="chart"></svg>
   <div id="side">
     <h1>CWE map</h1>
-    <div class="meta" id="meta"></div>
+    <div class="meta"><span id="meta"></span><br><time id="updated"></time></div>
     <div id="labelmode">
       <a data-mode="cwe" class="on">CWE IDs</a> ·
       <a data-mode="dewey">Dewey-style</a>
@@ -90,7 +90,7 @@ sitemap: false
     <div id="legend"></div>
     <div id="crumbs"></div>
     <div id="info">
-      <div class="desc">Circle size is the number of CVE records that reference each weakness. Click a category to zoom in, click the background to zoom out, hover for details.</div>
+      <div class="desc">Circle area reflects the number of CVE records that reference each weakness, counted once per record. Weaknesses with no references have a minimum size so they remain visible. Click a category to zoom in, click the background to zoom out, hover for details.</div>
     </div>
     <div class="hint" id="top"></div>
   </div>
@@ -102,6 +102,9 @@ fetch("cwe_data.json").then(r => r.json()).then(data => {
   const fmt = d3.format(",");
   document.getElementById("meta").textContent =
     `CWE ${data.cwe_version} · ${fmt(data.cve_files)} CVEs · ${fmt(data.total_refs)} CWE refs`;
+  const updated = document.getElementById("updated");
+  updated.dateTime = data.generated.slice(0, 10);
+  updated.textContent = `Updated ${updated.dateTime}`;
 
   const topHtml = data.top.slice(0, 10).map(t =>
     `<div data-id="${t.id}">${t.id} · ${fmt(t.count)} · ${t.name}</div>`).join("");
@@ -156,8 +159,9 @@ fetch("cwe_data.json").then(r => r.json()).then(data => {
       .attr("stroke", d => d.depth === 1 ? "#555" : "none")
       .on("mouseover", (e, d) => showInfo(d))
       .on("click", (e, d) => {
+        e.stopPropagation();
         const target = d.children ? d : d.parent;
-        if (focus !== target) { zoom(e, target); e.stopPropagation(); }
+        if (focus !== target) zoom(e, target);
       });
 
   const catText = d => labelMode === "dewey" ? `${d.dewey} · ${d.data.name}` : d.data.name;

@@ -1,18 +1,20 @@
 #!/usr/bin/env ruby
 require "nokogiri"
 require "json"
+require "time"
 
 HERE = __dir__
 DATA = ARGV[0] || ENV["CWE_DATA"] || File.expand_path("../../cwe-data", HERE)
 XML  = Dir[File.join(DATA, "cwec_v*.xml")].max
 CVES = File.join(DATA, "cvelistV5-main", "cves")
-OUT  = File.join(HERE, "cwe_data.json")
+OUT  = ARGV[1] || File.join(HERE, "cwe_data.json")
 
 abort "Data dir not found: #{DATA}" unless File.directory?(DATA)
 
 NS = { "c" => "http://cwe.mitre.org/cwe-7" }
 
 abort "CWE XML not found" unless XML && File.exist?(XML)
+abort "CVE directory not found: #{CVES}" unless File.directory?(CVES)
 
 puts "Parsing #{File.basename(XML)}"
 doc = Nokogiri::XML(File.read(XML))
@@ -55,9 +57,10 @@ cwe_re = /"cweId"\s*:\s*"CWE-(\d+)"/
 
 Dir.glob(File.join(CVES, "**", "CVE-*.json")).each do |path|
   total_cves += 1
-  File.read(path).scan(cwe_re) { |(n)| counts[n.to_i] += 1 }
+  File.read(path).scan(cwe_re).flatten.map(&:to_i).uniq.each { |id| counts[id] += 1 }
   print "\r  #{total_cves} files" if total_cves % 5000 == 0
 end
+abort "No CVE records found" if total_cves.zero?
 puts "\r  #{total_cves} files, #{counts.size} distinct CWEs referenced"
 
 counts.each { |id, n| weaknesses[id][:count] = n if weaknesses[id] }

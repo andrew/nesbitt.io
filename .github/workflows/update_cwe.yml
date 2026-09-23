@@ -1,0 +1,56 @@
+name: Update CWE map
+
+on:
+  schedule:
+    - cron: '43 5 * * 1'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: update-cwe
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: master
+          persist-credentials: false
+
+      - uses: ruby/setup-ruby@984c0c890880bbf811283d6f09c4607c62d210a4
+        with:
+          bundler-cache: true
+
+      - name: Test CWE builder
+        run: bundle exec ruby test/cwe_build_test.rb
+
+      - name: Download CWE and CVE data
+        run: |
+          mkdir -p "$RUNNER_TEMP/cwe-data"
+          curl -fsSL --retry 3 --max-time 120 https://cwe.mitre.org/data/xml/cwec_latest.xml.zip -o "$RUNNER_TEMP/cwe-data/cwe.zip"
+          unzip -q "$RUNNER_TEMP/cwe-data/cwe.zip" -d "$RUNNER_TEMP/cwe-data"
+          curl -fsSL --retry 3 --max-time 1200 https://github.com/CVEProject/cvelistV5/archive/refs/heads/main.zip -o "$RUNNER_TEMP/cwe-data/cves.zip"
+          unzip -q "$RUNNER_TEMP/cwe-data/cves.zip" 'cvelistV5-main/cves/*' -d "$RUNNER_TEMP/cwe-data"
+
+      - name: Generate CWE map data
+        run: bundle exec ruby cwe/build.rb "$RUNNER_TEMP/cwe-data"
+
+      - name: Commit changes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          if ! git diff --quiet -- cwe/cwe_data.json; then
+            git add cwe/cwe_data.json
+            git commit -m 'Update CWE map data'
+            git pull --rebase origin master
+            git push "https://x-access-token:${GH_TOKEN}@github.com/${REPO}" HEAD:master
+          fi
