@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-23T09:31:26Z",
-  "cutoff": "2026-08-24T09:31:16Z",
+  "generated": "2026-09-23T10:29:45Z",
+  "cutoff": "2026-08-24T10:29:38Z",
   "feed_count": 102,
-  "item_count": 266,
+  "item_count": 264,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.109.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.109.1",
+      "published": "2026-09-23T09:34:55Z",
+      "preview": "44.109.1 (2026-09-23) Code Refactoring http-mock: Remove request tracing ( #44482 ) ( ac2fc77 ) Build System deps: update dependency prettier to v3.9.7 (main) ( #46411 ) ( 41856b2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.109.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.109.0",
@@ -389,14 +397,6 @@
       "preview": "Changes This release contains the known-checksum of the most recent uv releases and also disabled the uploading(saving) of the cache when in a merge queue since theses caches would almost never be used. 🚀 Enhancements Disable automatic cache saves for merge queues @eifinger ( #1056 ) 🧰 Maintenance chore: update known checksums for 0.12.17 @ github-actions[bot] ( #1058 ) chore: update known checksums for 0.12.16 @ github-actions[bot] ( #1057 ) chore: update known checksums for 0.12.15 @ github-actions[bot] ( #1054 ) chore: update known checksums for 0.12.14 @ github-actions[bot] ( #1053 ) chore",
       "source": "setup-uv releases",
       "category": "Python"
-    },
-    {
-      "title": "44.105.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.105.4",
-      "published": "2026-09-21T09:53:54Z",
-      "preview": "44.105.4 (2026-09-21) Code Refactoring datasource/rpm: remove \"gzip\" from identifiers ( #46264 ) ( cbe339c ) Build System deps: update dependency azure-devops-node-api to v17.0.1 (main) ( #46363 ) ( b31c429 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "archive/adopt-task",
@@ -2133,22 +2133,6 @@
       "preview": "[0.77.1] - 2026-08-24 Added Add pixi workspace preview subcommand by @ruben-arts in #6859 Update rattler, rattler-build, minijinja, and display channel notices by @wolfv in #6852 Add one consistent API for detecting host machine by @Hofer-Julian in #6864 Changed Use .mojoc with precompile by @sstadick in #6860 Render lists in the generated CLI docs by @Hofer-Julian in #6868 Documentation Fix lists that render as plain text by @Hofer-Julian in #6871 Add a social card for link previews by @Hofer-Julian in #6876 Fixed Remove backends channel from pixi repo by @Hofer-Julian in #6862 Avoid rebuilds",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "New release 2.76.3",
-      "url": "https://github.com/canonical/snapd/releases/tag/2.76.3",
-      "published": "2026-08-24T10:08:30Z",
-      "preview": "FDE: support keyboard configuration at install-time for first-boot FDE: re-enable passphrases/PINs at install-time FDE: require volumes authentication if HWROT is missing FDE: bump secboot to rev 457b03a16d19 FDE: use new secboot API for reprovision TPM Cross-distro: modify SELinux policy to use init_named_socket_activation() for allowing systemd to start snapd through socket activation packaging: make sure that usr/bin/snap is built with correct build tags on debian sid Ensure profiles are setup before running prepare-{slot, plug}* hooks Please note: the tarball generation did not happen in a",
-      "source": "Snapd releases",
-      "category": "System"
-    },
-    {
-      "title": "New release 2.76.2",
-      "url": "https://github.com/canonical/snapd/releases/tag/2.76.2",
-      "published": "2026-08-24T10:08:01Z",
-      "preview": "interfaces: steam-support, docker-support | fix mountinfo denial Please note: the tarball generation did not happen in a pristine environment and as a result unintended content was incorporated which inflates the size.",
-      "source": "Snapd releases",
-      "category": "System"
     }
   ]
 }
