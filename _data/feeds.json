@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-23T13:28:58Z",
-  "cutoff": "2026-08-24T13:28:53Z",
+  "generated": "2026-09-23T14:30:50Z",
+  "cutoff": "2026-08-24T14:30:45Z",
   "feed_count": 102,
   "item_count": 264,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.18",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
+      "published": "2026-09-23T14:29:08Z",
+      "preview": "Release Notes Released on 2026-09-22. This release addresses GHSA-2cv4-cqwr-gwf7 , which is a path traversal weakness during wheel installation on Windows. No other platforms are affected by this advisory. Enhancements Add --output-format json to uv pip install and uv pip sync , including for --dry-run and --check ( #21893 ) Add --check to uv pip install and uv pip sync to report planned changes without modifying the environment ( #21844 ) Identify failures from get_requires_for_build_* hooks correctly in build errors ( #21881 ) Preview features Validate build requirements for uv build --no-bu",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "v1.16.4",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.4",
@@ -76,14 +84,6 @@
       "published": "2026-09-22T23:48:27Z",
       "preview": "What's Changed docs: fix argument order in the combined inject example by @agammann in #2044 docs: fix Git extras install example for current pip by @saitakarcesme in #2047 ci(pre-release): drop unused contents:write permission by @gaborbernat in #2050 🐛 fix(manifest): make locked tools install on sync by @gaborbernat in #2052 New Contributors @agammann made their first contribution in #2044 @saitakarcesme made their first contribution in #2047 Full Changelog : 1.17.5...1.17.6",
       "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "0.12.18",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
-      "published": "2026-09-22T23:00:51Z",
-      "preview": "Release Notes Released on 2026-09-22. Enhancements Add --output-format json to uv pip install and uv pip sync , including for --dry-run and --check ( #21893 ) Add --check to uv pip install and uv pip sync to report planned changes without modifying the environment ( #21844 ) Identify failures from get_requires_for_build_* hooks correctly in build errors ( #21881 ) Preview features Validate build requirements for uv build --no-build-isolation with --preview-features build-dependency-check ; use --skip-dependency-check to opt out ( #21880 ) Performance Speed up uv_build editable wheel creation b",
-      "source": "uv releases",
       "category": "Python"
     },
     {
