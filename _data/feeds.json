@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-23T14:30:50Z",
-  "cutoff": "2026-08-24T14:30:45Z",
+  "generated": "2026-09-23T15:29:30Z",
+  "cutoff": "2026-08-24T15:29:23Z",
   "feed_count": 102,
-  "item_count": 264,
+  "item_count": 263,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.111.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.0",
+      "published": "2026-09-23T14:49:04Z",
+      "preview": "44.111.0 (2026-09-23) Features data: automatic update of static data ( #46418 ) ( 5d3ff8f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.110.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.110.1",
+      "published": "2026-09-23T14:32:43Z",
+      "preview": "44.110.1 (2026-09-23) Bug Fixes http: validate the cached response shape in the http cache schema ( #46417 ) ( e144d8d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.12.18",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
@@ -199,14 +215,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.107.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.107.1",
-      "published": "2026-09-22T18:10:18Z",
-      "preview": "44.107.1 (2026-09-22) Bug Fixes versioning: use BigInt to avoid integer precision loss in gradle, maven and loose ( #43901 ) ( 96ad4be ) workers/repository/extract: pass vulnerability alert state to managers ( #46385 ) ( eee64df ) Code Refactoring types: Add lockfile-only skip reason ( #46384 ) ( 6eedb41 ) Tests utill/git: add 30s timeout to beforeAll ( #46386 ) ( 3b70d5f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "pnpm 12.6",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.6.0",
       "published": "2026-09-22T17:08:42Z",
@@ -237,14 +245,6 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-09-21-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.107.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.107.0",
-      "published": "2026-09-22T12:53:08Z",
-      "preview": "44.107.0 (2026-09-22) Features manager/mise: support pypi backend ( #46359 ) ( fd5e9f4 ), closes #46343 Bug Fixes manager/helmv3: share generateHelmEnvs with kustomize ( #46179 ) ( 35f44f3 ) manager: share one local Helm chart path check ( #46181 ) ( 2169a57 ) Documentation align colour scheme with Mend colours ( #46316 ) ( fd2c455 ) Miscellaneous Chores deps: update astral-sh/setup-uv action to v10.2.0 (main) ( #46367 ) ( f2a8dc2 ) Code Refactoring manager/helmv3: share OCI registry login helper with helmfile ( #46180 ) ( c8ce514 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "8.0.0.5",
@@ -2125,14 +2125,6 @@
       "preview": "This is a servicing release of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
       "source": "winget releases",
       "category": "System"
-    },
-    {
-      "title": "v0.393.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.393.0",
-      "published": "2026-08-24T15:26:56Z",
-      "preview": "What's Changed Type common runtime boundaries by @JamieMagee in #15916 Type common provider clients by @JamieMagee in #15917 Type common repository fetching by @JamieMagee in #15918 Type common metadata boundaries by @JamieMagee in #15919 Type common pull request reads by @JamieMagee in #15920 Type common pull request writes by @JamieMagee in #15921 Bump erb from 6.0.1 to 6.0.1.1 in /updater by @dependabot [bot] in #14828 Bump erb from 6.0.1 to 6.0.1.1 by @dependabot [bot] in #14816 Terraform: skip interpolated module sources instead of crashing the parse by @miki79 in #15912 Fix uv library de",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
