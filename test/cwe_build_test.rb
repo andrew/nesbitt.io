@@ -45,12 +45,17 @@ Dir.mktmpdir("cwe-build-test") do |dir|
   ]
   records.each_with_index do |containers, i|
     id = "CVE-2099-000#{i + 1}"
+    published = ["2019-12-31T23:59:59Z", "2020-01-01T00:00:00Z", "2021-06-01T12:00:00Z"][i]
     File.write(File.join(cves, "#{id}.json"), JSON.generate({
       "dataType" => "CVE_RECORD", "dataVersion" => "5.1",
-      "cveMetadata" => { "cveId" => id, "state" => "PUBLISHED" },
+      "cveMetadata" => { "cveId" => id, "state" => "PUBLISHED", "datePublished" => published, "dateUpdated" => "2026-09-01T00:00:00Z" },
       "containers" => containers
     }))
   end
+  File.write(File.join(cves, "CVE-2099-0004.json"), JSON.generate({
+    "cveMetadata" => { "cveId" => "CVE-2099-0004", "state" => "REJECTED" },
+    "containers" => { "cna" => {} }
+  }))
 
   stdout, stderr, status = Open3.capture3(RbConfig.ruby, builder, dir, output)
   raise "Builder failed: #{stdout}\n#{stderr}" unless status.success?
@@ -58,11 +63,17 @@ Dir.mktmpdir("cwe-build-test") do |dir|
   leaves = data.fetch("tree").fetch("children").flat_map { |category| category.fetch("children") }
   counts = leaves.to_h { |leaf| [leaf.fetch("id"), leaf.fetch("count")] }
   raise "Duplicate references counted: #{counts.inspect}" unless counts == { "CWE-79" => 2, "CWE-89" => 1, "CWE-20" => 0 }
-  raise "Incorrect record total" unless data.fetch("cve_files") == 3
+  raise "Incorrect record total" unless data.fetch("cve_files") == 4
   raise "Incorrect reference total" unless data.fetch("total_refs") == 3
   raise "Top count disagrees with map" unless data.fetch("top").first.fetch("count") == 2
   raise "Zero-count weakness is invisible" unless leaves.last.fetch("value") == 1
   raise "Missing generation date" unless data.fetch("generated").match?(/\A\d{4}-\d{2}-\d{2}T/)
+  expected_years = {
+    "2019" => { "cve_files" => 1, "counts" => { "79" => 1, "89" => 1 } },
+    "2020" => { "cve_files" => 1, "counts" => { "79" => 1 } },
+    "2021" => { "cve_files" => 1, "counts" => {} }
+  }
+  raise "Yearly counts must use publication dates and deduplicate each record" unless data.fetch("years") == expected_years
 
   FileUtils.rm_r(File.join(dir, "cvelistV5-main"))
   before = File.read(output)

@@ -40,6 +40,11 @@ sitemap: false
   #side .count { color: #8b949e; font-size: 12px; margin: 4px 0 10px; }
   #side .desc { font-size: 13px; color: #c9d1d9; }
   #side .hint { color: #8b949e; font-size: 12px; margin-top: 16px; }
+  #year-control { font-size: 12px; margin-bottom: 16px; }
+  #year, #play { background: #0d1117; color: #c9d1d9; border: 1px solid #30363d; border-radius: 4px; padding: 4px 6px; margin-left: 6px; }
+  #play { cursor: pointer; min-width: 50px; }
+  #play:hover { border-color: #8b949e; }
+  #year-control .hint { margin: 6px 0 0; }
   #top div { cursor: pointer; padding: 1px 0; }
   #top div:hover { color: #e6edf3; }
   circle.hl { stroke: #fff !important; stroke-width: 3px; }
@@ -83,6 +88,12 @@ sitemap: false
   <div id="side">
     <h1>CWE map</h1>
     <div class="meta"><span id="meta"></span><br><time id="updated"></time></div>
+    <div id="year-control">
+      <label for="year">Published through</label>
+      <select id="year"><option value="">All years</option></select>
+      <button id="play" type="button" disabled>Play</button>
+      <p class="hint">Cumulative by publication year, using current CWE classifications. Many older records have no CWE reference.</p>
+    </div>
     <div id="labelmode">
       <a data-mode="cwe" class="on">CWE IDs</a> ·
       <a data-mode="dewey">Dewey-style</a>
@@ -97,212 +108,6 @@ sitemap: false
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
-<script>
-fetch("cwe_data.json").then(r => r.json()).then(data => {
-  const fmt = d3.format(",");
-  document.getElementById("meta").textContent =
-    `CWE ${data.cwe_version} · ${fmt(data.cve_files)} CVEs · ${fmt(data.total_refs)} CWE refs`;
-  const updated = document.getElementById("updated");
-  updated.dateTime = data.generated.slice(0, 10);
-  updated.textContent = `Updated ${updated.dateTime}`;
-
-  const topHtml = data.top.slice(0, 10).map(t =>
-    `<div data-id="${t.id}">${t.id} · ${fmt(t.count)} · ${t.name}</div>`).join("");
-  document.getElementById("top").innerHTML = `<strong>Most referenced</strong>${topHtml}`;
-
-  const size = 1000;
-  const svg = d3.select("#chart")
-    .attr("viewBox", `${-size/2} ${-size/2} ${size} ${size}`)
-    .attr("preserveAspectRatio", "xMidYMid meet");
-
-  const root = d3.hierarchy(data.tree)
-    .sum(d => d.value || 0)
-    .sort((a, b) => b.value - a.value);
-
-  d3.pack().size([size - 4, size - 4]).padding(3)(root);
-
-  root.children.forEach((cat, ci) => {
-    cat.dewey = String(ci + 1);
-    cat.children.forEach((leaf, li) => leaf.dewey = `${ci + 1}.${li + 1}`);
-  });
-
-  let labelMode = "cwe";
-  const absOrder = ["Pillar", "Class", "Base", "Variant", "Compound"];
-  const absColor = d3.scaleOrdinal()
-    .domain(absOrder)
-    .range(["#d73027", "#fc8d59", "#91cf60", "#1a9850", "#4575b4"]);
-
-  document.getElementById("legend").innerHTML = absOrder
-    .map(a => `<div data-abs="${a}"><i style="background:${absColor(a)}"></i>${a}</div>`).join("");
-
-  let absFilter = null;
-  let focus = root;
-  let view;
-
-  const defs = svg.append("defs");
-  const arcPath = defs.selectAll("path")
-    .data(root.children)
-    .join("path")
-      .attr("id", (d, i) => `arc-${i}`);
-
-  const g = svg.append("g");
-
-  function leafFill(d) {
-    if (absFilter && d.data.abstraction !== absFilter) return "#2a2f36";
-    return absColor(d.data.abstraction) || "#666";
-  }
-
-  const node = g.selectAll("circle")
-    .data(root.descendants().slice(1))
-    .join("circle")
-      .attr("fill", d => d.depth === 1 ? "rgba(100,100,100,0.15)" : leafFill(d))
-      .attr("stroke", d => d.depth === 1 ? "#555" : "none")
-      .on("mouseover", (e, d) => showInfo(d))
-      .on("click", (e, d) => {
-        e.stopPropagation();
-        const target = d.children ? d : d.parent;
-        if (focus !== target) zoom(e, target);
-      });
-
-  const catText = d => labelMode === "dewey" ? `${d.dewey} · ${d.data.name}` : d.data.name;
-  const leafText = d => labelMode === "dewey" ? d.dewey : d.data.id;
-
-  const catLabel = g.selectAll("text.cat")
-    .data(root.children)
-    .join("text")
-      .attr("class", "cat")
-    .append("textPath")
-      .attr("href", (d, i) => `#arc-${i}`)
-      .attr("startOffset", "50%")
-      .attr("text-anchor", "middle")
-      .text(catText);
-
-  const leafLabel = g.selectAll("text.leaf")
-    .data(root.leaves())
-    .join("text")
-      .attr("class", "leaf")
-      .attr("dy", "0.35em")
-      .text(leafText);
-
-  document.querySelectorAll("#labelmode a").forEach(a => {
-    a.addEventListener("click", e => {
-      labelMode = a.dataset.mode;
-      document.querySelectorAll("#labelmode a").forEach(x =>
-        x.classList.toggle("on", x === a));
-      catLabel.text(catText);
-      leafLabel.text(leafText);
-      zoomTo(view);
-      e.preventDefault();
-    });
-  });
-
-  svg.on("click", e => zoom(e, root));
-
-  function setFilter(abs) {
-    absFilter = abs;
-    node.filter(d => d.depth > 1).attr("fill", leafFill);
-    leafLabel.style("visibility", d =>
-      absFilter && d.data.abstraction !== absFilter ? "hidden" : null);
-    document.querySelectorAll("#legend div[data-abs]").forEach(el =>
-      el.classList.toggle("dim", absFilter && el.dataset.abs !== absFilter));
-  }
-
-  document.querySelectorAll("#legend div[data-abs]").forEach(el => {
-    el.addEventListener("click", e => {
-      setFilter(absFilter === el.dataset.abs ? null : el.dataset.abs);
-      e.stopPropagation();
-    });
-  });
-
-  const byId = new Map(root.descendants().map(d => [d.data.id, d]));
-
-  function focusOn(id) {
-    const d = byId.get(id);
-    if (!d) return;
-    node.classed("hl", n => n === d);
-    showInfo(d);
-    zoom(null, d.children ? d : d.parent);
-  }
-
-  document.querySelectorAll("#top div[data-id]").forEach(el => {
-    el.addEventListener("click", e => { focusOn(el.dataset.id); e.stopPropagation(); });
-  });
-
-  zoomTo([root.x, root.y, root.r * 2]);
-
-  function zoomTo(v) {
-    view = v;
-    const k = size / v[2];
-    const tx = d => (d.x - v[0]) * k;
-    const ty = d => (d.y - v[1]) * k;
-
-    node.attr("transform", d => `translate(${tx(d)},${ty(d)})`)
-        .attr("r", d => d.r * k);
-
-    arcPath.attr("d", d => {
-      const r = d.r * k - 6;
-      const cx = tx(d), cy = ty(d);
-      return `M ${cx - r} ${cy} A ${r} ${r} 0 1 1 ${cx + r} ${cy}`;
-    });
-    catLabel.each(function(d) {
-      const r = d.r * k;
-      const parent = this.parentNode;
-      const arcLen = Math.PI * (r - 6);
-      const fs = arcLen / (catText(d).length * 0.6);
-      if (r < 25 || fs < 10) { parent.style.display = "none"; return; }
-      parent.style.display = null;
-      parent.style.fontSize = Math.min(16, fs) + "px";
-    });
-
-    leafLabel
-      .attr("transform", d => `translate(${tx(d)},${ty(d)})`)
-      .style("display", d => d.r * k > 22 ? null : "none");
-  }
-
-  function zoom(event, d) {
-    focus = d;
-    updateCrumbs();
-    svg.transition().duration(600).tween("zoom", () => {
-      const i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + 10]);
-      return t => zoomTo(i(t));
-    });
-  }
-
-  function showInfo(d) {
-    const info = document.getElementById("info");
-    const id = d.data.id;
-    const num = id.replace("CWE-", "");
-    const link = `https://cwe.mitre.org/data/definitions/${num}.html`;
-    const dew = d.dewey ? ` · <span title="synthetic Dewey-style code">${d.dewey}</span>` : "";
-    let html = `<div class="id"><a href="${link}" target="_blank">${id}</a>${dew}</div>`;
-    html += `<h2>${d.data.name}</h2>`;
-    if (d.children) {
-      const total = d3.sum(d.leaves(), l => l.data.count);
-      html += `<div class="count">${d.children.length} weaknesses · ${fmt(total)} CVE refs</div>`;
-      if (d.data.summary) html += `<div class="desc">${escapeHtml(d.data.summary)}</div>`;
-    } else {
-      html += `<div class="count">${fmt(d.data.count)} CVE refs · ${d.data.abstraction || ""}</div>`;
-      if (d.data.description) html += `<div class="desc">${escapeHtml(d.data.description)}</div>`;
-    }
-    info.innerHTML = html;
-  }
-
-  function updateCrumbs() {
-    const el = document.getElementById("crumbs");
-    const chain = focus.ancestors().reverse();
-    el.innerHTML = chain.map((d, i) =>
-      i === chain.length - 1 ? d.data.name : `<span data-i="${i}">${d.data.name}</span>`
-    ).join(" / ");
-    el.querySelectorAll("span").forEach(s =>
-      s.onclick = e => { zoom(e, chain[+s.dataset.i]); e.stopPropagation(); });
-  }
-
-  function escapeHtml(s) {
-    return s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
-  }
-
-  updateCrumbs();
-});
-</script>
+<script src="map.js"></script>
 </body>
 </html>

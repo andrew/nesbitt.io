@@ -52,12 +52,21 @@ puts "  #{categories.size} categories"
 
 puts "Counting CWE references in CVEs (this may take a minute)"
 counts = Hash.new(0)
+years = Hash.new { |hash, year| hash[year] = { cve_files: 0, counts: Hash.new(0) } }
 total_cves = 0
 cwe_re = /"cweId"\s*:\s*"CWE-(\d+)"/
 
 Dir.glob(File.join(CVES, "**", "CVE-*.json")).each do |path|
   total_cves += 1
-  File.read(path).scan(cwe_re).flatten.map(&:to_i).uniq.each { |id| counts[id] += 1 }
+  content = File.read(path)
+  ids = content.scan(cwe_re).flatten.map(&:to_i).uniq
+  ids.each { |id| counts[id] += 1 }
+  published = JSON.parse(content).dig("cveMetadata", "datePublished")
+  year = published&.match(/\A(\d{4})-/)&.[](1)
+  if year
+    years[year][:cve_files] += 1
+    ids.each { |id| years[year][:counts][id] += 1 }
+  end
   print "\r  #{total_cves} files" if total_cves % 5000 == 0
 end
 abort "No CVE records found" if total_cves.zero?
@@ -99,6 +108,7 @@ output = {
   cwe_version: doc.root["Version"],
   cve_files: total_cves,
   total_refs: total_refs,
+  years: years.sort.to_h,
   tree: tree,
   top: counts.sort_by { |_, n| -n }.first(25).map { |id, n| { id: "CWE-#{id}", name: weaknesses.dig(id, :name), count: n } }
 }
