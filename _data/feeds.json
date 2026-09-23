@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-23T16:32:19Z",
-  "cutoff": "2026-08-24T16:32:13Z",
+  "generated": "2026-09-23T18:34:12Z",
+  "cutoff": "2026-08-24T18:34:07Z",
   "feed_count": 102,
-  "item_count": 264,
+  "item_count": 263,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.1.0-M2",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M2",
+      "published": "2026-09-23T18:33:46Z",
+      "preview": "updates and bug fixes fix: Fixes Windows runner handling of sbt bsp by @stasimus in #9766 fix: Do not duplicate platform axes on a row by @kitbellew in #9757 fix: Warn on output declarations in uncached tasks by @anatoliykmetyuk in #9770 Allow adding rows and configuring them separately, and through any method by @kitbellew in #9765 fix: Update to Gigahorse 0.9.6 for pre-authentication by @eed3si9n in #9775 fix: Name taskValue in its compile-time diagnostic by @anatoliykmetyuk in #9779 ProjectMatrix: validate axes against autoScalaLibrary by @kitbellew in #9771 deps: Coursier 2.1.25 by @eed3si",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
     {
       "title": "44.111.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.2",
@@ -389,14 +397,6 @@
       "preview": "What's Changed Bump js-yaml from 3.14.1 to 3.15.2 in /bun/helpers by @dependabot [bot] in #16292 Bump Microsoft.Extensions.Logging from 10.0.11 to 10.0.12 by @dependabot [bot] in #16284 Fix devcontainers crash on features referenced without a version tag by @v-kbukum1 in #16295 Add support for .zst nixpkgs tarball by @bazcatqubed in #16166 npm_and_yarn: route pnpm 12 native binary download through the proxy by @Stanzilla in #16170 julia: derive stdlib compat entries from the versions bundled across the julia compat range by @IanButterworth in #16229 Support Bundler cooldown with Compact Index ",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "2.1.0-M2",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M2",
-      "published": "2026-09-21T16:43:22Z",
-      "preview": "updates and bug fixes fix: Fixes Windows runner handling of sbt bsp by @stasimus in #9766 fix: Do not duplicate platform axes on a row by @kitbellew in #9757 fix: Warn on output declarations in uncached tasks by @anatoliykmetyuk in #9770 Allow adding rows and configuring them separately, and through any method by @kitbellew in #9765 fix: Update to Gigahorse 0.9.6 for pre-authentication by @eed3si9n in #9775 fix: Name taskValue in its compile-time diagnostic by @anatoliykmetyuk in #9779 ProjectMatrix: validate axes against autoScalaLibrary by @kitbellew in #9771 deps: Coursier 2.1.25 by @eed3si",
-      "source": "sbt releases",
-      "category": "Maven"
     },
     {
       "title": "7.0.6",
@@ -2125,14 +2125,6 @@
       "preview": "Release 1.16.8",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "Windows Package Manager 1.29.290",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.290",
-      "published": "2026-08-24T18:14:11Z",
-      "preview": "This is a servicing release of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
-      "source": "winget releases",
-      "category": "System"
     }
   ]
 }
