@@ -7,6 +7,8 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Package Manager Threat Model, Revisited](https://nesbitt.io/2026/09/22/package-manager-threat-model-revisited.html)
+- [Unfinished Work in Package Security](https://nesbitt.io/2026/09/22/unfinished-work-in-package-security.html)
 - [This Week in Package Management: 19 September 2026](https://nesbitt.io/2026/09/19/this-week-in-package-management.html)
 - [Good Morning, Your Toaster Is Compromised](https://nesbitt.io/2026/09/17/good-morning-your-toaster-is-compromised.html)
 - [Shadowing the Standard Library](https://nesbitt.io/2026/09/15/shadowing-the-standard-library.html)
@@ -15,6 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [What’s new in git-pkgs](https://nesbitt.io/2026/09/08/whats-new-in-git-pkgs.html)
 - [This Week in Package Management: 5 September 2026](https://nesbitt.io/2026/09/05/this-week-in-package-management.html)
 - [How much should you trust your OSS data?](https://nesbitt.io/2026/09/04/how-much-should-you-trust-your-oss-data.html)
-- [Git Submodules as a Package Manager](https://nesbitt.io/2026/09/01/git-submodules-as-a-package-manager.html)
-- [This Week in Package Management: 29 August 2026](https://nesbitt.io/2026/08/29/this-week-in-package-management.html)
 <!-- POSTS:END -->
