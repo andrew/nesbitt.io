@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-23T22:26:26Z",
-  "cutoff": "2026-08-24T22:26:21Z",
+  "generated": "2026-09-23T23:23:23Z",
+  "cutoff": "2026-08-24T23:23:18Z",
   "feed_count": 102,
   "item_count": 263,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.111.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.4",
+      "published": "2026-09-23T22:53:18Z",
+      "preview": "44.111.4 (2026-09-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.100.2 (main) ( #46433 ) ( 0c4ef0d ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.17.2 (main) ( #46432 ) ( 0813ea6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.111.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.3",
@@ -141,14 +149,6 @@
       "preview": "What's Changed docs: fix argument order in the combined inject example by @agammann in #2044 docs: fix Git extras install example for current pip by @saitakarcesme in #2047 ci(pre-release): drop unused contents:write permission by @gaborbernat in #2050 🐛 fix(manifest): make locked tools install on sync by @gaborbernat in #2052 New Contributors @agammann made their first contribution in #2044 @saitakarcesme made their first contribution in #2047 Full Changelog : 1.17.5...1.17.6",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "44.108.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.108.1",
-      "published": "2026-09-22T22:42:48Z",
-      "preview": "44.108.1 (2026-09-22) Build System deps: update dependency cronstrue to v3.27.0 (main) ( #46399 ) ( 4939bce )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "libnpmpublish: v11.2.1",
