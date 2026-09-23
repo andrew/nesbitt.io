@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-23T19:26:11Z",
-  "cutoff": "2026-08-24T19:26:04Z",
+  "generated": "2026-09-23T21:26:51Z",
+  "cutoff": "2026-08-24T21:26:45Z",
   "feed_count": 102,
-  "item_count": 263,
+  "item_count": 256,
   "categories": [
     ".NET",
     "C/C++",
@@ -367,14 +367,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "Announcing a Maintainer in Residence: Scott Schafer for the Cargo team",
-      "url": "https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/",
-      "published": "2026-09-22T00:00:00Z",
-      "preview": "At the end of August, we announced our first Maintainers in Residence, Rust Project contributors who are funded for their upstream contributions and maintenance work from the Rust Foundation Maintainers Fund (RFMF). Since then, the Rust Leadership Council has dedicated more funds from its Project Priorities budget to RFMF, and together with AWS also providing additional funds, this allowed us to open a new full-time Maintainer in Residence (MiR) position to support the Cargo team. We would like to thank the Rust Leadership Council, AWS, and also the Rust Foundation for providing us with this o",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
       "title": "pnpm 12.6",
       "url": "https://pnpm.io/blog/releases/12.6",
       "published": "2026-09-22T00:00:00Z",
@@ -437,14 +429,6 @@
       "preview": "[maven-release-plugin] prepare release maven-4.0.0-rc-7",
       "source": "Maven releases",
       "category": "Maven"
-    },
-    {
-      "title": "GitHub Actions leaking secrets when Miri output is cached",
-      "url": "https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/",
-      "published": "2026-09-21T00:00:00Z",
-      "preview": "The Rust Security Response Team was notified that Miri stores all environment variables to target/ , allowing secrets to persist in caches. While not necessary a vulnerability in and of itself, when paired with GitHub Actions caching behavior, it is possible for this to expose secrets to PRs. Overview GitHub Actions makes it possible to cache directories between runs. Typical setups allow CI runs on main (and other branches) to write to cache, and PRs can only read from cache (preventing cache poisoning). Rust projects tend to speed up CI by caching binaries built by cargo install and sometime",
-      "source": "Rust Blog",
-      "category": "Rust"
     },
     {
       "title": "Hatchling v1.32.4",
@@ -829,14 +813,6 @@
       "preview": "Bug Fixes Fix writing lock files specified as bare relative filenames with pdm lock --lockfile . ( #3891 ) Preserve local paths containing spaces and their extras and environment markers when importing requirements files. ( #3894 ) Documentation List the install-pdm.py options the script actually accepts. ( #3889 )",
       "source": "PDM releases",
       "category": "Python"
-    },
-    {
-      "title": "Be alert: targeted attacks on prominent Rustaceans",
-      "url": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
-      "published": "2026-09-17T00:00:00Z",
-      "preview": "We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. What we've seen A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). These attackers are setting up new but legi",
-      "source": "Rust Blog",
-      "category": "Rust"
     },
     {
       "title": "Hatch v1.18.1",
@@ -1415,14 +1391,6 @@
       "category": "System"
     },
     {
-      "title": "Rust debugging survey 2026 results",
-      "url": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
-      "published": "2026-09-07T00:00:00Z",
-      "preview": "One of the biggest challenges Rust developers report in our annual surveys is a subpar debugging experience. So, back in February, we ran our first Rust Debugging Survey , in the hopes of identifying how Rust developers are using debuggers and what problems they are facing when doing so. We received over 2,300 responses, and we'd like to thank everyone who took the time to participate in the survey! In this report, we'll go over some of the results of the survey. If you'd like, you can also check out the complete results of the survey . If you'd like to skip ahead to any particular section, yo",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
       "title": "pnpm 11.26",
       "url": "https://pnpm.io/blog/releases/11.26",
       "published": "2026-09-07T00:00:00Z",
@@ -1639,14 +1607,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "Announcing Rust 1.98.1",
-      "url": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
-      "published": "2026-09-03T00:00:00Z",
-      "preview": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.98.1 Rust 1.98.1 fixes a miscompilation in vtable generation . In Rust 1.98.0, in some circumstances, rustc would incorrectly generate a trait object vtable with a null pointer where a function pointer should be. T",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
       "title": "v6.1.1",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.1",
       "published": "2026-09-02T16:35:51Z",
@@ -1813,14 +1773,6 @@
       "preview": "The PHP Foundation is excited to announce the addition of Brent Roose from JetBrains to the Foundation's Board of Directors. Brent fills the JetBrains Platinum Sponsor seat and was unanimously voted to join by the existing members. Brent is a developer advocate for PHP at JetBrains, but he is also a writer, content creator, event organizer, community leader, and open source contributor. He is a well-recognized voice on PHP Annotated , maintains an active blog at stitcher.io , and is the creator of the Tempest framework for PHP, one of his bigger open source projects. PHP has been my passion fo",
       "source": "PHP Foundation Blog",
       "category": "PHP"
-    },
-    {
-      "title": "Announcing rustup 1.29.1",
-      "url": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
-      "published": "2026-09-01T00:00:00Z",
-      "preview": "The rustup team is happy to announce the release of rustup version 1.29.1. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What's new in rustup 1.29.1 The headlines of this release are: Concurrency in certain rustup operations has been improved: When running rustup update , rustup will first check for possible updates in parallel. pr#4752 When running rustup component add with multiple components, they will be installed concurrently. pr#4790 Implicit installation of the active toolchain in rustup-init and ",
-      "source": "Rust Blog",
-      "category": "Rust"
     },
     {
       "title": "Helm v3.22.0-rc.1",
@@ -2101,14 +2053,6 @@
       "preview": "Go 1.27 adds generic methods—a highly desired language feature.",
       "source": "Go Blog",
       "category": "Go"
-    },
-    {
-      "title": "Announcing our first Maintainers in Residence",
-      "url": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
-      "published": "2026-08-26T00:00:00Z",
-      "preview": "We are very happy to announce the Rust Project's first round of Maintainers in Residence: Gen Li ( @rami3l ), Chris Denton ( @ChrisDenton ), Alejandra González ( @blyxyas ), León Liehr ( @fmease ), and Maintainer Grant recipients: Jason Newcomb ( @Jarcho ) and Jonas Böttiger ( @joboet ). These contributors will be funded for their rust-lang maintenance activities for (at least) the following 12 months! The funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, th",
-      "source": "Rust Blog",
-      "category": "Rust"
     },
     {
       "title": "pnpm 12.0",
