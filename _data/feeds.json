@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-23T15:29:30Z",
-  "cutoff": "2026-08-24T15:29:23Z",
+  "generated": "2026-09-23T16:32:19Z",
+  "cutoff": "2026-08-24T16:32:13Z",
   "feed_count": 102,
-  "item_count": 263,
+  "item_count": 264,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.111.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.2",
+      "published": "2026-09-23T16:22:35Z",
+      "preview": "44.111.2 (2026-09-23) Miscellaneous Chores deps: update linters to v1.83.0 (main) ( #46366 ) ( ddd2c97 ) Build System deps: update dependency google-auth-library to v11.1.0 (main) ( #46424 ) ( 7a401da )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.111.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.1",
+      "published": "2026-09-23T15:54:58Z",
+      "preview": "44.111.1 (2026-09-23) Bug Fixes manager: add supportsNpmrc ( #46422 ) ( ab0c763 ) Documentation add dark mode support for the call-to-action banner ( #46423 ) ( f55b60a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v1.17.0-beta2",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta2",
+      "published": "2026-09-23T15:48:24Z",
+      "preview": "1.17.0-beta2 (September 23, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for ",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
     {
       "title": "44.111.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.0",
@@ -197,22 +221,6 @@
       "preview": "12.1.0 (2026-09-21) Features 6400533 #9948 token: support read-write-stage-only granular access tokens ( #9948 ) ( @Tayvon , @Copilot) 8723f53 #9898 stage: display staged package status ( #9898 ) ( @joelverhagen ) Bug Fixes c9876d7 #9882 provenance-file takes precedence over OIDC auto-generated provenance ( #9882 ) ( @yunseo-kim ) b016aa2 #9913 config: avoid exporting persistent allow-scripts ( #9913 ) ( @Fnine59 ) d6c6122 #9914 arborist: match allowScripts keys for local paths ( #9914 ) ( @martinrrm , @Copilot) a8c9b2f #9823 keep dry-run output valid json ( #9823 ) ( @martinrrm ) da50c34 #988",
       "source": "npm CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.107.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.107.3",
-      "published": "2026-09-22T19:58:30Z",
-      "preview": "44.107.3 (2026-09-22) Bug Fixes datasource: declare metadata as instance fields, not statics ( #46101 ) ( a4b263a ) Code Refactoring datasource: add cached() helper to the Datasource base class ( #46102 ) ( 1e6ffa8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.107.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.107.2",
-      "published": "2026-09-22T18:37:00Z",
-      "preview": "44.107.2 (2026-09-22) Build System deps: update dependency @renovatebot/pgp to v2.0.2 (main) ( #46390 ) ( c865607 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.6",
