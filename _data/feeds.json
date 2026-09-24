@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T12:40:43Z",
-  "cutoff": "2026-08-25T12:40:38Z",
+  "generated": "2026-09-24T13:29:36Z",
+  "cutoff": "2026-08-25T13:29:30Z",
   "feed_count": 102,
   "item_count": 263,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.112.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.3",
+      "published": "2026-09-24T13:07:26Z",
+      "preview": "44.112.3 (2026-09-24) Bug Fixes reconfigure: cache a flag instead of the unused extract result ( #46441 ) ( 0efc05f ) Miscellaneous Chores deps: update dependency type-fest to v5.10.0 (main) ( #46439 ) ( fa8e64c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "8.0.0.8",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.8",
@@ -123,14 +131,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.0",
       "published": "2026-09-23T14:49:04Z",
       "preview": "44.111.0 (2026-09-23) Features data: automatic update of static data ( #46418 ) ( 5d3ff8f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.110.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.110.1",
-      "published": "2026-09-23T14:32:43Z",
-      "preview": "44.110.1 (2026-09-23) Bug Fixes http: validate the cached response shape in the http cache schema ( #46417 ) ( e144d8d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
