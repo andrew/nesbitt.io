@@ -6,6 +6,7 @@ description: "Path traversal via a manifest field appeared in eight of ten packa
 tags:
   - package-managers
   - security
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mwbk7k352g2l"
 ---
 
 I've spent a fair chunk of the last four months pointing the [package manager CWE list](/2026/05/04/package-manager-cwes.html) and the [threat model questions](/2026/05/05/package-manager-threat-models.html) at real package managers, in some cases with [help](/2026/06/25/scrutineer.html). Ten targets, mostly clients, a couple of registries, a mix of tools I'd used and tools I'd only read about. I also re-ran the advisory search that produced the original CWE list, filtered to everything published since May, to see what everyone else had been finding in the same window. The two lists have now been merged into a maintained page at [/package-manager-threat-model/](/package-manager-threat-model/).

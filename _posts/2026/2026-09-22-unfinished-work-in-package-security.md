@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mwbk7khlii2j"
 ---
 
 In May 2026, an Nx contributor [installed a malicious dependency](https://nx.dev/blog/nx-console-v18-95-0-postmortem) that had been published 77 minutes earlier. The repository had a seven-day cooldown configured, but its pinned pnpm version predated support for the setting. The client skipped the check and installed the package. The stolen credentials contributed to a malicious Nx Console extension release a week later.

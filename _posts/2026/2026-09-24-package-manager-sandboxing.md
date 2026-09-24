@@ -7,6 +7,7 @@ tags:
   - package-managers
   - security
   - reference
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mwbk7kscdf2a"
 ---
 
 Homebrew 7.0.0 [shipped on September 13th](https://brew.sh/2026/09/13/homebrew-7.0.0/) with "stronger sandboxing" in the opening line of the release notes. Installation is being [split into a fetch phase](/2026/04/27/the-stages-of-package-installation.html) that has network access and writable caches, and an install phase that runs offline with read-only caches. Sandboxed builds are blocked from reading your home directory by default. Cask install hooks run confined, and a [cask sandbox escape via LaunchServices](https://github.com/Homebrew/brew/security/advisories/GHSA-5263-whxq-77hp) was closed in the same release by denying app launching, Mach services, and Unix socket connections. Formula `post_install` and cask flight blocks, which are arbitrary Ruby today, are deprecated in favour of declarative `*_steps` delivered as signed data, with a removal deadline of December 2027.
