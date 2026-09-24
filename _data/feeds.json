@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-24T20:30:23Z",
-  "cutoff": "2026-08-25T20:30:16Z",
+  "generated": "2026-09-24T21:26:30Z",
+  "cutoff": "2026-08-25T21:26:25Z",
   "feed_count": 102,
-  "item_count": 266,
+  "item_count": 270,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v4.18.1",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.18.1",
+      "published": "2026-09-24T20:40:35Z",
+      "preview": "What's Changed fix(core): patch got to prevent crash on settled promise cancelation by @Ayush442842q in #7249 New Contributors @Ayush442842q made their first contribution in #7249 Full Changelog : https://github.com/yarnpkg/berry/compare/@yarnpkg/cli/4.18.0...@yarnpkg/cli/4.18.1",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2026-09-24",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/2026-09-24",
+      "published": "2026-09-24T20:40:30Z",
+      "preview": "2026-09-24",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@yarnpkg/core/4.9.2",
+      "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcore%2F4.9.2",
+      "published": "2026-09-24T20:40:30Z",
+      "preview": "@yarnpkg/core",
+      "source": "Yarn releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.115.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.0",
+      "published": "2026-09-24T20:32:43Z",
+      "preview": "44.115.0 (2026-09-24) Features config: add matchIsBreaking package rule option ( #46449 ) ( 18eb38c ) jsonata: add $matchRegexOrGlob custom function ( #46448 ) ( df02196 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.114.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.114.1",
@@ -143,18 +175,18 @@
       "category": "Containers"
     },
     {
+      "title": "Platform-independent SIMD in Go",
+      "url": "https://go.dev/blog/simd-experiment",
+      "published": "2026-09-24T00:00:00Z",
+      "preview": "Go 1.27 adds an experimental platform-agnostic SIMD API",
+      "source": "Go Blog",
+      "category": "Go"
+    },
+    {
       "title": "44.111.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.4",
       "published": "2026-09-23T22:53:18Z",
       "preview": "44.111.4 (2026-09-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.100.2 (main) ( #46433 ) ( 0c4ef0d ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.17.2 (main) ( #46432 ) ( 0813ea6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.111.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.3",
-      "published": "2026-09-23T19:01:02Z",
-      "preview": "44.111.3 (2026-09-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.100.1 (main) ( #46431 ) ( 8a3caa8 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.17.1 (main) ( #46430 ) ( fb5e7fb )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
