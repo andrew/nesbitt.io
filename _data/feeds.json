@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T21:26:30Z",
-  "cutoff": "2026-08-25T21:26:25Z",
+  "generated": "2026-09-24T23:25:54Z",
+  "cutoff": "2026-08-25T23:25:47Z",
   "feed_count": 102,
   "item_count": 270,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.115.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.1",
+      "published": "2026-09-24T22:53:49Z",
+      "preview": "44.115.1 (2026-09-24) Code Refactoring datasource: stop double-caching releases at the index level ( #46103 ) ( a3d265d ) manager/helm-requirements: reuse helmv3 repository helpers ( #46182 ) ( b68101e ) Build System deps: update dependency prettier to v3.9.8 (main) ( #46455 ) ( f0b8358 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Maven 4.0.0-rc-7",
+      "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-7",
+      "published": "2026-09-24T22:50:32Z",
+      "preview": "This release candidate is expected to be the last before the Maven 4.0.0 GA release, which we aim to publish in the coming weeks, pending community feedback. 🚀 New features and improvements Log API enhancements and mojo MDC ( #12690 ) @gnodet Optimize reactor sort and phase comparator performance ( #12901 ) @gnodet Add AsyncDrainWriter to eliminate PrintWriter lock contention ( #12892 ) @gnodet Add validation for Plexus-based plugin dependency injection ( #12649 ) @slawekjaranowski 🔧 Maintenance Externalize default lifecycle plugin versions to POM properties ( #13137 ) @gnodet 🐛 Bug Fixes Impr",
+      "source": "Maven releases",
+      "category": "Maven"
+    },
     {
       "title": "v4.18.1",
       "url": "https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.18.1",
@@ -181,14 +197,6 @@
       "preview": "Go 1.27 adds an experimental platform-agnostic SIMD API",
       "source": "Go Blog",
       "category": "Go"
-    },
-    {
-      "title": "44.111.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.4",
-      "published": "2026-09-23T22:53:18Z",
-      "preview": "44.111.4 (2026-09-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.100.2 (main) ( #46433 ) ( 0c4ef0d ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.17.2 (main) ( #46432 ) ( 0813ea6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.1.0-M2",
@@ -517,14 +525,6 @@
       "preview": "fix(dotfiles): require a post-adopt task to be declared where the set…",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "maven-4.0.0-rc-7",
-      "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-7",
-      "published": "2026-09-21T06:36:26Z",
-      "preview": "[maven-release-plugin] prepare release maven-4.0.0-rc-7",
-      "source": "Maven releases",
-      "category": "Maven"
     },
     {
       "title": "GitHub Actions leaking secrets when Miri output is cached",
