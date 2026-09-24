@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T10:29:59Z",
-  "cutoff": "2026-08-25T10:29:54Z",
+  "generated": "2026-09-24T12:40:43Z",
+  "cutoff": "2026-08-25T12:40:38Z",
   "feed_count": 102,
   "item_count": 263,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "8.0.0.8",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.8",
+      "published": "2026-09-24T12:20:37Z",
+      "preview": "Insert 8.0.0.8 into main on 09/24/2026 12:20:36",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "44.112.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.2",
@@ -1669,14 +1677,6 @@
       "preview": "1.16.1 (September 2, 2026) BUG FIXES: cloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations ( #38751 ) Support referencing modules containing dynamic sources in Terraform Test ( #38950 ) stacks: Fixed validation to ensure the provider versions in the lock file and configuration are compatible. ( #38829 ) Fix panic when import identity references sensitive value ( #39013 ) import: Fixed a bug where import blocks would be ignored when multiple imports targeted different instances of a resource config using for_each or count . ( #39068 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "7.12.0.3",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.3",
-      "published": "2026-09-02T12:23:26Z",
-      "preview": "Insert 7.12.0.3 into main on 09/02/2026 12:23:26",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "2.10.3",
