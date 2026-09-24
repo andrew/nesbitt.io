@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T19:25:23Z",
-  "cutoff": "2026-08-25T19:25:17Z",
+  "generated": "2026-09-24T20:30:23Z",
+  "cutoff": "2026-08-25T20:30:16Z",
   "feed_count": 102,
   "item_count": 266,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.114.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.114.1",
+      "published": "2026-09-24T20:15:34Z",
+      "preview": "44.114.1 (2026-09-24) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.1 (main) ( #46454 ) ( 624567c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.114.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.114.0",
+      "published": "2026-09-24T19:56:20Z",
+      "preview": "44.114.0 (2026-09-24) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.0 (main) ( #46453 ) ( 2187159 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "5.4.6.0",
       "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.6.0",
@@ -149,22 +165,6 @@
       "preview": "updates and bug fixes fix: Fixes Windows runner handling of sbt bsp by @stasimus in #9766 fix: Do not duplicate platform axes on a row by @kitbellew in #9757 fix: Warn on output declarations in uncached tasks by @anatoliykmetyuk in #9770 Allow adding rows and configuring them separately, and through any method by @kitbellew in #9765 fix: Update to Gigahorse 0.9.6 for pre-authentication by @eed3si9n in #9775 fix: Name taskValue in its compile-time diagnostic by @anatoliykmetyuk in #9779 ProjectMatrix: validate axes against autoScalaLibrary by @kitbellew in #9771 deps: Coursier 2.1.25 by @eed3si",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.111.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.2",
-      "published": "2026-09-23T16:22:35Z",
-      "preview": "44.111.2 (2026-09-23) Miscellaneous Chores deps: update linters to v1.83.0 (main) ( #46366 ) ( ddd2c97 ) Build System deps: update dependency google-auth-library to v11.1.0 (main) ( #46424 ) ( 7a401da )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.111.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.1",
-      "published": "2026-09-23T15:54:58Z",
-      "preview": "44.111.1 (2026-09-23) Bug Fixes manager: add supportsNpmrc ( #46422 ) ( ab0c763 ) Documentation add dark mode support for the call-to-action banner ( #46423 ) ( f55b60a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.17.0-beta2",
