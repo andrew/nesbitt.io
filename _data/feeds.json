@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-24T17:26:55Z",
-  "cutoff": "2026-08-25T17:26:47Z",
+  "generated": "2026-09-24T19:25:23Z",
+  "cutoff": "2026-08-25T19:25:17Z",
   "feed_count": 102,
-  "item_count": 265,
+  "item_count": 266,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,12 +23,28 @@
   ],
   "items": [
     {
-      "title": "v2026.9.13",
+      "title": "5.4.6.0",
+      "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.6.0",
+      "published": "2026-09-24T19:14:51Z",
+      "preview": "Update translations from weblate spec: Symlink microdnf(8) and yum(8) manual pages to dnf5(8) Update FSF's address in GPL-2.0 disclaimers Update LGPL-2.1 and GPL-2.0 texts to current FSF's wording fix: DNF5_FORCE_COLUMNS / non-TTY width in transaction table progressbar: Report progress to terminal taskbar via OSC 9;4 Makefile: Add FEDORA_VERSION to unify defaults spec: Require GCC ≥ 14.1 for std::chrono::parse() dnf5daemon: Hide invalid offline transactions Clarify plugin source language options needs-restarting: Configure extra packages that require a reboot VendorChangeManager: Allow empty v",
+      "source": "DNF5 releases",
+      "category": "System"
+    },
+    {
+      "title": "v2026.9.13: OpenTelemetry for tasks, shared daemon providers, `mise backends switch`, and declarative dotfile removal",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.13",
-      "published": "2026-09-24T17:23:32Z",
-      "preview": "(bootstrap) remove module resources with unapply by @jdx in [ #1 …",
+      "published": "2026-09-24T19:10:32Z",
+      "preview": "mise run can now export OpenTelemetry traces and logs (experimental), and experimental daemon providers let several projects and worktrees share one PostgreSQL, CockroachDB, or NATS server, each with its own database or account. Lockfiles no longer switch backends on their own when the registry moves a tool: the new mise backends switch command does it when you ask. [dotfiles] and [bootstrap.files] can now remove files and manage permissions, and mise bootstrap unapply removes what a module set up. The experimental pkgx: backend has been removed. Highlights Observability and shared services (e",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "44.113.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.113.0",
+      "published": "2026-09-24T18:35:51Z",
+      "preview": "44.113.0 (2026-09-24) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.101.0 (main) ( #46451 ) ( 0d50570 ) Miscellaneous Chores agents: include the check output in the stop hook block reason ( #46443 ) ( 0c956a8 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.18.1 (main) ( #46450 ) ( d504332 ) deps: update github/codeql-action action to v4.38.2 (main) ( #46442 ) ( 6b7b4e4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "vfox-v2026.9.15",
@@ -157,14 +173,6 @@
       "preview": "1.17.0-beta2 (September 23, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for ",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "44.111.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.0",
-      "published": "2026-09-23T14:49:04Z",
-      "preview": "44.111.0 (2026-09-23) Features data: automatic update of static data ( #46418 ) ( 5d3ff8f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.12.18",
