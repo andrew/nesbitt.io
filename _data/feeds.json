@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T14:31:40Z",
-  "cutoff": "2026-08-25T14:31:33Z",
+  "generated": "2026-09-24T15:29:26Z",
+  "cutoff": "2026-08-25T15:29:21Z",
   "feed_count": 102,
   "item_count": 265,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "9.8.0",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0",
+      "published": "2026-09-24T15:04:07Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.8.0. Here are the highlights of this release: Java 27 support Maven mirror settings reuse Linked problem locations in build output Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aman Gautam , Björn Kautler , Eng Zer Jun , Hashim Khan , Julian Krannich , KBS , Labh R Jethe , Mark Dodgson , Maxim , monkey , nataphon-ktsystems , Paul King , Qiu Tian , rg_sandesh , Roberto Perez Alcolea , Sean , Zongle Wang . Upgrade instructions Switch your build to use Gradle 9.8.0 by",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
     {
       "title": "20260924t135800-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260924t135800-all",
@@ -165,14 +173,6 @@
       "preview": "Insert 8.0.0.7 into main on 09/23/2026 12:18:35",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "v9.8.0",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0",
-      "published": "2026-09-23T06:44:07Z",
-      "preview": "Add the Develocity plugin back to the Android smoke tests ( #39273 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "1.17.6",
