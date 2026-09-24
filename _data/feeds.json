@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T06:45:37Z",
-  "cutoff": "2026-08-25T06:45:32Z",
+  "generated": "2026-09-24T08:37:42Z",
+  "cutoff": "2026-08-25T08:37:36Z",
   "feed_count": 102,
   "item_count": 263,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.112.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.0",
+      "published": "2026-09-24T08:22:03Z",
+      "preview": "44.112.0 (2026-09-24) Features manager/mise: support conda backend ( #46360 ) ( 72a417e ) Tests manager/mise: don't allow unknown backend types ( #46361 ) ( 4dd2220 ), closes #46343",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.111.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.5",
+      "published": "2026-09-24T07:38:59Z",
+      "preview": "44.111.5 (2026-09-24) Bug Fixes cache: include postUpgradeTasks in branch commit fingerprint ( #46416 ) ( d6946be ), closes #46224",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.15.3-rc2",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3-rc2",
@@ -131,22 +147,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.109.1",
       "published": "2026-09-23T09:34:55Z",
       "preview": "44.109.1 (2026-09-23) Code Refactoring http-mock: Remove request tracing ( #44482 ) ( ac2fc77 ) Build System deps: update dependency prettier to v3.9.7 (main) ( #46411 ) ( 41856b2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.109.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.109.0",
-      "published": "2026-09-23T09:11:18Z",
-      "preview": "44.109.0 (2026-09-23) Features datasource: add GraalVM version datasource ( #40497 ) ( 0d9888a ) Documentation move call-to-action lower ( #46410 ) ( 854083c ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.14 (main) ( #46409 ) ( 87a7f38 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.108.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.108.2",
-      "published": "2026-09-23T01:48:48Z",
-      "preview": "44.108.2 (2026-09-23) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.99.7 (main) ( #46406 ) ( bdf59d6 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.18 (main) ( #46404 ) ( fd6f048 ) deps: update dependency uv to v0.12.18 (main) ( #46405 ) ( 1ce7ca2 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
