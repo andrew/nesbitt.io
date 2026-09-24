@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T09:31:48Z",
-  "cutoff": "2026-08-25T09:31:41Z",
+  "generated": "2026-09-24T10:29:59Z",
+  "cutoff": "2026-08-25T10:29:54Z",
   "feed_count": 102,
   "item_count": 263,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.112.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.2",
+      "published": "2026-09-24T10:10:24Z",
+      "preview": "44.112.2 (2026-09-24) Bug Fixes manager/nix: support zstd channel tarballs ( #46437 ) ( 293b18a ) Miscellaneous Chores deps: update python docker tag to v3.14.7 (main) ( #43919 ) ( 6011dc6 ) Continuous Integration undesirable-code: don't unnecessarily flag when behind the base branch ( #46419 ) ( aa76f94 ) undesirable-code: print added lines on failure ( #46420 ) ( 83edb5d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.112.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.1",
@@ -141,14 +149,6 @@
       "preview": "Insert 8.0.0.7 into main on 09/23/2026 12:18:35",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.110.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.110.0",
-      "published": "2026-09-23T11:51:13Z",
-      "preview": "44.110.0 (2026-09-23) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.100.0 (main) ( #46415 ) ( eedc251 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.17.0 (main) ( #46413 ) ( 53d00bd )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.17.6",
