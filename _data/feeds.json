@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24T08:37:42Z",
-  "cutoff": "2026-08-25T08:37:36Z",
+  "generated": "2026-09-24T09:31:48Z",
+  "cutoff": "2026-08-25T09:31:41Z",
   "feed_count": 102,
   "item_count": 263,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.112.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.1",
+      "published": "2026-09-24T09:12:13Z",
+      "preview": "44.112.1 (2026-09-24) Bug Fixes cache: clean up the HEAD http cache like the GET one ( #46436 ) ( facc642 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.112.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.0",
@@ -139,14 +147,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.110.0",
       "published": "2026-09-23T11:51:13Z",
       "preview": "44.110.0 (2026-09-23) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.100.0 (main) ( #46415 ) ( eedc251 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.17.0 (main) ( #46413 ) ( 53d00bd )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.109.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.109.1",
-      "published": "2026-09-23T09:34:55Z",
-      "preview": "44.109.1 (2026-09-23) Code Refactoring http-mock: Remove request tracing ( #44482 ) ( ac2fc77 ) Build System deps: update dependency prettier to v3.9.7 (main) ( #46411 ) ( 41856b2 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
