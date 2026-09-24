@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-23T10:19:24Z",
-  "total_posts": 215,
-  "total_words": 297024,
-  "reading_minutes": 1486,
-  "average_words": 1382,
+  "generated_at": "2026-09-24T15:13:05Z",
+  "total_posts": 216,
+  "total_words": 299672,
+  "reading_minutes": 1499,
+  "average_words": 1387,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "Unfinished Work in Package Security",
-    "url": "/2026/09/22/unfinished-work-in-package-security.html",
-    "date": "2026-09-22"
+    "title": "Package Manager Sandboxing",
+    "url": "/2026/09/24/package-manager-sandboxing.html",
+    "date": "2026-09-24"
   },
   "years_active": 9.6,
   "posts_per_month": 1.9,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 175
+      "count": 176
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-09",
-      "count": 11
+      "count": 12
     },
     {
       "month": "2026-08",
@@ -123,18 +123,18 @@
     "monday": 26,
     "tuesday": 37,
     "wednesday": 23,
-    "thursday": 39,
+    "thursday": 40,
     "friday": 36,
     "saturday": 36
   },
   "tags": [
     {
       "name": "package-managers",
-      "count": 146
+      "count": 147
     },
     {
       "name": "security",
-      "count": 54
+      "count": 55
     },
     {
       "name": "open-source",
@@ -142,7 +142,7 @@
     },
     {
       "name": "reference",
-      "count": 32
+      "count": 33
     },
     {
       "name": "satire",
@@ -402,7 +402,7 @@
     {
       "url": "/2025/12/06/github-actions-package-manager.html",
       "title": "GitHub Actions Has a Package Manager, and It Might Be the Worst",
-      "inbound_count": 15,
+      "inbound_count": 16,
       "inbound_from": [
         "/2025/12/09/why-im-fascinated-by-package-management.html",
         "/2025/12/19/why-javascript-needed-docker.html",
@@ -418,7 +418,8 @@
         "/2026/05/02/a-github-for-maintainers.html",
         "/2026/05/25/github-actions-security-in-python-packages.html",
         "/2026/08/04/brew-install-actions-checkout.html",
-        "/2026/08/18/two-factor-authentication-across-package-registries.html"
+        "/2026/08/18/two-factor-authentication-across-package-registries.html",
+        "/2026/09/24/package-manager-sandboxing.html"
       ]
     },
     {
@@ -509,6 +510,36 @@
       ]
     },
     {
+      "url": "/2025/12/29/categorizing-package-manager-clients.html",
+      "title": "Categorizing Package Manager Clients",
+      "inbound_count": 8,
+      "inbound_from": [
+        "/2025/12/29/categorizing-package-registries.html",
+        "/2026/01/03/the-package-management-landscape.html",
+        "/2026/01/13/package-manager-glossary.html",
+        "/2026/01/22/a-protocol-for-package-management.html",
+        "/2026/02/06/dependency-resolution-methods.html",
+        "/2026/05/28/package-managers-that-package-package-managers.html",
+        "/2026/07/09/unboxed-zig.html",
+        "/2026/09/24/package-manager-sandboxing.html"
+      ]
+    },
+    {
+      "url": "/2026/03/04/package-managers-need-to-cool-down.html",
+      "title": "Package Managers Need to Cool Down",
+      "inbound_count": 8,
+      "inbound_from": [
+        "/2026/04/09/package-security-defenses-for-ai-agents.html",
+        "/2026/04/10/package-registries-and-pagination.html",
+        "/2026/05/11/proxy.html",
+        "/2026/05/15/language-registries-are-unstable-by-default.html",
+        "/2026/05/27/chaoss-metrics-in-2026.html",
+        "/2026/05/29/composer-dependency-policies.html",
+        "/2026/09/22/unfinished-work-in-package-security.html",
+        "/2026/09/24/package-manager-sandboxing.html"
+      ]
+    },
+    {
       "url": "/2025/12/24/package-managers-keep-using-git-as-a-database.html",
       "title": "Package managers keep using git as a database, it never works out",
       "inbound_count": 7,
@@ -520,20 +551,6 @@
         "/2026/02/26/git-in-postgres.html",
         "/2026/04/27/the-stages-of-package-installation.html",
         "/2026/08/18/two-factor-authentication-across-package-registries.html"
-      ]
-    },
-    {
-      "url": "/2025/12/29/categorizing-package-manager-clients.html",
-      "title": "Categorizing Package Manager Clients",
-      "inbound_count": 7,
-      "inbound_from": [
-        "/2025/12/29/categorizing-package-registries.html",
-        "/2026/01/03/the-package-management-landscape.html",
-        "/2026/01/13/package-manager-glossary.html",
-        "/2026/01/22/a-protocol-for-package-management.html",
-        "/2026/02/06/dependency-resolution-methods.html",
-        "/2026/05/28/package-managers-that-package-package-managers.html",
-        "/2026/07/09/unboxed-zig.html"
       ]
     },
     {
@@ -562,20 +579,6 @@
         "/2026/02/10/lockfiles-killed-vendoring.html",
         "/2026/03/12/reviewing-enisas-package-manager-advisory.html",
         "/2026/04/27/the-stages-of-package-installation.html"
-      ]
-    },
-    {
-      "url": "/2026/03/04/package-managers-need-to-cool-down.html",
-      "title": "Package Managers Need to Cool Down",
-      "inbound_count": 7,
-      "inbound_from": [
-        "/2026/04/09/package-security-defenses-for-ai-agents.html",
-        "/2026/04/10/package-registries-and-pagination.html",
-        "/2026/05/11/proxy.html",
-        "/2026/05/15/language-registries-are-unstable-by-default.html",
-        "/2026/05/27/chaoss-metrics-in-2026.html",
-        "/2026/05/29/composer-dependency-policies.html",
-        "/2026/09/22/unfinished-work-in-package-security.html"
       ]
     },
     {
@@ -796,6 +799,17 @@
       ]
     },
     {
+      "url": "/2026/05/05/package-manager-threat-models.html",
+      "title": "Package Manager Threat Models",
+      "inbound_count": 4,
+      "inbound_from": [
+        "/2026/05/24/signing-is-for-the-bad-days.html",
+        "/2026/07/09/unboxed-zig.html",
+        "/2026/09/22/package-manager-threat-model-revisited.html",
+        "/2026/09/24/package-manager-sandboxing.html"
+      ]
+    },
+    {
       "url": "/2026/07/21/end-of-options.html",
       "title": "--end-of-options",
       "inbound_count": 4,
@@ -884,16 +898,6 @@
         "/2026/04/27/the-stages-of-package-installation.html",
         "/2026/06/05/install-script-allowlists.html",
         "/2026/07/09/unboxed-zig.html"
-      ]
-    },
-    {
-      "url": "/2026/05/05/package-manager-threat-models.html",
-      "title": "Package Manager Threat Models",
-      "inbound_count": 3,
-      "inbound_from": [
-        "/2026/05/24/signing-is-for-the-bad-days.html",
-        "/2026/07/09/unboxed-zig.html",
-        "/2026/09/22/package-manager-threat-model-revisited.html"
       ]
     },
     {
@@ -1081,6 +1085,24 @@
       ]
     },
     {
+      "url": "/2026/04/09/package-security-defenses-for-ai-agents.html",
+      "title": "Package Security Defenses for AI Agents",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/09/22/unfinished-work-in-package-security.html",
+        "/2026/09/24/package-manager-sandboxing.html"
+      ]
+    },
+    {
+      "url": "/2026/04/27/the-stages-of-package-installation.html",
+      "title": "The stages of package installation",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/09/22/unfinished-work-in-package-security.html",
+        "/2026/09/24/package-manager-sandboxing.html"
+      ]
+    },
+    {
       "url": "/2026/05/06/revisiting-the-2015-open-source-census.html",
       "title": "Revisiting the 2015 Open Source Census",
       "inbound_count": 2,
@@ -1099,12 +1121,30 @@
       ]
     },
     {
+      "url": "/2026/06/05/install-script-allowlists.html",
+      "title": "Install-script allowlists",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/06/13/this-week-in-package-management.html",
+        "/2026/09/24/package-manager-sandboxing.html"
+      ]
+    },
+    {
       "url": "/2026/08/25/hardening-the-override-flag.html",
       "title": "Hardening the Override Flag",
       "inbound_count": 2,
       "inbound_from": [
         "/2026/09/01/git-submodules-as-a-package-manager.html",
         "/2026/09/15/shadowing-the-standard-library.html"
+      ]
+    },
+    {
+      "url": "/2026/09/10/package-manager-trends.html",
+      "title": "Package Manager Trends",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/09/22/unfinished-work-in-package-security.html",
+        "/2026/09/24/package-manager-sandboxing.html"
       ]
     },
     {
@@ -1316,14 +1356,6 @@
       ]
     },
     {
-      "url": "/2026/04/09/package-security-defenses-for-ai-agents.html",
-      "title": "Package Security Defenses for AI Agents",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/09/22/unfinished-work-in-package-security.html"
-      ]
-    },
-    {
       "url": "/2026/04/14/standing-on-the-shoulders-of-homebrew.html",
       "title": "Standing on the shoulders of Homebrew",
       "inbound_count": 1,
@@ -1337,14 +1369,6 @@
       "inbound_count": 1,
       "inbound_from": [
         "/2026/09/08/whats-new-in-git-pkgs.html"
-      ]
-    },
-    {
-      "url": "/2026/04/27/the-stages-of-package-installation.html",
-      "title": "The stages of package installation",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/09/22/unfinished-work-in-package-security.html"
       ]
     },
     {
@@ -1396,14 +1420,6 @@
       ]
     },
     {
-      "url": "/2026/06/05/install-script-allowlists.html",
-      "title": "Install-script allowlists",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/06/13/this-week-in-package-management.html"
-      ]
-    },
-    {
       "url": "/2026/06/11/what-happened-to-tea.html",
       "title": "What Happened to tea.xyz",
       "inbound_count": 1,
@@ -1452,6 +1468,14 @@
       ]
     },
     {
+      "url": "/2026/07/09/unboxed-zig.html",
+      "title": "Unboxed: Zig",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/09/24/package-manager-sandboxing.html"
+      ]
+    },
+    {
       "url": "/2026/07/18/this-week-in-package-management.html",
       "title": "This Week in Package Management: 18 July 2026",
       "inbound_count": 1,
@@ -1492,14 +1516,6 @@
       ]
     },
     {
-      "url": "/2026/09/10/package-manager-trends.html",
-      "title": "Package Manager Trends",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/09/22/unfinished-work-in-package-security.html"
-      ]
-    },
-    {
       "url": "/2026/09/12/this-week-in-package-management.html",
       "title": "This Week in Package Management: 12 September 2026",
       "inbound_count": 1,
@@ -1509,13 +1525,13 @@
     }
   ],
   "external_links": {
-    "total": 5007,
-    "unique": 3967,
+    "total": 5111,
+    "unique": 4052,
     "domains": [
       {
         "host": "github.com",
-        "count": 1508,
-        "posts": 158
+        "count": 1556,
+        "posts": 159
       },
       {
         "host": "en.wikipedia.org",
@@ -1545,7 +1561,7 @@
       {
         "host": "github.blog",
         "count": 39,
-        "posts": 29
+        "posts": 30
       },
       {
         "host": "pnpm.io",
@@ -1575,7 +1591,7 @@
       {
         "host": "learn.microsoft.com",
         "count": 25,
-        "posts": 14
+        "posts": 15
       },
       {
         "host": "changelog.com",
@@ -1585,7 +1601,7 @@
       {
         "host": "blog.rust-lang.org",
         "count": 22,
-        "posts": 17
+        "posts": 18
       },
       {
         "host": "blog.rubygems.org",
@@ -1593,14 +1609,14 @@
         "posts": 17
       },
       {
+        "host": "docs.github.com",
+        "count": 20,
+        "posts": 19
+      },
+      {
         "host": "doc.rust-lang.org",
         "count": 19,
         "posts": 17
-      },
-      {
-        "host": "docs.github.com",
-        "count": 19,
-        "posts": 18
       },
       {
         "host": "manifest.fm",
@@ -1655,7 +1671,7 @@
       {
         "host": "wiki.debian.org",
         "count": 12,
-        "posts": 10
+        "posts": 11
       },
       {
         "host": "crates.io",
@@ -1705,7 +1721,7 @@
       {
         "host": "getcomposer.org",
         "count": 10,
-        "posts": 11
+        "posts": 12
       },
       {
         "host": "patents.google.com",
@@ -1728,9 +1744,19 @@
         "posts": 5
       },
       {
+        "host": "bazel.build",
+        "count": 9,
+        "posts": 8
+      },
+      {
         "host": "docs.gradle.org",
         "count": 9,
         "posts": 5
+      },
+      {
+        "host": "guix.gnu.org",
+        "count": 9,
+        "posts": 11
       },
       {
         "host": "mastodon.social",
@@ -1753,14 +1779,9 @@
         "posts": 7
       },
       {
-        "host": "bazel.build",
-        "count": 8,
-        "posts": 7
-      },
-      {
         "host": "brew.sh",
         "count": 8,
-        "posts": 10
+        "posts": 11
       },
       {
         "host": "codeberg.org",
@@ -1770,7 +1791,7 @@
       {
         "host": "dart.dev",
         "count": 8,
-        "posts": 6
+        "posts": 7
       },
       {
         "host": "hex.pm",
@@ -1798,6 +1819,11 @@
         "posts": 8
       },
       {
+        "host": "deno.com",
+        "count": 7,
+        "posts": 8
+      },
+      {
         "host": "dl.acm.org",
         "count": 7,
         "posts": 7
@@ -1808,9 +1834,9 @@
         "posts": 6
       },
       {
-        "host": "guix.gnu.org",
+        "host": "nix.dev",
         "count": 7,
-        "posts": 10
+        "posts": 4
       },
       {
         "host": "openssf.org",
@@ -1826,6 +1852,11 @@
         "host": "reproducible-builds.org",
         "count": 7,
         "posts": 8
+      },
+      {
+        "host": "rust-lang.github.io",
+        "count": 7,
+        "posts": 10
       },
       {
         "host": "www.debian.org",
@@ -1853,14 +1884,14 @@
         "posts": 9
       },
       {
-        "host": "bun.sh",
+        "host": "bun.com",
         "count": 6,
         "posts": 6
       },
       {
-        "host": "deno.com",
+        "host": "bun.sh",
         "count": 6,
-        "posts": 7
+        "posts": 6
       },
       {
         "host": "docs.zizmor.sh",
@@ -1898,22 +1929,12 @@
         "posts": 11
       },
       {
-        "host": "nix.dev",
-        "count": 6,
-        "posts": 3
-      },
-      {
         "host": "pkg.go.dev",
         "count": 6,
         "posts": 7
       },
       {
         "host": "research.swtch.com",
-        "count": 6,
-        "posts": 9
-      },
-      {
-        "host": "rust-lang.github.io",
         "count": 6,
         "posts": 9
       },
@@ -1953,11 +1974,6 @@
         "posts": 10
       },
       {
-        "host": "bun.com",
-        "count": 5,
-        "posts": 5
-      },
-      {
         "host": "diffoscope.org",
         "count": 5,
         "posts": 6
@@ -1966,6 +1982,11 @@
         "host": "discuss.python.org",
         "count": 5,
         "posts": 4
+      },
+      {
+        "host": "docs.deno.com",
+        "count": 5,
+        "posts": 5
       },
       {
         "host": "docs.renovatebot.com",
@@ -2018,9 +2039,24 @@
         "posts": 5
       },
       {
+        "host": "wiki.gentoo.org",
+        "count": 5,
+        "posts": 5
+      },
+      {
+        "host": "www.anthropic.com",
+        "count": 5,
+        "posts": 3
+      },
+      {
         "host": "www.ruby-lang.org",
         "count": 5,
         "posts": 3
+      },
+      {
+        "host": "www.wiz.io",
+        "count": 5,
+        "posts": 6
       },
       {
         "host": "anil.recoil.org",
@@ -2068,14 +2104,14 @@
         "posts": 6
       },
       {
+        "host": "docs.conan.io",
+        "count": 4,
+        "posts": 3
+      },
+      {
         "host": "docs.conda.io",
         "count": 4,
         "posts": 5
-      },
-      {
-        "host": "docs.deno.com",
-        "count": 4,
-        "posts": 4
       },
       {
         "host": "docs.docker.com",
@@ -2130,12 +2166,12 @@
       {
         "host": "nx.dev",
         "count": 4,
-        "posts": 7
+        "posts": 8
       },
       {
         "host": "opam.ocaml.org",
         "count": 4,
-        "posts": 4
+        "posts": 5
       },
       {
         "host": "packaging.python.org",
@@ -2158,19 +2194,9 @@
         "posts": 6
       },
       {
-        "host": "wiki.gentoo.org",
-        "count": 4,
-        "posts": 4
-      },
-      {
         "host": "www.gnu.org",
         "count": 4,
         "posts": 4
-      },
-      {
-        "host": "www.wiz.io",
-        "count": 4,
-        "posts": 5
       },
       {
         "host": "24pullrequests.com",
@@ -2233,11 +2259,6 @@
         "posts": 4
       },
       {
-        "host": "docs.conan.io",
-        "count": 3,
-        "posts": 2
-      },
-      {
         "host": "docs.haskellstack.org",
         "count": 3,
         "posts": 3
@@ -2246,6 +2267,11 @@
         "host": "fair.pm",
         "count": 3,
         "posts": 2
+      },
+      {
+        "host": "fedoraproject.org",
+        "count": 3,
+        "posts": 3
       },
       {
         "host": "forgejo.org",
@@ -2263,7 +2289,17 @@
         "posts": 3
       },
       {
+        "host": "mise.jdx.dev",
+        "count": 3,
+        "posts": 3
+      },
+      {
         "host": "news.ycombinator.com",
+        "count": 3,
+        "posts": 3
+      },
+      {
+        "host": "openjdk.org",
         "count": 3,
         "posts": 3
       },
@@ -2353,14 +2389,14 @@
         "posts": 1
       },
       {
+        "host": "unit42.paloaltonetworks.com",
+        "count": 3,
+        "posts": 7
+      },
+      {
         "host": "vlad.website",
         "count": 3,
         "posts": 3
-      },
-      {
-        "host": "www.anthropic.com",
-        "count": 3,
-        "posts": 2
       },
       {
         "host": "www.enisa.europa.eu",
@@ -2553,6 +2589,11 @@
         "posts": 2
       },
       {
+        "host": "developers.openai.com",
+        "count": 2,
+        "posts": 2
+      },
+      {
         "host": "docs.bsky.app",
         "count": 2,
         "posts": 2
@@ -2623,11 +2664,6 @@
         "posts": 2
       },
       {
-        "host": "fedoraproject.org",
-        "count": 2,
-        "posts": 2
-      },
-      {
         "host": "flatpak.org",
         "count": 2,
         "posts": 2
@@ -2649,6 +2685,11 @@
       },
       {
         "host": "gitea.com",
+        "count": 2,
+        "posts": 1
+      },
+      {
+        "host": "gitlab.archlinux.org",
         "count": 2,
         "posts": 1
       },
@@ -2703,6 +2744,16 @@
         "posts": 2
       },
       {
+        "host": "julialang.org",
+        "count": 2,
+        "posts": 2
+      },
+      {
+        "host": "labs.cloudsecurityalliance.org",
+        "count": 2,
+        "posts": 2
+      },
+      {
         "host": "leiningen.org",
         "count": 2,
         "posts": 3
@@ -2753,11 +2804,6 @@
         "posts": 3
       },
       {
-        "host": "mise.jdx.dev",
-        "count": 2,
-        "posts": 2
-      },
-      {
         "host": "mozilla.github.io",
         "count": 2,
         "posts": 2
@@ -2769,11 +2815,6 @@
       },
       {
         "host": "opencontainers.org",
-        "count": 2,
-        "posts": 2
-      },
-      {
-        "host": "openjdk.org",
         "count": 2,
         "posts": 2
       },
@@ -2933,6 +2974,11 @@
         "posts": 2
       },
       {
+        "host": "thehackernews.com",
+        "count": 2,
+        "posts": 2
+      },
+      {
         "host": "thephp.foundation",
         "count": 2,
         "posts": 3
@@ -2946,11 +2992,6 @@
         "host": "twit.tv",
         "count": 2,
         "posts": 1
-      },
-      {
-        "host": "unit42.paloaltonetworks.com",
-        "count": 2,
-        "posts": 6
       },
       {
         "host": "vcpkg.io",
@@ -3248,6 +3289,11 @@
         "posts": 1
       },
       {
+        "host": "blog.checkpoint.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "blog.conan.io",
         "count": 1,
         "posts": 1
@@ -3314,6 +3360,11 @@
       },
       {
         "host": "blogs.gnome.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "blogs.perl.org",
         "count": 1,
         "posts": 1
       },
@@ -3583,6 +3634,11 @@
         "posts": 1
       },
       {
+        "host": "cursor.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "cwiki.apache.org",
         "count": 1,
         "posts": 1
@@ -3638,6 +3694,11 @@
         "posts": 1
       },
       {
+        "host": "devblog.archlinux.page",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "devcenter.heroku.com",
         "count": 1,
         "posts": 1
@@ -3649,11 +3710,6 @@
       },
       {
         "host": "developer.android.com",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "developers.openai.com",
         "count": 1,
         "posts": 1
       },
@@ -3774,6 +3830,11 @@
       },
       {
         "host": "docs.julialang.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "docs.kernel.org",
         "count": 1,
         "posts": 1
       },
@@ -4128,6 +4189,11 @@
         "posts": 1
       },
       {
+        "host": "google-gemini.github.io",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "google.github.io",
         "count": 1,
         "posts": 2
@@ -4278,6 +4344,11 @@
         "posts": 1
       },
       {
+        "host": "internals.rust-lang.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "invariantlabs.ai",
         "count": 1,
         "posts": 1
@@ -4333,17 +4404,17 @@
         "posts": 3
       },
       {
-        "host": "julialang.org",
-        "count": 1,
-        "posts": 1
-      },
-      {
         "host": "kaspars.net",
         "count": 1,
         "posts": 1
       },
       {
         "host": "kb.cert.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "keith.github.io",
         "count": 1,
         "posts": 1
       },
@@ -4388,11 +4459,6 @@
         "posts": 2
       },
       {
-        "host": "labs.cloudsecurityalliance.org",
-        "count": 1,
-        "posts": 1
-      },
-      {
         "host": "lake.computer",
         "count": 1,
         "posts": 1
@@ -4419,6 +4485,11 @@
       },
       {
         "host": "libyear.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "linuxiac.com",
         "count": 1,
         "posts": 1
       },
@@ -4484,6 +4555,11 @@
       },
       {
         "host": "man.openbsd.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "man7.org",
         "count": 1,
         "posts": 1
       },
@@ -4693,6 +4769,11 @@
         "posts": 1
       },
       {
+        "host": "openai.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "openjsf.org",
         "count": 1,
         "posts": 1
@@ -4799,6 +4880,11 @@
       },
       {
         "host": "pipenv.pypa.io",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "pixi.prefix.dev",
         "count": 1,
         "posts": 1
       },
@@ -5319,11 +5405,6 @@
       },
       {
         "host": "thanks.dev",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "thehackernews.com",
         "count": 1,
         "posts": 1
       },
@@ -6066,6 +6147,11 @@
         "host": "www.researchgate.net",
         "count": 1,
         "posts": 2
+      },
+      {
+        "host": "www.reversinglabs.com",
+        "count": 1,
+        "posts": 1
       },
       {
         "host": "www.rooftopruby.com",
