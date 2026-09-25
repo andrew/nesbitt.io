@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T16:32:27Z",
-  "cutoff": "2026-08-26T16:32:21Z",
+  "generated": "2026-09-25T17:26:59Z",
+  "cutoff": "2026-08-26T17:26:50Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.115.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.6",
+      "published": "2026-09-25T16:50:22Z",
+      "preview": "44.115.6 (2026-09-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.3 (main) ( #46477 ) ( dd22cb3 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.18.2 (main) ( #46476 ) ( 34aeb39 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.115.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.5",
@@ -229,14 +237,6 @@
       "preview": "Deployment at 2026-09-24T13:58:59.167218Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.112.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.3",
-      "published": "2026-09-24T13:07:26Z",
-      "preview": "44.112.3 (2026-09-24) Bug Fixes reconfigure: cache a flag instead of the unused extract result ( #46441 ) ( 0efc05f ) Miscellaneous Chores deps: update dependency type-fest to v5.10.0 (main) ( #46439 ) ( fa8e64c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "8.0.0.8",
