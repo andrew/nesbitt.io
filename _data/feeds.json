@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T19:25:06Z",
-  "cutoff": "2026-08-26T19:25:01Z",
+  "generated": "2026-09-25T20:27:35Z",
+  "cutoff": "2026-08-26T20:27:31Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-09-25T19:38:52Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "v2026.9.14: conf.d folder fragments, Stow-style dotfiles options, and mise-versions for any public GitHub repo",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.14",
@@ -925,14 +933,6 @@
       "preview": "What's Changed formula: skip Java splash screens in macOS tests by @ashr123 in #24005 Add brew advisory-match --formula-list by @p-linnane in #24007 Update Ubuntu release cycle link by @MikeMcQuaid in #24012 shell: emit a PowerShell assignment from export_value by @rawsun007 in #24010 Avoid sudo for user-local cask app groups by @MikeMcQuaid in #24011 Derive service completions from Cellar paths by @p-linnane in #24009 Prefer Homebrew Python for uv tools by @MikeMcQuaid in #24014 contributions: match co-authored commits made under a real name/email by @iMichka in #23926 cask: improve consisten",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-17T16:32:47Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v1.13.0-rc1",
