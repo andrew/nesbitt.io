@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T01:02:25Z",
-  "cutoff": "2026-08-26T01:02:20Z",
+  "generated": "2026-09-25T09:32:23Z",
+  "cutoff": "2026-08-26T09:32:19Z",
   "feed_count": 102,
   "item_count": 267,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.115.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.3",
+      "published": "2026-09-25T09:06:48Z",
+      "preview": "44.115.3 (2026-09-25) Bug Fixes manager/gomod: skip placeholder pseudo-versions of any version ( #46465 ) ( 7cf1720 ), closes #41521 Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.19 (main) ( #46460 ) ( 08dd2f6 ) deps: update dependency oxlint-tsgolint to v7.0.2002 (main) ( #46462 ) ( 92ae684 ) deps: update dependency uv to v0.12.19 (main) ( #46461 ) ( 5a99a96 ) Code Refactoring platform: drop unreachable addLabel, commitFiles and getRepoForceRebase from the API ( #46158 ) ( 1758ca9 ) platform: type getBranchStatusCheck context as string ( #46159 ) ( 94728b8 ), closes #2219",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-23-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-23-a",
+      "published": "2026-09-25T08:45:57Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-23-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "0.12.19",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.19",
@@ -179,14 +195,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.1",
       "published": "2026-09-24T09:12:13Z",
       "preview": "44.112.1 (2026-09-24) Bug Fixes cache: clean up the HEAD http cache like the GET one ( #46436 ) ( facc642 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.112.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.0",
-      "published": "2026-09-24T08:22:03Z",
-      "preview": "44.112.0 (2026-09-24) Features manager/mise: support conda backend ( #46360 ) ( 72a417e ) Tests manager/mise: don't allow unknown backend types ( #46361 ) ( 4dd2220 ), closes #46343",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1092,14 +1100,6 @@
       "published": "2026-09-15T07:30:00Z",
       "preview": "Swift 6.4 is now available. Swift aims to be a great choice across the stack, from apps and servers to systems code, embedded devices, and the browser. This release deepens that support, and makes everyday code easier to write. Highlights include: Swift Build is now the default in Swift Package Manager , so your projects build the same way on Linux, macOS, and Windows. Subprocess reaches 1.0 , a stable, cross-platform way to run and interact with other programs from Swift, from command-line tools to streaming processes. Interoperability reaches further , with Swift’s Span now bridging directly",
       "source": "Swift Blog",
-      "category": "Registries"
-    },
-    {
-      "title": "Swift 6.4.0 Release",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.0-RELEASE",
-      "published": "2026-09-15T07:11:55Z",
-      "preview": "What's Changed Traits update by @heckj in #9554 Add 6.3 to Swift Build preview release notes by @bripeticca in #9648 Update SwiftBuild progress reporting by @bripeticca in #9519 Avoid producing duplicate modules in the products dir when 2 executable products incorporate the same executable target by @owenv in #9650 Plugin dependencies should not be be linked into executable targets that use those plugins by @pmattos in #9651 Refine Swift Build preview note for Swift SDKs by @cmcgee1024 in #9653 Include linker generated symbol in default defined set by @daniel-grumberg in #9416 Docs: Add SwiftB",
-      "source": "Swift Package Manager releases",
       "category": "Registries"
     },
     {
