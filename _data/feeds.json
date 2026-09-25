@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-24T23:25:54Z",
-  "cutoff": "2026-08-25T23:25:47Z",
+  "generated": "2026-09-25T01:02:25Z",
+  "cutoff": "2026-08-26T01:02:20Z",
   "feed_count": 102,
-  "item_count": 270,
+  "item_count": 267,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.19",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.19",
+      "published": "2026-09-25T00:33:02Z",
+      "preview": "Release Notes Released on 2026-09-24. Python Add PyPy 3.11.16 and 3.12.14 ( #21847 ) Update GraalPy 3.13.0 to build 25.4.4 ( #21847 ) Enhancements Format upload URLs with backticks in uv publish errors ( #21934 ) Preview features Run build-backend hooks with lazy imports on CPython 3.15 and later using the build-lazy-imports preview feature ( #21967 ) Omit unused resolution settings from uv.lock and ignore changes to them when checking lockfile freshness with the resolution-inputs preview feature ( #21913 ) Bug fixes Preserve signed and encoded query parameters in direct-URL metadata to avoid ",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "44.115.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.2",
+      "published": "2026-09-25T00:19:51Z",
+      "preview": "44.115.2 (2026-09-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.2 (main) ( #46459 ) ( 9417b64 ) Miscellaneous Chores deps: update dependency memfs to v4.78.1 (main) ( #46456 ) ( 7799eb9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.115.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.1",
@@ -171,14 +187,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.0",
       "published": "2026-09-24T08:22:03Z",
       "preview": "44.112.0 (2026-09-24) Features manager/mise: support conda backend ( #46360 ) ( 72a417e ) Tests manager/mise: don't allow unknown backend types ( #46361 ) ( 4dd2220 ), closes #46343",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.111.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.111.5",
-      "published": "2026-09-24T07:38:59Z",
-      "preview": "44.111.5 (2026-09-24) Bug Fixes cache: include postUpgradeTasks in branch commit fingerprint ( #46416 ) ( d6946be ), closes #46224",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1783,14 +1791,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "0.12.9",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.9",
-      "published": "2026-09-01T21:58:26Z",
-      "preview": "Release Notes Released on 2026-09-01. Python Add CPython 3.15.0rc2 ( #21413 , #21415 ) Enhancements Add --no-locked and --no-frozen to disable lock modes enabled by UV_LOCKED and UV_FROZEN for a single invocation ( #21408 ) Report the exact command-line lock-mode flag in warnings and errors ( #21402 ) Performance Speed up cold wheel installs by extracting each streaming ZIP archive in a single blocking task and reusing buffers across files ( #21372 ) Bug fixes Update async_http_range_reader to 0.11.1 to address a potential memory-safety issue when reading metadata ranges from untrusted wheels ",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
       "title": "1.17.2",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.2",
       "published": "2026-09-01T21:51:25Z",
@@ -2157,30 +2157,6 @@
       "preview": "1.16.0 (August 26, 2026) NEW FEATURES: Terraform now stores planned private data for providers, allowing provider-specific state to be preserved across plan and apply. ( #37986 ) terraform_data : The new store block can hold ephemeral and sensitive values across plan and apply. ( #38298 ) Providers can now use nested blocks as computed values ( #38305 ) import: import blocks inside modules are now supported. ( #38352 ) Terraform is now available as a pre-built binary for Linux s390x (zLinux). ( #38384 ) Resource action triggers can now use on_failure modes of halt , taint , or continue . ( #38",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "Generic Methods",
-      "url": "https://go.dev/blog/generic-methods",
-      "published": "2026-08-26T00:00:00Z",
-      "preview": "Go 1.27 adds generic methods—a highly desired language feature.",
-      "source": "Go Blog",
-      "category": "Go"
-    },
-    {
-      "title": "Announcing our first Maintainers in Residence",
-      "url": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
-      "published": "2026-08-26T00:00:00Z",
-      "preview": "We are very happy to announce the Rust Project's first round of Maintainers in Residence: Gen Li ( @rami3l ), Chris Denton ( @ChrisDenton ), Alejandra González ( @blyxyas ), León Liehr ( @fmease ), and Maintainer Grant recipients: Jason Newcomb ( @Jarcho ) and Jonas Böttiger ( @joboet ). These contributors will be funded for their rust-lang maintenance activities for (at least) the following 12 months! The funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to generous donations to the Rust Foundation Maintainers Fund (RFMF) from Google, AWS, OpenAI, th",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
-      "title": "pnpm 12.0",
-      "url": "https://pnpm.io/blog/releases/12.0",
-      "published": "2026-08-26T00:00:00Z",
-      "preview": "pnpm 12 is stable. It is a rewrite of pnpm in Rust. Upgrading should not feel like a migration. The commands, flags, settings, and lockfile format of pnpm 11 all carry over. The documentation now defaults to pnpm 12, with the pnpm 11 documentation available from the version selector.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
