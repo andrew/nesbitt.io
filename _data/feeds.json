@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-25T10:30:09Z",
-  "cutoff": "2026-08-26T10:30:03Z",
+  "generated": "2026-09-25T11:27:51Z",
+  "cutoff": "2026-08-26T11:27:44Z",
   "feed_count": 102,
-  "item_count": 267,
+  "item_count": 269,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,26 +23,26 @@
   ],
   "items": [
     {
-      "title": "pnpr@0.1.0-alpha.13",
+      "title": "pnpr 0.1.0-alpha.13",
       "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.13",
-      "published": "2026-09-25T10:02:07Z",
-      "preview": "=pnpr@0.1.0-alpha.13",
+      "published": "2026-09-25T10:40:06Z",
+      "preview": "Patch Changes Requests to a registry or tarball server whose TLS certificate fails verification now fail at once. Such requests were retried for more than a minute without any output #9134 . On macOS, pnpm now uses its bundled certificate roots when macOS cannot create an SSL policy for a registry connection. It crashed on the first registry request in that case pnpm/pnpm#14461 . Installing through a pnpr server now installs a project's peer dependencies when autoInstallPeers is enabled. A project that declared only peer dependencies failed with ERR_PNPM_OUTDATED_LOCKFILE or skipped its peers ",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
-      "title": "v11.28.0",
+      "title": "pnpm 11.28",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.0",
-      "published": "2026-09-25T10:01:55Z",
-      "preview": "=v11.28.0",
+      "published": "2026-09-25T10:39:54Z",
+      "preview": "pnpm 11.28.0 adds the forceIgnoresPlatform setting and pnpm update --peer , and fixes many bugs in pnpm deploy , --filter , nodeLinker: hoisted , and custom modulesDir setups. This release also carries security fixes for shell completion, bin shims on Nix, lifecycle scripts inside a custom modulesDir , and userAgent placeholders in pnpm-workspace.yaml . Minor Changes Added the forceIgnoresPlatform setting. When it is false , pnpm install --force skips optional dependencies whose os , cpu or libc do not match the host instead of installing all of them. The default stays true #6133 . Patch Chang",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
-      "title": "v12.7.0",
+      "title": "pnpm 12.7",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.7.0",
-      "published": "2026-09-25T10:01:41Z",
-      "preview": "=v12.7.0",
+      "published": "2026-09-25T10:39:37Z",
+      "preview": "pnpm 12.7.0 ships with .nvmrc and .node-version support in the global node shim, pnpm install --allow-build , pnpm publish --publish-wait-timeout , and pnpm-workspace.yaml created from the workspaces field. pnpm install --force no longer installs optional dependencies built for other platforms. This release also carries security fixes for bin shims on Nix, for lifecycle scripts of packages in a storeDir inside the workspace, and for userAgent placeholders in pnpm-workspace.yaml . Minor Changes pnpm install --force now keeps skipping optional dependencies whose os , cpu or libc do not match the",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -85,6 +85,22 @@
       "preview": "44.115.2 (2026-09-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.2 (main) ( #46459 ) ( 9417b64 ) Miscellaneous Chores deps: update dependency memfs to v4.78.1 (main) ( #46456 ) ( 7799eb9 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 11.28",
+      "url": "https://pnpm.io/blog/releases/11.28",
+      "published": "2026-09-25T00:00:00Z",
+      "preview": "pnpm 11.28 adds the forceIgnoresPlatform setting and pnpm update --peer,",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.7",
+      "url": "https://pnpm.io/blog/releases/12.7",
+      "published": "2026-09-25T00:00:00Z",
+      "preview": "pnpm 12.7 lets the global node shim follow .nvmrc and .node-version,",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.115.1",
