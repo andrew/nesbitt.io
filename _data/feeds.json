@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-25T13:29:13Z",
-  "cutoff": "2026-08-26T13:29:08Z",
+  "generated": "2026-09-25T15:29:35Z",
+  "cutoff": "2026-08-26T15:29:26Z",
   "feed_count": 102,
-  "item_count": 268,
+  "item_count": 269,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.115.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.5",
+      "published": "2026-09-25T14:56:32Z",
+      "preview": "44.115.5 (2026-09-25) Bug Fixes datasource/rubygems: preserve release timestamps for native gems ( #46446 ) ( 027ef30 ) Documentation document code conventions and pnpm check as the verification ( #46471 ) ( 054f262 ) Miscellaneous Chores agents: block a stop only once in the stop hook ( #46468 ) ( 373bac7 ) agents: only deny npm, npx and yarn in command position ( #46467 ) ( dd95381 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "8.0.0.9",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.9",
@@ -239,14 +247,6 @@
       "category": ".NET"
     },
     {
-      "title": "44.112.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.2",
-      "published": "2026-09-24T10:10:24Z",
-      "preview": "44.112.2 (2026-09-24) Bug Fixes manager/nix: support zstd channel tarballs ( #46437 ) ( 293b18a ) Miscellaneous Chores deps: update python docker tag to v3.14.7 (main) ( #43919 ) ( 6011dc6 ) Continuous Integration undesirable-code: don't unnecessarily flag when behind the base branch ( #46419 ) ( aa76f94 ) undesirable-code: print added lines on failure ( #46420 ) ( 83edb5d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2.15.3-rc2",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3-rc2",
       "published": "2026-09-24T02:35:40Z",
@@ -261,6 +261,14 @@
       "preview": "Go 1.27 adds an experimental platform-agnostic SIMD API",
       "source": "Go Blog",
       "category": "Go"
+    },
+    {
+      "title": "Microsoft is updating its author-signing certificate starting September 23, 2026",
+      "url": "https://devblogs.microsoft.com/dotnet/microsoft-author-signing-certificate-update-2026/",
+      "published": "2026-09-23T20:00:00Z",
+      "preview": "Starting September 23, 2026, Microsoft is updating the author-signing certificate used for NuGet packages. Customers using trusted signer policies or certificate fingerprint verification should add the new certificate as soon as possible. The post Microsoft is updating its author-signing certificate starting September 23, 2026 appeared first on .NET Blog .",
+      "source": "NuGet Blog",
+      "category": ".NET"
     },
     {
       "title": "2.1.0-M2",
