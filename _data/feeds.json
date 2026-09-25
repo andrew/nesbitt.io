@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T17:26:59Z",
-  "cutoff": "2026-08-26T17:26:50Z",
+  "generated": "2026-09-25T18:32:57Z",
+  "cutoff": "2026-08-26T18:32:53Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.9.14",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.14",
+      "published": "2026-09-25T17:40:26Z",
+      "preview": "(config) load conf.d folders as self-contained config fragments…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.16",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.16",
+      "published": "2026-09-25T17:39:55Z",
+      "preview": "Release vfox 2026.9.16",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.9.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.9.0",
+      "published": "2026-09-25T17:39:27Z",
+      "preview": "Release mise-sigstore 2026.9.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.115.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.6",
@@ -767,14 +791,6 @@
       "category": "Python"
     },
     {
-      "title": "v2026.9.11: macos-app bootstrap packages, task template inheritance for flags and file tasks, and Swift on Linux fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.11",
-      "published": "2026-09-18T01:05:52Z",
-      "preview": "A new macos-app bootstrap manager installs .app bundles from a pinned URL and checksum when no Homebrew cask exists, task templates now compose usage flags and can be extended from file tasks, and Swift on Linux picks its distro build from swift.org's release index instead of a hard-coded map that 404'd on arm64 and on newer Fedora, Amazon Linux, and Arch hosts. Install failures also become far more actionable: errors name the minimum_release_age cutoff that hid every version, the child's last stderr line, or the shared libraries a Swift toolchain cannot load. Highlights Apps without a cask: \"",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "0.12.16",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.16",
       "published": "2026-09-18T01:01:42Z",
@@ -861,14 +877,6 @@
       "preview": "Enhancements: Rubygems: Fix Gem::Request for PQC support, adding integration connection tests. Pull request #9615 by junaruga Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Installs bundler 4.0.15 as a default gem. Bug fixes: Forward security policy to old-format gems. Pull request #9611 by hsbt",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "vfox-v2026.9.13",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.13",
-      "published": "2026-09-17T20:35:05Z",
-      "preview": "Release vfox 2026.9.13",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "Hatchling v1.32.3",
@@ -1013,14 +1021,6 @@
       "preview": "Security This release addresses ( CVE-2025-11395 ), where importing images containing crafted layer tarballs with the podman load command, or importing volumes containing crafted symlinks with podman volume import , allows overwriting files on the host. This release also addresses CVE-2026-79699 and CVE-2026-79705 , though we do not believe these CVEs are exploitable through the Podman command line. Misc Updated Buildah to v1.43.4 Updated Common to v0.67.2 Updated Image to v5.39.3 Updated Storage to v1.62.1",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "vfox-v2026.9.12",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.12",
-      "published": "2026-09-16T15:40:15Z",
-      "preview": "Release vfox 2026.9.12",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v1.16.3",
