@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T18:32:57Z",
-  "cutoff": "2026-08-26T18:32:53Z",
+  "generated": "2026-09-25T19:25:06Z",
+  "cutoff": "2026-08-26T19:25:01Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -23,12 +23,20 @@
   ],
   "items": [
     {
-      "title": "v2026.9.14",
+      "title": "v2026.9.14: conf.d folder fragments, Stow-style dotfiles options, and mise-versions for any public GitHub repo",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.14",
-      "published": "2026-09-25T17:40:26Z",
-      "preview": "(config) load conf.d folders as self-contained config fragments…",
+      "published": "2026-09-25T19:20:06Z",
+      "preview": "A folder inside any conf.d directory now loads as its own config fragment and serves as the config root for the files in it, which gives [bootstrap].config_roots users a direct migration path. [dotfiles] gains two GNU Stow-style options: relative symlinks and dot-<name> sources. Release metadata for any public github.com repo now comes from mise-versions, and the registry can require GitHub attestations for specific tools. Added conf.d folder fragments. A folder in a global, system, or project conf.d directory now loads as a fragment. Relative paths, {{ config_root }} , and task working direct",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "44.115.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.7",
+      "published": "2026-09-25T18:57:27Z",
+      "preview": "44.115.7 (2026-09-25) Bug Fixes manager/helmv3: apply registryAliases to OCI chart dependencies ( #46447 ) ( 07b3f10 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "vfox-v2026.9.16",
@@ -229,14 +237,6 @@
       "preview": "mise run can now export OpenTelemetry traces and logs (experimental), and experimental daemon providers let several projects and worktrees share one PostgreSQL, CockroachDB, or NATS server, each with its own database or account. Lockfiles no longer switch backends on their own when the registry moves a tool: the new mise backends switch command does it when you ask. [dotfiles] and [bootstrap.files] can now remove files and manage permissions, and mise bootstrap unapply removes what a module set up. The experimental pkgx: backend has been removed. Highlights Observability and shared services (e",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.113.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.113.0",
-      "published": "2026-09-24T18:35:51Z",
-      "preview": "44.113.0 (2026-09-24) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.101.0 (main) ( #46451 ) ( 0d50570 ) Miscellaneous Chores agents: include the check output in the stop hook block reason ( #46443 ) ( 0c956a8 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.18.1 (main) ( #46450 ) ( d504332 ) deps: update github/codeql-action action to v4.38.2 (main) ( #46442 ) ( 6b7b4e4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "vfox-v2026.9.15",
