@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T09:32:23Z",
-  "cutoff": "2026-08-26T09:32:19Z",
+  "generated": "2026-09-25T10:30:09Z",
+  "cutoff": "2026-08-26T10:30:03Z",
   "feed_count": 102,
   "item_count": 267,
   "categories": [
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpr@0.1.0-alpha.13",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.13",
+      "published": "2026-09-25T10:02:07Z",
+      "preview": "=pnpr@0.1.0-alpha.13",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.28.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.0",
+      "published": "2026-09-25T10:01:55Z",
+      "preview": "=v11.28.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.7.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.7.0",
+      "published": "2026-09-25T10:01:41Z",
+      "preview": "=v12.7.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.115.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.4",
+      "published": "2026-09-25T09:35:46Z",
+      "preview": "44.115.4 (2026-09-25) Miscellaneous Chores deps: update dependency tsdown to v0.23.0 (main) ( #45855 ) ( 3311b34 ) Build System deps: update dependency execa to v10 (main) ( #45834 ) ( 1909c2e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.115.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.3",
@@ -187,14 +219,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.2",
       "published": "2026-09-24T10:10:24Z",
       "preview": "44.112.2 (2026-09-24) Bug Fixes manager/nix: support zstd channel tarballs ( #46437 ) ( 293b18a ) Miscellaneous Chores deps: update python docker tag to v3.14.7 (main) ( #43919 ) ( 6011dc6 ) Continuous Integration undesirable-code: don't unnecessarily flag when behind the base branch ( #46419 ) ( aa76f94 ) undesirable-code: print added lines on failure ( #46420 ) ( 83edb5d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.112.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.112.1",
-      "published": "2026-09-24T09:12:13Z",
-      "preview": "44.112.1 (2026-09-24) Bug Fixes cache: clean up the HEAD http cache like the GET one ( #46436 ) ( facc642 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1215,14 +1239,6 @@
       "category": "Maven"
     },
     {
-      "title": "pnpm 11.27",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.27.0",
-      "published": "2026-09-12T21:22:42Z",
-      "preview": "Minor Changes nodeDownloadMirrors can now be set in the global config file ( config.yaml ) and through the PNPM_CONFIG_NODE_DOWNLOAD_MIRRORS environment variable, so a Node.js download mirror can be configured once for a machine instead of in every workspace #12124 , #13611 . PNPM_CONFIG_NODE_DOWNLOAD_MIRRORS= ' {\"release\":\"https://npmmirror.com/mirrors/node/\"} ' Added a new setting trustPolicyExcludePrune (default: false ). When enabled, pnpm add , pnpm update , and pnpm remove prune the entries of trustPolicyExclude in pnpm-workspace.yaml that the freshly written lockfile no longer resolves:",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
       "published": "2026-09-12T08:48:33Z",
@@ -1245,14 +1261,6 @@
       "preview": "When your Swift program hits a breakpoint and stops so you can inspect it, the debugger’s expression evaluator has to find the exact Swift module your code was built from. Until now, that lookup wasn’t always precise. The upcoming Swift 6.4 release will include changes, begun in Swift 6.3, that address this by updating how the Swift compiler references explicitly-built Swift modules in debug info. The majority of developers will automatically benefit from faster , more reliable debugging and smaller build products , without any modifications to their SwiftPM or Xcode projects. For developers w",
       "source": "Swift Blog",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 12.4.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.1",
-      "published": "2026-09-11T14:55:01Z",
-      "preview": "pnpm 12.4.1 fixes installs that failed on filesystems refusing hard links or clones, on Android, and under nodeLinker: hoisted . Repeat installs are faster. Patch Changes Installing packages pnpm install no longer fails with Operation not permitted when the filesystem refuses a hard link or a copy-on-write clone #14722 . Under packageImportMethod: auto and clone-or-copy , pnpm copies the file instead. EdenFS checkouts, which have no hard links, and rootless containers, which refuse the clone syscall, both hit this. An explicit packageImportMethod: hardlink or clone still reports the error. pnp",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
@@ -1317,14 +1325,6 @@
       "preview": "Changes This release adds more bheind the scene security improvements and also 2 small improvements. NO_PROXY This action now respects no_proxy/NO_PROXY environment variables which were previously ignored. New output python-runtime-id The new output python-runtime-id can be used to know which python version exactly was installed if you use activate-environment . See pyca/cryptography#15572 (comment) for details on why this can be useful. 🐛 Bug fixes fix: respect no proxy directive @mj0nez ( #1037 ) Use JSON + a typed wrapper instead of TS codegen @woodruffw ( #1025 ) 🚀 Enhancements Expose a Py",
       "source": "setup-uv releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpr 0.1.0-alpha.11",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.11",
-      "published": "2026-09-10T16:56:04Z",
-      "preview": "pnpr now serves Cargo, Python, and container registries alongside npm, publishes across all of them in one transaction, and signs users in through OIDC. Minor Changes Cargo and Python registries pnpr now serves Cargo and Python registries alongside npm from one instance. Hosted Cargo registries support cargo publish , cargo yank , and crate downloads. Hosted Python registries support pip install --index-url and twine upload . Upstream registries can proxy crates.io and PyPI with checksum verified downloads, and a router can combine sources from all three ecosystems. A registry that serves more",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "Helm v3.22.0",
