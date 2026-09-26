@@ -12,7 +12,7 @@ Week nineteen of the roundup, built from the [package manager OPML feed collecti
 
 ## Releases
 
-[pnpm 12.6](https://pnpm.io/blog/releases/12.6) adds an `autoDedupe` setting that resolves compatible dependency versions to a single one during install, and reuses a `node_modules` directory that has been moved or copied along with its project on macOS and Linux. `pnpm add --save-types` installs the matching `@types/*` package as a dev dependency, and add and remove commands now edit `package.yaml` manifests in place.
+[pnpm 12.6](https://pnpm.io/blog/releases/12.6) adds an `autoDedupe` setting that resolves compatible dependency versions to a single one during install, and `pnpm add --save-types` for the matching `@types/*` package. [12.7](https://pnpm.io/blog/releases/12.7) has the global node shim read `.nvmrc` and `.node-version` when `devEngines.runtime` is unset, and adds `pnpm publish --publish-wait-timeout` to block until a published package is available before dependents publish.
 
 [RubyGems 4.1.0.beta1](https://github.com/ruby/rubygems/releases/tag/v4.1.0.beta1) adds content-addressable gems, an opt-in OS credential store for gem and Bundler credentials, ML-DSA post-quantum signatures for the signed-gem workflow, and a `--cooldown` flag on `gem install`, `update` and `outdated`.
 
@@ -24,21 +24,28 @@ Week nineteen of the roundup, built from the [package manager OPML feed collecti
 
 [Windows Package Manager 1.29.380](https://github.com/microsoft/winget-cli/releases/tag/v1.29.380) adds an experimental source priority setting: sources can be assigned a numeric priority via `winget source add` or `source edit` and are ordered by it in results.
 
+[mise 2026.9.14](https://github.com/jdx/mise/releases/tag/v2026.9.14) lets registry entries require a verified GitHub attestation before a tool installs, and fetches release metadata for any public GitHub repo from mise-versions rather than the GitHub API.
+
 Also out:
 
 - [Homebrew 7.0.6](https://github.com/Homebrew/brew/releases/tag/7.0.6)
-- [mise 2026.9.12](https://github.com/jdx/mise/releases/tag/v2026.9.12)
 - [pipx 1.17.6](https://github.com/pypa/pipx/releases/tag/1.17.6)
 - [Hatchling 1.32.4](https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.4)
+- [uv 0.12.19](https://github.com/astral-sh/uv/releases/tag/0.12.19)
+- [pnpm 11.28](https://pnpm.io/blog/releases/11.28)
+- [Yarn 4.18.1](https://github.com/yarnpkg/berry/releases/tag/%40yarnpkg%2Fcli%2F4.18.1)
 - [asdf 0.20.2](https://github.com/asdf-vm/asdf/releases/tag/v0.20.2)
 - [sbt 2.1.0-M2](https://github.com/sbt/sbt/releases/tag/v2.1.0-M2)
 - [Maven 4.0.0-rc-7](https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-7)
-- [Gradle 9.8.0-RC3](https://github.com/gradle/gradle/releases/tag/v9.8.0-RC3)
+- [Gradle 9.8.0](https://github.com/gradle/gradle/releases/tag/v9.8.0)
+- [vcpkg 2026-09-26](https://github.com/microsoft/vcpkg-tool/releases/tag/2026-09-26)
+- [DNF5 5.4.6.0](https://github.com/rpm-software-management/dnf5/releases/tag/5.4.6.0)
 - [Terraform 1.16.4](https://github.com/hashicorp/terraform/releases/tag/v1.16.4)
 - [Harbor 2.15.3-rc2](https://github.com/goharbor/harbor/releases/tag/v2.15.3-rc2)
-- [Renovate 44.112.2](https://github.com/renovatebot/renovate/releases/tag/44.112.2)
+- [Renovate 44.115.10](https://github.com/renovatebot/renovate/releases/tag/44.115.10)
 - [Dependabot Core 0.397.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.397.0)
 - [setup-uv 10.2.0](https://github.com/astral-sh/setup-uv/releases/tag/v10.2.0)
+- [diffoscope 331](https://diffoscope.org/news/diffoscope-331-released/)
 
 ## Security
 
@@ -56,6 +63,8 @@ Jamie Tanna [reviewed](https://www.jvt.me/posts/2026/09/21/renovate-1-year/) his
 
 Josh Bressers [interviewed](https://opensourcesecurity.io/2026/2026-09-curl-bliss-stefan-daniel/) Daniel Stenberg and Stefan Eissing about curl's month-long pause on accepting vulnerability reports and the volume of AI-generated submissions that prompted it.
 
+Farid Zakaria [wrote up omnibin](https://fzakaria.com/2026/09/24/every-package-is-already-installed), a FUSE filesystem that presents every binary nixpkgs has shipped since 2013, 881,933 in total, by looking up store paths in Hydra's published metadata and fetching them on first access; a cold `python3@3.6.2` start takes about 2.7 seconds.
+
 [TrustBOM: A Scalable Architecture for Confidentiality-Preserving SBOMs Across Organizations](https://arxiv.org/abs/2609.21419) (Nguyen et al., arXiv) proposes a CI/CD-integrated attestation scheme in which a supplier proves that a given vulnerability or restricted licence is absent from its software while keeping the dependency graph private.
 
 [Git 2.56.0-rc2](https://github.com/git/git/releases/tag/v2.56.0-rc2) was tagged.
@@ -65,7 +74,7 @@ Josh Bressers [interviewed](https://opensourcesecurity.io/2026/2026-09-curl-blis
 I tagged eight repos this week:
 
 - [citation v0.1.0](https://github.com/git-pkgs/citation/releases/tag/v0.1.0) (new), a pure-Go library for parsing and validating `CITATION.cff` files that preserves source positions, unknown fields and numeric spelling
-- [scan v0.1.0](https://github.com/git-pkgs/scan/releases/tag/v0.1.0) (new), a pure-Go library for matching many regular expressions against byte blocks, compiling patterns into shared literal filters and regex automata along Hyperscan lines
+- [scan v0.1.0](https://github.com/git-pkgs/scan/releases/tag/v0.1.0) (new), a pure-Go library that matches many regular expressions against byte blocks by compiling patterns into shared literal filters and regex automata along Hyperscan lines
 - [secrets v0.1.0](https://github.com/git-pkgs/secrets/releases/tag/v0.1.0) (new), which scans Git history for leaked credentials by running the Betterleaks rule corpus over every blob and attributing findings to the commits and paths that introduced them
 - [spam v0.1.0](https://github.com/git-pkgs/spam/releases/tag/v0.1.0) (new), an offline library for measuring promotional text in package manifests and READMEs
 - [archives v0.8.0](https://github.com/git-pkgs/archives/releases/tag/v0.8.0)
