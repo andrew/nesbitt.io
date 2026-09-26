@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-26T12:36:25Z",
-  "cutoff": "2026-08-27T12:36:19Z",
+  "generated": "2026-09-26T13:25:02Z",
+  "cutoff": "2026-08-27T13:24:56Z",
   "feed_count": 102,
   "item_count": 267,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v7.0.0-next-7.28",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.28",
+      "published": "2026-09-26T12:37:36Z",
+      "preview": "Patch Changes 6fd3e8a : Make /-/v1/search work for storage plugins that still use the callback API. Verdaccio 7 keeps callback-based storage plugins running through a compatibility adapter. Its search collected whatever the plugin streamed and handed the list straight back, with two consequences for every such plugin. The search query was dropped before it reached the plugin, and the adapter passed a name predicate that always returned true, so the plugin emitted its whole catalogue and nothing ever filtered it. /-/v1/search answered with every package in the registry regardless of the text se",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "8.0.0.10",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.10",
@@ -501,14 +509,6 @@
       "preview": "Deployment at 2026-09-22T08:35:21.424719Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "@verdaccio/test-helper@5.0.0-next-9.33",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%405.0.0-next-9.33",
-      "published": "2026-09-22T06:00:33Z",
-      "preview": "chore: update versions (next-9) ( #6226 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "@verdaccio/types@14.0.0-next-9.15",
