@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-26T01:01:21Z",
-  "cutoff": "2026-08-27T01:01:16Z",
+  "generated": "2026-09-26T06:41:54Z",
+  "cutoff": "2026-08-27T06:41:49Z",
   "feed_count": 102,
-  "item_count": 268,
+  "item_count": 269,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2026-09-26 Release",
+      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-09-26",
+      "published": "2026-09-26T06:19:05Z",
+      "preview": "What's Changed Add privacy and telemetry notices to the help command by Victor Romero (@vicroms) in #2087 Add Windows arm64 release presets by Billy O'Neal (@BillyONeal) in #2082 Fix x-add-version to be as transactional as its error messages suggest (and 1/10th the time) by Billy O'Neal (@BillyONeal) in #2050 [curl] propagate VCPKG_SSL_REVOKE_BEST_EFFORT to spawned processes by Pavel Pokutnev (@mem16k) in #2098 Take the registries lock before git init by Bugale Bugalit (@bugale) in #2093 Add diff output to x-update-baseline by Billy O'Neal (@BillyONeal) in #2057 Parallelize ObjectStorageProvid",
+      "source": "vcpkg releases",
+      "category": "C/C++"
+    },
     {
       "title": "44.115.10",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.10",
