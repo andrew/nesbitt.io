@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-26T09:28:17Z",
-  "cutoff": "2026-08-27T09:28:11Z",
+  "generated": "2026-09-26T11:25:16Z",
+  "cutoff": "2026-08-27T11:25:10Z",
   "feed_count": 102,
-  "item_count": 269,
+  "item_count": 267,
   "categories": [
     ".NET",
     "C/C++",
@@ -2157,22 +2157,6 @@
       "preview": "💥 Breaking changes Remove release-profile from super POM ( #11999 ) @slawekjaranowski Remove deprecated plugin management from super POM ( #11986 ) @slawekjaranowski 🚀 New features and improvements Feat: Align Maven 3.10.x and 4.0.x ( #12442 ) @cstamas Feat: Align CP ordering with Maven 4 ( #12327 ) @cstamas Feat: Apply latest Resolver 2.0.19 changes ( #12246 ) @cstamas Feat: Maven 3.10.x super POM ( #12032 ) @cstamas In failed build limit reactor summary to only failed modules ( #11977 ) @slawekjaranowski Add time zone to Maven startup banner ( #11972 ) @slawekjaranowski Feat: Version range f",
       "source": "Maven releases",
       "category": "Maven"
-    },
-    {
-      "title": "v1.17.0-alpha20260827",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-alpha20260827",
-      "published": "2026-08-27T10:30:11Z",
-      "preview": "1.17.0-alpha20260827 (August 27, 2026) NEW FEATURES: A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) ENHANCEMENTS: command/init: Enrich log messages with provider versions ( #38918 ) command/login: display warning after successful login if user is subject to an organization's TTL policy BUG FIXES: funcs: pow and log no longer panic when result is not a number ( #38912 ) ephemeral: Terraform will now use and display diagnostics raised when renewing an ephemeral resource. This may cause warnings to appear that previo",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
-    },
-    {
-      "title": "6.0.20",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.20",
-      "published": "2026-08-27T10:26:48Z",
-      "preview": "What's Changed generate-zap: resolve apps from package receipts by @loganrosen in #23623 cc shim: compare by canonicalizing both sides, fixing issues with symlinked HOMEs by @averms in #23637 pathname/disk_usage_extension: fix double path traversal by @krehel in #23632 Migrate analytics to brew.sh proxy by @SMillerDev in #23639 Add brew tests --load-only and break the install require cycle by @p-linnane in #23642 Run privileged cask install steps in the parent process by @p-linnane in #23641 Drive bottle pours from relocation metadata by @MikeMcQuaid in #23643 bundle: fail Flatpak entries when",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
