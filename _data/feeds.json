@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-26T20:27:28Z",
-  "cutoff": "2026-08-27T20:27:22Z",
+  "generated": "2026-09-26T21:26:12Z",
+  "cutoff": "2026-08-27T21:26:07Z",
   "feed_count": 102,
-  "item_count": 263,
+  "item_count": 262,
   "categories": [
     ".NET",
     "C/C++",
@@ -2117,14 +2117,6 @@
       "preview": "🐛 bug fixes fix: Fixes ThisBuild -scoped bare settings by @eed3si9n in #9674 fix: Fixes TestReportListener not receiving endGroup after a LinkageError by @unkarjedy in #9667 fix: Fixes the ability to extend TestResultLogger by @unkarjedy in #9655 fix: Fixes --addPluginSbtFile getting lost after reboot by @azdrojowa123 in #9669 fix: Fixes JDK 17 domain socket deadlocks by @eed3si9n in #9671 fix: Keep adhoc test classloader open in a forked test @stasimus in #9639 fix: Fixes Windows runner by @eed3si9n in #9680 Full Changelog : v2.0.7...v2.0.8",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "v1.3.4",
-      "url": "https://github.com/oras-project/oras/releases/tag/v1.3.4",
-      "published": "2026-08-27T20:37:08Z",
-      "preview": "ORAS CLI v1.3.4 is a security-focused maintenance release. It scopes registry credentials — mTLS client certificates, custom --header values, and --debug trace output — strictly to the configured registry origin, and adds an opt-in --force copy mode for registries that report incomplete content as present. Highlights 🔒 Security: three credential-scoping advisories are fixed — mTLS client certificates ( GHSA-h3wm-jjqf-8jm2 ), custom request headers ( GHSA-whvf-jp7m-59f3 ), and --debug HTTP traces ( GHSA-5jhf-2qmf-m8c5 ). All three were reported by Hardik Mehta ( @hardw00t ). ✨ oras cp and oras ",
-      "source": "ORAS releases",
-      "category": "Containers"
     }
   ]
 }
