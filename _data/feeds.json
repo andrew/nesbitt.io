@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25T21:26:53Z",
-  "cutoff": "2026-08-26T21:26:46Z",
+  "generated": "2026-09-26T01:01:21Z",
+  "cutoff": "2026-08-27T01:01:16Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.115.10",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.10",
+      "published": "2026-09-26T00:46:04Z",
+      "preview": "44.115.10 (2026-09-26) Build System deps: update dependency lru-cache to v11.5.3 (main) ( #46484 ) ( 0639f2f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.115.9",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.9",
@@ -221,14 +229,6 @@
       "preview": "@yarnpkg/core",
       "source": "Yarn releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.115.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.0",
-      "published": "2026-09-24T20:32:43Z",
-      "preview": "44.115.0 (2026-09-24) Features config: add matchIsBreaking package rule option ( #46449 ) ( 18eb38c ) jsonata: add $matchRegexOrGlob custom function ( #46448 ) ( df02196 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "5.4.6.0",
