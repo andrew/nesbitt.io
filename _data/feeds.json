@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-26T06:41:54Z",
-  "cutoff": "2026-08-27T06:41:49Z",
+  "generated": "2026-09-26T09:28:17Z",
+  "cutoff": "2026-08-27T09:28:11Z",
   "feed_count": 102,
   "item_count": 269,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-09-26T09:27:02Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-24-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-24-a",
+      "published": "2026-09-26T08:46:52Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-24-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "2026-09-26 Release",
       "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-09-26",
@@ -53,14 +69,6 @@
       "preview": "44.115.8 (2026-09-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.4 (main) ( #46480 ) ( 4ce7195 ) Tests datasource: don't cache a HOST_BLOCKED result ( #46473 ) ( 6c26fc1 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-25T19:38:52Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v2026.9.14: conf.d folder fragments, Stow-style dotfiles options, and mise-versions for any public GitHub repo",
@@ -1716,14 +1724,6 @@
       "published": "2026-09-03T12:39:09Z",
       "preview": "Deployment at 2026-09-03T12:39:06.842287Z.",
       "source": "pub.dev releases",
-      "category": "Registries"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
-      "published": "2026-09-03T08:50:41Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-01-a",
-      "source": "Swift Package Manager releases",
       "category": "Registries"
     },
     {
