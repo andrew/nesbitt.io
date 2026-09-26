@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-26T13:25:02Z",
-  "cutoff": "2026-08-27T13:24:56Z",
+  "generated": "2026-09-26T17:25:33Z",
+  "cutoff": "2026-08-27T17:25:26Z",
   "feed_count": 102,
-  "item_count": 267,
+  "item_count": 266,
   "categories": [
     ".NET",
     "C/C++",
@@ -2149,14 +2149,6 @@
       "preview": "2.9.6 / 2026.08.27 feat(compressible): add support for 'text/x-component' content type ( #36450 ) feat(desktop): clipboard api ( #35750 ) feat(desktop): support checked, icon, and tooltip on menu items ( #36649 ) fix(bundle): isolate esbuild downloads from workspace registries ( #36467 ) fix(cache): combine duplicate headers for Vary matching ( #36476 ) fix(cli_parser): remove orphaned sync-types parser fix(core): cap adaptive buffer initial allocations ( #36432 ) fix(core): make Unix pipe fd ownership explicit ( #36353 ) fix(core): make user timer waker state thread-safe ( #36495 ) fix(covera",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "3.10.0-rc-1",
-      "url": "https://github.com/apache/maven/releases/tag/maven-3.10.0-rc-1",
-      "published": "2026-08-27T16:48:52Z",
-      "preview": "💥 Breaking changes Remove release-profile from super POM ( #11999 ) @slawekjaranowski Remove deprecated plugin management from super POM ( #11986 ) @slawekjaranowski 🚀 New features and improvements Feat: Align Maven 3.10.x and 4.0.x ( #12442 ) @cstamas Feat: Align CP ordering with Maven 4 ( #12327 ) @cstamas Feat: Apply latest Resolver 2.0.19 changes ( #12246 ) @cstamas Feat: Maven 3.10.x super POM ( #12032 ) @cstamas In failed build limit reactor summary to only failed modules ( #11977 ) @slawekjaranowski Add time zone to Maven startup banner ( #11972 ) @slawekjaranowski Feat: Version range f",
-      "source": "Maven releases",
-      "category": "Maven"
     }
   ]
 }
