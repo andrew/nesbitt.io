@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27T08:35:11Z",
-  "cutoff": "2026-08-28T08:34:42Z",
+  "generated": "2026-09-27T10:28:18Z",
+  "cutoff": "2026-08-28T10:27:34Z",
   "feed_count": 102,
   "item_count": 260,
   "categories": [
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v2026.9.15",
+      "title": "v2026.9.15: vfox tools in OCI images, faster shell prompts, and safer dotfiles pattern matching",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.15",
-      "published": "2026-09-27T08:34:35Z",
-      "preview": "(bootstrap) show Mac App Store app names in packages status by …",
+      "published": "2026-09-27T09:51:03Z",
+      "preview": "mise oci build can now package tools installed by vfox plugins, and vfox plugins can repair an existing install when its tool options change. Shell prompts, cd , and settings loading are faster. Dotfiles include / exclude patterns now follow .gitignore rules for * and a leading / , which fixes a case where rollback could delete a live file. Added vfox tools in OCI images (experimental). mise oci build used to reject every tool installed by a vfox plugin. It now builds those tools into the image, with one layer per tool plus one layer per plugin at /mise/plugins/<name>/ , so mise inside the ima",
       "source": "mise releases",
       "category": "Multi-language"
     },
