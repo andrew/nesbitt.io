@@ -3,14 +3,14 @@
   url: https://github.com/andrew/ultimate-awesome
   description: Every awesome list on every topic, including awesome lists of awesome
     lists, updated daily.
-  stars: 218
+  stars: 219
   language:
-  pushed_at: '2026-09-19T00:47:48Z'
+  pushed_at: '2026-09-26T00:49:03Z'
 - name: gitgres
   url: https://github.com/andrew/gitgres
   description: Store git objects and refs in PostgreSQL tables. Standard git push/clone
     work against the database through a libgit2-based backend.
-  stars: 90
+  stars: 91
   language: C
   pushed_at: '2026-03-08T20:14:08Z'
 - name: nesbitt.io
@@ -19,20 +19,13 @@
     about package management, software supply chain security, and open source infrastructure. '
   stars: 38
   language: HTML
-  pushed_at: '2026-09-20T06:17:09Z'
+  pushed_at: '2026-09-27T06:18:37Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
   stars: 25
   language: Ruby
   pushed_at: '2026-09-17T18:59:12Z'
-- name: managing-dependencies
-  url: https://github.com/andrew/managing-dependencies
-  description: Claude Code skill for evaluating packages and managing dependencies
-    securely
-  stars: 16
-  language:
-  pushed_at: '2026-03-08T09:10:11Z'
 - name: sidekiq-mcp
   url: https://github.com/andrew/sidekiq-mcp
   description: A Sidekiq plugin that provides an MCP (Model Context Protocol) server
@@ -40,6 +33,13 @@
   stars: 16
   language: Ruby
   pushed_at: '2026-07-27T10:32:20Z'
+- name: managing-dependencies
+  url: https://github.com/andrew/managing-dependencies
+  description: Claude Code skill for evaluating packages and managing dependencies
+    securely
+  stars: 15
+  language:
+  pushed_at: '2026-03-08T09:10:11Z'
 - name: vers
   url: https://github.com/andrew/vers
   description: A Ruby gem for parsing, comparing and sorting versions according to
@@ -54,24 +54,24 @@
   stars: 13
   language: Ruby
   pushed_at: '2026-08-04T09:23:32Z'
+- name: swhid
+  url: https://github.com/andrew/swhid
+  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
+  stars: 12
+  language: Ruby
+  pushed_at: '2026-09-20T13:22:30Z'
 - name: go-bundler
   url: https://github.com/andrew/go-bundler
   description: Go-style imports for Ruby
   stars: 12
   language: Ruby
   pushed_at: '2026-04-27T10:05:30Z'
-- name: swhid
-  url: https://github.com/andrew/swhid
-  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
-  stars: 12
-  language: Ruby
-  pushed_at: '2026-04-27T10:05:45Z'
 - name: ruby-upgrade-action
   url: https://github.com/andrew/ruby-upgrade-action
   description: GitHub action to upgrade version of Ruby in various places to the latest
   stars: 11
   language:
-  pushed_at: '2026-09-20T00:06:05Z'
+  pushed_at: '2026-09-20T14:42:11Z'
 - name: pycon
   url: https://github.com/andrew/pycon
   description: Data collection and analysis for a PyCon talk on GitHub Actions security
@@ -99,18 +99,18 @@
   stars: 10
   language: Ruby
   pushed_at: '2026-04-27T10:05:16Z'
+- name: typosquatting
+  url: https://github.com/andrew/typosquatting
+  description: Detect potential typosquatting packages across package ecosystems
+  stars: 10
+  language: Ruby
+  pushed_at: '2026-04-27T10:05:24Z'
 - name: hanami-sprockets
   url: https://github.com/andrew/hanami-sprockets
   description: An alternative to hanami-assets that doesn't rely on npm
   stars: 10
   language: Ruby
   pushed_at: '2026-07-27T10:32:15Z'
-- name: typosquatting
-  url: https://github.com/andrew/typosquatting
-  description: Detect potential typosquatting packages across package ecosystems
-  stars: 9
-  language: Ruby
-  pushed_at: '2026-04-27T10:05:24Z'
 - name: PBOM
   url: https://github.com/andrew/PBOM
   description: Paper Bill of Materials (PBOM) - Generate a paper bill of materials
@@ -137,18 +137,18 @@
   stars: 7
   language: Ruby
   pushed_at: '2026-04-27T10:05:27Z'
-- name: weekend-at-bernies
-  url: https://github.com/andrew/weekend-at-bernies
-  description: Data collection for Weekend at Bernie's blog post
-  stars: 5
-  language: Ruby
-  pushed_at: '2026-09-15T20:43:56Z'
 - name: sbom
   url: https://github.com/andrew/sbom
   description: Parse, generate, and validate Software Bill of Materials (SBOM)
   stars: 5
   language: Ruby
-  pushed_at: '2026-09-06T18:37:24Z'
+  pushed_at: '2026-09-20T20:15:40Z'
+- name: weekend-at-bernies
+  url: https://github.com/andrew/weekend-at-bernies
+  description: Data collection for Weekend at Bernie's blog post
+  stars: 5
+  language: Ruby
+  pushed_at: '2026-09-26T15:14:58Z'
 - name: homebrew-actions
   url: https://github.com/andrew/homebrew-actions
   description: Install GitHub Actions from a Homebrew tap
@@ -188,12 +188,12 @@
   stars: 3
   language: Ruby
   pushed_at: '2026-04-27T10:05:34Z'
-- name: swhid-go
-  url: https://github.com/andrew/swhid-go
-  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
+- name: sarif
+  url: https://github.com/andrew/sarif
+  description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
   stars: 3
-  language: Go
-  pushed_at: '2026-08-09T17:30:21Z'
+  language: Ruby
+  pushed_at: '2026-06-19T10:06:04Z'
 - name: jekyll-stats
   url: https://github.com/andrew/jekyll-stats
   description: Jekyll plugin that generates site statistics
@@ -206,12 +206,12 @@
   stars: 3
   language: Ruby
   pushed_at: '2026-07-31T08:31:08Z'
-- name: sarif
-  url: https://github.com/andrew/sarif
-  description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
+- name: swhid-go
+  url: https://github.com/andrew/swhid-go
+  description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
   stars: 3
-  language: Ruby
-  pushed_at: '2026-06-19T10:06:04Z'
+  language: Go
+  pushed_at: '2026-09-20T11:21:29Z'
 - name: gitlocal
   url: https://github.com/andrew/gitlocal
   description: A pre-commit hook for .gitlocal marked files
@@ -264,3 +264,9 @@
   stars: 1
   language: Ruby
   pushed_at: '2026-08-10T14:30:00Z'
+- name: swh-critical
+  url: https://github.com/andrew/swh-critical
+  description: Software Heritage coverage checks for critical package repositories
+  stars: 1
+  language: Ruby
+  pushed_at: '2026-09-26T17:01:13Z'
