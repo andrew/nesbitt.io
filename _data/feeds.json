@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27T20:28:00Z",
-  "cutoff": "2026-08-28T20:27:53Z",
+  "generated": "2026-09-27T21:26:22Z",
+  "cutoff": "2026-08-28T21:26:17Z",
   "feed_count": 102,
   "item_count": 259,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "maven-3.10.0",
+      "url": "https://github.com/apache/maven/releases/tag/maven-3.10.0",
+      "published": "2026-09-27T20:38:49Z",
+      "preview": "[maven-release-plugin] copy for tag maven-3.10.0",
+      "source": "Maven releases",
+      "category": "Maven"
+    },
     {
       "title": "44.115.13",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.13",
@@ -2085,14 +2093,6 @@
       "preview": "pnpm 12.1 brings the new workspace task scheduler to the Rust CLI, persists",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "v29.8.0-rc.1",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.0-rc.1",
-      "published": "2026-08-28T20:48:41Z",
-      "preview": "29.8.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.8.0 milestone moby/moby, 29.8.0 milestone Bug fixes and enhancements containerd image store: Fix docker image inspect reporting a smaller image size than docker image ls . moby/moby#53426 Do not log expected image signature identity misses as errors for containerd image store images. moby/moby#53495 dockerd now uses the embedded containerd if no system containerd service is configured and containerd is not installed. moby/moby#53388 Fix GET /images/{name}/json not i",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
