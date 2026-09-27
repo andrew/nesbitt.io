@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27T10:28:18Z",
-  "cutoff": "2026-08-28T10:27:34Z",
+  "generated": "2026-09-27T11:25:58Z",
+  "cutoff": "2026-08-28T11:25:53Z",
   "feed_count": 102,
   "item_count": 260,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.115.11",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.11",
+      "published": "2026-09-27T10:30:41Z",
+      "preview": "44.115.11 (2026-09-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.6 (main) ( #46491 ) ( dfebd0d ) Miscellaneous Chores deps: update dependency @types/node to v24.13.6 (main) ( #46485 ) ( e02925f ) deps: update dependency markdownlint-cli2 to v0.23.3 (main) ( #46489 ) ( d738e23 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.9.15: vfox tools in OCI images, faster shell prompts, and safer dotfiles pattern matching",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.15",
@@ -277,14 +285,6 @@
       "preview": "pnpm 12.7 lets the global node shim follow .nvmrc and .node-version,",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.115.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.1",
-      "published": "2026-09-24T22:53:49Z",
-      "preview": "44.115.1 (2026-09-24) Code Refactoring datasource: stop double-caching releases at the index level ( #46103 ) ( a3d265d ) manager/helm-requirements: reuse helmv3 repository helpers ( #46182 ) ( b68101e ) Build System deps: update dependency prettier to v3.9.8 (main) ( #46455 ) ( f0b8358 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Maven 4.0.0-rc-7",
