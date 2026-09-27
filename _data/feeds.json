@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-27T04:33:54Z",
-  "cutoff": "2026-08-28T04:33:49Z",
+  "generated": "2026-09-27T08:35:11Z",
+  "cutoff": "2026-08-28T08:34:42Z",
   "feed_count": 102,
-  "item_count": 261,
+  "item_count": 260,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,70 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.9.15",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.15",
+      "published": "2026-09-27T08:34:35Z",
+      "preview": "(bootstrap) show Mac App Store app names in packages status by …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.9.5",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.9.5",
+      "published": "2026-09-27T08:34:12Z",
+      "preview": "Release aqua-registry 2026.9.5",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.17",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.17",
+      "published": "2026-09-27T08:33:59Z",
+      "preview": "Release vfox 2026.9.17",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-brew-metadata-v2026.9.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-brew-metadata-v2026.9.0",
+      "published": "2026-09-27T08:33:37Z",
+      "preview": "Release mise-brew-metadata 2026.9.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.9.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.9.1",
+      "published": "2026-09-27T08:33:34Z",
+      "preview": "Release mise-util 2026.9.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.9.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.9.1",
+      "published": "2026-09-27T08:33:27Z",
+      "preview": "Release mise-settings 2026.9.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-brew-relocation-v2026.9.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-brew-relocation-v2026.9.0",
+      "published": "2026-09-27T08:33:23Z",
+      "preview": "Release mise-brew-relocation 2026.9.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-agent-env-v2026.9.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-agent-env-v2026.9.1",
+      "published": "2026-09-27T08:33:15Z",
+      "preview": "Release mise-agent-env 2026.9.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -107,14 +171,6 @@
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.16",
       "published": "2026-09-25T17:39:55Z",
       "preview": "Release vfox 2026.9.16",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.9.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.9.0",
-      "published": "2026-09-25T17:39:27Z",
-      "preview": "Release mise-sigstore 2026.9.0",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -269,22 +325,6 @@
       "preview": "Update translations from weblate spec: Symlink microdnf(8) and yum(8) manual pages to dnf5(8) Update FSF's address in GPL-2.0 disclaimers Update LGPL-2.1 and GPL-2.0 texts to current FSF's wording fix: DNF5_FORCE_COLUMNS / non-TTY width in transaction table progressbar: Report progress to terminal taskbar via OSC 9;4 Makefile: Add FEDORA_VERSION to unify defaults spec: Require GCC ≥ 14.1 for std::chrono::parse() dnf5daemon: Hide invalid offline transactions Clarify plugin source language options needs-restarting: Configure extra packages that require a reboot VendorChangeManager: Allow empty v",
       "source": "DNF5 releases",
       "category": "System"
-    },
-    {
-      "title": "v2026.9.13: OpenTelemetry for tasks, shared daemon providers, `mise backends switch`, and declarative dotfile removal",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.13",
-      "published": "2026-09-24T19:10:32Z",
-      "preview": "mise run can now export OpenTelemetry traces and logs (experimental), and experimental daemon providers let several projects and worktrees share one PostgreSQL, CockroachDB, or NATS server, each with its own database or account. Lockfiles no longer switch backends on their own when the registry moves a tool: the new mise backends switch command does it when you ask. [dotfiles] and [bootstrap.files] can now remove files and manage permissions, and mise bootstrap unapply removes what a module set up. The experimental pkgx: backend has been removed. Highlights Observability and shared services (e",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.9.15",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.15",
-      "published": "2026-09-24T17:23:03Z",
-      "preview": "Release vfox 2026.9.15",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "9.8.0",
@@ -639,14 +679,6 @@
       "category": "Python"
     },
     {
-      "title": "archive/adopt-task",
-      "url": "https://github.com/jdx/mise/releases/tag/archive%2Fadopt-task",
-      "published": "2026-09-21T08:14:58Z",
-      "preview": "fix(dotfiles): require a post-adopt task to be declared where the set…",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "GitHub Actions leaking secrets when Miri output is cached",
       "url": "https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/",
       "published": "2026-09-21T00:00:00Z",
@@ -671,44 +703,12 @@
       "category": "JavaScript"
     },
     {
-      "title": "archive/half-b-recording-design",
-      "url": "https://github.com/jdx/mise/releases/tag/archive%2Fhalf-b-recording-design",
-      "published": "2026-09-20T20:24:42Z",
-      "preview": "fix(history): match exclude patterns by name, absolute path, or any d…",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "archive/nested-repo-sync: fix(history): persist the ownership record only after a capture succeeds",
-      "url": "https://github.com/jdx/mise/releases/tag/archive%2Fnested-repo-sync",
-      "published": "2026-09-20T19:29:12Z",
-      "preview": "Review follow-up: the record of nested repositories this machine's own walk found was replaced before the checkpoint was built, so a capture (or the walk itself) failing after a repository was removed cleared the path from the record while no checkpoint held the removal, and the retry took the old pointer for an inherited one. The record is written only on a successful outcome now, after the commit or at the unchanged return; any failure leaves the previous record standing. Unit test on the record, e2e forces a failing save between the removal and the retry. Co-Authored-By: Claude Fable 5.1 no",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "1.17.5",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.5",
       "published": "2026-09-20T15:50:20Z",
       "preview": "What's Changed fix(reinstall): propagate returned failures in reinstall-all by @jakezwang in #2043 New Contributors @jakezwang made their first contribution in #2043 Full Changelog : 1.17.4...1.17.5",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "v2026.9.12: Tasks that require daemons, worktree-aware ports and URLs, Scoop and zypper packages, and official Docker images",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.12",
-      "published": "2026-09-20T11:47:12Z",
-      "preview": "The experimental [daemons] system grows substantially: tasks can declare the daemons they need, [daemon_groups] selects subsets of a project's services, port = \"auto\" and stable <NAME>_URL hostnames let several git worktrees run the same stack side by side, and CockroachDB, NATS, and SpiceDB join the PostgreSQL and Redis presets. Outside daemons, [bootstrap.packages] gains scoop: and zypper: managers, mise install --system elevates with sudo only for the final publish step, official mise images are published to GHCR and Docker Hub, and a run of brew-cask fixes lets many more casks install unat",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.9.14",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.14",
-      "published": "2026-09-20T09:59:03Z",
-      "preview": "Release vfox 2026.9.14",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "2.5.1",
@@ -2101,14 +2101,6 @@
       "preview": "We&apos;ve shipped a large batch of updates to Private Packagist over the past few months. A lot of our attention went to supply chain security, which we&apos;ve covered in depth in our supply chain security series. In this post, we&apos;ll highlight the other improvements",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "v0.78.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.78.0",
-      "published": "2026-08-28T08:06:34Z",
-      "preview": "[0.78.0] - 2026-08-28 ✨ Highlights You can now use the CLI to add path dependencies with the following command: pixi add --path ~ /dev/pixi pixi pixi add --path ~ /dev/vinca vinca --pypi pixi add --path ~ /dev/ros_ws/src/common/package.xml ros-jazzy-common Pixi now can also share the configuration with rattler-based tools like rattler-build and rattler-index . The PEP 723 script support has been improved with better caching and resolution of scripts. Added Write manifest platform names instead of pN aliases by @ruben-arts in #6885 Rework the terminal output by @Hofer-Julian in #6869 Read the s",
-      "source": "pixi releases",
-      "category": "Multi-language"
     }
   ]
 }
