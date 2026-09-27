@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-27T11:25:58Z",
-  "cutoff": "2026-08-28T11:25:53Z",
+  "generated": "2026-09-27T12:38:27Z",
+  "cutoff": "2026-08-28T12:38:22Z",
   "feed_count": 102,
-  "item_count": 260,
+  "item_count": 259,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.115.12",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.12",
+      "published": "2026-09-27T11:45:13Z",
+      "preview": "44.115.12 (2026-09-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.7 (main) ( #46494 ) ( c9f87d1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.115.11",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.11",
@@ -261,14 +269,6 @@
       "preview": "Release Notes Released on 2026-09-24. Python Add PyPy 3.11.16 and 3.12.14 ( #21847 ) Update GraalPy 3.13.0 to build 25.4.4 ( #21847 ) Enhancements Format upload URLs with backticks in uv publish errors ( #21934 ) Preview features Run build-backend hooks with lazy imports on CPython 3.15 and later using the build-lazy-imports preview feature ( #21967 ) Omit unused resolution settings from uv.lock and ignore changes to them when checking lockfile freshness with the resolution-inputs preview feature ( #21913 ) Bug fixes Preserve signed and encoded query parameters in direct-URL metadata to avoid ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "44.115.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.2",
-      "published": "2026-09-25T00:19:51Z",
-      "preview": "44.115.2 (2026-09-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.2 (main) ( #46459 ) ( 9417b64 ) Miscellaneous Chores deps: update dependency memfs to v4.78.1 (main) ( #46456 ) ( 7799eb9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 11.28",
@@ -2093,14 +2093,6 @@
       "preview": "29.8.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.8.0 milestone moby/moby, 29.8.0 milestone Bug fixes and enhancements containerd image store: Fix docker image inspect reporting a smaller image size than docker image ls . moby/moby#53426 Do not log expected image signature identity misses as errors for containerd image store images. moby/moby#53495 dockerd now uses the embedded containerd if no system containerd service is configured and containerd is not installed. moby/moby#53388 Fix GET /images/{name}/json not i",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "What's new in Private Packagist, August 2026 update",
-      "url": "https://blog.packagist.com/whats-new-in-private-packagist-august-2026-update/",
-      "published": "2026-08-28T11:49:57Z",
-      "preview": "We&apos;ve shipped a large batch of updates to Private Packagist over the past few months. A lot of our attention went to supply chain security, which we&apos;ve covered in depth in our supply chain security series. In this post, we&apos;ll highlight the other improvements",
-      "source": "Packagist Blog",
-      "category": "PHP"
     }
   ]
 }
