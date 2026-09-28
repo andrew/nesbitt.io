@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-28T07:01:13Z",
-  "cutoff": "2026-08-29T07:01:06Z",
+  "generated": "2026-09-28T07:47:56Z",
+  "cutoff": "2026-08-29T07:47:43Z",
   "feed_count": 102,
-  "item_count": 254,
+  "item_count": 253,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12.8",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.8.0",
+      "published": "2026-09-28T07:35:50Z",
+      "preview": "pnpm 12.8.0 warns when pnpm pack or pnpm publish would ship a .env file that files does not list, installs sharedWorkspaceLockfile: false workspaces concurrently, applies every setting passed as --config.<name>=<value> , and no longer leaves the Windows terminal stuck after Ctrl+C in a script. Minor Changes pnpm pack and pnpm publish now warn when the tarball includes a .env or .env.* file that the files field of package.json does not list. Templates such as .env.example are not reported. List the file in files to publish it on purpose, or exclude it in .npmignore or .gitignore #7826 . pnpm pa",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.28.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.1",
+      "published": "2026-09-28T07:31:11Z",
+      "preview": "pnpm 11.28.1 makes pnpm install work in StackBlitz WebContainers, repairs lockfiles whose patch hashes disagree with patchedDependencies , and fixes many bugs in Windows command shims, injected workspace dependencies, and pnpm deploy . Patch Changes Installing packages pnpm install now works in StackBlitz WebContainers. On projects without a lockfile, it used to fail with ENOENT ... pnpm-lock.yaml , because pnpm did not recognize the errors that WebContainers return from asynchronous file system calls. It also failed with \"this.db.exec is not a function\", because node:sqlite there lacks Databa",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "pnpm@11.28.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/pnpm%4011.28.1",
@@ -799,28 +815,12 @@
       "category": "Python"
     },
     {
-      "title": "pnpm 12.5.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.5.1",
-      "published": "2026-09-18T21:48:32Z",
-      "preview": "Patch Changes pnpm now reports an unknown task setting in pnpm-workspace.yaml and carries on. It used to refuse to start, so a project could not use a task setting that only the pnpm version its packageManager pins reads. The setting is still an error when the running pnpm is that pinned version. Python interpreter installation now retries historical release metadata requests. It caches the release list for up to 24 hours and refreshes it once after a lookup miss. When a release omits the current platform, the search samples at most eight other releases before reporting that the lookup is inco",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "0.12.17",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.17",
       "published": "2026-09-18T18:59:24Z",
       "preview": "Release Notes Released on 2026-09-18. Enhancements Reject unsupported Git archive paths in lockfiles with a clear error instead of panicking during frozen exports ( #21780 ) Preview features Set minimum glibc and musl versions that universal resolutions must support with minimum-libc-version ( #21651 ) Reject pylock.toml files whose wheel filenames do not match their declared package names or versions ( #20746 ) Keep uv workspace metadata read-only unless --sync is provided ( #21821 ) Apply uv check lock modes when retrieving workspace metadata ( #21821 ) Performance Speed up builds with many ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 12.5",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.5.0",
-      "published": "2026-09-18T17:02:57Z",
-      "preview": "pnpm 12.5.0 makes Python a first-class ecosystem, accepts Package URLs in pnpm add , names whole platforms in supportedArchitectures , and gives tasks machine-wide concurrency limits. It also fixes an install that could reuse one package's downloaded tarball for another. Minor Changes Installing packages pnpm add accepts a Package URL in place of a package name. pnpm add pkg:npm/express@4.18.2 saves express to package.json . pnpm add pkg:cargo/serde@1.0.188 saves serde to Cargo.toml . pnpm add pkg:pypi/requests@2.31.0 saves requests to pyproject.toml . pkg is now a reserved specifier prefix, w",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "7.12.0.24",
@@ -2044,14 +2044,6 @@
       "published": "2026-08-29T10:22:56Z",
       "preview": "Features & Improvements Export editable local dependencies with relative paths in requirements files. ( #3294 ) Extend pdm run with --env , --env-file and --working-dir options to set or override the corresponding script options dynamically. ( #3829 ) Bug Fixes Restrict a locked package to the platform it was resolved for when it doesn't belong to every lock target, so pdm lock --platform ... --append no longer adds entries that get installed on the other targets. ( #3261 ) Keep Poetry include entries restricted to the sdist format when importing, writing them to tool.pdm.build.source-includes",
       "source": "PDM releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.17.0",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.0",
-      "published": "2026-08-29T07:17:53Z",
-      "preview": "Release 1.17.0",
-      "source": "pipx releases",
       "category": "Python"
     }
   ]
