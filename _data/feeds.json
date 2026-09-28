@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-28T10:32:55Z",
-  "cutoff": "2026-08-29T10:32:51Z",
+  "generated": "2026-09-28T11:29:57Z",
+  "cutoff": "2026-08-29T11:29:49Z",
   "feed_count": 102,
   "item_count": 254,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.116.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.116.0",
+      "published": "2026-09-28T11:05:16Z",
+      "preview": "44.116.0 (2026-09-28) Features versioning: add a gomod versioning ( #46392 ) ( 6b7c7e1 ) Bug Fixes versioning/poetry: accept PEP 440 specifiers instead of a lookup special case ( #46147 ) ( c948978 ), closes #46252 workers/lookup: apply the downgrade guard to every versioning ( #46146 ) ( aee9d8e ), closes #29034 Documentation update references to astral-sh/setup-uv to v10.2.0 (main) ( #46506 ) ( 3b0c207 ) update references to prom/prometheus to v3.15.0 (main) ( #46507 ) ( 6068f15 ) update references to renovate/renovate (main) ( #46508 ) ( 47b4711 ) update references to renovatebot/github-act",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "2.1.0-M3",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M3",
+      "published": "2026-09-28T10:43:38Z",
+      "preview": "updates and bug fixes fix: Restore cross-suffixed artifactIds in sbt 1 plugin POMs by @mkurz in #9804 fix: Restore sbt 1 plugin POM metadata by @mkurz in #9806 fix: Hash the boot classpath in sorted order by @hoangmaihuy in #9809 fix: Derive Maven paths from module and artifact names by @mkurz in #9811 fix: Restore the pipelining early output on an action-cache hit by @PhoenixmitX in #9793 fix: publishLocal must overwrite, remote publish must not by @jozanek in #9814 fix: Remove duplicate self JAR from Runtime by @eed3si9n in #9820 fix: Fixes inMemoryAnalysisCache limit by @eed3si9n in #9500 f",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
     {
       "title": "v2026.9.16: Per-tool libc for aqua tools, monorepo task path aliases, and packslip pins that survive repo renames",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.16",
@@ -109,14 +125,6 @@
       "preview": "Release mise-cache-core 2026.9.0",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "2.1.0-M3",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M3",
-      "published": "2026-09-28T08:44:29Z",
-      "preview": "updates and bug fixes fix: Restore cross-suffixed artifactIds in sbt 1 plugin POMs by @mkurz in #9804 fix: Restore sbt 1 plugin POM metadata by @mkurz in #9806 fix: Hash the boot classpath in sorted order by @hoangmaihuy in #9809 fix: Derive Maven paths from module and artifact names by @mkurz in #9811 fix: Restore the pipelining early output on an action-cache hit by @PhoenixmitX in #9793 fix: publishLocal must overwrite, remote publish must not by @jozanek in #9814 fix: Remove duplicate self JAR from Runtime by @eed3si9n in #9820 fix: Fixes inMemoryAnalysisCache limit by @eed3si9n in #9500 f",
-      "source": "sbt releases",
-      "category": "Maven"
     },
     {
       "title": "7.0.7",
@@ -405,14 +413,6 @@
       "preview": "pnpm 12.7.0 ships with .nvmrc and .node-version support in the global node shim, pnpm install --allow-build , pnpm publish --publish-wait-timeout , and pnpm-workspace.yaml created from the workspaces field. pnpm install --force no longer installs optional dependencies built for other platforms. This release also carries security fixes for bin shims on Nix, for lifecycle scripts of packages in a storeDir inside the workspace, and for userAgent placeholders in pnpm-workspace.yaml . Minor Changes pnpm install --force now keeps skipping optional dependencies whose os , cpu or libc do not match the",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.115.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.4",
-      "published": "2026-09-25T09:35:46Z",
-      "preview": "44.115.4 (2026-09-25) Miscellaneous Chores deps: update dependency tsdown to v0.23.0 (main) ( #45855 ) ( 3311b34 ) Build System deps: update dependency execa to v10 (main) ( #45834 ) ( 1909c2e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-23-a",
