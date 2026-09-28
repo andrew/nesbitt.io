@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-28T19:26:42Z",
-  "cutoff": "2026-08-29T19:26:37Z",
+  "generated": "2026-09-28T20:29:58Z",
+  "cutoff": "2026-08-29T20:29:51Z",
   "feed_count": 102,
   "item_count": 257,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.117.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.117.0",
+      "published": "2026-09-28T19:51:11Z",
+      "preview": "44.117.0 (2026-09-28) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.103.0 (main) ( #46531 ) ( 21b4077 ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.103.1 (main) ( #46532 ) ( fa88eb2 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.20.1 (main) ( #46530 ) ( d3bd92e ) deps: update linters to v1.84.0 (main) ( #46524 ) ( 50d5266 ) deps: update linters to v1.85.0 (main) ( #46529 ) ( c19ac2e ) Code Refactoring azure: wrap pull request queries ( #45399 ) ( 74c3e9b ), closes #1",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v10.34.6",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.6",
@@ -427,14 +435,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.7",
       "published": "2026-09-25T18:57:27Z",
       "preview": "44.115.7 (2026-09-25) Bug Fixes manager/helmv3: apply registryAliases to OCI chart dependencies ( #46447 ) ( 07b3f10 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.115.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.6",
-      "published": "2026-09-25T16:50:22Z",
-      "preview": "44.115.6 (2026-09-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.3 (main) ( #46477 ) ( dd22cb3 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.18.2 (main) ( #46476 ) ( 34aeb39 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
