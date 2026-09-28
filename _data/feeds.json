@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-28T17:28:45Z",
-  "cutoff": "2026-08-29T17:28:38Z",
+  "generated": "2026-09-28T18:36:54Z",
+  "cutoff": "2026-08-29T18:36:49Z",
   "feed_count": 102,
   "item_count": 257,
   "categories": [
@@ -23,18 +23,34 @@
   ],
   "items": [
     {
-      "title": "v11.28.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.2",
-      "published": "2026-09-28T16:33:30Z",
-      "preview": "=v11.28.2",
+      "title": "v10.34.6",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.6",
+      "published": "2026-09-28T18:14:05Z",
+      "preview": "=v10.34.6",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
-      "title": "v12.8.1",
+      "title": "pnpm 11.28.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.2",
+      "published": "2026-09-28T17:40:47Z",
+      "preview": "pnpm 11.28.2 fixes pnpm install skipping every workspace project whose common ancestor is the filesystem root, and stops pnpm run from reinstalling or installing when nothing needs it. Patch Changes pnpm install reported success without installing anything when the workspace projects' common ancestor was the filesystem root, such as / or a drive root like C:\\ . It now installs these projects #16328 . verifyDepsBeforeRun no longer reports dependencies as outdated after a filtered install just because pnpm-lock.yaml has a newer modification time. It checks the lockfile against the packages that ",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpr 0.1.0-alpha.14",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.14",
+      "published": "2026-09-28T17:40:25Z",
+      "preview": "pnpr 0.1.0-alpha.14 stops its resolver from connecting to private network addresses, links workspace projects at their publishConfig.directory , and resolves Cargo dependencies faster. Minor Changes The pnpr resolver no longer connects to loopback, private, link-local, or other non-public addresses, such as the 169.254.169.254 cloud metadata endpoint. The check applies to the address of each connection, so an allowlisted registry host that resolves to an internal address is refused too #12705 . Addresses of the public_url host stay reachable. List any other non-public network the resolver must",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.8.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.8.1",
-      "published": "2026-09-28T16:33:21Z",
-      "preview": "=v12.8.1",
+      "published": "2026-09-28T17:40:12Z",
+      "preview": "pnpm 12.8.1 fixes pnpm install --frozen-lockfile rejecting lockfiles with injected workspace packages that have peers, restores the executable bit on files of local directory dependencies, makes pnpm dedupe converge, and uses less CPU on many-core machines. Patch Changes pnpm install --frozen-lockfile no longer rejects a freshly generated lockfile when an injected workspace package has peer dependencies #16332 . Executable files in a file: directory dependency or an injected workspace package keep their executable bit again. Since 12.8.0, pnpm installed these files without the permissions they",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -211,14 +227,6 @@
       "url": "https://github.com/pnpm/pnpm/releases/tag/pnpm%4012.8.0",
       "published": "2026-09-28T06:58:16Z",
       "preview": "=v12.8.0",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpr@0.1.0-alpha.14",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.14",
-      "published": "2026-09-28T06:58:02Z",
-      "preview": "=pnpr@0.1.0-alpha.14",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -429,14 +437,6 @@
       "preview": "Insert 8.0.0.9 into main on 09/25/2026 12:26:07",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "pnpr 0.1.0-alpha.13",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.13",
-      "published": "2026-09-25T10:40:06Z",
-      "preview": "Patch Changes Requests to a registry or tarball server whose TLS certificate fails verification now fail at once. Such requests were retried for more than a minute without any output #9134 . On macOS, pnpm now uses its bundled certificate roots when macOS cannot create an SSL policy for a registry connection. It crashed on the first registry request in that case pnpm/pnpm#14461 . Installing through a pnpr server now installs a project's peer dependencies when autoInstallPeers is enabled. A project that declared only peer dependencies failed with ERR_PNPM_OUTDATED_LOCKFILE or skipped its peers ",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 11.28",
