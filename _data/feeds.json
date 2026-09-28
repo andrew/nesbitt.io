@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-28T11:29:57Z",
-  "cutoff": "2026-08-29T11:29:49Z",
+  "generated": "2026-09-28T13:34:27Z",
+  "cutoff": "2026-08-29T13:34:21Z",
   "feed_count": 102,
-  "item_count": 254,
+  "item_count": 257,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.19.2",
+      "url": "https://github.com/flatpak/flatpak/releases/tag/1.19.2",
+      "published": "2026-09-28T13:26:10Z",
+      "preview": "This is a development prerelease from the 1.19.x series. The first stable release from this branch will be 1.20.0. Changes in 1.19.2 Bug fixes: Use bubblewrap from our PPA in the CI pipeline for creating releases Changes in 1.19.1 Security fixes: Prevent privileged overwrite of arbitrary files with an empty file or a symlink to /run/host/monitor/resolv.conf when a malicious app is installed (CVE-2026-97024, GHSA-8xgq-v545-vgvf ; thanks to Sebastian Wick) Prevent privileged deletion of arbitrary files when a malicious app is installed (CVE-2026-97023, GHSA-5p67-xh8x-rq54 ; thanks to Sebastian W",
+      "source": "Flatpak releases",
+      "category": "System"
+    },
+    {
+      "title": "1.18.4",
+      "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.4",
+      "published": "2026-09-28T13:04:40Z",
+      "preview": "Security fixes: Prevent privileged overwrite of arbitrary files with an empty file or a symlink to /run/host/monitor/resolv.conf when a malicious app is installed (CVE-2026-97024, GHSA-8xgq-v545-vgvf; thanks to Sebastian Wick) Prevent privileged deletion of arbitrary files when a malicious app is installed (CVE-2026-97023, GHSA-5p67-xh8x-rq54; thanks to Sebastian Wick) When downloading apps or runtimes from an OCI repository that requires authentication, don't make the authentication token visible to other users (CVE-2026-97025, GHSA-7rvf-rqr3-43j4; thanks to AISLE in cooperation with Red Hat)",
+      "source": "Flatpak releases",
+      "category": "System"
+    },
+    {
+      "title": "flatpak 1.19.1",
+      "url": "https://github.com/flatpak/flatpak/releases/tag/1.19.1",
+      "published": "2026-09-28T12:58:23Z",
+      "preview": "This is a development prerelease from the 1.19.x series. The first stable release from this branch will be 1.20.0. Security fixes: Prevent privileged overwrite of arbitrary files with an empty file or a symlink to /run/host/monitor/resolv.conf when a malicious app is installed (CVE-2026-97024, GHSA-8xgq-v545-vgvf; thanks to Sebastian Wick) Prevent privileged deletion of arbitrary files when a malicious app is installed (CVE-2026-97023, GHSA-5p67-xh8x-rq54; thanks to Sebastian Wick) When downloading apps or runtimes from an OCI repository that requires authentication, don't make the authenticat",
+      "source": "Flatpak releases",
+      "category": "System"
+    },
     {
       "title": "44.116.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.116.0",
