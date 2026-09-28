@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-28T01:11:13Z",
-  "cutoff": "2026-08-29T01:11:05Z",
+  "generated": "2026-09-28T04:38:03Z",
+  "cutoff": "2026-08-29T04:37:58Z",
   "feed_count": 102,
-  "item_count": 252,
+  "item_count": 253,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.398.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.398.0",
+      "published": "2026-09-28T03:51:27Z",
+      "preview": "What's Changed Fix NilClass passed to Pub cooldown in_cooldown_period? by @v-kbukum1 in #16362 Bump browserslist from 4.28.1 to 4.28.9 in /npm_and_yarn/helpers by @dependabot [bot] in #16145 Bump @humanfs/node from 0.16.6 to 0.16.8 in /bun/helpers by @dependabot [bot] in #16144 Bump js-yaml from 3.14.2 to 3.15.2 in /npm_and_yarn/helpers by @dependabot [bot] in #16236 Bump poetry from 2.4.1 to 2.4.3 in /python/helpers in the poetry group across 1 directory by @dependabot [bot] in #16193 Bump golang.org/x/mod in /go_modules/helpers by @dependabot [bot] in #16277 fix(npm_and_yarn): keep pnpm cata",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "maven-3.10.0",
       "url": "https://github.com/apache/maven/releases/tag/maven-3.10.0",
