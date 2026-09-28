@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-28T15:31:55Z",
-  "cutoff": "2026-08-29T15:31:44Z",
+  "generated": "2026-09-28T17:28:45Z",
+  "cutoff": "2026-08-29T17:28:38Z",
   "feed_count": 102,
   "item_count": 257,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v11.28.2",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.2",
+      "published": "2026-09-28T16:33:30Z",
+      "preview": "=v11.28.2",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.8.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.8.1",
+      "published": "2026-09-28T16:33:21Z",
+      "preview": "=v12.8.1",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.116.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.116.1",
@@ -679,14 +695,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "pnpm 12.6",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.6.0",
-      "published": "2026-09-22T17:08:42Z",
-      "preview": "pnpm 12.6.0 ships with automatic dependency deduplication, relocatable node_modules, package.yaml manifest editing, and --save-types support. Minor Changes autoDedupe deduplicates compatible dependency versions during installation #7258 . Enable it in pnpm-workspace.yaml or use pnpm install --auto-dedupe or pnpm add --auto-dedupe . Frozen installs leave the lockfile unchanged. pnpm install , pnpm run , and pnpm exec on macOS and Linux now reuse a node_modules directory and bin shims that moved or were copied together with their project #6937 . The first command after the move checks the tree a",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v0.20.2",
       "url": "https://github.com/asdf-vm/asdf/releases/tag/v0.20.2",
       "published": "2026-09-22T14:29:08Z",
@@ -805,14 +813,6 @@
       "preview": "Fixed: Revert the extra type parameter added to BuildHookInterface in 1.32.3, which broke plugins that subscripted the interface with a single argument (e.g. BuildHookInterface[MyConfig] ) by raising TypeError at import time. BuilderConfig is likewise no longer generic, restoring the pre-1.32.3 plugin interface. Strip spaces around version metadata when using original input for CalVer to keep leading zeroes.",
       "source": "Hatch releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 11.27.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.27.1",
-      "published": "2026-09-20T21:38:41Z",
-      "preview": "Patch Changes pn , pnpx , and pnx now run the pnpm installed alongside them. They used to look pnpm up on PATH . That failed when the directory holding them was not on PATH , and it silently handed the call to an unrelated pnpm when one came first there #14803 . The @zkochan/cmd-shim package is now available as @pnpm/bins.cmd-shim . pnpm cache list-registries now prints the registry URL, matching pnpm cache view . It printed https%3A+registry.npmjs.org before and prints https://registry.npmjs.org/ now #15046 . pnpm deploy no longer installs the dependencies of the workspace root project into t",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "1.17.5",
