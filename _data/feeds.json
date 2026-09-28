@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-28T05:33:16Z",
-  "cutoff": "2026-08-29T05:33:09Z",
+  "generated": "2026-09-28T07:01:13Z",
+  "cutoff": "2026-08-29T07:01:06Z",
   "feed_count": 102,
   "item_count": 254,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm@11.28.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpm%4011.28.1",
+      "published": "2026-09-28T06:58:30Z",
+      "preview": "=11.28.1",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm@12.8.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpm%4012.8.0",
+      "published": "2026-09-28T06:58:16Z",
+      "preview": "=v12.8.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpr@0.1.0-alpha.14",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.14",
+      "published": "2026-09-28T06:58:02Z",
+      "preview": "=pnpr@0.1.0-alpha.14",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "1.17.7",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.7",
@@ -783,14 +807,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "pnpm@12.5.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpm%4012.5.1",
-      "published": "2026-09-18T20:59:02Z",
-      "preview": "=v12.5.1",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "0.12.17",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.17",
       "published": "2026-09-18T18:59:24Z",
@@ -803,14 +819,6 @@
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.5.0",
       "published": "2026-09-18T17:02:57Z",
       "preview": "pnpm 12.5.0 makes Python a first-class ecosystem, accepts Package URLs in pnpm add , names whole platforms in supportedArchitectures , and gives tasks machine-wide concurrency limits. It also fixes an install that could reuse one package's downloaded tarball for another. Minor Changes Installing packages pnpm add accepts a Package URL in place of a package name. pnpm add pkg:npm/express@4.18.2 saves express to package.json . pnpm add pkg:cargo/serde@1.0.188 saves serde to Cargo.toml . pnpm add pkg:pypi/requests@2.31.0 saves requests to pyproject.toml . pkg is now a reserved specifier prefix, w",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpr 0.1.0-alpha.12",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.12",
-      "published": "2026-09-18T16:43:44Z",
-      "preview": "pnpr 0.1.0-alpha.12 answers broad searches against an upstream registry instead of failing, and keeps Python resolution going when an index or a release carries metadata it cannot read. Patch Changes pnpm search and npm search against an upstream with search: true no longer fail with a 400 error on broad terms. pnpr now truncates an upstream that holds more results than its fetch budget downloads. The results it could not download keep total approximate. Python resolution no longer fails on a release whose Requires-Python is not a version specifier, such as the trailing comma in openpyxl 3.0.x",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -1181,14 +1189,6 @@
       "preview": "Deployment at 2026-09-15T12:15:22.786265Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 12.4.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.4.2",
-      "published": "2026-09-15T10:49:15Z",
-      "preview": "pnpm 12.4.2 includes security fixes for executable shims and GitHub Actions links, more reliable installs, faster peer dependency checks in workspaces, and Python lockfiles that work across compatible targets. Patch Changes Security Dependency executables can no longer take over another package's POSIX bin shim through its shell helpers. Reinstall dependencies to replace existing shims #14837 . On Cygwin, MSYS2, and WSL, shims still use PATH for Windows path conversion, so dependency executables can still redirect them there. GitHub Actions homepage links no longer expose server credentials. G",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "Swift 6.4 Released",
