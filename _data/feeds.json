@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-28T21:27:35Z",
-  "cutoff": "2026-08-29T21:27:28Z",
+  "generated": "2026-09-28T23:28:20Z",
+  "cutoff": "2026-08-29T23:28:14Z",
   "feed_count": 102,
   "item_count": 257,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.20",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.20",
+      "published": "2026-09-28T23:20:35Z",
+      "preview": "Release Notes Released on 2026-09-28. Enhancements Reuse lockfiles when dependency declarations are semantically equivalent ( #21951 ) Preserve second-line encoding declarations when installing wheel scripts with CRLF shebangs ( #21990 ) Preview features Write normalized requirement declarations with the lockfile-normalization preview feature ( #21951 ) Honor synthetic default groups when installing or syncing from pylock.toml ( #22003 ) Resolve local paths in exported pylock.toml files relative to the output file ( #22042 ) Install each package only once when repeated tool-install-locks requi",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "2026-09-26 Release",
       "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-09-26",
@@ -1669,14 +1677,6 @@
       "preview": "This release fixes two regressions impacting Elysia and AsyncLocalStorage, a hang in @discordjs/ws, CMYK JPEG decoding in Bun.Image, a rare JIT crash, and a GC crash on musl.",
       "source": "Bun Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "0.12.10",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.10",
-      "published": "2026-09-04T23:15:57Z",
-      "preview": "Release Notes Released on 2026-09-04. Enhancements Attempt to revoke short-lived PyPI trusted-publishing tokens after uv publish completes, including when publishing fails ( #21423 ) Preview features Omit exclude-newer-package settings for packages outside the resolution from uv.lock with the missing-exclude-newer-package-lock preview feature ( #21455 ) Show terminal dependency cycles in uv tree --invert output ( #21404 ) Performance Speed up locking large workspaces with conflicts by excluding unrelated extras and dependency groups from conflict simplification ( #21399 ) Speed up uv publish b",
-      "source": "uv releases",
-      "category": "Python"
     },
     {
       "title": "What's new in Swift: August 2026 Edition",
