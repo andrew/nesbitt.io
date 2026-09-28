@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-28T14:34:43Z",
-  "cutoff": "2026-08-29T14:34:37Z",
+  "generated": "2026-09-28T15:31:55Z",
+  "cutoff": "2026-08-29T15:31:44Z",
   "feed_count": 102,
   "item_count": 257,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.116.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.116.1",
+      "published": "2026-09-28T14:54:41Z",
+      "preview": "44.116.1 (2026-09-28) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.9 (main) ( #46520 ) ( 2a81519 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.20.0 (main) ( #46521 ) ( ac4f043 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.18.4",
       "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.4",
@@ -395,14 +403,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.6",
       "published": "2026-09-25T16:50:22Z",
       "preview": "44.115.6 (2026-09-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.3 (main) ( #46477 ) ( dd22cb3 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.18.2 (main) ( #46476 ) ( 34aeb39 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.115.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.5",
-      "published": "2026-09-25T14:56:32Z",
-      "preview": "44.115.5 (2026-09-25) Bug Fixes datasource/rubygems: preserve release timestamps for native gems ( #46446 ) ( 027ef30 ) Documentation document code conventions and pnpm check as the verification ( #46471 ) ( 054f262 ) Miscellaneous Chores agents: block a stop only once in the stop hook ( #46468 ) ( 373bac7 ) agents: only deny npm, npx and yarn in command position ( #46467 ) ( dd95381 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
