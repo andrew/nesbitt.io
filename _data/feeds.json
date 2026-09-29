@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-28T23:28:20Z",
-  "cutoff": "2026-08-29T23:28:14Z",
+  "generated": "2026-09-29T01:08:23Z",
+  "cutoff": "2026-08-30T01:08:18Z",
   "feed_count": 102,
   "item_count": 257,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.13.1",
+      "url": "https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.13.1",
+      "published": "2026-09-29T00:50:02Z",
+      "preview": "Merge pull request #4815 from JuliaLang/backports-release-1.13 Backports for 1.13",
+      "source": "Pkg.jl releases",
+      "category": "Registries"
+    },
     {
       "title": "0.12.20",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.20",
@@ -490,7 +498,7 @@
       "title": "pnpm 11.28",
       "url": "https://pnpm.io/blog/releases/11.28",
       "published": "2026-09-25T00:00:00Z",
-      "preview": "pnpm 11.28 adds the forceIgnoresPlatform setting and pnpm update --peer,",
+      "preview": "pnpm 11.28 adds the forceIgnoresPlatform setting and pnpm update --peer, and brings a large batch of fixes from pnpm 12 to the JavaScript CLI: pnpm deploy, --filter, nodeLinker: hoisted, and custom modulesDir setups all behave better. It also carries security fixes for shell completion, bin...",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
@@ -498,7 +506,7 @@
       "title": "pnpm 12.7",
       "url": "https://pnpm.io/blog/releases/12.7",
       "published": "2026-09-25T00:00:00Z",
-      "preview": "pnpm 12.7 lets the global node shim follow .nvmrc and .node-version,",
+      "preview": "pnpm 12.7 lets the global node shim follow .nvmrc and .node-version, adds pnpm install --allow-build and pnpm publish --publish-wait-timeout, and creates pnpm-workspace.yaml from the workspaces field of package.json. pnpm install --force no longer installs optional dependencies built for other...",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
@@ -770,7 +778,7 @@
       "title": "pnpm 12.6",
       "url": "https://pnpm.io/blog/releases/12.6",
       "published": "2026-09-22T00:00:00Z",
-      "preview": "pnpm 12.6 ships with automatic dependency deduplication, relocatable",
+      "preview": "pnpm 12.6 ships with automatic dependency deduplication, relocatable node_modules, --save-types for installing @types/* packages alongside their counterparts, package.yaml manifest editing, and file: / link: protocols in catalogs.",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
@@ -930,7 +938,7 @@
       "title": "pnpm 12.5",
       "url": "https://pnpm.io/blog/releases/12.5",
       "published": "2026-09-18T00:00:00Z",
-      "preview": "pnpm 12.5 expands Python support with editable project packages, shared workspace",
+      "preview": "pnpm 12.5 expands Python support with editable project packages, shared workspace environments, automatic interpreter downloads, and lockfiles for multiple platforms and Python versions. It also accepts Package URLs in pnpm add, adds machine-wide task concurrency groups, and cleans up obsolete...",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
@@ -1482,7 +1490,7 @@
       "title": "pnpm 12.4",
       "url": "https://pnpm.io/blog/releases/12.4",
       "published": "2026-09-10T00:00:00Z",
-      "preview": "pnpm 12.4 installs crates and Python packages next to npm packages in the same",
+      "preview": "pnpm 12.4 installs crates and Python packages next to npm packages in the same workspace, adds pnpm pipeline to run a workspace's tasks the way a CI job would, and ships binaries for six more platforms. pnpr 0.1.0-alpha.11, released alongside 12.4.1, serves Cargo, Python, and container...",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
@@ -1634,7 +1642,7 @@
       "title": "pnpm 11.26",
       "url": "https://pnpm.io/blog/releases/11.26",
       "published": "2026-09-07T00:00:00Z",
-      "preview": "pnpm 11.26 brings the JavaScript CLI level with what pnpm 12 gained over the",
+      "preview": "pnpm 11.26 brings the JavaScript CLI level with what pnpm 12 gained over the past two weeks: workspace: ranges in catalogs, the supply-chain flags on remove and update, pnpm change check for CI, and pnpm deploy without injected dependencies.",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
@@ -1882,7 +1890,7 @@
       "title": "pnpm 12.2-12.3",
       "url": "https://pnpm.io/blog/releases/12.2-12.3",
       "published": "2026-09-02T00:00:00Z",
-      "preview": "pnpm 12.2 and 12.3 are largely a catch-up pair: a long list of things pnpm 11",
+      "preview": "pnpm 12.2 and 12.3 are largely a catch-up pair: a long list of things pnpm 11 did that the Rust CLI did not, put back. Catalogs learned the workspace: protocol, pnpm remove and pnpm update gained the supply-chain flags, every project-aware global command became a real executable, and hostname...",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
@@ -2069,14 +2077,6 @@
       "preview": "The 3.8.x release stream reached end-of-life; see dev@ discussion: https://lists.apache.org/thread/2t99pftq06j25rq7j3h1l0z5xsn57z6b This tag preserves the branch's final state (last real content is the maven-3.8.9 release plus the automatic next-development-iteration bump) before the branch itself is removed.",
       "source": "Maven releases",
       "category": "Maven"
-    },
-    {
-      "title": "SDK-3.14.0-180.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-180.0.dev",
-      "published": "2026-08-30T00:31:20Z",
-      "preview": "SDK 3.14.0-180.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     }
   ]
 }
