@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-29T09:34:48Z",
-  "cutoff": "2026-08-30T09:34:42Z",
+  "generated": "2026-09-29T10:32:32Z",
+  "cutoff": "2026-08-30T10:32:25Z",
   "feed_count": 102,
   "item_count": 258,
   "categories": [
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v2026.9.17",
+      "title": "v2026.9.17: Self-update waits 24 hours for new releases and verifies signed packslips",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.17",
-      "published": "2026-09-29T08:40:13Z",
-      "preview": "(config) support global local miserc overrides by @jdx in [ #137 …",
+      "published": "2026-09-29T10:06:19Z",
+      "preview": "mise self-update and the mise.run installer now pick the newest stable release that is at least 24 hours old. Updates also check the release's signed packslip before replacing the binary. This release also adds a machine-local global miserc , an opt-in way for command-not-found to install registry tools, and a postinstall mode that runs on every install. It fixes several Homebrew formula builds and closes a trust gap in paranoid mode. Changed Self-update and installs wait for a minimum release age. When no version is pinned, mise self-update , automatic updates, update notifications, and the m",
       "source": "mise releases",
       "category": "Multi-language"
     },
