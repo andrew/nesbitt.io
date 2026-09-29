@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-29T15:32:01Z",
-  "cutoff": "2026-08-30T15:31:55Z",
+  "generated": "2026-09-29T16:35:14Z",
+  "cutoff": "2026-08-30T16:34:40Z",
   "feed_count": 102,
-  "item_count": 263,
+  "item_count": 264,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,12 +23,44 @@
   ],
   "items": [
     {
+      "title": "v5.8.8",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.8",
+      "published": "2026-09-29T16:25:33Z",
+      "preview": "This release addresses CVE-2026-94603 , where a podman run on a checkpoint image (any image with the io.podman.annotations.checkpoint.runtime.name annotation) could disable all sandboxing, including sandboxing specified by the user, when the container was created. Breaking Changes Removed support for checkpoint images in podman run due to serious security concerns with the different security models of running images and running checkpoints. Checkpoints ignore user-specified security configuration and are very difficult to run safely.",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v10.34.6",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.6",
+      "published": "2026-09-29T15:44:40Z",
+      "preview": "Patch Changes e7888e5 : pnpm self-update now resolves and verifies pnpm through registry, authentication, proxy, and TLS settings from trusted non-project configuration. Project configuration and the default project pnpmfile can no longer redirect the pnpm download or disable engine identity verification. 46bc7c9 : pnpm no longer tells you to update itself with Corepack or with pnpm add -g : The update notification now suggests pnpm self-update , or the standalone install script when pnpm is running under Corepack. It used to suggest corepack use pnpm@<version> , or pnpm add -g pnpm / pnpm add",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.120.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.120.0",
+      "published": "2026-09-29T15:43:54Z",
+      "preview": "44.120.0 (2026-09-29) Features manager/dockerfile: options form of getDep for CI managers ( #46183 ) ( 19306f7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "2.33.0 (29-Sep-2026)",
       "url": "https://github.com/conan-io/conan/releases/tag/2.33.0",
-      "published": "2026-09-29T15:24:50Z",
-      "preview": "Feature: Support for CPS components configurations. ( #20354 ) Feature: Use extra_info to provide CPEs to the component. ( #20353 ) Feature: Download recipe and package metadata in parallel with regular files instead of after them. ( #20351 ) Feature: Add core.net.http:trust_store conf to verify HTTPS certs against the OS trust store. ( #20343 ). Docs: 📃 Feature: New remotes force_auth capability. ( #20341 ). Docs: 📃 Feature: Feature: Add copy_config_files to the [runner] profile to copy extra host config files into Docker runners. ( #20332 ). Docs: 📃 Feature: Support Clang 23. ( #20330 ) Feat",
+      "published": "2026-09-29T15:38:35Z",
+      "preview": "Feature: Support for CPS components configurations. ( #20354 ) Feature: Use extra_info to provide CPEs to the component. ( #20353 ) Feature: Download recipe and package metadata in parallel with regular files instead of after them. ( #20351 ) Feature: Add core.net.http:trust_store conf to verify HTTPS certs against the OS trust store. ( #20343 ). Docs: 📃 Feature: New remotes force_auth capability. ( #20341 ). Docs: 📃 Feature: Add copy_config_files to the [runner] profile to copy extra host config files into Docker runners. ( #20332 ). Docs: 📃 Feature: Support Clang 23. ( #20330 ) Feature: Supp",
       "source": "Conan releases",
       "category": "C/C++"
+    },
+    {
+      "title": "v6.1.3",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.3",
+      "published": "2026-09-29T15:34:46Z",
+      "preview": "Security This release addresses CVE-2026-94603 , where a podman run on a checkpoint image (any image with the io.podman.annotations.checkpoint.runtime.name annotation) could disable all sandboxing, including sandboxing specified by the user, when the container was created. Breaking Changes Removed support for checkpoint images in podman run due to serious security concerns with the different security models of running images and running checkpoints. Checkpoints ignore user-specified security configuration and are very difficult to run safely.",
+      "source": "Podman releases",
+      "category": "Containers"
     },
     {
       "title": "26.7.3",
@@ -37,14 +69,6 @@
       "preview": "Bug fixes Ensure v3 packages are available when mixing sharded and unsharded repos. ( #16676 via #16688 ) Keep cached package archive paths consistent with their recorded filenames and checksums when both archive formats are present. ( #9674 ) Contributors @jezdez",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v6.1.3",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.3",
-      "published": "2026-09-29T13:00:27Z",
-      "preview": "v6.1.3",
-      "source": "Podman releases",
-      "category": "Containers"
     },
     {
       "title": "20260929t123100-all",
@@ -231,14 +255,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v10.34.6",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.6",
-      "published": "2026-09-28T18:14:05Z",
-      "preview": "=v10.34.6",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "pnpm 11.28.2",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.2",
       "published": "2026-09-28T17:40:47Z",
@@ -293,14 +309,6 @@
       "preview": "This is a development prerelease from the 1.19.x series. The first stable release from this branch will be 1.20.0. Security fixes: Prevent privileged overwrite of arbitrary files with an empty file or a symlink to /run/host/monitor/resolv.conf when a malicious app is installed (CVE-2026-97024, GHSA-8xgq-v545-vgvf ; thanks to Sebastian Wick) Prevent privileged deletion of arbitrary files when a malicious app is installed (CVE-2026-97023, GHSA-5p67-xh8x-rq54 ; thanks to Sebastian Wick) When downloading apps or runtimes from an OCI repository that requires authentication, don't make the authentic",
       "source": "Flatpak releases",
       "category": "System"
-    },
-    {
-      "title": "44.116.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.116.0",
-      "published": "2026-09-28T11:05:16Z",
-      "preview": "44.116.0 (2026-09-28) Features versioning: add a gomod versioning ( #46392 ) ( 6b7c7e1 ) Bug Fixes versioning/poetry: accept PEP 440 specifiers instead of a lookup special case ( #46147 ) ( c948978 ), closes #46252 workers/lookup: apply the downgrade guard to every versioning ( #46146 ) ( aee9d8e ), closes #29034 Documentation update references to astral-sh/setup-uv to v10.2.0 (main) ( #46506 ) ( 3b0c207 ) update references to prom/prometheus to v3.15.0 (main) ( #46507 ) ( 6068f15 ) update references to renovate/renovate (main) ( #46508 ) ( 47b4711 ) update references to renovatebot/github-act",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.1.0-M3",
