@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-29T12:44:37Z",
-  "cutoff": "2026-08-30T12:44:31Z",
+  "generated": "2026-09-29T14:32:05Z",
+  "cutoff": "2026-08-30T14:32:00Z",
   "feed_count": 102,
-  "item_count": 260,
+  "item_count": 261,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "26.7.3",
+      "url": "https://github.com/conda/conda/releases/tag/26.7.3",
+      "published": "2026-09-29T13:56:25Z",
+      "preview": "Bug fixes Ensure v3 packages are available when mixing sharded and unsharded repos. ( #16676 via #16688 ) Keep cached package archive paths consistent with their recorded filenames and checksums when both archive formats are present. ( #9674 ) Contributors @jezdez",
+      "source": "Conda releases",
+      "category": "Multi-language"
+    },
     {
       "title": "20260929t123100-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260929t123100-all",
