@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-29T11:29:07Z",
-  "cutoff": "2026-08-30T11:29:02Z",
+  "generated": "2026-09-29T12:44:37Z",
+  "cutoff": "2026-08-30T12:44:31Z",
   "feed_count": 102,
-  "item_count": 258,
+  "item_count": 260,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "20260929t123100-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260929t123100-all",
+      "published": "2026-09-29T12:31:09Z",
+      "preview": "Deployment at 2026-09-29T12:31:04.540301Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "0.19.3-beta",
+      "url": "https://github.com/elm/compiler/releases/tag/0.19.3",
+      "published": "2026-09-29T12:19:05Z",
+      "preview": "Draft of 0.19.3 release. Please let me know if you find anything odd with them!",
+      "source": "Elm releases",
+      "category": "Registries"
+    },
+    {
+      "title": "20260929t121300-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260929t121300-all",
+      "published": "2026-09-29T12:13:29Z",
+      "preview": "Deployment at 2026-09-29T12:13:26.515169Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.119.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.119.1",
+      "published": "2026-09-29T12:05:54Z",
+      "preview": "44.119.1 (2026-09-29) Bug Fixes lookup: warn on unknown datasource ( #46511 ) ( 1732add ) Documentation help-us-help-you: drop outdated section ( #46501 ) ( ed787f0 ) internal/security: clarify we will now request CVE IDs ( #46479 ) ( ee46402 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.119.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.119.0",
@@ -381,14 +413,6 @@
       "preview": "[maven-release-plugin] copy for tag maven-3.10.0",
       "source": "Maven releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.115.13",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.13",
-      "published": "2026-09-27T19:45:04Z",
-      "preview": "44.115.13 (2026-09-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.8 (main) ( #46502 ) ( 0366538 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.19 (main) ( #46497 ) ( 6bca021 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.18.4 (main) ( #46490 ) ( 476a740 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "@verdaccio/test-helper@5.0.0-next-9.34",
@@ -2077,14 +2101,6 @@
       "preview": "What's Changed tests: make utils_temp_dir work without symlink privilege by @iam-kira in #2023 fix(environment): report PIPX_MAX_LOGS by @dylanpulver in #2024 👷 test: keep the suite off the real internet by @gaborbernat in #2025 New Contributors @iam-kira made their first contribution in #2023 @dylanpulver made their first contribution in #2024 Full Changelog : 1.17.0...1.17.1",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "archive/maven-3.8.x: Archive maven-3.8.x branch (EOL)",
-      "url": "https://github.com/apache/maven/releases/tag/archive%2Fmaven-3.8.x",
-      "published": "2026-08-30T11:31:31Z",
-      "preview": "The 3.8.x release stream reached end-of-life; see dev@ discussion: https://lists.apache.org/thread/2t99pftq06j25rq7j3h1l0z5xsn57z6b This tag preserves the branch's final state (last real content is the maven-3.8.9 release plus the automatic next-development-iteration bump) before the branch itself is removed.",
-      "source": "Maven releases",
-      "category": "Maven"
     }
   ]
 }
