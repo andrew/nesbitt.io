@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-29T10:32:32Z",
-  "cutoff": "2026-08-30T10:32:25Z",
+  "generated": "2026-09-29T11:29:07Z",
+  "cutoff": "2026-08-30T11:29:02Z",
   "feed_count": 102,
   "item_count": 258,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.119.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.119.0",
+      "published": "2026-09-29T11:12:43Z",
+      "preview": "44.119.0 (2026-09-29) Features config: allow self-hosted admins to bypass allowedHeaders ( #45654 ) ( af055eb ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.103.5 (main) ( #46546 ) ( 52d666c ) Miscellaneous Chores capture cases of PR comments coming from an agent ( #46544 ) ( 9cbc726 ) require reproduction or stated reason in PR template ( #46543 ) ( 06a427c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.118.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.118.2",
+      "published": "2026-09-29T10:51:34Z",
+      "preview": "44.118.2 (2026-09-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.103.4 (main) ( #46545 ) ( 88dde28 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.9.17: Self-update waits 24 hours for new releases and verifies signed packslips",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.9.17",
@@ -461,22 +477,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.115.12",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.12",
-      "published": "2026-09-27T11:45:13Z",
-      "preview": "44.115.12 (2026-09-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.7 (main) ( #46494 ) ( c9f87d1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.115.11",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.11",
-      "published": "2026-09-27T10:30:41Z",
-      "preview": "44.115.11 (2026-09-27) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.6 (main) ( #46491 ) ( dfebd0d ) Miscellaneous Chores deps: update dependency @types/node to v24.13.6 (main) ( #46485 ) ( e02925f ) deps: update dependency markdownlint-cli2 to v0.23.3 (main) ( #46489 ) ( d738e23 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "8.0.0.10",
