@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-29T18:37:12Z",
-  "cutoff": "2026-08-30T18:37:06Z",
+  "generated": "2026-09-29T19:28:42Z",
+  "cutoff": "2026-08-30T19:28:35Z",
   "feed_count": 102,
   "item_count": 265,
   "categories": [
@@ -23,10 +23,18 @@
   ],
   "items": [
     {
+      "title": "44.121.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.121.3",
+      "published": "2026-09-29T18:52:33Z",
+      "preview": "44.121.3 (2026-09-29) Build System deps: update dependency @renovatebot/osv-offline to v3.0.12 (main) ( #46563 ) ( 7fa35d7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "1.17.8",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.8",
-      "published": "2026-09-29T18:30:34Z",
-      "preview": "Release 1.17.8",
+      "published": "2026-09-29T18:48:00Z",
+      "preview": "What's Changed Fix uninject leaving shell completion scripts behind by @00200200 in #2056 New Contributors @00200200 made their first contribution in #2056 Full Changelog : 1.17.7...1.17.8",
       "source": "pipx releases",
       "category": "Python"
     },
@@ -237,14 +245,6 @@
       "preview": "cabal-install-solver-v3.18.2.0",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.117.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.117.2",
-      "published": "2026-09-29T03:44:00Z",
-      "preview": "44.117.2 (2026-09-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.103.3 (main) ( #46541 ) ( 0deb402 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.20.2 (main) ( #46538 ) ( 14f582e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.13.1",
