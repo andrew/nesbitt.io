@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-29T16:35:14Z",
-  "cutoff": "2026-08-30T16:34:40Z",
+  "generated": "2026-09-29T17:29:14Z",
+  "cutoff": "2026-08-30T17:28:55Z",
   "feed_count": 102,
   "item_count": 264,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.121.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.121.0",
+      "published": "2026-09-29T16:35:49Z",
+      "preview": "44.121.0 (2026-09-29) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.104.0 (main) ( #46559 ) ( a5a1f9a ) Bug Fixes manager/mise: commit native dependency sidecars with the lock file ( #46514 ) ( f486d39 ) Miscellaneous Chores deps: update dependency memfs to v4.79.0 (main) ( #46555 ) ( fff3481 ) Build System deps: update dependency ignore to v7.0.10 (main) ( #46560 ) ( 8569da8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v5.8.8",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.8",
@@ -277,14 +285,6 @@
       "preview": "pnpm 12.8.1 fixes pnpm install --frozen-lockfile rejecting lockfiles with injected workspace packages that have peers, restores the executable bit on files of local directory dependencies, makes pnpm dedupe converge, and uses less CPU on many-core machines. Patch Changes pnpm install --frozen-lockfile no longer rejects a freshly generated lockfile when an injected workspace package has peer dependencies #16332 . Executable files in a file: directory dependency or an injected workspace package keep their executable bit again. Since 12.8.0, pnpm installed these files without the permissions they",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.116.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.116.1",
-      "published": "2026-09-28T14:54:41Z",
-      "preview": "44.116.1 (2026-09-28) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.9 (main) ( #46520 ) ( 2a81519 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.20.0 (main) ( #46521 ) ( ac4f043 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.18.4",
