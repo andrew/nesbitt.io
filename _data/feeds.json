@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-29T20:32:27Z",
-  "cutoff": "2026-08-30T20:32:17Z",
+  "generated": "2026-09-29T21:28:55Z",
+  "cutoff": "2026-08-30T21:28:51Z",
   "feed_count": 102,
   "item_count": 265,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.21",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.21",
+      "published": "2026-09-29T21:14:06Z",
+      "preview": "Release Notes Released on 2026-09-29. Python Update CPython to use OpenSSL 3.5.9 ( #22076 ) Enhancements Omit empty [manifest] tables from lockfiles that contain only manifest subtables ( #22070 ) Preview features Omit redundant runtime constraints from uv.lock , including those involving pre-releases, with the resolution-inputs preview feature ( #22004 , #22068 ) Bug fixes Prevent uv python pin --rm from removing a global .python-versions file without --global ( #21992 ) Fix installed-package checks incorrectly reporting post-releases as incompatible with exclusive lower bounds on pre-release",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "44.121.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.121.3",
@@ -1621,14 +1629,6 @@
       "preview": ".NET 11 Release Candidate 1 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, C#, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 1 appeared first on .NET Blog .",
       "source": "NuGet Blog",
       "category": ".NET"
-    },
-    {
-      "title": "0.12.11",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.11",
-      "published": "2026-09-08T20:45:27Z",
-      "preview": "Release Notes Released on 2026-09-08. Preview features Generate missing artifact hashes when exporting pylock.toml files to ensure they conform to PEP 751 ( #20146 ) Warn when pylock.toml artifact hash tables are empty, which will be rejected in a future uv release ( #21462 ) Performance Speed up installs that overwrite existing files by eliminating per-file temporary directories for atomic hard-link, symlink, and reflink replacements ( #21478 ) Speed up installs that merge copied wheels into existing environments by replacing per-file temporary directories with adjacent temporary files ( #214",
-      "source": "uv releases",
-      "category": "Python"
     },
     {
       "title": "2.6.0~rc1",
