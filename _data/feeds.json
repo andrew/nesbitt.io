@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-29T01:08:23Z",
-  "cutoff": "2026-08-30T01:08:18Z",
+  "generated": "2026-09-29T02:39:50Z",
+  "cutoff": "2026-08-30T02:39:44Z",
   "feed_count": 102,
   "item_count": 257,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.117.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.117.1",
+      "published": "2026-09-29T01:50:35Z",
+      "preview": "44.117.1 (2026-09-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.103.2 (main) ( #46537 ) ( 5eabcc1 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.20 (main) ( #46535 ) ( 0f6884d ) deps: update dependency uv to v0.12.20 (main) ( #46536 ) ( 72b2aa6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.13.1",
       "url": "https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.13.1",
@@ -443,14 +451,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.8",
       "published": "2026-09-25T20:55:37Z",
       "preview": "44.115.8 (2026-09-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.4 (main) ( #46480 ) ( 4ce7195 ) Tests datasource: don't cache a HOST_BLOCKED result ( #46473 ) ( 6c26fc1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.115.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.7",
-      "published": "2026-09-25T18:57:27Z",
-      "preview": "44.115.7 (2026-09-25) Bug Fixes manager/helmv3: apply registryAliases to OCI chart dependencies ( #46447 ) ( 07b3f10 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
