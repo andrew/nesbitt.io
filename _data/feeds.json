@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-29T04:35:14Z",
-  "cutoff": "2026-08-30T04:35:07Z",
+  "generated": "2026-09-29T08:39:24Z",
+  "cutoff": "2026-08-30T08:39:17Z",
   "feed_count": 102,
-  "item_count": 257,
+  "item_count": 258,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,62 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.118.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.118.1",
+      "published": "2026-09-29T08:38:13Z",
+      "preview": "44.118.1 (2026-09-29) Bug Fixes workers/global: apply internalHostAccess during platform init ( #46542 ) ( c11053a ), closes #45848",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.118.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.118.0",
+      "published": "2026-09-29T08:12:17Z",
+      "preview": "44.118.0 (2026-09-29) Features datasource/crate: rename allowCustomCrateGitRegistries and relax sparse registries cloning ( #45632 ) ( c5d1b43 ) Code Refactoring workers: assemble the per-dependency lookup config in one place ( #46155 ) ( a31f03d ) workers: normalise depName and packageName once after extraction ( #46156 ) ( fd4eb7b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "15 years of Packagist: Over 200 billion package installs",
+      "url": "https://blog.packagist.com/15-years-of-packagist-over-200-billion-package-installs/",
+      "published": "2026-09-29T08:04:48Z",
+      "preview": "On September 27th, 2011, Jordi submitted monolog/monolog to Packagist.org, it got package ID 1. Fifteen years later, Packagist.org lists more than 469,000 packages with over 5.8 million versions, and Composer has installed packages from it more than 200 billion times. Monolog alone has passed one",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "Cabal-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-v3.18.2.0",
+      "published": "2026-09-29T08:02:38Z",
+      "preview": "Cabal-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Cabal-syntax-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-syntax-v3.18.2.0",
+      "published": "2026-09-29T08:02:27Z",
+      "preview": "Cabal-syntax-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "cabal-install-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0",
+      "published": "2026-09-29T08:02:04Z",
+      "preview": "cabal-install-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "cabal-install-solver-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-solver-v3.18.2.0",
+      "published": "2026-09-29T08:01:48Z",
+      "preview": "cabal-install-solver-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.117.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.117.2",
@@ -437,22 +493,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-24-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.115.10",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.10",
-      "published": "2026-09-26T00:46:04Z",
-      "preview": "44.115.10 (2026-09-26) Build System deps: update dependency lru-cache to v11.5.3 (main) ( #46484 ) ( 0639f2f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.115.9",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.115.9",
-      "published": "2026-09-25T21:12:06Z",
-      "preview": "44.115.9 (2026-09-25) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.102.5 (main) ( #46481 ) ( dd1ea91 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "8.0.0.9",
@@ -1021,38 +1061,6 @@
       "preview": "Fixed: Preserve the version string exactly as written in core metadata, so stylized versions such as CalVer 2026.08.10 are no longer stripped of leading zeros. Distribution file names and .dist-info directories continue to use the PEP 440 normalized form.",
       "source": "Hatch releases",
       "category": "Python"
-    },
-    {
-      "title": "cabal-install-v3.18.2.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0",
-      "published": "2026-09-17T18:26:00Z",
-      "preview": "cabal-install-v3.18.2.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "Cabal-syntax-v3.18.2.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-syntax-v3.18.2.0",
-      "published": "2026-09-17T18:25:34Z",
-      "preview": "Cabal-syntax-v3.18.2.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "Cabal-v3.18.2.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-v3.18.2.0",
-      "published": "2026-09-17T18:25:24Z",
-      "preview": "Cabal-v3.18.2.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-install-solver-v3.18.2.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-solver-v3.18.2.0",
-      "published": "2026-09-17T18:25:01Z",
-      "preview": "cabal-install-solver-v3.18.2.0",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "7.0.4",
