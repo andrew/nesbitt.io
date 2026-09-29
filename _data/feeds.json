@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-29T14:32:05Z",
-  "cutoff": "2026-08-30T14:32:00Z",
+  "generated": "2026-09-29T15:32:01Z",
+  "cutoff": "2026-08-30T15:31:55Z",
   "feed_count": 102,
-  "item_count": 261,
+  "item_count": 263,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,12 +23,28 @@
   ],
   "items": [
     {
+      "title": "2.33.0 (29-Sep-2026)",
+      "url": "https://github.com/conan-io/conan/releases/tag/2.33.0",
+      "published": "2026-09-29T15:24:50Z",
+      "preview": "Feature: Support for CPS components configurations. ( #20354 ) Feature: Use extra_info to provide CPEs to the component. ( #20353 ) Feature: Download recipe and package metadata in parallel with regular files instead of after them. ( #20351 ) Feature: Add core.net.http:trust_store conf to verify HTTPS certs against the OS trust store. ( #20343 ). Docs: 📃 Feature: New remotes force_auth capability. ( #20341 ). Docs: 📃 Feature: Feature: Add copy_config_files to the [runner] profile to copy extra host config files into Docker runners. ( #20332 ). Docs: 📃 Feature: Support Clang 23. ( #20330 ) Feat",
+      "source": "Conan releases",
+      "category": "C/C++"
+    },
+    {
       "title": "26.7.3",
       "url": "https://github.com/conda/conda/releases/tag/26.7.3",
       "published": "2026-09-29T13:56:25Z",
       "preview": "Bug fixes Ensure v3 packages are available when mixing sharded and unsharded repos. ( #16676 via #16688 ) Keep cached package archive paths consistent with their recorded filenames and checksums when both archive formats are present. ( #9674 ) Contributors @jezdez",
       "source": "Conda releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "v6.1.3",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.3",
+      "published": "2026-09-29T13:00:27Z",
+      "preview": "v6.1.3",
+      "source": "Podman releases",
+      "category": "Containers"
     },
     {
       "title": "20260929t123100-all",
