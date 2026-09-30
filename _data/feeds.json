@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T20:31:51Z",
-  "cutoff": "2026-08-31T20:31:08Z",
+  "generated": "2026-09-30T21:30:22Z",
+  "cutoff": "2026-08-31T21:30:17Z",
   "feed_count": 102,
-  "item_count": 266,
+  "item_count": 265,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.126.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.126.0",
+      "published": "2026-09-30T20:59:26Z",
+      "preview": "44.126.0 (2026-09-30) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.106.0 (main) ( #46610 ) ( fe0d983 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v29.8.2",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.2",
@@ -227,14 +235,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.122.1",
       "published": "2026-09-30T07:41:07Z",
       "preview": "44.122.1 (2026-09-30) Build System deps: update dependency prettier to v3.9.9 (main) ( #46569 ) ( 5bb3d23 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.122.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.122.0",
-      "published": "2026-09-30T07:23:55Z",
-      "preview": "44.122.0 (2026-09-30) Features manager/npm: use devEngines.runtime as node constraint ( #46523 ) ( b58291d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -2141,14 +2141,6 @@
       "preview": "Helm v4.3.0-rc.1 is a pre-release. It is to help gather feedback from the community as well as give users a chance to test Helm in staging environments before v4.3.0 is officially released. The official changelog will come out with the v4.3.0 release. For now, you can see the commit changes from v4.2.4 here . The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactH",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "2.6.0~beta2",
-      "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-beta2",
-      "published": "2026-08-31T20:58:17Z",
-      "preview": "This is the second beta release of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for more details and the upgrade instructions. Changelog : Changes Install Fix a performance regression where opam project trees were scanned for nothing, when pinning them [ #7101 @kit-ty-kate - fix #7098 ] Release scr",
-      "source": "opam releases",
-      "category": "Registries"
     }
   ]
 }
