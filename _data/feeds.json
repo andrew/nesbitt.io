@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T07:40:45Z",
-  "cutoff": "2026-08-31T07:40:39Z",
+  "generated": "2026-09-30T08:40:21Z",
+  "cutoff": "2026-08-31T08:40:15Z",
   "feed_count": 102,
-  "item_count": 262,
+  "item_count": 263,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.123.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.123.0",
+      "published": "2026-09-30T08:06:58Z",
+      "preview": "44.123.0 (2026-09-30) Features manager/github-actions: support voidzero-dev/setup-vp inputs ( #46495 ) ( 0dd6088 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v4.0.22",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.22",
+      "published": "2026-09-30T08:06:14Z",
+      "preview": "RubyGems 4.0.22 Enhancements: Add --source option to gem exec command. Pull request #9765 by Akshay Birajdar Keep credentials on redirects only within the same origin. Pull request #9909 by Hiroshi SHIBATA Validate the version field in Gem::Installer#verify_spec. Pull request #9890 by Hiroshi SHIBATA Installs bundler 4.0.22 as a default gem. Bug fixes: Remove the build_info file on uninstall and stop gem build from logging unknown extensions. Pull request #9894 by Hiroshi SHIBATA Bundler 4.0.22 Enhancements: Report the effective platform in bundle platform . Pull request #9898 by Islam Elsayed",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "44.122.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.122.1",
+      "published": "2026-09-30T07:41:07Z",
+      "preview": "44.122.1 (2026-09-30) Build System deps: update dependency prettier to v3.9.9 (main) ( #46569 ) ( 5bb3d23 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.122.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.122.0",
@@ -53,6 +77,14 @@
       "preview": "pnpm 12.8.2 fixes a startup crash on Linux ppc64le and UnknownIssuer errors on systems without CA certificates. pnpm run no longer installs before every script on CI when autoDedupe is enabled, and resolution and hoisted installs on macOS are faster. Patch Changes Platforms and environments Fixed pnpm crashing on startup on Linux ppc64le #16380 . Fixed installs failing with UnknownIssuer on Linux systems without CA certificates, such as node:24-slim , when NODE_EXTRA_CA_CERTS is set. The extra certificates now extend the bundled CA roots #16365 . pnpm now creates its store operation locks and ",
       "source": "pnpm releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "4.0.22 Released",
+      "url": "https://blog.rubygems.org/2026/09/30/4.0.22-released.html",
+      "published": "2026-09-30T00:00:00Z",
+      "preview": "RubyGems 4.0.22 includes enhancements and bug fixes and Bundler 4.0.22 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.22 RubyGems Release Notes Enhancements: Add –source option to gem exec command. Pull request #9765 by Akshay Birajdar Keep credentials on redirects only within the same origin. Pull request #9909 by Hiroshi SHIBATA Validate the version field in Gem::Installer#verify_spec. Pull request #9890 by Hiroshi",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
     },
     {
       "title": "44.121.4",
@@ -187,22 +219,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.119.1",
       "published": "2026-09-29T12:05:54Z",
       "preview": "44.119.1 (2026-09-29) Bug Fixes lookup: warn on unknown datasource ( #46511 ) ( 1732add ) Documentation help-us-help-you: drop outdated section ( #46501 ) ( ed787f0 ) internal/security: clarify we will now request CVE IDs ( #46479 ) ( ee46402 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.119.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.119.0",
-      "published": "2026-09-29T11:12:43Z",
-      "preview": "44.119.0 (2026-09-29) Features config: allow self-hosted admins to bypass allowedHeaders ( #45654 ) ( af055eb ) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.103.5 (main) ( #46546 ) ( 52d666c ) Miscellaneous Chores capture cases of PR comments coming from an agent ( #46544 ) ( 9cbc726 ) require reproduction or stated reason in PR template ( #46543 ) ( 06a427c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.118.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.118.2",
-      "published": "2026-09-29T10:51:34Z",
-      "preview": "44.118.2 (2026-09-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.103.4 (main) ( #46545 ) ( 88dde28 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1131,14 +1147,6 @@
       "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.16",
       "published": "2026-09-17T21:59:58Z",
       "preview": "Enhancements: Installs bundler 4.0.16 as a default gem. Bug fixes: Skip the make job server when using BSD make. Pull request #9676 by flavorjones",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.15",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.15",
-      "published": "2026-09-17T21:59:48Z",
-      "preview": "Enhancements: Rubygems: Fix Gem::Request for PQC support, adding integration connection tests. Pull request #9615 by junaruga Reduce peak memory usage of full index loading and bundle install. Pull request #9618 by hsbt Installs bundler 4.0.15 as a default gem. Bug fixes: Forward security policy to old-format gems. Pull request #9611 by hsbt",
       "source": "RubyGems releases",
       "category": "Ruby"
     },
