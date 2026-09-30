@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T19:27:59Z",
-  "cutoff": "2026-08-31T19:27:53Z",
+  "generated": "2026-09-30T20:31:51Z",
+  "cutoff": "2026-08-31T20:31:08Z",
   "feed_count": 102,
-  "item_count": 265,
+  "item_count": 266,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.8.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.2",
+      "published": "2026-09-30T20:28:33Z",
+      "preview": "29.8.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.8.2 milestone moby/moby, 29.8.2 milestone Security This release fixes the following security vulnerabilities in Docker Engine: CVE-2026-53493 : Pulling a crafted OCI image index with deeply nested or widely fanned-out descriptors could cause unbounded CPU and memory use. GHSA-pg57-6jwg-q645 CVE-2026-92543 : A malicious DNS response could make registry connections skip TLS certificate verification or fall back to HTTP, exposing registry credentials or allowing image subst",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "44.125.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.125.2",
