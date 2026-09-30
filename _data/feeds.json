@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-30T08:40:21Z",
-  "cutoff": "2026-08-31T08:40:15Z",
+  "generated": "2026-09-30T10:32:12Z",
+  "cutoff": "2026-08-31T10:32:03Z",
   "feed_count": 102,
   "item_count": 263,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.124.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.124.0",
+      "published": "2026-09-30T10:27:08Z",
+      "preview": "44.124.0 (2026-09-30) Features workers/repository: log date of last merged PR in repo stats ( #46557 ) ( 2088cac )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.123.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.123.1",
+      "published": "2026-09-30T09:45:00Z",
+      "preview": "44.123.1 (2026-09-30) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.104.2 (main) ( #46578 ) ( f07a353 ) versioning/semver-coerced: allow leading zeros in semver-coerced versioning for CalVer support ( #45272 ) ( 70e3d9d ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.20.3 (main) ( #46577 ) ( 22885ec )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.123.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.123.0",
@@ -159,14 +175,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "44.120.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.120.0",
-      "published": "2026-09-29T15:43:54Z",
-      "preview": "44.120.0 (2026-09-29) Features manager/dockerfile: options form of getDep for CI managers ( #46183 ) ( 19306f7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "2.33.0 (29-Sep-2026)",
       "url": "https://github.com/conan-io/conan/releases/tag/2.33.0",
       "published": "2026-09-29T15:38:35Z",
@@ -213,14 +221,6 @@
       "preview": "Deployment at 2026-09-29T12:13:26.515169Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.119.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.119.1",
-      "published": "2026-09-29T12:05:54Z",
-      "preview": "44.119.1 (2026-09-29) Bug Fixes lookup: warn on unknown datasource ( #46511 ) ( 1732add ) Documentation help-us-help-you: drop outdated section ( #46501 ) ( ed787f0 ) internal/security: clarify we will now request CVE IDs ( #46479 ) ( ee46402 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.9.17: Self-update waits 24 hours for new releases and verifies signed packslips",
