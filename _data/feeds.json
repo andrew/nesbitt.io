@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-30T06:48:36Z",
-  "cutoff": "2026-08-31T06:48:31Z",
+  "generated": "2026-09-30T07:40:45Z",
+  "cutoff": "2026-08-31T07:40:39Z",
   "feed_count": 102,
   "item_count": 262,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.122.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.122.0",
+      "published": "2026-09-30T07:23:55Z",
+      "preview": "44.122.0 (2026-09-30) Features manager/npm: use devEngines.runtime as node constraint ( #46523 ) ( b58291d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "cabal-install-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0",
+      "published": "2026-09-30T06:55:50Z",
+      "preview": "No content.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "Version 0.6.0",
       "url": "https://github.com/ScoopInstaller/Scoop/releases/tag/v0.6.0",
@@ -223,14 +239,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "44.118.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.118.1",
-      "published": "2026-09-29T08:38:13Z",
-      "preview": "44.118.1 (2026-09-29) Bug Fixes workers/global: apply internalHostAccess during platform init ( #46542 ) ( c11053a ), closes #45848",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "15 years of Packagist: Over 200 billion package installs",
       "url": "https://blog.packagist.com/15-years-of-packagist-over-200-billion-package-installs/",
       "published": "2026-09-29T08:04:48Z",
@@ -251,14 +259,6 @@
       "url": "https://github.com/haskell/cabal/releases/tag/Cabal-syntax-v3.18.2.0",
       "published": "2026-09-29T08:02:27Z",
       "preview": "Cabal-syntax-v3.18.2.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-install-v3.18.2.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0",
-      "published": "2026-09-29T08:02:04Z",
-      "preview": "cabal-install-v3.18.2.0",
       "source": "Cabal releases",
       "category": "Registries"
     },
