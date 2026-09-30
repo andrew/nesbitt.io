@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-30T13:33:49Z",
-  "cutoff": "2026-08-31T13:33:43Z",
+  "generated": "2026-09-30T14:34:46Z",
+  "cutoff": "2026-08-31T14:34:41Z",
   "feed_count": 102,
   "item_count": 265,
   "categories": [
@@ -23,6 +23,22 @@
   ],
   "items": [
     {
+      "title": "44.125.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.125.1",
+      "published": "2026-09-30T14:29:14Z",
+      "preview": "44.125.1 (2026-09-30) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.105.1 (main) ( #46599 ) ( d2dc1b6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v1.13.0",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.0",
+      "published": "2026-09-30T13:57:49Z",
+      "preview": "OpenTofu 1.13.0 We're proud to announce that OpenTofu 1.13.0 is now officially available! 🎉 Highlights Windows on ARM64 is now a supported platform Starting with OpenTofu v1.13.0 we are now offering official packages targeting Windows on the ARM64 (also known as \"aarch64\") CPU architecture. Reducing unknowns during planning OpenTofu v1.13 introduces a number of new functions that are all intended to allow module authors to give OpenTofu additional hints about what they know to be true even though OpenTofu cannot infer it automatically. Linting Experiment OpenTofu v1.13 includes some very early",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
       "title": "44.125.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.125.0",
       "published": "2026-09-30T13:33:35Z",
@@ -37,14 +53,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "v1.13.0",
-      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.0",
-      "published": "2026-09-30T12:59:34Z",
-      "preview": "1.13.0",
-      "source": "OpenTofu releases",
-      "category": "Infrastructure as Code"
     },
     {
       "title": "v2026.9.18: Remote config includes, OCI task catalogs, and a trust fix for inline tool options",
@@ -221,14 +229,6 @@
       "preview": "Release Notes Released on 2026-09-29. Python Update CPython to use OpenSSL 3.5.9 ( #22076 ) Enhancements Omit empty [manifest] tables from lockfiles that contain only manifest subtables ( #22070 ) Preview features Omit redundant runtime constraints from uv.lock , including those involving pre-releases, with the resolution-inputs preview feature ( #22004 , #22068 ) Bug fixes Prevent uv python pin --rm from removing a global .python-versions file without --global ( #21992 ) Fix installed-package checks incorrectly reporting post-releases as incompatible with exclusive lower bounds on pre-release",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "44.121.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.121.3",
-      "published": "2026-09-29T18:52:33Z",
-      "preview": "44.121.3 (2026-09-29) Build System deps: update dependency @renovatebot/osv-offline to v3.0.12 (main) ( #46563 ) ( 7fa35d7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.17.8",
