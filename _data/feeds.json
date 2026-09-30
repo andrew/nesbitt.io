@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T22:30:49Z",
-  "cutoff": "2026-08-31T22:30:43Z",
+  "generated": "2026-09-30T23:28:03Z",
+  "cutoff": "2026-08-31T23:27:58Z",
   "feed_count": 102,
-  "item_count": 264,
+  "item_count": 263,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-09-30T22:46:05Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.126.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.126.0",
@@ -109,14 +117,6 @@
       "preview": "44.125.0 (2026-09-30) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.105.0 (main) ( #46598 ) ( f998d68 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.21.0 (main) ( #46590 ) ( 1be3a5f ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.21.1 (main) ( #46597 ) ( 90ac1f1 ) Tests always clear hostRules after each test ( #46582 ) ( a2704ed ) remove redundant hostRules.clear() calls ( #46584 ) ( 8b3a066 ) Continuous Integration use github.token for the workflow token everywhere ( #46591 ) ( 13aad80 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-30T13:12:01Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v2026.9.18: Remote config includes, OCI task catalogs, and a trust fix for inline tool options",
@@ -2125,14 +2125,6 @@
       "preview": "The rustup team is happy to announce the release of rustup version 1.29.1. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What's new in rustup 1.29.1 The headlines of this release are: Concurrency in certain rustup operations has been improved: When running rustup update , rustup will first check for possible updates in parallel. pr#4752 When running rustup component add with multiple components, they will be installed concurrently. pr#4790 Implicit installation of the active toolchain in rustup-init and ",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "Helm v3.22.0-rc.1",
-      "url": "https://github.com/helm/helm/releases/tag/v3.22.0-rc.1",
-      "published": "2026-08-31T22:56:05Z",
-      "preview": "Helm v3.22.0-rc.1 is a pre-release. It is to help gather feedback from the community as well as give users a chance to test Helm in staging environments before v3.22.0 is officially released. The official changelog will come out with the v3.22.0 release. For now, you can see the commit changes from v3.21.4 here . The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: Artif",
-      "source": "Helm releases",
-      "category": "Containers"
     }
   ]
 }
