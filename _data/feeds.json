@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-30T14:34:46Z",
-  "cutoff": "2026-08-31T14:34:41Z",
+  "generated": "2026-09-30T15:33:05Z",
+  "cutoff": "2026-08-31T15:32:59Z",
   "feed_count": 102,
   "item_count": 265,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 11.28.3",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.3",
+      "published": "2026-09-30T15:28:07Z",
+      "preview": "pnpm 11.28.3 updates undici to clear a security advisory, fixes \"database disk image is malformed\" errors when several pnpm processes share a store, and makes packages, catalogs, projects, and commands named like constructor work. Patch Changes Installing packages pnpm now ships undici 7.29.1, so security scans of pnpm no longer report GHSA-3wwx-pv8p-q78v . pnpm no longer fails with \"database disk image is malformed\" or reads stale store entries while another pnpm process writes to the same store. Names that match built-in JavaScript object properties, such as constructor , toString , or __pro",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.125.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.125.1",
@@ -637,14 +645,6 @@
       "preview": "Insert 8.0.0.9 into main on 09/25/2026 12:26:07",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "pnpm 12.7",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.7.0",
-      "published": "2026-09-25T10:39:37Z",
-      "preview": "pnpm 12.7.0 ships with .nvmrc and .node-version support in the global node shim, pnpm install --allow-build , pnpm publish --publish-wait-timeout , and pnpm-workspace.yaml created from the workspaces field. pnpm install --force no longer installs optional dependencies built for other platforms. This release also carries security fixes for bin shims on Nix, for lifecycle scripts of packages in a storeDir inside the workspace, and for userAgent placeholders in pnpm-workspace.yaml . Minor Changes pnpm install --force now keeps skipping optional dependencies whose os , cpu or libc do not match the",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-23-a",
