@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T12:47:11Z",
-  "cutoff": "2026-08-31T12:47:03Z",
+  "generated": "2026-09-30T13:33:49Z",
+  "cutoff": "2026-08-31T13:33:43Z",
   "feed_count": 102,
-  "item_count": 264,
+  "item_count": 265,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.125.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.125.0",
+      "published": "2026-09-30T13:33:35Z",
+      "preview": "44.125.0 (2026-09-30) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.105.0 (main) ( #46598 ) ( f998d68 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.21.0 (main) ( #46590 ) ( 1be3a5f ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.21.1 (main) ( #46597 ) ( 90ac1f1 ) Tests always clear hostRules after each test ( #46582 ) ( a2704ed ) remove redundant hostRules.clear() calls ( #46584 ) ( 8b3a066 ) Continuous Integration use github.token for the workflow token everywhere ( #46591 ) ( 13aad80 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-09-30T13:12:01Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v1.13.0",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.0",
+      "published": "2026-09-30T12:59:34Z",
+      "preview": "1.13.0",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "v2026.9.18: Remote config includes, OCI task catalogs, and a trust fix for inline tool options",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.18",
+      "published": "2026-09-30T12:51:01Z",
+      "preview": "mise.toml can now include a shared config file from a git repository or OCI registry, and task_config.includes accepts OCI artifacts. The release also closes a trust bypass that could send GITHUB_TOKEN to an attacker-controlled host, adds gem registry sources, and fixes several daemon and dotfiles problems. Security Inline tool options now require trust. Before this change, a mise.toml in an untrusted directory could hide options in a tool key, for example a github: tool key with [api_url=...] pointing at another host. mise loaded the file without trust because the value was a plain version st",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "8.0.0.13",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.13",
@@ -69,14 +101,6 @@
       "preview": "44.124.2 (2026-09-30) Bug Fixes manager/npm: compute corepack hash from registry integrity ( #46526 ) ( 013ab72 ) manager/npm: look up yarn berry as @yarnpkg/cli-dist ( #46525 ) ( 0dc8d8b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.9.18",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.18",
-      "published": "2026-09-30T11:19:21Z",
-      "preview": "(bootstrap) support ?ref= in bootstrap --from by @jdx in [ #1382 …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.9.20",
@@ -213,14 +237,6 @@
       "preview": "What's Changed Fix uninject leaving shell completion scripts behind by @00200200 in #2056 New Contributors @00200200 made their first contribution in #2056 Full Changelog : 1.17.7...1.17.8",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "44.121.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.121.2",
-      "published": "2026-09-29T18:12:49Z",
-      "preview": "44.121.2 (2026-09-29) Build System deps: update dependency @renovatebot/detect-tools to v4.0.21 (main) ( #46562 ) ( 7e49181 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v5.8.8",
@@ -597,14 +613,6 @@
       "preview": "chore: update versions (next-9) ( #6270 )",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-27T14:45:10Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "8.0.0.10",
