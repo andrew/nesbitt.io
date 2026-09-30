@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T05:32:13Z",
-  "cutoff": "2026-08-31T05:32:06Z",
+  "generated": "2026-09-30T06:48:36Z",
+  "cutoff": "2026-08-31T06:48:31Z",
   "feed_count": 102,
-  "item_count": 263,
+  "item_count": 262,
   "categories": [
     ".NET",
     "C/C++",
@@ -2117,14 +2117,6 @@
       "preview": "What's Changed Remove enable_corepack_for_npm_and_yarn and preserve direct execution by @ruben-pachecocaldera with @Copilot in #15945 Remove enable_private_registry_for_corepack flag and make private-registry corepack env permanent by @ruben-pachecocaldera with @Copilot in #15946 Nix: lock the selected revision by @JamieMagee in #15984 Remove allow_refresh_for_existing_pr_dependencies feature flag by @ruben-pachecocaldera with @Copilot in #15947 Remove allow_refresh_group_with_all_dependencies and make group-refresh behavior permanent by @ruben-pachecocaldera with @Copilot in #15948 Remove enh",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "Metadata requests no longer tracked in PyPI download counts",
-      "url": "https://blog.pypi.org/posts/2026-08-31-download-counts/",
-      "published": "2026-08-31T06:09:00Z",
-      "preview": "On 2026-08-24 I shipped a change to the configuration that emits PyPI's download logs so that only requests for actual distribution artifacts are counted. A request has to end in .whl , .tar.gz , or .zip to produce a download record. The counts are more accurate now, and existing systems based on PyPI's BigQuery dataset , like pypistats.org will display a different shape going forward. If you maintain something that reads these numbers from the public dataset, the discontinuity at 2026-08-24 is expected and permanent. This effort would not be possible without the continued support from Alpha-O",
-      "source": "PyPI Blog",
-      "category": "Python"
     }
   ]
 }
