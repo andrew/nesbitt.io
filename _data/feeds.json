@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T01:09:48Z",
-  "cutoff": "2026-08-31T01:09:41Z",
+  "generated": "2026-09-30T05:32:13Z",
+  "cutoff": "2026-08-31T05:32:06Z",
   "feed_count": 102,
-  "item_count": 262,
+  "item_count": 263,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Version 0.6.0",
+      "url": "https://github.com/ScoopInstaller/Scoop/releases/tag/v0.6.0",
+      "published": "2026-09-30T05:19:13Z",
+      "preview": "✨ Highlights This release contains changes that may be considered breaking. Manifest authors should review: checkver GitHub mode requires explicit github: key ( #6641 ): manifests using url: with a GitHub URL for checkver must switch to github: to opt into the GitHub token path. Token usage is now scoped to explicit github mode only. checkver GitHub mode defaults changed ( #6653 ): new default jsonpath / regex for GitHub-based version checks. checkver.script behavior is affected — verify scripts still resolve the expected version. install.json / manifest.json renamed to scoop-install.json / sc",
+      "source": "Scoop releases",
+      "category": "System"
+    },
     {
       "title": "pnpm 12.8.2",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.8.2",
