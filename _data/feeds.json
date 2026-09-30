@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T18:36:17Z",
-  "cutoff": "2026-08-31T18:36:11Z",
+  "generated": "2026-09-30T19:27:59Z",
+  "cutoff": "2026-08-31T19:27:53Z",
   "feed_count": 102,
-  "item_count": 264,
+  "item_count": 265,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.125.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.125.2",
+      "published": "2026-09-30T19:15:32Z",
+      "preview": "44.125.2 (2026-09-30) Bug Fixes datasource: document first as the default registry strategy ( #46104 ) ( fc57966 ), closes #40497 Miscellaneous Chores deps: update docker/dockerfile docker tag to v1.27.1 (main) ( #46608 ) ( fd9f0a8 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.22.0 (main) ( #46609 ) ( 1777a89 ) Code Refactoring datasource: derive the lookup config types from each other ( #46107 ) ( d706bb2 ) datasource: make postprocessRelease an optional method ( #46105 ) ( 7c85eeb ) datasource: resolve registry URLs with early returns ( #46106 ) ( 0b16fce ), closes #158",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-install-v3.18.2.0",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0",
@@ -239,20 +247,20 @@
       "category": "JavaScript"
     },
     {
+      "title": "2027 Applications for Contractors are Open",
+      "url": "https://thephp.foundation/blog/2026/09/30/applications-for-2027-are-open/",
+      "published": "2026-09-30T00:00:00Z",
+      "preview": "As we have done in past years, The PHP Foundation is opening applications for contractors for 2027. Foundation contractors are responsible for a variety of core development areas, and we are open to hearing your ideas. The application form will be open until October 20, 2026, end of day, Anywhere on Earth (AoE). Apply Now What are the requirements? Note: This is not a job for PHP developers or aspiring PHP developers. PHP is written in the C programming language, and as such, this role requires C and systems programming experience. Ideally, you will have: Pull requests or commits to php/php-sr",
+      "source": "PHP Foundation Blog",
+      "category": "PHP"
+    },
+    {
       "title": "4.0.22 Released",
       "url": "https://blog.rubygems.org/2026/09/30/4.0.22-released.html",
       "published": "2026-09-30T00:00:00Z",
       "preview": "RubyGems 4.0.22 includes enhancements and bug fixes and Bundler 4.0.22 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.22 RubyGems Release Notes Enhancements: Add –source option to gem exec command. Pull request #9765 by Akshay Birajdar Keep credentials on redirects only within the same origin. Pull request #9909 by Hiroshi SHIBATA Validate the version field in Gem::Installer#verify_spec. Pull request #9890 by Hiroshi",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "44.121.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.121.4",
-      "published": "2026-09-29T23:45:16Z",
-      "preview": "44.121.4 (2026-09-29) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.104.1 (main) ( #46566 ) ( d887791 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.21 (main) ( #46564 ) ( 30ae071 ) deps: update dependency uv to v0.12.21 (main) ( #46565 ) ( 7f91b9c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.12.21",
