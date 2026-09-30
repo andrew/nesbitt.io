@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T10:32:12Z",
-  "cutoff": "2026-08-31T10:32:03Z",
+  "generated": "2026-09-30T11:28:03Z",
+  "cutoff": "2026-08-31T11:27:57Z",
   "feed_count": 102,
-  "item_count": 263,
+  "item_count": 264,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,86 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-install-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0",
+      "published": "2026-09-30T11:27:40Z",
+      "preview": "cabal-install-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "cabal-install-solver-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-solver-v3.18.2.0",
+      "published": "2026-09-30T11:27:29Z",
+      "preview": "cabal-install-solver-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Cabal-syntax-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-syntax-v3.18.2.0",
+      "published": "2026-09-30T11:27:11Z",
+      "preview": "Cabal-syntax-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "Cabal-v3.18.2.0",
+      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-v3.18.2.0",
+      "published": "2026-09-30T11:26:50Z",
+      "preview": "Cabal-v3.18.2.0",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.124.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.124.2",
+      "published": "2026-09-30T11:20:31Z",
+      "preview": "44.124.2 (2026-09-30) Bug Fixes manager/npm: compute corepack hash from registry integrity ( #46526 ) ( 013ab72 ) manager/npm: look up yarn berry as @yarnpkg/cli-dist ( #46525 ) ( 0dc8d8b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.9.18",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.18",
+      "published": "2026-09-30T11:19:21Z",
+      "preview": "(bootstrap) support ?ref= in bootstrap --from by @jdx in [ #1382 …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.9.20",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.20",
+      "published": "2026-09-30T11:18:52Z",
+      "preview": "Release vfox 2026.9.20",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.9.4",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.9.4",
+      "published": "2026-09-30T11:18:23Z",
+      "preview": "Release mise-util 2026.9.4",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.9.4",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.9.4",
+      "published": "2026-09-30T11:18:13Z",
+      "preview": "Release mise-settings 2026.9.4",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.124.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.124.1",
+      "published": "2026-09-30T11:03:39Z",
+      "preview": "44.124.1 (2026-09-30) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.104.3 (main) ( #46583 ) ( a25a464 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.124.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.124.0",
@@ -69,14 +149,6 @@
       "preview": "44.122.0 (2026-09-30) Features manager/npm: use devEngines.runtime as node constraint ( #46523 ) ( b58291d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-install-v3.18.2.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0",
-      "published": "2026-09-30T06:55:50Z",
-      "preview": "No content.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "Version 0.6.0",
@@ -139,22 +211,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.121.2",
       "published": "2026-09-29T18:12:49Z",
       "preview": "44.121.2 (2026-09-29) Build System deps: update dependency @renovatebot/detect-tools to v4.0.21 (main) ( #46562 ) ( 7e49181 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.121.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.121.1",
-      "published": "2026-09-29T17:53:40Z",
-      "preview": "44.121.1 (2026-09-29) Build System deps: update dependency fs-extra to v11.4.1 (main) ( #46561 ) ( b7ea9da )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.121.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.121.0",
-      "published": "2026-09-29T16:35:49Z",
-      "preview": "44.121.0 (2026-09-29) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.104.0 (main) ( #46559 ) ( a5a1f9a ) Bug Fixes manager/mise: commit native dependency sidecars with the lock file ( #46514 ) ( f486d39 ) Miscellaneous Chores deps: update dependency memfs to v4.79.0 (main) ( #46555 ) ( fff3481 ) Build System deps: update dependency ignore to v7.0.10 (main) ( #46560 ) ( 8569da8 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -263,30 +319,6 @@
       "category": "PHP"
     },
     {
-      "title": "Cabal-v3.18.2.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-v3.18.2.0",
-      "published": "2026-09-29T08:02:38Z",
-      "preview": "Cabal-v3.18.2.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "Cabal-syntax-v3.18.2.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/Cabal-syntax-v3.18.2.0",
-      "published": "2026-09-29T08:02:27Z",
-      "preview": "Cabal-syntax-v3.18.2.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-install-solver-v3.18.2.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-solver-v3.18.2.0",
-      "published": "2026-09-29T08:01:48Z",
-      "preview": "cabal-install-solver-v3.18.2.0",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
       "title": "v1.13.1",
       "url": "https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.13.1",
       "published": "2026-09-29T00:50:02Z",
@@ -391,42 +423,10 @@
       "category": "Registries"
     },
     {
-      "title": "mise-interactive-config-v2026.9.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.9.0",
-      "published": "2026-09-28T08:46:13Z",
-      "preview": "Release mise-interactive-config 2026.9.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.9.18",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.18",
       "published": "2026-09-28T08:45:53Z",
       "preview": "Release vfox 2026.9.18",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.9.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.9.2",
-      "published": "2026-09-28T08:45:13Z",
-      "preview": "Release mise-util 2026.9.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.9.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.9.1",
-      "published": "2026-09-28T08:45:06Z",
-      "preview": "Release mise-sigstore 2026.9.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.9.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.9.2",
-      "published": "2026-09-28T08:44:59Z",
-      "preview": "Release mise-settings 2026.9.2",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -493,6 +493,14 @@
       "preview": "Community events are the lifeblood of the PHP ecosystem. They're where people come to learn from each other, meet new people, expand their professional networks, build things together, strengthen friendships, sharpen their public speaking skills, and experience the power of belonging to a community. Most importantly, community events are where we build trust with each other . Trust has never been more important than it is today. It's always been a challenge in our industry, because so much of our work is done with people we've never met in person. Trust takes a long time to build, and it's the",
       "source": "PHP Foundation Blog",
       "category": "PHP"
+    },
+    {
+      "title": "pnpm 12.8",
+      "url": "https://pnpm.io/blog/releases/12.8",
+      "published": "2026-09-28T00:00:00Z",
+      "preview": "pnpm 12.8 warns when pnpm pack or pnpm publish would ship a .env file, installs sharedWorkspaceLockfile: false workspaces concurrently, applies every setting passed as --config. = , and no longer leaves the Windows terminal stuck after Ctrl+C in a script. This release also carries a...",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "maven-3.10.0",
