@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-30T15:33:05Z",
-  "cutoff": "2026-08-31T15:32:59Z",
+  "generated": "2026-09-30T16:34:20Z",
+  "cutoff": "2026-08-31T16:34:15Z",
   "feed_count": 102,
   "item_count": 265,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v25.0.18",
+      "url": "https://github.com/moby/moby/releases/tag/v25.0.18",
+      "published": "2026-09-30T15:54:00Z",
+      "preview": "For a full list of pull requests and changes in this release, refer to the relevant GitHub milestone: moby/moby, 25.0.18 milestone Changes to the Engine API, see API version history . Bug fixes and enhancements Fix CVE-2026-17106 : crafted tar archive can write outside the extraction directory. #53470",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "pnpm 11.28.3",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.3",
@@ -2133,14 +2141,6 @@
       "preview": "v2.150015",
       "source": "CPAN Meta releases",
       "category": "Registries"
-    },
-    {
-      "title": "v0.394.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.394.0",
-      "published": "2026-08-31T15:46:08Z",
-      "preview": "What's Changed Remove enable_corepack_for_npm_and_yarn and preserve direct execution by @ruben-pachecocaldera with @Copilot in #15945 Remove enable_private_registry_for_corepack flag and make private-registry corepack env permanent by @ruben-pachecocaldera with @Copilot in #15946 Nix: lock the selected revision by @JamieMagee in #15984 Remove allow_refresh_for_existing_pr_dependencies feature flag by @ruben-pachecocaldera with @Copilot in #15947 Remove allow_refresh_group_with_all_dependencies and make group-refresh behavior permanent by @ruben-pachecocaldera with @Copilot in #15948 Remove enh",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
