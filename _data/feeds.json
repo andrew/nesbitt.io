@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-01T08:41:10Z",
-  "cutoff": "2026-09-01T08:41:02Z",
+  "generated": "2026-10-01T09:35:49Z",
+  "cutoff": "2026-09-01T09:35:44Z",
   "feed_count": 102,
   "item_count": 256,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.127.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.127.1",
+      "published": "2026-10-01T09:05:51Z",
+      "preview": "44.127.1 (2026-10-01) Bug Fixes http: skip throttle and queue for cached responses ( #46622 ) ( f3ec5e6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "3.10.0",
       "url": "https://github.com/apache/maven/releases/tag/maven-3.10.0",
@@ -235,14 +243,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.124.0",
       "published": "2026-09-30T10:27:08Z",
       "preview": "44.124.0 (2026-09-30) Features workers/repository: log date of last merged PR in repo stats ( #46557 ) ( 2088cac )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.123.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.123.1",
-      "published": "2026-09-30T09:45:00Z",
-      "preview": "44.123.1 (2026-09-30) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.104.2 (main) ( #46578 ) ( f07a353 ) versioning/semver-coerced: allow leading zeros in semver-coerced versioning for CalVer support ( #45272 ) ( 70e3d9d ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.20.3 (main) ( #46577 ) ( 22885ec )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
