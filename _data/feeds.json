@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-01T20:33:37Z",
-  "cutoff": "2026-09-01T20:33:31Z",
+  "generated": "2026-10-01T21:29:00Z",
+  "cutoff": "2026-09-01T21:28:54Z",
   "feed_count": 102,
   "item_count": 272,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.9.0-rc.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.0-rc.1",
+      "published": "2026-10-01T20:56:17Z",
+      "preview": "29.9.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.9.0 milestone moby/moby, 29.9.0 milestone Bug fixes and enhancements containerd image store: Fix pulls skipping required layer blobs when unpacked layers already exist, leaving images runnable but incomplete for export or push. moby/moby#53615 Fix docker container create --name reporting a misleading validation error mentioning invalid characters instead of invalid name length. moby/moby#53484 Fix a connection leak to the RootlessKit API socket on every GET /version",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.0.0-beta.25",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.25",
+      "published": "2026-10-01T20:46:40Z",
+      "preview": "v2.0.0-beta.25",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "44.131.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.131.0",
@@ -2031,14 +2047,6 @@
       "category": "Python"
     },
     {
-      "title": "v29.8.0",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.0",
-      "published": "2026-09-03T22:31:49Z",
-      "preview": "29.8.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.8.0 milestone moby/moby, 29.8.0 milestone New Add HostConfig.Umask option and a corresponding --umask <octal> flag to docker create / docker run to set the umask for a container's main process, execs, and healthchecks. moby/moby#53463 , docker/cli#7108 Add support for attaching service names, environments, and custom CloudWatch entity attributes to logs from the awslogs logging driver. moby/moby#52632 Security Add daemon support for configuring the default container AppA",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
       "title": "v2.0.0-beta.23",
       "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.23",
       "published": "2026-09-03T21:14:07Z",
@@ -2051,14 +2059,6 @@
       "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.22",
       "published": "2026-09-03T21:10:58Z",
       "preview": "v2.0.0-beta.22",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "client/v0.6.0",
-      "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.6.0",
-      "published": "2026-09-03T21:03:01Z",
-      "preview": "0.6.0 Changelog pkg/jsonmessage: add new WithMessagePrinter option to use a custom printer for messages. moby/moby#53489 api: Bump to 1.56. moby/moby#53425 minor cleanups, refactors. moby/moby#53509",
       "source": "Docker Engine releases",
       "category": "Containers"
     },
