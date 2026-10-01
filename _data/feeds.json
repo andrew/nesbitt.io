@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01T17:28:59Z",
-  "cutoff": "2026-09-01T17:28:54Z",
+  "generated": "2026-10-01T18:38:08Z",
+  "cutoff": "2026-09-01T18:38:02Z",
   "feed_count": 102,
-  "item_count": 270,
+  "item_count": 273,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.19.1",
+      "url": "https://github.com/gomods/athens/releases/tag/v0.19.1",
+      "published": "2026-10-01T18:36:17Z",
+      "preview": "A rerelease of https://github.com/gomods/athens/releases/tag/v0.19.0",
+      "source": "Athens releases",
+      "category": "Go"
+    },
+    {
+      "title": "client/v0.6.1",
+      "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.6.1",
+      "published": "2026-10-01T18:24:59Z",
+      "preview": "0.6.1 Changelog client: add WithHTTPRequestHook option. moby/moby#53671 client: deprecate WithResponseHook in favor of WithHTTPResponseHook . moby/moby#53666 client: fix WithHTTPResponseHook hooks not being called for hijacked HTTP connections. moby/moby#53821 client: postRaw: use consistent order or arguments. moby/moby#53677 client: prevent response hooks from consuming response body. moby/moby#53667 client: remove redundant cloning of response hooks. moby/moby#53822 client: update github.com/docker/go-connections v0.8.1. moby/moby#53708 golangci-lint: enable usetesting linter. moby/moby#537",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v1.12.7",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.7",
+      "published": "2026-10-01T18:00:40Z",
+      "preview": "v1.12.7",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "api/v1.56.1",
+      "url": "https://github.com/moby/moby/releases/tag/api%2Fv1.56.1",
+      "published": "2026-10-01T17:59:25Z",
+      "preview": "1.56.1 Changelog api/scripts: Allow isolated model generation with an API directory. moby/moby#53629 api/swagger: Improve OpenAPI compatibility. moby/moby#53626 api/swagger: Quote HTTP response status codes. moby/moby#53759 api/templates: schema: disable validators and serializer sections. moby/moby#53751 api: fix G117 (gosec). moby/moby#53721 api: swagger ImageManifestSummary.ImageData: fix invalid required field. moby/moby#53750 api: update go-swagger to v0.36.6. moby/moby#53754 fix: invalid swagger YAML indentation. moby/moby#53606",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "44.130.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.130.0",
+      "published": "2026-10-01T17:45:43Z",
+      "preview": "44.130.0 (2026-10-01) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.108.0 (main) ( #46649 ) ( 62b988b ) Miscellaneous Chores deps: update dependency oxlint-tsgolint to v7.0.2003 (main) ( #46647 ) ( ad9d250 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.24.0 (main) ( #46648 ) ( 7518513 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.13.1",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.1",
@@ -205,14 +245,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.126.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.126.0",
-      "published": "2026-09-30T20:59:26Z",
-      "preview": "44.126.0 (2026-09-30) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.106.0 (main) ( #46610 ) ( fe0d983 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v29.8.2",
@@ -2019,14 +2051,6 @@
       "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.6.0",
       "published": "2026-09-03T21:03:01Z",
       "preview": "0.6.0 Changelog pkg/jsonmessage: add new WithMessagePrinter option to use a custom printer for messages. moby/moby#53489 api: Bump to 1.56. moby/moby#53425 minor cleanups, refactors. moby/moby#53509",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "api/v1.56.0",
-      "url": "https://github.com/moby/moby/releases/tag/api%2Fv1.56.0",
-      "published": "2026-09-03T20:43:14Z",
-      "preview": "1.56.0 Changelog GET /containers/json now supports an annotation filter to filter containers by annotation, either by key ( annotation=key ) or by key and value ( annotation=\"key=value\" ), similar to the existing label filter. moby/moby#53538 POST /containers/create now supports HostConfig.Umask to set the initial umask for a Unix container. When set, the daemon includes the value in the OCI process configuration for the container's entrypoint, exec processes, and healthchecks. When omitted, the runtime's default behavior applies. moby/moby#53463 api/docs: sync API docs v1.25 - v1.55. moby/mob",
       "source": "Docker Engine releases",
       "category": "Containers"
     },
