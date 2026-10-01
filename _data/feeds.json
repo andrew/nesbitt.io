@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01T11:29:02Z",
-  "cutoff": "2026-09-01T11:28:56Z",
+  "generated": "2026-10-01T12:44:05Z",
+  "cutoff": "2026-09-01T12:44:00Z",
   "feed_count": 102,
-  "item_count": 257,
+  "item_count": 268,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.100.0",
+      "url": "https://github.com/rust-lang/cargo/releases/tag/0.100.0",
+      "published": "2026-10-01T12:41:10Z",
+      "preview": "0.100.0 release",
+      "source": "Cargo releases",
+      "category": "Rust"
+    },
+    {
+      "title": "44.128.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.128.0",
+      "published": "2026-10-01T11:48:29Z",
+      "preview": "44.128.0 (2026-10-01) Features npm: support devEngines.runtime and devEngines.packageManager ( #43369 ) ( ff0e5ee ), closes #38598",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "20261001t111400-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261001t111400-all",
@@ -71,12 +87,68 @@
       "category": "Multi-language"
     },
     {
+      "title": "SDK-3.14.0-291.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-291.0.dev",
+      "published": "2026-10-01T04:17:33Z",
+      "preview": "SDK 3.14.0-291.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-290.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-290.0.dev",
+      "published": "2026-10-01T04:17:31Z",
+      "preview": "SDK 3.14.0-290.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-289.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-289.0.dev",
+      "published": "2026-10-01T04:17:28Z",
+      "preview": "SDK 3.14.0-289.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-288.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-288.0.dev",
+      "published": "2026-10-01T04:17:24Z",
+      "preview": "SDK 3.14.0-288.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-287.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-287.0.dev",
+      "published": "2026-10-01T04:17:22Z",
+      "preview": "SDK 3.14.0-287.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-286.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-286.0.dev",
+      "published": "2026-10-01T04:17:18Z",
+      "preview": "SDK 3.14.0-286.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
       "title": "44.126.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.126.1",
       "published": "2026-10-01T00:51:15Z",
       "preview": "44.126.1 (2026-10-01) Build System deps: update aws-sdk-js-v3 monorepo to v3.1139.0 (main) ( #46617 ) ( 1c5c67e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "Announcing Rust 1.99.0",
+      "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
+      "published": "2026-10-01T00:00:00Z",
+      "preview": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.99.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.99.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "cabal-head",
@@ -247,14 +319,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "44.124.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.124.1",
-      "published": "2026-09-30T11:03:39Z",
-      "preview": "44.124.1 (2026-09-30) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.104.3 (main) ( #46583 ) ( a25a464 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v4.0.22",
       "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.22",
       "published": "2026-09-30T08:06:14Z",
@@ -269,6 +333,38 @@
       "preview": "✨ Highlights This release contains changes that may be considered breaking. Manifest authors should review: checkver GitHub mode requires explicit github: key ( #6641 ): manifests using url: with a GitHub URL for checkver must switch to github: to opt into the GitHub token path. Token usage is now scoped to explicit github mode only. checkver GitHub mode defaults changed ( #6653 ): new default jsonpath / regex for GitHub-based version checks. checkver.script behavior is affected — verify scripts still resolve the expected version. install.json / manifest.json renamed to scoop-install.json / sc",
       "source": "Scoop releases",
       "category": "System"
+    },
+    {
+      "title": "SDK-3.14.0-285.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-285.0.dev",
+      "published": "2026-09-30T04:05:45Z",
+      "preview": "SDK 3.14.0-285.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-284.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-284.0.dev",
+      "published": "2026-09-30T04:05:42Z",
+      "preview": "SDK 3.14.0-284.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-283.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-283.0.dev",
+      "published": "2026-09-30T04:05:40Z",
+      "preview": "SDK 3.14.0-283.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-282.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-282.0.dev",
+      "published": "2026-09-30T04:05:37Z",
+      "preview": "SDK 3.14.0-282.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
     },
     {
       "title": "pnpm 12.8.2",
@@ -2069,14 +2165,6 @@
       "preview": "Change-Id: I14348d1dc655281274a8731f077ae62725175397 Reviewed-on: https://go-review.googlesource.com/c/go/+/825985 Reviewed-by: David Chase drchase@google.com Reviewed-by: Michael Pratt mpratt@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org",
       "source": "Go releases",
       "category": "Go"
-    },
-    {
-      "title": "6.0.21",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.21",
-      "published": "2026-09-01T12:22:13Z",
-      "preview": "What's Changed Harden build prefix relocation of poured bottles by @MikeMcQuaid in #23667 Harden build prefix relocation of poured bottles by @MikeMcQuaid in #23670 Drop macOS Intel CI in Homebrew/core by @p-linnane in #23677 formula: use -Wno-author in std_cmake_args by @p-linnane in #23676 docs: update brew tap 's description by @AlternateRT in #23687 bundle/mac_app_store: Support upcoming mas 8.0.0 by @rgoldberg in #23690 Handle absent cask bundle version suffixes by @MikeMcQuaid in #23688 Speed up and expand integration coverage by @MikeMcQuaid in #23684 Split slow test jobs by @MikeMcQuai",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
