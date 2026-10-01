@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01T18:38:08Z",
-  "cutoff": "2026-09-01T18:38:02Z",
+  "generated": "2026-10-01T19:28:37Z",
+  "cutoff": "2026-09-01T19:28:31Z",
   "feed_count": 102,
-  "item_count": 273,
+  "item_count": 274,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,22 @@
   ],
   "items": [
     {
+      "title": "v0.19.2",
+      "url": "https://github.com/gomods/athens/releases/tag/v0.19.2",
+      "published": "2026-10-01T18:57:09Z",
+      "preview": "A rerelease of https://github.com/gomods/athens/releases/tag/v0.19.0",
+      "source": "Athens releases",
+      "category": "Go"
+    },
+    {
+      "title": "v1.12.7",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.7",
+      "published": "2026-10-01T18:40:21Z",
+      "preview": "SECURITY ADVISORIES: When using either a remote-exec or file provisioner to connect to an attacker-controlled SSH server, the server could previously deadlock the connection by sending certain unexpected packet types. ( #4551 ) This addresses the upstream Go security advisories CVE-2026-78662 and CVE-2026-56855 .",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
       "title": "v0.19.1",
       "url": "https://github.com/gomods/athens/releases/tag/v0.19.1",
       "published": "2026-10-01T18:36:17Z",
@@ -37,14 +53,6 @@
       "preview": "0.6.1 Changelog client: add WithHTTPRequestHook option. moby/moby#53671 client: deprecate WithResponseHook in favor of WithHTTPResponseHook . moby/moby#53666 client: fix WithHTTPResponseHook hooks not being called for hijacked HTTP connections. moby/moby#53821 client: postRaw: use consistent order or arguments. moby/moby#53677 client: prevent response hooks from consuming response body. moby/moby#53667 client: remove redundant cloning of response hooks. moby/moby#53822 client: update github.com/docker/go-connections v0.8.1. moby/moby#53708 golangci-lint: enable usetesting linter. moby/moby#537",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "v1.12.7",
-      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.7",
-      "published": "2026-10-01T18:00:40Z",
-      "preview": "v1.12.7",
-      "source": "OpenTofu releases",
-      "category": "Infrastructure as Code"
     },
     {
       "title": "api/v1.56.1",
