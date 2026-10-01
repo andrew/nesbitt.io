@@ -1,8 +1,8 @@
 {
-  "generated": "2026-09-30T23:28:03Z",
-  "cutoff": "2026-08-31T23:27:58Z",
+  "generated": "2026-10-01T01:17:09Z",
+  "cutoff": "2026-09-01T01:17:04Z",
   "feed_count": 102,
-  "item_count": 263,
+  "item_count": 256,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.126.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.126.1",
+      "published": "2026-10-01T00:51:15Z",
+      "preview": "44.126.1 (2026-10-01) Build System deps: update aws-sdk-js-v3 monorepo to v3.1139.0 (main) ( #46617 ) ( 1c5c67e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -229,14 +237,6 @@
       "preview": "RubyGems 4.0.22 Enhancements: Add --source option to gem exec command. Pull request #9765 by Akshay Birajdar Keep credentials on redirects only within the same origin. Pull request #9909 by Hiroshi SHIBATA Validate the version field in Gem::Installer#verify_spec. Pull request #9890 by Hiroshi SHIBATA Installs bundler 4.0.22 as a default gem. Bug fixes: Remove the build_info file on uninstall and stop gem build from logging unknown extensions. Pull request #9894 by Hiroshi SHIBATA Bundler 4.0.22 Enhancements: Report the effective platform in bundle platform . Pull request #9898 by Islam Elsayed",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "44.122.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.122.1",
-      "published": "2026-09-30T07:41:07Z",
-      "preview": "44.122.1 (2026-09-30) Build System deps: update dependency prettier to v3.9.9 (main) ( #46569 ) ( 5bb3d23 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Version 0.6.0",
@@ -2069,62 +2069,6 @@
       "preview": "Feature: Add basic LoongArch64 architecture support and host detection. ( #20288 ) Feature: Add support for Xcode 26.6 . ( #20280 ) Feature: Add support for gcc 16.2 . ( #20280 ) Feature: Parse reference attributes from --ref in workspace add . ( #20269 ) Feature: Add raise_on_errors=True arg to CommandAPI.run , it now raises on all errors returned by commands. ( #20266 ) Feature: XcodeToolchain now accepts arbitrary extra xcconfig settings via tc.build_settings , for build settings with no dedicated conf. ( #20256 ). Docs: 📃 Feature: conan workspace open with no arguments will read the conanw",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "SDK-3.14.0-184.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-184.0.dev",
-      "published": "2026-09-01T00:34:16Z",
-      "preview": "SDK 3.14.0-184.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-183.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-183.0.dev",
-      "published": "2026-09-01T00:34:13Z",
-      "preview": "SDK 3.14.0-183.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-182.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-182.0.dev",
-      "published": "2026-09-01T00:34:11Z",
-      "preview": "SDK 3.14.0-182.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-181.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-181.0.dev",
-      "published": "2026-09-01T00:34:08Z",
-      "preview": "SDK 3.14.0-181.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "Private package authorization vulnerabilities",
-      "url": "https://hex.pm/blog/private-package-authorization-vulnerabilities",
-      "published": "2026-09-01T00:00:00Z",
-      "preview": "On 24 August 2026 we found and fixed two vulnerabilities in how hex.pm issues OAuth tokens. Both could give an account read access to private packages of an organization it was not entitled to. Neither was being exploited when we found them: no active token carried a scope for an organization its holder could not access. Whether either had been used earlier we cannot say, because the records that would settle that had been deleted by routine cleanup. This post describes both vulnerabilities, what we could and could not establish, and what we changed in authorization and in logging. Organizatio",
-      "source": "Hex Blog",
-      "category": "Elixir"
-    },
-    {
-      "title": "Roman Pronskiy Leaves The PHP Foundation Board and Brent Roose Joins",
-      "url": "https://thephp.foundation/blog/2026/09/01/welcome-brent-roose/",
-      "published": "2026-09-01T00:00:00Z",
-      "preview": "The PHP Foundation is excited to announce the addition of Brent Roose from JetBrains to the Foundation's Board of Directors. Brent fills the JetBrains Platinum Sponsor seat and was unanimously voted to join by the existing members. Brent is a developer advocate for PHP at JetBrains, but he is also a writer, content creator, event organizer, community leader, and open source contributor. He is a well-recognized voice on PHP Annotated , maintains an active blog at stitcher.io , and is the creator of the Tempest framework for PHP, one of his bigger open source projects. PHP has been my passion fo",
-      "source": "PHP Foundation Blog",
-      "category": "PHP"
-    },
-    {
-      "title": "Announcing rustup 1.29.1",
-      "url": "https://blog.rust-lang.org/2026/09/01/Rustup-1.29.1/",
-      "published": "2026-09-01T00:00:00Z",
-      "preview": "The rustup team is happy to announce the release of rustup version 1.29.1. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What's new in rustup 1.29.1 The headlines of this release are: Concurrency in certain rustup operations has been improved: When running rustup update , rustup will first check for possible updates in parallel. pr#4752 When running rustup component add with multiple components, they will be installed concurrently. pr#4790 Implicit installation of the active toolchain in rustup-init and ",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
