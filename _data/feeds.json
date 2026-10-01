@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01T09:35:49Z",
-  "cutoff": "2026-09-01T09:35:44Z",
+  "generated": "2026-10-01T11:29:02Z",
+  "cutoff": "2026-09-01T11:28:56Z",
   "feed_count": 102,
-  "item_count": 256,
+  "item_count": 257,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "20261001t111400-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261001t111400-all",
+      "published": "2026-10-01T11:14:57Z",
+      "preview": "Deployment at 2026-10-01T11:14:55.901518Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.127.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.127.2",
+      "published": "2026-10-01T11:10:31Z",
+      "preview": "44.127.2 (2026-10-01) Bug Fixes datasource/go: check GitHub Tags for a later release timestamp ( #46631 ) ( 57bd81f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.127.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.127.1",
@@ -235,14 +251,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.124.1",
       "published": "2026-09-30T11:03:39Z",
       "preview": "44.124.1 (2026-09-30) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.104.3 (main) ( #46583 ) ( a25a464 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.124.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.124.0",
-      "published": "2026-09-30T10:27:08Z",
-      "preview": "44.124.0 (2026-09-30) Features workers/repository: log date of last merged PR in repo stats ( #46557 ) ( 2088cac )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
