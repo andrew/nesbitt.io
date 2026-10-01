@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01T01:17:09Z",
-  "cutoff": "2026-09-01T01:17:04Z",
+  "generated": "2026-10-01T07:40:46Z",
+  "cutoff": "2026-09-01T07:40:42Z",
   "feed_count": 102,
-  "item_count": 256,
+  "item_count": 257,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "26.9.0",
+      "url": "https://github.com/conda/conda/releases/tag/26.9.0",
+      "published": "2026-10-01T07:17:01Z",
+      "preview": "✨ Special announcements ✨ Upcoming change to automatic pip installation Conda 26.9 marks the implicit installation of pip alongside Python as pending deprecation. It remains enabled by default in this release. The behavior becomes deprecated in conda 27.3, and add_pip_as_python_dependency will default to false in conda 27.9. The setting itself remains supported. If your environments need pip, request it explicitly, for example with conda create -n myenv python pip . To retain automatic installation, run conda config --set add_pip_as_python_dependency true . To opt out early, run conda config -",
+      "source": "Conda releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.126.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.126.1",
