@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-01T13:34:11Z",
-  "cutoff": "2026-09-01T13:34:04Z",
+  "generated": "2026-10-01T14:34:07Z",
+  "cutoff": "2026-09-01T14:34:00Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.128.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.128.2",
+      "published": "2026-10-01T14:05:22Z",
+      "preview": "44.128.2 (2026-10-01) Bug Fixes changelog: only cache release notes on a cache miss ( #46612 ) ( 86bc5d0 ) Miscellaneous Chores deps: update dependency vite to v8.3.1 (main) ( #46636 ) ( 5733f4b ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.23.0 (main) ( #46642 ) ( 9f775c6 ) wrap \"why no reproduction\" in a code block ( #46606 ) ( 7035e11 ) Continuous Integration label pr size for forks via workflow_run ( #46576 ) ( c160056 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.128.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.128.1",
@@ -245,14 +253,6 @@
       "preview": "OpenTofu 1.13.0 We're proud to announce that OpenTofu 1.13.0 is now officially available! 🎉 Highlights Windows on ARM64 is now a supported platform Starting with OpenTofu v1.13.0 we are now offering official packages targeting Windows on the ARM64 (also known as \"aarch64\") CPU architecture. Reducing unknowns during planning OpenTofu v1.13 introduces a number of new functions that are all intended to allow module authors to give OpenTofu additional hints about what they know to be true even though OpenTofu cannot infer it automatically. Linting Experiment OpenTofu v1.13 includes some very early",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "44.125.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.125.0",
-      "published": "2026-09-30T13:33:35Z",
-      "preview": "44.125.0 (2026-09-30) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.105.0 (main) ( #46598 ) ( f998d68 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.21.0 (main) ( #46590 ) ( 1be3a5f ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.21.1 (main) ( #46597 ) ( 90ac1f1 ) Tests always clear hostRules after each test ( #46582 ) ( a2704ed ) remove redundant hostRules.clear() calls ( #46584 ) ( 8b3a066 ) Continuous Integration use github.token for the workflow token everywhere ( #46591 ) ( 13aad80 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.9.18: Remote config includes, OCI task catalogs, and a trust fix for inline tool options",
