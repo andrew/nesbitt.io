@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-01T14:34:07Z",
-  "cutoff": "2026-09-01T14:34:00Z",
+  "generated": "2026-10-01T15:31:53Z",
+  "cutoff": "2026-09-01T15:31:46Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.129.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.129.0",
+      "published": "2026-10-01T15:22:42Z",
+      "preview": "44.129.0 (2026-10-01) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.107.0 (main) ( #46644 ) ( 3e26f8a ) Code Refactoring datasource/conda: match prefix.dev by hostname ( #46364 ) ( 83d6ded )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.128.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.128.3",
+      "published": "2026-10-01T14:45:59Z",
+      "preview": "44.128.3 (2026-10-01) Bug Fixes datasource/docker: correct source URLs for Podman, Buildah, and Skopeo ( #46643 ) ( 3e04df0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.128.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.128.2",
@@ -191,14 +207,6 @@
       "category": "Containers"
     },
     {
-      "title": "44.125.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.125.2",
-      "published": "2026-09-30T19:15:32Z",
-      "preview": "44.125.2 (2026-09-30) Bug Fixes datasource: document first as the default registry strategy ( #46104 ) ( fc57966 ), closes #40497 Miscellaneous Chores deps: update docker/dockerfile docker tag to v1.27.1 (main) ( #46608 ) ( fd9f0a8 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.22.0 (main) ( #46609 ) ( 1777a89 ) Code Refactoring datasource: derive the lookup config types from each other ( #46107 ) ( d706bb2 ) datasource: make postprocessRelease an optional method ( #46105 ) ( 7c85eeb ) datasource: resolve registry URLs with early returns ( #46106 ) ( 0b16fce ), closes #158",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "cabal-install-v3.18.2.0",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0",
       "published": "2026-09-30T18:28:13Z",
@@ -237,14 +245,6 @@
       "preview": "pnpm 11.28.3 updates undici to clear a security advisory, fixes \"database disk image is malformed\" errors when several pnpm processes share a store, and makes packages, catalogs, projects, and commands named like constructor work. Patch Changes Installing packages pnpm now ships undici 7.29.1, so security scans of pnpm no longer report GHSA-3wwx-pv8p-q78v . pnpm no longer fails with \"database disk image is malformed\" or reads stale store entries while another pnpm process writes to the same store. Names that match built-in JavaScript object properties, such as constructor , toString , or __pro",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.125.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.125.1",
-      "published": "2026-09-30T14:29:14Z",
-      "preview": "44.125.1 (2026-09-30) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.105.1 (main) ( #46599 ) ( d2dc1b6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.13.0",
