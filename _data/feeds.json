@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01T21:29:00Z",
-  "cutoff": "2026-09-01T21:28:54Z",
+  "generated": "2026-10-01T22:27:51Z",
+  "cutoff": "2026-09-01T22:27:46Z",
   "feed_count": 102,
-  "item_count": 272,
+  "item_count": 271,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.131.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.131.1",
+      "published": "2026-10-01T21:48:50Z",
+      "preview": "44.131.1 (2026-10-01) Build System deps: update dependency @yarnpkg/core to v4.9.2 (main) ( #46651 ) ( 81c2a3f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v29.9.0-rc.1",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.0-rc.1",
@@ -189,14 +197,6 @@
       "preview": "🚀 New features and improvements Maven 3.10.x should use Maven 3.1 validation in strict mode ( #1542 ) @gnodet Do not depend on maven-resolver-supplier-mvn3 ( #13266 ) @cstamas [MNG-6797] - Remember if Maven model problems were encountered. ( #298 ) @wilx feat: add relativePath validation ( #12742 ) @cstamas Add validation for Plexus-based plugin dependency injection ( #12651 ) @slawekjaranowski Introduce validation control ( #12549 ) @cstamas Update to Resolver 2.0.21 ( #12504 ) @cstamas [MNG-5913] - Allow defining aliases for existing server configurations in settings.xml ( #12475 ) @slawekja",
       "source": "Maven releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.127.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.127.0",
-      "published": "2026-10-01T08:07:58Z",
-      "preview": "44.127.0 (2026-10-01) Features manager/mise: support remote include and git task files ( #46611 ) ( 8f2ffc0 ) Miscellaneous Chores agents: give the stop hook its own coverage directory ( #46586 ) ( d43f4ab ) agents: skip the stop hook check when nothing changed ( #46588 ) ( bb473f4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "26.9.0",
@@ -2189,14 +2189,6 @@
       "preview": "pnpm 12.2 and 12.3 are largely a catch-up pair: a long list of things pnpm 11 did that the Rust CLI did not, put back. Catalogs learned the workspace: protocol, pnpm remove and pnpm update gained the supply-chain flags, every project-aware global command became a real executable, and hostname...",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "1.17.2",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.2",
-      "published": "2026-09-01T21:51:25Z",
-      "preview": "What's Changed Avoid KeyError in _REQUIRES_PYTHON_SCRIPT by @Cycloctane in #2026 Full Changelog : 1.17.1...1.17.2",
-      "source": "pipx releases",
-      "category": "Python"
     }
   ]
 }
