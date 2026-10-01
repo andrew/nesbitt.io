@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-01T12:44:05Z",
-  "cutoff": "2026-09-01T12:44:00Z",
+  "generated": "2026-10-01T13:34:11Z",
+  "cutoff": "2026-09-01T13:34:04Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.128.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.128.1",
+      "published": "2026-10-01T13:15:23Z",
+      "preview": "44.128.1 (2026-10-01) Build System deps: update dependency openpgp to v6.3.2 (main) ( #46634 ) ( b85e89b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.100.0",
       "url": "https://github.com/rust-lang/cargo/releases/tag/0.100.0",
@@ -285,14 +293,6 @@
       "preview": "Cabal-v3.18.2.0",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.124.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.124.2",
-      "published": "2026-09-30T11:20:31Z",
-      "preview": "44.124.2 (2026-09-30) Bug Fixes manager/npm: compute corepack hash from registry integrity ( #46526 ) ( 013ab72 ) manager/npm: look up yarn berry as @yarnpkg/cli-dist ( #46525 ) ( 0dc8d8b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "vfox-v2026.9.20",
