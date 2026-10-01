@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01T19:28:37Z",
-  "cutoff": "2026-09-01T19:28:31Z",
+  "generated": "2026-10-01T20:33:37Z",
+  "cutoff": "2026-09-01T20:33:31Z",
   "feed_count": 102,
-  "item_count": 274,
+  "item_count": 272,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.131.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.131.0",
+      "published": "2026-10-01T20:12:50Z",
+      "preview": "44.131.0 (2026-10-01) Features manager/helmfile: pass helm host rule credentials for classic repositories ( #46573 ) ( 07cee91 ) manager/kustomize: use host rule credentials when inflating helm charts ( #46519 ) ( c4519c9 ) Miscellaneous Chores deps: update cbrgm/pr-size-labeler-action action to v1.3.14 (main) ( #46650 ) ( 3500c11 ) Code Refactoring manager/helmv3: share helm repository credential args ( #46571 ) ( 244d8b5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v0.19.2",
       "url": "https://github.com/gomods/athens/releases/tag/v0.19.2",
@@ -229,14 +237,6 @@
       "preview": "SDK 3.14.0-286.0.dev",
       "source": "Pub releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.126.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.126.1",
-      "published": "2026-10-01T00:51:15Z",
-      "preview": "44.126.1 (2026-10-01) Build System deps: update aws-sdk-js-v3 monorepo to v3.1139.0 (main) ( #46617 ) ( 1c5c67e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Announcing Rust 1.99.0",
@@ -2197,22 +2197,6 @@
       "preview": "What's Changed Avoid KeyError in _REQUIRES_PYTHON_SCRIPT by @Cycloctane in #2026 Full Changelog : 1.17.1...1.17.2",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "[release-branch.go1.26] go1.26.8",
-      "url": "https://github.com/golang/go/releases/tag/go1.26.8",
-      "published": "2026-09-01T19:56:19Z",
-      "preview": "Change-Id: Id4a4603dc387badef0164e9463093ccd636b67ac Reviewed-on: https://go-review.googlesource.com/c/go/+/825885 Reviewed-by: David Chase drchase@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Michael Pratt mpratt@google.com",
-      "source": "Go releases",
-      "category": "Go"
-    },
-    {
-      "title": "[release-branch.go1.27] go1.27.1",
-      "url": "https://github.com/golang/go/releases/tag/go1.27.1",
-      "published": "2026-09-01T19:52:53Z",
-      "preview": "Change-Id: I14348d1dc655281274a8731f077ae62725175397 Reviewed-on: https://go-review.googlesource.com/c/go/+/825985 Reviewed-by: David Chase drchase@google.com Reviewed-by: Michael Pratt mpratt@google.com TryBot-Bypass: Gopher Robot gobot@golang.org Auto-Submit: Gopher Robot gobot@golang.org",
-      "source": "Go releases",
-      "category": "Go"
     }
   ]
 }
