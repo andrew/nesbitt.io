@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01T22:27:51Z",
-  "cutoff": "2026-09-01T22:27:46Z",
+  "generated": "2026-10-01T23:27:06Z",
+  "cutoff": "2026-09-01T23:27:00Z",
   "feed_count": 102,
-  "item_count": 271,
+  "item_count": 272,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,70 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.17.9",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.9",
+      "published": "2026-10-01T23:15:01Z",
+      "preview": "Release 1.17.9",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.0",
+      "published": "2026-10-01T23:02:14Z",
+      "preview": "add per-cask app directory overrides by @jdx in [ #13865 ]( https://gi…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.0",
+      "published": "2026-10-01T23:01:46Z",
+      "preview": "Release vfox 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-brew-metadata-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-brew-metadata-v2026.10.0",
+      "published": "2026-10-01T23:01:35Z",
+      "preview": "Release mise-brew-metadata 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.0",
+      "published": "2026-10-01T23:01:30Z",
+      "preview": "Release mise-util 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.0",
+      "published": "2026-10-01T23:01:23Z",
+      "preview": "Release mise-sigstore 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.0",
+      "published": "2026-10-01T23:01:16Z",
+      "preview": "Release mise-settings 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.131.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.131.2",
+      "published": "2026-10-01T22:44:44Z",
+      "preview": "44.131.2 (2026-10-01) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.108.1 (main) ( #46652 ) ( 42036fa )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.131.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.131.1",
@@ -179,14 +243,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.127.2",
       "published": "2026-10-01T11:10:31Z",
       "preview": "44.127.2 (2026-10-01) Bug Fixes datasource/go: check GitHub Tags for a later release timestamp ( #46631 ) ( 57bd81f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.127.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.127.1",
-      "published": "2026-10-01T09:05:51Z",
-      "preview": "44.127.1 (2026-10-01) Bug Fixes http: skip throttle and queue for cached responses ( #46622 ) ( f3ec5e6 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -543,38 +599,6 @@
       "category": "Registries"
     },
     {
-      "title": "v2026.9.17: Self-update waits 24 hours for new releases and verifies signed packslips",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.17",
-      "published": "2026-09-29T10:06:19Z",
-      "preview": "mise self-update and the mise.run installer now pick the newest stable release that is at least 24 hours old. Updates also check the release's signed packslip before replacing the binary. This release also adds a machine-local global miserc , an opt-in way for command-not-found to install registry tools, and a postinstall mode that runs on every install. It fixes several Homebrew formula builds and closes a trust gap in paranoid mode. Changed Self-update and installs wait for a minimum release age. When no version is pinned, mise self-update , automatic updates, update notifications, and the m",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.9.19",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.19",
-      "published": "2026-09-29T08:39:47Z",
-      "preview": "Release vfox 2026.9.19",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.9.3",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.9.3",
-      "published": "2026-09-29T08:39:12Z",
-      "preview": "Release mise-util 2026.9.3",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.9.3",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.9.3",
-      "published": "2026-09-29T08:38:59Z",
-      "preview": "Release mise-settings 2026.9.3",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "15 years of Packagist: Over 200 billion package installs",
       "url": "https://blog.packagist.com/15-years-of-packagist-over-200-billion-package-installs/",
       "published": "2026-09-29T08:04:48Z",
@@ -671,28 +695,12 @@
       "category": "Maven"
     },
     {
-      "title": "v2026.9.16: Per-tool libc for aqua tools, monorepo task path aliases, and packslip pins that survive repo renames",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.16",
-      "published": "2026-09-28T10:27:35Z",
-      "preview": "Aqua tools can now choose glibc or musl builds one tool at a time, and monorepo roots can get short task path aliases. Packslip tools keep installing after their GitHub or GitLab repository is renamed, because mise now pins them by repository ID, recorded in a new lockfile revision 3. SLSA provenance checks now require the expected signer identity. This release also fixes regressions in mise run --no-timings , cargo +nightly and the outdated / upgrade version comparison, and speeds up shims and config loading. Added Per-tool libc for aqua tools. On glibc Linux, mise prefers a release's gnu bui",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-26-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-26-a",
       "published": "2026-09-28T08:52:27Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-26-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "vfox-v2026.9.18",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.18",
-      "published": "2026-09-28T08:45:53Z",
-      "preview": "Release vfox 2026.9.18",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "7.0.7",
