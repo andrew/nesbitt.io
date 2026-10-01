@@ -145,10 +145,41 @@ def dblp_authors(info)
   a.map { |x| x.is_a?(Hash) ? x["text"] : x }.compact
 end
 
-def collect_dblp
+def collect_openalex(since, seen)
+  hits = {}
+  DBLP_TERMS.each do |term|
+    filter = %(from_publication_date:#{since.strftime("%F")},title_and_abstract.search:"#{term}")
+    q = URI.encode_www_form([["filter", filter], ["per-page", 50], ["sort", "publication_date:desc"]])
+    data = begin
+      http_get_json("https://api.openalex.org/works?#{q}")
+    rescue => e
+      warn "openalex term #{term.inspect} skipped: #{e.message}"
+      nil
+    end
+    next unless data
+    Array(data["results"]).each do |w|
+      key = w["id"].to_s.sub("https://openalex.org/", "")
+      next if key.empty?
+      loc = w["primary_location"] || {}
+      hits[key] ||= {
+        key: key,
+        title: w["title"].to_s.sub(/\.\z/, ""),
+        authors: Array(w["authorships"]).map { |a| a.dig("author", "display_name") }.compact,
+        venue: loc.dig("source", "display_name"),
+        year: w["publication_year"],
+        url: w.dig("open_access", "oa_url") || w["doi"] || loc["landing_page_url"] || w["id"],
+        new: !seen.include?(key)
+      }
+    end
+  end
+  hits
+end
+
+def collect_dblp(since)
   min_year = Time.now.year - 1
   seen = File.exist?(DBLP_SEEN) ? File.readlines(DBLP_SEEN, chomp: true).to_set : Set.new
   hits = {}
+  any_ok = false
   DBLP_TERMS.each do |term|
     q = URI.encode_www_form(q: term, format: "json", h: 50)
     data = begin
@@ -158,6 +189,7 @@ def collect_dblp
       nil
     end
     next unless data
+    any_ok = true
     Array(data.dig("result", "hits", "hit")).each do |h|
       info = h["info"] or next
       key = info["key"] or next
@@ -172,6 +204,10 @@ def collect_dblp
         new: !seen.include?(key)
       }
     end
+  end
+  unless any_ok
+    warn "dblp unreachable, falling back to OpenAlex"
+    hits = collect_openalex(since, seen)
   end
   new_hits = hits.values.select { |h| h[:new] }
   File.write(DBLP_SEEN, (seen.to_a + new_hits.map { |h| h[:key] }).sort.uniq.join("\n") + "\n") unless new_hits.empty?
@@ -191,7 +227,7 @@ feed_items = opml_items + extra_items + collect_mastodon_boosts(since)
 collapsed = collapse_releases(feed_items)
 
 git_pkgs = collect_git_pkgs_releases(since)
-dblp = collect_dblp
+dblp = collect_dblp(since)
 
 result = {
   since: since.utc.iso8601,
