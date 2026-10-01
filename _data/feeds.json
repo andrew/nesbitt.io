@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01T16:31:49Z",
-  "cutoff": "2026-09-01T16:31:43Z",
+  "generated": "2026-10-01T17:28:59Z",
+  "cutoff": "2026-09-01T17:28:54Z",
   "feed_count": 102,
-  "item_count": 269,
+  "item_count": 270,
   "categories": [
     ".NET",
     "C/C++",
@@ -25,10 +25,18 @@
     {
       "title": "v1.13.1",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.1",
-      "published": "2026-10-01T16:06:04Z",
-      "preview": "v1.13.1",
+      "published": "2026-10-01T17:15:15Z",
+      "preview": "BUG FIXES: tofu show -json <planfile> now works again when ephemeral resources are present in the configuration. ( 4623 ). Ephemeral output values are now always re-evaluated during the apply phase, instead of sometimes using stale values from the planning phase. ( #4582 )",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
+    },
+    {
+      "title": "v0.19.0",
+      "url": "https://github.com/gomods/athens/releases/tag/v0.19.0",
+      "published": "2026-10-01T17:01:43Z",
+      "preview": "What's Changed Add -verify-storage to purge checksum-mismatched modules from storage ( #2145 ) by @matt0x6F in #2146 docs: updating config.dev.toml to state NetworkMode env override by @deweesevs in #2150 Add a Cache-Control config option for module file endpoints by @ChrisJr404 in #2153 feat: Add support for upstream trace headers as request ID by @captainp1an3t in #2124 chore(deps): bump google.golang.org/grpc from 1.81.1 to 1.83.1 by @dependabot [bot] in #2155 update-go-pkg(deps): bump go.opentelemetry.io/otel from 1.43.0 to 1.44.0 by @dependabot [bot] in #2142 update-github-action(deps): b",
+      "source": "Athens releases",
+      "category": "Go"
     },
     {
       "title": "44.129.0",
