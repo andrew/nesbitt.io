@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01T07:40:46Z",
-  "cutoff": "2026-09-01T07:40:42Z",
+  "generated": "2026-10-01T08:41:10Z",
+  "cutoff": "2026-09-01T08:41:02Z",
   "feed_count": 102,
-  "item_count": 257,
+  "item_count": 256,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "3.10.0",
+      "url": "https://github.com/apache/maven/releases/tag/maven-3.10.0",
+      "published": "2026-10-01T08:29:33Z",
+      "preview": "🚀 New features and improvements Maven 3.10.x should use Maven 3.1 validation in strict mode ( #1542 ) @gnodet Do not depend on maven-resolver-supplier-mvn3 ( #13266 ) @cstamas [MNG-6797] - Remember if Maven model problems were encountered. ( #298 ) @wilx feat: add relativePath validation ( #12742 ) @cstamas Add validation for Plexus-based plugin dependency injection ( #12651 ) @slawekjaranowski Introduce validation control ( #12549 ) @cstamas Update to Resolver 2.0.21 ( #12504 ) @cstamas [MNG-5913] - Allow defining aliases for existing server configurations in settings.xml ( #12475 ) @slawekja",
+      "source": "Maven releases",
+      "category": "Maven"
+    },
+    {
+      "title": "44.127.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.127.0",
+      "published": "2026-10-01T08:07:58Z",
+      "preview": "44.127.0 (2026-10-01) Features manager/mise: support remote include and git task files ( #46611 ) ( 8f2ffc0 ) Miscellaneous Chores agents: give the stop hook its own coverage directory ( #46586 ) ( d43f4ab ) agents: skip the stop hook check when nothing changed ( #46588 ) ( bb473f4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "26.9.0",
       "url": "https://github.com/conda/conda/releases/tag/26.9.0",
@@ -227,14 +243,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.123.1",
       "published": "2026-09-30T09:45:00Z",
       "preview": "44.123.1 (2026-09-30) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.104.2 (main) ( #46578 ) ( f07a353 ) versioning/semver-coerced: allow leading zeros in semver-coerced versioning for CalVer support ( #45272 ) ( 70e3d9d ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.20.3 (main) ( #46577 ) ( 22885ec )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.123.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.123.0",
-      "published": "2026-09-30T08:06:58Z",
-      "preview": "44.123.0 (2026-09-30) Features manager/github-actions: support voidzero-dev/setup-vp inputs ( #46495 ) ( 0dd6088 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -581,14 +589,6 @@
       "preview": "pnpm 12.8 warns when pnpm pack or pnpm publish would ship a .env file, installs sharedWorkspaceLockfile: false workspaces concurrently, applies every setting passed as --config. = , and no longer leaves the Windows terminal stuck after Ctrl+C in a script. This release also carries a...",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "maven-3.10.0",
-      "url": "https://github.com/apache/maven/releases/tag/maven-3.10.0",
-      "published": "2026-09-27T20:38:49Z",
-      "preview": "[maven-release-plugin] copy for tag maven-3.10.0",
-      "source": "Maven releases",
-      "category": "Maven"
     },
     {
       "title": "@verdaccio/test-helper@5.0.0-next-9.34",
@@ -2069,14 +2069,6 @@
       "preview": "What's Changed Harden build prefix relocation of poured bottles by @MikeMcQuaid in #23667 Harden build prefix relocation of poured bottles by @MikeMcQuaid in #23670 Drop macOS Intel CI in Homebrew/core by @p-linnane in #23677 formula: use -Wno-author in std_cmake_args by @p-linnane in #23676 docs: update brew tap 's description by @AlternateRT in #23687 bundle/mac_app_store: Support upcoming mas 8.0.0 by @rgoldberg in #23690 Handle absent cask bundle version suffixes by @MikeMcQuaid in #23688 Speed up and expand integration coverage by @MikeMcQuaid in #23684 Split slow test jobs by @MikeMcQuai",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "2.32.0 (31-Aug-2026)",
-      "url": "https://github.com/conan-io/conan/releases/tag/2.32.0",
-      "published": "2026-09-01T08:01:25Z",
-      "preview": "Feature: Add basic LoongArch64 architecture support and host detection. ( #20288 ) Feature: Add support for Xcode 26.6 . ( #20280 ) Feature: Add support for gcc 16.2 . ( #20280 ) Feature: Parse reference attributes from --ref in workspace add . ( #20269 ) Feature: Add raise_on_errors=True arg to CommandAPI.run , it now raises on all errors returned by commands. ( #20266 ) Feature: XcodeToolchain now accepts arbitrary extra xcconfig settings via tc.build_settings , for build settings with no dedicated conf. ( #20256 ). Docs: 📃 Feature: conan workspace open with no arguments will read the conanw",
-      "source": "Conan releases",
-      "category": "C/C++"
     }
   ]
 }
