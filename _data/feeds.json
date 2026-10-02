@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-02T06:48:47Z",
-  "cutoff": "2026-09-02T06:48:42Z",
+  "generated": "2026-10-02T08:37:54Z",
+  "cutoff": "2026-09-02T08:37:49Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.132.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.2",
+      "published": "2026-10-02T08:25:12Z",
+      "preview": "44.132.2 (2026-10-02) Bug Fixes deps: downgrade @yarnpkg/core to 4.9.1 ( #46665 ) ( b12f39e ), closes yarnpkg/berry#7282",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.132.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.1",
@@ -227,14 +235,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.129.0",
       "published": "2026-10-01T15:22:42Z",
       "preview": "44.129.0 (2026-10-01) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.107.0 (main) ( #46644 ) ( 3e26f8a ) Code Refactoring datasource/conda: match prefix.dev by hostname ( #46364 ) ( 83d6ded )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.128.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.128.3",
-      "published": "2026-10-01T14:45:59Z",
-      "preview": "44.128.3 (2026-10-01) Bug Fixes datasource/docker: correct source URLs for Podman, Buildah, and Skopeo ( #46643 ) ( 3e04df0 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
