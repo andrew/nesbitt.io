@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-02T22:29:01Z",
-  "cutoff": "2026-09-02T22:28:56Z",
+  "generated": "2026-10-02T23:26:30Z",
+  "cutoff": "2026-09-02T23:26:23Z",
   "feed_count": 102,
-  "item_count": 273,
+  "item_count": 275,
   "categories": [
     ".NET",
     "C/C++",
@@ -127,6 +127,14 @@
       "category": "Python"
     },
     {
+      "title": "August and September 2026 Releases",
+      "url": "https://conda.org/blog/2026-10-02-september-releases",
+      "published": "2026-10-02T00:00:00Z",
+      "preview": "conda and conda-build 26.9.0 are out, with native Windows ARM64 launchers, package timestamp filtering, v1 recipe fixes, and more releases since July.",
+      "source": "Conda Blog",
+      "category": "Multi-language"
+    },
+    {
       "title": "Arch-specific SIMD in Go",
       "url": "https://go.dev/blog/archsimd",
       "published": "2026-10-02T00:00:00Z",
@@ -149,6 +157,14 @@
       "preview": null,
       "source": "Zig News",
       "category": "Registries"
+    },
+    {
+      "title": "pnpm 12.9.0",
+      "url": "https://pnpm.io/blog/releases/12.9.0",
+      "published": "2026-10-02T00:00:00Z",
+      "preview": "This release runs pnpm in StackBlitz WebContainers, adds a per-registry networkConcurrency setting, and records every installed project in the store. It also carries a security fix for pnpm login.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.131.3",
