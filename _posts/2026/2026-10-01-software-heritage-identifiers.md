@@ -7,6 +7,7 @@ tags:
   - open-source
   - package-management
   - swhid
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mwuwjnvolf2q"
 ---
 
 I spent Monday at the Software Heritage offices in Paris speaking at the CodeCommons plenary, and the [slides are on GitHub](https://github.com/andrew/code-commons/blob/main/slides.pdf). The talk was about connecting package identities to archived source code. Getting ready for it meant a couple of weeks poking at the SWH archive and its identifier scheme with a to-do list that kept growing, and I've ended up with a small pile of tools that are now feeding into ecosyste.ms, starting with the [research software service](https://science.ecosyste.ms/swhids).
