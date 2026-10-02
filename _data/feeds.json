@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-02T01:07:04Z",
-  "cutoff": "2026-09-02T01:07:00Z",
+  "generated": "2026-10-02T01:44:36Z",
+  "cutoff": "2026-09-02T01:44:29Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.0: Stricter signer checks for cosign and GitHub attestations, trust for inline options in .tool-versions",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.0",
+      "published": "2026-10-02T01:42:32Z",
+      "preview": "This release tightens supply-chain verification. Keyless cosign bundles must now match a pinned signer identity, and GitHub attestation workflow checks no longer accept partial matches. It also closes a .tool-versions trust gap that could leak GITHUB_TOKEN , adds a per-cask appdir option for Homebrew casks, and fixes problems with locked SLSA installs, musl hosts and mise backends switch . Security Inline tool options in .tool-versions now require trust. This is the .tool-versions version of the mise.toml fix in 2026.9.18. An untrusted project could ship a github: entry with inline options, su",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "0.12.22",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.22",
@@ -45,14 +53,6 @@
       "preview": "What's Changed Do not push an app script's shebang past the kernel's length limit by @feiiiiii5 in #2058 New Contributors @feiiiiii5 made their first contribution in #2058 Full Changelog : 1.17.8...1.17.9",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.0",
-      "published": "2026-10-01T23:02:14Z",
-      "preview": "add per-cask app directory overrides by @jdx in [ #13865 ]( https://gi…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.10.0",
