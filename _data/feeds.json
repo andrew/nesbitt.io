@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-02T16:32:58Z",
-  "cutoff": "2026-09-02T16:32:48Z",
+  "generated": "2026-10-02T17:29:08Z",
+  "cutoff": "2026-09-02T17:29:00Z",
   "feed_count": 102,
-  "item_count": 271,
+  "item_count": 270,
   "categories": [
     ".NET",
     "C/C++",
@@ -2181,14 +2181,6 @@
       "preview": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.98.1 Rust 1.98.1 fixes a miscompilation in vtable generation . In Rust 1.98.0, in some circumstances, rustc would incorrectly generate a trait object vtable with a null pointer where a function pointer should be. T",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "v6.1.1",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.1",
-      "published": "2026-09-02T16:35:51Z",
-      "preview": "Security This release addresses CVE-2026-17106 , where a crafted tar archive could write outside the extraction directory through the use of malicious links ( GHSA-hfg8-hc9c-6c3h ). Bugfixes Fixed broken rootlessport bind behavior with -p 0.0.0.0:... -p [::]:... which failed instead of binding both v4 and v6 separately. Podman Machine on WSL should now correctly forward ports again by binding separate IPv4 and IPv6 sockets to make the WSL forwarder logic work again ( #29377 ).",
-      "source": "Podman releases",
-      "category": "Containers"
     }
   ]
 }
