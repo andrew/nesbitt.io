@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-01T23:27:06Z",
-  "cutoff": "2026-09-01T23:27:00Z",
+  "generated": "2026-10-02T01:07:04Z",
+  "cutoff": "2026-09-02T01:07:00Z",
   "feed_count": 102,
-  "item_count": 272,
+  "item_count": 268,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,26 @@
   ],
   "items": [
     {
+      "title": "0.12.22",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.22",
+      "published": "2026-10-02T00:20:42Z",
+      "preview": "Release Notes Released on 2026-10-01. Python Add CPython 3.10.22, 3.11.17, 3.12.15, 3.13.16, and 3.14.8 ( #22147 ) Enhancements Accept uppercase release suffixes in wheel platform tags ( #22113 ) Record workspace-member default groups in lockfiles ( #22010 , #22103 ) Record workspace-member dependency-group Python requirements in lockfiles ( #22044 , #22103 ) Record default groups for non-project workspace roots in lockfiles ( #22104 ) Record dependency-group Python requirements for non-project workspace roots in lockfiles ( #22104 ) Format URLs and paths consistently in CLI messages ( #21937 ",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "44.131.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.131.3",
+      "published": "2026-10-01T23:44:59Z",
+      "preview": "44.131.3 (2026-10-01) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.108.2 (main) ( #46653 ) ( 7c914c6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "1.17.9",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.9",
-      "published": "2026-10-01T23:15:01Z",
-      "preview": "Release 1.17.9",
+      "published": "2026-10-01T23:34:50Z",
+      "preview": "What's Changed Do not push an app script's shebang past the kernel's length limit by @feiiiiii5 in #2058 New Contributors @feiiiiii5 made their first contribution in #2058 Full Changelog : 1.17.8...1.17.9",
       "source": "pipx releases",
       "category": "Python"
     },
@@ -237,14 +253,6 @@
       "preview": "Deployment at 2026-10-01T11:14:55.901518Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.127.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.127.2",
-      "published": "2026-10-01T11:10:31Z",
-      "preview": "44.127.2 (2026-10-01) Bug Fixes datasource/go: check GitHub Tags for a later release timestamp ( #46631 ) ( 57bd81f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "3.10.0",
@@ -1839,14 +1847,6 @@
       "category": "Infrastructure as Code"
     },
     {
-      "title": "0.12.12",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.12",
-      "published": "2026-09-09T16:45:15Z",
-      "preview": "Release Notes Released on 2026-09-09. The executables in our macOS and Windows release archives and uv and uv_build wheels are now code-signed. macOS executables are signed with an Apple Developer ID certificate and notarized by Apple. Windows executables have timestamped Authenticode signatures from Azure Artifact Signing. This enables verification of the release publisher and binary integrity, supports publisher-based allowlisting, and should reduce security warnings and antivirus false positives. Bug fixes Exclude distributions uploaded after the exclude-newer cutoff from lockfiles and gene",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
       "title": "v1.16.2",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.2",
       "published": "2026-09-09T13:22:31Z",
@@ -2165,38 +2165,6 @@
       "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 , CVE-2026-84361 ) Security: Sanitize URL-embedded usernames/token in a few more places ( #13045 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #13042 ) Full Changelog : 2.2.29...2.2.30",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "Goroutine Leak Profiles",
-      "url": "https://go.dev/blog/goroutine-leak-profiles",
-      "published": "2026-09-02T00:00:00Z",
-      "preview": "Go 1.27 includes new goroutine leak profiles.",
-      "source": "Go Blog",
-      "category": "Go"
-    },
-    {
-      "title": "Digital Sovereignty Is Written in PHP",
-      "url": "https://thephp.foundation/blog/2026/09/02/digital-sovereignty-is-written-in-php/",
-      "published": "2026-09-02T00:00:00Z",
-      "preview": "Germany is spending €108 million to move its federal websites onto a PHP application. The money is the budget for the eleventh version of the Government Site Builder, the German federal administration's standard content management solution: €26.88 million for product development and support, €73.2 million for migration and relaunch, €8 million for operations , phased over four years. More than 80 federal agencies and institutions already use it, and they have built well over 250 websites with it . In 2025, The PHP Foundation received $730,534 in total contributions . I am not going to argue fr",
-      "source": "PHP Foundation Blog",
-      "category": "PHP"
-    },
-    {
-      "title": "4.0.20 Released",
-      "url": "https://blog.rubygems.org/2026/09/02/4.0.20-released.html",
-      "published": "2026-09-02T00:00:00Z",
-      "preview": "RubyGems 4.0.20 includes enhancements, bug fixes and documentation and Bundler 4.0.20 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.20 RubyGems Release Notes Enhancements: Print a release notes link instead of the whole changelog on gem update --system . Pull request #9794 by hsbt Installs bundler 4.0.20 as a default gem. Bug fixes: Only coerce exact true and false gemrc values to booleans. Pull request #9822 by hsb",
-      "source": "RubyGems Blog",
-      "category": "Ruby"
-    },
-    {
-      "title": "pnpm 12.2-12.3",
-      "url": "https://pnpm.io/blog/releases/12.2-12.3",
-      "published": "2026-09-02T00:00:00Z",
-      "preview": "pnpm 12.2 and 12.3 are largely a catch-up pair: a long list of things pnpm 11 did that the Rust CLI did not, put back. Catalogs learned the workspace: protocol, pnpm remove and pnpm update gained the supply-chain flags, every project-aware global command became a real executable, and hostname...",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
