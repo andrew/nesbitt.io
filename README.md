@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Software Heritage Identifiers](https://nesbitt.io/2026/10/01/software-heritage-identifiers.html)
 - [This Week in Package Management: 26 September 2026](https://nesbitt.io/2026/09/26/this-week-in-package-management.html)
 - [Package Manager Sandboxing](https://nesbitt.io/2026/09/24/package-manager-sandboxing.html)
 - [Package Manager Threat Model, Revisited](https://nesbitt.io/2026/09/22/package-manager-threat-model-revisited.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Shadowing the Standard Library](https://nesbitt.io/2026/09/15/shadowing-the-standard-library.html)
 - [This Week in Package Management: 12 September 2026](https://nesbitt.io/2026/09/12/this-week-in-package-management.html)
 - [Package Manager Trends](https://nesbitt.io/2026/09/10/package-manager-trends.html)
-- [What’s new in git-pkgs](https://nesbitt.io/2026/09/08/whats-new-in-git-pkgs.html)
 <!-- POSTS:END -->
