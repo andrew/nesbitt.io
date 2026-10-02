@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-02T19:28:02Z",
-  "cutoff": "2026-09-02T19:27:55Z",
+  "generated": "2026-10-02T20:29:48Z",
+  "cutoff": "2026-09-02T20:29:44Z",
   "feed_count": 102,
-  "item_count": 271,
+  "item_count": 272,
   "categories": [
     ".NET",
     "C/C++",
@@ -581,6 +581,14 @@
       "preview": "RubyGems 4.0.22 includes enhancements and bug fixes and Bundler 4.0.22 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.22 RubyGems Release Notes Enhancements: Add –source option to gem exec command. Pull request #9765 by Akshay Birajdar Keep credentials on redirects only within the same origin. Pull request #9909 by Hiroshi SHIBATA Validate the version field in Gem::Installer#verify_spec. Pull request #9890 by Hiroshi",
       "source": "RubyGems Blog",
       "category": "Ruby"
+    },
+    {
+      "title": "pnpm 12.8.2",
+      "url": "https://pnpm.io/blog/releases/12.8.2",
+      "published": "2026-09-30T00:00:00Z",
+      "preview": "pnpm 12.8.2 fixes a startup crash on Linux ppc64le and UnknownIssuer errors on systems without CA certificates. pnpm run no longer installs before every script on CI when autoDedupe is enabled, and resolution and hoisted installs on macOS are faster.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "0.12.21",
