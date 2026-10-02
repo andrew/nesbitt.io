@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-02T20:29:48Z",
-  "cutoff": "2026-09-02T20:29:44Z",
+  "generated": "2026-10-02T21:28:29Z",
+  "cutoff": "2026-09-02T21:28:23Z",
   "feed_count": 102,
-  "item_count": 272,
+  "item_count": 273,
   "categories": [
     ".NET",
     "C/C++",
@@ -119,12 +119,28 @@
       "category": "Python"
     },
     {
+      "title": "Arch-specific SIMD in Go",
+      "url": "https://go.dev/blog/archsimd",
+      "published": "2026-10-02T00:00:00Z",
+      "preview": "Go 1.27 introduces experimental arch-specific SIMD vector APIs",
+      "source": "Go Blog",
+      "category": "Go"
+    },
+    {
       "title": "Demoting i686 Windows targets to std-only",
       "url": "https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/",
       "published": "2026-10-02T00:00:00Z",
       "preview": "With Rust 1.100.0, the following changes to 32-bit Windows targets will happen: i686-pc-windows-msvc Tier 1 with host tools target will be demoted to Tier 1 without host tools. i686-pc-windows-gnu Tier 2 with host tools target will be demoted to Tier 2 without host tools. Builds of the standard library will continue to be distributed, but host tools such as the compiler will be no longer available. i686-pc-windows-msvc as a Tier 1 target still undergoes CI testing. To build 32-bit Windows binaries, cross-compiling from a still-supported host toolchain (such as a 64-bit Windows ones) will be re",
       "source": "Rust Blog",
       "category": "Rust"
+    },
+    {
+      "title": "0.17.0 Released",
+      "url": "https://ziglang.org/news/0.17.0-released/",
+      "published": "2026-10-02T00:00:00Z",
+      "preview": null,
+      "source": "Zig News",
+      "category": "Registries"
     },
     {
       "title": "44.131.3",
@@ -1093,14 +1109,6 @@
       "preview": "Insert 8.0.0.7 into main on 09/23/2026 12:18:35",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "Arch-specific SIMD in Go",
-      "url": "https://go.dev/blog/archsimd",
-      "published": "2026-09-23T00:00:00Z",
-      "preview": "Go 1.27 introduces experimental arch-specific SIMD vector APIs",
-      "source": "Go Blog",
-      "category": "Go"
     },
     {
       "title": "1.17.6",
