@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-02T08:37:54Z",
-  "cutoff": "2026-09-02T08:37:49Z",
+  "generated": "2026-10-02T09:33:58Z",
+  "cutoff": "2026-09-02T09:33:52Z",
   "feed_count": 102,
-  "item_count": 268,
+  "item_count": 266,
   "categories": [
     ".NET",
     "C/C++",
@@ -2149,22 +2149,6 @@
       "preview": "1.16.1 (September 2, 2026) BUG FIXES: cloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations ( #38751 ) Support referencing modules containing dynamic sources in Terraform Test ( #38950 ) stacks: Fixed validation to ensure the provider versions in the lock file and configuration are compatible. ( #38829 ) Fix panic when import identity references sensitive value ( #39013 ) import: Fixed a bug where import blocks would be ignored when multiple imports targeted different instances of a resource config using for_each or count . ( #39068 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "2.10.3",
-      "url": "https://github.com/composer/composer/releases/tag/2.10.3",
-      "published": "2026-09-02T09:27:50Z",
-      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 , CVE-2026-84361 ) Security: Sanitize URL-embedded usernames/token in a few more places ( #13044 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #12988 ) Fixed PHP 8.6 deprecation warnings ( #12967 , #13028 ) Fixed error output when a policy blocks a package version to be clearer ( #12993 ) Fixed the lock file's content-hash with a conflict marker en",
-      "source": "Composer releases",
-      "category": "PHP"
-    },
-    {
-      "title": "2.2.30",
-      "url": "https://github.com/composer/composer/releases/tag/2.2.30",
-      "published": "2026-09-02T09:27:43Z",
-      "preview": "Security: Validate package bin paths against path traversal using symlinks ( GHSA-96h3-5x6v-m776 , CVE-2026-59944) Security: Fixed command injection via malicious Perforce url ( GHSA-rvx4-ffvw-m9q3 , CVE-2026-84361 ) Security: Sanitize URL-embedded usernames/token in a few more places ( #13045 ) Security: Fixed matching of gitlab URLs to avoid possible credential leak to the wrong domain ( #13042 ) Full Changelog : 2.2.29...2.2.30",
-      "source": "Composer releases",
-      "category": "PHP"
     }
   ]
 }
