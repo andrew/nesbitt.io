@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-02T17:29:08Z",
-  "cutoff": "2026-09-02T17:29:00Z",
+  "generated": "2026-10-02T18:36:32Z",
+  "cutoff": "2026-09-02T18:36:27Z",
   "feed_count": 102,
   "item_count": 270,
   "categories": [
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v2.0.10",
+      "title": "2.0.10",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.10",
-      "published": "2026-10-02T15:56:57Z",
-      "preview": "2.0.10",
+      "published": "2026-10-02T17:56:04Z",
+      "preview": "changes with compatibility implications sbt runner script honors JAVA_HOME environment variable by @anatoliykmetyuk in #9825 🚀 updates deps: Updates to Coursier 2.1.26, and sets user agent header by @eed3si9n in #9784 , #9852 , #9786 and #9818 🐛 bug fixes fix: Removes write permission from the CAS to prevent cache corruption by @eed3si9n in #9847 fix: Implements copy-on-write for symlinks by @eed3si9n in sbt/io#568 fix: Restores the pipelining early output on an action-cache hit by @PhoenixmitX in #9793 fix: Reads scripted pause from standard input by @anatoliykmetyuk in #9824 fix: Keeps the i",
       "source": "sbt releases",
       "category": "Maven"
     },
