@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-02T15:31:45Z",
-  "cutoff": "2026-09-02T15:31:40Z",
+  "generated": "2026-10-02T16:32:58Z",
+  "cutoff": "2026-09-02T16:32:48Z",
   "feed_count": 102,
-  "item_count": 269,
+  "item_count": 271,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,26 @@
   ],
   "items": [
     {
+      "title": "v2.0.10",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.10",
+      "published": "2026-10-02T15:56:57Z",
+      "preview": "2.0.10",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "26.9.1",
+      "url": "https://github.com/conda/conda/releases/tag/26.9.1",
+      "published": "2026-10-02T15:37:50Z",
+      "preview": "Bug fixes Keep cached package archive paths consistent with their recorded filenames and checksums when both archive formats are present. Restore the fix from conda 26.7.3 that was missing in 26.9.0. ( #9674 via #16793 ) Contributors @jezdez",
+      "source": "Conda releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "1.17.10",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.10",
-      "published": "2026-10-02T15:18:09Z",
-      "preview": "Release 1.17.10",
+      "published": "2026-10-02T15:37:18Z",
+      "preview": "What's Changed Fix local script app names in paths containing # by @maple-pwn in #2061 🐛 fix(uninstall): remove venvs pipx cannot inspect by @hemcharan710-afk in #2059 🐛 fix(install): keep local script specs on the file by @gaborbernat in #2062 New Contributors @maple-pwn made their first contribution in #2061 @hemcharan710-afk made their first contribution in #2059 Full Changelog : 1.17.9...1.17.10",
       "source": "pipx releases",
       "category": "Python"
     },
