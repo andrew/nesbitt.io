@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-02T14:33:37Z",
-  "cutoff": "2026-09-02T14:33:31Z",
+  "generated": "2026-10-02T15:31:45Z",
+  "cutoff": "2026-09-02T15:31:40Z",
   "feed_count": 102,
   "item_count": 269,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.17.10",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.10",
+      "published": "2026-10-02T15:18:09Z",
+      "preview": "Release 1.17.10",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "0.19.3-beta",
       "url": "https://github.com/elm/compiler/releases/tag/0.19.3",
@@ -2165,14 +2173,6 @@
       "preview": "Security This release addresses CVE-2026-17106 , where a crafted tar archive could write outside the extraction directory through the use of malicious links ( GHSA-hfg8-hc9c-6c3h ). Bugfixes Fixed broken rootlessport bind behavior with -p 0.0.0.0:... -p [::]:... which failed instead of binding both v4 and v6 separately. Podman Machine on WSL should now correctly forward ports again by binding separate IPv4 and IPv6 sockets to make the WSL forwarder logic work again ( #29377 ).",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "v1.16.1",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.1",
-      "published": "2026-09-02T14:49:32Z",
-      "preview": "1.16.1 (September 2, 2026) BUG FIXES: cloud: Fixed a bug causing the CLI to pause indefinitely after a run task failure with pending policy evaluations ( #38751 ) Support referencing modules containing dynamic sources in Terraform Test ( #38950 ) stacks: Fixed validation to ensure the provider versions in the lock file and configuration are compatible. ( #38829 ) Fix panic when import identity references sensitive value ( #39013 ) import: Fixed a bug where import blocks would be ignored when multiple imports targeted different instances of a resource config using for_each or count . ( #39068 )",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
     }
   ]
 }
