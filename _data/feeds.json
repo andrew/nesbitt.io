@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-02T09:33:58Z",
-  "cutoff": "2026-09-02T09:33:52Z",
+  "generated": "2026-10-02T10:30:50Z",
+  "cutoff": "2026-09-02T10:30:44Z",
   "feed_count": 102,
-  "item_count": 266,
+  "item_count": 267,
   "categories": [
     ".NET",
     "C/C++",
@@ -69,6 +69,14 @@
       "preview": "Release Notes Released on 2026-10-01. Python Add CPython 3.10.22, 3.11.17, 3.12.15, 3.13.16, and 3.14.8 ( #22147 ) Enhancements Accept uppercase release suffixes in wheel platform tags ( #22113 ) Record workspace-member default groups in lockfiles ( #22010 , #22103 ) Record workspace-member dependency-group Python requirements in lockfiles ( #22044 , #22103 ) Record default groups for non-project workspace roots in lockfiles ( #22104 ) Record dependency-group Python requirements for non-project workspace roots in lockfiles ( #22104 ) Format URLs and paths consistently in CLI messages ( #21937 ",
       "source": "uv releases",
       "category": "Python"
+    },
+    {
+      "title": "Demoting i686 Windows targets to std-only",
+      "url": "https://blog.rust-lang.org/2026/10/02/demoting-i686-windows-targets-to-std-only/",
+      "published": "2026-10-02T00:00:00Z",
+      "preview": "With Rust 1.100.0, the following changes to 32-bit Windows targets will happen: i686-pc-windows-msvc Tier 1 with host tools target will be demoted to Tier 1 without host tools. i686-pc-windows-gnu Tier 2 with host tools target will be demoted to Tier 2 without host tools. Builds of the standard library will continue to be distributed, but host tools such as the compiler will be no longer available. i686-pc-windows-msvc as a Tier 1 target still undergoes CI testing. To build 32-bit Windows binaries, cross-compiling from a still-supported host toolchain (such as a 64-bit Windows ones) will be re",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "44.131.3",
