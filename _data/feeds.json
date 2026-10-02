@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-02T21:28:29Z",
-  "cutoff": "2026-09-02T21:28:23Z",
+  "generated": "2026-10-02T22:29:01Z",
+  "cutoff": "2026-09-02T22:28:56Z",
   "feed_count": 102,
   "item_count": 273,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 12.9",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.9.0",
+      "published": "2026-10-02T22:28:05Z",
+      "preview": "This release runs pnpm in StackBlitz WebContainers, adds a per-registry networkConcurrency setting, and records every installed project in the store. It also carries a security fix for pnpm login . Minor Changes pnpm now automatically uses WebAssembly in StackBlitz WebContainers, including when installation scripts are disabled. Native installations continue to use the native executable when installation scripts are enabled. A registries entry can now set networkConcurrency , the most requests pnpm keeps in flight to that registry's origin. Requests to other registries keep the overall limit. ",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "2.0.10",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.10",
@@ -803,14 +811,6 @@
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.1",
       "published": "2026-09-28T07:31:11Z",
       "preview": "pnpm 11.28.1 makes pnpm install work in StackBlitz WebContainers, repairs lockfiles whose patch hashes disagree with patchedDependencies , and fixes many bugs in Windows command shims, injected workspace dependencies, and pnpm deploy . Patch Changes Installing packages pnpm install now works in StackBlitz WebContainers. On projects without a lockfile, it used to fail with ENOENT ... pnpm-lock.yaml , because pnpm did not recognize the errors that WebContainers return from asynchronous file system calls. It also failed with \"this.db.exec is not a function\", because node:sqlite there lacks Databa",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm@11.28.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpm%4011.28.1",
-      "published": "2026-09-28T06:58:30Z",
-      "preview": "=11.28.1",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
