@@ -16,7 +16,7 @@ Week twenty of the roundup, built from the [package manager OPML feed collection
 
 [npm 12.2.0](https://github.com/npm/cli/releases/tag/v12.2.0) accepts OIDC authentication for `npm dist-tag`, previously token-only. On the registry side, trusted publishing configurations now have an [opt-in dist-tag permission](https://github.blog/changelog/2026-09-30-opt-in-dist-tag-permissions-for-npm-trusted-publishing), off by default, so a workflow can manage `latest`, `next` and similar tags without a long-lived token.
 
-[pnpm 12.8](https://pnpm.io/blog/releases/12.8) warns when `pnpm pack` or `pnpm publish` would put a `.env` or `.env.*` file in the tarball when the `files` field of `package.json` omits it. Templates such as `.env.example` are exempt.
+[pnpm 12.9](https://pnpm.io/blog/releases/12.9.0) adds a per-registry `networkConcurrency` setting, records every installed project in the store, and stops `pnpm login` forwarding credentials in the request body to another origin on redirect. [12.8](https://pnpm.io/blog/releases/12.8) warns when `pnpm pack` or `pnpm publish` would put a `.env` file in the tarball.
 
 [RubyGems 4.0.22](https://blog.rubygems.org/2026/09/30/4.0.22-released.html) keeps credentials on redirects only within the same origin. It also validates the `version` field in `Gem::Installer#verify_spec` and adds a `--source` option to `gem exec`.
 
@@ -32,20 +32,24 @@ Week twenty of the roundup, built from the [package manager OPML feed collection
 
 [conda 26.9.0](https://github.com/conda/conda/releases/tag/26.9.0) schedules implicit installation of pip alongside Python for deprecation. It stays enabled in this release and becomes deprecated in 27.3; `add_pip_as_python_dependency` defaults to false from 27.9. Environments that need pip should request it explicitly.
 
+[Zig 0.17.0](https://ziglang.org/download/0.17.0/release-notes.html) moves package management out of the compiler and into the build system, so `zig fetch` and the HTTP, TLS and git protocol code it uses now compile in safe mode. `zig fetch` writes to the global cache only unless `--save` is passed, `--pkg-path` and `ZIG_LOCAL_PKG_DIR` override where packages are read from, and path dependencies that escape the parent package root are rejected.
+
 Also out:
 
 - [Homebrew 7.0.7](https://github.com/Homebrew/brew/releases/tag/7.0.7)
-- [pipx 1.17.9](https://github.com/pypa/pipx/releases/tag/1.17.9)
+- [pipx 1.17.10](https://github.com/pypa/pipx/releases/tag/1.17.10)
 - [uv 0.12.22](https://github.com/astral-sh/uv/releases/tag/0.12.22)
 - [pnpm 11.28.3](https://github.com/pnpm/pnpm/releases/tag/v11.28.3)
 - [Athens 0.19.2](https://github.com/gomods/athens/releases/tag/v0.19.2)
 - [Cabal 3.18.2.0](https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0)
 - [Pkg.jl 1.13.1](https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.13.1)
 - [Maven 3.10.0](https://github.com/apache/maven/releases/tag/maven-3.10.0)
-- [sbt 2.1.0-M3](https://github.com/sbt/sbt/releases/tag/v2.1.0-M3)
+- [sbt 2.0.10](https://github.com/sbt/sbt/releases/tag/v2.0.10) and [2.1.0-M3](https://github.com/sbt/sbt/releases/tag/v2.1.0-M3)
 - [Elm 0.19.3-beta](https://github.com/elm/compiler/releases/tag/0.19.3)
+- [Terraform 1.16.5](https://github.com/hashicorp/terraform/releases/tag/v1.16.5)
 - [OpenTofu 1.12.7](https://github.com/opentofu/opentofu/releases/tag/v1.12.7)
-- [Renovate 44.132.1](https://github.com/renovatebot/renovate/releases/tag/44.132.1)
+- [Docker Engine 29.9.0-rc.1](https://github.com/moby/moby/releases/tag/docker-v29.9.0-rc.1)
+- [Renovate 44.132.2](https://github.com/renovatebot/renovate/releases/tag/44.132.2)
 - [Dependabot Core 0.398.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.398.0)
 
 ## Security
@@ -69,6 +73,8 @@ LuaRocks.org published an [incident report](https://luarocks.org/security-incide
 
 Python [released](https://blog.python.org/2026/10/python-31022-31117/) 3.14.8, 3.13.16, 3.12.15, 3.11.17 and 3.10.22 with fixes for eight CVEs across tarfile, zipfile, SSL and urllib. 3.10.22 is the final 3.10 release. uv 0.12.22 bundles the new interpreters.
 
+Renovate [published four advisories](https://github.com/renovatebot/renovate/discussions/46549): a critical [`allowedEnv` bypass](https://github.com/renovatebot/renovate/security/advisories/GHSA-6873-xr44-22vm) and a high [`allowedHeaders` bypass](https://github.com/renovatebot/renovate/security/advisories/GHSA-6j6f-fh7w-vvjr), both via shared presets, a high [SSRF through HTTP preset URLs](https://github.com/renovatebot/renovate/security/advisories/GHSA-8rqp-w6vc-pf27) in `extends` or `customDatasources`, and a moderate [`minimumReleaseAge` bypass](https://github.com/renovatebot/renovate/security/advisories/GHSA-2frq-pm48-6j4h) when a user requests a PR rebase. All four are fixed by 44.79.0, with no backports to earlier majors.
+
 The mise releases above also close a trust bypass, where a `mise.toml` in an untrusted directory could put options inside a tool key, such as a `github:` key with `[api_url=...]` pointing at another host. mise treated the value as a plain version string, so it loaded the file before any trust check, and `mise ls`, `env`, `current`, `outdated`, `upgrade --dry-run` and `latest` then sent `GITHUB_TOKEN` to that host. Any tool key containing `[` now requires trust, and 2026.10.0 extends the same requirement to inline options in `.tool-versions`.
 
 ## Articles
@@ -79,18 +85,29 @@ The mise releases above also close a trust bypass, where a `mise.toml` in an unt
 
 [Don't couple your Go code to GitHub](https://iain.rocks/blog/dont-couple-your-go-code-to-github) (Iain Cambridge) argues for vanity module paths over `github.com/...` imports. A domain the author controls serves a `go-import` meta tag pointing at the current host, so moving the repository changes one meta tag instead of every consumer's import statements. The example configures nginx to redirect browsers to GitHub while serving the meta tag to the Go toolchain.
 
+[Git 3.0's upcoming SHA-256 default will be a costly mistake](https://blog.gitbutler.com/git-3-sha-256) (Scott Chacon, GitButler) argues against making SHA-256 the default object hash in Git 3.0, on the grounds that real attacks exploit distribution and social engineering rather than hash collisions. Chacon proposes signed tree-content hash headers alongside commits as an opt-in alternative that adds collision resistance and leaves the Git object format unchanged for everyone else.
+
 Seth Larson published [more than ten posts](https://blog.python.org/2026/09/language-summit-2026/) from the Python Language Summit 2026, held at EuroPython in Kraków. The [namespaces session](https://blog.python.org/2026/09/language-summit-2026-namespaces/) is the one for packaging readers: Pablo Galindo Salgado proposed a `std` namespace for the standard library, so `import std.json` would work while `import json` keeps working indefinitely. Part of the motivation is that new stdlib module names must differ from names already taken on PyPI. `tomllib`, `graphlib` and `zoneinfo` were named that way for this reason. The session left open whether new modules should be reachable only under `std`.
+
+## Papers
+
+[Fighting Supply Chain Attacks with Effect Systems](https://doi.org/10.1145/3839494) (Magnus Madsen et al., PACMPL) extends the Flix compiler with an effect-aware package manager and effect lock files, where an upgrade is accepted only if its inferred effects are a subset of the locked set. Evaluated against 51 real supply chain attacks from the Backstabbers Knife Collection, 48 would have been blocked.
+
+[A Comprehensive Empirical Analysis of Patch Presence Testing](https://doi.org/10.1145/3832144) (Xiaobei Zhang et al., PACMSE) builds a 561-CVE benchmark across ten C/C++ projects and runs five patch-presence tools against it. Accuracy figures in prior work count only the cases where a tool produced a result, and in practice the tools frequently fail to produce one.
 
 ## Elsewhere
 
 The PHP Foundation [opened applications](https://thephp.foundation/blog/2026/09/30/applications-for-2027-are-open/) for 2027 contractor positions across its core development areas. The form closes on 20 October 2026.
 
+I'll be at Open Source Summit Europe and OpenSSF Community Day in Prague, as will Renovate maintainers [Sebastian Poxhofer and Jamie Tanna](https://github.com/renovatebot/renovate/discussions/46475).
+
 GitHub added [per-user daily rate limits](https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports/) on private vulnerability reports, with a repository-level trusted-reporter allowlist, and [structured report forms](https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports/) configured through `.github/VULNERABILITY_REPORT.yml` using issue-form syntax.
 
 ## git-pkgs
 
-I tagged 17 repos this week:
+I tagged 18 repos this week:
 
+- [git-pkgs v0.21.0](https://github.com/git-pkgs/git-pkgs/releases/tag/v0.21.0)
 - [codemeta v0.3.0](https://github.com/git-pkgs/codemeta/releases/tag/v0.3.0) (new), a zero-dependency Go library for parsing `codemeta.json` and validating software metadata, which preserves source positions, unknown fields and numeric spelling
 - [peek v0.1.0](https://github.com/git-pkgs/peek/releases/tag/v0.1.0) (new), which extracts explicit claims such as an `SPDX-License-Identifier` line from files and from bounded file prefixes, including the roughly 1 KB prefixes in Software Heritage exports
 - [archives v0.8.1](https://github.com/git-pkgs/archives/releases/tag/v0.8.1)
