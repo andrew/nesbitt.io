@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-03T20:06:10Z",
-  "cutoff": "2026-09-03T20:06:03Z",
+  "generated": "2026-10-03T21:20:30Z",
+  "cutoff": "2026-09-03T21:20:26Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -23,20 +23,108 @@
   ],
   "items": [
     {
+      "title": "pnpm 11.28.4",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.4",
+      "published": "2026-10-03T20:48:54Z",
+      "preview": "pnpm 11.28.4 fixes two ways credentials could leak, makes pnpm install --frozen-lockfile accept several lockfiles it rejected, warns when an optional dependency cannot be fetched, and stops pnpm self-update from installing a second pnpm next to a Homebrew one. Patch Changes pnpm login no longer forwards credentials in its request body to another origin during redirects. The error for a tarball that fails its integrity check no longer prints credentials, query strings, or fragments from the tarball URL. Installing packages pnpm install --frozen-lockfile now succeeds in a project with no depende",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.9.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.9.1",
+      "published": "2026-10-03T20:48:42Z",
+      "preview": "This release moves the WebContainer build into a separate @pnpm/wasm package, shrinks the pnpm package back to about 4 MB, and fixes pnpm publish with provenance from GitLab CI. Patch Changes The WebAssembly build for StackBlitz WebContainers now ships as a separate @pnpm/wasm package. The pnpm and @pnpm/exe packages no longer include it, which brings their unpacked size back from about 55 MB to about 4 MB. In a WebContainer, install @pnpm/wasm with npm to get the pnpm command. pnpm publish with provenance from GitLab CI is no longer rejected by the npm registry with a 422 error. The provenanc",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/tarball@14.0.0-next-9.34",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4014.0.0-next-9.34",
+      "published": "2026-10-03T20:33:03Z",
+      "preview": "chore: update versions (next-9) ( #6300 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/test-helper@5.0.0-next-9.35",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%405.0.0-next-9.35",
+      "published": "2026-10-03T20:33:03Z",
+      "preview": "chore: update versions (next-9) ( #6300 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/ui-theme@9.0.0-next-9.34",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.34",
+      "published": "2026-10-03T20:33:03Z",
+      "preview": "chore: update versions (next-9) ( #6300 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/url@14.0.0-next-9.34",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.34",
+      "published": "2026-10-03T20:33:03Z",
+      "preview": "chore: update versions (next-9) ( #6300 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/web@9.0.0-next-9.34",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.34",
+      "published": "2026-10-03T20:33:03Z",
+      "preview": "chore: update versions (next-9) ( #6300 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-audit@14.0.0-next-9.34",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.34",
+      "published": "2026-10-03T20:33:03Z",
+      "preview": "chore: update versions (next-9) ( #6300 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-auth-memory@14.0.0-next-9.34",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.34",
+      "published": "2026-10-03T20:33:03Z",
+      "preview": "chore: update versions (next-9) ( #6300 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-htpasswd@14.0.0-next-9.34",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.34",
+      "published": "2026-10-03T20:33:03Z",
+      "preview": "chore: update versions (next-9) ( #6300 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-memory@14.0.0-next-9.34",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.34",
+      "published": "2026-10-03T20:33:03Z",
+      "preview": "chore: update versions (next-9) ( #6300 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio@9.0.0-next-9.34",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.34",
+      "published": "2026-10-03T20:33:03Z",
+      "preview": "chore: update versions (next-9) ( #6300 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "44.132.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.5",
       "published": "2026-10-03T19:53:11Z",
       "preview": "44.132.5 (2026-10-03) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.109.3 (main) ( #46730 ) ( d2d046b ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.23 (main) ( #46728 ) ( dcfd322 ) deps: update dependency uv to v0.12.23 (main) ( #46729 ) ( 33ea57d ) Build System deps: update dependency re2 to v1.27.0 (main) ( #46731 ) ( e0e072e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v6.10.5",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v6.10.5",
-      "published": "2026-10-03T19:49:48Z",
-      "preview": "Patch Changes 2ccbacf : Migrate the 6.x release workflow to Changesets action v2 and CLI v3. c159460 : Improve validation of Search v1 query parameters. size and from now accept only plain string values; anything else falls back to the default page size and offset, as other non-numeric values already did. Only plain string parameters are forwarded to uplinks. An uplink search response that cannot be read now ends that uplink's results, and local results are still returned. Unexpected errors in the search endpoint are reported through the regular error handler. Registry configuration does not n",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "0.12.23",
@@ -109,6 +197,22 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-10-01-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
+    },
+    {
+      "title": "pnpm 11.28.4",
+      "url": "https://pnpm.io/blog/releases/11.28.4",
+      "published": "2026-10-03T00:00:00Z",
+      "preview": "pnpm 11.28.4 fixes two ways credentials could leak, makes pnpm install --frozen-lockfile accept several lockfiles it rejected, warns when an optional dependency cannot be fetched, and stops pnpm self-update from installing a second pnpm next to a Homebrew one.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.9.1",
+      "url": "https://pnpm.io/blog/releases/12.9.1",
+      "published": "2026-10-03T00:00:00Z",
+      "preview": "This release moves the WebContainer build into a separate @pnpm/wasm package, shrinks the pnpm package back to about 4 MB, and fixes pnpm publish with provenance from GitLab CI.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "pnpm 12.9",
@@ -783,14 +887,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "pnpr 0.1.0-alpha.14",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.14",
-      "published": "2026-09-28T17:40:25Z",
-      "preview": "pnpr 0.1.0-alpha.14 stops its resolver from connecting to private network addresses, links workspace projects at their publishConfig.directory , and resolves Cargo dependencies faster. Minor Changes The pnpr resolver no longer connects to loopback, private, link-local, or other non-public addresses, such as the 169.254.169.254 cloud metadata endpoint. The check applies to the address of each connection, so an allowlisted registry host that resolves to an internal address is refused too #12705 . Addresses of the public_url host stay reachable. List any other non-public network the resolver must",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "pnpm 12.8.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.8.1",
       "published": "2026-09-28T17:40:12Z",
@@ -863,14 +959,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "pnpm@12.8.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpm%4012.8.0",
-      "published": "2026-09-28T06:58:16Z",
-      "preview": "=v12.8.0",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "1.17.7",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.7",
       "published": "2026-09-28T05:20:31Z",
@@ -900,78 +988,6 @@
       "published": "2026-09-28T00:00:00Z",
       "preview": "pnpm 12.8 warns when pnpm pack or pnpm publish would ship a .env file, installs sharedWorkspaceLockfile: false workspaces concurrently, applies every setting passed as --config. = , and no longer leaves the Windows terminal stuck after Ctrl+C in a script. This release also carries a...",
       "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/types@14.0.0-next-9.16",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftypes%4014.0.0-next-9.16",
-      "published": "2026-09-27T19:22:07Z",
-      "preview": "chore: update versions (next-9) ( #6270 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/ui-theme@9.0.0-next-9.33",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.33",
-      "published": "2026-09-27T19:22:07Z",
-      "preview": "chore: update versions (next-9) ( #6270 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/url@14.0.0-next-9.33",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.33",
-      "published": "2026-09-27T19:22:07Z",
-      "preview": "chore: update versions (next-9) ( #6270 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/web@9.0.0-next-9.33",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.33",
-      "published": "2026-09-27T19:22:07Z",
-      "preview": "chore: update versions (next-9) ( #6270 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-audit@14.0.0-next-9.33",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.33",
-      "published": "2026-09-27T19:22:07Z",
-      "preview": "chore: update versions (next-9) ( #6270 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-auth-memory@14.0.0-next-9.33",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.33",
-      "published": "2026-09-27T19:22:07Z",
-      "preview": "chore: update versions (next-9) ( #6270 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-htpasswd@14.0.0-next-9.33",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.33",
-      "published": "2026-09-27T19:22:07Z",
-      "preview": "chore: update versions (next-9) ( #6270 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-memory@14.0.0-next-9.33",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.33",
-      "published": "2026-09-27T19:22:07Z",
-      "preview": "chore: update versions (next-9) ( #6270 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio@9.0.0-next-9.33",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.33",
-      "published": "2026-09-27T19:22:07Z",
-      "preview": "chore: update versions (next-9) ( #6270 )",
-      "source": "Verdaccio releases",
       "category": "JavaScript"
     },
     {
@@ -2149,22 +2165,6 @@
       "preview": "Astral is proud to endorse William Woodruff, Pradyun Gedam, Ralf Gommers, and Donald Stufft for the inaugural Python Packaging Council.",
       "source": "Astral Blog",
       "category": "Python"
-    },
-    {
-      "title": "v2.0.0-beta.23",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.23",
-      "published": "2026-09-03T21:14:07Z",
-      "preview": "v2.0.0-beta.23",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.0.0-beta.22",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.22",
-      "published": "2026-09-03T21:10:58Z",
-      "preview": "v2.0.0-beta.22",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
