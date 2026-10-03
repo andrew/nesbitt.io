@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-03T12:47:51Z",
-  "cutoff": "2026-09-03T12:47:45Z",
+  "generated": "2026-10-03T14:39:33Z",
+  "cutoff": "2026-09-03T14:39:06Z",
   "feed_count": 102,
-  "item_count": 272,
+  "item_count": 270,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v2026.10.1",
+      "title": "v2026.10.1: Task timeout and Ctrl-C fixes, Windows daemon and shim fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.1",
-      "published": "2026-10-03T08:34:38Z",
-      "preview": "(aqua) invalidate incompatible compiled registry caches by @jdx …",
+      "published": "2026-10-03T14:12:48Z",
+      "preview": "This release is mostly bug fixes. mise run now stops tasks properly when --timeout expires or you press Ctrl-C. Task daemons and native shims work better on Windows. core:rust now follows mise.lock and picks up new stable and beta toolchains. Lockfile, GitHub asset selection, Homebrew cask and plugin update problems are also fixed. Fixed Tasks mise run --timeout now stops the tasks it was running. Before, mise printed the timeout error and exited, but the task processes could keep running in the background. Now the whole-run timeout ( --timeout or the task.timeout setting) stops tasks the same",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -2181,22 +2181,6 @@
       "preview": "[0.79.0] - 2026-09-03 ✨ Highlights Pixi now has better support for RISC-V by setting the default virtual packages. And we've extended the CLI to include pixi install --script and pixi workspace dependencies add . Added Add pixi workspace dependencies CLI by @ruben-arts in #6917 Install script environments without running by @manzt in #6923 Set __glibc default to 2.39 on linux-riscv64 by @pavelzw in #6914 Changed Restore static MSVC CRT in Windows builds by @baszalmstra in #6919 Documentation Mention named platforms in pixi-pack by @pavelzw in #6927 Fixed Bump astral_async_http_range_reader to ",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "pixi-build-ros-v0.7.5",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.7.5",
-      "published": "2026-09-03T14:31:18Z",
-      "preview": "chore: bump backend versions ( #6947 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "New release 2.77",
-      "url": "https://github.com/canonical/snapd/releases/tag/2.77",
-      "published": "2026-09-03T13:37:42Z",
-      "preview": "Account for differences in names of the binaries in the snapd FIPS build Add code to calculate canonical subject name hash Add commands for debugging or accessing snap mount namespaces Add helpers for listing and iterating device mediation groups Add package ebpf with helpers wrapping eBPF exposed objects with dependency on github.com/cilium/ebpf Add secondary prerequisites task that acts as the synchronization point, which ensures that a snap's prerequisites are available before it's installed Add support for shell conditional syntax in envs Added /usr/share/{man,help,info} to system-packages",
-      "source": "Snapd releases",
-      "category": "System"
     }
   ]
 }
