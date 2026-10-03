@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-02T23:26:30Z",
-  "cutoff": "2026-09-02T23:26:23Z",
+  "generated": "2026-10-03T01:04:29Z",
+  "cutoff": "2026-09-03T01:04:22Z",
   "feed_count": 102,
-  "item_count": 275,
+  "item_count": 273,
   "categories": [
     ".NET",
     "C/C++",
@@ -2205,22 +2205,6 @@
       "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights A new jj converge command was added to help automatically resolve divergent commits by combining them appropriately. Breaking changes jj config {edit,set,unset} --user now targets the first loaded user configuration file (e.g. ~/.config/jj/config.toml or the first file in conf.d/ ) instead of prompting interactively when multiple files exist. Use --file <PATH> to target a specific config file. jj git import in non-colocated repositories no l",
       "source": "jj releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "Forgejo Runner v13.1.0 is available",
-      "url": "https://forgejo.org/2026-09-runner-release-v131/",
-      "published": "2026-09-03T00:00:00Z",
-      "preview": "Forgejo Runner v13.1.0 is available. An experimental plugin capability allows Forgejo Runner to support user-developed pluggable execution environments.",
-      "source": "Forgejo Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "Announcing Rust 1.98.1",
-      "url": "https://blog.rust-lang.org/2026/09/03/Rust-1.98.1/",
-      "published": "2026-09-03T00:00:00Z",
-      "preview": "The Rust team has published a new point release of Rust, 1.98.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.98.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.98.1 Rust 1.98.1 fixes a miscompilation in vtable generation . In Rust 1.98.0, in some circumstances, rustc would incorrectly generate a trait object vtable with a null pointer where a function pointer should be. T",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
