@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-03T03:44:34Z",
-  "cutoff": "2026-09-03T03:44:29Z",
+  "generated": "2026-10-03T05:38:25Z",
+  "cutoff": "2026-09-03T05:38:20Z",
   "feed_count": 102,
-  "item_count": 274,
+  "item_count": 273,
   "categories": [
     ".NET",
     "C/C++",
@@ -2205,14 +2205,6 @@
       "preview": "Deployment at 2026-09-03T12:39:06.842287Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "v0.45.0",
-      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.45.0",
-      "published": "2026-09-03T04:58:53Z",
-      "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights A new jj converge command was added to help automatically resolve divergent commits by combining them appropriately. Breaking changes jj config {edit,set,unset} --user now targets the first loaded user configuration file (e.g. ~/.config/jj/config.toml or the first file in conf.d/ ) instead of prompting interactively when multiple files exist. Use --file <PATH> to target a specific config file. jj git import in non-colocated repositories no l",
-      "source": "jj releases",
-      "category": "Infrastructure"
     }
   ]
 }
