@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-03T16:40:32Z",
-  "cutoff": "2026-09-03T16:40:27Z",
+  "generated": "2026-10-03T18:23:09Z",
+  "cutoff": "2026-09-03T18:23:03Z",
   "feed_count": 102,
   "item_count": 268,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.12.23",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.23",
+      "published": "2026-10-03T17:34:11Z",
+      "preview": "Release Notes Released on 2026-10-03. Python Add CPython 3.15.0rc3 ( #22164 ) Preview features Sync from uv.lock without a workspace manifest using uv sync --frozen with frozen-lockfile ( #22018 ) Export from uv.lock without a workspace manifest using uv export --frozen with frozen-lockfile ( #22007 ) Inspect dependency trees from uv.lock without a workspace manifest using uv tree --frozen with frozen-lockfile ( #22016 ) Inspect workspace metadata and optionally sync its environment from uv.lock without a workspace manifest using uv workspace metadata --frozen with frozen-lockfile ( #22017 , #",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "44.132.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.4",
@@ -1901,14 +1909,6 @@
       "preview": "Following reporting by The Wall Street Journal and the publication of research by Nightingale Collective , we want to clarify what we know about the spam-publishing campaign on rubygems.org in May 2026. We take the security of rubygems.org and the community that depends on it seriously. Our team reviewed the activity and discussed the findings with researchers from Nightingale Collective. The campaign involved newly registered accounts publishing spam packages. Socket previously documented related activity under the name GemStuffer . As described in our May status updates , we temporarily paus",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "0.12.13",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.13",
-      "published": "2026-09-10T19:27:24Z",
-      "preview": "Release Notes Released on 2026-09-10. Python Add GraalPy 3.13.0 ( #21431 ) Enhancements Verify hashes when downloading PEP 658 metadata sidecars ( #21563 ) Preview features Respect ty exclusions when uv check automatically selects members of a virtual workspace ( #21555 ) Performance Avoid full wheel downloads during resolution by reusing supported hashes from direct URL fragments when metadata is available separately ( #21279 ) Bug fixes Edit Windows entry-point launcher resources in memory to support Nano Server and reduce antivirus contention ( #18713 ) Prefer core-metadata over legacy alia",
-      "source": "uv releases",
-      "category": "Python"
     },
     {
       "title": "v10.1.0 🌈  New output `python-runtime-id`and respect NO_PROXY",
