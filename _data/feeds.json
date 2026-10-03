@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-03T05:38:25Z",
-  "cutoff": "2026-09-03T05:38:20Z",
+  "generated": "2026-10-03T08:35:11Z",
+  "cutoff": "2026-09-03T08:35:06Z",
   "feed_count": 102,
   "item_count": 273,
   "categories": [
@@ -22,6 +22,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.1",
+      "published": "2026-10-03T08:34:38Z",
+      "preview": "(aqua) invalidate incompatible compiled registry caches by @jdx …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.10.0",
+      "published": "2026-10-03T08:34:15Z",
+      "preview": "Release aqua-registry 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.1",
+      "published": "2026-10-03T08:34:10Z",
+      "preview": "Release vfox 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.1",
+      "published": "2026-10-03T08:34:01Z",
+      "preview": "Release mise-util 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.1",
+      "published": "2026-10-03T08:33:53Z",
+      "preview": "Release mise-settings 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-01-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-10-01-a",
@@ -195,14 +235,6 @@
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.0",
       "published": "2026-10-01T23:01:46Z",
       "preview": "Release vfox 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-brew-metadata-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-brew-metadata-v2026.10.0",
-      "published": "2026-10-01T23:01:35Z",
-      "preview": "Release mise-brew-metadata 2026.10.0",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -495,14 +527,6 @@
       "category": "Infrastructure as Code"
     },
     {
-      "title": "v2026.9.18: Remote config includes, OCI task catalogs, and a trust fix for inline tool options",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.9.18",
-      "published": "2026-09-30T12:51:01Z",
-      "preview": "mise.toml can now include a shared config file from a git repository or OCI registry, and task_config.includes accepts OCI artifacts. The release also closes a trust bypass that could send GITHUB_TOKEN to an attacker-controlled host, adds gem registry sources, and fixes several daemon and dotfiles problems. Security Inline tool options now require trust. Before this change, a mise.toml in an untrusted directory could hide options in a tool key, for example a github: tool key with [api_url=...] pointing at another host. mise loaded the file without trust because the value was a plain version st",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "8.0.0.13",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.13",
       "published": "2026-09-30T12:36:12Z",
@@ -533,30 +557,6 @@
       "preview": "Cabal-v3.18.2.0",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "vfox-v2026.9.20",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.9.20",
-      "published": "2026-09-30T11:18:52Z",
-      "preview": "Release vfox 2026.9.20",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.9.4",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.9.4",
-      "published": "2026-09-30T11:18:23Z",
-      "preview": "Release mise-util 2026.9.4",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.9.4",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.9.4",
-      "published": "2026-09-30T11:18:13Z",
-      "preview": "Release mise-settings 2026.9.4",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "3.18.2+0: Merge pull request #12400 from ffaf1/fix-changelogs",
