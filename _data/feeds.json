@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-04T07:14:21Z",
-  "cutoff": "2026-09-04T07:14:15Z",
+  "generated": "2026-10-04T09:31:21Z",
+  "cutoff": "2026-09-04T09:31:16Z",
   "feed_count": 102,
-  "item_count": 268,
+  "item_count": 267,
   "categories": [
     ".NET",
     "C/C++",
@@ -2157,14 +2157,6 @@
       "preview": "Bug fixes Allow individual sharded-repodata package shards up to 64 MiB after decompression. ( #16575 ) Contributors @jezdez Full Changelog : 26.7.1...26.7.2",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "Bun v1.4.1",
-      "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.1",
-      "published": "2026-09-04T08:34:46Z",
-      "preview": "To install Bun v1.4.1 curl -fsSL https://bun.sh/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.sh/install.ps1|iex \" To upgrade to Bun v1.4.1: bun upgrade Read Bun v1.4.1's release notes on Bun's blog Thanks to 7 contributors! @alii @dylan-conway @jarred-sumner @jvitormelo @marshallofsound @robobun @sosukesuzuki",
-      "source": "Bun releases",
-      "category": "JavaScript"
     }
   ]
 }
