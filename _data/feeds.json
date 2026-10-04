@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-04T09:31:21Z",
-  "cutoff": "2026-09-04T09:31:16Z",
+  "generated": "2026-10-04T11:55:53Z",
+  "cutoff": "2026-09-04T11:55:46Z",
   "feed_count": 102,
   "item_count": 267,
   "categories": [
@@ -22,6 +22,86 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.2",
+      "published": "2026-10-04T11:15:50Z",
+      "preview": "(backend) add experimental spinel backend by @jdx in [ #13922 ](h…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-interactive-config-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.10.0",
+      "published": "2026-10-04T11:15:29Z",
+      "preview": "Release mise-interactive-config 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.2",
+      "published": "2026-10-04T11:15:23Z",
+      "preview": "Release vfox 2026.10.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-bootstrap-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-bootstrap-v2026.10.0",
+      "published": "2026-10-04T11:15:15Z",
+      "preview": "Release mise-bootstrap 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-brew-metadata-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-brew-metadata-v2026.10.1",
+      "published": "2026-10-04T11:15:11Z",
+      "preview": "Release mise-brew-metadata 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.2",
+      "published": "2026-10-04T11:15:07Z",
+      "preview": "Release mise-util 2026.10.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.1",
+      "published": "2026-10-04T11:14:59Z",
+      "preview": "Release mise-sigstore 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.2",
+      "published": "2026-10-04T11:14:54Z",
+      "preview": "Release mise-settings 2026.10.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-core-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.10.0",
+      "published": "2026-10-04T11:14:46Z",
+      "preview": "Release mise-cache-core 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-agent-env-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-agent-env-v2026.10.0",
+      "published": "2026-10-04T11:14:41Z",
+      "preview": "Release mise-agent-env 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "1.17.11",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.11",
@@ -167,46 +247,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v2026.10.1: Task timeout and Ctrl-C fixes, Windows daemon and shim fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.1",
-      "published": "2026-10-03T14:12:48Z",
-      "preview": "This release is mostly bug fixes. mise run now stops tasks properly when --timeout expires or you press Ctrl-C. Task daemons and native shims work better on Windows. core:rust now follows mise.lock and picks up new stable and beta toolchains. Lockfile, GitHub asset selection, Homebrew cask and plugin update problems are also fixed. Fixed Tasks mise run --timeout now stops the tasks it was running. Before, mise printed the timeout error and exited, but the task processes could keep running in the background. Now the whole-run timeout ( --timeout or the task.timeout setting) stops tasks the same",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "aqua-registry-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.10.0",
-      "published": "2026-10-03T08:34:15Z",
-      "preview": "Release aqua-registry 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.1",
-      "published": "2026-10-03T08:34:10Z",
-      "preview": "Release vfox 2026.10.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.1",
-      "published": "2026-10-03T08:34:01Z",
-      "preview": "Release mise-util 2026.10.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.1",
-      "published": "2026-10-03T08:33:53Z",
-      "preview": "Release mise-settings 2026.10.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-01-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-10-01-a",
       "published": "2026-10-03T02:35:14Z",
@@ -319,14 +359,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v2026.10.0: Stricter signer checks for cosign and GitHub attestations, trust for inline options in .tool-versions",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.0",
-      "published": "2026-10-02T01:42:32Z",
-      "preview": "This release tightens supply-chain verification. Keyless cosign bundles must now match a pinned signer identity, and GitHub attestation workflow checks no longer accept partial matches. It also closes a .tool-versions trust gap that could leak GITHUB_TOKEN , adds a per-cask appdir option for Homebrew casks, and fixes problems with locked SLSA installs, musl hosts and mise backends switch . Security Inline tool options in .tool-versions now require trust. This is the .tool-versions version of the mise.toml fix in 2026.9.18. An untrusted project could ship a github: entry with inline options, su",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "0.12.22",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.22",
       "published": "2026-10-02T00:20:42Z",
@@ -389,38 +421,6 @@
       "preview": "What's Changed Do not push an app script's shebang past the kernel's length limit by @feiiiiii5 in #2058 New Contributors @feiiiiii5 made their first contribution in #2058 Full Changelog : 1.17.8...1.17.9",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "vfox-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.0",
-      "published": "2026-10-01T23:01:46Z",
-      "preview": "Release vfox 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.0",
-      "published": "2026-10-01T23:01:30Z",
-      "preview": "Release mise-util 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.0",
-      "published": "2026-10-01T23:01:23Z",
-      "preview": "Release mise-sigstore 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.0",
-      "published": "2026-10-01T23:01:16Z",
-      "preview": "Release mise-settings 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "44.131.2",
