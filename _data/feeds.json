@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-03T23:14:36Z",
-  "cutoff": "2026-09-03T23:14:32Z",
+  "generated": "2026-10-04T00:07:19Z",
+  "cutoff": "2026-09-04T00:07:13Z",
   "feed_count": 102,
   "item_count": 269,
   "categories": [
@@ -23,10 +23,18 @@
   ],
   "items": [
     {
+      "title": "1.17.11",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.11",
+      "published": "2026-10-03T23:59:18Z",
+      "preview": "What's Changed 👷 ci: pin ubuntu-26.04, clear warnings, bump deps by @gaborbernat in #2063 Hide the extra docs TOC toggle on narrow screens by @ekanshul in #2065 New Contributors @ekanshul made their first contribution in #2065 Full Changelog : 1.17.10...1.17.11",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
       "title": "v0.51.0",
       "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/tag/v0.51.0",
-      "published": "2026-10-03T22:51:51Z",
-      "preview": "No content.",
+      "published": "2026-10-03T23:14:56Z",
+      "preview": "In this release C-ABI variadic functions are new in Rust 1.99, and this is the first time a new language feature has had immediate SemVer linting support in the corresponding cargo-semver-checks release 🎉 Six new lints for variadic functions: function_no_longer_variadic function_now_variadic inherent_method_no_longer_variadic inherent_method_now_variadic trait_method_no_longer_variadic trait_method_now_variadic Bugfix in inherent_method_now_doc_hidden when multiple impl blocks for the same type have the same method name Support for symlinks inside git repos used by the --baseline-rev flag Than",
       "source": "cargo-semver-checks releases",
       "category": "Rust"
     },
@@ -2165,14 +2173,6 @@
       "preview": "Fixes 202 issues, addressing 236 👍. HTTP/2 in Bun.serve, Bun.write() streams Response bodies to disk, self-contained workspace node_modules, bun install --offline and --prefer-offline, WebSocket pause() and resume(), crypto.argon2, tree-shaking through dynamic import(), smarter CommonJS to ESM conversion for default imports, --compile --bytecode when cross-compiling, smaller and faster-starting compiled executables, up to 9x faster Buffer reads and writes, 2x faster AsyncLocalStorage, faster startup, and many bugfixes and Node.js compatibility improvements.",
       "source": "Bun Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "Our endorsements for Python’s first Packaging Council",
-      "url": "https://astral.sh/blog/python-packaging-council",
-      "published": "2026-09-04T00:00:00Z",
-      "preview": "Astral is proud to endorse William Woodruff, Pradyun Gedam, Ralf Gommers, and Donald Stufft for the inaugural Python Packaging Council.",
-      "source": "Astral Blog",
-      "category": "Python"
     }
   ]
 }
