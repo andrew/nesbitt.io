@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-04T00:07:19Z",
-  "cutoff": "2026-09-04T00:07:13Z",
+  "generated": "2026-10-04T07:14:21Z",
+  "cutoff": "2026-09-04T07:14:15Z",
   "feed_count": 102,
-  "item_count": 269,
+  "item_count": 268,
   "categories": [
     ".NET",
     "C/C++",
@@ -2164,14 +2164,6 @@
       "published": "2026-09-04T08:34:46Z",
       "preview": "To install Bun v1.4.1 curl -fsSL https://bun.sh/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.sh/install.ps1|iex \" To upgrade to Bun v1.4.1: bun upgrade Read Bun v1.4.1's release notes on Bun's blog Thanks to 7 contributors! @alii @dylan-conway @jarred-sumner @jvitormelo @marshallofsound @robobun @sosukesuzuki",
       "source": "Bun releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "Bun v1.4.1",
-      "url": "https://bun.com/blog/bun-v1.4.1",
-      "published": "2026-09-04T06:47:12Z",
-      "preview": "Fixes 202 issues, addressing 236 👍. HTTP/2 in Bun.serve, Bun.write() streams Response bodies to disk, self-contained workspace node_modules, bun install --offline and --prefer-offline, WebSocket pause() and resume(), crypto.argon2, tree-shaking through dynamic import(), smarter CommonJS to ESM conversion for default imports, --compile --bytecode when cross-compiling, smaller and faster-starting compiled executables, up to 9x faster Buffer reads and writes, 2x faster AsyncLocalStorage, faster startup, and many bugfixes and Node.js compatibility improvements.",
-      "source": "Bun Blog",
       "category": "JavaScript"
     }
   ]
