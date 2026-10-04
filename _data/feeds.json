@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-04T14:15:31Z",
-  "cutoff": "2026-09-04T14:15:26Z",
+  "generated": "2026-10-04T17:44:42Z",
+  "cutoff": "2026-09-04T17:44:36Z",
   "feed_count": 102,
-  "item_count": 266,
+  "item_count": 265,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.132.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.6",
+      "published": "2026-10-04T16:06:47Z",
+      "preview": "44.132.6 (2026-10-04) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.109.4 (main) ( #46738 ) ( eee241a ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.20 (main) ( #46736 ) ( 06a4f33 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.10.2: Experimental spinel backend, typed tool options in the schema, and daemon presets on Windows",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.2",
@@ -427,14 +435,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.131.2",
       "published": "2026-10-01T22:44:44Z",
       "preview": "44.131.2 (2026-10-01) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.108.1 (main) ( #46652 ) ( 42036fa )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.131.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.131.1",
-      "published": "2026-10-01T21:48:50Z",
-      "preview": "44.131.1 (2026-10-01) Build System deps: update dependency @yarnpkg/core to v4.9.2 (main) ( #46651 ) ( 81c2a3f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -2141,14 +2141,6 @@
       "preview": "This release fixes two regressions impacting Elysia and AsyncLocalStorage, a hang in @discordjs/ws, CMYK JPEG decoding in Bun.Image, a rare JIT crash, and a GC crash on musl.",
       "source": "Bun Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "What's new in Swift: August 2026 Edition",
-      "url": "https://swift.org/blog/whats-new-in-swift-august-2026/",
-      "published": "2026-09-04T16:30:00Z",
-      "preview": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. Here’s an update from guest contributor Simon Leeb on Swift’s progress as a language for web scenarios: Hi, Simon here! I am the creator of the elementary-swift project, a collection of packages born from a simple wish: I want to build web UIs in Swift and ultimately help Swift become a first-class choice for the web. This journey began after I started using Swift for backend services. The web frontend, however, still lived in a separate ecosystem, and I really wanted it ",
-      "source": "Swift Blog",
-      "category": "Registries"
     }
   ]
 }
