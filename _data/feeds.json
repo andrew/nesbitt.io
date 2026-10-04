@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-04T11:55:53Z",
-  "cutoff": "2026-09-04T11:55:46Z",
+  "generated": "2026-10-04T14:15:31Z",
+  "cutoff": "2026-09-04T14:15:26Z",
   "feed_count": 102,
-  "item_count": 267,
+  "item_count": 266,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v2026.10.2",
+      "title": "v2026.10.2: Experimental spinel backend, typed tool options in the schema, and daemon presets on Windows",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.2",
-      "published": "2026-10-04T11:15:50Z",
-      "preview": "(backend) add experimental spinel backend by @jdx in [ #13922 ](h…",
+      "published": "2026-10-04T12:31:22Z",
+      "preview": "This release adds an experimental spinel: backend for compiling Ruby CLIs to native binaries. The mise.toml schema now checks each backend's own tool options, and daemon presets work on Windows. It also includes fixes for shell activation with untrusted configs, task timeouts and Windows quoting. Added Experimental spinel: backend. It builds a Ruby command-line tool from a GitHub repository into a native executable using Spinel , Matz's Ruby AOT compiler. Versions come from git tags through git ls-remote , so listing them doesn't call the GitHub API. Available options: entrypoint , bin , tag_p",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -2149,14 +2149,6 @@
       "preview": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. Here’s an update from guest contributor Simon Leeb on Swift’s progress as a language for web scenarios: Hi, Simon here! I am the creator of the elementary-swift project, a collection of packages born from a simple wish: I want to build web UIs in Swift and ultimately help Swift become a first-class choice for the web. This journey began after I started using Swift for backend services. The web frontend, however, still lived in a separate ecosystem, and I really wanted it ",
       "source": "Swift Blog",
       "category": "Registries"
-    },
-    {
-      "title": "26.7.2",
-      "url": "https://github.com/conda/conda/releases/tag/26.7.2",
-      "published": "2026-09-04T13:36:18Z",
-      "preview": "Bug fixes Allow individual sharded-repodata package shards up to 64 MiB after decompression. ( #16575 ) Contributors @jezdez Full Changelog : 26.7.1...26.7.2",
-      "source": "Conda releases",
-      "category": "Multi-language"
     }
   ]
 }
