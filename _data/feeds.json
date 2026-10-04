@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-04T17:44:42Z",
-  "cutoff": "2026-09-04T17:44:36Z",
+  "generated": "2026-10-04T19:27:58Z",
+  "cutoff": "2026-09-04T19:27:53Z",
   "feed_count": 102,
   "item_count": 265,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.133.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.133.0",
+      "published": "2026-10-04T18:42:25Z",
+      "preview": "44.133.0 (2026-10-04) Features data: automatic update of static data ( #46734 ) ( 474cddd )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.132.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.6",
@@ -429,14 +437,6 @@
       "preview": "What's Changed Do not push an app script's shebang past the kernel's length limit by @feiiiiii5 in #2058 New Contributors @feiiiiii5 made their first contribution in #2058 Full Changelog : 1.17.8...1.17.9",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "44.131.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.131.2",
-      "published": "2026-10-01T22:44:44Z",
-      "preview": "44.131.2 (2026-10-01) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.108.1 (main) ( #46652 ) ( 42036fa )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v29.9.0-rc.1",
