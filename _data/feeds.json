@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-05T14:37:06Z",
-  "cutoff": "2026-09-05T14:37:00Z",
+  "generated": "2026-10-05T16:35:22Z",
+  "cutoff": "2026-09-05T16:35:14Z",
   "feed_count": 102,
-  "item_count": 262,
+  "item_count": 263,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.137.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.137.0",
+      "published": "2026-10-05T16:20:31Z",
+      "preview": "44.137.0 (2026-10-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.112.0 (main) ( #46767 ) ( f730d6a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.136.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.136.0",
+      "published": "2026-10-05T16:04:01Z",
+      "preview": "44.136.0 (2026-10-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.111.0 (main) ( #46765 ) ( cebf42f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v0.399.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.399.0",
+      "published": "2026-10-05T15:53:09Z",
+      "preview": "What's Changed Bump pacote from 21.3.1 to 21.5.1 in /npm_and_yarn/helpers by @dependabot [bot] in #16411 Report conflicting dependencies for security updates by @v-thavaahariharangit with @Copilot in #16335 Fix vulnerable Yarn alias test fixture by @v-thavaahariharangit with @Copilot in #16414 Bump the dev-dependencies group across 1 directory with 2 updates by @dependabot [bot] in #16403 Use typed UV lockfile records in parsing and resolution by @JamieMagee in #16348 Add typed Composer manifest and lockfile readers by @JamieMagee in #16349 Use typed Composer repository and path records by @Ja",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.135.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.135.0",
@@ -295,28 +319,12 @@
       "category": "JavaScript"
     },
     {
-      "title": "44.132.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.5",
-      "published": "2026-10-03T19:53:11Z",
-      "preview": "44.132.5 (2026-10-03) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.109.3 (main) ( #46730 ) ( d2d046b ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.23 (main) ( #46728 ) ( dcfd322 ) deps: update dependency uv to v0.12.23 (main) ( #46729 ) ( 33ea57d ) Build System deps: update dependency re2 to v1.27.0 (main) ( #46731 ) ( e0e072e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "0.12.23",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.23",
       "published": "2026-10-03T17:34:11Z",
       "preview": "Release Notes Released on 2026-10-03. Python Add CPython 3.15.0rc3 ( #22164 ) Preview features Sync from uv.lock without a workspace manifest using uv sync --frozen with frozen-lockfile ( #22018 ) Export from uv.lock without a workspace manifest using uv export --frozen with frozen-lockfile ( #22007 ) Inspect dependency trees from uv.lock without a workspace manifest using uv tree --frozen with frozen-lockfile ( #22016 ) Inspect workspace metadata and optionally sync its environment from uv.lock without a workspace manifest using uv workspace metadata --frozen with frozen-lockfile ( #22017 , #",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "44.132.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.4",
-      "published": "2026-10-03T16:00:16Z",
-      "preview": "44.132.4 (2026-10-03) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.109.2 (main) ( #46727 ) ( fa3b4c1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-01-a",
