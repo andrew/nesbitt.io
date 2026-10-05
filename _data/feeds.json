@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-05T07:53:53Z",
-  "cutoff": "2026-09-05T07:53:49Z",
+  "generated": "2026-10-05T08:50:48Z",
+  "cutoff": "2026-09-05T08:50:42Z",
   "feed_count": 102,
-  "item_count": 264,
+  "item_count": 263,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.3",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.3",
+      "published": "2026-10-05T08:46:41Z",
+      "preview": "(bootstrap) render templates in Compose projects by @jdx in [ #1 …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.3",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.3",
+      "published": "2026-10-05T08:46:14Z",
+      "preview": "Release vfox 2026.10.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.3",
+      "published": "2026-10-05T08:46:00Z",
+      "preview": "Release mise-util 2026.10.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.3",
+      "published": "2026-10-05T08:45:47Z",
+      "preview": "Release mise-settings 2026.10.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-dotenv-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-dotenv-v2026.10.0",
+      "published": "2026-10-05T08:45:40Z",
+      "preview": "Release mise-dotenv 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "7.0.8",
       "url": "https://github.com/Homebrew/brew/releases/tag/7.0.8",
@@ -55,34 +95,10 @@
       "category": "Multi-language"
     },
     {
-      "title": "mise-interactive-config-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.10.0",
-      "published": "2026-10-04T11:15:29Z",
-      "preview": "Release mise-interactive-config 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.10.2",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.2",
       "published": "2026-10-04T11:15:23Z",
       "preview": "Release vfox 2026.10.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-bootstrap-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-bootstrap-v2026.10.0",
-      "published": "2026-10-04T11:15:15Z",
-      "preview": "Release mise-bootstrap 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-brew-metadata-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-brew-metadata-v2026.10.1",
-      "published": "2026-10-04T11:15:11Z",
-      "preview": "Release mise-brew-metadata 2026.10.1",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -107,22 +123,6 @@
       "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.2",
       "published": "2026-10-04T11:14:54Z",
       "preview": "Release mise-settings 2026.10.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-core-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.10.0",
-      "published": "2026-10-04T11:14:46Z",
-      "preview": "Release mise-cache-core 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-agent-env-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-agent-env-v2026.10.0",
-      "published": "2026-10-04T11:14:41Z",
-      "preview": "Release mise-agent-env 2026.10.0",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -2125,14 +2125,6 @@
       "preview": "Fixed Fix an issue where Poetry could not extract sdists on Python 3.10.0-3.10.12 and 3.11.0-3.11.4 ( #11037 ).",
       "source": "Poetry releases",
       "category": "Python"
-    },
-    {
-      "title": "6.0.22",
-      "url": "https://github.com/Homebrew/brew/releases/tag/6.0.22",
-      "published": "2026-09-05T07:56:10Z",
-      "preview": "What's Changed Use quarterly reports for role suggestions by @MikeMcQuaid in #23726 cask/audit: reject verified parameter on all casks by @AlternateRT in #23718 doctor: remove grep_v(String) from JSON output by @hyuraku in #23727 Target Intel Clang under Rosetta by @MikeMcQuaid in #23723 formula: update cargo fetch example by @cho-m in #23728 formula_creator: add deny network to some modes by @cho-m in #23730 formula_creator: add deny network for go and rust by @cho-m in #23734 bump-cask-pr: load modified contents with FromContentLoader by @p-linnane in #23738 bump: avoid overwriting skip mess",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
