@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-05T11:30:36Z",
-  "cutoff": "2026-09-05T11:30:31Z",
+  "generated": "2026-10-05T12:45:59Z",
+  "cutoff": "2026-09-05T12:45:53Z",
   "feed_count": 102,
   "item_count": 262,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.134.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.2",
+      "published": "2026-10-05T12:45:07Z",
+      "preview": "44.134.2 (2026-10-05) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.110.1 (main) ( #46760 ) ( 27abe8a ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.25.1 (main) ( #46759 ) ( 2f40bbf )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.19.3",
       "url": "https://github.com/elm/compiler/releases/tag/0.19.3",
@@ -379,14 +387,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.2",
       "published": "2026-10-02T08:25:12Z",
       "preview": "44.132.2 (2026-10-02) Bug Fixes deps: downgrade @yarnpkg/core to 4.9.1 ( #46665 ) ( b12f39e ), closes yarnpkg/berry#7282",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.132.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.1",
-      "published": "2026-10-02T05:41:40Z",
-      "preview": "44.132.1 (2026-10-02) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.109.1 (main) ( #46660 ) ( 7962cbe )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
