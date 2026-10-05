@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-05T12:45:59Z",
-  "cutoff": "2026-09-05T12:45:53Z",
+  "generated": "2026-10-05T13:39:42Z",
+  "cutoff": "2026-09-05T13:39:35Z",
   "feed_count": 102,
   "item_count": 262,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.134.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.3",
+      "published": "2026-10-05T13:06:54Z",
+      "preview": "44.134.3 (2026-10-05) Bug Fixes vulnerabilities: raise fixes for deps their manager disables by default ( #46761 ) ( 215433f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.134.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.2",
@@ -381,14 +389,6 @@
       "preview": "Deployment at 2026-10-02T12:05:10.244069Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.132.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.2",
-      "published": "2026-10-02T08:25:12Z",
-      "preview": "44.132.2 (2026-10-02) Bug Fixes deps: downgrade @yarnpkg/core to 4.9.1 ( #46665 ) ( b12f39e ), closes yarnpkg/berry#7282",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.12.22",
