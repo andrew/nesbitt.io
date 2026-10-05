@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-05T05:43:07Z",
-  "cutoff": "2026-09-05T05:43:02Z",
+  "generated": "2026-10-05T07:06:46Z",
+  "cutoff": "2026-09-05T07:06:40Z",
   "feed_count": 102,
-  "item_count": 264,
+  "item_count": 263,
   "categories": [
     ".NET",
     "C/C++",
@@ -2125,14 +2125,6 @@
       "preview": "What's Changed Use quarterly reports for role suggestions by @MikeMcQuaid in #23726 cask/audit: reject verified parameter on all casks by @AlternateRT in #23718 doctor: remove grep_v(String) from JSON output by @hyuraku in #23727 Target Intel Clang under Rosetta by @MikeMcQuaid in #23723 formula: update cargo fetch example by @cho-m in #23728 formula_creator: add deny network to some modes by @cho-m in #23730 formula_creator: add deny network for go and rust by @cho-m in #23734 bump-cask-pr: load modified contents with FromContentLoader by @p-linnane in #23738 bump: avoid overwriting skip mess",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "Bun v1.4.2",
-      "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.2",
-      "published": "2026-09-05T05:57:51Z",
-      "preview": "To install Bun v1.4.2 curl -fsSL https://bun.sh/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.sh/install.ps1|iex \" To upgrade to Bun v1.4.2: bun upgrade Read Bun v1.4.2's release notes on Bun's blog Thanks to 3 contributors! @dylan-conway @jarred-sumner @robobun",
-      "source": "Bun releases",
-      "category": "JavaScript"
     }
   ]
 }
