@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-05T13:39:42Z",
-  "cutoff": "2026-09-05T13:39:35Z",
+  "generated": "2026-10-05T14:37:06Z",
+  "cutoff": "2026-09-05T14:37:00Z",
   "feed_count": 102,
   "item_count": 262,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.135.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.135.0",
+      "published": "2026-10-05T13:51:20Z",
+      "preview": "44.135.0 (2026-10-05) Features manager/gradle: support rich version constraints in the Groovy/Kotlin DSL ( #46498 ) ( 2327295 ), closes #45481 Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.110.2 (main) ( #46762 ) ( 47167a8 ) Miscellaneous Chores deps: update linters to v1.86.0 (main) ( #46763 ) ( 848024d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.134.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.3",
@@ -307,14 +315,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.4",
       "published": "2026-10-03T16:00:16Z",
       "preview": "44.132.4 (2026-10-03) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.109.2 (main) ( #46727 ) ( fa3b4c1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.132.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.3",
-      "published": "2026-10-03T15:46:07Z",
-      "preview": "44.132.3 (2026-10-03) Bug Fixes workers/lookup: only flag downgrades when the versioning orders the values ( #46725 ) ( ebdf90a ), closes #46146 Miscellaneous Chores deps: update dependency @types/node to v24.19.0 (main) ( #46721 ) ( 4b92bb8 ) deps: update dependency lint-staged to v17.6.0 (main) ( #46722 ) ( bd2458a ) deps: update dependency pnpm to v11.28.0 (main) ( #46688 ) ( ae4be16 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
