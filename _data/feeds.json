@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-05T09:46:25Z",
-  "cutoff": "2026-09-05T09:46:19Z",
+  "generated": "2026-10-05T10:35:16Z",
+  "cutoff": "2026-09-05T10:35:10Z",
   "feed_count": 102,
   "item_count": 262,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.134.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.0",
+      "published": "2026-10-05T10:26:20Z",
+      "preview": "44.134.0 (2026-10-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.110.0 (main) ( #46757 ) ( 01dd5bd ) Bug Fixes platform/azure: re-apply auto-complete settings to existing PRs ( #46756 ) ( acad2e3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.133.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.133.1",
+      "published": "2026-10-05T10:01:35Z",
+      "preview": "44.133.1 (2026-10-05) Bug Fixes cache: handle redis client connection errors ( #46754 ) ( c503e44 ) Documentation update references to renovate/renovate (main) ( #46745 ) ( 0e32322 ) update references to renovatebot/github-action to v46.3.6 (main) ( #46744 ) ( f6b64f8 ) update references to renovatebot/github-action to v46.3.7 (main) ( #46749 ) ( 2d9b01b ) Miscellaneous Chores deps: update dependency pnpm to v11.28.1 (main) ( #46751 ) ( 012dab5 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.25.0 (main) ( #46755 ) ( 12a7503 ) Tests versioning/paket: cover omitted minor prer",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.10.3",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.3",
@@ -375,14 +391,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.131.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.131.4",
-      "published": "2026-10-02T02:50:21Z",
-      "preview": "44.131.4 (2026-10-02) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.108.3 (main) ( #46658 ) ( 220eb02 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.22 (main) ( #46654 ) ( f449f87 ) deps: update dependency uv to v0.12.22 (main) ( #46655 ) ( bce0679 ) deps: update python docker tag to v3.14.8 (main) ( #46657 ) ( 81925b1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "0.12.22",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.22",
       "published": "2026-10-02T00:20:42Z",
@@ -429,14 +437,6 @@
       "preview": "This release runs pnpm in StackBlitz WebContainers, adds a per-registry networkConcurrency setting, and records every installed project in the store. It also carries a security fix for pnpm login.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.131.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.131.3",
-      "published": "2026-10-01T23:44:59Z",
-      "preview": "44.131.3 (2026-10-01) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.108.2 (main) ( #46653 ) ( 7c914c6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.17.9",
