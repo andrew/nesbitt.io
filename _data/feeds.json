@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-04T19:27:58Z",
-  "cutoff": "2026-09-04T19:27:53Z",
+  "generated": "2026-10-05T05:43:07Z",
+  "cutoff": "2026-09-05T05:43:02Z",
   "feed_count": 102,
-  "item_count": 265,
+  "item_count": 264,
   "categories": [
     ".NET",
     "C/C++",
@@ -2132,14 +2132,6 @@
       "published": "2026-09-05T05:57:51Z",
       "preview": "To install Bun v1.4.2 curl -fsSL https://bun.sh/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.sh/install.ps1|iex \" To upgrade to Bun v1.4.2: bun upgrade Read Bun v1.4.2's release notes on Bun's blog Thanks to 3 contributors! @dylan-conway @jarred-sumner @robobun",
       "source": "Bun releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "Bun v1.4.2",
-      "url": "https://bun.com/blog/bun-v1.4.2",
-      "published": "2026-09-05T05:39:32Z",
-      "preview": "This release fixes two regressions impacting Elysia and AsyncLocalStorage, a hang in @discordjs/ws, CMYK JPEG decoding in Bun.Image, a rare JIT crash, and a GC crash on musl.",
-      "source": "Bun Blog",
       "category": "JavaScript"
     }
   ]
