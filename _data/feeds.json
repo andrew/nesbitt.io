@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-05T16:35:22Z",
-  "cutoff": "2026-09-05T16:35:14Z",
+  "generated": "2026-10-05T18:39:05Z",
+  "cutoff": "2026-09-05T18:38:59Z",
   "feed_count": 102,
   "item_count": 263,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.138.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.138.0",
+      "published": "2026-10-05T17:46:02Z",
+      "preview": "44.138.0 (2026-10-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.113.0 (main) ( #46770 ) ( fa58d21 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.26.0 (main) ( #46769 ) ( 0579c88 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.137.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.137.0",
@@ -155,14 +163,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.133.0",
       "published": "2026-10-04T18:42:25Z",
       "preview": "44.133.0 (2026-10-04) Features data: automatic update of static data ( #46734 ) ( 474cddd )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.132.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.6",
-      "published": "2026-10-04T16:06:47Z",
-      "preview": "44.132.6 (2026-10-04) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.109.4 (main) ( #46738 ) ( eee241a ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.20 (main) ( #46736 ) ( 06a4f33 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
