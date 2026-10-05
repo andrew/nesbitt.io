@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-05T10:35:16Z",
-  "cutoff": "2026-09-05T10:35:10Z",
+  "generated": "2026-10-05T11:30:36Z",
+  "cutoff": "2026-09-05T11:30:31Z",
   "feed_count": 102,
   "item_count": 262,
   "categories": [
@@ -23,6 +23,30 @@
   ],
   "items": [
     {
+      "title": "0.19.3",
+      "url": "https://github.com/elm/compiler/releases/tag/0.19.3",
+      "published": "2026-10-05T11:08:09Z",
+      "preview": "Elm 0.19.3 introduces some compiler infrastructure upgrades, giving a good foundation for the more exciting stuff in the pipeline. More info is available here: Another step towards Elm 1.0 There are no language changes , so once you swap to \"elm-version\": \"0.19.3\" in your elm.json file, you should be able to proceed without any further code changes. Install The links below include (1) a Mac and Windows installer and (2) 64-bit binaries for various platforms. ✨ Install ✨ For examples of downloading the binaries directly, read the instructions here or here .",
+      "source": "Elm releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.134.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.1",
+      "published": "2026-10-05T10:52:27Z",
+      "preview": "44.134.1 (2026-10-05) Bug Fixes http: deep copy buffer bodies in copyResponse ( #46752 ) ( a58b413 ) Documentation update references to python to 5046790 (main) ( #46743 ) ( b5ac326 ) Miscellaneous Chores deps: lock file maintenance (main) ( #46746 ) ( e58cc8f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.10.3: Dotfile groups, templated Compose projects, and secret hygiene for shell state",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.3",
+      "published": "2026-10-05T10:35:27Z",
+      "preview": "This release adds dotfile groups for Stow-style dotfiles repositories, templated [bootstrap.compose] values, and custom labels for task confirm prompts. Secret values no longer get copied into __MISE_DIFF / __MISE_SESSION or written to the env cache. It also fixes dotenv ${VAR} expansion, mise x tool@latest reporting other tools as missing, and Ruby source builds ignoring depends tools. Added Dotfile groups. You can now declare a directory tree as a group with [dotfile_groups.<name>] , using one directory per app or machine role like GNU Stow. mise walks the group's root and deploys each file ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "44.134.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.0",
       "published": "2026-10-05T10:26:20Z",
@@ -37,14 +61,6 @@
       "preview": "44.133.1 (2026-10-05) Bug Fixes cache: handle redis client connection errors ( #46754 ) ( c503e44 ) Documentation update references to renovate/renovate (main) ( #46745 ) ( 0e32322 ) update references to renovatebot/github-action to v46.3.6 (main) ( #46744 ) ( f6b64f8 ) update references to renovatebot/github-action to v46.3.7 (main) ( #46749 ) ( 2d9b01b ) Miscellaneous Chores deps: update dependency pnpm to v11.28.1 (main) ( #46751 ) ( 012dab5 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.25.0 (main) ( #46755 ) ( 12a7503 ) Tests versioning/paket: cover omitted minor prer",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.10.3",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.3",
-      "published": "2026-10-05T08:46:41Z",
-      "preview": "(bootstrap) render templates in Compose projects by @jdx in [ #1 …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.10.3",
@@ -343,14 +359,6 @@
       "category": "Python"
     },
     {
-      "title": "0.19.3-beta",
-      "url": "https://github.com/elm/compiler/releases/tag/0.19.3",
-      "published": "2026-10-02T13:57:22Z",
-      "preview": "Please give the pre-release binaries a try and let me know if you notice anything odd! They should work with any 0.19.x code, just a little faster and better.",
-      "source": "Elm releases",
-      "category": "Registries"
-    },
-    {
       "title": "v1.16.5",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.5",
       "published": "2026-10-02T13:04:00Z",
@@ -379,14 +387,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.1",
       "published": "2026-10-02T05:41:40Z",
       "preview": "44.132.1 (2026-10-02) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.109.1 (main) ( #46660 ) ( 7962cbe )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.132.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.132.0",
-      "published": "2026-10-02T03:45:00Z",
-      "preview": "44.132.0 (2026-10-02) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.109.0 (main) ( #46659 ) ( 7029247 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
