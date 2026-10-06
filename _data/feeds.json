@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-06T11:29:21Z",
-  "cutoff": "2026-09-06T11:29:16Z",
+  "generated": "2026-10-06T13:33:02Z",
+  "cutoff": "2026-09-06T13:32:56Z",
   "feed_count": 102,
-  "item_count": 266,
+  "item_count": 267,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.15.3",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3",
+      "published": "2026-10-06T13:23:48Z",
+      "preview": "What's Changed Component updates ⬆️ (cherry-pick) fix: avoid panic in user audit event resolver on nil event data ( #23461 ) by @Aloui-Ikram in #23501 (cherry-pick) fix: Constrain /registries/ping to the saved URL for existing registries ( #23463 ) by @Aloui-Ikram in #23502 (cherry-pick) Add a size limit for manifest uploads by @Aloui-Ikram in #23503 cherry-pick: fix(ui): use dark login background in dark mode by @bupd in #23539 ci: remove third-party docker action by @stonezdj in #23693 (cherry-pick) neutralize CSV formula in scan export by @stonezdj in #23696 (cherry-pick): prevent proxy-cac",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
     {
       "title": "20261006t104700-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261006t104700-all",
