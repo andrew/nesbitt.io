@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-06T14:32:18Z",
-  "cutoff": "2026-09-06T14:32:11Z",
+  "generated": "2026-10-06T15:29:43Z",
+  "cutoff": "2026-09-06T15:29:38Z",
   "feed_count": 102,
   "item_count": 267,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.140.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.140.0",
+      "published": "2026-10-06T15:18:51Z",
+      "preview": "44.140.0 (2026-10-06) Features deps: update renovate-base-image to v13.114.0 (main) ( #46795 ) ( 3c5cf64 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.27.0 (main) ( #46794 ) ( 1bf0257 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.15.3",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3",
@@ -173,14 +181,6 @@
       "preview": "This release adds dotfile groups for Stow-style dotfiles repositories, templated [bootstrap.compose] values, and custom labels for task confirm prompts. Secret values no longer get copied into __MISE_DIFF / __MISE_SESSION or written to the env cache. It also fixes dotenv ${VAR} expansion, mise x tool@latest reporting other tools as missing, and Ruby source builds ignoring depends tools. Added Dotfile groups. You can now declare a directory tree as a group with [dotfile_groups.<name>] , using one directory per app or machine role like GNU Stow. mise walks the group's root and deploys each file ",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.134.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.0",
-      "published": "2026-10-05T10:26:20Z",
-      "preview": "44.134.0 (2026-10-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.110.0 (main) ( #46757 ) ( 01dd5bd ) Bug Fixes platform/azure: re-apply auto-complete settings to existing PRs ( #46756 ) ( acad2e3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "vfox-v2026.10.3",
