@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-06T21:28:54Z",
-  "cutoff": "2026-09-06T21:28:48Z",
+  "generated": "2026-10-06T22:30:38Z",
+  "cutoff": "2026-09-06T22:30:33Z",
   "feed_count": 102,
   "item_count": 272,
   "categories": [
@@ -23,19 +23,35 @@
   ],
   "items": [
     {
+      "title": "rc/v4.1.0.3 (release candidate)",
+      "url": "https://github.com/commercialhaskell/stack/releases/tag/rc%2Fv4.1.0.3",
+      "published": "2026-10-06T22:16:10Z",
+      "preview": "Changes since v4.1.0.1: Other enhancements: Consider Cabal 3.18 to be a tested library and remove warnings. Consider GHC 10.0 to be a tested compiler and remove warnings. Add flag --[no-]info-table-profiling (default: disabled) to Stack's build command. Set the flag to enable info table profiling, including the creation of a new info table for every use of a data constructor in the source program.",
+      "source": "Stack releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2.13.6",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.13.6",
+      "published": "2026-10-06T21:41:23Z",
+      "preview": "What's Changed Security Advisories 🔒 (high): Path traversal vulnerability in distribution endpoints GHSA-qj39-pjf2-wmrc in a82c5528f (high): A system robot with user:update makes itself a system administrator GHSA-w5fq-xrhj-j7g2 in 8896be0ae (high): Robot \"cover all projects\" scope collapses into a global wildcard, conferring the deliberately-ungrantable robot:update — enabling cross-project robot takeover with owner lockout GHSA-xq2m-cj8w-56v5 in 7331b58d5 (high): External auth-proxy identity named admin inherits Registry system-administrator authorization GHSA-xvh7-74g6-29xw in 13e5a1b97 (me",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.14.5",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.5",
+      "published": "2026-10-06T21:41:05Z",
+      "preview": "What's Changed Security Advisories 🔒 (high): Path traversal vulnerability in distribution endpoints GHSA-qj39-pjf2-wmrc in a82c5528f (high): A system robot with user:update makes itself a system administrator GHSA-w5fq-xrhj-j7g2 in 8896be0ae (high): Robot \"cover all projects\" scope collapses into a global wildcard, conferring the deliberately-ungrantable robot:update — enabling cross-project robot takeover with owner lockout GHSA-xq2m-cj8w-56v5 in 7331b58d5 (high): External auth-proxy identity named admin inherits Registry system-administrator authorization GHSA-xvh7-74g6-29xw in 13e5a1b97 (me",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
       "title": "2.6.1",
       "url": "https://github.com/ocaml/opam/releases/tag/2.6.1",
       "published": "2026-10-06T21:15:14Z",
       "preview": "2.6.1",
       "source": "opam releases",
-      "category": "Registries"
-    },
-    {
-      "title": "rc/v4.1.0.3",
-      "url": "https://github.com/commercialhaskell/stack/releases/tag/rc%2Fv4.1.0.3",
-      "published": "2026-10-06T19:37:00Z",
-      "preview": "rc/v4.1.0.3",
-      "source": "Stack releases",
       "category": "Registries"
     },
     {
@@ -61,22 +77,6 @@
       "preview": "This release fixes pnpm install failures after an overrides change and on a filtered frozen install with catalogPrune . It also fixes several bugs in the experimental nodeLinker.type: loaded , which now keeps its generated files in node_modules . Patch Changes With nodeLinker.type: loaded , pnpm now writes its generated files to node_modules , which projects already ignore in git. The store manifest and loader are node_modules/.pnpm/.store-manifest.json and node_modules/.pnpm/.store-loader.mjs . Bin shims are in node_modules/.bin . Earlier versions wrote .pnpm-store.json and .pnpm-store-loader",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "v2.13.6",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.13.6",
-      "published": "2026-10-06T15:53:54Z",
-      "preview": "What's Changed Other Changes fix: pin redis 7.2.11 instead of 7.2.6 in the redis base image by @bupd in #24066 Full Changelog : v2.13.5...v2.13.6",
-      "source": "Harbor releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.14.5",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.5",
-      "published": "2026-10-06T15:52:51Z",
-      "preview": "What's Changed Component updates ⬆️ [CHERRY-PICK] Make openapi-generator-cli download URL configurable ( #23186 ) by @chlins in #23222 [cherry-pick] Rebuild goharbor/photon image before create new harbor base images by @jUDASmILE in #23252 [cherry-pick]remove install net-tools from db dockerfile as photon removed it by @jUDASmILE in #23268 [CHERRY-PICK] test(cosign): disable tlog for signing checks by @chlins in #23281 [CHERRY-PICK] fix(cosign): ignore tlog during verification by @chlins in #23285 Other Changes [cherry-pick] support configurable PIP_INDEX_URL for swagger client build by @stone",
-      "source": "Harbor releases",
-      "category": "Containers"
     },
     {
       "title": "44.140.0",
