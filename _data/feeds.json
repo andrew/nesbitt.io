@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-06T05:32:17Z",
-  "cutoff": "2026-09-06T05:32:13Z",
+  "generated": "2026-10-06T06:49:10Z",
+  "cutoff": "2026-09-06T06:49:06Z",
   "feed_count": 102,
-  "item_count": 264,
+  "item_count": 265,
   "categories": [
     ".NET",
     "C/C++",
@@ -36,6 +36,14 @@
       "published": "2026-10-06T05:24:45Z",
       "preview": "This release adds an experimental loaded node linker, lets pnpm-lock.yaml record resolution settings, and reads cached registry metadata faster. It also carries several security fixes, including one that stops a dependency version from writing files outside the global virtual store. Minor Changes Added experimental nodeLinker: { type: loaded } installation. Compatible dependencies load directly from the content-addressable store through an automatically registered Node.js loader. nodeLinker.excluded selects packages and their dependency trees to install in the global virtual store. lockfile.in",
       "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.28.5",
+      "url": "https://pnpm.io/blog/releases/11.28.5",
+      "published": "2026-10-06T00:00:00Z",
+      "preview": "This release reads cached registry metadata faster and makes pnpm config get --global ignore project settings. It also carries several security fixes for package archives, git dependencies, and config dependencies.",
+      "source": "pnpm Blog",
       "category": "JavaScript"
     },
     {
