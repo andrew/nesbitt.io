@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-06T01:06:54Z",
-  "cutoff": "2026-09-06T01:06:49Z",
+  "generated": "2026-10-06T05:32:17Z",
+  "cutoff": "2026-09-06T05:32:13Z",
   "feed_count": 102,
-  "item_count": 263,
+  "item_count": 264,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,19 +23,27 @@
   ],
   "items": [
     {
-      "title": "v12.10.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.10.0",
-      "published": "2026-10-06T00:00:37Z",
-      "preview": "=v12.10.0",
+      "title": "pnpm 11.28.5",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.5",
+      "published": "2026-10-06T05:27:13Z",
+      "preview": "This release reads cached registry metadata faster and makes pnpm config get --global ignore project settings. It also carries several security fixes for package archives, git dependencies, and config dependencies. Patch Changes Security pnpm now verifies locked config dependencies against their registry before installing them. Config dependencies must come from an npm registry. The lockfile can no longer replace the integrity of a config dependency pinned with version+integrity . Lockfile verification now checks the tarballs inside a variations resolution against the registry. A name@version ",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
-      "title": "v11.28.5",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.5",
-      "published": "2026-10-06T00:00:26Z",
-      "preview": "=v11.28.5",
+      "title": "pnpm 12.10.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.10.0",
+      "published": "2026-10-06T05:24:45Z",
+      "preview": "This release adds an experimental loaded node linker, lets pnpm-lock.yaml record resolution settings, and reads cached registry metadata faster. It also carries several security fixes, including one that stops a dependency version from writing files outside the global virtual store. Minor Changes Added experimental nodeLinker: { type: loaded } installation. Compatible dependencies load directly from the content-addressable store through an automatically registered Node.js loader. nodeLinker.excluded selects packages and their dependency trees to install in the global virtual store. lockfile.in",
       "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.10.0",
+      "url": "https://pnpm.io/blog/releases/12.10.0",
+      "published": "2026-10-06T00:00:00Z",
+      "preview": "This release adds an experimental loaded node linker, lets pnpm-lock.yaml record resolution settings, and reads cached registry metadata faster. It also carries several security fixes, including one that stops a dependency version from writing files outside the global virtual store.",
+      "source": "pnpm Blog",
       "category": "JavaScript"
     },
     {
