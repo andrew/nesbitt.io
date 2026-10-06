@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-06T06:49:10Z",
-  "cutoff": "2026-09-06T06:49:06Z",
+  "generated": "2026-10-06T07:39:41Z",
+  "cutoff": "2026-09-06T07:39:34Z",
   "feed_count": 102,
   "item_count": 265,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-06T07:35:34Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "pnpm 11.28.5",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.5",
@@ -645,14 +653,6 @@
       "preview": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.99.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.99.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-09-30T22:46:05Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v29.8.2",
