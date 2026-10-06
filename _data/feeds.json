@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-06T08:38:57Z",
-  "cutoff": "2026-09-06T08:38:52Z",
+  "generated": "2026-10-06T09:35:02Z",
+  "cutoff": "2026-09-06T09:34:57Z",
   "feed_count": 102,
   "item_count": 265,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.139.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.139.0",
+      "published": "2026-10-06T09:18:46Z",
+      "preview": "44.139.0 (2026-10-06) Features manager/github-actions: update gh-aw-actions/setup-cli with.version ( #46766 ) ( 191633d ) Bug Fixes deps: update renovate-base-image to v13.113.2 (main) ( #46785 ) ( 83ed449 ) manager/github-actions: use GitHub releases for setup-deno ( #46726 ) ( a022b80 ) Miscellaneous Chores deps: update jdx/mise-action action to v5 (main) ( #46786 ) ( 12848fd ) deps: update pnpm/setup action to v3 (main) ( #46788 ) ( dcd8efa )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.138.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.138.1",
@@ -155,14 +163,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.0",
       "published": "2026-10-05T10:26:20Z",
       "preview": "44.134.0 (2026-10-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.110.0 (main) ( #46757 ) ( 01dd5bd ) Bug Fixes platform/azure: re-apply auto-complete settings to existing PRs ( #46756 ) ( acad2e3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.133.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.133.1",
-      "published": "2026-10-05T10:01:35Z",
-      "preview": "44.133.1 (2026-10-05) Bug Fixes cache: handle redis client connection errors ( #46754 ) ( c503e44 ) Documentation update references to renovate/renovate (main) ( #46745 ) ( 0e32322 ) update references to renovatebot/github-action to v46.3.6 (main) ( #46744 ) ( f6b64f8 ) update references to renovatebot/github-action to v46.3.7 (main) ( #46749 ) ( 2d9b01b ) Miscellaneous Chores deps: update dependency pnpm to v11.28.1 (main) ( #46751 ) ( 012dab5 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.25.0 (main) ( #46755 ) ( 12a7503 ) Tests versioning/paket: cover omitted minor prer",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
