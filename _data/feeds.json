@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-05T18:39:05Z",
-  "cutoff": "2026-09-05T18:38:59Z",
+  "generated": "2026-10-06T01:06:54Z",
+  "cutoff": "2026-09-06T01:06:49Z",
   "feed_count": 102,
   "item_count": 263,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.10.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.10.0",
+      "published": "2026-10-06T00:00:37Z",
+      "preview": "=v12.10.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.28.5",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.5",
+      "published": "2026-10-06T00:00:26Z",
+      "preview": "=v11.28.5",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.138.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.138.0",
@@ -823,14 +839,6 @@
       "category": "Containers"
     },
     {
-      "title": "v10.34.6",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.6",
-      "published": "2026-09-29T15:44:40Z",
-      "preview": "Patch Changes e7888e5 : pnpm self-update now resolves and verifies pnpm through registry, authentication, proxy, and TLS settings from trusted non-project configuration. Project configuration and the default project pnpmfile can no longer redirect the pnpm download or disable engine identity verification. 46bc7c9 : pnpm no longer tells you to update itself with Corepack or with pnpm add -g : The update notification now suggests pnpm self-update , or the standalone install script when pnpm is running under Corepack. It used to suggest corepack use pnpm@<version> , or pnpm add -g pnpm / pnpm add",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "2.33.0 (29-Sep-2026)",
       "url": "https://github.com/conan-io/conan/releases/tag/2.33.0",
       "published": "2026-09-29T15:38:35Z",
@@ -979,14 +987,6 @@
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.8.0",
       "published": "2026-09-28T07:35:50Z",
       "preview": "pnpm 12.8.0 warns when pnpm pack or pnpm publish would ship a .env file that files does not list, installs sharedWorkspaceLockfile: false workspaces concurrently, applies every setting passed as --config.<name>=<value> , and no longer leaves the Windows terminal stuck after Ctrl+C in a script. Minor Changes pnpm pack and pnpm publish now warn when the tarball includes a .env or .env.* file that the files field of package.json does not list. Templates such as .env.example are not reported. List the file in files to publish it on purpose, or exclude it in .npmignore or .gitignore #7826 . pnpm pa",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 11.28.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.1",
-      "published": "2026-09-28T07:31:11Z",
-      "preview": "pnpm 11.28.1 makes pnpm install work in StackBlitz WebContainers, repairs lockfiles whose patch hashes disagree with patchedDependencies , and fixes many bugs in Windows command shims, injected workspace dependencies, and pnpm deploy . Patch Changes Installing packages pnpm install now works in StackBlitz WebContainers. On projects without a lockfile, it used to fail with ENOENT ... pnpm-lock.yaml , because pnpm did not recognize the errors that WebContainers return from asynchronous file system calls. It also failed with \"this.db.exec is not a function\", because node:sqlite there lacks Databa",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
