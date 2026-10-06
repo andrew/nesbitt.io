@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-06T07:39:41Z",
-  "cutoff": "2026-09-06T07:39:34Z",
+  "generated": "2026-10-06T08:38:57Z",
+  "cutoff": "2026-09-06T08:38:52Z",
   "feed_count": 102,
   "item_count": 265,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.138.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.138.1",
+      "published": "2026-10-06T08:34:33Z",
+      "preview": "44.138.1 (2026-10-06) Miscellaneous Chores deps: update cbrgm/pr-size-labeler-action action to v1.4.0 (main) ( #46778 ) ( d8d4c43 ) deps: update dependency @types/luxon to v3.7.6 (main) ( #46780 ) ( 506d8f0 ) deps: update dependency pnpm to v11.28.2 (main) ( #46772 ) ( a806572 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.26.2 (main) ( #46774 ) ( 5c3ce89 ) Build System deps: add @renovatebot/base-image package ( #46784 ) ( 2088390 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -197,14 +205,6 @@
       "preview": "What's Changed test-bot: skip bottles for unsatisfiable formulae by @daeho-ro in #24104 Time out stalled cask audit downloads by @p-linnane in #24108 cask: remove pre-staged downloads when installs fail by @dergachoff in #24107 diagnostic: allowlist JPKI client dylibs by @ttsuru in #24110 shell: fish-quote the fish profile line by @rawsun007 in #24114 keg: keep versioned opt aliases that still point at an installed keg by @erikdw in #24113 docs/_layouts/base.html: fix heading permalinks by @bevanjkay in #24116 Support bumping cask versions per platform by @waldyrious in #24111 Prevent SSH prom",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "44.133.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.133.0",
-      "published": "2026-10-04T18:42:25Z",
-      "preview": "44.133.0 (2026-10-04) Features data: automatic update of static data ( #46734 ) ( 474cddd )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.10.2: Experimental spinel backend, typed tool options in the schema, and daemon presets on Windows",
