@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-07T07:40:58Z",
-  "cutoff": "2026-09-07T07:40:54Z",
+  "generated": "2026-10-07T08:41:16Z",
+  "cutoff": "2026-09-07T08:41:12Z",
   "feed_count": 102,
-  "item_count": 270,
+  "item_count": 269,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.142.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.142.1",
+      "published": "2026-10-07T08:09:38Z",
+      "preview": "44.142.1 (2026-10-07) Bug Fixes changelog: don't duplicate depName when it matches repo name ( #46789 ) ( 9284b7e ), closes #46787 Code Refactoring datasource: add fetchJson() helpers to the Datasource base class ( #46112 ) ( f07b349 ) datasource: derive github-release-attachments from github-releases ( #46186 ) ( f03acf6 ) datasource: normalise github getDigest signatures ( #46187 ) ( 290f5dc ) datasource: pass the http client through the Datasource constructor ( #46108 ) ( ee0e84f ) datasource: share a base class across the git host *-tags datasources ( #46185 ) ( dc5352d ) datasource: share",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.142.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.142.0",
@@ -203,14 +211,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.135.0",
       "published": "2026-10-05T13:51:20Z",
       "preview": "44.135.0 (2026-10-05) Features manager/gradle: support rich version constraints in the Groovy/Kotlin DSL ( #46498 ) ( 2327295 ), closes #45481 Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.110.2 (main) ( #46762 ) ( 47167a8 ) Miscellaneous Chores deps: update linters to v1.86.0 (main) ( #46763 ) ( 848024d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.134.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.3",
-      "published": "2026-10-05T13:06:54Z",
-      "preview": "44.134.3 (2026-10-05) Bug Fixes vulnerabilities: raise fixes for deps their manager disables by default ( #46761 ) ( 215433f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -2172,14 +2172,6 @@
       "published": "2026-09-07T10:03:36Z",
       "preview": "tagging package snapd version 2.78",
       "source": "Snapd releases",
-      "category": "System"
-    },
-    {
-      "title": "Demystifying complex configurations",
-      "url": "https://guix.gnu.org/blog/2026/demystifying-complex-configurations//",
-      "published": "2026-09-07T08:30:00Z",
-      "preview": "Guix system and Guix home introduce the concept of services. These provide users with a way to control background processes, commonly refereed as daemons , as well as ways of controlling the setup of files. For example, openssh-service-type is a service which controls a SSH daemon. In contrast, etc-service-type is a service that populates the contents of the /etc directory. One peculiarity of Guix services is that it's customary to provide Scheme bindings for the different fields. By that I mean that the different fields of the configuration of most services will be a…",
-      "source": "Guix Blog",
       "category": "System"
     }
   ]
