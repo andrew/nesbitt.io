@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-07T18:38:34Z",
-  "cutoff": "2026-09-07T18:38:29Z",
+  "generated": "2026-10-07T19:29:05Z",
+  "cutoff": "2026-09-07T19:28:59Z",
   "feed_count": 102,
-  "item_count": 271,
+  "item_count": 272,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.0.0-beta.26",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.26",
+      "published": "2026-10-07T19:28:33Z",
+      "preview": "v2.0.0-beta.26",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "44.145.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.145.0",
+      "published": "2026-10-07T18:52:55Z",
+      "preview": "44.145.0 (2026-10-07) Features deps: update renovate-base-image to v13.116.0 (main) ( #46828 ) ( de8f67e ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.15 (main) ( #46825 ) ( 219eaf0 ) deps: update dependency pnpm to v11.28.3 (main) ( #46826 ) ( 1d25ef0 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.29.0 (main) ( #46827 ) ( 5ddd9cd )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.13.6",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.13.6",
@@ -285,14 +301,6 @@
       "preview": "This release fixes pnpm install failures after an overrides change and on a filtered frozen install with catalogPrune. It also fixes several bugs in the experimental nodeLinker.type: loaded, which now keeps its generated files in node_modules.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.138.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.138.0",
-      "published": "2026-10-05T17:46:02Z",
-      "preview": "44.138.0 (2026-10-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.113.0 (main) ( #46770 ) ( fa58d21 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.26.0 (main) ( #46769 ) ( 0579c88 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.399.0",
