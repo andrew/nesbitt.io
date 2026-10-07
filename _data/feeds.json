@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-07T19:29:05Z",
-  "cutoff": "2026-09-07T19:28:59Z",
+  "generated": "2026-10-07T20:32:32Z",
+  "cutoff": "2026-09-07T20:32:25Z",
   "feed_count": 102,
-  "item_count": 272,
+  "item_count": 275,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.9.0-rc.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.0-rc.2",
+      "published": "2026-10-07T20:11:47Z",
+      "preview": "29.9.0-rc.2 For a full list of changes from the last release candidate refer to the diff: moby/moby, 29.9.0-rc.1...29.9.0-rc.2 docker/cli, 29.9.0-rc.1...29.9.0-rc.2 Bug fixes and enhancements containerd image store: Add the lazy-pull daemon feature to control whether docker pull skips downloading layer content that the snapshotter already provides. Lazy pulls are enabled by default for known remote snapshotters ( nydus , overlaybd , soci , stargz ). moby/moby#53877 containerd image store: Fix a regression in v29.9.0-rc.1 where docker pull downloaded all layer content when using a remote snapsh",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "1.17.12",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.12",
+      "published": "2026-10-07T20:09:29Z",
+      "preview": "What's Changed docs: update logo author credit by @hfycium in #2075 fix(reinstall): don't print a traceback for an expected reinstall failure by @ParamTanna in #2070 Skip the setuptools uninstall when it is not installed by @officialpm in #2071 fix: keep injected package names stable in suffixed environments by @feiiiiii5 in #2072 New Contributors @hfycium made their first contribution in #2075 @ParamTanna made their first contribution in #2070 @officialpm made their first contribution in #2071 Full Changelog : 1.17.11...1.17.12",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "44.145.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.145.1",
+      "published": "2026-10-07T19:52:38Z",
+      "preview": "44.145.1 (2026-10-07) Bug Fixes deps: update renovate-base-image to v13.116.1 (main) ( #46830 ) ( 0dfb750 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v1.17.0-rc1",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc1",
+      "published": "2026-10-07T19:46:06Z",
+      "preview": "1.17.0-rc1 (October 07, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
     {
       "title": "v2.0.0-beta.26",
       "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.26",
@@ -251,14 +283,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.139.0",
       "published": "2026-10-06T09:18:46Z",
       "preview": "44.139.0 (2026-10-06) Features manager/github-actions: update gh-aw-actions/setup-cli with.version ( #46766 ) ( 191633d ) Bug Fixes deps: update renovate-base-image to v13.113.2 (main) ( #46785 ) ( 83ed449 ) manager/github-actions: use GitHub releases for setup-deno ( #46726 ) ( a022b80 ) Miscellaneous Chores deps: update jdx/mise-action action to v5 (main) ( #46786 ) ( 12848fd ) deps: update pnpm/setup action to v3 (main) ( #46788 ) ( dcd8efa )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.138.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.138.1",
-      "published": "2026-10-06T08:34:33Z",
-      "preview": "44.138.1 (2026-10-06) Miscellaneous Chores deps: update cbrgm/pr-size-labeler-action action to v1.4.0 (main) ( #46778 ) ( d8d4c43 ) deps: update dependency @types/luxon to v3.7.6 (main) ( #46780 ) ( 506d8f0 ) deps: update dependency pnpm to v11.28.2 (main) ( #46772 ) ( a806572 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.26.2 (main) ( #46774 ) ( 5c3ce89 ) Build System deps: add @renovatebot/base-image package ( #46784 ) ( 2088390 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
