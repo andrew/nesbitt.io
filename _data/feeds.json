@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-06T22:30:38Z",
-  "cutoff": "2026-09-06T22:30:33Z",
+  "generated": "2026-10-07T01:10:18Z",
+  "cutoff": "2026-09-07T01:10:13Z",
   "feed_count": 102,
-  "item_count": 272,
+  "item_count": 270,
   "categories": [
     ".NET",
     "C/C++",
@@ -2181,22 +2181,6 @@
       "preview": "Guix system and Guix home introduce the concept of services. These provide users with a way to control background processes, commonly refereed as daemons , as well as ways of controlling the setup of files. For example, openssh-service-type is a service which controls a SSH daemon. In contrast, etc-service-type is a service that populates the contents of the /etc directory. One peculiarity of Guix services is that it's customary to provide Scheme bindings for the different fields. By that I mean that the different fields of the configuration of most services will be a…",
       "source": "Guix Blog",
       "category": "System"
-    },
-    {
-      "title": "Rust debugging survey 2026 results",
-      "url": "https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/",
-      "published": "2026-09-07T00:00:00Z",
-      "preview": "One of the biggest challenges Rust developers report in our annual surveys is a subpar debugging experience. So, back in February, we ran our first Rust Debugging Survey , in the hopes of identifying how Rust developers are using debuggers and what problems they are facing when doing so. We received over 2,300 responses, and we'd like to thank everyone who took the time to participate in the survey! In this report, we'll go over some of the results of the survey. If you'd like, you can also check out the complete results of the survey . If you'd like to skip ahead to any particular section, yo",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
-      "title": "pnpm 11.26",
-      "url": "https://pnpm.io/blog/releases/11.26",
-      "published": "2026-09-07T00:00:00Z",
-      "preview": "pnpm 11.26 brings the JavaScript CLI level with what pnpm 12 gained over the past two weeks: workspace: ranges in catalogs, the supply-chain flags on remove and update, pnpm change check for CI, and pnpm deploy without injected dependencies.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
