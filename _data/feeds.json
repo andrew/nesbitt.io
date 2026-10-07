@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-07T21:30:16Z",
-  "cutoff": "2026-09-07T21:30:10Z",
+  "generated": "2026-10-07T22:29:12Z",
+  "cutoff": "2026-09-07T22:29:07Z",
   "feed_count": 102,
   "item_count": 276,
   "categories": [
@@ -23,9 +23,17 @@
   ],
   "items": [
     {
+      "title": "9.8.1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.1",
+      "published": "2026-10-07T21:46:19Z",
+      "preview": "This is a patch release for Gradle 9.8.0. We recommend using 9.8.1 instead of 9.8.0. This release addresses three high rated vulnerabilities: Unauthenticated worker-to-daemon channel deserializes untrusted Java objects Deserialization of untrusted Java objects before authentication in the client - daemon communication Failure to disable repositories failing to establish an SSL connection can expose builds to malicious artifacts The following issues were resolved: [Gradle 9.8.0 complains again about invalid Toolchains on Debian / Ubuntu packaged systems]- ( #39358 ) Gradle 9.8.0 removes root ja",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
       "title": "v0.46.0",
       "url": "https://github.com/jj-vcs/jj/releases/tag/v0.46.0",
-      "published": "2026-10-07T21:28:52Z",
+      "published": "2026-10-07T21:37:44Z",
       "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights Jujutsu can now colocate workspaces besides the default one by creating Git worktrees. Use jj workspace add --[no-]colocate and the setting git.colocate to control this. Breaking changes The minimum supported git command version is now 2.42.0, up from 2.41.0. jj workspace add uses git worktree add --orphan , which was added in 2.42.0. The minimum supported Rust version (MSRV) is now 1.97.1. jj bisect run now runs some consistency checks befo",
       "source": "jj releases",
       "category": "Infrastructure"
@@ -125,14 +133,6 @@
       "preview": "44.144.0 (2026-10-07) Features datasource: report the datasource which served a lookup ( #46808 ) ( 101cb08 ) Bug Fixes json-schema: correctly link options to the heading they're documented under ( #46672 ) ( b1c232a ), closes #43020 -#packagerulesenabled #enabled -#packagerulesfetchchangelogs #fetchchangelogs -#ansiblemanagerfilepatterns #managerfilepatterns Code Refactoring json-schema: extract shared indexMarkdown function ( #46693 ) ( baea689 ) Tests json-schema: add coverage of generated docs links ( #46678 ) ( b486348 ) Build System deps: update dependency ignore to v7.0.11 (main) ( #468",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v9.8.1",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.1",
-      "published": "2026-10-07T15:19:47Z",
-      "preview": "Release notes for Gradle 9.8.1 ( #39409 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "vfox-v2026.10.4",
