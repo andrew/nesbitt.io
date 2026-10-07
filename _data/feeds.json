@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-07T13:35:05Z",
-  "cutoff": "2026-09-07T13:34:59Z",
+  "generated": "2026-10-07T14:33:09Z",
+  "cutoff": "2026-09-07T14:33:00Z",
   "feed_count": 102,
-  "item_count": 269,
+  "item_count": 268,
   "categories": [
     ".NET",
     "C/C++",
@@ -2165,14 +2165,6 @@
       "preview": "Feedback on this post is welcome on Discuss! We are happy to announce the first release candidate of opam 2.6.0. You can view the full list of changes in the release note. This version is a pre-release, we invite users to test it to spot previously unnoticed bugs as we head towards the stable release. Try it! The upgrade instructions are unchanged: Either from binaries: run For Unix systems bash -c \"sh <(curl -fsSL https://opam.ocaml.org/install.sh) --version 2.6.0~rc1\"or from PowerShell for Windows systems Invoke-Expression \"& { $(Invoke-RestMethod https://opam.ocaml.org/install.ps1) } -Versi",
       "source": "opam Blog",
       "category": "Registries"
-    },
-    {
-      "title": "v0.80.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.80.0",
-      "published": "2026-09-07T13:38:39Z",
-      "preview": "[0.80.0] - 2026-09-07 ✨ Highlights Pixi now has experimental support for conda-script . Conda scripts let you write scripts in any language, with dependencies and instructions for running them included in the same file. Pixi solves the environment, caches it, and runs the script without requiring a separate workspace. For example, an R script can now be self-contained: # /// conda-script # channels = [\"https://prefix.dev/conda-forge\"] # entrypoint = \"Rscript ${SCRIPT}\" # # [dependencies] # r-base = \"*\" # r-jsonlite = \"*\" # /// end-conda-script library( jsonlite ) writeLines(toJSON( list ( hell",
-      "source": "pixi releases",
-      "category": "Multi-language"
     }
   ]
 }
