@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-07T20:32:32Z",
-  "cutoff": "2026-09-07T20:32:25Z",
+  "generated": "2026-10-07T21:30:16Z",
+  "cutoff": "2026-09-07T21:30:10Z",
   "feed_count": 102,
-  "item_count": 275,
+  "item_count": 276,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.46.0",
+      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.46.0",
+      "published": "2026-10-07T21:28:52Z",
+      "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights Jujutsu can now colocate workspaces besides the default one by creating Git worktrees. Use jj workspace add --[no-]colocate and the setting git.colocate to control this. Breaking changes The minimum supported git command version is now 2.42.0, up from 2.41.0. jj workspace add uses git worktree add --orphan , which was added in 2.42.0. The minimum supported Rust version (MSRV) is now 1.97.1. jj bisect run now runs some consistency checks befo",
+      "source": "jj releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v29.9.0-rc.2",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.0-rc.2",
