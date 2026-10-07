@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-07T16:35:07Z",
-  "cutoff": "2026-09-07T16:35:01Z",
+  "generated": "2026-10-07T17:33:29Z",
+  "cutoff": "2026-09-07T17:33:23Z",
   "feed_count": 102,
-  "item_count": 269,
+  "item_count": 270,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "44.144.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.144.1",
+      "published": "2026-10-07T16:36:30Z",
+      "preview": "44.144.1 (2026-10-07) Bug Fixes exec: re-run install-tool when switching back to an earlier tool version ( #46823 ) ( 2ca2bc0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "v2026.10.4: Task-scoped fnox secrets, automatic global tool updates, and an opt-in identity install layout",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.4",
       "published": "2026-10-07T16:21:40Z",
@@ -37,6 +45,14 @@
       "preview": "44.144.0 (2026-10-07) Features datasource: report the datasource which served a lookup ( #46808 ) ( 101cb08 ) Bug Fixes json-schema: correctly link options to the heading they're documented under ( #46672 ) ( b1c232a ), closes #43020 -#packagerulesenabled #enabled -#packagerulesfetchchangelogs #fetchchangelogs -#ansiblemanagerfilepatterns #managerfilepatterns Code Refactoring json-schema: extract shared indexMarkdown function ( #46693 ) ( baea689 ) Tests json-schema: add coverage of generated docs links ( #46678 ) ( b486348 ) Build System deps: update dependency ignore to v7.0.11 (main) ( #468",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "v9.8.1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.1",
+      "published": "2026-10-07T15:19:47Z",
+      "preview": "Release notes for Gradle 9.8.1 ( #39409 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "vfox-v2026.10.4",
@@ -275,14 +291,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.138.0",
       "published": "2026-10-05T17:46:02Z",
       "preview": "44.138.0 (2026-10-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.113.0 (main) ( #46770 ) ( fa58d21 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.26.0 (main) ( #46769 ) ( 0579c88 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.137.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.137.0",
-      "published": "2026-10-05T16:20:31Z",
-      "preview": "44.137.0 (2026-10-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.112.0 (main) ( #46767 ) ( f730d6a )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
