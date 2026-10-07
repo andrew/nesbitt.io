@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-07T01:10:18Z",
-  "cutoff": "2026-09-07T01:10:13Z",
+  "generated": "2026-10-07T07:40:58Z",
+  "cutoff": "2026-09-07T07:40:54Z",
   "feed_count": 102,
   "item_count": 270,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.142.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.142.0",
+      "published": "2026-10-07T07:17:40Z",
+      "preview": "44.142.0 (2026-10-07) Features datasource/crate: use host rule credentials for git index registries ( #46574 ) ( 9d59ac5 ) Bug Fixes deps: update renovate-base-image to v13.115.1 (main) ( #46803 ) ( 4651936 ) Miscellaneous Chores deps: update dependency memfs to v4.80.0 (main) ( #46800 ) ( cb29e61 ) Code Refactoring manager/npm: type npm, yarn, bun and deno manager data ( #46637 ) ( f0d8c92 ) manager/python: type pep621, poetry, pipenv and pip manager data ( #46638 ) ( b291587 ) manager: default manager data generics to unknown ( #46640 ) ( 31bcd2f ) manager: type manager data of the remaining",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "rc/v4.1.0.3 (release candidate)",
       "url": "https://github.com/commercialhaskell/stack/releases/tag/rc%2Fv4.1.0.3",
@@ -203,14 +211,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.3",
       "published": "2026-10-05T13:06:54Z",
       "preview": "44.134.3 (2026-10-05) Bug Fixes vulnerabilities: raise fixes for deps their manager disables by default ( #46761 ) ( 215433f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.134.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.134.2",
-      "published": "2026-10-05T12:45:07Z",
-      "preview": "44.134.2 (2026-10-05) Bug Fixes deps: update ghcr.io/renovatebot/base-image docker tag to v13.110.1 (main) ( #46760 ) ( 27abe8a ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.25.1 (main) ( #46759 ) ( 2f40bbf )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
