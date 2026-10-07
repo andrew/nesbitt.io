@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-07T08:41:16Z",
-  "cutoff": "2026-09-07T08:41:12Z",
+  "generated": "2026-10-07T09:35:45Z",
+  "cutoff": "2026-09-07T09:35:40Z",
   "feed_count": 102,
   "item_count": 269,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.13.6",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.13.6",
+      "published": "2026-10-07T08:51:44Z",
+      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS: \"true\" to co",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.14.5",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.5",
+      "published": "2026-10-07T08:51:43Z",
+      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS: \"true\" to co",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.15.3",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3",
+      "published": "2026-10-07T08:51:41Z",
+      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS: \"true\" to co",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
     {
       "title": "44.142.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.142.1",
@@ -45,22 +69,6 @@
       "preview": "Changes since v4.1.0.1: Other enhancements: Consider Cabal 3.18 to be a tested library and remove warnings. Consider GHC 10.0 to be a tested compiler and remove warnings. Add flag --[no-]info-table-profiling (default: disabled) to Stack's build command. Set the flag to enable info table profiling, including the creation of a new info table for every use of a data constructor in the source program.",
       "source": "Stack releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2.13.6",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.13.6",
-      "published": "2026-10-06T21:41:23Z",
-      "preview": "What's Changed Security Advisories 🔒 (high): Path traversal vulnerability in distribution endpoints GHSA-qj39-pjf2-wmrc in a82c5528f (high): A system robot with user:update makes itself a system administrator GHSA-w5fq-xrhj-j7g2 in 8896be0ae (high): Robot \"cover all projects\" scope collapses into a global wildcard, conferring the deliberately-ungrantable robot:update — enabling cross-project robot takeover with owner lockout GHSA-xq2m-cj8w-56v5 in 7331b58d5 (high): External auth-proxy identity named admin inherits Registry system-administrator authorization GHSA-xvh7-74g6-29xw in 13e5a1b97 (me",
-      "source": "Harbor releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.14.5",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.5",
-      "published": "2026-10-06T21:41:05Z",
-      "preview": "What's Changed Security Advisories 🔒 (high): Path traversal vulnerability in distribution endpoints GHSA-qj39-pjf2-wmrc in a82c5528f (high): A system robot with user:update makes itself a system administrator GHSA-w5fq-xrhj-j7g2 in 8896be0ae (high): Robot \"cover all projects\" scope collapses into a global wildcard, conferring the deliberately-ungrantable robot:update — enabling cross-project robot takeover with owner lockout GHSA-xq2m-cj8w-56v5 in 7331b58d5 (high): External auth-proxy identity named admin inherits Registry system-administrator authorization GHSA-xvh7-74g6-29xw in 13e5a1b97 (me",
-      "source": "Harbor releases",
-      "category": "Containers"
     },
     {
       "title": "2.6.1",
@@ -101,14 +109,6 @@
       "preview": "44.140.0 (2026-10-06) Features deps: update renovate-base-image to v13.114.0 (main) ( #46795 ) ( 3c5cf64 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.27.0 (main) ( #46794 ) ( 1bf0257 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2.15.3",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3",
-      "published": "2026-10-06T13:51:59Z",
-      "preview": "What's Changed Security Advisories 🔒 (high): Path traversal vulnerability in distribution endpoints GHSA-qj39-pjf2-wmrc in a82c5528f (high): A system robot with user:update makes itself a system administrator GHSA-w5fq-xrhj-j7g2 in 8896be0ae (high): Robot \"cover all projects\" scope collapses into a global wildcard, conferring the deliberately-ungrantable robot:update — enabling cross-project robot takeover with owner lockout GHSA-xq2m-cj8w-56v5 in 7331b58d5 (high): External auth-proxy identity named admin inherits Registry system-administrator authorization GHSA-xvh7-74g6-29xw in 13e5a1b97 (me",
-      "source": "Harbor releases",
-      "category": "Containers"
     },
     {
       "title": "20261006t104700-all",
