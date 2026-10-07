@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-07T14:33:09Z",
-  "cutoff": "2026-09-07T14:33:00Z",
+  "generated": "2026-10-07T15:40:34Z",
+  "cutoff": "2026-09-07T15:40:21Z",
   "feed_count": 102,
-  "item_count": 268,
+  "item_count": 269,
   "categories": [
     ".NET",
     "C/C++",
@@ -141,6 +141,14 @@
       "preview": "44.142.0 (2026-10-07) Features datasource/crate: use host rule credentials for git index registries ( #46574 ) ( 9d59ac5 ) Bug Fixes deps: update renovate-base-image to v13.115.1 (main) ( #46803 ) ( 4651936 ) Miscellaneous Chores deps: update dependency memfs to v4.80.0 (main) ( #46800 ) ( cb29e61 ) Code Refactoring manager/npm: type npm, yarn, bun and deno manager data ( #46637 ) ( f0d8c92 ) manager/python: type pep621, poetry, pipenv and pip manager data ( #46638 ) ( b291587 ) manager: default manager data generics to unknown ( #46640 ) ( 31bcd2f ) manager: type manager data of the remaining",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "PIE 1.5 Released",
+      "url": "https://thephp.foundation/blog/2026/10/07/pie-1-5-released/",
+      "published": "2026-10-07T00:00:00Z",
+      "preview": "The PIE team is pleased to announce the release of the PHP Installer for Extensions 1.5 series, which has been in the works for around five months. There has been significant work gone into some internal improvements which has enabled us to deliver several long-awaited features for the tool. Lets dive into a few of these new features! Install multiple extensions You are now able to install multiple extensions at once, for example: $ pie install php-amqp/php-amqp:^2.2 girgias/csv This is helpful for setting up Docker images. Configure options may still be passed, and they will be automatically ",
+      "source": "PHP Foundation Blog",
+      "category": "PHP"
     },
     {
       "title": "opam 2.6.1 release",
