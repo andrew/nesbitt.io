@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-07T15:40:34Z",
-  "cutoff": "2026-09-07T15:40:21Z",
+  "generated": "2026-10-07T16:35:07Z",
+  "cutoff": "2026-09-07T16:35:01Z",
   "feed_count": 102,
   "item_count": 269,
   "categories": [
@@ -23,12 +23,20 @@
   ],
   "items": [
     {
-      "title": "v2026.10.4",
+      "title": "v2026.10.4: Task-scoped fnox secrets, automatic global tool updates, and an opt-in identity install layout",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.4",
-      "published": "2026-10-07T13:15:15Z",
-      "preview": "(bootstrap) add a tool-update service that keeps auto_update to…",
+      "published": "2026-10-07T16:21:40Z",
+      "preview": "This release adds experimental task-scoped secrets backed by fnox, automatic updates for global tools, and an experimental opt-in install layout that names installations by what they contain. It also adds dotfile merge entries, headers auth for the http: backend, npm installs from git, and a set of prune, install and lockfile fixes. Added Secrets (experimental) These need mise settings experimental=true and fnox 1.39.0 or newer. They are refused in safe mode. [secrets.fnox] and mise secrets ls . A project can name fnox as its secrets source in its own mise.toml . mise secrets ls lists key name",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "44.144.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.144.0",
+      "published": "2026-10-07T16:13:07Z",
+      "preview": "44.144.0 (2026-10-07) Features datasource: report the datasource which served a lookup ( #46808 ) ( 101cb08 ) Bug Fixes json-schema: correctly link options to the heading they're documented under ( #46672 ) ( b1c232a ), closes #43020 -#packagerulesenabled #enabled -#packagerulesfetchchangelogs #fetchchangelogs -#ansiblemanagerfilepatterns #managerfilepatterns Code Refactoring json-schema: extract shared indexMarkdown function ( #46693 ) ( baea689 ) Tests json-schema: add coverage of generated docs links ( #46678 ) ( b486348 ) Build System deps: update dependency ignore to v7.0.11 (main) ( #468",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "vfox-v2026.10.4",
@@ -275,14 +283,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.137.0",
       "published": "2026-10-05T16:20:31Z",
       "preview": "44.137.0 (2026-10-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.112.0 (main) ( #46767 ) ( f730d6a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.136.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.136.0",
-      "published": "2026-10-05T16:04:01Z",
-      "preview": "44.136.0 (2026-10-05) Features deps: update ghcr.io/renovatebot/base-image docker tag to v13.111.0 (main) ( #46765 ) ( cebf42f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
