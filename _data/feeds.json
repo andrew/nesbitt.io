@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-08T08:42:25Z",
-  "cutoff": "2026-09-08T08:42:14Z",
+  "generated": "2026-10-08T09:37:05Z",
+  "cutoff": "2026-09-08T09:36:58Z",
   "feed_count": 102,
-  "item_count": 276,
+  "item_count": 277,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,20 +23,28 @@
   ],
   "items": [
     {
+      "title": "Extending Guix",
+      "url": "https://guix.gnu.org/blog/2026/extending-guix//",
+      "published": "2026-10-08T11:00:00Z",
+      "preview": "Guix is all about empowering people, so it should come as no surprise that one can extend it with new guix commands . You can show the commands available in your current Guix through the help command: $ guix help If you are using a recent Guix, there are a number of extensions at your disposal, they are available as individual packages, and as a meta-package providing a collection of extensions . Try them out with: $ guix shell guix guile guix-extension-collection I'm adding the guix and guile …",
+      "source": "Guix Blog",
+      "category": "System"
+    },
+    {
+      "title": "v2.15.3",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3",
+      "published": "2026-10-08T09:07:42Z",
+      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
       "title": "44.145.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.145.2",
       "published": "2026-10-08T08:37:26Z",
       "preview": "44.145.2 (2026-10-08) Miscellaneous Chores deps: update docker/dockerfile docker tag to v1.28.0 (main) ( #46833 ) ( ddc717d ) deps: update jlumbroso/free-disk-space action to v2 (main) ( #46787 ) ( 250498b ) Build System deps: update dependency simple-git to v4 [security] (main) ( #46781 ) ( d1fd5df ) deps: update dependency simple-git to v4.0.2 (main) ( #46836 ) ( 60c5118 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2.15.3",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3",
-      "published": "2026-10-08T08:31:30Z",
-      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
-      "source": "Harbor releases",
-      "category": "Containers"
     },
     {
       "title": "v4.1.0.beta2",
