@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-08T04:37:41Z",
-  "cutoff": "2026-09-08T04:37:30Z",
+  "generated": "2026-10-08T06:50:45Z",
+  "cutoff": "2026-09-08T06:50:39Z",
   "feed_count": 102,
-  "item_count": 277,
+  "item_count": 276,
   "categories": [
     ".NET",
     "C/C++",
@@ -2229,14 +2229,6 @@
       "preview": "Fix undo of unlink-component after its snap revision was discarded interfaces: power-control | allow reading all battery state files",
       "source": "Snapd releases",
       "category": "System"
-    },
-    {
-      "title": "Incident Report: File Hosting Errors",
-      "url": "https://blog.pypi.org/posts/2026-09-08-file-hosting-errors/",
-      "published": "2026-09-08T06:09:00Z",
-      "preview": "Executive summary For about two weeks in August 2026, some PyPI users hit intermittent 502 and 503 errors downloading files from files.pythonhosted.org , triggering failures during installation from PyPI. Thanks to our users filing reports in the support tracker ; one report in particular narrowed the problem to a single cache node. Two separate problems were uncovered. A canary deployment inside Fastly's network had triggered a misconfiguration at one cache node, causing Fastly's routing layer to return 502 responses for traffic reaching the affected cache node. Separately, I found and fixed ",
-      "source": "PyPI Blog",
-      "category": "Python"
     }
   ]
 }
