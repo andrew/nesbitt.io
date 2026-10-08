@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-08T21:30:20Z",
-  "cutoff": "2026-09-08T21:30:14Z",
+  "generated": "2026-10-08T22:30:50Z",
+  "cutoff": "2026-09-08T22:30:44Z",
   "feed_count": 102,
   "item_count": 287,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.148.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.2",
+      "published": "2026-10-08T21:57:32Z",
+      "preview": "44.148.2 (2026-10-08) Bug Fixes deps: update renovate-base-image to v13.117.1 (main) ( #46856 ) ( ee5cfdc ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.30.1 (main) ( #46855 ) ( 83f5f9b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v29.9.0",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.0",
+      "published": "2026-10-08T21:34:57Z",
+      "preview": "29.9.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.9.0 milestone moby/moby, 29.9.0 milestone Security The Go runtime update fixes the following security vulnerabilities in Docker Engine: CVE-2026-97032 : An HTTP/2 client could crash the daemon by changing the HPACK header table size while sending requests. golang/go#81867 CVE-2026-78659 : An HTTP/2 client could exhaust daemon memory by declaring a large number of fields in a Trailer header, bypassing the header size limits. golang/go#81857 CVE-2026-78663 : An HTTP/2 clie",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "44.148.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.1",
@@ -461,14 +477,6 @@
       "preview": "What's Changed docs: update logo author credit by @hfycium in #2075 fix(reinstall): don't print a traceback for an expected reinstall failure by @ParamTanna in #2070 Skip the setuptools uninstall when it is not installed by @officialpm in #2071 fix: keep injected package names stable in suffixed environments by @feiiiiii5 in #2072 New Contributors @hfycium made their first contribution in #2075 @ParamTanna made their first contribution in #2070 @officialpm made their first contribution in #2071 Full Changelog : 1.17.11...1.17.12",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "44.145.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.145.1",
-      "published": "2026-10-07T19:52:38Z",
-      "preview": "44.145.1 (2026-10-07) Bug Fixes deps: update renovate-base-image to v13.116.1 (main) ( #46830 ) ( 0dfb750 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.17.0-rc1",
@@ -981,14 +989,6 @@
       "preview": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.99.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.99.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "v29.8.2",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.2",
-      "published": "2026-09-30T20:28:33Z",
-      "preview": "29.8.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.8.2 milestone moby/moby, 29.8.2 milestone Security This release fixes the following security vulnerabilities in Docker Engine: CVE-2026-53493 : Pulling a crafted OCI image index with deeply nested or widely fanned-out descriptors could cause unbounded CPU and memory use. GHSA-pg57-6jwg-q645 CVE-2026-92543 : A malicious DNS response could make registry connections skip TLS certificate verification or fall back to HTTP, exposing registry credentials or allowing image subst",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     },
     {
       "title": "cabal-install-v3.18.2.0",
