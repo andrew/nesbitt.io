@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-08T09:37:05Z",
-  "cutoff": "2026-09-08T09:36:58Z",
+  "generated": "2026-10-08T10:33:30Z",
+  "cutoff": "2026-09-08T10:33:25Z",
   "feed_count": 102,
-  "item_count": 277,
+  "item_count": 278,
   "categories": [
     ".NET",
     "C/C++",
@@ -31,6 +31,30 @@
       "category": "System"
     },
     {
+      "title": "v2.13.6",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.13.6",
+      "published": "2026-10-08T10:03:26Z",
+      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
+      "title": "44.145.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.145.3",
+      "published": "2026-10-08T10:03:21Z",
+      "preview": "44.145.3 (2026-10-08) Bug Fixes manager/helmv3: strip repository path from ECR registry login ( #46837 ) ( 5239d49 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2.14.5",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.5",
+      "published": "2026-10-08T10:03:06Z",
+      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
       "title": "v2.15.3",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3",
       "published": "2026-10-08T09:07:42Z",
@@ -45,6 +69,14 @@
       "preview": "44.145.2 (2026-10-08) Miscellaneous Chores deps: update docker/dockerfile docker tag to v1.28.0 (main) ( #46833 ) ( ddc717d ) deps: update jlumbroso/free-disk-space action to v2 (main) ( #46787 ) ( 250498b ) Build System deps: update dependency simple-git to v4 [security] (main) ( #46781 ) ( d1fd5df ) deps: update dependency simple-git to v4.0.2 (main) ( #46836 ) ( 60c5118 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "v8.14.6",
+      "url": "https://github.com/gradle/gradle/releases/tag/v8.14.6",
+      "published": "2026-10-08T07:06:27Z",
+      "preview": "Release notes for 8.14.6 ( #39421 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "v4.1.0.beta2",
@@ -141,22 +173,6 @@
       "preview": "44.145.0 (2026-10-07) Features deps: update renovate-base-image to v13.116.0 (main) ( #46828 ) ( de8f67e ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.15 (main) ( #46825 ) ( 219eaf0 ) deps: update dependency pnpm to v11.28.3 (main) ( #46826 ) ( 1d25ef0 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.29.0 (main) ( #46827 ) ( 5ddd9cd )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2.13.6",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.13.6",
-      "published": "2026-10-07T17:47:17Z",
-      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
-      "source": "Harbor releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.14.5",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.5",
-      "published": "2026-10-07T17:47:16Z",
-      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
-      "source": "Harbor releases",
-      "category": "Containers"
     },
     {
       "title": "44.144.1",
@@ -309,14 +325,6 @@
       "preview": "This release fixes pnpm install failures after an overrides change and on a filtered frozen install with catalogPrune . It also fixes several bugs in the experimental nodeLinker.type: loaded , which now keeps its generated files in node_modules . Patch Changes With nodeLinker.type: loaded , pnpm now writes its generated files to node_modules , which projects already ignore in git. The store manifest and loader are node_modules/.pnpm/.store-manifest.json and node_modules/.pnpm/.store-loader.mjs . Bin shims are in node_modules/.bin . Earlier versions wrote .pnpm-store.json and .pnpm-store-loader",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.140.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.140.0",
-      "published": "2026-10-06T15:18:51Z",
-      "preview": "44.140.0 (2026-10-06) Features deps: update renovate-base-image to v13.114.0 (main) ( #46795 ) ( 3c5cf64 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.27.0 (main) ( #46794 ) ( 1bf0257 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20261006t104700-all",
