@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-08T06:50:45Z",
-  "cutoff": "2026-09-08T06:50:39Z",
+  "generated": "2026-10-08T08:42:25Z",
+  "cutoff": "2026-09-08T08:42:14Z",
   "feed_count": 102,
   "item_count": 276,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.145.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.145.2",
+      "published": "2026-10-08T08:37:26Z",
+      "preview": "44.145.2 (2026-10-08) Miscellaneous Chores deps: update docker/dockerfile docker tag to v1.28.0 (main) ( #46833 ) ( ddc717d ) deps: update jlumbroso/free-disk-space action to v2 (main) ( #46787 ) ( 250498b ) Build System deps: update dependency simple-git to v4 [security] (main) ( #46781 ) ( d1fd5df ) deps: update dependency simple-git to v4.0.2 (main) ( #46836 ) ( 60c5118 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2.15.3",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3",
+      "published": "2026-10-08T08:31:30Z",
+      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
     {
       "title": "v4.1.0.beta2",
       "url": "https://github.com/ruby/rubygems/releases/tag/v4.1.0.beta2",
@@ -130,14 +146,6 @@
       "title": "v2.14.5",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.5",
       "published": "2026-10-07T17:47:16Z",
-      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
-      "source": "Harbor releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.15.3",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3",
-      "published": "2026-10-07T17:47:14Z",
       "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
       "source": "Harbor releases",
       "category": "Containers"
@@ -309,14 +317,6 @@
       "preview": "Deployment at 2026-10-06T10:47:43.531853Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.139.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.139.0",
-      "published": "2026-10-06T09:18:46Z",
-      "preview": "44.139.0 (2026-10-06) Features manager/github-actions: update gh-aw-actions/setup-cli with.version ( #46766 ) ( 191633d ) Bug Fixes deps: update renovate-base-image to v13.113.2 (main) ( #46785 ) ( 83ed449 ) manager/github-actions: use GitHub releases for setup-deno ( #46726 ) ( a022b80 ) Miscellaneous Chores deps: update jdx/mise-action action to v5 (main) ( #46786 ) ( 12848fd ) deps: update pnpm/setup action to v3 (main) ( #46788 ) ( dcd8efa )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 11.28.5",
