@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-08T14:35:04Z",
-  "cutoff": "2026-09-08T14:34:59Z",
+  "generated": "2026-10-08T15:32:48Z",
+  "cutoff": "2026-09-08T15:32:42Z",
   "feed_count": 102,
-  "item_count": 286,
+  "item_count": 285,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.147.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.147.0",
+      "published": "2026-10-08T14:39:09Z",
+      "preview": "44.147.0 (2026-10-08) Features config: merge mergeable env options with RENOVATE_CONFIG ( #46844 ) ( d071998 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.146.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.146.3",
@@ -309,14 +317,6 @@
       "preview": "This release adds experimental task-scoped secrets backed by fnox, automatic updates for global tools, and an experimental opt-in install layout that names installations by what they contain. It also adds dotfile merge entries, headers auth for the http: backend, npm installs from git, and a set of prune, install and lockfile fixes. Added Secrets (experimental) These need mise settings experimental=true and fnox 1.39.0 or newer. They are refused in safe mode. [secrets.fnox] and mise secrets ls . A project can name fnox as its secrets source in its own mise.toml . mise secrets ls lists key name",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.144.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.144.0",
-      "published": "2026-10-07T16:13:07Z",
-      "preview": "44.144.0 (2026-10-07) Features datasource: report the datasource which served a lookup ( #46808 ) ( 101cb08 ) Bug Fixes json-schema: correctly link options to the heading they're documented under ( #46672 ) ( b1c232a ), closes #43020 -#packagerulesenabled #enabled -#packagerulesfetchchangelogs #fetchchangelogs -#ansiblemanagerfilepatterns #managerfilepatterns Code Refactoring json-schema: extract shared indexMarkdown function ( #46693 ) ( baea689 ) Tests json-schema: add coverage of generated docs links ( #46678 ) ( b486348 ) Build System deps: update dependency ignore to v7.0.11 (main) ( #468",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "vfox-v2026.10.4",
@@ -2301,14 +2301,6 @@
       "preview": "This is the first candidate of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for more details and the upgrade instructions. Changelog : Changes Install Fix a 2.6 performance regression where tar.gz repositories were read entirely twice per package installed [ #7131 @kit-ty-kate ] Build and release U",
       "source": "opam releases",
       "category": "Registries"
-    },
-    {
-      "title": "9.8.0 RC1",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.8.0-RC1",
-      "published": "2026-09-08T14:37:51Z",
-      "preview": "The Gradle team is excited to announce Gradle 9.8.0 RC1. Here are the highlights of this release: Java 27 support Maven mirror settings reuse Linked problem locations in build output Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aman Gautam , Björn Kautler , Eng Zer Jun , Hashim Khan , Julian Krannich , KBS , Labh R Jethe , Mark Dodgson , Maxim , monkey , nataphon-ktsystems , Paul King , Qiu Tian , rg_sandesh , Roberto Perez Alcolea , Sean , Zongle Wang . Upgrade instructions Switch your build to use Gradle 9.8.",
-      "source": "Gradle releases",
-      "category": "Maven"
     }
   ]
 }
