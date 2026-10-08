@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-08T10:33:30Z",
-  "cutoff": "2026-09-08T10:33:25Z",
+  "generated": "2026-10-08T11:31:28Z",
+  "cutoff": "2026-09-08T11:31:22Z",
   "feed_count": 102,
   "item_count": 278,
   "categories": [
@@ -28,6 +28,22 @@
       "published": "2026-10-08T11:00:00Z",
       "preview": "Guix is all about empowering people, so it should come as no surprise that one can extend it with new guix commands . You can show the commands available in your current Guix through the help command: $ guix help If you are using a recent Guix, there are a number of extensions at your disposal, they are available as individual packages, and as a meta-package providing a collection of extensions . Try them out with: $ guix shell guix guile guix-extension-collection I'm adding the guix and guile …",
       "source": "Guix Blog",
+      "category": "System"
+    },
+    {
+      "title": "8.14.6",
+      "url": "https://github.com/gradle/gradle/releases/tag/v8.14.6",
+      "published": "2026-10-08T10:53:12Z",
+      "preview": "The Gradle team is excited to announce Gradle 8.14.6. Here are the highlights of this release: Java 24 support GraalVM Native Image toolchain selection Enhancements to test reporting Build Authoring improvements Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aurimas , Ben Bader , Björn Kautler , chandre92 , Daniel Hammer , Danish Nawab , Florian Dreier , Ivy Chen , Jendrik Johannes , jimmy1995-gu , Madalin Valceleanu , Na Minhyeok . Upgrade instructions Switch your build to use Gradle 8.14.6 by updating your wrap",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "7.0.9",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.9",
+      "published": "2026-10-08T10:51:59Z",
+      "preview": "What's Changed formula: extract commit for goreleaser flags by @cho-m in #24163 advisory-match: ignore uncomparable sources by @p-linnane in #24169 Correct Command Line Tools version advice by @MikeMcQuaid in #24170 test/formula_spec: mock cached_download to avoid slow test by @cho-m in #24171 advisory-match: move fixes past shared versions by @p-linnane in #24172 Recommend Xcode 27 on Apple silicon Tahoe by @p-linnane in #24177 Infer Xcode 26.x versions from clang builds by @p-linnane in #24178 Remove comments during automated patch removal by @nandahkrishna in #24164 Use sandbox env for inte",
+      "source": "Homebrew releases",
       "category": "System"
     },
     {
@@ -69,14 +85,6 @@
       "preview": "44.145.2 (2026-10-08) Miscellaneous Chores deps: update docker/dockerfile docker tag to v1.28.0 (main) ( #46833 ) ( ddc717d ) deps: update jlumbroso/free-disk-space action to v2 (main) ( #46787 ) ( 250498b ) Build System deps: update dependency simple-git to v4 [security] (main) ( #46781 ) ( d1fd5df ) deps: update dependency simple-git to v4.0.2 (main) ( #46836 ) ( 60c5118 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v8.14.6",
-      "url": "https://github.com/gradle/gradle/releases/tag/v8.14.6",
-      "published": "2026-10-08T07:06:27Z",
-      "preview": "Release notes for 8.14.6 ( #39421 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "v4.1.0.beta2",
@@ -2237,14 +2245,6 @@
       "preview": "Deployment at 2026-09-08T12:13:41.276148Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "New Release 2.77.1",
-      "url": "https://github.com/canonical/snapd/releases/tag/2.77.1",
-      "published": "2026-09-08T10:58:21Z",
-      "preview": "Fix undo of unlink-component after its snap revision was discarded interfaces: power-control | allow reading all battery state files",
-      "source": "Snapd releases",
-      "category": "System"
     }
   ]
 }
