@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-08T16:36:38Z",
-  "cutoff": "2026-09-08T16:36:31Z",
+  "generated": "2026-10-08T18:38:21Z",
+  "cutoff": "2026-09-08T18:38:17Z",
   "feed_count": 102,
   "item_count": 287,
   "categories": [
@@ -22,6 +22,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.5",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.5",
+      "published": "2026-10-08T18:31:49Z",
+      "preview": "(bootstrap) add an os filter to files and directories by @jdx i…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.5",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.5",
+      "published": "2026-10-08T18:31:16Z",
+      "preview": "Release vfox 2026.10.5",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.5",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.5",
+      "published": "2026-10-08T18:30:54Z",
+      "preview": "Release mise-util 2026.10.5",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.5",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.5",
+      "published": "2026-10-08T18:30:34Z",
+      "preview": "Release mise-settings 2026.10.5",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-cache-core-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.10.1",
+      "published": "2026-10-08T18:30:14Z",
+      "preview": "Release mise-cache-core 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.148.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.0",
+      "published": "2026-10-08T17:56:19Z",
+      "preview": "44.148.0 (2026-10-08) Features deps: update renovate-base-image to v13.117.0 (main) ( #46850 ) ( aca2633 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.30.0 (main) ( #46849 ) ( 3bdfdf5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "[release-branch.go1.26] go1.26.9",
       "url": "https://github.com/golang/go/releases/tag/go1.26.9",
@@ -319,14 +367,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.144.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.144.1",
-      "published": "2026-10-07T16:36:30Z",
-      "preview": "44.144.1 (2026-10-07) Bug Fixes exec: re-run install-tool when switching back to an earlier tool version ( #46823 ) ( 2ca2bc0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2026.10.4: Task-scoped fnox secrets, automatic global tool updates, and an opt-in identity install layout",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.4",
       "published": "2026-10-07T16:21:40Z",
@@ -363,14 +403,6 @@
       "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.4",
       "published": "2026-10-07T13:14:00Z",
       "preview": "Release mise-settings 2026.10.4",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-dotenv-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-dotenv-v2026.10.1",
-      "published": "2026-10-07T13:13:49Z",
-      "preview": "Release mise-dotenv 2026.10.1",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -493,38 +525,6 @@
       "preview": "Elm 0.19.3 introduces some compiler infrastructure upgrades, giving a good foundation for the more exciting stuff in the pipeline. More info is available here: Another step towards Elm 1.0 There are no language changes , so once you swap to \"elm-version\": \"0.19.3\" in your elm.json file, you should be able to proceed without any further code changes. Install The links below include (1) a Mac and Windows installer and (2) 64-bit binaries for various platforms. ✨ Install ✨ For examples of downloading the binaries directly, read the instructions here or here .",
       "source": "Elm releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.10.3: Dotfile groups, templated Compose projects, and secret hygiene for shell state",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.3",
-      "published": "2026-10-05T10:35:27Z",
-      "preview": "This release adds dotfile groups for Stow-style dotfiles repositories, templated [bootstrap.compose] values, and custom labels for task confirm prompts. Secret values no longer get copied into __MISE_DIFF / __MISE_SESSION or written to the env cache. It also fixes dotenv ${VAR} expansion, mise x tool@latest reporting other tools as missing, and Ruby source builds ignoring depends tools. Added Dotfile groups. You can now declare a directory tree as a group with [dotfile_groups.<name>] , using one directory per app or machine role like GNU Stow. mise walks the group's root and deploys each file ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.10.3",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.3",
-      "published": "2026-10-05T08:46:14Z",
-      "preview": "Release vfox 2026.10.3",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.3",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.3",
-      "published": "2026-10-05T08:46:00Z",
-      "preview": "Release mise-util 2026.10.3",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.3",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.3",
-      "published": "2026-10-05T08:45:47Z",
-      "preview": "Release mise-settings 2026.10.3",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "7.0.8",
