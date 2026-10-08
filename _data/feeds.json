@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-08T13:36:23Z",
-  "cutoff": "2026-09-08T13:36:16Z",
+  "generated": "2026-10-08T14:35:04Z",
+  "cutoff": "2026-09-08T14:34:59Z",
   "feed_count": 102,
   "item_count": 286,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.146.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.146.3",
+      "published": "2026-10-08T13:53:55Z",
+      "preview": "44.146.3 (2026-10-08) Bug Fixes json-schema: don't treat a map of values as a nested config ( #46673 ) ( d4074b4 ) Miscellaneous Chores deps: update github/codeql-action action to v4.38.3 (main) ( #46846 ) ( a9097d3 ) Code Refactoring json-schema: extract shared buildSchema function ( #46679 ) ( c72bd25 ) Tests json-schema: cover how we generate object options ( #46680 ) ( fd01e84 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pixi-build-cmake-v0.4.7",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.7",
@@ -365,14 +373,6 @@
       "preview": "FDE: update keyring after reprovision FDE: set new state after reprovision FDE: complete the decision for auto-repair/reprovision FDE: add memfd-secret backed state for secrets FDE: update secboot to rev dd95d85 - support thunderbolt security level 0 on UC components: account for components in seed refresh triggering components: prevent components in the seed from being removed components: set $SNAP_COMPONENTS in the application's environment, with the path to the snap's own components directory confdb: make error message on map keys for JSON config values more specific confdb: support reading",
       "source": "Snapd releases",
       "category": "System"
-    },
-    {
-      "title": "44.143.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.143.0",
-      "published": "2026-10-07T12:36:37Z",
-      "preview": "44.143.0 (2026-10-07) Features manager/github-actions: extract slsa-framework/actions/* ' with s ( #46792 ) ( 4ca515b ) Bug Fixes util/exec: remove java-maven tool ( #46587 ) ( 4a0935d ), closes #41849 Miscellaneous Chores deps: update actions/download-artifact action to v8.0.2 (main) ( #46813 ) ( ef0c32b ) deps: update actions/upload-artifact action to v7.0.2 (main) ( #46814 ) ( f6a6e41 ) Code Refactoring datasource: share git-refs and git-tags ref handling ( #46189 ) ( 3312bc0 ) Build System deps: update dependency @redis/client to v6.3.0 (main) ( #46816 ) ( c88ad91 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "8.0.0.22",
