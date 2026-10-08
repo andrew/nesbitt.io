@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-08T22:30:50Z",
-  "cutoff": "2026-09-08T22:30:44Z",
+  "generated": "2026-10-08T23:29:16Z",
+  "cutoff": "2026-09-08T23:29:09Z",
   "feed_count": 102,
   "item_count": 287,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.11.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.11.0",
+      "published": "2026-10-08T23:05:07Z",
+      "preview": "=v12.11.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.148.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.3",
+      "published": "2026-10-08T22:51:25Z",
+      "preview": "44.148.3 (2026-10-08) Bug Fixes deps: update renovate-base-image to v13.117.2 (main) ( #46857 ) ( 530e5e4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.148.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.2",
@@ -397,14 +413,6 @@
       "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.145.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.145.2",
-      "published": "2026-10-08T08:37:26Z",
-      "preview": "44.145.2 (2026-10-08) Miscellaneous Chores deps: update docker/dockerfile docker tag to v1.28.0 (main) ( #46833 ) ( ddc717d ) deps: update jlumbroso/free-disk-space action to v2 (main) ( #46787 ) ( 250498b ) Build System deps: update dependency simple-git to v4 [security] (main) ( #46781 ) ( d1fd5df ) deps: update dependency simple-git to v4.0.2 (main) ( #46836 ) ( 60c5118 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v4.1.0.beta2",
@@ -1317,14 +1325,6 @@
       "preview": "What's Changed Reconcile records for removed resources by @p-linnane in #24049 Extend sandboxing to package processing by @MikeMcQuaid in #24038 Report analytics failure when debugging by @SMillerDev in #24059 Fix pkgconf infinite reinstall after macOS upgrade by @rseleven in #24061 Check extensionless scripts in style commands by @MikeMcQuaid in #24063 shims/super/cc: update swift path by @cho-m in #24065 install_steps: fix sandbox write path resolution by @kronikpillow in #24067 formula: provide fallback git identity in sandbox by @Moisan in #24066 dev-cmd/advisory-match: fix test style by @",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "pnpm 12.8",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.8.0",
-      "published": "2026-09-28T07:35:50Z",
-      "preview": "pnpm 12.8.0 warns when pnpm pack or pnpm publish would ship a .env file that files does not list, installs sharedWorkspaceLockfile: false workspaces concurrently, applies every setting passed as --config.<name>=<value> , and no longer leaves the Windows terminal stuck after Ctrl+C in a script. Minor Changes pnpm pack and pnpm publish now warn when the tarball includes a .env or .env.* file that the files field of package.json does not list. Templates such as .env.example are not reported. List the file in files to publish it on purpose, or exclude it in .npmignore or .gitignore #7826 . pnpm pa",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "1.17.7",
