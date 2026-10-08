@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-07T22:29:12Z",
-  "cutoff": "2026-09-07T22:29:07Z",
+  "generated": "2026-10-08T01:09:59Z",
+  "cutoff": "2026-09-08T01:09:53Z",
   "feed_count": 102,
-  "item_count": 276,
+  "item_count": 275,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-07T23:39:20Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "9.8.1",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.8.1",
@@ -244,14 +252,6 @@
       "published": "2026-10-06T22:16:10Z",
       "preview": "Changes since v4.1.0.1: Other enhancements: Consider Cabal 3.18 to be a tested library and remove warnings. Consider GHC 10.0 to be a tested compiler and remove warnings. Add flag --[no-]info-table-profiling (default: disabled) to Stack's build command. Set the flag to enable info table profiling, including the creation of a new info table for every use of a data constructor in the source program.",
       "source": "Stack releases",
-      "category": "Registries"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-06T18:25:34Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
       "category": "Registries"
     },
     {
@@ -2221,14 +2221,6 @@
       "preview": "Executive summary For about two weeks in August 2026, some PyPI users hit intermittent 502 and 503 errors downloading files from files.pythonhosted.org , triggering failures during installation from PyPI. Thanks to our users filing reports in the support tracker ; one report in particular narrowed the problem to a single cache node. Two separate problems were uncovered. A canary deployment inside Fastly's network had triggered a misconfiguration at one cache node, causing Fastly's routing layer to return 502 responses for traffic reaching the affected cache node. Separately, I found and fixed ",
       "source": "PyPI Blog",
       "category": "Python"
-    },
-    {
-      "title": "opam 2.6.0~rc1 release",
-      "url": "https://opam.ocaml.org/blog/opam-2-6-0-rc1/",
-      "published": "2026-09-08T00:00:00Z",
-      "preview": "Feedback on this post is welcome on Discuss! We are happy to announce the first release candidate of opam 2.6.0. You can view the full list of changes in the release note. This version is a pre-release, we invite users to test it to spot previously unnoticed bugs as we head towards the stable release. Try it! The upgrade instructions are unchanged: Either from binaries: run For Unix systems bash -c \"sh <(curl -fsSL https://opam.ocaml.org/install.sh) --version 2.6.0~rc1\"or from PowerShell for Windows systems Invoke-Expression \"& { $(Invoke-RestMethod https://opam.ocaml.org/install.ps1) } -Versi",
-      "source": "opam Blog",
-      "category": "Registries"
     }
   ]
 }
