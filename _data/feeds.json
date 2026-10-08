@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-08T20:33:19Z",
-  "cutoff": "2026-09-08T20:33:13Z",
+  "generated": "2026-10-08T21:30:20Z",
+  "cutoff": "2026-09-08T21:30:14Z",
   "feed_count": 102,
-  "item_count": 288,
+  "item_count": 287,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.148.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.1",
+      "published": "2026-10-08T21:08:07Z",
+      "preview": "44.148.1 (2026-10-08) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.24 (main) ( #46851 ) ( f829aa9 ) deps: update dependency uv to v0.12.24 (main) ( #46852 ) ( 161d0f2 ) Build System deps: update dependency handlebars to v4.7.10 [security] (main) ( #46854 ) ( 7fcc9ab )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.10.5: Java defaults to Temurin, per-machine and local-only dotfile history, packslip workflow pinning",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.5",
+      "published": "2026-10-08T20:54:05Z",
+      "preview": "Java versions without a vendor prefix now install Eclipse Temurin builds. Dotfiles gain per-machine and local-only history, a merge = \"missing\" mode, and a secret check before mise dot sync publishes anything. Packslip tools can be pinned to the workflow that signs their releases. Several features documented as experimental now actually require experimental = true . The rest of the release is fixes across tasks, shims, config loading, bootstrap and backends. Breaking Changes java@21 , java@lts and java@latest now install Temurin. The default of java.shorthand_vendor changes from openjdk to tem",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v2.0.0-beta.27",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.27",
+      "published": "2026-10-08T20:42:56Z",
+      "preview": "v2.0.0-beta.27",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "@verdaccio/tarball@14.0.0-next-9.35",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4014.0.0-next-9.35",
@@ -124,14 +148,6 @@
       "published": "2026-10-08T19:19:23Z",
       "preview": "Bug fixes Fix conda run selecting the active environment instead of the requested target when conda-build is installed. ( #16811 via #16821 ) Fix AttributeError: 'PackageRecord' object has no attribute 'extras' when solving from channels whose repodata uses extra_depends by adding extra_depends to PackageRecord and ignoring the extras selector during record matching. ( #16822 via #16823 ) Contributors @danyeaw @jezdez @kenodegard Full Changelog : 26.9.1...26.9.2",
       "source": "Conda releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "v2026.10.5",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.5",
-      "published": "2026-10-08T18:31:49Z",
-      "preview": "(bootstrap) add an os filter to files and directories by @jdx i…",
-      "source": "mise releases",
       "category": "Multi-language"
     },
     {
@@ -469,14 +485,6 @@
       "preview": "v2.0.0-beta.26",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.145.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.145.0",
-      "published": "2026-10-07T18:52:55Z",
-      "preview": "44.145.0 (2026-10-07) Features deps: update renovate-base-image to v13.116.0 (main) ( #46828 ) ( de8f67e ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.5.15 (main) ( #46825 ) ( 219eaf0 ) deps: update dependency pnpm to v11.28.3 (main) ( #46826 ) ( 1d25ef0 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.29.0 (main) ( #46827 ) ( 5ddd9cd )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.10.4: Task-scoped fnox secrets, automatic global tool updates, and an opt-in identity install layout",
@@ -2047,14 +2055,6 @@
       "category": "System"
     },
     {
-      "title": "v2.0.0-beta.24",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.24",
-      "published": "2026-09-15T16:30:01Z",
-      "preview": "v2.0.0-beta.24",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
       "title": "v0.81.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.81.0",
       "published": "2026-09-15T15:07:21Z",
@@ -2317,14 +2317,6 @@
       "preview": "RubyGems and Bundler 4.1.0.beta1 include features, performance, enhancements, breaking changes, bug fixes and deprecations. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.1.0.beta1 Release Notes RubyGems Changes already released in 4.0.x are not repeated here. Features: Add content addressable gems support. Pull request #9773 by Jenny Shen, Harriet Oughton and Gira Chawda Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Ru",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "Announcing .NET 11 Release Candidate 1",
-      "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-1/",
-      "published": "2026-09-08T21:30:00Z",
-      "preview": ".NET 11 Release Candidate 1 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, C#, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 1 appeared first on .NET Blog .",
-      "source": "NuGet Blog",
-      "category": ".NET"
     }
   ]
 }
