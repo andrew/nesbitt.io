@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-08T19:29:43Z",
-  "cutoff": "2026-09-08T19:29:34Z",
+  "generated": "2026-10-08T20:33:19Z",
+  "cutoff": "2026-09-08T20:33:13Z",
   "feed_count": 102,
-  "item_count": 287,
+  "item_count": 288,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,102 @@
     "System"
   ],
   "items": [
+    {
+      "title": "@verdaccio/tarball@14.0.0-next-9.35",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4014.0.0-next-9.35",
+      "published": "2026-10-08T20:08:15Z",
+      "preview": "chore: update versions (next-9) ( #6329 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/test-helper@5.0.0-next-9.36",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%405.0.0-next-9.36",
+      "published": "2026-10-08T20:08:15Z",
+      "preview": "chore: update versions (next-9) ( #6329 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/ui-theme@9.0.0-next-9.35",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.35",
+      "published": "2026-10-08T20:08:15Z",
+      "preview": "chore: update versions (next-9) ( #6329 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/url@14.0.0-next-9.35",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.35",
+      "published": "2026-10-08T20:08:15Z",
+      "preview": "chore: update versions (next-9) ( #6329 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/web@9.0.0-next-9.35",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.35",
+      "published": "2026-10-08T20:08:15Z",
+      "preview": "chore: update versions (next-9) ( #6329 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-audit@14.0.0-next-9.35",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.35",
+      "published": "2026-10-08T20:08:15Z",
+      "preview": "chore: update versions (next-9) ( #6329 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-auth-memory@14.0.0-next-9.35",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.35",
+      "published": "2026-10-08T20:08:15Z",
+      "preview": "chore: update versions (next-9) ( #6329 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-htpasswd@14.0.0-next-9.35",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.35",
+      "published": "2026-10-08T20:08:15Z",
+      "preview": "chore: update versions (next-9) ( #6329 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-memory@14.0.0-next-9.35",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.35",
+      "published": "2026-10-08T20:08:15Z",
+      "preview": "chore: update versions (next-9) ( #6329 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio@9.0.0-next-9.35",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.35",
+      "published": "2026-10-08T20:08:15Z",
+      "preview": "chore: update versions (next-9) ( #6329 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "client/v0.6.2",
+      "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.6.2",
+      "published": "2026-10-08T20:06:34Z",
+      "preview": "0.6.2 Changelog client: bump github.com/docker/go-connections v0.8.2, github.com/Azure/go-ansiterm 8c912ac31dd4. moby/moby#53891 Fix request cancellation and deadlines during client HTTP upgrade handshakes. moby/moby#53889",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "0.12.24",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.24",
+      "published": "2026-10-08T20:06:20Z",
+      "preview": "Release Notes Released on 2026-10-08. Enhancements Remove orphaned temporary build environments with uv cache prune ( #22171 ) Accept PEP 508 marker operators directly before grouped expressions ( #22309 ) Reject malformed requirements-file options instead of partially parsing or ignoring them ( #22317 ) Show underlying filesystem and registry errors when managed Python uninstallation fails ( #22362 ) Identify the invalid source URL in Python mirror errors ( #22364 ) Preview features Display preferred advisory IDs in uv audit reports, prioritizing PYSEC, GHSA, then CVE identifiers ( #22292 ) C",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "26.9.2",
       "url": "https://github.com/conda/conda/releases/tag/26.9.2",
@@ -293,6 +389,14 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-10-06-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
+    },
+    {
+      "title": "Your Tool Has a New Reader",
+      "url": "https://thephp.foundation/blog/2026/10/08/your-tool-has-a-new-reader/",
+      "published": "2026-10-08T00:00:00Z",
+      "preview": "Every PHP tool that prints to a terminal now has two readers, and most of us have only been writing for one of them. The output of a PHP command-line tool used to have one reader: a developer looking at a terminal. That reader sees glyphs. The terminal interprets escape sequences, moves the cursor, erases lines, and shows the result. What the tool wrote and what the human sees are usually the same thing, and nobody thinks about the gap. A coding agent does not look at a terminal. It reads the bytes the tool wrote and treats them as the result of the tool call it made. Then a human looks at the",
+      "source": "PHP Foundation Blog",
+      "category": "PHP"
     },
     {
       "title": "4.1.0.beta2 Released",
@@ -572,86 +676,6 @@
       "published": "2026-10-03T20:48:42Z",
       "preview": "This release moves the WebContainer build into a separate @pnpm/wasm package, shrinks the pnpm package back to about 4 MB, and fixes pnpm publish with provenance from GitLab CI. Patch Changes The WebAssembly build for StackBlitz WebContainers now ships as a separate @pnpm/wasm package. The pnpm and @pnpm/exe packages no longer include it, which brings their unpacked size back from about 55 MB to about 4 MB. In a WebContainer, install @pnpm/wasm with npm to get the pnpm command. pnpm publish with provenance from GitLab CI is no longer rejected by the npm registry with a 422 error. The provenanc",
       "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/tarball@14.0.0-next-9.34",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4014.0.0-next-9.34",
-      "published": "2026-10-03T20:33:03Z",
-      "preview": "chore: update versions (next-9) ( #6300 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/test-helper@5.0.0-next-9.35",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%405.0.0-next-9.35",
-      "published": "2026-10-03T20:33:03Z",
-      "preview": "chore: update versions (next-9) ( #6300 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/ui-theme@9.0.0-next-9.34",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.34",
-      "published": "2026-10-03T20:33:03Z",
-      "preview": "chore: update versions (next-9) ( #6300 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/url@14.0.0-next-9.34",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.34",
-      "published": "2026-10-03T20:33:03Z",
-      "preview": "chore: update versions (next-9) ( #6300 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/web@9.0.0-next-9.34",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.34",
-      "published": "2026-10-03T20:33:03Z",
-      "preview": "chore: update versions (next-9) ( #6300 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-audit@14.0.0-next-9.34",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.34",
-      "published": "2026-10-03T20:33:03Z",
-      "preview": "chore: update versions (next-9) ( #6300 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-auth-memory@14.0.0-next-9.34",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.34",
-      "published": "2026-10-03T20:33:03Z",
-      "preview": "chore: update versions (next-9) ( #6300 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-htpasswd@14.0.0-next-9.34",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.34",
-      "published": "2026-10-03T20:33:03Z",
-      "preview": "chore: update versions (next-9) ( #6300 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-memory@14.0.0-next-9.34",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.34",
-      "published": "2026-10-03T20:33:03Z",
-      "preview": "chore: update versions (next-9) ( #6300 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio@9.0.0-next-9.34",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.34",
-      "published": "2026-10-03T20:33:03Z",
-      "preview": "chore: update versions (next-9) ( #6300 )",
-      "source": "Verdaccio releases",
       "category": "JavaScript"
     },
     {
@@ -1783,14 +1807,6 @@
       "category": "Python"
     },
     {
-      "title": "0.12.14",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.14",
-      "published": "2026-09-18T02:36:49Z",
-      "preview": "Release Notes Released on 2026-09-15. Enhancements Resume interrupted downloads with HTTP Range requests when supported ( #21570 ) Use a consistent format for error rendering ( #17110 ) Render error and warning causes with compact cause: labels ( #21599 , #21603 ) Show underlying causes and hints in user warnings ( #21565 ) Show resolver hints for failed uv tool upgrade operations ( #21566 ) Preview features Export multiple dependency selections from a shared lockfile in one uv export --batch invocation with the batch-export preview feature ( #21618 ) Performance Speed up dependency resolution",
-      "source": "uv releases",
-      "category": "Python"
-    },
-    {
       "title": "0.12.16",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.16",
       "published": "2026-09-18T01:01:42Z",
@@ -1911,6 +1927,14 @@
       "category": "Registries"
     },
     {
+      "title": "v2.9.7",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.7",
+      "published": "2026-09-17T09:04:55Z",
+      "preview": "2.9.7 / 2026.09.16 fix(audit): honor configured CA stores ( #36728 ) fix(cache): make HTTP authority paths unambiguous ( #36356 ) fix(cli): accept all valid sys permission descriptors ( #36753 ) fix(cli): don't duplicate passthrough args for deno deploy/sandbox ( #36722 ) fix(cli): generate valid bash completions ( #36736 ) fix(cli): preserve double dash before the entrypoint ( #36835 ) fix(cli): restore optional-value semantics for deno bundle --sourcemap ( #36723 ) fix(completions): keep the dash on short flags in zsh completions ( #36720 ) fix(desktop): complete deferred window close and fi",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-15-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-15-a",
       "published": "2026-09-17T08:45:38Z",
@@ -2013,14 +2037,6 @@
       "preview": "Feedback on this post is welcome on Discuss! We're happy to announce the release of opam 2.6.0 and encourage all users to upgrade. Please read on for installation and upgrade instructions. Try it! The upgrade instructions are unchanged: Either from binaries: run For Unix systems bash -c \"sh . Thanks to @zoggy for this contribution. Fix the filename check used when parsing arguments to allow / to be recognised as a directory separator on Windows Make git calls more deterministic regardless of the global or system config Read full lines when asking for user input when TERM=dumb (e.g. emacs' M-x ",
       "source": "opam Blog",
       "category": "Registries"
-    },
-    {
-      "title": "v29.8.1",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.8.1",
-      "published": "2026-09-15T17:05:26Z",
-      "preview": "29.8.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.8.1 milestone moby/moby, 29.8.1 milestone Bug fixes and enhancements containerd image store: Fix docker load leaving dangling images after loading an image that already exists. moby/moby#53595 Fix managed containerd logging a CRI pod-sandbox plugin dependency warning during startup. moby/moby#53585 Fix user-namespace detection on OpenVZ, where namespace inode numbers are virtualized. moby/moby#53605 Windows: Preserve hard links when committing a container, so a file with",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     },
     {
       "title": "7.0.2",
@@ -2309,14 +2325,6 @@
       "preview": ".NET 11 Release Candidate 1 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, C#, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 1 appeared first on .NET Blog .",
       "source": "NuGet Blog",
       "category": ".NET"
-    },
-    {
-      "title": "2.6.0~rc1",
-      "url": "https://github.com/ocaml/opam/releases/tag/2.6.0-rc1",
-      "published": "2026-09-08T19:41:13Z",
-      "preview": "This is the first candidate of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Please see our blog post for more details and the upgrade instructions. Changelog : Changes Install Fix a 2.6 performance regression where tar.gz repositories were read entirely twice per package installed [ #7131 @kit-ty-kate ] Build and release U",
-      "source": "opam releases",
-      "category": "Registries"
     }
   ]
 }
