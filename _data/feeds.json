@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-08T01:09:59Z",
-  "cutoff": "2026-09-08T01:09:53Z",
+  "generated": "2026-10-08T03:40:34Z",
+  "cutoff": "2026-09-08T03:40:29Z",
   "feed_count": 102,
   "item_count": 275,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-06-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-10-06-a",
+      "published": "2026-10-08T03:19:02Z",
+      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-10-06-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -2060,14 +2068,6 @@
       "published": "2026-09-11T15:30:00Z",
       "preview": "When your Swift program hits a breakpoint and stops so you can inspect it, the debugger’s expression evaluator has to find the exact Swift module your code was built from. Until now, that lookup wasn’t always precise. The upcoming Swift 6.4 release will include changes, begun in Swift 6.3, that address this by updating how the Swift compiler references explicitly-built Swift modules in debug info. The majority of developers will automatically benefit from faster , more reliable debugging and smaller build products , without any modifications to their SwiftPM or Xcode projects. For developers w",
       "source": "Swift Blog",
-      "category": "Registries"
-    },
-    {
-      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
-      "published": "2026-09-11T13:18:58Z",
-      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-09-10-a",
-      "source": "Swift Package Manager releases",
       "category": "Registries"
     },
     {
