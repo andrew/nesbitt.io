@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-08T11:31:28Z",
-  "cutoff": "2026-09-08T11:31:22Z",
+  "generated": "2026-10-08T12:45:22Z",
+  "cutoff": "2026-09-08T12:45:16Z",
   "feed_count": 102,
   "item_count": 278,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "20261008t124100-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261008t124100-all",
+      "published": "2026-10-08T12:43:30Z",
+      "preview": "Deployment at 2026-10-08T12:41:11.108163Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.146.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.146.0",
+      "published": "2026-10-08T12:34:26Z",
+      "preview": "44.146.0 (2026-10-08) Features datasource/gitlab-packages: replace getJsonUnchecked with validated getJson ( #44143 ) ( c050119 ) Miscellaneous Chores deps: update dependency vite to v8.3.2 (main) ( #46839 ) ( 2d8963e ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.29.1 (main) ( #46840 ) ( 08c512d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "8.0.0.24",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.24",
+      "published": "2026-10-08T12:23:39Z",
+      "preview": "Insert 8.0.0.24 into main on 10/08/2026 12:23:38",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "Extending Guix",
       "url": "https://guix.gnu.org/blog/2026/extending-guix//",
@@ -317,14 +341,6 @@
       "preview": "Changes since v4.1.0.1: Other enhancements: Consider Cabal 3.18 to be a tested library and remove warnings. Consider GHC 10.0 to be a tested compiler and remove warnings. Add flag --[no-]info-table-profiling (default: disabled) to Stack's build command. Set the flag to enable info table profiling, including the creation of a new info table for every use of a data constructor in the source program.",
       "source": "Stack releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.141.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.141.0",
-      "published": "2026-10-06T17:51:30Z",
-      "preview": "44.141.0 (2026-10-06) Features deps: update renovate-base-image to v13.115.0 (main) ( #46798 ) ( 74aea12 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.28.0 (main) ( #46797 ) ( 8a1967e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.10.1",
@@ -1807,14 +1823,6 @@
       "category": "Registries"
     },
     {
-      "title": "7.12.0.19",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.19",
-      "published": "2026-09-17T12:19:24Z",
-      "preview": "Insert 7.12.0.19 into main on 09/17/2026 12:19:23",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
       "title": "v2.9.7",
       "url": "https://github.com/denoland/deno/releases/tag/v2.9.7",
       "published": "2026-09-17T09:04:55Z",
@@ -2237,14 +2245,6 @@
       "preview": "The Gradle team is excited to announce Gradle 9.8.0 RC1. Here are the highlights of this release: Java 27 support Maven mirror settings reuse Linked problem locations in build output Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aman Gautam , Björn Kautler , Eng Zer Jun , Hashim Khan , Julian Krannich , KBS , Labh R Jethe , Mark Dodgson , Maxim , monkey , nataphon-ktsystems , Paul King , Qiu Tian , rg_sandesh , Roberto Perez Alcolea , Sean , Zongle Wang . Upgrade instructions Switch your build to use Gradle 9.8.",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "20260908t121300-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260908t121300-all",
-      "published": "2026-09-08T12:13:43Z",
-      "preview": "Deployment at 2026-09-08T12:13:41.276148Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     }
   ]
 }
