@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-09T11:29:21Z",
-  "cutoff": "2026-09-09T11:29:14Z",
+  "generated": "2026-10-09T12:42:48Z",
+  "cutoff": "2026-09-09T12:42:41Z",
   "feed_count": 102,
-  "item_count": 288,
+  "item_count": 289,
   "categories": [
     ".NET",
     "C/C++",
@@ -25,10 +25,34 @@
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-09T10:36:58Z",
+      "published": "2026-10-09T12:41:01Z",
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
+    },
+    {
+      "title": "8.1.0.2",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.1.0.2",
+      "published": "2026-10-09T12:40:01Z",
+      "preview": "Insert 8.1.0.2 into main on 10/09/2026 12:40:00",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "44.148.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.5",
+      "published": "2026-10-09T12:33:29Z",
+      "preview": "44.148.5 (2026-10-09) Bug Fixes util/exec: add a strong type for Containerbase's known tools ( #46580 ) ( 7027ee5 ), closes #41849 Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.21 (main) ( #46862 ) ( 905fdf0 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.30.2 (main) ( #46865 ) ( a8377e5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 12.11.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.11.1",
+      "published": "2026-10-09T12:28:20Z",
+      "preview": "This release fixes two ways pnpm install could fail, runs tools of any Rust release through pnx , and treats registry.npmjs.com as an alias of the npm registry. Patch Changes pnpm install no longer fails when packageManager pins the pnpm version that is already running and the registry does not publish that version. pnpm warns and continues. A registry mirror that has not synced a release no longer blocks the commands of a project pinned to it. pnpm install no longer fails with ERR_PNPM_CMD_SHIM_CHMOD when node_modules/.bin holds a shim that another user created, if everyone can already execut",
+      "source": "pnpm releases",
+      "category": "JavaScript"
     },
     {
       "title": "v2026.10.6: Per-machine [vars] prompts, local config includes, and working-tree changes in --affected",
@@ -99,6 +123,14 @@
       "url": "https://pnpm.io/blog/releases/12.11.0",
       "published": "2026-10-09T00:00:00Z",
       "preview": "This release adds Rust toolchain management, links the agent skills that dependencies ship, adds the permissions setting, and keeps the colors of streamed script output.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.11.1",
+      "url": "https://pnpm.io/blog/releases/12.11.1",
+      "published": "2026-10-09T00:00:00Z",
+      "preview": "This release fixes two ways pnpm install could fail, runs tools of any Rust release through pnx, and treats registry.npmjs.com as an alias of the npm registry.",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
@@ -421,14 +453,6 @@
       "preview": "Deployment at 2026-10-08T12:41:11.108163Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.146.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.146.0",
-      "published": "2026-10-08T12:34:26Z",
-      "preview": "44.146.0 (2026-10-08) Features datasource/gitlab-packages: replace getJsonUnchecked with validated getJson ( #44143 ) ( c050119 ) Miscellaneous Chores deps: update dependency vite to v8.3.2 (main) ( #46839 ) ( 2d8963e ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.29.1 (main) ( #46840 ) ( 08c512d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "8.0.0.24",
@@ -1303,14 +1327,6 @@
       "category": "C/C++"
     },
     {
-      "title": "pnpm 12.8.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.8.1",
-      "published": "2026-09-28T17:40:12Z",
-      "preview": "pnpm 12.8.1 fixes pnpm install --frozen-lockfile rejecting lockfiles with injected workspace packages that have peers, restores the executable bit on files of local directory dependencies, makes pnpm dedupe converge, and uses less CPU on many-core machines. Patch Changes pnpm install --frozen-lockfile no longer rejects a freshly generated lockfile when an injected workspace package has peer dependencies #16332 . Executable files in a file: directory dependency or an injected workspace package keep their executable bit again. Since 12.8.0, pnpm installed these files without the permissions they",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "1.18.4",
       "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.4",
       "published": "2026-09-28T13:46:49Z",
@@ -1821,14 +1837,6 @@
       "preview": "Release Notes Released on 2026-09-18. Enhancements Reject unsupported Git archive paths in lockfiles with a clear error instead of panicking during frozen exports ( #21780 ) Preview features Set minimum glibc and musl versions that universal resolutions must support with minimum-libc-version ( #21651 ) Reject pylock.toml files whose wheel filenames do not match their declared package names or versions ( #20746 ) Keep uv workspace metadata read-only unless --sync is provided ( #21821 ) Apply uv check lock modes when retrieving workspace metadata ( #21821 ) Performance Speed up builds with many ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "7.12.0.24",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.24",
-      "published": "2026-09-18T12:43:54Z",
-      "preview": "Insert 7.12.0.24 into main on 09/18/2026 12:43:53",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "v9.9.0-M2",
