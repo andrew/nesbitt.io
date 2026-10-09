@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-09T21:29:25Z",
-  "cutoff": "2026-09-09T21:29:18Z",
+  "generated": "2026-10-09T22:31:07Z",
+  "cutoff": "2026-09-09T22:31:00Z",
   "feed_count": 102,
-  "item_count": 290,
+  "item_count": 291,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.7",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.7",
+      "published": "2026-10-09T22:11:11Z",
+      "preview": "(npm) warn when a package installs no executables by @jdx in [#…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.7",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.7",
+      "published": "2026-10-09T22:10:40Z",
+      "preview": "Release vfox 2026.10.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.7",
+      "published": "2026-10-09T22:10:12Z",
+      "preview": "Release mise-util 2026.10.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.7",
+      "published": "2026-10-09T22:09:51Z",
+      "preview": "Release mise-settings 2026.10.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-dotenv-v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-dotenv-v2026.10.2",
+      "published": "2026-10-09T22:09:32Z",
+      "preview": "Release mise-dotenv 2026.10.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v10.3.0 🌈 Add Python architecture selection",
       "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.3.0",
@@ -175,6 +215,14 @@
       "category": "Containers"
     },
     {
+      "title": "Python 3.15",
+      "url": "https://astral.sh/blog/python-3.15",
+      "published": "2026-10-09T00:00:00Z",
+      "preview": "Python 3.15 is out today along with updates for Ruff, uv, and ty.",
+      "source": "Astral Blog",
+      "category": "Python"
+    },
+    {
       "title": "pnpm 12.11.0",
       "url": "https://pnpm.io/blog/releases/12.11.0",
       "published": "2026-10-09T00:00:00Z",
@@ -229,14 +277,6 @@
       "preview": "44.148.1 (2026-10-08) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.24 (main) ( #46851 ) ( f829aa9 ) deps: update dependency uv to v0.12.24 (main) ( #46852 ) ( 161d0f2 ) Build System deps: update dependency handlebars to v4.7.10 [security] (main) ( #46854 ) ( 7fcc9ab )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.10.5: Java defaults to Temurin, per-machine and local-only dotfile history, packslip workflow pinning",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.5",
-      "published": "2026-10-08T20:54:05Z",
-      "preview": "Java versions without a vendor prefix now install Eclipse Temurin builds. Dotfiles gain per-machine and local-only history, a merge = \"missing\" mode, and a secret check before mise dot sync publishes anything. Packslip tools can be pinned to the workflow that signs their releases. Several features documented as experimental now actually require experimental = true . The rest of the release is fixes across tasks, shims, config loading, bootstrap and backends. Breaking Changes java@21 , java@lts and java@latest now install Temurin. The default of java.shorthand_vendor changes from openjdk to tem",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v2.0.0-beta.27",
@@ -355,30 +395,6 @@
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.5",
       "published": "2026-10-08T18:31:16Z",
       "preview": "Release vfox 2026.10.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.5",
-      "published": "2026-10-08T18:30:54Z",
-      "preview": "Release mise-util 2026.10.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.5",
-      "published": "2026-10-08T18:30:34Z",
-      "preview": "Release mise-settings 2026.10.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-cache-core-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-cache-core-v2026.10.1",
-      "published": "2026-10-08T18:30:14Z",
-      "preview": "Release mise-cache-core 2026.10.1",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -637,14 +653,6 @@
       "preview": "v2.0.0-beta.26",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "vfox-v2026.10.4",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.4",
-      "published": "2026-10-07T13:14:44Z",
-      "preview": "Release vfox 2026.10.4",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "2.6.1",
