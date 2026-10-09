@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-09T03:41:30Z",
-  "cutoff": "2026-09-09T03:41:25Z",
+  "generated": "2026-10-09T05:34:33Z",
+  "cutoff": "2026-09-09T05:34:28Z",
   "feed_count": 102,
   "item_count": 287,
   "categories": [
@@ -23,20 +23,28 @@
   ],
   "items": [
     {
+      "title": "v12.11.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.11.0",
+      "published": "2026-10-09T05:21:58Z",
+      "preview": "=v12.11.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.148.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.4",
+      "published": "2026-10-09T04:48:18Z",
+      "preview": "44.148.4 (2026-10-09) Bug Fixes deps: update renovate-base-image to v13.117.3 (main) ( #46861 ) ( f5669d8 ) Miscellaneous Chores deps: update dependency @types/node to v24.19.1 (main) ( #46860 ) ( b83bbcb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "v2.15.4",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.4",
       "published": "2026-10-09T03:32:43Z",
       "preview": "What's Changed Component updates ⬆️ fix(webhook): allow private network access by default by @Vad1mo in #24082 fix(contenttrust): allow legacy signer pull by default to avoid regre… by @wy65701436 in #24086 fix(prepare): expose the legacy signer pull switch in harbor.yml by @bupd in #24101 Cherry pick upload location origin 2.15 by @wy65701436 in #24114 Bump Component Version 🤖 Bump trivy(0.75.0) and trivy adapter(0.39.1-rc2) by @stonezdj in #24080 bump v2.15.4 release by @wy65701436 in #24087 Other Changes Bump trivy adapter to v0.39.1 and distribution to v2.8.3-harbor.2 by @stonezdj in #2411",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "v12.11.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.11.0",
-      "published": "2026-10-08T23:05:07Z",
-      "preview": "=v12.11.0",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "44.148.3",
@@ -405,14 +413,6 @@
       "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.145.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.145.3",
-      "published": "2026-10-08T10:03:21Z",
-      "preview": "44.145.3 (2026-10-08) Bug Fixes manager/helmv3: strip repository path from ECR registry login ( #46837 ) ( 5239d49 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.14.5",
