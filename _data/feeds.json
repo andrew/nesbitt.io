@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-09T12:42:48Z",
-  "cutoff": "2026-09-09T12:42:41Z",
+  "generated": "2026-10-09T13:34:52Z",
+  "cutoff": "2026-09-09T13:34:45Z",
   "feed_count": 102,
   "item_count": 289,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Deno is joining Cloudflare",
+      "url": "https://deno.com/blog/cloudflare",
+      "published": "2026-10-09T15:00:00Z",
+      "preview": "Putting ourselves in the best place to build the future of the web",
+      "source": "Deno Blog",
+      "category": "JavaScript"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -2323,14 +2331,6 @@
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1",
       "published": "2026-09-09T17:13:24Z",
       "preview": "1.17.0-beta1 (September 09, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and init no longer requires the -allow-experimental-features flag. See https://developer.hashicorp.com/terraform/policy for more information. ( #38970 ) ENHANCEMENTS: command/init: Enrich log messages with provider versions ( #38918 ) test: Add mock_pro",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
-    },
-    {
-      "title": "v1.16.2",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.2",
-      "published": "2026-09-09T13:22:31Z",
-      "preview": "1.16.2 (September 9, 2026) BUG FIXES: Fix panic in module installation when encoutering invalid module calls ( #39129 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
     }
