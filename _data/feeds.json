@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-09T01:11:53Z",
-  "cutoff": "2026-09-09T01:11:47Z",
+  "generated": "2026-10-09T03:41:30Z",
+  "cutoff": "2026-09-09T03:41:25Z",
   "feed_count": 102,
-  "item_count": 286,
+  "item_count": 287,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.15.4",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.4",
+      "published": "2026-10-09T03:32:43Z",
+      "preview": "What's Changed Component updates ⬆️ fix(webhook): allow private network access by default by @Vad1mo in #24082 fix(contenttrust): allow legacy signer pull by default to avoid regre… by @wy65701436 in #24086 fix(prepare): expose the legacy signer pull switch in harbor.yml by @bupd in #24101 Cherry pick upload location origin 2.15 by @wy65701436 in #24114 Bump Component Version 🤖 Bump trivy(0.75.0) and trivy adapter(0.39.1-rc2) by @stonezdj in #24080 bump v2.15.4 release by @wy65701436 in #24087 Other Changes Bump trivy adapter to v0.39.1 and distribution to v2.8.3-harbor.2 by @stonezdj in #2411",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
     {
       "title": "v12.11.0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.11.0",
