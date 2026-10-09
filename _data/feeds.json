@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-09T06:50:50Z",
-  "cutoff": "2026-09-09T06:50:43Z",
+  "generated": "2026-10-09T08:41:56Z",
+  "cutoff": "2026-09-09T08:41:51Z",
   "feed_count": 102,
   "item_count": 288,
   "categories": [
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.6",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.6",
+      "published": "2026-10-09T08:41:16Z",
+      "preview": "(bootstrap) offer to install git and ssh before cloning a repos…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.6",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.6",
+      "published": "2026-10-09T08:40:46Z",
+      "preview": "Release vfox 2026.10.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.6",
+      "published": "2026-10-09T08:40:30Z",
+      "preview": "Release mise-util 2026.10.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.6",
+      "published": "2026-10-09T08:40:15Z",
+      "preview": "Release mise-settings 2026.10.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "pnpm 12.11.0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.11.0",
@@ -527,42 +559,10 @@
       "category": "Containers"
     },
     {
-      "title": "v2026.10.4: Task-scoped fnox secrets, automatic global tool updates, and an opt-in identity install layout",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.4",
-      "published": "2026-10-07T16:21:40Z",
-      "preview": "This release adds experimental task-scoped secrets backed by fnox, automatic updates for global tools, and an experimental opt-in install layout that names installations by what they contain. It also adds dotfile merge entries, headers auth for the http: backend, npm installs from git, and a set of prune, install and lockfile fixes. Added Secrets (experimental) These need mise settings experimental=true and fnox 1.39.0 or newer. They are refused in safe mode. [secrets.fnox] and mise secrets ls . A project can name fnox as its secrets source in its own mise.toml . mise secrets ls lists key name",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.10.4",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.4",
       "published": "2026-10-07T13:14:44Z",
       "preview": "Release vfox 2026.10.4",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.4",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.4",
-      "published": "2026-10-07T13:14:23Z",
-      "preview": "Release mise-util 2026.10.4",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.10.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.2",
-      "published": "2026-10-07T13:14:09Z",
-      "preview": "Release mise-sigstore 2026.10.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.4",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.4",
-      "published": "2026-10-07T13:14:00Z",
-      "preview": "Release mise-settings 2026.10.4",
       "source": "mise releases",
       "category": "Multi-language"
     },
