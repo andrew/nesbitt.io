@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-09T20:31:26Z",
-  "cutoff": "2026-09-09T20:31:20Z",
+  "generated": "2026-10-09T21:29:25Z",
+  "cutoff": "2026-09-09T21:29:18Z",
   "feed_count": 102,
-  "item_count": 289,
+  "item_count": 290,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v10.3.0 🌈 Add Python architecture selection",
+      "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.3.0",
+      "published": "2026-10-09T20:41:00Z",
+      "preview": "Changes This release adds the python-arch input to select a Python architecture independently of the Python version. With uv 0.13.0 or later, set python-arch: x86_64 to use x64 Python on Windows ARM64 runners. It also includes embedded checksums for uv releases through 0.13.0. Use macOS 15 runners for tests @charliermarsh ( #1081 ) 🚀 Enhancements Add python-arch support @zanieb ( #1079 ) 🧰 Maintenance chore: update known checksums for 0.13.0 @ github-actions[bot] ( #1089 ) chore: update known checksums for 0.12.24 @ github-actions[bot] ( #1084 ) chore: update known checksums for 0.12.23 @ gith",
+      "source": "setup-uv releases",
+      "category": "Python"
+    },
     {
       "title": "0.13.0",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.13.0",
