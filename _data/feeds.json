@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-09T05:34:33Z",
-  "cutoff": "2026-09-09T05:34:28Z",
+  "generated": "2026-10-09T06:50:50Z",
+  "cutoff": "2026-09-09T06:50:43Z",
   "feed_count": 102,
-  "item_count": 287,
+  "item_count": 288,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v12.11.0",
+      "title": "pnpm 12.11.0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.11.0",
-      "published": "2026-10-09T05:21:58Z",
-      "preview": "=v12.11.0",
+      "published": "2026-10-09T06:43:40Z",
+      "preview": "This release adds Rust toolchain management, links the agent skills that dependencies ship, adds the permissions setting, and keeps the colors of streamed script output. Minor Changes pnpm install now links the agent skills that direct dependencies ship under skills/<name>/SKILL.md into the project's agent skill directories, such as .claude/skills . A package's skills are linked only after you approve them with pnpm approve . The skills.dirs setting chooses the directories pnpm/rfcs#35 . Added the permissions setting, which records what each dependency may do. Its build capability works like a",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -45,6 +45,14 @@
       "preview": "What's Changed Component updates ⬆️ fix(webhook): allow private network access by default by @Vad1mo in #24082 fix(contenttrust): allow legacy signer pull by default to avoid regre… by @wy65701436 in #24086 fix(prepare): expose the legacy signer pull switch in harbor.yml by @bupd in #24101 Cherry pick upload location origin 2.15 by @wy65701436 in #24114 Bump Component Version 🤖 Bump trivy(0.75.0) and trivy adapter(0.39.1-rc2) by @stonezdj in #24080 bump v2.15.4 release by @wy65701436 in #24087 Other Changes Bump trivy adapter to v0.39.1 and distribution to v2.8.3-harbor.2 by @stonezdj in #2411",
       "source": "Harbor releases",
       "category": "Containers"
+    },
+    {
+      "title": "pnpm 12.11.0",
+      "url": "https://pnpm.io/blog/releases/12.11.0",
+      "published": "2026-10-09T00:00:00Z",
+      "preview": "This release adds Rust toolchain management, links the agent skills that dependencies ship, adds the permissions setting, and keeps the colors of streamed script output.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.148.3",
