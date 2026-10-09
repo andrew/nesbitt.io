@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-09T10:33:14Z",
-  "cutoff": "2026-09-09T10:33:07Z",
+  "generated": "2026-10-09T11:29:21Z",
+  "cutoff": "2026-09-09T11:29:14Z",
   "feed_count": 102,
   "item_count": 288,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-09T10:36:58Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "v2026.10.6: Per-machine [vars] prompts, local config includes, and working-tree changes in --affected",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.6",
@@ -509,14 +517,6 @@
       "preview": "RubyGems and Bundler 4.1.0.beta2 include features, enhancements, breaking changes and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.1.0.beta2 Release Notes RubyGems Changes already released in 4.0.x are not repeated here. Features: Support content addressable gems in Gem::PackageTask . Pull request #9897 by Harriet Oughton, Gira Chawda and Jenny Shen Add --content-addressable to gem build and make --ruby-abi only set the Ruby ABI. Pull request #9906 by Harri",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-07T23:39:20Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "9.8.1",
