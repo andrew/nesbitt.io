@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-09T18:36:35Z",
-  "cutoff": "2026-09-09T18:36:30Z",
+  "generated": "2026-10-09T20:31:26Z",
+  "cutoff": "2026-09-09T20:31:20Z",
   "feed_count": 102,
   "item_count": 289,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.13.0",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.0",
+      "published": "2026-10-09T19:49:55Z",
+      "preview": "Release Notes Released on 2026-10-09. uv 0.13.0 makes Python 3.15 the default stable Python version. We've also included several breaking changes to improve correctness, performance, and compatibility, described below. We expect most users to be able to upgrade without making changes. While not a breaking change, this release also updates the format of many of uv's cache entries to improve performance. uv may download or rebuild dependencies after upgrading , because some cached entries from earlier versions cannot be reused. Multiple versions of uv can still safely share the same cache direct",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "pnpm 12.11.2",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.11.2",
@@ -1861,14 +1869,6 @@
       "preview": "Merge release into master (20260918) ( #39216 )",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "0.12.15",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.15",
-      "published": "2026-09-18T02:36:52Z",
-      "preview": "Release Notes Released on 2026-09-15. Performance Speed up cold-cache resolution and HTTP cache revalidation by batching cache writes ( #21675 ) Bug fixes Fix regressions in 0.12.14 when installing to symlinked destinations or using uv pip install --target . ( #21699 ) Install uv 0.12.15 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.12.15/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/downlo",
-      "source": "uv releases",
-      "category": "Python"
     },
     {
       "title": "0.12.16",
