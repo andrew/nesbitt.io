@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-09T17:28:18Z",
-  "cutoff": "2026-09-09T17:28:09Z",
+  "generated": "2026-10-09T18:36:35Z",
+  "cutoff": "2026-09-09T18:36:30Z",
   "feed_count": 102,
-  "item_count": 288,
+  "item_count": 289,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v12.11.2",
+      "title": "pnpm 12.11.2",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.11.2",
-      "published": "2026-10-09T16:30:24Z",
-      "preview": "=v12.11.2",
+      "published": "2026-10-09T17:38:44Z",
+      "preview": "This release fixes --workspace-concurrency=Infinity , filters set by an updateConfig hook, and store fetches with enable-modules-dir=false . Patch Changes --workspace-concurrency=Infinity now runs workspace projects with no concurrency limit. It used to fail with invalid digit found in string #16793 . pnpm install and other recursive commands now apply the filter and filterProd that an updateConfig hook sets. They used to run on every workspace project #16792 . enable-modules-dir=false now also fetches the packages an install reuses from an existing lockfile, so the store holds every package t",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -171,6 +171,14 @@
       "url": "https://pnpm.io/blog/releases/12.11.1",
       "published": "2026-10-09T00:00:00Z",
       "preview": "This release fixes two ways pnpm install could fail, runs tools of any Rust release through pnx, and treats registry.npmjs.com as an alias of the npm registry.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.11.2",
+      "url": "https://pnpm.io/blog/releases/12.11.2",
+      "published": "2026-10-09T00:00:00Z",
+      "preview": "This release fixes --workspace-concurrency=Infinity, filters set by an updateConfig hook, and store fetches with enable-modules-dir=false.",
       "source": "pnpm Blog",
       "category": "JavaScript"
     },
