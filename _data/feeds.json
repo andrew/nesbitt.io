@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-09T16:33:13Z",
-  "cutoff": "2026-09-09T16:33:00Z",
+  "generated": "2026-10-09T17:28:18Z",
+  "cutoff": "2026-09-09T17:28:09Z",
   "feed_count": 102,
-  "item_count": 285,
+  "item_count": 288,
   "categories": [
     ".NET",
     "C/C++",
@@ -727,6 +727,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "v0.399.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.399.0",
+      "published": "2026-10-05T15:53:09Z",
+      "preview": "What's Changed Bump pacote from 21.3.1 to 21.5.1 in /npm_and_yarn/helpers by @dependabot [bot] in #16411 Report conflicting dependencies for security updates by @v-thavaahariharangit with @Copilot in #16335 Fix vulnerable Yarn alias test fixture by @v-thavaahariharangit with @Copilot in #16414 Bump the dev-dependencies group across 1 directory with 2 updates by @dependabot [bot] in #16403 Use typed UV lockfile records in parsing and resolution by @JamieMagee in #16348 Add typed Composer manifest and lockfile readers by @JamieMagee in #16349 Use typed Composer repository and path records by @Ja",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "0.19.3",
       "url": "https://github.com/elm/compiler/releases/tag/0.19.3",
       "published": "2026-10-05T11:08:09Z",
@@ -1383,6 +1391,14 @@
       "category": "Python"
     },
     {
+      "title": "v0.398.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.398.0",
+      "published": "2026-09-28T03:51:27Z",
+      "preview": "What's Changed Fix NilClass passed to Pub cooldown in_cooldown_period? by @v-kbukum1 in #16362 Bump browserslist from 4.28.1 to 4.28.9 in /npm_and_yarn/helpers by @dependabot [bot] in #16145 Bump @humanfs/node from 0.16.6 to 0.16.8 in /bun/helpers by @dependabot [bot] in #16144 Bump js-yaml from 3.14.2 to 3.15.2 in /npm_and_yarn/helpers by @dependabot [bot] in #16236 Bump poetry from 2.4.1 to 2.4.3 in /python/helpers in the poetry group across 1 directory by @dependabot [bot] in #16193 Bump golang.org/x/mod in /go_modules/helpers by @dependabot [bot] in #16277 fix(npm_and_yarn): keep pnpm cata",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "Kicking Off the Community Events Coalition Special Interest Group",
       "url": "https://thephp.foundation/blog/2026/09/28/kicking-off-the-community-events-coalition-sig/",
       "published": "2026-09-28T00:00:00Z",
@@ -1725,6 +1741,14 @@
       "preview": "This is a servicing release of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
       "source": "winget releases",
       "category": "System"
+    },
+    {
+      "title": "v0.397.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.397.0",
+      "published": "2026-09-21T17:04:03Z",
+      "preview": "What's Changed Bump js-yaml from 3.14.1 to 3.15.2 in /bun/helpers by @dependabot [bot] in #16292 Bump Microsoft.Extensions.Logging from 10.0.11 to 10.0.12 by @dependabot [bot] in #16284 Fix devcontainers crash on features referenced without a version tag by @v-kbukum1 in #16295 Add support for .zst nixpkgs tarball by @bazcatqubed in #16166 npm_and_yarn: route pnpm 12 native binary download through the proxy by @Stanzilla in #16170 julia: derive stdlib compat entries from the versions bundled across the julia compat range by @IanButterworth in #16229 Support Bundler cooldown with Compact Index ",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
     },
     {
       "title": "7.0.6",
@@ -2119,6 +2143,14 @@
       "category": "System"
     },
     {
+      "title": "v0.396.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.396.0",
+      "published": "2026-09-14T17:05:38Z",
+      "preview": "What's Changed Remove fully rolled out feature flags by @ruben-pachecocaldera in #16046 build(deps): bump hcl2json to v0.6.9 by @JamieMagee in #16188 build(deps): bump PowerShell to 7.6.5 by @JamieMagee in #16189 build(deps): bump Yarn to 4.18.0 by @JamieMagee in #16187 build(deps): bump git-shim to v1.5.0 by @JamieMagee in #16186 Add shared delivery for unavailable cooldown warnings by @v-robaiken in #16142 Bump library/golang in /go_modules by @dependabot [bot] in #16097 Bump the all-actions group across 1 directory with 2 updates by @dependabot [bot] in #16198 Give the security refresh oper",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "5.4.5.0",
       "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.5.0",
       "published": "2026-09-14T11:47:38Z",
@@ -2293,14 +2325,6 @@
       "preview": "pnpm 12.4 installs crates and Python packages next to npm packages in the same workspace, adds pnpm pipeline to run a workspace's tasks the way a CI job would, and ships binaries for six more platforms. pnpr 0.1.0-alpha.11, released alongside 12.4.1, serves Cargo, Python, and container...",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "v1.17.0-beta1",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta1",
-      "published": "2026-09-09T17:13:24Z",
-      "preview": "1.17.0-beta1 (September 09, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and init no longer requires the -allow-experimental-features flag. See https://developer.hashicorp.com/terraform/policy for more information. ( #38970 ) ENHANCEMENTS: command/init: Enrich log messages with provider versions ( #38918 ) test: Add mock_pro",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
     }
   ]
 }
