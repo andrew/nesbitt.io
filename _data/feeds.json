@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-09T09:37:11Z",
-  "cutoff": "2026-09-09T09:37:06Z",
+  "generated": "2026-10-09T10:33:14Z",
+  "cutoff": "2026-09-09T10:33:07Z",
   "feed_count": 102,
   "item_count": 288,
   "categories": [
@@ -23,20 +23,20 @@
   ],
   "items": [
     {
+      "title": "v2026.10.6: Per-machine [vars] prompts, local config includes, and working-tree changes in --affected",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.6",
+      "published": "2026-10-09T10:12:33Z",
+      "preview": "[vars] entries can now ask once per machine and remember the answer, include accepts local files, and mise run --affected now counts uncommitted work and no longer needs experimental = true . On a fresh machine, mise bootstrap can install git and ssh before it clones. The release also fixes several dotfiles history issues and stops lazy tools from triggering remote version lookups when something else launches. Added Per-machine [vars] prompts. Give a var a prompt , plus either a default or required . mise asks for it once and saves the answer in $MISE_STATE_DIR/vars.toml , outside your config ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-07-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-07-a",
       "published": "2026-10-09T09:03:31Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-07-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.10.6",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.6",
-      "published": "2026-10-09T08:41:16Z",
-      "preview": "(bootstrap) offer to install git and ssh before cloning a repos…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.10.6",
