@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-10T02:46:43Z",
-  "cutoff": "2026-09-10T02:46:37Z",
+  "generated": "2026-10-10T05:31:36Z",
+  "cutoff": "2026-09-10T05:31:18Z",
   "feed_count": 102,
-  "item_count": 288,
+  "item_count": 290,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Bun v1.4.3",
+      "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.3",
+      "published": "2026-10-10T05:28:41Z",
+      "preview": "To install Bun v1.4.3 curl -fsSL https://bun.sh/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.sh/install.ps1|iex \" To upgrade to Bun v1.4.3: bun upgrade Read Bun v1.4.3's release notes on Bun's blog Thanks to 8 contributors! @alii @cirospaciari @dylan-conway @eastlondoner @jarred-sumner @robobun @sosukesuzuki @steipete",
+      "source": "Bun releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "Bun v1.4.3",
+      "url": "https://bun.com/blog/bun-v1.4.3",
+      "published": "2026-10-10T03:18:05Z",
+      "preview": "Fixes 76 issues. bun check, a TypeScript type checker built into Bun that is 3x to 6.4x faster than tsc 7, --check for bun run, bun build and bun test, 67–89% less idle CPU, Bun.FetchSession, experimental Bun.ModuleGraph, --disallow-code-generation-from-strings, up to 2.7x faster large node:http responses, a JavaScriptCore upgrade with faster JSON.parse, faster rejected-promise handling, CompressionStream compression levels, If-Range support in Bun.serve, bun install skips tarballs it won't install, lower bun build memory with many entry points, [hashN] output names, profile-guided bytecode la",
+      "source": "Bun Blog",
+      "category": "JavaScript"
+    },
     {
       "title": "44.149.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.149.1",
