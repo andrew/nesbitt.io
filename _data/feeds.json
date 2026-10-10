@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-10T18:35:28Z",
-  "cutoff": "2026-09-10T18:35:13Z",
+  "generated": "2026-10-10T19:26:11Z",
+  "cutoff": "2026-09-10T19:26:04Z",
   "feed_count": 104,
-  "item_count": 303,
+  "item_count": 302,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.12.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.12.0",
+      "published": "2026-10-10T19:16:28Z",
+      "preview": "=v12.12.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -908,14 +916,6 @@
       "published": "2026-10-03T00:00:00Z",
       "preview": "This release moves the WebContainer build into a separate @pnpm/wasm package, shrinks the pnpm package back to about 4 MB, and fixes pnpm publish with provenance from GitLab CI.",
       "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12.9",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.9.0",
-      "published": "2026-10-02T22:28:05Z",
-      "preview": "This release runs pnpm in StackBlitz WebContainers, adds a per-registry networkConcurrency setting, and records every installed project in the store. It also carries a security fix for pnpm login . Minor Changes pnpm now automatically uses WebAssembly in StackBlitz WebContainers, including when installation scripts are disabled. Native installations continue to use the native executable when installation scripts are enabled. A registries entry can now set networkConcurrency , the most requests pnpm keeps in flight to that registry's origin. Requests to other registries keep the overall limit. ",
-      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
@@ -2437,14 +2437,6 @@
       "preview": "Following reporting by The Wall Street Journal and the publication of research by Nightingale Collective , we want to clarify what we know about the spam-publishing campaign on rubygems.org in May 2026. We take the security of rubygems.org and the community that depends on it seriously. Our team reviewed the activity and discussed the findings with researchers from Nightingale Collective. The campaign involved newly registered accounts publishing spam packages. Socket previously documented related activity under the name GemStuffer . As described in our May status updates , we temporarily paus",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "v10.1.0 🌈  New output `python-runtime-id`and respect NO_PROXY",
-      "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.1.0",
-      "published": "2026-09-10T19:20:03Z",
-      "preview": "Changes This release adds more bheind the scene security improvements and also 2 small improvements. NO_PROXY This action now respects no_proxy/NO_PROXY environment variables which were previously ignored. New output python-runtime-id The new output python-runtime-id can be used to know which python version exactly was installed if you use activate-environment . See pyca/cryptography#15572 (comment) for details on why this can be useful. 🐛 Bug fixes fix: respect no proxy directive @mj0nez ( #1037 ) Use JSON + a typed wrapper instead of TS codegen @woodruffw ( #1025 ) 🚀 Enhancements Expose a Py",
-      "source": "setup-uv releases",
-      "category": "Python"
     }
   ]
 }
