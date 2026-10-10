@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-10T09:31:33Z",
-  "cutoff": "2026-09-10T09:31:27Z",
+  "generated": "2026-10-10T11:28:02Z",
+  "cutoff": "2026-09-10T11:27:55Z",
   "feed_count": 104,
   "item_count": 303,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.149.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.149.2",
+      "published": "2026-10-10T11:08:35Z",
+      "preview": "44.149.2 (2026-10-10) Bug Fixes cache: build all cache keys with a shared helper ( #46811 ) ( f64ec39 ) datasource: cache the digest per ref ( #46819 ) ( 182de27 ) Miscellaneous Chores deps: update astral-sh/setup-uv action to v10.3.0 (main) ( #46893 ) ( 0f667f9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-08-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-08-a",
@@ -469,14 +477,6 @@
       "preview": "Change-Id: Ic0b65cb1b99dfa414ec1c8b11360114db21b7530 Reviewed-on: https://go-review.googlesource.com/c/go/+/846986 Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-by: Michael Pratt mpratt@google.com",
       "source": "Go releases",
       "category": "Go"
-    },
-    {
-      "title": "44.147.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.147.0",
-      "published": "2026-10-08T14:39:09Z",
-      "preview": "44.147.0 (2026-10-08) Features config: merge mergeable env options with RENOVATE_CONFIG ( #46844 ) ( d071998 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pixi-build-cmake-v0.4.7",
