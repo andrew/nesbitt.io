@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-10T11:28:02Z",
-  "cutoff": "2026-09-10T11:27:55Z",
+  "generated": "2026-10-10T12:40:14Z",
+  "cutoff": "2026-09-10T12:40:07Z",
   "feed_count": 104,
   "item_count": 303,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpr 0.1.0-alpha.15",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.15",
+      "published": "2026-10-10T12:35:55Z",
+      "preview": "pnpr 0.1.0-alpha.15 adds a web UI, admin APIs for package rules, teams, and accounts, and SCIM deprovisioning. It also carries a security fix for tokens that outlived their account. Minor Changes pnpr serves a web UI at /-/ui/ when the new @pnpm/pnpr-ui package is installed next to it, for example with pnpm add -g @pnpm/pnpr,@pnpm/pnpr-ui . The new ui setting turns the UI off or serves it from another directory. The web UI signs in with a password or with an OIDC provider that offers browser sign-in. pnpr lists those providers at GET /-/pnpr/v0/sign-in . A browser sign-in started with /-/oidc/",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "8.1.0.5",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.1.0.5",
+      "published": "2026-10-10T12:34:36Z",
+      "preview": "Insert 8.1.0.5 into main on 10/10/2026 12:34:36",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "44.149.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.149.2",
@@ -131,14 +147,6 @@
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.11.2",
       "published": "2026-10-09T17:38:44Z",
       "preview": "This release fixes --workspace-concurrency=Infinity , filters set by an updateConfig hook, and store fetches with enable-modules-dir=false . Patch Changes --workspace-concurrency=Infinity now runs workspace projects with no concurrency limit. It used to fail with invalid digit found in string #16793 . pnpm install and other recursive commands now apply the filter and filterProd that an updateConfig hook sets. They used to run on every workspace project #16792 . enable-modules-dir=false now also fetches the packages an install reuses from an existing lockfile, so the store holds every package t",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpr@0.1.0-alpha.15",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.15",
-      "published": "2026-10-09T16:12:12Z",
-      "preview": "=pnpr@0.1.0-alpha.15",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -1965,14 +1973,6 @@
       "preview": "Added Add an installer.builtin-uninstall setting to uninstall packages with a built-in uninstaller instead of invoking pip uninstall ( #10931 ). Add official support for Python 3.15 ( #11046 ). Changed Do not send credentials configured for an https repository via http ( #11073 ). Fail with an error when the current Python version is not compatible with the project and virtualenvs.create is false ( #10941 ). Validate version constraints that are entered interactively in poetry init ( #10909 ). Include the path of the pyproject.toml file in the message about already present packages in poetry a",
       "source": "Poetry releases",
       "category": "Python"
-    },
-    {
-      "title": "7.12.0.25",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.25",
-      "published": "2026-09-19T12:23:01Z",
-      "preview": "Insert 7.12.0.25 into main on 09/19/2026 12:23:00",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-17-a",
