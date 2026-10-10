@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-10T21:28:16Z",
-  "cutoff": "2026-09-10T21:28:11Z",
+  "generated": "2026-10-10T23:28:13Z",
+  "cutoff": "2026-09-10T23:28:07Z",
   "feed_count": 104,
   "item_count": 303,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.149.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.149.3",
+      "published": "2026-10-10T22:44:46Z",
+      "preview": "44.149.3 (2026-10-10) Bug Fixes deps: update renovate-base-image to v13.118.2 (main) ( #46910 ) ( dfbf52d ) Documentation github: group App permissions by repository and organization ( #46898 ) ( 05c7494 ) Miscellaneous Chores deps: update dependency pnpm to v11.28.4 (main) ( #46907 ) ( 0d357aa ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.31.1 (main) ( #46908 ) ( 324e6a1 ) deps: update pnpm/setup action to v3.1.1 (main) ( #46906 ) ( f52a8ae ) tools: allow ambient environment in agent hook simple-git ( #46899 ) ( 3fc4836 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.17.13",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.13",
@@ -477,14 +485,6 @@
       "preview": "Release vfox 2026.10.5",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.148.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.0",
-      "published": "2026-10-08T17:56:19Z",
-      "preview": "44.148.0 (2026-10-08) Features deps: update renovate-base-image to v13.117.0 (main) ( #46850 ) ( aca2633 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.30.0 (main) ( #46849 ) ( 3bdfdf5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "What's new in Swift: September 2026 Edition",
