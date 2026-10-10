@@ -7,6 +7,7 @@ tags:
   - package-managers
   - registries
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mxiuhzcc3l2w"
 ---
 
 Package registries, manifest formats, lockfiles, version ranges and identifiers all have written specifications of some kind, spread across six kinds of venue. Specifications show up in package management mostly as [an invisible layer of the dependency tree](/2026/02/23/where-do-specifications-fit-in-the-dependency-tree.html), where an HTTP library is built against RFC 9110 and a JSON parser against ECMA-404, and the documents covering package management itself are spread just as thinly.
