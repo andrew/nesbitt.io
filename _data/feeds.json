@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-10T06:11:44Z",
-  "cutoff": "2026-09-10T06:11:13Z",
+  "generated": "2026-10-10T08:36:16Z",
+  "cutoff": "2026-09-10T08:36:10Z",
   "feed_count": 104,
   "item_count": 303,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-10T08:26:07Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "Bun v1.4.3",
       "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.3",
@@ -141,14 +149,6 @@
       "preview": "44.148.6 (2026-10-09) Bug Fixes deps: update renovate-base-image to v13.117.4 (main) ( #46870 ) ( fd065f2 ) platform/azure: hash the full PR description in getPr ( #46872 ) ( 105dc2e ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.31.0 (main) ( #46875 ) ( f4c5ff9 ) Build System deps: update dependency ignore to v7.0.12 (main) ( #46873 ) ( 58d4e23 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-09T12:41:01Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "8.1.0.2",
