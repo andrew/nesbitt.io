@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-10T05:31:36Z",
-  "cutoff": "2026-09-10T05:31:18Z",
-  "feed_count": 102,
-  "item_count": 290,
+  "generated": "2026-10-10T06:11:44Z",
+  "cutoff": "2026-09-10T06:11:13Z",
+  "feed_count": 104,
+  "item_count": 303,
   "categories": [
     ".NET",
     "C/C++",
@@ -34,7 +34,7 @@
       "title": "Bun v1.4.3",
       "url": "https://bun.com/blog/bun-v1.4.3",
       "published": "2026-10-10T03:18:05Z",
-      "preview": "Fixes 76 issues. bun check, a TypeScript type checker built into Bun that is 3x to 6.4x faster than tsc 7, --check for bun run, bun build and bun test, 67–89% less idle CPU, Bun.FetchSession, experimental Bun.ModuleGraph, --disallow-code-generation-from-strings, up to 2.7x faster large node:http responses, a JavaScriptCore upgrade with faster JSON.parse, faster rejected-promise handling, CompressionStream compression levels, If-Range support in Bun.serve, bun install skips tarballs it won't install, lower bun build memory with many entry points, [hashN] output names, profile-guided bytecode la",
+      "preview": "Fixes 166 issues, addressing 122 👍. bun check, a TypeScript type checker built into Bun that is 3x to 6.4x faster than tsc 7, --check for bun run, bun build and bun test, 67–89% less idle CPU, Bun.FetchSession, experimental Bun.ModuleGraph, --disallow-code-generation-from-strings, up to 2.7x faster large node:http responses, a JavaScriptCore upgrade with faster JSON.parse, faster rejected-promise handling, CompressionStream compression levels, If-Range support in Bun.serve, bun install skips tarballs it won't install, lower bun build memory with many entry points, [hashN] output names, profile",
       "source": "Bun Blog",
       "category": "JavaScript"
     },
@@ -237,6 +237,14 @@
       "preview": "What's Changed Component updates ⬆️ fix(webhook): allow private network access by default by @Vad1mo in #24082 fix(contenttrust): allow legacy signer pull by default to avoid regre… by @wy65701436 in #24086 fix(prepare): expose the legacy signer pull switch in harbor.yml by @bupd in #24101 Cherry pick upload location origin 2.15 by @wy65701436 in #24114 Bump Component Version 🤖 Bump trivy(0.75.0) and trivy adapter(0.39.1-rc2) by @stonezdj in #24080 bump v2.15.4 release by @wy65701436 in #24087 Other Changes Bump trivy adapter to v0.39.1 and distribution to v2.8.3-harbor.2 by @stonezdj in #2411",
       "source": "Harbor releases",
       "category": "Containers"
+    },
+    {
+      "title": "v1.3.8",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.8",
+      "published": "2026-10-09T01:15:15Z",
+      "preview": "What's Changed ci: widen Bencher alert threshold to 25% over 20 samples by @ruyadorno in #1948 package-info: drop eager cache mkdir from client ctor by @ruyadorno in #1949 package-info: add drain(), settle client work before fixture cleanup [ci full-matrix] by @ruyadorno in #1950 graph: keep test clients off the user cache by @ruyadorno in #1953 registry-client: drop revoked token from every keychain key on logout by @ruyadorno in #1952 graph: recompute dev/optional flags after ideal build by @ruyadorno in #1954 dss-parser: reject invalid DSS in parse() by @ruyadorno in #1956 cli-sdk: support ",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
     },
     {
       "title": "Python 3.15",
@@ -727,6 +735,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "How we made registry metadata 70% smaller",
+      "url": "https://vlt.io/blog/registry-metadata-70-percent-smaller",
+      "published": "2026-10-06T16:00:00Z",
+      "preview": "Package managers download megabytes of package metadata on every clean install. Here is how vlt.io serves the same installs at a fraction of the size.",
+      "source": "vlt Blog",
+      "category": "JavaScript"
+    },
+    {
       "title": "20261006t104700-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261006t104700-all",
       "published": "2026-10-06T10:47:46Z",
@@ -748,6 +764,14 @@
       "published": "2026-10-06T05:24:45Z",
       "preview": "This release adds an experimental loaded node linker, lets pnpm-lock.yaml record resolution settings, and reads cached registry metadata faster. It also carries several security fixes, including one that stops a dependency version from writing files outside the global virtual store. Minor Changes Added experimental nodeLinker: { type: loaded } installation. Compatible dependencies load directly from the content-addressable store through an automatically registered Node.js loader. nodeLinker.excluded selects packages and their dependency trees to install in the global virtual store. lockfile.in",
       "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v1.3.7",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.7",
+      "published": "2026-10-06T04:30:37Z",
+      "preview": "What's Changed fix(package-info): flush registry-client cache in remaining test teardowns by @vltbaudbot in #1945 vlt outdated command by @evert in #1941 fix(graph): keep lockfile integrity and brotli bit together by @evert in #1947 Release v1.3.7 by @vltops in #1946 Full Changelog : v1.3.6...v1.3.7",
+      "source": "vlt CLI releases",
       "category": "JavaScript"
     },
     {
@@ -847,6 +871,14 @@
       "category": "Registries"
     },
     {
+      "title": "v1.3.6",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.6",
+      "published": "2026-10-03T00:41:00Z",
+      "preview": "What's Changed Version parsing caching by @evert in #1940 fix(build): use portable shebang for Alpine / BusyBox compat by @vltbaudbot in #1943 fix(package-info): flush registry-client cache in prefetchResolve test teardown by @vltbaudbot in #1944 Release v1.3.6 by @vltops in #1942 Full Changelog : v1.3.5...v1.3.6",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "pnpm 11.28.4",
       "url": "https://pnpm.io/blog/releases/11.28.4",
       "published": "2026-10-03T00:00:00Z",
@@ -911,6 +943,14 @@
       "category": "Registries"
     },
     {
+      "title": "v1.3.5",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.5",
+      "published": "2026-10-02T03:30:12Z",
+      "preview": "What's Changed Fix performance regressions by @evert in #1935 Hedge against a slow resolve endpoint by @evert in #1936 Release v1.3.5 by @vltops in #1938 Full Changelog : v1.3.4...v1.3.5",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "0.12.22",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.22",
       "published": "2026-10-02T00:20:42Z",
@@ -965,6 +1005,14 @@
       "preview": "What's Changed Do not push an app script's shebang past the kernel's length limit by @feiiiiii5 in #2058 New Contributors @feiiiiii5 made their first contribution in #2058 Full Changelog : 1.17.8...1.17.9",
       "source": "pipx releases",
       "category": "Python"
+    },
+    {
+      "title": "v1.3.4",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.4",
+      "published": "2026-10-01T21:16:13Z",
+      "preview": "What's Changed package-info, registry-client: verify remote tarballs against their stored integrity by @ruyadorno in #1898 graph: mark appendNodes entries seen at enqueue by @ruyadorno in #1910 graph: hardlink install-script packages, copy them only before their scripts run by @ruyadorno in #1918 Using the vlt resolve endpoints for server-side graph resolution by @evert in #1932 Release v1.3.4 by @vltops in #1933 Full Changelog : v1.3.3...v1.3.4",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
     },
     {
       "title": "v29.9.0-rc.1",
@@ -1119,6 +1167,14 @@
       "category": "Registries"
     },
     {
+      "title": "v1.3.3",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.3",
+      "published": "2026-10-01T02:37:39Z",
+      "preview": "What's Changed graph: memoize node paths, create reify symlinks synchronously by @ruyadorno in #1915 graph: skip needless rm and unsupported optional deps in reify by @ruyadorno in #1914 package-info: serve fresh moving-selector packuments during installs by @ruyadorno in #1913 Release v1.3.3 by @vltops in #1931 Full Changelog : v1.3.2...v1.3.3",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "Announcing Rust 1.99.0",
       "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
       "published": "2026-10-01T00:00:00Z",
@@ -1133,6 +1189,14 @@
       "preview": "No content.",
       "source": "Cabal releases",
       "category": "Registries"
+    },
+    {
+      "title": "v1.3.2",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.2",
+      "published": "2026-09-30T17:51:15Z",
+      "preview": "What's Changed Support for v2 vlt mimetype by @evert in #1929 cli-sdk: align ci allow-scripts default with install by @ruyadorno in #1908 infra-build: compile cache fallback when tmpdir is unwritable by @ruyadorno in #1911 Release v1.3.2 by @vltops in #1928 Full Changelog : v1.3.1...v1.3.2",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
     },
     {
       "title": "config: v11.2.0",
@@ -1295,6 +1359,14 @@
       "category": "Python"
     },
     {
+      "title": "v1.3.1",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.1",
+      "published": "2026-09-29T17:02:00Z",
+      "preview": "What's Changed registry-client: reuse connections on short keep-alive hints by @ruyadorno in #1917 Skipping 409ed published packages so this job can be re-run idempotently by @evert in #1923 Fix brotli regression by @evert in #1927 Release v1.3.1 by @vltops in #1922 Full Changelog : v1.3.0...v1.3.1",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "v5.8.8",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.8",
       "published": "2026-09-29T16:25:33Z",
@@ -1381,6 +1453,14 @@
       "preview": "What's Changed Add privacy and telemetry notices to the help command by Victor Romero (@vicroms) in #2087 Add Windows arm64 release presets by Billy O'Neal (@BillyONeal) in #2082 Fix x-add-version to be as transactional as its error messages suggest (and 1/10th the time) by Billy O'Neal (@BillyONeal) in #2050 [curl] propagate VCPKG_SSL_REVOKE_BEST_EFFORT to spawned processes by Pavel Pokutnev (@mem16k) in #2098 Take the registries lock before git init by Bugale Bugalit (@bugale) in #2093 Add diff output to x-update-baseline by Billy O'Neal (@BillyONeal) in #2057 Parallelize ObjectStorageProvid",
       "source": "vcpkg releases",
       "category": "C/C++"
+    },
+    {
+      "title": "v1.3.0",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.0",
+      "published": "2026-09-28T16:56:56Z",
+      "preview": "What's Changed [docs] - face lift by @ejkorol in #1895 Brotli support. by @evert in #1904 Parallel unpack by @evert in #1906 registry-client: read STATUS_CODES lazily to skip node:http at startup by @ruyadorno in #1909 NPM workspaces support by @evert in #1919 package-info: hash each network tarball once by @ruyadorno in #1916 Set readme and readmeFilename in the manifest when publishing. by @evert in #1920 Releasing as 1.3.0 by @evert in #1921 Release v1.3.0 by @vltops in #1903 Full Changelog : v1.2.0...v1.3.0",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
     },
     {
       "title": "1.18.4",
@@ -1495,6 +1575,14 @@
       "category": "Registries"
     },
     {
+      "title": "v1.2.0",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.2.0",
+      "published": "2026-09-25T06:18:16Z",
+      "preview": "What's Changed Centralize / cache capabilities doc by @evert in #1875 Use the ?stable filter to get smaller packuments for faster installs by @evert in #1876 Make tests succeed under Node 26 by @evert in #1880 docs: update publishing docs by @ejkorol in #1881 Better error messaging when token was expired or revoked by @evert in #1879 If shas are missing, get them from Repr-Digest header (if set) by @evert in #1842 chore: update tap@^21.8.0 by @ruyadorno in #1896 fix: flush cache writes before tap removes the fixture dir [ci full-matrix] by @ruyadorno in #1897 tar: add linkFromStore and global ",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "0.12.19",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.19",
       "published": "2026-09-25T00:33:02Z",
@@ -1581,6 +1669,14 @@
       "preview": "Insert 8.0.0.8 into main on 09/24/2026 12:20:36",
       "source": "NuGet Client releases",
       "category": ".NET"
+    },
+    {
+      "title": "Public Packages",
+      "url": "https://vlt.io/blog/public-packages",
+      "published": "2026-09-24T10:00:00Z",
+      "preview": "Explore the JavaScript ecosystem without an account, and publish packages from your own registry for anyone to install.",
+      "source": "vlt Blog",
+      "category": "JavaScript"
     },
     {
       "title": "v2.15.3-rc2",
@@ -2157,6 +2253,14 @@
       "preview": "Deployment at 2026-09-15T12:15:22.786265Z.",
       "source": "pub.dev releases",
       "category": "Registries"
+    },
+    {
+      "title": "A month of vlt CLI updates",
+      "url": "https://vlt.io/blog/vlt-cli-updates",
+      "published": "2026-09-15T12:00:00Z",
+      "preview": "Since 1.0, vlt has shipped install-speed wins, security hardening, and quality-of-life CLI fixes.",
+      "source": "vlt Blog",
+      "category": "JavaScript"
     },
     {
       "title": "Swift 6.4 Released",
