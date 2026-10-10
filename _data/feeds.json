@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-10T19:26:11Z",
-  "cutoff": "2026-09-10T19:26:04Z",
+  "generated": "2026-10-10T20:30:20Z",
+  "cutoff": "2026-09-10T20:30:12Z",
   "feed_count": 104,
-  "item_count": 302,
+  "item_count": 303,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v12.12.0",
+      "title": "pnpm 12.12.0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.12.0",
-      "published": "2026-10-10T19:16:28Z",
-      "preview": "=v12.12.0",
+      "published": "2026-10-10T19:52:45Z",
+      "preview": "This release shares task results and dependency builds through a remote cache, adds the addMissingPeerTypes setting, and lets pnpm add --config and pnpm update manage configuration dependencies. It also fixes dangerouslyAllowAllBuilds running the build scripts of packages that allowBuilds denies. Minor Changes pnpm pipeline can share task results between machines. A result is a signed artifact stored on a pnpr server or on a server that speaks the Turborepo Remote Cache API, such as Vercel Remote Cache. The remote side-effects cache can also store dependency builds on a Turborepo Remote Cache ",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -93,6 +93,14 @@
       "preview": "44.149.1 (2026-10-10) Bug Fixes deps: update renovate-base-image to v13.118.1 (main) ( #46894 ) ( 214c5f3 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.13.0 (main) ( #46891 ) ( 43b9758 ) deps: update dependency uv to v0.13.0 (main) ( #46892 ) ( 395bca1 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 12.12.0",
+      "url": "https://pnpm.io/blog/releases/12.12.0",
+      "published": "2026-10-10T00:00:00Z",
+      "preview": "This release shares task results and dependency builds through a remote cache, adds the addMissingPeerTypes setting, and lets pnpm add --config and pnpm update manage configuration dependencies. It also fixes dangerouslyAllowAllBuilds running the build scripts of packages that allowBuilds denies.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "v2026.10.7: Background tool updates at the shell prompt, a verified download cache, and `mise upgrade --global`",
