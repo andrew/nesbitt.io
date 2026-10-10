@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-09T22:31:07Z",
-  "cutoff": "2026-09-09T22:31:00Z",
+  "generated": "2026-10-10T01:10:00Z",
+  "cutoff": "2026-09-10T01:09:55Z",
   "feed_count": 102,
-  "item_count": 291,
+  "item_count": 288,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v2026.10.7",
+      "title": "v2026.10.7: Background tool updates at the shell prompt, a verified download cache, and `mise upgrade --global`",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.7",
-      "published": "2026-10-09T22:11:11Z",
-      "preview": "(npm) warn when a package installs no executables by @jdx in [#…",
+      "published": "2026-10-09T23:43:50Z",
+      "preview": "Tools with auto_update now update in the background from an activated shell, and a new tool_update.global_auto setting turns this on for every global tool. mise also keeps finished downloads in a content-addressed cache and checks them again before reusing them. This release also fixes .env parsing regressions from 2026.10.3 and a crash in mise run . Added Automatic updates at the shell prompt. Before, auto_update only ran when a shim or mise exec launched a tool. With mise activate , tools run straight from PATH , so they were never updated. Now, when a check is due, mise hook-env starts the ",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -2325,30 +2325,6 @@
       "preview": "Changes This release adds more bheind the scene security improvements and also 2 small improvements. NO_PROXY This action now respects no_proxy/NO_PROXY environment variables which were previously ignored. New output python-runtime-id The new output python-runtime-id can be used to know which python version exactly was installed if you use activate-environment . See pyca/cryptography#15572 (comment) for details on why this can be useful. 🐛 Bug fixes fix: respect no proxy directive @mj0nez ( #1037 ) Use JSON + a typed wrapper instead of TS codegen @woodruffw ( #1025 ) 🚀 Enhancements Expose a Py",
       "source": "setup-uv releases",
       "category": "Python"
-    },
-    {
-      "title": "Helm v3.22.0",
-      "url": "https://github.com/helm/helm/releases/tag/v3.22.0",
-      "published": "2026-09-10T00:12:40Z",
-      "preview": "Helm v3.22.0 is a feature release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes primarily dependency updates and k8s-io group to 0.37.0 Installation and Upgrading Download Helm v3.22.0. The common platform binaries are here: MacOS amd64 ( checksum / bd1d09f316558dda23698",
-      "source": "Helm releases",
-      "category": "Containers"
-    },
-    {
-      "title": "Helm v4.3.0",
-      "url": "https://github.com/helm/helm/releases/tag/v4.3.0",
-      "published": "2026-09-10T00:12:24Z",
-      "preview": "Helm v4.3.0 is a feature release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes feat: Add duration functions by @aeroyorch in #31695 feat(engine): add debug logging when lookup returns empty by @ogulcanaydogan in #32205 feat: add ownership verification before deleting res",
-      "source": "Helm releases",
-      "category": "Containers"
-    },
-    {
-      "title": "pnpm 12.4",
-      "url": "https://pnpm.io/blog/releases/12.4",
-      "published": "2026-09-10T00:00:00Z",
-      "preview": "pnpm 12.4 installs crates and Python packages next to npm packages in the same workspace, adds pnpm pipeline to run a workspace's tasks the way a CI job would, and ships binaries for six more platforms. pnpr 0.1.0-alpha.11, released alongside 12.4.1, serves Cargo, Python, and container...",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
