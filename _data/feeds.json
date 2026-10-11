@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-11T01:15:26Z",
-  "cutoff": "2026-09-11T01:15:20Z",
+  "generated": "2026-10-11T03:43:00Z",
+  "cutoff": "2026-09-11T03:42:54Z",
   "feed_count": 104,
-  "item_count": 301,
+  "item_count": 300,
   "categories": [
     ".NET",
     "C/C++",
@@ -2421,14 +2421,6 @@
       "preview": "This is a servicing release of Windows Package Manager v1.30. If you find any bugs or problems, please help us out by filing an issue . New in v1.30 --ignore-unavailable flag for install Added a new --ignore-unavailable flag to the install command. When installing multiple packages, this flag allows the operation to continue with the remaining packages instead of failing entirely when one or more packages are not found in the configured sources. This brings the same behavior previously available with import --ignore-unavailable to direct multi-package installs. Bug Fixes Fixed an issue where w",
       "source": "winget releases",
       "category": "System"
-    },
-    {
-      "title": "v2.15.3-rc1",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3-rc1",
-      "published": "2026-09-11T03:34:39Z",
-      "preview": "What's Changed Component updates ⬆️ (cherry-pick) fix: avoid panic in user audit event resolver on nil event data ( #23461 ) by @Aloui-Ikram in #23501 (cherry-pick) fix: Constrain /registries/ping to the saved URL for existing registries ( #23463 ) by @Aloui-Ikram in #23502 (cherry-pick) Add a size limit for manifest uploads by @Aloui-Ikram in #23503 cherry-pick: fix(ui): use dark login background in dark mode by @bupd in #23539 ci: remove third-party docker action by @stonezdj in #23693 (cherry-pick) neutralize CSV formula in scan export by @stonezdj in #23696 (cherry-pick): prevent proxy-cac",
-      "source": "Harbor releases",
-      "category": "Containers"
     }
   ]
 }
