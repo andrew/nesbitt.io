@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-11T13:29:38Z",
-  "cutoff": "2026-09-11T13:29:31Z",
+  "generated": "2026-10-11T15:29:15Z",
+  "cutoff": "2026-09-11T15:29:07Z",
   "feed_count": 104,
   "item_count": 300,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.150.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.150.1",
+      "published": "2026-10-11T15:24:32Z",
+      "preview": "44.150.1 (2026-10-11) Bug Fixes deps: update renovate-base-image to v13.118.4 (main) ( #46916 ) ( ac15d4f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.150.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.150.0",
+      "published": "2026-10-11T15:04:09Z",
+      "preview": "44.150.0 (2026-10-11) Features data: automatic update of static data ( #46911 ) ( 0b99516 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.22 (main) ( #46915 ) ( 5f4050a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-10-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-10-10-a",
@@ -383,28 +399,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.148.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.2",
-      "published": "2026-10-08T21:57:32Z",
-      "preview": "44.148.2 (2026-10-08) Bug Fixes deps: update renovate-base-image to v13.117.1 (main) ( #46856 ) ( ee5cfdc ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.30.1 (main) ( #46855 ) ( 83f5f9b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v29.9.0",
       "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.0",
       "published": "2026-10-08T21:34:57Z",
       "preview": "29.9.0 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.9.0 milestone moby/moby, 29.9.0 milestone Security The Go runtime update fixes the following security vulnerabilities in Docker Engine: CVE-2026-97032 : An HTTP/2 client could crash the daemon by changing the HPACK header table size while sending requests. golang/go#81867 CVE-2026-78659 : An HTTP/2 client could exhaust daemon memory by declaring a large number of fields in a Trailer header, bypassing the header size limits. golang/go#81857 CVE-2026-78663 : An HTTP/2 clie",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.148.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.1",
-      "published": "2026-10-08T21:08:07Z",
-      "preview": "44.148.1 (2026-10-08) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.12.24 (main) ( #46851 ) ( f829aa9 ) deps: update dependency uv to v0.12.24 (main) ( #46852 ) ( 161d0f2 ) Build System deps: update dependency handlebars to v4.7.10 [security] (main) ( #46854 ) ( 7fcc9ab )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.0.0-beta.27",
