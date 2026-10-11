@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-11T11:28:16Z",
-  "cutoff": "2026-09-11T11:28:04Z",
+  "generated": "2026-10-11T12:41:47Z",
+  "cutoff": "2026-09-11T12:41:38Z",
   "feed_count": 104,
-  "item_count": 299,
+  "item_count": 300,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v12.12.1",
+      "title": "pnpm 12.12.1",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.12.1",
-      "published": "2026-10-11T10:55:40Z",
-      "preview": "=v12.12.1",
+      "published": "2026-10-11T11:30:09Z",
+      "preview": "This release adds OIDC authentication to pnpm dist-tag and the tool: protocol. pnpm publish now checks which registry an NPM_ID_TOKEN was issued for before using it. Patch Changes pnpm publish now uses an NPM_ID_TOKEN only if its aud claim matches the selected registry, such as npm:registry.npmjs.org . A token for another registry is skipped with a warning, and pnpm falls back to the configured credentials. pnpm dist-tag add , rm , and ls now support OIDC authentication in CI. Enable \"Allow npm dist-tag\" in the package's trusted publishing settings to manage tags without a stored npm token. Ad",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -77,6 +77,14 @@
       "preview": "Release mise-settings 2026.10.8",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "pnpm 12.12.1",
+      "url": "https://pnpm.io/blog/releases/12.12.1",
+      "published": "2026-10-11T00:00:00Z",
+      "preview": "This release adds OIDC authentication to pnpm dist-tag and the tool: protocol. pnpm publish now checks which registry an NPM_ID_TOKEN was issued for before using it.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.149.3",
