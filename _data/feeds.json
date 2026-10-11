@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-11T15:29:15Z",
-  "cutoff": "2026-09-11T15:29:07Z",
+  "generated": "2026-10-11T16:32:28Z",
+  "cutoff": "2026-09-11T16:32:22Z",
   "feed_count": 104,
-  "item_count": 300,
+  "item_count": 299,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-11T16:29:10Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.150.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.150.1",
@@ -61,14 +69,6 @@
       "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Publishing sbt 2.1.0 removes Apache Ivy from its transitive dependency, and implements Ivyless publishing. This ",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-11T10:35:15Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v2026.10.8: Stable `global` install link for IDEs",
@@ -2412,14 +2412,6 @@
       "published": "2026-09-11T20:52:34Z",
       "preview": "Release notes: The change in major version from 3.x to 4.1 marks the introduction of Stack's support for GHC's Backpack module system for cross-package use. Changes since v3.11.1: Major changes: Stack now supports GHC's Backpack module system for cross-package use. (Private Backpack, where signatures and implementations are in the same package, was already supported.) When a package uses signatures and mixins to depend on an abstract interface provided by another package, Stack automatically creates the extra instantiation build steps that Cabal requires. This includes support for explicit ren",
       "source": "Stack releases",
-      "category": "Registries"
-    },
-    {
-      "title": "Module Tracking in Swift Debug Info",
-      "url": "https://swift.org/blog/module-tracking-in-debug-info/",
-      "published": "2026-09-11T15:30:00Z",
-      "preview": "When your Swift program hits a breakpoint and stops so you can inspect it, the debugger’s expression evaluator has to find the exact Swift module your code was built from. Until now, that lookup wasn’t always precise. The upcoming Swift 6.4 release will include changes, begun in Swift 6.3, that address this by updating how the Swift compiler references explicitly-built Swift modules in debug info. The majority of developers will automatically benefit from faster , more reliable debugging and smaller build products , without any modifications to their SwiftPM or Xcode projects. For developers w",
-      "source": "Swift Blog",
       "category": "Registries"
     }
   ]
