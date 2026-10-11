@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-11T19:26:58Z",
-  "cutoff": "2026-09-11T19:26:44Z",
+  "generated": "2026-10-11T21:28:50Z",
+  "cutoff": "2026-09-11T21:28:46Z",
   "feed_count": 104,
-  "item_count": 299,
+  "item_count": 298,
   "categories": [
     ".NET",
     "C/C++",
@@ -2405,14 +2405,6 @@
       "preview": "Update tested AGP versions ( #39146 )",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "rc/v4.1.0.1 (release candidate)",
-      "url": "https://github.com/commercialhaskell/stack/releases/tag/rc%2Fv4.1.0.1",
-      "published": "2026-09-11T20:52:34Z",
-      "preview": "Release notes: The change in major version from 3.x to 4.1 marks the introduction of Stack's support for GHC's Backpack module system for cross-package use. Changes since v3.11.1: Major changes: Stack now supports GHC's Backpack module system for cross-package use. (Private Backpack, where signatures and implementations are in the same package, was already supported.) When a package uses signatures and mixins to depend on an abstract interface provided by another package, Stack automatically creates the extra instantiation build steps that Cabal requires. This includes support for explicit ren",
-      "source": "Stack releases",
-      "category": "Registries"
     }
   ]
 }
