@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-11T09:31:50Z",
-  "cutoff": "2026-09-11T09:31:41Z",
+  "generated": "2026-10-11T10:30:11Z",
+  "cutoff": "2026-09-11T10:30:02Z",
   "feed_count": 104,
   "item_count": 299,
   "categories": [
@@ -23,10 +23,18 @@
   ],
   "items": [
     {
-      "title": "v2026.10.8",
+      "title": "v2.1.0-RC1",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-RC1",
+      "published": "2026-10-11T10:12:22Z",
+      "preview": "2.1.0-RC1",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "v2026.10.8: Stable `global` install link for IDEs",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.8",
-      "published": "2026-10-11T08:39:27Z",
-      "preview": "(runtime-symlinks) add a global link to the version global conf…",
+      "published": "2026-10-11T10:05:39Z",
+      "preview": "Each tool's install directory now has a global link that follows your global config, which gives IDEs a path that doesn't change when you switch versions. This release also retries downloads whose response body drops partway through, fixes lockfile checks for release tags that contain @ , and stops dotfiles history from rewriting files that haven't changed. Added global runtime symlink. Each tool's install directory now has a global link to the version your global and system config select. Programs that can't run mise, such as IDEs, can point at this path and follow mise use -g changes. #14271",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -2405,14 +2413,6 @@
       "preview": "When your Swift program hits a breakpoint and stops so you can inspect it, the debugger’s expression evaluator has to find the exact Swift module your code was built from. Until now, that lookup wasn’t always precise. The upcoming Swift 6.4 release will include changes, begun in Swift 6.3, that address this by updating how the Swift compiler references explicitly-built Swift modules in debug info. The majority of developers will automatically benefit from faster , more reliable debugging and smaller build products , without any modifications to their SwiftPM or Xcode projects. For developers w",
       "source": "Swift Blog",
       "category": "Registries"
-    },
-    {
-      "title": "Reproducible Builds in August 2026",
-      "url": "https://reproducible-builds.org/reports/2026-08/",
-      "published": "2026-09-11T10:12:50Z",
-      "preview": "Welcome to the August 2026 report from the Reproducible Builds project! In our reports, we try to outline the most important things that we have been up to over the past month. As a quick recap about what problem our project intends to solve, whilst anyone may inspect the source code of free software for malicious flaws, almost all software is distributed to end users as pre-compiled binaries. The motivation behind the reproducible builds effort is to ensure no flaws have been introduced during this compilation process by promising identical results are always generated from a given source, th",
-      "source": "Reproducible Builds Blog",
-      "category": "Infrastructure"
     }
   ]
 }
