@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-11T10:30:11Z",
-  "cutoff": "2026-09-11T10:30:02Z",
+  "generated": "2026-10-11T11:28:16Z",
+  "cutoff": "2026-09-11T11:28:04Z",
   "feed_count": 104,
   "item_count": 299,
   "categories": [
@@ -23,12 +23,28 @@
   ],
   "items": [
     {
-      "title": "v2.1.0-RC1",
+      "title": "v12.12.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.12.1",
+      "published": "2026-10-11T10:55:40Z",
+      "preview": "=v12.12.1",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.1.0-RC1",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-RC1",
-      "published": "2026-10-11T10:12:22Z",
-      "preview": "2.1.0-RC1",
+      "published": "2026-10-11T10:53:46Z",
+      "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Publishing sbt 2.1.0 removes Apache Ivy from its transitive dependency, and implements Ivyless publishing. This ",
       "source": "sbt releases",
       "category": "Maven"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-11T10:35:15Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
     },
     {
       "title": "v2026.10.8: Stable `global` install link for IDEs",
@@ -85,14 +101,6 @@
       "preview": "This release shares task results and dependency builds through a remote cache, adds the addMissingPeerTypes setting, and lets pnpm add --config and pnpm update manage configuration dependencies. It also fixes dangerouslyAllowAllBuilds running the build scripts of packages that allowBuilds denies. Minor Changes pnpm pipeline can share task results between machines. A result is a signed artifact stored on a pnpr server or on a server that speaks the Turborepo Remote Cache API, such as Vercel Remote Cache. The remote side-effects cache can also store dependency builds on a Turborepo Remote Cache ",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-10T18:06:54Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "pnpr 0.1.0-alpha.15",
@@ -885,14 +893,6 @@
       "preview": "In this release C-ABI variadic functions are new in Rust 1.99, and this is the first time a new language feature has had immediate SemVer linting support in the corresponding cargo-semver-checks release 🎉 Six new lints for variadic functions: function_no_longer_variadic function_now_variadic inherent_method_no_longer_variadic inherent_method_now_variadic trait_method_no_longer_variadic trait_method_now_variadic Bugfix in inherent_method_now_doc_hidden when multiple impl blocks for the same type have the same method name Support for symlinks inside git repos used by the --baseline-rev flag Than",
       "source": "cargo-semver-checks releases",
       "category": "Rust"
-    },
-    {
-      "title": "pnpm 11.28.4",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.4",
-      "published": "2026-10-03T20:48:54Z",
-      "preview": "pnpm 11.28.4 fixes two ways credentials could leak, makes pnpm install --frozen-lockfile accept several lockfiles it rejected, warns when an optional dependency cannot be fetched, and stops pnpm self-update from installing a second pnpm next to a Homebrew one. Patch Changes pnpm login no longer forwards credentials in its request body to another origin during redirects. The error for a tarball that fails its integrity check no longer prints credentials, query strings, or fragments from the tarball URL. Installing packages pnpm install --frozen-lockfile now succeeds in a project with no depende",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 12.9.1",
