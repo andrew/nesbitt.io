@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-11T21:28:50Z",
-  "cutoff": "2026-09-11T21:28:46Z",
+  "generated": "2026-10-11T22:30:12Z",
+  "cutoff": "2026-09-11T22:30:06Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v10.34.7",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.7",
+      "published": "2026-10-11T22:04:04Z",
+      "preview": "=v10.34.7",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.151.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.0",
@@ -909,14 +917,6 @@
       "preview": "In this release C-ABI variadic functions are new in Rust 1.99, and this is the first time a new language feature has had immediate SemVer linting support in the corresponding cargo-semver-checks release 🎉 Six new lints for variadic functions: function_no_longer_variadic function_now_variadic inherent_method_no_longer_variadic inherent_method_now_variadic trait_method_no_longer_variadic trait_method_now_variadic Bugfix in inherent_method_now_doc_hidden when multiple impl blocks for the same type have the same method name Support for symlinks inside git repos used by the --baseline-rev flag Than",
       "source": "cargo-semver-checks releases",
       "category": "Rust"
-    },
-    {
-      "title": "pnpm 12.9.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.9.1",
-      "published": "2026-10-03T20:48:42Z",
-      "preview": "This release moves the WebContainer build into a separate @pnpm/wasm package, shrinks the pnpm package back to about 4 MB, and fixes pnpm publish with provenance from GitLab CI. Patch Changes The WebAssembly build for StackBlitz WebContainers now ships as a separate @pnpm/wasm package. The pnpm and @pnpm/exe packages no longer include it, which brings their unpacked size back from about 55 MB to about 4 MB. In a WebContainer, install @pnpm/wasm with npm to get the pnpm command. pnpm publish with provenance from GitLab CI is no longer rejected by the npm registry with a 422 error. The provenanc",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "0.12.23",
