@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-11T03:43:00Z",
-  "cutoff": "2026-09-11T03:42:54Z",
+  "generated": "2026-10-11T04:37:04Z",
+  "cutoff": "2026-09-11T04:36:59Z",
   "feed_count": 104,
-  "item_count": 300,
+  "item_count": 299,
   "categories": [
     ".NET",
     "C/C++",
@@ -2413,14 +2413,6 @@
       "preview": "Welcome to the August 2026 report from the Reproducible Builds project! In our reports, we try to outline the most important things that we have been up to over the past month. As a quick recap about what problem our project intends to solve, whilst anyone may inspect the source code of free software for malicious flaws, almost all software is distributed to end users as pre-compiled binaries. The motivation behind the reproducible builds effort is to ensure no flaws have been introduced during this compilation process by promising identical results are always generated from a given source, th",
       "source": "Reproducible Builds Blog",
       "category": "Infrastructure"
-    },
-    {
-      "title": "Windows Package Manager 1.30.140-preview",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.140-preview",
-      "published": "2026-09-11T04:28:46Z",
-      "preview": "This is a servicing release of Windows Package Manager v1.30. If you find any bugs or problems, please help us out by filing an issue . New in v1.30 --ignore-unavailable flag for install Added a new --ignore-unavailable flag to the install command. When installing multiple packages, this flag allows the operation to continue with the remaining packages instead of failing entirely when one or more packages are not found in the configured sources. This brings the same behavior previously available with import --ignore-unavailable to direct multi-package installs. Bug Fixes Fixed an issue where w",
-      "source": "winget releases",
-      "category": "System"
     }
   ]
 }
