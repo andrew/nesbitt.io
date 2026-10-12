@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-12T20:33:40Z",
-  "cutoff": "2026-09-12T20:33:34Z",
+  "generated": "2026-10-12T21:28:20Z",
+  "cutoff": "2026-09-12T21:28:13Z",
   "feed_count": 104,
-  "item_count": 301,
+  "item_count": 302,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.1.4",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.4",
+      "published": "2026-10-12T20:59:46Z",
+      "preview": "Bugfixes Fixed an issue where Podman would not function when run under WSL 3 ( #29749 ). Misc Updated gvproxy to v0.9.0, resolving CVE-2026-107935 Updated Buildah to v1.45.2 Updated Storage to v1.64.2",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v5.8.9",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.9",
+      "published": "2026-10-12T20:35:03Z",
+      "preview": "Bugfixes Fixed an issue where Podman would not function when run under WSL 3 ( #29749 ). Fixed a bug with podman machine VMs on Mac where machines could be left in an inconsistent state if the podman machine start command was interrupted by a signal. Misc Updated gvproxy to v0.9.0, resolving CVE-2026-107935 Updated Buildah to v1.43.5 Updated Storage to v1.62.2",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
     {
       "title": "44.155.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.1",
@@ -45,14 +61,6 @@
       "preview": "44.155.0 (2026-10-12) Features deps: update renovate-base-image to v13.121.0 (main) ( #46971 ) ( b09bb63 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v5.8.9",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.9",
-      "published": "2026-10-12T17:20:10Z",
-      "preview": "v5.8.9",
-      "source": "Podman releases",
-      "category": "Containers"
     },
     {
       "title": "44.154.1",
