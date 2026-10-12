@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T11:33:00Z",
-  "cutoff": "2026-09-12T11:32:55Z",
+  "generated": "2026-10-12T13:51:31Z",
+  "cutoff": "2026-09-12T13:51:20Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -25,8 +25,8 @@
     {
       "title": "44.151.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.5",
-      "published": "2026-10-12T11:06:32Z",
-      "preview": "fix(config/validation): improve message when invalid location for opt…",
+      "published": "2026-10-12T11:33:00Z",
+      "preview": "44.151.5 (2026-10-12) Bug Fixes config/validation: improve message when invalid location for option ( #46682 ) ( 736dad8 ), closes #43020 json-schema: declare child options which get validated ( #46674 ) ( c1ba0f0 ) json-schema: restrict all known object properties keys ( #46945 ) ( c48a9b6 ) Code Refactoring config: describe where an option can be used with scopes ( #46675 ) ( 92ef4c7 ), closes #43020 platform/gitea: build the pr cache synced key with the cache key helper ( #46939 ) ( b8f5027 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
