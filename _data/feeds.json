@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T01:17:52Z",
-  "cutoff": "2026-09-12T01:17:46Z",
+  "generated": "2026-10-12T02:55:14Z",
+  "cutoff": "2026-09-12T02:55:07Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.151.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.2",
+      "published": "2026-10-12T01:56:41Z",
+      "preview": "44.151.2 (2026-10-12) Bug Fixes deps: update renovate-base-image to v13.119.2 (main) ( #46929 ) ( f2cc80c ) Build System deps: update dependency cronstrue to v3.29.0 (main) ( #46930 ) ( 69a4024 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.151.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.1",
@@ -301,14 +309,6 @@
       "preview": "Insert 8.1.0.2 into main on 10/09/2026 12:40:00",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.148.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.5",
-      "published": "2026-10-09T12:33:29Z",
-      "preview": "44.148.5 (2026-10-09) Bug Fixes util/exec: add a strong type for Containerbase's known tools ( #46580 ) ( 7027ee5 ), closes #41849 Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.21 (main) ( #46862 ) ( 905fdf0 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.30.2 (main) ( #46865 ) ( a8377e5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.11.1",
