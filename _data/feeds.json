@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T10:39:21Z",
-  "cutoff": "2026-09-12T10:39:15Z",
+  "generated": "2026-10-12T11:33:00Z",
+  "cutoff": "2026-09-12T11:32:55Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.151.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.5",
+      "published": "2026-10-12T11:06:32Z",
+      "preview": "fix(config/validation): improve message when invalid location for opt…",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.151.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.4",
@@ -237,14 +245,6 @@
       "preview": "Fixes 166 issues, addressing 122 👍. bun check, a TypeScript type checker built into Bun that is 3x to 6.4x faster than tsc 7, --check for bun run, bun build and bun test, 67–89% less idle CPU, Bun.FetchSession, experimental Bun.ModuleGraph, --disallow-code-generation-from-strings, up to 2.7x faster large node:http responses, a JavaScriptCore upgrade with faster JSON.parse, faster rejected-promise handling, CompressionStream compression levels, If-Range support in Bun.serve, bun install skips tarballs it won't install, lower bun build memory with many entry points, [hashN] output names, profile",
       "source": "Bun Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.149.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.149.1",
-      "published": "2026-10-10T01:48:43Z",
-      "preview": "44.149.1 (2026-10-10) Bug Fixes deps: update renovate-base-image to v13.118.1 (main) ( #46894 ) ( 214c5f3 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.13.0 (main) ( #46891 ) ( 43b9758 ) deps: update dependency uv to v0.13.0 (main) ( #46892 ) ( 395bca1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.12.0",
