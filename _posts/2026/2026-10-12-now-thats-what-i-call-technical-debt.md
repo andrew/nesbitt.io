@@ -7,6 +7,7 @@ tags:
   - open-source
   - ai
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mxoxa3dlnk2t"
 ---
 
 > “I haven’t listened to it, but you’re absolutely right to release it.”

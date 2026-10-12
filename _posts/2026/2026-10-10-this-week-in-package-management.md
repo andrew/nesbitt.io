@@ -6,6 +6,7 @@ description: "Releases, advisories, and articles from across the package managem
 tags:
   - package-managers
   - weekly
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mxoxa2vmxq27"
 ---
 
 This week's package management news, gathered from the [package manager OPML feed collection](https://github.com/ecosyste-ms/package-managers-opml), my posts and boosts on [Mastodon](https://mastodon.social/@andrewnez), and anything people sent me. The collection now includes the [vlt blog](https://www.vlt.io/blog) and [vlt CLI releases](https://github.com/vltpkg/vltpkg/releases).
