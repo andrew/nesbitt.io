@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T16:33:54Z",
-  "cutoff": "2026-09-12T16:33:46Z",
+  "generated": "2026-10-12T17:31:55Z",
+  "cutoff": "2026-09-12T17:31:42Z",
   "feed_count": 104,
   "item_count": 299,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.154.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.154.1",
+      "published": "2026-10-12T17:00:24Z",
+      "preview": "44.154.1 (2026-10-12) Bug Fixes manager/github-actions: handle digest pinned renovate-image ( #46970 ) ( bbe08af ), closes #46969",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.154.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.154.0",
@@ -123,14 +131,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.1",
       "published": "2026-10-12T00:52:30Z",
       "preview": "44.151.1 (2026-10-12) Bug Fixes deps: update renovate-base-image to v13.119.1 (main) ( #46928 ) ( 0f8d9f6 ) Documentation update references to python to b9767f5 (main) ( #46927 ) ( f9f131c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.151.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.0",
-      "published": "2026-10-11T18:46:11Z",
-      "preview": "44.151.0 (2026-10-11) Features deps: update renovate-base-image to v13.119.0 (main) ( #46921 ) ( 0fe85b0 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.31.2 (main) ( #46917 ) ( 2fa8494 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
