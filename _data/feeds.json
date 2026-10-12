@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T14:41:49Z",
-  "cutoff": "2026-09-12T14:41:44Z",
+  "generated": "2026-10-12T15:34:06Z",
+  "cutoff": "2026-09-12T15:34:00Z",
   "feed_count": 104,
   "item_count": 299,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.153.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.153.0",
+      "published": "2026-10-12T15:15:48Z",
+      "preview": "44.153.0 (2026-10-12) Features manager/apm: scope per-package tags to their own package ( #46737 ) ( 7a03427 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.152.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.152.0",
+      "published": "2026-10-12T14:56:39Z",
+      "preview": "44.152.0 (2026-10-12) Features datasource/devbox: update default registry URL to new search index ( #46853 ) ( 33fe146 ) deps: update renovate-base-image to v13.120.0 (main) ( #46953 ) ( 7926703 ) monorepo: add google-cloud-rust ( #43978 ) ( f782369 ) preset: add Boto group ( #43760 ) ( d91b82f ) replacements: add react-native-magic-modal to magic-modal ( #44997 ) ( d30feab ) Bug Fixes changelog: preserve dependency-specific embedded notes ( #46733 ) ( 8cbd7f5 ) config: document where PR and branch options can be used ( #46690 ) ( 9fa0c2e ), closes #43020 config: document where version lookup ",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.5.2",
       "url": "https://github.com/hexpm/hex/releases/tag/v2.5.2",
@@ -183,14 +199,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "44.149.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.149.3",
-      "published": "2026-10-10T22:44:46Z",
-      "preview": "44.149.3 (2026-10-10) Bug Fixes deps: update renovate-base-image to v13.118.2 (main) ( #46910 ) ( dfbf52d ) Documentation github: group App permissions by repository and organization ( #46898 ) ( 05c7494 ) Miscellaneous Chores deps: update dependency pnpm to v11.28.4 (main) ( #46907 ) ( 0d357aa ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.31.1 (main) ( #46908 ) ( 324e6a1 ) deps: update pnpm/setup action to v3.1.1 (main) ( #46906 ) ( f52a8ae ) tools: allow ambient environment in agent hook simple-git ( #46899 ) ( 3fc4836 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "1.17.13",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.13",
       "published": "2026-10-10T21:20:49Z",
@@ -221,14 +229,6 @@
       "preview": "Insert 8.1.0.5 into main on 10/10/2026 12:34:36",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.149.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.149.2",
-      "published": "2026-10-10T11:08:35Z",
-      "preview": "44.149.2 (2026-10-10) Bug Fixes cache: build all cache keys with a shared helper ( #46811 ) ( f64ec39 ) datasource: cache the digest per ref ( #46819 ) ( 182de27 ) Miscellaneous Chores deps: update astral-sh/setup-uv action to v10.3.0 (main) ( #46893 ) ( 0f667f9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-08-a",
