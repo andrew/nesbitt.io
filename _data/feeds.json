@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T07:58:32Z",
-  "cutoff": "2026-09-12T07:58:24Z",
+  "generated": "2026-10-12T09:50:41Z",
+  "cutoff": "2026-09-12T09:50:34Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-12T09:20:54Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.151.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.3",
+      "published": "2026-10-12T08:57:37Z",
+      "preview": "44.151.3 (2026-10-12) Bug Fixes datasource/gitlab-tags: don't cache failed digest lookups ( #46904 ) ( fdedac1 ) datasource/gitlab-tags: encode the ref of digest lookups ( #46905 ) ( a551698 ) Documentation update references to astral-sh/setup-uv to v10.3.0 (main) ( #46932 ) ( b28f4eb ) update references to jaegertracing/jaeger to v2.22.0 (main) ( #46934 ) ( cb8a6d6 ) update references to renovatebot/github-action to v46.3.8 (main) ( #46931 ) ( 9c127ee ) Miscellaneous Chores deps: update ossf/scorecard-action action to v2.5.0 (main) ( #46933 ) ( fa41347 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.17.14",
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.14",
@@ -61,14 +77,6 @@
       "preview": "44.151.0 (2026-10-11) Features deps: update renovate-base-image to v13.119.0 (main) ( #46921 ) ( 0fe85b0 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.31.2 (main) ( #46917 ) ( 2fa8494 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-11T16:29:10Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "44.150.1",
@@ -301,14 +309,6 @@
       "preview": "Putting ourselves in the best place to build the future of the web",
       "source": "Deno Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.148.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.6",
-      "published": "2026-10-09T14:13:37Z",
-      "preview": "44.148.6 (2026-10-09) Bug Fixes deps: update renovate-base-image to v13.117.4 (main) ( #46870 ) ( fd065f2 ) platform/azure: hash the full PR description in getPr ( #46872 ) ( 105dc2e ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.31.0 (main) ( #46875 ) ( f4c5ff9 ) Build System deps: update dependency ignore to v7.0.12 (main) ( #46873 ) ( 58d4e23 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "8.1.0.2",
