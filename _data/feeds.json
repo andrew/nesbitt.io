@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-12T18:38:55Z",
-  "cutoff": "2026-09-12T18:38:51Z",
+  "generated": "2026-10-12T19:28:26Z",
+  "cutoff": "2026-09-12T19:28:15Z",
   "feed_count": 104,
-  "item_count": 299,
+  "item_count": 300,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.155.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.1",
+      "published": "2026-10-12T18:56:38Z",
+      "preview": "44.155.1 (2026-10-12) Bug Fixes deps: update renovate-base-image to v13.121.1 (main) ( #46973 ) ( 43eb367 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.32.1 (main) ( #46972 ) ( 9947ade )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v0.400.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.400.0",
+      "published": "2026-10-12T18:43:22Z",
+      "preview": "What's Changed Type Python registry distribution metadata by @JamieMagee in #16466 Maven: only propose updates with writable requirements by @v-kbukum1 in #16465 Support Bun 1.4 and lockfile versions 2 and 3 by @v-sachin-sandhu in #16485 Maven: reliable dependency tree scan behind maven_transitive_dependencies by @v-kbukum1 in #16487 Classify unchanged dependency files with typed error by @v-thavaahariharangit in #16495 Enable experimental Sorbet checking for common specs by @JamieMagee in #16469 Make dry-run exit non-zero when it handles errors by @lacostej in #16298 julia: explain a <0.0.1 b",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.155.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.0",
@@ -125,14 +141,6 @@
       "preview": "Patch Changes 97f550c : Switching to the pnpm version in packageManager now works through registry mirrors that strip npm's signatures or re-sign packages with their own key. pnpm then reads the signature from https://registry.npmjs.org/ and verifies it against the integrity of the downloaded pnpm #16778 . b11d7bb : The update notification now suggests the standalone install script instead of pnpm self-update when PNPM_HOME is not set, such as when another package manager installed pnpm. pnpm self-update installs into PNPM_HOME , so in that case it cannot replace the pnpm in use. Platinum Spon",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.151.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.2",
-      "published": "2026-10-12T01:56:41Z",
-      "preview": "44.151.2 (2026-10-12) Bug Fixes deps: update renovate-base-image to v13.119.2 (main) ( #46929 ) ( f2cc80c ) Build System deps: update dependency cronstrue to v3.29.0 (main) ( #46930 ) ( 69a4024 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-10-a",
