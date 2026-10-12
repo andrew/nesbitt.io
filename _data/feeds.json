@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-11T22:30:12Z",
-  "cutoff": "2026-09-11T22:30:06Z",
+  "generated": "2026-10-12T01:17:52Z",
+  "cutoff": "2026-09-12T01:17:46Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.151.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.1",
+      "published": "2026-10-12T00:52:30Z",
+      "preview": "44.151.1 (2026-10-12) Bug Fixes deps: update renovate-base-image to v13.119.1 (main) ( #46928 ) ( 0f8d9f6 ) Documentation update references to python to b9767f5 (main) ( #46927 ) ( f9f131c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v10.34.7",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.7",
@@ -349,14 +357,6 @@
       "preview": "This release adds Rust toolchain management, links the agent skills that dependencies ship, adds the permissions setting, and keeps the colors of streamed script output. Minor Changes pnpm install now links the agent skills that direct dependencies ship under skills/<name>/SKILL.md into the project's agent skill directories, such as .claude/skills . A package's skills are linked only after you approve them with pnpm approve . The skills.dirs setting chooses the directories pnpm/rfcs#35 . Added the permissions setting, which records what each dependency may do. Its build capability works like a",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.148.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.148.4",
-      "published": "2026-10-09T04:48:18Z",
-      "preview": "44.148.4 (2026-10-09) Bug Fixes deps: update renovate-base-image to v13.117.3 (main) ( #46861 ) ( f5669d8 ) Miscellaneous Chores deps: update dependency @types/node to v24.19.1 (main) ( #46860 ) ( b83bbcb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.15.4",
