@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T09:50:41Z",
-  "cutoff": "2026-09-12T09:50:34Z",
+  "generated": "2026-10-12T10:39:21Z",
+  "cutoff": "2026-09-12T10:39:15Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.151.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.4",
+      "published": "2026-10-12T09:51:50Z",
+      "preview": "44.151.4 (2026-10-12) Bug Fixes config/validation: don't warn about a restricted option encrypted at the top level ( #46941 ) ( 67fa755 ), closes #43020 json-schema: specify missing additionalProperties for maps of values ( #46681 ) ( df8fe3d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -293,14 +301,6 @@
       "preview": "This release fixes --workspace-concurrency=Infinity , filters set by an updateConfig hook, and store fetches with enable-modules-dir=false . Patch Changes --workspace-concurrency=Infinity now runs workspace projects with no concurrency limit. It used to fail with invalid digit found in string #16793 . pnpm install and other recursive commands now apply the filter and filterProd that an updateConfig hook sets. They used to run on every workspace project #16792 . enable-modules-dir=false now also fetches the packages an install reuses from an existing lockfile, so the store holds every package t",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.149.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.149.0",
-      "published": "2026-10-09T15:45:52Z",
-      "preview": "44.149.0 (2026-10-09) Features deps: update renovate-base-image to v13.118.0 (main) ( #46886 ) ( a7c19e4 ) Documentation docker-build-process: remove Containerbase Sidecar image ( #46880 ) ( 05ec2f8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Deno is joining Cloudflare",
