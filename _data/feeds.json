@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12T02:55:14Z",
-  "cutoff": "2026-09-12T02:55:07Z",
+  "generated": "2026-10-12T07:08:56Z",
+  "cutoff": "2026-09-12T07:08:50Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -23,6 +23,22 @@
   ],
   "items": [
     {
+      "title": "1.17.14",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.14",
+      "published": "2026-10-12T06:59:08Z",
+      "preview": "Release 1.17.14",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "pnpm 10.34.7",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.7",
+      "published": "2026-10-12T06:05:46Z",
+      "preview": "Patch Changes 97f550c : Switching to the pnpm version in packageManager now works through registry mirrors that strip npm's signatures or re-sign packages with their own key. pnpm then reads the signature from https://registry.npmjs.org/ and verifies it against the integrity of the downloaded pnpm #16778 . b11d7bb : The update notification now suggests the standalone install script instead of pnpm self-update when PNPM_HOME is not set, such as when another package manager installed pnpm. pnpm self-update installs into PNPM_HOME , so in that case it cannot replace the pnpm in use. Platinum Spon",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "44.151.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.2",
       "published": "2026-10-12T01:56:41Z",
@@ -37,14 +53,6 @@
       "preview": "44.151.1 (2026-10-12) Bug Fixes deps: update renovate-base-image to v13.119.1 (main) ( #46928 ) ( 0f8d9f6 ) Documentation update references to python to b9767f5 (main) ( #46927 ) ( f9f131c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v10.34.7",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.7",
-      "published": "2026-10-11T22:04:04Z",
-      "preview": "=v10.34.7",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "44.151.0",
@@ -2021,14 +2029,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-17-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "1.17.4",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.4",
-      "published": "2026-09-18T23:32:26Z",
-      "preview": "What's Changed fix(upgrade): don't claim 'latest version' for local-path installs by @DawnofGenX in #2041 New Contributors @DawnofGenX made their first contribution in #2041 Full Changelog : 1.17.3...1.17.4",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "0.12.17",
