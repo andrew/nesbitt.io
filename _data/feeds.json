@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-12T13:51:31Z",
-  "cutoff": "2026-09-12T13:51:20Z",
+  "generated": "2026-10-12T14:41:49Z",
+  "cutoff": "2026-09-12T14:41:44Z",
   "feed_count": 104,
-  "item_count": 298,
+  "item_count": 299,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.5.2",
+      "url": "https://github.com/hexpm/hex/releases/tag/v2.5.2",
+      "published": "2026-10-12T14:33:42Z",
+      "preview": "Bug fixes Fail with the download error instead of crashing in mix hex.package fetch when the version isn't in the registry but a copy of it is cached Fetch the docs of organization packages in mix.lock with mix hex.docs fetch . They were requested from an organization named after the repository, such as hexpm:myorg , and never found. Packages from other repositories are skipped with a warning Reject package and organization names that hex.pm doesn't accept and invalid versions in mix hex.docs . A version such as 1.0.0/../../x on the command line or in mix.lock made mix hex.docs fetch write doc",
+      "source": "Hex releases",
+      "category": "Elixir"
+    },
     {
       "title": "44.151.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.5",
@@ -791,6 +799,30 @@
       "category": ".NET"
     },
     {
+      "title": "SDK-3.14.0-312.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-312.0.dev",
+      "published": "2026-10-07T04:26:24Z",
+      "preview": "SDK 3.14.0-312.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-311.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-311.0.dev",
+      "published": "2026-10-07T04:26:21Z",
+      "preview": "SDK 3.14.0-311.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-310.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-310.0.dev",
+      "published": "2026-10-07T04:26:18Z",
+      "preview": "SDK 3.14.0-310.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
       "title": "PIE 1.5 Released",
       "url": "https://thephp.foundation/blog/2026/10/07/pie-1-5-released/",
       "published": "2026-10-07T00:00:00Z",
@@ -855,6 +887,46 @@
       "category": "JavaScript"
     },
     {
+      "title": "SDK-3.14.0-309.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-309.0.dev",
+      "published": "2026-10-06T04:59:30Z",
+      "preview": "SDK 3.14.0-309.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-308.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-308.0.dev",
+      "published": "2026-10-06T04:59:27Z",
+      "preview": "SDK 3.14.0-308.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-307.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-307.0.dev",
+      "published": "2026-10-06T04:59:25Z",
+      "preview": "SDK 3.14.0-307.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-306.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-306.0.dev",
+      "published": "2026-10-06T04:59:22Z",
+      "preview": "SDK 3.14.0-306.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-305.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-305.0.dev",
+      "published": "2026-10-06T04:59:19Z",
+      "preview": "SDK 3.14.0-305.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
       "title": "v1.3.7",
       "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.7",
       "published": "2026-10-06T04:30:37Z",
@@ -909,6 +981,22 @@
       "preview": "What's Changed test-bot: skip bottles for unsatisfiable formulae by @daeho-ro in #24104 Time out stalled cask audit downloads by @p-linnane in #24108 cask: remove pre-staged downloads when installs fail by @dergachoff in #24107 diagnostic: allowlist JPKI client dylibs by @ttsuru in #24110 shell: fish-quote the fish profile line by @rawsun007 in #24114 keg: keep versioned opt aliases that still point at an installed keg by @erikdw in #24113 docs/_layouts/base.html: fix heading permalinks by @bevanjkay in #24116 Support bumping cask versions per platform by @waldyrious in #24111 Prevent SSH prom",
       "source": "Homebrew releases",
       "category": "System"
+    },
+    {
+      "title": "SDK-3.14.0-304.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-304.0.dev",
+      "published": "2026-10-05T04:10:55Z",
+      "preview": "SDK 3.14.0-304.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
+    },
+    {
+      "title": "SDK-3.14.0-303.0.dev",
+      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-303.0.dev",
+      "published": "2026-10-04T04:24:46Z",
+      "preview": "SDK 3.14.0-303.0.dev",
+      "source": "Pub releases",
+      "category": "Registries"
     },
     {
       "title": "1.17.11",
@@ -1183,54 +1271,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "SDK-3.14.0-291.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-291.0.dev",
-      "published": "2026-10-01T04:17:33Z",
-      "preview": "SDK 3.14.0-291.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-290.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-290.0.dev",
-      "published": "2026-10-01T04:17:31Z",
-      "preview": "SDK 3.14.0-290.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-289.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-289.0.dev",
-      "published": "2026-10-01T04:17:28Z",
-      "preview": "SDK 3.14.0-289.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-288.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-288.0.dev",
-      "published": "2026-10-01T04:17:24Z",
-      "preview": "SDK 3.14.0-288.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-287.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-287.0.dev",
-      "published": "2026-10-01T04:17:22Z",
-      "preview": "SDK 3.14.0-287.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-286.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-286.0.dev",
-      "published": "2026-10-01T04:17:18Z",
-      "preview": "SDK 3.14.0-286.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
       "title": "v1.3.3",
       "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.3",
       "published": "2026-10-01T02:37:39Z",
@@ -1349,38 +1389,6 @@
       "preview": "✨ Highlights This release contains changes that may be considered breaking. Manifest authors should review: checkver GitHub mode requires explicit github: key ( #6641 ): manifests using url: with a GitHub URL for checkver must switch to github: to opt into the GitHub token path. Token usage is now scoped to explicit github mode only. checkver GitHub mode defaults changed ( #6653 ): new default jsonpath / regex for GitHub-based version checks. checkver.script behavior is affected — verify scripts still resolve the expected version. install.json / manifest.json renamed to scoop-install.json / sc",
       "source": "Scoop releases",
       "category": "System"
-    },
-    {
-      "title": "SDK-3.14.0-285.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-285.0.dev",
-      "published": "2026-09-30T04:05:45Z",
-      "preview": "SDK 3.14.0-285.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-284.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-284.0.dev",
-      "published": "2026-09-30T04:05:42Z",
-      "preview": "SDK 3.14.0-284.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-283.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-283.0.dev",
-      "published": "2026-09-30T04:05:40Z",
-      "preview": "SDK 3.14.0-283.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-282.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-282.0.dev",
-      "published": "2026-09-30T04:05:37Z",
-      "preview": "SDK 3.14.0-282.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
     },
     {
       "title": "2027 Applications for Contractors are Open",
