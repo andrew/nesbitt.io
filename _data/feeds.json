@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-13T18:39:51Z",
-  "cutoff": "2026-09-13T18:39:31Z",
+  "generated": "2026-10-13T19:27:20Z",
+  "cutoff": "2026-09-13T19:27:14Z",
   "feed_count": 104,
   "item_count": 304,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.155.8",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.8",
+      "published": "2026-10-13T18:52:44Z",
+      "preview": "44.155.8 (2026-10-13) Build System deps: update dependency cronstrue to v3.30.0 (main) ( #47021 ) ( 754c581 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.155.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.7",
@@ -259,14 +267,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.154.1",
       "published": "2026-10-12T17:00:24Z",
       "preview": "44.154.1 (2026-10-12) Bug Fixes manager/github-actions: handle digest pinned renovate-image ( #46970 ) ( bbe08af ), closes #46969",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.154.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.154.0",
-      "published": "2026-10-12T16:29:43Z",
-      "preview": "44.154.0 (2026-10-12) Features datasource/rpm: support zstd compressed \"primary\" files ( #46372 ) ( 911b681 ) Bug Fixes workers/global: apply hostRules and internalHostAccess when resolving globalExtends ( #46666 ) ( cf46a67 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
