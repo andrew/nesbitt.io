@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-13T19:27:20Z",
-  "cutoff": "2026-09-13T19:27:14Z",
+  "generated": "2026-10-13T20:31:47Z",
+  "cutoff": "2026-09-13T20:31:42Z",
   "feed_count": 104,
   "item_count": 304,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.155.9",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.9",
+      "published": "2026-10-13T19:56:10Z",
+      "preview": "44.155.9 (2026-10-13) Bug Fixes deps: update renovate-base-image to v13.121.2 (main) ( #47022 ) ( 6a2c690 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.155.8",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.8",
@@ -259,14 +267,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.0",
       "published": "2026-10-12T17:49:04Z",
       "preview": "44.155.0 (2026-10-12) Features deps: update renovate-base-image to v13.121.0 (main) ( #46971 ) ( b09bb63 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.154.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.154.1",
-      "published": "2026-10-12T17:00:24Z",
-      "preview": "44.154.1 (2026-10-12) Bug Fixes manager/github-actions: handle digest pinned renovate-image ( #46970 ) ( bbe08af ), closes #46969",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
