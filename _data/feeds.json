@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-13T07:45:53Z",
-  "cutoff": "2026-09-13T07:45:47Z",
+  "generated": "2026-10-13T08:46:26Z",
+  "cutoff": "2026-09-13T08:46:19Z",
   "feed_count": 104,
   "item_count": 302,
   "categories": [
@@ -23,10 +23,18 @@
   ],
   "items": [
     {
-      "title": "v12.13.0",
+      "title": "44.155.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.2",
+      "published": "2026-10-13T08:35:15Z",
+      "preview": "44.155.2 (2026-10-13) Bug Fixes datasource/gitea-tags: return no digest for a missing repo or tag ( #46984 ) ( 690da35 ) workers/repository: keep lookup results out of the extract cache ( #46982 ) ( ad515fb ) Miscellaneous Chores deps: update dependency pnpm to v11.28.5 (main) ( #46981 ) ( 01303d3 ) deps: update dependency vite to v8.3.3 (main) ( #46980 ) ( bc14d80 ) deps: update python docker tag to v3.15.0 (main) ( #46979 ) ( 08721b7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 12.13.0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.13.0",
-      "published": "2026-10-13T07:26:44Z",
-      "preview": "=12.13.0",
+      "published": "2026-10-13T08:32:10Z",
+      "preview": "This release adds the pnpm profile and pnpm token commands, the storeIndexFormat: files setting for stores shared over a network filesystem, and faster Python dependency resolution. Minor Changes Added the pnpm profile command to view and update registry user profile settings. Added pnpm token to list, create, and revoke authentication tokens on the registry. Added the storeIndexFormat setting. Set it to files to keep a store's package index as one file per package instead of the SQLite index.db , for a store on a network filesystem that several machines use at once. SQLite's locking does not ",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -45,6 +53,14 @@
       "preview": "MacPorts 2.12.7",
       "source": "MacPorts releases",
       "category": "System"
+    },
+    {
+      "title": "pnpm 12.13.0",
+      "url": "https://pnpm.io/blog/releases/12.13.0",
+      "published": "2026-10-13T00:00:00Z",
+      "preview": "This release adds the pnpm profile and pnpm token commands, the storeIndexFormat: files setting for stores shared over a network filesystem, and faster Python dependency resolution.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "v6.1.4",
@@ -157,14 +173,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.151.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.3",
-      "published": "2026-10-12T08:57:37Z",
-      "preview": "44.151.3 (2026-10-12) Bug Fixes datasource/gitlab-tags: don't cache failed digest lookups ( #46904 ) ( fdedac1 ) datasource/gitlab-tags: encode the ref of digest lookups ( #46905 ) ( a551698 ) Documentation update references to astral-sh/setup-uv to v10.3.0 (main) ( #46932 ) ( b28f4eb ) update references to jaegertracing/jaeger to v2.22.0 (main) ( #46934 ) ( cb8a6d6 ) update references to renovatebot/github-action to v46.3.8 (main) ( #46931 ) ( 9c127ee ) Miscellaneous Chores deps: update ossf/scorecard-action action to v2.5.0 (main) ( #46933 ) ( fa41347 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.17.14",
@@ -2429,14 +2437,6 @@
       "preview": null,
       "source": "Pkg.jl releases",
       "category": "Registries"
-    },
-    {
-      "title": "7.0.0",
-      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.0",
-      "published": "2026-09-13T08:30:11Z",
-      "preview": "What's Changed Make macOS installer package Apple Silicon only by @MikeMcQuaid in #23779 Forbid T.must and T.unsafe with RuboCop by @MikeMcQuaid in #23787 Warn (don't error) on unavailable Linux sandbox in brew tests by @waldyrious in #23782 Add std_shards_args and update creator for crystal by @cho-m in #23790 cask/audit: fix repo names ending in git by @krehel in #23796 Stop brew tests dirtying the working tree by @dduugg in #23800 Attest supported third-party tap bottles by @heaths in #23769 shared_audits: check homepage domain age via RDAP by @bevanjkay in #23752 Escape dots in domain rege",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
