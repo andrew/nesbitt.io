@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [Now That’s What I Call Technical Debt!](https://nesbitt.io/2026/10/12/now-thats-what-i-call-technical-debt.html)
 - [This Week in Package Management: 10 October 2026](https://nesbitt.io/2026/10/10/this-week-in-package-management.html)
 - [Package Management RFCs](https://nesbitt.io/2026/10/07/package-management-rfcs.html)
 - [This Week in Package Management: 3 October 2026](https://nesbitt.io/2026/10/03/this-week-in-package-management.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Package Manager Threat Model, Revisited](https://nesbitt.io/2026/09/22/package-manager-threat-model-revisited.html)
 - [Unfinished Work in Package Security](https://nesbitt.io/2026/09/22/unfinished-work-in-package-security.html)
 - [This Week in Package Management: 19 September 2026](https://nesbitt.io/2026/09/19/this-week-in-package-management.html)
-- [Good Morning, Your Toaster Is Compromised](https://nesbitt.io/2026/09/17/good-morning-your-toaster-is-compromised.html)
 <!-- POSTS:END -->
