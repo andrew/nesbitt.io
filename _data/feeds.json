@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-13T01:13:36Z",
-  "cutoff": "2026-09-13T01:13:21Z",
+  "generated": "2026-10-13T06:54:05Z",
+  "cutoff": "2026-09-13T06:53:59Z",
   "feed_count": 104,
-  "item_count": 300,
+  "item_count": 302,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.14.6-rc1",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.6-rc1",
+      "published": "2026-10-13T05:58:55Z",
+      "preview": "What's Changed Component updates ⬆️ bump base version for v2.14.6 by @wy65701436 in #24115 Release 2.14 bump go trivy distribution by @wy65701436 in #24122 fix(webhook): allow private network access by default ( #24082 ) by @wy65701436 in #24129 fix(prepare): expose the legacy signer pull switch in harbor.yml ( #24 … by @wy65701436 in #24130 Cherry pick upload location origin 2.14 ( #24114 ) by @wy65701436 in #24131 fix(contenttrust): allow legacy signer pull by default to avoid regre… by @wy65701436 in #24132 Full Changelog : v2.14.5...v2.14.6-rc1",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2.12.7",
+      "url": "https://github.com/macports/macports-base/releases/tag/v2.12.7",
+      "published": "2026-10-13T02:46:27Z",
+      "preview": "MacPorts 2.12.7",
+      "source": "MacPorts releases",
+      "category": "System"
+    },
     {
       "title": "v6.1.4",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.4",
