@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-13T14:36:49Z",
-  "cutoff": "2026-09-13T14:36:42Z",
+  "generated": "2026-10-13T15:33:32Z",
+  "cutoff": "2026-09-13T15:33:23Z",
   "feed_count": 104,
-  "item_count": 304,
+  "item_count": 308,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "vlt outdated",
+      "url": "https://vlt.io/blog/vlt-outdated",
+      "published": "2026-10-13T16:00:00Z",
+      "preview": "We shipped the \"vlt outdated\" command. Find out what packages need upgrading and if you're vulnerable.",
+      "source": "vlt Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.155.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.4",
+      "published": "2026-10-13T14:54:20Z",
+      "preview": "44.155.4 (2026-10-13) Build System deps: update opentelemetry-js monorepo (main) ( #47008 ) ( e6e03fd )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.10.9: path: tool versions require trust; apt repositories, login items and run0/doas in bootstrap",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.9",
+      "published": "2026-10-13T14:53:38Z",
+      "preview": "This release fixes a trust bypass: an untrusted path: tool version could put a directory on PATH . It also adds several bootstrap features: apt repositories and PPAs, macOS login items, rpm-ostree layering on Fedora Atomic, and run0 / doas support. Beyond that, it improves mise dot status , adds GitHub OAuth conveniences, and fixes problems across npm, prune, brew and dotfiles sync. Security path: tool versions now require trust. Before, an untrusted repository could ship node path:./local in .tool-versions or mise.toml . mise activate would then put ./local/bin ahead of your PATH on the next ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "2.28.8",
+      "url": "https://github.com/NixOS/nix/releases/tag/2.28.8",
+      "published": "2026-10-13T14:45:13Z",
+      "preview": "Tagging release 2.28.8",
+      "source": "Nix releases",
+      "category": "System"
+    },
+    {
+      "title": "2.30.6",
+      "url": "https://github.com/NixOS/nix/releases/tag/2.30.6",
+      "published": "2026-10-13T14:42:41Z",
+      "preview": "Tagging release 2.30.6",
+      "source": "Nix releases",
+      "category": "System"
+    },
+    {
+      "title": "2.34.9",
+      "url": "https://github.com/NixOS/nix/releases/tag/2.34.9",
+      "published": "2026-10-13T14:40:30Z",
+      "preview": "Tagging release 2.34.9",
+      "source": "Nix releases",
+      "category": "System"
+    },
     {
       "title": "2.31.6",
       "url": "https://github.com/NixOS/nix/releases/tag/2.31.6",
@@ -53,14 +101,6 @@
       "preview": "44.155.3 (2026-10-13) Bug Fixes workers/reconfigure: pass default branch to extraction config ( #46997 ) ( 5a3bfc0 ) Documentation Correct platform feature support table for Dependency Dashboard ( #46777 ) ( 109fc99 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.10.9",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.9",
-      "published": "2026-10-13T13:01:16Z",
-      "preview": "(bootstrap) add apt repositories and PPAs with [bootstrap.apt.s…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "aqua-registry-v2026.10.1",
@@ -237,14 +277,6 @@
       "preview": "Bug fixes Fail with the download error instead of crashing in mix hex.package fetch when the version isn't in the registry but a copy of it is cached Fetch the docs of organization packages in mix.lock with mix hex.docs fetch . They were requested from an organization named after the repository, such as hexpm:myorg , and never found. Packages from other repositories are skipped with a warning Reject package and organization names that hex.pm doesn't accept and invalid versions in mix hex.docs . A version such as 1.0.0/../../x on the command line or in mix.lock made mix hex.docs fetch write doc",
       "source": "Hex releases",
       "category": "Elixir"
-    },
-    {
-      "title": "44.151.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.5",
-      "published": "2026-10-12T11:33:00Z",
-      "preview": "44.151.5 (2026-10-12) Bug Fixes config/validation: improve message when invalid location for option ( #46682 ) ( 736dad8 ), closes #43020 json-schema: declare child options which get validated ( #46674 ) ( c1ba0f0 ) json-schema: restrict all known object properties keys ( #46945 ) ( c48a9b6 ) Code Refactoring config: describe where an option can be used with scopes ( #46675 ) ( 92ef4c7 ), closes #43020 platform/gitea: build the pr cache synced key with the cache key helper ( #46939 ) ( b8f5027 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "cabal-head",
