@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-13T13:41:30Z",
-  "cutoff": "2026-09-13T13:41:24Z",
+  "generated": "2026-10-13T14:36:49Z",
+  "cutoff": "2026-09-13T14:36:42Z",
   "feed_count": 104,
-  "item_count": 302,
+  "item_count": 304,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.31.6",
+      "url": "https://github.com/NixOS/nix/releases/tag/2.31.6",
+      "published": "2026-10-13T14:34:14Z",
+      "preview": "Tagging release 2.31.6",
+      "source": "Nix releases",
+      "category": "System"
+    },
+    {
+      "title": "2.35.3",
+      "url": "https://github.com/NixOS/nix/releases/tag/2.35.3",
+      "published": "2026-10-13T14:30:51Z",
+      "preview": "Tagging release 2.35.3",
+      "source": "Nix releases",
+      "category": "System"
+    },
+    {
+      "title": "20261013t134500-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261013t134500-all",
+      "published": "2026-10-13T13:45:49Z",
+      "preview": "Deployment at 2026-10-13T13:45:47.280708Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.155.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.3",
+      "published": "2026-10-13T13:42:42Z",
+      "preview": "44.155.3 (2026-10-13) Bug Fixes workers/reconfigure: pass default branch to extraction config ( #46997 ) ( 5a3bfc0 ) Documentation Correct platform feature support table for Dependency Dashboard ( #46777 ) ( 109fc99 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.10.9",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.9",
@@ -211,14 +243,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.5",
       "published": "2026-10-12T11:33:00Z",
       "preview": "44.151.5 (2026-10-12) Bug Fixes config/validation: improve message when invalid location for option ( #46682 ) ( 736dad8 ), closes #43020 json-schema: declare child options which get validated ( #46674 ) ( c1ba0f0 ) json-schema: restrict all known object properties keys ( #46945 ) ( c48a9b6 ) Code Refactoring config: describe where an option can be used with scopes ( #46675 ) ( 92ef4c7 ), closes #43020 platform/gitea: build the pr cache synced key with the cache key helper ( #46939 ) ( b8f5027 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.151.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.151.4",
-      "published": "2026-10-12T09:51:50Z",
-      "preview": "44.151.4 (2026-10-12) Bug Fixes config/validation: don't warn about a restricted option encrypted at the top level ( #46941 ) ( 67fa755 ), closes #43020 json-schema: specify missing additionalProperties for maps of values ( #46681 ) ( df8fe3d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -2325,14 +2349,6 @@
       "preview": "[0.81.0] - 2026-09-15 ✨ Highlights pixi run --script can now run conda-script files directly from HTTP or HTTPS URLs, including GitHub Gists. Pixi downloads the script, reuses its cached environment, and runs it without requiring a local file. Added Add remote url support to conda-script by @ruben-arts in #6981 Add PrefixPlatformMismatchError for source build prefixes by @hunger in #6984 Show the build platform of nested derived environments by @hunger in #6987 Changed Track the platform of a derived environment explicitly by @hunger in #6985 Keep nested derived environments on the build platf",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "20260915t121500-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260915t121500-all",
-      "published": "2026-09-15T12:15:24Z",
-      "preview": "Deployment at 2026-09-15T12:15:22.786265Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     },
     {
       "title": "A month of vlt CLI updates",
