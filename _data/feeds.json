@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-13T16:35:50Z",
-  "cutoff": "2026-09-13T16:35:43Z",
+  "generated": "2026-10-13T17:30:25Z",
+  "cutoff": "2026-09-13T17:30:17Z",
   "feed_count": 104,
   "item_count": 304,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.155.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.6",
+      "published": "2026-10-13T16:58:18Z",
+      "preview": "44.155.6 (2026-10-13) Bug Fixes deps: override transitive dependencies flagged by pnpm audit ( #46996 ) ( 66c56b5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "vlt outdated",
       "url": "https://vlt.io/blog/vlt-outdated",
@@ -259,14 +267,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.153.1",
       "published": "2026-10-12T15:42:14Z",
       "preview": "44.153.1 (2026-10-12) Bug Fixes metadata: strip git+ scheme prefix from source urls for changelog fetching ( #45941 ) ( 476456b ) platform/github: replace rendered alerts after smart truncation ( #45613 ) ( 179f69c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.153.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.153.0",
-      "published": "2026-10-12T15:15:48Z",
-      "preview": "44.153.0 (2026-10-12) Features manager/apm: scope per-package tags to their own package ( #46737 ) ( 7a03427 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
