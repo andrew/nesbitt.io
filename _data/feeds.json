@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-13T06:54:05Z",
-  "cutoff": "2026-09-13T06:53:59Z",
+  "generated": "2026-10-13T07:45:53Z",
+  "cutoff": "2026-09-13T07:45:47Z",
   "feed_count": 104,
   "item_count": 302,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.13.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.13.0",
+      "published": "2026-10-13T07:26:44Z",
+      "preview": "=12.13.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v2.14.6-rc1",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.6-rc1",
@@ -909,14 +917,6 @@
       "preview": "Deployment at 2026-10-06T10:47:43.531853Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 11.28.5",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.5",
-      "published": "2026-10-06T05:27:13Z",
-      "preview": "This release reads cached registry metadata faster and makes pnpm config get --global ignore project settings. It also carries several security fixes for package archives, git dependencies, and config dependencies. Patch Changes Security pnpm now verifies locked config dependencies against their registry before installing them. Config dependencies must come from an npm registry. The lockfile can no longer replace the integrity of a config dependency pinned with version+integrity . Lockfile verification now checks the tarballs inside a variations resolution against the registry. A name@version ",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 12.10.0",
