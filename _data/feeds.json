@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-13T12:47:37Z",
-  "cutoff": "2026-09-13T12:47:32Z",
+  "generated": "2026-10-13T13:41:30Z",
+  "cutoff": "2026-09-13T13:41:24Z",
   "feed_count": 104,
   "item_count": 302,
   "categories": [
@@ -22,6 +22,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.9",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.9",
+      "published": "2026-10-13T13:01:16Z",
+      "preview": "(bootstrap) add apt repositories and PPAs with [bootstrap.apt.s…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "aqua-registry-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.10.1",
+      "published": "2026-10-13T13:00:47Z",
+      "preview": "Release aqua-registry 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.9",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.9",
+      "published": "2026-10-13T13:00:39Z",
+      "preview": "Release vfox 2026.10.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-brew-metadata-v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-brew-metadata-v2026.10.2",
+      "published": "2026-10-13T13:00:19Z",
+      "preview": "Release mise-brew-metadata 2026.10.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.9",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.9",
+      "published": "2026-10-13T13:00:12Z",
+      "preview": "Release mise-util 2026.10.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.9",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.9",
+      "published": "2026-10-13T12:59:52Z",
+      "preview": "Release mise-settings 2026.10.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "8.1.0.8",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.1.0.8",
@@ -327,30 +375,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "v2026.10.7: Background tool updates at the shell prompt, a verified download cache, and `mise upgrade --global`",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.7",
-      "published": "2026-10-09T23:43:50Z",
-      "preview": "Tools with auto_update now update in the background from an activated shell, and a new tool_update.global_auto setting turns this on for every global tool. mise also keeps finished downloads in a content-addressed cache and checks them again before reusing them. This release also fixes .env parsing regressions from 2026.10.3 and a crash in mise run . Added Automatic updates at the shell prompt. Before, auto_update only ran when a shim or mise exec launched a tool. With mise activate , tools run straight from PATH , so they were never updated. Now, when a check is due, mise hook-env starts the ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.10.7",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.7",
-      "published": "2026-10-09T22:10:40Z",
-      "preview": "Release vfox 2026.10.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.7",
-      "published": "2026-10-09T22:10:12Z",
-      "preview": "Release mise-util 2026.10.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v10.3.0 🌈 Add Python architecture selection",
       "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.3.0",
       "published": "2026-10-09T20:41:00Z",
@@ -399,36 +423,12 @@
       "category": "JavaScript"
     },
     {
-      "title": "v2026.10.6: Per-machine [vars] prompts, local config includes, and working-tree changes in --affected",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.6",
-      "published": "2026-10-09T10:12:33Z",
-      "preview": "[vars] entries can now ask once per machine and remember the answer, include accepts local files, and mise run --affected now counts uncommitted work and no longer needs experimental = true . On a fresh machine, mise bootstrap can install git and ssh before it clones. The release also fixes several dotfiles history issues and stops lazy tools from triggering remote version lookups when something else launches. Added Per-machine [vars] prompts. Give a var a prompt , plus either a default or required . mise asks for it once and saves the answer in $MISE_STATE_DIR/vars.toml , outside your config ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-07-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-07-a",
       "published": "2026-10-09T09:03:31Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-07-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "vfox-v2026.10.6",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.6",
-      "published": "2026-10-09T08:40:46Z",
-      "preview": "Release vfox 2026.10.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.6",
-      "published": "2026-10-09T08:40:30Z",
-      "preview": "Release mise-util 2026.10.6",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "pnpm 12.11.0",
