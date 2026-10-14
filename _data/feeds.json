@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-14T22:26:48Z",
-  "cutoff": "2026-09-14T22:26:39Z",
+  "generated": "2026-10-14T23:26:17Z",
+  "cutoff": "2026-09-14T23:26:11Z",
   "feed_count": 104,
   "item_count": 311,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.4.0",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.4.0",
+      "published": "2026-10-14T23:24:05Z",
+      "preview": "What's Changed tar: use cloneFile API on mac via node:ffi by @evert in #1925 cli-sdk: guard against colliding spec prefix aliases by @ruyadorno in #1973 workspaces: read pnpm-workspace.yaml packages by @ruyadorno in #1974 fast-split: fix benchmark, fast path for limit 2 and 3 by @ruyadorno in #1975 cli-sdk: add save-types to save matching types by @ruyadorno in #1976 cli-sdk: abort pending requests on error instead of process.exit by @ruyadorno in #1977 cli-sdk: run --scope targets in dependency order by @ruyadorno in #1978 [www] - Docs: add more agent support by @ejkorol in #1997 graph: make ",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.160.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.160.1",
+      "published": "2026-10-14T23:00:03Z",
+      "preview": "44.160.1 (2026-10-14) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.39.0 (main) ( #47055 ) ( 69e9441 ) Build System deps: update dependency google-auth-library to v11.2.0 (main) ( #47056 ) ( e2c5336 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.5.3",
       "url": "https://github.com/hexpm/hex/releases/tag/v2.5.3",
@@ -187,14 +203,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.156.3",
       "published": "2026-10-14T11:42:36Z",
       "preview": "44.156.3 (2026-10-14) Bug Fixes datasource/go: treat modules with go host rule credentials as private ( #47031 ) ( 28ed2ee )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.156.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.156.2",
-      "published": "2026-10-14T11:20:14Z",
-      "preview": "44.156.2 (2026-10-14) Bug Fixes config: document where mode can be used ( #46697 ) ( 9ccdc69 ), closes #43020 config: document where our artifact update options can be used ( #46699 ) ( 3fe646d ), closes #43020 config: document where our issue-only options can be used ( #46698 ) ( ead1d7e ), closes #43020 Tests json-schema: extend timeout in tests ( #47028 ) ( a9e3dbe )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1893,14 +1901,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-23-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "v1.2.0",
-      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.2.0",
-      "published": "2026-09-25T06:18:16Z",
-      "preview": "What's Changed Centralize / cache capabilities doc by @evert in #1875 Use the ?stable filter to get smaller packuments for faster installs by @evert in #1876 Make tests succeed under Node 26 by @evert in #1880 docs: update publishing docs by @ejkorol in #1881 Better error messaging when token was expired or revoked by @evert in #1879 If shas are missing, get them from Repr-Digest header (if set) by @evert in #1842 chore: update tap@^21.8.0 by @ruyadorno in #1896 fix: flush cache writes before tap removes the fixture dir [ci full-matrix] by @ruyadorno in #1897 tar: add linkFromStore and global ",
-      "source": "vlt CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "0.12.19",
