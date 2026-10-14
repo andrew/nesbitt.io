@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-14T13:29:21Z",
-  "cutoff": "2026-09-14T13:28:35Z",
+  "generated": "2026-10-14T15:32:32Z",
+  "cutoff": "2026-09-14T15:32:00Z",
   "feed_count": 104,
-  "item_count": 307,
+  "item_count": 308,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.158.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.158.0",
+      "published": "2026-10-14T15:20:48Z",
+      "preview": "44.158.0 (2026-10-14) Features deps: update renovate-base-image to v13.126.0 (main) ( #47037 ) ( 1e3a80d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.157.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.157.1",
+      "published": "2026-10-14T14:34:55Z",
+      "preview": "44.157.1 (2026-10-14) Bug Fixes prune: refresh PR state before autoclosing ( #46518 ) ( 5b9a6b6 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.36.0 (main) ( #47029 ) ( b2e0191 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "pixi-build-r-v0.2.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-r-v0.2.0",
+      "published": "2026-10-14T14:08:02Z",
+      "preview": "chore(release): bump pixi-build-r to 0.2.0 ( #7271 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "2.7.5-beta-20261014",
       "url": "https://github.com/chocolatey/choco/releases/tag/2.7.5-beta-20261014",
@@ -159,6 +183,14 @@
       "category": "Ruby"
     },
     {
+      "title": "How the PHP Security Team Handles Your Reports",
+      "url": "https://thephp.foundation/blog/2026/10/14/how-the-php-security-team-handles-your-reports/",
+      "published": "2026-10-14T00:00:00Z",
+      "preview": "If you've ever sent a security report to PHP and then refreshed the advisory page every morning for three weeks, hi, this one's for you, and yes, we read it. PHP runs a large share of the web, so keeping it secure and staying responsive matters far beyond this project, and we take that seriously. There is a small group of volunteers and PHP Foundation contractors doing its best to handle security for PHP core with the limited time and resources available, and this post will show how we are going about it. Considering the significance of PHP's security to many businesses, committing financial r",
+      "source": "PHP Foundation Blog",
+      "category": "PHP"
+    },
+    {
       "title": "4.0.23 Released",
       "url": "https://blog.rubygems.org/2026/10/14/4.0.23-released.html",
       "published": "2026-10-14T00:00:00Z",
@@ -183,14 +215,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "Announcing .NET 11 Release Candidate 2",
-      "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2/",
-      "published": "2026-10-13T19:40:00Z",
-      "preview": ".NET 11 Release Candidate 2 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 2 appeared first on .NET Blog .",
-      "source": "NuGet Blog",
-      "category": ".NET"
-    },
-    {
       "title": "44.155.8",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.8",
       "published": "2026-10-13T18:52:44Z",
@@ -207,28 +231,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.155.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.6",
-      "published": "2026-10-13T16:58:18Z",
-      "preview": "44.155.6 (2026-10-13) Bug Fixes deps: override transitive dependencies flagged by pnpm audit ( #46996 ) ( 66c56b5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "vlt outdated",
       "url": "https://vlt.io/blog/vlt-outdated",
       "published": "2026-10-13T16:00:00Z",
       "preview": "We shipped the \"vlt outdated\" command. Find out what packages need upgrading and if you're vulnerable.",
       "source": "vlt Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.155.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.5",
-      "published": "2026-10-13T15:58:35Z",
-      "preview": "44.155.5 (2026-10-13) Bug Fixes http: share concurrent identical cache provider requests ( #46627 ) ( 4dc30ea )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.10.9: path: tool versions require trust; apt repositories, login items and run0/doas in bootstrap",
