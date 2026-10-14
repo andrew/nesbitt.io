@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-14T17:28:42Z",
-  "cutoff": "2026-09-14T17:28:29Z",
+  "generated": "2026-10-14T18:36:53Z",
+  "cutoff": "2026-09-14T18:36:46Z",
   "feed_count": 104,
-  "item_count": 309,
+  "item_count": 310,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Reproducible Builds in September 2026",
+      "url": "https://reproducible-builds.org/reports/2026-09/",
+      "published": "2026-10-14T18:34:14Z",
+      "preview": "Welcome to the September 2026 report from the Reproducible Builds project! In our reports, we try to outline the most important things that we have been up to over the past month. As a quick recap about what problem our project intends to solve, whilst anyone may inspect the source code of free software for malicious flaws, almost all software is distributed to end users as pre-compiled binaries. The motivation behind the reproducible builds effort is to ensure no flaws have been introduced during this compilation process by promising identical results are always generated from a given source,",
+      "source": "Reproducible Builds Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "config: v10.14.0",
+      "url": "https://github.com/npm/cli/releases/tag/config-v10.14.0",
+      "published": "2026-10-14T18:31:21Z",
+      "preview": "10.14.0 (2026-09-30) Features 1f38f64 #10056 dist-tag: support OIDC authentication ( #10056 ) (@github-actions[bot], @reggi , @Copilot) Chores 2283c1d #10036 config: isolate tests from host npmrc files ( #10015 ) ( @reggi )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.21.0",
+      "url": "https://github.com/npm/cli/releases/tag/v11.21.0",
+      "published": "2026-10-14T18:31:19Z",
+      "preview": "11.21.0 (2026-09-30) Features 1f38f64 #10056 dist-tag: support OIDC authentication ( #10056 ) (@github-actions[bot], @reggi , @Copilot) Documentation 0a8b905 #10050 update npm stage docs to reflect that it can create new packages ( #10050 ) (@github-actions[bot], @shmam , @Copilot) Dependencies workspace : @npmcli/config@10.14.0",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.158.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.158.1",
@@ -2047,14 +2071,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "libnpmfund: v7.0.27",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.27",
-      "published": "2026-09-22T21:34:49Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.9.2",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v11.20.0",
       "url": "https://github.com/npm/cli/releases/tag/v11.20.0",
       "published": "2026-09-22T21:34:44Z",
@@ -2067,14 +2083,6 @@
       "url": "https://github.com/npm/cli/releases/tag/libnpmpublish-v12.0.1",
       "published": "2026-09-22T20:21:16Z",
       "preview": "12.0.1 (2026-09-21) Bug Fixes c9876d7 #9882 provenance-file takes precedence over OIDC auto-generated provenance ( #9882 ) ( @yunseo-kim )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmfund: v8.0.3",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.3",
-      "published": "2026-09-22T20:21:14Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.3",
       "source": "npm CLI releases",
       "category": "JavaScript"
     },
