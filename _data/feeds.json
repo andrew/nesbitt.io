@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-14T15:32:32Z",
-  "cutoff": "2026-09-14T15:32:00Z",
+  "generated": "2026-10-14T16:33:37Z",
+  "cutoff": "2026-09-14T16:32:53Z",
   "feed_count": 104,
-  "item_count": 308,
+  "item_count": 310,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.12.8",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.8",
+      "published": "2026-10-14T16:20:20Z",
+      "preview": "SECURITY ADVISORIES: Previous versions of OpenTofu could potentially experience excessive CPU usage if connecting to an attacker-controlled HTTP2 server while installing dependencies in tofu init . ( #4700 ) BUG FIXES: Lifecycle destroy will no longer crash when given an expression with references ( #4648 )",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
     {
       "title": "44.158.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.158.0",
@@ -181,6 +189,14 @@
       "preview": "RubyGems 4.0.23 Enhancements: Update vendored gems to latest versions. Pull request #9948 by Hiroshi SHIBATA Drop setuid, setgid and sticky bits when extracting gems. Pull request #9929 by Hiroshi SHIBATA Improve handling of paths with invalid Windows characters. Pull request #9276 by Said Kaldybaev and Hiroshi SHIBATA Installs bundler 4.0.23 as a default gem. Bundler 4.0.23 Enhancements: Update vendored gems to latest versions. Pull request #9948 by Hiroshi SHIBATA Bug fixes: Stop retrying a 416 response to a request without Range. Pull request #9938 by Hiroshi SHIBATA Respect Gemfile lockfil",
       "source": "RubyGems releases",
       "category": "Ruby"
+    },
+    {
+      "title": "Better HTTP/1 connection reuse",
+      "url": "https://go.dev/blog/http-connection-reuse",
+      "published": "2026-10-14T00:00:00Z",
+      "preview": "Go 1.27 includes a change to the HTTP client that can make programs sending many sequential HTTP/1 requests significantly faster.",
+      "source": "Go Blog",
+      "category": "Go"
     },
     {
       "title": "How the PHP Security Team Handles Your Reports",
