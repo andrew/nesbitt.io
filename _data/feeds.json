@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-14T16:33:37Z",
-  "cutoff": "2026-09-14T16:32:53Z",
+  "generated": "2026-10-14T17:28:42Z",
+  "cutoff": "2026-09-14T17:28:29Z",
   "feed_count": 104,
-  "item_count": 310,
+  "item_count": 309,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.158.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.158.1",
+      "published": "2026-10-14T16:51:54Z",
+      "preview": "44.158.1 (2026-10-14) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.37.0 (main) ( #47039 ) ( 6970c0b ) Build System deps: update node.js to v24.22.0 (main) ( #47042 ) ( 8fb6dd6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.12.8",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.8",
@@ -235,14 +243,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.8",
       "published": "2026-10-13T18:52:44Z",
       "preview": "44.155.8 (2026-10-13) Build System deps: update dependency cronstrue to v3.30.0 (main) ( #47021 ) ( 754c581 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.155.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.7",
-      "published": "2026-10-13T17:50:18Z",
-      "preview": "44.155.7 (2026-10-13) Miscellaneous Chores deps: update dependency katex@>=0.11.0 <0.18.2 to v0.19.0 (main) ( #47018 ) ( 5c074fd ) deps: update dependency shell-quote@>=1.8.4 <1.11.0 to v1.12.0 (main) ( #47019 ) ( 7c9f750 ) Build System deps: update dependency execa to v10.1.0 (main) ( #47016 ) ( bf10afc ) deps: update opentelemetry-js-contrib monorepo (main) ( #47015 ) ( 2985b37 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -2493,14 +2493,6 @@
       "preview": "Changes since 2.12.5: Fixed potential unreliable application of network proxy settings with background fetches. (jmr in 6d9edb0 ) Fixed occasional failure to sync the PortIndex, which required portindex to run locally. (fhgwright in 928dc47 ) Added documentation for the 'none' option for 'port select'. (cvengler in 1552e82 ) Various reliability improvements for trace mode. (cal in 6dda4cc , 1db3e7f , bea36d7 )",
       "source": "MacPorts releases",
       "category": "System"
-    },
-    {
-      "title": "v0.396.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.396.0",
-      "published": "2026-09-14T17:05:38Z",
-      "preview": "What's Changed Remove fully rolled out feature flags by @ruben-pachecocaldera in #16046 build(deps): bump hcl2json to v0.6.9 by @JamieMagee in #16188 build(deps): bump PowerShell to 7.6.5 by @JamieMagee in #16189 build(deps): bump Yarn to 4.18.0 by @JamieMagee in #16187 build(deps): bump git-shim to v1.5.0 by @JamieMagee in #16186 Add shared delivery for unavailable cooldown warnings by @v-robaiken in #16142 Bump library/golang in /go_modules by @dependabot [bot] in #16097 Bump the all-actions group across 1 directory with 2 updates by @dependabot [bot] in #16198 Give the security refresh oper",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
