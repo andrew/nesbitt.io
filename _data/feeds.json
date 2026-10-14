@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-14T19:27:09Z",
-  "cutoff": "2026-09-14T19:27:03Z",
+  "generated": "2026-10-14T20:28:22Z",
+  "cutoff": "2026-09-14T20:28:17Z",
   "feed_count": 104,
   "item_count": 311,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-14T20:20:39Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.159.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.159.0",
+      "published": "2026-10-14T19:30:30Z",
+      "preview": "44.159.0 (2026-10-14) Features deps: update renovate-base-image to v13.128.0 (main) ( #47053 ) ( 7819f72 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v29.9.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.1",
+      "published": "2026-10-14T19:28:37Z",
+      "preview": "29.9.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.9.1 milestone moby/moby, 29.9.1 milestone Security The containerd update to v2.4.2 includes fixes for the following security vulnerabilities: CVE-2026-95839 : Pulling or importing an image through containerd's transfer service could crash containerd if a child descriptor contained the io.containerd.manifest.subject annotation and a malformed digest. GHSA-8647-2jxj-p2rc : An untrusted registry returning a crafted Content-Length header could crash containerd when parallel ",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "26.9.3",
       "url": "https://github.com/conda/conda/releases/tag/26.9.3",
@@ -77,14 +101,6 @@
       "preview": "11.21.0 (2026-09-30) Features 1f38f64 #10056 dist-tag: support OIDC authentication ( #10056 ) (@github-actions[bot], @reggi , @Copilot) Documentation 0a8b905 #10050 update npm stage docs to reflect that it can create new packages ( #10050 ) (@github-actions[bot], @shmam , @Copilot) Dependencies workspace : @npmcli/config@10.14.0",
       "source": "npm CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "docker-v29.9.1",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.1",
-      "published": "2026-10-14T18:29:55Z",
-      "preview": "v29.9.1",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     },
     {
       "title": "44.158.1",
@@ -231,14 +247,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "44.156.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.156.0",
-      "published": "2026-10-14T07:51:53Z",
-      "preview": "44.156.0 (2026-10-14) Features deps: update renovate-base-image to v13.122.0 (main) ( #47026 ) ( 0eb92be ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.13.1 (main) ( #47024 ) ( 53b419b ) deps: update dependency uv to v0.13.1 (main) ( #47025 ) ( 1d6dd52 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "20261014t070500-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261014t070500-all",
       "published": "2026-10-14T07:05:45Z",
@@ -285,14 +293,6 @@
       "preview": "RubyGems 4.0.23 includes enhancements and Bundler 4.0.23 includes enhancements and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.23 RubyGems Release Notes Enhancements: Update vendored gems to latest versions. Pull request #9948 by Hiroshi SHIBATA Drop setuid, setgid and sticky bits when extracting gems. Pull request #9929 by Hiroshi SHIBATA Improve handling of paths with invalid Windows characters. Pull request #9276 by Said Kaldybaev and Hiroshi SHIBATA ",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-13T20:41:45Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "vlt outdated",
