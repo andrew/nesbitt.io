@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-14T10:30:45Z",
-  "cutoff": "2026-09-14T10:30:40Z",
+  "generated": "2026-10-14T11:30:03Z",
+  "cutoff": "2026-09-14T11:29:39Z",
   "feed_count": 104,
-  "item_count": 303,
+  "item_count": 305,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.156.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.156.2",
+      "published": "2026-10-14T11:20:14Z",
+      "preview": "44.156.2 (2026-10-14) Bug Fixes config: document where mode can be used ( #46697 ) ( 9ccdc69 ), closes #43020 config: document where our artifact update options can be used ( #46699 ) ( 3fe646d ), closes #43020 config: document where our issue-only options can be used ( #46698 ) ( ead1d7e ), closes #43020 Tests json-schema: extend timeout in tests ( #47028 ) ( a9e3dbe )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "1.4.8-beta-20261014",
+      "url": "https://github.com/chocolatey/choco/releases/tag/1.4.8-beta-20261014",
+      "published": "2026-10-14T10:41:53Z",
+      "preview": "v1.4.8-beta-20261014",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
+    {
+      "title": "v1.17.0-rc2",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
+      "published": "2026-10-14T10:37:18Z",
+      "preview": "1.17.0-rc2 (October 14, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
     {
       "title": "v2026.10.10: Task skip_if, snap and COPR in bootstrap, and dotfiles pull fixes",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.10",
@@ -293,14 +317,6 @@
       "preview": "Changes since 2.12.6: Fixed error verifying signatures when multiple archive sites are configured and use different signature types. ( #74474 , pguyot in c225437 ) Fixed building with system curl on 10.5. ( #74362 , jmr in 847bfc2 )",
       "source": "MacPorts releases",
       "category": "System"
-    },
-    {
-      "title": "44.155.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.2",
-      "published": "2026-10-13T08:35:15Z",
-      "preview": "44.155.2 (2026-10-13) Bug Fixes datasource/gitea-tags: return no digest for a missing repo or tag ( #46984 ) ( 690da35 ) workers/repository: keep lookup results out of the extract cache ( #46982 ) ( ad515fb ) Miscellaneous Chores deps: update dependency pnpm to v11.28.5 (main) ( #46981 ) ( 01303d3 ) deps: update dependency vite to v8.3.3 (main) ( #46980 ) ( bc14d80 ) deps: update python docker tag to v3.15.0 (main) ( #46979 ) ( 08721b7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.13.0",
