@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-14T09:32:44Z",
-  "cutoff": "2026-09-14T09:32:37Z",
+  "generated": "2026-10-14T10:30:45Z",
+  "cutoff": "2026-09-14T10:30:40Z",
   "feed_count": 104,
   "item_count": 303,
   "categories": [
@@ -23,20 +23,28 @@
   ],
   "items": [
     {
+      "title": "v2026.10.10: Task skip_if, snap and COPR in bootstrap, and dotfiles pull fixes",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.10",
+      "published": "2026-10-14T10:11:55Z",
+      "preview": "Tasks can now skip themselves with a skip_if check, and bootstrap gains Snap packages, Fedora COPR repositories, and branch selection for --adopt . This release also fixes several mise dot pull problems that could loop, stall, or leave sharing paused on long histories. On the Windows side, it fixes .mise-bins executables and npm installs restored from a cache. Added skip_if for tasks. Before a task runs, mise runs its skip_if shell command. If the command exits 0, mise skips the task and counts it as successful. Any other exit status runs the task as usual. #14399 [ tasks . setup ] skip_if = \"",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.156.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.156.1",
+      "published": "2026-10-14T10:00:52Z",
+      "preview": "44.156.1 (2026-10-14) Bug Fixes config: document where file matching options can be used ( #46695 ) ( e79dd16 ), closes #43020 config: document where our automerge and grouping options can be used ( #46692 ) ( 415e46b ), closes #43020 config: document where rate limits can be used ( #46696 ) ( 677e621 ), closes #43020",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "v1.16.6",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
       "published": "2026-10-14T09:31:54Z",
       "preview": "1.16.6 (October 14, 2026) BUG FIXES: cloud: terraform init can now find workspaces selected by key/value tags whose keys contain uppercase letters. ( #39306 ) test: Allow module under test to use deprecated outputs. ( #39207 ) NOTES: Prevent a HTTP/2 resource exhaustion via CVE-2026-78669. Exploitation would require a compromised (untrusted) provider/module registry. Such a threat is considered to be outside the perimeter of Terraform core security guarantees. ( #39375 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "v2026.10.10",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.10",
-      "published": "2026-10-14T08:40:16Z",
-      "preview": "(bootstrap) add snap package manager by @jdx in [ #14402 ](https:…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.10.10",
@@ -333,14 +341,6 @@
       "preview": "Bugfixes Fixed an issue where Podman would not function when run under WSL 3 ( #29749 ). Fixed a bug with podman machine VMs on Mac where machines could be left in an inconsistent state if the podman machine start command was interrupted by a signal. Misc Updated gvproxy to v0.9.0, resolving CVE-2026-107935 Updated Buildah to v1.43.5 Updated Storage to v1.62.2",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.155.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.1",
-      "published": "2026-10-12T18:56:38Z",
-      "preview": "44.155.1 (2026-10-12) Bug Fixes deps: update renovate-base-image to v13.121.1 (main) ( #46973 ) ( 43eb367 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.32.1 (main) ( #46972 ) ( 9947ade )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.400.0",
