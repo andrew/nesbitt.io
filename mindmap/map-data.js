@@ -1,5 +1,5 @@
 window.mapData = {
-  "title": "Software, data & connections",
+  "title": "Software, data and connections",
   "elements": [
     {
       "data": {
