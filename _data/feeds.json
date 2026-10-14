@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-14T11:30:03Z",
-  "cutoff": "2026-09-14T11:29:39Z",
+  "generated": "2026-10-14T12:40:35Z",
+  "cutoff": "2026-09-14T12:40:21Z",
   "feed_count": 104,
   "item_count": 305,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.82.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.82.0",
+      "published": "2026-10-14T11:47:50Z",
+      "preview": "[0.82.0] - 2026-10-13 ✨ Highlights Rich platforms now support AMD GPUs with amdgpu = true to declare GPU presence or amdgpu = \"gfx90a\" to require a specific GPU architecture. pixi global now supports exclude-newer in the global manifest. Set a cutoff date or a duration such as exclude-newer = \"7d\" to exclude recently published packages from all global environments. Added Add exclude-newer to the global manifest by @Hofer-Julian in #7016 Use toml edit to modify config by @samrosenf in #6576 Automake and autoconf for ros2_canopen by @Timple in #7110 Support PIXI_WORKSPACE_ env vars, make PIXI_PR",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.156.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.156.3",
+      "published": "2026-10-14T11:42:36Z",
+      "preview": "44.156.3 (2026-10-14) Bug Fixes datasource/go: treat modules with go host rule credentials as private ( #47031 ) ( 28ed2ee )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.156.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.156.2",
@@ -253,14 +269,6 @@
       "preview": "Deployment at 2026-10-13T13:45:47.280708Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.155.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.3",
-      "published": "2026-10-13T13:42:42Z",
-      "preview": "44.155.3 (2026-10-13) Bug Fixes workers/reconfigure: pass default branch to extraction config ( #46997 ) ( 5a3bfc0 ) Documentation Correct platform feature support table for Dependency Dashboard ( #46777 ) ( 109fc99 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "aqua-registry-v2026.10.1",
@@ -2453,14 +2461,6 @@
       "preview": "What's Changed Remove fully rolled out feature flags by @ruben-pachecocaldera in #16046 build(deps): bump hcl2json to v0.6.9 by @JamieMagee in #16188 build(deps): bump PowerShell to 7.6.5 by @JamieMagee in #16189 build(deps): bump Yarn to 4.18.0 by @JamieMagee in #16187 build(deps): bump git-shim to v1.5.0 by @JamieMagee in #16186 Add shared delivery for unavailable cooldown warnings by @v-robaiken in #16142 Bump library/golang in /go_modules by @dependabot [bot] in #16097 Bump the all-actions group across 1 directory with 2 updates by @dependabot [bot] in #16198 Give the security refresh oper",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "5.4.5.0",
-      "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.5.0",
-      "published": "2026-09-14T11:47:38Z",
-      "preview": "Update translations from weblate spec: Fix shell completions paths Makefile: Add set -e to test-integration-build recipe spec: Version RPM provides Unit tests: VendorChangeManager::remove_policy_file test return value VendorChangeManager: Make remove_policy_file return removed file path Unit tests: Extend VendorChangeManager save_policy_from_* tests VendorChangeManager: Add allow_replace parameter to save_policy_from_* Migrate .gitignore from ci-dnf-stack spec: Shorten overlong package summary doc: Remove shared.i workaround from rtd_build.py bindings: Rename exception.hpp to exception.swg bin",
-      "source": "DNF5 releases",
-      "category": "System"
     }
   ]
 }
