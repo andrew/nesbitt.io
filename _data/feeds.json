@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-13T23:25:12Z",
-  "cutoff": "2026-09-13T23:25:06Z",
+  "generated": "2026-10-14T00:59:09Z",
+  "cutoff": "2026-09-14T00:59:04Z",
   "feed_count": 104,
-  "item_count": 304,
+  "item_count": 303,
   "categories": [
     ".NET",
     "C/C++",
@@ -2445,14 +2445,6 @@
       "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 on metabuild sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Plugin authors : Here's how to set the minimal sbt version for your plugin: pluginCrossBuild / sbtV",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "v2.29.1",
-      "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.1",
-      "published": "2026-09-14T00:57:16Z",
-      "preview": "Features & Improvements Explain missing lockfile groups and provide group-selection recovery guidance when installing, syncing, or updating groups. ( #2682 ) Allow package-specific overrides for exclude-newer resolution limits. ( #3809 ) Bug Fixes Keep the separating comma out of the operator and accept a v prefix when converting Poetry version constraints. ( #3860 ) Escape glob characters in the virtualenv lookup prefix, so a project whose directory name contains [ or ] can find its own virtualenv. ( #3869 ) Write pyproject.toml and lockfiles atomically to prevent interrupted writes from trun",
-      "source": "PDM releases",
-      "category": "Python"
     }
   ]
 }
