@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-14T18:36:53Z",
-  "cutoff": "2026-09-14T18:36:46Z",
+  "generated": "2026-10-14T19:27:09Z",
+  "cutoff": "2026-09-14T19:27:03Z",
   "feed_count": 104,
-  "item_count": 310,
+  "item_count": 311,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "26.9.3",
+      "url": "https://github.com/conda/conda/releases/tag/26.9.3",
+      "published": "2026-10-14T19:20:28Z",
+      "preview": "Bug fixes Preserve installed file metadata when safety checks are disabled so Windows launcher lookup can use the checksums supplied by the package. ( #16856 via #16855 ) Contributors @jezdez Full Changelog : 26.9.2...26.9.3",
+      "source": "Conda releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v2.0.0-beta.28",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.28",
+      "published": "2026-10-14T19:19:21Z",
+      "preview": "v2.0.0-beta.28",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "44.158.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.158.3",
+      "published": "2026-10-14T19:11:55Z",
+      "preview": "44.158.3 (2026-10-14) Bug Fixes deps: update dependency github/gh-actions-lock to v0.2.0 (main) ( #46976 ) ( 129f078 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.158.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.158.2",
+      "published": "2026-10-14T18:56:47Z",
+      "preview": "44.158.2 (2026-10-14) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.38.0 (main) ( #47051 ) ( 943658a ) Tests manager/github-actions: update pinned version of gh actions-lock via Renovate ( #46987 ) ( fc4719b ) Build System deps: update dependency node to v24.22.0 (main) ( #47050 ) ( 272121d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "Reproducible Builds in September 2026",
       "url": "https://reproducible-builds.org/reports/2026-09/",
@@ -45,6 +77,14 @@
       "preview": "11.21.0 (2026-09-30) Features 1f38f64 #10056 dist-tag: support OIDC authentication ( #10056 ) (@github-actions[bot], @reggi , @Copilot) Documentation 0a8b905 #10050 update npm stage docs to reflect that it can create new packages ( #10050 ) (@github-actions[bot], @shmam , @Copilot) Dependencies workspace : @npmcli/config@10.14.0",
       "source": "npm CLI releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "docker-v29.9.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.1",
+      "published": "2026-10-14T18:29:55Z",
+      "preview": "v29.9.1",
+      "source": "Docker Engine releases",
+      "category": "Containers"
     },
     {
       "title": "44.158.1",
@@ -253,22 +293,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.155.9",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.9",
-      "published": "2026-10-13T19:56:10Z",
-      "preview": "44.155.9 (2026-10-13) Bug Fixes deps: update renovate-base-image to v13.121.2 (main) ( #47022 ) ( 6a2c690 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.155.8",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.155.8",
-      "published": "2026-10-13T18:52:44Z",
-      "preview": "44.155.8 (2026-10-13) Build System deps: update dependency cronstrue to v3.30.0 (main) ( #47021 ) ( 754c581 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "vlt outdated",
@@ -1439,14 +1463,6 @@
       "category": "Containers"
     },
     {
-      "title": "api/v1.56.1",
-      "url": "https://github.com/moby/moby/releases/tag/api%2Fv1.56.1",
-      "published": "2026-10-01T17:59:25Z",
-      "preview": "1.56.1 Changelog api/scripts: Allow isolated model generation with an API directory. moby/moby#53629 api/swagger: Improve OpenAPI compatibility. moby/moby#53626 api/swagger: Quote HTTP response status codes. moby/moby#53759 api/templates: schema: disable validators and serializer sections. moby/moby#53751 api: fix G117 (gosec). moby/moby#53721 api: swagger ImageManifestSummary.ImageData: fix invalid required field. moby/moby#53750 api: update go-swagger to v0.36.6. moby/moby#53754 fix: invalid swagger YAML indentation. moby/moby#53606",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
       "title": "v1.13.1",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.1",
       "published": "2026-10-01T17:15:15Z",
@@ -1541,14 +1557,6 @@
       "preview": "12.2.0 (2026-09-30) Features 9741b64 #10038 dist-tag: support OIDC authentication ( #10038 ) ( @reggi , @Copilot) Documentation 0c3b82a #10017 update npm stage docs to reflect that it can create new packages ( #10017 ) ( @shmam , @Copilot) Dependencies workspace : @npmcli/config@11.2.0",
       "source": "npm CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "v25.0.18",
-      "url": "https://github.com/moby/moby/releases/tag/v25.0.18",
-      "published": "2026-09-30T15:54:00Z",
-      "preview": "For a full list of pull requests and changes in this release, refer to the relevant GitHub milestone: moby/moby, 25.0.18 milestone Changes to the Engine API, see API version history . Bug fixes and enhancements Fix CVE-2026-17106 : crafted tar archive can write outside the extraction directory. #53470",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     },
     {
       "title": "v1.13.0",
