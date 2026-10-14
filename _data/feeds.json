@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-14T02:36:55Z",
-  "cutoff": "2026-09-14T02:36:43Z",
+  "generated": "2026-10-14T04:35:07Z",
+  "cutoff": "2026-09-14T04:35:00Z",
   "feed_count": 104,
-  "item_count": 302,
+  "item_count": 303,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v4.0.23",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.23",
+      "published": "2026-10-14T04:18:05Z",
+      "preview": "RubyGems 4.0.23 Enhancements: Update vendored gems to latest versions. Pull request #9948 by Hiroshi SHIBATA Drop setuid, setgid and sticky bits when extracting gems. Pull request #9929 by Hiroshi SHIBATA Improve handling of paths with invalid Windows characters. Pull request #9276 by Said Kaldybaev and Hiroshi SHIBATA Installs bundler 4.0.23 as a default gem. Bundler 4.0.23 Enhancements: Update vendored gems to latest versions. Pull request #9948 by Hiroshi SHIBATA Bug fixes: Stop retrying a 416 response to a request without Range. Pull request #9938 by Hiroshi SHIBATA Respect Gemfile lockfil",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
+    {
+      "title": "4.0.23 Released",
+      "url": "https://blog.rubygems.org/2026/10/14/4.0.23-released.html",
+      "published": "2026-10-14T00:00:00Z",
+      "preview": "RubyGems 4.0.23 includes enhancements and Bundler 4.0.23 includes enhancements and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.23 RubyGems Release Notes Enhancements: Update vendored gems to latest versions. Pull request #9948 by Hiroshi SHIBATA Drop setuid, setgid and sticky bits when extracting gems. Pull request #9929 by Hiroshi SHIBATA Improve handling of paths with invalid Windows characters. Pull request #9276 by Said Kaldybaev and Hiroshi SHIBATA ",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -2227,14 +2243,6 @@
       "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.17",
       "published": "2026-09-17T22:00:08Z",
       "preview": "Enhancements: Validate spec name before writing to the spec cache. Pull request #9690 by hsbt Installs bundler 4.0.17 as a default gem. Bug fixes: Unquote Gem.ruby when spawning it as a separate argv element. Pull request #9695 by hsbt Escape glob metacharacters in install paths when globbing. Pull request #9687 by hsbt Preserve Windows editor paths in gem open and bundle open. Pull request #9694 by hsbt Preserve Windows paths in MAKE and rake environment variables. Pull request #9693 by hsbt Fix bundle binstub broken by gem update --system on Homebrew ruby. Pull request #9688 by hsbt",
-      "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "v4.0.16",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.16",
-      "published": "2026-09-17T21:59:58Z",
-      "preview": "Enhancements: Installs bundler 4.0.16 as a default gem. Bug fixes: Skip the make job server when using BSD make. Pull request #9676 by flavorjones",
       "source": "RubyGems releases",
       "category": "Ruby"
     },
