@@ -1,0 +1,74 @@
+---
+layout: null
+title: Software, data & connections
+description: Andrew Nesbitt's map of ecosyste.ms, git-pkgs and Alpha-Omega software.
+permalink: /mindmap/
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Andrew Nesbitt’s map of ecosyste.ms, git-pkgs and Alpha-Omega software, the data they produce and how they connect.">
+  <title>Software, data & connections</title>
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="vendor/cytoscape.min.js"></script>
+  <script defer src="map-data.js"></script>
+  <script defer src="model.js"></script>
+  <script defer src="app.js"></script>
+  <script defer src="repositories.js"></script>
+  <script defer src="navigation.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#map-search">Search the map</a>
+  <header>
+    <div class="introduction"><p class="eyebrow"><a href="https://nesbitt.io/">Andrew Nesbitt</a> · ecosyste.ms / git-pkgs / Alpha-Omega</p><h1>Software, data & connections</h1><p class="intro">A map of my open source work, the data it produces and how the pieces connect.</p></div>
+    <div class="navigation">
+      <nav class="view-tabs" aria-label="Map views"><button id="concept-tab" aria-pressed="false">Concepts</button><button id="repository-tab" aria-pressed="true">Repositories</button><button id="filter-toggle" class="filter-toggle" aria-expanded="false" aria-controls="concept-tools repository-tools">Filters</button></nav>
+      <div class="global-search">
+        <label for="map-search">Find a concept or repository</label>
+        <input id="map-search" type="search" placeholder="SBOM, Scrutineer, dependencies…" autocomplete="off" aria-controls="search-panel">
+        <section id="search-panel" aria-label="Search results" hidden><div class="search-heading"><p id="search-status" role="status"></p><button id="search-close" type="button">Close</button></div><div id="search-results"></div></section>
+      </div>
+    </div>
+  </header>
+  <div class="toolbar" id="concept-tools">
+    <label><input id="software" type="checkbox" checked> Software contributions</label>
+    <span class="divider"></span>
+    <label class="intrinsic"><input id="intrinsic" type="checkbox" checked> Intrinsic evidence</label>
+    <label class="extrinsic"><input id="extrinsic" type="checkbox" checked> Extrinsic context</label>
+    <button id="reset">Reset view</button>
+  </div>
+  <div class="toolbar" id="repository-tools" hidden>
+    <label>Area <select id="repo-area"></select></label>
+    <label class="flow-key"><input id="data-flow" type="checkbox" checked> Data flow</label>
+    <label class="task-key"><input id="supports-task" type="checkbox" checked> Task support</label>
+    <label class="overlap-key"><input id="functional-overlap" type="checkbox" checked> Functional overlap</label>
+    <label class="module-key"><input id="module-dependency" type="checkbox" checked> Module dependency</label>
+    <label><input id="supporting" type="checkbox"> Supporting repos</label>
+    <label><input id="repo-context" type="checkbox" checked> Connected context</label>
+    <button id="repo-reset">Reset view</button>
+  </div>
+  <main id="concept-view">
+    <section class="map" aria-label="Software knowledge graph">
+      <div class="map-caption"><strong id="caption">Shared software concepts</strong><span>Click a concept, software node or connection</span></div>
+      <div id="graph"></div>
+      <div class="controls"><button id="fit">Fit map</button><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button></div>
+      <p class="map-foot">Drag nodes to move · Scroll to zoom · Dashed: software contributions · Dotted: possible correspondence</p>
+    </section>
+    <aside id="details" tabindex="-1" aria-label="Concept details" aria-live="polite"></aside>
+  </main>
+  <main id="repository-view" hidden>
+    <section class="map" aria-label="Repository connections">
+      <div class="map-caption"><strong id="repo-caption">Repository connections</strong><span>Click a repository or connection for details</span></div>
+      <div id="repo-graph"></div>
+      <div class="controls"><button id="repo-fit">Fit map</button><button id="repo-zoom-in" aria-label="Zoom in repositories">+</button><button id="repo-zoom-out" aria-label="Zoom out repositories">−</button></div>
+      <p class="map-foot">Green: data flow · Blue: task support · Dotted: overlap · Purple: consumer → dependency</p>
+    </section>
+    <aside id="repo-details" tabindex="-1" aria-label="Repository details" aria-live="polite"></aside>
+  </main>
+  <footer><div><span id="view-count"></span><span id="audit-date"></span></div><ul class="owner-key" aria-label="Repository owner colours"><li class="owner-ecosystems">ecosyste.ms</li><li class="owner-git-pkgs">git-pkgs</li><li class="owner-alpha-omega">Alpha-Omega</li><li class="owner-andrew">andrew</li></ul><span id="view-note">Grouped by connections</span></footer>
+  <noscript><p>This interactive map needs JavaScript to display its repositories and concepts.</p></noscript>
+</body>
+</html>
