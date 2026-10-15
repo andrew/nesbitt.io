@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-15T07:34:52Z",
-  "cutoff": "2026-09-15T07:34:47Z",
+  "generated": "2026-10-15T08:38:05Z",
+  "cutoff": "2026-09-15T08:38:00Z",
   "feed_count": 104,
   "item_count": 313,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.18.1",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.1",
+      "published": "2026-10-15T08:19:56Z",
+      "preview": "Fixed Ctrl-C during a streamed pip or uv run stops them instead of hanging pipx. ( #2146 )",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "1.18.0",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.0",
@@ -2101,14 +2109,6 @@
       "preview": "Insert 8.0.0.7 into main on 09/23/2026 12:18:35",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "1.17.6",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.6",
-      "published": "2026-09-22T23:48:27Z",
-      "preview": "What's Changed docs: fix argument order in the combined inject example by @agammann in #2044 docs: fix Git extras install example for current pip by @saitakarcesme in #2047 ci(pre-release): drop unused contents:write permission by @gaborbernat in #2050 🐛 fix(manifest): make locked tools install on sync by @gaborbernat in #2052 New Contributors @agammann made their first contribution in #2044 @saitakarcesme made their first contribution in #2047 Full Changelog : 1.17.5...1.17.6",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "libnpmpublish: v11.2.1",
