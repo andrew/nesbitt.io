@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-15T00:58:03Z",
-  "cutoff": "2026-09-15T00:57:57Z",
+  "generated": "2026-10-15T01:36:56Z",
+  "cutoff": "2026-09-15T01:36:50Z",
   "feed_count": 104,
   "item_count": 314,
   "categories": [
@@ -23,20 +23,20 @@
   ],
   "items": [
     {
+      "title": "Helm v4.3.1",
+      "url": "https://github.com/helm/helm/releases/tag/v4.3.1",
+      "published": "2026-10-15T01:08:37Z",
+      "preview": "Helm v4.3.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix(action): wait for CRD establishment under HookOnlyStrategy #32672 by @pujitha24 fix(linters): update golangci-lint to v2.14.0 #32744 by @ruslan-shaydullin Installation and Upgrading Download",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
       "title": "44.161.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.161.0",
       "published": "2026-10-15T00:56:14Z",
       "preview": "44.161.0 (2026-10-15) Features deps: update renovate-base-image to v13.130.0 (main) ( #47058 ) ( 17eb8c9 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.40.0 (main) ( #47057 ) ( 1f158f6 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v4.3.1",
-      "url": "https://github.com/helm/helm/releases/tag/v4.3.1",
-      "published": "2026-10-15T00:39:57Z",
-      "preview": "Helm release v4.3.1",
-      "source": "Helm releases",
-      "category": "Containers"
     },
     {
       "title": "v1.4.0",
