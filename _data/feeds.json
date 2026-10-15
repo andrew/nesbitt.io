@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-15T08:38:05Z",
-  "cutoff": "2026-09-15T08:38:00Z",
+  "generated": "2026-10-15T09:33:12Z",
+  "cutoff": "2026-09-15T09:33:06Z",
   "feed_count": 104,
   "item_count": 313,
   "categories": [
@@ -22,6 +22,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-13-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-13-a",
+      "published": "2026-10-15T08:55:10Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-13-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2026.10.11",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.11",
+      "published": "2026-10-15T08:39:12Z",
+      "preview": "(bootstrap) add --upgrade to upgrade packages and tools by @jdx …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.11",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.11",
+      "published": "2026-10-15T08:38:42Z",
+      "preview": "Release vfox 2026.10.11",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.11",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.11",
+      "published": "2026-10-15T08:38:19Z",
+      "preview": "Release mise-util 2026.10.11",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.10.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.3",
+      "published": "2026-10-15T08:37:59Z",
+      "preview": "Release mise-sigstore 2026.10.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.11",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.11",
+      "published": "2026-10-15T08:37:50Z",
+      "preview": "Release mise-settings 2026.10.11",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "1.18.1",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.1",
@@ -367,14 +415,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "v2026.10.9: path: tool versions require trust; apt repositories, login items and run0/doas in bootstrap",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.9",
-      "published": "2026-10-13T14:53:38Z",
-      "preview": "This release fixes a trust bypass: an untrusted path: tool version could put a directory on PATH . It also adds several bootstrap features: apt repositories and PPAs, macOS login items, rpm-ostree layering on Fedora Atomic, and run0 / doas support. Beyond that, it improves mise dot status , adds GitHub OAuth conveniences, and fixes problems across npm, prune, brew and dotfiles sync. Security path: tool versions now require trust. Before, an untrusted repository could ship node path:./local in .tool-versions or mise.toml . mise activate would then put ./local/bin ahead of your PATH on the next ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "2.28.8",
       "url": "https://github.com/NixOS/nix/releases/tag/2.28.8",
       "published": "2026-10-13T14:45:13Z",
@@ -423,42 +463,10 @@
       "category": "Registries"
     },
     {
-      "title": "aqua-registry-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/aqua-registry-v2026.10.1",
-      "published": "2026-10-13T13:00:47Z",
-      "preview": "Release aqua-registry 2026.10.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "vfox-v2026.10.9",
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.9",
       "published": "2026-10-13T13:00:39Z",
       "preview": "Release vfox 2026.10.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-brew-metadata-v2026.10.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-brew-metadata-v2026.10.2",
-      "published": "2026-10-13T13:00:19Z",
-      "preview": "Release mise-brew-metadata 2026.10.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.9",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.9",
-      "published": "2026-10-13T13:00:12Z",
-      "preview": "Release mise-util 2026.10.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.9",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.9",
-      "published": "2026-10-13T12:59:52Z",
-      "preview": "Release mise-settings 2026.10.9",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -2173,14 +2181,6 @@
       "preview": "The Gradle team is excited to announce Gradle 9.8.0 RC3. Here are the highlights of this release: Java 27 support Maven mirror settings reuse Linked problem locations in build output Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aman Gautam , Björn Kautler , Eng Zer Jun , Hashim Khan , Julian Krannich , KBS , Labh R Jethe , Mark Dodgson , Maxim , monkey , nataphon-ktsystems , Paul King , Qiu Tian , rg_sandesh , Roberto Perez Alcolea , Sean , Zongle Wang . Upgrade instructions Switch your build to use Gradle 9.8.",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-09-21-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-09-21-a",
-      "published": "2026-09-22T13:12:33Z",
-      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-09-21-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "8.0.0.5",
