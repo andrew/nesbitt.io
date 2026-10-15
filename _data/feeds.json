@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-15T15:31:53Z",
-  "cutoff": "2026-09-15T15:31:46Z",
+  "generated": "2026-10-15T16:32:14Z",
+  "cutoff": "2026-09-15T16:32:03Z",
   "feed_count": 104,
-  "item_count": 313,
+  "item_count": 315,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,62 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v3.22.1",
+      "url": "https://github.com/helm/helm/releases/tag/v3.22.1",
+      "published": "2026-10-15T16:30:40Z",
+      "preview": "Helm release v3.22.1",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
+    {
+      "title": "libnpmpack: v9.1.15",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.15",
+      "published": "2026-10-15T15:43:42Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.3",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v7.0.28",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.28",
+      "published": "2026-10-15T15:43:40Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.3",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v10.3.4",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v10.3.4",
+      "published": "2026-10-15T15:43:38Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.3",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmdiff: v8.1.14",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.14",
+      "published": "2026-10-15T15:43:37Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.3",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "arborist: v9.9.3",
+      "url": "https://github.com/npm/cli/releases/tag/arborist-v9.9.3",
+      "published": "2026-10-15T15:43:35Z",
+      "preview": "9.9.3 (2026-10-14) Bug Fixes 1c7b661 #10059 write registry allowScripts keys under install-strategy=linked ( #10059 ) (@github-actions[bot], @manzoorwanijk ) 21fe6b8 #10118 arborist: report ETARGET instead of ERESOLVE for unresolvable peer targets ( #10118 ) (@github-actions[bot], @manzoorwanijk )",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.21.1",
+      "url": "https://github.com/npm/cli/releases/tag/v11.21.1",
+      "published": "2026-10-15T15:43:34Z",
+      "preview": "11.21.1 (2026-10-14) Bug Fixes 1c7b661 #10059 write registry allowScripts keys under install-strategy=linked ( #10059 ) (@github-actions[bot], @manzoorwanijk ) Dependencies 8cec7c9 #10089 http-cache-semantics@4.3.0 ( @reggi ) fd105c7 #10089 undici@6.29.0 ( @reggi ) fc2a0dd #10089 postcss-selector-parser@7.1.6 ( @reggi ) bae8cd7 #10089 ip-address@10.7.2 ( @reggi ) 4a9d14d #10089 brace-expansion@5.0.12 ( @reggi ) workspace : @npmcli/arborist@9.9.3 workspace : libnpmdiff@8.1.14 workspace : libnpmexec@10.3.4 workspace : libnpmfund@7.0.28 workspace : libnpmpack@9.1.15",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.164.5",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.5",
@@ -437,6 +493,14 @@
       "preview": "RubyGems 4.0.23 includes enhancements and Bundler 4.0.23 includes enhancements and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.23 RubyGems Release Notes Enhancements: Update vendored gems to latest versions. Pull request #9948 by Hiroshi SHIBATA Drop setuid, setgid and sticky bits when extracting gems. Pull request #9929 by Hiroshi SHIBATA Improve handling of paths with invalid Windows characters. Pull request #9276 by Said Kaldybaev and Hiroshi SHIBATA ",
       "source": "RubyGems Blog",
       "category": "Ruby"
+    },
+    {
+      "title": "Announcing .NET 11 Release Candidate 2",
+      "url": "https://devblogs.microsoft.com/dotnet/dotnet-11-rc-2/",
+      "published": "2026-10-13T19:40:00Z",
+      "preview": ".NET 11 Release Candidate 2 is available with improvements across libraries, runtime, SDK, MSBuild, NuGet, F#, ASP.NET Core, .NET MAUI, and Windows Forms. The post Announcing .NET 11 Release Candidate 2 appeared first on .NET Blog .",
+      "source": "NuGet Blog",
+      "category": ".NET"
     },
     {
       "title": "vlt outdated",
@@ -2133,54 +2197,6 @@
       "preview": "Insert 8.0.0.7 into main on 09/23/2026 12:18:35",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "libnpmpublish: v11.2.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpublish-v11.2.1",
-      "published": "2026-09-22T21:34:51Z",
-      "preview": "11.2.1 (2026-09-21) Bug Fixes ddbadfc #9947 provenance-file takes precedence over OIDC auto-generated provenance ( #9947 ) (@github-actions[bot], @yunseo-kim )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmpack: v9.1.14",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.14",
-      "published": "2026-09-22T21:34:50Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@9.9.2",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v11.20.0",
-      "url": "https://github.com/npm/cli/releases/tag/v11.20.0",
-      "published": "2026-09-22T21:34:44Z",
-      "preview": "11.20.0 (2026-09-21) Features 0b3c699 #9994 token: support read-write-stage-only granular access tokens ( #9994 ) (@github-actions[bot], @Tayvon , @Copilot) b872816 #9920 stage: display staged package status ( #9920 ) (@github-actions[bot], @joelverhagen ) Bug Fixes ddbadfc #9947 provenance-file takes precedence over OIDC auto-generated provenance ( #9947 ) (@github-actions[bot], @yunseo-kim ) 64d4b4b #9937 config: avoid exporting persistent allow-scripts ( #9937 ) (@github-actions[bot], @Fnine59 ) 70317da #9930 arborist: reject uninstall args that carry a version ( #9930 ) (@github-actions[bo",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmpublish: v12.0.1",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpublish-v12.0.1",
-      "published": "2026-09-22T20:21:16Z",
-      "preview": "12.0.1 (2026-09-21) Bug Fixes c9876d7 #9882 provenance-file takes precedence over OIDC auto-generated provenance ( #9882 ) ( @yunseo-kim )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmpack: v10.0.3",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.3",
-      "published": "2026-09-22T20:21:14Z",
-      "preview": "10.0.3 (2026-09-21) Bug Fixes 71915e8 #9756 exempt explicit pack targets from allow-directory ( #9756 ) ( @ychampion , @ychampion ) Dependencies workspace : @npmcli/arborist@10.0.3",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.1.0",
-      "url": "https://github.com/npm/cli/releases/tag/v12.1.0",
-      "published": "2026-09-22T20:21:08Z",
-      "preview": "12.1.0 (2026-09-21) Features 6400533 #9948 token: support read-write-stage-only granular access tokens ( #9948 ) ( @Tayvon , @Copilot) 8723f53 #9898 stage: display staged package status ( #9898 ) ( @joelverhagen ) Bug Fixes c9876d7 #9882 provenance-file takes precedence over OIDC auto-generated provenance ( #9882 ) ( @yunseo-kim ) b016aa2 #9913 config: avoid exporting persistent allow-scripts ( #9913 ) ( @Fnine59 ) d6c6122 #9914 arborist: match allowScripts keys for local paths ( #9914 ) ( @martinrrm , @Copilot) a8c9b2f #9823 keep dry-run output valid json ( #9823 ) ( @martinrrm ) da50c34 #988",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "v0.20.2",
