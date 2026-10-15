@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-15T16:32:14Z",
-  "cutoff": "2026-09-15T16:32:03Z",
+  "generated": "2026-10-15T17:27:03Z",
+  "cutoff": "2026-09-15T17:26:51Z",
   "feed_count": 104,
   "item_count": 315,
   "categories": [
@@ -23,10 +23,18 @@
   ],
   "items": [
     {
-      "title": "v3.22.1",
+      "title": "8.1.0.9",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.1.0.9",
+      "published": "2026-10-15T17:17:52Z",
+      "preview": "Tag 8.1.0.9",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "Helm v3.22.1",
       "url": "https://github.com/helm/helm/releases/tag/v3.22.1",
-      "published": "2026-10-15T16:30:40Z",
-      "preview": "Helm release v3.22.1",
+      "published": "2026-10-15T17:02:01Z",
+      "preview": "Helm v3.22.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes Bumps dependencies to remove Go package vulnerabilities Updates the k8s.io Go packages Installation and Upgrading Download Helm v3.22.1. The common platform binaries are here: MacOS amd64 ( che",
       "source": "Helm releases",
       "category": "Containers"
     },
@@ -245,6 +253,14 @@
       "preview": "Helm v4.3.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix(action): wait for CRD establishment under HookOnlyStrategy #32672 by @pujitha24 fix(linters): update golangci-lint to v2.14.0 #32744 by @ruslan-shaydullin Installation and Upgrading Download",
       "source": "Helm releases",
       "category": "Containers"
+    },
+    {
+      "title": "Forgejo v17.0 is available",
+      "url": "https://forgejo.org/2026-10-release-v17-0/",
+      "published": "2026-10-15T00:00:00Z",
+      "preview": "Forgejo v17.0 is available. Repository funding links are supported. Repositories can be migrated from Bitbucket Data Center. LFS support is revamped. Job summaries from Forgejo Actions jobs are displayed.",
+      "source": "Forgejo Blog",
+      "category": "Infrastructure"
     },
     {
       "title": "rubygems.org now shows security warnings for gems",
@@ -2327,14 +2343,6 @@
       "category": "Python"
     },
     {
-      "title": "7.12.0.25",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/7.12.0.25",
-      "published": "2026-09-19T12:23:01Z",
-      "preview": "Insert 7.12.0.25 into main on 09/19/2026 12:23:00",
-      "source": "NuGet Client releases",
-      "category": ".NET"
-    },
-    {
       "title": "0.12.17",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.12.17",
       "published": "2026-09-18T18:59:24Z",
@@ -2533,14 +2541,6 @@
       "preview": "Feedback on this post is welcome on Discuss! We're happy to announce the release of opam 2.6.0 and encourage all users to upgrade. Please read on for installation and upgrade instructions. Try it! The upgrade instructions are unchanged: Either from binaries: run For Unix systems bash -c \"sh . Thanks to @zoggy for this contribution. Fix the filename check used when parsing arguments to allow / to be recognised as a directory separator on Windows Make git calls more deterministic regardless of the global or system config Read full lines when asking for user input when TERM=dumb (e.g. emacs' M-x ",
       "source": "opam Blog",
       "category": "Registries"
-    },
-    {
-      "title": "7.0.2",
-      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.2",
-      "published": "2026-09-15T16:44:56Z",
-      "preview": "What's Changed Change prefix selection documentation and behaviour by @jtbrough in #23959 Fix typos by @aguashui in #23961 Update Safari user agent to 27.0 by @samford in #23964 Fix shorter-prefix Perl bottle relocation by @MikeMcQuaid in #23962 Populate description caches only on search by @p-linnane in #23965 shims/super/cc: allow paths under HOMEBREW_FORMULA_BUILDPATH by @woodruffw in #23971 Verify only trusted files when tapping by @p-linnane in #23972 Type AbstractSubcommand#args as CLI::Args by @dduugg in #23968 cleanup: drop an unreachable bottle-version branch by @rawsun007 in #23975 i",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
