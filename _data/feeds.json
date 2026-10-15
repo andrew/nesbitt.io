@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-15T10:30:44Z",
-  "cutoff": "2026-09-15T10:30:01Z",
+  "generated": "2026-10-15T12:41:27Z",
+  "cutoff": "2026-09-15T12:41:12Z",
   "feed_count": 104,
-  "item_count": 313,
+  "item_count": 312,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,20 +23,52 @@
   ],
   "items": [
     {
+      "title": "v2026.10.11: Much faster installs and far fewer GitHub API calls",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.11",
+      "published": "2026-10-15T12:37:21Z",
+      "preview": "mise is much faster in this release and calls the GitHub API far less. Version lists, release tags, attestations and other public GitHub metadata now come from mise-versions, so everyday commands like mise install , exec , shims, outdated , lock and self-update are quicker and users without a GitHub token no longer run into the 60-requests-an-hour limit. Cached version lists are reused for longer, so repeat installs skip most lookups. It also adds mise bootstrap --upgrade and mise env --paths , and closes a trust gap in remote task files. Speed and GitHub API usage Cold-cache timings for v2026",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v12.14.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.14.0",
+      "published": "2026-10-15T12:36:15Z",
+      "preview": "=v12.14.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.28.6",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.6",
+      "published": "2026-10-15T12:36:03Z",
+      "preview": "=v11.28.6",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.164.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.1",
+      "published": "2026-10-15T12:13:32Z",
+      "preview": "44.164.1 (2026-10-15) Bug Fixes platform/github: use x-access-token for personal access tokens in clone URLs ( #47073 ) ( 6cc8898 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.164.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.0",
+      "published": "2026-10-15T11:51:49Z",
+      "preview": "44.164.0 (2026-10-15) Features datasource/go: look up modules from a go-import mod proxy ( #47044 ) ( 0876273 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "44.163.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.163.0",
       "published": "2026-10-15T10:27:55Z",
       "preview": "44.163.0 (2026-10-15) Features deps: update renovate-base-image to v13.131.0 (main) ( #47070 ) ( c6c548e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.10.11: Public GitHub metadata now comes from mise-versions instead of api.github.com",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.11",
-      "published": "2026-10-15T10:13:36Z",
-      "preview": "In this release, most everyday commands stop calling api.github.com . mise install , exec , shims, outdated , lock , self-update and attestation checks now read GitHub release data, tags and attestations from mise-versions, so users without a GitHub token no longer hit the 60-requests-an-hour limit. It also adds mise bootstrap --upgrade and mise env --paths , and closes a trust gap in remote task files. Security Remote task files now need trust before their headers render. A mise.toml with only [tasks] loads without trust. Before this fix, if one of those tasks set file to a remote URL, mise t",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "44.162.0",
@@ -213,22 +245,6 @@
       "preview": "v2.0.0-beta.28",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.158.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.158.3",
-      "published": "2026-10-14T19:11:55Z",
-      "preview": "44.158.3 (2026-10-14) Bug Fixes deps: update dependency github/gh-actions-lock to v0.2.0 (main) ( #46976 ) ( 129f078 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.158.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.158.2",
-      "published": "2026-10-14T18:56:47Z",
-      "preview": "44.158.2 (2026-10-14) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.38.0 (main) ( #47051 ) ( 943658a ) Tests manager/github-actions: update pinned version of gh actions-lock via Renovate ( #46987 ) ( fc4719b ) Build System deps: update dependency node to v24.22.0 (main) ( #47050 ) ( 272121d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Reproducible Builds in September 2026",
@@ -1175,14 +1191,6 @@
       "category": "Registries"
     },
     {
-      "title": "pnpm 12.10.1",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.10.1",
-      "published": "2026-10-06T17:37:30Z",
-      "preview": "This release fixes pnpm install failures after an overrides change and on a filtered frozen install with catalogPrune . It also fixes several bugs in the experimental nodeLinker.type: loaded , which now keeps its generated files in node_modules . Patch Changes With nodeLinker.type: loaded , pnpm now writes its generated files to node_modules , which projects already ignore in git. The store manifest and loader are node_modules/.pnpm/.store-manifest.json and node_modules/.pnpm/.store-loader.mjs . Bin shims are in node_modules/.bin . Earlier versions wrote .pnpm-store.json and .pnpm-store-loader",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "How we made registry metadata 70% smaller",
       "url": "https://vlt.io/blog/registry-metadata-70-percent-smaller",
       "published": "2026-10-06T16:00:00Z",
@@ -1197,14 +1205,6 @@
       "preview": "Deployment at 2026-10-06T10:47:43.531853Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 12.10.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.10.0",
-      "published": "2026-10-06T05:24:45Z",
-      "preview": "This release adds an experimental loaded node linker, lets pnpm-lock.yaml record resolution settings, and reads cached registry metadata faster. It also carries several security fixes, including one that stops a dependency version from writing files outside the global virtual store. Minor Changes Added experimental nodeLinker: { type: loaded } installation. Compatible dependencies load directly from the content-addressable store through an automatically registered Node.js loader. nodeLinker.excluded selects packages and their dependency trees to install in the global virtual store. lockfile.in",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "SDK-3.14.0-309.0.dev",
@@ -2517,14 +2517,6 @@
       "preview": "[0.81.0] - 2026-09-15 ✨ Highlights pixi run --script can now run conda-script files directly from HTTP or HTTPS URLs, including GitHub Gists. Pixi downloads the script, reuses its cached environment, and runs it without requiring a local file. Added Add remote url support to conda-script by @ruben-arts in #6981 Add PrefixPlatformMismatchError for source build prefixes by @hunger in #6984 Show the build platform of nested derived environments by @hunger in #6987 Changed Track the platform of a derived environment explicitly by @hunger in #6985 Keep nested derived environments on the build platf",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "A month of vlt CLI updates",
-      "url": "https://vlt.io/blog/vlt-cli-updates",
-      "published": "2026-09-15T12:00:00Z",
-      "preview": "Since 1.0, vlt has shipped install-speed wins, security hardening, and quality-of-life CLI fixes.",
-      "source": "vlt Blog",
-      "category": "JavaScript"
     }
   ]
 }
