@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-14T23:26:17Z",
-  "cutoff": "2026-09-14T23:26:11Z",
+  "generated": "2026-10-15T00:58:03Z",
+  "cutoff": "2026-09-15T00:57:57Z",
   "feed_count": 104,
-  "item_count": 311,
+  "item_count": 314,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.161.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.161.0",
+      "published": "2026-10-15T00:56:14Z",
+      "preview": "44.161.0 (2026-10-15) Features deps: update renovate-base-image to v13.130.0 (main) ( #47058 ) ( 17eb8c9 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.40.0 (main) ( #47057 ) ( 1f158f6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v4.3.1",
+      "url": "https://github.com/helm/helm/releases/tag/v4.3.1",
+      "published": "2026-10-15T00:39:57Z",
+      "preview": "Helm release v4.3.1",
+      "source": "Helm releases",
+      "category": "Containers"
+    },
     {
       "title": "v1.4.0",
       "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.4.0",
@@ -135,6 +151,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "Thank you, Deno",
+      "url": "https://vlt.io/blog/competition-keeps-javascript-moving",
+      "published": "2026-10-14T18:00:00Z",
+      "preview": "Deno is joining Cloudflare & winding down its investment in the runtime. We're all better off because of its existence.",
+      "source": "vlt Blog",
+      "category": "JavaScript"
+    },
+    {
       "title": "44.158.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.158.1",
       "published": "2026-10-14T16:51:54Z",
@@ -191,20 +215,20 @@
       "category": "Infrastructure"
     },
     {
+      "title": "vlt v1.4.0: faster macOS installs and --save-types",
+      "url": "https://vlt.io/blog/vlt-1-4",
+      "published": "2026-10-14T12:00:00Z",
+      "preview": "vlt v1.4.0 brings the global store to macOS for up to 3x faster installs on Node 26, plus a new --save-types flag.",
+      "source": "vlt Blog",
+      "category": "JavaScript"
+    },
+    {
       "title": "v0.82.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.82.0",
       "published": "2026-10-14T11:47:50Z",
       "preview": "[0.82.0] - 2026-10-13 ✨ Highlights Rich platforms now support AMD GPUs with amdgpu = true to declare GPU presence or amdgpu = \"gfx90a\" to require a specific GPU architecture. pixi global now supports exclude-newer in the global manifest. Set a cutoff date or a duration such as exclude-newer = \"7d\" to exclude recently published packages from all global environments. Added Add exclude-newer to the global manifest by @Hofer-Julian in #7016 Use toml edit to modify config by @samrosenf in #6576 Automake and autoconf for ros2_canopen by @Timple in #7110 Support PIXI_WORKSPACE_ env vars, make PIXI_PR",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.156.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.156.3",
-      "published": "2026-10-14T11:42:36Z",
-      "preview": "44.156.3 (2026-10-14) Bug Fixes datasource/go: treat modules with go host rule credentials as private ( #47031 ) ( 28ed2ee )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.4.8-beta-20261014",
