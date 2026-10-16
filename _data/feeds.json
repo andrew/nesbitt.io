@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16T20:29:14Z",
-  "cutoff": "2026-09-16T20:29:08Z",
+  "generated": "2026-10-16T21:25:33Z",
+  "cutoff": "2026-09-16T21:25:27Z",
   "feed_count": 104,
   "item_count": 310,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-16T21:21:41Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.165.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.165.1",
+      "published": "2026-10-16T21:09:55Z",
+      "preview": "44.165.1 (2026-10-16) Bug Fixes deps: update renovate-base-image to v13.132.1 (main) ( #47120 ) ( 568be9f ) Miscellaneous Chores deps: update dependency @types/node to v24.19.2 (main) ( #47119 ) ( b3e4a53 ) Build System deps: update dependency p-map to v7.1.0 (main) ( #47121 ) ( 9edacef )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "8.1.0.12",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.1.0.12",
@@ -287,14 +303,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "44.164.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.2",
-      "published": "2026-10-15T12:56:45Z",
-      "preview": "44.164.2 (2026-10-15) Bug Fixes platform/gitea,forgejo: use a non-empty password in token clone URLs ( #47076 ) ( 99132db ) util/git: use a non-empty password for token-only git credentials ( #47077 ) ( a9677c3 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.41.0 (main) ( #47074 ) ( c49d1be ) deps: update github/codeql-action action to v4.39.0 (main) ( #47075 ) ( 9602e06 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2026.10.11: Much faster installs and far fewer GitHub API calls",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.11",
       "published": "2026-10-15T12:37:21Z",
@@ -421,14 +429,6 @@
       "preview": "Bug fixes Percent-encode package names, versions and other values in the URLs of API and repository requests, so a / , ? , # or .. in a value can't change the request path Security fixes Fix unpacking a package or docs tarball that contains a GNU sparse file in mix deps.get , mix hex.package fetch --unpack , mix hex.docs fetch and mix hex.docs offline . A sparse file that ends in a hole made the task loop forever, and a sparse hole that crosses a 64 KiB boundary in the file made it fail ( GHSA-phm5-m6cj-5382 , CVE-2026-96596)",
       "source": "Hex releases",
       "category": "Elixir"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-14T20:20:39Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v29.9.1",
