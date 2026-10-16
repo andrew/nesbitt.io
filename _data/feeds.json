@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16T09:31:51Z",
-  "cutoff": "2026-09-16T09:31:46Z",
+  "generated": "2026-10-16T10:30:07Z",
+  "cutoff": "2026-09-16T10:29:51Z",
   "feed_count": 104,
   "item_count": 312,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.164.10",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.10",
+      "published": "2026-10-16T09:55:36Z",
+      "preview": "44.164.10 (2026-10-16) Bug Fixes deps: update renovate-base-image to v13.131.3 (main) ( #47100 ) ( 530fb9c ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.41.1 (main) ( #47099 ) ( fce5e50 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.164.9",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.9",
@@ -259,14 +267,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.1",
       "published": "2026-10-15T12:13:32Z",
       "preview": "44.164.1 (2026-10-15) Bug Fixes platform/github: use x-access-token for personal access tokens in clone URLs ( #47073 ) ( 6cc8898 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.164.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.0",
-      "published": "2026-10-15T11:51:49Z",
-      "preview": "44.164.0 (2026-10-15) Features datasource/go: look up modules from a go-import mod proxy ( #47044 ) ( 0876273 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
