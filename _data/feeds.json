@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-16T16:30:43Z",
-  "cutoff": "2026-09-16T16:30:00Z",
+  "generated": "2026-10-16T18:34:00Z",
+  "cutoff": "2026-09-16T18:33:53Z",
   "feed_count": 104,
-  "item_count": 312,
+  "item_count": 310,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.12: Per-tool Python runtimes for PyPI tools, Gradle workspace discovery, and env file find_up",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.12",
+      "published": "2026-10-16T18:19:41Z",
+      "preview": "PyPI and pipx tools can now choose their own Python runtime, the workspace graph can read Gradle multi-module builds, and env._.file can search parent directories. When mise-versions is having an outage, GitHub lookups now retry on api.github.com , and _.source scripts no longer pick up ~/.bashrc when mise is launched from an editor. Added Per-tool Python for pypi: tools. Set python to a minor series or an exact version, and mise installs that runtime and passes it to uv or pipx for that tool only. The runtime stays private to the tool and does not become your shell's default Python. mise lock",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.165.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.165.0",
@@ -61,14 +69,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-14-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.10.12",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.12",
-      "published": "2026-10-16T08:37:32Z",
-      "preview": "(config) add find_up option to env._.file by @jdx in [ #14497 ](h…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "vfox-v2026.10.12",
@@ -2501,22 +2501,6 @@
       "preview": "Added: Apply context formatting to the lock-filename environment option so fields such as {env_name} and {matrix:...} are resolved when computing the lock file path. Fixed: Consolidate extras and feature resolution into a single code path, fixing regressions where environment and project extras could be dropped or resolved inconsistently, and always validate undefined features. Normalize hyphens in the plugin name when building environment option environment variable names in get_env_var() , so options for hyphenated plugins resolve to the correct variable.",
       "source": "Hatch releases",
       "category": "Python"
-    },
-    {
-      "title": "7.0.3",
-      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.3",
-      "published": "2026-09-16T18:31:15Z",
-      "preview": "What's Changed Check test-bot dependencies recursively by @MikeMcQuaid in #23981 Gemfiles: require a minimum Ruby version by @p-linnane in #23983 sandbox: pass the terminal to stty by @p-linnane in #23994 install: separate upgrades in dry-run summaries by @p-linnane in #23986 Document VS Code Ruby LSP setup by @HaraldNordgren in #23995 shell: write a literal line into a PowerShell profile by @rawsun007 in #23996 Allow sandboxed icon conversion on macOS by @MikeMcQuaid in #23999 formula: run Java headless in sandboxed phases by @ashr123 in #24001 Share Git facts across platform views and load l",
-      "source": "Homebrew releases",
-      "category": "System"
-    },
-    {
-      "title": "v5.8.7",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.7",
-      "published": "2026-09-16T18:13:20Z",
-      "preview": "Security This release addresses ( CVE-2025-11395 ), where importing images containing crafted layer tarballs with the podman load command, or importing volumes containing crafted symlinks with podman volume import , allows overwriting files on the host. This release also addresses CVE-2026-79699 and CVE-2026-79705 , though we do not believe these CVEs are exploitable through the Podman command line. Misc Updated Buildah to v1.43.4 Updated Common to v0.67.2 Updated Image to v5.39.3 Updated Storage to v1.62.1",
-      "source": "Podman releases",
-      "category": "Containers"
     }
   ]
 }
