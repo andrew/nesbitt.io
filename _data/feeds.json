@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16T08:36:56Z",
-  "cutoff": "2026-09-16T08:36:49Z",
+  "generated": "2026-10-16T09:31:51Z",
+  "cutoff": "2026-09-16T09:31:46Z",
   "feed_count": 104,
   "item_count": 312,
   "categories": [
@@ -22,6 +22,54 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.164.9",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.9",
+      "published": "2026-10-16T08:51:14Z",
+      "preview": "44.164.9 (2026-10-16) Bug Fixes platform/scm-manager: use a fallback username in token clone URLs ( #47084 ) ( b634cdc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-14-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-14-a",
+      "published": "2026-10-16T08:48:25Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-14-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2026.10.12",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.12",
+      "published": "2026-10-16T08:37:32Z",
+      "preview": "(config) add find_up option to env._.file by @jdx in [ #14497 ](h…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.12",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.12",
+      "published": "2026-10-16T08:36:56Z",
+      "preview": "Release vfox 2026.10.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.12",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.12",
+      "published": "2026-10-16T08:36:30Z",
+      "preview": "Release mise-util 2026.10.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.12",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.12",
+      "published": "2026-10-16T08:36:02Z",
+      "preview": "Release mise-settings 2026.10.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.164.8",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.8",
@@ -219,14 +267,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.0",
       "published": "2026-10-15T11:51:49Z",
       "preview": "44.164.0 (2026-10-15) Features datasource/go: look up modules from a go-import mod proxy ( #47044 ) ( 0876273 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.163.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.163.0",
-      "published": "2026-10-15T10:27:55Z",
-      "preview": "44.163.0 (2026-10-15) Features deps: update renovate-base-image to v13.131.0 (main) ( #47070 ) ( c6c548e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -455,14 +495,6 @@
       "category": "Infrastructure as Code"
     },
     {
-      "title": "v2026.10.10: Task skip_if, snap and COPR in bootstrap, and dotfiles pull fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.10",
-      "published": "2026-10-14T10:11:55Z",
-      "preview": "Tasks can now skip themselves with a skip_if check, and bootstrap gains Snap packages, Fedora COPR repositories, and branch selection for --adopt . This release also fixes several mise dot pull problems that could loop, stall, or leave sharing paused on long histories. On the Windows side, it fixes .mise-bins executables and npm installs restored from a cache. Added skip_if for tasks. Before a task runs, mise runs its skip_if shell command. If the command exits 0, mise skips the task and counts it as successful. Any other exit status runs the task as usual. #14399 [ tasks . setup ] skip_if = \"",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v1.16.6",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
       "published": "2026-10-14T09:31:54Z",
@@ -475,22 +507,6 @@
       "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.10",
       "published": "2026-10-14T08:39:40Z",
       "preview": "Release vfox 2026.10.10",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.10",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.10",
-      "published": "2026-10-14T08:39:06Z",
-      "preview": "Release mise-util 2026.10.10",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.10",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.10",
-      "published": "2026-10-14T08:38:35Z",
-      "preview": "Release mise-settings 2026.10.10",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -605,14 +621,6 @@
       "preview": "Deployment at 2026-10-13T13:45:47.280708Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "vfox-v2026.10.9",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.9",
-      "published": "2026-10-13T13:00:39Z",
-      "preview": "Release vfox 2026.10.9",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "8.1.0.8",
@@ -2053,14 +2061,6 @@
       "preview": "Insert 8.0.0.9 into main on 09/25/2026 12:26:07",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-23-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-23-a",
-      "published": "2026-09-25T08:45:57Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-23-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "0.12.19",
