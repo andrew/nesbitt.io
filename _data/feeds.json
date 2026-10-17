@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-17T16:28:04Z",
-  "cutoff": "2026-09-17T16:27:58Z",
+  "generated": "2026-10-17T17:24:41Z",
+  "cutoff": "2026-09-17T17:24:35Z",
   "feed_count": 104,
-  "item_count": 305,
+  "item_count": 304,
   "categories": [
     ".NET",
     "C/C++",
@@ -2453,14 +2453,6 @@
       "preview": "Fixed: Preserve the version string exactly as written in core metadata, so stylized versions such as CalVer 2026.08.10 are no longer stripped of leading zeros. Distribution file names and .dist-info directories continue to use the PEP 440 normalized form.",
       "source": "Hatch releases",
       "category": "Python"
-    },
-    {
-      "title": "7.0.4",
-      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.4",
-      "published": "2026-09-17T16:38:21Z",
-      "preview": "What's Changed formula: skip Java splash screens in macOS tests by @ashr123 in #24005 Add brew advisory-match --formula-list by @p-linnane in #24007 Update Ubuntu release cycle link by @MikeMcQuaid in #24012 shell: emit a PowerShell assignment from export_value by @rawsun007 in #24010 Avoid sudo for user-local cask app groups by @MikeMcQuaid in #24011 Derive service completions from Cellar paths by @p-linnane in #24009 Prefer Homebrew Python for uv tools by @MikeMcQuaid in #24014 contributions: match co-authored commits made under a real name/email by @iMichka in #23926 cask: improve consisten",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
