@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-16T21:25:33Z",
-  "cutoff": "2026-09-16T21:25:27Z",
+  "generated": "2026-10-17T00:59:42Z",
+  "cutoff": "2026-09-17T00:58:58Z",
   "feed_count": 104,
-  "item_count": 310,
+  "item_count": 309,
   "categories": [
     ".NET",
     "C/C++",
@@ -2493,14 +2493,6 @@
       "preview": "Bug Fixes Fix writing lock files specified as bare relative filenames with pdm lock --lockfile . ( #3891 ) Preserve local paths containing spaces and their extras and environment markers when importing requirements files. ( #3894 ) Documentation List the install-pdm.py options the script actually accepts. ( #3889 )",
       "source": "PDM releases",
       "category": "Python"
-    },
-    {
-      "title": "Be alert: targeted attacks on prominent Rustaceans",
-      "url": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/",
-      "published": "2026-09-17T00:00:00Z",
-      "preview": "We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. What we've seen A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard). These attackers are setting up new but legi",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
