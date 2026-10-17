@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-17T08:32:02Z",
-  "cutoff": "2026-09-17T08:31:53Z",
+  "generated": "2026-10-17T09:27:49Z",
+  "cutoff": "2026-09-17T09:27:39Z",
   "feed_count": 104,
-  "item_count": 308,
+  "item_count": 307,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,20 +23,28 @@
   ],
   "items": [
     {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
+      "published": "2026-10-17T08:45:21Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-17T08:32:55Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
       "title": "44.165.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.165.2",
       "published": "2026-10-17T07:53:44Z",
       "preview": "44.165.2 (2026-10-17) Bug Fixes deps: update renovate-base-image to v13.132.2 (main) ( #47128 ) ( 6c163bc )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-16T21:21:41Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "44.165.1",
@@ -2031,14 +2039,6 @@
       "category": "Maven"
     },
     {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-26-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-26-a",
-      "published": "2026-09-28T08:52:27Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-09-26-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
-    },
-    {
       "title": "7.0.7",
       "url": "https://github.com/Homebrew/brew/releases/tag/7.0.7",
       "published": "2026-09-28T07:49:21Z",
@@ -2477,14 +2477,6 @@
       "preview": "This is the final release of opam 2.6.0. Binaries and full archive are signed by the opam dev team (fingerprint 92C5 26AE 50DF 3947 0EB2 911B ED4C F1CA 67CB AA92 ). To verify the authenticity of one of these files, run the following commands: curl -fsSLO https://opam.ocaml.org/opam-dev-pubkey.pgp gpg --import opam-dev-pubkey.pgp gpg --verify *.sig Changelog : Changes Bump opam-root-version to 2.6 [ #7146 @kit-ty-kate ] Improve and extend the testsuite [ #7146 @kit-ty-kate @rjbou ] To get the detailed list of changes compared to 2.5.2, you can look at the pre-releases' release notes: the releas",
       "source": "opam releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2.9.7",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.7",
-      "published": "2026-09-17T09:04:55Z",
-      "preview": "2.9.7 / 2026.09.16 fix(audit): honor configured CA stores ( #36728 ) fix(cache): make HTTP authority paths unambiguous ( #36356 ) fix(cli): accept all valid sys permission descriptors ( #36753 ) fix(cli): don't duplicate passthrough args for deno deploy/sandbox ( #36722 ) fix(cli): generate valid bash completions ( #36736 ) fix(cli): preserve double dash before the entrypoint ( #36835 ) fix(cli): restore optional-value semantics for deno bundle --sourcemap ( #36723 ) fix(completions): keep the dash on short flags in zsh completions ( #36720 ) fix(desktop): complete deferred window close and fi",
-      "source": "Deno releases",
-      "category": "JavaScript"
     }
   ]
 }
