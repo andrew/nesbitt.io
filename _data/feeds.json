@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-17T10:26:15Z",
-  "cutoff": "2026-09-17T10:26:05Z",
+  "generated": "2026-10-17T11:25:24Z",
+  "cutoff": "2026-09-17T11:25:18Z",
   "feed_count": 104,
   "item_count": 307,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.18.3",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.3",
+      "published": "2026-10-17T11:01:05Z",
+      "preview": "What's Changed Allow selecting dependencies that only ship shell completions by @AryanRG in #2157 fix: resolve lazy imports before self reinstall by @gaborbernat in #2158 New Contributors @AryanRG made their first contribution in #2157 Full Changelog : 1.18.2...1.18.3",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "44.165.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.165.3",
@@ -1884,14 +1892,6 @@
       "published": "2026-09-29T21:14:06Z",
       "preview": "Release Notes Released on 2026-09-29. Python Update CPython to use OpenSSL 3.5.9 ( #22076 ) Enhancements Omit empty [manifest] tables from lockfiles that contain only manifest subtables ( #22070 ) Preview features Omit redundant runtime constraints from uv.lock , including those involving pre-releases, with the resolution-inputs preview feature ( #22004 , #22068 ) Bug fixes Prevent uv python pin --rm from removing a global .python-versions file without --global ( #21992 ) Fix installed-package checks incorrectly reporting post-releases as incompatible with exclusive lower bounds on pre-release",
       "source": "uv releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.17.8",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.8",
-      "published": "2026-09-29T18:48:00Z",
-      "preview": "What's Changed Fix uninject leaving shell completion scripts behind by @00200200 in #2056 New Contributors @00200200 made their first contribution in #2056 Full Changelog : 1.17.7...1.17.8",
-      "source": "pipx releases",
       "category": "Python"
     },
     {
