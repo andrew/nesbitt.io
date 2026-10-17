@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-17T09:27:49Z",
-  "cutoff": "2026-09-17T09:27:39Z",
+  "generated": "2026-10-17T10:26:15Z",
+  "cutoff": "2026-09-17T10:26:05Z",
   "feed_count": 104,
   "item_count": 307,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.165.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.165.3",
+      "published": "2026-10-17T09:48:33Z",
+      "preview": "44.165.3 (2026-10-17) Code Refactoring remove unused exports and types ( #47130 ) ( 0070fc5 ) Build System deps: update dependency prettier to v3.9.10 (main) ( #47131 ) ( 37e9f33 ) detect unused dependencies with knip ( #47129 ) ( 0423ab2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
@@ -283,14 +291,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.5",
       "published": "2026-10-15T14:47:42Z",
       "preview": "44.164.5 (2026-10-15) Bug Fixes workers/repository: pass constraints correctly when applying postUpgradeTasks ( #47069 ) ( 08cb221 ), closes #47068 #43633",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.164.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.4",
-      "published": "2026-10-15T14:06:19Z",
-      "preview": "44.164.4 (2026-10-15) Bug Fixes util/git: use non-empty passwords for token credentials on more platforms ( #47085 ) ( 969b3cb )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
