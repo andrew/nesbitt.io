@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-17T07:29:03Z",
-  "cutoff": "2026-09-17T07:28:20Z",
+  "generated": "2026-10-17T08:32:02Z",
+  "cutoff": "2026-09-17T08:31:53Z",
   "feed_count": 104,
   "item_count": 308,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.165.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.165.2",
+      "published": "2026-10-17T07:53:44Z",
+      "preview": "44.165.2 (2026-10-17) Bug Fixes deps: update renovate-base-image to v13.132.2 (main) ( #47128 ) ( 6c163bc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -285,14 +293,6 @@
       "preview": "This release stops pnpm publish from sending a CI identity token to a registry it was not issued for. It also fixes installs that dropped a dependency also declared as an optional peer, and accepts empty httpProxy and httpsProxy settings again. Patch Changes Security pnpm publish now uses an NPM_ID_TOKEN only if its aud claim matches the selected registry, such as npm:registry.npmjs.org . A token for another registry is skipped with a warning, and pnpm falls back to the configured credentials. The warning about renamed package files with invalid names no longer prints control characters from t",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.164.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.3",
-      "published": "2026-10-15T13:42:38Z",
-      "preview": "44.164.3 (2026-10-15) Bug Fixes deps: update renovate-base-image to v13.131.1 (main) ( #47078 ) ( a4628c6 ) Miscellaneous Chores deps: update dependency vite to v8.3.4 (main) ( #47082 ) ( b1a78f3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.14.0",
