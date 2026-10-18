@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-18T10:26:57Z",
-  "cutoff": "2026-09-18T10:26:52Z",
+  "generated": "2026-10-18T13:26:04Z",
+  "cutoff": "2026-09-18T13:25:50Z",
   "feed_count": 104,
   "item_count": 295,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
+      "published": "2026-10-18T13:06:33Z",
+      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "44.167.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.1",
@@ -1925,14 +1933,6 @@
       "preview": "Feature: Support for CPS components configurations. ( #20354 ) Feature: Use extra_info to provide CPEs to the component. ( #20353 ) Feature: Download recipe and package metadata in parallel with regular files instead of after them. ( #20351 ) Feature: Add core.net.http:trust_store conf to verify HTTPS certs against the OS trust store. ( #20343 ). Docs: 📃 Feature: New remotes force_auth capability. ( #20341 ). Docs: 📃 Feature: Add copy_config_files to the [runner] profile to copy extra host config files into Docker runners. ( #20332 ). Docs: 📃 Feature: Support Clang 23. ( #20330 ) Feature: Supp",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "swift-6.4.1-RELEASE: Merge pull request #10475 from shahmishal/version-bump-6.4.1",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.1-RELEASE",
-      "published": "2026-09-29T15:37:55Z",
-      "preview": "Update the Swift version to 6.4.1",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "v6.1.3",
