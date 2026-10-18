@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-18T01:04:37Z",
-  "cutoff": "2026-09-18T01:04:31Z",
+  "generated": "2026-10-18T03:33:37Z",
+  "cutoff": "2026-09-18T03:33:32Z",
   "feed_count": 104,
   "item_count": 295,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.0.11",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.11",
+      "published": "2026-10-18T03:11:51Z",
+      "preview": "2.0.11",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
     {
       "title": "v2026.10.13: Untrusted project configs can no longer change settings",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.13",
@@ -2373,14 +2381,6 @@
       "preview": "Release Notes Released on 2026-09-18. Enhancements Reject unsupported Git archive paths in lockfiles with a clear error instead of panicking during frozen exports ( #21780 ) Preview features Set minimum glibc and musl versions that universal resolutions must support with minimum-libc-version ( #21651 ) Reject pylock.toml files whose wheel filenames do not match their declared package names or versions ( #20746 ) Keep uv workspace metadata read-only unless --sync is provided ( #21821 ) Apply uv check lock modes when retrieving workspace metadata ( #21821 ) Performance Speed up builds with many ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "v9.9.0-M2",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.9.0-M2",
-      "published": "2026-09-18T02:59:02Z",
-      "preview": "Merge release into master (20260918) ( #39216 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     }
   ]
 }
