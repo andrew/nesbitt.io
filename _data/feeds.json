@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-18T06:41:39Z",
-  "cutoff": "2026-09-18T06:41:25Z",
+  "generated": "2026-10-18T07:28:49Z",
+  "cutoff": "2026-09-18T07:28:44Z",
   "feed_count": 104,
   "item_count": 295,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.167.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.0",
+      "published": "2026-10-18T07:01:36Z",
+      "preview": "44.167.0 (2026-10-18) Features data: automatic update of static data ( #47137 ) ( d9a9d00 ) Miscellaneous Chores deps: update dependency oxlint-tsgolint to v7.0.2004 (main) ( #47135 ) ( 73d4554 ) deps: update dependency tsdown to v0.23.1 (main) ( #47136 ) ( 6b2de57 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.18.4",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.4",
@@ -301,14 +309,6 @@
       "preview": "12.2.1 (2026-10-14) Bug Fixes b317f16 #9941 write registry allowScripts keys under install-strategy=linked ( #9941 ) ( @manzoorwanijk ) Dependencies 7b0c2e8 #10088 http-cache-semantics@4.3.0 ( @reggi ) e9e99b4 #10088 undici@6.29.0 ( @reggi ) 857d7df #10088 postcss-selector-parser@7.1.6 ( @reggi ) bc7bb3a #10088 ip-address@10.7.2 ( @reggi ) 7614360 #10088 brace-expansion@5.0.12 ( @reggi ) workspace : @npmcli/arborist@10.0.4 workspace : libnpmdiff@9.0.4 workspace : libnpmexec@11.0.4 workspace : libnpmfund@8.0.4 workspace : libnpmpack@10.0.4",
       "source": "npm CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.164.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.6",
-      "published": "2026-10-15T17:45:50Z",
-      "preview": "44.164.6 (2026-10-15) Build System deps: update dependency cronstrue to v3.31.0 (main) ( #47091 ) ( 47886b6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "8.1.0.9",
