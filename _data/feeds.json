@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-18T19:23:24Z",
-  "cutoff": "2026-09-18T19:23:18Z",
+  "generated": "2026-10-18T20:27:21Z",
+  "cutoff": "2026-09-18T20:27:17Z",
   "feed_count": 104,
   "item_count": 294,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.167.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.5",
+      "published": "2026-10-18T19:47:48Z",
+      "preview": "44.167.5 (2026-10-18) Bug Fixes deps: update renovate-base-image to v13.133.1 (main) ( #47147 ) ( 675b183 ) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.8.1 (main) ( #47146 ) ( 598f324 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.18.4",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.4",
@@ -373,14 +381,6 @@
       "preview": "Tag 8.1.0.12",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.165.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.165.0",
-      "published": "2026-10-16T15:58:10Z",
-      "preview": "44.165.0 (2026-10-16) Features deps: update renovate-base-image to v13.132.0 (main) ( #47112 ) ( 5d90569 ) Miscellaneous Chores deps: update dependency smol-toml@<=1.8.0 to v1.9.1 (main) ( #47104 ) ( 1a5643c ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.42.0 (main) ( #47111 ) ( f7e658d ) deps: update jdx/mise-action action to v5.2.0 (main) ( #47106 ) ( e21b57b ) Code Refactoring datasource: move the git host tags datasources onto GitHostTagsDigestDatasource ( #46896 ) ( b8f6dbb ) versioning/gomod: parse the commit of pseudo-versions ( #47097 ) ( 7286ebe )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
