@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-18T05:27:38Z",
-  "cutoff": "2026-09-18T05:27:29Z",
+  "generated": "2026-10-18T06:41:39Z",
+  "cutoff": "2026-09-18T06:41:25Z",
   "feed_count": 104,
   "item_count": 295,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.18.4",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.4",
+      "published": "2026-10-18T06:39:11Z",
+      "preview": "What's Changed fix(reset): cancel when the confirmation prompt reads EOF by @XXXXXQ-0206 in #2160 New Contributors @XXXXXQ-0206 made their first contribution in #2160 Full Changelog : 1.18.3...1.18.4",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "2.0.11",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.11",
@@ -1661,14 +1669,6 @@
       "preview": "This release runs pnpm in StackBlitz WebContainers, adds a per-registry networkConcurrency setting, and records every installed project in the store. It also carries a security fix for pnpm login.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "1.17.9",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.9",
-      "published": "2026-10-01T23:34:50Z",
-      "preview": "What's Changed Do not push an app script's shebang past the kernel's length limit by @feiiiiii5 in #2058 New Contributors @feiiiiii5 made their first contribution in #2058 Full Changelog : 1.17.8...1.17.9",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "v1.3.4",
