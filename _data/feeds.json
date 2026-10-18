@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-18T07:28:49Z",
-  "cutoff": "2026-09-18T07:28:44Z",
+  "generated": "2026-10-18T10:26:57Z",
+  "cutoff": "2026-09-18T10:26:52Z",
   "feed_count": 104,
   "item_count": 295,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.167.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.1",
+      "published": "2026-10-18T09:48:39Z",
+      "preview": "44.167.1 (2026-10-18) Documentation abandoned prs ( #44984 ) ( 7f4fa60 ) Build System deps: update dependency p-queue to v9.3.4 (main) ( #47138 ) ( 2450b18 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.167.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.0",
@@ -261,14 +269,6 @@
       "preview": "Introducing interactive refactoring in gopls and the LSP: a new capability that brings dynamic, multi-step refactorings into your favorite editor.",
       "source": "Go Blog",
       "category": "Go"
-    },
-    {
-      "title": "44.164.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.7",
-      "published": "2026-10-15T23:59:54Z",
-      "preview": "44.164.7 (2026-10-15) Bug Fixes deps: update renovate-base-image to v13.131.2 (main) ( #47094 ) ( df917bb ) Miscellaneous Chores deps: update zizmor (main) ( #47095 ) ( 501a2a0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "libnpmpack: v10.0.4",
