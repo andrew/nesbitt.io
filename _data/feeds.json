@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-18T15:26:15Z",
-  "cutoff": "2026-09-18T15:26:05Z",
+  "generated": "2026-10-18T16:28:43Z",
+  "cutoff": "2026-09-18T16:28:33Z",
   "feed_count": 104,
   "item_count": 295,
   "categories": [
@@ -22,6 +22,86 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.14",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.14",
+      "published": "2026-10-18T16:06:43Z",
+      "preview": "(backend) reject tool options a backend does not read by @jdx i…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-daemons-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.10.1",
+      "published": "2026-10-18T16:06:11Z",
+      "preview": "Release mise-daemons 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.1",
+      "published": "2026-10-18T16:06:04Z",
+      "preview": "Release mise-oci 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.1",
+      "published": "2026-10-18T16:05:57Z",
+      "preview": "Release mise-system 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.14",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.14",
+      "published": "2026-10-18T16:05:48Z",
+      "preview": "Release vfox 2026.10.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.1",
+      "published": "2026-10-18T16:05:19Z",
+      "preview": "Release mise-system-packages 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.1",
+      "published": "2026-10-18T16:05:09Z",
+      "preview": "Release mise-ui 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.14",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.14",
+      "published": "2026-10-18T16:05:03Z",
+      "preview": "Release mise-util 2026.10.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.14",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.14",
+      "published": "2026-10-18T16:04:33Z",
+      "preview": "Release mise-settings 2026.10.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-config-v2026.10.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-config-v2026.10.0",
+      "published": "2026-10-18T16:04:08Z",
+      "preview": "Release mise-config 2026.10.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "@verdaccio/test-helper@5.0.0-next-9.37",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%405.0.0-next-9.37",
@@ -141,86 +221,6 @@
       "preview": "🐛 bug fixes fix: Fix AccessDeniedException writing SemanticDB by @eed3si9n in #9878 fix: Fixes .m2/settings.xml overriding sbtResolvers by @eed3si9n in #9828 fix: Keep accepting after a client fails by @kitbellew in #9691 fix: Fix task output lost by the thin client under CPU load by @eed3si9n in #9868 fix: Read all forked test output before reporting the fork's exit by @eugkhp in #9860 fix: Use Path.userHome to work around user.home returning ? by @eed3si9n in #9866 fix: Fail a gRPC batch read when a blob fails by @eugkhp in #9904 fix: Fix pipelined compile hanging when compile inputs fail by",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "v2026.10.13: Untrusted project configs can no longer change settings",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.13",
-      "published": "2026-10-17T18:29:52Z",
-      "preview": "mise now ignores [settings] in a project config until you trust it. This release also adds per-version-range backend options to the registry and template support for command wrappers and [bootstrap.repos] . It fixes several bugs in lockfiles, tasks and multi-version tool options. Security [settings] from untrusted project configs is ignored. Before, a cloned repo's mise.toml could change settings as soon as mise found it, with no trust prompt. That included settings that redirect downloads or feed build commands, such as node.mirror_url , python.pyenv_repo and ruby.precompiled_url . These sett",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-daemons-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.10.0",
-      "published": "2026-10-17T16:00:59Z",
-      "preview": "Release mise-daemons 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-oci-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.0",
-      "published": "2026-10-17T16:00:52Z",
-      "preview": "Release mise-oci 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.0",
-      "published": "2026-10-17T16:00:46Z",
-      "preview": "Release mise-system 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.10.13",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.13",
-      "published": "2026-10-17T16:00:39Z",
-      "preview": "Release vfox 2026.10.13",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-config-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-config-v2026.10.0",
-      "published": "2026-10-17T16:00:17Z",
-      "preview": "Release mise-system-config 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.0",
-      "published": "2026-10-17T16:00:10Z",
-      "preview": "Release mise-system-packages 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.0",
-      "published": "2026-10-17T16:00:01Z",
-      "preview": "Release mise-ui 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.13",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.13",
-      "published": "2026-10-17T15:59:55Z",
-      "preview": "Release mise-util 2026.10.13",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.13",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.13",
-      "published": "2026-10-17T15:59:28Z",
-      "preview": "Release mise-settings 2026.10.13",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "cabal-head",
