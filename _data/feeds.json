@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-18T18:30:55Z",
-  "cutoff": "2026-09-18T18:30:50Z",
+  "generated": "2026-10-18T19:23:24Z",
+  "cutoff": "2026-09-18T19:23:18Z",
   "feed_count": 104,
-  "item_count": 295,
+  "item_count": 294,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,102 @@
   ],
   "items": [
     {
+      "title": "1.18.4",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.4",
+      "published": "2026-10-18T18:59:37Z",
+      "preview": "Bugfixes pipx reset now cancels instead of crashing when the confirmation prompt reads EOF (Ctrl-D on POSIX, Ctrl-Z then Enter on Windows). ( #2160 ) PyPI release Full Changelog : 1.18.3...1.18.4",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.18.3",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.3",
+      "published": "2026-10-18T18:59:34Z",
+      "preview": "Bugfixes Allow selecting dependencies that ship only shell completions. ( #2157 ) PyPI release Full Changelog : 1.18.2...1.18.3",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.18.2",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.2",
+      "published": "2026-10-18T18:59:32Z",
+      "preview": "Bugfixes Accept absolute file:/// URLs as package specs, such as pipx install file:///wheels/tool-1-py3-none-any.whl . ( #2150 ) In a terminal, show the pipx spinner again during installs and upgrades instead of the full pip or uv log, which --verbose still streams. Installer errors are still printed on failure. ( #2151 ) Print the installer error once when a pipx upgrade --verbose or pip pipx install --verbose fails, instead of repeating it after the live output. ( #2153 ) Stop an -all command on Ctrl-C even when the interpreter drops the interrupt, which happens when the signal handler runs ",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.18.1",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.1",
+      "published": "2026-10-18T18:59:30Z",
+      "preview": "Bugfixes Stop pip and uv when Ctrl-C lands early, instead of hanging. ( #2146 ) PyPI release Full Changelog : 1.18.0...1.18.1",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.18.0",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.0",
+      "published": "2026-10-18T18:59:28Z",
+      "preview": "Features Put --suffix last, except before a Windows file extension. Apps exposed by 1.17.14 keep their old name until pipx next exposes them, which renames them. ( #2098 ) upgrade and reinstall-all refresh shared pip only after 30 days. ( #2116 ) Run pipx upgrade-shared to refresh shared pip sooner. ( #2116 ) Set PYTHON_LAZY_IMPORTS=normal to opt out; the entry point is pipx.__main__ . ( #2132 ) Defer every import, dependencies included, on Python 3.15 for faster startup. ( #2132 ) Run reinstall-all , upgrade-all and install-all across venvs at once. ( #2137 ) Let running upgrades finish on Ct",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.17.14",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.14",
+      "published": "2026-10-18T18:59:25Z",
+      "preview": "Bugfixes Build pipx wheels with Docutils 0.21.2 and later, including environments pinned to Docutils 0.22. ( #2084 ) Improved Documentation Say that pipx rejects --global before the subcommand instead of ignoring it. ( #2082 ) PyPI release Full Changelog : 1.17.13...1.17.14",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.17.13",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.13",
+      "published": "2026-10-18T18:59:23Z",
+      "preview": "Bugfixes Accept bare and suffixed injected package names in pipx pin --skip . ( #2079 ) Use each snapshot's recorded interpreter when pipx install-all rebuilds an environment unless the user passes --python . ( #2081 ) PyPI release Full Changelog : 1.17.12...1.17.13",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.17.12",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.12",
+      "published": "2026-10-18T18:59:21Z",
+      "preview": "Bugfixes Stop pipx reinstall from printing a traceback when the reinstall fails for an expected reason. ( #2070 ) Stop pipx install printing WARNING: Skipping setuptools as it is not installed. when the shared libraries are created on Python 3.12+, where setuptools is already absent. ( #2071 ) Stop an injected package in a suffixed environment from being renamed every time its record is rewritten: pipx upgrade , pipx pin and pipx reinstall no longer append the environment suffix again, so the package keeps its name in pipx list --include-injected and stays addressable by pipx uninject . ( #207",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.17.11",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.11",
+      "published": "2026-10-18T18:59:19Z",
+      "preview": "Improved Documentation Hide the extra documentation TOC toggle on narrow screens. ( #2064 ) PyPI release Full Changelog : 1.17.10...1.17.11",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.17.10",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.10",
+      "published": "2026-10-18T18:59:17Z",
+      "preview": "Bugfixes Remove an environment that has no pipx metadata and an interpreter that no longer runs, instead of crashing pipx uninstall and pipx uninstall-all . ( #2059 ) Derive local script command names from the filename when parent directories contain # . A script installed by an earlier release under its directory's name no longer upgrades; uninstall it and install it again. ( #2060 ) Install a local PEP 723 script from its file when the path reads as a PyPI name ( pipx install bare.py ), contains [ , or starts with a quoted ~ , and stop the upgrade hint from suggesting a PyPI reinstall for a ",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "44.167.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.4",
+      "published": "2026-10-18T18:56:24Z",
+      "preview": "44.167.4 (2026-10-18) Build System deps: update dependency @renovatebot/detect-tools to v4.0.22 (main) ( #47144 ) ( 3552d66 ) deps: update dependency protobufjs to v8.8.1 (main) ( #47145 ) ( 7c9148b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.10.14: Global override config, mise config explain, and stricter tool option checks",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.14",
+      "published": "2026-10-18T18:37:28Z",
+      "preview": "A global config.override.toml can now take precedence over project config, and mise config explain describes each key in a config file. Paranoid mode can be turned on per category, and in that mode dotenv files need their own content-bound trust. Installs now fail when a tool has an option its backend doesn't read, which affects existing configs (see Changed). Added Global override files. ~/.config/mise/config.override.toml , and config.<env>.override.toml for each MISE_ENV , rank above every project file, including mise.local.toml and mise.<env>.toml . This covers [env] , [tools] , [settings]",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "44.167.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.3",
       "published": "2026-10-18T17:54:09Z",
@@ -37,14 +133,6 @@
       "preview": "44.167.2 (2026-10-18) Build System deps: update dependency p-map to v7.1.1 (main) ( #47141 ) ( ecc102b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.10.14",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.14",
-      "published": "2026-10-18T16:06:43Z",
-      "preview": "(backend) reject tool options a backend does not read by @jdx i…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-daemons-v2026.10.1",
@@ -223,14 +311,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "1.18.4",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.4",
-      "published": "2026-10-18T06:39:11Z",
-      "preview": "What's Changed fix(reset): cancel when the confirmation prompt reads EOF by @XXXXXQ-0206 in #2160 New Contributors @XXXXXQ-0206 made their first contribution in #2160 Full Changelog : 1.18.3...1.18.4",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
       "title": "2.0.11",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.11",
       "published": "2026-10-18T04:39:11Z",
@@ -253,14 +333,6 @@
       "preview": "44.166.0 (2026-10-17) Features deps: update renovate-base-image to v13.133.0 (main) ( #47133 ) ( 6d36b40 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "1.18.3",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.3",
-      "published": "2026-10-17T11:01:05Z",
-      "preview": "What's Changed Allow selecting dependencies that only ship shell completions by @AryanRG in #2157 fix: resolve lazy imports before self reinstall by @gaborbernat in #2158 New Contributors @AryanRG made their first contribution in #2157 Full Changelog : 1.18.2...1.18.3",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "44.165.3",
@@ -319,14 +391,6 @@
       "category": "Registries"
     },
     {
-      "title": "44.164.10",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.164.10",
-      "published": "2026-10-16T09:55:36Z",
-      "preview": "44.164.10 (2026-10-16) Bug Fixes deps: update renovate-base-image to v13.131.3 (main) ( #47100 ) ( 530fb9c ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.41.1 (main) ( #47099 ) ( fce5e50 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-14-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-14-a",
       "published": "2026-10-16T08:48:25Z",
@@ -340,14 +404,6 @@
       "published": "2026-10-16T06:09:00Z",
       "preview": "PyPI improves on checks for the reputation of an email address when used to register an account or add to an existing account, and rejects addresses identified as disposable. With the new check in place, outlook.com and hotmail.com addresses can once again be used on PyPI. Background In June 2024 we prohibited Outlook email domains after a malware campaign registered accounts in bulk with outlook.com and hotmail.com addresses. Until now, PyPI has blocked disposable email addresses with two lists: the public disposable-email-domains list, and our own internal list of prohibited domains. Both ar",
       "source": "PyPI Blog",
-      "category": "Python"
-    },
-    {
-      "title": "1.18.2",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.2",
-      "published": "2026-10-16T05:57:01Z",
-      "preview": "What's Changed 🧪 test: report coverage against src paths by @gaborbernat in #2147 🧪 test: give macOS CI the longer test time limit by @gaborbernat in #2148 Accept absolute file URLs for local package installs by @srijan2607 in #2150 🐛 fix(install): restore the spinner as default output by @gaborbernat in #2152 🐛 fix(fanout): stop on an interrupt the interpreter dropped by @gaborbernat in #2154 🐛 fix(install): print installer errors once in verbose by @gaborbernat in #2153 New Contributors @srijan2607 made their first contribution in #2150 Full Changelog : 1.18.1...1.18.2",
-      "source": "pipx releases",
       "category": "Python"
     },
     {
@@ -477,22 +533,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-13-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "1.18.1",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.1",
-      "published": "2026-10-15T08:19:56Z",
-      "preview": "Fixed Ctrl-C during a streamed pip or uv run stops them instead of hanging pipx. ( #2146 )",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.18.0",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.0",
-      "published": "2026-10-15T07:27:01Z",
-      "preview": "Added reinstall-all , upgrade-all and install-all work on several environments at once; --verbose keeps them sequential. ( #2137 ) Ctrl-C during upgrade-all lets running upgrades finish; a second Ctrl-C stops them, and the next upgrade , upgrade-all or reinstall repairs any environment left half-upgraded. ( #2144 ) Python 3.15 starts pipx with lazy imports; set PYTHON_LAZY_IMPORTS=normal to turn them off. ( #2129 , #2132 ) uv-backend installs retry on a Python that satisfies requires-python , as pip-backend installs already did. ( #2144 ) install-all --backend translates recorded index options",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "Helm v4.3.1",
@@ -847,14 +887,6 @@
       "category": "Elixir"
     },
     {
-      "title": "1.17.14",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.14",
-      "published": "2026-10-12T07:23:13Z",
-      "preview": "What's Changed docs: say pipx rejects --global before the subcommand by @Ronak-Mahidharia in #2082 fix: lower the docutils build floor to 0.22 by @bfs2021 in #2084 New Contributors @Ronak-Mahidharia made their first contribution in #2082 @bfs2021 made their first contribution in #2084 Full Changelog : 1.17.13...1.17.14",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
       "title": "pnpm 10.34.7",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.7",
       "published": "2026-10-12T06:05:46Z",
@@ -893,14 +925,6 @@
       "preview": "This release adds OIDC authentication to pnpm dist-tag and the tool: protocol. pnpm publish now checks which registry an NPM_ID_TOKEN was issued for before using it.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "1.17.13",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.13",
-      "published": "2026-10-10T21:20:49Z",
-      "preview": "What's Changed fix(pin): accept suffixed names in --skip by @VedantBhayani in #2079 feat(python): default to Python 3.15 by @gaborbernat in #2080 fix(install-all): restore the interpreter recorded in the snapshot by @feiiiiii5 in #2081 New Contributors @VedantBhayani made their first contribution in #2079 Full Changelog : 1.17.12...1.17.13",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "pnpm 12.12.0",
@@ -1311,14 +1335,6 @@
       "category": "Containers"
     },
     {
-      "title": "1.17.12",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.12",
-      "published": "2026-10-07T20:09:29Z",
-      "preview": "What's Changed docs: update logo author credit by @hfycium in #2075 fix(reinstall): don't print a traceback for an expected reinstall failure by @ParamTanna in #2070 Skip the setuptools uninstall when it is not installed by @officialpm in #2071 fix: keep injected package names stable in suffixed environments by @feiiiiii5 in #2072 New Contributors @hfycium made their first contribution in #2075 @ParamTanna made their first contribution in #2070 @officialpm made their first contribution in #2071 Full Changelog : 1.17.11...1.17.12",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
       "title": "v1.17.0-rc1",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc1",
       "published": "2026-10-07T19:46:06Z",
@@ -1527,14 +1543,6 @@
       "category": "Registries"
     },
     {
-      "title": "1.17.11",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.11",
-      "published": "2026-10-03T23:59:18Z",
-      "preview": "What's Changed 👷 ci: pin ubuntu-26.04, clear warnings, bump deps by @gaborbernat in #2063 Hide the extra docs TOC toggle on narrow screens by @ekanshul in #2065 New Contributors @ekanshul made their first contribution in #2065 Full Changelog : 1.17.10...1.17.11",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
       "title": "v0.51.0",
       "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/tag/v0.51.0",
       "published": "2026-10-03T23:14:56Z",
@@ -1597,14 +1605,6 @@
       "preview": "Bug fixes Keep cached package archive paths consistent with their recorded filenames and checksums when both archive formats are present. Restore the fix from conda 26.7.3 that was missing in 26.9.0. ( #9674 via #16793 ) Contributors @jezdez",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "1.17.10",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.10",
-      "published": "2026-10-02T15:37:18Z",
-      "preview": "What's Changed Fix local script app names in paths containing # by @maple-pwn in #2061 🐛 fix(uninstall): remove venvs pipx cannot inspect by @hemcharan710-afk in #2059 🐛 fix(install): keep local script specs on the file by @gaborbernat in #2062 New Contributors @maple-pwn made their first contribution in #2061 @hemcharan710-afk made their first contribution in #2059 Full Changelog : 1.17.9...1.17.10",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "v1.16.5",
@@ -2372,14 +2372,6 @@
       "published": "2026-09-19T18:13:07Z",
       "preview": "Added Add an installer.builtin-uninstall setting to uninstall packages with a built-in uninstaller instead of invoking pip uninstall ( #10931 ). Add official support for Python 3.15 ( #11046 ). Changed Do not send credentials configured for an https repository via http ( #11073 ). Fail with an error when the current Python version is not compatible with the project and virtualenvs.create is false ( #10941 ). Validate version constraints that are entered interactively in poetry init ( #10909 ). Include the path of the pyproject.toml file in the message about already present packages in poetry a",
       "source": "Poetry releases",
-      "category": "Python"
-    },
-    {
-      "title": "0.12.17",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.17",
-      "published": "2026-09-18T18:59:24Z",
-      "preview": "Release Notes Released on 2026-09-18. Enhancements Reject unsupported Git archive paths in lockfiles with a clear error instead of panicking during frozen exports ( #21780 ) Preview features Set minimum glibc and musl versions that universal resolutions must support with minimum-libc-version ( #21651 ) Reject pylock.toml files whose wheel filenames do not match their declared package names or versions ( #20746 ) Keep uv workspace metadata read-only unless --sync is provided ( #21821 ) Apply uv check lock modes when retrieving workspace metadata ( #21821 ) Performance Speed up builds with many ",
-      "source": "uv releases",
       "category": "Python"
     }
   ]
