@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-12T05:59:30Z",
+  "generated": "2026-10-19T05:53:31Z",
   "cwe_version": "4.20",
-  "cve_files": 404405,
-  "total_refs": 221386,
+  "cve_files": 409874,
+  "total_refs": 226882,
   "years": {
     "1999": {
       "cve_files": 321,
@@ -406,6 +406,8 @@
         "306": 1,
         "307": 1,
         "749": 1,
+        "22": 4,
+        "352": 2,
         "502": 1,
         "1262": 1,
         "200": 6,
@@ -414,7 +416,6 @@
         "120": 3,
         "269": 1,
         "787": 4,
-        "22": 3,
         "119": 3,
         "284": 2,
         "88": 1,
@@ -433,7 +434,6 @@
         "918": 1,
         "321": 1,
         "798": 1,
-        "352": 1,
         "835": 1,
         "843": 1,
         "400": 1,
@@ -931,7 +931,7 @@
         "552": 4,
         "353": 2,
         "477": 3,
-        "426": 3,
+        "426": 4,
         "465": 1,
         "170": 3,
         "415": 4,
@@ -1076,7 +1076,7 @@
         "294": 9,
         "269": 61,
         "315": 1,
-        "80": 32,
+        "80": 33,
         "311": 13,
         "319": 25,
         "73": 16,
@@ -1141,7 +1141,7 @@
         "345": 10,
         "399": 13,
         "321": 13,
-        "426": 17,
+        "426": 19,
         "413": 1,
         "276": 27,
         "626": 2,
@@ -3810,277 +3810,280 @@
       }
     },
     "2026": {
-      "cve_files": 77344,
+      "cve_files": 82781,
       "counts": {
-        "122": 1413,
-        "176": 24,
-        "193": 73,
-        "384": 79,
-        "434": 796,
+        "122": 1787,
+        "176": 25,
+        "193": 80,
+        "384": 86,
+        "434": 821,
         "145": 1,
-        "672": 35,
-        "191": 206,
-        "79": 6942,
-        "565": 14,
-        "22": 2605,
-        "321": 149,
-        "352": 1041,
-        "89": 3688,
-        "77": 1014,
+        "672": 36,
+        "191": 246,
+        "79": 7293,
+        "565": 15,
+        "22": 2728,
+        "321": 171,
+        "352": 1066,
+        "89": 3841,
+        "77": 1034,
         "257": 16,
-        "538": 33,
-        "552": 99,
-        "798": 299,
-        "276": 145,
+        "120": 803,
+        "119": 1182,
+        "538": 38,
+        "552": 107,
+        "798": 308,
+        "276": 150,
         "551": 21,
-        "639": 1763,
-        "787": 1487,
+        "639": 1953,
+        "787": 1609,
         "428": 207,
-        "98": 616,
-        "863": 1827,
-        "306": 1591,
-        "78": 1896,
-        "121": 1197,
-        "284": 3831,
-        "287": 1099,
-        "285": 678,
-        "208": 110,
-        "94": 1754,
-        "502": 1145,
-        "470": 78,
+        "98": 621,
+        "863": 1991,
+        "835": 238,
+        "306": 1688,
+        "78": 1991,
+        "121": 1300,
+        "284": 3891,
+        "287": 1155,
+        "285": 701,
+        "208": 114,
+        "94": 1858,
+        "502": 1197,
+        "470": 82,
         "1334": 1,
-        "20": 1726,
-        "1188": 126,
+        "20": 1813,
+        "1188": 135,
         "466": 6,
         "1282": 7,
-        "1285": 26,
+        "1285": 28,
         "233": 7,
-        "120": 790,
-        "1260": 12,
+        "1260": 13,
         "1389": 4,
-        "763": 23,
+        "763": 31,
         "1312": 1,
-        "601": 432,
-        "326": 39,
-        "789": 208,
-        "674": 261,
-        "290": 296,
-        "204": 82,
-        "497": 159,
-        "862": 4121,
-        "256": 50,
-        "427": 192,
-        "319": 159,
-        "312": 133,
-        "918": 1892,
-        "203": 102,
-        "770": 1085,
-        "732": 243,
-        "400": 1224,
-        "303": 43,
+        "601": 456,
+        "326": 43,
+        "789": 222,
+        "674": 275,
+        "290": 318,
+        "204": 90,
+        "497": 186,
+        "862": 4422,
+        "256": 51,
+        "427": 196,
+        "319": 163,
+        "312": 139,
+        "918": 1980,
+        "203": 110,
+        "770": 1151,
+        "732": 261,
+        "400": 1287,
+        "303": 47,
         "260": 2,
-        "73": 404,
-        "807": 77,
-        "836": 5,
+        "73": 418,
+        "807": 88,
+        "836": 6,
         "226": 21,
-        "131": 80,
-        "775": 4,
+        "131": 84,
+        "775": 5,
         "469": 1,
-        "1287": 54,
+        "1287": 57,
         "612": 4,
         "520": 4,
-        "940": 27,
+        "940": 31,
         "168": 1,
-        "641": 7,
+        "641": 8,
         "606": 32,
-        "327": 125,
-        "295": 394,
-        "620": 34,
+        "327": 126,
+        "295": 424,
+        "620": 38,
         "1316": 1,
-        "379": 16,
-        "532": 254,
-        "15": 42,
-        "451": 289,
+        "379": 17,
+        "532": 266,
+        "15": 47,
+        "451": 290,
         "924": 8,
-        "1286": 44,
-        "359": 57,
-        "288": 272,
-        "782": 22,
+        "1286": 50,
+        "359": 58,
+        "288": 284,
+        "782": 23,
         "914": 4,
-        "829": 172,
-        "1392": 47,
+        "829": 181,
+        "1392": 50,
         "548": 9,
-        "331": 34,
-        "1236": 41,
-        "522": 276,
-        "201": 225,
-        "200": 1843,
-        "95": 108,
-        "640": 101,
-        "328": 41,
-        "611": 152,
-        "307": 184,
-        "415": 132,
-        "348": 55,
-        "778": 19,
-        "125": 1664,
-        "190": 722,
-        "822": 97,
-        "347": 334,
-        "1220": 49,
-        "266": 571,
-        "1284": 199,
-        "80": 151,
-        "59": 397,
-        "494": 72,
-        "178": 74,
-        "704": 43,
-        "367": 354,
-        "362": 551,
-        "426": 111,
+        "331": 35,
+        "1236": 44,
+        "522": 284,
+        "201": 236,
+        "200": 1939,
+        "95": 118,
+        "640": 110,
+        "328": 43,
+        "611": 162,
+        "307": 199,
+        "415": 163,
+        "348": 60,
+        "778": 20,
+        "1394": 11,
+        "125": 2001,
+        "190": 806,
+        "822": 133,
+        "347": 355,
+        "1220": 58,
+        "1242": 6,
+        "266": 598,
+        "1284": 213,
+        "80": 162,
+        "59": 439,
+        "494": 76,
+        "178": 80,
+        "1321": 195,
+        "704": 44,
+        "367": 388,
+        "362": 621,
+        "426": 123,
         "1395": 28,
-        "345": 345,
-        "1336": 166,
+        "345": 369,
+        "1336": 176,
         "1077": 2,
-        "91": 36,
-        "346": 404,
-        "1288": 16,
-        "248": 163,
-        "294": 100,
+        "91": 39,
+        "346": 422,
+        "1288": 19,
+        "248": 186,
+        "294": 105,
         "788": 4,
-        "129": 123,
-        "88": 201,
-        "23": 173,
-        "441": 135,
+        "129": 129,
+        "88": 214,
+        "23": 185,
+        "441": 141,
         "1304": 1,
-        "119": 1148,
-        "843": 279,
-        "669": 47,
-        "835": 221,
+        "843": 301,
+        "669": 50,
         "1104": 14,
-        "209": 145,
-        "1242": 5,
-        "755": 57,
-        "776": 28,
+        "209": 153,
+        "755": 60,
+        "776": 31,
         "1025": 15,
-        "304": 17,
-        "407": 162,
-        "444": 163,
-        "130": 54,
-        "74": 1731,
-        "269": 1168,
-        "682": 33,
+        "304": 20,
+        "407": 175,
+        "444": 169,
+        "372": 5,
+        "130": 63,
+        "74": 1796,
+        "269": 1227,
+        "682": 35,
         "506": 29,
-        "1321": 188,
-        "416": 2076,
+        "416": 2483,
         "298": 2,
-        "799": 34,
-        "804": 7,
+        "799": 35,
+        "804": 8,
         "692": 5,
         "525": 9,
         "614": 19,
-        "425": 38,
-        "942": 80,
-        "308": 11,
+        "425": 40,
+        "942": 83,
+        "308": 13,
         "29": 8,
-        "693": 499,
-        "124": 17,
+        "693": 522,
+        "124": 20,
         "1191": 11,
         "1189": 3,
         "1274": 3,
-        "613": 216,
+        "613": 231,
         "521": 20,
         "24": 27,
-        "212": 37,
-        "281": 33,
-        "833": 9,
-        "330": 67,
-        "644": 27,
+        "212": 38,
+        "281": 34,
+        "833": 12,
+        "330": 69,
+        "644": 28,
         "261": 11,
         "228": 9,
         "334": 2,
         "329": 4,
         "530": 3,
-        "338": 74,
-        "1333": 166,
+        "338": 75,
+        "1333": 176,
         "758": 25,
-        "564": 10,
+        "564": 12,
         "1173": 3,
         "75": 5,
-        "134": 49,
-        "113": 56,
+        "134": 56,
+        "113": 58,
         "1125": 1,
-        "401": 159,
-        "252": 47,
-        "390": 12,
+        "401": 174,
+        "252": 50,
+        "390": 13,
         "353": 20,
-        "476": 601,
-        "922": 21,
+        "476": 680,
+        "922": 23,
         "296": 9,
-        "917": 33,
+        "917": 34,
         "277": 6,
-        "93": 158,
-        "117": 40,
-        "354": 60,
-        "617": 189,
-        "754": 159,
-        "250": 116,
-        "908": 172,
-        "706": 64,
-        "116": 212,
+        "93": 168,
+        "117": 43,
+        "354": 65,
+        "617": 230,
+        "754": 168,
+        "250": 122,
+        "908": 199,
+        "706": 68,
+        "116": 220,
         "279": 5,
-        "653": 41,
+        "653": 42,
         "340": 34,
         "1241": 8,
         "549": 2,
-        "598": 42,
-        "358": 33,
+        "598": 44,
+        "358": 36,
         "311": 24,
-        "841": 48,
+        "841": 50,
         "324": 4,
-        "457": 144,
-        "404": 282,
-        "322": 13,
-        "267": 17,
+        "457": 148,
+        "404": 290,
+        "322": 15,
+        "267": 18,
         "567": 9,
-        "915": 143,
+        "915": 149,
         "1240": 12,
         "1258": 8,
-        "840": 33,
-        "305": 58,
+        "840": 35,
+        "305": 60,
         "676": 6,
-        "377": 34,
-        "749": 63,
+        "377": 38,
+        "749": 70,
         "87": 19,
-        "472": 107,
-        "524": 49,
+        "472": 113,
+        "524": 50,
         "317": 3,
         "123": 20,
-        "1393": 17,
-        "772": 61,
-        "1021": 58,
-        "297": 45,
-        "36": 43,
-        "150": 52,
+        "1393": 19,
+        "772": 66,
+        "1021": 60,
+        "297": 47,
+        "36": 47,
+        "150": 54,
         "605": 2,
-        "459": 65,
-        "926": 23,
+        "459": 72,
+        "926": 24,
         "395": 1,
-        "189": 40,
+        "189": 41,
         "759": 10,
-        "369": 58,
-        "488": 28,
+        "369": 61,
+        "488": 29,
         "790": 5,
-        "1390": 40,
+        "1390": 55,
         "668": 85,
         "258": 2,
         "244": 7,
-        "393": 9,
-        "283": 18,
-        "665": 22,
+        "393": 10,
+        "283": 20,
+        "665": 24,
         "1420": 2,
-        "923": 38,
+        "923": 42,
         "526": 8,
+        "1022": 2,
         "300": 9,
         "1301": 1,
         "410": 3,
@@ -4089,7 +4092,7 @@
         "351": 3,
         "1230": 7,
         "419": 1,
-        "405": 34,
+        "405": 38,
         "1262": 4,
         "823": 25,
         "1234": 2,
@@ -4097,167 +4100,180 @@
         "223": 5,
         "1299": 2,
         "540": 11,
-        "602": 85,
-        "943": 108,
+        "602": 88,
+        "943": 110,
         "550": 2,
         "356": 4,
         "649": 3,
-        "420": 10,
-        "636": 56,
-        "61": 85,
-        "126": 143,
-        "302": 14,
-        "280": 51,
-        "259": 49,
-        "35": 51,
+        "420": 11,
+        "636": 57,
+        "61": 88,
+        "126": 172,
+        "302": 16,
+        "280": 53,
+        "259": 51,
+        "35": 53,
         "703": 45,
         "378": 10,
         "323": 22,
-        "325": 29,
+        "325": 31,
         "912": 22,
-        "762": 2,
+        "762": 3,
         "1245": 1,
         "610": 28,
         "1263": 2,
         "313": 11,
-        "691": 6,
+        "691": 7,
         "1281": 2,
         "5": 1,
         "1231": 1,
-        "213": 6,
+        "213": 7,
         "1275": 24,
         "1032": 2,
         "539": 3,
         "648": 17,
         "414": 2,
         "274": 3,
-        "289": 25,
-        "270": 3,
+        "289": 27,
+        "270": 4,
         "557": 3,
         "316": 8,
-        "1385": 23,
-        "96": 4,
+        "1385": 25,
+        "96": 5,
         "1386": 4,
-        "670": 44,
+        "670": 45,
+        "805": 24,
         "656": 3,
         "291": 5,
-        "1391": 23,
-        "272": 22,
+        "1391": 25,
+        "272": 23,
         "1295": 3,
         "1027": 1,
-        "214": 18,
+        "214": 19,
         "830": 1,
         "566": 4,
         "523": 8,
         "1233": 2,
         "221": 3,
         "1289": 42,
-        "805": 22,
         "241": 4,
         "14": 2,
-        "264": 32,
-        "913": 38,
+        "264": 33,
+        "913": 41,
         "385": 6,
         "27": 6,
         "86": 3,
         "553": 1,
         "616": 4,
-        "1050": 11,
-        "170": 23,
+        "1050": 13,
+        "170": 26,
         "1244": 3,
         "202": 14,
         "112": 2,
-        "667": 17,
-        "413": 4,
-        "409": 120,
+        "667": 18,
+        "413": 7,
+        "409": 133,
         "779": 5,
         "573": 5,
-        "941": 4,
+        "941": 5,
         "460": 9,
         "698": 9,
-        "681": 43,
-        "184": 165,
+        "681": 44,
+        "184": 171,
         "391": 3,
-        "590": 8,
+        "90": 60,
+        "590": 10,
         "760": 4,
         "647": 10,
-        "453": 4,
-        "1419": 4,
+        "453": 6,
+        "1419": 5,
         "1300": 31,
         "783": 5,
-        "424": 14,
+        "424": 16,
         "1072": 1,
         "1327": 16,
-        "90": 54,
         "253": 10,
         "1004": 15,
         "135": 2,
-        "916": 29,
+        "916": 33,
         "474": 7,
-        "436": 76,
+        "436": 85,
         "489": 30,
-        "180": 32,
-        "824": 33,
-        "99": 22,
-        "172": 5,
-        "197": 45,
+        "197": 58,
+        "180": 35,
+        "177": 12,
+        "349": 21,
+        "824": 36,
+        "99": 23,
+        "172": 7,
         "265": 8,
-        "697": 51,
+        "273": 13,
+        "697": 53,
         "187": 13,
-        "825": 68,
+        "195": 16,
+        "688": 4,
+        "825": 70,
+        "664": 21,
+        "166": 4,
+        "41": 17,
+        "299": 11,
         "320": 31,
-        "757": 19,
+        "757": 21,
         "842": 3,
         "67": 4,
         "215": 12,
-        "694": 5,
-        "195": 14,
+        "694": 6,
         "501": 14,
         "791": 22,
-        "625": 17,
+        "625": 18,
         "471": 9,
-        "696": 30,
+        "696": 33,
         "173": 4,
         "1088": 3,
-        "183": 36,
+        "183": 38,
         "408": 6,
         "140": 8,
-        "628": 6,
-        "31": 3,
+        "628": 7,
+        "31": 4,
         "275": 11,
-        "310": 23,
-        "158": 14,
+        "310": 24,
+        "158": 15,
         "837": 5,
-        "645": 3,
+        "645": 4,
         "509": 1,
         "684": 13,
+        "406": 7,
         "196": 5,
-        "834": 22,
+        "834": 23,
         "514": 2,
-        "1394": 7,
         "143": 2,
         "350": 20,
         "394": 4,
         "144": 2,
-        "83": 16,
+        "83": 17,
+        "527": 2,
+        "174": 4,
         "707": 33,
         "705": 7,
         "733": 4,
         "1428": 3,
-        "76": 6,
+        "708": 4,
+        "911": 8,
+        "127": 3,
+        "182": 2,
+        "76": 7,
         "685": 2,
         "255": 10,
         "650": 5,
-        "335": 5,
-        "643": 5,
+        "335": 6,
+        "643": 7,
         "882": 1,
         "242": 2,
-        "939": 16,
+        "939": 18,
         "403": 4,
-        "688": 3,
-        "115": 5,
+        "115": 6,
         "148": 1,
-        "1325": 14,
+        "1325": 15,
         "142": 1,
         "662": 3,
         "1023": 16,
@@ -4265,35 +4281,30 @@
         "371": 2,
         "16": 3,
         "480": 7,
-        "1427": 11,
-        "177": 11,
-        "349": 19,
+        "1427": 13,
         "666": 3,
         "341": 10,
         "827": 1,
         "1270": 4,
         "26": 5,
-        "406": 6,
         "455": 1,
         "440": 13,
         "128": 2,
         "1249": 1,
         "1247": 1,
         "1176": 1,
-        "664": 18,
         "1342": 1,
         "1269": 1,
         "164": 1,
-        "475": 5,
+        "475": 6,
         "680": 11,
-        "911": 7,
         "230": 5,
-        "337": 4,
+        "337": 5,
         "1322": 4,
         "141": 4,
         "1149": 1,
         "477": 1,
-        "771": 2,
+        "771": 3,
         "392": 2,
         "388": 3,
         "138": 4,
@@ -4306,15 +4317,13 @@
         "1298": 1,
         "1422": 1,
         "925": 2,
-        "166": 3,
         "1329": 4,
         "188": 2,
         "690": 11,
         "1119": 2,
-        "232": 1,
+        "232": 2,
         "588": 1,
         "794": 1,
-        "273": 10,
         "821": 4,
         "774": 3,
         "777": 5,
@@ -4323,7 +4332,6 @@
         "366": 7,
         "231": 1,
         "282": 5,
-        "41": 12,
         "25": 2,
         "1341": 8,
         "1046": 2,
@@ -4368,7 +4376,6 @@
         "62": 1,
         "764": 1,
         "268": 2,
-        "708": 3,
         "343": 2,
         "1108": 1,
         "478": 1,
@@ -4388,7 +4395,6 @@
         "1280": 3,
         "1314": 1,
         "909": 1,
-        "372": 4,
         "81": 1,
         "701": 3,
         "399": 1,
@@ -4406,14 +4412,12 @@
         "1007": 2,
         "219": 1,
         "237": 1,
-        "127": 2,
         "1058": 1,
         "838": 5,
         "162": 1,
-        "182": 1,
         "186": 1,
         "910": 1,
-        "1357": 5,
+        "1357": 6,
         "1059": 2,
         "1124": 3,
         "839": 3,
@@ -4421,7 +4425,6 @@
         "155": 5,
         "1066": 1,
         "1335": 4,
-        "299": 10,
         "262": 1,
         "118": 1,
         "467": 1,
@@ -4442,17 +4445,15 @@
         "65": 1,
         "1330": 1,
         "363": 3,
-        "1022": 1,
         "210": 1,
         "1256": 2,
-        "174": 3,
         "1276": 1,
         "675": 2,
         "55": 1,
+        "30": 1,
         "1328": 1,
         "175": 1,
         "147": 1,
-        "527": 1,
         "206": 1,
         "192": 3,
         "1339": 1,
@@ -4506,8 +4507,8 @@
             "name": "Plaintext Storage of a Password",
             "abstraction": "Base",
             "description": "The product stores a password in plaintext within resources such as memory or files.",
-            "value": 227,
-            "count": 227
+            "value": 228,
+            "count": 228
           },
           {
             "id": "CWE-257",
@@ -4530,8 +4531,8 @@
             "name": "Use of Hard-coded Password",
             "abstraction": "Variant",
             "description": "The product contains a hard-coded password, which it uses for its own inbound authentication or for outbound communication to external components.",
-            "value": 217,
-            "count": 217
+            "value": 219,
+            "count": 219
           },
           {
             "id": "CWE-260",
@@ -4570,16 +4571,16 @@
             "name": "Incorrect Privilege Assignment",
             "abstraction": "Base",
             "description": "A product incorrectly assigns a privilege to a particular actor, creating an unintended sphere of control for that actor.",
-            "value": 1221,
-            "count": 1221
+            "value": 1248,
+            "count": 1248
           },
           {
             "id": "CWE-267",
             "name": "Privilege Defined With Unsafe Actions",
             "abstraction": "Base",
             "description": "A particular privilege, role, capability, or right can be used to perform unsafe actions that were not intended, even when it is assigned to the correct entity.",
-            "value": 70,
-            "count": 70
+            "value": 71,
+            "count": 71
           },
           {
             "id": "CWE-268",
@@ -4594,16 +4595,16 @@
             "name": "Improper Privilege Management",
             "abstraction": "Class",
             "description": "The product does not properly assign, modify, track, or check privileges for an actor, creating an unintended sphere of control for that actor.",
-            "value": 2594,
-            "count": 2594
+            "value": 2653,
+            "count": 2653
           },
           {
             "id": "CWE-270",
             "name": "Privilege Context Switching Error",
             "abstraction": "Base",
             "description": "The product does not properly manage privileges while it is switching between different contexts that have different privileges or spheres of control.",
-            "value": 26,
-            "count": 26
+            "value": 27,
+            "count": 27
           },
           {
             "id": "CWE-271",
@@ -4618,16 +4619,16 @@
             "name": "Least Privilege Violation",
             "abstraction": "Base",
             "description": "The elevated privilege level required to perform operations such as chroot() should be dropped immediately after the operation is performed.",
-            "value": 43,
-            "count": 43
+            "value": 44,
+            "count": 44
           },
           {
             "id": "CWE-273",
             "name": "Improper Check for Dropped Privileges",
             "abstraction": "Base",
             "description": "The product attempts to drop privileges but does not check or incorrectly checks to see if the drop succeeded.",
-            "value": 29,
-            "count": 29
+            "value": 32,
+            "count": 32
           },
           {
             "id": "CWE-274",
@@ -4642,8 +4643,8 @@
             "name": "Incorrect Default Permissions",
             "abstraction": "Base",
             "description": "During installation, installed file permissions are set to allow anyone to modify those files.",
-            "value": 958,
-            "count": 958
+            "value": 963,
+            "count": 963
           },
           {
             "id": "CWE-277",
@@ -4674,16 +4675,16 @@
             "name": "Improper Handling of Insufficient Permissions or Privileges",
             "abstraction": "Base",
             "description": "The product does not handle or incorrectly handles when it has insufficient privileges to access resources or functionality as specified by their permissions. This may cause it to follow unexpected code paths that may leave the product in an invalid state.",
-            "value": 172,
-            "count": 172
+            "value": 174,
+            "count": 174
           },
           {
             "id": "CWE-281",
             "name": "Improper Preservation of Permissions",
             "abstraction": "Base",
             "description": "The product does not preserve permissions or incorrectly preserves permissions when copying, restoring, or sharing objects, which can cause them to have less restrictive permissions than intended.",
-            "value": 229,
-            "count": 229
+            "value": 230,
+            "count": 230
           },
           {
             "id": "CWE-282",
@@ -4698,24 +4699,24 @@
             "name": "Unverified Ownership",
             "abstraction": "Base",
             "description": "The product does not properly verify that a critical resource is owned by the proper entity.",
-            "value": 32,
-            "count": 32
+            "value": 34,
+            "count": 34
           },
           {
             "id": "CWE-284",
             "name": "Improper Access Control",
             "abstraction": "Pillar",
             "description": "The product does not restrict or incorrectly restricts access to a resource from an unauthorized actor.",
-            "value": 7172,
-            "count": 7172
+            "value": 7232,
+            "count": 7232
           },
           {
             "id": "CWE-285",
             "name": "Improper Authorization",
             "abstraction": "Class",
             "description": "The product does not perform or incorrectly performs an authorization check when an actor attempts to access a resource or perform an action.",
-            "value": 1648,
-            "count": 1648
+            "value": 1671,
+            "count": 1671
           },
           {
             "id": "CWE-286",
@@ -4730,32 +4731,32 @@
             "name": "Improper Authentication",
             "abstraction": "Class",
             "description": "When an actor claims to have a given identity, the product does not prove or insufficiently proves that the claim is correct.",
-            "value": 2542,
-            "count": 2542
+            "value": 2598,
+            "count": 2598
           },
           {
             "id": "CWE-288",
             "name": "Authentication Bypass Using an Alternate Path or Channel",
             "abstraction": "Base",
             "description": "The product requires authentication, but the product has an alternate path or channel that does not require authentication.",
-            "value": 693,
-            "count": 693
+            "value": 705,
+            "count": 705
           },
           {
             "id": "CWE-289",
             "name": "Authentication Bypass by Alternate Name",
             "abstraction": "Base",
             "description": "The product performs authentication based on the name of a resource being accessed, or the name of the actor performing the access, but it does not properly check all possible names for that resource or actor.",
-            "value": 47,
-            "count": 47
+            "value": 49,
+            "count": 49
           },
           {
             "id": "CWE-290",
             "name": "Authentication Bypass by Spoofing",
             "abstraction": "Base",
             "description": "This attack-focused weakness is caused by incorrectly implemented authentication schemes that are subject to spoofing attacks.",
-            "value": 645,
-            "count": 645
+            "value": 667,
+            "count": 667
           },
           {
             "id": "CWE-291",
@@ -4778,16 +4779,16 @@
             "name": "Authentication Bypass by Capture-replay",
             "abstraction": "Base",
             "description": "A capture-replay flaw exists when the design of the product makes it possible for a malicious user to sniff network traffic and bypass authentication by replaying it to the server in question to the same effect as the original message (or with minor changes).",
-            "value": 221,
-            "count": 221
+            "value": 226,
+            "count": 226
           },
           {
             "id": "CWE-295",
             "name": "Improper Certificate Validation",
             "abstraction": "Base",
             "description": "The product does not validate, or incorrectly validates, a certificate.",
-            "value": 907,
-            "count": 907
+            "value": 937,
+            "count": 937
           },
           {
             "id": "CWE-296",
@@ -4802,8 +4803,8 @@
             "name": "Improper Validation of Certificate with Host Mismatch",
             "abstraction": "Variant",
             "description": "The product communicates with a host that provides a certificate, but the product does not properly ensure that the certificate is actually associated with that host.",
-            "value": 83,
-            "count": 83
+            "value": 85,
+            "count": 85
           },
           {
             "id": "CWE-298",
@@ -4818,8 +4819,8 @@
             "name": "Improper Check for Certificate Revocation",
             "abstraction": "Base",
             "description": "The product does not check or incorrectly checks the revocation status of a certificate, which may cause it to use a certificate that has been compromised.",
-            "value": 17,
-            "count": 17
+            "value": 18,
+            "count": 18
           },
           {
             "id": "CWE-300",
@@ -4842,56 +4843,56 @@
             "name": "Authentication Bypass by Assumed-Immutable Data",
             "abstraction": "Base",
             "description": "The authentication scheme or implementation uses key data elements that are assumed to be immutable, but can be controlled or modified by the attacker.",
-            "value": 44,
-            "count": 44
+            "value": 46,
+            "count": 46
           },
           {
             "id": "CWE-303",
             "name": "Incorrect Implementation of Authentication Algorithm",
             "abstraction": "Base",
             "description": "The requirements for the product dictate the use of an established authentication algorithm, but the implementation of the algorithm is incorrect.",
-            "value": 113,
-            "count": 113
+            "value": 117,
+            "count": 117
           },
           {
             "id": "CWE-304",
             "name": "Missing Critical Step in Authentication",
             "abstraction": "Base",
             "description": "The product implements an authentication technique, but it skips a step that weakens the technique.",
-            "value": 44,
-            "count": 44
+            "value": 47,
+            "count": 47
           },
           {
             "id": "CWE-305",
             "name": "Authentication Bypass by Primary Weakness",
             "abstraction": "Base",
             "description": "The authentication algorithm is sound, but the implemented mechanism can be bypassed as the result of a separate weakness that is primary to the authentication error.",
-            "value": 174,
-            "count": 174
+            "value": 176,
+            "count": 176
           },
           {
             "id": "CWE-306",
             "name": "Missing Authentication for Critical Function",
             "abstraction": "Base",
             "description": "The product does not perform any authentication for functionality that requires a provable user identity or consumes a significant amount of resources.",
-            "value": 2723,
-            "count": 2723
+            "value": 2820,
+            "count": 2820
           },
           {
             "id": "CWE-307",
             "name": "Improper Restriction of Excessive Authentication Attempts",
             "abstraction": "Base",
             "description": "The product does not implement sufficient measures to prevent multiple failed authentication attempts within a short time frame.",
-            "value": 500,
-            "count": 500
+            "value": 515,
+            "count": 515
           },
           {
             "id": "CWE-308",
             "name": "Use of Single-factor Authentication",
             "abstraction": "Base",
             "description": "The product uses an authentication algorithm that uses a single factor (e.g., a password) in a security context that should require more than one factor.",
-            "value": 18,
-            "count": 18
+            "value": 20,
+            "count": 20
           },
           {
             "id": "CWE-309",
@@ -4906,16 +4907,16 @@
             "name": "Use of Hard-coded Cryptographic Key",
             "abstraction": "Variant",
             "description": "The product uses a hard-coded, unchangeable cryptographic key.",
-            "value": 380,
-            "count": 380
+            "value": 402,
+            "count": 402
           },
           {
             "id": "CWE-322",
             "name": "Key Exchange without Entity Authentication",
             "abstraction": "Base",
             "description": "The product performs a key exchange with an actor without verifying the identity of that actor.",
-            "value": 30,
-            "count": 30
+            "value": 32,
+            "count": 32
           },
           {
             "id": "CWE-350",
@@ -4938,8 +4939,8 @@
             "name": "Session Fixation",
             "abstraction": "Compound",
             "description": "Authenticating a user, or otherwise establishing a new user session, without invalidating any existing session identifier gives an attacker the opportunity to steal authenticated sessions.",
-            "value": 262,
-            "count": 262
+            "value": 269,
+            "count": 269
           },
           {
             "id": "CWE-419",
@@ -4954,8 +4955,8 @@
             "name": "Unprotected Alternate Channel",
             "abstraction": "Base",
             "description": "The product protects a primary channel, but it does not use the same level of protection for an alternate channel.",
-            "value": 40,
-            "count": 40
+            "value": 41,
+            "count": 41
           },
           {
             "id": "CWE-421",
@@ -4978,16 +4979,16 @@
             "name": "Direct Request ('Forced Browsing')",
             "abstraction": "Base",
             "description": "The web application does not adequately enforce appropriate authorization on all restricted URLs, scripts, or files.",
-            "value": 128,
-            "count": 128
+            "value": 130,
+            "count": 130
           },
           {
             "id": "CWE-441",
             "name": "Unintended Proxy or Intermediary ('Confused Deputy')",
             "abstraction": "Class",
             "description": "The product receives a request, message, or directive from an upstream component, but the product does not sufficiently preserve the original source of the request before forwarding the request to an external actor that is outside of the product's control sphere. This causes the product to appear to",
-            "value": 188,
-            "count": 188
+            "value": 194,
+            "count": 194
           },
           {
             "id": "CWE-520",
@@ -5010,8 +5011,8 @@
             "name": "Insufficiently Protected Credentials",
             "abstraction": "Class",
             "description": "The product transmits or stores authentication credentials, but it uses an insecure method that is susceptible to unauthorized interception and/or retrieval.",
-            "value": 722,
-            "count": 722
+            "value": 730,
+            "count": 730
           },
           {
             "id": "CWE-523",
@@ -5082,8 +5083,8 @@
             "name": "URL Redirection to Untrusted Site ('Open Redirect')",
             "abstraction": "Base",
             "description": "The web application accepts a user-controlled input that specifies a link to an external site, and uses that link in a redirect.",
-            "value": 1211,
-            "count": 1211
+            "value": 1235,
+            "count": 1235
           },
           {
             "id": "CWE-603",
@@ -5098,8 +5099,8 @@
             "name": "Improper Restriction of XML External Entity Reference",
             "abstraction": "Base",
             "description": "The product processes an XML document that can contain XML entities with URIs that resolve to documents outside of the intended sphere of control, causing the product to embed incorrect documents into its output.",
-            "value": 657,
-            "count": 657
+            "value": 667,
+            "count": 667
           },
           {
             "id": "CWE-612",
@@ -5114,16 +5115,16 @@
             "name": "Insufficient Session Expiration",
             "abstraction": "Base",
             "description": "According to WASC, \"Insufficient Session Expiration is when a web site permits an attacker to reuse old session credentials or session IDs for authorization.\"",
-            "value": 502,
-            "count": 502
+            "value": 517,
+            "count": 517
           },
           {
             "id": "CWE-620",
             "name": "Unverified Password Change",
             "abstraction": "Base",
             "description": "When setting a new password for a user, the product does not require knowledge of the original password, or using another form of authentication.",
-            "value": 101,
-            "count": 101
+            "value": 105,
+            "count": 105
           },
           {
             "id": "CWE-623",
@@ -5138,24 +5139,24 @@
             "name": "Authorization Bypass Through User-Controlled Key",
             "abstraction": "Base",
             "description": "The system's authorization functionality does not prevent one user from gaining access to another user's data or record by modifying the key value identifying the data.",
-            "value": 2663,
-            "count": 2663
+            "value": 2853,
+            "count": 2853
           },
           {
             "id": "CWE-640",
             "name": "Weak Password Recovery Mechanism for Forgotten Password",
             "abstraction": "Base",
             "description": "The product contains a mechanism for users to recover or change their passwords without knowing the original password, but the mechanism is weak.",
-            "value": 227,
-            "count": 227
+            "value": 236,
+            "count": 236
           },
           {
             "id": "CWE-645",
             "name": "Overly Restrictive Account Lockout Mechanism",
             "abstraction": "Base",
             "description": "The product contains an account lockout protection mechanism, but the mechanism is too restrictive and can be triggered too easily, which allows attackers to deny service to legitimate users by causing their accounts to be locked out.",
-            "value": 8,
-            "count": 8
+            "value": 9,
+            "count": 9
           },
           {
             "id": "CWE-647",
@@ -5178,40 +5179,40 @@
             "name": "Incorrect Ownership Assignment",
             "abstraction": "Base",
             "description": "The product assigns an owner to a resource, but the owner is outside of the intended control sphere.",
-            "value": 21,
-            "count": 21
+            "value": 22,
+            "count": 22
           },
           {
             "id": "CWE-732",
             "name": "Incorrect Permission Assignment for Critical Resource",
             "abstraction": "Class",
             "description": "The product specifies permissions for a security-critical resource in a way that allows that resource to be read or modified by unintended actors.",
-            "value": 810,
-            "count": 810
+            "value": 828,
+            "count": 828
           },
           {
             "id": "CWE-798",
             "name": "Use of Hard-coded Credentials",
             "abstraction": "Base",
             "description": "The product contains hard-coded credentials, such as a password or cryptographic key.",
-            "value": 976,
-            "count": 976
+            "value": 985,
+            "count": 985
           },
           {
             "id": "CWE-804",
             "name": "Guessable CAPTCHA",
             "abstraction": "Base",
             "description": "The product uses a CAPTCHA challenge, but the challenge can be guessed or automatically recognized by a non-human actor.",
-            "value": 18,
-            "count": 18
+            "value": 19,
+            "count": 19
           },
           {
             "id": "CWE-836",
             "name": "Use of Password Hash Instead of Password for Authentication",
             "abstraction": "Base",
             "description": "The product records password hashes in a data store, receives a hash of a password from a client, and compares the supplied hash to the hash obtained from the data store.",
-            "value": 17,
-            "count": 17
+            "value": 18,
+            "count": 18
           },
           {
             "id": "CWE-842",
@@ -5226,24 +5227,24 @@
             "name": "Missing Authorization",
             "abstraction": "Class",
             "description": "The product does not perform an authorization check when an actor attempts to access a resource or perform an action.",
-            "value": 9063,
-            "count": 9063
+            "value": 9364,
+            "count": 9364
           },
           {
             "id": "CWE-863",
             "name": "Incorrect Authorization",
             "abstraction": "Class",
             "description": "The product performs an authorization check when an actor attempts to access a resource or perform an action, but it does not correctly perform the check.",
-            "value": 3256,
-            "count": 3256
+            "value": 3420,
+            "count": 3420
           },
           {
             "id": "CWE-918",
             "name": "Server-Side Request Forgery (SSRF)",
             "abstraction": "Base",
             "description": "The web server receives a URL or similar request from an upstream component and retrieves the contents of this URL, but it does not sufficiently ensure that the request is being sent to the expected destination.",
-            "value": 3232,
-            "count": 3232
+            "value": 3320,
+            "count": 3320
           },
           {
             "id": "CWE-921",
@@ -5258,8 +5259,8 @@
             "name": "Improper Restriction of Communication Channel to Intended Endpoints",
             "abstraction": "Class",
             "description": "The product establishes a communication channel to (or from) an endpoint for privileged or protected operations, but it does not properly ensure that it is communicating with the correct endpoint.",
-            "value": 81,
-            "count": 81
+            "value": 85,
+            "count": 85
           },
           {
             "id": "CWE-925",
@@ -5274,8 +5275,8 @@
             "name": "Improper Export of Android Application Components",
             "abstraction": "Variant",
             "description": "The Android application exports a component for use by other applications, but does not properly restrict which applications can launch the component or access the data it contains.",
-            "value": 98,
-            "count": 98
+            "value": 99,
+            "count": 99
           },
           {
             "id": "CWE-927",
@@ -5290,32 +5291,32 @@
             "name": "Improper Authorization in Handler for Custom URL Scheme",
             "abstraction": "Base",
             "description": "The product uses a handler for a custom URL scheme, but it does not properly restrict which actors can invoke the handler using the scheme.",
-            "value": 29,
-            "count": 29
+            "value": 31,
+            "count": 31
           },
           {
             "id": "CWE-940",
             "name": "Improper Verification of Source of a Communication Channel",
             "abstraction": "Base",
             "description": "The product establishes a communication channel to handle an incoming request that has been initiated by an actor, but it does not properly verify that the request is coming from the expected origin.",
-            "value": 64,
-            "count": 64
+            "value": 68,
+            "count": 68
           },
           {
             "id": "CWE-941",
             "name": "Incorrectly Specified Destination in a Communication Channel",
             "abstraction": "Base",
             "description": "The product creates a communication channel to initiate an outgoing request to an actor, but it does not correctly specify the intended destination for that actor.",
-            "value": 11,
-            "count": 11
+            "value": 12,
+            "count": 12
           },
           {
             "id": "CWE-942",
             "name": "Permissive Cross-domain Security Policy with Untrusted Domains",
             "abstraction": "Variant",
             "description": "The product uses a web-client protection\n         mechanism such as a Content Security Policy (CSP) or\n         cross-domain policy file, but the policy includes untrusted\n         domains with which the web client is allowed to\n         communicate.",
-            "value": 136,
-            "count": 136
+            "value": 139,
+            "count": 139
           },
           {
             "id": "CWE-1004",
@@ -5330,16 +5331,16 @@
             "name": "Improper Restriction of Rendered UI Layers or Frames",
             "abstraction": "Base",
             "description": "The web application does not restrict or incorrectly restricts frame objects or UI layers that belong to another application or domain.",
-            "value": 219,
-            "count": 219
+            "value": 221,
+            "count": 221
           },
           {
             "id": "CWE-1022",
             "name": "Use of Web Link to Untrusted Target with window.opener Access",
             "abstraction": "Variant",
             "description": "The web application produces links to untrusted external sites outside of its sphere of control, but it does not properly prevent the external site from modifying security-critical properties of the window.opener object, such as the location property.",
-            "value": 13,
-            "count": 13
+            "value": 14,
+            "count": 14
           },
           {
             "id": "CWE-1191",
@@ -5354,8 +5355,8 @@
             "name": "Insufficient Granularity of Access Control",
             "abstraction": "Base",
             "description": "The product implements access controls via a policy or other feature with the intention to disable or restrict accesses (reads and/or writes) to assets in a system from untrusted agents. However, implemented access controls lack required granularity, which renders the control policy too broad becaus",
-            "value": 115,
-            "count": 115
+            "value": 124,
+            "count": 124
           },
           {
             "id": "CWE-1222",
@@ -5402,8 +5403,8 @@
             "name": "Inclusion of Undocumented Features or Chicken Bits",
             "abstraction": "Base",
             "description": "The device includes chicken bits or undocumented features that can create entry points for unauthorized actors.",
-            "value": 15,
-            "count": 15
+            "value": 16,
+            "count": 16
           },
           {
             "id": "CWE-1243",
@@ -5458,8 +5459,8 @@
             "name": "Improper Handling of Overlap Between Protected Memory Ranges",
             "abstraction": "Base",
             "description": "The product allows address regions to overlap, which can result in the bypassing of intended memory protection.",
-            "value": 17,
-            "count": 17
+            "value": 18,
+            "count": 18
           },
           {
             "id": "CWE-1262",
@@ -5690,40 +5691,40 @@
             "name": "Weak Authentication",
             "abstraction": "Class",
             "description": "The product uses an authentication mechanism to restrict access to specific users or identities, but the mechanism does not sufficiently prove that the claimed identity is correct.",
-            "value": 99,
-            "count": 99
+            "value": 114,
+            "count": 114
           },
           {
             "id": "CWE-1391",
             "name": "Use of Weak Credentials",
             "abstraction": "Class",
             "description": "The product uses weak credentials (such as a default key or hard-coded password) that can be calculated, derived, reused, or guessed by an attacker.",
-            "value": 61,
-            "count": 61
+            "value": 63,
+            "count": 63
           },
           {
             "id": "CWE-1392",
             "name": "Use of Default Credentials",
             "abstraction": "Base",
             "description": "The product uses default credentials (such as passwords or cryptographic keys) for potentially critical functionality.",
-            "value": 122,
-            "count": 122
+            "value": 125,
+            "count": 125
           },
           {
             "id": "CWE-1393",
             "name": "Use of Default Password",
             "abstraction": "Base",
             "description": "The product uses default passwords for potentially critical functionality.",
-            "value": 46,
-            "count": 46
+            "value": 48,
+            "count": 48
           },
           {
             "id": "CWE-1394",
             "name": "Use of Default Cryptographic Key",
             "abstraction": "Base",
             "description": "The product uses a default cryptographic key for potentially critical functionality.",
-            "value": 19,
-            "count": 19
+            "value": 23,
+            "count": 23
           }
         ]
       },
@@ -5737,8 +5738,8 @@
             "name": "Permissive List of Allowed Inputs",
             "abstraction": "Base",
             "description": "The product implements a protection mechanism that relies on a list of inputs (or properties of inputs) that are explicitly allowed by policy because the inputs are assumed to be safe, but the list is too permissive - that is, it allows an input that is unsafe, leading to resultant weaknesses.",
-            "value": 51,
-            "count": 51
+            "value": 53,
+            "count": 53
           },
           {
             "id": "CWE-185",
@@ -5801,16 +5802,16 @@
             "name": "Permissive Regular Expression",
             "abstraction": "Base",
             "description": "The product uses a regular expression that does not sufficiently restrict the set of allowed values.",
-            "value": 20,
-            "count": 20
+            "value": 21,
+            "count": 21
           },
           {
             "id": "CWE-697",
             "name": "Incorrect Comparison",
             "abstraction": "Pillar",
             "description": "The product compares two entities in a security-relevant context, but the comparison is incorrect.",
-            "value": 108,
-            "count": 108
+            "value": 110,
+            "count": 110
           },
           {
             "id": "CWE-777",
@@ -5880,8 +5881,8 @@
             "name": "Misinterpretation of Input",
             "abstraction": "Base",
             "description": "The product misinterprets an input, whether from an attacker or another product, in a security-relevant fashion.",
-            "value": 31,
-            "count": 31
+            "value": 32,
+            "count": 32
           },
           {
             "id": "CWE-435",
@@ -5896,8 +5897,8 @@
             "name": "Interpretation Conflict",
             "abstraction": "Class",
             "description": "Product A handles inputs or steps differently than Product B, which causes A to perform incorrect actions based on its perception of B's state.",
-            "value": 119,
-            "count": 119
+            "value": 128,
+            "count": 128
           },
           {
             "id": "CWE-437",
@@ -5920,8 +5921,8 @@
             "name": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')",
             "abstraction": "Base",
             "description": "The product acts as an intermediary HTTP agent\n         (such as a proxy or firewall) in the data flow between two\n         entities such as a client and server, but it does not\n         interpret malformed HTTP requests or responses in ways that\n         are consistent with how the messages will be",
-            "value": 334,
-            "count": 334
+            "value": 340,
+            "count": 340
           },
           {
             "id": "CWE-650",
@@ -5967,8 +5968,8 @@
             "name": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')",
             "abstraction": "Class",
             "description": "The product contains a concurrent code sequence that requires temporary, exclusive access to a shared resource, but a timing window exists in which the shared resource can be modified by another code sequence operating concurrently.",
-            "value": 1124,
-            "count": 1124
+            "value": 1194,
+            "count": 1194
           },
           {
             "id": "CWE-363",
@@ -5999,8 +6000,8 @@
             "name": "Time-of-check Time-of-use (TOCTOU) Race Condition",
             "abstraction": "Base",
             "description": "The product checks the state of a resource before using that resource, but the resource's state can change between the check and the use in a way that invalidates the results of the check.",
-            "value": 709,
-            "count": 709
+            "value": 743,
+            "count": 743
           },
           {
             "id": "CWE-368",
@@ -6023,8 +6024,8 @@
             "name": "Improper Resource Locking",
             "abstraction": "Base",
             "description": "The product does not lock or does not correctly lock a resource when the product must have exclusive access to the resource.",
-            "value": 16,
-            "count": 16
+            "value": 19,
+            "count": 19
           },
           {
             "id": "CWE-414",
@@ -6119,8 +6120,8 @@
             "name": "Improper Locking",
             "abstraction": "Class",
             "description": "The product does not properly acquire or release a lock on a resource, leading to unexpected resource state changes and behaviors.",
-            "value": 158,
-            "count": 158
+            "value": 159,
+            "count": 159
           },
           {
             "id": "CWE-689",
@@ -6191,8 +6192,8 @@
             "name": "Deadlock",
             "abstraction": "Base",
             "description": "The product contains multiple threads or executable segments that are waiting for each other to release a necessary lock, resulting in deadlock.",
-            "value": 28,
-            "count": 28
+            "value": 31,
+            "count": 31
           },
           {
             "id": "CWE-1058",
@@ -6286,8 +6287,8 @@
             "name": "Cleartext Storage of Sensitive Information",
             "abstraction": "Base",
             "description": "The product stores sensitive information in cleartext within a resource that might be accessible to another control sphere.",
-            "value": 482,
-            "count": 482
+            "value": 488,
+            "count": 488
           },
           {
             "id": "CWE-313",
@@ -6342,8 +6343,8 @@
             "name": "Cleartext Transmission of Sensitive Information",
             "abstraction": "Base",
             "description": "The product transmits sensitive or security-critical data in cleartext in a communication channel that can be sniffed by unauthorized actors.",
-            "value": 562,
-            "count": 562
+            "value": 566,
+            "count": 566
           },
           {
             "id": "CWE-324",
@@ -6358,40 +6359,40 @@
             "name": "Missing Cryptographic Step",
             "abstraction": "Base",
             "description": "The product does not implement a required step in a cryptographic algorithm, resulting in weaker encryption than advertised by the algorithm.",
-            "value": 66,
-            "count": 66
+            "value": 68,
+            "count": 68
           },
           {
             "id": "CWE-326",
             "name": "Inadequate Encryption Strength",
             "abstraction": "Class",
             "description": "The product stores or transmits sensitive data using an encryption scheme that is theoretically sound, but is not strong enough for the level of protection required.",
-            "value": 198,
-            "count": 198
+            "value": 202,
+            "count": 202
           },
           {
             "id": "CWE-327",
             "name": "Use of a Broken or Risky Cryptographic Algorithm",
             "abstraction": "Class",
             "description": "The product uses a broken or risky cryptographic algorithm or protocol.",
-            "value": 404,
-            "count": 404
+            "value": 405,
+            "count": 405
           },
           {
             "id": "CWE-328",
             "name": "Use of Weak Hash",
             "abstraction": "Base",
             "description": "The product uses an algorithm that produces a digest (output value) that does not meet security expectations for a hash function that allows an adversary to reasonably determine the original input (preimage attack), find another input that can produce the same hash (2nd preimage attack), or find mul",
-            "value": 93,
-            "count": 93
+            "value": 95,
+            "count": 95
           },
           {
             "id": "CWE-347",
             "name": "Improper Verification of Cryptographic Signature",
             "abstraction": "Base",
             "description": "The product does not verify, or incorrectly verifies, the cryptographic signature for data.",
-            "value": 687,
-            "count": 687
+            "value": 708,
+            "count": 708
           },
           {
             "id": "CWE-614",
@@ -6430,8 +6431,8 @@
             "name": "Use of Password Hash With Insufficient Computational Effort",
             "abstraction": "Base",
             "description": "The product generates a hash for a password, but it uses a scheme that does not provide a sufficient level of computational effort that would make password cracking attacks infeasible or expensive.",
-            "value": 87,
-            "count": 87
+            "value": 91,
+            "count": 91
           },
           {
             "id": "CWE-1240",
@@ -6469,16 +6470,16 @@
             "name": "External Control of System or Configuration Setting",
             "abstraction": "Base",
             "description": "One or more system settings or configuration elements can be externally controlled by a user.",
-            "value": 86,
-            "count": 86
+            "value": 91,
+            "count": 91
           },
           {
             "id": "CWE-73",
             "name": "External Control of File Name or Path",
             "abstraction": "Base",
             "description": "The product allows user input to control or influence paths or file names that are used in filesystem operations.",
-            "value": 708,
-            "count": 708
+            "value": 722,
+            "count": 722
           },
           {
             "id": "CWE-114",
@@ -6525,8 +6526,8 @@
             "name": "Insecure Temporary File",
             "abstraction": "Class",
             "description": "Creating and using insecure temporary files can leave application and system data vulnerable to attack.",
-            "value": 110,
-            "count": 110
+            "value": 114,
+            "count": 114
           },
           {
             "id": "CWE-378",
@@ -6541,8 +6542,8 @@
             "name": "Creation of Temporary File in Directory with Insecure Permissions",
             "abstraction": "Base",
             "description": "The product creates a temporary file in a directory whose permissions allow unintended actors to determine the file's existence or otherwise access that file.",
-            "value": 66,
-            "count": 66
+            "value": 67,
+            "count": 67
           },
           {
             "id": "CWE-402",
@@ -6565,16 +6566,16 @@
             "name": "Untrusted Search Path",
             "abstraction": "Base",
             "description": "The product searches for critical resources using an externally-supplied search path that can point to resources that are not under the product's direct control.",
-            "value": 331,
-            "count": 331
+            "value": 346,
+            "count": 346
           },
           {
             "id": "CWE-427",
             "name": "Uncontrolled Search Path Element",
             "abstraction": "Base",
             "description": "The product uses a fixed or controlled search path to find resources, but one or more locations in that path can be under the control of unintended actors.",
-            "value": 902,
-            "count": 902
+            "value": 906,
+            "count": 906
           },
           {
             "id": "CWE-428",
@@ -6597,16 +6598,16 @@
             "name": "External Control of Assumed-Immutable Web Parameter",
             "abstraction": "Base",
             "description": "The web application does not sufficiently verify inputs that are assumed to be immutable but are actually externally controllable, such as hidden form fields.",
-            "value": 160,
-            "count": 160
+            "value": 166,
+            "count": 166
           },
           {
             "id": "CWE-488",
             "name": "Exposure of Data Element to Wrong Session",
             "abstraction": "Base",
             "description": "The product does not sufficiently enforce boundaries between the states of different sessions, causing data to be provided to, or used by, the wrong session.",
-            "value": 46,
-            "count": 46
+            "value": 47,
+            "count": 47
           },
           {
             "id": "CWE-491",
@@ -6661,8 +6662,8 @@
             "name": "Use of Cache Containing Sensitive Information",
             "abstraction": "Base",
             "description": "The code uses a cache that contains sensitive information, but the cache can be read by an actor outside of the intended control sphere.",
-            "value": 79,
-            "count": 79
+            "value": 80,
+            "count": 80
           },
           {
             "id": "CWE-525",
@@ -6677,8 +6678,8 @@
             "name": "Exposure of Version-Control Repository to an Unauthorized Control Sphere",
             "abstraction": "Variant",
             "description": "The product stores a CVS, git, or other repository in a directory, archive, or other resource that is stored, transferred, or otherwise made accessible to unauthorized actors.",
-            "value": 3,
-            "count": 3
+            "value": 4,
+            "count": 4
           },
           {
             "id": "CWE-528",
@@ -6717,8 +6718,8 @@
             "name": "Files or Directories Accessible to External Parties",
             "abstraction": "Base",
             "description": "The product makes files or directories accessible to unauthorized actors, even though they should not be.",
-            "value": 372,
-            "count": 372
+            "value": 380,
+            "count": 380
           },
           {
             "id": "CWE-553",
@@ -6733,8 +6734,8 @@
             "name": "Reliance on Cookies without Validation and Integrity Checking",
             "abstraction": "Base",
             "description": "The product relies on the existence or values of cookies when performing security-critical operations, but it does not properly ensure that the setting is valid for the associated user.",
-            "value": 45,
-            "count": 45
+            "value": 46,
+            "count": 46
           },
           {
             "id": "CWE-582",
@@ -6828,16 +6829,16 @@
             "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
             "abstraction": "Base",
             "description": "The product uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory, but the product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location th",
-            "value": 6085,
-            "count": 6085
+            "value": 6209,
+            "count": 6209
           },
           {
             "id": "CWE-23",
             "name": "Relative Path Traversal",
             "abstraction": "Base",
             "description": "The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize sequences such as \"..\" that can resolve to a location that is outside of that directory.",
-            "value": 522,
-            "count": 522
+            "value": 534,
+            "count": 534
           },
           {
             "id": "CWE-24",
@@ -6892,16 +6893,16 @@
             "name": "Path Traversal: '\\dir\\..\\filename'",
             "abstraction": "Variant",
             "description": "The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize '\\dir\\..\\filename' (leading backslash dot dot) sequences that can resolve to a location that is outside of that directory.",
-            "value": 1,
-            "count": 1
+            "value": 2,
+            "count": 2
           },
           {
             "id": "CWE-31",
             "name": "Path Traversal: 'dir\\..\\..\\filename'",
             "abstraction": "Variant",
             "description": "The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize 'dir\\..\\..\\filename' (multiple internal backslash dot dot) sequences that can resolve to a location that is outside of that directory.",
-            "value": 14,
-            "count": 14
+            "value": 15,
+            "count": 15
           },
           {
             "id": "CWE-32",
@@ -6932,16 +6933,16 @@
             "name": "Path Traversal: '.../...//'",
             "abstraction": "Variant",
             "description": "The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize '.../...//' (doubled triple dot slash) sequences that can resolve to a location that is outside of that directory.",
-            "value": 189,
-            "count": 189
+            "value": 191,
+            "count": 191
           },
           {
             "id": "CWE-36",
             "name": "Absolute Path Traversal",
             "abstraction": "Base",
             "description": "The product uses external input to construct a pathname that should be within a restricted directory, but it does not properly neutralize absolute path sequences such as \"/abs/path\" that can resolve to a location that is outside of that directory.",
-            "value": 144,
-            "count": 144
+            "value": 148,
+            "count": 148
           },
           {
             "id": "CWE-37",
@@ -6980,8 +6981,8 @@
             "name": "Improper Resolution of Path Equivalence",
             "abstraction": "Base",
             "description": "The product is vulnerable to file system contents disclosure through path equivalence. Path equivalence involves the use of special characters in file and directory names. The associated manipulations are intended to generate multiple names for the same object.",
-            "value": 33,
-            "count": 33
+            "value": 38,
+            "count": 38
           },
           {
             "id": "CWE-42",
@@ -7124,16 +7125,16 @@
             "name": "Improper Link Resolution Before File Access ('Link Following')",
             "abstraction": "Base",
             "description": "The product attempts to access a file based on the filename, but it does not properly prevent that filename from identifying a link or shortcut that resolves to an unintended resource.",
-            "value": 866,
-            "count": 866
+            "value": 908,
+            "count": 908
           },
           {
             "id": "CWE-61",
             "name": "UNIX Symbolic Link (Symlink) Following",
             "abstraction": "Compound",
             "description": "The product, when opening a file or directory, does not sufficiently account for when the file is a symbolic link that resolves to a target outside of the intended control sphere. This could allow an attacker to cause the product to operate on unauthorized files.",
-            "value": 184,
-            "count": 184
+            "value": 187,
+            "count": 187
           },
           {
             "id": "CWE-62",
@@ -7219,16 +7220,16 @@
             "name": "Unchecked Return Value",
             "abstraction": "Base",
             "description": "The product does not check the return value from a method or function, which can prevent it from detecting unexpected states and conditions.",
-            "value": 120,
-            "count": 120
+            "value": 123,
+            "count": 123
           },
           {
             "id": "CWE-390",
             "name": "Detection of Error Condition Without Action",
             "abstraction": "Base",
             "description": "The product detects a specific error, but takes no actions to handle the error.",
-            "value": 25,
-            "count": 25
+            "value": 26,
+            "count": 26
           },
           {
             "id": "CWE-391",
@@ -7267,16 +7268,16 @@
             "name": "Improper Check for Unusual or Exceptional Conditions",
             "abstraction": "Class",
             "description": "The product does not check or incorrectly checks for unusual or exceptional conditions that are not expected to occur frequently during day to day operation of the product.",
-            "value": 469,
-            "count": 469
+            "value": 478,
+            "count": 478
           },
           {
             "id": "CWE-755",
             "name": "Improper Handling of Exceptional Conditions",
             "abstraction": "Class",
             "description": "The product does not handle or incorrectly handles an exceptional condition.",
-            "value": 254,
-            "count": 254
+            "value": 257,
+            "count": 257
           },
           {
             "id": "CWE-756",
@@ -7338,8 +7339,8 @@
             "name": "Improper Input Validation",
             "abstraction": "Class",
             "description": "The product receives input or data, but it does\n        not validate or incorrectly validates that the input has the\n        properties that are required to process the data safely and\n        correctly.",
-            "value": 5504,
-            "count": 5504
+            "value": 5591,
+            "count": 5591
           },
           {
             "id": "CWE-105",
@@ -7434,40 +7435,40 @@
             "name": "Improper Validation of Specified Quantity in Input",
             "abstraction": "Base",
             "description": "The product receives input that is expected to specify a quantity (such as size or length), but it does not validate or incorrectly validates that the quantity has the required properties.",
-            "value": 345,
-            "count": 345
+            "value": 359,
+            "count": 359
           },
           {
             "id": "CWE-1285",
             "name": "Improper Validation of Specified Index, Position, or Offset in Input",
             "abstraction": "Base",
             "description": "The product receives input that is expected to specify an index, position, or offset into an indexable resource such as a buffer or file, but it does not validate or incorrectly validates that the specified index/position/offset has the required properties.",
-            "value": 63,
-            "count": 63
+            "value": 65,
+            "count": 65
           },
           {
             "id": "CWE-1286",
             "name": "Improper Validation of Syntactic Correctness of Input",
             "abstraction": "Base",
             "description": "The product receives input that is expected to be well-formed - i.e., to comply with a certain syntax - but it does not validate or incorrectly validates that the input complies with the syntax.",
-            "value": 98,
-            "count": 98
+            "value": 104,
+            "count": 104
           },
           {
             "id": "CWE-1287",
             "name": "Improper Validation of Specified Type of Input",
             "abstraction": "Base",
             "description": "The product receives input that is expected to be of a certain type, but it does not validate or incorrectly validates that the input is actually of the expected type.",
-            "value": 163,
-            "count": 163
+            "value": 166,
+            "count": 166
           },
           {
             "id": "CWE-1288",
             "name": "Improper Validation of Consistency within Input",
             "abstraction": "Base",
             "description": "The product receives a complex input with multiple elements or fields that must be consistent with each other, but it does not validate or incorrectly validates that the input is actually consistent.",
-            "value": 35,
-            "count": 35
+            "value": 38,
+            "count": 38
           },
           {
             "id": "CWE-1289",
@@ -7489,24 +7490,24 @@
             "name": "Improper Encoding or Escaping of Output",
             "abstraction": "Class",
             "description": "The product prepares a structured message for communication with another component, but encoding or escaping of the data is either missing or done incorrectly. As a result, the intended structure of the message is not preserved.",
-            "value": 387,
-            "count": 387
+            "value": 395,
+            "count": 395
           },
           {
             "id": "CWE-117",
             "name": "Improper Output Neutralization for Logs",
             "abstraction": "Base",
             "description": "The product constructs a log message from external input, but it does not neutralize or incorrectly neutralizes special elements when the message is written to a log file.",
-            "value": 125,
-            "count": 125
+            "value": 128,
+            "count": 128
           },
           {
             "id": "CWE-130",
             "name": "Improper Handling of Length Parameter Inconsistency",
             "abstraction": "Base",
             "description": "The product parses a formatted message or structure, but it does not handle or incorrectly handles a length field that is inconsistent with the actual length of the associated data.",
-            "value": 123,
-            "count": 123
+            "value": 132,
+            "count": 132
           },
           {
             "id": "CWE-138",
@@ -7601,8 +7602,8 @@
             "name": "Improper Neutralization of Escape, Meta, or Control Sequences",
             "abstraction": "Variant",
             "description": "The product receives input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could be interpreted as escape, meta, or control character sequences when they are sent to a downstream component.",
-            "value": 88,
-            "count": 88
+            "value": 90,
+            "count": 90
           },
           {
             "id": "CWE-151",
@@ -7665,8 +7666,8 @@
             "name": "Improper Neutralization of Null Byte or NUL Character",
             "abstraction": "Variant",
             "description": "The product receives input from an upstream component, but it does not neutralize or incorrectly neutralizes NUL characters or null bytes when they are sent to a downstream component.",
-            "value": 32,
-            "count": 32
+            "value": 33,
+            "count": 33
           },
           {
             "id": "CWE-159",
@@ -7729,8 +7730,8 @@
             "name": "Improper Handling of Missing Special Element",
             "abstraction": "Base",
             "description": "The product receives input from an upstream component, but it does not handle or incorrectly handles when an expected special element is missing.",
-            "value": 4,
-            "count": 4
+            "value": 5,
+            "count": 5
           },
           {
             "id": "CWE-167",
@@ -7753,16 +7754,16 @@
             "name": "Improper Null Termination",
             "abstraction": "Base",
             "description": "The product does not terminate or incorrectly terminates a string or array with a null character or equivalent terminator.",
-            "value": 57,
-            "count": 57
+            "value": 60,
+            "count": 60
           },
           {
             "id": "CWE-172",
             "name": "Encoding Error",
             "abstraction": "Class",
             "description": "The product does not properly encode or decode the data, resulting in unexpected values.",
-            "value": 12,
-            "count": 12
+            "value": 14,
+            "count": 14
           },
           {
             "id": "CWE-173",
@@ -7777,8 +7778,8 @@
             "name": "Double Decoding of the Same Data",
             "abstraction": "Variant",
             "description": "The product decodes the same input twice, which can limit the effectiveness of any protection mechanism that occurs in between the decoding operations.",
-            "value": 3,
-            "count": 3
+            "value": 4,
+            "count": 4
           },
           {
             "id": "CWE-175",
@@ -7793,16 +7794,16 @@
             "name": "Improper Handling of Unicode Encoding",
             "abstraction": "Variant",
             "description": "The product does not properly handle when an input contains Unicode encoding.",
-            "value": 37,
-            "count": 37
+            "value": 38,
+            "count": 38
           },
           {
             "id": "CWE-177",
             "name": "Improper Handling of URL Encoding (Hex Encoding)",
             "abstraction": "Variant",
             "description": "The product does not properly handle when all or part of an input has been URL encoded.",
-            "value": 17,
-            "count": 17
+            "value": 18,
+            "count": 18
           },
           {
             "id": "CWE-228",
@@ -7841,8 +7842,8 @@
             "name": "Improper Handling of Undefined Values",
             "abstraction": "Variant",
             "description": "The product does not handle or incorrectly handles when a value is not defined or supported for the associated parameter, field, or argument name.",
-            "value": 11,
-            "count": 11
+            "value": 12,
+            "count": 12
           },
           {
             "id": "CWE-233",
@@ -7945,8 +7946,8 @@
             "name": "Improper Neutralization of HTTP Headers for Scripting Syntax",
             "abstraction": "Variant",
             "description": "The product does not neutralize or incorrectly neutralizes web scripting syntax in HTTP headers that can be used by web browser components that can process raw headers, such as Flash.",
-            "value": 64,
-            "count": 64
+            "value": 65,
+            "count": 65
           },
           {
             "id": "CWE-707",
@@ -8056,32 +8057,32 @@
             "name": "Integer Overflow or Wraparound",
             "abstraction": "Base",
             "description": "The product performs a calculation that can\n         produce an integer overflow or wraparound when the logic\n         assumes that the resulting value will always be larger than\n         the original value. This occurs when an integer value is\n         incremented to a value that is too large to st",
-            "value": 1715,
-            "count": 1715
+            "value": 1799,
+            "count": 1799
           },
           {
             "id": "CWE-191",
             "name": "Integer Underflow (Wrap or Wraparound)",
             "abstraction": "Base",
             "description": "The product subtracts one value from another, such that the result is less than the minimum allowable integer value, which produces a value that is not equal to the correct result.",
-            "value": 422,
-            "count": 422
+            "value": 462,
+            "count": 462
           },
           {
             "id": "CWE-193",
             "name": "Off-by-one Error",
             "abstraction": "Base",
             "description": "A product calculates or uses an incorrect maximum or minimum value that is 1 more, or 1 less, than the correct value.",
-            "value": 135,
-            "count": 135
+            "value": 142,
+            "count": 142
           },
           {
             "id": "CWE-369",
             "name": "Divide By Zero",
             "abstraction": "Base",
             "description": "The product divides a value by zero.",
-            "value": 212,
-            "count": 212
+            "value": 215,
+            "count": 215
           },
           {
             "id": "CWE-467",
@@ -8112,8 +8113,8 @@
             "name": "Incorrect Calculation",
             "abstraction": "Pillar",
             "description": "The product performs a calculation that generates incorrect or unintended results that are later used in security-critical decisions or resource management.",
-            "value": 82,
-            "count": 82
+            "value": 84,
+            "count": 84
           },
           {
             "id": "CWE-1335",
@@ -8143,8 +8144,8 @@
             "name": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')",
             "abstraction": "Class",
             "description": "The product constructs all or part of a command, data structure, or record using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify how it is parsed or interpreted when it is sent to a downstream component.",
-            "value": 4873,
-            "count": 4873
+            "value": 4938,
+            "count": 4938
           },
           {
             "id": "CWE-75",
@@ -8159,40 +8160,40 @@
             "name": "Improper Neutralization of Equivalent Special Elements",
             "abstraction": "Base",
             "description": "The product correctly neutralizes certain special elements, but it improperly neutralizes equivalent special elements.",
-            "value": 15,
-            "count": 15
+            "value": 16,
+            "count": 16
           },
           {
             "id": "CWE-77",
             "name": "Improper Neutralization of Special Elements used in a Command ('Command Injection')",
             "abstraction": "Class",
             "description": "The product constructs all or part of a command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended command when it is sent to a downstream component.",
-            "value": 2856,
-            "count": 2856
+            "value": 2876,
+            "count": 2876
           },
           {
             "id": "CWE-78",
             "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
             "abstraction": "Base",
             "description": "The product constructs all or part of an OS command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended OS command when it is sent to a downstream component.",
-            "value": 4720,
-            "count": 4720
+            "value": 4815,
+            "count": 4815
           },
           {
             "id": "CWE-79",
             "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
             "abstraction": "Base",
             "description": "The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users.",
-            "value": 29275,
-            "count": 29275
+            "value": 29626,
+            "count": 29626
           },
           {
             "id": "CWE-80",
             "name": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS)",
             "abstraction": "Variant",
             "description": "The product receives input from an upstream component, but it does not neutralize or incorrectly neutralizes special characters such as \"<\", \">\", and \"&\" that could be interpreted as web-scripting elements when they are sent to a downstream component that processes web pages.",
-            "value": 603,
-            "count": 603
+            "value": 615,
+            "count": 615
           },
           {
             "id": "CWE-81",
@@ -8215,8 +8216,8 @@
             "name": "Improper Neutralization of Script in Attributes in a Web Page",
             "abstraction": "Variant",
             "description": "The product does not neutralize or incorrectly neutralizes \"javascript:\" or other URIs from dangerous attributes within tags, such as onmouseover, onload, onerror, or style.",
-            "value": 31,
-            "count": 31
+            "value": 32,
+            "count": 32
           },
           {
             "id": "CWE-84",
@@ -8255,64 +8256,64 @@
             "name": "Improper Neutralization of Argument Delimiters in a Command ('Argument Injection')",
             "abstraction": "Base",
             "description": "The product constructs a string for a command to be executed by a separate component\nin another control sphere, but it does not properly delimit the\nintended arguments, options, or switches within that command string.",
-            "value": 343,
-            "count": 343
+            "value": 356,
+            "count": 356
           },
           {
             "id": "CWE-89",
             "name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
             "abstraction": "Base",
             "description": "The product constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component. Without sufficient removal o",
-            "value": 13162,
-            "count": 13162
+            "value": 13315,
+            "count": 13315
           },
           {
             "id": "CWE-90",
             "name": "Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')",
             "abstraction": "Base",
             "description": "The product constructs all or part of an LDAP query using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended LDAP query when it is sent to a downstream component.",
-            "value": 83,
-            "count": 83
+            "value": 89,
+            "count": 89
           },
           {
             "id": "CWE-91",
             "name": "XML Injection (aka Blind XPath Injection)",
             "abstraction": "Base",
             "description": "The product does not properly neutralize special elements that are used in XML, allowing attackers to modify the syntax, content, or commands of the XML before it is processed by an end system.",
-            "value": 91,
-            "count": 91
+            "value": 94,
+            "count": 94
           },
           {
             "id": "CWE-93",
             "name": "Improper Neutralization of CRLF Sequences ('CRLF Injection')",
             "abstraction": "Base",
             "description": "The product uses CRLF (carriage return line feeds) as a special element, e.g. to separate lines or records, but it does not neutralize or incorrectly neutralizes CRLF sequences from inputs.",
-            "value": 221,
-            "count": 221
+            "value": 231,
+            "count": 231
           },
           {
             "id": "CWE-94",
             "name": "Improper Control of Generation of Code ('Code Injection')",
             "abstraction": "Base",
             "description": "The product constructs all or part of a code segment using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the syntax or behavior of the intended code segment.",
-            "value": 4574,
-            "count": 4574
+            "value": 4678,
+            "count": 4678
           },
           {
             "id": "CWE-95",
             "name": "Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')",
             "abstraction": "Variant",
             "description": "The product receives input from an upstream component, but it does not neutralize or incorrectly neutralizes code syntax before using the input in a dynamic evaluation call (e.g. \"eval\").",
-            "value": 206,
-            "count": 206
+            "value": 216,
+            "count": 216
           },
           {
             "id": "CWE-96",
             "name": "Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection')",
             "abstraction": "Base",
             "description": "The product receives input from an upstream component, but it does not neutralize or incorrectly neutralizes code syntax before inserting the input into an executable resource, such as a library, configuration file, or template.",
-            "value": 26,
-            "count": 26
+            "value": 27,
+            "count": 27
           },
           {
             "id": "CWE-97",
@@ -8327,8 +8328,8 @@
             "name": "Improper Control of Resource Identifiers ('Resource Injection')",
             "abstraction": "Class",
             "description": "The product receives input from an upstream component, but it does not restrict or incorrectly restricts the input before it is used as an identifier for a resource that may be outside the intended sphere of control.",
-            "value": 66,
-            "count": 66
+            "value": 67,
+            "count": 67
           },
           {
             "id": "CWE-102",
@@ -8343,16 +8344,16 @@
             "name": "Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting')",
             "abstraction": "Variant",
             "description": "The product receives data from an HTTP agent/component (e.g., web server, proxy, browser, etc.), but it does not neutralize or incorrectly neutralizes CR and LF characters before the data is included in outgoing HTTP headers.",
-            "value": 106,
-            "count": 106
+            "value": 108,
+            "count": 108
           },
           {
             "id": "CWE-564",
             "name": "SQL Injection: Hibernate",
             "abstraction": "Variant",
             "description": "Using Hibernate to execute a dynamic SQL statement built with user-controlled input can allow an attacker to modify the statement's meaning or to execute arbitrary SQL commands.",
-            "value": 13,
-            "count": 13
+            "value": 15,
+            "count": 15
           },
           {
             "id": "CWE-621",
@@ -8383,16 +8384,16 @@
             "name": "Improper Restriction of Names for Files and Other Resources",
             "abstraction": "Base",
             "description": "The product constructs the name of a file or other resource using input from an upstream component, but it does not restrict or incorrectly restricts the resulting name.",
-            "value": 18,
-            "count": 18
+            "value": 19,
+            "count": 19
           },
           {
             "id": "CWE-643",
             "name": "Improper Neutralization of Data within XPath Expressions ('XPath Injection')",
             "abstraction": "Base",
             "description": "The product uses external input to dynamically construct an XPath expression used to retrieve data from an XML database, but it does not neutralize or incorrectly neutralizes that input. This allows an attacker to control the structure of the query.",
-            "value": 15,
-            "count": 15
+            "value": 17,
+            "count": 17
           },
           {
             "id": "CWE-652",
@@ -8415,8 +8416,8 @@
             "name": "Use of Multiple Resources with Duplicate Identifier",
             "abstraction": "Base",
             "description": "The product uses multiple resources that can have the same identifier, in a context in which unique identifiers are required.",
-            "value": 13,
-            "count": 13
+            "value": 14,
+            "count": 14
           },
           {
             "id": "CWE-914",
@@ -8431,32 +8432,32 @@
             "name": "Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')",
             "abstraction": "Base",
             "description": "The product constructs all or part of an expression language (EL) statement in a framework such as a Java Server Page (JSP) using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended EL statement",
-            "value": 62,
-            "count": 62
+            "value": 63,
+            "count": 63
           },
           {
             "id": "CWE-943",
             "name": "Improper Neutralization of Special Elements in Data Query Logic",
             "abstraction": "Class",
             "description": "The product generates a query intended to access or manipulate data in a data store such as a database, but it does not neutralize or incorrectly neutralizes special elements that can modify the intended logic of the query.",
-            "value": 124,
-            "count": 124
+            "value": 126,
+            "count": 126
           },
           {
             "id": "CWE-1236",
             "name": "Improper Neutralization of Formula Elements in a CSV File",
             "abstraction": "Base",
             "description": "The product saves user-provided information into a Comma-Separated Value (CSV) file, but it does not neutralize or incorrectly neutralizes special elements that could be interpreted as a command when the file is opened by a spreadsheet product.",
-            "value": 193,
-            "count": 193
+            "value": 196,
+            "count": 196
           },
           {
             "id": "CWE-1336",
             "name": "Improper Neutralization of Special Elements Used in a Template Engine",
             "abstraction": "Base",
             "description": "The product uses a template engine to insert or process externally-influenced input, but it does not neutralize or incorrectly neutralizes special elements or syntax that can be interpreted as template expressions or other code directives when processed by the engine.",
-            "value": 269,
-            "count": 269
+            "value": 279,
+            "count": 279
           },
           {
             "id": "CWE-1426",
@@ -8471,8 +8472,8 @@
             "name": "Improper Neutralization of Input Used for LLM Prompting",
             "abstraction": "Base",
             "description": "The product uses externally-provided data to build prompts provided to\nlarge language models (LLMs), but the way these prompts are constructed\ncauses the LLM to fail to distinguish between user-supplied inputs and\ndeveloper provided system directives.",
-            "value": 17,
-            "count": 17
+            "value": 19,
+            "count": 19
           }
         ]
       },
@@ -8494,8 +8495,8 @@
             "name": "Incorrect Behavior Order: Validate Before Canonicalize",
             "abstraction": "Variant",
             "description": "The product validates input before it is canonicalized, which prevents the product from detecting data that becomes invalid after the canonicalization step.",
-            "value": 38,
-            "count": 38
+            "value": 41,
+            "count": 41
           },
           {
             "id": "CWE-181",
@@ -8510,8 +8511,8 @@
             "name": "Uncaught Exception",
             "abstraction": "Base",
             "description": "An exception is thrown from a function, but it is not caught.",
-            "value": 324,
-            "count": 324
+            "value": 347,
+            "count": 347
           },
           {
             "id": "CWE-382",
@@ -8630,40 +8631,40 @@
             "name": "Reachable Assertion",
             "abstraction": "Base",
             "description": "The product contains an assert() or similar statement that can be triggered by an attacker, which leads to an application exit or other behavior that is more severe than necessary.",
-            "value": 479,
-            "count": 479
+            "value": 520,
+            "count": 520
           },
           {
             "id": "CWE-670",
             "name": "Always-Incorrect Control Flow Implementation",
             "abstraction": "Class",
             "description": "The code contains a control flow path that does not reflect the algorithm that the path is intended to implement, leading to incorrect behavior any time this path is navigated.",
-            "value": 115,
-            "count": 115
+            "value": 116,
+            "count": 116
           },
           {
             "id": "CWE-674",
             "name": "Uncontrolled Recursion",
             "abstraction": "Class",
             "description": "The product does not properly control the amount of recursion that takes place,  consuming excessive resources, such as allocated memory or the program stack.",
-            "value": 393,
-            "count": 393
+            "value": 407,
+            "count": 407
           },
           {
             "id": "CWE-691",
             "name": "Insufficient Control Flow Management",
             "abstraction": "Pillar",
             "description": "The code does not sufficiently manage its control flow during execution, creating conditions in which the control flow can be modified in unexpected ways.",
-            "value": 39,
-            "count": 39
+            "value": 40,
+            "count": 40
           },
           {
             "id": "CWE-696",
             "name": "Incorrect Behavior Order",
             "abstraction": "Class",
             "description": "The product performs multiple related behaviors, but the behaviors are performed in the wrong order in ways that may produce resultant weaknesses.",
-            "value": 48,
-            "count": 48
+            "value": 51,
+            "count": 51
           },
           {
             "id": "CWE-698",
@@ -8702,24 +8703,24 @@
             "name": "Improper Control of Interaction Frequency",
             "abstraction": "Class",
             "description": "The product does not properly limit the number or frequency of interactions that it has with an actor, such as the number of incoming requests.",
-            "value": 87,
-            "count": 87
+            "value": 88,
+            "count": 88
           },
           {
             "id": "CWE-834",
             "name": "Excessive Iteration",
             "abstraction": "Class",
             "description": "The product performs an iteration or loop without sufficiently limiting the number of times that the loop is executed.",
-            "value": 48,
-            "count": 48
+            "value": 49,
+            "count": 49
           },
           {
             "id": "CWE-835",
             "name": "Loop with Unreachable Exit Condition ('Infinite Loop')",
             "abstraction": "Base",
             "description": "The product contains an iteration or loop with an exit condition that cannot be reached, i.e., an infinite loop.",
-            "value": 459,
-            "count": 459
+            "value": 476,
+            "count": 476
           },
           {
             "id": "CWE-837",
@@ -8734,8 +8735,8 @@
             "name": "Improper Enforcement of Behavioral Workflow",
             "abstraction": "Class",
             "description": "The product supports a session in which more than one behavior must be performed by an actor, but it does not properly ensure that the actor performs the behaviors in the required sequence.",
-            "value": 82,
-            "count": 82
+            "value": 84,
+            "count": 84
           },
           {
             "id": "CWE-1190",
@@ -8797,32 +8798,32 @@
             "name": "Insufficient Verification of Data Authenticity",
             "abstraction": "Class",
             "description": "The product does not sufficiently verify the origin or authenticity of data, in a way that causes it to accept invalid data.",
-            "value": 595,
-            "count": 595
+            "value": 619,
+            "count": 619
           },
           {
             "id": "CWE-346",
             "name": "Origin Validation Error",
             "abstraction": "Class",
             "description": "The product does not properly verify that the source of data or communication is valid.",
-            "value": 628,
-            "count": 628
+            "value": 646,
+            "count": 646
           },
           {
             "id": "CWE-348",
             "name": "Use of Less Trusted Source",
             "abstraction": "Base",
             "description": "The product has two different sources of the same data or information, but it uses the source that has less support for verification, is less trusted, or is less resistant to attack.",
-            "value": 89,
-            "count": 89
+            "value": 94,
+            "count": 94
           },
           {
             "id": "CWE-349",
             "name": "Acceptance of Extraneous Untrusted Data With Trusted Data",
             "abstraction": "Base",
             "description": "The product, when processing trusted data, accepts any untrusted data that is also included with the trusted data, treating the untrusted data as if it were trusted.",
-            "value": 48,
-            "count": 48
+            "value": 50,
+            "count": 50
           },
           {
             "id": "CWE-351",
@@ -8837,8 +8838,8 @@
             "name": "Cross-Site Request Forgery (CSRF)",
             "abstraction": "Compound",
             "description": "The web application does not, or cannot, sufficiently verify whether a request was intentionally provided by the user who sent the request, which could have originated from an unauthorized actor.",
-            "value": 6126,
-            "count": 6126
+            "value": 6152,
+            "count": 6152
           },
           {
             "id": "CWE-353",
@@ -8853,8 +8854,8 @@
             "name": "Improper Validation of Integrity Check Value",
             "abstraction": "Base",
             "description": "The product does not validate or incorrectly validates the integrity check values or \"checksums\" of a message. This may prevent it from detecting if the data has been modified or corrupted in transmission.",
-            "value": 131,
-            "count": 131
+            "value": 136,
+            "count": 136
           },
           {
             "id": "CWE-360",
@@ -8869,8 +8870,8 @@
             "name": "Download of Code Without Integrity Check",
             "abstraction": "Base",
             "description": "The product downloads source code or an executable from a remote location and executes the code without sufficiently verifying the origin and integrity of the code.",
-            "value": 199,
-            "count": 199
+            "value": 203,
+            "count": 203
           },
           {
             "id": "CWE-616",
@@ -8917,8 +8918,8 @@
             "name": "Missing Origin Validation in WebSockets",
             "abstraction": "Variant",
             "description": "The product uses a WebSocket, but it does not properly verify that the source of data or communication is valid.",
-            "value": 43,
-            "count": 43
+            "value": 45,
+            "count": 45
           }
         ]
       },
@@ -8932,32 +8933,32 @@
             "name": "Improper Restriction of Operations within the Bounds of a Memory Buffer",
             "abstraction": "Class",
             "description": "The product performs operations on a memory buffer, but it reads from or writes to a memory location outside the buffer's intended boundary. This may result in read or write operations on unexpected memory locations that could be linked to other variables, data structures, or internal program data.",
-            "value": 3339,
-            "count": 3339
+            "value": 3373,
+            "count": 3373
           },
           {
             "id": "CWE-120",
             "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')",
             "abstraction": "Base",
             "description": "The product copies an input buffer to an output buffer without verifying that the size of the input buffer is less than the size of the output buffer.",
-            "value": 3180,
-            "count": 3180
+            "value": 3193,
+            "count": 3193
           },
           {
             "id": "CWE-121",
             "name": "Stack-based Buffer Overflow",
             "abstraction": "Variant",
             "description": "A stack-based buffer overflow condition is a condition where the buffer being overwritten is allocated on the stack (i.e., is a local variable or, rarely, a parameter to a function).",
-            "value": 3886,
-            "count": 3886
+            "value": 3989,
+            "count": 3989
           },
           {
             "id": "CWE-122",
             "name": "Heap-based Buffer Overflow",
             "abstraction": "Variant",
             "description": "A heap overflow condition is a buffer overflow, where the buffer that can be overwritten is allocated in the heap portion of memory, generally meaning that the buffer was allocated using a routine such as malloc().",
-            "value": 3244,
-            "count": 3244
+            "value": 3618,
+            "count": 3618
           },
           {
             "id": "CWE-123",
@@ -8972,56 +8973,56 @@
             "name": "Buffer Underwrite ('Buffer Underflow')",
             "abstraction": "Base",
             "description": "The product writes to a buffer using an index or pointer that references a memory location prior to the beginning of the buffer.",
-            "value": 42,
-            "count": 42
+            "value": 45,
+            "count": 45
           },
           {
             "id": "CWE-125",
             "name": "Out-of-bounds Read",
             "abstraction": "Base",
             "description": "The product reads data past the end, or before the beginning, of the intended buffer.",
-            "value": 5243,
-            "count": 5243
+            "value": 5580,
+            "count": 5580
           },
           {
             "id": "CWE-126",
             "name": "Buffer Over-read",
             "abstraction": "Variant",
             "description": "The product reads from a buffer using buffer access mechanisms such as indexes or pointers that reference memory locations after the targeted buffer.",
-            "value": 541,
-            "count": 541
+            "value": 570,
+            "count": 570
           },
           {
             "id": "CWE-127",
             "name": "Buffer Under-read",
             "abstraction": "Variant",
             "description": "The product reads from a buffer using buffer access mechanisms such as indexes or pointers that reference memory locations prior to the targeted buffer.",
-            "value": 8,
-            "count": 8
+            "value": 9,
+            "count": 9
           },
           {
             "id": "CWE-129",
             "name": "Improper Validation of Array Index",
             "abstraction": "Variant",
             "description": "The product uses untrusted input when calculating or using an array index, but the product does not validate or incorrectly validates the index to ensure the index references a valid position within the array.",
-            "value": 344,
-            "count": 344
+            "value": 350,
+            "count": 350
           },
           {
             "id": "CWE-131",
             "name": "Incorrect Calculation of Buffer Size",
             "abstraction": "Base",
             "description": "The product does not correctly calculate the size to be used when allocating a buffer, which could lead to a buffer overflow.",
-            "value": 171,
-            "count": 171
+            "value": 175,
+            "count": 175
           },
           {
             "id": "CWE-134",
             "name": "Use of Externally-Controlled Format String",
             "abstraction": "Base",
             "description": "The product uses a function that accepts a format string as an argument, but the format string originates from an external source.",
-            "value": 160,
-            "count": 160
+            "value": 167,
+            "count": 167
           },
           {
             "id": "CWE-188",
@@ -9052,24 +9053,24 @@
             "name": "Missing Release of Memory after Effective Lifetime",
             "abstraction": "Variant",
             "description": "The product does not sufficiently track and release allocated memory after it has been used, making the memory unavailable for reallocation and reuse.",
-            "value": 678,
-            "count": 678
+            "value": 693,
+            "count": 693
           },
           {
             "id": "CWE-415",
             "name": "Double Free",
             "abstraction": "Variant",
             "description": "The product calls free() twice on the same memory address.",
-            "value": 372,
-            "count": 372
+            "value": 403,
+            "count": 403
           },
           {
             "id": "CWE-416",
             "name": "Use After Free",
             "abstraction": "Variant",
             "description": "The product reuses or references memory after it has been freed. At some point afterward, the memory may be allocated again and saved in another pointer, while the original pointer references a location somewhere within the new allocation. Any operations using the original pointer are no longer vali",
-            "value": 5193,
-            "count": 5193
+            "value": 5600,
+            "count": 5600
           },
           {
             "id": "CWE-466",
@@ -9100,8 +9101,8 @@
             "name": "Free of Memory not on the Heap",
             "abstraction": "Variant",
             "description": "The product calls free() on a pointer to memory that was not allocated using associated heap allocation functions such as malloc(), calloc(), or realloc().",
-            "value": 24,
-            "count": 24
+            "value": 26,
+            "count": 26
           },
           {
             "id": "CWE-680",
@@ -9132,16 +9133,16 @@
             "name": "Mismatched Memory Management Routines",
             "abstraction": "Variant",
             "description": "The product attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource.",
-            "value": 13,
-            "count": 13
+            "value": 14,
+            "count": 14
           },
           {
             "id": "CWE-763",
             "name": "Release of Invalid Pointer or Reference",
             "abstraction": "Base",
             "description": "The product attempts to return a memory resource to the system, but it calls the wrong release function or calls the appropriate release function incorrectly.",
-            "value": 49,
-            "count": 49
+            "value": 57,
+            "count": 57
           },
           {
             "id": "CWE-786",
@@ -9156,8 +9157,8 @@
             "name": "Out-of-bounds Write",
             "abstraction": "Base",
             "description": "The product writes data past the end, or before the beginning, of the intended buffer.",
-            "value": 5286,
-            "count": 5286
+            "value": 5408,
+            "count": 5408
           },
           {
             "id": "CWE-788",
@@ -9172,16 +9173,16 @@
             "name": "Memory Allocation with Excessive Size Value",
             "abstraction": "Variant",
             "description": "The product allocates memory based on an untrusted, large size value, but it does not ensure that the size is within expected limits, allowing arbitrary amounts of memory to be allocated.",
-            "value": 285,
-            "count": 285
+            "value": 299,
+            "count": 299
           },
           {
             "id": "CWE-805",
             "name": "Buffer Access with Incorrect Length Value",
             "abstraction": "Base",
             "description": "The product uses a sequential operation to read or write a buffer, but it uses an incorrect length value that causes it to access memory that is outside of the bounds of the buffer.",
-            "value": 57,
-            "count": 57
+            "value": 59,
+            "count": 59
           },
           {
             "id": "CWE-806",
@@ -9196,8 +9197,8 @@
             "name": "Untrusted Pointer Dereference",
             "abstraction": "Base",
             "description": "The product obtains a value from an untrusted source, converts this value to a pointer, and dereferences the resulting pointer.",
-            "value": 260,
-            "count": 260
+            "value": 296,
+            "count": 296
           },
           {
             "id": "CWE-823",
@@ -9212,16 +9213,16 @@
             "name": "Access of Uninitialized Pointer",
             "abstraction": "Base",
             "description": "The product accesses or uses a pointer that has not been initialized.",
-            "value": 212,
-            "count": 212
+            "value": 215,
+            "count": 215
           },
           {
             "id": "CWE-825",
             "name": "Expired Pointer Dereference",
             "abstraction": "Base",
             "description": "The product dereferences a pointer that contains a location for memory that was previously valid, but is no longer valid.",
-            "value": 94,
-            "count": 94
+            "value": 96,
+            "count": 96
           }
         ]
       },
@@ -9315,8 +9316,8 @@
             "name": "Improperly Implemented Security Check for Standard",
             "abstraction": "Base",
             "description": "The product does not implement or incorrectly implements one or more security-relevant checks as specified by the design of a standardized algorithm, protocol, or technique.",
-            "value": 115,
-            "count": 115
+            "value": 118,
+            "count": 118
           },
           {
             "id": "CWE-383",
@@ -9339,8 +9340,8 @@
             "name": "Return of Wrong Status Code",
             "abstraction": "Base",
             "description": "A function or operation returns an incorrect return value or status code that does not indicate the true result of execution, causing the product to modify its behavior based on the incorrect result.",
-            "value": 14,
-            "count": 14
+            "value": 15,
+            "count": 15
           },
           {
             "id": "CWE-440",
@@ -9379,8 +9380,8 @@
             "name": "User Interface (UI) Misrepresentation of Critical Information",
             "abstraction": "Class",
             "description": "The user interface (UI) does not properly represent critical information to the user, allowing the information - or its source - to be obscured or spoofed. This is often a component in phishing attacks.",
-            "value": 427,
-            "count": 427
+            "value": 428,
+            "count": 428
           },
           {
             "id": "CWE-462",
@@ -9403,16 +9404,16 @@
             "name": "Undefined Behavior for Input to API",
             "abstraction": "Base",
             "description": "The behavior of this function is undefined unless its control parameter is set to a specific value.",
-            "value": 16,
-            "count": 16
+            "value": 17,
+            "count": 17
           },
           {
             "id": "CWE-476",
             "name": "NULL Pointer Dereference",
             "abstraction": "Base",
             "description": "The product dereferences a pointer that it expects to be valid but is NULL.",
-            "value": 2381,
-            "count": 2381
+            "value": 2460,
+            "count": 2460
           },
           {
             "id": "CWE-477",
@@ -9651,8 +9652,8 @@
             "name": "Function Call with Incorrectly Specified Arguments",
             "abstraction": "Base",
             "description": "The product calls a function, procedure, or routine with arguments that are not correctly specified, leading to always-incorrect behavior and resultant weaknesses.",
-            "value": 9,
-            "count": 9
+            "value": 10,
+            "count": 10
           },
           {
             "id": "CWE-675",
@@ -9715,8 +9716,8 @@
             "name": "Function Call With Incorrect Variable or Reference as Argument",
             "abstraction": "Variant",
             "description": "The product calls a function, procedure, or routine, but the caller specifies the wrong variable or reference as one of the arguments, which may lead to undefined behavior and resultant weaknesses.",
-            "value": 4,
-            "count": 4
+            "value": 5,
+            "count": 5
           },
           {
             "id": "CWE-695",
@@ -10355,8 +10356,8 @@
             "name": "Reliance on Insufficiently Trustworthy Component",
             "abstraction": "Class",
             "description": "The product is built from multiple separate components, but it uses a component that is not sufficiently trusted to meet expectations for security, reliability, updateability, and maintainability.",
-            "value": 9,
-            "count": 9
+            "value": 10,
+            "count": 10
           },
           {
             "id": "CWE-1434",
@@ -10378,16 +10379,16 @@
             "name": "Collapse of Data into Unsafe Value",
             "abstraction": "Base",
             "description": "The product filters data in a way that causes it to be reduced or \"collapsed\" into an unsafe value that violates an expected security property.",
-            "value": 3,
-            "count": 3
+            "value": 4,
+            "count": 4
           },
           {
             "id": "CWE-184",
             "name": "Incomplete List of Disallowed Inputs",
             "abstraction": "Base",
             "description": "The product implements a protection mechanism that relies on a list of inputs (or properties of inputs) that are not allowed by policy or otherwise require other action to neutralize before additional processing takes place, but the list is incomplete.",
-            "value": 220,
-            "count": 220
+            "value": 226,
+            "count": 226
           },
           {
             "id": "CWE-222",
@@ -10442,40 +10443,40 @@
             "name": "Client-Side Enforcement of Server-Side Security",
             "abstraction": "Class",
             "description": "The product is composed of a server that relies on the client to implement a mechanism that is intended to protect the server.",
-            "value": 176,
-            "count": 176
+            "value": 179,
+            "count": 179
           },
           {
             "id": "CWE-693",
             "name": "Protection Mechanism Failure",
             "abstraction": "Pillar",
             "description": "The product does not use or incorrectly uses a protection mechanism that provides sufficient defense against directed attacks against the product.",
-            "value": 858,
-            "count": 858
+            "value": 881,
+            "count": 881
           },
           {
             "id": "CWE-757",
             "name": "Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')",
             "abstraction": "Base",
             "description": "A protocol or its implementation supports interaction between multiple actors and allows those actors to negotiate which algorithm should be used as a protection mechanism such as encryption or authentication, but it does not select the strongest algorithm that is available to both parties.",
-            "value": 39,
-            "count": 39
+            "value": 41,
+            "count": 41
           },
           {
             "id": "CWE-778",
             "name": "Insufficient Logging",
             "abstraction": "Base",
             "description": "When a security-critical event occurs, the product either does not record the event or omits important details about the event when logging it.",
-            "value": 37,
-            "count": 37
+            "value": 38,
+            "count": 38
           },
           {
             "id": "CWE-807",
             "name": "Reliance on Untrusted Inputs in a Security Decision",
             "abstraction": "Base",
             "description": "The product uses a protection mechanism that relies on the existence or values of an input, but the input can be modified by an untrusted actor in a way that bypasses the protection mechanism.",
-            "value": 119,
-            "count": 119
+            "value": 130,
+            "count": 130
           },
           {
             "id": "CWE-1039",
@@ -10601,16 +10602,16 @@
             "name": "Use of Insufficiently Random Values",
             "abstraction": "Class",
             "description": "The product uses insufficiently random numbers or values in a security context that depends on unpredictable numbers.",
-            "value": 184,
-            "count": 184
+            "value": 186,
+            "count": 186
           },
           {
             "id": "CWE-331",
             "name": "Insufficient Entropy",
             "abstraction": "Base",
             "description": "The product uses an algorithm or scheme that produces insufficient entropy, leaving patterns or clusters of values that are more likely to occur than others.",
-            "value": 98,
-            "count": 98
+            "value": 99,
+            "count": 99
           },
           {
             "id": "CWE-332",
@@ -10641,8 +10642,8 @@
             "name": "Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG)",
             "abstraction": "Base",
             "description": "The product uses a Pseudo-Random Number Generator (PRNG) but does not correctly manage seeds.",
-            "value": 21,
-            "count": 21
+            "value": 22,
+            "count": 22
           },
           {
             "id": "CWE-336",
@@ -10657,16 +10658,16 @@
             "name": "Predictable Seed in Pseudo-Random Number Generator (PRNG)",
             "abstraction": "Variant",
             "description": "A Pseudo-Random Number Generator (PRNG) is initialized from a predictable seed, such as the process ID or system time.",
-            "value": 15,
-            "count": 15
+            "value": 16,
+            "count": 16
           },
           {
             "id": "CWE-338",
             "name": "Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)",
             "abstraction": "Base",
             "description": "The product uses a Pseudo-Random Number Generator (PRNG) in a security context, but the PRNG's algorithm is not cryptographically strong.",
-            "value": 160,
-            "count": 160
+            "value": 161,
+            "count": 161
           },
           {
             "id": "CWE-339",
@@ -10752,8 +10753,8 @@
             "name": "Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')",
             "abstraction": "Base",
             "description": "The product uses external input with reflection to select which classes or code to use, but it does not sufficiently prevent the input from selecting improper classes or code.",
-            "value": 108,
-            "count": 108
+            "value": 112,
+            "count": 112
           },
           {
             "id": "CWE-473",
@@ -10768,8 +10769,8 @@
             "name": "Deserialization of Untrusted Data",
             "abstraction": "Base",
             "description": "The product deserializes untrusted data without sufficiently ensuring that the resulting data will be valid.",
-            "value": 2815,
-            "count": 2815
+            "value": 2867,
+            "count": 2867
           },
           {
             "id": "CWE-514",
@@ -10792,8 +10793,8 @@
             "name": "Operation on a Resource after Expiration or Release",
             "abstraction": "Class",
             "description": "The product uses, accesses, or otherwise operates on a resource after that resource has been expired, released, or revoked.",
-            "value": 70,
-            "count": 70
+            "value": 71,
+            "count": 71
           },
           {
             "id": "CWE-826",
@@ -10816,8 +10817,8 @@
             "name": "Improperly Controlled Modification of Dynamically-Determined Object Attributes",
             "abstraction": "Base",
             "description": "The product receives input from an upstream component that specifies multiple attributes, properties, or fields that are to be initialized or updated in an object, but it does not properly control which attributes can be modified.",
-            "value": 180,
-            "count": 180
+            "value": 186,
+            "count": 186
           },
           {
             "id": "CWE-1104",
@@ -10864,8 +10865,8 @@
             "name": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')",
             "abstraction": "Variant",
             "description": "The product receives input from an upstream component that specifies attributes that are to be initialized or updated in an object, but it does not properly control modifications of attributes of the object prototype.",
-            "value": 407,
-            "count": 407
+            "value": 414,
+            "count": 414
           },
           {
             "id": "CWE-1329",
@@ -10887,8 +10888,8 @@
             "name": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion')",
             "abstraction": "Variant",
             "description": "The PHP application receives input from an upstream component, but it does not restrict or incorrectly restricts the input before its usage in \"require,\" \"include,\" or similar functions.",
-            "value": 1337,
-            "count": 1337
+            "value": 1342,
+            "count": 1342
           },
           {
             "id": "CWE-118",
@@ -10903,8 +10904,8 @@
             "name": "Improper Handling of Case Sensitivity",
             "abstraction": "Base",
             "description": "The product does not properly account for differences in case sensitivity when accessing or determining the properties of a resource, leading to inconsistent results.",
-            "value": 97,
-            "count": 97
+            "value": 103,
+            "count": 103
           },
           {
             "id": "CWE-192",
@@ -10927,8 +10928,8 @@
             "name": "Signed to Unsigned Conversion Error",
             "abstraction": "Variant",
             "description": "The product uses a signed primitive and performs a cast to an unsigned primitive, which can produce an unexpected value if the value of the signed primitive can not be represented using an unsigned primitive.",
-            "value": 30,
-            "count": 30
+            "value": 32,
+            "count": 32
           },
           {
             "id": "CWE-196",
@@ -10943,16 +10944,16 @@
             "name": "Numeric Truncation Error",
             "abstraction": "Base",
             "description": "Truncation errors occur when a primitive is cast to a primitive of a smaller size and data is lost in the conversion.",
-            "value": 82,
-            "count": 82
+            "value": 95,
+            "count": 95
           },
           {
             "id": "CWE-212",
             "name": "Improper Removal of Sensitive Information Before Storage or Transfer",
             "abstraction": "Base",
             "description": "The product stores, transfers, or shares a resource that contains sensitive information, but it does not properly remove that information before the product makes the resource available to unauthorized actors.",
-            "value": 82,
-            "count": 82
+            "value": 83,
+            "count": 83
           },
           {
             "id": "CWE-221",
@@ -10983,8 +10984,8 @@
             "name": "Incomplete Internal State Distinction",
             "abstraction": "Base",
             "description": "The product does not properly determine which state it is in, causing it to assume it is in state X when in fact it is in state Y, causing it to perform incorrect operations in a security-relevant manner.",
-            "value": 10,
-            "count": 10
+            "value": 11,
+            "count": 11
           },
           {
             "id": "CWE-386",
@@ -10999,48 +11000,48 @@
             "name": "Uncontrolled Resource Consumption",
             "abstraction": "Class",
             "description": "The product does not properly control the allocation and maintenance of a limited resource.",
-            "value": 3113,
-            "count": 3113
+            "value": 3176,
+            "count": 3176
           },
           {
             "id": "CWE-404",
             "name": "Improper Resource Shutdown or Release",
             "abstraction": "Class",
             "description": "The product does not release or incorrectly releases a resource before it is made available for re-use.",
-            "value": 709,
-            "count": 709
+            "value": 717,
+            "count": 717
           },
           {
             "id": "CWE-405",
             "name": "Asymmetric Resource Consumption (Amplification)",
             "abstraction": "Class",
             "description": "The product does not properly control situations in which an adversary can cause the product to consume or produce excessive resources without requiring the adversary to invest equivalent work or otherwise prove authorization, i.e., the adversary's influence is \"asymmetric.\"",
-            "value": 65,
-            "count": 65
+            "value": 69,
+            "count": 69
           },
           {
             "id": "CWE-406",
             "name": "Insufficient Control of Network Message Volume (Network Amplification)",
             "abstraction": "Class",
             "description": "The product does not sufficiently monitor or control transmitted network traffic volume, so that an actor can cause the product to transmit more traffic than should be allowed for that actor.",
-            "value": 21,
-            "count": 21
+            "value": 22,
+            "count": 22
           },
           {
             "id": "CWE-407",
             "name": "Inefficient Algorithmic Complexity",
             "abstraction": "Class",
             "description": "An algorithm in a product has an inefficient worst-case computational complexity that may be detrimental to system performance and can be triggered by an attacker, typically using crafted manipulations that ensure that the worst case is being reached.",
-            "value": 206,
-            "count": 206
+            "value": 219,
+            "count": 219
           },
           {
             "id": "CWE-409",
             "name": "Improper Handling of Highly Compressed Data (Data Amplification)",
             "abstraction": "Base",
             "description": "The product does not handle or incorrectly handles a compressed input with a very high compression ratio that produces a large output.",
-            "value": 149,
-            "count": 149
+            "value": 162,
+            "count": 162
           },
           {
             "id": "CWE-410",
@@ -11055,16 +11056,16 @@
             "name": "Unrestricted Upload of File with Dangerous Type",
             "abstraction": "Base",
             "description": "The product allows the upload or transfer of dangerous file types that are automatically processed within its environment.",
-            "value": 3157,
-            "count": 3157
+            "value": 3182,
+            "count": 3182
           },
           {
             "id": "CWE-453",
             "name": "Insecure Default Variable Initialization",
             "abstraction": "Variant",
             "description": "The product, by default, initializes an internal variable with an insecure or less secure value than is possible.",
-            "value": 20,
-            "count": 20
+            "value": 22,
+            "count": 22
           },
           {
             "id": "CWE-454",
@@ -11087,16 +11088,16 @@
             "name": "Use of Uninitialized Variable",
             "abstraction": "Variant",
             "description": "The code uses a variable that has not been initialized, leading to unpredictable or unintended results.",
-            "value": 256,
-            "count": 256
+            "value": 260,
+            "count": 260
           },
           {
             "id": "CWE-459",
             "name": "Incomplete Cleanup",
             "abstraction": "Base",
             "description": "The product does not properly \"clean up\" and remove temporary or supporting resources after they have been used.",
-            "value": 133,
-            "count": 133
+            "value": 140,
+            "count": 140
           },
           {
             "id": "CWE-460",
@@ -11207,16 +11208,16 @@
             "name": "Improper Control of a Resource Through its Lifetime",
             "abstraction": "Pillar",
             "description": "The product does not maintain or incorrectly maintains control over a resource throughout its lifetime of creation, use, and release.",
-            "value": 55,
-            "count": 55
+            "value": 58,
+            "count": 58
           },
           {
             "id": "CWE-665",
             "name": "Improper Initialization",
             "abstraction": "Class",
             "description": "The product does not initialize or incorrectly initializes a resource, which might leave the resource in an unexpected state when it is accessed or used.",
-            "value": 155,
-            "count": 155
+            "value": 157,
+            "count": 157
           },
           {
             "id": "CWE-666",
@@ -11231,8 +11232,8 @@
             "name": "Incorrect Resource Transfer Between Spheres",
             "abstraction": "Class",
             "description": "The product does not properly transfer a resource/behavior to another sphere, or improperly imports a resource/behavior from another sphere, in a manner that provides unintended control over that resource.",
-            "value": 80,
-            "count": 80
+            "value": 83,
+            "count": 83
           },
           {
             "id": "CWE-673",
@@ -11247,56 +11248,56 @@
             "name": "Incorrect Conversion between Numeric Types",
             "abstraction": "Base",
             "description": "When converting from one data type to another, such as long to integer, data can be omitted or translated in a way that produces unexpected values. If the resulting values are used in a sensitive context, then dangerous behaviors may occur.",
-            "value": 81,
-            "count": 81
+            "value": 82,
+            "count": 82
           },
           {
             "id": "CWE-704",
             "name": "Incorrect Type Conversion or Cast",
             "abstraction": "Class",
             "description": "The product does not correctly convert an object, resource, or structure from one type to a different type.",
-            "value": 98,
-            "count": 98
+            "value": 99,
+            "count": 99
           },
           {
             "id": "CWE-706",
             "name": "Use of Incorrectly-Resolved Name or Reference",
             "abstraction": "Class",
             "description": "The product uses a name or reference to access a resource, but the name/reference resolves to a resource that is outside of the intended control sphere.",
-            "value": 101,
-            "count": 101
+            "value": 105,
+            "count": 105
           },
           {
             "id": "CWE-749",
             "name": "Exposed Dangerous Method or Function",
             "abstraction": "Base",
             "description": "The product provides an Applications Programming Interface (API) or similar interface for interaction with external actors, but the interface includes a dangerous method or function that is not properly restricted.",
-            "value": 195,
-            "count": 195
+            "value": 202,
+            "count": 202
           },
           {
             "id": "CWE-770",
             "name": "Allocation of Resources Without Limits or Throttling",
             "abstraction": "Base",
             "description": "The product allocates a reusable resource or group of resources on behalf of an actor without imposing any intended restrictions on the size or number of resources that can be allocated.",
-            "value": 1961,
-            "count": 1961
+            "value": 2027,
+            "count": 2027
           },
           {
             "id": "CWE-771",
             "name": "Missing Reference to Active Allocated Resource",
             "abstraction": "Base",
             "description": "The product does not properly maintain a reference to a resource that has been allocated, which prevents the resource from being reclaimed.",
-            "value": 6,
-            "count": 6
+            "value": 7,
+            "count": 7
           },
           {
             "id": "CWE-772",
             "name": "Missing Release of Resource after Effective Lifetime",
             "abstraction": "Base",
             "description": "The product does not release a resource after its effective lifetime has ended, i.e., after the resource is no longer needed.",
-            "value": 119,
-            "count": 119
+            "value": 124,
+            "count": 124
           },
           {
             "id": "CWE-773",
@@ -11319,16 +11320,16 @@
             "name": "Missing Release of File Descriptor or Handle after Effective Lifetime",
             "abstraction": "Variant",
             "description": "The product does not release a file descriptor or handle after its effective lifetime has ended, i.e., after the file descriptor/handle is no longer needed.",
-            "value": 8,
-            "count": 8
+            "value": 9,
+            "count": 9
           },
           {
             "id": "CWE-776",
             "name": "Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')",
             "abstraction": "Base",
             "description": "The product uses XML documents and allows their structure to be defined with a Document Type Definition (DTD), but it does not properly control the number of recursive definitions of entities.",
-            "value": 53,
-            "count": 53
+            "value": 56,
+            "count": 56
           },
           {
             "id": "CWE-779",
@@ -11343,8 +11344,8 @@
             "name": "Exposed IOCTL with Insufficient Access Control",
             "abstraction": "Variant",
             "description": "The product implements an IOCTL with functionality that should be restricted, but it does not properly enforce access control for the IOCTL.",
-            "value": 48,
-            "count": 48
+            "value": 49,
+            "count": 49
           },
           {
             "id": "CWE-827",
@@ -11359,8 +11360,8 @@
             "name": "Inclusion of Functionality from Untrusted Control Sphere",
             "abstraction": "Base",
             "description": "The product imports, requires, or includes executable functionality (such as a library) from a source that is outside of the intended control sphere.",
-            "value": 263,
-            "count": 263
+            "value": 272,
+            "count": 272
           },
           {
             "id": "CWE-830",
@@ -11375,16 +11376,16 @@
             "name": "Access of Resource Using Incompatible Type ('Type Confusion')",
             "abstraction": "Base",
             "description": "The product allocates or initializes a resource such as a pointer, object, or variable using one type, but it later accesses that resource using a type that is incompatible with the original type.",
-            "value": 724,
-            "count": 724
+            "value": 746,
+            "count": 746
           },
           {
             "id": "CWE-908",
             "name": "Use of Uninitialized Resource",
             "abstraction": "Base",
             "description": "The product uses or accesses a resource that has not been initialized.",
-            "value": 379,
-            "count": 379
+            "value": 406,
+            "count": 406
           },
           {
             "id": "CWE-909",
@@ -11399,16 +11400,16 @@
             "name": "Improper Update of Reference Count",
             "abstraction": "Base",
             "description": "The product uses a reference count to manage a resource, but it does not update or incorrectly updates the reference count.",
-            "value": 19,
-            "count": 19
+            "value": 20,
+            "count": 20
           },
           {
             "id": "CWE-913",
             "name": "Improper Control of Dynamically-Managed Code Resources",
             "abstraction": "Class",
             "description": "The product does not properly restrict reading from or writing to dynamically-managed code resources such as variables, objects, classes, attributes, functions, or executable instructions or statements.",
-            "value": 88,
-            "count": 88
+            "value": 91,
+            "count": 91
           },
           {
             "id": "CWE-920",
@@ -11423,8 +11424,8 @@
             "name": "Insecure Storage of Sensitive Information",
             "abstraction": "Class",
             "description": "The product stores sensitive information without properly limiting read or write access by unauthorized actors.",
-            "value": 285,
-            "count": 285
+            "value": 287,
+            "count": 287
           },
           {
             "id": "CWE-1042",
@@ -11455,8 +11456,8 @@
             "name": "Excessive Platform Resource Consumption within a Loop",
             "abstraction": "Base",
             "description": "The product has a loop body or loop condition that contains a control element that directly or\n\t\t\t\t\tindirectly consumes platform resources, e.g. messaging, sessions, locks, or file\n\t\t\t\t\tdescriptors.",
-            "value": 18,
-            "count": 18
+            "value": 20,
+            "count": 20
           },
           {
             "id": "CWE-1051",
@@ -11551,8 +11552,8 @@
             "name": "Initialization of a Resource with an Insecure Default",
             "abstraction": "Base",
             "description": "The product initializes or sets a resource with a default that is intended to be changed by the product's installer, administrator, or maintainer, but the default is not secure.",
-            "value": 232,
-            "count": 232
+            "value": 241,
+            "count": 241
           },
           {
             "id": "CWE-1221",
@@ -11655,8 +11656,8 @@
             "name": "Improperly Controlled Sequential Memory Allocation",
             "abstraction": "Base",
             "description": "The product manages a group of objects or resources and performs a separate memory allocation for each object, but it does not properly limit the total amount of memory that is consumed by all of the combined objects.",
-            "value": 23,
-            "count": 23
+            "value": 24,
+            "count": 24
           },
           {
             "id": "CWE-1330",
@@ -11671,8 +11672,8 @@
             "name": "Inefficient Regular Expression Complexity",
             "abstraction": "Base",
             "description": "The product uses a regular expression with a worst-case computational complexity that is inefficient and possibly exponential.",
-            "value": 440,
-            "count": 440
+            "value": 450,
+            "count": 450
           },
           {
             "id": "CWE-1342",
@@ -11703,8 +11704,8 @@
             "name": "Incorrect Initialization of Resource",
             "abstraction": "Class",
             "description": "The product attempts to initialize a resource but does not correctly do so, which might leave the resource in an unexpected, incorrect, or insecure state when it is accessed.",
-            "value": 10,
-            "count": 10
+            "value": 11,
+            "count": 11
           },
           {
             "id": "CWE-1420",
@@ -11750,32 +11751,32 @@
             "name": "Exposure of Sensitive Information to an Unauthorized Actor",
             "abstraction": "Class",
             "description": "The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.",
-            "value": 5061,
-            "count": 5061
+            "value": 5157,
+            "count": 5157
           },
           {
             "id": "CWE-201",
             "name": "Insertion of Sensitive Information Into Sent Data",
             "abstraction": "Base",
             "description": "The code transmits data to another actor, but a portion of the data includes sensitive information that should not be accessible to that actor.",
-            "value": 456,
-            "count": 456
+            "value": 467,
+            "count": 467
           },
           {
             "id": "CWE-203",
             "name": "Observable Discrepancy",
             "abstraction": "Base",
             "description": "The product behaves differently or sends different responses under different circumstances in a way that is observable to an unauthorized actor.",
-            "value": 367,
-            "count": 367
+            "value": 375,
+            "count": 375
           },
           {
             "id": "CWE-204",
             "name": "Observable Response Discrepancy",
             "abstraction": "Base",
             "description": "The product provides different responses to incoming requests in a way that reveals internal state information to an unauthorized actor outside of the intended control sphere.",
-            "value": 197,
-            "count": 197
+            "value": 205,
+            "count": 205
           },
           {
             "id": "CWE-205",
@@ -11806,16 +11807,16 @@
             "name": "Observable Timing Discrepancy",
             "abstraction": "Base",
             "description": "Two separate operations in a product require different amounts of time to complete, in a way that is observable to an actor and reveals security-relevant information about the state of the product, such as whether a particular operation was successful or not.",
-            "value": 199,
-            "count": 199
+            "value": 203,
+            "count": 203
           },
           {
             "id": "CWE-209",
             "name": "Generation of Error Message Containing Sensitive Information",
             "abstraction": "Base",
             "description": "The product generates an error message that includes sensitive information about its environment, users, or associated data.",
-            "value": 445,
-            "count": 445
+            "value": 453,
+            "count": 453
           },
           {
             "id": "CWE-210",
@@ -11838,16 +11839,16 @@
             "name": "Exposure of Sensitive Information Due to Incompatible Policies",
             "abstraction": "Base",
             "description": "The product's intended functionality exposes information to certain actors in accordance with the developer's security policy, but this information is regarded as sensitive according to the intended security policies of other stakeholders such as the product's administrator, users, or others whose i",
-            "value": 34,
-            "count": 34
+            "value": 35,
+            "count": 35
           },
           {
             "id": "CWE-214",
             "name": "Invocation of Process Using Visible Sensitive Information",
             "abstraction": "Base",
             "description": "A process is invoked with sensitive command-line arguments, environment variables, or other elements that can be seen by other processes on the operating system.",
-            "value": 35,
-            "count": 35
+            "value": 36,
+            "count": 36
           },
           {
             "id": "CWE-215",
@@ -11862,16 +11863,16 @@
             "name": "Exposure of Private Personal Information to an Unauthorized Actor",
             "abstraction": "Base",
             "description": "The product does not properly prevent a person's private, personal information from being accessed by actors who either (1) are not explicitly authorized to access the information or (2) do not have the implicit consent of the person about whom the information is collected.",
-            "value": 215,
-            "count": 215
+            "value": 216,
+            "count": 216
           },
           {
             "id": "CWE-497",
             "name": "Exposure of Sensitive System Information to an Unauthorized Control Sphere",
             "abstraction": "Base",
             "description": "The product does not properly prevent sensitive system-level information from being accessed by unauthorized actors who do not have the same level of access to the underlying system as the product does.",
-            "value": 412,
-            "count": 412
+            "value": 439,
+            "count": 439
           },
           {
             "id": "CWE-526",
@@ -11894,8 +11895,8 @@
             "name": "Insertion of Sensitive Information into Log File",
             "abstraction": "Base",
             "description": "The product writes sensitive information to a log file.",
-            "value": 883,
-            "count": 883
+            "value": 895,
+            "count": 895
           },
           {
             "id": "CWE-535",
@@ -11926,8 +11927,8 @@
             "name": "Insertion of Sensitive Information into Externally-Accessible File or Directory",
             "abstraction": "Base",
             "description": "The product places sensitive information into files or directories that are accessible to actors who are allowed to have access to the files, but not to the sensitive information.",
-            "value": 93,
-            "count": 93
+            "value": 98,
+            "count": 98
           },
           {
             "id": "CWE-540",
@@ -11966,8 +11967,8 @@
             "name": "Use of HTTP Request With Sensitive Query String",
             "abstraction": "Variant",
             "description": "The web application uses an HTTP method to process a request, but the request includes sensitive information in the query string.",
-            "value": 99,
-            "count": 99
+            "value": 101,
+            "count": 101
           },
           {
             "id": "CWE-615",
@@ -12045,16 +12046,16 @@
             "name": "Execution with Unnecessary Privileges",
             "abstraction": "Base",
             "description": "The product performs an operation at a privilege level that is higher than the minimum level required, which creates new weaknesses or amplifies the consequences of other weaknesses.",
-            "value": 382,
-            "count": 382
+            "value": 388,
+            "count": 388
           },
           {
             "id": "CWE-424",
             "name": "Improper Protection of Alternate Path",
             "abstraction": "Class",
             "description": "The product does not sufficiently protect all possible paths that a user can take to access restricted functionality or resources.",
-            "value": 42,
-            "count": 42
+            "value": 44,
+            "count": 44
           },
           {
             "id": "CWE-447",
@@ -12069,8 +12070,8 @@
             "name": "Not Failing Securely ('Failing Open')",
             "abstraction": "Class",
             "description": "When the product encounters an error condition or failure, its design requires it to fall back to a state that is less secure than other options that are available, such as selecting the weakest encryption algorithm or using the most permissive access control restrictions.",
-            "value": 69,
-            "count": 69
+            "value": 70,
+            "count": 70
           },
           {
             "id": "CWE-637",
@@ -12093,8 +12094,8 @@
             "name": "Improper Isolation or Compartmentalization",
             "abstraction": "Class",
             "description": "The product does not properly compartmentalize or isolate functionality, processes, or resources that require different privilege levels, rights, or permissions.",
-            "value": 83,
-            "count": 83
+            "value": 84,
+            "count": 84
           },
           {
             "id": "CWE-654",
@@ -12184,127 +12185,127 @@
     {
       "id": "CWE-79",
       "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
-      "count": 29275
+      "count": 29626
     },
     {
       "id": "CWE-89",
       "name": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')",
-      "count": 13162
+      "count": 13315
     },
     {
       "id": "CWE-862",
       "name": "Missing Authorization",
-      "count": 9063
+      "count": 9364
     },
     {
       "id": "CWE-284",
       "name": "Improper Access Control",
-      "count": 7172
-    },
-    {
-      "id": "CWE-352",
-      "name": "Cross-Site Request Forgery (CSRF)",
-      "count": 6126
+      "count": 7232
     },
     {
       "id": "CWE-22",
       "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
-      "count": 6085
+      "count": 6209
     },
     {
-      "id": "CWE-20",
-      "name": "Improper Input Validation",
-      "count": 5504
-    },
-    {
-      "id": "CWE-787",
-      "name": "Out-of-bounds Write",
-      "count": 5286
-    },
-    {
-      "id": "CWE-125",
-      "name": "Out-of-bounds Read",
-      "count": 5243
+      "id": "CWE-352",
+      "name": "Cross-Site Request Forgery (CSRF)",
+      "count": 6152
     },
     {
       "id": "CWE-416",
       "name": "Use After Free",
-      "count": 5193
+      "count": 5600
+    },
+    {
+      "id": "CWE-20",
+      "name": "Improper Input Validation",
+      "count": 5591
+    },
+    {
+      "id": "CWE-125",
+      "name": "Out-of-bounds Read",
+      "count": 5580
+    },
+    {
+      "id": "CWE-787",
+      "name": "Out-of-bounds Write",
+      "count": 5408
     },
     {
       "id": "CWE-200",
       "name": "Exposure of Sensitive Information to an Unauthorized Actor",
-      "count": 5061
+      "count": 5157
     },
     {
       "id": "CWE-74",
       "name": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')",
-      "count": 4873
+      "count": 4938
     },
     {
       "id": "CWE-78",
       "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
-      "count": 4720
+      "count": 4815
     },
     {
       "id": "CWE-94",
       "name": "Improper Control of Generation of Code ('Code Injection')",
-      "count": 4574
+      "count": 4678
     },
     {
       "id": "CWE-121",
       "name": "Stack-based Buffer Overflow",
-      "count": 3886
-    },
-    {
-      "id": "CWE-119",
-      "name": "Improper Restriction of Operations within the Bounds of a Memory Buffer",
-      "count": 3339
-    },
-    {
-      "id": "CWE-863",
-      "name": "Incorrect Authorization",
-      "count": 3256
+      "count": 3989
     },
     {
       "id": "CWE-122",
       "name": "Heap-based Buffer Overflow",
-      "count": 3244
+      "count": 3618
+    },
+    {
+      "id": "CWE-863",
+      "name": "Incorrect Authorization",
+      "count": 3420
+    },
+    {
+      "id": "CWE-119",
+      "name": "Improper Restriction of Operations within the Bounds of a Memory Buffer",
+      "count": 3373
     },
     {
       "id": "CWE-918",
       "name": "Server-Side Request Forgery (SSRF)",
-      "count": 3232
+      "count": 3320
     },
     {
       "id": "CWE-120",
       "name": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')",
-      "count": 3180
+      "count": 3193
     },
     {
       "id": "CWE-434",
       "name": "Unrestricted Upload of File with Dangerous Type",
-      "count": 3157
+      "count": 3182
     },
     {
       "id": "CWE-400",
       "name": "Uncontrolled Resource Consumption",
-      "count": 3113
+      "count": 3176
     },
     {
       "id": "CWE-77",
       "name": "Improper Neutralization of Special Elements used in a Command ('Command Injection')",
-      "count": 2856
+      "count": 2876
     },
     {
       "id": "CWE-502",
       "name": "Deserialization of Untrusted Data",
-      "count": 2815
+      "count": 2867
     },
     {
-      "id": "CWE-306",
-      "name": "Missing Authentication for Critical Function",
-      "count": 2723
+      "id": "CWE-639",
+      "name": "Authorization Bypass Through User-Controlled Key",
+      "count": 2853
     }
   ]
 }
