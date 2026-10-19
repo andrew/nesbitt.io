@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-19T10:31:05Z",
-  "cutoff": "2026-09-19T10:30:58Z",
+  "generated": "2026-10-19T11:29:27Z",
+  "cutoff": "2026-09-19T11:29:22Z",
   "feed_count": 104,
   "item_count": 296,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.168.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.168.0",
+      "published": "2026-10-19T11:19:02Z",
+      "preview": "44.168.0 (2026-10-19) Features deps: update renovate-base-image to v13.134.0 (main) ( #47157 ) ( ec15885 ) Miscellaneous Chores deps: update jdx/mise-action action to v5.2.1 (main) ( #47156 ) ( d78ef08 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.10.15: Default minimum_release_age covers every backend, plus a PowerShell installer",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.15",
@@ -379,14 +387,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.166.0",
       "published": "2026-10-17T12:49:49Z",
       "preview": "44.166.0 (2026-10-17) Features deps: update renovate-base-image to v13.133.0 (main) ( #47133 ) ( 6d36b40 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.165.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.165.3",
-      "published": "2026-10-17T09:48:33Z",
-      "preview": "44.165.3 (2026-10-17) Code Refactoring remove unused exports and types ( #47130 ) ( 0070fc5 ) Build System deps: update dependency prettier to v3.9.10 (main) ( #47131 ) ( 37e9f33 ) detect unused dependencies with knip ( #47129 ) ( 0423ab2 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
