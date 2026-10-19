@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-19T19:25:32Z",
-  "cutoff": "2026-09-19T19:25:26Z",
+  "generated": "2026-10-19T21:28:01Z",
+  "cutoff": "2026-09-19T21:27:55Z",
   "feed_count": 104,
-  "item_count": 299,
+  "item_count": 300,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.13.2",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.2",
+      "published": "2026-10-19T21:02:37Z",
+      "preview": "Release Notes Released on 2026-10-19. Enhancements Report all installed packages in uv workspace metadata , including packages outside the selected resolution ( #22395 ) Include supported environment restrictions when exporting pylock.toml ( #22596 ) Retry dropped GET and HEAD requests when fetching package and index data ( #22672 ) Preserve encoding declarations in wheel data scripts that require shell launchers ( #22526 ) Show causes and hints when uv python find --script cannot discover an interpreter, including with -q ( #22549 ) Print valid ksh activation instructions and support non-relo",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "3.3.4",
       "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.4",
