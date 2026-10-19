@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-19T12:43:15Z",
-  "cutoff": "2026-09-19T12:43:10Z",
+  "generated": "2026-10-19T13:34:50Z",
+  "cutoff": "2026-09-19T13:34:44Z",
   "feed_count": 104,
-  "item_count": 296,
+  "item_count": 297,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "7.0.10",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.10",
+      "published": "2026-10-19T13:06:46Z",
+      "preview": "What's Changed Ignore Ubuntu release list link check failures by @MikeMcQuaid in #24196 Require test resources in homebrew/core by @MikeMcQuaid in #24180 Preserve cask approval for copied helpers by @MikeMcQuaid in #24191 Add OSS Scanner Dockerfile and threat model by @p-linnane in #24199 spdx: store downcased licenses in hash across calls by @alebcay in #24197 Harden tap redirect trust and rollback by @p-linnane in #24198 Fix offline, vacuous and repo-leaking specs by @p-linnane in #24200 Ignore hidden directories when listing taps by @p-linnane in #24201 Isolate Bootsnap caches across gem ch",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "44.168.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.168.3",
+      "published": "2026-10-19T13:04:28Z",
+      "preview": "44.168.3 (2026-10-19) Bug Fixes platform/azure: apply the repo's azureWorkItemType ( #47158 ) ( aaf9d8e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.168.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.168.2",
+      "published": "2026-10-19T12:47:46Z",
+      "preview": "44.168.2 (2026-10-19) Build System deps: update dependency cronstrue to v3.32.0 (main) ( #47165 ) ( 0128a09 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.168.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.168.1",
@@ -365,22 +389,6 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.167.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.1",
-      "published": "2026-10-18T09:48:39Z",
-      "preview": "44.167.1 (2026-10-18) Documentation abandoned prs ( #44984 ) ( 7f4fa60 ) Build System deps: update dependency p-queue to v9.3.4 (main) ( #47138 ) ( 2450b18 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.167.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.0",
-      "published": "2026-10-18T07:01:36Z",
-      "preview": "44.167.0 (2026-10-18) Features data: automatic update of static data ( #47137 ) ( d9a9d00 ) Miscellaneous Chores deps: update dependency oxlint-tsgolint to v7.0.2004 (main) ( #47135 ) ( 73d4554 ) deps: update dependency tsdown to v0.23.1 (main) ( #47136 ) ( 6b2de57 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.0.11",
