@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-19T17:27:35Z",
-  "cutoff": "2026-09-19T17:27:29Z",
+  "generated": "2026-10-19T18:37:10Z",
+  "cutoff": "2026-09-19T18:37:04Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.401.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.401.0",
+      "published": "2026-10-19T18:02:43Z",
+      "preview": "What's Changed bun: Update catalog dependencies by @fbartho in #16544 github_actions: pass home hostname to gh-actions-lock by @nodeselector in #16504 Type common model specs and shared RSpec ancestors by @JamieMagee in #16506 Type common credential, group, and experiment specs by @JamieMagee in #16552 Type common cooldown spec fixtures by @JamieMagee in #16551 Enable Sorbet checking for Git submodule specs by @JamieMagee in #16555 Enable staged Sorbet checking for .NET SDK specs by @JamieMagee in #16554 julia: retry juliaup install to handle flaky version-DB fetch by @v-kbukum1 in #16563 gith",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.171.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.1",
+      "published": "2026-10-19T17:55:02Z",
+      "preview": "44.171.1 (2026-10-19) Build System deps: update dependency zod to v4.6.7 (main) ( #47175 ) ( c6ef797 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.171.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.0",
+      "published": "2026-10-19T17:37:46Z",
+      "preview": "44.171.0 (2026-10-19) Features datasource/github-runners: add xcode-27 ( #47116 ) ( ea1c9a7 ) json-schema: suggest the host types we know about ( #46718 ) ( 7bd4864 ) json-schema: suggest the managers, datasources and categories we know ( #46713 ) ( 500620a ), closes #40450 Bug Fixes config: document where our git and environment options can be used ( #46709 ) ( d7d72a0 ), closes #43020 config: document which options can be set anywhere ( #46712 ) ( 2eda8fb ), closes #43020 json-schema: only allow the managers we support in enabledManagers ( #46717 ) ( ab776b8 ) Miscellaneous Chores config: do",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "9.8.2",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.8.2",
@@ -191,14 +215,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "44.167.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.6",
-      "published": "2026-10-19T06:44:32Z",
-      "preview": "44.167.6 (2026-10-19) Bug Fixes deps: update renovate-base-image to v13.133.4 (main) ( #47151 ) ( c2532a1 ) Documentation update references to otel/opentelemetry-collector-contrib to v0.163.1 (main) ( #47149 ) ( 8e1c91f ) update references to python to 12d187a (main) ( #47148 ) ( 8654b52 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2.29.3",
       "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.3",
       "published": "2026-10-19T01:42:55Z",
@@ -221,14 +237,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.167.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.5",
-      "published": "2026-10-18T19:47:48Z",
-      "preview": "44.167.5 (2026-10-18) Bug Fixes deps: update renovate-base-image to v13.133.1 (main) ( #47147 ) ( 675b183 ) Miscellaneous Chores deps: update dependency protobufjs@8.0.1 to v8.8.1 (main) ( #47146 ) ( 598f324 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.18.4",
@@ -2395,14 +2403,6 @@
       "url": "https://github.com/python-poetry/poetry/releases/tag/2.5.1",
       "published": "2026-09-20T07:17:20Z",
       "preview": "Fixed Fix an issue where uninstalling a package with installer.builtin-uninstall set failed with a TypeError ( #11077 ).",
-      "source": "Poetry releases",
-      "category": "Python"
-    },
-    {
-      "title": "2.5.0",
-      "url": "https://github.com/python-poetry/poetry/releases/tag/2.5.0",
-      "published": "2026-09-19T18:13:07Z",
-      "preview": "Added Add an installer.builtin-uninstall setting to uninstall packages with a built-in uninstaller instead of invoking pip uninstall ( #10931 ). Add official support for Python 3.15 ( #11046 ). Changed Do not send credentials configured for an https repository via http ( #11073 ). Fail with an error when the current Python version is not compatible with the project and virtualenvs.create is false ( #10941 ). Validate version constraints that are entered interactively in poetry init ( #10909 ). Include the path of the pyproject.toml file in the message about already present packages in poetry a",
       "source": "Poetry releases",
       "category": "Python"
     }
