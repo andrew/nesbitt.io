@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-19T11:29:27Z",
-  "cutoff": "2026-09-19T11:29:22Z",
+  "generated": "2026-10-19T12:43:15Z",
+  "cutoff": "2026-09-19T12:43:10Z",
   "feed_count": 104,
   "item_count": 296,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.168.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.168.1",
+      "published": "2026-10-19T11:59:42Z",
+      "preview": "44.168.1 (2026-10-19) Bug Fixes deps: update renovate-base-image to v13.134.1 (main) ( #47163 ) ( 6bcbe97 ) Documentation mark hostRules.dnsCache as having no effect ( #47159 ) ( 110e3a0 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.43.0 (main) ( #47160 ) ( 37b1ec6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.168.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.168.0",
@@ -381,14 +389,6 @@
       "preview": "🐛 bug fixes fix: Fix AccessDeniedException writing SemanticDB by @eed3si9n in #9878 fix: Fixes .m2/settings.xml overriding sbtResolvers by @eed3si9n in #9828 fix: Keep accepting after a client fails by @kitbellew in #9691 fix: Fix task output lost by the thin client under CPU load by @eed3si9n in #9868 fix: Read all forked test output before reporting the fork's exit by @eugkhp in #9860 fix: Use Path.userHome to work around user.home returning ? by @eed3si9n in #9866 fix: Fail a gRPC batch read when a blob fails by @eugkhp in #9904 fix: Fix pipelined compile hanging when compile inputs fail by",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.166.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.166.0",
-      "published": "2026-10-17T12:49:49Z",
-      "preview": "44.166.0 (2026-10-17) Features deps: update renovate-base-image to v13.133.0 (main) ( #47133 ) ( 6d36b40 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
