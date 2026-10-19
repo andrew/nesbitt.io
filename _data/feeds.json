@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-19T09:40:13Z",
-  "cutoff": "2026-09-19T09:40:08Z",
+  "generated": "2026-10-19T10:31:05Z",
+  "cutoff": "2026-09-19T10:30:58Z",
   "feed_count": 104,
   "item_count": 296,
   "categories": [
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "v2026.10.15: Default minimum_release_age covers every backend, plus a PowerShell installer",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.15",
+      "published": "2026-10-19T10:19:30Z",
+      "preview": "The default 24-hour minimum_release_age now applies to every backend. Many more backends report release dates, so the cooldown can actually hold new versions back, and mise warns when it installs a version it couldn't date. This release also adds a PowerShell installer for Windows, read_json / read_yaml / read_toml template functions, dotnet@lts / dotnet@sts , and new dotfiles options. Changed The default minimum_release_age applies to every backend. The built-in 24h cooldown used to cover only backends that reported release dates (aqua, cargo, core, github, npm, pypi and others). asdf, vfox, ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "44.167.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.7",
       "published": "2026-10-19T08:55:23Z",
@@ -37,14 +45,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.10.15",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.15",
-      "published": "2026-10-19T08:44:55Z",
-      "preview": "(backend) serve every backend's version list from the versions …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-daemons-v2026.10.2",
