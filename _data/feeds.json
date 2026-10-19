@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-19T06:59:05Z",
-  "cutoff": "2026-09-19T06:58:59Z",
+  "generated": "2026-10-19T09:40:13Z",
+  "cutoff": "2026-09-19T09:40:08Z",
   "feed_count": 104,
   "item_count": 296,
   "categories": [
@@ -22,6 +22,102 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.167.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.7",
+      "published": "2026-10-19T08:55:23Z",
+      "preview": "44.167.7 (2026-10-19) Bug Fixes deps: update renovate-base-image to v13.133.5 (main) ( #47152 ) ( 429c606 ) Tests config: don't read a local config.js in the config file tests ( #46995 ) ( 293a29b ) Continuous Integration fail tests that read the repository config.js ( #46999 ) ( 9e354ff )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
+      "published": "2026-10-19T08:49:32Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2026.10.15",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.15",
+      "published": "2026-10-19T08:44:55Z",
+      "preview": "(backend) serve every backend's version list from the versions …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-daemons-v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.10.2",
+      "published": "2026-10-19T08:44:18Z",
+      "preview": "Release mise-daemons 2026.10.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.2",
+      "published": "2026-10-19T08:44:08Z",
+      "preview": "Release mise-oci 2026.10.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.2",
+      "published": "2026-10-19T08:43:53Z",
+      "preview": "Release mise-system 2026.10.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.15",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.15",
+      "published": "2026-10-19T08:43:41Z",
+      "preview": "Release vfox 2026.10.15",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.2",
+      "published": "2026-10-19T08:43:01Z",
+      "preview": "Release mise-system-packages 2026.10.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.2",
+      "published": "2026-10-19T08:42:50Z",
+      "preview": "Release mise-ui 2026.10.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.15",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.15",
+      "published": "2026-10-19T08:42:42Z",
+      "preview": "Release mise-util 2026.10.15",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.15",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.15",
+      "published": "2026-10-19T08:42:08Z",
+      "preview": "Release mise-settings 2026.10.15",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-config-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-config-v2026.10.1",
+      "published": "2026-10-19T08:41:40Z",
+      "preview": "Release mise-config 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.167.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.6",
@@ -151,14 +247,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v2026.10.14: Global override config, mise config explain, and stricter tool option checks",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.14",
-      "published": "2026-10-18T18:37:28Z",
-      "preview": "A global config.override.toml can now take precedence over project config, and mise config explain describes each key in a config file. Paranoid mode can be turned on per category, and in that mode dotenv files need their own content-bound trust. Installs now fail when a tool has an option its backend doesn't read, which affects existing configs (see Changed). Added Global override files. ~/.config/mise/config.override.toml , and config.<env>.override.toml for each MISE_ENV , rank above every project file, including mise.local.toml and mise.<env>.toml . This covers [env] , [tools] , [settings]",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "44.167.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.167.3",
       "published": "2026-10-18T17:54:09Z",
@@ -173,78 +261,6 @@
       "preview": "44.167.2 (2026-10-18) Build System deps: update dependency p-map to v7.1.1 (main) ( #47141 ) ( ecc102b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "mise-daemons-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.10.1",
-      "published": "2026-10-18T16:06:11Z",
-      "preview": "Release mise-daemons 2026.10.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-oci-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.1",
-      "published": "2026-10-18T16:06:04Z",
-      "preview": "Release mise-oci 2026.10.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.1",
-      "published": "2026-10-18T16:05:57Z",
-      "preview": "Release mise-system 2026.10.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.10.14",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.14",
-      "published": "2026-10-18T16:05:48Z",
-      "preview": "Release vfox 2026.10.14",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.1",
-      "published": "2026-10-18T16:05:19Z",
-      "preview": "Release mise-system-packages 2026.10.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.1",
-      "published": "2026-10-18T16:05:09Z",
-      "preview": "Release mise-ui 2026.10.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.14",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.14",
-      "published": "2026-10-18T16:05:03Z",
-      "preview": "Release mise-util 2026.10.14",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.14",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.14",
-      "published": "2026-10-18T16:04:33Z",
-      "preview": "Release mise-settings 2026.10.14",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-config-v2026.10.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-config-v2026.10.0",
-      "published": "2026-10-18T16:04:08Z",
-      "preview": "Release mise-config 2026.10.0",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "@verdaccio/test-helper@5.0.0-next-9.37",
@@ -381,14 +397,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.165.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.165.2",
-      "published": "2026-10-17T07:53:44Z",
-      "preview": "44.165.2 (2026-10-17) Bug Fixes deps: update renovate-base-image to v13.132.2 (main) ( #47128 ) ( 6c163bc )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "8.1.0.12",
@@ -1573,14 +1581,6 @@
       "preview": "Release Notes Released on 2026-10-03. Python Add CPython 3.15.0rc3 ( #22164 ) Preview features Sync from uv.lock without a workspace manifest using uv sync --frozen with frozen-lockfile ( #22018 ) Export from uv.lock without a workspace manifest using uv export --frozen with frozen-lockfile ( #22007 ) Inspect dependency trees from uv.lock without a workspace manifest using uv tree --frozen with frozen-lockfile ( #22016 ) Inspect workspace metadata and optionally sync its environment from uv.lock without a workspace manifest using uv workspace metadata --frozen with frozen-lockfile ( #22017 , #",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-01-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-10-01-a",
-      "published": "2026-10-03T02:35:14Z",
-      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-10-01-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "v1.3.6",
