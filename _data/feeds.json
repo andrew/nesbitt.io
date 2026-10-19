@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-19T01:41:41Z",
-  "cutoff": "2026-09-19T01:41:36Z",
+  "generated": "2026-10-19T02:40:41Z",
+  "cutoff": "2026-09-19T02:40:35Z",
   "feed_count": 104,
   "item_count": 296,
   "categories": [
@@ -25,7 +25,7 @@
     {
       "title": "v2.29.3",
       "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.3",
-      "published": "2026-10-19T01:41:23Z",
+      "published": "2026-10-19T01:42:55Z",
       "preview": "Features & Improvements Add the --venv option to pdm outdated , like the other commands that read the installed packages. ( #3904 ) Bug Fixes Fix isolated PEP 517 builds skipping packages that are only visible via the host venv's --system-site-packages . ( #3895 ) Fix pdm import of Poetry projects dropping optional dependencies whose extras entry is spelled differently, and importing optional dependencies with multiple constraints as required ones. ( #3899 ) Keep the plain requirement in pdm export when the same package is also locked with extras under a narrower marker, so it is no longer mis",
       "source": "PDM releases",
       "category": "Python"
