@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-20T19:27:15Z",
-  "cutoff": "2026-09-20T19:27:07Z",
+  "generated": "2026-10-20T20:31:30Z",
+  "cutoff": "2026-09-20T20:31:25Z",
   "feed_count": 104,
-  "item_count": 304,
+  "item_count": 305,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.5.4",
+      "url": "https://github.com/hexpm/hex/releases/tag/v2.5.4",
+      "published": "2026-10-20T19:37:03Z",
+      "preview": "Security fixes Stop trusting the emSign ECC Root CA - G3, emSign Root CA - C1 and emSign ECC Root CA - C3 root certificates, which Mozilla removed from its root store. The private keys of eight eMudhra intermediate CAs that chain to emSign ECC Root CA - G3 were compromised, so whoever holds them could impersonate the HTTPS servers Hex connects to ( eMudhra intermediate CA compromise )",
+      "source": "Hex releases",
+      "category": "Elixir"
+    },
     {
       "title": "44.172.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.172.1",
