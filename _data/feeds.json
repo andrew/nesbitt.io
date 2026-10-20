@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T22:27:32Z",
-  "cutoff": "2026-09-20T22:27:27Z",
+  "generated": "2026-10-20T23:25:42Z",
+  "cutoff": "2026-09-20T23:25:31Z",
   "feed_count": 104,
   "item_count": 305,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.172.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.172.2",
+      "published": "2026-10-20T22:52:12Z",
+      "preview": "44.172.2 (2026-10-20) Bug Fixes deps: update renovate-base-image to v13.135.6 (main) ( #47232 ) ( e698ff5 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.44.4 (main) ( #47231 ) ( fc2a9d0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Release of Microsoft.PowerShell.PSResourceGet v1.3.0-rc1",
+      "url": "https://github.com/PowerShell/PSResourceGet/releases/tag/v1.3.0-rc1",
+      "published": "2026-10-20T22:50:50Z",
+      "preview": "What's Changed Discover and install DSC dynamically for CI tests by Aditya Patwardhan (@adityapatwardhan) in #2007 Implement unimplemented concurrency methods for all server classes by alerickson in #2012 Add concurrency for parent packages by alerickson in #2016 Pin GitHub Actions to full-length commit SHAs by Dan Fiedler (@danfiedler-msft) in #2023 Add PSContentPath Standard Platform Paths by Justin Chung (@jshigetomi) in #1912 fix: capture cmdlet warnings to prevent stdout contamination breaking DSC JSON parsing by Gijs Reijn (@Gijsreyn) in #2000 fix(repository:) Add input validation for Ge",
+      "source": "PSResourceGet releases",
+      "category": ".NET"
+    },
     {
       "title": "v2026.10.17",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.17",
@@ -221,14 +237,6 @@
       "preview": "Release mise-util 2026.10.16",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.171.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.2",
-      "published": "2026-10-20T08:28:10Z",
-      "preview": "44.171.2 (2026-10-20) Bug Fixes cache: hash URL credentials in cache keys ( 320f770 ) extract: resolve npmrc again instead of caching it with package files ( 061e9ba ) http: persist only an allow-list of response headers in the http caches ( 9e46e31 ) workers: keep URL credentials of dependencies out of the repository cache and generated texts ( 71d4f95 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.5.0",
@@ -2453,14 +2461,6 @@
       "preview": "The Rust Security Response Team was notified that Miri stores all environment variables to target/ , allowing secrets to persist in caches. While not necessary a vulnerability in and of itself, when paired with GitHub Actions caching behavior, it is possible for this to expose secrets to PRs. Overview GitHub Actions makes it possible to cache directories between runs. Typical setups allow CI runs on main (and other branches) to write to cache, and PRs can only read from cache (preventing cache poisoning). Rust projects tend to speed up CI by caching binaries built by cargo install and sometime",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "Hatchling v1.32.4",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.32.4",
-      "published": "2026-09-20T22:49:07Z",
-      "preview": "Fixed: Revert the extra type parameter added to BuildHookInterface in 1.32.3, which broke plugins that subscripted the interface with a single argument (e.g. BuildHookInterface[MyConfig] ) by raising TypeError at import time. BuilderConfig is likewise no longer generic, restoring the pre-1.32.3 plugin interface. Strip spaces around version metadata when using original input for CalVer to keep leading zeroes.",
-      "source": "Hatch releases",
-      "category": "Python"
     }
   ]
 }
