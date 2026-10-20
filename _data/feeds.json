@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T13:32:05Z",
-  "cutoff": "2026-09-20T13:31:57Z",
+  "generated": "2026-10-20T15:29:39Z",
+  "cutoff": "2026-09-20T15:29:32Z",
   "feed_count": 104,
   "item_count": 301,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "0.13.4",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.4",
+      "published": "2026-10-20T15:24:59Z",
+      "preview": "Release Notes Released on 2026-10-20. Preview features Validate PEP 825 variant metadata and treat package versions with invalid metadata as unavailable under wheel-variants ( #22512 ) Other changes Update the bundled Mozilla root certificates via webpki-root-certs 1.0.10 ( #22760 ) Install uv 0.13.4 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.13.4/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/rel",
+      "source": "uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "44.172.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.172.0",
+      "published": "2026-10-20T15:08:40Z",
+      "preview": "44.172.0 (2026-10-20) Features workarounds: add helm-docs workaround for old tags from 2019 ( #46838 ) ( 33483f9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.171.9",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.9",
+      "published": "2026-10-20T14:51:17Z",
+      "preview": "44.171.9 (2026-10-20) Bug Fixes deps: update renovate-base-image to v13.135.4 (main) ( #47218 ) ( 1f75e11 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.44.3 (main) ( #47217 ) ( 32306c6 ) deps: update linters to v1.88.0 (main) ( #47222 ) ( 6e01ad1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.171.8",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.8",
@@ -239,28 +263,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.171.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.0",
-      "published": "2026-10-19T17:37:46Z",
-      "preview": "44.171.0 (2026-10-19) Features datasource/github-runners: add xcode-27 ( #47116 ) ( ea1c9a7 ) json-schema: suggest the host types we know about ( #46718 ) ( 7bd4864 ) json-schema: suggest the managers, datasources and categories we know ( #46713 ) ( 500620a ), closes #40450 Bug Fixes config: document where our git and environment options can be used ( #46709 ) ( d7d72a0 ), closes #43020 config: document which options can be set anywhere ( #46712 ) ( 2eda8fb ), closes #43020 json-schema: only allow the managers we support in enabledManagers ( #46717 ) ( ab776b8 ) Miscellaneous Chores config: do",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "9.8.2",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.8.2",
       "published": "2026-10-19T17:09:50Z",
       "preview": "The Gradle team is excited to announce Gradle 9.8.2. Here are the highlights of this release: Java 27 support Maven mirror settings reuse Linked problem locations in build output Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aman Gautam , Björn Kautler , Eng Zer Jun , Hashim Khan , Julian Krannich , KBS , Labh R Jethe , Mark Dodgson , Maxim , monkey , nataphon-ktsystems , Paul King , Qiu Tian , rg_sandesh , Roberto Perez Alcolea , Sean , Zongle Wang . Upgrade instructions Switch your build to use Gradle 9.8.2 by",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.170.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.170.0",
-      "published": "2026-10-19T16:48:50Z",
-      "preview": "44.170.0 (2026-10-19) Features datasource/github-runners: add releaseTimestamp s ( #46885 ) ( 15fb543 ), closes #46806 manager/flux: set HelmChart depType on Helm charts ( #47174 ) ( 7678a47 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.44.0 (main) ( #47172 ) ( e378ba9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.0.10",
@@ -2189,14 +2197,6 @@
       "preview": "Insert 8.0.0.9 into main on 09/25/2026 12:26:07",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "0.12.19",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.19",
-      "published": "2026-09-25T00:33:02Z",
-      "preview": "Release Notes Released on 2026-09-24. Python Add PyPy 3.11.16 and 3.12.14 ( #21847 ) Update GraalPy 3.13.0 to build 25.4.4 ( #21847 ) Enhancements Format upload URLs with backticks in uv publish errors ( #21934 ) Preview features Run build-backend hooks with lazy imports on CPython 3.15 and later using the build-lazy-imports preview feature ( #21967 ) Omit unused resolution settings from uv.lock and ignore changes to them when checking lockfile freshness with the resolution-inputs preview feature ( #21913 ) Bug fixes Preserve signed and encoded query parameters in direct-URL metadata to avoid ",
-      "source": "uv releases",
-      "category": "Python"
     },
     {
       "title": "pnpm 11.28",
