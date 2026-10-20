@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T08:37:57Z",
-  "cutoff": "2026-09-20T08:37:52Z",
+  "generated": "2026-10-20T09:32:40Z",
+  "cutoff": "2026-09-20T09:32:34Z",
   "feed_count": 104,
   "item_count": 301,
   "categories": [
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.171.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.3",
+      "published": "2026-10-20T08:48:55Z",
+      "preview": "44.171.3 (2026-10-20) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.13.3 (main) ( #47191 ) ( e2e9f7f ) Build System deps: update dependency execa to v10.1.1 (main) ( #47190 ) ( 230474a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.10.16",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.16",
+      "published": "2026-10-20T08:41:54Z",
+      "preview": "(config) resolve relative and templated write_targets paths by …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-daemons-v2026.10.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.10.3",
+      "published": "2026-10-20T08:41:21Z",
+      "preview": "Release mise-daemons 2026.10.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.10.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.3",
+      "published": "2026-10-20T08:41:10Z",
+      "preview": "Release mise-oci 2026.10.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.10.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.3",
+      "published": "2026-10-20T08:40:58Z",
+      "preview": "Release mise-system 2026.10.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.16",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.16",
+      "published": "2026-10-20T08:40:44Z",
+      "preview": "Release vfox 2026.10.16",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.10.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.3",
+      "published": "2026-10-20T08:40:11Z",
+      "preview": "Release mise-system-packages 2026.10.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.10.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.3",
+      "published": "2026-10-20T08:39:58Z",
+      "preview": "Release mise-ui 2026.10.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.16",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.16",
+      "published": "2026-10-20T08:39:45Z",
+      "preview": "Release mise-util 2026.10.16",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.16",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.16",
+      "published": "2026-10-20T08:39:07Z",
+      "preview": "Release mise-settings 2026.10.16",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-config-v2026.10.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-config-v2026.10.2",
+      "published": "2026-10-20T08:38:28Z",
+      "preview": "Release mise-config 2026.10.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.171.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.2",
@@ -175,100 +263,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.168.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.168.0",
-      "published": "2026-10-19T11:19:02Z",
-      "preview": "44.168.0 (2026-10-19) Features deps: update renovate-base-image to v13.134.0 (main) ( #47157 ) ( ec15885 ) Miscellaneous Chores deps: update jdx/mise-action action to v5.2.1 (main) ( #47156 ) ( d78ef08 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.10.15: Default minimum_release_age covers every backend, plus a PowerShell installer",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.15",
-      "published": "2026-10-19T10:19:30Z",
-      "preview": "The default 24-hour minimum_release_age now applies to every backend. Many more backends report release dates, so the cooldown can actually hold new versions back, and mise warns when it installs a version it couldn't date. This release also adds a PowerShell installer for Windows, read_json / read_yaml / read_toml template functions, dotnet@lts / dotnet@sts , and new dotfiles options. Changed The default minimum_release_age applies to every backend. The built-in 24h cooldown used to cover only backends that reported release dates (aqua, cargo, core, github, npm, pypi and others). asdf, vfox, ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
       "published": "2026-10-19T08:49:32Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "mise-daemons-v2026.10.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.10.2",
-      "published": "2026-10-19T08:44:18Z",
-      "preview": "Release mise-daemons 2026.10.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-oci-v2026.10.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.2",
-      "published": "2026-10-19T08:44:08Z",
-      "preview": "Release mise-oci 2026.10.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.10.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.2",
-      "published": "2026-10-19T08:43:53Z",
-      "preview": "Release mise-system 2026.10.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.10.15",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.15",
-      "published": "2026-10-19T08:43:41Z",
-      "preview": "Release vfox 2026.10.15",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.10.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.2",
-      "published": "2026-10-19T08:43:01Z",
-      "preview": "Release mise-system-packages 2026.10.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.10.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.2",
-      "published": "2026-10-19T08:42:50Z",
-      "preview": "Release mise-ui 2026.10.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.15",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.15",
-      "published": "2026-10-19T08:42:42Z",
-      "preview": "Release mise-util 2026.10.15",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.15",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.15",
-      "published": "2026-10-19T08:42:08Z",
-      "preview": "Release mise-settings 2026.10.15",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-config-v2026.10.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-config-v2026.10.1",
-      "published": "2026-10-19T08:41:40Z",
-      "preview": "Release mise-config 2026.10.1",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v2.29.3",
