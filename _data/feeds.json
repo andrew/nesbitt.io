@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T09:32:40Z",
-  "cutoff": "2026-09-20T09:32:34Z",
+  "generated": "2026-10-20T10:28:43Z",
+  "cutoff": "2026-09-20T10:28:37Z",
   "feed_count": 104,
   "item_count": 301,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.171.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.4",
+      "published": "2026-10-20T09:51:54Z",
+      "preview": "44.171.4 (2026-10-20) Bug Fixes deps: update renovate-base-image to v13.135.1 (main) ( #47199 ) ( 8b9ac8b ) Miscellaneous Chores deps: update dependency uv to v0.13.3 (main) ( #47198 ) ( 182ce5e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.171.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.3",
@@ -251,14 +259,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.168.2",
       "published": "2026-10-19T12:47:46Z",
       "preview": "44.168.2 (2026-10-19) Build System deps: update dependency cronstrue to v3.32.0 (main) ( #47165 ) ( 0128a09 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.168.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.168.1",
-      "published": "2026-10-19T11:59:42Z",
-      "preview": "44.168.1 (2026-10-19) Bug Fixes deps: update renovate-base-image to v13.134.1 (main) ( #47163 ) ( 6bcbe97 ) Documentation mark hostRules.dnsCache as having no effect ( #47159 ) ( 110e3a0 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.43.0 (main) ( #47160 ) ( 37b1ec6 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
