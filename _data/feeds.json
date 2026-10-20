@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T12:41:18Z",
-  "cutoff": "2026-09-20T12:41:14Z",
+  "generated": "2026-10-20T13:32:05Z",
+  "cutoff": "2026-09-20T13:31:57Z",
   "feed_count": 104,
   "item_count": 301,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.171.8",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.8",
+      "published": "2026-10-20T12:58:16Z",
+      "preview": "44.171.8 (2026-10-20) Bug Fixes vulnerabilities: apply vulnerabilityAlerts limits to packageRule alerts ( #47211 ) ( dc71c78 ) Build System deps: update dependency google-auth-library to v11.3.0 (main) ( #47213 ) ( 85acb08 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.171.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.7",
@@ -251,14 +259,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.170.0",
       "published": "2026-10-19T16:48:50Z",
       "preview": "44.170.0 (2026-10-19) Features datasource/github-runners: add releaseTimestamp s ( #46885 ) ( 15fb543 ), closes #46806 manager/flux: set HelmChart depType on Helm charts ( #47174 ) ( 7678a47 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.44.0 (main) ( #47172 ) ( e378ba9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.169.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.169.0",
-      "published": "2026-10-19T16:15:25Z",
-      "preview": "44.169.0 (2026-10-19) Features deps: update renovate-base-image to v13.135.0 (main) ( #47173 ) ( 0085709 ) Bug Fixes config: document where packageRules can be used ( #46705 ) ( c103f2b ), closes #43020 config: document where our branch and reporting options can be used ( #46708 ) ( 3f54883 ), closes #43020 config: document where remaining lookup options can be used ( #46707 ) ( 480260a ), closes #43020 config: document where top-level config can be used ( #46706 ) ( 4b7d5af ), closes #43020",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
