@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-20T04:33:05Z",
-  "cutoff": "2026-09-20T04:32:59Z",
+  "generated": "2026-10-20T07:36:05Z",
+  "cutoff": "2026-09-20T07:35:57Z",
   "feed_count": 104,
-  "item_count": 302,
+  "item_count": 301,
   "categories": [
     ".NET",
     "C/C++",
@@ -2428,14 +2428,6 @@
       "published": "2026-09-20T22:49:07Z",
       "preview": "Fixed: Revert the extra type parameter added to BuildHookInterface in 1.32.3, which broke plugins that subscripted the interface with a single argument (e.g. BuildHookInterface[MyConfig] ) by raising TypeError at import time. BuilderConfig is likewise no longer generic, restoring the pre-1.32.3 plugin interface. Strip spaces around version metadata when using original input for CalVer to keep leading zeroes.",
       "source": "Hatch releases",
-      "category": "Python"
-    },
-    {
-      "title": "2.5.1",
-      "url": "https://github.com/python-poetry/poetry/releases/tag/2.5.1",
-      "published": "2026-09-20T07:17:20Z",
-      "preview": "Fixed Fix an issue where uninstalling a package with installer.builtin-uninstall set failed with a TypeError ( #11077 ).",
-      "source": "Poetry releases",
       "category": "Python"
     }
   ]
