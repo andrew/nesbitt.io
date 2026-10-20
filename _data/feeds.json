@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T20:31:30Z",
-  "cutoff": "2026-09-20T20:31:25Z",
+  "generated": "2026-10-20T21:28:51Z",
+  "cutoff": "2026-09-20T21:28:41Z",
   "feed_count": 104,
   "item_count": 305,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.9.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.2",
+      "published": "2026-10-20T20:51:17Z",
+      "preview": "29.9.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.9.2 milestone moby/moby, 29.9.2 milestone Security The Go runtime update addresses CVE-2026-111943 by rejecting certificate chains that include eight revoked eMudhra intermediate certificates. Image pulls and pushes fail TLS certificate verification if a registry's certificate chain relies on one of the affected TLS intermediates. Affected registries need a replacement certificate chain that does not use these intermediates. The blocked intermediates are: Domain-validate",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "v2.5.4",
       "url": "https://github.com/hexpm/hex/releases/tag/v2.5.4",
@@ -1869,14 +1877,6 @@
       "preview": "A rerelease of https://github.com/gomods/athens/releases/tag/v0.19.0",
       "source": "Athens releases",
       "category": "Go"
-    },
-    {
-      "title": "client/v0.6.1",
-      "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.6.1",
-      "published": "2026-10-01T18:24:59Z",
-      "preview": "0.6.1 Changelog client: add WithHTTPRequestHook option. moby/moby#53671 client: deprecate WithResponseHook in favor of WithHTTPResponseHook . moby/moby#53666 client: fix WithHTTPResponseHook hooks not being called for hijacked HTTP connections. moby/moby#53821 client: postRaw: use consistent order or arguments. moby/moby#53677 client: prevent response hooks from consuming response body. moby/moby#53667 client: remove redundant cloning of response hooks. moby/moby#53822 client: update github.com/docker/go-connections v0.8.1. moby/moby#53708 golangci-lint: enable usetesting linter. moby/moby#537",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     },
     {
       "title": "v1.13.1",
