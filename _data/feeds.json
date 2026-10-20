@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T18:35:19Z",
-  "cutoff": "2026-09-20T18:35:12Z",
+  "generated": "2026-10-20T19:27:15Z",
+  "cutoff": "2026-09-20T19:27:07Z",
   "feed_count": 104,
   "item_count": 304,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.172.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.172.1",
+      "published": "2026-10-20T18:46:04Z",
+      "preview": "44.172.1 (2026-10-20) Bug Fixes deps: update renovate-base-image to v13.135.5 (main) ( #47228 ) ( 124e0e1 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.13.4 (main) ( #47225 ) ( 320108e ) deps: update dependency uv to v0.13.4 (main) ( #47226 ) ( 7f7021a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.13.4",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.13.4",
@@ -268,14 +276,6 @@
       "published": "2026-10-19T18:02:43Z",
       "preview": "What's Changed bun: Update catalog dependencies by @fbartho in #16544 github_actions: pass home hostname to gh-actions-lock by @nodeselector in #16504 Type common model specs and shared RSpec ancestors by @JamieMagee in #16506 Type common credential, group, and experiment specs by @JamieMagee in #16552 Type common cooldown spec fixtures by @JamieMagee in #16551 Enable Sorbet checking for Git submodule specs by @JamieMagee in #16555 Enable staged Sorbet checking for .NET SDK specs by @JamieMagee in #16554 julia: retry juliaup install to handle flaky version-DB fetch by @v-kbukum1 in #16563 gith",
       "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.171.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.1",
-      "published": "2026-10-19T17:55:02Z",
-      "preview": "44.171.1 (2026-10-19) Build System deps: update dependency zod to v4.6.7 (main) ( #47175 ) ( c6ef797 )",
-      "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
@@ -1280,7 +1280,7 @@
     },
     {
       "title": "What's new in Swift: September 2026 Edition",
-      "url": "https://swift.org/blog/whats-new-in-swift-september-2026/",
+      "url": "https://www.swift.org/blog/whats-new-in-swift-september-2026/",
       "published": "2026-10-08T17:00:00Z",
       "preview": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. The Vapor web framework recently turned ten and celebrated with Vapor Week! We’ve invited one of the authors of Vapor as this month’s guest contributor: Hi, I’m Tim from the Vapor Core Team! 10 years ago, in September, Vapor 1.0 was released, and over the years Vapor has matured into a comprehensive framework for building backends and APIs in Swift. On the anniversary we released the first beta of Vapor 5 , the next major version of Vapor, which is a complete rewrite, rem",
       "source": "Swift Blog",
