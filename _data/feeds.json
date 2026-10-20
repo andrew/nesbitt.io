@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T11:28:56Z",
-  "cutoff": "2026-09-20T11:28:49Z",
+  "generated": "2026-10-20T12:41:18Z",
+  "cutoff": "2026-09-20T12:41:14Z",
   "feed_count": 104,
   "item_count": 301,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.171.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.7",
+      "published": "2026-10-20T12:02:43Z",
+      "preview": "44.171.7 (2026-10-20) Bug Fixes deps: update renovate-base-image to v13.135.3 (main) ( #47210 ) ( fce3625 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.171.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.6",
+      "published": "2026-10-20T11:45:42Z",
+      "preview": "44.171.6 (2026-10-20) Build System deps: update dependency @renovatebot/detect-tools to v4.0.23 (main) ( #47209 ) ( 1584a8e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "20261020t112000-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261020t112000-all",
@@ -247,28 +263,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.168.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.168.4",
-      "published": "2026-10-19T14:41:01Z",
-      "preview": "44.168.4 (2026-10-19) Bug Fixes config: document where registryAliases can be set ( #46956 ) ( 8338c58 ), closes #43020 config: document where updateInternalDeps can be set ( #46955 ) ( c08e301 ) config: document where npm config options can be used ( #46701 ) ( f42327c ), closes #43020 config: document where our per-update config objects can be used ( #46703 ) ( b9ed41b ), closes #43020 config: document where our registry options can be used ( #46700 ) ( 8d72ace ), closes #43020 config: document where our update type config objects can be used ( #46704 ) ( 1fe224b ), closes #43020 Documentati",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "7.0.10",
       "url": "https://github.com/Homebrew/brew/releases/tag/7.0.10",
       "published": "2026-10-19T13:06:46Z",
       "preview": "What's Changed Ignore Ubuntu release list link check failures by @MikeMcQuaid in #24196 Require test resources in homebrew/core by @MikeMcQuaid in #24180 Preserve cask approval for copied helpers by @MikeMcQuaid in #24191 Add OSS Scanner Dockerfile and threat model by @p-linnane in #24199 spdx: store downcased licenses in hash across calls by @alebcay in #24197 Harden tap redirect trust and rollback by @p-linnane in #24198 Fix offline, vacuous and repo-leaking specs by @p-linnane in #24200 Ignore hidden directories when listing taps by @p-linnane in #24201 Isolate Bootsnap caches across gem ch",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "44.168.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.168.3",
-      "published": "2026-10-19T13:04:28Z",
-      "preview": "44.168.3 (2026-10-19) Bug Fixes platform/azure: apply the repo's azureWorkItemType ( #47158 ) ( aaf9d8e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
