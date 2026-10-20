@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-20T01:00:25Z",
-  "cutoff": "2026-09-20T01:00:15Z",
+  "generated": "2026-10-20T01:38:19Z",
+  "cutoff": "2026-09-20T01:38:14Z",
   "feed_count": 104,
-  "item_count": 300,
+  "item_count": 302,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "[release-branch.go1.26] go1.26.10",
+      "url": "https://github.com/golang/go/releases/tag/go1.26.10",
+      "published": "2026-10-20T01:26:11Z",
+      "preview": "Change-Id: I1c15150b8e64627cc3fdf015b599258ab4753fa0 Reviewed-on: https://go-review.googlesource.com/c/go/+/851205 Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Carlos Amedee carlos@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com TryBot-Bypass: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "[release-branch.go1.27] go1.27.3",
+      "url": "https://github.com/golang/go/releases/tag/go1.27.3",
+      "published": "2026-10-20T01:26:06Z",
+      "preview": "Change-Id: Icf51c3e5809b43e3137f6e269b1196ec9f74626e Reviewed-on: https://go-review.googlesource.com/c/go/+/851146 TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-by: Carlos Amedee carlos@golang.org Auto-Submit: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "0.13.3",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.3",
+      "published": "2026-10-20T01:15:17Z",
+      "preview": "Release Notes Released on 2026-10-20. Performance Avoid severe uv export slowdowns in dependency graphs with extras ( #22750 ) Install uv 0.13.3 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.13.3/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/download/0.13.3/uv-installer.ps1 | iex \" Download uv 0.13.3 File Platform Checksum uv-aarch64-apple-darwin.tar.gz Apple Silicon macOS checksum uv-x86_6",
+      "source": "uv releases",
+      "category": "Python"
+    },
     {
       "title": "8.1.0.14",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.1.0.14",
@@ -2293,14 +2317,6 @@
       "preview": "1.17.0-beta2 (September 23, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for ",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "0.12.18",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.18",
-      "published": "2026-09-23T14:29:08Z",
-      "preview": "Release Notes Released on 2026-09-22. This release addresses GHSA-2cv4-cqwr-gwf7 , which is a path traversal weakness during wheel installation on Windows. No other platforms are affected by this advisory. Enhancements Add --output-format json to uv pip install and uv pip sync , including for --dry-run and --check ( #21893 ) Add --check to uv pip install and uv pip sync to report planned changes without modifying the environment ( #21844 ) Identify failures from get_requires_for_build_* hooks correctly in build errors ( #21881 ) Preview features Validate build requirements for uv build --no-bu",
-      "source": "uv releases",
-      "category": "Python"
     },
     {
       "title": "v1.16.4",
