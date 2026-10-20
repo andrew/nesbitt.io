@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-20T01:38:19Z",
-  "cutoff": "2026-09-20T01:38:14Z",
+  "generated": "2026-10-20T04:33:05Z",
+  "cutoff": "2026-09-20T04:32:59Z",
   "feed_count": 104,
   "item_count": 302,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.5.0",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.5.0",
+      "published": "2026-10-20T03:39:55Z",
+      "preview": "What's Changed spec: improve catalog errors with suggestions by @ruyadorno in #1980 graph: keep pending build state across installs by @ruyadorno in #1990 cli-sdk: let publishConfig.registry satisfy publish/unpublish by @ruyadorno in #1991 security-archive: add fetch timeout to socket.dev requests by @ruyadorno in #1979 cli-sdk: save found workspaces to vlt.json on install by @ruyadorno in #2013 Use a worker pool to create hardlinks during placement. by @evert in #2018 Revert \"Use a worker pool to create hardlinks during placement.\" by @ruyadorno in #2020 package-info: pass tarball format when",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
+    },
     {
       "title": "[release-branch.go1.26] go1.26.10",
       "url": "https://github.com/golang/go/releases/tag/go1.26.10",
@@ -2093,14 +2101,6 @@
       "preview": "What's Changed Add privacy and telemetry notices to the help command by Victor Romero (@vicroms) in #2087 Add Windows arm64 release presets by Billy O'Neal (@BillyONeal) in #2082 Fix x-add-version to be as transactional as its error messages suggest (and 1/10th the time) by Billy O'Neal (@BillyONeal) in #2050 [curl] propagate VCPKG_SSL_REVOKE_BEST_EFFORT to spawned processes by Pavel Pokutnev (@mem16k) in #2098 Take the registries lock before git init by Bugale Bugalit (@bugale) in #2093 Add diff output to x-update-baseline by Billy O'Neal (@BillyONeal) in #2057 Parallelize ObjectStorageProvid",
       "source": "vcpkg releases",
       "category": "C/C++"
-    },
-    {
-      "title": "v1.3.0",
-      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.0",
-      "published": "2026-09-28T16:56:56Z",
-      "preview": "What's Changed [docs] - face lift by @ejkorol in #1895 Brotli support. by @evert in #1904 Parallel unpack by @evert in #1906 registry-client: read STATUS_CODES lazily to skip node:http at startup by @ruyadorno in #1909 NPM workspaces support by @evert in #1919 package-info: hash each network tarball once by @ruyadorno in #1916 Set readme and readmeFilename in the manifest when publishing. by @evert in #1920 Releasing as 1.3.0 by @evert in #1921 Release v1.3.0 by @vltops in #1903 Full Changelog : v1.2.0...v1.3.0",
-      "source": "vlt CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "1.18.4",
