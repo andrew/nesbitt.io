@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-21T19:25:52Z",
-  "cutoff": "2026-09-21T19:25:46Z",
+  "generated": "2026-10-21T20:30:07Z",
+  "cutoff": "2026-09-21T20:30:00Z",
   "feed_count": 104,
-  "item_count": 309,
+  "item_count": 310,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v10.3.1 🌈 preserve cache error class names in save-cache bundle",
+      "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.3.1",
+      "published": "2026-10-21T20:01:37Z",
+      "preview": "Changes This release includes a fix so that multiple concurrent workflows trying to upload the same cache no longer warn ##[warning]Failed to save: Unable to reserve cache with key ..., another job may be creating this cache. 🐛 Bug fixes fix: preserve cache error class names in save-cache bundle @dannyward630 ( #1093 ) 🧰 Maintenance chore: update known checksums for 0.13.4 @ github-actions[bot] ( #1099 ) chore: update known checksums for 0.13.2/0.13.3 @ github-actions[bot] ( #1098 ) chore: update known checksums for 0.13.1 @ github-actions[bot] ( #1094 ) Verify npm dependency signatures before",
+      "source": "setup-uv releases",
+      "category": "Python"
+    },
+    {
+      "title": "44.176.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.176.1",
+      "published": "2026-10-21T19:59:52Z",
+      "preview": "44.176.1 (2026-10-21) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.49.0 (main) ( #47278 ) ( 2413b2b ) Build System deps: update markdown-it to v15.0.3 ( #47259 ) ( 1a242a8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.176.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.176.0",
@@ -179,14 +195,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.173.1",
       "published": "2026-10-21T03:44:47Z",
       "preview": "44.173.1 (2026-10-21) Bug Fixes deps: update renovate-base-image to v13.136.1 (main) ( #47236 ) ( 5c2a683 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.173.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.173.0",
-      "published": "2026-10-21T01:45:53Z",
-      "preview": "44.173.0 (2026-10-21) Features deps: update renovate-base-image to v13.136.0 (main) ( #47234 ) ( 482cf61 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
