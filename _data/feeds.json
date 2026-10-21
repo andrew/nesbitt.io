@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-21T12:41:45Z",
-  "cutoff": "2026-09-21T12:41:38Z",
+  "generated": "2026-10-21T13:30:41Z",
+  "cutoff": "2026-09-21T13:30:35Z",
   "feed_count": 104,
   "item_count": 310,
   "categories": [
@@ -23,12 +23,36 @@
   ],
   "items": [
     {
-      "title": "v1.12.9",
-      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.9",
-      "published": "2026-10-21T12:33:26Z",
-      "preview": "1.12.9",
+      "title": "v1.13.2",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.2",
+      "published": "2026-10-21T13:26:14Z",
+      "preview": "1.13.2",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
+    },
+    {
+      "title": "v1.12.9",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.9",
+      "published": "2026-10-21T13:25:22Z",
+      "preview": "SECURITY ADVISORIES: Filter out compromised intermediate certificates ( #4751 )",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-21T13:20:28Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.175.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.175.2",
+      "published": "2026-10-21T13:02:39Z",
+      "preview": "44.175.2 (2026-10-21) Bug Fixes manager/kustomize: handle helm charts without repo ( #47255 ) ( 06d7f77 ) manager/npm: omit unresolved npmrc from extracted package files ( #47258 ) ( 25d7295 ) workers: keep absent registry URLs absent when detaching credentials ( #47256 ) ( 571a269 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "26.9.4",
@@ -247,14 +271,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.171.8",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.8",
-      "published": "2026-10-20T12:58:16Z",
-      "preview": "44.171.8 (2026-10-20) Bug Fixes vulnerabilities: apply vulnerabilityAlerts limits to packageRule alerts ( #47211 ) ( dc71c78 ) Build System deps: update dependency google-auth-library to v11.3.0 (main) ( #47213 ) ( 85acb08 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "vlt skills",
       "url": "https://vlt.io/blog/vlt-skills",
       "published": "2026-10-20T12:00:00Z",
@@ -421,14 +437,6 @@
       "preview": "Changelog d6e7b58 bump: tag and release ORAS CLI v1.3.5 ( #2244 ) 4431829 docs: require cve fixes to land before preparing a release ( #2258 ) 8ee66ac docs: add ORAS CLI release process ( #2248 ) e09a8bb chore: bump oras-go to v2.6.4 in e2e tests ( #2247 ) 8270f5f chore: update oras-go to v2.6.4 ( #2242 ) ba3a3dc fix: validate extra destination tags before pushing ( #2237 ) 6ca02d0 build(deps): bump the github-actions group across 1 directory with 3 updates ( #2240 ) c9ccd95 build(deps): bump library/golang from 1.27.1-alpine to 1.27.2-alpine ( #2239 ) b2dc645 build(deps): bump github.com/onsi",
       "source": "ORAS releases",
       "category": "Containers"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-18T22:00:09Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "1.18.4",
@@ -2493,14 +2501,6 @@
       "preview": "What's Changed Reject redundant minimum macOS dependencies by @p-linnane in #24020 Avoid duplicate Caskroom loads in doctor by @joseph1020 in #24026 Fix historical loading and CPANSA fallback by @p-linnane in #24029 Type Style options instead of **options by @dduugg in #24025 Avoid repeated Cask rename migrations during update by @joseph1020 in #24031 Type Formulary options instead of **options by @dduugg in #24032 pypi: resolve non-PyPI sources missing from PyPI by @daeho-ro in #24036 shell: do not wrap an escaped value in double quotes by @rawsun007 in #24035 Allow --formula-list with --new-",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "v10.2.0 🌈 Disable automatic cache saves for merge queues",
-      "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.2.0",
-      "published": "2026-09-21T13:15:15Z",
-      "preview": "Changes This release contains the known-checksum of the most recent uv releases and also disabled the uploading(saving) of the cache when in a merge queue since theses caches would almost never be used. 🚀 Enhancements Disable automatic cache saves for merge queues @eifinger ( #1056 ) 🧰 Maintenance chore: update known checksums for 0.12.17 @ github-actions[bot] ( #1058 ) chore: update known checksums for 0.12.16 @ github-actions[bot] ( #1057 ) chore: update known checksums for 0.12.15 @ github-actions[bot] ( #1054 ) chore: update known checksums for 0.12.14 @ github-actions[bot] ( #1053 ) chore",
-      "source": "setup-uv releases",
-      "category": "Python"
     }
   ]
 }
