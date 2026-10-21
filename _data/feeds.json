@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-21T01:39:05Z",
-  "cutoff": "2026-09-21T01:38:59Z",
+  "generated": "2026-10-21T02:38:39Z",
+  "cutoff": "2026-09-21T02:38:34Z",
   "feed_count": 104,
   "item_count": 304,
   "categories": [
@@ -23,10 +23,18 @@
   ],
   "items": [
     {
+      "title": "44.173.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.173.0",
+      "published": "2026-10-21T01:45:53Z",
+      "preview": "44.173.0 (2026-10-21) Features deps: update renovate-base-image to v13.136.0 (main) ( #47234 ) ( 482cf61 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "v2026.10.17: Shell names in bootstrap login_shell, templated doctor checks, and a per-plugin vfox cache directory",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.17",
-      "published": "2026-10-21T01:29:26Z",
-      "preview": "bootstrap.user.login_shell now accepts a shell name such as fish instead of a full path. [doctor.checks] can use templates, and vfox backend plugins get their own cache directory. This release also fixes PATH handling in zsh setups that deduplicate PATH, stale task cache hits, a pipx interpreter mix-up on macOS, and removes trust in the compromised eMudhra CA certificates. Added [bootstrap.user].login_shell accepts a shell name. A config shared across machines no longer needs to know where each system installs the shell. mise looks up the name when it checks or applies the setting, which happe",
+      "published": "2026-10-21T01:41:46Z",
+      "preview": "bootstrap.user.login_shell now accepts a shell name such as fish instead of a full path. [doctor.checks] can use templates, and vfox backend plugins get their own cache directory. This release also fixes PATH handling in zsh setups that deduplicate PATH, stale task cache hits, a pipx interpreter mix-up on macOS, and removes trust in the compromised eMudhra CA certificates. It also includes the changes prepared for 2026.10.16, which was tagged but never published: relative and templated write_targets paths, version aliases from vfox backend plugins, keyring passwords for private PyPI indexes, v",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -187,14 +195,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.4",
       "published": "2026-10-20T09:51:54Z",
       "preview": "44.171.4 (2026-10-20) Bug Fixes deps: update renovate-base-image to v13.135.1 (main) ( #47199 ) ( 8b9ac8b ) Miscellaneous Chores deps: update dependency uv to v0.13.3 (main) ( #47198 ) ( 182ce5e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.171.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.3",
-      "published": "2026-10-20T08:48:55Z",
-      "preview": "44.171.3 (2026-10-20) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.13.3 (main) ( #47191 ) ( e2e9f7f ) Build System deps: update dependency execa to v10.1.1 (main) ( #47190 ) ( 230474a )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
