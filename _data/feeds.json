@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-21T04:33:57Z",
-  "cutoff": "2026-09-21T04:33:53Z",
+  "generated": "2026-10-21T06:46:11Z",
+  "cutoff": "2026-09-21T06:46:06Z",
   "feed_count": 104,
   "item_count": 304,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.174.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.174.0",
+      "published": "2026-10-21T05:46:49Z",
+      "preview": "44.174.0 (2026-10-21) Features deps: update renovate-base-image to v13.137.0 (main) ( #47241 ) ( f9b9036 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.45.0 (main) ( #47240 ) ( da3366e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.173.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.173.1",
@@ -189,14 +197,6 @@
       "preview": "Deployment at 2026-10-20T11:20:19.810605Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.171.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.5",
-      "published": "2026-10-20T10:54:00Z",
-      "preview": "44.171.5 (2026-10-20) Bug Fixes deps: update renovate-base-image to v13.135.2 (main) ( #47208 ) ( 7fd1380 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.44.2 (main) ( #47207 ) ( b0abab7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.10.16",
