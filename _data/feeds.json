@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-21T06:46:11Z",
-  "cutoff": "2026-09-21T06:46:06Z",
+  "generated": "2026-10-21T08:37:39Z",
+  "cutoff": "2026-09-21T08:37:33Z",
   "feed_count": 104,
-  "item_count": 304,
+  "item_count": 305,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.82.1",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.82.1",
+      "published": "2026-10-21T08:04:46Z",
+      "preview": "[0.82.1] - 2026-10-20 🔒 Security 🔒 This patch release contains security fixes for the incident described at https://emudhra.we-have-a-problem.com/ . All users are encouraged to upgrade to this version immediately. The affected webpki-root-certs and rustls-webpki dependencies have been bumped to patched releases 1.0.10 and 0.103.16 respectively. Features pixi-build-r: Add CMake and pkg-config when SystemRequirements asks for them by @roaldarbol in #7256 spec: Support exemptions in the resolved exclude-newer config by @pavelzw in #7250 manifest: Read exemptions from exclude-newer in [workspace] ",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.175.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.175.0",
+      "published": "2026-10-21T07:53:34Z",
+      "preview": "44.175.0 (2026-10-21) Features deps: update renovate-base-image to v13.138.1 (main) ( #47245 ) ( 2e55bee ) Bug Fixes config/validation: correct misleading message for non-string customDatasources values ( #47184 ) ( b7feac6 ) config/validation: don't throw for invalid types of enabledManagers and schedule ( #47193 ) ( ba23989 ) config/validation: require hostRules[].headers to be an object ( #47185 ) ( a01e305 ) config/validation: validate templates in global config ( #47186 ) ( e98ddc3 ) config: allow lockfileUpdate in matchUpdateTypes ( #47182 ) ( d2d9f17 ) Miscellaneous Chores deps: update ",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.174.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.174.0",
@@ -181,14 +197,6 @@
       "preview": "Introducing v1.5.0: with this release, vlt now links the agent skills your dependencies ship into the dirs your coding agents read.",
       "source": "vlt Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.171.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.6",
-      "published": "2026-10-20T11:45:42Z",
-      "preview": "44.171.6 (2026-10-20) Build System deps: update dependency @renovatebot/detect-tools to v4.0.23 (main) ( #47209 ) ( 1584a8e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "20261020t112000-all",
