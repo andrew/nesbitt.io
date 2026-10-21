@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-21T14:31:25Z",
-  "cutoff": "2026-09-21T14:31:19Z",
+  "generated": "2026-10-21T15:31:06Z",
+  "cutoff": "2026-09-21T15:31:00Z",
   "feed_count": 104,
   "item_count": 311,
   "categories": [
@@ -23,10 +23,26 @@
   ],
   "items": [
     {
+      "title": "v2.9.8",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.8",
+      "published": "2026-10-21T15:28:53Z",
+      "preview": "2.9.8 / 2026.10.21 fix(compile): check read permission for dynamically imported local files ( #36925 ) fix(completions): complete script paths for bare deno run in zsh ( #36976 ) fix(core): keep op contexts alive until the isolate is disposed ( #37026 ) fix(coverage): skip the V8 code cache while collecting coverage ( #36901 ) fix(ext/fetch): bump hyper-util to 0.1.21 and hyper to 1.11.1 to cancel idle interval when pool empties ( #36968 ) fix(ext/napi): check napi_create_dataview bounds for overflow ( #36962 ) fix(ext/napi): ignore the callback return value while an exception is pending ( #36",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.175.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.175.3",
+      "published": "2026-10-21T14:47:25Z",
+      "preview": "44.175.3 (2026-10-21) Bug Fixes workers/repository/lookup: warn when a tag is missing its v prefix ( #47155 ) ( b91f928 ) Documentation mend-hosted: Enterprise users can specify forkProcessing and onboardingNoDeps ( #47246 ) ( bd4ba3b ) Build System deps: update dependency node to v24.22.1 (main) ( #47264 ) ( 8ca0fec )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "v1.13.2",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.2",
-      "published": "2026-10-21T13:26:14Z",
-      "preview": "1.13.2",
+      "published": "2026-10-21T14:36:09Z",
+      "preview": "SECURITY ADVISORIES: Previous versions of OpenTofu could potentially experience excessive CPU usage if connecting to an attacker-controlled HTTP2 server while installing dependencies in tofu init . ( #4681 ) Filter out compromised intermediate certificates ( #4750 ) BUG FIXES: Lifecycle destroy will no longer crash when given an expression with references ( #4648 ) tofu workspace select and tofu workspace delete autocompletion predicts from the existing workspaces. This restores the behavior pre-v1.13 ( #4706 ) Combined usage of -chdir and -version flags does not show an error anymore but inst",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
     },
@@ -69,14 +85,6 @@
       "preview": "44.175.1 (2026-10-21) Bug Fixes config/validation: remove custom validation for allowedValues ( #43833 ) ( e6cdac8 ) config/validation: validate allowedValues for arrays ( #39076 ) ( e5ae141 ) config/validation: validate customDatasources generically ( #47195 ) ( b4de4ca ) config/validation: validate the entries of arrays of strings ( #47194 ) ( e49ca6a ) config: document all valid customDatasources[].format s ( #47204 ) ( a19c6bc ) workers/repository/init: massage inherited config before validating ( #47201 ) ( 2a3a481 ) workers/repository/init: massage static repo config before validating ( ",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2.9.8: 2.9.8 (#37052)",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.8",
-      "published": "2026-10-21T11:47:21Z",
-      "preview": "Bumped versions for 2.9.8 Co-authored-by: bartlomieju bartlomieju@users.noreply.github.com Co-authored-by: Bartek Iwańczuk biwanczuk@gmail.com",
-      "source": "Deno releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpr 0.1.0-alpha.16",
@@ -165,6 +173,14 @@
       "preview": "Share your experience with Go in the 2026 Go Developer Survey, open through November 3.",
       "source": "Go Blog",
       "category": "Go"
+    },
+    {
+      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "published": "2026-10-21T00:00:00Z",
+      "preview": "Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. These releases fix two critical vulnerabilities that, under the right conditions, allow an unauthenticated attacker to execute code on servers running PHP. If you run PHP, it is imperative that you update now. The announcement on php.net contains and references technical details on the vulnerabilities, attack vectors, and instructions on how to update on which systems. This post isn't about how to update. It's about how these vulnerabilities were found and fixed, what has changed in how PHP security is handled over",
+      "source": "PHP Foundation Blog",
+      "category": "PHP"
     },
     {
       "title": "pnpm 12.15.0",
@@ -267,14 +283,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.172.0",
       "published": "2026-10-20T15:08:40Z",
       "preview": "44.172.0 (2026-10-20) Features workarounds: add helm-docs workaround for old tags from 2019 ( #46838 ) ( 33483f9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.171.9",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.9",
-      "published": "2026-10-20T14:51:17Z",
-      "preview": "44.171.9 (2026-10-20) Bug Fixes deps: update renovate-base-image to v13.135.4 (main) ( #47218 ) ( 1f75e11 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.44.3 (main) ( #47217 ) ( 32306c6 ) deps: update linters to v1.88.0 (main) ( #47222 ) ( 6e01ad1 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -2499,14 +2507,6 @@
       "url": "https://github.com/Homebrew/brew/releases/tag/7.0.6",
       "published": "2026-09-21T16:33:33Z",
       "preview": "What's Changed Revert \"Use InfluxDB v3 API for analytics reporting\" by @SMillerDev in #24056 Clear the environment when reopening cask apps by @MikeMcQuaid in #24057 Full Changelog : 7.0.5...7.0.6",
-      "source": "Homebrew releases",
-      "category": "System"
-    },
-    {
-      "title": "7.0.5",
-      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.5",
-      "published": "2026-09-21T14:32:39Z",
-      "preview": "What's Changed Reject redundant minimum macOS dependencies by @p-linnane in #24020 Avoid duplicate Caskroom loads in doctor by @joseph1020 in #24026 Fix historical loading and CPANSA fallback by @p-linnane in #24029 Type Style options instead of **options by @dduugg in #24025 Avoid repeated Cask rename migrations during update by @joseph1020 in #24031 Type Formulary options instead of **options by @dduugg in #24032 pypi: resolve non-PyPI sources missing from PyPI by @daeho-ro in #24036 shell: do not wrap an escaped value in double quotes by @rawsun007 in #24035 Allow --formula-list with --new-",
       "source": "Homebrew releases",
       "category": "System"
     }
