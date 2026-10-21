@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-21T20:30:07Z",
-  "cutoff": "2026-09-21T20:30:00Z",
+  "generated": "2026-10-21T23:27:26Z",
+  "cutoff": "2026-09-21T23:27:20Z",
   "feed_count": 104,
-  "item_count": 310,
+  "item_count": 311,
   "categories": [
     ".NET",
     "C/C++",
@@ -989,6 +989,14 @@
       "preview": "Deployment at 2026-10-14T07:05:44.886281Z.",
       "source": "pub.dev releases",
       "category": "Registries"
+    },
+    {
+      "title": "PyPI's developer documentation has moved to dev.pypi.org",
+      "url": "https://blog.pypi.org/posts/2026-10-14-dev-docs-move-to-dev-pypi-org/",
+      "published": "2026-10-14T06:09:00Z",
+      "preview": "The developer documentation for Warehouse , the codebase that powers PyPI, has moved from warehouse.pypa.io to dev.pypi.org . Existing links to warehouse.pypa.io will keep working: every page now redirects to the same page on dev.pypi.org . Why the move? PyPI's other sites already live under pypi.org : user documentation at docs.pypi.org , and this blog at blog.pypi.org . The developer documentation was the odd one out. Moving it to dev.pypi.org puts all of PyPI's sites under one domain. What's on dev.pypi.org? The same content that was on warehouse.pypa.io , aimed at people working on warehou",
+      "source": "PyPI Blog",
+      "category": "Python"
     },
     {
       "title": "0.13.1",
