@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-21T10:31:23Z",
-  "cutoff": "2026-09-21T10:31:16Z",
+  "generated": "2026-10-21T11:29:35Z",
+  "cutoff": "2026-09-21T11:29:29Z",
   "feed_count": 104,
-  "item_count": 305,
+  "item_count": 306,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,26 +23,26 @@
   ],
   "items": [
     {
-      "title": "pnpr@0.1.0-alpha.16",
+      "title": "pnpr 0.1.0-alpha.16",
       "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.16",
-      "published": "2026-10-21T10:15:53Z",
-      "preview": "=pnpr@0.1.0-alpha.16",
+      "published": "2026-10-21T11:17:18Z",
+      "preview": "pnpr 0.1.0-alpha.16 serves every ecosystem under its own URL prefix, moves hosted storage to a new layout upgraded with pnpr upgrade-storage , and replaces artifacts.compilerCaches and pipeline.workspaces with artifacts.orgs . It also adds tar registries, zstd metadata and tarball compression, npm audit and provenance endpoints, Prometheus metrics, and pnpr maintenance commands. Minor Changes pnpr now serves npm under /npm/ even when npm is the only ecosystem it serves. The npm registry URL is https://<pnpr>/npm/ , and a named registry is at https://<pnpr>/npm/~<name>/ . Cargo, Python, and con",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
-      "title": "v11.28.7",
+      "title": "pnpm 11.28.7",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.7",
-      "published": "2026-10-21T10:15:45Z",
-      "preview": "=v11.28.7",
+      "published": "2026-10-21T11:17:06Z",
+      "preview": "This release rejects registry metadata that names a different package than the one requested, applies trustPolicy to the pnpm version a project pins, and caps unpacked package size with maxTarballUnpackedSize . It also removes support for registry revisions, fixes verifyDepsBeforeRun after filtered installs, and finishes commands with their own exit code when a pipe reader exits early. Patch Changes Security pnpm now fails with ERR_PNPM_REGISTRY_NAME_MISMATCH if a registry returns metadata for a package other than the one requested. Before, pnpm installed the package under the name in the meta",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
-      "title": "v12.15.0",
+      "title": "pnpm 12.15",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.15.0",
-      "published": "2026-10-21T10:15:36Z",
-      "preview": "=v12.15.0",
+      "published": "2026-10-21T11:16:52Z",
+      "preview": "This release lets pnpm-workspace.yaml delegate settings to other files and config dependencies with include , adds lockfile.integrityTarget: tar and tar-registry support, accepts zstd-compressed registry responses, and honors SOURCE_DATE_EPOCH in pnpm deploy and pnpm install . It also rejects registry metadata that names a different package than the one requested and speeds up workspace installs and macOS file linking. Minor Changes pnpm-workspace.yaml can now delegate settings to other YAML files and to config dependencies through a new include field. Each source may define only the settings ",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -101,6 +101,14 @@
       "preview": "bootstrap.user.login_shell now accepts a shell name such as fish instead of a full path. [doctor.checks] can use templates, and vfox backend plugins get their own cache directory. This release also fixes PATH handling in zsh setups that deduplicate PATH, stale task cache hits, a pipx interpreter mix-up on macOS, and removes trust in the compromised eMudhra CA certificates. It also includes the changes prepared for 2026.10.16, which was tagged but never published: relative and templated write_targets paths, version aliases from vfox backend plugins, keyring passwords for private PyPI indexes, v",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "pnpm 12.15.0",
+      "url": "https://pnpm.io/blog/releases/12.15.0",
+      "published": "2026-10-21T00:00:00Z",
+      "preview": "This release lets pnpm-workspace.yaml delegate settings to other files and config dependencies with include, adds lockfile.integrityTarget: tar and tar-registry support, accepts zstd-compressed registry responses, and honors SOURCE_DATE_EPOCH in pnpm deploy and pnpm install. It also rejects...",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.172.2",
