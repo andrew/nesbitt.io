@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-21T13:30:41Z",
-  "cutoff": "2026-09-21T13:30:35Z",
+  "generated": "2026-10-21T14:31:25Z",
+  "cutoff": "2026-09-21T14:31:19Z",
   "feed_count": 104,
-  "item_count": 310,
+  "item_count": 311,
   "categories": [
     ".NET",
     "C/C++",
@@ -157,6 +157,14 @@
       "preview": "bootstrap.user.login_shell now accepts a shell name such as fish instead of a full path. [doctor.checks] can use templates, and vfox backend plugins get their own cache directory. This release also fixes PATH handling in zsh setups that deduplicate PATH, stale task cache hits, a pipx interpreter mix-up on macOS, and removes trust in the compromised eMudhra CA certificates. It also includes the changes prepared for 2026.10.16, which was tagged but never published: relative and templated write_targets paths, version aliases from vfox backend plugins, keyring passwords for private PyPI indexes, v",
       "source": "mise releases",
       "category": "Multi-language"
+    },
+    {
+      "title": "Help set Go's priorities for next year",
+      "url": "https://go.dev/blog/survey2026-announce",
+      "published": "2026-10-21T00:00:00Z",
+      "preview": "Share your experience with Go in the 2026 Go Developer Survey, open through November 3.",
+      "source": "Go Blog",
+      "category": "Go"
     },
     {
       "title": "pnpm 12.15.0",
