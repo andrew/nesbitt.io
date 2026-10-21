@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-21T18:35:06Z",
-  "cutoff": "2026-09-21T18:35:00Z",
+  "generated": "2026-10-21T19:25:52Z",
+  "cutoff": "2026-09-21T19:25:46Z",
   "feed_count": 104,
-  "item_count": 310,
+  "item_count": 309,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.176.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.176.0",
+      "published": "2026-10-21T18:38:56Z",
+      "preview": "44.176.0 (2026-10-21) Features deps: update renovate-base-image to v13.139.0 (main) ( #47275 ) ( 11db0f2 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.48.0 (main) ( #47272 ) ( 6924b7b ) deps: update github/codeql-action action to v4.39.1 (main) ( #47273 ) ( 43af5fa )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.17.0",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
@@ -213,14 +221,6 @@
       "preview": "This release lets pnpm-workspace.yaml delegate settings to other files and config dependencies with include, adds lockfile.integrityTarget: tar and tar-registry support, accepts zstd-compressed registry responses, and honors SOURCE_DATE_EPOCH in pnpm deploy and pnpm install. It also rejects...",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.172.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.172.2",
-      "published": "2026-10-20T22:52:12Z",
-      "preview": "44.172.2 (2026-10-20) Bug Fixes deps: update renovate-base-image to v13.135.6 (main) ( #47232 ) ( e698ff5 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.44.4 (main) ( #47231 ) ( fc2a9d0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Release of Microsoft.PowerShell.PSResourceGet v1.3.0-rc1",
@@ -2493,14 +2493,6 @@
       "preview": "pnpm 12.6 ships with automatic dependency deduplication, relocatable node_modules, --save-types for installing @types/* packages alongside their counterparts, package.yaml manifest editing, and file: / link: protocols in catalogs.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "Windows Package Manager 1.29.380",
-      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.29.380",
-      "published": "2026-09-21T18:45:34Z",
-      "preview": "This is a servicing release of Windows Package Manager v1.29. If you find any bugs or problems, please help us out by filing an issue . New in v1.29 New Feature: Source Priority Note Experimental under sourcePriority ; defaulted to disabled. With this feature, one can assign a numerical priority to sources when added or later through the source edit command. Sources with higher priority are sorted first in the list of sources, which results in them getting put first in the results if other things are equal. Tip Search result ordering in winget is currently based on these values in this order: ",
-      "source": "winget releases",
-      "category": "System"
     }
   ]
 }
