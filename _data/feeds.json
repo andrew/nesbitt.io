@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-21T11:29:35Z",
-  "cutoff": "2026-09-21T11:29:29Z",
+  "generated": "2026-10-21T12:41:45Z",
+  "cutoff": "2026-09-21T12:41:38Z",
   "feed_count": 104,
-  "item_count": 306,
+  "item_count": 310,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.12.9",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.9",
+      "published": "2026-10-21T12:33:26Z",
+      "preview": "1.12.9",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "26.9.4",
+      "url": "https://github.com/conda/conda/releases/tag/26.9.4",
+      "published": "2026-10-21T12:09:34Z",
+      "preview": "Bug fixes Require certifi >=2026.10.19 and ca-certificates >=2026.10.19 to update the packaged CA bundles following the eMudhra intermediate CA compromise. ( #16880 via #16881 ) Contributors @jezdez Full Changelog : 26.9.3...26.9.4",
+      "source": "Conda releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.175.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.175.1",
+      "published": "2026-10-21T11:58:01Z",
+      "preview": "44.175.1 (2026-10-21) Bug Fixes config/validation: remove custom validation for allowedValues ( #43833 ) ( e6cdac8 ) config/validation: validate allowedValues for arrays ( #39076 ) ( e5ae141 ) config/validation: validate customDatasources generically ( #47195 ) ( b4de4ca ) config/validation: validate the entries of arrays of strings ( #47194 ) ( e49ca6a ) config: document all valid customDatasources[].format s ( #47204 ) ( a19c6bc ) workers/repository/init: massage inherited config before validating ( #47201 ) ( 2a3a481 ) workers/repository/init: massage static repo config before validating ( ",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2.9.8: 2.9.8 (#37052)",
+      "url": "https://github.com/denoland/deno/releases/tag/v2.9.8",
+      "published": "2026-10-21T11:47:21Z",
+      "preview": "Bumped versions for 2.9.8 Co-authored-by: bartlomieju bartlomieju@users.noreply.github.com Co-authored-by: Bartek Iwańczuk biwanczuk@gmail.com",
+      "source": "Deno releases",
+      "category": "JavaScript"
+    },
     {
       "title": "pnpr 0.1.0-alpha.16",
       "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.16",
@@ -223,14 +255,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.171.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.171.7",
-      "published": "2026-10-20T12:02:43Z",
-      "preview": "44.171.7 (2026-10-20) Bug Fixes deps: update renovate-base-image to v13.135.3 (main) ( #47210 ) ( fce3625 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "vlt skills",
       "url": "https://vlt.io/blog/vlt-skills",
       "published": "2026-10-20T12:00:00Z",
@@ -317,6 +341,14 @@
       "preview": "Release Notes Released on 2026-10-20. Performance Avoid severe uv export slowdowns in dependency graphs with extras ( #22750 ) Install uv 0.13.3 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.13.3/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/download/0.13.3/uv-installer.ps1 | iex \" Download uv 0.13.3 File Platform Checksum uv-aarch64-apple-darwin.tar.gz Apple Silicon macOS checksum uv-x86_6",
       "source": "uv releases",
       "category": "Python"
+    },
+    {
+      "title": "Announcing rustup 1.29.2",
+      "url": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
+      "published": "2026-10-20T00:00:00Z",
+      "preview": "The rustup team is happy to announce the release of rustup version 1.29.2. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What's new in rustup 1.29.2 This is a small release which only updates the rustls-webpki and webpki-root-certs dependencies to address the problematic eMudhra intermediate certificates issue described in CVE-2026-111943 . See also RUSTSEC-2026-0382 . Further details are available in the changelog ! How to update If you have a previous version of rustup installed, getting the new one is",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "8.1.0.14",
