@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-21T01:00:26Z",
-  "cutoff": "2026-09-21T01:00:14Z",
+  "generated": "2026-10-21T01:39:05Z",
+  "cutoff": "2026-09-21T01:38:59Z",
   "feed_count": 104,
   "item_count": 304,
   "categories": [
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "v2026.10.17: Shell names in bootstrap login_shell, templated doctor checks, and a per-plugin vfox cache directory",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.17",
+      "published": "2026-10-21T01:29:26Z",
+      "preview": "bootstrap.user.login_shell now accepts a shell name such as fish instead of a full path. [doctor.checks] can use templates, and vfox backend plugins get their own cache directory. This release also fixes PATH handling in zsh setups that deduplicate PATH, stale task cache hits, a pipx interpreter mix-up on macOS, and removes trust in the compromised eMudhra CA certificates. Added [bootstrap.user].login_shell accepts a shell name. A config shared across machines no longer needs to know where each system installs the shell. mise looks up the name when it checks or applies the setting, which happe",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "44.172.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.172.2",
       "published": "2026-10-20T22:52:12Z",
@@ -37,14 +45,6 @@
       "preview": "What's Changed Discover and install DSC dynamically for CI tests by Aditya Patwardhan (@adityapatwardhan) in #2007 Implement unimplemented concurrency methods for all server classes by alerickson in #2012 Add concurrency for parent packages by alerickson in #2016 Pin GitHub Actions to full-length commit SHAs by Dan Fiedler (@danfiedler-msft) in #2023 Add PSContentPath Standard Platform Paths by Justin Chung (@jshigetomi) in #1912 fix: capture cmdlet warnings to prevent stdout contamination breaking DSC JSON parsing by Gijs Reijn (@Gijsreyn) in #2000 fix(repository:) Add input validation for Ge",
       "source": "PSResourceGet releases",
       "category": ".NET"
-    },
-    {
-      "title": "v2026.10.17",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.17",
-      "published": "2026-10-20T21:55:04Z",
-      "preview": "(bootstrap) accept a shell name in bootstrap.user.login_shell b…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-system-v2026.10.4",
