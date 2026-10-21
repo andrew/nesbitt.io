@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-20T23:25:42Z",
-  "cutoff": "2026-09-20T23:25:31Z",
+  "generated": "2026-10-21T01:00:26Z",
+  "cutoff": "2026-09-21T01:00:14Z",
   "feed_count": 104,
-  "item_count": 305,
+  "item_count": 304,
   "categories": [
     ".NET",
     "C/C++",
@@ -2453,14 +2453,6 @@
       "preview": "Changes This release contains the known-checksum of the most recent uv releases and also disabled the uploading(saving) of the cache when in a merge queue since theses caches would almost never be used. 🚀 Enhancements Disable automatic cache saves for merge queues @eifinger ( #1056 ) 🧰 Maintenance chore: update known checksums for 0.12.17 @ github-actions[bot] ( #1058 ) chore: update known checksums for 0.12.16 @ github-actions[bot] ( #1057 ) chore: update known checksums for 0.12.15 @ github-actions[bot] ( #1054 ) chore: update known checksums for 0.12.14 @ github-actions[bot] ( #1053 ) chore",
       "source": "setup-uv releases",
       "category": "Python"
-    },
-    {
-      "title": "GitHub Actions leaking secrets when Miri output is cached",
-      "url": "https://blog.rust-lang.org/2026/09/21/github-actions-leaking-secrets-when-miri-output-is-cached/",
-      "published": "2026-09-21T00:00:00Z",
-      "preview": "The Rust Security Response Team was notified that Miri stores all environment variables to target/ , allowing secrets to persist in caches. While not necessary a vulnerability in and of itself, when paired with GitHub Actions caching behavior, it is possible for this to expose secrets to PRs. Overview GitHub Actions makes it possible to cache directories between runs. Typical setups allow CI runs on main (and other branches) to write to cache, and PRs can only read from cache (preventing cache poisoning). Rust projects tend to speed up CI by caching binaries built by cargo install and sometime",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
