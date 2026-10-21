@@ -143,6 +143,17 @@ Pragmatic Versioning was proposed by [Severin Ibarluzea](https://seve.blog/) in 
 
 Proposed by [Pavlos Vinieratos](https://github.com/pvinis) in June 2026.
 
+## [LiteVer](https://litever.org/)
+
+**Lite Versioning (LiteVer)** is Semantic Versioning without the extra number. A version takes the form `MAJOR.MINOR` and answers the one question people actually act on: *will this break me?* It drops SemVer's distinction between a feature and a fix.
+
+- `MAJOR`: incremented for any release that is not backward compatible; resets `MINOR` to `0`. `0` is reserved for initial development.
+- `MINOR`: incremented for every other release (features, fixes, performance work, deprecations), all safe to take without looking.
+
+Where a tool insists on three numbers, LiteVer versions are written as `MAJOR.MINOR.0`; the trailing `0` is padding and never bumped.
+
+Proposed by [Pavlos Vinieratos](https://github.com/pvinis) in October 2026.
+
 ## [WendtVer](https://wendtver.org/)
 
 **WendtVer** is a tongue-in-cheek versioning system designed to minimize the thought required for version increments. Starting at `0.0.0`, every commit increments the version number following these rules:
