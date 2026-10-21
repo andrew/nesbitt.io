@@ -7,6 +7,7 @@ tags:
   - security
   - package-managers
   - supply-chain
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3myfopjdlqh2k"
 ---
 
 eMudhra generated eight of its [intermediate CA certificates](https://emudhra.we-have-a-problem.com/) incorrectly, so their private keys can be recovered from the certificates themselves. Firefox (OneCRL and CRLite) and Chrome (CRLSets) blocked the intermediates on 17 October, Apple on the 19th, and Microsoft on the 20th through Windows' automatic trust list updates. The disclosure page states that "many other clients do not consume revocation information and require software updates", and its fix table lists the packages that carry their own copy of the roots:
