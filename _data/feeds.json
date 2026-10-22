@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-22T19:25:50Z",
-  "cutoff": "2026-09-22T19:25:43Z",
+  "generated": "2026-10-22T20:29:38Z",
+  "cutoff": "2026-09-22T20:29:33Z",
   "feed_count": 104,
   "item_count": 313,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v10.34.8",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.8",
+      "published": "2026-10-22T20:11:55Z",
+      "preview": "=v10.34.8",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "8.1.0.24",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.1.0.24",
@@ -1389,14 +1397,6 @@
       "preview": "Release Notes Released on 2026-10-09. uv 0.13.0 makes Python 3.15 the default stable Python version. We've also included several breaking changes to improve correctness, performance, and compatibility, described below. We expect most users to be able to upgrade without making changes. While not a breaking change, this release also updates the format of many of uv's cache entries to improve performance. uv may download or rebuild dependencies after upgrading , because some cached entries from earlier versions cannot be reused. Multiple versions of uv can still safely share the same cache direct",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpm 12.11.2",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.11.2",
-      "published": "2026-10-09T17:38:44Z",
-      "preview": "This release fixes --workspace-concurrency=Infinity , filters set by an updateConfig hook, and store fetches with enable-modules-dir=false . Patch Changes --workspace-concurrency=Infinity now runs workspace projects with no concurrency limit. It used to fail with invalid digit found in string #16793 . pnpm install and other recursive commands now apply the filter and filterProd that an updateConfig hook sets. They used to run on every workspace project #16792 . enable-modules-dir=false now also fetches the packages an install reuses from an existing lockfile, so the store holds every package t",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "Deno is joining Cloudflare",
