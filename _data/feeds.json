@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-22T14:31:59Z",
-  "cutoff": "2026-09-22T14:31:51Z",
+  "generated": "2026-10-22T15:31:46Z",
+  "cutoff": "2026-09-22T15:31:39Z",
   "feed_count": 104,
-  "item_count": 312,
+  "item_count": 313,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.178.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.178.0",
+      "published": "2026-10-22T15:15:34Z",
+      "preview": "44.178.0 (2026-10-22) Features presets: add PHP2Shell security updates ( #47283 ) ( f911008 ) validate the containerbase image version on startup ( #47248 ) ( ef96e4d ) Miscellaneous Chores deps: update dependency pnpm to v11.28.6 (main) ( #47307 ) ( 53c30e1 ) util/exec: correct typo in constraints ( #47304 ) ( 1deb80e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.177.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.177.0",
@@ -231,14 +239,6 @@
       "category": "Infrastructure as Code"
     },
     {
-      "title": "44.175.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.175.2",
-      "published": "2026-10-21T13:02:39Z",
-      "preview": "44.175.2 (2026-10-21) Bug Fixes manager/kustomize: handle helm charts without repo ( #47255 ) ( 06d7f77 ) manager/npm: omit unresolved npmrc from extracted package files ( #47258 ) ( 25d7295 ) workers: keep absent registry URLs absent when detaching credentials ( #47256 ) ( 571a269 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "26.9.4",
       "url": "https://github.com/conda/conda/releases/tag/26.9.4",
       "published": "2026-10-21T12:09:34Z",
@@ -292,6 +292,14 @@
       "published": "2026-10-21T01:41:46Z",
       "preview": "bootstrap.user.login_shell now accepts a shell name such as fish instead of a full path. [doctor.checks] can use templates, and vfox backend plugins get their own cache directory. This release also fixes PATH handling in zsh setups that deduplicate PATH, stale task cache hits, a pipx interpreter mix-up on macOS, and removes trust in the compromised eMudhra CA certificates. It also includes the changes prepared for 2026.10.16, which was tagged but never published: relative and templated write_targets paths, version aliases from vfox backend plugins, keyring passwords for private PyPI indexes, v",
       "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "Security updates for conda, Mamba, and Pixi",
+      "url": "https://conda.org/blog/2026-10-21-emudhra-security-updates",
+      "published": "2026-10-21T00:00:00Z",
+      "preview": "Update conda, Mamba, Pixi, and CA packages after the eMudhra certificate compromise.",
+      "source": "Conda Blog",
       "category": "Multi-language"
     },
     {
