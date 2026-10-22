@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-21T23:27:26Z",
-  "cutoff": "2026-09-21T23:27:20Z",
+  "generated": "2026-10-22T00:58:51Z",
+  "cutoff": "2026-09-22T00:58:47Z",
   "feed_count": 104,
-  "item_count": 311,
+  "item_count": 309,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.176.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.176.2",
+      "published": "2026-10-21T23:45:04Z",
+      "preview": "44.176.2 (2026-10-21) Bug Fixes deps: update renovate-base-image to v13.139.1 (main) ( #47282 ) ( bafa1fa )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v10.3.1 🌈 preserve cache error class names in save-cache bundle",
       "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.3.1",
@@ -187,14 +195,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.174.0",
       "published": "2026-10-21T05:46:49Z",
       "preview": "44.174.0 (2026-10-21) Features deps: update renovate-base-image to v13.137.0 (main) ( #47241 ) ( f9b9036 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.45.0 (main) ( #47240 ) ( da3366e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.173.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.173.1",
-      "published": "2026-10-21T03:44:47Z",
-      "preview": "44.173.1 (2026-10-21) Bug Fixes deps: update renovate-base-image to v13.136.1 (main) ( #47236 ) ( 5c2a683 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -2493,22 +2493,6 @@
       "preview": "Bug fixes: Update Meson wrap subprojects for projects that are normally taken from the host system: bubblewrap 0.12.0 (CVE-2026-87766) xdg-dbus-proxy 0.1.8 (CVE-2026-93676) Fix regressions in 1.18.2 when building apps/runtimes, especially on SELinux systems or when the runtime is not installed per-user ( #6818 ) Fix subsandbox startup ( flatpak-spawn ) when run from an app that was configured with --no-talk-name or --system-no-talk-name ( #6776 ) Fix a crash when a bundle is installed with explicit key bytes ( #6842 ) Documentation updates (code of conduct, contributor guidelines)",
       "source": "Flatpak releases",
       "category": "System"
-    },
-    {
-      "title": "Announcing a Maintainer in Residence: Scott Schafer for the Cargo team",
-      "url": "https://blog.rust-lang.org/2026/09/22/announcing-a-maintainer-in-residence-scott-schafer-for-the-cargo-team/",
-      "published": "2026-09-22T00:00:00Z",
-      "preview": "At the end of August, we announced our first Maintainers in Residence, Rust Project contributors who are funded for their upstream contributions and maintenance work from the Rust Foundation Maintainers Fund (RFMF). Since then, the Rust Leadership Council has dedicated more funds from its Project Priorities budget to RFMF, and together with AWS also providing additional funds, this allowed us to open a new full-time Maintainer in Residence (MiR) position to support the Cargo team. We would like to thank the Rust Leadership Council, AWS, and also the Rust Foundation for providing us with this o",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
-      "title": "pnpm 12.6",
-      "url": "https://pnpm.io/blog/releases/12.6",
-      "published": "2026-09-22T00:00:00Z",
-      "preview": "pnpm 12.6 ships with automatic dependency deduplication, relocatable node_modules, --save-types for installing @types/* packages alongside their counterparts, package.yaml manifest editing, and file: / link: protocols in catalogs.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
