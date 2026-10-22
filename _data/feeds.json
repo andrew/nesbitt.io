@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-22T16:33:55Z",
-  "cutoff": "2026-09-22T16:33:48Z",
+  "generated": "2026-10-22T17:27:47Z",
+  "cutoff": "2026-09-22T17:27:40Z",
   "feed_count": 104,
   "item_count": 313,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.178.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.178.1",
+      "published": "2026-10-22T17:25:22Z",
+      "preview": "44.178.1 (2026-10-22) Bug Fixes deps: update dependency github/gh-actions-lock to v0.3.0 (main) ( #47315 ) ( 985282b ) Miscellaneous Chores deps: update dependency uv to v0.13.5 (main) ( #47289 ) ( e6bb569 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.51.0 (main) ( #47312 ) ( dc9d8e5 ) deps: update vitest monorepo to v4.1.12 (main) ( #47310 ) ( e05ea0d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v0.83.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.83.0",
@@ -221,14 +229,6 @@
       "preview": "2.9.8 / 2026.10.21 fix(compile): check read permission for dynamically imported local files ( #36925 ) fix(completions): complete script paths for bare deno run in zsh ( #36976 ) fix(core): keep op contexts alive until the isolate is disposed ( #37026 ) fix(coverage): skip the V8 code cache while collecting coverage ( #36901 ) fix(ext/fetch): bump hyper-util to 0.1.21 and hyper to 1.11.1 to cancel idle interval when pool empties ( #36968 ) fix(ext/napi): check napi_create_dataview bounds for overflow ( #36962 ) fix(ext/napi): ignore the callback return value while an exception is pending ( #36",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.175.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.175.3",
-      "published": "2026-10-21T14:47:25Z",
-      "preview": "44.175.3 (2026-10-21) Bug Fixes workers/repository/lookup: warn when a tag is missing its v prefix ( #47155 ) ( b91f928 ) Documentation mend-hosted: Enterprise users can specify forkProcessing and onboardingNoDeps ( #47246 ) ( bd4ba3b ) Build System deps: update dependency node to v24.22.1 (main) ( #47264 ) ( 8ca0fec )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.13.2",
