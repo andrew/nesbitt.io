@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-22T21:27:41Z",
-  "cutoff": "2026-09-22T21:27:35Z",
+  "generated": "2026-10-22T22:26:28Z",
+  "cutoff": "2026-09-22T22:26:23Z",
   "feed_count": 104,
-  "item_count": 314,
+  "item_count": 315,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 11.28.8",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.8",
+      "published": "2026-10-22T22:08:54Z",
+      "preview": "Patch Changes The standalone @pnpm/exe builds now embed Node.js 26.12.1. The previously embedded Node.js 26.0.0 still trusted the certificate authority intermediates that Node.js distrusted in October 2026, so a standalone pnpm accepted TLS certificates issued under them. Platinum Sponsors Gold Sponsors",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "Bun v1.4.4",
+      "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.4",
+      "published": "2026-10-22T21:44:54Z",
+      "preview": "To install Bun v1.4.4 curl -fsSL https://bun.com/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.com/install.ps1|iex \" To upgrade to Bun v1.4.4: bun upgrade Read Bun v1.4.4's release notes on Bun's blog Thanks to 39 contributors! @0xh3x @1cedsoda @alex-mextner @alii @Artoria2e5 @bompus @C0casio45 @cirospaciari @davidhevn @deepshekhardas @Dex4Sure @dylan-conway @EffortlessSteven @eriklangille @filipesarturi @fredluz @gerardp @gohryt @himself65 @hughescr @Jarred-Sumner @jdjkelly @jecquas @jobansd @kernoeb @KilianB @MarshallOfSound @Neekoras @nikeee @nike",
+      "source": "Bun releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v10.34.8",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.8",
@@ -111,14 +127,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "Bun v1.4.4",
-      "url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.4",
-      "published": "2026-10-22T10:14:40Z",
-      "preview": "To install Bun v1.4.4 curl -fsSL https://bun.com/install | bash # or you can use npm # npm install -g bun Windows: powershell -c \" irm bun.com/install.ps1|iex \" To upgrade to Bun v1.4.4: bun upgrade Read Bun v1.4.4's release notes on Bun's blog Thanks to 39 contributors! @0xh3x @1cedsoda @alex-mextner @alii @Artoria2e5 @bompus @C0casio45 @cirospaciari @davidhevn @deepshekhardas @Dex4Sure @dylan-conway @EffortlessSteven @eriklangille @filipesarturi @fredluz @gerardp @gohryt @himself65 @hughescr @Jarred-Sumner @jdjkelly @jecquas @jobansd @kernoeb @KilianB @MarshallOfSound @Neekoras @nikeee @nike",
-      "source": "Bun releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v1.17.0",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0",
       "published": "2026-10-22T09:46:11Z",
@@ -196,6 +204,14 @@
       "published": "2026-10-22T00:58:24Z",
       "preview": "Fixes 271 issues, addressing 544 👍. bun fmt, a Prettier-compatible formatter built into Bun that is 3x to 6x faster than oxfmt, bun check is 1.4x to 7.8x faster on large projects, bun install migrates Yarn Berry lockfiles, retries with exponential backoff and closes 133 issues, up to 3.2x faster hoisted installs from a warm cache on Linux, bun pm fetch, bun publish --recursive, packageExtensions, Bun.SQL uses up to 48% less CPU per query, query.cancel(), COPY streams, column name transforms, user-defined functions and update hooks in bun:sqlite, ws rewritten to behave like npm ws on Node.js, w",
       "source": "Bun Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.28.8",
+      "url": "https://pnpm.io/blog/releases/11.28.8",
+      "published": "2026-10-22T00:00:00Z",
+      "preview": null,
+      "source": "pnpm Blog",
       "category": "JavaScript"
     },
     {
@@ -1340,14 +1356,6 @@
       "published": "2026-10-11T00:00:00Z",
       "preview": "This release adds OIDC authentication to pnpm dist-tag and the tool: protocol. pnpm publish now checks which registry an NPM_ID_TOKEN was issued for before using it.",
       "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12.12.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.12.0",
-      "published": "2026-10-10T19:52:45Z",
-      "preview": "This release shares task results and dependency builds through a remote cache, adds the addMissingPeerTypes setting, and lets pnpm add --config and pnpm update manage configuration dependencies. It also fixes dangerouslyAllowAllBuilds running the build scripts of packages that allowBuilds denies. Minor Changes pnpm pipeline can share task results between machines. A result is a signed artifact stored on a pnpr server or on a server that speaks the Turborepo Remote Cache API, such as Vercel Remote Cache. The remote side-effects cache can also store dependency builds on a Turborepo Remote Cache ",
-      "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
