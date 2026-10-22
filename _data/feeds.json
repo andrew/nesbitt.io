@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-22T15:31:46Z",
-  "cutoff": "2026-09-22T15:31:39Z",
+  "generated": "2026-10-22T16:33:55Z",
+  "cutoff": "2026-09-22T16:33:48Z",
   "feed_count": 104,
   "item_count": 313,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.83.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.83.0",
+      "published": "2026-10-22T16:17:15Z",
+      "preview": "[0.83.0] - 2026-10-22 ✨ Highlights Soon channels will be able to register virtual package detectors. These detectors allow to introduce virtual packages that Pixi doesn't know about. This Pixi release introduces support for virtual package detectors. It also fixes an increase in memory usage that 0.82.1 introduced. Features Ask before running detectors and show them in pixi info by @Hofer-Julian in #7129 Fixes run: Only detect the target environment's host up front by @Hofer-Julian in #7339 Documentation Add tombi integration page by @pavelzw in #7338",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.178.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.178.0",
@@ -1509,14 +1517,6 @@
       "preview": "Change-Id: Ic0b65cb1b99dfa414ec1c8b11360114db21b7530 Reviewed-on: https://go-review.googlesource.com/c/go/+/846986 Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-by: Michael Pratt mpratt@google.com",
       "source": "Go releases",
       "category": "Go"
-    },
-    {
-      "title": "pixi-build-cmake-v0.4.7",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.7",
-      "published": "2026-10-08T13:15:33Z",
-      "preview": "chore: bump backend versions ( #7206 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-mojo-v0.2.8",
