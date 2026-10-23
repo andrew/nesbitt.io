@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-23T12:39:52Z",
-  "cutoff": "2026-09-23T12:39:47Z",
+  "generated": "2026-10-23T13:30:49Z",
+  "cutoff": "2026-09-23T13:30:42Z",
   "feed_count": 104,
-  "item_count": 318,
+  "item_count": 317,
   "categories": [
     ".NET",
     "C/C++",
@@ -2555,14 +2555,6 @@
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta2",
       "published": "2026-09-23T15:48:24Z",
       "preview": "1.17.0-beta2 (September 23, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for ",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
-    },
-    {
-      "title": "v1.16.4",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.4",
-      "published": "2026-09-23T12:44:16Z",
-      "preview": "1.16.4 (September 23, 2026) BUG FIXES: Fixed an issue where Terraform fails when rendering policy evaluation outcomes for older versions of Terraform Enterprise ( #39095 ) stacks: Fix invalid deferred error triggered by provider returning a deferral when a resource also has an unknown count/for_each. ( #39237 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
     }
