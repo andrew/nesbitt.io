@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-23T02:39:32Z",
-  "cutoff": "2026-09-23T02:39:25Z",
+  "generated": "2026-10-23T03:36:03Z",
+  "cutoff": "2026-09-23T03:35:57Z",
   "feed_count": 104,
   "item_count": 316,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.178.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.178.5",
+      "published": "2026-10-23T02:44:48Z",
+      "preview": "44.178.5 (2026-10-23) Bug Fixes deps: update renovate-base-image to v13.140.2 (main) ( #47327 ) ( 002bfb5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.178.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.178.4",
@@ -261,14 +269,6 @@
       "preview": "Changes This release includes a fix so that multiple concurrent workflows trying to upload the same cache no longer warn ##[warning]Failed to save: Unable to reserve cache with key ..., another job may be creating this cache. 🐛 Bug fixes fix: preserve cache error class names in save-cache bundle @dannyward630 ( #1093 ) 🧰 Maintenance chore: update known checksums for 0.13.4 @ github-actions[bot] ( #1099 ) chore: update known checksums for 0.13.2/0.13.3 @ github-actions[bot] ( #1098 ) chore: update known checksums for 0.13.1 @ github-actions[bot] ( #1094 ) Verify npm dependency signatures before",
       "source": "setup-uv releases",
       "category": "Python"
-    },
-    {
-      "title": "44.176.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.176.1",
-      "published": "2026-10-21T19:59:52Z",
-      "preview": "44.176.1 (2026-10-21) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.49.0 (main) ( #47278 ) ( 2413b2b ) Build System deps: update markdown-it to v15.0.3 ( #47259 ) ( 1a242a8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.9.8",
