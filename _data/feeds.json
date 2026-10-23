@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-23T14:33:57Z",
-  "cutoff": "2026-09-23T14:33:52Z",
+  "generated": "2026-10-23T15:32:10Z",
+  "cutoff": "2026-09-23T15:32:05Z",
   "feed_count": 104,
-  "item_count": 318,
+  "item_count": 319,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.10.0",
+      "url": "https://github.com/mamba-org/mamba/releases/tag/2.10.0",
+      "published": "2026-10-23T15:25:23Z",
+      "preview": "What's Changed Fix xonsh support by @Hind-M in #4366 fix: Clear stale negative cache entries by @jjerphan in #4328 ci: Add win-arm64 static builds workflows by @jjerphan in #4357 fix: Escape MatchSpec quotes in env export --json --from-history by @jjerphan in #4376 fix: Correct extracted packages traversal when cleaning tarballs by @mikemhenry in #4353 Fix shell init with cmd.exe by @Hind-M in #4370 maint: Use cxx-compiler <2 by @jjerphan in #4381 fix: Bound HTTP header value parsing in the curl callback by @jjerphan in #4386 fix: Make macOS ad-hoc codesign spawn reliably by @jjerphan in #4387",
+      "source": "Mamba releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.181.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.0",
