@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-22T23:27:26Z",
-  "cutoff": "2026-09-22T23:27:20Z",
+  "generated": "2026-10-23T02:39:32Z",
+  "cutoff": "2026-09-23T02:39:25Z",
   "feed_count": 104,
   "item_count": 316,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.178.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.178.4",
+      "published": "2026-10-23T01:43:33Z",
+      "preview": "44.178.4 (2026-10-23) Bug Fixes deps: update renovate-base-image to v13.140.1 (main) ( #47326 ) ( 261f59e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.178.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.178.3",
@@ -259,14 +267,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.176.1",
       "published": "2026-10-21T19:59:52Z",
       "preview": "44.176.1 (2026-10-21) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.49.0 (main) ( #47278 ) ( 2413b2b ) Build System deps: update markdown-it to v15.0.3 ( #47259 ) ( 1a242a8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.176.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.176.0",
-      "published": "2026-10-21T18:38:56Z",
-      "preview": "44.176.0 (2026-10-21) Features deps: update renovate-base-image to v13.139.0 (main) ( #47275 ) ( 11db0f2 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.48.0 (main) ( #47272 ) ( 6924b7b ) deps: update github/codeql-action action to v4.39.1 (main) ( #47273 ) ( 43af5fa )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
