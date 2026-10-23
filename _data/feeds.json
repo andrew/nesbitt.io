@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-23T15:32:10Z",
-  "cutoff": "2026-09-23T15:32:05Z",
+  "generated": "2026-10-23T16:34:28Z",
+  "cutoff": "2026-09-23T16:34:21Z",
   "feed_count": 104,
   "item_count": 319,
   "categories": [
@@ -69,6 +69,14 @@
       "preview": "44.179.2 (2026-10-23) Bug Fixes config/validation: allow top-level custom manager config ( #47318 ) ( 596ab9a ), closes #47311 config/validation: always allow options which can be used anywhere ( #47319 ) ( b295e59 ), closes #47311 config/validation: improve nested/array parent option names in messages ( #47320 ) ( 5f1e110 ), closes #47311 deps: update renovate-base-image to v13.141.2 ( #47335 ) ( f14fee7 ) manager/gomod: allow modules with an older go directive ( #47317 ) ( 4086667 ), closes #47313 Documentation introduce \"buckets\" and \"audience\" labels ( #47020 ) ( 4caf57e ) Miscellaneous Ch",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "More than just numbers",
+      "url": "https://vlt.io/blog/more-than-just-numbers",
+      "published": "2026-10-23T10:00:00Z",
+      "preview": "Our benchmarks got a fresh look, better ways to explore performance, and a few new capabilities for agents. Here are some of our favourite improvements.",
+      "source": "vlt Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.179.1",
@@ -2565,14 +2573,6 @@
       "preview": "updates and bug fixes fix: Fixes Windows runner handling of sbt bsp by @stasimus in #9766 fix: Do not duplicate platform axes on a row by @kitbellew in #9757 fix: Warn on output declarations in uncached tasks by @anatoliykmetyuk in #9770 Allow adding rows and configuring them separately, and through any method by @kitbellew in #9765 fix: Update to Gigahorse 0.9.6 for pre-authentication by @eed3si9n in #9775 fix: Name taskValue in its compile-time diagnostic by @anatoliykmetyuk in #9779 ProjectMatrix: validate axes against autoScalaLibrary by @kitbellew in #9771 deps: Coursier 2.1.25 by @eed3si",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "v1.17.0-beta2",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-beta2",
-      "published": "2026-09-23T15:48:24Z",
-      "preview": "1.17.0-beta2 (September 23, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for ",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
     }
   ]
 }
