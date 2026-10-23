@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-23T13:30:49Z",
-  "cutoff": "2026-09-23T13:30:42Z",
+  "generated": "2026-10-23T14:33:57Z",
+  "cutoff": "2026-09-23T14:33:52Z",
   "feed_count": 104,
-  "item_count": 317,
+  "item_count": 318,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.181.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.0",
+      "published": "2026-10-23T14:21:05Z",
+      "preview": "44.181.0 (2026-10-23) Features deps: update renovate-base-image to v13.142.0 (main) ( #47343 ) ( a45ee25 ) Bug Fixes manager/npm: detect yarnZeroInstall from any upgrade on mixed branches ( #44886 ) ( 8dd4386 ) manager/npm: hash yarn.js for yarn berry corepack hash ( #46771 ) ( 0701e54 ) platform/gitlab: set branch status on merged results pipelines ( #47064 ) ( 419feea ) workers/branch: dedupe updatedArtifacts by path ( #46626 ) ( 1c61ebe ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.52.0 (main) ( #47342 ) ( 4022153 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2.6.0",
       "url": "https://github.com/hexpm/hex/releases/tag/v2.6.0",
@@ -183,6 +191,14 @@
       "category": "Infrastructure"
     },
     {
+      "title": "Hex v2.6 released",
+      "url": "https://hex.pm/blog/hex-v26-released",
+      "published": "2026-10-23T00:00:00Z",
+      "preview": "Hex 2.5 was about making it harder for a malicious or compromised release to reach your system, with security advisories in your terminal, a release-age cooldown and dependency policies. Hex 2.6 and hex.pm continue that work. Policy overrides can now accept a specific advisory, retirement reason or the cooldown for a package, and policies can check the packages already in mix.lock . Organizations can require two-factor authentication, and organization repositories use short-lived tokens instead of keys stored on your machine. Package builds are now reproducible, so you can check a release on h",
+      "source": "Hex Blog",
+      "category": "Elixir"
+    },
+    {
       "title": "44.178.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.178.3",
       "published": "2026-10-22T23:01:26Z",
@@ -261,14 +277,6 @@
       "preview": "[0.83.0] - 2026-10-22 ✨ Highlights Soon channels will be able to register virtual package detectors. These detectors allow to introduce virtual packages that Pixi doesn't know about. This Pixi release introduces support for virtual package detectors. It also fixes an increase in memory usage that 0.82.1 introduced. Features Ask before running detectors and show them in pixi info by @Hofer-Julian in #7129 Fixes run: Only detect the target environment's host up front by @Hofer-Julian in #7339 Documentation Add tombi integration page by @pavelzw in #7338",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.178.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.178.0",
-      "published": "2026-10-22T15:15:34Z",
-      "preview": "44.178.0 (2026-10-22) Features presets: add PHP2Shell security updates ( #47283 ) ( f911008 ) validate the containerbase image version on startup ( #47248 ) ( ef96e4d ) Miscellaneous Chores deps: update dependency pnpm to v11.28.6 (main) ( #47307 ) ( 53c30e1 ) util/exec: correct typo in constraints ( #47304 ) ( 1deb80e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.11.0-RC1",
