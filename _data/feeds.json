@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-23T09:33:23Z",
-  "cutoff": "2026-09-23T09:33:17Z",
+  "generated": "2026-10-23T10:29:53Z",
+  "cutoff": "2026-09-23T10:29:44Z",
   "feed_count": 104,
   "item_count": 317,
   "categories": [
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.179.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.179.1",
+      "published": "2026-10-23T09:52:17Z",
+      "preview": "44.179.1 (2026-10-23) Bug Fixes deps: update renovate-base-image to v13.141.1 (main) ( #47332 ) ( f847006 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.51.1 (main) ( #47331 ) ( 0377d27 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.10.18",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.18",
+      "published": "2026-10-23T09:33:44Z",
+      "preview": "(bootstrap) add run_windows to bootstrap hook tables by @jdx in…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.10.5",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.5",
+      "published": "2026-10-23T09:32:50Z",
+      "preview": "Release mise-oci 2026.10.5",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.10.5",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.5",
+      "published": "2026-10-23T09:32:37Z",
+      "preview": "Release mise-system 2026.10.5",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.18",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.18",
+      "published": "2026-10-23T09:32:23Z",
+      "preview": "Release vfox 2026.10.18",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.10.5",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.5",
+      "published": "2026-10-23T09:31:53Z",
+      "preview": "Release mise-system-packages 2026.10.5",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.10.5",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.5",
+      "published": "2026-10-23T09:31:39Z",
+      "preview": "Release mise-ui 2026.10.5",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.18",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.18",
+      "published": "2026-10-23T09:31:27Z",
+      "preview": "Release mise-util 2026.10.18",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.10.4",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.4",
+      "published": "2026-10-23T09:31:01Z",
+      "preview": "Release mise-sigstore 2026.10.4",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.18",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.18",
+      "published": "2026-10-23T09:30:50Z",
+      "preview": "Release mise-settings 2026.10.18",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-tls-v2026.10.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-tls-v2026.10.1",
+      "published": "2026-10-23T09:29:49Z",
+      "preview": "Release mise-tls 2026.10.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-21-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-21-a",
@@ -223,14 +311,6 @@
       "category": "Infrastructure as Code"
     },
     {
-      "title": "44.176.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.176.3",
-      "published": "2026-10-22T09:10:28Z",
-      "preview": "44.176.3 (2026-10-22) Bug Fixes config/validation: allow patterns for allowedValues of patternMatch options ( #47297 ) ( c11b614 ) dependency-dashboard: ignore dashboard checkboxes when mode=silent ( #47271 ) ( 8b2ff8b ) manager/github-actions: relock when regenerating actions.lock ( #47294 ) ( 64aa649 ), closes #47292",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "20261022t090000-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261022t090000-all",
       "published": "2026-10-22T09:01:13Z",
@@ -367,14 +447,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "v2026.10.17: Shell names in bootstrap login_shell, templated doctor checks, and a per-plugin vfox cache directory",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.17",
-      "published": "2026-10-21T01:41:46Z",
-      "preview": "bootstrap.user.login_shell now accepts a shell name such as fish instead of a full path. [doctor.checks] can use templates, and vfox backend plugins get their own cache directory. This release also fixes PATH handling in zsh setups that deduplicate PATH, stale task cache hits, a pipx interpreter mix-up on macOS, and removes trust in the compromised eMudhra CA certificates. It also includes the changes prepared for 2026.10.16, which was tagged but never published: relative and templated write_targets paths, version aliases from vfox backend plugins, keyring passwords for private PyPI indexes, v",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "Security updates for conda, Mamba, and Pixi",
       "url": "https://conda.org/blog/2026-10-21-emudhra-security-updates",
       "published": "2026-10-21T00:00:00Z",
@@ -413,38 +485,6 @@
       "preview": "What's Changed Discover and install DSC dynamically for CI tests by Aditya Patwardhan (@adityapatwardhan) in #2007 Implement unimplemented concurrency methods for all server classes by alerickson in #2012 Add concurrency for parent packages by alerickson in #2016 Pin GitHub Actions to full-length commit SHAs by Dan Fiedler (@danfiedler-msft) in #2023 Add PSContentPath Standard Platform Paths by Justin Chung (@jshigetomi) in #1912 fix: capture cmdlet warnings to prevent stdout contamination breaking DSC JSON parsing by Gijs Reijn (@Gijsreyn) in #2000 fix(repository:) Add input validation for Ge",
       "source": "PSResourceGet releases",
       "category": ".NET"
-    },
-    {
-      "title": "mise-system-v2026.10.4",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.4",
-      "published": "2026-10-20T21:53:59Z",
-      "preview": "Release mise-system 2026.10.4",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.10.17",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.17",
-      "published": "2026-10-20T21:53:45Z",
-      "preview": "Release vfox 2026.10.17",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.10.4",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.4",
-      "published": "2026-10-20T21:53:06Z",
-      "preview": "Release mise-ui 2026.10.4",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.17",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.17",
-      "published": "2026-10-20T21:52:53Z",
-      "preview": "Release mise-util 2026.10.17",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v29.9.2",
@@ -493,46 +533,6 @@
       "preview": "Deployment at 2026-10-20T11:20:19.810605Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.10.16",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.16",
-      "published": "2026-10-20T08:41:54Z",
-      "preview": "(config) resolve relative and templated write_targets paths by …",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.10.3",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.3",
-      "published": "2026-10-20T08:40:58Z",
-      "preview": "Release mise-system 2026.10.3",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.10.16",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.16",
-      "published": "2026-10-20T08:40:44Z",
-      "preview": "Release vfox 2026.10.16",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.10.3",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.3",
-      "published": "2026-10-20T08:39:58Z",
-      "preview": "Release mise-ui 2026.10.3",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.16",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.16",
-      "published": "2026-10-20T08:39:45Z",
-      "preview": "Release mise-util 2026.10.16",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v1.5.0",
