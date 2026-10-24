@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-24T00:58:26Z",
-  "cutoff": "2026-09-24T00:58:21Z",
+  "generated": "2026-10-24T02:36:17Z",
+  "cutoff": "2026-09-24T02:36:13Z",
   "feed_count": 104,
-  "item_count": 316,
+  "item_count": 315,
   "categories": [
     ".NET",
     "C/C++",
@@ -2541,14 +2541,6 @@
       "preview": "Explore the JavaScript ecosystem without an account, and publish packages from your own registry for anyone to install.",
       "source": "vlt Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "v2.15.3-rc2",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.3-rc2",
-      "published": "2026-09-24T02:35:40Z",
-      "preview": "What's Changed Component updates ⬆️ (cherry-pick) fix: avoid panic in user audit event resolver on nil event data ( #23461 ) by @Aloui-Ikram in #23501 (cherry-pick) fix: Constrain /registries/ping to the saved URL for existing registries ( #23463 ) by @Aloui-Ikram in #23502 (cherry-pick) Add a size limit for manifest uploads by @Aloui-Ikram in #23503 cherry-pick: fix(ui): use dark login background in dark mode by @bupd in #23539 ci: remove third-party docker action by @stonezdj in #23693 (cherry-pick) neutralize CSV formula in scan export by @stonezdj in #23696 (cherry-pick): prevent proxy-cac",
-      "source": "Harbor releases",
-      "category": "Containers"
     }
   ]
 }
