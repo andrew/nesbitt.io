@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-22T19:29:12Z",
-  "total_posts": 224,
-  "total_words": 311716,
-  "reading_minutes": 1559,
-  "average_words": 1392,
+  "generated_at": "2026-10-24T09:12:29Z",
+  "total_posts": 225,
+  "total_words": 312993,
+  "reading_minutes": 1565,
+  "average_words": 1391,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "Trust Stores Are Dependencies Too",
-    "url": "/2026/10/21/trust-stores-are-dependencies-too.html",
-    "date": "2026-10-21"
+    "title": "One Small Bug",
+    "url": "/2026/10/23/one-small-bug.html",
+    "date": "2026-10-23"
   },
   "years_active": 9.7,
   "posts_per_month": 1.9,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 184
+      "count": 185
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-10",
-      "count": 7
+      "count": 8
     },
     {
       "month": "2026-09",
@@ -128,7 +128,7 @@
     "tuesday": 37,
     "wednesday": 25,
     "thursday": 41,
-    "friday": 36,
+    "friday": 37,
     "saturday": 40
   },
   "tags": [
@@ -138,7 +138,7 @@
     },
     {
       "name": "security",
-      "count": 56
+      "count": 57
     },
     {
       "name": "open-source",
@@ -149,11 +149,11 @@
       "count": 33
     },
     {
-      "name": "deep-dive",
-      "count": 28
+      "name": "satire",
+      "count": 29
     },
     {
-      "name": "satire",
+      "name": "deep-dive",
       "count": 28
     },
     {
@@ -165,15 +165,15 @@
       "count": 22
     },
     {
+      "name": "ai",
+      "count": 21
+    },
+    {
       "name": "git",
       "count": 21
     },
     {
       "name": "dependencies",
-      "count": 20
-    },
-    {
-      "name": "ai",
       "count": 20
     },
     {
@@ -201,15 +201,15 @@
       "count": 8
     },
     {
-      "name": "registries",
-      "count": 7
-    },
-    {
       "name": "npm",
       "count": 7
     },
     {
-      "name": "sbom",
+      "name": "registries",
+      "count": 7
+    },
+    {
+      "name": "history",
       "count": 6
     },
     {
@@ -217,7 +217,7 @@
       "count": 6
     },
     {
-      "name": "history",
+      "name": "sbom",
       "count": 6
     },
     {
@@ -229,11 +229,11 @@
       "count": 5
     },
     {
-      "name": "ruby",
+      "name": "research",
       "count": 5
     },
     {
-      "name": "research",
+      "name": "ruby",
       "count": 5
     },
     {
@@ -245,15 +245,23 @@
       "count": 3
     },
     {
-      "name": "docker",
-      "count": 3
-    },
-    {
       "name": "rust",
       "count": 3
     },
     {
+      "name": "docker",
+      "count": 3
+    },
+    {
       "name": "versioning",
+      "count": 2
+    },
+    {
+      "name": "oci",
+      "count": 2
+    },
+    {
+      "name": "policy",
       "count": 2
     },
     {
@@ -266,14 +274,6 @@
     },
     {
       "name": "postgres",
-      "count": 2
-    },
-    {
-      "name": "policy",
-      "count": 2
-    },
-    {
-      "name": "oci",
       "count": 2
     },
     {
@@ -1046,6 +1046,15 @@
       ]
     },
     {
+      "url": "/2026/02/03/incident-report-cve-2024-yikes.html",
+      "title": "Incident Report: CVE-2024-YIKES",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/06/26/incident-report-cve-2026-lgtm.html",
+        "/2026/10/23/one-small-bug.html"
+      ]
+    },
+    {
       "url": "/2026/02/12/the-many-flavors-of-ignore-files.html",
       "title": "The Many Flavors of Ignore Files",
       "inbound_count": 2,
@@ -1284,14 +1293,6 @@
       ]
     },
     {
-      "url": "/2026/02/03/incident-report-cve-2024-yikes.html",
-      "title": "Incident Report: CVE-2024-YIKES",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/06/26/incident-report-cve-2026-lgtm.html"
-      ]
-    },
-    {
       "url": "/2026/02/06/cratesio-freaky-friday.html",
       "title": "Crates.io's Freaky Friday",
       "inbound_count": 1,
@@ -1476,6 +1477,14 @@
       ]
     },
     {
+      "url": "/2026/06/26/incident-report-cve-2026-lgtm.html",
+      "title": "Incident Report: CVE-2026-LGTM",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/10/23/one-small-bug.html"
+      ]
+    },
+    {
       "url": "/2026/06/30/taking-roads-and-bridges-literally.html",
       "title": "Taking Roads and Bridges literally",
       "inbound_count": 1,
@@ -1546,16 +1555,32 @@
       "inbound_from": [
         "/2026/09/19/this-week-in-package-management.html"
       ]
+    },
+    {
+      "url": "/2026/10/03/this-week-in-package-management.html",
+      "title": "This Week in Package Management: 3 October 2026",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/10/23/one-small-bug.html"
+      ]
+    },
+    {
+      "url": "/2026/10/21/trust-stores-are-dependencies-too.html",
+      "title": "Trust Stores Are Dependencies Too",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/10/23/one-small-bug.html"
+      ]
     }
   ],
   "external_links": {
-    "total": 5482,
-    "unique": 4362,
+    "total": 5509,
+    "unique": 4368,
     "domains": [
       {
         "host": "github.com",
-        "count": 1728,
-        "posts": 166
+        "count": 1731,
+        "posts": 167
       },
       {
         "host": "en.wikipedia.org",
@@ -1575,7 +1600,7 @@
       {
         "host": "pnpm.io",
         "count": 46,
-        "posts": 31
+        "posts": 32
       },
       {
         "host": "fosdem.org",
@@ -1615,7 +1640,7 @@
       {
         "host": "blog.rust-lang.org",
         "count": 26,
-        "posts": 21
+        "posts": 22
       },
       {
         "host": "learn.microsoft.com",
@@ -1625,7 +1650,7 @@
       {
         "host": "blog.rubygems.org",
         "count": 24,
-        "posts": 20
+        "posts": 21
       },
       {
         "host": "changelog.com",
@@ -1730,7 +1755,7 @@
       {
         "host": "www.theregister.com",
         "count": 11,
-        "posts": 5
+        "posts": 6
       },
       {
         "host": "www.youtube.com",
@@ -1900,7 +1925,7 @@
       {
         "host": "docs.zizmor.sh",
         "count": 7,
-        "posts": 11
+        "posts": 12
       },
       {
         "host": "gist.github.com",
@@ -1940,7 +1965,7 @@
       {
         "host": "blog.yossarian.net",
         "count": 6,
-        "posts": 9
+        "posts": 10
       },
       {
         "host": "bun.sh",
@@ -2035,7 +2060,7 @@
       {
         "host": "devblogs.microsoft.com",
         "count": 5,
-        "posts": 6
+        "posts": 7
       },
       {
         "host": "docs.deno.com",
@@ -2095,7 +2120,7 @@
       {
         "host": "thephp.foundation",
         "count": 5,
-        "posts": 6
+        "posts": 7
       },
       {
         "host": "theupdateframework.io",
@@ -2240,7 +2265,7 @@
       {
         "host": "nx.dev",
         "count": 4,
-        "posts": 8
+        "posts": 9
       },
       {
         "host": "podcast.sustainoss.org",
@@ -2840,7 +2865,7 @@
       {
         "host": "lists.archlinux.org",
         "count": 2,
-        "posts": 4
+        "posts": 5
       },
       {
         "host": "lists.debian.org",
@@ -3066,6 +3091,11 @@
         "host": "vcpkg.io",
         "count": 2,
         "posts": 3
+      },
+      {
+        "host": "venturebeat.com",
+        "count": 2,
+        "posts": 2
       },
       {
         "host": "wiki.alpinelinux.org",
@@ -4065,7 +4095,7 @@
       {
         "host": "emudhra.we-have-a-problem.com",
         "count": 1,
-        "posts": 1
+        "posts": 2
       },
       {
         "host": "en.opensuse.org",
@@ -4460,7 +4490,7 @@
       {
         "host": "ioctl.fail",
         "count": 1,
-        "posts": 3
+        "posts": 4
       },
       {
         "host": "iscinumpy.dev",
@@ -5178,6 +5208,11 @@
         "posts": 1
       },
       {
+        "host": "research.jfrog.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "restic.net",
         "count": 1,
         "posts": 1
@@ -5608,11 +5643,6 @@
         "posts": 1
       },
       {
-        "host": "venturebeat.com",
-        "count": 1,
-        "posts": 1
-      },
-      {
         "host": "vercel.com",
         "count": 1,
         "posts": 1
@@ -5709,6 +5739,11 @@
       },
       {
         "host": "wiki.xxiivv.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "wiz.io",
         "count": 1,
         "posts": 1
       },
