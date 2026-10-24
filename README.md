@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [One Small Bug](https://nesbitt.io/2026/10/23/one-small-bug.html)
 - [Trust Stores Are Dependencies Too](https://nesbitt.io/2026/10/21/trust-stores-are-dependencies-too.html)
 - [This Week in Package Management: 17 October 2026](https://nesbitt.io/2026/10/17/this-week-in-package-management.html)
 - [Now That’s What I Call Technical Debt!](https://nesbitt.io/2026/10/12/now-thats-what-i-call-technical-debt.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [Software Heritage Identifiers](https://nesbitt.io/2026/10/01/software-heritage-identifiers.html)
 - [This Week in Package Management: 26 September 2026](https://nesbitt.io/2026/09/26/this-week-in-package-management.html)
 - [Package Manager Sandboxing](https://nesbitt.io/2026/09/24/package-manager-sandboxing.html)
-- [Package Manager Threat Model, Revisited](https://nesbitt.io/2026/09/22/package-manager-threat-model-revisited.html)
 <!-- POSTS:END -->
