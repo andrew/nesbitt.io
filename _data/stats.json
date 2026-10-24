@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-24T09:12:29Z",
-  "total_posts": 225,
-  "total_words": 312993,
-  "reading_minutes": 1565,
-  "average_words": 1391,
+  "generated_at": "2026-10-24T11:05:16Z",
+  "total_posts": 226,
+  "total_words": 315115,
+  "reading_minutes": 1576,
+  "average_words": 1394,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "One Small Bug",
-    "url": "/2026/10/23/one-small-bug.html",
-    "date": "2026-10-23"
+    "title": "This Week in Package Management: 24 October 2026",
+    "url": "/2026/10/24/this-week-in-package-management.html",
+    "date": "2026-10-24"
   },
   "years_active": 9.7,
   "posts_per_month": 1.9,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 185
+      "count": 186
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-10",
-      "count": 8
+      "count": 9
     },
     {
       "month": "2026-09",
@@ -129,12 +129,12 @@
     "wednesday": 25,
     "thursday": 41,
     "friday": 37,
-    "saturday": 40
+    "saturday": 41
   },
   "tags": [
     {
       "name": "package-managers",
-      "count": 153
+      "count": 154
     },
     {
       "name": "security",
@@ -157,12 +157,12 @@
       "count": 28
     },
     {
-      "name": "supply-chain",
+      "name": "weekly",
       "count": 23
     },
     {
-      "name": "weekly",
-      "count": 22
+      "name": "supply-chain",
+      "count": 23
     },
     {
       "name": "ai",
@@ -1181,6 +1181,15 @@
       ]
     },
     {
+      "url": "/2026/10/21/trust-stores-are-dependencies-too.html",
+      "title": "Trust Stores Are Dependencies Too",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/10/23/one-small-bug.html",
+        "/2026/10/24/this-week-in-package-management.html"
+      ]
+    },
+    {
       "url": "/2017/02/24/exploring-unseen-open-source-infrastructure.html",
       "title": "Exploring Unseen Open Source Infrastructure",
       "inbound_count": 1,
@@ -1563,24 +1572,16 @@
       "inbound_from": [
         "/2026/10/23/one-small-bug.html"
       ]
-    },
-    {
-      "url": "/2026/10/21/trust-stores-are-dependencies-too.html",
-      "title": "Trust Stores Are Dependencies Too",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/10/23/one-small-bug.html"
-      ]
     }
   ],
   "external_links": {
-    "total": 5509,
-    "unique": 4368,
+    "total": 5609,
+    "unique": 4460,
     "domains": [
       {
         "host": "github.com",
-        "count": 1731,
-        "posts": 167
+        "count": 1783,
+        "posts": 168
       },
       {
         "host": "en.wikipedia.org",
@@ -1589,8 +1590,8 @@
       },
       {
         "host": "arxiv.org",
-        "count": 63,
-        "posts": 37
+        "count": 66,
+        "posts": 38
       },
       {
         "host": "nvd.nist.gov",
@@ -1599,6 +1600,11 @@
       },
       {
         "host": "pnpm.io",
+        "count": 48,
+        "posts": 33
+      },
+      {
+        "host": "github.blog",
         "count": 46,
         "posts": 32
       },
@@ -1610,11 +1616,6 @@
       {
         "host": "peps.python.org",
         "count": 43,
-        "posts": 31
-      },
-      {
-        "host": "github.blog",
-        "count": 42,
         "posts": 31
       },
       {
@@ -1633,14 +1634,14 @@
         "posts": 28
       },
       {
+        "host": "blog.rust-lang.org",
+        "count": 27,
+        "posts": 23
+      },
+      {
         "host": "docs.npmjs.com",
         "count": 27,
         "posts": 24
-      },
-      {
-        "host": "blog.rust-lang.org",
-        "count": 26,
-        "posts": 22
       },
       {
         "host": "learn.microsoft.com",
@@ -1718,6 +1719,11 @@
         "posts": 2
       },
       {
+        "host": "fzakaria.com",
+        "count": 12,
+        "posts": 8
+      },
+      {
         "host": "snyk.io",
         "count": 12,
         "posts": 12
@@ -1793,6 +1799,11 @@
         "posts": 12
       },
       {
+        "host": "hex.pm",
+        "count": 10,
+        "posts": 10
+      },
+      {
         "host": "openssfcdeu2026.sched.com",
         "count": 10,
         "posts": 1
@@ -1806,6 +1817,11 @@
         "host": "pip.pypa.io",
         "count": 10,
         "posts": 8
+      },
+      {
+        "host": "socket.dev",
+        "count": 10,
+        "posts": 12
       },
       {
         "host": "yarnpkg.com",
@@ -1823,19 +1839,14 @@
         "posts": 6
       },
       {
-        "host": "fzakaria.com",
-        "count": 9,
-        "posts": 7
-      },
-      {
         "host": "mastodon.social",
         "count": 9,
-        "posts": 48
+        "posts": 49
       },
       {
-        "host": "socket.dev",
+        "host": "salsa.debian.org",
         "count": 9,
-        "posts": 11
+        "posts": 6
       },
       {
         "host": "www.debian.org",
@@ -1858,6 +1869,11 @@
         "posts": 11
       },
       {
+        "host": "bun.com",
+        "count": 8,
+        "posts": 8
+      },
+      {
         "host": "codeberg.org",
         "count": 8,
         "posts": 8
@@ -1878,9 +1894,9 @@
         "posts": 9
       },
       {
-        "host": "hex.pm",
+        "host": "docs.zizmor.sh",
         "count": 8,
-        "posts": 9
+        "posts": 13
       },
       {
         "host": "openssf.org",
@@ -1893,11 +1909,6 @@
         "posts": 9
       },
       {
-        "host": "salsa.debian.org",
-        "count": 8,
-        "posts": 5
-      },
-      {
         "host": "sethmlarson.dev",
         "count": 8,
         "posts": 9
@@ -1908,9 +1919,9 @@
         "posts": 8
       },
       {
-        "host": "bun.com",
+        "host": "discuss.python.org",
         "count": 7,
-        "posts": 7
+        "posts": 6
       },
       {
         "host": "dl.acm.org",
@@ -1921,11 +1932,6 @@
         "host": "docs.astral.sh",
         "count": 7,
         "posts": 6
-      },
-      {
-        "host": "docs.zizmor.sh",
-        "count": 7,
-        "posts": 12
       },
       {
         "host": "gist.github.com",
@@ -1963,6 +1969,11 @@
         "posts": 5
       },
       {
+        "host": "blog.python.org",
+        "count": 6,
+        "posts": 4
+      },
+      {
         "host": "blog.yossarian.net",
         "count": 6,
         "posts": 10
@@ -1976,11 +1987,6 @@
         "host": "diffoscope.org",
         "count": 6,
         "posts": 7
-      },
-      {
-        "host": "discuss.python.org",
-        "count": 6,
-        "posts": 5
       },
       {
         "host": "fastwonderblog.com",
@@ -2003,6 +2009,11 @@
         "posts": 11
       },
       {
+        "host": "metacpan.org",
+        "count": 6,
+        "posts": 5
+      },
+      {
         "host": "packaging.python.org",
         "count": 6,
         "posts": 5
@@ -2021,6 +2032,11 @@
         "host": "tea.xyz",
         "count": 6,
         "posts": 3
+      },
+      {
+        "host": "thephp.foundation",
+        "count": 6,
+        "posts": 8
       },
       {
         "host": "wiki.archlinux.org",
@@ -2043,6 +2059,11 @@
         "posts": 1
       },
       {
+        "host": "www.ruby-lang.org",
+        "count": 6,
+        "posts": 4
+      },
+      {
         "host": "andre.arko.net",
         "count": 5,
         "posts": 4
@@ -2053,9 +2074,9 @@
         "posts": 10
       },
       {
-        "host": "blog.python.org",
+        "host": "conda.org",
         "count": 5,
-        "posts": 3
+        "posts": 5
       },
       {
         "host": "devblogs.microsoft.com",
@@ -2064,6 +2085,11 @@
       },
       {
         "host": "docs.deno.com",
+        "count": 5,
+        "posts": 5
+      },
+      {
+        "host": "docs.docker.com",
         "count": 5,
         "posts": 5
       },
@@ -2081,11 +2107,6 @@
         "host": "helm.sh",
         "count": 5,
         "posts": 6
-      },
-      {
-        "host": "metacpan.org",
-        "count": 5,
-        "posts": 4
       },
       {
         "host": "mikemcquaid.com",
@@ -2118,14 +2139,14 @@
         "posts": 2
       },
       {
-        "host": "thephp.foundation",
-        "count": 5,
-        "posts": 7
-      },
-      {
         "host": "theupdateframework.io",
         "count": 5,
         "posts": 5
+      },
+      {
+        "host": "vlt.io",
+        "count": 5,
+        "posts": 3
       },
       {
         "host": "wiki.gentoo.org",
@@ -2134,11 +2155,6 @@
       },
       {
         "host": "www.anthropic.com",
-        "count": 5,
-        "posts": 3
-      },
-      {
-        "host": "www.ruby-lang.org",
         "count": 5,
         "posts": 3
       },
@@ -2183,14 +2199,14 @@
         "posts": 2
       },
       {
-        "host": "conda.org",
+        "host": "cran.r-project.org",
         "count": 4,
         "posts": 4
       },
       {
-        "host": "cran.r-project.org",
+        "host": "curl.se",
         "count": 4,
-        "posts": 4
+        "posts": 2
       },
       {
         "host": "developer.apple.com",
@@ -2211,11 +2227,6 @@
         "host": "docs.conda.io",
         "count": 4,
         "posts": 5
-      },
-      {
-        "host": "docs.docker.com",
-        "count": 4,
-        "posts": 4
       },
       {
         "host": "docs.gitlab.com",
@@ -2268,6 +2279,11 @@
         "posts": 9
       },
       {
+        "host": "openjdk.org",
+        "count": 4,
+        "posts": 4
+      },
+      {
         "host": "podcast.sustainoss.org",
         "count": 4,
         "posts": 4
@@ -2286,11 +2302,6 @@
         "host": "vlad.website",
         "count": 4,
         "posts": 4
-      },
-      {
-        "host": "vlt.io",
-        "count": 4,
-        "posts": 2
       },
       {
         "host": "www.gnu.org",
@@ -2343,11 +2354,6 @@
         "posts": 3
       },
       {
-        "host": "curl.se",
-        "count": 3,
-        "posts": 1
-      },
-      {
         "host": "cwe.mitre.org",
         "count": 3,
         "posts": 3
@@ -2393,6 +2399,16 @@
         "posts": 1
       },
       {
+        "host": "groups.google.com",
+        "count": 3,
+        "posts": 3
+      },
+      {
+        "host": "infosec.exchange",
+        "count": 3,
+        "posts": 3
+      },
+      {
         "host": "keepachangelog.com",
         "count": 3,
         "posts": 3
@@ -2409,11 +2425,6 @@
       },
       {
         "host": "news.ycombinator.com",
-        "count": 3,
-        "posts": 3
-      },
-      {
-        "host": "openjdk.org",
         "count": 3,
         "posts": 3
       },
@@ -2521,6 +2532,11 @@
         "host": "www.enisa.europa.eu",
         "count": 3,
         "posts": 3
+      },
+      {
+        "host": "www.helpnetsecurity.com",
+        "count": 3,
+        "posts": 2
       },
       {
         "host": "www.linkedin.com",
@@ -2738,6 +2754,11 @@
         "posts": 3
       },
       {
+        "host": "emudhra.we-have-a-problem.com",
+        "count": 2,
+        "posts": 3
+      },
+      {
         "host": "engineering.fb.com",
         "count": 2,
         "posts": 4
@@ -2783,17 +2804,17 @@
         "posts": 1
       },
       {
+        "host": "gitroot.dev",
+        "count": 2,
+        "posts": 2
+      },
+      {
         "host": "gittuf.dev",
         "count": 2,
         "posts": 3
       },
       {
         "host": "goharbor.io",
-        "count": 2,
-        "posts": 2
-      },
-      {
-        "host": "groups.google.com",
         "count": 2,
         "posts": 2
       },
@@ -2811,11 +2832,6 @@
         "host": "in-toto.io",
         "count": 2,
         "posts": 4
-      },
-      {
-        "host": "infosec.exchange",
-        "count": 2,
-        "posts": 2
       },
       {
         "host": "jacobtomlinson.dev",
@@ -3035,7 +3051,7 @@
       {
         "host": "social.treehouse.systems",
         "count": 2,
-        "posts": 2
+        "posts": 3
       },
       {
         "host": "sourceforge.net",
@@ -3463,6 +3479,11 @@
         "posts": 1
       },
       {
+        "host": "blog.sentry.io",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "blog.sigstore.dev",
         "count": 1,
         "posts": 1
@@ -3584,6 +3605,11 @@
       },
       {
         "host": "ccadb.my.salesforce-sites.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "certifi.hexdocs.pm",
         "count": 1,
         "posts": 1
       },
@@ -3759,6 +3785,11 @@
       },
       {
         "host": "cwiki.apache.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "cyberscoop.com",
         "count": 1,
         "posts": 1
       },
@@ -4093,11 +4124,6 @@
         "posts": 1
       },
       {
-        "host": "emudhra.we-have-a-problem.com",
-        "count": 1,
-        "posts": 2
-      },
-      {
         "host": "en.opensuse.org",
         "count": 1,
         "posts": 1
@@ -4299,11 +4325,6 @@
       },
       {
         "host": "gitopia.com",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "gitroot.dev",
         "count": 1,
         "posts": 1
       },
@@ -5003,6 +5024,11 @@
         "posts": 1
       },
       {
+        "host": "phpc.social",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "pip-tools.readthedocs.io",
         "count": 1,
         "posts": 1
@@ -5049,6 +5075,11 @@
       },
       {
         "host": "plugins.jetbrains.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "po-ru.com",
         "count": 1,
         "posts": 1
       },
@@ -6044,11 +6075,6 @@
       },
       {
         "host": "www.haskellforall.com",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "www.helpnetsecurity.com",
         "count": 1,
         "posts": 1
       },
