@@ -7,6 +7,7 @@ tags:
   - security
   - ai
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3myme22u2e32u"
 ---
 
 <div class="transcript" markdown="1">
