@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-24T21:26:45Z",
-  "cutoff": "2026-09-24T21:26:40Z",
+  "generated": "2026-10-24T22:26:44Z",
+  "cutoff": "2026-09-24T22:26:25Z",
   "feed_count": 104,
   "item_count": 311,
   "categories": [
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.181.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.5",
+      "published": "2026-10-24T21:43:52Z",
+      "preview": "44.181.5 (2026-10-24) Bug Fixes deps: update renovate-base-image to v13.142.5 (main) ( #47367 ) ( d58ffdb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "verdaccio-auth-memory@14.0.0-next-9.40",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.40",
+      "published": "2026-10-24T21:40:27Z",
+      "preview": "chore: update versions (next-9) ( #6407 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-htpasswd@14.0.0-next-9.40",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.40",
+      "published": "2026-10-24T21:40:27Z",
+      "preview": "chore: update versions (next-9) ( #6407 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-memory@14.0.0-next-9.40",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.40",
+      "published": "2026-10-24T21:40:27Z",
+      "preview": "chore: update versions (next-9) ( #6407 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "v2026.10.19: Security hardening across trust, installs and provenance; lockfiles now rebuilt completely by default",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.19",
@@ -119,14 +151,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "verdaccio-audit@14.0.0-next-9.39",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.39",
-      "published": "2026-10-24T15:31:32Z",
-      "preview": "chore: update versions (next-9) ( #6403 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "verdaccio-auth-memory@14.0.0-next-9.39",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.39",
       "published": "2026-10-24T15:31:32Z",
@@ -183,14 +207,6 @@
       "category": "Registries"
     },
     {
-      "title": "verdaccio-auth-memory@14.0.0-next-9.38",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.38",
-      "published": "2026-10-24T08:44:33Z",
-      "preview": "chore: update versions (next-9) ( #6396 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "verdaccio-htpasswd@14.0.0-next-9.38",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.38",
       "published": "2026-10-24T08:44:33Z",
@@ -203,14 +219,6 @@
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.38",
       "published": "2026-10-24T08:44:33Z",
       "preview": "chore: update versions (next-9) ( #6396 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-auth-memory@14.0.0-next-9.37",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.37",
-      "published": "2026-10-24T07:19:34Z",
-      "preview": "chore: update versions (next-9) ( #6369 )",
       "source": "Verdaccio releases",
       "category": "JavaScript"
     },
@@ -333,14 +341,6 @@
       "preview": "PyPI now rejects new uploads whose version is longer than 128 characters . This affects almost no one: across the roughly 9.9 million releases on PyPI, only 2 have a version that long. Releases that are already on PyPI stay exactly as they are, and installing them works the same as before. Why add a limit? The rules for Python version numbers have never set a maximum length. Nearly every project uses short, ordinary versions. Half of all releases on PyPI have a version of 5 characters or fewer, like 1.4.2 , and 99% have 20 characters or fewer. The longest one on PyPI today is 217 characters. V",
       "source": "PyPI Blog",
       "category": "Python"
-    },
-    {
-      "title": "44.178.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.178.5",
-      "published": "2026-10-23T02:44:48Z",
-      "preview": "44.178.5 (2026-10-23) Bug Fixes deps: update renovate-base-image to v13.140.2 (main) ( #47327 ) ( 002bfb5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Hex v2.6 released",
