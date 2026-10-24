@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-24T10:27:32Z",
-  "cutoff": "2026-09-24T10:27:25Z",
+  "generated": "2026-10-24T13:26:35Z",
+  "cutoff": "2026-09-24T13:26:29Z",
   "feed_count": 104,
   "item_count": 314,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-24T13:00:26Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-22-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-22-a",
@@ -389,14 +397,6 @@
       "preview": "Composer 2.11 is ready for a release, and we need your help to test it and report any regression. Please try it out! Running composer self-update --preview will get you the 2.11.0-RC1 Running composer self-update --stable will get you back on the latest 2.10 stable release if anything broke. Report any issues you encounter as a new issue specifying you tried the 2.11 RC and please include stack traces & repro details. Full Changelog BC Break: Removed the source-fallback config option which was added in 2.10 as a temporary measure, dist installs no longer fall back to source ( #13050 ) Security",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-22T10:43:43Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v1.17.0",
