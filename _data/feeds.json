@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-24T13:26:35Z",
-  "cutoff": "2026-09-24T13:26:29Z",
+  "generated": "2026-10-24T14:27:06Z",
+  "cutoff": "2026-09-24T14:26:54Z",
   "feed_count": 104,
   "item_count": 314,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.181.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.2",
+      "published": "2026-10-24T13:50:20Z",
+      "preview": "44.181.2 (2026-10-24) Bug Fixes deps: update dependency mkdocs-material to v9.8.0 (main) ( #47364 ) ( 01d7fb8 ) deps: update renovate-base-image to v13.142.3 (main) ( #47363 ) ( 7fc75ac ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.23 (main) ( #47358 ) ( 4c3c233 ) deps: update dependency @ls-lint/ls-lint to v2.3.2 (main) ( #47359 ) ( c11332b ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.52.4 (main) ( #47361 ) ( c4c70ad ) deps: update jdx/mise-action action to v5.2.3 (main) ( #47362 ) ( 070bc2b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -333,14 +341,6 @@
       "preview": "What's Changed feat: Proxy and cache Go toolchain downloads (go.dev/dl) under /dl/ by @benoit-nexthop in #2164 Support cached @latest in offline and fallback modes by @matt0x6F in #2173 update-go-pkg: bump Go to 1.26.9 and golang.org/x/net to v0.60.0 by @phoenixsbk in #2176 update-go-pkg: bump Go to 1.26.10 by @kinbiko in #2178 New Contributors @benoit-nexthop made their first contribution in #2164 Full Changelog : v0.19.0...v0.20.0",
       "source": "Athens releases",
       "category": "Go"
-    },
-    {
-      "title": "44.178.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.178.2",
-      "published": "2026-10-22T22:42:41Z",
-      "preview": "44.178.2 (2026-10-22) Build System deps: update dependency @opentelemetry/resource-detector-github to v0.33.0 (main) ( #47323 ) ( 2ffb4cb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 11.28.8",
