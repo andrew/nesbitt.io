@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-24T22:26:44Z",
-  "cutoff": "2026-09-24T22:26:25Z",
+  "generated": "2026-10-24T23:24:56Z",
+  "cutoff": "2026-09-24T23:24:52Z",
   "feed_count": 104,
-  "item_count": 311,
+  "item_count": 310,
   "categories": [
     ".NET",
     "C/C++",
@@ -2501,14 +2501,6 @@
       "preview": "pnpm 12.7 lets the global node shim follow .nvmrc and .node-version, adds pnpm install --allow-build and pnpm publish --publish-wait-timeout, and creates pnpm-workspace.yaml from the workspaces field of package.json. pnpm install --force no longer installs optional dependencies built for other...",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "Maven 4.0.0-rc-7",
-      "url": "https://github.com/apache/maven/releases/tag/maven-4.0.0-rc-7",
-      "published": "2026-09-24T22:50:32Z",
-      "preview": "This release candidate is expected to be the last before the Maven 4.0.0 GA release, which we aim to publish in the coming weeks, pending community feedback. 🚀 New features and improvements Log API enhancements and mojo MDC ( #12690 ) @gnodet Optimize reactor sort and phase comparator performance ( #12901 ) @gnodet Add AsyncDrainWriter to eliminate PrintWriter lock contention ( #12892 ) @gnodet Add validation for Plexus-based plugin dependency injection ( #12649 ) @slawekjaranowski 🔧 Maintenance Externalize default lifecycle plugin versions to POM properties ( #13137 ) @gnodet 🐛 Bug Fixes Impr",
-      "source": "Maven releases",
-      "category": "Maven"
     }
   ]
 }
