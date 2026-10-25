@@ -2,7 +2,7 @@
 layout: post
 title: "This Week in Source Control: 28 October 2026"
 date: 2026-10-28 10:00 +0000
-description: "Releases, advisories, and articles from across version control and code forges"
+description: "Releases, advisories, and articles from across version control and forges"
 tags:
   - git
   - weekly
