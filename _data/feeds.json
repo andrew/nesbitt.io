@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-25T14:27:16Z",
-  "cutoff": "2026-09-25T14:27:10Z",
+  "generated": "2026-10-25T16:29:07Z",
+  "cutoff": "2026-09-25T16:29:00Z",
   "feed_count": 104,
   "item_count": 307,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.181.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.6",
+      "published": "2026-10-25T15:55:18Z",
+      "preview": "44.181.6 (2026-10-25) Bug Fixes deps: update renovate-base-image to v13.142.6 (main) ( #47380 ) ( 635e70e ) Miscellaneous Chores deps: update dependency knip to v6.42.0 (main) ( #47381 ) ( d298a62 ) deps: update pnpm/setup action to v3.1.2 (main) ( #47371 ) ( 5a6fb72 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "@verdaccio/tarball@14.0.0-next-9.41",
       "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4014.0.0-next-9.41",
@@ -319,14 +327,6 @@
       "category": "Registries"
     },
     {
-      "title": "44.179.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.179.0",
-      "published": "2026-10-23T08:45:47Z",
-      "preview": "44.179.0 (2026-10-23) Features deps: update renovate-base-image to v13.141.0 (main) ( #47330 ) ( e7abaf4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2.14.6",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.6",
       "published": "2026-10-23T07:08:20Z",
@@ -346,7 +346,7 @@
       "title": "PyPI now limits versions to 128 characters",
       "url": "https://blog.pypi.org/posts/2026-10-23-version-length-limit/",
       "published": "2026-10-23T06:09:00Z",
-      "preview": "PyPI now rejects new uploads whose version is longer than 128 characters . This affects almost no one: across the roughly 9.9 million releases on PyPI, only 2 have a version that long. Releases that are already on PyPI stay exactly as they are, and installing them works the same as before. Why add a limit? The rules for Python version numbers have never set a maximum length. Nearly every project uses short, ordinary versions. Half of all releases on PyPI have a version of 5 characters or fewer, like 1.4.2 , and 99% have 20 characters or fewer. The longest one on PyPI today is 217 characters. V",
+      "preview": "PyPI now rejects new uploads whose version is longer than 128 characters . This affects almost no one: across the roughly 9.9 million releases on PyPI, only 2 have a version that long. Releases that are already on PyPI stay exactly as they are, and installing them works the same as before. Why add a limit? &para; The rules for Python version numbers have never set a maximum length. Nearly every project uses short, ordinary versions. Half of all releases on PyPI have a version of 5 characters or fewer, like 1.4.2 , and 99% have 20 characters or fewer. The longest one on PyPI today is 217 charac",
       "source": "PyPI Blog",
       "category": "Python"
     },
@@ -914,7 +914,7 @@
       "title": "Checking email reputation, and allowing Outlook again",
       "url": "https://blog.pypi.org/posts/2026-10-16-email-reputation-and-outlook/",
       "published": "2026-10-16T06:09:00Z",
-      "preview": "PyPI improves on checks for the reputation of an email address when used to register an account or add to an existing account, and rejects addresses identified as disposable. With the new check in place, outlook.com and hotmail.com addresses can once again be used on PyPI. Background In June 2024 we prohibited Outlook email domains after a malware campaign registered accounts in bulk with outlook.com and hotmail.com addresses. Until now, PyPI has blocked disposable email addresses with two lists: the public disposable-email-domains list, and our own internal list of prohibited domains. Both ar",
+      "preview": "PyPI improves on checks for the reputation of an email address when used to register an account or add to an existing account, and rejects addresses identified as disposable. With the new check in place, outlook.com and hotmail.com addresses can once again be used on PyPI. Background &para; In June 2024 we prohibited Outlook email domains after a malware campaign registered accounts in bulk with outlook.com and hotmail.com addresses. Until now, PyPI has blocked disposable email addresses with two lists: the public disposable-email-domains list, and our own internal list of prohibited domains. ",
       "source": "PyPI Blog",
       "category": "Python"
     },
@@ -1218,7 +1218,7 @@
       "title": "PyPI's developer documentation has moved to dev.pypi.org",
       "url": "https://blog.pypi.org/posts/2026-10-14-dev-docs-move-to-dev-pypi-org/",
       "published": "2026-10-14T06:09:00Z",
-      "preview": "The developer documentation for Warehouse , the codebase that powers PyPI, has moved from warehouse.pypa.io to dev.pypi.org . Existing links to warehouse.pypa.io will keep working: every page now redirects to the same page on dev.pypi.org . Why the move? PyPI's other sites already live under pypi.org : user documentation at docs.pypi.org , and this blog at blog.pypi.org . The developer documentation was the odd one out. Moving it to dev.pypi.org puts all of PyPI's sites under one domain. What's on dev.pypi.org? The same content that was on warehouse.pypa.io , aimed at people working on warehou",
+      "preview": "The developer documentation for Warehouse , the codebase that powers PyPI, has moved from warehouse.pypa.io to dev.pypi.org . Existing links to warehouse.pypa.io will keep working: every page now redirects to the same page on dev.pypi.org . Why the move? &para; PyPI's other sites already live under pypi.org : user documentation at docs.pypi.org , and this blog at blog.pypi.org . The developer documentation was the odd one out. Moving it to dev.pypi.org puts all of PyPI's sites under one domain. What's on dev.pypi.org? &para; The same content that was on warehouse.pypa.io , aimed at people work",
       "source": "PyPI Blog",
       "category": "Python"
     },
