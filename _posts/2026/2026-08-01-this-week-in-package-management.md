@@ -6,6 +6,7 @@ description: "Releases, advisories, and articles from across the package managem
 tags:
   - package-managers
   - weekly
+  - twipm
 at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mrzaytapv52b"
 ---
 
