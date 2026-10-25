@@ -1,0 +1,50 @@
+{%- assign series_posts = site.posts | where_exp: "post", "post.tags contains include.tag" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ page.title }}",
+  "description": "{{ page.description }}",
+  "url": "{{ page.url | absolute_url }}",
+  "isPartOf": {
+    "@type": "Blog",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ series_posts.size }},
+    "itemListElement": [
+      {%- for post in series_posts -%}
+      {
+        "@type": "ListItem",
+        "position": {{ forloop.index }},
+        "url": "{{ post.url | absolute_url }}"
+      }{%- unless forloop.last -%},{%- endunless -%}
+      {%- endfor -%}
+    ]
+  }
+}
+</script>
+
+{%- assign posts_by_month = series_posts | group_by_exp: "post", "post.date | date: '%B %Y'" -%}
+{%- for month in posts_by_month -%}
+<h3>{{ month.name }}</h3>
+<section class="posts">
+  {%- for post in month.items -%}
+  {%- comment -%}Section names and outbound link count, read from the rendered post.{%- endcomment -%}
+  {%- assign sections = "" -%}
+  {%- assign parts = post.content | split: "<h2" -%}
+  {%- for part in parts offset: 1 -%}
+    {%- assign heading = part | split: "</h2>" | first | split: ">" | last | strip -%}
+    {%- assign sections = sections | append: heading | append: "|" -%}
+  {%- endfor -%}
+  {%- assign sections = sections | split: "|" | join: ", " -%}
+  {%- assign link_count = post.content | split: 'href="http' | size | minus: 1 -%}
+  <div class="post-item">
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.date | date: "%-d %B" }}</a>
+    <span class="post-description"> · {{ link_count }} links{% if sections != "" %}: {{ sections }}{% endif %}</span>
+  </div>
+  {%- endfor -%}
+</section>
+{%- endfor -%}
