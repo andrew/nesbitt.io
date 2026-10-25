@@ -20,9 +20,11 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Shlomi Ben-Haim** - JFrog co-founder, Artifactory.
 
-**Tobias Bieniek** - crates.io lead maintainer.
+**Gábor Bernát** - tox, virtualenv, pipx author and maintainer.
 
 **Ian Bicking** - pip, virtualenv (2007-2008).
+
+**Tobias Bieniek** - crates.io lead maintainer.
 
 **Jordi Boggiano & Nils Adermann** - Composer (2011). Also run Packagist.
 
@@ -36,13 +38,13 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Matthias Clasen** - Flatpak.
 
-**Duncan Coutts** - cabal-install, Haskell solver.
-
 **Nick Coghlan** - Python packaging PEPs, PyPA governance.
 
 **Daniel Compton** - Clojars maintainer.
 
 **Ludovic Courtès** - GNU Guix (2012). Co-maintains GNU Guile.
+
+**Duncan Coutts** - cabal-install, Haskell solver.
 
 **Russ Cox** - Go modules, minimum version selection. Version SAT proof.
 
@@ -58,27 +60,27 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Eelco Dolstra** - Nix (2003-2006).
 
-**Ernest W. Durbin III** - PyPI infrastructure.
-
 **Eloy Durán & Fabio Pelosin** - CocoaPods (2011).
+
+**Ernest W. Durbin III** - PyPI infrastructure.
 
 **John Ericson** - Nix contributor.
 
 **Sébastien Eustace** - Poetry (2018).
 
-**Brian Fox** - Sonatype co-founder, Maven Central, Nexus Repository.
-
 **Fabrice Fontaine** - Buildroot.
 
 **Chad Fowler, Jim Weirich, David Alan Black, Paul Brannan, Richard Kilmer** - RubyGems (2004).
 
-**Kale Franz** - conda.
+**Brian Fox** - Sonatype co-founder, Maven Central, Nexus Repository.
 
-**Samuel Giddins** - Bundler, Molinillo resolver, RubyGems.org.
+**Kale Franz** - conda.
 
 **Todd Gamblin** - Spack (2013).
 
 **Pradyun Gedam** - pip maintainer.
+
+**Samuel Giddins** - Bundler, Molinillo resolver, RubyGems.org.
 
 **Jason Gunthorpe** - APT (1998).
 
@@ -100,9 +102,11 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Ian Jackson** - Rewrote dpkg in C (1994).
 
+**Stefan Karpinski** - Julia package manager.
+
 **Yehuda Katz & Carl Lerche** - Bundler (2010), Cargo (2014).
 
-**Stefan Karpinski** - Julia package manager.
+**Andrew Kelley** - Zig package manager.
 
 **Robert Kern** - conda co-creator.
 
@@ -110,9 +114,9 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Domen Kožar** - Cachix, Nix ecosystem tooling.
 
-**Alex Larsson** - Flatpak (2015).
-
 **Seth Larson** - PSF Security Developer-in-Residence. SBOMs, dependency cooldowns.
+
+**Alex Larsson** - Flatpak (2015).
 
 **Xavier Leroy** - OPAM co-creator, OCaml.
 
@@ -138,11 +142,13 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Jack Nagel** - Homebrew.
 
-**Maël Nison** - Yarn (2016), Yarn Berry.
-
 **Carol Nichols** - crates.io, Rust community.
 
+**Maël Nison** - Yarn (2016), Yarn Berry.
+
 **Bob Nystrom** - pub, Dart package tooling.
+
+**Philippe Ombredanne** - Package URL (PURL).
 
 **Billy O'Neal** - vcpkg.
 
@@ -168,13 +174,13 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Jordan Rose** - Swift Package Manager.
 
-**Ilan Schnell** - conda (2012).
-
-**Hiroshi Shibata** - Ruby core, RubyGems/Bundler maintainer.
-
 **Isaac Schlueter** - npm (2010).
 
+**Ilan Schnell** - conda (2012).
+
 **Robert Schumacher** - vcpkg.
+
+**Hiroshi Shibata** - Ruby core, RubyGems/Bundler maintainer.
 
 **C.J. Silverio** - Former npm CTO. "Economics of package management" talk.
 
@@ -194,19 +200,19 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **José Valim** - Mix, Hex (2012).
 
+**Jason van Zyl** - Maven (2002).
+
 **Judd Vinet** - pacman (2002).
 
-**Laurie Voss** - npm co-founder.
-
-**Peter Wang** - Anaconda co-founder.
-
-**Jason van Zyl** - Maven (2002).
+**Michael Vogt** - APT developer, unattended-upgrades.
 
 **Patrick Volkerding** - Slackware, pkgtool (1993).
 
 **Wolf Vollprecht** - mamba (2019), pixi.
 
-**Michael Vogt** - APT developer, unattended-upgrades.
+**Laurie Voss** - npm co-founder.
+
+**Peter Wang** - Anaconda co-founder.
 
 **Brian Warner** - TUF contributor, Tahoe-LAFS.
 
@@ -226,8 +232,6 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Benoit Baudry** - KTH. Software diversity, supply chain, build reproducibility.
 
-**Daniel Le Berre** - SAT4J solver, dependency resolution research.
-
 **Justin Cappos** - NYU. Created TUF, now used by Docker, PyPI, Rubygems. Advisor to Kuppusamy, Torres-Arias, Samuel.
 
 **Eleni Constantinou** - Eindhoven. Software ecosystem health, dependency network fragility.
@@ -246,13 +250,15 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Joseph Hejderup** - Präzi, call-graph dependency analysis.
 
-**Raula Gaikovina Kula** - NAIST. Library migration, developer update behavior.
-
 **Miryung Kim** - UCLA. Library and API evolution, migration studies.
+
+**Raula Gaikovina Kula** - NAIST. Library migration, developer update behavior.
 
 **Trishank Kuppusamy** - TUF co-designer. Diplomat, Mercury, Uptane.
 
 **Chris Lamb** - Reproducible Builds, former Debian Project Leader.
+
+**Daniel Le Berre** - SAT4J solver, dependency resolution research.
 
 **Tom Mens** - University of Mons. Ecosystem evolution, "technical lag" metric.
 
@@ -260,9 +266,9 @@ People who built, maintain, or research package managers. Tool creators, registr
 
 **Martin Monperrus** - KTH. Supply chain security, SBOMs, breaking changes.
 
-**Henrik Plate** - SAP Security Research. Supply chain attack taxonomies.
-
 **Donald Pinckney** - npm-follower dataset, Max-SMT dependency solving.
+
+**Henrik Plate** - SAP Security Research. Supply chain attack taxonomies.
 
 **Santiago Torres-Arias** - Purdue. Created in-toto.
 
