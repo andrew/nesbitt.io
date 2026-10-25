@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-25T12:36:44Z",
-  "cutoff": "2026-09-25T12:36:38Z",
+  "generated": "2026-10-25T14:27:16Z",
+  "cutoff": "2026-09-25T14:27:10Z",
   "feed_count": 104,
   "item_count": 307,
   "categories": [
@@ -23,18 +23,82 @@
   ],
   "items": [
     {
-      "title": "v7.0.0",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0",
-      "published": "2026-10-25T11:55:51Z",
-      "preview": "Major Changes d33944c : Verdaccio 7.0.0 is the first stable release of the 7.x line. It is published to npm as latest and to Docker Hub as verdaccio/verdaccio:7 , 7.0 and latest ; the 6.x line continues under the latest-6 npm dist-tag and the 6 image tag. The release post is at https://verdaccio.org/blog/2026/10/25/verdaccio-7-release , the migration guide at https://verdaccio.org/blog/2026/09/27/verdaccio-6-to-7-migration , and the complete tracker with every pull request and backport at #5680 . Highlights Staged publishing (experimental, flags.stage , npm 11.17 or newer): a pipeline uploads ",
+      "title": "@verdaccio/tarball@14.0.0-next-9.41",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4014.0.0-next-9.41",
+      "published": "2026-10-25T14:14:24Z",
+      "preview": "chore: update versions (next-9) ( #6420 )",
       "source": "Verdaccio releases",
       "category": "JavaScript"
     },
     {
-      "title": "v7.0.0-next-7.32",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.0-next-7.32",
-      "published": "2026-10-25T09:51:35Z",
-      "preview": "Patch Changes e404c82 : Updates the runtime dependencies express to 5.3.0 and semver to 7.8.5, and moves body-parser (used by Express to read request bodies) to 2.4.0. body-parser 2.4.0 fixes a denial of service where trailing bytes after a compressed request body could keep the server busy ( GHSA-27r3-jxmh-p828 ). Transitive dependencies with published advisories ( fast-uri , qs , ip-address ) are also moved to their patched releases. None of these change any API: no configuration or plugin changes are needed. The rest of the changes in this release only affect the development toolchain and t",
+      "title": "@verdaccio/test-helper@5.0.0-next-9.42",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%405.0.0-next-9.42",
+      "published": "2026-10-25T14:14:24Z",
+      "preview": "chore: update versions (next-9) ( #6420 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/ui-theme@9.0.0-next-9.41",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.41",
+      "published": "2026-10-25T14:14:24Z",
+      "preview": "chore: update versions (next-9) ( #6420 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/url@14.0.0-next-9.41",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.41",
+      "published": "2026-10-25T14:14:24Z",
+      "preview": "chore: update versions (next-9) ( #6420 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/web@9.0.0-next-9.41",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.41",
+      "published": "2026-10-25T14:14:24Z",
+      "preview": "chore: update versions (next-9) ( #6420 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-audit@14.0.0-next-9.41",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.41",
+      "published": "2026-10-25T14:14:24Z",
+      "preview": "chore: update versions (next-9) ( #6420 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-auth-memory@14.0.0-next-9.41",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.41",
+      "published": "2026-10-25T14:14:24Z",
+      "preview": "chore: update versions (next-9) ( #6420 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-htpasswd@14.0.0-next-9.41",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.41",
+      "published": "2026-10-25T14:14:24Z",
+      "preview": "chore: update versions (next-9) ( #6420 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-memory@14.0.0-next-9.41",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.41",
+      "published": "2026-10-25T14:14:24Z",
+      "preview": "chore: update versions (next-9) ( #6420 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio@9.0.0-next-9.41",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.41",
+      "published": "2026-10-25T14:14:24Z",
+      "preview": "chore: update versions (next-9) ( #6420 )",
       "source": "Verdaccio releases",
       "category": "JavaScript"
     },
@@ -53,22 +117,6 @@
       "preview": "44.181.5 (2026-10-24) Bug Fixes deps: update renovate-base-image to v13.142.5 (main) ( #47367 ) ( d58ffdb )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "verdaccio-htpasswd@14.0.0-next-9.40",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.40",
-      "published": "2026-10-24T21:40:27Z",
-      "preview": "chore: update versions (next-9) ( #6407 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-memory@14.0.0-next-9.40",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.40",
-      "published": "2026-10-24T21:40:27Z",
-      "preview": "chore: update versions (next-9) ( #6407 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "v2026.10.19: Security hardening across trust, installs and provenance; lockfiles now rebuilt completely by default",
@@ -167,22 +215,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "verdaccio-htpasswd@14.0.0-next-9.39",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.39",
-      "published": "2026-10-24T15:31:32Z",
-      "preview": "chore: update versions (next-9) ( #6403 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-memory@14.0.0-next-9.39",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.39",
-      "published": "2026-10-24T15:31:32Z",
-      "preview": "chore: update versions (next-9) ( #6403 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "44.181.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.3",
       "published": "2026-10-24T14:59:41Z",
@@ -213,38 +245,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-22-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "verdaccio-htpasswd@14.0.0-next-9.38",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.38",
-      "published": "2026-10-24T08:44:33Z",
-      "preview": "chore: update versions (next-9) ( #6396 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-memory@14.0.0-next-9.38",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.38",
-      "published": "2026-10-24T08:44:33Z",
-      "preview": "chore: update versions (next-9) ( #6396 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-htpasswd@14.0.0-next-9.37",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.37",
-      "published": "2026-10-24T07:19:34Z",
-      "preview": "chore: update versions (next-9) ( #6369 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-memory@14.0.0-next-9.37",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.37",
-      "published": "2026-10-24T07:19:34Z",
-      "preview": "chore: update versions (next-9) ( #6369 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "44.181.1",
