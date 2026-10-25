@@ -21,6 +21,16 @@ namespace :twipm do
   end
 end
 
+namespace :twisc do
+  desc "Write _twisc/collected.json from VCS/forge feeds + Hacker News (default 7 days)"
+  task :collect, [:days] do |t, args|
+    days = args[:days] || "7"
+    Bundler.with_unbundled_env do
+      sh({ "BUNDLE_GEMFILE" => "_twipm/Gemfile" }, "bundle", "exec", "ruby", "_twisc/collect.rb", "--days", days)
+    end
+  end
+end
+
 desc "Fetch all OPML feeds and write _data/feeds.json (default 30 days)"
 task :feeds, [:days] do |t, args|
   days = args[:days] || "30"
@@ -478,6 +488,7 @@ task :test do
   sh "bundle exec ruby test/post_layout_test.rb"
   sh "bundle exec ruby test/raw_markdown_test.rb"
   sh "bundle exec ruby test/feed_fetch_test.rb"
+  sh "bundle exec ruby test/hn_test.rb"
   sh "bundle exec ruby test/cwe_build_test.rb"
   sh "node test/cwe_page_test.mjs"
   sh "zizmor .github/workflows/"
