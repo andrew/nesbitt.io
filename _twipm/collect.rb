@@ -7,14 +7,13 @@ require "optparse"
 require "net/http"
 require "uri"
 require_relative "feed_fetch"
+require_relative "mastodon"
 
 ROOT = File.expand_path("..", __dir__)
 TWIPM = File.join(ROOT, "_twipm")
 FEEDS_JSON = File.join(ROOT, "_data/feeds.json")
 EXTRA_FEEDS = File.join(TWIPM, "extra_feeds.txt")
 OUTPUT = File.join(TWIPM, "collected.json")
-MASTODON_INSTANCE = "https://mastodon.social"
-MASTODON_ACCT = "andrewnez"
 GIT_PKGS_ORG = "git-pkgs"
 DBLP_TERMS = ["package manager", "software supply chain", "dependency confusion", "typosquatting"]
 DBLP_SEEN = File.join(TWIPM, "dblp_seen.txt")
@@ -55,49 +54,6 @@ def collapse_releases(items)
       }]
     end
   end.sort_by { |i| i[:published] }.reverse
-end
-
-def mastodon_get(path)
-  uri = URI.join(MASTODON_INSTANCE, path)
-  req = Net::HTTP::Get.new(uri)
-  req["User-Agent"] = "nesbitt.io twipm collector"
-  res = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) { |h| h.request(req) }
-  res.is_a?(Net::HTTPSuccess) ? JSON.parse(res.body) : nil
-end
-
-def collect_mastodon_boosts(since)
-  account = mastodon_get("/api/v1/accounts/lookup?acct=#{MASTODON_ACCT}")
-  return [] unless account
-
-  results = []
-  max_id = nil
-  5.times do
-    q = "limit=40&exclude_replies=true"
-    q += "&max_id=#{max_id}" if max_id
-    page = mastodon_get("/api/v1/accounts/#{account["id"]}/statuses?#{q}")
-    break if page.nil? || page.empty?
-    page.each do |s|
-      created = Time.parse(s["created_at"])
-      return results if created < since
-      r = s["reblog"] or next
-      next if r.dig("account", "acct") == MASTODON_ACCT
-      links = r["content"].scan(/href="([^"]+)"/).flatten.reject { |u| u.include?("/tags/") || u.include?("/@") }
-      results << {
-        title: "boost: @#{r.dig("account", "acct")}",
-        url: r["url"],
-        published: created.utc.iso8601,
-        source: "Mastodon boosts",
-        category: "Mastodon",
-        preview: FeedFetch.strip_html(r["content"])[0, 400],
-        links: links
-      }
-    end
-    max_id = page.last["id"]
-  end
-  results
-rescue => e
-  warn "mastodon boosts skipped: #{e.message}"
-  []
 end
 
 def octokit
@@ -223,7 +179,7 @@ warn "Fetching #{extra_feeds.size} extra feeds..." unless extra_feeds.empty?
 extra_results, _ok = FeedFetch.fetch_feeds(extra_feeds)
 extra_items = extra_results.reject { |i| i[:published] < since }.map { |i| i.merge(published: i[:published].iso8601) }
 
-feed_items = opml_items + extra_items + collect_mastodon_boosts(since)
+feed_items = opml_items + extra_items + Mastodon.boosts(since)
 collapsed = collapse_releases(feed_items)
 
 git_pkgs = collect_git_pkgs_releases(since)
