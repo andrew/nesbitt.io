@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-25T18:32:44Z",
-  "cutoff": "2026-09-25T18:32:23Z",
+  "generated": "2026-10-25T19:24:12Z",
+  "cutoff": "2026-09-25T19:23:59Z",
   "feed_count": 104,
   "item_count": 307,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-25T18:39:49Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "pnpm 10.34.8",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v10.34.8",
@@ -253,14 +261,6 @@
       "preview": "44.181.2 (2026-10-24) Bug Fixes deps: update dependency mkdocs-material to v9.8.0 (main) ( #47364 ) ( 01d7fb8 ) deps: update renovate-base-image to v13.142.3 (main) ( #47363 ) ( 7fc75ac ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.23 (main) ( #47358 ) ( 4c3c233 ) deps: update dependency @ls-lint/ls-lint to v2.3.2 (main) ( #47359 ) ( c11332b ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.52.4 (main) ( #47361 ) ( c4c70ad ) deps: update jdx/mise-action action to v5.2.3 (main) ( #47362 ) ( 070bc2b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-24T13:00:26Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-22-a",
