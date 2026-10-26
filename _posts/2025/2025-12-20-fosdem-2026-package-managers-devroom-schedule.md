@@ -48,7 +48,7 @@ Matthew argues that reproducible builds aren't enough if you don't understand wh
 Philippe traces Package-URL's journey from its FOSDEM 2018 debut to becoming an international standard for referencing packages across ecosystems. PURL now appears in CVE formats for vulnerability tracking and is used by security tools, SCA platforms, and package registries for SBOM and VEX generation.
 
 ### [Binary Dependencies: Identifying the Hidden Packages We All Depend On](https://fosdem.org/2026/schedule/event/7NQJNU-binary_dependencies_identifying_the_hidden_packages_we_all_depend_on/)
-*Vlad-Stefan Harbuz / 13:15-13:25*
+*Vlad Miricioiu / 13:15-13:25*
 
 Vlad tackles a gap in package management: while source dependencies are well documented, binary dependencies like numpy's reliance on OpenBLAS binaries remain invisible. He proposes a global index of binary dependencies using a linker that tracks symbols across the open source ecosystem.
 

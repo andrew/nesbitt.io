@@ -40,7 +40,7 @@ Matthew Suozzo gave [Trust Nothing, Trace Everything: Auditing Package Builds at
 
 Philippe Ombredanne returned with [PURL: From FOSDEM 2018 to international standard](https://fosdem.org/2026/schedule/event/P8AAT3-purl/). Package-URL was [first presented at FOSDEM](https://archive.fosdem.org/2018/schedule/event/purl/) eight years ago and has now become an international standard for referencing packages across ecosystems. Ombredanne highlighted PURL's adoption in CVE format, security tools, and SCA platforms, and its journey from community project to Ecma standard with plans for ISO standardization.
 
-Vlad-Stefan Harbuz spoke about [Binary Dependencies: Identifying the Hidden Packages We All Depend On](https://fosdem.org/2026/schedule/event/7NQJNU-binary_dependencies_identifying_the_hidden_packages_we_all_depend_on/), examining dependencies that don't appear in standard package manager manifests. Related: [the C-shaped hole in package management](/2026/01/27/the-c-shaped-hole-in-package-management.html).
+Vlad Miricioiu spoke about [Binary Dependencies: Identifying the Hidden Packages We All Depend On](https://fosdem.org/2026/schedule/event/7NQJNU-binary_dependencies_identifying_the_hidden_packages_we_all_depend_on/), examining dependencies that don't appear in standard package manager manifests. Related: [the C-shaped hole in package management](/2026/01/27/the-c-shaped-hole-in-package-management.html).
 
 Michael Winser discussed [The terrible economics of package registries and how to fix them](https://fosdem.org/2026/schedule/event/8WJKEH-package-registry-economics/), looking at the sustainability challenges facing package registry infrastructure.
 

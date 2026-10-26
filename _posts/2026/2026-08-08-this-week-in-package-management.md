@@ -63,7 +63,7 @@ npm has [restricted 2FA-bypass granular access tokens](https://github.blog/chang
 
 ## Elsewhere
 
-The [Software Stewardship Lab](https://stewardshiplab.org/) launched on Thursday, a non-profit applied research lab for open source sustainability that I'm a director of. I've [written it up separately](/2026/08/07/the-software-stewardship-lab), and there's a [Sustain podcast episode](https://podcast.sustainoss.org/292) with executive director Vlad-Stefan Harbuz.
+The [Software Stewardship Lab](https://stewardshiplab.org/) launched on Thursday, a non-profit applied research lab for open source sustainability that I'm a director of. I've [written it up separately](/2026/08/07/the-software-stewardship-lab), and there's a [Sustain podcast episode](https://podcast.sustainoss.org/292) with executive director Vlad Miricioiu.
 
 The Nixpkgs core team [has disbanded](https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413). Its two members cite workload incompatible with continued technical contribution and friction with the Steering Committee, which now takes over the team's responsibilities directly.
 

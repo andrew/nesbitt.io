@@ -10,7 +10,7 @@ tags:
 at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mskmzavr3p2h"
 ---
 
-The [Software Stewardship Lab](https://stewardshiplab.org/) launches today, a Scottish non-profit set up to do applied research on the open source ecosystem, and I'm one of its directors. [Vlad-Stefan Harbuz](https://vlad.website), who runs the [Open Source Pledge](https://opensourcepledge.com/), is the executive director and did the bulk of the work getting it incorporated.
+The [Software Stewardship Lab](https://stewardshiplab.org/) launches today, a Scottish non-profit set up to do applied research on the open source ecosystem, and I'm one of its directors. [Vlad Miricioiu](https://vlad.website), who runs the [Open Source Pledge](https://opensourcepledge.com/), is the executive director and did the bulk of the work getting it incorporated.
 
 I've been trying to do this kind of research for about a decade, starting with [Libraries.io](https://libraries.io) in 2015 as a side project indexing every package registry I could find, which was acquired when the hosting bills outgrew what I could cover on my own. [ecosyste.ms](https://ecosyste.ms) is the second attempt at the same idea, kept running by a sequence of grants and contracts that each cover a year or two of server costs, with most of my own time on it either unpaid or subsidised by other contracting work.
 

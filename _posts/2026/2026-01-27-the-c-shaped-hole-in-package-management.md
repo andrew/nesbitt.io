@@ -39,7 +39,7 @@ Containers solved the deployment side of this. As I [wrote previously](/2025/12/
 
 ### Phantom dependencies
 
-Endor Labs coined the term "phantom dependencies" for this: dependencies bundled into packages but not represented in metadata. Vlad Harbuz covers [how binary dependencies actually work](https://vlad.website/how-binary-dependencies-work) at the technical level. Seth Larson, Security Developer-in-Residence at the Python Software Foundation, has been [working on solutions](https://www.youtube.com/watch?v=zIE8QW4vx2A) involving standards and tooling.
+Endor Labs coined the term "phantom dependencies" for this: dependencies bundled into packages but not represented in metadata. Vlad Miricioiu covers [how binary dependencies actually work](https://vlad.website/how-binary-dependencies-work) at the technical level. Seth Larson, Security Developer-in-Residence at the Python Software Foundation, has been [working on solutions](https://www.youtube.com/watch?v=zIE8QW4vx2A) involving standards and tooling.
 
 NumPy depends heavily on OpenBLAS, but that dependency doesn't appear in its package metadata. The wheel bundles a compiled libopenblas.so.0 inside the package, invisible to pip and invisible to any tool that only looks at Python dependency information. If you want to know what NumPy actually depends on, you need tools like `nm` or `readelf` to inspect the binary symbols. The [pypackaging-native](https://pypackaging-native.github.io/key-issues/native-dependencies/) project documents this problem thoroughly: "The key problems are (1) not being able to express dependencies in metadata, and (2) the design of Python packaging and the wheel spec forcing vendoring dependencies."
 

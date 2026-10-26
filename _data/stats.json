@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-25T14:12:38Z",
-  "total_posts": 226,
-  "total_words": 315133,
-  "reading_minutes": 1576,
-  "average_words": 1394,
+  "generated_at": "2026-10-26T10:21:43Z",
+  "total_posts": 227,
+  "total_words": 315511,
+  "reading_minutes": 1578,
+  "average_words": 1390,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "This Week in Package Management: 24 October 2026",
-    "url": "/2026/10/24/this-week-in-package-management.html",
-    "date": "2026-10-24"
+    "title": "Package Management Devroom at FOSDEM 2027: Call for Participation",
+    "url": "/2026/10/26/package-management-devroom-at-fosdem-2027-call-for-participation.html",
+    "date": "2026-10-26"
   },
   "years_active": 9.7,
   "posts_per_month": 1.9,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 186
+      "count": 187
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-10",
-      "count": 9
+      "count": 10
     },
     {
       "month": "2026-09",
@@ -124,7 +124,7 @@
   ],
   "posts_by_day_of_week": {
     "sunday": 18,
-    "monday": 27,
+    "monday": 28,
     "tuesday": 37,
     "wednesday": 25,
     "thursday": 41,
@@ -134,7 +134,7 @@
   "tags": [
     {
       "name": "package-managers",
-      "count": 154
+      "count": 155
     },
     {
       "name": "security",
@@ -169,11 +169,11 @@
       "count": 23
     },
     {
-      "name": "ai",
+      "name": "git",
       "count": 21
     },
     {
-      "name": "git",
+      "name": "ai",
       "count": 21
     },
     {
@@ -205,12 +205,16 @@
       "count": 8
     },
     {
+      "name": "registries",
+      "count": 7
+    },
+    {
       "name": "npm",
       "count": 7
     },
     {
-      "name": "registries",
-      "count": 7
+      "name": "history",
+      "count": 6
     },
     {
       "name": "go",
@@ -221,11 +225,7 @@
       "count": 6
     },
     {
-      "name": "history",
-      "count": 6
-    },
-    {
-      "name": "metrics",
+      "name": "research",
       "count": 5
     },
     {
@@ -233,7 +233,7 @@
       "count": 5
     },
     {
-      "name": "research",
+      "name": "metrics",
       "count": 5
     },
     {
@@ -245,6 +245,18 @@
       "count": 4
     },
     {
+      "name": "javascript",
+      "count": 3
+    },
+    {
+      "name": "conferences",
+      "count": 3
+    },
+    {
+      "name": "fosdem",
+      "count": 3
+    },
+    {
       "name": "docker",
       "count": 3
     },
@@ -253,23 +265,7 @@
       "count": 3
     },
     {
-      "name": "javascript",
-      "count": 3
-    },
-    {
-      "name": "python",
-      "count": 2
-    },
-    {
-      "name": "roundup",
-      "count": 2
-    },
-    {
       "name": "policy",
-      "count": 2
-    },
-    {
-      "name": "oci",
       "count": 2
     },
     {
@@ -277,23 +273,11 @@
       "count": 2
     },
     {
-      "name": "conferences",
-      "count": 2
-    },
-    {
-      "name": "fosdem",
+      "name": "oci",
       "count": 2
     },
     {
       "name": "versioning",
-      "count": 2
-    },
-    {
-      "name": "taxonomy",
-      "count": 2
-    },
-    {
-      "name": "metadata",
       "count": 2
     },
     {
@@ -305,44 +289,20 @@
       "count": 2
     },
     {
-      "name": "christmas",
-      "count": 1
+      "name": "roundup",
+      "count": 2
     },
     {
-      "name": "testing",
-      "count": 1
+      "name": "python",
+      "count": 2
     },
     {
-      "name": "governance",
-      "count": 1
+      "name": "metadata",
+      "count": 2
     },
     {
-      "name": "writing",
-      "count": 1
-    },
-    {
-      "name": "github-actions",
-      "count": 1
-    },
-    {
-      "name": "forges",
-      "count": 1
-    },
-    {
-      "name": "challenge",
-      "count": 1
-    },
-    {
-      "name": "productivity",
-      "count": 1
-    },
-    {
-      "name": "infrastructure",
-      "count": 1
-    },
-    {
-      "name": "unboxed",
-      "count": 1
+      "name": "taxonomy",
+      "count": 2
     },
     {
       "name": "zig",
@@ -353,7 +313,43 @@
       "count": 1
     },
     {
+      "name": "unboxed",
+      "count": 1
+    },
+    {
+      "name": "infrastructure",
+      "count": 1
+    },
+    {
+      "name": "productivity",
+      "count": 1
+    },
+    {
+      "name": "challenge",
+      "count": 1
+    },
+    {
       "name": "package-management",
+      "count": 1
+    },
+    {
+      "name": "forges",
+      "count": 1
+    },
+    {
+      "name": "github-actions",
+      "count": 1
+    },
+    {
+      "name": "writing",
+      "count": 1
+    },
+    {
+      "name": "governance",
+      "count": 1
+    },
+    {
+      "name": "testing",
       "count": 1
     },
     {
@@ -369,7 +365,7 @@
       "count": 1
     },
     {
-      "name": "software development",
+      "name": "christmas",
       "count": 1
     },
     {
@@ -397,6 +393,10 @@
       "count": 1
     },
     {
+      "name": "software development",
+      "count": 1
+    },
+    {
       "name": "benchmarks",
       "count": 1
     },
@@ -405,11 +405,11 @@
       "count": 1
     },
     {
-      "name": "apisix",
+      "name": "jekyll",
       "count": 1
     },
     {
-      "name": "jekyll",
+      "name": "apisix",
       "count": 1
     }
   ],
@@ -987,6 +987,15 @@
       ]
     },
     {
+      "url": "/2025/12/20/fosdem-2026-package-managers-devroom-schedule.html",
+      "title": "Package Managers Devroom at FOSDEM 2026: Schedule Announced",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/01/04/making-git-pkgs-feel-like-git.html",
+        "/2026/10/26/package-management-devroom-at-fosdem-2027-call-for-participation.html"
+      ]
+    },
+    {
       "url": "/2025/12/26/how-uv-got-so-fast.html",
       "title": "How uv got so fast",
       "inbound_count": 2,
@@ -1226,14 +1235,6 @@
       ]
     },
     {
-      "url": "/2025/12/20/fosdem-2026-package-managers-devroom-schedule.html",
-      "title": "Package Managers Devroom at FOSDEM 2026: Schedule Announced",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/01/04/making-git-pkgs-feel-like-git.html"
-      ]
-    },
-    {
       "url": "/2025/12/27/how-to-ruin-all-of-package-management.html",
       "title": "How to Ruin All of Package Management",
       "inbound_count": 1,
@@ -1303,6 +1304,14 @@
       "inbound_count": 1,
       "inbound_from": [
         "/2026/07/09/unboxed-zig.html"
+      ]
+    },
+    {
+      "url": "/2026/02/04/package-management-at-fosdem-2026.html",
+      "title": "Package Management at FOSDEM 2026",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/10/26/package-management-devroom-at-fosdem-2027-call-for-participation.html"
       ]
     },
     {
@@ -1579,8 +1588,8 @@
     }
   ],
   "external_links": {
-    "total": 5609,
-    "unique": 4460,
+    "total": 5617,
+    "unique": 4468,
     "domains": [
       {
         "host": "github.com",
@@ -1614,8 +1623,8 @@
       },
       {
         "host": "fosdem.org",
-        "count": 43,
-        "posts": 14
+        "count": 44,
+        "posts": 15
       },
       {
         "host": "peps.python.org",
@@ -1868,6 +1877,11 @@
         "posts": 7
       },
       {
+        "host": "archive.fosdem.org",
+        "count": 8,
+        "posts": 5
+      },
+      {
         "host": "brew.sh",
         "count": 8,
         "posts": 11
@@ -2033,6 +2047,11 @@
         "posts": 9
       },
       {
+        "host": "stewardshiplab.org",
+        "count": 6,
+        "posts": 3
+      },
+      {
         "host": "tea.xyz",
         "count": 6,
         "posts": 3
@@ -2138,11 +2157,6 @@
         "posts": 3
       },
       {
-        "host": "stewardshiplab.org",
-        "count": 5,
-        "posts": 2
-      },
-      {
         "host": "theupdateframework.io",
         "count": 5,
         "posts": 5
@@ -2173,14 +2187,14 @@
         "posts": 4
       },
       {
-        "host": "archive.fosdem.org",
-        "count": 4,
-        "posts": 4
-      },
-      {
         "host": "astral.sh",
         "count": 4,
         "posts": 6
+      },
+      {
+        "host": "blog.ecosyste.ms",
+        "count": 4,
+        "posts": 4
       },
       {
         "host": "blog.trailofbits.com",
@@ -2341,11 +2355,6 @@
         "host": "aws.amazon.com",
         "count": 3,
         "posts": 4
-      },
-      {
-        "host": "blog.ecosyste.ms",
-        "count": 3,
-        "posts": 3
       },
       {
         "host": "cabal.readthedocs.io",
@@ -5129,6 +5138,11 @@
       },
       {
         "host": "prefix.dev",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "pretalx.fosdem.org",
         "count": 1,
         "posts": 1
       },
