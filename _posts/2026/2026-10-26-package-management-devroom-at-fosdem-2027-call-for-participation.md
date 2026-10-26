@@ -7,6 +7,7 @@ tags:
   - package-managers
   - fosdem
   - conferences
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3myrj7amfz32c"
 ---
 
 *Cross-posted from the [Software Stewardship Lab](https://stewardshiplab.org/ideas/cfp-package-management-devroom-at-fosdem-27/).*
