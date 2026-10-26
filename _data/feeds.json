@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-26T15:13:23Z",
-  "cutoff": "2026-09-26T15:13:17Z",
+  "generated": "2026-10-26T16:35:15Z",
+  "cutoff": "2026-09-26T16:35:07Z",
   "feed_count": 104,
-  "item_count": 310,
+  "item_count": 311,
   "categories": [
     ".NET",
     "C/C++",
@@ -101,6 +101,14 @@
       "preview": "44.181.12 (2026-10-26) Bug Fixes deps: update renovate-base-image to v13.142.11 (main) ( #47402 ) ( 3b6f01f ) Build System deps: update dependency node-html-parser to v9.0.5 (main) ( #47401 ) ( 2605537 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "Higher limits for organization projects",
+      "url": "https://blog.pypi.org/posts/2026-10-26-higher-limits-for-organization-projects/",
+      "published": "2026-10-26T06:09:00Z",
+      "preview": "Projects owned by a PyPI organization now get higher limits by default: Personal projects Organization projects Largest file you can upload 100 MB 200 MB Total size of a project 10 GB 20 GB There's nothing to turn on. Every project owned by either a company or community organization gets the new limits automatically, including projects you move into an organization later. A project that leaves an organization goes back to the personal limits. Creating new projects &para; Organizations can also create up to 10 new projects per day , more than a personal account can. This isn't new, but we want ",
+      "source": "PyPI Blog",
+      "category": "Python"
     },
     {
       "title": "44.181.11",
