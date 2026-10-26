@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T11:35:52Z",
-  "cutoff": "2026-09-26T11:35:45Z",
+  "generated": "2026-10-26T14:07:48Z",
+  "cutoff": "2026-09-26T14:07:39Z",
   "feed_count": 104,
   "item_count": 310,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.183.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.183.0",
+      "published": "2026-10-26T13:28:16Z",
+      "preview": "44.183.0 (2026-10-26) Features static-data: add 2 new mise tools ( #47416 ) ( fbdb315 ) Code Refactoring tools/static-data: introduce a StaticDataSource interface ( #47407 ) ( 52cfc71 ), closes #47251 Continuous Integration static-data: start on a new branch ( #47411 ) ( ac19b98 ) tools/static-data: commit each static data update separately ( #47408 ) ( f514563 ), closes #47251 update-data: create PRs with the commit's title and body ( 906cf0e ) update-data: raise a stack of PRs via gh stack ( #47409 ) ( 1860261 ), closes #47251 update-data: run on Monday mornings ( #47406 ) ( 3505937 ), close",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v6.2.0-RC1",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.2.0-rc1",
+      "published": "2026-10-26T13:09:42Z",
+      "preview": "Features The podman push command now supports a new option, --platform , which selects and pushes a single platform-specific manifest instead of the entire list. The podman kube play command now supports a new option, --validate , which determines how unrecognized YAML fields are handled ( #18332 ). The podman kube play command now supports a new option, --label , to set labels on created containers, pods, volumes, and secrets ( #26450 ). The podman kube play command can now create multiple pods if more than 1 replica is requested by a deployment using the new --multiple-pods option ( #26769 )",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
     {
       "title": "v2.16.0-rc1",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0-rc1",
@@ -141,14 +157,6 @@
       "preview": "Patch Changes 0bff20d : The pnpm version that packageManager pins now records that pin in a fresh pnpm-lock.yaml when pnpm 10 switched to it. A later pnpm install --frozen-lockfile then succeeds #17303 . Platinum Sponsors Gold Sponsors",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.181.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.6",
-      "published": "2026-10-25T15:55:18Z",
-      "preview": "44.181.6 (2026-10-25) Bug Fixes deps: update renovate-base-image to v13.142.6 (main) ( #47380 ) ( 635e70e ) Miscellaneous Chores deps: update dependency knip to v6.42.0 (main) ( #47381 ) ( d298a62 ) deps: update pnpm/setup action to v3.1.2 (main) ( #47371 ) ( 5a6fb72 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "@verdaccio/tarball@14.0.0-next-9.41",
@@ -2493,14 +2501,6 @@
       "preview": "pnpm 12.8 warns when pnpm pack or pnpm publish would ship a .env file, installs sharedWorkspaceLockfile: false workspaces concurrently, applies every setting passed as --config. = , and no longer leaves the Windows terminal stuck after Ctrl+C in a script. This release also carries a...",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "8.0.0.10",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.10",
-      "published": "2026-09-26T12:27:36Z",
-      "preview": "Insert 8.0.0.10 into main on 09/26/2026 12:27:36",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     }
   ]
 }
