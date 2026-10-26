@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T17:29:09Z",
-  "cutoff": "2026-09-26T17:29:04Z",
+  "generated": "2026-10-26T18:45:09Z",
+  "cutoff": "2026-09-26T18:45:02Z",
   "feed_count": 104,
   "item_count": 311,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.186.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.1",
+      "published": "2026-10-26T18:08:26Z",
+      "preview": "44.186.1 (2026-10-26) Bug Fixes manager/kustomize: skip helm charts without repo as local charts ( #47430 ) ( 52fcc78 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v7.0.2",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.2",
+      "published": "2026-10-26T18:03:54Z",
+      "preview": "Patch Changes c017767 : Remove the HEALTHCHECK from the Docker image. The probe used localhost , which resolves to ::1 on Alpine, while the image listens on IPv4 only by default. The container was always reported as unhealthy even though it served requests normally. The image no longer declares a health check, as in 6.x . If you need one, add it yourself probing 127.0.0.1 , for example in docker-compose.yaml : services : verdaccio : image : verdaccio/verdaccio healthcheck : test : ['CMD-SHELL', 'wget --quiet --tries=1 --spider http://127.0.0.1:4873/-/ping || exit 1'] interval : 30s timeout : 5",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.186.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.0",
+      "published": "2026-10-26T17:46:34Z",
+      "preview": "44.186.0 (2026-10-26) Features deps: update renovate-base-image to v13.143.0 (main) ( #47432 ) ( c9ee474 ) Build System deps: update dependency ignore to v7.0.13 (main) ( #47437 ) ( 1bd6040 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.185.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.185.0",
@@ -127,22 +151,6 @@
       "category": "Python"
     },
     {
-      "title": "44.181.11",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.11",
-      "published": "2026-10-26T05:49:40Z",
-      "preview": "44.181.11 (2026-10-26) Bug Fixes deps: update renovate-base-image to v13.142.10 (main) ( #47399 ) ( 510538e ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.52.7 (main) ( #47398 ) ( 7f15352 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.181.10",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.10",
-      "published": "2026-10-26T04:53:07Z",
-      "preview": "44.181.10 (2026-10-26) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.52.6 (main) ( #47396 ) ( d5c729a ) Build System deps: update dependency cronstrue to v3.33.0 (main) ( #47397 ) ( 51fa5b9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "How to fund Rust contributors",
       "url": "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/",
       "published": "2026-10-26T00:00:00Z",
@@ -164,14 +172,6 @@
       "published": "2026-10-25T17:54:24Z",
       "preview": "Patch Changes 0bff20d : The pnpm version that packageManager pins now records that pin in a fresh pnpm-lock.yaml when pnpm 10 switched to it. A later pnpm install --frozen-lockfile then succeeds #17303 . Platinum Sponsors Gold Sponsors",
       "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/tarball@14.0.0-next-9.41",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4014.0.0-next-9.41",
-      "published": "2026-10-25T14:14:24Z",
-      "preview": "chore: update versions (next-9) ( #6420 )",
-      "source": "Verdaccio releases",
       "category": "JavaScript"
     },
     {
