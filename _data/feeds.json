@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T01:04:21Z",
-  "cutoff": "2026-09-26T01:04:01Z",
+  "generated": "2026-10-26T03:40:38Z",
+  "cutoff": "2026-09-26T03:40:29Z",
   "feed_count": 104,
   "item_count": 307,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.181.8",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.8",
+      "published": "2026-10-26T02:47:29Z",
+      "preview": "44.181.8 (2026-10-26) Bug Fixes deps: update renovate-base-image to v13.142.8 (main) ( #47393 ) ( 422350b ) Documentation update references to astral-sh/setup-uv to v10.3.2 (main) ( #47389 ) ( add8a72 ) update references to otel/opentelemetry-collector-contrib to v0.163.2 (main) ( #47390 ) ( 3698963 ) update references to prom/prometheus to v3.15.1 (main) ( #47391 ) ( d2f2ba3 ) update references to python to 90bdf58 (main) ( #47388 ) ( 7642f37 ) update references to renovatebot/github-action to v46.3.9 (main) ( #47392 ) ( e38a673 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.181.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.7",
@@ -315,14 +323,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.180.0",
       "published": "2026-10-23T11:48:54Z",
       "preview": "44.180.0 (2026-10-23) Features util/exec: look up jb versions from containerbase/jb-prebuild ( #47303 ) ( 4ebd20e ) Tests workers/repository: use a temp cache dir in init specs ( #47339 ) ( 0db8910 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.179.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.179.2",
-      "published": "2026-10-23T10:54:16Z",
-      "preview": "44.179.2 (2026-10-23) Bug Fixes config/validation: allow top-level custom manager config ( #47318 ) ( 596ab9a ), closes #47311 config/validation: always allow options which can be used anywhere ( #47319 ) ( b295e59 ), closes #47311 config/validation: improve nested/array parent option names in messages ( #47320 ) ( 5f1e110 ), closes #47311 deps: update renovate-base-image to v13.141.2 ( #47335 ) ( f14fee7 ) manager/gomod: allow modules with an older go directive ( #47317 ) ( 4086667 ), closes #47313 Documentation introduce \"buckets\" and \"audience\" labels ( #47020 ) ( 4caf57e ) Miscellaneous Ch",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
