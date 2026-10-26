@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T18:45:09Z",
-  "cutoff": "2026-09-26T18:45:02Z",
+  "generated": "2026-10-26T19:28:57Z",
+  "cutoff": "2026-09-26T19:28:51Z",
   "feed_count": 104,
   "item_count": 311,
   "categories": [
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.20",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.20",
+      "published": "2026-10-26T19:15:51Z",
+      "preview": "(bootstrap) let Homebrew upgrade casks mise installs by @jdx in…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-daemons-v2026.10.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.10.7",
+      "published": "2026-10-26T19:15:19Z",
+      "preview": "Release mise-daemons 2026.10.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.10.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.7",
+      "published": "2026-10-26T19:15:05Z",
+      "preview": "Release mise-oci 2026.10.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.10.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.7",
+      "published": "2026-10-26T19:14:47Z",
+      "preview": "Release mise-system 2026.10.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.20",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.20",
+      "published": "2026-10-26T19:14:11Z",
+      "preview": "Release vfox 2026.10.20",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.10.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.7",
+      "published": "2026-10-26T19:13:40Z",
+      "preview": "Release mise-system-packages 2026.10.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.10.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.7",
+      "published": "2026-10-26T19:13:25Z",
+      "preview": "Release mise-ui 2026.10.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.20",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.20",
+      "published": "2026-10-26T19:13:12Z",
+      "preview": "Release mise-util 2026.10.20",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.10.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.6",
+      "published": "2026-10-26T19:12:39Z",
+      "preview": "Release mise-sigstore 2026.10.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.20",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.20",
+      "published": "2026-10-26T19:12:26Z",
+      "preview": "Release mise-settings 2026.10.20",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.186.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.2",
+      "published": "2026-10-26T18:50:14Z",
+      "preview": "44.186.2 (2026-10-26) Bug Fixes instrumentation: remove mergeChildConfig span ( #47440 ) ( 6151f9b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.186.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.1",
@@ -133,14 +221,6 @@
       "preview": "What's Changed Verify API formula patch downloads by @MikeMcQuaid in #24285 Require verifiable official formula sources by @MikeMcQuaid in #24287 Honour explicit cask checksum requirements by @MikeMcQuaid in #24288 livecheck: prefer Git livecheck over GithubLatest by @bevanjkay in #24280 Keep outdated :no_linkage build dependencies by @HaraldNordgren in #24290 cask/audit: skip livecheck requirement for :latest by @bevanjkay in #24297 advisory-match: exclude reviewed false aliases by @p-linnane in #24296 Extract tarballs with a UTF-8 locale by @IngmarStein in #24304 Combine dependency role tags",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "44.181.12",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.12",
-      "published": "2026-10-26T07:55:37Z",
-      "preview": "44.181.12 (2026-10-26) Bug Fixes deps: update renovate-base-image to v13.142.11 (main) ( #47402 ) ( 3b6f01f ) Build System deps: update dependency node-html-parser to v9.0.5 (main) ( #47401 ) ( 2605537 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Higher limits for organization projects",
@@ -255,92 +335,12 @@
       "category": "Registries"
     },
     {
-      "title": "v2026.10.19: Security hardening across trust, installs and provenance; lockfiles now rebuilt completely by default",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.19",
-      "published": "2026-10-24T20:02:03Z",
-      "preview": "Most of this release closes ways an untrusted repository, download host or mirror could run code, leak credentials or get around verification. Some of these fixes make mise stricter, so check Breaking Changes before you upgrade. Also in this release: lockfile_mode = \"generate\" is now the default, mise lsp sends semantic highlighting, and there is a new {{ mise_config_dir }} template variable. Highlights Trust is narrower and tied to the files you trusted. Help output, shims, hooks, config writes and shell completion no longer trust a project or run its code without your consent. Trust also fol",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v1.3.6",
       "url": "https://github.com/oras-project/oras/releases/tag/v1.3.6",
       "published": "2026-10-24T19:08:08Z",
       "preview": "Changes since v1.3.5 Dependencies Update oras.land/oras-go/v2 from v2.6.4 to v2.7.0 ( #2284 , fixes #2275 ) Behavior change: v2.6.4 rejected bearer token realms on any private address, which broke split-host registries such as self-hosted GitLab ( oras-project/oras-go#1631 ). The default denylist now blocks only loopback, link-local, unspecified, and cloud metadata addresses. RFC 1918, IPv6 unique-local, and CGNAT realms are allowed again. Authentication now works after a same-host HTTP-to-HTTPS redirect. Copy and verification fixes: FilterArtifactType matching for referrers with an empty conf",
       "source": "ORAS releases",
       "category": "Containers"
-    },
-    {
-      "title": "mise-oci-v2026.10.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.6",
-      "published": "2026-10-24T16:17:10Z",
-      "preview": "Release mise-oci 2026.10.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.10.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.6",
-      "published": "2026-10-24T16:16:56Z",
-      "preview": "Release mise-system 2026.10.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.10.19",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.19",
-      "published": "2026-10-24T16:16:42Z",
-      "preview": "Release vfox 2026.10.19",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.10.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.6",
-      "published": "2026-10-24T16:16:12Z",
-      "preview": "Release mise-system-packages 2026.10.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.10.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.6",
-      "published": "2026-10-24T16:15:55Z",
-      "preview": "Release mise-ui 2026.10.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.19",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.19",
-      "published": "2026-10-24T16:15:43Z",
-      "preview": "Release mise-util 2026.10.19",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.10.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.5",
-      "published": "2026-10-24T16:15:09Z",
-      "preview": "Release mise-sigstore 2026.10.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.19",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.19",
-      "published": "2026-10-24T16:14:51Z",
-      "preview": "Release mise-settings 2026.10.19",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-tls-v2026.10.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-tls-v2026.10.2",
-      "published": "2026-10-24T16:13:30Z",
-      "preview": "Release mise-tls 2026.10.2",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-22-a",
