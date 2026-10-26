@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-25T19:24:12Z",
-  "cutoff": "2026-09-25T19:23:59Z",
+  "generated": "2026-10-26T01:04:21Z",
+  "cutoff": "2026-09-26T01:04:01Z",
   "feed_count": 104,
   "item_count": 307,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.181.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.7",
+      "published": "2026-10-25T23:44:24Z",
+      "preview": "44.181.7 (2026-10-25) Bug Fixes deps: update renovate-base-image to v13.142.7 (main) ( #47387 ) ( 297e253 ) Miscellaneous Chores renovate: don't automerge breaking gh-actions-lock updates ( #47379 ) ( 9e0bc64 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -325,14 +333,6 @@
       "preview": "Our benchmarks got a fresh look, better ways to explore performance, and a few new capabilities for agents. Here are some of our favourite improvements.",
       "source": "vlt Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.179.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.179.1",
-      "published": "2026-10-23T09:52:17Z",
-      "preview": "44.179.1 (2026-10-23) Bug Fixes deps: update renovate-base-image to v13.141.1 (main) ( #47332 ) ( f847006 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.51.1 (main) ( #47331 ) ( 0377d27 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-21-a",
