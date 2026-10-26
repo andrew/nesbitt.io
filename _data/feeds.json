@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T03:40:38Z",
-  "cutoff": "2026-09-26T03:40:29Z",
+  "generated": "2026-10-26T04:37:48Z",
+  "cutoff": "2026-09-26T04:37:43Z",
   "feed_count": 104,
   "item_count": 307,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.181.9",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.9",
+      "published": "2026-10-26T03:50:13Z",
+      "preview": "44.181.9 (2026-10-26) Bug Fixes deps: update renovate-base-image to v13.142.9 (main) ( #47395 ) ( 37e7bc1 ) Documentation update references to renovatebot/github-action to v46.3.10 (main) ( #47394 ) ( 3c2913a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.181.8",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.8",
@@ -317,14 +325,6 @@
       "preview": "Backwards incompatible changes Require --key in mix hex.organization auth ORGANIZATION . For development authenticate with mix hex.user auth , which gives access to all your organizations. For CI generate an organization key with mix hex.organization key ORGANIZATION generate and pass it with --key Exchange the key given to mix hex.organization auth ORGANIZATION --key KEY for a short-lived token and store only the token. Hex uses the token for about 25 minutes and doesn't refresh it, so in CI run the command right before fetching dependencies Stop authenticating to organization repositories wi",
       "source": "Hex releases",
       "category": "Elixir"
-    },
-    {
-      "title": "44.180.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.180.0",
-      "published": "2026-10-23T11:48:54Z",
-      "preview": "44.180.0 (2026-10-23) Features util/exec: look up jb versions from containerbase/jb-prebuild ( #47303 ) ( 4ebd20e ) Tests workers/repository: use a temp cache dir in init specs ( #47339 ) ( 0db8910 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "More than just numbers",
