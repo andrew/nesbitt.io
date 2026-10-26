@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T16:35:15Z",
-  "cutoff": "2026-09-26T16:35:07Z",
+  "generated": "2026-10-26T17:29:09Z",
+  "cutoff": "2026-09-26T17:29:04Z",
   "feed_count": 104,
   "item_count": 311,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.185.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.185.0",
+      "published": "2026-10-26T17:20:47Z",
+      "preview": "44.185.0 (2026-10-26) Features manager/github-actions: extract runs.image in Docker container actions ( #47423 ) ( 04d4aec ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.53.0 (main) ( #47431 ) ( 2dc18ca ) deps: update python docker tag to v3.15.1 (main) ( #47287 ) ( 37fdce6 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-26T17:15:19Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.184.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.184.1",
@@ -127,28 +143,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.181.9",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.9",
-      "published": "2026-10-26T03:50:13Z",
-      "preview": "44.181.9 (2026-10-26) Bug Fixes deps: update renovate-base-image to v13.142.9 (main) ( #47395 ) ( 37e7bc1 ) Documentation update references to renovatebot/github-action to v46.3.10 (main) ( #47394 ) ( 3c2913a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "How to fund Rust contributors",
       "url": "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/",
       "published": "2026-10-26T00:00:00Z",
       "preview": "TLDR: To fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team To fund specific features and improvements, sponsor fundable Rust Project Goals To fund individual contributors, donate to their GitHub Sponsors accounts There is always so much to do in the Rust Project! New features to implement, bugs to fix, performance optimizations to make, issues to triage… It takes a lot of work to keep our high bar of quality while also shipping new features and improvements. And the workload keeps increasing with the continuous growth of Rust adopti",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-25T18:39:49Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "pnpm 10.34.8",
