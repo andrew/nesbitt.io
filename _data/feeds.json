@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-26T08:47:26Z",
-  "cutoff": "2026-09-26T08:47:20Z",
+  "generated": "2026-10-26T09:44:48Z",
+  "cutoff": "2026-09-26T09:44:43Z",
   "feed_count": 104,
-  "item_count": 308,
+  "item_count": 309,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.16.0-rc1",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0-rc1",
+      "published": "2026-10-26T09:34:19Z",
+      "preview": "{\"buildNo\":\"build.3881\"}",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
+      "title": "44.182.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.182.2",
+      "published": "2026-10-26T09:29:43Z",
+      "preview": "44.182.2 (2026-10-26) Bug Fixes manager/mise: look up swift releases in swiftlang/swift ( #47374 ) ( 548f5c7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.182.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.182.1",
+      "published": "2026-10-26T08:53:50Z",
+      "preview": "44.182.1 (2026-10-26) Build System deps: update dependency @renovatebot/pgp to v2.0.4 (main) ( #47403 ) ( 2b767e0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.182.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.182.0",
@@ -207,14 +231,6 @@
       "category": "Registries"
     },
     {
-      "title": "44.181.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.5",
-      "published": "2026-10-24T21:43:52Z",
-      "preview": "44.181.5 (2026-10-24) Bug Fixes deps: update renovate-base-image to v13.142.5 (main) ( #47367 ) ( d58ffdb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2026.10.19: Security hardening across trust, installs and provenance; lockfiles now rebuilt completely by default",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.19",
       "published": "2026-10-24T20:02:03Z",
@@ -229,14 +245,6 @@
       "preview": "Changes since v1.3.5 Dependencies Update oras.land/oras-go/v2 from v2.6.4 to v2.7.0 ( #2284 , fixes #2275 ) Behavior change: v2.6.4 rejected bearer token realms on any private address, which broke split-host registries such as self-hosted GitLab ( oras-project/oras-go#1631 ). The default denylist now blocks only loopback, link-local, unspecified, and cloud metadata addresses. RFC 1918, IPv6 unique-local, and CGNAT realms are allowed again. Authentication now works after a same-host HTTP-to-HTTPS redirect. Copy and verification fixes: FilterArtifactType matching for referrers with an empty conf",
       "source": "ORAS releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.181.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.4",
-      "published": "2026-10-24T18:42:08Z",
-      "preview": "44.181.4 (2026-10-24) Bug Fixes deps: update renovate-base-image to v13.142.4 (main) ( #47365 ) ( 27bf60b ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.52.5 (main) ( #47366 ) ( d3c1a16 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "mise-oci-v2026.10.6",
