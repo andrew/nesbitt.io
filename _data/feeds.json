@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-26T07:00:34Z",
-  "cutoff": "2026-09-26T07:00:23Z",
+  "generated": "2026-10-26T08:47:26Z",
+  "cutoff": "2026-09-26T08:47:20Z",
   "feed_count": 104,
-  "item_count": 307,
+  "item_count": 308,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.182.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.182.0",
+      "published": "2026-10-26T08:35:03Z",
+      "preview": "44.182.0 (2026-10-26) Features presets: add @biomejs/** packages to packages:linters ( #47382 ) ( 0ed40fd )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "7.0.11",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.11",
+      "published": "2026-10-26T08:20:07Z",
+      "preview": "What's Changed Verify API formula patch downloads by @MikeMcQuaid in #24285 Require verifiable official formula sources by @MikeMcQuaid in #24287 Honour explicit cask checksum requirements by @MikeMcQuaid in #24288 livecheck: prefer Git livecheck over GithubLatest by @bevanjkay in #24280 Keep outdated :no_linkage build dependencies by @HaraldNordgren in #24290 cask/audit: skip livecheck requirement for :latest by @bevanjkay in #24297 advisory-match: exclude reviewed false aliases by @p-linnane in #24296 Extract tarballs with a UTF-8 locale by @IngmarStein in #24304 Combine dependency role tags",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "44.181.12",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.12",
+      "published": "2026-10-26T07:55:37Z",
+      "preview": "44.181.12 (2026-10-26) Bug Fixes deps: update renovate-base-image to v13.142.11 (main) ( #47402 ) ( 3b6f01f ) Build System deps: update dependency node-html-parser to v9.0.5 (main) ( #47401 ) ( 2605537 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.181.11",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.11",
@@ -285,22 +309,6 @@
       "preview": "Release mise-tls 2026.10.2",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.181.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.3",
-      "published": "2026-10-24T14:59:41Z",
-      "preview": "44.181.3 (2026-10-24) Bug Fixes workers/repository: include tool constraints and installTools in branch commit fingerprint ( #47348 ) ( 3842ec0 ), closes #46438 workers/repository: use the updated constraints value when processing a branch ( #47350 ) ( f735b01 ), closes #46438",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.181.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.181.2",
-      "published": "2026-10-24T13:50:20Z",
-      "preview": "44.181.2 (2026-10-24) Bug Fixes deps: update dependency mkdocs-material to v9.8.0 (main) ( #47364 ) ( 01d7fb8 ) deps: update renovate-base-image to v13.142.3 (main) ( #47363 ) ( 7fc75ac ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.23 (main) ( #47358 ) ( 4c3c233 ) deps: update dependency @ls-lint/ls-lint to v2.3.2 (main) ( #47359 ) ( c11332b ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.52.4 (main) ( #47361 ) ( c4c70ad ) deps: update jdx/mise-action action to v5.2.3 (main) ( #47362 ) ( 070bc2b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-22-a",
