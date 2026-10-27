@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-27T10:32:37Z",
-  "cutoff": "2026-09-27T10:31:55Z",
+  "generated": "2026-10-27T11:30:35Z",
+  "cutoff": "2026-09-27T11:30:30Z",
   "feed_count": 104,
-  "item_count": 315,
+  "item_count": 316,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.187.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.187.0",
+      "published": "2026-10-27T11:12:39Z",
+      "preview": "44.187.0 (2026-10-27) Features deps: update renovate-base-image to v13.144.0 (main) ( #47464 ) ( 0816305 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.54.0 (main) ( #47463 ) ( 5b17347 ) deps: update jdx/mise-action action to v5.2.4 (main) ( #47468 ) ( e8df1f2 ) Build System deps: update dependency @renovatebot/osv-offline to v3.1.0 (main) ( #47467 ) ( 7a726aa )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.10.21: Easier dotfiles setup from a checkout or Stow packages, plus `prune --force` for casks",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.21",
@@ -339,14 +347,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.0",
       "published": "2026-10-26T17:46:34Z",
       "preview": "44.186.0 (2026-10-26) Features deps: update renovate-base-image to v13.143.0 (main) ( #47432 ) ( c9ee474 ) Build System deps: update dependency ignore to v7.0.13 (main) ( #47437 ) ( 1bd6040 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.185.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.185.0",
-      "published": "2026-10-26T17:20:47Z",
-      "preview": "44.185.0 (2026-10-26) Features manager/github-actions: extract runs.image in Docker container actions ( #47423 ) ( 04d4aec ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.53.0 (main) ( #47431 ) ( 2dc18ca ) deps: update python docker tag to v3.15.1 (main) ( #47287 ) ( 37fdce6 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -933,6 +933,14 @@
       "preview": "Release Notes Released on 2026-10-19. Enhancements Report all installed packages in uv workspace metadata , including packages outside the selected resolution ( #22395 ) Include supported environment restrictions when exporting pylock.toml ( #22596 ) Retry dropped GET and HEAD requests when fetching package and index data ( #22672 ) Preserve encoding declarations in wheel data scripts that require shell launchers ( #22526 ) Show causes and hints when uv python find --script cannot discover an interpreter, including with -q ( #22549 ) Print valid ksh activation instructions and support non-relo",
       "source": "uv releases",
       "category": "Python"
+    },
+    {
+      "title": "3.3.4",
+      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.4",
+      "published": "2026-10-19T18:41:15Z",
+      "preview": "apt Debian release 3.3.4",
+      "source": "APT releases",
+      "category": "System"
     },
     {
       "title": "v0.401.0",
