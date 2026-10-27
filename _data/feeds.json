@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27T07:39:20Z",
-  "cutoff": "2026-09-27T07:39:16Z",
+  "generated": "2026-10-27T09:35:02Z",
+  "cutoff": "2026-09-27T09:34:52Z",
   "feed_count": 104,
   "item_count": 316,
   "categories": [
@@ -22,6 +22,86 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.21",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.21",
+      "published": "2026-10-27T08:40:58Z",
+      "preview": "(bootstrap) add --force to remove casks prune cannot prove un…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-daemons-v2026.10.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.10.8",
+      "published": "2026-10-27T08:40:21Z",
+      "preview": "Release mise-daemons 2026.10.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.10.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.8",
+      "published": "2026-10-27T08:40:05Z",
+      "preview": "Release mise-oci 2026.10.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.10.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.8",
+      "published": "2026-10-27T08:39:48Z",
+      "preview": "Release mise-system 2026.10.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.21",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.21",
+      "published": "2026-10-27T08:39:30Z",
+      "preview": "Release vfox 2026.10.21",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.10.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.8",
+      "published": "2026-10-27T08:38:59Z",
+      "preview": "Release mise-system-packages 2026.10.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.10.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.8",
+      "published": "2026-10-27T08:38:42Z",
+      "preview": "Release mise-ui 2026.10.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.21",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.21",
+      "published": "2026-10-27T08:38:28Z",
+      "preview": "Release mise-util 2026.10.21",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.10.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.7",
+      "published": "2026-10-27T08:37:56Z",
+      "preview": "Release mise-sigstore 2026.10.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.21",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.21",
+      "published": "2026-10-27T08:37:42Z",
+      "preview": "Release mise-settings 2026.10.21",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "v2.16.0-rc1",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0-rc1",
@@ -221,86 +301,6 @@
       "preview": "44.186.3 (2026-10-26) Miscellaneous Chores deps: update dependency knip to v6.42.1 (main) ( #47442 ) ( 7272966 ) Build System deps: update dependency cronstrue to v3.35.0 (main) ( #47446 ) ( e5a4e76 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.10.20: Chocolatey packages, systemd user units, and version_regex for release tags",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.20",
-      "published": "2026-10-26T21:21:55Z",
-      "preview": "Bootstrap can now install Windows packages with Chocolatey, manage systemd user units that a package already ships, and register launchd launch events. Release-based backends can filter tags with version_regex , and mise completion supports Nushell. The rest of the release fixes lockfile, OCI, dotfiles, shim and Windows bugs. Added Chocolatey package manager for bootstrap. You can declare choco: packages in [bootstrap.packages] next to winget and scoop . Chocolatey installs packages machine-wide, which covers tools like Docker Engine and the Visual Studio build tools. It only works on Windows ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-daemons-v2026.10.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.10.7",
-      "published": "2026-10-26T19:15:19Z",
-      "preview": "Release mise-daemons 2026.10.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-oci-v2026.10.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.7",
-      "published": "2026-10-26T19:15:05Z",
-      "preview": "Release mise-oci 2026.10.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.10.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.7",
-      "published": "2026-10-26T19:14:47Z",
-      "preview": "Release mise-system 2026.10.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.10.20",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.20",
-      "published": "2026-10-26T19:14:11Z",
-      "preview": "Release vfox 2026.10.20",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.10.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.7",
-      "published": "2026-10-26T19:13:40Z",
-      "preview": "Release mise-system-packages 2026.10.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.10.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.7",
-      "published": "2026-10-26T19:13:25Z",
-      "preview": "Release mise-ui 2026.10.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.20",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.20",
-      "published": "2026-10-26T19:13:12Z",
-      "preview": "Release mise-util 2026.10.20",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.10.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.6",
-      "published": "2026-10-26T19:12:39Z",
-      "preview": "Release mise-sigstore 2026.10.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.20",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.20",
-      "published": "2026-10-26T19:12:26Z",
-      "preview": "Release mise-settings 2026.10.20",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "44.186.2",
