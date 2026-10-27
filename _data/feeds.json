@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27T05:31:49Z",
-  "cutoff": "2026-09-27T05:31:42Z",
+  "generated": "2026-10-27T06:47:59Z",
+  "cutoff": "2026-09-27T06:47:53Z",
   "feed_count": 104,
   "item_count": 316,
   "categories": [
@@ -22,6 +22,102 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.186.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.7",
+      "published": "2026-10-27T06:44:40Z",
+      "preview": "44.186.7 (2026-10-27) Bug Fixes deps: update renovate-base-image to v13.143.3 (main) ( #47457 ) ( 6a32832 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "1.17.10",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.10",
+      "published": "2026-10-27T06:14:38Z",
+      "preview": "Bug fixes Remove an environment that has no pipx metadata and an interpreter that no longer runs, instead of crashing pipx uninstall and pipx uninstall-all . ( #2059 ) by @hemcharan710-afk and @gaborbernat Derive local script command names from the filename when parent directories contain # . A script installed by an earlier release under its directory's name no longer upgrades; uninstall it and install it again. ( #2060 ) Install a local PEP 723 script from its file when the path reads as a PyPI name ( pipx install bare.py ), contains [ , or starts with a quoted ~ , and stop the upgrade hint ",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.17.11",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.11",
+      "published": "2026-10-27T06:14:37Z",
+      "preview": "Documentation Hide the extra documentation TOC toggle on narrow screens. ( #2064 ) PyPI release Full Changelog",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.17.12",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.12",
+      "published": "2026-10-27T06:14:36Z",
+      "preview": "Bug fixes Stop pipx reinstall from printing a traceback when the reinstall fails for an expected reason. ( #2070 ) by @ParamTanna Stop pipx install printing WARNING: Skipping setuptools as it is not installed. when the shared libraries are created on Python 3.12+, where setuptools is already absent. ( #2071 ) by @officialpm and @gaborbernat Stop an injected package in a suffixed environment from being renamed every time its record is rewritten: pipx upgrade , pipx pin and pipx reinstall no longer append the environment suffix again, so the package keeps its name in pipx list --include-injected",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.17.13",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.13",
+      "published": "2026-10-27T06:14:35Z",
+      "preview": "Bug fixes Accept bare and suffixed injected package names in pipx pin --skip . ( #2079 ) by @VedantBhayani and @gaborbernat Use each snapshot's recorded interpreter when pipx install-all rebuilds an environment unless the user passes --python . ( #2081 ) by @feiiiiii5 and @gaborbernat PyPI release Full Changelog",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.17.14",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.17.14",
+      "published": "2026-10-27T06:14:33Z",
+      "preview": "Bug fixes Build pipx wheels with Docutils 0.21.2 and later, including environments pinned to Docutils 0.22. ( #2084 ) by @bfs2021 and @gaborbernat Documentation Say that pipx rejects --global before the subcommand instead of ignoring it. ( #2082 ) by @Ronak-Mahidharia and @gaborbernat PyPI release Full Changelog",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.18.0",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.0",
+      "published": "2026-10-27T06:14:32Z",
+      "preview": "Features Put --suffix last, except before a Windows file extension. Apps exposed by 1.17.14 keep their old name until pipx next exposes them, which renames them. ( #2098 ) by @gaborbernat upgrade and reinstall-all refresh shared pip only after 30 days. ( #2116 ) by @gaborbernat Run pipx upgrade-shared to refresh shared pip sooner. ( #2116 ) by @gaborbernat Set PYTHON_LAZY_IMPORTS=normal to opt out; the entry point is pipx.__main__ . ( #2132 ) by @gaborbernat Defer every import, dependencies included, on Python 3.15 for faster startup. ( #2132 ) by @gaborbernat Run reinstall-all , upgrade-all a",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.18.1",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.1",
+      "published": "2026-10-27T06:14:31Z",
+      "preview": "Bug fixes Stop pip and uv when Ctrl-C lands early, instead of hanging. ( #2146 ) by @gaborbernat PyPI release Full Changelog",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.18.2",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.2",
+      "published": "2026-10-27T06:14:30Z",
+      "preview": "Bug fixes Accept absolute file:/// URLs as package specs, such as pipx install file:///wheels/tool-1-py3-none-any.whl . ( #2150 ) by @srijan2607 and @gaborbernat In a terminal, show the pipx spinner again during installs and upgrades instead of the full pip or uv log, which --verbose still streams. Installer errors are still printed on failure. ( #2151 ) Print the installer error once when a pipx upgrade --verbose or pip pipx install --verbose fails, instead of repeating it after the live output. ( #2153 ) by @gaborbernat Stop an -all command on Ctrl-C even when the interpreter drops the inter",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.18.3",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.3",
+      "published": "2026-10-27T06:14:29Z",
+      "preview": "Bug fixes Allow selecting dependencies that ship only shell completions. ( #2157 ) by @AryanRG and @gaborbernat PyPI release Full Changelog",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "1.18.4",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.4",
+      "published": "2026-10-27T06:14:28Z",
+      "preview": "Bug fixes pipx reset now cancels instead of crashing when the confirmation prompt reads EOF (Ctrl-D on POSIX, Ctrl-Z then Enter on Windows). ( #2160 ) by @XXXXXQ-0206 and @gaborbernat PyPI release Full Changelog",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "v2.16.0-rc1",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0-rc1",
+      "published": "2026-10-27T05:50:41Z",
+      "preview": "{\"buildNo\":\"build.3886\"}",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
     {
       "title": "v2.29.4",
       "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.4",
@@ -255,27 +351,11 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.184.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.184.0",
-      "published": "2026-10-26T14:35:46Z",
-      "preview": "44.184.0 (2026-10-26) Features manager/github-actions: report gh actions-lock findings when it fails ( #47375 ) ( dfae938 ) Bug Fixes manager/github-actions: only re-pin updated refs in actions.lock and parse findings ( #47373 ) ( e15cd52 ) Miscellaneous Chores renovate: keep the documented ghActionsLock version up to date ( #47377 ) ( a077a46 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v6.2.0-RC1",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.2.0-rc1",
       "published": "2026-10-26T13:09:42Z",
       "preview": "Features The podman push command now supports a new option, --platform , which selects and pushes a single platform-specific manifest instead of the entire list. The podman kube play command now supports a new option, --validate , which determines how unrecognized YAML fields are handled ( #18332 ). The podman kube play command now supports a new option, --label , to set labels on created containers, pods, volumes, and secrets ( #26450 ). The podman kube play command can now create multiple pods if more than 1 replica is requested by a deployment using the new --multiple-pods option ( #26769 )",
       "source": "Podman releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.16.0-rc1",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0-rc1",
-      "published": "2026-10-26T09:34:19Z",
-      "preview": "{\"buildNo\":\"build.3881\"}",
-      "source": "Harbor releases",
       "category": "Containers"
     },
     {
@@ -909,86 +989,6 @@
       "preview": "Changelog d6e7b58 bump: tag and release ORAS CLI v1.3.5 ( #2244 ) 4431829 docs: require cve fixes to land before preparing a release ( #2258 ) 8ee66ac docs: add ORAS CLI release process ( #2248 ) e09a8bb chore: bump oras-go to v2.6.4 in e2e tests ( #2247 ) 8270f5f chore: update oras-go to v2.6.4 ( #2242 ) ba3a3dc fix: validate extra destination tags before pushing ( #2237 ) 6ca02d0 build(deps): bump the github-actions group across 1 directory with 3 updates ( #2240 ) c9ccd95 build(deps): bump library/golang from 1.27.1-alpine to 1.27.2-alpine ( #2239 ) b2dc645 build(deps): bump github.com/onsi",
       "source": "ORAS releases",
       "category": "Containers"
-    },
-    {
-      "title": "1.18.4",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.4",
-      "published": "2026-10-18T18:59:37Z",
-      "preview": "Bugfixes pipx reset now cancels instead of crashing when the confirmation prompt reads EOF (Ctrl-D on POSIX, Ctrl-Z then Enter on Windows). ( #2160 ) PyPI release Full Changelog : 1.18.3...1.18.4",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.18.3",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.3",
-      "published": "2026-10-18T18:59:34Z",
-      "preview": "Bugfixes Allow selecting dependencies that ship only shell completions. ( #2157 ) PyPI release Full Changelog : 1.18.2...1.18.3",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.18.2",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.2",
-      "published": "2026-10-18T18:59:32Z",
-      "preview": "Bugfixes Accept absolute file:/// URLs as package specs, such as pipx install file:///wheels/tool-1-py3-none-any.whl . ( #2150 ) In a terminal, show the pipx spinner again during installs and upgrades instead of the full pip or uv log, which --verbose still streams. Installer errors are still printed on failure. ( #2151 ) Print the installer error once when a pipx upgrade --verbose or pip pipx install --verbose fails, instead of repeating it after the live output. ( #2153 ) Stop an -all command on Ctrl-C even when the interpreter drops the interrupt, which happens when the signal handler runs ",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.18.1",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.1",
-      "published": "2026-10-18T18:59:30Z",
-      "preview": "Bugfixes Stop pip and uv when Ctrl-C lands early, instead of hanging. ( #2146 ) PyPI release Full Changelog : 1.18.0...1.18.1",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.18.0",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.0",
-      "published": "2026-10-18T18:59:28Z",
-      "preview": "Features Put --suffix last, except before a Windows file extension. Apps exposed by 1.17.14 keep their old name until pipx next exposes them, which renames them. ( #2098 ) upgrade and reinstall-all refresh shared pip only after 30 days. ( #2116 ) Run pipx upgrade-shared to refresh shared pip sooner. ( #2116 ) Set PYTHON_LAZY_IMPORTS=normal to opt out; the entry point is pipx.__main__ . ( #2132 ) Defer every import, dependencies included, on Python 3.15 for faster startup. ( #2132 ) Run reinstall-all , upgrade-all and install-all across venvs at once. ( #2137 ) Let running upgrades finish on Ct",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.17.14",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.14",
-      "published": "2026-10-18T18:59:25Z",
-      "preview": "Bugfixes Build pipx wheels with Docutils 0.21.2 and later, including environments pinned to Docutils 0.22. ( #2084 ) Improved Documentation Say that pipx rejects --global before the subcommand instead of ignoring it. ( #2082 ) PyPI release Full Changelog : 1.17.13...1.17.14",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.17.13",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.13",
-      "published": "2026-10-18T18:59:23Z",
-      "preview": "Bugfixes Accept bare and suffixed injected package names in pipx pin --skip . ( #2079 ) Use each snapshot's recorded interpreter when pipx install-all rebuilds an environment unless the user passes --python . ( #2081 ) PyPI release Full Changelog : 1.17.12...1.17.13",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.17.12",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.12",
-      "published": "2026-10-18T18:59:21Z",
-      "preview": "Bugfixes Stop pipx reinstall from printing a traceback when the reinstall fails for an expected reason. ( #2070 ) Stop pipx install printing WARNING: Skipping setuptools as it is not installed. when the shared libraries are created on Python 3.12+, where setuptools is already absent. ( #2071 ) Stop an injected package in a suffixed environment from being renamed every time its record is rewritten: pipx upgrade , pipx pin and pipx reinstall no longer append the environment suffix again, so the package keeps its name in pipx list --include-injected and stays addressable by pipx uninject . ( #207",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.17.11",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.11",
-      "published": "2026-10-18T18:59:19Z",
-      "preview": "Improved Documentation Hide the extra documentation TOC toggle on narrow screens. ( #2064 ) PyPI release Full Changelog : 1.17.10...1.17.11",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.17.10",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.10",
-      "published": "2026-10-18T18:59:17Z",
-      "preview": "Bugfixes Remove an environment that has no pipx metadata and an interpreter that no longer runs, instead of crashing pipx uninstall and pipx uninstall-all . ( #2059 ) Derive local script command names from the filename when parent directories contain # . A script installed by an earlier release under its directory's name no longer upgrades; uninstall it and install it again. ( #2060 ) Install a local PEP 723 script from its file when the path reads as a PyPI name ( pipx install bare.py ), contains [ , or starts with a quoted ~ , and stop the upgrade hint from suggesting a PyPI reinstall for a ",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
