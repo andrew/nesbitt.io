@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27T17:24:02Z",
-  "cutoff": "2026-09-27T17:23:23Z",
+  "generated": "2026-10-27T18:26:11Z",
+  "cutoff": "2026-09-27T18:25:57Z",
   "feed_count": 104,
   "item_count": 317,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.190.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.190.0",
+      "published": "2026-10-27T17:45:21Z",
+      "preview": "44.190.0 (2026-10-27) Features static-data: update Node.js release schedule ( #47417 ) ( ec10d67 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.189.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.189.0",
@@ -293,14 +301,6 @@
       "preview": "Features & Improvements Allow specifying lock.format in pyproject.toml via the [tool.pdm.lock] table. ( #3958 ) Bug Fixes Import a requirements file that starts with a UTF-8 BOM, which failed with a RequirementError . ( #3937 ) Treat a Pipfile version without an operator, such as requests = \"2.31.0\" , as an exact == pin when importing, like pipenv does, instead of failing with an invalid specifier error. ( #3939 ) Preserve Poetry include entries targeting both source and wheel distributions when importing a project. ( #3941 ) Preserve version and description when importing Flit projects with a",
       "source": "PDM releases",
       "category": "Python"
-    },
-    {
-      "title": "44.186.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.6",
-      "published": "2026-10-27T03:45:01Z",
-      "preview": "44.186.6 (2026-10-27) Build System deps: update dependency cronstrue to v3.36.0 (main) ( #47455 ) ( 7688dcb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.13.6",
