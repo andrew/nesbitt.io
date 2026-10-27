@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27T01:03:05Z",
-  "cutoff": "2026-09-27T01:02:59Z",
+  "generated": "2026-10-27T03:36:58Z",
+  "cutoff": "2026-09-27T03:36:52Z",
   "feed_count": 104,
   "item_count": 315,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.186.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.5",
+      "published": "2026-10-27T02:42:26Z",
+      "preview": "44.186.5 (2026-10-27) Bug Fixes deps: update renovate-base-image to v13.143.2 (main) ( #47453 ) ( 3c91a90 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.13.6 (main) ( #47449 ) ( 3dd616b ) deps: update dependency github/gh-stack to v0.3.0 (main) ( #47448 ) ( 93c6fc0 ) deps: update dependency uv to v0.13.6 (main) ( #47450 ) ( 13e5a47 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.13.6",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.13.6",
@@ -261,14 +269,6 @@
       "preview": "{\"buildNo\":\"build.3881\"}",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.182.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.182.2",
-      "published": "2026-10-26T09:29:43Z",
-      "preview": "44.182.2 (2026-10-26) Bug Fixes manager/mise: look up swift releases in swiftlang/swift ( #47374 ) ( 548f5c7 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.0.11",
