@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27T04:34:13Z",
-  "cutoff": "2026-09-27T04:34:07Z",
+  "generated": "2026-10-27T05:31:49Z",
+  "cutoff": "2026-09-27T05:31:42Z",
   "feed_count": 104,
   "item_count": 316,
   "categories": [
@@ -25,7 +25,7 @@
     {
       "title": "v2.29.4",
       "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.4",
-      "published": "2026-10-27T04:33:24Z",
+      "published": "2026-10-27T04:41:09Z",
       "preview": "Features & Improvements Allow specifying lock.format in pyproject.toml via the [tool.pdm.lock] table. ( #3958 ) Bug Fixes Import a requirements file that starts with a UTF-8 BOM, which failed with a RequirementError . ( #3937 ) Treat a Pipfile version without an operator, such as requests = \"2.31.0\" , as an exact == pin when importing, like pipenv does, instead of failing with an invalid specifier error. ( #3939 ) Preserve Poetry include entries targeting both source and wheel distributions when importing a project. ( #3941 ) Preserve version and description when importing Flit projects with a",
       "source": "PDM releases",
       "category": "Python"
