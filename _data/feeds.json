@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-27T16:26:49Z",
-  "cutoff": "2026-09-27T16:26:39Z",
+  "generated": "2026-10-27T17:24:02Z",
+  "cutoff": "2026-09-27T17:23:23Z",
   "feed_count": 104,
-  "item_count": 316,
+  "item_count": 317,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.189.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.189.0",
+      "published": "2026-10-27T17:22:10Z",
+      "preview": "44.189.0 (2026-10-27) Features vulnerabilities: allow performing lockfile only transitive security updates ( #46391 ) ( 4718945 ), closes #47478 Miscellaneous Chores deps: migrate to jactionlint ( #47427 ) ( 3fd9c27 ) deps: pin GitHub Actions lockfile ( #47429 ) ( 331056f ) deps: use self-repository reference for Actions ( #47428 ) ( 839eab1 ) Continuous Integration actions/setup-docker: remove useless use of cat ( #47425 ) ( f629d9c ) actions/setup-node: ignore SC2016 findings ( #47426 ) ( 70366a8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.188.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.188.4",
@@ -295,14 +303,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.186.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.5",
-      "published": "2026-10-27T02:42:26Z",
-      "preview": "44.186.5 (2026-10-27) Bug Fixes deps: update renovate-base-image to v13.143.2 (main) ( #47453 ) ( 3c91a90 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.13.6 (main) ( #47449 ) ( 3dd616b ) deps: update dependency github/gh-stack to v0.3.0 (main) ( #47448 ) ( 93c6fc0 ) deps: update dependency uv to v0.13.6 (main) ( #47450 ) ( 13e5a47 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "0.13.6",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.13.6",
       "published": "2026-10-27T00:47:49Z",
@@ -333,6 +333,14 @@
       "preview": "This release adds a global --env-file flag, updates to a symlinked pnpm-lock.yaml , and pnpm setup --no-modify-path . It also fixes two security issues, in zstd decompression and in signing. Minor Changes Added a repeatable global --env-file <path> flag to load environment variables from dotenv-style files before running a command. Later files override earlier files, variables already in the environment are preserved, and loaded variables are visible to user-level .npmrc interpolation and lifecycle scripts #7111 . pnpm can now update a pnpm-lock.yaml that is a symlink. List the directories the",
       "source": "pnpm releases",
       "category": "JavaScript"
+    },
+    {
+      "title": "tar-codec: a fast and secure tar parser for the Rust ecosystem",
+      "url": "https://astral.sh/blog/tar-codec",
+      "published": "2026-10-27T00:00:00Z",
+      "preview": "We're releasing tar-codec, a new tar encoding/decoding library for Rust. tar-codec is already the default in uv, and improves uv's tar handling performance by over 2x while also improving our posture against archive differentials.",
+      "source": "Astral Blog",
+      "category": "Python"
     },
     {
       "title": "pnpm 11.28.9",
