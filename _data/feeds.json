@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-27T18:26:11Z",
-  "cutoff": "2026-09-27T18:25:57Z",
+  "generated": "2026-10-27T19:22:39Z",
+  "cutoff": "2026-09-27T19:22:21Z",
   "feed_count": 104,
-  "item_count": 317,
+  "item_count": 318,
   "categories": [
     ".NET",
     "C/C++",
@@ -117,6 +117,14 @@
       "preview": "44.187.0 (2026-10-27) Features deps: update renovate-base-image to v13.144.0 (main) ( #47464 ) ( 0816305 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.54.0 (main) ( #47463 ) ( 5b17347 ) deps: update jdx/mise-action action to v5.2.4 (main) ( #47468 ) ( e8df1f2 ) Build System deps: update dependency @renovatebot/osv-offline to v3.1.0 (main) ( #47467 ) ( 7a726aa )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "A consistent(-ish) npm dependency graph",
+      "url": "https://vlt.io/blog/consistent-ish-graph",
+      "published": "2026-10-27T11:00:00Z",
+      "preview": "22% of packages arrive on the npm registry without their dependencies available yet.",
+      "source": "vlt Blog",
+      "category": "JavaScript"
     },
     {
       "title": "v2026.10.21: Easier dotfiles setup from a checkout or Stow packages, plus `prune --force` for casks",
