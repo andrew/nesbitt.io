@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27T12:44:05Z",
-  "cutoff": "2026-09-27T12:43:57Z",
+  "generated": "2026-10-27T13:36:18Z",
+  "cutoff": "2026-09-27T13:36:12Z",
   "feed_count": 104,
   "item_count": 316,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.16.1",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.16.1",
+      "published": "2026-10-27T13:33:18Z",
+      "preview": "=v12.16.1",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "20261027t132200-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261027t132200-all",
+      "published": "2026-10-27T13:22:33Z",
+      "preview": "Deployment at 2026-10-27T13:22:28.961021Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.188.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.188.2",
+      "published": "2026-10-27T12:53:48Z",
+      "preview": "44.188.2 (2026-10-27) Build System deps: update dependency @renovatebot/osv-offline to v4.1.2 (main) ( #47473 ) ( d3d7d20 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.188.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.188.1",
@@ -331,14 +355,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.3",
       "published": "2026-10-26T22:46:12Z",
       "preview": "44.186.3 (2026-10-26) Miscellaneous Chores deps: update dependency knip to v6.42.1 (main) ( #47442 ) ( 7272966 ) Build System deps: update dependency cronstrue to v3.35.0 (main) ( #47446 ) ( e5a4e76 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.186.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.2",
-      "published": "2026-10-26T18:50:14Z",
-      "preview": "44.186.2 (2026-10-26) Bug Fixes instrumentation: remove mergeChildConfig span ( #47440 ) ( 6151f9b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -749,14 +765,6 @@
       "preview": "Bug fixes Require certifi >=2026.10.19 and ca-certificates >=2026.10.19 to update the packaged CA bundles following the eMudhra intermediate CA compromise. ( #16880 via #16881 ) Contributors @jezdez Full Changelog : 26.9.3...26.9.4",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "pnpr 0.1.0-alpha.16",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.16",
-      "published": "2026-10-21T11:17:18Z",
-      "preview": "pnpr 0.1.0-alpha.16 serves every ecosystem under its own URL prefix, moves hosted storage to a new layout upgraded with pnpr upgrade-storage , and replaces artifacts.compilerCaches and pipeline.workspaces with artifacts.orgs . It also adds tar registries, zstd metadata and tarball compression, npm audit and provenance endpoints, Prometheus metrics, and pnpr maintenance commands. Minor Changes pnpr now serves npm under /npm/ even when npm is the only ecosystem it serves. The npm registry URL is https://<pnpr>/npm/ , and a named registry is at https://<pnpr>/npm/~<name>/ . Cargo, Python, and con",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 11.28.7",
@@ -2445,14 +2453,6 @@
       "preview": "Bug fixes Ensure v3 packages are available when mixing sharded and unsharded repos. ( #16676 via #16688 ) Keep cached package archive paths consistent with their recorded filenames and checksums when both archive formats are present. ( #9674 ) Contributors @jezdez",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "20260929t123100-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20260929t123100-all",
-      "published": "2026-09-29T12:31:09Z",
-      "preview": "Deployment at 2026-09-29T12:31:04.540301Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     },
     {
       "title": "15 years of Packagist: Over 200 billion package installs",
