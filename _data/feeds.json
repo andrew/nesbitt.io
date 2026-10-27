@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-27T06:47:59Z",
-  "cutoff": "2026-09-27T06:47:53Z",
+  "generated": "2026-10-27T07:39:20Z",
+  "cutoff": "2026-09-27T07:39:16Z",
   "feed_count": 104,
   "item_count": 316,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.16.0-rc1",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0-rc1",
+      "published": "2026-10-27T07:38:01Z",
+      "preview": "What's Changed Exciting New Features 🎉 Update artifact_accessory to add source column to identify accessory by @stonezdj in #23144 feat: replace redis with valkey as cache backend by @chlins in #23157 Full Multi-Architecture Enablement for Harbor (amd64 + arm64) by @ranimandepudi in #22311 Add ListReferrers API to registry client and update parseScopes by @stonezdj in #23170 Proxy the referrer API to upstream registry with paging and local merge by @stonezdj in #23237 feat(ui): support advanced proxy cache configurations in UI by @stonezdj in #23536 feat(backend): implement proxy cache reposit",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
     {
       "title": "44.186.7",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.7",
@@ -109,14 +117,6 @@
       "preview": "Bug fixes pipx reset now cancels instead of crashing when the confirmation prompt reads EOF (Ctrl-D on POSIX, Ctrl-Z then Enter on Windows). ( #2160 ) by @XXXXXQ-0206 and @gaborbernat PyPI release Full Changelog",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "v2.16.0-rc1",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0-rc1",
-      "published": "2026-10-27T05:50:41Z",
-      "preview": "{\"buildNo\":\"build.3886\"}",
-      "source": "Harbor releases",
-      "category": "Containers"
     },
     {
       "title": "v2.29.4",
