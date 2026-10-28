@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-28T17:22:57Z",
-  "cutoff": "2026-09-28T17:22:51Z",
+  "generated": "2026-10-28T18:27:51Z",
+  "cutoff": "2026-09-28T18:27:44Z",
   "feed_count": 104,
-  "item_count": 324,
+  "item_count": 325,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.192.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.192.1",
+      "published": "2026-10-28T18:12:18Z",
+      "preview": "44.192.1 (2026-10-28) Code Refactoring types: add MinimumReleaseAgeConfig ( #47526 ) ( 5555687 ) Build System deps: update dependency @renovatebot/good-enough-parser to v3 (main) ( #47533 ) ( 03d2709 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v1.17.1",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
+      "published": "2026-10-28T18:02:22Z",
+      "preview": "1.17.1 (October 28, 2026) BUG FIXES: fmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file. ( #39303 ) Always evaluate module policies during destroy plan ( #39455 ) stacks: report every policy result for a replaced resource instead of only one of them ( #39453 )",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
     {
       "title": "44.192.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.192.0",
@@ -299,14 +315,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.188.2",
       "published": "2026-10-27T12:53:48Z",
       "preview": "44.188.2 (2026-10-27) Build System deps: update dependency @renovatebot/osv-offline to v4.1.2 (main) ( #47473 ) ( d3d7d20 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.188.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.188.1",
-      "published": "2026-10-27T12:33:58Z",
-      "preview": "44.188.1 (2026-10-27) Build System deps: update dependency @renovatebot/osv-offline to v4 (main) ( #47472 ) ( 8616389 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
