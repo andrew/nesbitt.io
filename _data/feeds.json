@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-28T20:24:22Z",
-  "cutoff": "2026-09-28T20:24:17Z",
+  "generated": "2026-10-28T21:22:23Z",
+  "cutoff": "2026-09-28T21:22:18Z",
   "feed_count": 104,
-  "item_count": 325,
+  "item_count": 324,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,18 +23,34 @@
   ],
   "items": [
     {
-      "title": "2.1.0-RC2",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-RC2",
-      "published": "2026-10-28T19:34:51Z",
-      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulerability. sbt 1.13.1 and 2.0.12 fix this bug. updates and bug fixes fix: Make configuration key cacheable by @eed3si9n in #9905 fix: Fix watch termination callbacks losing their source by @mkurz in #9901 fix: Fail a gRPC batch read when a blob fails by @eugkhp in #9904 perf: Ask a later cache store only for the blobs an earlier one lacks by @eugkhp in #9907 fix: Make logging robust against closed sb",
+      "title": "1.13.1",
+      "url": "https://github.com/sbt/sbt/releases/tag/v1.13.1",
+      "published": "2026-10-28T21:13:59Z",
+      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulnerability. sbt 1.13.1 and 2.0.12 fix this bug. bug fixes and updates fix: Fix watch termination callbacks losing their source by @mkurz in #9902 fix: Fix task progress and logger retention across evaluations by @mkurz in #9915 fix: Fix file inputs and reloads failing after a failed load hook by @mkurz in #9926 feat: Add Terminal.withRawInput for reading single keys by @mkurz in #9948 Handle Cancella",
       "source": "sbt releases",
       "category": "Maven"
     },
     {
-      "title": "v2026.10.22",
+      "title": "2.0.12",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.12",
+      "published": "2026-10-28T21:13:24Z",
+      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulnerability. sbt 1.13.1 and 2.0.12 fix this bug. updates and bug fixes fix: End the client connection when the channel's write thread stops by @retronym in #9991 Update sbtn to 2.1.0-e5346417 in #9996 fix: Fix run task by @xuwei-k in #9963 IO 1.13.6 by @eed3si9n in #9989 Zinc 2.0.5 + IPC Socket 1.8.1 by @eed3si9n in #9993 Full Changelog : v2.0.11...v2.0.12",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "2.1.0-RC2",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-RC2",
+      "published": "2026-10-28T21:12:54Z",
+      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulnerability. Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x wil",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "v2026.10.22: Project-scoped uninstall, JSONC dotfile merges, and node@lts moves to Node.js 26",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.22",
-      "published": "2026-10-28T18:51:17Z",
-      "preview": "(bootstrap) print a hook's description or one line instead of i…",
+      "published": "2026-10-28T21:00:51Z",
+      "preview": "You can now uninstall only the tools the current project requests, and new --no-global and --project flags replace the two different meanings --local had. Dotfiles can merge into JSONC files like VS Code's settings.json and can seed a file once without overwriting later edits. node@lts now resolves to Node.js 26. The rest of the release adds an ipv4_only setting, JSON output for mise vars , and fixes for Windows, lockfiles, pruning and GitHub release listing. Added mise uninstall --project and mise ls --project . mise uninstall --project removes the installed versions requested by the nearest ",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -165,22 +181,6 @@
       "preview": "Read our blog post about this release. As part of this release we had 1 issue closed. Dependency Change Updated the bundled version of 7-zip to 26.05 - see #3946 by st3phhays . Contributors 1 contributors made this release possible.",
       "source": "Chocolatey releases",
       "category": "System"
-    },
-    {
-      "title": "2.0.12",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.12",
-      "published": "2026-10-28T14:47:10Z",
-      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulerability. sbt 1.13.1 and 2.0.12 fix this bug. updates and bug fixes fix: End the client connection when the channel's write thread stops by @retronym in #9991 Update sbtn to 2.1.0-e5346417 in #9996 fix: Fix run task by @xuwei-k in #9963 IO 1.13.6 by @eed3si9n in #9989 Zinc 2.0.5 + IPC Socket 1.8.1 by @eed3si9n in #9993 Full Changelog : v2.0.11...v2.0.12",
-      "source": "sbt releases",
-      "category": "Maven"
-    },
-    {
-      "title": "1.13.1",
-      "url": "https://github.com/sbt/sbt/releases/tag/v1.13.1",
-      "published": "2026-10-28T14:46:49Z",
-      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulerability. sbt 1.13.1 and 2.0.12 fix this bug. bug fixes and updates fix: Fix watch termination callbacks losing their source by @mkurz in #9902 fix: Fix task progress and logger retention across evaluations by @mkurz in #9915 fix: Fix file inputs and reloads failing after a failed load hook by @mkurz in #9926 feat: Add Terminal.withRawInput for reading single keys by @mkurz in #9948 Handle Cancellat",
-      "source": "sbt releases",
-      "category": "Maven"
     },
     {
       "title": "v10.3.3 🌈 Use Astral mirror for version manifests with GitHub fallback",
@@ -2613,14 +2613,6 @@
       "preview": "Starting June 2026, bunny.net joined the PHP Foundation as a Silver Sponsor , reinforcing its commitment to the open-source technologies that keep a huge share of the modern web online. bunny.net is a European web infrastructure platform with 119 points of presence worldwide that brings together content delivery (DNS, CDN, video), security (WAF, DDoS and bot protection), and a developer platform (app containers, serverless functions, database and S3-compatible storage). In this way, bunny.net gives builders everything they need to build, secure, and deliver applications globally, with an EU so",
       "source": "PHP Foundation Blog",
       "category": "PHP"
-    },
-    {
-      "title": "2026-09-26 Release",
-      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-09-26",
-      "published": "2026-09-28T21:09:44Z",
-      "preview": "What's Changed Add privacy and telemetry notices to the help command by Victor Romero (@vicroms) in #2087 Add Windows arm64 release presets by Billy O'Neal (@BillyONeal) in #2082 Fix x-add-version to be as transactional as its error messages suggest (and 1/10th the time) by Billy O'Neal (@BillyONeal) in #2050 [curl] propagate VCPKG_SSL_REVOKE_BEST_EFFORT to spawned processes by Pavel Pokutnev (@mem16k) in #2098 Take the registries lock before git init by Bugale Bugalit (@bugale) in #2093 Add diff output to x-update-baseline by Billy O'Neal (@BillyONeal) in #2057 Parallelize ObjectStorageProvid",
-      "source": "vcpkg releases",
-      "category": "C/C++"
     }
   ]
 }
