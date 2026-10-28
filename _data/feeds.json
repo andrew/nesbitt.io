@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-28T06:35:13Z",
-  "cutoff": "2026-09-28T06:35:08Z",
+  "generated": "2026-10-28T08:28:33Z",
+  "cutoff": "2026-09-28T08:28:28Z",
   "feed_count": 104,
   "item_count": 324,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.1.0-RC2",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-RC2",
+      "published": "2026-10-28T07:42:41Z",
+      "preview": "2.1.0-RC2",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
     {
       "title": "1.18.7",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.7",
@@ -2605,14 +2613,6 @@
       "preview": "updates and bug fixes fix: Restore cross-suffixed artifactIds in sbt 1 plugin POMs by @mkurz in #9804 fix: Restore sbt 1 plugin POM metadata by @mkurz in #9806 fix: Hash the boot classpath in sorted order by @hoangmaihuy in #9809 fix: Derive Maven paths from module and artifact names by @mkurz in #9811 fix: Restore the pipelining early output on an action-cache hit by @PhoenixmitX in #9793 fix: publishLocal must overwrite, remote publish must not by @jozanek in #9814 fix: Remove duplicate self JAR from Runtime by @eed3si9n in #9820 fix: Fixes inMemoryAnalysisCache limit by @eed3si9n in #9500 f",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "7.0.7",
-      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.7",
-      "published": "2026-09-28T07:49:21Z",
-      "preview": "What's Changed Reconcile records for removed resources by @p-linnane in #24049 Extend sandboxing to package processing by @MikeMcQuaid in #24038 Report analytics failure when debugging by @SMillerDev in #24059 Fix pkgconf infinite reinstall after macOS upgrade by @rseleven in #24061 Check extensionless scripts in style commands by @MikeMcQuaid in #24063 shims/super/cc: update swift path by @cho-m in #24065 install_steps: fix sandbox write path resolution by @kronikpillow in #24067 formula: provide fallback git identity in sandbox by @Moisan in #24066 dev-cmd/advisory-match: fix test style by @",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
