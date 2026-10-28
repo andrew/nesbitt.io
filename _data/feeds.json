@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-28T09:25:41Z",
-  "cutoff": "2026-09-28T09:25:34Z",
+  "generated": "2026-10-28T10:24:14Z",
+  "cutoff": "2026-09-28T10:24:07Z",
   "feed_count": 104,
-  "item_count": 324,
+  "item_count": 326,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.4.8",
+      "url": "https://github.com/chocolatey/choco/releases/tag/1.4.8",
+      "published": "2026-10-28T09:57:17Z",
+      "preview": "As part of this release we had 1 issue closed. Dependency Change Updated the bundled version of 7-zip to 26.05 - see #3946 by st3phhays . Contributors 1 contributors made this release possible.",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
+    {
+      "title": "2.7.5",
+      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.5",
+      "published": "2026-10-28T09:56:09Z",
+      "preview": "As part of this release we had 4 issues closed. Bug Fixes Chocolatey CLI is incorrectly reporting bad permissions on the HttpCache folder and is not setting them correctly. See #3645 by pauby , resolved in !3936 by vexx32 . upgrade --version installs a different target version after dependency resolution retry. See #3923 by kruegerkyle95 , resolved in !3934 by alexaveldanez . Fix recursive ChocolateySourceCacheContext.Dispose causing StackOverflowException. See #3944 by CheneyDu0129 , resolved in !3947 by AdmiringWorm . Dependency Change Updated the bundled version of 7-zip to 26.05. See #3945",
+      "source": "Chocolatey releases",
+      "category": "System"
+    },
     {
       "title": "44.190.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.190.2",
