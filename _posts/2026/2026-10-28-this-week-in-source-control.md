@@ -7,6 +7,7 @@ tags:
   - git
   - weekly
   - twisc
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mywlirljyu2v"
 ---
 
 Alongside package management, I follow new features and security fixes in source control clients and in the forges that host repositories, since a lot of what I build, like [git-pkgs](https://github.com/git-pkgs), reads git repositories and calls forge APIs. [This Week in Package Management](/2026/10/24/this-week-in-package-management.html) has been published every Saturday since May, and I kept putting git releases and forge news in its Elsewhere section.
