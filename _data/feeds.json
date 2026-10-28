@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-28T19:22:32Z",
-  "cutoff": "2026-09-28T19:22:26Z",
+  "generated": "2026-10-28T20:24:22Z",
+  "cutoff": "2026-09-28T20:24:17Z",
   "feed_count": 104,
   "item_count": 325,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.1.0-RC2",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-RC2",
+      "published": "2026-10-28T19:34:51Z",
+      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulerability. sbt 1.13.1 and 2.0.12 fix this bug. updates and bug fixes fix: Make configuration key cacheable by @eed3si9n in #9905 fix: Fix watch termination callbacks losing their source by @mkurz in #9901 fix: Fail a gRPC batch read when a blob fails by @eugkhp in #9904 perf: Ask a later cache store only for the blobs an earlier one lacks by @eugkhp in #9907 fix: Make logging robust against closed sb",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
     {
       "title": "v2026.10.22",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.22",
@@ -197,14 +205,6 @@
       "preview": "44.190.2 (2026-10-28) Bug Fixes deps: update renovate-base-image to v13.145.4 (main) ( #47498 ) ( 18d5a5e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "2.1.0-RC2",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-RC2",
-      "published": "2026-10-28T08:40:33Z",
-      "preview": "updates and bug fixes fix: Make configuration key cacheable by @eed3si9n in #9905 fix: Fix watch termination callbacks losing their source by @mkurz in #9901 fix: Fail a gRPC batch read when a blob fails by @eugkhp in #9904 perf: Ask a later cache store only for the blobs an earlier one lacks by @eugkhp in #9907 fix: Make logging robust against closed sbtn by @eed3si9n in #9911 fix: Fix pipelined compile hanging when compile inputs fail by @jleider in #9896 fix: Workaround compiler-interface eviction by @eed3si9n in #9913 fix: Do not cache global plugin injections by @kitbellew in #9918 fix: F",
-      "source": "sbt releases",
-      "category": "Maven"
     },
     {
       "title": "1.18.7",
