@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-28T10:24:14Z",
-  "cutoff": "2026-09-28T10:24:07Z",
+  "generated": "2026-10-28T11:23:25Z",
+  "cutoff": "2026-09-28T11:23:19Z",
   "feed_count": 104,
-  "item_count": 326,
+  "item_count": 325,
   "categories": [
     ".NET",
     "C/C++",
@@ -2621,14 +2621,6 @@
       "preview": "This is a development prerelease from the 1.19.x series. The first stable release from this branch will be 1.20.0. Security fixes: Prevent privileged overwrite of arbitrary files with an empty file or a symlink to /run/host/monitor/resolv.conf when a malicious app is installed (CVE-2026-97024, GHSA-8xgq-v545-vgvf ; thanks to Sebastian Wick) Prevent privileged deletion of arbitrary files when a malicious app is installed (CVE-2026-97023, GHSA-5p67-xh8x-rq54 ; thanks to Sebastian Wick) When downloading apps or runtimes from an OCI repository that requires authentication, don't make the authentic",
       "source": "Flatpak releases",
       "category": "System"
-    },
-    {
-      "title": "2.1.0-M3",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-M3",
-      "published": "2026-09-28T10:43:38Z",
-      "preview": "updates and bug fixes fix: Restore cross-suffixed artifactIds in sbt 1 plugin POMs by @mkurz in #9804 fix: Restore sbt 1 plugin POM metadata by @mkurz in #9806 fix: Hash the boot classpath in sorted order by @hoangmaihuy in #9809 fix: Derive Maven paths from module and artifact names by @mkurz in #9811 fix: Restore the pipelining early output on an action-cache hit by @PhoenixmitX in #9793 fix: publishLocal must overwrite, remote publish must not by @jozanek in #9814 fix: Remove duplicate self JAR from Runtime by @eed3si9n in #9820 fix: Fixes inMemoryAnalysisCache limit by @eed3si9n in #9500 f",
-      "source": "sbt releases",
-      "category": "Maven"
     }
   ]
 }
