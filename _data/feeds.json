@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-28T03:27:21Z",
-  "cutoff": "2026-09-28T03:27:15Z",
+  "generated": "2026-10-28T04:26:24Z",
+  "cutoff": "2026-09-28T04:26:19Z",
   "feed_count": 104,
   "item_count": 322,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v4.1.0.beta3: Merge pull request #9986 from ruby/release/4.1.0.beta3",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.1.0.beta3",
+      "published": "2026-10-28T04:20:31Z",
+      "preview": "Prepare RubyGems 4.1.0.beta3 and Bundler 4.1.0.beta3",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
     {
       "title": "1.18.6",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.6",
@@ -2589,14 +2597,6 @@
       "preview": "What's Changed Reconcile records for removed resources by @p-linnane in #24049 Extend sandboxing to package processing by @MikeMcQuaid in #24038 Report analytics failure when debugging by @SMillerDev in #24059 Fix pkgconf infinite reinstall after macOS upgrade by @rseleven in #24061 Check extensionless scripts in style commands by @MikeMcQuaid in #24063 shims/super/cc: update swift path by @cho-m in #24065 install_steps: fix sandbox write path resolution by @kronikpillow in #24067 formula: provide fallback git identity in sandbox by @Moisan in #24066 dev-cmd/advisory-match: fix test style by @",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "v0.398.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.398.0",
-      "published": "2026-09-28T03:51:27Z",
-      "preview": "What's Changed Fix NilClass passed to Pub cooldown in_cooldown_period? by @v-kbukum1 in #16362 Bump browserslist from 4.28.1 to 4.28.9 in /npm_and_yarn/helpers by @dependabot [bot] in #16145 Bump @humanfs/node from 0.16.6 to 0.16.8 in /bun/helpers by @dependabot [bot] in #16144 Bump js-yaml from 3.14.2 to 3.15.2 in /npm_and_yarn/helpers by @dependabot [bot] in #16236 Bump poetry from 2.4.1 to 2.4.3 in /python/helpers in the poetry group across 1 directory by @dependabot [bot] in #16193 Bump golang.org/x/mod in /go_modules/helpers by @dependabot [bot] in #16277 fix(npm_and_yarn): keep pnpm cata",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
