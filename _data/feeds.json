@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-28T05:23:53Z",
-  "cutoff": "2026-09-28T05:23:48Z",
+  "generated": "2026-10-28T06:35:13Z",
+  "cutoff": "2026-09-28T06:35:08Z",
   "feed_count": 104,
   "item_count": 324,
   "categories": [
@@ -23,10 +23,18 @@
   ],
   "items": [
     {
-      "title": "v2.0.12",
+      "title": "1.18.7",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.7",
+      "published": "2026-10-28T06:30:15Z",
+      "preview": "Security Require pip 26.2.2 or later in the shared libraries, and replace an older shared pip on the next pipx command instead of waiting for the 30-day refresh. Older pip releases bundle a certifi that still trusts the compromised eMudhra/emSign root CA ( #2197 ) by @gaborbernat . PyPI release Full Changelog",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "2.0.12",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.0.12",
-      "published": "2026-10-28T04:55:55Z",
-      "preview": "2.0.12",
+      "published": "2026-10-28T05:40:46Z",
+      "preview": "updates and bug fixes fix: End the client connection when the channel's write thread stops by @retronym in #9991 Update sbtn to 2.1.0-e5346417 in #9996 fix: Fix run task by @xuwei-k in #9963 IO 1.13.6 by @eed3si9n in #9989 Zinc 2.0.5 + IPC Socket 1.8.1 by @eed3si9n in #9993 Full Changelog : v2.0.11...v2.0.12",
       "source": "sbt releases",
       "category": "Maven"
     },
@@ -139,14 +147,6 @@
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.13",
       "published": "2026-10-27T21:43:58Z",
       "preview": "Bug fixes Accept bare and suffixed injected package names in pipx pin --skip . ( #2079 ) by @VedantBhayani and @gaborbernat Use each snapshot's recorded interpreter when pipx install-all rebuilds an environment unless the user passes --python . ( #2081 ) by @feiiiiii5 and @gaborbernat New Contributors @VedantBhayani made their first contribution in #2079 🐍 PyPI release 📜 Full Changelog",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.17.12",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.12",
-      "published": "2026-10-27T21:43:56Z",
-      "preview": "Bug fixes Stop pipx reinstall from printing a traceback when the reinstall fails for an expected reason. ( #2070 ) by @ParamTanna Stop pipx install printing WARNING: Skipping setuptools as it is not installed. when the shared libraries are created on Python 3.12+, where setuptools is already absent. ( #2071 ) by @officialpm and @gaborbernat Stop an injected package in a suffixed environment from being renamed every time its record is rewritten: pipx upgrade , pipx pin and pipx reinstall no longer append the environment suffix again, so the package keeps its name in pipx list --include-injected",
       "source": "pipx releases",
       "category": "Python"
     },
