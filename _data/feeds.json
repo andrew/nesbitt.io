@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-28T02:28:47Z",
-  "cutoff": "2026-09-28T02:28:42Z",
+  "generated": "2026-10-28T03:27:21Z",
+  "cutoff": "2026-09-28T03:27:15Z",
   "feed_count": 104,
-  "item_count": 321,
+  "item_count": 322,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.18.6",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.6",
+      "published": "2026-10-28T02:58:55Z",
+      "preview": "Bug fixes Keep the extras on a local archive named without ./ , so pipx install \"tool-1.0-py3-none-any.whl[cow]\" installs the cow extra like ./tool-1.0-py3-none-any.whl[cow] does. A version specifier, URL or environment marker after such a name now fails with an error instead of being silently dropped ( #2174 ) by @Cyber-Marty and @gaborbernat . Keep the recorded source of a local wheel when pipx runpip <venv> install passes an option value that names the package, such as --only-binary <name> , --no-binary <name> , or uv's --upgrade-package <name> ( #2166 ) by @dailyun and @gaborbernat . Read ",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "44.190.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.190.1",
+      "published": "2026-10-28T02:51:48Z",
+      "preview": "44.190.1 (2026-10-28) Bug Fixes deps: update renovate-base-image to v13.145.3 (main) ( #47494 ) ( c20d945 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.55.2 (main) ( #47493 ) ( 9d6f3d3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Hatch v1.18.2",
+      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.18.2",
+      "published": "2026-10-28T02:40:34Z",
+      "preview": "Changed: Upgrade default CPython distributions to 20261009 Added: Officially support Python 3.15. Managed Python 3.15 distributions are now the final 3.15.0 release rather than a release candidate, and the default test command matrix includes 3.15 and 3.15t Fixed: Fix syncing environment plugin requirements on standalone binaries built to forward to pip Fix the test command raising an IndexError with --cover , or silently doing nothing otherwise, when the --include or --exclude options match no environments. It now aborts with a clear message. Fix build hooks that set require-runtime-dependenc",
+      "source": "Hatch releases",
+      "category": "Python"
+    },
     {
       "title": "Hatchling v1.33.0",
       "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.33.0",
@@ -99,14 +123,6 @@
       "url": "https://github.com/pypa/pipx/releases/tag/1.17.12",
       "published": "2026-10-27T21:43:56Z",
       "preview": "Bug fixes Stop pipx reinstall from printing a traceback when the reinstall fails for an expected reason. ( #2070 ) by @ParamTanna Stop pipx install printing WARNING: Skipping setuptools as it is not installed. when the shared libraries are created on Python 3.12+, where setuptools is already absent. ( #2071 ) by @officialpm and @gaborbernat Stop an injected package in a suffixed environment from being renamed every time its record is rewritten: pipx upgrade , pipx pin and pipx reinstall no longer append the environment suffix again, so the package keeps its name in pipx list --include-injected",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.17.11",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.17.11",
-      "published": "2026-10-27T21:43:54Z",
-      "preview": "Documentation Hide the extra documentation TOC toggle on narrow screens. ( #2064 ) New Contributors @ekanshul made their first contribution in #2065 🐍 PyPI release 📜 Full Changelog",
       "source": "pipx releases",
       "category": "Python"
     },
@@ -325,14 +341,6 @@
       "preview": "What's Changed Exciting New Features 🎉 Update artifact_accessory to add source column to identify accessory by @stonezdj in #23144 feat: replace redis with valkey as cache backend by @chlins in #23157 Full Multi-Architecture Enablement for Harbor (amd64 + arm64) by @ranimandepudi in #22311 Add ListReferrers API to registry client and update parseScopes by @stonezdj in #23170 Proxy the referrer API to upstream registry with paging and local merge by @stonezdj in #23237 feat(ui): support advanced proxy cache configurations in UI by @stonezdj in #23536 feat(backend): implement proxy cache reposit",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.186.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.186.7",
-      "published": "2026-10-27T06:44:40Z",
-      "preview": "44.186.7 (2026-10-27) Bug Fixes deps: update renovate-base-image to v13.143.3 (main) ( #47457 ) ( 6a32832 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.29.4",
