@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-28T14:25:04Z",
-  "cutoff": "2026-09-28T14:24:58Z",
+  "generated": "2026-10-28T15:24:29Z",
+  "cutoff": "2026-09-28T15:24:23Z",
   "feed_count": 104,
-  "item_count": 323,
+  "item_count": 324,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.0.12",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.12",
+      "published": "2026-10-28T14:47:10Z",
+      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulerability. sbt 1.13.1 and 2.0.12 fix this bug. updates and bug fixes fix: End the client connection when the channel's write thread stops by @retronym in #9991 Update sbtn to 2.1.0-e5346417 in #9996 fix: Fix run task by @xuwei-k in #9963 IO 1.13.6 by @eed3si9n in #9989 Zinc 2.0.5 + IPC Socket 1.8.1 by @eed3si9n in #9993 Full Changelog : v2.0.11...v2.0.12",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "1.13.1",
+      "url": "https://github.com/sbt/sbt/releases/tag/v1.13.1",
+      "published": "2026-10-28T14:46:49Z",
+      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulerability. sbt 1.13.1 and 2.0.12 fix this bug. bug fixes and updates fix: Fix watch termination callbacks losing their source by @mkurz in #9902 fix: Fix task progress and logger retention across evaluations by @mkurz in #9915 fix: Fix file inputs and reloads failing after a failed load hook by @mkurz in #9926 feat: Add Terminal.withRawInput for reading single keys by @mkurz in #9948 Handle Cancellat",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "v10.3.3 🌈 Use Astral mirror for version manifests with GitHub fallback",
+      "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.3.3",
+      "published": "2026-10-28T14:35:19Z",
+      "preview": "Changes This release contains something that should have been included a very long time ago. Sorry for sleeping on that. This action now retrieves the release manifest that contains the available versions, their download links and checksums from the Astral mirror, rather than trying GitHub first. This should present much more stable. (Known checksums are still checked, so the security impact does not change) Also a big thank you to @soujasK for a set of bugfixes 👏 🐛 Bug fixes Use Astral mirror for version manifests with GitHub fallback @eifinger ( #1119 ) fix: allow whitespace in uv requiremen",
+      "source": "setup-uv releases",
+      "category": "Python"
+    },
     {
       "title": "2.34.0 (28-Oct-2026)",
       "url": "https://github.com/conan-io/conan/releases/tag/2.34.0",
@@ -69,22 +93,6 @@
       "preview": "Security Require pip 26.2.2 or later in the shared libraries, and replace an older shared pip on the next pipx command instead of waiting for the 30-day refresh. Older pip releases bundle a certifi that still trusts the compromised eMudhra/emSign root CA ( #2197 ) by @gaborbernat . PyPI release Full Changelog",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "2.0.12",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.12",
-      "published": "2026-10-28T05:40:46Z",
-      "preview": "updates and bug fixes fix: End the client connection when the channel's write thread stops by @retronym in #9991 Update sbtn to 2.1.0-e5346417 in #9996 fix: Fix run task by @xuwei-k in #9963 IO 1.13.6 by @eed3si9n in #9989 Zinc 2.0.5 + IPC Socket 1.8.1 by @eed3si9n in #9993 Full Changelog : v2.0.11...v2.0.12",
-      "source": "sbt releases",
-      "category": "Maven"
-    },
-    {
-      "title": "1.13.1",
-      "url": "https://github.com/sbt/sbt/releases/tag/v1.13.1",
-      "published": "2026-10-28T04:53:14Z",
-      "preview": "bug fixes and updates fix: Fix watch termination callbacks losing their source by @mkurz in #9902 fix: Fix task progress and logger retention across evaluations by @mkurz in #9915 fix: Fix file inputs and reloads failing after a failed load hook by @mkurz in #9926 feat: Add Terminal.withRawInput for reading single keys by @mkurz in #9948 Handle CancellationException gracefully with usePipelining by @mkurz in #8718 Make logging robust against closed sbtn by @mkurz in #9911 fix: Fix run task by @xuwei-k in #9963 fix: Release the task progress of aborted evaluations by @mkurz in #9935 fix: Don't ",
-      "source": "sbt releases",
-      "category": "Maven"
     },
     {
       "title": "v4.1.0.beta3",
@@ -506,7 +514,7 @@
       "title": "Higher limits for organization projects",
       "url": "https://blog.pypi.org/posts/2026-10-26-higher-limits-for-organization-projects/",
       "published": "2026-10-26T06:09:00Z",
-      "preview": "Projects owned by a PyPI organization now get higher limits by default: Personal projects Organization projects Largest file you can upload 100 MB 200 MB Total size of a project 10 GB 20 GB There's nothing to turn on. Every project owned by either a company or community organization gets the new limits automatically, including projects you move into an organization later. A project that leaves an organization goes back to the personal limits. Creating new projects &para; Organizations can also create up to 10 new projects per day , more than a personal account can. This isn't new, but we want ",
+      "preview": "Projects owned by a PyPI organization now get higher limits by default: Personal projects Organization projects Largest file you can upload 100 MB 200 MB Total size of a project 10 GB 20 GB There's nothing to turn on. Every project owned by either a company or community organization gets the new limits automatically, including projects you move into an organization later. A project that leaves an organization goes back to the personal limits. Creating new projects Organizations can also create up to 10 new projects per day , more than a personal account can. This isn't new, but we want to make",
       "source": "PyPI Blog",
       "category": "Python"
     },
@@ -698,7 +706,7 @@
       "title": "PyPI now limits versions to 128 characters",
       "url": "https://blog.pypi.org/posts/2026-10-23-version-length-limit/",
       "published": "2026-10-23T06:09:00Z",
-      "preview": "PyPI now rejects new uploads whose version is longer than 128 characters . This affects almost no one: across the roughly 9.9 million releases on PyPI, only 2 have a version that long. Releases that are already on PyPI stay exactly as they are, and installing them works the same as before. Why add a limit? &para; The rules for Python version numbers have never set a maximum length. Nearly every project uses short, ordinary versions. Half of all releases on PyPI have a version of 5 characters or fewer, like 1.4.2 , and 99% have 20 characters or fewer. The longest one on PyPI today is 217 charac",
+      "preview": "PyPI now rejects new uploads whose version is longer than 128 characters . This affects almost no one: across the roughly 9.9 million releases on PyPI, only 2 have a version that long. Releases that are already on PyPI stay exactly as they are, and installing them works the same as before. Why add a limit? The rules for Python version numbers have never set a maximum length. Nearly every project uses short, ordinary versions. Half of all releases on PyPI have a version of 5 characters or fewer, like 1.4.2 , and 99% have 20 characters or fewer. The longest one on PyPI today is 217 characters. V",
       "source": "PyPI Blog",
       "category": "Python"
     },
@@ -1170,7 +1178,7 @@
       "title": "Checking email reputation, and allowing Outlook again",
       "url": "https://blog.pypi.org/posts/2026-10-16-email-reputation-and-outlook/",
       "published": "2026-10-16T06:09:00Z",
-      "preview": "PyPI improves on checks for the reputation of an email address when used to register an account or add to an existing account, and rejects addresses identified as disposable. With the new check in place, outlook.com and hotmail.com addresses can once again be used on PyPI. Background &para; In June 2024 we prohibited Outlook email domains after a malware campaign registered accounts in bulk with outlook.com and hotmail.com addresses. Until now, PyPI has blocked disposable email addresses with two lists: the public disposable-email-domains list, and our own internal list of prohibited domains. ",
+      "preview": "PyPI improves on checks for the reputation of an email address when used to register an account or add to an existing account, and rejects addresses identified as disposable. With the new check in place, outlook.com and hotmail.com addresses can once again be used on PyPI. Background In June 2024 we prohibited Outlook email domains after a malware campaign registered accounts in bulk with outlook.com and hotmail.com addresses. Until now, PyPI has blocked disposable email addresses with two lists: the public disposable-email-domains list, and our own internal list of prohibited domains. Both ar",
       "source": "PyPI Blog",
       "category": "Python"
     },
@@ -1458,7 +1466,7 @@
       "title": "PyPI's developer documentation has moved to dev.pypi.org",
       "url": "https://blog.pypi.org/posts/2026-10-14-dev-docs-move-to-dev-pypi-org/",
       "published": "2026-10-14T06:09:00Z",
-      "preview": "The developer documentation for Warehouse , the codebase that powers PyPI, has moved from warehouse.pypa.io to dev.pypi.org . Existing links to warehouse.pypa.io will keep working: every page now redirects to the same page on dev.pypi.org . Why the move? &para; PyPI's other sites already live under pypi.org : user documentation at docs.pypi.org , and this blog at blog.pypi.org . The developer documentation was the odd one out. Moving it to dev.pypi.org puts all of PyPI's sites under one domain. What's on dev.pypi.org? &para; The same content that was on warehouse.pypa.io , aimed at people work",
+      "preview": "The developer documentation for Warehouse , the codebase that powers PyPI, has moved from warehouse.pypa.io to dev.pypi.org . Existing links to warehouse.pypa.io will keep working: every page now redirects to the same page on dev.pypi.org . Why the move? PyPI's other sites already live under pypi.org : user documentation at docs.pypi.org , and this blog at blog.pypi.org . The developer documentation was the odd one out. Moving it to dev.pypi.org puts all of PyPI's sites under one domain. What's on dev.pypi.org? The same content that was on warehouse.pypa.io , aimed at people working on warehou",
       "source": "PyPI Blog",
       "category": "Python"
     },
