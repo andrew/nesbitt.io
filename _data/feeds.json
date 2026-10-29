@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T12:32:33Z",
-  "cutoff": "2026-09-29T12:32:26Z",
+  "generated": "2026-10-29T13:24:47Z",
+  "cutoff": "2026-09-29T13:24:40Z",
   "feed_count": 104,
   "item_count": 326,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.195.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.195.1",
+      "published": "2026-10-29T12:47:39Z",
+      "preview": "44.195.1 (2026-10-29) Bug Fixes platform/codecommit: use default import for aws4 ( #47549 ) ( cc35d3f ) util/markdown: support four-backtick fences when sanitizing mentions ( #47550 ) ( 50e260a ) Documentation config: document the osv-offline environment variables ( #47515 ) ( 80787f1 ) Miscellaneous Chores use reproduction checkboxes in PR template and add auto:pr-reproduction label action ( #46887 ) ( 2cc2e9c ) Code Refactoring vulnerabilities: use default import for ae-cvss-calculator ( #47551 ) ( e20d797 ) Tests import CommonJS packages like Node in vitest ( #47553 ) ( edfcc93 ) Continuous",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.195.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.195.0",
@@ -325,14 +333,6 @@
       "preview": "Bug fixes Keep the extras on a local archive named without ./ , so pipx install \"tool-1.0-py3-none-any.whl[cow]\" installs the cow extra like ./tool-1.0-py3-none-any.whl[cow] does. A version specifier, URL or environment marker after such a name now fails with an error instead of being silently dropped ( #2174 ) by @Cyber-Marty and @gaborbernat . Keep the recorded source of a local wheel when pipx runpip <venv> install passes an option value that names the package, such as --only-binary <name> , --no-binary <name> , or uv's --upgrade-package <name> ( #2166 ) by @dailyun and @gaborbernat . Read ",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "44.190.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.190.1",
-      "published": "2026-10-28T02:51:48Z",
-      "preview": "44.190.1 (2026-10-28) Bug Fixes deps: update renovate-base-image to v13.145.3 (main) ( #47494 ) ( c20d945 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.55.2 (main) ( #47493 ) ( 9d6f3d3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Hatch v1.18.2",
