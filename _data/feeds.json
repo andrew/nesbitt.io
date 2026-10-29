@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T19:22:31Z",
-  "cutoff": "2026-09-29T19:22:25Z",
+  "generated": "2026-10-29T20:24:18Z",
+  "cutoff": "2026-09-29T20:24:11Z",
   "feed_count": 104,
   "item_count": 326,
   "categories": [
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "v1.12.11",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.11",
+      "published": "2026-10-29T19:37:42Z",
+      "preview": "BUG FIXES: Fixed panic when provided invalid state encryption configuration. ( #4784 )",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
       "title": "44.198.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.198.0",
       "published": "2026-10-29T18:58:15Z",
@@ -35,14 +43,6 @@
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.4",
       "published": "2026-10-29T18:35:38Z",
       "preview": "1.13.4",
-      "source": "OpenTofu releases",
-      "category": "Infrastructure as Code"
-    },
-    {
-      "title": "v1.12.11",
-      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.11",
-      "published": "2026-10-29T18:34:54Z",
-      "preview": "1.12.11",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
     },
