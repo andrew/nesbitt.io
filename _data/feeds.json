@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T17:23:05Z",
-  "cutoff": "2026-09-29T17:22:59Z",
+  "generated": "2026-10-29T18:27:57Z",
+  "cutoff": "2026-09-29T18:27:50Z",
   "feed_count": 104,
   "item_count": 324,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.197.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.197.1",
+      "published": "2026-10-29T17:37:01Z",
+      "preview": "44.197.1 (2026-10-29) Miscellaneous Chores deps: update dependency npm-run-all2 to v9.0.4 (main) ( #47565 ) ( 00857ba ) Build System deps: update dependency @renovatebot/osv-offline to v4.4.0 (main) ( #47566 ) ( 47db020 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.12.10",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.10",
@@ -283,14 +291,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.192.2",
       "published": "2026-10-28T18:33:23Z",
       "preview": "44.192.2 (2026-10-28) Build System deps: update dependency cronstrue to v3.38.0 (main) ( #47536 ) ( 16a786a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.192.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.192.1",
-      "published": "2026-10-28T18:12:18Z",
-      "preview": "44.192.1 (2026-10-28) Code Refactoring types: add MinimumReleaseAgeConfig ( #47526 ) ( 5555687 ) Build System deps: update dependency @renovatebot/good-enough-parser to v3 (main) ( #47533 ) ( 03d2709 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
