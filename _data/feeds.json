@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T20:24:18Z",
-  "cutoff": "2026-09-29T20:24:11Z",
+  "generated": "2026-10-29T22:23:22Z",
+  "cutoff": "2026-09-29T22:23:16Z",
   "feed_count": 104,
   "item_count": 326,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.18.10",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.10",
+      "published": "2026-10-29T22:11:40Z",
+      "preview": "Changes Error, warning, and help messages now state what pipx found and what to run next, without hedges such as \"already seems to be installed\" or \"Perhaps\". Update scripts that match the old message text ( #2376 ) by @gaborbernat . Bug fixes A pipx that changed its own environment, through pipx upgrade pipx or pipx reinstall pipx for example, no longer crashes with an ImportError when another pipx command empties the trash while it is still running, such as during the rest of pipx upgrade-all . The copy of its environment it imports from now stays in the trash until the process exits ( #2397",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "v1.13.5",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.5",
+      "published": "2026-10-29T21:42:59Z",
+      "preview": "1.13.5",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
     {
       "title": "v1.12.11",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.11",
@@ -427,14 +443,6 @@
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.2",
       "published": "2026-10-27T21:44:04Z",
       "preview": "Bug fixes Accept absolute file:/// URLs as package specs, such as pipx install file:///wheels/tool-1-py3-none-any.whl . ( #2150 ) by @srijan2607 and @gaborbernat In a terminal, show the pipx spinner again during installs and upgrades instead of the full pip or uv log, which --verbose still streams. Installer errors are still printed on failure. ( #2151 ) Print the installer error once when a pipx upgrade --verbose or pip pipx install --verbose fails, instead of repeating it after the live output. ( #2153 ) by @gaborbernat Stop an -all command on Ctrl-C even when the interpreter drops the inter",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.18.0",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.0",
-      "published": "2026-10-27T21:44:02Z",
-      "preview": "Features Put --suffix last, except before a Windows file extension. Apps exposed by 1.17.14 keep their old name until pipx next exposes them, which renames them. ( #2098 ) by @gaborbernat upgrade and reinstall-all refresh shared pip only after 30 days. ( #2116 ) by @gaborbernat Run pipx upgrade-shared to refresh shared pip sooner. ( #2116 ) by @gaborbernat Set PYTHON_LAZY_IMPORTS=normal to opt out; the entry point is pipx.__main__ . ( #2132 ) by @gaborbernat Defer every import, dependencies included, on Python 3.15 for faster startup. ( #2132 ) by @gaborbernat Run reinstall-all , upgrade-all a",
       "source": "pipx releases",
       "category": "Python"
     },
@@ -2541,14 +2549,6 @@
       "preview": "What's Changed Support for v2 vlt mimetype by @evert in #1929 cli-sdk: align ci allow-scripts default with install by @ruyadorno in #1908 infra-build: compile cache fallback when tmpdir is unwritable by @ruyadorno in #1911 Release v1.3.2 by @vltops in #1928 Full Changelog : v1.3.1...v1.3.2",
       "source": "vlt CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "v1.13.0",
-      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.0",
-      "published": "2026-09-30T13:57:49Z",
-      "preview": "OpenTofu 1.13.0 We're proud to announce that OpenTofu 1.13.0 is now officially available! 🎉 Highlights Windows on ARM64 is now a supported platform Starting with OpenTofu v1.13.0 we are now offering official packages targeting Windows on the ARM64 (also known as \"aarch64\") CPU architecture. Reducing unknowns during planning OpenTofu v1.13 introduces a number of new functions that are all intended to allow module authors to give OpenTofu additional hints about what they know to be true even though OpenTofu cannot infer it automatically. Linting Experiment OpenTofu v1.13 includes some very early",
-      "source": "OpenTofu releases",
-      "category": "Infrastructure as Code"
     },
     {
       "title": "8.0.0.13",
