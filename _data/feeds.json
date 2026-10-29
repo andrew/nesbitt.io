@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-29T18:27:57Z",
-  "cutoff": "2026-09-29T18:27:50Z",
+  "generated": "2026-10-29T19:22:31Z",
+  "cutoff": "2026-09-29T19:22:25Z",
   "feed_count": 104,
-  "item_count": 324,
+  "item_count": 326,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.198.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.198.0",
+      "published": "2026-10-29T18:58:15Z",
+      "preview": "44.198.0 (2026-10-29) Features deps: update renovate-base-image to v13.149.0 (main) ( #47569 ) ( 01e87b7 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.57.1 (main) ( #47567 ) ( 4b34d0c ) deps: update jdx/jactionlint action to v2.4.0 (main) ( #47568 ) ( 218c428 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v1.13.4",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.4",
+      "published": "2026-10-29T18:35:38Z",
+      "preview": "1.13.4",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "v1.12.11",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.11",
+      "published": "2026-10-29T18:34:54Z",
+      "preview": "1.12.11",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
     {
       "title": "44.197.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.197.1",
@@ -285,14 +309,6 @@
       "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulnerability. Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x wil",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.192.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.192.2",
-      "published": "2026-10-28T18:33:23Z",
-      "preview": "44.192.2 (2026-10-28) Build System deps: update dependency cronstrue to v3.38.0 (main) ( #47536 ) ( 16a786a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.17.1",
