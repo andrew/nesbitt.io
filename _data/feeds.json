@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-29T16:26:18Z",
-  "cutoff": "2026-09-29T16:26:11Z",
+  "generated": "2026-10-29T17:23:05Z",
+  "cutoff": "2026-09-29T17:22:59Z",
   "feed_count": 104,
-  "item_count": 323,
+  "item_count": 324,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,20 +23,36 @@
   ],
   "items": [
     {
-      "title": "44.196.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.196.1",
-      "published": "2026-10-29T16:22:12Z",
-      "preview": "44.196.1 (2026-10-29) Documentation minimum-release-age: document package manager integrations ( #47531 ) ( 5608a40 ) Miscellaneous Chores minimum-release-age: add minimumReleaseAgeExtracted and manager enforcement ( #47501 ) ( cf6c3de ) Build System replace the exec release commands with a local semantic-release plugin ( #47563 ) ( d27a0fe )",
+      "title": "v1.12.10",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.10",
+      "published": "2026-10-29T17:12:07Z",
+      "preview": "1.12.10",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "44.197.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.197.0",
+      "published": "2026-10-29T17:03:58Z",
+      "preview": "44.197.0 (2026-10-29) Features report: surface additional repository metadata in report ( #44683 ) ( 2ab1bb5 ) Miscellaneous Chores deps: update linters (main) ( #47441 ) ( c12fb01 ) Build System deps: update dependency node to v24.22.2 (main) ( #47564 ) ( d003cdf )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
       "title": "v1.13.3",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.3",
-      "published": "2026-10-29T15:48:18Z",
+      "published": "2026-10-29T16:48:30Z",
       "preview": "1.13.3",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
+    },
+    {
+      "title": "44.196.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.196.1",
+      "published": "2026-10-29T16:22:12Z",
+      "preview": "44.196.1 (2026-10-29) Documentation minimum-release-age: document package manager integrations ( #47531 ) ( 5608a40 ) Miscellaneous Chores minimum-release-age: add minimumReleaseAgeExtracted and manager enforcement ( #47501 ) ( cf6c3de ) Build System replace the exec release commands with a local semantic-release plugin ( #47563 ) ( d27a0fe )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
     },
     {
       "title": "44.196.0",
@@ -285,14 +301,6 @@
       "preview": "1.17.1 (October 28, 2026) BUG FIXES: fmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file. ( #39303 ) Always evaluate module policies during destroy plan ( #39455 ) stacks: report every policy result for a replaced resource instead of only one of them ( #39453 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "44.192.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.192.0",
-      "published": "2026-10-28T16:37:14Z",
-      "preview": "44.192.0 (2026-10-28) Features deps: update renovate-base-image to v13.147.0 (main) ( #47528 ) ( 859ad0d ) Miscellaneous Chores deps: update dependency markdownlint-cli2 to v0.24.0 (main) ( #47525 ) ( cf0190b ) deps: update dependency pnpm to v11.28.7 (main) ( #47524 ) ( 3587f0c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.4.8",
