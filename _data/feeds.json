@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T14:25:40Z",
-  "cutoff": "2026-09-29T14:25:33Z",
+  "generated": "2026-10-29T15:24:28Z",
+  "cutoff": "2026-09-29T15:24:22Z",
   "feed_count": 104,
   "item_count": 325,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.196.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.196.0",
+      "published": "2026-10-29T15:02:57Z",
+      "preview": "44.196.0 (2026-10-29) Features presets/monorepos: add logtape ( #46882 ) ( 9b2e538 ) presets/replacements: add replacement for de.monochromata.cucumber:reporting-plugin ( #47509 ) ( 0f0d0a4 ) presets: add SimpleWebAuthn monorepo group ( #44625 ) ( 4319d9c ) Bug Fixes manager/cargo: detect an unchanged lock file ( #47561 ) ( c4ed070 ) manager/conan: detect an unchanged lock file ( #47560 ) ( 1430baf ) presets/monorepo: add prisma/orm and prisma/prisma-cli to prisma ( #47192 ) ( cf82b5d ) Documentation FAQ: clarify Azure DevOps and GitLab.com support on Mend-hosted apps ( #47003 ) ( de04d5e ) ma",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.195.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.195.1",
@@ -301,14 +309,6 @@
       "preview": "Feature: Define /MP in CMakeToolchain for clang-cl with Visual Studio generators ( ClangCL toolset), like msvc . ( #20439 ) Feature: Reduce local cache sqlite3 DB calls (33% fewer for regular installs with cached packages). ( #20434 ) Feature: Simplify the build step terminal output, removing duplicated package references. ( #20426 ) Feature: Add CMAKE_PREFIX_PATH as fallback to CMakeConfigDeps for cases beyond the <pkg>_DIR variable. ( #20420 ). Docs: 📃 Feature: Pass original URLs to backup source remotes in the X-Conan-Origin-Urls header. ( #20385 ). Docs: 📃 Feature: Update conan new bazel_l",
       "source": "Conan releases",
       "category": "C/C++"
-    },
-    {
-      "title": "44.190.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.190.2",
-      "published": "2026-10-28T09:07:42Z",
-      "preview": "44.190.2 (2026-10-28) Bug Fixes deps: update renovate-base-image to v13.145.4 (main) ( #47498 ) ( 18d5a5e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.18.7",
