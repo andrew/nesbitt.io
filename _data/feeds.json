@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-29T02:28:45Z",
-  "cutoff": "2026-09-29T02:28:33Z",
+  "generated": "2026-10-29T03:27:45Z",
+  "cutoff": "2026-09-29T03:27:33Z",
   "feed_count": 104,
-  "item_count": 318,
+  "item_count": 324,
   "categories": [
     ".NET",
     "C/C++",
@@ -45,6 +45,30 @@
       "preview": "What's Changed Update dependency packages by alerickson in #2072 Update changelog, release notes, dependencies, and version for 1.3.0-rc2 release by shammu1 in #2075 Full Changelog : v1.3.0-rc1...v1.3.0-rc2",
       "source": "PSResourceGet releases",
       "category": ".NET"
+    },
+    {
+      "title": "1.13.1",
+      "url": "https://github.com/sbt/sbt/releases/tag/v1.13.1",
+      "published": "2026-10-28T21:13:59Z",
+      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulnerability. sbt 1.13.1 and 2.0.12 fix this bug. bug fixes and updates fix: Fix watch termination callbacks losing their source by @mkurz in #9902 fix: Fix task progress and logger retention across evaluations by @mkurz in #9915 fix: Fix file inputs and reloads failing after a failed load hook by @mkurz in #9926 feat: Add Terminal.withRawInput for reading single keys by @mkurz in #9948 Handle Cancella",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "2.0.12",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.12",
+      "published": "2026-10-28T21:13:24Z",
+      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulnerability. sbt 1.13.1 and 2.0.12 fix this bug. updates and bug fixes fix: End the client connection when the channel's write thread stops by @retronym in #9991 Update sbtn to 2.1.0-e5346417 in #9996 fix: Fix run task by @xuwei-k in #9963 IO 1.13.6 by @eed3si9n in #9989 Zinc 2.0.5 + IPC Socket 1.8.1 by @eed3si9n in #9993 Full Changelog : v2.0.11...v2.0.12",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
+      "title": "2.1.0-RC2",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-RC2",
+      "published": "2026-10-28T21:12:54Z",
+      "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulnerability. Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x wil",
+      "source": "sbt releases",
+      "category": "Maven"
     },
     {
       "title": "v2026.10.22: Project-scoped uninstall, JSONC dotfile merges, and node@lts moves to Node.js 26",
@@ -1135,6 +1159,14 @@
       "category": "Registries"
     },
     {
+      "title": "2.0.11",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.11",
+      "published": "2026-10-18T04:39:11Z",
+      "preview": "🐛 bug fixes fix: Fix AccessDeniedException writing SemanticDB by @eed3si9n in #9878 fix: Fixes .m2/settings.xml overriding sbtResolvers by @eed3si9n in #9828 fix: Keep accepting after a client fails by @kitbellew in #9691 fix: Fix task output lost by the thin client under CPU load by @eed3si9n in #9868 fix: Read all forked test output before reporting the fork's exit by @eugkhp in #9860 fix: Use Path.userHome to work around user.home returning ? by @eed3si9n in #9866 fix: Fail a gRPC batch read when a blob fails by @eugkhp in #9904 fix: Fix pipelined compile hanging when compile inputs fail by",
+      "source": "sbt releases",
+      "category": "Maven"
+    },
+    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
       "published": "2026-10-17T08:45:21Z",
@@ -1637,6 +1669,14 @@
       "preview": "Bug fixes Fail with the download error instead of crashing in mix hex.package fetch when the version isn't in the registry but a copy of it is cached Fetch the docs of organization packages in mix.lock with mix hex.docs fetch . They were requested from an organization named after the repository, such as hexpm:myorg , and never found. Packages from other repositories are skipped with a warning Reject package and organization names that hex.pm doesn't accept and invalid versions in mix hex.docs . A version such as 1.0.0/../../x on the command line or in mix.lock made mix hex.docs fetch write doc",
       "source": "Hex releases",
       "category": "Elixir"
+    },
+    {
+      "title": "2.1.0-RC1",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0-RC1",
+      "published": "2026-10-11T10:53:46Z",
+      "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Publishing sbt 2.1.0 removes Apache Ivy from its transitive dependency, and implements Ivyless publishing. This ",
+      "source": "sbt releases",
+      "category": "Maven"
     },
     {
       "title": "pnpm 12.12.1",
@@ -2229,6 +2269,14 @@
       "preview": "This release moves the WebContainer build into a separate @pnpm/wasm package, shrinks the pnpm package back to about 4 MB, and fixes pnpm publish with provenance from GitLab CI.",
       "source": "pnpm Blog",
       "category": "JavaScript"
+    },
+    {
+      "title": "2.0.10",
+      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.10",
+      "published": "2026-10-02T17:56:04Z",
+      "preview": "changes with compatibility implications sbt runner script honors JAVA_HOME environment variable by @anatoliykmetyuk in #9825 🚀 updates deps: Updates to Coursier 2.1.26, and sets user agent header by @eed3si9n in #9784 , #9852 , #9786 and #9818 🐛 bug fixes fix: Removes write permission from the CAS to prevent cache corruption by @eed3si9n in #9847 fix: Implements copy-on-write for symlinks by @eed3si9n in sbt/io#568 fix: Restores the pipelining early output on an action-cache hit by @PhoenixmitX in #9793 fix: Reads scripted pause from standard input by @anatoliykmetyuk in #9824 fix: Keeps the i",
+      "source": "sbt releases",
+      "category": "Maven"
     },
     {
       "title": "26.9.1",
