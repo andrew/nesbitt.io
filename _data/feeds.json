@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T11:23:18Z",
-  "cutoff": "2026-09-29T11:23:12Z",
+  "generated": "2026-10-29T12:32:33Z",
+  "cutoff": "2026-09-29T12:32:26Z",
   "feed_count": 104,
   "item_count": 326,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.195.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.195.0",
+      "published": "2026-10-29T11:48:53Z",
+      "preview": "44.195.0 (2026-10-29) Features presets: keep Guava on its jre or android variant ( #47554 ) ( e602628 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-27-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-10-27-a",
@@ -421,14 +429,6 @@
       "preview": "Packaging Releases now run on the shared tox-dev/github-workflows pipeline, with a locked release toolchain and generated GitHub Release notes ( #2190 ) by @gaborbernat . 🐍 PyPI release 📜 Full Changelog",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "44.190.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.190.0",
-      "published": "2026-10-27T17:45:21Z",
-      "preview": "44.190.0 (2026-10-27) Features static-data: update Node.js release schedule ( #47417 ) ( ec10d67 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.16.1",
