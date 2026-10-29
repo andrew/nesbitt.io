@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-29T10:23:53Z",
-  "cutoff": "2026-09-29T10:23:46Z",
+  "generated": "2026-10-29T11:23:18Z",
+  "cutoff": "2026-09-29T11:23:12Z",
   "feed_count": 104,
   "item_count": 326,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-27-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-10-27-a",
+      "published": "2026-10-29T10:57:13Z",
+      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-10-27-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.194.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.194.0",
+      "published": "2026-10-29T10:36:45Z",
+      "preview": "44.194.0 (2026-10-29) Features managers: add Paket manager support ( #37287 ) ( bdf434d ), closes #44914",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.10.23: Dotfile groups can apply edits, INI merges, and fnox-stored dotfiles",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.10.23",
@@ -411,14 +427,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.190.0",
       "published": "2026-10-27T17:45:21Z",
       "preview": "44.190.0 (2026-10-27) Features static-data: update Node.js release schedule ( #47417 ) ( ec10d67 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.189.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.189.0",
-      "published": "2026-10-27T17:22:10Z",
-      "preview": "44.189.0 (2026-10-27) Features vulnerabilities: allow performing lockfile only transitive security updates ( #46391 ) ( 4718945 ), closes #47478 Miscellaneous Chores deps: migrate to jactionlint ( #47427 ) ( 3fd9c27 ) deps: pin GitHub Actions lockfile ( #47429 ) ( 331056f ) deps: use self-repository reference for Actions ( #47428 ) ( 839eab1 ) Continuous Integration actions/setup-docker: remove useless use of cat ( #47425 ) ( f629d9c ) actions/setup-node: ignore SC2016 findings ( #47426 ) ( 70366a8 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1211,14 +1219,6 @@
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
       "published": "2026-10-16T13:13:53Z",
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-14-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-14-a",
-      "published": "2026-10-16T08:48:25Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-14-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
     },
