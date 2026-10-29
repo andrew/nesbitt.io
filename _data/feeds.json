@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-29T09:25:47Z",
-  "cutoff": "2026-09-29T09:25:40Z",
+  "generated": "2026-10-29T10:23:53Z",
+  "cutoff": "2026-09-29T10:23:46Z",
   "feed_count": 104,
-  "item_count": 323,
+  "item_count": 326,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,20 +23,60 @@
   ],
   "items": [
     {
+      "title": "v2026.10.23: Dotfile groups can apply edits, INI merges, and fnox-stored dotfiles",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.23",
+      "published": "2026-10-29T10:12:05Z",
+      "preview": "Dotfile groups can now carry block, line and merge edits, merge entries work on INI files, and mode = \"fnox\" deploys files kept encrypted in fnox. mise secrets also no longer lets a project grant itself keys from your personal fnox config. The rest of the release adds compact-index version listing for gem sources such as GitHub Packages, plus fixes for uninstall, lockfiles, command wrappers, Windows and MSYS2. Added Edits inside dotfile groups. A [dotfile_groups.<name>.entries] table can now hold block, line and merge edits alongside whole-file entries. These edits apply only on machines that ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "get-pnpm@0.0.11",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/get-pnpm%400.0.11",
+      "published": "2026-10-29T10:07:15Z",
+      "preview": "=0.0.11",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "2.2.31",
+      "url": "https://github.com/composer/composer/releases/tag/2.2.31",
+      "published": "2026-10-29T09:35:29Z",
+      "preview": "Security: Fixed package names in vendor/composer/installed.json being able to escape the vendor directory during install and reinstall ( GHSA-c968-33g3-wh7p ) Security: Fixed inline repository HTTP headers, such as API tokens, being written into composer.lock ( GHSA-fm2w-xgf2-f9fh ) Security: Reject TLS connections presenting distrusted intermediate certificates, composer/ca-bundle 1.4.16+ is now required ( #13147 ) Security: Fixed additional arguments passed to @composer scripts not being escaped ( #13170 ) Security: Fixed repository transport options such as custom http headers being sent to",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "2.11.0",
+      "url": "https://github.com/composer/composer/releases/tag/2.11.0",
+      "published": "2026-10-29T09:35:10Z",
+      "preview": "Read the Composer 2.11 Release Announcement for more details on the release highlights. Full Changelog BC Break: Removed the source-fallback config option which was added in 2.10 as a temporary measure, dist installs no longer fall back to source ( #13050 ) Security: Fixed package names in vendor/composer/installed.json being able to escape the vendor directory during install and reinstall ( GHSA-c968-33g3-wh7p ) Security: Fixed inline repository HTTP headers, such as API tokens, being written into composer.lock ( GHSA-fm2w-xgf2-f9fh ) Security: Fixed additional arguments passed to @composer s",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "Composer 2.11",
+      "url": "https://blog.packagist.com/composer-2-11-release/",
+      "published": "2026-10-29T09:34:57Z",
+      "preview": "We are pleased to announce the release of Composer 2.11.0 . The highlight of this release is the new cooldown dependency policy, which withholds newly published package versions for a configurable period of time before Composer will install them. Composer 2.11 also ships several security fixes, removes the",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "44.193.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.193.1",
+      "published": "2026-10-29T09:34:28Z",
+      "preview": "44.193.1 (2026-10-29) Bug Fixes dashboard: keep dependencyDashboardIssue in sync with the open dashboard ( #47324 ) ( f269819 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "44.193.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.193.0",
       "published": "2026-10-29T08:42:09Z",
       "preview": "44.193.0 (2026-10-29) Features presets: add oxfmt to packages:linters ( #47383 ) ( e39f379 ) Documentation types: add supportsTransitiveRemediation ( #47505 ) ( 4f92c59 ), closes #46377 types: add a type for Vulnerability Alerts' sources ( #47504 ) ( 6bdc798 ), closes #44153 #45486 #46378",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.10.23",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.23",
-      "published": "2026-10-29T08:32:28Z",
-      "preview": "(dotfiles) apply block, line, and merge edits from a dotfile gr…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-daemons-v2026.10.10",
@@ -379,14 +419,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.189.0",
       "published": "2026-10-27T17:22:10Z",
       "preview": "44.189.0 (2026-10-27) Features vulnerabilities: allow performing lockfile only transitive security updates ( #46391 ) ( 4718945 ), closes #47478 Miscellaneous Chores deps: migrate to jactionlint ( #47427 ) ( 3fd9c27 ) deps: pin GitHub Actions lockfile ( #47429 ) ( 331056f ) deps: use self-repository reference for Actions ( #47428 ) ( 839eab1 ) Continuous Integration actions/setup-docker: remove useless use of cat ( #47425 ) ( f629d9c ) actions/setup-node: ignore SC2016 findings ( #47426 ) ( 70366a8 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.188.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.188.4",
-      "published": "2026-10-27T16:07:10Z",
-      "preview": "44.188.4 (2026-10-27) Bug Fixes deps: update renovate-base-image to v13.145.2 (main) ( #47480 ) ( 78734cb )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -917,14 +949,6 @@
       "preview": "Bug fixes Require certifi >=2026.10.19 and ca-certificates >=2026.10.19 to update the packaged CA bundles following the eMudhra intermediate CA compromise. ( #16880 via #16881 ) Contributors @jezdez Full Changelog : 26.9.3...26.9.4",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "pnpm 11.28.7",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.7",
-      "published": "2026-10-21T11:17:06Z",
-      "preview": "This release rejects registry metadata that names a different package than the one requested, applies trustPolicy to the pnpm version a project pins, and caps unpacked package size with maxTarballUnpackedSize . It also removes support for registry revisions, fixes verifyDepsBeforeRun after filtered installs, and finishes commands with their own exit code when a pipe reader exits early. Patch Changes Security pnpm now fails with ERR_PNPM_REGISTRY_NAME_MISMATCH if a registry returns metadata for a package other than the one requested. Before, pnpm installed the package under the name in the meta",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "pnpm 12.15",
