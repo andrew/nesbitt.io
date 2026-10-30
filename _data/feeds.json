@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-30T05:24:16Z",
-  "cutoff": "2026-09-30T05:24:10Z",
+  "generated": "2026-10-30T08:28:15Z",
+  "cutoff": "2026-09-30T08:28:09Z",
   "feed_count": 104,
-  "item_count": 324,
+  "item_count": 323,
   "categories": [
     ".NET",
     "C/C++",
@@ -2605,14 +2605,6 @@
       "preview": "Fix changelogs",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "v4.0.22",
-      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.22",
-      "published": "2026-09-30T08:06:14Z",
-      "preview": "RubyGems 4.0.22 Enhancements: Add --source option to gem exec command. Pull request #9765 by Akshay Birajdar Keep credentials on redirects only within the same origin. Pull request #9909 by Hiroshi SHIBATA Validate the version field in Gem::Installer#verify_spec. Pull request #9890 by Hiroshi SHIBATA Installs bundler 4.0.22 as a default gem. Bug fixes: Remove the build_info file on uninstall and stop gem build from logging unknown extensions. Pull request #9894 by Hiroshi SHIBATA Bundler 4.0.22 Enhancements: Report the effective platform in bundle platform . Pull request #9898 by Islam Elsayed",
-      "source": "RubyGems releases",
-      "category": "Ruby"
     }
   ]
 }
