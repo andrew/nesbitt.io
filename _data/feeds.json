@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-29T22:23:22Z",
-  "cutoff": "2026-09-29T22:23:16Z",
+  "generated": "2026-10-30T00:48:28Z",
+  "cutoff": "2026-09-30T00:48:23Z",
   "feed_count": 104,
-  "item_count": 326,
+  "item_count": 324,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2026-10-29 Release",
+      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-10-29",
+      "published": "2026-10-29T23:42:49Z",
+      "preview": "What's Changed Address host/target choosing different versions in the x-update-baseline diff by Billy O'Neal (@BillyONeal) in #2151 Test-Json: -FetchExternalReference by Billy O'Neal (@BillyONeal) in #2164 Fix x-package-info always exiting with failure by autoantwort in #2167 Add JSON output to depend-info by autoantwort in #2168 Don't open the source exclusively in copy_file with skip_existing. by Akshat Lakhera (@akshat-lakhera) in #2165 Fix depend-info JSON crash in manifest mode with versioned ports by autoantwort in #2173 Dependency Updates Bump the github-actions group with 2 updates by ",
+      "source": "vcpkg releases",
+      "category": "C/C++"
+    },
+    {
+      "title": "v1.6.1",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.6.1",
+      "published": "2026-10-29T23:33:22Z",
+      "preview": "What's Changed package-info: fix cold install of hosted git deps with a ref by @ruyadorno in #2057 query: fix #name selection by @ruyadorno in #2009 docs: update pnpm12 mirror notes by @vltbaudbot in #1893 package-info: keep .tar.br integrity on store hits by @ruyadorno in #2011 docs: lint agent skill docs links and frontmatter by @ruyadorno in #2012 cli-sdk: make offline telemetry fail fast and quietly by @ruyadorno in #2014 cli-sdk: include nested files matched by files globs in pack by @ruyadorno in #2032 dot-prop: don't splice array index 0 when deleting a missing property by @pujitha24 in",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
+    },
     {
       "title": "1.18.10",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.10",
@@ -2543,14 +2559,6 @@
       "category": "Registries"
     },
     {
-      "title": "v1.3.2",
-      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.2",
-      "published": "2026-09-30T17:51:15Z",
-      "preview": "What's Changed Support for v2 vlt mimetype by @evert in #1929 cli-sdk: align ci allow-scripts default with install by @ruyadorno in #1908 infra-build: compile cache fallback when tmpdir is unwritable by @ruyadorno in #1911 Release v1.3.2 by @vltops in #1928 Full Changelog : v1.3.1...v1.3.2",
-      "source": "vlt CLI releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "8.0.0.13",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.0.0.13",
       "published": "2026-09-30T12:36:12Z",
@@ -2605,30 +2613,6 @@
       "preview": "✨ Highlights This release contains changes that may be considered breaking. Manifest authors should review: checkver GitHub mode requires explicit github: key ( #6641 ): manifests using url: with a GitHub URL for checkver must switch to github: to opt into the GitHub token path. Token usage is now scoped to explicit github mode only. checkver GitHub mode defaults changed ( #6653 ): new default jsonpath / regex for GitHub-based version checks. checkver.script behavior is affected — verify scripts still resolve the expected version. install.json / manifest.json renamed to scoop-install.json / sc",
       "source": "Scoop releases",
       "category": "System"
-    },
-    {
-      "title": "2027 Applications for Contractors are Open",
-      "url": "https://thephp.foundation/blog/2026/09/30/applications-for-2027-are-open/",
-      "published": "2026-09-30T00:00:00Z",
-      "preview": "As we have done in past years, The PHP Foundation is opening applications for contractors for 2027. Foundation contractors are responsible for a variety of core development areas, and we are open to hearing your ideas. The application form will be open until October 20, 2026, end of day, Anywhere on Earth (AoE). Apply Now What are the requirements? Note: This is not a job for PHP developers or aspiring PHP developers. PHP is written in the C programming language, and as such, this role requires C and systems programming experience. Ideally, you will have: Pull requests or commits to php/php-sr",
-      "source": "PHP Foundation Blog",
-      "category": "PHP"
-    },
-    {
-      "title": "4.0.22 Released",
-      "url": "https://blog.rubygems.org/2026/09/30/4.0.22-released.html",
-      "published": "2026-09-30T00:00:00Z",
-      "preview": "RubyGems 4.0.22 includes enhancements and bug fixes and Bundler 4.0.22 includes enhancements, bug fixes and documentation. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.22 RubyGems Release Notes Enhancements: Add –source option to gem exec command. Pull request #9765 by Akshay Birajdar Keep credentials on redirects only within the same origin. Pull request #9909 by Hiroshi SHIBATA Validate the version field in Gem::Installer#verify_spec. Pull request #9890 by Hiroshi",
-      "source": "RubyGems Blog",
-      "category": "Ruby"
-    },
-    {
-      "title": "pnpm 12.8.2",
-      "url": "https://pnpm.io/blog/releases/12.8.2",
-      "published": "2026-09-30T00:00:00Z",
-      "preview": "pnpm 12.8.2 fixes a startup crash on Linux ppc64le and UnknownIssuer errors on systems without CA certificates. pnpm run no longer installs before every script on CI when autoDedupe is enabled, and resolution and hoisted installs on macOS are faster.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
