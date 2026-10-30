@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-30T15:22:49Z",
-  "cutoff": "2026-09-30T15:22:44Z",
+  "generated": "2026-10-30T19:21:41Z",
+  "cutoff": "2026-09-30T19:21:35Z",
   "feed_count": 104,
-  "item_count": 321,
+  "item_count": 320,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-10-30T19:03:02Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "9.9.0 RC1",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.9.0-RC1",
@@ -541,14 +549,6 @@
       "preview": "This release fixes pnpm install hanging on a cold store in workspaces that install Cargo crates, and pnpm pack shipping a file that files excludes by name. Patch Changes pnpm install no longer hangs on a cold store in a workspace that also installs Cargo crates or a Rust toolchain. pnpm pack and pnpm publish now apply a files entry that names a file after the glob and directory entries, as npm does. A file excluded by name, such as !dist/index.js , stays out even when a later dist/** matches it. A file named by its path, such as lib/secret.js , ships even when a later !lib/*.js matches it. pnp",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-27T15:03:39Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "20261027t132200-all",
@@ -2581,14 +2581,6 @@
       "preview": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.99.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.99.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "cabal-install-v3.18.2.0",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-install-v3.18.2.0",
-      "published": "2026-09-30T18:28:13Z",
-      "preview": "No content.",
-      "source": "Cabal releases",
-      "category": "Registries"
     }
   ]
 }
