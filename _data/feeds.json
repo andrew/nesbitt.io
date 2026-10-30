@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-30T19:21:41Z",
-  "cutoff": "2026-09-30T19:21:35Z",
+  "generated": "2026-10-30T21:21:48Z",
+  "cutoff": "2026-09-30T21:21:44Z",
   "feed_count": 104,
   "item_count": 320,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpm 11.28.10",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.10",
+      "published": "2026-10-30T21:18:23Z",
+      "preview": "pnpm 11.28.10 stops pnpm store prune from deleting other stores when cacheDir points to their parent directory. It also fixes globally installed commands that load hoisted dependencies, and repeat installs that missed changes to local dependencies. Patch Changes Installing packages pnpm store prune preserves other stores and global package data when cacheDir points to their parent directory. Commands installed with pnpm add --global now find the dependencies that pnpm hoists for their package. A package that loads a dependency it does not declare, such as a native addon's platform-specific pac",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -53,14 +61,6 @@
       "preview": "Added a warning when the cache dir is on a Windows drive while running in WSL, as this makes filesystem operations very slow ( #13175 ) Fixed GitLab CI job tokens failing to authenticate against the GitLab Composer package registry, which requires HTTP Basic auth rather than the JOB-TOKEN header ( #13180 ) Fixed every update aborting with a SecurityException when a PHP extension reports a name that is not a valid platform package name ( #13184 ) Fixed require and remove dropping empty require / require-dev / repositories keys from composer.json when the command had not emptied them itself ( #1",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "v11.28.10",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.10",
-      "published": "2026-10-30T14:04:02Z",
-      "preview": "=v11.28.10",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "44.198.2",
