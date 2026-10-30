@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-30T00:48:28Z",
-  "cutoff": "2026-09-30T00:48:23Z",
+  "generated": "2026-10-30T02:29:01Z",
+  "cutoff": "2026-09-30T02:28:56Z",
   "feed_count": 104,
-  "item_count": 324,
+  "item_count": 325,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.29.5",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.5",
+      "published": "2026-10-30T01:34:13Z",
+      "preview": "Bug Fixes Preserve archive subdirectories when writing or exporting pylock.toml. ( #3964 ) Preserve extras and environment markers on local, URL, Git, and workspace file requirements when translating dependencies for uv. ( #3965 ) Preserve Git source subdirectories and encoded refs when generating, reusing, and reading uv lockfiles. ( #3966 ) Allow sorting installed packages by optional metadata such as homepage when some values are missing or unknown. ( #3967 ) Fill the Homepage in pdm show from the Homepage Project-URL, and stop pdm show failing on a Project-URL that contains a comma. ( #396",
+      "source": "PDM releases",
+      "category": "Python"
+    },
     {
       "title": "2026-10-29 Release",
       "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-10-29",
