@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-30T21:21:48Z",
-  "cutoff": "2026-09-30T21:21:44Z",
+  "generated": "2026-10-30T22:21:50Z",
+  "cutoff": "2026-09-30T22:21:45Z",
   "feed_count": 104,
   "item_count": 320,
   "categories": [
@@ -165,6 +165,14 @@
       "preview": "Bug Fixes Preserve archive subdirectories when writing or exporting pylock.toml. ( #3964 ) Preserve extras and environment markers on local, URL, Git, and workspace file requirements when translating dependencies for uv. ( #3965 ) Preserve Git source subdirectories and encoded refs when generating, reusing, and reading uv lockfiles. ( #3966 ) Allow sorting installed packages by optional metadata such as homepage when some values are missing or unknown. ( #3967 ) Fill the Homepage in pdm show from the Homepage Project-URL, and stop pdm show failing on a Project-URL that contains a comma. ( #396",
       "source": "PDM releases",
       "category": "Python"
+    },
+    {
+      "title": "pnpm 11.28.10",
+      "url": "https://pnpm.io/blog/releases/11.28.10",
+      "published": "2026-10-30T00:00:00Z",
+      "preview": "pnpm 11.28.10 stops pnpm store prune from deleting other stores when cacheDir points to their parent directory. It also fixes globally installed commands that load hoisted dependencies, and repeat installs that missed changes to local dependencies.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "pnpm 12.17.0",
@@ -2461,14 +2469,6 @@
       "preview": null,
       "source": "Zig News",
       "category": "Registries"
-    },
-    {
-      "title": "pnpm 12.9.0",
-      "url": "https://pnpm.io/blog/releases/12.9.0",
-      "published": "2026-10-02T00:00:00Z",
-      "preview": "This release runs pnpm in StackBlitz WebContainers, adds a per-registry networkConcurrency setting, and records every installed project in the store. It also carries a security fix for pnpm login.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     },
     {
       "title": "v1.3.4",
