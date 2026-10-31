@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-31T19:21:34Z",
-  "cutoff": "2026-10-01T19:21:28Z",
+  "generated": "2026-10-31T21:21:51Z",
+  "cutoff": "2026-10-01T21:21:46Z",
   "feed_count": 104,
-  "item_count": 309,
+  "item_count": 306,
   "categories": [
     ".NET",
     "C/C++",
@@ -2469,30 +2469,6 @@
       "preview": null,
       "source": "Zig News",
       "category": "Registries"
-    },
-    {
-      "title": "v1.3.4",
-      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.4",
-      "published": "2026-10-01T21:16:13Z",
-      "preview": "What's Changed package-info, registry-client: verify remote tarballs against their stored integrity by @ruyadorno in #1898 graph: mark appendNodes entries seen at enqueue by @ruyadorno in #1910 graph: hardlink install-script packages, copy them only before their scripts run by @ruyadorno in #1918 Using the vlt resolve endpoints for server-side graph resolution by @evert in #1932 Release v1.3.4 by @vltops in #1933 Full Changelog : v1.3.3...v1.3.4",
-      "source": "vlt CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v29.9.0-rc.1",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.0-rc.1",
-      "published": "2026-10-01T20:56:17Z",
-      "preview": "29.9.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.9.0 milestone moby/moby, 29.9.0 milestone Bug fixes and enhancements containerd image store: Fix pulls skipping required layer blobs when unpacked layers already exist, leaving images runnable but incomplete for export or push. moby/moby#53615 Fix docker container create --name reporting a misleading validation error mentioning invalid characters instead of invalid name length. moby/moby#53484 Fix a connection leak to the RootlessKit API socket on every GET /version",
-      "source": "Docker Engine releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.0.0-beta.25",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.25",
-      "published": "2026-10-01T20:46:40Z",
-      "preview": "v2.0.0-beta.25",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
