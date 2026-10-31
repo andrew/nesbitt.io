@@ -8,6 +8,7 @@ tags:
   - security
   - registries
   - deep-dive
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mz5xeuabn72z"
 ---
 
 Package signing and attestations are two ways of attaching evidence to a published artifact so that someone downloading it later can check where it came from. A signature binds the bytes to a key, either the registry's or the author's. A provenance attestation is a signed statement about where an artifact came from, usually in-toto and signed through [Sigstore](https://www.sigstore.dev/). SLSA build provenance names the source repository, commit and build workflow, while a publish attestation such as PyPI's records which trusted publisher uploaded the file.
