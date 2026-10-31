@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-31T00:39:45Z",
-  "cutoff": "2026-10-01T00:39:39Z",
+  "generated": "2026-10-31T03:22:33Z",
+  "cutoff": "2026-10-01T03:22:28Z",
   "feed_count": 104,
-  "item_count": 319,
+  "item_count": 318,
   "categories": [
     ".NET",
     "C/C++",
@@ -2565,14 +2565,6 @@
       "preview": "✨ Special announcements ✨ Upcoming change to automatic pip installation Conda 26.9 marks the implicit installation of pip alongside Python as pending deprecation. It remains enabled by default in this release. The behavior becomes deprecated in conda 27.3, and add_pip_as_python_dependency will default to false in conda 27.9. The setting itself remains supported. If your environments need pip, request it explicitly, for example with conda create -n myenv python pip . To retain automatic installation, run conda config --set add_pip_as_python_dependency true . To opt out early, run conda config -",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v1.3.3",
-      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.3",
-      "published": "2026-10-01T02:37:39Z",
-      "preview": "What's Changed graph: memoize node paths, create reify symlinks synchronously by @ruyadorno in #1915 graph: skip needless rm and unsupported optional deps in reify by @ruyadorno in #1914 package-info: serve fresh moving-selector packuments during installs by @ruyadorno in #1913 Release v1.3.3 by @vltops in #1931 Full Changelog : v1.3.2...v1.3.3",
-      "source": "vlt CLI releases",
-      "category": "JavaScript"
     }
   ]
 }
