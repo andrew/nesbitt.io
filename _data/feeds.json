@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-31T03:22:33Z",
-  "cutoff": "2026-10-01T03:22:28Z",
+  "generated": "2026-10-31T07:22:03Z",
+  "cutoff": "2026-10-01T07:21:58Z",
   "feed_count": 104,
-  "item_count": 318,
+  "item_count": 317,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2026-10-29 Release",
+      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-10-29",
+      "published": "2026-10-31T06:49:16Z",
+      "preview": "What's Changed Address host/target choosing different versions in the x-update-baseline diff by Billy O'Neal (@BillyONeal) in #2151 Test-Json: -FetchExternalReference by Billy O'Neal (@BillyONeal) in #2164 Fix x-package-info always exiting with failure by autoantwort in #2167 Add JSON output to depend-info by autoantwort in #2168 Don't open the source exclusively in copy_file with skip_existing. by Akshat Lakhera (@akshat-lakhera) in #2165 Fix depend-info JSON crash in manifest mode with versioned ports by autoantwort in #2173 Dependency Updates Bump the github-actions group with 2 updates by ",
+      "source": "vcpkg releases",
+      "category": "C/C++"
+    },
     {
       "title": "1.18.11",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.11",
@@ -197,14 +205,6 @@
       "preview": "pnpm 12.17.0 adds pnpm peers check --global, dependency-group selectors and wildcards in overrides, and runtime, package manager, Cargo, and Python updates in pnpm outdated and pnpm update. It also fixes files that other users could not read in Docker images, and repeat installs that missed...",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "2026-10-29 Release",
-      "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-10-29",
-      "published": "2026-10-29T23:42:49Z",
-      "preview": "What's Changed Address host/target choosing different versions in the x-update-baseline diff by Billy O'Neal (@BillyONeal) in #2151 Test-Json: -FetchExternalReference by Billy O'Neal (@BillyONeal) in #2164 Fix x-package-info always exiting with failure by autoantwort in #2167 Add JSON output to depend-info by autoantwort in #2168 Don't open the source exclusively in copy_file with skip_existing. by Akshat Lakhera (@akshat-lakhera) in #2165 Fix depend-info JSON crash in manifest mode with versioned ports by autoantwort in #2173 Dependency Updates Bump the github-actions group with 2 updates by ",
-      "source": "vcpkg releases",
-      "category": "C/C++"
     },
     {
       "title": "v1.6.1",
@@ -2557,14 +2557,6 @@
       "preview": "🚀 New features and improvements Maven 3.10.x should use Maven 3.1 validation in strict mode ( #1542 ) @gnodet Do not depend on maven-resolver-supplier-mvn3 ( #13266 ) @cstamas [MNG-6797] - Remember if Maven model problems were encountered. ( #298 ) @wilx feat: add relativePath validation ( #12742 ) @cstamas Add validation for Plexus-based plugin dependency injection ( #12651 ) @slawekjaranowski Introduce validation control ( #12549 ) @cstamas Update to Resolver 2.0.21 ( #12504 ) @cstamas [MNG-5913] - Allow defining aliases for existing server configurations in settings.xml ( #12475 ) @slawekja",
       "source": "Maven releases",
       "category": "Maven"
-    },
-    {
-      "title": "26.9.0",
-      "url": "https://github.com/conda/conda/releases/tag/26.9.0",
-      "published": "2026-10-01T07:17:01Z",
-      "preview": "✨ Special announcements ✨ Upcoming change to automatic pip installation Conda 26.9 marks the implicit installation of pip alongside Python as pending deprecation. It remains enabled by default in this release. The behavior becomes deprecated in conda 27.3, and add_pip_as_python_dependency will default to false in conda 27.9. The setting itself remains supported. If your environments need pip, request it explicitly, for example with conda create -n myenv python pip . To retain automatic installation, run conda config --set add_pip_as_python_dependency true . To opt out early, run conda config -",
-      "source": "Conda releases",
-      "category": "Multi-language"
     }
   ]
 }
