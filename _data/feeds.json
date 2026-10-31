@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-30T23:21:42Z",
-  "cutoff": "2026-09-30T23:21:35Z",
+  "generated": "2026-10-31T00:39:45Z",
+  "cutoff": "2026-10-01T00:39:39Z",
   "feed_count": 104,
-  "item_count": 320,
+  "item_count": 319,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.18.11",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.11",
+      "published": "2026-10-30T23:34:03Z",
+      "preview": "Bug fixes Fetch fresh standalone Python release data when the cached index is invalid or unreadable ( #2404 ) by @hemcharan710-afk and @gaborbernat . pipx pin now lists the packages it pins without --injected-only or --skip ( #2405 ) by @hemcharan710-afk and @gaborbernat . PyPI release Full Changelog",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "44.198.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.198.3",
@@ -533,14 +541,6 @@
       "preview": "What's Changed Ignore commented-out _authToken lines in .npmrc by @alhss in #16550 Fix wording in Docker and updater specs by @JamieMagee in #16633 bun: scope workspace-only dependency installs/updates with --filter by @v-sachin-sandhu in #16543 Skip public PyPI library lookup when a python_index credential has replaces-base by @v-thavaahariharangit with @Copilot in #16619 Classify pnpm errors that currently surface as unknown errors by @v-sachin-sandhu in #16643 Add support for apm lockfile regeneration and pinning deps to commit sha by @v-abhishekbhaskar in #16514 update Python 3.14 and 3.13",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "1.18.1",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.1",
-      "published": "2026-10-27T20:16:51Z",
-      "preview": "Bug fixes Stop pip and uv when Ctrl-C lands early, instead of hanging. ( #2146 ) by @gaborbernat 🐍 PyPI release 📜 Full Changelog",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "1.18.5",
@@ -2573,14 +2573,6 @@
       "preview": "What's Changed graph: memoize node paths, create reify symlinks synchronously by @ruyadorno in #1915 graph: skip needless rm and unsupported optional deps in reify by @ruyadorno in #1914 package-info: serve fresh moving-selector packuments during installs by @ruyadorno in #1913 Release v1.3.3 by @vltops in #1931 Full Changelog : v1.3.2...v1.3.3",
       "source": "vlt CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "Announcing Rust 1.99.0",
-      "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0/",
-      "published": "2026-10-01T00:00:00Z",
-      "preview": "The Rust team is happy to announce a new version of Rust, 1.99.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.99.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.99.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default night",
-      "source": "Rust Blog",
-      "category": "Rust"
     }
   ]
 }
