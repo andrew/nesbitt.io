@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-31T07:22:03Z",
-  "cutoff": "2026-10-01T07:21:58Z",
+  "generated": "2026-10-31T09:04:48Z",
+  "cutoff": "2026-10-01T09:04:41Z",
   "feed_count": 104,
-  "item_count": 317,
+  "item_count": 316,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,86 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.10.25",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.25",
+      "published": "2026-10-31T08:26:09Z",
+      "preview": "(bootstrap) report which tool manages each installed cask in st…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-daemons-v2026.10.12",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.10.12",
+      "published": "2026-10-31T08:25:41Z",
+      "preview": "Release mise-daemons 2026.10.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.10.12",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.12",
+      "published": "2026-10-31T08:25:24Z",
+      "preview": "Release mise-oci 2026.10.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.10.12",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.12",
+      "published": "2026-10-31T08:25:05Z",
+      "preview": "Release mise-system 2026.10.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.10.25",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.25",
+      "published": "2026-10-31T08:24:24Z",
+      "preview": "Release vfox 2026.10.25",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.10.12",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.12",
+      "published": "2026-10-31T08:23:51Z",
+      "preview": "Release mise-system-packages 2026.10.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.10.12",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.12",
+      "published": "2026-10-31T08:23:30Z",
+      "preview": "Release mise-ui 2026.10.12",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.10.25",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.25",
+      "published": "2026-10-31T08:23:11Z",
+      "preview": "Release mise-util 2026.10.25",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.10.11",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.11",
+      "published": "2026-10-31T08:22:31Z",
+      "preview": "Release mise-sigstore 2026.10.11",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.10.25",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.25",
+      "published": "2026-10-31T08:22:14Z",
+      "preview": "Release mise-settings 2026.10.25",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "2026-10-29 Release",
       "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-10-29",
@@ -101,86 +181,6 @@
       "preview": "44.198.1 (2026-10-30) Bug Fixes datasource/go: treat modules with go-proxy host rule credentials as private ( #47045 ) ( 9594e41 ) Code Refactoring cache: separate privacy and result caching decisions ( #47166 ) ( a854b70 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.10.24: Container daemons, append-position PATH entries, and extra CA certificates",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.24",
-      "published": "2026-10-30T10:15:02Z",
-      "preview": "Experimental daemons can now run container images with Docker or Podman, and named preset ports can get their own port per worktree. This release also adds position = \"append\" for env._.path , an extra_ca_certs setting for TLS-inspecting proxies, and a registry_index option for locking pypi: tools. It fixes several lockfile, PyPI, Homebrew and task issues. Added Container images as daemons (experimental). A custom daemon with an image key runs through docker run or podman run . It supports ports, readiness checks, depends , the proxy and mise daemons logs , just like other daemons. Every port ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-oci-v2026.10.11",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.10.11",
-      "published": "2026-10-30T08:32:21Z",
-      "preview": "Release mise-oci 2026.10.11",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.10.11",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.10.11",
-      "published": "2026-10-30T08:31:59Z",
-      "preview": "Release mise-system 2026.10.11",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.10.24",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.10.24",
-      "published": "2026-10-30T08:31:34Z",
-      "preview": "Release vfox 2026.10.24",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.10.11",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.10.11",
-      "published": "2026-10-30T08:31:00Z",
-      "preview": "Release mise-system-packages 2026.10.11",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.10.11",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.10.11",
-      "published": "2026-10-30T08:30:39Z",
-      "preview": "Release mise-ui 2026.10.11",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.10.24",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.10.24",
-      "published": "2026-10-30T08:30:21Z",
-      "preview": "Release mise-util 2026.10.24",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.10.10",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.10.10",
-      "published": "2026-10-30T08:29:40Z",
-      "preview": "Release mise-sigstore 2026.10.10",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.10.24",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.10.24",
-      "published": "2026-10-30T08:29:21Z",
-      "preview": "Release mise-settings 2026.10.24",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-tls-v2026.10.4",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-tls-v2026.10.4",
-      "published": "2026-10-30T08:28:00Z",
-      "preview": "Release mise-tls 2026.10.4",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v2.29.5",
@@ -2549,14 +2549,6 @@
       "preview": "Deployment at 2026-10-01T11:14:55.901518Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "3.10.0",
-      "url": "https://github.com/apache/maven/releases/tag/maven-3.10.0",
-      "published": "2026-10-01T08:29:33Z",
-      "preview": "🚀 New features and improvements Maven 3.10.x should use Maven 3.1 validation in strict mode ( #1542 ) @gnodet Do not depend on maven-resolver-supplier-mvn3 ( #13266 ) @cstamas [MNG-6797] - Remember if Maven model problems were encountered. ( #298 ) @wilx feat: add relativePath validation ( #12742 ) @cstamas Add validation for Plexus-based plugin dependency injection ( #12651 ) @slawekjaranowski Introduce validation control ( #12549 ) @cstamas Update to Resolver 2.0.21 ( #12504 ) @cstamas [MNG-5913] - Allow defining aliases for existing server configurations in settings.xml ( #12475 ) @slawekja",
-      "source": "Maven releases",
-      "category": "Maven"
     }
   ]
 }
