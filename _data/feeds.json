@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-01T12:24:26Z",
-  "cutoff": "2026-10-02T12:24:21Z",
+  "generated": "2026-11-01T13:21:31Z",
+  "cutoff": "2026-10-02T13:21:24Z",
   "feed_count": 104,
-  "item_count": 299,
+  "item_count": 298,
   "categories": [
     ".NET",
     "C/C++",
@@ -2405,14 +2405,6 @@
       "preview": "Bug fixes Keep cached package archive paths consistent with their recorded filenames and checksums when both archive formats are present. Restore the fix from conda 26.7.3 that was missing in 26.9.0. ( #9674 via #16793 ) Contributors @jezdez",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "v1.16.5",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.5",
-      "published": "2026-10-02T13:04:00Z",
-      "preview": "1.16.5 (September 30, 2026) BUG FIXES: Fixed a crash that happens when a tainted instance state is seen without a valid status ( #39287 ) resource-identity: fixed an issue where resource identity could be nil during delete ( #39285 )",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
     }
   ]
 }
