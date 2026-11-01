@@ -27,7 +27,7 @@ The Go blog's [eMudhra post-incident writeup](https://go.dev/blog/emudhra-incide
 
 [mise 2026.10.21 to 2026.10.25](https://github.com/jdx/mise/releases/tag/v2026.10.25) adds `mise bootstrap --config-dir` so mise's global config can be kept in a dotfiles checkout, deploys Stow-style packages without a per-package table, and lets `mise bootstrap packages prune --force` remove casks it cannot prove are unchanged.
 
-[Hatch 1.18.2](https://github.com/pypa/hatch/releases/tag/hatch-v1.18.2) and [Hatchling 1.33.0](https://github.com/pypa/hatch/releases/tag/hatchling-v1.33.0) support Python 3.15. Hatch's managed 3.15 distributions are now the final 3.15.0 release, and the default test matrix includes 3.15 and the free-threaded `3.15t`.
+[Hatch 1.18.2](https://github.com/pypa/hatch/releases/tag/hatch-v1.18.2) and [Hatchling 1.33.0](https://github.com/pypa/hatch/releases/tag/hatchling-v1.33.0) support Python 3.15. Hatch's managed 3.15 distributions are now the final 3.15.2 release (the release notes say 3.15.0, but the later version picked up the eMudhra certificate fixes), and the default test matrix includes 3.15 and the free-threaded `3.15t`.
 
 [ORAS 1.3.6](https://github.com/oras-project/oras/releases/tag/v1.3.6) narrows the bearer-realm denylist that 1.3.5 introduced. 1.3.5 rejected realms on any private address, which broke self-hosted split-host registries such as GitLab. The default now blocks only loopback, link-local, unspecified and cloud metadata addresses.
 
@@ -84,7 +84,7 @@ Also out:
 
 The call for participation for the [Package Management devroom at FOSDEM 2027](https://stewardshiplab.org/ideas/cfp-package-management-devroom-at-fosdem-27/) is open until 1 December. I'm co-organising with Vlad Miricioiu, Wolf Vollprecht and Travis Hathaway. The [Ruby devroom](https://lists.fosdem.org/hyperkitty/list/fosdem@lists.fosdem.org/thread/AEQLZMEQVYQDLN52AUEDHGYJ3EO4EZ3N/) is also back for the first time in several years.
 
-[EasyBuild has joined the High Performance Software Foundation](https://blog.easybuild.io/2026/10/30/easybuild-hpsf/) at the Core stage, the highest of HPSF's three project stages.
+[EasyBuild has been accepted to join the High Performance Software Foundation](https://blog.easybuild.io/2026/10/30/easybuild-hpsf/) at the Core stage, the highest of HPSF's three project stages. Joining formally still requires making EasyBuild a Linux Foundation Europe project first.
 
 Michał Górny's [The next circle of security hell](https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/) is a follow-up to his 2021 "modern packager's security nightmare" post, on vulnerability report volume and projects that bundle security fixes with feature and API changes.
 
