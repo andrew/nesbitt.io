@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-01T13:21:31Z",
-  "cutoff": "2026-10-02T13:21:24Z",
+  "generated": "2026-11-01T14:21:30Z",
+  "cutoff": "2026-10-02T14:21:26Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -23,20 +23,20 @@
   ],
   "items": [
     {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-01T13:47:35Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
       "title": "44.199.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.199.0",
       "published": "2026-11-01T09:21:18Z",
       "preview": "44.199.0 (2026-11-01) Features replacements: add ucanaccess to io.github.spannm ( #46912 ) ( f276a2e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-10-31T22:58:57Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v2026.10.25: Edit and remove tasks from the CLI, and `mise watch --once`",
