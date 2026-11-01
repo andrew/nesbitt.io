@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-01T16:21:36Z",
-  "cutoff": "2026-10-02T16:21:31Z",
+  "generated": "2026-11-01T18:22:01Z",
+  "cutoff": "2026-10-02T18:21:56Z",
   "feed_count": 104,
-  "item_count": 297,
+  "item_count": 296,
   "categories": [
     ".NET",
     "C/C++",
@@ -2389,14 +2389,6 @@
       "preview": "This release moves the WebContainer build into a separate @pnpm/wasm package, shrinks the pnpm package back to about 4 MB, and fixes pnpm publish with provenance from GitLab CI.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "2.0.10",
-      "url": "https://github.com/sbt/sbt/releases/tag/v2.0.10",
-      "published": "2026-10-02T17:56:04Z",
-      "preview": "changes with compatibility implications sbt runner script honors JAVA_HOME environment variable by @anatoliykmetyuk in #9825 🚀 updates deps: Updates to Coursier 2.1.26, and sets user agent header by @eed3si9n in #9784 , #9852 , #9786 and #9818 🐛 bug fixes fix: Removes write permission from the CAS to prevent cache corruption by @eed3si9n in #9847 fix: Implements copy-on-write for symlinks by @eed3si9n in sbt/io#568 fix: Restores the pipelining early output on an action-cache hit by @PhoenixmitX in #9793 fix: Reads scripted pause from standard input by @anatoliykmetyuk in #9824 fix: Keeps the i",
-      "source": "sbt releases",
-      "category": "Maven"
     }
   ]
 }
