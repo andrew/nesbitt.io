@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-02T00:42:38Z",
-  "cutoff": "2026-10-03T00:42:32Z",
+  "generated": "2026-11-02T08:26:51Z",
+  "cutoff": "2026-10-03T08:26:46Z",
   "feed_count": 104,
   "item_count": 293,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.200.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.200.0",
+      "published": "2026-11-02T07:40:01Z",
+      "preview": "44.200.0 (2026-11-02) Features static-data: add 3 new mise tools ( #47621 ) ( f9c3e22 ) static-data: update Node.js release schedule ( #47622 ) ( f0a6c8e ) Miscellaneous Chores deps: update cbrgm/pr-size-labeler-action action to v1.4.1 (main) ( #47610 ) ( 796307b ) deps: update dependency @biomejs/biome to v2.6.3 (main) ( #47611 ) ( afe92af ) deps: update dependency @containerbase/semantic-release-pnpm to v1.4.4 (main) ( #47612 ) ( e4a4a4e ) deps: update dependency katex@>=0.11.0 <0.18.2 to v0.19.1 (main) ( #47613 ) ( 646668f ) deps: update dependency pnpm to v11.28.8 (main) ( #47616 ) ( 40467",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.199.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.199.2",
@@ -309,14 +317,6 @@
       "preview": "1.13.3",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "44.196.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.196.1",
-      "published": "2026-10-29T16:22:12Z",
-      "preview": "44.196.1 (2026-10-29) Documentation minimum-release-age: document package manager integrations ( #47531 ) ( 5608a40 ) Miscellaneous Chores minimum-release-age: add minimumReleaseAgeExtracted and manager enforcement ( #47501 ) ( cf6c3de ) Build System replace the exec release commands with a local semantic-release plugin ( #47563 ) ( d27a0fe )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-27-a",
