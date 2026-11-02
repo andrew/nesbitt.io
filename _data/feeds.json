@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-02T12:27:50Z",
-  "cutoff": "2026-10-03T12:27:44Z",
+  "generated": "2026-11-02T13:22:49Z",
+  "cutoff": "2026-10-03T13:22:43Z",
   "feed_count": 104,
   "item_count": 294,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.202.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.202.0",
+      "published": "2026-11-02T13:12:02Z",
+      "preview": "44.202.0 (2026-11-02) Features presets: add group:java preset ( #47573 ) ( c766f2c ) presets: add group:nodeJsWithTypes ( #47577 ) ( c48e653 ) presets: add ruff to packages:linters ( #47405 ) ( e8686c2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.201.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.201.1",
@@ -237,14 +245,6 @@
       "preview": "Added a warning when the cache dir is on a Windows drive while running in WSL, as this makes filesystem operations very slow ( #13175 ) Fixed GitLab CI job tokens failing to authenticate against the GitLab Composer package registry, which requires HTTP Basic auth rather than the JOB-TOKEN header ( #13180 ) Fixed every update aborting with a SecurityException when a PHP extension reports a name that is not a valid platform package name ( #13184 ) Fixed require and remove dropping empty require / require-dev / repositories keys from composer.json when the command had not emptied them itself ( #1",
       "source": "Composer releases",
       "category": "PHP"
-    },
-    {
-      "title": "44.198.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.198.2",
-      "published": "2026-10-30T13:26:49Z",
-      "preview": "44.198.2 (2026-10-30) Bug Fixes platform/azure: refresh the auto-complete merge message on title changes ( #47584 ) ( d9c02cd )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.29.5",
