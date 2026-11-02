@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-02T16:23:07Z",
-  "cutoff": "2026-10-03T16:23:01Z",
+  "generated": "2026-11-02T17:22:11Z",
+  "cutoff": "2026-10-03T17:22:06Z",
   "feed_count": 104,
-  "item_count": 294,
+  "item_count": 295,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.205.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.205.0",
+      "published": "2026-11-02T17:18:28Z",
+      "preview": "44.205.0 (2026-11-02) Features manager/github-actions: extract the flux-mirror setup action version ( #47650 ) ( bc0f78f ) preset: @primer group preset ( #45696 ) ( 050ea8e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.204.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.204.0",
+      "published": "2026-11-02T16:46:12Z",
+      "preview": "44.204.0 (2026-11-02) Features datasource/go: derive Go env from host rules ( #47572 ) ( fa8522f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v0.403.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.403.0",
+      "published": "2026-11-02T16:29:05Z",
+      "preview": "What's Changed docker: don't raise on versions with more than one underscore-separated group by @v-sachin-sandhu in #16660 Enable Sorbet checking for Go modules specs by @JamieMagee in #16732 Enable Sorbet checking for pub specs by @JamieMagee in #16733 Enable Sorbet checking for pre-commit specs by @JamieMagee in #16734 terraform: don't crash when the lockfile has no entry for the updated provider by @v-sachin-sandhu in #16667 julia: report the running Julia as the language version by @IanButterworth in #16600 go_modules: report an import that no module provides as an unresolvable file by @v-",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.203.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.203.0",
@@ -99,22 +123,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.200.0",
       "published": "2026-11-02T07:40:01Z",
       "preview": "44.200.0 (2026-11-02) Features static-data: add 3 new mise tools ( #47621 ) ( f9c3e22 ) static-data: update Node.js release schedule ( #47622 ) ( f0a6c8e ) Miscellaneous Chores deps: update cbrgm/pr-size-labeler-action action to v1.4.1 (main) ( #47610 ) ( 796307b ) deps: update dependency @biomejs/biome to v2.6.3 (main) ( #47611 ) ( afe92af ) deps: update dependency @containerbase/semantic-release-pnpm to v1.4.4 (main) ( #47612 ) ( e4a4a4e ) deps: update dependency katex@>=0.11.0 <0.18.2 to v0.19.1 (main) ( #47613 ) ( 646668f ) deps: update dependency pnpm to v11.28.8 (main) ( #47616 ) ( 40467",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.199.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.199.2",
-      "published": "2026-11-01T19:12:13Z",
-      "preview": "44.199.2 (2026-11-01) Build System deps: update dependency ignore to v7.0.14 (main) ( #47607 ) ( 1a2956e ) deps: update opentelemetry-js-contrib monorepo (main) ( #47490 ) ( 2656669 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.199.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.199.1",
-      "published": "2026-11-01T18:56:02Z",
-      "preview": "44.199.1 (2026-11-01) Build System deps: update opentelemetry-js monorepo (main) ( #47487 ) ( b2c0c6e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
