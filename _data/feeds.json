@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-02T10:22:00Z",
-  "cutoff": "2026-10-03T10:21:55Z",
+  "generated": "2026-11-02T11:21:52Z",
+  "cutoff": "2026-10-03T11:21:48Z",
   "feed_count": 104,
   "item_count": 294,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.201.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.201.0",
+      "published": "2026-11-02T10:45:50Z",
+      "preview": "44.201.0 (2026-11-02) Features deps: update renovate-base-image to v13.152.12 (main) ( #47628 ) ( 754799e ) Miscellaneous Chores deps: update dependency knip to v6.43.0 (main) ( #47626 ) ( 21c3e7c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.200.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.200.2",
@@ -293,14 +301,6 @@
       "preview": "BUG FIXES: Fixed panic when provided invalid state encryption configuration. ( #4784 )",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "44.198.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.198.0",
-      "published": "2026-10-29T18:58:15Z",
-      "preview": "44.198.0 (2026-10-29) Features deps: update renovate-base-image to v13.149.0 (main) ( #47569 ) ( 01e87b7 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.57.1 (main) ( #47567 ) ( 4b34d0c ) deps: update jdx/jactionlint action to v2.4.0 (main) ( #47568 ) ( 218c428 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.13.4",
