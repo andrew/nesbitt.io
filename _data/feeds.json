@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-01T19:21:46Z",
-  "cutoff": "2026-10-02T19:21:40Z",
+  "generated": "2026-11-02T00:42:38Z",
+  "cutoff": "2026-10-03T00:42:32Z",
   "feed_count": 104,
-  "item_count": 296,
+  "item_count": 293,
   "categories": [
     ".NET",
     "C/C++",
@@ -2365,30 +2365,6 @@
       "preview": "Release Notes Released on 2026-10-03. Python Add CPython 3.15.0rc3 ( #22164 ) Preview features Sync from uv.lock without a workspace manifest using uv sync --frozen with frozen-lockfile ( #22018 ) Export from uv.lock without a workspace manifest using uv export --frozen with frozen-lockfile ( #22007 ) Inspect dependency trees from uv.lock without a workspace manifest using uv tree --frozen with frozen-lockfile ( #22016 ) Inspect workspace metadata and optionally sync its environment from uv.lock without a workspace manifest using uv workspace metadata --frozen with frozen-lockfile ( #22017 , #",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "v1.3.6",
-      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.6",
-      "published": "2026-10-03T00:41:00Z",
-      "preview": "What's Changed Version parsing caching by @evert in #1940 fix(build): use portable shebang for Alpine / BusyBox compat by @vltbaudbot in #1943 fix(package-info): flush registry-client cache in prefetchResolve test teardown by @vltbaudbot in #1944 Release v1.3.6 by @vltops in #1942 Full Changelog : v1.3.5...v1.3.6",
-      "source": "vlt CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 11.28.4",
-      "url": "https://pnpm.io/blog/releases/11.28.4",
-      "published": "2026-10-03T00:00:00Z",
-      "preview": "pnpm 11.28.4 fixes two ways credentials could leak, makes pnpm install --frozen-lockfile accept several lockfiles it rejected, warns when an optional dependency cannot be fetched, and stops pnpm self-update from installing a second pnpm next to a Homebrew one.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12.9.1",
-      "url": "https://pnpm.io/blog/releases/12.9.1",
-      "published": "2026-10-03T00:00:00Z",
-      "preview": "This release moves the WebContainer build into a separate @pnpm/wasm package, shrinks the pnpm package back to about 4 MB, and fixes pnpm publish with provenance from GitLab CI.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
