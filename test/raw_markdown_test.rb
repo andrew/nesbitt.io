@@ -13,7 +13,7 @@ posts = {
   "2025/11/13/package-management-papers" => ["# ", "papers-section"]
 }
 
-check = lambda do |slug, h1, body_marker, canonical, html_path|
+check = lambda do |slug, h1, body_marker, canonical_path, html_path|
   markdown_path = File.join(root, "_site/#{slug}.md")
   raise "#{slug}.md was not written" unless File.exist?(markdown_path)
 
@@ -23,8 +23,8 @@ check = lambda do |slug, h1, body_marker, canonical, html_path|
   raise "#{slug}.md is missing the page body" unless content.include?(body_marker)
   raise "#{slug}.md contains unrendered Liquid" if content.match?(/\{\{|\{%/)
   raise "#{slug}.md contains a script tag" if content.include?("<script")
-  footer = "By Andrew Nesbitt (https://nesbitt.io). Markdown version of #{canonical}"
-  raise "#{slug}.md is missing the attribution footer" unless content.end_with?("#{footer}\n")
+  footer = %r{By Andrew Nesbitt \(https?://[^)\s]+\)\. Markdown version of https?://[^/\s]+#{Regexp.escape(canonical_path)}\n\z}
+  raise "#{slug}.md is missing the attribution footer" unless content.match?(footer)
 
   html = File.read(File.join(root, "_site/#{html_path}"))
   link = %(<link rel="alternate" type="text/markdown" href="/#{slug}.md">)
@@ -32,11 +32,11 @@ check = lambda do |slug, h1, body_marker, canonical, html_path|
 end
 
 pages.each do |slug, (h1, body_marker)|
-  check.call(slug, h1, body_marker, "https://nesbitt.io/#{slug}/", "#{slug}/index.html")
+  check.call(slug, h1, body_marker, "/#{slug}/", "#{slug}/index.html")
 end
 
 posts.each do |slug, (h1, body_marker)|
-  check.call(slug, h1, body_marker, "https://nesbitt.io/#{slug}.html", "#{slug}.html")
+  check.call(slug, h1, body_marker, "/#{slug}.html", "#{slug}.html")
 
   html = File.read(File.join(root, "_site/#{slug}.html"))
   raise "#{slug} footer is missing the Markdown link" unless html.include?(%(<a href="/#{slug}.md">Markdown</a>))
