@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-02T08:26:51Z",
-  "cutoff": "2026-10-03T08:26:46Z",
+  "generated": "2026-11-02T09:25:39Z",
+  "cutoff": "2026-10-03T09:25:33Z",
   "feed_count": 104,
-  "item_count": 293,
+  "item_count": 294,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.200.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.200.1",
+      "published": "2026-11-02T09:01:07Z",
+      "preview": "44.200.1 (2026-11-02) Bug Fixes vulnerability: keep the dependency's versioning when building OSV rules ( #46868 ) ( 9eaae58 ), closes #43308 Miscellaneous Chores deps: update jdx/mise-action action to v5.2.5 (main) ( #47624 ) ( 942fa34 ) Build System deps: update dependency @renovatebot/detect-tools to v5 (main) ( #47529 ) ( 50d89c5 ) deps: update dependency @renovatebot/osv-offline to v4.5.7 (main) ( #47625 ) ( 429f033 ) deps: update dependency @renovatebot/pep440 to v6 (main) ( #47537 ) ( db493ae )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "7.0.12",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.12",
+      "published": "2026-11-02T08:36:59Z",
+      "preview": "What's Changed Preserve working directories when switching users by @MikeMcQuaid in #24360 Add desktop entries for AppImage casks by @syntactic-spice in #24343 bundle: reject failed uv inventories by @edel67 in #24363 search: Suppress headers in quiet mode by @abitrolly in #24366 Preserve sudo routing when switching users by @MikeMcQuaid in #24361 Replace # No zap stanza required comments by @bevanjkay in #24369 Allow resetting Git remotes to their defaults by @MikeMcQuaid in #24368 List formula versions using bash by @krehel in #24373 dev-cmd/bump: search pull requests by short name by @bevan",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
     {
       "title": "44.200.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.200.0",
@@ -301,14 +317,6 @@
       "preview": "1.12.10",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "44.197.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.197.0",
-      "published": "2026-10-29T17:03:58Z",
-      "preview": "44.197.0 (2026-10-29) Features report: surface additional repository metadata in report ( #44683 ) ( 2ab1bb5 ) Miscellaneous Chores deps: update linters (main) ( #47441 ) ( c12fb01 ) Build System deps: update dependency node to v24.22.2 (main) ( #47564 ) ( d003cdf )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.13.3",
