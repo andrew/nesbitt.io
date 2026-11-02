@@ -21,6 +21,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {%- seo -%}
     {%- feed_meta -%}
+    {%- if page.feed_tag %}
+    <link type="application/atom+xml" rel="alternate" href="{{ "/feed/by_tag/" | append: page.feed_tag | append: ".xml" | absolute_url }}" title="{{ page.title | escape }}" />
+    {%- endif -%}
     {% llms_markdown_link %}
     {% standard_site_links %}
 

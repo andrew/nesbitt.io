@@ -20,6 +20,12 @@ plugins:
   - jekyll-archives
   - jekyll-standard-site
 
+feed:
+  tags:
+    only:
+      - twipm
+      - twisc
+
 jekyll-stats:
   link_source_exclude_tags:
     - roundup
