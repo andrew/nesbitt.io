@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-02T17:22:11Z",
-  "cutoff": "2026-10-03T17:22:06Z",
+  "generated": "2026-11-02T18:24:31Z",
+  "cutoff": "2026-10-03T18:24:26Z",
   "feed_count": 104,
-  "item_count": 295,
+  "item_count": 294,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.205.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.205.1",
+      "published": "2026-11-02T17:41:10Z",
+      "preview": "44.205.1 (2026-11-02) Bug Fixes vulnerabilities: dispose the OSV databases when finishing ( #47658 ) ( e733ff0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.205.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.205.0",
@@ -117,14 +125,6 @@
       "preview": "What's Changed Preserve working directories when switching users by @MikeMcQuaid in #24360 Add desktop entries for AppImage casks by @syntactic-spice in #24343 bundle: reject failed uv inventories by @edel67 in #24363 search: Suppress headers in quiet mode by @abitrolly in #24366 Preserve sudo routing when switching users by @MikeMcQuaid in #24361 Replace # No zap stanza required comments by @bevanjkay in #24369 Allow resetting Git remotes to their defaults by @MikeMcQuaid in #24368 List formula versions using bash by @krehel in #24373 dev-cmd/bump: search pull requests by short name by @bevan",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "44.200.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.200.0",
-      "published": "2026-11-02T07:40:01Z",
-      "preview": "44.200.0 (2026-11-02) Features static-data: add 3 new mise tools ( #47621 ) ( f9c3e22 ) static-data: update Node.js release schedule ( #47622 ) ( f0a6c8e ) Miscellaneous Chores deps: update cbrgm/pr-size-labeler-action action to v1.4.1 (main) ( #47610 ) ( 796307b ) deps: update dependency @biomejs/biome to v2.6.3 (main) ( #47611 ) ( afe92af ) deps: update dependency @containerbase/semantic-release-pnpm to v1.4.4 (main) ( #47612 ) ( e4a4a4e ) deps: update dependency katex@>=0.11.0 <0.18.2 to v0.19.1 (main) ( #47613 ) ( 646668f ) deps: update dependency pnpm to v11.28.8 (main) ( #47616 ) ( 40467",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "cabal-head",
@@ -2373,14 +2373,6 @@
       "preview": "In this release C-ABI variadic functions are new in Rust 1.99, and this is the first time a new language feature has had immediate SemVer linting support in the corresponding cargo-semver-checks release 🎉 Six new lints for variadic functions: function_no_longer_variadic function_now_variadic inherent_method_no_longer_variadic inherent_method_now_variadic trait_method_no_longer_variadic trait_method_now_variadic Bugfix in inherent_method_now_doc_hidden when multiple impl blocks for the same type have the same method name Support for symlinks inside git repos used by the --baseline-rev flag Than",
       "source": "cargo-semver-checks releases",
       "category": "Rust"
-    },
-    {
-      "title": "0.12.23",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.23",
-      "published": "2026-10-03T17:34:11Z",
-      "preview": "Release Notes Released on 2026-10-03. Python Add CPython 3.15.0rc3 ( #22164 ) Preview features Sync from uv.lock without a workspace manifest using uv sync --frozen with frozen-lockfile ( #22018 ) Export from uv.lock without a workspace manifest using uv export --frozen with frozen-lockfile ( #22007 ) Inspect dependency trees from uv.lock without a workspace manifest using uv tree --frozen with frozen-lockfile ( #22016 ) Inspect workspace metadata and optionally sync its environment from uv.lock without a workspace manifest using uv workspace metadata --frozen with frozen-lockfile ( #22017 , #",
-      "source": "uv releases",
-      "category": "Python"
     }
   ]
 }
