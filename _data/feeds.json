@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-02T20:21:45Z",
-  "cutoff": "2026-10-03T20:21:39Z",
+  "generated": "2026-11-02T21:21:52Z",
+  "cutoff": "2026-10-03T21:21:46Z",
   "feed_count": 104,
   "item_count": 296,
   "categories": [
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "0.19.4-beta",
+      "url": "https://github.com/elm/compiler/releases/tag/0.19.4-beta",
+      "published": "2026-11-02T20:28:58Z",
+      "preview": "Please give the binaries a try and let me know how it goes! curl -L -o elm-0.19.4.gz https://github.com/elm/compiler/releases/download/0.19.4-beta/elm-0.19.4-mac-arm.gz gzip -d elm-0.19.4.gz chmod +x elm-0.19.4 ./elm-0.19.4 It should be a drop-in replacement for any 0.19.x compiler. Improvements The two big areas of improvement in this version are: Error message quality for records. The order of fields should match the order you wrote in your type alias more often now. There are also some cosmetic changes to emphasize field mismatches and deemphasize fields that are the same. (Field order is m",
+      "source": "Elm releases",
+      "category": "Registries"
+    },
+    {
       "title": "26.3",
       "url": "https://github.com/pypa/pip/releases/tag/26.3",
       "published": "2026-11-02T19:29:21Z",
@@ -37,14 +45,6 @@
       "preview": "44.206.0 (2026-11-02) Features deps: update renovate-base-image to v13.154.0 (main) ( #47672 ) ( 61b15d6 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.60.0 (main) ( #47670 ) ( 1b93482 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "0.19.4-beta",
-      "url": "https://github.com/elm/compiler/releases/tag/0.19.4-beta",
-      "published": "2026-11-02T18:53:17Z",
-      "preview": "Please give the binaries a try and let me know how it goes! curl -L -o elm-0.19.4.gz https://github.com/elm/compiler/releases/download/0.19.4/elm-0.19.4-mac-arm.gz gzip -d elm-0.19.4.gz chmod +x elm-0.19.4 ./elm-0.19.4 It should be a drop-in replacement for any 0.19.x compiler. Improvements The two big areas of improvement in this version are: Error message quality for records. The order of fields should match the order you wrote in your type alias more often now. There are also some cosmetic changes to emphasize field mismatches and deemphasize fields that are the same. (Field order is more i",
-      "source": "Elm releases",
-      "category": "Registries"
     },
     {
       "title": "44.205.2",
