@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-03T12:27:16Z",
-  "cutoff": "2026-10-04T12:27:09Z",
+  "generated": "2026-11-03T13:22:29Z",
+  "cutoff": "2026-10-04T13:22:21Z",
   "feed_count": 104,
   "item_count": 299,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.403.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.403.0",
+      "published": "2026-11-03T12:41:08Z",
+      "preview": "What's Changed docker: don't raise on versions with more than one underscore-separated group by @v-sachin-sandhu in #16660 Enable Sorbet checking for Go modules specs by @JamieMagee in #16732 Enable Sorbet checking for pub specs by @JamieMagee in #16733 Enable Sorbet checking for pre-commit specs by @JamieMagee in #16734 terraform: don't crash when the lockfile has no entry for the updated provider by @v-sachin-sandhu in #16667 julia: report the running Julia as the language version by @IanButterworth in #16600 go_modules: report an import that no module provides as an unresolvable file by @v-",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.209.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.209.0",
+      "published": "2026-11-03T12:30:48Z",
+      "preview": "44.209.0 (2026-11-03) Features vulnerabilities: store the osv-offline database in cacheDir ( #47686 ) ( b9c7424 ) Bug Fixes workers/repository: respect global ignorePresets when logging shallow config ( #47671 ) ( 7a4a762 ), closes #47656",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "20261103t122300-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261103t122300-all",
@@ -148,22 +164,6 @@
       "published": "2026-11-02T17:18:28Z",
       "preview": "44.205.0 (2026-11-02) Features manager/github-actions: extract the flux-mirror setup action version ( #47650 ) ( bc0f78f ) preset: @primer group preset ( #45696 ) ( 050ea8e )",
       "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.204.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.204.0",
-      "published": "2026-11-02T16:46:12Z",
-      "preview": "44.204.0 (2026-11-02) Features datasource/go: derive Go env from host rules ( #47572 ) ( fa8522f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "v0.403.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.403.0",
-      "published": "2026-11-02T16:29:05Z",
-      "preview": "What's Changed docker: don't raise on versions with more than one underscore-separated group by @v-sachin-sandhu in #16660 Enable Sorbet checking for Go modules specs by @JamieMagee in #16732 Enable Sorbet checking for pub specs by @JamieMagee in #16733 Enable Sorbet checking for pre-commit specs by @JamieMagee in #16734 terraform: don't crash when the lockfile has no entry for the updated provider by @v-sachin-sandhu in #16667 julia: report the running Julia as the language version by @IanButterworth in #16600 go_modules: report an import that no module provides as an unresolvable file by @v-",
-      "source": "Dependabot Core releases",
       "category": "Infrastructure"
     },
     {
