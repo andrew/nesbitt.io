@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-03T19:21:44Z",
-  "cutoff": "2026-10-04T19:21:37Z",
+  "generated": "2026-11-03T20:22:32Z",
+  "cutoff": "2026-10-04T20:22:26Z",
   "feed_count": 104,
-  "item_count": 301,
+  "item_count": 303,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-03T19:48:43Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.210.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.210.0",
@@ -215,6 +223,14 @@
       "category": "Rust"
     },
     {
+      "title": "0.17.1 Released",
+      "url": "https://ziglang.org/news/0.17.1-released/",
+      "published": "2026-11-03T00:00:00Z",
+      "preview": null,
+      "source": "Zig News",
+      "category": "Registries"
+    },
+    {
       "title": "44.206.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.206.2",
       "published": "2026-11-02T22:19:59Z",
@@ -295,14 +311,6 @@
       "category": "Registries"
     },
     {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-01T13:47:35Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
-    },
-    {
       "title": "2026-10-29 Release",
       "url": "https://github.com/microsoft/vcpkg-tool/releases/tag/2026-10-29",
       "published": "2026-10-31T06:49:16Z",
@@ -349,6 +357,14 @@
       "preview": "Added a warning when the cache dir is on a Windows drive while running in WSL, as this makes filesystem operations very slow ( #13175 ) Fixed GitLab CI job tokens failing to authenticate against the GitLab Composer package registry, which requires HTTP Basic auth rather than the JOB-TOKEN header ( #13180 ) Fixed every update aborting with a SecurityException when a PHP extension reports a name that is not a valid platform package name ( #13184 ) Fixed require and remove dropping empty require / require-dev / repositories keys from composer.json when the command had not emptied them itself ( #1",
       "source": "Composer releases",
       "category": "PHP"
+    },
+    {
+      "title": "vlt v1.6.1: bug fixes",
+      "url": "https://vlt.io/blog/vlt-1-6-1",
+      "published": "2026-10-30T12:00:00Z",
+      "preview": "vlt v1.6.1 is out with a handful of bug fixes.",
+      "source": "vlt Blog",
+      "category": "JavaScript"
     },
     {
       "title": "v2.29.5",
