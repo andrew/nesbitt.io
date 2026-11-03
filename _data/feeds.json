@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-03T10:22:03Z",
-  "cutoff": "2026-10-04T10:21:57Z",
+  "generated": "2026-11-03T12:27:16Z",
+  "cutoff": "2026-10-04T12:27:09Z",
   "feed_count": 104,
-  "item_count": 297,
+  "item_count": 299,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,46 @@
     "System"
   ],
   "items": [
+    {
+      "title": "20261103t122300-all",
+      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261103t122300-all",
+      "published": "2026-11-03T12:23:06Z",
+      "preview": "Deployment at 2026-11-03T12:23:05.585353Z.",
+      "source": "pub.dev releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.208.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.208.0",
+      "published": "2026-11-03T12:03:23Z",
+      "preview": "44.208.0 (2026-11-03) Features gerrit: implement pr cache ( #35676 ) ( 01a5991 ), closes #41382",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v0.84.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.84.0",
+      "published": "2026-11-03T11:48:03Z",
+      "preview": "[0.84.0] - 2026-11-02 ✨ Highlights exclude-newer has been redesigned to support more precise and configurable exclusions. The top-level [exclude-newer] and [pypi-exclude-newer] tables have been deprecated in favour of corresponding [workspace] sub-tables. These tables can now consist of fine-grained exemptions to a given cutoff , which can be used to, for example, apply a blanket exclusion period while exempting vetted security releases. New pixi workspace exclude-newer and pixi global exclude-newer subcommands allow configuration via the command line. TLS options are now available for pixi se",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.207.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.207.0",
+      "published": "2026-11-03T11:45:36Z",
+      "preview": "44.207.0 (2026-11-03) Features deps: update renovate-base-image to v13.155.0 (main) ( #47689 ) ( ac4eea2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "5.4.7.0",
+      "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.7.0",
+      "published": "2026-11-03T11:40:54Z",
+      "preview": "Update translations from weblate createrepo's argv[0] should be program name reposync: add --latest-limit=N option cmake: disable WITH_HTML option by default doc/conf.py.in: drop stale and wrong comment Separate dependencies needed for html builds from man page deps doc/conf.py.in: add cmake's file(GENERATE ...) doc: Clarify option placement rules for general vs command-specific options CI tests: Test config-manager vendor policy subcommands doc: Update use of compact format for supplier policies doc: Document config-manager vendor policy subcommands config-manager: Bump version to 0.2.0 confi",
+      "source": "DNF5 releases",
+      "category": "System"
+    },
     {
       "title": "44.206.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.206.3",
@@ -127,28 +167,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.203.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.203.0",
-      "published": "2026-11-02T16:19:31Z",
-      "preview": "44.203.0 (2026-11-02) Features presets: add rumdl to packages:linters ( #47404 ) ( 327c2a6 ) Miscellaneous Chores tools: allow global:safeEnv env vars in doc fence check ( #47651 ) ( cbcc656 ) Tests cache: pass a compare function to toSorted ( #47648 ) ( 98eafac )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-11-01-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-11-01-a",
       "published": "2026-11-02T14:11:39Z",
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-11-01-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.202.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.202.1",
-      "published": "2026-11-02T14:09:40Z",
-      "preview": "44.202.1 (2026-11-02) Build System deps: update dependency @renovatebot/ruby-semver to v6 (main) ( #47629 ) ( 5010656 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.0.12",
@@ -2037,14 +2061,6 @@
       "preview": "Change-Id: Ic0b65cb1b99dfa414ec1c8b11360114db21b7530 Reviewed-on: https://go-review.googlesource.com/c/go/+/846986 Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-by: Michael Pratt mpratt@google.com",
       "source": "Go releases",
       "category": "Go"
-    },
-    {
-      "title": "pixi-build-mojo-v0.2.8",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.8",
-      "published": "2026-10-08T13:15:33Z",
-      "preview": "chore: bump backend versions ( #7206 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-python-v0.8.7",
