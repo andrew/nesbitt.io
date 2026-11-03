@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-03T04:23:03Z",
-  "cutoff": "2026-10-04T04:22:58Z",
+  "generated": "2026-11-03T05:22:16Z",
+  "cutoff": "2026-10-04T05:22:10Z",
   "feed_count": 104,
-  "item_count": 298,
+  "item_count": 297,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.18.12",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.12",
+      "published": "2026-11-03T05:03:41Z",
+      "preview": "Security pipx run now treats requirements with a version, extras, a marker or a direct URL as packages, and script URLs as downloads, even when the working directory contains a matching file ( #2408 ) by @gaborbernat . 🐍 PyPI release 📜 Full Changelog",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "v1.6.2",
       "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.6.2",
@@ -587,14 +595,6 @@
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.3",
       "published": "2026-10-27T21:44:06Z",
       "preview": "Bug fixes Allow selecting dependencies that ship only shell completions. ( #2157 ) by @AryanRG and @gaborbernat New Contributors @AryanRG made their first contribution in #2157 🐍 PyPI release 📜 Full Changelog",
-      "source": "pipx releases",
-      "category": "Python"
-    },
-    {
-      "title": "1.18.2",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.2",
-      "published": "2026-10-27T21:44:04Z",
-      "preview": "Bug fixes Accept absolute file:/// URLs as package specs, such as pipx install file:///wheels/tool-1-py3-none-any.whl . ( #2150 ) by @srijan2607 and @gaborbernat In a terminal, show the pipx spinner again during installs and upgrades instead of the full pip or uv log, which --verbose still streams. Installer errors are still printed on failure. ( #2151 ) Print the installer error once when a pipx upgrade --verbose or pip pipx install --verbose fails, instead of repeating it after the live output. ( #2153 ) by @gaborbernat Stop an -all command on Ctrl-C even when the interpreter drops the inter",
       "source": "pipx releases",
       "category": "Python"
     },
@@ -2395,14 +2395,6 @@
       "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-304.0.dev",
       "published": "2026-10-05T04:10:55Z",
       "preview": "SDK 3.14.0-304.0.dev",
-      "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "SDK-3.14.0-303.0.dev",
-      "url": "https://github.com/dart-lang/pub/releases/tag/SDK-3.14.0-303.0.dev",
-      "published": "2026-10-04T04:24:46Z",
-      "preview": "SDK 3.14.0-303.0.dev",
       "source": "Pub releases",
       "category": "Registries"
     }
