@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-03T14:22:33Z",
-  "cutoff": "2026-10-04T14:22:25Z",
+  "generated": "2026-11-03T16:22:39Z",
+  "cutoff": "2026-10-04T16:22:32Z",
   "feed_count": 104,
-  "item_count": 300,
+  "item_count": 301,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v2026.11.0",
+      "title": "v2026.11.0: Task locks for shared resources, safer lockfiles, and `.agents/skills` as the default skills directory",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.11.0",
-      "published": "2026-11-03T13:53:47Z",
-      "preview": "(bootstrap) let --update fast-forward the global config checkou…",
+      "published": "2026-11-03T15:32:56Z",
+      "preview": "Tasks can now declare a lock , so runs that share a resource take turns, even across worktrees and terminals. This release also adds opt-in npm provenance verification, dotfile dependencies, and mise bootstrap --update for global config checkouts. Lockfiles get stricter: --locked now requires checksums, and safe mode no longer trusts project lockfiles. The planned removal of minimum-version reading from go.mod and CMakeLists.txt also lands here. See Breaking Changes before you upgrade. Added Task lock . When several agents or terminals run tasks at the same time, they can collide on resources ",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -189,6 +189,14 @@
       "preview": "Release Notes Released on 2026-11-03. Preview features Add --output-version to uv workspace metadata for requesting a specific schema version ( #22958 ) Report aliased OSV records as a single vulnerability in uv audit ( #22990 ) Bug fixes Treat workspace member paths added by uv init or uv add as literals instead of glob patterns ( #23008 ) Prevent uv's Windows trampolines from closing handles they did not inherit ( #22977 ) Allow uvx to run tools with CPython builds whose versions contain local identifiers ( #23013 ) Generate valid module names when uv init creates packaged projects whose nam",
       "source": "uv releases",
       "category": "Python"
+    },
+    {
+      "title": "Designed Once, Usable Everywhere: An Investment in PHP’s Standard Library",
+      "url": "https://thephp.foundation/blog/2026/11/03/stdlib-investment/",
+      "published": "2026-11-03T00:00:00Z",
+      "preview": "All PHP projects have one thing in common, regardless of whether they are built on a full-stack framework, on a microservice framework with carefully selected standalone libraries, or as an extension for a CMS: the PHP standard library. Functions such as str_replace() or array_map() and classes like DateTimeImmutable or Uri\\Rfc3986\\Uri from PHP 8.5 are always available, always work the same, and always have the same meaning. This makes PHP’s standard library a “lingua franca”, enabling specialized standalone libraries to seamlessly integrate into full-stack frameworks and allowing developers t",
+      "source": "PHP Foundation Blog",
+      "category": "PHP"
     },
     {
       "title": "Announcing rustup 1.29.3",
