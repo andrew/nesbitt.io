@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-03T05:22:16Z",
-  "cutoff": "2026-10-04T05:22:10Z",
+  "generated": "2026-11-03T08:25:18Z",
+  "cutoff": "2026-10-04T08:25:12Z",
   "feed_count": 104,
   "item_count": 297,
   "categories": [
@@ -61,14 +61,6 @@
       "preview": "44.206.1 (2026-11-02) Bug Fixes deps: update dependency github/gh-actions-lock to v0.4.1 (main) ( #47673 ) ( e72c088 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "0.19.4-beta",
-      "url": "https://github.com/elm/compiler/releases/tag/0.19.4-beta",
-      "published": "2026-11-02T20:28:58Z",
-      "preview": "Please give the binaries a try and let me know how it goes! curl -L -o elm-0.19.4.gz https://github.com/elm/compiler/releases/download/0.19.4-beta/elm-0.19.4-mac-arm.gz gzip -d elm-0.19.4.gz chmod +x elm-0.19.4 ./elm-0.19.4 It should be a drop-in replacement for any 0.19.x compiler. Improvements The two big areas of improvement in this version are: Error message quality for records. The order of fields should match the order you wrote in your type alias more often now. There are also some cosmetic changes to emphasize field mismatches and deemphasize fields that are the same. (Field order is m",
-      "source": "Elm releases",
-      "category": "Registries"
     },
     {
       "title": "26.3",
@@ -173,6 +165,14 @@
       "preview": "Forgejo is removing OpenID Authentication 2.0 support in 2027.",
       "source": "Forgejo Blog",
       "category": "Infrastructure"
+    },
+    {
+      "title": "0.19.4-beta",
+      "url": "https://github.com/elm/compiler/releases/tag/0.19.4-beta",
+      "published": "2026-11-01T23:19:43Z",
+      "preview": "bump to 0.19.4",
+      "source": "Elm releases",
+      "category": "Registries"
     },
     {
       "title": "cabal-head",
