@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-03T18:23:32Z",
-  "cutoff": "2026-10-04T18:23:25Z",
+  "generated": "2026-11-03T19:21:44Z",
+  "cutoff": "2026-10-04T19:21:37Z",
   "feed_count": 104,
   "item_count": 301,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.210.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.210.0",
+      "published": "2026-11-03T18:47:11Z",
+      "preview": "44.210.0 (2026-11-03) Features datasource: add julia-general-metadata datasource ( #42994 ) ( e2627de ), closes #29623 #46112 #47166 versioning: add julia versioning ( #42995 ) ( f312ab8 ), closes JuliaGPU/CUDA.jl#3152 dependabot/dependabot-core#16307 versioning: add vcpkg versioning ( #43497 ) ( 4d0f1cd )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.11.0: Task locks for shared resources, safer lockfiles, and `.agents/skills` as the default skills directory",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.11.0",
@@ -251,14 +259,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.205.1",
       "published": "2026-11-02T17:41:10Z",
       "preview": "44.205.1 (2026-11-02) Bug Fixes vulnerabilities: dispose the OSV databases when finishing ( #47658 ) ( e733ff0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.205.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.205.0",
-      "published": "2026-11-02T17:18:28Z",
-      "preview": "44.205.0 (2026-11-02) Features manager/github-actions: extract the flux-mirror setup action version ( #47650 ) ( bc0f78f ) preset: @primer group preset ( #45696 ) ( 050ea8e )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1298,7 +1298,7 @@
       "title": "0.13.3",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.13.3",
       "published": "2026-10-20T01:15:17Z",
-      "preview": "Release Notes Released on 2026-10-20. Performance Avoid severe uv export slowdowns in dependency graphs with extras ( #22750 ) Install uv 0.13.3 Install prebuilt binaries via shell script curl --proto '=https' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.13.3/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \"irm https://releases.astral.sh/github/uv/releases/download/0.13.3/uv-installer.ps1 | iex\" Download uv 0.13.3 File Platform Checksum uv-aarch64-apple-darwin.tar.gz Apple Silicon macOS checksum uv-x86_64-ap",
+      "preview": "Release Notes Released on 2026-10-20. Performance Avoid severe uv export slowdowns in dependency graphs with extras ( #22750 ) Install uv 0.13.3 Install prebuilt binaries via shell script curl --proto ' =https ' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.13.3/uv-installer.sh | sh Install prebuilt binaries via powershell script powershell -ExecutionPolicy Bypass -c \" irm https://releases.astral.sh/github/uv/releases/download/0.13.3/uv-installer.ps1 | iex \" Download uv 0.13.3 File Platform Checksum uv-aarch64-apple-darwin.tar.gz Apple Silicon macOS checksum uv-x86_6",
       "source": "uv releases",
       "category": "Python"
     },
