@@ -13,8 +13,13 @@ HN_TERMS = ["git", "jujutsu", "jj", "mercurial", "sapling", "gitoxide", "monorep
             "version control", "source control", "forgejo", "gitea", "codeberg", "gitlab", "github",
             "mononoke", "radicle", "tangled", "pijul"]
 HN_MIN_POINTS = 10
-# gitoxide tags every crate; only the gix release itself is news.
-TITLE_FILTERS = { "gitoxide releases" => /\Av\d/ }
+# Feeds that mix per-crate tags, betas, nightlies or RCs in with releases.
+TITLE_FILTERS = {
+  "gitoxide releases" => /\Av\d/,
+  "GitHub Desktop releases" => /\AGitHub Desktop [\d.]+\z/,
+  "GitButler releases" => /\Arelease\//,
+  "Gerrit tags" => /\Av[\d.]+\z/
+}
 
 options = { days: 7 }
 OptionParser.new do |o|
