@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-04T16:21:58Z",
-  "cutoff": "2026-10-05T16:21:52Z",
+  "generated": "2026-11-04T17:22:15Z",
+  "cutoff": "2026-10-05T17:22:09Z",
   "feed_count": 104,
   "item_count": 313,
   "categories": [
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.84.1",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.84.1",
+      "published": "2026-11-04T17:01:29Z",
+      "preview": "[0.84.1] - 2026-11-04 ✨ Highlights This patch release fixes a memory-usage regression introduced in v0.82.1, alongside some smaller fixes and work towards future features. Features Integrate conda-pypi wheels using released rattler by @nichmor in #7392 pixi-build-ros: Rtklib by @Timple in #7461 Fixes cli: Fix multiple reporters problems by @lucascolley in #7429 export: Honour --ignore-source-errors in conda explicit export by @lucascolley in #7425 run: Detect only the installed environment's host by @lucascolley in #7462 reporters: Hide the repodata bar on clear with downloads in flight by @lu",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "v2026.11.1",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.1",
+      "published": "2026-11-04T16:40:19Z",
+      "preview": "(config) name sets of environments with env_sets in miserc.toml…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.11.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.1",
+      "published": "2026-11-04T16:39:23Z",
+      "preview": "Release mise-oci 2026.11.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.11.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.1",
+      "published": "2026-11-04T16:39:12Z",
+      "preview": "Release mise-system 2026.11.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.11.1",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.1",
+      "published": "2026-11-04T16:38:59Z",
+      "preview": "Release vfox 2026.11.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.11.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.1",
+      "published": "2026-11-04T16:38:50Z",
+      "preview": "Release mise-system-packages 2026.11.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.11.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.1",
+      "published": "2026-11-04T16:38:39Z",
+      "preview": "Release mise-ui 2026.11.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.11.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.1",
+      "published": "2026-11-04T16:38:31Z",
+      "preview": "Release mise-util 2026.11.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.11.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.1",
+      "published": "2026-11-04T16:38:23Z",
+      "preview": "Release mise-sigstore 2026.11.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.11.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.1",
+      "published": "2026-11-04T16:37:16Z",
+      "preview": "Release mise-settings 2026.11.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-lsp-v2026.11.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-lsp-v2026.11.0",
+      "published": "2026-11-04T16:37:01Z",
+      "preview": "Release mise-lsp 2026.11.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.215.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.215.0",
@@ -213,86 +301,6 @@
       "preview": "44.210.0 (2026-11-03) Features datasource: add julia-general-metadata datasource ( #42994 ) ( e2627de ), closes #29623 #46112 #47166 versioning: add julia versioning ( #42995 ) ( f312ab8 ), closes JuliaGPU/CUDA.jl#3152 dependabot/dependabot-core#16307 versioning: add vcpkg versioning ( #43497 ) ( 4d0f1cd )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.11.0: Task locks for shared resources, safer lockfiles, and `.agents/skills` as the default skills directory",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.0",
-      "published": "2026-11-03T15:32:56Z",
-      "preview": "Tasks can now declare a lock , so runs that share a resource take turns, even across worktrees and terminals. This release also adds opt-in npm provenance verification, dotfile dependencies, and mise bootstrap --update for global config checkouts. Lockfiles get stricter: --locked now requires checksums, and safe mode no longer trusts project lockfiles. The planned removal of minimum-version reading from go.mod and CMakeLists.txt also lands here. See Breaking Changes before you upgrade. Added Task lock . When several agents or terminals run tasks at the same time, they can collide on resources ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-daemons-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.11.0",
-      "published": "2026-11-03T13:53:14Z",
-      "preview": "Release mise-daemons 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-oci-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.0",
-      "published": "2026-11-03T13:53:07Z",
-      "preview": "Release mise-oci 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.0",
-      "published": "2026-11-03T13:52:59Z",
-      "preview": "Release mise-system 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.0",
-      "published": "2026-11-03T13:52:51Z",
-      "preview": "Release vfox 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.0",
-      "published": "2026-11-03T13:52:45Z",
-      "preview": "Release mise-system-packages 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.0",
-      "published": "2026-11-03T13:52:38Z",
-      "preview": "Release mise-ui 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.0",
-      "published": "2026-11-03T13:52:32Z",
-      "preview": "Release mise-util 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.0",
-      "published": "2026-11-03T13:52:26Z",
-      "preview": "Release mise-sigstore 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.0",
-      "published": "2026-11-03T13:52:18Z",
-      "preview": "Release mise-settings 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v0.403.0",
@@ -2205,14 +2213,6 @@
       "preview": "Change-Id: Ic0b65cb1b99dfa414ec1c8b11360114db21b7530 Reviewed-on: https://go-review.googlesource.com/c/go/+/846986 Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-by: Michael Pratt mpratt@google.com",
       "source": "Go releases",
       "category": "Go"
-    },
-    {
-      "title": "pixi-build-python-v0.8.7",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.8.7",
-      "published": "2026-10-08T13:15:33Z",
-      "preview": "chore: bump backend versions ( #7206 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "pixi-build-r-v0.1.8",
