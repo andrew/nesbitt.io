@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-04T08:24:53Z",
-  "cutoff": "2026-10-05T08:24:47Z",
+  "generated": "2026-11-04T11:22:52Z",
+  "cutoff": "2026-10-05T11:22:47Z",
   "feed_count": 104,
-  "item_count": 302,
+  "item_count": 301,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.212.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.212.0",
+      "published": "2026-11-04T10:54:12Z",
+      "preview": "44.212.0 (2026-11-04) Features gerrit: enable push signing when gitPrivateKey is set ( #44228 ) ( 8fd150c ) manager/apm: follow branch refs by their commit ( #46881 ) ( 870347b ) monorepo: Add CloudEvents SDK monorepos ( #45064 ) ( 3072bb0 ) presets/monorepos: Add Excel-DNA ( #38220 ) ( 4bb7ac7 ) presets: add Chat SDK monorepo ( #45251 ) ( 887fb29 ) support assembling versions from named groups in extractVersion ( #44014 ) ( f2e8ca6 ) Bug Fixes manager/nix: keep flakes without updatable inputs for lock file maintenance ( #43892 ) ( 1ed2dd4 ) platform/azure: Encode all path segments ( #44854 ) ",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.211.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.211.0",
@@ -355,14 +363,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.206.2",
       "published": "2026-11-02T22:19:59Z",
       "preview": "44.206.2 (2026-11-02) Build System deps: update dependency @renovatebot/osv-offline to v4.5.9 (main) ( #47675 ) ( 0394985 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.206.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.206.1",
-      "published": "2026-11-02T22:00:06Z",
-      "preview": "44.206.1 (2026-11-02) Bug Fixes deps: update dependency github/gh-actions-lock to v0.4.1 (main) ( #47673 ) ( e72c088 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -2429,14 +2429,6 @@
       "preview": "What's Changed Bump pacote from 21.3.1 to 21.5.1 in /npm_and_yarn/helpers by @dependabot [bot] in #16411 Report conflicting dependencies for security updates by @v-thavaahariharangit with @Copilot in #16335 Fix vulnerable Yarn alias test fixture by @v-thavaahariharangit with @Copilot in #16414 Bump the dev-dependencies group across 1 directory with 2 updates by @dependabot [bot] in #16403 Use typed UV lockfile records in parsing and resolution by @JamieMagee in #16348 Add typed Composer manifest and lockfile readers by @JamieMagee in #16349 Use typed Composer repository and path records by @Ja",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "0.19.3",
-      "url": "https://github.com/elm/compiler/releases/tag/0.19.3",
-      "published": "2026-10-05T11:08:09Z",
-      "preview": "Elm 0.19.3 introduces some compiler infrastructure upgrades, giving a good foundation for the more exciting stuff in the pipeline. More info is available here: Another step towards Elm 1.0 There are no language changes , so once you swap to \"elm-version\": \"0.19.3\" in your elm.json file, you should be able to proceed without any further code changes. Install The links below include (1) a Mac and Windows installer and (2) 64-bit binaries for various platforms. ✨ Install ✨ For examples of downloading the binaries directly, read the instructions here or here .",
-      "source": "Elm releases",
-      "category": "Registries"
     }
   ]
 }
