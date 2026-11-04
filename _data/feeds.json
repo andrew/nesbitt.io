@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-04T06:31:17Z",
-  "cutoff": "2026-10-05T06:31:11Z",
+  "generated": "2026-11-04T08:24:53Z",
+  "cutoff": "2026-10-05T08:24:47Z",
   "feed_count": 104,
-  "item_count": 303,
+  "item_count": 302,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.211.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.211.0",
+      "published": "2026-11-04T07:59:42Z",
+      "preview": "44.211.0 (2026-11-04) Features deps: update renovate-base-image to v13.157.0 (main) ( #47711 ) ( ebee4f1 ) Miscellaneous Chores deps: update zizmor (main) ( #47710 ) ( 17a9d3a ) lint: add rule against deeply nested logical expressions ( #47693 ) ( b6c6e68 ) lint: limit nested logical expressions to one level ( #47697 ) ( e6316a2 ) lint: rename prefer-json-pipe to prefer-parser-pipe and enforce Ini ( #47694 ) ( 2393db1 ) Code Refactoring http: add status code helpers ( #47700 ) ( d8953e5 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "@verdaccio/test-helper@5.0.0-next-9.43",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%405.0.0-next-9.43",
+      "published": "2026-11-04T06:29:23Z",
+      "preview": "chore: update versions (next-9) ( #6431 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/ui-components@5.0.0-next-9.27",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-components%405.0.0-next-9.27",
+      "published": "2026-11-04T06:29:23Z",
+      "preview": "chore: update versions (next-9) ( #6431 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/ui-theme@9.0.0-next-9.42",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.42",
+      "published": "2026-11-04T06:29:23Z",
+      "preview": "chore: update versions (next-9) ( #6431 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/url@14.0.0-next-9.42",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.42",
+      "published": "2026-11-04T06:29:23Z",
+      "preview": "chore: update versions (next-9) ( #6431 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/web@9.0.0-next-9.42",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.42",
+      "published": "2026-11-04T06:29:23Z",
+      "preview": "chore: update versions (next-9) ( #6431 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-audit@14.0.0-next-9.42",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.42",
+      "published": "2026-11-04T06:29:23Z",
+      "preview": "chore: update versions (next-9) ( #6431 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-auth-memory@14.0.0-next-9.42",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.42",
+      "published": "2026-11-04T06:29:23Z",
+      "preview": "chore: update versions (next-9) ( #6431 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-htpasswd@14.0.0-next-9.42",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.42",
+      "published": "2026-11-04T06:29:23Z",
+      "preview": "chore: update versions (next-9) ( #6431 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-memory@14.0.0-next-9.42",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.42",
+      "published": "2026-11-04T06:29:23Z",
+      "preview": "chore: update versions (next-9) ( #6431 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio@9.0.0-next-9.42",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.42",
+      "published": "2026-11-04T06:29:23Z",
+      "preview": "chore: update versions (next-9) ( #6431 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.210.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.210.2",
@@ -285,14 +373,6 @@
       "preview": "Release 26.3",
       "source": "pip releases",
       "category": "Python"
-    },
-    {
-      "title": "44.206.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.206.0",
-      "published": "2026-11-02T18:58:14Z",
-      "preview": "44.206.0 (2026-11-02) Features deps: update renovate-base-image to v13.154.0 (main) ( #47672 ) ( 61b15d6 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.60.0 (main) ( #47670 ) ( 1b93482 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-11-01-a",
@@ -791,14 +871,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "v7.0.2",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/v7.0.2",
-      "published": "2026-10-26T18:03:54Z",
-      "preview": "Patch Changes c017767 : Remove the HEALTHCHECK from the Docker image. The probe used localhost , which resolves to ::1 on Alpine, while the image listens on IPv4 only by default. The container was always reported as unhealthy even though it served requests normally. The image no longer declares a health check, as in 6.x . If you need one, add it yourself probing 127.0.0.1 , for example in docker-compose.yaml : services : verdaccio : image : verdaccio/verdaccio healthcheck : test : ['CMD-SHELL', 'wget --quiet --tries=1 --spider http://127.0.0.1:4873/-/ping || exit 1'] interval : 30s timeout : 5",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v6.2.0-RC1",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.2.0-rc1",
       "published": "2026-10-26T13:09:42Z",
@@ -844,78 +916,6 @@
       "published": "2026-10-25T17:54:24Z",
       "preview": "Patch Changes 0bff20d : The pnpm version that packageManager pins now records that pin in a fresh pnpm-lock.yaml when pnpm 10 switched to it. A later pnpm install --frozen-lockfile then succeeds #17303 . Platinum Sponsors Gold Sponsors",
       "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/test-helper@5.0.0-next-9.42",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%405.0.0-next-9.42",
-      "published": "2026-10-25T14:14:24Z",
-      "preview": "chore: update versions (next-9) ( #6420 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/ui-theme@9.0.0-next-9.41",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.41",
-      "published": "2026-10-25T14:14:24Z",
-      "preview": "chore: update versions (next-9) ( #6420 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/url@14.0.0-next-9.41",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.41",
-      "published": "2026-10-25T14:14:24Z",
-      "preview": "chore: update versions (next-9) ( #6420 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/web@9.0.0-next-9.41",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.41",
-      "published": "2026-10-25T14:14:24Z",
-      "preview": "chore: update versions (next-9) ( #6420 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-audit@14.0.0-next-9.41",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.41",
-      "published": "2026-10-25T14:14:24Z",
-      "preview": "chore: update versions (next-9) ( #6420 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-auth-memory@14.0.0-next-9.41",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.41",
-      "published": "2026-10-25T14:14:24Z",
-      "preview": "chore: update versions (next-9) ( #6420 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-htpasswd@14.0.0-next-9.41",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.41",
-      "published": "2026-10-25T14:14:24Z",
-      "preview": "chore: update versions (next-9) ( #6420 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-memory@14.0.0-next-9.41",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.41",
-      "published": "2026-10-25T14:14:24Z",
-      "preview": "chore: update versions (next-9) ( #6420 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio@9.0.0-next-9.41",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.41",
-      "published": "2026-10-25T14:14:24Z",
-      "preview": "chore: update versions (next-9) ( #6420 )",
-      "source": "Verdaccio releases",
       "category": "JavaScript"
     },
     {
@@ -2437,14 +2437,6 @@
       "preview": "Elm 0.19.3 introduces some compiler infrastructure upgrades, giving a good foundation for the more exciting stuff in the pipeline. More info is available here: Another step towards Elm 1.0 There are no language changes , so once you swap to \"elm-version\": \"0.19.3\" in your elm.json file, you should be able to proceed without any further code changes. Install The links below include (1) a Mac and Windows installer and (2) 64-bit binaries for various platforms. ✨ Install ✨ For examples of downloading the binaries directly, read the instructions here or here .",
       "source": "Elm releases",
       "category": "Registries"
-    },
-    {
-      "title": "7.0.8",
-      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.8",
-      "published": "2026-10-05T07:48:38Z",
-      "preview": "What's Changed test-bot: skip bottles for unsatisfiable formulae by @daeho-ro in #24104 Time out stalled cask audit downloads by @p-linnane in #24108 cask: remove pre-staged downloads when installs fail by @dergachoff in #24107 diagnostic: allowlist JPKI client dylibs by @ttsuru in #24110 shell: fish-quote the fish profile line by @rawsun007 in #24114 keg: keep versioned opt aliases that still point at an installed keg by @erikdw in #24113 docs/_layouts/base.html: fix heading permalinks by @bevanjkay in #24116 Support bumping cask versions per platform by @waldyrious in #24111 Prevent SSH prom",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
