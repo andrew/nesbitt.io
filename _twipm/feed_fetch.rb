@@ -10,6 +10,8 @@ module FeedFetch
   USER_AGENT = "nesbitt.io feeds fetcher (+https://nesbitt.io)"
   PREVIEW_LENGTH = 600
 
+  class HtmlResponse < StandardError; end
+
   module_function
 
   def parse_opml(path)
@@ -80,9 +82,24 @@ module FeedFetch
       .strip
   end
 
-  def fetch_feed(feed, timeout: 20, length: PREVIEW_LENGTH)
-    body = http_get(feed[:url], timeout: timeout)
-    parsed = Feedjira.parse(body)
+  # Bot challenges (Anubis and similar) answer 200 with an HTML page, and
+  # they come and go, so retry once before giving up.
+  def fetch_and_parse(url, timeout:, retry_delay:)
+    attempts = 0
+    begin
+      body = http_get(url, timeout: timeout)
+      Feedjira.parse(body)
+    rescue Feedjira::NoParserAvailable
+      raise unless body.to_s.lstrip.match?(/\A(<!doctype html|<html)/i)
+      attempts += 1
+      raise HtmlResponse, "got an HTML page instead of a feed (bot challenge?)" if attempts > 1
+      sleep retry_delay
+      retry
+    end
+  end
+
+  def fetch_feed(feed, timeout: 20, length: PREVIEW_LENGTH, retry_delay: 5)
+    parsed = fetch_and_parse(feed[:url], timeout: timeout, retry_delay: retry_delay)
     return [] unless parsed && parsed.entries
     parsed.entries.filter_map do |entry|
       published = entry.published || entry.updated

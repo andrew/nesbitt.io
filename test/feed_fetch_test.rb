@@ -29,4 +29,25 @@ raise "relative link not resolved: #{urls[0]}" unless urls[0] == "https://opam.o
 raise "absolute link altered: #{urls[1]}" unless urls[1] == "https://example.org/post/"
 raise "malformed link should fall through untouched: #{urls[2]}" unless urls[2] == "https://[bad"
 
+CHALLENGE = "<!doctype html><html><head><title>Making sure you're not a bot!</title></head></html>"
+feed = { url: "https://foss.heptapod.net/tags?format=atom", name: "hg", category: "t" }
+
+responses = [CHALLENGE, RELATIVE_ATOM]
+FeedFetch.define_singleton_method(:http_get) { |_url, **| responses.shift }
+items = FeedFetch.fetch_feed(feed, retry_delay: 0)
+raise "challenge then feed should retry and parse, got #{items.size} items" unless items.size == 3
+
+FeedFetch.define_singleton_method(:http_get) { |_url, **| CHALLENGE }
+err = StringIO.new
+$stderr = err
+items = FeedFetch.fetch_feed(feed, retry_delay: 0)
+$stderr = STDERR
+raise "persistent challenge should return no items" unless items.empty?
+raise "warning should name the HTML response: #{err.string}" unless err.string.include?("got an HTML page instead of a feed")
+
+calls = 0
+FeedFetch.define_singleton_method(:http_get) { |_url, **| calls += 1; "not a feed" }
+FeedFetch.fetch_feed(feed, retry_delay: 0)
+raise "non-HTML parse failures should not retry, got #{calls} calls" unless calls == 1
+
 puts "feed_fetch_test.rb ok"

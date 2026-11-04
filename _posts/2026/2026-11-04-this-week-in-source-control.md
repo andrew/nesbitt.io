@@ -13,6 +13,10 @@ This week's version control and forge news, gathered from release feeds for sour
 
 ## Scaling
 
+[Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai/) (Aaron Friel, Taylor Blau and Ted Nyman, OpenAI) describes Pando, a Rust backend for git repositories that now serves all development in OpenAI's monorepo. Each push is stored as an immutable packfile in blob storage, and each branch update records a ref version in a metadata store, so pushes contend only when they target the same ref. The trade-off is causal consistency, so a client reading several branches can see them at different points in time. When a new branch is pushed, Pando advertises only trunk, which keeps the pushed pack reusable for anyone who already has trunk, and the median pack produced this way was under 20 KiB.
+
+Fetches get an empty pack inline plus packfile-uri links served from a regional cache with a hit rate above 99%. Background compaction merges small packs into larger ones in levels, up to L4 in the monorepo, and the levels double as a skip list for choosing which packs a client needs. OpenAI reports median push latency down by nearly 80% and nearly a petabyte of git data served a day. Fixes to packfile-uri downloads have gone upstream, and other changes, such as downloading and indexing packs in parallel, are in [OpenAI's git fork](https://github.com/openai/git).
+
 [An outsider's perspective on Scion and Mononoke](https://typesanitizer.com/blog/scion.html) (typesanitizer) responds to Anthropic's Scion post from someone on the source control team at Databricks, whose monorepo's main branch history is 20-50GB. The author lists the parts of Scion's design that already exist in Mononoke, Perforce or Piper, such as per-directory ACLs, server-side history queries and changesets in place of git trees. They also question Anthropic's mirror count: Databricks serves CI from fewer than 10 git mirrors and reference repositories refreshed every two hours, while Anthropic reported running several hundred mirrors at its peak.
 
 [Building fine-grained version control for agents](https://delta.dev/blog/fine-grained-version-control-for-agents) (Antonio Scandurra, Delta) describes DeltaDB from the team behind Zed. Each agent thread is a DAG of CRDT deltas stored in SQLite on the client and synced to one Cloudflare Durable Object per thread. Worktrees are layered on top of git, starting from a commit and recording edits as deltas, and creating a commit adds a delta that links the DAG back to git's history. Subagents work on separate timelines in the same DAG and merge back into it, and coordinating agents this way needs no git commit.
@@ -21,11 +25,20 @@ This week's version control and forge news, gathered from release feeds for sour
 
 ## Releases
 
-[Sapling 0.2.20261028](https://github.com/meta/sapling/releases/tag/0.2.20261028-123539%2B7415fb2f) makes `sl worktree` work in checkouts made with `git clone`, using `git worktree add` underneath, and ships it in builds without EdenFS, including the open source ones. `sl drop -r REV` is now on by default and removes commits from a stack, rebasing their descendants. This release also adds a `--plan` flag to `histedit` for giving the plan on the command line, plus an `into` verb that folds the previous commit in while keeping the current message. Rewriting a commit in the middle of a stack now works with `uncommit` too.
+[Sapling 0.2.20261028](https://github.com/meta/sapling/releases/tag/0.2.20261028-123539%2B7415fb2f) makes `sl worktree` work in checkouts made with `git clone`, using `git worktree add` underneath, and ships it in builds without EdenFS, including the open source ones. `sl drop -r REV` is now on by default and removes commits from a stack, rebasing their descendants. This release also adds a `--plan` flag to `histedit` for giving the plan on the command line, plus an `into` verb that folds the previous commit in while keeping the current message. Rewriting a commit in the middle of a stack now works with `uncommit` too. [0.2.20261102](https://github.com/meta/sapling/releases/tag/0.2.20261102-153821%2Ba53273dc) fixes a regression from that release, where files under directories matched by rules like `target/` showed up as untracked and nested `.gitignore` files were skipped.
 
 [OmniDiff 0.3.0](https://github.com/ivankovic/omnidiff/releases/tag/v0.3.0) is the latest release of Marko Ivankovic's content-aware difftool in Rust. It was on Hacker News this week and diffs code by syntax, along with pictures, fonts, archives and PDFs. This release diffs code embedded in strings as its own language, for example shell in a YAML `run:` block or CSS in template literals, and diffs CSS class lists one class at a time.
 
 The [GitRoot 0.5.0 plugins](https://gitroot.dev/blog/version-0.5.0-plugins.html) include Firefly, which is written in Zig and generates status pages inside the forge. Silo, which builds indexes from files and their metadata, can now render them to the web grouped by any property, and Apex, the plugin that renders repository files to the web, adds a slide layout.
+
+[gt 1.0.0](https://blog.gitea.com/release-of-gitea-cli-1.0.0/) is the first stable release of the Gitea command line tool [introduced last week](/2026/10/28/this-week-in-source-control.html), and it replaces tea as Gitea's official CLI. tea is discontinued and its repository archived. A migration guide maps its commands and flags to gt's. Commands, flags, `--json` fields and exit codes now follow semantic versioning. Changes since 0.1.0 include:
+
+- `gt upgrade` replaces the binary after checking its SHA-256 checksum, or names the package manager command when gt came from Homebrew, Nix, a Linux package or `go install`.
+- Extensions named `gt-NAME` install from any Gitea instance, and GitHub CLI extensions that avoid GitHub's APIs also run.
+- `gt pr backport` cherry-picks a merged pull request onto one or more release branches and opens a pull request into each.
+- Every command with `--json` also takes `--csv`.
+
+[git-loom 1.0](https://github.com/narnaud/git-loom/releases/tag/v1.0.0) merges a set of feature branches into one integration branch, where they are built and tested together. Its commands commit, amend, split and move changes between those branches while the integration branch stays checked out, and rewrite history so each stays a side branch joined by a merge. Stacked branches are pushed as one pull request each to GitHub, GitLab, Azure DevOps or Gerrit. Commits get short IDs from a `Change-Id` trailer, so the IDs stay the same across rewrites. With 1.0 the commands, `loom.*` settings and agent mode follow semantic versioning, and it requires Git 2.43 or later.
 
 Also out: [forges v0.3.1](https://github.com/danielroe/forges/releases/tag/v0.3.1).
 
@@ -45,6 +58,8 @@ Alpine Linux [rebuilt its GitLab instance](https://alpinelinux.org/posts/GitLab-
 
 ## GitHub
 
+[GitHub Desktop 3.6.10 and later can sign in with short-lived tokens](https://github.blog/changelog/2026-11-02-github-desktop-adds-short-lived-authentication-tokens) that refresh automatically for API requests and git operations. The rollout is gradual and covers github.com only. Existing tokens stay as they are, and an installation gets short-lived tokens at its first sign-in after the rollout reaches it.
+
 Pull request limits can now [exempt contributors by account age or by number of merged pull requests](https://github.blog/changelog/2026-10-28-pull-request-limits-exempt-contributors-by-age-or-history) in that repository. A contributor who meets either enabled rule can open pull requests beyond the cap.
 
 [Push protection can block AI-detected secrets](https://github.blog/changelog/2026-10-28-push-protection-beyond-predefined-secret-patterns), in public preview, using a classifier that scores a value by how the surrounding code uses it, in place of format matching. GitHub reports it more than doubled the number of pushes where push protection caught a secret. It is opt-in and requires AI-detected secret scanning and push protection to be enabled first.
@@ -56,5 +71,9 @@ The Meta API now lists [three more IP ranges for webhook deliveries](https://git
 Tangled has [relaunched as a federated code forge](https://tangled.org/blog/forge) on the AT Protocol. Knot2, a rewrite of its git server in Rust, stores issues, pull requests, comments and labels in the repository as collaborative objects, chains of git objects synced over the AT Protocol firehose. Each edit also writes an attestation record to the author's own PDS. The release adds organization accounts and stacked pull requests with interdiffs for git and jj users. A new Svelte frontend is served from read-only Rust indexers in 11 or more regions, and self-hosted knots need upgrading to v1.20.0.
 
 David Bushell [responded to the new Tangled UI](https://dbushell.com/2026/11/01/tangled-accessibility/) with an accessibility review. The interface sets text at 12px, and a `font-size: 16px` on the `<html>` element fixes the root size regardless of browser settings. Forcing a 200% resize clips and truncates text, which fails WCAG 2.2's 1.4.4 Resize Text criterion.
+
+Forgejo is [removing OpenID 2.0 sign-in](https://forgejo.org/2026-11-removing-openid/) in v19, due on 25 March 2027, and keeping OpenID Connect and OAuth. The v15 LTS keeps OpenID 2.0 until its end of life on 15 July 2027, and v17 and v18 keep it until 29 April 2027.
+
+[Git Rev News 140](https://git.github.io/rev_news/2026/10/31/edition-140/) leads with a fix for `git push --force-if-includes`, which rejected valid force pushes when the remote-tracking ref had no reflog. A ref created by `git clone` with the files backend gets its first reflog entry when it moves, and before that a cut-off timestamp was left uninitialised. Aleksei Sviridkin's one-line patch sets it to 0. In review Junio Hamano suggested a 90-day cut-off, then agreed to 0 after Tyler Cipriani described a case with default gc settings where the cut-off gives the wrong answer. The first version of the patch carried an `Assisted-by: LLM` trailer following Linux kernel practice. After Junio pointed to the AI section of Git's `SubmittingPatches`, version 3 of the patch dropped the trailer.
 
 Send links for next week to [@andrewnez@mastodon.social](https://mastodon.social/@andrewnez).
