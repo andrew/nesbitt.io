@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-04T15:22:23Z",
-  "cutoff": "2026-10-05T15:22:16Z",
+  "generated": "2026-11-04T16:21:58Z",
+  "cutoff": "2026-10-05T16:21:52Z",
   "feed_count": 104,
-  "item_count": 314,
+  "item_count": 313,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.215.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.215.0",
+      "published": "2026-11-04T15:35:00Z",
+      "preview": "44.215.0 (2026-11-04) Features config/migration: migrate erlang constraints with ^, ~ and ~> to comparators ( #47724 ) ( c537a34 ) util/exec: use semver-extended versioning for jb and erlang ( #47723 ) ( 852aa30 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.214.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.214.0",
@@ -309,14 +317,6 @@
       "preview": "Deployment at 2026-11-03T12:23:05.585353Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.208.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.208.0",
-      "published": "2026-11-03T12:03:23Z",
-      "preview": "44.208.0 (2026-11-03) Features gerrit: implement pr cache ( #35676 ) ( 01a5991 ), closes #41382",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.84.0",
@@ -2525,14 +2525,6 @@
       "preview": "This release fixes pnpm install failures after an overrides change and on a filtered frozen install with catalogPrune. It also fixes several bugs in the experimental nodeLinker.type: loaded, which now keeps its generated files in node_modules.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "v0.399.0",
-      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.399.0",
-      "published": "2026-10-05T15:53:09Z",
-      "preview": "What's Changed Bump pacote from 21.3.1 to 21.5.1 in /npm_and_yarn/helpers by @dependabot [bot] in #16411 Report conflicting dependencies for security updates by @v-thavaahariharangit with @Copilot in #16335 Fix vulnerable Yarn alias test fixture by @v-thavaahariharangit with @Copilot in #16414 Bump the dev-dependencies group across 1 directory with 2 updates by @dependabot [bot] in #16403 Use typed UV lockfile records in parsing and resolution by @JamieMagee in #16348 Add typed Composer manifest and lockfile readers by @JamieMagee in #16349 Use typed Composer repository and path records by @Ja",
-      "source": "Dependabot Core releases",
-      "category": "Infrastructure"
     }
   ]
 }
