@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-04T05:24:00Z",
-  "cutoff": "2026-10-05T05:23:53Z",
+  "generated": "2026-11-04T06:31:17Z",
+  "cutoff": "2026-10-05T06:31:11Z",
   "feed_count": 104,
   "item_count": 303,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.210.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.210.2",
+      "published": "2026-11-04T06:23:59Z",
+      "preview": "44.210.2 (2026-11-04) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.13.7 (main) ( #47702 ) ( 3ac9a53 ) deps: update dependency pnpm to v11.28.9 (main) ( #47703 ) ( ad318a2 ) deps: update dependency uv to v0.13.7 (main) ( #47705 ) ( ef23b7c ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.63.0 (main) ( #47708 ) ( c4298a4 ) deps: update github/codeql-action action to v4.39.2 (main) ( #47706 ) ( ba64fe6 ) Build System deps: update dependency @renovatebot/good-enough-parser to v4 (main) ( #47576 ) ( bb7ac2a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.18.13",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.13",
@@ -283,14 +291,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.206.0",
       "published": "2026-11-02T18:58:14Z",
       "preview": "44.206.0 (2026-11-02) Features deps: update renovate-base-image to v13.154.0 (main) ( #47672 ) ( 61b15d6 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.60.0 (main) ( #47670 ) ( 1b93482 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.205.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.205.2",
-      "published": "2026-11-02T18:27:41Z",
-      "preview": "44.205.2 (2026-11-02) Bug Fixes util/exec: reinstall child tools when the parent tool version changes ( #47642 ) ( 1b4c266 ) Documentation config: remove overly nested baseBranchPatterns code block ( #47657 ) ( 00b0bf8 ) Code Refactoring drop the ES5 prototype fix from ExternalHostError ( #47645 ) ( 3576eb7 ) Build System deps: update dependency @renovatebot/osv-offline to v4.5.8 (main) ( #47669 ) ( 2359029 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
