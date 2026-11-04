@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-04T18:24:07Z",
-  "cutoff": "2026-10-05T18:24:01Z",
+  "generated": "2026-11-04T19:22:01Z",
+  "cutoff": "2026-10-05T19:21:54Z",
   "feed_count": 104,
   "item_count": 315,
   "categories": [
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "v2026.11.1: npm provenance verified by default, with repository pins in mise.lock",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.1",
+      "published": "2026-11-04T19:13:36Z",
+      "preview": "npm: tools now have their Sigstore provenance verified by default. The first install records the repository that built the package in mise.lock , and later installs must come from that same repository. This release also adds named environment sets in miserc.toml and fixes a range of lockfile, install and shell issues. See Breaking Changes before you upgrade: some installs that worked before can now fail, and new lockfiles use format version 4. Added npm provenance repository pins. When provenance verification is on, mise install records the GitHub or GitLab repository that an npm: package's pr",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "v0.47.0",
       "url": "https://github.com/jj-vcs/jj/releases/tag/v0.47.0",
       "published": "2026-11-04T18:03:05Z",
@@ -44,14 +52,6 @@
       "published": "2026-11-04T17:01:29Z",
       "preview": "[0.84.1] - 2026-11-04 ✨ Highlights This patch release fixes a memory-usage regression introduced in v0.82.1, alongside some smaller fixes and work towards future features. Features Integrate conda-pypi wheels using released rattler by @nichmor in #7392 pixi-build-ros: Rtklib by @Timple in #7461 Fixes cli: Fix multiple reporters problems by @lucascolley in #7429 export: Honour --ignore-source-errors in conda explicit export by @lucascolley in #7425 run: Detect only the installed environment's host by @lucascolley in #7462 reporters: Hide the repodata bar on clear with downloads in flight by @lu",
       "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "v2026.11.1",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.1",
-      "published": "2026-11-04T16:40:19Z",
-      "preview": "(config) name sets of environments with env_sets in miserc.toml…",
-      "source": "mise releases",
       "category": "Multi-language"
     },
     {
