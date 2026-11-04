@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-04T12:26:47Z",
-  "cutoff": "2026-10-05T12:26:42Z",
+  "generated": "2026-11-04T13:22:18Z",
+  "cutoff": "2026-10-05T13:22:12Z",
   "feed_count": 104,
   "item_count": 314,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.212.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.212.1",
+      "published": "2026-11-04T12:54:00Z",
+      "preview": "44.212.1 (2026-11-04) Bug Fixes changelog: ignore URLs when matching version in body ( #44793 ) ( 1f55e95 ) custom: preserve datasource-provided changelog content ( #45867 ) ( b9874b1 ) dashboard: skip package files without listed dependencies ( #47005 ) ( d7dc43c ) npm: link the change diff to the looked up package ( #47007 ) ( 96c2f98 ) platform/gerrit: merge unpushed onboarding change from local branch ( #47115 ) ( 7895d77 ) versioning/rez: preserve replacement versions ( #46528 ) ( 62925c4 ) workers/repository: don't report platform errors as base branch config errors ( #47726 ) ( 18ca498 ",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "3.3.6",
       "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.6",
@@ -373,14 +381,6 @@
       "preview": null,
       "source": "Zig News",
       "category": "Registries"
-    },
-    {
-      "title": "44.206.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.206.2",
-      "published": "2026-11-02T22:19:59Z",
-      "preview": "44.206.2 (2026-11-02) Build System deps: update dependency @renovatebot/osv-offline to v4.5.9 (main) ( #47675 ) ( 0394985 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "26.3",
