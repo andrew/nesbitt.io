@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-04T21:21:37Z",
-  "cutoff": "2026-10-05T21:21:31Z",
+  "generated": "2026-11-04T22:22:37Z",
+  "cutoff": "2026-10-05T22:22:30Z",
   "feed_count": 104,
   "item_count": 317,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.216.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.2",
+      "published": "2026-11-04T22:05:14Z",
+      "preview": "44.216.2 (2026-11-04) Build System deps: update dependency @opentelemetry/semantic-conventions to v1.44.0 (main) ( #47767 ) ( 176dc4b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.216.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.1",
+      "published": "2026-11-04T21:49:36Z",
+      "preview": "44.216.1 (2026-11-04) Bug Fixes deps: update renovate-base-image to v13.160.1 (main) ( #47766 ) ( 2e77c1c ) Miscellaneous Chores deps: update github/codeql-action action to v4.39.3 (main) ( #47757 ) ( d0f966d ) deps: update sigstore/cosign-installer action to v4.1.3 (main) ( #47763 ) ( 570fdbb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v1.13.8",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.8",
+      "published": "2026-11-04T21:45:55Z",
+      "preview": "BUG FIXES: The -v short option now again works as an alias for the version command and --version option, fixing an unintended regression in v1.13.0. ( #4769 ) Fixed panic when provided invalid state encryption configuration. ( #4783 ) Full Changelog : v1.13.2...v1.13.8",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
     {
       "title": "v1.13.7",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.7",
@@ -311,14 +335,6 @@
       "category": "Python"
     },
     {
-      "title": "44.210.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.210.1",
-      "published": "2026-11-04T04:02:55Z",
-      "preview": "44.210.1 (2026-11-04) Miscellaneous Chores deps: update dependency tsdown to v0.23.3 (main) ( #47617 ) ( 99cdecc ) Build System deps: update dependency @renovatebot/osv-offline to v4.5.10 (main) ( #47701 ) ( e83ec70 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "A new Go API for JSON",
       "url": "https://go.dev/blog/jsonv2",
       "published": "2026-11-04T00:00:00Z",
@@ -341,14 +357,6 @@
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.210.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.210.0",
-      "published": "2026-11-03T18:47:11Z",
-      "preview": "44.210.0 (2026-11-03) Features datasource: add julia-general-metadata datasource ( #42994 ) ( e2627de ), closes #29623 #46112 #47166 versioning: add julia versioning ( #42995 ) ( f312ab8 ), closes JuliaGPU/CUDA.jl#3152 dependabot/dependabot-core#16307 versioning: add vcpkg versioning ( #43497 ) ( 4d0f1cd )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.403.0",
@@ -1797,14 +1805,6 @@
       "preview": "Deno is joining Cloudflare & winding down its investment in the runtime. We're all better off because of its existence.",
       "source": "vlt Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "v1.12.8",
-      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.8",
-      "published": "2026-10-14T16:20:20Z",
-      "preview": "SECURITY ADVISORIES: Previous versions of OpenTofu could potentially experience excessive CPU usage if connecting to an attacker-controlled HTTP2 server while installing dependencies in tofu init . ( #4700 ) BUG FIXES: Lifecycle destroy will no longer crash when given an expression with references ( #4648 )",
-      "source": "OpenTofu releases",
-      "category": "Infrastructure as Code"
     },
     {
       "title": "pixi-build-r-v0.2.0",
