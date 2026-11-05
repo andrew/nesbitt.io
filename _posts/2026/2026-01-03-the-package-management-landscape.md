@@ -247,7 +247,7 @@ Self-hosted registries for private packages or local mirrors.
 
 Artifact repositories, fleet management, and package distribution for organizations.
 
-**Artifact repositories:** [JFrog Artifactory](https://jfrog.com/artifactory/), [Sonatype Nexus](https://www.sonatype.com/products/sonatype-nexus-repository), [GitHub Packages](https://github.com/features/packages), [GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/), [AWS CodeArtifact](https://aws.amazon.com/codeartifact/), [Azure Artifacts](https://azure.microsoft.com/en-us/products/devops/artifacts), [Google Artifact Registry](https://cloud.google.com/artifact-registry), [Cloudsmith](https://cloudsmith.com), [Quay](https://quay.io), [Gitea Packages](https://docs.gitea.com/usage/packages/overview), [Pulp](https://pulpproject.org)
+**Artifact repositories:** [JFrog Artifactory](https://jfrog.com/artifactory/), [Sonatype Nexus](https://www.sonatype.com/products/sonatype-nexus-repository), [GitHub Packages](https://github.com/features/packages), [GitLab Package Registry](https://docs.gitlab.com/ee/user/packages/package_registry/), [AWS CodeArtifact](https://aws.amazon.com/codeartifact/), [Azure Artifacts](https://azure.microsoft.com/en-us/products/devops/artifacts), [Google Artifact Registry](https://cloud.google.com/artifact-registry), [Cloudsmith](https://cloudsmith.com), [Quay](https://quay.io), [Gitea Packages](https://docs.gitea.com/usage/packages/overview), [Pulp](https://pulpproject.org), [CloudRepo](https://www.cloudrepo.io)
 
 **macOS fleet:** [Workbrew](https://workbrew.com), [Munki](https://github.com/munki/munki), [AutoPkg](https://github.com/autopkg/autopkg), [Jamf](https://www.jamf.com)
 
