@@ -7,6 +7,7 @@ tags:
   - git
   - weekly
   - twisc
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mzkgq77ogo2d"
 ---
 
 This week's version control and forge news, gathered from release feeds for source control clients and forges, the [Lobsters vcs tag](https://lobste.rs/t/vcs), Hacker News, and my boosts on [Mastodon](https://mastodon.social/@andrewnez). Package management news is in the Saturday [This Week in Package Management](/2026/10/31/this-week-in-package-management.html) roundup.
