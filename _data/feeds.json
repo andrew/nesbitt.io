@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-05T02:25:00Z",
-  "cutoff": "2026-10-06T02:24:54Z",
+  "generated": "2026-11-05T03:24:12Z",
+  "cutoff": "2026-10-06T03:24:06Z",
   "feed_count": 104,
-  "item_count": 317,
+  "item_count": 319,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.216.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.4",
+      "published": "2026-11-05T02:58:24Z",
+      "preview": "44.216.4 (2026-11-05) Bug Fixes deps: update renovate-base-image to v13.160.2 (main) ( #47772 ) ( ad3caf6 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.1 (main) ( #47771 ) ( e8bdcc4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v4.0.24",
+      "url": "https://github.com/ruby/rubygems/releases/tag/v4.0.24",
+      "published": "2026-11-05T02:49:58Z",
+      "preview": "RubyGems 4.0.24 Enhancements: Installs bundler 4.0.24 as a default gem. Bug fixes: Skip executable removal gracefully when the bin directory is missing. Pull request #9963 by Evan Li and Hiroshi SHIBATA Fix file locks letting multiple processes in when lock files are removed. Pull request #9930 by Richard Janita and Hiroshi SHIBATA Turn off echo before printing the password prompt. Pull request #9969 by Mike Dalessio Documentation: [DOC] Fix link. Pull request #10014 by Burdette Lamar Bundler 4.0.24 Enhancements: Read the Ruby version from mise's inline table form. Pull request #9991 by Hirosh",
+      "source": "RubyGems releases",
+      "category": "Ruby"
+    },
     {
       "title": "44.216.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.3",
@@ -61,6 +77,14 @@
       "preview": "This release fixes a dependency error that broke Linux builds in the 0.47.0 release. About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Deprecations The git.sign-on-push boolean option is deprecated in favor of the revsets.git-sign-on-push revset. The default value is none() . If git.sign-on-push was previously set to true , it will be migrated to revsets.git-sign-on-push = \"~signed() & mine()\" . New features New revsets.git-sign-on-push config option containing the revset of commits to be signed when jj git p",
       "source": "jj releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "4.0.24 Released",
+      "url": "https://blog.rubygems.org/2026/11/05/4.0.24-released.html",
+      "published": "2026-11-05T00:00:00Z",
+      "preview": "RubyGems 4.0.24 includes enhancements, bug fixes and documentation and Bundler 4.0.24 includes enhancements and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.0.24 RubyGems Release Notes Enhancements: Installs bundler 4.0.24 as a default gem. Bug fixes: Skip executable removal gracefully when the bin directory is missing. Pull request #9963 by Evan Li and Hiroshi SHIBATA Fix file locks letting multiple processes in when lock files are removed. Pull request #9",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
     },
     {
       "title": "pnpm 11.28.11",
@@ -317,14 +341,6 @@
       "preview": "apt Debian release 1.4.12",
       "source": "APT releases",
       "category": "System"
-    },
-    {
-      "title": "44.211.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.211.0",
-      "published": "2026-11-04T07:59:42Z",
-      "preview": "44.211.0 (2026-11-04) Features deps: update renovate-base-image to v13.157.0 (main) ( #47711 ) ( ebee4f1 ) Miscellaneous Chores deps: update zizmor (main) ( #47710 ) ( 17a9d3a ) lint: add rule against deeply nested logical expressions ( #47693 ) ( b6c6e68 ) lint: limit nested logical expressions to one level ( #47697 ) ( e6316a2 ) lint: rename prefer-json-pipe to prefer-parser-pipe and enforce Ini ( #47694 ) ( 2393db1 ) Code Refactoring http: add status code helpers ( #47700 ) ( d8953e5 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "@verdaccio/test-helper@5.0.0-next-9.43",
