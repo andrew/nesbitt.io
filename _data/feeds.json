@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-05T20:22:28Z",
-  "cutoff": "2026-10-06T20:22:21Z",
+  "generated": "2026-11-05T21:22:03Z",
+  "cutoff": "2026-10-06T21:21:57Z",
   "feed_count": 104,
   "item_count": 318,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.221.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.221.1",
+      "published": "2026-11-05T20:48:09Z",
+      "preview": "44.221.1 (2026-11-05) Bug Fixes deps: update renovate-base-image to v13.160.6 (main) ( #47791 ) ( 33992b3 ) Miscellaneous Chores deps: update dependency knip to v6.44.0 (main) ( #47793 ) ( 9bfa4c4 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.3 (main) ( #47790 ) ( a64920d ) deps: update jdx/jactionlint action to v2.5.0 (main) ( #47789 ) ( b322bb2 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -373,14 +381,6 @@
       "preview": "11.21.2 (2026-11-03) Bug Fixes 9433b48 #10195 accept supported Node.js prereleases at startup ( #10195 ) (@github-actions[bot], @reggi , @Copilot) Dependencies 8cbc35a #10206 semver@7.8.6 ( @reggi , @Copilot) 9c0af6b #10172 ip-address@10.7.5 f3707dc #10172 undici@6.29.1 484a19d #10176 pacote@21.5.2 ( @martinrrm , @Copilot) bfae5d0 #10176 promise-spawn@9.0.2 ( @martinrrm ) 2ef644b #10176 bin-links@6.0.3 ( @martinrrm ) workspace : libnpmexec@10.3.5",
       "source": "npm CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.216.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.2",
-      "published": "2026-11-04T22:05:14Z",
-      "preview": "44.216.2 (2026-11-04) Build System deps: update dependency @opentelemetry/semantic-conventions to v1.44.0 (main) ( #47767 ) ( 176dc4b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.13.8",
