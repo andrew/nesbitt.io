@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-05T17:21:58Z",
-  "cutoff": "2026-10-06T17:21:52Z",
+  "generated": "2026-11-05T18:25:11Z",
+  "cutoff": "2026-10-06T18:25:06Z",
   "feed_count": 104,
-  "item_count": 316,
+  "item_count": 317,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.221.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.221.0",
+      "published": "2026-11-05T18:16:40Z",
+      "preview": "44.221.0 (2026-11-05) Features manager/pep621: surface uv.lock transitive deps for security updates ( #47482 ) ( 11a4409 ), closes #47505 manager: add julia manager ( #42996 ) ( 08f18c7 ) Bug Fixes workers: keep group branches unchanged after failed lookups ( #47640 ) ( 66b9915 ) Miscellaneous Chores deps: update dependency oxlint-tsgolint to v7.0.2005 (main) ( #47615 ) ( 3677fa9 ) deps: update linters (main) ( #47709 ) ( 69c19de ) Build System retry the image signing and attest the release images ( #47638 ) ( b82309a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "Release of Microsoft.PowerShell.PSResourceGet v1.3.0-rc2",
+      "url": "https://github.com/PowerShell/PSResourceGet/releases/tag/v1.3.0-rc2",
+      "published": "2026-11-05T17:57:29Z",
+      "preview": "What's Changed Add -AllowInsecureConnection to Publish-PSResource to explicitly allow publishing to HTTP NuGet repositories by alerickson in #2072 Update changelog, release notes, dependencies, and version for 1.3.0-rc2 release by shammu1 in #2075 Full Changelog : v1.3.0-rc1...v1.3.0-rc2",
+      "source": "PSResourceGet releases",
+      "category": ".NET"
+    },
     {
       "title": "v1.13.9",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.9",
@@ -69,6 +85,14 @@
       "preview": "44.219.0 (2026-11-05) Features support Node.js 26 ( #47714 ) ( 813b76c ) Continuous Integration test the secondary Node version on Linux ( #47713 ) ( 8e1160c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "vlt v1.6.2 to v1.6.4: faster cold installs and clearer workspace runs",
+      "url": "https://vlt.io/blog/vlt-1-6-4",
+      "published": "2026-11-05T12:00:00Z",
+      "preview": "vlt v1.6.2 to v1.6.4 bring faster cold installs, clearer workspace runs and a vlt build that saves allow-scripts.",
+      "source": "vlt Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.218.0",
@@ -339,14 +363,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.2",
       "published": "2026-11-04T22:05:14Z",
       "preview": "44.216.2 (2026-11-04) Build System deps: update dependency @opentelemetry/semantic-conventions to v1.44.0 (main) ( #47767 ) ( 176dc4b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.216.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.1",
-      "published": "2026-11-04T21:49:36Z",
-      "preview": "44.216.1 (2026-11-04) Bug Fixes deps: update renovate-base-image to v13.160.1 (main) ( #47766 ) ( 2e77c1c ) Miscellaneous Chores deps: update github/codeql-action action to v4.39.3 (main) ( #47757 ) ( d0f966d ) deps: update sigstore/cosign-installer action to v4.1.3 (main) ( #47763 ) ( 570fdbb )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -925,14 +941,6 @@
       "preview": "Read our blog post about this release. As part of this release we had 4 issues closed. Bug Fixes Chocolatey CLI is incorrectly reporting bad permissions on the HttpCache folder and is not setting them correctly. See #3645 by pauby , resolved in !3936 by vexx32 . upgrade --version installs a different target version after dependency resolution retry. See #3923 by kruegerkyle95 , resolved in !3934 by alexaveldanez . Fix recursive ChocolateySourceCacheContext.Dispose causing StackOverflowException. See #3944 by CheneyDu0129 , resolved in !3947 by AdmiringWorm . Dependency Change Updated the bundl",
       "source": "Chocolatey releases",
       "category": "System"
-    },
-    {
-      "title": "Release of Microsoft.PowerShell.PSResourceGet v1.3.0-rc2",
-      "url": "https://github.com/PowerShell/PSResourceGet/releases/tag/v1.3.0-rc2",
-      "published": "2026-10-29T00:02:29Z",
-      "preview": "What's Changed Update dependency packages by alerickson in #2072 Update changelog, release notes, dependencies, and version for 1.3.0-rc2 release by shammu1 in #2075 Full Changelog : v1.3.0-rc1...v1.3.0-rc2",
-      "source": "PSResourceGet releases",
-      "category": ".NET"
     },
     {
       "title": "1.13.1",
