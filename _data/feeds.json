@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-05T09:23:39Z",
-  "cutoff": "2026-10-06T09:23:34Z",
+  "generated": "2026-11-05T10:22:19Z",
+  "cutoff": "2026-10-06T10:22:11Z",
   "feed_count": 104,
   "item_count": 316,
   "categories": [
@@ -22,6 +22,102 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.11.2",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.2",
+      "published": "2026-11-05T10:10:50Z",
+      "preview": "(task) add a summary output style that prints only what failed …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-daemons-v2026.11.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.11.2",
+      "published": "2026-11-05T10:10:15Z",
+      "preview": "Release mise-daemons 2026.11.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.11.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.2",
+      "published": "2026-11-05T10:10:05Z",
+      "preview": "Release mise-oci 2026.11.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.11.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.2",
+      "published": "2026-11-05T10:09:55Z",
+      "preview": "Release mise-system 2026.11.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.11.2",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.2",
+      "published": "2026-11-05T10:09:43Z",
+      "preview": "Release vfox 2026.11.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.11.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.2",
+      "published": "2026-11-05T10:09:33Z",
+      "preview": "Release mise-system-packages 2026.11.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.11.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.2",
+      "published": "2026-11-05T10:09:18Z",
+      "preview": "Release mise-ui 2026.11.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.11.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.2",
+      "published": "2026-11-05T10:09:09Z",
+      "preview": "Release mise-util 2026.11.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.11.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.2",
+      "published": "2026-11-05T10:08:58Z",
+      "preview": "Release mise-sigstore 2026.11.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.11.2",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.2",
+      "published": "2026-11-05T10:08:46Z",
+      "preview": "Release mise-settings 2026.11.2",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-03-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-03-a",
+      "published": "2026-11-05T09:54:29Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-03-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.217.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.217.0",
+      "published": "2026-11-05T09:33:10Z",
+      "preview": "44.217.0 (2026-11-05) Features workers/extract: share extracted constraints across managers ( #47483 ) ( 1fa6633 ) Bug Fixes manager/apm: run apm install --update for lock file maintenance ( #45683 ) ( f1a9dba ) Documentation contributing: note that an Issue doesn't mean we'll accept a PR ( #47764 ) ( 80b89fc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.216.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.6",
@@ -231,14 +327,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "v2026.11.1: npm provenance verified by default, with repository pins in mise.lock",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.1",
-      "published": "2026-11-04T19:13:36Z",
-      "preview": "npm: tools now have their Sigstore provenance verified by default. The first install records the repository that built the package in mise.lock , and later installs must come from that same repository. This release also adds named environment sets in miserc.toml and fixes a range of lockfile, install and shell issues. See Breaking Changes before you upgrade: some installs that worked before can now fail, and new lockfiles use format version 4. Added npm provenance repository pins. When provenance verification is on, mise install records the GitHub or GitLab repository that an npm: package's pr",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v0.47.0",
       "url": "https://github.com/jj-vcs/jj/releases/tag/v0.47.0",
       "published": "2026-11-04T18:03:05Z",
@@ -263,78 +351,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "mise-oci-v2026.11.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.1",
-      "published": "2026-11-04T16:39:23Z",
-      "preview": "Release mise-oci 2026.11.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.11.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.1",
-      "published": "2026-11-04T16:39:12Z",
-      "preview": "Release mise-system 2026.11.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.11.1",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.1",
-      "published": "2026-11-04T16:38:59Z",
-      "preview": "Release vfox 2026.11.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.11.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.1",
-      "published": "2026-11-04T16:38:50Z",
-      "preview": "Release mise-system-packages 2026.11.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.11.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.1",
-      "published": "2026-11-04T16:38:39Z",
-      "preview": "Release mise-ui 2026.11.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.11.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.1",
-      "published": "2026-11-04T16:38:31Z",
-      "preview": "Release mise-util 2026.11.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.11.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.1",
-      "published": "2026-11-04T16:38:23Z",
-      "preview": "Release mise-sigstore 2026.11.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.11.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.1",
-      "published": "2026-11-04T16:37:16Z",
-      "preview": "Release mise-settings 2026.11.1",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-lsp-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-lsp-v2026.11.0",
-      "published": "2026-11-04T16:37:01Z",
-      "preview": "Release mise-lsp 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "44.215.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.215.0",
       "published": "2026-11-04T15:35:00Z",
@@ -347,14 +363,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.214.0",
       "published": "2026-11-04T14:47:15Z",
       "preview": "44.214.0 (2026-11-04) Features deps: update renovate-base-image to v13.158.0 (main) ( #47751 ) ( 02e76c9 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.64.0 (main) ( #47750 ) ( 939a802 ) Continuous Integration setup-docker: free disk space when less than 40 GB are available ( #47749 ) ( e25e231 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.213.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.213.0",
-      "published": "2026-11-04T14:03:29Z",
-      "preview": "44.213.0 (2026-11-04) Features logger: log containerbase and osv-offline messages via Renovate's logger ( #47649 ) ( 6ef4696 ) versioning/semver-extended: support ranges ( #47720 ) ( 1695b40 ) versioning/semver-extended: support the widen range strategy ( #47722 ) ( 6988c14 ) versioning/semver-extended: update ranges with bump and replace ( #47721 ) ( 23db582 ) versioning: add semver-extended versioning ( #47719 ) ( 40329e5 ) Bug Fixes deps: update renovate-base-image to v13.157.1 (main) ( #47745 ) ( 922bc68 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1677,14 +1685,6 @@
       "preview": "🐛 bug fixes fix: Fix AccessDeniedException writing SemanticDB by @eed3si9n in #9878 fix: Fixes .m2/settings.xml overriding sbtResolvers by @eed3si9n in #9828 fix: Keep accepting after a client fails by @kitbellew in #9691 fix: Fix task output lost by the thin client under CPU load by @eed3si9n in #9868 fix: Read all forked test output before reporting the fork's exit by @eugkhp in #9860 fix: Use Path.userHome to work around user.home returning ? by @eed3si9n in #9866 fix: Fail a gRPC batch read when a blob fails by @eugkhp in #9904 fix: Fix pipelined compile hanging when compile inputs fail by",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
-      "published": "2026-10-17T08:45:21Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-15-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "8.1.0.12",
