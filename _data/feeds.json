@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-06T10:22:01Z",
-  "cutoff": "2026-10-07T10:21:57Z",
+  "generated": "2026-11-06T11:21:52Z",
+  "cutoff": "2026-10-07T11:21:46Z",
   "feed_count": 104,
-  "item_count": 314,
+  "item_count": 315,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,20 +23,36 @@
   ],
   "items": [
     {
+      "title": "v2026.11.3: Task history, saved task logs, and source-based --affected outside monorepos",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.3",
+      "published": "2026-11-06T11:18:41Z",
+      "preview": "This release adds three task features: mise tasks history shows how long past runs took, the opt-in task.logs setting saves each task's last output, and mise run --affected now works in any project by matching changed files against each task's sources . It also fixes problems with upgrade --bump , GitHub asset detection, locked lockfiles, Windows npm installs, prune and hung asdf plugins. Added mise run --affected outside a monorepo. Before, --affected worked only at a monorepo root and failed anywhere else. Outside a monorepo it now runs only the matching tasks affected by changed files. A ta",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "3.3.7",
+      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.7",
+      "published": "2026-11-06T10:58:06Z",
+      "preview": "apt Debian release 3.3.7",
+      "source": "APT releases",
+      "category": "System"
+    },
+    {
+      "title": "44.221.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.221.5",
+      "published": "2026-11-06T10:47:07Z",
+      "preview": "44.221.5 (2026-11-06) Code Refactoring util: add a helper to strip the version prefix ( #47738 ) ( a6acb30 ) Build System deps: update dependency got to v16.2.0 (main) ( #47802 ) ( cf6ae60 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-04-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-04-a",
       "published": "2026-11-06T10:02:51Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-04-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.11.3",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.3",
-      "published": "2026-11-06T09:28:16Z",
-      "preview": "(task) select tasks by their sources with --affected outside a …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-daemons-v2026.11.3",
@@ -283,14 +299,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.217.0",
       "published": "2026-11-05T09:33:10Z",
       "preview": "44.217.0 (2026-11-05) Features workers/extract: share extracted constraints across managers ( #47483 ) ( 1fa6633 ) Bug Fixes manager/apm: run apm install --update for lock file maintenance ( #45683 ) ( f1a9dba ) Documentation contributing: note that an Issue doesn't mean we'll accept a PR ( #47764 ) ( 80b89fc )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.216.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.6",
-      "published": "2026-11-05T08:44:01Z",
-      "preview": "44.216.6 (2026-11-05) Bug Fixes deps: update renovate-base-image to v13.160.4 (main) ( #47775 ) ( 5ada219 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
