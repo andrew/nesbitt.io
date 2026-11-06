@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06T05:22:28Z",
-  "cutoff": "2026-10-07T05:22:22Z",
+  "generated": "2026-11-06T06:31:41Z",
+  "cutoff": "2026-10-07T06:31:35Z",
   "feed_count": 104,
   "item_count": 314,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.221.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.221.3",
+      "published": "2026-11-06T05:51:57Z",
+      "preview": "44.221.3 (2026-11-06) Bug Fixes deps: update renovate-base-image to v13.160.8 (main) ( #47799 ) ( 850b9eb ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.5 (main) ( #47798 ) ( d62030b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.221.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.221.2",
@@ -301,14 +309,6 @@
       "preview": "What's Changed graph: draw every path to selected packages in query views by @ruyadorno in #2033 graph: save workspace:* for a bare workspace add by @ruyadorno in #2047 chore: move helpers into a new project workspace by @ruyadorno in #1512 cli-sdk: better status output for multi-workspace runs by @ruyadorno in #2082 graph: preserve unresolved workspace deps by @drawliin in #2055 docs: add vlt-cli agent skill by @ruyadorno in #2084 cli-sdk: fix vlt build allow-scripts ux by @ruyadorno in #2034 Release v1.6.3 by @vltops in #2081 Full Changelog : v1.6.2...v1.6.3",
       "source": "vlt CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.216.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.4",
-      "published": "2026-11-05T02:58:24Z",
-      "preview": "44.216.4 (2026-11-05) Bug Fixes deps: update renovate-base-image to v13.160.2 (main) ( #47772 ) ( ad3caf6 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.1 (main) ( #47771 ) ( e8bdcc4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v4.0.24",
