@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-04T09:29:32Z",
-  "total_posts": 230,
-  "total_words": 321502,
-  "reading_minutes": 1608,
-  "average_words": 1398,
+  "generated_at": "2026-11-06T16:45:01Z",
+  "total_posts": 232,
+  "total_words": 325737,
+  "reading_minutes": 1629,
+  "average_words": 1404,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "This Week in Package Management: 31 October 2026",
-    "url": "/2026/10/31/this-week-in-package-management.html",
-    "date": "2026-10-31"
+    "title": "Weekend at Bernie's II",
+    "url": "/2026/11/06/weekend-at-bernies-ii.html",
+    "date": "2026-11-06"
   },
   "years_active": 9.7,
   "posts_per_month": 2.0,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 190
+      "count": 192
     },
     {
       "year": 2025,
@@ -53,6 +53,10 @@
     }
   ],
   "posts_by_month": [
+    {
+      "month": "2026-11",
+      "count": 2
+    },
     {
       "month": "2026-10",
       "count": 13
@@ -126,9 +130,9 @@
     "sunday": 18,
     "monday": 28,
     "tuesday": 37,
-    "wednesday": 26,
+    "wednesday": 27,
     "thursday": 41,
-    "friday": 38,
+    "friday": 39,
     "saturday": 42
   },
   "tags": [
@@ -138,11 +142,11 @@
     },
     {
       "name": "security",
-      "count": 58
+      "count": 59
     },
     {
       "name": "open-source",
-      "count": 43
+      "count": 44
     },
     {
       "name": "reference",
@@ -158,19 +162,19 @@
     },
     {
       "name": "weekly",
-      "count": 25
+      "count": 26
     },
     {
       "name": "twipm",
       "count": 24
     },
     {
-      "name": "supply-chain",
+      "name": "git",
       "count": 23
     },
     {
-      "name": "git",
-      "count": 22
+      "name": "supply-chain",
+      "count": 23
     },
     {
       "name": "ai",
@@ -193,12 +197,12 @@
       "count": 12
     },
     {
-      "name": "github",
+      "name": "maintainers",
       "count": 10
     },
     {
-      "name": "maintainers",
-      "count": 9
+      "name": "github",
+      "count": 10
     },
     {
       "name": "git-pkgs",
@@ -265,6 +269,10 @@
       "count": 3
     },
     {
+      "name": "twisc",
+      "count": 2
+    },
+    {
       "name": "postgres",
       "count": 2
     },
@@ -289,14 +297,6 @@
       "count": 2
     },
     {
-      "name": "roundup",
-      "count": 2
-    },
-    {
-      "name": "python",
-      "count": 2
-    },
-    {
       "name": "taxonomy",
       "count": 2
     },
@@ -305,51 +305,19 @@
       "count": 2
     },
     {
-      "name": "twisc",
-      "count": 1
+      "name": "python",
+      "count": 2
     },
     {
-      "name": "testing",
-      "count": 1
+      "name": "roundup",
+      "count": 2
     },
     {
-      "name": "governance",
-      "count": 1
-    },
-    {
-      "name": "writing",
-      "count": 1
-    },
-    {
-      "name": "github-actions",
-      "count": 1
-    },
-    {
-      "name": "forges",
-      "count": 1
-    },
-    {
-      "name": "challenge",
+      "name": "apisix",
       "count": 1
     },
     {
       "name": "swhid",
-      "count": 1
-    },
-    {
-      "name": "productivity",
-      "count": 1
-    },
-    {
-      "name": "infrastructure",
-      "count": 1
-    },
-    {
-      "name": "unboxed",
-      "count": 1
-    },
-    {
-      "name": "zig",
       "count": 1
     },
     {
@@ -361,11 +329,55 @@
       "count": 1
     },
     {
+      "name": "zig",
+      "count": 1
+    },
+    {
+      "name": "unboxed",
+      "count": 1
+    },
+    {
+      "name": "infrastructure",
+      "count": 1
+    },
+    {
+      "name": "productivity",
+      "count": 1
+    },
+    {
+      "name": "challenge",
+      "count": 1
+    },
+    {
+      "name": "forges",
+      "count": 1
+    },
+    {
+      "name": "github-actions",
+      "count": 1
+    },
+    {
+      "name": "writing",
+      "count": 1
+    },
+    {
+      "name": "governance",
+      "count": 1
+    },
+    {
+      "name": "testing",
+      "count": 1
+    },
+    {
       "name": "fediverse",
       "count": 1
     },
     {
       "name": "activitypub",
+      "count": 1
+    },
+    {
+      "name": "jekyll",
       "count": 1
     },
     {
@@ -382,6 +394,10 @@
     },
     {
       "name": "crates.io",
+      "count": 1
+    },
+    {
+      "name": "software heritage",
       "count": 1
     },
     {
@@ -402,18 +418,6 @@
     },
     {
       "name": "benchmarks",
-      "count": 1
-    },
-    {
-      "name": "software heritage",
-      "count": 1
-    },
-    {
-      "name": "jekyll",
-      "count": 1
-    },
-    {
-      "name": "apisix",
       "count": 1
     }
   ],
@@ -482,6 +486,24 @@
       ]
     },
     {
+      "url": "/2026/05/08/weekend-at-bernies.html",
+      "title": "Weekend at Bernie's",
+      "inbound_count": 11,
+      "inbound_from": [
+        "/2026/05/09/the-mismeasure-of-open-source.html",
+        "/2026/05/13/showing-our-work.html",
+        "/2026/05/14/centrality-is-not-vitality.html",
+        "/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
+        "/2026/05/25/github-actions-security-in-python-packages.html",
+        "/2026/05/27/chaoss-metrics-in-2026.html",
+        "/2026/06/18/open-source-vs-the-invisible-hand.html",
+        "/2026/08/06/a-year-of-ai-disclosure-in-critical-packages.html",
+        "/2026/09/22/unfinished-work-in-package-security.html",
+        "/2026/10/10/this-week-in-package-management.html",
+        "/2026/11/06/weekend-at-bernies-ii.html"
+      ]
+    },
+    {
       "url": "/2025/12/10/slopsquatting-meets-dependency-confusion.html",
       "title": "Slopsquatting meets Dependency Confusion",
       "inbound_count": 10,
@@ -496,23 +518,6 @@
         "/2026/04/08/package-security-problems-for-ai-agents.html",
         "/2026/04/09/package-security-defenses-for-ai-agents.html",
         "/2026/04/27/the-stages-of-package-installation.html"
-      ]
-    },
-    {
-      "url": "/2026/05/08/weekend-at-bernies.html",
-      "title": "Weekend at Bernie's",
-      "inbound_count": 10,
-      "inbound_from": [
-        "/2026/05/09/the-mismeasure-of-open-source.html",
-        "/2026/05/13/showing-our-work.html",
-        "/2026/05/14/centrality-is-not-vitality.html",
-        "/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
-        "/2026/05/25/github-actions-security-in-python-packages.html",
-        "/2026/05/27/chaoss-metrics-in-2026.html",
-        "/2026/06/18/open-source-vs-the-invisible-hand.html",
-        "/2026/08/06/a-year-of-ai-disclosure-in-critical-packages.html",
-        "/2026/09/22/unfinished-work-in-package-security.html",
-        "/2026/10/10/this-week-in-package-management.html"
       ]
     },
     {
@@ -683,6 +688,19 @@
       ]
     },
     {
+      "url": "/2026/05/01/patching-and-forking-in-package-managers.html",
+      "title": "Patching and forking in package managers",
+      "inbound_count": 6,
+      "inbound_from": [
+        "/2026/05/02/a-github-for-maintainers.html",
+        "/2026/05/08/weekend-at-bernies.html",
+        "/2026/05/15/language-registries-are-unstable-by-default.html",
+        "/2026/06/29/unbundling-the-standard-library.html",
+        "/2026/09/22/unfinished-work-in-package-security.html",
+        "/2026/11/06/weekend-at-bernies-ii.html"
+      ]
+    },
+    {
       "url": "/2025/12/02/what-is-a-package-manager.html",
       "title": "What is a Package Manager?",
       "inbound_count": 5,
@@ -752,18 +770,6 @@
         "/2026/03/05/package-manager-magic-files.html",
         "/2026/03/06/gitlocal.html",
         "/2026/09/01/git-submodules-as-a-package-manager.html"
-      ]
-    },
-    {
-      "url": "/2026/05/01/patching-and-forking-in-package-managers.html",
-      "title": "Patching and forking in package managers",
-      "inbound_count": 5,
-      "inbound_from": [
-        "/2026/05/02/a-github-for-maintainers.html",
-        "/2026/05/08/weekend-at-bernies.html",
-        "/2026/05/15/language-registries-are-unstable-by-default.html",
-        "/2026/06/29/unbundling-the-standard-library.html",
-        "/2026/09/22/unfinished-work-in-package-security.html"
       ]
     },
     {
@@ -841,6 +847,17 @@
         "/2026/09/05/this-week-in-package-management.html",
         "/2026/09/22/unfinished-work-in-package-security.html",
         "/2026/10/30/signing-and-attestations-across-package-registries.html"
+      ]
+    },
+    {
+      "url": "/2026/06/25/scrutineer.html",
+      "title": "Scrutineer: scanning open source without flooding maintainers",
+      "inbound_count": 4,
+      "inbound_from": [
+        "/2026/09/08/whats-new-in-git-pkgs.html",
+        "/2026/09/22/package-manager-threat-model-revisited.html",
+        "/2026/09/22/unfinished-work-in-package-security.html",
+        "/2026/11/06/weekend-at-bernies-ii.html"
       ]
     },
     {
@@ -955,13 +972,13 @@
       ]
     },
     {
-      "url": "/2026/06/25/scrutineer.html",
-      "title": "Scrutineer: scanning open source without flooding maintainers",
+      "url": "/2026/05/12/not-a-security-issue.html",
+      "title": "Not a Security Issue",
       "inbound_count": 3,
       "inbound_from": [
-        "/2026/09/08/whats-new-in-git-pkgs.html",
-        "/2026/09/22/package-manager-threat-model-revisited.html",
-        "/2026/09/22/unfinished-work-in-package-security.html"
+        "/2026/06/25/scrutineer.html",
+        "/2026/09/22/unfinished-work-in-package-security.html",
+        "/2026/11/06/weekend-at-bernies-ii.html"
       ]
     },
     {
@@ -1155,12 +1172,21 @@
       ]
     },
     {
-      "url": "/2026/05/12/not-a-security-issue.html",
-      "title": "Not a Security Issue",
+      "url": "/2026/05/15/language-registries-are-unstable-by-default.html",
+      "title": "Language Registries Are Unstable by Default",
       "inbound_count": 2,
       "inbound_from": [
-        "/2026/06/25/scrutineer.html",
-        "/2026/09/22/unfinished-work-in-package-security.html"
+        "/2026/05/27/chaoss-metrics-in-2026.html",
+        "/2026/11/06/weekend-at-bernies-ii.html"
+      ]
+    },
+    {
+      "url": "/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
+      "title": "Dumb Ways for an Open Source Project to Die",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/06/16/how-open-source-projects-change-hands.html",
+        "/2026/11/06/weekend-at-bernies-ii.html"
       ]
     },
     {
@@ -1466,22 +1492,6 @@
       ]
     },
     {
-      "url": "/2026/05/15/language-registries-are-unstable-by-default.html",
-      "title": "Language Registries Are Unstable by Default",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/05/27/chaoss-metrics-in-2026.html"
-      ]
-    },
-    {
-      "url": "/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
-      "title": "Dumb Ways for an Open Source Project to Die",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/06/16/how-open-source-projects-change-hands.html"
-      ]
-    },
-    {
       "url": "/2026/05/21/rfc-artificial-contributors-to-open-source.html",
       "title": "RFC: Artificial Contributors to Open Source",
       "inbound_count": 1,
@@ -1519,6 +1529,14 @@
       "inbound_count": 1,
       "inbound_from": [
         "/2026/08/01/this-week-in-package-management.html"
+      ]
+    },
+    {
+      "url": "/2026/06/16/how-open-source-projects-change-hands.html",
+      "title": "How Open Source Projects Change Hands",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/11/06/weekend-at-bernies-ii.html"
       ]
     },
     {
@@ -1586,6 +1604,14 @@
       ]
     },
     {
+      "url": "/2026/08/06/a-year-of-ai-disclosure-in-critical-packages.html",
+      "title": "A year of AI disclosure in critical packages",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/11/06/weekend-at-bernies-ii.html"
+      ]
+    },
+    {
       "url": "/2026/08/07/the-software-stewardship-lab.html",
       "title": "The Software Stewardship Lab",
       "inbound_count": 1,
@@ -1616,21 +1642,37 @@
       "inbound_from": [
         "/2026/10/28/this-week-in-source-control.html"
       ]
+    },
+    {
+      "url": "/2026/10/28/this-week-in-source-control.html",
+      "title": "This Week in Source Control: 28 October 2026",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/11/04/this-week-in-source-control.html"
+      ]
+    },
+    {
+      "url": "/2026/10/31/this-week-in-package-management.html",
+      "title": "This Week in Package Management: 31 October 2026",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/11/04/this-week-in-source-control.html"
+      ]
     }
   ],
   "external_links": {
-    "total": 5824,
-    "unique": 4645,
+    "total": 5915,
+    "unique": 4730,
     "domains": [
       {
         "host": "github.com",
-        "count": 1853,
-        "posts": 171
+        "count": 1907,
+        "posts": 173
       },
       {
         "host": "en.wikipedia.org",
-        "count": 95,
-        "posts": 35
+        "count": 96,
+        "posts": 36
       },
       {
         "host": "arxiv.org",
@@ -1638,14 +1680,14 @@
         "posts": 40
       },
       {
+        "host": "github.blog",
+        "count": 64,
+        "posts": 36
+      },
+      {
         "host": "nvd.nist.gov",
         "count": 62,
         "posts": 14
-      },
-      {
-        "host": "github.blog",
-        "count": 59,
-        "posts": 34
       },
       {
         "host": "pnpm.io",
@@ -1746,6 +1788,11 @@
         "host": "rubygems.org",
         "count": 15,
         "posts": 11
+      },
+      {
+        "host": "www.npmjs.com",
+        "count": 15,
+        "posts": 7
       },
       {
         "host": "www.rfc-editor.org",
@@ -1905,17 +1952,17 @@
       {
         "host": "mastodon.social",
         "count": 9,
-        "posts": 51
+        "posts": 52
+      },
+      {
+        "host": "web.archive.org",
+        "count": 9,
+        "posts": 9
       },
       {
         "host": "www.debian.org",
         "count": 9,
         "posts": 8
-      },
-      {
-        "host": "www.npmjs.com",
-        "count": 9,
-        "posts": 6
       },
       {
         "host": "www.stepsecurity.io",
@@ -1968,6 +2015,11 @@
         "posts": 5
       },
       {
+        "host": "pkg.go.dev",
+        "count": 8,
+        "posts": 8
+      },
+      {
         "host": "reproducible-builds.org",
         "count": 8,
         "posts": 9
@@ -1976,11 +2028,6 @@
         "host": "sethmlarson.dev",
         "count": 8,
         "posts": 9
-      },
-      {
-        "host": "web.archive.org",
-        "count": 8,
-        "posts": 8
       },
       {
         "host": "dl.acm.org",
@@ -2063,6 +2110,11 @@
         "posts": 6
       },
       {
+        "host": "forgejo.org",
+        "count": 6,
+        "posts": 8
+      },
+      {
         "host": "jfrog.com",
         "count": 6,
         "posts": 10
@@ -2081,11 +2133,6 @@
         "host": "packaging.python.org",
         "count": 6,
         "posts": 5
-      },
-      {
-        "host": "pkg.go.dev",
-        "count": 6,
-        "posts": 7
       },
       {
         "host": "research.swtch.com",
@@ -2188,11 +2235,6 @@
         "posts": 4
       },
       {
-        "host": "forgejo.org",
-        "count": 5,
-        "posts": 7
-      },
-      {
         "host": "formulae.brew.sh",
         "count": 5,
         "posts": 5
@@ -2251,6 +2293,11 @@
         "host": "blog.ecosyste.ms",
         "count": 4,
         "posts": 4
+      },
+      {
+        "host": "blog.gitea.com",
+        "count": 4,
+        "posts": 2
       },
       {
         "host": "blog.trailofbits.com",
@@ -2473,6 +2520,11 @@
         "posts": 1
       },
       {
+        "host": "gitroot.dev",
+        "count": 3,
+        "posts": 4
+      },
+      {
         "host": "groups.google.com",
         "count": 3,
         "posts": 3
@@ -2490,7 +2542,7 @@
       {
         "host": "lobste.rs",
         "count": 3,
-        "posts": 3
+        "posts": 4
       },
       {
         "host": "manpages.debian.org",
@@ -2693,11 +2745,6 @@
         "posts": 1
       },
       {
-        "host": "blog.gitea.com",
-        "count": 2,
-        "posts": 1
-      },
-      {
         "host": "blog.sigstore.dev",
         "count": 2,
         "posts": 2
@@ -2716,6 +2763,11 @@
         "host": "buck.build",
         "count": 2,
         "posts": 2
+      },
+      {
+        "host": "central.sonatype.com",
+        "count": 2,
+        "posts": 1
       },
       {
         "host": "chariotsolutions.com",
@@ -2820,7 +2872,7 @@
       {
         "host": "ecosyste.ms",
         "count": 2,
-        "posts": 35
+        "posts": 36
       },
       {
         "host": "embracethered.com",
@@ -2876,11 +2928,6 @@
         "host": "gitlab.archlinux.org",
         "count": 2,
         "posts": 1
-      },
-      {
-        "host": "gitroot.dev",
-        "count": 2,
-        "posts": 3
       },
       {
         "host": "gittuf.dev",
@@ -2998,6 +3045,11 @@
         "posts": 1
       },
       {
+        "host": "openai.com",
+        "count": 2,
+        "posts": 2
+      },
+      {
         "host": "opencontainers.org",
         "count": 2,
         "posts": 2
@@ -3024,6 +3076,11 @@
       },
       {
         "host": "package.elm-lang.org",
+        "count": 2,
+        "posts": 2
+      },
+      {
+        "host": "packagist.org",
         "count": 2,
         "posts": 2
       },
@@ -3149,6 +3206,11 @@
       },
       {
         "host": "spdx.github.io",
+        "count": 2,
+        "posts": 2
+      },
+      {
+        "host": "tangled.org",
         "count": 2,
         "posts": 2
       },
@@ -3364,6 +3426,11 @@
       },
       {
         "host": "aloysberger.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "alpinelinux.org",
         "count": 1,
         "posts": 1
       },
@@ -3923,12 +3990,22 @@
         "posts": 1
       },
       {
+        "host": "dbushell.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "ddbeck.com",
         "count": 1,
         "posts": 1
       },
       {
         "host": "decapcms.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "delta.dev",
         "count": 1,
         "posts": 1
       },
@@ -4444,6 +4521,11 @@
       },
       {
         "host": "git-pkgs.dev",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "git.github.io",
         "count": 1,
         "posts": 1
       },
@@ -5078,11 +5160,6 @@
         "posts": 1
       },
       {
-        "host": "openai.com",
-        "count": 1,
-        "posts": 1
-      },
-      {
         "host": "openjsf.org",
         "count": 1,
         "posts": 1
@@ -5144,11 +5221,6 @@
       },
       {
         "host": "packagist.com",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "packagist.org",
         "count": 1,
         "posts": 1
       },
@@ -5718,11 +5790,6 @@
         "posts": 1
       },
       {
-        "host": "tangled.org",
-        "count": 1,
-        "posts": 1
-      },
-      {
         "host": "tef.computer",
         "count": 1,
         "posts": 1
@@ -5734,6 +5801,11 @@
       },
       {
         "host": "thanks.dev",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "thenewstack.io",
         "count": 1,
         "posts": 1
       },
@@ -5799,6 +5871,11 @@
       },
       {
         "host": "tweedegolf.nl",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "typesanitizer.com",
         "count": 1,
         "posts": 1
       },
@@ -6354,6 +6431,11 @@
       },
       {
         "host": "www.maturin.rs",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "www.mongodb.com",
         "count": 1,
         "posts": 1
       },
