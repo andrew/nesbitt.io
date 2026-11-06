@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-06T02:25:11Z",
-  "cutoff": "2026-10-07T02:25:05Z",
+  "generated": "2026-11-06T04:23:36Z",
+  "cutoff": "2026-10-07T04:23:29Z",
   "feed_count": 104,
-  "item_count": 316,
+  "item_count": 317,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,18 +23,34 @@
   ],
   "items": [
     {
-      "title": "v2.0.0-beta.29",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.29",
-      "published": "2026-11-06T02:07:12Z",
-      "preview": "v2.0.0-beta.29",
+      "title": "44.221.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.221.2",
+      "published": "2026-11-06T03:43:50Z",
+      "preview": "44.221.2 (2026-11-06) Bug Fixes deps: update renovate-base-image to v13.160.7 (main) ( #47797 ) ( 3e97981 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.4 (main) ( #47796 ) ( e1a4392 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2.29.7",
+      "url": "https://github.com/pdm-project/pdm/releases/tag/2.29.7",
+      "published": "2026-11-06T03:41:22Z",
+      "preview": "Bug Fixes Upgrade hishel to support version 2 or greater. ( #3995 )",
+      "source": "PDM releases",
+      "category": "Python"
+    },
+    {
+      "title": "v29.10.0-rc.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.10.0-rc.1",
+      "published": "2026-11-06T03:35:50Z",
+      "preview": "29.10.0-rc.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.10.0 milestone moby/moby, 29.10.0 milestone Engine API specification moves to OpenAPI 3.2 Note The Engine API specification uses OpenAPI 3.2 as its source format. A generated Swagger 2.0 specification remains available for compatibility. moby/moby#53630 Packages for AlmaLinux, Oracle Linux, and Rocky Linux Note Docker Engine packages are available for AlmaLinux, Oracle Linux, and Rocky Linux. New Add experimental support for jobs: run one-shot and cron-scheduled wo",
       "source": "Docker Engine releases",
       "category": "Containers"
     },
     {
-      "title": "docker-v29.10.0-rc.1",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.10.0-rc.1",
-      "published": "2026-11-06T01:32:02Z",
-      "preview": "v29.10.0-rc.1",
+      "title": "v2.0.0-beta.29",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.29",
+      "published": "2026-11-06T02:07:12Z",
+      "preview": "v2.0.0-beta.29",
       "source": "Docker Engine releases",
       "category": "Containers"
     },
@@ -301,14 +317,6 @@
       "preview": "RubyGems 4.0.24 Enhancements: Installs bundler 4.0.24 as a default gem. Bug fixes: Skip executable removal gracefully when the bin directory is missing. Pull request #9963 by Evan Li and Hiroshi SHIBATA Fix file locks letting multiple processes in when lock files are removed. Pull request #9930 by Richard Janita and Hiroshi SHIBATA Turn off echo before printing the password prompt. Pull request #9969 by Mike Dalessio Documentation: [DOC] Fix link. Pull request #10014 by Burdette Lamar Bundler 4.0.24 Enhancements: Read the Ruby version from mise's inline table form. Pull request #9991 by Hirosh",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "44.216.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.3",
-      "published": "2026-11-05T01:45:37Z",
-      "preview": "44.216.3 (2026-11-05) Build System deps: update dependency google-auth-library to v11.3.2 (main) ( #47770 ) ( f35b836 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpr 0.1.0-alpha.18",
