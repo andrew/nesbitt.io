@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-06T15:21:54Z",
-  "cutoff": "2026-10-07T15:21:47Z",
+  "generated": "2026-11-06T16:22:14Z",
+  "cutoff": "2026-10-07T16:22:09Z",
   "feed_count": 104,
-  "item_count": 316,
+  "item_count": 317,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "1.18.15",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.15",
+      "published": "2026-11-06T15:32:09Z",
+      "preview": "Bug fixes pipx pin --skip accepts case and punctuation variants of injected package names, with or without their suffix ( #2425 ) by @kowellaloo9698-afk and @gaborbernat . pipx repair now refuses an environment whose pipx_metadata.json a killed install lost or a newer pipx wrote, as pipx reinstall and pipx reinstall-all do, instead of reporting it healthy ( #2423 ) by @AP24110011695 and @gaborbernat . New Contributors @AP24110011695 made their first contribution in #2423 @kowellaloo9698-afk made their first contribution in #2425 🐍 PyPI release 📜 Full Changelog",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
       "title": "44.221.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.221.6",
       "published": "2026-11-06T13:56:24Z",
@@ -37,6 +45,14 @@
       "preview": "Enhancements Support staged publishing on hex.pm. When the API key or workload identity that mix hex.publish uses requires approval, hex.pm stages the package and docs instead of publishing them. mix hex.publish prints the approval URL, the expiry time and the SHA-256 checksum of each staged file. With the new --wait option it opens the approval URL and waits for approval, and fails if the release is rejected or expires Create a new package owned by the organization you choose at the mix hex.publish owner prompt, also when its staged release is approved after the command has exited. Before, th",
       "source": "Hex releases",
       "category": "Elixir"
+    },
+    {
+      "title": "v9.9.0",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.9.0",
+      "published": "2026-11-06T12:54:38Z",
+      "preview": "Document Groovy 6.0.0 as tested upper bound ( #39723 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "v2.16.0-rc2",
@@ -1149,14 +1165,6 @@
       "preview": "What's Changed Ignore commented-out _authToken lines in .npmrc by @alhss in #16550 Fix wording in Docker and updater specs by @JamieMagee in #16633 bun: scope workspace-only dependency installs/updates with --filter by @v-sachin-sandhu in #16543 Skip public PyPI library lookup when a python_index credential has replaces-base by @v-thavaahariharangit with @Copilot in #16619 Classify pnpm errors that currently surface as unknown errors by @v-sachin-sandhu in #16643 Add support for apm lockfile regeneration and pinning deps to commit sha by @v-abhishekbhaskar in #16514 update Python 3.14 and 3.13",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "1.18.5",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.5",
-      "published": "2026-10-27T20:16:43Z",
-      "preview": "Packaging Releases now run on the shared tox-dev/github-workflows pipeline, with a locked release toolchain and generated GitHub Release notes ( #2190 ) by @gaborbernat . 🐍 PyPI release 📜 Full Changelog",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "pnpm 12.16.1",
