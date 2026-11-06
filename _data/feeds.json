@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06T07:22:42Z",
-  "cutoff": "2026-10-07T07:22:37Z",
+  "generated": "2026-11-06T10:22:01Z",
+  "cutoff": "2026-10-07T10:21:57Z",
   "feed_count": 104,
   "item_count": 314,
   "categories": [
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-04-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-04-a",
+      "published": "2026-11-06T10:02:51Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-04-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2026.11.3",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.3",
+      "published": "2026-11-06T09:28:16Z",
+      "preview": "(task) select tasks by their sources with --affected outside a …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-daemons-v2026.11.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.11.3",
+      "published": "2026-11-06T09:27:43Z",
+      "preview": "Release mise-daemons 2026.11.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.11.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.3",
+      "published": "2026-11-06T09:27:34Z",
+      "preview": "Release mise-oci 2026.11.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.11.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.3",
+      "published": "2026-11-06T09:27:24Z",
+      "preview": "Release mise-system 2026.11.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.11.3",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.3",
+      "published": "2026-11-06T09:27:13Z",
+      "preview": "Release vfox 2026.11.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.11.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.3",
+      "published": "2026-11-06T09:27:03Z",
+      "preview": "Release mise-system-packages 2026.11.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.11.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.3",
+      "published": "2026-11-06T09:26:52Z",
+      "preview": "Release mise-ui 2026.11.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.11.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.3",
+      "published": "2026-11-06T09:26:42Z",
+      "preview": "Release mise-util 2026.11.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.11.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.3",
+      "published": "2026-11-06T09:26:30Z",
+      "preview": "Release mise-sigstore 2026.11.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.11.3",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.3",
+      "published": "2026-11-06T09:26:21Z",
+      "preview": "Release mise-settings 2026.11.3",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.221.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.221.4",
@@ -143,14 +231,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v2026.11.2: Task tags, summary output, JSON run reports, and mise run --at",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.2",
-      "published": "2026-11-05T12:19:06Z",
-      "preview": "This release adds four mise run features that help CI scripts and coding agents: tags for selecting tasks, a summary output style that only shows failures, a JSON run report, and --at for running tasks at another git revision. It also fixes problems with safe-mode lockfiles, symlink-each dotfiles, shims and shell completion. Added Task tags. You can label tasks with tags , then run every task that has a tag with mise run --tag . A tag can be a string or a list. File tasks set them with #MISE tags=[...] , and templates add their tags to the tasks that extend them. You can repeat --tag , and a t",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "44.219.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.219.0",
       "published": "2026-11-05T12:16:53Z",
@@ -181,78 +261,6 @@
       "preview": "44.218.0 (2026-11-05) Features manager/mise: use tool versions as constraints for other managers ( #47484 ) ( 278e577 ) manager/rust-toolchain: share the pinned Rust version with cargo ( #47562 ) ( 48f95a0 ) Bug Fixes pr: link to \"how to add a GitHub.com token for changelogs\" ( #47765 ) ( ebca6c9 ) workers/repository: report parse errors in base branch config file ( #47729 ) ( 7e1d1d6 ) Build System deps: update dependency @redis/client to v6.3.1 (main) ( #47777 ) ( ce764d3 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "mise-daemons-v2026.11.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.11.2",
-      "published": "2026-11-05T10:10:15Z",
-      "preview": "Release mise-daemons 2026.11.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-oci-v2026.11.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.2",
-      "published": "2026-11-05T10:10:05Z",
-      "preview": "Release mise-oci 2026.11.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.11.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.2",
-      "published": "2026-11-05T10:09:55Z",
-      "preview": "Release mise-system 2026.11.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.11.2",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.2",
-      "published": "2026-11-05T10:09:43Z",
-      "preview": "Release vfox 2026.11.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.11.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.2",
-      "published": "2026-11-05T10:09:33Z",
-      "preview": "Release mise-system-packages 2026.11.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.11.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.2",
-      "published": "2026-11-05T10:09:18Z",
-      "preview": "Release mise-ui 2026.11.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.11.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.2",
-      "published": "2026-11-05T10:09:09Z",
-      "preview": "Release mise-util 2026.11.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.11.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.2",
-      "published": "2026-11-05T10:08:58Z",
-      "preview": "Release mise-sigstore 2026.11.2",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.11.2",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.2",
-      "published": "2026-11-05T10:08:46Z",
-      "preview": "Release mise-settings 2026.11.2",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "Activity Logs & Usage",
@@ -1725,14 +1733,6 @@
       "preview": "Changelog d6e7b58 bump: tag and release ORAS CLI v1.3.5 ( #2244 ) 4431829 docs: require cve fixes to land before preparing a release ( #2258 ) 8ee66ac docs: add ORAS CLI release process ( #2248 ) e09a8bb chore: bump oras-go to v2.6.4 in e2e tests ( #2247 ) 8270f5f chore: update oras-go to v2.6.4 ( #2242 ) ba3a3dc fix: validate extra destination tags before pushing ( #2237 ) 6ca02d0 build(deps): bump the github-actions group across 1 directory with 3 updates ( #2240 ) c9ccd95 build(deps): bump library/golang from 1.27.1-alpine to 1.27.2-alpine ( #2239 ) b2dc645 build(deps): bump github.com/onsi",
       "source": "ORAS releases",
       "category": "Containers"
-    },
-    {
-      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
-      "published": "2026-10-18T13:06:33Z",
-      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-10-17-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "2.0.11",
