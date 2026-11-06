@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06T06:31:41Z",
-  "cutoff": "2026-10-07T06:31:35Z",
+  "generated": "2026-11-06T07:22:42Z",
+  "cutoff": "2026-10-07T07:22:37Z",
   "feed_count": 104,
   "item_count": 314,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.221.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.221.4",
+      "published": "2026-11-06T06:43:49Z",
+      "preview": "44.221.4 (2026-11-06) Bug Fixes deps: update renovate-base-image to v13.160.9 (main) ( #47800 ) ( 1506272 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.221.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.221.3",
@@ -293,14 +301,6 @@
       "preview": "Bug Fixes Fix the uv mode failing when pyproject.toml or uv.lock cannot be renamed, as happens when they are bind mounts in a container, by falling back to restoring their content in place. ( #3292 ) Percent-encode the source username and password in the index URLs passed to uv, so use_uv works with credentials that contain characters like # , / or % . ( #3974 ) Honor local wheel and sdist paths in pylock.toml, preferring them over URLs while preserving explicit artifact filenames. ( #3975 ) Fix the Python range pdm derives from a python_version marker that compares against a three-part versio",
       "source": "PDM releases",
       "category": "Python"
-    },
-    {
-      "title": "44.216.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.216.5",
-      "published": "2026-11-05T04:57:26Z",
-      "preview": "44.216.5 (2026-11-05) Bug Fixes deps: update renovate-base-image to v13.160.3 (main) ( #47774 ) ( 1a5f40a ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.2 (main) ( #47773 ) ( 99f2287 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.6.3",
