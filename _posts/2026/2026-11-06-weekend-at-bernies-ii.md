@@ -7,6 +7,7 @@ tags:
   - open-source
   - security
   - maintainers
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mzntfbe7ca2q"
 ---
 
 Six months after [Weekend at Bernie's](/2026/05/08/weekend-at-bernies.html), **421** of the critical repos that were dead, dormant or unknown in May are active again. In the [1993 sequel](https://en.wikipedia.org/wiki/Weekend_at_Bernie%27s_II), Bernie is brought back by a voodoo ceremony that goes slightly wrong, and the result is a corpse that moves whenever it hears music. In nearly a quarter of the revived repos the music shows up in the commit history as a coding agent, with most of those commits made by the repo's own top committer.
