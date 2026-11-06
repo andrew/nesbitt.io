@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-06T18:24:43Z",
-  "cutoff": "2026-10-07T18:24:36Z",
+  "generated": "2026-11-06T20:22:20Z",
+  "cutoff": "2026-10-07T20:22:10Z",
   "feed_count": 104,
-  "item_count": 319,
+  "item_count": 317,
   "categories": [
     ".NET",
     "C/C++",
@@ -2557,22 +2557,6 @@
       "preview": "About jj is a Git-compatible version control system that is both simple and powerful. See the installation instructions to get started. Release highlights Jujutsu can now colocate workspaces besides the default one by creating Git worktrees. Use jj workspace add --[no-]colocate and the setting git.colocate to control this. Breaking changes The minimum supported git command version is now 2.42.0, up from 2.41.0. jj workspace add uses git worktree add --orphan , which was added in 2.42.0. The minimum supported Rust version (MSRV) is now 1.97.1. jj bisect run now runs some consistency checks befo",
       "source": "jj releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v1.17.0-rc1",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc1",
-      "published": "2026-10-07T19:46:06Z",
-      "preview": "1.17.0-rc1 (October 07, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
-    },
-    {
-      "title": "v2.0.0-beta.26",
-      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.26",
-      "published": "2026-10-07T19:28:33Z",
-      "preview": "v2.0.0-beta.26",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
