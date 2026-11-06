@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-05T22:22:00Z",
-  "cutoff": "2026-10-06T22:21:53Z",
+  "generated": "2026-11-06T00:40:27Z",
+  "cutoff": "2026-10-07T00:40:22Z",
   "feed_count": 104,
-  "item_count": 317,
+  "item_count": 315,
   "categories": [
     ".NET",
     "C/C++",
@@ -2540,22 +2540,6 @@
       "published": "2026-10-07T04:26:18Z",
       "preview": "SDK 3.14.0-310.0.dev",
       "source": "Pub releases",
-      "category": "Registries"
-    },
-    {
-      "title": "PIE 1.5 Released",
-      "url": "https://thephp.foundation/blog/2026/10/07/pie-1-5-released/",
-      "published": "2026-10-07T00:00:00Z",
-      "preview": "The PIE team is pleased to announce the release of the PHP Installer for Extensions 1.5 series, which has been in the works for around five months. There has been significant work gone into some internal improvements which has enabled us to deliver several long-awaited features for the tool. Lets dive into a few of these new features! Install multiple extensions You are now able to install multiple extensions at once, for example: $ pie install php-amqp/php-amqp:^2.2 girgias/csv This is helpful for setting up Docker images. Configure options may still be passed, and they will be automatically ",
-      "source": "PHP Foundation Blog",
-      "category": "PHP"
-    },
-    {
-      "title": "opam 2.6.1 release",
-      "url": "https://opam.ocaml.org/blog/opam-2-6-1/",
-      "published": "2026-10-07T00:00:00Z",
-      "preview": "Feedback on this post is welcome on Discuss! We are pleased to announce the release of opam 2.6.1 fixing a couple of regressions and minor annoyances. We advise everyone to upgrade. Please read on for installation and upgrade instructions. Regression fixes Fix the depexts installation on opam install --deps-only when the system packages already exist in a repository (#7153) Improvements Add support for using git repositories owned by another local user (common in docker containers) (#6963) Since 2.6.0, to make git calls more deterministic, opam doesn't take into account the user git config. In",
-      "source": "opam Blog",
       "category": "Registries"
     }
   ]
