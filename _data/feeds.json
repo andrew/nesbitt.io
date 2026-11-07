@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-07T06:27:31Z",
-  "cutoff": "2026-10-08T06:27:25Z",
+  "generated": "2026-11-07T08:22:47Z",
+  "cutoff": "2026-10-08T08:22:41Z",
   "feed_count": 104,
-  "item_count": 312,
+  "item_count": 313,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.18.16",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.18.16",
+      "published": "2026-11-07T08:17:15Z",
+      "preview": "Changes pipx ensurepath no longer claims it added the binary directories to PATH when they were already there; the summary now says so and points at --force for adding them again ( #2431 ) by @AP24110011695 and @gaborbernat . Bug fixes Rebuild shared pip environments created with Python older than 3.10, and refresh existing applications' references to the rebuilt environment before running their installers ( #2437 ) by @gaborbernat . ( #2435 ) 🐍 PyPI release 📜 Full Changelog",
+      "source": "pipx releases",
+      "category": "Python"
+    },
+    {
+      "title": "8.2.0.6",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.2.0.6",
+      "published": "2026-11-07T07:57:02Z",
+      "preview": "Tag 8.2.0.6",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -1125,14 +1141,6 @@
       "preview": "RubyGems Enhancements: Installs bundler 4.1.0.beta3 as a default gem. Bug fixes: Skip executable removal gracefully when the bin directory is missing. Pull request #9963 by Evan Li and Hiroshi SHIBATA Fix file locks letting multiple processes in when lock files are removed. Pull request #9930 by Richard Janita and Hiroshi SHIBATA Turn off echo before printing the password prompt. Pull request #9969 by Mike Dalessio Bundler Changes already released in 4.0.x are not repeated here. Features: Rename the from: and to: keys of override to in: and with: . Pull request #9979 by Hiroshi SHIBATA Record ",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "1.18.6",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.6",
-      "published": "2026-10-28T02:58:55Z",
-      "preview": "Bug fixes Keep the extras on a local archive named without ./ , so pipx install \"tool-1.0-py3-none-any.whl[cow]\" installs the cow extra like ./tool-1.0-py3-none-any.whl[cow] does. A version specifier, URL or environment marker after such a name now fails with an error instead of being silently dropped ( #2174 ) by @Cyber-Marty and @gaborbernat . Keep the recorded source of a local wheel when pipx runpip <venv> install passes an option value that names the package, such as --only-binary <name> , --no-binary <name> , or uv's --upgrade-package <name> ( #2166 ) by @dailyun and @gaborbernat . Read ",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "Hatch v1.18.2",
