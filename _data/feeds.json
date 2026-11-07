@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-07T16:21:45Z",
-  "cutoff": "2026-10-08T16:21:39Z",
+  "generated": "2026-11-07T17:21:39Z",
+  "cutoff": "2026-10-08T17:21:34Z",
   "feed_count": 104,
-  "item_count": 299,
+  "item_count": 298,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v2026.11.4",
+      "title": "v2026.11.4: zip:: includes for config and tasks",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.11.4",
-      "published": "2026-11-07T14:21:00Z",
-      "preview": "(task) support zip:: includes for config and tasks by @jdx in […",
+      "published": "2026-11-07T16:27:30Z",
+      "preview": "Config and task includes can now load from zip:: archives over HTTP(S). This release also fixes shim tab completion, [tool_alias] handling in enable_tools / disable_tools and mise prune , mise dot sync conflicts, and ufw firewall rule matching in mise bootstrap . Added zip:: includes for config and tasks. Before, include and task_config.includes accepted local paths, git:: and oci:: sources. They now also accept a zip archive served over HTTP or HTTPS. mise downloads and unpacks the archive, then loads it the same way as an oci:: artifact. For task_config.includes it loads executable file task",
       "source": "mise releases",
       "category": "Multi-language"
     },
@@ -2405,14 +2405,6 @@
       "preview": "Bug fixes Fix conda run selecting the active environment instead of the requested target when conda-build is installed. ( #16811 via #16821 ) Fix AttributeError: 'PackageRecord' object has no attribute 'extras' when solving from channels whose repodata uses extra_depends by adding extra_depends to PackageRecord and ignoring the extras selector during record matching. ( #16822 via #16823 ) Contributors @danyeaw @jezdez @kenodegard Full Changelog : 26.9.1...26.9.2",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "What's new in Swift: September 2026 Edition",
-      "url": "https://www.swift.org/blog/whats-new-in-swift-september-2026/",
-      "published": "2026-10-08T17:00:00Z",
-      "preview": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. The Vapor web framework recently turned ten and celebrated with Vapor Week! We’ve invited one of the authors of Vapor as this month’s guest contributor: Hi, I’m Tim from the Vapor Core Team! 10 years ago, in September, Vapor 1.0 was released, and over the years Vapor has matured into a comprehensive framework for building backends and APIs in Swift. On the anniversary we released the first beta of Vapor 5 , the next major version of Vapor, which is a complete rewrite, rem",
-      "source": "Swift Blog",
-      "category": "Registries"
     }
   ]
 }
