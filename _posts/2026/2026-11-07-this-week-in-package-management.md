@@ -19,6 +19,14 @@ All known Puppet implementations are affected, and the fixes are in openvox-agen
 
 An [issue on actions/runner-images](https://github.com/actions/runner-images/issues/15228) reports that GitHub's public macOS runners still accept certificates from the compromised eMudhra intermediates covered here last week. Apple has yet to patch the system `/etc/ssl/cert.pem`. Homebrew has shipped patched `ca-certificates`, `curl` and `git`, but the runner images disable Homebrew updates, so jobs run the vulnerable preinstalled versions.
 
+[DSA-6607-1](https://lists.debian.org/debian-security-announce/2026/msg00526.html) fixes [CVE-2026-109518](https://security-tracker.debian.org/tracker/CVE-2026-109518) in APT, found by Max Justicz. When an HTTP redirect gave two package downloads the same URI, APT could merge them. A retried download then let an attacker on the network path, including a malicious mirror or proxy, replace a package after verification and run code as root.
+
+The attack needs `Acquire::Retries` set to 1 or higher, and the default is 3 from Debian 12 and Ubuntu 22.04. Fixed versions are 3.0.4 for trixie, 2.6.2 for bookworm and 3.3.6 in unstable.
+
+A [Nixpkgs advisory](https://discourse.nixos.org/t/security-advisory-darwin-linux-builder-leaks-its-ssh-private-key-into-the-nix-store-and-exposes-its-ssh-port-to-the-network/81001) covers two bugs in `darwin.linux-builder`, the Linux VM that macOS users run as a remote builder. The `run-builder` script added the whole `keys` directory to the world-readable Nix store, so any local user could log in as `builder`, a trusted user on the VM's Nix daemon ([GHSA-45qr-47fw-2p57](https://github.com/NixOS/nixpkgs/security/advisories/GHSA-45qr-47fw-2p57)).
+
+The QEMU variants also forwarded the builder's SSH port on every network interface ([GHSA-w5j5-2jpq-3cv3](https://github.com/NixOS/nixpkgs/security/advisories/GHSA-w5j5-2jpq-3cv3)). Fixes are on unstable and 26.05, and after updating the advisory says to delete the old key pair from the store, regenerate it and delete the builder's disk image.
+
 [Docker Engine 29.9.3](https://github.com/moby/moby/releases/tag/docker-v29.9.3) fixes four CVEs in the engine and SwarmKit. It also updates to BuildKit 0.34.2, which fixes a resolver cache poisoning crash when a build resolves the same Git source twice.
 
 ## Releases
@@ -26,6 +34,8 @@ An [issue on actions/runner-images](https://github.com/actions/runner-images/iss
 hex.pm [opened Workload Identity and staged publishing](https://hex.pm/blog/announcing-workload-identity-and-staged-publishing) to every package and organisation. A GitHub Actions job can exchange its OIDC token for a Workload Identity token that expires after 15 minutes and can publish only that package. An organisation can also use a read identity to fetch its private packages in CI with only the job's OIDC token. Staged publishing holds releases published with a key or a workload identity until a person approves them with a fresh 2FA code.
 
 New packages get staging by default and existing packages have to opt in. Staged releases expire after seven days. [Hex 2.7.0](https://github.com/hexpm/hex/releases/tag/v2.7.0) adds `mix hex.publish --wait`, which blocks until the release is approved and exits with an error if it is rejected or expires. A new `--check-unused-ignores` flag makes `mix hex.audit` fail on ignore entries that match nothing in `mix.lock`.
+
+PyPI's [redesigned project pages](https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/) add a Security tab that shows each release's provenance and the attestations for each file. A release counts as having full provenance only when every file has a Trusted Publisher or SLSA build attestation. Warnings flag incomplete, inconsistent, changed or lost provenance, and files uploaded more than 14 days after an older release get a late-upload marker.
 
 [conda 26.10.0](https://github.com/conda/conda/releases/tag/26.10.0) makes `conda-rattler-solver` the default solver, including after upgrades where the solver setting is unset. `--solver=libmamba` selects the libmamba solver, and the classic pycosat solver now ships in a bundled `conda-pycosat-solver` plugin. The release also records when an environment was last activated and adds `--disable-plugins` and `--enable-plugins` for switching individual plugins off and on.
 
@@ -37,9 +47,13 @@ New packages get staging by default and existing packages have to opt in. Staged
 
 [pip 26.3](https://pip.pypa.io/en/stable/news/#v26-3) blocks unexpected imports during installation and warns about unsafe ones afterwards. HTTP redirects to `file:` URLs are now rejected, and PyPI's restriction on direct URL dependencies now covers extras and cached wheels. `-r pylock.toml` now supports extras and non-default dependency groups, and accepts `--no-binary`. The security policy now states that installing untrusted wheels has always been unsafe, since Python's import system can run third-party code during installation.
 
+[Gradle 9.9.0](https://docs.gradle.org/9.9.0/release-notes.html) promotes the custom `dependencies` block API out of incubation, including bundles and constraints from providers. When the `wrapper` task regenerates `gradle-wrapper.properties`, it now carries over existing settings such as distribution type, timeouts and retries. It still regenerates `distributionUrl`, which overwrites a custom host.
+
 [zizmor 1.32.0](https://github.com/zizmorcore/zizmor/releases/tag/v1.32.0) adds experimental support for GitHub's new [workflow lockfiles](https://docs.zizmor.sh/usage/#workflow-lockfiles). It now collects only the inputs GitHub Actions reads, so it skips workflows in vendored directories.
 
-[Renovate 44.210.0 to 44.221.6](https://github.com/renovatebot/renovate/releases/tag/44.221.6) adds a `julia` manager with a datasource for the General registry and Julia versioning, and reads transitive dependencies from `uv.lock` for security updates. Extracted constraints are now shared across managers. A tool version pinned in mise or `rust-toolchain` limits the updates other managers open.
+[Renovate 44.210.0 to 44.222.0](https://github.com/renovatebot/renovate/releases/tag/44.222.0) adds a `julia` manager with a datasource for the General registry and Julia versioning, and reads transitive dependencies from `uv.lock` for security updates. Extracted constraints are now shared across managers. A tool version pinned in mise or `rust-toolchain` limits the updates other managers open.
+
+Dependabot version updates [now support Microsoft's Agent Package Manager](https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager/) on github.com, following the `apm` ecosystem added in Dependabot Core 0.400.0. It opens pull requests for git dependencies declared in `apm.yml` and regenerates `apm.lock.yaml` when present. The support covers version updates only.
 
 Also out:
 
@@ -51,19 +65,27 @@ Also out:
 - [Homebrew 7.0.12](https://github.com/Homebrew/brew/releases/tag/7.0.12)
 - [rustup 1.29.3](https://blog.rust-lang.org/2026/11/03/Rustup-1.29.3/)
 - [Zig 0.17.1](https://ziglang.org/news/0.17.1-released/)
-- [pipx 1.18.15](https://github.com/pypa/pipx/releases/tag/1.18.15)
+- [pipx 1.18.16](https://github.com/pypa/pipx/releases/tag/1.18.16)
 - [PDM 2.29.7](https://github.com/pdm-project/pdm/releases/tag/2.29.7)
 - [APT 3.3.7](https://salsa.debian.org/apt-team/apt/-/tags/3.3.7)
 - [DNF5 5.4.7.0](https://github.com/rpm-software-management/dnf5/releases/tag/5.4.7.0)
 - [OpenTofu 1.13.9](https://github.com/opentofu/opentofu/releases/tag/v1.13.9)
 - [Elm 0.19.4-beta](https://github.com/elm/compiler/releases/tag/0.19.4-beta)
 - [Dependabot Core 0.403.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.403.0)
+- [NuGet Client 8.2.0.6](https://github.com/NuGet/NuGet.Client/releases/tag/8.2.0.6)
+- [sbt 2.1.0-RC3](https://github.com/sbt/sbt/releases/tag/v2.1.0-RC3)
+- [Harbor 2.16.0-rc2](https://github.com/goharbor/harbor/releases/tag/v2.16.0-rc2)
+- [Docker Engine 29.10.0-rc.1](https://github.com/moby/moby/releases/tag/docker-v29.10.0-rc.1)
 
 ## Articles
 
 [Friction in the Python Packaging Standards Process](https://blog.schuetze.link/friction-in-packaging-peps/) (konsti, uv) lists problems with how packaging PEPs get made. The text goes through editing passes before and after discussion and moves between reStructuredText and Markdown. Discussions on discuss.python.org have no concern tracking, and several maintainers avoid the forum. Small changes, such as removing a decade-old unimplemented feature, require a full PEP. The post points to Rust's RFC concern tracking and final comment period as prior art.
 
 [Scrutinize our assessments](https://daniel.haxx.se/blog/2026/11/03/scrutinize-our-assessments/) (Daniel Stenberg) follows up on curl moving low and medium severity vulnerability handling into public GitHub issues. Stenberg explains the `vuln:ASSESS`, `vuln:NONE`, `vuln:LOW` and `vuln:MEDIUM` labels and asks outsiders to challenge the severity calls. CVE IDs are visible from assignment, and the full records are published on the release date.
+
+The author of [No, npm, "estee" is not a typo of "testem"](https://smoores.dev/post/no_npm_estee_is_not_a_typo/) (smoores.dev) hit npm's typosquat check while naming a package for the Storyteller project. The registry rejected `estee` as too similar to `espree` and `testem`, then flagged the fallback `hoid` against `hoek`, `hono`, `uuid` and `zod`. npm support declined to lift the automated block. The author infers an edit-distance-of-two rule against popular names. Under that rule `preact` and `estree` would also be blocked.
+
+[The intensional model in disguise](https://fzakaria.com/2026/11/06/the-intensional-model-in-disguise) (Farid Zakaria) maps Nix onto Bazel and buck2. Bazel and buck2 key actions by the content of their inputs, so editing a comment in a C file stops the rebuild once the compiled output comes out the same. Nix gets that early cutoff only with content-addressed derivations, because by default it addresses outputs by their recipe. The post lines up Nix's resolved derivations, realisations and store with Bazel's actions, action cache and CAS.
 
 Josh Bressers [talked to Roi Nisimi](https://opensourcesecurity.io/2026/2026-11-backport-gaps-roi/) about backport gaps: security fixes merged to a project's main branch but missing from its latest release. Nisimi's [write-up for Orca Security](https://orca.security/resources/blog/fixed-on-main-vulnerable-in-release-hunting-backport-gaps-at-scale/) reports hundreds of confirmed cases from a scan of thousands of repositories. Advisories and published vulnerable ranges are often missing for these fixes, so scanners report the current release as clean.
 
@@ -73,9 +95,11 @@ Josh Bressers [talked to Roi Nisimi](https://opensourcesecurity.io/2026/2026-11-
 
 Vlad Miricioiu, director of the Software Stewardship Lab and one of my FOSDEM devroom co-organisers, [talked to RedMonk](https://redmonk.com/videos/vlad-miricioiu/) about binary dependencies, maintainer burnout, funding models and the Bernies. The Stewardship Lab [received $5,000 from Syntax and Sentry](https://fosstodon.org/@stewardshiplab/117564368531114169) towards an annual survey of burnout among open source maintainers.
 
+[Software Line Specialist](https://lovro-bikic.github.io/software-line-specialist/) (Lovro Bikić) is a delightful bit of satire.
+
 ## git-pkgs
 
-I tagged 13 repos this week:
+I tagged 14 repos this week:
 
 - [mailmap v0.1.1](https://github.com/git-pkgs/mailmap/releases/tag/v0.1.1) (new), a Go library for parsing Git `.mailmap` files and resolving author identities
 - [archives v0.10.1](https://github.com/git-pkgs/archives/releases/tag/v0.10.1)
@@ -89,6 +113,7 @@ I tagged 13 repos this week:
 - [reuse v0.2.0](https://github.com/git-pkgs/reuse/releases/tag/v0.2.0)
 - [sbom v0.1.9](https://github.com/git-pkgs/sbom/releases/tag/v0.1.9)
 - [secrets v0.2.0](https://github.com/git-pkgs/secrets/releases/tag/v0.2.0)
+- [signals v0.1.0](https://github.com/git-pkgs/signals/releases/tag/v0.1.0)
 - [spdx v0.3.6](https://github.com/git-pkgs/spdx/releases/tag/v0.3.6)
 
 Send links for next week to [@andrewnez@mastodon.social](https://mastodon.social/@andrewnez).
