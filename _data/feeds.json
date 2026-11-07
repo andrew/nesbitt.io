@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-07T09:22:15Z",
-  "cutoff": "2026-10-08T09:22:09Z",
+  "generated": "2026-11-07T10:21:37Z",
+  "cutoff": "2026-10-08T10:21:32Z",
   "feed_count": 104,
-  "item_count": 312,
+  "item_count": 310,
   "categories": [
     ".NET",
     "C/C++",
@@ -2501,22 +2501,6 @@
       "preview": "What's Changed formula: extract commit for goreleaser flags by @cho-m in #24163 advisory-match: ignore uncomparable sources by @p-linnane in #24169 Correct Command Line Tools version advice by @MikeMcQuaid in #24170 test/formula_spec: mock cached_download to avoid slow test by @cho-m in #24171 advisory-match: move fixes past shared versions by @p-linnane in #24172 Recommend Xcode 27 on Apple silicon Tahoe by @p-linnane in #24177 Infer Xcode 26.x versions from clang builds by @p-linnane in #24178 Remove comments during automated patch removal by @nandahkrishna in #24164 Use sandbox env for inte",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "v2.13.6",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.13.6",
-      "published": "2026-10-08T10:03:26Z",
-      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
-      "source": "Harbor releases",
-      "category": "Containers"
-    },
-    {
-      "title": "v2.14.5",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.5",
-      "published": "2026-10-08T10:03:06Z",
-      "preview": "Warning Breaking change: webhooks to internal addresses are blocked by default The fix for GHSA-2phj-cp9f-qq6w blocks webhook and Slack delivery to private, loopback, link-local and other non-public addresses. That includes hostnames that resolve to them, such as *.svc.cluster.local . After you upgrade, existing webhooks to internal endpoints fail to deliver, and new ones are rejected. To allow them again, set the opt-out on both core and jobservice : harbor.yml : network.allow_private_network_access: true , then ./prepare and restart Helm: add {name: HARBOR_ALLOW_PRIVATE_NETWORK_ACCESS, value",
-      "source": "Harbor releases",
-      "category": "Containers"
     }
   ]
 }
