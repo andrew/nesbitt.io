@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07T00:38:56Z",
-  "cutoff": "2026-10-08T00:38:51Z",
+  "generated": "2026-11-07T02:23:29Z",
+  "cutoff": "2026-10-08T02:23:24Z",
   "feed_count": 104,
   "item_count": 313,
   "categories": [
@@ -1490,7 +1490,7 @@
       "title": "v1.16.7",
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.7",
       "published": "2026-10-22T09:30:19Z",
-      "preview": "1.16.7 (October 22, 2026) BUG FIXES: command/test: Avoid panic when testing schema w/ deprecated values ( #39406 ) NOTES: Terraform is now built with Go 1.26.10, which no longer trusts certificates issued through a set of compromised eMudhra intermediate CAs (CVE-2026-111943) ( #39417 )",
+      "preview": "1.16.7 (October 22, 2026) BUG FIXES: command/test: Avoid panic when testing schema w/ deprecated values ( #39406 ) NOTES: Terraform is now built with Go 1.26.10, which no longer trusts certificates issued through a set of compromised eMudhra intermediate CAs ( CVE-2026-111943 ) ( #39417 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
     },
