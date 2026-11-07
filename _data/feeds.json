@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07T02:23:29Z",
-  "cutoff": "2026-10-08T02:23:24Z",
+  "generated": "2026-11-07T03:22:38Z",
+  "cutoff": "2026-10-08T03:22:33Z",
   "feed_count": 104,
   "item_count": 313,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.222.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.222.0",
+      "published": "2026-11-07T02:51:09Z",
+      "preview": "44.222.0 (2026-11-07) Features deps: update renovate-base-image to v13.161.1 (main) ( #47817 ) ( 63db914 ) Miscellaneous Chores deps: update dependency pnpm to v11.28.10 (main) ( #47814 ) ( dc9c86a ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.6 (main) ( #47819 ) ( 46f9302 ) deps: update jdx/mise-action action to v5.2.7 (main) ( #47816 ) ( c829dab )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "9.9.0",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.9.0",
@@ -333,14 +341,6 @@
       "preview": "The Swift project once again participated in Google Summer of Code in 2026, pairing newcomers to open source with mentors to build new features for Swift and its ecosystem. This year, we ran three projects, all of which were completed successfully: DocC language features in SourceKit-LSP Task and TaskGroup tracking for Swift Concurrency Qualified name lookup for swift-syntax Here’s a short summary of each project, with links to the full writeups. DocC Language Features in SourceKit-LSP Mentee: Padmashree S S Mentors: Matthew Bastien , Prajwal Nadig Project writeup: [GSoC 2026] DocC Language Fe",
       "source": "Swift Blog",
       "category": "Registries"
-    },
-    {
-      "title": "44.218.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.218.0",
-      "published": "2026-11-05T10:44:05Z",
-      "preview": "44.218.0 (2026-11-05) Features manager/mise: use tool versions as constraints for other managers ( #47484 ) ( 278e577 ) manager/rust-toolchain: share the pinned Rust version with cargo ( #47562 ) ( 48f95a0 ) Bug Fixes pr: link to \"how to add a GitHub.com token for changelogs\" ( #47765 ) ( ebca6c9 ) workers/repository: report parse errors in base branch config file ( #47729 ) ( 7e1d1d6 ) Build System deps: update dependency @redis/client to v6.3.1 (main) ( #47777 ) ( ce764d3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "Activity Logs & Usage",
