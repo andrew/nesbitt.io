@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-07T17:21:39Z",
-  "cutoff": "2026-10-08T17:21:34Z",
+  "generated": "2026-11-07T19:21:27Z",
+  "cutoff": "2026-10-08T19:21:22Z",
   "feed_count": 104,
-  "item_count": 298,
+  "item_count": 297,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.222.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.222.2",
+      "published": "2026-11-07T18:44:10Z",
+      "preview": "44.222.2 (2026-11-07) Bug Fixes deps: update renovate-base-image to v13.161.2 (main) ( #47836 ) ( 812e779 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.11.4: zip:: includes for config and tasks",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.11.4",
@@ -333,14 +341,6 @@
       "preview": "What's Changed package-info: start resolve sooner, and ask ?stable only when the registry says so by @evert in #2087 Release v1.6.4 by @vltops in #2088 Full Changelog : v1.6.3...v1.6.4",
       "source": "vlt CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.220.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.220.0",
-      "published": "2026-11-05T14:58:37Z",
-      "preview": "44.220.0 (2026-11-05) Features config: add useBaseBranchConfig=merge-if-present when missing config on base branches ( #43916 ) ( 18bfe0a ) Bug Fixes dashboard: name the dependency and file in repository problems ( #47002 ) ( 64e281b ) datasource/maven: fail only the dependency on temporary Maven Central errors ( #47639 ) ( 179534a ) deps: update renovate-base-image to v13.160.5 (main) ( #47787 ) ( 39516b5 ) Miscellaneous Chores deps: update dependency tsdown to v0.23.4 (main) ( #47786 ) ( 432153f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "vlt v1.6.2 to v1.6.4: faster cold installs and clearer workspace runs",
@@ -2397,14 +2397,6 @@
       "preview": "Release Notes Released on 2026-10-08. Enhancements Remove orphaned temporary build environments with uv cache prune ( #22171 ) Accept PEP 508 marker operators directly before grouped expressions ( #22309 ) Reject malformed requirements-file options instead of partially parsing or ignoring them ( #22317 ) Show underlying filesystem and registry errors when managed Python uninstallation fails ( #22362 ) Identify the invalid source URL in Python mirror errors ( #22364 ) Preview features Display preferred advisory IDs in uv audit reports, prioritizing PYSEC, GHSA, then CVE identifiers ( #22292 ) C",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "26.9.2",
-      "url": "https://github.com/conda/conda/releases/tag/26.9.2",
-      "published": "2026-10-08T19:19:23Z",
-      "preview": "Bug fixes Fix conda run selecting the active environment instead of the requested target when conda-build is installed. ( #16811 via #16821 ) Fix AttributeError: 'PackageRecord' object has no attribute 'extras' when solving from channels whose repodata uses extra_depends by adding extra_depends to PackageRecord and ignoring the extras selector during record matching. ( #16822 via #16823 ) Contributors @danyeaw @jezdez @kenodegard Full Changelog : 26.9.1...26.9.2",
-      "source": "Conda releases",
-      "category": "Multi-language"
     }
   ]
 }
