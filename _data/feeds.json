@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-06T22:21:45Z",
-  "cutoff": "2026-10-07T22:21:40Z",
+  "generated": "2026-11-07T00:38:56Z",
+  "cutoff": "2026-10-08T00:38:51Z",
   "feed_count": 104,
-  "item_count": 315,
+  "item_count": 313,
   "categories": [
     ".NET",
     "C/C++",
@@ -2524,22 +2524,6 @@
       "published": "2026-10-08T04:26:20Z",
       "preview": "RubyGems Changes already released in 4.0.x are not repeated here. Features: Support content addressable gems in Gem::PackageTask . Pull request #9897 by Harriet Oughton, Gira Chawda and Jenny Shen Add --content-addressable to gem build and make --ruby-abi only set the Ruby ABI. Pull request #9906 by Harriet Oughton Enhancements: Drop setuid, setgid and sticky bits when extracting gems. Pull request #9929 by Hiroshi SHIBATA Improve handling of paths with invalid Windows characters. Pull request #9276 by Said Kaldybaev and Hiroshi SHIBATA Installs bundler 4.1.0.beta2 as a default gem. Breaking c",
       "source": "RubyGems releases",
-      "category": "Ruby"
-    },
-    {
-      "title": "Your Tool Has a New Reader",
-      "url": "https://thephp.foundation/blog/2026/10/08/your-tool-has-a-new-reader/",
-      "published": "2026-10-08T00:00:00Z",
-      "preview": "Every PHP tool that prints to a terminal now has two readers, and most of us have only been writing for one of them. The output of a PHP command-line tool used to have one reader: a developer looking at a terminal. That reader sees glyphs. The terminal interprets escape sequences, moves the cursor, erases lines, and shows the result. What the tool wrote and what the human sees are usually the same thing, and nobody thinks about the gap. A coding agent does not look at a terminal. It reads the bytes the tool wrote and treats them as the result of the tool call it made. Then a human looks at the",
-      "source": "PHP Foundation Blog",
-      "category": "PHP"
-    },
-    {
-      "title": "4.1.0.beta2 Released",
-      "url": "https://blog.rubygems.org/2026/10/08/4.1.0.beta2-released.html",
-      "published": "2026-10-08T00:00:00Z",
-      "preview": "RubyGems and Bundler 4.1.0.beta2 include features, enhancements, breaking changes and bug fixes. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.1.0.beta2 Release Notes RubyGems Changes already released in 4.0.x are not repeated here. Features: Support content addressable gems in Gem::PackageTask . Pull request #9897 by Harriet Oughton, Gira Chawda and Jenny Shen Add --content-addressable to gem build and make --ruby-abi only set the Ruby ABI. Pull request #9906 by Harri",
-      "source": "RubyGems Blog",
       "category": "Ruby"
     }
   ]
