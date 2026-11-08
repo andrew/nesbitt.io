@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-08T00:43:58Z",
-  "cutoff": "2026-10-09T00:43:52Z",
+  "generated": "2026-11-08T01:21:46Z",
+  "cutoff": "2026-10-09T01:21:40Z",
   "feed_count": 104,
-  "item_count": 289,
+  "item_count": 288,
   "categories": [
     ".NET",
     "C/C++",
@@ -2325,14 +2325,6 @@
       "preview": "What's Changed Component updates ⬆️ fix(webhook): allow private network access by default by @Vad1mo in #24082 fix(contenttrust): allow legacy signer pull by default to avoid regre… by @wy65701436 in #24086 fix(prepare): expose the legacy signer pull switch in harbor.yml by @bupd in #24101 Cherry pick upload location origin 2.15 by @wy65701436 in #24114 Bump Component Version 🤖 Bump trivy(0.75.0) and trivy adapter(0.39.1-rc2) by @stonezdj in #24080 bump v2.15.4 release by @wy65701436 in #24087 Other Changes Bump trivy adapter to v0.39.1 and distribution to v2.8.3-harbor.2 by @stonezdj in #2411",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "v1.3.8",
-      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.3.8",
-      "published": "2026-10-09T01:15:15Z",
-      "preview": "What's Changed ci: widen Bencher alert threshold to 25% over 20 samples by @ruyadorno in #1948 package-info: drop eager cache mkdir from client ctor by @ruyadorno in #1949 package-info: add drain(), settle client work before fixture cleanup [ci full-matrix] by @ruyadorno in #1950 graph: keep test clients off the user cache by @ruyadorno in #1953 registry-client: drop revoked token from every keychain key on logout by @ruyadorno in #1952 graph: recompute dev/optional flags after ideal build by @ruyadorno in #1954 dss-parser: reject invalid DSS in parse() by @ruyadorno in #1956 cli-sdk: support ",
-      "source": "vlt CLI releases",
-      "category": "JavaScript"
     }
   ]
 }
