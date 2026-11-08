@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-08T15:21:28Z",
-  "cutoff": "2026-10-09T15:21:22Z",
+  "generated": "2026-11-08T20:21:50Z",
+  "cutoff": "2026-10-09T20:21:44Z",
   "feed_count": 104,
-  "item_count": 286,
+  "item_count": 285,
   "categories": [
     ".NET",
     "C/C++",
@@ -2300,14 +2300,6 @@
       "published": "2026-10-09T20:41:00Z",
       "preview": "Changes This release adds the python-arch input to select a Python architecture independently of the Python version. With uv 0.13.0 or later, set python-arch: x86_64 to use x64 Python on Windows ARM64 runners. It also includes embedded checksums for uv releases through 0.13.0. Use macOS 15 runners for tests @charliermarsh ( #1081 ) 🚀 Enhancements Add python-arch support @zanieb ( #1079 ) 🧰 Maintenance chore: update known checksums for 0.13.0 @ github-actions[bot] ( #1089 ) chore: update known checksums for 0.12.24 @ github-actions[bot] ( #1084 ) chore: update known checksums for 0.12.23 @ gith",
       "source": "setup-uv releases",
-      "category": "Python"
-    },
-    {
-      "title": "0.13.0",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.0",
-      "published": "2026-10-09T19:49:55Z",
-      "preview": "Release Notes Released on 2026-10-09. uv 0.13.0 makes Python 3.15 the default stable Python version. We've also included several breaking changes to improve correctness, performance, and compatibility, described below. We expect most users to be able to upgrade without making changes. While not a breaking change, this release also updates the format of many of uv's cache entries to improve performance. uv may download or rebuild dependencies after upgrading , because some cached entries from earlier versions cannot be reused. Multiple versions of uv can still safely share the same cache direct",
-      "source": "uv releases",
       "category": "Python"
     }
   ]
