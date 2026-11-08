@@ -87,4 +87,4 @@ Ninety is live today in 41 jurisdictions. Sign up, verify your identity, and con
 
 If you maintain a listed project, thank you for creating value for the Ninety ecosystem.
 
-*Editor's note: This is satire, not a product spec. Please don't build it. If you have money for open source security, give it to the projects. Daniel Stenberg's [The pressure](https://daniel.haxx.se/blog/2026/05/26/the-pressure/) describes the current volume of reports from the receiving end.*
+*Editor's note: This is satire, not a product spec. Please don't build it. [How to Ruin All of Package Management](/2025/12/27/how-to-ruin-all-of-package-management) covers what happens when markets get attached to open source metrics. If you have money for open source security, give it to the projects. Daniel Stenberg's [The pressure](https://daniel.haxx.se/blog/2026/05/26/the-pressure/) describes the current volume of reports from the receiving end.*
