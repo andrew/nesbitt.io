@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-08T14:21:40Z",
-  "cutoff": "2026-10-09T14:21:34Z",
+  "generated": "2026-11-08T15:21:28Z",
+  "cutoff": "2026-10-09T15:21:22Z",
   "feed_count": 104,
-  "item_count": 287,
+  "item_count": 286,
   "categories": [
     ".NET",
     "C/C++",
@@ -2309,14 +2309,6 @@
       "preview": "Release Notes Released on 2026-10-09. uv 0.13.0 makes Python 3.15 the default stable Python version. We've also included several breaking changes to improve correctness, performance, and compatibility, described below. We expect most users to be able to upgrade without making changes. While not a breaking change, this release also updates the format of many of uv's cache entries to improve performance. uv may download or rebuild dependencies after upgrading , because some cached entries from earlier versions cannot be reused. Multiple versions of uv can still safely share the same cache direct",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "Deno is joining Cloudflare",
-      "url": "https://deno.com/blog/cloudflare",
-      "published": "2026-10-09T15:00:00Z",
-      "preview": "Putting ourselves in the best place to build the future of the web",
-      "source": "Deno Blog",
-      "category": "JavaScript"
     }
   ]
 }
