@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-09T00:43:48Z",
-  "cutoff": "2026-10-10T00:43:43Z",
+  "generated": "2026-11-09T01:22:05Z",
+  "cutoff": "2026-10-10T01:21:59Z",
   "feed_count": 104,
   "item_count": 283,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-09T01:12:57Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "v2026.11.5",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.11.5",
@@ -237,14 +245,6 @@
       "preview": "44.222.1 (2026-11-07) Bug Fixes deps: update dependency mkdocs-material to v9.8.1 (main) ( #47829 ) ( efda69b ) Miscellaneous Chores deps: update dependency knip to v6.44.1 (main) ( #47826 ) ( e057f20 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.7 (main) ( #47820 ) ( b76b4e5 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-07T12:16:01Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "1.18.16",
