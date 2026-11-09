@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-09T14:23:02Z",
-  "cutoff": "2026-10-10T14:22:56Z",
+  "generated": "2026-11-09T15:22:30Z",
+  "cutoff": "2026-10-10T15:22:22Z",
   "feed_count": 104,
   "item_count": 285,
   "categories": [
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "44.224.0: feat(automerge): support automergeType=label (#47101)",
+      "title": "44.224.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.224.0",
-      "published": "2026-11-09T13:51:33Z",
-      "preview": "feat(automerge): support automergeType=label Signed-off-by: Manish Tiwari 69393822+manish-9245@users.noreply.github.com fix(automerge): address label automerge review feedback Add a dry-run test for automergeType=label and remove the coverage ignore, and document the platform support and label re-add behaviour. Signed-off-by: Manish Tiwari 69393822+manish-9245@users.noreply.github.com Signed-off-by: Manish Tiwari 69393822+manish-9245@users.noreply.github.com",
+      "published": "2026-11-09T14:23:06Z",
+      "preview": "44.224.0 (2026-11-09) Features automerge: support automergeType=label ( #47101 ) ( cc87229 ) presets/workaround: aospTagVersioning ( #43731 ) ( 4e86714 ) Bug Fixes manager/npm/yarn: detect corepack from package.json when managerData flag is missing ( #45153 ) ( e468707 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
