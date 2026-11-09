@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-09T01:22:05Z",
-  "cutoff": "2026-10-10T01:21:59Z",
+  "generated": "2026-11-09T02:25:43Z",
+  "cutoff": "2026-10-10T02:25:37Z",
   "feed_count": 104,
   "item_count": 283,
   "categories": [
@@ -23,20 +23,20 @@
   ],
   "items": [
     {
+      "title": "v2026.11.5: `mise dot files` shows what is tracked in a directory",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.5",
+      "published": "2026-11-09T02:10:15Z",
+      "preview": "This release adds mise dot files to show which files in a directory are tracked, and a status.show_env_ignore setting to hide variables from the status line. It also lets dot commands accept relative paths, stops warning when you save dotfiles by hand, and fixes downloads that failed because ~/.netrc held a stale login. Added mise dot files . Lists the files and subdirectories in a directory and shows the state of each one, so you no longer have to work out how [dotfiles] entries, their exclude / include lists and [history] exclude apply. The possible states are: tracked : saved to history. Th",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
       "published": "2026-11-09T01:12:57Z",
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
-    },
-    {
-      "title": "v2026.11.5",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.5",
-      "published": "2026-11-09T00:34:27Z",
-      "preview": "(dot) add mise dot files to show what is tracked in a directo…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-daemons-v2026.11.5",
