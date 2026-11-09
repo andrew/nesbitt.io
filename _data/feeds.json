@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-09T20:22:10Z",
-  "cutoff": "2026-10-10T20:22:04Z",
+  "generated": "2026-11-09T21:21:59Z",
+  "cutoff": "2026-10-10T21:21:53Z",
   "feed_count": 104,
   "item_count": 286,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.224.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.224.2",
+      "published": "2026-11-09T20:54:56Z",
+      "preview": "44.224.2 (2026-11-09) Bug Fixes deps: update renovate-base-image to v13.162.1 (main) ( #47880 ) ( 4c73477 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.13 (main) ( #47879 ) ( 1b9547c ) hex: omit unused generated methods ( #47870 ) ( c1aad14 ) Code Refactoring remove obsolete JSON module declarations ( #47869 ) ( 2e4c5d4 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v0.404.0",
       "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.404.0",
@@ -323,14 +331,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.222.2",
       "published": "2026-11-07T18:44:10Z",
       "preview": "44.222.2 (2026-11-07) Bug Fixes deps: update renovate-base-image to v13.161.2 (main) ( #47836 ) ( 812e779 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.222.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.222.1",
-      "published": "2026-11-07T13:39:35Z",
-      "preview": "44.222.1 (2026-11-07) Bug Fixes deps: update dependency mkdocs-material to v9.8.1 (main) ( #47829 ) ( efda69b ) Miscellaneous Chores deps: update dependency knip to v6.44.1 (main) ( #47826 ) ( e057f20 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.7 (main) ( #47820 ) ( b76b4e5 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
