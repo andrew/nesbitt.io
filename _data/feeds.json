@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-09T08:27:37Z",
-  "cutoff": "2026-10-10T08:27:31Z",
+  "generated": "2026-11-09T09:26:08Z",
+  "cutoff": "2026-10-10T09:26:02Z",
   "feed_count": 104,
-  "item_count": 282,
+  "item_count": 283,
   "categories": [
     ".NET",
     "C/C++",
@@ -25,10 +25,18 @@
     {
       "title": "v2.16.0",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0",
-      "published": "2026-11-09T08:22:38Z",
-      "preview": "{\"buildNo\":\"rc2\"}",
+      "published": "2026-11-09T08:35:23Z",
+      "preview": "What's Changed Exciting New Features 🎉 Update artifact_accessory to add source column to identify accessory by @stonezdj in #23144 feat: replace redis with valkey as cache backend by @chlins in #23157 Full Multi-Architecture Enablement for Harbor (amd64 + arm64) by @ranimandepudi in #22311 Add ListReferrers API to registry client and update parseScopes by @stonezdj in #23170 Proxy the referrer API to upstream registry with paging and local merge by @stonezdj in #23237 feat(ui): support advanced proxy cache configurations in UI by @stonezdj in #23536 feat(backend): implement proxy cache reposit",
       "source": "Harbor releases",
       "category": "Containers"
+    },
+    {
+      "title": "7.0.13",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.13",
+      "published": "2026-11-09T08:34:38Z",
+      "preview": "What's Changed Prefetch bottle attestations in bulk by @p-linnane in #24436 Correct documentation and JSON help by @hezhizhen in #24437 Fix shared documentation lint edge cases by @MikeMcQuaid in #24443 Explain denied Landlock root directory listings by @MikeMcQuaid in #24448 Require zap stanzas in all official casks by @bevanjkay in #24435 Verify backfilled :all bottle subjects by @hezhizhen in #24447 Harden MCP server schemas and argument handling by @p-linnane in #24453 livecheck: make throttle rate and days mutually exclusive by @cho-m in #24451 Add explicit package source loading APIs by ",
+      "source": "Homebrew releases",
+      "category": "System"
     },
     {
       "title": "cabal-head",
