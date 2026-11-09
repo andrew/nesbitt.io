@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-09T13:22:33Z",
-  "cutoff": "2026-10-10T13:22:26Z",
+  "generated": "2026-11-09T14:23:02Z",
+  "cutoff": "2026-10-10T14:22:56Z",
   "feed_count": 104,
-  "item_count": 283,
+  "item_count": 285,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.224.0: feat(automerge): support automergeType=label (#47101)",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.224.0",
+      "published": "2026-11-09T13:51:33Z",
+      "preview": "feat(automerge): support automergeType=label Signed-off-by: Manish Tiwari 69393822+manish-9245@users.noreply.github.com fix(automerge): address label automerge review feedback Add a dry-run test for automergeType=label and remove the coverage ignore, and document the platform support and label re-add behaviour. Signed-off-by: Manish Tiwari 69393822+manish-9245@users.noreply.github.com Signed-off-by: Manish Tiwari 69393822+manish-9245@users.noreply.github.com",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "3.3.3ubuntu0.2",
+      "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.3.3ubuntu0.2",
+      "published": "2026-11-09T13:27:26Z",
+      "preview": "apt Debian release 3.3.3ubuntu0.2",
+      "source": "APT releases",
+      "category": "System"
+    },
     {
       "title": "3.2.2",
       "url": "https://salsa.debian.org/apt-team/apt/-/tags/3.2.2",
@@ -156,6 +172,14 @@
       "published": "2026-11-09T00:31:51Z",
       "preview": "Release mise-settings 2026.11.5",
       "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "Bringing v1 recipes to conda-build",
+      "url": "https://conda.org/blog/2026-11-09-conda-build-v1",
+      "published": "2026-11-09T00:00:00Z",
+      "preview": "conda-build can now build v1 recipes, bringing a standardized, schema-validated recipe format to a familiar UX.",
+      "source": "Conda Blog",
       "category": "Multi-language"
     },
     {
@@ -341,14 +365,6 @@
       "preview": "Bug fixes pipx pin --skip accepts case and punctuation variants of injected package names, with or without their suffix ( #2425 ) by @kowellaloo9698-afk and @gaborbernat . pipx repair now refuses an environment whose pipx_metadata.json a killed install lost or a newer pipx wrote, as pipx reinstall and pipx reinstall-all do, instead of reporting it healthy ( #2423 ) by @AP24110011695 and @gaborbernat . New Contributors @AP24110011695 made their first contribution in #2423 @kowellaloo9698-afk made their first contribution in #2425 🐍 PyPI release 📜 Full Changelog",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "44.221.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.221.6",
-      "published": "2026-11-06T13:56:24Z",
-      "preview": "44.221.6 (2026-11-06) Bug Fixes deps: update renovate-base-image to v13.160.10 (main) ( #47805 ) ( af92486 ) Build System deps: update dependency node-html-parser to v9.0.6 (main) ( #47804 ) ( d6323e2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.7.0",
