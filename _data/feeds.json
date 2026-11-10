@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-09T21:21:59Z",
-  "cutoff": "2026-10-10T21:21:53Z",
+  "generated": "2026-11-10T00:39:31Z",
+  "cutoff": "2026-10-11T00:39:27Z",
   "feed_count": 104,
-  "item_count": 286,
+  "item_count": 285,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "pnpr@0.1.0-alpha.19",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.19",
+      "published": "2026-11-09T23:55:43Z",
+      "preview": "=pnpr@0.1.0-alpha.19",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.19.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.19.0",
+      "published": "2026-11-09T23:54:45Z",
+      "preview": "=v12.19.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.224.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.224.2",
@@ -1303,22 +1319,6 @@
       "category": "Python"
     },
     {
-      "title": "pnpr 0.1.0-alpha.17",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.17",
-      "published": "2026-10-27T00:33:17Z",
-      "preview": "This release changes the storage layout, removes old commands and flag aliases, and renames configuration keys to camelCase . It fixes two security issues and several failures with libsql and Turso auth databases. Minor Changes pnpr stores packages under readable paths. @scope/pkg is stored in packages/@scope/pkg/ , an unscoped package in packages/@/<name>/ , and a tarball as blobs/<version>.tgz . A store written by an earlier pnpr is not read. Publish its packages again into an empty store. pnpr serves Prometheus metrics at /-/metrics and /metrics only when the config has a metrics block. Bef",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 11.28.9",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.9",
-      "published": "2026-10-27T00:32:50Z",
-      "preview": "This release fixes a crash on registry responses with too many content encodings ( GHSA-xjj6-f33q-929c ) and sizes the install worker pool by the container's CPU quota. A repeat pnpm install now acts on more setting changes. Patch Changes Crashes and security A registry response with too many content encodings can no longer crash pnpm. pnpm now uses undici 7.30.1, which fixes GHSA-xjj6-f33q-929c . pnpm install now sizes its worker pool by the CPU quota of the container it runs in, such as a Kubernetes CPU limit, when that quota is smaller than the number of CPUs the container may run on. The d",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "pnpm 12.16",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.16.0",
       "published": "2026-10-27T00:12:44Z",
@@ -2301,14 +2301,6 @@
       "preview": "Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x will not work on sbt 2.0.x: sbt 2.x Scala 3.x Plugin works on sbt 2.0.x 2.0.x 3.8.x ✅ 2.1.0 3.9.x ❌ Publishing sbt 2.1.0 removes Apache Ivy from its transitive dependency, and implements Ivyless publishing. This ",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "pnpm 12.12.1",
-      "url": "https://pnpm.io/blog/releases/12.12.1",
-      "published": "2026-10-11T00:00:00Z",
-      "preview": "This release adds OIDC authentication to pnpm dist-tag and the tool: protocol. pnpm publish now checks which registry an NPM_ID_TOKEN was issued for before using it.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
