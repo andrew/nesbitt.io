@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-10T09:23:14Z",
-  "cutoff": "2026-10-11T09:23:06Z",
+  "generated": "2026-11-10T10:22:57Z",
+  "cutoff": "2026-10-11T10:22:42Z",
   "feed_count": 104,
-  "item_count": 293,
+  "item_count": 294,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,18 +23,34 @@
   ],
   "items": [
     {
+      "title": "v2.16.0-rc3",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0-rc3",
+      "published": "2026-11-10T10:17:43Z",
+      "preview": "What's Changed Exciting New Features 🎉 Update artifact_accessory to add source column to identify accessory by @stonezdj in #23144 feat: replace redis with valkey as cache backend by @chlins in #23157 Full Multi-Architecture Enablement for Harbor (amd64 + arm64) by @ranimandepudi in #22311 Add ListReferrers API to registry client and update parseScopes by @stonezdj in #23170 Proxy the referrer API to upstream registry with paging and local merge by @stonezdj in #23237 feat(ui): support advanced proxy cache configurations in UI by @stonezdj in #23536 feat(backend): implement proxy cache reposit",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
+      "title": "44.225.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.225.2",
+      "published": "2026-11-10T10:07:03Z",
+      "preview": "44.225.2 (2026-11-10) Bug Fixes platform/github: don't add references from links in commit messages ( #47858 ) ( 2186b6e ) Miscellaneous Chores contributing: clarify what a \"minimal repro\" is ( #47854 ) ( 1a789da ) Tests platform/github: show links in commit messages aren't replaced ( #47857 ) ( 97844ab )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "2.11.2",
       "url": "https://github.com/composer/composer/releases/tag/2.11.2",
-      "published": "2026-11-10T09:09:37Z",
-      "preview": "Release 2.11.2",
+      "published": "2026-11-10T09:24:59Z",
+      "preview": "Security: Fixed arbitrary command execution via the prevent_url_access_callable transport option being loaded from composer.lock / vendor/composer/installed.json ( GHSA-jhfp-4ppm-crmm ) Security: Fixed malicious zip archives being able to write files outside of the package directory via symlinked entries when extraction falls back from unzip to ZipArchive ( GHSA-w6hj-6587-3jh5 ) Security: Fixed inline repository HTTP credentials being sent to dist mirrors on other hosts supplied by a crafted composer.lock / vendor/composer/installed.json ( GHSA-x82q-x274-r6pq ) Security: Updated the bundled sy",
       "source": "Composer releases",
       "category": "PHP"
     },
     {
       "title": "2.2.32",
       "url": "https://github.com/composer/composer/releases/tag/2.2.32",
-      "published": "2026-11-10T09:09:19Z",
-      "preview": "Release 2.2.32",
+      "published": "2026-11-10T09:24:37Z",
+      "preview": "Security: Fixed malicious zip archives being able to write files outside of the package directory via symlinked entries when extraction falls back from unzip to ZipArchive ( GHSA-w6hj-6587-3jh5 ) Security: Fixed inline repository HTTP credentials being sent to dist mirrors on other hosts supplied by a crafted composer.lock / vendor/composer/installed.json ( GHSA-x82q-x274-r6pq ) Security: Fixed Authorization and Cookie headers set in request options, e.g. via a repository's http.header option, being resent when following a redirect to another origin ( #13254 ) Security: Fixed non-auth config s",
       "source": "Composer releases",
       "category": "PHP"
     },
@@ -421,14 +437,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-06-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.222.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.222.4",
-      "published": "2026-11-08T05:46:41Z",
-      "preview": "44.222.4 (2026-11-08) Bug Fixes deps: update renovate-base-image to v13.161.4 (main) ( #47843 ) ( 30f1051 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.9 (main) ( #47842 ) ( 54a169a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "1.18.16",
