@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10T11:22:26Z",
-  "cutoff": "2026-10-11T11:22:19Z",
+  "generated": "2026-11-10T12:26:42Z",
+  "cutoff": "2026-10-11T12:26:36Z",
   "feed_count": 104,
   "item_count": 293,
   "categories": [
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.226.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.226.0",
+      "published": "2026-11-10T11:53:11Z",
+      "preview": "44.226.0 (2026-11-10) Features presets/workarounds: support rhel10 images ( #47792 ) ( 3329d9c ) replacements: @fseehawer/react-circular-slider to @fiojs/react-circular-slider ( #47784 ) ( 8872498 ) Bug Fixes manager/kubernetes: omit per-image extraction debug logs ( #47830 ) ( b65f423 ) platform/bitbucket-server: drop deleted PRs from cache on 404 ( #47707 ) ( 6d8e1aa ) reconfigure: fail the check when dependency extraction errors ( #47280 ) ( 39da887 ) Tests git: avoid quiet-command delays in fixture configuration ( #47877 ) ( 7c50cbd ) rebalance the 16 primary test shards ( #47883 ) ( 3cc67",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.11.6",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.6",
+      "published": "2026-11-10T11:41:26Z",
+      "preview": "(bootstrap) add soft_resource_limits and hard_resource_limits t…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.11.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.6",
+      "published": "2026-11-10T11:40:38Z",
+      "preview": "Release mise-oci 2026.11.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.11.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.6",
+      "published": "2026-11-10T11:40:23Z",
+      "preview": "Release mise-system 2026.11.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.11.6",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.6",
+      "published": "2026-11-10T11:40:07Z",
+      "preview": "Release vfox 2026.11.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.11.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.6",
+      "published": "2026-11-10T11:39:52Z",
+      "preview": "Release mise-system-packages 2026.11.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.11.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.6",
+      "published": "2026-11-10T11:39:35Z",
+      "preview": "Release mise-ui 2026.11.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.11.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.6",
+      "published": "2026-11-10T11:39:20Z",
+      "preview": "Release mise-util 2026.11.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.11.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.6",
+      "published": "2026-11-10T11:39:04Z",
+      "preview": "Release mise-sigstore 2026.11.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.11.6",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.6",
+      "published": "2026-11-10T11:38:48Z",
+      "preview": "Release mise-settings 2026.11.6",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-dotenv-v2026.11.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-dotenv-v2026.11.0",
+      "published": "2026-11-10T11:38:18Z",
+      "preview": "Release mise-dotenv 2026.11.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -247,100 +335,12 @@
       "category": "System"
     },
     {
-      "title": "v2026.11.5: `mise dot files` shows what is tracked in a directory",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.5",
-      "published": "2026-11-09T02:10:15Z",
-      "preview": "This release adds mise dot files to show which files in a directory are tracked, and a status.show_env_ignore setting to hide variables from the status line. It also lets dot commands accept relative paths, stops warning when you save dotfiles by hand, and fixes downloads that failed because ~/.netrc held a stale login. Added mise dot files . Lists the files and subdirectories in a directory and shows the state of each one, so you no longer have to work out how [dotfiles] entries, their exclude / include lists and [history] exclude apply. The possible states are: tracked : saved to history. Th",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-daemons-v2026.11.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.11.5",
-      "published": "2026-11-09T00:33:56Z",
-      "preview": "Release mise-daemons 2026.11.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-oci-v2026.11.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.5",
-      "published": "2026-11-09T00:33:41Z",
-      "preview": "Release mise-oci 2026.11.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.11.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.5",
-      "published": "2026-11-09T00:33:26Z",
-      "preview": "Release mise-system 2026.11.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.11.5",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.5",
-      "published": "2026-11-09T00:33:09Z",
-      "preview": "Release vfox 2026.11.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.11.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.5",
-      "published": "2026-11-09T00:32:53Z",
-      "preview": "Release mise-system-packages 2026.11.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.11.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.5",
-      "published": "2026-11-09T00:32:37Z",
-      "preview": "Release mise-ui 2026.11.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.11.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.5",
-      "published": "2026-11-09T00:32:23Z",
-      "preview": "Release mise-util 2026.11.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.11.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.5",
-      "published": "2026-11-09T00:32:06Z",
-      "preview": "Release mise-sigstore 2026.11.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.11.5",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.5",
-      "published": "2026-11-09T00:31:51Z",
-      "preview": "Release mise-settings 2026.11.5",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "Bringing v1 recipes to conda-build",
       "url": "https://conda.org/blog/2026-11-09-conda-build-v1",
       "published": "2026-11-09T00:00:00Z",
       "preview": "conda-build can now build v1 recipes, bringing a standardized, schema-validated recipe format to a familiar UX.",
       "source": "Conda Blog",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.222.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.222.5",
-      "published": "2026-11-08T22:27:55Z",
-      "preview": "44.222.5 (2026-11-08) Bug Fixes deps: update renovate-base-image to v13.161.7 (main) ( #47847 ) ( c522a71 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.24 (main) ( #47844 ) ( 77a892b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.35.5",
