@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10T12:26:42Z",
-  "cutoff": "2026-10-11T12:26:36Z",
+  "generated": "2026-11-10T13:22:15Z",
+  "cutoff": "2026-10-11T13:22:09Z",
   "feed_count": 104,
   "item_count": 293,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "45.0.0-next.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.0-next.1",
+      "published": "2026-11-10T13:11:26Z",
+      "preview": "45.0.0-next.1 (2026-11-10) ⚠ BREAKING CHANGES deps: Update ghcr.io/renovatebot/base-image Docker tag to v11 (next) ( #36544 ) deps: Update ghcr.io/renovatebot/base-image Docker tag to v10 (next) ( #34395 ) require node v22.13 Features deps: Update ghcr.io/renovatebot/base-image Docker tag to v10 (next) ( #34395 ) ( aef3f80 ) deps: update ghcr.io/renovatebot/base-image docker tag to v10.1.0 (next) ( #35687 ) ( 7e46f38 ) deps: Update ghcr.io/renovatebot/base-image Docker tag to v11 (next) ( #36544 ) ( 90d0748 ) require node v22.13 ( c796bb1 ) Bug Fixes deps: update ghcr.io/containerbase/sidecar ",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.226.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.226.0",
@@ -315,14 +323,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.223.0",
       "published": "2026-11-09T10:44:36Z",
       "preview": "44.223.0 (2026-11-09) Features deps: update renovate-base-image to v13.162.0 (main) ( #47851 ) ( c115878 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.222.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.222.6",
-      "published": "2026-11-09T10:25:03Z",
-      "preview": "44.222.6 (2026-11-09) Documentation update references to github/gh-actions-lock to v0.4.1 (main) ( #47850 ) ( 8cff792 ) update references to python to d180550 (main) ( #47848 ) ( f3f49ec ) Miscellaneous Chores deps: update dependency certifi to v2026.10.18 [security] (main) ( #47855 ) ( f18f993 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.12 (main) ( #47846 ) ( 677638d ) Build System deps: update dependency url-join to v5.2.0 (main) ( #47229 ) ( 27de6b8 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
