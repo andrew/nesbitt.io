@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-10T22:21:45Z",
-  "cutoff": "2026-10-11T22:21:38Z",
+  "generated": "2026-11-10T23:21:35Z",
+  "cutoff": "2026-10-11T23:21:29Z",
   "feed_count": 104,
-  "item_count": 302,
+  "item_count": 309,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Release of Microsoft.PowerShell.PSResourceGet v1.3.1",
+      "url": "https://github.com/PowerShell/PSResourceGet/releases/tag/v1.3.1",
+      "published": "2026-11-10T22:47:32Z",
+      "preview": "Full Changelog : v1.3.0...v1.3.1",
+      "source": "PSResourceGet releases",
+      "category": ".NET"
+    },
+    {
+      "title": "Release of Microsoft.PowerShell.PSResourceGet v1.3.0",
+      "url": "https://github.com/PowerShell/PSResourceGet/releases/tag/v1.3.0",
+      "published": "2026-11-10T22:47:01Z",
+      "preview": "What's Changed Update pipeline to release to Pwsh Module CFS Feed by Anam Navied (@anamnavi) in #2076 Full Changelog : v1.3.0-rc2...v1.3.0",
+      "source": "PSResourceGet releases",
+      "category": ".NET"
+    },
+    {
+      "title": "8.2.0.9",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.2.0.9",
+      "published": "2026-11-10T22:28:43Z",
+      "preview": "Tag 8.2.0.9",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
+    {
+      "title": "v1.2.1",
+      "url": "https://github.com/PowerShell/PSResourceGet/releases/tag/v1.2.1",
+      "published": "2026-11-10T22:20:38Z",
+      "preview": "Release of Microsoft.PowerShell.PSResourceGet v1.2.1",
+      "source": "PSResourceGet releases",
+      "category": ".NET"
+    },
     {
       "title": "v1.7.0",
       "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.7.0",
@@ -135,6 +167,14 @@
       "category": "Infrastructure"
     },
     {
+      "title": "Announcing .NET 11",
+      "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
+      "published": "2026-11-10T16:11:00Z",
+      "preview": ".NET 11 is here with C# 15, faster developer tools, runtime and library improvements, and new capabilities for web, mobile, desktop, and AI apps. The post Announcing .NET 11 appeared first on .NET Blog .",
+      "source": "NuGet Blog",
+      "category": ".NET"
+    },
+    {
       "title": "44.226.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.226.2",
       "published": "2026-11-10T14:47:31Z",
@@ -181,6 +221,14 @@
       "preview": "45.0.0-next.1 (2026-11-10) ⚠ BREAKING CHANGES deps: Update ghcr.io/renovatebot/base-image Docker tag to v11 (next) ( #36544 ) deps: Update ghcr.io/renovatebot/base-image Docker tag to v10 (next) ( #34395 ) require node v22.13 Features deps: Update ghcr.io/renovatebot/base-image Docker tag to v10 (next) ( #34395 ) ( aef3f80 ) deps: update ghcr.io/renovatebot/base-image docker tag to v10.1.0 (next) ( #35687 ) ( 7e46f38 ) deps: Update ghcr.io/renovatebot/base-image Docker tag to v11 (next) ( #36544 ) ( 90d0748 ) require node v22.13 ( c796bb1 ) Bug Fixes deps: update ghcr.io/containerbase/sidecar ",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "vlt v1.7.0: vlt deploy, selective updates and pinned git dependencies",
+      "url": "https://vlt.io/blog/vlt-1-7",
+      "published": "2026-11-10T12:00:00Z",
+      "preview": "vlt v1.7.0 adds the vlt deploy command, vlt update <pkg> and git dependencies locked to a commit, along with new agent skills commands and a round of fixes.",
+      "source": "vlt Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.226.0",
@@ -917,6 +965,14 @@
       "preview": "29.9.3 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.9.3 milestone moby/moby, 29.9.3 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine and related components. CVE-2026-116587 Fix possible excessive CPU usage when parsing crafted RSA keys GHSA-mgcc-cww5-fp2q CVE-2026-116591 Fix a possible panic when decompressing zstd data GHSA-fpmh-frq8-7rj8 CVE-2026-115538 Fix missing encryption and spoofing protections for Swarm overlay networks after firewalld flushes Docker's i",
       "source": "Docker Engine releases",
       "category": "Containers"
+    },
+    {
+      "title": "Delivering Skills in NuGet packages",
+      "url": "https://devblogs.microsoft.com/dotnet/delivering-skills-in-nuget-packages/",
+      "published": "2026-11-03T19:00:14Z",
+      "preview": "Agent skills can be delivered in NuGet packages as a way to deliver up-to-date library documentation to models. The post Delivering Skills in NuGet packages appeared first on .NET Blog .",
+      "source": "NuGet Blog",
+      "category": ".NET"
     },
     {
       "title": "v0.403.0",
