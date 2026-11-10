@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-10T15:22:18Z",
-  "cutoff": "2026-10-11T15:22:10Z",
+  "generated": "2026-11-10T17:22:05Z",
+  "cutoff": "2026-10-11T17:21:59Z",
   "feed_count": 104,
-  "item_count": 294,
+  "item_count": 297,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "9.9.1",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.9.1",
+      "published": "2026-11-10T17:13:13Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.9.1. Here are the highlights of this release: Performance improvements for Kotlin DSL compilation Test filtering for non-method JUnit Platform tests Wrapper settings preserved on upgrade Predefined groups in the Problems API Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aurimas , devareddy05 , DragonFSKY , fru1tworld , Ivan Khanas , Jeremy Schoemaker , John Burns , Labh R Jethe , Marcin Mycek , monkey , Nelson Osacky , Roberto Perez Alcolea , Róbert Papp , SeungTae",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "[release-branch.go1.27] go1.27.4",
+      "url": "https://github.com/golang/go/releases/tag/go1.27.4",
+      "published": "2026-11-10T16:47:23Z",
+      "preview": "Change-Id: Ida742520c659821a11ea3ede01983feb265dec69 Reviewed-on: https://go-review.googlesource.com/c/go/+/861709 Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Cherry Mui cherryyz@google.com Reviewed-by: Dmitri Shuralyov dmitshur@google.com TryBot-Bypass: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "[release-branch.go1.26] go1.26.11",
+      "url": "https://github.com/golang/go/releases/tag/go1.26.11",
+      "published": "2026-11-10T16:47:16Z",
+      "preview": "Change-Id: I3107dafa25ba509879475843bd2ce7286dc16ab9 Reviewed-on: https://go-review.googlesource.com/c/go/+/861708 Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Cherry Mui cherryyz@google.com Reviewed-by: Dmitri Shuralyov dmitshur@google.com TryBot-Bypass: Gopher Robot gobot@golang.org",
+      "source": "Go releases",
+      "category": "Go"
+    },
+    {
+      "title": "44.226.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.226.3",
+      "published": "2026-11-10T16:35:23Z",
+      "preview": "44.226.3 (2026-11-10) Bug Fixes deps: update renovate-base-image to v13.163.4 (main) ( #47918 ) ( b200d68 ) Documentation enforce American English with Vale ( #47913 ) ( 44d7116 ) enforce style guide wording with Vale ( #47914 ) ( e296d25 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.15 (main) ( #47916 ) ( b22037f ) deps: update linters to v1.91.0 (main) ( #47919 ) ( 652c918 ) Build System deps: update dependency semver to v7.8.6 (main) ( #47875 ) ( e2fa57b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.226.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.226.2",
@@ -323,14 +355,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.224.1",
       "published": "2026-11-09T15:34:47Z",
       "preview": "44.224.1 (2026-11-09) Build System deps: update dependency execa to v10.2.1 (main) ( #47370 ) ( 58186fb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.224.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.224.0",
-      "published": "2026-11-09T14:23:06Z",
-      "preview": "44.224.0 (2026-11-09) Features automerge: support automergeType=label ( #47101 ) ( cc87229 ) presets/workaround: aospTagVersioning ( #43731 ) ( 4e86714 ) Bug Fixes manager/npm/yarn: detect corepack from package.json when managerData flag is missing ( #45153 ) ( e468707 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
