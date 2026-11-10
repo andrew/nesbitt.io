@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-10T01:21:39Z",
-  "cutoff": "2026-10-11T01:21:33Z",
+  "generated": "2026-11-10T02:25:00Z",
+  "cutoff": "2026-10-11T02:24:54Z",
   "feed_count": 104,
-  "item_count": 285,
+  "item_count": 286,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,22 @@
   ],
   "items": [
     {
+      "title": "pnpr 0.1.0-alpha.19",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.19",
+      "published": "2026-11-10T01:28:47Z",
+      "preview": "pnpr 0.1.0-alpha.19 stores package metadata in PostgreSQL or MySQL as well as SQLite, stores identical archives once, and adds pnpr gc to reclaim unreferenced archives while serving. It does not migrate alpha.18 data, so read the upgrade steps below before you upgrade. It also includes a security fix: pnpr no longer logs the credentials of some malformed URLs. The release also tightens account, team, and publish validation. Minor Changes Upgrading from alpha.18 pnpr does not migrate alpha.18 data. At startup it refuses an alpha.18 metadata database or SQL auth database, including a local token",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.19",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.19.0",
+      "published": "2026-11-10T01:25:14Z",
+      "preview": "pnpm 12.19.0 adds pnpm fund , lets the loaded node linker handle packages that need a build, and adds the projectScopedOptionalPeers setting and an experimental JSON lockfile format. It also includes a security fix: an offline install error no longer prints registry credentials. pnpm now checks the engines and platform fields of every workspace project, and many hoisted-linker and frozen-lockfile bugs are fixed. Minor Changes Added pnpm fund , which lists the funding URLs declared by the installed dependencies in the same tree npm fund prints. Use --json for the npm fund --json report and --re",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "44.225.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.225.0",
       "published": "2026-11-10T00:47:19Z",
@@ -31,19 +47,11 @@
       "category": "Infrastructure"
     },
     {
-      "title": "pnpr@0.1.0-alpha.19",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.19",
-      "published": "2026-11-09T23:55:43Z",
-      "preview": "=pnpr@0.1.0-alpha.19",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.19.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.19.0",
-      "published": "2026-11-09T23:54:45Z",
-      "preview": "=v12.19.0",
-      "source": "pnpm releases",
+      "title": "pnpm 12.19.0",
+      "url": "https://pnpm.io/blog/releases/12.19.0",
+      "published": "2026-11-10T00:00:00Z",
+      "preview": "pnpm 12.19.0 adds pnpm fund, lets the loaded node linker handle packages that need a build, and adds the projectScopedOptionalPeers setting and an experimental JSON lockfile format. It also includes a security fix: an offline install error no longer prints registry credentials. pnpm now checks...",
+      "source": "pnpm Blog",
       "category": "JavaScript"
     },
     {
