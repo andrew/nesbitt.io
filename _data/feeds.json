@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10T03:23:45Z",
-  "cutoff": "2026-10-11T03:23:39Z",
+  "generated": "2026-11-10T05:22:42Z",
+  "cutoff": "2026-10-11T05:22:37Z",
   "feed_count": 104,
   "item_count": 286,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-10T05:03:30Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.225.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.225.1",
@@ -141,14 +149,6 @@
       "preview": "What's Changed Prefetch bottle attestations in bulk by @p-linnane in #24436 Correct documentation and JSON help by @hezhizhen in #24437 Fix shared documentation lint edge cases by @MikeMcQuaid in #24443 Explain denied Landlock root directory listings by @MikeMcQuaid in #24448 Require zap stanzas in all official casks by @bevanjkay in #24435 Verify backfilled :all bottle subjects by @hezhizhen in #24447 Harden MCP server schemas and argument handling by @p-linnane in #24453 livecheck: make throttle rate and days mutually exclusive by @cho-m in #24451 Add explicit package source loading APIs by ",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-09T03:03:02Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "v2026.11.5: `mise dot files` shows what is tracked in a directory",
