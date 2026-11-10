@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10T18:23:22Z",
-  "cutoff": "2026-10-11T18:23:15Z",
+  "generated": "2026-11-10T19:21:54Z",
+  "cutoff": "2026-10-11T19:21:49Z",
   "feed_count": 104,
   "item_count": 297,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.227.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.227.2",
+      "published": "2026-11-10T18:53:27Z",
+      "preview": "44.227.2 (2026-11-10) Miscellaneous Chores deps: update dependency rimraf to v6.1.4 (main) ( #47936 ) ( 22f64b6 ) Build System deps: update dependency google-auth-library to v11.3.3 (main) ( #47935 ) ( 707235b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.227.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.227.1",
+      "published": "2026-11-10T18:37:29Z",
+      "preview": "44.227.1 (2026-11-10) Bug Fixes presets: add missing replacements to replacements:all ( #47930 ) ( d50ac4b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.227.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.227.0",
@@ -319,14 +335,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "44.225.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.225.0",
-      "published": "2026-11-10T00:47:19Z",
-      "preview": "44.225.0 (2026-11-10) Features deps: update renovate-base-image to v13.163.0 (main) ( #47887 ) ( c1b8d4c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "October 2026 Releases",
       "url": "https://conda.org/blog/2026-11-10-october-releases",
       "published": "2026-11-10T00:00:00Z",
@@ -341,14 +349,6 @@
       "preview": "pnpm 12.19.0 adds pnpm fund, lets the loaded node linker handle packages that need a build, and adds the projectScopedOptionalPeers setting and an experimental JSON lockfile format. It also includes a security fix: an offline install error no longer prints registry credentials. pnpm now checks...",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.224.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.224.2",
-      "published": "2026-11-09T20:54:56Z",
-      "preview": "44.224.2 (2026-11-09) Bug Fixes deps: update renovate-base-image to v13.162.1 (main) ( #47880 ) ( 4c73477 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.13 (main) ( #47879 ) ( 1b9547c ) hex: omit unused generated methods ( #47870 ) ( c1aad14 ) Code Refactoring remove obsolete JSON module declarations ( #47869 ) ( 2e4c5d4 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.404.0",
