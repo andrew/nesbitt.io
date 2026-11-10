@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-10T19:21:54Z",
-  "cutoff": "2026-10-11T19:21:49Z",
+  "generated": "2026-11-10T20:22:31Z",
+  "cutoff": "2026-10-11T20:22:25Z",
   "feed_count": 104,
-  "item_count": 297,
+  "item_count": 299,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v6.2.0",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.2.0",
+      "published": "2026-11-10T20:01:54Z",
+      "preview": "Security Addresses CVE-2026-121885 , untrusted image labels could be used to trick podman auto-update into restarting incorrect systemd units GHSA-55rm-rwr7-q2wr . Addresses CVE-2026-111361, malicious containers images could be able to bypass Digest and Signature validation GHSA-pggw-qqjf-6cxw . Addresses CVE-2026-123876 , default seccomp profile socket deny rule could be bypass by a malicious container. Features The podman push command now supports a new option, --platform , which selects and pushes a single platform-specific manifest instead of the entire list. The podman kube play command n",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v5.8.10",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.10",
+      "published": "2026-11-10T19:52:42Z",
+      "preview": "Security Addresses CVE-2026-121885 , untrusted image labels could be used to trick podman auto-update into restarting incorrect systemd units GHSA-55rm-rwr7-q2wr . Addresses CVE-2026-111361, malicious containers images could be able to bypass Digest and Signature validation GHSA-pggw-qqjf-6cxw . Addresses CVE-2026-123876 , default seccomp profile socket deny rule could be bypass by a malicious container.",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
     {
       "title": "44.227.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.227.2",
