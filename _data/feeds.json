@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-10T02:25:00Z",
-  "cutoff": "2026-10-11T02:24:54Z",
+  "generated": "2026-11-10T03:23:45Z",
+  "cutoff": "2026-10-11T03:23:39Z",
   "feed_count": 104,
   "item_count": 286,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.225.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.225.1",
+      "published": "2026-11-10T02:53:36Z",
+      "preview": "44.225.1 (2026-11-10) Bug Fixes deps: update renovate-base-image to v13.163.1 (main) ( #47890 ) ( 0c61367 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.14 (main) ( #47889 ) ( 566dd54 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpr 0.1.0-alpha.19",
       "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.19",
@@ -125,14 +133,6 @@
       "preview": "44.222.6 (2026-11-09) Documentation update references to github/gh-actions-lock to v0.4.1 (main) ( #47850 ) ( 8cff792 ) update references to python to d180550 (main) ( #47848 ) ( f3f49ec ) Miscellaneous Chores deps: update dependency certifi to v2026.10.18 [security] (main) ( #47855 ) ( f18f993 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.12 (main) ( #47846 ) ( 677638d ) Build System deps: update dependency url-join to v5.2.0 (main) ( #47229 ) ( 27de6b8 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2.16.0",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0",
-      "published": "2026-11-09T08:35:23Z",
-      "preview": "What's Changed Exciting New Features 🎉 Update artifact_accessory to add source column to identify accessory by @stonezdj in #23144 feat: replace redis with valkey as cache backend by @chlins in #23157 Full Multi-Architecture Enablement for Harbor (amd64 + arm64) by @ranimandepudi in #22311 Add ListReferrers API to registry client and update parseScopes by @stonezdj in #23170 Proxy the referrer API to upstream registry with paging and local merge by @stonezdj in #23237 feat(ui): support advanced proxy cache configurations in UI by @stonezdj in #23536 feat(backend): implement proxy cache reposit",
-      "source": "Harbor releases",
-      "category": "Containers"
     },
     {
       "title": "7.0.13",
@@ -351,14 +351,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.222.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.222.3",
-      "published": "2026-11-08T02:51:06Z",
-      "preview": "44.222.3 (2026-11-08) Bug Fixes deps: update renovate-base-image to v13.161.3 (main) ( #47841 ) ( 6b87d5c ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.8 (main) ( #47840 ) ( 26b0e53 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "1.18.16",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.16",
       "published": "2026-11-07T08:17:15Z",
@@ -429,6 +421,14 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-04-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
+    },
+    {
+      "title": "v2.16.0",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.16.0",
+      "published": "2026-11-06T08:06:24Z",
+      "preview": "(cherry-pick) replace gorilla/csrf with net/http.CrossOriginProtectio…",
+      "source": "Harbor releases",
+      "category": "Containers"
     },
     {
       "title": "PyPI's redesigned project pages with clearer security signals are now live",
