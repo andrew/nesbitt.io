@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-10T05:22:42Z",
-  "cutoff": "2026-10-11T05:22:37Z",
+  "generated": "2026-11-10T09:23:14Z",
+  "cutoff": "2026-10-11T09:23:06Z",
   "feed_count": 104,
-  "item_count": 286,
+  "item_count": 293,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,86 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.11.2",
+      "url": "https://github.com/composer/composer/releases/tag/2.11.2",
+      "published": "2026-11-10T09:09:37Z",
+      "preview": "Release 2.11.2",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "2.2.32",
+      "url": "https://github.com/composer/composer/releases/tag/2.2.32",
+      "published": "2026-11-10T09:09:19Z",
+      "preview": "Release 2.2.32",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "2.35.6",
+      "url": "https://github.com/NixOS/nix/releases/tag/2.35.6",
+      "published": "2026-11-10T08:57:22Z",
+      "preview": "Tagging release 2.35.6",
+      "source": "Nix releases",
+      "category": "System"
+    },
+    {
+      "title": "pixi-build-cmake-v0.4.8",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-cmake-v0.4.8",
+      "published": "2026-11-10T08:54:30Z",
+      "preview": "chore(release): bump backend versions ( #7485 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-mojo-v0.2.9",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-mojo-v0.2.9",
+      "published": "2026-11-10T08:54:30Z",
+      "preview": "chore(release): bump backend versions ( #7485 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-python-v0.8.8",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-python-v0.8.8",
+      "published": "2026-11-10T08:54:30Z",
+      "preview": "chore(release): bump backend versions ( #7485 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-r-v0.2.1",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-r-v0.2.1",
+      "published": "2026-11-10T08:54:30Z",
+      "preview": "chore(release): bump backend versions ( #7485 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rattler-build-v0.4.8",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rattler-build-v0.4.8",
+      "published": "2026-11-10T08:54:30Z",
+      "preview": "chore(release): bump backend versions ( #7485 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-ros-v0.7.7",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-ros-v0.7.7",
+      "published": "2026-11-10T08:54:30Z",
+      "preview": "chore(release): bump backend versions ( #7485 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "pixi-build-rust-v0.5.8",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-rust-v0.5.8",
+      "published": "2026-11-10T08:54:30Z",
+      "preview": "chore(release): bump backend versions ( #7485 )",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -1663,14 +1743,6 @@
       "category": "Registries"
     },
     {
-      "title": "v0.82.1",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.82.1",
-      "published": "2026-10-21T08:04:46Z",
-      "preview": "[0.82.1] - 2026-10-20 🔒 Security 🔒 This patch release contains security fixes for the incident described at https://emudhra.we-have-a-problem.com/ . All users are encouraged to upgrade to this version immediately. The affected webpki-root-certs and rustls-webpki dependencies have been bumped to patched releases 1.0.10 and 0.103.16 respectively. Features pixi-build-r: Add CMake and pkg-config when SystemRequirements asks for them by @roaldarbol in #7256 spec: Support exemptions in the resolved exclude-newer config by @pavelzw in #7250 manifest: Read exemptions from exclude-newer in [workspace] ",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "Security updates for conda, Mamba, and Pixi",
       "url": "https://conda.org/blog/2026-10-21-emudhra-security-updates",
       "published": "2026-10-21T00:00:00Z",
@@ -2055,14 +2127,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "pixi-build-r-v0.2.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/pixi-build-r-v0.2.0",
-      "published": "2026-10-14T14:08:02Z",
-      "preview": "chore(release): bump pixi-build-r to 0.2.0 ( #7271 )",
-      "source": "pixi releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "2.7.5-beta-20261014",
       "url": "https://github.com/chocolatey/choco/releases/tag/2.7.5-beta-20261014",
       "published": "2026-10-14T13:05:49Z",
@@ -2077,14 +2141,6 @@
       "preview": "vlt v1.4.0 brings the global store to macOS for up to 3x faster installs on Node 26, plus a new --save-types flag.",
       "source": "vlt Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "v0.82.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.82.0",
-      "published": "2026-10-14T11:47:50Z",
-      "preview": "[0.82.0] - 2026-10-13 ✨ Highlights Rich platforms now support AMD GPUs with amdgpu = true to declare GPU presence or amdgpu = \"gfx90a\" to require a specific GPU architecture. pixi global now supports exclude-newer in the global manifest. Set a cutoff date or a duration such as exclude-newer = \"7d\" to exclude recently published packages from all global environments. Added Add exclude-newer to the global manifest by @Hofer-Julian in #7016 Use toml edit to modify config by @samrosenf in #6576 Automake and autoconf for ros2_canopen by @Timple in #7110 Support PIXI_WORKSPACE_ env vars, make PIXI_PR",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "1.4.8-beta-20261014",
