@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-11T17:22:18Z",
-  "cutoff": "2026-10-12T17:22:12Z",
+  "generated": "2026-11-11T18:23:24Z",
+  "cutoff": "2026-10-12T18:23:15Z",
   "feed_count": 104,
-  "item_count": 315,
+  "item_count": 316,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.234.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.234.1",
+      "published": "2026-11-11T17:45:00Z",
+      "preview": "44.234.1 (2026-11-11) Build System deps: update node.js to v24.22.3 (main) ( #47958 ) ( 969aace )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.234.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.234.0",
@@ -231,6 +239,14 @@
       "category": "Maven"
     },
     {
+      "title": "What's new in Swift: November 2026 Edition",
+      "url": "https://www.swift.org/blog/whats-new-in-swift-november-2026/",
+      "published": "2026-11-11T09:00:00Z",
+      "preview": "Welcome to the latest edition of “What’s new in Swift,” a curated digest of releases, news, and discussions from the Swift project and community. To start things off, our guest contributor shares a timely reminder for anyone relying on CocoaPods: Hi, I’m Dave Verwer, co-creator of the Swift Package Index and now part of a team at Apple working on a public, cross-platform package registry for Swift. How developers find, share, and manage dependencies across the entire ecosystem is something we think about a lot. CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. The pro",
+      "source": "Swift Blog",
+      "category": "Registries"
+    },
+    {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
       "published": "2026-11-11T04:06:36Z",
@@ -357,14 +373,6 @@
       "preview": "What's Changed Exciting New Features 🎉 Update artifact_accessory to add source column to identify accessory by @stonezdj in #23144 feat: replace redis with valkey as cache backend by @chlins in #23157 Full Multi-Architecture Enablement for Harbor (amd64 + arm64) by @ranimandepudi in #22311 Add ListReferrers API to registry client and update parseScopes by @stonezdj in #23170 Proxy the referrer API to upstream registry with paging and local merge by @stonezdj in #23237 feat(ui): support advanced proxy cache configurations in UI by @stonezdj in #23536 feat(backend): implement proxy cache reposit",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "45.0.0-next.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.0-next.1",
-      "published": "2026-11-10T13:11:26Z",
-      "preview": "45.0.0-next.1 (2026-11-10) ⚠ BREAKING CHANGES deps: Update ghcr.io/renovatebot/base-image Docker tag to v11 (next) ( #36544 ) deps: Update ghcr.io/renovatebot/base-image Docker tag to v10 (next) ( #34395 ) require node v22.13 Features deps: Update ghcr.io/renovatebot/base-image Docker tag to v10 (next) ( #34395 ) ( aef3f80 ) deps: update ghcr.io/renovatebot/base-image docker tag to v10.1.0 (next) ( #35687 ) ( 7e46f38 ) deps: Update ghcr.io/renovatebot/base-image Docker tag to v11 (next) ( #36544 ) ( 90d0748 ) require node v22.13 ( c796bb1 ) Bug Fixes deps: update ghcr.io/containerbase/sidecar ",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "vlt v1.7.0: vlt deploy, selective updates and pinned git dependencies",
