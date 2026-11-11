@@ -7,6 +7,7 @@ tags:
   - security
   - maintainers
   - satire
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3mzzlr66ida2v"
 ---
 
 We're excited to announce Ninety, the first prediction market for open source security, launching today in partnership with Lanternfish, the frontier AI lab for software security. Security report volumes at major projects are [four to five times higher than in 2024](https://daniel.haxx.se/blog/2026/05/26/the-pressure/). Attackers and defenders are both running frontier models against the same few thousand packages, and everything those models turn up is scattered across disclosure inboxes, private chats, embargo lists and exploit brokers, with no price attached.
