@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-11T11:21:57Z",
-  "cutoff": "2026-10-12T11:21:52Z",
+  "generated": "2026-11-11T12:27:29Z",
+  "cutoff": "2026-10-12T12:27:22Z",
   "feed_count": 104,
-  "item_count": 313,
+  "item_count": 314,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.230.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.230.1",
+      "published": "2026-11-11T12:15:07Z",
+      "preview": "44.230.1 (2026-11-11) Build System deps: update dependency @renovatebot/pgp to v2.0.5 (main) ( #47950 ) ( aa97abf )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v1.17.2",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.2",
+      "published": "2026-11-11T11:56:51Z",
+      "preview": "1.17.2 (November 11, 2026) ENHANCEMENTS: query: Improve performance and reduce allocations when generating configuration from large HCP Terraform queries. ( #39470 ) BUG FIXES: Providers referencing a managed resource with detroy=false can cause a cycle ( #39507 ) init: Fix repeated unavailable-provider schema warnings in log output ( #39517 )",
+      "source": "Terraform releases",
+      "category": "Infrastructure as Code"
+    },
+    {
+      "title": "44.230.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.230.0",
+      "published": "2026-11-11T11:55:56Z",
+      "preview": "44.230.0 (2026-11-11) Features datasource/kubernetes-api: add flux v2.10 changes ( #47949 ) ( 96edca7 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "5.4.8.0",
       "url": "https://github.com/rpm-software-management/dnf5/releases/tag/5.4.8.0",
@@ -215,28 +239,12 @@
       "category": "Go"
     },
     {
-      "title": "44.226.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.226.3",
-      "published": "2026-11-10T16:35:23Z",
-      "preview": "44.226.3 (2026-11-10) Bug Fixes deps: update renovate-base-image to v13.163.4 (main) ( #47918 ) ( b200d68 ) Documentation enforce American English with Vale ( #47913 ) ( 44d7116 ) enforce style guide wording with Vale ( #47914 ) ( e296d25 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.15 (main) ( #47916 ) ( b22037f ) deps: update linters to v1.91.0 (main) ( #47919 ) ( 652c918 ) Build System deps: update dependency semver to v7.8.6 (main) ( #47875 ) ( e2fa57b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "Announcing .NET 11",
       "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
       "published": "2026-11-10T16:11:00Z",
       "preview": ".NET 11 is here with C# 15, faster developer tools, runtime and library improvements, and new capabilities for web, mobile, desktop, and AI apps. The post Announcing .NET 11 appeared first on .NET Blog .",
       "source": "NuGet Blog",
       "category": ".NET"
-    },
-    {
-      "title": "44.226.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.226.2",
-      "published": "2026-11-10T14:47:31Z",
-      "preview": "44.226.2 (2026-11-10) Bug Fixes deps: update renovate-base-image to v13.163.3 (main) ( #47917 ) ( a42552e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v0.84.2",
