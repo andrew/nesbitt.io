@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-11T13:22:26Z",
-  "cutoff": "2026-10-12T13:22:21Z",
+  "generated": "2026-11-11T14:22:32Z",
+  "cutoff": "2026-10-12T14:22:27Z",
   "feed_count": 104,
-  "item_count": 315,
+  "item_count": 316,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,102 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2.15.5-rc1",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.5-rc1",
+      "published": "2026-11-11T13:55:01Z",
+      "preview": "What's Changed Component updates ⬆️ fix(portal): Add the missing i18n entries for the operate action and the configuration resource by @bupd in #24104 fix(http): redact the pagination Link in rejection errors by @bupd in #24095 fix(api): bound audited and manifest request bodies by @bupd in #24102 fix(webhook): store the normalized target address (backport #24075 ) by @bupd in #24098 [release-2.15] fix(cnai-parser): enforce actual byte limit to prevent decompression ( #23497 ) by @Vad1mo in #24146 [release-2.15] fix(replication): make the image resource filter take effect again ( #24176 ) by @",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
+    {
+      "title": "v2026.11.7",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.7",
+      "published": "2026-11-11T13:52:11Z",
+      "preview": "(shim) one-line no-version error and opt-in shims.fallback_to_i…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-daemons-v2026.11.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.11.7",
+      "published": "2026-11-11T13:51:34Z",
+      "preview": "Release mise-daemons 2026.11.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.11.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.7",
+      "published": "2026-11-11T13:51:17Z",
+      "preview": "Release mise-oci 2026.11.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.11.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.7",
+      "published": "2026-11-11T13:50:53Z",
+      "preview": "Release mise-system 2026.11.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.11.7",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.7",
+      "published": "2026-11-11T13:49:34Z",
+      "preview": "Release vfox 2026.11.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.11.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.7",
+      "published": "2026-11-11T13:49:17Z",
+      "preview": "Release mise-system-packages 2026.11.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.11.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.7",
+      "published": "2026-11-11T13:48:56Z",
+      "preview": "Release mise-ui 2026.11.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.11.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.7",
+      "published": "2026-11-11T13:48:39Z",
+      "preview": "Release mise-util 2026.11.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.11.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.7",
+      "published": "2026-11-11T13:48:21Z",
+      "preview": "Release mise-sigstore 2026.11.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.11.7",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.7",
+      "published": "2026-11-11T13:48:06Z",
+      "preview": "Release mise-settings 2026.11.7",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.232.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.232.0",
+      "published": "2026-11-11T13:29:55Z",
+      "preview": "44.232.0 (2026-11-11) Features config/validation: validate matchManagers against known managers ( #47906 ) ( 4027093 ) config: move Dependency Dashboard configuration into an object ( #47732 ) ( 9bae2f9 ), closes #42816 config: support templating in dependencyDashboardLabels ( #47731 ) ( ab99965 ), closes #42816 Miscellaneous Chores tools: allow child options objects to be linked in templates.md ( #47747 ) ( d53a8de )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.231.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.231.0",
@@ -215,14 +311,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.227.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.227.1",
-      "published": "2026-11-10T18:37:29Z",
-      "preview": "44.227.1 (2026-11-10) Bug Fixes presets: add missing replacements to replacements:all ( #47930 ) ( d50ac4b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "9.9.1",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.9.1",
       "published": "2026-11-10T17:13:13Z",
@@ -271,14 +359,6 @@
       "category": "Containers"
     },
     {
-      "title": "v2026.11.6: Pick several tasks with mise run --multi, and use unprefixed bootstrap packages",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.6",
-      "published": "2026-11-10T13:36:08Z",
-      "preview": "mise run --multi lets you pick several tasks from a checklist. [bootstrap.packages] keys without a manager: prefix now install through one available package manager, and the npm backend can install from an HTTPS tarball URL. Custom daemons can name several ports, and launchd agents can set resource limits. This release also changes the default prompt theme to base16 and fixes problems with tasks, mise env --dotenv , and installs. Added mise run --multi . Opens the task picker as a checklist. Press Space to check a task, / to filter, and Enter to run the checked tasks. They run as if you had jo",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "45.0.0-next.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.0-next.1",
       "published": "2026-11-10T13:11:26Z",
@@ -293,78 +373,6 @@
       "preview": "vlt v1.7.0 adds the vlt deploy command, vlt update <pkg> and git dependencies locked to a commit, along with new agent skills commands and a round of fixes.",
       "source": "vlt Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "mise-oci-v2026.11.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.6",
-      "published": "2026-11-10T11:40:38Z",
-      "preview": "Release mise-oci 2026.11.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.11.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.6",
-      "published": "2026-11-10T11:40:23Z",
-      "preview": "Release mise-system 2026.11.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.11.6",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.6",
-      "published": "2026-11-10T11:40:07Z",
-      "preview": "Release vfox 2026.11.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.11.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.6",
-      "published": "2026-11-10T11:39:52Z",
-      "preview": "Release mise-system-packages 2026.11.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.11.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.6",
-      "published": "2026-11-10T11:39:35Z",
-      "preview": "Release mise-ui 2026.11.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.11.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.6",
-      "published": "2026-11-10T11:39:20Z",
-      "preview": "Release mise-util 2026.11.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.11.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.6",
-      "published": "2026-11-10T11:39:04Z",
-      "preview": "Release mise-sigstore 2026.11.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.11.6",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.6",
-      "published": "2026-11-10T11:38:48Z",
-      "preview": "Release mise-settings 2026.11.6",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-dotenv-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-dotenv-v2026.11.0",
-      "published": "2026-11-10T11:38:18Z",
-      "preview": "Release mise-dotenv 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v2.16.0-rc3",
