@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-11T08:24:49Z",
-  "cutoff": "2026-10-12T08:24:44Z",
+  "generated": "2026-11-11T10:22:22Z",
+  "cutoff": "2026-10-12T10:22:16Z",
   "feed_count": 104,
   "item_count": 310,
   "categories": [
@@ -22,6 +22,38 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.229.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.229.0",
+      "published": "2026-11-11T10:21:17Z",
+      "preview": "44.229.0 (2026-11-11) Features deps: update renovate-base-image to v13.164.0 (main) ( #47945 ) ( f905543 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-09-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-09-a",
+      "published": "2026-11-11T10:04:06Z",
+      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-09-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.228.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.228.0",
+      "published": "2026-11-11T10:02:11Z",
+      "preview": "44.228.0 (2026-11-11) Features manager/gemspec: add gemspec manager ( #44429 ) ( 0f39f10 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "8.14.7",
+      "url": "https://github.com/gradle/gradle/releases/tag/v8.14.7",
+      "published": "2026-11-11T09:42:08Z",
+      "preview": "The Gradle team is excited to announce Gradle 8.14.7. Here are the highlights of this release: Java 24 support GraalVM Native Image toolchain selection Enhancements to test reporting Build Authoring improvements Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aurimas , Ben Bader , Björn Kautler , chandre92 , Daniel Hammer , Danish Nawab , Florian Dreier , Ivy Chen , Jendrik Johannes , jimmy1995-gu , Madalin Valceleanu , Na Minhyeok . Upgrade instructions Switch your build to use Gradle 8.14.7 by updating your wrap",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -109,14 +141,6 @@
       "preview": "Security Addresses CVE-2026-121885 , untrusted image labels could be used to trick podman auto-update into restarting incorrect systemd units GHSA-55rm-rwr7-q2wr . Addresses CVE-2026-111361, malicious containers images could be able to bypass Digest and Signature validation GHSA-pggw-qqjf-6cxw . Addresses CVE-2026-123876 , default seccomp profile socket deny rule could be bypass by a malicious container.",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "v8.14.7",
-      "url": "https://github.com/gradle/gradle/releases/tag/v8.14.7",
-      "published": "2026-11-10T19:51:28Z",
-      "preview": "Release notes for 8.14.7 ( #39776 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "44.227.2",
@@ -215,14 +239,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "44.226.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.226.1",
-      "published": "2026-11-10T13:30:16Z",
-      "preview": "44.226.1 (2026-11-10) Bug Fixes deps: update renovate-base-image to v13.163.2 (main) ( #47912 ) ( e888eb1 ) Miscellaneous Chores renovate: re-enable next branch ( #47903 ) ( f5df735 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "45.0.0-next.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.0-next.1",
       "published": "2026-11-10T13:11:26Z",
@@ -237,14 +253,6 @@
       "preview": "vlt v1.7.0 adds the vlt deploy command, vlt update <pkg> and git dependencies locked to a commit, along with new agent skills commands and a round of fixes.",
       "source": "vlt Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.226.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.226.0",
-      "published": "2026-11-10T11:53:11Z",
-      "preview": "44.226.0 (2026-11-10) Features presets/workarounds: support rhel10 images ( #47792 ) ( 3329d9c ) replacements: @fseehawer/react-circular-slider to @fiojs/react-circular-slider ( #47784 ) ( 8872498 ) Bug Fixes manager/kubernetes: omit per-image extraction debug logs ( #47830 ) ( b65f423 ) platform/bitbucket-server: drop deleted PRs from cache on 404 ( #47707 ) ( 6d8e1aa ) reconfigure: fail the check when dependency extraction errors ( #47280 ) ( 39da887 ) Tests git: avoid quiet-command delays in fixture configuration ( #47877 ) ( 7c50cbd ) rebalance the 16 primary test shards ( #47883 ) ( 3cc67",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "mise-oci-v2026.11.6",
@@ -1877,14 +1885,6 @@
       "preview": "Bug fixes Require certifi >=2026.10.19 and ca-certificates >=2026.10.19 to update the packaged CA bundles following the eMudhra intermediate CA compromise. ( #16880 via #16881 ) Contributors @jezdez Full Changelog : 26.9.3...26.9.4",
       "source": "Conda releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-19-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-19-a",
-      "published": "2026-10-21T08:44:25Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-19-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     },
     {
       "title": "Security updates for conda, Mamba, and Pixi",
