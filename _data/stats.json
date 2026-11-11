@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-09T11:54:59Z",
-  "total_posts": 233,
-  "total_words": 327325,
-  "reading_minutes": 1637,
-  "average_words": 1405,
+  "generated_at": "2026-11-11T08:59:41Z",
+  "total_posts": 234,
+  "total_words": 329016,
+  "reading_minutes": 1646,
+  "average_words": 1406,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "This Week in Package Management: 7 November 2026",
-    "url": "/2026/11/07/this-week-in-package-management.html",
-    "date": "2026-11-07"
+    "title": "Introducing Ninety",
+    "url": "/2026/11/09/introducing-ninety.html",
+    "date": "2026-11-09"
   },
   "years_active": 9.7,
   "posts_per_month": 2.0,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 193
+      "count": 194
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-11",
-      "count": 3
+      "count": 4
     },
     {
       "month": "2026-10",
@@ -128,7 +128,7 @@
   ],
   "posts_by_day_of_week": {
     "sunday": 18,
-    "monday": 28,
+    "monday": 29,
     "tuesday": 37,
     "wednesday": 27,
     "thursday": 41,
@@ -142,7 +142,7 @@
     },
     {
       "name": "security",
-      "count": 59
+      "count": 60
     },
     {
       "name": "open-source",
@@ -153,11 +153,11 @@
       "count": 33
     },
     {
-      "name": "deep-dive",
-      "count": 29
+      "name": "satire",
+      "count": 30
     },
     {
-      "name": "satire",
+      "name": "deep-dive",
       "count": 29
     },
     {
@@ -198,7 +198,7 @@
     },
     {
       "name": "maintainers",
-      "count": 10
+      "count": 11
     },
     {
       "name": "github",
@@ -1037,6 +1037,15 @@
       ]
     },
     {
+      "url": "/2025/12/27/how-to-ruin-all-of-package-management.html",
+      "title": "How to Ruin All of Package Management",
+      "inbound_count": 2,
+      "inbound_from": [
+        "/2026/01/23/package-management-is-a-wicked-problem.html",
+        "/2026/11/09/introducing-ninety.html"
+      ]
+    },
+    {
       "url": "/2026/01/08/brew-vulns-cve-scanning-for-homebrew.html",
       "title": "brew-vulns: CVE scanning for Homebrew",
       "inbound_count": 2,
@@ -1273,14 +1282,6 @@
       "inbound_count": 1,
       "inbound_from": [
         "/2026/03/12/reviewing-enisas-package-manager-advisory.html"
-      ]
-    },
-    {
-      "url": "/2025/12/27/how-to-ruin-all-of-package-management.html",
-      "title": "How to Ruin All of Package Management",
-      "inbound_count": 1,
-      "inbound_from": [
-        "/2026/01/23/package-management-is-a-wicked-problem.html"
       ]
     },
     {
@@ -1669,8 +1670,8 @@
     }
   ],
   "external_links": {
-    "total": 5986,
-    "unique": 4797,
+    "total": 5996,
+    "unique": 4804,
     "domains": [
       {
         "host": "github.com",
@@ -1808,6 +1809,11 @@
         "posts": 3
       },
       {
+        "host": "daniel.haxx.se",
+        "count": 13,
+        "posts": 11
+      },
+      {
         "host": "fzakaria.com",
         "count": 13,
         "posts": 9
@@ -1838,6 +1844,11 @@
         "posts": 12
       },
       {
+        "host": "www.theregister.com",
+        "count": 12,
+        "posts": 7
+      },
+      {
         "host": "ziglang.org",
         "count": 12,
         "posts": 7
@@ -1846,11 +1857,6 @@
         "host": "crates.io",
         "count": 11,
         "posts": 11
-      },
-      {
-        "host": "daniel.haxx.se",
-        "count": 11,
-        "posts": 10
       },
       {
         "host": "docs.gradle.org",
@@ -1891,11 +1897,6 @@
         "host": "topenddevs.com",
         "count": 11,
         "posts": 1
-      },
-      {
-        "host": "www.theregister.com",
-        "count": 11,
-        "posts": 6
       },
       {
         "host": "www.youtube.com",
@@ -2073,6 +2074,11 @@
         "posts": 5
       },
       {
+        "host": "www.cisa.gov",
+        "count": 7,
+        "posts": 7
+      },
+      {
         "host": "www.sonatype.com",
         "count": 7,
         "posts": 7
@@ -2178,11 +2184,6 @@
         "posts": 4
       },
       {
-        "host": "www.cisa.gov",
-        "count": 6,
-        "posts": 6
-      },
-      {
         "host": "www.cve.org",
         "count": 6,
         "posts": 3
@@ -2226,6 +2227,11 @@
         "host": "conda.org",
         "count": 5,
         "posts": 5
+      },
+      {
+        "host": "digital-strategy.ec.europa.eu",
+        "count": 5,
+        "posts": 7
       },
       {
         "host": "docs.deno.com",
@@ -2336,11 +2342,6 @@
         "host": "developer.apple.com",
         "count": 4,
         "posts": 4
-      },
-      {
-        "host": "digital-strategy.ec.europa.eu",
-        "count": 4,
-        "posts": 6
       },
       {
         "host": "discourse.nixos.org",
@@ -2656,6 +2657,11 @@
         "host": "syntax.fm",
         "count": 3,
         "posts": 1
+      },
+      {
+        "host": "techcrunch.com",
+        "count": 3,
+        "posts": 3
       },
       {
         "host": "theforeman.org",
@@ -3241,11 +3247,6 @@
         "host": "tc54.org",
         "count": 2,
         "posts": 1
-      },
-      {
-        "host": "techcrunch.com",
-        "count": 2,
-        "posts": 2
       },
       {
         "host": "tenderlovemaking.com",
@@ -6754,6 +6755,11 @@
       },
       {
         "host": "www.vlt.io",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "www.vulncheck.com",
         "count": 1,
         "posts": 1
       },
