@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-12T20:21:43Z",
-  "cutoff": "2026-10-13T20:21:37Z",
+  "generated": "2026-11-12T22:22:03Z",
+  "cutoff": "2026-10-13T22:21:57Z",
   "feed_count": 104,
-  "item_count": 309,
+  "item_count": 311,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v29.10.0-rc.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.10.0-rc.2",
+      "published": "2026-11-12T22:02:42Z",
+      "preview": "29.10.0-rc.2 For a full list of changes from the last release candidate refer to the diff: moby/moby, 29.10.0-rc.1...29.10.0-rc.2 docker/cli, 29.10.0-rc.1...29.10.0-rc.2 ⚠️ Potential breaking change: local registry connections If you explicitly configure insecure-registries in daemon.json or use --insecure-registry , Docker Engine no longer automatically treats loopback addresses ( 127.0.0.0/8 and ::1/128 ) as insecure registries. Warning After upgrading, pulls and pushes to local registries that use HTTP or untrusted TLS certificates may fail unless those registries are explicitly included in",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-12T21:47:40Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v2.0.0-beta.30",
+      "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.30",
+      "published": "2026-11-12T21:38:04Z",
+      "preview": "v2.0.0-beta.30",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
     {
       "title": "44.236.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.236.4",
@@ -45,14 +69,6 @@
       "preview": "0.101.0 release",
       "source": "Cargo releases",
       "category": "Rust"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-12T17:59:00Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "0.13.8",
