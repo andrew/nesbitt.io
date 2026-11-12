@@ -7,6 +7,7 @@ I write about package management, software supply chain security, and open sourc
 ## Recent posts
 
 <!-- POSTS:START -->
+- [This Week in Source Control: 11 November 2026](https://nesbitt.io/2026/11/11/this-week-in-source-control.html)
 - [Introducing Ninety](https://nesbitt.io/2026/11/09/introducing-ninety.html)
 - [This Week in Package Management: 7 November 2026](https://nesbitt.io/2026/11/07/this-week-in-package-management.html)
 - [Weekend at Bernie’s II](https://nesbitt.io/2026/11/06/weekend-at-bernies-ii.html)
@@ -16,5 +17,4 @@ I write about package management, software supply chain security, and open sourc
 - [This Week in Source Control: 28 October 2026](https://nesbitt.io/2026/10/28/this-week-in-source-control.html)
 - [Package Management Devroom at FOSDEM 2027: Call for Participation](https://nesbitt.io/2026/10/26/package-management-devroom-at-fosdem-2027-call-for-participation.html)
 - [This Week in Package Management: 24 October 2026](https://nesbitt.io/2026/10/24/this-week-in-package-management.html)
-- [One Small Bug](https://nesbitt.io/2026/10/23/one-small-bug.html)
 <!-- POSTS:END -->
