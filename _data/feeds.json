@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-12T12:28:25Z",
-  "cutoff": "2026-10-13T12:28:19Z",
+  "generated": "2026-11-12T13:22:51Z",
+  "cutoff": "2026-10-13T13:22:46Z",
   "feed_count": 104,
   "item_count": 312,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.235.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.235.5",
+      "published": "2026-11-12T13:17:18Z",
+      "preview": "44.235.5 (2026-11-12) Bug Fixes manager/gitlabci: ignore !reference tags in image and services ( #47238 ) ( b01edfe ) manager/pep621: resolve git+ uv sources with host rules ( #47575 ) ( ca0e000 ) preserve pnpm workspace leading/trailing comments ( #47878 ) ( 2c0da03 ) versioning/julia: widen to the bare major from 1.0 on ( #47795 ) ( 2f88513 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.25 (main) ( #47978 ) ( 2b312a5 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.19 (main) ( #47979 ) ( c585733 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2.15.5",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.5",
+      "published": "2026-11-12T13:05:57Z",
+      "preview": "What's Changed Component updates ⬆️ fix(portal): Add the missing i18n entries for the operate action and the configuration resource by @bupd in #24104 fix(http): redact the pagination Link in rejection errors by @bupd in #24095 fix(api): bound audited and manifest request bodies by @bupd in #24102 fix(webhook): store the normalized target address (backport #24075 ) by @bupd in #24098 [release-2.15] fix(cnai-parser): enforce actual byte limit to prevent decompression ( #23497 ) by @Vad1mo in #24146 [release-2.15] fix(replication): make the image resource filter take effect again ( #24176 ) by @",
+      "source": "Harbor releases",
+      "category": "Containers"
+    },
     {
       "title": "44.235.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.235.4",
@@ -221,14 +237,6 @@
       "preview": "Release mise-settings 2026.11.7",
       "source": "mise releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.232.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.232.0",
-      "published": "2026-11-11T13:29:55Z",
-      "preview": "44.232.0 (2026-11-11) Features config/validation: validate matchManagers against known managers ( #47906 ) ( 4027093 ) config: move Dependency Dashboard configuration into an object ( #47732 ) ( 9bae2f9 ), closes #42816 config: support templating in dependencyDashboardLabels ( #47731 ) ( ab99965 ), closes #42816 Miscellaneous Chores tools: allow child options objects to be linked in templates.md ( #47747 ) ( d53a8de )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.17.2",
@@ -2509,14 +2517,6 @@
       "preview": "Deployment at 2026-10-13T13:45:47.280708Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "8.1.0.8",
-      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.1.0.8",
-      "published": "2026-10-13T12:37:15Z",
-      "preview": "Insert 8.1.0.8 into main on 10/13/2026 12:37:14",
-      "source": "NuGet Client releases",
-      "category": ".NET"
     }
   ]
 }
