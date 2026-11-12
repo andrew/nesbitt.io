@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-12T10:22:27Z",
-  "cutoff": "2026-10-13T10:22:22Z",
+  "generated": "2026-11-12T11:22:17Z",
+  "cutoff": "2026-10-13T11:22:11Z",
   "feed_count": 104,
   "item_count": 312,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.235.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.235.3",
+      "published": "2026-11-12T10:55:29Z",
+      "preview": "44.235.3 (2026-11-12) Bug Fixes deps: update renovate-base-image to v13.165.2 (main) ( #47972 ) ( 1ae5d84 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.17 (main) ( #47971 ) ( f0ea0ef )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.235.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.235.2",
@@ -219,14 +227,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.231.0",
       "published": "2026-11-11T12:38:34Z",
       "preview": "44.231.0 (2026-11-11) Features manager/custom: add support for registryAliases ( #43689 ) ( 73be821 ) Code Refactoring platform/github: add auto-merge cancellation ( #47620 ) ( 29cf7c6 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.230.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.230.1",
-      "published": "2026-11-11T12:15:07Z",
-      "preview": "44.230.1 (2026-11-11) Build System deps: update dependency @renovatebot/pgp to v2.0.5 (main) ( #47950 ) ( aa97abf )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
