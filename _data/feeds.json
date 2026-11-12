@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-12T01:21:55Z",
-  "cutoff": "2026-10-13T01:21:48Z",
+  "generated": "2026-11-12T03:24:13Z",
+  "cutoff": "2026-10-13T03:24:06Z",
   "feed_count": 104,
   "item_count": 314,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.235.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.235.1",
+      "published": "2026-11-12T02:53:51Z",
+      "preview": "44.235.1 (2026-11-12) Bug Fixes deps: update renovate-base-image to v13.165.1 (main) ( #47965 ) ( cd5c06f ) Miscellaneous Chores deps: update dependency pnpm to v11.28.11 (main) ( #47964 ) ( 25da094 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.235.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.235.0",
@@ -229,14 +237,6 @@
       "preview": "Update translations from weblate Use CMake property to make -Werror overridable from the cmdline Makefile: Add target to run dnf5daemon tests daemon: report list_fd errors through completion signal Fix refresh with non-default cachedir goal: Compare obsoleted versions across architectures libdnf5: subprocess: rename stdout/stderr members of CompletedProcess dnf5: offline: fix building without systemd doc: Annotate CVE-2026-111253 fix dnf5daemon-server: cache_updated requires metadata to be loaded spec: Fix libdnf5-plugin-appstream license spec: Fix dnf5-plugin-manifest license spec: Fix dnf5-p",
       "source": "DNF5 releases",
       "category": "System"
-    },
-    {
-      "title": "44.229.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.229.0",
-      "published": "2026-11-11T10:21:17Z",
-      "preview": "44.229.0 (2026-11-11) Features deps: update renovate-base-image to v13.164.0 (main) ( #47945 ) ( f905543 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.8.0-beta-20261111: Merge pull request #3977 from chocolatey/update-7zip-to-26.06",
