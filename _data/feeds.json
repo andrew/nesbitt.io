@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-12T18:24:13Z",
-  "cutoff": "2026-10-13T18:24:08Z",
+  "generated": "2026-11-12T19:22:00Z",
+  "cutoff": "2026-10-13T19:21:54Z",
   "feed_count": 104,
-  "item_count": 309,
+  "item_count": 310,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.236.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.236.3",
+      "published": "2026-11-12T18:55:09Z",
+      "preview": "44.236.3 (2026-11-12) Bug Fixes deps: update renovate-base-image to v13.165.7 (main) ( #47989 ) ( d2c60e6 ) Documentation azure: add Entra auth Azure Pipelines example ( #47216 ) ( cac0de3 ) clarify \"Mend Renovate CLI\" ( #47991 ) ( ab484bd ) mend-hosted: add missing reference to GitLab support ( #47990 ) ( 7e72439 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.13.8 (main) ( #47993 ) ( 76c60c1 ) deps: update dependency oxlint-tsgolint to v7.0.2006 (main) ( #47984 ) ( 49714bb ) deps: update dependency uv to v0.13.8 (main) ( #47994 ) ( bfcb040 ) deps: update ghcr.io/containerba",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "0.101.0",
       "url": "https://github.com/rust-lang/cargo/releases/tag/0.101.0",
@@ -159,6 +167,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "Announcing Rust 1.100.0",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "published": "2026-11-12T00:00:00Z",
+      "preview": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup , you can get 1.100.0 with: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.100.0 . If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default ni",
+      "source": "Rust Blog",
+      "category": "Rust"
+    },
+    {
       "title": "pnpm 12.20.0",
       "url": "https://pnpm.io/blog/releases/12.20.0",
       "published": "2026-11-12T00:00:00Z",
@@ -181,14 +197,6 @@
       "preview": "Tag 8.2.0.11",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "44.234.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.234.1",
-      "published": "2026-11-11T17:45:00Z",
-      "preview": "44.234.1 (2026-11-11) Build System deps: update node.js to v24.22.3 (main) ( #47958 ) ( 969aace )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.15.5-rc1",
