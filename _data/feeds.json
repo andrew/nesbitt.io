@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-13T10:22:13Z",
-  "cutoff": "2026-10-14T10:22:07Z",
+  "generated": "2026-11-13T11:22:18Z",
+  "cutoff": "2026-10-14T11:22:13Z",
   "feed_count": 104,
-  "item_count": 294,
+  "item_count": 292,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "44.236.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.236.0",
-      "published": "2026-11-13T10:21:33Z",
-      "preview": "44.236.0 (2026-11-12) Features config : add the experimental minimumReleaseAgePackageManagerSync flag to opt into the new minimumReleaseAge behaviour ( #47570 ) ( 3d45994 ) manager/poetry: pass the repository minimumReleaseAge and read solver.min-release-age ( #47677 ) ( f5a1199 )",
+      "title": "44.238.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.238.0",
+      "published": "2026-11-13T10:30:49Z",
+      "preview": "44.238.0 (2026-11-13) Features config: add minimumReleaseAgePackageManager ( #47678 ) ( b616c2d ) manager/cargo: pass and read the cargo min-publish-age ( #47544 ) ( 8f58d16 ) manager/npm: pass and read the pnpm minimum release age ( #47542 ) ( 4721c72 ) manager/npm: pass and read the yarn minimum release age ( #47803 ) ( 22136cf ) manager/npm: report minimum release age from .npmrc ( #47500 ) ( 99d5549 ) Miscellaneous Chores deps: update dependency vale to v3.27.0 (main) ( #47998 ) ( 19df39d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -2357,22 +2357,6 @@
       "preview": "v2.7.5-beta-20261014",
       "source": "Chocolatey releases",
       "category": "System"
-    },
-    {
-      "title": "1.4.8-beta-20261014",
-      "url": "https://github.com/chocolatey/choco/releases/tag/1.4.8-beta-20261014",
-      "published": "2026-10-14T10:41:53Z",
-      "preview": "v1.4.8-beta-20261014",
-      "source": "Chocolatey releases",
-      "category": "System"
-    },
-    {
-      "title": "v1.17.0-rc2",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
-      "published": "2026-10-14T10:37:18Z",
-      "preview": "1.17.0-rc2 (October 14, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
     }
   ]
 }
