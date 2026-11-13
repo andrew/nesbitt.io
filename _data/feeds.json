@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-13T08:25:00Z",
-  "cutoff": "2026-10-14T08:24:54Z",
+  "generated": "2026-11-13T10:22:13Z",
+  "cutoff": "2026-10-14T10:22:07Z",
   "feed_count": 104,
-  "item_count": 295,
+  "item_count": 294,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.236.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.236.0",
+      "published": "2026-11-13T10:21:33Z",
+      "preview": "44.236.0 (2026-11-12) Features config : add the experimental minimumReleaseAgePackageManagerSync flag to opt into the new minimumReleaseAge behaviour ( #47570 ) ( 3d45994 ) manager/poetry: pass the repository minimumReleaseAge and read solver.min-release-age ( #47677 ) ( f5a1199 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.11.8",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.8",
+      "published": "2026-11-13T09:27:04Z",
+      "preview": "(bootstrap) plan repositories and hooks in bootstrap plan by @j …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-interactive-config-v2026.11.0",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.11.0",
+      "published": "2026-11-13T09:26:21Z",
+      "preview": "Release mise-interactive-config 2026.11.0",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.11.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.8",
+      "published": "2026-11-13T09:25:53Z",
+      "preview": "Release mise-oci 2026.11.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.11.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.8",
+      "published": "2026-11-13T09:25:33Z",
+      "preview": "Release mise-system 2026.11.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.11.8",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.8",
+      "published": "2026-11-13T09:25:14Z",
+      "preview": "Release vfox 2026.11.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.11.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.8",
+      "published": "2026-11-13T09:24:57Z",
+      "preview": "Release mise-system-packages 2026.11.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.11.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.8",
+      "published": "2026-11-13T09:24:38Z",
+      "preview": "Release mise-ui 2026.11.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.11.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.8",
+      "published": "2026-11-13T09:24:20Z",
+      "preview": "Release mise-util 2026.11.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.11.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.8",
+      "published": "2026-11-13T09:23:59Z",
+      "preview": "Release mise-sigstore 2026.11.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.11.8",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.8",
+      "published": "2026-11-13T09:23:40Z",
+      "preview": "Release mise-settings 2026.11.8",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.237.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.237.3",
@@ -159,28 +247,12 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.236.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.236.0",
-      "published": "2026-11-12T13:37:57Z",
-      "preview": "44.236.0 (2026-11-12) Features add the experimental minimumReleaseAgePackageManagerSync flag to opt into the new minimumReleaseAge behaviour ( #47570 ) ( 3d45994 ) manager/poetry: pass the repository minimumReleaseAge and read solver.min-release-age ( #47677 ) ( f5a1199 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "v2.15.5",
       "url": "https://github.com/goharbor/harbor/releases/tag/v2.15.5",
       "published": "2026-11-12T13:05:57Z",
       "preview": "What's Changed Component updates ⬆️ fix(portal): Add the missing i18n entries for the operate action and the configuration resource by @bupd in #24104 fix(http): redact the pagination Link in rejection errors by @bupd in #24095 fix(api): bound audited and manifest request bodies by @bupd in #24102 fix(webhook): store the normalized target address (backport #24075 ) by @bupd in #24098 [release-2.15] fix(cnai-parser): enforce actual byte limit to prevent decompression ( #23497 ) by @Vad1mo in #24146 [release-2.15] fix(replication): make the image resource filter take effect again ( #24176 ) by @",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "v2026.11.7: Shorter shim errors, task run history in JSON, and dotfiles safety fixes",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.7",
-      "published": "2026-11-12T00:46:36Z",
-      "preview": "When no config selects a shim's tool, the shim now fails with a one-line error, and a new opt-in setting can run the latest installed version instead. mise tasks info --json and mise tasks ls --json now include each task's run history, and vfox plugins that download nothing can install in locked mode. This release also fixes problems in bootstrap packages, dotfiles, tasks, mise exec and config rewrites. Added Shorter shim errors and shims.fallback_to_installed . When no config selects a shim's tool, the error is now one line that names the latest installed version and two ways to use it. Add -",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "pnpm 12.20",
@@ -229,78 +301,6 @@
       "preview": "What's Changed Component updates ⬆️ fix(portal): Add the missing i18n entries for the operate action and the configuration resource by @bupd in #24104 fix(http): redact the pagination Link in rejection errors by @bupd in #24095 fix(api): bound audited and manifest request bodies by @bupd in #24102 fix(webhook): store the normalized target address (backport #24075 ) by @bupd in #24098 [release-2.15] fix(cnai-parser): enforce actual byte limit to prevent decompression ( #23497 ) by @Vad1mo in #24146 [release-2.15] fix(replication): make the image resource filter take effect again ( #24176 ) by @",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "mise-daemons-v2026.11.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.11.7",
-      "published": "2026-11-11T13:51:34Z",
-      "preview": "Release mise-daemons 2026.11.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-oci-v2026.11.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.7",
-      "published": "2026-11-11T13:51:17Z",
-      "preview": "Release mise-oci 2026.11.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.11.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.7",
-      "published": "2026-11-11T13:50:53Z",
-      "preview": "Release mise-system 2026.11.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.11.7",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.7",
-      "published": "2026-11-11T13:49:34Z",
-      "preview": "Release vfox 2026.11.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.11.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.7",
-      "published": "2026-11-11T13:49:17Z",
-      "preview": "Release mise-system-packages 2026.11.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.11.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.7",
-      "published": "2026-11-11T13:48:56Z",
-      "preview": "Release mise-ui 2026.11.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.11.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.7",
-      "published": "2026-11-11T13:48:39Z",
-      "preview": "Release mise-util 2026.11.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.11.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.7",
-      "published": "2026-11-11T13:48:21Z",
-      "preview": "Release mise-sigstore 2026.11.7",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.11.7",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.7",
-      "published": "2026-11-11T13:48:06Z",
-      "preview": "Release mise-settings 2026.11.7",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v1.17.2",
@@ -2371,14 +2371,6 @@
       "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.0-rc2",
       "published": "2026-10-14T10:37:18Z",
       "preview": "1.17.0-rc2 (October 14, 2026) NEW FEATURES: Terraform now supports variables and locals in provider requirements ( #39153 ) A new -minimal-refresh planning option has been added, which will only refresh resources that have proposed changes. ( #35290 ) policy: Terraform Policy is now generally available. The -policies flag for plan , apply , and query no longer requires an experimental build or the -allow-experimental-features flag. Query policies evaluate resources discovered by list blocks and report human-readable or JSON results. See https://developer.hashicorp.com/terraform/policy for more",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
-    },
-    {
-      "title": "v1.16.6",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.6",
-      "published": "2026-10-14T09:31:54Z",
-      "preview": "1.16.6 (October 14, 2026) BUG FIXES: cloud: terraform init can now find workspaces selected by key/value tags whose keys contain uppercase letters. ( #39306 ) test: Allow module under test to use deprecated outputs. ( #39207 ) NOTES: Prevent a HTTP/2 resource exhaustion via CVE-2026-78669. Exploitation would require a compromised (untrusted) provider/module registry. Such a threat is considered to be outside the perimeter of Terraform core security guarantees. ( #39375 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
     }
