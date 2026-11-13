@@ -361,7 +361,7 @@ A longer list of academic work is in [Package Management Papers](/2025/11/13/pac
 
 **Datasets:** [GH Archive](https://www.gharchive.org), [World of Code](https://worldofcode.org), [npm-follower](https://github.com/donald-pinckney/npm-follower), [Code Commons](https://codecommons.org/)
 
-**Bloat detection:** [DepClean](https://github.com/castor-software/depclean), [deptry](https://github.com/fpgmaas/deptry)
+**Bloat detection:** [DepClean](https://github.com/ASSERT-KTH/depclean), [deptry](https://github.com/osprey-oss/deptry)
 
 ## Governance and best practices
 
