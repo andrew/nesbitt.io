@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T08:59:41Z",
-  "total_posts": 234,
-  "total_words": 329016,
-  "reading_minutes": 1646,
+  "generated_at": "2026-11-13T11:25:48Z",
+  "total_posts": 235,
+  "total_words": 330382,
+  "reading_minutes": 1652,
   "average_words": 1406,
   "longest_post": {
     "title": "Skills Registry Threat Models",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "Introducing Ninety",
-    "url": "/2026/11/09/introducing-ninety.html",
-    "date": "2026-11-09"
+    "title": "This Week in Source Control: 11 November 2026",
+    "url": "/2026/11/11/this-week-in-source-control.html",
+    "date": "2026-11-11"
   },
   "years_active": 9.7,
   "posts_per_month": 2.0,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 194
+      "count": 195
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-11",
-      "count": 4
+      "count": 5
     },
     {
       "month": "2026-10",
@@ -130,7 +130,7 @@
     "sunday": 18,
     "monday": 29,
     "tuesday": 37,
-    "wednesday": 27,
+    "wednesday": 28,
     "thursday": 41,
     "friday": 39,
     "saturday": 43
@@ -162,7 +162,7 @@
     },
     {
       "name": "weekly",
-      "count": 27
+      "count": 28
     },
     {
       "name": "twipm",
@@ -170,7 +170,7 @@
     },
     {
       "name": "git",
-      "count": 23
+      "count": 24
     },
     {
       "name": "supply-chain",
@@ -205,16 +205,20 @@
       "count": 10
     },
     {
-      "name": "git-pkgs",
+      "name": "registries",
       "count": 8
     },
     {
-      "name": "registries",
+      "name": "git-pkgs",
       "count": 8
     },
     {
       "name": "npm",
       "count": 7
+    },
+    {
+      "name": "sbom",
+      "count": 6
     },
     {
       "name": "history",
@@ -225,11 +229,7 @@
       "count": 6
     },
     {
-      "name": "sbom",
-      "count": 6
-    },
-    {
-      "name": "research",
+      "name": "metrics",
       "count": 5
     },
     {
@@ -237,7 +237,7 @@
       "count": 5
     },
     {
-      "name": "metrics",
+      "name": "research",
       "count": 5
     },
     {
@@ -249,15 +249,19 @@
       "count": 4
     },
     {
-      "name": "javascript",
-      "count": 3
-    },
-    {
       "name": "conferences",
       "count": 3
     },
     {
       "name": "fosdem",
+      "count": 3
+    },
+    {
+      "name": "javascript",
+      "count": 3
+    },
+    {
+      "name": "twisc",
       "count": 3
     },
     {
@@ -267,10 +271,6 @@
     {
       "name": "rust",
       "count": 3
-    },
-    {
-      "name": "twisc",
-      "count": 2
     },
     {
       "name": "postgres",
@@ -313,7 +313,7 @@
       "count": 2
     },
     {
-      "name": "apisix",
+      "name": "infrastructure",
       "count": 1
     },
     {
@@ -337,15 +337,15 @@
       "count": 1
     },
     {
-      "name": "infrastructure",
-      "count": 1
-    },
-    {
       "name": "productivity",
       "count": 1
     },
     {
       "name": "challenge",
+      "count": 1
+    },
+    {
+      "name": "christmas",
       "count": 1
     },
     {
@@ -369,6 +369,10 @@
       "count": 1
     },
     {
+      "name": "apisix",
+      "count": 1
+    },
+    {
       "name": "fediverse",
       "count": 1
     },
@@ -381,7 +385,7 @@
       "count": 1
     },
     {
-      "name": "christmas",
+      "name": "benchmarks",
       "count": 1
     },
     {
@@ -397,7 +401,7 @@
       "count": 1
     },
     {
-      "name": "software heritage",
+      "name": "software development",
       "count": 1
     },
     {
@@ -413,11 +417,7 @@
       "count": 1
     },
     {
-      "name": "software development",
-      "count": 1
-    },
-    {
-      "name": "benchmarks",
+      "name": "software heritage",
       "count": 1
     }
   ],
@@ -1667,16 +1667,24 @@
       "inbound_from": [
         "/2026/11/07/this-week-in-package-management.html"
       ]
+    },
+    {
+      "url": "/2026/11/07/this-week-in-package-management.html",
+      "title": "This Week in Package Management: 7 November 2026",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/11/11/this-week-in-source-control.html"
+      ]
     }
   ],
   "external_links": {
-    "total": 5996,
-    "unique": 4804,
+    "total": 6016,
+    "unique": 4820,
     "domains": [
       {
         "host": "github.com",
-        "count": 1947,
-        "posts": 174
+        "count": 1954,
+        "posts": 175
       },
       {
         "host": "en.wikipedia.org",
@@ -1690,8 +1698,8 @@
       },
       {
         "host": "github.blog",
-        "count": 65,
-        "posts": 37
+        "count": 69,
+        "posts": 38
       },
       {
         "host": "nvd.nist.gov",
@@ -1961,7 +1969,7 @@
       {
         "host": "mastodon.social",
         "count": 9,
-        "posts": 53
+        "posts": 54
       },
       {
         "host": "web.archive.org",
@@ -2561,7 +2569,7 @@
       {
         "host": "lobste.rs",
         "count": 3,
-        "posts": 4
+        "posts": 5
       },
       {
         "host": "manpages.debian.org",
@@ -2607,6 +2615,11 @@
         "host": "pkgdocs.julialang.org",
         "count": 3,
         "posts": 4
+      },
+      {
+        "host": "pushin.eu",
+        "count": 3,
+        "posts": 2
       },
       {
         "host": "registry.bazel.build",
@@ -2657,6 +2670,11 @@
         "host": "syntax.fm",
         "count": 3,
         "posts": 1
+      },
+      {
+        "host": "tangled.org",
+        "count": 3,
+        "posts": 3
       },
       {
         "host": "techcrunch.com",
@@ -3139,11 +3157,6 @@
         "posts": 2
       },
       {
-        "host": "pushin.eu",
-        "count": 2,
-        "posts": 1
-      },
-      {
         "host": "pyfound.blogspot.com",
         "count": 2,
         "posts": 3
@@ -3230,11 +3243,6 @@
       },
       {
         "host": "spdx.github.io",
-        "count": 2,
-        "posts": 2
-      },
-      {
-        "host": "tangled.org",
         "count": 2,
         "posts": 2
       },
@@ -3330,6 +3338,11 @@
       },
       {
         "host": "www.freedesktop.org",
+        "count": 2,
+        "posts": 2
+      },
+      {
+        "host": "www.gerritcodereview.com",
         "count": 2,
         "posts": 2
       },
@@ -3455,6 +3468,11 @@
       },
       {
         "host": "amattn.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "amok.recoil.org",
         "count": 1,
         "posts": 1
       },
@@ -5094,6 +5112,11 @@
         "posts": 1
       },
       {
+        "host": "nayak.im",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "neilb.org",
         "count": 1,
         "posts": 1
@@ -6305,11 +6328,6 @@
       },
       {
         "host": "www.gentoo.org",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "www.gerritcodereview.com",
         "count": 1,
         "posts": 1
       },
