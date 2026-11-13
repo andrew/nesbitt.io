@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-13T12:28:02Z",
-  "cutoff": "2026-10-14T12:27:56Z",
+  "generated": "2026-11-13T13:22:46Z",
+  "cutoff": "2026-10-14T13:22:40Z",
   "feed_count": 104,
-  "item_count": 292,
+  "item_count": 293,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,38 @@
   ],
   "items": [
     {
+      "title": "client/v0.6.3",
+      "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.6.3",
+      "published": "2026-11-13T13:20:22Z",
+      "preview": "0.6.3 Changelog pkg/jsonmessage: classify errors from progress streams. moby/moby#54191 Fix request cancellation and deadlines during client TLS connection setup and handshakes. moby/moby#53903 Fix the OpenTelemetry span of hijacked client requests ( ContainerAttach , ContainerExecAttach , DialHijack ) never ending after a successful upgrade. moby/moby#54052",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
+      "title": "44.238.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.238.2",
+      "published": "2026-11-13T13:15:49Z",
+      "preview": "44.238.2 (2026-11-13) Build System deps: update dependency node to v24.22.3 (main) ( #47959 ) ( de759c0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.11.8: Bootstrap settings plugins, block edits in bootstrap files, and argv in command wrappers",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.8",
+      "published": "2026-11-13T13:07:07Z",
+      "preview": "This release extends mise bootstrap with experimental settings plugins, system-wide plugin directories, block edits for system files, and repositories and hooks in mise bootstrap plan . macOS preferences move to [bootstrap.settings.macos] . Command wrappers can now read the user's arguments, and a new setting keeps private GitHub repos off mise-versions. It also fixes problems in lockfiles, hook-env performance, tasks and backends. Added Bootstrap Bootstrap settings plugins (experimental). A plugin can now apply one program's or desktop's settings from a [bootstrap.settings.<plugin>] section. ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "api/v1.57.0",
+      "url": "https://github.com/moby/moby/releases/tag/api%2Fv1.57.0",
+      "published": "2026-11-13T13:05:59Z",
+      "preview": "1.57.0 Engine API specification moves to OpenAPI 3.2 Warning The Engine API specification now uses OpenAPI 3.2 as its source format, in api/openapi.yaml . A Swagger 2.0 specification generated from it is still published for existing tooling, in api/swagger.yaml . For the transition, this release also includes a Swagger 2.0 copy pinned to API v1.57, in api/docs/v1.57-swagger.yaml . Future API versions won't get a per-version Swagger 2.0 copy, so update tooling that depends on these files to use the OpenAPI 3.2 specifications. moby/moby#53630 Changelog GET /events : Container die events now incl",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
       "title": "44.238.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.238.1",
       "published": "2026-11-13T11:47:54Z",
@@ -37,14 +69,6 @@
       "preview": "44.238.0 (2026-11-13) Features config: add minimumReleaseAgePackageManager ( #47678 ) ( b616c2d ) manager/cargo: pass and read the cargo min-publish-age ( #47544 ) ( 8f58d16 ) manager/npm: pass and read the pnpm minimum release age ( #47542 ) ( 4721c72 ) manager/npm: pass and read the yarn minimum release age ( #47803 ) ( 22136cf ) manager/npm: report minimum release age from .npmrc ( #47500 ) ( 99d5549 ) Miscellaneous Chores deps: update dependency vale to v3.27.0 (main) ( #47998 ) ( 19df39d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.11.8",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.8",
-      "published": "2026-11-13T09:27:04Z",
-      "preview": "(bootstrap) plan repositories and hooks in bootstrap plan by @j …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-interactive-config-v2026.11.0",
@@ -237,14 +261,6 @@
       "preview": "Funding from Alpha-Omega is enabling us to work on a new level of artifact integrity for Packagist and Composer. Rather than just providing JSON metadata pointing at download URLs, Packagist.org will provide immutable artifact files, publish checksums and signatures. Composer will verify the packages it installs originate from",
       "source": "Packagist Blog",
       "category": "PHP"
-    },
-    {
-      "title": "44.236.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.236.2",
-      "published": "2026-11-12T14:53:03Z",
-      "preview": "44.236.2 (2026-11-12) Bug Fixes deps: update renovate-base-image to v13.165.5 (main) ( #47983 ) ( 0c3559a ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.20 (main) ( #47982 ) ( 2ec16ad )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2.15.5",
@@ -2349,14 +2365,6 @@
       "preview": "Welcome to the September 2026 report from the Reproducible Builds project! In our reports, we try to outline the most important things that we have been up to over the past month. As a quick recap about what problem our project intends to solve, whilst anyone may inspect the source code of free software for malicious flaws, almost all software is distributed to end users as pre-compiled binaries. The motivation behind the reproducible builds effort is to ensure no flaws have been introduced during this compilation process by promising identical results are always generated from a given source,",
       "source": "Reproducible Builds Blog",
       "category": "Infrastructure"
-    },
-    {
-      "title": "2.7.5-beta-20261014",
-      "url": "https://github.com/chocolatey/choco/releases/tag/2.7.5-beta-20261014",
-      "published": "2026-10-14T13:05:49Z",
-      "preview": "v2.7.5-beta-20261014",
-      "source": "Chocolatey releases",
-      "category": "System"
     }
   ]
 }
