@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-13T21:21:59Z",
-  "cutoff": "2026-10-14T21:21:53Z",
+  "generated": "2026-11-13T22:22:14Z",
+  "cutoff": "2026-10-14T22:22:10Z",
   "feed_count": 104,
-  "item_count": 289,
+  "item_count": 291,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Reproducible Builds in October 2026",
+      "url": "https://reproducible-builds.org/reports/2026-10/",
+      "published": "2026-11-13T21:32:53Z",
+      "preview": "Welcome to the October 2026 report from the Reproducible Builds project! In our reports, we try to outline the most important things that we have been up to over the past month. As a quick recap about what problem our project intends to solve, whilst anyone may inspect the source code of free software for malicious flaws, almost all software is distributed to end users as pre-compiled binaries. The motivation behind the reproducible builds effort is to ensure no flaws have been introduced during this compilation process by promising identical results are always generated from a given source, t",
+      "source": "Reproducible Builds Blog",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 11.28.12",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.12",
@@ -244,6 +252,14 @@
       "published": "2026-11-13T00:40:56Z",
       "preview": "What's Changed negotiate markdown with @affordances/md by @ejkorol in #2110 docs: add upstream npm mirror by @ErickWendel in #2111 cli-sdk: use public npm mirror by default by @ruyadorno in #2117 graph: resolve unprefixed dependencies as npm by @ruyadorno in #2118 release: set version to 1.8.0 by @ruyadorno in #2137 Release v1.8.0 by @vltops in #2112 New Contributors @ErickWendel made their first contribution in #2111 Full Changelog : v1.7.0...v1.8.0",
       "source": "vlt CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.28.12",
+      "url": "https://pnpm.io/blog/releases/11.28.12",
+      "published": "2026-11-13T00:00:00Z",
+      "preview": "pnpm 11.28.12 fixes many peer dependency, pnpm deploy, frozen-lockfile, and nodeLinker: hoisted bugs. It also includes a security fix. A ${VAR} placeholder in a repository's registry URL now fails the command, so pnpm no longer sends those requests to another registry. The bundled node-gyp no...",
+      "source": "pnpm Blog",
       "category": "JavaScript"
     },
     {
