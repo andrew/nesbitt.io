@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-13T13:22:46Z",
-  "cutoff": "2026-10-14T13:22:40Z",
+  "generated": "2026-11-13T15:21:45Z",
+  "cutoff": "2026-10-14T15:21:39Z",
   "feed_count": 104,
   "item_count": 293,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.238.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.238.3",
+      "published": "2026-11-13T15:05:13Z",
+      "preview": "44.238.3 (2026-11-13) Bug Fixes deps: update renovate-base-image to v13.166.4 (main) ( #48039 ) ( 1979399 ) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.6.6 (main) ( #48038 ) ( 48abcc8 ) deps: update linters to v1.92.0 (main) ( #48037 ) ( 566c64d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "client/v0.6.3",
       "url": "https://github.com/moby/moby/releases/tag/client%2Fv0.6.3",
@@ -227,14 +235,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.236.4",
       "published": "2026-11-12T19:52:46Z",
       "preview": "44.236.4 (2026-11-12) Miscellaneous Chores deps: update jdx/mise-action action to v5.2.8 (main) ( #47996 ) ( 0879c79 ) Build System deps: update opentelemetry-js monorepo (main) ( #47997 ) ( f8ce2a9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.236.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.236.3",
-      "published": "2026-11-12T18:55:09Z",
-      "preview": "44.236.3 (2026-11-12) Bug Fixes deps: update renovate-base-image to v13.165.7 (main) ( #47989 ) ( d2c60e6 ) Documentation azure: add Entra auth Azure Pipelines example ( #47216 ) ( cac0de3 ) clarify \"Mend Renovate CLI\" ( #47991 ) ( ab484bd ) mend-hosted: add missing reference to GitLab support ( #47990 ) ( 7e72439 ) Miscellaneous Chores deps: update dependency astral-sh/uv to v0.13.8 (main) ( #47993 ) ( 76c60c1 ) deps: update dependency oxlint-tsgolint to v7.0.2006 (main) ( #47984 ) ( 49714bb ) deps: update dependency uv to v0.13.8 (main) ( #47994 ) ( bfcb040 ) deps: update ghcr.io/containerba",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
