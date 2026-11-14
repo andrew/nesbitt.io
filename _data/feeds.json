@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-13T22:22:14Z",
-  "cutoff": "2026-10-14T22:22:10Z",
+  "generated": "2026-11-14T00:39:06Z",
+  "cutoff": "2026-10-15T00:39:02Z",
   "feed_count": 104,
-  "item_count": 291,
+  "item_count": 285,
   "categories": [
     ".NET",
     "C/C++",
@@ -2301,54 +2301,6 @@
       "preview": "Helm v4.3.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix(action): wait for CRD establishment under HookOnlyStrategy #32672 by @pujitha24 fix(linters): update golangci-lint to v2.14.0 #32744 by @ruslan-shaydullin Installation and Upgrading Download",
       "source": "Helm releases",
       "category": "Containers"
-    },
-    {
-      "title": "Forgejo v17.0 is available",
-      "url": "https://forgejo.org/2026-10-release-v17-0/",
-      "published": "2026-10-15T00:00:00Z",
-      "preview": "Forgejo v17.0 is available. Repository funding links are supported. Repositories can be migrated from Bitbucket Data Center. LFS support is revamped. Job summaries from Forgejo Actions jobs are displayed.",
-      "source": "Forgejo Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "rubygems.org now shows security warnings for gems",
-      "url": "https://blog.rubygems.org/2026/10/15/rubygems-org-now-shows-security-warnings-for-gems.html",
-      "published": "2026-10-15T00:00:00Z",
-      "preview": "Most of us have a routine for adding a gem: search for it, open its page on rubygems.org , glance at the download count and the number of days since the last release, then copy the Gemfile line. The whole process takes half a minute. But until now, rubygems.org did not tell you whether the version you were about to install had a known security issue. That information has been public for years. Sources such as the GitHub Advisory Database, OSV and Ruby Advisory Database already track vulnerabilities. It just wasn’t shown on the page where many developers make the decision to add a dependency. N",
-      "source": "RubyGems Blog",
-      "category": "Ruby"
-    },
-    {
-      "title": "Announcing Rust 1.99.1",
-      "url": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
-      "published": "2026-10-15T00:00:00Z",
-      "preview": "The Rust team has published a new point release of Rust, 1.99.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.99.1 is as easy as: rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. What's in 1.99.1 Rust 1.99.1 fixes the following regressions from prior releases: Missing symbol wcslen : Some Rust targets were getting link errors for missing wcslen , and that function is now present in Rust's compiler-buil",
-      "source": "Rust Blog",
-      "category": "Rust"
-    },
-    {
-      "title": "pnpm 11.28.6",
-      "url": "https://pnpm.io/blog/releases/11.28.6",
-      "published": "2026-10-15T00:00:00Z",
-      "preview": "This release stops pnpm publish from sending a CI identity token to a registry it was not issued for. It also fixes installs that dropped a dependency also declared as an optional peer, and accepts empty httpProxy and httpsProxy settings again.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12.14.0",
-      "url": "https://pnpm.io/blog/releases/12.14.0",
-      "published": "2026-10-15T00:00:00Z",
-      "preview": "This release adds the sideEffectsCache.exclude setting, stops pnpm install from waiting on the daily update check, and keeps pnpm from aborting with a core dump when the reader of its output exits.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v1.4.0",
-      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.4.0",
-      "published": "2026-10-14T23:24:05Z",
-      "preview": "What's Changed tar: use cloneFile API on mac via node:ffi by @evert in #1925 cli-sdk: guard against colliding spec prefix aliases by @ruyadorno in #1973 workspaces: read pnpm-workspace.yaml packages by @ruyadorno in #1974 fast-split: fix benchmark, fast path for limit 2 and 3 by @ruyadorno in #1975 cli-sdk: add save-types to save matching types by @ruyadorno in #1976 cli-sdk: abort pending requests on error instead of process.exit by @ruyadorno in #1977 cli-sdk: run --scope targets in dependency order by @ruyadorno in #1978 [www] - Docs: add more agent support by @ejkorol in #1997 graph: make ",
-      "source": "vlt CLI releases",
-      "category": "JavaScript"
     }
   ]
 }
