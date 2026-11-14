@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-14T00:39:06Z",
-  "cutoff": "2026-10-15T00:39:02Z",
+  "generated": "2026-11-14T01:21:55Z",
+  "cutoff": "2026-10-15T01:21:49Z",
   "feed_count": 104,
-  "item_count": 285,
+  "item_count": 284,
   "categories": [
     ".NET",
     "C/C++",
@@ -2293,14 +2293,6 @@
       "preview": "11.21.1 (2026-10-14) Bug Fixes 1c7b661 #10059 write registry allowScripts keys under install-strategy=linked ( #10059 ) (@github-actions[bot], @manzoorwanijk ) Dependencies 8cec7c9 #10089 http-cache-semantics@4.3.0 ( @reggi ) fd105c7 #10089 undici@6.29.0 ( @reggi ) fc2a0dd #10089 postcss-selector-parser@7.1.6 ( @reggi ) bae8cd7 #10089 ip-address@10.7.2 ( @reggi ) 4a9d14d #10089 brace-expansion@5.0.12 ( @reggi ) workspace : @npmcli/arborist@9.9.3 workspace : libnpmdiff@8.1.14 workspace : libnpmexec@10.3.4 workspace : libnpmfund@7.0.28 workspace : libnpmpack@9.1.15",
       "source": "npm CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "Helm v4.3.1",
-      "url": "https://github.com/helm/helm/releases/tag/v4.3.1",
-      "published": "2026-10-15T01:08:37Z",
-      "preview": "Helm v4.3.1 is a patch release. Users are encouraged to upgrade for the best experience. The community keeps growing, and we'd love to see you there! Join the discussion in Kubernetes Slack : for questions and just to hang out for discussing PRs, code, and bugs Hang out at the Public Developer Call: Thursday, 9:30 Pacific via Zoom Test, debug, and contribute charts: ArtifactHub/packages Notable Changes fix(action): wait for CRD establishment under HookOnlyStrategy #32672 by @pujitha24 fix(linters): update golangci-lint to v2.14.0 #32744 by @ruslan-shaydullin Installation and Upgrading Download",
-      "source": "Helm releases",
-      "category": "Containers"
     }
   ]
 }
