@@ -7,6 +7,7 @@ tags:
   - package-managers
   - weekly
   - twipm
+at_uri: "at://did:plc:q3moczhdry2263q35ffqqzs5/site.standard.document/3n2bgnww7c22f"
 ---
 
 This week's package management news, gathered from the [package manager OPML feed collection](https://github.com/ecosyste-ms/package-managers-opml), my posts and boosts on [Mastodon](https://mastodon.social/@andrewnez), and anything people sent me. Version control and forge news is in the Wednesday [This Week in Source Control](/2026/11/11/this-week-in-source-control.html) roundup.
