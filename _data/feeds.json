@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14T18:22:36Z",
-  "cutoff": "2026-10-15T18:22:31Z",
+  "generated": "2026-11-14T19:21:33Z",
+  "cutoff": "2026-10-15T19:21:28Z",
   "feed_count": 104,
   "item_count": 280,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-14T19:06:48Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "v1.13.4",
       "url": "https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.13.4",
@@ -229,14 +237,6 @@
       "preview": "44.237.3 (2026-11-13) Bug Fixes deps: update renovate-base-image to v13.166.3 (main) ( #48014 ) ( bb2bb00 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.25 (main) ( #48013 ) ( 64c677b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-13T06:44:09Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "Helm v4.3.2",
