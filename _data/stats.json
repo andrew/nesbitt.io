@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-13T11:25:48Z",
+  "generated_at": "2026-11-14T07:51:20Z",
   "total_posts": 235,
-  "total_words": 330382,
-  "reading_minutes": 1652,
-  "average_words": 1406,
+  "total_words": 331503,
+  "reading_minutes": 1658,
+  "average_words": 1411,
   "longest_post": {
     "title": "Skills Registry Threat Models",
     "url": "/2026/06/03/skills-registry-threat-models.html",
@@ -773,6 +773,18 @@
       ]
     },
     {
+      "url": "/2026/04/16/features-everyone-should-steal-from-npmx.html",
+      "title": "Features everyone should steal from npmx",
+      "inbound_count": 5,
+      "inbound_from": [
+        "/2026/05/02/a-github-for-maintainers.html",
+        "/2026/05/11/proxy.html",
+        "/2026/05/22/dependency-pruning.html",
+        "/2026/06/06/this-week-in-package-management.html",
+        "/2026/08/07/the-software-stewardship-lab.html"
+      ]
+    },
+    {
       "url": "/2025/11/26/extending-git-functionality.html",
       "title": "Extending Git Functionality",
       "inbound_count": 4,
@@ -803,17 +815,6 @@
         "/2026/01/19/importmap-lock.html",
         "/2026/03/12/reviewing-enisas-package-manager-advisory.html",
         "/2026/04/27/the-stages-of-package-installation.html"
-      ]
-    },
-    {
-      "url": "/2026/04/16/features-everyone-should-steal-from-npmx.html",
-      "title": "Features everyone should steal from npmx",
-      "inbound_count": 4,
-      "inbound_from": [
-        "/2026/05/02/a-github-for-maintainers.html",
-        "/2026/05/11/proxy.html",
-        "/2026/06/06/this-week-in-package-management.html",
-        "/2026/08/07/the-software-stewardship-lab.html"
       ]
     },
     {
@@ -1605,6 +1606,14 @@
       ]
     },
     {
+      "url": "/2026/07/28/why-npm-dependency-trees-are-so-big.html",
+      "title": "Why npm Dependency Trees Are So Big",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/05/22/dependency-pruning.html"
+      ]
+    },
+    {
       "url": "/2026/08/06/a-year-of-ai-disclosure-in-critical-packages.html",
       "title": "A year of AI disclosure in critical packages",
       "inbound_count": 1,
@@ -1678,12 +1687,12 @@
     }
   ],
   "external_links": {
-    "total": 6016,
-    "unique": 4820,
+    "total": 6052,
+    "unique": 4850,
     "domains": [
       {
         "host": "github.com",
-        "count": 1954,
+        "count": 1961,
         "posts": 175
       },
       {
@@ -1693,7 +1702,7 @@
       },
       {
         "host": "arxiv.org",
-        "count": 69,
+        "count": 73,
         "posts": 40
       },
       {
@@ -1708,8 +1717,8 @@
       },
       {
         "host": "pnpm.io",
-        "count": 53,
-        "posts": 35
+        "count": 56,
+        "posts": 36
       },
       {
         "host": "fosdem.org",
@@ -1732,29 +1741,34 @@
         "posts": 12
       },
       {
+        "host": "go.dev",
+        "count": 31,
+        "posts": 31
+      },
+      {
         "host": "blog.rust-lang.org",
         "count": 30,
         "posts": 26
       },
       {
-        "host": "go.dev",
-        "count": 30,
-        "posts": 30
-      },
-      {
         "host": "docs.npmjs.com",
-        "count": 29,
-        "posts": 25
+        "count": 30,
+        "posts": 26
       },
       {
         "host": "learn.microsoft.com",
-        "count": 29,
-        "posts": 17
+        "count": 30,
+        "posts": 18
       },
       {
         "host": "blog.rubygems.org",
         "count": 27,
         "posts": 23
+      },
+      {
+        "host": "doc.rust-lang.org",
+        "count": 24,
+        "posts": 19
       },
       {
         "host": "changelog.com",
@@ -1765,11 +1779,6 @@
         "host": "docs.github.com",
         "count": 22,
         "posts": 20
-      },
-      {
-        "host": "doc.rust-lang.org",
-        "count": 21,
-        "posts": 19
       },
       {
         "host": "blog.pypi.org",
@@ -1798,7 +1807,7 @@
       },
       {
         "host": "maven.apache.org",
-        "count": 15,
+        "count": 16,
         "posts": 12
       },
       {
@@ -1842,6 +1851,16 @@
         "posts": 13
       },
       {
+        "host": "docs.gradle.org",
+        "count": 12,
+        "posts": 8
+      },
+      {
+        "host": "doi.org",
+        "count": 12,
+        "posts": 9
+      },
+      {
         "host": "hex.pm",
         "count": 12,
         "posts": 12
@@ -1865,16 +1884,6 @@
         "host": "crates.io",
         "count": 11,
         "posts": 11
-      },
-      {
-        "host": "docs.gradle.org",
-        "count": 11,
-        "posts": 7
-      },
-      {
-        "host": "doi.org",
-        "count": 11,
-        "posts": 8
       },
       {
         "host": "getcomposer.org",
@@ -2067,6 +2076,11 @@
         "posts": 8
       },
       {
+        "host": "packaging.python.org",
+        "count": 7,
+        "posts": 6
+      },
+      {
         "host": "python-poetry.org",
         "count": 7,
         "posts": 6
@@ -2119,7 +2133,7 @@
       {
         "host": "devblogs.microsoft.com",
         "count": 6,
-        "posts": 8
+        "posts": 9
       },
       {
         "host": "diffoscope.org",
@@ -2153,11 +2167,6 @@
       },
       {
         "host": "metacpan.org",
-        "count": 6,
-        "posts": 5
-      },
-      {
-        "host": "packaging.python.org",
         "count": 6,
         "posts": 5
       },
@@ -2200,6 +2209,11 @@
         "host": "www.fhwa.dot.gov",
         "count": 6,
         "posts": 1
+      },
+      {
+        "host": "www.jvt.me",
+        "count": 6,
+        "posts": 6
       },
       {
         "host": "www.ruby-lang.org",
@@ -2298,11 +2312,6 @@
       },
       {
         "host": "wiki.gentoo.org",
-        "count": 5,
-        "posts": 5
-      },
-      {
-        "host": "www.jvt.me",
         "count": 5,
         "posts": 5
       },
@@ -2987,6 +2996,11 @@
         "posts": 2
       },
       {
+        "host": "hackage.haskell.org",
+        "count": 2,
+        "posts": 2
+      },
+      {
         "host": "hackmd.io",
         "count": 2,
         "posts": 2
@@ -3413,6 +3427,11 @@
       },
       {
         "host": "0ver.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "43081j.com",
         "count": 1,
         "posts": 1
       },
@@ -4037,6 +4056,11 @@
         "posts": 1
       },
       {
+        "host": "dcm.dev",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "ddbeck.com",
         "count": 1,
         "posts": 1
@@ -4298,6 +4322,11 @@
       },
       {
         "host": "dominictarr.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "downloads.haskell.org",
         "count": 1,
         "posts": 1
       },
@@ -4628,11 +4657,6 @@
       },
       {
         "host": "hachyderm.io",
-        "count": 1,
-        "posts": 1
-      },
-      {
-        "host": "hackage.haskell.org",
         "count": 1,
         "posts": 1
       },
@@ -5479,7 +5503,7 @@
       {
         "host": "replacements.fyi",
         "count": 1,
-        "posts": 1
+        "posts": 2
       },
       {
         "host": "repology.org",
@@ -6248,6 +6272,11 @@
       },
       {
         "host": "www.cvedetails.com",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "www.datadoghq.com",
         "count": 1,
         "posts": 1
       },

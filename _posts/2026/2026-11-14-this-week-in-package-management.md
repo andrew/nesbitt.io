@@ -19,6 +19,8 @@ A malicious zip could also write outside the package directory through symlinked
 
 [Podman 6.2.0](https://github.com/podman-container-tools/podman/releases/tag/v6.2.0) and [5.8.10](https://github.com/podman-container-tools/podman/releases/tag/v5.8.10) fix three CVEs, one of which let untrusted image labels make `podman auto-update` restart the wrong systemd units ([GHSA-55rm-rwr7-q2wr](https://github.com/podman-container-tools/podman/security/advisories/GHSA-55rm-rwr7-q2wr)). The other two are a digest and signature validation bypass for malicious images ([GHSA-pggw-qqjf-6cxw](https://github.com/podman-container-tools/container-libs/security/advisories/GHSA-pggw-qqjf-6cxw)) and a bypass of the socket deny rule in the default seccomp profile. 6.2.0 also adds `podman push --platform`, which pushes one platform's manifest instead of the whole list.
 
+[pnpm 11.28.12](https://pnpm.io/blog/releases/11.28.12) makes a `${VAR}` placeholder in a registry URL in `pnpm-workspace.yaml` or the project `.npmrc` fail the command. pnpm does not expand environment variables in those files, and earlier versions skipped such a URL and resolved packages from another registry, such as npmjs.org.
+
 From 8 December, GitHub [will turn off Dependabot alerts](https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories) on most repositories whose last activity is more than a year old. Activity means a push to any branch or tag, creating the repository, or turning alerts on. Existing alerts are archived, and any push restores them and restarts the one-year period. Repositories under an enforced security configuration that enables Dependabot alerts are exempt.
 
 ## Releases
@@ -27,7 +29,7 @@ From 8 December, GitHub [will turn off Dependabot alerts](https://github.blog/ch
 
 Cargo also now warns about unused dependencies, as part of a new linting system configured through the `[lints.cargo]` table. The warning appears only when every build target that could use the dependency is built, and it skips `dev-dependencies`.
 
-[pnpm 12.19.0](https://pnpm.io/blog/releases/12.19.0) adds `pnpm fund` and an experimental `lockfile.format: v13` setting. The new format writes `pnpm-lock.yaml` in a JSON-like syntax that is still valid YAML, with one entry per package version, so updating a peer dependency changes only the lines that record its version. The release also fixes an offline install error that printed registry credentials. With [12.20.0](https://pnpm.io/blog/releases/12.20.0), the v13 lockfile records the specifiers of local directory dependencies and frozen installs reject changed specifiers.
+[pnpm 12.19.0](https://pnpm.io/blog/releases/12.19.0) adds `pnpm fund` and an experimental `lockfile.format: v13` setting. The new format writes `pnpm-lock.yaml` in a JSON-like syntax that is still valid YAML, with one entry per package version, so updating a peer dependency changes only the lines that record its version. [12.21.0](https://pnpm.io/blog/releases/12.21.0) lets `pnpm store add` prepare tarball and git dependencies for offline installs.
 
 [vlt 1.7.0](https://www.vlt.io/blog/vlt-1-7) adds `vlt deploy` and `vlt update <pkg>` and locks git dependencies to a commit, and [1.8.0](https://www.vlt.io/blog/vlt-1-8) installs from vlt's public npm mirror with no setup and resolves unprefixed dependencies from the project's own registry configuration.
 
@@ -37,13 +39,18 @@ Cargo also now warns about unused dependencies, as part of a new linting system 
 
 [Homebrew 7.0.13](https://github.com/Homebrew/brew/releases/tag/7.0.13) adds a `pin: true` Brewfile option and prefetches bottle attestations in bulk. All official casks now require a `zap` stanza.
 
+[Harbor 2.16.0](https://github.com/goharbor/harbor/releases/tag/v2.16.0) replaces Redis with Valkey as the cache backend and ships images for arm64 as well as amd64. Proxy cache projects can now pass OCI referrers API requests to the upstream registry and merge the results with local ones.
+
+[Renovate 44.228.0 to 44.239.1](https://github.com/renovatebot/renovate/releases/tag/44.239.1) adds a `gemspec` manager that updates dependency constraints in `*.gemspec` files, and the `swift` manager now updates `.package(id:)` dependencies from Swift package registries. With the experimental `minimumReleaseAgePackageManagerSync` option, Renovate passes its `minimumReleaseAge` to pnpm, Yarn, Cargo and Poetry when they regenerate lockfiles. It also reads the release age already configured in those tools' own settings.
+
 Also out:
 
 - [Gradle 9.9.1](https://docs.gradle.org/9.9.1/release-notes.html)
 - [Gradle 8.14.7](https://github.com/gradle/gradle/releases/tag/v8.14.7)
 - [Maven 3.10.1](https://github.com/apache/maven/releases/tag/maven-3.10.1)
 - [pixi 0.84.2](https://github.com/prefix-dev/pixi/releases/tag/v0.84.2)
-- [pnpr 0.1.0-alpha.19](https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.19)
+- [pnpr 0.1.0-alpha.20](https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.20)
+- [Pkg.jl 1.13.4](https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.13.4)
 - [Nix 2.35.6](https://github.com/NixOS/nix/releases/tag/2.35.6)
 - [DNF5 5.4.8.0](https://github.com/rpm-software-management/dnf5/releases/tag/5.4.8.0)
 - [Go 1.27.4](https://github.com/golang/go/releases/tag/go1.27.4)
@@ -76,6 +83,12 @@ Farid Zakaria has two posts on running builds inside Rewind, the deterministic v
 
 Swift's [November news digest](https://www.swift.org/blog/whats-new-in-swift-november-2026/) opens with a reminder from Dave Verwer that CocoaPods stops accepting new pods and pod versions on 2 December 2026. Current pods and versions will still be served, read-only, so the change does not immediately break builds. Verwer also writes that he is now part of a team at Apple working on a public, cross-platform package registry for Swift.
 
+[python-sbom](https://python-sbom.readthedocs.io) (Bernát Gábor) is a build plugin that writes a CycloneDX 1.6 SBOM into every wheel under `.dist-info/sboms/`, the directory defined for SBOMs in the [installed packages specification](https://packaging.python.org/en/latest/specifications/recording-installed-packages/#the-sboms-subdirectory). It has plugins for hatchling, pdm-backend and setuptools and a wrapper backend for other build backends. The SBOM records the source commit, the interpreter, the build tools and any wheels the project bundles as data files.
+
+Alpha-Omega published [a case study](https://alpha-omega.dev/blog/case-study-how-phps-security-engineer-in-residence-helped-coordinate-the-php2shell-response/) of the PHP2Shell response. Volker Dusch, the PHP Foundation's Security Engineer in Residence, coordinated with researchers, Linux distributions and WAF vendors while the core engineers wrote the fixes. PHP's security team received more than 200 reports in the week after disclosure, many of them duplicates, and built TAMIS, which compares incoming reports against existing ones several times a day.
+
+[Reproducible Builds in October 2026](https://reproducible-builds.org/reports/2026-10/) reports that GNU tar embeds its process ID in the member path when it writes a sparse file to a PAX archive, so identical inputs produce a different archive on each run. Robin Candau and Bernhard M. Wiedemann have also revived a shared repository of reproducibility patches, which currently holds patches from openSUSE and Arch Linux.
+
 ## Elsewhere
 
 [I am tired](https://kushaldas.in/posts/i-am-tired.html) (Kushal Das) describes finding more than 90 vulnerabilities since July in open source projects, many of them written or used by Sunet, with LLM help and 16-hour days. Das writes that most maintainers and defenders of that infrastructure have neither the model access nor the hardware to do the same.
@@ -83,6 +96,8 @@ Swift's [November news digest](https://www.swift.org/blog/whats-new-in-swift-nov
 Dawn Foster published the video and slides of her Community Over Code talk, [Good Governance for Sustainable Open Source Projects](https://fastwonderblog.com/2026/11/10/good-governance-for-sustainable-open-source-projects/), with links to her five-part series on the same topics.
 
 Anil Madhavapeddy [is using](https://amok.recoil.org/@avsm/117581872386695231) [brief](https://github.com/git-pkgs/brief), which I wrote, to detect the languages and toolchains in a repository for automatic CI in his Tangled spindle.
+
+[An Empirical Study of Observability Limits in Advanced Software Supply Chain Attacks](https://arxiv.org/abs/2603.16694) (Zhuoran Tan et al., CCS) introduces SynthChain, a runtime telemetry dataset built from seven attack scenarios across PyPI, npm and C++ supply chains. The best single telemetry source recovers fewer than 40% of the expected attack steps. Combining two complementary sources improves reconstruction by roughly 1.6 times.
 
 ## git-pkgs
 
