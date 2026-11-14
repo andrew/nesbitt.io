@@ -41,7 +41,7 @@ Cargo also now warns about unused dependencies, as part of a new linting system 
 
 [Harbor 2.16.0](https://github.com/goharbor/harbor/releases/tag/v2.16.0) replaces Redis with Valkey as the cache backend and ships images for arm64 as well as amd64. Proxy cache projects can now pass OCI referrers API requests to the upstream registry and merge the results with local ones.
 
-[Renovate 44.228.0 to 44.239.1](https://github.com/renovatebot/renovate/releases/tag/44.239.1) adds a `gemspec` manager that updates dependency constraints in `*.gemspec` files, and the `swift` manager now updates `.package(id:)` dependencies from Swift package registries. With the experimental `minimumReleaseAgePackageManagerSync` option, Renovate passes its `minimumReleaseAge` to pnpm, Yarn, Cargo and Poetry when they regenerate lockfiles. It also reads the release age already configured in those tools' own settings.
+[Renovate 44.228.0 to 44.239.1](https://github.com/renovatebot/renovate/releases/tag/44.239.1) adds a `gemspec` manager that updates dependency constraints in `*.gemspec` files, and the `swift` manager now updates `.package(id:)` dependencies from Swift package registries. With the experimental `minimumReleaseAgePackageManagerSync` option, Renovate reads the release age configured for pnpm, Yarn, Cargo and Poetry and runs each tool with the longer of that and its own `minimumReleaseAge`, and npm's `min-release-age` in `.npmrc` is read too. `renovate-config-validator --migrate` now writes out a migrated config file for configs that use old option names.
 
 Also out:
 

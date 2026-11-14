@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14T07:51:20Z",
-  "total_posts": 235,
-  "total_words": 331503,
-  "reading_minutes": 1658,
+  "generated_at": "2026-11-14T11:49:55Z",
+  "total_posts": 236,
+  "total_words": 333004,
+  "reading_minutes": 1666,
   "average_words": 1411,
   "longest_post": {
     "title": "Skills Registry Threat Models",
@@ -20,16 +20,16 @@
     "date": "2017-02-24"
   },
   "last_post": {
-    "title": "This Week in Source Control: 11 November 2026",
-    "url": "/2026/11/11/this-week-in-source-control.html",
-    "date": "2026-11-11"
+    "title": "This Week in Package Management: 14 November 2026",
+    "url": "/2026/11/14/this-week-in-package-management.html",
+    "date": "2026-11-14"
   },
   "years_active": 9.7,
   "posts_per_month": 2.0,
   "posts_by_year": [
     {
       "year": 2026,
-      "count": 195
+      "count": 196
     },
     {
       "year": 2025,
@@ -55,7 +55,7 @@
   "posts_by_month": [
     {
       "month": "2026-11",
-      "count": 5
+      "count": 6
     },
     {
       "month": "2026-10",
@@ -133,12 +133,12 @@
     "wednesday": 28,
     "thursday": 41,
     "friday": 39,
-    "saturday": 43
+    "saturday": 44
   },
   "tags": [
     {
       "name": "package-managers",
-      "count": 158
+      "count": 159
     },
     {
       "name": "security",
@@ -162,11 +162,11 @@
     },
     {
       "name": "weekly",
-      "count": 28
+      "count": 29
     },
     {
       "name": "twipm",
-      "count": 25
+      "count": 26
     },
     {
       "name": "git",
@@ -1684,16 +1684,24 @@
       "inbound_from": [
         "/2026/11/11/this-week-in-source-control.html"
       ]
+    },
+    {
+      "url": "/2026/11/11/this-week-in-source-control.html",
+      "title": "This Week in Source Control: 11 November 2026",
+      "inbound_count": 1,
+      "inbound_from": [
+        "/2026/11/14/this-week-in-package-management.html"
+      ]
     }
   ],
   "external_links": {
-    "total": 6052,
-    "unique": 4850,
+    "total": 6116,
+    "unique": 4909,
     "domains": [
       {
         "host": "github.com",
-        "count": 1961,
-        "posts": 175
+        "count": 1999,
+        "posts": 176
       },
       {
         "host": "en.wikipedia.org",
@@ -1702,13 +1710,13 @@
       },
       {
         "host": "arxiv.org",
-        "count": 73,
-        "posts": 40
+        "count": 74,
+        "posts": 41
       },
       {
         "host": "github.blog",
-        "count": 69,
-        "posts": 38
+        "count": 70,
+        "posts": 39
       },
       {
         "host": "nvd.nist.gov",
@@ -1717,8 +1725,8 @@
       },
       {
         "host": "pnpm.io",
-        "count": 56,
-        "posts": 36
+        "count": 59,
+        "posts": 37
       },
       {
         "host": "fosdem.org",
@@ -1729,6 +1737,11 @@
         "host": "peps.python.org",
         "count": 43,
         "posts": 32
+      },
+      {
+        "host": "blog.rust-lang.org",
+        "count": 31,
+        "posts": 27
       },
       {
         "host": "chaoss.community",
@@ -1744,11 +1757,6 @@
         "host": "go.dev",
         "count": 31,
         "posts": 31
-      },
-      {
-        "host": "blog.rust-lang.org",
-        "count": 30,
-        "posts": 26
       },
       {
         "host": "docs.npmjs.com",
@@ -1781,14 +1789,14 @@
         "posts": 20
       },
       {
-        "host": "blog.pypi.org",
+        "host": "blog.packagist.com",
         "count": 19,
         "posts": 19
       },
       {
-        "host": "blog.packagist.com",
-        "count": 18,
-        "posts": 18
+        "host": "blog.pypi.org",
+        "count": 19,
+        "posts": 19
       },
       {
         "host": "manifest.fm",
@@ -1811,6 +1819,11 @@
         "posts": 12
       },
       {
+        "host": "fzakaria.com",
+        "count": 15,
+        "posts": 10
+      },
+      {
         "host": "rubygems.org",
         "count": 15,
         "posts": 11
@@ -1831,7 +1844,7 @@
         "posts": 11
       },
       {
-        "host": "fzakaria.com",
+        "host": "docs.gradle.org",
         "count": 13,
         "posts": 9
       },
@@ -1849,11 +1862,6 @@
         "host": "wiki.debian.org",
         "count": 13,
         "posts": 13
-      },
-      {
-        "host": "docs.gradle.org",
-        "count": 12,
-        "posts": 8
       },
       {
         "host": "doi.org",
@@ -1978,7 +1986,12 @@
       {
         "host": "mastodon.social",
         "count": 9,
-        "posts": 54
+        "posts": 55
+      },
+      {
+        "host": "reproducible-builds.org",
+        "count": 9,
+        "posts": 10
       },
       {
         "host": "web.archive.org",
@@ -2041,14 +2054,14 @@
         "posts": 5
       },
       {
+        "host": "packaging.python.org",
+        "count": 8,
+        "posts": 7
+      },
+      {
         "host": "pkg.go.dev",
         "count": 8,
         "posts": 8
-      },
-      {
-        "host": "reproducible-builds.org",
-        "count": 8,
-        "posts": 9
       },
       {
         "host": "sethmlarson.dev",
@@ -2066,6 +2079,11 @@
         "posts": 6
       },
       {
+        "host": "fastwonderblog.com",
+        "count": 7,
+        "posts": 7
+      },
+      {
         "host": "gist.github.com",
         "count": 7,
         "posts": 7
@@ -2074,11 +2092,6 @@
         "host": "guides.rubygems.org",
         "count": 7,
         "posts": 8
-      },
-      {
-        "host": "packaging.python.org",
-        "count": 7,
-        "posts": 6
       },
       {
         "host": "python-poetry.org",
@@ -2131,6 +2144,11 @@
         "posts": 6
       },
       {
+        "host": "conda.org",
+        "count": 6,
+        "posts": 6
+      },
+      {
         "host": "devblogs.microsoft.com",
         "count": 6,
         "posts": 9
@@ -2142,11 +2160,6 @@
       },
       {
         "host": "docs.docker.com",
-        "count": 6,
-        "posts": 6
-      },
-      {
-        "host": "fastwonderblog.com",
         "count": 6,
         "posts": 6
       },
@@ -2246,11 +2259,6 @@
         "posts": 5
       },
       {
-        "host": "conda.org",
-        "count": 5,
-        "posts": 5
-      },
-      {
         "host": "digital-strategy.ec.europa.eu",
         "count": 5,
         "posts": 7
@@ -2313,6 +2321,11 @@
       {
         "host": "wiki.gentoo.org",
         "count": 5,
+        "posts": 5
+      },
+      {
+        "host": "alpha-omega.dev",
+        "count": 4,
         "posts": 5
       },
       {
@@ -2467,11 +2480,6 @@
       },
       {
         "host": "agentskills.io",
-        "count": 3,
-        "posts": 4
-      },
-      {
-        "host": "alpha-omega.dev",
         "count": 3,
         "posts": 4
       },
@@ -2749,6 +2757,16 @@
         "host": "www.spinics.net",
         "count": 3,
         "posts": 1
+      },
+      {
+        "host": "www.swift.org",
+        "count": 3,
+        "posts": 3
+      },
+      {
+        "host": "www.vlt.io",
+        "count": 3,
+        "posts": 2
       },
       {
         "host": "xkcd.com",
@@ -3406,11 +3424,6 @@
         "posts": 1
       },
       {
-        "host": "www.swift.org",
-        "count": 2,
-        "posts": 2
-      },
-      {
         "host": "www.taoensso.com",
         "count": 2,
         "posts": 1
@@ -3493,7 +3506,7 @@
       {
         "host": "amok.recoil.org",
         "count": 1,
-        "posts": 1
+        "posts": 2
       },
       {
         "host": "ant.apache.org",
@@ -4721,6 +4734,11 @@
         "posts": 1
       },
       {
+        "host": "hugovk.dev",
+        "count": 1,
+        "posts": 1
+      },
+      {
         "host": "humanwhocodes.com",
         "count": 1,
         "posts": 1
@@ -4892,6 +4910,11 @@
       },
       {
         "host": "kristoff.it",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "kushaldas.in",
         "count": 1,
         "posts": 1
       },
@@ -5452,6 +5475,11 @@
       },
       {
         "host": "pypistats.org",
+        "count": 1,
+        "posts": 1
+      },
+      {
+        "host": "python-sbom.readthedocs.io",
         "count": 1,
         "posts": 1
       },
@@ -6799,11 +6827,6 @@
         "host": "www.verdaccio.org",
         "count": 1,
         "posts": 2
-      },
-      {
-        "host": "www.vlt.io",
-        "count": 1,
-        "posts": 1
       },
       {
         "host": "www.vulncheck.com",
