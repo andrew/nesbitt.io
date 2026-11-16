@@ -490,6 +490,7 @@ task :test do
   sh "bundle exec ruby test/feed_fetch_test.rb"
   sh "bundle exec ruby test/hn_test.rb"
   sh "bundle exec ruby test/mastodon_test.rb"
+  sh "BUNDLE_GEMFILE=_twipm/Gemfile bundle exec ruby test/git_pkgs_test.rb"
   sh "bundle exec ruby test/cwe_build_test.rb"
   sh "node test/cwe_page_test.mjs"
   sh "zizmor .github/workflows/"

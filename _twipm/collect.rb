@@ -8,13 +8,13 @@ require "net/http"
 require "uri"
 require_relative "feed_fetch"
 require_relative "mastodon"
+require_relative "git_pkgs"
 
 ROOT = File.expand_path("..", __dir__)
 TWIPM = File.join(ROOT, "_twipm")
 FEEDS_JSON = File.join(ROOT, "_data/feeds.json")
 EXTRA_FEEDS = File.join(TWIPM, "extra_feeds.txt")
 OUTPUT = File.join(TWIPM, "collected.json")
-GIT_PKGS_ORG = "git-pkgs"
 DBLP_TERMS = ["package manager", "software supply chain", "dependency confusion", "typosquatting"]
 DBLP_SEEN = File.join(TWIPM, "dblp_seen.txt")
 
@@ -64,23 +64,7 @@ def octokit
 end
 
 def collect_git_pkgs_releases(since)
-  results = []
-  octokit.org_repos(GIT_PKGS_ORG, sort: "pushed").each do |repo|
-    break if repo.pushed_at < since
-    octokit.tags(repo.full_name, per_page: 3).first(3).each do |tag|
-      commit = octokit.commit(repo.full_name, tag.commit.sha)
-      published = commit.commit.committer.date
-      next if published < since
-      results << {
-        repo: repo.name,
-        tag: tag.name,
-        url: "https://github.com/#{repo.full_name}/releases/tag/#{tag.name}",
-        published: published.utc.iso8601,
-        repo_created: repo.created_at.utc.iso8601
-      }
-    end
-  end
-  results.sort_by { |r| r[:repo] }
+  GitPkgs.releases(octokit, since)
 rescue => e
   warn "git-pkgs releases skipped: #{e.message}"
   []
