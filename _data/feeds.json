@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16T18:25:58Z",
-  "cutoff": "2026-10-17T18:25:51Z",
+  "generated": "2026-11-16T19:22:17Z",
+  "cutoff": "2026-10-17T19:22:10Z",
   "feed_count": 104,
   "item_count": 288,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.246.5",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.246.5",
+      "published": "2026-11-16T19:01:16Z",
+      "preview": "44.246.5 (2026-11-16) Build System deps: update dependency google-auth-library to v11.3.4 (main) ( #48118 ) ( eb67e13 ) deps: update opentelemetry-js monorepo (main) ( #48119 ) ( c356b07 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-16T18:58:58Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "44.246.4",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.246.4",
@@ -45,14 +61,6 @@
       "preview": "44.246.2 (2026-11-16) Bug Fixes lint: catch RegExp(...) ( #48110 ) ( d95a7e0 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-16T16:15:25Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "44.246.1",
@@ -107,14 +115,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.244.1",
       "published": "2026-11-16T11:50:02Z",
       "preview": "44.244.1 (2026-11-16) Bug Fixes json-schema: include every Containerbase tool in installTools ( #48089 ) ( ac5b1a9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.244.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.244.0",
-      "published": "2026-11-16T11:34:59Z",
-      "preview": "44.244.0 (2026-11-16) Features deps: update renovate-base-image to v13.170.0 (main) ( #48088 ) ( 117c74b )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
