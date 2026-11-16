@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16T03:30:40Z",
-  "cutoff": "2026-10-17T03:30:34Z",
+  "generated": "2026-11-16T05:25:07Z",
+  "cutoff": "2026-10-17T05:25:00Z",
   "feed_count": 104,
   "item_count": 283,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.241.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.241.0",
+      "published": "2026-11-16T04:45:36Z",
+      "preview": "44.241.0 (2026-11-16) Features deps: update renovate-base-image to v13.168.0 (main) ( #48078 ) ( c7c595b ) Documentation update references to jaegertracing/jaeger to v2.23.0 (main) ( #48071 ) ( 1f52b5b ) update references to prom/prometheus to v3.16.0 (main) ( #48074 ) ( 8221780 ) update references to python to v3.15 (main) ( #48075 ) ( 25d511d ) update references to renovatebot/github-action to v46.3.13 (main) ( #48070 ) ( 34fd5fd ) update references to renovatebot/github-action to v46.3.14 (main) ( #48072 ) ( 830e91c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "Helm v4.3.2",
       "url": "https://github.com/helm/helm/releases/tag/v4.3.2",
@@ -403,14 +411,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.237.3",
       "published": "2026-11-13T06:52:26Z",
       "preview": "44.237.3 (2026-11-13) Bug Fixes deps: update renovate-base-image to v13.166.3 (main) ( #48014 ) ( bb2bb00 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.25 (main) ( #48013 ) ( 64c677b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.237.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.237.2",
-      "published": "2026-11-13T04:52:53Z",
-      "preview": "44.237.2 (2026-11-13) Bug Fixes deps: update renovate-base-image to v13.166.2 (main) ( #48012 ) ( d1c6992 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.66.24 (main) ( #48011 ) ( aa9c2ee )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
