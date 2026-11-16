@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16T14:42:21Z",
-  "cutoff": "2026-10-17T14:42:14Z",
+  "generated": "2026-11-16T16:24:57Z",
+  "cutoff": "2026-10-17T16:24:51Z",
   "feed_count": 104,
   "item_count": 288,
   "categories": [
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-16T16:15:25Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "44.246.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.246.1",
+      "published": "2026-11-16T15:50:22Z",
+      "preview": "44.246.1 (2026-11-16) Bug Fixes deps: update renovate-base-image to v13.170.2 (main) ( #48108 ) ( 46c8f8b ) Build System deps: update dependency cronstrue to v3.39.0 (main) ( #48109 ) ( a66a6a9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.246.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.246.0",
+      "published": "2026-11-16T15:32:50Z",
+      "preview": "44.246.0 (2026-11-16) Features docker: prefer an installed renovate-config-validator ( #48102 ) ( 33b618e ) presets/group: add group:commander ( #48097 ) ( 855378a ) util/exec: support renovate as a Containerbase tool ( #48100 ) ( 7f40626 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.245.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.245.0",
@@ -199,22 +223,6 @@
       "category": "Maven"
     },
     {
-      "title": "44.242.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.242.0",
-      "published": "2026-11-16T06:45:16Z",
-      "preview": "44.242.0 (2026-11-16) Features deps: update renovate-base-image to v13.169.0 (main) ( #48084 ) ( ec874b3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.241.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.241.0",
-      "published": "2026-11-16T04:45:36Z",
-      "preview": "44.241.0 (2026-11-16) Features deps: update renovate-base-image to v13.168.0 (main) ( #48078 ) ( c7c595b ) Documentation update references to jaegertracing/jaeger to v2.23.0 (main) ( #48071 ) ( 1f52b5b ) update references to prom/prometheus to v3.16.0 (main) ( #48074 ) ( 8221780 ) update references to python to v3.15 (main) ( #48075 ) ( 25d511d ) update references to renovatebot/github-action to v46.3.13 (main) ( #48070 ) ( 34fd5fd ) update references to renovatebot/github-action to v46.3.14 (main) ( #48072 ) ( 830e91c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "Helm v4.3.2",
       "url": "https://github.com/helm/helm/releases/tag/v4.3.2",
       "published": "2026-11-16T02:49:16Z",
@@ -365,14 +373,6 @@
       "preview": "chore: update versions (next-9) ( #6467 )",
       "source": "Verdaccio releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-15T07:48:45Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "8.2.0.14",
