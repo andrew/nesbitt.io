@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16T10:27:21Z",
-  "cutoff": "2026-10-17T10:27:15Z",
+  "generated": "2026-11-16T11:26:24Z",
+  "cutoff": "2026-10-17T11:26:18Z",
   "feed_count": 104,
   "item_count": 285,
   "categories": [
@@ -23,20 +23,36 @@
   ],
   "items": [
     {
+      "title": "44.243.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.243.2",
+      "published": "2026-11-16T11:17:50Z",
+      "preview": "44.243.2 (2026-11-16) Bug Fixes workers/repository: warn when artifact errors prevent branch creation ( #47261 ) ( 67015de ) Documentation Extend kubernetes manager docs ( #47960 ) ( 1e98456 ) Miscellaneous Chores deps: update dependency re2js@>=2.2.0 <2.8.7 to v2.9.1 (main) ( #48086 ) ( 77c36df )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.11.9: Task lock pools, tag-based task dependencies and Unix socket sandboxing",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.9",
+      "published": "2026-11-16T11:14:16Z",
+      "preview": "Task locks can now hold several slots and take templated names, task dependencies can be selected by tag, and sandboxed commands can block Unix socket connections. aqua tools shipped as a .jar now run directly. This release also fixes problems in mise lock --bump , minimum_release_age , shims on macOS, task caching, Homebrew casks and formulas, and dotfiles. Added Tasks Lock pools. A task lock can now be shared by several runs at once, so you can guard a limited resource such as CPU cores instead of making every heavy task wait in line. Set a lock's slot count once in task.lock_pools , then ha",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.243.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.243.1",
+      "published": "2026-11-16T10:39:07Z",
+      "preview": "44.243.1 (2026-11-16) Bug Fixes deps: update vulnerable transitive dependencies ( #48085 ) ( 2b36f0a ) Documentation update references to otel/opentelemetry-collector-contrib to v0.165.0 (main) ( #48073 ) ( cd4bc0c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "44.243.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.243.0",
       "published": "2026-11-16T09:43:34Z",
       "preview": "44.243.0 (2026-11-16) Features presets/replacement: Add replacement for @tsconfig/node26 ( #48059 ) ( a7c8f65 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.11.9",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.9",
-      "published": "2026-11-16T09:32:54Z",
-      "preview": "(aqua) run .jar packages through java -jar by @jdx in [ #15688 ](…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-daemons-v2026.11.9",
@@ -407,28 +423,12 @@
       "category": "Containers"
     },
     {
-      "title": "44.238.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.238.2",
-      "published": "2026-11-13T13:15:49Z",
-      "preview": "44.238.2 (2026-11-13) Build System deps: update dependency node to v24.22.3 (main) ( #47959 ) ( de759c0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "api/v1.57.0",
       "url": "https://github.com/moby/moby/releases/tag/api%2Fv1.57.0",
       "published": "2026-11-13T13:05:59Z",
       "preview": "1.57.0 Engine API specification moves to OpenAPI 3.2 Warning The Engine API specification now uses OpenAPI 3.2 as its source format, in api/openapi.yaml . A Swagger 2.0 specification generated from it is still published for existing tooling, in api/swagger.yaml . For the transition, this release also includes a Swagger 2.0 copy pinned to API v1.57, in api/docs/v1.57-swagger.yaml . Future API versions won't get a per-version Swagger 2.0 copy, so update tooling that depends on these files to use the OpenAPI 3.2 specifications. moby/moby#53630 Changelog GET /events : Container die events now incl",
       "source": "Docker Engine releases",
       "category": "Containers"
-    },
-    {
-      "title": "44.238.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.238.1",
-      "published": "2026-11-13T11:47:54Z",
-      "preview": "44.238.1 (2026-11-13) Bug Fixes datasource/docker: treat a rate-limited or failing auth probe as a host error ( #48018 ) ( 07a300a ) workers/global: migrate flat Dependency Dashboard CLI flags ( #48022 ) ( 5f00ff6 ), closes #47992 workers/global: migrate flat Dependency Dashboard environment variables ( #48021 ) ( 88b752b ), closes #47992 Documentation minimum-release-age: split the long paragraphs of the package manager FAQ ( #48016 ) ( de3c522 ) Miscellaneous Chores deps: update dependency tsdown to v0.23.7 (main) ( #48024 ) ( 0f73008 ) Code Refactoring config/migrations: track the type of t",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.8.0",
