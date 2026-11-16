@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-16T07:36:48Z",
-  "cutoff": "2026-10-17T07:36:42Z",
+  "generated": "2026-11-16T09:33:42Z",
+  "cutoff": "2026-10-17T09:33:38Z",
   "feed_count": 104,
-  "item_count": 284,
+  "item_count": 285,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.11.9",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.9",
+      "published": "2026-11-16T09:32:54Z",
+      "preview": "(aqua) run .jar packages through java -jar by @jdx in [ #15688 ](…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-daemons-v2026.11.9",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.11.9",
+      "published": "2026-11-16T09:31:50Z",
+      "preview": "Release mise-daemons 2026.11.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "7.0.14",
+      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.14",
+      "published": "2026-11-16T09:31:45Z",
+      "preview": "What's Changed Type named_args options instead of **options by @dduugg in #24544 Type VCS command options instead of **options by @dduugg in #24546 uninstall, info: find dependents with no dependency list by @HaraldNordgren in #24519 Require explicit internal package source loading by @MikeMcQuaid in #24442 doctor: clarify guidance for obsolete dependencies by @HaraldNordgren in #24529 Type inner curl options instead of **options by @dduugg in #24551 Type bundle install options as EntryOption by @dduugg in #24550 Type curl_output options instead of **options by @dduugg in #24552 cask/audit: ch",
+      "source": "Homebrew releases",
+      "category": "System"
+    },
+    {
+      "title": "mise-oci-v2026.11.9",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.9",
+      "published": "2026-11-16T09:31:32Z",
+      "preview": "Release mise-oci 2026.11.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.11.9",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.9",
+      "published": "2026-11-16T09:31:14Z",
+      "preview": "Release mise-system 2026.11.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.11.9",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.9",
+      "published": "2026-11-16T09:30:55Z",
+      "preview": "Release vfox 2026.11.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.11.9",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.9",
+      "published": "2026-11-16T09:30:36Z",
+      "preview": "Release mise-system-packages 2026.11.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.11.9",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.9",
+      "published": "2026-11-16T09:30:13Z",
+      "preview": "Release mise-ui 2026.11.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.11.9",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.9",
+      "published": "2026-11-16T09:29:55Z",
+      "preview": "Release mise-util 2026.11.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.11.9",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.9",
+      "published": "2026-11-16T09:29:36Z",
+      "preview": "Release mise-sigstore 2026.11.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.11.9",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.9",
+      "published": "2026-11-16T09:29:18Z",
+      "preview": "Release mise-settings 2026.11.9",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "2.1.0",
       "url": "https://github.com/sbt/sbt/releases/tag/v2.1.0",
@@ -319,14 +407,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v2026.11.8: Bootstrap settings plugins, block edits in bootstrap files, and argv in command wrappers",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.8",
-      "published": "2026-11-13T13:07:07Z",
-      "preview": "This release extends mise bootstrap with experimental settings plugins, system-wide plugin directories, block edits for system files, and repositories and hooks in mise bootstrap plan . macOS preferences move to [bootstrap.settings.macos] . Command wrappers can now read the user's arguments, and a new setting keeps private GitHub repos off mise-versions. It also fixes problems in lockfiles, hook-env performance, tasks and backends. Added Bootstrap Bootstrap settings plugins (experimental). A plugin can now apply one program's or desktop's settings from a [bootstrap.settings.<plugin>] section. ",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "api/v1.57.0",
       "url": "https://github.com/moby/moby/releases/tag/api%2Fv1.57.0",
       "published": "2026-11-13T13:05:59Z",
@@ -349,78 +429,6 @@
       "preview": "44.238.0 (2026-11-13) Features config: add minimumReleaseAgePackageManager ( #47678 ) ( b616c2d ) manager/cargo: pass and read the cargo min-publish-age ( #47544 ) ( 8f58d16 ) manager/npm: pass and read the pnpm minimum release age ( #47542 ) ( 4721c72 ) manager/npm: pass and read the yarn minimum release age ( #47803 ) ( 22136cf ) manager/npm: report minimum release age from .npmrc ( #47500 ) ( 99d5549 ) Miscellaneous Chores deps: update dependency vale to v3.27.0 (main) ( #47998 ) ( 19df39d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "mise-interactive-config-v2026.11.0",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-interactive-config-v2026.11.0",
-      "published": "2026-11-13T09:26:21Z",
-      "preview": "Release mise-interactive-config 2026.11.0",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-oci-v2026.11.8",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.8",
-      "published": "2026-11-13T09:25:53Z",
-      "preview": "Release mise-oci 2026.11.8",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.11.8",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.8",
-      "published": "2026-11-13T09:25:33Z",
-      "preview": "Release mise-system 2026.11.8",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.11.8",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.8",
-      "published": "2026-11-13T09:25:14Z",
-      "preview": "Release vfox 2026.11.8",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.11.8",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.8",
-      "published": "2026-11-13T09:24:57Z",
-      "preview": "Release mise-system-packages 2026.11.8",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.11.8",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.8",
-      "published": "2026-11-13T09:24:38Z",
-      "preview": "Release mise-ui 2026.11.8",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.11.8",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.8",
-      "published": "2026-11-13T09:24:20Z",
-      "preview": "Release mise-util 2026.11.8",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.11.8",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.8",
-      "published": "2026-11-13T09:23:59Z",
-      "preview": "Release mise-sigstore 2026.11.8",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.11.8",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.8",
-      "published": "2026-11-13T09:23:40Z",
-      "preview": "Release mise-settings 2026.11.8",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "v1.8.0",
