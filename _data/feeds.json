@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-16T13:44:50Z",
-  "cutoff": "2026-10-17T13:44:44Z",
+  "generated": "2026-11-16T14:42:21Z",
+  "cutoff": "2026-10-17T14:42:14Z",
   "feed_count": 104,
-  "item_count": 287,
+  "item_count": 288,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.245.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.245.0",
+      "published": "2026-11-16T14:35:24Z",
+      "preview": "44.245.0 (2026-11-16) Features static-data: add 3 new mise tools ( #48082 ) ( c4d5736 ) static-data: update AWS Lambda Node.js schedule ( #48081 ) ( 3aa9cbf )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.244.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.244.3",
+      "published": "2026-11-16T14:17:44Z",
+      "preview": "44.244.3 (2026-11-16) Bug Fixes datasource/maven: keep releases fetched with credentials private ( #47873 ) ( 1977531 ) deps: update renovate-base-image to v13.170.1 (main) ( #48094 ) ( bbe184a ) workers/repository: run executionMode=branch post-upgrade tasks from any upgrade ( #48090 ) ( b005ee4 ) Miscellaneous Chores deps: update linters to v1.93.0 (main) ( #48095 ) ( 4949bd8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.244.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.244.2",
@@ -231,22 +247,6 @@
       "category": "Ruby"
     },
     {
-      "title": "44.240.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.240.0",
-      "published": "2026-11-16T01:08:52Z",
-      "preview": "44.240.0 (2026-11-16) Features deps: update renovate-base-image to v13.167.1 (main) ( #48045 ) ( 2fc142d )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.239.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.239.2",
-      "published": "2026-11-16T00:52:56Z",
-      "preview": "44.239.2 (2026-11-16) Documentation update references to python to a7097ae (main) ( #48068 ) ( a408315 ) Miscellaneous Chores deps: update dependency @containerbase/istanbul-reports-html to v2.0.26 (main) ( #48052 ) ( 505cecf ) deps: update dependency knip to v6.44.2 (main) ( #48054 ) ( da96643 ) deps: update jdx/mise-action action to v5.2.9 (main) ( #48065 ) ( 9ac3811 ) Build System deps: update dependency re2 to v1.27.1 (main) ( #48069 ) ( 29e5fe0 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "4.1.0 Released",
       "url": "https://blog.rubygems.org/2026/11/16/4.1.0-released.html",
       "published": "2026-11-16T00:00:00Z",
@@ -261,6 +261,14 @@
       "preview": "RubyGems and Bundler 4.1.0 are out. I covered the release in a three-part series on dev.to, and this post picks two changes from each part that you are most likely to use. override and prune override in the Gemfile rewrites version constraints that your dependencies declare, transitive ones included. When a gem caps required_ruby_version below the Ruby you just installed, override \"foo\", required_ruby_version: :ignore_upper gets you going without a fork. It can also drop or replace a dependency with with: and in: . prune deletes Bundler’s download cache and the .git directories of git gems aft",
       "source": "RubyGems Blog",
       "category": "Ruby"
+    },
+    {
+      "title": "Enabling the parallel frontend on nightly",
+      "url": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
+      "published": "2026-11-16T00:00:00Z",
+      "preview": "TL;DR: We are enabling the parallel frontend of the Rust compiler on nightly by default, to find remaining issues in preparation for its stabilization. Context The Rust compiler has been using multiple threads to compile code in its \"backend\" part (using LLVM) for a long time. However, its \"frontend\" part (which includes type checking and borrow checking) has been executing sequentially, on a single thread, which of course limits the performance of the compiler. If you are interested in a more in-depth explanation of parallelism in the Rust compiler, see this previous post . The compiler front",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "get-pnpm@0.0.12",
