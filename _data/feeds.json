@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17T13:22:28Z",
-  "cutoff": "2026-10-18T13:22:21Z",
+  "generated": "2026-11-17T14:22:58Z",
+  "cutoff": "2026-10-18T14:22:52Z",
   "feed_count": 104,
   "item_count": 292,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.251.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.251.0",
+      "published": "2026-11-17T13:50:54Z",
+      "preview": "44.251.0 (2026-11-17) Features datasource/julia-general-metadata: sourceUrl ( #48017 ) ( 4fa5d0a ), closes JuliaRegistries/GeneralMetadata.jl#82",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.250.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.250.0",
+      "published": "2026-11-17T13:23:49Z",
+      "preview": "44.250.0 (2026-11-17) Features manager/julia: support bumpVersion ( #47853 ) ( 275b549 ) Bug Fixes workers/repository: keep package file managerData when a dependency has its own ( #47419 ) ( 10baf46 ) Miscellaneous Chores deps: update dependency re2js@>=2.2.0 <2.8.7 to v2.10.0 (main) ( #48145 ) ( 9429666 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "20261117t125500-all",
       "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261117t125500-all",
@@ -139,22 +155,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.247.1",
       "published": "2026-11-16T20:46:48Z",
       "preview": "44.247.1 (2026-11-16) Bug Fixes deps: update renovate-base-image to v13.171.1 (main) ( #48123 ) ( 0b268f2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.247.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.247.0",
-      "published": "2026-11-16T19:54:57Z",
-      "preview": "44.247.0 (2026-11-16) Features deps: update renovate-base-image to v13.171.0 (main) ( #48122 ) ( efd4af5 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.67.0 (main) ( #48121 ) ( ff0002e )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.246.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.246.5",
-      "published": "2026-11-16T19:01:16Z",
-      "preview": "44.246.5 (2026-11-16) Build System deps: update dependency google-auth-library to v11.3.4 (main) ( #48118 ) ( eb67e13 ) deps: update opentelemetry-js monorepo (main) ( #48119 ) ( c356b07 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
