@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-17T18:25:15Z",
-  "cutoff": "2026-10-18T18:25:09Z",
+  "generated": "2026-11-17T20:22:59Z",
+  "cutoff": "2026-10-18T20:22:53Z",
   "feed_count": 104,
-  "item_count": 293,
+  "item_count": 294,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,30 @@
   ],
   "items": [
     {
+      "title": "pnpm 12.22.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.22.0",
+      "published": "2026-11-17T20:20:31Z",
+      "preview": "pnpm 12.22.0 adds a globalPackagesConfig section to the global config.yaml for settings that apply only to global packages, adds pnpm why --ranges , and lists workspace projects in dependency order in pnpm list --recursive . It also includes a security fix. After the default or a scoped registry changed, pnpm install could skip the minimumReleaseAge and trustPolicy checks against the new registry. Minor Changes Settings under globalPackagesConfig in the global config.yaml now apply only to commands that act on global packages, such as pnpm add -g and pnpm update -g . For example, globalPackage",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 11.28.13",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.13",
+      "published": "2026-11-17T20:12:21Z",
+      "preview": "pnpm 11.28.13 includes a security fix. After the default or a scoped registry changed, pnpm install could skip the minimumReleaseAge and trustPolicy checks against the new registry. It also fixes pnpm audit dropping advisories with string ids, offline installs failing the minimumReleaseAge check, and peer and injected-package resolution bugs. Patch Changes Security pnpm install now re-verifies lockfile resolutions when the default registry or a scoped registry changes. Before, it reused the result cached for the previous registry and skipped the minimumReleaseAge and trustPolicy checks against",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpr 0.1.0-alpha.21",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.21",
+      "published": "2026-11-17T20:02:40Z",
+      "preview": "pnpr 0.1.0-alpha.21 decides access with grants stored in the database and makes teams instance-wide. It cannot open a database from an earlier alpha release, so existing deployments must be reset. Minor Changes pnpr refuses a database created by an earlier alpha release. Drop its pnpr tables together with the hosted store, and pnpr creates them afresh. On PostgreSQL, pnpr sorts and compares package names, versions, and other keys by bytes, as it does on SQLite and MySQL. Patch Changes pnpr now decides who may do what with grants. A grant gives accounts, teams or built-in groups a set of action",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
       "published": "2026-11-17T17:50:50Z",
@@ -35,22 +59,6 @@
       "url": "https://github.com/pnpm/pnpm/releases/tag/get-pnpm%400.0.13",
       "published": "2026-11-17T16:07:13Z",
       "preview": "=get-pnpm@0.0.13",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v11.28.13",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.13",
-      "published": "2026-11-17T16:07:01Z",
-      "preview": "=v11.28.13",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.22.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.22.0",
-      "published": "2026-11-17T16:05:11Z",
-      "preview": "=v12.22.0",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -69,14 +77,6 @@
       "preview": "Bug fixes pipx uninject no longer removes a dependency the main package always needs, such as one marked extra != \"cli\" , when that package declares extras, and pipx install --include-deps with an extra now exposes the apps of such a dependency ( #2476 ) by @hemtilva and @gaborbernat . 🐍 PyPI release 📜 Full Changelog",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "pnpr@0.1.0-alpha.21",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.21",
-      "published": "2026-11-17T15:06:52Z",
-      "preview": "=pnpr@0.1.0-alpha.21",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "44.251.0",
@@ -197,6 +197,14 @@
       "preview": "Bug fixes Fix environments created with Python 3.11 failing to start, and pipx commands failing with UnicodeDecodeError , when pipx runs in UTF-8 mode and PIPX_HOME contains non-ASCII characters. pipx writes pipx_shared.pth in the encoding the environment's Python reads it with, and rewrites an existing one the next time it installs into that environment ( #2462 ) by @8hjkkwikl8 and @gaborbernat . ( #2460 ) Finish updating or rolling back manifest lock files before handling an interrupt, preserving a consistent set of locks ( #2448 ) by @anticipate218 and @gaborbernat . Report malformed URLs i",
       "source": "pipx releases",
       "category": "Python"
+    },
+    {
+      "title": "pnpm 11.28.13",
+      "url": "https://pnpm.io/blog/releases/11.28.13",
+      "published": "2026-11-17T00:00:00Z",
+      "preview": "pnpm 11.28.13 includes a security fix. After the default or a scoped registry changed, pnpm install could skip the minimumReleaseAge and trustPolicy checks against the new registry. It also fixes pnpm audit dropping advisories with string ids, offline installs failing the minimumReleaseAge...",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "3.3.8",
