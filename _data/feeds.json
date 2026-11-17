@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17T03:24:47Z",
-  "cutoff": "2026-10-18T03:24:40Z",
+  "generated": "2026-11-17T04:23:59Z",
+  "cutoff": "2026-10-18T04:23:53Z",
   "feed_count": 104,
   "item_count": 289,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.247.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.247.2",
+      "published": "2026-11-17T03:53:35Z",
+      "preview": "44.247.2 (2026-11-17) Bug Fixes deps: update renovate-base-image to v13.171.2 (main) ( #48126 ) ( 99a07ac ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.67.1 (main) ( #48125 ) ( 0782142 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "1.18.18",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.18",
@@ -123,14 +131,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.245.0",
       "published": "2026-11-16T14:35:24Z",
       "preview": "44.245.0 (2026-11-16) Features static-data: add 3 new mise tools ( #48082 ) ( c4d5736 ) static-data: update AWS Lambda Node.js schedule ( #48081 ) ( 3aa9cbf )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.244.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.244.3",
-      "published": "2026-11-16T14:17:44Z",
-      "preview": "44.244.3 (2026-11-16) Bug Fixes datasource/maven: keep releases fetched with credentials private ( #47873 ) ( 1977531 ) deps: update renovate-base-image to v13.170.1 (main) ( #48094 ) ( bbe184a ) workers/repository: run executionMode=branch post-upgrade tasks from any upgrade ( #48090 ) ( b005ee4 ) Miscellaneous Chores deps: update linters to v1.93.0 (main) ( #48095 ) ( 4949bd8 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
