@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-17T15:22:33Z",
-  "cutoff": "2026-10-18T15:22:22Z",
+  "generated": "2026-11-17T16:24:07Z",
+  "cutoff": "2026-10-18T16:24:01Z",
   "feed_count": 104,
   "item_count": 293,
   "categories": [
@@ -23,6 +23,38 @@
   ],
   "items": [
     {
+      "title": "get-pnpm@0.0.13",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/get-pnpm%400.0.13",
+      "published": "2026-11-17T16:07:13Z",
+      "preview": "=get-pnpm@0.0.13",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.28.13",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v11.28.13",
+      "published": "2026-11-17T16:07:01Z",
+      "preview": "=v11.28.13",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v12.22.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.22.0",
+      "published": "2026-11-17T16:05:11Z",
+      "preview": "=v12.22.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v1.4.0",
+      "url": "https://github.com/oras-project/oras/releases/tag/v1.4.0",
+      "published": "2026-11-17T15:35:47Z",
+      "preview": "Changes since v1.3.6 Highlights ORAS now uses oras-go v3 ( github.com/oras-project/oras-go/v3 v3.0.0) instead of oras.land/oras-go/v2 ( #2002 ) oras copy can use different credentials for the source and destination when both are on the same registry. Authentication is now cached per repository, not per registry host (fixes #1892 ) Login works again for registries whose token realm is on another private-network host, such as self-hosted GitLab. Only loopback, link-local, unspecified and cloud-metadata realm addresses are blocked by default (fixes #2260 ) Experimental Containers configuration su",
+      "source": "ORAS releases",
+      "category": "Containers"
+    },
+    {
       "title": "1.18.19",
       "url": "https://github.com/pypa/pipx/releases/tag/1.18.19",
       "published": "2026-11-17T15:17:22Z",
@@ -37,22 +69,6 @@
       "preview": "=pnpr@0.1.0-alpha.21",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "v12.22.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.22.0",
-      "published": "2026-11-17T15:06:32Z",
-      "preview": "=v12.22.0",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v1.4.0",
-      "url": "https://github.com/oras-project/oras/releases/tag/v1.4.0",
-      "published": "2026-11-17T14:43:39Z",
-      "preview": "Release v1.4.0",
-      "source": "ORAS releases",
-      "category": "Containers"
     },
     {
       "title": "44.251.0",
@@ -919,14 +935,6 @@
       "category": "Multi-language"
     },
     {
-      "title": "pnpr 0.1.0-alpha.19",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.19",
-      "published": "2026-11-10T01:28:47Z",
-      "preview": "pnpr 0.1.0-alpha.19 stores package metadata in PostgreSQL or MySQL as well as SQLite, stores identical archives once, and adds pnpr gc to reclaim unreferenced archives while serving. It does not migrate alpha.18 data, so read the upgrade steps below before you upgrade. It also includes a security fix: pnpr no longer logs the credentials of some malformed URLs. The release also tightens account, team, and publish validation. Minor Changes Upgrading from alpha.18 pnpr does not migrate alpha.18 data. At startup it refuses an alpha.18 metadata database or SQL auth database, including a local token",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "pnpm 12.19",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.19.0",
       "published": "2026-11-10T01:25:14Z",
@@ -1213,14 +1221,6 @@
       "preview": "RubyGems 4.0.24 Enhancements: Installs bundler 4.0.24 as a default gem. Bug fixes: Skip executable removal gracefully when the bin directory is missing. Pull request #9963 by Evan Li and Hiroshi SHIBATA Fix file locks letting multiple processes in when lock files are removed. Pull request #9930 by Richard Janita and Hiroshi SHIBATA Turn off echo before printing the password prompt. Pull request #9969 by Mike Dalessio Documentation: [DOC] Fix link. Pull request #10014 by Burdette Lamar Bundler 4.0.24 Enhancements: Read the Ruby version from mise's inline table form. Pull request #9991 by Hirosh",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "pnpm 12.18",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.18.0",
-      "published": "2026-11-05T00:56:45Z",
-      "preview": "pnpm 12.18.0 packs, publishes, and installs packages with platform variants on pnpr registries. It also adds per-skill approval of agent skills and pnpm store add for offline installs from downloaded tarballs. Repeat installs and verifyDepsBeforeRun no longer read the package.json of unchanged workspace projects. The release fixes several peer dependency resolution bugs too. Minor Changes Agent skills pnpm now names the link to a dependency's agent skill after the skill alone. A skill that the @acme/kit package ships in skills/auth/ is linked as .claude/skills/auth , not .claude/skills/pnpm-@a",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "v0.47.1",
