@@ -42,6 +42,10 @@ Also out: Gerrit [3.14.6](https://www.gerritcodereview.com/3.14.html#3146), [3.1
 
 The [dashboard is more compact](https://github.blog/changelog/2026-11-10-a-more-informative-github-dashboard) after feedback that the new default layout showed too little. Pull request and issue lists show six items by default instead of three, long titles stay on one line, and either the Feed or Home tab can be pinned as the default view. The agent sessions section is hidden for accounts with no agent sessions.
 
+[Event Streams](https://github.blog/changelog/2026-11-17-github-event-streams-is-now-in-preview), in preview behind a waitlist on all plans, lets a client subscribe to a pull request and keep a connection open. GitHub then sends an event when a review is submitted, commits are pushed, a merge conflict appears, a check suite changes status, or the pull request is merged or closed. Events arrive over the connection the client opened, in place of a public webhook endpoint, and the changelog presents it as a replacement for agents polling the API from a laptop.
+
+Secret scanning has a [new detector for Cloudflare service tokens](https://github.blog/changelog/2026-11-12-secret-scanning-adds-a-detector-for-cloudflare), listed as `cloudflare_access_service_token`. Partner secrets found in public repositories are reported to the issuer, and user secrets raise alerts in public and private repositories.
+
 ## Elsewhere
 
 [Git considers voting to determine its LLM policy](https://lwn.net/SubscriberLink/1104195/1193ea577aaef643/) (Jonathan Corbet, LWN) reports on a draft voting process that Emily Shaffer posted to the Git list on 21 October. Git's contribution guidelines have said since October 2025 that anything that looks AI-generated will be rejected. A session at the Git Contributor's Summit revisited that policy and reached no consensus.
@@ -51,6 +55,14 @@ Under the draft, proposals are patches to the project's documentation and need a
 [Migrating from GitHub to Codeberg](https://yorickpeterse.com/articles/migrating-from-github-to-codeberg/) (Yorick Peterse) covers moving Inko and a set of personal repositories by hand with Forgejo's repository migration feature. The GitHub importer stalled for about an hour at rate limits without reporting it, and it does not map users, so assignees had to be set again. GitHub issue types have no Forgejo equivalent and became labels.
 
 CI moved to Forgejo Actions on self-hosted runners, because Codeberg's shared runners are AMD64 Linux only and time-limited. Peterse reports that a `git push` typically takes between 5 and 10 seconds, and that a request to raise the Inko organisation's 1.5 GiB quota was unanswered at the time of writing.
+
+[Codeberg reported](https://social.anoxinon.de/@Codeberg/117636454915265360) on the morning of 18 November that codeberg.org was unreachable. The site is unavailable at the time of writing and the issue is ongoing. Codeberg said the domain had not expired or been transferred, but was missing from its registrar account and in `clientHold` status, and that no email notification had arrived. A [follow-up](https://social.anoxinon.de/@Codeberg/117636553104473348) said no warning had arrived under the registrar's abuse reporting procedures and that a technical issue was the most likely cause.
+
+[Stacked diffs with Maiao](https://entropicthoughts.com/stacked-diffs-with-maiao) (kqr, Entropic Thoughts) describes keeping one commit per change on a single `dev` branch and publishing it to GitHub with the [community fork of Maiao](https://github.com/runetes/maiao). One `git review` command fetches upstream, rebases the branch, pushes a disposable branch for each commit, and opens a pull request for each as a native GitHub stack. Running it again after amending a commit force-pushes the branches and updates the pull request descriptions and merge targets.
+
+[Git Beyond the Basics](https://blog.hofstede.it/git-beyond-the-basics-worktrees-cherry-picks-and-signed-commits/) (Christian Hofstede-Kuhn) is a long tutorial for people who already use add, commit and push, checked against Git 2.56.1. It covers a starting configuration, rerere, the reflog, fixup commits with autosquash, `--update-refs` for stacked branches, and what worktrees share.
+
+In the signing section's tests, a plain `git rebase` or `git cherry-pick` of a signed commit dropped the signature from the copy, and Forgejo's "require signed commits" branch protection rejects the result. Passing `-S` or setting `commit.gpgsign` signs the new commits. Hofstede-Kuhn's own signatures come from an OpenPGP smartcard through `oct-git` in place of GnuPG.
 
 [mini.nvim](https://tangled.org/nvim-mini.org/mini.nvim), the library of Neovim modules, now has mirrors on Tangled and [Codeberg](https://codeberg.org/nvim-mini/mini.nvim). Its README lists the GitHub repository as the main one.
 
