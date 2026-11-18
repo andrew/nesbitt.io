@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-18T12:27:55Z",
-  "cutoff": "2026-10-19T12:27:50Z",
+  "generated": "2026-11-18T13:22:35Z",
+  "cutoff": "2026-10-19T13:22:29Z",
   "feed_count": 104,
-  "item_count": 298,
+  "item_count": 297,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,86 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.11.10",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.10",
+      "published": "2026-11-18T13:06:21Z",
+      "preview": "(backend) add enable_backends allowlist by @jdx in [ #15766 ](htt…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.11.10",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.10",
+      "published": "2026-11-18T13:05:19Z",
+      "preview": "Release mise-oci 2026.11.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.11.10",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.10",
+      "published": "2026-11-18T13:04:55Z",
+      "preview": "Release mise-system 2026.11.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.11.10",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.10",
+      "published": "2026-11-18T13:04:28Z",
+      "preview": "Release vfox 2026.11.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.11.10",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.10",
+      "published": "2026-11-18T13:04:02Z",
+      "preview": "Release mise-system-packages 2026.11.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.11.10",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.10",
+      "published": "2026-11-18T13:03:29Z",
+      "preview": "Release mise-ui 2026.11.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.11.10",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.10",
+      "published": "2026-11-18T13:03:04Z",
+      "preview": "Release mise-util 2026.11.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.11.10",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.10",
+      "published": "2026-11-18T13:02:41Z",
+      "preview": "Release mise-sigstore 2026.11.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.11.10",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.10",
+      "published": "2026-11-18T13:02:18Z",
+      "preview": "Release mise-settings 2026.11.10",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-lsp-v2026.11.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-lsp-v2026.11.1",
+      "published": "2026-11-18T13:01:31Z",
+      "preview": "Release mise-lsp 2026.11.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "44.252.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.252.0",
@@ -295,14 +375,6 @@
       "category": "Containers"
     },
     {
-      "title": "v2026.11.9: Task lock pools, tag-based task dependencies and Unix socket sandboxing",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.9",
-      "published": "2026-11-16T11:14:16Z",
-      "preview": "Task locks can now hold several slots and take templated names, task dependencies can be selected by tag, and sandboxed commands can block Unix socket connections. aqua tools shipped as a .jar now run directly. This release also fixes problems in mise lock --bump , minimum_release_age , shims on macOS, task caching, Homebrew casks and formulas, and dotfiles. Added Tasks Lock pools. A task lock can now be shared by several runs at once, so you can guard a limited resource such as CPU cores instead of making every heavy task wait in line. Set a lock's slot count once in task.lock_pools , then ha",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "v2.0.0-beta.31",
       "url": "https://github.com/moby/moby/releases/tag/v2.0.0-beta.31",
       "published": "2026-11-16T09:50:13Z",
@@ -311,84 +383,12 @@
       "category": "Containers"
     },
     {
-      "title": "mise-daemons-v2026.11.9",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.11.9",
-      "published": "2026-11-16T09:31:50Z",
-      "preview": "Release mise-daemons 2026.11.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "7.0.14",
       "url": "https://github.com/Homebrew/brew/releases/tag/7.0.14",
       "published": "2026-11-16T09:31:45Z",
       "preview": "What's Changed Type named_args options instead of **options by @dduugg in #24544 Type VCS command options instead of **options by @dduugg in #24546 uninstall, info: find dependents with no dependency list by @HaraldNordgren in #24519 Require explicit internal package source loading by @MikeMcQuaid in #24442 doctor: clarify guidance for obsolete dependencies by @HaraldNordgren in #24529 Type inner curl options instead of **options by @dduugg in #24551 Type bundle install options as EntryOption by @dduugg in #24550 Type curl_output options instead of **options by @dduugg in #24552 cask/audit: ch",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "mise-oci-v2026.11.9",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.9",
-      "published": "2026-11-16T09:31:32Z",
-      "preview": "Release mise-oci 2026.11.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.11.9",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.9",
-      "published": "2026-11-16T09:31:14Z",
-      "preview": "Release mise-system 2026.11.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.11.9",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.9",
-      "published": "2026-11-16T09:30:55Z",
-      "preview": "Release vfox 2026.11.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.11.9",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.9",
-      "published": "2026-11-16T09:30:36Z",
-      "preview": "Release mise-system-packages 2026.11.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.11.9",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.9",
-      "published": "2026-11-16T09:30:13Z",
-      "preview": "Release mise-ui 2026.11.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.11.9",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.9",
-      "published": "2026-11-16T09:29:55Z",
-      "preview": "Release mise-util 2026.11.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.11.9",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.9",
-      "published": "2026-11-16T09:29:36Z",
-      "preview": "Release mise-sigstore 2026.11.9",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.11.9",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.9",
-      "published": "2026-11-16T09:29:18Z",
-      "preview": "Release mise-settings 2026.11.9",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "2.1.0",
@@ -2397,14 +2397,6 @@
       "preview": "The Gradle team is excited to announce Gradle 9.8.2. Here are the highlights of this release: Java 27 support Maven mirror settings reuse Linked problem locations in build output Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aman Gautam , Björn Kautler , Eng Zer Jun , Hashim Khan , Julian Krannich , KBS , Labh R Jethe , Mark Dodgson , Maxim , monkey , nataphon-ktsystems , Paul King , Qiu Tian , rg_sandesh , Roberto Perez Alcolea , Sean , Zongle Wang . Upgrade instructions Switch your build to use Gradle 9.8.2 by",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "7.0.10",
-      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.10",
-      "published": "2026-10-19T13:06:46Z",
-      "preview": "What's Changed Ignore Ubuntu release list link check failures by @MikeMcQuaid in #24196 Require test resources in homebrew/core by @MikeMcQuaid in #24180 Preserve cask approval for copied helpers by @MikeMcQuaid in #24191 Add OSS Scanner Dockerfile and threat model by @p-linnane in #24199 spdx: store downcased licenses in hash across calls by @alebcay in #24197 Harden tap redirect trust and rollback by @p-linnane in #24198 Fix offline, vacuous and repo-leaking specs by @p-linnane in #24200 Ignore hidden directories when listing taps by @p-linnane in #24201 Isolate Bootsnap caches across gem ch",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
