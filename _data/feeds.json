@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-18T22:22:12Z",
-  "cutoff": "2026-10-19T22:22:07Z",
+  "generated": "2026-11-18T23:22:11Z",
+  "cutoff": "2026-10-19T23:22:05Z",
   "feed_count": 104,
-  "item_count": 295,
+  "item_count": 296,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.252.7",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.252.7",
+      "published": "2026-11-18T22:57:55Z",
+      "preview": "44.252.7 (2026-11-18) Miscellaneous Chores deps: update dependency @biomejs/biome to v2.6.7 (main) ( #48205 ) ( e10025e ) deps: update dependency tar to v7.5.23 (main) ( #48200 ) ( 428581e ) deps: update jdx/mise-action action to v5.2.10 (main) ( #48201 ) ( ea4ed7f ) Build System deps: update dependency neotraverse to v1.0.2 (main) ( #48204 ) ( cd36780 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -319,6 +327,14 @@
       "category": "JavaScript"
     },
     {
+      "title": "Introducing staged publishing on NuGet.org",
+      "url": "https://devblogs.microsoft.com/dotnet/nuget-staged-publishing/",
+      "published": "2026-11-17T21:00:00Z",
+      "preview": "Stage and validate packages privately on NuGet.org, then approve their release when you are ready. The post Introducing staged publishing on NuGet.org appeared first on .NET Blog .",
+      "source": "NuGet Blog",
+      "category": ".NET"
+    },
+    {
       "title": "pnpm 12.22.0",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.22.0",
       "published": "2026-11-17T20:20:31Z",
@@ -405,14 +421,6 @@
       "preview": "Deployment at 2026-11-17T12:39:38.155183Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.249.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.249.3",
-      "published": "2026-11-17T11:54:15Z",
-      "preview": "44.249.3 (2026-11-17) Bug Fixes deps: update renovate-base-image to v13.172.2 (main) ( #48140 ) ( 1bceac3 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.67.2 (main) ( #48139 ) ( 0e1f4bc )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "0.13.9",
