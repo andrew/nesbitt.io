@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T02:26:07Z",
-  "cutoff": "2026-10-19T02:26:01Z",
+  "generated": "2026-11-18T03:25:19Z",
+  "cutoff": "2026-10-19T03:25:13Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-18T02:31:46Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "libnpmpack: v10.0.5",
       "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.5",
@@ -101,14 +109,6 @@
       "preview": "pnpr 0.1.0-alpha.21 decides access with grants stored in the database and makes teams instance-wide. It cannot open a database from an earlier alpha release, so existing deployments must be reset. Minor Changes pnpr refuses a database created by an earlier alpha release. Drop its pnpr tables together with the hosted store, and pnpr creates them afresh. On PostgreSQL, pnpr sorts and compares package names, versions, and other keys by bytes, as it does on SQLite and MySQL. Patch Changes pnpr now decides who may do what with grants. A grant gives accounts, teams or built-in groups a set of action",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-17T17:50:50Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "get-pnpm@0.0.13",
