@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T21:22:13Z",
-  "cutoff": "2026-10-19T21:22:08Z",
+  "generated": "2026-11-18T22:22:12Z",
+  "cutoff": "2026-10-19T22:22:07Z",
   "feed_count": 104,
   "item_count": 295,
   "categories": [
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-18T21:29:57Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "@verdaccio/tarball@14.0.0-next-9.46",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4014.0.0-next-9.46",
+      "published": "2026-11-18T21:27:56Z",
+      "preview": "chore: update versions (next-9) ( #6477 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/test-helper@5.0.0-next-9.47",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%405.0.0-next-9.47",
+      "published": "2026-11-18T21:27:56Z",
+      "preview": "chore: update versions (next-9) ( #6477 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/ui-theme@9.0.0-next-9.46",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.46",
+      "published": "2026-11-18T21:27:56Z",
+      "preview": "chore: update versions (next-9) ( #6477 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/url@14.0.0-next-9.46",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.46",
+      "published": "2026-11-18T21:27:56Z",
+      "preview": "chore: update versions (next-9) ( #6477 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "@verdaccio/web@9.0.0-next-9.46",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.46",
+      "published": "2026-11-18T21:27:56Z",
+      "preview": "chore: update versions (next-9) ( #6477 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-audit@14.0.0-next-9.46",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.46",
+      "published": "2026-11-18T21:27:56Z",
+      "preview": "chore: update versions (next-9) ( #6477 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-auth-memory@14.0.0-next-9.46",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.46",
+      "published": "2026-11-18T21:27:56Z",
+      "preview": "chore: update versions (next-9) ( #6477 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-htpasswd@14.0.0-next-9.46",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.46",
+      "published": "2026-11-18T21:27:56Z",
+      "preview": "chore: update versions (next-9) ( #6477 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio-memory@14.0.0-next-9.46",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.46",
+      "published": "2026-11-18T21:27:56Z",
+      "preview": "chore: update versions (next-9) ( #6477 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "verdaccio@9.0.0-next-9.46",
+      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.46",
+      "published": "2026-11-18T21:27:56Z",
+      "preview": "chore: update versions (next-9) ( #6477 )",
+      "source": "Verdaccio releases",
+      "category": "JavaScript"
+    },
     {
       "title": "maven-3.10.2",
       "url": "https://github.com/apache/maven/releases/tag/maven-3.10.2",
@@ -173,14 +261,6 @@
       "preview": "Over the past few months, PyPI has added some additional checks that can reject uploaded source distributions (\"sdists\") and built distributions (\"bdists\" or \"wheels\"). These checks are part of a larger initiative to make the Python packaging ecosystem more resistant to parser differentials, and will be followed by additional checks that aim to make PyPI's handling of distributions less permissive and more strictly conformant to their respective specifications. For downstream users (package consumers), there are no breaking implications to these changes. Package maintainers who see failures sh",
       "source": "PyPI Blog",
       "category": "Python"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-18T02:31:46Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "libnpmpack: v10.0.5",
@@ -485,86 +565,6 @@
       "preview": "For more information read https://maven.apache.org/docs/3.10.1/release-notes.html 🚀 New features and improvements [maven-3.10.x] Replace the 3.10 MessageBuilderFactory with the Maven 4 API ( #13919 ) @slachiewicz Drop JLine, emit ANSI colors directly ( #13888 ) @cstamas [3.10.x] Accept the ? optional-profile prefix in -P ( #13480 ) @slachiewicz 🐛 Bug Fixes [maven-3.10.x] Replace the 3.10 MessageBuilderFactory with the Maven 4 API ( #13919 ) @slachiewicz Fix recursion detection for custom rootDirectory aliases ( #13891 ) @goutamadwant Fix #13883 : Do not shadow a custom rootDirectory property (",
       "source": "Maven releases",
       "category": "Maven"
-    },
-    {
-      "title": "@verdaccio/tarball@14.0.0-next-9.45",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftarball%4014.0.0-next-9.45",
-      "published": "2026-11-15T13:30:00Z",
-      "preview": "chore: update versions (next-9) ( #6467 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/test-helper@5.0.0-next-9.46",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Ftest-helper%405.0.0-next-9.46",
-      "published": "2026-11-15T13:30:00Z",
-      "preview": "chore: update versions (next-9) ( #6467 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/ui-theme@9.0.0-next-9.45",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fui-theme%409.0.0-next-9.45",
-      "published": "2026-11-15T13:30:00Z",
-      "preview": "chore: update versions (next-9) ( #6467 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/url@14.0.0-next-9.45",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Furl%4014.0.0-next-9.45",
-      "published": "2026-11-15T13:30:00Z",
-      "preview": "chore: update versions (next-9) ( #6467 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "@verdaccio/web@9.0.0-next-9.45",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/%40verdaccio%2Fweb%409.0.0-next-9.45",
-      "published": "2026-11-15T13:30:00Z",
-      "preview": "chore: update versions (next-9) ( #6467 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-audit@14.0.0-next-9.45",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-audit%4014.0.0-next-9.45",
-      "published": "2026-11-15T13:30:00Z",
-      "preview": "chore: update versions (next-9) ( #6467 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-auth-memory@14.0.0-next-9.45",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-auth-memory%4014.0.0-next-9.45",
-      "published": "2026-11-15T13:30:00Z",
-      "preview": "chore: update versions (next-9) ( #6467 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-htpasswd@14.0.0-next-9.45",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-htpasswd%4014.0.0-next-9.45",
-      "published": "2026-11-15T13:30:00Z",
-      "preview": "chore: update versions (next-9) ( #6467 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio-memory@14.0.0-next-9.45",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio-memory%4014.0.0-next-9.45",
-      "published": "2026-11-15T13:30:00Z",
-      "preview": "chore: update versions (next-9) ( #6467 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "verdaccio@9.0.0-next-9.45",
-      "url": "https://github.com/verdaccio/verdaccio/releases/tag/verdaccio%409.0.0-next-9.45",
-      "published": "2026-11-15T13:30:00Z",
-      "preview": "chore: update versions (next-9) ( #6467 )",
-      "source": "Verdaccio releases",
-      "category": "JavaScript"
     },
     {
       "title": "8.2.0.14",
