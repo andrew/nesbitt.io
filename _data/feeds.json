@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-18T14:23:31Z",
-  "cutoff": "2026-10-19T14:23:24Z",
+  "generated": "2026-11-18T15:22:06Z",
+  "cutoff": "2026-10-19T15:22:01Z",
   "feed_count": 104,
   "item_count": 297,
   "categories": [
@@ -23,20 +23,28 @@
   ],
   "items": [
     {
+      "title": "44.252.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.252.2",
+      "published": "2026-11-18T15:05:45Z",
+      "preview": "44.252.2 (2026-11-18) Bug Fixes deps: update renovate-base-image to v13.172.3 (main) ( #48187 ) ( 2785937 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.67.3 (main) ( #48186 ) ( f6b0a80 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.11.10: Check lockfiles in CI with `mise lock --check`, plus an `enable_backends` allowlist",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.10",
+      "published": "2026-11-18T15:02:47Z",
+      "preview": "mise lock gains an offline --check mode for CI, and --dry-run now shows what would actually change. New options let you limit mise to an allowlist of backends, choose musl or glibc builds for a single tool, pin PyPI packages to private uv indexes, and exclude git-ignored files from task sources . This release also fixes problems with lockfiles, Java build ordering, mise exec PATH order, Homebrew formulas, and shims. Added Lockfiles mise lock --check . Checks that mise.lock matches mise.toml without writing anything or using the network. It fails with a list of everything mise install --locked ",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "44.252.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.252.1",
       "published": "2026-11-18T13:47:12Z",
       "preview": "44.252.1 (2026-11-18) Build System deps: update dependency prettier to v3.10.0 (main) ( #48184 ) ( 026bc94 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.11.10",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.10",
-      "published": "2026-11-18T13:06:21Z",
-      "preview": "(backend) add enable_backends allowlist by @jdx in [ #15766 ](htt…",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-oci-v2026.11.10",
@@ -315,14 +323,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.248.1",
       "published": "2026-11-17T08:30:44Z",
       "preview": "44.248.1 (2026-11-17) Bug Fixes config: compile commitMessagePrefix for config file commits ( #48114 ) ( 301d731 ), closes #if",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.248.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.248.0",
-      "published": "2026-11-17T07:45:19Z",
-      "preview": "44.248.0 (2026-11-17) Features deps: update renovate-base-image to v13.172.0 (main) ( #48128 ) ( 8d3244f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
