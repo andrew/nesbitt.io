@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T20:22:58Z",
-  "cutoff": "2026-10-20T20:22:52Z",
+  "generated": "2026-11-19T21:21:56Z",
+  "cutoff": "2026-10-20T21:21:49Z",
   "feed_count": 104,
   "item_count": 295,
   "categories": [
@@ -22,6 +22,110 @@
     "System"
   ],
   "items": [
+    {
+      "title": "libnpmpack: v8.0.6",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v8.0.6",
+      "published": "2026-11-19T21:14:29Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@8.0.6",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v6.0.6",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v6.0.6",
+      "published": "2026-11-19T21:14:27Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@8.0.6",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v9.0.6",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v9.0.6",
+      "published": "2026-11-19T21:14:26Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@8.0.6",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmdiff: v7.0.6",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v7.0.6",
+      "published": "2026-11-19T21:14:25Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@8.0.6",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v10.9.11",
+      "url": "https://github.com/npm/cli/releases/tag/v10.9.11",
+      "published": "2026-11-19T21:14:22Z",
+      "preview": "10.9.11 (2026-11-17) Bug Fixes fb8c1d3 #10236 accept supported Node.js prereleases at startup (v10 backport) ( @reggi , @Copilot) Chores 790ebfa #10237 restore release integration (v10) ( @reggi , @Copilot) 71bedcf #10243 migrate Cygwin installer (v10 backport) ( @reggi , @Copilot) 46d9226 #10227 drop clinic and weak from node-integration knownFailures (v10 backport) ( #10227 ) ( @nkolev92 ) Dependencies workspace : @npmcli/arborist@8.0.6 workspace : libnpmdiff@7.0.6 workspace : libnpmexec@9.0.6 workspace : libnpmfund@6.0.6 workspace : libnpmpack@8.0.6",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmpack: v9.1.16",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.16",
+      "published": "2026-11-19T21:13:49Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.4",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmfund: v7.0.29",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.29",
+      "published": "2026-11-19T21:13:47Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.4",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmexec: v10.3.6",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v10.3.6",
+      "published": "2026-11-19T21:13:46Z",
+      "preview": "10.3.6 (2026-11-17) Bug Fixes aa678d1 #10245 skip disconnected orphans in install script checks ( #10245 ) (@github-actions[bot], @JamieMagee , @nkolev92 , @Copilot) Dependencies workspace : @npmcli/arborist@9.9.4",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "libnpmdiff: v8.1.15",
+      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.15",
+      "published": "2026-11-19T21:13:45Z",
+      "preview": "Dependencies workspace : @npmcli/arborist@9.9.4",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "v11.21.3",
+      "url": "https://github.com/npm/cli/releases/tag/v11.21.3",
+      "published": "2026-11-19T21:13:40Z",
+      "preview": "11.21.3 (2026-11-17) Bug Fixes 893a759 #10246 treat UCRT64 Git Bash as a unix shell on Windows ( #10246 ) (@github-actions[bot], @ump45nose ) aa678d1 #10245 skip disconnected orphans in install script checks ( #10245 ) (@github-actions[bot], @JamieMagee , @nkolev92 , @Copilot) Chores fa3737d #10235 restore release integration (v11 backport) ( @reggi , @Copilot) 35f7e6d #10242 migrate Cygwin installer (v11 backport) ( @reggi , @Copilot) a9d3bdc #10226 drop clinic and weak from node-integration knownFailures (v11 backport) ( #10226 ) ( @nkolev92 ) Dependencies workspace : @npmcli/arborist@9.9.4 ",
+      "source": "npm CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "9.9.2",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.9.2",
+      "published": "2026-11-19T20:59:54Z",
+      "preview": "The Gradle team is excited to announce Gradle 9.9.2. Here are the highlights of this release: Performance improvements for Kotlin DSL compilation Test filtering for non-method JUnit Platform tests Wrapper settings preserved on upgrade Predefined groups in the Problems API Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aurimas , devareddy05 , DragonFSKY , fru1tworld , Ivan Khanas , Jeremy Schoemaker , John Burns , Labh R Jethe , Marcin Mycek , monkey , Nelson Osacky , Roberto Perez Alcolea , Róbert Papp , SeungTae",
+      "source": "Gradle releases",
+      "category": "Maven"
+    },
+    {
+      "title": "44.255.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.255.1",
+      "published": "2026-11-19T20:55:27Z",
+      "preview": "44.255.1 (2026-11-19) Bug Fixes deps: update dependency mkdocs-material to v9.8.2 (main) ( #48236 ) ( b01faa8 ) deps: update renovate-base-image to v13.173.1 (main) ( #48237 ) ( c3612fb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "2.36.0",
+      "url": "https://github.com/NixOS/nix/releases/tag/2.36.0",
+      "published": "2026-11-19T20:49:55Z",
+      "preview": "Tagging release 2.36.0",
+      "source": "Nix releases",
+      "category": "System"
+    },
     {
       "title": "8.2.0.18",
       "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.2.0.18",
@@ -69,14 +173,6 @@
       "preview": "44.253.4 (2026-11-19) Bug Fixes platform/gitlab: re-enable automerge for the pushed commit ( #47980 ) ( 34d4f5e ) Miscellaneous Chores deps: update dependency vale to v3.28.1 (main) ( #48229 ) ( b7e8467 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v9.9.2",
-      "url": "https://github.com/gradle/gradle/releases/tag/v9.9.2",
-      "published": "2026-11-19T16:13:30Z",
-      "preview": "Release notes for 9.9.2 ( #39900 )",
-      "source": "Gradle releases",
-      "category": "Maven"
     },
     {
       "title": "44.253.3",
@@ -149,14 +245,6 @@
       "preview": "This is a security release. It updates lsquic, c-ares, SQLite, llhttp and BoringSSL.",
       "source": "Bun Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.252.8",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.252.8",
-      "published": "2026-11-19T04:44:36Z",
-      "preview": "44.252.8 (2026-11-19) Bug Fixes deps: update renovate-base-image to v13.172.5 (main) ( #48210 ) ( b49fb60 ) Miscellaneous Chores deps: update dependency tsrs to v0.25.0-ts7.1.0-beta (main) ( #48209 ) ( 01b554a )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "7.0.15",
@@ -357,62 +445,6 @@
       "preview": "Over the past few months, PyPI has added some additional checks that can reject uploaded source distributions (\"sdists\") and built distributions (\"bdists\" or \"wheels\"). These checks are part of a larger initiative to make the Python packaging ecosystem more resistant to parser differentials, and will be followed by additional checks that aim to make PyPI's handling of distributions less permissive and more strictly conformant to their respective specifications. For downstream users (package consumers), there are no breaking implications to these changes. Package maintainers who see failures sh",
       "source": "PyPI Blog",
       "category": "Python"
-    },
-    {
-      "title": "libnpmpack: v10.0.5",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmpack-v10.0.5",
-      "published": "2026-11-18T00:39:57Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.5",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmfund: v8.0.5",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmfund-v8.0.5",
-      "published": "2026-11-18T00:39:56Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.5",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmexec: v11.0.6",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmexec-v11.0.6",
-      "published": "2026-11-18T00:39:54Z",
-      "preview": "11.0.6 (2026-11-11) Bug Fixes a41b85a #10068 skip disconnected orphans in install script checks ( #10068 ) ( @JamieMagee ) 09a15bb #10135 libnpmexec: install npx cache despite dryRun or packageLockOnly ( #10135 ) ( @ljharb ) Dependencies workspace : @npmcli/arborist@10.0.5",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "libnpmdiff: v9.0.5",
-      "url": "https://github.com/npm/cli/releases/tag/libnpmdiff-v9.0.5",
-      "published": "2026-11-18T00:39:53Z",
-      "preview": "Dependencies workspace : @npmcli/arborist@10.0.5",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "config: v11.2.1",
-      "url": "https://github.com/npm/cli/releases/tag/config-v11.2.1",
-      "published": "2026-11-18T00:39:52Z",
-      "preview": "11.2.1 (2026-11-11) Bug Fixes a41b85a #10068 skip disconnected orphans in install script checks ( #10068 ) ( @JamieMagee )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "arborist: v10.0.5",
-      "url": "https://github.com/npm/cli/releases/tag/arborist-v10.0.5",
-      "published": "2026-11-18T00:39:50Z",
-      "preview": "10.0.5 (2026-11-11) Bug Fixes dc95d49 #10132 arborist: skip normalization for canonical ASCII map keys ( #10132 ) ( @jeffwidman , @Copilot) d1994aa #10131 arborist: skip named-edge refresh work for empty leaves ( #10131 ) ( @jeffwidman , @Copilot) be1b7bc #10057 arborist: derive linked bin cleanup paths through bin-links ( #10057 ) ( @martinrrm , @Copilot) a41b85a #10068 skip disconnected orphans in install script checks ( #10068 ) ( @JamieMagee ) f2dea93 #10128 arborist: skip bundle checks without an applicable override ( #10128 ) ( @jeffwidman , @Copilot)",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v12.2.3",
-      "url": "https://github.com/npm/cli/releases/tag/v12.2.3",
-      "published": "2026-11-18T00:39:49Z",
-      "preview": "12.2.3 (2026-11-11) Bug Fixes 8f92e74 #10117 unpublish: refuse to unpublish a version when registry has no versions ( #10117 ) ( @meganemura ) a41b85a #10068 skip disconnected orphans in install script checks ( #10068 ) ( @JamieMagee ) 09a15bb #10135 libnpmexec: install npx cache despite dryRun or packageLockOnly ( #10135 ) ( @ljharb ) be2acee #10191 treat UCRT64 Git Bash as a unix shell on Windows ( #10191 ) ( @ump45nose ) Dependencies d538936 #10254 read-cmd-shim@7.0.1 ( #10254 ) ( @martinrrm ) Chores bd8b339 #10234 restore release integration ( @reggi , @Copilot) e04a5f8 #10241 migrate Cygw",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "Introducing staged publishing on NuGet.org",
@@ -1423,22 +1455,6 @@
       "category": "JavaScript"
     },
     {
-      "title": "v12.2.2",
-      "url": "https://github.com/npm/cli/releases/tag/v12.2.2",
-      "published": "2026-11-04T23:54:30Z",
-      "preview": "12.2.2 (2026-11-03) Bug Fixes 347dbb2 #10175 accept supported Node.js prereleases at startup ( #10175 ) ( @reggi , @Copilot) 085f9f6 #9798 patch: stop a workdir cleanup race from masking update errors ( #9798 ) ( @manzoorwanijk ) Documentation 52f3093 #10108 propose Markdown conventions in CONTRIBUTING ( #10108 ) ( @ump45nose ) Dependencies 89e9555 #10204 semver@7.8.6 ( @reggi , @Copilot) 158315c #10152 pacote@22.0.1 ( @martinrrm , @Copilot) 820b297 #10152 promise-spawn@10.0.1 ( @martinrrm , @Copilot) 9196a4c #10152 bin-links@7.0.1 ( @martinrrm , @Copilot) b34bba5 #10170 ip-address@10.7.5 9a7e",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "v11.21.2",
-      "url": "https://github.com/npm/cli/releases/tag/v11.21.2",
-      "published": "2026-11-04T22:49:11Z",
-      "preview": "11.21.2 (2026-11-03) Bug Fixes 9433b48 #10195 accept supported Node.js prereleases at startup ( #10195 ) (@github-actions[bot], @reggi , @Copilot) Dependencies 8cbc35a #10206 semver@7.8.6 ( @reggi , @Copilot) 9c0af6b #10172 ip-address@10.7.5 f3707dc #10172 undici@6.29.1 484a19d #10176 pacote@21.5.2 ( @martinrrm , @Copilot) bfae5d0 #10176 promise-spawn@9.0.2 ( @martinrrm ) 2ef644b #10176 bin-links@6.0.3 ( @martinrrm ) workspace : libnpmexec@10.3.5",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "v1.13.8",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.8",
       "published": "2026-11-04T21:45:55Z",
@@ -1461,14 +1477,6 @@
       "preview": "1.13.6",
       "source": "OpenTofu releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "v10.9.10",
-      "url": "https://github.com/npm/cli/releases/tag/v10.9.10",
-      "published": "2026-11-04T19:51:59Z",
-      "preview": "10.9.10 (2026-11-02) Dependencies a880419 #10205 semver@7.8.6 ( @reggi , @Copilot) 12d88e1 #10177 pacote@19.0.3 ( @martinrrm , @Copilot) bed6b92 #10177 promise-spawn@8.0.4 ( @martinrrm ) 0616c2e #10177 bin-links@5.0.1 ( @martinrrm ) Chores db2d9b8 #10009 pack: select workspace through config ( #10009 ) (@github-actions[bot], @reggi )",
-      "source": "npm CLI releases",
-      "category": "JavaScript"
     },
     {
       "title": "v0.47.0",
@@ -2373,14 +2381,6 @@
       "preview": "What's Changed Discover and install DSC dynamically for CI tests by Aditya Patwardhan (@adityapatwardhan) in #2007 Implement unimplemented concurrency methods for all server classes by alerickson in #2012 Add concurrency for parent packages by alerickson in #2016 Pin GitHub Actions to full-length commit SHAs by Dan Fiedler (@danfiedler-msft) in #2023 Add PSContentPath Standard Platform Paths by Justin Chung (@jshigetomi) in #1912 fix: capture cmdlet warnings to prevent stdout contamination breaking DSC JSON parsing by Gijs Reijn (@Gijsreyn) in #2000 fix(repository:) Add input validation for Ge",
       "source": "PSResourceGet releases",
       "category": ".NET"
-    },
-    {
-      "title": "v29.9.2",
-      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.2",
-      "published": "2026-10-20T20:51:17Z",
-      "preview": "29.9.2 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.9.2 milestone moby/moby, 29.9.2 milestone Security The Go runtime update addresses CVE-2026-111943 by rejecting certificate chains that include eight revoked eMudhra intermediate certificates. Image pulls and pushes fail TLS certificate verification if a registry's certificate chain relies on one of the affected TLS intermediates. Affected registries need a replacement certificate chain that does not use these intermediates. The blocked intermediates are: Domain-validate",
-      "source": "Docker Engine releases",
-      "category": "Containers"
     }
   ]
 }
