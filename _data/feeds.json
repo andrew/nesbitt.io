@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-19T21:21:56Z",
-  "cutoff": "2026-10-20T21:21:49Z",
+  "generated": "2026-11-19T23:21:58Z",
+  "cutoff": "2026-10-20T23:21:52Z",
   "feed_count": 104,
-  "item_count": 295,
+  "item_count": 294,
   "categories": [
     ".NET",
     "C/C++",
@@ -2373,14 +2373,6 @@
       "preview": "This release lets pnpm-workspace.yaml delegate settings to other files and config dependencies with include, adds lockfile.integrityTarget: tar and tar-registry support, accepts zstd-compressed registry responses, and honors SOURCE_DATE_EPOCH in pnpm deploy and pnpm install. It also rejects...",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "Release of Microsoft.PowerShell.PSResourceGet v1.3.0-rc1",
-      "url": "https://github.com/PowerShell/PSResourceGet/releases/tag/v1.3.0-rc1",
-      "published": "2026-10-20T22:50:50Z",
-      "preview": "What's Changed Discover and install DSC dynamically for CI tests by Aditya Patwardhan (@adityapatwardhan) in #2007 Implement unimplemented concurrency methods for all server classes by alerickson in #2012 Add concurrency for parent packages by alerickson in #2016 Pin GitHub Actions to full-length commit SHAs by Dan Fiedler (@danfiedler-msft) in #2023 Add PSContentPath Standard Platform Paths by Justin Chung (@jshigetomi) in #1912 fix: capture cmdlet warnings to prevent stdout contamination breaking DSC JSON parsing by Gijs Reijn (@Gijsreyn) in #2000 fix(repository:) Add input validation for Ge",
-      "source": "PSResourceGet releases",
-      "category": ".NET"
     }
   ]
 }
