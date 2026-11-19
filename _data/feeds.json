@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-19T02:25:38Z",
-  "cutoff": "2026-10-20T02:25:33Z",
+  "generated": "2026-11-19T04:24:12Z",
+  "cutoff": "2026-10-20T04:24:05Z",
   "feed_count": 104,
-  "item_count": 292,
+  "item_count": 291,
   "categories": [
     ".NET",
     "C/C++",
@@ -2349,14 +2349,6 @@
       "preview": "Deployment at 2026-10-20T11:20:19.810605Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "v1.5.0",
-      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.5.0",
-      "published": "2026-10-20T03:39:55Z",
-      "preview": "What's Changed spec: improve catalog errors with suggestions by @ruyadorno in #1980 graph: keep pending build state across installs by @ruyadorno in #1990 cli-sdk: let publishConfig.registry satisfy publish/unpublish by @ruyadorno in #1991 security-archive: add fetch timeout to socket.dev requests by @ruyadorno in #1979 cli-sdk: save found workspaces to vlt.json on install by @ruyadorno in #2013 Use a worker pool to create hardlinks during placement. by @evert in #2018 Revert \"Use a worker pool to create hardlinks during placement.\" by @ruyadorno in #2020 package-info: pass tarball format when",
-      "source": "vlt CLI releases",
-      "category": "JavaScript"
     }
   ]
 }
