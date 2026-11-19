@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-19T18:26:03Z",
-  "cutoff": "2026-10-20T18:25:58Z",
+  "generated": "2026-11-19T19:22:39Z",
+  "cutoff": "2026-10-20T19:22:34Z",
   "feed_count": 104,
   "item_count": 294,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.254.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.254.1",
+      "published": "2026-11-19T18:57:37Z",
+      "preview": "44.254.1 (2026-11-19) Miscellaneous Chores deps: update dependency oxlint-tsgolint to v7.0.2007 (main) ( #48233 ) ( e1fd54d ) Build System deps: update opentelemetry-js monorepo to v0.301.2 (main) ( #48232 ) ( dec1c4c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.254.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.254.0",
+      "published": "2026-11-19T18:26:25Z",
+      "preview": "44.254.0 (2026-11-19) Features json-schema: only allow known cacheTtlOverride namespaces ( #48034 ) ( 596095f ) Bug Fixes config/validation: allow datasource-releases-* in cacheTtlOverride ( #48035 ) ( 921d2cc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "8.14.8",
       "url": "https://github.com/gradle/gradle/releases/tag/v8.14.8",
@@ -237,22 +253,6 @@
       "preview": "[maven-release-plugin] copy for tag maven-3.10.2",
       "source": "Maven releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.252.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.252.6",
-      "published": "2026-11-18T19:46:32Z",
-      "preview": "44.252.6 (2026-11-18) Bug Fixes workers/repository: deduplicate dep in logs for executionMode=branch ( #48096 ) ( 0b3185b ) workers/repository: don't log dep in executionMode=branch for unnamed updates ( #48092 ) ( 80a4472 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.252.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.252.5",
-      "published": "2026-11-18T17:56:13Z",
-      "preview": "44.252.5 (2026-11-18) Bug Fixes exec: pass the child environment to Docker helpers ( #48149 ) ( 7005044 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.11.10: Check lockfiles in CI with `mise lock --check`, plus an `enable_backends` allowlist",
