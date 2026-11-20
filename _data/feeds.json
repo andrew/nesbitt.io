@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-20T07:23:27Z",
-  "cutoff": "2026-10-21T07:23:21Z",
+  "generated": "2026-11-20T12:28:22Z",
+  "cutoff": "2026-10-21T12:28:14Z",
   "feed_count": 104,
-  "item_count": 290,
+  "item_count": 289,
   "categories": [
     ".NET",
     "C/C++",
@@ -2333,14 +2333,6 @@
       "preview": "2.9.8 / 2026.10.21 fix(compile): check read permission for dynamically imported local files ( #36925 ) fix(completions): complete script paths for bare deno run in zsh ( #36976 ) fix(core): keep op contexts alive until the isolate is disposed ( #37026 ) fix(coverage): skip the V8 code cache while collecting coverage ( #36901 ) fix(ext/fetch): bump hyper-util to 0.1.21 and hyper to 1.11.1 to cancel idle interval when pool empties ( #36968 ) fix(ext/napi): check napi_create_dataview bounds for overflow ( #36962 ) fix(ext/napi): ignore the callback return value while an exception is pending ( #36",
       "source": "Deno releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "26.9.4",
-      "url": "https://github.com/conda/conda/releases/tag/26.9.4",
-      "published": "2026-10-21T12:09:34Z",
-      "preview": "Bug fixes Require certifi >=2026.10.19 and ca-certificates >=2026.10.19 to update the packaged CA bundles following the eMudhra intermediate CA compromise. ( #16880 via #16881 ) Contributors @jezdez Full Changelog : 26.9.3...26.9.4",
-      "source": "Conda releases",
-      "category": "Multi-language"
     }
   ]
 }
