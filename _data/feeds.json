@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-20T15:22:29Z",
-  "cutoff": "2026-10-21T15:22:23Z",
+  "generated": "2026-11-20T16:22:09Z",
+  "cutoff": "2026-10-21T16:22:04Z",
   "feed_count": 104,
-  "item_count": 290,
+  "item_count": 289,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.257.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.2",
+      "published": "2026-11-20T15:32:43Z",
+      "preview": "44.257.2 (2026-11-20) Bug Fixes manager/mix: pick erlang from the elixir requirement ( #48042 ) ( 3e2134a ) versioning/hex: convert every clause of multi-part requirements ( #48132 ) ( fe6e5aa )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v2026.11.11: MacPorts support in bootstrap, self-update before tool updates, and `published_at` release ordering",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.11.11",
@@ -293,14 +301,6 @@
       "preview": "The Gradle team is excited to announce Gradle 8.14.8. Here are the highlights of this release: Java 24 support GraalVM Native Image toolchain selection Enhancements to test reporting Build Authoring improvements Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aurimas , Ben Bader , Björn Kautler , chandre92 , Daniel Hammer , Danish Nawab , Florian Dreier , Ivy Chen , Jendrik Johannes , jimmy1995-gu , Madalin Valceleanu , Na Minhyeok . Upgrade instructions Switch your build to use Gradle 8.14.8 by updating your wrap",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.253.4",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.253.4",
-      "published": "2026-11-19T16:29:08Z",
-      "preview": "44.253.4 (2026-11-19) Bug Fixes platform/gitlab: re-enable automerge for the pushed commit ( #47980 ) ( 34d4f5e ) Miscellaneous Chores deps: update dependency vale to v3.28.1 (main) ( #48229 ) ( b7e8467 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v1.8.1",
@@ -2333,14 +2333,6 @@
       "preview": "Changes This release includes a fix so that multiple concurrent workflows trying to upload the same cache no longer warn ##[warning]Failed to save: Unable to reserve cache with key ..., another job may be creating this cache. 🐛 Bug fixes fix: preserve cache error class names in save-cache bundle @dannyward630 ( #1093 ) 🧰 Maintenance chore: update known checksums for 0.13.4 @ github-actions[bot] ( #1099 ) chore: update known checksums for 0.13.2/0.13.3 @ github-actions[bot] ( #1098 ) chore: update known checksums for 0.13.1 @ github-actions[bot] ( #1094 ) Verify npm dependency signatures before",
       "source": "setup-uv releases",
       "category": "Python"
-    },
-    {
-      "title": "v2.9.8",
-      "url": "https://github.com/denoland/deno/releases/tag/v2.9.8",
-      "published": "2026-10-21T15:28:53Z",
-      "preview": "2.9.8 / 2026.10.21 fix(compile): check read permission for dynamically imported local files ( #36925 ) fix(completions): complete script paths for bare deno run in zsh ( #36976 ) fix(core): keep op contexts alive until the isolate is disposed ( #37026 ) fix(coverage): skip the V8 code cache while collecting coverage ( #36901 ) fix(ext/fetch): bump hyper-util to 0.1.21 and hyper to 1.11.1 to cancel idle interval when pool empties ( #36968 ) fix(ext/napi): check napi_create_dataview bounds for overflow ( #36962 ) fix(ext/napi): ignore the callback return value while an exception is pending ( #36",
-      "source": "Deno releases",
-      "category": "JavaScript"
     }
   ]
 }
