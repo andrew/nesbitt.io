@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-20T13:22:28Z",
-  "cutoff": "2026-10-21T13:22:23Z",
+  "generated": "2026-11-20T14:22:39Z",
+  "cutoff": "2026-10-21T14:22:34Z",
   "feed_count": 104,
-  "item_count": 289,
+  "item_count": 290,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v10.4.0 🌈 New input `require-checksums` and bug fixing",
+      "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.4.0",
+      "published": "2026-11-20T14:06:19Z",
+      "preview": "Changes This release adds the new input require-checksums . Its false by default and when you enable it, it will fail the action when no checksum is known for a release. This can happen when you use version: latest and the version of astral-sh/setup-uv that you are running does not bundle the known checksum for the uv version just released. In that case you can always supply the checksum yourself using the checksum input. It is also a second layer of defense when using version: latest-known Special thanks to @yamamoto7 that fixed using PEP440 specifiers in the version and @zsol for fixing cach",
+      "source": "setup-uv releases",
+      "category": "Python"
+    },
     {
       "title": "v2026.11.11",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.11.11",
