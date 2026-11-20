@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-20T19:22:43Z",
-  "cutoff": "2026-10-21T19:22:39Z",
+  "generated": "2026-11-20T20:22:32Z",
+  "cutoff": "2026-10-21T20:22:25Z",
   "feed_count": 104,
-  "item_count": 289,
+  "item_count": 288,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-20T20:04:10Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
     {
       "title": "Swift 6.4.3 Release",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.3-RELEASE",
@@ -357,14 +365,6 @@
       "preview": "Today the RubyGems team released Gemstash 2.9.0, which fixes 8 security vulnerabilities affecting earlier versions. The most serious one is an unauthenticated remote code execution bug, rated Critical with a CVSS v4.0 score of 10.0. If you run Gemstash anywhere, please upgrade to 2.9.0 right away, or turn the service off until you can. What is Gemstash and how does it relate to the RubyGems CLI and RubyGems.org? Gemstash is a small Ruby server that sits between RubyGems and Bundler clients and an upstream gem source, which is RubyGems.org by default. It caches gems so installs are faster and k",
       "source": "RubyGems Blog",
       "category": "Ruby"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-18T21:29:57Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "@verdaccio/tarball@14.0.0-next-9.46",
@@ -2325,14 +2325,6 @@
       "preview": null,
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "v10.3.1 🌈 preserve cache error class names in save-cache bundle",
-      "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.3.1",
-      "published": "2026-10-21T20:01:37Z",
-      "preview": "Changes This release includes a fix so that multiple concurrent workflows trying to upload the same cache no longer warn ##[warning]Failed to save: Unable to reserve cache with key ..., another job may be creating this cache. 🐛 Bug fixes fix: preserve cache error class names in save-cache bundle @dannyward630 ( #1093 ) 🧰 Maintenance chore: update known checksums for 0.13.4 @ github-actions[bot] ( #1099 ) chore: update known checksums for 0.13.2/0.13.3 @ github-actions[bot] ( #1098 ) chore: update known checksums for 0.13.1 @ github-actions[bot] ( #1094 ) Verify npm dependency signatures before",
-      "source": "setup-uv releases",
-      "category": "Python"
     }
   ]
 }
