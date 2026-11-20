@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-20T16:22:09Z",
-  "cutoff": "2026-10-21T16:22:04Z",
+  "generated": "2026-11-20T17:22:30Z",
+  "cutoff": "2026-10-21T17:22:24Z",
   "feed_count": 104,
   "item_count": 289,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.257.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.3",
+      "published": "2026-11-20T16:41:07Z",
+      "preview": "44.257.3 (2026-11-20) Bug Fixes presets/workarounds: parse four-part Eclipse Temurin versions ( #48252 ) ( 984343f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.257.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.2",
@@ -283,14 +291,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.254.1",
       "published": "2026-11-19T18:57:37Z",
       "preview": "44.254.1 (2026-11-19) Miscellaneous Chores deps: update dependency oxlint-tsgolint to v7.0.2007 (main) ( #48233 ) ( e1fd54d ) Build System deps: update opentelemetry-js monorepo to v0.301.2 (main) ( #48232 ) ( dec1c4c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.254.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.254.0",
-      "published": "2026-11-19T18:26:25Z",
-      "preview": "44.254.0 (2026-11-19) Features json-schema: only allow known cacheTtlOverride namespaces ( #48034 ) ( 596095f ) Bug Fixes config/validation: allow datasource-releases-* in cacheTtlOverride ( #48035 ) ( 921d2cc )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
