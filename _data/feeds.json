@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-21T01:23:00Z",
-  "cutoff": "2026-10-22T01:22:08Z",
+  "generated": "2026-11-21T02:25:18Z",
+  "cutoff": "2026-10-22T02:25:12Z",
   "feed_count": 104,
-  "item_count": 287,
+  "item_count": 286,
   "categories": [
     ".NET",
     "C/C++",
@@ -2308,14 +2308,6 @@
       "published": "2026-10-22T08:47:11Z",
       "preview": "Changes 🧰 Maintenance chore: update known checksums for 0.13.5 @ github-actions[bot] ( #1103 ) 📚 Documentation docs: update version references to v10.3.1 @ github-actions[bot] ( #1102 )",
       "source": "setup-uv releases",
-      "category": "Python"
-    },
-    {
-      "title": "0.13.5",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.5",
-      "published": "2026-10-22T01:35:54Z",
-      "preview": "Release Notes Released on 2026-10-21. Following uv 0.13.4 , which removed the affected eMudhra/emSign root from uv's own certificate store, this release updates the latest managed CPython builds for 3.11 and newer to python-build-standalone 20261021 , including the CPython 3.15.1 , 3.14.9 , and 3.13.17 security patch releases. These builds include pip 26.2.2 both preinstalled in the managed interpreter and bundled with ensurepip , which installs pip by default when you run python -m venv . Both copies use certifi 2026.10.19, which removes the same affected root. After upgrading uv, run uv pyth",
-      "source": "uv releases",
       "category": "Python"
     }
   ]
