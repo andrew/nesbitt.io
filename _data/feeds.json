@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21T02:25:18Z",
-  "cutoff": "2026-10-22T02:25:12Z",
+  "generated": "2026-11-21T04:23:26Z",
+  "cutoff": "2026-10-22T04:23:21Z",
   "feed_count": 104,
   "item_count": 286,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.257.6",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.6",
+      "published": "2026-11-21T03:49:45Z",
+      "preview": "44.257.6 (2026-11-21) Bug Fixes deps: update renovate-base-image to v13.174.3 (main) ( #48269 ) ( 71b41b1 ) Miscellaneous Chores deps: update dependency pnpm to v11.28.12 (main) ( #48262 ) ( 488862e ) deps: update dependency wcmatch to v11.2 [security] (main) ( #48263 ) ( bec99e2 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.68.2 (main) ( #48260 ) ( de6dcba ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.68.3 (main) ( #48268 ) ( 007292e ) deps: update slackapi/slack-github-action action to v4.1.0 (main) ( #48261 ) ( e79b58e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.8.2",
       "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.8.2",
@@ -293,14 +301,6 @@
       "preview": "The Gradle team is excited to announce Gradle 9.9.2. Here are the highlights of this release: Performance improvements for Kotlin DSL compilation Test filtering for non-method JUnit Platform tests Wrapper settings preserved on upgrade Predefined groups in the Problems API Read the Release Notes We would like to thank the following community members for their contributions to this release of Gradle: Aurimas , devareddy05 , DragonFSKY , fru1tworld , Ivan Khanas , Jeremy Schoemaker , John Burns , Labh R Jethe , Marcin Mycek , monkey , Nelson Osacky , Roberto Perez Alcolea , Róbert Papp , SeungTae",
       "source": "Gradle releases",
       "category": "Maven"
-    },
-    {
-      "title": "44.255.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.255.1",
-      "published": "2026-11-19T20:55:27Z",
-      "preview": "44.255.1 (2026-11-19) Bug Fixes deps: update dependency mkdocs-material to v9.8.2 (main) ( #48236 ) ( b01faa8 ) deps: update renovate-base-image to v13.173.1 (main) ( #48237 ) ( c3612fb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.36.0",
