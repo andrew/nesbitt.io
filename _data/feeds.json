@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-21T10:22:29Z",
-  "cutoff": "2026-10-22T10:22:23Z",
+  "generated": "2026-11-21T12:25:46Z",
+  "cutoff": "2026-10-22T12:25:39Z",
   "feed_count": 104,
   "item_count": 281,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.257.8",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.8",
+      "published": "2026-11-21T11:44:51Z",
+      "preview": "44.257.8 (2026-11-21) Bug Fixes deps: update renovate-base-image to v13.174.4 (main) ( #48273 ) ( 8172379 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "v2026.11.12: `mise audit` and `mise upgrade --vulnerable` for known vulnerabilities",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.12",
+      "published": "2026-11-21T11:26:01Z",
+      "preview": "New mise audit and mise upgrade --vulnerable commands check your tools against OSV.dev advisories and upgrade the affected ones. This release also adds mise prune --system , a per-tool bump = false option, and more flexible dotfile groups. It fixes lockfile handling for platforms a tool has no build for, PATH setup for locked task tools, and Temurin hotfix versions from .sdkmanrc . Added Vulnerability auditing mise audit checks each tool version your config uses against the OSV.dev database and lists the advisories that affect it. It exits 1 when it finds any, so you can use it to gate CI. mis",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
     {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-19-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-19-a",
@@ -45,14 +61,6 @@
       "preview": "Changed Allow pkginfo>=2.0 ( #11239 ). Report a comprehensible error if a configured repository is missing a URL ( #11081 , #11114 , #11242 ). Report a comprehensible error for an invalid --priority in poetry source add instead of failing with a KeyError ( #11175 ). Fixed Fix an issue where poetry install built an sdist before checking it against its lock file hash ( #11253 ). Fix an issue where poetry install rejected a distribution even though one of the hashes provided by the package index matched the hash locked for that file. ( #11131 ). Fix an issue where uninstalling a path dependency f",
       "source": "Poetry releases",
       "category": "Python"
-    },
-    {
-      "title": "v2026.11.12",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.12",
-      "published": "2026-11-21T09:23:02Z",
-      "preview": "(audit) add mise audit and mise upgrade --vulnerable by @jd …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-daemons-v2026.11.12",
@@ -219,14 +227,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.256.1",
       "published": "2026-11-20T06:52:35Z",
       "preview": "44.256.1 (2026-11-20) Bug Fixes deps: update dependency github/gh-actions-lock to v0.5.1 (main) ( #48239 ) ( 456dca9 ) deps: update renovate-base-image to v13.174.1 (main) ( #48243 ) ( 1eb9cb2 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.256.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.256.0",
-      "published": "2026-11-20T03:47:11Z",
-      "preview": "44.256.0 (2026-11-20) Features deps: update renovate-base-image to v13.174.0 (main) ( #48242 ) ( c5b6ec7 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
