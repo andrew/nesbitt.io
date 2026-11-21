@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-21T04:23:26Z",
-  "cutoff": "2026-10-22T04:23:21Z",
+  "generated": "2026-11-21T09:22:33Z",
+  "cutoff": "2026-10-22T09:22:28Z",
   "feed_count": 104,
-  "item_count": 286,
+  "item_count": 283,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,14 @@
   ],
   "items": [
     {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-21T09:05:10Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
       "title": "44.257.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.6",
       "published": "2026-11-21T03:49:45Z",
@@ -37,14 +45,6 @@
       "preview": "What's Changed chore: publish to the vlt registry with trusted publishing by @lukekarrys in #2190 Release v1.8.2 by @vltops in #2192 Full Changelog : v1.8.1...v1.8.2",
       "source": "vlt CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-20T20:04:10Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "Swift 6.4.3 Release",
@@ -2285,30 +2285,6 @@
       "preview": "1.16.7 (October 22, 2026) BUG FIXES: command/test: Avoid panic when testing schema w/ deprecated values ( #39406 ) NOTES: Terraform is now built with Go 1.26.10, which no longer trusts certificates issued through a set of compromised eMudhra intermediate CAs ( CVE-2026-111943 ) ( #39417 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "20261022t090000-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261022t090000-all",
-      "published": "2026-10-22T09:01:13Z",
-      "preview": "Deployment at 2026-10-22T09:00:23.984815Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
-    },
-    {
-      "title": "20261022t085500-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261022t085500-all",
-      "published": "2026-10-22T08:55:34Z",
-      "preview": "Deployment at 2026-10-22T08:55:29.883196Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
-    },
-    {
-      "title": "v10.3.2 🌈 update known checksums for 0.13.5",
-      "url": "https://github.com/astral-sh/setup-uv/releases/tag/v10.3.2",
-      "published": "2026-10-22T08:47:11Z",
-      "preview": "Changes 🧰 Maintenance chore: update known checksums for 0.13.5 @ github-actions[bot] ( #1103 ) 📚 Documentation docs: update version references to v10.3.1 @ github-actions[bot] ( #1102 )",
-      "source": "setup-uv releases",
-      "category": "Python"
     }
   ]
 }
