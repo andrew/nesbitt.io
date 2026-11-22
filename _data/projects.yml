@@ -3,9 +3,9 @@
   url: https://github.com/andrew/ultimate-awesome
   description: Every awesome list on every topic, including awesome lists of awesome
     lists, updated daily.
-  stars: 222
+  stars: 225
   language:
-  pushed_at: '2026-11-15T00:33:02Z'
+  pushed_at: '2026-11-22T00:32:38Z'
 - name: gitgres
   url: https://github.com/andrew/gitgres
   description: Store git objects and refs in PostgreSQL tables. Standard git push/clone
@@ -19,13 +19,13 @@
     about package management, software supply chain security, and open source infrastructure. '
   stars: 39
   language: JavaScript
-  pushed_at: '2026-11-15T06:29:15Z'
+  pushed_at: '2026-11-22T06:30:32Z'
 - name: gitballs
   url: https://github.com/andrew/gitballs
   description: Storing multiple tarballs in git to save space
   stars: 26
   language: Ruby
-  pushed_at: '2026-11-13T11:52:44Z'
+  pushed_at: '2026-11-16T19:18:59Z'
 - name: sidekiq-mcp
   url: https://github.com/andrew/sidekiq-mcp
   description: A Sidekiq plugin that provides an MCP (Model Context Protocol) server
@@ -46,14 +46,7 @@
     (PURLs) as defined by the PURL specification
   stars: 13
   language: Ruby
-  pushed_at: '2026-11-14T07:38:39Z'
-- name: vers
-  url: https://github.com/andrew/vers
-  description: A Ruby gem for parsing, comparing and sorting versions according to
-    the VERS spec.
-  stars: 13
-  language: Ruby
-  pushed_at: '2026-10-30T16:30:19Z'
+  pushed_at: '2026-11-17T10:01:28Z'
 - name: omni_git
   url: https://github.com/andrew/omni_git
   description: A PostgreSQL extension that stores git repositories in database tables
@@ -61,24 +54,31 @@
   stars: 13
   language: PLpgSQL
   pushed_at: '2026-03-08T20:14:28Z'
-- name: swhid
-  url: https://github.com/andrew/swhid
-  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
-  stars: 12
+- name: vers
+  url: https://github.com/andrew/vers
+  description: A Ruby gem for parsing, comparing and sorting versions according to
+    the VERS spec.
+  stars: 13
   language: Ruby
-  pushed_at: '2026-11-08T18:40:55Z'
+  pushed_at: '2026-11-16T09:35:05Z'
 - name: ruby-upgrade-action
   url: https://github.com/andrew/ruby-upgrade-action
   description: GitHub action to upgrade version of Ruby in various places to the latest
   stars: 12
   language: Ruby
-  pushed_at: '2026-10-25T09:12:43Z'
+  pushed_at: '2026-11-22T00:03:15Z'
 - name: go-bundler
   url: https://github.com/andrew/go-bundler
   description: Go-style imports for Ruby
   stars: 12
   language: Ruby
   pushed_at: '2026-04-27T10:05:30Z'
+- name: swhid
+  url: https://github.com/andrew/swhid
+  description: Generate and parse SoftWare Hash IDentifiers (SWHIDs)
+  stars: 12
+  language: Ruby
+  pushed_at: '2026-11-15T18:08:00Z'
 - name: state-of-oss-funding
   url: https://github.com/andrew/state-of-oss-funding
   description: 'The State of OSS Funding data: Insights from ecosyste.ms - talk at
@@ -93,6 +93,12 @@
   stars: 11
   language: HTML
   pushed_at: '2026-11-04T09:38:12Z'
+- name: json-schema-diff
+  url: https://github.com/andrew/json-schema-diff
+  description: Semantic diff for JSON files using JSON Schema metadata
+  stars: 10
+  language: Ruby
+  pushed_at: '2026-11-14T07:38:36Z'
 - name: typosquatting
   url: https://github.com/andrew/typosquatting
   description: Detect potential typosquatting packages across package ecosystems
@@ -105,12 +111,6 @@
   stars: 10
   language: Ruby
   pushed_at: '2026-11-11T09:22:11Z'
-- name: json-schema-diff
-  url: https://github.com/andrew/json-schema-diff
-  description: Semantic diff for JSON files using JSON Schema metadata
-  stars: 10
-  language: Ruby
-  pushed_at: '2026-11-14T07:38:36Z'
 - name: PBOM
   url: https://github.com/andrew/PBOM
   description: Paper Bill of Materials (PBOM) - Generate a paper bill of materials
@@ -124,12 +124,6 @@
   stars: 8
   language: Ruby
   pushed_at: '2026-11-14T07:37:37Z'
-- name: changelog-parser
-  url: https://github.com/andrew/changelog-parser
-  description: Parse changelog files into structured data
-  stars: 7
-  language: Ruby
-  pushed_at: '2026-04-27T10:05:27Z'
 - name: zizmor-research
   url: https://github.com/andrew/zizmor-research
   description: zizmor analysis of 31,916 github actions using alpha of ecosyste.ms
@@ -137,6 +131,12 @@
   stars: 7
   language:
   pushed_at: '2025-06-13T20:39:41Z'
+- name: changelog-parser
+  url: https://github.com/andrew/changelog-parser
+  description: Parse changelog files into structured data
+  stars: 7
+  language: Ruby
+  pushed_at: '2026-04-27T10:05:27Z'
 - name: swh-git
   url: https://github.com/andrew/swh-git
   description: Clone archived repositories from Software Heritage using ordinary Git.
@@ -154,13 +154,13 @@
   description: Parse, generate, and validate Software Bill of Materials (SBOM)
   stars: 5
   language: Ruby
-  pushed_at: '2026-11-14T07:38:24Z'
+  pushed_at: '2026-11-20T14:20:35Z'
 - name: weekend-at-bernies
   url: https://github.com/andrew/weekend-at-bernies
   description: Data collection for Weekend at Bernie's blog post
   stars: 5
   language: Ruby
-  pushed_at: '2026-11-14T07:37:30Z'
+  pushed_at: '2026-11-15T18:36:58Z'
 - name: homebrew-actions
   url: https://github.com/andrew/homebrew-actions
   description: Install GitHub Actions from a Homebrew tap
@@ -173,25 +173,12 @@
   stars: 4
   language: Shell
   pushed_at: '2026-03-06T09:17:43Z'
-- name: vid
-  url: https://github.com/andrew/vid
-  description: Content-addressed vulnerability identifiers
-  stars: 4
-  language: Go
-  pushed_at: '2026-11-11T12:34:09Z'
 - name: bundler-resolver-logger
   url: https://github.com/andrew/bundler-resolver-logger
   description: Experimental structured tracing for Bundler's PubGrub resolver
   stars: 4
   language: Ruby
   pushed_at: '2026-07-16T21:20:49Z'
-- name: critical-ai-scan
-  url: https://github.com/andrew/critical-ai-scan
-  description: Survey of explicitly disclosed AI involvement in the git history of
-    critical open source repositories, using the CHAOSS disclosure detectors
-  stars: 4
-  language: Go
-  pushed_at: '2026-08-03T16:39:29Z'
 - name: package-name-prefixes
   url: https://github.com/andrew/package-name-prefixes
   description: Prefix analysis of package names across PyPI, npm, crates.io, rubygems,
@@ -199,12 +186,19 @@
   stars: 4
   language: Ruby
   pushed_at: '2026-07-23T10:10:30Z'
-- name: foss-backstage
-  url: https://github.com/andrew/foss-backstage
-  description: Is InnerSource Commons good for open source?
-  stars: 3
-  language: Ruby
-  pushed_at: '2026-11-14T07:38:49Z'
+- name: critical-ai-scan
+  url: https://github.com/andrew/critical-ai-scan
+  description: Survey of explicitly disclosed AI involvement in the git history of
+    critical open source repositories, using the CHAOSS disclosure detectors
+  stars: 4
+  language: Go
+  pushed_at: '2026-08-03T16:39:29Z'
+- name: vid
+  url: https://github.com/andrew/vid
+  description: Content-addressed vulnerability identifiers
+  stars: 4
+  language: Go
+  pushed_at: '2026-11-11T12:34:09Z'
 - name: diffoscope
   url: https://github.com/andrew/diffoscope
   description: Ruby bindings for diffoscope - Compare packages, tarballs, files, URLs,
@@ -212,24 +206,12 @@
   stars: 3
   language: Ruby
   pushed_at: '2026-11-14T07:38:35Z'
-- name: jekyll-stats
-  url: https://github.com/andrew/jekyll-stats
-  description: Jekyll plugin that generates site statistics
-  stars: 3
-  language: Ruby
-  pushed_at: '2026-11-13T16:54:31Z'
-- name: sarif
-  url: https://github.com/andrew/sarif
-  description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
-  stars: 3
-  language: Ruby
-  pushed_at: '2026-06-19T10:06:04Z'
 - name: swhid-go
   url: https://github.com/andrew/swhid-go
   description: A Go library and CLI for computing Software Heritage Identifiers (SWHIDs).
   stars: 3
   language: Go
-  pushed_at: '2026-11-02T09:21:50Z'
+  pushed_at: '2026-11-15T17:03:58Z'
 - name: clone
   url: https://github.com/andrew/clone
   description: Clone git repositories into ~/code/<owner>/<repo>, skipping ones you
@@ -237,6 +219,24 @@
   stars: 3
   language: Go
   pushed_at: '2026-11-09T18:07:40Z'
+- name: sarif
+  url: https://github.com/andrew/sarif
+  description: A Ruby SDK for SARIF (Static Analysis Results Interchange Format) 2.1.0.
+  stars: 3
+  language: Ruby
+  pushed_at: '2026-06-19T10:06:04Z'
+- name: foss-backstage
+  url: https://github.com/andrew/foss-backstage
+  description: Is InnerSource Commons good for open source?
+  stars: 3
+  language: Ruby
+  pushed_at: '2026-11-14T07:38:49Z'
+- name: jekyll-stats
+  url: https://github.com/andrew/jekyll-stats
+  description: Jekyll plugin that generates site statistics
+  stars: 3
+  language: Ruby
+  pushed_at: '2026-11-13T16:54:31Z'
 - name: gitlab-faraday
   url: https://github.com/andrew/gitlab-faraday
   description: Ruby wrapper for the GitLab REST API, a fork of github.com/NARKOZ/gitlab
@@ -244,12 +244,13 @@
   stars: 2
   language: Ruby
   pushed_at: '2026-08-09T17:36:16Z'
-- name: grass-ruby
-  url: https://github.com/andrew/grass-ruby
-  description: A fast Sass compiler for Ruby, powered by grass (Rust)
+- name: oss-community-benchmarks
+  url: https://github.com/andrew/oss-community-benchmarks
+  description: A benchmark framework where maintainers define what good AI-generated
+    code looks like for their ecosystem.
   stars: 2
-  language: Ruby
-  pushed_at: '2026-04-27T10:35:09Z'
+  language:
+  pushed_at: '2025-11-26T18:50:44Z'
 - name: dirhash
   url: https://github.com/andrew/dirhash
   description: Generate Go module zip digests compatible with sum.golang.org
@@ -263,20 +264,39 @@
   stars: 2
   language: Ruby
   pushed_at: '2026-11-14T07:37:42Z'
-- name: oss-community-benchmarks
-  url: https://github.com/andrew/oss-community-benchmarks
-  description: A benchmark framework where maintainers define what good AI-generated
-    code looks like for their ecosystem.
+- name: grass-ruby
+  url: https://github.com/andrew/grass-ruby
+  description: A fast Sass compiler for Ruby, powered by grass (Rust)
   stars: 2
-  language:
-  pushed_at: '2025-11-26T18:50:44Z'
-- name: package-manager-library-reuse
-  url: https://github.com/andrew/package-manager-library-reuse
-  description: Survey of which libraries package managers themselves depend on, vendor,
-    or link against
+  language: Ruby
+  pushed_at: '2026-04-27T10:35:09Z'
+- name: swh-critical
+  url: https://github.com/andrew/swh-critical
+  description: Software Heritage coverage checks for critical package repositories
   stars: 1
   language: Ruby
-  pushed_at: '2026-08-10T14:30:00Z'
+  pushed_at: '2026-11-14T18:33:08Z'
+- name: swhid-wasm
+  url: https://github.com/andrew/swhid-wasm
+  description: Calculate Software Heritage identifiers for package archives in the
+    browser with Go and WebAssembly.
+  stars: 1
+  language: JavaScript
+  pushed_at: '2026-11-17T09:41:21Z'
+- name: swh-go
+  url: https://github.com/andrew/swh-go
+  description: Go client for the Software Heritage Web API, generated from an OpenAPI
+    description with hand-written pagination, rate limiting and auth
+  stars: 1
+  language: Go
+  pushed_at: '2026-11-17T09:36:03Z'
+- name: swh-openapi
+  url: https://github.com/andrew/swh-openapi
+  description: An OpenAPI description of the Software Heritage Web API, generated
+    from swh-web's own endpoint documentation
+  stars: 1
+  language: Python
+  pushed_at: '2026-11-17T03:14:21Z'
 - name: code-commons
   url: https://github.com/andrew/code-commons
   description: Slides for my CodeCommons talk on linking package identities and ecosyste.ms
@@ -284,30 +304,17 @@
   stars: 1
   language: JavaScript
   pushed_at: '2026-09-30T17:53:16Z'
-- name: swhid-wasm
-  url: https://github.com/andrew/swhid-wasm
-  description: Calculate Software Heritage identifiers for package archives in the
-    browser with Go and WebAssembly.
-  stars: 1
-  language: JavaScript
-  pushed_at: '2026-11-10T11:33:00Z'
-- name: swh-go
-  url: https://github.com/andrew/swh-go
-  description: Go client for the Software Heritage Web API, generated from an OpenAPI
-    description with hand-written pagination, rate limiting and auth
-  stars: 1
-  language: Go
-  pushed_at: '2026-11-10T09:46:02Z'
-- name: swh-openapi
-  url: https://github.com/andrew/swh-openapi
-  description: An OpenAPI description of the Software Heritage Web API, generated
-    from swh-web's own endpoint documentation
-  stars: 1
-  language: Python
-  pushed_at: '2026-11-10T03:14:36Z'
-- name: swh-critical
-  url: https://github.com/andrew/swh-critical
-  description: Software Heritage coverage checks for critical package repositories
+- name: package-manager-library-reuse
+  url: https://github.com/andrew/package-manager-library-reuse
+  description: Survey of which libraries package managers themselves depend on, vendor,
+    or link against
   stars: 1
   language: Ruby
-  pushed_at: '2026-11-14T18:33:08Z'
+  pushed_at: '2026-08-10T14:30:00Z'
+- name: nyu-lecture
+  url: https://github.com/andrew/nyu-lecture
+  description: 'Ten Years of Mapping Open Source: Lessons for Supply Chain Security.
+    NYU lecture slides.'
+  stars: 0
+  language: HTML
+  pushed_at: '2026-11-21T16:00:11Z'
