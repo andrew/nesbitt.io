@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-22T01:21:52Z",
-  "cutoff": "2026-10-23T01:21:46Z",
+  "generated": "2026-11-22T06:30:31Z",
+  "cutoff": "2026-10-23T06:30:27Z",
   "feed_count": 104,
-  "item_count": 285,
+  "item_count": 283,
   "categories": [
     ".NET",
     "C/C++",
@@ -2285,22 +2285,6 @@
       "preview": "What's Changed Component updates ⬆️ bump base version for v2.14.6 by @wy65701436 in #24115 Release 2.14 bump go trivy distribution by @wy65701436 in #24122 fix(webhook): allow private network access by default ( #24082 ) by @wy65701436 in #24129 fix(prepare): expose the legacy signer pull switch in harbor.yml ( #24 … by @wy65701436 in #24130 Cherry pick upload location origin 2.14 ( #24114 ) by @wy65701436 in #24131 fix(contenttrust): allow legacy signer pull by default to avoid regre… by @wy65701436 in #24132 (cherry-pick) support configurable PIP_INDEX_URL for swagger client build and make o",
       "source": "Harbor releases",
       "category": "Containers"
-    },
-    {
-      "title": "v1.6.0",
-      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.6.0",
-      "published": "2026-10-23T06:12:50Z",
-      "preview": "What's Changed fix(graph): keep shared bin links working on uninstall by @drawliin in #2023 semver: parse ^0, ^0.x and ^0.0 as X-ranges, not the exact version 0.0.0 by @evert in #2041 cli-sdk: add --global (-g) to install, uninstall and list global packages by @ruyadorno in #1984 cli-sdk: link global bins next to vlt by @ruyadorno in #2002 cli-sdk: add vlt setup --path by @ruyadorno in #2005 cli-sdk: support Windows in vlt setup --path by @ruyadorno in #2006 cli-sdk: update vlt with vlt install -g vlt by @ruyadorno in #2007 cli-sdk: offer PATH setup at the end of vlt setup by @ruyadorno in #20",
-      "source": "vlt CLI releases",
-      "category": "JavaScript"
-    },
-    {
-      "title": "PyPI now limits versions to 128 characters",
-      "url": "https://blog.pypi.org/posts/2026-10-23-version-length-limit/",
-      "published": "2026-10-23T06:09:00Z",
-      "preview": "PyPI now rejects new uploads whose version is longer than 128 characters . This affects almost no one: across the roughly 9.9 million releases on PyPI, only 2 have a version that long. Releases that are already on PyPI stay exactly as they are, and installing them works the same as before. Why add a limit? The rules for Python version numbers have never set a maximum length. Nearly every project uses short, ordinary versions. Half of all releases on PyPI have a version of 5 characters or fewer, like 1.4.2 , and 99% have 20 characters or fewer. The longest one on PyPI today is 217 characters. V",
-      "source": "PyPI Blog",
-      "category": "Python"
     }
   ]
 }
