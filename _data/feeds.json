@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-22T06:30:31Z",
-  "cutoff": "2026-10-23T06:30:27Z",
+  "generated": "2026-11-22T07:22:17Z",
+  "cutoff": "2026-10-23T07:22:12Z",
   "feed_count": 104,
-  "item_count": 283,
+  "item_count": 282,
   "categories": [
     ".NET",
     "C/C++",
@@ -2277,14 +2277,6 @@
       "preview": "Backwards incompatible changes Require --key in mix hex.organization auth ORGANIZATION . For development authenticate with mix hex.user auth , which gives access to all your organizations. For CI generate an organization key with mix hex.organization key ORGANIZATION generate and pass it with --key Exchange the key given to mix hex.organization auth ORGANIZATION --key KEY for a short-lived token and store only the token. Hex uses the token for about 25 minutes and doesn't refresh it, so in CI run the command right before fetching dependencies Stop authenticating to organization repositories wi",
       "source": "Hex releases",
       "category": "Elixir"
-    },
-    {
-      "title": "v2.14.6",
-      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.6",
-      "published": "2026-10-23T07:08:20Z",
-      "preview": "What's Changed Component updates ⬆️ bump base version for v2.14.6 by @wy65701436 in #24115 Release 2.14 bump go trivy distribution by @wy65701436 in #24122 fix(webhook): allow private network access by default ( #24082 ) by @wy65701436 in #24129 fix(prepare): expose the legacy signer pull switch in harbor.yml ( #24 … by @wy65701436 in #24130 Cherry pick upload location origin 2.14 ( #24114 ) by @wy65701436 in #24131 fix(contenttrust): allow legacy signer pull by default to avoid regre… by @wy65701436 in #24132 (cherry-pick) support configurable PIP_INDEX_URL for swagger client build and make o",
-      "source": "Harbor releases",
-      "category": "Containers"
     }
   ]
 }
