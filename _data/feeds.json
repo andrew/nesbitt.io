@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-22T12:26:07Z",
-  "cutoff": "2026-10-23T12:26:01Z",
+  "generated": "2026-11-22T14:22:24Z",
+  "cutoff": "2026-10-23T14:22:18Z",
   "feed_count": 104,
-  "item_count": 281,
+  "item_count": 283,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,18 +23,26 @@
   ],
   "items": [
     {
-      "title": "v11.29.0",
+      "title": "pnpm 11.29",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v11.29.0",
-      "published": "2026-11-22T12:03:05Z",
-      "preview": "=v11.29.0",
+      "published": "2026-11-22T13:58:26Z",
+      "preview": "pnpm 11.29.0 stops reading otp from config files, rejects local filesystem dependencies declared by registry packages, adds the --minimum-release-age option, and recreates an incompatible node_modules without a TTY. This release carries several security fixes. Minor Changes otp is no longer read from any config file. Pass --otp on the command line, or set PNPM_CONFIG_OTP . A pnpm-workspace.yaml or a global config.yaml that carries otp is ignored, with a warning naming those two channels. pnpm config set otp fails with ERR_PNPM_CONFIG_SET_NOT_A_FILE_SETTING instead of writing an entry no loader",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
     {
-      "title": "v12.23.0",
+      "title": "pnpr 0.1.0-alpha.22",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.22",
+      "published": "2026-11-22T13:32:02Z",
+      "preview": "pnpr 0.1.0-alpha.22 removes platform variants, enforces package grants on owner changes, upload sessions, and cached lockfile verdicts, and returns freed memory to the operating system. Minor Changes Removed platform variants. A package version has one archive again. pnpm no longer reads publishConfig.variants or the variant field of package.json . pnpm pack --variant and the --upload-variant , --variant-integrity and --no-variants options of pnpm publish are gone. pnpr no longer accepts variant archives with a version or serves them at <name>@<version>/variants/<tag> . To ship builds for seve",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.23",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.23.0",
-      "published": "2026-11-22T12:02:57Z",
-      "preview": "=v12.23.0",
+      "published": "2026-11-22T13:22:32Z",
+      "preview": "This release adds pnpm edit , pnpm catalog migrate , and pnpm link --hard , and moves deprecation warnings into the install summary. Platform variants are removed, so packages that publish them need to move to optionalDependencies . It also carries security fixes: pnpm no longer reads otp from config files, and it sends registry credentials only over HTTPS. Minor Changes Packing and publishing Removed platform variants. A package version has one archive again. pnpm no longer reads publishConfig.variants or the variant field of package.json . pnpm pack --variant and the --upload-variant , --var",
       "source": "pnpm releases",
       "category": "JavaScript"
     },
@@ -55,20 +63,28 @@
       "category": "JavaScript"
     },
     {
-      "title": "pnpr@0.1.0-alpha.22",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/pnpr%400.1.0-alpha.22",
-      "published": "2026-11-22T11:01:53Z",
-      "preview": "=pnpr@0.1.0-alpha.22",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
       "published": "2026-11-22T09:21:17Z",
       "preview": "No release body provided.",
       "source": "Cabal releases",
       "category": "Registries"
+    },
+    {
+      "title": "pnpm 11.29.0",
+      "url": "https://pnpm.io/blog/releases/11.29.0",
+      "published": "2026-11-22T00:00:00Z",
+      "preview": "pnpm 11.29.0 stops reading otp from config files, rejects local filesystem dependencies declared by registry packages, adds the --minimum-release-age option, and recreates an incompatible node_modules without a TTY. This release carries several security fixes.",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
+    },
+    {
+      "title": "pnpm 12.23.0",
+      "url": "https://pnpm.io/blog/releases/12.23.0",
+      "published": "2026-11-22T00:00:00Z",
+      "preview": "This release adds pnpm edit, pnpm catalog migrate, and pnpm link --hard, and moves deprecation warnings into the install summary. Platform variants are removed, so packages that publish them need to move to optionalDependencies. It also carries security fixes: pnpm no longer reads otp from...",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "2026-11-21",
