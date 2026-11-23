@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-23T19:22:33Z",
-  "cutoff": "2026-10-24T19:21:50Z",
+  "generated": "2026-11-23T21:22:59Z",
+  "cutoff": "2026-10-24T21:22:54Z",
   "feed_count": 104,
   "item_count": 283,
   "categories": [
@@ -22,6 +22,94 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v2026.11.13",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.13",
+      "published": "2026-11-23T21:03:04Z",
+      "preview": "(backend) warn about tool options core tools and dotnet do not …",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.11.13",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.13",
+      "published": "2026-11-23T21:02:05Z",
+      "preview": "Release mise-oci 2026.11.13",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-v2026.11.13",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.13",
+      "published": "2026-11-23T21:01:45Z",
+      "preview": "Release mise-system 2026.11.13",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "vfox-v2026.11.13",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.13",
+      "published": "2026-11-23T21:01:22Z",
+      "preview": "Release vfox 2026.11.13",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.11.13",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.13",
+      "published": "2026-11-23T21:00:59Z",
+      "preview": "Release mise-system-packages 2026.11.13",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.11.13",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.13",
+      "published": "2026-11-23T21:00:27Z",
+      "preview": "Release mise-ui 2026.11.13",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.11.13",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.13",
+      "published": "2026-11-23T21:00:09Z",
+      "preview": "Release mise-util 2026.11.13",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.11.13",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.13",
+      "published": "2026-11-23T20:59:51Z",
+      "preview": "Release mise-sigstore 2026.11.13",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.11.13",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.13",
+      "published": "2026-11-23T20:59:30Z",
+      "preview": "Release mise-settings 2026.11.13",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-dotenv-v2026.11.1",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-dotenv-v2026.11.1",
+      "published": "2026-11-23T20:58:45Z",
+      "preview": "Release mise-dotenv 2026.11.1",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.258.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.258.2",
+      "published": "2026-11-23T20:48:11Z",
+      "preview": "44.258.2 (2026-11-23) Documentation clarify packageFile template value ( #48146 ) ( b4b8c69 ) Miscellaneous Chores deps: update linters to v1.94.0 (main) ( #48308 ) ( d7353a4 ) Code Refactoring manager/npm: share dep type checks ( #46635 ) ( d87992d ) Build System deps: update dependency cronstrue to v3.40.0 (main) ( #48317 ) ( 3a879f6 ) deps: update dependency simple-git to v4.1.0 (main) ( #48315 ) ( 366c82b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.13.10",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.10",
@@ -239,14 +327,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "v2026.11.12: `mise audit` and `mise upgrade --vulnerable` for known vulnerabilities",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.12",
-      "published": "2026-11-21T11:26:01Z",
-      "preview": "New mise audit and mise upgrade --vulnerable commands check your tools against OSV.dev advisories and upgrade the affected ones. This release also adds mise prune --system , a per-tool bump = false option, and more flexible dotfile groups. It fixes lockfile handling for platforms a tool has no build for, PATH setup for locked task tools, and Temurin hotfix versions from .sdkmanrc . Added Vulnerability auditing mise audit checks each tool version your config uses against the OSV.dev database and lists the advisories that affect it. It exits 1 when it finds any, so you can use it to gate CI. mis",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-19-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-19-a",
       "published": "2026-11-21T09:55:27Z",
@@ -269,78 +349,6 @@
       "preview": "Changed Allow pkginfo>=2.0 ( #11239 ). Report a comprehensible error if a configured repository is missing a URL ( #11081 , #11114 , #11242 ). Report a comprehensible error for an invalid --priority in poetry source add instead of failing with a KeyError ( #11175 ). Fixed Fix an issue where poetry install built an sdist before checking it against its lock file hash ( #11253 ). Fix an issue where poetry install rejected a distribution even though one of the hashes provided by the package index matched the hash locked for that file. ( #11131 ). Fix an issue where uninstalling a path dependency f",
       "source": "Poetry releases",
       "category": "Python"
-    },
-    {
-      "title": "mise-daemons-v2026.11.12",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.11.12",
-      "published": "2026-11-21T09:22:31Z",
-      "preview": "Release mise-daemons 2026.11.12",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-oci-v2026.11.12",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.12",
-      "published": "2026-11-21T09:22:13Z",
-      "preview": "Release mise-oci 2026.11.12",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.11.12",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.12",
-      "published": "2026-11-21T09:21:54Z",
-      "preview": "Release mise-system 2026.11.12",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.11.12",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.12",
-      "published": "2026-11-21T09:21:34Z",
-      "preview": "Release vfox 2026.11.12",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.11.12",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.12",
-      "published": "2026-11-21T09:21:15Z",
-      "preview": "Release mise-system-packages 2026.11.12",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.11.12",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.12",
-      "published": "2026-11-21T09:20:55Z",
-      "preview": "Release mise-ui 2026.11.12",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.11.12",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.12",
-      "published": "2026-11-21T09:20:38Z",
-      "preview": "Release mise-util 2026.11.12",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.11.12",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.12",
-      "published": "2026-11-21T09:20:18Z",
-      "preview": "Release mise-sigstore 2026.11.12",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.11.12",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.12",
-      "published": "2026-11-21T09:20:00Z",
-      "preview": "Release mise-settings 2026.11.12",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "44.257.6",
@@ -387,14 +395,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.3",
       "published": "2026-11-20T16:41:07Z",
       "preview": "44.257.3 (2026-11-20) Bug Fixes presets/workarounds: parse four-part Eclipse Temurin versions ( #48252 ) ( 984343f )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.257.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.2",
-      "published": "2026-11-20T15:32:43Z",
-      "preview": "44.257.2 (2026-11-20) Bug Fixes manager/mix: pick erlang from the elixir requirement ( #48042 ) ( 3e2134a ) versioning/hex: convert every clause of multi-part requirements ( #48132 ) ( fe6e5aa )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
