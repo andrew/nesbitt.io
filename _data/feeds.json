@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-23T09:27:55Z",
-  "cutoff": "2026-10-24T09:27:49Z",
+  "generated": "2026-11-23T11:22:37Z",
+  "cutoff": "2026-10-24T11:22:31Z",
   "feed_count": 104,
   "item_count": 282,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.258.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.258.1",
+      "published": "2026-11-23T10:42:28Z",
+      "preview": "44.258.1 (2026-11-23) Bug Fixes manager/nix: pass the GitHub token in the environment, not on the command line ( #48289 ) ( 91f4843 ) Documentation fix Markdown heading levels ( #48301 ) ( ac9cc0c ) unify development setup guidance ( #48193 ) ( 1200d30 ) update references to github/gh-actions-lock to v0.5.1 (main) ( #48294 ) ( 3224da9 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.258.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.258.0",
@@ -355,14 +363,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.2",
       "published": "2026-11-20T15:32:43Z",
       "preview": "44.257.2 (2026-11-20) Bug Fixes manager/mix: pick erlang from the elixir requirement ( #48042 ) ( 3e2134a ) versioning/hex: convert every clause of multi-part requirements ( #48132 ) ( fe6e5aa )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.257.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.1",
-      "published": "2026-11-20T14:54:43Z",
-      "preview": "44.257.1 (2026-11-20) Bug Fixes changelog: don't mutate cached release notes ( #48142 ) ( 549fe07 ) Miscellaneous Chores deps: update astral-sh/setup-uv action to v10.4.0 (main) ( #48250 ) ( adb9bea )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
