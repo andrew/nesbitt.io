@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-23T13:24:07Z",
-  "cutoff": "2026-10-24T13:24:02Z",
+  "generated": "2026-11-23T18:24:27Z",
+  "cutoff": "2026-10-24T18:24:21Z",
   "feed_count": 104,
-  "item_count": 283,
+  "item_count": 284,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.19.0",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.19.0",
+      "published": "2026-11-23T18:09:54Z",
+      "preview": "Features pipx list shows each environment's shell completions and identifies missing or misplaced completion files ( #2495 ) by @gaborbernat and @kunalkshah1 . Bug fixes Continue pipx interpreter upgrade across remaining standalone builds and environments when upgrading one fails, and report failed environments alongside any completed upgrades in --output json ( #2481 ) by @Cyber-Marty and @gaborbernat . Honor repeated --only-binary and --no-binary resets in pipx run --backend uv for apps and scripts ( #2483 ) by @xixi-box and @gaborbernat . The reinstall hint from pipx upgrade keeps --suffix ",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "7.0.16",
       "url": "https://github.com/Homebrew/brew/releases/tag/7.0.16",
@@ -821,6 +829,14 @@
       "preview": "RubyGems Changes already released in 4.0.x are not repeated here. Features: Support content addressable gems in Gem::PackageTask . Pull request #9897 by Harriet Oughton, Gira Chawda and Jenny Shen Add --content-addressable to gem build and make --ruby-abi only set the Ruby ABI. Pull request #9906 by Harriet Oughton Add content addressable gems support. Pull request #9773 by Jenny Shen, Harriet Oughton and Gira Chawda Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Rubygems: Add PQC ML-DSA support for cryptographically signed gems workflow. Pull ",
       "source": "RubyGems releases",
       "category": "Ruby"
+    },
+    {
+      "title": "Securing Python projects from supply-chain attacks",
+      "url": "https://astral.sh/blog/securing-from-supply-chain-attacks",
+      "published": "2026-11-16T00:00:00Z",
+      "preview": "Practical ways to harden Python projects and GitHub Actions against supply-chain attacks using hash pins, lockfiles, and dependency cooldowns.",
+      "source": "Astral Blog",
+      "category": "Python"
     },
     {
       "title": "4.1.0 Released",
@@ -1965,14 +1981,6 @@
       "preview": "What's Changed package-info: fix cold install of hosted git deps with a ref by @ruyadorno in #2057 query: fix #name selection by @ruyadorno in #2009 docs: update pnpm12 mirror notes by @vltbaudbot in #1893 package-info: keep .tar.br integrity on store hits by @ruyadorno in #2011 docs: lint agent skill docs links and frontmatter by @ruyadorno in #2012 cli-sdk: make offline telemetry fail fast and quietly by @ruyadorno in #2014 cli-sdk: include nested files matched by files globs in pack by @ruyadorno in #2032 dot-prop: don't splice array index 0 when deleting a missing property by @pujitha24 in",
       "source": "vlt CLI releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "1.18.10",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.10",
-      "published": "2026-10-29T22:11:40Z",
-      "preview": "Changes Error, warning, and help messages now state what pipx found and what to run next, without hedges such as \"already seems to be installed\" or \"Perhaps\". Update scripts that match the old message text ( #2376 ) by @gaborbernat . Bug fixes A pipx that changed its own environment, through pipx upgrade pipx or pipx reinstall pipx for example, no longer crashes with an ImportError when another pipx command empties the trash while it is still running, such as during the rest of pipx upgrade-all . The copy of its environment it imports from now stays in the trash until the process exits ( #2397",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "v1.13.5",
