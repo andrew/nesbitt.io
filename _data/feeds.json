@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-23T18:24:27Z",
-  "cutoff": "2026-10-24T18:24:21Z",
+  "generated": "2026-11-23T19:22:33Z",
+  "cutoff": "2026-10-24T19:21:50Z",
   "feed_count": 104,
-  "item_count": 284,
+  "item_count": 283,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.13.10",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.10",
+      "published": "2026-11-23T19:10:12Z",
+      "preview": "1.13.10 SECURITY ADVISORIES: Upgrade Go toolchain to 1.27.4 to address GO-2026-6859, an HTTP/1 server crash due to a MaxBytesReader header race. ( #4831 ) BUG FIXES: Overriding resources for indexed modules now works correctly during tofu test . ( #4859 ) Fix symbol libraries preventing plan when used in modules. ( #4816 Fix symbol libraries crash when uninitialized. ( #4861 ) Full Changelog : v1.13.9...v1.13.10",
+      "source": "OpenTofu releases",
+      "category": "Infrastructure as Code"
+    },
     {
       "title": "1.19.0",
       "url": "https://github.com/pypa/pipx/releases/tag/1.19.0",
@@ -61,6 +69,14 @@
       "preview": "updates sbtn on x86-64 Linux is statically linked to musl, take 2 by @francisdb in #10070 deps: Update Coursier to 2.1.27 by @eed3si9n in #10090 🐛 bug fixes fix: Honor csrMavenDependencyOverride by @anatoliykmetyuk in #10074 fix: Send Content-Length on HTTP/2 uploads @eugkhp in eed3si9n/gigahorse#132 fix: Eliminate final-field mutation warnings in forked tests by @anatoliykmetyuk in #10080 fix: Fix packageInternal failing during concurrent copyResources by @seveneves in #10091 fix: Invalidate cached tests on external classpath changes by @anatoliykmetyuk in #10093 fix: Fix build load failing o",
       "source": "sbt releases",
       "category": "Maven"
+    },
+    {
+      "title": "Securing Python projects from supply-chain attacks",
+      "url": "https://astral.sh/blog/securing-from-supply-chain-attacks",
+      "published": "2026-11-23T00:00:00Z",
+      "preview": "Practical ways to harden Python projects and GitHub Actions against supply-chain attacks using hash pins, lockfiles, and dependency cooldowns.",
+      "source": "Astral Blog",
+      "category": "Python"
     },
     {
       "title": "pnpm 11.29",
@@ -829,14 +845,6 @@
       "preview": "RubyGems Changes already released in 4.0.x are not repeated here. Features: Support content addressable gems in Gem::PackageTask . Pull request #9897 by Harriet Oughton, Gira Chawda and Jenny Shen Add --content-addressable to gem build and make --ruby-abi only set the Ruby ABI. Pull request #9906 by Harriet Oughton Add content addressable gems support. Pull request #9773 by Jenny Shen, Harriet Oughton and Gira Chawda Let the gem and bundle cooldown settings cover each other. Pull request #9852 by Hiroshi SHIBATA Rubygems: Add PQC ML-DSA support for cryptographically signed gems workflow. Pull ",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "Securing Python projects from supply-chain attacks",
-      "url": "https://astral.sh/blog/securing-from-supply-chain-attacks",
-      "published": "2026-11-16T00:00:00Z",
-      "preview": "Practical ways to harden Python projects and GitHub Actions against supply-chain attacks using hash pins, lockfiles, and dependency cooldowns.",
-      "source": "Astral Blog",
-      "category": "Python"
     },
     {
       "title": "4.1.0 Released",
@@ -2007,14 +2015,6 @@
       "category": "Infrastructure as Code"
     },
     {
-      "title": "v1.12.10",
-      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.12.10",
-      "published": "2026-10-29T17:12:07Z",
-      "preview": "1.12.10",
-      "source": "OpenTofu releases",
-      "category": "Infrastructure as Code"
-    },
-    {
       "title": "v1.13.3",
       "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.3",
       "published": "2026-10-29T16:48:30Z",
@@ -2285,14 +2285,6 @@
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-23-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "v1.3.6",
-      "url": "https://github.com/oras-project/oras/releases/tag/v1.3.6",
-      "published": "2026-10-24T19:08:08Z",
-      "preview": "Changes since v1.3.5 Dependencies Update oras.land/oras-go/v2 from v2.6.4 to v2.7.0 ( #2284 , fixes #2275 ) Behavior change: v2.6.4 rejected bearer token realms on any private address, which broke split-host registries such as self-hosted GitLab ( oras-project/oras-go#1631 ). The default denylist now blocks only loopback, link-local, unspecified, and cloud metadata addresses. RFC 1918, IPv6 unique-local, and CGNAT realms are allowed again. Authentication now works after a same-host HTTP-to-HTTPS redirect. Copy and verification fixes: FilterArtifactType matching for referrers with an empty conf",
-      "source": "ORAS releases",
-      "category": "Containers"
     }
   ]
 }
