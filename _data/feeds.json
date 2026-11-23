@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-23T22:23:01Z",
-  "cutoff": "2026-10-24T22:22:54Z",
+  "generated": "2026-11-23T23:22:03Z",
+  "cutoff": "2026-10-24T23:21:57Z",
   "feed_count": 104,
   "item_count": 284,
   "categories": [
@@ -23,6 +23,22 @@
   ],
   "items": [
     {
+      "title": "v2026.11.13: Task picker global filters, dotfile main_checkout, and faster shell prompts",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.13",
+      "published": "2026-11-23T23:20:03Z",
+      "preview": "mise run can now hide or show only global tasks in its picker, dotfile symlinks can point at a repository's main checkout so they survive worktree removal, and declared daemon URLs are exported as <NAME>_URL . mise hook-env and mise env also run faster in projects with many tools. This release fixes mise set on configs that use [[env]] , locked task tool pins, lockfile churn from mise lock --bump , and several packslip, task and Windows issues. Added mise run --no-global / --global filter the interactive task picker so it hides global tasks (from ~/.config/mise/config.toml and ~/.config/mise/t",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.258.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.258.3",
+      "published": "2026-11-23T22:47:03Z",
+      "preview": "44.258.3 (2026-11-23) Build System deps: update dependency cronstrue to v3.41.0 (main) ( #48318 ) ( 7ceede0 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "26.4",
       "url": "https://github.com/pypa/packaging/releases/tag/26.4",
       "published": "2026-11-23T22:08:59Z",
@@ -37,14 +53,6 @@
       "preview": "Bug fixes Return a nonzero exit code and report failed removals when pipx cache purge cannot remove a cached environment ( #2499 ) by @gaborbernat and @tolgacodes-dev . Documentation Preserve existing destinations in the Windows move guide and rebuild environments from the new pipx home ( #2500 ) by @gaborbernat and @xhl123XHL352 . 🐍 PyPI release 📜 Full Changelog",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "v2026.11.13",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.13",
-      "published": "2026-11-23T21:03:04Z",
-      "preview": "(backend) warn about tool options core tools and dotnet do not …",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "mise-oci-v2026.11.13",
@@ -403,14 +411,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.4",
       "published": "2026-11-20T17:52:34Z",
       "preview": "44.257.4 (2026-11-20) Bug Fixes deps: update renovate-base-image to v13.174.2 (main) ( #48259 ) ( a09aa50 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.257.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.3",
-      "published": "2026-11-20T16:41:07Z",
-      "preview": "44.257.3 (2026-11-20) Bug Fixes presets/workarounds: parse four-part Eclipse Temurin versions ( #48252 ) ( 984343f )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
