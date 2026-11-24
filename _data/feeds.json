@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-24T16:24:34Z",
-  "cutoff": "2026-10-25T16:24:27Z",
+  "generated": "2026-11-24T17:22:53Z",
+  "cutoff": "2026-10-25T17:22:46Z",
   "feed_count": 104,
-  "item_count": 293,
+  "item_count": 294,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,26 @@
   ],
   "items": [
     {
+      "title": "v6.2.1",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.2.1",
+      "published": "2026-11-24T17:00:07Z",
+      "preview": "Bugfixes Fixed a bug where ConfigMaps and Secrets mounted as executable were not being able to be executed immediately on pod launch when using podman kube play . Fixed a bug where the Docker compatible image inspect responses returning an empty author for images with an author set. Fixed a bug where the podman service did not use the correct server configured temporary directory for remote image builds ( #20839 ). Fixed a bug where --userns=nomap sets the wrong supplementary group ( #30261 ). Fixed a bug where the Docker compatible network inspect and list endpoints are failing when a network",
+      "source": "Podman releases",
+      "category": "Containers"
+    },
+    {
+      "title": "1.18.6",
+      "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.6",
+      "published": "2026-11-24T16:50:08Z",
+      "preview": "Security fixes: Prevent a compromised or malicious app/runtime/extension with extra-data from creating setuid root files on the host system when installed (CVE-2026-133842, GHSA-p4mw-6jfq-r82r ; thanks to RoyalOughtness) Prevent a compromised or malicious app from escaping the sandbox by manipulating file descriptor passing via flatpak-portal (CVE-2026-133845, GHSA-5jrj-948r-2wx6 ; thanks to refi64) Other bug fixes: Fix a regression in the CI release workflow now that Ubuntu 26.04 is the default",
+      "source": "Flatpak releases",
+      "category": "System"
+    },
+    {
       "title": "v5.8.11",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.11",
-      "published": "2026-11-24T16:19:50Z",
-      "preview": "v5.8.11",
+      "published": "2026-11-24T16:38:17Z",
+      "preview": "Bugfixes Fixed a bug where read-only containers using secrets could fail to start ( #30301 ). Fixed a bug where podman exec could fail to set oom_score_adj as rootless user ( #30245 ). Fixed a bug where the podman machine start command could create a VM that cannot be connected to on Windows if the host was shut down or restarted when the VM was running ( #29971 ).",
       "source": "Podman releases",
       "category": "Containers"
     },
@@ -45,14 +61,6 @@
       "preview": "44.260.3 (2026-11-24) Bug Fixes deps: update renovate-base-image to v13.176.2 (main) ( #48340 ) ( b7dc0e1 ) Build System deps: update dependency azure-devops-node-api to v17.0.2 (main) ( #48342 ) ( e1966cc )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "1.18.6",
-      "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.6",
-      "published": "2026-11-24T14:18:34Z",
-      "preview": "Security fixes: Prevent a compromised or malicious app/runtime/extension with extra-data from creating setuid root files on the host system when installed (CVE-2026-133842, GHSA-p4mw-6jfq-r82r; thanks to RoyalOughtness) Prevent a compromised or malicious app from escaping the sandbox by manipulating file descriptor passing via flatpak-portal (CVE-2026-133845, GHSA-5jrj-948r-2wx6; thanks to refi64) Other bug fixes: Fix a regression in the CI release workflow now that Ubuntu 26.04 is the default",
-      "source": "Flatpak releases",
-      "category": "System"
     },
     {
       "title": "1.19.4",
