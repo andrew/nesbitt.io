@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24T01:22:58Z",
-  "cutoff": "2026-10-25T01:22:52Z",
+  "generated": "2026-11-24T08:26:18Z",
+  "cutoff": "2026-10-25T08:26:12Z",
   "feed_count": 104,
   "item_count": 285,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.259.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.259.1",
+      "published": "2026-11-24T07:44:23Z",
+      "preview": "44.259.1 (2026-11-24) Miscellaneous Chores deps: update zizmor (main) ( #48322 ) ( 4ddb8dc ) Build System deps: update dependency ignore to v7.0.16 (main) ( #48323 ) ( 24d6124 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.259.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.259.0",
@@ -413,14 +421,6 @@
       "preview": "Merge pull request #10773 from shahmishal/version-bump-6.4.3 Update the Swift version to 6.4.3",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.257.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.5",
-      "published": "2026-11-20T18:43:53Z",
-      "preview": "44.257.5 (2026-11-20) Bug Fixes manager/npm/yarn: check all upgrades for hasPackageManager ( #47957 ) ( d73ecef )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v10.4.0 🌈 New input `require-checksums` and bug fixing",
