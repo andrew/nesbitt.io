@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24T18:24:32Z",
-  "cutoff": "2026-10-25T18:24:27Z",
+  "generated": "2026-11-24T20:21:56Z",
+  "cutoff": "2026-10-25T20:21:51Z",
   "feed_count": 104,
   "item_count": 295,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.261.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.261.1",
+      "published": "2026-11-24T19:44:26Z",
+      "preview": "44.261.1 (2026-11-24) Bug Fixes deps: update renovate-base-image to v13.176.4 (main) ( #48353 ) ( 4cd5b57 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.261.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.261.0",
@@ -301,14 +309,6 @@
       "preview": "What's Changed Recommend CLT 16.4 on Sequoia by @p-linnane in #24686 dependencies_helpers: key test cache by root by @hyuraku in #24670 Skip runner Docker image jobs on release by @p-linnane in #24684 Add Homebrew/NoUntypedKeywordRest cop by @dduugg in #24678 info: list installed build dependents by @HaraldNordgren in #24681 Add shared formula DSL helpers by @MikeMcQuaid in #24672 Resolve installed formula prefixes offline by @MikeMcQuaid in #24692 Keep prefix libexec optional during post-install by @MikeMcQuaid in #24691 Preserve name-only and run-only API services by @MikeMcQuaid in #24690 b",
       "source": "Homebrew releases",
       "category": "System"
-    },
-    {
-      "title": "44.258.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.258.1",
-      "published": "2026-11-23T10:42:28Z",
-      "preview": "44.258.1 (2026-11-23) Bug Fixes manager/nix: pass the GitHub token in the environment, not on the command line ( #48289 ) ( 91f4843 ) Documentation fix Markdown heading levels ( #48301 ) ( ac9cc0c ) unify development setup guidance ( #48193 ) ( 1200d30 ) update references to github/gh-actions-lock to v0.5.1 (main) ( #48294 ) ( 3224da9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.1.1",
