@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-24T12:29:10Z",
-  "cutoff": "2026-10-25T12:29:02Z",
+  "generated": "2026-11-24T15:23:28Z",
+  "cutoff": "2026-10-25T15:23:21Z",
   "feed_count": 104,
-  "item_count": 286,
+  "item_count": 292,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,70 @@
     "System"
   ],
   "items": [
+    {
+      "title": "Transparency log  & first stage of organizations",
+      "url": "https://blog.packagist.com/transparency-log-first-stage-of-organizations/",
+      "published": "2026-11-24T15:02:33Z",
+      "preview": "With funding from the Sovereign Tech Agency &apos;s Sovereign Tech Fund, through the PHP Foundation , we built a public transparency log for Packagist. It records the security-relevant history of every package and maintainer account. We also made stable versions immutable and laid the foundation for organizations, which make",
+      "source": "Packagist Blog",
+      "category": "PHP"
+    },
+    {
+      "title": "44.260.3",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.260.3",
+      "published": "2026-11-24T14:22:11Z",
+      "preview": "44.260.3 (2026-11-24) Bug Fixes deps: update renovate-base-image to v13.176.2 (main) ( #48340 ) ( b7dc0e1 ) Build System deps: update dependency azure-devops-node-api to v17.0.2 (main) ( #48342 ) ( e1966cc )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "1.18.6",
+      "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.6",
+      "published": "2026-11-24T14:18:34Z",
+      "preview": "Security fixes: Prevent a compromised or malicious app/runtime/extension with extra-data from creating setuid root files on the host system when installed (CVE-2026-133842, GHSA-p4mw-6jfq-r82r; thanks to RoyalOughtness) Prevent a compromised or malicious app from escaping the sandbox by manipulating file descriptor passing via flatpak-portal (CVE-2026-133845, GHSA-5jrj-948r-2wx6; thanks to refi64) Other bug fixes: Fix a regression in the CI release workflow now that Ubuntu 26.04 is the default",
+      "source": "Flatpak releases",
+      "category": "System"
+    },
+    {
+      "title": "1.19.4",
+      "url": "https://github.com/flatpak/flatpak/releases/tag/1.19.4",
+      "published": "2026-11-24T14:13:56Z",
+      "preview": "Released: 2026-11-24 This is a development prerelease from the 1.19.x series. The first stable release from this branch will be 1.20.0. Stable OS releases should use the 1.18.x series until 1.20.x is available. Security fixes: Prevent a compromised or malicious app/runtime/extension with extra-data from creating setuid root files on the host system when installed (CVE-2026-133842, GHSA-p4mw-6jfq-r82r ; thanks to RoyalOughtness) Prevent a compromised or malicious app from escaping the sandbox by manipulating file descriptor passing via flatpak-portal (CVE-2026-133845, GHSA-5jrj-948r-2wx6 ; than",
+      "source": "Flatpak releases",
+      "category": "System"
+    },
+    {
+      "title": "flatpak 1.19.3",
+      "url": "https://github.com/flatpak/flatpak/releases/tag/1.19.3",
+      "published": "2026-11-24T13:58:26Z",
+      "preview": "This is a development prerelease from the 1.19.x series. The first stable release from this branch will be 1.20.0. Stable OS releases should use the 1.18.x series until 1.20.x is available. Security fixes: Prevent a compromised or malicious app/runtime/extension with extra-data from creating setuid root files on the host system when installed (CVE-2026-133842, GHSA-p4mw-6jfq-r82r; thanks to RoyalOughtness) Prevent a compromised or malicious app from escaping the sandbox by manipulating file descriptor passing via flatpak-portal (CVE-2026-133845, GHSA-5jrj-948r-2wx6; thanks to refi64) Incompati",
+      "source": "Flatpak releases",
+      "category": "System"
+    },
+    {
+      "title": "flatpak 1.18.5",
+      "url": "https://github.com/flatpak/flatpak/releases/tag/1.18.5",
+      "published": "2026-11-24T13:57:55Z",
+      "preview": "Security fixes: Prevent a compromised or malicious app/runtime/extension with extra-data from creating setuid root files on the host system when installed (CVE-2026-133842, GHSA-p4mw-6jfq-r82r; thanks to RoyalOughtness) Prevent a compromised or malicious app from escaping the sandbox by manipulating file descriptor passing via flatpak-portal (CVE-2026-133845, GHSA-5jrj-948r-2wx6; thanks to refi64) Git-EVTag-v0-SHA512: db7d5b822b53c10d3ab26d3b989a45648860ab754da917f5710d818534472b33bf81d7a5e25ec7b97a9dddd7115e3c17e09820ea7655f385752dac83174f5ea9",
+      "source": "Flatpak releases",
+      "category": "System"
+    },
+    {
+      "title": "44.260.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.260.2",
+      "published": "2026-11-24T13:50:47Z",
+      "preview": "44.260.2 (2026-11-24) Bug Fixes deps: update renovate-base-image to v13.176.1 (main) ( #48332 ) ( d12675b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.260.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.260.1",
+      "published": "2026-11-24T13:33:19Z",
+      "preview": "44.260.1 (2026-11-24) Bug Fixes platform/bitbucket: reduce max body length to 100k ( #48266 ) ( 67ef1b0 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.69.0 (main) ( #48331 ) ( 8ac8c75 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.260.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.260.0",
@@ -141,6 +205,14 @@
       "preview": "44.259.0 (2026-11-24) Features deps: update renovate-base-image to v13.175.0 (main) ( #48319 ) ( 9e26963 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "Security incident on hex.pm",
+      "url": "https://hex.pm/blog/security-incident-on-hexpm",
+      "published": "2026-11-24T00:00:00Z",
+      "preview": "On November 23, 2026, an unauthorized third party exploited a vulnerability in hex.pm that let them run commands on our web servers. We blocked the traffic and deployed a fix within 20 minutes. Shortly afterwards we received a report of this exact vulnerability.",
+      "source": "Hex Blog",
+      "category": "Elixir"
     },
     {
       "title": "44.258.3",
@@ -383,36 +455,12 @@
       "category": "JavaScript"
     },
     {
-      "title": "44.257.9",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.9",
-      "published": "2026-11-21T13:44:37Z",
-      "preview": "44.257.9 (2026-11-21) Bug Fixes deps: update renovate-base-image to v13.174.5 (main) ( #48274 ) ( 8804e0c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.257.8",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.8",
-      "published": "2026-11-21T11:44:51Z",
-      "preview": "44.257.8 (2026-11-21) Bug Fixes deps: update renovate-base-image to v13.174.4 (main) ( #48273 ) ( 8172379 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-19-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-19-a",
       "published": "2026-11-21T09:55:27Z",
       "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-11-19-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.257.7",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.257.7",
-      "published": "2026-11-21T09:46:23Z",
-      "preview": "44.257.7 (2026-11-21) Build System deps: update dependency strip-json-comments to v5.1.0 (main) ( #48270 ) ( 116671b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "2.5.2",
