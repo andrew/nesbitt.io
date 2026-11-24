@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-24T17:22:53Z",
-  "cutoff": "2026-10-25T17:22:46Z",
+  "generated": "2026-11-24T18:24:32Z",
+  "cutoff": "2026-10-25T18:24:27Z",
   "feed_count": 104,
-  "item_count": 294,
+  "item_count": 295,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.261.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.261.0",
+      "published": "2026-11-24T18:09:04Z",
+      "preview": "44.261.0 (2026-11-24) Features presets/monorepo: add pydantic-ai monorepo ( #48345 ) ( 14e08ef ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.69.1 (main) ( #48347 ) ( 842e0a0 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.69.2 (main) ( #48349 ) ( eafa741 ) deps: update github/codeql-action action to v4.39.5 (main) ( #48348 ) ( 41041b5 ) deps: update sigstore/cosign-installer action to v4.1.4 (main) ( #48350 ) ( b4d7b5d ) exclude root cache from Biome ( #48333 ) ( c3027b8 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "8.2.0.25",
+      "url": "https://github.com/NuGet/NuGet.Client/releases/tag/8.2.0.25",
+      "published": "2026-11-24T17:49:03Z",
+      "preview": "Tag 8.2.0.25",
+      "source": "NuGet Client releases",
+      "category": ".NET"
+    },
     {
       "title": "v6.2.1",
       "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.2.1",
@@ -291,14 +307,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.258.1",
       "published": "2026-11-23T10:42:28Z",
       "preview": "44.258.1 (2026-11-23) Bug Fixes manager/nix: pass the GitHub token in the environment, not on the command line ( #48289 ) ( 91f4843 ) Documentation fix Markdown heading levels ( #48301 ) ( ac9cc0c ) unify development setup guidance ( #48193 ) ( 1200d30 ) update references to github/gh-actions-lock to v0.5.1 (main) ( #48294 ) ( 3224da9 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.258.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.258.0",
-      "published": "2026-11-23T08:50:03Z",
-      "preview": "44.258.0 (2026-11-23) Features static-data: add 4 new mise tools ( #48299 ) ( 1a448af ) Documentation update references to astral-sh/setup-uv to v10.4.0 (main) ( #48292 ) ( 759f09b ) update references to ghcr.io/ossf/scorecard-action to v2.6.0 (main) ( #48293 ) ( 9ce149d ) update references to python to 46837ed (main) ( #48291 ) ( 92f32ec ) update references to renovate/renovate (main) ( #48295 ) ( 04aeff4 ) Miscellaneous Chores deps: lock file maintenance (main) ( #48296 ) ( 2abfeef ) deps: lock file maintenance (main) ( #48297 ) ( 9ce1316 ) deps: update dependency @biomejs/biome to v2.6.8 (m",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
