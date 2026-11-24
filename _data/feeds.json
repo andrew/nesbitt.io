@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-24T08:26:18Z",
-  "cutoff": "2026-10-25T08:26:12Z",
+  "generated": "2026-11-24T09:24:31Z",
+  "cutoff": "2026-10-25T09:24:25Z",
   "feed_count": 104,
-  "item_count": 285,
+  "item_count": 286,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "2.2.33",
+      "url": "https://github.com/composer/composer/releases/tag/2.2.33",
+      "published": "2026-11-24T09:24:06Z",
+      "preview": "Security: Fixed code execution when running Composer in an untrusted project with a crafted vendor directory, bypassing the fix for CVE-2024-24821 ( GHSA-374h-4mh9-7rpm ) Security: Fixed package metadata such as descriptions, support/funding links and license names being rendered as console markup, an invalid style tag in them could also make show , licenses , audit and even install / update fail ( #13293 ) Security: Sanitize URL-embedded credentials in RemoteFilesystem error messages ( #13267 ) Fixed a crash on PHP < 5.5 on Windows when downloading over HTTPS with curl ( #13277 ) Full Changel",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "2.11.3",
+      "url": "https://github.com/composer/composer/releases/tag/2.11.3",
+      "published": "2026-11-24T09:14:18Z",
+      "preview": "Release 2.11.3",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
     {
       "title": "44.259.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.259.1",
@@ -2293,14 +2309,6 @@
       "preview": "TLDR: To fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team To fund specific features and improvements, sponsor fundable Rust Project Goals To fund individual contributors, donate to their GitHub Sponsors accounts There is always so much to do in the Rust Project! New features to implement, bugs to fix, performance optimizations to make, issues to triage… It takes a lot of work to keep our high bar of quality while also shipping new features and improvements. And the workload keeps increasing with the continuous growth of Rust adopti",
       "source": "Rust Blog",
       "category": "Rust"
-    },
-    {
-      "title": "swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-23-a",
-      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-23-a",
-      "published": "2026-10-25T08:47:33Z",
-      "preview": "Tag build swift-6.4.x-DEVELOPMENT-SNAPSHOT-2026-10-23-a",
-      "source": "Swift Package Manager releases",
-      "category": "Registries"
     }
   ]
 }
