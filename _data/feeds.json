@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24T09:24:31Z",
-  "cutoff": "2026-10-25T09:24:25Z",
+  "generated": "2026-11-24T10:21:58Z",
+  "cutoff": "2026-10-25T10:21:53Z",
   "feed_count": 104,
   "item_count": 286,
   "categories": [
@@ -23,6 +23,46 @@
   ],
   "items": [
     {
+      "title": "v2026.11.14",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.14",
+      "published": "2026-11-24T09:25:30Z",
+      "preview": "(task) add cache.sandbox to confine a cached task to its source…",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-daemons-v2026.11.14",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-daemons-v2026.11.14",
+      "published": "2026-11-24T09:24:56Z",
+      "preview": "Release mise-daemons 2026.11.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-oci-v2026.11.14",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.14",
+      "published": "2026-11-24T09:24:39Z",
+      "preview": "Release mise-oci 2026.11.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "2.11.3",
+      "url": "https://github.com/composer/composer/releases/tag/2.11.3",
+      "published": "2026-11-24T09:24:30Z",
+      "preview": "Security: Fixed arbitrary code execution when running Composer in a directory whose composer.json and vendor directory were prepared by an attacker, a bypass of the CVE-2024-24821 fix ( GHSA-374h-4mh9-7rpm ) Security: Fixed package metadata such as descriptions, support links or license names being rendered as console markup, which could also make show , licenses , audit or even install / update fail on an invalid style tag ( #13292 ) Security: Fixed credentials embedded in repository URLs showing up in download error messages when curl is not available ( #13266 ) Improved performance of secur",
+      "source": "Composer releases",
+      "category": "PHP"
+    },
+    {
+      "title": "mise-system-v2026.11.14",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.14",
+      "published": "2026-11-24T09:24:23Z",
+      "preview": "Release mise-system 2026.11.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
       "title": "2.2.33",
       "url": "https://github.com/composer/composer/releases/tag/2.2.33",
       "published": "2026-11-24T09:24:06Z",
@@ -31,12 +71,52 @@
       "category": "PHP"
     },
     {
-      "title": "2.11.3",
-      "url": "https://github.com/composer/composer/releases/tag/2.11.3",
-      "published": "2026-11-24T09:14:18Z",
-      "preview": "Release 2.11.3",
-      "source": "Composer releases",
-      "category": "PHP"
+      "title": "vfox-v2026.11.14",
+      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.14",
+      "published": "2026-11-24T09:24:05Z",
+      "preview": "Release vfox 2026.11.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-system-packages-v2026.11.14",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.14",
+      "published": "2026-11-24T09:23:49Z",
+      "preview": "Release mise-system-packages 2026.11.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-ui-v2026.11.14",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.14",
+      "published": "2026-11-24T09:23:32Z",
+      "preview": "Release mise-ui 2026.11.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-util-v2026.11.14",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.14",
+      "published": "2026-11-24T09:23:15Z",
+      "preview": "Release mise-util 2026.11.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-sigstore-v2026.11.14",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.14",
+      "published": "2026-11-24T09:22:58Z",
+      "preview": "Release mise-sigstore 2026.11.14",
+      "source": "mise releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "mise-settings-v2026.11.14",
+      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.14",
+      "published": "2026-11-24T09:22:43Z",
+      "preview": "Release mise-settings 2026.11.14",
+      "source": "mise releases",
+      "category": "Multi-language"
     },
     {
       "title": "44.259.1",
@@ -53,14 +133,6 @@
       "preview": "44.259.0 (2026-11-24) Features deps: update renovate-base-image to v13.175.0 (main) ( #48319 ) ( 9e26963 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "v2026.11.13: Task picker global filters, dotfile main_checkout, and faster shell prompts",
-      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.13",
-      "published": "2026-11-23T23:20:03Z",
-      "preview": "mise run can now hide or show only global tasks in its picker, dotfile symlinks can point at a repository's main checkout so they survive worktree removal, and declared daemon URLs are exported as <NAME>_URL . mise hook-env and mise env also run faster in projects with many tools. This release fixes mise set on configs that use [[env]] , locked task tool pins, lockfile churn from mise lock --bump , and several packslip, task and Windows issues. Added mise run --no-global / --global filter the interactive task picker so it hides global tasks (from ~/.config/mise/config.toml and ~/.config/mise/t",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "44.258.3",
@@ -85,78 +157,6 @@
       "preview": "Bug fixes Return a nonzero exit code and report failed removals when pipx cache purge cannot remove a cached environment ( #2499 ) by @gaborbernat and @tolgacodes-dev . Documentation Preserve existing destinations in the Windows move guide and rebuild environments from the new pipx home ( #2500 ) by @gaborbernat and @xhl123XHL352 . 🐍 PyPI release 📜 Full Changelog",
       "source": "pipx releases",
       "category": "Python"
-    },
-    {
-      "title": "mise-oci-v2026.11.13",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-oci-v2026.11.13",
-      "published": "2026-11-23T21:02:05Z",
-      "preview": "Release mise-oci 2026.11.13",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-v2026.11.13",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-v2026.11.13",
-      "published": "2026-11-23T21:01:45Z",
-      "preview": "Release mise-system 2026.11.13",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "vfox-v2026.11.13",
-      "url": "https://github.com/jdx/mise/releases/tag/vfox-v2026.11.13",
-      "published": "2026-11-23T21:01:22Z",
-      "preview": "Release vfox 2026.11.13",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-system-packages-v2026.11.13",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-system-packages-v2026.11.13",
-      "published": "2026-11-23T21:00:59Z",
-      "preview": "Release mise-system-packages 2026.11.13",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-ui-v2026.11.13",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-ui-v2026.11.13",
-      "published": "2026-11-23T21:00:27Z",
-      "preview": "Release mise-ui 2026.11.13",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-util-v2026.11.13",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-util-v2026.11.13",
-      "published": "2026-11-23T21:00:09Z",
-      "preview": "Release mise-util 2026.11.13",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-sigstore-v2026.11.13",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-sigstore-v2026.11.13",
-      "published": "2026-11-23T20:59:51Z",
-      "preview": "Release mise-sigstore 2026.11.13",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-settings-v2026.11.13",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-settings-v2026.11.13",
-      "published": "2026-11-23T20:59:30Z",
-      "preview": "Release mise-settings 2026.11.13",
-      "source": "mise releases",
-      "category": "Multi-language"
-    },
-    {
-      "title": "mise-dotenv-v2026.11.1",
-      "url": "https://github.com/jdx/mise/releases/tag/mise-dotenv-v2026.11.1",
-      "published": "2026-11-23T20:58:45Z",
-      "preview": "Release mise-dotenv 2026.11.1",
-      "source": "mise releases",
-      "category": "Multi-language"
     },
     {
       "title": "44.258.2",
