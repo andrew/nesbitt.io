@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-24T21:22:38Z",
-  "cutoff": "2026-10-25T21:22:31Z",
+  "generated": "2026-11-24T22:22:22Z",
+  "cutoff": "2026-10-25T22:22:16Z",
   "feed_count": 104,
-  "item_count": 296,
+  "item_count": 298,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,10 +23,26 @@
   ],
   "items": [
     {
+      "title": "Windows Package Manager 1.30.310",
+      "url": "https://github.com/microsoft/winget-cli/releases/tag/v1.30.310",
+      "published": "2026-11-24T22:13:34Z",
+      "preview": "This is a release candidate of Windows Package Manager v1.30. If you find any bugs or problems, please help us out by filing an issue . New in v1.30 New Features Interactive package selection (experimental) Set experimentalFeatures.interactivePackageSelection to true in settings to enable numbered choices when multiple packages match a single-package install , show , or download command in an interactive terminal. Enter a package number to continue or 0 to cancel. This feature is disabled by default. Redirected and noninteractive callers retain the existing ambiguity error. Use --id <ID> --exa",
+      "source": "winget releases",
+      "category": "System"
+    },
+    {
+      "title": "v29.10.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.10.1",
+      "published": "2026-11-24T21:49:50Z",
+      "preview": "29.10.1 For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones: docker/cli, 29.10.1 milestone moby/moby, 29.10.1 milestone Security This release includes fixes for multiple security vulnerabilities affecting Docker Engine and related components. CVE-2026-135844 Fix unbounded reads when parsing user, group, and ID mapping files GHSA-ffh6-8jcg-cjmw CVE-2026-135124 A process in a running container could make a read-only bind mount writable while docker cp copied files into the container, letting the copied files modify the host directory behind that ",
+      "source": "Docker Engine releases",
+      "category": "Containers"
+    },
+    {
       "title": "0.13.10",
       "url": "https://github.com/astral-sh/uv/releases/tag/0.13.10",
-      "published": "2026-11-24T21:15:44Z",
-      "preview": "Release Notes Released on 2026-11-24. Enhancements Validate that dependency requirements in uv.lock match the locked package versions ( astral-sh/uv#23238 ) Explain why uv.lock needs to be updated when --locked rejects it ( astral-sh/uv#23251 ) Report dependencies whose package entries are missing from uv.lock ( astral-sh/uv#23304 ) Python Update managed CPython 3.11.18, 3.12.16, 3.13.18, 3.14.10, 3.15.2, and 3.16.0a2 builds ( astral-sh/uv#23240 , astral-sh/uv#23397 ) Update GraalPy 3.13.0 to build 25.6.5 ( astral-sh/uv#23397 ) Preview features Use proxy indexes while keeping lockfiles portabl",
+      "published": "2026-11-24T21:23:07Z",
+      "preview": "Release Notes Released on 2026-11-24. This release addresses GHSA-vjvj-3m3f-fgmm . Enhancements Validate that dependency requirements in uv.lock match the locked package versions ( astral-sh/uv#23238 ) Explain why uv.lock needs to be updated when --locked rejects it ( astral-sh/uv#23251 ) Report dependencies whose package entries are missing from uv.lock ( astral-sh/uv#23304 ) Python Update managed CPython 3.11.18, 3.12.16, 3.13.18, 3.14.10, 3.15.2, and 3.16.0a2 builds ( astral-sh/uv#23240 , astral-sh/uv#23397 ) Update GraalPy 3.13.0 to build 25.6.5 ( astral-sh/uv#23397 ) Preview features Use ",
       "source": "uv releases",
       "category": "Python"
     },
