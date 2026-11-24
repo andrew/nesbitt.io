@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-24T10:21:58Z",
-  "cutoff": "2026-10-25T10:21:53Z",
+  "generated": "2026-11-24T11:23:15Z",
+  "cutoff": "2026-10-25T11:23:10Z",
   "feed_count": 104,
   "item_count": 286,
   "categories": [
@@ -23,10 +23,10 @@
   ],
   "items": [
     {
-      "title": "v2026.11.14",
+      "title": "v2026.11.14: Experimental cache.sandbox for cached tasks",
       "url": "https://github.com/jdx/mise/releases/tag/v2026.11.14",
-      "published": "2026-11-24T09:25:30Z",
-      "preview": "(task) add cache.sandbox to confine a cached task to its source…",
+      "published": "2026-11-24T11:00:43Z",
+      "preview": "Cached tasks can now run in an experimental Linux sandbox. The sandbox blocks reads and writes that the task's cache declaration doesn't cover, so the task fails instead of storing a wrong result. mise hook-env , mise env and mise ls also run faster in projects with many tools. Added cache.sandbox for cached tasks (experimental, enforced on Linux only). A cached task is only correct if everything that affects its result is part of the cache key. With cache.sandbox = true , mise uses Landlock to restrict the task to its cache declaration. A read or write outside that declaration now makes the t",
       "source": "mise releases",
       "category": "Multi-language"
     },
