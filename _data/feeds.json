@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-23T23:22:03Z",
-  "cutoff": "2026-10-24T23:21:57Z",
+  "generated": "2026-11-24T00:38:33Z",
+  "cutoff": "2026-10-25T00:38:27Z",
   "feed_count": 104,
-  "item_count": 284,
+  "item_count": 285,
   "categories": [
     ".NET",
     "C/C++",
@@ -189,6 +189,14 @@
       "preview": "Practical ways to harden Python projects and GitHub Actions against supply-chain attacks using hash pins, lockfiles, and dependency cooldowns.",
       "source": "Astral Blog",
       "category": "Python"
+    },
+    {
+      "title": "Content-Addressable Gems: the new way of packaging precompiled binaries",
+      "url": "https://blog.rubygems.org/2026/11/23/content-addressable-gems.html",
+      "published": "2026-11-23T00:00:00Z",
+      "preview": "RubyGems 4.1 introduces content-addressable gems : precompiled gems built for a single Ruby ABI, which makes them smaller and lets maintainers support new Rubies without a new release. Where we are today A gem with a native extension that ships precompiled, such as nokogiri-1.18.9-x86_64-linux.gem , skips compilation entirely, which speeds up bundle install . But precompiled gems are larger than they need to be. A compiled extension only loads on the Ruby ABI it was built against, meaning the major and minor version of Ruby, such as 3.4 . Since a .gem file is identified only by its name, versi",
+      "source": "RubyGems Blog",
+      "category": "Ruby"
     },
     {
       "title": "pnpm 11.29",
