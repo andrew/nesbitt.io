@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-25T11:22:58Z",
-  "cutoff": "2026-10-26T11:22:51Z",
+  "generated": "2026-11-25T13:23:57Z",
+  "cutoff": "2026-10-26T13:23:51Z",
   "feed_count": 104,
-  "item_count": 298,
+  "item_count": 297,
   "categories": [
     ".NET",
     "C/C++",
@@ -2397,14 +2397,6 @@
       "preview": "This release fixes pnpm install hanging on a cold store in workspaces that install Cargo crates, and pnpm pack shipping a file that files excludes by name.",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "v6.2.0-RC1",
-      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.2.0-rc1",
-      "published": "2026-10-26T13:09:42Z",
-      "preview": "Features The podman push command now supports a new option, --platform , which selects and pushes a single platform-specific manifest instead of the entire list. The podman kube play command now supports a new option, --validate , which determines how unrecognized YAML fields are handled ( #18332 ). The podman kube play command now supports a new option, --label , to set labels on created containers, pods, volumes, and secrets ( #26450 ). The podman kube play command can now create multiple pods if more than 1 replica is requested by a deployment using the new --multiple-pods option ( #26769 )",
-      "source": "Podman releases",
-      "category": "Containers"
     }
   ]
 }
