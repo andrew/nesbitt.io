@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-25T19:22:00Z",
-  "cutoff": "2026-10-26T19:21:54Z",
+  "generated": "2026-11-25T21:22:50Z",
+  "cutoff": "2026-10-26T21:22:44Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.263.4",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.4",
+      "published": "2026-11-25T21:01:20Z",
+      "preview": "44.263.4 (2026-11-25) Miscellaneous Chores run import generation directly for type-check:tsrs ( #48334 ) ( fef502a ) Build System deps: update dependency cronstrue to v3.43.0 (main) ( #48394 ) ( 7c13ec1 ) Continuous Integration build: retry deploying to Pages instead of waiting for the artifact ( #48395 ) ( 2009781 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.263.3",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.3",
@@ -173,14 +181,6 @@
       "preview": "Release Notes Released on 2026-11-24. This release addresses GHSA-vjvj-3m3f-fgmm . Enhancements Validate that dependency requirements in uv.lock match the locked package versions ( astral-sh/uv#23238 ) Explain why uv.lock needs to be updated when --locked rejects it ( astral-sh/uv#23251 ) Report dependencies whose package entries are missing from uv.lock ( astral-sh/uv#23304 ) Python Update managed CPython 3.11.18, 3.12.16, 3.13.18, 3.14.10, 3.15.2, and 3.16.0a2 builds ( astral-sh/uv#23240 , astral-sh/uv#23397 ) Update GraalPy 3.13.0 to build 25.6.5 ( astral-sh/uv#23397 ) Preview features Use ",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "44.261.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.261.1",
-      "published": "2026-11-24T19:44:26Z",
-      "preview": "44.261.1 (2026-11-24) Bug Fixes deps: update renovate-base-image to v13.176.4 (main) ( #48353 ) ( 4cd5b57 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "8.2.0.25",
