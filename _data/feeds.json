@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-25T06:34:20Z",
-  "cutoff": "2026-10-26T06:34:15Z",
+  "generated": "2026-11-25T08:26:36Z",
+  "cutoff": "2026-10-26T08:26:29Z",
   "feed_count": 104,
-  "item_count": 299,
+  "item_count": 298,
   "categories": [
     ".NET",
     "C/C++",
@@ -2405,14 +2405,6 @@
       "preview": "Features The podman push command now supports a new option, --platform , which selects and pushes a single platform-specific manifest instead of the entire list. The podman kube play command now supports a new option, --validate , which determines how unrecognized YAML fields are handled ( #18332 ). The podman kube play command now supports a new option, --label , to set labels on created containers, pods, volumes, and secrets ( #26450 ). The podman kube play command can now create multiple pods if more than 1 replica is requested by a deployment using the new --multiple-pods option ( #26769 )",
       "source": "Podman releases",
       "category": "Containers"
-    },
-    {
-      "title": "7.0.11",
-      "url": "https://github.com/Homebrew/brew/releases/tag/7.0.11",
-      "published": "2026-10-26T08:20:07Z",
-      "preview": "What's Changed Verify API formula patch downloads by @MikeMcQuaid in #24285 Require verifiable official formula sources by @MikeMcQuaid in #24287 Honour explicit cask checksum requirements by @MikeMcQuaid in #24288 livecheck: prefer Git livecheck over GithubLatest by @bevanjkay in #24280 Keep outdated :no_linkage build dependencies by @HaraldNordgren in #24290 cask/audit: skip livecheck requirement for :latest by @bevanjkay in #24297 advisory-match: exclude reviewed false aliases by @p-linnane in #24296 Extract tarballs with a UTF-8 locale by @IngmarStein in #24304 Combine dependency role tags",
-      "source": "Homebrew releases",
-      "category": "System"
     }
   ]
 }
