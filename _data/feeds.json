@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-25T13:23:57Z",
-  "cutoff": "2026-10-26T13:23:51Z",
+  "generated": "2026-11-25T15:22:41Z",
+  "cutoff": "2026-10-26T15:22:35Z",
   "feed_count": 104,
-  "item_count": 297,
+  "item_count": 298,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,30 @@
     "System"
   ],
   "items": [
+    {
+      "title": "cabal-head",
+      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
+      "published": "2026-11-25T15:19:13Z",
+      "preview": "No release body provided.",
+      "source": "Cabal releases",
+      "category": "Registries"
+    },
+    {
+      "title": "v0.406.0",
+      "url": "https://github.com/dependabot/dependabot-core/releases/tag/v0.406.0",
+      "published": "2026-11-25T15:17:26Z",
+      "preview": "What's Changed build(deps): bump terraform to 1.17.2 by @VolkerK in #16919 Fix maven incorrect update of shared property in multiple modules by @v-abhishekbhaskar in #16920 Type Pipenv checksum and lockfile metadata by @JamieMagee in #16946 Add additional error context for no files changed error for terraform, docker and github actions by @v-abhishekbhaskar in #16905 Keep npm lockfile records typed through updates by @JamieMagee in #16948 Stop sanitizing Bundler lockfile metadata by @jeffwidman in #15790 hex: pin Elixir 1.20.5 and Hex 2.5.4 by @jeffwidman in #15799 Fix Pipenv section selection",
+      "source": "Dependabot Core releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.263.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.0",
+      "published": "2026-11-25T14:53:25Z",
+      "preview": "44.263.0 (2026-11-25) Features deps: update renovate-base-image to v13.178.0 (main) ( #48373 ) ( 844e1a1 ) Bug Fixes manager/pep621: pin version for pdm lock-file-only updates ( #48224 ) ( 13452f0 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.70.0 (main) ( #48372 ) ( 2507a0b ) renovate: group Commander updates ( #48302 ) ( 9c349a6 ) Code Refactoring manager/pep621: flag pdm packages locked more than once ( #48223 ) ( e829534 ) manager/pep621: type deps instead of casting in locked version extraction ( #48311 ) ( 038916c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v0.85.0",
       "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.85.0",
@@ -219,14 +243,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.260.2",
       "published": "2026-11-24T13:50:47Z",
       "preview": "44.260.2 (2026-11-24) Bug Fixes deps: update renovate-base-image to v13.176.1 (main) ( #48332 ) ( d12675b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.260.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.260.1",
-      "published": "2026-11-24T13:33:19Z",
-      "preview": "44.260.1 (2026-11-24) Bug Fixes platform/bitbucket: reduce max body length to 100k ( #48266 ) ( 67ef1b0 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.69.0 (main) ( #48331 ) ( 8ac8c75 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -437,14 +453,6 @@
       "preview": "=get-pnpm@0.1.0",
       "source": "pnpm releases",
       "category": "JavaScript"
-    },
-    {
-      "title": "cabal-head",
-      "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
-      "published": "2026-11-22T09:21:17Z",
-      "preview": "No release body provided.",
-      "source": "Cabal releases",
-      "category": "Registries"
     },
     {
       "title": "pnpm 11.29.0",
