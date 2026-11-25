@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-25T15:22:41Z",
-  "cutoff": "2026-10-26T15:22:35Z",
+  "generated": "2026-11-25T16:26:25Z",
+  "cutoff": "2026-10-26T16:26:19Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "44.263.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.1",
+      "published": "2026-11-25T15:34:21Z",
+      "preview": "44.263.1 (2026-11-25) Build System deps: update dependency cronstrue to v3.42.0 (main) ( #48375 ) ( cccbb0b )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.263.2: fix(deps): update renovate-base-image to v13.178.1 (main) (#48374)",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.2",
+      "published": "2026-11-25T15:29:32Z",
+      "preview": "fix(deps): update renovate-base-image to v13.178.1 datasource package from to npm @renovatebot/base-image 13.178.0 13.178.1 docker ghcr.io/renovatebot/base-image 13.178.0 13.178.1 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "cabal-head",
       "url": "https://github.com/haskell/cabal/releases/tag/cabal-head",
@@ -207,14 +223,6 @@
       "category": "PHP"
     },
     {
-      "title": "44.260.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.260.3",
-      "published": "2026-11-24T14:22:11Z",
-      "preview": "44.260.3 (2026-11-24) Bug Fixes deps: update renovate-base-image to v13.176.2 (main) ( #48340 ) ( b7dc0e1 ) Build System deps: update dependency azure-devops-node-api to v17.0.2 (main) ( #48342 ) ( e1966cc )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "1.19.4",
       "url": "https://github.com/flatpak/flatpak/releases/tag/1.19.4",
       "published": "2026-11-24T14:13:56Z",
@@ -237,14 +245,6 @@
       "preview": "Security fixes: Prevent a compromised or malicious app/runtime/extension with extra-data from creating setuid root files on the host system when installed (CVE-2026-133842, GHSA-p4mw-6jfq-r82r; thanks to RoyalOughtness) Prevent a compromised or malicious app from escaping the sandbox by manipulating file descriptor passing via flatpak-portal (CVE-2026-133845, GHSA-5jrj-948r-2wx6; thanks to refi64) Git-EVTag-v0-SHA512: db7d5b822b53c10d3ab26d3b989a45648860ab754da917f5710d818534472b33bf81d7a5e25ec7b97a9dddd7115e3c17e09820ea7655f385752dac83174f5ea9",
       "source": "Flatpak releases",
       "category": "System"
-    },
-    {
-      "title": "44.260.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.260.2",
-      "published": "2026-11-24T13:50:47Z",
-      "preview": "44.260.2 (2026-11-24) Bug Fixes deps: update renovate-base-image to v13.176.1 (main) ( #48332 ) ( d12675b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v2026.11.14: Experimental cache.sandbox for cached tasks",
