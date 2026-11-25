@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-25T08:26:36Z",
-  "cutoff": "2026-10-26T08:26:29Z",
+  "generated": "2026-11-25T11:22:58Z",
+  "cutoff": "2026-10-26T11:22:51Z",
   "feed_count": 104,
   "item_count": 298,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v0.85.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.85.0",
+      "published": "2026-11-25T11:18:03Z",
+      "preview": "[0.85.0] - 2026-11-24 ✨ Highlights We streamlined the platform selection process and overhauled the multi-platform configuration guide and the platforms manifest reference . This fixes some inconsistent behaviour and enables compatibility with dependencies on virtual packages provided by detectors which use semantics other than >= , such as == . Workspace platform definitions now use the subdir key instead of platform , distinguishing the conda operating system and architecture from a named Pixi platform with virtual packages. The old platform key remains accepted but emits a deprecation warni",
+      "source": "pixi releases",
+      "category": "Multi-language"
+    },
+    {
+      "title": "44.262.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.262.2",
+      "published": "2026-11-25T11:02:01Z",
+      "preview": "44.262.2 (2026-11-25) Documentation manager/mise: safe mode doesn't need allowedUnsafeExecutions ( #48368 ) ( 177633c ) Miscellaneous Chores allow checking named Markdown files ( #48338 ) ( 98f3dae ) Build System deps: update commander to v15.1.0 (main) ( #48371 ) ( 79f78a1 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "44.262.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.262.1",
@@ -211,14 +227,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.260.1",
       "published": "2026-11-24T13:33:19Z",
       "preview": "44.260.1 (2026-11-24) Bug Fixes platform/bitbucket: reduce max body length to 100k ( #48266 ) ( 67ef1b0 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.69.0 (main) ( #48331 ) ( 8ac8c75 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.260.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.260.0",
-      "published": "2026-11-24T11:53:09Z",
-      "preview": "44.260.0 (2026-11-24) Features deps: update renovate-base-image to v13.176.0 (main) ( #48328 ) ( 8e30377 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.68.4 (main) ( #48325 ) ( abfdc22 ) deps: update ghcr.io/containerbase/devcontainer docker tag to v14.68.5 (main) ( #48327 ) ( 308c26c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1901,14 +1909,6 @@
       "preview": "Deployment at 2026-11-03T12:23:05.585353Z.",
       "source": "pub.dev releases",
       "category": "Registries"
-    },
-    {
-      "title": "v0.84.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.84.0",
-      "published": "2026-11-03T11:48:03Z",
-      "preview": "[0.84.0] - 2026-11-02 ✨ Highlights exclude-newer has been redesigned to support more precise and configurable exclusions. The top-level [exclude-newer] and [pypi-exclude-newer] tables have been deprecated in favour of corresponding [workspace] sub-tables. These tables can now consist of fine-grained exemptions to a given cutoff , which can be used to, for example, apply a blanket exclusion period while exempting vetted security releases. New pixi workspace exclude-newer and pixi global exclude-newer subcommands allow configuration via the command line. TLS options are now available for pixi se",
-      "source": "pixi releases",
-      "category": "Multi-language"
     },
     {
       "title": "5.4.7.0",
