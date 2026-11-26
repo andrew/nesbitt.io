@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-26T16:24:02Z",
-  "cutoff": "2026-10-27T16:23:58Z",
+  "generated": "2026-11-26T17:22:36Z",
+  "cutoff": "2026-10-27T17:22:32Z",
   "feed_count": 104,
   "item_count": 292,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "45.0.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.2",
+      "published": "2026-11-26T17:13:05Z",
+      "preview": "45.0.2 (2026-11-26) Build System deps: update dependency minimatch to v11.0.9 (main) ( #48433 ) ( 0659263 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "45.0.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.1",
+      "published": "2026-11-26T16:54:30Z",
+      "preview": "45.0.1 (2026-11-26) Build System deps: update dependency glob to v14.0.6 (main) ( #48432 ) ( cc503c6 ) Continuous Integration don't fail dry-run-major when a major is already pending on the base ( #48430 ) ( 9cba15e ), closes #48429 only allow major bump from next-major when targeting main ( #48429 ) ( ada36fb )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "45.0.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.0",
@@ -103,14 +119,6 @@
       "category": "Infrastructure"
     },
     {
-      "title": "44.263.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.1",
-      "published": "2026-11-25T15:34:21Z",
-      "preview": "44.263.1 (2026-11-25) Build System deps: update dependency cronstrue to v3.42.0 (main) ( #48375 ) ( cccbb0b )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
       "title": "44.263.2: fix(deps): update renovate-base-image to v13.178.1 (main) (#48374)",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.2",
       "published": "2026-11-25T15:29:32Z",
@@ -132,14 +140,6 @@
       "published": "2026-11-25T15:17:26Z",
       "preview": "What's Changed build(deps): bump terraform to 1.17.2 by @VolkerK in #16919 Fix maven incorrect update of shared property in multiple modules by @v-abhishekbhaskar in #16920 Type Pipenv checksum and lockfile metadata by @JamieMagee in #16946 Add additional error context for no files changed error for terraform, docker and github actions by @v-abhishekbhaskar in #16905 Keep npm lockfile records typed through updates by @JamieMagee in #16948 Stop sanitizing Bundler lockfile metadata by @jeffwidman in #15790 hex: pin Elixir 1.20.5 and Hex 2.5.4 by @jeffwidman in #15799 Fix Pipenv section selection",
       "source": "Dependabot Core releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.263.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.0",
-      "published": "2026-11-25T14:53:25Z",
-      "preview": "44.263.0 (2026-11-25) Features deps: update renovate-base-image to v13.178.0 (main) ( #48373 ) ( 844e1a1 ) Bug Fixes manager/pep621: pin version for pdm lock-file-only updates ( #48224 ) ( 13452f0 ) Miscellaneous Chores deps: update ghcr.io/containerbase/devcontainer docker tag to v14.70.0 (main) ( #48372 ) ( 2507a0b ) renovate: group Commander updates ( #48302 ) ( 9c349a6 ) Code Refactoring manager/pep621: flag pdm packages locked more than once ( #48223 ) ( e829534 ) manager/pep621: type deps instead of casting in locked version extraction ( #48311 ) ( 038916c )",
-      "source": "Renovate releases",
       "category": "Infrastructure"
     },
     {
