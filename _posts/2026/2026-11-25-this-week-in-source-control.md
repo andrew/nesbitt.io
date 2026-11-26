@@ -25,7 +25,11 @@ ABFS replaces the checkout with [CASFS](https://github.com/google/abfs-casfs), a
 
 [delta 0.21.1](https://github.com/dandavison/delta/releases/tag/0.21.1) adds a TUI based on a fork of gitu. It can browse `git diff`, `git show` and `git log` output, stage directly from delta-rendered diffs including side-by-side view, fold diffs, and reorder and fixup commits from the log. A new `min-width` option switches side-by-side mode on or off depending on terminal width. [0.21.2](https://github.com/dandavison/delta/releases/tag/0.21.2) lets the TUI open terminal editors such as vim and `emacs -nw`, and shows when a submodule is dirty.
 
+[delta 0.22.0](https://github.com/dandavison/delta/releases/tag/0.22.0) adds experimental difftastic support to the TUI and [moves](https://github.com/dandavison/delta/pull/2360) TUI settings from `[delta-tui ...]` sections into the `[delta]` namespace, where they can be grouped into features. Existing TUI configs break, and `delta --tui --migrate-old-config` prints the converted version.
+
 [GitButler 0.23.5](https://github.com/gitbutlerapp/gitbutler/releases/tag/release%2F0.23.5) is now on Flathub as an official, verified package. Pushing the rest of a stack after several of its branches have merged now succeeds, and loading a large project far behind its upstream no longer uses gigabytes of memory. The CLI adds `but worktree recycle`, which reuses a clean archived worktree, including its build output and dependencies, for a new branch.
+
+[gitoxide v0.62.0](https://github.com/GitoxideLabs/gitoxide/releases/tag/v0.62.0) adds `gix notify` and `gix watch`, which print filesystem events and repository invalidations, and `gix fsmonitor`, which runs and controls a Git-compatible filesystem monitor daemon. A `--repo-trust` option sets the trust level a repository's configuration is read at, and `gix env` prints the effective level. Plumbing crates now return an error type compatible with `std::error::Error`. The CLI now requires Rust 1.91, and the `gix` library requires 1.88.
 
 [gt 2.0.0](https://blog.gitea.com/release-of-gitea-cli-2.0.0/) (bircni, Gitea Blog), the Gitea command-line client, comes just over two weeks after 1.0.0. Its flags now match `gh`'s, so `gt pr merge` accepts `--squash`, `--subject` and `--body`. `--json` now requires a field list, and absent values are always `null`. Logs of a failed Actions run dropped from about 46,800 tokens to about 11,600, because the output drops timestamps and `--failed` prints only the failed steps.
 
@@ -33,7 +37,7 @@ Commands now run with a `GITEA_TOKEN` that lacks the `read:user` scope, so a tok
 
 [GitLab 19.6](https://docs.gitlab.com/releases/19/gitlab-19-6-released/) makes Rapid Diffs generally available as the replacement for the classic merge request diff view. Diffs are rendered on the server and streamed to the browser, which cuts the time to the first file from about 4.5 seconds to 1.5. Fine-grained personal access tokens can now read more through the GraphQL API, including blame, CODEOWNERS validation and deploy keys. Every action taken through the GitLab MCP server now creates an audit event.
 
-Also out: [forges v0.4.0](https://github.com/danielroe/forges/releases/tag/v0.4.0).
+Also out: [forges v0.4.0](https://github.com/danielroe/forges/releases/tag/v0.4.0) and [v0.4.1](https://github.com/made-in-common/forges/releases/tag/v0.4.1).
 
 ## Security
 
@@ -55,6 +59,12 @@ On 16 November malicious JavaScript was served through Optimizely Web to visitor
 
 In the [latest changes](https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview) to the pull request Overview preview, a mergeable pull request with failed optional checks now shows as mergeable. Force-push entries in the activity link to the old and new commits, commit entries show timestamps, and resolved review threads collapse.
 
+From 1 December GitHub is [changing notification behaviour](https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com) on GitHub.com in a week-long migration. Commenting, submitting a review, changing a thread's state or merge queue activity will stop resubscribing a user who unsubscribed manually, and a mention, an assignment or a review request will resubscribe them as before. Team-mention notifications will be sent according to current team membership, so leaving the team stops them and joining starts them for threads where the team was already mentioned.
+
+The reason shown in the inbox and email footer will be chosen by a fixed priority order in place of the most recent activity, and email headers will list every applicable reason. Threads subscribed to manually will be the only entries on the Subscriptions page. Filters and automations keyed on notification reasons may need updating.
+
+[Issue statuses](https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview) are in public preview, with the values Backlog, Todo, In progress, In review, Done, Not planned and Duplicate. Linking a draft pull request moves an issue to In progress, and marking it ready for review or linking an open pull request moves it to In review. Statuses can be read and set through GraphQL, REST and the MCP server. Saved views in a repository can now use a board layout, where dragging an issue between columns changes its status.
+
 The [GitHub Enterprise Server 3.23 release candidate](https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate) adds OAuth app access tokens that expire after eight hours, with refresh tokens. Expiry is the default for new OAuth apps and opt-in for existing ones. [Enterprise Live Migrations from Azure DevOps](https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available) is generally available for GitHub Enterprise Cloud with data residency. It syncs Git history, branches, tags and pull requests continuously until cutover, and converts branch policies to rulesets.
 
 Security advisory permissions, in [Saturday's roundup](/2026/11/21/this-week-in-package-management.html), let custom repository roles manage and publish advisories, which previously required admin access. [Seth Larson writes](https://sethmlarson.dev/github-security-advisory-permissions-sustainability) that the Python Security Response Team tested it in a private beta, and that several more PSRT members now take part in triage, work that had fallen to repository admins.
@@ -67,6 +77,10 @@ Codeberg posted a [post-mortem](https://codeberg.org/Codeberg/changelog/issues/7
 
 Codeberg removed both repositories and is evaluating offers from other registrars. It moved its nameservers from NameSilo to deSEC in July. A switch to its spare `codeberg.eu` domain would affect two-factor authentication and every existing Git remote, and Codeberg is [working with Forgejo](https://codeberg.org/forgejo/forgejo/issues/15329) on multi-domain support.
 
+[Run CI in your Namespace workspace](https://tangled.org/blog/namespace-engine/) (Anirudh, Tangled) announces a new spindle engine that runs workflows in a Namespace workspace. It also covers a Discord integration that posts a public repository's new issues, pull requests and tags to a channel. The post lists knots built by other people, among them yumak, which serves repositories as static files from nginx, and walknot, which stores its data in an S3 bucket.
+
+Knot 1.20.1 fixes `go get` from knots, where `GOPROXY=direct` fetches broke on shallow boundaries and the Go module proxy failed on sha256 repositories. Deleting contribution records such as issues and pull requests is now limited to collaborators. The Go knot has been removed from the tree, with an upgrade guide to knot 2.
+
 [Announcing jj-musubi](https://www.serpentine.com/posts/2026/announcing-jj-musubi/) (Bryan O'Sullivan) introduces [jj-musubi](https://github.com/bos/jj-musubi), which syncs copies of a Jujutsu repository across machines each time jj snapshots the working copy. One machine runs a hub and the others exchange history with it over SSH. Each machine's workspaces appear prefixed with its name, so `jj diff -r devbox/agent-1@` shows another machine's work. Temporary VMs can lease membership, and a repository whose lease is not renewed is forgotten.
 
 Syncs leave the files in each working copy alone, so new history can arrive while a build runs. O'Sullivan started the project that became Sapling and Mononoke at Meta, and cites Sapling's Commit Cloud as the model. Key properties of the sync protocol are proved in Lean, and tests compare the Rust code against the Lean model.
@@ -74,5 +88,7 @@ Syncs leave the files in each working copy alone, so new history can arrive whil
 [Jujutsu Primer](https://ethanlowman.com/posts/jj-primer/) (Ethan Lowman) introduces jj to Git users in a colocated repository. It covers changes and commits, revsets, automatic rebasing, conflicts, the op log, the squash workflow, bookmarks, and stacked pull requests.
 
 [TODOs JJ Style](https://bwc9876.dev/blog/jj_todo/) (Ben C) describes keeping a to-do list as empty jj changes with descriptions, rebased onto real work when started. A `git.private-commits` setting of `description('private:*')` excludes them from pushes.
+
+[Mergeon](https://github.com/Spilveru/mergeon) is a new GPL-3.0 desktop Git client modelled on Fork and written in Rust with GPUI, the UI library from Zed. It has a commit graph, staging by file, hunk or line, a three-way conflict resolver, interactive rebase, worktrees and a per-repository undo stack. Signing in to GitHub shows pull requests and CI check status in the sidebar. Linux packages are the tested target, and the Windows and macOS builds are marked beta.
 
 Send links for next week to [@andrewnez@mastodon.social](https://mastodon.social/@andrewnez).
