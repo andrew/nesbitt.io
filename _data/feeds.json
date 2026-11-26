@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-26T12:29:51Z",
-  "cutoff": "2026-10-27T12:29:44Z",
+  "generated": "2026-11-26T13:23:32Z",
+  "cutoff": "2026-10-27T13:23:26Z",
   "feed_count": 104,
-  "item_count": 291,
+  "item_count": 290,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v12.24.0",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.24.0",
+      "published": "2026-11-26T12:36:41Z",
+      "preview": "=v12.24.0",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
     {
       "title": "44.263.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.6",
@@ -1109,14 +1117,6 @@
       "preview": "Welcome to the October 2026 report from the Reproducible Builds project! In our reports, we try to outline the most important things that we have been up to over the past month. As a quick recap about what problem our project intends to solve, whilst anyone may inspect the source code of free software for malicious flaws, almost all software is distributed to end users as pre-compiled binaries. The motivation behind the reproducible builds effort is to ensure no flaws have been introduced during this compilation process by promising identical results are always generated from a given source, t",
       "source": "Reproducible Builds Blog",
       "category": "Infrastructure"
-    },
-    {
-      "title": "pnpm 12.21",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.21.0",
-      "published": "2026-11-13T21:02:22Z",
-      "preview": "pnpm 12.21.0 lets pnpm store add prepare tarball and git dependencies for offline installs. It also makes repeated installs keep their peer dependency choices and fixes several lockfile.format: v13 , nodeLinker: hoisted , and pnpm deploy failures. If a pnpr server refuses a setting, pnpm now resolves locally. Minor Changes pnpm store add run in a project now prepares downloaded tarballs for every lockfile entry that pins them. Besides registry packages, pnpm install --offline --frozen-lockfile can then install dependencies on a tarball URL and dependencies on a git host such as GitHub whose lo",
-      "source": "pnpm releases",
-      "category": "JavaScript"
     },
     {
       "title": "client/v0.6.3",
@@ -2341,14 +2341,6 @@
       "preview": "What's Changed Ignore commented-out _authToken lines in .npmrc by @alhss in #16550 Fix wording in Docker and updater specs by @JamieMagee in #16633 bun: scope workspace-only dependency installs/updates with --filter by @v-sachin-sandhu in #16543 Skip public PyPI library lookup when a python_index credential has replaces-base by @v-thavaahariharangit with @Copilot in #16619 Classify pnpm errors that currently surface as unknown errors by @v-sachin-sandhu in #16643 Add support for apm lockfile regeneration and pinning deps to commit sha by @v-abhishekbhaskar in #16514 update Python 3.14 and 3.13",
       "source": "Dependabot Core releases",
       "category": "Infrastructure"
-    },
-    {
-      "title": "20261027t132200-all",
-      "url": "https://github.com/dart-lang/pub-dev/releases/tag/20261027t132200-all",
-      "published": "2026-10-27T13:22:33Z",
-      "preview": "Deployment at 2026-10-27T13:22:28.961021Z.",
-      "source": "pub.dev releases",
-      "category": "Registries"
     }
   ]
 }
