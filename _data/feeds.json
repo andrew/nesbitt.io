@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-26T15:23:00Z",
-  "cutoff": "2026-10-27T15:22:54Z",
+  "generated": "2026-11-26T16:24:02Z",
+  "cutoff": "2026-10-27T16:23:58Z",
   "feed_count": 104,
   "item_count": 292,
   "categories": [
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "45.0.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.0",
+      "published": "2026-11-26T16:00:41Z",
+      "preview": "45.0.0 (2026-11-26) Breaking changes for 45 Renovate will now onboard repositories with config:recommended #48405 To provide a more \"batteries-included\" experience, we will now default onboardingConfig to use config:recommended . This is the maintainers' recommendation for users starting with Renovate, and has been the default for Mend-hosted Renovate users since ~2024. This might be a breaking change due to the way that onboardingConfig is treated as mergeable. If you do not want to include this preset, you need to override extends like so: module . exports = { onboardingConfig : { // ensure ",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "44.264.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.264.1",
+      "published": "2026-11-26T15:39:55Z",
+      "preview": "44.264.1 (2026-11-26) Miscellaneous Chores deps: update dependency vale to v3.29.0 (main) ( #48427 ) ( ea1c492 ) Build System deps: update dependency @renovatebot/pep440 to v6.0.1 (main) ( #48426 ) ( 1b0c62d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "pnpm 12.24",
       "url": "https://github.com/pnpm/pnpm/releases/tag/v12.24.0",
@@ -133,22 +149,6 @@
       "preview": "[0.85.0] - 2026-11-24 ✨ Highlights We streamlined the platform selection process and overhauled the multi-platform configuration guide and the platforms manifest reference . This fixes some inconsistent behaviour and enables compatibility with dependencies on virtual packages provided by detectors which use semantics other than >= , such as == . Workspace platform definitions now use the subdir key instead of platform , distinguishing the conda operating system and architecture from a named Pixi platform with virtual packages. The old platform key remains accepted but emits a deprecation warni",
       "source": "pixi releases",
       "category": "Multi-language"
-    },
-    {
-      "title": "44.262.2",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.262.2",
-      "published": "2026-11-25T11:02:01Z",
-      "preview": "44.262.2 (2026-11-25) Documentation manager/mise: safe mode doesn't need allowedUnsafeExecutions ( #48368 ) ( 177633c ) Miscellaneous Chores allow checking named Markdown files ( #48338 ) ( 98f3dae ) Build System deps: update commander to v15.1.0 (main) ( #48371 ) ( 79f78a1 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.262.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.262.1",
-      "published": "2026-11-25T05:45:19Z",
-      "preview": "44.262.1 (2026-11-25) Build System deps: update dependency shlex to v3.0.1 (main) ( #48365 ) ( 18f1af3 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v4.0.25",
