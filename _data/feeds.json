@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-26T17:22:36Z",
-  "cutoff": "2026-10-27T17:22:32Z",
+  "generated": "2026-11-26T18:25:30Z",
+  "cutoff": "2026-10-27T18:25:24Z",
   "feed_count": 104,
   "item_count": 292,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "45.1.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/45.1.0",
+      "published": "2026-11-26T17:46:19Z",
+      "preview": "45.1.0 (2026-11-26) Features deps: update renovate-base-image to v14.1.0 (main) ( #48435 ) ( d75307e )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "45.0.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.2",
@@ -115,14 +123,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.3",
       "published": "2026-11-25T19:15:19Z",
       "preview": "44.263.3 (2026-11-25) Miscellaneous Chores deps: update dependency knip to v6.46.0 (main) ( #48380 ) ( 72d95ff ) Build System deps: update dependency @renovatebot/osv-offline to v4.5.11 (main) ( #48392 ) ( f5cf7d7 ) Continuous Integration build: wait for Pages artifact by ID and by name before deploying ( #48393 ) ( 72535d0 ) build: wait for Pages artifact to be listed before deploying ( #48385 ) ( 861de9c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.263.2: fix(deps): update renovate-base-image to v13.178.1 (main) (#48374)",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.2",
-      "published": "2026-11-25T15:29:32Z",
-      "preview": "fix(deps): update renovate-base-image to v13.178.1 datasource package from to npm @renovatebot/base-image 13.178.0 13.178.1 docker ghcr.io/renovatebot/base-image 13.178.0 13.178.1 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
