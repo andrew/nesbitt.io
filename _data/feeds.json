@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-25T23:21:52Z",
-  "cutoff": "2026-10-26T23:21:46Z",
+  "generated": "2026-11-26T00:42:00Z",
+  "cutoff": "2026-10-27T00:41:54Z",
   "feed_count": 104,
-  "item_count": 298,
+  "item_count": 294,
   "categories": [
     ".NET",
     "C/C++",
@@ -2373,38 +2373,6 @@
       "preview": "Release Notes Released on 2026-10-26. Enhancements Accept an empty UV_RUN_RECURSION_DEPTH as zero and report invalid values consistently ( #22814 ) Explain how to add project metadata when uv init finds a pyproject.toml without a [project] table ( #22916 ) Python Add CPython 3.11.18, 3.12.16, 3.13.18, 3.14.10, and 3.15.2 ( #22938 ) Preview features Detect NVIDIA GPU capabilities when selecting compatible wheel variants with wheel-variants ( #22690 ) Nest each module's owners in an object in uv workspace metadata output ( #22638 ) Report the unsupported properties required by an incompatible wh",
       "source": "uv releases",
       "category": "Python"
-    },
-    {
-      "title": "tar-codec: a fast and secure tar parser for the Rust ecosystem",
-      "url": "https://astral.sh/blog/tar-codec",
-      "published": "2026-10-27T00:00:00Z",
-      "preview": "We're releasing tar-codec, a new tar encoding/decoding library for Rust. tar-codec is already the default in uv, and improves uv's tar handling performance by over 2x while also improving our posture against archive differentials.",
-      "source": "Astral Blog",
-      "category": "Python"
-    },
-    {
-      "title": "pnpm 11.28.9",
-      "url": "https://pnpm.io/blog/releases/11.28.9",
-      "published": "2026-10-27T00:00:00Z",
-      "preview": "This release fixes a crash on registry responses with too many content encodings (GHSA-xjj6-f33q-929c) and sizes the install worker pool by the container's CPU quota. A repeat pnpm install now acts on more setting changes.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12.16.0",
-      "url": "https://pnpm.io/blog/releases/12.16.0",
-      "published": "2026-10-27T00:00:00Z",
-      "preview": "This release adds a global --env-file flag, updates to a symlinked pnpm-lock.yaml, and pnpm setup --no-modify-path. It also fixes two security issues, in zstd decompression and in signing.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
-    },
-    {
-      "title": "pnpm 12.16.1",
-      "url": "https://pnpm.io/blog/releases/12.16.1",
-      "published": "2026-10-27T00:00:00Z",
-      "preview": "This release fixes pnpm install hanging on a cold store in workspaces that install Cargo crates, and pnpm pack shipping a file that files excludes by name.",
-      "source": "pnpm Blog",
-      "category": "JavaScript"
     }
   ]
 }
