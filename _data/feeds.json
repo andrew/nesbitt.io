@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-26T14:23:49Z",
-  "cutoff": "2026-10-27T14:23:43Z",
+  "generated": "2026-11-26T15:23:00Z",
+  "cutoff": "2026-10-27T15:22:54Z",
   "feed_count": 104,
-  "item_count": 291,
+  "item_count": 292,
   "categories": [
     ".NET",
     "C/C++",
@@ -23,6 +23,22 @@
   ],
   "items": [
     {
+      "title": "pnpm 12.24",
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.24.0",
+      "published": "2026-11-26T14:31:19Z",
+      "preview": "This release adds pnpm audit deprecations and pnpm audit engines , moves install warnings into a checks footer above Done in , and lets global installs link approved agent skills. It carries a security fix: pnpm now reads every package tarball the way npm does, or refuses it. pnpm approve <pkg> also no longer grants every permission to a package that has no pending request. Minor Changes Added pnpm audit deprecations , which lists the installed packages that their registry marks as deprecated, with the projects or packages that bring each one in. It exits with code 1 if any package is deprecat",
+      "source": "pnpm releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "44.264.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/44.264.0",
+      "published": "2026-11-26T14:30:23Z",
+      "preview": "44.264.0 (2026-11-26) Features manager/npm/pnpm: allow configuring whether to specify minimumReleaseAgeExclude ( #48408 ) ( d1fbf2c )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
       "title": "swift-DEVELOPMENT-SNAPSHOT-2026-11-25-a",
       "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-11-25-a",
       "published": "2026-11-26T14:02:42Z",
@@ -31,20 +47,20 @@
       "category": "Registries"
     },
     {
-      "title": "v12.24.0",
-      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.24.0",
-      "published": "2026-11-26T12:36:41Z",
-      "preview": "=v12.24.0",
-      "source": "pnpm releases",
-      "category": "JavaScript"
-    },
-    {
       "title": "44.263.6",
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.6",
       "published": "2026-11-26T12:07:24Z",
       "preview": "44.263.6 (2026-11-26) Bug Fixes config: make toolSettings mergeable ( #48407 ) ( 4c4d34d ) Documentation manager/cargo: document known depTypes ( #48413 ) ( 309c237 ) Miscellaneous Chores simplify the test-schema launcher ( #48336 ) ( 208cd85 ) Code Refactoring config: generate the defaults of all config options ( #48410 ) ( aa93698 ) Tests config: add coverage for toolSettings inheritance and merging ( #48406 ) ( e6575be )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "pnpm 12.24.0",
+      "url": "https://pnpm.io/blog/releases/12.24.0",
+      "published": "2026-11-26T00:00:00Z",
+      "preview": "This release adds pnpm audit deprecations and pnpm audit engines, moves install warnings into a checks footer above Done in, and lets global installs link approved agent skills. It carries a security fix: pnpm now reads every package tarball the way npm does, or refuses it. pnpm approve ...",
+      "source": "pnpm Blog",
+      "category": "JavaScript"
     },
     {
       "title": "44.263.5",
@@ -141,14 +157,6 @@
       "preview": "RubyGems 4.0.25 Bug fixes: Fix file permissions during gem extraction. Pull request #10128 by Hiroshi SHIBATA Resolve chained symlink targets before creating them during extraction. Pull request #10119 by Hiroshi SHIBATA Forward keyword arguments in the IPv4 fallback TCPSocket#initialize. Pull request #10098 by Hiroshi SHIBATA Bundler 4.0.25 Bug fixes: Retry resolution with transitive prereleases. Pull request #10110 by Hiroshi SHIBATA Allow full updates to downgrade a yanked gem. Pull request #10106 by Hiroshi SHIBATA Allow bundle lock --add-platform to add native platforms from JRuby. Pull r",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "44.262.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.262.0",
-      "published": "2026-11-25T04:49:06Z",
-      "preview": "44.262.0 (2026-11-25) Features deps: update renovate-base-image to v13.177.0 (main) ( #48364 ) ( d29cd2c )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "v4.1.1",
