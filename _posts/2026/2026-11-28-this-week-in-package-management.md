@@ -23,7 +23,7 @@ Hex users should change their password and reset 2FA, and until a Hex client rel
 
 [pnpm 12.23.0](https://pnpm.io/blog/releases/12.23.0) and [11.29.0](https://pnpm.io/blog/releases/11.29.0) stop reading `otp` from config files, which a repository could use to leak `${NPM_TOKEN}` to its own registry. Both reject `file:` and `link:` dependencies declared by registry packages and send registry credentials only over HTTPS or loopback HTTP. `--minimum-release-age` is now also a command line option.
 
-12.23.0 also adds `pnpm edit`, `pnpm catalog migrate` and `pnpm link --hard`. It removes platform variants, so packages that publish them need to move to `optionalDependencies`.
+[12.24.0](https://pnpm.io/blog/releases/12.24.0) adds `pnpm audit deprecations` and `pnpm audit engines`, and fixes a parser differential: pnpm and npm could install different files from a tarball with a malformed PAX header. `pnpm edit`, `pnpm catalog migrate` and `pnpm link --hard` are new in 12.23.0, which also removes platform variants, so maintainers who publish them have to switch to `optionalDependencies`.
 
 [Flatpak 1.18.6](https://github.com/flatpak/flatpak/releases/tag/1.18.6) fixes a bug where an app, runtime or extension with extra-data could create setuid root files on the host when installed ([CVE-2026-133842](https://github.com/flatpak/flatpak/security/advisories/GHSA-p4mw-6jfq-r82r)), and a sandbox escape through file descriptor passing in flatpak-portal ([CVE-2026-133845](https://github.com/flatpak/flatpak/security/advisories/GHSA-5jrj-948r-2wx6)).
 
@@ -69,6 +69,16 @@ Also out:
 [Transparency log & first stage of organizations](https://blog.packagist.com/transparency-log-first-stage-of-organizations/) (Igor Benko, Packagist blog) describes an append-only public log of security-relevant events on Packagist: maintainers added or removed, packages transferred, versions created with their commit reference, and blocked attempts to change a reference. The work was funded by the Sovereign Tech Fund through the PHP Foundation.
 
 Stable versions have been immutable since June, which the post says would have blocked the April attack that force-pushed a malicious commit behind the 5.0.2 tag of `intercom/intercom-php`. Organisations with individual member accounts are partly live. A tamper-evident design that would detect changes made through a compromised Packagist database is in development.
+
+Nils Adermann and Jordi Boggiano's [SymfonyCon Warsaw slides](https://naderman.de/slippy/slides/2026-11-26-SymfonyCon-2026-Warsaw-Composer-and-Packagist-Supply-Chain-Security-Report-from-the-trenches.pdf) list the year's attacks on PHP packages and a 2027 roadmap. Alpha-Omega is funding artifact integrity work in five phases:
+
+- Packagist stores Zstd archives of all tagged versions with checksums
+- Composer verifies Sigstore signatures and build provenance
+- Scoped API tokens with expiry
+- Trusted Publishing from chosen CI workflows
+- A `composer publish` command with staged releases approved by hardware key
+
+FIDO2 security keys and passkeys are due on Packagist in the coming weeks. The funding slide lists 2026 running costs of about $1M and roadmap work of about $1.4M. Private Packagist and a sponsor programme launched in July each contribute around $500K. Packagist served 7.4 billion installs in October, up from 3.1 billion in October 2025.
 
 [Content-Addressable Gems](https://blog.rubygems.org/2026/11/23/content-addressable-gems.html) (Jenny Shen, RubyGems blog) explains the RubyGems 4.1 feature where a precompiled gem is built for a single Ruby ABI and named by a prefix of its SHA-256, such as `rubydex-0.4.4-aff68219.gem`. A platform gem bundles one copy of the extension per Ruby. Maintainers can publish a build for a new Ruby under the existing version number. Lockfiles have new `CONTENT ADDRESSES` and `RUBY ABIS` sections, and older clients skip these gems.
 
