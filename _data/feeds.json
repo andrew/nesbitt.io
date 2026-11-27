@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-26T22:22:17Z",
-  "cutoff": "2026-10-27T22:22:11Z",
+  "generated": "2026-11-27T00:42:17Z",
+  "cutoff": "2026-10-28T00:42:12Z",
   "feed_count": 104,
-  "item_count": 290,
+  "item_count": 288,
   "categories": [
     ".NET",
     "C/C++",
@@ -2325,22 +2325,6 @@
       "preview": "Added: Officially support Python 3.15.",
       "source": "Hatch releases",
       "category": "Python"
-    },
-    {
-      "title": "4.1.0.beta3 Released",
-      "url": "https://blog.rubygems.org/2026/10/28/4.1.0.beta3-released.html",
-      "published": "2026-10-28T00:00:00Z",
-      "preview": "RubyGems and Bundler 4.1.0.beta3 include enhancements, bug fixes and features. To update to the latest RubyGems you can run: gem update --system [--pre] To update to the latest Bundler you can run: gem install bundler [--pre] bundle update --bundler=4.1.0.beta3 Release Notes RubyGems Enhancements: Installs bundler 4.1.0.beta3 as a default gem. Bug fixes: Skip executable removal gracefully when the bin directory is missing. Pull request #9963 by Evan Li and Hiroshi SHIBATA Fix file locks letting multiple processes in when lock files are removed. Pull request #9930 by Richard Janita and Hiroshi ",
-      "source": "RubyGems Blog",
-      "category": "Ruby"
-    },
-    {
-      "title": "Ruby Central’s OSS Changelog: October 2026",
-      "url": "https://blog.rubygems.org/2026/10/28/ruby-centrals-oss-changelog-october-2026.html",
-      "published": "2026-10-28T00:00:00Z",
-      "preview": "Originally published on Ruby Central . Relaunching the changelog It has been a long time since the last Ruby Central Changelog, and we’re bringing it back. Ruby Central’s open source team operates RubyGems.org , a service many of us rely on every day, and supports the packaging ecosystem around it. The Changelog is where we will share that work. Each issue will cover what is changing, why it matters, and where you can get involved. This is the first issue edited by our new Community Manager, Kirk Haines, who joined Ruby Central in August. If you missed his introduction in the Ruby Central Augu",
-      "source": "RubyGems Blog",
-      "category": "Ruby"
     }
   ]
 }
