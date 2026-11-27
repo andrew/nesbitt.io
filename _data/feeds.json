@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-27T16:24:04Z",
-  "cutoff": "2026-10-28T16:23:57Z",
+  "generated": "2026-11-27T17:22:59Z",
+  "cutoff": "2026-10-28T17:22:53Z",
   "feed_count": 104,
-  "item_count": 285,
+  "item_count": 286,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "v1.9.0",
+      "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.9.0",
+      "published": "2026-11-27T17:12:11Z",
+      "preview": "What's Changed registry-client: trust only the CAs in npm_config_cafile by @evert in #2156 cli-sdk: check the public npm mirror for vlt updates by @ruyadorno in #2186 cli-sdk: retry a failed update check after an hour by @ruyadorno in #2187 cli-sdk: skip the update notifier on vlt install -g vlt by @ruyadorno in #2188 cli-sdk: skip the update notifier inside package scripts by @ruyadorno in #2189 cli-sdk: skip the update notifier for a project-local vlt by @ruyadorno in #2191 cli-sdk: fall back to the default update check interval by @ruyadorno in #2193 docs: list the remaining update notifier",
+      "source": "vlt CLI releases",
+      "category": "JavaScript"
+    },
+    {
+      "title": "45.3.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/45.3.1",
+      "published": "2026-11-27T16:47:50Z",
+      "preview": "45.3.1 (2026-11-27) Bug Fixes deps: update renovate-base-image to v14.1.1 (main) ( #48465 ) ( e05f35f )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "9.9.3",
       "url": "https://github.com/gradle/gradle/releases/tag/v9.9.3",
@@ -115,14 +131,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.0",
       "published": "2026-11-26T16:00:41Z",
       "preview": "45.0.0 (2026-11-26) Breaking changes for 45 Renovate will now onboard repositories with config:recommended #48405 To provide a more \"batteries-included\" experience, we will now default onboardingConfig to use config:recommended . This is the maintainers' recommendation for users starting with Renovate, and has been the default for Mend-hosted Renovate users since ~2024. This might be a breaking change due to the way that onboardingConfig is treated as mergeable. If you do not want to include this preset, you need to override extends like so: module . exports = { onboardingConfig : { // ensure ",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.264.1",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.264.1",
-      "published": "2026-11-26T15:39:55Z",
-      "preview": "44.264.1 (2026-11-26) Miscellaneous Chores deps: update dependency vale to v3.29.0 (main) ( #48427 ) ( ea1c492 ) Build System deps: update dependency @renovatebot/pep440 to v6.0.1 (main) ( #48426 ) ( 1b0c62d )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
