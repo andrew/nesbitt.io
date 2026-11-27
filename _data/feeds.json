@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-27T00:42:17Z",
-  "cutoff": "2026-10-28T00:42:12Z",
+  "generated": "2026-11-27T03:26:15Z",
+  "cutoff": "2026-10-28T03:26:09Z",
   "feed_count": 104,
-  "item_count": 288,
+  "item_count": 286,
   "categories": [
     ".NET",
     "C/C++",
@@ -2309,22 +2309,6 @@
       "preview": "RubyGems Enhancements: Installs bundler 4.1.0.beta3 as a default gem. Bug fixes: Skip executable removal gracefully when the bin directory is missing. Pull request #9963 by Evan Li and Hiroshi SHIBATA Fix file locks letting multiple processes in when lock files are removed. Pull request #9930 by Richard Janita and Hiroshi SHIBATA Turn off echo before printing the password prompt. Pull request #9969 by Mike Dalessio Bundler Changes already released in 4.0.x are not repeated here. Features: Rename the from: and to: keys of override to in: and with: . Pull request #9979 by Hiroshi SHIBATA Record ",
       "source": "RubyGems releases",
       "category": "Ruby"
-    },
-    {
-      "title": "Hatch v1.18.2",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatch-v1.18.2",
-      "published": "2026-10-28T02:40:34Z",
-      "preview": "Changed: Upgrade default CPython distributions to 20261009 Added: Officially support Python 3.15. Managed Python 3.15 distributions are now the final 3.15.0 release rather than a release candidate, and the default test command matrix includes 3.15 and 3.15t Fixed: Fix syncing environment plugin requirements on standalone binaries built to forward to pip Fix the test command raising an IndexError with --cover , or silently doing nothing otherwise, when the --include or --exclude options match no environments. It now aborts with a clear message. Fix build hooks that set require-runtime-dependenc",
-      "source": "Hatch releases",
-      "category": "Python"
-    },
-    {
-      "title": "Hatchling v1.33.0",
-      "url": "https://github.com/pypa/hatch/releases/tag/hatchling-v1.33.0",
-      "published": "2026-10-28T02:28:28Z",
-      "preview": "Added: Officially support Python 3.15.",
-      "source": "Hatch releases",
-      "category": "Python"
     }
   ]
 }
