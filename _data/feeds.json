@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-27T10:23:11Z",
-  "cutoff": "2026-10-28T10:23:06Z",
+  "generated": "2026-11-27T12:29:37Z",
+  "cutoff": "2026-10-28T12:29:30Z",
   "feed_count": 104,
-  "item_count": 285,
+  "item_count": 284,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "45.1.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/45.1.2",
+      "published": "2026-11-27T12:04:39Z",
+      "preview": "45.1.2 (2026-11-27) Bug Fixes manager/github-actions: parse $/ as a local action reference ( #48454 ) ( 749efbf ) Documentation announce Renovate 45 ( #48434 ) ( ae7d252 ) update references to renovate/renovate to v45 (main) ( #48450 ) ( 105428b ) update references to renovatebot/github-action to v48 (main) ( #48453 ) ( 0c38f22 ) update the \"post major release\" docs ( #48448 ) ( 94730a3 ) Miscellaneous Chores deps: update dependency markdownlint-cli2 to v0.24.2 (main) ( #48446 ) ( 1265ab3 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "46.0.0-next.1",
       "url": "https://github.com/renovatebot/renovate/releases/tag/46.0.0-next.1",
@@ -117,14 +125,6 @@
       "preview": "This release adds pnpm audit deprecations and pnpm audit engines, moves install warnings into a checks footer above Done in, and lets global installs link approved agent skills. It carries a security fix: pnpm now reads every package tarball the way npm does, or refuses it. pnpm approve ...",
       "source": "pnpm Blog",
       "category": "JavaScript"
-    },
-    {
-      "title": "44.263.5",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.5",
-      "published": "2026-11-25T22:57:20Z",
-      "preview": "44.263.5 (2026-11-25) Miscellaneous Chores deps: update dependency knip to v6.46.1 (main) ( #48398 ) ( c63cf0d ) remove the Claude Code Stop hook ( #48335 ) ( 8f25e1f ) Build System deps: update dependency re2 to v1.27.2 (main) ( #48397 ) ( ec75513 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "cabal-head",
@@ -2293,14 +2293,6 @@
       "preview": "Changes This release contains something that should have been included a very long time ago. Sorry for sleeping on that. This action now retrieves the release manifest that contains the available versions, their download links and checksums from the Astral mirror, rather than trying GitHub first. This should present much more stable. (Known checksums are still checked, so the security impact does not change) Also a big thank you to @soujasK for a set of bugfixes 👏 🐛 Bug fixes Use Astral mirror for version manifests with GitHub fallback @eifinger ( #1119 ) fix: allow whitespace in uv requiremen",
       "source": "setup-uv releases",
       "category": "Python"
-    },
-    {
-      "title": "2.34.0 (28-Oct-2026)",
-      "url": "https://github.com/conan-io/conan/releases/tag/2.34.0",
-      "published": "2026-10-28T11:55:27Z",
-      "preview": "Feature: Define /MP in CMakeToolchain for clang-cl with Visual Studio generators ( ClangCL toolset), like msvc . ( #20439 ) Feature: Reduce local cache sqlite3 DB calls (33% fewer for regular installs with cached packages). ( #20434 ) Feature: Simplify the build step terminal output, removing duplicated package references. ( #20426 ) Feature: Add CMAKE_PREFIX_PATH as fallback to CMakeConfigDeps for cases beyond the <pkg>_DIR variable. ( #20420 ). Docs: 📃 Feature: Pass original URLs to backup source remotes in the X-Conan-Origin-Urls header. ( #20385 ). Docs: 📃 Feature: Update conan new bazel_l",
-      "source": "Conan releases",
-      "category": "C/C++"
     }
   ]
 }
