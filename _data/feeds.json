@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-27T05:23:54Z",
-  "cutoff": "2026-10-28T05:23:49Z",
+  "generated": "2026-11-27T08:26:22Z",
+  "cutoff": "2026-10-28T08:26:16Z",
   "feed_count": 104,
   "item_count": 285,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "45.1.1",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/45.1.1",
+      "published": "2026-11-27T08:11:05Z",
+      "preview": "45.1.1 (2026-11-27) Bug Fixes reconfigure: keep secrets for the reconfigure config ( #47067 ) ( 94efe07 )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "45.1.0",
       "url": "https://github.com/renovatebot/renovate/releases/tag/45.1.0",
@@ -115,14 +123,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.4",
       "published": "2026-11-25T21:01:20Z",
       "preview": "44.263.4 (2026-11-25) Miscellaneous Chores run import generation directly for type-check:tsrs ( #48334 ) ( fef502a ) Build System deps: update dependency cronstrue to v3.43.0 (main) ( #48394 ) ( 7c13ec1 ) Continuous Integration build: retry deploying to Pages instead of waiting for the artifact ( #48395 ) ( 2009781 )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "44.263.3",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.3",
-      "published": "2026-11-25T19:15:19Z",
-      "preview": "44.263.3 (2026-11-25) Miscellaneous Chores deps: update dependency knip to v6.46.0 (main) ( #48380 ) ( 72d95ff ) Build System deps: update dependency @renovatebot/osv-offline to v4.5.11 (main) ( #48392 ) ( f5cf7d7 ) Continuous Integration build: wait for Pages artifact by ID and by name before deploying ( #48393 ) ( 72535d0 ) build: wait for Pages artifact to be listed before deploying ( #48385 ) ( 861de9c )",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
