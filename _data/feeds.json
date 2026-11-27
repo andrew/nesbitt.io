@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-27T17:22:59Z",
-  "cutoff": "2026-10-28T17:22:53Z",
+  "generated": "2026-11-27T18:25:11Z",
+  "cutoff": "2026-10-28T18:24:55Z",
   "feed_count": 104,
-  "item_count": 286,
+  "item_count": 282,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "45.3.2",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/45.3.2",
+      "published": "2026-11-27T17:44:49Z",
+      "preview": "45.3.2 (2026-11-27) Build System deps: update dependency openpgp to v6.3.3 (main) ( #48466 ) ( 89e5f2d )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
     {
       "title": "v1.9.0",
       "url": "https://github.com/vltpkg/vltpkg/releases/tag/v1.9.0",
@@ -123,14 +131,6 @@
       "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.1",
       "published": "2026-11-26T16:54:30Z",
       "preview": "45.0.1 (2026-11-26) Build System deps: update dependency glob to v14.0.6 (main) ( #48432 ) ( cc503c6 ) Continuous Integration don't fail dry-run-major when a major is already pending on the base ( #48430 ) ( 9cba15e ), closes #48429 only allow major bump from next-major when targeting main ( #48429 ) ( ada36fb )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
-    },
-    {
-      "title": "45.0.0",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/45.0.0",
-      "published": "2026-11-26T16:00:41Z",
-      "preview": "45.0.0 (2026-11-26) Breaking changes for 45 Renovate will now onboard repositories with config:recommended #48405 To provide a more \"batteries-included\" experience, we will now default onboardingConfig to use config:recommended . This is the maintainers' recommendation for users starting with Renovate, and has been the default for Mend-hosted Renovate users since ~2024. This might be a breaking change due to the way that onboardingConfig is treated as mergeable. If you do not want to include this preset, you need to override extends like so: module . exports = { onboardingConfig : { // ensure ",
       "source": "Renovate releases",
       "category": "Infrastructure"
     },
@@ -1133,30 +1133,6 @@
       "preview": "Tag 8.2.0.14",
       "source": "NuGet Client releases",
       "category": ".NET"
-    },
-    {
-      "title": "v1.13.4",
-      "url": "https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.13.4",
-      "published": "2026-11-14T03:57:24Z",
-      "preview": "Merge pull request #4869 from JuliaLang/backports-release-1.13 Backports for 1.13",
-      "source": "Pkg.jl releases",
-      "category": "Registries"
-    },
-    {
-      "title": "v1.13.3",
-      "url": "https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.13.3",
-      "published": "2026-11-14T03:57:10Z",
-      "preview": "Merge pull request #4869 from JuliaLang/backports-release-1.13 Backports for 1.13",
-      "source": "Pkg.jl releases",
-      "category": "Registries"
-    },
-    {
-      "title": "v1.13.2",
-      "url": "https://github.com/JuliaLang/Pkg.jl/releases/tag/v1.13.2",
-      "published": "2026-11-14T03:56:46Z",
-      "preview": "Merge pull request #4860 from JuliaLang/kc/backport-4850-4852-release… …-1.13 [release-1.13] Backport #4850 and #4852",
-      "source": "Pkg.jl releases",
-      "category": "Registries"
     },
     {
       "title": "Reproducible Builds in October 2026",
@@ -2301,14 +2277,6 @@
       "preview": "Vulnerability fix for IO.unzip sbt team received a security report GHSA-p8jf-532w-4p65 from Stas Shevchenko that despite previous attempt to fix it, IO.unzip and its variants contain a zip slip vulnerability. Changes with compatibility implications Metabuild is updated to Scala 3.9. Apache Ivy is removed from the dependency. Scala 3.9 sbt 2.1.0 updates the Scala version used by the metabuild to Scala 3.9.0. Since both sbt 2.x and Scala 3.x are only backward compatible across minor versions, appropriate Scala version must be used for building sbt plugins. Also a plugin built using sbt 2.1.x wil",
       "source": "sbt releases",
       "category": "Maven"
-    },
-    {
-      "title": "v1.17.1",
-      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.17.1",
-      "published": "2026-10-28T18:02:22Z",
-      "preview": "1.17.1 (October 28, 2026) BUG FIXES: fmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file. ( #39303 ) Always evaluate module policies during destroy plan ( #39455 ) stacks: report every policy result for a replaced resource instead of only one of them ( #39453 )",
-      "source": "Terraform releases",
-      "category": "Infrastructure as Code"
     }
   ]
 }
