@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-27T19:21:58Z",
-  "cutoff": "2026-10-28T19:21:52Z",
+  "generated": "2026-11-27T20:22:44Z",
+  "cutoff": "2026-10-28T20:22:39Z",
   "feed_count": 104,
-  "item_count": 285,
+  "item_count": 286,
   "categories": [
     ".NET",
     "C/C++",
@@ -109,6 +109,14 @@
       "preview": "45.1.1 (2026-11-27) Bug Fixes reconfigure: keep secrets for the reconfigure config ( #47067 ) ( 94efe07 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "Announcing Rust 1.100.1",
+      "url": "https://blog.rust-lang.org/2026/11/27/Rust-1.100.1/",
+      "published": "2026-11-27T00:00:00Z",
+      "preview": "The Rust team has published a new point release of Rust, 1.100.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup, getting Rust 1.100.1 is as easy as: $ rustup update stable If you don't have it already, you can get rustup from the appropriate page on our website. If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel ( rustup default beta ) or the nightly channel ( rustup default nightly ). Please report any bugs you mig",
+      "source": "Rust Blog",
+      "category": "Rust"
     },
     {
       "title": "45.1.0",
