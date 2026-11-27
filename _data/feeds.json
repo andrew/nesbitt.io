@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-27T15:22:37Z",
-  "cutoff": "2026-10-28T15:22:32Z",
+  "generated": "2026-11-27T16:24:04Z",
+  "cutoff": "2026-10-28T16:23:57Z",
   "feed_count": 104,
-  "item_count": 286,
+  "item_count": 285,
   "categories": [
     ".NET",
     "C/C++",
@@ -2301,14 +2301,6 @@
       "preview": "1.17.1 (October 28, 2026) BUG FIXES: fmt: The original content of a file is now preserved if Terraform experiences an error writing to the original file. ( #39303 ) Always evaluate module policies during destroy plan ( #39455 ) stacks: report every policy result for a replaced resource instead of only one of them ( #39453 )",
       "source": "Terraform releases",
       "category": "Infrastructure as Code"
-    },
-    {
-      "title": "1.4.8",
-      "url": "https://github.com/chocolatey/choco/releases/tag/1.4.8",
-      "published": "2026-10-28T15:46:23Z",
-      "preview": "Read our blog post about this release. As part of this release we had 1 issue closed. Dependency Change Updated the bundled version of 7-zip to 26.05 - see #3946 by st3phhays . Contributors 1 contributors made this release possible.",
-      "source": "Chocolatey releases",
-      "category": "System"
     }
   ]
 }
