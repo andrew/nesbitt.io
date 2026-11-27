@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-27T12:29:37Z",
-  "cutoff": "2026-10-28T12:29:30Z",
+  "generated": "2026-11-27T14:23:03Z",
+  "cutoff": "2026-10-28T14:22:57Z",
   "feed_count": 104,
-  "item_count": 284,
+  "item_count": 286,
   "categories": [
     ".NET",
     "C/C++",
@@ -22,6 +22,22 @@
     "System"
   ],
   "items": [
+    {
+      "title": "45.2.0",
+      "url": "https://github.com/renovatebot/renovate/releases/tag/45.2.0",
+      "published": "2026-11-27T14:16:41Z",
+      "preview": "45.2.0 (2026-11-27) Features manager/flux: support OCIRepository chart templates in HelmRelease ( #47438 ) ( 234cafb ) Bug Fixes git: retry on SSL connection timeout ( #48445 ) ( d3088a0 ) Miscellaneous Chores deps: update dependency knip to v6.47.0 (main) ( #48455 ) ( f5782ec ) restrict direct test matcher imports ( #48248 ) ( c9fd25a )",
+      "source": "Renovate releases",
+      "category": "Infrastructure"
+    },
+    {
+      "title": "swift-DEVELOPMENT-SNAPSHOT-2026-11-26-a",
+      "url": "https://github.com/swiftlang/swift-package-manager/releases/tag/swift-DEVELOPMENT-SNAPSHOT-2026-11-26-a",
+      "published": "2026-11-27T13:59:47Z",
+      "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-11-26-a",
+      "source": "Swift Package Manager releases",
+      "category": "Registries"
+    },
     {
       "title": "45.1.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/45.1.2",
@@ -45,6 +61,14 @@
       "preview": "45.1.1 (2026-11-27) Bug Fixes reconfigure: keep secrets for the reconfigure config ( #47067 ) ( 94efe07 )",
       "source": "Renovate releases",
       "category": "Infrastructure"
+    },
+    {
+      "title": "v9.9.3",
+      "url": "https://github.com/gradle/gradle/releases/tag/v9.9.3",
+      "published": "2026-11-27T00:26:36Z",
+      "preview": "Replace ge.gradle.org with develocity.gradle.org ( #39948 )",
+      "source": "Gradle releases",
+      "category": "Maven"
     },
     {
       "title": "45.1.0",
@@ -109,14 +133,6 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-11-25-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "44.263.6",
-      "url": "https://github.com/renovatebot/renovate/releases/tag/44.263.6",
-      "published": "2026-11-26T12:07:24Z",
-      "preview": "44.263.6 (2026-11-26) Bug Fixes config: make toolSettings mergeable ( #48407 ) ( 4c4d34d ) Documentation manager/cargo: document known depTypes ( #48413 ) ( 309c237 ) Miscellaneous Chores simplify the test-schema launcher ( #48336 ) ( 208cd85 ) Code Refactoring config: generate the defaults of all config options ( #48410 ) ( aa93698 ) Tests config: add coverage for toolSettings inheritance and merging ( #48406 ) ( e6575be )",
-      "source": "Renovate releases",
-      "category": "Infrastructure"
     },
     {
       "title": "pnpm 12.24.0",
