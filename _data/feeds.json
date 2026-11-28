@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-28T02:26:12Z",
-  "cutoff": "2026-10-29T02:26:04Z",
+  "generated": "2026-11-28T10:22:23Z",
+  "cutoff": "2026-10-29T10:22:18Z",
   "feed_count": 104,
-  "item_count": 282,
+  "item_count": 279,
   "categories": [
     ".NET",
     "C/C++",
@@ -2253,30 +2253,6 @@
       "preview": "Tag build swift-DEVELOPMENT-SNAPSHOT-2026-10-27-a",
       "source": "Swift Package Manager releases",
       "category": "Registries"
-    },
-    {
-      "title": "2.2.31",
-      "url": "https://github.com/composer/composer/releases/tag/2.2.31",
-      "published": "2026-10-29T09:35:29Z",
-      "preview": "Security: Fixed package names in vendor/composer/installed.json being able to escape the vendor directory during install and reinstall ( GHSA-c968-33g3-wh7p ) Security: Fixed inline repository HTTP headers, such as API tokens, being written into composer.lock ( GHSA-fm2w-xgf2-f9fh ) Security: Reject TLS connections presenting distrusted intermediate certificates, composer/ca-bundle 1.4.16+ is now required ( #13147 ) Security: Fixed additional arguments passed to @composer scripts not being escaped ( #13170 ) Security: Fixed repository transport options such as custom http headers being sent to",
-      "source": "Composer releases",
-      "category": "PHP"
-    },
-    {
-      "title": "2.11.0",
-      "url": "https://github.com/composer/composer/releases/tag/2.11.0",
-      "published": "2026-10-29T09:35:10Z",
-      "preview": "Read the Composer 2.11 Release Announcement for more details on the release highlights. Full Changelog BC Break: Removed the source-fallback config option which was added in 2.10 as a temporary measure, dist installs no longer fall back to source ( #13050 ) Security: Fixed package names in vendor/composer/installed.json being able to escape the vendor directory during install and reinstall ( GHSA-c968-33g3-wh7p ) Security: Fixed inline repository HTTP headers, such as API tokens, being written into composer.lock ( GHSA-fm2w-xgf2-f9fh ) Security: Fixed additional arguments passed to @composer s",
-      "source": "Composer releases",
-      "category": "PHP"
-    },
-    {
-      "title": "Composer 2.11",
-      "url": "https://blog.packagist.com/composer-2-11-release/",
-      "published": "2026-10-29T09:34:57Z",
-      "preview": "We are pleased to announce the release of Composer 2.11.0 . The highlight of this release is the new cooldown dependency policy, which withholds newly published package versions for a configurable period of time before Composer will install them. Composer 2.11 also ships several security fixes, removes the",
-      "source": "Packagist Blog",
-      "category": "PHP"
     }
   ]
 }
