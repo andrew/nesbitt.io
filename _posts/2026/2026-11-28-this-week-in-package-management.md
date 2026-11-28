@@ -21,9 +21,9 @@ Hex users should change their password and reset 2FA, and until a Hex client rel
 
 [Composer 2.11.3](https://github.com/composer/composer/releases/tag/2.11.3) and [2.2.33](https://github.com/composer/composer/releases/tag/2.2.33) fix [GHSA-374h-4mh9-7rpm](https://github.com/composer/composer/security/advisories/GHSA-374h-4mh9-7rpm), a bypass of the fix for CVE-2024-24821. Running Composer in a directory with an attacker-prepared `composer.json` and vendor directory could execute code as the current user, even through read-only commands such as `composer validate`. Package descriptions, support links and licence names are also no longer rendered as console markup.
 
-[pnpm 12.23.0](https://pnpm.io/blog/releases/12.23.0) and [11.29.0](https://pnpm.io/blog/releases/11.29.0) stop reading `otp` from config files, which a repository could use to leak `${NPM_TOKEN}` to its own registry. Both reject `file:` and `link:` dependencies declared by registry packages and send registry credentials only over HTTPS or loopback HTTP. `--minimum-release-age` is now also a command line option.
+[pnpm 12.23.0 to 12.24.0](https://pnpm.io/blog/releases/12.24.0) and [11.29.0](https://pnpm.io/blog/releases/11.29.0) [stop reading `otp` from config files](https://pnpm.io/blog/releases/12.23.0), which a repository could use to leak `${NPM_TOKEN}` to its own registry. Both branches reject `file:` and `link:` dependencies declared by registry packages and send registry credentials only over HTTPS or loopback HTTP. `--minimum-release-age` is now also a command line option.
 
-[12.24.0](https://pnpm.io/blog/releases/12.24.0) adds `pnpm audit deprecations` and `pnpm audit engines`, and fixes a parser differential: pnpm and npm could install different files from a tarball with a malformed PAX header. `pnpm edit`, `pnpm catalog migrate` and `pnpm link --hard` are new in 12.23.0, which also removes platform variants, so maintainers who publish them have to switch to `optionalDependencies`.
+A tarball with a malformed PAX header could install different files under pnpm and npm, a parser differential fixed in 12.x. Platform variants are removed in 12.x as well, so maintainers who publish them have to switch to `optionalDependencies`.
 
 [Flatpak 1.18.6](https://github.com/flatpak/flatpak/releases/tag/1.18.6) fixes a bug where an app, runtime or extension with extra-data could create setuid root files on the host when installed ([CVE-2026-133842](https://github.com/flatpak/flatpak/security/advisories/GHSA-p4mw-6jfq-r82r)), and a sandbox escape through file descriptor passing in flatpak-portal ([CVE-2026-133845](https://github.com/flatpak/flatpak/security/advisories/GHSA-5jrj-948r-2wx6)).
 
@@ -33,7 +33,13 @@ Hex users should change their password and reset 2FA, and until a Hex client rel
 
 ## Releases
 
-[mise 2026.11.12](https://github.com/jdx/mise/releases/tag/v2026.11.12) (now [2026.11.14](https://github.com/jdx/mise/releases/tag/v2026.11.14)) adds `mise audit`, which checks installed tool versions against OSV.dev and exits 1 on findings, and `mise upgrade --vulnerable`, which upgrades only the affected tools. 2026.11.14 adds an experimental `cache.sandbox` option that uses Landlock on Linux to fail a cached task when it reads or writes outside its cache declaration.
+[Renovate 45.0.0 to 45.3.2](https://github.com/renovatebot/renovate/releases/tag/45.3.2) is a [small major release](https://github.com/renovatebot/renovate/discussions/48431), the first planned one since 43 in January. In pnpm projects, security updates [now go through pnpm's release age check](https://github.com/renovatebot/renovate/pull/48425). The automatic `minimumReleaseAgeExclude` entry they used to get let a malicious "fix" attached to a published advisory skip it. The old behaviour is opt-in through `toolSettings.pnpmMinimumReleaseAgeExcludeSecurityUpdates`.
+
+The `flux` manager now [supports `OCIRepository` chart templates](https://github.com/renovatebot/renovate/pull/47438) in `HelmRelease` resources.
+
+[mise 2026.11.12 to 2026.11.14](https://github.com/jdx/mise/releases/tag/v2026.11.14) adds `mise audit`, which checks installed tool versions against OSV.dev and exits 1 on findings. `mise upgrade --vulnerable` upgrades only the affected tools. An experimental `cache.sandbox` option uses Landlock on Linux to fail a cached task when it reads or writes outside its cache declaration.
+
+[vlt 1.9.0](https://github.com/vltpkg/vltpkg/releases/tag/v1.9.0) adds `vlt stage publish`, which uploads a version to the registry as staged, to be published once a maintainer approves it. The `list`, `view`, `approve`, `reject` and `download` subcommands manage staged versions. `vlt trust github` sets a GitHub Actions workflow as a trusted publisher for a package.
 
 [pixi 0.85.0](https://github.com/prefix-dev/pixi/releases/tag/v0.85.0) renames the `platform` key in workspace platform definitions to `subdir`, with the old key still accepted under a deprecation warning. Dependencies on virtual packages can now use operators other than `>=`, and `pixi tree` has a `--json` flag. Lock files from older versions may need a fresh `pixi lock`.
 
@@ -47,18 +53,17 @@ The [winget 1.30](https://github.com/microsoft/winget-cli/releases/tag/v1.30.310
 
 [Poetry 2.5.2](https://github.com/python-poetry/poetry/releases/tag/2.5.2) fixes `poetry install` building an sdist before checking it against its lock file hash.
 
-[Homebrew 7.0.16](https://github.com/Homebrew/brew/releases/tag/7.0.16) enforces the attestation trust policy, and `brew info` now lists installed build dependents and labels incompatible formulae and casks.
+[Homebrew 7.0.16 to 7.0.17](https://github.com/Homebrew/brew/releases/tag/7.0.17) enforces the attestation trust policy. Basic credentials on a download are now sent only to the source URL's origin and are dropped when a redirect goes to another origin.
 
-[pipx 1.19.0](https://github.com/pypa/pipx/releases/tag/1.19.0) (now [1.19.1](https://github.com/pypa/pipx/releases/tag/1.19.1)) shows each environment's shell completions in `pipx list` and flags missing or misplaced completion files.
+[pipx 1.19.0 to 1.19.2](https://github.com/pypa/pipx/releases/tag/1.19.2) shows each environment's shell completions in `pipx list` and flags missing or misplaced completion files.
 
 Also out:
 
-- [RubyGems and Bundler 4.1.1](https://blog.rubygems.org/2026/11/25/4.1.1-released.html)
-- [RubyGems and Bundler 4.0.25](https://blog.rubygems.org/2026/11/25/4.0.25-released.html)
+- [RubyGems and Bundler 4.1.1](https://blog.rubygems.org/2026/11/25/4.1.1-released.html) and [4.0.25](https://blog.rubygems.org/2026/11/25/4.0.25-released.html)
+- [Gradle 9.9.3](https://github.com/gradle/gradle/releases/tag/v9.9.3)
 - [OpenTofu 1.13.10](https://github.com/opentofu/opentofu/releases/tag/v1.13.10)
 - [sbt 2.1.1](https://github.com/sbt/sbt/releases/tag/v2.1.1)
-- [Podman 6.2.1](https://github.com/podman-container-tools/podman/releases/tag/v6.2.1)
-- [Podman 5.8.11](https://github.com/podman-container-tools/podman/releases/tag/v5.8.11)
+- [Podman 6.2.1](https://github.com/podman-container-tools/podman/releases/tag/v6.2.1) and [5.8.11](https://github.com/podman-container-tools/podman/releases/tag/v5.8.11)
 - [npm 10.9.11](https://github.com/npm/cli/releases/tag/v10.9.11)
 - [Dependabot Core 0.406.0](https://github.com/dependabot/dependabot-core/releases/tag/v0.406.0)
 - [NuGet Client 8.2.0.25](https://github.com/NuGet/NuGet.Client/releases/tag/8.2.0.25)
@@ -96,6 +101,8 @@ It scanned 135,548 crate files published between 11 and 21 November. Four crates
 
 Farid Zakaria's [trynix.dev](https://fzakaria.com/2026/11/23/2035-came-early) now runs GUI programs from Nix packages, including Firefox, in a browser tab. It uses unkernel, a Linux kernel compiled to WebAssembly, so only user programs are emulated. [Browser tabs as a container runtime](https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime) builds an OCI runtime called tabc on the same base. `docker run --runtime tabc alpine` runs each container in a Chromium tab, with no Linux VM on macOS, at 11 to 36 times slower than runc.
 
+[Your phone is a Kubernetes node](https://fzakaria.com/2026/11/27/your-phone-is-a-kubernetes-node) (Farid Zakaria) describes tabernetes, a k3s cluster where each browser tab that opens the join link joins as a node and runs pods through tabc.
+
 ## Elsewhere
 
 [PEP 847](https://peps.python.org/pep-0847/), Problem Details for the Simple Repository API, was [accepted](https://discuss.python.org/t/pep-847-problem-details-for-the-simple-repository-api/108996/31) on 23 November. Indexes should send RFC 9457 JSON bodies with `Content-Type: application/problem+json` on error responses, so clients can show a specific reason for a failure. Hugo van Kemenade [notes](https://mastodon.social/@hugovk/117667756035295222) that it is the first PEP accepted by the new Python Packaging Council.
@@ -109,5 +116,15 @@ The Software Stewardship Lab [announced seven research programs](https://steward
 Josh Bressers [talked to Sivana Hamer](https://opensourcesecurity.io/2026/2026-11-sivana-attestations/) about software attestations and in-toto on the Open Source Security podcast.
 
 The Sovereign Tech Agency's [survey for the EU Sovereign Tech Fund pilot](https://survey.sovereign.tech/eustf) closes on 30 November. It asks respondents to name up to three important open source projects or technologies and say why they matter.
+
+[Where the money goes](https://investinopen.org/state-of-open-infrastructure-2026/sooi-where-the-money-goes-2026/) (Invest in Open Infrastructure) tracks $663M of grants to 94 open research infrastructures from 47 funders between 2001 and 2026. Of that, $192M went directly to infrastructures and $411M to research that depends on one.
+
+Alpha-Omega published a [case study](https://alpha-omega.dev/blog/case-study-how-phps-security-engineer-in-residence-helped-coordinate-the-php2shell-response/) on Volker Dusch's work as the PHP Foundation's Security Engineer in Residence during the PHP2Shell response in October. The security team received more than 200 advisory reports in one week. He handled the daily calls with outside security teams and the outreach to Linux distributions while PHP's engineers wrote the fixes.
+
+[That's not a project](https://dissociatedpress.net/thats-not-a-project/) (Joe Brockmeier) says LWN now receives two or three pitches a day for projects generated with an LLM over a few days or weeks, up from one or two news tips of any kind a week. LWN turns these pitches down, because the abandon rate is high and each project's community is one person with an LLM subscription.
+
+## git-pkgs
+
+I tagged [markup v0.1.3](https://github.com/git-pkgs/markup/releases/tag/v0.1.3).
 
 Send links for next week to [@andrewnez@mastodon.social](https://mastodon.social/@andrewnez).
