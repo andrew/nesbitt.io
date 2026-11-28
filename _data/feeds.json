@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-28T00:40:16Z",
-  "cutoff": "2026-10-29T00:40:11Z",
+  "generated": "2026-11-28T02:26:12Z",
+  "cutoff": "2026-10-29T02:26:04Z",
   "feed_count": 104,
   "item_count": 282,
   "categories": [
@@ -22,6 +22,14 @@
     "System"
   ],
   "items": [
+    {
+      "title": "1.19.2",
+      "url": "https://github.com/pypa/pipx/releases/tag/1.19.2",
+      "published": "2026-11-28T01:55:02Z",
+      "preview": "Bug fixes A manifest that is not valid UTF-8 now reports that pipx cannot read it, instead of ending in a traceback ( #2512 ) by @qianeric-backup and @gaborbernat . Report invalid PEP 723 script command names before installation and suggest using --app with a valid name ( #2511 ) by @xixi-box and @gaborbernat . Run a script from a URL or a named pipe that starts with a UTF-8 byte order mark, instead of failing with a SyntaxError ( #2513 ) by @DheerajPiduru52 and @gaborbernat . Stop pipx from crashing with InterpolationSyntaxError when the pipx home, or the virtual environment given to --python",
+      "source": "pipx releases",
+      "category": "Python"
+    },
     {
       "title": "45.3.2",
       "url": "https://github.com/renovatebot/renovate/releases/tag/45.3.2",
@@ -1981,14 +1989,6 @@
       "preview": "Update translations from weblate createrepo's argv[0] should be program name reposync: add --latest-limit=N option cmake: disable WITH_HTML option by default doc/conf.py.in: drop stale and wrong comment Separate dependencies needed for html builds from man page deps doc/conf.py.in: add cmake's file(GENERATE ...) doc: Clarify option placement rules for general vs command-specific options CI tests: Test config-manager vendor policy subcommands doc: Update use of compact format for supplier policies doc: Document config-manager vendor policy subcommands config-manager: Bump version to 0.2.0 confi",
       "source": "DNF5 releases",
       "category": "System"
-    },
-    {
-      "title": "1.18.12",
-      "url": "https://github.com/pypa/pipx/releases/tag/1.18.12",
-      "published": "2026-11-03T05:03:41Z",
-      "preview": "Security pipx run now treats requirements with a version, extras, a marker or a direct URL as packages, and script URLs as downloads, even when the working directory contains a matching file ( #2408 ) by @gaborbernat . 🐍 PyPI release 📜 Full Changelog",
-      "source": "pipx releases",
-      "category": "Python"
     },
     {
       "title": "v1.6.2",
